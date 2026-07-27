@@ -1,8 +1,11 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../data/models/topic.dart';
 import '../../widgets/leximon_widgets.dart';
+import '../word_study/word_study_screen.dart';
 
 class TopicDetailScreen extends StatefulWidget {
   const TopicDetailScreen({required this.topic, super.key});
@@ -33,31 +36,37 @@ class _TopicDetailScreenState extends State<TopicDetailScreen> {
           const _DetailBackdrop(),
           SafeArea(
             bottom: false,
-            child: CustomScrollView(
-              slivers: [
-                SliverPadding(
+            child: Column(
+              children: [
+                Padding(
                   padding: const EdgeInsets.fromLTRB(18, 10, 18, 18),
-                  sliver: SliverToBoxAdapter(child: _topBar()),
+                  child: _topBar(),
                 ),
-                SliverPadding(
-                  padding: const EdgeInsets.symmetric(horizontal: 18),
-                  sliver: SliverToBoxAdapter(child: _topicSummary()),
-                ),
-                SliverPadding(
-                  padding: const EdgeInsets.fromLTRB(18, 14, 18, 0),
-                  sliver: SliverToBoxAdapter(child: _quickStats()),
-                ),
-                SliverPadding(
-                  padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
-                  sliver: SliverToBoxAdapter(child: _actionsSection()),
-                ),
-                SliverPadding(
-                  padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
-                  sliver: SliverToBoxAdapter(child: _previewSection()),
-                ),
-                SliverPadding(
-                  padding: const EdgeInsets.fromLTRB(18, 16, 18, 30),
-                  sliver: SliverToBoxAdapter(child: _tipCard()),
+                Expanded(
+                  child: CustomScrollView(
+                    slivers: [
+                      SliverPadding(
+                        padding: const EdgeInsets.symmetric(horizontal: 18),
+                        sliver: SliverToBoxAdapter(child: _topicSummary()),
+                      ),
+                      SliverPadding(
+                        padding: const EdgeInsets.fromLTRB(18, 14, 18, 0),
+                        sliver: SliverToBoxAdapter(child: _quickStats()),
+                      ),
+                      SliverPadding(
+                        padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
+                        sliver: SliverToBoxAdapter(child: _actionsSection()),
+                      ),
+                      SliverPadding(
+                        padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
+                        sliver: SliverToBoxAdapter(child: _previewSection()),
+                      ),
+                      SliverPadding(
+                        padding: const EdgeInsets.fromLTRB(18, 16, 18, 30),
+                        sliver: SliverToBoxAdapter(child: _tipCard()),
+                      ),
+                    ],
+                  ),
                 ),
               ],
             ),
@@ -258,7 +267,11 @@ class _TopicDetailScreenState extends State<TopicDetailScreen> {
             description: 'Bắt đầu với những từ bạn chưa học trong chủ đề này.',
             color: const Color(0xFFFFF9E8),
             iconBackground: const Color(0xFFFFF0BD),
-            onTap: () => _showComingSoon('Học từ mới'),
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(
+                builder: (_) => WordStudyScreen(topic: topic),
+              ),
+            ),
           ),
           const SizedBox(height: 10),
           _ActionItem(
@@ -443,24 +456,30 @@ class _DetailBackdrop extends StatelessWidget {
         Positioned(
           top: 70,
           left: -86,
-          child: Container(
-            width: 230,
-            height: 230,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: AppColors.cyan.withValues(alpha: .18),
+          child: ImageFiltered(
+            imageFilter: ImageFilter.blur(sigmaX: 18, sigmaY: 18),
+            child: Container(
+              width: 230,
+              height: 230,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: AppColors.cyan.withValues(alpha: .18),
+              ),
             ),
           ),
         ),
         Positioned(
           top: -52,
           right: -56,
-          child: Container(
-            width: 210,
-            height: 210,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Colors.white.withValues(alpha: .08),
+          child: ImageFiltered(
+            imageFilter: ImageFilter.blur(sigmaX: 16, sigmaY: 16),
+            child: Container(
+              width: 210,
+              height: 210,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.white.withValues(alpha: .08),
+              ),
             ),
           ),
         ),

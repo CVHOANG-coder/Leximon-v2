@@ -12,3 +12,7 @@ final topicsProvider = FutureProvider<List<Topic>>((ref) {
 });
 
 final selectedTopicFilterProvider = StateProvider<String>((ref) => 'Tất cả');
+
+final topicSetupOpenProvider = StateProvider<bool>((ref) => false);
+
+final selectedTopicOrdersProvider = StateProvider<Set<int>>((ref) => <int>{});
