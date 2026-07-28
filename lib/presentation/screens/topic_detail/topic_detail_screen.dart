@@ -1,8 +1,10 @@
+import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/models/topic.dart';
 import '../../widgets/leximon_widgets.dart';
 import '../word_study/word_study_screen.dart';
@@ -357,7 +359,7 @@ class _TopicDetailScreenState extends State<TopicDetailScreen> {
               ),
             ),
             IconButton(
-              onPressed: () => _showComingSoon('Phát âm $writing'),
+              onPressed: () => _speakWord(writing),
               icon: const Icon(
                 Icons.volume_up_rounded,
                 color: AppColors.primary,
@@ -419,6 +421,10 @@ class _TopicDetailScreenState extends State<TopicDetailScreen> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('$action sẽ được mở rộng ở bước tiếp theo.')),
     );
+  }
+
+  void _speakWord(String word) {
+    unawaited(TextToSpeechService.instance.speak(word));
   }
 
   String _topicDescription(Topic value) {

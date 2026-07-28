@@ -1,23 +1,71 @@
-import 'dart:convert';
-
-import 'package:flutter/services.dart';
-
+import '../datasources/topic_asset_data_source.dart';
+import '../local/app_database.dart';
 import '../models/topic.dart';
 
 class TopicRepository {
-  const TopicRepository();
+  TopicRepository({
+    required AppDatabase database,
+    required TopicAssetDataSource assetDataSource,
+  }) : _database = database,
+       _assetDataSource = assetDataSource;
+
+  final AppDatabase _database;
+  final TopicAssetDataSource _assetDataSource;
+  Future<void>? _initialization;
+
+  Future<void> initialize() {
+    return _initialization ??= _synchronizeBundledContent();
+  }
 
   Future<List<Topic>> loadTopics() async {
-    final raw = await rootBundle.loadString(
-      'assets/data/topic_word_params.json',
-    );
-    final decoded = jsonDecode(raw) as Map<String, dynamic>;
-    final topics = (decoded['topics'] as List<dynamic>)
-        .whereType<Map<String, dynamic>>()
-        .where((topic) => topic['enabled'] == true)
-        .map(Topic.fromJson)
-        .toList();
-    topics.sort((a, b) => a.order.compareTo(b.order));
-    return topics;
+    await initialize();
+
+    final topicRows = await _database.enabledTopics();
+    final wordRows = await _database.enabledWords();
+    final wordsByTopic = <int, List<WordRow>>{};
+    for (final word in wordRows) {
+      (wordsByTopic[word.topicId] ??= <WordRow>[]).add(word);
+    }
+
+    return topicRows
+        .map(
+          (topic) => Topic(
+            id: topic.id,
+            order: topic.sortOrder,
+            original: topic.originalName ?? '',
+            translated: topic.translatedName ?? '',
+            words: (wordsByTopic[topic.id] ?? const <WordRow>[])
+                .map(_wordToMap)
+                .toList(growable: false),
+          ),
+        )
+        .toList(growable: false);
+  }
+
+  Future<void> _synchronizeBundledContent() async {
+    final payload = await _assetDataSource.load();
+    final localRevision = await _database.topicContentRevision();
+    final hasContent = await _database.hasTopicContent();
+    if (hasContent &&
+        localRevision != null &&
+        localRevision >= payload.version) {
+      return;
+    }
+    await _database.upsertTopicContent(payload);
+  }
+
+  Map<String, dynamic> _wordToMap(WordRow word) {
+    return <String, dynamic>{
+      'id': word.id,
+      'topicId': word.topicId,
+      'writing': word.writing,
+      'translation': word.translation,
+      'transcription': word.transcription,
+      'transliteration': word.transliteration,
+      'enabled': word.isEnabled,
+      'priority': word.priority,
+      'level': word.level,
+      'showCount': word.showCount,
+    };
   }
 }

@@ -26,6 +26,10 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Leximon cần quyền microphone để ghi nhận phát âm của bạn.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Leximon cần quyền nhận dạng giọng nói để chấm phát âm.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

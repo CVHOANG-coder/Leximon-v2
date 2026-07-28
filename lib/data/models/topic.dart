@@ -11,8 +11,8 @@ class Topic {
     return Topic(
       id: json['id'] as int,
       order: json['order'] as int,
-      original: json['original'] as String,
-      translated: json['translated'] as String,
+      original: json['original'] as String? ?? '',
+      translated: json['translated'] as String? ?? '',
       words: (json['words'] as List<dynamic>)
           .whereType<Map<String, dynamic>>()
           .where((word) => word['enabled'] == true)

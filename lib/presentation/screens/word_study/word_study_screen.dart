@@ -3,10 +3,13 @@ import 'dart:ui';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../review_practice/review_practice_screen.dart';
 
 enum _WordState { newWord, learning, known }
 
@@ -25,6 +28,8 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
   int _currentIndex = 0;
   final Map<String, _WordState> _wordStates = {};
   final List<String> _selectedWordKeys = [];
+  final Map<String, Map<String, dynamic>> _selectedWords = {};
+  bool _openingPractice = false;
 
   @override
   void initState() {
@@ -83,19 +88,75 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
         return;
       }
       _selectedWordKeys.add(key);
+      _selectedWords[key] = {...topic.words[index], 'topicId': topic.id};
     } else if (state != _WordState.learning) {
       _selectedWordKeys.remove(key);
+      _selectedWords.remove(key);
     }
 
-    setState(() => _wordStates[key] = state);
+    setState(() {
+      _wordStates[key] = state;
+      if (state != _WordState.newWord && topic.words.isNotEmpty) {
+        _currentIndex = (index + 1) % topic.words.length;
+      }
+    });
+    if (_selectedWordKeys.length == _maxSelectedWords) {
+      WidgetsBinding.instance.addPostFrameCallback((_) => _openPractice());
+    }
   }
 
-  void _playPronunciation(String word) {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text('Phát âm: $word'),
-        duration: const Duration(milliseconds: 900),
+  Future<void> _openPractice() async {
+    if (!mounted || _openingPractice) return;
+    final selectedWords = _selectedWordKeys
+        .map((key) => _selectedWords[key])
+        .whereType<Map<String, dynamic>>()
+        .toList(growable: false);
+    if (selectedWords.length != _maxSelectedWords) return;
+
+    _openingPractice = true;
+    final topics = ref.read(topicsProvider).valueOrNull ?? [widget.topic];
+    final distractorWords = topics
+        .expand(
+          (topic) => topic.words.map(
+            (word) => <String, dynamic>{...word, 'topicId': topic.id},
+          ),
+        )
+        .toList(growable: false);
+    Map<int, List<int>> similarWordIds = const {};
+    try {
+      similarWordIds = await ref
+          .read(appDatabaseProvider)
+          .similarWordIdsFor(
+            selectedWords.map((word) => word['id']).whereType<int>(),
+          );
+    } on Object {
+      // Similar words are support data; the global fallback remains valid
+      // while that optional table is unavailable or still being initialized.
+    }
+    if (!mounted) return;
+    final shouldCloseStudy = await Navigator.of(context).push<bool>(
+      MaterialPageRoute<bool>(
+        builder: (_) => ReviewPracticeScreen(
+          words: selectedWords,
+          distractorWords: distractorWords,
+          similarWordIds: similarWordIds,
+        ),
       ),
+    );
+    _openingPractice = false;
+    if (shouldCloseStudy == true && mounted) {
+      Navigator.of(context).pop();
+    }
+  }
+
+  Future<void> _playPronunciation(String word) {
+    return TextToSpeechService.instance.speak(word);
+  }
+
+  Future<void> _playSlowPronunciation(String word) {
+    return TextToSpeechService.instance.speak(
+      word,
+      speechRate: TextToSpeechService.slowSpeechRate,
     );
   }
 
@@ -147,6 +208,7 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
                     onNext: () => _goToWord(_currentIndex + 1, words.length),
                     onStateChanged: _setWordState,
                     onPlay: _playPronunciation,
+                    onPlaySlow: _playSlowPronunciation,
                   ),
                 ),
                 Transform.translate(
@@ -401,6 +463,7 @@ class _DeckZone extends StatefulWidget {
     required this.onNext,
     required this.onStateChanged,
     required this.onPlay,
+    required this.onPlaySlow,
   });
 
   final List<Map<String, dynamic>> words;
@@ -412,7 +475,8 @@ class _DeckZone extends StatefulWidget {
   final VoidCallback onPrevious;
   final VoidCallback onNext;
   final void Function(Topic topic, int index, _WordState state) onStateChanged;
-  final ValueChanged<String> onPlay;
+  final Future<void> Function(String word) onPlay;
+  final Future<void> Function(String word) onPlaySlow;
 
   @override
   State<_DeckZone> createState() => _DeckZoneState();
@@ -508,6 +572,7 @@ class _DeckZoneState extends State<_DeckZone> {
                         onStateChanged: (state) =>
                             widget.onStateChanged(widget.topic, index, state),
                         onPlay: widget.onPlay,
+                        onPlaySlow: widget.onPlaySlow,
                       ),
                     ),
                   ),
@@ -598,6 +663,7 @@ class _WordCard extends StatelessWidget {
     required this.selectedNumber,
     required this.onStateChanged,
     required this.onPlay,
+    required this.onPlaySlow,
     super.key,
   });
 
@@ -608,7 +674,8 @@ class _WordCard extends StatelessWidget {
   final _WordState state;
   final int? selectedNumber;
   final ValueChanged<_WordState> onStateChanged;
-  final ValueChanged<String> onPlay;
+  final Future<void> Function(String word) onPlay;
+  final Future<void> Function(String word) onPlaySlow;
 
   String get writing => word['writing'] as String? ?? '';
   String get translation => word['translation'] as String? ?? '';
@@ -806,7 +873,7 @@ class _WordCard extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            _SlowAudioButton(onTap: () => onPlay(writing)),
+                            _SlowAudioButton(onTap: () => onPlaySlow(writing)),
                             const SizedBox(width: 15),
                             _AudioButton(onTap: () => onPlay(writing)),
                           ],
@@ -876,74 +943,198 @@ class _WordCard extends StatelessWidget {
   }
 }
 
-class _SlowAudioButton extends StatelessWidget {
+class _SlowAudioButton extends StatefulWidget {
   const _SlowAudioButton({required this.onTap});
 
-  final VoidCallback onTap;
+  final Future<void> Function() onTap;
+
+  @override
+  State<_SlowAudioButton> createState() => _SlowAudioButtonState();
+}
+
+class _SlowAudioButtonState extends State<_SlowAudioButton>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  bool _isPlaying = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1400),
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  Future<void> _handleTap() async {
+    if (_isPlaying) return;
+    setState(() => _isPlaying = true);
+    _controller.repeat(reverse: true);
+    try {
+      await widget.onTap();
+    } finally {
+      if (mounted) {
+        _controller.stop();
+        _controller.reset();
+        setState(() => _isPlaying = false);
+      }
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        width: 62,
-        height: 62,
-        decoration: BoxDecoration(
-          color: const Color(0xFFF0F5FF),
-          borderRadius: BorderRadius.circular(21),
-          border: Border.all(color: const Color(0xFFDCE8FF)),
-        ),
-        child: const Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('🦉', style: TextStyle(fontSize: 21)),
-            Text(
-              '0.75×',
-              style: TextStyle(
-                color: Color(0xFF3B68B5),
-                fontSize: 8,
-                fontWeight: FontWeight.w800,
-              ),
+    return Semantics(
+      button: true,
+      label: 'Phát âm chậm 0.75x',
+      child: GestureDetector(
+        onTap: _handleTap,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 180),
+          width: 62,
+          height: 62,
+          decoration: BoxDecoration(
+            color: _isPlaying
+                ? const Color(0xFFE0ECFF)
+                : const Color(0xFFF0F5FF),
+            borderRadius: BorderRadius.circular(21),
+            border: Border.all(
+              color: _isPlaying ? AppColors.primary : const Color(0xFFDCE8FF),
             ),
-          ],
+            boxShadow: _isPlaying
+                ? const [
+                    BoxShadow(
+                      color: Color(0x33155CFF),
+                      blurRadius: 14,
+                      spreadRadius: 1,
+                    ),
+                  ]
+                : null,
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              AnimatedBuilder(
+                animation: _controller,
+                child: SvgPicture.asset(
+                  'assets/svgs/slow.svg',
+                  width: 26,
+                  height: 26,
+                ),
+                builder: (context, child) {
+                  final progress = Curves.easeInOut.transform(
+                    _controller.value,
+                  );
+                  return Transform.translate(
+                    offset: Offset(progress * 7, 0),
+                    child: child,
+                  );
+                },
+              ),
+              const SizedBox(height: 2),
+              Text(
+                '0.75×',
+                style: TextStyle(
+                  color: _isPlaying
+                      ? AppColors.primary
+                      : const Color(0xFF3B68B5),
+                  fontSize: 8,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 }
 
-class _AudioButton extends StatelessWidget {
+class _AudioButton extends StatefulWidget {
   const _AudioButton({required this.onTap});
 
-  final VoidCallback onTap;
+  final Future<void> Function() onTap;
+
+  @override
+  State<_AudioButton> createState() => _AudioButtonState();
+}
+
+class _AudioButtonState extends State<_AudioButton>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  bool _isPlaying = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 700),
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  Future<void> _handleTap() async {
+    if (_isPlaying) return;
+    setState(() => _isPlaying = true);
+    _controller.repeat(reverse: true);
+    try {
+      await widget.onTap();
+    } finally {
+      if (mounted) {
+        _controller.stop();
+        _controller.reset();
+        setState(() => _isPlaying = false);
+      }
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Container(
-        width: 84,
-        height: 84,
-        alignment: Alignment.center,
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(27),
-          gradient: const LinearGradient(
-            colors: [AppColors.primaryDark, AppColors.primary],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          ),
-          boxShadow: const [
-            BoxShadow(
-              color: Color(0x3D155CFF),
-              blurRadius: 24,
-              offset: Offset(0, 12),
+    return Semantics(
+      button: true,
+      label: 'Phát âm bình thường',
+      child: GestureDetector(
+        onTap: _handleTap,
+        child: Container(
+          width: 84,
+          height: 84,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(27),
+            gradient: const LinearGradient(
+              colors: [AppColors.primaryDark, AppColors.primary],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
-          ],
-        ),
-        child: const Icon(
-          Icons.volume_up_rounded,
-          color: Colors.white,
-          size: 34,
+            boxShadow: const [
+              BoxShadow(
+                color: Color(0x3D155CFF),
+                blurRadius: 24,
+                offset: Offset(0, 12),
+              ),
+            ],
+          ),
+          child: ScaleTransition(
+            scale: Tween<double>(begin: .88, end: 1.08).animate(
+              CurvedAnimation(parent: _controller, curve: Curves.easeInOut),
+            ),
+            child: const Icon(
+              Icons.volume_up_rounded,
+              color: Colors.white,
+              size: 34,
+            ),
+          ),
         ),
       ),
     );
