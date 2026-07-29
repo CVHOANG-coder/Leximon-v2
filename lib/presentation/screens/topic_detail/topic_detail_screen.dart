@@ -2,35 +2,43 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/services/text_to_speech_service.dart';
+import '../../../data/services/topic_progress_service.dart';
 import '../../../data/models/topic.dart';
+import '../../../shared/providers/app_providers.dart';
 import '../../widgets/leximon_widgets.dart';
 import '../word_study/word_study_screen.dart';
 
-class TopicDetailScreen extends StatefulWidget {
+class TopicDetailScreen extends ConsumerStatefulWidget {
   const TopicDetailScreen({required this.topic, super.key});
 
   final Topic topic;
 
   @override
-  State<TopicDetailScreen> createState() => _TopicDetailScreenState();
+  ConsumerState<TopicDetailScreen> createState() => _TopicDetailScreenState();
 }
 
-class _TopicDetailScreenState extends State<TopicDetailScreen> {
+class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
   bool _saved = false;
+  late TopicProgressDetails _progressDetails;
 
   Topic get topic => widget.topic;
-  double get progress => topicProgress(topic);
-  int get learnedWords => (topic.wordCount * progress).round();
-  int get rememberedWords => (learnedWords * .62).round();
-  int get reviewWords => (learnedWords * .16).round();
-  int get activeWords =>
-      (learnedWords - rememberedWords - reviewWords).clamp(0, learnedWords);
+  double get progress => _progressDetails.progress;
+  int get learnedWords => _progressDetails.learnedWords;
+  int get progressedWords => _progressDetails.progressedWords;
+  int get rememberedWords =>
+      (learnedWords - reviewWords).clamp(0, learnedWords);
+  int get reviewWords => _progressDetails.reviewWords;
+  int get activeWords => _progressDetails.activeWords;
 
   @override
   Widget build(BuildContext context) {
+    _progressDetails =
+        ref.watch(topicProgressDetailsProvider(topic.id)).valueOrNull ??
+        TopicProgressDetails.empty(topic.wordCount);
     return Scaffold(
       backgroundColor: AppColors.background,
       body: Stack(
@@ -204,7 +212,7 @@ class _TopicDetailScreenState extends State<TopicDetailScreen> {
                   ],
                 ),
                 Text(
-                  '$learnedWords / ${topic.wordCount} từ',
+                  '$progressedWords / ${_progressDetails.totalWords} từ',
                   style: const TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w900,

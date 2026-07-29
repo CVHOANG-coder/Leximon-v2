@@ -8,36 +8,47 @@ import 'package:speech_to_text/speech_to_text.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/services/text_to_speech_service.dart';
+import '../../../data/local/app_database.dart';
 import '../../../data/models/practice_exercise.dart';
+import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/practice_lesson_generator.dart';
+import '../../../data/services/learning_progress_service.dart';
 
 class ReviewPracticeScreen extends StatefulWidget {
   const ReviewPracticeScreen({
     required this.words,
     required this.distractorWords,
+    this.dailyTaskType,
     this.similarWordIds = const {},
     this.listeningEnabled = true,
     this.pronouncingEnabled = true,
     this.initialQuestionIndex = 0,
     this.showIntroOnStart = true,
+    this.database,
     super.key,
   });
 
   final List<Map<String, dynamic>> words;
   final List<Map<String, dynamic>> distractorWords;
+  final DailyTaskType? dailyTaskType;
   final Map<int, List<int>> similarWordIds;
   final bool listeningEnabled;
   final bool pronouncingEnabled;
   final int initialQuestionIndex;
   final bool showIntroOnStart;
+  final AppDatabase? database;
 
   @override
   State<ReviewPracticeScreen> createState() => _ReviewPracticeScreenState();
 }
 
 class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
+  static const _wrongAnswerSheetDelay = Duration(milliseconds: 800);
   late final List<ExerciseWord> _introWords;
   late final List<PracticeExercise> _questions;
+  late final List<ExerciseAnswerState> _answers;
+  late final List<bool> _isRetry;
+  late final List<int> _sessionOrderIndexes;
   late bool _showIntro;
   int _questionIndex = 0;
   ExerciseWord? _selectedAnswer;
@@ -46,9 +57,14 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
   bool _isFeedbackSheetVisible = false;
   bool _isSpeakingRecording = false;
   bool _isSpeakingResultCorrect = false;
+  bool _isSpeakingDecisionVisible = false;
   bool _speechAvailable = false;
   String _recognizedSpeakingText = '';
   String? _speakingError;
+  LearningProgressService? _progressService;
+  String? _sessionId;
+  Future<void> _sessionReady = Future<void>.value();
+  Future<void> _persistenceChain = Future<void>.value();
   final SpeechToText _speechToText = SpeechToText();
 
   PracticeExercise get _question => _questions[_questionIndex];
@@ -93,17 +109,47 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
         .map(ExerciseWord.fromMap)
         .where((word) => word.writing.isNotEmpty && word.translation.isNotEmpty)
         .toList(growable: false);
-    _questions = PracticeLessonGenerator().buildLesson(
-      words: _introWords,
-      enabledWords: enabledWords,
-      similarWordIds: widget.similarWordIds,
-      listeningEnabled: widget.listeningEnabled,
-      pronouncingEnabled: widget.pronouncingEnabled,
+    _questions = List<PracticeExercise>.of(
+      PracticeLessonGenerator().buildLesson(
+        words: _introWords,
+        enabledWords: enabledWords,
+        similarWordIds: widget.similarWordIds,
+        listeningEnabled: widget.listeningEnabled,
+        pronouncingEnabled: widget.pronouncingEnabled,
+      ),
+    );
+    _answers = List<ExerciseAnswerState>.filled(
+      _questions.length,
+      ExerciseAnswerState.notAnswered,
+      growable: true,
+    );
+    _isRetry = List<bool>.filled(_questions.length, false, growable: true);
+    _sessionOrderIndexes = List<int>.generate(
+      _questions.length,
+      (index) => index,
+      growable: true,
     );
     _showIntro = widget.showIntroOnStart;
     _questionIndex = widget.initialQuestionIndex
         .clamp(0, _questions.length - 1)
         .toInt();
+
+    if (widget.database != null && _questions.isNotEmpty) {
+      _progressService = LearningProgressService(widget.database!);
+      _sessionReady = _createLearningSession();
+    }
+  }
+
+  Future<void> _createLearningSession() async {
+    final service = _progressService;
+    if (service == null) return;
+    _sessionId = await service.startSession(
+      exercises: _questions,
+      requiredMask: LearningProgressService.maskForTypes(
+        _questions.map((question) => question.trainingExercise),
+      ),
+      topicId: _introWords.first.topicId,
+    );
   }
 
   void _startPractice() => setState(() => _showIntro = false);
@@ -114,6 +160,13 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       _selectedAnswer = answer;
       if (!_isListeningChoice) _isAnswerSubmitted = true;
     });
+    if (!_isListeningChoice) {
+      _recordCurrentAnswer(
+        answer.id == _question.word.id
+            ? ExerciseAnswerState.correct
+            : ExerciseAnswerState.wrong,
+      );
+    }
     final isWrongAnswer = answer.id != _question.word.id;
     if (isWrongAnswer && !_isListeningChoice) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -126,6 +179,9 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     if (!_isListeningChoice || !_hasSelection || _answered) return;
     final isWrongAnswer = _selectedAnswer!.id != _question.word.id;
     setState(() => _isAnswerSubmitted = true);
+    _recordCurrentAnswer(
+      isWrongAnswer ? ExerciseAnswerState.wrong : ExerciseAnswerState.correct,
+    );
     if (isWrongAnswer) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         _showListeningWrongAnswerSheet();
@@ -148,6 +204,11 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       _typingInput = nextInput;
       if (completed) _isAnswerSubmitted = true;
     });
+    if (completed) {
+      _recordCurrentAnswer(
+        _isCorrect ? ExerciseAnswerState.correct : ExerciseAnswerState.wrong,
+      );
+    }
     if (completed && !_isCorrect) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         _showTypingWrongAnswerSheet();
@@ -167,6 +228,11 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     final selectedAnswer = _selectedAnswer!;
     final question = _question;
     setState(() => _isFeedbackSheetVisible = true);
+    await Future<void>.delayed(_wrongAnswerSheetDelay);
+    if (!mounted || !_answered || _isCorrect || _isListeningChoice) {
+      if (mounted) setState(() => _isFeedbackSheetVisible = false);
+      return;
+    }
     try {
       await showModalBottomSheet<void>(
         context: context,
@@ -183,7 +249,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
             onPlay: _playWord,
             onContinue: () {
               Navigator.of(sheetContext).pop();
-              _continue();
+              unawaited(_continue());
             },
             isLast: _questionIndex == _questions.length - 1,
           ),
@@ -199,6 +265,11 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     final selectedAnswer = _selectedAnswer!;
     final question = _question;
     setState(() => _isFeedbackSheetVisible = true);
+    await Future<void>.delayed(_wrongAnswerSheetDelay);
+    if (!mounted || !_answered || _isCorrect || !_isListeningChoice) {
+      if (mounted) setState(() => _isFeedbackSheetVisible = false);
+      return;
+    }
     try {
       await showModalBottomSheet<void>(
         context: context,
@@ -215,7 +286,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
             onPlay: _playWord,
             onContinue: () {
               Navigator.of(sheetContext).pop();
-              _continue();
+              unawaited(_continue());
             },
             isLast: _questionIndex == _questions.length - 1,
           ),
@@ -230,6 +301,11 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     if (!mounted || !_answered || _isCorrect || !_isTypingChoice) return;
     final question = _question;
     setState(() => _isFeedbackSheetVisible = true);
+    await Future<void>.delayed(_wrongAnswerSheetDelay);
+    if (!mounted || !_answered || _isCorrect || !_isTypingChoice) {
+      if (mounted) setState(() => _isFeedbackSheetVisible = false);
+      return;
+    }
     try {
       await showModalBottomSheet<void>(
         context: context,
@@ -245,7 +321,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
             onPlay: _playWord,
             onContinue: () {
               Navigator.of(sheetContext).pop();
-              _continue();
+              unawaited(_continue());
             },
             isLast: _questionIndex == _questions.length - 1,
           ),
@@ -256,10 +332,10 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     }
   }
 
-  void _continue() {
+  Future<void> _continue() async {
     if (!_answered) return;
     if (_questionIndex == _questions.length - 1) {
-      Navigator.of(context).pop(true);
+      await _finishSession();
       return;
     }
     setState(() {
@@ -272,6 +348,73 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       _speakingError = null;
       _isSpeakingResultCorrect = false;
     });
+  }
+
+  void _recordCurrentAnswer(ExerciseAnswerState answer) {
+    _recordAnswerAt(_questionIndex, answer);
+  }
+
+  void _recordAnswerAt(int index, ExerciseAnswerState answer) {
+    if (_answers[index] != ExerciseAnswerState.notAnswered) return;
+    _answers[index] = answer;
+
+    final question = _questions[index];
+    if (answer == ExerciseAnswerState.wrong && !_isRetry[index]) {
+      _appendRetry(question);
+    }
+
+    final service = _progressService;
+    if (service == null) return;
+    _persistenceChain = _persistenceChain.then((_) async {
+      await _sessionReady;
+      final sessionId = _sessionId;
+      if (sessionId == null) return;
+      await service.submitAnswer(
+        sessionId: sessionId,
+        orderIndex: _sessionOrderIndexes[index],
+        answer: answer,
+      );
+    });
+  }
+
+  void _appendRetry(PracticeExercise question) {
+    for (var index = 0; index < _questions.length; index++) {
+      if (_isRetry[index] &&
+          _questions[index].word.id == question.word.id &&
+          _questions[index].trainingExercise == question.trainingExercise) {
+        return;
+      }
+    }
+    setState(() {
+      _questions.add(
+        PracticeExercise(
+          word: question.word,
+          variants: question.variants,
+          trainingExercise: question.trainingExercise,
+        ),
+      );
+      _answers.add(ExerciseAnswerState.notAnswered);
+      _isRetry.add(true);
+      _sessionOrderIndexes.add(_sessionOrderIndexes.length);
+    });
+  }
+
+  Future<void> _finishSession() async {
+    await _persistenceChain;
+    final service = _progressService;
+    final sessionId = _sessionId;
+    if (service != null && sessionId != null) {
+      try {
+        await service.completeSession(
+          sessionId,
+          dailyTaskType: widget.dailyTaskType,
+        );
+      } on StateError {
+        // Keep the completed UI flow available when a non-persistent test
+        // session is intentionally interrupted.
+      }
+    }
+    if (mounted) Navigator.of(context).pop(true);
   }
 
   Future<void> _playWord(ExerciseWord word) {
@@ -289,17 +432,23 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     if (!_isSpeakingChoice || _answered) return;
     if (_isSpeakingRecording) {
       await _speechToText.stop();
-      if (mounted) setState(() => _isSpeakingRecording = false);
+      if (mounted) {
+        setState(() => _isSpeakingRecording = false);
+        _maybeShowNoSpeech();
+      }
       return;
     }
 
     final available = await _ensureSpeechRecognition();
     if (!available) {
       if (mounted) {
-        setState(
-          () => _speakingError =
-              'Không thể truy cập microphone hoặc nhận dạng giọng nói.',
-        );
+        setState(() {
+          _speakingError =
+              'Không thể truy cập microphone hoặc nhận dạng giọng nói.';
+        });
+        // Permission/device failure makes the remaining speaking block
+        // unavailable for this session. It must not become a knowledge error.
+        _skipSpeakingQuestions();
       }
       return;
     }
@@ -342,6 +491,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
           if (!mounted || !_isSpeakingRecording) return;
           if (status == 'done' || status == 'notListening') {
             setState(() => _isSpeakingRecording = false);
+            _maybeShowNoSpeech();
           }
         },
         onError: (error) {
@@ -350,6 +500,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
             _isSpeakingRecording = false;
             _speakingError = error.errorMsg;
           });
+          if (_isNoSpeechError(error.errorMsg)) _maybeShowNoSpeech();
         },
       );
       if (mounted) setState(() => _speechAvailable = available);
@@ -362,11 +513,86 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
   void _checkSpeakingResult() {
     if (!_isSpeakingChoice || _isSpeakingRecording || _answered) return;
     final recognized = _normalizeSpeech(_recognizedSpeakingText);
-    if (recognized.isEmpty) return;
+    if (recognized.isEmpty) {
+      unawaited(_showSpeakingDecision(noSound: true));
+      return;
+    }
+    final isCorrect = recognized == _normalizeSpeech(_question.word.writing);
+    if (isCorrect) {
+      setState(() {
+        _isSpeakingResultCorrect = true;
+        _isAnswerSubmitted = true;
+      });
+      _recordCurrentAnswer(ExerciseAnswerState.correct);
+      return;
+    }
+
+    setState(() => _isSpeakingResultCorrect = false);
+    unawaited(_showSpeakingDecision(noSound: false));
+  }
+
+  void _maybeShowNoSpeech() {
+    if (!mounted || !_isSpeakingChoice || _answered || _isSpeakingRecording) {
+      return;
+    }
+    if (_recognizedSpeakingText.trim().isNotEmpty) return;
+    unawaited(_showSpeakingDecision(noSound: true));
+  }
+
+  bool _isNoSpeechError(String message) {
+    final normalized = message.toLowerCase();
+    return normalized.contains('no_match') ||
+        normalized.contains('no match') ||
+        normalized.contains('no speech');
+  }
+
+  Future<void> _showSpeakingDecision({required bool noSound}) async {
+    if (!mounted || !_isSpeakingChoice || _answered) return;
+    if (_isSpeakingDecisionVisible) return;
+    _isSpeakingDecisionVisible = true;
+    try {
+      final decision = await showDialog<_SpeakingDecision>(
+        context: context,
+        barrierDismissible: false,
+        barrierColor: const Color(0x7504193A),
+        builder: (dialogContext) => _SpeakingDecisionDialog(
+          noSound: noSound,
+          onRetry: () =>
+              Navigator.of(dialogContext).pop(_SpeakingDecision.retry),
+          onSkip: () => Navigator.of(dialogContext).pop(_SpeakingDecision.skip),
+        ),
+      );
+      if (!mounted) return;
+      if (decision == _SpeakingDecision.retry) {
+        setState(() {
+          _recognizedSpeakingText = '';
+          _speakingError = null;
+          _isSpeakingResultCorrect = false;
+        });
+      } else if (decision == _SpeakingDecision.skip) {
+        _skipCurrentSpeakingQuestion();
+      }
+    } finally {
+      _isSpeakingDecisionVisible = false;
+    }
+  }
+
+  void _skipCurrentSpeakingQuestion() {
+    unawaited(_speechToText.cancel());
+    _recordCurrentAnswer(ExerciseAnswerState.skipped);
+    if (_questionIndex == _questions.length - 1) {
+      unawaited(_finishSession());
+      return;
+    }
     setState(() {
-      _isSpeakingResultCorrect =
-          recognized == _normalizeSpeech(_question.word.writing);
-      _isAnswerSubmitted = true;
+      _questionIndex += 1;
+      _selectedAnswer = null;
+      _typingInput = const [];
+      _isAnswerSubmitted = false;
+      _isSpeakingRecording = false;
+      _recognizedSpeakingText = '';
+      _speakingError = null;
+      _isSpeakingResultCorrect = false;
     });
   }
 
@@ -377,8 +603,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       builder: (dialogContext) => _SkipListeningDialog(
         title:
             'Bạn có chắc chắn bạn muốn bỏ qua thực hành phát âm vào lúc này?',
-        description:
-            'Các câu hỏi phát âm sẽ được giữ ở trạng thái chưa trả lời.',
+        description: 'Các câu hỏi phát âm sẽ không được tính là đã làm đúng.',
         onCancel: () => Navigator.of(dialogContext).pop(false),
         onSkip: () => Navigator.of(dialogContext).pop(true),
       ),
@@ -388,14 +613,18 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
 
   void _skipSpeakingQuestions() {
     unawaited(_speechToText.cancel());
+    final skippedFrom = _questionIndex;
     var nextIndex = _questionIndex + 1;
     while (nextIndex < _questions.length &&
         _questions[nextIndex].trainingExercise ==
             TrainingExerciseType.speaking) {
       nextIndex += 1;
     }
+    for (var index = skippedFrom; index < nextIndex; index++) {
+      _recordAnswerAt(index, ExerciseAnswerState.skipped);
+    }
     if (nextIndex >= _questions.length) {
-      Navigator.of(context).pop(true);
+      unawaited(_finishSession());
       return;
     }
     setState(() {
@@ -421,8 +650,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       builder: (dialogContext) => _SkipListeningDialog(
         title:
             'Bạn có chắc chắn bạn muốn bỏ qua thực hành nghe hiểu vào lúc này?',
-        description:
-            'Các câu hỏi nghe hiểu sẽ được giữ ở trạng thái chưa trả lời.',
+        description: 'Các câu hỏi nghe hiểu sẽ không được tính là đã làm đúng.',
         onCancel: () => Navigator.of(dialogContext).pop(false),
         onSkip: () => Navigator.of(dialogContext).pop(true),
       ),
@@ -431,12 +659,16 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
   }
 
   void _skipListeningQuestions() {
+    final skippedFrom = _questionIndex;
     var nextIndex = _questionIndex + 1;
     while (nextIndex < _questions.length && _isListeningExerciseAt(nextIndex)) {
       nextIndex += 1;
     }
+    for (var index = skippedFrom; index < nextIndex; index++) {
+      _recordAnswerAt(index, ExerciseAnswerState.skipped);
+    }
     if (nextIndex >= _questions.length) {
-      Navigator.of(context).pop(true);
+      unawaited(_finishSession());
       return;
     }
     setState(() {
@@ -464,7 +696,13 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     );
     if (shouldExit == true && mounted) {
       unawaited(_speechToText.cancel());
-      Navigator.of(context).pop(true);
+      await _persistenceChain;
+      final service = _progressService;
+      final sessionId = _sessionId;
+      if (service != null && sessionId != null) {
+        await service.abandonSession(sessionId);
+      }
+      if (mounted) Navigator.of(context).pop(true);
     }
   }
 
@@ -550,7 +788,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
                                 )
                               : Column(
                                   key: ValueKey(
-                                    'practice-question-$_questionIndex-${_selectedAnswer?.id ?? 'pending'}-${_answered ? 'submitted' : 'selection'}',
+                                    'practice-question-$_questionIndex',
                                   ),
                                   children: [
                                     if (_isListeningChoice)
@@ -608,7 +846,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
                                         !_isFeedbackSheetVisible) ...[
                                       const SizedBox(height: 14),
                                       _ContinueButton(
-                                        onPressed: _continue,
+                                        onPressed: () => unawaited(_continue()),
                                         isLast:
                                             _questionIndex ==
                                             _questions.length - 1,
@@ -3585,6 +3823,36 @@ class _FeedbackCard extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+enum _SpeakingDecision { retry, skip }
+
+class _SpeakingDecisionDialog extends StatelessWidget {
+  const _SpeakingDecisionDialog({
+    required this.noSound,
+    required this.onRetry,
+    required this.onSkip,
+  });
+
+  final bool noSound;
+  final VoidCallback onRetry;
+  final VoidCallback onSkip;
+
+  @override
+  Widget build(BuildContext context) {
+    return AlertDialog(
+      title: Text(noSound ? 'Không nghe thấy gì' : 'Chưa nhận diện đúng'),
+      content: Text(
+        noSound
+            ? 'Hãy thử nói lại từ này hoặc bỏ qua riêng câu phát âm hiện tại.'
+            : 'Hãy thử lại cách phát âm hoặc bỏ qua riêng câu hiện tại.',
+      ),
+      actions: [
+        TextButton(onPressed: onSkip, child: const Text('Bỏ qua')),
+        FilledButton(onPressed: onRetry, child: const Text('Thử lại')),
+      ],
     );
   }
 }

@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../data/services/daily_card_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../topic_detail/topic_detail_screen.dart';
+import '../word_study/word_study_screen.dart';
 
 class HomeScreen extends ConsumerStatefulWidget {
   const HomeScreen({super.key});
@@ -30,12 +32,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     final topicsAsync = ref.watch(topicsProvider);
+    final topicProgressById =
+        ref.watch(topicProgressProvider).valueOrNull ?? const <int, double>{};
     final filter = ref.watch(selectedTopicFilterProvider);
     final selectedTopicOrders = ref.watch(selectedTopicOrdersProvider);
-    final isEmptyState =
-        topicsAsync.valueOrNull?.every((topic) => topicProgress(topic) <= 0) ??
-        false;
-
+    final topicSelectionReady = ref
+        .watch(selectedTopicOrdersHydrationProvider)
+        .hasValue;
     return SafeArea(
       bottom: false,
       child: Column(
@@ -49,9 +52,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               slivers: [
                 SliverPadding(
                   padding: const EdgeInsets.fromLTRB(18, 0, 18, 0),
-                  sliver: SliverToBoxAdapter(
-                    child: _DailyCard(empty: isEmptyState),
-                  ),
+                  sliver: SliverToBoxAdapter(child: const _DailyCard()),
                 ),
                 SliverPadding(
                   padding: const EdgeInsets.fromLTRB(18, 24, 18, 0),
@@ -94,22 +95,42 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                               child: Text('Không thể tải chủ đề.'),
                             ),
                             data: (topics) {
-                              final matchingTopics =
-                                  _filterTopics(topics, filter, _search).where((
-                                    topic,
-                                  ) {
-                                    return selectedTopicOrders.isEmpty ||
-                                        selectedTopicOrders.contains(
-                                          topic.order,
-                                        );
-                                  }).toList();
+                              if (!topicSelectionReady) {
+                                return const Padding(
+                                  padding: EdgeInsets.all(30),
+                                  child: CircularProgressIndicator(),
+                                );
+                              }
+                              final allMatchingTopics = _filterTopics(
+                                topics,
+                                filter,
+                                _search,
+                                topicProgressById,
+                              );
+                              final selectedTopics = selectedTopicOrders.isEmpty
+                                  ? allMatchingTopics
+                                  : allMatchingTopics
+                                        .where(
+                                          (topic) => selectedTopicOrders
+                                              .contains(topic.order),
+                                        )
+                                        .toList();
+                              final hasTopicSetup =
+                                  selectedTopicOrders.isNotEmpty;
+                              final topicPool = hasTopicSetup
+                                  ? selectedTopics
+                                  : allMatchingTopics;
                               final visibleTopics = _showAllTopics
-                                  ? matchingTopics
-                                  : matchingTopics.take(10).toList();
+                                  ? topicPool
+                                  : topicPool.take(10).toList();
+                              final showTopicToggle = topicPool.length > 10;
                               return Column(
                                 children: [
-                                  _TopicGrid(topics: visibleTopics),
-                                  if (matchingTopics.length > 10) ...[
+                                  _TopicGrid(
+                                    topics: visibleTopics,
+                                    progressByTopicId: topicProgressById,
+                                  ),
+                                  if (showTopicToggle) ...[
                                     const SizedBox(height: 12),
                                     OutlinedButton.icon(
                                       onPressed: () => setState(
@@ -124,8 +145,54 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                                       label: Text(
                                         _showAllTopics
                                             ? 'Thu gọn'
-                                            : 'Xem tất cả ${filter == 'Tất cả' && _search.isEmpty ? 48 : matchingTopics.length} chủ đề',
+                                            : 'Xem tất cả ${topicPool.length} chủ đề',
                                       ),
+                                      style: OutlinedButton.styleFrom(
+                                        minimumSize: const Size(
+                                          double.infinity,
+                                          45,
+                                        ),
+                                        padding: EdgeInsets.zero,
+                                        foregroundColor: AppColors.primary,
+                                        backgroundColor: AppColors.surfaceBlue,
+                                        side: BorderSide.none,
+                                        textStyle: const TextStyle(
+                                          inherit: false,
+                                          fontFamily: 'Be Vietnam Pro',
+                                          fontSize: 10,
+                                          fontWeight: FontWeight.w800,
+                                        ),
+                                        shape: RoundedRectangleBorder(
+                                          borderRadius: BorderRadius.circular(
+                                            15,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ] else ...[
+                                    const SizedBox(height: 12),
+                                    OutlinedButton.icon(
+                                      onPressed: () {
+                                        ref
+                                                .read(
+                                                  topicSetupStartAtTopicsProvider
+                                                      .notifier,
+                                                )
+                                                .state =
+                                            true;
+                                        ref
+                                                .read(
+                                                  topicSetupOpenProvider
+                                                      .notifier,
+                                                )
+                                                .state =
+                                            true;
+                                      },
+                                      icon: const Icon(
+                                        Icons.add_rounded,
+                                        size: 18,
+                                      ),
+                                      label: const Text('Thiết lập thêm topic'),
                                       style: OutlinedButton.styleFrom(
                                         minimumSize: const Size(
                                           double.infinity,
@@ -170,13 +237,18 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
     );
   }
 
-  List<Topic> _filterTopics(List<Topic> topics, String filter, String search) {
+  List<Topic> _filterTopics(
+    List<Topic> topics,
+    String filter,
+    String search,
+    Map<int, double> progressByTopicId,
+  ) {
     final filteredTopics = topics.where((topic) {
       final matchesSearch =
           search.isEmpty ||
           topic.translated.toLowerCase().contains(search) ||
           topic.original.toLowerCase().contains(search);
-      final progress = topicProgress(topic);
+      final progress = progressByTopicId[topic.id] ?? 0;
       final matchesFilter =
           filter == 'Tất cả' ||
           (filter == 'Đang học' && progress > 0) ||
@@ -366,23 +438,81 @@ class _NotificationButton extends StatelessWidget {
   }
 }
 
-class _DailyCard extends StatelessWidget {
-  const _DailyCard({this.empty = false});
+class _DailyCard extends ConsumerWidget {
+  const _DailyCard();
 
-  final bool empty;
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return ref
+        .watch(dailyCardProvider)
+        .when(
+          loading: () => const _DailyCardLoading(),
+          error: (error, stack) => const _DailyCardError(),
+          data: (snapshot) => _DailyCardContent(snapshot: snapshot),
+        );
+  }
+}
+
+class _DailyCardLoading extends StatelessWidget {
+  const _DailyCardLoading();
 
   @override
   Widget build(BuildContext context) {
-    if (empty) {
-      return const _EmptyDailyCard();
-    }
+    return Container(
+      height: 210,
+      alignment: Alignment.center,
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: .9),
+        borderRadius: BorderRadius.circular(26),
+      ),
+      child: const CircularProgressIndicator(strokeWidth: 2.5),
+    );
+  }
+}
+
+class _DailyCardError extends StatelessWidget {
+  const _DailyCardError();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(20),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: .9),
+        borderRadius: BorderRadius.circular(26),
+      ),
+      child: const Text(
+        'Chưa thể tải nhiệm vụ hôm nay.',
+        style: TextStyle(color: AppColors.textSecondary, fontSize: 12),
+      ),
+    );
+  }
+}
+
+class _DailyCardContent extends ConsumerWidget {
+  const _DailyCardContent({required this.snapshot});
+
+  final DailyCardSnapshot snapshot;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final completedTasks = snapshot.tasks.where((task) => task.isDone).length;
+    final title = snapshot.isComplete
+        ? 'Hẹn bạn ngày mai nhé!'
+        : snapshot.isFirstLearningDay &&
+              snapshot.tasks.every((task) => task.completed == 0)
+        ? 'Bắt đầu học từ mới'
+        : 'Học thêm một chút hôm nay';
+    final description = snapshot.isComplete
+        ? 'Bạn đã hoàn thành mọi nhiệm vụ chính.'
+        : 'Mỗi ngày vài phút, vốn từ của bạn sẽ tiến xa hơn.';
 
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.fromLTRB(15, 15, 15, 14),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(26),
+        borderRadius: BorderRadius.circular(27),
         gradient: const LinearGradient(
-          colors: [Colors.white, Color(0xFFEEF6FF)],
+          colors: [Colors.white, Color(0xFFEAF3FF)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -394,123 +524,351 @@ class _DailyCard extends StatelessWidget {
           ),
         ],
       ),
-      child: IntrinsicHeight(
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 9,
-                      vertical: 6,
-                    ),
-                    decoration: BoxDecoration(
-                      color: const Color(0xFFFFF3BF),
-                      borderRadius: BorderRadius.circular(99),
-                    ),
-                    child: const Text(
-                      '🔥  Chuỗi 7 ngày',
-                      style: TextStyle(
-                        color: Color(0xFF8B5B00),
-                        fontSize: 9,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 6),
+                decoration: BoxDecoration(
+                  color: snapshot.isComplete
+                      ? const Color(0xFFDDF8EE)
+                      : const Color(0xFFFFF3BF),
+                  borderRadius: BorderRadius.circular(99),
+                ),
+                child: Text(
+                  snapshot.isComplete
+                      ? '✓  Đã hoàn thành'
+                      : '🔥  NHIỆM VỤ HÔM NAY',
+                  style: TextStyle(
+                    color: snapshot.isComplete
+                        ? const Color(0xFF137E68)
+                        : const Color(0xFF8B5B00),
+                    fontSize: 9,
+                    fontWeight: FontWeight.w800,
                   ),
-                  const SizedBox(height: 12),
-                  const Text(
-                    'MỤC TIÊU HÔM NAY',
-                    style: TextStyle(
-                      color: AppColors.textSecondary,
-                      fontSize: 10,
-                      fontWeight: FontWeight.w800,
-                      letterSpacing: .7,
-                    ),
-                  ),
-                  const SizedBox(height: 2),
-                  const Text(
-                    '8 / 12 từ',
-                    style: TextStyle(
-                      color: AppColors.textPrimary,
-                      fontSize: 28,
-                      height: 1,
-                      fontWeight: FontWeight.w900,
-                      letterSpacing: -1.5,
-                    ),
-                  ),
-                  const SizedBox(height: 11),
-                  const ProgressLine(value: .67),
-                ],
+                ),
+              ),
+              const Spacer(),
+              Text(
+                '$completedTasks / ${snapshot.tasks.length}',
+                style: const TextStyle(
+                  color: AppColors.textSecondary,
+                  fontSize: 10,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Text(
+            title,
+            style: const TextStyle(
+              color: AppColors.textPrimary,
+              fontSize: 24,
+              height: 1.05,
+              fontWeight: FontWeight.w900,
+              letterSpacing: -1.1,
+            ),
+          ),
+          const SizedBox(height: 5),
+          Text(
+            description,
+            style: const TextStyle(
+              color: AppColors.textSecondary,
+              fontSize: 10,
+              height: 1.4,
+            ),
+          ),
+          const SizedBox(height: 13),
+          ...snapshot.tasks.map(
+            (task) => Padding(
+              padding: const EdgeInsets.only(bottom: 8),
+              child: _DailyTaskTile(
+                task: task,
+                showMascot:
+                    task.type == DailyTaskType.learn &&
+                    task.completed == 0 &&
+                    !snapshot.isComplete,
+                onTap: task.isDone
+                    ? null
+                    : () => _openTask(context, ref, task.type),
               ),
             ),
-            const SizedBox(width: 14),
-            Container(
-              width: 153,
-              padding: const EdgeInsets.all(10),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(19),
-                gradient: const LinearGradient(
-                  colors: [AppColors.primaryDark, AppColors.primary],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-                boxShadow: const [
-                  BoxShadow(
-                    color: Color(0x361558FF),
-                    blurRadius: 16,
-                    offset: Offset(0, 8),
+          ),
+          if (snapshot.isComplete) ...[
+            const SizedBox(height: 2),
+            SizedBox(
+              width: double.infinity,
+              height: 42,
+              child: OutlinedButton.icon(
+                onPressed: () => _showAdditionalTasks(context, ref),
+                icon: const Icon(Icons.add_rounded, size: 18),
+                label: const Text('Thêm nhiệm vụ'),
+                style: OutlinedButton.styleFrom(
+                  foregroundColor: AppColors.primary,
+                  side: const BorderSide(color: Color(0x29155CFF)),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(14),
                   ),
-                ],
+                  textStyle: const TextStyle(
+                    fontSize: 11,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Future<void> _openTask(
+    BuildContext context,
+    WidgetRef ref,
+    DailyTaskType type,
+  ) async {
+    final topics = ref.read(topicsProvider).valueOrNull ?? const <Topic>[];
+    final topic = topics.cast<Topic?>().firstWhere(
+      (item) => item != null && item.words.isNotEmpty,
+      orElse: () => null,
+    );
+    if (topic == null) return;
+
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (_) => WordStudyScreen(topic: topic, dailyTaskType: type),
+      ),
+    );
+    if (!context.mounted) return;
+    ref.invalidate(dailyCardProvider);
+    ref.invalidate(progressDashboardProvider);
+  }
+
+  Future<void> _showAdditionalTasks(BuildContext context, WidgetRef ref) async {
+    final selectedType = await showModalBottomSheet<DailyTaskType>(
+      context: context,
+      backgroundColor: Colors.transparent,
+      builder: (_) => _AdditionalTasksSheet(types: snapshot.additionalTasks),
+    );
+    if (selectedType != null && context.mounted) {
+      await _openTask(context, ref, selectedType);
+    }
+  }
+}
+
+class _DailyTaskTile extends StatelessWidget {
+  const _DailyTaskTile({
+    required this.task,
+    required this.onTap,
+    this.showMascot = false,
+  });
+
+  final DailyTaskSnapshot task;
+  final VoidCallback? onTap;
+  final bool showMascot;
+
+  @override
+  Widget build(BuildContext context) {
+    final done = task.isDone;
+    final colors = _dailyTaskColors(task.type, done);
+    return Semantics(
+      button: onTap != null,
+      label:
+          '${_dailyTaskLabel(task.type)} ${task.completed} trên ${task.count}',
+      child: Stack(
+        clipBehavior: Clip.none,
+        children: [
+          InkWell(
+            onTap: onTap,
+            borderRadius: BorderRadius.circular(17),
+            child: AnimatedContainer(
+              duration: const Duration(milliseconds: 180),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 9),
+              decoration: BoxDecoration(
+                color: colors.background,
+                borderRadius: BorderRadius.circular(17),
+                border: Border.all(color: colors.border),
               ),
               child: Row(
                 children: [
                   Container(
-                    width: 40,
-                    height: 40,
+                    width: 38,
+                    height: 38,
+                    alignment: Alignment.center,
                     decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(14),
+                      color: colors.iconBackground,
+                      borderRadius: BorderRadius.circular(13),
                     ),
-                    child: const Icon(
-                      Icons.play_arrow_rounded,
-                      color: AppColors.primaryDark,
-                      size: 22,
+                    child: Icon(
+                      done ? Icons.check_rounded : _dailyTaskIcon(task.type),
+                      color: colors.icon,
+                      size: 20,
                     ),
                   ),
-                  const SizedBox(width: 8),
-                  const Expanded(
+                  const SizedBox(width: 10),
+                  Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Tiếp tục',
+                          _dailyTaskLabel(task.type),
                           style: TextStyle(
-                            color: Color(0xFFA9D9FF),
-                            fontSize: 9,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                        SizedBox(height: 2),
-                        Text(
-                          'Du lịch',
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 13,
+                            color: colors.title,
+                            fontSize: 12,
                             fontWeight: FontWeight.w800,
                           ),
                         ),
+                        const SizedBox(height: 3),
+                        if (!done)
+                          Text(
+                            '${task.completed} / ${task.count} từ',
+                            style: const TextStyle(
+                              color: AppColors.textSecondary,
+                              fontSize: 10,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          )
+                        else
+                          const Text(
+                            'Đã hoàn thành hôm nay',
+                            style: TextStyle(
+                              color: Color(0xFF719187),
+                              fontSize: 10,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
                       ],
                     ),
                   ),
-                  const Icon(
-                    Icons.chevron_right_rounded,
-                    color: Colors.white70,
-                    size: 18,
-                  ),
+                  if (!done)
+                    Icon(
+                      Icons.chevron_right_rounded,
+                      color: colors.icon,
+                      size: 19,
+                    ),
                 ],
+              ),
+            ),
+          ),
+          if (showMascot)
+            const Positioned(right: -24, top: -13, child: _WavingOwl(size: 72)),
+        ],
+      ),
+    );
+  }
+}
+
+class _WavingOwl extends StatefulWidget {
+  const _WavingOwl({required this.size});
+
+  final double size;
+
+  @override
+  State<_WavingOwl> createState() => _WavingOwlState();
+}
+
+class _WavingOwlState extends State<_WavingOwl>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1400),
+    )..repeat(reverse: true);
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return IgnorePointer(
+      child: AnimatedBuilder(
+        animation: _controller,
+        child: Image.asset(
+          'assets/images/leximon-owl-wave.png',
+          width: widget.size,
+          height: widget.size,
+          fit: BoxFit.contain,
+          filterQuality: FilterQuality.high,
+        ),
+        builder: (context, child) {
+          final wave = Curves.easeInOut.transform(_controller.value);
+          return Transform.translate(
+            offset: Offset(0, -2.5 * wave),
+            child: Transform.rotate(
+              angle: (wave - .5) * .08,
+              alignment: Alignment.bottomCenter,
+              child: child,
+            ),
+          );
+        },
+      ),
+    );
+  }
+}
+
+class _AdditionalTasksSheet extends StatelessWidget {
+  const _AdditionalTasksSheet({required this.types});
+
+  final List<DailyTaskType> types;
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(18, 18, 18, 14),
+        decoration: const BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Nhiệm vụ thêm',
+              style: TextStyle(
+                color: AppColors.textPrimary,
+                fontSize: 21,
+                fontWeight: FontWeight.w900,
+              ),
+            ),
+            const SizedBox(height: 5),
+            const Text(
+              'Hoàn thành thêm nếu bạn vẫn còn hứng học.',
+              style: TextStyle(color: AppColors.textSecondary, fontSize: 11),
+            ),
+            const SizedBox(height: 15),
+            ...types.map(
+              (type) => ListTile(
+                contentPadding: EdgeInsets.zero,
+                leading: CircleAvatar(
+                  backgroundColor: const Color(0xFFEAF1FF),
+                  child: Icon(
+                    _dailyTaskIcon(type),
+                    color: AppColors.primary,
+                    size: 19,
+                  ),
+                ),
+                title: Text(
+                  _dailyTaskLabel(type),
+                  style: const TextStyle(
+                    fontSize: 12,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                trailing: const Icon(Icons.chevron_right_rounded),
+                onTap: () => Navigator.of(context).pop(type),
               ),
             ),
           ],
@@ -520,6 +878,60 @@ class _DailyCard extends StatelessWidget {
   }
 }
 
+String _dailyTaskLabel(DailyTaskType type) {
+  switch (type) {
+    case DailyTaskType.repeat:
+      return 'Ôn lại từ';
+    case DailyTaskType.learn:
+      return 'Học từ mới';
+    case DailyTaskType.train:
+      return 'Luyện nhanh';
+    case DailyTaskType.difficult:
+      return 'Từ khó';
+  }
+}
+
+IconData _dailyTaskIcon(DailyTaskType type) {
+  switch (type) {
+    case DailyTaskType.repeat:
+      return Icons.sync_rounded;
+    case DailyTaskType.learn:
+      return Icons.lightbulb_outline_rounded;
+    case DailyTaskType.train:
+      return Icons.bolt_rounded;
+    case DailyTaskType.difficult:
+      return Icons.psychology_alt_outlined;
+  }
+}
+
+({
+  Color background,
+  Color border,
+  Color iconBackground,
+  Color icon,
+  Color title,
+})
+_dailyTaskColors(DailyTaskType type, bool done) {
+  if (done) {
+    return (
+      background: const Color(0xFFF0F7F4),
+      border: const Color(0xFFD9EEE6),
+      iconBackground: const Color(0xFFDDF8EE),
+      icon: const Color(0xFF137E68),
+      title: const Color(0xFF608378),
+    );
+  }
+  return (
+    background: Colors.white.withValues(alpha: .82),
+    border: const Color(0x1A155CFF),
+    iconBackground: const Color(0xFFEAF1FF),
+    icon: AppColors.primary,
+    title: AppColors.textPrimary,
+  );
+}
+
+// Kept as a visual fallback for future onboarding variants.
+// ignore: unused_element
 class _EmptyDailyCard extends StatelessWidget {
   const _EmptyDailyCard();
 
@@ -1005,8 +1417,9 @@ class _FilterChips extends ConsumerWidget {
 }
 
 class _TopicGrid extends StatelessWidget {
-  const _TopicGrid({required this.topics});
+  const _TopicGrid({required this.topics, required this.progressByTopicId});
   final List<Topic> topics;
+  final Map<int, double> progressByTopicId;
 
   @override
   Widget build(BuildContext context) {
@@ -1031,6 +1444,7 @@ class _TopicGrid extends StatelessWidget {
       ),
       itemBuilder: (context, index) => TopicCard(
         topic: topics[index],
+        progress: progressByTopicId[topics[index].id] ?? 0,
         onTap: () => Navigator.of(context).push(
           MaterialPageRoute<void>(
             builder: (_) => TopicDetailScreen(topic: topics[index]),

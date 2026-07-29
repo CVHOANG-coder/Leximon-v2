@@ -7,7 +7,7 @@ enum TrainingExerciseType {
   speaking,
 }
 
-enum ExerciseAnswerState { notAnswered, correct, wrong }
+enum ExerciseAnswerState { notAnswered, correct, wrong, skipped }
 
 class ExerciseWord {
   const ExerciseWord({

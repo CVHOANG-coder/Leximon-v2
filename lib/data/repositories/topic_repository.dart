@@ -1,3 +1,5 @@
+import 'package:drift/drift.dart';
+
 import '../datasources/topic_asset_data_source.dart';
 import '../local/app_database.dart';
 import '../models/topic.dart';
@@ -40,6 +42,25 @@ class TopicRepository {
           ),
         )
         .toList(growable: false);
+  }
+
+  Future<Set<int>> selectedTopicOrders() async {
+    final rows = await (_database.select(
+      _database.topicModels,
+    )..where((row) => row.isSelected.equals(true))).get();
+    return rows.map((row) => row.sortOrder).toSet();
+  }
+
+  Future<void> saveSelectedTopicOrders(Set<int> orders) {
+    return _database.transaction(() async {
+      await _database
+          .update(_database.topicModels)
+          .write(const TopicModelsCompanion(isSelected: Value(false)));
+      if (orders.isEmpty) return;
+      await (_database.update(_database.topicModels)
+            ..where((row) => row.sortOrder.isIn(orders)))
+          .write(const TopicModelsCompanion(isSelected: Value(true)));
+    });
   }
 
   Future<void> _synchronizeBundledContent() async {

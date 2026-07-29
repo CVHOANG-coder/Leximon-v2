@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -11,8 +12,14 @@ import '../../../shared/providers/app_providers.dart';
 enum _SetupStep { level, topics }
 
 class OnboardingScreen extends ConsumerStatefulWidget {
-  const OnboardingScreen({this.onExit, this.onFinished, super.key});
+  const OnboardingScreen({
+    this.startAtTopics = false,
+    this.onExit,
+    this.onFinished,
+    super.key,
+  });
 
+  final bool startAtTopics;
   final VoidCallback? onExit;
   final VoidCallback? onFinished;
 
@@ -21,9 +28,19 @@ class OnboardingScreen extends ConsumerStatefulWidget {
 }
 
 class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
-  _SetupStep _step = _SetupStep.level;
+  late _SetupStep _step;
   String _selectedLevel = 'Sơ cấp';
-  final Set<int> _selectedTopicOrders = {1, 2, 3};
+  late final Set<int> _selectedTopicOrders;
+
+  @override
+  void initState() {
+    super.initState();
+    _step = widget.startAtTopics ? _SetupStep.topics : _SetupStep.level;
+    final existingOrders = ref.read(selectedTopicOrdersProvider);
+    _selectedTopicOrders = existingOrders.isEmpty
+        ? {1, 2, 3}
+        : {...existingOrders};
+  }
 
   void _continue() {
     if (_step == _SetupStep.level) {
@@ -31,12 +48,25 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
       return;
     }
 
-    ref.read(selectedTopicOrdersProvider.notifier).state = {
-      ..._selectedTopicOrders,
-    };
+    final selectedOrders = {..._selectedTopicOrders};
+    ref.read(selectedTopicOrdersProvider.notifier).state = selectedOrders;
+    unawaited(_persistSelectedTopics(selectedOrders));
     widget.onFinished?.call();
     if (widget.onFinished == null && Navigator.of(context).canPop()) {
       Navigator.of(context).pop();
+    }
+  }
+
+  Future<void> _persistSelectedTopics(Set<int> selectedOrders) async {
+    try {
+      await ref
+          .read(topicRepositoryProvider)
+          .saveSelectedTopicOrders(selectedOrders);
+    } on Object {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Không thể lưu chủ đề đã chọn.')),
+      );
     }
   }
 

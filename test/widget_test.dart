@@ -18,7 +18,6 @@ void main() {
 
     expect(find.text('Leximon'), findsOneWidget);
     expect(find.text('Học tập'), findsOneWidget);
-    expect(find.text('MỤC TIÊU HÔM NAY'), findsOneWidget);
 
     final filterButton = find.byType(IconButton);
     await tester.ensureVisible(filterButton);
@@ -140,6 +139,8 @@ void main() {
     expect(find.text('trip'), findsOneWidget);
 
     await tester.tap(find.text('hộ chiếu'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 1300));
     await tester.pumpAndSettle();
 
     expect(find.text('Câu trả lời của bạn'), findsWidgets);
@@ -230,6 +231,8 @@ void main() {
 
     await tester.ensureVisible(find.text('Chọn'));
     await tester.tap(find.text('Chọn'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 1300));
     await tester.pumpAndSettle();
 
     expect(find.text('Bạn chọn sai âm thanh'), findsOneWidget);
@@ -286,6 +289,8 @@ void main() {
       find.byKey(const ValueKey('choice-four-listening-2')),
     );
     await tester.tap(find.byKey(const ValueKey('choice-four-listening-2')));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 1300));
     await tester.pumpAndSettle();
 
     expect(find.text('Chú ý'), findsOneWidget);

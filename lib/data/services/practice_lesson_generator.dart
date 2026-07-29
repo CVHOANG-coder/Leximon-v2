@@ -7,6 +7,41 @@ class PracticeLessonGenerator {
 
   final Random _random;
 
+  /// Builds the compact lesson used by the progress/repetition flow.
+  ///
+  /// Repetition deliberately keeps one question per word. Unlike a new-word
+  /// lesson, it is not limited to four words and it only needs one distractor
+  /// beside the correct translation.
+  List<PracticeExercise> buildRepetitionLesson({
+    required List<ExerciseWord> words,
+    required List<ExerciseWord> enabledWords,
+  }) {
+    return words
+        .map((target) {
+          final sameTopic =
+              enabledWords
+                  .where(
+                    (word) =>
+                        word.id != target.id && word.topicId == target.topicId,
+                  )
+                  .toList()
+                ..shuffle(_random);
+          final fallback =
+              enabledWords.where((word) => word.id != target.id).toList()
+                ..shuffle(_random);
+          final distractor =
+              (sameTopic.isNotEmpty ? sameTopic : fallback).firstOrNull;
+          final variants = [?distractor, target];
+
+          return PracticeExercise(
+            word: target,
+            variants: _shuffled(variants),
+            trainingExercise: TrainingExerciseType.choiceOfFourFromEng,
+          );
+        })
+        .toList(growable: false);
+  }
+
   List<PracticeExercise> buildLesson({
     required List<ExerciseWord> words,
     required List<ExerciseWord> enabledWords,

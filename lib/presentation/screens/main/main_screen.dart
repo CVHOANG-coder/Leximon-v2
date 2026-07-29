@@ -44,12 +44,12 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Consumer(
       builder: (context, ref, child) {
+        ref.watch(selectedTopicOrdersHydrationProvider);
         if (ref.watch(topicSetupOpenProvider)) {
           return OnboardingScreen(
-            onExit: () =>
-                ref.read(topicSetupOpenProvider.notifier).state = false,
-            onFinished: () =>
-                ref.read(topicSetupOpenProvider.notifier).state = false,
+            startAtTopics: ref.watch(topicSetupStartAtTopicsProvider),
+            onExit: () => _closeTopicSetup(ref),
+            onFinished: () => _closeTopicSetup(ref),
           );
         }
 
@@ -69,12 +69,25 @@ class _MainScreenState extends State<MainScreen> {
           bottomNavigationBar: _BottomNav(
             selectedIndex: _selectedIndex,
             tabs: _tabs,
-            onDestinationSelected: (index) =>
-                setState(() => _selectedIndex = index),
+            onDestinationSelected: (index) {
+              if (index == 1) {
+                // IndexedStack keeps DiscoverScreen alive, so explicitly
+                // reload local progress whenever the tab is opened again.
+                ref.invalidate(progressDashboardProvider);
+                ref.invalidate(topicProgressProvider);
+                ref.invalidate(vocabularyCollectionProvider);
+              }
+              setState(() => _selectedIndex = index);
+            },
           ),
         );
       },
     );
+  }
+
+  void _closeTopicSetup(WidgetRef ref) {
+    ref.read(topicSetupStartAtTopicsProvider.notifier).state = false;
+    ref.read(topicSetupOpenProvider.notifier).state = false;
   }
 }
 

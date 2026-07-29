@@ -1821,6 +1821,1331 @@ class LearningProgressModelsCompanion
   }
 }
 
+class $LearningSessionsTable extends LearningSessions
+    with TableInfo<$LearningSessionsTable, LearningSession> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $LearningSessionsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<String> id = GeneratedColumn<String>(
+    'id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _topicIdMeta = const VerificationMeta(
+    'topicId',
+  );
+  @override
+  late final GeneratedColumn<int> topicId = GeneratedColumn<int>(
+    'topic_id',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _statusMeta = const VerificationMeta('status');
+  @override
+  late final GeneratedColumn<int> status = GeneratedColumn<int>(
+    'status',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _requiredMaskMeta = const VerificationMeta(
+    'requiredMask',
+  );
+  @override
+  late final GeneratedColumn<int> requiredMask = GeneratedColumn<int>(
+    'required_mask',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _originalExerciseCountMeta =
+      const VerificationMeta('originalExerciseCount');
+  @override
+  late final GeneratedColumn<int> originalExerciseCount = GeneratedColumn<int>(
+    'original_exercise_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _currentIndexMeta = const VerificationMeta(
+    'currentIndex',
+  );
+  @override
+  late final GeneratedColumn<int> currentIndex = GeneratedColumn<int>(
+    'current_index',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _startedAtMeta = const VerificationMeta(
+    'startedAt',
+  );
+  @override
+  late final GeneratedColumn<int> startedAt = GeneratedColumn<int>(
+    'started_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _completedAtMeta = const VerificationMeta(
+    'completedAt',
+  );
+  @override
+  late final GeneratedColumn<int> completedAt = GeneratedColumn<int>(
+    'completed_at',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _completionAppliedAtMeta =
+      const VerificationMeta('completionAppliedAt');
+  @override
+  late final GeneratedColumn<int> completionAppliedAt = GeneratedColumn<int>(
+    'completion_applied_at',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _successfulWordCountMeta =
+      const VerificationMeta('successfulWordCount');
+  @override
+  late final GeneratedColumn<int> successfulWordCount = GeneratedColumn<int>(
+    'successful_word_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _unresolvedWrongWordCountMeta =
+      const VerificationMeta('unresolvedWrongWordCount');
+  @override
+  late final GeneratedColumn<int> unresolvedWrongWordCount =
+      GeneratedColumn<int>(
+        'unresolved_wrong_word_count',
+        aliasedName,
+        false,
+        type: DriftSqlType.int,
+        requiredDuringInsert: false,
+        defaultValue: const Constant(0),
+      );
+  static const VerificationMeta _newlyLearnedWordCountMeta =
+      const VerificationMeta('newlyLearnedWordCount');
+  @override
+  late final GeneratedColumn<int> newlyLearnedWordCount = GeneratedColumn<int>(
+    'newly_learned_word_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    topicId,
+    status,
+    requiredMask,
+    originalExerciseCount,
+    currentIndex,
+    startedAt,
+    completedAt,
+    completionAppliedAt,
+    successfulWordCount,
+    unresolvedWrongWordCount,
+    newlyLearnedWordCount,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'LearningSession';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<LearningSession> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    } else if (isInserting) {
+      context.missing(_idMeta);
+    }
+    if (data.containsKey('topic_id')) {
+      context.handle(
+        _topicIdMeta,
+        topicId.isAcceptableOrUnknown(data['topic_id']!, _topicIdMeta),
+      );
+    }
+    if (data.containsKey('status')) {
+      context.handle(
+        _statusMeta,
+        status.isAcceptableOrUnknown(data['status']!, _statusMeta),
+      );
+    }
+    if (data.containsKey('required_mask')) {
+      context.handle(
+        _requiredMaskMeta,
+        requiredMask.isAcceptableOrUnknown(
+          data['required_mask']!,
+          _requiredMaskMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_requiredMaskMeta);
+    }
+    if (data.containsKey('original_exercise_count')) {
+      context.handle(
+        _originalExerciseCountMeta,
+        originalExerciseCount.isAcceptableOrUnknown(
+          data['original_exercise_count']!,
+          _originalExerciseCountMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_originalExerciseCountMeta);
+    }
+    if (data.containsKey('current_index')) {
+      context.handle(
+        _currentIndexMeta,
+        currentIndex.isAcceptableOrUnknown(
+          data['current_index']!,
+          _currentIndexMeta,
+        ),
+      );
+    }
+    if (data.containsKey('started_at')) {
+      context.handle(
+        _startedAtMeta,
+        startedAt.isAcceptableOrUnknown(data['started_at']!, _startedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_startedAtMeta);
+    }
+    if (data.containsKey('completed_at')) {
+      context.handle(
+        _completedAtMeta,
+        completedAt.isAcceptableOrUnknown(
+          data['completed_at']!,
+          _completedAtMeta,
+        ),
+      );
+    }
+    if (data.containsKey('completion_applied_at')) {
+      context.handle(
+        _completionAppliedAtMeta,
+        completionAppliedAt.isAcceptableOrUnknown(
+          data['completion_applied_at']!,
+          _completionAppliedAtMeta,
+        ),
+      );
+    }
+    if (data.containsKey('successful_word_count')) {
+      context.handle(
+        _successfulWordCountMeta,
+        successfulWordCount.isAcceptableOrUnknown(
+          data['successful_word_count']!,
+          _successfulWordCountMeta,
+        ),
+      );
+    }
+    if (data.containsKey('unresolved_wrong_word_count')) {
+      context.handle(
+        _unresolvedWrongWordCountMeta,
+        unresolvedWrongWordCount.isAcceptableOrUnknown(
+          data['unresolved_wrong_word_count']!,
+          _unresolvedWrongWordCountMeta,
+        ),
+      );
+    }
+    if (data.containsKey('newly_learned_word_count')) {
+      context.handle(
+        _newlyLearnedWordCountMeta,
+        newlyLearnedWordCount.isAcceptableOrUnknown(
+          data['newly_learned_word_count']!,
+          _newlyLearnedWordCountMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  LearningSession map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return LearningSession(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}id'],
+      )!,
+      topicId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}topic_id'],
+      ),
+      status: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}status'],
+      )!,
+      requiredMask: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}required_mask'],
+      )!,
+      originalExerciseCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}original_exercise_count'],
+      )!,
+      currentIndex: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}current_index'],
+      )!,
+      startedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}started_at'],
+      )!,
+      completedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}completed_at'],
+      ),
+      completionAppliedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}completion_applied_at'],
+      ),
+      successfulWordCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}successful_word_count'],
+      )!,
+      unresolvedWrongWordCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}unresolved_wrong_word_count'],
+      )!,
+      newlyLearnedWordCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}newly_learned_word_count'],
+      )!,
+    );
+  }
+
+  @override
+  $LearningSessionsTable createAlias(String alias) {
+    return $LearningSessionsTable(attachedDatabase, alias);
+  }
+}
+
+class LearningSession extends DataClass implements Insertable<LearningSession> {
+  final String id;
+  final int? topicId;
+  final int status;
+  final int requiredMask;
+  final int originalExerciseCount;
+  final int currentIndex;
+  final int startedAt;
+  final int? completedAt;
+  final int? completionAppliedAt;
+  final int successfulWordCount;
+  final int unresolvedWrongWordCount;
+  final int newlyLearnedWordCount;
+  const LearningSession({
+    required this.id,
+    this.topicId,
+    required this.status,
+    required this.requiredMask,
+    required this.originalExerciseCount,
+    required this.currentIndex,
+    required this.startedAt,
+    this.completedAt,
+    this.completionAppliedAt,
+    required this.successfulWordCount,
+    required this.unresolvedWrongWordCount,
+    required this.newlyLearnedWordCount,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<String>(id);
+    if (!nullToAbsent || topicId != null) {
+      map['topic_id'] = Variable<int>(topicId);
+    }
+    map['status'] = Variable<int>(status);
+    map['required_mask'] = Variable<int>(requiredMask);
+    map['original_exercise_count'] = Variable<int>(originalExerciseCount);
+    map['current_index'] = Variable<int>(currentIndex);
+    map['started_at'] = Variable<int>(startedAt);
+    if (!nullToAbsent || completedAt != null) {
+      map['completed_at'] = Variable<int>(completedAt);
+    }
+    if (!nullToAbsent || completionAppliedAt != null) {
+      map['completion_applied_at'] = Variable<int>(completionAppliedAt);
+    }
+    map['successful_word_count'] = Variable<int>(successfulWordCount);
+    map['unresolved_wrong_word_count'] = Variable<int>(
+      unresolvedWrongWordCount,
+    );
+    map['newly_learned_word_count'] = Variable<int>(newlyLearnedWordCount);
+    return map;
+  }
+
+  LearningSessionsCompanion toCompanion(bool nullToAbsent) {
+    return LearningSessionsCompanion(
+      id: Value(id),
+      topicId: topicId == null && nullToAbsent
+          ? const Value.absent()
+          : Value(topicId),
+      status: Value(status),
+      requiredMask: Value(requiredMask),
+      originalExerciseCount: Value(originalExerciseCount),
+      currentIndex: Value(currentIndex),
+      startedAt: Value(startedAt),
+      completedAt: completedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(completedAt),
+      completionAppliedAt: completionAppliedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(completionAppliedAt),
+      successfulWordCount: Value(successfulWordCount),
+      unresolvedWrongWordCount: Value(unresolvedWrongWordCount),
+      newlyLearnedWordCount: Value(newlyLearnedWordCount),
+    );
+  }
+
+  factory LearningSession.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return LearningSession(
+      id: serializer.fromJson<String>(json['id']),
+      topicId: serializer.fromJson<int?>(json['topicId']),
+      status: serializer.fromJson<int>(json['status']),
+      requiredMask: serializer.fromJson<int>(json['requiredMask']),
+      originalExerciseCount: serializer.fromJson<int>(
+        json['originalExerciseCount'],
+      ),
+      currentIndex: serializer.fromJson<int>(json['currentIndex']),
+      startedAt: serializer.fromJson<int>(json['startedAt']),
+      completedAt: serializer.fromJson<int?>(json['completedAt']),
+      completionAppliedAt: serializer.fromJson<int?>(
+        json['completionAppliedAt'],
+      ),
+      successfulWordCount: serializer.fromJson<int>(
+        json['successfulWordCount'],
+      ),
+      unresolvedWrongWordCount: serializer.fromJson<int>(
+        json['unresolvedWrongWordCount'],
+      ),
+      newlyLearnedWordCount: serializer.fromJson<int>(
+        json['newlyLearnedWordCount'],
+      ),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<String>(id),
+      'topicId': serializer.toJson<int?>(topicId),
+      'status': serializer.toJson<int>(status),
+      'requiredMask': serializer.toJson<int>(requiredMask),
+      'originalExerciseCount': serializer.toJson<int>(originalExerciseCount),
+      'currentIndex': serializer.toJson<int>(currentIndex),
+      'startedAt': serializer.toJson<int>(startedAt),
+      'completedAt': serializer.toJson<int?>(completedAt),
+      'completionAppliedAt': serializer.toJson<int?>(completionAppliedAt),
+      'successfulWordCount': serializer.toJson<int>(successfulWordCount),
+      'unresolvedWrongWordCount': serializer.toJson<int>(
+        unresolvedWrongWordCount,
+      ),
+      'newlyLearnedWordCount': serializer.toJson<int>(newlyLearnedWordCount),
+    };
+  }
+
+  LearningSession copyWith({
+    String? id,
+    Value<int?> topicId = const Value.absent(),
+    int? status,
+    int? requiredMask,
+    int? originalExerciseCount,
+    int? currentIndex,
+    int? startedAt,
+    Value<int?> completedAt = const Value.absent(),
+    Value<int?> completionAppliedAt = const Value.absent(),
+    int? successfulWordCount,
+    int? unresolvedWrongWordCount,
+    int? newlyLearnedWordCount,
+  }) => LearningSession(
+    id: id ?? this.id,
+    topicId: topicId.present ? topicId.value : this.topicId,
+    status: status ?? this.status,
+    requiredMask: requiredMask ?? this.requiredMask,
+    originalExerciseCount: originalExerciseCount ?? this.originalExerciseCount,
+    currentIndex: currentIndex ?? this.currentIndex,
+    startedAt: startedAt ?? this.startedAt,
+    completedAt: completedAt.present ? completedAt.value : this.completedAt,
+    completionAppliedAt: completionAppliedAt.present
+        ? completionAppliedAt.value
+        : this.completionAppliedAt,
+    successfulWordCount: successfulWordCount ?? this.successfulWordCount,
+    unresolvedWrongWordCount:
+        unresolvedWrongWordCount ?? this.unresolvedWrongWordCount,
+    newlyLearnedWordCount: newlyLearnedWordCount ?? this.newlyLearnedWordCount,
+  );
+  LearningSession copyWithCompanion(LearningSessionsCompanion data) {
+    return LearningSession(
+      id: data.id.present ? data.id.value : this.id,
+      topicId: data.topicId.present ? data.topicId.value : this.topicId,
+      status: data.status.present ? data.status.value : this.status,
+      requiredMask: data.requiredMask.present
+          ? data.requiredMask.value
+          : this.requiredMask,
+      originalExerciseCount: data.originalExerciseCount.present
+          ? data.originalExerciseCount.value
+          : this.originalExerciseCount,
+      currentIndex: data.currentIndex.present
+          ? data.currentIndex.value
+          : this.currentIndex,
+      startedAt: data.startedAt.present ? data.startedAt.value : this.startedAt,
+      completedAt: data.completedAt.present
+          ? data.completedAt.value
+          : this.completedAt,
+      completionAppliedAt: data.completionAppliedAt.present
+          ? data.completionAppliedAt.value
+          : this.completionAppliedAt,
+      successfulWordCount: data.successfulWordCount.present
+          ? data.successfulWordCount.value
+          : this.successfulWordCount,
+      unresolvedWrongWordCount: data.unresolvedWrongWordCount.present
+          ? data.unresolvedWrongWordCount.value
+          : this.unresolvedWrongWordCount,
+      newlyLearnedWordCount: data.newlyLearnedWordCount.present
+          ? data.newlyLearnedWordCount.value
+          : this.newlyLearnedWordCount,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('LearningSession(')
+          ..write('id: $id, ')
+          ..write('topicId: $topicId, ')
+          ..write('status: $status, ')
+          ..write('requiredMask: $requiredMask, ')
+          ..write('originalExerciseCount: $originalExerciseCount, ')
+          ..write('currentIndex: $currentIndex, ')
+          ..write('startedAt: $startedAt, ')
+          ..write('completedAt: $completedAt, ')
+          ..write('completionAppliedAt: $completionAppliedAt, ')
+          ..write('successfulWordCount: $successfulWordCount, ')
+          ..write('unresolvedWrongWordCount: $unresolvedWrongWordCount, ')
+          ..write('newlyLearnedWordCount: $newlyLearnedWordCount')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    topicId,
+    status,
+    requiredMask,
+    originalExerciseCount,
+    currentIndex,
+    startedAt,
+    completedAt,
+    completionAppliedAt,
+    successfulWordCount,
+    unresolvedWrongWordCount,
+    newlyLearnedWordCount,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is LearningSession &&
+          other.id == this.id &&
+          other.topicId == this.topicId &&
+          other.status == this.status &&
+          other.requiredMask == this.requiredMask &&
+          other.originalExerciseCount == this.originalExerciseCount &&
+          other.currentIndex == this.currentIndex &&
+          other.startedAt == this.startedAt &&
+          other.completedAt == this.completedAt &&
+          other.completionAppliedAt == this.completionAppliedAt &&
+          other.successfulWordCount == this.successfulWordCount &&
+          other.unresolvedWrongWordCount == this.unresolvedWrongWordCount &&
+          other.newlyLearnedWordCount == this.newlyLearnedWordCount);
+}
+
+class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
+  final Value<String> id;
+  final Value<int?> topicId;
+  final Value<int> status;
+  final Value<int> requiredMask;
+  final Value<int> originalExerciseCount;
+  final Value<int> currentIndex;
+  final Value<int> startedAt;
+  final Value<int?> completedAt;
+  final Value<int?> completionAppliedAt;
+  final Value<int> successfulWordCount;
+  final Value<int> unresolvedWrongWordCount;
+  final Value<int> newlyLearnedWordCount;
+  final Value<int> rowid;
+  const LearningSessionsCompanion({
+    this.id = const Value.absent(),
+    this.topicId = const Value.absent(),
+    this.status = const Value.absent(),
+    this.requiredMask = const Value.absent(),
+    this.originalExerciseCount = const Value.absent(),
+    this.currentIndex = const Value.absent(),
+    this.startedAt = const Value.absent(),
+    this.completedAt = const Value.absent(),
+    this.completionAppliedAt = const Value.absent(),
+    this.successfulWordCount = const Value.absent(),
+    this.unresolvedWrongWordCount = const Value.absent(),
+    this.newlyLearnedWordCount = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  LearningSessionsCompanion.insert({
+    required String id,
+    this.topicId = const Value.absent(),
+    this.status = const Value.absent(),
+    required int requiredMask,
+    required int originalExerciseCount,
+    this.currentIndex = const Value.absent(),
+    required int startedAt,
+    this.completedAt = const Value.absent(),
+    this.completionAppliedAt = const Value.absent(),
+    this.successfulWordCount = const Value.absent(),
+    this.unresolvedWrongWordCount = const Value.absent(),
+    this.newlyLearnedWordCount = const Value.absent(),
+    this.rowid = const Value.absent(),
+  }) : id = Value(id),
+       requiredMask = Value(requiredMask),
+       originalExerciseCount = Value(originalExerciseCount),
+       startedAt = Value(startedAt);
+  static Insertable<LearningSession> custom({
+    Expression<String>? id,
+    Expression<int>? topicId,
+    Expression<int>? status,
+    Expression<int>? requiredMask,
+    Expression<int>? originalExerciseCount,
+    Expression<int>? currentIndex,
+    Expression<int>? startedAt,
+    Expression<int>? completedAt,
+    Expression<int>? completionAppliedAt,
+    Expression<int>? successfulWordCount,
+    Expression<int>? unresolvedWrongWordCount,
+    Expression<int>? newlyLearnedWordCount,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (topicId != null) 'topic_id': topicId,
+      if (status != null) 'status': status,
+      if (requiredMask != null) 'required_mask': requiredMask,
+      if (originalExerciseCount != null)
+        'original_exercise_count': originalExerciseCount,
+      if (currentIndex != null) 'current_index': currentIndex,
+      if (startedAt != null) 'started_at': startedAt,
+      if (completedAt != null) 'completed_at': completedAt,
+      if (completionAppliedAt != null)
+        'completion_applied_at': completionAppliedAt,
+      if (successfulWordCount != null)
+        'successful_word_count': successfulWordCount,
+      if (unresolvedWrongWordCount != null)
+        'unresolved_wrong_word_count': unresolvedWrongWordCount,
+      if (newlyLearnedWordCount != null)
+        'newly_learned_word_count': newlyLearnedWordCount,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  LearningSessionsCompanion copyWith({
+    Value<String>? id,
+    Value<int?>? topicId,
+    Value<int>? status,
+    Value<int>? requiredMask,
+    Value<int>? originalExerciseCount,
+    Value<int>? currentIndex,
+    Value<int>? startedAt,
+    Value<int?>? completedAt,
+    Value<int?>? completionAppliedAt,
+    Value<int>? successfulWordCount,
+    Value<int>? unresolvedWrongWordCount,
+    Value<int>? newlyLearnedWordCount,
+    Value<int>? rowid,
+  }) {
+    return LearningSessionsCompanion(
+      id: id ?? this.id,
+      topicId: topicId ?? this.topicId,
+      status: status ?? this.status,
+      requiredMask: requiredMask ?? this.requiredMask,
+      originalExerciseCount:
+          originalExerciseCount ?? this.originalExerciseCount,
+      currentIndex: currentIndex ?? this.currentIndex,
+      startedAt: startedAt ?? this.startedAt,
+      completedAt: completedAt ?? this.completedAt,
+      completionAppliedAt: completionAppliedAt ?? this.completionAppliedAt,
+      successfulWordCount: successfulWordCount ?? this.successfulWordCount,
+      unresolvedWrongWordCount:
+          unresolvedWrongWordCount ?? this.unresolvedWrongWordCount,
+      newlyLearnedWordCount:
+          newlyLearnedWordCount ?? this.newlyLearnedWordCount,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<String>(id.value);
+    }
+    if (topicId.present) {
+      map['topic_id'] = Variable<int>(topicId.value);
+    }
+    if (status.present) {
+      map['status'] = Variable<int>(status.value);
+    }
+    if (requiredMask.present) {
+      map['required_mask'] = Variable<int>(requiredMask.value);
+    }
+    if (originalExerciseCount.present) {
+      map['original_exercise_count'] = Variable<int>(
+        originalExerciseCount.value,
+      );
+    }
+    if (currentIndex.present) {
+      map['current_index'] = Variable<int>(currentIndex.value);
+    }
+    if (startedAt.present) {
+      map['started_at'] = Variable<int>(startedAt.value);
+    }
+    if (completedAt.present) {
+      map['completed_at'] = Variable<int>(completedAt.value);
+    }
+    if (completionAppliedAt.present) {
+      map['completion_applied_at'] = Variable<int>(completionAppliedAt.value);
+    }
+    if (successfulWordCount.present) {
+      map['successful_word_count'] = Variable<int>(successfulWordCount.value);
+    }
+    if (unresolvedWrongWordCount.present) {
+      map['unresolved_wrong_word_count'] = Variable<int>(
+        unresolvedWrongWordCount.value,
+      );
+    }
+    if (newlyLearnedWordCount.present) {
+      map['newly_learned_word_count'] = Variable<int>(
+        newlyLearnedWordCount.value,
+      );
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('LearningSessionsCompanion(')
+          ..write('id: $id, ')
+          ..write('topicId: $topicId, ')
+          ..write('status: $status, ')
+          ..write('requiredMask: $requiredMask, ')
+          ..write('originalExerciseCount: $originalExerciseCount, ')
+          ..write('currentIndex: $currentIndex, ')
+          ..write('startedAt: $startedAt, ')
+          ..write('completedAt: $completedAt, ')
+          ..write('completionAppliedAt: $completionAppliedAt, ')
+          ..write('successfulWordCount: $successfulWordCount, ')
+          ..write('unresolvedWrongWordCount: $unresolvedWrongWordCount, ')
+          ..write('newlyLearnedWordCount: $newlyLearnedWordCount, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $SessionExercisesTable extends SessionExercises
+    with TableInfo<$SessionExercisesTable, SessionExercise> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $SessionExercisesTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _sessionIdMeta = const VerificationMeta(
+    'sessionId',
+  );
+  @override
+  late final GeneratedColumn<String> sessionId = GeneratedColumn<String>(
+    'session_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
+  @override
+  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
+    'word_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _exerciseTypeMeta = const VerificationMeta(
+    'exerciseType',
+  );
+  @override
+  late final GeneratedColumn<int> exerciseType = GeneratedColumn<int>(
+    'exercise_type',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _orderIndexMeta = const VerificationMeta(
+    'orderIndex',
+  );
+  @override
+  late final GeneratedColumn<int> orderIndex = GeneratedColumn<int>(
+    'order_index',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _isRetryMeta = const VerificationMeta(
+    'isRetry',
+  );
+  @override
+  late final GeneratedColumn<bool> isRetry = GeneratedColumn<bool>(
+    'is_retry',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("is_retry" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  static const VerificationMeta _parentExerciseIdMeta = const VerificationMeta(
+    'parentExerciseId',
+  );
+  @override
+  late final GeneratedColumn<int> parentExerciseId = GeneratedColumn<int>(
+    'parent_exercise_id',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _answerMeta = const VerificationMeta('answer');
+  @override
+  late final GeneratedColumn<int> answer = GeneratedColumn<int>(
+    'answer',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _answeredAtMeta = const VerificationMeta(
+    'answeredAt',
+  );
+  @override
+  late final GeneratedColumn<int> answeredAt = GeneratedColumn<int>(
+    'answered_at',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    sessionId,
+    wordId,
+    exerciseType,
+    orderIndex,
+    isRetry,
+    parentExerciseId,
+    answer,
+    answeredAt,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'SessionExercise';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<SessionExercise> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('session_id')) {
+      context.handle(
+        _sessionIdMeta,
+        sessionId.isAcceptableOrUnknown(data['session_id']!, _sessionIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_sessionIdMeta);
+    }
+    if (data.containsKey('word_id')) {
+      context.handle(
+        _wordIdMeta,
+        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_wordIdMeta);
+    }
+    if (data.containsKey('exercise_type')) {
+      context.handle(
+        _exerciseTypeMeta,
+        exerciseType.isAcceptableOrUnknown(
+          data['exercise_type']!,
+          _exerciseTypeMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_exerciseTypeMeta);
+    }
+    if (data.containsKey('order_index')) {
+      context.handle(
+        _orderIndexMeta,
+        orderIndex.isAcceptableOrUnknown(data['order_index']!, _orderIndexMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_orderIndexMeta);
+    }
+    if (data.containsKey('is_retry')) {
+      context.handle(
+        _isRetryMeta,
+        isRetry.isAcceptableOrUnknown(data['is_retry']!, _isRetryMeta),
+      );
+    }
+    if (data.containsKey('parent_exercise_id')) {
+      context.handle(
+        _parentExerciseIdMeta,
+        parentExerciseId.isAcceptableOrUnknown(
+          data['parent_exercise_id']!,
+          _parentExerciseIdMeta,
+        ),
+      );
+    }
+    if (data.containsKey('answer')) {
+      context.handle(
+        _answerMeta,
+        answer.isAcceptableOrUnknown(data['answer']!, _answerMeta),
+      );
+    }
+    if (data.containsKey('answered_at')) {
+      context.handle(
+        _answeredAtMeta,
+        answeredAt.isAcceptableOrUnknown(data['answered_at']!, _answeredAtMeta),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  SessionExercise map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return SessionExercise(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      sessionId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}session_id'],
+      )!,
+      wordId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}word_id'],
+      )!,
+      exerciseType: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}exercise_type'],
+      )!,
+      orderIndex: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}order_index'],
+      )!,
+      isRetry: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}is_retry'],
+      )!,
+      parentExerciseId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}parent_exercise_id'],
+      ),
+      answer: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}answer'],
+      )!,
+      answeredAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}answered_at'],
+      ),
+    );
+  }
+
+  @override
+  $SessionExercisesTable createAlias(String alias) {
+    return $SessionExercisesTable(attachedDatabase, alias);
+  }
+}
+
+class SessionExercise extends DataClass implements Insertable<SessionExercise> {
+  final int id;
+  final String sessionId;
+  final int wordId;
+  final int exerciseType;
+  final int orderIndex;
+  final bool isRetry;
+  final int? parentExerciseId;
+  final int answer;
+  final int? answeredAt;
+  const SessionExercise({
+    required this.id,
+    required this.sessionId,
+    required this.wordId,
+    required this.exerciseType,
+    required this.orderIndex,
+    required this.isRetry,
+    this.parentExerciseId,
+    required this.answer,
+    this.answeredAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['session_id'] = Variable<String>(sessionId);
+    map['word_id'] = Variable<int>(wordId);
+    map['exercise_type'] = Variable<int>(exerciseType);
+    map['order_index'] = Variable<int>(orderIndex);
+    map['is_retry'] = Variable<bool>(isRetry);
+    if (!nullToAbsent || parentExerciseId != null) {
+      map['parent_exercise_id'] = Variable<int>(parentExerciseId);
+    }
+    map['answer'] = Variable<int>(answer);
+    if (!nullToAbsent || answeredAt != null) {
+      map['answered_at'] = Variable<int>(answeredAt);
+    }
+    return map;
+  }
+
+  SessionExercisesCompanion toCompanion(bool nullToAbsent) {
+    return SessionExercisesCompanion(
+      id: Value(id),
+      sessionId: Value(sessionId),
+      wordId: Value(wordId),
+      exerciseType: Value(exerciseType),
+      orderIndex: Value(orderIndex),
+      isRetry: Value(isRetry),
+      parentExerciseId: parentExerciseId == null && nullToAbsent
+          ? const Value.absent()
+          : Value(parentExerciseId),
+      answer: Value(answer),
+      answeredAt: answeredAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(answeredAt),
+    );
+  }
+
+  factory SessionExercise.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return SessionExercise(
+      id: serializer.fromJson<int>(json['id']),
+      sessionId: serializer.fromJson<String>(json['sessionId']),
+      wordId: serializer.fromJson<int>(json['wordId']),
+      exerciseType: serializer.fromJson<int>(json['exerciseType']),
+      orderIndex: serializer.fromJson<int>(json['orderIndex']),
+      isRetry: serializer.fromJson<bool>(json['isRetry']),
+      parentExerciseId: serializer.fromJson<int?>(json['parentExerciseId']),
+      answer: serializer.fromJson<int>(json['answer']),
+      answeredAt: serializer.fromJson<int?>(json['answeredAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'sessionId': serializer.toJson<String>(sessionId),
+      'wordId': serializer.toJson<int>(wordId),
+      'exerciseType': serializer.toJson<int>(exerciseType),
+      'orderIndex': serializer.toJson<int>(orderIndex),
+      'isRetry': serializer.toJson<bool>(isRetry),
+      'parentExerciseId': serializer.toJson<int?>(parentExerciseId),
+      'answer': serializer.toJson<int>(answer),
+      'answeredAt': serializer.toJson<int?>(answeredAt),
+    };
+  }
+
+  SessionExercise copyWith({
+    int? id,
+    String? sessionId,
+    int? wordId,
+    int? exerciseType,
+    int? orderIndex,
+    bool? isRetry,
+    Value<int?> parentExerciseId = const Value.absent(),
+    int? answer,
+    Value<int?> answeredAt = const Value.absent(),
+  }) => SessionExercise(
+    id: id ?? this.id,
+    sessionId: sessionId ?? this.sessionId,
+    wordId: wordId ?? this.wordId,
+    exerciseType: exerciseType ?? this.exerciseType,
+    orderIndex: orderIndex ?? this.orderIndex,
+    isRetry: isRetry ?? this.isRetry,
+    parentExerciseId: parentExerciseId.present
+        ? parentExerciseId.value
+        : this.parentExerciseId,
+    answer: answer ?? this.answer,
+    answeredAt: answeredAt.present ? answeredAt.value : this.answeredAt,
+  );
+  SessionExercise copyWithCompanion(SessionExercisesCompanion data) {
+    return SessionExercise(
+      id: data.id.present ? data.id.value : this.id,
+      sessionId: data.sessionId.present ? data.sessionId.value : this.sessionId,
+      wordId: data.wordId.present ? data.wordId.value : this.wordId,
+      exerciseType: data.exerciseType.present
+          ? data.exerciseType.value
+          : this.exerciseType,
+      orderIndex: data.orderIndex.present
+          ? data.orderIndex.value
+          : this.orderIndex,
+      isRetry: data.isRetry.present ? data.isRetry.value : this.isRetry,
+      parentExerciseId: data.parentExerciseId.present
+          ? data.parentExerciseId.value
+          : this.parentExerciseId,
+      answer: data.answer.present ? data.answer.value : this.answer,
+      answeredAt: data.answeredAt.present
+          ? data.answeredAt.value
+          : this.answeredAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SessionExercise(')
+          ..write('id: $id, ')
+          ..write('sessionId: $sessionId, ')
+          ..write('wordId: $wordId, ')
+          ..write('exerciseType: $exerciseType, ')
+          ..write('orderIndex: $orderIndex, ')
+          ..write('isRetry: $isRetry, ')
+          ..write('parentExerciseId: $parentExerciseId, ')
+          ..write('answer: $answer, ')
+          ..write('answeredAt: $answeredAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    sessionId,
+    wordId,
+    exerciseType,
+    orderIndex,
+    isRetry,
+    parentExerciseId,
+    answer,
+    answeredAt,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is SessionExercise &&
+          other.id == this.id &&
+          other.sessionId == this.sessionId &&
+          other.wordId == this.wordId &&
+          other.exerciseType == this.exerciseType &&
+          other.orderIndex == this.orderIndex &&
+          other.isRetry == this.isRetry &&
+          other.parentExerciseId == this.parentExerciseId &&
+          other.answer == this.answer &&
+          other.answeredAt == this.answeredAt);
+}
+
+class SessionExercisesCompanion extends UpdateCompanion<SessionExercise> {
+  final Value<int> id;
+  final Value<String> sessionId;
+  final Value<int> wordId;
+  final Value<int> exerciseType;
+  final Value<int> orderIndex;
+  final Value<bool> isRetry;
+  final Value<int?> parentExerciseId;
+  final Value<int> answer;
+  final Value<int?> answeredAt;
+  const SessionExercisesCompanion({
+    this.id = const Value.absent(),
+    this.sessionId = const Value.absent(),
+    this.wordId = const Value.absent(),
+    this.exerciseType = const Value.absent(),
+    this.orderIndex = const Value.absent(),
+    this.isRetry = const Value.absent(),
+    this.parentExerciseId = const Value.absent(),
+    this.answer = const Value.absent(),
+    this.answeredAt = const Value.absent(),
+  });
+  SessionExercisesCompanion.insert({
+    this.id = const Value.absent(),
+    required String sessionId,
+    required int wordId,
+    required int exerciseType,
+    required int orderIndex,
+    this.isRetry = const Value.absent(),
+    this.parentExerciseId = const Value.absent(),
+    this.answer = const Value.absent(),
+    this.answeredAt = const Value.absent(),
+  }) : sessionId = Value(sessionId),
+       wordId = Value(wordId),
+       exerciseType = Value(exerciseType),
+       orderIndex = Value(orderIndex);
+  static Insertable<SessionExercise> custom({
+    Expression<int>? id,
+    Expression<String>? sessionId,
+    Expression<int>? wordId,
+    Expression<int>? exerciseType,
+    Expression<int>? orderIndex,
+    Expression<bool>? isRetry,
+    Expression<int>? parentExerciseId,
+    Expression<int>? answer,
+    Expression<int>? answeredAt,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (sessionId != null) 'session_id': sessionId,
+      if (wordId != null) 'word_id': wordId,
+      if (exerciseType != null) 'exercise_type': exerciseType,
+      if (orderIndex != null) 'order_index': orderIndex,
+      if (isRetry != null) 'is_retry': isRetry,
+      if (parentExerciseId != null) 'parent_exercise_id': parentExerciseId,
+      if (answer != null) 'answer': answer,
+      if (answeredAt != null) 'answered_at': answeredAt,
+    });
+  }
+
+  SessionExercisesCompanion copyWith({
+    Value<int>? id,
+    Value<String>? sessionId,
+    Value<int>? wordId,
+    Value<int>? exerciseType,
+    Value<int>? orderIndex,
+    Value<bool>? isRetry,
+    Value<int?>? parentExerciseId,
+    Value<int>? answer,
+    Value<int?>? answeredAt,
+  }) {
+    return SessionExercisesCompanion(
+      id: id ?? this.id,
+      sessionId: sessionId ?? this.sessionId,
+      wordId: wordId ?? this.wordId,
+      exerciseType: exerciseType ?? this.exerciseType,
+      orderIndex: orderIndex ?? this.orderIndex,
+      isRetry: isRetry ?? this.isRetry,
+      parentExerciseId: parentExerciseId ?? this.parentExerciseId,
+      answer: answer ?? this.answer,
+      answeredAt: answeredAt ?? this.answeredAt,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (sessionId.present) {
+      map['session_id'] = Variable<String>(sessionId.value);
+    }
+    if (wordId.present) {
+      map['word_id'] = Variable<int>(wordId.value);
+    }
+    if (exerciseType.present) {
+      map['exercise_type'] = Variable<int>(exerciseType.value);
+    }
+    if (orderIndex.present) {
+      map['order_index'] = Variable<int>(orderIndex.value);
+    }
+    if (isRetry.present) {
+      map['is_retry'] = Variable<bool>(isRetry.value);
+    }
+    if (parentExerciseId.present) {
+      map['parent_exercise_id'] = Variable<int>(parentExerciseId.value);
+    }
+    if (answer.present) {
+      map['answer'] = Variable<int>(answer.value);
+    }
+    if (answeredAt.present) {
+      map['answered_at'] = Variable<int>(answeredAt.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SessionExercisesCompanion(')
+          ..write('id: $id, ')
+          ..write('sessionId: $sessionId, ')
+          ..write('wordId: $wordId, ')
+          ..write('exerciseType: $exerciseType, ')
+          ..write('orderIndex: $orderIndex, ')
+          ..write('isRetry: $isRetry, ')
+          ..write('parentExerciseId: $parentExerciseId, ')
+          ..write('answer: $answer, ')
+          ..write('answeredAt: $answeredAt')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $SimilarWordModelsTable extends SimilarWordModels
     with TableInfo<$SimilarWordModelsTable, SimilarWordRow> {
   @override
@@ -4348,6 +5673,12 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $WordModelsTable wordModels = $WordModelsTable(this);
   late final $LearningProgressModelsTable learningProgressModels =
       $LearningProgressModelsTable(this);
+  late final $LearningSessionsTable learningSessions = $LearningSessionsTable(
+    this,
+  );
+  late final $SessionExercisesTable sessionExercises = $SessionExercisesTable(
+    this,
+  );
   late final $SimilarWordModelsTable similarWordModels =
       $SimilarWordModelsTable(this);
   late final $SttMisspellingModelsTable sttMisspellingModels =
@@ -4371,6 +5702,14 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     'learning_progress_repetition_date',
     'CREATE INDEX learning_progress_repetition_date ON LearningProgressModel (repetition_date)',
   );
+  late final Index learningSessionStatusStartedAt = Index(
+    'learning_session_status_started_at',
+    'CREATE INDEX learning_session_status_started_at ON LearningSession (status, started_at)',
+  );
+  late final Index sessionExerciseSessionOrder = Index(
+    'session_exercise_session_order',
+    'CREATE UNIQUE INDEX session_exercise_session_order ON SessionExercise (session_id, order_index)',
+  );
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -4379,6 +5718,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     topicModels,
     wordModels,
     learningProgressModels,
+    learningSessions,
+    sessionExercises,
     similarWordModels,
     sttMisspellingModels,
     letterModels,
@@ -4388,6 +5729,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     topicModelEnabledOrder,
     wordModelTopicEnabled,
     learningProgressRepetitionDate,
+    learningSessionStatusStartedAt,
+    sessionExerciseSessionOrder,
   ];
 }
 
@@ -5268,6 +6611,645 @@ typedef $$LearningProgressModelsTableProcessedTableManager =
         >,
       ),
       LearningProgressRow,
+      PrefetchHooks Function()
+    >;
+typedef $$LearningSessionsTableCreateCompanionBuilder =
+    LearningSessionsCompanion Function({
+      required String id,
+      Value<int?> topicId,
+      Value<int> status,
+      required int requiredMask,
+      required int originalExerciseCount,
+      Value<int> currentIndex,
+      required int startedAt,
+      Value<int?> completedAt,
+      Value<int?> completionAppliedAt,
+      Value<int> successfulWordCount,
+      Value<int> unresolvedWrongWordCount,
+      Value<int> newlyLearnedWordCount,
+      Value<int> rowid,
+    });
+typedef $$LearningSessionsTableUpdateCompanionBuilder =
+    LearningSessionsCompanion Function({
+      Value<String> id,
+      Value<int?> topicId,
+      Value<int> status,
+      Value<int> requiredMask,
+      Value<int> originalExerciseCount,
+      Value<int> currentIndex,
+      Value<int> startedAt,
+      Value<int?> completedAt,
+      Value<int?> completionAppliedAt,
+      Value<int> successfulWordCount,
+      Value<int> unresolvedWrongWordCount,
+      Value<int> newlyLearnedWordCount,
+      Value<int> rowid,
+    });
+
+class $$LearningSessionsTableFilterComposer
+    extends Composer<_$AppDatabase, $LearningSessionsTable> {
+  $$LearningSessionsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get topicId => $composableBuilder(
+    column: $table.topicId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get status => $composableBuilder(
+    column: $table.status,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get requiredMask => $composableBuilder(
+    column: $table.requiredMask,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get originalExerciseCount => $composableBuilder(
+    column: $table.originalExerciseCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get currentIndex => $composableBuilder(
+    column: $table.currentIndex,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get startedAt => $composableBuilder(
+    column: $table.startedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get completionAppliedAt => $composableBuilder(
+    column: $table.completionAppliedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get successfulWordCount => $composableBuilder(
+    column: $table.successfulWordCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get unresolvedWrongWordCount => $composableBuilder(
+    column: $table.unresolvedWrongWordCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get newlyLearnedWordCount => $composableBuilder(
+    column: $table.newlyLearnedWordCount,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$LearningSessionsTableOrderingComposer
+    extends Composer<_$AppDatabase, $LearningSessionsTable> {
+  $$LearningSessionsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get topicId => $composableBuilder(
+    column: $table.topicId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get status => $composableBuilder(
+    column: $table.status,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get requiredMask => $composableBuilder(
+    column: $table.requiredMask,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get originalExerciseCount => $composableBuilder(
+    column: $table.originalExerciseCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get currentIndex => $composableBuilder(
+    column: $table.currentIndex,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get startedAt => $composableBuilder(
+    column: $table.startedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get completionAppliedAt => $composableBuilder(
+    column: $table.completionAppliedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get successfulWordCount => $composableBuilder(
+    column: $table.successfulWordCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get unresolvedWrongWordCount => $composableBuilder(
+    column: $table.unresolvedWrongWordCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get newlyLearnedWordCount => $composableBuilder(
+    column: $table.newlyLearnedWordCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$LearningSessionsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $LearningSessionsTable> {
+  $$LearningSessionsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<int> get topicId =>
+      $composableBuilder(column: $table.topicId, builder: (column) => column);
+
+  GeneratedColumn<int> get status =>
+      $composableBuilder(column: $table.status, builder: (column) => column);
+
+  GeneratedColumn<int> get requiredMask => $composableBuilder(
+    column: $table.requiredMask,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get originalExerciseCount => $composableBuilder(
+    column: $table.originalExerciseCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get currentIndex => $composableBuilder(
+    column: $table.currentIndex,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get startedAt =>
+      $composableBuilder(column: $table.startedAt, builder: (column) => column);
+
+  GeneratedColumn<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get completionAppliedAt => $composableBuilder(
+    column: $table.completionAppliedAt,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get successfulWordCount => $composableBuilder(
+    column: $table.successfulWordCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get unresolvedWrongWordCount => $composableBuilder(
+    column: $table.unresolvedWrongWordCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get newlyLearnedWordCount => $composableBuilder(
+    column: $table.newlyLearnedWordCount,
+    builder: (column) => column,
+  );
+}
+
+class $$LearningSessionsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $LearningSessionsTable,
+          LearningSession,
+          $$LearningSessionsTableFilterComposer,
+          $$LearningSessionsTableOrderingComposer,
+          $$LearningSessionsTableAnnotationComposer,
+          $$LearningSessionsTableCreateCompanionBuilder,
+          $$LearningSessionsTableUpdateCompanionBuilder,
+          (
+            LearningSession,
+            BaseReferences<
+              _$AppDatabase,
+              $LearningSessionsTable,
+              LearningSession
+            >,
+          ),
+          LearningSession,
+          PrefetchHooks Function()
+        > {
+  $$LearningSessionsTableTableManager(
+    _$AppDatabase db,
+    $LearningSessionsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$LearningSessionsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$LearningSessionsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$LearningSessionsTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<String> id = const Value.absent(),
+                Value<int?> topicId = const Value.absent(),
+                Value<int> status = const Value.absent(),
+                Value<int> requiredMask = const Value.absent(),
+                Value<int> originalExerciseCount = const Value.absent(),
+                Value<int> currentIndex = const Value.absent(),
+                Value<int> startedAt = const Value.absent(),
+                Value<int?> completedAt = const Value.absent(),
+                Value<int?> completionAppliedAt = const Value.absent(),
+                Value<int> successfulWordCount = const Value.absent(),
+                Value<int> unresolvedWrongWordCount = const Value.absent(),
+                Value<int> newlyLearnedWordCount = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => LearningSessionsCompanion(
+                id: id,
+                topicId: topicId,
+                status: status,
+                requiredMask: requiredMask,
+                originalExerciseCount: originalExerciseCount,
+                currentIndex: currentIndex,
+                startedAt: startedAt,
+                completedAt: completedAt,
+                completionAppliedAt: completionAppliedAt,
+                successfulWordCount: successfulWordCount,
+                unresolvedWrongWordCount: unresolvedWrongWordCount,
+                newlyLearnedWordCount: newlyLearnedWordCount,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required String id,
+                Value<int?> topicId = const Value.absent(),
+                Value<int> status = const Value.absent(),
+                required int requiredMask,
+                required int originalExerciseCount,
+                Value<int> currentIndex = const Value.absent(),
+                required int startedAt,
+                Value<int?> completedAt = const Value.absent(),
+                Value<int?> completionAppliedAt = const Value.absent(),
+                Value<int> successfulWordCount = const Value.absent(),
+                Value<int> unresolvedWrongWordCount = const Value.absent(),
+                Value<int> newlyLearnedWordCount = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => LearningSessionsCompanion.insert(
+                id: id,
+                topicId: topicId,
+                status: status,
+                requiredMask: requiredMask,
+                originalExerciseCount: originalExerciseCount,
+                currentIndex: currentIndex,
+                startedAt: startedAt,
+                completedAt: completedAt,
+                completionAppliedAt: completionAppliedAt,
+                successfulWordCount: successfulWordCount,
+                unresolvedWrongWordCount: unresolvedWrongWordCount,
+                newlyLearnedWordCount: newlyLearnedWordCount,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$LearningSessionsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $LearningSessionsTable,
+      LearningSession,
+      $$LearningSessionsTableFilterComposer,
+      $$LearningSessionsTableOrderingComposer,
+      $$LearningSessionsTableAnnotationComposer,
+      $$LearningSessionsTableCreateCompanionBuilder,
+      $$LearningSessionsTableUpdateCompanionBuilder,
+      (
+        LearningSession,
+        BaseReferences<_$AppDatabase, $LearningSessionsTable, LearningSession>,
+      ),
+      LearningSession,
+      PrefetchHooks Function()
+    >;
+typedef $$SessionExercisesTableCreateCompanionBuilder =
+    SessionExercisesCompanion Function({
+      Value<int> id,
+      required String sessionId,
+      required int wordId,
+      required int exerciseType,
+      required int orderIndex,
+      Value<bool> isRetry,
+      Value<int?> parentExerciseId,
+      Value<int> answer,
+      Value<int?> answeredAt,
+    });
+typedef $$SessionExercisesTableUpdateCompanionBuilder =
+    SessionExercisesCompanion Function({
+      Value<int> id,
+      Value<String> sessionId,
+      Value<int> wordId,
+      Value<int> exerciseType,
+      Value<int> orderIndex,
+      Value<bool> isRetry,
+      Value<int?> parentExerciseId,
+      Value<int> answer,
+      Value<int?> answeredAt,
+    });
+
+class $$SessionExercisesTableFilterComposer
+    extends Composer<_$AppDatabase, $SessionExercisesTable> {
+  $$SessionExercisesTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get sessionId => $composableBuilder(
+    column: $table.sessionId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get exerciseType => $composableBuilder(
+    column: $table.exerciseType,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get orderIndex => $composableBuilder(
+    column: $table.orderIndex,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get isRetry => $composableBuilder(
+    column: $table.isRetry,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get parentExerciseId => $composableBuilder(
+    column: $table.parentExerciseId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get answer => $composableBuilder(
+    column: $table.answer,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get answeredAt => $composableBuilder(
+    column: $table.answeredAt,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$SessionExercisesTableOrderingComposer
+    extends Composer<_$AppDatabase, $SessionExercisesTable> {
+  $$SessionExercisesTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get sessionId => $composableBuilder(
+    column: $table.sessionId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get exerciseType => $composableBuilder(
+    column: $table.exerciseType,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get orderIndex => $composableBuilder(
+    column: $table.orderIndex,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get isRetry => $composableBuilder(
+    column: $table.isRetry,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get parentExerciseId => $composableBuilder(
+    column: $table.parentExerciseId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get answer => $composableBuilder(
+    column: $table.answer,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get answeredAt => $composableBuilder(
+    column: $table.answeredAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$SessionExercisesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $SessionExercisesTable> {
+  $$SessionExercisesTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get sessionId =>
+      $composableBuilder(column: $table.sessionId, builder: (column) => column);
+
+  GeneratedColumn<int> get wordId =>
+      $composableBuilder(column: $table.wordId, builder: (column) => column);
+
+  GeneratedColumn<int> get exerciseType => $composableBuilder(
+    column: $table.exerciseType,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get orderIndex => $composableBuilder(
+    column: $table.orderIndex,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<bool> get isRetry =>
+      $composableBuilder(column: $table.isRetry, builder: (column) => column);
+
+  GeneratedColumn<int> get parentExerciseId => $composableBuilder(
+    column: $table.parentExerciseId,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get answer =>
+      $composableBuilder(column: $table.answer, builder: (column) => column);
+
+  GeneratedColumn<int> get answeredAt => $composableBuilder(
+    column: $table.answeredAt,
+    builder: (column) => column,
+  );
+}
+
+class $$SessionExercisesTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $SessionExercisesTable,
+          SessionExercise,
+          $$SessionExercisesTableFilterComposer,
+          $$SessionExercisesTableOrderingComposer,
+          $$SessionExercisesTableAnnotationComposer,
+          $$SessionExercisesTableCreateCompanionBuilder,
+          $$SessionExercisesTableUpdateCompanionBuilder,
+          (
+            SessionExercise,
+            BaseReferences<
+              _$AppDatabase,
+              $SessionExercisesTable,
+              SessionExercise
+            >,
+          ),
+          SessionExercise,
+          PrefetchHooks Function()
+        > {
+  $$SessionExercisesTableTableManager(
+    _$AppDatabase db,
+    $SessionExercisesTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$SessionExercisesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$SessionExercisesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$SessionExercisesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> sessionId = const Value.absent(),
+                Value<int> wordId = const Value.absent(),
+                Value<int> exerciseType = const Value.absent(),
+                Value<int> orderIndex = const Value.absent(),
+                Value<bool> isRetry = const Value.absent(),
+                Value<int?> parentExerciseId = const Value.absent(),
+                Value<int> answer = const Value.absent(),
+                Value<int?> answeredAt = const Value.absent(),
+              }) => SessionExercisesCompanion(
+                id: id,
+                sessionId: sessionId,
+                wordId: wordId,
+                exerciseType: exerciseType,
+                orderIndex: orderIndex,
+                isRetry: isRetry,
+                parentExerciseId: parentExerciseId,
+                answer: answer,
+                answeredAt: answeredAt,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required String sessionId,
+                required int wordId,
+                required int exerciseType,
+                required int orderIndex,
+                Value<bool> isRetry = const Value.absent(),
+                Value<int?> parentExerciseId = const Value.absent(),
+                Value<int> answer = const Value.absent(),
+                Value<int?> answeredAt = const Value.absent(),
+              }) => SessionExercisesCompanion.insert(
+                id: id,
+                sessionId: sessionId,
+                wordId: wordId,
+                exerciseType: exerciseType,
+                orderIndex: orderIndex,
+                isRetry: isRetry,
+                parentExerciseId: parentExerciseId,
+                answer: answer,
+                answeredAt: answeredAt,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$SessionExercisesTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $SessionExercisesTable,
+      SessionExercise,
+      $$SessionExercisesTableFilterComposer,
+      $$SessionExercisesTableOrderingComposer,
+      $$SessionExercisesTableAnnotationComposer,
+      $$SessionExercisesTableCreateCompanionBuilder,
+      $$SessionExercisesTableUpdateCompanionBuilder,
+      (
+        SessionExercise,
+        BaseReferences<_$AppDatabase, $SessionExercisesTable, SessionExercise>,
+      ),
+      SessionExercise,
       PrefetchHooks Function()
     >;
 typedef $$SimilarWordModelsTableCreateCompanionBuilder =
@@ -6637,6 +8619,10 @@ class $AppDatabaseManager {
         _db,
         _db.learningProgressModels,
       );
+  $$LearningSessionsTableTableManager get learningSessions =>
+      $$LearningSessionsTableTableManager(_db, _db.learningSessions);
+  $$SessionExercisesTableTableManager get sessionExercises =>
+      $$SessionExercisesTableTableManager(_db, _db.sessionExercises);
   $$SimilarWordModelsTableTableManager get similarWordModels =>
       $$SimilarWordModelsTableTableManager(_db, _db.similarWordModels);
   $$SttMisspellingModelsTableTableManager get sttMisspellingModels =>

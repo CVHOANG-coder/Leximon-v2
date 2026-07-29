@@ -1,22 +1,27 @@
+import 'dart:async';
 import 'dart:ui';
 
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:drift/drift.dart' as drift;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/services/text_to_speech_service.dart';
+import '../../../data/local/app_database.dart';
 import '../../../data/models/topic.dart';
+import '../../../data/services/daily_card_service.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../review_practice/review_practice_screen.dart';
 
 enum _WordState { newWord, learning, known }
 
 class WordStudyScreen extends ConsumerStatefulWidget {
-  const WordStudyScreen({required this.topic, super.key});
+  const WordStudyScreen({required this.topic, this.dailyTaskType, super.key});
 
   final Topic topic;
+  final DailyTaskType? dailyTaskType;
 
   @override
   ConsumerState<WordStudyScreen> createState() => _WordStudyScreenState();
@@ -27,6 +32,8 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
   late int _activeTopicOrder;
   int _currentIndex = 0;
   final Map<String, _WordState> _wordStates = {};
+  Map<int, _WordState> _persistedWordStates = const {};
+  List<Topic>? _initialStudyTopics;
   final List<String> _selectedWordKeys = [];
   final Map<String, Map<String, dynamic>> _selectedWords = {};
   bool _openingPractice = false;
@@ -44,14 +51,81 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     );
   }
 
-  List<Map<String, dynamic>> _deckWords(Topic topic) {
-    return topic.words;
+  List<Topic> _topicsForStudy(List<Topic>? databaseTopics) {
+    if (databaseTopics == null || databaseTopics.isEmpty) {
+      return [widget.topic];
+    }
+
+    // The screen can also be used in isolation by previews/tests. In the
+    // normal app flow the incoming topic is one of the database topics, so
+    // use the complete database-backed list in that case.
+    final hasDatabaseTopic = databaseTopics.any(
+      (topic) => topic.id == widget.topic.id,
+    );
+    return hasDatabaseTopic ? databaseTopics : [widget.topic];
   }
 
-  String _wordKey(Topic topic, int index) => '${topic.order}-$index';
+  int? _wordId(Topic topic, int index) {
+    final value = topic.words[index]['id'];
+    return value is int
+        ? value
+        : value is num
+        ? value.toInt()
+        : null;
+  }
+
+  String _wordKey(Topic topic, int index) {
+    final wordId = _wordId(topic, index);
+    return wordId == null ? '${topic.id}-$index' : 'word-$wordId';
+  }
+
+  _WordState _stateFromProgress(LearningProgressRow? progress) {
+    if (progress == null || progress.deletedByUser) {
+      return _WordState.newWord;
+    }
+    if (progress.markedAsKnown) return _WordState.known;
+    if (progress.trainingProgress > 0 ||
+        progress.trainingError > 0 ||
+        progress.learnedDate != null ||
+        progress.repetitionStep > 0) {
+      return _WordState.learning;
+    }
+    return _WordState.newWord;
+  }
 
   _WordState _stateFor(Topic topic, int index) {
-    return _wordStates[_wordKey(topic, index)] ?? _WordState.newWord;
+    final key = _wordKey(topic, index);
+    return _wordStates[key] ??
+        (_wordId(topic, index) == null
+            ? _WordState.newWord
+            : _persistedWordStates[_wordId(topic, index)] ??
+                  _WordState.newWord);
+  }
+
+  List<Topic> _filterNewWords(
+    List<Topic> topics,
+    Map<int, LearningProgressRow> progressByWordId,
+  ) {
+    return topics
+        .map(
+          (topic) => Topic(
+            id: topic.id,
+            order: topic.order,
+            original: topic.original,
+            translated: topic.translated,
+            words: topic.words
+                .where((word) {
+                  final value = word['id'];
+                  final wordId = value is num ? value.toInt() : null;
+                  return _stateFromProgress(
+                        wordId == null ? null : progressByWordId[wordId],
+                      ) ==
+                      _WordState.newWord;
+                })
+                .toList(growable: false),
+          ),
+        )
+        .toList(growable: false);
   }
 
   int? _selectedNumberFor(Topic topic, int index) {
@@ -100,9 +174,56 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
         _currentIndex = (index + 1) % topic.words.length;
       }
     });
+    unawaited(_persistKnownState(topic, index, state));
     if (_selectedWordKeys.length == _maxSelectedWords) {
       WidgetsBinding.instance.addPostFrameCallback((_) => _openPractice());
     }
+  }
+
+  Future<void> _persistKnownState(
+    Topic topic,
+    int index,
+    _WordState state,
+  ) async {
+    final wordId = _wordId(topic, index);
+    if (wordId == null) return;
+
+    final database = ref.read(appDatabaseProvider);
+    final databaseWord =
+        await (database.select(database.wordModels)..where(
+              (row) => row.id.equals(wordId) & row.topicId.equals(topic.id),
+            ))
+            .getSingleOrNull();
+    if (databaseWord == null) return;
+
+    final markedAsKnown = state == _WordState.known;
+    final existing = await (database.select(
+      database.learningProgressModels,
+    )..where((row) => row.id.equals(wordId))).getSingleOrNull();
+    if (existing == null) {
+      // Selecting a word for the current lesson is a transient UI state. It
+      // becomes learning progress only after the practice session is saved.
+      if (!markedAsKnown) return;
+      await database
+          .into(database.learningProgressModels)
+          .insert(
+            LearningProgressModelsCompanion.insert(
+              id: drift.Value(wordId),
+              creationDate: DateTime.now().millisecondsSinceEpoch,
+              markedAsKnown: drift.Value(markedAsKnown),
+            ),
+          );
+    } else {
+      await (database.update(
+        database.learningProgressModels,
+      )..where((row) => row.id.equals(wordId))).write(
+        LearningProgressModelsCompanion(
+          markedAsKnown: drift.Value(markedAsKnown),
+        ),
+      );
+    }
+    ref.invalidate(wordProgressProvider);
+    ref.invalidate(progressDashboardProvider);
   }
 
   Future<void> _openPractice() async {
@@ -114,7 +235,7 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     if (selectedWords.length != _maxSelectedWords) return;
 
     _openingPractice = true;
-    final topics = ref.read(topicsProvider).valueOrNull ?? [widget.topic];
+    final topics = _topicsForStudy(ref.read(topicsProvider).valueOrNull);
     final distractorWords = topics
         .expand(
           (topic) => topic.words.map(
@@ -139,12 +260,19 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
         builder: (_) => ReviewPracticeScreen(
           words: selectedWords,
           distractorWords: distractorWords,
+          dailyTaskType: widget.dailyTaskType,
           similarWordIds: similarWordIds,
+          database: ref.read(appDatabaseProvider),
         ),
       ),
     );
     _openingPractice = false;
     if (shouldCloseStudy == true && mounted) {
+      ref.invalidate(topicProgressProvider);
+      ref.invalidate(topicProgressDetailsProvider(widget.topic.id));
+      ref.invalidate(dailyCardProvider);
+      ref.invalidate(wordProgressProvider);
+      ref.invalidate(progressDashboardProvider);
       Navigator.of(context).pop();
     }
   }
@@ -162,11 +290,27 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final topics = ref.watch(topicsProvider).valueOrNull ?? [widget.topic];
+    final databaseTopics = ref.watch(topicsProvider).valueOrNull;
+    final persistedProgress = ref.watch(wordProgressProvider).valueOrNull;
+    if (persistedProgress != null) {
+      _persistedWordStates = {
+        for (final entry in persistedProgress.entries)
+          entry.key: _stateFromProgress(entry.value),
+      };
+    }
+    if (_initialStudyTopics == null &&
+        databaseTopics != null &&
+        persistedProgress != null) {
+      _initialStudyTopics = _filterNewWords(
+        _topicsForStudy(databaseTopics),
+        persistedProgress,
+      );
+    }
+    final topics = _initialStudyTopics ?? _topicsForStudy(databaseTopics);
     final topic = _activeTopic(topics);
-    final words = _deckWords(topic);
-    final selectedCount = _selectedWordKeys
-        .where((key) => key.startsWith('${topic.order}-'))
+    final words = topic.words;
+    final selectedCount = List<int>.generate(words.length, (index) => index)
+        .where((index) => _selectedWordKeys.contains(_wordKey(topic, index)))
         .length;
 
     return Scaffold(
@@ -484,24 +628,30 @@ class _DeckZone extends StatefulWidget {
 
 class _DeckZoneState extends State<_DeckZone> {
   late final CarouselSliderController _carouselController;
-  double _scrollPosition = 0;
+  late final ValueNotifier<double> _scrollPosition;
   int _pageRequestId = 0;
 
   @override
   void initState() {
     super.initState();
     _carouselController = CarouselSliderController();
-    _scrollPosition = widget.currentIndex.toDouble();
+    _scrollPosition = ValueNotifier(widget.currentIndex.toDouble());
+  }
+
+  @override
+  void dispose() {
+    _scrollPosition.dispose();
+    super.dispose();
   }
 
   @override
   void didUpdateWidget(covariant _DeckZone oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (oldWidget.topic.order != widget.topic.order) {
-      _scrollPosition = 0;
+      _scrollPosition.value = 0;
       _schedulePageChange(0, animate: false);
     } else if (oldWidget.currentIndex != widget.currentIndex) {
-      _scrollPosition = widget.currentIndex.toDouble();
+      _scrollPosition.value = widget.currentIndex.toDouble();
       _schedulePageChange(widget.currentIndex, animate: true);
     }
   }
@@ -547,34 +697,39 @@ class _DeckZoneState extends State<_DeckZone> {
               itemCount: widget.words.length,
               carouselController: _carouselController,
               itemBuilder: (context, index, realIndex) {
-                final distance = index - _scrollPosition;
-                final rotation = (distance * .045).clamp(-.07, .07).toDouble();
-                final opacity = (1 - distance.abs() * .35)
-                    .clamp(.45, 1)
-                    .toDouble();
-                return Opacity(
-                  opacity: opacity,
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 10),
-                    child: Transform.rotate(
-                      angle: rotation,
-                      child: _WordCard(
-                        key: ValueKey('${widget.topic.order}-$index'),
-                        topic: widget.topic,
-                        word: widget.words[index],
-                        index: index,
-                        total: widget.words.length,
-                        state: widget.stateFor(widget.topic, index),
-                        selectedNumber: widget.selectedNumberFor(
-                          widget.topic,
-                          index,
-                        ),
-                        onStateChanged: (state) =>
-                            widget.onStateChanged(widget.topic, index, state),
-                        onPlay: widget.onPlay,
-                        onPlaySlow: widget.onPlaySlow,
+                return ValueListenableBuilder<double>(
+                  valueListenable: _scrollPosition,
+                  builder: (context, scrollPosition, child) {
+                    final distance = index - scrollPosition;
+                    final rotation = (distance * .045)
+                        .clamp(-.07, .07)
+                        .toDouble();
+                    final opacity = (1 - distance.abs() * .35)
+                        .clamp(.8, 1)
+                        .toDouble();
+                    return Opacity(
+                      opacity: opacity,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 10),
+                        child: Transform.rotate(angle: rotation, child: child),
                       ),
+                    );
+                  },
+                  child: _WordCard(
+                    key: ValueKey('${widget.topic.order}-$index'),
+                    topic: widget.topic,
+                    word: widget.words[index],
+                    index: index,
+                    total: widget.words.length,
+                    state: widget.stateFor(widget.topic, index),
+                    selectedNumber: widget.selectedNumberFor(
+                      widget.topic,
+                      index,
                     ),
+                    onStateChanged: (state) =>
+                        widget.onStateChanged(widget.topic, index, state),
+                    onPlay: widget.onPlay,
+                    onPlaySlow: widget.onPlaySlow,
                   ),
                 );
               },
@@ -589,7 +744,7 @@ class _DeckZoneState extends State<_DeckZone> {
                 padEnds: true,
                 scrollPhysics: const BouncingScrollPhysics(),
                 onPageChanged: (index, reason) {
-                  setState(() => _scrollPosition = index.toDouble());
+                  _scrollPosition.value = index.toDouble();
                   if (widget.currentIndex == index) return;
                   WidgetsBinding.instance.addPostFrameCallback((_) {
                     if (mounted && widget.currentIndex != index) {
@@ -598,8 +753,8 @@ class _DeckZoneState extends State<_DeckZone> {
                   });
                 },
                 onScrolled: (value) {
-                  if (value == null || !mounted) return;
-                  setState(() => _scrollPosition = value);
+                  if (value == null) return;
+                  _scrollPosition.value = value;
                 },
               ),
             ),
@@ -831,17 +986,23 @@ class _WordCard extends StatelessWidget {
                               ),
                               Padding(
                                 padding: const EdgeInsets.only(top: 22),
-                                child: Text(
-                                  writing,
-                                  textAlign: TextAlign.center,
-                                  maxLines: 2,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: const TextStyle(
-                                    color: AppColors.textPrimary,
-                                    fontSize: 43,
-                                    height: .98,
-                                    fontWeight: FontWeight.w900,
-                                    letterSpacing: -2.2,
+                                child: SizedBox(
+                                  width: double.infinity,
+                                  child: FittedBox(
+                                    fit: BoxFit.scaleDown,
+                                    alignment: Alignment.center,
+                                    child: Text(
+                                      writing,
+                                      maxLines: 1,
+                                      softWrap: false,
+                                      style: const TextStyle(
+                                        color: AppColors.textPrimary,
+                                        fontSize: 43,
+                                        height: .98,
+                                        fontWeight: FontWeight.w900,
+                                        letterSpacing: -2.2,
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ),

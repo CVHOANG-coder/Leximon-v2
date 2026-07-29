@@ -6,6 +6,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../../core/constants/app_colors.dart';
 import '../../data/models/topic.dart';
 
+// Legacy fallback for screens that do not yet receive the local progress map.
+// Home passes the database-backed value directly to TopicCard.
 const topicProgressByOrder = <int, double>{
   1: .64,
   2: 0,
@@ -334,15 +336,18 @@ class OwlAvatar extends StatelessWidget {
 }
 
 class TopicCard extends StatelessWidget {
-  const TopicCard({required this.topic, this.onTap, super.key});
+  const TopicCard({required this.topic, this.progress, this.onTap, super.key});
 
   final Topic topic;
+  final double? progress;
   final VoidCallback? onTap;
 
   @override
   Widget build(BuildContext context) {
-    final progress = topicProgress(topic);
-    final learned = (topic.wordCount * progress).round();
+    final progressValue = (progress ?? topicProgress(topic))
+        .clamp(0, 1)
+        .toDouble();
+    final learned = (topic.wordCount * progressValue).round();
     final colors = topicGradient(topic);
     final cardShape = RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(18),
@@ -387,7 +392,7 @@ class TopicCard extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(99),
                               ),
                               child: Text(
-                                '${(progress * 100).round()}%',
+                                '${(progressValue * 100).round()}%',
                                 style: const TextStyle(
                                   inherit: false,
                                   color: Colors.white,
@@ -436,7 +441,7 @@ class TopicCard extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(height: 5),
-                          _TopicProgressLine(value: progress),
+                          _TopicProgressLine(value: progressValue),
                         ],
                       ),
                     ),
@@ -451,10 +456,10 @@ class TopicCard extends StatelessWidget {
                   height: 6,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: progress > 0
+                    color: progressValue > 0
                         ? AppColors.green
                         : const Color(0xFFD9E0EB),
-                    boxShadow: progress > 0
+                    boxShadow: progressValue > 0
                         ? const [
                             BoxShadow(
                               color: Color(0x1F23C888),

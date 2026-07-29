@@ -82,6 +82,30 @@ void main() {
     }
   });
 
+  test('builds one two-option question per repetition word', () {
+    final questions = PracticeLessonGenerator(
+      random: Random(3),
+    ).buildRepetitionLesson(words: selectedWords, enabledWords: enabledWords);
+
+    expect(questions, hasLength(4));
+    for (final question in questions) {
+      expect(question.variants, hasLength(2));
+      expect(question.variants, contains(question.word));
+      expect(
+        question.variants.where((word) => word.id != question.word.id),
+        everyElement(
+          predicate<ExerciseWord>(
+            (word) => word.topicId == question.word.topicId,
+          ),
+        ),
+      );
+      expect(
+        question.trainingExercise,
+        TrainingExerciseType.choiceOfFourFromEng,
+      );
+    }
+  });
+
   test('uses the correct variant source and includes the target word', () {
     final questions = PracticeLessonGenerator(random: Random(7)).buildLesson(
       words: selectedWords,
@@ -156,9 +180,7 @@ void main() {
       selectedWords.first.copyWith(writing: 'BOARDING PASS'),
       ...selectedWords.skip(1),
     ];
-    final questions = PracticeLessonGenerator(
-      random: Random(5),
-    ).buildLesson(
+    final questions = PracticeLessonGenerator(random: Random(5)).buildLesson(
       words: uppercaseWords,
       enabledWords: enabledWords,
       similarWordIds: const {

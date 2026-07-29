@@ -3,8 +3,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../data/models/topic.dart';
+import '../../../data/models/vocabulary_collection.dart';
+import '../../../data/services/progress_dashboard_service.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../vocabulary_collection/vocabulary_collection_screen.dart';
 
 class DiscoverScreen extends ConsumerWidget {
   const DiscoverScreen({super.key});
@@ -16,6 +19,12 @@ class DiscoverScreen extends ConsumerWidget {
       0,
       (sum, topic) => sum + topic.wordCount,
     );
+    final progressByTopicId =
+        ref.watch(topicProgressProvider).valueOrNull ?? const <int, double>{};
+    final dashboard =
+        ref.watch(progressDashboardProvider).valueOrNull ??
+        ProgressDashboardSnapshot.empty();
+    final collection = ref.watch(vocabularyCollectionProvider).valueOrNull;
 
     return SafeArea(
       bottom: false,
@@ -28,7 +37,10 @@ class DiscoverScreen extends ConsumerWidget {
           SliverPadding(
             padding: const EdgeInsets.symmetric(horizontal: 18),
             sliver: SliverToBoxAdapter(
-              child: _ProgressHero(totalWords: totalWords),
+              child: _ProgressHero(
+                dashboard: dashboard,
+                totalWords: totalWords,
+              ),
             ),
           ),
           SliverPadding(
@@ -43,25 +55,40 @@ class DiscoverScreen extends ConsumerWidget {
                       action: 'Xem chi tiết',
                     ),
                     const SizedBox(height: 16),
-                    const _MasteryCard(
+                    _MasteryCard(
                       title: 'Đã nắm chắc',
-                      value: '186',
+                      value:
+                          '${collection?.countFor(VocabularyCollectionStatus.mastered) ?? 0}',
                       body: 'Từ đã đúng nhiều lần và nhớ ổn định',
                       color: AppColors.green,
+                      onTap: () => _openCollection(
+                        context,
+                        VocabularyCollectionStatus.mastered,
+                      ),
                     ),
                     const SizedBox(height: 10),
-                    const _MasteryCard(
+                    _MasteryCard(
                       title: 'Đang ôn',
-                      value: '42',
+                      value:
+                          '${collection?.countFor(VocabularyCollectionStatus.reviewing) ?? 0}',
                       body: 'Cần lặp lại theo lịch SRS trong 2 ngày tới',
                       color: AppColors.primary,
+                      onTap: () => _openCollection(
+                        context,
+                        VocabularyCollectionStatus.reviewing,
+                      ),
                     ),
                     const SizedBox(height: 10),
-                    const _MasteryCard(
+                    _MasteryCard(
                       title: 'Cần luyện thêm',
-                      value: '17',
+                      value:
+                          '${collection?.countFor(VocabularyCollectionStatus.needsPractice) ?? 0}',
                       body: 'Những từ bạn thường nhầm hoặc mất nhiều thời gian',
                       color: AppColors.orange,
+                      onTap: () => _openCollection(
+                        context,
+                        VocabularyCollectionStatus.needsPractice,
+                      ),
                     ),
                   ],
                 ),
@@ -77,10 +104,10 @@ class DiscoverScreen extends ConsumerWidget {
                     const SectionHeader(
                       kicker: 'Rhythm tracker',
                       title: 'Nhịp học 7 ngày',
-                      action: '18 phút / ngày',
+                      action: 'Theo tuần',
                     ),
                     const SizedBox(height: 18),
-                    const _ActivityChart(),
+                    _ActivityChart(values: dashboard.weekActivityRatios),
                     const SizedBox(height: 18),
                     Container(
                       padding: const EdgeInsets.all(12),
@@ -88,19 +115,19 @@ class DiscoverScreen extends ConsumerWidget {
                         color: AppColors.surfaceBlue,
                         borderRadius: BorderRadius.circular(16),
                       ),
-                      child: const Row(
+                      child: Row(
                         children: [
                           Expanded(
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  '5 phiên học',
+                                  '${dashboard.weekSessionCount} phiên học',
                                   style: TextStyle(fontWeight: FontWeight.w800),
                                 ),
                                 SizedBox(height: 4),
                                 Text(
-                                  'Tuần này bạn học đều hơn 83% người dùng cùng cấp độ.',
+                                  '${dashboard.weekActivityTotal} lượt từ được ghi nhận trong tuần này.',
                                   style: TextStyle(
                                     color: AppColors.textSecondary,
                                     fontSize: 10,
@@ -110,7 +137,9 @@ class DiscoverScreen extends ConsumerWidget {
                             ),
                           ),
                           Text(
-                            'Giữ chuỗi',
+                            dashboard.currentStreak > 0
+                                ? 'Giữ chuỗi'
+                                : 'Bắt đầu học',
                             style: TextStyle(
                               color: AppColors.primary,
                               fontWeight: FontWeight.w800,
@@ -152,6 +181,7 @@ class DiscoverScreen extends ConsumerWidget {
                             (entry) => _JourneyItem(
                               index: entry.key,
                               topic: entry.value,
+                              progress: progressByTopicId[entry.value.id] ?? 0,
                             ),
                           ),
                   ],
@@ -165,25 +195,25 @@ class DiscoverScreen extends ConsumerWidget {
               child: LeximonSurface(
                 child: Column(
                   children: [
-                    const SectionHeader(
+                    SectionHeader(
                       kicker: 'Monthly pulse',
                       title: 'Dấu chân tháng này',
-                      action: 'Tháng 7',
+                      action: dashboard.monthLabel,
                     ),
                     const SizedBox(height: 18),
-                    const Row(
+                    Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              '16 ngày hoạt động',
+                              '${dashboard.activeDaysThisMonth} ngày hoạt động',
                               style: TextStyle(fontWeight: FontWeight.w800),
                             ),
                             SizedBox(height: 4),
                             Text(
-                              'Bạn bỏ lỡ 3 ngày trong tháng này.',
+                              'Bạn bỏ lỡ ${dashboard.missedDaysThisMonth} ngày trong tháng này.',
                               style: TextStyle(
                                 color: AppColors.textSecondary,
                                 fontSize: 10,
@@ -195,13 +225,24 @@ class DiscoverScreen extends ConsumerWidget {
                       ],
                     ),
                     const SizedBox(height: 18),
-                    const _Heatmap(),
+                    _Heatmap(values: dashboard.monthActivityLevels),
                   ],
                 ),
               ),
             ),
           ),
         ],
+      ),
+    );
+  }
+
+  void _openCollection(
+    BuildContext context,
+    VocabularyCollectionStatus status,
+  ) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => VocabularyCollectionScreen(status: status),
       ),
     );
   }
@@ -258,7 +299,9 @@ class _ProgressHeader extends StatelessWidget {
 }
 
 class _ProgressHero extends StatelessWidget {
-  const _ProgressHero({required this.totalWords});
+  const _ProgressHero({required this.dashboard, required this.totalWords});
+
+  final ProgressDashboardSnapshot dashboard;
   final int totalWords;
 
   @override
@@ -284,7 +327,7 @@ class _ProgressHero extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      'Tiến lên hạng Explorer',
+                      'Theo dõi vốn từ',
                       style: TextStyle(
                         fontSize: 21,
                         fontWeight: FontWeight.w800,
@@ -308,29 +351,29 @@ class _ProgressHero extends StatelessWidget {
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Expanded(child: _XpCard()),
+              Expanded(child: _ProgressCard(dashboard: dashboard)),
               const SizedBox(width: 12),
-              const Expanded(
+              Expanded(
                 child: Column(
                   children: [
                     _SmallStat(
                       icon: '🔥',
-                      title: '7 ngày',
+                      title: '${dashboard.currentStreak} ngày',
                       body: 'Chuỗi học liên tiếp',
                       color: Color(0xFFFFF0D8),
                     ),
                     SizedBox(height: 10),
                     _SmallStat(
                       icon: '📘',
-                      title: '245 từ',
-                      body: 'Đã mở khóa',
+                      title: '${dashboard.progressedWords} từ',
+                      body: 'Đã có tiến độ',
                       color: Color(0xFFDDF9EF),
                     ),
                     SizedBox(height: 10),
                     _SmallStat(
                       icon: '⚡',
-                      title: '+18%',
-                      body: 'Tốc độ tốt hơn tuần trước',
+                      title: '${dashboard.weekSessionCount} phiên',
+                      body: 'Đã hoàn thành tuần này',
                       color: Color(0xFFFFF5C9),
                     ),
                   ],
@@ -349,8 +392,10 @@ class _ProgressHero extends StatelessWidget {
   }
 }
 
-class _XpCard extends StatelessWidget {
-  const _XpCard();
+class _ProgressCard extends StatelessWidget {
+  const _ProgressCard({required this.dashboard});
+
+  final ProgressDashboardSnapshot dashboard;
 
   @override
   Widget build(BuildContext context) {
@@ -380,9 +425,9 @@ class _XpCard extends StatelessWidget {
             child: Stack(
               alignment: Alignment.center,
               children: [
-                const SizedBox.expand(
+                SizedBox.expand(
                   child: CircularProgressIndicator(
-                    value: .62,
+                    value: dashboard.overallProgress,
                     strokeWidth: 13,
                     backgroundColor: Color(0x2BFFFFFF),
                     valueColor: AlwaysStoppedAnimation(AppColors.cyan),
@@ -390,9 +435,9 @@ class _XpCard extends StatelessWidget {
                 ),
                 Column(
                   mainAxisSize: MainAxisSize.min,
-                  children: const [
+                  children: [
                     Text(
-                      '1.248',
+                      '${dashboard.progressedWords}',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 25,
@@ -400,7 +445,7 @@ class _XpCard extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      'XP',
+                      'TỪ',
                       style: TextStyle(
                         color: Colors.white70,
                         fontSize: 11,
@@ -413,8 +458,8 @@ class _XpCard extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 8),
-          const Text(
-            '62% tới hạng kế tiếp',
+          Text(
+            '${(dashboard.overallProgress * 100).round()}% vốn từ đã tiến bộ',
             style: TextStyle(
               color: Colors.white,
               fontSize: 10,
@@ -422,10 +467,10 @@ class _XpCard extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 7),
-          const ProgressLine(value: .62, dark: true),
+          ProgressLine(value: dashboard.overallProgress, dark: true),
           const SizedBox(height: 7),
-          const Text(
-            'Còn 752 XP để mở rương phần thưởng mới',
+          Text(
+            '${dashboard.masteredWords} từ đã học hoàn tất',
             style: TextStyle(color: Colors.white70, fontSize: 9),
           ),
         ],
@@ -494,67 +539,76 @@ class _MasteryCard extends StatelessWidget {
     required this.value,
     required this.body,
     required this.color,
+    required this.onTap,
   });
   final String title;
   final String value;
   final String body;
   final Color color;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(13),
-      decoration: BoxDecoration(
-        color: color.withValues(alpha: .08),
+    return Material(
+      color: color.withValues(alpha: .08),
+      borderRadius: BorderRadius.circular(18),
+      child: InkWell(
+        onTap: onTap,
         borderRadius: BorderRadius.circular(18),
-      ),
-      child: Row(
-        children: [
-          Container(
-            width: 10,
-            height: 10,
-            decoration: BoxDecoration(color: color, shape: BoxShape.circle),
-          ),
-          const SizedBox(width: 10),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.w800,
-                    fontSize: 11,
-                  ),
+        child: Padding(
+          padding: const EdgeInsets.all(13),
+          child: Row(
+            children: [
+              Container(
+                width: 10,
+                height: 10,
+                decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: const TextStyle(
+                        fontWeight: FontWeight.w800,
+                        fontSize: 11,
+                      ),
+                    ),
+                    const SizedBox(height: 3),
+                    Text(
+                      body,
+                      style: const TextStyle(
+                        color: AppColors.textSecondary,
+                        fontSize: 9,
+                      ),
+                    ),
+                  ],
                 ),
-                const SizedBox(height: 3),
-                Text(
-                  body,
-                  style: const TextStyle(
-                    color: AppColors.textSecondary,
-                    fontSize: 9,
-                  ),
+              ),
+              Text(
+                value,
+                style: TextStyle(
+                  color: color,
+                  fontSize: 25,
+                  fontWeight: FontWeight.w900,
                 ),
-              ],
-            ),
+              ),
+              const SizedBox(width: 4),
+              Icon(Icons.chevron_right_rounded, color: color, size: 18),
+            ],
           ),
-          Text(
-            value,
-            style: TextStyle(
-              color: color,
-              fontSize: 25,
-              fontWeight: FontWeight.w900,
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }
 }
 
 class _ActivityChart extends StatelessWidget {
-  const _ActivityChart();
-  static const values = [.48, .75, .36, .84, .62, .92, .68];
+  const _ActivityChart({required this.values});
+
+  final List<double> values;
   static const days = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN'];
 
   @override
@@ -609,13 +663,17 @@ class _ActivityChart extends StatelessWidget {
 }
 
 class _JourneyItem extends StatelessWidget {
-  const _JourneyItem({required this.index, required this.topic});
+  const _JourneyItem({
+    required this.index,
+    required this.topic,
+    required this.progress,
+  });
   final int index;
   final Topic topic;
+  final double progress;
 
   @override
   Widget build(BuildContext context) {
-    final progress = topicProgress(topic);
     return Padding(
       padding: const EdgeInsets.only(bottom: 13),
       child: Row(
@@ -711,40 +769,12 @@ class _HeatLegend extends StatelessWidget {
 }
 
 class _Heatmap extends StatelessWidget {
-  const _Heatmap();
+  const _Heatmap({required this.values});
+
+  final List<int> values;
 
   @override
   Widget build(BuildContext context) {
-    const values = [
-      1,
-      3,
-      0,
-      2,
-      1,
-      3,
-      2,
-      0,
-      2,
-      3,
-      1,
-      0,
-      2,
-      3,
-      1,
-      0,
-      2,
-      0,
-      3,
-      2,
-      0,
-      3,
-      2,
-      0,
-      1,
-      2,
-      0,
-      3,
-    ];
     const colors = [
       AppColors.surfaceSoft,
       Color(0xFFD6E4FF),

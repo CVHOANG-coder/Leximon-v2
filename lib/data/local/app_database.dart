@@ -102,6 +102,73 @@ class LearningProgressModels extends Table {
   Set<Column<Object>> get primaryKey => {id};
 }
 
+@TableIndex(
+  name: 'learning_session_status_started_at',
+  columns: {#status, #startedAt},
+)
+class LearningSessions extends Table {
+  @override
+  String get tableName => 'LearningSession';
+
+  TextColumn get id => text()();
+
+  IntColumn get topicId => integer().nullable()();
+
+  IntColumn get status => integer().withDefault(const Constant(0))();
+
+  IntColumn get requiredMask => integer()();
+
+  IntColumn get originalExerciseCount => integer()();
+
+  IntColumn get currentIndex => integer().withDefault(const Constant(0))();
+
+  IntColumn get startedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  IntColumn get completionAppliedAt => integer().nullable()();
+
+  IntColumn get successfulWordCount =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get unresolvedWrongWordCount =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get newlyLearnedWordCount =>
+      integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {id};
+}
+
+@TableIndex(
+  name: 'session_exercise_session_order',
+  columns: {#sessionId, #orderIndex},
+  unique: true,
+)
+class SessionExercises extends Table {
+  @override
+  String get tableName => 'SessionExercise';
+
+  IntColumn get id => integer().autoIncrement()();
+
+  TextColumn get sessionId => text()();
+
+  IntColumn get wordId => integer()();
+
+  IntColumn get exerciseType => integer()();
+
+  IntColumn get orderIndex => integer()();
+
+  BoolColumn get isRetry => boolean().withDefault(const Constant(false))();
+
+  IntColumn get parentExerciseId => integer().nullable()();
+
+  IntColumn get answer => integer().withDefault(const Constant(0))();
+
+  IntColumn get answeredAt => integer().nullable()();
+}
+
 @DataClassName('SimilarWordRow')
 class SimilarWordModels extends Table {
   @override
@@ -233,6 +300,8 @@ class ContentRevisions extends Table {
     TopicModels,
     WordModels,
     LearningProgressModels,
+    LearningSessions,
+    SessionExercises,
     SimilarWordModels,
     SttMisspellingModels,
     LetterModels,
@@ -249,7 +318,20 @@ class AppDatabase extends _$AppDatabase {
   static const topicAssetSource = 'bundled_topic_word_params';
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
+
+  @override
+  MigrationStrategy get migration => MigrationStrategy(
+    onCreate: (Migrator m) async {
+      await m.createAll();
+    },
+    onUpgrade: (Migrator m, int from, int to) async {
+      if (from < 2) {
+        await m.createTable(learningSessions);
+        await m.createTable(sessionExercises);
+      }
+    },
+  );
 
   Future<int?> topicContentRevision() async {
     final query = select(contentRevisions)
