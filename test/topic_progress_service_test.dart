@@ -92,7 +92,6 @@ void main() {
         LearningProgressModelsCompanion.insert(
           id: const Value(12),
           creationDate: now,
-          trainingProgress: const Value(2),
           trainingError: const Value(1),
         ),
       ]);

@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../data/models/topic.dart';
+import '../../../data/services/profile_statistics_service.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
 
@@ -11,13 +12,18 @@ class ProfileScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final topics = ref.watch(topicsProvider).valueOrNull ?? const <Topic>[];
+    final topicsState = ref.watch(topicsProvider);
+    final topics = topicsState.valueOrNull ?? const <Topic>[];
+    final selectedTopicOrders = ref.watch(selectedTopicOrdersProvider);
+    final progressByTopic =
+        ref.watch(topicProgressProvider).valueOrNull ?? const <int, double>{};
+    final statistics = ref.watch(profileStatisticsProvider).valueOrNull;
     final totalWords = topics.fold<int>(
       0,
       (sum, topic) => sum + topic.wordCount,
     );
     final favorites = topics
-        .where((topic) => topicProgress(topic) > .2)
+        .where((topic) => selectedTopicOrders.contains(topic.order))
         .take(3)
         .toList();
 
@@ -37,7 +43,12 @@ class ProfileScreen extends ConsumerWidget {
           ),
           SliverPadding(
             padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(child: _OverviewSection()),
+            sliver: SliverToBoxAdapter(
+              child: _OverviewSection(
+                statistics: statistics,
+                trackedTopicCountFallback: selectedTopicOrders.length,
+              ),
+            ),
           ),
           SliverPadding(
             padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
@@ -50,7 +61,11 @@ class ProfileScreen extends ConsumerWidget {
           SliverPadding(
             padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
             sliver: SliverToBoxAdapter(
-              child: _FavoritesSection(favorites: favorites),
+              child: _FavoritesSection(
+                favorites: favorites,
+                progressByTopic: progressByTopic,
+                isLoading: topicsState.isLoading,
+              ),
             ),
           ),
           SliverPadding(
@@ -91,7 +106,7 @@ class _ProfileHeader extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 31,
                   height: 1,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w800,
                   letterSpacing: -1.5,
                 ),
               ),
@@ -171,7 +186,7 @@ class _ProfileHero extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 25,
                         height: 1,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w800,
                         letterSpacing: -1,
                       ),
                     ),
@@ -228,12 +243,16 @@ class _ProfileHero extends StatelessWidget {
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 21,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w800,
                       ),
                     ),
-                    Text(
-                      '752 XP nữa để lên hạng Master Explorer',
-                      style: TextStyle(color: Colors.white70, fontSize: 9),
+                    SizedBox(width: 8),
+                    Expanded(
+                      child: Text(
+                        '752 XP nữa để lên hạng Master Explorer',
+                        textAlign: TextAlign.right,
+                        style: TextStyle(color: Colors.white70, fontSize: 9),
+                      ),
                     ),
                   ],
                 ),
@@ -275,7 +294,7 @@ class _HeroStat extends StatelessWidget {
         children: [
           Text(
             value,
-            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
           ),
           const SizedBox(height: 3),
           Text(
@@ -290,44 +309,61 @@ class _HeroStat extends StatelessWidget {
 }
 
 class _OverviewSection extends StatelessWidget {
-  const _OverviewSection();
+  const _OverviewSection({
+    required this.statistics,
+    required this.trackedTopicCountFallback,
+  });
+
+  final ProfileStatisticsSnapshot? statistics;
+  final int trackedTopicCountFallback;
 
   @override
-  Widget build(BuildContext context) => LeximonSurface(
-    child: Column(
-      children: [
-        const SectionHeader(
-          kicker: 'Quick overview',
-          title: 'Tóm tắt học tập',
-          action: 'Xem tiến độ',
-        ),
-        const SizedBox(height: 15),
-        const Row(
-          children: [
-            Expanded(
-              child: _SummaryCard(
-                icon: '📚',
-                title: '6 chủ đề',
-                body: 'Đang theo dõi',
-                color: AppColors.surfaceBlue,
+  Widget build(BuildContext context) {
+    final trackedTopicCount =
+        statistics?.trackedTopicCount ?? trackedTopicCountFallback;
+    final weekAccuracy = statistics?.weekAccuracy;
+    final accuracyLabel = statistics == null
+        ? '—'
+        : weekAccuracy == null
+        ? 'Chưa có'
+        : '${(weekAccuracy * 100).round()}%';
+
+    return LeximonSurface(
+      child: Column(
+        children: [
+          const SectionHeader(
+            kicker: 'Quick overview',
+            title: 'Tóm tắt học tập',
+            action: 'Xem tiến độ',
+          ),
+          const SizedBox(height: 15),
+          Row(
+            children: [
+              Expanded(
+                child: _SummaryCard(
+                  icon: '📚',
+                  title: '$trackedTopicCount chủ đề',
+                  body: 'Đang theo dõi',
+                  color: AppColors.surfaceBlue,
+                ),
               ),
-            ),
-            SizedBox(width: 9),
-            Expanded(
-              child: _SummaryCard(
-                icon: '🎯',
-                title: '92%',
-                body: 'Độ chính xác tuần này',
-                color: Color(0xFFDDF9EF),
+              const SizedBox(width: 9),
+              Expanded(
+                child: _SummaryCard(
+                  icon: '🎯',
+                  title: accuracyLabel,
+                  body: 'Độ chính xác tuần này',
+                  color: Color(0xFFDDF9EF),
+                ),
               ),
-            ),
-          ],
-        ),
-        const SizedBox(height: 9),
-        const _SummaryWide(),
-      ],
-    ),
-  );
+            ],
+          ),
+          const SizedBox(height: 9),
+          _SummaryWide(statistics: statistics),
+        ],
+      ),
+    );
+  }
 }
 
 class _SummaryCard extends StatelessWidget {
@@ -356,7 +392,7 @@ class _SummaryCard extends StatelessWidget {
         const SizedBox(height: 9),
         Text(
           title,
-          style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w900),
+          style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
         ),
         const SizedBox(height: 3),
         Text(
@@ -369,36 +405,69 @@ class _SummaryCard extends StatelessWidget {
 }
 
 class _SummaryWide extends StatelessWidget {
-  const _SummaryWide();
+  const _SummaryWide({required this.statistics});
+
+  final ProfileStatisticsSnapshot? statistics;
 
   @override
-  Widget build(BuildContext context) => Container(
-    padding: const EdgeInsets.all(14),
-    decoration: BoxDecoration(
-      color: const Color(0xFFF2EDFF),
-      borderRadius: BorderRadius.circular(17),
-    ),
-    child: const Row(
-      children: [
-        Text('⏱️', style: TextStyle(fontSize: 21)),
-        SizedBox(width: 10),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              '18 phút / ngày',
-              style: TextStyle(fontSize: 14, fontWeight: FontWeight.w900),
+  Widget build(BuildContext context) {
+    final usageDayCount = statistics?.usageDayCount ?? 0;
+    final value = statistics == null
+        ? 'Đang tính...'
+        : _formatAverageUsage(statistics!.averageDailyUsage, usageDayCount);
+    final detail = statistics == null
+        ? 'Đang tổng hợp thời gian sử dụng'
+        : usageDayCount == 0
+        ? 'Bắt đầu ghi nhận từ lần sử dụng này'
+        : 'Trung bình trong $usageDayCount ngày gần nhất';
+
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: const Color(0xFFF2EDFF),
+        borderRadius: BorderRadius.circular(17),
+      ),
+      child: Row(
+        children: [
+          const Text('⏱️', style: TextStyle(fontSize: 21)),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  value,
+                  style: const TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+                const SizedBox(height: 3),
+                Text(
+                  detail,
+                  style: const TextStyle(
+                    color: AppColors.textSecondary,
+                    fontSize: 9,
+                  ),
+                ),
+              ],
             ),
-            SizedBox(height: 3),
-            Text(
-              'Nhịp học ổn định hơn 83% người dùng cùng cấp',
-              style: TextStyle(color: AppColors.textSecondary, fontSize: 9),
-            ),
-          ],
-        ),
-      ],
-    ),
-  );
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+String _formatAverageUsage(Duration duration, int usageDayCount) {
+  if (usageDayCount == 0) return 'Chưa có dữ liệu';
+  final minutes = duration.inMinutes;
+  if (minutes < 1) return '< 1 phút / ngày';
+  if (minutes < 60) return '$minutes phút / ngày';
+  final hours = minutes ~/ 60;
+  final remainingMinutes = minutes % 60;
+  if (remainingMinutes == 0) return '$hours giờ / ngày';
+  return '$hours giờ $remainingMinutes phút / ngày';
 }
 
 class _BadgeSection extends StatelessWidget {
@@ -474,7 +543,7 @@ class _BadgeCard extends StatelessWidget {
           const SizedBox(height: 7),
           Text(
             title,
-            style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w900),
+            style: const TextStyle(fontSize: 10, fontWeight: FontWeight.w800),
           ),
           const SizedBox(height: 4),
           Text(
@@ -570,8 +639,15 @@ class _GoalItem extends StatelessWidget {
 }
 
 class _FavoritesSection extends StatelessWidget {
-  const _FavoritesSection({required this.favorites});
+  const _FavoritesSection({
+    required this.favorites,
+    required this.progressByTopic,
+    required this.isLoading,
+  });
+
   final List<Topic> favorites;
+  final Map<int, double> progressByTopic;
+  final bool isLoading;
 
   @override
   Widget build(BuildContext context) => LeximonSurface(
@@ -579,29 +655,35 @@ class _FavoritesSection extends StatelessWidget {
       children: [
         const SectionHeader(
           kicker: 'Saved topics',
-          title: 'Chủ đề yêu thích',
+          title: 'Chủ đề đang theo dõi',
           action: 'Thư viện từ',
         ),
         const SizedBox(height: 14),
         if (favorites.isEmpty)
-          const Text(
-            'Đang tải chủ đề...',
-            style: TextStyle(color: AppColors.textSecondary),
+          Text(
+            isLoading ? 'Đang tải chủ đề...' : 'Bạn chưa theo dõi chủ đề nào.',
+            style: const TextStyle(color: AppColors.textSecondary),
           )
         else
-          ...favorites.map((topic) => _FavoriteItem(topic: topic)),
+          ...favorites.map(
+            (topic) => _FavoriteItem(
+              topic: topic,
+              progress: progressByTopic[topic.id] ?? 0,
+            ),
+          ),
       ],
     ),
   );
 }
 
 class _FavoriteItem extends StatelessWidget {
-  const _FavoriteItem({required this.topic});
+  const _FavoriteItem({required this.topic, required this.progress});
+
   final Topic topic;
+  final double progress;
 
   @override
   Widget build(BuildContext context) {
-    final progress = topicProgress(topic);
     return Padding(
       padding: const EdgeInsets.only(bottom: 10),
       child: Row(
@@ -710,7 +792,7 @@ class _SettingItem extends StatelessWidget {
             style: const TextStyle(
               color: AppColors.green,
               fontSize: 9,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
             ),
           )
         : const Icon(Icons.chevron_right_rounded, color: AppColors.textMuted),

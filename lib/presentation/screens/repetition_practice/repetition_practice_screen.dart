@@ -17,6 +17,8 @@ class RepetitionPracticeScreen extends StatefulWidget {
     required this.distractorWords,
     required this.database,
     this.title = 'Ôn lặp lại',
+    this.topicId,
+    this.loadNextWords,
     super.key,
   });
 
@@ -24,28 +26,34 @@ class RepetitionPracticeScreen extends StatefulWidget {
   final List<ExerciseWord> distractorWords;
   final AppDatabase database;
   final String title;
+  final int? topicId;
+  final Future<List<ExerciseWord>> Function()? loadNextWords;
 
   @override
   State<RepetitionPracticeScreen> createState() =>
       _RepetitionPracticeScreenState();
 }
 
-enum _RepetitionPhase { intro, practice, between, done }
+enum _RepetitionPhase { intro, countdown, practice, done }
 
 class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
   static const _chunkSize = 20;
   static const _questionSeconds = 5.0;
-  static const _answerDelay = Duration(milliseconds: 1100);
+  static const _answerDelay = Duration(milliseconds: 250);
 
-  late final List<List<ExerciseWord>> _chunks;
+  List<List<ExerciseWord>> _chunks = const [];
   final _generator = PracticeLessonGenerator();
 
   List<PracticeExercise> _questions = const [];
+  List<bool> _isRetry = const [];
   _RepetitionPhase _phase = _RepetitionPhase.intro;
   int _chunkIndex = 0;
   int _questionIndex = 0;
   int _answeredCount = 0;
   int _correctCount = 0;
+  int _countdownValue = 3;
+  int _dailyRepeatedCount = 0;
+  int _dailyRepeatGoal = 0;
   double _secondsLeft = _questionSeconds;
   ExerciseWord? _selectedAnswer;
   bool _isAnswerSubmitted = false;
@@ -53,6 +61,8 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
   String? _feedbackTitle;
   String? _sessionId;
   Timer? _timer;
+  Timer? _countdownTimer;
+  bool _isLoadingNext = false;
   Future<void> _sessionReady = Future<void>.value();
   Future<void> _persistenceChain = Future<void>.value();
 
@@ -67,20 +77,60 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
     final words = widget.words
         .where((word) => word.writing.isNotEmpty && word.translation.isNotEmpty)
         .toList(growable: false);
-    _chunks = [
-      for (var index = 0; index < words.length; index += _chunkSize)
-        words.sublist(index, math.min(index + _chunkSize, words.length)),
-    ];
+    _setSessionWords(words);
   }
 
   @override
   void dispose() {
     _timer?.cancel();
+    _countdownTimer?.cancel();
     unawaited(TextToSpeechService.instance.stop());
     super.dispose();
   }
 
-  void _startFirstChunk() => _startChunk(0);
+  void _setSessionWords(List<ExerciseWord> words) {
+    final sessionWords = _eligibleSessionWords(words);
+    _chunks = sessionWords.isEmpty ? const [] : [sessionWords];
+  }
+
+  List<ExerciseWord> _eligibleSessionWords(List<ExerciseWord> words) {
+    return words
+        .where(_hasSameTopicDistractor)
+        .take(_chunkSize)
+        .toList(growable: false);
+  }
+
+  bool _hasSameTopicDistractor(ExerciseWord target) {
+    final targetTranslation = target.translation.trim().toLowerCase();
+    return widget.distractorWords.any(
+      (word) =>
+          word.id != target.id &&
+          word.topicId == target.topicId &&
+          word.translation.trim().toLowerCase() != targetTranslation,
+    );
+  }
+
+  void _startCountdown() {
+    if (_chunks.isEmpty) return;
+    _timer?.cancel();
+    _countdownTimer?.cancel();
+    setState(() {
+      _phase = _RepetitionPhase.countdown;
+      _countdownValue = 3;
+    });
+    _countdownTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (!mounted || _phase != _RepetitionPhase.countdown) {
+        timer.cancel();
+        return;
+      }
+      if (_countdownValue <= 1) {
+        timer.cancel();
+        _startChunk(0);
+      } else {
+        setState(() => _countdownValue--);
+      }
+    });
+  }
 
   void _startChunk(int index) {
     if (index >= _chunks.length) return;
@@ -92,7 +142,8 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
     setState(() {
       _phase = _RepetitionPhase.practice;
       _chunkIndex = index;
-      _questions = questions;
+      _questions = List<PracticeExercise>.of(questions, growable: true);
+      _isRetry = List<bool>.filled(questions.length, false, growable: true);
       _questionIndex = 0;
       _selectedAnswer = null;
       _isAnswerSubmitted = false;
@@ -103,7 +154,12 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
     });
     _sessionReady = _createSession(questions);
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted && _phase == _RepetitionPhase.practice) _startTimer();
+      if (mounted &&
+          _phase == _RepetitionPhase.practice &&
+          _questions.isNotEmpty) {
+        _startTimer();
+        unawaited(_playWord(_question.word));
+      }
     });
   }
 
@@ -114,6 +170,7 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
       requiredMask: LearningProgressService.maskForTypes(
         questions.map((question) => question.trainingExercise),
       ),
+      topicId: widget.topicId,
     );
   }
 
@@ -139,6 +196,8 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
     if (_isAnswerSubmitted || _phase != _RepetitionPhase.practice) return;
     _timer?.cancel();
     final isCorrect = !timedOut && answer?.id == _question.word.id;
+    final isRetry = _isRetry[_questionIndex];
+    final retryQuestion = _question;
     setState(() {
       _selectedAnswer = answer;
       _isAnswerSubmitted = true;
@@ -150,14 +209,25 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
           : 'Chưa đúng';
       _answeredCount++;
       if (isCorrect) _correctCount++;
+      if (!isCorrect && !isRetry) {
+        _questions.add(
+          PracticeExercise(
+            word: retryQuestion.word,
+            variants: retryQuestion.variants,
+            trainingExercise: retryQuestion.trainingExercise,
+          ),
+        );
+        _isRetry.add(true);
+      }
     });
     _recordAnswer(
       isCorrect ? ExerciseAnswerState.correct : ExerciseAnswerState.wrong,
+      isRetry: isRetry,
     );
     unawaited(_advanceAfterAnswer());
   }
 
-  void _recordAnswer(ExerciseAnswerState answer) {
+  void _recordAnswer(ExerciseAnswerState answer, {required bool isRetry}) {
     final sessionReady = _sessionReady;
     final orderIndex = _questionIndex;
     _persistenceChain = _persistenceChain.then((_) async {
@@ -168,7 +238,7 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
         sessionId: sessionId,
         orderIndex: orderIndex,
         answer: answer,
-        createRetryOnWrong: false,
+        createRetryOnWrong: !isRetry,
       );
     });
   }
@@ -186,6 +256,7 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
         _secondsLeft = _questionSeconds;
       });
       _startTimer();
+      unawaited(_playWord(_question.word));
       return;
     }
 
@@ -201,17 +272,27 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
         widget.database,
       ).completeSession(sessionId, dailyTaskType: DailyTaskType.repeat);
     }
+    final currentTime = DateTime.now();
+    final today = DateTime(
+      currentTime.year,
+      currentTime.month,
+      currentTime.day,
+    ).millisecondsSinceEpoch;
+    final visit = await (widget.database.select(
+      widget.database.visitModels,
+    )..where((row) => row.date.equals(today))).getSingleOrNull();
     if (!mounted) return;
     setState(() {
       _sessionId = null;
-      _phase = _chunkIndex < _chunks.length - 1
-          ? _RepetitionPhase.between
-          : _RepetitionPhase.done;
+      _dailyRepeatedCount = visit?.repeatedWordsCount ?? 0;
+      _dailyRepeatGoal = visit?.repeatWordsGoal ?? 0;
+      _phase = _RepetitionPhase.done;
     });
   }
 
   Future<void> _leave() async {
     _timer?.cancel();
+    _countdownTimer?.cancel();
     if (_phase == _RepetitionPhase.practice) {
       await _persistenceChain;
       await _sessionReady;
@@ -223,6 +304,58 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
       }
     }
     if (mounted) Navigator.of(context).pop(true);
+  }
+
+  Future<void> _restart() async {
+    if (_isLoadingNext) return;
+    setState(() => _isLoadingNext = true);
+    List<ExerciseWord> words;
+    try {
+      words = _chunks.expand((chunk) => chunk).toList(growable: false);
+      final loader = widget.loadNextWords;
+      if (loader != null) {
+        words = await loader();
+      }
+    } catch (_) {
+      if (!mounted) return;
+      setState(() => _isLoadingNext = false);
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(
+          const SnackBar(
+            content: Text('Không thể tải danh sách ôn tập. Vui lòng thử lại.'),
+          ),
+        );
+      return;
+    }
+    if (!mounted) return;
+    final sessionWords = _eligibleSessionWords(words);
+    if (sessionWords.isEmpty) {
+      setState(() => _isLoadingNext = false);
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(
+          const SnackBar(content: Text('Hiện không còn từ đến hạn ôn.')),
+        );
+      return;
+    }
+    _chunks = [sessionWords];
+    _timer?.cancel();
+    setState(() {
+      _isLoadingNext = false;
+      _answeredCount = 0;
+      _correctCount = 0;
+      _chunkIndex = 0;
+      _questionIndex = 0;
+      _questions = const [];
+      _selectedAnswer = null;
+      _isAnswerSubmitted = false;
+      _timedOut = false;
+      _feedbackTitle = null;
+      _secondsLeft = _questionSeconds;
+      _sessionId = null;
+    });
+    _startCountdown();
   }
 
   Future<void> _requestClose() async {
@@ -293,7 +426,13 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
                       chunkIndex: _chunkIndex,
                       chunkCount: _chunks.length,
                       questionIndex: _questionIndex,
-                      questionCount: currentChunkSize,
+                      questionCount: _phase == _RepetitionPhase.practice
+                          ? _questions.length
+                          : currentChunkSize,
+                      isRetry:
+                          _phase == _RepetitionPhase.practice &&
+                          _questions.isNotEmpty &&
+                          _isRetry[_questionIndex],
                     ),
                   ),
                   const SizedBox(height: 16),
@@ -336,11 +475,18 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
     switch (_phase) {
       case _RepetitionPhase.intro:
         return _IntroContent(
-          totalWords: widget.words.length,
+          totalWords: _chunks.isEmpty ? 0 : _chunks.first.length,
           chunkSize: _chunks.isEmpty ? 0 : _chunks.first.length,
           chunks: _chunks.length,
-          previewWords: widget.words.take(4).toList(growable: false),
-          onStart: _chunks.isEmpty ? null : _startFirstChunk,
+          previewWords: _chunks.isEmpty
+              ? const []
+              : _chunks.first.take(4).toList(growable: false),
+          onStart: _chunks.isEmpty ? null : _startCountdown,
+        );
+      case _RepetitionPhase.countdown:
+        return _CountdownContent(
+          value: _countdownValue,
+          totalWords: _chunks.isEmpty ? 0 : _chunks.first.length,
         );
       case _RepetitionPhase.practice:
         if (_questions.isEmpty) {
@@ -358,20 +504,15 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
           onAnswer: (answer) => _answer(answer),
           onPlay: _playWord,
         );
-      case _RepetitionPhase.between:
-        final finished = _chunkIndex * _chunkSize + _chunks[_chunkIndex].length;
-        final remaining = widget.words.length - finished;
-        return _BetweenContent(
-          finished: finished,
-          remaining: remaining,
-          onContinue: () => _startChunk(_chunkIndex + 1),
-          onFinish: _leave,
-        );
       case _RepetitionPhase.done:
         return _DoneContent(
-          total: widget.words.length,
+          total: _chunks.isEmpty ? 0 : _chunks.first.length,
           correct: _correctCount,
           answered: _answeredCount,
+          dailyRepeatedCount: _dailyRepeatedCount,
+          dailyRepeatGoal: _dailyRepeatGoal,
+          isLoading: _isLoadingNext,
+          onRestart: () => unawaited(_restart()),
           onClose: _leave,
         );
     }
@@ -452,7 +593,7 @@ class _RepetitionTopBar extends StatelessWidget {
                 style: const TextStyle(
                   color: Colors.white,
                   fontSize: 25,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w800,
                   letterSpacing: -.8,
                 ),
               ),
@@ -497,6 +638,7 @@ class _RepetitionStats extends StatelessWidget {
     required this.chunkCount,
     required this.questionIndex,
     required this.questionCount,
+    required this.isRetry,
   });
 
   final double secondsLeft;
@@ -505,6 +647,7 @@ class _RepetitionStats extends StatelessWidget {
   final int chunkCount;
   final int questionIndex;
   final int questionCount;
+  final bool isRetry;
 
   @override
   Widget build(BuildContext context) {
@@ -527,7 +670,9 @@ class _RepetitionStats extends StatelessWidget {
             value: questionCount == 0
                 ? '$chunkCount nhóm'
                 : '${questionIndex + 1} / $questionCount',
-            subvalue: chunkCount > 1
+            subvalue: isRetry
+                ? 'Luyện lại'
+                : chunkCount > 1
                 ? 'Nhóm ${chunkIndex + 1}/$chunkCount'
                 : null,
           ),
@@ -582,7 +727,7 @@ class _StatCard extends StatelessWidget {
             style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 16,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
             ),
           ),
           if (subvalue != null)
@@ -613,43 +758,48 @@ class _TimerStatCard extends StatelessWidget {
         color: Colors.white.withValues(alpha: .94),
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Row(
+      child: Stack(
+        alignment: Alignment.center,
         children: [
-          SizedBox(
-            width: 42,
-            height: 42,
-            child: Stack(
-              alignment: Alignment.center,
-              children: [
-                CircularProgressIndicator(
-                  value: progress,
-                  strokeWidth: 5,
-                  backgroundColor: const Color(0xFFDCE4F3),
-                  color: AppColors.orange,
+          Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text(
+                'Thời gian',
+                textAlign: TextAlign.center,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                  color: AppColors.textSecondary,
+                  fontSize: 10,
+                  fontWeight: FontWeight.w700,
                 ),
-                Text(
-                  secondsLeft.ceil().toString(),
-                  style: const TextStyle(
-                    color: AppColors.orange,
-                    fontWeight: FontWeight.w900,
-                    fontSize: 15,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(width: 7),
-          const Flexible(
-            child: Text(
-              'Thời gian',
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(
-                color: AppColors.textSecondary,
-                fontSize: 10,
-                fontWeight: FontWeight.w700,
               ),
-            ),
+              const SizedBox(height: 5),
+              SizedBox(
+                width: 42,
+                height: 42,
+                child: Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    CircularProgressIndicator(
+                      value: progress,
+                      strokeWidth: 5,
+                      backgroundColor: const Color(0xFFDCE4F3),
+                      color: AppColors.orange,
+                    ),
+                    Text(
+                      secondsLeft.ceil().toString(),
+                      style: const TextStyle(
+                        color: AppColors.orange,
+                        fontWeight: FontWeight.w800,
+                        fontSize: 15,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
           ),
         ],
       ),
@@ -712,6 +862,79 @@ class _IntroContent extends StatelessWidget {
   }
 }
 
+class _CountdownContent extends StatelessWidget {
+  const _CountdownContent({required this.value, required this.totalWords});
+
+  final int value;
+  final int totalWords;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 38),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(30),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x18072762),
+            blurRadius: 30,
+            offset: Offset(0, 12),
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          const Text(
+            'SẴN SÀNG',
+            style: TextStyle(
+              color: AppColors.primary,
+              fontSize: 12,
+              fontWeight: FontWeight.w800,
+              letterSpacing: 1.6,
+            ),
+          ),
+          const SizedBox(height: 24),
+          Container(
+            width: 138,
+            height: 138,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: AppColors.surfaceBlue,
+              border: Border.all(color: AppColors.primary, width: 8),
+            ),
+            child: Text(
+              '$value',
+              style: const TextStyle(
+                color: AppColors.primary,
+                fontSize: 68,
+                height: 1,
+                fontWeight: FontWeight.w900,
+              ),
+            ),
+          ),
+          const SizedBox(height: 24),
+          Text(
+            '$totalWords từ sắp bắt đầu',
+            style: const TextStyle(
+              color: AppColors.textPrimary,
+              fontSize: 20,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          const SizedBox(height: 8),
+          const Text(
+            'Mỗi từ có 5 giây. Từ trả lời sai sẽ xuất hiện lại cuối lượt.',
+            textAlign: TextAlign.center,
+            style: TextStyle(color: AppColors.textSecondary, height: 1.45),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 class _InfoCard extends StatelessWidget {
   const _InfoCard({
     required this.icon,
@@ -758,7 +981,7 @@ class _InfoCard extends StatelessWidget {
             style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 25,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
             ),
           ),
           const SizedBox(height: 8),
@@ -826,7 +1049,7 @@ class _WordPreviewCard extends StatelessWidget {
             style: TextStyle(
               color: AppColors.primary,
               fontSize: 10,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
               letterSpacing: 1.2,
             ),
           ),
@@ -957,7 +1180,7 @@ class _PracticeContent extends StatelessWidget {
                   color: AppColors.textPrimary,
                   fontSize: 39,
                   height: 1,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w800,
                   letterSpacing: -1.4,
                 ),
               ),
@@ -1019,7 +1242,7 @@ class _PracticeContent extends StatelessWidget {
             style: TextStyle(
               color: AppColors.textSecondary,
               fontSize: 11,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
               letterSpacing: 1.4,
             ),
           ),
@@ -1130,7 +1353,7 @@ class _AnswerTile extends StatelessWidget {
                         String.fromCharCode(65 + index),
                         style: TextStyle(
                           color: accent,
-                          fontWeight: FontWeight.w900,
+                          fontWeight: FontWeight.w800,
                           fontSize: 19,
                         ),
                       ),
@@ -1219,66 +1442,46 @@ class _FeedbackToast extends StatelessWidget {
   }
 }
 
-class _BetweenContent extends StatelessWidget {
-  const _BetweenContent({
-    required this.finished,
-    required this.remaining,
-    required this.onContinue,
-    required this.onFinish,
-  });
-
-  final int finished;
-  final int remaining;
-  final VoidCallback onContinue;
-  final Future<void> Function() onFinish;
-
-  @override
-  Widget build(BuildContext context) {
-    return _ResultCard(
-      icon: Icons.auto_awesome_rounded,
-      title: 'Bạn muốn ôn tiếp?',
-      description:
-          'Bạn đã hoàn thành $finished từ. Còn $remaining từ trong danh sách.',
-      primaryLabel: 'Ôn nhóm tiếp theo',
-      secondaryLabel: 'Dừng tại đây',
-      onPrimary: onContinue,
-      onSecondary: onFinish,
-    );
-  }
-}
-
 class _DoneContent extends StatelessWidget {
   const _DoneContent({
     required this.total,
     required this.correct,
     required this.answered,
+    required this.dailyRepeatedCount,
+    required this.dailyRepeatGoal,
+    required this.isLoading,
+    required this.onRestart,
     required this.onClose,
   });
 
   final int total;
   final int correct;
   final int answered;
+  final int dailyRepeatedCount;
+  final int dailyRepeatGoal;
+  final bool isLoading;
+  final VoidCallback onRestart;
   final Future<void> Function() onClose;
 
   @override
   Widget build(BuildContext context) {
+    final dailyProgress =
+        'Bạn đã ôn $dailyRepeatedCount từ hôm nay.'
+        '${dailyRepeatGoal > 0 ? '\n$dailyRepeatedCount / $dailyRepeatGoal mục tiêu ôn trong ngày.' : ''}';
     return _ResultCard(
       icon: Icons.emoji_events_rounded,
       title: 'Hoàn thành rồi!',
-      description: 'Bạn đã ôn xong toàn bộ $total từ trong danh sách.',
-      primaryLabel: 'Đóng',
-      onPrimary: () => unawaited(onClose()),
+      description: dailyProgress,
+      primaryLabel: isLoading ? 'Đang tải...' : 'Tiếp tục ôn',
+      secondaryLabel: 'Kết thúc',
+      onPrimary: isLoading ? null : onRestart,
+      onSecondary: onClose,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           _ResultMetric(label: 'Đúng', value: '$correct'),
-          _ResultMetric(label: 'Đã ôn', value: '$answered'),
-          _ResultMetric(
-            label: 'Tỷ lệ',
-            value: answered == 0
-                ? '0%'
-                : '${(correct / answered * 100).round()}%',
-          ),
+          _ResultMetric(label: 'Từ gốc', value: '$total'),
+          _ResultMetric(label: 'Lượt làm', value: '$answered'),
         ],
       ),
     );
@@ -1332,7 +1535,7 @@ class _ResultCard extends StatelessWidget {
             style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 26,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
             ),
           ),
           const SizedBox(height: 8),
@@ -1383,7 +1586,7 @@ class _ResultMetric extends StatelessWidget {
           style: const TextStyle(
             color: AppColors.primary,
             fontSize: 24,
-            fontWeight: FontWeight.w900,
+            fontWeight: FontWeight.w800,
           ),
         ),
         Text(label, style: const TextStyle(color: AppColors.textSecondary)),

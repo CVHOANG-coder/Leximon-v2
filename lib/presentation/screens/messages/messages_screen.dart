@@ -77,7 +77,7 @@ class _PracticeHeader extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 30,
                   height: 1,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w800,
                   letterSpacing: -1.4,
                 ),
               ),
@@ -109,7 +109,7 @@ class _PracticeHeader extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 16,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w800,
                 ),
               ),
             ],
@@ -150,7 +150,7 @@ class _ChallengeHero extends StatelessWidget {
                       'Word Sprint',
                       style: TextStyle(
                         fontSize: 22,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w800,
                         letterSpacing: -.7,
                       ),
                     ),
@@ -286,7 +286,7 @@ class _ChallengeHero extends StatelessWidget {
                               style: TextStyle(
                                 color: AppColors.textPrimary,
                                 fontSize: 12,
-                                fontWeight: FontWeight.w900,
+                                fontWeight: FontWeight.w800,
                               ),
                             ),
                           ],
@@ -332,7 +332,7 @@ class _CountdownBadge extends StatelessWidget {
           style: TextStyle(
             color: AppColors.textPrimary,
             fontSize: 13,
-            fontWeight: FontWeight.w900,
+            fontWeight: FontWeight.w800,
           ),
         ),
       ],
@@ -437,7 +437,7 @@ class _ModeCard extends StatelessWidget {
         const SizedBox(height: 10),
         Text(
           title,
-          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w900),
+          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800),
         ),
         const SizedBox(height: 5),
         Expanded(
@@ -502,7 +502,7 @@ class _FocusSection extends StatelessWidget {
                       'Ôn lại nhóm từ sắp quên',
                       style: TextStyle(
                         fontSize: 12,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w800,
                       ),
                     ),
                     SizedBox(height: 5),
@@ -532,7 +532,7 @@ class _FocusSection extends StatelessWidget {
                 style: TextStyle(
                   color: AppColors.primary,
                   fontSize: 10,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w800,
                 ),
               ),
             ],
@@ -613,7 +613,7 @@ class _MissionItem extends StatelessWidget {
               icon,
               style: TextStyle(
                 color: done ? AppColors.green : AppColors.primary,
-                fontWeight: FontWeight.w900,
+                fontWeight: FontWeight.w800,
               ),
             ),
           ),
@@ -646,7 +646,7 @@ class _MissionItem extends StatelessWidget {
           style: TextStyle(
             color: done ? AppColors.green : AppColors.primary,
             fontSize: 9,
-            fontWeight: FontWeight.w900,
+            fontWeight: FontWeight.w800,
           ),
         ),
       ],
@@ -699,7 +699,7 @@ class _BossCard extends StatelessWidget {
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 19,
-                      fontWeight: FontWeight.w900,
+                      fontWeight: FontWeight.w800,
                       letterSpacing: -.5,
                     ),
                   ),
@@ -711,7 +711,7 @@ class _BossCard extends StatelessWidget {
               style: TextStyle(
                 color: Color(0xFF8A3A00),
                 fontSize: 9,
-                fontWeight: FontWeight.w900,
+                fontWeight: FontWeight.w800,
               ),
             ),
           ],
@@ -733,7 +733,7 @@ class _BossCard extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 15,
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.w800,
                   ),
                 ),
               ],
@@ -743,7 +743,7 @@ class _BossCard extends StatelessWidget {
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 13,
-                fontWeight: FontWeight.w900,
+                fontWeight: FontWeight.w800,
               ),
             ),
           ],

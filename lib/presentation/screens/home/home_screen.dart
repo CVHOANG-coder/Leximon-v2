@@ -4,10 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../data/local/app_database.dart';
+import '../../../data/models/practice_exercise.dart';
+import '../../../data/services/additional_task_service.dart';
 import '../../../data/services/daily_card_service.dart';
+import '../../../data/services/home_main_task_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../repetition_practice/repetition_practice_screen.dart';
+import '../review_practice/review_practice_screen.dart';
 import '../topic_detail/topic_detail_screen.dart';
 import '../word_study/word_study_screen.dart';
 
@@ -18,13 +24,30 @@ class HomeScreen extends ConsumerStatefulWidget {
   ConsumerState<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends ConsumerState<HomeScreen> {
+class _HomeScreenState extends ConsumerState<HomeScreen>
+    with WidgetsBindingObserver {
   final _searchController = TextEditingController();
   String _search = '';
   bool _showAllTopics = false;
 
   @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      // Re-evaluate the local day and reschedule midnight after the device's
+      // clock or time zone may have changed while the app was in background.
+      ref.invalidate(dailyCardProvider);
+    }
+  }
+
+  @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _searchController.dispose();
     super.dispose();
   }
@@ -568,7 +591,7 @@ class _DailyCardContent extends ConsumerWidget {
               color: AppColors.textPrimary,
               fontSize: 24,
               height: 1.05,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w700,
               letterSpacing: -1.1,
             ),
           ),
@@ -599,26 +622,16 @@ class _DailyCardContent extends ConsumerWidget {
           ),
           if (snapshot.isComplete) ...[
             const SizedBox(height: 2),
-            SizedBox(
-              width: double.infinity,
-              height: 42,
-              child: OutlinedButton.icon(
-                onPressed: () => _showAdditionalTasks(context, ref),
-                icon: const Icon(Icons.add_rounded, size: 18),
-                label: const Text('Thêm nhiệm vụ'),
-                style: OutlinedButton.styleFrom(
-                  foregroundColor: AppColors.primary,
-                  side: const BorderSide(color: Color(0x29155CFF)),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(14),
-                  ),
-                  textStyle: const TextStyle(
-                    fontSize: 11,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
+            const Text(
+              'Tôi muốn thực hành nhiều hơn',
+              style: TextStyle(
+                color: AppColors.textSecondary,
+                fontSize: 10,
+                fontWeight: FontWeight.w700,
               ),
             ),
+            const SizedBox(height: 8),
+            const _AdditionalTasksLauncher(),
           ],
         ],
       ),
@@ -630,6 +643,31 @@ class _DailyCardContent extends ConsumerWidget {
     WidgetRef ref,
     DailyTaskType type,
   ) async {
+    if (type != DailyTaskType.learn) {
+      try {
+        final data = await ref
+            .read(homeMainTaskServiceProvider)
+            .prepareTask(type);
+        if (!context.mounted) return;
+        await _launchMainTask(context, ref, data);
+      } on HomeMainTaskUnavailableException {
+        if (!context.mounted) return;
+        ref.invalidate(dailyCardProvider);
+        ScaffoldMessenger.of(context)
+          ..hideCurrentSnackBar()
+          ..showSnackBar(
+            const SnackBar(
+              content: Text(
+                'Nhiệm vụ đã thay đổi và hiện không còn đủ từ phù hợp.',
+              ),
+            ),
+          );
+      }
+      if (!context.mounted) return;
+      _invalidateHomeProgress(ref);
+      return;
+    }
+
     final topics = ref.read(topicsProvider).valueOrNull ?? const <Topic>[];
     final topic = topics.cast<Topic?>().firstWhere(
       (item) => item != null && item.words.isNotEmpty,
@@ -643,20 +681,259 @@ class _DailyCardContent extends ConsumerWidget {
       ),
     );
     if (!context.mounted) return;
-    ref.invalidate(dailyCardProvider);
-    ref.invalidate(progressDashboardProvider);
+    _invalidateHomeProgress(ref);
   }
 
-  Future<void> _showAdditionalTasks(BuildContext context, WidgetRef ref) async {
-    final selectedType = await showModalBottomSheet<DailyTaskType>(
-      context: context,
-      backgroundColor: Colors.transparent,
-      builder: (_) => _AdditionalTasksSheet(types: snapshot.additionalTasks),
-    );
-    if (selectedType != null && context.mounted) {
-      await _openTask(context, ref, selectedType);
+  Future<void> _launchMainTask(
+    BuildContext context,
+    WidgetRef ref,
+    HomeMainTaskLaunchData data,
+  ) {
+    switch (data.type) {
+      case DailyTaskType.repeat:
+        return Navigator.of(context).push<void>(
+          MaterialPageRoute<void>(
+            builder: (_) => RepetitionPracticeScreen(
+              title: 'Ôn lại từ',
+              words: data.words
+                  .map(_exerciseWordFromRow)
+                  .toList(growable: false),
+              distractorWords: data.distractorWords
+                  .map(_exerciseWordFromRow)
+                  .toList(growable: false),
+              database: ref.read(appDatabaseProvider),
+              loadNextWords: () async {
+                try {
+                  final next = await ref
+                      .read(homeMainTaskServiceProvider)
+                      .prepareTask(DailyTaskType.repeat);
+                  return next.words
+                      .map(_exerciseWordFromRow)
+                      .toList(growable: false);
+                } on HomeMainTaskUnavailableException {
+                  return const <ExerciseWord>[];
+                }
+              },
+            ),
+          ),
+        );
+      case DailyTaskType.train:
+      case DailyTaskType.difficult:
+        return Navigator.of(context).push<void>(
+          MaterialPageRoute<void>(
+            builder: (_) => ReviewPracticeScreen(
+              title: data.type == DailyTaskType.train ? 'Luyện từ' : 'Từ khó',
+              kicker: data.type == DailyTaskType.train
+                  ? 'FAST BRAIN'
+                  : 'DIFFICULT WORDS',
+              words: data.words
+                  .map(_exerciseMapFromRow)
+                  .toList(growable: false),
+              distractorWords: data.distractorWords
+                  .map(_exerciseMapFromRow)
+                  .toList(growable: false),
+              dailyTaskType: data.type,
+              exerciseMasksByWordId: data.exerciseMasksByWordId,
+              database: ref.read(appDatabaseProvider),
+            ),
+          ),
+        );
+      case DailyTaskType.learn:
+        throw StateError('Learn tasks use WordStudyScreen.');
     }
   }
+}
+
+class _AdditionalTasksLauncher extends ConsumerStatefulWidget {
+  const _AdditionalTasksLauncher();
+
+  @override
+  ConsumerState<_AdditionalTasksLauncher> createState() =>
+      _AdditionalTasksLauncherState();
+}
+
+class _AdditionalTasksLauncherState
+    extends ConsumerState<_AdditionalTasksLauncher> {
+  bool _isOpening = false;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      height: 44,
+      child: OutlinedButton.icon(
+        onPressed: _isOpening ? null : _openAdditionalTasks,
+        icon: _isOpening
+            ? const SizedBox.square(
+                dimension: 16,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              )
+            : const Icon(Icons.add_rounded, size: 18),
+        label: Text(_isOpening ? 'Đang kiểm tra...' : 'Nhiệm vụ bổ sung'),
+        style: OutlinedButton.styleFrom(
+          foregroundColor: AppColors.primary,
+          disabledForegroundColor: AppColors.primary.withValues(alpha: .55),
+          side: const BorderSide(color: Color(0x29155CFF)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(14),
+          ),
+          textStyle: const TextStyle(fontSize: 11, fontWeight: FontWeight.w800),
+        ),
+      ),
+    );
+  }
+
+  Future<void> _openAdditionalTasks() async {
+    if (_isOpening) return;
+    setState(() => _isOpening = true);
+    DailyTaskType? requestedType;
+    try {
+      final service = ref.read(additionalTaskServiceProvider);
+      final types = await service.loadAvailableTasks();
+      if (!mounted) return;
+      setState(() => _isOpening = false);
+
+      final selectedType = await showModalBottomSheet<DailyTaskType>(
+        context: context,
+        isScrollControlled: true,
+        backgroundColor: Colors.transparent,
+        builder: (_) => _AdditionalTasksSheet(types: types),
+      );
+      if (selectedType == null || !mounted) return;
+      requestedType = selectedType;
+
+      setState(() => _isOpening = true);
+      final launchData = await service.prepareTask(selectedType);
+      if (!mounted) return;
+      await _launchTask(launchData);
+      if (!mounted) return;
+      _invalidateHomeProgress(ref);
+    } on AdditionalTasksLockedException {
+      if (!mounted) return;
+      ref.invalidate(dailyCardProvider);
+      _showMessage(
+        'Nhiệm vụ bổ sung chỉ mở sau khi hoàn thành nhiệm vụ chính hôm nay.',
+      );
+    } on AdditionalTaskUnavailableException {
+      if (!mounted) return;
+      ref.invalidate(dailyCardProvider);
+      _showMessage(
+        requestedType == DailyTaskType.repeat
+            ? 'Hiện không còn từ đến hạn ôn.'
+            : 'Nhiệm vụ này hiện không còn đủ dữ liệu.',
+      );
+    } finally {
+      if (mounted) setState(() => _isOpening = false);
+    }
+  }
+
+  Future<void> _launchTask(AdditionalTaskLaunchData data) async {
+    switch (data.type) {
+      case DailyTaskType.learn:
+        final topics = ref.read(topicsProvider).valueOrNull ?? const <Topic>[];
+        final topic = topics.cast<Topic?>().firstWhere(
+          (item) => item != null && item.words.isNotEmpty,
+          orElse: () => null,
+        );
+        if (topic == null) {
+          throw const AdditionalTaskUnavailableException(DailyTaskType.learn);
+        }
+        await Navigator.of(context).push<void>(
+          MaterialPageRoute<void>(
+            builder: (_) => WordStudyScreen(
+              topic: topic,
+              dailyTaskType: DailyTaskType.learn,
+            ),
+          ),
+        );
+        return;
+      case DailyTaskType.repeat:
+        await Navigator.of(context).push<bool>(
+          MaterialPageRoute<bool>(
+            builder: (_) => RepetitionPracticeScreen(
+              title: 'Ôn tập bổ sung',
+              words: data.words
+                  .map(_exerciseWordFromRow)
+                  .toList(growable: false),
+              distractorWords: data.distractorWords
+                  .map(_exerciseWordFromRow)
+                  .toList(growable: false),
+              database: ref.read(appDatabaseProvider),
+              loadNextWords: () async {
+                try {
+                  final next = await ref
+                      .read(additionalTaskServiceProvider)
+                      .prepareTask(DailyTaskType.repeat);
+                  return next.words
+                      .map(_exerciseWordFromRow)
+                      .toList(growable: false);
+                } on AdditionalTasksLockedException {
+                  return const <ExerciseWord>[];
+                } on AdditionalTaskUnavailableException {
+                  return const <ExerciseWord>[];
+                }
+              },
+            ),
+          ),
+        );
+        return;
+      case DailyTaskType.train:
+      case DailyTaskType.difficult:
+        await Navigator.of(context).push<bool>(
+          MaterialPageRoute<bool>(
+            builder: (_) => ReviewPracticeScreen(
+              title: data.type == DailyTaskType.train ? 'Luyện từ' : 'Từ khó',
+              kicker: 'WANT MORE',
+              words: data.words
+                  .map(_exerciseMapFromRow)
+                  .toList(growable: false),
+              distractorWords: data.distractorWords
+                  .map(_exerciseMapFromRow)
+                  .toList(growable: false),
+              dailyTaskType: data.type,
+              similarWordIds: data.similarWordIds,
+              exerciseMasksByWordId: data.exerciseMasksByWordId,
+              database: ref.read(appDatabaseProvider),
+            ),
+          ),
+        );
+        return;
+    }
+  }
+
+  void _showMessage(String message) {
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(message)));
+  }
+}
+
+void _invalidateHomeProgress(WidgetRef ref) {
+  ref.invalidate(dailyCardProvider);
+  ref.invalidate(wordProgressProvider);
+  ref.invalidate(topicProgressProvider);
+  ref.invalidate(progressDashboardProvider);
+  ref.invalidate(vocabularyCollectionProvider);
+}
+
+ExerciseWord _exerciseWordFromRow(WordRow word) {
+  return ExerciseWord(
+    id: word.id,
+    topicId: word.topicId,
+    writing: word.writing,
+    translation: word.translation,
+    transliteration: word.transliteration ?? word.transcription ?? '',
+  );
+}
+
+Map<String, dynamic> _exerciseMapFromRow(WordRow word) {
+  return {
+    'id': word.id,
+    'topicId': word.topicId,
+    'writing': word.writing,
+    'translation': word.translation,
+    'transliteration': word.transliteration ?? word.transcription ?? '',
+  };
 }
 
 class _DailyTaskTile extends StatelessWidget {
@@ -825,8 +1102,9 @@ class _AdditionalTasksSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      top: false,
       child: Container(
-        padding: const EdgeInsets.fromLTRB(18, 18, 18, 14),
+        padding: const EdgeInsets.fromLTRB(18, 10, 18, 14),
         decoration: const BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
@@ -835,40 +1113,121 @@ class _AdditionalTasksSheet extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              'Nhiệm vụ thêm',
-              style: TextStyle(
-                color: AppColors.textPrimary,
-                fontSize: 21,
-                fontWeight: FontWeight.w900,
+            Center(
+              child: Container(
+                width: 38,
+                height: 4,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFD7DFEE),
+                  borderRadius: BorderRadius.circular(99),
+                ),
               ),
             ),
-            const SizedBox(height: 5),
-            const Text(
-              'Hoàn thành thêm nếu bạn vẫn còn hứng học.',
-              style: TextStyle(color: AppColors.textSecondary, fontSize: 11),
+            const SizedBox(height: 14),
+            Row(
+              children: [
+                const Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Nhiệm vụ bổ sung',
+                        style: TextStyle(
+                          color: AppColors.textPrimary,
+                          fontSize: 22,
+                          fontWeight: FontWeight.w700,
+                          letterSpacing: -.5,
+                        ),
+                      ),
+                      SizedBox(height: 4),
+                      Text(
+                        'Chọn một cách để tiếp tục luyện tập.',
+                        style: TextStyle(
+                          color: AppColors.textSecondary,
+                          fontSize: 11,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                IconButton(
+                  onPressed: () => Navigator.of(context).pop(),
+                  icon: const Icon(Icons.close_rounded),
+                  style: IconButton.styleFrom(
+                    backgroundColor: const Color(0xFFF1F5FC),
+                    foregroundColor: AppColors.textSecondary,
+                  ),
+                ),
+              ],
             ),
-            const SizedBox(height: 15),
+            const SizedBox(height: 16),
             ...types.map(
-              (type) => ListTile(
-                contentPadding: EdgeInsets.zero,
-                leading: CircleAvatar(
-                  backgroundColor: const Color(0xFFEAF1FF),
-                  child: Icon(
-                    _dailyTaskIcon(type),
-                    color: AppColors.primary,
-                    size: 19,
+              (type) => Padding(
+                padding: const EdgeInsets.only(bottom: 9),
+                child: Material(
+                  color: const Color(0xFFF7F9FE),
+                  borderRadius: BorderRadius.circular(18),
+                  child: InkWell(
+                    onTap: () => Navigator.of(context).pop(type),
+                    borderRadius: BorderRadius.circular(18),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 12,
+                        vertical: 11,
+                      ),
+                      child: Row(
+                        children: [
+                          Container(
+                            width: 42,
+                            height: 42,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                              color: _additionalTaskColor(
+                                type,
+                              ).withValues(alpha: .12),
+                              borderRadius: BorderRadius.circular(14),
+                            ),
+                            child: Icon(
+                              _dailyTaskIcon(type),
+                              color: _additionalTaskColor(type),
+                              size: 21,
+                            ),
+                          ),
+                          const SizedBox(width: 12),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  _additionalTaskLabel(type),
+                                  style: const TextStyle(
+                                    color: AppColors.textPrimary,
+                                    fontSize: 13,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                                const SizedBox(height: 3),
+                                Text(
+                                  _additionalTaskDescription(type),
+                                  style: const TextStyle(
+                                    color: AppColors.textSecondary,
+                                    fontSize: 10,
+                                    height: 1.3,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          const Icon(
+                            Icons.chevron_right_rounded,
+                            color: AppColors.textMuted,
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
                 ),
-                title: Text(
-                  _dailyTaskLabel(type),
-                  style: const TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-                trailing: const Icon(Icons.chevron_right_rounded),
-                onTap: () => Navigator.of(context).pop(type),
               ),
             ),
           ],
@@ -876,6 +1235,33 @@ class _AdditionalTasksSheet extends StatelessWidget {
       ),
     );
   }
+}
+
+String _additionalTaskLabel(DailyTaskType type) {
+  return switch (type) {
+    DailyTaskType.learn => 'Học từ mới',
+    DailyTaskType.repeat => 'Ôn tập',
+    DailyTaskType.train => 'Luyện từ',
+    DailyTaskType.difficult => 'Từ khó',
+  };
+}
+
+String _additionalTaskDescription(DailyTaskType type) {
+  return switch (type) {
+    DailyTaskType.learn => 'Chọn đúng 4 từ và luyện tối đa 24 câu',
+    DailyTaskType.repeat => 'Ôn theo nhóm tối đa 20 từ, 5 giây mỗi câu',
+    DailyTaskType.train => 'Luyện 4 từ Fast Brain đã đến hạn',
+    DailyTaskType.difficult => 'Làm lại các dạng bài bạn vẫn còn sai',
+  };
+}
+
+Color _additionalTaskColor(DailyTaskType type) {
+  return switch (type) {
+    DailyTaskType.learn => AppColors.primary,
+    DailyTaskType.repeat => const Color(0xFF5E55C9),
+    DailyTaskType.train => const Color(0xFFE28A00),
+    DailyTaskType.difficult => const Color(0xFFDB5C73),
+  };
 }
 
 String _dailyTaskLabel(DailyTaskType type) {
@@ -1009,7 +1395,7 @@ class _EmptyWelcomePanel extends StatelessWidget {
                             color: AppColors.textPrimary,
                             fontSize: 30,
                             height: 1.02,
-                            fontWeight: FontWeight.w900,
+                            fontWeight: FontWeight.w700,
                             letterSpacing: -1.8,
                           ),
                         ),
@@ -1155,7 +1541,7 @@ class _EmptyMissionCard extends StatelessWidget {
                         color: AppColors.textPrimary,
                         fontSize: 17,
                         height: 1.15,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w700,
                         letterSpacing: -.5,
                       ),
                     ),
@@ -1290,7 +1676,7 @@ class _EmptyActionCard extends StatelessWidget {
                     color: primary ? Colors.white : const Color(0xFF8C9AAF),
                     fontSize: 15,
                     height: 1.15,
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.w700,
                   ),
                 ),
               ],

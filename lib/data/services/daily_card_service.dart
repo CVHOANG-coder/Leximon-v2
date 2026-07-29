@@ -1,8 +1,32 @@
 import 'package:drift/drift.dart';
 
 import '../local/app_database.dart';
+import 'exercise_error_mask.dart';
 
 enum DailyTaskType { repeat, learn, train, difficult }
+
+bool areDailyTaskGoalsFinished({
+  required int repeatWordsGoal,
+  required int repeatedWordsCount,
+  required int learnWordsGoal,
+  required int learnedWordsCount,
+  required int trainWordsGoal,
+  required int trainedWordsCount,
+  required int difficultWordsGoal,
+  required int difficultWordsTrainedCount,
+}) {
+  final hasInitializedGoal =
+      repeatWordsGoal > 0 ||
+      learnWordsGoal > 0 ||
+      trainWordsGoal > 0 ||
+      difficultWordsGoal > 0;
+  return hasInitializedGoal &&
+      (repeatWordsGoal == 0 || repeatedWordsCount >= repeatWordsGoal) &&
+      (learnWordsGoal == 0 || learnedWordsCount >= learnWordsGoal) &&
+      (trainWordsGoal == 0 || trainedWordsCount >= trainWordsGoal) &&
+      (difficultWordsGoal == 0 ||
+          difficultWordsTrainedCount >= difficultWordsGoal);
+}
 
 class DailyTaskSnapshot {
   const DailyTaskSnapshot({
@@ -41,49 +65,63 @@ class DailyCardService {
 
   static const defaultLearnWordsGoal = 8;
   static const maxRepeatWordsGoal = 60;
+  static const supportedDifficultExerciseMask =
+      supportedStoredExerciseErrorMask;
 
   final AppDatabase _database;
 
-  Future<DailyCardSnapshot> load() async {
-    final now = DateTime.now();
-    final today = _dayStart(now);
+  Future<DailyCardSnapshot> load({DateTime? now}) async {
+    final currentTime = now ?? DateTime.now();
+    final today = _dayStart(currentTime);
+    final tomorrow = DateTime(
+      currentTime.year,
+      currentTime.month,
+      currentTime.day + 1,
+    ).millisecondsSinceEpoch;
+    final enabledWordIds = (await _database.enabledWords())
+        .map((word) => word.id)
+        .toSet();
     final progressRows = await _database
         .select(_database.learningProgressModels)
         .get();
 
     final repeatableCount = progressRows.where((row) {
-      return row.repetitionStep > 0 &&
+      return enabledWordIds.contains(row.id) &&
+          row.repetitionStep > 0 &&
           !row.markedAsKnown &&
           !row.deletedByUser &&
           row.repetitionDate != null &&
-          row.repetitionDate! <= now.millisecondsSinceEpoch;
+          row.repetitionDate! <= currentTime.millisecondsSinceEpoch;
     }).length;
     final difficultCount = progressRows
         .where(
           (row) =>
-              row.trainingError > 0 && !row.markedAsKnown && !row.deletedByUser,
-        )
-        .length;
-    final fastBrainCount = progressRows.where((row) {
-      return row.onFastBrain &&
-          !row.deletedByUser &&
-          row.repetitionFastBrainDate != null &&
-          row.repetitionFastBrainDate! <= now.millisecondsSinceEpoch;
-    }).length;
-    final learnedWordCount = progressRows
-        .where(
-          (row) =>
-              row.learnedDate != null &&
+              enabledWordIds.contains(row.id) &&
+              normalizeExerciseErrorMask(row.trainingError) != 0 &&
               !row.markedAsKnown &&
               !row.deletedByUser,
         )
         .length;
-    final existing = await (_database.select(
-      _database.visitModels,
-    )..where((row) => row.date.equals(today))).getSingleOrNull();
+    final fastBrainCount = progressRows.where((row) {
+      return enabledWordIds.contains(row.id) &&
+          row.onFastBrain &&
+          !row.markedAsKnown &&
+          !row.deletedByUser &&
+          row.repetitionFastBrainDate != null &&
+          row.repetitionFastBrainDate! <= currentTime.millisecondsSinceEpoch;
+    }).length;
+    final learnedTodayCount = progressRows
+        .where(
+          (row) =>
+              enabledWordIds.contains(row.id) &&
+              row.creationDate >= today &&
+              row.creationDate < tomorrow &&
+              !row.markedAsKnown &&
+              !row.deletedByUser,
+        )
+        .length;
     final visit = await _ensureVisit(
       today: today,
-      existing: existing,
       repeatableCount: repeatableCount,
       fastBrainCount: fastBrainCount,
       difficultCount: difficultCount,
@@ -126,7 +164,7 @@ class DailyCardService {
     return DailyCardSnapshot(
       tasks: tasks,
       additionalTasks: _additionalTasks(
-        learnedWordCount: learnedWordCount,
+        learnedTodayCount: learnedTodayCount,
         fastBrainCount: fastBrainCount,
         difficultCount: difficultCount,
       ),
@@ -136,11 +174,10 @@ class DailyCardService {
 
   Future<VisitRow> _ensureVisit({
     required int today,
-    required VisitRow? existing,
     required int repeatableCount,
     required int fastBrainCount,
     required int difficultCount,
-  }) async {
+  }) {
     final learnGoal = defaultLearnWordsGoal;
     final repeatGoal = repeatableCount == 0
         ? 0
@@ -148,48 +185,97 @@ class DailyCardService {
     final trainGoal = fastBrainCount >= learnGoal ? learnGoal : 0;
     final difficultGoal = difficultCount >= learnGoal ? learnGoal : 0;
 
-    if (existing == null) {
-      final id = await _database
-          .into(_database.visitModels)
-          .insert(
-            VisitModelsCompanion.insert(
-              date: today,
-              repeatWordsGoal: Value(repeatGoal),
-              learnWordsGoal: Value(learnGoal),
-              trainWordsGoal: Value(trainGoal),
-              difficultWordsGoal: Value(difficultGoal),
-            ),
-          );
+    return _database.transaction(() async {
+      final existing = await (_database.select(
+        _database.visitModels,
+      )..where((row) => row.date.equals(today))).getSingleOrNull();
+      if (existing == null) {
+        final areGoalsFinished = areDailyTaskGoalsFinished(
+          repeatWordsGoal: repeatGoal,
+          repeatedWordsCount: 0,
+          learnWordsGoal: learnGoal,
+          learnedWordsCount: 0,
+          trainWordsGoal: trainGoal,
+          trainedWordsCount: 0,
+          difficultWordsGoal: difficultGoal,
+          difficultWordsTrainedCount: 0,
+        );
+        final id = await _database
+            .into(_database.visitModels)
+            .insert(
+              VisitModelsCompanion.insert(
+                date: today,
+                repeatWordsGoal: Value(repeatGoal),
+                learnWordsGoal: Value(learnGoal),
+                trainWordsGoal: Value(trainGoal),
+                difficultWordsGoal: Value(difficultGoal),
+                areDailyTasksFinished: Value(areGoalsFinished),
+              ),
+            );
+        return (_database.select(
+          _database.visitModels,
+        )..where((row) => row.id.equals(id))).getSingle();
+      }
+
+      if (existing.learnWordsGoal != 0) {
+        final areGoalsFinished = areDailyTaskGoalsFinished(
+          repeatWordsGoal: existing.repeatWordsGoal,
+          repeatedWordsCount: existing.repeatedWordsCount,
+          learnWordsGoal: existing.learnWordsGoal,
+          learnedWordsCount: existing.learnedWordsCount,
+          trainWordsGoal: existing.trainWordsGoal,
+          trainedWordsCount: existing.trainedWordsCount,
+          difficultWordsGoal: existing.difficultWordsGoal,
+          difficultWordsTrainedCount: existing.difficultWordsTrainedCount,
+        );
+        if (existing.areDailyTasksFinished == areGoalsFinished) {
+          return existing;
+        }
+        await (_database.update(
+          _database.visitModels,
+        )..where((row) => row.id.equals(existing.id))).write(
+          VisitModelsCompanion(areDailyTasksFinished: Value(areGoalsFinished)),
+        );
+        return (_database.select(
+          _database.visitModels,
+        )..where((row) => row.id.equals(existing.id))).getSingle();
+      }
+
+      final areGoalsFinished = areDailyTaskGoalsFinished(
+        repeatWordsGoal: repeatGoal,
+        repeatedWordsCount: existing.repeatedWordsCount,
+        learnWordsGoal: learnGoal,
+        learnedWordsCount: existing.learnedWordsCount,
+        trainWordsGoal: trainGoal,
+        trainedWordsCount: existing.trainedWordsCount,
+        difficultWordsGoal: difficultGoal,
+        difficultWordsTrainedCount: existing.difficultWordsTrainedCount,
+      );
+      await (_database.update(
+        _database.visitModels,
+      )..where((row) => row.id.equals(existing.id))).write(
+        VisitModelsCompanion(
+          repeatWordsGoal: Value(repeatGoal),
+          learnWordsGoal: Value(learnGoal),
+          trainWordsGoal: Value(trainGoal),
+          difficultWordsGoal: Value(difficultGoal),
+          areDailyTasksFinished: Value(areGoalsFinished),
+        ),
+      );
       return (_database.select(
         _database.visitModels,
-      )..where((row) => row.id.equals(id))).getSingle();
-    }
-
-    if (existing.learnWordsGoal != 0) return existing;
-
-    await (_database.update(
-      _database.visitModels,
-    )..where((row) => row.id.equals(existing.id))).write(
-      VisitModelsCompanion(
-        repeatWordsGoal: Value(repeatGoal),
-        learnWordsGoal: Value(learnGoal),
-        trainWordsGoal: Value(trainGoal),
-        difficultWordsGoal: Value(difficultGoal),
-      ),
-    );
-    return (_database.select(
-      _database.visitModels,
-    )..where((row) => row.id.equals(existing.id))).getSingle();
+      )..where((row) => row.id.equals(existing.id))).getSingle();
+    });
   }
 
   List<DailyTaskType> _additionalTasks({
-    required int learnedWordCount,
+    required int learnedTodayCount,
     required int fastBrainCount,
     required int difficultCount,
   }) {
     return [
       DailyTaskType.learn,
-      if (learnedWordCount > 0) DailyTaskType.repeat,
+      if (learnedTodayCount > 0) DailyTaskType.repeat,
       if (fastBrainCount >= 4) DailyTaskType.train,
       if (difficultCount >= 4) DailyTaskType.difficult,
     ];

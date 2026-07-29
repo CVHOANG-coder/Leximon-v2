@@ -1945,6 +1945,17 @@ class $LearningSessionsTable extends LearningSessions
         requiredDuringInsert: false,
         defaultValue: const Constant(0),
       );
+  static const VerificationMeta _completedWordCountMeta =
+      const VerificationMeta('completedWordCount');
+  @override
+  late final GeneratedColumn<int> completedWordCount = GeneratedColumn<int>(
+    'completed_word_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
   static const VerificationMeta _newlyLearnedWordCountMeta =
       const VerificationMeta('newlyLearnedWordCount');
   @override
@@ -1969,6 +1980,7 @@ class $LearningSessionsTable extends LearningSessions
     completionAppliedAt,
     successfulWordCount,
     unresolvedWrongWordCount,
+    completedWordCount,
     newlyLearnedWordCount,
   ];
   @override
@@ -2075,6 +2087,15 @@ class $LearningSessionsTable extends LearningSessions
         ),
       );
     }
+    if (data.containsKey('completed_word_count')) {
+      context.handle(
+        _completedWordCountMeta,
+        completedWordCount.isAcceptableOrUnknown(
+          data['completed_word_count']!,
+          _completedWordCountMeta,
+        ),
+      );
+    }
     if (data.containsKey('newly_learned_word_count')) {
       context.handle(
         _newlyLearnedWordCountMeta,
@@ -2137,6 +2158,10 @@ class $LearningSessionsTable extends LearningSessions
         DriftSqlType.int,
         data['${effectivePrefix}unresolved_wrong_word_count'],
       )!,
+      completedWordCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}completed_word_count'],
+      )!,
       newlyLearnedWordCount: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}newly_learned_word_count'],
@@ -2162,6 +2187,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
   final int? completionAppliedAt;
   final int successfulWordCount;
   final int unresolvedWrongWordCount;
+  final int completedWordCount;
   final int newlyLearnedWordCount;
   const LearningSession({
     required this.id,
@@ -2175,6 +2201,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
     this.completionAppliedAt,
     required this.successfulWordCount,
     required this.unresolvedWrongWordCount,
+    required this.completedWordCount,
     required this.newlyLearnedWordCount,
   });
   @override
@@ -2199,6 +2226,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
     map['unresolved_wrong_word_count'] = Variable<int>(
       unresolvedWrongWordCount,
     );
+    map['completed_word_count'] = Variable<int>(completedWordCount);
     map['newly_learned_word_count'] = Variable<int>(newlyLearnedWordCount);
     return map;
   }
@@ -2222,6 +2250,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
           : Value(completionAppliedAt),
       successfulWordCount: Value(successfulWordCount),
       unresolvedWrongWordCount: Value(unresolvedWrongWordCount),
+      completedWordCount: Value(completedWordCount),
       newlyLearnedWordCount: Value(newlyLearnedWordCount),
     );
   }
@@ -2251,6 +2280,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
       unresolvedWrongWordCount: serializer.fromJson<int>(
         json['unresolvedWrongWordCount'],
       ),
+      completedWordCount: serializer.fromJson<int>(json['completedWordCount']),
       newlyLearnedWordCount: serializer.fromJson<int>(
         json['newlyLearnedWordCount'],
       ),
@@ -2273,6 +2303,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
       'unresolvedWrongWordCount': serializer.toJson<int>(
         unresolvedWrongWordCount,
       ),
+      'completedWordCount': serializer.toJson<int>(completedWordCount),
       'newlyLearnedWordCount': serializer.toJson<int>(newlyLearnedWordCount),
     };
   }
@@ -2289,6 +2320,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
     Value<int?> completionAppliedAt = const Value.absent(),
     int? successfulWordCount,
     int? unresolvedWrongWordCount,
+    int? completedWordCount,
     int? newlyLearnedWordCount,
   }) => LearningSession(
     id: id ?? this.id,
@@ -2305,6 +2337,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
     successfulWordCount: successfulWordCount ?? this.successfulWordCount,
     unresolvedWrongWordCount:
         unresolvedWrongWordCount ?? this.unresolvedWrongWordCount,
+    completedWordCount: completedWordCount ?? this.completedWordCount,
     newlyLearnedWordCount: newlyLearnedWordCount ?? this.newlyLearnedWordCount,
   );
   LearningSession copyWithCompanion(LearningSessionsCompanion data) {
@@ -2334,6 +2367,9 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
       unresolvedWrongWordCount: data.unresolvedWrongWordCount.present
           ? data.unresolvedWrongWordCount.value
           : this.unresolvedWrongWordCount,
+      completedWordCount: data.completedWordCount.present
+          ? data.completedWordCount.value
+          : this.completedWordCount,
       newlyLearnedWordCount: data.newlyLearnedWordCount.present
           ? data.newlyLearnedWordCount.value
           : this.newlyLearnedWordCount,
@@ -2354,6 +2390,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
           ..write('completionAppliedAt: $completionAppliedAt, ')
           ..write('successfulWordCount: $successfulWordCount, ')
           ..write('unresolvedWrongWordCount: $unresolvedWrongWordCount, ')
+          ..write('completedWordCount: $completedWordCount, ')
           ..write('newlyLearnedWordCount: $newlyLearnedWordCount')
           ..write(')'))
         .toString();
@@ -2372,6 +2409,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
     completionAppliedAt,
     successfulWordCount,
     unresolvedWrongWordCount,
+    completedWordCount,
     newlyLearnedWordCount,
   );
   @override
@@ -2389,6 +2427,7 @@ class LearningSession extends DataClass implements Insertable<LearningSession> {
           other.completionAppliedAt == this.completionAppliedAt &&
           other.successfulWordCount == this.successfulWordCount &&
           other.unresolvedWrongWordCount == this.unresolvedWrongWordCount &&
+          other.completedWordCount == this.completedWordCount &&
           other.newlyLearnedWordCount == this.newlyLearnedWordCount);
 }
 
@@ -2404,6 +2443,7 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
   final Value<int?> completionAppliedAt;
   final Value<int> successfulWordCount;
   final Value<int> unresolvedWrongWordCount;
+  final Value<int> completedWordCount;
   final Value<int> newlyLearnedWordCount;
   final Value<int> rowid;
   const LearningSessionsCompanion({
@@ -2418,6 +2458,7 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
     this.completionAppliedAt = const Value.absent(),
     this.successfulWordCount = const Value.absent(),
     this.unresolvedWrongWordCount = const Value.absent(),
+    this.completedWordCount = const Value.absent(),
     this.newlyLearnedWordCount = const Value.absent(),
     this.rowid = const Value.absent(),
   });
@@ -2433,6 +2474,7 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
     this.completionAppliedAt = const Value.absent(),
     this.successfulWordCount = const Value.absent(),
     this.unresolvedWrongWordCount = const Value.absent(),
+    this.completedWordCount = const Value.absent(),
     this.newlyLearnedWordCount = const Value.absent(),
     this.rowid = const Value.absent(),
   }) : id = Value(id),
@@ -2451,6 +2493,7 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
     Expression<int>? completionAppliedAt,
     Expression<int>? successfulWordCount,
     Expression<int>? unresolvedWrongWordCount,
+    Expression<int>? completedWordCount,
     Expression<int>? newlyLearnedWordCount,
     Expression<int>? rowid,
   }) {
@@ -2470,6 +2513,8 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
         'successful_word_count': successfulWordCount,
       if (unresolvedWrongWordCount != null)
         'unresolved_wrong_word_count': unresolvedWrongWordCount,
+      if (completedWordCount != null)
+        'completed_word_count': completedWordCount,
       if (newlyLearnedWordCount != null)
         'newly_learned_word_count': newlyLearnedWordCount,
       if (rowid != null) 'rowid': rowid,
@@ -2488,6 +2533,7 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
     Value<int?>? completionAppliedAt,
     Value<int>? successfulWordCount,
     Value<int>? unresolvedWrongWordCount,
+    Value<int>? completedWordCount,
     Value<int>? newlyLearnedWordCount,
     Value<int>? rowid,
   }) {
@@ -2505,6 +2551,7 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
       successfulWordCount: successfulWordCount ?? this.successfulWordCount,
       unresolvedWrongWordCount:
           unresolvedWrongWordCount ?? this.unresolvedWrongWordCount,
+      completedWordCount: completedWordCount ?? this.completedWordCount,
       newlyLearnedWordCount:
           newlyLearnedWordCount ?? this.newlyLearnedWordCount,
       rowid: rowid ?? this.rowid,
@@ -2551,6 +2598,9 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
         unresolvedWrongWordCount.value,
       );
     }
+    if (completedWordCount.present) {
+      map['completed_word_count'] = Variable<int>(completedWordCount.value);
+    }
     if (newlyLearnedWordCount.present) {
       map['newly_learned_word_count'] = Variable<int>(
         newlyLearnedWordCount.value,
@@ -2576,6 +2626,7 @@ class LearningSessionsCompanion extends UpdateCompanion<LearningSession> {
           ..write('completionAppliedAt: $completionAppliedAt, ')
           ..write('successfulWordCount: $successfulWordCount, ')
           ..write('unresolvedWrongWordCount: $unresolvedWrongWordCount, ')
+          ..write('completedWordCount: $completedWordCount, ')
           ..write('newlyLearnedWordCount: $newlyLearnedWordCount, ')
           ..write('rowid: $rowid')
           ..write(')'))
@@ -5666,6 +5717,222 @@ class ContentRevisionsCompanion extends UpdateCompanion<ContentRevisionRow> {
   }
 }
 
+class $AppUsageDaysTable extends AppUsageDays
+    with TableInfo<$AppUsageDaysTable, AppUsageDayRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $AppUsageDaysTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _dateMeta = const VerificationMeta('date');
+  @override
+  late final GeneratedColumn<int> date = GeneratedColumn<int>(
+    'date',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _foregroundMillisecondsMeta =
+      const VerificationMeta('foregroundMilliseconds');
+  @override
+  late final GeneratedColumn<int> foregroundMilliseconds = GeneratedColumn<int>(
+    'foreground_milliseconds',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [date, foregroundMilliseconds];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'app_usage_days';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<AppUsageDayRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('date')) {
+      context.handle(
+        _dateMeta,
+        date.isAcceptableOrUnknown(data['date']!, _dateMeta),
+      );
+    }
+    if (data.containsKey('foreground_milliseconds')) {
+      context.handle(
+        _foregroundMillisecondsMeta,
+        foregroundMilliseconds.isAcceptableOrUnknown(
+          data['foreground_milliseconds']!,
+          _foregroundMillisecondsMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {date};
+  @override
+  AppUsageDayRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return AppUsageDayRow(
+      date: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}date'],
+      )!,
+      foregroundMilliseconds: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}foreground_milliseconds'],
+      )!,
+    );
+  }
+
+  @override
+  $AppUsageDaysTable createAlias(String alias) {
+    return $AppUsageDaysTable(attachedDatabase, alias);
+  }
+}
+
+class AppUsageDayRow extends DataClass implements Insertable<AppUsageDayRow> {
+  /// Local midnight, stored as milliseconds since epoch.
+  final int date;
+  final int foregroundMilliseconds;
+  const AppUsageDayRow({
+    required this.date,
+    required this.foregroundMilliseconds,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['date'] = Variable<int>(date);
+    map['foreground_milliseconds'] = Variable<int>(foregroundMilliseconds);
+    return map;
+  }
+
+  AppUsageDaysCompanion toCompanion(bool nullToAbsent) {
+    return AppUsageDaysCompanion(
+      date: Value(date),
+      foregroundMilliseconds: Value(foregroundMilliseconds),
+    );
+  }
+
+  factory AppUsageDayRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return AppUsageDayRow(
+      date: serializer.fromJson<int>(json['date']),
+      foregroundMilliseconds: serializer.fromJson<int>(
+        json['foregroundMilliseconds'],
+      ),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'date': serializer.toJson<int>(date),
+      'foregroundMilliseconds': serializer.toJson<int>(foregroundMilliseconds),
+    };
+  }
+
+  AppUsageDayRow copyWith({int? date, int? foregroundMilliseconds}) =>
+      AppUsageDayRow(
+        date: date ?? this.date,
+        foregroundMilliseconds:
+            foregroundMilliseconds ?? this.foregroundMilliseconds,
+      );
+  AppUsageDayRow copyWithCompanion(AppUsageDaysCompanion data) {
+    return AppUsageDayRow(
+      date: data.date.present ? data.date.value : this.date,
+      foregroundMilliseconds: data.foregroundMilliseconds.present
+          ? data.foregroundMilliseconds.value
+          : this.foregroundMilliseconds,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('AppUsageDayRow(')
+          ..write('date: $date, ')
+          ..write('foregroundMilliseconds: $foregroundMilliseconds')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(date, foregroundMilliseconds);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is AppUsageDayRow &&
+          other.date == this.date &&
+          other.foregroundMilliseconds == this.foregroundMilliseconds);
+}
+
+class AppUsageDaysCompanion extends UpdateCompanion<AppUsageDayRow> {
+  final Value<int> date;
+  final Value<int> foregroundMilliseconds;
+  const AppUsageDaysCompanion({
+    this.date = const Value.absent(),
+    this.foregroundMilliseconds = const Value.absent(),
+  });
+  AppUsageDaysCompanion.insert({
+    this.date = const Value.absent(),
+    this.foregroundMilliseconds = const Value.absent(),
+  });
+  static Insertable<AppUsageDayRow> custom({
+    Expression<int>? date,
+    Expression<int>? foregroundMilliseconds,
+  }) {
+    return RawValuesInsertable({
+      if (date != null) 'date': date,
+      if (foregroundMilliseconds != null)
+        'foreground_milliseconds': foregroundMilliseconds,
+    });
+  }
+
+  AppUsageDaysCompanion copyWith({
+    Value<int>? date,
+    Value<int>? foregroundMilliseconds,
+  }) {
+    return AppUsageDaysCompanion(
+      date: date ?? this.date,
+      foregroundMilliseconds:
+          foregroundMilliseconds ?? this.foregroundMilliseconds,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (date.present) {
+      map['date'] = Variable<int>(date.value);
+    }
+    if (foregroundMilliseconds.present) {
+      map['foreground_milliseconds'] = Variable<int>(
+        foregroundMilliseconds.value,
+      );
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('AppUsageDaysCompanion(')
+          ..write('date: $date, ')
+          ..write('foregroundMilliseconds: $foregroundMilliseconds')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -5690,6 +5957,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $ContentRevisionsTable contentRevisions = $ContentRevisionsTable(
     this,
   );
+  late final $AppUsageDaysTable appUsageDays = $AppUsageDaysTable(this);
   late final Index topicModelEnabledOrder = Index(
     'topic_model_enabled_order',
     'CREATE INDEX topic_model_enabled_order ON TopicModel (is_enabled, "order")',
@@ -5726,6 +5994,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     visitModels,
     onboardingTestAnswerModels,
     contentRevisions,
+    appUsageDays,
     topicModelEnabledOrder,
     wordModelTopicEnabled,
     learningProgressRepetitionDate,
@@ -6626,6 +6895,7 @@ typedef $$LearningSessionsTableCreateCompanionBuilder =
       Value<int?> completionAppliedAt,
       Value<int> successfulWordCount,
       Value<int> unresolvedWrongWordCount,
+      Value<int> completedWordCount,
       Value<int> newlyLearnedWordCount,
       Value<int> rowid,
     });
@@ -6642,6 +6912,7 @@ typedef $$LearningSessionsTableUpdateCompanionBuilder =
       Value<int?> completionAppliedAt,
       Value<int> successfulWordCount,
       Value<int> unresolvedWrongWordCount,
+      Value<int> completedWordCount,
       Value<int> newlyLearnedWordCount,
       Value<int> rowid,
     });
@@ -6707,6 +6978,11 @@ class $$LearningSessionsTableFilterComposer
 
   ColumnFilters<int> get unresolvedWrongWordCount => $composableBuilder(
     column: $table.unresolvedWrongWordCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get completedWordCount => $composableBuilder(
+    column: $table.completedWordCount,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -6780,6 +7056,11 @@ class $$LearningSessionsTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<int> get completedWordCount => $composableBuilder(
+    column: $table.completedWordCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   ColumnOrderings<int> get newlyLearnedWordCount => $composableBuilder(
     column: $table.newlyLearnedWordCount,
     builder: (column) => ColumnOrderings(column),
@@ -6842,6 +7123,11 @@ class $$LearningSessionsTableAnnotationComposer
     builder: (column) => column,
   );
 
+  GeneratedColumn<int> get completedWordCount => $composableBuilder(
+    column: $table.completedWordCount,
+    builder: (column) => column,
+  );
+
   GeneratedColumn<int> get newlyLearnedWordCount => $composableBuilder(
     column: $table.newlyLearnedWordCount,
     builder: (column) => column,
@@ -6896,6 +7182,7 @@ class $$LearningSessionsTableTableManager
                 Value<int?> completionAppliedAt = const Value.absent(),
                 Value<int> successfulWordCount = const Value.absent(),
                 Value<int> unresolvedWrongWordCount = const Value.absent(),
+                Value<int> completedWordCount = const Value.absent(),
                 Value<int> newlyLearnedWordCount = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
               }) => LearningSessionsCompanion(
@@ -6910,6 +7197,7 @@ class $$LearningSessionsTableTableManager
                 completionAppliedAt: completionAppliedAt,
                 successfulWordCount: successfulWordCount,
                 unresolvedWrongWordCount: unresolvedWrongWordCount,
+                completedWordCount: completedWordCount,
                 newlyLearnedWordCount: newlyLearnedWordCount,
                 rowid: rowid,
               ),
@@ -6926,6 +7214,7 @@ class $$LearningSessionsTableTableManager
                 Value<int?> completionAppliedAt = const Value.absent(),
                 Value<int> successfulWordCount = const Value.absent(),
                 Value<int> unresolvedWrongWordCount = const Value.absent(),
+                Value<int> completedWordCount = const Value.absent(),
                 Value<int> newlyLearnedWordCount = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
               }) => LearningSessionsCompanion.insert(
@@ -6940,6 +7229,7 @@ class $$LearningSessionsTableTableManager
                 completionAppliedAt: completionAppliedAt,
                 successfulWordCount: successfulWordCount,
                 unresolvedWrongWordCount: unresolvedWrongWordCount,
+                completedWordCount: completedWordCount,
                 newlyLearnedWordCount: newlyLearnedWordCount,
                 rowid: rowid,
               ),
@@ -8606,6 +8896,145 @@ typedef $$ContentRevisionsTableProcessedTableManager =
       ContentRevisionRow,
       PrefetchHooks Function()
     >;
+typedef $$AppUsageDaysTableCreateCompanionBuilder =
+    AppUsageDaysCompanion Function({
+      Value<int> date,
+      Value<int> foregroundMilliseconds,
+    });
+typedef $$AppUsageDaysTableUpdateCompanionBuilder =
+    AppUsageDaysCompanion Function({
+      Value<int> date,
+      Value<int> foregroundMilliseconds,
+    });
+
+class $$AppUsageDaysTableFilterComposer
+    extends Composer<_$AppDatabase, $AppUsageDaysTable> {
+  $$AppUsageDaysTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get date => $composableBuilder(
+    column: $table.date,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get foregroundMilliseconds => $composableBuilder(
+    column: $table.foregroundMilliseconds,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$AppUsageDaysTableOrderingComposer
+    extends Composer<_$AppDatabase, $AppUsageDaysTable> {
+  $$AppUsageDaysTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get date => $composableBuilder(
+    column: $table.date,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get foregroundMilliseconds => $composableBuilder(
+    column: $table.foregroundMilliseconds,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$AppUsageDaysTableAnnotationComposer
+    extends Composer<_$AppDatabase, $AppUsageDaysTable> {
+  $$AppUsageDaysTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get date =>
+      $composableBuilder(column: $table.date, builder: (column) => column);
+
+  GeneratedColumn<int> get foregroundMilliseconds => $composableBuilder(
+    column: $table.foregroundMilliseconds,
+    builder: (column) => column,
+  );
+}
+
+class $$AppUsageDaysTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $AppUsageDaysTable,
+          AppUsageDayRow,
+          $$AppUsageDaysTableFilterComposer,
+          $$AppUsageDaysTableOrderingComposer,
+          $$AppUsageDaysTableAnnotationComposer,
+          $$AppUsageDaysTableCreateCompanionBuilder,
+          $$AppUsageDaysTableUpdateCompanionBuilder,
+          (
+            AppUsageDayRow,
+            BaseReferences<_$AppDatabase, $AppUsageDaysTable, AppUsageDayRow>,
+          ),
+          AppUsageDayRow,
+          PrefetchHooks Function()
+        > {
+  $$AppUsageDaysTableTableManager(_$AppDatabase db, $AppUsageDaysTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$AppUsageDaysTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$AppUsageDaysTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$AppUsageDaysTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> date = const Value.absent(),
+                Value<int> foregroundMilliseconds = const Value.absent(),
+              }) => AppUsageDaysCompanion(
+                date: date,
+                foregroundMilliseconds: foregroundMilliseconds,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> date = const Value.absent(),
+                Value<int> foregroundMilliseconds = const Value.absent(),
+              }) => AppUsageDaysCompanion.insert(
+                date: date,
+                foregroundMilliseconds: foregroundMilliseconds,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$AppUsageDaysTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $AppUsageDaysTable,
+      AppUsageDayRow,
+      $$AppUsageDaysTableFilterComposer,
+      $$AppUsageDaysTableOrderingComposer,
+      $$AppUsageDaysTableAnnotationComposer,
+      $$AppUsageDaysTableCreateCompanionBuilder,
+      $$AppUsageDaysTableUpdateCompanionBuilder,
+      (
+        AppUsageDayRow,
+        BaseReferences<_$AppDatabase, $AppUsageDaysTable, AppUsageDayRow>,
+      ),
+      AppUsageDayRow,
+      PrefetchHooks Function()
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -8639,4 +9068,6 @@ class $AppDatabaseManager {
       );
   $$ContentRevisionsTableTableManager get contentRevisions =>
       $$ContentRevisionsTableTableManager(_db, _db.contentRevisions);
+  $$AppUsageDaysTableTableManager get appUsageDays =>
+      $$AppUsageDaysTableTableManager(_db, _db.appUsageDays);
 }

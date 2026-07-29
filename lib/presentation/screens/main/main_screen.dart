@@ -77,6 +77,10 @@ class _MainScreenState extends State<MainScreen> {
                 ref.invalidate(topicProgressProvider);
                 ref.invalidate(vocabularyCollectionProvider);
               }
+              if (index == 3) {
+                ref.invalidate(profileStatisticsProvider);
+                ref.invalidate(topicProgressProvider);
+              }
               setState(() => _selectedIndex = index);
             },
           ),

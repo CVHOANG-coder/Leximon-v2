@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../data/models/topic.dart';
@@ -276,7 +277,7 @@ class _ProgressHeader extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 30,
                   height: 1,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w700,
                   letterSpacing: -1.4,
                 ),
               ),
@@ -357,24 +358,24 @@ class _ProgressHero extends StatelessWidget {
                 child: Column(
                   children: [
                     _SmallStat(
-                      icon: '🔥',
+                      iconAsset: 'assets/svgs/streak.svg',
                       title: '${dashboard.currentStreak} ngày',
                       body: 'Chuỗi học liên tiếp',
-                      color: Color(0xFFFFF0D8),
+                      style: _SmallStatStyle.streak,
                     ),
                     SizedBox(height: 10),
                     _SmallStat(
-                      icon: '📘',
+                      iconAsset: 'assets/svgs/book.svg',
                       title: '${dashboard.progressedWords} từ',
                       body: 'Đã có tiến độ',
-                      color: Color(0xFFDDF9EF),
+                      style: _SmallStatStyle.progress,
                     ),
                     SizedBox(height: 10),
                     _SmallStat(
-                      icon: '⚡',
+                      iconAsset: 'assets/svgs/thunder.svg',
                       title: '${dashboard.weekSessionCount} phiên',
                       body: 'Đã hoàn thành tuần này',
-                      color: Color(0xFFFFF5C9),
+                      style: _SmallStatStyle.sessions,
                     ),
                   ],
                 ),
@@ -419,42 +420,45 @@ class _ProgressCard extends StatelessWidget {
       child: Column(
         children: [
           const SizedBox(height: 4),
-          SizedBox(
-            width: 150,
-            height: 150,
-            child: Stack(
-              alignment: Alignment.center,
-              children: [
-                SizedBox.expand(
-                  child: CircularProgressIndicator(
-                    value: dashboard.overallProgress,
-                    strokeWidth: 13,
-                    backgroundColor: Color(0x2BFFFFFF),
-                    valueColor: AlwaysStoppedAnimation(AppColors.cyan),
+          ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 150),
+            child: AspectRatio(
+              aspectRatio: 1,
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  SizedBox.expand(
+                    child: CircularProgressIndicator(
+                      key: const Key('vocabulary-progress-ring'),
+                      value: dashboard.overallProgress,
+                      strokeWidth: 13,
+                      backgroundColor: const Color(0x2BFFFFFF),
+                      valueColor: const AlwaysStoppedAnimation(AppColors.cyan),
+                    ),
                   ),
-                ),
-                Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      '${dashboard.progressedWords}',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 25,
-                        fontWeight: FontWeight.w900,
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        '${dashboard.progressedWords}',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 25,
+                          fontWeight: FontWeight.w800,
+                        ),
                       ),
-                    ),
-                    Text(
-                      'TỪ',
-                      style: TextStyle(
-                        color: Colors.white70,
-                        fontSize: 11,
-                        fontWeight: FontWeight.w800,
+                      const Text(
+                        'TỪ',
+                        style: TextStyle(
+                          color: Colors.white70,
+                          fontSize: 11,
+                          fontWeight: FontWeight.w800,
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-              ],
+                    ],
+                  ),
+                ],
+              ),
             ),
           ),
           const SizedBox(height: 8),
@@ -481,27 +485,60 @@ class _ProgressCard extends StatelessWidget {
 
 class _SmallStat extends StatelessWidget {
   const _SmallStat({
-    required this.icon,
+    required this.iconAsset,
     required this.title,
     required this.body,
-    required this.color,
+    required this.style,
   });
-  final String icon;
+  final String iconAsset;
   final String title;
   final String body;
-  final Color color;
+  final _SmallStatStyle style;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(11),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
       decoration: BoxDecoration(
-        color: color,
-        borderRadius: BorderRadius.circular(16),
+        gradient: LinearGradient(
+          colors: style.backgroundColors,
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: style.borderColor, width: .8),
+        boxShadow: [
+          BoxShadow(
+            color: style.shadowColor,
+            blurRadius: 12,
+            offset: const Offset(0, 5),
+          ),
+        ],
       ),
       child: Row(
         children: [
-          Text(icon, style: const TextStyle(fontSize: 20)),
+          Container(
+            width: 34,
+            height: 34,
+            padding: const EdgeInsets.all(6),
+            decoration: BoxDecoration(
+              color: style.iconBackgroundColor,
+              borderRadius: BorderRadius.circular(11),
+              border: Border.all(color: const Color(0xBFFFFFFF), width: .8),
+              boxShadow: const [
+                BoxShadow(
+                  color: Color(0x140D1B3A),
+                  blurRadius: 7,
+                  offset: Offset(0, 3),
+                ),
+              ],
+            ),
+            child: SvgPicture.asset(
+              iconAsset,
+              key: ValueKey(iconAsset),
+              fit: BoxFit.contain,
+            ),
+          ),
           const SizedBox(width: 8),
           Expanded(
             child: Column(
@@ -509,19 +546,22 @@ class _SmallStat extends StatelessWidget {
               children: [
                 Text(
                   title,
-                  style: const TextStyle(
+                  style: TextStyle(
+                    color: style.titleColor,
                     fontSize: 12,
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: -.15,
                   ),
                 ),
                 const SizedBox(height: 3),
                 Text(
                   body,
                   maxLines: 2,
-                  style: const TextStyle(
-                    color: AppColors.textSecondary,
+                  style: TextStyle(
+                    color: style.bodyColor,
                     fontSize: 8,
                     height: 1.2,
+                    fontWeight: FontWeight.w500,
                   ),
                 ),
               ],
@@ -531,6 +571,51 @@ class _SmallStat extends StatelessWidget {
       ),
     );
   }
+}
+
+class _SmallStatStyle {
+  const _SmallStatStyle({
+    required this.backgroundColors,
+    required this.borderColor,
+    required this.iconBackgroundColor,
+    required this.titleColor,
+    required this.bodyColor,
+    required this.shadowColor,
+  });
+
+  static const streak = _SmallStatStyle(
+    backgroundColors: [Color(0xFFFFF2F5), Color(0xFFFFE5EB)],
+    borderColor: Color(0xFFFFCBD7),
+    iconBackgroundColor: Color(0xE6FFFFFF),
+    titleColor: Color(0xFF642A38),
+    bodyColor: Color(0xFFA46171),
+    shadowColor: Color(0x1FFF5D7D),
+  );
+
+  static const progress = _SmallStatStyle(
+    backgroundColors: [Color(0xFFF4F1FF), Color(0xFFE7F3FF)],
+    borderColor: Color(0xFFD8D7FF),
+    iconBackgroundColor: Color(0xE6FFFFFF),
+    titleColor: Color(0xFF303762),
+    bodyColor: Color(0xFF727BA2),
+    shadowColor: Color(0x1F6672DA),
+  );
+
+  static const sessions = _SmallStatStyle(
+    backgroundColors: [Color(0xFFFFF9DE), Color(0xFFFFEDB9)],
+    borderColor: Color(0xFFFFDE8B),
+    iconBackgroundColor: Color(0xE6FFFFFF),
+    titleColor: Color(0xFF65490B),
+    bodyColor: Color(0xFF9A762D),
+    shadowColor: Color(0x24DEA219),
+  );
+
+  final List<Color> backgroundColors;
+  final Color borderColor;
+  final Color iconBackgroundColor;
+  final Color titleColor;
+  final Color bodyColor;
+  final Color shadowColor;
 }
 
 class _MasteryCard extends StatelessWidget {
@@ -592,7 +677,7 @@ class _MasteryCard extends StatelessWidget {
                 style: TextStyle(
                   color: color,
                   fontSize: 25,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w700,
                 ),
               ),
               const SizedBox(width: 4),

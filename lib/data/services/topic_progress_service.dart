@@ -65,7 +65,7 @@ class TopicProgressService {
           progress.repetitionDate! <= now;
       if (isLearned) {
         learnedWords++;
-      } else if (progress.trainingProgress > 0) {
+      } else if (_hasLearningActivity(progress)) {
         activeWords++;
       }
       if (isDue) reviewWords++;
@@ -94,9 +94,7 @@ class TopicProgressService {
       totalByTopic[word.topicId] = (totalByTopic[word.topicId] ?? 0) + 1;
       final progress = progressByWordId[word.id];
       if (progress == null || progress.deletedByUser) continue;
-      if (progress.trainingProgress > 0 ||
-          progress.learnedDate != null ||
-          progress.markedAsKnown) {
+      if (_hasLearningActivity(progress)) {
         progressedByTopic[word.topicId] =
             (progressedByTopic[word.topicId] ?? 0) + 1;
       }
@@ -110,4 +108,13 @@ class TopicProgressService {
         ),
     };
   }
+}
+
+bool _hasLearningActivity(LearningProgressRow progress) {
+  return progress.trainingProgress > 0 ||
+      progress.trainingError > 0 ||
+      progress.learnedDate != null ||
+      progress.markedAsKnown ||
+      progress.repetitionStep > 0 ||
+      progress.onFastBrain;
 }

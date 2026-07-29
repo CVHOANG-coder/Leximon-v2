@@ -6,10 +6,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/services/text_to_speech_service.dart';
+import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/topic_progress_service.dart';
+import '../../../data/services/topic_repetition_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../../widgets/leximon_widgets.dart';
+import '../repetition_practice/repetition_practice_screen.dart';
 import '../word_study/word_study_screen.dart';
 
 class TopicDetailScreen extends ConsumerStatefulWidget {
@@ -23,6 +26,7 @@ class TopicDetailScreen extends ConsumerStatefulWidget {
 
 class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
   bool _saved = false;
+  bool _isOpeningRepetition = false;
   late TopicProgressDetails _progressDetails;
 
   Topic get topic => widget.topic;
@@ -39,6 +43,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
     _progressDetails =
         ref.watch(topicProgressDetailsProvider(topic.id)).valueOrNull ??
         TopicProgressDetails.empty(topic.wordCount);
+    final repetitionData = ref.watch(topicRepetitionDataProvider(topic.id));
     return Scaffold(
       backgroundColor: AppColors.background,
       body: Stack(
@@ -65,7 +70,9 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                       ),
                       SliverPadding(
                         padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
-                        sliver: SliverToBoxAdapter(child: _actionsSection()),
+                        sliver: SliverToBoxAdapter(
+                          child: _actionsSection(repetitionData),
+                        ),
                       ),
                       SliverPadding(
                         padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
@@ -153,7 +160,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                         color: AppColors.textPrimary,
                         fontSize: 27,
                         height: 1,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w700,
                         letterSpacing: -1,
                       ),
                     ),
@@ -206,7 +213,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                       style: const TextStyle(
                         color: AppColors.primary,
                         fontSize: 18,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w700,
                       ),
                     ),
                   ],
@@ -215,7 +222,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                   '$progressedWords / ${_progressDetails.totalWords} từ',
                   style: const TextStyle(
                     fontSize: 16,
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.w700,
                   ),
                 ),
                 const SizedBox(height: 11),
@@ -261,7 +268,11 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
     );
   }
 
-  Widget _actionsSection() {
+  Widget _actionsSection(AsyncValue<TopicRepetitionData> repetitionData) {
+    final data = repetitionData.valueOrNull;
+    final repeatableCount = data?.words.length ?? 0;
+    final canRepeat = data?.canStart ?? false;
+    final isLoading = repetitionData.isLoading || _isOpeningRepetition;
     return LeximonSurface(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -277,21 +288,40 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
             description: 'Bắt đầu với những từ bạn chưa học trong chủ đề này.',
             color: const Color(0xFFFFF9E8),
             iconBackground: const Color(0xFFFFF0BD),
-            onTap: () => Navigator.of(context).push(
-              MaterialPageRoute<void>(
-                builder: (_) => WordStudyScreen(topic: topic),
-              ),
-            ),
+            onTap: _openWordStudy,
           ),
           const SizedBox(height: 10),
           _ActionItem(
             icon: '🔁',
-            title: 'Ôn lại từ',
-            description: 'Ôn các từ đang đến hạn để giữ trí nhớ lâu hơn.',
+            title: 'Ôn lặp lại',
+            description: canRepeat
+                ? '$repeatableCount từ đã học sẵn sàng để ôn theo từng lượt.'
+                : 'Cần ít nhất ${TopicRepetitionService.minimumWordCount} từ đã học để bắt đầu.',
             color: const Color(0xFFF3F7FF),
             iconBackground: const Color(0xFFE8F0FF),
-            onTap: () => _showComingSoon('Ôn lại từ'),
+            isLoading: isLoading,
+            onTap: canRepeat && !isLoading ? _openTopicRepetition : null,
           ),
+          if (!canRepeat &&
+              !repetitionData.isLoading &&
+              !repetitionData.hasError) ...[
+            const SizedBox(height: 10),
+            _RepetitionRequirement(
+              current: repeatableCount,
+              required: TopicRepetitionService.minimumWordCount,
+            ),
+          ],
+          if (repetitionData.hasError) ...[
+            const SizedBox(height: 10),
+            const Text(
+              'Chưa thể tải danh sách từ ôn. Hãy thử mở lại màn hình.',
+              style: TextStyle(
+                color: AppColors.textSecondary,
+                fontSize: 10,
+                height: 1.4,
+              ),
+            ),
+          ],
         ],
       ),
     );
@@ -352,7 +382,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                     writing,
                     style: const TextStyle(
                       fontSize: 16,
-                      fontWeight: FontWeight.w900,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
                   const SizedBox(height: 4),
@@ -404,7 +434,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                     style: TextStyle(
                       color: AppColors.textPrimary,
                       fontSize: 13,
-                      fontWeight: FontWeight.w900,
+                      fontWeight: FontWeight.w700,
                     ),
                   ),
                   TextSpan(
@@ -429,6 +459,66 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('$action sẽ được mở rộng ở bước tiếp theo.')),
     );
+  }
+
+  Future<void> _openWordStudy() async {
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (_) =>
+            WordStudyScreen(topic: topic, dailyTaskType: DailyTaskType.learn),
+      ),
+    );
+    if (!mounted) return;
+    ref.invalidate(topicProgressDetailsProvider(topic.id));
+    ref.invalidate(topicRepetitionDataProvider(topic.id));
+  }
+
+  Future<void> _openTopicRepetition() async {
+    if (_isOpeningRepetition) return;
+    setState(() => _isOpeningRepetition = true);
+    try {
+      ref.invalidate(topicRepetitionDataProvider(topic.id));
+      final data = await ref.read(topicRepetitionDataProvider(topic.id).future);
+      if (!mounted) return;
+      if (!data.canStart) {
+        _showMessage(
+          'Bạn cần ít nhất ${TopicRepetitionService.minimumWordCount} từ đã học để bắt đầu ôn.',
+        );
+        return;
+      }
+
+      await Navigator.of(context).push<bool>(
+        MaterialPageRoute<bool>(
+          builder: (_) => RepetitionPracticeScreen(
+            title: 'Ôn • ${topic.translated}',
+            topicId: topic.id,
+            words: data.words,
+            distractorWords: data.distractorWords,
+            database: ref.read(appDatabaseProvider),
+          ),
+        ),
+      );
+      if (!mounted) return;
+      ref.invalidate(topicProgressDetailsProvider(topic.id));
+      ref.invalidate(topicRepetitionDataProvider(topic.id));
+      ref.invalidate(topicProgressProvider);
+      ref.invalidate(wordProgressProvider);
+      ref.invalidate(dailyCardProvider);
+      ref.invalidate(progressDashboardProvider);
+      ref.invalidate(vocabularyCollectionProvider);
+    } catch (_) {
+      if (mounted) {
+        _showMessage('Không thể mở buổi ôn lúc này. Vui lòng thử lại.');
+      }
+    } finally {
+      if (mounted) setState(() => _isOpeningRepetition = false);
+    }
+  }
+
+  void _showMessage(String message) {
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(message)));
   }
 
   void _speakWord(String word) {
@@ -591,7 +681,7 @@ class _StatCard extends StatelessWidget {
           style: const TextStyle(
             fontSize: 18,
             height: 1,
-            fontWeight: FontWeight.w900,
+            fontWeight: FontWeight.w700,
           ),
         ),
         const SizedBox(height: 5),
@@ -645,65 +735,140 @@ class _ActionItem extends StatelessWidget {
     required this.color,
     required this.iconBackground,
     required this.onTap,
+    this.isLoading = false,
   });
   final String icon;
   final String title;
   final String description;
   final Color color;
   final Color iconBackground;
-  final VoidCallback onTap;
+  final VoidCallback? onTap;
+  final bool isLoading;
 
   @override
-  Widget build(BuildContext context) => InkWell(
-    onTap: onTap,
-    borderRadius: BorderRadius.circular(20),
-    child: Ink(
-      padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: color,
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFEDF1F7)),
-      ),
-      child: Row(
-        children: [
-          Container(
-            width: 48,
-            height: 48,
-            decoration: BoxDecoration(
-              color: iconBackground,
-              borderRadius: BorderRadius.circular(16),
+  Widget build(BuildContext context) => Opacity(
+    opacity: onTap == null && !isLoading ? .58 : 1,
+    child: InkWell(
+      onTap: onTap,
+      borderRadius: BorderRadius.circular(20),
+      child: Ink(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: color,
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: const Color(0xFFEDF1F7)),
+        ),
+        child: Row(
+          children: [
+            Container(
+              width: 48,
+              height: 48,
+              decoration: BoxDecoration(
+                color: iconBackground,
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Center(
+                child: Text(icon, style: const TextStyle(fontSize: 22)),
+              ),
             ),
-            child: Center(
-              child: Text(icon, style: const TextStyle(fontSize: 22)),
-            ),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: const TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w900,
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.w700,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 5),
-                Text(
-                  description,
-                  style: const TextStyle(
-                    color: AppColors.textSecondary,
-                    fontSize: 10,
-                    height: 1.4,
+                  const SizedBox(height: 5),
+                  Text(
+                    description,
+                    style: const TextStyle(
+                      color: AppColors.textSecondary,
+                      fontSize: 10,
+                      height: 1.4,
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-          const Icon(Icons.chevron_right_rounded, color: AppColors.textMuted),
-        ],
+            if (isLoading)
+              const SizedBox(
+                width: 20,
+                height: 20,
+                child: CircularProgressIndicator(strokeWidth: 2),
+              )
+            else
+              Icon(
+                onTap == null
+                    ? Icons.lock_outline_rounded
+                    : Icons.chevron_right_rounded,
+                color: AppColors.textMuted,
+              ),
+          ],
+        ),
       ),
     ),
   );
+}
+
+class _RepetitionRequirement extends StatelessWidget {
+  const _RepetitionRequirement({required this.current, required this.required});
+
+  final int current;
+  final int required;
+
+  @override
+  Widget build(BuildContext context) {
+    final progress = (current / required).clamp(0, 1).toDouble();
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: const Color(0xFFF7F9FC),
+        borderRadius: BorderRadius.circular(16),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              const Expanded(
+                child: Text(
+                  'Ngay khi có 8 từ, bạn có thể bắt đầu lặp lại chúng',
+                  style: TextStyle(
+                    color: AppColors.textSecondary,
+                    fontSize: 10,
+                    height: 1.4,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+              ),
+              const SizedBox(width: 10),
+              Text(
+                '$current / $required',
+                style: const TextStyle(
+                  color: AppColors.primary,
+                  fontSize: 11,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 9),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(99),
+            child: LinearProgressIndicator(
+              value: progress,
+              minHeight: 6,
+              backgroundColor: const Color(0xFFE3E9F3),
+              color: AppColors.primary,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }

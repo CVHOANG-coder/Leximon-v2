@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../data/datasources/topic_asset_data_source.dart';
@@ -5,9 +7,15 @@ import '../../data/local/app_database.dart';
 import '../../data/models/topic.dart';
 import '../../data/models/vocabulary_collection.dart';
 import '../../data/repositories/topic_repository.dart';
+import '../../data/services/additional_task_service.dart';
+import '../../data/services/app_usage_service.dart';
 import '../../data/services/daily_card_service.dart';
+import '../../data/services/difficult_words_training_service.dart';
+import '../../data/services/home_main_task_service.dart';
+import '../../data/services/profile_statistics_service.dart';
 import '../../data/services/progress_dashboard_service.dart';
 import '../../data/services/topic_progress_service.dart';
+import '../../data/services/topic_repetition_service.dart';
 
 final appDatabaseProvider = Provider<AppDatabase>((ref) {
   final database = AppDatabase();
@@ -25,6 +33,12 @@ final topicRepositoryProvider = Provider<TopicRepository>(
     assetDataSource: ref.watch(topicAssetDataSourceProvider),
   ),
 );
+
+final appUsageServiceProvider = Provider<AppUsageService>((ref) {
+  final service = AppUsageService(ref.watch(appDatabaseProvider));
+  ref.onDispose(service.dispose);
+  return service;
+});
 
 final localDataInitializationProvider = FutureProvider<void>((ref) {
   return ref.watch(topicRepositoryProvider).initialize();
@@ -69,9 +83,39 @@ final dailyCardServiceProvider = Provider<DailyCardService>((ref) {
   return DailyCardService(ref.watch(appDatabaseProvider));
 });
 
-final dailyCardProvider = FutureProvider<DailyCardSnapshot>((ref) async {
-  return ref.watch(dailyCardServiceProvider).load();
+final homeMainTaskServiceProvider = Provider<HomeMainTaskService>((ref) {
+  return HomeMainTaskService(ref.watch(appDatabaseProvider));
 });
+
+final dailyCardProvider = FutureProvider<DailyCardSnapshot>((ref) async {
+  await ref.watch(localDataInitializationProvider.future);
+  final currentLocalTime = DateTime.now();
+  final rolloverTimer = Timer(
+    nextLocalMidnight(currentLocalTime).difference(currentLocalTime),
+    ref.invalidateSelf,
+  );
+  ref.onDispose(rolloverTimer.cancel);
+
+  return ref.watch(dailyCardServiceProvider).load(now: currentLocalTime);
+});
+
+final additionalTaskServiceProvider = Provider<AdditionalTaskService>((ref) {
+  return AdditionalTaskService(
+    database: ref.watch(appDatabaseProvider),
+    dailyCardService: ref.watch(dailyCardServiceProvider),
+  );
+});
+
+final difficultWordsTrainingServiceProvider =
+    Provider<DifficultWordsTrainingService>((ref) {
+      return DifficultWordsTrainingService(ref.watch(appDatabaseProvider));
+    });
+
+DateTime nextLocalMidnight(DateTime currentLocalTime) => DateTime(
+  currentLocalTime.year,
+  currentLocalTime.month,
+  currentLocalTime.day + 1,
+);
 
 final topicProgressServiceProvider = Provider<TopicProgressService>((ref) {
   return TopicProgressService(ref.watch(appDatabaseProvider));
@@ -88,6 +132,16 @@ final topicProgressDetailsProvider = FutureProvider.family
       return ref.watch(topicProgressServiceProvider).loadDetails(topicId);
     });
 
+final topicRepetitionServiceProvider = Provider<TopicRepetitionService>((ref) {
+  return TopicRepetitionService(ref.watch(appDatabaseProvider));
+});
+
+final topicRepetitionDataProvider = FutureProvider.family
+    .autoDispose<TopicRepetitionData, int>((ref, topicId) async {
+      await ref.watch(localDataInitializationProvider.future);
+      return ref.watch(topicRepetitionServiceProvider).load(topicId);
+    });
+
 final progressDashboardServiceProvider = Provider<ProgressDashboardService>((
   ref,
 ) {
@@ -99,6 +153,24 @@ final progressDashboardProvider = FutureProvider<ProgressDashboardSnapshot>((
 ) async {
   await ref.watch(localDataInitializationProvider.future);
   return ref.watch(progressDashboardServiceProvider).load();
+});
+
+final profileStatisticsServiceProvider = Provider<ProfileStatisticsService>((
+  ref,
+) {
+  return ProfileStatisticsService(ref.watch(appDatabaseProvider));
+});
+
+final profileStatisticsProvider = FutureProvider<ProfileStatisticsSnapshot>((
+  ref,
+) async {
+  await ref.watch(localDataInitializationProvider.future);
+  await ref.watch(selectedTopicOrdersHydrationProvider.future);
+  final trackedTopicCount = ref.watch(selectedTopicOrdersProvider).length;
+  await ref.watch(appUsageServiceProvider).checkpoint();
+  return ref
+      .watch(profileStatisticsServiceProvider)
+      .load(trackedTopicCount: trackedTopicCount);
 });
 
 final vocabularyCollectionProvider =

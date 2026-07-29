@@ -1,6 +1,9 @@
 import 'package:leximon/app.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/topic.dart';
+import 'package:leximon/data/models/practice_exercise.dart';
+import 'package:leximon/data/services/daily_card_service.dart';
+import 'package:leximon/data/services/learning_progress_service.dart';
 import 'package:leximon/presentation/screens/review_practice/review_practice_screen.dart';
 import 'package:leximon/presentation/screens/word_study/word_study_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
@@ -149,6 +152,35 @@ void main() {
     expect(find.text('Tiếp tục'), findsOneWidget);
   });
 
+  testWidgets('difficult practice only rebuilds the remaining error types', (
+    tester,
+  ) async {
+    final words = _practiceWords();
+    final constructorMask = LearningProgressService.bitForType(
+      TrainingExerciseType.constructor,
+    );
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: ReviewPracticeScreen(
+          title: 'Từ khó',
+          kicker: 'WANT MORE',
+          dailyTaskType: DailyTaskType.difficult,
+          words: words,
+          distractorWords: words,
+          exerciseMasksByWordId: {
+            for (final word in words) word['id'] as int: constructorMask,
+          },
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('WANT MORE'), findsOneWidget);
+    expect(find.text('Từ khó'), findsOneWidget);
+    expect(find.text('0 / 4'), findsOneWidget);
+  });
+
   testWidgets('shows three listening choices and correct feedback', (
     tester,
   ) async {
@@ -174,6 +206,7 @@ void main() {
     expect(find.text('Âm thanh B'), findsOneWidget);
     expect(find.text('Âm thanh C'), findsOneWidget);
     expect(find.text('Âm thanh D'), findsNothing);
+    expect(find.text('HIỆN TẠI, TÔI KHÔNG THỂ NGHE ĐƯỢC'), findsOneWidget);
 
     final correctChoice = find.byKey(const ValueKey('listening-word-1'));
     await tester.ensureVisible(correctChoice);
@@ -240,6 +273,41 @@ void main() {
     expect(find.text('ÂM THANH BẠN ĐÃ CHỌN'), findsOneWidget);
     expect(find.text('ÂM THANH ĐÚNG'), findsOneWidget);
     expect(find.text('Tiếp tục'), findsOneWidget);
+  });
+
+  testWidgets('confirms and skips three-choice listening practice', (
+    tester,
+  ) async {
+    final words = _practiceWords();
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: ReviewPracticeScreen(
+          words: words,
+          distractorWords: words,
+          initialQuestionIndex: 8,
+          showIntroOnStart: false,
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    final skipButton = find.text('HIỆN TẠI, TÔI KHÔNG THỂ NGHE ĐƯỢC');
+    await tester.ensureVisible(skipButton);
+    await tester.tap(skipButton);
+    await tester.pumpAndSettle();
+
+    expect(
+      find.text(
+        'Bạn có chắc chắn bạn muốn bỏ qua thực hành nghe hiểu vào lúc này?',
+      ),
+      findsOneWidget,
+    );
+    await tester.tap(find.text('Có'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('13 / 24'), findsOneWidget);
+    expect(find.text('Bài ghép chữ'), findsOneWidget);
   });
 
   testWidgets('shows four listening translation choices', (tester) async {

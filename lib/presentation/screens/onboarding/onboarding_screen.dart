@@ -540,7 +540,7 @@ class _SetupIntro extends StatelessWidget {
             style: const TextStyle(
               color: AppColors.primary,
               fontSize: 9,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
               letterSpacing: .8,
             ),
           ),
@@ -551,7 +551,7 @@ class _SetupIntro extends StatelessWidget {
               color: AppColors.textPrimary,
               fontSize: 24,
               height: 1.08,
-              fontWeight: FontWeight.w900,
+              fontWeight: FontWeight.w800,
               letterSpacing: -.8,
             ),
           ),
@@ -640,7 +640,7 @@ class _LevelOption extends StatelessWidget {
                           style: const TextStyle(
                             color: AppColors.textPrimary,
                             fontSize: 14,
-                            fontWeight: FontWeight.w900,
+                            fontWeight: FontWeight.w800,
                           ),
                         ),
                       ),
@@ -765,7 +765,7 @@ class _SetupHelper extends StatelessWidget {
                 children: [
                   TextSpan(
                     text: 'Sơ cấp',
-                    style: TextStyle(fontWeight: FontWeight.w900),
+                    style: TextStyle(fontWeight: FontWeight.w800),
                   ),
                   TextSpan(
                     text:
@@ -819,7 +819,7 @@ class _TopicsStep extends ConsumerWidget {
                     style: const TextStyle(
                       color: AppColors.textPrimary,
                       fontSize: 14,
-                      fontWeight: FontWeight.w900,
+                      fontWeight: FontWeight.w800,
                     ),
                   ),
                   const SizedBox(height: 2),
@@ -963,7 +963,7 @@ class _TopicOption extends StatelessWidget {
                             color: AppColors.textPrimary,
                             fontSize: 13,
                             height: 1.15,
-                            fontWeight: FontWeight.w900,
+                            fontWeight: FontWeight.w800,
                           ),
                         ),
                       ),
@@ -1079,7 +1079,7 @@ class _SetupBottomBar extends StatelessWidget {
                           style: const TextStyle(
                             color: AppColors.textPrimary,
                             fontSize: 12,
-                            fontWeight: FontWeight.w900,
+                            fontWeight: FontWeight.w800,
                           ),
                         ),
                         const SizedBox(height: 3),
@@ -1114,7 +1114,7 @@ class _SetupBottomBar extends StatelessWidget {
                         ),
                         textStyle: const TextStyle(
                           fontSize: 11,
-                          fontWeight: FontWeight.w900,
+                          fontWeight: FontWeight.w800,
                         ),
                       ),
                       child: Text(isLevel ? 'Tiếp tục' : 'Hoàn tất'),

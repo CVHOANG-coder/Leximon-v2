@@ -5,6 +5,7 @@ import 'package:drift/drift.dart';
 import '../local/app_database.dart';
 import '../models/practice_exercise.dart';
 import 'daily_card_service.dart';
+import 'exercise_error_mask.dart';
 
 enum LearningSessionStatus { active, completed, abandoned }
 
@@ -13,12 +14,14 @@ class SessionCompletionResult {
     required this.sessionId,
     required this.successfulWordCount,
     required this.unresolvedWrongWordCount,
+    required this.completedWordCount,
     required this.newlyLearnedWordCount,
   });
 
   final String sessionId;
   final int successfulWordCount;
   final int unresolvedWrongWordCount;
+  final int completedWordCount;
   final int newlyLearnedWordCount;
 }
 
@@ -49,6 +52,8 @@ class LearningProgressService {
         return 1 << 5;
       case TrainingExerciseType.speaking:
         return 1 << 6;
+      case TrainingExerciseType.choiceOfTwo:
+        return 1;
     }
   }
 
@@ -179,7 +184,7 @@ class LearningProgressService {
 
   Future<SessionCompletionResult> completeSession(
     String sessionId, {
-    DailyTaskType? dailyTaskType,
+    required DailyTaskType dailyTaskType,
   }) {
     return _database.transaction(() async {
       final session = await (_database.select(
@@ -206,6 +211,7 @@ class LearningProgressService {
       for (final exercise in exercises) {
         final aggregate = aggregates[exercise.wordId] ??= _WordAggregate();
         final type = exercise.exerciseType;
+        if (!exercise.isRetry) aggregate.originalTypes.add(type);
         if (exercise.isRetry) {
           if (exercise.answer == ExerciseAnswerState.correct.index) {
             aggregate.retryCorrect[type] =
@@ -223,6 +229,7 @@ class LearningProgressService {
       var successfulWordCount = 0;
       var unresolvedWrongWordCount = 0;
       var newlyLearnedWordCount = 0;
+      final completedWordCount = aggregates.length;
       final now = DateTime.now().millisecondsSinceEpoch;
 
       for (final entry in aggregates.entries) {
@@ -266,22 +273,52 @@ class LearningProgressService {
             );
         final progressMask = oldProgress.trainingProgress | solvedMask;
         final errorMask =
-            (oldProgress.trainingError | unresolvedMask) & ~solvedMask;
+            (oldProgress.trainingError | unresolvedMask) &
+            ~storedErrorClearMask(solvedMask);
+        final wordRequiredMask = aggregate.originalTypes.fold<int>(
+          0,
+          (mask, type) => mask | _bitForStoredType(type),
+        );
         final isLearned =
             (progressMask & session.requiredMask) == session.requiredMask &&
             (errorMask & session.requiredMask) == 0;
-        final becameLearned = oldProgress.learnedDate == null && isLearned;
+        final canBecomeLearned = dailyTaskType == DailyTaskType.learn;
+        final becameLearned =
+            canBecomeLearned && oldProgress.learnedDate == null && isLearned;
         final learnedDate =
             oldProgress.learnedDate ?? (becameLearned ? now : null);
-        final repetitionDate = becameLearned
+        final isSuccessful =
+            wordRequiredMask != 0 &&
+            (solvedMask & wordRequiredMask) == wordRequiredMask &&
+            (unresolvedMask & wordRequiredMask) == 0;
+        var repetitionStep = becameLearned ? 1 : oldProgress.repetitionStep;
+        var repetitionDate = becameLearned
             ? now + const Duration(days: 1).inMilliseconds
             : oldProgress.repetitionDate;
+        var fastBrainStep = becameLearned
+            ? 1
+            : oldProgress.repetitionFastBrainStep;
+        var fastBrainDate = becameLearned
+            ? now + const Duration(days: 2).inMilliseconds
+            : oldProgress.repetitionFastBrainDate;
+        final onFastBrain = becameLearned || oldProgress.onFastBrain;
 
-        if ((solvedMask & session.requiredMask) == session.requiredMask &&
-            (unresolvedMask & session.requiredMask) == 0) {
+        if (isSuccessful &&
+            dailyTaskType == DailyTaskType.repeat &&
+            oldProgress.repetitionStep > 0) {
+          repetitionStep = oldProgress.repetitionStep + 1;
+          repetitionDate =
+              now + _repetitionDelay(repetitionStep).inMilliseconds;
+        }
+        if (isSuccessful && dailyTaskType == DailyTaskType.train) {
+          fastBrainStep = oldProgress.repetitionFastBrainStep + 1;
+          fastBrainDate = now + const Duration(days: 2).inMilliseconds;
+        }
+
+        if (isSuccessful) {
           successfulWordCount++;
         }
-        if ((unresolvedMask & session.requiredMask) != 0) {
+        if ((unresolvedMask & wordRequiredMask) != 0) {
           unresolvedWrongWordCount++;
         }
         if (becameLearned) newlyLearnedWordCount++;
@@ -294,20 +331,12 @@ class LearningProgressService {
                 creationDate: Value(oldProgress.creationDate),
                 trainingProgress: Value(progressMask),
                 trainingError: Value(errorMask),
-                repetitionStep: Value(
-                  becameLearned ? 1 : oldProgress.repetitionStep,
-                ),
+                repetitionStep: Value(repetitionStep),
                 repetitionDate: Value(repetitionDate),
                 learnedDate: Value(learnedDate),
-                onFastBrain: Value(oldProgress.onFastBrain),
-                repetitionFastBrainStep: Value(
-                  becameLearned ? 1 : oldProgress.repetitionFastBrainStep,
-                ),
-                repetitionFastBrainDate: Value(
-                  becameLearned
-                      ? now + const Duration(days: 2).inMilliseconds
-                      : oldProgress.repetitionFastBrainDate,
-                ),
+                onFastBrain: Value(onFastBrain),
+                repetitionFastBrainStep: Value(fastBrainStep),
+                repetitionFastBrainDate: Value(fastBrainDate),
                 markedAsKnown: Value(oldProgress.markedAsKnown),
                 deletedByUser: Value(oldProgress.deletedByUser),
               ),
@@ -316,8 +345,9 @@ class LearningProgressService {
 
       await _updateVisit(
         now: now,
-        newlyLearnedWordCount: newlyLearnedWordCount,
+        completedWordCount: completedWordCount,
         successfulWordCount: successfulWordCount,
+        processedWordCount: session.originalExerciseCount,
         dailyTaskType: dailyTaskType,
       );
 
@@ -330,6 +360,7 @@ class LearningProgressService {
           completionAppliedAt: Value(now),
           successfulWordCount: Value(successfulWordCount),
           unresolvedWrongWordCount: Value(unresolvedWrongWordCount),
+          completedWordCount: Value(completedWordCount),
           newlyLearnedWordCount: Value(newlyLearnedWordCount),
         ),
       );
@@ -338,6 +369,7 @@ class LearningProgressService {
         sessionId: sessionId,
         successfulWordCount: successfulWordCount,
         unresolvedWrongWordCount: unresolvedWrongWordCount,
+        completedWordCount: completedWordCount,
         newlyLearnedWordCount: newlyLearnedWordCount,
       );
     });
@@ -354,20 +386,19 @@ class LearningProgressService {
 
   Future<void> _updateVisit({
     required int now,
-    required int newlyLearnedWordCount,
+    required int completedWordCount,
     required int successfulWordCount,
-    DailyTaskType? dailyTaskType,
+    required int processedWordCount,
+    required DailyTaskType dailyTaskType,
   }) async {
-    final learnedCountDelta =
-        dailyTaskType == null || dailyTaskType == DailyTaskType.learn
-        ? newlyLearnedWordCount
+    final learnedCountDelta = dailyTaskType == DailyTaskType.learn
+        ? completedWordCount
         : 0;
-    final trainedCountDelta =
-        dailyTaskType == null || dailyTaskType == DailyTaskType.train
+    final trainedCountDelta = dailyTaskType == DailyTaskType.train
         ? successfulWordCount
         : 0;
     final repeatedCountDelta = dailyTaskType == DailyTaskType.repeat
-        ? successfulWordCount
+        ? processedWordCount
         : 0;
     final difficultCountDelta = dailyTaskType == DailyTaskType.difficult
         ? successfulWordCount
@@ -377,12 +408,23 @@ class LearningProgressService {
       _database.visitModels,
     )..where((row) => row.date.equals(date))).getSingleOrNull();
     if (existing == null) {
+      final areGoalsFinished = areDailyTaskGoalsFinished(
+        repeatWordsGoal: 0,
+        repeatedWordsCount: repeatedCountDelta,
+        learnWordsGoal: 0,
+        learnedWordsCount: learnedCountDelta,
+        trainWordsGoal: 0,
+        trainedWordsCount: trainedCountDelta,
+        difficultWordsGoal: 0,
+        difficultWordsTrainedCount: difficultCountDelta,
+      );
       await _database
           .into(_database.visitModels)
           .insert(
             VisitModelsCompanion.insert(
               date: date,
               atLeastOneTaskFinished: const Value(true),
+              areDailyTasksFinished: Value(areGoalsFinished),
               repeatedWordsCount: Value(repeatedCountDelta),
               learnedWordsCount: Value(learnedCountDelta),
               trainedWordsCount: Value(trainedCountDelta),
@@ -397,15 +439,16 @@ class LearningProgressService {
     final trainedCount = existing.trainedWordsCount + trainedCountDelta;
     final difficultCount =
         existing.difficultWordsTrainedCount + difficultCountDelta;
-    final allGoalsFinished =
-        (existing.repeatWordsGoal == 0 ||
-            repeatedCount >= existing.repeatWordsGoal) &&
-        (existing.learnWordsGoal == 0 ||
-            learnedCount >= existing.learnWordsGoal) &&
-        (existing.trainWordsGoal == 0 ||
-            trainedCount >= existing.trainWordsGoal) &&
-        (existing.difficultWordsGoal == 0 ||
-            difficultCount >= existing.difficultWordsGoal);
+    final allGoalsFinished = areDailyTaskGoalsFinished(
+      repeatWordsGoal: existing.repeatWordsGoal,
+      repeatedWordsCount: repeatedCount,
+      learnWordsGoal: existing.learnWordsGoal,
+      learnedWordsCount: learnedCount,
+      trainWordsGoal: existing.trainWordsGoal,
+      trainedWordsCount: trainedCount,
+      difficultWordsGoal: existing.difficultWordsGoal,
+      difficultWordsTrainedCount: difficultCount,
+    );
     await (_database.update(
       _database.visitModels,
     )..where((row) => row.id.equals(existing.id))).write(
@@ -425,6 +468,7 @@ class LearningProgressService {
       sessionId: session.id,
       successfulWordCount: session.successfulWordCount,
       unresolvedWrongWordCount: session.unresolvedWrongWordCount,
+      completedWordCount: session.completedWordCount,
       newlyLearnedWordCount: session.newlyLearnedWordCount,
     );
   }
@@ -443,9 +487,24 @@ class LearningProgressService {
         return 1 << 4;
       case 5:
         return 1 << 6;
+      case 6:
+        return 1;
       default:
         throw StateError('Unknown exercise type index: $typeIndex');
     }
+  }
+
+  static Duration _repetitionDelay(int step) {
+    return Duration(
+      days: switch (step) {
+        1 => 1,
+        2 => 5,
+        3 => 14,
+        4 => 60,
+        5 => 180,
+        _ => 365,
+      },
+    );
   }
 
   static int _dayStart(int millisecondsSinceEpoch) {
@@ -455,6 +514,7 @@ class LearningProgressService {
 }
 
 class _WordAggregate {
+  final originalTypes = <int>{};
   final originalCorrect = <int, int>{};
   final originalWrong = <int, int>{};
   final retryCorrect = <int, int>{};

@@ -5,6 +5,7 @@ enum TrainingExerciseType {
   constructor,
   choiceOfFourListening,
   speaking,
+  choiceOfTwo,
 }
 
 enum ExerciseAnswerState { notAnswered, correct, wrong, skipped }

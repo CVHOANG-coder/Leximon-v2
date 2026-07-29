@@ -134,6 +134,9 @@ class LearningSessions extends Table {
   IntColumn get unresolvedWrongWordCount =>
       integer().withDefault(const Constant(0))();
 
+  IntColumn get completedWordCount =>
+      integer().withDefault(const Constant(0))();
+
   IntColumn get newlyLearnedWordCount =>
       integer().withDefault(const Constant(0))();
 
@@ -295,6 +298,18 @@ class ContentRevisions extends Table {
   Set<Column<Object>> get primaryKey => {source};
 }
 
+@DataClassName('AppUsageDayRow')
+class AppUsageDays extends Table {
+  /// Local midnight, stored as milliseconds since epoch.
+  IntColumn get date => integer()();
+
+  IntColumn get foregroundMilliseconds =>
+      integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {date};
+}
+
 @DriftDatabase(
   tables: [
     TopicModels,
@@ -308,6 +323,7 @@ class ContentRevisions extends Table {
     VisitModels,
     OnboardingTestAnswerModels,
     ContentRevisions,
+    AppUsageDays,
   ],
 )
 class AppDatabase extends _$AppDatabase {
@@ -318,7 +334,7 @@ class AppDatabase extends _$AppDatabase {
   static const topicAssetSource = 'bundled_topic_word_params';
 
   @override
-  int get schemaVersion => 2;
+  int get schemaVersion => 4;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -329,6 +345,15 @@ class AppDatabase extends _$AppDatabase {
       if (from < 2) {
         await m.createTable(learningSessions);
         await m.createTable(sessionExercises);
+      }
+      if (from >= 2 && from < 3) {
+        await m.addColumn(
+          learningSessions,
+          learningSessions.completedWordCount,
+        );
+      }
+      if (from < 4) {
+        await m.createTable(appUsageDays);
       }
     },
   );

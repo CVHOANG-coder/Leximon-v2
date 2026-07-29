@@ -18,10 +18,14 @@ import '../review_practice/review_practice_screen.dart';
 enum _WordState { newWord, learning, known }
 
 class WordStudyScreen extends ConsumerStatefulWidget {
-  const WordStudyScreen({required this.topic, this.dailyTaskType, super.key});
+  const WordStudyScreen({
+    required this.topic,
+    this.dailyTaskType = DailyTaskType.learn,
+    super.key,
+  });
 
   final Topic topic;
-  final DailyTaskType? dailyTaskType;
+  final DailyTaskType dailyTaskType;
 
   @override
   ConsumerState<WordStudyScreen> createState() => _WordStudyScreenState();
@@ -188,7 +192,8 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     final wordId = _wordId(topic, index);
     if (wordId == null) return;
 
-    final database = ref.read(appDatabaseProvider);
+    final container = ProviderScope.containerOf(context, listen: false);
+    final database = container.read(appDatabaseProvider);
     final databaseWord =
         await (database.select(database.wordModels)..where(
               (row) => row.id.equals(wordId) & row.topicId.equals(topic.id),
@@ -222,8 +227,13 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
         ),
       );
     }
-    ref.invalidate(wordProgressProvider);
-    ref.invalidate(progressDashboardProvider);
+    container.invalidate(wordProgressProvider);
+    container.invalidate(topicProgressProvider);
+    container.invalidate(topicProgressDetailsProvider(topic.id));
+    container.invalidate(topicRepetitionDataProvider(topic.id));
+    container.invalidate(dailyCardProvider);
+    container.invalidate(progressDashboardProvider);
+    container.invalidate(vocabularyCollectionProvider);
   }
 
   Future<void> _openPractice() async {
@@ -979,7 +989,7 @@ class _WordCard extends StatelessWidget {
                                           color: Color(0xFFEDF2FA),
                                           fontSize: 58,
                                           height: 1,
-                                          fontWeight: FontWeight.w900,
+                                          fontWeight: FontWeight.w700,
                                           letterSpacing: -4,
                                         ),
                                       ),
@@ -999,7 +1009,7 @@ class _WordCard extends StatelessWidget {
                                         color: AppColors.textPrimary,
                                         fontSize: 43,
                                         height: .98,
-                                        fontWeight: FontWeight.w900,
+                                        fontWeight: FontWeight.w700,
                                         letterSpacing: -2.2,
                                       ),
                                     ),
@@ -1368,7 +1378,7 @@ class _WordActionButton extends StatelessWidget {
                 ? const Color(0xFFB34B56)
                 : const Color(0xFF13845D),
             fontSize: 12,
-            fontWeight: FontWeight.w900,
+            fontWeight: FontWeight.w700,
           ),
         ),
       ),

@@ -82,6 +82,23 @@ void main() {
     }
   });
 
+  test('builds a final difficult batch with fewer than four words', () {
+    final questions = PracticeLessonGenerator(random: Random(12)).buildLesson(
+      words: selectedWords.take(2).toList(),
+      enabledWords: enabledWords,
+    );
+
+    expect(questions, hasLength(12));
+    expect(questions.map((question) => question.trainingExercise), [
+      ...List.filled(2, TrainingExerciseType.choiceOfFourToEng),
+      ...List.filled(2, TrainingExerciseType.choiceOfFourFromEng),
+      ...List.filled(2, TrainingExerciseType.choiceOfThreeListening),
+      ...List.filled(2, TrainingExerciseType.constructor),
+      ...List.filled(2, TrainingExerciseType.choiceOfFourListening),
+      ...List.filled(2, TrainingExerciseType.speaking),
+    ]);
+  });
+
   test('builds one two-option question per repetition word', () {
     final questions = PracticeLessonGenerator(
       random: Random(3),
@@ -99,11 +116,42 @@ void main() {
           ),
         ),
       );
-      expect(
-        question.trainingExercise,
-        TrainingExerciseType.choiceOfFourFromEng,
-      );
+      expect(question.trainingExercise, TrainingExerciseType.choiceOfTwo);
     }
+  });
+
+  test('does not use a duplicate translation as repetition distractor', () {
+    final words = [
+      selectedWords.first,
+      ExerciseWord(
+        id: 20,
+        topicId: 57,
+        writing: 'duplicate',
+        translation: ' THẺ LÊN MÁY BAY ',
+        transliteration: '',
+      ),
+      selectedWords[1],
+    ];
+
+    final question = PracticeLessonGenerator(random: Random(1))
+        .buildRepetitionLesson(
+          words: [selectedWords.first],
+          enabledWords: words,
+        )
+        .single;
+
+    expect(question.variants.map((word) => word.id), isNot(contains(20)));
+    expect(question.variants, contains(selectedWords[1]));
+  });
+
+  test('skips repetition words without a same-topic distractor', () {
+    final questions = PracticeLessonGenerator(random: Random(1))
+        .buildRepetitionLesson(
+          words: [selectedWords.first],
+          enabledWords: [selectedWords.first, enabledWords.last],
+        );
+
+    expect(questions, isEmpty);
   });
 
   test('uses the correct variant source and includes the target word', () {

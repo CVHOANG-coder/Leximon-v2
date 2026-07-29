@@ -9,6 +9,80 @@ import 'package:leximon/presentation/screens/word_study/word_study_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
 
 void main() {
+  testWidgets(
+    'refreshes Home topic progress when study closes after marking known',
+    (tester) async {
+      final database = AppDatabase.forTesting(NativeDatabase.memory());
+      addTearDown(database.close);
+      await database
+          .into(database.wordModels)
+          .insert(
+            WordModelsCompanion.insert(
+              id: 7058,
+              topicId: 57,
+              writing: 'affect',
+              translation: 'ảnh hưởng đến',
+              isEnabled: true,
+              priority: 1,
+              level: 1,
+            ),
+          );
+      const topic = Topic(
+        id: 57,
+        order: 1,
+        original: 'Traveling',
+        translated: 'Du lịch',
+        words: [
+          {'id': 7058, 'writing': 'affect', 'translation': 'ảnh hưởng đến'},
+        ],
+      );
+      final container = ProviderContainer(
+        overrides: [
+          appDatabaseProvider.overrideWithValue(database),
+          localDataInitializationProvider.overrideWith((ref) async {}),
+          topicsProvider.overrideWith((ref) async => [topic]),
+        ],
+      );
+      addTearDown(container.dispose);
+
+      final initialProgress = await container.read(
+        topicProgressProvider.future,
+      );
+      expect(initialProgress[57], 0);
+
+      await tester.pumpWidget(
+        UncontrolledProviderScope(
+          container: container,
+          child: const MaterialApp(home: WordStudyScreen(topic: topic)),
+        ),
+      );
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('Đã biết').hitTestable().first);
+      await tester.pumpWidget(
+        UncontrolledProviderScope(
+          container: container,
+          child: const MaterialApp(home: SizedBox.shrink()),
+        ),
+      );
+      await tester.pump();
+      await tester.runAsync(() async {
+        for (var attempt = 0; attempt < 50; attempt++) {
+          final progress = await (database.select(
+            database.learningProgressModels,
+          )..where((row) => row.id.equals(7058))).getSingleOrNull();
+          if (progress?.markedAsKnown ?? false) return;
+          await Future<void>.delayed(const Duration(milliseconds: 10));
+        }
+        fail('markedAsKnown was not persisted.');
+      });
+
+      final refreshedProgress = await container.read(
+        topicProgressProvider.future,
+      );
+      expect(refreshedProgress[57], 1);
+    },
+  );
+
   testWidgets('loads only unclassified database words on entry', (
     tester,
   ) async {

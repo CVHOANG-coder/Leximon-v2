@@ -18,27 +18,29 @@ class PracticeLessonGenerator {
   }) {
     return words
         .map((target) {
+          final targetTranslation = _normalizedTranslation(target.translation);
           final sameTopic =
               enabledWords
                   .where(
                     (word) =>
-                        word.id != target.id && word.topicId == target.topicId,
+                        word.id != target.id &&
+                        word.topicId == target.topicId &&
+                        _normalizedTranslation(word.translation) !=
+                            targetTranslation,
                   )
                   .toList()
                 ..shuffle(_random);
-          final fallback =
-              enabledWords.where((word) => word.id != target.id).toList()
-                ..shuffle(_random);
-          final distractor =
-              (sameTopic.isNotEmpty ? sameTopic : fallback).firstOrNull;
-          final variants = [?distractor, target];
+          final distractor = sameTopic.firstOrNull;
+          if (distractor == null) return null;
+          final variants = [distractor, target];
 
           return PracticeExercise(
             word: target,
             variants: _shuffled(variants),
-            trainingExercise: TrainingExerciseType.choiceOfFourFromEng,
+            trainingExercise: TrainingExerciseType.choiceOfTwo,
           );
         })
+        .nonNulls
         .toList(growable: false);
   }
 
@@ -49,11 +51,11 @@ class PracticeLessonGenerator {
     bool listeningEnabled = true,
     bool pronouncingEnabled = true,
   }) {
-    if (words.length != 4) {
+    if (words.isEmpty || words.length > 4) {
       throw ArgumentError.value(
         words.length,
         'words',
-        'A practice lesson requires exactly four selected words.',
+        'A practice lesson requires between one and four selected words.',
       );
     }
 
@@ -229,6 +231,10 @@ class PracticeLessonGenerator {
   List<ExerciseWord> _shuffled(List<ExerciseWord> words) {
     return List<ExerciseWord>.of(words)..shuffle(_random);
   }
+}
+
+String _normalizedTranslation(String value) {
+  return value.trim().toLowerCase();
 }
 
 String _matchCapitalization({required String target, required String value}) {

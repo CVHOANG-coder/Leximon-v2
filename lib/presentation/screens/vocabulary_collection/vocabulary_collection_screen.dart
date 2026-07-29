@@ -7,12 +7,13 @@ import '../../../core/constants/app_colors.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/practice_exercise.dart';
-import '../../../data/models/topic.dart';
 import '../../../data/models/vocabulary_collection.dart';
 import '../../../data/services/daily_card_service.dart';
+import '../../../data/services/learning_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../difficult_words_training/difficult_words_result_screen.dart';
 import '../repetition_practice/repetition_practice_screen.dart';
-import '../word_study/word_study_screen.dart';
+import '../review_practice/review_practice_screen.dart';
 
 class VocabularyCollectionScreen extends ConsumerStatefulWidget {
   const VocabularyCollectionScreen({required this.status, super.key});
@@ -56,6 +57,11 @@ class _VocabularyCollectionScreenState
                   padding: const EdgeInsets.fromLTRB(18, 10, 18, 0),
                   child: _CollectionTopBar(
                     title: _statusTitle(widget.status),
+                    kicker:
+                        widget.status ==
+                            VocabularyCollectionStatus.needsPractice
+                        ? 'DIFFICULT WORDS'
+                        : 'VOCABULARY COLLECTION',
                     searchOpen: _searchOpen,
                     onBack: () => Navigator.of(context).pop(),
                     onSearch: () => _searchOpen
@@ -89,9 +95,9 @@ class _VocabularyCollectionScreenState
                     label:
                         widget.status ==
                             VocabularyCollectionStatus.needsPractice
-                        ? 'Bắt đầu luyện'
+                        ? 'Luyện từ'
                         : 'Ôn luyện',
-                    onPressed: entries.isEmpty ? null : _startReview,
+                    onPressed: allEntries.isEmpty ? null : _startReview,
                   ),
                 ),
               ],
@@ -130,6 +136,11 @@ class _VocabularyCollectionScreenState
     final collectionEntries = snapshot?.entriesFor(widget.status) ?? const [];
     if (collectionEntries.isEmpty || !mounted) return;
 
+    if (widget.status == VocabularyCollectionStatus.needsPractice) {
+      await _startDifficultWordsTraining();
+      return;
+    }
+
     if (widget.status == VocabularyCollectionStatus.mastered ||
         widget.status == VocabularyCollectionStatus.reviewing) {
       final database = ref.read(appDatabaseProvider);
@@ -162,31 +173,79 @@ class _VocabularyCollectionScreenState
       }
       return;
     }
+  }
 
-    final topics = ref.read(topicsProvider).valueOrNull;
-    final topic = topics?.cast<Topic?>().firstWhere(
-      (item) => item != null && item.words.isNotEmpty,
-      orElse: () => null,
-    );
-    if (topic == null || !mounted) return;
+  Future<void> _startDifficultWordsTraining() async {
+    var healedWordCount = 0;
+    var trainedWordCount = 0;
 
-    await Navigator.of(context).push<void>(
-      MaterialPageRoute<void>(
-        builder: (_) => WordStudyScreen(
-          topic: topic,
-          dailyTaskType:
-              widget.status == VocabularyCollectionStatus.needsPractice
-              ? DailyTaskType.difficult
-              : DailyTaskType.repeat,
+    while (mounted) {
+      final service = ref.read(difficultWordsTrainingServiceProvider);
+      final batch = await service.prepareBatch();
+      if (!mounted) return;
+      if (batch.isEmpty) {
+        _refreshProgress();
+        Navigator.of(context).pop();
+        return;
+      }
+
+      SessionCompletionResult? completion;
+      final completed = await Navigator.of(context).push<bool>(
+        MaterialPageRoute<bool>(
+          builder: (_) => ReviewPracticeScreen(
+            title: 'Các từ khó',
+            kicker: 'DIFFICULT WORDS',
+            words: batch.words
+                .map(_databaseWordToExerciseMap)
+                .toList(growable: false),
+            distractorWords: batch.distractorWords
+                .map(_databaseWordToExerciseMap)
+                .toList(growable: false),
+            dailyTaskType: DailyTaskType.difficult,
+            similarWordIds: batch.similarWordIds,
+            exerciseMasksByWordId: batch.exerciseMasksByWordId,
+            database: ref.read(appDatabaseProvider),
+            onSessionCompleted: (result) => completion = result,
+          ),
         ),
-      ),
-    );
-    if (mounted) {
-      ref.invalidate(vocabularyCollectionProvider);
-      ref.invalidate(topicProgressProvider);
-      ref.invalidate(dailyCardProvider);
-      ref.invalidate(progressDashboardProvider);
+      );
+      if (!mounted) return;
+      if (completed != true || completion == null) {
+        _refreshProgress();
+        return;
+      }
+
+      healedWordCount += completion!.successfulWordCount;
+      trainedWordCount += completion!.completedWordCount;
+      final nextBatch = await service.prepareBatch();
+      if (!mounted) return;
+      _refreshProgress();
+
+      final action = await Navigator.of(context)
+          .push<DifficultWordsResultAction>(
+            MaterialPageRoute<DifficultWordsResultAction>(
+              builder: (_) => DifficultWordsResultScreen(
+                healedWordCount: healedWordCount,
+                trainedWordCount: trainedWordCount,
+                remainingWordCount: nextBatch.remainingWordCount,
+              ),
+            ),
+          );
+      if (!mounted) return;
+      if (action != DifficultWordsResultAction.continueTraining) {
+        _refreshProgress();
+        if (nextBatch.isEmpty) Navigator.of(context).pop();
+        return;
+      }
     }
+  }
+
+  void _refreshProgress() {
+    ref.invalidate(vocabularyCollectionProvider);
+    ref.invalidate(topicProgressProvider);
+    ref.invalidate(dailyCardProvider);
+    ref.invalidate(wordProgressProvider);
+    ref.invalidate(progressDashboardProvider);
   }
 
   ExerciseWord _toExerciseWord(VocabularyCollectionEntry entry) {
@@ -208,6 +267,16 @@ class _VocabularyCollectionScreenState
       translation: word.translation,
       transliteration: word.transliteration ?? word.transcription ?? '',
     );
+  }
+
+  Map<String, dynamic> _databaseWordToExerciseMap(WordRow word) {
+    return {
+      'id': word.id,
+      'topicId': word.topicId,
+      'writing': word.writing,
+      'translation': word.translation,
+      'transliteration': word.transliteration ?? word.transcription ?? '',
+    };
   }
 }
 
@@ -305,12 +374,14 @@ class _Spark extends StatelessWidget {
 class _CollectionTopBar extends StatelessWidget {
   const _CollectionTopBar({
     required this.title,
+    required this.kicker,
     required this.searchOpen,
     required this.onBack,
     required this.onSearch,
   });
 
   final String title;
+  final String kicker;
   final bool searchOpen;
   final VoidCallback onBack;
   final VoidCallback onSearch;
@@ -323,9 +394,9 @@ class _CollectionTopBar extends StatelessWidget {
         Expanded(
           child: Column(
             children: [
-              const Text(
-                'VOCABULARY COLLECTION',
-                style: TextStyle(
+              Text(
+                kicker,
+                style: const TextStyle(
                   color: Color(0xB8FFFFFF),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
@@ -339,7 +410,7 @@ class _CollectionTopBar extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 24,
                   height: 1,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w800,
                   letterSpacing: -1,
                 ),
               ),
@@ -519,7 +590,7 @@ class _CollectionSummary extends StatelessWidget {
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 22,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w800,
                         letterSpacing: -.7,
                       ),
                     ),
@@ -543,7 +614,7 @@ class _CollectionSummary extends StatelessWidget {
                         color: Colors.white,
                         fontSize: 20,
                         height: 1,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w800,
                       ),
                     ),
                     const SizedBox(height: 4),
@@ -740,7 +811,7 @@ class _WordItem extends StatelessWidget {
                         color: AppColors.textPrimary,
                         fontSize: 20,
                         height: 1.12,
-                        fontWeight: FontWeight.w900,
+                        fontWeight: FontWeight.w800,
                         letterSpacing: -.6,
                       ),
                     ),
@@ -821,7 +892,7 @@ class _CollectionCta extends StatelessWidget {
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(22),
           ),
-          textStyle: const TextStyle(fontSize: 19, fontWeight: FontWeight.w900),
+          textStyle: const TextStyle(fontSize: 19, fontWeight: FontWeight.w800),
         ),
         child: Text(label),
       ),
@@ -867,7 +938,7 @@ class _WordDetailSheet extends StatelessWidget {
                         style: TextStyle(
                           color: Color(0xFF55A8EF),
                           fontSize: 10,
-                          fontWeight: FontWeight.w900,
+                          fontWeight: FontWeight.w800,
                           letterSpacing: 1.1,
                         ),
                       ),
@@ -891,7 +962,7 @@ class _WordDetailSheet extends StatelessWidget {
                     color: AppColors.textPrimary,
                     fontSize: 40,
                     height: 1,
-                    fontWeight: FontWeight.w900,
+                    fontWeight: FontWeight.w800,
                     letterSpacing: -1.7,
                   ),
                 ),
@@ -941,7 +1012,7 @@ class _WordDetailSheet extends StatelessWidget {
                     style: TextStyle(
                       color: _statusColor(entry.status),
                       fontSize: 19,
-                      fontWeight: FontWeight.w900,
+                      fontWeight: FontWeight.w800,
                     ),
                   ),
                 ),
@@ -1051,7 +1122,7 @@ String _statusTitle(VocabularyCollectionStatus status) {
     case VocabularyCollectionStatus.reviewing:
       return 'Đang ôn';
     case VocabularyCollectionStatus.needsPractice:
-      return 'Cần luyện thêm';
+      return 'Các từ khó';
   }
 }
 
