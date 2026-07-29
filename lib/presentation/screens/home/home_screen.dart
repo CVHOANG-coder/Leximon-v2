@@ -274,12 +274,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
       final progress = progressByTopicId[topic.id] ?? 0;
       final matchesFilter =
           filter == 'Tất cả' ||
-          (filter == 'Đang học' && progress > 0) ||
-          (filter == 'Cơ bản' && topic.order <= 10) ||
-          (filter == 'Giao tiếp' &&
-              topic.original.toLowerCase().contains('communication')) ||
-          (filter == 'Công việc' &&
-              topic.original.toLowerCase().contains('work'));
+          (filter == 'Đang học' && progress > 0 && progress < 1) ||
+          (filter == 'Chưa học' && progress == 0) ||
+          (filter == 'Đã hoàn thành' && progress >= 1);
       return matchesSearch && matchesFilter;
     }).toList();
     return filteredTopics;
@@ -1031,7 +1028,7 @@ class _DailyTaskTile extends StatelessWidget {
             ),
           ),
           if (showMascot)
-            const Positioned(right: -24, top: -13, child: _WavingOwl(size: 72)),
+            const Positioned(right: -30, top: -50, child: _WavingOwl(size: 72)),
         ],
       ),
     );
@@ -1073,8 +1070,8 @@ class _WavingOwlState extends State<_WavingOwl>
         animation: _controller,
         child: Image.asset(
           'assets/images/leximon-owl-wave.png',
-          width: widget.size,
-          height: widget.size,
+          width: widget.size * 2,
+          height: widget.size * 2,
           fit: BoxFit.contain,
           filterQuality: FilterQuality.high,
         ),
@@ -1101,14 +1098,14 @@ class _AdditionalTasksSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      top: false,
-      child: Container(
-        padding: const EdgeInsets.fromLTRB(18, 10, 18, 14),
-        decoration: const BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-        ),
+    return Container(
+      padding: const EdgeInsets.fromLTRB(18, 10, 18, 14),
+      decoration: const BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+      ),
+      child: SafeArea(
+        top: false,
         child: Column(
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -1316,7 +1313,7 @@ _dailyTaskColors(DailyTaskType type, bool done) {
   );
 }
 
-// Kept as a visual fallback for future onboarding variants.
+// Kept as a visual fallback for future learning-filter variants.
 // ignore: unused_element
 class _EmptyDailyCard extends StatelessWidget {
   const _EmptyDailyCard();
@@ -1765,38 +1762,66 @@ class _FilterChips extends ConsumerWidget {
   final String selected;
   final ValueChanged<String>? onSelected;
 
+  static const _labels = ['Tất cả', 'Đang học', 'Chưa học', 'Đã hoàn thành'];
+  static final _chipKeys = List<GlobalKey>.generate(
+    _labels.length,
+    (_) => GlobalKey(),
+  );
+
+  void _scrollToChip(int index) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final chipContext = _chipKeys[index].currentContext;
+      if (chipContext == null) return;
+      Scrollable.ensureVisible(
+        chipContext,
+        alignment: .5,
+        duration: const Duration(milliseconds: 220),
+        curve: Curves.easeOutCubic,
+      );
+    });
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    const labels = ['Tất cả', 'Đang học', 'Cơ bản', 'Giao tiếp', 'Công việc'];
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(
-        children: labels
-            .map(
-              (label) => Padding(
-                padding: const EdgeInsets.only(right: 8),
-                child: ChoiceChip(
-                  label: Text(label),
-                  selected: selected == label,
-                  onSelected: (_) {
-                    ref.read(selectedTopicFilterProvider.notifier).state =
-                        label;
-                    onSelected?.call(label);
-                  },
-                  selectedColor: AppColors.primary,
-                  backgroundColor: AppColors.surfaceSoft,
-                  labelStyle: TextStyle(
-                    color: selected == label
-                        ? Colors.white
-                        : AppColors.textSecondary,
-                    fontSize: 9,
-                    fontWeight: FontWeight.w800,
-                  ),
-                  side: BorderSide.none,
-                ),
+        children: _labels.asMap().entries.map((entry) {
+          final index = entry.key;
+          final label = entry.value;
+          return Padding(
+            padding: const EdgeInsets.only(right: 8),
+            child: ChoiceChip(
+              key: _chipKeys[index],
+              label: Text(label),
+              selected: selected == label,
+              onSelected: (_) {
+                ref.read(selectedTopicFilterProvider.notifier).state = label;
+                onSelected?.call(label);
+                _scrollToChip(index);
+              },
+              selectedColor: AppColors.primary,
+              checkmarkColor: Colors.white,
+              backgroundColor: AppColors.surface,
+              labelStyle: TextStyle(
+                color: selected == label
+                    ? Colors.white
+                    : AppColors.textSecondary,
+                fontSize: 9,
+                fontWeight: FontWeight.w800,
               ),
-            )
-            .toList(),
+              side: BorderSide(
+                color: selected == label
+                    ? AppColors.primary
+                    : const Color(0xFFD8E3F1),
+                width: 1,
+              ),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(14),
+              ),
+            ),
+          );
+        }).toList(),
       ),
     );
   }

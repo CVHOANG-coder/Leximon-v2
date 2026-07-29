@@ -28,6 +28,10 @@
 	<true/>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Leximon cần quyền microphone để ghi nhận phát âm của bạn.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Leximon cần quyền truy cập thư viện ảnh để bạn chọn ảnh đại diện.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Leximon cần quyền camera để bạn chụp ảnh đại diện.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Leximon cần quyền nhận dạng giọng nói để chấm phát âm.</string>
 	<key>UIApplicationSceneManifest</key>

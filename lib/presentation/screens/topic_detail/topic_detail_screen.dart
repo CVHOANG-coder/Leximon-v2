@@ -3,9 +3,11 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/services/text_to_speech_service.dart';
+import '../../../data/local/app_database.dart';
 import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/topic_progress_service.dart';
 import '../../../data/services/topic_repetition_service.dart';
@@ -44,6 +46,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         ref.watch(topicProgressDetailsProvider(topic.id)).valueOrNull ??
         TopicProgressDetails.empty(topic.wordCount);
     final repetitionData = ref.watch(topicRepetitionDataProvider(topic.id));
+    final progressByWordId = ref.watch(wordProgressProvider).valueOrNull;
     return Scaffold(
       backgroundColor: AppColors.background,
       body: Stack(
@@ -76,7 +79,9 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                       ),
                       SliverPadding(
                         padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
-                        sliver: SliverToBoxAdapter(child: _previewSection()),
+                        sliver: SliverToBoxAdapter(
+                          child: _previewSection(progressByWordId),
+                        ),
                       ),
                       SliverPadding(
                         padding: const EdgeInsets.fromLTRB(18, 16, 18, 30),
@@ -180,52 +185,89 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           ),
           const SizedBox(height: 18),
           Container(
-            padding: const EdgeInsets.all(14),
+            key: const Key('topic-progress-card'),
+            padding: const EdgeInsets.all(16),
             decoration: BoxDecoration(
-              color: const Color(0xFFF5F8FD),
+              gradient: const LinearGradient(
+                colors: [Color(0xFFFFFFFF), Color(0xFFEAF1FF)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              ),
               borderRadius: BorderRadius.circular(20),
+              border: Border.all(color: const Color(0xFFD2E0FA), width: 1.2),
+              boxShadow: const [
+                BoxShadow(
+                  color: Color(0x24155CFF),
+                  blurRadius: 18,
+                  offset: Offset(0, 7),
+                ),
+              ],
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
-                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            'TIẾN ĐỘ',
-                            style: TextStyle(
-                              color: AppColors.textSecondary,
-                              fontSize: 9,
-                              fontWeight: FontWeight.w800,
-                              letterSpacing: .8,
-                            ),
-                          ),
-                          SizedBox(height: 4),
-                        ],
+                    Container(
+                      width: 30,
+                      height: 30,
+                      decoration: BoxDecoration(
+                        color: AppColors.primary.withValues(alpha: .1),
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: const Icon(
+                        Icons.trending_up_rounded,
+                        color: AppColors.primary,
+                        size: 17,
                       ),
                     ),
-                    Text(
-                      '${(progress * 100).round()}%',
-                      style: const TextStyle(
-                        color: AppColors.primary,
-                        fontSize: 18,
-                        fontWeight: FontWeight.w700,
+                    const SizedBox(width: 9),
+                    const Expanded(
+                      child: Text(
+                        'TIẾN ĐỘ CHỦ ĐỀ',
+                        style: TextStyle(
+                          color: AppColors.textSecondary,
+                          fontSize: 9,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: .8,
+                        ),
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 6,
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: .8),
+                        borderRadius: BorderRadius.circular(99),
+                        border: Border.all(
+                          color: AppColors.primary.withValues(alpha: .15),
+                        ),
+                      ),
+                      child: Text(
+                        '${(progress * 100).round()}%',
+                        style: const TextStyle(
+                          color: AppColors.primary,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: -.3,
+                        ),
                       ),
                     ),
                   ],
                 ),
+                const SizedBox(height: 12),
                 Text(
                   '$progressedWords / ${_progressDetails.totalWords} từ',
                   style: const TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w700,
+                    color: AppColors.textPrimary,
+                    fontSize: 17,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: -.3,
                   ),
                 ),
-                const SizedBox(height: 11),
+                const SizedBox(height: 12),
                 ProgressLine(value: progress),
               ],
             ),
@@ -240,7 +282,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
       children: [
         Expanded(
           child: _StatCard(
-            icon: Icons.check_rounded,
+            iconAsset: 'assets/svgs/complete.svg',
             value: '$rememberedWords',
             label: 'Đã nhớ',
             color: AppColors.green,
@@ -249,7 +291,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         const SizedBox(width: 10),
         Expanded(
           child: _StatCard(
-            icon: Icons.refresh_rounded,
+            iconAsset: 'assets/svgs/need_practice.svg',
             value: '$reviewWords',
             label: 'Cần ôn',
             color: AppColors.primary,
@@ -258,7 +300,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         const SizedBox(width: 10),
         Expanded(
           child: _StatCard(
-            icon: Icons.star_rounded,
+            iconAsset: 'assets/svgs/study.svg',
             value: '$activeWords',
             label: 'Đang học',
             color: AppColors.yellow,
@@ -283,22 +325,24 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           ),
           const SizedBox(height: 15),
           _ActionItem(
-            icon: '💡',
+            iconAsset: 'assets/svgs/new.svg',
             title: 'Học từ mới',
             description: 'Bắt đầu với những từ bạn chưa học trong chủ đề này.',
             color: const Color(0xFFFFF9E8),
             iconBackground: const Color(0xFFFFF0BD),
+            accentColor: const Color(0xFFE6A600),
             onTap: _openWordStudy,
           ),
           const SizedBox(height: 10),
           _ActionItem(
-            icon: '🔁',
+            iconAsset: 'assets/svgs/repeat.svg',
             title: 'Ôn lặp lại',
             description: canRepeat
                 ? '$repeatableCount từ đã học sẵn sàng để ôn theo từng lượt.'
                 : 'Cần ít nhất ${TopicRepetitionService.minimumWordCount} từ đã học để bắt đầu.',
             color: const Color(0xFFF3F7FF),
             iconBackground: const Color(0xFFE8F0FF),
+            accentColor: AppColors.primary,
             isLoading: isLoading,
             onTap: canRepeat && !isLoading ? _openTopicRepetition : null,
           ),
@@ -327,8 +371,8 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
     );
   }
 
-  Widget _previewSection() {
-    final previewWords = topic.words.take(3).toList();
+  Widget _previewSection(Map<int, LearningProgressRow>? progressByWordId) {
+    final previewWords = _prioritizedPreviewWords(progressByWordId);
     return LeximonSurface(
       child: Column(
         children: [
@@ -342,7 +386,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                 ),
               ),
               TextButton(
-                onPressed: () => _showComingSoon('Danh sách từ'),
+                onPressed: _openWordStudy,
                 child: const Text('Xem tất cả'),
               ),
             ],
@@ -358,6 +402,50 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         ],
       ),
     );
+  }
+
+  List<Map<String, dynamic>> _prioritizedPreviewWords(
+    Map<int, LearningProgressRow>? progressByWordId,
+  ) {
+    if (progressByWordId == null) {
+      return topic.words.take(3).toList();
+    }
+
+    final unclassified = <Map<String, dynamic>>[];
+    final learning = <Map<String, dynamic>>[];
+    final learned = <Map<String, dynamic>>[];
+    for (final word in topic.words) {
+      final idValue = word['id'];
+      final wordId = idValue is int
+          ? idValue
+          : idValue is num
+          ? idValue.toInt()
+          : null;
+      final progress = wordId == null ? null : progressByWordId[wordId];
+      final isLearned =
+          progress != null &&
+          !progress.deletedByUser &&
+          (progress.learnedDate != null || progress.markedAsKnown);
+      final hasLearningState =
+          progress != null &&
+          !progress.deletedByUser &&
+          (progress.trainingProgress > 0 ||
+              progress.trainingError > 0 ||
+              progress.learnedDate != null ||
+              progress.markedAsKnown ||
+              progress.repetitionStep > 0 ||
+              progress.onFastBrain);
+
+      if (!hasLearningState) {
+        unclassified.add(word);
+      } else if (isLearned) {
+        learned.add(word);
+      } else {
+        learning.add(word);
+      }
+    }
+
+    return [...unclassified, ...learning, ...learned].take(3).toList();
   }
 
   Widget _wordRow(Map<String, dynamic> word) {
@@ -452,12 +540,6 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           ),
         ],
       ),
-    );
-  }
-
-  void _showComingSoon(String action) {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('$action sẽ được mở rộng ở bước tiếp theo.')),
     );
   }
 
@@ -639,12 +721,12 @@ class _TopicLabel extends StatelessWidget {
 
 class _StatCard extends StatelessWidget {
   const _StatCard({
-    required this.icon,
+    required this.iconAsset,
     required this.value,
     required this.label,
     required this.color,
   });
-  final IconData icon;
+  final String iconAsset;
   final String value;
   final String label;
   final Color color;
@@ -666,14 +748,14 @@ class _StatCard extends StatelessWidget {
     ),
     child: Column(
       children: [
-        Container(
-          width: 34,
-          height: 34,
-          decoration: BoxDecoration(
-            color: color.withValues(alpha: .14),
-            borderRadius: BorderRadius.circular(12),
+        SizedBox(
+          width: 40,
+          height: 40,
+          child: SvgPicture.asset(
+            iconAsset,
+            key: ValueKey(iconAsset),
+            fit: BoxFit.contain,
           ),
-          child: Icon(icon, color: color, size: 17),
         ),
         const SizedBox(height: 8),
         Text(
@@ -729,90 +811,167 @@ class _SectionHeading extends StatelessWidget {
 
 class _ActionItem extends StatelessWidget {
   const _ActionItem({
-    required this.icon,
+    required this.iconAsset,
     required this.title,
     required this.description,
     required this.color,
     required this.iconBackground,
+    required this.accentColor,
     required this.onTap,
     this.isLoading = false,
   });
-  final String icon;
+  final String iconAsset;
   final String title;
   final String description;
   final Color color;
   final Color iconBackground;
+  final Color accentColor;
   final VoidCallback? onTap;
   final bool isLoading;
 
   @override
-  Widget build(BuildContext context) => Opacity(
-    opacity: onTap == null && !isLoading ? .58 : 1,
-    child: InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(20),
-      child: Ink(
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(
-          color: color,
+  Widget build(BuildContext context) {
+    final isDisabled = onTap == null && !isLoading;
+    final foregroundColor = isDisabled
+        ? const Color(0xFF8290A5)
+        : AppColors.textPrimary;
+    final stateColor = isDisabled ? const Color(0xFF95A3B7) : accentColor;
+
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 180),
+      curve: Curves.easeOut,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: isDisabled
+            ? const []
+            : [
+                BoxShadow(
+                  color: accentColor.withValues(alpha: .16),
+                  blurRadius: 16,
+                  offset: const Offset(0, 7),
+                ),
+              ],
+      ),
+      child: Material(
+        color: isDisabled ? const Color(0xFFF1F4F8) : color,
+        shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: const Color(0xFFEDF1F7)),
+          side: BorderSide(
+            color: isDisabled
+                ? const Color(0xFFDCE3ED)
+                : accentColor.withValues(alpha: .55),
+            width: isDisabled ? 1 : 1.4,
+          ),
         ),
-        child: Row(
-          children: [
-            Container(
-              width: 48,
-              height: 48,
-              decoration: BoxDecoration(
-                color: iconBackground,
-                borderRadius: BorderRadius.circular(16),
-              ),
-              child: Center(
-                child: Text(icon, style: const TextStyle(fontSize: 22)),
-              ),
-            ),
-            const SizedBox(width: 12),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    title,
-                    style: const TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w700,
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Row(
+              children: [
+                Container(
+                  width: 48,
+                  height: 48,
+                  padding: const EdgeInsets.all(6),
+                  decoration: BoxDecoration(
+                    color: isDisabled
+                        ? const Color(0xFFE7ECF3)
+                        : iconBackground,
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(
+                      color: isDisabled
+                          ? const Color(0xFFD9E0EA)
+                          : accentColor.withValues(alpha: .18),
                     ),
                   ),
-                  const SizedBox(height: 5),
-                  Text(
-                    description,
-                    style: const TextStyle(
-                      color: AppColors.textSecondary,
-                      fontSize: 10,
-                      height: 1.4,
-                    ),
+                  child: SvgPicture.asset(
+                    iconAsset,
+                    key: ValueKey(iconAsset),
+                    fit: BoxFit.contain,
+                    colorFilter: isDisabled
+                        ? const ColorFilter.mode(
+                            Color(0xFF91A0B4),
+                            BlendMode.srcIn,
+                          )
+                        : null,
                   ),
-                ],
-              ),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        title,
+                        style: TextStyle(
+                          color: foregroundColor,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                      const SizedBox(height: 5),
+                      Text(
+                        description,
+                        style: TextStyle(
+                          color: isDisabled
+                              ? const Color(0xFF9AA7B9)
+                              : AppColors.textSecondary,
+                          fontSize: 10,
+                          height: 1.4,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 8),
+                if (isLoading)
+                  const SizedBox(
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(strokeWidth: 2),
+                  )
+                else
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 7,
+                          vertical: 4,
+                        ),
+                        decoration: BoxDecoration(
+                          color: isDisabled
+                              ? Colors.white.withValues(alpha: .72)
+                              : accentColor.withValues(alpha: .13),
+                          borderRadius: BorderRadius.circular(99),
+                        ),
+                        child: Text(
+                          isDisabled ? 'Chưa mở' : 'Sẵn sàng',
+                          style: TextStyle(
+                            color: stateColor,
+                            fontSize: 8,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Icon(
+                        isDisabled
+                            ? Icons.lock_outline_rounded
+                            : Icons.arrow_forward_rounded,
+                        color: stateColor,
+                        size: 20,
+                      ),
+                    ],
+                  ),
+              ],
             ),
-            if (isLoading)
-              const SizedBox(
-                width: 20,
-                height: 20,
-                child: CircularProgressIndicator(strokeWidth: 2),
-              )
-            else
-              Icon(
-                onTap == null
-                    ? Icons.lock_outline_rounded
-                    : Icons.chevron_right_rounded,
-                color: AppColors.textMuted,
-              ),
-          ],
+          ),
         ),
       ),
-    ),
-  );
+    );
+  }
 }
 
 class _RepetitionRequirement extends StatelessWidget {

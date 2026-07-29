@@ -20,10 +20,13 @@ void main() {
 
   tearDown(() => database.close());
 
-  test('persists selected onboarding topics for Home to restore', () async {
-    await repository.loadTopics();
-    await repository.saveSelectedTopicOrders({2, 5, 8});
+  test(
+    'persists selected learning-filter topics for Home to restore',
+    () async {
+      await repository.loadTopics();
+      await repository.saveSelectedTopicOrders({2, 5, 8});
 
-    expect(await repository.selectedTopicOrders(), {2, 5, 8});
-  });
+      expect(await repository.selectedTopicOrders(), {2, 5, 8});
+    },
+  );
 }

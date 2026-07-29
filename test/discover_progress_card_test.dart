@@ -5,6 +5,7 @@ import 'package:leximon/data/models/topic.dart';
 import 'package:leximon/data/models/vocabulary_collection.dart';
 import 'package:leximon/data/services/progress_dashboard_service.dart';
 import 'package:leximon/presentation/screens/discover/discover_screen.dart';
+import 'package:leximon/presentation/screens/word_study/word_study_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
 
 void main() {
@@ -49,6 +50,39 @@ void main() {
     expect(find.text('🔥'), findsNothing);
     expect(find.text('📘'), findsNothing);
     expect(find.text('⚡'), findsNothing);
+  });
+
+  testWidgets('shows vocabulary progress with two decimal places', (
+    tester,
+  ) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(375, 812);
+    addTearDown(tester.view.reset);
+
+    await tester.pumpWidget(_testApp());
+    await tester.pumpAndSettle();
+
+    expect(find.text('50.00%'), findsOneWidget);
+    expect(
+      find.byKey(const Key('vocabulary-progress-percentage')),
+      findsOneWidget,
+    );
+  });
+
+  testWidgets('opens word study from the vocabulary library entry', (
+    tester,
+  ) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(375, 812);
+    addTearDown(tester.view.reset);
+
+    await tester.pumpWidget(_testApp());
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.byKey(const Key('open-vocabulary-library')));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(WordStudyScreen), findsOneWidget);
   });
 }
 

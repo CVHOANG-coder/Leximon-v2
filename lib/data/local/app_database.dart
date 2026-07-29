@@ -310,6 +310,23 @@ class AppUsageDays extends Table {
   Set<Column<Object>> get primaryKey => {date};
 }
 
+@DataClassName('UserProfileRow')
+class UserProfiles extends Table {
+  @override
+  String get tableName => 'UserProfile';
+
+  IntColumn get id => integer()();
+
+  TextColumn get name => text()();
+
+  TextColumn get email => text()();
+
+  TextColumn get avatarPath => text().nullable()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {id};
+}
+
 @DriftDatabase(
   tables: [
     TopicModels,
@@ -324,6 +341,7 @@ class AppUsageDays extends Table {
     OnboardingTestAnswerModels,
     ContentRevisions,
     AppUsageDays,
+    UserProfiles,
   ],
 )
 class AppDatabase extends _$AppDatabase {
@@ -334,7 +352,7 @@ class AppDatabase extends _$AppDatabase {
   static const topicAssetSource = 'bundled_topic_word_params';
 
   @override
-  int get schemaVersion => 4;
+  int get schemaVersion => 5;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -355,8 +373,32 @@ class AppDatabase extends _$AppDatabase {
       if (from < 4) {
         await m.createTable(appUsageDays);
       }
+      if (from < 5) {
+        await m.createTable(userProfiles);
+      }
     },
   );
+
+  Future<UserProfileRow?> loadUserProfile() {
+    return (select(
+      userProfiles,
+    )..where((row) => row.id.equals(1))).getSingleOrNull();
+  }
+
+  Future<void> saveUserProfile({
+    required String name,
+    required String email,
+    String? avatarPath,
+  }) {
+    return into(userProfiles).insertOnConflictUpdate(
+      UserProfilesCompanion.insert(
+        id: const Value(1),
+        name: name,
+        email: email,
+        avatarPath: Value(avatarPath),
+      ),
+    );
+  }
 
   Future<int?> topicContentRevision() async {
     final query = select(contentRevisions)

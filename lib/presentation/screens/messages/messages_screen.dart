@@ -15,33 +15,39 @@ class MessagesScreen extends ConsumerWidget {
         'Du lịch';
     return SafeArea(
       bottom: false,
-      child: CustomScrollView(
-        slivers: [
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 14, 18, 22),
-            sliver: const SliverToBoxAdapter(child: _PracticeHeader()),
+      child: Column(
+        children: [
+          const Padding(
+            padding: EdgeInsets.fromLTRB(18, 14, 18, 22),
+            child: _PracticeHeader(),
           ),
-          SliverPadding(
-            padding: const EdgeInsets.symmetric(horizontal: 18),
-            sliver: SliverToBoxAdapter(
-              child: _ChallengeHero(topicName: topicName),
+          Expanded(
+            child: CustomScrollView(
+              slivers: [
+                SliverPadding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18),
+                  sliver: SliverToBoxAdapter(
+                    child: _ChallengeHero(topicName: topicName),
+                  ),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                  sliver: SliverToBoxAdapter(child: _ModesSection()),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                  sliver: SliverToBoxAdapter(child: _FocusSection()),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                  sliver: SliverToBoxAdapter(child: _MissionsSection()),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 30),
+                  sliver: const SliverToBoxAdapter(child: _BossCard()),
+                ),
+              ],
             ),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(child: _ModesSection()),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(child: _FocusSection()),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(child: _MissionsSection()),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 30),
-            sliver: const SliverToBoxAdapter(child: _BossCard()),
           ),
         ],
       ),

@@ -233,12 +233,14 @@ class SectionHeader extends StatelessWidget {
     required this.kicker,
     required this.title,
     this.action,
+    this.onAction,
     super.key,
   });
 
   final String kicker;
   final String title;
   final String? action;
+  final VoidCallback? onAction;
 
   @override
   Widget build(BuildContext context) {
@@ -272,7 +274,8 @@ class SectionHeader extends StatelessWidget {
             ],
           ),
         ),
-        if (action != null) TextButton(onPressed: () {}, child: Text(action!)),
+        if (action != null)
+          TextButton(onPressed: onAction ?? () {}, child: Text(action!)),
       ],
     );
   }

@@ -1,10 +1,12 @@
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/topic.dart';
+import 'package:leximon/presentation/screens/learning_filter/learning_filter_screen.dart';
 import 'package:leximon/presentation/screens/word_study/word_study_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
 
@@ -149,5 +151,169 @@ void main() {
     await tester.tap(find.text('Đã biết').hitTestable().first);
     await tester.pumpAndSettle();
     expect(find.text('affect'), findsWidgets);
+  });
+
+  testWidgets('topic strip keeps its visual and reveals selected topic', (
+    tester,
+  ) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(375, 812);
+    addTearDown(tester.view.reset);
+
+    final topics = [
+      for (var index = 1; index <= 8; index++)
+        Topic(
+          id: index,
+          order: index,
+          original: 'Topic $index',
+          translated: 'Chủ đề số $index',
+          words: [
+            {
+              'id': index,
+              'writing': 'word $index',
+              'translation': 'nghĩa $index',
+            },
+          ],
+        ),
+    ];
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          topicsProvider.overrideWith((ref) async => topics),
+          wordProgressProvider.overrideWith(
+            (ref) async => const <int, LearningProgressRow>{},
+          ),
+        ],
+        child: MaterialApp(home: WordStudyScreen(topic: topics.first)),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    final lastCardFinder = find.byKey(
+      const ValueKey('word-study-topic-card-8'),
+    );
+    final lastCardTap = find.ancestor(
+      of: lastCardFinder,
+      matching: find.byType(GestureDetector),
+    );
+    tester.widget<GestureDetector>(lastCardTap.first).onTap!();
+    await tester.pumpAndSettle();
+
+    expect(find.text('★  Chủ đề số 8'), findsOneWidget);
+    final selectedCard = tester.widget<AnimatedContainer>(lastCardFinder);
+    final selectedDecoration = selectedCard.decoration! as BoxDecoration;
+    expect(selectedDecoration.color, Colors.white);
+
+    final stripRect = tester.getRect(
+      find.byKey(const Key('word-study-topic-strip')),
+    );
+    final cardRect = tester.getRect(lastCardFinder);
+    expect(cardRect.left, greaterThanOrEqualTo(stripRect.left));
+    expect(cardRect.right, lessThanOrEqualTo(stripRect.right));
+  });
+
+  testWidgets('automatically speaks each newly visible word card', (
+    tester,
+  ) async {
+    final spokenWords = <String>[];
+    const ttsChannel = MethodChannel('flutter_tts');
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(ttsChannel, (call) async {
+          if (call.method == 'speak') {
+            final arguments = call.arguments;
+            spokenWords.add(
+              arguments is Map
+                  ? arguments['text'] as String
+                  : arguments as String,
+            );
+          }
+          return 1;
+        });
+    addTearDown(
+      () => TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+          .setMockMethodCallHandler(ttsChannel, null),
+    );
+
+    const topic = Topic(
+      id: 57,
+      order: 1,
+      original: 'Traveling',
+      translated: 'Du lịch',
+      words: [
+        {'id': 1, 'writing': 'airport', 'translation': 'sân bay'},
+        {'id': 2, 'writing': 'passport', 'translation': 'hộ chiếu'},
+      ],
+    );
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          topicsProvider.overrideWith((ref) async => [topic]),
+          wordProgressProvider.overrideWith(
+            (ref) async => const <int, LearningProgressRow>{},
+          ),
+        ],
+        child: const MaterialApp(home: WordStudyScreen(topic: topic)),
+      ),
+    );
+    await tester.pumpAndSettle();
+    await _waitForSpokenWord(tester, spokenWords, 'airport');
+
+    await tester.tap(find.bySemanticsLabel('Từ tiếp theo'));
+    await tester.pumpAndSettle();
+    await _waitForSpokenWord(tester, spokenWords, 'passport');
+
+    expect(spokenWords.where((word) => word == 'airport'), hasLength(1));
+    expect(spokenWords.last, 'passport');
+  });
+
+  testWidgets('opens learning filters from the study settings button', (
+    tester,
+  ) async {
+    const topic = Topic(
+      id: 57,
+      order: 1,
+      original: 'Traveling',
+      translated: 'Du lịch',
+      words: [
+        {'id': 1, 'writing': 'airport', 'translation': 'sân bay'},
+      ],
+    );
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          topicsProvider.overrideWith((ref) async => [topic]),
+          wordProgressProvider.overrideWith(
+            (ref) async => const <int, LearningProgressRow>{},
+          ),
+        ],
+        child: const MaterialApp(home: WordStudyScreen(topic: topic)),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.bySemanticsLabel('Cài đặt'));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(LearningFilterScreen), findsOneWidget);
+    expect(find.text('BỘ LỌC HỌC'), findsOneWidget);
+    expect(find.text('Bước 1 / 2'), findsNothing);
+    expect(find.text('Tiếp tục'), findsNothing);
+    expect(find.text('Áp dụng'), findsOneWidget);
+    expect(find.byKey(const ValueKey('assets/svgs/book.svg')), findsOneWidget);
+  });
+}
+
+Future<void> _waitForSpokenWord(
+  WidgetTester tester,
+  List<String> spokenWords,
+  String expected,
+) async {
+  await tester.runAsync(() async {
+    for (var attempt = 0; attempt < 30; attempt++) {
+      if (spokenWords.contains(expected)) return;
+      await Future<void>.delayed(const Duration(milliseconds: 10));
+    }
+    fail('TTS did not speak "$expected". Calls: $spokenWords');
   });
 }

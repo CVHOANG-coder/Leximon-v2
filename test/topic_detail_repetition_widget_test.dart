@@ -35,6 +35,24 @@ void main() {
     );
     expect(find.text('7 / 8'), findsOneWidget);
     expect(_repetitionInkWell(tester).onTap, isNull);
+    expect(
+      find.byKey(const ValueKey('assets/svgs/complete.svg')),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const ValueKey('assets/svgs/need_practice.svg')),
+      findsOneWidget,
+    );
+    expect(find.byKey(const ValueKey('assets/svgs/study.svg')), findsOneWidget);
+    expect(find.byKey(const ValueKey('assets/svgs/new.svg')), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('assets/svgs/repeat.svg')),
+      findsOneWidget,
+    );
+    expect(find.text('💡'), findsNothing);
+    expect(find.text('🔁'), findsNothing);
+    expect(find.text('Sẵn sàng'), findsOneWidget);
+    expect(find.text('Chưa mở'), findsOneWidget);
   });
 
   testWidgets('enables topic repetition at exactly eight learned words', (
@@ -51,6 +69,8 @@ void main() {
       findsNothing,
     );
     expect(_repetitionInkWell(tester).onTap, isNotNull);
+    expect(find.text('Sẵn sàng'), findsNWidgets(2));
+    expect(find.text('Chưa mở'), findsNothing);
   });
 
   testWidgets('opens topic word study as a learn session', (tester) async {
@@ -77,18 +97,129 @@ void main() {
     );
     expect(studyScreen.dailyTaskType, DailyTaskType.learn);
   });
+
+  testWidgets('opens the current topic tab from view all words', (
+    tester,
+  ) async {
+    const selectedTopic = Topic(
+      id: 9,
+      order: 4,
+      original: 'School',
+      translated: 'Trường học',
+      words: [
+        {'id': 1, 'writing': 'classroom', 'translation': 'lớp học'},
+      ],
+    );
+    await tester.pumpWidget(
+      _testApp(topic: selectedTopic, repetitionData: _repetitionData(0)),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.scrollUntilVisible(
+      find.text('Xem tất cả'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.tap(find.text('Xem tất cả'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 400));
+
+    final studyScreen = tester.widget<WordStudyScreen>(
+      find.byType(WordStudyScreen),
+    );
+    expect(studyScreen.topic.id, selectedTopic.id);
+    expect(studyScreen.topic.order, selectedTopic.order);
+    expect(studyScreen.dailyTaskType, DailyTaskType.learn);
+  });
+
+  testWidgets('shows unclassified topic words first in quick preview', (
+    tester,
+  ) async {
+    const previewTopic = Topic(
+      id: 7,
+      order: 1,
+      original: 'Travel',
+      translated: 'Du lịch',
+      words: [
+        {'id': 1, 'writing': 'classified', 'translation': 'đã phân loại'},
+        {'id': 2, 'writing': 'first new', 'translation': 'từ mới đầu tiên'},
+        {'id': 3, 'writing': 'second new', 'translation': 'từ mới thứ hai'},
+        {'id': 4, 'writing': 'third new', 'translation': 'từ mới thứ ba'},
+      ],
+    );
+    await tester.pumpWidget(
+      _testApp(
+        topic: previewTopic,
+        repetitionData: _repetitionData(0),
+        wordProgress: {1: _learningProgress(1)},
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.scrollUntilVisible(
+      find.text('first new'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
+
+    expect(find.text('first new'), findsOneWidget);
+    expect(find.text('second new'), findsOneWidget);
+    expect(find.text('third new'), findsOneWidget);
+    expect(find.text('classified'), findsNothing);
+  });
+
+  testWidgets('shows learning words before learned words when none are new', (
+    tester,
+  ) async {
+    const previewTopic = Topic(
+      id: 7,
+      order: 1,
+      original: 'Travel',
+      translated: 'Du lịch',
+      words: [
+        {'id': 1, 'writing': 'learned one', 'translation': 'đã học một'},
+        {'id': 2, 'writing': 'learned two', 'translation': 'đã học hai'},
+        {'id': 3, 'writing': 'learning one', 'translation': 'đang học một'},
+        {'id': 4, 'writing': 'learning two', 'translation': 'đang học hai'},
+      ],
+    );
+    await tester.pumpWidget(
+      _testApp(
+        topic: previewTopic,
+        repetitionData: _repetitionData(0),
+        wordProgress: {
+          1: _learnedProgress(1),
+          2: _learnedProgress(2),
+          3: _learningProgress(3),
+          4: _learningProgress(4),
+        },
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.scrollUntilVisible(
+      find.text('learning one'),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
+
+    expect(find.text('learning one'), findsOneWidget);
+    expect(find.text('learning two'), findsOneWidget);
+    expect(find.text('learned one'), findsOneWidget);
+    expect(find.text('learned two'), findsNothing);
+  });
 }
 
 Widget _testApp({
   required Topic topic,
   required TopicRepetitionData repetitionData,
+  Map<int, LearningProgressRow> wordProgress =
+      const <int, LearningProgressRow>{},
 }) {
   return ProviderScope(
     overrides: [
       topicsProvider.overrideWith((ref) async => [topic]),
-      wordProgressProvider.overrideWith(
-        (ref) async => const <int, LearningProgressRow>{},
-      ),
+      wordProgressProvider.overrideWith((ref) async => wordProgress),
       topicProgressDetailsProvider(
         topic.id,
       ).overrideWith((ref) async => TopicProgressDetails.empty(12)),
@@ -97,6 +228,35 @@ Widget _testApp({
       ).overrideWith((ref) async => repetitionData),
     ],
     child: MaterialApp(home: TopicDetailScreen(topic: topic)),
+  );
+}
+
+LearningProgressRow _learningProgress(int id) {
+  return LearningProgressRow(
+    id: id,
+    creationDate: 0,
+    trainingProgress: 1,
+    trainingError: 0,
+    repetitionStep: 0,
+    onFastBrain: false,
+    repetitionFastBrainStep: 0,
+    markedAsKnown: false,
+    deletedByUser: false,
+  );
+}
+
+LearningProgressRow _learnedProgress(int id) {
+  return LearningProgressRow(
+    id: id,
+    creationDate: 0,
+    trainingProgress: 4,
+    trainingError: 0,
+    repetitionStep: 1,
+    learnedDate: 1,
+    onFastBrain: false,
+    repetitionFastBrainStep: 0,
+    markedAsKnown: false,
+    deletedByUser: false,
   );
 }
 

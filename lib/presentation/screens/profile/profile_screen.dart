@@ -1,85 +1,118 @@
+import 'dart:async';
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:speech_to_text/speech_to_text.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/services/app_settings_service.dart';
+import '../../../core/services/daily_notification_service.dart';
+import '../../../data/local/app_database.dart';
 import '../../../data/models/topic.dart';
 import '../../../data/services/profile_statistics_service.dart';
+import 'edit_profile_screen.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class ProfileScreen extends ConsumerWidget {
-  const ProfileScreen({super.key});
+  const ProfileScreen({this.onViewProgress, super.key});
+
+  final VoidCallback? onViewProgress;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final topicsState = ref.watch(topicsProvider);
     final topics = topicsState.valueOrNull ?? const <Topic>[];
     final selectedTopicOrders = ref.watch(selectedTopicOrdersProvider);
-    final progressByTopic =
-        ref.watch(topicProgressProvider).valueOrNull ?? const <int, double>{};
     final statistics = ref.watch(profileStatisticsProvider).valueOrNull;
-    final totalWords = topics.fold<int>(
+    final dashboard = ref.watch(progressDashboardProvider).valueOrNull;
+    final profile = ref.watch(userProfileProvider).valueOrNull;
+    final topicWordCount = topics.fold<int>(
       0,
       (sum, topic) => sum + topic.wordCount,
     );
-    final favorites = topics
-        .where((topic) => selectedTopicOrders.contains(topic.order))
-        .take(3)
-        .toList();
-
     return SafeArea(
       bottom: false,
-      child: CustomScrollView(
-        slivers: [
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 14, 18, 22),
-            sliver: const SliverToBoxAdapter(child: _ProfileHeader()),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.symmetric(horizontal: 18),
-            sliver: SliverToBoxAdapter(
-              child: _ProfileHero(totalWords: totalWords),
+      child: Column(
+        children: [
+          Padding(
+            padding: EdgeInsets.fromLTRB(18, 14, 18, 22),
+            child: _ProfileHeader(
+              onEditProfile: () => _openEditProfile(context, profile),
             ),
           ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(
-              child: _OverviewSection(
-                statistics: statistics,
-                trackedTopicCountFallback: selectedTopicOrders.length,
-              ),
+          Expanded(
+            child: CustomScrollView(
+              slivers: [
+                SliverPadding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18),
+                  sliver: SliverToBoxAdapter(
+                    child: _ProfileHero(
+                      totalWords: dashboard?.totalWords ?? topicWordCount,
+                      learnedWordCount: dashboard?.progressedWords,
+                      currentStreak: dashboard?.currentStreak,
+                      profile: profile,
+                      onEditProfile: () => _openEditProfile(context, profile),
+                    ),
+                  ),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                  sliver: SliverToBoxAdapter(
+                    child: _OverviewSection(
+                      statistics: statistics,
+                      trackedTopicCountFallback: selectedTopicOrders.length,
+                      onViewProgress: onViewProgress,
+                    ),
+                  ),
+                ),
+                // SliverPadding(
+                //   padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                //   sliver: SliverToBoxAdapter(child: _BadgeSection()),
+                // ),
+                // SliverPadding(
+                //   padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                //   sliver: SliverToBoxAdapter(child: _GoalsSection()),
+                // ),
+                // SliverPadding(
+                //   padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                //   sliver: SliverToBoxAdapter(
+                //     child: _FavoritesSection(
+                //       favorites: favorites,
+                //       progressByTopic: progressByTopic,
+                //       isLoading: topicsState.isLoading,
+                //     ),
+                //   ),
+                // ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 30),
+                  sliver: SliverToBoxAdapter(child: _SettingsSection()),
+                ),
+              ],
             ),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(child: _BadgeSection()),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(child: _GoalsSection()),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(
-              child: _FavoritesSection(
-                favorites: favorites,
-                progressByTopic: progressByTopic,
-                isLoading: topicsState.isLoading,
-              ),
-            ),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 30),
-            sliver: SliverToBoxAdapter(child: _SettingsSection()),
           ),
         ],
+      ),
+    );
+  }
+
+  void _openEditProfile(BuildContext context, UserProfileRow? profile) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => EditProfileScreen(profile: profile),
       ),
     );
   }
 }
 
 class _ProfileHeader extends StatelessWidget {
-  const _ProfileHeader();
+  const _ProfileHeader({required this.onEditProfile});
+
+  final VoidCallback onEditProfile;
 
   @override
   Widget build(BuildContext context) {
@@ -122,24 +155,92 @@ class _ProfileHeader extends StatelessWidget {
             ],
           ),
         ),
-        Container(
-          width: 42,
-          height: 42,
-          decoration: BoxDecoration(
-            color: Colors.white.withValues(alpha: .13),
+        Material(
+          color: Colors.transparent,
+          child: InkWell(
+            onTap: onEditProfile,
             borderRadius: BorderRadius.circular(15),
-            border: Border.all(color: Colors.white24),
+            child: Container(
+              width: 42,
+              height: 42,
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: .13),
+                borderRadius: BorderRadius.circular(15),
+                border: Border.all(color: Colors.white24),
+              ),
+              child: const Icon(
+                Icons.edit_outlined,
+                color: Colors.white,
+                size: 19,
+              ),
+            ),
           ),
-          child: const Icon(Icons.edit_outlined, color: Colors.white, size: 19),
         ),
       ],
     );
   }
 }
 
+class _ProfileAvatar extends StatelessWidget {
+  const _ProfileAvatar({
+    required this.path,
+    required this.size,
+    required this.radius,
+  });
+
+  final String? path;
+  final double size;
+  final double radius;
+
+  @override
+  Widget build(BuildContext context) {
+    final image = path == null
+        ? Image.asset('assets/images/leximon-owl.png', fit: BoxFit.cover)
+        : Image.file(
+            File(path!),
+            fit: BoxFit.cover,
+            errorBuilder: (context, error, stackTrace) =>
+                Image.asset('assets/images/leximon-owl.png', fit: BoxFit.cover),
+          );
+
+    return Container(
+      width: size,
+      height: size,
+      padding: const EdgeInsets.all(2),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(radius),
+        gradient: const LinearGradient(
+          colors: [Color(0xFF1D75FF), Color(0xFF064EE0)],
+        ),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x361258FF),
+            blurRadius: 12,
+            offset: Offset(0, 6),
+          ),
+        ],
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(radius - 2),
+        child: image,
+      ),
+    );
+  }
+}
+
 class _ProfileHero extends StatelessWidget {
-  const _ProfileHero({required this.totalWords});
+  const _ProfileHero({
+    required this.totalWords,
+    required this.learnedWordCount,
+    required this.currentStreak,
+    required this.profile,
+    required this.onEditProfile,
+  });
   final int totalWords;
+  final int? learnedWordCount;
+  final int? currentStreak;
+  final UserProfileRow? profile;
+  final VoidCallback onEditProfile;
 
   @override
   Widget build(BuildContext context) {
@@ -151,7 +252,11 @@ class _ProfileHero extends StatelessWidget {
             children: [
               Stack(
                 children: [
-                  const OwlAvatar(size: 84, radius: 28),
+                  _ProfileAvatar(
+                    path: profile?.avatarPath,
+                    size: 84,
+                    radius: 28,
+                  ),
                   Positioned(
                     right: 2,
                     bottom: 2,
@@ -168,12 +273,12 @@ class _ProfileHero extends StatelessWidget {
                 ],
               ),
               const SizedBox(width: 12),
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      'Explorer Lv.12',
+                    const Text(
+                      'Explorer Lv.0',
                       style: TextStyle(
                         color: AppColors.primary,
                         fontSize: 9,
@@ -182,7 +287,7 @@ class _ProfileHero extends StatelessWidget {
                     ),
                     SizedBox(height: 9),
                     Text(
-                      'Việt Hoàng',
+                      profile?.name ?? 'Leximon',
                       style: TextStyle(
                         fontSize: 25,
                         height: 1,
@@ -192,7 +297,7 @@ class _ProfileHero extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      '@lexi_hoang • Học viên hệ từ vựng theo chủ đề',
+                      profile?.email ?? 'hello@leximon.app',
                       style: TextStyle(
                         color: AppColors.textSecondary,
                         fontSize: 9,
@@ -201,74 +306,82 @@ class _ProfileHero extends StatelessWidget {
                   ],
                 ),
               ),
-              const Text(
-                'Đổi ảnh',
-                style: TextStyle(
-                  color: AppColors.primary,
-                  fontSize: 9,
-                  fontWeight: FontWeight.w800,
-                ),
+              TextButton(
+                onPressed: onEditProfile,
+                child: const Text('Chỉnh sửa'),
               ),
             ],
           ),
           const SizedBox(height: 16),
-          Container(
-            padding: const EdgeInsets.all(14),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(22),
-              gradient: const LinearGradient(
-                colors: [
-                  AppColors.primaryDark,
-                  AppColors.primary,
-                  AppColors.cyan,
-                ],
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-              ),
-              boxShadow: const [
-                BoxShadow(
-                  color: Color(0x361258FF),
-                  blurRadius: 16,
-                  offset: Offset(0, 8),
-                ),
-              ],
-            ),
-            child: const Column(
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      '1.248 XP',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 21,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                    SizedBox(width: 8),
-                    Expanded(
-                      child: Text(
-                        '752 XP nữa để lên hạng Master Explorer',
-                        textAlign: TextAlign.right,
-                        style: TextStyle(color: Colors.white70, fontSize: 9),
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(height: 10),
-                ProgressLine(value: .62, dark: true),
-              ],
-            ),
-          ),
-          const SizedBox(height: 14),
+          // Container(
+          //   padding: const EdgeInsets.all(14),
+          //   decoration: BoxDecoration(
+          //     borderRadius: BorderRadius.circular(22),
+          //     gradient: const LinearGradient(
+          //       colors: [
+          //         AppColors.primaryDark,
+          //         AppColors.primary,
+          //         AppColors.cyan,
+          //       ],
+          //       begin: Alignment.topLeft,
+          //       end: Alignment.bottomRight,
+          //     ),
+          //     boxShadow: const [
+          //       BoxShadow(
+          //         color: Color(0x361258FF),
+          //         blurRadius: 16,
+          //         offset: Offset(0, 8),
+          //       ),
+          //     ],
+          //   ),
+          //   child: const Column(
+          //     children: [
+          //       Row(
+          //         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //         children: [
+          //           Text(
+          //             '1.248 XP',
+          //             style: TextStyle(
+          //               color: Colors.white,
+          //               fontSize: 21,
+          //               fontWeight: FontWeight.w800,
+          //             ),
+          //           ),
+          //           SizedBox(width: 8),
+          //           Expanded(
+          //             child: Text(
+          //               '752 XP nữa để lên hạng Master Explorer',
+          //               textAlign: TextAlign.right,
+          //               style: TextStyle(color: Colors.white70, fontSize: 9),
+          //             ),
+          //           ),
+          //         ],
+          //       ),
+          //       SizedBox(height: 10),
+          //       ProgressLine(value: .62, dark: true),
+          //     ],
+          //   ),
+          // ),
+          // const SizedBox(height: 14),
           Row(
             children: [
-              const _HeroStat(value: '7', label: 'Ngày streak'),
+              _HeroStat(
+                iconAsset: 'assets/svgs/streak_day.svg',
+                value: currentStreak?.toString() ?? '—',
+                label: 'Ngày streak',
+              ),
               const SizedBox(width: 9),
-              _HeroStat(value: '$totalWords', label: 'Từ trong thư viện'),
+              _HeroStat(
+                iconAsset: 'assets/svgs/word.svg',
+                value: '$totalWords',
+                label: 'Từ trong thư viện',
+              ),
               const SizedBox(width: 9),
-              const _HeroStat(value: '18', label: 'Energy'),
+              _HeroStat(
+                iconAsset: 'assets/svgs/word_learn_done.svg',
+                value: learnedWordCount?.toString() ?? '—',
+                label: 'Từ đã học',
+              ),
             ],
           ),
         ],
@@ -278,7 +391,12 @@ class _ProfileHero extends StatelessWidget {
 }
 
 class _HeroStat extends StatelessWidget {
-  const _HeroStat({required this.value, required this.label});
+  const _HeroStat({
+    required this.iconAsset,
+    required this.value,
+    required this.label,
+  });
+  final String iconAsset;
   final String value;
   final String label;
 
@@ -289,9 +407,19 @@ class _HeroStat extends StatelessWidget {
       decoration: BoxDecoration(
         color: AppColors.surfaceSoft,
         borderRadius: BorderRadius.circular(15),
+        border: Border.all(color: Colors.white.withValues(alpha: .82)),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x24144099),
+            blurRadius: 12,
+            offset: Offset(0, 6),
+          ),
+        ],
       ),
       child: Column(
         children: [
+          SvgPicture.asset(iconAsset, width: 36, height: 36),
+          const SizedBox(height: 7),
           Text(
             value,
             style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
@@ -300,7 +428,11 @@ class _HeroStat extends StatelessWidget {
           Text(
             label,
             textAlign: TextAlign.center,
-            style: const TextStyle(color: AppColors.textMuted, fontSize: 8),
+            style: const TextStyle(
+              color: AppColors.textSecondary,
+              fontSize: 10,
+              fontWeight: FontWeight.w500,
+            ),
           ),
         ],
       ),
@@ -312,10 +444,12 @@ class _OverviewSection extends StatelessWidget {
   const _OverviewSection({
     required this.statistics,
     required this.trackedTopicCountFallback,
+    this.onViewProgress,
   });
 
   final ProfileStatisticsSnapshot? statistics;
   final int trackedTopicCountFallback;
+  final VoidCallback? onViewProgress;
 
   @override
   Widget build(BuildContext context) {
@@ -331,17 +465,18 @@ class _OverviewSection extends StatelessWidget {
     return LeximonSurface(
       child: Column(
         children: [
-          const SectionHeader(
+          SectionHeader(
             kicker: 'Quick overview',
             title: 'Tóm tắt học tập',
             action: 'Xem tiến độ',
+            onAction: onViewProgress,
           ),
           const SizedBox(height: 15),
           Row(
             children: [
               Expanded(
                 child: _SummaryCard(
-                  icon: '📚',
+                  iconAsset: 'assets/svgs/book.svg',
                   title: '$trackedTopicCount chủ đề',
                   body: 'Đang theo dõi',
                   color: AppColors.surfaceBlue,
@@ -350,7 +485,7 @@ class _OverviewSection extends StatelessWidget {
               const SizedBox(width: 9),
               Expanded(
                 child: _SummaryCard(
-                  icon: '🎯',
+                  iconAsset: 'assets/svgs/target.svg',
                   title: accuracyLabel,
                   body: 'Độ chính xác tuần này',
                   color: Color(0xFFDDF9EF),
@@ -368,12 +503,12 @@ class _OverviewSection extends StatelessWidget {
 
 class _SummaryCard extends StatelessWidget {
   const _SummaryCard({
-    required this.icon,
+    required this.iconAsset,
     required this.title,
     required this.body,
     required this.color,
   });
-  final String icon;
+  final String iconAsset;
   final String title;
   final String body;
   final Color color;
@@ -384,12 +519,20 @@ class _SummaryCard extends StatelessWidget {
     decoration: BoxDecoration(
       color: color,
       borderRadius: BorderRadius.circular(17),
+      border: Border.all(color: Colors.white.withValues(alpha: .75)),
+      boxShadow: const [
+        BoxShadow(
+          color: Color(0x1F144099),
+          blurRadius: 12,
+          offset: Offset(0, 6),
+        ),
+      ],
     ),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(icon, style: const TextStyle(fontSize: 21)),
-        const SizedBox(height: 9),
+        SvgPicture.asset(iconAsset, width: 40, height: 40),
+        const SizedBox(height: 8),
         Text(
           title,
           style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
@@ -426,11 +569,19 @@ class _SummaryWide extends StatelessWidget {
       decoration: BoxDecoration(
         color: const Color(0xFFF2EDFF),
         borderRadius: BorderRadius.circular(17),
+        border: Border.all(color: Colors.white.withValues(alpha: .78)),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x1F144099),
+            blurRadius: 12,
+            offset: Offset(0, 6),
+          ),
+        ],
       ),
       child: Row(
         children: [
-          const Text('⏱️', style: TextStyle(fontSize: 21)),
-          const SizedBox(width: 10),
+          SvgPicture.asset('assets/svgs/time.svg', width: 40, height: 40),
+          const SizedBox(width: 12),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -727,74 +878,524 @@ class _FavoriteItem extends StatelessWidget {
   }
 }
 
-class _SettingsSection extends StatelessWidget {
+class _SettingsSection extends StatefulWidget {
   const _SettingsSection();
 
   @override
-  Widget build(BuildContext context) => LeximonSurface(
-    child: Column(
-      children: [
-        const SectionHeader(
-          kicker: 'Quick settings',
-          title: 'Truy cập nhanh',
-          action: 'Tất cả',
+  State<_SettingsSection> createState() => _SettingsSectionState();
+}
+
+class _SettingsSectionState extends State<_SettingsSection>
+    with WidgetsBindingObserver {
+  static const _pronunciationKey = 'profile.pronunciation_enabled';
+  static const _listeningKey = 'profile.listening_enabled';
+  static const _dailyReminderEnabledKey = 'profile.daily_reminder_enabled';
+  static const _dailyReminderHourKey = 'profile.daily_reminder_hour';
+  static const _dailyReminderMinuteKey = 'profile.daily_reminder_minute';
+
+  final SpeechToText _speechToText = SpeechToText();
+  SharedPreferences? _preferences;
+  bool _pronunciationEnabled = true;
+  bool _listeningEnabled = true;
+  bool _dailyReminderEnabled = false;
+  TimeOfDay _dailyReminderTime = const TimeOfDay(hour: 20, minute: 0);
+  bool _hasMicPermission = false;
+  bool _isLoading = true;
+  bool _isPronunciationUpdating = false;
+  bool _isDailyReminderUpdating = false;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) unawaited(_loadSettings());
+    });
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      unawaited(_refreshMicPermission());
+    }
+  }
+
+  Future<void> _loadSettings() async {
+    SharedPreferences? preferences;
+    var hasMicPermission = false;
+    try {
+      preferences = await SharedPreferences.getInstance();
+      hasMicPermission = await _speechToText.hasPermission;
+    } on Object {
+      // A freshly added native plugin can be unavailable until the app is
+      // fully restarted. Keep the defaults and avoid crashing the screen.
+    }
+    if (!mounted) return;
+    setState(() {
+      _preferences = preferences;
+      _pronunciationEnabled = preferences?.getBool(_pronunciationKey) ?? true;
+      _listeningEnabled = preferences?.getBool(_listeningKey) ?? true;
+      _dailyReminderEnabled =
+          preferences?.getBool(_dailyReminderEnabledKey) ?? false;
+      _dailyReminderTime = TimeOfDay(
+        hour: preferences?.getInt(_dailyReminderHourKey) ?? 20,
+        minute: preferences?.getInt(_dailyReminderMinuteKey) ?? 0,
+      );
+      _hasMicPermission = hasMicPermission;
+      _isLoading = false;
+    });
+  }
+
+  Future<void> _refreshMicPermission() async {
+    bool hasMicPermission;
+    try {
+      hasMicPermission = await _speechToText.hasPermission;
+    } on Object {
+      hasMicPermission = false;
+    }
+    if (!mounted) return;
+    setState(() => _hasMicPermission = hasMicPermission);
+  }
+
+  Future<void> _saveSetting(String key, bool value) async {
+    try {
+      final preferences = _preferences ??=
+          await SharedPreferences.getInstance();
+      await preferences.setBool(key, value);
+    } on Object {
+      // Keep the UI responsive if the native preferences channel is not
+      // available during a hot reload or a partial app restart.
+    }
+  }
+
+  Future<void> _setListeningEnabled(bool enabled) async {
+    setState(() => _listeningEnabled = enabled);
+    await _saveSetting(_listeningKey, enabled);
+  }
+
+  Future<void> _setDailyReminderEnabled(bool enabled) async {
+    if (_isDailyReminderUpdating) return;
+    if (!enabled) {
+      setState(() {
+        _dailyReminderEnabled = false;
+        _isDailyReminderUpdating = true;
+      });
+      await _saveSetting(_dailyReminderEnabledKey, false);
+      try {
+        await DailyNotificationService.instance.cancelDaily();
+      } on Object {
+        // Keep the preference off even if the native notification service is
+        // temporarily unavailable during a hot reload.
+      }
+      if (mounted) setState(() => _isDailyReminderUpdating = false);
+      return;
+    }
+
+    setState(() => _isDailyReminderUpdating = true);
+    try {
+      final permissionResult = await DailyNotificationService.instance
+          .requestPermission();
+      if (permissionResult != DailyNotificationPermissionResult.granted) {
+        if (!mounted) return;
+        setState(() => _dailyReminderEnabled = false);
+        await _saveSetting(_dailyReminderEnabledKey, false);
+        if (permissionResult ==
+            DailyNotificationPermissionResult.permanentlyDenied) {
+          await _showNotificationPermissionDialog();
+        }
+        return;
+      }
+
+      await DailyNotificationService.instance.scheduleDaily(
+        hour: _dailyReminderTime.hour,
+        minute: _dailyReminderTime.minute,
+      );
+      await _saveSetting(_dailyReminderEnabledKey, true);
+      if (mounted) setState(() => _dailyReminderEnabled = true);
+    } on Object catch (error) {
+      if (!mounted) return;
+      setState(() => _dailyReminderEnabled = false);
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('Không thể bật nhắc học: $error')));
+    } finally {
+      if (mounted) setState(() => _isDailyReminderUpdating = false);
+    }
+  }
+
+  Future<void> _pickDailyReminderTime() async {
+    final TimeOfDay? pickedTime;
+    if (Platform.isIOS) {
+      pickedTime = await _showCupertinoTimePicker();
+    } else {
+      if (!mounted) return;
+      pickedTime = await showTimePicker(
+        context: context,
+        initialTime: _dailyReminderTime,
+        helpText: 'Chọn giờ nhắc học',
+        cancelText: 'Hủy',
+        confirmText: 'Lưu',
+      );
+    }
+    final selectedTime = pickedTime;
+    if (selectedTime == null || !mounted) return;
+
+    setState(() => _dailyReminderTime = selectedTime);
+    try {
+      final preferences = _preferences ??=
+          await SharedPreferences.getInstance();
+      await preferences.setInt(_dailyReminderHourKey, selectedTime.hour);
+      await preferences.setInt(_dailyReminderMinuteKey, selectedTime.minute);
+
+      if (_dailyReminderEnabled) {
+        await DailyNotificationService.instance.scheduleDaily(
+          hour: selectedTime.hour,
+          minute: selectedTime.minute,
+        );
+      }
+    } on Object catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Không thể cập nhật giờ nhắc: $error')),
+      );
+    }
+  }
+
+  Future<TimeOfDay?> _showCupertinoTimePicker() {
+    var temporaryTime = _dailyReminderTime;
+    final initialDateTime = DateTime(
+      2024,
+      1,
+      1,
+      _dailyReminderTime.hour,
+      _dailyReminderTime.minute,
+    );
+
+    return showCupertinoModalPopup<TimeOfDay>(
+      context: context,
+      builder: (context) => StatefulBuilder(
+        builder: (context, setModalState) => Container(
+          height: 320,
+          decoration: const BoxDecoration(
+            color: CupertinoColors.systemBackground,
+            borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+          ),
+          child: SafeArea(
+            top: false,
+            child: Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(20, 16, 12, 4),
+                  child: Row(
+                    children: [
+                      const Expanded(
+                        child: Text(
+                          'Chọn giờ nhắc học',
+                          style: TextStyle(
+                            color: AppColors.textPrimary,
+                            fontSize: 17,
+                            fontWeight: FontWeight.w700,
+                            decoration: TextDecoration.none,
+                          ),
+                        ),
+                      ),
+                      CupertinoButton(
+                        padding: EdgeInsets.zero,
+                        onPressed: () => Navigator.of(context).pop(),
+                        child: const Text('Hủy'),
+                      ),
+                      CupertinoButton(
+                        padding: const EdgeInsets.only(left: 12),
+                        onPressed: () =>
+                            Navigator.of(context).pop(temporaryTime),
+                        child: const Text('Lưu'),
+                      ),
+                    ],
+                  ),
+                ),
+                const Divider(height: 1, color: AppColors.divider),
+                Expanded(
+                  child: CupertinoTheme(
+                    data: const CupertinoThemeData(
+                      primaryColor: AppColors.primary,
+                    ),
+                    child: CupertinoDatePicker(
+                      mode: CupertinoDatePickerMode.time,
+                      initialDateTime: initialDateTime,
+                      use24hFormat: true,
+                      minuteInterval: 1,
+                      onDateTimeChanged: (dateTime) {
+                        setModalState(() {
+                          temporaryTime = TimeOfDay(
+                            hour: dateTime.hour,
+                            minute: dateTime.minute,
+                          );
+                        });
+                      },
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
-        const SizedBox(height: 10),
-        const _SettingItem(
-          icon: '🔔',
-          title: 'Nhắc học hằng ngày',
-          body: '20:00 mỗi tối',
-          status: 'Bật',
+      ),
+    );
+  }
+
+  Future<void> _showNotificationPermissionDialog() async {
+    if (!mounted) return;
+    await showDialog<void>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Cần quyền thông báo'),
+        content: const Text(
+          'Leximon cần quyền thông báo để nhắc bạn học mỗi ngày. '
+          'Hãy bật quyền trong phần Cài đặt của ứng dụng.',
         ),
-        const _SettingItem(
-          icon: '🎙️',
-          title: 'Luyện phát âm',
-          body: 'Micro đang được cấp quyền',
-          status: 'Sẵn sàng',
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Để sau'),
+          ),
+          FilledButton(
+            onPressed: () async {
+              Navigator.of(context).pop();
+              await AppSettingsService.openAppSettings();
+            },
+            child: const Text('Mở Cài đặt'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _setPronunciationEnabled(bool enabled) async {
+    if (_isPronunciationUpdating) return;
+    if (!enabled) {
+      setState(() => _pronunciationEnabled = false);
+      await _saveSetting(_pronunciationKey, false);
+      return;
+    }
+
+    setState(() => _isPronunciationUpdating = true);
+    var hasMicPermission = false;
+    try {
+      hasMicPermission = await _speechToText.hasPermission;
+    } on Object {
+      hasMicPermission = false;
+    }
+    if (!hasMicPermission) {
+      try {
+        // initialize() requests permission when the system still allows the
+        // app to show the permission prompt.
+        hasMicPermission = await _speechToText.initialize();
+      } on Object {
+        hasMicPermission = false;
+      }
+    }
+
+    if (!mounted) return;
+    setState(() {
+      _hasMicPermission = hasMicPermission;
+      _isPronunciationUpdating = false;
+    });
+
+    if (!hasMicPermission) {
+      await _showMicPermissionDialog();
+      return;
+    }
+
+    setState(() => _pronunciationEnabled = true);
+    await _saveSetting(_pronunciationKey, true);
+  }
+
+  Future<void> _showMicPermissionDialog() async {
+    if (!mounted) return;
+    await showDialog<void>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Cần quyền microphone'),
+        content: const Text(
+          'Leximon cần quyền microphone và nhận dạng giọng nói để bật luyện phát âm. '
+          'Hãy cấp quyền trong phần Cài đặt của ứng dụng.',
         ),
-        const _SettingItem(
-          icon: '🌙',
-          title: 'Chế độ hiển thị',
-          body: 'Light theme',
-        ),
-      ],
-    ),
-  );
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(),
+            child: const Text('Để sau'),
+          ),
+          FilledButton(
+            onPressed: () async {
+              Navigator.of(context).pop();
+              await AppSettingsService.openAppSettings();
+            },
+            child: const Text('Mở Cài đặt'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final pronunciationStatus = !_hasMicPermission && _pronunciationEnabled
+        ? 'Cần quyền mic'
+        : _pronunciationEnabled
+        ? 'Bật'
+        : 'Tắt';
+    final dailyReminderStatus = _dailyReminderEnabled ? 'Bật' : 'Tắt';
+
+    return LeximonSurface(
+      child: Column(
+        children: [
+          const SectionHeader(
+            kicker: 'Quick settings',
+            title: 'Truy cập nhanh',
+            // action: 'Tất cả',
+          ),
+          const SizedBox(height: 10),
+          _SettingItem(
+            iconAsset: 'assets/svgs/bell.svg',
+            title: 'Nhắc học hằng ngày',
+            body: _dailyReminderEnabled
+                ? 'Mỗi tối lúc ${_formatTime(_dailyReminderTime)} · chạm để đổi giờ'
+                : 'Đã tắt · chạm để bật',
+            status: _isLoading ? 'Đang tải...' : dailyReminderStatus,
+            statusColor: _dailyReminderEnabled
+                ? AppColors.green
+                : AppColors.textMuted,
+            showTopBorder: true,
+            toggleValue: _dailyReminderEnabled,
+            onToggle: _setDailyReminderEnabled,
+            onTap: _dailyReminderEnabled
+                ? _pickDailyReminderTime
+                : () => _setDailyReminderEnabled(true),
+            isUpdating: _isLoading || _isDailyReminderUpdating,
+          ),
+          _SettingItem(
+            iconAsset: 'assets/svgs/mic.svg',
+            title: 'Luyện phát âm',
+            body: _hasMicPermission
+                ? 'Micro đang được cấp quyền'
+                : 'Chưa cấp quyền microphone',
+            status: _isLoading ? 'Đang tải...' : pronunciationStatus,
+            statusColor: _hasMicPermission ? AppColors.green : AppColors.orange,
+            showTopBorder: true,
+            toggleValue: _pronunciationEnabled && _hasMicPermission,
+            onToggle: _setPronunciationEnabled,
+            isUpdating: _isLoading || _isPronunciationUpdating,
+          ),
+          _SettingItem(
+            iconAsset: 'assets/svgs/speaker.svg',
+            title: 'Luyện nghe',
+            body: _listeningEnabled ? 'Loa đã được bật' : 'Loa đang tắt',
+            status: _isLoading
+                ? 'Đang tải...'
+                : (_listeningEnabled ? 'Bật' : 'Tắt'),
+            showTopBorder: true,
+            toggleValue: _listeningEnabled,
+            onToggle: _setListeningEnabled,
+            isUpdating: _isLoading,
+          ),
+          // _SettingItem(
+          //   iconAsset: 'assets/svgs/language.svg',
+          //   title: 'Ngôn ngữ',
+          //   body: 'Chọn ngôn ngữ cho ứng dụng',
+          //   showTopBorder: true,
+          // ),
+        ],
+      ),
+    );
+  }
 }
 
 class _SettingItem extends StatelessWidget {
   const _SettingItem({
-    required this.icon,
+    required this.iconAsset,
     required this.title,
     required this.body,
     this.status,
+    this.statusColor = AppColors.green,
+    this.showTopBorder = false,
+    this.toggleValue,
+    this.onToggle,
+    this.onTap,
+    this.isUpdating = false,
   });
-  final String icon;
+  final String iconAsset;
   final String title;
   final String body;
   final String? status;
+  final Color statusColor;
+  final bool showTopBorder;
+  final bool? toggleValue;
+  final ValueChanged<bool>? onToggle;
+  final VoidCallback? onTap;
+  final bool isUpdating;
 
   @override
-  Widget build(BuildContext context) => ListTile(
-    contentPadding: EdgeInsets.zero,
-    leading: Text(icon, style: const TextStyle(fontSize: 22)),
-    title: Text(
-      title,
-      style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11),
-    ),
-    subtitle: Text(
-      body,
-      style: const TextStyle(color: AppColors.textSecondary, fontSize: 9),
-    ),
-    trailing: status != null
-        ? Text(
-            status!,
-            style: const TextStyle(
-              color: AppColors.green,
-              fontSize: 9,
-              fontWeight: FontWeight.w800,
-            ),
+  Widget build(BuildContext context) => Container(
+    padding: EdgeInsets.only(top: showTopBorder ? 5 : 0),
+    decoration: showTopBorder
+        ? const BoxDecoration(
+            border: Border(top: BorderSide(color: AppColors.divider, width: 1)),
           )
-        : const Icon(Icons.chevron_right_rounded, color: AppColors.textMuted),
+        : null,
+    child: ListTile(
+      onTap: onTap,
+      contentPadding: EdgeInsets.zero,
+      leading: SvgPicture.asset(iconAsset, width: 28, height: 28),
+      title: Text(
+        title,
+        style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11),
+      ),
+      subtitle: Text(
+        body,
+        style: const TextStyle(color: AppColors.textSecondary, fontSize: 9),
+      ),
+      trailing: onToggle != null
+          ? Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                if (status != null)
+                  Text(
+                    status!,
+                    style: TextStyle(
+                      color: statusColor,
+                      fontSize: 9,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                Switch.adaptive(
+                  value: toggleValue ?? false,
+                  onChanged: isUpdating ? null : onToggle,
+                  activeThumbColor: AppColors.primary,
+                ),
+              ],
+            )
+          : status != null
+          ? Text(
+              status!,
+              style: TextStyle(
+                color: statusColor,
+                fontSize: 9,
+                fontWeight: FontWeight.w800,
+              ),
+            )
+          : const Icon(Icons.chevron_right_rounded, color: AppColors.textMuted),
+    ),
   );
+}
+
+String _formatTime(TimeOfDay time) {
+  final hour = time.hour.toString().padLeft(2, '0');
+  final minute = time.minute.toString().padLeft(2, '0');
+  return '$hour:$minute';
 }

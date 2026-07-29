@@ -909,7 +909,7 @@ class _WordDetailSheet extends StatelessWidget {
   Widget build(BuildContext context) {
     final transcription = entry.word.transcription;
     return Padding(
-      padding: const EdgeInsets.fromLTRB(12, 12, 12, 18),
+      padding: const EdgeInsets.fromLTRB(12, 12, 12, 0),
       child: Material(
         color: Colors.white,
         borderRadius: BorderRadius.circular(32),

@@ -44,6 +44,11 @@ final localDataInitializationProvider = FutureProvider<void>((ref) {
   return ref.watch(topicRepositoryProvider).initialize();
 });
 
+final userProfileProvider = FutureProvider<UserProfileRow?>((ref) async {
+  await ref.watch(localDataInitializationProvider.future);
+  return ref.watch(appDatabaseProvider).loadUserProfile();
+});
+
 final topicsProvider = FutureProvider<List<Topic>>((ref) async {
   await ref.watch(localDataInitializationProvider.future);
   return ref.watch(topicRepositoryProvider).loadTopics();
@@ -64,7 +69,7 @@ final selectedTopicFilterProvider = StateProvider<String>((ref) => 'Tất cả')
 
 final topicSetupOpenProvider = StateProvider<bool>((ref) => false);
 
-final topicSetupStartAtTopicsProvider = StateProvider<bool>((ref) => false);
+final topicSetupStartAtTopicsProvider = StateProvider<bool>((ref) => true);
 
 final selectedTopicOrdersProvider = StateProvider<Set<int>>((ref) => <int>{});
 

@@ -7,8 +7,7 @@ import '../../../core/constants/app_colors.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../discover/discover_screen.dart';
 import '../home/home_screen.dart';
-import '../messages/messages_screen.dart';
-import '../onboarding/onboarding_screen.dart';
+import '../learning_filter/learning_filter_screen.dart';
 import '../profile/profile_screen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -21,32 +20,17 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
 
-  static const _tabs = [
-    _MainTab(
-      label: 'Học tập',
-      icon: Icons.menu_book_outlined,
-      screen: HomeScreen(),
-    ),
-    _MainTab(
-      label: 'Tiến độ',
-      icon: Icons.bar_chart_outlined,
-      screen: DiscoverScreen(),
-    ),
-    _MainTab(
-      label: 'Thử thách',
-      icon: Icons.shield_outlined,
-      screen: MessagesScreen(),
-    ),
-    _MainTab(label: 'Cá nhân', screen: ProfileScreen(), profile: true),
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Consumer(
       builder: (context, ref, child) {
+        final tabs = _buildTabs(ref);
+        final selectedIndex = _selectedIndex >= tabs.length
+            ? tabs.length - 1
+            : _selectedIndex;
         ref.watch(selectedTopicOrdersHydrationProvider);
         if (ref.watch(topicSetupOpenProvider)) {
-          return OnboardingScreen(
+          return LearningFilterScreen(
             startAtTopics: ref.watch(topicSetupStartAtTopicsProvider),
             onExit: () => _closeTopicSetup(ref),
             onFinished: () => _closeTopicSetup(ref),
@@ -60,37 +44,63 @@ class _MainScreenState extends State<MainScreen> {
               const _AppBackdrop(),
               Positioned.fill(
                 child: IndexedStack(
-                  index: _selectedIndex,
-                  children: [for (final tab in _tabs) tab.screen],
+                  index: selectedIndex,
+                  children: [for (final tab in tabs) tab.screen],
                 ),
               ),
             ],
           ),
           bottomNavigationBar: _BottomNav(
-            selectedIndex: _selectedIndex,
-            tabs: _tabs,
-            onDestinationSelected: (index) {
-              if (index == 1) {
-                // IndexedStack keeps DiscoverScreen alive, so explicitly
-                // reload local progress whenever the tab is opened again.
-                ref.invalidate(progressDashboardProvider);
-                ref.invalidate(topicProgressProvider);
-                ref.invalidate(vocabularyCollectionProvider);
-              }
-              if (index == 3) {
-                ref.invalidate(profileStatisticsProvider);
-                ref.invalidate(topicProgressProvider);
-              }
-              setState(() => _selectedIndex = index);
-            },
+            selectedIndex: selectedIndex,
+            tabs: tabs,
+            onDestinationSelected: (index) => _selectTab(ref, index),
           ),
         );
       },
     );
   }
 
+  List<_MainTab> _buildTabs(WidgetRef ref) => [
+    const _MainTab(
+      label: 'Học tập',
+      icon: Icons.menu_book_outlined,
+      screen: HomeScreen(),
+    ),
+    const _MainTab(
+      label: 'Tiến độ',
+      icon: Icons.bar_chart_outlined,
+      screen: DiscoverScreen(),
+    ),
+    // Temporarily hidden until the challenge flow is ready.
+    // const _MainTab(
+    //   label: 'Thử thách',
+    //   icon: Icons.shield_outlined,
+    //   screen: MessagesScreen(),
+    // ),
+    _MainTab(
+      label: 'Cá nhân',
+      screen: ProfileScreen(onViewProgress: () => _selectTab(ref, 1)),
+      profile: true,
+    ),
+  ];
+
+  void _selectTab(WidgetRef ref, int index) {
+    if (index == 1) {
+      // IndexedStack keeps DiscoverScreen alive, so explicitly reload local
+      // progress whenever the tab is opened again.
+      ref.invalidate(progressDashboardProvider);
+      ref.invalidate(topicProgressProvider);
+      ref.invalidate(vocabularyCollectionProvider);
+    }
+    if (index == 2) {
+      ref.invalidate(profileStatisticsProvider);
+      ref.invalidate(topicProgressProvider);
+    }
+    setState(() => _selectedIndex = index);
+  }
+
   void _closeTopicSetup(WidgetRef ref) {
-    ref.read(topicSetupStartAtTopicsProvider.notifier).state = false;
+    ref.read(topicSetupStartAtTopicsProvider.notifier).state = true;
     ref.read(topicSetupOpenProvider.notifier).state = false;
   }
 }

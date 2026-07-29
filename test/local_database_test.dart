@@ -81,4 +81,18 @@ void main() {
       7058: [1536, 5731, 7523],
     });
   });
+
+  test('stores and reads the local user profile', () async {
+    await database.saveUserProfile(
+      name: 'Nguyễn An',
+      email: 'an@example.com',
+      avatarPath: '/app/documents/profile/avatar.jpg',
+    );
+
+    final profile = await database.loadUserProfile();
+
+    expect(profile?.name, 'Nguyễn An');
+    expect(profile?.email, 'an@example.com');
+    expect(profile?.avatarPath, '/app/documents/profile/avatar.jpg');
+  });
 }

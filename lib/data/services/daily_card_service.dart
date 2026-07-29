@@ -59,7 +59,7 @@ class DailyCardSnapshot {
 /// Reads the small, day-scoped model used by the Home Daily Card.
 ///
 /// The app does not have a settings use case yet, so the learn goal falls back
-/// to the same 8-word starting goal used by the onboarding UI.
+/// to the same 8-word starting goal used by the learning-filter UI.
 class DailyCardService {
   DailyCardService(this._database);
 

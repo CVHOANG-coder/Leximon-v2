@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -9,6 +11,7 @@ import '../../../data/services/progress_dashboard_service.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../vocabulary_collection/vocabulary_collection_screen.dart';
+import '../word_study/word_study_screen.dart';
 
 class DiscoverScreen extends ConsumerWidget {
   const DiscoverScreen({super.key});
@@ -29,207 +32,230 @@ class DiscoverScreen extends ConsumerWidget {
 
     return SafeArea(
       bottom: false,
-      child: CustomScrollView(
-        slivers: [
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 14, 18, 22),
-            sliver: const SliverToBoxAdapter(child: _ProgressHeader()),
+      child: Column(
+        children: [
+          const Padding(
+            padding: EdgeInsets.fromLTRB(18, 14, 18, 22),
+            child: _ProgressHeader(),
           ),
-          SliverPadding(
-            padding: const EdgeInsets.symmetric(horizontal: 18),
-            sliver: SliverToBoxAdapter(
-              child: _ProgressHero(
-                dashboard: dashboard,
-                totalWords: totalWords,
-              ),
-            ),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(
-              child: LeximonSurface(
-                child: Column(
-                  children: [
-                    const SectionHeader(
-                      kicker: 'Mastery board',
-                      title: 'Phân tầng vốn từ',
-                      action: 'Xem chi tiết',
-                    ),
-                    const SizedBox(height: 16),
-                    _MasteryCard(
-                      title: 'Đã nắm chắc',
-                      value:
-                          '${collection?.countFor(VocabularyCollectionStatus.mastered) ?? 0}',
-                      body: 'Từ đã đúng nhiều lần và nhớ ổn định',
-                      color: AppColors.green,
-                      onTap: () => _openCollection(
-                        context,
-                        VocabularyCollectionStatus.mastered,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    _MasteryCard(
-                      title: 'Đang ôn',
-                      value:
-                          '${collection?.countFor(VocabularyCollectionStatus.reviewing) ?? 0}',
-                      body: 'Cần lặp lại theo lịch SRS trong 2 ngày tới',
-                      color: AppColors.primary,
-                      onTap: () => _openCollection(
-                        context,
-                        VocabularyCollectionStatus.reviewing,
-                      ),
-                    ),
-                    const SizedBox(height: 10),
-                    _MasteryCard(
-                      title: 'Cần luyện thêm',
-                      value:
-                          '${collection?.countFor(VocabularyCollectionStatus.needsPractice) ?? 0}',
-                      body: 'Những từ bạn thường nhầm hoặc mất nhiều thời gian',
-                      color: AppColors.orange,
-                      onTap: () => _openCollection(
-                        context,
-                        VocabularyCollectionStatus.needsPractice,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(
-              child: LeximonSurface(
-                child: Column(
-                  children: [
-                    const SectionHeader(
-                      kicker: 'Rhythm tracker',
-                      title: 'Nhịp học 7 ngày',
-                      action: 'Theo tuần',
-                    ),
-                    const SizedBox(height: 18),
-                    _ActivityChart(values: dashboard.weekActivityRatios),
-                    const SizedBox(height: 18),
-                    Container(
-                      padding: const EdgeInsets.all(12),
-                      decoration: BoxDecoration(
-                        color: AppColors.surfaceBlue,
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                      child: Row(
-                        children: [
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  '${dashboard.weekSessionCount} phiên học',
-                                  style: TextStyle(fontWeight: FontWeight.w800),
+          Expanded(
+            child: CustomScrollView(
+              slivers: [
+                SliverPadding(
+                  padding: const EdgeInsets.symmetric(horizontal: 18),
+                  sliver: SliverToBoxAdapter(
+                    child: _ProgressHero(
+                      dashboard: dashboard,
+                      totalWords: totalWords,
+                      onOpenVocabulary: topics.isEmpty
+                          ? null
+                          : () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute<void>(
+                                  builder: (_) =>
+                                      WordStudyScreen(topic: topics.first),
                                 ),
-                                SizedBox(height: 4),
+                              );
+                            },
+                    ),
+                  ),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                  sliver: SliverToBoxAdapter(
+                    child: LeximonSurface(
+                      child: Column(
+                        children: [
+                          const SectionHeader(
+                            kicker: 'Mastery board',
+                            title: 'Phân tầng vốn từ',
+                            action: 'Xem chi tiết',
+                          ),
+                          const SizedBox(height: 16),
+                          _MasteryCard(
+                            title: 'Đã nắm chắc',
+                            value:
+                                '${collection?.countFor(VocabularyCollectionStatus.mastered) ?? 0}',
+                            body: 'Từ đã đúng nhiều lần và nhớ ổn định',
+                            color: AppColors.green,
+                            onTap: () => _openCollection(
+                              context,
+                              VocabularyCollectionStatus.mastered,
+                            ),
+                          ),
+                          const SizedBox(height: 10),
+                          _MasteryCard(
+                            title: 'Đang ôn',
+                            value:
+                                '${collection?.countFor(VocabularyCollectionStatus.reviewing) ?? 0}',
+                            body: 'Cần lặp lại theo lịch SRS trong 2 ngày tới',
+                            color: AppColors.primary,
+                            onTap: () => _openCollection(
+                              context,
+                              VocabularyCollectionStatus.reviewing,
+                            ),
+                          ),
+                          const SizedBox(height: 10),
+                          _MasteryCard(
+                            title: 'Cần luyện thêm',
+                            value:
+                                '${collection?.countFor(VocabularyCollectionStatus.needsPractice) ?? 0}',
+                            body:
+                                'Những từ bạn thường nhầm hoặc mất nhiều thời gian',
+                            color: AppColors.orange,
+                            onTap: () => _openCollection(
+                              context,
+                              VocabularyCollectionStatus.needsPractice,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                  sliver: SliverToBoxAdapter(
+                    child: LeximonSurface(
+                      child: Column(
+                        children: [
+                          const SectionHeader(
+                            kicker: 'Rhythm tracker',
+                            title: 'Nhịp học 7 ngày',
+                            action: 'Theo tuần',
+                          ),
+                          const SizedBox(height: 18),
+                          _ActivityChart(values: dashboard.weekActivityRatios),
+                          const SizedBox(height: 18),
+                          Container(
+                            padding: const EdgeInsets.all(12),
+                            decoration: BoxDecoration(
+                              color: AppColors.surfaceBlue,
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            child: Row(
+                              children: [
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        '${dashboard.weekSessionCount} phiên học',
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.w800,
+                                        ),
+                                      ),
+                                      SizedBox(height: 4),
+                                      Text(
+                                        '${dashboard.weekActivityTotal} lượt từ được ghi nhận trong tuần này.',
+                                        style: TextStyle(
+                                          color: AppColors.textSecondary,
+                                          fontSize: 10,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
                                 Text(
-                                  '${dashboard.weekActivityTotal} lượt từ được ghi nhận trong tuần này.',
+                                  dashboard.currentStreak > 0
+                                      ? 'Giữ chuỗi'
+                                      : 'Bắt đầu học',
                                   style: TextStyle(
-                                    color: AppColors.textSecondary,
+                                    color: AppColors.primary,
+                                    fontWeight: FontWeight.w800,
                                     fontSize: 10,
                                   ),
                                 ),
                               ],
                             ),
                           ),
-                          Text(
-                            dashboard.currentStreak > 0
-                                ? 'Giữ chuỗi'
-                                : 'Bắt đầu học',
-                            style: TextStyle(
-                              color: AppColors.primary,
-                              fontWeight: FontWeight.w800,
-                              fontSize: 10,
-                            ),
-                          ),
                         ],
                       ),
                     ),
-                  ],
+                  ),
                 ),
-              ),
-            ),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
-            sliver: SliverToBoxAdapter(
-              child: LeximonSurface(
-                child: Column(
-                  children: [
-                    const SectionHeader(
-                      kicker: 'Learning map',
-                      title: 'Bản đồ tiến độ chủ đề',
-                      action: 'Tất cả chủ đề',
-                    ),
-                    const SizedBox(height: 16),
-                    if (topics.isEmpty)
-                      const Padding(
-                        padding: EdgeInsets.all(20),
-                        child: CircularProgressIndicator(),
-                      )
-                    else
-                      ...topics
-                          .take(4)
-                          .toList()
-                          .asMap()
-                          .entries
-                          .map(
-                            (entry) => _JourneyItem(
-                              index: entry.key,
-                              topic: entry.value,
-                              progress: progressByTopicId[entry.value.id] ?? 0,
-                            ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
+                  sliver: SliverToBoxAdapter(
+                    child: LeximonSurface(
+                      child: Column(
+                        children: [
+                          const SectionHeader(
+                            kicker: 'Learning map',
+                            title: 'Bản đồ tiến độ chủ đề',
+                            action: 'Tất cả chủ đề',
                           ),
-                  ],
-                ),
-              ),
-            ),
-          ),
-          SliverPadding(
-            padding: const EdgeInsets.fromLTRB(18, 18, 18, 30),
-            sliver: SliverToBoxAdapter(
-              child: LeximonSurface(
-                child: Column(
-                  children: [
-                    SectionHeader(
-                      kicker: 'Monthly pulse',
-                      title: 'Dấu chân tháng này',
-                      action: dashboard.monthLabel,
+                          const SizedBox(height: 16),
+                          if (topics.isEmpty)
+                            const Padding(
+                              padding: EdgeInsets.all(20),
+                              child: CircularProgressIndicator(),
+                            )
+                          else
+                            ...topics
+                                .take(4)
+                                .toList()
+                                .asMap()
+                                .entries
+                                .map(
+                                  (entry) => _JourneyItem(
+                                    index: entry.key,
+                                    topic: entry.value,
+                                    progress:
+                                        progressByTopicId[entry.value.id] ?? 0,
+                                  ),
+                                ),
+                        ],
+                      ),
                     ),
-                    const SizedBox(height: 18),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              '${dashboard.activeDaysThisMonth} ngày hoạt động',
-                              style: TextStyle(fontWeight: FontWeight.w800),
-                            ),
-                            SizedBox(height: 4),
-                            Text(
-                              'Bạn bỏ lỡ ${dashboard.missedDaysThisMonth} ngày trong tháng này.',
-                              style: TextStyle(
-                                color: AppColors.textSecondary,
-                                fontSize: 10,
+                  ),
+                ),
+                SliverPadding(
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 30),
+                  sliver: SliverToBoxAdapter(
+                    child: LeximonSurface(
+                      child: Column(
+                        children: [
+                          SectionHeader(
+                            kicker: 'Monthly pulse',
+                            title: 'Dấu chân tháng này',
+                            action: dashboard.monthLabel,
+                          ),
+                          const SizedBox(height: 18),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    '${dashboard.activeDaysThisMonth} ngày hoạt động',
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.w800,
+                                    ),
+                                  ),
+                                  SizedBox(height: 4),
+                                  Text(
+                                    'Bạn bỏ lỡ ${dashboard.missedDaysThisMonth} ngày trong tháng này.',
+                                    style: TextStyle(
+                                      color: AppColors.textSecondary,
+                                      fontSize: 10,
+                                    ),
+                                  ),
+                                ],
                               ),
-                            ),
-                          ],
-                        ),
-                        _HeatLegend(),
-                      ],
+                              _HeatLegend(),
+                            ],
+                          ),
+                          const SizedBox(height: 18),
+                          _Heatmap(values: dashboard.monthActivityLevels),
+                        ],
+                      ),
                     ),
-                    const SizedBox(height: 18),
-                    _Heatmap(values: dashboard.monthActivityLevels),
-                  ],
+                  ),
                 ),
-              ),
+              ],
             ),
           ),
         ],
@@ -289,6 +315,8 @@ class _ProgressHeader extends StatelessWidget {
                   fontSize: 11,
                   height: 1.4,
                 ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
               ),
             ],
           ),
@@ -300,25 +328,34 @@ class _ProgressHeader extends StatelessWidget {
 }
 
 class _ProgressHero extends StatelessWidget {
-  const _ProgressHero({required this.dashboard, required this.totalWords});
+  const _ProgressHero({
+    required this.dashboard,
+    required this.totalWords,
+    this.onOpenVocabulary,
+  });
 
   final ProgressDashboardSnapshot dashboard;
   final int totalWords;
+  final VoidCallback? onOpenVocabulary;
 
   @override
   Widget build(BuildContext context) {
+    final libraryWords = dashboard.totalWords > 0
+        ? dashboard.totalWords
+        : totalWords;
+
     return LeximonSurface(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Row(
+          Row(
             children: [
-              Expanded(
+              const Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'TỔNG QUAN TUẦN NÀY',
+                      'TIẾN ĐỘ TUẦN NÀY',
                       style: TextStyle(
                         color: Color(0xFF7990B0),
                         fontSize: 9,
@@ -328,7 +365,7 @@ class _ProgressHero extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      'Theo dõi vốn từ',
+                      'Vốn từ của bạn',
                       style: TextStyle(
                         fontSize: 21,
                         fontWeight: FontWeight.w800,
@@ -338,54 +375,128 @@ class _ProgressHero extends StatelessWidget {
                   ],
                 ),
               ),
-              Text(
-                'Báo cáo',
-                style: TextStyle(
-                  color: AppColors.primary,
-                  fontSize: 10,
-                  fontWeight: FontWeight.w800,
+              TextButton(
+                onPressed: () {},
+                style: TextButton.styleFrom(
+                  foregroundColor: AppColors.primary,
+                  backgroundColor: AppColors.surfaceBlue,
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 8,
+                  ),
+                  minimumSize: Size.zero,
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(99),
+                  ),
                 ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 16),
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Expanded(child: _ProgressCard(dashboard: dashboard)),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
+                child: const Row(
+                  mainAxisSize: MainAxisSize.min,
                   children: [
-                    _SmallStat(
-                      iconAsset: 'assets/svgs/streak.svg',
-                      title: '${dashboard.currentStreak} ngày',
-                      body: 'Chuỗi học liên tiếp',
-                      style: _SmallStatStyle.streak,
+                    Text(
+                      'Báo cáo',
+                      style: TextStyle(
+                        fontSize: 10,
+                        fontWeight: FontWeight.w800,
+                      ),
                     ),
-                    SizedBox(height: 10),
-                    _SmallStat(
-                      iconAsset: 'assets/svgs/book.svg',
-                      title: '${dashboard.progressedWords} từ',
-                      body: 'Đã có tiến độ',
-                      style: _SmallStatStyle.progress,
-                    ),
-                    SizedBox(height: 10),
-                    _SmallStat(
-                      iconAsset: 'assets/svgs/thunder.svg',
-                      title: '${dashboard.weekSessionCount} phiên',
-                      body: 'Đã hoàn thành tuần này',
-                      style: _SmallStatStyle.sessions,
-                    ),
+                    SizedBox(width: 3),
+                    Icon(Icons.arrow_forward_rounded, size: 13),
                   ],
                 ),
               ),
             ],
           ),
-          const SizedBox(height: 8),
-          Text(
-            '$totalWords từ đang có trong thư viện Leximon',
-            style: const TextStyle(color: AppColors.textMuted, fontSize: 9),
+          const SizedBox(height: 16),
+          _ProgressCard(dashboard: dashboard, totalWords: libraryWords),
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              Expanded(
+                child: _WeeklyMetric(
+                  iconAsset: 'assets/svgs/streak.svg',
+                  value: '${dashboard.currentStreak}',
+                  label: 'Chuỗi ngày',
+                  accent: const Color(0xFFFF5F72),
+                  background: const Color(0xFFFFF1F3),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: _WeeklyMetric(
+                  iconAsset: 'assets/svgs/book.svg',
+                  value: '${dashboard.masteredWords}',
+                  label: 'Đã thuộc',
+                  accent: AppColors.primary,
+                  background: const Color(0xFFEEF3FF),
+                ),
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: _WeeklyMetric(
+                  iconAsset: 'assets/svgs/thunder.svg',
+                  value: '${dashboard.weekSessionCount}',
+                  label: 'Phiên tuần',
+                  accent: const Color(0xFFE6A600),
+                  background: const Color(0xFFFFF8E3),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          Material(
+            color: const Color(0xFFF5F8FD),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(14),
+              side: const BorderSide(color: AppColors.divider),
+            ),
+            clipBehavior: Clip.antiAlias,
+            child: InkWell(
+              key: const Key('open-vocabulary-library'),
+              onTap: onOpenVocabulary,
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 12,
+                  vertical: 10,
+                ),
+                child: Row(
+                  children: [
+                    SvgPicture.asset(
+                      'assets/svgs/word.svg',
+                      width: 28,
+                      height: 28,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Text.rich(
+                        TextSpan(
+                          text: 'Kho từ vựng  ',
+                          children: [
+                            TextSpan(
+                              text: '$libraryWords từ',
+                              style: const TextStyle(
+                                color: AppColors.textPrimary,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ],
+                        ),
+                        style: const TextStyle(
+                          color: AppColors.textSecondary,
+                          fontSize: 10,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                    const Icon(
+                      Icons.chevron_right_rounded,
+                      color: AppColors.textMuted,
+                      size: 18,
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ),
         ],
       ),
@@ -394,144 +505,288 @@ class _ProgressHero extends StatelessWidget {
 }
 
 class _ProgressCard extends StatelessWidget {
-  const _ProgressCard({required this.dashboard});
+  const _ProgressCard({required this.dashboard, required this.totalWords});
 
   final ProgressDashboardSnapshot dashboard;
+  final int totalWords;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(24),
-        gradient: const LinearGradient(
-          colors: [AppColors.primaryDark, AppColors.primary, Color(0xFF1D8FFF)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
+        borderRadius: BorderRadius.circular(22),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x361258FF),
-            blurRadius: 18,
-            offset: Offset(0, 9),
+            color: Color(0x33155CFF),
+            blurRadius: 20,
+            offset: Offset(0, 10),
           ),
         ],
       ),
-      child: Column(
-        children: [
-          const SizedBox(height: 4),
-          ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 150),
-            child: AspectRatio(
-              aspectRatio: 1,
-              child: Stack(
-                alignment: Alignment.center,
-                children: [
-                  SizedBox.expand(
-                    child: CircularProgressIndicator(
-                      key: const Key('vocabulary-progress-ring'),
-                      value: dashboard.overallProgress,
-                      strokeWidth: 13,
-                      backgroundColor: const Color(0x2BFFFFFF),
-                      valueColor: const AlwaysStoppedAnimation(AppColors.cyan),
-                    ),
-                  ),
-                  Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        '${dashboard.progressedWords}',
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.w800,
-                        ),
-                      ),
-                      const Text(
-                        'TỪ',
-                        style: TextStyle(
-                          color: Colors.white70,
-                          fontSize: 11,
-                          fontWeight: FontWeight.w800,
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(22),
+        child: Container(
+          // padding: const EdgeInsets.fromLTRB(16, 16, 16, 14),
+          decoration: const BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                AppColors.primaryDark,
+                AppColors.primary,
+                Color(0xFF238CFF),
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
+          child: Stack(
+            children: [
+              const Positioned(
+                right: -42,
+                top: -66,
+                child: _GlowOrb(size: 150, color: Color(0x2456D8FF)),
               ),
-            ),
+              const Positioned(
+                left: 88,
+                bottom: -82,
+                child: _GlowOrb(size: 130, color: Color(0x1611E5C5)),
+              ),
+              Container(
+                padding: const EdgeInsets.fromLTRB(16, 16, 16, 14),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Container(
+                                    width: 34,
+                                    height: 34,
+                                    padding: const EdgeInsets.all(7),
+                                    decoration: BoxDecoration(
+                                      color: Colors.white.withValues(
+                                        alpha: .16,
+                                      ),
+                                      borderRadius: BorderRadius.circular(11),
+                                      border: Border.all(
+                                        color: Colors.white.withValues(
+                                          alpha: .18,
+                                        ),
+                                      ),
+                                    ),
+                                    child: SvgPicture.asset(
+                                      'assets/svgs/word_learn_done.svg',
+                                    ),
+                                  ),
+                                  const SizedBox(width: 9),
+                                  const Expanded(
+                                    child: Text(
+                                      'VỐN TỪ ĐÃ TIẾN BỘ',
+                                      maxLines: 1,
+                                      overflow: TextOverflow.ellipsis,
+                                      style: TextStyle(
+                                        color: Color(0xFFDCEAFF),
+                                        fontSize: 9,
+                                        fontWeight: FontWeight.w800,
+                                        letterSpacing: .8,
+                                      ),
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              const SizedBox(height: 10),
+                              Text.rich(
+                                TextSpan(
+                                  text: '${dashboard.progressedWords}',
+                                  children: const [
+                                    TextSpan(
+                                      text: ' từ',
+                                      style: TextStyle(
+                                        fontSize: 17,
+                                        fontWeight: FontWeight.w700,
+                                        letterSpacing: -.4,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                style: const TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 32,
+                                  height: 1,
+                                  fontWeight: FontWeight.w800,
+                                  letterSpacing: -1.2,
+                                ),
+                              ),
+                              const SizedBox(height: 7),
+                              Text(
+                                '${dashboard.masteredWords} từ đã thuộc hoàn toàn',
+                                style: const TextStyle(
+                                  color: Color(0xFFC7DCFF),
+                                  fontSize: 9,
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        const SizedBox(width: 14),
+                        SizedBox(
+                          width: 92,
+                          height: 92,
+                          child: Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              const Positioned.fill(
+                                child: DecoratedBox(
+                                  decoration: BoxDecoration(
+                                    color: Color(0x0FFFFFFF),
+                                    shape: BoxShape.circle,
+                                  ),
+                                ),
+                              ),
+                              Positioned.fill(
+                                child: Padding(
+                                  padding: const EdgeInsets.all(4),
+                                  child: CircularProgressIndicator(
+                                    key: const Key('vocabulary-progress-ring'),
+                                    value: dashboard.overallProgress,
+                                    strokeWidth: 8,
+                                    strokeCap: StrokeCap.round,
+                                    backgroundColor: const Color(0x3DFFFFFF),
+                                    valueColor: const AlwaysStoppedAnimation(
+                                      AppColors.cyan,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Column(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  SizedBox(
+                                    width: 62,
+                                    child: FittedBox(
+                                      key: const Key(
+                                        'vocabulary-progress-percentage',
+                                      ),
+                                      fit: BoxFit.scaleDown,
+                                      child: Text(
+                                        '${(dashboard.overallProgress * 100).toStringAsFixed(2)}%',
+                                        maxLines: 1,
+                                        style: const TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 19,
+                                          height: 1,
+                                          fontWeight: FontWeight.w800,
+                                          letterSpacing: -.5,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  const SizedBox(height: 4),
+                                  const Text(
+                                    'TỔNG',
+                                    style: TextStyle(
+                                      color: Color(0xFFBFD6FF),
+                                      fontSize: 8,
+                                      fontWeight: FontWeight.w800,
+                                      letterSpacing: .8,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 14),
+                    ProgressLine(value: dashboard.overallProgress, dark: true),
+                    const SizedBox(height: 8),
+                    Row(
+                      children: [
+                        Text(
+                          '${dashboard.progressedWords}/$totalWords',
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontSize: 9,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                        const SizedBox(width: 5),
+                        const Expanded(
+                          child: Text(
+                            'từ trong lộ trình',
+                            style: TextStyle(
+                              color: Color(0xFFBFD6FF),
+                              fontSize: 9,
+                            ),
+                          ),
+                        ),
+                        const Text(
+                          'Keep going!',
+                          style: TextStyle(
+                            color: AppColors.cyan,
+                            fontSize: 9,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: 8),
-          Text(
-            '${(dashboard.overallProgress * 100).round()}% vốn từ đã tiến bộ',
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 10,
-              fontWeight: FontWeight.w700,
-            ),
-          ),
-          const SizedBox(height: 7),
-          ProgressLine(value: dashboard.overallProgress, dark: true),
-          const SizedBox(height: 7),
-          Text(
-            '${dashboard.masteredWords} từ đã học hoàn tất',
-            style: TextStyle(color: Colors.white70, fontSize: 9),
-          ),
-        ],
+        ),
       ),
     );
   }
 }
 
-class _SmallStat extends StatelessWidget {
-  const _SmallStat({
+class _WeeklyMetric extends StatelessWidget {
+  const _WeeklyMetric({
     required this.iconAsset,
-    required this.title,
-    required this.body,
-    required this.style,
+    required this.value,
+    required this.label,
+    required this.accent,
+    required this.background,
   });
+
   final String iconAsset;
-  final String title;
-  final String body;
-  final _SmallStatStyle style;
+  final String value;
+  final String label;
+  final Color accent;
+  final Color background;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+      padding: const EdgeInsets.fromLTRB(9, 10, 8, 10),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: style.backgroundColors,
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-        borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: style.borderColor, width: .8),
+        color: background,
+        borderRadius: BorderRadius.circular(17),
+        border: Border.all(color: Colors.white, width: 1.2),
         boxShadow: [
           BoxShadow(
-            color: style.shadowColor,
-            blurRadius: 12,
-            offset: const Offset(0, 5),
+            color: accent.withValues(alpha: .1),
+            blurRadius: 10,
+            offset: const Offset(0, 4),
           ),
         ],
       ),
-      child: Row(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
-            width: 34,
-            height: 34,
+            width: 42,
+            height: 42,
             padding: const EdgeInsets.all(6),
             decoration: BoxDecoration(
-              color: style.iconBackgroundColor,
-              borderRadius: BorderRadius.circular(11),
-              border: Border.all(color: const Color(0xBFFFFFFF), width: .8),
-              boxShadow: const [
-                BoxShadow(
-                  color: Color(0x140D1B3A),
-                  blurRadius: 7,
-                  offset: Offset(0, 3),
-                ),
-              ],
+              color: Colors.white.withValues(alpha: .86),
+              borderRadius: BorderRadius.circular(10),
             ),
             child: SvgPicture.asset(
               iconAsset,
@@ -539,32 +794,26 @@ class _SmallStat extends StatelessWidget {
               fit: BoxFit.contain,
             ),
           ),
-          const SizedBox(width: 8),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: TextStyle(
-                    color: style.titleColor,
-                    fontSize: 12,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: -.15,
-                  ),
-                ),
-                const SizedBox(height: 3),
-                Text(
-                  body,
-                  maxLines: 2,
-                  style: TextStyle(
-                    color: style.bodyColor,
-                    fontSize: 8,
-                    height: 1.2,
-                    fontWeight: FontWeight.w500,
-                  ),
-                ),
-              ],
+          const SizedBox(height: 9),
+          Text(
+            value,
+            style: const TextStyle(
+              color: AppColors.textPrimary,
+              fontSize: 17,
+              height: 1,
+              fontWeight: FontWeight.w800,
+              letterSpacing: -.4,
+            ),
+          ),
+          const SizedBox(height: 5),
+          Text(
+            label,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: const TextStyle(
+              color: AppColors.textSecondary,
+              fontSize: 8,
+              fontWeight: FontWeight.w600,
             ),
           ),
         ],
@@ -573,49 +822,36 @@ class _SmallStat extends StatelessWidget {
   }
 }
 
-class _SmallStatStyle {
-  const _SmallStatStyle({
-    required this.backgroundColors,
-    required this.borderColor,
-    required this.iconBackgroundColor,
-    required this.titleColor,
-    required this.bodyColor,
-    required this.shadowColor,
-  });
+class _GlowOrb extends StatelessWidget {
+  const _GlowOrb({required this.size, required this.color});
 
-  static const streak = _SmallStatStyle(
-    backgroundColors: [Color(0xFFFFF2F5), Color(0xFFFFE5EB)],
-    borderColor: Color(0xFFFFCBD7),
-    iconBackgroundColor: Color(0xE6FFFFFF),
-    titleColor: Color(0xFF642A38),
-    bodyColor: Color(0xFFA46171),
-    shadowColor: Color(0x1FFF5D7D),
-  );
+  final double size;
+  final Color color;
 
-  static const progress = _SmallStatStyle(
-    backgroundColors: [Color(0xFFF4F1FF), Color(0xFFE7F3FF)],
-    borderColor: Color(0xFFD8D7FF),
-    iconBackgroundColor: Color(0xE6FFFFFF),
-    titleColor: Color(0xFF303762),
-    bodyColor: Color(0xFF727BA2),
-    shadowColor: Color(0x1F6672DA),
-  );
+  @override
+  Widget build(BuildContext context) {
+    const blurPadding = 48.0;
 
-  static const sessions = _SmallStatStyle(
-    backgroundColors: [Color(0xFFFFF9DE), Color(0xFFFFEDB9)],
-    borderColor: Color(0xFFFFDE8B),
-    iconBackgroundColor: Color(0xE6FFFFFF),
-    titleColor: Color(0xFF65490B),
-    bodyColor: Color(0xFF9A762D),
-    shadowColor: Color(0x24DEA219),
-  );
-
-  final List<Color> backgroundColors;
-  final Color borderColor;
-  final Color iconBackgroundColor;
-  final Color titleColor;
-  final Color bodyColor;
-  final Color shadowColor;
+    return SizedBox(
+      width: size,
+      height: size,
+      child: OverflowBox(
+        maxWidth: size + blurPadding * 2,
+        maxHeight: size + blurPadding * 2,
+        child: ImageFiltered(
+          imageFilter: ImageFilter.blur(sigmaX: 24, sigmaY: 24),
+          child: Padding(
+            padding: const EdgeInsets.all(blurPadding),
+            child: Container(
+              width: size,
+              height: size,
+              decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
 }
 
 class _MasteryCard extends StatelessWidget {
@@ -834,7 +1070,7 @@ class _HeatLegend extends StatelessWidget {
   Widget build(BuildContext context) => Row(
     children: [
       for (final color in [
-        AppColors.surfaceSoft,
+        const Color(0xFFE1E9F4),
         const Color(0xFFB8D0FF),
         AppColors.primary,
       ]) ...[
@@ -845,6 +1081,9 @@ class _HeatLegend extends StatelessWidget {
           decoration: BoxDecoration(
             color: color,
             borderRadius: BorderRadius.circular(3),
+            border: color == const Color(0xFFE1E9F4)
+                ? Border.all(color: const Color(0xFFCFDAE9))
+                : null,
           ),
         ),
         const SizedBox(width: 2),
@@ -861,7 +1100,7 @@ class _Heatmap extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const colors = [
-      AppColors.surfaceSoft,
+      Color(0xFFE1E9F4),
       Color(0xFFD6E4FF),
       Color(0xFF8EB7FF),
       AppColors.primary,
@@ -878,6 +1117,9 @@ class _Heatmap extends StatelessWidget {
               decoration: BoxDecoration(
                 color: colors[level],
                 borderRadius: BorderRadius.circular(4),
+                border: level == 0
+                    ? Border.all(color: const Color(0xFFCFDAE9))
+                    : null,
               ),
             ),
           )

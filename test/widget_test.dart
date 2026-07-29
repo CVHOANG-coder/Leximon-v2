@@ -31,13 +31,10 @@ void main() {
 
     expect(find.text('Cá nhân hóa lộ trình'), findsOneWidget);
     expect(find.text('Học tập'), findsNothing);
-    expect(find.text('Sơ cấp'), findsWidgets);
-
-    await tester.tap(find.text('Tiếp tục'));
-    await tester.pump(const Duration(milliseconds: 250));
     expect(find.text('Những chủ đề nào phù hợp với bạn?'), findsOneWidget);
+    expect(find.text('Bước 2 / 2'), findsNothing);
 
-    await tester.tap(find.text('Hoàn tất'));
+    await tester.tap(find.text('Áp dụng'));
     await tester.pump(const Duration(milliseconds: 250));
     expect(find.text('Học tập'), findsOneWidget);
     expect(find.text('Chọn chủ đề để học'), findsOneWidget);

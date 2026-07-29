@@ -13,6 +13,7 @@ import '../../../data/local/app_database.dart';
 import '../../../data/models/topic.dart';
 import '../../../data/services/daily_card_service.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../learning_filter/learning_filter_screen.dart';
 import '../review_practice/review_practice_screen.dart';
 
 enum _WordState { newWord, learning, known }
@@ -41,11 +42,20 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
   final List<String> _selectedWordKeys = [];
   final Map<String, Map<String, dynamic>> _selectedWords = {};
   bool _openingPractice = false;
+  String? _lastAutoSpokenCard;
+  int _autoSpeechScheduleId = 0;
 
   @override
   void initState() {
     super.initState();
     _activeTopicOrder = widget.topic.order;
+  }
+
+  @override
+  void dispose() {
+    _autoSpeechScheduleId++;
+    unawaited(TextToSpeechService.instance.stop());
+    super.dispose();
   }
 
   Topic _activeTopic(List<Topic> topics) {
@@ -298,10 +308,39 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     );
   }
 
+  void _scheduleAutoPronunciation({
+    required Topic topic,
+    required List<Map<String, dynamic>> words,
+    required int index,
+    required bool dataReady,
+  }) {
+    if (!dataReady) return;
+    if (words.isEmpty) {
+      _lastAutoSpokenCard = null;
+      return;
+    }
+
+    final safeIndex = index.clamp(0, words.length - 1).toInt();
+    final word = words[safeIndex];
+    final writing = (word['writing'] as String? ?? '').trim();
+    if (writing.isEmpty) return;
+    final wordIdentity = word['id'] ?? safeIndex;
+    final cardIdentity = '${topic.id}:$wordIdentity:$writing';
+    if (_lastAutoSpokenCard == cardIdentity) return;
+
+    _lastAutoSpokenCard = cardIdentity;
+    final scheduleId = ++_autoSpeechScheduleId;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted || scheduleId != _autoSpeechScheduleId) return;
+      unawaited(TextToSpeechService.instance.speakLatest(writing));
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final databaseTopics = ref.watch(topicsProvider).valueOrNull;
     final persistedProgress = ref.watch(wordProgressProvider).valueOrNull;
+    final dataReady = databaseTopics != null && persistedProgress != null;
     if (persistedProgress != null) {
       _persistedWordStates = {
         for (final entry in persistedProgress.entries)
@@ -319,6 +358,12 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     final topics = _initialStudyTopics ?? _topicsForStudy(databaseTopics);
     final topic = _activeTopic(topics);
     final words = topic.words;
+    _scheduleAutoPronunciation(
+      topic: topic,
+      words: words,
+      index: _currentIndex,
+      dataReady: dataReady,
+    );
     final selectedCount = List<int>.generate(words.length, (index) => index)
         .where((index) => _selectedWordKeys.contains(_wordKey(topic, index)))
         .length;
@@ -338,7 +383,15 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
                     selectedCount: selectedCount,
                     totalCount: _maxSelectedWords,
                     onClose: () => Navigator.of(context).pop(),
-                    onSettings: () {},
+                    onSettings: () {
+                      Navigator.of(context).push<void>(
+                        MaterialPageRoute<void>(
+                          builder: (filterContext) => LearningFilterScreen(
+                            onExit: () => Navigator.of(filterContext).pop(),
+                          ),
+                        ),
+                      );
+                    },
                   ),
                 ),
                 const SizedBox(height: 14),
@@ -542,7 +595,7 @@ class _StudyIconButton extends StatelessWidget {
   }
 }
 
-class _TopicStrip extends StatelessWidget {
+class _TopicStrip extends StatefulWidget {
   const _TopicStrip({
     required this.topics,
     required this.activeOrder,
@@ -554,52 +607,103 @@ class _TopicStrip extends StatelessWidget {
   final ValueChanged<Topic> onSelected;
 
   @override
+  State<_TopicStrip> createState() => _TopicStripState();
+}
+
+class _TopicStripState extends State<_TopicStrip> {
+  final Map<int, GlobalKey> _topicKeys = {};
+
+  @override
+  void initState() {
+    super.initState();
+    _scheduleScrollTo(widget.activeOrder, animate: false);
+  }
+
+  @override
+  void didUpdateWidget(covariant _TopicStrip oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.activeOrder != widget.activeOrder ||
+        oldWidget.topics.length != widget.topics.length) {
+      _scheduleScrollTo(widget.activeOrder);
+    }
+  }
+
+  GlobalKey _keyFor(int topicOrder) {
+    return _topicKeys.putIfAbsent(
+      topicOrder,
+      () => GlobalKey(debugLabel: 'word-study-topic-$topicOrder'),
+    );
+  }
+
+  void _scheduleScrollTo(int topicOrder, {bool animate = true}) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final topicContext = _topicKeys[topicOrder]?.currentContext;
+      if (topicContext == null) return;
+      Scrollable.ensureVisible(
+        topicContext,
+        alignment: .5,
+        duration: animate ? const Duration(milliseconds: 220) : Duration.zero,
+        curve: Curves.easeOutCubic,
+      );
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 42,
-      child: ListView.separated(
+      child: SingleChildScrollView(
+        key: const Key('word-study-topic-strip'),
         padding: const EdgeInsets.symmetric(horizontal: 16),
         scrollDirection: Axis.horizontal,
-        itemCount: topics.length,
-        separatorBuilder: (_, index) => const SizedBox(width: 9),
-        itemBuilder: (context, index) {
-          final topic = topics[index];
-          final active = topic.order == activeOrder;
-          return GestureDetector(
-            onTap: () => onSelected(topic),
-            child: AnimatedContainer(
-              duration: const Duration(milliseconds: 180),
-              padding: const EdgeInsets.symmetric(horizontal: 15),
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                color: active ? Colors.white : const Color(0x1AFFFFFF),
-                borderRadius: BorderRadius.circular(99),
-                border: Border.all(
-                  color: active ? Colors.white : const Color(0x2EFFFFFF),
+        child: Row(
+          children: widget.topics.map((topic) {
+            final active = topic.order == widget.activeOrder;
+            return Padding(
+              padding: const EdgeInsets.only(right: 8),
+              child: GestureDetector(
+                key: _keyFor(topic.order),
+                onTap: () {
+                  widget.onSelected(topic);
+                  _scheduleScrollTo(topic.order);
+                },
+                child: AnimatedContainer(
+                  key: ValueKey('word-study-topic-card-${topic.order}'),
+                  duration: const Duration(milliseconds: 180),
+                  padding: const EdgeInsets.symmetric(horizontal: 15),
+                  alignment: Alignment.center,
+                  decoration: BoxDecoration(
+                    color: active ? Colors.white : const Color(0x1AFFFFFF),
+                    borderRadius: BorderRadius.circular(99),
+                    border: Border.all(
+                      color: active ? Colors.white : const Color(0x2EFFFFFF),
+                    ),
+                    boxShadow: active
+                        ? const [
+                            BoxShadow(
+                              color: Color(0x2B00184F),
+                              blurRadius: 18,
+                              offset: Offset(0, 8),
+                            ),
+                          ]
+                        : null,
+                  ),
+                  child: Text(
+                    active ? '★  ${topic.translated}' : topic.translated,
+                    style: TextStyle(
+                      color: active
+                          ? AppColors.primaryDark
+                          : const Color(0xD6FFFFFF),
+                      fontSize: 10,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
                 ),
-                boxShadow: active
-                    ? const [
-                        BoxShadow(
-                          color: Color(0x2B00184F),
-                          blurRadius: 18,
-                          offset: Offset(0, 8),
-                        ),
-                      ]
-                    : null,
               ),
-              child: Text(
-                active ? '★  ${topic.translated}' : topic.translated,
-                style: TextStyle(
-                  color: active
-                      ? AppColors.primaryDark
-                      : const Color(0xD6FFFFFF),
-                  fontSize: 10,
-                  fontWeight: FontWeight.w800,
-                ),
-              ),
-            ),
-          );
-        },
+            );
+          }).toList(),
+        ),
       ),
     );
   }
