@@ -117,6 +117,102 @@ void main() {
     },
   );
 
+  test(
+    'uses the configured words-per-day goal and freezes today plan',
+    () async {
+      final now = DateTime(2026, 7, 29, 12);
+      await database.batch((batch) {
+        batch.insertAll(database.wordModels, [
+          for (var id = 1; id <= 8; id++)
+            WordModelsCompanion.insert(
+              id: id,
+              topicId: 1,
+              writing: 'word$id',
+              translation: 'nghĩa $id',
+              isEnabled: true,
+              priority: 1,
+              level: 1,
+            ),
+        ]);
+        batch.insertAll(database.learningProgressModels, [
+          for (var id = 1; id <= 4; id++)
+            LearningProgressModelsCompanion.insert(
+              id: Value(id),
+              creationDate: now
+                  .subtract(const Duration(days: 2))
+                  .millisecondsSinceEpoch,
+              onFastBrain: const Value(true),
+              repetitionFastBrainDate: Value(now.millisecondsSinceEpoch - 1),
+              trainingError: const Value(2),
+            ),
+        ]);
+      });
+
+      final configuredService = DailyCardService(database, wordsPerDay: 4);
+      final firstCard = await configuredService.load(now: now);
+
+      expect(firstCard.tasks.map((task) => task.type), [
+        DailyTaskType.learn,
+        DailyTaskType.train,
+        DailyTaskType.difficult,
+      ]);
+      expect(firstCard.tasks.map((task) => task.count), everyElement(4));
+
+      final changedSettingService = DailyCardService(database, wordsPerDay: 8);
+      final reloadedCard = await changedSettingService.load(now: now);
+
+      expect(reloadedCard.tasks.map((task) => task.type), [
+        DailyTaskType.learn,
+        DailyTaskType.train,
+        DailyTaskType.difficult,
+      ]);
+      expect(reloadedCard.tasks.map((task) => task.count), everyElement(4));
+    },
+  );
+
+  test('offers additional Repeat only when a regular repeat is due', () async {
+    final now = DateTime(2026, 7, 29, 12);
+    await database
+        .into(database.wordModels)
+        .insert(
+          WordModelsCompanion.insert(
+            id: 1,
+            topicId: 1,
+            writing: 'word',
+            translation: 'nghĩa',
+            isEnabled: true,
+            priority: 1,
+            level: 1,
+          ),
+        );
+    await database
+        .into(database.learningProgressModels)
+        .insert(
+          LearningProgressModelsCompanion.insert(
+            id: const Value(1),
+            creationDate: now.millisecondsSinceEpoch,
+            learnedDate: Value(now.millisecondsSinceEpoch),
+            repetitionStep: const Value(1),
+            repetitionDate: Value(
+              now.add(const Duration(days: 1)).millisecondsSinceEpoch,
+            ),
+          ),
+        );
+
+    final beforeDue = await service.load(now: now);
+    expect(beforeDue.additionalTasks, isNot(contains(DailyTaskType.repeat)));
+
+    await (database.update(
+      database.learningProgressModels,
+    )..where((row) => row.id.equals(1))).write(
+      LearningProgressModelsCompanion(
+        repetitionDate: Value(now.millisecondsSinceEpoch - 1),
+      ),
+    );
+    final whenDue = await service.load(now: now);
+    expect(whenDue.additionalTasks, contains(DailyTaskType.repeat));
+  });
+
   final combinations =
       <
         ({

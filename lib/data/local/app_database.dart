@@ -432,6 +432,19 @@ class AppDatabase extends _$AppDatabase {
     return query.get();
   }
 
+  Future<void> incrementWordShowCount({
+    required int wordId,
+    required int topicId,
+  }) async {
+    await customUpdate(
+      'UPDATE "WordModel" '
+      'SET show_count = show_count + 1 '
+      'WHERE id = ? AND topic_id = ?',
+      variables: [Variable.withInt(wordId), Variable.withInt(topicId)],
+      updates: {wordModels},
+    );
+  }
+
   Future<Map<int, List<int>>> similarWordIdsFor(Iterable<int> wordIds) async {
     final ids = wordIds.toSet();
     if (ids.isEmpty) return const {};

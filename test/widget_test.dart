@@ -16,7 +16,18 @@ void main() {
   testWidgets('opens topic setup from Home and applies the selection', (
     tester,
   ) async {
-    await tester.pumpWidget(const ProviderScope(child: LeximonApp()));
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          applicationInitializationProvider.overrideWith(
+            (ref) async => AppStartupDestination.home,
+          ),
+        ],
+        child: const LeximonApp(),
+      ),
+    );
+    await tester.pump(const Duration(seconds: 1));
+    await tester.pump();
     await tester.pump(const Duration(seconds: 1));
 
     expect(find.text('Leximon'), findsOneWidget);

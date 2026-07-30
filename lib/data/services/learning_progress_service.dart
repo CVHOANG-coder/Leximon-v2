@@ -229,6 +229,7 @@ class LearningProgressService {
       var successfulWordCount = 0;
       var unresolvedWrongWordCount = 0;
       var newlyLearnedWordCount = 0;
+      var healedProblemWordCount = 0;
       final completedWordCount = aggregates.length;
       final now = DateTime.now().millisecondsSinceEpoch;
 
@@ -322,6 +323,11 @@ class LearningProgressService {
           unresolvedWrongWordCount++;
         }
         if (becameLearned) newlyLearnedWordCount++;
+        if (dailyTaskType == DailyTaskType.difficult &&
+            oldProgress.trainingError != 0 &&
+            errorMask == 0) {
+          healedProblemWordCount++;
+        }
 
         await _database
             .into(_database.learningProgressModels)
@@ -348,6 +354,7 @@ class LearningProgressService {
         completedWordCount: completedWordCount,
         successfulWordCount: successfulWordCount,
         processedWordCount: session.originalExerciseCount,
+        healedProblemWordCount: healedProblemWordCount,
         dailyTaskType: dailyTaskType,
       );
 
@@ -389,6 +396,7 @@ class LearningProgressService {
     required int completedWordCount,
     required int successfulWordCount,
     required int processedWordCount,
+    required int healedProblemWordCount,
     required DailyTaskType dailyTaskType,
   }) async {
     final learnedCountDelta = dailyTaskType == DailyTaskType.learn
@@ -429,6 +437,7 @@ class LearningProgressService {
               learnedWordsCount: Value(learnedCountDelta),
               trainedWordsCount: Value(trainedCountDelta),
               difficultWordsTrainedCount: Value(difficultCountDelta),
+              problemWordsHealedCount: Value(healedProblemWordCount),
             ),
           );
       return;
@@ -439,6 +448,8 @@ class LearningProgressService {
     final trainedCount = existing.trainedWordsCount + trainedCountDelta;
     final difficultCount =
         existing.difficultWordsTrainedCount + difficultCountDelta;
+    final problemWordsHealedCount =
+        existing.problemWordsHealedCount + healedProblemWordCount;
     final allGoalsFinished = areDailyTaskGoalsFinished(
       repeatWordsGoal: existing.repeatWordsGoal,
       repeatedWordsCount: repeatedCount,
@@ -459,6 +470,7 @@ class LearningProgressService {
         learnedWordsCount: Value(learnedCount),
         trainedWordsCount: Value(trainedCount),
         difficultWordsTrainedCount: Value(difficultCount),
+        problemWordsHealedCount: Value(problemWordsHealedCount),
       ),
     );
   }

@@ -2,8 +2,10 @@ import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/services/app_language_service.dart';
 import '../../data/datasources/topic_asset_data_source.dart';
 import '../../data/local/app_database.dart';
+import '../../data/models/learning_language_level.dart';
 import '../../data/models/topic.dart';
 import '../../data/models/vocabulary_collection.dart';
 import '../../data/repositories/topic_repository.dart';
@@ -40,6 +42,12 @@ final appUsageServiceProvider = Provider<AppUsageService>((ref) {
   return service;
 });
 
+final appLanguageServiceProvider = Provider<AppLanguageService>(
+  (ref) => AppLanguageService(),
+);
+
+final selectedAppLanguageProvider = StateProvider<String>((ref) => 'vi');
+
 final localDataInitializationProvider = FutureProvider<void>((ref) {
   return ref.watch(topicRepositoryProvider).initialize();
 });
@@ -73,6 +81,15 @@ final topicSetupStartAtTopicsProvider = StateProvider<bool>((ref) => true);
 
 final selectedTopicOrdersProvider = StateProvider<Set<int>>((ref) => <int>{});
 
+final selectedLanguageLevelsProvider =
+    StateProvider<Set<LearningLanguageLevel>>(
+      (ref) => {LearningLanguageLevel.beginner},
+    );
+
+final dailyWordsPerDayProvider = StateProvider<int>(
+  (ref) => DailyCardService.defaultLearnWordsGoal,
+);
+
 final selectedTopicOrdersHydrationProvider = FutureProvider<void>((ref) async {
   await ref.watch(localDataInitializationProvider.future);
   final selectedOrders = await ref
@@ -84,8 +101,43 @@ final selectedTopicOrdersHydrationProvider = FutureProvider<void>((ref) async {
   }
 });
 
+enum AppStartupDestination { languageOnboarding, assessmentIntro, home }
+
+/// Completes once everything required before leaving the splash screen is
+/// ready, then tells the router whether first-run onboarding is still needed.
+final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
+  (ref) async {
+    await ref.watch(localDataInitializationProvider.future);
+    await ref.watch(selectedTopicOrdersHydrationProvider.future);
+    final savedLanguage = await ref
+        .watch(appLanguageServiceProvider)
+        .loadSelectedLanguage();
+    if (savedLanguage == null) {
+      return AppStartupDestination.languageOnboarding;
+    }
+    ref.read(selectedAppLanguageProvider.notifier).state = savedLanguage;
+    final savedLevel = await ref
+        .watch(appLanguageServiceProvider)
+        .loadSelectedLearningLevel();
+    if (savedLevel != null) {
+      ref.read(selectedLanguageLevelsProvider.notifier).state = {
+        LearningLanguageLevel.fromLabel(savedLevel),
+      };
+    }
+    final onboardingCompleted = await ref
+        .watch(appLanguageServiceProvider)
+        .isOnboardingCompleted();
+    return onboardingCompleted
+        ? AppStartupDestination.home
+        : AppStartupDestination.assessmentIntro;
+  },
+);
+
 final dailyCardServiceProvider = Provider<DailyCardService>((ref) {
-  return DailyCardService(ref.watch(appDatabaseProvider));
+  return DailyCardService(
+    ref.watch(appDatabaseProvider),
+    wordsPerDay: ref.watch(dailyWordsPerDayProvider),
+  );
 });
 
 final homeMainTaskServiceProvider = Provider<HomeMainTaskService>((ref) {

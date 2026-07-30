@@ -44,8 +44,16 @@ void main() {
     );
     await tester.pumpAndSettle();
 
+    expect(find.text('Tất cả các nhiệm vụ đã hoàn thành'), findsOneWidget);
+    expect(find.text('8 từ đã học'), findsOneWidget);
+    expect(
+      find.text('Những nhiệm vụ mới đang chờ bạn vào ngày mai.'),
+      findsOneWidget,
+    );
+    expect(find.text('Muốn thực hành nhiều hơn?'), findsOneWidget);
+    expect(find.text('Chúng tôi có một vài nhiệm vụ bổ sung.'), findsOneWidget);
     expect(find.text('Tôi muốn thực hành nhiều hơn'), findsOneWidget);
-    final button = find.text('Nhiệm vụ bổ sung');
+    final button = find.text('Tôi muốn thực hành nhiều hơn');
     await tester.ensureVisible(button);
     await tester.tap(button);
     await tester.pumpAndSettle();

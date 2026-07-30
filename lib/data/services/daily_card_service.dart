@@ -58,10 +58,11 @@ class DailyCardSnapshot {
 
 /// Reads the small, day-scoped model used by the Home Daily Card.
 ///
-/// The app does not have a settings use case yet, so the learn goal falls back
-/// to the same 8-word starting goal used by the learning-filter UI.
+/// [wordsPerDay] is injected from app settings. The default preserves the
+/// current product value when no preference has been selected yet.
 class DailyCardService {
-  DailyCardService(this._database);
+  DailyCardService(this._database, {this.wordsPerDay = defaultLearnWordsGoal})
+    : assert(wordsPerDay > 0);
 
   static const defaultLearnWordsGoal = 8;
   static const maxRepeatWordsGoal = 60;
@@ -69,15 +70,11 @@ class DailyCardService {
       supportedStoredExerciseErrorMask;
 
   final AppDatabase _database;
+  final int wordsPerDay;
 
   Future<DailyCardSnapshot> load({DateTime? now}) async {
     final currentTime = now ?? DateTime.now();
     final today = _dayStart(currentTime);
-    final tomorrow = DateTime(
-      currentTime.year,
-      currentTime.month,
-      currentTime.day + 1,
-    ).millisecondsSinceEpoch;
     final enabledWordIds = (await _database.enabledWords())
         .map((word) => word.id)
         .toSet();
@@ -110,16 +107,6 @@ class DailyCardService {
           row.repetitionFastBrainDate != null &&
           row.repetitionFastBrainDate! <= currentTime.millisecondsSinceEpoch;
     }).length;
-    final learnedTodayCount = progressRows
-        .where(
-          (row) =>
-              enabledWordIds.contains(row.id) &&
-              row.creationDate >= today &&
-              row.creationDate < tomorrow &&
-              !row.markedAsKnown &&
-              !row.deletedByUser,
-        )
-        .length;
     final visit = await _ensureVisit(
       today: today,
       repeatableCount: repeatableCount,
@@ -164,7 +151,7 @@ class DailyCardService {
     return DailyCardSnapshot(
       tasks: tasks,
       additionalTasks: _additionalTasks(
-        learnedTodayCount: learnedTodayCount,
+        repeatableCount: repeatableCount,
         fastBrainCount: fastBrainCount,
         difficultCount: difficultCount,
       ),
@@ -178,7 +165,7 @@ class DailyCardService {
     required int fastBrainCount,
     required int difficultCount,
   }) {
-    final learnGoal = defaultLearnWordsGoal;
+    final learnGoal = wordsPerDay;
     final repeatGoal = repeatableCount == 0
         ? 0
         : repeatableCount.clamp(1, maxRepeatWordsGoal).toInt();
@@ -269,13 +256,13 @@ class DailyCardService {
   }
 
   List<DailyTaskType> _additionalTasks({
-    required int learnedTodayCount,
+    required int repeatableCount,
     required int fastBrainCount,
     required int difficultCount,
   }) {
     return [
       DailyTaskType.learn,
-      if (learnedTodayCount > 0) DailyTaskType.repeat,
+      if (repeatableCount > 0) DailyTaskType.repeat,
       if (fastBrainCount >= 4) DailyTaskType.train,
       if (difficultCount >= 4) DailyTaskType.difficult,
     ];

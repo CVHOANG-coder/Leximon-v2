@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../data/models/learning_language_level.dart';
 import '../../../data/models/topic.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -38,6 +39,9 @@ class _LearningFilterScreenState extends ConsumerState<LearningFilterScreen> {
   void initState() {
     super.initState();
     _step = widget.startAtTopics ? _SetupStep.topics : _SetupStep.level;
+    _selectedLevel =
+        ref.read(selectedLanguageLevelsProvider).firstOrNull?.label ??
+        LearningLanguageLevel.beginner.label;
     final existingOrders = ref.read(selectedTopicOrdersProvider);
     _selectedTopicOrders = existingOrders.isEmpty
         ? {1, 2, 3}
@@ -47,6 +51,9 @@ class _LearningFilterScreenState extends ConsumerState<LearningFilterScreen> {
   void _applyFilters() {
     final selectedOrders = {..._selectedTopicOrders};
     ref.read(selectedTopicOrdersProvider.notifier).state = selectedOrders;
+    ref.read(selectedLanguageLevelsProvider.notifier).state = {
+      LearningLanguageLevel.fromLabel(_selectedLevel),
+    };
     unawaited(_persistSelectedTopics(selectedOrders));
     widget.onFinished?.call();
     if (widget.onFinished == null && Navigator.of(context).canPop()) {

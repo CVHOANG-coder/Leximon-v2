@@ -82,6 +82,28 @@ void main() {
     });
   });
 
+  test('increments a word show count atomically', () async {
+    await database
+        .into(database.wordModels)
+        .insert(
+          WordModelsCompanion.insert(
+            id: 10,
+            topicId: 20,
+            writing: 'airport',
+            translation: 'sân bay',
+            isEnabled: true,
+            priority: 1,
+            level: 1,
+            showCount: const Value(7),
+          ),
+        );
+
+    await database.incrementWordShowCount(wordId: 10, topicId: 20);
+
+    final word = await database.select(database.wordModels).getSingle();
+    expect(word.showCount, 8);
+  });
+
   test('stores and reads the local user profile', () async {
     await database.saveUserProfile(
       name: 'Nguyễn An',

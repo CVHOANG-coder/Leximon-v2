@@ -517,15 +517,21 @@ class _DailyCardContent extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final completedTasks = snapshot.tasks.where((task) => task.isDone).length;
+    final firstIncompleteIndex = snapshot.tasks.indexWhere(
+      (task) => !task.isDone,
+    );
+    final showFirstTrainingGreeting =
+        snapshot.isFirstLearningDay &&
+        snapshot.tasks.length == 1 &&
+        !snapshot.isComplete;
     final title = snapshot.isComplete
-        ? 'Hẹn bạn ngày mai nhé!'
-        : snapshot.isFirstLearningDay &&
-              snapshot.tasks.every((task) => task.completed == 0)
-        ? 'Bắt đầu học từ mới'
-        : 'Học thêm một chút hôm nay';
+        ? 'Tất cả các nhiệm vụ đã hoàn thành'
+        : 'Nhiệm vụ cho ngày hôm nay';
     final description = snapshot.isComplete
-        ? 'Bạn đã hoàn thành mọi nhiệm vụ chính.'
-        : 'Mỗi ngày vài phút, vốn từ của bạn sẽ tiến xa hơn.';
+        ? 'Những nhiệm vụ mới đang chờ bạn vào ngày mai.'
+        : showFirstTrainingGreeting
+        ? 'Bắt đầu hành trình của bạn với những từ đầu tiên.'
+        : 'Tuyệt vời! Hãy học thêm 4 từ nữa.';
 
     return Container(
       padding: const EdgeInsets.fromLTRB(15, 15, 15, 14),
@@ -602,25 +608,35 @@ class _DailyCardContent extends ConsumerWidget {
             ),
           ),
           const SizedBox(height: 13),
-          ...snapshot.tasks.map(
-            (task) => Padding(
+          if (showFirstTrainingGreeting) ...[
+            const _FirstTrainingGreeting(),
+            const SizedBox(height: 10),
+          ],
+          ...snapshot.tasks.indexed.map(
+            (entry) => Padding(
               padding: const EdgeInsets.only(bottom: 8),
               child: _DailyTaskTile(
-                task: task,
-                showMascot:
-                    task.type == DailyTaskType.learn &&
-                    task.completed == 0 &&
-                    !snapshot.isComplete,
-                onTap: task.isDone
+                task: entry.$2,
+                isSuggested: entry.$1 == firstIncompleteIndex,
+                onTap: entry.$2.isDone
                     ? null
-                    : () => _openTask(context, ref, task.type),
+                    : () => _openTask(context, ref, entry.$2.type),
               ),
             ),
           ),
           if (snapshot.isComplete) ...[
             const SizedBox(height: 2),
             const Text(
-              'Tôi muốn thực hành nhiều hơn',
+              'Muốn thực hành nhiều hơn?',
+              style: TextStyle(
+                color: AppColors.textPrimary,
+                fontSize: 11,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: 3),
+            const Text(
+              'Chúng tôi có một vài nhiệm vụ bổ sung.',
               style: TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 10,
@@ -766,7 +782,9 @@ class _AdditionalTasksLauncherState
                 child: CircularProgressIndicator(strokeWidth: 2),
               )
             : const Icon(Icons.add_rounded, size: 18),
-        label: Text(_isOpening ? 'Đang kiểm tra...' : 'Nhiệm vụ bổ sung'),
+        label: Text(
+          _isOpening ? 'Đang kiểm tra...' : 'Tôi muốn thực hành nhiều hơn',
+        ),
         style: OutlinedButton.styleFrom(
           foregroundColor: AppColors.primary,
           disabledForegroundColor: AppColors.primary.withValues(alpha: .55),
@@ -933,159 +951,205 @@ Map<String, dynamic> _exerciseMapFromRow(WordRow word) {
   };
 }
 
-class _DailyTaskTile extends StatelessWidget {
-  const _DailyTaskTile({
-    required this.task,
-    required this.onTap,
-    this.showMascot = false,
-  });
-
-  final DailyTaskSnapshot task;
-  final VoidCallback? onTap;
-  final bool showMascot;
+class _FirstTrainingGreeting extends StatelessWidget {
+  const _FirstTrainingGreeting();
 
   @override
   Widget build(BuildContext context) {
-    final done = task.isDone;
-    final colors = _dailyTaskColors(task.type, done);
-    return Semantics(
-      button: onTap != null,
-      label:
-          '${_dailyTaskLabel(task.type)} ${task.completed} trên ${task.count}',
-      child: Stack(
-        clipBehavior: Clip.none,
+    return Container(
+      padding: const EdgeInsets.fromLTRB(8, 8, 14, 8),
+      decoration: BoxDecoration(
+        color: const Color(0xFFEAF3FF),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: const Color(0xFFD2E3FF)),
+      ),
+      child: Row(
         children: [
-          InkWell(
-            onTap: onTap,
-            borderRadius: BorderRadius.circular(17),
-            child: AnimatedContainer(
-              duration: const Duration(milliseconds: 180),
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 9),
-              decoration: BoxDecoration(
-                color: colors.background,
-                borderRadius: BorderRadius.circular(17),
-                border: Border.all(color: colors.border),
-              ),
-              child: Row(
-                children: [
-                  Container(
-                    width: 38,
-                    height: 38,
-                    alignment: Alignment.center,
-                    decoration: BoxDecoration(
-                      color: colors.iconBackground,
-                      borderRadius: BorderRadius.circular(13),
-                    ),
-                    child: Icon(
-                      done ? Icons.check_rounded : _dailyTaskIcon(task.type),
-                      color: colors.icon,
-                      size: 20,
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          _dailyTaskLabel(task.type),
-                          style: TextStyle(
-                            color: colors.title,
-                            fontSize: 12,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                        const SizedBox(height: 3),
-                        if (!done)
-                          Text(
-                            '${task.completed} / ${task.count} từ',
-                            style: const TextStyle(
-                              color: AppColors.textSecondary,
-                              fontSize: 10,
-                              fontWeight: FontWeight.w700,
-                            ),
-                          )
-                        else
-                          const Text(
-                            'Đã hoàn thành hôm nay',
-                            style: TextStyle(
-                              color: Color(0xFF719187),
-                              fontSize: 10,
-                              fontWeight: FontWeight.w700,
-                            ),
-                          ),
-                      ],
-                    ),
-                  ),
-                  if (!done)
-                    Icon(
-                      Icons.chevron_right_rounded,
-                      color: colors.icon,
-                      size: 19,
-                    ),
-                ],
+          Image.asset(
+            'assets/images/leximon-owl-wave.png',
+            width: 58,
+            height: 58,
+            fit: BoxFit.contain,
+            filterQuality: FilterQuality.high,
+          ),
+          const SizedBox(width: 8),
+          const Expanded(
+            child: Text(
+              'Xin chào, hãy cùng học những từ đầu tiên',
+              style: TextStyle(
+                color: AppColors.primaryDark,
+                fontSize: 12,
+                height: 1.35,
+                fontWeight: FontWeight.w800,
               ),
             ),
           ),
-          if (showMascot)
-            const Positioned(right: -30, top: -50, child: _WavingOwl(size: 72)),
         ],
       ),
     );
   }
 }
 
-class _WavingOwl extends StatefulWidget {
-  const _WavingOwl({required this.size});
+class _DailyTaskTile extends StatefulWidget {
+  const _DailyTaskTile({
+    required this.task,
+    required this.onTap,
+    this.isSuggested = false,
+  });
 
-  final double size;
+  final DailyTaskSnapshot task;
+  final VoidCallback? onTap;
+  final bool isSuggested;
 
   @override
-  State<_WavingOwl> createState() => _WavingOwlState();
+  State<_DailyTaskTile> createState() => _DailyTaskTileState();
 }
 
-class _WavingOwlState extends State<_WavingOwl>
+class _DailyTaskTileState extends State<_DailyTaskTile>
     with SingleTickerProviderStateMixin {
-  late final AnimationController _controller;
+  late final AnimationController _hintController;
+  late final Animation<double> _hintScale;
 
   @override
   void initState() {
     super.initState();
-    _controller = AnimationController(
+    _hintController = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1400),
-    )..repeat(reverse: true);
+      duration: const Duration(milliseconds: 900),
+    );
+    _hintScale =
+        TweenSequence<double>([
+          TweenSequenceItem(tween: Tween(begin: 1, end: 1.012), weight: 45),
+          TweenSequenceItem(tween: Tween(begin: 1.012, end: 1), weight: 55),
+        ]).animate(
+          CurvedAnimation(parent: _hintController, curve: Curves.easeInOut),
+        );
+    _syncHintAnimation();
+  }
+
+  @override
+  void didUpdateWidget(covariant _DailyTaskTile oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.isSuggested != widget.isSuggested ||
+        oldWidget.task.isDone != widget.task.isDone) {
+      _syncHintAnimation();
+    }
+  }
+
+  void _syncHintAnimation() {
+    if (widget.isSuggested && !widget.task.isDone) {
+      _hintController.forward(from: 0);
+    } else {
+      _hintController
+        ..stop()
+        ..value = 0;
+    }
   }
 
   @override
   void dispose() {
-    _controller.dispose();
+    _hintController.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
-    return IgnorePointer(
-      child: AnimatedBuilder(
-        animation: _controller,
-        child: Image.asset(
-          'assets/images/leximon-owl-wave.png',
-          width: widget.size * 2,
-          height: widget.size * 2,
-          fit: BoxFit.contain,
-          filterQuality: FilterQuality.high,
-        ),
-        builder: (context, child) {
-          final wave = Curves.easeInOut.transform(_controller.value);
-          return Transform.translate(
-            offset: Offset(0, -2.5 * wave),
-            child: Transform.rotate(
-              angle: (wave - .5) * .08,
-              alignment: Alignment.bottomCenter,
-              child: child,
+    final task = widget.task;
+    final done = task.isDone;
+    final colors = _dailyTaskColors(task.type, done);
+    final title = _dailyTaskTitle(task);
+    return AnimatedBuilder(
+      animation: _hintController,
+      builder: (context, child) =>
+          Transform.scale(scale: _hintScale.value, child: child),
+      child: Semantics(
+        key: ValueKey('daily-task-${task.type.name}'),
+        button: widget.onTap != null,
+        enabled: widget.onTap != null,
+        label: done
+            ? title
+            : '${_dailyTaskLabel(task.type)} ${task.completed} trên ${task.count}',
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 180),
+          decoration: BoxDecoration(
+            color: colors.background,
+            borderRadius: BorderRadius.circular(17),
+            border: Border.all(color: colors.border),
+            boxShadow: widget.isSuggested && !done
+                ? [
+                    BoxShadow(
+                      color: colors.icon.withValues(alpha: .16),
+                      blurRadius: 15,
+                      offset: const Offset(0, 6),
+                    ),
+                  ]
+                : null,
+          ),
+          child: Material(
+            type: MaterialType.transparency,
+            child: InkWell(
+              onTap: widget.onTap,
+              borderRadius: BorderRadius.circular(17),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 10,
+                  vertical: 9,
+                ),
+                child: Row(
+                  children: [
+                    Container(
+                      width: 38,
+                      height: 38,
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: colors.iconBackground,
+                        borderRadius: BorderRadius.circular(13),
+                      ),
+                      child: Icon(
+                        done ? Icons.check_rounded : _dailyTaskIcon(task.type),
+                        color: colors.icon,
+                        size: 20,
+                      ),
+                    ),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            title,
+                            style: TextStyle(
+                              color: colors.title,
+                              fontSize: 12,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                          if (!done) ...[
+                            const SizedBox(height: 3),
+                            Text(
+                              '${task.completed} / ${task.count} từ',
+                              style: const TextStyle(
+                                color: AppColors.textSecondary,
+                                fontSize: 10,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                          ],
+                        ],
+                      ),
+                    ),
+                    if (!done)
+                      Icon(
+                        Icons.chevron_right_rounded,
+                        color: colors.icon,
+                        size: 19,
+                      ),
+                  ],
+                ),
+              ),
             ),
-          );
-        },
+          ),
+        ),
       ),
     );
   }
@@ -1264,14 +1328,24 @@ Color _additionalTaskColor(DailyTaskType type) {
 String _dailyTaskLabel(DailyTaskType type) {
   switch (type) {
     case DailyTaskType.repeat:
-      return 'Ôn lại từ';
+      return 'Lặp lại các từ';
     case DailyTaskType.learn:
       return 'Học từ mới';
     case DailyTaskType.train:
-      return 'Luyện nhanh';
+      return 'Luyện tập các từ';
     case DailyTaskType.difficult:
-      return 'Từ khó';
+      return 'Luyện tập từ khó';
   }
+}
+
+String _dailyTaskTitle(DailyTaskSnapshot task) {
+  if (!task.isDone) return _dailyTaskLabel(task.type);
+  return switch (task.type) {
+    DailyTaskType.repeat => 'Đã lặp lại ${task.count} từ',
+    DailyTaskType.learn => '${task.count} từ đã học',
+    DailyTaskType.train => 'Đã luyện được ${task.count} từ',
+    DailyTaskType.difficult => '${task.count} từ khó đã được luyện tập',
+  };
 }
 
 IconData _dailyTaskIcon(DailyTaskType type) {
@@ -1304,13 +1378,36 @@ _dailyTaskColors(DailyTaskType type, bool done) {
       title: const Color(0xFF608378),
     );
   }
-  return (
-    background: Colors.white.withValues(alpha: .82),
-    border: const Color(0x1A155CFF),
-    iconBackground: const Color(0xFFEAF1FF),
-    icon: AppColors.primary,
-    title: AppColors.textPrimary,
-  );
+  return switch (type) {
+    DailyTaskType.repeat => (
+      background: const Color(0xFFF0F5FF),
+      border: const Color(0xFFC8DAFF),
+      iconBackground: const Color(0xFFDCE8FF),
+      icon: const Color(0xFF426FD0),
+      title: AppColors.textPrimary,
+    ),
+    DailyTaskType.learn => (
+      background: const Color(0xFFFFF8DF),
+      border: const Color(0xFFF3DC91),
+      iconBackground: const Color(0xFFFFEAA8),
+      icon: const Color(0xFFAE7500),
+      title: AppColors.textPrimary,
+    ),
+    DailyTaskType.train => (
+      background: const Color(0xFFEEF9F2),
+      border: const Color(0xFFC5E9D3),
+      iconBackground: const Color(0xFFD8F2E2),
+      icon: const Color(0xFF27845D),
+      title: AppColors.textPrimary,
+    ),
+    DailyTaskType.difficult => (
+      background: const Color(0xFFFFF0F4),
+      border: const Color(0xFFF1CCDA),
+      iconBackground: const Color(0xFFF9DDE6),
+      icon: const Color(0xFFC65375),
+      title: AppColors.textPrimary,
+    ),
+  };
 }
 
 // Kept as a visual fallback for future learning-filter variants.

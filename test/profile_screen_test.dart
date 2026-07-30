@@ -7,6 +7,7 @@ import 'package:leximon/data/services/progress_dashboard_service.dart';
 import 'package:leximon/data/services/profile_statistics_service.dart';
 import 'package:leximon/presentation/screens/profile/profile_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   testWidgets('shows database-backed hero and calculated profile statistics', (
@@ -74,5 +75,74 @@ void main() {
     expect(find.text('18'), findsOneWidget);
     expect(find.text('Nguyễn An'), findsOneWidget);
     expect(find.text('an@example.com'), findsOneWidget);
+  });
+
+  testWidgets('quick setting toggle rebuilds inside a visible Material', (
+    tester,
+  ) async {
+    SharedPreferences.setMockInitialValues({
+      'profile.pronunciation_enabled': false,
+      'profile.listening_enabled': true,
+      'profile.daily_reminder_enabled': false,
+    });
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(390, 844);
+    addTearDown(tester.view.reset);
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          topicsProvider.overrideWith((ref) async => const <Topic>[]),
+          selectedTopicOrdersProvider.overrideWith((ref) => <int>{}),
+          topicProgressProvider.overrideWith((ref) async => const {}),
+          profileStatisticsProvider.overrideWith(
+            (ref) async => const ProfileStatisticsSnapshot(
+              trackedTopicCount: 0,
+              weekCorrectAnswerCount: 0,
+              weekAnswerCount: 0,
+              averageDailyUsage: Duration.zero,
+              usageDayCount: 0,
+            ),
+          ),
+          progressDashboardProvider.overrideWith(
+            (ref) async => const ProgressDashboardSnapshot(
+              totalWords: 0,
+              progressedWords: 0,
+              masteredWords: 0,
+              currentStreak: 0,
+              weekActivity: [0, 0, 0, 0, 0, 0, 0],
+              weekSessionCount: 0,
+              activeDaysThisMonth: 0,
+              elapsedDaysThisMonth: 1,
+              monthActivityLevels: [],
+              monthLabel: 'Tháng này',
+            ),
+          ),
+          userProfileProvider.overrideWith((ref) async => null),
+        ],
+        child: const MaterialApp(home: Scaffold(body: ProfileScreen())),
+      ),
+    );
+    await tester.pumpAndSettle();
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 50)),
+    );
+    await tester.pumpAndSettle();
+    await tester.scrollUntilVisible(
+      find.byKey(const ValueKey('profile-setting-toggle-Luyện nghe')),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.pumpAndSettle();
+
+    final listeningToggle = tester.widget<Switch>(
+      find.byKey(const ValueKey('profile-setting-toggle-Luyện nghe')),
+    );
+    expect(listeningToggle.value, isTrue);
+    listeningToggle.onChanged!(false);
+    await tester.pumpAndSettle();
+
+    expect(find.text('Loa đang tắt'), findsOneWidget);
+    expect(tester.takeException(), isNull);
   });
 }

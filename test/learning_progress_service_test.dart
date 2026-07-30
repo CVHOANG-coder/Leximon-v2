@@ -446,10 +446,12 @@ void main() {
       final progressRows = await database
           .select(database.learningProgressModels)
           .get();
+      final visit = await database.select(database.visitModels).getSingle();
 
       expect(result.successfulWordCount, 2);
       expect(progressRows, everyElement(isA<LearningProgressRow>()));
       expect(progressRows.map((row) => row.trainingError), everyElement(0));
+      expect(visit.problemWordsHealedCount, 2);
     },
   );
 
@@ -485,8 +487,10 @@ void main() {
     final progress = await database
         .select(database.learningProgressModels)
         .getSingle();
+    final visit = await database.select(database.visitModels).getSingle();
 
     expect(progress.trainingError, 0);
+    expect(visit.problemWordsHealedCount, 1);
   });
 }
 

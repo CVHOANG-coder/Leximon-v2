@@ -12,6 +12,7 @@ import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/topic.dart';
 import '../../../data/services/daily_card_service.dart';
+import '../../../data/services/recommended_words_service.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../learning_filter/learning_filter_screen.dart';
 import '../review_practice/review_practice_screen.dart';
@@ -34,15 +35,26 @@ class WordStudyScreen extends ConsumerStatefulWidget {
 
 class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
   static const _maxSelectedWords = 4;
+  static const _recommendedTopicId = -1;
+  static const _recommendedBatchSize = 20;
+  static const _recommendedLoadMoreThreshold = 10;
+  static const _recommendedWordsService = RecommendedWordsService();
+
   late int _activeTopicOrder;
   int _currentIndex = 0;
+  final Map<int, int> _topicIndices = {};
   final Map<String, _WordState> _wordStates = {};
   Map<int, _WordState> _persistedWordStates = const {};
-  List<Topic>? _initialStudyTopics;
+  final Map<(int, int), int> _sessionShowCounts = {};
+  List<Topic>? _studyTopics;
+  List<Map<String, dynamic>> _recommendedRawWords = const [];
+  int _recommendedVisibleCount = 0;
+  String? _studyFilterSignature;
   final List<String> _selectedWordKeys = [];
   final Map<String, Map<String, dynamic>> _selectedWords = {};
   bool _openingPractice = false;
   String? _lastAutoSpokenCard;
+  String? _lastCountedCard;
   int _autoSpeechScheduleId = 0;
 
   @override
@@ -61,7 +73,7 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
   Topic _activeTopic(List<Topic> topics) {
     return topics.firstWhere(
       (topic) => topic.order == _activeTopicOrder,
-      orElse: () => widget.topic,
+      orElse: () => topics.first,
     );
   }
 
@@ -69,14 +81,7 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     if (databaseTopics == null || databaseTopics.isEmpty) {
       return [widget.topic];
     }
-
-    // The screen can also be used in isolation by previews/tests. In the
-    // normal app flow the incoming topic is one of the database topics, so
-    // use the complete database-backed list in that case.
-    final hasDatabaseTopic = databaseTopics.any(
-      (topic) => topic.id == widget.topic.id,
-    );
-    return hasDatabaseTopic ? databaseTopics : [widget.topic];
+    return databaseTopics;
   }
 
   int? _wordId(Topic topic, int index) {
@@ -142,6 +147,121 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
         .toList(growable: false);
   }
 
+  Topic _recommendedTopic() {
+    return Topic(
+      id: _recommendedTopicId,
+      order: _recommendedTopicId,
+      original: 'Recommended',
+      translated: 'Khuyên dùng',
+      words: _recommendedRawWords
+          .take(_recommendedVisibleCount)
+          .toList(growable: false),
+    );
+  }
+
+  void _rebuildStudyTopics({
+    required List<Topic> sourceTopics,
+    required Map<int, LearningProgressRow> progressByWordId,
+    required Set<int> selectedTopicOrders,
+    required String filterSignature,
+  }) {
+    final selectedLevels = ref.read(selectedLanguageLevelsProvider);
+    if (_studyFilterSignature != null &&
+        _studyFilterSignature != filterSignature) {
+      _topicIndices.clear();
+      _currentIndex = 0;
+    }
+    final recommendationTopics = sourceTopics
+        .map(
+          (topic) => Topic(
+            id: topic.id,
+            order: topic.order,
+            original: topic.original,
+            translated: topic.translated,
+            words: topic.words
+                .map(
+                  (word) => <String, dynamic>{
+                    ...word,
+                    if (word['id'] is num)
+                      'showCount':
+                          _sessionShowCounts[(
+                            topic.id,
+                            (word['id'] as num).toInt(),
+                          )] ??
+                          word['showCount'] ??
+                          0,
+                  },
+                )
+                .toList(growable: false),
+          ),
+        )
+        .toList(growable: false);
+    _recommendedRawWords = _recommendedWordsService.build(
+      topics: recommendationTopics,
+      selectedTopicOrders: selectedTopicOrders,
+      selectedLevels: selectedLevels,
+      progressedWordIds: progressByWordId.keys.toSet(),
+    );
+    _recommendedVisibleCount = _recommendedRawWords.length.clamp(
+      0,
+      _recommendedBatchSize,
+    );
+    final selectedTopics = sourceTopics
+        .where((topic) => selectedTopicOrders.contains(topic.order))
+        .toList(growable: false);
+    _studyTopics = [
+      _recommendedTopic(),
+      ..._filterNewWords(selectedTopics, progressByWordId),
+    ];
+    _studyFilterSignature = filterSignature;
+    if (!_studyTopics!.any((topic) => topic.order == _activeTopicOrder)) {
+      _activeTopicOrder = _recommendedTopicId;
+      _currentIndex = _topicIndices[_recommendedTopicId] ?? 0;
+    }
+  }
+
+  void _replaceRecommendedTopic() {
+    final topics = _studyTopics;
+    if (topics == null || topics.isEmpty) return;
+    _studyTopics = [_recommendedTopic(), ...topics.skip(1)];
+  }
+
+  void _loadMoreRecommendedIfNeeded(int index) {
+    if (_activeTopicOrder != _recommendedTopicId ||
+        _recommendedVisibleCount >= _recommendedRawWords.length ||
+        _recommendedVisibleCount - index - 1 >= _recommendedLoadMoreThreshold) {
+      return;
+    }
+    setState(() {
+      _recommendedVisibleCount =
+          (_recommendedVisibleCount + _recommendedBatchSize).clamp(
+            0,
+            _recommendedRawWords.length,
+          );
+      _replaceRecommendedTopic();
+    });
+  }
+
+  void _removeKnownRecommendedWord(Map<String, dynamic> word) {
+    final wordId = word['id'];
+    final topicId = word['topicId'];
+    _recommendedRawWords = _recommendedRawWords
+        .where(
+          (candidate) =>
+              candidate['id'] != wordId || candidate['topicId'] != topicId,
+        )
+        .toList(growable: false);
+    _recommendedVisibleCount = _recommendedVisibleCount.clamp(
+      0,
+      _recommendedRawWords.length,
+    );
+    _replaceRecommendedTopic();
+    final itemCount =
+        _recommendedVisibleCount +
+        (_recommendedVisibleCount == _recommendedRawWords.length ? 1 : 0);
+    _currentIndex = _currentIndex.clamp(0, itemCount > 0 ? itemCount - 1 : 0);
+  }
+
   int? _selectedNumberFor(Topic topic, int index) {
     final selectedIndex = _selectedWordKeys.indexOf(_wordKey(topic, index));
     return selectedIndex == -1 ? null : selectedIndex + 1;
@@ -150,20 +270,36 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
   void _selectTopic(Topic topic) {
     if (topic.order == _activeTopicOrder) return;
     setState(() {
+      _topicIndices[_activeTopicOrder] = _currentIndex;
       _activeTopicOrder = topic.order;
-      _currentIndex = 0;
+      final restoredIndex = _topicIndices[topic.order] ?? 0;
+      final itemCount =
+          topic.words.length +
+          (topic.id == _recommendedTopicId &&
+                  _recommendedVisibleCount == _recommendedRawWords.length
+              ? 1
+              : 0);
+      _currentIndex = restoredIndex.clamp(0, itemCount > 0 ? itemCount - 1 : 0);
     });
   }
 
   void _goToWord(int index, int length) {
     if (length == 0) return;
     final next = (index + length) % length;
-    setState(() => _currentIndex = next);
+    setState(() {
+      _currentIndex = next;
+      _topicIndices[_activeTopicOrder] = next;
+    });
+    _loadMoreRecommendedIfNeeded(next);
   }
 
   void _setWordState(Topic topic, int index, _WordState state) {
     final key = _wordKey(topic, index);
     final wasSelected = _wordStates[key] == _WordState.learning;
+    final word = topic.words[index];
+    final sourceTopicId = word['topicId'] is num
+        ? (word['topicId'] as num).toInt()
+        : topic.id;
 
     if (state == _WordState.learning && !wasSelected) {
       if (_selectedWordKeys.length >= _maxSelectedWords) {
@@ -176,7 +312,7 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
         return;
       }
       _selectedWordKeys.add(key);
-      _selectedWords[key] = {...topic.words[index], 'topicId': topic.id};
+      _selectedWords[key] = {...word, 'topicId': sourceTopicId};
     } else if (state != _WordState.learning) {
       _selectedWordKeys.remove(key);
       _selectedWords.remove(key);
@@ -184,10 +320,14 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
 
     setState(() {
       _wordStates[key] = state;
-      if (state != _WordState.newWord && topic.words.isNotEmpty) {
+      if (state == _WordState.known && topic.id == _recommendedTopicId) {
+        _removeKnownRecommendedWord(word);
+      } else if (state != _WordState.newWord && topic.words.isNotEmpty) {
         _currentIndex = (index + 1) % topic.words.length;
       }
+      _topicIndices[_activeTopicOrder] = _currentIndex;
     });
+    _loadMoreRecommendedIfNeeded(_currentIndex);
     unawaited(_persistKnownState(topic, index, state));
     if (_selectedWordKeys.length == _maxSelectedWords) {
       WidgetsBinding.instance.addPostFrameCallback((_) => _openPractice());
@@ -201,12 +341,15 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
   ) async {
     final wordId = _wordId(topic, index);
     if (wordId == null) return;
+    final wordTopicId = topic.words[index]['topicId'];
+    final sourceTopicId = wordTopicId is num ? wordTopicId.toInt() : topic.id;
 
     final container = ProviderScope.containerOf(context, listen: false);
     final database = container.read(appDatabaseProvider);
     final databaseWord =
         await (database.select(database.wordModels)..where(
-              (row) => row.id.equals(wordId) & row.topicId.equals(topic.id),
+              (row) =>
+                  row.id.equals(wordId) & row.topicId.equals(sourceTopicId),
             ))
             .getSingleOrNull();
     if (databaseWord == null) return;
@@ -239,8 +382,8 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     }
     container.invalidate(wordProgressProvider);
     container.invalidate(topicProgressProvider);
-    container.invalidate(topicProgressDetailsProvider(topic.id));
-    container.invalidate(topicRepetitionDataProvider(topic.id));
+    container.invalidate(topicProgressDetailsProvider(sourceTopicId));
+    container.invalidate(topicRepetitionDataProvider(sourceTopicId));
     container.invalidate(dailyCardProvider);
     container.invalidate(progressDashboardProvider);
     container.invalidate(vocabularyCollectionProvider);
@@ -317,15 +460,25 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     if (!dataReady) return;
     if (words.isEmpty) {
       _lastAutoSpokenCard = null;
+      _lastCountedCard = null;
+      return;
+    }
+    if (index < 0 || index >= words.length) {
+      _lastAutoSpokenCard = null;
+      _lastCountedCard = null;
       return;
     }
 
-    final safeIndex = index.clamp(0, words.length - 1).toInt();
-    final word = words[safeIndex];
+    final word = words[index];
     final writing = (word['writing'] as String? ?? '').trim();
-    if (writing.isEmpty) return;
-    final wordIdentity = word['id'] ?? safeIndex;
+    final wordIdentity = word['id'] ?? index;
     final cardIdentity = '${topic.id}:$wordIdentity:$writing';
+    _scheduleShowCountIncrement(
+      topic: topic,
+      word: word,
+      cardIdentity: cardIdentity,
+    );
+    if (writing.isEmpty) return;
     if (_lastAutoSpokenCard == cardIdentity) return;
 
     _lastAutoSpokenCard = cardIdentity;
@@ -336,10 +489,52 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     });
   }
 
+  void _scheduleShowCountIncrement({
+    required Topic topic,
+    required Map<String, dynamic> word,
+    required String cardIdentity,
+  }) {
+    if (_lastCountedCard == cardIdentity) return;
+    _lastCountedCard = cardIdentity;
+    final wordIdValue = word['id'];
+    if (wordIdValue is! num) return;
+    final topicIdValue = word['topicId'];
+    final sourceTopicId = topicIdValue is num ? topicIdValue.toInt() : topic.id;
+    final countKey = (sourceTopicId, wordIdValue.toInt());
+    final nextShowCount =
+        ((_sessionShowCounts[countKey] ??
+            (word['showCount'] is num
+                ? (word['showCount'] as num).toInt()
+                : 0)) +
+        1);
+    _sessionShowCounts[countKey] = nextShowCount;
+    // Previews and isolated widget tests can provide topic data without a
+    // database. In the app, topicsProvider has already initialized this
+    // provider before a card can be shown.
+    if (!ref.exists(appDatabaseProvider)) return;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      unawaited(
+        _persistShowCount(wordId: wordIdValue.toInt(), topicId: sourceTopicId),
+      );
+    });
+  }
+
+  Future<void> _persistShowCount({
+    required int wordId,
+    required int topicId,
+  }) async {
+    await ref
+        .read(appDatabaseProvider)
+        .incrementWordShowCount(wordId: wordId, topicId: topicId);
+  }
+
   @override
   Widget build(BuildContext context) {
     final databaseTopics = ref.watch(topicsProvider).valueOrNull;
     final persistedProgress = ref.watch(wordProgressProvider).valueOrNull;
+    final configuredTopicOrders = ref.watch(selectedTopicOrdersProvider);
+    final selectedLevels = ref.watch(selectedLanguageLevelsProvider);
     final dataReady = databaseTopics != null && persistedProgress != null;
     if (persistedProgress != null) {
       _persistedWordStates = {
@@ -347,26 +542,46 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
           entry.key: _stateFromProgress(entry.value),
       };
     }
-    if (_initialStudyTopics == null &&
-        databaseTopics != null &&
-        persistedProgress != null) {
-      _initialStudyTopics = _filterNewWords(
-        _topicsForStudy(databaseTopics),
-        persistedProgress,
-      );
+    if (databaseTopics != null && persistedProgress != null) {
+      final sourceTopics = _topicsForStudy(databaseTopics);
+      final selectedTopicOrders = configuredTopicOrders.isEmpty
+          ? sourceTopics.map((topic) => topic.order).toSet()
+          : configuredTopicOrders;
+      final sortedOrders = selectedTopicOrders.toList()..sort();
+      final filterSignature = [
+        sourceTopics.map((topic) => '${topic.id}:${topic.order}').join(','),
+        sortedOrders.join(','),
+        selectedLevels.map((level) => level.name).join(','),
+      ].join('|');
+      if (_studyTopics == null || _studyFilterSignature != filterSignature) {
+        _rebuildStudyTopics(
+          sourceTopics: sourceTopics,
+          progressByWordId: persistedProgress,
+          selectedTopicOrders: selectedTopicOrders,
+          filterSignature: filterSignature,
+        );
+      }
     }
-    final topics = _initialStudyTopics ?? _topicsForStudy(databaseTopics);
+    final topics =
+        _studyTopics ??
+        [_recommendedTopic(), ..._topicsForStudy(databaseTopics)];
     final topic = _activeTopic(topics);
     final words = topic.words;
+    final isRecommended = topic.id == _recommendedTopicId;
+    final recommendedFullyMapped =
+        isRecommended &&
+        _recommendedVisibleCount == _recommendedRawWords.length;
+    final deckItemCount = words.length + (recommendedFullyMapped ? 1 : 0);
+    if (_currentIndex >= deckItemCount && deckItemCount > 0) {
+      _currentIndex = deckItemCount - 1;
+    }
     _scheduleAutoPronunciation(
       topic: topic,
       words: words,
       index: _currentIndex,
       dataReady: dataReady,
     );
-    final selectedCount = List<int>.generate(words.length, (index) => index)
-        .where((index) => _selectedWordKeys.contains(_wordKey(topic, index)))
-        .length;
+    final selectedCount = _selectedWordKeys.length;
 
     return Scaffold(
       backgroundColor: AppColors.primaryDark,
@@ -406,13 +621,19 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
                     words: words,
                     topic: topic,
                     currentIndex: _currentIndex,
+                    showRecommendedCompletion: recommendedFullyMapped,
                     stateFor: _stateFor,
                     selectedNumberFor: _selectedNumberFor,
-                    onPageChanged: (index) =>
-                        setState(() => _currentIndex = index),
+                    onPageChanged: (index) {
+                      setState(() {
+                        _currentIndex = index;
+                        _topicIndices[topic.order] = index;
+                      });
+                      _loadMoreRecommendedIfNeeded(index);
+                    },
                     onPrevious: () =>
-                        _goToWord(_currentIndex - 1, words.length),
-                    onNext: () => _goToWord(_currentIndex + 1, words.length),
+                        _goToWord(_currentIndex - 1, deckItemCount),
+                    onNext: () => _goToWord(_currentIndex + 1, deckItemCount),
                     onStateChanged: _setWordState,
                     onPlay: _playPronunciation,
                     onPlaySlow: _playSlowPronunciation,
@@ -714,6 +935,7 @@ class _DeckZone extends StatefulWidget {
     required this.words,
     required this.topic,
     required this.currentIndex,
+    required this.showRecommendedCompletion,
     required this.stateFor,
     required this.selectedNumberFor,
     required this.onPageChanged,
@@ -727,6 +949,7 @@ class _DeckZone extends StatefulWidget {
   final List<Map<String, dynamic>> words;
   final Topic topic;
   final int currentIndex;
+  final bool showRecommendedCompletion;
   final _WordState Function(Topic topic, int index) stateFor;
   final int? Function(Topic topic, int index) selectedNumberFor;
   final ValueChanged<int> onPageChanged;
@@ -789,7 +1012,7 @@ class _DeckZoneState extends State<_DeckZone> {
 
   @override
   Widget build(BuildContext context) {
-    if (widget.words.isEmpty) {
+    if (widget.words.isEmpty && !widget.showRecommendedCompletion) {
       return const Center(
         child: Text(
           'Chủ đề này chưa có từ để học.',
@@ -800,6 +1023,8 @@ class _DeckZoneState extends State<_DeckZone> {
 
     return LayoutBuilder(
       builder: (context, constraints) {
+        final itemCount =
+            widget.words.length + (widget.showRecommendedCompletion ? 1 : 0);
         final arrowTop = (constraints.maxHeight - 58) / 2;
         final carouselHeight = (constraints.maxHeight - 52)
             .clamp(0, constraints.maxHeight)
@@ -808,9 +1033,15 @@ class _DeckZoneState extends State<_DeckZone> {
           clipBehavior: Clip.none,
           children: [
             CarouselSlider.builder(
-              itemCount: widget.words.length,
+              itemCount: itemCount,
               carouselController: _carouselController,
               itemBuilder: (context, index, realIndex) {
+                if (index == widget.words.length) {
+                  return const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 10),
+                    child: _RecommendedCompletionCard(),
+                  );
+                }
                 return ValueListenableBuilder<double>(
                   valueListenable: _scrollPosition,
                   builder: (context, scrollPosition, child) {
@@ -891,6 +1122,51 @@ class _DeckZoneState extends State<_DeckZone> {
           ],
         );
       },
+    );
+  }
+}
+
+class _RecommendedCompletionCard extends StatelessWidget {
+  const _RecommendedCompletionCard();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.symmetric(horizontal: 28),
+      decoration: BoxDecoration(
+        color: const Color(0xF7FFFFFF),
+        borderRadius: BorderRadius.circular(32),
+        border: Border.all(color: const Color(0xBFFFFFFF), width: 1.5),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x3800184F),
+            blurRadius: 28,
+            offset: Offset(0, 16),
+          ),
+        ],
+      ),
+      child: const Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            Icons.workspace_premium_rounded,
+            size: 58,
+            color: AppColors.primary,
+          ),
+          SizedBox(height: 18),
+          Text(
+            'Bạn đã thành thạo tất cả các từ được khuyên dùng',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: AppColors.primaryDark,
+              fontSize: 20,
+              height: 1.25,
+              fontWeight: FontWeight.w900,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

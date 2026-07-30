@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/data/local/app_database.dart';
+import 'package:leximon/data/models/learning_language_level.dart';
 import 'package:leximon/data/models/topic.dart';
 import 'package:leximon/presentation/screens/learning_filter/learning_filter_screen.dart';
 import 'package:leximon/presentation/screens/word_study/word_study_screen.dart';
@@ -302,6 +303,117 @@ void main() {
     expect(find.text('Áp dụng'), findsOneWidget);
     expect(find.byKey(const ValueKey('assets/svgs/book.svg')), findsOneWidget);
   });
+
+  testWidgets('shows recommended words from selected topics and level', (
+    tester,
+  ) async {
+    final database = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(database.close);
+    for (final row in [
+      (id: 1, topicId: 10, level: 1, showCount: 3),
+      (id: 2, topicId: 10, level: 1, showCount: 0),
+      (id: 3, topicId: 20, level: 1, showCount: 0),
+      (id: 4, topicId: 20, level: 4, showCount: 0),
+    ]) {
+      await database
+          .into(database.wordModels)
+          .insert(
+            WordModelsCompanion.insert(
+              id: row.id,
+              topicId: row.topicId,
+              writing: 'word ${row.id}',
+              translation: 'nghĩa ${row.id}',
+              isEnabled: true,
+              priority: 1,
+              level: row.level,
+              showCount: Value(row.showCount),
+            ),
+          );
+    }
+    final topics = [
+      Topic(
+        id: 10,
+        order: 1,
+        original: 'One',
+        translated: 'Một',
+        words: [
+          _studyWord(1, topicId: 10, level: 1, showCount: 3),
+          _studyWord(2, topicId: 10, level: 1, showCount: 0),
+        ],
+      ),
+      Topic(
+        id: 20,
+        order: 2,
+        original: 'Two',
+        translated: 'Hai',
+        words: [
+          _studyWord(3, topicId: 20, level: 1, showCount: 0),
+          _studyWord(4, topicId: 20, level: 4, showCount: 0),
+        ],
+      ),
+    ];
+    final container = ProviderContainer(
+      overrides: [
+        appDatabaseProvider.overrideWithValue(database),
+        topicsProvider.overrideWith((ref) async => topics),
+        wordProgressProvider.overrideWith(
+          (ref) async => const <int, LearningProgressRow>{},
+        ),
+        selectedTopicOrdersProvider.overrideWith((ref) => {1, 2}),
+        selectedLanguageLevelsProvider.overrideWith(
+          (ref) => {LearningLanguageLevel.beginner},
+        ),
+      ],
+    );
+    container.read(appDatabaseProvider);
+    addTearDown(container.dispose);
+
+    await tester.pumpWidget(
+      UncontrolledProviderScope(
+        container: container,
+        child: MaterialApp(home: WordStudyScreen(topic: topics.first)),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Khuyên dùng'), findsOneWidget);
+    await tester.tap(find.text('Khuyên dùng'));
+    await tester.pumpAndSettle();
+
+    expect(find.text('★  Khuyên dùng'), findsOneWidget);
+    expect(find.text('word 2'), findsWidgets);
+    expect(find.text('word 4'), findsNothing);
+
+    await tester.runAsync(() async {
+      for (var attempt = 0; attempt < 30; attempt++) {
+        final row =
+            await (database.select(
+                  database.wordModels,
+                )..where((word) => word.id.equals(2) & word.topicId.equals(10)))
+                .getSingle();
+        if (row.showCount == 1) return;
+        await Future<void>.delayed(const Duration(milliseconds: 10));
+      }
+      fail('Recommended card showCount was not incremented.');
+    });
+  });
+}
+
+Map<String, dynamic> _studyWord(
+  int id, {
+  required int topicId,
+  required int level,
+  required int showCount,
+}) {
+  return {
+    'id': id,
+    'topicId': topicId,
+    'writing': 'word $id',
+    'translation': 'nghĩa $id',
+    'level': level,
+    'showCount': showCount,
+    'enabled': true,
+  };
 }
 
 Future<void> _waitForSpokenWord(

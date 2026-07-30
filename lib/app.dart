@@ -7,11 +7,30 @@ import 'package:go_router/go_router.dart';
 import 'core/theme/app_theme.dart';
 import 'data/services/app_usage_service.dart';
 import 'presentation/screens/main/main_screen.dart';
+import 'presentation/screens/onboarding/level_assessment_intro_screen.dart';
+import 'presentation/screens/onboarding/level_selection_screen.dart';
+import 'presentation/screens/onboarding/language_onboarding_screen.dart';
+import 'presentation/screens/splash/splash_screen.dart';
 import 'shared/providers/app_providers.dart';
 
 final _router = GoRouter(
-  initialLocation: '/',
-  routes: [GoRoute(path: '/', builder: (context, state) => const MainScreen())],
+  initialLocation: '/splash',
+  routes: [
+    GoRoute(path: '/splash', builder: (context, state) => const SplashScreen()),
+    GoRoute(
+      path: '/onboarding/language',
+      builder: (context, state) => const LanguageOnboardingScreen(),
+    ),
+    GoRoute(
+      path: '/onboarding/assessment-intro',
+      builder: (context, state) => const LevelAssessmentIntroScreen(),
+    ),
+    GoRoute(
+      path: '/onboarding/level',
+      builder: (context, state) => const LevelSelectionScreen(),
+    ),
+    GoRoute(path: '/', builder: (context, state) => const MainScreen()),
+  ],
 );
 
 class LeximonApp extends ConsumerWidget {
@@ -19,7 +38,6 @@ class LeximonApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    ref.watch(localDataInitializationProvider);
     return _AppUsageLifecycle(
       child: MaterialApp.router(
         title: 'Leximon',

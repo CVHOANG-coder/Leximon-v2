@@ -1348,48 +1348,55 @@ class _SettingItem extends StatelessWidget {
             border: Border(top: BorderSide(color: AppColors.divider, width: 1)),
           )
         : null,
-    child: ListTile(
-      onTap: onTap,
-      contentPadding: EdgeInsets.zero,
-      leading: SvgPicture.asset(iconAsset, width: 28, height: 28),
-      title: Text(
-        title,
-        style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11),
-      ),
-      subtitle: Text(
-        body,
-        style: const TextStyle(color: AppColors.textSecondary, fontSize: 9),
-      ),
-      trailing: onToggle != null
-          ? Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                if (status != null)
-                  Text(
-                    status!,
-                    style: TextStyle(
-                      color: statusColor,
-                      fontSize: 9,
-                      fontWeight: FontWeight.w800,
+    child: Material(
+      type: MaterialType.transparency,
+      child: ListTile(
+        onTap: onTap,
+        contentPadding: EdgeInsets.zero,
+        leading: SvgPicture.asset(iconAsset, width: 28, height: 28),
+        title: Text(
+          title,
+          style: const TextStyle(fontWeight: FontWeight.w800, fontSize: 11),
+        ),
+        subtitle: Text(
+          body,
+          style: const TextStyle(color: AppColors.textSecondary, fontSize: 9),
+        ),
+        trailing: onToggle != null
+            ? Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (status != null)
+                    Text(
+                      status!,
+                      style: TextStyle(
+                        color: statusColor,
+                        fontSize: 9,
+                        fontWeight: FontWeight.w800,
+                      ),
                     ),
+                  Switch.adaptive(
+                    key: ValueKey('profile-setting-toggle-$title'),
+                    value: toggleValue ?? false,
+                    onChanged: isUpdating ? null : onToggle,
+                    activeThumbColor: AppColors.primary,
                   ),
-                Switch.adaptive(
-                  value: toggleValue ?? false,
-                  onChanged: isUpdating ? null : onToggle,
-                  activeThumbColor: AppColors.primary,
+                ],
+              )
+            : status != null
+            ? Text(
+                status!,
+                style: TextStyle(
+                  color: statusColor,
+                  fontSize: 9,
+                  fontWeight: FontWeight.w800,
                 ),
-              ],
-            )
-          : status != null
-          ? Text(
-              status!,
-              style: TextStyle(
-                color: statusColor,
-                fontSize: 9,
-                fontWeight: FontWeight.w800,
+              )
+            : const Icon(
+                Icons.chevron_right_rounded,
+                color: AppColors.textMuted,
               ),
-            )
-          : const Icon(Icons.chevron_right_rounded, color: AppColors.textMuted),
+      ),
     ),
   );
 }
