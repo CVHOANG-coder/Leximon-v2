@@ -34,12 +34,12 @@ class _LevelSelectionScreenState extends ConsumerState<LevelSelectionScreen> {
     try {
       final service = ref.read(appLanguageServiceProvider);
       await service.saveSelectedLearningLevel(_selectedLevel.label);
-      await service.completeOnboarding();
       ref.read(selectedLanguageLevelsProvider.notifier).state = {
         _selectedLevel,
       };
       if (!mounted) return;
-      context.go('/');
+      setState(() => _isSaving = false);
+      context.push('/onboarding/assessment-intro/survey');
     } catch (_) {
       if (!mounted) return;
       setState(() => _isSaving = false);
@@ -121,7 +121,13 @@ class _LevelSelectionHeader extends StatelessWidget {
               child: Material(
                 color: Colors.transparent,
                 child: InkWell(
-                  onTap: () => context.go('/onboarding/assessment-intro'),
+                  onTap: () {
+                    if (context.canPop()) {
+                      context.pop();
+                    } else {
+                      context.go('/onboarding/assessment-intro');
+                    }
+                  },
                   borderRadius: BorderRadius.circular(16),
                   child: Container(
                     width: 43,

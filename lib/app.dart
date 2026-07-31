@@ -7,9 +7,12 @@ import 'package:go_router/go_router.dart';
 import 'core/theme/app_theme.dart';
 import 'data/services/app_usage_service.dart';
 import 'presentation/screens/main/main_screen.dart';
+import 'presentation/screens/onboarding/assessment_level_screen.dart';
 import 'presentation/screens/onboarding/level_assessment_intro_screen.dart';
 import 'presentation/screens/onboarding/level_selection_screen.dart';
 import 'presentation/screens/onboarding/language_onboarding_screen.dart';
+import 'presentation/screens/onboarding/survey_carousel_screen.dart';
+import 'presentation/screens/onboarding/survey_intro_screen.dart';
 import 'presentation/screens/splash/splash_screen.dart';
 import 'shared/providers/app_providers.dart';
 
@@ -24,10 +27,26 @@ final _router = GoRouter(
     GoRoute(
       path: '/onboarding/assessment-intro',
       builder: (context, state) => const LevelAssessmentIntroScreen(),
-    ),
-    GoRoute(
-      path: '/onboarding/level',
-      builder: (context, state) => const LevelSelectionScreen(),
+      routes: [
+        GoRoute(
+          path: 'assessment-level',
+          builder: (context, state) => const AssessmentLevelScreen(),
+        ),
+        GoRoute(
+          path: 'level',
+          builder: (context, state) => const LevelSelectionScreen(),
+        ),
+        GoRoute(
+          path: 'survey',
+          builder: (context, state) => const SurveyIntroScreen(),
+          routes: [
+            GoRoute(
+              path: 'questions',
+              builder: (context, state) => const SurveyCarouselScreen(),
+            ),
+          ],
+        ),
+      ],
     ),
     GoRoute(path: '/', builder: (context, state) => const MainScreen()),
   ],

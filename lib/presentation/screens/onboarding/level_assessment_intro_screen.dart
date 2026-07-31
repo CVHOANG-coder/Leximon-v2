@@ -1,40 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../shared/providers/app_providers.dart';
-
-class LevelAssessmentIntroScreen extends ConsumerStatefulWidget {
+class LevelAssessmentIntroScreen extends StatelessWidget {
   const LevelAssessmentIntroScreen({super.key});
-
-  @override
-  ConsumerState<LevelAssessmentIntroScreen> createState() =>
-      _LevelAssessmentIntroScreenState();
-}
-
-class _LevelAssessmentIntroScreenState
-    extends ConsumerState<LevelAssessmentIntroScreen> {
-  bool _isFinishing = false;
-
-  Future<void> _finishOnboarding() async {
-    if (_isFinishing) return;
-    setState(() => _isFinishing = true);
-    try {
-      await ref.read(appLanguageServiceProvider).completeOnboarding();
-      if (!mounted) return;
-      context.go('/');
-    } catch (_) {
-      if (!mounted) return;
-      setState(() => _isFinishing = false);
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Không thể hoàn tất thiết lập. Vui lòng thử lại.'),
-        ),
-      );
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -62,8 +32,10 @@ class _LevelAssessmentIntroScreenState
                   const _AssessmentHeader(),
                   Expanded(
                     child: _AssessmentPanel(
-                      isFinishing: _isFinishing,
-                      onStartTest: _finishOnboarding,
+                      isFinishing: false,
+                      onStartTest: () => context.push(
+                        '/onboarding/assessment-intro/assessment-level',
+                      ),
                     ),
                   ),
                   SafeArea(
@@ -71,9 +43,8 @@ class _LevelAssessmentIntroScreenState
                     minimum: const EdgeInsets.fromLTRB(20, 4, 20, 10),
                     child: TextButton(
                       key: const ValueKey('assessment-skip'),
-                      onPressed: _isFinishing
-                          ? null
-                          : () => context.go('/onboarding/level'),
+                      onPressed: () =>
+                          context.push('/onboarding/assessment-intro/level'),
                       style: TextButton.styleFrom(
                         foregroundColor: const Color(0xFF155CFF),
                         textStyle: const TextStyle(
@@ -110,7 +81,13 @@ class _AssessmentHeader extends StatelessWidget {
               label: 'Quay lại',
               button: true,
               child: InkWell(
-                onTap: () => context.go('/onboarding/language'),
+                onTap: () {
+                  if (context.canPop()) {
+                    context.pop();
+                  } else {
+                    context.go('/onboarding/language');
+                  }
+                },
                 borderRadius: BorderRadius.circular(14),
                 child: Container(
                   width: 36,

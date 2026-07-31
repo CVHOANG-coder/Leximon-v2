@@ -45,7 +45,7 @@ class _LanguageOnboardingScreenState
       ref.read(selectedAppLanguageProvider.notifier).state =
           _selectedLanguageCode;
       if (!mounted) return;
-      context.go('/onboarding/assessment-intro');
+      context.push('/onboarding/assessment-intro');
     } catch (_) {
       if (!mounted) return;
       setState(() => _isSaving = false);
