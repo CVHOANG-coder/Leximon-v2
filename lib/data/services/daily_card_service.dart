@@ -1,9 +1,10 @@
 import 'package:drift/drift.dart';
 
 import '../local/app_database.dart';
+import '../models/sentence_asset_index.dart';
 import 'exercise_error_mask.dart';
 
-enum DailyTaskType { repeat, learn, train, difficult }
+enum DailyTaskType { repeat, learn, train, sentences, difficult }
 
 bool areDailyTaskGoalsFinished({
   required int repeatWordsGoal,
@@ -14,16 +15,21 @@ bool areDailyTaskGoalsFinished({
   required int trainedWordsCount,
   required int difficultWordsGoal,
   required int difficultWordsTrainedCount,
+  int wordsInSentencesGoal = 0,
+  int wordsInSentencesCount = 0,
 }) {
   final hasInitializedGoal =
       repeatWordsGoal > 0 ||
       learnWordsGoal > 0 ||
       trainWordsGoal > 0 ||
-      difficultWordsGoal > 0;
+      difficultWordsGoal > 0 ||
+      wordsInSentencesGoal > 0;
   return hasInitializedGoal &&
       (repeatWordsGoal == 0 || repeatedWordsCount >= repeatWordsGoal) &&
       (learnWordsGoal == 0 || learnedWordsCount >= learnWordsGoal) &&
       (trainWordsGoal == 0 || trainedWordsCount >= trainWordsGoal) &&
+      (wordsInSentencesGoal == 0 ||
+          wordsInSentencesCount >= wordsInSentencesGoal) &&
       (difficultWordsGoal == 0 ||
           difficultWordsTrainedCount >= difficultWordsGoal);
 }
@@ -61,8 +67,12 @@ class DailyCardSnapshot {
 /// [wordsPerDay] is injected from app settings. The default preserves the
 /// current product value when no preference has been selected yet.
 class DailyCardService {
-  DailyCardService(this._database, {this.wordsPerDay = defaultLearnWordsGoal})
-    : assert(wordsPerDay > 0);
+  DailyCardService(
+    this._database, {
+    this.wordsPerDay = defaultLearnWordsGoal,
+    this.sentenceFeatureEnabled = false,
+    this.sentenceWordIds = sentenceAssetWordIds,
+  }) : assert(wordsPerDay > 0);
 
   static const defaultLearnWordsGoal = 8;
   static const maxRepeatWordsGoal = 60;
@@ -71,6 +81,8 @@ class DailyCardService {
 
   final AppDatabase _database;
   final int wordsPerDay;
+  final bool sentenceFeatureEnabled;
+  final Set<int> sentenceWordIds;
 
   Future<DailyCardSnapshot> load({DateTime? now}) async {
     final currentTime = now ?? DateTime.now();
@@ -107,11 +119,21 @@ class DailyCardService {
           row.repetitionFastBrainDate != null &&
           row.repetitionFastBrainDate! <= currentTime.millisecondsSinceEpoch;
     }).length;
+    final sentenceEligibleCount = sentenceFeatureEnabled
+        ? progressRows.where((row) {
+            return enabledWordIds.contains(row.id) &&
+                sentenceWordIds.contains(row.id) &&
+                !row.markedAsKnown &&
+                !row.deletedByUser &&
+                (row.repetitionStep > 0 || row.onFastBrain);
+          }).length
+        : 0;
     final visit = await _ensureVisit(
       today: today,
       repeatableCount: repeatableCount,
       fastBrainCount: fastBrainCount,
       difficultCount: difficultCount,
+      sentenceEligibleCount: sentenceEligibleCount,
     );
 
     final tasks = <DailyTaskSnapshot>[
@@ -131,6 +153,12 @@ class DailyCardService {
           type: DailyTaskType.train,
           completed: visit.trainedWordsCount,
           count: visit.trainWordsGoal,
+        ),
+      if (visit.wordsInSentencesGoal != 0)
+        DailyTaskSnapshot(
+          type: DailyTaskType.sentences,
+          completed: visit.wordsInSentencesCount,
+          count: visit.wordsInSentencesGoal,
         ),
       if (visit.difficultWordsGoal != 0)
         DailyTaskSnapshot(
@@ -154,6 +182,7 @@ class DailyCardService {
         repeatableCount: repeatableCount,
         fastBrainCount: fastBrainCount,
         difficultCount: difficultCount,
+        sentenceEligibleCount: sentenceEligibleCount,
       ),
       isFirstLearningDay: isFirstLearningDay,
     );
@@ -164,6 +193,7 @@ class DailyCardService {
     required int repeatableCount,
     required int fastBrainCount,
     required int difficultCount,
+    required int sentenceEligibleCount,
   }) {
     final learnGoal = wordsPerDay;
     final repeatGoal = repeatableCount == 0
@@ -171,6 +201,7 @@ class DailyCardService {
         : repeatableCount.clamp(1, maxRepeatWordsGoal).toInt();
     final trainGoal = fastBrainCount >= learnGoal ? learnGoal : 0;
     final difficultGoal = difficultCount >= learnGoal ? learnGoal : 0;
+    final sentenceGoal = sentenceEligibleCount >= 4 ? 4 : 0;
 
     return _database.transaction(() async {
       final existing = await (_database.select(
@@ -186,6 +217,8 @@ class DailyCardService {
           trainedWordsCount: 0,
           difficultWordsGoal: difficultGoal,
           difficultWordsTrainedCount: 0,
+          wordsInSentencesGoal: sentenceGoal,
+          wordsInSentencesCount: 0,
         );
         final id = await _database
             .into(_database.visitModels)
@@ -196,6 +229,7 @@ class DailyCardService {
                 learnWordsGoal: Value(learnGoal),
                 trainWordsGoal: Value(trainGoal),
                 difficultWordsGoal: Value(difficultGoal),
+                wordsInSentencesGoal: Value(sentenceGoal),
                 areDailyTasksFinished: Value(areGoalsFinished),
               ),
             );
@@ -205,6 +239,10 @@ class DailyCardService {
       }
 
       if (existing.learnWordsGoal != 0) {
+        final effectiveSentenceGoal =
+            existing.wordsInSentencesGoal == 0 && sentenceGoal > 0
+            ? sentenceGoal
+            : existing.wordsInSentencesGoal;
         final areGoalsFinished = areDailyTaskGoalsFinished(
           repeatWordsGoal: existing.repeatWordsGoal,
           repeatedWordsCount: existing.repeatedWordsCount,
@@ -214,14 +252,20 @@ class DailyCardService {
           trainedWordsCount: existing.trainedWordsCount,
           difficultWordsGoal: existing.difficultWordsGoal,
           difficultWordsTrainedCount: existing.difficultWordsTrainedCount,
+          wordsInSentencesGoal: effectiveSentenceGoal,
+          wordsInSentencesCount: existing.wordsInSentencesCount,
         );
-        if (existing.areDailyTasksFinished == areGoalsFinished) {
+        if (existing.areDailyTasksFinished == areGoalsFinished &&
+            existing.wordsInSentencesGoal == effectiveSentenceGoal) {
           return existing;
         }
         await (_database.update(
           _database.visitModels,
         )..where((row) => row.id.equals(existing.id))).write(
-          VisitModelsCompanion(areDailyTasksFinished: Value(areGoalsFinished)),
+          VisitModelsCompanion(
+            areDailyTasksFinished: Value(areGoalsFinished),
+            wordsInSentencesGoal: Value(effectiveSentenceGoal),
+          ),
         );
         return (_database.select(
           _database.visitModels,
@@ -237,6 +281,8 @@ class DailyCardService {
         trainedWordsCount: existing.trainedWordsCount,
         difficultWordsGoal: difficultGoal,
         difficultWordsTrainedCount: existing.difficultWordsTrainedCount,
+        wordsInSentencesGoal: sentenceGoal,
+        wordsInSentencesCount: existing.wordsInSentencesCount,
       );
       await (_database.update(
         _database.visitModels,
@@ -246,6 +292,7 @@ class DailyCardService {
           learnWordsGoal: Value(learnGoal),
           trainWordsGoal: Value(trainGoal),
           difficultWordsGoal: Value(difficultGoal),
+          wordsInSentencesGoal: Value(sentenceGoal),
           areDailyTasksFinished: Value(areGoalsFinished),
         ),
       );
@@ -259,11 +306,13 @@ class DailyCardService {
     required int repeatableCount,
     required int fastBrainCount,
     required int difficultCount,
+    required int sentenceEligibleCount,
   }) {
     return [
       DailyTaskType.learn,
       if (repeatableCount > 0) DailyTaskType.repeat,
       if (fastBrainCount >= 4) DailyTaskType.train,
+      if (sentenceEligibleCount >= 4) DailyTaskType.sentences,
       if (difficultCount >= 4) DailyTaskType.difficult,
     ];
   }

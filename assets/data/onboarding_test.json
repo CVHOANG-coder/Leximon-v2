@@ -1,0 +1,194 @@
+[
+  {
+    "word": "calendar",
+    "type": "writing_select_2",
+    "variants": [
+      "calendar",
+      "calender"
+    ],
+    "level": "simple"
+  },
+  {
+    "word": "tattoo",
+    "type": "writing_select_2",
+    "variants": [
+      "tatoo",
+      "tattoo"
+    ],
+    "level": "simple"
+  },
+  {
+    "word": "believe",
+    "type": "writing_select_2",
+    "variants": [
+      "believe",
+      "beleive"
+    ],
+    "level": "middle"
+  },
+  {
+    "word": "tomorrow",
+    "type": "writing_select_2",
+    "variants": [
+      "tommorow",
+      "tomorrow"
+    ],
+    "level": "middle"
+  },
+  {
+    "word": "wedding",
+    "type": "writing_select_2",
+    "variants": [
+      "wedding",
+      "weding"
+    ],
+    "level": "hard"
+  },
+  {
+    "word": "happened",
+    "type": "writing_select_2",
+    "variants": [
+      "happend",
+      "happened"
+    ],
+    "level": "hard"
+  },
+  {
+    "word": "Bicycle",
+    "type": "image_select_4",
+    "variants": [
+      "Rabbit",
+      "Bicycle",
+      "School",
+      "Plant"
+    ],
+    "level": "simple"
+  },
+  {
+    "word": "Honey",
+    "type": "image_select_4",
+    "variants": [
+      "Honey",
+      "Money",
+      "Funny",
+      "Bee"
+    ],
+    "level": "simple"
+  },
+  {
+    "word": "Jeans",
+    "type": "image_select_4",
+    "variants": [
+      "Gene",
+      "Jeans",
+      "Geese",
+      "Flip-flops"
+    ],
+    "level": "middle"
+  },
+  {
+    "word": "Rain",
+    "type": "image_select_4",
+    "variants": [
+      "Rain",
+      "Train",
+      "Brain",
+      "Snow"
+    ],
+    "level": "middle"
+  },
+  {
+    "word": "Cake",
+    "type": "image_select_4",
+    "variants": [
+      "Cake",
+      "Make",
+      "Fake",
+      "Bake"
+    ],
+    "level": "hard"
+  },
+  {
+    "word": "Pear",
+    "type": "image_select_4",
+    "variants": [
+      "Bare",
+      "Bear",
+      "Beer",
+      "Pear"
+    ],
+    "level": "hard"
+  },
+  {
+    "word": "Milk",
+    "type": "translate_select_4",
+    "variants": [
+      "4079",
+      "4080",
+      "780",
+      "935"
+    ],
+    "level": "simple",
+    "translate": "4079"
+  },
+  {
+    "word": "Lucky",
+    "type": "translate_select_4",
+    "variants": [
+      "3508",
+      "2698",
+      "2468",
+      "2579"
+    ],
+    "level": "simple",
+    "translate": "3508"
+  },
+  {
+    "word": "Thunder",
+    "type": "translate_select_4",
+    "variants": [
+      "595",
+      "563",
+      "5115",
+      "4657"
+    ],
+    "level": "simple",
+    "translate": "595"
+  },
+  {
+    "word": "Bridge",
+    "type": "translate_select_4",
+    "variants": [
+      "1984",
+      "5423",
+      "3798",
+      "629"
+    ],
+    "level": "middle",
+    "translate": "629"
+  },
+  {
+    "word": "See you!",
+    "type": "meaning_select_4",
+    "variants": [
+      "Hello",
+      "Good night",
+      "Goodbye",
+      "Miss you"
+    ],
+    "level": "hard",
+    "translate": "Goodbye"
+  },
+  {
+    "word": "LOL",
+    "type": "meaning_select_4",
+    "variants": [
+      "limited operating line",
+      "leave off later",
+      "laughing out loud",
+      "luck of life"
+    ],
+    "level": "hard",
+    "translate": "laughing out loud"
+  }
+]

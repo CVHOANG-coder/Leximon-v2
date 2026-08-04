@@ -208,6 +208,47 @@ void main() {
     expect(find.text('learned one'), findsOneWidget);
     expect(find.text('learned two'), findsNothing);
   });
+
+  testWidgets('shows topic sentence training with four eligible words', (
+    tester,
+  ) async {
+    const sentenceTopic = Topic(
+      id: 7,
+      order: 1,
+      original: 'Travel',
+      translated: 'Du lịch',
+      words: [
+        {'id': 4, 'writing': 'one', 'translation': 'một'},
+        {'id': 5, 'writing': 'two', 'translation': 'hai'},
+        {'id': 9, 'writing': 'three', 'translation': 'ba'},
+        {'id': 11, 'writing': 'four', 'translation': 'bốn'},
+      ],
+    );
+    await tester.pumpWidget(
+      _testApp(
+        topic: sentenceTopic,
+        repetitionData: _repetitionData(0),
+        wordProgress: {
+          for (final id in [4, 5, 9, 11]) id: _learnedProgress(id),
+        },
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.scrollUntilVisible(
+      find.text('Ghép câu theo chủ đề'),
+      250,
+      scrollable: find.byType(Scrollable).first,
+    );
+    expect(find.text('Ghép câu theo chủ đề'), findsOneWidget);
+    expect(
+      find.ancestor(
+        of: find.text('Ghép câu theo chủ đề'),
+        matching: find.byType(InkWell),
+      ),
+      findsOneWidget,
+    );
+  });
 }
 
 Widget _testApp({

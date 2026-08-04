@@ -11,6 +11,7 @@ import 'package:leximon/data/services/learning_progress_service.dart';
 import 'package:leximon/presentation/screens/home/home_screen.dart';
 import 'package:leximon/presentation/screens/repetition_practice/repetition_practice_screen.dart';
 import 'package:leximon/presentation/screens/review_practice/review_practice_screen.dart';
+import 'package:leximon/presentation/screens/sentence_training/sentence_training_screen.dart';
 import 'package:leximon/presentation/screens/word_study/word_study_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
 
@@ -120,6 +121,45 @@ void main() {
     expect(find.byType(WordStudyScreen), findsNothing);
     expect(find.text('DIFFICULT WORDS'), findsOneWidget);
     expect(find.text('0 / 4'), findsOneWidget);
+  });
+
+  testWidgets('Home opens Words in Sentences as a daily task', (tester) async {
+    final database = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(database.close);
+    final now = DateTime.now();
+    const sentenceWordIds = [4, 5, 9, 11];
+    await database.batch((batch) {
+      batch.insertAll(database.wordModels, [
+        for (final id in sentenceWordIds)
+          WordModelsCompanion.insert(
+            id: id,
+            topicId: 1,
+            writing: 'word$id',
+            translation: 'nghĩa $id',
+            isEnabled: true,
+            priority: 1,
+            level: 1,
+          ),
+      ]);
+      batch.insertAll(database.learningProgressModels, [
+        for (final id in sentenceWordIds)
+          LearningProgressModelsCompanion.insert(
+            id: Value(id),
+            creationDate: now.millisecondsSinceEpoch,
+            repetitionStep: const Value(1),
+          ),
+      ]);
+    });
+    await _pumpHome(tester, database);
+
+    expect(find.text('Ghép câu theo ngữ cảnh'), findsOneWidget);
+    await tester.tap(find.text('Ghép câu theo ngữ cảnh'));
+    await _pumpNavigation(tester);
+
+    final screen = tester.widget<SentenceTrainingScreen>(
+      find.byType(SentenceTrainingScreen),
+    );
+    expect(screen.source.name, 'daily');
   });
 }
 

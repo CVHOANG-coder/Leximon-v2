@@ -38,7 +38,7 @@ class HomeMainTaskService {
     DailyTaskType type, {
     DateTime? now,
   }) async {
-    if (type == DailyTaskType.learn) {
+    if (type == DailyTaskType.learn || type == DailyTaskType.sentences) {
       throw HomeMainTaskUnavailableException(type);
     }
 
@@ -62,6 +62,7 @@ class HomeMainTaskService {
       ),
       DailyTaskType.difficult => _difficultWords(enabledWords, progressById),
       DailyTaskType.learn => const <WordRow>[],
+      DailyTaskType.sentences => const <WordRow>[],
     };
 
     final requiredCount = type == DailyTaskType.repeat ? 1 : maxPracticeWords;

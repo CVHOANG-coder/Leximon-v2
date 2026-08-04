@@ -12,9 +12,12 @@ import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/topic_progress_service.dart';
 import '../../../data/services/topic_repetition_service.dart';
 import '../../../data/models/topic.dart';
+import '../../../data/models/sentence_exercise.dart';
+import '../../../data/models/sentence_asset_index.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../../widgets/leximon_widgets.dart';
 import '../repetition_practice/repetition_practice_screen.dart';
+import '../sentence_training/sentence_training_screen.dart';
 import '../word_study/word_study_screen.dart';
 
 class TopicDetailScreen extends ConsumerStatefulWidget {
@@ -47,6 +50,8 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         TopicProgressDetails.empty(topic.wordCount);
     final repetitionData = ref.watch(topicRepetitionDataProvider(topic.id));
     final progressByWordId = ref.watch(wordProgressProvider).valueOrNull;
+    final sentenceFeatureEnabled =
+        ref.watch(selectedAppLanguageProvider) == 'vi';
     return Scaffold(
       backgroundColor: AppColors.background,
       body: Stack(
@@ -74,7 +79,11 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                       SliverPadding(
                         padding: const EdgeInsets.fromLTRB(18, 16, 18, 0),
                         sliver: SliverToBoxAdapter(
-                          child: _actionsSection(repetitionData),
+                          child: _actionsSection(
+                            repetitionData,
+                            progressByWordId,
+                            sentenceFeatureEnabled,
+                          ),
                         ),
                       ),
                       SliverPadding(
@@ -310,11 +319,28 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
     );
   }
 
-  Widget _actionsSection(AsyncValue<TopicRepetitionData> repetitionData) {
+  Widget _actionsSection(
+    AsyncValue<TopicRepetitionData> repetitionData,
+    Map<int, LearningProgressRow>? progressByWordId,
+    bool sentenceFeatureEnabled,
+  ) {
     final data = repetitionData.valueOrNull;
     final repeatableCount = data?.words.length ?? 0;
     final canRepeat = data?.canStart ?? false;
     final isLoading = repetitionData.isLoading || _isOpeningRepetition;
+    final sentenceWordCount = sentenceFeatureEnabled
+        ? topic.words.where((word) {
+            final id = (word['id'] as num?)?.toInt();
+            final progress = id == null ? null : progressByWordId?[id];
+            return progress != null &&
+                id != null &&
+                sentenceAssetWordIds.contains(id) &&
+                !progress.deletedByUser &&
+                !progress.markedAsKnown &&
+                (progress.repetitionStep > 0 || progress.onFastBrain);
+          }).length
+        : 0;
+    final canPracticeSentences = sentenceWordCount >= 4;
     return LeximonSurface(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -364,6 +390,18 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                 fontSize: 10,
                 height: 1.4,
               ),
+            ),
+          ],
+          if (canPracticeSentences) ...[
+            const SizedBox(height: 10),
+            _ActionItem(
+              iconAsset: 'assets/svgs/practice.svg',
+              title: 'Ghép câu theo chủ đề',
+              description: 'Luyện 4 từ đã học trong các câu thuộc chủ đề này.',
+              color: const Color(0xFFF3F1FF),
+              iconBackground: const Color(0xFFE5E1FF),
+              accentColor: const Color(0xFF5E55C9),
+              onTap: _openTopicSentences,
             ),
           ],
         ],
@@ -595,6 +633,20 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
     } finally {
       if (mounted) setState(() => _isOpeningRepetition = false);
     }
+  }
+
+  Future<void> _openTopicSentences() async {
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (_) => SentenceTrainingScreen(
+          source: SentenceTrainingSource.topic,
+          topicId: topic.id,
+        ),
+      ),
+    );
+    if (!mounted) return;
+    ref.invalidate(wordProgressProvider);
+    ref.invalidate(dailyCardProvider);
   }
 
   void _showMessage(String message) {

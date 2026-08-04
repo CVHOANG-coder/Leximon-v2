@@ -102,6 +102,41 @@ class LearningProgressModels extends Table {
   Set<Column<Object>> get primaryKey => {id};
 }
 
+/// Exposure counters for Words in Sentences are kept separate from the core
+/// learning row so bundled sentence content can evolve without rewriting it.
+@DataClassName('WordSentenceProgressRow')
+class WordSentenceProgressModels extends Table {
+  IntColumn get wordId => integer()();
+
+  IntColumn get finishedCount => integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {wordId};
+}
+
+@DataClassName('SentenceExposureRow')
+@TableIndex(name: 'sentence_exposure_word', columns: {#wordId})
+class SentenceExposureModels extends Table {
+  IntColumn get sentenceId => integer()();
+
+  IntColumn get wordId => integer()();
+
+  IntColumn get finishedCount => integer().withDefault(const Constant(0))();
+
+  IntColumn get insertWordTask => integer().withDefault(const Constant(0))();
+
+  IntColumn get constructorTask => integer().withDefault(const Constant(1))();
+
+  IntColumn get constructorAudioTask =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get constructorInverseTask =>
+      integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {sentenceId};
+}
+
 @TableIndex(
   name: 'learning_session_status_started_at',
   columns: {#status, #startedAt},
@@ -251,6 +286,9 @@ class VisitModels extends Table {
   IntColumn get difficultWordsGoal =>
       integer().withDefault(const Constant(0))();
 
+  IntColumn get wordsInSentencesGoal =>
+      integer().withDefault(const Constant(0))();
+
   IntColumn get repeatedWordsCount =>
       integer().withDefault(const Constant(0))();
 
@@ -259,6 +297,15 @@ class VisitModels extends Table {
   IntColumn get trainedWordsCount => integer().withDefault(const Constant(0))();
 
   IntColumn get difficultWordsTrainedCount =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get wordsInSentencesCount =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get sentencesTrainedCount =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get sentencesTrainedExtraCount =>
       integer().withDefault(const Constant(0))();
 
   IntColumn get problemWordsHealedCount =>
@@ -332,6 +379,8 @@ class UserProfiles extends Table {
     TopicModels,
     WordModels,
     LearningProgressModels,
+    WordSentenceProgressModels,
+    SentenceExposureModels,
     LearningSessions,
     SessionExercises,
     SimilarWordModels,
@@ -352,7 +401,7 @@ class AppDatabase extends _$AppDatabase {
   static const topicAssetSource = 'bundled_topic_word_params';
 
   @override
-  int get schemaVersion => 5;
+  int get schemaVersion => 6;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -375,6 +424,14 @@ class AppDatabase extends _$AppDatabase {
       }
       if (from < 5) {
         await m.createTable(userProfiles);
+      }
+      if (from < 6) {
+        await m.createTable(wordSentenceProgressModels);
+        await m.createTable(sentenceExposureModels);
+        await m.addColumn(visitModels, visitModels.wordsInSentencesGoal);
+        await m.addColumn(visitModels, visitModels.wordsInSentencesCount);
+        await m.addColumn(visitModels, visitModels.sentencesTrainedCount);
+        await m.addColumn(visitModels, visitModels.sentencesTrainedExtraCount);
       }
     },
   );

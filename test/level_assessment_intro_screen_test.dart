@@ -3,11 +3,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:leximon/core/services/app_language_service.dart';
+import 'package:leximon/data/models/onboarding_vocabulary_test.dart';
+import 'package:leximon/data/services/onboarding_vocabulary_test_service.dart';
 import 'package:leximon/presentation/screens/onboarding/assessment_level_screen.dart';
+import 'package:leximon/presentation/screens/onboarding/free_trial_offer_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/level_assessment_intro_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/level_selection_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/survey_carousel_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/survey_intro_screen.dart';
+import 'package:leximon/presentation/screens/onboarding/subscription_plan_screen.dart';
+import 'package:leximon/presentation/screens/onboarding/trial_reminder_screen.dart';
+import 'package:leximon/presentation/screens/onboarding/vocabulary_test_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -37,12 +43,33 @@ void main() {
               builder: (context, state) => const AssessmentLevelScreen(),
             ),
             GoRoute(
+              path: 'vocabulary-test',
+              builder: (context, state) => VocabularyTestScreen(
+                startingBand: VocabularyStartingBand.fromQuery(
+                  state.uri.queryParameters['band'],
+                ),
+                service: _AssessmentFakeVocabularyTestService(),
+              ),
+            ),
+            GoRoute(
               path: 'survey',
               builder: (context, state) => const SurveyIntroScreen(),
               routes: [
                 GoRoute(
                   path: 'questions',
                   builder: (context, state) => const SurveyCarouselScreen(),
+                ),
+                GoRoute(
+                  path: 'free-trial',
+                  builder: (context, state) => const FreeTrialOfferScreen(),
+                ),
+                GoRoute(
+                  path: 'trial-reminder',
+                  builder: (context, state) => const TrialReminderScreen(),
+                ),
+                GoRoute(
+                  path: 'subscription',
+                  builder: (context, state) => const SubscriptionPlanScreen(),
                 ),
               ],
             ),
@@ -111,8 +138,13 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
+    expect(find.textContaining('Tiếng Anh giúp bạn tiến'), findsOneWidget);
+    expect(find.text('Tiếp tục cùng Leximon'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+
     expect(
-      find.text('Bạn dùng tiếng Anh thường xuyên\nnhư thế nào?'),
+      find.text('Bạn dùng tiếng Anh thường xuyên như thế nào?'),
       findsOneWidget,
     );
     await tester.tap(find.byKey(const ValueKey('survey-frequency-3')));
@@ -127,19 +159,17 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
+    expect(find.textContaining('Tiếng Anh là chìa khóa'), findsOneWidget);
+    expect(find.text('Tiếp tục hành trình'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+
     expect(find.text('Bạn cần bao lâu\nđể có kết quả?'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-result-timeline-1')));
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
-    expect(
-      find.text(
-        'Bạn sẵn sàng dành bao nhiêu\n'
-        'thời gian mỗi ngày để\n'
-        'học tiếng Anh?',
-      ),
-      findsOneWidget,
-    );
+    expect(find.textContaining('Bạn sẵn sàng dành bao nhiêu'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-daily-study-time-3')));
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
@@ -156,14 +186,7 @@ void main() {
 
     await tester.tap(find.byKey(const ValueKey('survey-habit-back')));
     await tester.pumpAndSettle();
-    expect(
-      find.text(
-        'Bạn sẵn sàng dành bao nhiêu\n'
-        'thời gian mỗi ngày để\n'
-        'học tiếng Anh?',
-      ),
-      findsOneWidget,
-    );
+    expect(find.textContaining('Bạn sẵn sàng dành bao nhiêu'), findsOneWidget);
 
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
@@ -171,7 +194,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(
-      find.text('Với bạn, giờ nào là thuận tiện\nđể học tiếng Anh?'),
+      find.textContaining('Với bạn, giờ nào là thuận tiện'),
       findsOneWidget,
     );
     expect(find.text('19:50'), findsOneWidget);
@@ -199,7 +222,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(
-      find.text('Đối với bạn, khó khăn lớn nhất\ntrong tiếng Anh là gì?'),
+      find.textContaining('Đối với bạn, khó khăn lớn nhất'),
       findsOneWidget,
     );
     expect(find.text('Học và ghi nhớ từ mới'), findsOneWidget);
@@ -211,14 +234,7 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
-    expect(
-      find.text(
-        'Điều gì khiến bạn không thể\n'
-        'học tiếng Anh một cách\n'
-        'nhanh chóng?',
-      ),
-      findsOneWidget,
-    );
+    expect(find.textContaining('Điều gì khiến bạn không thể'), findsOneWidget);
     expect(find.text('Thiếu thời gian'), findsOneWidget);
     expect(find.text('Thiếu học liệu tốt'), findsOneWidget);
     expect(
@@ -232,6 +248,20 @@ void main() {
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
+    expect(find.text('Chọn các chủ đề\nmà bạn muốn học'), findsOneWidget);
+    expect(find.text('Chọn tất cả'), findsOneWidget);
+    expect(find.text('Du lịch'), findsOneWidget);
+    expect(find.text('Mua sắm'), findsOneWidget);
+    expect(find.text('Khi đi phỏng vấn xin việc'), findsOneWidget);
+    expect(find.text('Kinh doanh và Tài chính'), findsOneWidget);
+    expect(find.text('Gia đình và Bạn bè'), findsOneWidget);
+    expect(find.text('Giao tiếp'), findsOneWidget);
+    expect(find.text('Trường học và Đại học'), findsOneWidget);
+    expect(find.text('Lao động và Việc làm'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('survey-topic-select-all')));
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+
     expect(
       find.textContaining('Bright đã giúp 2.000.000 người dùng'),
       findsOneWidget,
@@ -240,17 +270,79 @@ void main() {
     expect(find.byKey(const ValueKey('survey-social-reviews')), findsOneWidget);
     expect(find.text('Bắt đầu học nào!'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 350));
+
+    expect(find.text('Đang phân tích câu trả\nlời của bạn'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('survey-analysis-lottie')),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const ValueKey('survey-carousel-continue')),
+      findsNothing,
+    );
+
+    await tester.pump(const Duration(seconds: 5));
     await tester.pumpAndSettle();
 
-    expect(find.textContaining('Tiếng Anh là chìa khóa'), findsOneWidget);
-    expect(find.text('Tiếp tục hành trình'), findsOneWidget);
-    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    expect(find.text('7 ngày miễn phí'), findsOneWidget);
+    expect(find.text('Dùng thử miễn phí'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('free-trial-illustration')),
+      findsOneWidget,
+    );
+    expect(find.byKey(const ValueKey('survey-carousel')), findsNothing);
+    expect(
+      preferences.getBool(AppLanguageService.onboardingCompletedKey),
+      isNot(true),
+    );
+
+    await tester.tap(find.byKey(const ValueKey('free-trial-start')));
     await tester.pumpAndSettle();
 
-    expect(find.text('Tiếng Anh giúp bạn tiến xa hơn'), findsOneWidget);
-    expect(find.text('Tiếp tục cùng Leximon'), findsOneWidget);
+    expect(find.text('2 ngày trước khi'), findsOneWidget);
+    expect(find.text('kết thúc thời gian dùng thử'), findsOneWidget);
+    expect(
+      find.textContaining('Thông báo đẩy sẽ được gửi vào ngày'),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const ValueKey('trial-reminder-illustration')),
+      findsOneWidget,
+    );
+    expect(find.byKey(const ValueKey('trial-reminder-back')), findsOneWidget);
+    expect(
+      preferences.getBool(AppLanguageService.onboardingCompletedKey),
+      isNot(true),
+    );
 
-    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.tap(find.byKey(const ValueKey('trial-reminder-start')));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Trong '), findsOneWidget);
+    expect(find.text('28'), findsOneWidget);
+    expect(find.text('2 tháng'), findsOneWidget);
+    expect(find.text('12 tháng'), findsOneWidget);
+    expect(find.text('PHỔ BIẾN'), findsOneWidget);
+    expect(find.text('2.099.000 đ'), findsOneWidget);
+    expect(find.text('174.917 đ / thg'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('subscription-illustration')),
+      findsOneWidget,
+    );
+    expect(find.byKey(const ValueKey('subscription-back')), findsOneWidget);
+    expect(
+      preferences.getBool(AppLanguageService.onboardingCompletedKey),
+      isNot(true),
+    );
+
+    await tester.tap(find.byKey(const ValueKey('subscription-plan-2-month')));
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('subscription-start')),
+    );
+    await tester.tap(find.byKey(const ValueKey('subscription-start')));
     await tester.pumpAndSettle();
 
     expect(find.text('App ready'), findsOneWidget);
@@ -277,6 +369,15 @@ void main() {
             GoRoute(
               path: 'assessment-level',
               builder: (context, state) => const AssessmentLevelScreen(),
+            ),
+            GoRoute(
+              path: 'vocabulary-test',
+              builder: (context, state) => VocabularyTestScreen(
+                startingBand: VocabularyStartingBand.fromQuery(
+                  state.uri.queryParameters['band'],
+                ),
+                service: _AssessmentFakeVocabularyTestService(),
+              ),
             ),
             GoRoute(
               path: 'survey',
@@ -315,9 +416,12 @@ void main() {
     expect(tester.takeException(), isNull);
 
     await tester.tap(find.byKey(const ValueKey('assessment-level-start')));
-    await tester.pumpAndSettle();
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 3));
+    await tester.pump();
 
-    expect(find.text('Hãy làm một khảo sát\nngắn nhé!'), findsOneWidget);
+    expect(find.text('Từ này có nghĩa là gì?'), findsOneWidget);
+    expect(find.text('love'), findsOneWidget);
 
     router.pop();
     await tester.pumpAndSettle();
@@ -332,4 +436,32 @@ void main() {
 
     expect(find.text('Làm bài kiểm tra ngắn'), findsNWidgets(2));
   });
+}
+
+class _AssessmentFakeVocabularyTestService
+    extends OnboardingVocabularyTestService {
+  @override
+  Future<List<VocabularyTestQuestion>> loadQuestions(BrightLevel level) async {
+    return List.generate(
+      5,
+      (index) => VocabularyTestQuestion(
+        definition: VocabularyTestDefinition(
+          id: index,
+          task: index == 0 ? 'love' : 'word-$index',
+          frequency: 100 - index,
+          type: VocabularyTaskType.text,
+          level: level,
+        ),
+        writing: index == 0 ? 'love' : 'word-$index',
+        translation: index == 0 ? 'tình yêu' : 'nghĩa-$index',
+        transcription: '',
+        choices: const [
+          VocabularyTestChoice(text: 'Đúng', isCorrect: true),
+          VocabularyTestChoice(text: 'Sai 1', isCorrect: false),
+          VocabularyTestChoice(text: 'Sai 2', isCorrect: false),
+          VocabularyTestChoice(text: 'Sai 3', isCorrect: false),
+        ],
+      ),
+    );
+  }
 }

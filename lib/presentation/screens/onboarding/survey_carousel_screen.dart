@@ -1,9 +1,11 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
-
-import '../../../shared/providers/app_providers.dart';
+import 'package:lottie/lottie.dart';
 
 class SurveyCarouselScreen extends ConsumerStatefulWidget {
   const SurveyCarouselScreen({super.key});
@@ -14,13 +16,14 @@ class SurveyCarouselScreen extends ConsumerStatefulWidget {
 }
 
 class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
-  static const _pageCount = 14;
+  static const _pageCount = 16;
 
   final PageController _pageController = PageController();
   final Set<int> _selectedGoals = {0};
   final Set<int> _selectedLearningMethods = {1, 2, 3};
   final Set<int> _selectedChallenges = {0, 2, 3};
   final Set<int> _selectedBarriers = {};
+  final Set<int> _selectedTopics = {0, 1, 2, 3, 4, 5};
 
   int _currentPage = 0;
   int? _selectedAge;
@@ -47,19 +50,8 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
 
     if (_isFinishing) return;
     setState(() => _isFinishing = true);
-    try {
-      await ref.read(appLanguageServiceProvider).completeOnboarding();
-      if (!mounted) return;
-      context.go('/');
-    } catch (_) {
-      if (!mounted) return;
-      setState(() => _isFinishing = false);
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Không thể hoàn tất thiết lập. Vui lòng thử lại.'),
-        ),
-      );
-    }
+    if (!mounted) return;
+    context.go('/onboarding/assessment-intro/survey/free-trial');
   }
 
   Future<void> _goToPreviousPage() async {
@@ -96,9 +88,10 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
               child: SizedBox.expand(
                 key: ValueKey('survey-background-$_currentPage'),
                 child: Image.asset(
-                  _currentPage >= 6 && _currentPage <= 12
-                      ? 'assets/images/onboarding/bg_open_knowleage.png'
-                      : 'assets/images/onboarding/intro_form_bg.png',
+                  'assets/images/onboarding/bg_open_knowleage.png',
+                  // _currentPage == 5 || _currentPage >= 8
+                  //     ? 'assets/images/onboarding/bg_open_knowleage.png'
+                  //     : 'assets/images/onboarding/intro_form_bg.png',
                   fit: BoxFit.cover,
                   alignment: Alignment.center,
                 ),
@@ -114,6 +107,9 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                     child: PageView(
                       key: const ValueKey('survey-carousel'),
                       controller: _pageController,
+                      physics: _currentPage == 15
+                          ? const NeverScrollableScrollPhysics()
+                          : const PageScrollPhysics(),
                       onPageChanged: (page) {
                         setState(() => _currentPage = page);
                       },
@@ -134,6 +130,7 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                             });
                           },
                         ),
+                        const _SurveySummaryPage(),
                         _FrequencySurveyPage(
                           selectedFrequency: _selectedFrequency,
                           onSelected: (index) {
@@ -150,6 +147,7 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                             });
                           },
                         ),
+                        _KnowledgeJourneyPage(isActive: _currentPage == 5),
                         _ResultTimelineSurveyPage(
                           selectedTimeline: _selectedResultTimeline,
                           onSelected: (index) {
@@ -162,14 +160,15 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                             setState(() => _selectedDailyStudyTime = index);
                           },
                         ),
-                        const _StudyHabitPage(),
+                        _StudyHabitPage(isActive: _currentPage == 8),
                         _PreferredStudyTimePage(
+                          isActive: _currentPage == 9,
                           selectedMinutes: _preferredStudyMinutes,
                           onChanged: (minutes) {
                             setState(() => _preferredStudyMinutes = minutes);
                           },
                         ),
-                        const _StudyReminderPage(),
+                        _StudyReminderPage(isActive: _currentPage == 10),
                         _EnglishChallengePage(
                           selectedChallenges: _selectedChallenges,
                           onToggle: (index) {
@@ -201,33 +200,57 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                             });
                           },
                         ),
+                        _TopicSelectionPage(
+                          selectedTopics: _selectedTopics,
+                          onToggle: (index) {
+                            setState(() {
+                              if (!_selectedTopics.add(index)) {
+                                _selectedTopics.remove(index);
+                              }
+                            });
+                          },
+                          onToggleAll: () {
+                            setState(() {
+                              if (_selectedTopics.length == 8) {
+                                _selectedTopics.clear();
+                              } else {
+                                _selectedTopics
+                                  ..clear()
+                                  ..addAll(List.generate(8, (index) => index));
+                              }
+                            });
+                          },
+                        ),
                         const _SocialProofPage(),
-                        const _KnowledgeJourneyPage(),
-                        const _SurveySummaryPage(),
+                        _AnalysisLoadingPage(
+                          isActive: _currentPage == 15,
+                          onCompleted: _continue,
+                        ),
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(36, 10, 36, 18),
-                    child: _SurveyContinueButton(
-                      label: switch (_currentPage) {
-                        6 => 'Tiếp tục',
-                        8 => 'Tuyệt vời!',
-                        11 => 'Bắt đầu học nào!',
-                        12 => 'Tiếp tục hành trình',
-                        13 => 'Tiếp tục cùng Leximon',
-                        _ => 'Tiếp',
-                      },
-                      showArrow: _currentPage == 12,
-                      useBlueGradient: _currentPage == 11,
-                      isLoading: _isFinishing,
-                      onTap: _continue,
+                  if (_currentPage != 15)
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(24, 10, 24, 18),
+                      child: _SurveyContinueButton(
+                        label: switch (_currentPage) {
+                          2 => 'Tiếp tục cùng Leximon',
+                          5 => 'Tiếp tục hành trình',
+                          8 => 'Tiếp tục',
+                          10 => 'Tuyệt vời!',
+                          14 => 'Bắt đầu học nào!',
+                          _ => 'Tiếp',
+                        },
+                        showArrow: _currentPage == 5,
+                        useBlueGradient: _currentPage == 14,
+                        isLoading: _isFinishing,
+                        onTap: _continue,
+                      ),
                     ),
-                  ),
                 ],
               ),
             ),
-            if (_currentPage == 6 || _currentPage == 7)
+            if (_currentPage == 8 || _currentPage == 9)
               SafeArea(
                 child: Align(
                   alignment: Alignment.topLeft,
@@ -235,7 +258,7 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                     padding: const EdgeInsets.only(left: 20, top: 39),
                     child: IconButton(
                       key: ValueKey(
-                        _currentPage == 6
+                        _currentPage == 8
                             ? 'survey-habit-back'
                             : 'survey-preferred-time-back',
                       ),
@@ -263,26 +286,28 @@ class _SurveyProgressIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final usesDarkBackground = currentPage >= 6 && currentPage <= 12;
+    final usesDarkBackground = currentPage == 5 || currentPage >= 8;
 
     return SizedBox(
       height: 38,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          for (var index = 0; index < 11; index++) ...[
+          for (var index = 0; index < 15; index++) ...[
             AnimatedContainer(
               duration: const Duration(milliseconds: 240),
-              width: 9,
-              height: 9,
+              width: 7,
+              height: 7,
               decoration: BoxDecoration(
                 color: currentPage == index
-                    ? usesDarkBackground
-                          ? const Color(0xFF77D4FF)
-                          : const Color(0xFF073FC8)
-                    : usesDarkBackground
-                    ? const Color(0xFF326DD1)
-                    : Colors.white.withValues(alpha: 0.42),
+                    ? const Color(0xFF77D4FF)
+                    : const Color(0xFF326DD1),
+                // ? usesDarkBackground
+                //       ? const Color(0xFF77D4FF)
+                //       : const Color(0xFF073FC8)
+                // : usesDarkBackground
+                // ? const Color(0xFF326DD1)
+                // : Colors.white.withValues(alpha: 0.42),
                 shape: BoxShape.circle,
                 boxShadow: currentPage == index && usesDarkBackground
                     ? const [
@@ -295,11 +320,11 @@ class _SurveyProgressIndicator extends StatelessWidget {
                     : null,
               ),
             ),
-            const SizedBox(width: 8),
+            const SizedBox(width: 5),
           ],
           AnimatedScale(
             duration: const Duration(milliseconds: 240),
-            scale: currentPage == 13 ? 1.08 : 1,
+            scale: currentPage == 15 ? 1.08 : 1,
             child: Image.asset(
               'assets/images/onboarding/final.png',
               width: 38,
@@ -375,7 +400,7 @@ class _AgeOptionCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(18),
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 180),
-          height: 72,
+          height: 64,
           padding: const EdgeInsets.symmetric(horizontal: 22),
           decoration: _SurveyStyles.cardDecoration(selected: selected),
           child: Row(
@@ -385,8 +410,8 @@ class _AgeOptionCard extends StatelessWidget {
                   label,
                   style: const TextStyle(
                     color: Color(0xFF061B62),
-                    fontSize: 20,
-                    fontWeight: FontWeight.w700,
+                    fontSize: 18,
+                    fontWeight: FontWeight.w600,
                   ),
                 ),
               ),
@@ -404,7 +429,7 @@ class _GoalSurveyPage extends StatelessWidget {
 
   static const _goals = [
     (
-      label: 'Để tìm việc mới và phát triển\nnghề nghiệp',
+      label: 'Để tìm việc mới và phát triển nghề nghiệp',
       asset: 'assets/images/onboarding/job.png',
     ),
     (
@@ -412,15 +437,15 @@ class _GoalSurveyPage extends StatelessWidget {
       asset: 'assets/images/onboarding/travel.png',
     ),
     (
-      label: 'Để nâng cao kết quả học tập hoặc vào\nđại học',
+      label: 'Để nâng cao kết quả học tập hoặc vào đại học',
       asset: 'assets/images/onboarding/study.png',
     ),
     (
-      label: 'Để xem phim, đọc sách báo,\nnghe nhạc',
+      label: 'Để xem phim, đọc sách báo, nghe nhạc',
       asset: 'assets/images/onboarding/entertainment.png',
     ),
     (
-      label: 'Tôi sống ở nước ngoài hoặc dự định\nchuyển ra nước ngoài',
+      label: 'Tôi sống ở nước ngoài hoặc dự định chuyển ra nước ngoài',
       asset: 'assets/images/onboarding/go_aboard.png',
     ),
     (
@@ -513,9 +538,9 @@ class _GoalOptionCard extends StatelessWidget {
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
                     color: Color(0xFF061B62),
-                    fontSize: 15.5,
+                    fontSize: 15,
                     height: 1.25,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w600,
                     letterSpacing: -0.2,
                   ),
                 ),
@@ -543,16 +568,16 @@ class _FrequencySurveyPage extends StatelessWidget {
       asset: 'assets/images/onboarding/rarely.png',
     ),
     (
-      label: 'Đôi khi, ví dụ như khi xem phim hoặc\nđọc sách báo',
+      label: 'Đôi khi, ví dụ như khi xem phim hoặc đọc sách báo',
       asset: 'assets/images/onboarding/sometimes.png',
     ),
     (
-      label: 'Thỉnh thoảng, ví dụ như tại nơi làm\nviệc hoặc khi đi du lịch',
+      label: 'Thỉnh thoảng, ví dụ như tại nơi làm việc hoặc khi đi du lịch',
       asset: 'assets/images/onboarding/occasionally.png',
     ),
     (
       label:
-          'Thường xuyên, vì tôi giao tiếp bằng\ntiếng Anh trong cuộc sống hằng ngày',
+          'Thường xuyên, vì tôi giao tiếp bằng tiếng Anh trong cuộc sống hằng ngày',
       asset: 'assets/images/onboarding/usually.png',
     ),
     (label: 'Không bao giờ dùng', asset: 'assets/images/onboarding/never.png'),
@@ -568,13 +593,13 @@ class _FrequencySurveyPage extends StatelessWidget {
       child: Column(
         children: [
           const Text(
-            'Bạn dùng tiếng Anh thường xuyên\nnhư thế nào?',
+            'Bạn dùng tiếng Anh thường xuyên như thế nào?',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
               fontSize: 25,
               height: 1.12,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w700,
               letterSpacing: -0.6,
               shadows: [
                 Shadow(
@@ -742,9 +767,9 @@ class _LearningHistorySurveyPage extends StatelessWidget {
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
-              fontSize: 25,
+              fontSize: 24,
               height: 1.12,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w700,
               letterSpacing: -0.6,
               shadows: [
                 Shadow(
@@ -905,7 +930,7 @@ class _ResultTimelineSurveyPage extends StatelessWidget {
               color: Colors.white,
               fontSize: 27,
               height: 1.12,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w700,
               letterSpacing: -0.7,
               shadows: [
                 Shadow(
@@ -1055,15 +1080,15 @@ class _DailyStudyTimeSurveyPage extends StatelessWidget {
       child: Column(
         children: [
           const Text(
-            'Bạn sẵn sàng dành bao nhiêu\n'
-            'thời gian mỗi ngày để\n'
+            'Bạn sẵn sàng dành bao nhiêu '
+            'thời gian mỗi ngày để '
             'học tiếng Anh?',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
-              fontSize: 25,
+              fontSize: 24,
               height: 1.12,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w700,
               letterSpacing: -0.65,
               shadows: [
                 Shadow(
@@ -1185,8 +1210,91 @@ class _DailyStudyTimeCard extends StatelessWidget {
   }
 }
 
-class _StudyHabitPage extends StatelessWidget {
-  const _StudyHabitPage();
+class _StudyHabitPage extends StatefulWidget {
+  const _StudyHabitPage({required this.isActive});
+
+  final bool isActive;
+
+  @override
+  State<_StudyHabitPage> createState() => _StudyHabitPageState();
+}
+
+class _StudyHabitPageState extends State<_StudyHabitPage>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _titleOpacity;
+  late final Animation<Offset> _titleSlide;
+  late final Animation<double> _iconOpacity;
+  late final Animation<double> _iconScale;
+  late final Animation<Offset> _iconSlide;
+  late final Animation<double> _descriptionOpacity;
+  late final Animation<Offset> _descriptionSlide;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1200),
+    );
+    _titleOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0, 0.35, curve: Curves.easeOut),
+    );
+    _titleSlide = Tween<Offset>(begin: const Offset(0, -0.16), end: Offset.zero)
+        .animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.42, curve: Curves.easeOutCubic),
+          ),
+        );
+    _iconOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.16, 0.58, curve: Curves.easeOut),
+    );
+    _iconScale = Tween<double>(begin: 0.78, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.14, 0.72, curve: Curves.easeOutBack),
+      ),
+    );
+    _iconSlide = Tween<Offset>(begin: const Offset(0, 0.12), end: Offset.zero)
+        .animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.14, 0.68, curve: Curves.easeOutCubic),
+          ),
+        );
+    _descriptionOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.55, 1, curve: Curves.easeOut),
+    );
+    _descriptionSlide =
+        Tween<Offset>(begin: const Offset(0, 0.22), end: Offset.zero).animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.5, 1, curve: Curves.easeOutCubic),
+          ),
+        );
+
+    if (widget.isActive) _controller.forward();
+  }
+
+  @override
+  void didUpdateWidget(covariant _StudyHabitPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (!oldWidget.isActive && widget.isActive) {
+      _controller.forward(from: 0);
+    } else if (oldWidget.isActive && !widget.isActive) {
+      _controller.reset();
+    }
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -1194,66 +1302,90 @@ class _StudyHabitPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 28),
       child: Column(
         children: [
-          const Text(
-            'Bạn đã sẵn sàng dành bao\n'
-            'nhiêu thời gian mỗi ngày để\n'
-            'học tiếng Anh?',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 25,
-              height: 1.12,
-              fontWeight: FontWeight.w800,
-              letterSpacing: -0.65,
-              shadows: [
-                Shadow(
-                  color: Color(0x90001A63),
-                  blurRadius: 9,
-                  offset: Offset(0, 3),
+          FadeTransition(
+            opacity: _titleOpacity,
+            child: SlideTransition(
+              position: _titleSlide,
+              child: const Text(
+                'Bạn đã sẵn sàng dành bao\n'
+                'nhiêu thời gian mỗi ngày để\n'
+                'học tiếng Anh?',
+                key: ValueKey('study-habit-title'),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 25,
+                  height: 1.12,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: -0.65,
+                  shadows: [
+                    Shadow(
+                      color: Color(0x90001A63),
+                      blurRadius: 9,
+                      offset: Offset(0, 3),
+                    ),
+                  ],
                 ),
-              ],
+              ),
             ),
           ),
           const SizedBox(height: 26),
-          Image.asset(
-            'assets/images/onboarding/time_learn.png',
-            width: 340,
-            fit: BoxFit.contain,
-            cacheWidth: 1000,
+          FadeTransition(
+            opacity: _iconOpacity,
+            child: SlideTransition(
+              position: _iconSlide,
+              child: ScaleTransition(
+                scale: _iconScale,
+                child: Image.asset(
+                  'assets/images/onboarding/time_learn.png',
+                  key: const ValueKey('study-habit-icon'),
+                  width: 340,
+                  fit: BoxFit.contain,
+                  cacheWidth: 1000,
+                ),
+              ),
+            ),
           ),
           const SizedBox(height: 27),
-          const Text.rich(
-            TextSpan(
-              children: [
+          FadeTransition(
+            opacity: _descriptionOpacity,
+            child: SlideTransition(
+              position: _descriptionSlide,
+              child: const Text.rich(
                 TextSpan(
-                  text:
-                      'Dành ra khoảng thời gian cố định mỗi ngày\n'
-                      'để học sẽ giúp bạn hình thành thói quen\n'
-                      'và ',
+                  children: [
+                    TextSpan(
+                      text:
+                          'Dành ra khoảng thời gian cố định mỗi ngày\n'
+                          'để học sẽ giúp bạn hình thành thói quen\n'
+                          'và ',
+                    ),
+                    TextSpan(
+                      text: 'tiến bộ nhanh hơn.',
+                      style: TextStyle(
+                        color: Color(0xFF55A8FF),
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                  ],
                 ),
-                TextSpan(
-                  text: 'tiến bộ nhanh hơn.',
-                  style: TextStyle(
-                    color: Color(0xFF55A8FF),
-                    fontWeight: FontWeight.w800,
-                  ),
+                key: ValueKey('study-habit-description'),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 16.5,
+                  height: 1.5,
+                  fontWeight: FontWeight.w400,
+                  letterSpacing: -0.15,
+                  shadows: [
+                    Shadow(
+                      color: Color(0x80001452),
+                      blurRadius: 7,
+                      offset: Offset(0, 2),
+                    ),
+                  ],
                 ),
-              ],
-            ),
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 16.5,
-              height: 1.5,
-              fontWeight: FontWeight.w400,
-              letterSpacing: -0.15,
-              shadows: [
-                Shadow(
-                  color: Color(0x80001452),
-                  blurRadius: 7,
-                  offset: Offset(0, 2),
-                ),
-              ],
+              ),
             ),
           ),
         ],
@@ -1262,14 +1394,119 @@ class _StudyHabitPage extends StatelessWidget {
   }
 }
 
-class _PreferredStudyTimePage extends StatelessWidget {
+class _PreferredStudyTimePage extends StatefulWidget {
   const _PreferredStudyTimePage({
+    required this.isActive,
     required this.selectedMinutes,
     required this.onChanged,
   });
 
+  final bool isActive;
   final double selectedMinutes;
   final ValueChanged<double> onChanged;
+
+  static const _timeLabelStyle = TextStyle(
+    color: Color(0xFFA8C8FF),
+    fontSize: 14.5,
+    fontWeight: FontWeight.w500,
+    shadows: [
+      Shadow(color: Color(0x8000165B), blurRadius: 6, offset: Offset(0, 2)),
+    ],
+  );
+
+  @override
+  State<_PreferredStudyTimePage> createState() =>
+      _PreferredStudyTimePageState();
+}
+
+class _PreferredStudyTimePageState extends State<_PreferredStudyTimePage>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _iconOpacity;
+  late final Animation<double> _iconScale;
+  late final Animation<Offset> _iconSlide;
+  late final Animation<double> _questionOpacity;
+  late final Animation<Offset> _questionSlide;
+  late final Animation<double> _timeOpacity;
+  late final Animation<double> _timeScale;
+  late final Animation<double> _sliderOpacity;
+  late final Animation<Offset> _sliderSlide;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1200),
+    );
+    _iconOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0, 0.42, curve: Curves.easeOut),
+    );
+    _iconScale = Tween<double>(begin: 0.82, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0, 0.58, curve: Curves.easeOutBack),
+      ),
+    );
+    _iconSlide = Tween<Offset>(begin: const Offset(0, 0.12), end: Offset.zero)
+        .animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.55, curve: Curves.easeOutCubic),
+          ),
+        );
+    _questionOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.22, 0.65, curve: Curves.easeOut),
+    );
+    _questionSlide =
+        Tween<Offset>(begin: const Offset(0, 0.2), end: Offset.zero).animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.2, 0.68, curve: Curves.easeOutCubic),
+          ),
+        );
+    _timeOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.45, 0.82, curve: Curves.easeOut),
+    );
+    _timeScale = Tween<double>(begin: 0.78, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.42, 0.85, curve: Curves.easeOutBack),
+      ),
+    );
+    _sliderOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.62, 1, curve: Curves.easeOut),
+    );
+    _sliderSlide = Tween<Offset>(begin: const Offset(0, 0.32), end: Offset.zero)
+        .animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.58, 1, curve: Curves.easeOutCubic),
+          ),
+        );
+
+    if (widget.isActive) _controller.forward();
+  }
+
+  @override
+  void didUpdateWidget(covariant _PreferredStudyTimePage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (!oldWidget.isActive && widget.isActive) {
+      _controller.forward(from: 0);
+    } else if (oldWidget.isActive && !widget.isActive) {
+      _controller.reset();
+    }
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   String _formatTime(double value) {
     final totalMinutes = value.round().clamp(360, 1440).toInt();
@@ -1287,130 +1524,250 @@ class _PreferredStudyTimePage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 28),
       child: Column(
         children: [
-          Image.asset(
-            'assets/images/onboarding/chose_time_learn.png',
-            width: 310,
-            height: 238,
-            fit: BoxFit.contain,
-            cacheWidth: 1000,
+          FadeTransition(
+            opacity: _iconOpacity,
+            child: SlideTransition(
+              position: _iconSlide,
+              child: ScaleTransition(
+                scale: _iconScale,
+                child: Image.asset(
+                  'assets/images/onboarding/chose_time_learn.png',
+                  key: const ValueKey('preferred-study-time-icon'),
+                  width: 310,
+                  height: 238,
+                  fit: BoxFit.contain,
+                  cacheWidth: 1000,
+                ),
+              ),
+            ),
           ),
           const SizedBox(height: 18),
-          const Text(
-            'Với bạn, giờ nào là thuận tiện\nđể học tiếng Anh?',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 25,
-              height: 1.2,
-              fontWeight: FontWeight.w800,
-              letterSpacing: -0.65,
-              shadows: [
-                Shadow(
-                  color: Color(0xB0001A63),
-                  blurRadius: 10,
-                  offset: Offset(0, 3),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 26),
-          Text(
-            _formatTime(selectedMinutes),
-            key: const ValueKey('survey-preferred-time-value'),
-            style: const TextStyle(
-              color: Color(0xFF8AC5FF),
-              fontSize: 43,
-              height: 1,
-              fontWeight: FontWeight.w700,
-              letterSpacing: 0.5,
-              shadows: [
-                Shadow(color: Color(0xFF1B75FF), blurRadius: 16),
-                Shadow(
-                  color: Color(0x80001162),
-                  blurRadius: 7,
-                  offset: Offset(0, 3),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 32),
-          Stack(
-            alignment: Alignment.center,
-            children: [
-              Container(
-                height: 12,
-                margin: const EdgeInsets.symmetric(horizontal: 10),
-                decoration: BoxDecoration(
-                  gradient: const LinearGradient(
-                    colors: [
-                      Color(0xFF7738FF),
-                      Color(0xFF3C6EFF),
-                      Color(0xFF3AA7FF),
-                      Color(0xFF477BFF),
-                    ],
-                  ),
-                  borderRadius: BorderRadius.circular(99),
-                  boxShadow: const [
-                    BoxShadow(color: Color(0xCC267FFF), blurRadius: 16),
+          FadeTransition(
+            opacity: _questionOpacity,
+            child: SlideTransition(
+              position: _questionSlide,
+              child: const Text(
+                'Với bạn, giờ nào là thuận tiện để học tiếng Anh?',
+                key: ValueKey('preferred-study-time-question'),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 25,
+                  height: 1.2,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: -0.65,
+                  shadows: [
+                    Shadow(
+                      color: Color(0xB0001A63),
+                      blurRadius: 10,
+                      offset: Offset(0, 3),
+                    ),
                   ],
                 ),
               ),
-              SliderTheme(
-                data: SliderTheme.of(context).copyWith(
-                  trackHeight: 12,
-                  activeTrackColor: Colors.transparent,
-                  inactiveTrackColor: Colors.transparent,
-                  disabledActiveTrackColor: Colors.transparent,
-                  disabledInactiveTrackColor: Colors.transparent,
-                  thumbColor: const Color(0xFFF7FBFF),
-                  overlayColor: const Color(0x332B8CFF),
-                  thumbShape: const RoundSliderThumbShape(
-                    enabledThumbRadius: 20,
-                    elevation: 8,
-                    pressedElevation: 12,
-                  ),
-                  overlayShape: const RoundSliderOverlayShape(
-                    overlayRadius: 27,
-                  ),
-                ),
-                child: Slider(
-                  key: const ValueKey('survey-preferred-time-slider'),
-                  value: selectedMinutes,
-                  min: 360,
-                  max: 1440,
-                  divisions: 108,
-                  onChanged: onChanged,
+            ),
+          ),
+          const SizedBox(height: 26),
+          FadeTransition(
+            opacity: _timeOpacity,
+            child: ScaleTransition(
+              scale: _timeScale,
+              child: Text(
+                _formatTime(widget.selectedMinutes),
+                key: const ValueKey('survey-preferred-time-value'),
+                style: const TextStyle(
+                  color: Color(0xFF8AC5FF),
+                  fontSize: 43,
+                  height: 1,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: 0.5,
+                  shadows: [
+                    Shadow(color: Color(0xFF1B75FF), blurRadius: 16),
+                    Shadow(
+                      color: Color(0x80001162),
+                      blurRadius: 7,
+                      offset: Offset(0, 3),
+                    ),
+                  ],
                 ),
               ),
-            ],
+            ),
           ),
-          const SizedBox(height: 3),
-          const Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text('06:00', style: _PreferredStudyTimePage._timeLabelStyle),
-              Text('12:00', style: _PreferredStudyTimePage._timeLabelStyle),
-              Text('18:00', style: _PreferredStudyTimePage._timeLabelStyle),
-              Text('00:00', style: _PreferredStudyTimePage._timeLabelStyle),
-            ],
+          const SizedBox(height: 32),
+          FadeTransition(
+            opacity: _sliderOpacity,
+            child: SlideTransition(
+              position: _sliderSlide,
+              child: Column(
+                key: const ValueKey('preferred-study-time-slider-section'),
+                children: [
+                  Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      Container(
+                        height: 12,
+                        margin: const EdgeInsets.symmetric(horizontal: 10),
+                        decoration: BoxDecoration(
+                          gradient: const LinearGradient(
+                            colors: [
+                              Color(0xFF7738FF),
+                              Color(0xFF3C6EFF),
+                              Color(0xFF3AA7FF),
+                              Color(0xFF477BFF),
+                            ],
+                          ),
+                          borderRadius: BorderRadius.circular(99),
+                          boxShadow: const [
+                            BoxShadow(color: Color(0xCC267FFF), blurRadius: 16),
+                          ],
+                        ),
+                      ),
+                      SliderTheme(
+                        data: SliderTheme.of(context).copyWith(
+                          trackHeight: 12,
+                          activeTrackColor: Colors.transparent,
+                          inactiveTrackColor: Colors.transparent,
+                          disabledActiveTrackColor: Colors.transparent,
+                          disabledInactiveTrackColor: Colors.transparent,
+                          thumbColor: const Color(0xFFF7FBFF),
+                          overlayColor: const Color(0x332B8CFF),
+                          thumbShape: const RoundSliderThumbShape(
+                            enabledThumbRadius: 20,
+                            elevation: 8,
+                            pressedElevation: 12,
+                          ),
+                          overlayShape: const RoundSliderOverlayShape(
+                            overlayRadius: 27,
+                          ),
+                        ),
+                        child: Slider(
+                          key: const ValueKey('survey-preferred-time-slider'),
+                          value: widget.selectedMinutes,
+                          min: 360,
+                          max: 1440,
+                          divisions: 108,
+                          onChanged: widget.onChanged,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 3),
+                  const Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        '06:00',
+                        style: _PreferredStudyTimePage._timeLabelStyle,
+                      ),
+                      Text(
+                        '12:00',
+                        style: _PreferredStudyTimePage._timeLabelStyle,
+                      ),
+                      Text(
+                        '18:00',
+                        style: _PreferredStudyTimePage._timeLabelStyle,
+                      ),
+                      Text(
+                        '00:00',
+                        style: _PreferredStudyTimePage._timeLabelStyle,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ),
         ],
       ),
     );
   }
-
-  static const _timeLabelStyle = TextStyle(
-    color: Color(0xFFA8C8FF),
-    fontSize: 14.5,
-    fontWeight: FontWeight.w500,
-    shadows: [
-      Shadow(color: Color(0x8000165B), blurRadius: 6, offset: Offset(0, 2)),
-    ],
-  );
 }
 
-class _StudyReminderPage extends StatelessWidget {
-  const _StudyReminderPage();
+class _StudyReminderPage extends StatefulWidget {
+  const _StudyReminderPage({required this.isActive});
+
+  final bool isActive;
+
+  @override
+  State<_StudyReminderPage> createState() => _StudyReminderPageState();
+}
+
+class _StudyReminderPageState extends State<_StudyReminderPage>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _iconOpacity;
+  late final Animation<double> _iconScale;
+  late final Animation<Offset> _iconSlide;
+  late final Animation<double> _primaryTextOpacity;
+  late final Animation<Offset> _primaryTextSlide;
+  late final Animation<double> _secondaryTextOpacity;
+  late final Animation<Offset> _secondaryTextSlide;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1250),
+    );
+    _iconOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0, 0.38, curve: Curves.easeOut),
+    );
+    _iconScale = Tween<double>(begin: 0.76, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0, 0.6, curve: Curves.easeOutBack),
+      ),
+    );
+    _iconSlide = Tween<Offset>(begin: const Offset(0, 0.14), end: Offset.zero)
+        .animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.56, curve: Curves.easeOutCubic),
+          ),
+        );
+    _primaryTextOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.35, 0.72, curve: Curves.easeOut),
+    );
+    _primaryTextSlide =
+        Tween<Offset>(begin: const Offset(0, 0.22), end: Offset.zero).animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.32, 0.76, curve: Curves.easeOutCubic),
+          ),
+        );
+    _secondaryTextOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.62, 1, curve: Curves.easeOut),
+    );
+    _secondaryTextSlide =
+        Tween<Offset>(begin: const Offset(0, 0.24), end: Offset.zero).animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.58, 1, curve: Curves.easeOutCubic),
+          ),
+        );
+
+    if (widget.isActive) _controller.forward();
+  }
+
+  @override
+  void didUpdateWidget(covariant _StudyReminderPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (!oldWidget.isActive && widget.isActive) {
+      _controller.forward(from: 0);
+    } else if (oldWidget.isActive && !widget.isActive) {
+      _controller.reset();
+    }
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -1419,63 +1776,87 @@ class _StudyReminderPage extends StatelessWidget {
       child: Column(
         children: [
           const SizedBox(height: 10),
-          Image.asset(
-            'assets/images/onboarding/reminder_notification.png',
-            width: 330,
-            height: 330,
-            fit: BoxFit.contain,
-            cacheWidth: 1000,
+          FadeTransition(
+            opacity: _iconOpacity,
+            child: SlideTransition(
+              position: _iconSlide,
+              child: ScaleTransition(
+                scale: _iconScale,
+                child: Image.asset(
+                  'assets/images/onboarding/reminder_notification.png',
+                  key: const ValueKey('study-reminder-icon'),
+                  width: 330,
+                  height: 330,
+                  fit: BoxFit.contain,
+                  cacheWidth: 1000,
+                ),
+              ),
+            ),
           ),
           const SizedBox(height: 24),
-          const Text(
-            'Leximon sẽ nhắc nhở bạn về các buổi học\n'
-            'để bạn không bỏ lỡ ngày nào.',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 17,
-              height: 1.45,
-              fontWeight: FontWeight.w400,
-              letterSpacing: -0.2,
-              shadows: [
-                Shadow(
-                  color: Color(0xA000104E),
-                  blurRadius: 8,
-                  offset: Offset(0, 3),
+          FadeTransition(
+            opacity: _primaryTextOpacity,
+            child: SlideTransition(
+              position: _primaryTextSlide,
+              child: const Text(
+                'Leximon sẽ nhắc nhở bạn về các buổi học\n'
+                'để bạn không bỏ lỡ ngày nào.',
+                key: ValueKey('study-reminder-primary-text'),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 17,
+                  height: 1.45,
+                  fontWeight: FontWeight.w400,
+                  letterSpacing: -0.2,
+                  shadows: [
+                    Shadow(
+                      color: Color(0xA000104E),
+                      blurRadius: 8,
+                      offset: Offset(0, 3),
+                    ),
+                  ],
                 ),
-              ],
+              ),
             ),
           ),
           const SizedBox(height: 14),
-          const Text.rich(
-            TextSpan(
-              children: [
+          FadeTransition(
+            opacity: _secondaryTextOpacity,
+            child: SlideTransition(
+              position: _secondaryTextSlide,
+              child: const Text.rich(
                 TextSpan(
-                  text:
-                      'Chúng tôi nhận thấy rằng việc thực hành\n'
-                      'thường xuyên có thể giúp tăng tốc độ học\n'
-                      'tiếng Anh lên gần ',
+                  children: [
+                    TextSpan(
+                      text:
+                          'Chúng tôi nhận thấy rằng việc thực hành\n'
+                          'thường xuyên có thể giúp tăng tốc độ học\n'
+                          'tiếng Anh lên gần ',
+                    ),
+                    TextSpan(
+                      text: '4,6 lần!',
+                      style: TextStyle(fontWeight: FontWeight.w800),
+                    ),
+                  ],
                 ),
-                TextSpan(
-                  text: '4,6 lần!',
-                  style: TextStyle(fontWeight: FontWeight.w800),
+                key: ValueKey('study-reminder-secondary-text'),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 17,
+                  height: 1.45,
+                  fontWeight: FontWeight.w400,
+                  letterSpacing: -0.2,
+                  shadows: [
+                    Shadow(
+                      color: Color(0xA000104E),
+                      blurRadius: 8,
+                      offset: Offset(0, 3),
+                    ),
+                  ],
                 ),
-              ],
-            ),
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 17,
-              height: 1.45,
-              fontWeight: FontWeight.w400,
-              letterSpacing: -0.2,
-              shadows: [
-                Shadow(
-                  color: Color(0xA000104E),
-                  blurRadius: 8,
-                  offset: Offset(0, 3),
-                ),
-              ],
+              ),
             ),
           ),
         ],
@@ -1523,13 +1904,13 @@ class _EnglishChallengePage extends StatelessWidget {
       child: Column(
         children: [
           const Text(
-            'Đối với bạn, khó khăn lớn nhất\ntrong tiếng Anh là gì?',
+            'Đối với bạn, khó khăn lớn nhất trong tiếng Anh là gì?',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
-              fontSize: 25,
+              fontSize: 24,
               height: 1.15,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w700,
               letterSpacing: -0.65,
               shadows: [
                 Shadow(
@@ -1639,9 +2020,9 @@ class _EnglishChallengeCard extends StatelessWidget {
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
                     color: Color(0xFF071B65),
-                    fontSize: 17,
+                    fontSize: 16,
                     height: 1.2,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w600,
                     letterSpacing: -0.25,
                   ),
                 ),
@@ -1700,15 +2081,15 @@ class _LearningBarrierPage extends StatelessWidget {
       child: Column(
         children: [
           const Text(
-            'Điều gì khiến bạn không thể\n'
-            'học tiếng Anh một cách\n'
+            'Điều gì khiến bạn không thể '
+            'học tiếng Anh một cách '
             'nhanh chóng?',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
-              fontSize: 25,
+              fontSize: 24,
               height: 1.12,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w700,
               letterSpacing: -0.7,
               shadows: [
                 Shadow(
@@ -1818,9 +2199,9 @@ class _LearningBarrierCard extends StatelessWidget {
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
                     color: Color(0xFF071B65),
-                    fontSize: 16.5,
+                    fontSize: 16,
                     height: 1.22,
-                    fontWeight: FontWeight.w700,
+                    fontWeight: FontWeight.w600,
                     letterSpacing: -0.25,
                   ),
                 ),
@@ -2061,8 +2442,656 @@ class _SocialReviewCard extends StatelessWidget {
   }
 }
 
-class _KnowledgeJourneyPage extends StatelessWidget {
-  const _KnowledgeJourneyPage();
+class _TopicSelectionPage extends StatelessWidget {
+  const _TopicSelectionPage({
+    required this.selectedTopics,
+    required this.onToggle,
+    required this.onToggleAll,
+  });
+
+  static const _topics = [
+    (label: 'Du lịch', asset: 'assets/svgs/travel.svg'),
+    (label: 'Mua sắm', asset: 'assets/svgs/shopping.svg'),
+    (
+      label: 'Khi đi phỏng vấn xin việc',
+      asset: 'assets/svgs/in_a_job_interview.svg',
+    ),
+    (
+      label: 'Kinh doanh và Tài chính',
+      asset: 'assets/svgs/business_and_finance.svg',
+    ),
+    (label: 'Gia đình và Bạn bè', asset: 'assets/svgs/family_and_friends.svg'),
+    (label: 'Giao tiếp', asset: 'assets/svgs/communication.svg'),
+    (
+      label: 'Trường học và Đại học',
+      asset: 'assets/svgs/school_and_university.svg',
+    ),
+    (
+      label: 'Lao động và Việc làm',
+      asset: 'assets/svgs/work_and_employment.svg',
+    ),
+  ];
+
+  final Set<int> selectedTopics;
+  final ValueChanged<int> onToggle;
+  final VoidCallback onToggleAll;
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      padding: const EdgeInsets.symmetric(horizontal: 28),
+      child: Column(
+        children: [
+          const Text(
+            'Chọn các chủ đề\nmà bạn muốn học',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 24,
+              height: 1.12,
+              fontWeight: FontWeight.w700,
+              letterSpacing: -0.75,
+              shadows: [
+                Shadow(
+                  color: Color(0xFF2379FF),
+                  blurRadius: 13,
+                  offset: Offset(0, 2),
+                ),
+                Shadow(
+                  color: Color(0xA000104E),
+                  blurRadius: 8,
+                  offset: Offset(0, 3),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(height: 18),
+          _TopicSelectAllCard(
+            key: const ValueKey('survey-topic-select-all'),
+            selectedCount: selectedTopics.length,
+            totalCount: _topics.length,
+            onTap: onToggleAll,
+          ),
+          const SizedBox(height: 10),
+          for (var index = 0; index < _topics.length; index++) ...[
+            _TopicOptionCard(
+              key: ValueKey('survey-topic-$index'),
+              label: _topics[index].label,
+              imageAsset: _topics[index].asset,
+              selected: selectedTopics.contains(index),
+              onTap: () => onToggle(index),
+            ),
+            if (index != _topics.length - 1) const SizedBox(height: 6),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class _TopicSelectAllCard extends StatelessWidget {
+  const _TopicSelectAllCard({
+    super.key,
+    required this.selectedCount,
+    required this.totalCount,
+    required this.onTap,
+  });
+
+  final int selectedCount;
+  final int totalCount;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(17),
+        child: Container(
+          height: 54,
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          decoration: _TopicSelectionStyles.cardDecoration,
+          child: Row(
+            children: [
+              const Expanded(
+                child: Text(
+                  'Chọn tất cả',
+                  style: _TopicSelectionStyles.labelStyle,
+                ),
+              ),
+              _TopicSelectionIndicator(
+                selectedCount: selectedCount,
+                totalCount: totalCount,
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _TopicOptionCard extends StatelessWidget {
+  const _TopicOptionCard({
+    super.key,
+    required this.label,
+    required this.imageAsset,
+    required this.selected,
+    required this.onTap,
+  });
+
+  final String label;
+  final String imageAsset;
+  final bool selected;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(17),
+        child: Container(
+          height: 58,
+          decoration: _TopicSelectionStyles.cardDecoration,
+          child: Row(
+            children: [
+              Container(
+                width: 70,
+                height: double.infinity,
+                padding: const EdgeInsets.all(8),
+                decoration: const BoxDecoration(
+                  color: Color(0xFFDCEEFF),
+                  borderRadius: BorderRadius.horizontal(
+                    left: Radius.circular(16),
+                  ),
+                ),
+                child: SvgPicture.asset(imageAsset, fit: BoxFit.contain),
+              ),
+              const SizedBox(width: 15),
+              Expanded(
+                child: Text(
+                  label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: _TopicSelectionStyles.labelStyle,
+                ),
+              ),
+              _SurveyCheckbox(selected: selected),
+              const SizedBox(width: 16),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _TopicSelectionIndicator extends StatelessWidget {
+  const _TopicSelectionIndicator({
+    required this.selectedCount,
+    required this.totalCount,
+  });
+
+  final int selectedCount;
+  final int totalCount;
+
+  @override
+  Widget build(BuildContext context) {
+    final hasSelection = selectedCount > 0;
+    final allSelected = selectedCount == totalCount;
+
+    return Container(
+      width: 27,
+      height: 27,
+      decoration: BoxDecoration(
+        gradient: hasSelection
+            ? const LinearGradient(
+                colors: [Color(0xFF10CF55), Color(0xFF06A92E)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              )
+            : null,
+        color: hasSelection ? null : Colors.white.withValues(alpha: 0.72),
+        borderRadius: BorderRadius.circular(7),
+        border: Border.all(
+          color: hasSelection
+              ? const Color(0xFF2CDD67)
+              : const Color(0xFF6898F6),
+          width: 1.5,
+        ),
+        boxShadow: hasSelection
+            ? const [
+                BoxShadow(
+                  color: Color(0x6611C448),
+                  blurRadius: 9,
+                  offset: Offset(0, 3),
+                ),
+              ]
+            : null,
+      ),
+      child: hasSelection
+          ? Icon(
+              allSelected ? Icons.check_rounded : Icons.remove_rounded,
+              color: Colors.white,
+              size: 22,
+            )
+          : null,
+    );
+  }
+}
+
+abstract final class _TopicSelectionStyles {
+  static const labelStyle = TextStyle(
+    color: Color(0xFF071B65),
+    fontSize: 16.5,
+    height: 1.2,
+    fontWeight: FontWeight.w700,
+    letterSpacing: -0.25,
+  );
+
+  static final cardDecoration = BoxDecoration(
+    color: Colors.white.withValues(alpha: 0.95),
+    borderRadius: BorderRadius.circular(17),
+    border: Border.all(color: const Color(0xFF73C5FF), width: 1.1),
+    boxShadow: const [
+      BoxShadow(color: Color(0xA02286F5), blurRadius: 14, offset: Offset(0, 5)),
+    ],
+  );
+}
+
+class _AnalysisLoadingPage extends StatefulWidget {
+  const _AnalysisLoadingPage({
+    required this.isActive,
+    required this.onCompleted,
+  });
+
+  final bool isActive;
+  final VoidCallback onCompleted;
+
+  @override
+  State<_AnalysisLoadingPage> createState() => _AnalysisLoadingPageState();
+}
+
+class _AnalysisLoadingPageState extends State<_AnalysisLoadingPage> {
+  static const _steps = [
+    'Thiết lập chủ đề',
+    'Tạo từ điển',
+    'Lựa chọn bài tập',
+    'Thiết lập tốc độ học tập',
+  ];
+
+  Timer? _stepTimer;
+  Timer? _completionTimer;
+  int _completedSteps = 0;
+  bool _isComplete = false;
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.isActive) _startAnalysis();
+  }
+
+  @override
+  void didUpdateWidget(covariant _AnalysisLoadingPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (!oldWidget.isActive && widget.isActive) {
+      _startAnalysis();
+    } else if (oldWidget.isActive && !widget.isActive) {
+      _cancelTimers();
+    }
+  }
+
+  void _startAnalysis() {
+    _cancelTimers();
+    _completedSteps = 0;
+    _isComplete = false;
+    _stepTimer = Timer.periodic(const Duration(milliseconds: 650), (timer) {
+      if (!mounted || !widget.isActive) {
+        timer.cancel();
+        return;
+      }
+
+      final nextStep = _completedSteps + 1;
+      setState(() => _completedSteps = nextStep);
+      if (nextStep < _steps.length) return;
+
+      timer.cancel();
+      setState(() => _isComplete = true);
+      _completionTimer = Timer(const Duration(milliseconds: 1200), () {
+        if (mounted && widget.isActive) widget.onCompleted();
+      });
+    });
+  }
+
+  void _cancelTimers() {
+    _stepTimer?.cancel();
+    _completionTimer?.cancel();
+    _stepTimer = null;
+    _completionTimer = null;
+  }
+
+  @override
+  void dispose() {
+    _cancelTimers();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SingleChildScrollView(
+      padding: const EdgeInsets.symmetric(horizontal: 28),
+      child: Column(
+        children: [
+          const SizedBox(height: 86),
+          Stack(
+            alignment: Alignment.center,
+            children: [
+              Container(
+                width: 300,
+                height: 300,
+                decoration: BoxDecoration(
+                  shape: BoxShape.circle,
+                  gradient: RadialGradient(
+                    colors: [
+                      const Color(0xFF1677FF).withValues(alpha: 0.22),
+                      const Color(0xFF004AE8).withValues(alpha: 0.08),
+                      Colors.transparent,
+                    ],
+                  ),
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Color(0x99145DFF),
+                      blurRadius: 70,
+                      spreadRadius: 10,
+                    ),
+                  ],
+                ),
+              ),
+              Lottie.asset(
+                'assets/lotties/Loading_wave.json',
+                key: const ValueKey('survey-analysis-lottie'),
+                width: 325,
+                height: 325,
+                fit: BoxFit.contain,
+                repeat: !_isComplete,
+              ),
+              AnimatedSwitcher(
+                duration: const Duration(milliseconds: 380),
+                transitionBuilder: (child, animation) => ScaleTransition(
+                  scale: CurvedAnimation(
+                    parent: animation,
+                    curve: Curves.easeOutBack,
+                  ),
+                  child: FadeTransition(opacity: animation, child: child),
+                ),
+                child: _isComplete
+                    ? const _AnalysisCompleteMark(
+                        key: ValueKey('analysis-complete'),
+                      )
+                    : const Text(
+                        'Đang phân tích câu trả\nlời của bạn',
+                        key: ValueKey('analysis-processing'),
+                        textAlign: TextAlign.center,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 23,
+                          height: 1.15,
+                          fontWeight: FontWeight.w700,
+                          shadows: [
+                            Shadow(color: Color(0xFF2E8DFF), blurRadius: 13),
+                          ],
+                        ),
+                      ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 22),
+          SizedBox(
+            width: 250,
+            height: 180,
+            child: Column(
+              children: [
+                for (var index = 0; index < _steps.length; index++)
+                  _AnalysisStep(
+                    label: _steps[index],
+                    visible: index < _completedSteps,
+                  ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _AnalysisCompleteMark extends StatelessWidget {
+  const _AnalysisCompleteMark({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const SizedBox(
+      width: 146,
+      height: 146,
+      child: CustomPaint(painter: _AnalysisCheckPainter()),
+    );
+  }
+}
+
+class _AnalysisCheckPainter extends CustomPainter {
+  const _AnalysisCheckPainter();
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final path = Path()
+      ..moveTo(size.width * 0.18, size.height * 0.52)
+      ..lineTo(size.width * 0.42, size.height * 0.74)
+      ..lineTo(size.width * 0.83, size.height * 0.27);
+
+    canvas.save();
+    canvas.translate(4, 12);
+    canvas.drawPath(
+      path,
+      Paint()
+        ..color = const Color(0xB000123F)
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 29
+        ..strokeCap = StrokeCap.round
+        ..strokeJoin = StrokeJoin.round
+        ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 10),
+    );
+    canvas.restore();
+
+    canvas.save();
+    canvas.translate(0, 8);
+    canvas.drawPath(
+      path,
+      Paint()
+        ..color = const Color(0xFF008656)
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 24
+        ..strokeCap = StrokeCap.round
+        ..strokeJoin = StrokeJoin.round,
+    );
+    canvas.restore();
+
+    canvas.drawPath(
+      path,
+      Paint()
+        ..color = Colors.white
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 24
+        ..strokeCap = StrokeCap.round
+        ..strokeJoin = StrokeJoin.round,
+    );
+    canvas.drawPath(
+      path,
+      Paint()
+        ..color = const Color(0xFFB5FFD2)
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 18
+        ..strokeCap = StrokeCap.round
+        ..strokeJoin = StrokeJoin.round
+        ..maskFilter = const MaskFilter.blur(BlurStyle.normal, 1.2),
+    );
+    canvas.drawPath(
+      path,
+      Paint()
+        ..shader = const LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [Color(0xFFCCFFE0), Color(0xFF56FFA0), Color(0xFF10C975)],
+          stops: [0, 0.48, 1],
+        ).createShader(Offset.zero & size)
+        ..style = PaintingStyle.stroke
+        ..strokeWidth = 13
+        ..strokeCap = StrokeCap.round
+        ..strokeJoin = StrokeJoin.round,
+    );
+  }
+
+  @override
+  bool shouldRepaint(covariant _AnalysisCheckPainter oldDelegate) => false;
+}
+
+class _AnalysisStep extends StatelessWidget {
+  const _AnalysisStep({required this.label, required this.visible});
+
+  final String label;
+  final bool visible;
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedOpacity(
+      duration: const Duration(milliseconds: 300),
+      opacity: visible ? 1 : 0,
+      child: AnimatedScale(
+        duration: const Duration(milliseconds: 360),
+        curve: Curves.easeOutBack,
+        scale: visible ? 1 : 0.72,
+        child: SizedBox(
+          height: 43,
+          child: Row(
+            children: [
+              Container(
+                width: 31,
+                height: 31,
+                decoration: BoxDecoration(
+                  color: const Color(0xFF0D8F53).withValues(alpha: 0.58),
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: const Color(0xFF79FF43),
+                    width: 1.5,
+                  ),
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Color(0xCC52FF46),
+                      blurRadius: 12,
+                      spreadRadius: 1,
+                    ),
+                  ],
+                ),
+                child: const Icon(
+                  Icons.check_rounded,
+                  color: Colors.white,
+                  size: 23,
+                ),
+              ),
+              const SizedBox(width: 17),
+              Expanded(
+                child: Text(
+                  label,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 17,
+                    fontWeight: FontWeight.w500,
+                    shadows: [Shadow(color: Color(0xFF125FFF), blurRadius: 8)],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _KnowledgeJourneyPage extends StatefulWidget {
+  const _KnowledgeJourneyPage({required this.isActive});
+
+  final bool isActive;
+
+  @override
+  State<_KnowledgeJourneyPage> createState() => _KnowledgeJourneyPageState();
+}
+
+class _KnowledgeJourneyPageState extends State<_KnowledgeJourneyPage>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _iconOpacity;
+  late final Animation<double> _iconScale;
+  late final Animation<Offset> _iconSlide;
+  late final Animation<double> _textOpacity;
+  late final Animation<Offset> _textSlide;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1050),
+    );
+    _iconOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0, 0.4, curve: Curves.easeOut),
+    );
+    _iconScale = Tween<double>(begin: 0.72, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0, 0.62, curve: Curves.easeOutBack),
+      ),
+    );
+    _iconSlide = Tween<Offset>(begin: const Offset(0, 0.14), end: Offset.zero)
+        .animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.55, curve: Curves.easeOutCubic),
+          ),
+        );
+    _textOpacity = CurvedAnimation(
+      parent: _controller,
+      curve: const Interval(0.4, 1, curve: Curves.easeOut),
+    );
+    _textSlide = Tween<Offset>(begin: const Offset(0, 0.24), end: Offset.zero)
+        .animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0.38, 1, curve: Curves.easeOutCubic),
+          ),
+        );
+
+    if (widget.isActive) _controller.forward();
+  }
+
+  @override
+  void didUpdateWidget(covariant _KnowledgeJourneyPage oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (!oldWidget.isActive && widget.isActive) {
+      _controller.forward(from: 0);
+    } else if (oldWidget.isActive && !widget.isActive) {
+      _controller.reset();
+    }
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -2071,42 +3100,59 @@ class _KnowledgeJourneyPage extends StatelessWidget {
       child: Column(
         children: [
           const SizedBox(height: 34),
-          Image.asset(
-            'assets/images/onboarding/open_know.png',
-            width: 340,
-            fit: BoxFit.contain,
-            cacheWidth: 1000,
+          FadeTransition(
+            opacity: _iconOpacity,
+            child: SlideTransition(
+              position: _iconSlide,
+              child: ScaleTransition(
+                scale: _iconScale,
+                child: Image.asset(
+                  'assets/images/onboarding/open_know.png',
+                  key: const ValueKey('knowledge-journey-icon'),
+                  width: 340,
+                  fit: BoxFit.contain,
+                  cacheWidth: 1000,
+                ),
+              ),
+            ),
           ),
           const SizedBox(height: 22),
-          const Text.rich(
-            TextSpan(
-              children: [
-                TextSpan(text: 'Tiếng Anh là chìa khóa giúp bạn\n'),
+          FadeTransition(
+            opacity: _textOpacity,
+            child: SlideTransition(
+              position: _textSlide,
+              child: const Text.rich(
                 TextSpan(
-                  text: 'mở cánh cửa tri thức,',
-                  style: TextStyle(fontWeight: FontWeight.w800),
+                  children: [
+                    TextSpan(text: 'Tiếng Anh là chìa khóa giúp bạn\n'),
+                    TextSpan(
+                      text: 'mở cánh cửa tri thức,',
+                      style: TextStyle(fontWeight: FontWeight.w800),
+                    ),
+                    TextSpan(text: '\nkết nối thế giới và\nnắm bắt '),
+                    TextSpan(
+                      text: 'nhiều cơ hội hơn.',
+                      style: TextStyle(fontWeight: FontWeight.w800),
+                    ),
+                  ],
                 ),
-                TextSpan(text: '\nkết nối thế giới và\nnắm bắt '),
-                TextSpan(
-                  text: 'nhiều cơ hội hơn.',
-                  style: TextStyle(fontWeight: FontWeight.w800),
+                key: ValueKey('knowledge-journey-text'),
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                  height: 1.42,
+                  fontWeight: FontWeight.w400,
+                  letterSpacing: -0.25,
+                  shadows: [
+                    Shadow(
+                      color: Color(0x80001452),
+                      blurRadius: 8,
+                      offset: Offset(0, 3),
+                    ),
+                  ],
                 ),
-              ],
-            ),
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 20,
-              height: 1.42,
-              fontWeight: FontWeight.w400,
-              letterSpacing: -0.25,
-              shadows: [
-                Shadow(
-                  color: Color(0x80001452),
-                  blurRadius: 8,
-                  offset: Offset(0, 3),
-                ),
-              ],
+              ),
             ),
           ),
         ],
@@ -2121,23 +3167,23 @@ class _SurveySummaryPage extends StatelessWidget {
   static const _quotes = [
     (
       text:
-          'Tiếng Anh mở ra cánh cửa đến\n'
-          'những cơ hội nghề nghiệp quốc tế\n'
+          'Tiếng Anh mở ra cánh cửa đến '
+          'những cơ hội nghề nghiệp quốc tế '
           'và mức thu nhập hấp dẫn hơn.',
       source: 'Source: BBC Worklife\ncareer growth and global work',
     ),
     (
       text:
-          'Kỹ năng ngôn ngữ giúp bạn nổi bật\n'
-          'trong tuyển dụng, làm việc hiệu quả\n'
-          'với đội nhóm đa quốc gia và phát triển\n'
+          'Kỹ năng ngôn ngữ giúp bạn nổi bật '
+          'trong tuyển dụng, làm việc hiệu quả '
+          'với đội nhóm đa quốc gia và phát triển '
           'sự nghiệp bền vững.',
       source: 'Source: World Economic Forum\nfuture of jobs and skills',
     ),
     (
       text:
-          'Khả năng giao tiếp và sử dụng tiếng Anh\n'
-          'tự tin là chìa khóa để dẫn dắt, thăng tiến\n'
+          'Khả năng giao tiếp và sử dụng tiếng Anh '
+          'tự tin là chìa khóa để dẫn dắt, thăng tiến '
           'và đạt được thành công lâu dài.',
       source:
           'Source: Harvard Business Review\n'
@@ -2152,13 +3198,13 @@ class _SurveySummaryPage extends StatelessWidget {
       child: Column(
         children: [
           const Text(
-            'Tiếng Anh giúp bạn tiến xa hơn',
+            'Tiếng Anh giúp bạn tiến\n xa hơn',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
               fontSize: 24,
               height: 1.1,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w700,
               letterSpacing: -0.5,
               shadows: [
                 Shadow(
@@ -2186,12 +3232,12 @@ class _SurveySummaryPage extends StatelessWidget {
                   text: 'Leximon',
                   style: TextStyle(fontWeight: FontWeight.w800),
                 ),
-                TextSpan(text: ', học tiếng Anh mỗi ngày giúp bạn\n'),
+                TextSpan(text: ', học tiếng Anh mỗi ngày giúp bạn'),
                 TextSpan(
                   text: 'mở rộng cơ hội, nâng cao sự tự tin',
                   style: TextStyle(fontWeight: FontWeight.w800),
                 ),
-                TextSpan(text: ' và tiến gần hơn\nđến mục tiêu '),
+                TextSpan(text: ' và tiến gần hơn đến mục tiêu '),
                 TextSpan(
                   text: 'sự nghiệp và thu nhập.',
                   style: TextStyle(fontWeight: FontWeight.w800),
@@ -2366,7 +3412,7 @@ class _SurveyContinueButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       width: double.infinity,
-      height: 68,
+      height: 56,
       child: DecoratedBox(
         decoration: BoxDecoration(
           gradient: useBlueGradient
@@ -2422,7 +3468,7 @@ class _SurveyContinueButton extends StatelessWidget {
                       color: useBlueGradient
                           ? Colors.white
                           : const Color(0xFF1263F4),
-                      fontSize: label.length > 10 ? 21 : 26,
+                      fontSize: label.length > 10 ? 18 : 19,
                       fontWeight: FontWeight.w700,
                     ),
                   ),
@@ -2447,10 +3493,10 @@ class _SurveyContinueButton extends StatelessWidget {
 
 abstract final class _SurveyStyles {
   static const questionTitle = TextStyle(
-    color: Color(0xFF031B65),
+    color: Color(0xFFFFFFFF),
     fontSize: 26,
     height: 1.1,
-    fontWeight: FontWeight.w800,
+    fontWeight: FontWeight.w700,
     letterSpacing: -0.6,
   );
 

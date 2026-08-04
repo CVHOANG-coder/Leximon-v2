@@ -459,6 +459,8 @@ class LearningProgressService {
       trainedWordsCount: trainedCount,
       difficultWordsGoal: existing.difficultWordsGoal,
       difficultWordsTrainedCount: difficultCount,
+      wordsInSentencesGoal: existing.wordsInSentencesGoal,
+      wordsInSentencesCount: existing.wordsInSentencesCount,
     );
     await (_database.update(
       _database.visitModels,

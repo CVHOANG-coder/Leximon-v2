@@ -1,0 +1,394 @@
+[
+  {
+    "id": 4968,
+    "languageLevel": 1,
+    "task": "world",
+    "frequency": 58070,
+    "taskType": "1/4 text",
+    "brightLevel": "A1"
+  },
+  {
+    "id": 3040,
+    "languageLevel": 1,
+    "task": "family",
+    "frequency": 34455,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "A1"
+  },
+  {
+    "id": 2208,
+    "languageLevel": 1,
+    "task": "face",
+    "frequency": 25737,
+    "taskType": "1/3 audio",
+    "brightLevel": "A1"
+  },
+  {
+    "id": 3114,
+    "languageLevel": 1,
+    "task": "Can I help you?",
+    "frequency": 22985,
+    "taskType": "Constructor",
+    "brightLevel": "A1"
+  },
+  {
+    "id": 4017,
+    "languageLevel": 1,
+    "task": "food",
+    "frequency": 18985,
+    "taskType": "1/4 audio",
+    "brightLevel": "A1"
+  },
+  {
+    "id": 3038,
+    "languageLevel": 1,
+    "task": "love",
+    "frequency": 12093,
+    "taskType": "1/4 text",
+    "brightLevel": "A2"
+  },
+  {
+    "id": 662,
+    "languageLevel": 1,
+    "task": "floor",
+    "frequency": 11545,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "A2"
+  },
+  {
+    "id": 3141,
+    "languageLevel": 1,
+    "task": "Everything is ready",
+    "frequency": 9812,
+    "taskType": "Constructor",
+    "brightLevel": "A2"
+  },
+  {
+    "id": 2671,
+    "languageLevel": 1,
+    "task": "light",
+    "frequency": 8616,
+    "taskType": "1/4 text",
+    "brightLevel": "A2"
+  },
+  {
+    "id": 7032,
+    "languageLevel": 1,
+    "task": "memory",
+    "frequency": 7588,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "A2"
+  },
+  {
+    "id": 166,
+    "languageLevel": 1,
+    "task": "train",
+    "frequency": 5929,
+    "taskType": "1/3 audio",
+    "brightLevel": "A2"
+  },
+  {
+    "id": 4079,
+    "languageLevel": 1,
+    "task": "milk",
+    "frequency": 4787,
+    "taskType": "1/4 text",
+    "brightLevel": "A3"
+  },
+  {
+    "id": 1380,
+    "languageLevel": 1,
+    "task": "map",
+    "frequency": 3515,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "A3"
+  },
+  {
+    "id": 4272,
+    "languageLevel": 1,
+    "task": "bird",
+    "frequency": 3443,
+    "taskType": "1/3 audio",
+    "brightLevel": "A3"
+  },
+  {
+    "id": 4057,
+    "languageLevel": 1,
+    "task": "Enjoy your meal!",
+    "frequency": 3900,
+    "taskType": "Constructor",
+    "brightLevel": "A3"
+  },
+  {
+    "id": 945,
+    "languageLevel": 1,
+    "task": "sugar",
+    "frequency": 3237,
+    "taskType": "1/4 audio",
+    "brightLevel": "A3"
+  },
+  {
+    "id": 1716,
+    "languageLevel": 3,
+    "task": "hat",
+    "frequency": 3136,
+    "taskType": "1/4 text",
+    "brightLevel": "B1"
+  },
+  {
+    "id": 3964,
+    "languageLevel": 3,
+    "task": "glasses",
+    "frequency": 2474,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "B1"
+  },
+  {
+    "id": 755,
+    "languageLevel": 3,
+    "task": "bitter",
+    "frequency": 2234,
+    "taskType": "1/3 audio",
+    "brightLevel": "B1"
+  },
+  {
+    "id": 3003,
+    "languageLevel": 3,
+    "task": "a piece of cake",
+    "frequency": 2796,
+    "taskType": "Constructor",
+    "brightLevel": "B1"
+  },
+  {
+    "id": 1792,
+    "languageLevel": 3,
+    "task": "wool",
+    "frequency": 1780,
+    "taskType": "1/4 audio",
+    "brightLevel": "B1"
+  },
+  {
+    "id": 7107,
+    "languageLevel": 3,
+    "task": "random",
+    "frequency": 1690,
+    "taskType": "1/4 text",
+    "brightLevel": "B2"
+  },
+  {
+    "id": 3509,
+    "languageLevel": 3,
+    "task": "brave",
+    "frequency": 1571,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "B2"
+  },
+  {
+    "id": 7188,
+    "languageLevel": 3,
+    "task": "ingredients",
+    "frequency": 1256,
+    "taskType": "1/4 text",
+    "brightLevel": "B2"
+  },
+  {
+    "id": 887,
+    "languageLevel": 3,
+    "task": "pie",
+    "frequency": 1154,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "B2"
+  },
+  {
+    "id": 3011,
+    "languageLevel": 3,
+    "task": "bird has flown",
+    "frequency": 1098,
+    "taskType": "Constructor",
+    "brightLevel": "B2"
+  },
+  {
+    "id": 5037,
+    "languageLevel": 3,
+    "task": "cliff",
+    "frequency": 962,
+    "taskType": "1/3 audio",
+    "brightLevel": "B2"
+  },
+  {
+    "id": 1039,
+    "languageLevel": 3,
+    "task": "owl",
+    "frequency": 944,
+    "taskType": "1/4 text",
+    "brightLevel": "B3"
+  },
+  {
+    "id": 3973,
+    "languageLevel": 3,
+    "task": "umbrella",
+    "frequency": 809,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "B3"
+  },
+  {
+    "id": 5779,
+    "languageLevel": 3,
+    "task": "thigh",
+    "frequency": 663,
+    "taskType": "1/3 audio",
+    "brightLevel": "B3"
+  },
+  {
+    "id": 3006,
+    "languageLevel": 3,
+    "task": "quick as a flash",
+    "frequency": 646,
+    "taskType": "Constructor",
+    "brightLevel": "B3"
+  },
+  {
+    "id": 7657,
+    "languageLevel": 3,
+    "task": "brisk",
+    "frequency": 513,
+    "taskType": "1/4 audio",
+    "brightLevel": "B3"
+  },
+  {
+    "id": 4994,
+    "languageLevel": 5,
+    "task": "ladder",
+    "frequency": 577,
+    "taskType": "1/4 text",
+    "brightLevel": "C1"
+  },
+  {
+    "id": 7908,
+    "languageLevel": 5,
+    "task": "paperwork",
+    "frequency": 501,
+    "taskType": "1/4 text",
+    "brightLevel": "C1"
+  },
+  {
+    "id": 5080,
+    "languageLevel": 5,
+    "task": "rainforest",
+    "frequency": 452,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "C1"
+  },
+  {
+    "id": 7789,
+    "languageLevel": 5,
+    "task": "awesome",
+    "frequency": 392,
+    "taskType": "1/3 audio",
+    "brightLevel": "C1"
+  },
+  {
+    "id": 5955,
+    "languageLevel": 5,
+    "task": "slam on the brakes",
+    "frequency": 304,
+    "taskType": "Constructor",
+    "brightLevel": "C1"
+  },
+  {
+    "id": 943,
+    "languageLevel": 5,
+    "task": "strawberry",
+    "frequency": 258,
+    "taskType": "1/4 audio",
+    "brightLevel": "C1"
+  },
+  {
+    "id": 5850,
+    "languageLevel": 5,
+    "task": "mentor",
+    "frequency": 241,
+    "taskType": "1/4 text",
+    "brightLevel": "C2"
+  },
+  {
+    "id": 3845,
+    "languageLevel": 5,
+    "task": "intersection",
+    "frequency": 227,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "C2"
+  },
+  {
+    "id": 8741,
+    "languageLevel": 5,
+    "task": "toss a coin",
+    "frequency": 199,
+    "taskType": "Constructor",
+    "brightLevel": "C2"
+  },
+  {
+    "id": 5213,
+    "languageLevel": 5,
+    "task": "seaweed",
+    "frequency": 143,
+    "taskType": "1/4 text",
+    "brightLevel": "C2"
+  },
+  {
+    "id": 5956,
+    "languageLevel": 5,
+    "task": "savour",
+    "frequency": 136,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "C2"
+  },
+  {
+    "id": 3436,
+    "languageLevel": 5,
+    "task": "kindergarten",
+    "frequency": 96,
+    "taskType": "1/3 audio",
+    "brightLevel": "C2"
+  },
+  {
+    "id": 4268,
+    "languageLevel": 5,
+    "task": "hamster",
+    "frequency": 95,
+    "taskType": "1/4 text",
+    "brightLevel": "C3"
+  },
+  {
+    "id": 4547,
+    "languageLevel": 5,
+    "task": "bookmark",
+    "frequency": 44,
+    "taskType": "1/4 text inverse",
+    "brightLevel": "C3"
+  },
+  {
+    "id": 4273,
+    "languageLevel": 5,
+    "task": "raccoon",
+    "frequency": 7,
+    "taskType": "1/3 audio",
+    "brightLevel": "C3"
+  },
+  {
+    "id": 5967,
+    "languageLevel": 5,
+    "task": "cry over spilt milk",
+    "frequency": 1,
+    "taskType": "Constructor",
+    "brightLevel": "C3"
+  },
+  {
+    "id": 5877,
+    "languageLevel": 5,
+    "task": "skydiving",
+    "frequency": 1,
+    "taskType": "1/4 audio",
+    "brightLevel": "C3"
+  }
+]

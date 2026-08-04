@@ -16,6 +16,9 @@ import '../../data/services/difficult_words_training_service.dart';
 import '../../data/services/home_main_task_service.dart';
 import '../../data/services/profile_statistics_service.dart';
 import '../../data/services/progress_dashboard_service.dart';
+import '../../data/services/sentence_ai_service.dart';
+import '../../data/services/sentence_lesson_service.dart';
+import '../../data/services/sentence_progress_service.dart';
 import '../../data/services/topic_progress_service.dart';
 import '../../data/services/topic_repetition_service.dart';
 
@@ -133,10 +136,25 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
   },
 );
 
+final sentenceLessonServiceProvider = Provider<SentenceLessonService>((ref) {
+  return SentenceLessonService(database: ref.watch(appDatabaseProvider));
+});
+
+final sentenceProgressServiceProvider = Provider<SentenceProgressService>((
+  ref,
+) {
+  return SentenceProgressService(ref.watch(appDatabaseProvider));
+});
+
+final sentenceAiServiceProvider = Provider<SentenceAiService>((ref) {
+  return const SentenceAiService();
+});
+
 final dailyCardServiceProvider = Provider<DailyCardService>((ref) {
   return DailyCardService(
     ref.watch(appDatabaseProvider),
     wordsPerDay: ref.watch(dailyWordsPerDayProvider),
+    sentenceFeatureEnabled: ref.watch(selectedAppLanguageProvider) == 'vi',
   );
 });
 

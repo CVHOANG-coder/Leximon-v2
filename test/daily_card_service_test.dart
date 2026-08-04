@@ -213,6 +213,59 @@ void main() {
     expect(whenDue.additionalTasks, contains(DailyTaskType.repeat));
   });
 
+  test(
+    'shows Words in Sentences only with four eligible Vietnamese words',
+    () async {
+      final now = DateTime(2026, 7, 29, 12);
+      await database.batch((batch) {
+        batch.insertAll(database.wordModels, [
+          for (var id = 1; id <= 4; id++)
+            WordModelsCompanion.insert(
+              id: id,
+              topicId: 1,
+              writing: 'word$id',
+              translation: 'nghĩa $id',
+              isEnabled: true,
+              priority: 1,
+              level: 1,
+            ),
+        ]);
+        batch.insertAll(database.learningProgressModels, [
+          for (var id = 1; id <= 4; id++)
+            LearningProgressModelsCompanion.insert(
+              id: Value(id),
+              creationDate: now.millisecondsSinceEpoch,
+              repetitionStep: const Value(1),
+            ),
+        ]);
+      });
+
+      final disabledCard = await service.load(now: now);
+      expect(
+        disabledCard.tasks.map((task) => task.type),
+        isNot(contains(DailyTaskType.sentences)),
+      );
+
+      final enabledService = DailyCardService(
+        database,
+        sentenceFeatureEnabled: true,
+        sentenceWordIds: const {1, 2, 3, 4},
+      );
+      final enabledCard = await enabledService.load(now: now);
+      expect(
+        enabledCard.tasks.map((task) => task.type),
+        contains(DailyTaskType.sentences),
+      );
+      expect(
+        enabledCard.tasks
+            .singleWhere((task) => task.type == DailyTaskType.sentences)
+            .count,
+        4,
+      );
+      expect(enabledCard.additionalTasks, contains(DailyTaskType.sentences));
+    },
+  );
+
   final combinations =
       <
         ({
@@ -280,7 +333,9 @@ void main() {
           repeat: true,
           train: true,
           difficult: true,
-          expected: DailyTaskType.values,
+          expected: DailyTaskType.values
+              .where((type) => type != DailyTaskType.sentences)
+              .toList(),
         ),
       ];
 

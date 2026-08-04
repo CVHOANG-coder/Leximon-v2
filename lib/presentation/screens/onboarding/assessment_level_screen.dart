@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../data/models/onboarding_vocabulary_test.dart';
+
 class AssessmentLevelScreen extends StatefulWidget {
   const AssessmentLevelScreen({super.key});
 
@@ -169,6 +171,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
     _AssessmentOptionData(
       text: 'Vừa mới bắt đầu học,\ntôi chưa biết gì cả',
       imageAsset: 'assets/images/onboarding/scooter.png',
+      startingBand: VocabularyStartingBand.beginner,
     ),
     _AssessmentOptionData(
       text:
@@ -176,6 +179,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
           'cơ bản và có thể nói được các\n'
           'từ cũng như cụm từ đơn giản',
       imageAsset: 'assets/images/onboarding/bike.png',
+      startingBand: VocabularyStartingBand.beginner,
     ),
     _AssessmentOptionData(
       text:
@@ -183,6 +187,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
           'còn mắc lỗi và hay\n'
           'ngập ngừng',
       imageAsset: 'assets/images/onboarding/car.png',
+      startingBand: VocabularyStartingBand.intermediate,
     ),
     _AssessmentOptionData(
       text:
@@ -190,6 +195,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
           'và xem phim bằng\n'
           'tiếng Anh',
       imageAsset: 'assets/images/onboarding/rocket.png',
+      startingBand: VocabularyStartingBand.advanced,
     ),
   ];
 
@@ -268,7 +274,9 @@ class _AssessmentLevelPanel extends StatelessWidget {
                             onTap: selectedOption == null
                                 ? null
                                 : () => context.push(
-                                    '/onboarding/assessment-intro/survey',
+                                    '/onboarding/assessment-intro/'
+                                    'vocabulary-test?band='
+                                    '${_options[selectedOption!].startingBand.queryValue}',
                                   ),
                             borderRadius: BorderRadius.circular(19),
                             child: const Center(
@@ -422,8 +430,13 @@ class _AssessmentRadio extends StatelessWidget {
 }
 
 class _AssessmentOptionData {
-  const _AssessmentOptionData({required this.text, required this.imageAsset});
+  const _AssessmentOptionData({
+    required this.text,
+    required this.imageAsset,
+    required this.startingBand,
+  });
 
   final String text;
   final String imageAsset;
+  final VocabularyStartingBand startingBand;
 }

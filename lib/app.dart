@@ -6,13 +6,18 @@ import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
 import 'data/services/app_usage_service.dart';
+import 'data/models/onboarding_vocabulary_test.dart';
 import 'presentation/screens/main/main_screen.dart';
 import 'presentation/screens/onboarding/assessment_level_screen.dart';
+import 'presentation/screens/onboarding/free_trial_offer_screen.dart';
 import 'presentation/screens/onboarding/level_assessment_intro_screen.dart';
 import 'presentation/screens/onboarding/level_selection_screen.dart';
 import 'presentation/screens/onboarding/language_onboarding_screen.dart';
 import 'presentation/screens/onboarding/survey_carousel_screen.dart';
 import 'presentation/screens/onboarding/survey_intro_screen.dart';
+import 'presentation/screens/onboarding/subscription_plan_screen.dart';
+import 'presentation/screens/onboarding/trial_reminder_screen.dart';
+import 'presentation/screens/onboarding/vocabulary_test_screen.dart';
 import 'presentation/screens/splash/splash_screen.dart';
 import 'shared/providers/app_providers.dart';
 
@@ -37,12 +42,32 @@ final _router = GoRouter(
           builder: (context, state) => const LevelSelectionScreen(),
         ),
         GoRoute(
+          path: 'vocabulary-test',
+          builder: (context, state) => VocabularyTestScreen(
+            startingBand: VocabularyStartingBand.fromQuery(
+              state.uri.queryParameters['band'],
+            ),
+          ),
+        ),
+        GoRoute(
           path: 'survey',
           builder: (context, state) => const SurveyIntroScreen(),
           routes: [
             GoRoute(
               path: 'questions',
               builder: (context, state) => const SurveyCarouselScreen(),
+            ),
+            GoRoute(
+              path: 'free-trial',
+              builder: (context, state) => const FreeTrialOfferScreen(),
+            ),
+            GoRoute(
+              path: 'trial-reminder',
+              builder: (context, state) => const TrialReminderScreen(),
+            ),
+            GoRoute(
+              path: 'subscription',
+              builder: (context, state) => const SubscriptionPlanScreen(),
             ),
           ],
         ),

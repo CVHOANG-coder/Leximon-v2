@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/practice_exercise.dart';
+import '../../../data/models/sentence_exercise.dart';
 import '../../../data/services/additional_task_service.dart';
 import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/home_main_task_service.dart';
@@ -14,6 +15,7 @@ import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../repetition_practice/repetition_practice_screen.dart';
 import '../review_practice/review_practice_screen.dart';
+import '../sentence_training/sentence_training_screen.dart';
 import '../topic_detail/topic_detail_screen.dart';
 import '../word_study/word_study_screen.dart';
 
@@ -248,10 +250,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                     ),
                   ),
                 ),
-                const SliverPadding(
-                  padding: EdgeInsets.fromLTRB(18, 18, 18, 28),
-                  sliver: SliverToBoxAdapter(child: _QuickPractice()),
-                ),
+                const SliverPadding(padding: EdgeInsets.only(bottom: 28)),
               ],
             ),
           ),
@@ -656,6 +655,18 @@ class _DailyCardContent extends ConsumerWidget {
     WidgetRef ref,
     DailyTaskType type,
   ) async {
+    if (type == DailyTaskType.sentences) {
+      await Navigator.of(context).push<void>(
+        MaterialPageRoute<void>(
+          builder: (_) => const SentenceTrainingScreen(
+            source: SentenceTrainingSource.daily,
+          ),
+        ),
+      );
+      if (!context.mounted) return;
+      _invalidateHomeProgress(ref);
+      return;
+    }
     if (type != DailyTaskType.learn) {
       try {
         final data = await ref
@@ -753,6 +764,8 @@ class _DailyCardContent extends ConsumerWidget {
         );
       case DailyTaskType.learn:
         throw StateError('Learn tasks use WordStudyScreen.');
+      case DailyTaskType.sentences:
+        throw StateError('Sentence tasks use SentenceTrainingScreen.');
     }
   }
 }
@@ -816,6 +829,19 @@ class _AdditionalTasksLauncherState
       );
       if (selectedType == null || !mounted) return;
       requestedType = selectedType;
+
+      if (selectedType == DailyTaskType.sentences) {
+        await Navigator.of(context).push<void>(
+          MaterialPageRoute<void>(
+            builder: (_) => const SentenceTrainingScreen(
+              source: SentenceTrainingSource.additional,
+            ),
+          ),
+        );
+        if (!mounted) return;
+        _invalidateHomeProgress(ref);
+        return;
+      }
 
       setState(() => _isOpening = true);
       final launchData = await service.prepareTask(selectedType);
@@ -913,6 +939,8 @@ class _AdditionalTasksLauncherState
           ),
         );
         return;
+      case DailyTaskType.sentences:
+        throw StateError('Sentence tasks launch before prepareTask.');
     }
   }
 
@@ -1303,6 +1331,7 @@ String _additionalTaskLabel(DailyTaskType type) {
     DailyTaskType.learn => 'Học từ mới',
     DailyTaskType.repeat => 'Ôn tập',
     DailyTaskType.train => 'Luyện từ',
+    DailyTaskType.sentences => 'Ghép câu',
     DailyTaskType.difficult => 'Từ khó',
   };
 }
@@ -1312,6 +1341,7 @@ String _additionalTaskDescription(DailyTaskType type) {
     DailyTaskType.learn => 'Chọn đúng 4 từ và luyện tối đa 24 câu',
     DailyTaskType.repeat => 'Ôn theo nhóm tối đa 20 từ, 5 giây mỗi câu',
     DailyTaskType.train => 'Luyện 4 từ Fast Brain đã đến hạn',
+    DailyTaskType.sentences => 'Luyện 4 từ trong câu với 4 dạng bài',
     DailyTaskType.difficult => 'Làm lại các dạng bài bạn vẫn còn sai',
   };
 }
@@ -1321,6 +1351,7 @@ Color _additionalTaskColor(DailyTaskType type) {
     DailyTaskType.learn => AppColors.primary,
     DailyTaskType.repeat => const Color(0xFF5E55C9),
     DailyTaskType.train => const Color(0xFFE28A00),
+    DailyTaskType.sentences => const Color(0xFF5E55C9),
     DailyTaskType.difficult => const Color(0xFFDB5C73),
   };
 }
@@ -1333,6 +1364,8 @@ String _dailyTaskLabel(DailyTaskType type) {
       return 'Học từ mới';
     case DailyTaskType.train:
       return 'Luyện tập các từ';
+    case DailyTaskType.sentences:
+      return 'Ghép câu theo ngữ cảnh';
     case DailyTaskType.difficult:
       return 'Luyện tập từ khó';
   }
@@ -1344,6 +1377,7 @@ String _dailyTaskTitle(DailyTaskSnapshot task) {
     DailyTaskType.repeat => 'Đã lặp lại ${task.count} từ',
     DailyTaskType.learn => '${task.count} từ đã học',
     DailyTaskType.train => 'Đã luyện được ${task.count} từ',
+    DailyTaskType.sentences => 'Đã ghép câu với ${task.count} từ',
     DailyTaskType.difficult => '${task.count} từ khó đã được luyện tập',
   };
 }
@@ -1356,6 +1390,8 @@ IconData _dailyTaskIcon(DailyTaskType type) {
       return Icons.lightbulb_outline_rounded;
     case DailyTaskType.train:
       return Icons.bolt_rounded;
+    case DailyTaskType.sentences:
+      return Icons.sort_by_alpha_rounded;
     case DailyTaskType.difficult:
       return Icons.psychology_alt_outlined;
   }
@@ -1398,6 +1434,13 @@ _dailyTaskColors(DailyTaskType type, bool done) {
       border: const Color(0xFFC5E9D3),
       iconBackground: const Color(0xFFD8F2E2),
       icon: const Color(0xFF27845D),
+      title: AppColors.textPrimary,
+    ),
+    DailyTaskType.sentences => (
+      background: const Color(0xFFF3F1FF),
+      border: const Color(0xFFD9D3FF),
+      iconBackground: const Color(0xFFE5E1FF),
+      icon: const Color(0xFF5E55C9),
       title: AppColors.textPrimary,
     ),
     DailyTaskType.difficult => (
@@ -1958,65 +2001,6 @@ class _TopicGrid extends StatelessWidget {
             builder: (_) => TopicDetailScreen(topic: topics[index]),
           ),
         ),
-      ),
-    );
-  }
-}
-
-class _QuickPractice extends StatelessWidget {
-  const _QuickPractice();
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: const Color(0xFFF0F6FF),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0x19155CFF)),
-      ),
-      child: Row(
-        children: [
-          Container(
-            width: 45,
-            height: 45,
-            decoration: BoxDecoration(
-              color: const Color(0xFFDDF9EF),
-              borderRadius: BorderRadius.circular(15),
-            ),
-            child: const Icon(Icons.sync_rounded, color: Color(0xFF137E68)),
-          ),
-          const SizedBox(width: 11),
-          const Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  'Ôn nhanh hôm nay',
-                  style: TextStyle(
-                    color: AppColors.primaryDark,
-                    fontSize: 11,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-                SizedBox(height: 4),
-                Text(
-                  '4 từ sắp quên • khoảng 2 phút',
-                  style: TextStyle(color: AppColors.textSecondary, fontSize: 9),
-                ),
-              ],
-            ),
-          ),
-          Container(
-            width: 40,
-            height: 40,
-            decoration: BoxDecoration(
-              color: AppColors.primary,
-              borderRadius: BorderRadius.circular(13),
-            ),
-            child: const Icon(Icons.play_arrow_rounded, color: Colors.white),
-          ),
-        ],
       ),
     );
   }

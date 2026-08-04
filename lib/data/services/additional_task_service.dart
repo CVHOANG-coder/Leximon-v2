@@ -78,9 +78,12 @@ class AdditionalTaskService {
         currentTimestamp,
       ),
       DailyTaskType.difficult => _difficultWords(enabledWords, progressById),
+      DailyTaskType.sentences => const <WordRow>[],
     };
 
-    if (type != DailyTaskType.learn && words.isEmpty) {
+    if (type != DailyTaskType.learn &&
+        type != DailyTaskType.sentences &&
+        words.isEmpty) {
       throw AdditionalTaskUnavailableException(type);
     }
     if ((type == DailyTaskType.train || type == DailyTaskType.difficult) &&

@@ -1821,6 +1821,702 @@ class LearningProgressModelsCompanion
   }
 }
 
+class $WordSentenceProgressModelsTable extends WordSentenceProgressModels
+    with TableInfo<$WordSentenceProgressModelsTable, WordSentenceProgressRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $WordSentenceProgressModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
+  @override
+  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
+    'word_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _finishedCountMeta = const VerificationMeta(
+    'finishedCount',
+  );
+  @override
+  late final GeneratedColumn<int> finishedCount = GeneratedColumn<int>(
+    'finished_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [wordId, finishedCount];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'word_sentence_progress_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<WordSentenceProgressRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('word_id')) {
+      context.handle(
+        _wordIdMeta,
+        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
+      );
+    }
+    if (data.containsKey('finished_count')) {
+      context.handle(
+        _finishedCountMeta,
+        finishedCount.isAcceptableOrUnknown(
+          data['finished_count']!,
+          _finishedCountMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {wordId};
+  @override
+  WordSentenceProgressRow map(
+    Map<String, dynamic> data, {
+    String? tablePrefix,
+  }) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return WordSentenceProgressRow(
+      wordId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}word_id'],
+      )!,
+      finishedCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}finished_count'],
+      )!,
+    );
+  }
+
+  @override
+  $WordSentenceProgressModelsTable createAlias(String alias) {
+    return $WordSentenceProgressModelsTable(attachedDatabase, alias);
+  }
+}
+
+class WordSentenceProgressRow extends DataClass
+    implements Insertable<WordSentenceProgressRow> {
+  final int wordId;
+  final int finishedCount;
+  const WordSentenceProgressRow({
+    required this.wordId,
+    required this.finishedCount,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['word_id'] = Variable<int>(wordId);
+    map['finished_count'] = Variable<int>(finishedCount);
+    return map;
+  }
+
+  WordSentenceProgressModelsCompanion toCompanion(bool nullToAbsent) {
+    return WordSentenceProgressModelsCompanion(
+      wordId: Value(wordId),
+      finishedCount: Value(finishedCount),
+    );
+  }
+
+  factory WordSentenceProgressRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return WordSentenceProgressRow(
+      wordId: serializer.fromJson<int>(json['wordId']),
+      finishedCount: serializer.fromJson<int>(json['finishedCount']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'wordId': serializer.toJson<int>(wordId),
+      'finishedCount': serializer.toJson<int>(finishedCount),
+    };
+  }
+
+  WordSentenceProgressRow copyWith({int? wordId, int? finishedCount}) =>
+      WordSentenceProgressRow(
+        wordId: wordId ?? this.wordId,
+        finishedCount: finishedCount ?? this.finishedCount,
+      );
+  WordSentenceProgressRow copyWithCompanion(
+    WordSentenceProgressModelsCompanion data,
+  ) {
+    return WordSentenceProgressRow(
+      wordId: data.wordId.present ? data.wordId.value : this.wordId,
+      finishedCount: data.finishedCount.present
+          ? data.finishedCount.value
+          : this.finishedCount,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('WordSentenceProgressRow(')
+          ..write('wordId: $wordId, ')
+          ..write('finishedCount: $finishedCount')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(wordId, finishedCount);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is WordSentenceProgressRow &&
+          other.wordId == this.wordId &&
+          other.finishedCount == this.finishedCount);
+}
+
+class WordSentenceProgressModelsCompanion
+    extends UpdateCompanion<WordSentenceProgressRow> {
+  final Value<int> wordId;
+  final Value<int> finishedCount;
+  const WordSentenceProgressModelsCompanion({
+    this.wordId = const Value.absent(),
+    this.finishedCount = const Value.absent(),
+  });
+  WordSentenceProgressModelsCompanion.insert({
+    this.wordId = const Value.absent(),
+    this.finishedCount = const Value.absent(),
+  });
+  static Insertable<WordSentenceProgressRow> custom({
+    Expression<int>? wordId,
+    Expression<int>? finishedCount,
+  }) {
+    return RawValuesInsertable({
+      if (wordId != null) 'word_id': wordId,
+      if (finishedCount != null) 'finished_count': finishedCount,
+    });
+  }
+
+  WordSentenceProgressModelsCompanion copyWith({
+    Value<int>? wordId,
+    Value<int>? finishedCount,
+  }) {
+    return WordSentenceProgressModelsCompanion(
+      wordId: wordId ?? this.wordId,
+      finishedCount: finishedCount ?? this.finishedCount,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (wordId.present) {
+      map['word_id'] = Variable<int>(wordId.value);
+    }
+    if (finishedCount.present) {
+      map['finished_count'] = Variable<int>(finishedCount.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('WordSentenceProgressModelsCompanion(')
+          ..write('wordId: $wordId, ')
+          ..write('finishedCount: $finishedCount')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $SentenceExposureModelsTable extends SentenceExposureModels
+    with TableInfo<$SentenceExposureModelsTable, SentenceExposureRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $SentenceExposureModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _sentenceIdMeta = const VerificationMeta(
+    'sentenceId',
+  );
+  @override
+  late final GeneratedColumn<int> sentenceId = GeneratedColumn<int>(
+    'sentence_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
+  @override
+  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
+    'word_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _finishedCountMeta = const VerificationMeta(
+    'finishedCount',
+  );
+  @override
+  late final GeneratedColumn<int> finishedCount = GeneratedColumn<int>(
+    'finished_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _insertWordTaskMeta = const VerificationMeta(
+    'insertWordTask',
+  );
+  @override
+  late final GeneratedColumn<int> insertWordTask = GeneratedColumn<int>(
+    'insert_word_task',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _constructorTaskMeta = const VerificationMeta(
+    'constructorTask',
+  );
+  @override
+  late final GeneratedColumn<int> constructorTask = GeneratedColumn<int>(
+    'constructor_task',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(1),
+  );
+  static const VerificationMeta _constructorAudioTaskMeta =
+      const VerificationMeta('constructorAudioTask');
+  @override
+  late final GeneratedColumn<int> constructorAudioTask = GeneratedColumn<int>(
+    'constructor_audio_task',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _constructorInverseTaskMeta =
+      const VerificationMeta('constructorInverseTask');
+  @override
+  late final GeneratedColumn<int> constructorInverseTask = GeneratedColumn<int>(
+    'constructor_inverse_task',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    sentenceId,
+    wordId,
+    finishedCount,
+    insertWordTask,
+    constructorTask,
+    constructorAudioTask,
+    constructorInverseTask,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'sentence_exposure_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<SentenceExposureRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('sentence_id')) {
+      context.handle(
+        _sentenceIdMeta,
+        sentenceId.isAcceptableOrUnknown(data['sentence_id']!, _sentenceIdMeta),
+      );
+    }
+    if (data.containsKey('word_id')) {
+      context.handle(
+        _wordIdMeta,
+        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_wordIdMeta);
+    }
+    if (data.containsKey('finished_count')) {
+      context.handle(
+        _finishedCountMeta,
+        finishedCount.isAcceptableOrUnknown(
+          data['finished_count']!,
+          _finishedCountMeta,
+        ),
+      );
+    }
+    if (data.containsKey('insert_word_task')) {
+      context.handle(
+        _insertWordTaskMeta,
+        insertWordTask.isAcceptableOrUnknown(
+          data['insert_word_task']!,
+          _insertWordTaskMeta,
+        ),
+      );
+    }
+    if (data.containsKey('constructor_task')) {
+      context.handle(
+        _constructorTaskMeta,
+        constructorTask.isAcceptableOrUnknown(
+          data['constructor_task']!,
+          _constructorTaskMeta,
+        ),
+      );
+    }
+    if (data.containsKey('constructor_audio_task')) {
+      context.handle(
+        _constructorAudioTaskMeta,
+        constructorAudioTask.isAcceptableOrUnknown(
+          data['constructor_audio_task']!,
+          _constructorAudioTaskMeta,
+        ),
+      );
+    }
+    if (data.containsKey('constructor_inverse_task')) {
+      context.handle(
+        _constructorInverseTaskMeta,
+        constructorInverseTask.isAcceptableOrUnknown(
+          data['constructor_inverse_task']!,
+          _constructorInverseTaskMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {sentenceId};
+  @override
+  SentenceExposureRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return SentenceExposureRow(
+      sentenceId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}sentence_id'],
+      )!,
+      wordId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}word_id'],
+      )!,
+      finishedCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}finished_count'],
+      )!,
+      insertWordTask: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}insert_word_task'],
+      )!,
+      constructorTask: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}constructor_task'],
+      )!,
+      constructorAudioTask: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}constructor_audio_task'],
+      )!,
+      constructorInverseTask: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}constructor_inverse_task'],
+      )!,
+    );
+  }
+
+  @override
+  $SentenceExposureModelsTable createAlias(String alias) {
+    return $SentenceExposureModelsTable(attachedDatabase, alias);
+  }
+}
+
+class SentenceExposureRow extends DataClass
+    implements Insertable<SentenceExposureRow> {
+  final int sentenceId;
+  final int wordId;
+  final int finishedCount;
+  final int insertWordTask;
+  final int constructorTask;
+  final int constructorAudioTask;
+  final int constructorInverseTask;
+  const SentenceExposureRow({
+    required this.sentenceId,
+    required this.wordId,
+    required this.finishedCount,
+    required this.insertWordTask,
+    required this.constructorTask,
+    required this.constructorAudioTask,
+    required this.constructorInverseTask,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['sentence_id'] = Variable<int>(sentenceId);
+    map['word_id'] = Variable<int>(wordId);
+    map['finished_count'] = Variable<int>(finishedCount);
+    map['insert_word_task'] = Variable<int>(insertWordTask);
+    map['constructor_task'] = Variable<int>(constructorTask);
+    map['constructor_audio_task'] = Variable<int>(constructorAudioTask);
+    map['constructor_inverse_task'] = Variable<int>(constructorInverseTask);
+    return map;
+  }
+
+  SentenceExposureModelsCompanion toCompanion(bool nullToAbsent) {
+    return SentenceExposureModelsCompanion(
+      sentenceId: Value(sentenceId),
+      wordId: Value(wordId),
+      finishedCount: Value(finishedCount),
+      insertWordTask: Value(insertWordTask),
+      constructorTask: Value(constructorTask),
+      constructorAudioTask: Value(constructorAudioTask),
+      constructorInverseTask: Value(constructorInverseTask),
+    );
+  }
+
+  factory SentenceExposureRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return SentenceExposureRow(
+      sentenceId: serializer.fromJson<int>(json['sentenceId']),
+      wordId: serializer.fromJson<int>(json['wordId']),
+      finishedCount: serializer.fromJson<int>(json['finishedCount']),
+      insertWordTask: serializer.fromJson<int>(json['insertWordTask']),
+      constructorTask: serializer.fromJson<int>(json['constructorTask']),
+      constructorAudioTask: serializer.fromJson<int>(
+        json['constructorAudioTask'],
+      ),
+      constructorInverseTask: serializer.fromJson<int>(
+        json['constructorInverseTask'],
+      ),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'sentenceId': serializer.toJson<int>(sentenceId),
+      'wordId': serializer.toJson<int>(wordId),
+      'finishedCount': serializer.toJson<int>(finishedCount),
+      'insertWordTask': serializer.toJson<int>(insertWordTask),
+      'constructorTask': serializer.toJson<int>(constructorTask),
+      'constructorAudioTask': serializer.toJson<int>(constructorAudioTask),
+      'constructorInverseTask': serializer.toJson<int>(constructorInverseTask),
+    };
+  }
+
+  SentenceExposureRow copyWith({
+    int? sentenceId,
+    int? wordId,
+    int? finishedCount,
+    int? insertWordTask,
+    int? constructorTask,
+    int? constructorAudioTask,
+    int? constructorInverseTask,
+  }) => SentenceExposureRow(
+    sentenceId: sentenceId ?? this.sentenceId,
+    wordId: wordId ?? this.wordId,
+    finishedCount: finishedCount ?? this.finishedCount,
+    insertWordTask: insertWordTask ?? this.insertWordTask,
+    constructorTask: constructorTask ?? this.constructorTask,
+    constructorAudioTask: constructorAudioTask ?? this.constructorAudioTask,
+    constructorInverseTask:
+        constructorInverseTask ?? this.constructorInverseTask,
+  );
+  SentenceExposureRow copyWithCompanion(SentenceExposureModelsCompanion data) {
+    return SentenceExposureRow(
+      sentenceId: data.sentenceId.present
+          ? data.sentenceId.value
+          : this.sentenceId,
+      wordId: data.wordId.present ? data.wordId.value : this.wordId,
+      finishedCount: data.finishedCount.present
+          ? data.finishedCount.value
+          : this.finishedCount,
+      insertWordTask: data.insertWordTask.present
+          ? data.insertWordTask.value
+          : this.insertWordTask,
+      constructorTask: data.constructorTask.present
+          ? data.constructorTask.value
+          : this.constructorTask,
+      constructorAudioTask: data.constructorAudioTask.present
+          ? data.constructorAudioTask.value
+          : this.constructorAudioTask,
+      constructorInverseTask: data.constructorInverseTask.present
+          ? data.constructorInverseTask.value
+          : this.constructorInverseTask,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SentenceExposureRow(')
+          ..write('sentenceId: $sentenceId, ')
+          ..write('wordId: $wordId, ')
+          ..write('finishedCount: $finishedCount, ')
+          ..write('insertWordTask: $insertWordTask, ')
+          ..write('constructorTask: $constructorTask, ')
+          ..write('constructorAudioTask: $constructorAudioTask, ')
+          ..write('constructorInverseTask: $constructorInverseTask')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    sentenceId,
+    wordId,
+    finishedCount,
+    insertWordTask,
+    constructorTask,
+    constructorAudioTask,
+    constructorInverseTask,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is SentenceExposureRow &&
+          other.sentenceId == this.sentenceId &&
+          other.wordId == this.wordId &&
+          other.finishedCount == this.finishedCount &&
+          other.insertWordTask == this.insertWordTask &&
+          other.constructorTask == this.constructorTask &&
+          other.constructorAudioTask == this.constructorAudioTask &&
+          other.constructorInverseTask == this.constructorInverseTask);
+}
+
+class SentenceExposureModelsCompanion
+    extends UpdateCompanion<SentenceExposureRow> {
+  final Value<int> sentenceId;
+  final Value<int> wordId;
+  final Value<int> finishedCount;
+  final Value<int> insertWordTask;
+  final Value<int> constructorTask;
+  final Value<int> constructorAudioTask;
+  final Value<int> constructorInverseTask;
+  const SentenceExposureModelsCompanion({
+    this.sentenceId = const Value.absent(),
+    this.wordId = const Value.absent(),
+    this.finishedCount = const Value.absent(),
+    this.insertWordTask = const Value.absent(),
+    this.constructorTask = const Value.absent(),
+    this.constructorAudioTask = const Value.absent(),
+    this.constructorInverseTask = const Value.absent(),
+  });
+  SentenceExposureModelsCompanion.insert({
+    this.sentenceId = const Value.absent(),
+    required int wordId,
+    this.finishedCount = const Value.absent(),
+    this.insertWordTask = const Value.absent(),
+    this.constructorTask = const Value.absent(),
+    this.constructorAudioTask = const Value.absent(),
+    this.constructorInverseTask = const Value.absent(),
+  }) : wordId = Value(wordId);
+  static Insertable<SentenceExposureRow> custom({
+    Expression<int>? sentenceId,
+    Expression<int>? wordId,
+    Expression<int>? finishedCount,
+    Expression<int>? insertWordTask,
+    Expression<int>? constructorTask,
+    Expression<int>? constructorAudioTask,
+    Expression<int>? constructorInverseTask,
+  }) {
+    return RawValuesInsertable({
+      if (sentenceId != null) 'sentence_id': sentenceId,
+      if (wordId != null) 'word_id': wordId,
+      if (finishedCount != null) 'finished_count': finishedCount,
+      if (insertWordTask != null) 'insert_word_task': insertWordTask,
+      if (constructorTask != null) 'constructor_task': constructorTask,
+      if (constructorAudioTask != null)
+        'constructor_audio_task': constructorAudioTask,
+      if (constructorInverseTask != null)
+        'constructor_inverse_task': constructorInverseTask,
+    });
+  }
+
+  SentenceExposureModelsCompanion copyWith({
+    Value<int>? sentenceId,
+    Value<int>? wordId,
+    Value<int>? finishedCount,
+    Value<int>? insertWordTask,
+    Value<int>? constructorTask,
+    Value<int>? constructorAudioTask,
+    Value<int>? constructorInverseTask,
+  }) {
+    return SentenceExposureModelsCompanion(
+      sentenceId: sentenceId ?? this.sentenceId,
+      wordId: wordId ?? this.wordId,
+      finishedCount: finishedCount ?? this.finishedCount,
+      insertWordTask: insertWordTask ?? this.insertWordTask,
+      constructorTask: constructorTask ?? this.constructorTask,
+      constructorAudioTask: constructorAudioTask ?? this.constructorAudioTask,
+      constructorInverseTask:
+          constructorInverseTask ?? this.constructorInverseTask,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (sentenceId.present) {
+      map['sentence_id'] = Variable<int>(sentenceId.value);
+    }
+    if (wordId.present) {
+      map['word_id'] = Variable<int>(wordId.value);
+    }
+    if (finishedCount.present) {
+      map['finished_count'] = Variable<int>(finishedCount.value);
+    }
+    if (insertWordTask.present) {
+      map['insert_word_task'] = Variable<int>(insertWordTask.value);
+    }
+    if (constructorTask.present) {
+      map['constructor_task'] = Variable<int>(constructorTask.value);
+    }
+    if (constructorAudioTask.present) {
+      map['constructor_audio_task'] = Variable<int>(constructorAudioTask.value);
+    }
+    if (constructorInverseTask.present) {
+      map['constructor_inverse_task'] = Variable<int>(
+        constructorInverseTask.value,
+      );
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SentenceExposureModelsCompanion(')
+          ..write('sentenceId: $sentenceId, ')
+          ..write('wordId: $wordId, ')
+          ..write('finishedCount: $finishedCount, ')
+          ..write('insertWordTask: $insertWordTask, ')
+          ..write('constructorTask: $constructorTask, ')
+          ..write('constructorAudioTask: $constructorAudioTask, ')
+          ..write('constructorInverseTask: $constructorInverseTask')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $LearningSessionsTable extends LearningSessions
     with TableInfo<$LearningSessionsTable, LearningSession> {
   @override
@@ -4328,6 +5024,17 @@ class $VisitModelsTable extends VisitModels
     requiredDuringInsert: false,
     defaultValue: const Constant(0),
   );
+  static const VerificationMeta _wordsInSentencesGoalMeta =
+      const VerificationMeta('wordsInSentencesGoal');
+  @override
+  late final GeneratedColumn<int> wordsInSentencesGoal = GeneratedColumn<int>(
+    'words_in_sentences_goal',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
   static const VerificationMeta _repeatedWordsCountMeta =
       const VerificationMeta('repeatedWordsCount');
   @override
@@ -4369,6 +5076,40 @@ class $VisitModelsTable extends VisitModels
   late final GeneratedColumn<int> difficultWordsTrainedCount =
       GeneratedColumn<int>(
         'difficult_words_trained_count',
+        aliasedName,
+        false,
+        type: DriftSqlType.int,
+        requiredDuringInsert: false,
+        defaultValue: const Constant(0),
+      );
+  static const VerificationMeta _wordsInSentencesCountMeta =
+      const VerificationMeta('wordsInSentencesCount');
+  @override
+  late final GeneratedColumn<int> wordsInSentencesCount = GeneratedColumn<int>(
+    'words_in_sentences_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _sentencesTrainedCountMeta =
+      const VerificationMeta('sentencesTrainedCount');
+  @override
+  late final GeneratedColumn<int> sentencesTrainedCount = GeneratedColumn<int>(
+    'sentences_trained_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _sentencesTrainedExtraCountMeta =
+      const VerificationMeta('sentencesTrainedExtraCount');
+  @override
+  late final GeneratedColumn<int> sentencesTrainedExtraCount =
+      GeneratedColumn<int>(
+        'sentences_trained_extra_count',
         aliasedName,
         false,
         type: DriftSqlType.int,
@@ -4421,10 +5162,14 @@ class $VisitModelsTable extends VisitModels
     learnWordsGoal,
     trainWordsGoal,
     difficultWordsGoal,
+    wordsInSentencesGoal,
     repeatedWordsCount,
     learnedWordsCount,
     trainedWordsCount,
     difficultWordsTrainedCount,
+    wordsInSentencesCount,
+    sentencesTrainedCount,
+    sentencesTrainedExtraCount,
     problemWordsHealedCount,
     learningsWithoutMistakes,
     learnedWordsWithoutMistakes,
@@ -4506,6 +5251,15 @@ class $VisitModelsTable extends VisitModels
         ),
       );
     }
+    if (data.containsKey('words_in_sentences_goal')) {
+      context.handle(
+        _wordsInSentencesGoalMeta,
+        wordsInSentencesGoal.isAcceptableOrUnknown(
+          data['words_in_sentences_goal']!,
+          _wordsInSentencesGoalMeta,
+        ),
+      );
+    }
     if (data.containsKey('repeated_words_count')) {
       context.handle(
         _repeatedWordsCountMeta,
@@ -4539,6 +5293,33 @@ class $VisitModelsTable extends VisitModels
         difficultWordsTrainedCount.isAcceptableOrUnknown(
           data['difficult_words_trained_count']!,
           _difficultWordsTrainedCountMeta,
+        ),
+      );
+    }
+    if (data.containsKey('words_in_sentences_count')) {
+      context.handle(
+        _wordsInSentencesCountMeta,
+        wordsInSentencesCount.isAcceptableOrUnknown(
+          data['words_in_sentences_count']!,
+          _wordsInSentencesCountMeta,
+        ),
+      );
+    }
+    if (data.containsKey('sentences_trained_count')) {
+      context.handle(
+        _sentencesTrainedCountMeta,
+        sentencesTrainedCount.isAcceptableOrUnknown(
+          data['sentences_trained_count']!,
+          _sentencesTrainedCountMeta,
+        ),
+      );
+    }
+    if (data.containsKey('sentences_trained_extra_count')) {
+      context.handle(
+        _sentencesTrainedExtraCountMeta,
+        sentencesTrainedExtraCount.isAcceptableOrUnknown(
+          data['sentences_trained_extra_count']!,
+          _sentencesTrainedExtraCountMeta,
         ),
       );
     }
@@ -4610,6 +5391,10 @@ class $VisitModelsTable extends VisitModels
         DriftSqlType.int,
         data['${effectivePrefix}difficult_words_goal'],
       )!,
+      wordsInSentencesGoal: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}words_in_sentences_goal'],
+      )!,
       repeatedWordsCount: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}repeated_words_count'],
@@ -4625,6 +5410,18 @@ class $VisitModelsTable extends VisitModels
       difficultWordsTrainedCount: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
         data['${effectivePrefix}difficult_words_trained_count'],
+      )!,
+      wordsInSentencesCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}words_in_sentences_count'],
+      )!,
+      sentencesTrainedCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}sentences_trained_count'],
+      )!,
+      sentencesTrainedExtraCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}sentences_trained_extra_count'],
       )!,
       problemWordsHealedCount: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
@@ -4656,10 +5453,14 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
   final int learnWordsGoal;
   final int trainWordsGoal;
   final int difficultWordsGoal;
+  final int wordsInSentencesGoal;
   final int repeatedWordsCount;
   final int learnedWordsCount;
   final int trainedWordsCount;
   final int difficultWordsTrainedCount;
+  final int wordsInSentencesCount;
+  final int sentencesTrainedCount;
+  final int sentencesTrainedExtraCount;
   final int problemWordsHealedCount;
   final int learningsWithoutMistakes;
   final int learnedWordsWithoutMistakes;
@@ -4672,10 +5473,14 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
     required this.learnWordsGoal,
     required this.trainWordsGoal,
     required this.difficultWordsGoal,
+    required this.wordsInSentencesGoal,
     required this.repeatedWordsCount,
     required this.learnedWordsCount,
     required this.trainedWordsCount,
     required this.difficultWordsTrainedCount,
+    required this.wordsInSentencesCount,
+    required this.sentencesTrainedCount,
+    required this.sentencesTrainedExtraCount,
     required this.problemWordsHealedCount,
     required this.learningsWithoutMistakes,
     required this.learnedWordsWithoutMistakes,
@@ -4691,11 +5496,17 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
     map['learn_words_goal'] = Variable<int>(learnWordsGoal);
     map['train_words_goal'] = Variable<int>(trainWordsGoal);
     map['difficult_words_goal'] = Variable<int>(difficultWordsGoal);
+    map['words_in_sentences_goal'] = Variable<int>(wordsInSentencesGoal);
     map['repeated_words_count'] = Variable<int>(repeatedWordsCount);
     map['learned_words_count'] = Variable<int>(learnedWordsCount);
     map['trained_words_count'] = Variable<int>(trainedWordsCount);
     map['difficult_words_trained_count'] = Variable<int>(
       difficultWordsTrainedCount,
+    );
+    map['words_in_sentences_count'] = Variable<int>(wordsInSentencesCount);
+    map['sentences_trained_count'] = Variable<int>(sentencesTrainedCount);
+    map['sentences_trained_extra_count'] = Variable<int>(
+      sentencesTrainedExtraCount,
     );
     map['problem_words_healed_count'] = Variable<int>(problemWordsHealedCount);
     map['learnings_without_mistakes'] = Variable<int>(learningsWithoutMistakes);
@@ -4715,10 +5526,14 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
       learnWordsGoal: Value(learnWordsGoal),
       trainWordsGoal: Value(trainWordsGoal),
       difficultWordsGoal: Value(difficultWordsGoal),
+      wordsInSentencesGoal: Value(wordsInSentencesGoal),
       repeatedWordsCount: Value(repeatedWordsCount),
       learnedWordsCount: Value(learnedWordsCount),
       trainedWordsCount: Value(trainedWordsCount),
       difficultWordsTrainedCount: Value(difficultWordsTrainedCount),
+      wordsInSentencesCount: Value(wordsInSentencesCount),
+      sentencesTrainedCount: Value(sentencesTrainedCount),
+      sentencesTrainedExtraCount: Value(sentencesTrainedExtraCount),
       problemWordsHealedCount: Value(problemWordsHealedCount),
       learningsWithoutMistakes: Value(learningsWithoutMistakes),
       learnedWordsWithoutMistakes: Value(learnedWordsWithoutMistakes),
@@ -4743,11 +5558,23 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
       learnWordsGoal: serializer.fromJson<int>(json['learnWordsGoal']),
       trainWordsGoal: serializer.fromJson<int>(json['trainWordsGoal']),
       difficultWordsGoal: serializer.fromJson<int>(json['difficultWordsGoal']),
+      wordsInSentencesGoal: serializer.fromJson<int>(
+        json['wordsInSentencesGoal'],
+      ),
       repeatedWordsCount: serializer.fromJson<int>(json['repeatedWordsCount']),
       learnedWordsCount: serializer.fromJson<int>(json['learnedWordsCount']),
       trainedWordsCount: serializer.fromJson<int>(json['trainedWordsCount']),
       difficultWordsTrainedCount: serializer.fromJson<int>(
         json['difficultWordsTrainedCount'],
+      ),
+      wordsInSentencesCount: serializer.fromJson<int>(
+        json['wordsInSentencesCount'],
+      ),
+      sentencesTrainedCount: serializer.fromJson<int>(
+        json['sentencesTrainedCount'],
+      ),
+      sentencesTrainedExtraCount: serializer.fromJson<int>(
+        json['sentencesTrainedExtraCount'],
       ),
       problemWordsHealedCount: serializer.fromJson<int>(
         json['problemWordsHealedCount'],
@@ -4772,11 +5599,17 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
       'learnWordsGoal': serializer.toJson<int>(learnWordsGoal),
       'trainWordsGoal': serializer.toJson<int>(trainWordsGoal),
       'difficultWordsGoal': serializer.toJson<int>(difficultWordsGoal),
+      'wordsInSentencesGoal': serializer.toJson<int>(wordsInSentencesGoal),
       'repeatedWordsCount': serializer.toJson<int>(repeatedWordsCount),
       'learnedWordsCount': serializer.toJson<int>(learnedWordsCount),
       'trainedWordsCount': serializer.toJson<int>(trainedWordsCount),
       'difficultWordsTrainedCount': serializer.toJson<int>(
         difficultWordsTrainedCount,
+      ),
+      'wordsInSentencesCount': serializer.toJson<int>(wordsInSentencesCount),
+      'sentencesTrainedCount': serializer.toJson<int>(sentencesTrainedCount),
+      'sentencesTrainedExtraCount': serializer.toJson<int>(
+        sentencesTrainedExtraCount,
       ),
       'problemWordsHealedCount': serializer.toJson<int>(
         problemWordsHealedCount,
@@ -4799,10 +5632,14 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
     int? learnWordsGoal,
     int? trainWordsGoal,
     int? difficultWordsGoal,
+    int? wordsInSentencesGoal,
     int? repeatedWordsCount,
     int? learnedWordsCount,
     int? trainedWordsCount,
     int? difficultWordsTrainedCount,
+    int? wordsInSentencesCount,
+    int? sentencesTrainedCount,
+    int? sentencesTrainedExtraCount,
     int? problemWordsHealedCount,
     int? learningsWithoutMistakes,
     int? learnedWordsWithoutMistakes,
@@ -4816,11 +5653,16 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
     learnWordsGoal: learnWordsGoal ?? this.learnWordsGoal,
     trainWordsGoal: trainWordsGoal ?? this.trainWordsGoal,
     difficultWordsGoal: difficultWordsGoal ?? this.difficultWordsGoal,
+    wordsInSentencesGoal: wordsInSentencesGoal ?? this.wordsInSentencesGoal,
     repeatedWordsCount: repeatedWordsCount ?? this.repeatedWordsCount,
     learnedWordsCount: learnedWordsCount ?? this.learnedWordsCount,
     trainedWordsCount: trainedWordsCount ?? this.trainedWordsCount,
     difficultWordsTrainedCount:
         difficultWordsTrainedCount ?? this.difficultWordsTrainedCount,
+    wordsInSentencesCount: wordsInSentencesCount ?? this.wordsInSentencesCount,
+    sentencesTrainedCount: sentencesTrainedCount ?? this.sentencesTrainedCount,
+    sentencesTrainedExtraCount:
+        sentencesTrainedExtraCount ?? this.sentencesTrainedExtraCount,
     problemWordsHealedCount:
         problemWordsHealedCount ?? this.problemWordsHealedCount,
     learningsWithoutMistakes:
@@ -4850,6 +5692,9 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
       difficultWordsGoal: data.difficultWordsGoal.present
           ? data.difficultWordsGoal.value
           : this.difficultWordsGoal,
+      wordsInSentencesGoal: data.wordsInSentencesGoal.present
+          ? data.wordsInSentencesGoal.value
+          : this.wordsInSentencesGoal,
       repeatedWordsCount: data.repeatedWordsCount.present
           ? data.repeatedWordsCount.value
           : this.repeatedWordsCount,
@@ -4862,6 +5707,15 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
       difficultWordsTrainedCount: data.difficultWordsTrainedCount.present
           ? data.difficultWordsTrainedCount.value
           : this.difficultWordsTrainedCount,
+      wordsInSentencesCount: data.wordsInSentencesCount.present
+          ? data.wordsInSentencesCount.value
+          : this.wordsInSentencesCount,
+      sentencesTrainedCount: data.sentencesTrainedCount.present
+          ? data.sentencesTrainedCount.value
+          : this.sentencesTrainedCount,
+      sentencesTrainedExtraCount: data.sentencesTrainedExtraCount.present
+          ? data.sentencesTrainedExtraCount.value
+          : this.sentencesTrainedExtraCount,
       problemWordsHealedCount: data.problemWordsHealedCount.present
           ? data.problemWordsHealedCount.value
           : this.problemWordsHealedCount,
@@ -4885,10 +5739,14 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
           ..write('learnWordsGoal: $learnWordsGoal, ')
           ..write('trainWordsGoal: $trainWordsGoal, ')
           ..write('difficultWordsGoal: $difficultWordsGoal, ')
+          ..write('wordsInSentencesGoal: $wordsInSentencesGoal, ')
           ..write('repeatedWordsCount: $repeatedWordsCount, ')
           ..write('learnedWordsCount: $learnedWordsCount, ')
           ..write('trainedWordsCount: $trainedWordsCount, ')
           ..write('difficultWordsTrainedCount: $difficultWordsTrainedCount, ')
+          ..write('wordsInSentencesCount: $wordsInSentencesCount, ')
+          ..write('sentencesTrainedCount: $sentencesTrainedCount, ')
+          ..write('sentencesTrainedExtraCount: $sentencesTrainedExtraCount, ')
           ..write('problemWordsHealedCount: $problemWordsHealedCount, ')
           ..write('learningsWithoutMistakes: $learningsWithoutMistakes, ')
           ..write('learnedWordsWithoutMistakes: $learnedWordsWithoutMistakes')
@@ -4906,10 +5764,14 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
     learnWordsGoal,
     trainWordsGoal,
     difficultWordsGoal,
+    wordsInSentencesGoal,
     repeatedWordsCount,
     learnedWordsCount,
     trainedWordsCount,
     difficultWordsTrainedCount,
+    wordsInSentencesCount,
+    sentencesTrainedCount,
+    sentencesTrainedExtraCount,
     problemWordsHealedCount,
     learningsWithoutMistakes,
     learnedWordsWithoutMistakes,
@@ -4926,10 +5788,14 @@ class VisitRow extends DataClass implements Insertable<VisitRow> {
           other.learnWordsGoal == this.learnWordsGoal &&
           other.trainWordsGoal == this.trainWordsGoal &&
           other.difficultWordsGoal == this.difficultWordsGoal &&
+          other.wordsInSentencesGoal == this.wordsInSentencesGoal &&
           other.repeatedWordsCount == this.repeatedWordsCount &&
           other.learnedWordsCount == this.learnedWordsCount &&
           other.trainedWordsCount == this.trainedWordsCount &&
           other.difficultWordsTrainedCount == this.difficultWordsTrainedCount &&
+          other.wordsInSentencesCount == this.wordsInSentencesCount &&
+          other.sentencesTrainedCount == this.sentencesTrainedCount &&
+          other.sentencesTrainedExtraCount == this.sentencesTrainedExtraCount &&
           other.problemWordsHealedCount == this.problemWordsHealedCount &&
           other.learningsWithoutMistakes == this.learningsWithoutMistakes &&
           other.learnedWordsWithoutMistakes ==
@@ -4945,10 +5811,14 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
   final Value<int> learnWordsGoal;
   final Value<int> trainWordsGoal;
   final Value<int> difficultWordsGoal;
+  final Value<int> wordsInSentencesGoal;
   final Value<int> repeatedWordsCount;
   final Value<int> learnedWordsCount;
   final Value<int> trainedWordsCount;
   final Value<int> difficultWordsTrainedCount;
+  final Value<int> wordsInSentencesCount;
+  final Value<int> sentencesTrainedCount;
+  final Value<int> sentencesTrainedExtraCount;
   final Value<int> problemWordsHealedCount;
   final Value<int> learningsWithoutMistakes;
   final Value<int> learnedWordsWithoutMistakes;
@@ -4961,10 +5831,14 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
     this.learnWordsGoal = const Value.absent(),
     this.trainWordsGoal = const Value.absent(),
     this.difficultWordsGoal = const Value.absent(),
+    this.wordsInSentencesGoal = const Value.absent(),
     this.repeatedWordsCount = const Value.absent(),
     this.learnedWordsCount = const Value.absent(),
     this.trainedWordsCount = const Value.absent(),
     this.difficultWordsTrainedCount = const Value.absent(),
+    this.wordsInSentencesCount = const Value.absent(),
+    this.sentencesTrainedCount = const Value.absent(),
+    this.sentencesTrainedExtraCount = const Value.absent(),
     this.problemWordsHealedCount = const Value.absent(),
     this.learningsWithoutMistakes = const Value.absent(),
     this.learnedWordsWithoutMistakes = const Value.absent(),
@@ -4978,10 +5852,14 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
     this.learnWordsGoal = const Value.absent(),
     this.trainWordsGoal = const Value.absent(),
     this.difficultWordsGoal = const Value.absent(),
+    this.wordsInSentencesGoal = const Value.absent(),
     this.repeatedWordsCount = const Value.absent(),
     this.learnedWordsCount = const Value.absent(),
     this.trainedWordsCount = const Value.absent(),
     this.difficultWordsTrainedCount = const Value.absent(),
+    this.wordsInSentencesCount = const Value.absent(),
+    this.sentencesTrainedCount = const Value.absent(),
+    this.sentencesTrainedExtraCount = const Value.absent(),
     this.problemWordsHealedCount = const Value.absent(),
     this.learningsWithoutMistakes = const Value.absent(),
     this.learnedWordsWithoutMistakes = const Value.absent(),
@@ -4995,10 +5873,14 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
     Expression<int>? learnWordsGoal,
     Expression<int>? trainWordsGoal,
     Expression<int>? difficultWordsGoal,
+    Expression<int>? wordsInSentencesGoal,
     Expression<int>? repeatedWordsCount,
     Expression<int>? learnedWordsCount,
     Expression<int>? trainedWordsCount,
     Expression<int>? difficultWordsTrainedCount,
+    Expression<int>? wordsInSentencesCount,
+    Expression<int>? sentencesTrainedCount,
+    Expression<int>? sentencesTrainedExtraCount,
     Expression<int>? problemWordsHealedCount,
     Expression<int>? learningsWithoutMistakes,
     Expression<int>? learnedWordsWithoutMistakes,
@@ -5015,12 +5897,20 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
       if (trainWordsGoal != null) 'train_words_goal': trainWordsGoal,
       if (difficultWordsGoal != null)
         'difficult_words_goal': difficultWordsGoal,
+      if (wordsInSentencesGoal != null)
+        'words_in_sentences_goal': wordsInSentencesGoal,
       if (repeatedWordsCount != null)
         'repeated_words_count': repeatedWordsCount,
       if (learnedWordsCount != null) 'learned_words_count': learnedWordsCount,
       if (trainedWordsCount != null) 'trained_words_count': trainedWordsCount,
       if (difficultWordsTrainedCount != null)
         'difficult_words_trained_count': difficultWordsTrainedCount,
+      if (wordsInSentencesCount != null)
+        'words_in_sentences_count': wordsInSentencesCount,
+      if (sentencesTrainedCount != null)
+        'sentences_trained_count': sentencesTrainedCount,
+      if (sentencesTrainedExtraCount != null)
+        'sentences_trained_extra_count': sentencesTrainedExtraCount,
       if (problemWordsHealedCount != null)
         'problem_words_healed_count': problemWordsHealedCount,
       if (learningsWithoutMistakes != null)
@@ -5039,10 +5929,14 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
     Value<int>? learnWordsGoal,
     Value<int>? trainWordsGoal,
     Value<int>? difficultWordsGoal,
+    Value<int>? wordsInSentencesGoal,
     Value<int>? repeatedWordsCount,
     Value<int>? learnedWordsCount,
     Value<int>? trainedWordsCount,
     Value<int>? difficultWordsTrainedCount,
+    Value<int>? wordsInSentencesCount,
+    Value<int>? sentencesTrainedCount,
+    Value<int>? sentencesTrainedExtraCount,
     Value<int>? problemWordsHealedCount,
     Value<int>? learningsWithoutMistakes,
     Value<int>? learnedWordsWithoutMistakes,
@@ -5058,11 +5952,18 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
       learnWordsGoal: learnWordsGoal ?? this.learnWordsGoal,
       trainWordsGoal: trainWordsGoal ?? this.trainWordsGoal,
       difficultWordsGoal: difficultWordsGoal ?? this.difficultWordsGoal,
+      wordsInSentencesGoal: wordsInSentencesGoal ?? this.wordsInSentencesGoal,
       repeatedWordsCount: repeatedWordsCount ?? this.repeatedWordsCount,
       learnedWordsCount: learnedWordsCount ?? this.learnedWordsCount,
       trainedWordsCount: trainedWordsCount ?? this.trainedWordsCount,
       difficultWordsTrainedCount:
           difficultWordsTrainedCount ?? this.difficultWordsTrainedCount,
+      wordsInSentencesCount:
+          wordsInSentencesCount ?? this.wordsInSentencesCount,
+      sentencesTrainedCount:
+          sentencesTrainedCount ?? this.sentencesTrainedCount,
+      sentencesTrainedExtraCount:
+          sentencesTrainedExtraCount ?? this.sentencesTrainedExtraCount,
       problemWordsHealedCount:
           problemWordsHealedCount ?? this.problemWordsHealedCount,
       learningsWithoutMistakes:
@@ -5103,6 +6004,11 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
     if (difficultWordsGoal.present) {
       map['difficult_words_goal'] = Variable<int>(difficultWordsGoal.value);
     }
+    if (wordsInSentencesGoal.present) {
+      map['words_in_sentences_goal'] = Variable<int>(
+        wordsInSentencesGoal.value,
+      );
+    }
     if (repeatedWordsCount.present) {
       map['repeated_words_count'] = Variable<int>(repeatedWordsCount.value);
     }
@@ -5115,6 +6021,21 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
     if (difficultWordsTrainedCount.present) {
       map['difficult_words_trained_count'] = Variable<int>(
         difficultWordsTrainedCount.value,
+      );
+    }
+    if (wordsInSentencesCount.present) {
+      map['words_in_sentences_count'] = Variable<int>(
+        wordsInSentencesCount.value,
+      );
+    }
+    if (sentencesTrainedCount.present) {
+      map['sentences_trained_count'] = Variable<int>(
+        sentencesTrainedCount.value,
+      );
+    }
+    if (sentencesTrainedExtraCount.present) {
+      map['sentences_trained_extra_count'] = Variable<int>(
+        sentencesTrainedExtraCount.value,
       );
     }
     if (problemWordsHealedCount.present) {
@@ -5146,10 +6067,14 @@ class VisitModelsCompanion extends UpdateCompanion<VisitRow> {
           ..write('learnWordsGoal: $learnWordsGoal, ')
           ..write('trainWordsGoal: $trainWordsGoal, ')
           ..write('difficultWordsGoal: $difficultWordsGoal, ')
+          ..write('wordsInSentencesGoal: $wordsInSentencesGoal, ')
           ..write('repeatedWordsCount: $repeatedWordsCount, ')
           ..write('learnedWordsCount: $learnedWordsCount, ')
           ..write('trainedWordsCount: $trainedWordsCount, ')
           ..write('difficultWordsTrainedCount: $difficultWordsTrainedCount, ')
+          ..write('wordsInSentencesCount: $wordsInSentencesCount, ')
+          ..write('sentencesTrainedCount: $sentencesTrainedCount, ')
+          ..write('sentencesTrainedExtraCount: $sentencesTrainedExtraCount, ')
           ..write('problemWordsHealedCount: $problemWordsHealedCount, ')
           ..write('learningsWithoutMistakes: $learningsWithoutMistakes, ')
           ..write('learnedWordsWithoutMistakes: $learnedWordsWithoutMistakes')
@@ -6235,6 +7160,10 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $WordModelsTable wordModels = $WordModelsTable(this);
   late final $LearningProgressModelsTable learningProgressModels =
       $LearningProgressModelsTable(this);
+  late final $WordSentenceProgressModelsTable wordSentenceProgressModels =
+      $WordSentenceProgressModelsTable(this);
+  late final $SentenceExposureModelsTable sentenceExposureModels =
+      $SentenceExposureModelsTable(this);
   late final $LearningSessionsTable learningSessions = $LearningSessionsTable(
     this,
   );
@@ -6266,6 +7195,10 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     'learning_progress_repetition_date',
     'CREATE INDEX learning_progress_repetition_date ON LearningProgressModel (repetition_date)',
   );
+  late final Index sentenceExposureWord = Index(
+    'sentence_exposure_word',
+    'CREATE INDEX sentence_exposure_word ON sentence_exposure_models (word_id)',
+  );
   late final Index learningSessionStatusStartedAt = Index(
     'learning_session_status_started_at',
     'CREATE INDEX learning_session_status_started_at ON LearningSession (status, started_at)',
@@ -6282,6 +7215,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     topicModels,
     wordModels,
     learningProgressModels,
+    wordSentenceProgressModels,
+    sentenceExposureModels,
     learningSessions,
     sessionExercises,
     similarWordModels,
@@ -6295,6 +7230,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     topicModelEnabledOrder,
     wordModelTopicEnabled,
     learningProgressRepetitionDate,
+    sentenceExposureWord,
     learningSessionStatusStartedAt,
     sessionExerciseSessionOrder,
   ];
@@ -7177,6 +8113,427 @@ typedef $$LearningProgressModelsTableProcessedTableManager =
         >,
       ),
       LearningProgressRow,
+      PrefetchHooks Function()
+    >;
+typedef $$WordSentenceProgressModelsTableCreateCompanionBuilder =
+    WordSentenceProgressModelsCompanion Function({
+      Value<int> wordId,
+      Value<int> finishedCount,
+    });
+typedef $$WordSentenceProgressModelsTableUpdateCompanionBuilder =
+    WordSentenceProgressModelsCompanion Function({
+      Value<int> wordId,
+      Value<int> finishedCount,
+    });
+
+class $$WordSentenceProgressModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $WordSentenceProgressModelsTable> {
+  $$WordSentenceProgressModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get finishedCount => $composableBuilder(
+    column: $table.finishedCount,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$WordSentenceProgressModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $WordSentenceProgressModelsTable> {
+  $$WordSentenceProgressModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get finishedCount => $composableBuilder(
+    column: $table.finishedCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$WordSentenceProgressModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $WordSentenceProgressModelsTable> {
+  $$WordSentenceProgressModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get wordId =>
+      $composableBuilder(column: $table.wordId, builder: (column) => column);
+
+  GeneratedColumn<int> get finishedCount => $composableBuilder(
+    column: $table.finishedCount,
+    builder: (column) => column,
+  );
+}
+
+class $$WordSentenceProgressModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $WordSentenceProgressModelsTable,
+          WordSentenceProgressRow,
+          $$WordSentenceProgressModelsTableFilterComposer,
+          $$WordSentenceProgressModelsTableOrderingComposer,
+          $$WordSentenceProgressModelsTableAnnotationComposer,
+          $$WordSentenceProgressModelsTableCreateCompanionBuilder,
+          $$WordSentenceProgressModelsTableUpdateCompanionBuilder,
+          (
+            WordSentenceProgressRow,
+            BaseReferences<
+              _$AppDatabase,
+              $WordSentenceProgressModelsTable,
+              WordSentenceProgressRow
+            >,
+          ),
+          WordSentenceProgressRow,
+          PrefetchHooks Function()
+        > {
+  $$WordSentenceProgressModelsTableTableManager(
+    _$AppDatabase db,
+    $WordSentenceProgressModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$WordSentenceProgressModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$WordSentenceProgressModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$WordSentenceProgressModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> wordId = const Value.absent(),
+                Value<int> finishedCount = const Value.absent(),
+              }) => WordSentenceProgressModelsCompanion(
+                wordId: wordId,
+                finishedCount: finishedCount,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> wordId = const Value.absent(),
+                Value<int> finishedCount = const Value.absent(),
+              }) => WordSentenceProgressModelsCompanion.insert(
+                wordId: wordId,
+                finishedCount: finishedCount,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$WordSentenceProgressModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $WordSentenceProgressModelsTable,
+      WordSentenceProgressRow,
+      $$WordSentenceProgressModelsTableFilterComposer,
+      $$WordSentenceProgressModelsTableOrderingComposer,
+      $$WordSentenceProgressModelsTableAnnotationComposer,
+      $$WordSentenceProgressModelsTableCreateCompanionBuilder,
+      $$WordSentenceProgressModelsTableUpdateCompanionBuilder,
+      (
+        WordSentenceProgressRow,
+        BaseReferences<
+          _$AppDatabase,
+          $WordSentenceProgressModelsTable,
+          WordSentenceProgressRow
+        >,
+      ),
+      WordSentenceProgressRow,
+      PrefetchHooks Function()
+    >;
+typedef $$SentenceExposureModelsTableCreateCompanionBuilder =
+    SentenceExposureModelsCompanion Function({
+      Value<int> sentenceId,
+      required int wordId,
+      Value<int> finishedCount,
+      Value<int> insertWordTask,
+      Value<int> constructorTask,
+      Value<int> constructorAudioTask,
+      Value<int> constructorInverseTask,
+    });
+typedef $$SentenceExposureModelsTableUpdateCompanionBuilder =
+    SentenceExposureModelsCompanion Function({
+      Value<int> sentenceId,
+      Value<int> wordId,
+      Value<int> finishedCount,
+      Value<int> insertWordTask,
+      Value<int> constructorTask,
+      Value<int> constructorAudioTask,
+      Value<int> constructorInverseTask,
+    });
+
+class $$SentenceExposureModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $SentenceExposureModelsTable> {
+  $$SentenceExposureModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get sentenceId => $composableBuilder(
+    column: $table.sentenceId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get finishedCount => $composableBuilder(
+    column: $table.finishedCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get insertWordTask => $composableBuilder(
+    column: $table.insertWordTask,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get constructorTask => $composableBuilder(
+    column: $table.constructorTask,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get constructorAudioTask => $composableBuilder(
+    column: $table.constructorAudioTask,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get constructorInverseTask => $composableBuilder(
+    column: $table.constructorInverseTask,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$SentenceExposureModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $SentenceExposureModelsTable> {
+  $$SentenceExposureModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get sentenceId => $composableBuilder(
+    column: $table.sentenceId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get finishedCount => $composableBuilder(
+    column: $table.finishedCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get insertWordTask => $composableBuilder(
+    column: $table.insertWordTask,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get constructorTask => $composableBuilder(
+    column: $table.constructorTask,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get constructorAudioTask => $composableBuilder(
+    column: $table.constructorAudioTask,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get constructorInverseTask => $composableBuilder(
+    column: $table.constructorInverseTask,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$SentenceExposureModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $SentenceExposureModelsTable> {
+  $$SentenceExposureModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get sentenceId => $composableBuilder(
+    column: $table.sentenceId,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get wordId =>
+      $composableBuilder(column: $table.wordId, builder: (column) => column);
+
+  GeneratedColumn<int> get finishedCount => $composableBuilder(
+    column: $table.finishedCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get insertWordTask => $composableBuilder(
+    column: $table.insertWordTask,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get constructorTask => $composableBuilder(
+    column: $table.constructorTask,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get constructorAudioTask => $composableBuilder(
+    column: $table.constructorAudioTask,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get constructorInverseTask => $composableBuilder(
+    column: $table.constructorInverseTask,
+    builder: (column) => column,
+  );
+}
+
+class $$SentenceExposureModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $SentenceExposureModelsTable,
+          SentenceExposureRow,
+          $$SentenceExposureModelsTableFilterComposer,
+          $$SentenceExposureModelsTableOrderingComposer,
+          $$SentenceExposureModelsTableAnnotationComposer,
+          $$SentenceExposureModelsTableCreateCompanionBuilder,
+          $$SentenceExposureModelsTableUpdateCompanionBuilder,
+          (
+            SentenceExposureRow,
+            BaseReferences<
+              _$AppDatabase,
+              $SentenceExposureModelsTable,
+              SentenceExposureRow
+            >,
+          ),
+          SentenceExposureRow,
+          PrefetchHooks Function()
+        > {
+  $$SentenceExposureModelsTableTableManager(
+    _$AppDatabase db,
+    $SentenceExposureModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$SentenceExposureModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$SentenceExposureModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$SentenceExposureModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> sentenceId = const Value.absent(),
+                Value<int> wordId = const Value.absent(),
+                Value<int> finishedCount = const Value.absent(),
+                Value<int> insertWordTask = const Value.absent(),
+                Value<int> constructorTask = const Value.absent(),
+                Value<int> constructorAudioTask = const Value.absent(),
+                Value<int> constructorInverseTask = const Value.absent(),
+              }) => SentenceExposureModelsCompanion(
+                sentenceId: sentenceId,
+                wordId: wordId,
+                finishedCount: finishedCount,
+                insertWordTask: insertWordTask,
+                constructorTask: constructorTask,
+                constructorAudioTask: constructorAudioTask,
+                constructorInverseTask: constructorInverseTask,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> sentenceId = const Value.absent(),
+                required int wordId,
+                Value<int> finishedCount = const Value.absent(),
+                Value<int> insertWordTask = const Value.absent(),
+                Value<int> constructorTask = const Value.absent(),
+                Value<int> constructorAudioTask = const Value.absent(),
+                Value<int> constructorInverseTask = const Value.absent(),
+              }) => SentenceExposureModelsCompanion.insert(
+                sentenceId: sentenceId,
+                wordId: wordId,
+                finishedCount: finishedCount,
+                insertWordTask: insertWordTask,
+                constructorTask: constructorTask,
+                constructorAudioTask: constructorAudioTask,
+                constructorInverseTask: constructorInverseTask,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$SentenceExposureModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $SentenceExposureModelsTable,
+      SentenceExposureRow,
+      $$SentenceExposureModelsTableFilterComposer,
+      $$SentenceExposureModelsTableOrderingComposer,
+      $$SentenceExposureModelsTableAnnotationComposer,
+      $$SentenceExposureModelsTableCreateCompanionBuilder,
+      $$SentenceExposureModelsTableUpdateCompanionBuilder,
+      (
+        SentenceExposureRow,
+        BaseReferences<
+          _$AppDatabase,
+          $SentenceExposureModelsTable,
+          SentenceExposureRow
+        >,
+      ),
+      SentenceExposureRow,
       PrefetchHooks Function()
     >;
 typedef $$LearningSessionsTableCreateCompanionBuilder =
@@ -8439,10 +9796,14 @@ typedef $$VisitModelsTableCreateCompanionBuilder =
       Value<int> learnWordsGoal,
       Value<int> trainWordsGoal,
       Value<int> difficultWordsGoal,
+      Value<int> wordsInSentencesGoal,
       Value<int> repeatedWordsCount,
       Value<int> learnedWordsCount,
       Value<int> trainedWordsCount,
       Value<int> difficultWordsTrainedCount,
+      Value<int> wordsInSentencesCount,
+      Value<int> sentencesTrainedCount,
+      Value<int> sentencesTrainedExtraCount,
       Value<int> problemWordsHealedCount,
       Value<int> learningsWithoutMistakes,
       Value<int> learnedWordsWithoutMistakes,
@@ -8457,10 +9818,14 @@ typedef $$VisitModelsTableUpdateCompanionBuilder =
       Value<int> learnWordsGoal,
       Value<int> trainWordsGoal,
       Value<int> difficultWordsGoal,
+      Value<int> wordsInSentencesGoal,
       Value<int> repeatedWordsCount,
       Value<int> learnedWordsCount,
       Value<int> trainedWordsCount,
       Value<int> difficultWordsTrainedCount,
+      Value<int> wordsInSentencesCount,
+      Value<int> sentencesTrainedCount,
+      Value<int> sentencesTrainedExtraCount,
       Value<int> problemWordsHealedCount,
       Value<int> learningsWithoutMistakes,
       Value<int> learnedWordsWithoutMistakes,
@@ -8515,6 +9880,11 @@ class $$VisitModelsTableFilterComposer
     builder: (column) => ColumnFilters(column),
   );
 
+  ColumnFilters<int> get wordsInSentencesGoal => $composableBuilder(
+    column: $table.wordsInSentencesGoal,
+    builder: (column) => ColumnFilters(column),
+  );
+
   ColumnFilters<int> get repeatedWordsCount => $composableBuilder(
     column: $table.repeatedWordsCount,
     builder: (column) => ColumnFilters(column),
@@ -8532,6 +9902,21 @@ class $$VisitModelsTableFilterComposer
 
   ColumnFilters<int> get difficultWordsTrainedCount => $composableBuilder(
     column: $table.difficultWordsTrainedCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get wordsInSentencesCount => $composableBuilder(
+    column: $table.wordsInSentencesCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sentencesTrainedCount => $composableBuilder(
+    column: $table.sentencesTrainedCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sentencesTrainedExtraCount => $composableBuilder(
+    column: $table.sentencesTrainedExtraCount,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -8600,6 +9985,11 @@ class $$VisitModelsTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<int> get wordsInSentencesGoal => $composableBuilder(
+    column: $table.wordsInSentencesGoal,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   ColumnOrderings<int> get repeatedWordsCount => $composableBuilder(
     column: $table.repeatedWordsCount,
     builder: (column) => ColumnOrderings(column),
@@ -8617,6 +10007,21 @@ class $$VisitModelsTableOrderingComposer
 
   ColumnOrderings<int> get difficultWordsTrainedCount => $composableBuilder(
     column: $table.difficultWordsTrainedCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get wordsInSentencesCount => $composableBuilder(
+    column: $table.wordsInSentencesCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sentencesTrainedCount => $composableBuilder(
+    column: $table.sentencesTrainedCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sentencesTrainedExtraCount => $composableBuilder(
+    column: $table.sentencesTrainedExtraCount,
     builder: (column) => ColumnOrderings(column),
   );
 
@@ -8681,6 +10086,11 @@ class $$VisitModelsTableAnnotationComposer
     builder: (column) => column,
   );
 
+  GeneratedColumn<int> get wordsInSentencesGoal => $composableBuilder(
+    column: $table.wordsInSentencesGoal,
+    builder: (column) => column,
+  );
+
   GeneratedColumn<int> get repeatedWordsCount => $composableBuilder(
     column: $table.repeatedWordsCount,
     builder: (column) => column,
@@ -8698,6 +10108,21 @@ class $$VisitModelsTableAnnotationComposer
 
   GeneratedColumn<int> get difficultWordsTrainedCount => $composableBuilder(
     column: $table.difficultWordsTrainedCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get wordsInSentencesCount => $composableBuilder(
+    column: $table.wordsInSentencesCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get sentencesTrainedCount => $composableBuilder(
+    column: $table.sentencesTrainedCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get sentencesTrainedExtraCount => $composableBuilder(
+    column: $table.sentencesTrainedExtraCount,
     builder: (column) => column,
   );
 
@@ -8756,10 +10181,14 @@ class $$VisitModelsTableTableManager
                 Value<int> learnWordsGoal = const Value.absent(),
                 Value<int> trainWordsGoal = const Value.absent(),
                 Value<int> difficultWordsGoal = const Value.absent(),
+                Value<int> wordsInSentencesGoal = const Value.absent(),
                 Value<int> repeatedWordsCount = const Value.absent(),
                 Value<int> learnedWordsCount = const Value.absent(),
                 Value<int> trainedWordsCount = const Value.absent(),
                 Value<int> difficultWordsTrainedCount = const Value.absent(),
+                Value<int> wordsInSentencesCount = const Value.absent(),
+                Value<int> sentencesTrainedCount = const Value.absent(),
+                Value<int> sentencesTrainedExtraCount = const Value.absent(),
                 Value<int> problemWordsHealedCount = const Value.absent(),
                 Value<int> learningsWithoutMistakes = const Value.absent(),
                 Value<int> learnedWordsWithoutMistakes = const Value.absent(),
@@ -8772,10 +10201,14 @@ class $$VisitModelsTableTableManager
                 learnWordsGoal: learnWordsGoal,
                 trainWordsGoal: trainWordsGoal,
                 difficultWordsGoal: difficultWordsGoal,
+                wordsInSentencesGoal: wordsInSentencesGoal,
                 repeatedWordsCount: repeatedWordsCount,
                 learnedWordsCount: learnedWordsCount,
                 trainedWordsCount: trainedWordsCount,
                 difficultWordsTrainedCount: difficultWordsTrainedCount,
+                wordsInSentencesCount: wordsInSentencesCount,
+                sentencesTrainedCount: sentencesTrainedCount,
+                sentencesTrainedExtraCount: sentencesTrainedExtraCount,
                 problemWordsHealedCount: problemWordsHealedCount,
                 learningsWithoutMistakes: learningsWithoutMistakes,
                 learnedWordsWithoutMistakes: learnedWordsWithoutMistakes,
@@ -8790,10 +10223,14 @@ class $$VisitModelsTableTableManager
                 Value<int> learnWordsGoal = const Value.absent(),
                 Value<int> trainWordsGoal = const Value.absent(),
                 Value<int> difficultWordsGoal = const Value.absent(),
+                Value<int> wordsInSentencesGoal = const Value.absent(),
                 Value<int> repeatedWordsCount = const Value.absent(),
                 Value<int> learnedWordsCount = const Value.absent(),
                 Value<int> trainedWordsCount = const Value.absent(),
                 Value<int> difficultWordsTrainedCount = const Value.absent(),
+                Value<int> wordsInSentencesCount = const Value.absent(),
+                Value<int> sentencesTrainedCount = const Value.absent(),
+                Value<int> sentencesTrainedExtraCount = const Value.absent(),
                 Value<int> problemWordsHealedCount = const Value.absent(),
                 Value<int> learningsWithoutMistakes = const Value.absent(),
                 Value<int> learnedWordsWithoutMistakes = const Value.absent(),
@@ -8806,10 +10243,14 @@ class $$VisitModelsTableTableManager
                 learnWordsGoal: learnWordsGoal,
                 trainWordsGoal: trainWordsGoal,
                 difficultWordsGoal: difficultWordsGoal,
+                wordsInSentencesGoal: wordsInSentencesGoal,
                 repeatedWordsCount: repeatedWordsCount,
                 learnedWordsCount: learnedWordsCount,
                 trainedWordsCount: trainedWordsCount,
                 difficultWordsTrainedCount: difficultWordsTrainedCount,
+                wordsInSentencesCount: wordsInSentencesCount,
+                sentencesTrainedCount: sentencesTrainedCount,
+                sentencesTrainedExtraCount: sentencesTrainedExtraCount,
                 problemWordsHealedCount: problemWordsHealedCount,
                 learningsWithoutMistakes: learningsWithoutMistakes,
                 learnedWordsWithoutMistakes: learnedWordsWithoutMistakes,
@@ -9521,6 +10962,17 @@ class $AppDatabaseManager {
       $$LearningProgressModelsTableTableManager(
         _db,
         _db.learningProgressModels,
+      );
+  $$WordSentenceProgressModelsTableTableManager
+  get wordSentenceProgressModels =>
+      $$WordSentenceProgressModelsTableTableManager(
+        _db,
+        _db.wordSentenceProgressModels,
+      );
+  $$SentenceExposureModelsTableTableManager get sentenceExposureModels =>
+      $$SentenceExposureModelsTableTableManager(
+        _db,
+        _db.sentenceExposureModels,
       );
   $$LearningSessionsTableTableManager get learningSessions =>
       $$LearningSessionsTableTableManager(_db, _db.learningSessions);
