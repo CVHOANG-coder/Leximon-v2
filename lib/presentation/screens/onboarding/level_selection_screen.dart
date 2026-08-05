@@ -14,17 +14,52 @@ class LevelSelectionScreen extends ConsumerStatefulWidget {
       _LevelSelectionScreenState();
 }
 
-class _LevelSelectionScreenState extends ConsumerState<LevelSelectionScreen> {
+class _LevelSelectionScreenState extends ConsumerState<LevelSelectionScreen>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _headerOpacity;
+  late final Animation<Offset> _headerSlide;
+  late final Animation<double> _panelOpacity;
   late LearningLanguageLevel _selectedLevel;
   bool _isSaving = false;
 
   @override
   void initState() {
     super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1000),
+    );
+    _headerOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0, 0.5, curve: Curves.easeOut),
+      ),
+    );
+    _headerSlide =
+        Tween<Offset>(begin: const Offset(0, -0.08), end: Offset.zero).animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.58, curve: Curves.easeOutCubic),
+          ),
+        );
+    _panelOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.1, 0.76, curve: Curves.easeOut),
+      ),
+    );
     final selectedLevels = ref.read(selectedLanguageLevelsProvider);
     _selectedLevel = selectedLevels.isEmpty
         ? LearningLanguageLevel.beginner
         : selectedLevels.first;
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
   }
 
   Future<void> _continue() async {
@@ -69,6 +104,12 @@ class _LevelSelectionScreenState extends ConsumerState<LevelSelectionScreen> {
             Image.asset(
               'assets/images/onboarding/bg_choose_language.png',
               fit: BoxFit.cover,
+              opacity: Tween<double>(begin: 0.01, end: 1).animate(
+                CurvedAnimation(
+                  parent: _controller,
+                  curve: const Interval(0, 0.42, curve: Curves.easeOut),
+                ),
+              ),
             ),
             SafeArea(
               bottom: false,
@@ -77,20 +118,31 @@ class _LevelSelectionScreenState extends ConsumerState<LevelSelectionScreen> {
                 children: [
                   Positioned.fill(
                     top: 190,
-                    child: _LevelSelectionPanel(
-                      selectedLevel: _selectedLevel,
-                      isSaving: _isSaving,
-                      onSelected: (level) {
-                        setState(() => _selectedLevel = level);
-                      },
-                      onContinue: _continue,
+                    child: FadeTransition(
+                      opacity: _panelOpacity,
+                      child: _LevelSelectionPanel(
+                        entranceAnimation: _controller,
+                        selectedLevel: _selectedLevel,
+                        isSaving: _isSaving,
+                        onSelected: (level) {
+                          setState(() => _selectedLevel = level);
+                        },
+                        onContinue: _continue,
+                      ),
                     ),
                   ),
-                  const Positioned(
+                  Positioned(
                     left: 0,
                     top: 0,
                     right: 0,
-                    child: _LevelSelectionHeader(),
+                    child: FadeTransition(
+                      opacity: _headerOpacity,
+                      child: SlideTransition(
+                        position: _headerSlide,
+                        transformHitTests: false,
+                        child: const _LevelSelectionHeader(),
+                      ),
+                    ),
                   ),
                 ],
               ),
@@ -197,12 +249,14 @@ class _LevelSelectionHeader extends StatelessWidget {
 
 class _LevelSelectionPanel extends StatelessWidget {
   const _LevelSelectionPanel({
+    required this.entranceAnimation,
     required this.selectedLevel,
     required this.isSaving,
     required this.onSelected,
     required this.onContinue,
   });
 
+  final Animation<double> entranceAnimation;
   final LearningLanguageLevel selectedLevel;
   final bool isSaving;
   final ValueChanged<LearningLanguageLevel> onSelected;
@@ -256,7 +310,9 @@ class _LevelSelectionPanel extends StatelessWidget {
                 child: Column(
                   children: [
                     for (var index = 0; index < _options.length; index++) ...[
-                      _LevelOptionCard(
+                      _AnimatedLevelOptionCard(
+                        animation: entranceAnimation,
+                        index: index,
                         option: _options[index],
                         selected: selectedLevel == _options[index].level,
                         onTap: () => onSelected(_options[index].level),
@@ -322,6 +378,50 @@ class _LevelSelectionPanel extends StatelessWidget {
             ),
           );
         },
+      ),
+    );
+  }
+}
+
+class _AnimatedLevelOptionCard extends StatelessWidget {
+  const _AnimatedLevelOptionCard({
+    required this.animation,
+    required this.index,
+    required this.option,
+    required this.selected,
+    required this.onTap,
+  });
+
+  final Animation<double> animation;
+  final int index;
+  final _LevelOptionData option;
+  final bool selected;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final start = 0.14 + (index * 0.14);
+    final end = (start + 0.42).clamp(0.0, 1.0).toDouble();
+    final cardCurve = CurvedAnimation(
+      parent: animation,
+      curve: Interval(start, end, curve: Curves.easeOutCubic),
+    );
+    final opacity = Tween<double>(begin: 0.01, end: 1).animate(cardCurve);
+    final slide = Tween<Offset>(
+      begin: const Offset(0, 0.08),
+      end: Offset.zero,
+    ).animate(cardCurve);
+
+    return FadeTransition(
+      opacity: opacity,
+      child: SlideTransition(
+        position: slide,
+        transformHitTests: false,
+        child: _LevelOptionCard(
+          option: option,
+          selected: selected,
+          onTap: onTap,
+        ),
       ),
     );
   }

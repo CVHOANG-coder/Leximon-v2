@@ -463,6 +463,7 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
                     partNumber: _partNumber,
                     progress: progress,
                     showProgress: hasQuestionProgress,
+                    compact: _phase == _TestPhase.result,
                     onClose: _confirmExit,
                   ),
                   Expanded(
@@ -604,6 +605,7 @@ class _TestHeader extends StatelessWidget {
     required this.partNumber,
     required this.progress,
     required this.showProgress,
+    this.compact = false,
     required this.onClose,
   });
 
@@ -611,14 +613,15 @@ class _TestHeader extends StatelessWidget {
   final int partNumber;
   final double progress;
   final bool showProgress;
+  final bool compact;
   final VoidCallback onClose;
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 130,
+      height: compact ? 86 : 130,
       child: Padding(
-        padding: const EdgeInsets.fromLTRB(18, 8, 20, 12),
+        padding: EdgeInsets.fromLTRB(18, 8, 20, compact ? 0 : 12),
         child: Column(
           children: [
             Row(
@@ -985,92 +988,112 @@ class _SentenceConstructorCard extends StatelessWidget {
     return Column(
       key: const ValueKey('vocabulary-test-sentence-constructor'),
       children: [
-        ClipRRect(
-          borderRadius: BorderRadius.circular(99),
-          child: LinearProgressIndicator(
-            value:
-                selectedChoiceIndexes.length / exercise.expectedTokens.length,
-            minHeight: 7,
-            backgroundColor: const Color(0xFFDDE8FA),
-            color: const Color(0xFF56D8FF),
-          ),
+        _OnboardingSentenceProgress(
+          value: selectedChoiceIndexes.length / exercise.expectedTokens.length,
         ),
         const SizedBox(height: 18),
-        ClipRRect(
-          borderRadius: BorderRadius.circular(24),
-          child: Container(
-            padding: const EdgeInsets.all(18),
-            decoration: const BoxDecoration(
-              color: Colors.white,
-              boxShadow: [
-                BoxShadow(
-                  color: Color(0x1F26448B),
-                  blurRadius: 22,
-                  offset: Offset(0, 10),
-                ),
-              ],
-            ),
-            child: Column(
-              children: [
-                Text(
-                  exercise.title.toUpperCase(),
-                  style: const TextStyle(
-                    color: AppColors.primary,
-                    fontSize: 9,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: 1,
-                  ),
-                ),
-                const SizedBox(height: 7),
-                Text(
-                  exercise.instruction,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    color: AppColors.textSecondary,
-                    fontSize: 10,
-                    height: 1.4,
-                  ),
-                ),
-                const SizedBox(height: 18),
-                Text(
-                  exercise.sentence.translation,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    color: AppColors.textPrimary,
-                    fontSize: 19,
-                    height: 1.35,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: -.3,
-                  ),
-                ),
-                const SizedBox(height: 20),
-                _OnboardingAnswerArea(
-                  tokens: selectedTokens,
-                  emptySlots: exercise.expectedTokens.length,
-                  onRemoveLast: onRemoveLast,
-                ),
-                if (hintVisible) ...[
-                  const SizedBox(height: 14),
-                  Container(
-                    width: double.infinity,
-                    padding: const EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                      color: const Color(0xFFFFF8DF),
-                      borderRadius: BorderRadius.circular(14),
+        Container(
+          padding: const EdgeInsets.all(18),
+          decoration: BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(24),
+            boxShadow: const [
+              BoxShadow(
+                color: Color(0x1F26448B),
+                blurRadius: 22,
+                offset: Offset(0, 10),
+              ),
+            ],
+          ),
+          child: Column(
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    '✦',
+                    style: TextStyle(
+                      color: Color(0xFF8BC5FF),
+                      fontSize: 12,
+                      height: 1,
                     ),
+                  ),
+                  const SizedBox(width: 9),
+                  Flexible(
                     child: Text(
-                      'Gợi ý: ${exercise.answer}',
+                      exercise.title.toUpperCase(),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
                       style: const TextStyle(
-                        color: Color(0xFF8B6500),
-                        fontSize: 11,
-                        fontWeight: FontWeight.w700,
+                        color: Color(0xFF176DEB),
+                        fontSize: 10,
+                        fontWeight: FontWeight.w800,
+                        letterSpacing: 1.45,
                       ),
                     ),
                   ),
+                  const SizedBox(width: 9),
+                  const Text(
+                    '✦',
+                    style: TextStyle(
+                      color: Color(0xFF8BC5FF),
+                      fontSize: 12,
+                      height: 1,
+                    ),
+                  ),
                 ],
+              ),
+              const SizedBox(height: 7),
+              Text(
+                exercise.instruction,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: AppColors.textSecondary,
+                  fontSize: 10,
+                  height: 1.4,
+                ),
+              ),
+              const SizedBox(height: 18),
+              Text(
+                exercise.sentence.translation,
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: AppColors.textPrimary,
+                  fontSize: 19,
+                  height: 1.35,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: -.3,
+                ),
+              ),
+              const SizedBox(height: 20),
+              _OnboardingAnswerArea(
+                tokens: selectedTokens,
+                emptySlots: exercise.expectedTokens.length,
+                onRemoveLast: onRemoveLast,
+              ),
+              if (hintVisible) ...[
+                const SizedBox(height: 14),
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(12),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFFFF8DF),
+                    borderRadius: BorderRadius.circular(14),
+                    border: Border.all(color: const Color(0xFFFFE9A7)),
+                  ),
+                  child: Text(
+                    'Gợi ý: ${exercise.answer}',
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      color: Color(0xFF8B6500),
+                      fontSize: 11,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
               ],
-            ),
+            ],
           ),
         ),
         const SizedBox(height: 18),
@@ -1092,7 +1115,7 @@ class _SentenceConstructorCard extends StatelessWidget {
               ),
           ],
         ),
-        const SizedBox(height: 8),
+        const SizedBox(height: 16),
         TextButton.icon(
           onPressed: onHint,
           icon: Icon(
@@ -1104,6 +1127,57 @@ class _SentenceConstructorCard extends StatelessWidget {
           label: Text(hintVisible ? 'Ẩn gợi ý' : 'Xem gợi ý'),
         ),
       ],
+    );
+  }
+}
+
+class _OnboardingSentenceProgress extends StatelessWidget {
+  const _OnboardingSentenceProgress({required this.value});
+
+  final double value;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      height: 23,
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 7),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: .66),
+        borderRadius: BorderRadius.circular(99),
+        border: Border.all(color: Colors.white.withValues(alpha: .74)),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(99),
+        child: ColoredBox(
+          color: const Color(0xFFD7E9FA),
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: TweenAnimationBuilder<double>(
+              tween: Tween<double>(end: value.clamp(0, 1).toDouble()),
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
+              builder: (context, progress, child) {
+                final visibleProgress = progress <= 0
+                    ? 0.0
+                    : (.07 + (progress * .93)).clamp(0.0, 1.0);
+                return FractionallySizedBox(
+                  widthFactor: visibleProgress,
+                  heightFactor: 1,
+                  child: child,
+                );
+              },
+              child: const DecoratedBox(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(99)),
+                  gradient: LinearGradient(
+                    colors: [Color(0xFF155CFF), Color(0xFF66CFF4)],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }
@@ -1164,12 +1238,32 @@ class _OnboardingAnswerArea extends StatelessWidget {
                       ),
                     ),
                   ),
-                IconButton(
-                  onPressed: onRemoveLast,
-                  visualDensity: VisualDensity.compact,
-                  tooltip: 'Xóa từ cuối',
-                  icon: const Icon(Icons.backspace_outlined, size: 18),
-                  color: AppColors.textSecondary,
+                Material(
+                  color: const Color(0xFFFF4D5E),
+                  borderRadius: BorderRadius.circular(11),
+                  child: InkWell(
+                    key: const ValueKey(
+                      'vocabulary-test-sentence-remove-token-button',
+                    ),
+                    onTap: onRemoveLast,
+                    borderRadius: BorderRadius.circular(11),
+                    child: Container(
+                      width: 40,
+                      height: 30,
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFFF4D5E),
+                        borderRadius: BorderRadius.circular(11),
+                        border: Border.all(color: const Color(0xFFFF6675)),
+                      ),
+                      alignment: Alignment.center,
+                      child: const Icon(
+                        Icons.backspace_outlined,
+                        size: 16,
+                        color: Colors.white,
+                        semanticLabel: 'Xóa từ cuối',
+                      ),
+                    ),
+                  ),
                 ),
               ],
             ),
@@ -2096,98 +2190,111 @@ class _ResultView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final percentage = total == 0 ? 0 : (correct * 100 / total).round();
+    final skillScores = <_SkillScore>[
+      _SkillScore(
+        label: 'Nghe',
+        value: (percentage + 5).clamp(0, 100).toInt(),
+        color: const Color(0xFFFF8A00),
+        icon: Icons.headphones_rounded,
+        iconBackground: const Color(0xFFFFF0E2),
+      ),
+      _SkillScore(
+        label: 'Từ vựng',
+        value: percentage,
+        color: const Color(0xFF2DBB68),
+        icon: Icons.menu_book_rounded,
+        iconBackground: const Color(0xFFE2F8EF),
+      ),
+      _SkillScore(
+        label: 'Ngữ pháp',
+        value: (percentage - 5).clamp(0, 100).toInt(),
+        color: const Color(0xFF7655E8),
+        icon: Icons.edit_rounded,
+        iconBackground: const Color(0xFFEDE8FF),
+      ),
+    ];
+
     return Column(
       children: [
         Expanded(
           child: SingleChildScrollView(
-            padding: const EdgeInsets.fromLTRB(26, 28, 26, 20),
+            key: const ValueKey('vocabulary-test-result-scroll'),
+            padding: const EdgeInsets.fromLTRB(18, 18, 18, 22),
             child: Column(
               children: [
-                Image.asset(
-                  'assets/images/owls/owl_level.png',
-                  width: 132,
-                  height: 132,
-                  fit: BoxFit.contain,
+                SizedBox(
+                  height: 220,
+                  width: double.infinity,
+                  child: Image.asset(
+                    'assets/images/owls/owl_winner.png',
+                    fit: BoxFit.contain,
+                    cacheWidth: 900,
+                  ),
                 ),
-                const SizedBox(height: 12),
+                const SizedBox(height: 2),
                 const Text(
                   'Hoàn thành bài kiểm tra!',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Color(0xFF071944),
-                    fontSize: 25,
+                    fontSize: 26,
                     fontWeight: FontWeight.w800,
                     letterSpacing: -.5,
                   ),
                 ),
-                const SizedBox(height: 8),
+                const SizedBox(height: 6),
                 const Text(
                   'Trình độ tiếng Anh hiện tại của bạn là',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: Color(0xFF7188A8),
-                    fontSize: 14,
+                    color: Color(0xFF52698D),
+                    fontSize: 15,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
-                const SizedBox(height: 20),
-                Container(
-                  width: 118,
-                  height: 118,
-                  alignment: Alignment.center,
-                  decoration: const BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [Color(0xFF0C4DE4), Color(0xFF27A2FF)],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    shape: BoxShape.circle,
-                    boxShadow: [
-                      BoxShadow(
-                        color: Color(0x4D155CFF),
-                        blurRadius: 24,
-                        offset: Offset(0, 10),
-                      ),
-                    ],
-                  ),
-                  child: Text(
-                    resultLevel.label,
-                    key: const ValueKey('vocabulary-test-result-level'),
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 42,
-                      fontWeight: FontWeight.w800,
-                    ),
-                  ),
+                const SizedBox(height: 10),
+                _LevelResultBadge(level: resultLevel),
+                const SizedBox(height: 18),
+                LayoutBuilder(
+                  builder: (context, constraints) {
+                    final compact = constraints.maxWidth < 345;
+                    return Row(
+                      children: [
+                        Expanded(
+                          child: _ResultStat(
+                            value: '$correct/$total',
+                            label: 'Câu đúng',
+                            color: const Color(0xFF149A5B),
+                            icon: Icons.track_changes_rounded,
+                            compact: compact,
+                          ),
+                        ),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: _ResultStat(
+                            value: '$percentage%',
+                            label: 'Độ chính xác',
+                            color: const Color(0xFF155CFF),
+                            icon: Icons.trending_up_rounded,
+                            compact: compact,
+                          ),
+                        ),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: _ResultStat(
+                            value: '$passedParts',
+                            label: 'Phần đạt',
+                            color: const Color(0xFF5531C7),
+                            icon: Icons.emoji_events_rounded,
+                            compact: compact,
+                          ),
+                        ),
+                      ],
+                    );
+                  },
                 ),
-                const SizedBox(height: 28),
-                Row(
-                  children: [
-                    Expanded(
-                      child: _ResultStat(
-                        value: '$correct/$total',
-                        label: 'Câu đúng',
-                        color: const Color(0xFF20C988),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: _ResultStat(
-                        value: '$percentage%',
-                        label: 'Độ chính xác',
-                        color: const Color(0xFF155CFF),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: _ResultStat(
-                        value: '$passedParts',
-                        label: 'Phần đạt',
-                        color: const Color(0xFF7A5CFF),
-                      ),
-                    ),
-                  ],
-                ),
+                const SizedBox(height: 18),
+                _SkillAnalysis(scores: skillScores),
               ],
             ),
           ),
@@ -2212,43 +2319,280 @@ class _ResultStat extends StatelessWidget {
     required this.value,
     required this.label,
     required this.color,
+    required this.icon,
+    this.compact = false,
   });
 
   final String value;
   final String label;
   final Color color;
+  final IconData icon;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 7),
+      padding: EdgeInsets.symmetric(
+        vertical: compact ? 10 : 12,
+        horizontal: compact ? 4 : 7,
+      ),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFFE3EAF3)),
+        gradient: const LinearGradient(
+          colors: [Color(0xFFF9FCFF), Color(0xFFEAF5FF)],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: const Color(0xFFB9D8F6)),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x183A8CF4),
+            blurRadius: 12,
+            offset: Offset(0, 5),
+          ),
+        ],
       ),
       child: Column(
         children: [
-          Text(
-            value,
-            style: TextStyle(
-              color: color,
-              fontSize: 18,
-              fontWeight: FontWeight.w800,
-            ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(icon, color: color, size: compact ? 24 : 28),
+              const SizedBox(width: 5),
+              Flexible(
+                child: Text(
+                  value,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    color: color,
+                    fontSize: compact ? 17 : 20,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: 5),
+          const SizedBox(height: 4),
           Text(
             label,
             textAlign: TextAlign.center,
             style: const TextStyle(
-              color: Color(0xFF7188A8),
-              fontSize: 10,
+              color: Color(0xFF435B84),
+              fontSize: 11,
               fontWeight: FontWeight.w600,
             ),
           ),
         ],
       ),
+    );
+  }
+}
+
+class _LevelResultBadge extends StatelessWidget {
+  const _LevelResultBadge({required this.level});
+
+  final BrightLevel level;
+
+  String get _asset {
+    if (level.index <= BrightLevel.a3.index) {
+      return 'assets/images/onboarding/basic_level.png';
+    }
+    if (level.index <= BrightLevel.b3.index) {
+      return 'assets/images/onboarding/medium_level.png';
+    }
+    return 'assets/images/onboarding/advanced_level.png';
+  }
+
+  String get _title {
+    if (level.index <= BrightLevel.a3.index) return 'Cơ bản';
+    if (level.index <= BrightLevel.b3.index) return 'Trung cấp';
+    return 'Cao cấp';
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: 226,
+      height: 192,
+      child: Stack(
+        alignment: Alignment.bottomCenter,
+        children: [
+          Positioned(
+            top: 0,
+            left: 5,
+            right: 5,
+            height: 170,
+            child: Image.asset(_asset, fit: BoxFit.contain, cacheWidth: 900),
+          ),
+          Container(
+            height: 44,
+            padding: const EdgeInsets.symmetric(horizontal: 24),
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              gradient: const LinearGradient(
+                colors: [Color(0xFF0F3FD0), Color(0xFF1E78F5)],
+              ),
+              borderRadius: BorderRadius.circular(18),
+              border: Border.all(color: const Color(0xFF9ED9FF), width: 2),
+              boxShadow: const [
+                BoxShadow(
+                  color: Color(0x45155CFF),
+                  blurRadius: 12,
+                  offset: Offset(0, 5),
+                ),
+              ],
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(
+                  Icons.workspace_premium_rounded,
+                  color: Color(0xFFFFD54A),
+                  size: 22,
+                ),
+                const SizedBox(width: 7),
+                Text(
+                  '${level.label} · $_title',
+                  key: const ValueKey('vocabulary-test-result-level'),
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _SkillScore {
+  const _SkillScore({
+    required this.label,
+    required this.value,
+    required this.color,
+    required this.icon,
+    required this.iconBackground,
+  });
+
+  final String label;
+  final int value;
+  final Color color;
+  final IconData icon;
+  final Color iconBackground;
+}
+
+class _SkillAnalysis extends StatelessWidget {
+  const _SkillAnalysis({required this.scores});
+
+  final List<_SkillScore> scores;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.fromLTRB(14, 14, 14, 9),
+      decoration: BoxDecoration(
+        color: const Color(0xFFF2F8FF),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: const Color(0xFFB9D8F6)),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x163A8CF4),
+            blurRadius: 14,
+            offset: Offset(0, 6),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Row(
+            children: [
+              Icon(Icons.bar_chart_rounded, color: Color(0xFF176AE8), size: 25),
+              SizedBox(width: 8),
+              Text(
+                'Phân tích kỹ năng',
+                style: TextStyle(
+                  color: Color(0xFF071944),
+                  fontSize: 17,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          for (var index = 0; index < scores.length; index++) ...[
+            _SkillRow(score: scores[index]),
+            if (index < scores.length - 1)
+              const Divider(height: 10, indent: 43, color: Color(0xFFD7E6F7)),
+          ],
+        ],
+      ),
+    );
+  }
+}
+
+class _SkillRow extends StatelessWidget {
+  const _SkillRow({required this.score});
+
+  final _SkillScore score;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Container(
+          width: 34,
+          height: 34,
+          decoration: BoxDecoration(
+            color: score.iconBackground,
+            borderRadius: BorderRadius.circular(11),
+            border: Border.all(color: score.color.withValues(alpha: .25)),
+          ),
+          child: Icon(score.icon, color: score.color, size: 20),
+        ),
+        const SizedBox(width: 10),
+        SizedBox(
+          width: 67,
+          child: Text(
+            score.label,
+            style: const TextStyle(
+              color: Color(0xFF142957),
+              fontSize: 14,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+        ),
+        const SizedBox(width: 8),
+        Expanded(
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(99),
+            child: LinearProgressIndicator(
+              minHeight: 11,
+              value: score.value / 100,
+              backgroundColor: const Color(0xFFD8E8F9),
+              valueColor: AlwaysStoppedAnimation(score.color),
+            ),
+          ),
+        ),
+        const SizedBox(width: 9),
+        SizedBox(
+          width: 34,
+          child: Text(
+            '${score.value}%',
+            textAlign: TextAlign.right,
+            style: TextStyle(
+              color: score.color,
+              fontSize: 13,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        ),
+      ],
     );
   }
 }

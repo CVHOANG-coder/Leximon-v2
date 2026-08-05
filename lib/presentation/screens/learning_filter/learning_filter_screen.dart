@@ -343,19 +343,56 @@ class _SetupTabs extends StatelessWidget {
           ),
         ],
       ),
-      child: Row(
-        children: [
-          _SetupTab(
-            label: 'Cấp độ',
-            selected: step == _SetupStep.level,
-            onTap: () => onChanged(_SetupStep.level),
-          ),
-          _SetupTab(
-            label: 'Chủ đề',
-            selected: step == _SetupStep.topics,
-            onTap: () => onChanged(_SetupStep.topics),
-          ),
-        ],
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final tabWidth = constraints.maxWidth / 2;
+          return SizedBox(
+            height: 42,
+            child: Stack(
+              children: [
+                AnimatedPositioned(
+                  duration: const Duration(milliseconds: 260),
+                  curve: Curves.easeOutCubic,
+                  left: step == _SetupStep.level ? 0 : tabWidth,
+                  top: 0,
+                  width: tabWidth,
+                  height: 42,
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(22),
+                      gradient: const LinearGradient(
+                        colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                      ),
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Color(0x3D1558FF),
+                          blurRadius: 14,
+                          offset: Offset(0, 6),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                Row(
+                  children: [
+                    _SetupTab(
+                      label: 'Cấp độ',
+                      selected: step == _SetupStep.level,
+                      onTap: () => onChanged(_SetupStep.level),
+                    ),
+                    _SetupTab(
+                      label: 'Chủ đề',
+                      selected: step == _SetupStep.topics,
+                      onTap: () => onChanged(_SetupStep.topics),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          );
+        },
       ),
     );
   }
@@ -375,37 +412,23 @@ class _SetupTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: GestureDetector(
-        onTap: onTap,
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 180),
-          height: 42,
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(22),
-            gradient: selected
-                ? const LinearGradient(
-                    colors: [Color(0xFF246DEB), Color(0xFF3A98FF)],
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                  )
-                : null,
-            boxShadow: selected
-                ? const [
-                    BoxShadow(
-                      color: Color(0x3D1558FF),
-                      blurRadius: 14,
-                      offset: Offset(0, 6),
-                    ),
-                  ]
-                : null,
-          ),
-          child: Text(
-            label,
-            style: TextStyle(
-              color: selected ? Colors.white : const Color(0xFF8796AA),
-              fontSize: 13,
-              fontWeight: FontWeight.w800,
+      child: Semantics(
+        selected: selected,
+        button: true,
+        label: label,
+        child: GestureDetector(
+          behavior: HitTestBehavior.opaque,
+          onTap: onTap,
+          child: Center(
+            child: AnimatedDefaultTextStyle(
+              duration: const Duration(milliseconds: 220),
+              curve: Curves.easeOutCubic,
+              style: TextStyle(
+                color: selected ? Colors.white : const Color(0xFF8796AA),
+                fontSize: selected ? 13 : 12.5,
+                fontWeight: FontWeight.w800,
+              ),
+              child: Text(label),
             ),
           ),
         ),

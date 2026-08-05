@@ -246,119 +246,204 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
     }
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle.light.copyWith(
-        statusBarColor: const Color(0xFF061B43),
-        statusBarIconBrightness: Brightness.light,
-        statusBarBrightness: Brightness.dark,
+      value: SystemUiOverlayStyle.dark.copyWith(
+        statusBarColor: Colors.transparent,
+        statusBarIconBrightness: Brightness.dark,
+        statusBarBrightness: Brightness.light,
         systemNavigationBarColor: AppColors.background,
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
         backgroundColor: AppColors.background,
-        body: Column(
+        body: Stack(
+          fit: StackFit.expand,
           children: [
-            _EditProfileTopBar(onBack: () => Navigator.of(context).pop()),
-            Expanded(
-              child: SafeArea(
-                top: false,
-                child: SingleChildScrollView(
-                  padding: const EdgeInsets.fromLTRB(18, 22, 18, 30),
-                  child: Form(
-                    key: _formKey,
-                    child: Column(
-                      children: [
-                        _AvatarPicker(
-                          avatarPath: _avatarPath,
-                          onTap: _chooseAvatar,
-                        ),
-                        const SizedBox(height: 24),
-                        LeximonSurface(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              const SectionHeader(
-                                kicker: 'Profile details',
-                                title: 'Thông tin cá nhân',
+            const _EditProfileBackdrop(),
+            Column(
+              children: [
+                _EditProfileTopBar(onBack: () => Navigator.of(context).pop()),
+                Expanded(
+                  child: SafeArea(
+                    top: false,
+                    child: SingleChildScrollView(
+                      padding: const EdgeInsets.fromLTRB(18, 22, 18, 30),
+                      child: Form(
+                        key: _formKey,
+                        child: Column(
+                          children: [
+                            LeximonSurface(
+                              padding: const EdgeInsets.fromLTRB(
+                                16,
+                                18,
+                                16,
+                                12,
                               ),
-                              const SizedBox(height: 18),
-                              _ProfileField(
-                                controller: _nameController,
-                                label: 'Tên của bạn',
-                                hintText: 'Nhập tên hiển thị',
-                                icon: Icons.person_outline_rounded,
-                                textInputAction: TextInputAction.next,
-                                validator: (value) {
-                                  if (value == null || value.trim().isEmpty) {
-                                    return 'Vui lòng nhập tên của bạn';
-                                  }
-                                  return null;
-                                },
+                              child: Column(
+                                children: [
+                                  const SectionHeader(
+                                    kicker: 'Personalize',
+                                    title: 'Ảnh đại diện',
+                                  ),
+                                  const SizedBox(height: 12),
+                                  _AvatarPicker(
+                                    avatarPath: _avatarPath,
+                                    onTap: _chooseAvatar,
+                                  ),
+                                ],
                               ),
-                              const SizedBox(height: 14),
-                              _ProfileField(
-                                controller: _emailController,
-                                label: 'Email',
-                                hintText: 'you@example.com',
-                                icon: Icons.alternate_email_rounded,
-                                keyboardType: TextInputType.emailAddress,
-                                textInputAction: TextInputAction.done,
-                                validator: (value) {
-                                  final email = value?.trim() ?? '';
-                                  if (email.isEmpty) {
-                                    return 'Vui lòng nhập email';
-                                  }
-                                  if (!RegExp(
-                                    r'^\S+@\S+\.\S+$',
-                                  ).hasMatch(email)) {
-                                    return 'Email chưa đúng định dạng';
-                                  }
-                                  return null;
-                                },
+                            ),
+                            const SizedBox(height: 18),
+                            LeximonSurface(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  const SectionHeader(
+                                    kicker: 'Profile details',
+                                    title: 'Thông tin cá nhân',
+                                  ),
+                                  const SizedBox(height: 18),
+                                  _ProfileField(
+                                    controller: _nameController,
+                                    label: 'Tên của bạn',
+                                    hintText: 'Nhập tên hiển thị',
+                                    icon: Icons.person_outline_rounded,
+                                    textInputAction: TextInputAction.next,
+                                    validator: (value) {
+                                      if (value == null ||
+                                          value.trim().isEmpty) {
+                                        return 'Vui lòng nhập tên của bạn';
+                                      }
+                                      return null;
+                                    },
+                                  ),
+                                  const SizedBox(height: 14),
+                                  _ProfileField(
+                                    controller: _emailController,
+                                    label: 'Email',
+                                    hintText: 'you@example.com',
+                                    icon: Icons.alternate_email_rounded,
+                                    keyboardType: TextInputType.emailAddress,
+                                    textInputAction: TextInputAction.done,
+                                    validator: (value) {
+                                      final email = value?.trim() ?? '';
+                                      if (email.isEmpty) {
+                                        return 'Vui lòng nhập email';
+                                      }
+                                      if (!RegExp(
+                                        r'^\S+@\S+\.\S+$',
+                                      ).hasMatch(email)) {
+                                        return 'Email chưa đúng định dạng';
+                                      }
+                                      return null;
+                                    },
+                                  ),
+                                ],
                               ),
-                            ],
-                          ),
-                        ),
-                        const SizedBox(height: 18),
-                        SizedBox(
-                          width: double.infinity,
-                          child: FilledButton.icon(
-                            onPressed: _isSaving ? null : _save,
-                            icon: _isSaving
-                                ? const SizedBox(
-                                    width: 18,
-                                    height: 18,
-                                    child: CircularProgressIndicator(
-                                      strokeWidth: 2,
-                                      color: Colors.white,
+                            ),
+                            const SizedBox(height: 18),
+                            SizedBox(
+                              width: double.infinity,
+                              height: 54,
+                              child: DecoratedBox(
+                                decoration: BoxDecoration(
+                                  gradient: LinearGradient(
+                                    colors: _isSaving
+                                        ? const [
+                                            Color(0xFF78A2FF),
+                                            Color(0xFF8DB4FF),
+                                          ]
+                                        : const [
+                                            Color(0xFF0C4DE4),
+                                            Color(0xFF147BFF),
+                                          ],
+                                    begin: Alignment.centerLeft,
+                                    end: Alignment.centerRight,
+                                  ),
+                                  borderRadius: BorderRadius.circular(18),
+                                  boxShadow: const [
+                                    BoxShadow(
+                                      color: Color(0x40155CFF),
+                                      blurRadius: 18,
+                                      offset: Offset(0, 8),
                                     ),
-                                  )
-                                : const Icon(Icons.check_rounded),
-                            label: Text(
-                              _isSaving ? 'Đang lưu...' : 'Lưu hồ sơ',
-                            ),
-                            style: FilledButton.styleFrom(
-                              minimumSize: const Size.fromHeight(54),
-                              backgroundColor: AppColors.primary,
-                              foregroundColor: Colors.white,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(18),
+                                  ],
+                                ),
+                                child: Material(
+                                  color: Colors.transparent,
+                                  borderRadius: BorderRadius.circular(18),
+                                  child: InkWell(
+                                    onTap: _isSaving ? null : _save,
+                                    borderRadius: BorderRadius.circular(18),
+                                    child: Center(
+                                      child: _isSaving
+                                          ? const SizedBox.square(
+                                              dimension: 18,
+                                              child: CircularProgressIndicator(
+                                                strokeWidth: 2,
+                                                color: Colors.white,
+                                              ),
+                                            )
+                                          : const Row(
+                                              mainAxisSize: MainAxisSize.min,
+                                              children: [
+                                                Icon(
+                                                  Icons.check_rounded,
+                                                  color: Colors.white,
+                                                  size: 20,
+                                                ),
+                                                SizedBox(width: 8),
+                                                Text(
+                                                  'Lưu hồ sơ',
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                    fontSize: 14,
+                                                    fontWeight: FontWeight.w800,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                    ),
+                                  ),
+                                ),
                               ),
-                              textStyle: const TextStyle(
-                                fontSize: 13,
-                                fontWeight: FontWeight.w800,
-                              ),
                             ),
-                          ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                   ),
                 ),
-              ),
+              ],
             ),
           ],
         ),
       ),
+    );
+  }
+}
+
+class _EditProfileBackdrop extends StatelessWidget {
+  const _EditProfileBackdrop();
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      fit: StackFit.expand,
+      children: [
+        const ColoredBox(color: AppColors.background),
+        Align(
+          alignment: Alignment.topCenter,
+          child: FractionallySizedBox(
+            widthFactor: 1,
+            heightFactor: .5,
+            child: Image.asset(
+              'assets/images/banner_header.png',
+              fit: BoxFit.fill,
+              alignment: Alignment.topCenter,
+            ),
+          ),
+        ),
+      ],
     );
   }
 }
@@ -372,28 +457,32 @@ class _EditProfileTopBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.fromLTRB(
-        12,
+        18,
         MediaQuery.paddingOf(context).top + 10,
         18,
-        18,
+        14,
       ),
-      decoration: const BoxDecoration(
-        borderRadius: BorderRadius.vertical(bottom: Radius.circular(30)),
-        gradient: LinearGradient(
-          colors: [Color(0xFF061B43), Color(0xFF0B347F), Color(0xFF155CFF)],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
-        ),
-      ),
+      color: Colors.transparent,
       child: Row(
         children: [
-          IconButton(
-            onPressed: onBack,
-            icon: const Icon(Icons.arrow_back_rounded),
-            color: Colors.white,
-            tooltip: 'Quay lại',
+          Material(
+            color: Colors.white.withValues(alpha: .72),
+            borderRadius: BorderRadius.circular(15),
+            child: InkWell(
+              onTap: onBack,
+              borderRadius: BorderRadius.circular(15),
+              child: const SizedBox(
+                width: 42,
+                height: 42,
+                child: Icon(
+                  Icons.arrow_back_rounded,
+                  color: AppColors.primary,
+                  size: 21,
+                ),
+              ),
+            ),
           ),
-          const SizedBox(width: 4),
+          const SizedBox(width: 12),
           const Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -401,7 +490,7 @@ class _EditProfileTopBar extends StatelessWidget {
                 Text(
                   'PERSONAL HUB',
                   style: TextStyle(
-                    color: Colors.white70,
+                    color: Color(0xFF52739A),
                     fontSize: 9,
                     fontWeight: FontWeight.w800,
                     letterSpacing: 1,
@@ -411,8 +500,8 @@ class _EditProfileTopBar extends StatelessWidget {
                 Text(
                   'Sửa hồ sơ',
                   style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 25,
+                    color: AppColors.primaryDark,
+                    fontSize: 26,
                     fontWeight: FontWeight.w800,
                     letterSpacing: -.8,
                   ),
@@ -420,7 +509,20 @@ class _EditProfileTopBar extends StatelessWidget {
               ],
             ),
           ),
-          const Icon(Icons.auto_awesome_rounded, color: AppColors.cyan),
+          Container(
+            width: 42,
+            height: 42,
+            decoration: BoxDecoration(
+              color: AppColors.surfaceBlue,
+              borderRadius: BorderRadius.circular(15),
+              border: Border.all(color: const Color(0xFFD9E7FF)),
+            ),
+            child: const Icon(
+              Icons.edit_outlined,
+              color: AppColors.primary,
+              size: 20,
+            ),
+          ),
         ],
       ),
     );

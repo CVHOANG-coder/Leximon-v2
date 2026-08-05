@@ -11,8 +11,48 @@ class AssessmentLevelScreen extends StatefulWidget {
   State<AssessmentLevelScreen> createState() => _AssessmentLevelScreenState();
 }
 
-class _AssessmentLevelScreenState extends State<AssessmentLevelScreen> {
+class _AssessmentLevelScreenState extends State<AssessmentLevelScreen>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _headerOpacity;
+  late final Animation<Offset> _headerSlide;
+  late final Animation<double> _panelOpacity;
   int? _selectedOption;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1050),
+    );
+    _headerOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0, 0.5, curve: Curves.easeOut),
+      ),
+    );
+    _headerSlide =
+        Tween<Offset>(begin: const Offset(0, -0.08), end: Offset.zero).animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.58, curve: Curves.easeOutCubic),
+          ),
+        );
+    _panelOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.12, 0.78, curve: Curves.easeOut),
+      ),
+    );
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,6 +72,12 @@ class _AssessmentLevelScreenState extends State<AssessmentLevelScreen> {
             Image.asset(
               'assets/images/onboarding/bg_choose_language.png',
               fit: BoxFit.cover,
+              opacity: Tween<double>(begin: 0.01, end: 1).animate(
+                CurvedAnimation(
+                  parent: _controller,
+                  curve: const Interval(0, 0.42, curve: Curves.easeOut),
+                ),
+              ),
             ),
             SafeArea(
               bottom: false,
@@ -39,19 +85,30 @@ class _AssessmentLevelScreenState extends State<AssessmentLevelScreen> {
                 clipBehavior: Clip.none,
                 children: [
                   Positioned.fill(
-                    top: 254,
-                    child: _AssessmentLevelPanel(
-                      selectedOption: _selectedOption,
-                      onSelected: (index) {
-                        setState(() => _selectedOption = index);
-                      },
+                    top: 200,
+                    child: FadeTransition(
+                      opacity: _panelOpacity,
+                      child: _AssessmentLevelPanel(
+                        entranceAnimation: _controller,
+                        selectedOption: _selectedOption,
+                        onSelected: (index) {
+                          setState(() => _selectedOption = index);
+                        },
+                      ),
                     ),
                   ),
-                  const Positioned(
+                  Positioned(
                     left: 0,
                     top: 0,
                     right: 0,
-                    child: _AssessmentLevelHeader(),
+                    child: FadeTransition(
+                      opacity: _headerOpacity,
+                      child: SlideTransition(
+                        position: _headerSlide,
+                        transformHitTests: false,
+                        child: const _AssessmentLevelHeader(),
+                      ),
+                    ),
                   ),
                 ],
               ),
@@ -69,7 +126,7 @@ class _AssessmentLevelHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 258,
+      height: 200,
       child: Stack(
         clipBehavior: Clip.none,
         children: [
@@ -111,24 +168,24 @@ class _AssessmentLevelHeader extends StatelessWidget {
             ),
           ),
           const Positioned(
-            left: 38,
-            top: 86,
+            left: 30,
+            top: 64,
             child: Text(
               'Đánh giá trình độ\n'
               'tiếng Anh hiện tại\n'
               'của bạn',
               style: TextStyle(
                 color: Colors.white,
-                fontSize: 25,
+                fontSize: 24,
                 height: 1.12,
-                fontWeight: FontWeight.w800,
+                fontWeight: FontWeight.w700,
                 letterSpacing: -0.6,
               ),
             ),
           ),
           Positioned(
-            left: 38,
-            top: 190,
+            left: 30,
+            top: 150,
             child: Text(
               'Chọn cấp độ phù hợp để chúng tôi\n'
               'xây dựng lộ trình học tốt nhất cho bạn.',
@@ -142,7 +199,7 @@ class _AssessmentLevelHeader extends StatelessWidget {
           ),
           Positioned(
             right: -3,
-            top: 69,
+            top: 16,
             child: Image.asset(
               'assets/images/owls/owl_learn.png',
               width: 151,
@@ -160,10 +217,12 @@ class _AssessmentLevelHeader extends StatelessWidget {
 
 class _AssessmentLevelPanel extends StatelessWidget {
   const _AssessmentLevelPanel({
+    required this.entranceAnimation,
     required this.selectedOption,
     required this.onSelected,
   });
 
+  final Animation<double> entranceAnimation;
   final int? selectedOption;
   final ValueChanged<int> onSelected;
 
@@ -235,7 +294,9 @@ class _AssessmentLevelPanel extends StatelessWidget {
                 child: Column(
                   children: [
                     for (var index = 0; index < _options.length; index++) ...[
-                      _AssessmentOptionCard(
+                      _AnimatedAssessmentOptionCard(
+                        animation: entranceAnimation,
+                        index: index,
                         option: _options[index],
                         selected: selectedOption == index,
                         compact: compact,
@@ -284,7 +345,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
                                 'Bắt đầu bài kiểm tra',
                                 style: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 20,
+                                  fontSize: 18,
                                   fontWeight: FontWeight.w700,
                                 ),
                               ),
@@ -299,6 +360,56 @@ class _AssessmentLevelPanel extends StatelessWidget {
             ),
           );
         },
+      ),
+    );
+  }
+}
+
+class _AnimatedAssessmentOptionCard extends StatelessWidget {
+  const _AnimatedAssessmentOptionCard({
+    required this.animation,
+    required this.index,
+    required this.option,
+    required this.selected,
+    required this.compact,
+    required this.height,
+    required this.onTap,
+  });
+
+  final Animation<double> animation;
+  final int index;
+  final _AssessmentOptionData option;
+  final bool selected;
+  final bool compact;
+  final double height;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    final start = 0.14 + (index * 0.11);
+    final end = (start + 0.38).clamp(0.0, 1.0).toDouble();
+    final cardCurve = CurvedAnimation(
+      parent: animation,
+      curve: Interval(start, end, curve: Curves.easeOutCubic),
+    );
+    final opacity = Tween<double>(begin: 0.01, end: 1).animate(cardCurve);
+    final slide = Tween<Offset>(
+      begin: const Offset(0, 0.08),
+      end: Offset.zero,
+    ).animate(cardCurve);
+
+    return FadeTransition(
+      opacity: opacity,
+      child: SlideTransition(
+        position: slide,
+        transformHitTests: false,
+        child: _AssessmentOptionCard(
+          option: option,
+          selected: selected,
+          compact: compact,
+          height: height,
+          onTap: onTap,
+        ),
       ),
     );
   }

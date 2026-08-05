@@ -1973,8 +1973,17 @@ class _SearchRow extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   gradient: const LinearGradient(
-                    colors: [AppColors.primaryDark, AppColors.primary],
+                    colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
                   ),
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Color(0x332F80ED),
+                      blurRadius: 18,
+                      offset: Offset(0, 8),
+                    ),
+                  ],
                 ),
                 child: const Icon(Icons.tune_rounded, color: Colors.white),
               ),

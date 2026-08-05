@@ -238,33 +238,56 @@ class _LanguagePanel extends StatelessWidget {
             minimum: const EdgeInsets.fromLTRB(18, 12, 18, 14),
             child: SizedBox(
               width: double.infinity,
-              height: 48,
-              child: FilledButton(
+              height: 52,
+              child: DecoratedBox(
                 key: const ValueKey('language-onboarding-continue'),
-                onPressed: isSaving ? null : onContinue,
-                style: FilledButton.styleFrom(
-                  backgroundColor: const Color(0xFF1761FF),
-                  disabledBackgroundColor: const Color(0xFF78A2FF),
-                  foregroundColor: Colors.white,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(16),
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: isSaving
+                        ? const [Color(0xFF78A2FF), Color(0xFF8DB4FF)]
+                        : const [
+                            Color(0xFF063AAE),
+                            Color(0xFF0C54E7),
+                            Color(0xFF1676FF),
+                          ],
+                    begin: Alignment.centerLeft,
+                    end: Alignment.centerRight,
                   ),
-                  elevation: 7,
-                  shadowColor: const Color(0x4D155CFF),
-                  textStyle: const TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.w600,
+                  borderRadius: BorderRadius.circular(18),
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Color(0x4D155CFF),
+                      blurRadius: 18,
+                      offset: Offset(0, 8),
+                    ),
+                  ],
+                ),
+                child: Material(
+                  color: Colors.transparent,
+                  borderRadius: BorderRadius.circular(18),
+                  child: InkWell(
+                    onTap: isSaving ? null : onContinue,
+                    borderRadius: BorderRadius.circular(18),
+                    child: Center(
+                      child: isSaving
+                          ? const SizedBox.square(
+                              dimension: 23,
+                              child: CircularProgressIndicator(
+                                strokeWidth: 2.5,
+                                color: Colors.white,
+                              ),
+                            )
+                          : const Text(
+                              'Tiếp',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                    ),
                   ),
                 ),
-                child: isSaving
-                    ? const SizedBox.square(
-                        dimension: 23,
-                        child: CircularProgressIndicator(
-                          strokeWidth: 2.5,
-                          color: Colors.white,
-                        ),
-                      )
-                    : const Text('Tiếp'),
               ),
             ),
           ),

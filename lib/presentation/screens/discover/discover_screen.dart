@@ -76,6 +76,7 @@ class DiscoverScreen extends ConsumerWidget {
                                 '${collection?.countFor(VocabularyCollectionStatus.mastered) ?? 0}',
                             body: 'Từ đã đúng nhiều lần và nhớ ổn định',
                             color: AppColors.green,
+                            icon: Icons.star_rounded,
                             onTap: () => _openCollection(
                               context,
                               VocabularyCollectionStatus.mastered,
@@ -88,6 +89,7 @@ class DiscoverScreen extends ConsumerWidget {
                                 '${collection?.countFor(VocabularyCollectionStatus.reviewing) ?? 0}',
                             body: 'Cần lặp lại theo lịch SRS trong 2 ngày tới',
                             color: AppColors.primary,
+                            icon: Icons.autorenew_rounded,
                             onTap: () => _openCollection(
                               context,
                               VocabularyCollectionStatus.reviewing,
@@ -101,6 +103,7 @@ class DiscoverScreen extends ConsumerWidget {
                             body:
                                 'Những từ bạn thường nhầm hoặc mất nhiều thời gian',
                             color: AppColors.orange,
+                            icon: Icons.track_changes_rounded,
                             onTap: () => _openCollection(
                               context,
                               VocabularyCollectionStatus.needsPractice,
@@ -179,10 +182,21 @@ class DiscoverScreen extends ConsumerWidget {
                     child: LeximonSurface(
                       child: Column(
                         children: [
-                          const SectionHeader(
+                          SectionHeader(
                             kicker: 'Learning map',
                             title: 'Bản đồ tiến độ chủ đề',
                             action: 'Tất cả chủ đề',
+                            onAction: topics.isEmpty
+                                ? null
+                                : () {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute<void>(
+                                        builder: (_) => WordStudyScreen(
+                                          topic: topics.first,
+                                        ),
+                                      ),
+                                    );
+                                  },
                           ),
                           const SizedBox(height: 16),
                           if (topics.isEmpty)
@@ -809,12 +823,14 @@ class _MasteryCard extends StatelessWidget {
     required this.value,
     required this.body,
     required this.color,
+    required this.icon,
     required this.onTap,
   });
   final String title;
   final String value;
   final String body;
   final Color color;
+  final IconData icon;
   final VoidCallback onTap;
 
   @override
@@ -830,11 +846,22 @@ class _MasteryCard extends StatelessWidget {
           child: Row(
             children: [
               Container(
-                width: 10,
-                height: 10,
-                decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+                width: 32,
+                height: 32,
+                decoration: BoxDecoration(
+                  color: color,
+                  shape: BoxShape.circle,
+                  boxShadow: [
+                    BoxShadow(
+                      color: color.withValues(alpha: .2),
+                      blurRadius: 7,
+                      offset: const Offset(0, 3),
+                    ),
+                  ],
+                ),
+                child: Icon(icon, color: Colors.white, size: 18),
               ),
-              const SizedBox(width: 10),
+              const SizedBox(width: 11),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,

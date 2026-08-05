@@ -3,8 +3,69 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
-class LevelAssessmentIntroScreen extends StatelessWidget {
+class LevelAssessmentIntroScreen extends StatefulWidget {
   const LevelAssessmentIntroScreen({super.key});
+
+  @override
+  State<LevelAssessmentIntroScreen> createState() =>
+      _LevelAssessmentIntroScreenState();
+}
+
+class _LevelAssessmentIntroScreenState extends State<LevelAssessmentIntroScreen>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _backgroundOpacity;
+  late final Animation<double> _headerOpacity;
+  late final Animation<Offset> _headerSlide;
+  late final Animation<double> _panelOpacity;
+  late final Animation<double> _skipOpacity;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1050),
+    );
+    _backgroundOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0, 0.42, curve: Curves.easeOut),
+      ),
+    );
+    _headerOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.04, 0.52, curve: Curves.easeOut),
+      ),
+    );
+    _headerSlide =
+        Tween<Offset>(begin: const Offset(0, -0.08), end: Offset.zero).animate(
+          CurvedAnimation(
+            parent: _controller,
+            curve: const Interval(0, 0.58, curve: Curves.easeOutCubic),
+          ),
+        );
+    _panelOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.14, 0.76, curve: Curves.easeOut),
+      ),
+    );
+    _skipOpacity = Tween<double>(begin: 0.01, end: 1).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.58, 1, curve: Curves.easeOut),
+      ),
+    );
+    _controller.forward();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -24,35 +85,49 @@ class LevelAssessmentIntroScreen extends StatelessWidget {
             Image.asset(
               'assets/images/onboarding/bg_choose_language.png',
               fit: BoxFit.cover,
+              opacity: _backgroundOpacity,
             ),
             SafeArea(
               bottom: false,
               child: Column(
                 children: [
-                  const _AssessmentHeader(),
+                  FadeTransition(
+                    opacity: _headerOpacity,
+                    child: SlideTransition(
+                      position: _headerSlide,
+                      transformHitTests: false,
+                      child: const _AssessmentHeader(),
+                    ),
+                  ),
                   Expanded(
-                    child: _AssessmentPanel(
-                      isFinishing: false,
-                      onStartTest: () => context.push(
-                        '/onboarding/assessment-intro/assessment-level',
+                    child: FadeTransition(
+                      opacity: _panelOpacity,
+                      child: _AssessmentPanel(
+                        isFinishing: false,
+                        onStartTest: () => context.push(
+                          '/onboarding/assessment-intro/assessment-level',
+                        ),
                       ),
                     ),
                   ),
-                  SafeArea(
-                    top: false,
-                    minimum: const EdgeInsets.fromLTRB(20, 4, 20, 10),
-                    child: TextButton(
-                      key: const ValueKey('assessment-skip'),
-                      onPressed: () =>
-                          context.push('/onboarding/assessment-intro/level'),
-                      style: TextButton.styleFrom(
-                        foregroundColor: const Color(0xFF155CFF),
-                        textStyle: const TextStyle(
-                          fontSize: 14,
-                          fontWeight: FontWeight.w500,
+                  FadeTransition(
+                    opacity: _skipOpacity,
+                    child: SafeArea(
+                      top: false,
+                      minimum: const EdgeInsets.fromLTRB(20, 4, 20, 10),
+                      child: TextButton(
+                        key: const ValueKey('assessment-skip'),
+                        onPressed: () =>
+                            context.push('/onboarding/assessment-intro/level'),
+                        style: TextButton.styleFrom(
+                          foregroundColor: const Color(0xFF155CFF),
+                          textStyle: const TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
+                        child: const Text('Tôi biết trình độ của mình'),
                       ),
-                      child: const Text('Tôi biết trình độ của mình'),
                     ),
                   ),
                 ],

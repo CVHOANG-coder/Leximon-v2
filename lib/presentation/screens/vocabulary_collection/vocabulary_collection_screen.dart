@@ -45,7 +45,7 @@ class _VocabularyCollectionScreenState
     final totalWords = snapshot?.totalWordCount ?? 0;
 
     return Scaffold(
-      backgroundColor: AppColors.primaryDark,
+      backgroundColor: const Color(0xFFEAF7FF),
       body: Stack(
         children: [
           const Positioned.fill(child: _CollectionBackdrop()),
@@ -54,7 +54,7 @@ class _VocabularyCollectionScreenState
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(18, 10, 18, 0),
+                  padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
                   child: _CollectionTopBar(
                     title: _statusTitle(widget.status),
                     kicker:
@@ -291,12 +291,12 @@ class _CollectionBackdrop extends StatelessWidget {
           decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color(0xFF071A3D),
-                Color(0xFF0F58D8),
-                Color(0xFF28A3EF),
-                Color(0xFF58CCFF),
+                Color(0xFFCDEBFF),
+                Color(0xFFE6F5FF),
+                Color(0xFFF7FCFF),
+                Color(0xFFEAF7FF),
               ],
-              stops: [0, .34, .64, 1],
+              stops: [0, .28, .62, 1],
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
             ),
@@ -307,7 +307,7 @@ class _CollectionBackdrop extends StatelessWidget {
           left: -65,
           child: _BackdropOrb(
             size: 180,
-            color: Colors.white.withValues(alpha: .12),
+            color: Colors.white.withValues(alpha: .72),
           ),
         ),
         Positioned(
@@ -315,7 +315,7 @@ class _CollectionBackdrop extends StatelessWidget {
           right: -90,
           child: _BackdropOrb(
             size: 230,
-            color: Colors.white.withValues(alpha: .08),
+            color: Colors.white.withValues(alpha: .58),
           ),
         ),
         Positioned(
@@ -323,11 +323,21 @@ class _CollectionBackdrop extends StatelessWidget {
           left: -90,
           child: _BackdropOrb(
             size: 220,
-            color: Colors.white.withValues(alpha: .09),
+            color: Colors.white.withValues(alpha: .7),
           ),
         ),
         Positioned(top: 110, right: 70, child: _Spark(size: 8)),
         Positioned(top: 205, left: 80, child: _Spark(size: 6)),
+        const Positioned(
+          left: -12,
+          bottom: 230,
+          child: Icon(Icons.spa_rounded, color: Color(0x6646CBEA), size: 92),
+        ),
+        const Positioned(
+          right: -14,
+          bottom: 120,
+          child: Icon(Icons.spa_rounded, color: Color(0x5546CBEA), size: 108),
+        ),
       ],
     );
   }
@@ -388,40 +398,53 @@ class _CollectionTopBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        _GlassIconButton(icon: Icons.arrow_back_rounded, onTap: onBack),
-        Expanded(
-          child: Column(
-            children: [
-              Text(
-                kicker,
-                style: const TextStyle(
-                  color: Color(0xB8FFFFFF),
-                  fontSize: 9,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 1.2,
+    return SizedBox(
+      height: 56,
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          _GlassIconButton(icon: Icons.arrow_back_rounded, onTap: onBack),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  kicker,
+                  textAlign: TextAlign.center,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: AppColors.primary,
+                    fontSize: 10,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 2.2,
+                  ),
                 ),
-              ),
-              const SizedBox(height: 4),
-              Text(
-                title,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 24,
-                  height: 1,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: -1,
+                const SizedBox(height: 10),
+                Text(
+                  title,
+                  textAlign: TextAlign.center,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: AppColors.textPrimary,
+                    fontSize: 30,
+                    height: 1,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: -1.1,
+                  ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
-        ),
-        _GlassIconButton(
-          icon: searchOpen ? Icons.close_rounded : Icons.search_rounded,
-          onTap: onSearch,
-        ),
-      ],
+          const SizedBox(width: 10),
+          _GlassIconButton(
+            icon: searchOpen ? Icons.close_rounded : Icons.search_rounded,
+            onTap: onSearch,
+          ),
+        ],
+      ),
     );
   }
 }
@@ -437,18 +460,20 @@ class _GlassIconButton extends StatelessWidget {
     return Semantics(
       button: true,
       child: Material(
-        color: Colors.white.withValues(alpha: .12),
+        color: Colors.white.withValues(alpha: .78),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(16),
-          side: const BorderSide(color: Color(0x29FFFFFF)),
+          side: const BorderSide(color: Colors.white, width: 1.2),
         ),
+        elevation: 0,
+        shadowColor: const Color(0x263D8DD6),
         child: InkWell(
           onTap: onTap,
           borderRadius: BorderRadius.circular(16),
           child: SizedBox(
             width: 44,
             height: 44,
-            child: Icon(icon, color: Colors.white, size: 22),
+            child: Icon(icon, color: AppColors.primary, size: 25),
           ),
         ),
       ),
@@ -524,18 +549,18 @@ class _CollectionBody extends StatelessWidget {
                     child: _WordItem(entry: entry, onTap: onWordTap),
                   ),
                 ),
-              const SizedBox(height: 2),
-              Text(
-                entries.isEmpty
-                    ? 'Các từ thuộc nhóm này sẽ xuất hiện sau khi bạn học và ôn tập.'
-                    : 'Chạm vào từng từ để xem thông tin chi tiết và nghe phát âm.',
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  color: AppColors.textSecondary,
-                  fontSize: 12,
-                  height: 1.45,
+              if (entries.isNotEmpty) ...[
+                const SizedBox(height: 2),
+                const Text(
+                  'Chạm vào từng từ để xem thông tin chi tiết và nghe phát âm.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: AppColors.textSecondary,
+                    fontSize: 12,
+                    height: 1.45,
+                  ),
                 ),
-              ),
+              ],
             ],
           ),
         ),
@@ -559,12 +584,20 @@ class _CollectionSummary extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    const accent = AppColors.primary;
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: .14),
+        color: Colors.white.withValues(alpha: .96),
         borderRadius: BorderRadius.circular(26),
-        border: Border.all(color: Colors.white.withValues(alpha: .12)),
+        border: Border.all(color: Colors.white, width: 1.2),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x243B9DE8),
+            blurRadius: 24,
+            offset: Offset(0, 10),
+          ),
+        ],
       ),
       child: Column(
         children: [
@@ -578,7 +611,7 @@ class _CollectionSummary extends StatelessWidget {
                     Text(
                       'BỘ TỪ ĐANG HỌC',
                       style: TextStyle(
-                        color: Color(0xB8FFFFFF),
+                        color: accent,
                         fontSize: 9,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.1,
@@ -588,7 +621,7 @@ class _CollectionSummary extends StatelessWidget {
                     Text(
                       'Thư viện Leximon',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: AppColors.textPrimary,
                         fontSize: 22,
                         fontWeight: FontWeight.w800,
                         letterSpacing: -.7,
@@ -603,7 +636,7 @@ class _CollectionSummary extends StatelessWidget {
                   vertical: 10,
                 ),
                 decoration: BoxDecoration(
-                  color: Colors.white.withValues(alpha: .16),
+                  color: const Color(0xFFF0F7FF),
                   borderRadius: BorderRadius.circular(18),
                 ),
                 child: Column(
@@ -611,8 +644,8 @@ class _CollectionSummary extends StatelessWidget {
                     Text(
                       '$count',
                       style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
+                        color: accent,
+                        fontSize: 30,
                         height: 1,
                         fontWeight: FontWeight.w800,
                       ),
@@ -621,8 +654,8 @@ class _CollectionSummary extends StatelessWidget {
                     Text(
                       _statusUnit(status),
                       style: const TextStyle(
-                        color: Color(0xC7FFFFFF),
-                        fontSize: 10,
+                        color: AppColors.textSecondary,
+                        fontSize: 11,
                       ),
                     ),
                   ],
@@ -635,9 +668,9 @@ class _CollectionSummary extends StatelessWidget {
             borderRadius: BorderRadius.circular(99),
             child: LinearProgressIndicator(
               value: progress.clamp(0, 1),
-              minHeight: 9,
-              backgroundColor: Colors.white.withValues(alpha: .15),
-              valueColor: const AlwaysStoppedAnimation(Colors.white),
+              minHeight: 10,
+              backgroundColor: const Color(0xFFE2EEFC),
+              valueColor: const AlwaysStoppedAnimation(accent),
             ),
           ),
           const SizedBox(height: 10),
@@ -647,7 +680,7 @@ class _CollectionSummary extends StatelessWidget {
                 child: Text(
                   _statusDescription(status),
                   style: const TextStyle(
-                    color: Color(0xD6FFFFFF),
+                    color: AppColors.textSecondary,
                     fontSize: 12,
                     height: 1.35,
                   ),
@@ -656,7 +689,7 @@ class _CollectionSummary extends StatelessWidget {
               Text(
                 '$count / $totalWords',
                 style: const TextStyle(
-                  color: Color(0xD6FFFFFF),
+                  color: AppColors.textSecondary,
                   fontSize: 12,
                   fontWeight: FontWeight.w800,
                 ),
@@ -847,21 +880,40 @@ class _EmptyCollection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 28, horizontal: 16),
+      padding: const EdgeInsets.fromLTRB(12, 22, 12, 24),
       decoration: BoxDecoration(
-        color: const Color(0xFFF3F8FF),
-        borderRadius: BorderRadius.circular(20),
+        color: const Color(0xFFF5FAFF),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: const Color(0xFFDDEBFC), width: 1.2),
       ),
-      child: const Column(
+      child: Column(
         children: [
-          Icon(Icons.auto_stories_outlined, color: Color(0xFF72A9E5), size: 34),
+          Image(
+            image: AssetImage(
+              'assets/images/empty_word_vocabulary_collection.png',
+            ),
+            width: 250,
+            height: 150,
+            fit: BoxFit.contain,
+          ),
           SizedBox(height: 10),
           Text(
             'Chưa có từ nào trong nhóm này',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: AppColors.textPrimary,
+              fontSize: 18,
               fontWeight: FontWeight.w800,
+            ),
+          ),
+          SizedBox(height: 10),
+          Text(
+            'Các từ thuộc nhóm này sẽ xuất hiện\nsau khi bạn học và ôn tập.',
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: AppColors.textSecondary,
+              fontSize: 14,
+              height: 1.45,
             ),
           ),
         ],
@@ -881,20 +933,58 @@ class _CollectionCta extends StatelessWidget {
     return SizedBox(
       width: double.infinity,
       height: 56,
-      child: ElevatedButton(
-        onPressed: onPressed,
-        style: ElevatedButton.styleFrom(
-          backgroundColor: AppColors.yellow,
-          foregroundColor: Colors.white,
-          disabledBackgroundColor: const Color(0x66FFFFFF),
-          disabledForegroundColor: const Color(0xB8FFFFFF),
-          elevation: 0,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(22),
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(24),
+        child: Ink(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(24),
+            gradient: onPressed == null
+                ? const LinearGradient(
+                    colors: [Color(0xFFDCE7F5), Color(0xFFEAF0F8)],
+                  )
+                : const LinearGradient(
+                    colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                  ),
+            border: Border.all(color: Colors.white, width: 1.4),
+            boxShadow: [
+              BoxShadow(
+                color: onPressed == null
+                    ? const Color(0x1A7B97BA)
+                    : const Color(0x333A8EF2),
+                blurRadius: 16,
+                offset: const Offset(0, 7),
+              ),
+            ],
           ),
-          textStyle: const TextStyle(fontSize: 19, fontWeight: FontWeight.w800),
+          child: InkWell(
+            onTap: onPressed,
+            borderRadius: BorderRadius.circular(24),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(
+                  Icons.menu_book_rounded,
+                  color: onPressed == null
+                      ? const Color(0xFF8EA2C0)
+                      : Colors.white,
+                  size: 24,
+                ),
+                const SizedBox(width: 10),
+                Text(
+                  label,
+                  style: TextStyle(
+                    color: onPressed == null
+                        ? const Color(0xFF8EA2C0)
+                        : Colors.white,
+                    fontSize: 19,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
-        child: Text(label),
       ),
     );
   }
