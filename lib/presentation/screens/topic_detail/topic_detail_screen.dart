@@ -1,6 +1,4 @@
 import 'dart:async';
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -119,8 +117,8 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
             'Chi tiết chủ đề',
             textAlign: TextAlign.center,
             style: TextStyle(
-              color: Colors.white,
-              fontSize: 21,
+              color: AppColors.textPrimary,
+              fontSize: 22,
               fontWeight: FontWeight.w800,
               letterSpacing: -.7,
             ),
@@ -129,7 +127,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         _GlassButton(
           icon: _saved ? Icons.bookmark_rounded : Icons.bookmark_border_rounded,
           onPressed: () => setState(() => _saved = !_saved),
-          iconColor: _saved ? AppColors.yellow : Colors.white,
+          iconColor: AppColors.primary,
         ),
       ],
     );
@@ -395,7 +393,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           if (canPracticeSentences) ...[
             const SizedBox(height: 10),
             _ActionItem(
-              iconAsset: 'assets/svgs/practice.svg',
+              iconAsset: 'assets/svgs/match_sentence.svg',
               title: 'Ghép câu theo chủ đề',
               description: 'Luyện 4 từ đã học trong các câu thuộc chủ đề này.',
               color: const Color(0xFFF3F1FF),
@@ -678,50 +676,19 @@ class _DetailBackdrop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Container(
-          height: 250,
-          decoration: const BoxDecoration(
-            borderRadius: BorderRadius.vertical(bottom: Radius.circular(46)),
-            gradient: LinearGradient(
-              colors: [Color(0xFF061C42), Color(0xFF0A347F), Color(0xFF155CFF)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-          ),
+    return Align(
+      alignment: Alignment.topCenter,
+      child: AspectRatio(
+        aspectRatio: 1475 / 1066,
+        child: Image.asset(
+          'assets/images/banner_header.png',
+          key: const ValueKey('topic-detail-header-background'),
+          width: double.infinity,
+          fit: BoxFit.cover,
+          alignment: Alignment.topCenter,
+          filterQuality: FilterQuality.high,
         ),
-        Positioned(
-          top: 70,
-          left: -86,
-          child: ImageFiltered(
-            imageFilter: ImageFilter.blur(sigmaX: 18, sigmaY: 18),
-            child: Container(
-              width: 230,
-              height: 230,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                color: AppColors.cyan.withValues(alpha: .18),
-              ),
-            ),
-          ),
-        ),
-        Positioned(
-          top: -52,
-          right: -56,
-          child: ImageFiltered(
-            imageFilter: ImageFilter.blur(sigmaX: 16, sigmaY: 16),
-            child: Container(
-              width: 210,
-              height: 210,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                color: Colors.white.withValues(alpha: .08),
-              ),
-            ),
-          ),
-        ),
-      ],
+      ),
     );
   }
 }
@@ -730,21 +697,37 @@ class _GlassButton extends StatelessWidget {
   const _GlassButton({
     required this.icon,
     required this.onPressed,
-    this.iconColor = Colors.white,
+    this.iconColor = AppColors.primary,
   });
   final IconData icon;
   final VoidCallback onPressed;
   final Color iconColor;
 
   @override
-  Widget build(BuildContext context) => IconButton(
-    onPressed: onPressed,
-    icon: Icon(icon, color: iconColor, size: 20),
-    style: IconButton.styleFrom(
-      backgroundColor: Colors.white.withValues(alpha: .12),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(15),
-        side: const BorderSide(color: Colors.white24),
+  Widget build(BuildContext context) => Container(
+    width: 42,
+    height: 42,
+    clipBehavior: Clip.antiAlias,
+    decoration: BoxDecoration(
+      color: Colors.white.withValues(alpha: .82),
+      borderRadius: BorderRadius.circular(14),
+      border: Border.all(color: Colors.white.withValues(alpha: .92)),
+      boxShadow: const [
+        BoxShadow(
+          color: Color(0x1A2E72B8),
+          blurRadius: 12,
+          offset: Offset(0, 4),
+        ),
+      ],
+    ),
+    child: IconButton(
+      onPressed: onPressed,
+      padding: EdgeInsets.zero,
+      icon: Icon(icon, color: iconColor, size: 21),
+      style: IconButton.styleFrom(
+        minimumSize: const Size.square(42),
+        maximumSize: const Size.square(42),
+        tapTargetSize: MaterialTapTargetSize.shrinkWrap,
       ),
     ),
   );

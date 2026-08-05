@@ -26,6 +26,43 @@ void main() {
     expect(ringSize.width, lessThan(150));
     expect(ringSize.width, greaterThan(0));
     expect(ringSize.height, closeTo(ringSize.width, .001));
+
+    final ring = tester.widget<CircularProgressIndicator>(
+      find.byKey(const Key('vocabulary-progress-ring')),
+    );
+    expect(ring.strokeWidth, 9);
+    expect(ring.strokeCap, StrokeCap.round);
+    expect(ring.backgroundColor, const Color(0xFF91D3F4));
+    expect(ring.valueColor!.value, const Color(0xFFE6FFF1));
+
+    final cardRect = tester.getRect(
+      find.byKey(const Key('progress-card-banner')),
+    );
+    final ringRect = tester.getRect(
+      find.byKey(const Key('vocabulary-progress-ring')),
+    );
+    expect(ringRect.top - cardRect.top, lessThan(22));
+    expect(cardRect.right - ringRect.right, inInclusiveRange(18, 28));
+  });
+
+  testWidgets('uses the bundled progress banner as the card background', (
+    tester,
+  ) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(375, 812);
+    addTearDown(tester.view.reset);
+
+    await tester.pumpWidget(_testApp());
+    await tester.pumpAndSettle();
+
+    final banner = tester.widget<Container>(
+      find.byKey(const Key('progress-card-banner')),
+    );
+    final decoration = banner.decoration! as BoxDecoration;
+    final background = decoration.image!.image as AssetImage;
+
+    expect(background.assetName, 'assets/images/card_progress_banner.png');
+    expect(decoration.image!.fit, BoxFit.cover);
   });
 
   testWidgets('uses bundled assets for vocabulary tracking stats', (

@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
@@ -37,23 +38,32 @@ class _MainScreenState extends State<MainScreen> {
           );
         }
 
-        return Scaffold(
-          body: Stack(
-            fit: StackFit.expand,
-            children: [
-              const _AppBackdrop(),
-              Positioned.fill(
-                child: IndexedStack(
-                  index: selectedIndex,
-                  children: [for (final tab in tabs) tab.screen],
-                ),
-              ),
-            ],
+        return AnnotatedRegion<SystemUiOverlayStyle>(
+          value: const SystemUiOverlayStyle(
+            statusBarColor: Colors.transparent,
+            statusBarIconBrightness: Brightness.dark,
+            statusBarBrightness: Brightness.light,
+            systemNavigationBarColor: Colors.white,
+            systemNavigationBarIconBrightness: Brightness.dark,
           ),
-          bottomNavigationBar: _BottomNav(
-            selectedIndex: selectedIndex,
-            tabs: tabs,
-            onDestinationSelected: (index) => _selectTab(ref, index),
+          child: Scaffold(
+            body: Stack(
+              fit: StackFit.expand,
+              children: [
+                const _AppBackdrop(),
+                Positioned.fill(
+                  child: IndexedStack(
+                    index: selectedIndex,
+                    children: [for (final tab in tabs) tab.screen],
+                  ),
+                ),
+              ],
+            ),
+            bottomNavigationBar: _BottomNav(
+              selectedIndex: selectedIndex,
+              tabs: tabs,
+              onDestinationSelected: (index) => _selectTab(ref, index),
+            ),
           ),
         );
       },
@@ -189,9 +199,14 @@ class _BottomNavItem extends StatelessWidget {
   final VoidCallback onTap;
   final bool profile;
 
+  static const _animationDuration = Duration(milliseconds: 220);
+
   @override
   Widget build(BuildContext context) {
-    final iconColor = selected ? Colors.white : const Color(0xFF9AA7B9);
+    final iconColor = selected ? Colors.white : const Color(0xFFA8B4C5);
+    final profileIconAsset = selected
+        ? 'assets/images/tab_personal_active.png'
+        : 'assets/images/tab_personal_inactive.png';
 
     return Semantics(
       button: true,
@@ -205,52 +220,85 @@ class _BottomNavItem extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Container(
-                width: 38,
-                height: 34,
-                clipBehavior: Clip.antiAlias,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(13),
-                  color: profile ? const Color(0xFFF0F4FB) : null,
-                  border: profile
-                      ? Border.all(color: const Color(0xFFE4EAF5))
-                      : null,
-                  gradient: selected
-                      ? const LinearGradient(
-                          colors: [Color(0xFF0D3A91), Color(0xFF155CFF)],
-                          begin: Alignment.topLeft,
-                          end: Alignment.bottomRight,
-                        )
-                      : null,
-                  boxShadow: selected
-                      ? const [
-                          BoxShadow(
-                            color: Color(0x3D1258FF),
-                            blurRadius: 18,
-                            offset: Offset(0, 8),
-                          ),
-                        ]
-                      : null,
-                ),
-                child: profile
-                    ? Transform.scale(
-                        scale: 1.13,
-                        child: Image.asset(
-                          'assets/images/leximon-owl.png',
-                          fit: BoxFit.cover,
+              AnimatedSlide(
+                key: ValueKey('bottom-nav-slide-$label'),
+                duration: _animationDuration,
+                curve: Curves.easeOutCubic,
+                offset: selected ? const Offset(0, -.06) : Offset.zero,
+                child: AnimatedScale(
+                  key: ValueKey('bottom-nav-scale-$label'),
+                  duration: _animationDuration,
+                  curve: Curves.easeOutBack,
+                  scale: selected ? 1.08 : 1,
+                  child: AnimatedContainer(
+                    key: ValueKey('bottom-nav-icon-$label'),
+                    duration: _animationDuration,
+                    curve: Curves.easeOutCubic,
+                    width: 38,
+                    height: 34,
+                    clipBehavior: Clip.antiAlias,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(13),
+                      gradient: selected && !profile
+                          ? const LinearGradient(
+                              colors: [Color(0xFF1658D3), Color(0xFF2481FA)],
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                            )
+                          : null,
+                      boxShadow: selected && !profile
+                          ? const [
+                              BoxShadow(
+                                color: Color(0x332F80ED),
+                                blurRadius: 18,
+                                offset: Offset(0, 8),
+                              ),
+                            ]
+                          : null,
+                    ),
+                    child: AnimatedSwitcher(
+                      duration: const Duration(milliseconds: 180),
+                      switchInCurve: Curves.easeOutBack,
+                      switchOutCurve: Curves.easeInCubic,
+                      transitionBuilder: (child, animation) => FadeTransition(
+                        opacity: animation,
+                        child: ScaleTransition(
+                          scale: Tween<double>(
+                            begin: .72,
+                            end: 1,
+                          ).animate(animation),
+                          child: child,
                         ),
-                      )
-                    : Icon(icon, color: iconColor, size: 21),
+                      ),
+                      child: profile
+                          ? Image.asset(
+                              profileIconAsset,
+                              key: ValueKey(profileIconAsset),
+                              fit: BoxFit.contain,
+                            )
+                          : Icon(
+                              icon,
+                              key: ValueKey('$label-$selected'),
+                              color: iconColor,
+                              size: 21,
+                            ),
+                    ),
+                  ),
+                ),
               ),
               const SizedBox(height: 5),
-              Text(
-                label,
+              AnimatedDefaultTextStyle(
+                duration: _animationDuration,
+                curve: Curves.easeOutCubic,
                 style: TextStyle(
-                  color: selected ? AppColors.primary : const Color(0xFF9AA7B9),
+                  color: selected
+                      ? const Color(0xFF2475E6)
+                      : const Color(0xFFA8B4C5),
                   fontSize: 9,
                   height: 1.2,
                   fontWeight: FontWeight.w600,
                 ),
+                child: Text(label),
               ),
             ],
           ),
@@ -266,85 +314,23 @@ class _AppBackdrop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
+      fit: StackFit.expand,
       children: [
-        Container(
-          height: 350,
-          decoration: const BoxDecoration(
-            borderRadius: BorderRadius.vertical(bottom: Radius.circular(46)),
-            gradient: LinearGradient(
-              colors: [Color(0xFF061B43), Color(0xFF0B347F), Color(0xFF155CFF)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+        const ColoredBox(color: AppColors.background),
+        Align(
+          alignment: Alignment.topCenter,
+          child: FractionallySizedBox(
+            widthFactor: 1,
+            heightFactor: 1 / 2,
+            child: Image.asset(
+              'assets/images/banner_header.png',
+              key: const ValueKey('main-header-banner'),
+              fit: BoxFit.fill,
+              alignment: Alignment.topCenter,
             ),
           ),
-        ),
-        Positioned(
-          top: 70,
-          left: -90,
-          child: _GlowOrb(
-            color: AppColors.cyan.withValues(alpha: .27),
-            size: 210,
-          ),
-        ),
-        Positioned(
-          top: 178,
-          right: -68,
-          child: _GlowOrb(
-            color: AppColors.cyan.withValues(alpha: .18),
-            size: 155,
-          ),
-        ),
-        Positioned(top: 104, right: 70, child: _Spark()),
-        Positioned(
-          top: 228,
-          left: 55,
-          child: Transform.scale(scale: .7, child: const _Spark()),
         ),
       ],
-    );
-  }
-}
-
-class _GlowOrb extends StatelessWidget {
-  const _GlowOrb({required this.color, required this.size});
-  final Color color;
-  final double size;
-
-  @override
-  Widget build(BuildContext context) {
-    return IgnorePointer(
-      child: ImageFiltered(
-        imageFilter: ImageFilter.blur(sigmaX: 4, sigmaY: 4),
-        child: Container(
-          width: size,
-          height: size,
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            gradient: RadialGradient(
-              colors: [color, color.withValues(alpha: 0)],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _Spark extends StatelessWidget {
-  const _Spark();
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 5,
-      height: 5,
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        color: Colors.white.withValues(alpha: .55),
-        boxShadow: const [
-          BoxShadow(color: Colors.white, blurRadius: 12, spreadRadius: 2),
-        ],
-      ),
     );
   }
 }

@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:ui';
 
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:drift/drift.dart' as drift;
@@ -584,7 +583,7 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     final selectedCount = _selectedWordKeys.length;
 
     return Scaffold(
-      backgroundColor: AppColors.primaryDark,
+      backgroundColor: AppColors.background,
       body: Stack(
         children: [
           const Positioned.fill(child: _StudyBackdrop()),
@@ -660,69 +659,14 @@ class _StudyBackdrop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color(0xFF061C42), Color(0xFF0B347F), Color(0xFF155CFF)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-          ),
-        ),
-        Positioned(
-          top: 80,
-          left: -110,
-          child: _StudyOrb(
-            color: AppColors.cyan.withValues(alpha: .24),
-            size: 280,
-          ),
-        ),
-        Positioned(
-          bottom: -105,
-          right: -70,
-          child: _StudyOrb(
-            color: AppColors.purple.withValues(alpha: .24),
-            size: 280,
-          ),
-        ),
-        Positioned(
-          top: 94,
-          right: 74,
-          child: Container(
-            width: 8,
-            height: 8,
-            decoration: const BoxDecoration(
-              color: Color(0x88FFFFFF),
-              shape: BoxShape.circle,
-              boxShadow: [BoxShadow(color: Colors.white, blurRadius: 14)],
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-class _StudyOrb extends StatelessWidget {
-  const _StudyOrb({required this.color, required this.size});
-
-  final Color color;
-  final double size;
-
-  @override
-  Widget build(BuildContext context) {
-    return ImageFiltered(
-      imageFilter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
-      child: Container(
-        width: size,
-        height: size,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          gradient: RadialGradient(colors: [color, color.withValues(alpha: 0)]),
-        ),
-      ),
+    return Image.asset(
+      'assets/images/bg_word_study.png',
+      key: const ValueKey('word-study-background'),
+      width: double.infinity,
+      height: double.infinity,
+      fit: BoxFit.fill,
+      alignment: Alignment.topCenter,
+      filterQuality: FilterQuality.high,
     );
   }
 }
@@ -755,7 +699,7 @@ class _StudyTopBar extends StatelessWidget {
               const Text(
                 'BỘ HỌC HÔM NAY',
                 style: TextStyle(
-                  color: Color(0x99FFFFFF),
+                  color: Color(0xFF2F80ED),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1.2,
@@ -765,7 +709,7 @@ class _StudyTopBar extends StatelessWidget {
               Text(
                 'Đã chọn $selectedCount / $totalCount từ',
                 style: const TextStyle(
-                  color: Colors.white,
+                  color: AppColors.textPrimary,
                   fontSize: 16,
                   fontWeight: FontWeight.w900,
                   letterSpacing: -.3,
@@ -802,14 +746,16 @@ class _StudyIconButton extends StatelessWidget {
       label: label,
       child: IconButton(
         onPressed: onPressed,
-        icon: Icon(icon, color: Colors.white, size: 20),
+        icon: Icon(icon, color: AppColors.primary, size: 22),
         style: IconButton.styleFrom(
           fixedSize: const Size(42, 42),
-          backgroundColor: const Color(0x2EFFFFFF),
+          backgroundColor: Colors.white.withValues(alpha: .82),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(15),
-            side: const BorderSide(color: Color(0x3DFFFFFF)),
+            borderRadius: BorderRadius.circular(14),
+            side: BorderSide(color: Colors.white.withValues(alpha: .94)),
           ),
+          elevation: 2,
+          shadowColor: const Color(0x332E72B8),
         ),
       ),
     );
@@ -895,31 +841,54 @@ class _TopicStripState extends State<_TopicStrip> {
                   padding: const EdgeInsets.symmetric(horizontal: 15),
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                    color: active ? Colors.white : const Color(0x1AFFFFFF),
+                    color: active
+                        ? const Color(0xFFFFFFFF)
+                        : Colors.white.withValues(alpha: .64),
                     borderRadius: BorderRadius.circular(99),
                     border: Border.all(
-                      color: active ? Colors.white : const Color(0x2EFFFFFF),
+                      color: active
+                          ? const Color(0xFFF4F8FF)
+                          : Colors.white.withValues(alpha: .9),
                     ),
                     boxShadow: active
                         ? const [
                             BoxShadow(
-                              color: Color(0x2B00184F),
-                              blurRadius: 18,
-                              offset: Offset(0, 8),
+                              color: Color(0x1F4B82B8),
+                              blurRadius: 20,
+                              offset: Offset(0, 7),
                             ),
                           ]
                         : null,
                   ),
-                  child: Text(
-                    active ? '★  ${topic.translated}' : topic.translated,
-                    style: TextStyle(
-                      color: active
-                          ? AppColors.primaryDark
-                          : const Color(0xD6FFFFFF),
-                      fontSize: 10,
-                      fontWeight: FontWeight.w800,
-                    ),
-                  ),
+                  child: active
+                      ? Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(
+                              Icons.star_rounded,
+                              key: ValueKey('word-study-active-topic-star'),
+                              color: Color(0xFF1E78EE),
+                              size: 15,
+                            ),
+                            const SizedBox(width: 7),
+                            Text(
+                              topic.translated,
+                              style: const TextStyle(
+                                color: Color(0xFF082B70),
+                                fontSize: 11,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ],
+                        )
+                      : Text(
+                          topic.translated,
+                          style: const TextStyle(
+                            color: Color(0xFF17549A),
+                            fontSize: 10,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
                 ),
               ),
             );
@@ -1016,7 +985,7 @@ class _DeckZoneState extends State<_DeckZone> {
       return const Center(
         child: Text(
           'Chủ đề này chưa có từ để học.',
-          style: TextStyle(color: Colors.white, fontSize: 12),
+          style: TextStyle(color: AppColors.textSecondary, fontSize: 12),
         ),
       );
     }
@@ -1080,7 +1049,7 @@ class _DeckZoneState extends State<_DeckZone> {
               },
               options: CarouselOptions(
                 height: carouselHeight,
-                viewportFraction: constraints.maxWidth >= 390 ? .82 : .84,
+                viewportFraction: constraints.maxWidth >= 390 ? .78 : .8,
                 initialPage: widget.currentIndex,
                 enableInfiniteScroll: false,
                 enlargeCenterPage: true,
@@ -1140,7 +1109,7 @@ class _RecommendedCompletionCard extends StatelessWidget {
         border: Border.all(color: const Color(0xBFFFFFFF), width: 1.5),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x3800184F),
+            color: Color(0x267A96B8),
             blurRadius: 28,
             offset: Offset(0, 16),
           ),
@@ -1184,14 +1153,16 @@ class _DeckArrow extends StatelessWidget {
       label: icon == Icons.chevron_left_rounded ? 'Từ trước' : 'Từ tiếp theo',
       child: IconButton(
         onPressed: onTap,
-        icon: Icon(icon, color: Colors.white, size: 21),
+        icon: Icon(icon, color: AppColors.primary, size: 24),
         style: IconButton.styleFrom(
-          fixedSize: const Size(34, 58),
-          backgroundColor: const Color(0x1FFFFFFF),
+          fixedSize: const Size(40, 58),
+          backgroundColor: Colors.white.withValues(alpha: .84),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(17),
-            side: const BorderSide(color: Color(0x2EFFFFFF)),
+            borderRadius: BorderRadius.circular(20),
+            side: BorderSide(color: Colors.white.withValues(alpha: .94)),
           ),
+          elevation: 2,
+          shadowColor: const Color(0x332E72B8),
         ),
       ),
     );
@@ -1242,6 +1213,8 @@ class _WordCard extends StatelessWidget {
         : 'Chưa phân loại';
 
     return Container(
+      key: ValueKey('word-study-word-card-$index'),
+      margin: const EdgeInsets.only(bottom: 16),
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(30),
@@ -1253,9 +1226,9 @@ class _WordCard extends StatelessWidget {
         border: Border.all(color: const Color(0xDEFFFFFF)),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x38001852),
-            blurRadius: 34,
-            offset: Offset(0, 18),
+            color: Color(0x267A96B8),
+            blurRadius: 30,
+            offset: Offset(0, 15),
           ),
         ],
       ),
@@ -1425,27 +1398,28 @@ class _WordCard extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             _SlowAudioButton(onTap: () => onPlaySlow(writing)),
-                            const SizedBox(width: 15),
+                            const SizedBox(width: 18),
                             _AudioButton(onTap: () => onPlay(writing)),
                           ],
                         ),
-                        const SizedBox(height: 22),
+                        const SizedBox(height: 20),
                         Container(
+                          key: const Key('word-study-description'),
                           width: double.infinity,
                           padding: const EdgeInsets.symmetric(
-                            horizontal: 13,
-                            vertical: 11,
+                            horizontal: 15,
+                            vertical: 13,
                           ),
                           decoration: BoxDecoration(
-                            color: const Color(0xFFF4F7FB),
-                            borderRadius: BorderRadius.circular(16),
+                            color: const Color(0xFFF4F8FC),
+                            borderRadius: BorderRadius.circular(20),
                           ),
                           child: Text(
                             'Một từ vựng quan trọng trong chủ đề ${topic.translated}.',
-                            textAlign: TextAlign.left,
+                            textAlign: TextAlign.center,
                             style: const TextStyle(
                               color: Color(0xFF637A98),
-                              fontSize: 9,
+                              fontSize: 10,
                               height: 1.45,
                             ),
                           ),
@@ -1546,26 +1520,27 @@ class _SlowAudioButtonState extends State<_SlowAudioButton>
       child: GestureDetector(
         onTap: _handleTap,
         child: AnimatedContainer(
+          key: const Key('word-study-slow-audio-button'),
           duration: const Duration(milliseconds: 180),
-          width: 62,
-          height: 62,
+          width: 76,
+          height: 82,
           decoration: BoxDecoration(
             color: _isPlaying
-                ? const Color(0xFFE0ECFF)
-                : const Color(0xFFF0F5FF),
-            borderRadius: BorderRadius.circular(21),
+                ? const Color(0xFFE3EEFF)
+                : const Color(0xFFF3F8FF),
+            borderRadius: BorderRadius.circular(23),
             border: Border.all(
-              color: _isPlaying ? AppColors.primary : const Color(0xFFDCE8FF),
+              color: _isPlaying ? AppColors.primary : const Color(0xFFD9E8FA),
             ),
-            boxShadow: _isPlaying
-                ? const [
-                    BoxShadow(
-                      color: Color(0x33155CFF),
-                      blurRadius: 14,
-                      spreadRadius: 1,
-                    ),
-                  ]
-                : null,
+            boxShadow: [
+              BoxShadow(
+                color: _isPlaying
+                    ? const Color(0x33155CFF)
+                    : const Color(0x1A7896B8),
+                blurRadius: _isPlaying ? 14 : 10,
+                offset: const Offset(0, 5),
+              ),
+            ],
           ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -1574,8 +1549,8 @@ class _SlowAudioButtonState extends State<_SlowAudioButton>
                 animation: _controller,
                 child: SvgPicture.asset(
                   'assets/svgs/slow.svg',
-                  width: 26,
-                  height: 26,
+                  width: 34,
+                  height: 34,
                 ),
                 builder: (context, child) {
                   final progress = Curves.easeInOut.transform(
@@ -1587,14 +1562,14 @@ class _SlowAudioButtonState extends State<_SlowAudioButton>
                   );
                 },
               ),
-              const SizedBox(height: 2),
+              const SizedBox(height: 4),
               Text(
                 '0.75×',
                 style: TextStyle(
                   color: _isPlaying
                       ? AppColors.primary
                       : const Color(0xFF3B68B5),
-                  fontSize: 8,
+                  fontSize: 10,
                   fontWeight: FontWeight.w800,
                 ),
               ),
@@ -1658,21 +1633,22 @@ class _AudioButtonState extends State<_AudioButton>
       child: GestureDetector(
         onTap: _handleTap,
         child: Container(
-          width: 84,
-          height: 84,
+          key: const Key('word-study-audio-button'),
+          width: 94,
+          height: 94,
           alignment: Alignment.center,
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(27),
+            borderRadius: BorderRadius.circular(28),
             gradient: const LinearGradient(
-              colors: [AppColors.primaryDark, AppColors.primary],
+              colors: [Color(0xFF4B94FF), Color(0xFF1763E9)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
             boxShadow: const [
               BoxShadow(
-                color: Color(0x3D155CFF),
-                blurRadius: 24,
-                offset: Offset(0, 12),
+                color: Color(0x3D286BEF),
+                blurRadius: 22,
+                offset: Offset(0, 10),
               ),
             ],
           ),
@@ -1683,7 +1659,7 @@ class _AudioButtonState extends State<_AudioButton>
             child: const Icon(
               Icons.volume_up_rounded,
               color: Colors.white,
-              size: 34,
+              size: 40,
             ),
           ),
         ),
@@ -1710,14 +1686,19 @@ class _WordActionButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final background = primary
-        ? const LinearGradient(colors: [Color(0xFFFFAE21), Color(0xFFFFC928)])
+        ? const LinearGradient(
+            colors: [Color(0xFFFFB10A), Color(0xFFFFC83D)],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          )
         : learning
         ? const LinearGradient(colors: [Color(0xFFFFF1CC), Color(0xFFFFF1CC)])
         : null;
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        constraints: const BoxConstraints(minHeight: 56),
+        key: ValueKey('word-study-action-$label'),
+        constraints: const BoxConstraints(minHeight: 54),
         alignment: Alignment.center,
         decoration: BoxDecoration(
           gradient: background,
@@ -1725,8 +1706,8 @@ class _WordActionButton extends StatelessWidget {
               ? null
               : known
               ? const Color(0xFFFFF0F2)
-              : const Color(0xFFE4FBF1),
-          borderRadius: BorderRadius.circular(18),
+              : const Color(0xFFECFBF6),
+          borderRadius: BorderRadius.circular(20),
           border: Border.all(
             color: primary || learning
                 ? learning
@@ -1734,14 +1715,14 @@ class _WordActionButton extends StatelessWidget {
                       : Colors.transparent
                 : known
                 ? const Color(0xFFFFDADD)
-                : const Color(0xFFC8F3DF),
+                : const Color(0xFFBFEEDD),
           ),
           boxShadow: primary
               ? const [
                   BoxShadow(
-                    color: Color(0x38FFB923),
-                    blurRadius: 18,
-                    offset: Offset(0, 9),
+                    color: Color(0x35FFB10A),
+                    blurRadius: 16,
+                    offset: Offset(0, 8),
                   ),
                 ]
               : null,
@@ -1756,8 +1737,8 @@ class _WordActionButton extends StatelessWidget {
                 ? const Color(0xFF8B5900)
                 : known
                 ? const Color(0xFFB34B56)
-                : const Color(0xFF13845D),
-            fontSize: 12,
+                : const Color(0xFF159667),
+            fontSize: 14,
             fontWeight: FontWeight.w700,
           ),
         ),
@@ -1775,12 +1756,20 @@ class _StudyFooter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      key: const Key('word-study-footer'),
       margin: const EdgeInsets.fromLTRB(16, 10, 16, 12),
       padding: const EdgeInsets.fromLTRB(15, 12, 15, 13),
       decoration: BoxDecoration(
-        color: const Color(0x1AFFFFFF),
+        color: Colors.white.withValues(alpha: .88),
         borderRadius: BorderRadius.circular(22),
-        border: Border.all(color: const Color(0x2EFFFFFF)),
+        border: Border.all(color: Colors.white.withValues(alpha: .94)),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x247A96B8),
+            blurRadius: 22,
+            offset: Offset(0, 10),
+          ),
+        ],
       ),
       child: Column(
         children: [
@@ -1794,7 +1783,7 @@ class _StudyFooter extends StatelessWidget {
                     const Text(
                       'TỪ ĐÃ CHỌN',
                       style: TextStyle(
-                        color: Color(0x99FFFFFF),
+                        color: Color(0xFF5F7FA8),
                         fontSize: 8,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.1,
@@ -1804,7 +1793,7 @@ class _StudyFooter extends StatelessWidget {
                     Text(
                       '$selectedCount / $maxSelected từ',
                       style: const TextStyle(
-                        color: Colors.white,
+                        color: AppColors.textPrimary,
                         fontSize: 13,
                         fontWeight: FontWeight.w900,
                       ),
@@ -1815,7 +1804,7 @@ class _StudyFooter extends StatelessWidget {
               const Text(
                 'Chọn tối đa 4 từ',
                 style: TextStyle(
-                  color: Color(0xA3FFFFFF),
+                  color: AppColors.textSecondary,
                   fontSize: 8,
                   fontWeight: FontWeight.w700,
                 ),
@@ -1832,8 +1821,8 @@ class _StudyFooter extends StatelessWidget {
                     height: 5,
                     decoration: BoxDecoration(
                       color: index < selectedCount
-                          ? Colors.white
-                          : const Color(0x2EFFFFFF),
+                          ? AppColors.primary
+                          : const Color(0xFFDCE8F8),
                       borderRadius: BorderRadius.circular(99),
                     ),
                   ),

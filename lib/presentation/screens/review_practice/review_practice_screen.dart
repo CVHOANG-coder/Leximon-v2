@@ -740,7 +740,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
         if (!didPop) _confirmExit();
       },
       child: Scaffold(
-        backgroundColor: AppColors.primaryDark,
+        backgroundColor: AppColors.background,
         body: Stack(
           children: [
             const Positioned.fill(child: _PracticeBackdrop()),
@@ -755,14 +755,14 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
                       title: widget.title,
                       onClose: _confirmExit,
                     ),
-                    const SizedBox(height: 18),
+                    const SizedBox(height: 14),
                     _PracticeProgress(
                       label: _progressLabel,
                       progress: progress,
                       current: _showIntro ? 0 : _questionIndex + 1,
                       total: _questions.length,
                     ),
-                    const SizedBox(height: 18),
+                    const SizedBox(height: 14),
                     Expanded(
                       child: SingleChildScrollView(
                         physics: const BouncingScrollPhysics(),
@@ -796,15 +796,10 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
                             );
                           },
                           child: _showIntro
-                              ? Column(
+                              ? _PracticeIntroCard(
                                   key: const ValueKey('practice-intro'),
-                                  children: [
-                                    _PracticeIntroCard(words: _introWords),
-                                    const SizedBox(height: 14),
-                                    _StartPracticeButton(
-                                      onPressed: _startPractice,
-                                    ),
-                                  ],
+                                  words: _introWords,
+                                  onStart: _startPractice,
                                 )
                               : Column(
                                   key: ValueKey(
@@ -921,92 +916,12 @@ class _PracticeBackdrop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        Container(
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [
-                Color(0xFF061C42),
-                Color(0xFF0A347F),
-                Color(0xFF0F51BA),
-                Color(0xFFF4F8FF),
-                Color(0xFFF7FAFF),
-              ],
-              stops: [0, .16, .34, .341, 1],
-            ),
-          ),
-        ),
-        Positioned(
-          top: 70,
-          left: -105,
-          child: _GlowOrb(
-            color: AppColors.cyan.withValues(alpha: .28),
-            size: 270,
-          ),
-        ),
-        Positioned(
-          top: -70,
-          right: -60,
-          child: _GlowOrb(
-            color: Colors.white.withValues(alpha: .13),
-            size: 230,
-          ),
-        ),
-        Positioned(
-          bottom: 100,
-          left: -65,
-          child: _GlowOrb(
-            color: AppColors.purple.withValues(alpha: .12),
-            size: 190,
-          ),
-        ),
-        Positioned(top: 92, right: 82, child: _Spark(size: 10)),
-        Positioned(top: 142, left: 52, child: _Spark(size: 8)),
-      ],
-    );
-  }
-}
-
-class _GlowOrb extends StatelessWidget {
-  const _GlowOrb({required this.color, required this.size});
-
-  final Color color;
-  final double size;
-
-  @override
-  Widget build(BuildContext context) {
-    return ImageFiltered(
-      imageFilter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
-      child: Container(
-        width: size,
-        height: size,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          gradient: RadialGradient(colors: [color, color.withValues(alpha: 0)]),
-        ),
-      ),
-    );
-  }
-}
-
-class _Spark extends StatelessWidget {
-  const _Spark({required this.size});
-
-  final double size;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: size,
-      height: size,
-      decoration: const BoxDecoration(
-        color: Color(0x38FFFFFF),
-        shape: BoxShape.circle,
-        boxShadow: [BoxShadow(color: Color(0x18FFFFFF), spreadRadius: 9)],
-      ),
+    return Image.asset(
+      'assets/images/bg_word_study.png',
+      key: const ValueKey('review-practice-background'),
+      fit: BoxFit.cover,
+      alignment: Alignment.topCenter,
+      filterQuality: FilterQuality.high,
     );
   }
 }
@@ -1024,56 +939,69 @@ class _PracticeTopBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Semantics(
-          button: true,
-          label: 'Thoát ôn tập',
-          child: IconButton(
-            onPressed: onClose,
-            icon: const Icon(
-              Icons.close_rounded,
-              color: Colors.white,
-              size: 20,
-            ),
-            style: IconButton.styleFrom(
-              fixedSize: const Size(42, 42),
-              backgroundColor: const Color(0x1FFFFFFF),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(15),
-                side: const BorderSide(color: Color(0x2EFFFFFF)),
+    return SizedBox(
+      height: 72,
+      child: Stack(
+        children: [
+          Align(
+            alignment: Alignment.topLeft,
+            child: Semantics(
+              button: true,
+              label: 'Thoát ôn tập',
+              child: IconButton(
+                key: const Key('review-practice-close-button'),
+                onPressed: onClose,
+                icon: const Icon(
+                  Icons.close_rounded,
+                  color: AppColors.primary,
+                  size: 23,
+                ),
+                style: IconButton.styleFrom(
+                  fixedSize: const Size(44, 44),
+                  backgroundColor: Colors.white.withValues(alpha: .88),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(15),
+                    side: const BorderSide(color: Colors.white),
+                  ),
+                  shadowColor: const Color(0x332C65A4),
+                  elevation: 5,
+                ),
               ),
             ),
           ),
-        ),
-        Expanded(
-          child: Column(
-            children: [
-              Text(
-                kicker,
-                style: const TextStyle(
-                  color: Color(0xBDFFFFFF),
-                  fontSize: 9,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 1.45,
-                ),
+          Align(
+            alignment: Alignment.topCenter,
+            child: Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    kicker,
+                    style: const TextStyle(
+                      color: Color(0xFF176DEB),
+                      fontSize: 10,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: 2.1,
+                    ),
+                  ),
+                  const SizedBox(height: 7),
+                  Text(
+                    title,
+                    style: const TextStyle(
+                      color: AppColors.textPrimary,
+                      fontSize: 31,
+                      height: 1,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: -1.2,
+                    ),
+                  ),
+                ],
               ),
-              const SizedBox(height: 4),
-              Text(
-                title,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 24,
-                  height: 1,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: -1,
-                ),
-              ),
-            ],
+            ),
           ),
-        ),
-        const SizedBox(width: 42, height: 42),
-      ],
+        ],
+      ),
     );
   }
 }
@@ -1093,121 +1021,183 @@ class _PracticeProgress extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Row(
-          children: [
-            Expanded(
-              child: Text(
-                label,
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 7),
+      child: Column(
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  label,
+                  style: const TextStyle(
+                    color: Color(0xFF176DEB),
+                    fontSize: 13,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+              Text(
+                '$current / $total',
                 style: const TextStyle(
-                  color: Color(0xFFEAF4FF),
-                  fontSize: 11,
+                  color: Color(0xFF176DEB),
+                  fontSize: 13,
                   fontWeight: FontWeight.w800,
                 ),
               ),
-            ),
-            Text(
-              '$current / $total',
-              style: const TextStyle(
-                color: Color(0xFFEAF4FF),
-                fontSize: 11,
-                fontWeight: FontWeight.w800,
-              ),
-            ),
-          ],
-        ),
-        const SizedBox(height: 10),
-        Container(
-          height: 10,
-          clipBehavior: Clip.antiAlias,
-          decoration: BoxDecoration(
-            color: const Color(0x2EFFFFFF),
-            borderRadius: BorderRadius.circular(99),
+            ],
           ),
-          alignment: Alignment.centerLeft,
-          child: TweenAnimationBuilder<double>(
-            tween: Tween<double>(end: progress.clamp(0, 1).toDouble()),
-            duration: const Duration(milliseconds: 360),
-            curve: Curves.easeOutCubic,
-            builder: (context, value, child) {
-              return FractionallySizedBox(widthFactor: value, child: child);
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(99),
-                gradient: const LinearGradient(
-                  colors: [AppColors.cyan, Colors.white],
+          const SizedBox(height: 8),
+          Container(
+            key: const Key('review-practice-progress-track'),
+            height: 23,
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 7),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: .66),
+              borderRadius: BorderRadius.circular(99),
+              border: Border.all(color: Colors.white.withValues(alpha: .74)),
+            ),
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(99),
+              child: ColoredBox(
+                color: const Color(0xFFD7E9FA),
+                child: Align(
+                  alignment: Alignment.centerLeft,
+                  child: TweenAnimationBuilder<double>(
+                    tween: Tween<double>(end: progress.clamp(0, 1).toDouble()),
+                    duration: const Duration(milliseconds: 360),
+                    curve: Curves.easeOutCubic,
+                    builder: (context, value, child) {
+                      // Keep the first question visually noticeable like the
+                      // reference, while still advancing on every question.
+                      final visibleProgress = value <= 0
+                          ? 0.0
+                          : (.07 + (value * .93)).clamp(0.0, 1.0);
+                      return FractionallySizedBox(
+                        key: const Key('review-practice-progress-fill'),
+                        widthFactor: visibleProgress,
+                        heightFactor: 1,
+                        child: child,
+                      );
+                    },
+                    child: const DecoratedBox(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.all(Radius.circular(99)),
+                        gradient: LinearGradient(
+                          colors: [Color(0xFF155CFF), Color(0xFF66CFF4)],
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
               ),
             ),
           ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
 
 class _PracticeIntroCard extends StatelessWidget {
-  const _PracticeIntroCard({required this.words});
+  const _PracticeIntroCard({
+    required this.words,
+    required this.onStart,
+    super.key,
+  });
 
   final List<ExerciseWord> words;
+  final VoidCallback onStart;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       clipBehavior: Clip.antiAlias,
       decoration: BoxDecoration(
-        color: const Color(0xF7FFFFFF),
+        color: Colors.white.withValues(alpha: .94),
         borderRadius: BorderRadius.circular(32),
-        border: Border.all(color: const Color(0x1208397A)),
+        border: Border.all(color: Colors.white),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x2426448B),
-            blurRadius: 50,
-            offset: Offset(0, 20),
+            color: Color(0x1F466E9C),
+            blurRadius: 30,
+            offset: Offset(0, 12),
           ),
         ],
       ),
-      child: Column(
-        children: [
-          const Padding(
-            padding: EdgeInsets.fromLTRB(18, 22, 18, 22),
-            child: Column(
-              children: [
-                Text(
-                  'Đọc kỹ các từ bên dưới trước khi bắt đầu phần ôn tập.',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: Color(0xFF7D8EA8),
-                    fontSize: 12,
-                    height: 1.45,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-                SizedBox(height: 10),
-                SizedBox(
-                  width: 290,
-                  child: Text(
-                    'Leximon sẽ đưa ra các câu hỏi dựa trên nhóm từ bạn đã chọn để ôn lại trí nhớ ngắn hạn.',
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(16, 24, 16, 20),
+        child: Column(
+          children: [
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: Column(
+                children: [
+                  Text(
+                    'Đọc kỹ các từ bên dưới trước khi bắt đầu phần ôn tập.',
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: Color(0xFF6F84A2),
-                      fontSize: 11,
-                      height: 1.5,
+                      color: AppColors.textPrimary,
+                      fontSize: 13,
+                      height: 1.45,
+                      fontWeight: FontWeight.w800,
                     ),
                   ),
-                ),
-              ],
+                  SizedBox(height: 12),
+                  SizedBox(
+                    width: 310,
+                    child: Text(
+                      'Leximon sẽ đưa ra các câu hỏi dựa trên nhóm từ bạn đã chọn để ôn lại trí nhớ ngắn hạn.',
+                      textAlign: TextAlign.center,
+                      style: TextStyle(
+                        color: Color(0xFF5679B2),
+                        fontSize: 12,
+                        height: 1.55,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
-          ),
-          const _CardDivider(),
-          for (var index = 0; index < words.length; index++) ...[
-            _IntroWordRow(word: words[index]),
-            if (index != words.length - 1) const _CardDivider(),
+            const SizedBox(height: 19),
+            const _IntroDashedDivider(),
+            const SizedBox(height: 14),
+            for (var index = 0; index < words.length; index++) ...[
+              _IntroWordRow(word: words[index]),
+              if (index != words.length - 1) const SizedBox(height: 9),
+            ],
+            const SizedBox(height: 14),
+            _StartPracticeButton(onPressed: onStart),
           ],
-        ],
+        ),
       ),
+    );
+  }
+}
+
+class _IntroDashedDivider extends StatelessWidget {
+  const _IntroDashedDivider();
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        const dashWidth = 4.0;
+        const gapWidth = 4.0;
+        final dashCount = (constraints.maxWidth / (dashWidth + gapWidth))
+            .floor();
+        return Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            for (var index = 0; index < dashCount; index++)
+              const SizedBox(
+                width: dashWidth,
+                height: 1,
+                child: ColoredBox(color: Color(0xFFBBD6F5)),
+              ),
+          ],
+        );
+      },
     );
   }
 }
@@ -1220,29 +1210,34 @@ class _IntroWordRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      constraints: const BoxConstraints(minHeight: 108),
-      padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 20),
-      alignment: Alignment.center,
-      color: const Color(0xC7FFFFFF),
+      constraints: const BoxConstraints(minHeight: 88),
+      padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 15),
+      alignment: Alignment.centerLeft,
+      decoration: BoxDecoration(
+        color: const Color(0xFFF8FBFF),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: const Color(0xFFD7E7F8)),
+      ),
       child: Column(
         mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
             word.writing,
-            textAlign: TextAlign.center,
+            textAlign: TextAlign.left,
             style: const TextStyle(
               color: AppColors.textPrimary,
-              fontSize: 28,
+              fontSize: 27,
               height: 1.05,
               fontWeight: FontWeight.w800,
               letterSpacing: -1,
             ),
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 7),
           Text(
             word.translation,
-            textAlign: TextAlign.center,
-            style: const TextStyle(color: Color(0xFF7387A4), fontSize: 16),
+            textAlign: TextAlign.left,
+            style: const TextStyle(color: Color(0xFF5679B2), fontSize: 15),
           ),
         ],
       ),
@@ -1257,21 +1252,77 @@ class _StartPracticeButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
       width: double.infinity,
       height: 58,
-      child: FilledButton(
-        onPressed: onPressed,
-        style: FilledButton.styleFrom(
-          elevation: 0,
-          foregroundColor: const Color(0xFF8EBEF3),
-          backgroundColor: const Color(0xBDFFFFFF),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-          ),
-          textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          colors: [Color(0xFF4B94FF), Color(0xFF1C6FF1)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
         ),
-        child: const Text('Bắt đầu ôn tập'),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: const Color(0xFF1564EE), width: 1.2),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x3D1769EA),
+            blurRadius: 14,
+            offset: Offset(0, 6),
+          ),
+        ],
+      ),
+      child: Stack(
+        children: [
+          const Positioned(
+            left: 30,
+            top: 14,
+            child: Text(
+              '✦',
+              style: TextStyle(color: Colors.white, fontSize: 15),
+            ),
+          ),
+          const Positioned(
+            left: 17,
+            top: 28,
+            child: Text(
+              '✦',
+              style: TextStyle(color: Colors.white, fontSize: 9),
+            ),
+          ),
+          const Positioned(
+            right: 27,
+            bottom: 12,
+            child: Text(
+              '✦',
+              style: TextStyle(color: Colors.white, fontSize: 16),
+            ),
+          ),
+          const Positioned(
+            right: 17,
+            bottom: 25,
+            child: Text(
+              '✦',
+              style: TextStyle(color: Colors.white, fontSize: 9),
+            ),
+          ),
+          Positioned.fill(
+            child: TextButton(
+              key: const Key('review-practice-start-button'),
+              onPressed: onPressed,
+              style: TextButton.styleFrom(
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20),
+                ),
+                textStyle: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+              child: const Text('Bắt đầu ôn tập'),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -2943,8 +2994,9 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            visibleInput,
+          _AutoSizingSingleLineTypingText(
+            text: visibleInput,
+            textKey: const ValueKey('typing-composing-text'),
             style: const TextStyle(
               color: Color(0xFFE85A43),
               fontSize: 38,
@@ -2955,8 +3007,8 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
             ),
           ),
           const SizedBox(height: 10),
-          Text(
-            question.word.writing,
+          _AutoSizingSingleLineTypingText(
+            text: question.word.writing,
             style: const TextStyle(
               color: Color(0xFF26C15D),
               fontSize: 32,
@@ -2969,8 +3021,9 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
     } else {
       answerDisplay = Align(
         alignment: Alignment.centerLeft,
-        child: Text(
-          visibleInput,
+        child: _AutoSizingSingleLineTypingText(
+          text: visibleInput,
+          textKey: const ValueKey('typing-composing-text'),
           style: TextStyle(
             color: isCorrect ? const Color(0xFF26C15D) : AppColors.textPrimary,
             fontSize: 42,
@@ -3005,17 +3058,8 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    Text(
-                      question.word.translation,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(
-                        color: AppColors.textPrimary,
-                        fontSize: 34,
-                        height: 1,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: -1.6,
-                      ),
+                    _AutoSizingTypingTranslation(
+                      text: question.word.translation,
                     ),
                     const SizedBox(height: 10),
                     Text(
@@ -3210,6 +3254,111 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
           ),
         ],
       ],
+    );
+  }
+}
+
+class _AutoSizingTypingTranslation extends StatelessWidget {
+  const _AutoSizingTypingTranslation({required this.text});
+
+  static const _maximumFontSize = 34.0;
+  static const _minimumFontSize = 16.0;
+  static const _style = TextStyle(
+    color: AppColors.textPrimary,
+    fontSize: _maximumFontSize,
+    height: 1,
+    fontWeight: FontWeight.w800,
+    letterSpacing: -1.6,
+  );
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        var fontSize = _maximumFontSize;
+        var fitsInTwoLines = false;
+        while (fontSize >= _minimumFontSize) {
+          final painter = TextPainter(
+            text: TextSpan(
+              text: text,
+              style: _style.copyWith(fontSize: fontSize),
+            ),
+            maxLines: 2,
+            textDirection: Directionality.of(context),
+            textScaler: MediaQuery.textScalerOf(context),
+            locale: Localizations.maybeLocaleOf(context),
+          )..layout(maxWidth: constraints.maxWidth);
+          if (!painter.didExceedMaxLines) {
+            fitsInTwoLines = true;
+            break;
+          }
+          fontSize -= 1;
+        }
+
+        final resolvedFontSize = fontSize.clamp(
+          _minimumFontSize,
+          _maximumFontSize,
+        );
+        return Text(
+          text,
+          key: const ValueKey('typing-translation'),
+          maxLines: fitsInTwoLines ? 2 : null,
+          softWrap: true,
+          overflow: TextOverflow.visible,
+          style: _style.copyWith(fontSize: resolvedFontSize),
+        );
+      },
+    );
+  }
+}
+
+class _AutoSizingSingleLineTypingText extends StatelessWidget {
+  const _AutoSizingSingleLineTypingText({
+    required this.text,
+    required this.style,
+    this.textKey,
+  });
+
+  static const _minimumFontSize = 10.0;
+
+  final String text;
+  final TextStyle style;
+  final Key? textKey;
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final maximumFontSize = style.fontSize ?? 42;
+        var fontSize = maximumFontSize;
+        while (fontSize > _minimumFontSize) {
+          final painter = TextPainter(
+            text: TextSpan(
+              text: text,
+              style: style.copyWith(fontSize: fontSize),
+            ),
+            maxLines: 1,
+            textDirection: Directionality.of(context),
+            textScaler: MediaQuery.textScalerOf(context),
+            locale: Localizations.maybeLocaleOf(context),
+          )..layout(maxWidth: constraints.maxWidth);
+          if (!painter.didExceedMaxLines) break;
+          fontSize -= 1;
+        }
+
+        return Text(
+          text,
+          key: textKey,
+          maxLines: 1,
+          softWrap: false,
+          overflow: TextOverflow.visible,
+          style: style.copyWith(
+            fontSize: fontSize.clamp(_minimumFontSize, maximumFontSize),
+          ),
+        );
+      },
     );
   }
 }

@@ -154,74 +154,36 @@ class _SetupBackdrop extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Stack(
+      fit: StackFit.expand,
       children: [
-        Container(
-          decoration: const BoxDecoration(
+        const ColoredBox(color: AppColors.background),
+        FractionallySizedBox(
+          alignment: Alignment.topCenter,
+          heightFactor: .48,
+          child: Image.asset(
+            'assets/images/banner_header.png',
+            key: const ValueKey('learning-filter-header-background'),
+            fit: BoxFit.fill,
+            alignment: Alignment.topCenter,
+            filterQuality: FilterQuality.high,
+          ),
+        ),
+        const DecoratedBox(
+          decoration: BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-              stops: [0, .18, .44, 1],
+              stops: [0, .46, .72, 1],
               colors: [
-                Color(0xFF061C42),
-                Color(0xFF0A347F),
-                Color(0xFFEFF4FF),
-                Color(0xFFF7FAFF),
+                Color(0x00000000),
+                Color(0x00F7FAFF),
+                Color(0xB8F7FAFF),
+                AppColors.background,
               ],
             ),
           ),
         ),
-        Positioned(
-          top: -70,
-          left: -90,
-          child: _SetupOrb(
-            color: AppColors.cyan.withValues(alpha: .32),
-            size: 250,
-          ),
-        ),
-        Positioned(
-          top: 95,
-          right: -80,
-          child: _SetupOrb(
-            color: AppColors.primary.withValues(alpha: .28),
-            size: 220,
-          ),
-        ),
-        Positioned(
-          top: 130,
-          right: 72,
-          child: Container(
-            width: 5,
-            height: 5,
-            decoration: const BoxDecoration(
-              shape: BoxShape.circle,
-              color: Color(0x88FFFFFF),
-              boxShadow: [BoxShadow(color: Colors.white, blurRadius: 12)],
-            ),
-          ),
-        ),
       ],
-    );
-  }
-}
-
-class _SetupOrb extends StatelessWidget {
-  const _SetupOrb({required this.color, required this.size});
-
-  final Color color;
-  final double size;
-
-  @override
-  Widget build(BuildContext context) {
-    return ImageFiltered(
-      imageFilter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
-      child: Container(
-        width: size,
-        height: size,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          gradient: RadialGradient(colors: [color, color.withValues(alpha: 0)]),
-        ),
-      ),
     );
   }
 }
@@ -248,44 +210,66 @@ class _SetupHeader extends StatelessWidget {
               Text(
                 'LEARNING FILTERS',
                 style: TextStyle(
-                  color: Color(0xB3FFFFFF),
-                  fontSize: 9,
+                  color: AppColors.primary,
+                  fontSize: 10,
                   fontWeight: FontWeight.w800,
-                  letterSpacing: .8,
+                  letterSpacing: 1.4,
                 ),
               ),
               SizedBox(height: 4),
-              Text(
-                'Cá nhân hóa lộ trình',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22,
-                  height: 1,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: -.7,
+              FittedBox(
+                alignment: Alignment.centerLeft,
+                fit: BoxFit.scaleDown,
+                child: Text(
+                  'Cá nhân hóa lộ trình',
+                  maxLines: 1,
+                  style: TextStyle(
+                    color: AppColors.textPrimary,
+                    fontSize: 23,
+                    height: 1,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: -.7,
+                  ),
                 ),
               ),
             ],
           ),
         ),
-        Container(
-          height: 34,
-          padding: const EdgeInsets.symmetric(horizontal: 11),
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            color: const Color(0x2EFFFFFF),
-            borderRadius: BorderRadius.circular(99),
-            border: Border.all(color: const Color(0x3DFFFFFF)),
-          ),
-          child: Text(
-            'BỘ LỌC HỌC',
-            style: const TextStyle(
-              color: Colors.white,
-              fontSize: 9,
-              fontWeight: FontWeight.w800,
-            ),
-          ),
-        ),
+        // const SizedBox(width: 10),
+        // Container(
+        //   key: const Key('learning-filter-header-button'),
+        //   height: 38,
+        //   padding: const EdgeInsets.symmetric(horizontal: 12),
+        //   alignment: Alignment.center,
+        //   decoration: BoxDecoration(
+        //     color: Colors.white.withValues(alpha: .5),
+        //     borderRadius: BorderRadius.circular(99),
+        //     border: Border.all(color: const Color(0xFF2A7DF4), width: 1.1),
+        //     boxShadow: const [
+        //       BoxShadow(
+        //         color: Color(0x142A7DF4),
+        //         blurRadius: 12,
+        //         offset: Offset(0, 4),
+        //       ),
+        //     ],
+        //   ),
+        //   child: const Row(
+        //     mainAxisSize: MainAxisSize.min,
+        //     children: [
+        //       Icon(Icons.tune_rounded, color: Color(0xFF2A7DF4), size: 16),
+        //       SizedBox(width: 7),
+        //       Text(
+        //         'BỘ LỌC HỌC',
+        //         style: TextStyle(
+        //           color: Color(0xFF2475E6),
+        //           fontSize: 9,
+        //           fontWeight: FontWeight.w800,
+        //           letterSpacing: .15,
+        //         ),
+        //       ),
+        //     ],
+        //   ),
+        // ),
       ],
     );
   }
@@ -311,17 +295,24 @@ class _GlassIconButton extends StatelessWidget {
         child: BackdropFilter(
           filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
           child: Container(
-            width: 42,
-            height: 42,
+            width: 44,
+            height: 44,
             decoration: BoxDecoration(
-              color: const Color(0x2EFFFFFF),
+              color: Colors.white.withValues(alpha: .86),
               borderRadius: BorderRadius.circular(15),
-              border: Border.all(color: const Color(0x3DFFFFFF)),
+              border: Border.all(color: Colors.white),
+              boxShadow: const [
+                BoxShadow(
+                  color: Color(0x1F2E72B8),
+                  blurRadius: 14,
+                  offset: Offset(0, 5),
+                ),
+              ],
             ),
             child: Icon(
               icon,
-              color: enabled ? Colors.white : const Color(0x66FFFFFF),
-              size: 19,
+              color: enabled ? AppColors.primary : const Color(0x669AA8BB),
+              size: 21,
             ),
           ),
         ),
@@ -341,9 +332,9 @@ class _SetupTabs extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(5),
       decoration: BoxDecoration(
-        color: const Color(0xCFFFFFFF),
+        color: const Color(0xEFFFFFFF),
         borderRadius: BorderRadius.circular(27),
-        border: Border.all(color: const Color(0xBFFFFFFF)),
+        border: Border.all(color: Colors.white),
         boxShadow: const [
           BoxShadow(
             color: Color(0x14163873),
@@ -394,15 +385,17 @@ class _SetupTab extends StatelessWidget {
             borderRadius: BorderRadius.circular(22),
             gradient: selected
                 ? const LinearGradient(
-                    colors: [AppColors.primaryDark, AppColors.primary],
+                    colors: [Color(0xFF246DEB), Color(0xFF3A98FF)],
+                    begin: Alignment.topLeft,
+                    end: Alignment.bottomRight,
                   )
                 : null,
             boxShadow: selected
                 ? const [
                     BoxShadow(
-                      color: Color(0x301558FF),
-                      blurRadius: 13,
-                      offset: Offset(0, 5),
+                      color: Color(0x3D1558FF),
+                      blurRadius: 14,
+                      offset: Offset(0, 6),
                     ),
                   ]
                 : null,
@@ -410,8 +403,8 @@ class _SetupTab extends StatelessWidget {
           child: Text(
             label,
             style: TextStyle(
-              color: selected ? Colors.white : AppColors.textSecondary,
-              fontSize: 11,
+              color: selected ? Colors.white : const Color(0xFF8796AA),
+              fontSize: 13,
               fontWeight: FontWeight.w800,
             ),
           ),
@@ -507,78 +500,73 @@ class _SetupIntro extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.fromLTRB(16, 16, 16, 17),
       decoration: BoxDecoration(
-        color: const Color(0xEFFFFFFF),
-        borderRadius: BorderRadius.circular(27),
-        border: Border.all(color: const Color(0xCCFFFFFF)),
+        color: Colors.white.withValues(alpha: .88),
+        borderRadius: BorderRadius.circular(26),
+        border: Border.all(color: Colors.white.withValues(alpha: .9)),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x1426448B),
-            blurRadius: 22,
-            offset: Offset(0, 9),
+            color: Color(0x1A6C8FB4),
+            blurRadius: 24,
+            offset: Offset(0, 10),
           ),
         ],
       ),
-      child: Column(
+      child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Container(
-                width: 52,
-                height: 52,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: AppColors.surfaceBlue,
-                  borderRadius: BorderRadius.circular(17),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.all(4),
-                  child: SvgPicture.asset(
-                    iconAsset,
-                    key: ValueKey(iconAsset),
-                    fit: BoxFit.contain,
+          Container(
+            width: 62,
+            height: 62,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: AppColors.surfaceBlue,
+              borderRadius: BorderRadius.circular(18),
+            ),
+            child: Padding(
+              padding: const EdgeInsets.all(4),
+              child: SvgPicture.asset(
+                iconAsset,
+                key: ValueKey(iconAsset),
+                fit: BoxFit.contain,
+              ),
+            ),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  label.toUpperCase(),
+                  style: const TextStyle(
+                    color: AppColors.primary,
+                    fontSize: 9,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: 1.1,
                   ),
                 ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      label.toUpperCase(),
-                      style: const TextStyle(
-                        color: AppColors.primary,
-                        fontSize: 9,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: .8,
-                      ),
-                    ),
-                    const SizedBox(height: 5),
-                    Text(
-                      title,
-                      style: const TextStyle(
-                        color: AppColors.textPrimary,
-                        fontSize: 24,
-                        height: 1.08,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: -.8,
-                      ),
-                    ),
-                  ],
+                const SizedBox(height: 6),
+                Text(
+                  title,
+                  style: const TextStyle(
+                    color: AppColors.textPrimary,
+                    fontSize: 24,
+                    height: 1.08,
+                    fontWeight: FontWeight.w700,
+                    letterSpacing: -.8,
+                  ),
                 ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12),
-          Text(
-            description,
-            style: const TextStyle(
-              color: AppColors.textSecondary,
-              fontSize: 11,
-              height: 1.45,
-              fontWeight: FontWeight.w500,
+                // const SizedBox(height: 10),
+                // Text(
+                //   description,
+                //   style: const TextStyle(
+                //     color: AppColors.textSecondary,
+                //     fontSize: 11,
+                //     height: 1.45,
+                //     fontWeight: FontWeight.w500,
+                //   ),
+                // ),
+              ],
             ),
           ),
         ],
@@ -846,8 +834,9 @@ class _TopicsStep extends ConsumerWidget {
                     '${selectedOrders.length} chủ đề đã chọn',
                     style: const TextStyle(
                       color: AppColors.textPrimary,
-                      fontSize: 14,
+                      fontSize: 17,
                       fontWeight: FontWeight.w800,
+                      letterSpacing: -.4,
                     ),
                   ),
                   const SizedBox(height: 2),
@@ -855,7 +844,7 @@ class _TopicsStep extends ConsumerWidget {
                     'Bắt đầu tốt với một nhóm nhỏ trước',
                     style: TextStyle(
                       color: AppColors.textSecondary,
-                      fontSize: 9,
+                      fontSize: 10,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
@@ -863,16 +852,16 @@ class _TopicsStep extends ConsumerWidget {
               ),
             ),
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 7),
+              padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 8),
               decoration: BoxDecoration(
-                color: const Color(0xFFE3EDFF),
+                color: const Color(0xFFE6F0FF),
                 borderRadius: BorderRadius.circular(99),
               ),
               child: const Text(
                 'Khuyên dùng',
                 style: TextStyle(
-                  color: AppColors.primary,
-                  fontSize: 9,
+                  color: Color(0xFF2475E6),
+                  fontSize: 10,
                   fontWeight: FontWeight.w800,
                 ),
               ),
@@ -945,20 +934,25 @@ class _TopicOption extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: AnimatedContainer(
+        key: ValueKey('learning-filter-topic-${topic.order}'),
         duration: const Duration(milliseconds: 180),
-        padding: const EdgeInsets.all(12),
+        padding: const EdgeInsets.all(10),
         decoration: BoxDecoration(
-          color: selected ? const Color(0xFFEAF3FF) : const Color(0xEFFFFFFF),
-          borderRadius: BorderRadius.circular(22),
+          color: selected
+              ? Colors.white.withValues(alpha: .96)
+              : Colors.white.withValues(alpha: .82),
+          borderRadius: BorderRadius.circular(18),
           border: Border.all(
-            color: selected ? AppColors.primary : const Color(0xCFFFFFFF),
-            width: selected ? 1.35 : 1,
+            color: selected ? const Color(0xFF2A7DF4) : const Color(0xFFDCE5F0),
+            width: selected ? 1.5 : 1,
           ),
-          boxShadow: const [
+          boxShadow: [
             BoxShadow(
-              color: Color(0x1426448B),
-              blurRadius: 15,
-              offset: Offset(0, 6),
+              color: selected
+                  ? const Color(0x242A7DF4)
+                  : const Color(0x176C89A8),
+              blurRadius: 16,
+              offset: const Offset(0, 7),
             ),
           ],
         ),
@@ -966,14 +960,14 @@ class _TopicOption extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              width: 47,
-              height: 47,
+              width: 52,
+              height: 52,
               alignment: Alignment.center,
               decoration: BoxDecoration(
                 gradient: LinearGradient(colors: topicGradient(topic)),
                 borderRadius: BorderRadius.circular(15),
               ),
-              child: TopicArtwork(topic: topic, padding: 9),
+              child: TopicArtwork(topic: topic, padding: 8),
             ),
             const SizedBox(width: 10),
             Expanded(
@@ -1000,7 +994,7 @@ class _TopicOption extends StatelessWidget {
                         '${topic.wordCount} từ',
                         style: const TextStyle(
                           color: AppColors.textMuted,
-                          fontSize: 8,
+                          fontSize: 10,
                           fontWeight: FontWeight.w700,
                         ),
                       ),
@@ -1039,19 +1033,35 @@ class _CheckIndicator extends StatelessWidget {
   Widget build(BuildContext context) {
     return AnimatedContainer(
       duration: const Duration(milliseconds: 180),
-      width: 21,
-      height: 21,
+      width: 26,
+      height: 26,
       alignment: Alignment.center,
       decoration: BoxDecoration(
-        color: selected ? AppColors.primary : Colors.transparent,
-        borderRadius: BorderRadius.circular(7),
+        color: selected ? null : Colors.white.withValues(alpha: .4),
+        gradient: selected
+            ? const LinearGradient(
+                colors: [Color(0xFF3A8EFF), Color(0xFF155CFF)],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+              )
+            : null,
+        borderRadius: BorderRadius.circular(8),
         border: Border.all(
-          color: selected ? AppColors.primary : AppColors.textMuted,
+          color: selected ? const Color(0xFF1C69F4) : const Color(0xFFAAB6C5),
           width: 1.5,
         ),
+        boxShadow: selected
+            ? const [
+                BoxShadow(
+                  color: Color(0x33216AF4),
+                  blurRadius: 9,
+                  offset: Offset(0, 4),
+                ),
+              ]
+            : null,
       ),
       child: selected
-          ? const Icon(Icons.check_rounded, color: Colors.white, size: 14)
+          ? const Icon(Icons.check_rounded, color: Colors.white, size: 18)
           : null,
     );
   }
@@ -1101,7 +1111,7 @@ class _SetupBottomBar extends StatelessWidget {
                           '$selectedLevel  •  $selectedTopicCount chủ đề',
                           style: const TextStyle(
                             color: AppColors.textPrimary,
-                            fontSize: 12,
+                            fontSize: 14,
                             fontWeight: FontWeight.w800,
                           ),
                         ),
@@ -1112,7 +1122,7 @@ class _SetupBottomBar extends StatelessWidget {
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: AppColors.textSecondary,
-                            fontSize: 8,
+                            fontSize: 9,
                             fontWeight: FontWeight.w600,
                           ),
                         ),
@@ -1120,25 +1130,63 @@ class _SetupBottomBar extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(width: 12),
-                  SizedBox(
-                    height: 46,
-                    child: ElevatedButton(
-                      onPressed: selectedTopicCount > 0 ? onApply : null,
-                      style: ElevatedButton.styleFrom(
-                        elevation: 0,
-                        padding: const EdgeInsets.symmetric(horizontal: 20),
-                        backgroundColor: AppColors.primary,
-                        disabledBackgroundColor: const Color(0xFFB9C7DC),
-                        foregroundColor: Colors.white,
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(16),
-                        ),
-                        textStyle: const TextStyle(
-                          fontSize: 11,
-                          fontWeight: FontWeight.w800,
-                        ),
+                  Container(
+                    constraints: const BoxConstraints(minWidth: 128),
+                    height: 48,
+                    padding: const EdgeInsets.all(2.5),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(25),
+                      gradient: selectedTopicCount > 0
+                          ? const LinearGradient(
+                              colors: [Color(0xFF9FD2FF), Color(0xFF62A9FF)],
+                              begin: Alignment.topLeft,
+                              end: Alignment.bottomRight,
+                            )
+                          : null,
+                      color: selectedTopicCount > 0
+                          ? null
+                          : const Color(0xFFD2DAE7),
+                      boxShadow: selectedTopicCount > 0
+                          ? const [
+                              BoxShadow(
+                                color: Color(0x3D286BEF),
+                                blurRadius: 15,
+                                offset: Offset(0, 7),
+                              ),
+                            ]
+                          : null,
+                    ),
+                    child: DecoratedBox(
+                      decoration: BoxDecoration(
+                        color: selectedTopicCount > 0
+                            ? null
+                            : const Color(0xFFB9C7DC),
+                        gradient: selectedTopicCount > 0
+                            ? const LinearGradient(
+                                colors: [Color(0xFF4A8CFF), Color(0xFF245CEB)],
+                                begin: Alignment.topLeft,
+                                end: Alignment.bottomRight,
+                              )
+                            : null,
+                        borderRadius: BorderRadius.circular(22),
                       ),
-                      child: const Text('Áp dụng'),
+                      child: TextButton(
+                        key: const Key('learning-filter-apply-button'),
+                        onPressed: selectedTopicCount > 0 ? onApply : null,
+                        style: TextButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(horizontal: 25),
+                          foregroundColor: Colors.white,
+                          disabledForegroundColor: Colors.white70,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(22),
+                          ),
+                          textStyle: const TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                        child: const Text('Áp dụng'),
+                      ),
                     ),
                   ),
                 ],

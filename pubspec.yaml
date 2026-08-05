@@ -83,6 +83,14 @@ flutter:
     - assets/images/splash.png
     - assets/images/leximon-owl.png
     - assets/images/leximon-owl-wave.png
+    - assets/images/banner_header.png
+    - assets/images/bg_word_study.png
+    - assets/images/bg_repetition_practice.png
+    - assets/images/bg_sentence.png
+    - assets/images/card_progress_banner.png
+    - assets/images/owl_daily_home.png
+    - assets/images/tab_personal_active.png
+    - assets/images/tab_personal_inactive.png
     - assets/images/owls/
     - assets/images/onboarding/
     - assets/data/topic_word_params.json
@@ -92,6 +100,24 @@ flutter:
     - assets/svgs/
     - assets/svgs/onboarding/
     - assets/lotties/
+
+  fonts:
+    - family: M PLUS Rounded 1c
+      fonts:
+        - asset: assets/fonts/m_plus_rounded_1c/MPLUSRounded1c-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/m_plus_rounded_1c/MPLUSRounded1c-Light.ttf
+          weight: 300
+        - asset: assets/fonts/m_plus_rounded_1c/MPLUSRounded1c-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/m_plus_rounded_1c/MPLUSRounded1c-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/m_plus_rounded_1c/MPLUSRounded1c-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/m_plus_rounded_1c/MPLUSRounded1c-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/m_plus_rounded_1c/MPLUSRounded1c-Black.ttf
+          weight: 900
 
   # To add assets to your application, add an assets section, like this:
   # assets:

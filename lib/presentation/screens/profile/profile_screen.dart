@@ -126,7 +126,7 @@ class _ProfileHeader extends StatelessWidget {
               Text(
                 'PERSONAL HUB',
                 style: TextStyle(
-                  color: Colors.white70,
+                  color: Color(0xFF52739A),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1,
@@ -136,7 +136,7 @@ class _ProfileHeader extends StatelessWidget {
               Text(
                 'Tôi',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: AppColors.primaryDark,
                   fontSize: 31,
                   height: 1,
                   fontWeight: FontWeight.w800,
@@ -147,7 +147,7 @@ class _ProfileHeader extends StatelessWidget {
               Text(
                 'Quản lý hồ sơ, thành tích học tập và các thiết lập cá nhân.',
                 style: TextStyle(
-                  color: Color(0xFFDCEBFF),
+                  color: AppColors.textSecondary,
                   fontSize: 11,
                   height: 1.4,
                 ),
@@ -164,13 +164,20 @@ class _ProfileHeader extends StatelessWidget {
               width: 42,
               height: 42,
               decoration: BoxDecoration(
-                color: Colors.white.withValues(alpha: .13),
+                color: Colors.white.withValues(alpha: .72),
                 borderRadius: BorderRadius.circular(15),
-                border: Border.all(color: Colors.white24),
+                border: Border.all(color: Colors.white.withValues(alpha: .9)),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0x142A70B8),
+                    blurRadius: 16,
+                    offset: Offset(0, 7),
+                  ),
+                ],
               ),
               child: const Icon(
                 Icons.edit_outlined,
-                color: Colors.white,
+                color: AppColors.primary,
                 size: 19,
               ),
             ),

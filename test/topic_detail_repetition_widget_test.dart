@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:leximon/core/constants/app_colors.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/practice_exercise.dart';
 import 'package:leximon/data/models/topic.dart';
@@ -19,6 +20,35 @@ void main() {
     translated: 'Du lịch',
     words: [],
   );
+
+  testWidgets('uses the light banner and navy-blue topic detail header', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      _testApp(topic: topic, repetitionData: _repetitionData(0)),
+    );
+    await tester.pumpAndSettle();
+
+    final background = tester.widget<Image>(
+      find.byKey(const ValueKey('topic-detail-header-background')),
+    );
+    expect(
+      (background.image as AssetImage).assetName,
+      'assets/images/banner_header.png',
+    );
+    expect(background.fit, BoxFit.cover);
+
+    final title = tester.widget<Text>(find.text('Chi tiết chủ đề'));
+    expect(title.style!.color, AppColors.textPrimary);
+    expect(
+      tester.widget<Icon>(find.byIcon(Icons.arrow_back_rounded)).color,
+      AppColors.primary,
+    );
+    expect(
+      tester.widget<Icon>(find.byIcon(Icons.bookmark_border_rounded)).color,
+      AppColors.primary,
+    );
+  });
 
   testWidgets('locks topic repetition below eight learned words', (
     tester,

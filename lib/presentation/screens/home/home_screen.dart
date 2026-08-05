@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../data/local/app_database.dart';
@@ -69,7 +70,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
       child: Column(
         children: [
           const Padding(
-            padding: EdgeInsets.fromLTRB(18, 12, 18, 16),
+            padding: EdgeInsets.fromLTRB(18, 12, 18, 0),
             child: _LearningHeader(),
           ),
           Expanded(
@@ -77,7 +78,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
               slivers: [
                 SliverPadding(
                   padding: const EdgeInsets.fromLTRB(18, 0, 18, 0),
-                  sliver: SliverToBoxAdapter(child: const _DailyCard()),
+                  sliver: SliverToBoxAdapter(
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 16),
+                      child: const _DailyCard(),
+                    ),
+                  ),
                 ),
                 SliverPadding(
                   padding: const EdgeInsets.fromLTRB(18, 24, 18, 0),
@@ -183,7 +189,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                                         side: BorderSide.none,
                                         textStyle: const TextStyle(
                                           inherit: false,
-                                          fontFamily: 'Be Vietnam Pro',
+                                          fontFamily: 'M PLUS Rounded 1c',
                                           fontSize: 10,
                                           fontWeight: FontWeight.w800,
                                         ),
@@ -197,6 +203,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                                   ] else ...[
                                     const SizedBox(height: 12),
                                     OutlinedButton.icon(
+                                      key: const Key(
+                                        'setup-more-topics-button',
+                                      ),
                                       onPressed: () {
                                         ref
                                                 .read(
@@ -215,27 +224,33 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                                       },
                                       icon: const Icon(
                                         Icons.add_rounded,
-                                        size: 18,
+                                        size: 20,
                                       ),
                                       label: const Text('Thiết lập thêm topic'),
                                       style: OutlinedButton.styleFrom(
                                         minimumSize: const Size(
                                           double.infinity,
-                                          45,
+                                          40,
                                         ),
                                         padding: EdgeInsets.zero,
-                                        foregroundColor: AppColors.primary,
-                                        backgroundColor: AppColors.surfaceBlue,
-                                        side: BorderSide.none,
+                                        foregroundColor: const Color(
+                                          0xFF1769E8,
+                                        ),
+                                        backgroundColor: const Color(
+                                          0xFFF0F6FF,
+                                        ),
+                                        side: const BorderSide(
+                                          color: Color(0xFFCFE1FA),
+                                        ),
                                         textStyle: const TextStyle(
                                           inherit: false,
-                                          fontFamily: 'Be Vietnam Pro',
-                                          fontSize: 10,
-                                          fontWeight: FontWeight.w800,
+                                          fontFamily: 'M PLUS Rounded 1c',
+                                          fontSize: 11,
+                                          fontWeight: FontWeight.w700,
                                         ),
                                         shape: RoundedRectangleBorder(
                                           borderRadius: BorderRadius.circular(
-                                            15,
+                                            16,
                                           ),
                                         ),
                                       ),
@@ -299,7 +314,7 @@ class _LearningHeader extends StatelessWidget {
               Text(
                 'XIN CHÀO, HỌC GIẢ!',
                 style: TextStyle(
-                  color: Color(0xB3FFFFFF),
+                  color: Color(0xFF3D628D),
                   fontSize: 9,
                   fontWeight: FontWeight.w700,
                   letterSpacing: .72,
@@ -309,7 +324,7 @@ class _LearningHeader extends StatelessWidget {
               Text(
                 'Leximon',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: AppColors.primaryDark,
                   fontSize: 23,
                   height: 1,
                   fontWeight: FontWeight.w700,
@@ -408,46 +423,53 @@ class _NotificationButton extends StatelessWidget {
     return Semantics(
       button: true,
       label: 'Thông báo',
-      child: GestureDetector(
-        onTap: () {},
+      child: Container(
+        width: 40,
+        height: 40,
+        decoration: const BoxDecoration(
+          borderRadius: BorderRadius.all(Radius.circular(16)),
+          boxShadow: [
+            BoxShadow(
+              color: Color(0x1A3478B9),
+              blurRadius: 18,
+              offset: Offset(0, 8),
+            ),
+          ],
+        ),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(15),
+          borderRadius: BorderRadius.circular(12),
           child: BackdropFilter(
-            filter: ImageFilter.blur(sigmaX: 12, sigmaY: 12),
-            child: Container(
-              width: 43,
-              height: 43,
-              decoration: BoxDecoration(
-                color: const Color(0x1FFFFFFF),
-                borderRadius: BorderRadius.circular(15),
-                border: Border.all(color: const Color(0x2EFFFFFF)),
-              ),
-              child: Stack(
-                children: [
-                  const Center(
-                    child: Icon(
-                      Icons.notifications_none_rounded,
-                      color: Colors.white,
-                      size: 20,
+            filter: ImageFilter.blur(sigmaX: 14, sigmaY: 14),
+            child: Material(
+              color: Colors.white.withValues(alpha: .76),
+              child: InkWell(
+                key: const ValueKey('home-notification-button'),
+                onTap: () {},
+                child: Stack(
+                  children: [
+                    Center(
+                      child: SvgPicture.asset(
+                        'assets/svgs/bell_home.svg',
+                        key: const ValueKey('home-notification-icon'),
+                        width: 19,
+                        height: 19,
+                      ),
                     ),
-                  ),
-                  Positioned(
-                    top: 8,
-                    right: 8,
-                    child: Container(
-                      width: 8,
-                      height: 8,
-                      decoration: BoxDecoration(
-                        color: const Color(0xFFFFD43B),
-                        shape: BoxShape.circle,
-                        border: Border.all(
-                          color: const Color(0xFF173B82),
-                          width: 2,
+                    Positioned(
+                      top: 8,
+                      right: 8,
+                      child: Container(
+                        width: 7,
+                        height: 7,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFFF3B30),
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.white, width: 1),
                         ),
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ),
@@ -533,83 +555,37 @@ class _DailyCardContent extends ConsumerWidget {
         : 'Tuyệt vời! Hãy học thêm 4 từ nữa.';
 
     return Container(
-      padding: const EdgeInsets.fromLTRB(15, 15, 15, 14),
+      key: const Key('home-daily-card'),
+      padding: const EdgeInsets.fromLTRB(16, 15, 16, 15),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(27),
+        borderRadius: BorderRadius.circular(30),
         gradient: const LinearGradient(
-          colors: [Colors.white, Color(0xFFEAF3FF)],
+          colors: [Color(0xF9FFFFFF), Color(0xF2F5FAFF)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
+        border: Border.all(color: Colors.white.withValues(alpha: .86)),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x2426448B),
-            blurRadius: 22,
-            offset: Offset(0, 10),
+            color: Color(0x1F26448B),
+            blurRadius: 26,
+            offset: Offset(0, 12),
           ),
         ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 6),
-                decoration: BoxDecoration(
-                  color: snapshot.isComplete
-                      ? const Color(0xFFDDF8EE)
-                      : const Color(0xFFFFF3BF),
-                  borderRadius: BorderRadius.circular(99),
-                ),
-                child: Text(
-                  snapshot.isComplete
-                      ? '✓  Đã hoàn thành'
-                      : '🔥  NHIỆM VỤ HÔM NAY',
-                  style: TextStyle(
-                    color: snapshot.isComplete
-                        ? const Color(0xFF137E68)
-                        : const Color(0xFF8B5B00),
-                    fontSize: 9,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-              ),
-              const Spacer(),
-              Text(
-                '$completedTasks / ${snapshot.tasks.length}',
-                style: const TextStyle(
-                  color: AppColors.textSecondary,
-                  fontSize: 10,
-                  fontWeight: FontWeight.w800,
-                ),
-              ),
-            ],
+          _DailyCardHero(
+            completedTasks: completedTasks,
+            taskCount: snapshot.tasks.length,
+            complete: snapshot.isComplete,
+            title: title,
+            description: description,
           ),
-          const SizedBox(height: 12),
-          Text(
-            title,
-            style: const TextStyle(
-              color: AppColors.textPrimary,
-              fontSize: 24,
-              height: 1.05,
-              fontWeight: FontWeight.w700,
-              letterSpacing: -1.1,
-            ),
-          ),
-          const SizedBox(height: 5),
-          Text(
-            description,
-            style: const TextStyle(
-              color: AppColors.textSecondary,
-              fontSize: 10,
-              height: 1.4,
-            ),
-          ),
-          const SizedBox(height: 13),
           if (showFirstTrainingGreeting) ...[
             const _FirstTrainingGreeting(),
-            const SizedBox(height: 10),
+            const SizedBox(height: 11),
           ],
           ...snapshot.tasks.indexed.map(
             (entry) => Padding(
@@ -767,6 +743,119 @@ class _DailyCardContent extends ConsumerWidget {
       case DailyTaskType.sentences:
         throw StateError('Sentence tasks use SentenceTrainingScreen.');
     }
+  }
+}
+
+class _DailyCardHero extends StatelessWidget {
+  const _DailyCardHero({
+    required this.completedTasks,
+    required this.taskCount,
+    required this.complete,
+    required this.title,
+    required this.description,
+  });
+
+  final int completedTasks;
+  final int taskCount;
+  final bool complete;
+  final String title;
+  final String description;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      height: 125,
+      child: Stack(
+        clipBehavior: Clip.none,
+        children: [
+          Positioned(
+            top: -30,
+            right: -28,
+            width: 172,
+            height: 160,
+            child: IgnorePointer(
+              child: Image.asset(
+                'assets/images/owl_daily_home.png',
+                key: const ValueKey('home-daily-owl'),
+                fit: BoxFit.contain,
+                alignment: Alignment.bottomRight,
+                filterQuality: FilterQuality.high,
+                cacheWidth: 820,
+              ),
+            ),
+          ),
+          Positioned(
+            top: 0,
+            left: 0,
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
+              decoration: BoxDecoration(
+                color: complete
+                    ? const Color(0xFFDDF8EE)
+                    : const Color(0xFFFFF3C7),
+                borderRadius: BorderRadius.circular(99),
+              ),
+              child: Text(
+                complete ? '✓  ĐÃ HOÀN THÀNH' : '🔥  NHIỆM VỤ HÔM NAY',
+                style: TextStyle(
+                  color: complete
+                      ? const Color(0xFF137E68)
+                      : const Color(0xFF986100),
+                  fontSize: 9.5,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: .25,
+                ),
+              ),
+            ),
+          ),
+          Positioned(
+            top: 40,
+            left: 0,
+            width: 194,
+            child: Text(
+              title,
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(
+                color: AppColors.textPrimary,
+                fontSize: 22,
+                height: 1.08,
+                fontWeight: FontWeight.w700,
+                letterSpacing: -.8,
+              ),
+            ),
+          ),
+          Positioned(
+            left: 0,
+            bottom: 9,
+            width: 208,
+            child: Text(
+              description,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(
+                color: AppColors.textSecondary,
+                fontSize: 10.5,
+                height: 1.4,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ),
+          Positioned(
+            top: -8,
+            right: 0,
+            child: Text(
+              '$completedTasks / $taskCount',
+              style: const TextStyle(
+                color: AppColors.textSecondary,
+                fontSize: 11,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
 
@@ -1101,8 +1190,8 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
           duration: const Duration(milliseconds: 180),
           decoration: BoxDecoration(
             color: colors.background,
-            borderRadius: BorderRadius.circular(17),
-            border: Border.all(color: colors.border),
+            borderRadius: BorderRadius.circular(22),
+            border: Border.all(color: colors.border, width: 1.15),
             boxShadow: widget.isSuggested && !done
                 ? [
                     BoxShadow(
@@ -1117,29 +1206,29 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
             type: MaterialType.transparency,
             child: InkWell(
               onTap: widget.onTap,
-              borderRadius: BorderRadius.circular(17),
+              borderRadius: BorderRadius.circular(22),
               child: Padding(
                 padding: const EdgeInsets.symmetric(
-                  horizontal: 10,
-                  vertical: 9,
+                  horizontal: 12,
+                  vertical: 10,
                 ),
                 child: Row(
                   children: [
                     Container(
-                      width: 38,
-                      height: 38,
+                      width: 40,
+                      height: 40,
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         color: colors.iconBackground,
-                        borderRadius: BorderRadius.circular(13),
+                        shape: BoxShape.circle,
                       ),
                       child: Icon(
                         done ? Icons.check_rounded : _dailyTaskIcon(task.type),
                         color: colors.icon,
-                        size: 20,
+                        size: 22,
                       ),
                     ),
-                    const SizedBox(width: 10),
+                    const SizedBox(width: 13),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1148,8 +1237,8 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
                             title,
                             style: TextStyle(
                               color: colors.title,
-                              fontSize: 12,
-                              fontWeight: FontWeight.w800,
+                              fontSize: 14,
+                              fontWeight: FontWeight.w700,
                             ),
                           ),
                           if (!done) ...[
@@ -1158,8 +1247,8 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
                               '${task.completed} / ${task.count} từ',
                               style: const TextStyle(
                                 color: AppColors.textSecondary,
-                                fontSize: 10,
-                                fontWeight: FontWeight.w700,
+                                fontSize: 11,
+                                fontWeight: FontWeight.w500,
                               ),
                             ),
                           ],
@@ -1170,7 +1259,7 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
                       Icon(
                         Icons.chevron_right_rounded,
                         color: colors.icon,
-                        size: 19,
+                        size: 24,
                       ),
                   ],
                 ),
@@ -1750,7 +1839,7 @@ class _EmptyActionCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(14),
+      padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(24),
         gradient: primary
@@ -1775,8 +1864,8 @@ class _EmptyActionCard extends StatelessWidget {
       child: Row(
         children: [
           Container(
-            width: 48,
-            height: 48,
+            width: 42,
+            height: 42,
             alignment: Alignment.center,
             decoration: BoxDecoration(
               color: primary
@@ -1787,7 +1876,7 @@ class _EmptyActionCard extends StatelessWidget {
             child: Icon(
               icon,
               color: primary ? Colors.white : const Color(0xFF9AA8BB),
-              size: 22,
+              size: 20,
             ),
           ),
           const SizedBox(width: 10),

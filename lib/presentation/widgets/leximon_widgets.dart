@@ -356,130 +356,179 @@ class TopicCard extends StatelessWidget {
       borderRadius: BorderRadius.circular(18),
       side: const BorderSide(color: Color(0xFFDCE6F2)),
     );
-    return Material(
-      color: Colors.white,
-      elevation: 3,
-      shadowColor: const Color(0x3327477F),
-      shape: cardShape,
-      clipBehavior: Clip.antiAlias,
-      child: InkWell(
-        customBorder: cardShape,
-        onTap: onTap,
-        child: Padding(
-          padding: const EdgeInsets.all(10),
-          child: Stack(
-            children: [
-              Row(
-                children: [
-                  Container(
-                    width: 54,
-                    height: 54,
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(17),
-                      gradient: LinearGradient(colors: colors),
+    return Container(
+      key: ValueKey('topic-card-shadow-${topic.id}'),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(18),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x247A96B8),
+            blurRadius: 18,
+            offset: Offset(0, 8),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.white,
+        elevation: 0,
+        shape: cardShape,
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          customBorder: cardShape,
+          onTap: onTap,
+          child: Padding(
+            padding: const EdgeInsets.all(10),
+            child: Stack(
+              clipBehavior: Clip.none,
+              children: [
+                Row(
+                  children: [
+                    Container(
+                      key: ValueKey('topic-artwork-${topic.id}'),
+                      width: 58,
+                      height: 58,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(16),
+                        gradient: LinearGradient(colors: colors),
+                      ),
+                      child: TopicArtwork(topic: topic),
                     ),
-                    child: Stack(
-                      children: [
-                        Positioned.fill(child: TopicArtwork(topic: topic)),
-                        if (learned > 0)
-                          Positioned(
-                            top: 4,
-                            right: 4,
-                            child: Container(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 4,
-                                vertical: 2,
-                              ),
-                              decoration: BoxDecoration(
-                                color: const Color(0x66051C42),
-                                borderRadius: BorderRadius.circular(99),
-                              ),
-                              child: Text(
-                                '${(progressValue * 100).round()}%',
-                                style: const TextStyle(
-                                  inherit: false,
-                                  color: Colors.white,
-                                  fontSize: 7,
-                                  height: 1,
-                                  fontWeight: FontWeight.w800,
-                                ),
-                              ),
-                            ),
-                          ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.only(right: 10),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Row(
-                            children: [
-                              Expanded(
-                                child: Text(
-                                  topic.translated,
-                                  maxLines: 3,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: const TextStyle(
-                                    fontSize: 11,
-                                    height: 1.1,
-                                    fontWeight: FontWeight.w700,
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.only(right: 10),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Row(
+                              children: [
+                                Expanded(
+                                  child: Text(
+                                    topic.translated,
+                                    maxLines: 3,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: const TextStyle(
+                                      fontSize: 11,
+                                      height: 1.1,
+                                      fontWeight: FontWeight.w700,
+                                    ),
                                   ),
                                 ),
-                              ),
-                            ],
-                          ),
-                          const SizedBox(height: 3),
-                          Text(
-                            '$learned / ${topic.wordCount} từ',
-                            style: const TextStyle(
-                              fontSize: 8,
-                              height: 1,
-                              color: AppColors.textSecondary,
-                              fontWeight: FontWeight.w600,
+                              ],
                             ),
+                            const SizedBox(height: 3),
+                            Text(
+                              '$learned / ${topic.wordCount} từ',
+                              style: const TextStyle(
+                                fontSize: 8,
+                                height: 1,
+                                color: AppColors.textSecondary,
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                            const SizedBox(height: 5),
+                            _TopicProgressLine(value: progressValue),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                if (learned > 0)
+                  Positioned(
+                    top: -2,
+                    left: 30,
+                    child: Container(
+                      key: ValueKey('topic-progress-badge-${topic.id}'),
+                      constraints: const BoxConstraints(
+                        minWidth: 26,
+                        minHeight: 17,
+                      ),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 5,
+                        vertical: 3,
+                      ),
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          begin: Alignment.topCenter,
+                          end: Alignment.bottomCenter,
+                          colors: _topicProgressBadgeColors(progressValue),
+                        ),
+                        borderRadius: BorderRadius.circular(99),
+                        border: Border.all(color: Colors.white, width: 1.2),
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Color(0x24071A3D),
+                            blurRadius: 4,
+                            offset: Offset(0, 2),
                           ),
-                          const SizedBox(height: 5),
-                          _TopicProgressLine(value: progressValue),
                         ],
+                      ),
+                      alignment: Alignment.center,
+                      child: Text(
+                        '${(progressValue * 100).round()}%',
+                        style: const TextStyle(
+                          inherit: false,
+                          fontFamily: 'M PLUS Rounded 1c',
+                          color: Colors.white,
+                          fontSize: 8,
+                          height: 1,
+                          fontWeight: FontWeight.w800,
+                        ),
                       ),
                     ),
                   ),
-                ],
-              ),
-              Positioned(
-                top: 0,
-                right: 0,
-                child: Container(
-                  width: 6,
-                  height: 6,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: progressValue > 0
-                        ? AppColors.green
-                        : const Color(0xFFD9E0EB),
-                    boxShadow: progressValue > 0
-                        ? const [
-                            BoxShadow(
-                              color: Color(0x1F23C888),
-                              blurRadius: 0,
-                              spreadRadius: 3,
-                            ),
-                          ]
-                        : null,
+                Positioned(
+                  top: 0,
+                  right: 0,
+                  child: Container(
+                    width: 6,
+                    height: 6,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: progressValue > 0
+                          ? AppColors.green
+                          : const Color(0xFFD9E0EB),
+                      boxShadow: progressValue > 0
+                          ? const [
+                              BoxShadow(
+                                color: Color(0x1F23C888),
+                                blurRadius: 0,
+                                spreadRadius: 3,
+                              ),
+                            ]
+                          : null,
+                    ),
                   ),
                 ),
-              ),
-            ],
+              ],
+            ),
           ),
         ),
       ),
     );
   }
+}
+
+List<Color> _topicProgressBadgeColors(double progress) {
+  final percentage = (progress.clamp(0, 1) * 100).round();
+  if (percentage <= 3) {
+    return const [Color(0xFFEF5B63), Color(0xFFD83B45)];
+  }
+  if (percentage <= 24) {
+    return const [Color(0xFFE08A30), Color(0xFFBE6E20)];
+  }
+  if (percentage <= 49) {
+    return const [Color(0xFFF2BC32), Color(0xFFD79709)];
+  }
+  if (percentage <= 74) {
+    return const [Color(0xFF4A96F5), Color(0xFF236BCF)];
+  }
+  if (percentage < 100) {
+    return const [Color(0xFF2BBCA0), Color(0xFF128A75)];
+  }
+  return const [Color(0xFF39C875), Color(0xFF15964D)];
 }
 
 class _TopicProgressLine extends StatelessWidget {

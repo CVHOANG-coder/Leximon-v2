@@ -402,7 +402,7 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
         if (!didPop) unawaited(_requestClose());
       },
       child: Scaffold(
-        backgroundColor: AppColors.primaryDark,
+        backgroundColor: AppColors.background,
         body: Stack(
           children: [
             const Positioned.fill(child: _RepetitionBackdrop()),
@@ -411,15 +411,15 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
               child: Column(
                 children: [
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(18, 10, 18, 0),
+                    padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: _RepetitionTopBar(
                       title: widget.title,
                       onClose: _requestClose,
                     ),
                   ),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 14),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 18),
+                    padding: const EdgeInsets.symmetric(horizontal: 12),
                     child: _RepetitionStats(
                       secondsLeft: _secondsLeft,
                       timerProgress: _timerProgress,
@@ -435,31 +435,41 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
                           _isRetry[_questionIndex],
                     ),
                   ),
-                  const SizedBox(height: 16),
+                  const SizedBox(height: 14),
                   Expanded(
-                    child: Container(
-                      width: double.infinity,
-                      decoration: const BoxDecoration(
-                        color: AppColors.background,
-                        borderRadius: BorderRadius.vertical(
-                          top: Radius.circular(34),
-                        ),
-                      ),
-                      child: SingleChildScrollView(
-                        physics: const BouncingScrollPhysics(),
-                        padding: EdgeInsets.fromLTRB(
-                          18,
-                          24,
-                          18,
-                          math.max(
-                            28,
-                            MediaQuery.paddingOf(context).bottom + 18,
+                    child: Stack(
+                      children: [
+                        Positioned.fill(
+                          child: SingleChildScrollView(
+                            physics: const BouncingScrollPhysics(),
+                            padding: EdgeInsets.fromLTRB(
+                              12,
+                              0,
+                              12,
+                              _phase == _RepetitionPhase.intro
+                                  ? 94
+                                  : math.max(
+                                      28,
+                                      MediaQuery.paddingOf(context).bottom + 18,
+                                    ),
+                            ),
+                            child: _buildPhaseContent(
+                              questionProgress: questionProgress,
+                            ),
                           ),
                         ),
-                        child: _buildPhaseContent(
-                          questionProgress: questionProgress,
-                        ),
-                      ),
+                        if (_phase == _RepetitionPhase.intro)
+                          Positioned(
+                            left: 12,
+                            right: 12,
+                            bottom: 16,
+                            child: _RepetitionStartButton(
+                              onPressed: _chunks.isEmpty
+                                  ? null
+                                  : _startCountdown,
+                            ),
+                          ),
+                      ],
                     ),
                   ),
                 ],
@@ -481,7 +491,6 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
           previewWords: _chunks.isEmpty
               ? const []
               : _chunks.first.take(4).toList(growable: false),
-          onStart: _chunks.isEmpty ? null : _startCountdown,
         );
       case _RepetitionPhase.countdown:
         return _CountdownContent(
@@ -524,42 +533,12 @@ class _RepetitionBackdrop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      children: [
-        const DecoratedBox(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color(0xFF091E58), Color(0xFF0D2F86), Color(0xFF215CF0)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-          ),
-        ),
-        Positioned(
-          top: -80,
-          right: -40,
-          child: Container(
-            width: 220,
-            height: 220,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Colors.white.withValues(alpha: .1),
-            ),
-          ),
-        ),
-        Positioned(
-          top: 200,
-          left: -100,
-          child: Container(
-            width: 240,
-            height: 240,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: AppColors.cyan.withValues(alpha: .12),
-            ),
-          ),
-        ),
-      ],
+    return Image.asset(
+      'assets/images/bg_repetition_practice.png',
+      key: const ValueKey('repetition-practice-background'),
+      fit: BoxFit.cover,
+      alignment: Alignment.topCenter,
+      filterQuality: FilterQuality.high,
     );
   }
 }
@@ -572,36 +551,53 @@ class _RepetitionTopBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      children: [
-        _GlassButton(icon: Icons.close_rounded, onPressed: onClose),
-        Expanded(
-          child: Column(
-            children: [
-              const Text(
-                'SELECTED REVIEW',
-                style: TextStyle(
-                  color: Color(0xB8FFFFFF),
-                  fontSize: 10,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: 1.4,
-                ),
-              ),
-              const SizedBox(height: 4),
-              Text(
-                title,
-                style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 25,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: -.8,
-                ),
-              ),
-            ],
+    return SizedBox(
+      height: 72,
+      child: Stack(
+        children: [
+          Align(
+            alignment: Alignment.topLeft,
+            child: _GlassButton(icon: Icons.close_rounded, onPressed: onClose),
           ),
-        ),
-        const SizedBox(width: 44),
-      ],
+          Align(
+            alignment: Alignment.topCenter,
+            child: Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  const Text(
+                    'SELECTED REVIEW',
+                    style: TextStyle(
+                      color: Color(0xFF2A79D8),
+                      fontSize: 10,
+                      fontWeight: FontWeight.w800,
+                      letterSpacing: 1.8,
+                    ),
+                  ),
+                  const SizedBox(height: 7),
+                  SizedBox(
+                    width: 300,
+                    child: FittedBox(
+                      fit: BoxFit.scaleDown,
+                      child: Text(
+                        title,
+                        style: const TextStyle(
+                          color: AppColors.textPrimary,
+                          fontSize: 31,
+                          height: 1,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: -1.1,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -615,15 +611,18 @@ class _GlassButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.white.withValues(alpha: .12),
+      color: Colors.white.withValues(alpha: .9),
+      elevation: 5,
+      shadowColor: const Color(0x332C65A4),
       borderRadius: BorderRadius.circular(16),
       child: InkWell(
+        key: const Key('repetition-practice-close-button'),
         onTap: onPressed,
         borderRadius: BorderRadius.circular(16),
         child: SizedBox(
-          width: 44,
-          height: 44,
-          child: Icon(icon, color: Colors.white),
+          width: 48,
+          height: 48,
+          child: Icon(icon, color: AppColors.primary, size: 24),
         ),
       ),
     );
@@ -692,21 +691,21 @@ class _StatCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 82,
-      padding: const EdgeInsets.all(12),
+      height: 98,
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 14),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: .94),
+        color: Colors.white.withValues(alpha: .92),
         borderRadius: BorderRadius.circular(20),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x24072762),
-            blurRadius: 24,
-            offset: Offset(0, 10),
+            color: Color(0x1F466E9C),
+            blurRadius: 16,
+            offset: Offset(0, 7),
           ),
         ],
       ),
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text(
@@ -714,20 +713,21 @@ class _StatCard extends StatelessWidget {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: const TextStyle(
-              color: AppColors.textSecondary,
-              fontSize: 10,
-              fontWeight: FontWeight.w700,
+              color: Color(0xFF5680B7),
+              fontSize: 13,
+              fontWeight: FontWeight.w500,
             ),
           ),
-          const SizedBox(height: 5),
+          const SizedBox(height: 8),
           Text(
             value,
+            textAlign: TextAlign.center,
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
             style: const TextStyle(
               color: AppColors.textPrimary,
-              fontSize: 16,
-              fontWeight: FontWeight.w800,
+              fontSize: 18,
+              fontWeight: FontWeight.w700,
             ),
           ),
           if (subvalue != null)
@@ -735,6 +735,7 @@ class _StatCard extends StatelessWidget {
               subvalue!,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
               style: const TextStyle(color: AppColors.textMuted, fontSize: 9),
             ),
         ],
@@ -752,11 +753,18 @@ class _TimerStatCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 82,
-      padding: const EdgeInsets.all(10),
+      height: 98,
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: .94),
+        color: Colors.white.withValues(alpha: .92),
         borderRadius: BorderRadius.circular(20),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x1F466E9C),
+            blurRadius: 16,
+            offset: Offset(0, 7),
+          ),
+        ],
       ),
       child: Stack(
         alignment: Alignment.center,
@@ -770,22 +778,22 @@ class _TimerStatCard extends StatelessWidget {
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
-                  color: AppColors.textSecondary,
-                  fontSize: 10,
-                  fontWeight: FontWeight.w700,
+                  color: Color(0xFF5680B7),
+                  fontSize: 13,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
-              const SizedBox(height: 5),
+              const SizedBox(height: 6),
               SizedBox(
-                width: 42,
-                height: 42,
+                width: 52,
+                height: 52,
                 child: Stack(
                   alignment: Alignment.center,
                   children: [
                     CircularProgressIndicator(
                       value: progress,
-                      strokeWidth: 5,
-                      backgroundColor: const Color(0xFFDCE4F3),
+                      strokeWidth: 5.5,
+                      backgroundColor: const Color(0xFFFFD9B1),
                       color: AppColors.orange,
                     ),
                     Text(
@@ -793,7 +801,7 @@ class _TimerStatCard extends StatelessWidget {
                       style: const TextStyle(
                         color: AppColors.orange,
                         fontWeight: FontWeight.w800,
-                        fontSize: 15,
+                        fontSize: 21,
                       ),
                     ),
                   ],
@@ -813,14 +821,12 @@ class _IntroContent extends StatelessWidget {
     required this.chunkSize,
     required this.chunks,
     required this.previewWords,
-    required this.onStart,
   });
 
   final int totalWords;
   final int chunkSize;
   final int chunks;
   final List<ExerciseWord> previewWords;
-  final VoidCallback? onStart;
 
   @override
   Widget build(BuildContext context) {
@@ -835,7 +841,9 @@ class _IntroContent extends StatelessWidget {
           child: Column(
             children: [
               _InfoRow(label: 'Tổng số từ', value: '$totalWords từ'),
+              const Divider(height: 1, color: Color(0xFFDCE7F3)),
               _InfoRow(label: 'Mỗi lượt', value: '$chunkSize từ'),
+              const Divider(height: 1, color: Color(0xFFDCE7F3)),
               _InfoRow(label: 'Số lượt', value: '$chunks nhóm'),
             ],
           ),
@@ -844,20 +852,53 @@ class _IntroContent extends StatelessWidget {
           const SizedBox(height: 14),
           _WordPreviewCard(words: previewWords),
         ],
-        const SizedBox(height: 16),
-        FilledButton.icon(
-          onPressed: onStart,
-          icon: const Icon(Icons.play_arrow_rounded),
-          label: const Text('Bắt đầu ôn'),
-          style: FilledButton.styleFrom(
-            minimumSize: const Size.fromHeight(56),
-            backgroundColor: AppColors.primary,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(18),
-            ),
+      ],
+    );
+  }
+}
+
+class _RepetitionStartButton extends StatelessWidget {
+  const _RepetitionStartButton({required this.onPressed});
+
+  final VoidCallback? onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      key: const Key('repetition-practice-start-button'),
+      height: 58,
+      decoration: BoxDecoration(
+        gradient: const LinearGradient(
+          colors: [Color(0xFF65C7FF), Color(0xFF1768EF)],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
+        borderRadius: BorderRadius.circular(25),
+        border: Border.all(color: const Color(0xFF72C9FF), width: 2),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x4D1768EF),
+            blurRadius: 16,
+            offset: Offset(0, 7),
+          ),
+        ],
+      ),
+      child: FilledButton.icon(
+        onPressed: onPressed,
+        icon: const Icon(Icons.play_arrow_rounded, size: 27),
+        label: const Text('Bắt đầu ôn'),
+        style: FilledButton.styleFrom(
+          minimumSize: const Size.fromHeight(56),
+          backgroundColor: Colors.transparent,
+          disabledBackgroundColor: Colors.transparent,
+          shadowColor: Colors.transparent,
+          foregroundColor: Colors.white,
+          textStyle: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(23),
           ),
         ),
-      ],
+      ),
     );
   }
 }
@@ -871,65 +912,148 @@ class _CountdownContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 38),
+      key: const Key('repetition-countdown-card'),
+      constraints: const BoxConstraints(minHeight: 430),
+      padding: const EdgeInsets.fromLTRB(24, 43, 24, 40),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(30),
+        color: Colors.white.withValues(alpha: .97),
+        borderRadius: BorderRadius.circular(32),
+        border: Border.all(color: Colors.white, width: 1.2),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x18072762),
-            blurRadius: 30,
-            offset: Offset(0, 12),
+            color: Color(0x21466E9C),
+            blurRadius: 32,
+            offset: Offset(0, 14),
           ),
         ],
       ),
       child: Column(
         children: [
-          const Text(
-            'SẴN SÀNG',
-            style: TextStyle(
-              color: AppColors.primary,
-              fontSize: 12,
-              fontWeight: FontWeight.w800,
-              letterSpacing: 1.6,
-            ),
-          ),
-          const SizedBox(height: 24),
-          Container(
-            width: 138,
-            height: 138,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: AppColors.surfaceBlue,
-              border: Border.all(color: AppColors.primary, width: 8),
-            ),
-            child: Text(
-              '$value',
-              style: const TextStyle(
-                color: AppColors.primary,
-                fontSize: 68,
-                height: 1,
-                fontWeight: FontWeight.w900,
+          const Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                '✦',
+                style: TextStyle(color: Color(0xFF83B3FF), fontSize: 16),
               ),
+              SizedBox(width: 13),
+              Text(
+                'SẴN SÀNG',
+                style: TextStyle(
+                  color: AppColors.primary,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w900,
+                  letterSpacing: 2,
+                ),
+              ),
+              SizedBox(width: 13),
+              Text(
+                '✦',
+                style: TextStyle(color: Color(0xFF83B3FF), fontSize: 16),
+              ),
+            ],
+          ),
+          const SizedBox(height: 20),
+          SizedBox(
+            width: 198,
+            height: 198,
+            child: Stack(
+              clipBehavior: Clip.none,
+              children: [
+                Positioned.fill(
+                  child: Container(
+                    padding: const EdgeInsets.all(7),
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(color: AppColors.primary, width: 3.5),
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Color(0x28155CFF),
+                          blurRadius: 22,
+                          offset: Offset(0, 9),
+                        ),
+                      ],
+                    ),
+                    child: Container(
+                      alignment: Alignment.center,
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                        gradient: RadialGradient(
+                          colors: [Color(0xFFF9FBFF), Color(0xFFEAF2FF)],
+                        ),
+                      ),
+                      child: Text(
+                        '$value',
+                        style: const TextStyle(
+                          color: AppColors.primary,
+                          fontSize: 82,
+                          height: 1,
+                          fontWeight: FontWeight.w900,
+                          letterSpacing: -3,
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                const Positioned(
+                  top: 18,
+                  right: 5,
+                  child: _CountdownSparkle(size: 28),
+                ),
+                const Positioned(
+                  left: 20,
+                  top: 74,
+                  child: _CountdownSparkle(size: 13),
+                ),
+                const Positioned(
+                  left: 23,
+                  bottom: 24,
+                  child: _CountdownSparkle(size: 18),
+                ),
+              ],
             ),
           ),
-          const SizedBox(height: 24),
+          const SizedBox(height: 26),
           Text(
             '$totalWords từ sắp bắt đầu',
+            textAlign: TextAlign.center,
             style: const TextStyle(
               color: AppColors.textPrimary,
-              fontSize: 20,
-              fontWeight: FontWeight.w800,
+              fontSize: 24,
+              height: 1.15,
+              fontWeight: FontWeight.w900,
             ),
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 15),
           const Text(
             'Mỗi từ có 5 giây. Từ trả lời sai sẽ xuất hiện lại cuối lượt.',
             textAlign: TextAlign.center,
-            style: TextStyle(color: AppColors.textSecondary, height: 1.45),
+            style: TextStyle(
+              color: AppColors.textSecondary,
+              fontSize: 15,
+              height: 1.55,
+            ),
           ),
         ],
+      ),
+    );
+  }
+}
+
+class _CountdownSparkle extends StatelessWidget {
+  const _CountdownSparkle({required this.size});
+
+  final double size;
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      '✦',
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: size,
+        height: 1,
+        shadows: const [Shadow(color: Color(0x6682B5FF), blurRadius: 7)],
       ),
     );
   }
@@ -953,13 +1077,14 @@ class _InfoCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(22),
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(28),
+        color: Colors.white.withValues(alpha: .94),
+        borderRadius: BorderRadius.circular(32),
+        border: Border.all(color: Colors.white),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x18072762),
-            blurRadius: 30,
-            offset: Offset(0, 12),
+            color: Color(0x1F466E9C),
+            blurRadius: 24,
+            offset: Offset(0, 10),
           ),
         ],
       ),
@@ -990,7 +1115,7 @@ class _InfoCard extends StatelessWidget {
             style: const TextStyle(
               color: AppColors.textSecondary,
               height: 1.45,
-              fontSize: 14,
+              fontSize: 15,
             ),
           ),
           const SizedBox(height: 18),
@@ -1019,6 +1144,7 @@ class _InfoRow extends StatelessWidget {
             value,
             style: const TextStyle(
               color: AppColors.textPrimary,
+              fontSize: 15,
               fontWeight: FontWeight.w800,
             ),
           ),
@@ -1038,8 +1164,16 @@ class _WordPreviewCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: AppColors.surfaceBlue,
-        borderRadius: BorderRadius.circular(24),
+        color: Colors.white.withValues(alpha: .94),
+        borderRadius: BorderRadius.circular(26),
+        border: Border.all(color: Colors.white),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x1A466E9C),
+            blurRadius: 20,
+            offset: Offset(0, 8),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1054,35 +1188,42 @@ class _WordPreviewCard extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 10),
-          ...words.map(
-            (word) => Padding(
+          for (var index = 0; index < words.length; index++) ...[
+            Padding(
               padding: const EdgeInsets.symmetric(vertical: 5),
               child: Row(
                 children: [
-                  const Icon(Icons.circle, size: 6, color: AppColors.primary),
-                  const SizedBox(width: 10),
                   Expanded(
                     child: Text(
-                      word.writing,
+                      words[index].writing,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
                         color: AppColors.textPrimary,
+                        fontSize: 14,
                         fontWeight: FontWeight.w800,
                       ),
                     ),
                   ),
+                  const SizedBox(width: 12),
                   Flexible(
                     child: Text(
-                      word.translation,
-                      maxLines: 1,
+                      words[index].translation,
+                      maxLines: 3,
                       overflow: TextOverflow.ellipsis,
-                      textAlign: TextAlign.right,
-                      style: const TextStyle(color: AppColors.textSecondary),
+                      textAlign: TextAlign.left,
+                      style: const TextStyle(
+                        color: Color(0xFF6481A9),
+                        fontSize: 14,
+                      ),
                     ),
                   ),
                 ],
               ),
             ),
-          ),
+            if (index != words.length - 1)
+              const Divider(height: 1, color: Color(0xFFDCE7F3)),
+          ],
         ],
       ),
     );
@@ -1120,14 +1261,16 @@ class _PracticeContent extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Container(
-          padding: const EdgeInsets.all(22),
+          key: const Key('repetition-question-card'),
+          padding: const EdgeInsets.fromLTRB(22, 24, 22, 24),
           decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(30),
+            color: Colors.white.withValues(alpha: .97),
+            borderRadius: BorderRadius.circular(32),
+            border: Border.all(color: Colors.white, width: 1.2),
             boxShadow: const [
               BoxShadow(
-                color: Color(0x18072762),
-                blurRadius: 30,
+                color: Color(0x21466E9C),
+                blurRadius: 28,
                 offset: Offset(0, 12),
               ),
             ],
@@ -1147,41 +1290,69 @@ class _PracticeContent extends StatelessWidget {
                       color: AppColors.surfaceBlue,
                       borderRadius: BorderRadius.circular(999),
                     ),
-                    child: const Text(
-                      '⚡ 5 giây / từ',
-                      style: TextStyle(
-                        color: AppColors.primary,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 12,
-                      ),
+                    child: const Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.bolt_rounded,
+                          color: Color(0xFFFF8A20),
+                          size: 18,
+                        ),
+                        SizedBox(width: 5),
+                        Text(
+                          '5 giây / từ',
+                          style: TextStyle(
+                            color: AppColors.primary,
+                            fontWeight: FontWeight.w900,
+                            fontSize: 13,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                  IconButton(
-                    onPressed: () => onPlay(question.word),
-                    icon: const Icon(Icons.volume_up_rounded),
-                    color: AppColors.primary,
-                    style: IconButton.styleFrom(
-                      backgroundColor: AppColors.surfaceBlue,
+                  Container(
+                    width: 48,
+                    height: 48,
+                    decoration: const BoxDecoration(
+                      color: Color(0xFFF7FAFF),
+                      shape: BoxShape.circle,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Color(0x24466E9C),
+                          blurRadius: 14,
+                          offset: Offset(0, 6),
+                        ),
+                      ],
+                    ),
+                    child: IconButton(
+                      tooltip: 'Phát âm',
+                      onPressed: () => onPlay(question.word),
+                      icon: const Icon(Icons.volume_up_rounded, size: 27),
+                      color: AppColors.primary,
                     ),
                   ),
                 ],
               ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 18),
               const Text(
                 'Chọn bản dịch đúng cho từ bên dưới',
-                style: TextStyle(color: AppColors.textSecondary, fontSize: 14),
+                style: TextStyle(
+                  color: AppColors.textSecondary,
+                  fontSize: 15,
+                  height: 1.25,
+                ),
               ),
-              const SizedBox(height: 12),
+              const SizedBox(height: 14),
               Text(
                 question.word.writing,
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
                 style: const TextStyle(
                   color: AppColors.textPrimary,
-                  fontSize: 39,
+                  fontSize: 42,
                   height: 1,
-                  fontWeight: FontWeight.w800,
-                  letterSpacing: -1.4,
+                  fontWeight: FontWeight.w900,
+                  letterSpacing: -1.7,
                 ),
               ),
               if (question.word.transliteration.isNotEmpty) ...[
@@ -1189,13 +1360,13 @@ class _PracticeContent extends StatelessWidget {
                 Text(
                   question.word.transliteration,
                   style: const TextStyle(
-                    color: AppColors.textMuted,
-                    fontSize: 16,
+                    color: Color(0xFF7891B6),
+                    fontSize: 17,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
               ],
-              const SizedBox(height: 18),
+              const SizedBox(height: 24),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -1206,17 +1377,17 @@ class _PracticeContent extends StatelessWidget {
                               : 'Đã ghi nhận câu trả lời')
                         : 'Tự động chuyển sau ${secondsLeft.ceil()} giây',
                     style: const TextStyle(
-                      color: AppColors.textSecondary,
-                      fontSize: 11,
-                      fontWeight: FontWeight.w700,
+                      color: Color(0xFF5276AA),
+                      fontSize: 12,
+                      fontWeight: FontWeight.w800,
                     ),
                   ),
                   Text(
                     '${(questionProgress * 100).round()}%',
                     style: const TextStyle(
                       color: AppColors.primary,
-                      fontSize: 11,
-                      fontWeight: FontWeight.w800,
+                      fontSize: 12,
+                      fontWeight: FontWeight.w900,
                     ),
                   ),
                 ],
@@ -1226,8 +1397,8 @@ class _PracticeContent extends StatelessWidget {
                 borderRadius: BorderRadius.circular(99),
                 child: LinearProgressIndicator(
                   value: timerProgress,
-                  minHeight: 8,
-                  backgroundColor: const Color(0xFFE9EEF7),
+                  minHeight: 9,
+                  backgroundColor: const Color(0xFFDDE7F5),
                   color: AppColors.primary,
                 ),
               ),
@@ -1240,10 +1411,10 @@ class _PracticeContent extends StatelessWidget {
           child: Text(
             'CHỌN MỘT ĐÁP ÁN',
             style: TextStyle(
-              color: AppColors.textSecondary,
-              fontSize: 11,
-              fontWeight: FontWeight.w800,
-              letterSpacing: 1.4,
+              color: Color(0xFF4F76B0),
+              fontSize: 12,
+              fontWeight: FontWeight.w900,
+              letterSpacing: 1.5,
             ),
           ),
         ),
@@ -1269,14 +1440,14 @@ class _PracticeContent extends StatelessWidget {
           )
         else
           const Padding(
-            padding: EdgeInsets.only(top: 4),
+            padding: EdgeInsets.only(top: 7, bottom: 2),
             child: Text(
               'Trả lời nhanh để giữ nhịp ôn tập.',
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: AppColors.textMuted,
-                fontSize: 13,
-                fontWeight: FontWeight.w600,
+                color: Color(0xFF6686B5),
+                fontSize: 14,
+                fontWeight: FontWeight.w700,
               ),
             ),
           ),
@@ -1325,24 +1496,27 @@ class _AnswerTile extends StatelessWidget {
 
     return Material(
       color: background,
-      borderRadius: BorderRadius.circular(24),
+      elevation: isSubmitted ? 0 : 2,
+      shadowColor: const Color(0x24466E9C),
+      borderRadius: BorderRadius.circular(22),
       child: InkWell(
         onTap: isSubmitted ? null : onTap,
-        borderRadius: BorderRadius.circular(24),
+        borderRadius: BorderRadius.circular(22),
         child: Container(
-          padding: const EdgeInsets.all(16),
+          constraints: const BoxConstraints(minHeight: 80),
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(24),
-            border: Border.all(color: border, width: 1.4),
+            borderRadius: BorderRadius.circular(22),
+            border: Border.all(color: border, width: 1.2),
           ),
           child: Row(
             children: [
               Container(
-                width: 46,
-                height: 46,
+                width: 52,
+                height: 52,
                 decoration: BoxDecoration(
                   color: accent.withValues(alpha: .1),
-                  borderRadius: BorderRadius.circular(15),
+                  borderRadius: BorderRadius.circular(16),
                 ),
                 alignment: Alignment.center,
                 child: isSubmitted && isCorrect
@@ -1353,12 +1527,12 @@ class _AnswerTile extends StatelessWidget {
                         String.fromCharCode(65 + index),
                         style: TextStyle(
                           color: accent,
-                          fontWeight: FontWeight.w800,
-                          fontSize: 19,
+                          fontWeight: FontWeight.w900,
+                          fontSize: 21,
                         ),
                       ),
               ),
-              const SizedBox(width: 14),
+              const SizedBox(width: 16),
               Expanded(
                 child: Text(
                   answer.translation,
@@ -1366,16 +1540,21 @@ class _AnswerTile extends StatelessWidget {
                     color: isSubmitted && (isCorrect || isWrong)
                         ? accent
                         : AppColors.textPrimary,
-                    fontSize: 18,
-                    fontWeight: FontWeight.w800,
+                    fontSize: 19,
+                    height: 1.2,
+                    fontWeight: FontWeight.w900,
                   ),
                 ),
               ),
+              const SizedBox(width: 8),
               Icon(
                 isSubmitted && isCorrect
                     ? Icons.check_circle_rounded
                     : Icons.chevron_right_rounded,
-                color: isSubmitted && isCorrect ? accent : AppColors.textMuted,
+                color: isSubmitted && isCorrect
+                    ? accent
+                    : const Color(0xFF7893B9),
+                size: 26,
               ),
             ],
           ),

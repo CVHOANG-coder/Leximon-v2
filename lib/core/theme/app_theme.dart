@@ -42,7 +42,7 @@ ThemeData buildAppTheme() {
       ),
     ),
     textTheme: base.textTheme.apply(
-      fontFamily: 'Be Vietnam Pro',
+      fontFamily: 'M PLUS Rounded 1c',
       bodyColor: AppColors.textPrimary,
       displayColor: AppColors.textPrimary,
     ),

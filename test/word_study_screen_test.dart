@@ -201,10 +201,14 @@ void main() {
     tester.widget<GestureDetector>(lastCardTap.first).onTap!();
     await tester.pumpAndSettle();
 
-    expect(find.text('★  Chủ đề số 8'), findsOneWidget);
+    expect(find.text('Chủ đề số 8'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('word-study-active-topic-star')),
+      findsOneWidget,
+    );
     final selectedCard = tester.widget<AnimatedContainer>(lastCardFinder);
     final selectedDecoration = selectedCard.decoration! as BoxDecoration;
-    expect(selectedDecoration.color, Colors.white);
+    expect(selectedDecoration.color, const Color(0xFFFFFFFF));
 
     final stripRect = tester.getRect(
       find.byKey(const Key('word-study-topic-strip')),

@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -290,7 +288,7 @@ class _ProgressHeader extends StatelessWidget {
               Text(
                 'BẢNG ĐIỀU KHIỂN HỌC TẬP',
                 style: TextStyle(
-                  color: Colors.white70,
+                  color: Color(0xFF52739A),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1,
@@ -300,7 +298,7 @@ class _ProgressHeader extends StatelessWidget {
               Text(
                 'Hành trình của bạn',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: AppColors.primaryDark,
                   fontSize: 30,
                   height: 1,
                   fontWeight: FontWeight.w700,
@@ -311,7 +309,7 @@ class _ProgressHeader extends StatelessWidget {
               Text(
                 'Theo dõi tiến độ theo cách trực quan hơn, nhiều động lực hơn.',
                 style: TextStyle(
-                  color: Color(0xFFDCEBFF),
+                  color: AppColors.textSecondary,
                   fontSize: 11,
                   height: 1.4,
                 ),
@@ -526,35 +524,21 @@ class _ProgressCard extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(22),
         child: Container(
-          // padding: const EdgeInsets.fromLTRB(16, 16, 16, 14),
+          key: const Key('progress-card-banner'),
           decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [
-                AppColors.primaryDark,
-                AppColors.primary,
-                Color(0xFF238CFF),
-              ],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+            image: DecorationImage(
+              image: AssetImage('assets/images/card_progress_banner.png'),
+              fit: BoxFit.cover,
             ),
           ),
           child: Stack(
             children: [
-              const Positioned(
-                right: -42,
-                top: -66,
-                child: _GlowOrb(size: 150, color: Color(0x2456D8FF)),
-              ),
-              const Positioned(
-                left: 88,
-                bottom: -82,
-                child: _GlowOrb(size: 130, color: Color(0x1611E5C5)),
-              ),
               Container(
                 padding: const EdgeInsets.fromLTRB(16, 16, 16, 14),
                 child: Column(
                   children: [
                     Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Expanded(
                           child: Column(
@@ -563,9 +547,9 @@ class _ProgressCard extends StatelessWidget {
                               Row(
                                 children: [
                                   Container(
-                                    width: 34,
-                                    height: 34,
-                                    padding: const EdgeInsets.all(7),
+                                    width: 36,
+                                    height: 36,
+                                    padding: const EdgeInsets.all(4),
                                     decoration: BoxDecoration(
                                       color: Colors.white.withValues(
                                         alpha: .16,
@@ -632,72 +616,69 @@ class _ProgressCard extends StatelessWidget {
                             ],
                           ),
                         ),
-                        const SizedBox(width: 14),
-                        SizedBox(
-                          width: 92,
-                          height: 92,
-                          child: Stack(
-                            alignment: Alignment.center,
-                            children: [
-                              const Positioned.fill(
-                                child: DecoratedBox(
-                                  decoration: BoxDecoration(
-                                    color: Color(0x0FFFFFFF),
-                                    shape: BoxShape.circle,
-                                  ),
-                                ),
-                              ),
-                              Positioned.fill(
-                                child: Padding(
-                                  padding: const EdgeInsets.all(4),
-                                  child: CircularProgressIndicator(
-                                    key: const Key('vocabulary-progress-ring'),
-                                    value: dashboard.overallProgress,
-                                    strokeWidth: 8,
-                                    strokeCap: StrokeCap.round,
-                                    backgroundColor: const Color(0x3DFFFFFF),
-                                    valueColor: const AlwaysStoppedAnimation(
-                                      AppColors.cyan,
+                        const SizedBox(width: 10),
+                        Padding(
+                          padding: const EdgeInsets.only(right: 6),
+                          child: SizedBox(
+                            width: 96,
+                            height: 96,
+                            child: Stack(
+                              alignment: Alignment.center,
+                              children: [
+                                Positioned.fill(
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(2),
+                                    child: CircularProgressIndicator(
+                                      key: const Key(
+                                        'vocabulary-progress-ring',
+                                      ),
+                                      value: dashboard.overallProgress,
+                                      strokeWidth: 9,
+                                      strokeCap: StrokeCap.round,
+                                      backgroundColor: const Color(0x44FFFFFF),
+                                      valueColor: const AlwaysStoppedAnimation(
+                                        Color(0xFFE6FFF1),
+                                      ),
                                     ),
                                   ),
                                 ),
-                              ),
-                              Column(
-                                mainAxisSize: MainAxisSize.min,
-                                children: [
-                                  SizedBox(
-                                    width: 62,
-                                    child: FittedBox(
-                                      key: const Key(
-                                        'vocabulary-progress-percentage',
-                                      ),
-                                      fit: BoxFit.scaleDown,
-                                      child: Text(
-                                        '${(dashboard.overallProgress * 100).toStringAsFixed(2)}%',
-                                        maxLines: 1,
-                                        style: const TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 19,
-                                          height: 1,
-                                          fontWeight: FontWeight.w800,
-                                          letterSpacing: -.5,
+                                Column(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children: [
+                                    SizedBox(
+                                      width: 68,
+                                      child: FittedBox(
+                                        key: const Key(
+                                          'vocabulary-progress-percentage',
+                                        ),
+                                        fit: BoxFit.scaleDown,
+                                        child: Text(
+                                          '${(dashboard.overallProgress * 100).toStringAsFixed(2)}%',
+                                          maxLines: 1,
+                                          style: const TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 21,
+                                            height: 1,
+                                            fontWeight: FontWeight.w800,
+                                            letterSpacing: -.6,
+                                          ),
                                         ),
                                       ),
                                     ),
-                                  ),
-                                  const SizedBox(height: 4),
-                                  const Text(
-                                    'TỔNG',
-                                    style: TextStyle(
-                                      color: Color(0xFFBFD6FF),
-                                      fontSize: 8,
-                                      fontWeight: FontWeight.w800,
-                                      letterSpacing: .8,
+                                    const SizedBox(height: 4),
+                                    const Text(
+                                      'TỔNG',
+                                      style: TextStyle(
+                                        color: Color(0xFFD9EFFF),
+                                        fontSize: 8,
+                                        fontWeight: FontWeight.w800,
+                                        letterSpacing: .8,
+                                      ),
                                     ),
-                                  ),
-                                ],
-                              ),
-                            ],
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
@@ -817,38 +798,6 @@ class _WeeklyMetric extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
-  }
-}
-
-class _GlowOrb extends StatelessWidget {
-  const _GlowOrb({required this.size, required this.color});
-
-  final double size;
-  final Color color;
-
-  @override
-  Widget build(BuildContext context) {
-    const blurPadding = 48.0;
-
-    return SizedBox(
-      width: size,
-      height: size,
-      child: OverflowBox(
-        maxWidth: size + blurPadding * 2,
-        maxHeight: size + blurPadding * 2,
-        child: ImageFiltered(
-          imageFilter: ImageFilter.blur(sigmaX: 24, sigmaY: 24),
-          child: Padding(
-            padding: const EdgeInsets.all(blurPadding),
-            child: Container(
-              width: size,
-              height: size,
-              decoration: BoxDecoration(color: color, shape: BoxShape.circle),
-            ),
-          ),
-        ),
       ),
     );
   }

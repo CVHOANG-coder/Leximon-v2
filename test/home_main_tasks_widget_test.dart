@@ -28,6 +28,26 @@ void main() {
       findsOneWidget,
     );
     expect(find.text('Học từ mới'), findsOneWidget);
+    expect(find.byKey(const ValueKey('home-daily-owl')), findsOneWidget);
+    final dailyCardRect = tester.getRect(
+      find.byKey(const Key('home-daily-card')),
+    );
+    final viewportWidth =
+        tester.view.physicalSize.width / tester.view.devicePixelRatio;
+    expect(dailyCardRect.left, closeTo(18, .1));
+    expect(viewportWidth - dailyCardRect.right, closeTo(18, .1));
+
+    final setupButton = tester.widget<OutlinedButton>(
+      find.byKey(const Key('setup-more-topics-button')),
+    );
+    expect(
+      setupButton.style!.backgroundColor!.resolve({}),
+      const Color(0xFFF0F6FF),
+    );
+    expect(
+      setupButton.style!.side!.resolve({})!.color,
+      const Color(0xFFCFE1FA),
+    );
   });
 
   testWidgets('Home renders exact completed task states without counters', (

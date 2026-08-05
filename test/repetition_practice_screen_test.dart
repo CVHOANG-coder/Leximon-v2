@@ -53,13 +53,42 @@ void main() {
       ),
     );
 
+    final background = tester.widget<Image>(
+      find.byKey(const ValueKey('repetition-practice-background')),
+    );
+    expect(
+      (background.image as AssetImage).assetName,
+      'assets/images/bg_repetition_practice.png',
+    );
+    expect(
+      find.byKey(const Key('repetition-practice-close-button')),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const Key('repetition-practice-start-button')),
+      findsOneWidget,
+    );
+    final viewportHeight =
+        tester.view.physicalSize.height / tester.view.devicePixelRatio;
+    expect(
+      tester
+          .getBottomRight(
+            find.byKey(const Key('repetition-practice-start-button')),
+          )
+          .dy,
+      closeTo(viewportHeight - 16, .1),
+    );
+
     await tester.ensureVisible(find.text('Bắt đầu ôn'));
     await tester.tap(find.text('Bắt đầu ôn'));
     await tester.pump();
+    expect(find.byKey(const Key('repetition-countdown-card')), findsOneWidget);
     expect(find.text('3'), findsOneWidget);
     await tester.pump(const Duration(seconds: 1));
     expect(find.text('2'), findsOneWidget);
     await tester.pump(const Duration(seconds: 2));
+
+    expect(find.byKey(const Key('repetition-question-card')), findsOneWidget);
 
     await tester.ensureVisible(find.text('quả cam'));
     await tester.tap(find.text('quả cam'));

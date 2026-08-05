@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
@@ -275,33 +276,47 @@ class _SentenceTrainingScreenState
 
   @override
   Widget build(BuildContext context) {
-    return PopScope(
-      canPop: false,
-      onPopInvokedWithResult: (didPop, result) {
-        if (!didPop) unawaited(_handleBack());
-      },
-      child: Scaffold(
-        backgroundColor: const Color(0xFFF7FAFF),
-        body: Stack(
-          fit: StackFit.expand,
-          children: [
-            const _SentenceBackdrop(),
-            SafeArea(
-              child: Column(
-                children: [
-                  _Header(
-                    stage: _stage,
-                    current: _stage == _SentenceScreenStage.training
-                        ? _exerciseIndex + 1
-                        : 0,
-                    total: _lesson?.exercises.length ?? 0,
-                    onBack: _handleBack,
-                  ),
-                  Expanded(child: _buildBody()),
-                ],
+    return AnnotatedRegion<SystemUiOverlayStyle>(
+      value: SystemUiOverlayStyle.dark,
+      child: PopScope(
+        canPop: false,
+        onPopInvokedWithResult: (didPop, result) {
+          if (!didPop) unawaited(_handleBack());
+        },
+        child: Scaffold(
+          backgroundColor: const Color(0xFFEAF7FF),
+          body: Stack(
+            fit: StackFit.expand,
+            children: [
+              const _SentenceBackdrop(),
+              SafeArea(
+                bottom: false,
+                child: Column(
+                  children: [
+                    _Header(
+                      stage: _stage,
+                      current: _stage == _SentenceScreenStage.training
+                          ? _exerciseIndex + 1
+                          : 0,
+                      total: _lesson?.exercises.length ?? 0,
+                      onBack: _handleBack,
+                    ),
+                    if (_stage == _SentenceScreenStage.training) ...[
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 18),
+                        child: _ProgressBar(
+                          value:
+                              (_exerciseIndex + 1) / _lesson!.exercises.length,
+                        ),
+                      ),
+                      const SizedBox(height: 14),
+                    ],
+                    Expanded(child: _buildBody()),
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
@@ -311,6 +326,7 @@ class _SentenceTrainingScreenState
     _SentenceScreenStage.loading => const _LoadingView(),
     _SentenceScreenStage.intro => _IntroView(
       exerciseCount: _lesson!.exercises.length,
+      wordCount: _lesson!.wordIds.length,
       onStart: _startTraining,
     ),
     _SentenceScreenStage.training => _TrainingView(
@@ -351,21 +367,12 @@ class _SentenceBackdrop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Container(
-          height: 210,
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Color(0xFF061B43), Color(0xFF0B347F), AppColors.primary],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-            borderRadius: BorderRadius.vertical(bottom: Radius.circular(40)),
-          ),
-        ),
-        const Expanded(child: ColoredBox(color: Color(0xFFF7FAFF))),
-      ],
+    return Image.asset(
+      'assets/images/bg_sentence.png',
+      key: const Key('sentence-training-background'),
+      fit: BoxFit.cover,
+      alignment: Alignment.topCenter,
+      filterQuality: FilterQuality.high,
     );
   }
 }
@@ -385,48 +392,75 @@ class _Header extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(10, 8, 18, 8),
-      child: Row(
+    final isIntroStyle = stage != _SentenceScreenStage.training;
+    return SizedBox(
+      height: isIntroStyle ? 112 : 88,
+      child: Stack(
         children: [
-          IconButton(
-            onPressed: onBack,
-            icon: const Icon(Icons.arrow_back_ios_new_rounded),
-            color: Colors.white,
+          Positioned(
+            left: 26,
+            top: isIntroStyle ? 29 : 15,
+            child: Material(
+              color: Colors.white.withValues(alpha: .92),
+              elevation: 5,
+              shadowColor: const Color(0x332C65A4),
+              borderRadius: BorderRadius.circular(18),
+              child: InkWell(
+                key: const Key('sentence-training-back-button'),
+                onTap: onBack,
+                borderRadius: BorderRadius.circular(18),
+                child: const SizedBox(
+                  width: 48,
+                  height: 48,
+                  child: Icon(
+                    Icons.arrow_back_ios_new_rounded,
+                    color: Color(0xFF123CA4),
+                    size: 23,
+                  ),
+                ),
+              ),
+            ),
           ),
-          const Expanded(
-            child: Column(
+          Positioned(
+            left: 98,
+            top: isIntroStyle ? 30 : 16,
+            child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
                   'WORDS IN SENTENCES',
                   style: TextStyle(
-                    color: Color(0xBFFFFFFF),
-                    fontSize: 9,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: 1.1,
+                    color: Color(0xFF2466DE),
+                    fontSize: 11,
+                    fontWeight: FontWeight.w900,
+                    letterSpacing: 1.8,
                   ),
                 ),
-                SizedBox(height: 2),
+                SizedBox(height: 7),
                 Text(
                   'Ghép câu',
                   style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 21,
+                    color: Color(0xFF123AA3),
+                    fontSize: 27,
+                    height: 1,
                     fontWeight: FontWeight.w700,
-                    letterSpacing: -.6,
+                    letterSpacing: -1,
                   ),
                 ),
               ],
             ),
           ),
           if (stage == _SentenceScreenStage.training)
-            Text(
-              '$current / $total',
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 12,
-                fontWeight: FontWeight.w800,
+            Positioned(
+              right: 26,
+              top: 31,
+              child: Text(
+                '$current / $total',
+                style: const TextStyle(
+                  color: Color(0xFF155CFF),
+                  fontSize: 13,
+                  fontWeight: FontWeight.w900,
+                ),
               ),
             ),
         ],
@@ -506,98 +540,275 @@ class _CompletingView extends StatelessWidget {
 }
 
 class _IntroView extends StatelessWidget {
-  const _IntroView({required this.exerciseCount, required this.onStart});
+  const _IntroView({
+    required this.exerciseCount,
+    required this.wordCount,
+    required this.onStart,
+  });
 
   final int exerciseCount;
+  final int wordCount;
   final VoidCallback onStart;
 
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      padding: const EdgeInsets.fromLTRB(18, 18, 18, 28),
+      physics: const BouncingScrollPhysics(),
+      padding: EdgeInsets.fromLTRB(
+        26,
+        18,
+        26,
+        28 + MediaQuery.paddingOf(context).bottom,
+      ),
       child: Column(
         children: [
           Container(
+            key: const Key('sentence-training-intro-card'),
             width: double.infinity,
-            padding: const EdgeInsets.fromLTRB(20, 18, 20, 22),
+            padding: const EdgeInsets.fromLTRB(18, 24, 18, 25),
             decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(28),
+              color: Colors.white.withValues(alpha: .96),
+              borderRadius: BorderRadius.circular(34),
+              border: Border.all(color: Colors.white, width: 1.5),
               boxShadow: const [
                 BoxShadow(
-                  color: Color(0x2426448B),
-                  blurRadius: 24,
-                  offset: Offset(0, 12),
+                  color: Color(0x29466E9C),
+                  blurRadius: 30,
+                  offset: Offset(0, 14),
                 ),
               ],
             ),
-            child: Column(
+            child: Stack(
+              clipBehavior: Clip.none,
               children: [
-                Image.asset(
-                  'assets/images/leximon-owl-wave.png',
-                  width: 122,
-                  height: 122,
-                  fit: BoxFit.contain,
+                const Positioned(
+                  left: 42,
+                  top: 96,
+                  child: _IntroSparkle(size: 14),
                 ),
-                const Text(
-                  'Từ vựng sống trong câu',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    color: AppColors.textPrimary,
-                    fontSize: 24,
-                    height: 1.1,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: -.8,
-                  ),
+                const Positioned(
+                  right: 46,
+                  top: 42,
+                  child: _IntroSparkle(size: 20),
                 ),
-                const SizedBox(height: 8),
-                Text(
-                  '$exerciseCount thử thách từ 4 từ đang học. Bạn sẽ ghép, nghe và điền từ ngay trong ngữ cảnh.',
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    color: AppColors.textSecondary,
-                    fontSize: 11,
-                    height: 1.5,
-                  ),
+                const Positioned(
+                  right: 68,
+                  top: 136,
+                  child: _IntroSparkle(size: 12),
                 ),
-                const SizedBox(height: 20),
-                const Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  alignment: WrapAlignment.center,
+                Column(
                   children: [
-                    _IntroChip(
-                      icon: Icons.sort_by_alpha_rounded,
-                      label: 'Ghép câu',
+                    Image.asset(
+                      'assets/images/owls/owl_match_sentence.png',
+                      key: const Key('sentence-training-mascot'),
+                      width: 200,
+                      height: 200,
+                      fit: BoxFit.contain,
+                      filterQuality: FilterQuality.high,
                     ),
-                    _IntroChip(
-                      icon: Icons.headphones_rounded,
-                      label: 'Nghe hiểu',
+                    const SizedBox(
+                      width: double.infinity,
+                      child: FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          'Từ vựng sống trong câu',
+                          textAlign: TextAlign.center,
+                          maxLines: 1,
+                          style: TextStyle(
+                            color: Color(0xFF123AA3),
+                            fontSize: 27,
+                            height: 1.05,
+                            fontWeight: FontWeight.w700,
+                            letterSpacing: -1.1,
+                          ),
+                        ),
+                      ),
                     ),
-                    _IntroChip(
-                      icon: Icons.auto_awesome_rounded,
-                      label: 'AI giải thích',
+                    const SizedBox(height: 14),
+                    Text(
+                      '$exerciseCount thử thách từ $wordCount từ đang học. Bạn sẽ ghép, nghe và điền từ ngay trong ngữ cảnh.',
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        color: Color(0xFF6E84A9),
+                        fontSize: 15,
+                        height: 1.5,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    const SizedBox(height: 27),
+                    const Row(
+                      children: [
+                        Expanded(
+                          child: _IntroChip(
+                            icon: Icons.sort_by_alpha_rounded,
+                            label: 'Ghép câu',
+                            backgroundColor: Color(0xFFF1F7FF),
+                            borderColor: Color(0xFFD8E9FF),
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Expanded(
+                          child: _IntroChip(
+                            icon: Icons.headphones_rounded,
+                            label: 'Nghe hiểu',
+                            backgroundColor: Color(0xFFF8F6FF),
+                            borderColor: Color(0xFFE8E0FF),
+                          ),
+                        ),
+                        SizedBox(width: 10),
+                        Expanded(
+                          child: _IntroChip(
+                            icon: Icons.auto_awesome_rounded,
+                            label: 'AI giải thích',
+                            backgroundColor: Color(0xFFF0FCF8),
+                            borderColor: Color(0xFFD0F1E6),
+                          ),
+                        ),
+                      ],
                     ),
                   ],
                 ),
               ],
             ),
           ),
-          const SizedBox(height: 18),
-          SizedBox(
-            width: double.infinity,
-            height: 54,
-            child: FilledButton.icon(
-              onPressed: onStart,
-              icon: const Icon(Icons.play_arrow_rounded),
-              label: const Text('Bắt đầu ghép câu'),
-              style: FilledButton.styleFrom(
-                textStyle: const TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w800,
+          const SizedBox(height: 28),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 7),
+            child: _SentenceStartButton(onPressed: onStart),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _IntroSparkle extends StatelessWidget {
+  const _IntroSparkle({required this.size});
+
+  final double size;
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      '✦',
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: size,
+        height: 1,
+        shadows: const [Shadow(color: Color(0x6685B7FF), blurRadius: 8)],
+      ),
+    );
+  }
+}
+
+class _SentenceStartButton extends StatelessWidget {
+  const _SentenceStartButton({required this.onPressed});
+
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return _SentencePrimaryButton(
+      containerKey: const Key('sentence-training-start-button'),
+      label: 'Bắt đầu ghép câu',
+      icon: Icons.play_arrow_rounded,
+      onPressed: onPressed,
+      height: 64,
+      fontSize: 20,
+    );
+  }
+}
+
+class _SentencePrimaryButton extends StatelessWidget {
+  const _SentencePrimaryButton({
+    required this.containerKey,
+    required this.label,
+    required this.onPressed,
+    required this.height,
+    required this.fontSize,
+    this.icon,
+  });
+
+  final Key containerKey;
+  final String label;
+  final VoidCallback? onPressed;
+  final double height;
+  final double fontSize;
+  final IconData? icon;
+
+  @override
+  Widget build(BuildContext context) {
+    final isEnabled = onPressed != null;
+    final radius = height >= 60 ? 28.0 : 24.0;
+    final foregroundColor = isEnabled ? Colors.white : const Color(0xFF929EAF);
+    return Container(
+      key: containerKey,
+      width: double.infinity,
+      height: height,
+      decoration: BoxDecoration(
+        color: isEnabled ? null : const Color(0xFFD9DEE7),
+        gradient: isEnabled
+            ? const LinearGradient(
+                colors: [Color(0xFF55BFFF), Color(0xFF075FF2)],
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+              )
+            : null,
+        borderRadius: BorderRadius.circular(radius),
+        border: Border.all(
+          color: isEnabled ? const Color(0xFF2B83F7) : const Color(0xFFE8EBF0),
+          width: isEnabled ? 2.5 : 1.5,
+        ),
+        boxShadow: isEnabled
+            ? const [
+                BoxShadow(
+                  color: Color(0x4D1768EF),
+                  blurRadius: 18,
+                  offset: Offset(0, 8),
                 ),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(17),
+              ]
+            : const [
+                BoxShadow(
+                  color: Color(0x183B4E66),
+                  blurRadius: 10,
+                  offset: Offset(0, 4),
+                ),
+              ],
+      ),
+      child: Stack(
+        children: [
+          if (isEnabled)
+            const Positioned(
+              right: 18,
+              top: 9,
+              child: Text(
+                '✦',
+                style: TextStyle(color: Colors.white, fontSize: 18),
+              ),
+            ),
+          Positioned.fill(
+            child: Material(
+              color: Colors.transparent,
+              child: InkWell(
+                onTap: onPressed,
+                borderRadius: BorderRadius.circular(radius - 2),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    if (icon != null) ...[
+                      Icon(icon, color: foregroundColor, size: 31),
+                      const SizedBox(width: 10),
+                    ],
+                    Text(
+                      label,
+                      style: TextStyle(
+                        color: foregroundColor,
+                        fontSize: fontSize,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: -.3,
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -609,30 +820,52 @@ class _IntroView extends StatelessWidget {
 }
 
 class _IntroChip extends StatelessWidget {
-  const _IntroChip({required this.icon, required this.label});
+  const _IntroChip({
+    required this.icon,
+    required this.label,
+    required this.backgroundColor,
+    required this.borderColor,
+  });
 
   final IconData icon;
   final String label;
+  final Color backgroundColor;
+  final Color borderColor;
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 8),
+      height: 62,
+      padding: const EdgeInsets.symmetric(horizontal: 8),
       decoration: BoxDecoration(
-        color: AppColors.surfaceBlue,
-        borderRadius: BorderRadius.circular(99),
+        color: backgroundColor,
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: borderColor),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x12466E9C),
+            blurRadius: 10,
+            offset: Offset(0, 5),
+          ),
+        ],
       ),
       child: Row(
-        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(icon, size: 15, color: AppColors.primary),
-          const SizedBox(width: 6),
-          Text(
-            label,
-            style: const TextStyle(
-              color: AppColors.primaryDark,
-              fontSize: 10,
-              fontWeight: FontWeight.w700,
+          Icon(icon, size: 24, color: const Color(0xFF2B70EB)),
+          const SizedBox(width: 7),
+          Flexible(
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                label,
+                maxLines: 1,
+                style: const TextStyle(
+                  color: Color(0xFF12347F),
+                  fontSize: 14,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
             ),
           ),
         ],
@@ -669,20 +902,16 @@ class _TrainingView extends StatelessWidget {
     final selectedTokens = selectedChoiceIndexes
         .map((index) => exercise.choices[index])
         .toList(growable: false);
-    return Column(
+    final bottomInset = MediaQuery.paddingOf(context).bottom;
+    return Stack(
       children: [
-        Expanded(
+        Positioned.fill(
           child: SingleChildScrollView(
-            padding: const EdgeInsets.fromLTRB(18, 10, 18, 18),
+            physics: const BouncingScrollPhysics(),
+            padding: EdgeInsets.fromLTRB(18, 10, 18, 88 + bottomInset),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                _ProgressBar(
-                  value:
-                      selectedChoiceIndexes.length /
-                      exercise.expectedTokens.length,
-                ),
-                const SizedBox(height: 18),
                 Container(
                   padding: const EdgeInsets.all(18),
                   decoration: BoxDecoration(
@@ -698,15 +927,7 @@ class _TrainingView extends StatelessWidget {
                   ),
                   child: Column(
                     children: [
-                      Text(
-                        exercise.title.toUpperCase(),
-                        style: const TextStyle(
-                          color: AppColors.primary,
-                          fontSize: 9,
-                          fontWeight: FontWeight.w800,
-                          letterSpacing: 1,
-                        ),
-                      ),
+                      _QuestionCardTitle(title: exercise.title.toUpperCase()),
                       const SizedBox(height: 7),
                       Text(
                         exercise.instruction,
@@ -799,30 +1020,57 @@ class _TrainingView extends StatelessWidget {
             ),
           ),
         ),
-        Container(
-          color: Colors.white,
-          padding: EdgeInsets.fromLTRB(
-            18,
-            12,
-            18,
-            12 + MediaQuery.paddingOf(context).bottom,
+        Positioned(
+          left: 18,
+          right: 18,
+          bottom: 12 + bottomInset,
+          child: _SentencePrimaryButton(
+            containerKey: const Key('sentence-training-check-button'),
+            label: 'Kiểm tra',
+            onPressed: selectedChoiceIndexes.isEmpty ? null : onSubmit,
+            height: 56,
+            fontSize: 17,
           ),
-          child: SizedBox(
-            width: double.infinity,
-            height: 52,
-            child: FilledButton(
-              onPressed: selectedChoiceIndexes.isEmpty ? null : onSubmit,
-              style: FilledButton.styleFrom(
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16),
-                ),
-              ),
-              child: const Text(
-                'Kiểm tra',
-                style: TextStyle(fontSize: 13, fontWeight: FontWeight.w800),
-              ),
+        ),
+      ],
+    );
+  }
+}
+
+class _QuestionCardTitle extends StatelessWidget {
+  const _QuestionCardTitle({required this.title});
+
+  final String title;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      key: const Key('sentence-training-question-card-title'),
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        const Text(
+          '✦',
+          style: TextStyle(color: Color(0xFF8BC5FF), fontSize: 12, height: 1),
+        ),
+        const SizedBox(width: 9),
+        Flexible(
+          child: Text(
+            title,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              color: Color(0xFF176DEB),
+              fontSize: 10,
+              fontWeight: FontWeight.w800,
+              letterSpacing: 1.45,
             ),
           ),
+        ),
+        const SizedBox(width: 9),
+        const Text(
+          '✦',
+          style: TextStyle(color: Color(0xFF8BC5FF), fontSize: 12, height: 1),
         ),
       ],
     );
@@ -836,13 +1084,47 @@ class _ProgressBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(99),
-      child: LinearProgressIndicator(
-        value: value.clamp(0, 1),
-        minHeight: 7,
-        backgroundColor: const Color(0xFFDDE8FA),
-        color: const Color(0xFF56D8FF),
+    return Container(
+      key: const Key('sentence-training-progress-track'),
+      height: 23,
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 7),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: .66),
+        borderRadius: BorderRadius.circular(99),
+        border: Border.all(color: Colors.white.withValues(alpha: .74)),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(99),
+        child: ColoredBox(
+          color: const Color(0xFFD7E9FA),
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: TweenAnimationBuilder<double>(
+              tween: Tween<double>(end: value.clamp(0, 1).toDouble()),
+              duration: const Duration(milliseconds: 360),
+              curve: Curves.easeOutCubic,
+              builder: (context, progress, child) {
+                final visibleProgress = progress <= 0
+                    ? 0.0
+                    : (.07 + (progress * .93)).clamp(0.0, 1.0);
+                return FractionallySizedBox(
+                  key: const Key('sentence-training-progress-fill'),
+                  widthFactor: visibleProgress,
+                  heightFactor: 1,
+                  child: child,
+                );
+              },
+              child: const DecoratedBox(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.all(Radius.circular(99)),
+                  gradient: LinearGradient(
+                    colors: [Color(0xFF155CFF), Color(0xFF66CFF4)],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }
@@ -1031,12 +1313,33 @@ class _AnswerArea extends StatelessWidget {
                       ),
                     ),
                   ),
-                IconButton(
-                  onPressed: onRemoveLast,
-                  visualDensity: VisualDensity.compact,
-                  tooltip: 'Xóa từ cuối',
-                  icon: const Icon(Icons.backspace_outlined, size: 18),
-                  color: AppColors.textSecondary,
+                Material(
+                  color: const Color(0xFFFF4D5E),
+                  borderRadius: BorderRadius.circular(11),
+                  child: InkWell(
+                    key: const Key('sentence-training-remove-token-button'),
+                    onTap: onRemoveLast,
+                    borderRadius: BorderRadius.circular(11),
+                    child: Container(
+                      key: const Key(
+                        'sentence-training-remove-token-decoration',
+                      ),
+                      width: 40,
+                      height: 30,
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFFF4D5E),
+                        borderRadius: BorderRadius.circular(11),
+                        border: Border.all(color: const Color(0xFFFF6675)),
+                      ),
+                      alignment: Alignment.center,
+                      child: const Icon(
+                        Icons.backspace_outlined,
+                        size: 16,
+                        color: Colors.white,
+                        semanticLabel: 'Xóa từ cuối',
+                      ),
+                    ),
+                  ),
                 ),
               ],
             ),

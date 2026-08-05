@@ -32,6 +32,48 @@ void main() {
 
     expect(find.text('Leximon'), findsOneWidget);
     expect(find.text('Học tập'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('assets/images/tab_personal_inactive.png')),
+      findsOneWidget,
+    );
+    final selectedHomeIcon = tester.widget<AnimatedContainer>(
+      find.byKey(const ValueKey('bottom-nav-icon-Học tập')),
+    );
+    final selectedHomeDecoration =
+        selectedHomeIcon.decoration! as BoxDecoration;
+    final selectedGradient = selectedHomeDecoration.gradient! as LinearGradient;
+    expect(selectedGradient.colors, const [
+      Color(0xFF1658D3),
+      Color(0xFF2481FA),
+    ]);
+    expect(selectedGradient.begin, Alignment.topLeft);
+    expect(selectedGradient.end, Alignment.bottomRight);
+    expect(
+      tester
+          .widget<AnimatedScale>(
+            find.byKey(const ValueKey('bottom-nav-scale-Học tập')),
+          )
+          .scale,
+      1.08,
+    );
+
+    await tester.tap(find.text('Cá nhân'));
+    await tester.pump(const Duration(milliseconds: 250));
+    expect(
+      find.byKey(const ValueKey('assets/images/tab_personal_active.png')),
+      findsOneWidget,
+    );
+    expect(
+      tester
+          .widget<AnimatedScale>(
+            find.byKey(const ValueKey('bottom-nav-scale-Cá nhân')),
+          )
+          .scale,
+      1.08,
+    );
+
+    await tester.tap(find.text('Học tập'));
+    await tester.pump(const Duration(milliseconds: 250));
 
     final filterButton = find.byType(IconButton);
     await tester.ensureVisible(filterButton);
@@ -138,6 +180,21 @@ void main() {
     expect(find.text('Bước khởi động'), findsOneWidget);
     expect(find.text('0 / 24'), findsOneWidget);
     expect(find.text('Bắt đầu ôn tập'), findsOneWidget);
+    final practiceBackground = tester.widget<Image>(
+      find.byKey(const ValueKey('review-practice-background')),
+    );
+    expect(
+      (practiceBackground.image as AssetImage).assetName,
+      'assets/images/bg_word_study.png',
+    );
+    expect(
+      find.byKey(const Key('review-practice-close-button')),
+      findsOneWidget,
+    );
+    expect(
+      find.byKey(const Key('review-practice-start-button')),
+      findsOneWidget,
+    );
     expect(find.text('trip'), findsOneWidget);
     expect(find.text('chuyến đi'), findsOneWidget);
 
@@ -158,6 +215,38 @@ void main() {
     expect(find.text('Đáp án đúng'), findsOneWidget);
     expect(find.text('Chú ý'), findsOneWidget);
     expect(find.text('Tiếp tục'), findsOneWidget);
+  });
+
+  testWidgets('advances the visible practice progress on every question', (
+    tester,
+  ) async {
+    final words = _practiceWords();
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: ReviewPracticeScreen(
+          words: words,
+          distractorWords: words,
+          showIntroOnStart: false,
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    final progressFill = find.byKey(const Key('review-practice-progress-fill'));
+    final firstQuestionSize = tester.getSize(progressFill);
+    expect(firstQuestionSize.height, greaterThan(0));
+
+    await tester.tap(find.text('chuyến đi'));
+    await tester.pumpAndSettle();
+    await tester.ensureVisible(find.text('Tiếp tục'));
+    await tester.tap(find.text('Tiếp tục'));
+    await tester.pumpAndSettle();
+
+    expect(
+      tester.getSize(progressFill).width,
+      greaterThan(firstQuestionSize.width),
+    );
   });
 
   testWidgets('difficult practice only rebuilds the remaining error types', (
@@ -448,6 +537,12 @@ void main() {
     }
 
     expect(find.text('tr'), findsOneWidget);
+    final composingText = tester.widget<Text>(
+      find.byKey(const ValueKey('typing-composing-text')),
+    );
+    expect(composingText.maxLines, 1);
+    expect(composingText.softWrap, isFalse);
+    expect(composingText.overflow, TextOverflow.visible);
     await tester.tap(find.byKey(const ValueKey('typing-remove-last')));
     await tester.pumpAndSettle();
     expect(find.text('t'), findsNWidgets(2));
@@ -465,6 +560,77 @@ void main() {
       findsOneWidget,
     );
     expect(find.text('Tiếp tục'), findsOneWidget);
+  });
+
+  testWidgets('shrinks a long typing translation without an ellipsis', (
+    tester,
+  ) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(390, 844);
+    addTearDown(tester.view.reset);
+
+    final words = _practiceWords();
+    words[0] = {
+      ...words[0],
+      'translation': 'ăn uống bán phần (sáng + trưa hoặc tối)',
+    };
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: ReviewPracticeScreen(
+          words: words,
+          distractorWords: words,
+          initialQuestionIndex: 12,
+          showIntroOnStart: false,
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    final translation = tester.widget<Text>(
+      find.byKey(const ValueKey('typing-translation')),
+    );
+    expect(translation.style!.fontSize, lessThan(34));
+    expect(translation.overflow, TextOverflow.visible);
+    expect(translation.data, contains('hoặc tối'));
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('keeps a long composed word on one line', (tester) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(390, 844);
+    addTearDown(tester.view.reset);
+
+    final words = _practiceWords();
+    words[0] = {...words[0], 'writing': 'wwwwwwwwwwwwwwww'};
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: ReviewPracticeScreen(
+          words: words,
+          distractorWords: words,
+          initialQuestionIndex: 12,
+          showIntroOnStart: false,
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    for (var index = 0; index < 16; index++) {
+      final character = find.text('w').last;
+      await tester.ensureVisible(character);
+      await tester.tap(character);
+      await tester.pumpAndSettle();
+    }
+
+    final composedWord = tester.widget<Text>(
+      find.byKey(const ValueKey('typing-composing-text')),
+    );
+    expect(composedWord.style!.fontSize, lessThan(42));
+    expect(composedWord.maxLines, 1);
+    expect(composedWord.softWrap, isFalse);
+    expect(composedWord.overflow, TextOverflow.visible);
+    expect(tester.takeException(), isNull);
   });
 
   testWidgets('reduces repeated character badge as it is used', (tester) async {
