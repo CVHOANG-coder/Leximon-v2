@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/data/models/onboarding_vocabulary_test.dart';
+import 'package:leximon/data/models/sentence_exercise.dart';
 import 'package:leximon/data/services/onboarding_vocabulary_test_service.dart';
 import 'package:leximon/presentation/screens/onboarding/vocabulary_test_screen.dart';
 
@@ -27,6 +28,8 @@ void main() {
       for (final question in questions) {
         if (question.isConstructor) {
           expect(question.choices, isEmpty);
+          expect(question.sentenceExercise, isNotNull);
+          expect(question.sentenceExercise!.expectedTokens, isNotEmpty);
           continue;
         }
         final expectedChoiceCount =
@@ -85,7 +88,7 @@ void main() {
     );
   });
 
-  testWidgets('renders choices and allows constructor questions to continue', (
+  testWidgets('renders sentence constructor UI and allows it to continue', (
     tester,
   ) async {
     tester.view.devicePixelRatio = 1;
@@ -119,16 +122,59 @@ void main() {
     }
 
     expect(
-      find.byKey(const ValueKey('vocabulary-test-constructor-coming-soon')),
+      find.byKey(const ValueKey('vocabulary-test-sentence-constructor')),
       findsOneWidget,
     );
-    await tester.pump();
-    expect(find.text('Coming soon'), findsNWidgets(2));
-    await tester.tap(
-      find.byKey(const ValueKey('constructor-coming-soon-close')),
-    );
+    expect(find.text('GHÉP CÂU TIẾNG ANH'), findsOneWidget);
+    for (var index = 0; index < 4; index++) {
+      await tester.tap(
+        find.byKey(ValueKey('vocabulary-test-sentence-token-$index')),
+      );
+      await tester.pump();
+    }
+    expect(find.text('Kiểm tra'), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('vocabulary-test-next')));
+    await tester.pumpAndSettle();
+    expect(find.text('Chính xác!'), findsOneWidget);
+    expect(find.text('Câu trả lời của bạn'), findsOneWidget);
+    expect(find.text('Đáp án đúng'), findsOneWidget);
+    await tester.tap(find.text('Tiếp tục'));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('vocabulary-test-next')), findsOneWidget);
+  });
+
+  testWidgets('shows the wrong-answer sheet for an incorrect meaning choice', (
+    tester,
+  ) async {
+    tester.view.devicePixelRatio = 1;
+    tester.view.physicalSize = const Size(390, 844);
+    addTearDown(tester.view.reset);
+
+    await tester.pumpWidget(
+      MaterialApp(
+        home: VocabularyTestScreen(
+          startingBand: VocabularyStartingBand.beginner,
+          service: _FakeVocabularyTestService(),
+        ),
+      ),
+    );
+    await tester.pump();
+    await tester.pump(const Duration(seconds: 3));
+    await tester.pump();
+
+    await tester.tap(find.byKey(const ValueKey('vocabulary-test-choice-1')));
+    await tester.pump(const Duration(milliseconds: 450));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Chú ý'), findsOneWidget);
+    expect(find.text('CÂU TRẢ LỜI CỦA BẠN'), findsOneWidget);
+    expect(find.text('CÂU TRẢ LỜI ĐÚNG'), findsOneWidget);
+    expect(find.text('Sai 1'), findsNWidgets(2));
+    expect(find.text('Đúng'), findsNWidgets(2));
+
+    await tester.tap(find.text('Tiếp tục'));
+    await tester.pumpAndSettle();
+    expect(find.text('Chú ý'), findsNothing);
   });
 }
 
@@ -164,6 +210,26 @@ class _FakeVocabularyTestService extends OnboardingVocabularyTestService {
                 VocabularyTestChoice(text: 'Sai 2', isCorrect: false),
                 VocabularyTestChoice(text: 'Sai 3', isCorrect: false),
               ],
+        sentenceExercise: type == VocabularyTaskType.constructor
+            ? SentenceExercise(
+                sentence: SentenceRecord(
+                  translationId: 1,
+                  wordId: level.index * 10 + index,
+                  sentenceId: 1,
+                  spelling: 'Can I help you?',
+                  translation: 'Tôi có thể giúp bạn không?',
+                  difficulty: 0,
+                  wrongSpellings: const [],
+                  taskSpellings: const ['help'],
+                  task: 'Can I |help| you?',
+                  soundUrl: '',
+                  alternativeTranslations: const [],
+                ),
+                type: SentenceExerciseType.constructor,
+                choices: const ['Can', 'I', 'help', 'you?'],
+                expectedTokens: const ['Can', 'I', 'help', 'you?'],
+              )
+            : null,
       );
     });
   }

@@ -1,3 +1,5 @@
+import 'sentence_exercise.dart';
+
 enum VocabularyTaskType {
   text,
   inverseText,
@@ -98,6 +100,7 @@ class VocabularyTestQuestion {
     required this.translation,
     required this.transcription,
     required this.choices,
+    this.sentenceExercise,
   });
 
   final VocabularyTestDefinition definition;
@@ -105,8 +108,11 @@ class VocabularyTestQuestion {
   final String translation;
   final String transcription;
   final List<VocabularyTestChoice> choices;
+  final SentenceExercise? sentenceExercise;
 
   bool get isConstructor => definition.type == VocabularyTaskType.constructor;
+
+  bool get hasSentenceExercise => sentenceExercise != null;
 }
 
 class VocabularyAssessmentNode {

@@ -304,10 +304,12 @@ class LearningProgressService {
             : oldProgress.repetitionFastBrainDate;
         final onFastBrain = becameLearned || oldProgress.onFastBrain;
 
-        if (isSuccessful &&
-            dailyTaskType == DailyTaskType.repeat &&
-            oldProgress.repetitionStep > 0) {
-          repetitionStep = oldProgress.repetitionStep + 1;
+        if (isSuccessful && dailyTaskType == DailyTaskType.repeat) {
+          // Topic repetition can intentionally include words that have
+          // learning activity but have not entered the SRS schedule yet.
+          // Promote those words into the first repetition step instead of
+          // leaving them permanently stuck at step 0.
+          repetitionStep = max(oldProgress.repetitionStep + 1, 1);
           repetitionDate =
               now + _repetitionDelay(repetitionStep).inMilliseconds;
         }

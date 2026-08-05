@@ -3395,84 +3395,86 @@ class _TypingWrongAnswerSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      top: false,
-      child: Container(
-        padding: const EdgeInsets.fromLTRB(18, 18, 18, 22),
-        decoration: const BoxDecoration(
-          color: Color(0xFAFFFFFF),
-          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-          boxShadow: [
-            BoxShadow(
-              color: Color(0x1F163873),
-              blurRadius: 30,
-              offset: Offset(0, -12),
+    return Container(
+      padding: EdgeInsets.fromLTRB(
+        18,
+        18,
+        18,
+        22 + MediaQuery.paddingOf(context).bottom,
+      ),
+      decoration: const BoxDecoration(
+        color: Color(0xFAFFFFFF),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+        boxShadow: [
+          BoxShadow(
+            color: Color(0x1F163873),
+            blurRadius: 30,
+            offset: Offset(0, -12),
+          ),
+        ],
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Center(
+            child: Container(
+              width: 44,
+              height: 5,
+              decoration: BoxDecoration(
+                color: const Color(0xFFDFE7F3),
+                borderRadius: BorderRadius.circular(99),
+              ),
             ),
-          ],
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(
-              child: Container(
-                width: 44,
-                height: 5,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFDFE7F3),
-                  borderRadius: BorderRadius.circular(99),
+          ),
+          const SizedBox(height: 16),
+          const Text(
+            'Đáp án đúng',
+            style: TextStyle(
+              color: AppColors.textPrimary,
+              fontSize: 18,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          const SizedBox(height: 10),
+          Text.rich(
+            TextSpan(
+              text: '${question.word.writing} nghĩa là ',
+              children: [
+                TextSpan(
+                  text: question.word.translation,
+                  style: const TextStyle(fontWeight: FontWeight.w800),
+                ),
+                const TextSpan(
+                  text: '. Bạn có thể nghe lại phát âm để ghi nhớ tốt hơn.',
+                ),
+              ],
+            ),
+            style: const TextStyle(
+              color: Color(0xFF7E90AB),
+              fontSize: 13,
+              height: 1.5,
+            ),
+          ),
+          const SizedBox(height: 16),
+          Align(
+            alignment: Alignment.centerRight,
+            child: IconButton(
+              onPressed: () => onPlay(question.word),
+              icon: const Icon(Icons.volume_up_rounded),
+              color: const Color(0xFF1971FF),
+              style: IconButton.styleFrom(
+                fixedSize: const Size(36, 36),
+                backgroundColor: const Color(0xFFEDF4FF),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
                 ),
               ),
             ),
-            const SizedBox(height: 16),
-            const Text(
-              'Đáp án đúng',
-              style: TextStyle(
-                color: AppColors.textPrimary,
-                fontSize: 18,
-                fontWeight: FontWeight.w800,
-              ),
-            ),
-            const SizedBox(height: 10),
-            Text.rich(
-              TextSpan(
-                text: '${question.word.writing} nghĩa là ',
-                children: [
-                  TextSpan(
-                    text: question.word.translation,
-                    style: const TextStyle(fontWeight: FontWeight.w800),
-                  ),
-                  const TextSpan(
-                    text: '. Bạn có thể nghe lại phát âm để ghi nhớ tốt hơn.',
-                  ),
-                ],
-              ),
-              style: const TextStyle(
-                color: Color(0xFF7E90AB),
-                fontSize: 13,
-                height: 1.5,
-              ),
-            ),
-            const SizedBox(height: 16),
-            Align(
-              alignment: Alignment.centerRight,
-              child: IconButton(
-                onPressed: () => onPlay(question.word),
-                icon: const Icon(Icons.volume_up_rounded),
-                color: const Color(0xFF1971FF),
-                style: IconButton.styleFrom(
-                  fixedSize: const Size(36, 36),
-                  backgroundColor: const Color(0xFFEDF4FF),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-              ),
-            ),
-            const SizedBox(height: 16),
-            _ContinueButton(onPressed: onContinue, isLast: isLast),
-          ],
-        ),
+          ),
+          const SizedBox(height: 16),
+          _ContinueButton(onPressed: onContinue, isLast: isLast),
+        ],
       ),
     );
   }
@@ -3574,87 +3576,89 @@ class _ListeningWrongAnswerSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      top: false,
-      child: Container(
-        padding: const EdgeInsets.fromLTRB(18, 12, 18, 22),
-        decoration: const BoxDecoration(
-          color: Color(0xFAFFFFFF),
-          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-          boxShadow: [
-            BoxShadow(
-              color: Color(0x1F163873),
-              blurRadius: 30,
-              offset: Offset(0, -12),
+    return Container(
+      padding: EdgeInsets.fromLTRB(
+        18,
+        12,
+        18,
+        22 + MediaQuery.paddingOf(context).bottom,
+      ),
+      decoration: const BoxDecoration(
+        color: Color(0xFAFFFFFF),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+        boxShadow: [
+          BoxShadow(
+            color: Color(0x1F163873),
+            blurRadius: 30,
+            offset: Offset(0, -12),
+          ),
+        ],
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Center(
+            child: Container(
+              width: 48,
+              height: 5,
+              decoration: BoxDecoration(
+                color: const Color(0xFFDFE7F3),
+                borderRadius: BorderRadius.circular(99),
+              ),
             ),
-          ],
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(
-              child: Container(
-                width: 48,
-                height: 5,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFDFE7F3),
-                  borderRadius: BorderRadius.circular(99),
+          ),
+          const SizedBox(height: 16),
+          const Text(
+            'Nghe lại để phân biệt',
+            style: TextStyle(
+              color: AppColors.textPrimary,
+              fontSize: 17,
+              height: 1.1,
+              fontWeight: FontWeight.w800,
+              letterSpacing: -.5,
+            ),
+          ),
+          const SizedBox(height: 12),
+          Text.rich(
+            TextSpan(
+              text: 'Từ cần chọn là ',
+              children: [
+                TextSpan(
+                  text: question.word.writing,
+                  style: const TextStyle(fontWeight: FontWeight.w800),
                 ),
-              ),
+                const TextSpan(
+                  text:
+                      '. Hãy so sánh âm thanh bạn đã chọn với âm thanh đúng bên dưới.',
+                ),
+              ],
             ),
-            const SizedBox(height: 16),
-            const Text(
-              'Nghe lại để phân biệt',
-              style: TextStyle(
-                color: AppColors.textPrimary,
-                fontSize: 17,
-                height: 1.1,
-                fontWeight: FontWeight.w800,
-                letterSpacing: -.5,
-              ),
+            style: const TextStyle(
+              color: Color(0xFF6F84A2),
+              fontSize: 11,
+              height: 1.5,
             ),
-            const SizedBox(height: 12),
-            Text.rich(
-              TextSpan(
-                text: 'Từ cần chọn là ',
-                children: [
-                  TextSpan(
-                    text: question.word.writing,
-                    style: const TextStyle(fontWeight: FontWeight.w800),
-                  ),
-                  const TextSpan(
-                    text:
-                        '. Hãy so sánh âm thanh bạn đã chọn với âm thanh đúng bên dưới.',
-                  ),
-                ],
-              ),
-              style: const TextStyle(
-                color: Color(0xFF6F84A2),
-                fontSize: 11,
-                height: 1.5,
-              ),
-            ),
-            const SizedBox(height: 16),
-            _ListeningFeedbackCard(
-              label: 'Âm thanh bạn đã chọn',
-              audioLabel: _audioLabelFor(question, selectedAnswer),
-              word: selectedAnswer,
-              accent: const Color(0xFFEC5B42),
-              onPlay: () => onPlay(selectedAnswer),
-            ),
-            const SizedBox(height: 12),
-            _ListeningFeedbackCard(
-              label: 'Âm thanh đúng',
-              audioLabel: _audioLabelFor(question, question.word),
-              word: question.word,
-              accent: const Color(0xFF18B865),
-              onPlay: () => onPlay(question.word),
-            ),
-            const SizedBox(height: 16),
-            _ContinueButton(onPressed: onContinue, isLast: isLast),
-          ],
-        ),
+          ),
+          const SizedBox(height: 16),
+          _ListeningFeedbackCard(
+            label: 'Âm thanh bạn đã chọn',
+            audioLabel: _audioLabelFor(question, selectedAnswer),
+            word: selectedAnswer,
+            accent: const Color(0xFFEC5B42),
+            onPlay: () => onPlay(selectedAnswer),
+          ),
+          const SizedBox(height: 12),
+          _ListeningFeedbackCard(
+            label: 'Âm thanh đúng',
+            audioLabel: _audioLabelFor(question, question.word),
+            word: question.word,
+            accent: const Color(0xFF18B865),
+            onPlay: () => onPlay(question.word),
+          ),
+          const SizedBox(height: 16),
+          _ContinueButton(onPressed: onContinue, isLast: isLast),
+        ],
       ),
     );
   }
@@ -3759,73 +3763,75 @@ class _WrongAnswerSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      top: false,
-      child: Container(
-        padding: const EdgeInsets.fromLTRB(18, 12, 18, 22),
-        decoration: const BoxDecoration(
-          color: Color(0xFAFFFFFF),
-          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-          boxShadow: [
-            BoxShadow(
-              color: Color(0x1F163873),
-              blurRadius: 30,
-              offset: Offset(0, -12),
-            ),
-          ],
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(
-              child: Container(
-                width: 48,
-                height: 5,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFDFE7F3),
-                  borderRadius: BorderRadius.circular(99),
-                ),
+    return Container(
+      padding: EdgeInsets.fromLTRB(
+        18,
+        12,
+        18,
+        22 + MediaQuery.paddingOf(context).bottom,
+      ),
+      decoration: const BoxDecoration(
+        color: Color(0xFAFFFFFF),
+        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
+        boxShadow: [
+          BoxShadow(
+            color: Color(0x1F163873),
+            blurRadius: 30,
+            offset: Offset(0, -12),
+          ),
+        ],
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Center(
+            child: Container(
+              width: 48,
+              height: 5,
+              decoration: BoxDecoration(
+                color: const Color(0xFFDFE7F3),
+                borderRadius: BorderRadius.circular(99),
               ),
             ),
-            const SizedBox(height: 16),
-            const Text(
-              'Chú ý',
-              style: TextStyle(
-                color: AppColors.textPrimary,
-                fontSize: 17,
-                height: 1.1,
-                fontWeight: FontWeight.w800,
-                letterSpacing: -.5,
-              ),
+          ),
+          const SizedBox(height: 16),
+          const Text(
+            'Chú ý',
+            style: TextStyle(
+              color: AppColors.textPrimary,
+              fontSize: 17,
+              height: 1.1,
+              fontWeight: FontWeight.w800,
+              letterSpacing: -.5,
             ),
-            const SizedBox(height: 12),
-            const Text(
-              'Hãy nghe lại và ghi nhớ sự khác nhau giữa câu trả lời bạn chọn và đáp án đúng.',
-              style: TextStyle(
-                color: Color(0xFF6F84A2),
-                fontSize: 11,
-                height: 1.5,
-              ),
+          ),
+          const SizedBox(height: 12),
+          const Text(
+            'Hãy nghe lại và ghi nhớ sự khác nhau giữa câu trả lời bạn chọn và đáp án đúng.',
+            style: TextStyle(
+              color: Color(0xFF6F84A2),
+              fontSize: 11,
+              height: 1.5,
             ),
-            const SizedBox(height: 16),
-            _FeedbackCard(
-              label: 'Câu trả lời của bạn',
-              word: selectedAnswer,
-              accent: const Color(0xFFEC5B42),
-              onPlay: () => onPlay(selectedAnswer),
-            ),
-            const SizedBox(height: 12),
-            _FeedbackCard(
-              label: 'Câu trả lời đúng',
-              word: correctAnswer,
-              accent: const Color(0xFF18B865),
-              onPlay: () => onPlay(correctAnswer),
-            ),
-            const SizedBox(height: 16),
-            _ContinueButton(onPressed: onContinue, isLast: isLast),
-          ],
-        ),
+          ),
+          const SizedBox(height: 16),
+          _FeedbackCard(
+            label: 'Câu trả lời của bạn',
+            word: selectedAnswer,
+            accent: const Color(0xFFEC5B42),
+            onPlay: () => onPlay(selectedAnswer),
+          ),
+          const SizedBox(height: 12),
+          _FeedbackCard(
+            label: 'Câu trả lời đúng',
+            word: correctAnswer,
+            accent: const Color(0xFF18B865),
+            onPlay: () => onPlay(correctAnswer),
+          ),
+          const SizedBox(height: 16),
+          _ContinueButton(onPressed: onContinue, isLast: isLast),
+        ],
       ),
     );
   }

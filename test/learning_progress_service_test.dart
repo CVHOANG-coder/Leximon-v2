@@ -350,6 +350,47 @@ void main() {
     );
   });
 
+  test('starts repetition for a successful step-zero learning word', () async {
+    final now = DateTime.now().millisecondsSinceEpoch;
+    await database
+        .into(database.learningProgressModels)
+        .insert(
+          LearningProgressModelsCompanion.insert(
+            id: const Value(1),
+            creationDate: now - const Duration(days: 2).inMilliseconds,
+            trainingProgress: const Value(2),
+          ),
+        );
+    final exercise = _exercise(TrainingExerciseType.choiceOfFourFromEng);
+    final sessionId = await service.startSession(
+      exercises: [exercise],
+      requiredMask: LearningProgressService.maskForTypes([
+        exercise.trainingExercise,
+      ]),
+    );
+    await service.submitAnswer(
+      sessionId: sessionId,
+      orderIndex: 0,
+      answer: ExerciseAnswerState.correct,
+      createRetryOnWrong: false,
+    );
+
+    await service.completeSession(
+      sessionId,
+      dailyTaskType: DailyTaskType.repeat,
+    );
+    final progress = await database
+        .select(database.learningProgressModels)
+        .getSingle();
+
+    expect(progress.repetitionStep, 1);
+    expect(progress.repetitionDate, isNotNull);
+    expect(
+      progress.repetitionDate!,
+      greaterThanOrEqualTo(now + const Duration(days: 1).inMilliseconds),
+    );
+  });
+
   test('Fast Brain only increases the trained counter', () async {
     final now = DateTime.now().millisecondsSinceEpoch;
     await database
