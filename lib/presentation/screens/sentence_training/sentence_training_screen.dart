@@ -9,6 +9,8 @@ import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/models/sentence_exercise.dart';
 import '../../../data/services/sentence_ai_service.dart';
 import '../../../data/services/sentence_lesson_service.dart';
+import '../../../presentation/widgets/app_bottom_sheet.dart';
+import '../../../presentation/widgets/app_dialog.dart';
 import '../../../shared/providers/app_providers.dart';
 
 enum _SentenceScreenStage {
@@ -183,21 +185,15 @@ class _SentenceTrainingScreenState
   Future<void> _skipListeningExercises() async {
     final confirmed = await showDialog<bool>(
       context: context,
-      builder: (dialogContext) => AlertDialog(
-        title: const Text('Bỏ qua bài nghe?'),
-        content: const Text(
-          'Tất cả bài nghe còn lại trong phiên này sẽ được bỏ qua. Bạn vẫn có thể tiếp tục các dạng ghép câu khác.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(false),
-            child: const Text('Ở lại'),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.of(dialogContext).pop(true),
-            child: const Text('Bỏ qua bài nghe'),
-          ),
-        ],
+      builder: (dialogContext) => AppDialog(
+        icon: Icons.volume_off_rounded,
+        title: 'Bỏ qua bài nghe?',
+        message:
+            'Tất cả bài nghe còn lại trong phiên này sẽ được bỏ qua. Bạn vẫn có thể tiếp tục các dạng ghép câu khác.',
+        secondaryLabel: 'Ở lại',
+        onSecondary: () => Navigator.of(dialogContext).pop(false),
+        primaryLabel: 'Bỏ qua bài nghe',
+        onPrimary: () => Navigator.of(dialogContext).pop(true),
       ),
     );
     if (confirmed != true || !mounted) return;
@@ -254,21 +250,14 @@ class _SentenceTrainingScreenState
     }
     final leave = await showDialog<bool>(
       context: context,
-      builder: (dialogContext) => AlertDialog(
-        title: const Text('Dừng phiên ghép câu?'),
-        content: const Text(
-          'Kết quả của phiên chưa hoàn tất sẽ không được ghi nhận.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(false),
-            child: const Text('Tiếp tục học'),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.of(dialogContext).pop(true),
-            child: const Text('Thoát'),
-          ),
-        ],
+      builder: (dialogContext) => AppDialog(
+        imageAsset: 'assets/images/cancel_icon_dialog.png',
+        title: 'Dừng phiên ghép câu?',
+        message: 'Kết quả của phiên chưa hoàn tất sẽ không được ghi nhận.',
+        secondaryLabel: 'Tiếp tục học',
+        onSecondary: () => Navigator.of(dialogContext).pop(false),
+        primaryLabel: 'Thoát',
+        onPrimary: () => Navigator.of(dialogContext).pop(true),
       ),
     );
     if (leave == true && mounted) Navigator.of(context).pop();
@@ -1433,31 +1422,11 @@ class _AnswerSheetState extends State<_AnswerSheet> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(
-        18,
-        12,
-        18,
-        16 + MediaQuery.paddingOf(context).bottom,
-      ),
-      decoration: const BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-      ),
+    return AppBottomSheet(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(
-            child: Container(
-              width: 38,
-              height: 4,
-              decoration: BoxDecoration(
-                color: const Color(0xFFD7DFEE),
-                borderRadius: BorderRadius.circular(99),
-              ),
-            ),
-          ),
           const SizedBox(height: 16),
           Row(
             children: [

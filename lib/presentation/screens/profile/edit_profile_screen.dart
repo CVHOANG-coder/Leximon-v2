@@ -12,6 +12,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../core/services/app_settings_service.dart';
 import '../../../data/local/app_database.dart';
+import '../../../presentation/widgets/app_bottom_sheet.dart';
+import '../../../presentation/widgets/app_dialog.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
 
@@ -68,46 +70,30 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
     final source = await showModalBottomSheet<ImageSource>(
       context: context,
       backgroundColor: Colors.transparent,
-      builder: (context) => Container(
-        padding: const EdgeInsets.fromLTRB(18, 12, 18, 10),
-        decoration: const BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-        ),
-        child: SafeArea(
-          top: false,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Container(
-                width: 38,
-                height: 4,
-                decoration: BoxDecoration(
-                  color: AppColors.divider,
-                  borderRadius: BorderRadius.circular(99),
-                ),
+      builder: (context) => AppBottomSheet(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const SizedBox(height: 2),
+            const Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                'Chọn ảnh đại diện',
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
               ),
-              const SizedBox(height: 14),
-              const Align(
-                alignment: Alignment.centerLeft,
-                child: Text(
-                  'Chọn ảnh đại diện',
-                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
-                ),
-              ),
-              const SizedBox(height: 8),
-              _ImageSourceTile(
-                icon: Icons.photo_library_outlined,
-                title: 'Chọn từ thư viện',
-                onTap: () => Navigator.pop(context, ImageSource.gallery),
-              ),
-              _ImageSourceTile(
-                icon: Icons.photo_camera_outlined,
-                title: 'Chụp ảnh mới',
-                onTap: () => Navigator.pop(context, ImageSource.camera),
-              ),
-            ],
-          ),
+            ),
+            const SizedBox(height: 8),
+            _ImageSourceTile(
+              icon: Icons.photo_library_outlined,
+              title: 'Chọn từ thư viện',
+              onTap: () => Navigator.pop(context, ImageSource.gallery),
+            ),
+            _ImageSourceTile(
+              icon: Icons.photo_camera_outlined,
+              title: 'Chụp ảnh mới',
+              onTap: () => Navigator.pop(context, ImageSource.camera),
+            ),
+          ],
         ),
       ),
     );
@@ -184,25 +170,18 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
         : 'thư viện ảnh';
     await showDialog<void>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Cần cấp quyền'),
-        content: Text(
-          'Leximon chưa được cấp quyền truy cập $permissionName. '
-          'Bạn có thể bật quyền trong phần Cài đặt của ứng dụng.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Để sau'),
-          ),
-          FilledButton(
-            onPressed: () async {
-              Navigator.of(context).pop();
-              await AppSettingsService.openAppSettings();
-            },
-            child: const Text('Mở Cài đặt'),
-          ),
-        ],
+      builder: (context) => AppDialog(
+        icon: Icons.lock_outline_rounded,
+        title: 'Cần cấp quyền',
+        message:
+            'Leximon chưa được cấp quyền truy cập $permissionName. Bạn có thể bật quyền trong phần Cài đặt của ứng dụng.',
+        secondaryLabel: 'Để sau',
+        onSecondary: () => Navigator.of(context).pop(),
+        primaryLabel: 'Mở Cài đặt',
+        onPrimary: () async {
+          Navigator.of(context).pop();
+          await AppSettingsService.openAppSettings();
+        },
       ),
     );
   }

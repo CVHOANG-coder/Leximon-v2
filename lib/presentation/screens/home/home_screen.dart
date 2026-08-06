@@ -10,6 +10,7 @@ import '../../../data/models/practice_exercise.dart';
 import '../../../data/models/sentence_exercise.dart';
 import '../../../data/services/additional_task_service.dart';
 import '../../../data/services/daily_card_service.dart';
+import '../../../presentation/widgets/app_bottom_sheet.dart';
 import '../../../data/services/home_main_task_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
@@ -1279,137 +1280,119 @@ class _AdditionalTasksSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.fromLTRB(18, 10, 18, 14),
-      decoration: const BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-      ),
-      child: SafeArea(
-        top: false,
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Center(
-              child: Container(
-                width: 38,
-                height: 4,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFD7DFEE),
-                  borderRadius: BorderRadius.circular(99),
+    return AppBottomSheet(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const SizedBox(height: 2),
+          Row(
+            children: [
+              const Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Nhiệm vụ bổ sung',
+                      style: TextStyle(
+                        color: AppColors.textPrimary,
+                        fontSize: 22,
+                        fontWeight: FontWeight.w700,
+                        letterSpacing: -.5,
+                      ),
+                    ),
+                    SizedBox(height: 4),
+                    Text(
+                      'Chọn một cách để tiếp tục luyện tập.',
+                      style: TextStyle(
+                        color: AppColors.textSecondary,
+                        fontSize: 11,
+                      ),
+                    ),
+                  ],
                 ),
               ),
-            ),
-            const SizedBox(height: 14),
-            Row(
-              children: [
-                const Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Nhiệm vụ bổ sung',
-                        style: TextStyle(
-                          color: AppColors.textPrimary,
-                          fontSize: 22,
-                          fontWeight: FontWeight.w700,
-                          letterSpacing: -.5,
-                        ),
-                      ),
-                      SizedBox(height: 4),
-                      Text(
-                        'Chọn một cách để tiếp tục luyện tập.',
-                        style: TextStyle(
-                          color: AppColors.textSecondary,
-                          fontSize: 11,
-                        ),
-                      ),
-                    ],
-                  ),
+              IconButton(
+                onPressed: () => Navigator.of(context).pop(),
+                icon: const Icon(Icons.close_rounded),
+                style: IconButton.styleFrom(
+                  backgroundColor: const Color(0xFFF1F5FC),
+                  foregroundColor: AppColors.textSecondary,
                 ),
-                IconButton(
-                  onPressed: () => Navigator.of(context).pop(),
-                  icon: const Icon(Icons.close_rounded),
-                  style: IconButton.styleFrom(
-                    backgroundColor: const Color(0xFFF1F5FC),
-                    foregroundColor: AppColors.textSecondary,
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 16),
-            ...types.map(
-              (type) => Padding(
-                padding: const EdgeInsets.only(bottom: 9),
-                child: Material(
-                  color: const Color(0xFFF7F9FE),
+              ),
+            ],
+          ),
+          const SizedBox(height: 16),
+          ...types.map(
+            (type) => Padding(
+              padding: const EdgeInsets.only(bottom: 9),
+              child: Material(
+                color: const Color(0xFFF7F9FE),
+                borderRadius: BorderRadius.circular(18),
+                child: InkWell(
+                  onTap: () => Navigator.of(context).pop(type),
                   borderRadius: BorderRadius.circular(18),
-                  child: InkWell(
-                    onTap: () => Navigator.of(context).pop(type),
-                    borderRadius: BorderRadius.circular(18),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 12,
-                        vertical: 11,
-                      ),
-                      child: Row(
-                        children: [
-                          Container(
-                            width: 42,
-                            height: 42,
-                            alignment: Alignment.center,
-                            decoration: BoxDecoration(
-                              color: _additionalTaskColor(
-                                type,
-                              ).withValues(alpha: .12),
-                              borderRadius: BorderRadius.circular(14),
-                            ),
-                            child: Icon(
-                              _dailyTaskIcon(type),
-                              color: _additionalTaskColor(type),
-                              size: 21,
-                            ),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 12,
+                      vertical: 11,
+                    ),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 42,
+                          height: 42,
+                          alignment: Alignment.center,
+                          decoration: BoxDecoration(
+                            color: _additionalTaskColor(
+                              type,
+                            ).withValues(alpha: .12),
+                            borderRadius: BorderRadius.circular(14),
                           ),
-                          const SizedBox(width: 12),
-                          Expanded(
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text(
-                                  _additionalTaskLabel(type),
-                                  style: const TextStyle(
-                                    color: AppColors.textPrimary,
-                                    fontSize: 13,
-                                    fontWeight: FontWeight.w700,
-                                  ),
+                          child: Icon(
+                            _dailyTaskIcon(type),
+                            color: _additionalTaskColor(type),
+                            size: 21,
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                _additionalTaskLabel(type),
+                                style: const TextStyle(
+                                  color: AppColors.textPrimary,
+                                  fontSize: 13,
+                                  fontWeight: FontWeight.w700,
                                 ),
-                                const SizedBox(height: 3),
-                                Text(
-                                  _additionalTaskDescription(type),
-                                  style: const TextStyle(
-                                    color: AppColors.textSecondary,
-                                    fontSize: 10,
-                                    height: 1.3,
-                                  ),
+                              ),
+                              const SizedBox(height: 3),
+                              Text(
+                                _additionalTaskDescription(type),
+                                style: const TextStyle(
+                                  color: AppColors.textSecondary,
+                                  fontSize: 10,
+                                  height: 1.3,
                                 ),
-                              ],
-                            ),
+                              ),
+                            ],
                           ),
-                          const SizedBox(width: 8),
-                          const Icon(
-                            Icons.chevron_right_rounded,
-                            color: AppColors.textMuted,
-                          ),
-                        ],
-                      ),
+                        ),
+                        const SizedBox(width: 8),
+                        const Icon(
+                          Icons.chevron_right_rounded,
+                          color: AppColors.textMuted,
+                        ),
+                      ],
                     ),
                   ),
                 ),
               ),
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

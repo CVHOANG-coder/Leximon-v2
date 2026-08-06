@@ -19,6 +19,29 @@ ThemeData buildAppTheme() {
       elevation: 0,
       scrolledUnderElevation: 0,
     ),
+    dialogTheme: DialogThemeData(
+      backgroundColor: Colors.white,
+      surfaceTintColor: Colors.transparent,
+      elevation: 18,
+      shadowColor: Color(0x332C65A4),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.all(Radius.circular(28)),
+      ),
+      insetPadding: EdgeInsets.symmetric(horizontal: 24, vertical: 24),
+      actionsPadding: EdgeInsets.fromLTRB(20, 0, 20, 18),
+      titleTextStyle: TextStyle(
+        color: AppColors.textPrimary,
+        fontSize: 20,
+        height: 1.2,
+        fontWeight: FontWeight.w800,
+      ),
+      contentTextStyle: TextStyle(
+        color: AppColors.textSecondary,
+        fontSize: 14,
+        height: 1.45,
+        fontWeight: FontWeight.w500,
+      ),
+    ),
     navigationBarTheme: NavigationBarThemeData(
       backgroundColor: Colors.white.withValues(alpha: .94),
       indicatorColor: AppColors.primary,

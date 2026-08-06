@@ -1,11 +1,17 @@
 import 'dart:async';
 
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lottie/lottie.dart';
+
+import '../../../core/services/daily_notification_service.dart';
+import '../../../data/models/topic.dart';
+import '../../../presentation/widgets/leximon_widgets.dart';
+import '../../../shared/providers/app_providers.dart';
 
 class SurveyCarouselScreen extends ConsumerStatefulWidget {
   const SurveyCarouselScreen({super.key});
@@ -19,19 +25,22 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
   static const _pageCount = 16;
 
   final PageController _pageController = PageController();
-  final Set<int> _selectedGoals = {0};
-  final Set<int> _selectedLearningMethods = {1, 2, 3};
-  final Set<int> _selectedChallenges = {0, 2, 3};
+  final Set<int> _selectedGoals = {};
+  final Set<int> _selectedLearningMethods = {};
+  final Set<int> _selectedChallenges = {};
   final Set<int> _selectedBarriers = {};
-  final Set<int> _selectedTopics = {0, 1, 2, 3, 4, 5};
+  final Set<int> _selectedTopics = {};
 
   int _currentPage = 0;
   int? _selectedAge;
-  int _selectedFrequency = 2;
-  int _selectedResultTimeline = 0;
-  int _selectedDailyStudyTime = 1;
+  int? _selectedFrequency;
+  int? _selectedResultTimeline;
+  int? _selectedDailyStudyTime;
   double _preferredStudyMinutes = 19 * 60 + 50;
+  bool _preferredStudyTimeSelected = false;
   bool _isFinishing = false;
+  Offset? _swipeStartPosition;
+  bool _notificationPermissionRequested = false;
 
   @override
   void dispose() {
@@ -39,7 +48,31 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
     super.dispose();
   }
 
+  bool get _canContinue {
+    return switch (_currentPage) {
+      0 => _selectedAge != null,
+      1 => _selectedGoals.isNotEmpty,
+      3 => _selectedFrequency != null,
+      4 => _selectedLearningMethods.isNotEmpty,
+      6 => _selectedResultTimeline != null,
+      7 => _selectedDailyStudyTime != null,
+      9 => _preferredStudyTimeSelected,
+      11 => _selectedChallenges.isNotEmpty,
+      12 => _selectedBarriers.isNotEmpty,
+      13 => _selectedTopics.isNotEmpty,
+      _ => true,
+    };
+  }
+
   Future<void> _continue() async {
+    if (!_canContinue) return;
+
+    if (_currentPage == 13) {
+      final selectedOrders = {..._selectedTopics};
+      ref.read(selectedTopicOrdersProvider.notifier).state = selectedOrders;
+      unawaited(_persistSelectedTopics(selectedOrders));
+    }
+
     if (_currentPage < _pageCount - 1) {
       await _pageController.nextPage(
         duration: const Duration(milliseconds: 420),
@@ -50,8 +83,33 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
 
     if (_isFinishing) return;
     setState(() => _isFinishing = true);
-    if (!mounted) return;
-    context.go('/onboarding/assessment-intro/survey/free-trial');
+    try {
+      await ref.read(appLanguageServiceProvider).completeCarousel();
+      if (!mounted) return;
+      context.go('/onboarding/assessment-intro/survey/free-trial');
+    } on Object {
+      if (!mounted) return;
+      setState(() => _isFinishing = false);
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Không thể lưu tiến độ. Vui lòng thử lại.'),
+        ),
+      );
+    }
+  }
+
+  Future<void> _persistSelectedTopics(Set<int> selectedOrders) async {
+    try {
+      await ref.read(localDataInitializationProvider.future);
+      await ref
+          .read(topicRepositoryProvider)
+          .saveSelectedTopicOrders(selectedOrders);
+    } on Object {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Không thể lưu chủ đề đã chọn.')),
+      );
+    }
   }
 
   Future<void> _goToPreviousPage() async {
@@ -60,6 +118,46 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
       duration: const Duration(milliseconds: 420),
       curve: Curves.easeInOutCubic,
     );
+  }
+
+  void _handlePointerDown(PointerDownEvent event) {
+    _swipeStartPosition = event.position;
+  }
+
+  void _handlePointerUp(PointerUpEvent event) {
+    final startPosition = _swipeStartPosition;
+    _swipeStartPosition = null;
+    if (startPosition == null || _currentPage == _pageCount - 1) return;
+
+    final delta = event.position - startPosition;
+    final isHorizontalSwipe =
+        delta.dx.abs() >= 48 && delta.dx.abs() > delta.dy.abs() * 1.2;
+    if (!isHorizontalSwipe) return;
+
+    if (delta.dx < 0) {
+      unawaited(_continue());
+    } else {
+      unawaited(_goToPreviousPage());
+    }
+  }
+
+  void _handlePageChanged(int page) {
+    setState(() => _currentPage = page);
+    if (page == 10 && !_notificationPermissionRequested) {
+      _notificationPermissionRequested = true;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        unawaited(_requestNotificationPermission());
+      });
+    }
+  }
+
+  Future<void> _requestNotificationPermission() async {
+    try {
+      await DailyNotificationService.instance.requestPermission();
+    } on Object {
+      // Permission is optional during onboarding. A native/plugin failure
+      // must not interrupt the survey flow.
+    }
   }
 
   @override
@@ -104,129 +202,144 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                   _SurveyProgressIndicator(currentPage: _currentPage),
                   const SizedBox(height: 25),
                   Expanded(
-                    child: PageView(
-                      key: const ValueKey('survey-carousel'),
-                      controller: _pageController,
-                      physics: _currentPage == 15
-                          ? const NeverScrollableScrollPhysics()
-                          : const PageScrollPhysics(),
-                      onPageChanged: (page) {
-                        setState(() => _currentPage = page);
-                      },
-                      children: [
-                        _AgeSurveyPage(
-                          selectedAge: _selectedAge,
-                          onSelected: (index) {
-                            setState(() => _selectedAge = index);
+                    child: Listener(
+                      onPointerDown: _handlePointerDown,
+                      onPointerUp: _handlePointerUp,
+                      onPointerCancel: (_) => _swipeStartPosition = null,
+                      child: PageView(
+                        key: const ValueKey('survey-carousel'),
+                        controller: _pageController,
+                        physics: const NeverScrollableScrollPhysics(),
+                        scrollBehavior: const MaterialScrollBehavior().copyWith(
+                          dragDevices: {
+                            PointerDeviceKind.touch,
+                            PointerDeviceKind.mouse,
+                            PointerDeviceKind.trackpad,
                           },
                         ),
-                        _GoalSurveyPage(
-                          selectedGoals: _selectedGoals,
-                          onToggle: (index) {
-                            setState(() {
-                              if (!_selectedGoals.add(index)) {
-                                _selectedGoals.remove(index);
-                              }
-                            });
-                          },
-                        ),
-                        const _SurveySummaryPage(),
-                        _FrequencySurveyPage(
-                          selectedFrequency: _selectedFrequency,
-                          onSelected: (index) {
-                            setState(() => _selectedFrequency = index);
-                          },
-                        ),
-                        _LearningHistorySurveyPage(
-                          selectedMethods: _selectedLearningMethods,
-                          onToggle: (index) {
-                            setState(() {
-                              if (!_selectedLearningMethods.add(index)) {
-                                _selectedLearningMethods.remove(index);
-                              }
-                            });
-                          },
-                        ),
-                        _KnowledgeJourneyPage(isActive: _currentPage == 5),
-                        _ResultTimelineSurveyPage(
-                          selectedTimeline: _selectedResultTimeline,
-                          onSelected: (index) {
-                            setState(() => _selectedResultTimeline = index);
-                          },
-                        ),
-                        _DailyStudyTimeSurveyPage(
-                          selectedStudyTime: _selectedDailyStudyTime,
-                          onSelected: (index) {
-                            setState(() => _selectedDailyStudyTime = index);
-                          },
-                        ),
-                        _StudyHabitPage(isActive: _currentPage == 8),
-                        _PreferredStudyTimePage(
-                          isActive: _currentPage == 9,
-                          selectedMinutes: _preferredStudyMinutes,
-                          onChanged: (minutes) {
-                            setState(() => _preferredStudyMinutes = minutes);
-                          },
-                        ),
-                        _StudyReminderPage(isActive: _currentPage == 10),
-                        _EnglishChallengePage(
-                          selectedChallenges: _selectedChallenges,
-                          onToggle: (index) {
-                            setState(() {
-                              if (!_selectedChallenges.add(index)) {
-                                _selectedChallenges.remove(index);
-                              }
-                            });
-                          },
-                        ),
-                        _LearningBarrierPage(
-                          selectedBarriers: _selectedBarriers,
-                          onToggle: (index) {
-                            setState(() {
-                              const noBarrierIndex = 5;
-                              if (index == noBarrierIndex) {
-                                if (!_selectedBarriers.remove(index)) {
-                                  _selectedBarriers
-                                    ..clear()
-                                    ..add(index);
+                        onPageChanged: _handlePageChanged,
+                        children: [
+                          _AgeSurveyPage(
+                            selectedAge: _selectedAge,
+                            onSelected: (index) {
+                              setState(() => _selectedAge = index);
+                            },
+                          ),
+                          _GoalSurveyPage(
+                            selectedGoals: _selectedGoals,
+                            onToggle: (index) {
+                              setState(() {
+                                if (!_selectedGoals.add(index)) {
+                                  _selectedGoals.remove(index);
                                 }
-                                return;
-                              }
+                              });
+                            },
+                          ),
+                          const _SurveySummaryPage(),
+                          _FrequencySurveyPage(
+                            selectedFrequency: _selectedFrequency,
+                            onSelected: (index) {
+                              setState(() => _selectedFrequency = index);
+                            },
+                          ),
+                          _LearningHistorySurveyPage(
+                            selectedMethods: _selectedLearningMethods,
+                            onToggle: (index) {
+                              setState(() {
+                                if (!_selectedLearningMethods.add(index)) {
+                                  _selectedLearningMethods.remove(index);
+                                }
+                              });
+                            },
+                          ),
+                          _KnowledgeJourneyPage(isActive: _currentPage == 5),
+                          _ResultTimelineSurveyPage(
+                            selectedTimeline: _selectedResultTimeline,
+                            onSelected: (index) {
+                              setState(() => _selectedResultTimeline = index);
+                            },
+                          ),
+                          _DailyStudyTimeSurveyPage(
+                            selectedStudyTime: _selectedDailyStudyTime,
+                            onSelected: (index) {
+                              setState(() => _selectedDailyStudyTime = index);
+                            },
+                          ),
+                          _StudyHabitPage(isActive: _currentPage == 8),
+                          _PreferredStudyTimePage(
+                            isActive: _currentPage == 9,
+                            selectedMinutes: _preferredStudyMinutes,
+                            onChanged: (minutes) {
+                              setState(() {
+                                _preferredStudyMinutes = minutes;
+                                _preferredStudyTimeSelected = true;
+                              });
+                            },
+                          ),
+                          _StudyReminderPage(isActive: _currentPage == 10),
+                          _EnglishChallengePage(
+                            selectedChallenges: _selectedChallenges,
+                            onToggle: (index) {
+                              setState(() {
+                                if (!_selectedChallenges.add(index)) {
+                                  _selectedChallenges.remove(index);
+                                }
+                              });
+                            },
+                          ),
+                          _LearningBarrierPage(
+                            selectedBarriers: _selectedBarriers,
+                            onToggle: (index) {
+                              setState(() {
+                                const noBarrierIndex = 5;
+                                if (index == noBarrierIndex) {
+                                  if (!_selectedBarriers.remove(index)) {
+                                    _selectedBarriers
+                                      ..clear()
+                                      ..add(index);
+                                  }
+                                  return;
+                                }
 
-                              _selectedBarriers.remove(noBarrierIndex);
-                              if (!_selectedBarriers.add(index)) {
-                                _selectedBarriers.remove(index);
-                              }
-                            });
-                          },
-                        ),
-                        _TopicSelectionPage(
-                          selectedTopics: _selectedTopics,
-                          onToggle: (index) {
-                            setState(() {
-                              if (!_selectedTopics.add(index)) {
-                                _selectedTopics.remove(index);
-                              }
-                            });
-                          },
-                          onToggleAll: () {
-                            setState(() {
-                              if (_selectedTopics.length == 8) {
-                                _selectedTopics.clear();
-                              } else {
-                                _selectedTopics
-                                  ..clear()
-                                  ..addAll(List.generate(8, (index) => index));
-                              }
-                            });
-                          },
-                        ),
-                        const _SocialProofPage(),
-                        _AnalysisLoadingPage(
-                          isActive: _currentPage == 15,
-                          onCompleted: _continue,
-                        ),
-                      ],
+                                _selectedBarriers.remove(noBarrierIndex);
+                                if (!_selectedBarriers.add(index)) {
+                                  _selectedBarriers.remove(index);
+                                }
+                              });
+                            },
+                          ),
+                          _TopicSelectionPage(
+                            selectedTopics: _selectedTopics,
+                            onToggle: (index) {
+                              setState(() {
+                                if (!_selectedTopics.add(index)) {
+                                  _selectedTopics.remove(index);
+                                }
+                              });
+                            },
+                            onToggleAll: (topics) {
+                              setState(() {
+                                final topicOrders = topics
+                                    .map((topic) => topic.order)
+                                    .toSet();
+                                if (_selectedTopics.length ==
+                                    topicOrders.length) {
+                                  _selectedTopics.clear();
+                                } else {
+                                  _selectedTopics
+                                    ..clear()
+                                    ..addAll(topicOrders);
+                                }
+                              });
+                            },
+                          ),
+                          const _SocialProofPage(),
+                          _AnalysisLoadingPage(
+                            isActive: _currentPage == 15,
+                            onCompleted: _continue,
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                   if (_currentPage != 15)
@@ -243,6 +356,7 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                         },
                         showArrow: _currentPage == 5,
                         useBlueGradient: _currentPage == 14,
+                        enabled: _canContinue,
                         isLoading: _isFinishing,
                         onTap: _continue,
                       ),
@@ -583,7 +697,7 @@ class _FrequencySurveyPage extends StatelessWidget {
     (label: 'Không bao giờ dùng', asset: 'assets/images/onboarding/never.png'),
   ];
 
-  final int selectedFrequency;
+  final int? selectedFrequency;
   final ValueChanged<int> onSelected;
 
   @override
@@ -914,7 +1028,7 @@ class _ResultTimelineSurveyPage extends StatelessWidget {
     ),
   ];
 
-  final int selectedTimeline;
+  final int? selectedTimeline;
   final ValueChanged<int> onSelected;
 
   @override
@@ -1070,7 +1184,7 @@ class _DailyStudyTimeSurveyPage extends StatelessWidget {
     (label: 'Hơn 1 giờ', asset: 'assets/images/onboarding/many_hours.png'),
   ];
 
-  final int selectedStudyTime;
+  final int? selectedStudyTime;
   final ValueChanged<int> onSelected;
 
   @override
@@ -2442,42 +2556,39 @@ class _SocialReviewCard extends StatelessWidget {
   }
 }
 
-class _TopicSelectionPage extends StatelessWidget {
+class _TopicSelectionPage extends ConsumerWidget {
   const _TopicSelectionPage({
     required this.selectedTopics,
     required this.onToggle,
     required this.onToggleAll,
   });
 
-  static const _topics = [
-    (label: 'Du lịch', asset: 'assets/svgs/travel.svg'),
-    (label: 'Mua sắm', asset: 'assets/svgs/shopping.svg'),
-    (
-      label: 'Khi đi phỏng vấn xin việc',
-      asset: 'assets/svgs/in_a_job_interview.svg',
-    ),
-    (
-      label: 'Kinh doanh và Tài chính',
-      asset: 'assets/svgs/business_and_finance.svg',
-    ),
-    (label: 'Gia đình và Bạn bè', asset: 'assets/svgs/family_and_friends.svg'),
-    (label: 'Giao tiếp', asset: 'assets/svgs/communication.svg'),
-    (
-      label: 'Trường học và Đại học',
-      asset: 'assets/svgs/school_and_university.svg',
-    ),
-    (
-      label: 'Lao động và Việc làm',
-      asset: 'assets/svgs/work_and_employment.svg',
-    ),
-  ];
-
   final Set<int> selectedTopics;
   final ValueChanged<int> onToggle;
-  final VoidCallback onToggleAll;
+  final ValueChanged<List<Topic>> onToggleAll;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final topicsAsync = ref.watch(onboardingTopicsProvider);
+
+    return topicsAsync.when(
+      loading: () => const Center(
+        child: Padding(
+          padding: EdgeInsets.only(top: 100),
+          child: CircularProgressIndicator(color: Colors.white),
+        ),
+      ),
+      error: (error, stackTrace) => const Center(
+        child: Text(
+          'Không thể tải chủ đề.',
+          style: TextStyle(color: Colors.white, fontSize: 16),
+        ),
+      ),
+      data: (topics) => _buildTopicList(context, topics),
+    );
+  }
+
+  Widget _buildTopicList(BuildContext context, List<Topic> topics) {
     return SingleChildScrollView(
       padding: const EdgeInsets.symmetric(horizontal: 28),
       child: Column(
@@ -2508,20 +2619,24 @@ class _TopicSelectionPage extends StatelessWidget {
           const SizedBox(height: 18),
           _TopicSelectAllCard(
             key: const ValueKey('survey-topic-select-all'),
-            selectedCount: selectedTopics.length,
-            totalCount: _topics.length,
-            onTap: onToggleAll,
+            selectedCount: topics
+                .where((topic) => selectedTopics.contains(topic.order))
+                .length,
+            totalCount: topics.length,
+            onTap: () => onToggleAll(topics),
           ),
           const SizedBox(height: 10),
-          for (var index = 0; index < _topics.length; index++) ...[
+          for (var index = 0; index < topics.length; index++) ...[
             _TopicOptionCard(
-              key: ValueKey('survey-topic-$index'),
-              label: _topics[index].label,
-              imageAsset: _topics[index].asset,
-              selected: selectedTopics.contains(index),
-              onTap: () => onToggle(index),
+              key: ValueKey('survey-topic-${topics[index].order}'),
+              label: topics[index].translated.isNotEmpty
+                  ? topics[index].translated
+                  : topics[index].original,
+              imageAsset: topicIconAsset(topics[index]),
+              selected: selectedTopics.contains(topics[index].order),
+              onTap: () => onToggle(topics[index].order),
             ),
-            if (index != _topics.length - 1) const SizedBox(height: 6),
+            if (index != topics.length - 1) const SizedBox(height: 6),
           ],
         ],
       ),
@@ -3398,6 +3513,7 @@ class _SurveyContinueButton extends StatelessWidget {
     required this.label,
     required this.showArrow,
     required this.useBlueGradient,
+    required this.enabled,
     required this.isLoading,
     required this.onTap,
   });
@@ -3405,17 +3521,23 @@ class _SurveyContinueButton extends StatelessWidget {
   final String label;
   final bool showArrow;
   final bool useBlueGradient;
+  final bool enabled;
   final bool isLoading;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
+    final isEnabled = enabled && !isLoading;
     return SizedBox(
       width: double.infinity,
       height: 56,
       child: DecoratedBox(
         decoration: BoxDecoration(
-          gradient: useBlueGradient
+          gradient: !isEnabled
+              ? const LinearGradient(
+                  colors: [Color(0xFFD9E2EC), Color(0xFFEEF3F8)],
+                )
+              : useBlueGradient
               ? const LinearGradient(
                   colors: [
                     Color(0xFF1846F5),
@@ -3431,21 +3553,26 @@ class _SurveyContinueButton extends StatelessWidget {
                   ],
                 ),
           borderRadius: BorderRadius.circular(34),
-          border: Border.all(color: Colors.white, width: 1.5),
-          boxShadow: const [
-            BoxShadow(
-              color: Color(0x701B8CFF),
-              blurRadius: 26,
-              offset: Offset(0, 10),
-            ),
-          ],
+          border: Border.all(
+            color: isEnabled ? Colors.white : const Color(0xFFC9D5E1),
+            width: 1.5,
+          ),
+          boxShadow: isEnabled
+              ? const [
+                  BoxShadow(
+                    color: Color(0x701B8CFF),
+                    blurRadius: 26,
+                    offset: Offset(0, 10),
+                  ),
+                ]
+              : null,
         ),
         child: Material(
           color: Colors.transparent,
           borderRadius: BorderRadius.circular(34),
           child: InkWell(
             key: const ValueKey('survey-carousel-continue'),
-            onTap: isLoading ? null : onTap,
+            onTap: isEnabled ? onTap : null,
             borderRadius: BorderRadius.circular(34),
             child: Stack(
               alignment: Alignment.center,
@@ -3455,8 +3582,10 @@ class _SurveyContinueButton extends StatelessWidget {
                     dimension: 24,
                     child: CircularProgressIndicator(
                       color: useBlueGradient
-                          ? Colors.white
-                          : const Color(0xFF1263F4),
+                          ? (isEnabled ? Colors.white : const Color(0xFF8393A5))
+                          : (isEnabled
+                                ? const Color(0xFF1263F4)
+                                : const Color(0xFF8393A5)),
                       strokeWidth: 2.5,
                     ),
                   )
@@ -3466,8 +3595,10 @@ class _SurveyContinueButton extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: useBlueGradient
-                          ? Colors.white
-                          : const Color(0xFF1263F4),
+                          ? (isEnabled ? Colors.white : const Color(0xFF8393A5))
+                          : (isEnabled
+                                ? const Color(0xFF1263F4)
+                                : const Color(0xFF8393A5)),
                       fontSize: label.length > 10 ? 18 : 19,
                       fontWeight: FontWeight.w700,
                     ),

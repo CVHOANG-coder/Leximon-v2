@@ -10,6 +10,7 @@ import '../../../data/models/practice_exercise.dart';
 import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/learning_progress_service.dart';
 import '../../../data/services/practice_lesson_generator.dart';
+import '../../../presentation/widgets/app_dialog.dart';
 
 class RepetitionPracticeScreen extends StatefulWidget {
   const RepetitionPracticeScreen({
@@ -53,7 +54,6 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
   int _correctCount = 0;
   int _countdownValue = 3;
   int _dailyRepeatedCount = 0;
-  int _dailyRepeatGoal = 0;
   double _secondsLeft = _questionSeconds;
   ExerciseWord? _selectedAnswer;
   bool _isAnswerSubmitted = false;
@@ -285,7 +285,6 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
     setState(() {
       _sessionId = null;
       _dailyRepeatedCount = visit?.repeatedWordsCount ?? 0;
-      _dailyRepeatGoal = visit?.repeatWordsGoal ?? 0;
       _phase = _RepetitionPhase.done;
     });
   }
@@ -365,21 +364,14 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
     }
     final shouldLeave = await showDialog<bool>(
       context: context,
-      builder: (dialogContext) => AlertDialog(
-        title: const Text('Thoát buổi ôn?'),
-        content: const Text(
-          'Tiến độ của nhóm hiện tại sẽ không được ghi nhận.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(false),
-            child: const Text('Ở lại'),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.of(dialogContext).pop(true),
-            child: const Text('Thoát'),
-          ),
-        ],
+      builder: (dialogContext) => AppDialog(
+        imageAsset: 'assets/images/cancel_icon_dialog.png',
+        title: 'Thoát buổi ôn?',
+        message: 'Tiến độ của nhóm hiện tại sẽ không được ghi nhận.',
+        secondaryLabel: 'Ở lại',
+        onSecondary: () => Navigator.of(dialogContext).pop(false),
+        primaryLabel: 'Thoát',
+        onPrimary: () => Navigator.of(dialogContext).pop(true),
       ),
     );
     if (shouldLeave == true) await _leave();
@@ -519,7 +511,6 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
           correct: _correctCount,
           answered: _answeredCount,
           dailyRepeatedCount: _dailyRepeatedCount,
-          dailyRepeatGoal: _dailyRepeatGoal,
           isLoading: _isLoadingNext,
           onRestart: () => unawaited(_restart()),
           onClose: _leave,
@@ -1627,7 +1618,6 @@ class _DoneContent extends StatelessWidget {
     required this.correct,
     required this.answered,
     required this.dailyRepeatedCount,
-    required this.dailyRepeatGoal,
     required this.isLoading,
     required this.onRestart,
     required this.onClose,
@@ -1637,31 +1627,174 @@ class _DoneContent extends StatelessWidget {
   final int correct;
   final int answered;
   final int dailyRepeatedCount;
-  final int dailyRepeatGoal;
   final bool isLoading;
   final VoidCallback onRestart;
   final Future<void> Function() onClose;
 
   @override
   Widget build(BuildContext context) {
-    final dailyProgress =
-        'Bạn đã ôn $dailyRepeatedCount từ hôm nay.'
-        '${dailyRepeatGoal > 0 ? '\n$dailyRepeatedCount / $dailyRepeatGoal mục tiêu ôn trong ngày.' : ''}';
-    return _ResultCard(
-      icon: Icons.emoji_events_rounded,
-      title: 'Hoàn thành rồi!',
-      description: dailyProgress,
-      primaryLabel: isLoading ? 'Đang tải...' : 'Tiếp tục ôn',
-      secondaryLabel: 'Kết thúc',
-      onPrimary: isLoading ? null : onRestart,
-      onSecondary: onClose,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          _ResultMetric(label: 'Đúng', value: '$correct'),
-          _ResultMetric(label: 'Từ gốc', value: '$total'),
-          _ResultMetric(label: 'Lượt làm', value: '$answered'),
+    return Container(
+      margin: const EdgeInsets.only(top: 2),
+      padding: const EdgeInsets.fromLTRB(12, 12, 12, 18),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: .82),
+        borderRadius: BorderRadius.circular(40),
+        border: Border.all(
+          color: Colors.white.withValues(alpha: .96),
+          width: 2,
+        ),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x1A2773BD),
+            blurRadius: 24,
+            offset: Offset(0, 12),
+          ),
         ],
+      ),
+      child: Container(
+        padding: const EdgeInsets.fromLTRB(18, 2, 18, 18),
+        decoration: BoxDecoration(
+          color: Colors.white.withValues(alpha: .91),
+          borderRadius: BorderRadius.circular(34),
+        ),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            SizedBox(
+              height: 135,
+              child: Image.asset(
+                'assets/images/cup_done_practice.png',
+                fit: BoxFit.contain,
+                filterQuality: FilterQuality.high,
+              ),
+            ),
+            const SizedBox(height: 2),
+            Text(
+              'Hoàn thành rồi!',
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: Color(0xFF103D93),
+                fontSize: 29,
+                height: 1.1,
+                fontWeight: FontWeight.w800,
+                letterSpacing: -.8,
+              ),
+            ),
+            const SizedBox(height: 2),
+            Text.rich(
+              TextSpan(
+                text: 'Bạn đã ôn ',
+                children: [
+                  TextSpan(
+                    text: '$dailyRepeatedCount',
+                    style: const TextStyle(color: AppColors.primary),
+                  ),
+                  const TextSpan(text: ' từ hôm nay.'),
+                ],
+              ),
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: Color(0xFF7C91B5),
+                fontSize: 15,
+                height: 1.35,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+            const SizedBox(height: 28),
+            Row(
+              children: [
+                Expanded(
+                  child: _ResultMetric(
+                    icon: Icons.check_rounded,
+                    color: const Color(0xFF45B68A),
+                    label: 'Đúng',
+                    value: '$correct',
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: _ResultMetric(
+                    icon: Icons.menu_book_rounded,
+                    color: AppColors.primary,
+                    label: 'Từ gốc',
+                    value: '$total',
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Expanded(
+                  child: _ResultMetric(
+                    icon: Icons.bar_chart_rounded,
+                    color: const Color(0xFF6044E8),
+                    label: 'Lượt làm',
+                    value: '$answered',
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 26),
+            _ResultPrimaryButton(
+              label: isLoading ? 'Đang tải...' : 'Tiếp tục ôn',
+              onPressed: isLoading ? null : onRestart,
+            ),
+            const SizedBox(height: 4),
+            TextButton(
+              onPressed: onClose,
+              style: TextButton.styleFrom(
+                foregroundColor: AppColors.primary,
+                textStyle: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                ),
+              ),
+              child: const Text('Kết thúc'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ResultPrimaryButton extends StatelessWidget {
+  const _ResultPrimaryButton({required this.label, required this.onPressed});
+
+  final String label;
+  final VoidCallback? onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: onPressed == null
+              ? const [Color(0xFF9CB7E9), Color(0xFF8CA9DE)]
+              : const [Color(0xFF377FF5), Color(0xFF155CFF)],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+        borderRadius: BorderRadius.circular(20),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x3D155CFF),
+            blurRadius: 12,
+            offset: Offset(0, 6),
+          ),
+        ],
+      ),
+      child: FilledButton(
+        onPressed: onPressed,
+        style: FilledButton.styleFrom(
+          backgroundColor: Colors.transparent,
+          shadowColor: Colors.transparent,
+          minimumSize: const Size.fromHeight(50),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(20),
+          ),
+        ),
+        child: Text(
+          label,
+          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w700),
+        ),
       ),
     );
   }
@@ -1674,9 +1807,6 @@ class _ResultCard extends StatelessWidget {
     required this.description,
     required this.primaryLabel,
     required this.onPrimary,
-    this.secondaryLabel,
-    this.onSecondary,
-    this.child,
   });
 
   final IconData icon;
@@ -1684,9 +1814,6 @@ class _ResultCard extends StatelessWidget {
   final String description;
   final String primaryLabel;
   final VoidCallback? onPrimary;
-  final String? secondaryLabel;
-  final Future<void> Function()? onSecondary;
-  final Widget? child;
 
   @override
   Widget build(BuildContext context) {
@@ -1726,7 +1853,6 @@ class _ResultCard extends StatelessWidget {
               height: 1.45,
             ),
           ),
-          if (child != null) ...[const SizedBox(height: 22), child!],
           const SizedBox(height: 22),
           FilledButton(
             onPressed: onPrimary,
@@ -1739,11 +1865,6 @@ class _ResultCard extends StatelessWidget {
             ),
             child: Text(primaryLabel),
           ),
-          if (secondaryLabel != null && onSecondary != null)
-            TextButton(
-              onPressed: () => onSecondary!(),
-              child: Text(secondaryLabel!),
-            ),
         ],
       ),
     );
@@ -1751,25 +1872,84 @@ class _ResultCard extends StatelessWidget {
 }
 
 class _ResultMetric extends StatelessWidget {
-  const _ResultMetric({required this.label, required this.value});
+  const _ResultMetric({
+    required this.icon,
+    required this.color,
+    required this.label,
+    required this.value,
+  });
 
+  final IconData icon;
+  final Color color;
   final String label;
   final String value;
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Text(
-          value,
-          style: const TextStyle(
-            color: AppColors.primary,
-            fontSize: 24,
-            fontWeight: FontWeight.w800,
+    return Container(
+      height: 100,
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: .035),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: color.withValues(alpha: .18), width: 2),
+      ),
+      child: Stack(
+        clipBehavior: Clip.none,
+        alignment: Alignment.topCenter,
+        children: [
+          Positioned(
+            top: -15,
+            child: Container(
+              width: 36,
+              height: 36,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                shape: BoxShape.circle,
+                border: Border.all(
+                  color: color.withValues(alpha: .16),
+                  width: 2,
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: color.withValues(alpha: .16),
+                    blurRadius: 10,
+                    offset: const Offset(0, 4),
+                  ),
+                ],
+              ),
+              child: Icon(icon, color: color, size: 20),
+            ),
           ),
-        ),
-        Text(label, style: const TextStyle(color: AppColors.textSecondary)),
-      ],
+          Padding(
+            padding: const EdgeInsets.only(top: 4),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  value,
+                  style: TextStyle(
+                    color: color,
+                    fontSize: 27,
+                    height: 1,
+                    fontWeight: FontWeight.w700,
+                  ),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  label,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: Color(0xFF6B84B4),
+                    fontSize: 14,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -44,6 +44,8 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
       context.go(switch (destination) {
         AppStartupDestination.languageOnboarding => '/onboarding/language',
         AppStartupDestination.assessmentIntro => '/onboarding/assessment-intro',
+        AppStartupDestination.freeTrialOffer =>
+          '/onboarding/assessment-intro/survey/free-trial',
         AppStartupDestination.home => '/',
       });
     } catch (error) {

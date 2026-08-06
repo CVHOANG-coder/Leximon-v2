@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:math';
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -13,6 +12,8 @@ import '../../../data/models/practice_exercise.dart';
 import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/practice_lesson_generator.dart';
 import '../../../data/services/learning_progress_service.dart';
+import '../../../presentation/widgets/app_dialog.dart';
+import '../../../presentation/widgets/app_bottom_sheet.dart';
 
 class ReviewPracticeScreen extends StatefulWidget {
   const ReviewPracticeScreen({
@@ -66,6 +67,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
   bool _isSpeakingRecording = false;
   bool _isSpeakingResultCorrect = false;
   bool _isSpeakingDecisionVisible = false;
+  int _questionTransitionDirection = 1;
   bool _speechAvailable = false;
   String _recognizedSpeakingText = '';
   String? _speakingError;
@@ -169,7 +171,12 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     );
   }
 
-  void _startPractice() => setState(() => _showIntro = false);
+  void _startPractice() {
+    setState(() {
+      _questionTransitionDirection = 1;
+      _showIntro = false;
+    });
+  }
 
   void _selectAnswer(ExerciseWord answer) {
     if (_answered || (!_isListeningChoice && _hasSelection)) return;
@@ -351,6 +358,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       return;
     }
     setState(() {
+      _questionTransitionDirection = 1;
       _questionIndex += 1;
       _selectedAnswer = null;
       _typingInput = const [];
@@ -601,6 +609,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       return;
     }
     setState(() {
+      _questionTransitionDirection = 1;
       _questionIndex += 1;
       _selectedAnswer = null;
       _typingInput = const [];
@@ -644,6 +653,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       return;
     }
     setState(() {
+      _questionTransitionDirection = 1;
       _questionIndex = nextIndex;
       _selectedAnswer = null;
       _typingInput = const [];
@@ -688,6 +698,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       return;
     }
     setState(() {
+      _questionTransitionDirection = 1;
       _questionIndex = nextIndex;
       _selectedAnswer = null;
       _typingInput = const [];
@@ -772,104 +783,132 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
                             MediaQuery.paddingOf(context).bottom + 18,
                           ),
                         ),
-                        child: AnimatedSwitcher(
-                          duration: const Duration(milliseconds: 300),
-                          switchInCurve: Curves.easeOutCubic,
-                          switchOutCurve: Curves.easeInCubic,
-                          transitionBuilder: (child, animation) {
-                            final offset =
-                                Tween<Offset>(
-                                  begin: const Offset(.045, 0),
-                                  end: Offset.zero,
-                                ).animate(
-                                  CurvedAnimation(
-                                    parent: animation,
-                                    curve: Curves.easeOutCubic,
-                                  ),
-                                );
-                            return FadeTransition(
-                              opacity: animation,
-                              child: SlideTransition(
-                                position: offset,
-                                child: child,
-                              ),
-                            );
-                          },
-                          child: _showIntro
-                              ? _PracticeIntroCard(
-                                  key: const ValueKey('practice-intro'),
-                                  words: _introWords,
-                                  onStart: _startPractice,
-                                )
-                              : Column(
-                                  key: ValueKey(
-                                    'practice-question-$_questionIndex',
-                                  ),
-                                  children: [
-                                    if (_isListeningChoice)
-                                      _ListeningChoiceCard(
-                                        question: _question,
-                                        selectedAnswer: _selectedAnswer,
-                                        isSubmitted: _answered,
-                                        onSelected: _selectAnswer,
-                                        onSubmit: _submitAnswer,
-                                        onPlay: _playWord,
-                                        onSkip: _confirmSkipListening,
-                                      )
-                                    else if (_isFourListeningChoice)
-                                      _ChoiceOfFourListeningCard(
-                                        question: _question,
-                                        selectedAnswer: _selectedAnswer,
-                                        onSelected: _selectAnswer,
-                                        onPlay: _playWord,
-                                        onPlaySlow: _playWordSlow,
-                                        onSkip: _confirmSkipListening,
-                                      )
-                                    else if (_isTypingChoice)
-                                      _TypingChallengeCard(
-                                        question: _question,
-                                        input: _typingInput,
-                                        isSubmitted: _answered,
-                                        isCorrect: _isCorrect,
-                                        onCharacterSelected:
-                                            _selectTypingCharacter,
-                                        onRemoveCharacter:
-                                            _removeLastTypingCharacter,
-                                        onPlay: _playWord,
-                                      )
-                                    else if (_isSpeakingChoice)
-                                      _SpeakingCard(
-                                        question: _question,
-                                        isRecording: _isSpeakingRecording,
-                                        isSubmitted: _answered,
-                                        recognizedText: _recognizedSpeakingText,
-                                        isCorrect: _isSpeakingResultCorrect,
-                                        errorMessage: _speakingError,
-                                        onRecord: _toggleSpeakingRecording,
-                                        onCheck: _checkSpeakingResult,
-                                        onPlay: _playWord,
-                                        onPlaySlow: _playWordSlow,
-                                        onSkip: _confirmSkipSpeaking,
-                                      )
-                                    else
-                                      _ChoiceOfFourCard(
-                                        question: _question,
-                                        selectedAnswer: _selectedAnswer,
-                                        onSelected: _selectAnswer,
-                                        onPlay: _playWord,
-                                      ),
-                                    if (_answered &&
-                                        !_isFeedbackSheetVisible) ...[
-                                      const SizedBox(height: 14),
-                                      _ContinueButton(
-                                        onPressed: () => unawaited(_continue()),
-                                        isLast:
-                                            _questionIndex ==
-                                            _questions.length - 1,
-                                      ),
-                                    ],
+                        child: AnimatedSize(
+                          duration: const Duration(milliseconds: 360),
+                          curve: Curves.easeOutCubic,
+                          alignment: Alignment.topCenter,
+                          child: AnimatedSwitcher(
+                            duration: const Duration(milliseconds: 380),
+                            reverseDuration: const Duration(milliseconds: 280),
+                            switchInCurve: Curves.easeOutCubic,
+                            switchOutCurve: Curves.easeInCubic,
+                            layoutBuilder: (currentChild, previousChildren) {
+                              return ClipRect(
+                                child: Stack(
+                                  alignment: Alignment.topCenter,
+                                  children: <Widget>[
+                                    ...previousChildren,
+                                    if (currentChild != null) currentChild,
                                   ],
                                 ),
+                              );
+                            },
+                            transitionBuilder: (child, animation) {
+                              final isIncoming =
+                                  animation.status != AnimationStatus.reverse;
+                              final direction = _questionTransitionDirection
+                                  .toDouble();
+                              final slide =
+                                  Tween<Offset>(
+                                    begin: Offset(
+                                      (isIncoming ? direction : -direction) *
+                                          .22,
+                                      0,
+                                    ),
+                                    end: Offset.zero,
+                                  ).animate(
+                                    CurvedAnimation(
+                                      parent: animation,
+                                      curve: Curves.easeOutCubic,
+                                      reverseCurve: Curves.easeInCubic,
+                                    ),
+                                  );
+                              return FadeTransition(
+                                opacity: animation,
+                                child: SlideTransition(
+                                  position: slide,
+                                  child: child,
+                                ),
+                              );
+                            },
+                            child: _showIntro
+                                ? _PracticeIntroCard(
+                                    key: const ValueKey('practice-intro'),
+                                    words: _introWords,
+                                    onStart: _startPractice,
+                                  )
+                                : Column(
+                                    key: ValueKey(
+                                      'practice-question-$_questionIndex',
+                                    ),
+                                    children: [
+                                      if (_isListeningChoice)
+                                        _ListeningChoiceCard(
+                                          question: _question,
+                                          selectedAnswer: _selectedAnswer,
+                                          isSubmitted: _answered,
+                                          onSelected: _selectAnswer,
+                                          onSubmit: _submitAnswer,
+                                          onPlay: _playWord,
+                                          onSkip: _confirmSkipListening,
+                                        )
+                                      else if (_isFourListeningChoice)
+                                        _ChoiceOfFourListeningCard(
+                                          question: _question,
+                                          selectedAnswer: _selectedAnswer,
+                                          onSelected: _selectAnswer,
+                                          onPlay: _playWord,
+                                          onPlaySlow: _playWordSlow,
+                                          onSkip: _confirmSkipListening,
+                                        )
+                                      else if (_isTypingChoice)
+                                        _TypingChallengeCard(
+                                          question: _question,
+                                          input: _typingInput,
+                                          isSubmitted: _answered,
+                                          isCorrect: _isCorrect,
+                                          onCharacterSelected:
+                                              _selectTypingCharacter,
+                                          onRemoveCharacter:
+                                              _removeLastTypingCharacter,
+                                          onPlay: _playWord,
+                                        )
+                                      else if (_isSpeakingChoice)
+                                        _SpeakingCard(
+                                          question: _question,
+                                          isRecording: _isSpeakingRecording,
+                                          isSubmitted: _answered,
+                                          recognizedText:
+                                              _recognizedSpeakingText,
+                                          isCorrect: _isSpeakingResultCorrect,
+                                          errorMessage: _speakingError,
+                                          onRecord: _toggleSpeakingRecording,
+                                          onCheck: _checkSpeakingResult,
+                                          onPlay: _playWord,
+                                          onPlaySlow: _playWordSlow,
+                                          onSkip: _confirmSkipSpeaking,
+                                        )
+                                      else
+                                        _ChoiceOfFourCard(
+                                          question: _question,
+                                          selectedAnswer: _selectedAnswer,
+                                          onSelected: _selectAnswer,
+                                          onPlay: _playWord,
+                                        ),
+                                      if (_answered &&
+                                          !_isFeedbackSheetVisible) ...[
+                                        const SizedBox(height: 14),
+                                        _ContinueButton(
+                                          onPressed: () =>
+                                              unawaited(_continue()),
+                                          isLast:
+                                              _questionIndex ==
+                                              _questions.length - 1,
+                                        ),
+                                      ],
+                                    ],
+                                  ),
+                          ),
                         ),
                       ),
                     ),
@@ -951,7 +990,7 @@ class _PracticeTopBar extends StatelessWidget {
               child: IconButton(
                 key: const Key('review-practice-close-button'),
                 onPressed: onClose,
-                icon: const Icon(
+                icon: Icon(
                   Icons.close_rounded,
                   color: AppColors.primary,
                   size: 23,
@@ -1119,9 +1158,9 @@ class _PracticeIntroCard extends StatelessWidget {
         border: Border.all(color: Colors.white),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x1F466E9C),
-            blurRadius: 30,
-            offset: Offset(0, 12),
+            color: Color(0x0D26448B),
+            blurRadius: 12,
+            offset: Offset(0, 3),
           ),
         ],
       ),
@@ -1724,9 +1763,9 @@ class _SpeakingCard extends StatelessWidget {
             border: Border.all(color: const Color(0x1208397A)),
             boxShadow: const [
               BoxShadow(
-                color: Color(0x1426448B),
-                blurRadius: 24,
-                offset: Offset(0, 8),
+                color: Color(0x0D26448B),
+                blurRadius: 12,
+                offset: Offset(0, 3),
               ),
             ],
           ),
@@ -2590,9 +2629,9 @@ class _ChoiceOfFourCard extends StatelessWidget {
         border: Border.all(color: const Color(0x1208397A)),
         boxShadow: const [
           BoxShadow(
-            color: Color(0x2426448B),
-            blurRadius: 50,
-            offset: Offset(0, 20),
+            color: Color(0x0D26448B),
+            blurRadius: 12,
+            offset: Offset(0, 3),
           ),
         ],
       ),
@@ -3544,46 +3583,16 @@ class _TypingWrongAnswerSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(
-        18,
-        18,
-        18,
-        22 + MediaQuery.paddingOf(context).bottom,
-      ),
-      decoration: const BoxDecoration(
-        color: Color(0xFAFFFFFF),
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-        boxShadow: [
-          BoxShadow(
-            color: Color(0x1F163873),
-            blurRadius: 30,
-            offset: Offset(0, -12),
-          ),
-        ],
-      ),
+    return AppBottomSheet(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(
-            child: Container(
-              width: 44,
-              height: 5,
-              decoration: BoxDecoration(
-                color: const Color(0xFFDFE7F3),
-                borderRadius: BorderRadius.circular(99),
-              ),
-            ),
-          ),
-          const SizedBox(height: 16),
-          const Text(
-            'Đáp án đúng',
-            style: TextStyle(
-              color: AppColors.textPrimary,
-              fontSize: 18,
-              fontWeight: FontWeight.w800,
-            ),
+          const SizedBox(height: 2),
+          const AppBottomSheetTitle(
+            title: 'Đáp án đúng',
+            icon: Icons.check_rounded,
+            color: Color(0xFF18B865),
           ),
           const SizedBox(height: 10),
           Text.rich(
@@ -3592,7 +3601,7 @@ class _TypingWrongAnswerSheet extends StatelessWidget {
               children: [
                 TextSpan(
                   text: question.word.translation,
-                  style: const TextStyle(fontWeight: FontWeight.w800),
+                  style: const TextStyle(fontWeight: FontWeight.w700),
                 ),
                 const TextSpan(
                   text: '. Bạn có thể nghe lại phát âm để ghi nhớ tốt hơn.',
@@ -3675,7 +3684,14 @@ class _ContinueButton extends StatelessWidget {
           textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
           elevation: 0,
         ),
-        child: Text(isLast ? 'Hoàn thành' : 'Tiếp tục'),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            const Icon(Icons.auto_awesome_rounded, size: 19),
+            Text(isLast ? 'Hoàn thành' : 'Tiếp tục'),
+            const Icon(Icons.auto_awesome_rounded, size: 19),
+          ],
+        ),
       ),
     );
   }
@@ -3725,48 +3741,15 @@ class _ListeningWrongAnswerSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(
-        18,
-        12,
-        18,
-        22 + MediaQuery.paddingOf(context).bottom,
-      ),
-      decoration: const BoxDecoration(
-        color: Color(0xFAFFFFFF),
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-        boxShadow: [
-          BoxShadow(
-            color: Color(0x1F163873),
-            blurRadius: 30,
-            offset: Offset(0, -12),
-          ),
-        ],
-      ),
+    return AppBottomSheet(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(
-            child: Container(
-              width: 48,
-              height: 5,
-              decoration: BoxDecoration(
-                color: const Color(0xFFDFE7F3),
-                borderRadius: BorderRadius.circular(99),
-              ),
-            ),
-          ),
-          const SizedBox(height: 16),
-          const Text(
-            'Nghe lại để phân biệt',
-            style: TextStyle(
-              color: AppColors.textPrimary,
-              fontSize: 17,
-              height: 1.1,
-              fontWeight: FontWeight.w800,
-              letterSpacing: -.5,
-            ),
+          const SizedBox(height: 2),
+          const AppBottomSheetTitle(
+            title: 'Nghe lại để phân biệt',
+            icon: Icons.volume_up_rounded,
           ),
           const SizedBox(height: 12),
           Text.rich(
@@ -3775,7 +3758,7 @@ class _ListeningWrongAnswerSheet extends StatelessWidget {
               children: [
                 TextSpan(
                   text: question.word.writing,
-                  style: const TextStyle(fontWeight: FontWeight.w800),
+                  style: const TextStyle(fontWeight: FontWeight.w700),
                 ),
                 const TextSpan(
                   text:
@@ -3785,7 +3768,7 @@ class _ListeningWrongAnswerSheet extends StatelessWidget {
             ),
             style: const TextStyle(
               color: Color(0xFF6F84A2),
-              fontSize: 11,
+              fontSize: 13,
               height: 1.5,
             ),
           ),
@@ -3831,11 +3814,11 @@ class _ListeningFeedbackCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(14),
+      padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
       decoration: BoxDecoration(
-        color: const Color(0xFFF6F9FF),
-        borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFFEDF1F7)),
+        color: accent.withValues(alpha: .035),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: accent.withValues(alpha: .24), width: 1.5),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -3844,9 +3827,9 @@ class _ListeningFeedbackCard extends StatelessWidget {
             label.toUpperCase(),
             style: const TextStyle(
               color: Color(0xFF8193AC),
-              fontSize: 10,
+              fontSize: 12,
               fontWeight: FontWeight.w800,
-              letterSpacing: 1.1,
+              letterSpacing: 1.5,
             ),
           ),
           const SizedBox(height: 8),
@@ -3857,22 +3840,18 @@ class _ListeningFeedbackCard extends StatelessWidget {
                   audioLabel,
                   style: TextStyle(
                     color: accent,
-                    fontSize: 16,
+                    fontSize: 22,
                     fontWeight: FontWeight.w800,
                   ),
                 ),
               ),
               IconButton(
                 onPressed: onPlay,
-                icon: const Icon(
-                  Icons.volume_up_rounded,
-                  color: Color(0xFF0D58D0),
-                  size: 18,
-                ),
+                icon: Icon(Icons.volume_up_rounded, color: accent, size: 22),
                 style: IconButton.styleFrom(
-                  fixedSize: const Size(34, 34),
+                  fixedSize: const Size(58, 58),
                   padding: EdgeInsets.zero,
-                  backgroundColor: const Color(0xFFEAF1FF),
+                  backgroundColor: accent.withValues(alpha: .06),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -3885,7 +3864,7 @@ class _ListeningFeedbackCard extends StatelessWidget {
             word.writing,
             style: const TextStyle(
               color: Color(0xFF7286A3),
-              fontSize: 13,
+              fontSize: 17,
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -3912,55 +3891,19 @@ class _WrongAnswerSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(
-        18,
-        12,
-        18,
-        22 + MediaQuery.paddingOf(context).bottom,
-      ),
-      decoration: const BoxDecoration(
-        color: Color(0xFAFFFFFF),
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-        boxShadow: [
-          BoxShadow(
-            color: Color(0x1F163873),
-            blurRadius: 30,
-            offset: Offset(0, -12),
-          ),
-        ],
-      ),
+    return AppBottomSheet(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(
-            child: Container(
-              width: 48,
-              height: 5,
-              decoration: BoxDecoration(
-                color: const Color(0xFFDFE7F3),
-                borderRadius: BorderRadius.circular(99),
-              ),
-            ),
-          ),
-          const SizedBox(height: 16),
-          const Text(
-            'Chú ý',
-            style: TextStyle(
-              color: AppColors.textPrimary,
-              fontSize: 17,
-              height: 1.1,
-              fontWeight: FontWeight.w800,
-              letterSpacing: -.5,
-            ),
-          ),
+          const SizedBox(height: 2),
+          const AppBottomSheetTitle(title: 'Chú ý'),
           const SizedBox(height: 12),
           const Text(
             'Hãy nghe lại và ghi nhớ sự khác nhau giữa câu trả lời bạn chọn và đáp án đúng.',
             style: TextStyle(
               color: Color(0xFF6F84A2),
-              fontSize: 11,
+              fontSize: 13,
               height: 1.5,
             ),
           ),
@@ -4002,11 +3945,11 @@ class _FeedbackCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(14),
+      padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
       decoration: BoxDecoration(
-        color: const Color(0xFFF6F9FF),
-        borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFFEDF1F7)),
+        color: accent.withValues(alpha: .035),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: accent.withValues(alpha: .24), width: 1.5),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -4015,12 +3958,12 @@ class _FeedbackCard extends StatelessWidget {
             label.toUpperCase(),
             style: const TextStyle(
               color: Color(0xFF8193AC),
-              fontSize: 10,
-              fontWeight: FontWeight.w800,
-              letterSpacing: 1.1,
+              fontSize: 12,
+              fontWeight: FontWeight.w700,
+              letterSpacing: 1.5,
             ),
           ),
-          const SizedBox(height: 8),
+          const SizedBox(height: 0),
           Row(
             children: [
               Expanded(
@@ -4028,22 +3971,18 @@ class _FeedbackCard extends StatelessWidget {
                   word.translation,
                   style: TextStyle(
                     color: accent,
-                    fontSize: 16,
+                    fontSize: 19,
                     fontWeight: FontWeight.w800,
                   ),
                 ),
               ),
               IconButton(
                 onPressed: onPlay,
-                icon: const Icon(
-                  Icons.volume_up_rounded,
-                  color: Color(0xFF0D58D0),
-                  size: 18,
-                ),
+                icon: Icon(Icons.volume_up_rounded, color: accent, size: 20),
                 style: IconButton.styleFrom(
-                  fixedSize: const Size(34, 34),
+                  fixedSize: const Size(50, 50),
                   padding: EdgeInsets.zero,
-                  backgroundColor: const Color(0xFFEAF1FF),
+                  backgroundColor: accent.withValues(alpha: .06),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -4051,12 +3990,12 @@ class _FeedbackCard extends StatelessWidget {
               ),
             ],
           ),
-          const SizedBox(height: 6),
+          const SizedBox(height: 0),
           Text(
             word.writing,
             style: const TextStyle(
               color: Color(0xFF7286A3),
-              fontSize: 13,
+              fontSize: 17,
               fontWeight: FontWeight.w600,
             ),
           ),
@@ -4081,17 +4020,16 @@ class _SpeakingDecisionDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AlertDialog(
-      title: Text(noSound ? 'Không nghe thấy gì' : 'Chưa nhận diện đúng'),
-      content: Text(
-        noSound
-            ? 'Hãy thử nói lại từ này hoặc bỏ qua riêng câu phát âm hiện tại.'
-            : 'Hãy thử lại cách phát âm hoặc bỏ qua riêng câu hiện tại.',
-      ),
-      actions: [
-        TextButton(onPressed: onSkip, child: const Text('Bỏ qua')),
-        FilledButton(onPressed: onRetry, child: const Text('Thử lại')),
-      ],
+    return AppDialog(
+      icon: noSound ? Icons.mic_off_rounded : Icons.error_outline_rounded,
+      title: noSound ? 'Không nghe thấy gì' : 'Chưa nhận diện đúng',
+      message: noSound
+          ? 'Hãy thử nói lại từ này hoặc bỏ qua riêng câu phát âm hiện tại.'
+          : 'Hãy thử lại cách phát âm hoặc bỏ qua riêng câu hiện tại.',
+      secondaryLabel: 'Bỏ qua',
+      onSecondary: onSkip,
+      primaryLabel: 'Thử lại',
+      onPrimary: onRetry,
     );
   }
 }
@@ -4111,67 +4049,13 @@ class _SkipListeningDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Dialog(
-      insetPadding: const EdgeInsets.symmetric(horizontal: 18),
-      backgroundColor: Colors.transparent,
-      elevation: 0,
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(28),
-        child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 14, sigmaY: 14),
-          child: Container(
-            padding: const EdgeInsets.fromLTRB(18, 22, 18, 18),
-            color: const Color(0xFAFFFFFF),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  title,
-                  style: TextStyle(
-                    color: AppColors.textPrimary,
-                    fontSize: 18,
-                    height: 1.2,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: -.55,
-                  ),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  description,
-                  style: TextStyle(
-                    color: Color(0xFF6F84A2),
-                    fontSize: 13,
-                    height: 1.5,
-                  ),
-                ),
-                const SizedBox(height: 22),
-                Row(
-                  children: [
-                    Expanded(
-                      child: _DialogButton(
-                        label: 'Không',
-                        foreground: const Color(0xFF4F9CE8),
-                        background: const Color(0xFFEFF6FF),
-                        onPressed: onCancel,
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: _DialogButton(
-                        label: 'Có',
-                        foreground: const Color(0xFF18A965),
-                        background: const Color(0xFFEAF9F0),
-                        onPressed: onSkip,
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
+    return AppDialog(
+      title: title,
+      message: description,
+      secondaryLabel: 'Không',
+      onSecondary: onCancel,
+      primaryLabel: 'Có',
+      onPrimary: onSkip,
     );
   }
 }
@@ -4184,103 +4068,15 @@ class _ExitPracticeDialog extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Dialog(
-      insetPadding: const EdgeInsets.symmetric(horizontal: 18),
-      backgroundColor: Colors.transparent,
-      elevation: 0,
-      child: ClipRRect(
-        borderRadius: BorderRadius.circular(28),
-        child: BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 14, sigmaY: 14),
-          child: Container(
-            padding: const EdgeInsets.fromLTRB(18, 22, 18, 18),
-            color: const Color(0xFAFFFFFF),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  'Kết thúc quá trình ôn tập?',
-                  style: TextStyle(
-                    color: AppColors.textPrimary,
-                    fontSize: 18,
-                    height: 1.15,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: -.55,
-                  ),
-                ),
-                const SizedBox(height: 12),
-                const Text(
-                  'Tiến độ của phiên hiện tại sẽ không được lưu. Bạn luôn có thể bắt đầu lại bộ từ này bất cứ lúc nào.',
-                  style: TextStyle(
-                    color: Color(0xFF6F84A2),
-                    fontSize: 13,
-                    height: 1.5,
-                  ),
-                ),
-                const SizedBox(height: 22),
-                Row(
-                  children: [
-                    Expanded(
-                      child: _DialogButton(
-                        label: 'Hủy',
-                        foreground: const Color(0xFF4F9CE8),
-                        background: const Color(0xFFEFF6FF),
-                        onPressed: onCancel,
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      flex: 2,
-                      child: _DialogButton(
-                        label: 'Kết thúc ôn tập',
-                        foreground: const Color(0xFFFF6B64),
-                        background: const Color(0xFFFFF0EF),
-                        onPressed: onExit,
-                      ),
-                    ),
-                  ],
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _DialogButton extends StatelessWidget {
-  const _DialogButton({
-    required this.label,
-    required this.foreground,
-    required this.background,
-    required this.onPressed,
-  });
-
-  final String label;
-  final Color foreground;
-  final Color background;
-  final VoidCallback onPressed;
-
-  @override
-  Widget build(BuildContext context) {
-    return SizedBox(
-      height: 50,
-      child: FilledButton(
-        onPressed: onPressed,
-        style: FilledButton.styleFrom(
-          elevation: 0,
-          foregroundColor: foreground,
-          backgroundColor: background,
-          padding: const EdgeInsets.symmetric(horizontal: 10),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
-          ),
-          textStyle: const TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
-        ),
-        child: Text(label, textAlign: TextAlign.center),
-      ),
+    return AppDialog(
+      imageAsset: 'assets/images/cancel_icon_dialog.png',
+      title: 'Kết thúc quá trình ôn tập?',
+      message:
+          'Tiến độ của phiên hiện tại sẽ không được lưu. Bạn luôn có thể bắt đầu lại bộ từ này bất cứ lúc nào.',
+      secondaryLabel: 'Hủy',
+      onSecondary: onCancel,
+      primaryLabel: 'Kết thúc ôn tập',
+      onPrimary: onExit,
     );
   }
 }

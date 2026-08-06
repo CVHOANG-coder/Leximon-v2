@@ -215,7 +215,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                                     setState(() => _selectedPlanMonths = 2);
                                   },
                                 ),
-                                const SizedBox(height: 11),
+                                const SizedBox(height: 28),
                                 _SubscriptionPlanCard(
                                   key: const ValueKey(
                                     'subscription-plan-12-month',
@@ -489,17 +489,54 @@ class _SubscriptionPlanCard extends StatelessWidget {
                 ],
               ),
               if (isPopular)
-                const Positioned(
-                  top: -25,
-                  left: -10,
-                  child: Text(
-                    'PHỔ BIẾN',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 14,
-                      fontWeight: FontWeight.w500,
-                      shadows: [
-                        Shadow(color: Color(0xFF126EFF), blurRadius: 8),
+                Positioned(
+                  // The Stack is inside the card's top padding. Move the
+                  // badge above that padding so it never covers the plan.
+                  top: -40,
+                  left: -24,
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 11,
+                      vertical: 5,
+                    ),
+                    decoration: BoxDecoration(
+                      gradient: const LinearGradient(
+                        colors: [Color(0xFF65DFFF), Color(0xFF176BFF)],
+                        begin: Alignment.topLeft,
+                        end: Alignment.bottomRight,
+                      ),
+                      borderRadius: BorderRadius.circular(13),
+                      border: Border.all(
+                        color: Colors.white.withValues(alpha: 0.92),
+                        width: 1.2,
+                      ),
+                      boxShadow: const [
+                        BoxShadow(
+                          color: Color(0xCC1684FF),
+                          blurRadius: 12,
+                          spreadRadius: 1,
+                          offset: Offset(0, 3),
+                        ),
+                      ],
+                    ),
+                    child: const Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Icon(
+                          Icons.auto_awesome_rounded,
+                          color: Colors.white,
+                          size: 13,
+                        ),
+                        SizedBox(width: 5),
+                        Text(
+                          'PHỔ BIẾN',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 11.5,
+                            fontWeight: FontWeight.w800,
+                            letterSpacing: 0.7,
+                          ),
+                        ),
                       ],
                     ),
                   ),

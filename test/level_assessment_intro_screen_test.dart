@@ -1,3 +1,4 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -17,6 +18,91 @@ import 'package:leximon/presentation/screens/onboarding/vocabulary_test_screen.d
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
+  testWidgets('survey onboarding advances by horizontal swipe', (tester) async {
+    await tester.pumpWidget(const MaterialApp(home: SurveyCarouselScreen()));
+    await tester.pump();
+
+    expect(find.text('Bạn bao nhiêu tuổi?'), findsOneWidget);
+    expect(
+      tester
+          .widget<InkWell>(
+            find.byKey(const ValueKey('survey-carousel-continue')),
+          )
+          .onTap,
+      isNull,
+    );
+
+    await tester.tap(find.byKey(const ValueKey('survey-age-1')));
+    await tester.pump();
+
+    await tester.drag(
+      find.byKey(const ValueKey('survey-carousel')),
+      const Offset(-300, 0),
+      kind: PointerDeviceKind.touch,
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.text('Tại sao bạn lại học tiếng Anh?'), findsOneWidget);
+  });
+
+  testWidgets('learning history requires at least one selected method', (
+    tester,
+  ) async {
+    await tester.pumpWidget(const MaterialApp(home: SurveyCarouselScreen()));
+    await tester.pump();
+
+    await tester.tap(find.byKey(const ValueKey('survey-age-0')));
+    await tester.pump();
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('survey-goal-0')));
+    await tester.pump();
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey('survey-frequency-0')));
+    await tester.pump();
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+
+    expect(
+      find.text('Bạn đã từng học tiếng Anh\nbao giờ chưa?'),
+      findsOneWidget,
+    );
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+    expect(
+      tester
+          .widget<InkWell>(
+            find.byKey(const ValueKey('survey-carousel-continue')),
+          )
+          .onTap,
+      isNull,
+    );
+    expect(
+      find.text('Bạn đã từng học tiếng Anh\nbao giờ chưa?'),
+      findsOneWidget,
+    );
+
+    await tester.tap(find.byKey(const ValueKey('survey-learning-method-0')));
+    await tester.pump();
+    expect(
+      tester
+          .widget<InkWell>(
+            find.byKey(const ValueKey('survey-carousel-continue')),
+          )
+          .onTap,
+      isNotNull,
+    );
+    await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+    await tester.pumpAndSettle();
+    expect(
+      find.byKey(const ValueKey('knowledge-journey-text')),
+      findsOneWidget,
+    );
+  });
+
   testWidgets('known-level path saves the level and opens the survey', (
     tester,
   ) async {
@@ -130,11 +216,13 @@ void main() {
 
     expect(find.text('Bạn bao nhiêu tuổi?'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-age-1')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
     expect(find.text('Tại sao bạn lại học tiếng Anh?'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-goal-1')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -148,6 +236,7 @@ void main() {
       findsOneWidget,
     );
     await tester.tap(find.byKey(const ValueKey('survey-frequency-3')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -156,21 +245,35 @@ void main() {
       findsOneWidget,
     );
     await tester.tap(find.byKey(const ValueKey('survey-learning-method-0')));
+    await tester.pump();
+    expect(
+      tester
+          .widget<InkWell>(
+            find.byKey(const ValueKey('survey-carousel-continue')),
+          )
+          .onTap,
+      isNotNull,
+    );
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
-    expect(find.textContaining('Tiếng Anh là chìa khóa'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('knowledge-journey-text')),
+      findsOneWidget,
+    );
     expect(find.text('Tiếp tục hành trình'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
     expect(find.text('Bạn cần bao lâu\nđể có kết quả?'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-result-timeline-1')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
     expect(find.textContaining('Bạn sẵn sàng dành bao nhiêu'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-daily-study-time-3')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -206,6 +309,18 @@ void main() {
       find.byKey(const ValueKey('survey-preferred-time-back')),
       findsOneWidget,
     );
+    expect(
+      tester
+          .widget<InkWell>(
+            find.byKey(const ValueKey('survey-carousel-continue')),
+          )
+          .onTap,
+      isNull,
+    );
+    await tester.tap(
+      find.byKey(const ValueKey('survey-preferred-time-slider')),
+    );
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -231,6 +346,7 @@ void main() {
     expect(find.text('Nghe hiểu tiếng Anh'), findsOneWidget);
     expect(find.text('Hiểu và dịch các văn bản'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-challenge-1')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -245,6 +361,7 @@ void main() {
     expect(find.text('Thiếu thực hành và giao tiếp'), findsOneWidget);
     expect(find.text('Không có điều gì'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-barrier-0')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -259,6 +376,7 @@ void main() {
     expect(find.text('Trường học và Đại học'), findsOneWidget);
     expect(find.text('Lao động và Việc làm'), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('survey-topic-select-all')));
+    await tester.pump();
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 
@@ -293,6 +411,10 @@ void main() {
       findsOneWidget,
     );
     expect(find.byKey(const ValueKey('survey-carousel')), findsNothing);
+    expect(
+      preferences.getBool(AppLanguageService.carouselCompletedKey),
+      isTrue,
+    );
     expect(
       preferences.getBool(AppLanguageService.onboardingCompletedKey),
       isNot(true),

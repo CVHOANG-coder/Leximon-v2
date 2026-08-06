@@ -6,6 +6,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../data/datasources/topic_asset_data_source.dart';
+import '../../../data/models/topic_language.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class LanguageOnboardingScreen extends ConsumerStatefulWidget {
@@ -18,20 +20,6 @@ class LanguageOnboardingScreen extends ConsumerStatefulWidget {
 
 class _LanguageOnboardingScreenState
     extends ConsumerState<LanguageOnboardingScreen> {
-  static const _languages = [
-    _AppLanguage(code: 'ar', label: 'العربية'),
-    _AppLanguage(code: 'es-419', label: 'Español (Latin America)'),
-    _AppLanguage(code: 'es-ES', label: 'Español (Spain)'),
-    _AppLanguage(code: 'ru', label: 'Русский'),
-    _AppLanguage(code: 'uk', label: 'Українська'),
-    _AppLanguage(code: 'vi', label: 'Tiếng Việt'),
-    _AppLanguage(code: 'de', label: 'Deutsch'),
-    _AppLanguage(code: 'th', label: 'ไทย'),
-    _AppLanguage(code: 'ja', label: '日本語'),
-    _AppLanguage(code: 'tr', label: 'Türkçe'),
-    _AppLanguage(code: 'pt', label: 'Português'),
-  ];
-
   String _selectedLanguageCode = 'vi';
   bool _isSaving = false;
 
@@ -42,8 +30,11 @@ class _LanguageOnboardingScreenState
       await ref
           .read(appLanguageServiceProvider)
           .saveSelectedLanguage(_selectedLanguageCode);
+      await ref.read(appLanguageServiceProvider).resetCarousel();
       ref.read(selectedAppLanguageProvider.notifier).state =
           _selectedLanguageCode;
+      ref.invalidate(localDataInitializationProvider);
+      unawaited(ref.read(localDataInitializationProvider.future));
       if (!mounted) return;
       context.push('/onboarding/assessment-intro');
     } catch (_) {
@@ -59,6 +50,9 @@ class _LanguageOnboardingScreenState
 
   @override
   Widget build(BuildContext context) {
+    final languagesState = ref.watch(supportedLanguagesProvider);
+    final languages =
+        languagesState.valueOrNull ?? TopicAssetDataSource.knownLanguages;
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
@@ -80,13 +74,13 @@ class _LanguageOnboardingScreenState
                   const _LanguageHeader(),
                   Expanded(
                     child: _LanguagePanel(
-                      languages: _languages,
+                      languages: languages,
                       selectedLanguageCode: _selectedLanguageCode,
                       isSaving: _isSaving,
                       onSelected: (code) {
                         setState(() => _selectedLanguageCode = code);
                       },
-                      onContinue: _continue,
+                      onContinue: languages.isEmpty ? null : _continue,
                     ),
                   ),
                 ],
@@ -139,8 +133,7 @@ class _LanguageHeader extends StatelessWidget {
             ),
           ),
           const Positioned(
-            left: 82,
-            right: 92,
+            left: 72,
             top: 28,
             child: Text(
               'Chọn ngôn ngữ\nmẹ đẻ của bạn',
@@ -156,17 +149,16 @@ class _LanguageHeader extends StatelessWidget {
           ),
           Positioned(
             right: 8,
-            top: 45,
+            top: 10,
             child: Image.asset(
               'assets/images/leximon-owl-wave.png',
-              width: 110,
-              height: 110,
+              width: 150,
+              height: 150,
               fit: BoxFit.contain,
             ),
           ),
           Positioned(
-            left: 72,
-            right: 72,
+            left: 62,
             top: 85,
             child: Text(
               'Chúng tôi sẽ cá nhân hóa lộ trình\nhọc phù hợp với bạn.',
@@ -194,11 +186,11 @@ class _LanguagePanel extends StatelessWidget {
     required this.onContinue,
   });
 
-  final List<_AppLanguage> languages;
+  final List<TopicLanguage> languages;
   final String selectedLanguageCode;
   final bool isSaving;
   final ValueChanged<String> onSelected;
-  final VoidCallback onContinue;
+  final VoidCallback? onContinue;
 
   @override
   Widget build(BuildContext context) {
@@ -304,7 +296,7 @@ class _LanguageTile extends StatelessWidget {
     required this.onTap,
   });
 
-  final _AppLanguage language;
+  final TopicLanguage language;
   final bool selected;
   final VoidCallback onTap;
 
@@ -376,11 +368,4 @@ class _OnboardingBackground extends StatelessWidget {
       fit: BoxFit.cover,
     );
   }
-}
-
-class _AppLanguage {
-  const _AppLanguage({required this.code, required this.label});
-
-  final String code;
-  final String label;
 }

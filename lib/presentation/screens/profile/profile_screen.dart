@@ -14,6 +14,7 @@ import '../../../core/services/daily_notification_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/topic.dart';
 import '../../../data/services/profile_statistics_service.dart';
+import '../../../presentation/widgets/app_dialog.dart';
 import 'edit_profile_screen.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -1160,25 +1161,18 @@ class _SettingsSectionState extends State<_SettingsSection>
     if (!mounted) return;
     await showDialog<void>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Cần quyền thông báo'),
-        content: const Text(
-          'Leximon cần quyền thông báo để nhắc bạn học mỗi ngày. '
-          'Hãy bật quyền trong phần Cài đặt của ứng dụng.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Để sau'),
-          ),
-          FilledButton(
-            onPressed: () async {
-              Navigator.of(context).pop();
-              await AppSettingsService.openAppSettings();
-            },
-            child: const Text('Mở Cài đặt'),
-          ),
-        ],
+      builder: (context) => AppDialog(
+        icon: Icons.notifications_none_rounded,
+        title: 'Cần quyền thông báo',
+        message:
+            'Leximon cần quyền thông báo để nhắc bạn học mỗi ngày. Hãy bật quyền trong phần Cài đặt của ứng dụng.',
+        secondaryLabel: 'Để sau',
+        onSecondary: () => Navigator.of(context).pop(),
+        primaryLabel: 'Mở Cài đặt',
+        onPrimary: () async {
+          Navigator.of(context).pop();
+          await AppSettingsService.openAppSettings();
+        },
       ),
     );
   }
@@ -1227,25 +1221,18 @@ class _SettingsSectionState extends State<_SettingsSection>
     if (!mounted) return;
     await showDialog<void>(
       context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Cần quyền microphone'),
-        content: const Text(
-          'Leximon cần quyền microphone và nhận dạng giọng nói để bật luyện phát âm. '
-          'Hãy cấp quyền trong phần Cài đặt của ứng dụng.',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(context).pop(),
-            child: const Text('Để sau'),
-          ),
-          FilledButton(
-            onPressed: () async {
-              Navigator.of(context).pop();
-              await AppSettingsService.openAppSettings();
-            },
-            child: const Text('Mở Cài đặt'),
-          ),
-        ],
+      builder: (context) => AppDialog(
+        icon: Icons.mic_none_rounded,
+        title: 'Cần quyền microphone',
+        message:
+            'Leximon cần quyền microphone và nhận dạng giọng nói để bật luyện phát âm. Hãy cấp quyền trong phần Cài đặt của ứng dụng.',
+        secondaryLabel: 'Để sau',
+        onSecondary: () => Navigator.of(context).pop(),
+        primaryLabel: 'Mở Cài đặt',
+        onPrimary: () async {
+          Navigator.of(context).pop();
+          await AppSettingsService.openAppSettings();
+        },
       ),
     );
   }

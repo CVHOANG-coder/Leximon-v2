@@ -11,6 +11,8 @@ import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/models/onboarding_vocabulary_test.dart';
 import '../../../data/models/sentence_exercise.dart';
 import '../../../data/services/onboarding_vocabulary_test_service.dart';
+import '../../../presentation/widgets/app_bottom_sheet.dart';
+import '../../../presentation/widgets/app_dialog.dart';
 
 class VocabularyTestScreen extends StatefulWidget {
   const VocabularyTestScreen({
@@ -189,29 +191,14 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
       if (!mounted || _phase != _TestPhase.question) return;
       showDialog<void>(
         context: context,
-        builder: (dialogContext) => AlertDialog(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(24),
-          ),
-          icon: const Icon(
-            Icons.construction_rounded,
-            color: Color(0xFF155CFF),
-            size: 34,
-          ),
-          title: const Text('Coming soon'),
-          content: const Text(
-            'Dạng bài ghép câu đang được hoàn thiện. '
-            'Bạn có thể bấm Tiếp theo để tiếp tục bài kiểm tra.',
-            textAlign: TextAlign.center,
-          ),
-          actionsAlignment: MainAxisAlignment.center,
-          actions: [
-            FilledButton(
-              key: const ValueKey('constructor-coming-soon-close'),
-              onPressed: () => Navigator.of(dialogContext).pop(),
-              child: const Text('Đã hiểu'),
-            ),
-          ],
+        builder: (dialogContext) => AppDialog(
+          icon: Icons.construction_rounded,
+          title: 'Coming soon',
+          message:
+              'Dạng bài ghép câu đang được hoàn thiện. Bạn có thể bấm Tiếp theo để tiếp tục bài kiểm tra.',
+          primaryLabel: 'Đã hiểu',
+          onPrimary: () => Navigator.of(dialogContext).pop(),
+          key: const ValueKey('constructor-coming-soon-close'),
         ),
       );
     });
@@ -400,20 +387,14 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
   Future<void> _confirmExit() async {
     final shouldExit = await showDialog<bool>(
       context: context,
-      builder: (dialogContext) => AlertDialog(
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-        title: const Text('Thoát bài kiểm tra?'),
-        content: const Text('Kết quả của phần đang làm sẽ không được lưu.'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(dialogContext).pop(false),
-            child: const Text('Tiếp tục làm'),
-          ),
-          FilledButton(
-            onPressed: () => Navigator.of(dialogContext).pop(true),
-            child: const Text('Thoát'),
-          ),
-        ],
+      builder: (dialogContext) => AppDialog(
+        imageAsset: 'assets/images/cancel_icon_dialog.png',
+        title: 'Thoát bài kiểm tra?',
+        message: 'Kết quả của phần đang làm sẽ không được lưu.',
+        secondaryLabel: 'Tiếp tục làm',
+        onSecondary: () => Navigator.of(dialogContext).pop(false),
+        primaryLabel: 'Thoát',
+        onPrimary: () => Navigator.of(dialogContext).pop(true),
       ),
     );
     if (shouldExit != true || !mounted) return;
@@ -1334,38 +1315,11 @@ class _OnboardingWrongChoiceSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(
-        18,
-        12,
-        18,
-        22 + MediaQuery.paddingOf(context).bottom,
-      ),
-      decoration: const BoxDecoration(
-        color: Color(0xFAFFFFFF),
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-        boxShadow: [
-          BoxShadow(
-            color: Color(0x1F163873),
-            blurRadius: 30,
-            offset: Offset(0, -12),
-          ),
-        ],
-      ),
+    return AppBottomSheet(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(
-            child: Container(
-              width: 48,
-              height: 5,
-              decoration: BoxDecoration(
-                color: const Color(0xFFDFE7F3),
-                borderRadius: BorderRadius.circular(99),
-              ),
-            ),
-          ),
           const SizedBox(height: 16),
           const Text(
             'Chú ý',
@@ -1485,31 +1439,11 @@ class _OnboardingSentenceAnswerSheet extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.fromLTRB(
-        18,
-        12,
-        18,
-        16 + MediaQuery.paddingOf(context).bottom,
-      ),
-      decoration: const BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.vertical(top: Radius.circular(28)),
-      ),
+    return AppBottomSheet(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Center(
-            child: Container(
-              width: 38,
-              height: 4,
-              decoration: BoxDecoration(
-                color: const Color(0xFFD7DFEE),
-                borderRadius: BorderRadius.circular(99),
-              ),
-            ),
-          ),
           const SizedBox(height: 16),
           Row(
             children: [

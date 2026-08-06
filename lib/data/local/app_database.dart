@@ -398,7 +398,8 @@ class AppDatabase extends _$AppDatabase {
 
   AppDatabase.forTesting(super.e);
 
-  static const topicAssetSource = 'bundled_topic_word_params';
+  static String topicAssetSource(String languageCode) =>
+      'bundled_topics_$languageCode';
 
   @override
   int get schemaVersion => 6;
@@ -457,9 +458,9 @@ class AppDatabase extends _$AppDatabase {
     );
   }
 
-  Future<int?> topicContentRevision() async {
+  Future<int?> topicContentRevision([String languageCode = 'vi']) async {
     final query = select(contentRevisions)
-      ..where((row) => row.source.equals(topicAssetSource));
+      ..where((row) => row.source.equals(topicAssetSource(languageCode)));
     return (await query.getSingleOrNull())?.revision;
   }
 
@@ -517,8 +518,12 @@ class AppDatabase extends _$AppDatabase {
     };
   }
 
-  Future<void> upsertTopicContent(TopicAssetPayload payload) {
+  Future<void> upsertTopicContent(
+    TopicAssetPayload payload, {
+    String languageCode = 'vi',
+  }) {
     return transaction(() async {
+      final source = topicAssetSource(languageCode);
       final existingTopics = await select(topicModels).get();
       final topicSelections = {
         for (final topic in existingTopics) topic.id: topic.isSelected,
@@ -532,6 +537,35 @@ class AppDatabase extends _$AppDatabase {
 
       final topicRows = <TopicModelsCompanion>[];
       final wordRows = <WordModelsCompanion>[];
+      final topicIds = payload.topics.map((topic) => topic.id).toSet();
+      final wordIdsByTopic = {
+        for (final topic in payload.topics)
+          topic.id: topic.words.map((word) => word.id).toSet(),
+      };
+
+      if (topicIds.isNotEmpty) {
+        await (delete(
+          topicModels,
+        )..where((row) => row.id.isNotIn(topicIds))).go();
+      }
+      if (topicIds.isNotEmpty) {
+        await (delete(
+          wordModels,
+        )..where((row) => row.topicId.isNotIn(topicIds))).go();
+      }
+      for (final topicId in topicIds) {
+        final wordIds = wordIdsByTopic[topicId]!;
+        if (wordIds.isEmpty) {
+          await (delete(
+            wordModels,
+          )..where((row) => row.topicId.equals(topicId))).go();
+        } else {
+          await (delete(wordModels)..where(
+                (row) => row.topicId.equals(topicId) & row.id.isNotIn(wordIds),
+              ))
+              .go();
+        }
+      }
       for (final topic in payload.topics) {
         topicRows.add(
           TopicModelsCompanion(
@@ -573,7 +607,7 @@ class AppDatabase extends _$AppDatabase {
 
       await into(contentRevisions).insertOnConflictUpdate(
         ContentRevisionsCompanion.insert(
-          source: topicAssetSource,
+          source: source,
           revision: payload.version,
           syncedAt: DateTime.now().millisecondsSinceEpoch,
         ),

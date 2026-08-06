@@ -48,8 +48,10 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         TopicProgressDetails.empty(topic.wordCount);
     final repetitionData = ref.watch(topicRepetitionDataProvider(topic.id));
     final progressByWordId = ref.watch(wordProgressProvider).valueOrNull;
-    final sentenceFeatureEnabled =
-        ref.watch(selectedAppLanguageProvider) == 'vi';
+    final languageCode = ref.watch(selectedAppLanguageProvider);
+    final sentenceWordIds =
+        ref.watch(sentenceAssetWordIdsProvider).valueOrNull ??
+        (languageCode == 'vi' ? sentenceAssetWordIds : const <int>{});
     return Scaffold(
       backgroundColor: AppColors.background,
       body: Stack(
@@ -80,7 +82,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                           child: _actionsSection(
                             repetitionData,
                             progressByWordId,
-                            sentenceFeatureEnabled,
+                            sentenceWordIds,
                           ),
                         ),
                       ),
@@ -320,19 +322,19 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
   Widget _actionsSection(
     AsyncValue<TopicRepetitionData> repetitionData,
     Map<int, LearningProgressRow>? progressByWordId,
-    bool sentenceFeatureEnabled,
+    Set<int> sentenceWordIds,
   ) {
     final data = repetitionData.valueOrNull;
     final repeatableCount = data?.words.length ?? 0;
     final canRepeat = data?.canStart ?? false;
     final isLoading = repetitionData.isLoading || _isOpeningRepetition;
-    final sentenceWordCount = sentenceFeatureEnabled
+    final sentenceWordCount = sentenceWordIds.isNotEmpty
         ? topic.words.where((word) {
             final id = (word['id'] as num?)?.toInt();
             final progress = id == null ? null : progressByWordId?[id];
             return progress != null &&
                 id != null &&
-                sentenceAssetWordIds.contains(id) &&
+                sentenceWordIds.contains(id) &&
                 !progress.deletedByUser &&
                 !progress.markedAsKnown &&
                 (progress.repetitionStep > 0 || progress.onFastBrain);

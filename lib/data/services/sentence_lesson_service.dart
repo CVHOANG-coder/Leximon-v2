@@ -1,9 +1,8 @@
-import 'dart:convert';
 import 'dart:math';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
+import '../datasources/sentence_asset_data_source.dart';
 import '../local/app_database.dart';
 import '../models/sentence_exercise.dart';
 
@@ -27,16 +26,20 @@ class SentenceLessonService {
   SentenceLessonService({
     required AppDatabase database,
     AssetBundle? assetBundle,
+    SentenceAssetDataSource? assetDataSource,
+    String languageCode = 'vi',
     Random? random,
   }) : _database = database,
-       _assetBundle = assetBundle ?? rootBundle,
+       _assetDataSource =
+           assetDataSource ?? SentenceAssetDataSource(bundle: assetBundle),
+       _languageCode = languageCode,
        _random = random ?? Random();
 
-  static const _assetPath = 'assets/data/sentences/vi.json';
   static const _wordCount = 4;
 
   final AppDatabase _database;
-  final AssetBundle _assetBundle;
+  final SentenceAssetDataSource _assetDataSource;
+  final String _languageCode;
   final Random _random;
   Future<List<SentenceRecord>>? _cachedSentences;
 
@@ -159,9 +162,9 @@ class SentenceLessonService {
   }
 
   Future<List<SentenceRecord>> _loadSentences() {
-    return _cachedSentences ??= _assetBundle
-        .loadString(_assetPath)
-        .then((source) => compute(_decodeSentenceAsset, source));
+    return _cachedSentences ??= _assetDataSource.load(
+      languageCode: _languageCode,
+    );
   }
 
   List<SentenceExercise> _buildExercises(
@@ -254,12 +257,4 @@ class SentenceLessonService {
       expectedTokens: List.unmodifiable(expected),
     );
   }
-}
-
-List<SentenceRecord> _decodeSentenceAsset(String source) {
-  final data = jsonDecode(source) as List<dynamic>;
-  return data
-      .whereType<Map<String, dynamic>>()
-      .map(SentenceRecord.fromJson)
-      .toList(growable: false);
 }

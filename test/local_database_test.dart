@@ -67,6 +67,27 @@ void main() {
     expect(word.showCount, 7);
   });
 
+  test('loads words from the selected language topic asset', () async {
+    final repository = TopicRepository(
+      database: database,
+      assetDataSource: TopicAssetDataSource(),
+    );
+
+    final germanTopics = await repository.loadTopics(languageCode: 'de');
+
+    expect(await database.topicContentRevision('de'), 36);
+    expect(germanTopics.first.translated, 'Reisen');
+    expect(
+      germanTopics.fold<int>(0, (total, topic) => total + topic.wordCount),
+      5995,
+    );
+
+    final vietnameseTopics = await repository.loadTopics(languageCode: 'vi');
+
+    expect(vietnameseTopics.first.translated, 'Du lịch');
+    expect(await database.topicContentRevision('vi'), 36);
+  });
+
   test('reads similar word IDs for lesson generation', () async {
     await database
         .into(database.similarWordModels)

@@ -8,68 +8,87 @@ import 'package:leximon/shared/providers/app_providers.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
-  test(
-    'startup requires language onboarding only when no language is saved',
-    () async {
-      SharedPreferences.setMockInitialValues({});
-      final firstLaunchContainer = ProviderContainer(
-        overrides: [
-          localDataInitializationProvider.overrideWith((ref) async {}),
-          selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
-        ],
-      );
-      addTearDown(firstLaunchContainer.dispose);
+  test('startup resumes onboarding from the correct checkpoint', () async {
+    SharedPreferences.setMockInitialValues({});
+    final firstLaunchContainer = ProviderContainer(
+      overrides: [
+        localDataInitializationProvider.overrideWith((ref) async {}),
+        selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
+      ],
+    );
+    addTearDown(firstLaunchContainer.dispose);
 
-      expect(
-        await firstLaunchContainer.read(
-          applicationInitializationProvider.future,
-        ),
-        AppStartupDestination.languageOnboarding,
-      );
+    expect(
+      await firstLaunchContainer.read(applicationInitializationProvider.future),
+      AppStartupDestination.languageOnboarding,
+    );
 
-      final preferences = await SharedPreferences.getInstance();
-      await preferences.setString(AppLanguageService.selectedLanguageKey, 'vi');
-      final assessmentContainer = ProviderContainer(
-        overrides: [
-          localDataInitializationProvider.overrideWith((ref) async {}),
-          selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
-        ],
-      );
-      addTearDown(assessmentContainer.dispose);
+    final preferences = await SharedPreferences.getInstance();
+    await preferences.setString(AppLanguageService.selectedLanguageKey, 'vi');
+    final incompleteOnboardingContainer = ProviderContainer(
+      overrides: [
+        localDataInitializationProvider.overrideWith((ref) async {}),
+        selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
+      ],
+    );
+    addTearDown(incompleteOnboardingContainer.dispose);
 
-      expect(
-        await assessmentContainer.read(
-          applicationInitializationProvider.future,
-        ),
-        AppStartupDestination.assessmentIntro,
-      );
+    expect(
+      await incompleteOnboardingContainer.read(
+        applicationInitializationProvider.future,
+      ),
+      AppStartupDestination.languageOnboarding,
+    );
 
-      await preferences.setBool(
-        AppLanguageService.onboardingCompletedKey,
-        true,
-      );
-      final returningUserContainer = ProviderContainer(
-        overrides: [
-          localDataInitializationProvider.overrideWith((ref) async {}),
-          selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
-        ],
-      );
-      addTearDown(returningUserContainer.dispose);
+    await preferences.setBool(AppLanguageService.carouselCompletedKey, true);
+    final freeTrialContainer = ProviderContainer(
+      overrides: [
+        localDataInitializationProvider.overrideWith((ref) async {}),
+        selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
+      ],
+    );
+    addTearDown(freeTrialContainer.dispose);
 
-      expect(
-        await returningUserContainer.read(
-          applicationInitializationProvider.future,
-        ),
-        AppStartupDestination.home,
-      );
-      expect(returningUserContainer.read(selectedAppLanguageProvider), 'vi');
-    },
-  );
+    expect(
+      await freeTrialContainer.read(applicationInitializationProvider.future),
+      AppStartupDestination.freeTrialOffer,
+    );
+
+    await preferences.setBool(AppLanguageService.onboardingCompletedKey, true);
+    final returningUserContainer = ProviderContainer(
+      overrides: [
+        localDataInitializationProvider.overrideWith((ref) async {}),
+        selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
+      ],
+    );
+    addTearDown(returningUserContainer.dispose);
+
+    expect(
+      await returningUserContainer.read(
+        applicationInitializationProvider.future,
+      ),
+      AppStartupDestination.home,
+    );
+    expect(returningUserContainer.read(selectedAppLanguageProvider), 'vi');
+  });
+
+  test('carousel checkpoint can be completed and reset', () async {
+    SharedPreferences.setMockInitialValues({});
+    final service = AppLanguageService();
+
+    expect(await service.isCarouselCompleted(), isFalse);
+    await service.completeCarousel();
+    expect(await service.isCarouselCompleted(), isTrue);
+    await service.resetCarousel();
+    expect(await service.isCarouselCompleted(), isFalse);
+  });
 
   testWidgets('selects and persists the app language before continuing', (
     tester,
   ) async {
-    SharedPreferences.setMockInitialValues({});
+    SharedPreferences.setMockInitialValues({
+      AppLanguageService.carouselCompletedKey: true,
+    });
     tester.view.devicePixelRatio = 1;
     tester.view.physicalSize = const Size(390, 844);
     addTearDown(tester.view.reset);
@@ -114,6 +133,10 @@ void main() {
     expect(find.text('Assessment intro'), findsOneWidget);
     final preferences = await SharedPreferences.getInstance();
     expect(preferences.getString(AppLanguageService.selectedLanguageKey), 'de');
+    expect(
+      preferences.getBool(AppLanguageService.carouselCompletedKey),
+      isFalse,
+    );
     expect(container.read(selectedAppLanguageProvider), 'de');
   });
 }

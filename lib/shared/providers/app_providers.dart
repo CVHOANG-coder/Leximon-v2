@@ -3,9 +3,11 @@ import 'dart:async';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/services/app_language_service.dart';
+import '../../data/datasources/sentence_asset_data_source.dart';
 import '../../data/datasources/topic_asset_data_source.dart';
 import '../../data/local/app_database.dart';
 import '../../data/models/learning_language_level.dart';
+import '../../data/models/sentence_asset_index.dart';
 import '../../data/models/topic.dart';
 import '../../data/models/vocabulary_collection.dart';
 import '../../data/repositories/topic_repository.dart';
@@ -51,8 +53,26 @@ final appLanguageServiceProvider = Provider<AppLanguageService>(
 
 final selectedAppLanguageProvider = StateProvider<String>((ref) => 'vi');
 
+final supportedLanguagesProvider = FutureProvider((ref) {
+  return ref.watch(topicAssetDataSourceProvider).loadAvailableLanguages();
+});
+
+final sentenceAssetDataSourceProvider = Provider<SentenceAssetDataSource>(
+  (ref) => SentenceAssetDataSource(),
+);
+
+final sentenceAssetWordIdsProvider = FutureProvider<Set<int>>((ref) async {
+  final languageCode = ref.watch(selectedAppLanguageProvider);
+  return ref
+      .watch(sentenceAssetDataSourceProvider)
+      .loadWordIds(languageCode: languageCode);
+});
+
 final localDataInitializationProvider = FutureProvider<void>((ref) {
-  return ref.watch(topicRepositoryProvider).initialize();
+  final languageCode = ref.watch(selectedAppLanguageProvider);
+  return ref
+      .watch(topicRepositoryProvider)
+      .initialize(languageCode: languageCode);
 });
 
 final userProfileProvider = FutureProvider<UserProfileRow?>((ref) async {
@@ -61,8 +81,33 @@ final userProfileProvider = FutureProvider<UserProfileRow?>((ref) async {
 });
 
 final topicsProvider = FutureProvider<List<Topic>>((ref) async {
+  final languageCode = ref.watch(selectedAppLanguageProvider);
   await ref.watch(localDataInitializationProvider.future);
-  return ref.watch(topicRepositoryProvider).loadTopics();
+  return ref
+      .watch(topicRepositoryProvider)
+      .loadTopics(languageCode: languageCode);
+});
+
+/// Onboarding only needs the bundled topic catalogue. Keeping this separate
+/// from [topicsProvider] lets the selection page render before the native
+/// database has been opened.
+final onboardingTopicsProvider = FutureProvider<List<Topic>>((ref) async {
+  final languageCode = ref.watch(selectedAppLanguageProvider);
+  final payload = await ref
+      .watch(topicAssetDataSourceProvider)
+      .load(languageCode: languageCode);
+  return payload.topics
+      .where((topic) => topic.isEnabled)
+      .map(
+        (topic) => Topic(
+          id: topic.id,
+          order: topic.order,
+          original: topic.original ?? '',
+          translated: topic.translated ?? '',
+          words: const <Map<String, dynamic>>[],
+        ),
+      )
+      .toList(growable: false);
 });
 
 /// Progress is kept separately from topic content so screens can refresh the
@@ -104,21 +149,29 @@ final selectedTopicOrdersHydrationProvider = FutureProvider<void>((ref) async {
   }
 });
 
-enum AppStartupDestination { languageOnboarding, assessmentIntro, home }
+enum AppStartupDestination {
+  languageOnboarding,
+  assessmentIntro,
+  freeTrialOffer,
+  home,
+}
 
 /// Completes once everything required before leaving the splash screen is
 /// ready, then tells the router whether first-run onboarding is still needed.
 final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
   (ref) async {
-    await ref.watch(localDataInitializationProvider.future);
-    await ref.watch(selectedTopicOrdersHydrationProvider.future);
     final savedLanguage = await ref
         .watch(appLanguageServiceProvider)
         .loadSelectedLanguage();
     if (savedLanguage == null) {
       return AppStartupDestination.languageOnboarding;
     }
-    ref.read(selectedAppLanguageProvider.notifier).state = savedLanguage;
+    final languageCode = TopicAssetDataSource.canonicalizeLanguageCode(
+      savedLanguage,
+    );
+    ref.read(selectedAppLanguageProvider.notifier).state = languageCode;
+    await ref.watch(localDataInitializationProvider.future);
+    await ref.watch(selectedTopicOrdersHydrationProvider.future);
     final savedLevel = await ref
         .watch(appLanguageServiceProvider)
         .loadSelectedLearningLevel();
@@ -130,14 +183,23 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
     final onboardingCompleted = await ref
         .watch(appLanguageServiceProvider)
         .isOnboardingCompleted();
-    return onboardingCompleted
-        ? AppStartupDestination.home
-        : AppStartupDestination.assessmentIntro;
+    if (onboardingCompleted) return AppStartupDestination.home;
+
+    final carouselCompleted = await ref
+        .watch(appLanguageServiceProvider)
+        .isCarouselCompleted();
+    return carouselCompleted
+        ? AppStartupDestination.freeTrialOffer
+        : AppStartupDestination.languageOnboarding;
   },
 );
 
 final sentenceLessonServiceProvider = Provider<SentenceLessonService>((ref) {
-  return SentenceLessonService(database: ref.watch(appDatabaseProvider));
+  return SentenceLessonService(
+    database: ref.watch(appDatabaseProvider),
+    assetDataSource: ref.watch(sentenceAssetDataSourceProvider),
+    languageCode: ref.watch(selectedAppLanguageProvider),
+  );
 });
 
 final sentenceProgressServiceProvider = Provider<SentenceProgressService>((
@@ -151,10 +213,14 @@ final sentenceAiServiceProvider = Provider<SentenceAiService>((ref) {
 });
 
 final dailyCardServiceProvider = Provider<DailyCardService>((ref) {
+  final languageCode = ref.watch(selectedAppLanguageProvider);
   return DailyCardService(
     ref.watch(appDatabaseProvider),
     wordsPerDay: ref.watch(dailyWordsPerDayProvider),
-    sentenceFeatureEnabled: ref.watch(selectedAppLanguageProvider) == 'vi',
+    sentenceFeatureEnabled: true,
+    sentenceWordIds: languageCode == 'vi' ? sentenceAssetWordIds : null,
+    sentenceLanguageCode: languageCode,
+    sentenceAssetDataSource: ref.watch(sentenceAssetDataSourceProvider),
   );
 });
 

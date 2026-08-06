@@ -13,14 +13,28 @@ class TopicRepository {
 
   final AppDatabase _database;
   final TopicAssetDataSource _assetDataSource;
-  Future<void>? _initialization;
+  Future<void> _lastSynchronization = Future<void>.value();
+  String? _activeLanguageCode;
 
-  Future<void> initialize() {
-    return _initialization ??= _synchronizeBundledContent();
+  Future<void> initialize({String languageCode = 'vi'}) {
+    final canonicalCode = TopicAssetDataSource.canonicalizeLanguageCode(
+      languageCode,
+    );
+    final synchronization = _lastSynchronization.then((_) async {
+      if (_activeLanguageCode == canonicalCode) return;
+      final forceReload =
+          _activeLanguageCode != null && _activeLanguageCode != canonicalCode;
+      await _synchronizeBundledContent(canonicalCode, forceReload: forceReload);
+      _activeLanguageCode = canonicalCode;
+    });
+    _lastSynchronization = synchronization.catchError(
+      (Object error, StackTrace stackTrace) {},
+    );
+    return synchronization;
   }
 
-  Future<List<Topic>> loadTopics() async {
-    await initialize();
+  Future<List<Topic>> loadTopics({String languageCode = 'vi'}) async {
+    await initialize(languageCode: languageCode);
 
     final topicRows = await _database.enabledTopics();
     final wordRows = await _database.enabledWords();
@@ -63,16 +77,20 @@ class TopicRepository {
     });
   }
 
-  Future<void> _synchronizeBundledContent() async {
-    final payload = await _assetDataSource.load();
-    final localRevision = await _database.topicContentRevision();
+  Future<void> _synchronizeBundledContent(
+    String languageCode, {
+    required bool forceReload,
+  }) async {
+    final payload = await _assetDataSource.load(languageCode: languageCode);
+    final localRevision = await _database.topicContentRevision(languageCode);
     final hasContent = await _database.hasTopicContent();
-    if (hasContent &&
+    if (!forceReload &&
+        hasContent &&
         localRevision != null &&
         localRevision >= payload.version) {
       return;
     }
-    await _database.upsertTopicContent(payload);
+    await _database.upsertTopicContent(payload, languageCode: languageCode);
   }
 
   Map<String, dynamic> _wordToMap(WordRow word) {

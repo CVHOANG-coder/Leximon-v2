@@ -1,7 +1,7 @@
 import 'package:drift/drift.dart';
 
 import '../local/app_database.dart';
-import '../models/sentence_asset_index.dart';
+import '../datasources/sentence_asset_data_source.dart';
 import 'exercise_error_mask.dart';
 
 enum DailyTaskType { repeat, learn, train, sentences, difficult }
@@ -71,7 +71,9 @@ class DailyCardService {
     this._database, {
     this.wordsPerDay = defaultLearnWordsGoal,
     this.sentenceFeatureEnabled = false,
-    this.sentenceWordIds = sentenceAssetWordIds,
+    this.sentenceWordIds,
+    this.sentenceLanguageCode = 'vi',
+    this.sentenceAssetDataSource,
   }) : assert(wordsPerDay > 0);
 
   static const defaultLearnWordsGoal = 8;
@@ -82,11 +84,18 @@ class DailyCardService {
   final AppDatabase _database;
   final int wordsPerDay;
   final bool sentenceFeatureEnabled;
-  final Set<int> sentenceWordIds;
+  final Set<int>? sentenceWordIds;
+  final String sentenceLanguageCode;
+  final SentenceAssetDataSource? sentenceAssetDataSource;
 
   Future<DailyCardSnapshot> load({DateTime? now}) async {
     final currentTime = now ?? DateTime.now();
     final today = _dayStart(currentTime);
+    final activeSentenceWordIds = sentenceFeatureEnabled
+        ? sentenceWordIds ??
+              await (sentenceAssetDataSource ?? SentenceAssetDataSource())
+                  .loadWordIds(languageCode: sentenceLanguageCode)
+        : const <int>{};
     final enabledWordIds = (await _database.enabledWords())
         .map((word) => word.id)
         .toSet();
@@ -122,7 +131,7 @@ class DailyCardService {
     final sentenceEligibleCount = sentenceFeatureEnabled
         ? progressRows.where((row) {
             return enabledWordIds.contains(row.id) &&
-                sentenceWordIds.contains(row.id) &&
+                activeSentenceWordIds.contains(row.id) &&
                 !row.markedAsKnown &&
                 !row.deletedByUser &&
                 (row.repetitionStep > 0 || row.onFastBrain);
@@ -239,8 +248,9 @@ class DailyCardService {
       }
 
       if (existing.learnWordsGoal != 0) {
-        final effectiveSentenceGoal =
-            existing.wordsInSentencesGoal == 0 && sentenceGoal > 0
+        final effectiveSentenceGoal = sentenceGoal == 0
+            ? 0
+            : existing.wordsInSentencesGoal == 0
             ? sentenceGoal
             : existing.wordsInSentencesGoal;
         final areGoalsFinished = areDailyTaskGoalsFinished(

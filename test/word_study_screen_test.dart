@@ -8,6 +8,7 @@ import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/learning_language_level.dart';
 import 'package:leximon/data/models/topic.dart';
 import 'package:leximon/presentation/screens/learning_filter/learning_filter_screen.dart';
+import 'package:leximon/presentation/screens/review_practice/review_practice_screen.dart';
 import 'package:leximon/presentation/screens/word_study/word_study_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
 
@@ -306,6 +307,55 @@ void main() {
     expect(find.text('Tiếp tục'), findsNothing);
     expect(find.text('Áp dụng'), findsOneWidget);
     expect(find.byKey(const ValueKey('assets/svgs/book.svg')), findsOneWidget);
+  });
+
+  testWidgets('clears selected words after exiting practice early', (
+    tester,
+  ) async {
+    final database = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(database.close);
+    const topic = Topic(
+      id: 57,
+      order: 1,
+      original: 'Traveling',
+      translated: 'Du lịch',
+      words: [
+        {'id': 1, 'writing': 'trip', 'translation': 'chuyến đi'},
+        {'id': 2, 'writing': 'passport', 'translation': 'hộ chiếu'},
+        {'id': 3, 'writing': 'visa', 'translation': 'thị thực'},
+        {'id': 4, 'writing': 'suitcase', 'translation': 'va li'},
+      ],
+    );
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          appDatabaseProvider.overrideWithValue(database),
+          topicsProvider.overrideWith((ref) async => [topic]),
+          wordProgressProvider.overrideWith(
+            (ref) async => const <int, LearningProgressRow>{},
+          ),
+        ],
+        child: const MaterialApp(home: WordStudyScreen(topic: topic)),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    for (var index = 0; index < 4; index++) {
+      await tester.tap(find.text('Học từ này').hitTestable().first);
+      await tester.pumpAndSettle();
+    }
+
+    expect(find.byType(ReviewPracticeScreen), findsOneWidget);
+    await tester.tap(find.byKey(const Key('review-practice-close-button')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('Kết thúc ôn tập'));
+    await tester.pumpAndSettle();
+
+    expect(find.byType(WordStudyScreen), findsOneWidget);
+    expect(find.text('Đã chọn 0 / 4 từ'), findsOneWidget);
+    expect(find.text('Chưa phân loại'), findsWidgets);
+    expect(find.text('Học từ này'), findsWidgets);
   });
 
   testWidgets('shows recommended words from selected topics and level', (

@@ -333,6 +333,18 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     }
   }
 
+  void _clearSelectedWords() {
+    if (_selectedWordKeys.isEmpty && _selectedWords.isEmpty) return;
+
+    setState(() {
+      for (final key in _selectedWordKeys) {
+        _wordStates.remove(key);
+      }
+      _selectedWordKeys.clear();
+      _selectedWords.clear();
+    });
+  }
+
   Future<void> _persistKnownState(
     Topic topic,
     int index,
@@ -436,6 +448,8 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
       ref.invalidate(wordProgressProvider);
       ref.invalidate(progressDashboardProvider);
       Navigator.of(context).pop();
+    } else if (mounted) {
+      _clearSelectedWords();
     }
   }
 

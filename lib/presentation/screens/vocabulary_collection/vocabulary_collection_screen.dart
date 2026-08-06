@@ -10,6 +10,7 @@ import '../../../data/models/practice_exercise.dart';
 import '../../../data/models/vocabulary_collection.dart';
 import '../../../data/services/daily_card_service.dart';
 import '../../../data/services/learning_progress_service.dart';
+import '../../../presentation/widgets/app_bottom_sheet.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../difficult_words_training/difficult_words_result_screen.dart';
 import '../repetition_practice/repetition_practice_screen.dart';
@@ -998,129 +999,110 @@ class _WordDetailSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final transcription = entry.word.transcription;
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(12, 12, 12, 0),
-      child: Material(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(32),
-        clipBehavior: Clip.antiAlias,
-        child: SafeArea(
-          top: false,
-          child: SingleChildScrollView(
-            padding: const EdgeInsets.fromLTRB(24, 0, 24, 22),
-            child: Column(
+    return AppBottomSheet(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.fromLTRB(6, 0, 6, 6),
+        child: Column(
+          children: [
+            Row(
               children: [
-                Container(
-                  width: 46,
-                  height: 5,
-                  margin: const EdgeInsets.only(top: 12, bottom: 14),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFD8E2F1),
-                    borderRadius: BorderRadius.circular(99),
-                  ),
-                ),
-                Row(
-                  children: [
-                    const Expanded(
-                      child: Text(
-                        'ĐANG XEM TỪ',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          color: Color(0xFF55A8EF),
-                          fontSize: 10,
-                          fontWeight: FontWeight.w800,
-                          letterSpacing: 1.1,
-                        ),
-                      ),
-                    ),
-                    IconButton(
-                      onPressed: () => Navigator.of(context).pop(),
-                      icon: const Icon(Icons.close_rounded),
-                      style: IconButton.styleFrom(
-                        backgroundColor: const Color(0xFFF5F8FD),
-                        foregroundColor: AppColors.textPrimary,
-                      ),
-                      tooltip: 'Đóng',
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  entry.word.writing,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    color: AppColors.textPrimary,
-                    fontSize: 40,
-                    height: 1,
-                    fontWeight: FontWeight.w800,
-                    letterSpacing: -1.7,
-                  ),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  entry.word.translation,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    color: AppColors.textSecondary,
-                    fontSize: 17,
-                  ),
-                ),
-                const SizedBox(height: 22),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    _AudioButton(
-                      icon: Icons.slow_motion_video_rounded,
-                      label: 'Nghe chậm',
-                      onTap: () => TextToSpeechService.instance.speak(
-                        entry.word.writing,
-                        speechRate: TextToSpeechService.slowSpeechRate,
-                      ),
-                    ),
-                    const SizedBox(width: 14),
-                    _AudioButton(
-                      icon: Icons.volume_up_rounded,
-                      label: 'Nghe phát âm',
-                      large: true,
-                      onTap: () => TextToSpeechService.instance.speak(
-                        entry.word.writing,
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 24),
-                Container(
-                  width: double.infinity,
-                  height: 58,
-                  alignment: Alignment.center,
-                  decoration: BoxDecoration(
-                    color: _statusColor(entry.status).withValues(alpha: .1),
-                    borderRadius: BorderRadius.circular(20),
-                  ),
+                const Expanded(
                   child: Text(
-                    _statusTitle(entry.status),
+                    'ĐANG XEM TỪ',
+                    textAlign: TextAlign.center,
                     style: TextStyle(
-                      color: _statusColor(entry.status),
-                      fontSize: 19,
+                      color: Color(0xFF55A8EF),
+                      fontSize: 10,
                       fontWeight: FontWeight.w800,
+                      letterSpacing: 1.1,
                     ),
                   ),
                 ),
-                const SizedBox(height: 22),
-                _DetailLine(
-                  label: 'American English',
-                  value: transcription == null || transcription.isEmpty
-                      ? 'Chưa cập nhật'
-                      : '/$transcription/',
+                IconButton(
+                  onPressed: () => Navigator.of(context).pop(),
+                  icon: const Icon(Icons.close_rounded),
+                  style: IconButton.styleFrom(
+                    backgroundColor: const Color(0xFFF5F8FD),
+                    foregroundColor: AppColors.textPrimary,
+                  ),
+                  tooltip: 'Đóng',
                 ),
-                _DetailLine(
-                  label: 'Cấp độ từ',
-                  value: _levelLabel(entry.word.level),
-                ),
-                _DetailLine(label: 'Chủ đề', value: entry.topic.translated),
               ],
             ),
-          ),
+            const SizedBox(height: 4),
+            Text(
+              entry.word.writing,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: AppColors.textPrimary,
+                fontSize: 40,
+                height: 1,
+                fontWeight: FontWeight.w800,
+                letterSpacing: -1.7,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              entry.word.translation,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                color: AppColors.textSecondary,
+                fontSize: 17,
+              ),
+            ),
+            const SizedBox(height: 22),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                _AudioButton(
+                  icon: Icons.slow_motion_video_rounded,
+                  label: 'Nghe chậm',
+                  onTap: () => TextToSpeechService.instance.speak(
+                    entry.word.writing,
+                    speechRate: TextToSpeechService.slowSpeechRate,
+                  ),
+                ),
+                const SizedBox(width: 14),
+                _AudioButton(
+                  icon: Icons.volume_up_rounded,
+                  label: 'Nghe phát âm',
+                  large: true,
+                  onTap: () =>
+                      TextToSpeechService.instance.speak(entry.word.writing),
+                ),
+              ],
+            ),
+            const SizedBox(height: 24),
+            Container(
+              width: double.infinity,
+              height: 58,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: _statusColor(entry.status).withValues(alpha: .1),
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: Text(
+                _statusTitle(entry.status),
+                style: TextStyle(
+                  color: _statusColor(entry.status),
+                  fontSize: 19,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+            ),
+            const SizedBox(height: 22),
+            _DetailLine(
+              label: 'American English',
+              value: transcription == null || transcription.isEmpty
+                  ? 'Chưa cập nhật'
+                  : '/$transcription/',
+            ),
+            _DetailLine(
+              label: 'Cấp độ từ',
+              value: _levelLabel(entry.word.level),
+            ),
+            _DetailLine(label: 'Chủ đề', value: entry.topic.translated),
+          ],
         ),
       ),
     );
