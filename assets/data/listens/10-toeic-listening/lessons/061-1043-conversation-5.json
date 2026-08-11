@@ -1,0 +1,960 @@
+{
+  "summary": {
+    "id": 1043,
+    "name": "Conversation 5",
+    "subTitle": "Delayed Computer Delivery Call",
+    "levelName": "B1",
+    "position": 61,
+    "totalChallenges": 15,
+    "groupId": 31,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1043",
+  "detail": {
+    "id": 1043,
+    "lessonName": "Conversation 5",
+    "name": "Conversation 5",
+    "position": 61,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/0-conversation-5.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 52598,
+        "position": 1,
+        "content": "Good afternoon, this is Harry Stills.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "afternoon,",
+          "this",
+          "is",
+          "Harry",
+          "Stills."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Harry"
+          ],
+          [
+            "Stills."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.73,
+        "hints": [
+          "Harry Stills"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52598/list"
+      },
+      {
+        "id": 52599,
+        "position": 2,
+        "content": "I'm calling regarding a delivery I was expecting.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "regarding",
+          "a",
+          "delivery",
+          "I",
+          "was",
+          "expecting."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "regarding"
+          ],
+          [
+            "a"
+          ],
+          [
+            "delivery"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "expecting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/2.mp3",
+        "timeStart": 2.73,
+        "timeEnd": 5.8,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/52599/list"
+      },
+      {
+        "id": 52600,
+        "position": 3,
+        "content": "I placed an order for a computer yesterday and paid for the expedited shipping.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "placed",
+          "an",
+          "order",
+          "for",
+          "a",
+          "computer",
+          "yesterday",
+          "and",
+          "paid",
+          "for",
+          "the",
+          "expedited",
+          "shipping."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "placed"
+          ],
+          [
+            "an"
+          ],
+          [
+            "order"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "computer"
+          ],
+          [
+            "yesterday"
+          ],
+          [
+            "and"
+          ],
+          [
+            "paid"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "expedited"
+          ],
+          [
+            "shipping."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/3.mp3",
+        "timeStart": 5.8,
+        "timeEnd": 10.42,
+        "hints": [],
+        "nbComments": 16,
+        "discussionUrl": "https://dailydictation.com/discussions/52600/list"
+      },
+      {
+        "id": 52601,
+        "position": 4,
+        "content": "It was supposed to be here by noon,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "supposed",
+          "to",
+          "be",
+          "here",
+          "by",
+          "noon,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "here"
+          ],
+          [
+            "by"
+          ],
+          [
+            "noon,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/4.mp3",
+        "timeStart": 10.42,
+        "timeEnd": 12.52,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52601/list"
+      },
+      {
+        "id": 52602,
+        "position": 5,
+        "content": "but here we are, two hours later, and I am still waiting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "here",
+          [
+            "we are,",
+            "we're"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          "hours",
+          "later,",
+          "and",
+          [
+            "I am",
+            "I'm"
+          ],
+          "still",
+          "waiting."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "here"
+          ],
+          [
+            "we are,",
+            "we're"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "later,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "still"
+          ],
+          [
+            "waiting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/5.mp3",
+        "timeStart": 12.52,
+        "timeEnd": 16.46,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52602/list"
+      },
+      {
+        "id": 52603,
+        "position": 6,
+        "content": "I'm sorry about that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry",
+          "about",
+          "that."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/6.mp3",
+        "timeStart": 16.96,
+        "timeEnd": 18.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52603/list"
+      },
+      {
+        "id": 52604,
+        "position": 7,
+        "content": "The delivery crew actually just called us to let us know he had a flat tire",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "delivery",
+          "crew",
+          "actually",
+          "just",
+          "called",
+          "us",
+          "to",
+          "let",
+          "us",
+          "know",
+          [
+            "he had",
+            "He'd"
+          ],
+          "a",
+          "flat",
+          [
+            "tire",
+            "tyre"
+          ]
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "delivery"
+          ],
+          [
+            "crew"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "just"
+          ],
+          [
+            "called"
+          ],
+          [
+            "us"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "us"
+          ],
+          [
+            "know"
+          ],
+          [
+            "he had",
+            "He'd"
+          ],
+          [
+            "a"
+          ],
+          [
+            "flat"
+          ],
+          [
+            "tire",
+            "tyre"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/7.mp3",
+        "timeStart": 18.77,
+        "timeEnd": 23.58,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/52604/list"
+      },
+      {
+        "id": 52605,
+        "position": 8,
+        "content": "and was running behind on his deliveries.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "was",
+          "running",
+          "behind",
+          "on",
+          "his",
+          "deliveries."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "was"
+          ],
+          [
+            "running"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "on"
+          ],
+          [
+            "his"
+          ],
+          [
+            "deliveries."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/8.mp3",
+        "timeStart": 23.58,
+        "timeEnd": 25.86,
+        "hints": [],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/52605/list"
+      },
+      {
+        "id": 52606,
+        "position": 9,
+        "content": "He is back on the road and should arrive in the next thirty minutes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "He is",
+            "he's"
+          ],
+          "back",
+          "on",
+          "the",
+          "road",
+          "and",
+          "should",
+          "arrive",
+          "in",
+          "the",
+          "next",
+          [
+            "thirty",
+            "30"
+          ],
+          "minutes."
+        ],
+        "solution": [
+          [
+            "He is",
+            "he's"
+          ],
+          [
+            "back"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "road"
+          ],
+          [
+            "and"
+          ],
+          [
+            "should"
+          ],
+          [
+            "arrive"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "thirty",
+            "30"
+          ],
+          [
+            "minutes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/9.mp3",
+        "timeStart": 25.86,
+        "timeEnd": 29.76,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/52606/list"
+      },
+      {
+        "id": 52607,
+        "position": 10,
+        "content": "Are you sure?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "sure?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "sure?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/10.mp3",
+        "timeStart": 29.76,
+        "timeEnd": 30.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52607/list"
+      },
+      {
+        "id": 52608,
+        "position": 11,
+        "content": "I have to leave in forty minutes for an appointment,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "leave",
+          "in",
+          [
+            "forty",
+            "40"
+          ],
+          "minutes",
+          "for",
+          "an",
+          "appointment,"
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "in"
+          ],
+          [
+            "forty",
+            "40"
+          ],
+          [
+            "minutes"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/11.mp3",
+        "timeStart": 30.81,
+        "timeEnd": 33.35,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/52608/list"
+      },
+      {
+        "id": 52609,
+        "position": 12,
+        "content": "so I need to make sure I have it before then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "need",
+          "to",
+          "make",
+          "sure",
+          [
+            "I have",
+            "I've"
+          ],
+          "it",
+          "before",
+          "then."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "it"
+          ],
+          [
+            "before"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/12.mp3",
+        "timeStart": 33.35,
+        "timeEnd": 36.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52609/list"
+      },
+      {
+        "id": 52610,
+        "position": 13,
+        "content": "I understand.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "understand."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "understand."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/13.mp3",
+        "timeStart": 36.49,
+        "timeEnd": 37.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52610/list"
+      },
+      {
+        "id": 52611,
+        "position": 14,
+        "content": "I will call him right now and ask him to make sure you are the first stop he makes in the neighborhood.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "call",
+          "him",
+          "right",
+          "now",
+          "and",
+          "ask",
+          "him",
+          "to",
+          "make",
+          "sure",
+          [
+            "you are",
+            "you're"
+          ],
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "stop",
+          "he",
+          "makes",
+          "in",
+          "the",
+          [
+            "neighborhood.",
+            "neighbourhood"
+          ]
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "call"
+          ],
+          [
+            "him"
+          ],
+          [
+            "right"
+          ],
+          [
+            "now"
+          ],
+          [
+            "and"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "him"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "he"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "neighborhood.",
+            "neighbourhood"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/14.mp3",
+        "timeStart": 37.9,
+        "timeEnd": 43.68,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/52611/list"
+      },
+      {
+        "id": 52612,
+        "position": 15,
+        "content": "I want to apologize for the delay.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "apologize",
+            "apologise"
+          ],
+          "for",
+          "the",
+          "delay."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "apologize",
+            "apologise"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "delay."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-5-2023-09-10-16-02-43/15.mp3",
+        "timeStart": 43.68,
+        "timeEnd": 46.06,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52612/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "52599": {
+      "id": 867286,
+      "text": "Tôi gọi điện để hỏi về một đơn hàng mà tôi đang chờ.",
+      "author": "a user"
+    },
+    "52600": {
+      "id": 867295,
+      "text": "Tôi đã đặt mua một chiếc máy tính vào ngày hôm qua và đã thanh toán phí vận chuyển nhanh.",
+      "author": "a user"
+    },
+    "52601": {
+      "id": 867306,
+      "text": "Lẽ ra nó phải ở đây trước buổi trưa,",
+      "author": "a user"
+    },
+    "52602": {
+      "id": 867307,
+      "text": "nhưng đã hai giờ trôi qua, và tôi vẫn đang phải chờ đợi.",
+      "author": "a user"
+    },
+    "52604": {
+      "id": 867312,
+      "text": "Thực ra phía đơn vị vận chuyển vừa liên hệ với chúng tôi để thông báo rằng tài xế của họ đã gặp sự cố thủng lốp xe.",
+      "author": "a user"
+    },
+    "52605": {
+      "id": 867318,
+      "text": "và đang chậm trễ trong việc giao hàng.",
+      "author": "a user"
+    },
+    "52608": {
+      "id": 867330,
+      "text": "Tôi phải rời đi trong 40 phút nữa cho một cuộc hẹn.",
+      "author": "a user"
+    },
+    "52609": {
+      "id": 867332,
+      "text": "vì vậy tôi cần chắc chắn rằng tôi có nó trước lúc đó.",
+      "author": "a user"
+    },
+    "52611": {
+      "id": 867338,
+      "text": "Tôi sẽ gọi cho anh ấy ngay bây giờ và yêu cầu anh ấy đảm bảo rằng bạn là điểm dừng đầu tiên anh ấy giao hàng trong khu vực.",
+      "author": "a user"
+    },
+    "52598": {
+      "id": 2593027,
+      "text": "Chào buổi chiều, tôi là Harry Stills.",
+      "author": "ChatGPT4.1"
+    },
+    "52603": {
+      "id": 2593028,
+      "text": "Tôi xin lỗi về việc đó.",
+      "author": "ChatGPT4.1"
+    },
+    "52606": {
+      "id": 2593029,
+      "text": "Anh ấy vừa quay lại đường và sẽ đến trong vòng ba mươi phút nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "52607": {
+      "id": 2593030,
+      "text": "Bạn chắc chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "52610": {
+      "id": 2593031,
+      "text": "Tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "52612": {
+      "id": 2593032,
+      "text": "Tôi muốn xin lỗi vì sự chậm trễ này.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,3254 @@
+{
+  "summary": {
+    "id": 755,
+    "name": "Cam10 - Test 2 - Part 1",
+    "subTitle": "Transport Survey Interview",
+    "levelName": "B1",
+    "position": 198,
+    "totalChallenges": 61,
+    "groupId": 63,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/755",
+  "detail": {
+    "id": 755,
+    "lessonName": "Cam10 - Test 2 - Part 1",
+    "name": "Cam10 - Test 2 - Part 1",
+    "position": 198,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/0-ielts-cambridge-10-test-2-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 35442,
+        "position": 1,
+        "content": "Excuse me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Excuse",
+          "me."
+        ],
+        "solution": [
+          [
+            "Excuse"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/1.mp3",
+        "timeStart": 0.4,
+        "timeEnd": 1.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35442/list"
+      },
+      {
+        "id": 35443,
+        "position": 2,
+        "content": "Yes?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes?"
+        ],
+        "solution": [
+          [
+            "Yes?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/2.mp3",
+        "timeStart": 1.41,
+        "timeEnd": 2.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35443/list"
+      },
+      {
+        "id": 35444,
+        "position": 3,
+        "content": "I wonder if you could spare a few minutes to do a survey on transport. It won't take long.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wonder",
+          "if",
+          "you",
+          "could",
+          "spare",
+          "a",
+          "few",
+          "minutes",
+          "to",
+          "do",
+          "a",
+          "survey",
+          "on",
+          "transport.",
+          "It",
+          "won't",
+          "take",
+          "long."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wonder"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "spare"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "minutes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "a"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "on"
+          ],
+          [
+            "transport."
+          ],
+          [
+            "It"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "take"
+          ],
+          [
+            "long."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/3.mp3",
+        "timeStart": 2.08,
+        "timeEnd": 7.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35444/list"
+      },
+      {
+        "id": 35445,
+        "position": 4,
+        "content": "No, that's fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "that's",
+            "that is"
+          ],
+          "fine."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/4.mp3",
+        "timeStart": 7.33,
+        "timeEnd": 8.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35445/list"
+      },
+      {
+        "id": 35446,
+        "position": 5,
+        "content": "Oh, lovely.",
+        "defaultInput": "Oh, ",
+        "jsonContent": [
+          "Oh,",
+          "lovely."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "lovely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/5.mp3",
+        "timeStart": 8.97,
+        "timeEnd": 9.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35446/list"
+      },
+      {
+        "id": 35447,
+        "position": 6,
+        "content": "The survey is on behalf of the local council.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "survey",
+          "is",
+          "on",
+          "behalf",
+          "of",
+          "the",
+          "local",
+          "council."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "behalf"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "local"
+          ],
+          [
+            "council."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/6.mp3",
+        "timeStart": 9.85,
+        "timeEnd": 12.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35447/list"
+      },
+      {
+        "id": 35448,
+        "position": 7,
+        "content": "They'd like to know about what transport you use and any suggestions for improvement.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They'd",
+          "like",
+          "to",
+          "know",
+          "about",
+          "what",
+          "transport",
+          "you",
+          "use",
+          "and",
+          "any",
+          "suggestions",
+          "for",
+          "improvement."
+        ],
+        "solution": [
+          [
+            "They'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "transport"
+          ],
+          [
+            "you"
+          ],
+          [
+            "use"
+          ],
+          [
+            "and"
+          ],
+          [
+            "any"
+          ],
+          [
+            "suggestions"
+          ],
+          [
+            "for"
+          ],
+          [
+            "improvement."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/7.mp3",
+        "timeStart": 12.89,
+        "timeEnd": 18.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35448/list"
+      },
+      {
+        "id": 35449,
+        "position": 8,
+        "content": "Can I start by asking you how you travelled to town today?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "I",
+          "start",
+          "by",
+          "asking",
+          "you",
+          "how",
+          "you",
+          [
+            "travelled",
+            "traveled"
+          ],
+          "to",
+          "town",
+          "today?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "start"
+          ],
+          [
+            "by"
+          ],
+          [
+            "asking"
+          ],
+          [
+            "you"
+          ],
+          [
+            "how"
+          ],
+          [
+            "you"
+          ],
+          [
+            "travelled",
+            "traveled"
+          ],
+          [
+            "to"
+          ],
+          [
+            "town"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/8.mp3",
+        "timeStart": 18.45,
+        "timeEnd": 22.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35449/list"
+      },
+      {
+        "id": 35450,
+        "position": 9,
+        "content": "Sure. I came on the bus.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure.",
+          "I",
+          "came",
+          "on",
+          "the",
+          "bus."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ],
+          [
+            "I"
+          ],
+          [
+            "came"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bus."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/9.mp3",
+        "timeStart": 22.34,
+        "timeEnd": 24.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35450/list"
+      },
+      {
+        "id": 35451,
+        "position": 10,
+        "content": "Great. Now can I get a few details about yourself?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great.",
+          "Now",
+          "can",
+          "I",
+          "get",
+          "a",
+          "few",
+          "details",
+          "about",
+          "yourself?"
+        ],
+        "solution": [
+          [
+            "Great."
+          ],
+          [
+            "Now"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "details"
+          ],
+          [
+            "about"
+          ],
+          [
+            "yourself?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/10.mp3",
+        "timeStart": 24.44,
+        "timeEnd": 28.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35451/list"
+      },
+      {
+        "id": 35452,
+        "position": 11,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/11.mp3",
+        "timeStart": 28.26,
+        "timeEnd": 29.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35452/list"
+      },
+      {
+        "id": 35453,
+        "position": 12,
+        "content": "What's your name?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What's",
+            "what is"
+          ],
+          "your",
+          "name?"
+        ],
+        "solution": [
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/12.mp3",
+        "timeStart": 29.06,
+        "timeEnd": 30.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35453/list"
+      },
+      {
+        "id": 35454,
+        "position": 13,
+        "content": "It's Luisa...",
+        "defaultInput": "It's Luisa… ",
+        "jsonContent": [
+          "It's",
+          "Luisa..."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "Luisa..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/13.mp3",
+        "timeStart": 30.32,
+        "timeEnd": 31.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35454/list"
+      },
+      {
+        "id": 35455,
+        "position": 14,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/14.mp3",
+        "timeStart": 31.69,
+        "timeEnd": 32.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35455/list"
+      },
+      {
+        "id": 35456,
+        "position": 15,
+        "content": "Hardie.",
+        "defaultInput": "Hardie.",
+        "jsonContent": [
+          "Hardie."
+        ],
+        "solution": [
+          [
+            "Hardie."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/15.mp3",
+        "timeStart": 32.42,
+        "timeEnd": 33.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35456/list"
+      },
+      {
+        "id": 35457,
+        "position": 16,
+        "content": "Can you spell that, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "spell",
+          "that,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spell"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/16.mp3",
+        "timeStart": 33.28,
+        "timeEnd": 34.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35457/list"
+      },
+      {
+        "id": 35458,
+        "position": 17,
+        "content": "Yes, it's H-A-R-D-I-E.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "it's",
+          [
+            "H-A-R-D-I-E.",
+            "H A R D I E."
+          ]
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "H-A-R-D-I-E.",
+            "H A R D I E."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/17.mp3",
+        "timeStart": 34.88,
+        "timeEnd": 38.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35458/list"
+      },
+      {
+        "id": 35459,
+        "position": 18,
+        "content": "Great. Thanks. And can I have your address?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great.",
+          "Thanks.",
+          "And",
+          "can",
+          [
+            "I have",
+            "I've"
+          ],
+          "your",
+          "address?"
+        ],
+        "solution": [
+          [
+            "Great."
+          ],
+          [
+            "Thanks."
+          ],
+          [
+            "And"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "your"
+          ],
+          [
+            "address?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/18.mp3",
+        "timeStart": 38.8,
+        "timeEnd": 42.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35459/list"
+      },
+      {
+        "id": 35460,
+        "position": 19,
+        "content": "It's 19, White Stone Road.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          [
+            "19,",
+            "nineteen"
+          ],
+          "White",
+          "Stone",
+          "Road."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "19,",
+            "nineteen"
+          ],
+          [
+            "White"
+          ],
+          [
+            "Stone"
+          ],
+          [
+            "Road."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/19.mp3",
+        "timeStart": 42.69,
+        "timeEnd": 45.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35460/list"
+      },
+      {
+        "id": 35461,
+        "position": 20,
+        "content": "Oh, right. I know that area. It's Bradfield, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "right.",
+          "I",
+          "know",
+          "that",
+          "area.",
+          "It's",
+          "Bradfield,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "right."
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "area."
+          ],
+          [
+            "It's"
+          ],
+          [
+            "Bradfield,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/20.mp3",
+        "timeStart": 45.61,
+        "timeEnd": 49.18,
+        "hints": [
+          "Bradfield"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35461/list"
+      },
+      {
+        "id": 35462,
+        "position": 21,
+        "content": "That's right.",
+        "defaultInput": "That's right.",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/21.mp3",
+        "timeStart": 49.18,
+        "timeEnd": 50.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35462/list"
+      },
+      {
+        "id": 35463,
+        "position": 22,
+        "content": "Is the postcode GT7?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "the",
+          "postcode",
+          "GT7?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "postcode"
+          ],
+          [
+            "GT7?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/22.mp3",
+        "timeStart": 50.3,
+        "timeEnd": 52.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35463/list"
+      },
+      {
+        "id": 35464,
+        "position": 23,
+        "content": "It's actually GT82LC.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "actually",
+          "GT82LC."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "GT82LC."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/23.mp3",
+        "timeStart": 52.69,
+        "timeEnd": 55.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35464/list"
+      },
+      {
+        "id": 35465,
+        "position": 24,
+        "content": "Great. And could I ask what your job is?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great.",
+          "And",
+          "could",
+          "I",
+          "ask",
+          "what",
+          "your",
+          "job",
+          "is?"
+        ],
+        "solution": [
+          [
+            "Great."
+          ],
+          [
+            "And"
+          ],
+          [
+            "could"
+          ],
+          [
+            "I"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "what"
+          ],
+          [
+            "your"
+          ],
+          [
+            "job"
+          ],
+          [
+            "is?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/24.mp3",
+        "timeStart": 55.81,
+        "timeEnd": 58.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35465/list"
+      },
+      {
+        "id": 35466,
+        "position": 25,
+        "content": "Are you a student?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "a",
+          "student?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "a"
+          ],
+          [
+            "student?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/25.mp3",
+        "timeStart": 58.84,
+        "timeEnd": 59.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35466/list"
+      },
+      {
+        "id": 35467,
+        "position": 26,
+        "content": "I've actually just finished my training.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "actually",
+          "just",
+          "finished",
+          "my",
+          "training."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "just"
+          ],
+          [
+            "finished"
+          ],
+          [
+            "my"
+          ],
+          [
+            "training."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/26.mp3",
+        "timeStart": 59.96,
+        "timeEnd": 62.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35467/list"
+      },
+      {
+        "id": 35468,
+        "position": 27,
+        "content": "I'm a hairdresser.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "hairdresser."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hairdresser."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/27.mp3",
+        "timeStart": 62.15,
+        "timeEnd": 63.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35468/list"
+      },
+      {
+        "id": 35469,
+        "position": 28,
+        "content": "Oh, right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "right."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/28.mp3",
+        "timeStart": 63.18,
+        "timeEnd": 64.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35469/list"
+      },
+      {
+        "id": 35470,
+        "position": 29,
+        "content": "And one more question in this section.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "one",
+            "1"
+          ],
+          "more",
+          "question",
+          "in",
+          "this",
+          "section."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "more"
+          ],
+          [
+            "question"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "section."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/29.mp3",
+        "timeStart": 64.35,
+        "timeEnd": 66.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35470/list"
+      },
+      {
+        "id": 35471,
+        "position": 30,
+        "content": "What is the reason for you coming into town today?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What is",
+            "what's"
+          ],
+          "the",
+          "reason",
+          "for",
+          "you",
+          "coming",
+          "into",
+          "town",
+          "today?"
+        ],
+        "solution": [
+          [
+            "What is",
+            "what's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "into"
+          ],
+          [
+            "town"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/30.mp3",
+        "timeStart": 66.86,
+        "timeEnd": 69.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35471/list"
+      },
+      {
+        "id": 35472,
+        "position": 31,
+        "content": "Actually it's not for shopping today, which would be my normal reason,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually",
+          "it's",
+          "not",
+          "for",
+          "shopping",
+          "today,",
+          "which",
+          "would",
+          "be",
+          "my",
+          "normal",
+          "reason,"
+        ],
+        "solution": [
+          [
+            "Actually"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "for"
+          ],
+          [
+            "shopping"
+          ],
+          [
+            "today,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "my"
+          ],
+          [
+            "normal"
+          ],
+          [
+            "reason,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/31.mp3",
+        "timeStart": 69.86,
+        "timeEnd": 73.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35472/list"
+      },
+      {
+        "id": 35473,
+        "position": 32,
+        "content": "but to see the dentist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "to",
+          "see",
+          "the",
+          "dentist."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dentist."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/32.mp3",
+        "timeStart": 74.26,
+        "timeEnd": 75.42,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/35473/list"
+      },
+      {
+        "id": 35474,
+        "position": 33,
+        "content": "Right. Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right.",
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Right."
+          ],
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/33.mp3",
+        "timeStart": 75.42,
+        "timeEnd": 77.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35474/list"
+      },
+      {
+        "id": 35475,
+        "position": 34,
+        "content": "Now in this last section I'd like you to give us some ideas about the facilities and arrangements in the city for getting to and from work,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "in",
+          "this",
+          "last",
+          "section",
+          "I'd",
+          "like",
+          "you",
+          "to",
+          "give",
+          "us",
+          "some",
+          "ideas",
+          "about",
+          "the",
+          "facilities",
+          "and",
+          "arrangements",
+          "in",
+          "the",
+          "city",
+          "for",
+          "getting",
+          "to",
+          "and",
+          "from",
+          "work,"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "last"
+          ],
+          [
+            "section"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "us"
+          ],
+          [
+            "some"
+          ],
+          [
+            "ideas"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "facilities"
+          ],
+          [
+            "and"
+          ],
+          [
+            "arrangements"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "for"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "to"
+          ],
+          [
+            "and"
+          ],
+          [
+            "from"
+          ],
+          [
+            "work,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/34.mp3",
+        "timeStart": 78.11,
+        "timeEnd": 87.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35475/list"
+      },
+      {
+        "id": 35476,
+        "position": 35,
+        "content": "Any suggestions you have for improvements?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Any",
+          "suggestions",
+          [
+            "you have",
+            "you've"
+          ],
+          "for",
+          "improvements?"
+        ],
+        "solution": [
+          [
+            "Any"
+          ],
+          [
+            "suggestions"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "for"
+          ],
+          [
+            "improvements?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/35.mp3",
+        "timeStart": 87.8,
+        "timeEnd": 90.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35476/list"
+      },
+      {
+        "id": 35477,
+        "position": 36,
+        "content": "Well, something I've thought about for some time is that when I do walk and I'm doing a later shift,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "something",
+          [
+            "I've",
+            "I have"
+          ],
+          "thought",
+          "about",
+          "for",
+          "some",
+          "time",
+          "is",
+          "that",
+          "when",
+          "I",
+          "do",
+          "walk",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "doing",
+          "a",
+          "later",
+          "shift,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "something"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "about"
+          ],
+          [
+            "for"
+          ],
+          [
+            "some"
+          ],
+          [
+            "time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do"
+          ],
+          [
+            "walk"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "later"
+          ],
+          [
+            "shift,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/36.mp3",
+        "timeStart": 90.71,
+        "timeEnd": 97.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35477/list"
+      },
+      {
+        "id": 35478,
+        "position": 37,
+        "content": "I think the lighting should be better.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "the",
+          "lighting",
+          "should",
+          "be",
+          "better."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "the"
+          ],
+          [
+            "lighting"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "better."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/37.mp3",
+        "timeStart": 98.04,
+        "timeEnd": 99.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35478/list"
+      },
+      {
+        "id": 35479,
+        "position": 38,
+        "content": "Yes, good point.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "good",
+          "point."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "good"
+          ],
+          [
+            "point."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/38.mp3",
+        "timeStart": 99.99,
+        "timeEnd": 101.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35479/list"
+      },
+      {
+        "id": 35480,
+        "position": 39,
+        "content": "And of course, I think it's a real shame they've been cutting down on the number of footpaths.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "of",
+          "course,",
+          "I",
+          "think",
+          "it's",
+          "a",
+          "real",
+          "shame",
+          [
+            "they've",
+            "they have"
+          ],
+          "been",
+          "cutting",
+          "down",
+          "on",
+          "the",
+          "number",
+          "of",
+          "footpaths."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "real"
+          ],
+          [
+            "shame"
+          ],
+          [
+            "they've",
+            "they have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "cutting"
+          ],
+          [
+            "down"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "footpaths."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/39.mp3",
+        "timeStart": 101.4,
+        "timeEnd": 105.88,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/35480/list"
+      },
+      {
+        "id": 35481,
+        "position": 40,
+        "content": "They should have more of those.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          [
+            "should have",
+            "should've"
+          ],
+          "more",
+          "of",
+          "those."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "should have",
+            "should've"
+          ],
+          [
+            "more"
+          ],
+          [
+            "of"
+          ],
+          [
+            "those."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/40.mp3",
+        "timeStart": 105.88,
+        "timeEnd": 107.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35481/list"
+      },
+      {
+        "id": 35482,
+        "position": 41,
+        "content": "Then people would walk more.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "people",
+          "would",
+          "walk",
+          "more."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "people"
+          ],
+          [
+            "would"
+          ],
+          [
+            "walk"
+          ],
+          [
+            "more."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/41.mp3",
+        "timeStart": 107.4,
+        "timeEnd": 108.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35482/list"
+      },
+      {
+        "id": 35483,
+        "position": 42,
+        "content": "Yes, right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "right."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/42.mp3",
+        "timeStart": 108.85,
+        "timeEnd": 109.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35483/list"
+      },
+      {
+        "id": 35484,
+        "position": 43,
+        "content": "And, I don't think there are enough trains.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And,",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "there",
+          "are",
+          "enough",
+          "trains."
+        ],
+        "solution": [
+          [
+            "And,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "trains."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/43.mp3",
+        "timeStart": 110.13,
+        "timeEnd": 113.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35484/list"
+      },
+      {
+        "id": 35485,
+        "position": 44,
+        "content": "That's why I don't use them - you have to wait so long.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "why",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "use",
+          "them",
+          "-",
+          [
+            "you have",
+            "you've"
+          ],
+          "to",
+          "wait",
+          "so",
+          "long."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "why"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "use"
+          ],
+          [
+            "them"
+          ],
+          [
+            "-"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "so"
+          ],
+          [
+            "long."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/44.mp3",
+        "timeStart": 113.01,
+        "timeEnd": 115.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35485/list"
+      },
+      {
+        "id": 35486,
+        "position": 45,
+        "content": "Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/45.mp3",
+        "timeStart": 115.54,
+        "timeEnd": 116.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35486/list"
+      },
+      {
+        "id": 35487,
+        "position": 46,
+        "content": "And finally I'd like to ask your opinion on cycling.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "finally",
+          "I'd",
+          "like",
+          "to",
+          "ask",
+          "your",
+          "opinion",
+          "on",
+          "cycling."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "finally"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "your"
+          ],
+          [
+            "opinion"
+          ],
+          [
+            "on"
+          ],
+          [
+            "cycling."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/46.mp3",
+        "timeStart": 116.72,
+        "timeEnd": 120.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35487/list"
+      },
+      {
+        "id": 35488,
+        "position": 47,
+        "content": "As you may know, there's a drive in the city to get more people to cycle to work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "may",
+          "know,",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "drive",
+          "in",
+          "the",
+          "city",
+          "to",
+          "get",
+          "more",
+          "people",
+          "to",
+          "cycle",
+          "to",
+          "work."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "may"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "more"
+          ],
+          [
+            "people"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cycle"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/47.mp3",
+        "timeStart": 120.3,
+        "timeEnd": 124.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35488/list"
+      },
+      {
+        "id": 35489,
+        "position": 48,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/48.mp3",
+        "timeStart": 124.29,
+        "timeEnd": 124.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35489/list"
+      },
+      {
+        "id": 35490,
+        "position": 49,
+        "content": "But we realise that there are things which the council, but also employers, might do to help encourage workers to cycle to work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "we",
+          [
+            "realise",
+            "realize"
+          ],
+          "that",
+          "there",
+          "are",
+          "things",
+          "which",
+          "the",
+          "council,",
+          "but",
+          "also",
+          "employers,",
+          "might",
+          "do",
+          "to",
+          "help",
+          "encourage",
+          "workers",
+          "to",
+          "cycle",
+          "to",
+          "work."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "we"
+          ],
+          [
+            "realise",
+            "realize"
+          ],
+          [
+            "that"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "things"
+          ],
+          [
+            "which"
+          ],
+          [
+            "the"
+          ],
+          [
+            "council,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "also"
+          ],
+          [
+            "employers,"
+          ],
+          [
+            "might"
+          ],
+          [
+            "do"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "encourage"
+          ],
+          [
+            "workers"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cycle"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/49.mp3",
+        "timeStart": 124.97,
+        "timeEnd": 131.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35490/list"
+      },
+      {
+        "id": 35491,
+        "position": 50,
+        "content": "Yep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yep."
+        ],
+        "solution": [
+          [
+            "Yep."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/50.mp3",
+        "timeStart": 131.92,
+        "timeEnd": 132.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35491/list"
+      },
+      {
+        "id": 35492,
+        "position": 51,
+        "content": "Well, I have thought about it and where I work there are no safe places to leave your bikes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I have",
+            "I've"
+          ],
+          "thought",
+          "about",
+          "it",
+          "and",
+          "where",
+          "I",
+          "work",
+          "there",
+          "are",
+          "no",
+          "safe",
+          "places",
+          "to",
+          "leave",
+          "your",
+          "bikes."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it"
+          ],
+          [
+            "and"
+          ],
+          [
+            "where"
+          ],
+          [
+            "I"
+          ],
+          [
+            "work"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "no"
+          ],
+          [
+            "safe"
+          ],
+          [
+            "places"
+          ],
+          [
+            "to"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "your"
+          ],
+          [
+            "bikes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/51.mp3",
+        "timeStart": 132.8,
+        "timeEnd": 138.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35492/list"
+      },
+      {
+        "id": 35493,
+        "position": 52,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/52.mp3",
+        "timeStart": 138.52,
+        "timeEnd": 139.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35493/list"
+      },
+      {
+        "id": 35494,
+        "position": 53,
+        "content": "And also, I'd have to cycle uphill",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "also,",
+          "I'd",
+          "have",
+          "to",
+          "cycle",
+          "uphill"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "also,"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cycle"
+          ],
+          [
+            "uphill"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/53.mp3",
+        "timeStart": 139.48,
+        "timeEnd": 142.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35494/list"
+      },
+      {
+        "id": 35495,
+        "position": 54,
+        "content": "and on a hot day I'd arrive at work pretty sweaty so I think I'd need a shower somewhere at work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "on",
+          "a",
+          "hot",
+          "day",
+          "I'd",
+          "arrive",
+          "at",
+          "work",
+          "pretty",
+          "sweaty",
+          "so",
+          "I",
+          "think",
+          "I'd",
+          "need",
+          "a",
+          "shower",
+          "somewhere",
+          "at",
+          "work."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "day"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "arrive"
+          ],
+          [
+            "at"
+          ],
+          [
+            "work"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "sweaty"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shower"
+          ],
+          [
+            "somewhere"
+          ],
+          [
+            "at"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/54.mp3",
+        "timeStart": 142.02,
+        "timeEnd": 147.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35495/list"
+      },
+      {
+        "id": 35496,
+        "position": 55,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/55.mp3",
+        "timeStart": 147.36,
+        "timeEnd": 148.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35496/list"
+      },
+      {
+        "id": 35497,
+        "position": 56,
+        "content": "And I suppose the last thing is that I wouldn't be all that confident about cycling on such busy roads.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "suppose",
+          "the",
+          "last",
+          "thing",
+          "is",
+          "that",
+          "I",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "be",
+          "all",
+          "that",
+          "confident",
+          "about",
+          "cycling",
+          "on",
+          "such",
+          "busy",
+          "roads."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "suppose"
+          ],
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "all"
+          ],
+          [
+            "that"
+          ],
+          [
+            "confident"
+          ],
+          [
+            "about"
+          ],
+          [
+            "cycling"
+          ],
+          [
+            "on"
+          ],
+          [
+            "such"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "roads."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/56.mp3",
+        "timeStart": 148.32,
+        "timeEnd": 154.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35497/list"
+      },
+      {
+        "id": 35498,
+        "position": 57,
+        "content": "I think I'd like to see you offering training for that, you know.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "I'd",
+          "like",
+          "to",
+          "see",
+          "you",
+          "offering",
+          "training",
+          "for",
+          "that,",
+          "you",
+          "know."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "offering"
+          ],
+          [
+            "training"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/57.mp3",
+        "timeStart": 154.77,
+        "timeEnd": 157.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35498/list"
+      },
+      {
+        "id": 35499,
+        "position": 58,
+        "content": "I'd feel a lot better about starting if that was the case.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "feel",
+          "a",
+          "lot",
+          "better",
+          "about",
+          "starting",
+          "if",
+          "that",
+          "was",
+          "the",
+          "case."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "better"
+          ],
+          [
+            "about"
+          ],
+          [
+            "starting"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "case."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/58.mp3",
+        "timeStart": 157.91,
+        "timeEnd": 161.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35499/list"
+      },
+      {
+        "id": 35500,
+        "position": 59,
+        "content": "Well, that's very helpful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "that's",
+            "that is"
+          ],
+          "very",
+          "helpful."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "very"
+          ],
+          [
+            "helpful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/59.mp3",
+        "timeStart": 161.42,
+        "timeEnd": 163.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35500/list"
+      },
+      {
+        "id": 35501,
+        "position": 60,
+        "content": "Thank you very much for your time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you",
+          "very",
+          "much",
+          "for",
+          "your",
+          "time."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "very"
+          ],
+          [
+            "much"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/60.mp3",
+        "timeStart": 163.19,
+        "timeEnd": 164.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35501/list"
+      },
+      {
+        "id": 35502,
+        "position": 61,
+        "content": "No problem. Bye.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "problem.",
+          "Bye."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "problem."
+          ],
+          [
+            "Bye."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-2-part-1-2023-06-13-22-01-33/61.mp3",
+        "timeStart": 164.91,
+        "timeEnd": 166.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35502/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "35443": {
+      "id": 621610,
+      "text": "Vâng?",
+      "author": "a user"
+    },
+    "35444": {
+      "id": 621611,
+      "text": "Chị có thể dành ra vài phút để làm một cuộc khảo sát giao thông không? Không mất nhiều thời gian đâu chị.",
+      "author": "a user"
+    },
+    "35445": {
+      "id": 621702,
+      "text": "Ồ được, không sao đâu.",
+      "author": "a user"
+    },
+    "35449": {
+      "id": 621706,
+      "text": "Để bắt đầu, tôi muốn hỏi chị đã đi gì đến thị trấn ngày hôm nay?",
+      "author": "a user"
+    },
+    "35450": {
+      "id": 621707,
+      "text": "Chắc chắn rồi. Tôi đến đây bằng xe buýt.",
+      "author": "a user"
+    },
+    "35451": {
+      "id": 621708,
+      "text": "Tuyệt vời. Bây giờ chị có thể cung cấp cho tôi một vài thông tin về bản thân được không?",
+      "author": "a user"
+    },
+    "35453": {
+      "id": 621710,
+      "text": "Tên chị là gì?",
+      "author": "a user"
+    },
+    "35455": {
+      "id": 621712,
+      "text": "Vâng.",
+      "author": "a user"
+    },
+    "35456": {
+      "id": 621713,
+      "text": "Hardie.",
+      "author": "a user"
+    },
+    "35457": {
+      "id": 621714,
+      "text": "Chị có thể đánh vần giúp tôi không?",
+      "author": "a user"
+    },
+    "35459": {
+      "id": 621716,
+      "text": "Tuyệt vời. Cảm ơn. Và tôi có thể có địa chỉ của chị không?",
+      "author": "a user"
+    },
+    "35460": {
+      "id": 621717,
+      "text": "Số 19, Đường White Stone.",
+      "author": "a user"
+    },
+    "35461": {
+      "id": 621718,
+      "text": "Oh, được rồi. Tôi biết khu vực đó. Đó là Bradfield phải không?",
+      "author": "a user"
+    },
+    "35463": {
+      "id": 621720,
+      "text": "Mã bưu điện là GT7 nhỉ?",
+      "author": "a user"
+    },
+    "35464": {
+      "id": 621721,
+      "text": "Chính xác là GT82LC.",
+      "author": "a user"
+    },
+    "35465": {
+      "id": 621777,
+      "text": "Tuyệt vời. Và tôi có thể hỏi công việc của chị là gì không?",
+      "author": "a user"
+    },
+    "35466": {
+      "id": 621778,
+      "text": "Chị là sinh viên phải không?",
+      "author": "a user"
+    },
+    "35471": {
+      "id": 621783,
+      "text": "Lý do chị đến thị trấn ngày hôm nay là gì?",
+      "author": "a user"
+    },
+    "35472": {
+      "id": 621784,
+      "text": "Thực ra hôm nay tôi tới đây không phải để mua sắm, thường thì là như vậy,",
+      "author": "a user"
+    },
+    "35473": {
+      "id": 621785,
+      "text": "mà là để gặp nha sĩ.",
+      "author": "a user"
+    },
+    "35474": {
+      "id": 621786,
+      "text": "Được rồi. Cảm ơn.",
+      "author": "a user"
+    },
+    "35475": {
+      "id": 621787,
+      "text": "Bây giờ trong phần cuối cùng này, tôi muốn chị đề xuất cho chúng tôi một số ý tưởng về cơ sở vật chất và các bố trí sắp xếp trong thành phố liên quan đến việc đi lại,",
+      "author": "a user"
+    },
+    "35476": {
+      "id": 621788,
+      "text": "Bất kỳ đề xuất nào về việc cải thiện khu vực.",
+      "author": "a user"
+    },
+    "35477": {
+      "id": 621789,
+      "text": "Chà, một điều mà đã có lúc tôi nghĩ đến là khi tôi đi bộ và tôi làm ca muộn hơn,",
+      "author": "a user"
+    },
+    "35478": {
+      "id": 621790,
+      "text": "Tôi nghĩ rằng chất lượng ánh sáng nên được cải thiện.",
+      "author": "a user"
+    },
+    "35479": {
+      "id": 621791,
+      "text": "Được rồi, ý kiến có giá trị đây.",
+      "author": "a user"
+    },
+    "35480": {
+      "id": 621792,
+      "text": "Và tất nhiên, tôi nghĩ thật đáng tiếc khi họ đã cắt giảm số lượng đường dành cho người đi bộ.",
+      "author": "a user"
+    },
+    "35481": {
+      "id": 621793,
+      "text": "Nên có nhiều đường đi bộ hơn.",
+      "author": "a user"
+    },
+    "35482": {
+      "id": 621794,
+      "text": "Như thế thì mọi người sẽ đi bộ nhiều hơn.",
+      "author": "a user"
+    },
+    "35487": {
+      "id": 621894,
+      "text": "Và cuối cùng, tôi muốn hỏi ý kiến ​​của chị về việc đi xe đạp.",
+      "author": "a user"
+    },
+    "35488": {
+      "id": 621895,
+      "text": "Như chị có thể biết, trong thành phố đang có một chiến dịch khuyến khích mọi người đạp xe đi làm.",
+      "author": "a user"
+    },
+    "35492": {
+      "id": 621899,
+      "text": "Chà, tôi đã nghĩ về điều đó và nơi tôi làm việc không có chỗ nào an toàn để bạn có thể để xe lại cả.",
+      "author": "a user"
+    },
+    "35494": {
+      "id": 621901,
+      "text": "Và còn nữa, tôi phải đạp xe lên những con dốc",
+      "author": "a user"
+    },
+    "35498": {
+      "id": 621979,
+      "text": "Bạn biết đấy, tôi nghĩ rằng tôi sẽ hứng thú với việc các bạn cung cấp khóa đào tạo cho việc đó.",
+      "author": "a user"
+    },
+    "35499": {
+      "id": 621980,
+      "text": "Tôi sẽ cảm thấy tốt hơn nếu được đào tạo trước khi có thể đạp xe ra đường.",
+      "author": "a user"
+    },
+    "35501": {
+      "id": 621982,
+      "text": "Cảm ơn vì đã dành chút thời gian để phỏng vấn.",
+      "author": "a user"
+    },
+    "35502": {
+      "id": 621983,
+      "text": "Không vấn đề gì đâu. Chào anh.",
+      "author": "a user"
+    },
+    "35448": {
+      "id": 691921,
+      "text": "Họ muốn biết về phương tiện di chuyển của người dân và bất kỳ đề xuất cải tiến nào.",
+      "author": "a user"
+    },
+    "35442": {
+      "id": 2593807,
+      "text": "Xin lỗi.",
+      "author": "ChatGPT4.1"
+    },
+    "35446": {
+      "id": 2593808,
+      "text": "Ồ, tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "35447": {
+      "id": 2593809,
+      "text": "Cuộc khảo sát này là thay mặt cho hội đồng địa phương.",
+      "author": "ChatGPT4.1"
+    },
+    "35452": {
+      "id": 2593810,
+      "text": "Được thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "35454": {
+      "id": 2593811,
+      "text": "Tên là Luisa...",
+      "author": "ChatGPT4.1"
+    },
+    "35458": {
+      "id": 2593812,
+      "text": "Vâng, là H-A-R-D-I-E.",
+      "author": "ChatGPT4.1"
+    },
+    "35462": {
+      "id": 2593813,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35467": {
+      "id": 2593814,
+      "text": "Thực ra tôi vừa hoàn thành khóa đào tạo.",
+      "author": "ChatGPT4.1"
+    },
+    "35468": {
+      "id": 2593815,
+      "text": "Tôi là thợ làm tóc.",
+      "author": "ChatGPT4.1"
+    },
+    "35469": {
+      "id": 2593816,
+      "text": "Ồ, đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35470": {
+      "id": 2593817,
+      "text": "Và một câu hỏi nữa trong phần này.",
+      "author": "ChatGPT4.1"
+    },
+    "35483": {
+      "id": 2604564,
+      "text": "Vâng, đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35484": {
+      "id": 2604565,
+      "text": "Và tôi không nghĩ rằng ở đây có đủ tàu hỏa đâu.",
+      "author": "a user"
+    },
+    "35485": {
+      "id": 2604566,
+      "text": "Đó là lý do tôi không sử dụng chúng - vì phải đợi quá lâu.",
+      "author": "ChatGPT4.1"
+    },
+    "35486": {
+      "id": 2604567,
+      "text": "Cảm ơn.",
+      "author": "ChatGPT4.1"
+    },
+    "35489": {
+      "id": 2604568,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35490": {
+      "id": 2604569,
+      "text": "Nhưng chúng tôi nhận thấy còn có những việc mà hội đồng thành phố và cả các chủ lao động có thể làm để khuyến khích nhân viên đi làm bằng xe đạp.",
+      "author": "ChatGPT4.1"
+    },
+    "35491": {
+      "id": 2604570,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "35493": {
+      "id": 2604571,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35495": {
+      "id": 2604572,
+      "text": "và vào ngày nóng thì khi đến nơi sẽ đổ nhiều mồ hôi nên tôi nghĩ cần phải có chỗ tắm ở nơi làm việc.",
+      "author": "a user"
+    },
+    "35496": {
+      "id": 2604573,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35497": {
+      "id": 2604574,
+      "text": "Và tôi nghĩ điều cuối cùng là tôi không tự tin lắm khi đi xe đạp trên những con đường đông đúc như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "35500": {
+      "id": 2605468,
+      "text": "Ồ, điều đó rất hữu ích.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,996 @@
+{
+  "summary": {
+    "id": 1481,
+    "name": "Conversation 1",
+    "subTitle": "Office Copier Breakdown",
+    "levelName": "B1",
+    "position": 55,
+    "totalChallenges": 17,
+    "groupId": 31,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1481",
+  "detail": {
+    "id": 1481,
+    "lessonName": "Conversation 1",
+    "name": "Conversation 1",
+    "position": 55,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/0-conversation-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 64131,
+        "position": 1,
+        "content": "Good morning, Jack.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          "Jack."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "Jack."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/1.mp3",
+        "timeStart": 0.18,
+        "timeEnd": 1.44,
+        "hints": [
+          "Jack"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64131/list"
+      },
+      {
+        "id": 64132,
+        "position": 2,
+        "content": "Can you do me a favor and photocopy these documents for me, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "do",
+          "me",
+          "a",
+          [
+            "favor",
+            "favour"
+          ],
+          "and",
+          "photocopy",
+          "these",
+          "documents",
+          "for",
+          "me,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "favor",
+            "favour"
+          ],
+          [
+            "and"
+          ],
+          [
+            "photocopy"
+          ],
+          [
+            "these"
+          ],
+          [
+            "documents"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/2.mp3",
+        "timeStart": 1.44,
+        "timeEnd": 5.04,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/64132/list"
+      },
+      {
+        "id": 64133,
+        "position": 3,
+        "content": "I need them for the staff meeting tomorrow morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "need",
+          "them",
+          "for",
+          "the",
+          "staff",
+          "meeting",
+          "tomorrow",
+          "morning."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "them"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "staff"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/3.mp3",
+        "timeStart": 5.04,
+        "timeEnd": 7.46,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/64133/list"
+      },
+      {
+        "id": 64134,
+        "position": 4,
+        "content": "There will be fifteen attendees.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There will",
+            "There'll"
+          ],
+          "be",
+          [
+            "fifteen",
+            "15"
+          ],
+          "attendees."
+        ],
+        "solution": [
+          [
+            "There will",
+            "There'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fifteen",
+            "15"
+          ],
+          [
+            "attendees."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/4.mp3",
+        "timeStart": 7.46,
+        "timeEnd": 9.61,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/64134/list"
+      },
+      {
+        "id": 64135,
+        "position": 5,
+        "content": "Hi, Grace.",
+        "defaultInput": "Hi, Grace.",
+        "jsonContent": [
+          "Hi,",
+          "Grace."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Grace."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/5.mp3",
+        "timeStart": 9.61,
+        "timeEnd": 10.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64135/list"
+      },
+      {
+        "id": 64136,
+        "position": 6,
+        "content": "Unfortunately, the copy machine is out of order.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Unfortunately,",
+          "the",
+          "copy",
+          "machine",
+          "is",
+          "out",
+          "of",
+          "order."
+        ],
+        "solution": [
+          [
+            "Unfortunately,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "copy"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "is"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "order."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/6.mp3",
+        "timeStart": 10.87,
+        "timeEnd": 13.6,
+        "hints": [],
+        "nbComments": 18,
+        "discussionUrl": "https://dailydictation.com/discussions/64136/list"
+      },
+      {
+        "id": 64137,
+        "position": 7,
+        "content": "The repairman is supposed to come this afternoon to take a look,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "repairman",
+          "is",
+          "supposed",
+          "to",
+          "come",
+          "this",
+          "afternoon",
+          "to",
+          "take",
+          "a",
+          "look,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "repairman"
+          ],
+          [
+            "is"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/7.mp3",
+        "timeStart": 13.6,
+        "timeEnd": 16.61,
+        "hints": [],
+        "nbComments": 32,
+        "discussionUrl": "https://dailydictation.com/discussions/64137/list"
+      },
+      {
+        "id": 64138,
+        "position": 8,
+        "content": "but this is the second time it's broken down in the past two weeks,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "this",
+          "is",
+          "the",
+          "second",
+          "time",
+          "it's",
+          "broken",
+          "down",
+          "in",
+          "the",
+          "past",
+          [
+            "two",
+            "2"
+          ],
+          "weeks,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second"
+          ],
+          [
+            "time"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "broken"
+          ],
+          [
+            "down"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "weeks,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/8.mp3",
+        "timeStart": 16.61,
+        "timeEnd": 19.83,
+        "hints": [],
+        "nbComments": 18,
+        "discussionUrl": "https://dailydictation.com/discussions/64138/list"
+      },
+      {
+        "id": 64139,
+        "position": 9,
+        "content": "so it might not be fixable.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "it",
+          "might",
+          "not",
+          "be",
+          "fixable."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fixable."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/9.mp3",
+        "timeStart": 19.83,
+        "timeEnd": 21.54,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/64139/list"
+      },
+      {
+        "id": 64140,
+        "position": 10,
+        "content": "Oh no. I need the copies by 7:30 AM to prepare the folders for the meeting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "no.",
+          "I",
+          "need",
+          "the",
+          "copies",
+          "by",
+          "7:30",
+          "AM",
+          "to",
+          "prepare",
+          "the",
+          "folders",
+          "for",
+          "the",
+          "meeting."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "no."
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "the"
+          ],
+          [
+            "copies"
+          ],
+          [
+            "by"
+          ],
+          [
+            "7:30"
+          ],
+          [
+            "AM"
+          ],
+          [
+            "to"
+          ],
+          [
+            "prepare"
+          ],
+          [
+            "the"
+          ],
+          [
+            "folders"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/10.mp3",
+        "timeStart": 21.54,
+        "timeEnd": 27.09,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/64140/list"
+      },
+      {
+        "id": 64141,
+        "position": 11,
+        "content": "Could you run over to our branch in Marple?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "run",
+          "over",
+          "to",
+          "our",
+          "branch",
+          "in",
+          "Marple?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "run"
+          ],
+          [
+            "over"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "branch"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Marple?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/11.mp3",
+        "timeStart": 27.09,
+        "timeEnd": 29.44,
+        "hints": [
+          "Marple"
+        ],
+        "nbComments": 26,
+        "discussionUrl": "https://dailydictation.com/discussions/64141/list"
+      },
+      {
+        "id": 64142,
+        "position": 12,
+        "content": "It's only a 10-minute drive.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "only",
+          "a",
+          [
+            "10-minute",
+            "ten minute",
+            "10 minute"
+          ],
+          "drive."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "only"
+          ],
+          [
+            "a"
+          ],
+          [
+            "10-minute",
+            "ten minute",
+            "10 minute"
+          ],
+          [
+            "drive."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/12.mp3",
+        "timeStart": 29.44,
+        "timeEnd": 31.14,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/64142/list"
+      },
+      {
+        "id": 64143,
+        "position": 13,
+        "content": "I just need to make sure I'm prepared for this meeting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "need",
+          "to",
+          "make",
+          "sure",
+          [
+            "I'm",
+            "I am"
+          ],
+          "prepared",
+          "for",
+          "this",
+          "meeting."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "prepared"
+          ],
+          [
+            "for"
+          ],
+          [
+            "this"
+          ],
+          [
+            "meeting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/13.mp3",
+        "timeStart": 31.14,
+        "timeEnd": 33.62,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/64143/list"
+      },
+      {
+        "id": 64144,
+        "position": 14,
+        "content": "Yeah, I can do that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "I",
+          "can",
+          "do",
+          "that."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/14.mp3",
+        "timeStart": 33.84,
+        "timeEnd": 35.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64144/list"
+      },
+      {
+        "id": 64145,
+        "position": 15,
+        "content": "I actually did my training at the Marple office, so I'm familiar with it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "actually",
+          "did",
+          "my",
+          "training",
+          "at",
+          "the",
+          "Marple",
+          "office,",
+          "so",
+          [
+            "I'm",
+            "I am"
+          ],
+          "familiar",
+          "with",
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "did"
+          ],
+          [
+            "my"
+          ],
+          [
+            "training"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Marple"
+          ],
+          [
+            "office,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "familiar"
+          ],
+          [
+            "with"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/15.mp3",
+        "timeStart": 35.83,
+        "timeEnd": 39.69,
+        "hints": [
+          "Marple"
+        ],
+        "nbComments": 18,
+        "discussionUrl": "https://dailydictation.com/discussions/64145/list"
+      },
+      {
+        "id": 64146,
+        "position": 16,
+        "content": "I can leave right now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "leave",
+          "right",
+          "now."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "right"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/16.mp3",
+        "timeStart": 39.69,
+        "timeEnd": 41.14,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/64146/list"
+      },
+      {
+        "id": 64147,
+        "position": 17,
+        "content": "Are these all the documents you need?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "these",
+          "all",
+          "the",
+          "documents",
+          "you",
+          "need?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "these"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "documents"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-1-2024-08-18-22-00-59/17.mp3",
+        "timeStart": 41.43,
+        "timeEnd": 43.71,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/64147/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "64132": {
+      "id": 1442912,
+      "text": "Bạn có thể giúp tôi một việc và photocopy những tài liệu này được không?",
+      "author": "a user"
+    },
+    "64133": {
+      "id": 1442914,
+      "text": "Tôi cần chúng cho cuộc họp nhân viên vào sáng mai.",
+      "author": "a user"
+    },
+    "64141": {
+      "id": 1442925,
+      "text": "Bạn có thể ghé qua chi nhánh của chúng tôi ở Marple được không?",
+      "author": "a user"
+    },
+    "64131": {
+      "id": 2588853,
+      "text": "Chào buổi sáng, Jack.",
+      "author": "ChatGPT4.1"
+    },
+    "64134": {
+      "id": 2588854,
+      "text": "Sẽ có mười lăm người tham dự.",
+      "author": "ChatGPT4.1"
+    },
+    "64135": {
+      "id": 2588855,
+      "text": "Chào, Grace.",
+      "author": "ChatGPT4.1"
+    },
+    "64136": {
+      "id": 2588856,
+      "text": "Thật không may, máy photocopy đang bị hỏng.",
+      "author": "ChatGPT4.1"
+    },
+    "64137": {
+      "id": 2588857,
+      "text": "Thợ sửa chữa dự kiến sẽ đến kiểm tra vào chiều nay,",
+      "author": "a user"
+    },
+    "64138": {
+      "id": 2588858,
+      "text": "nhưng đây là lần thứ hai nó bị hỏng trong hai tuần vừa qua,",
+      "author": "ChatGPT4.1"
+    },
+    "64139": {
+      "id": 2588859,
+      "text": "vì vậy có thể sẽ không sửa được.",
+      "author": "a user"
+    },
+    "64140": {
+      "id": 2588860,
+      "text": "Ôi không. Tôi cần các bản sao trước 7:30 sáng để chuẩn bị các tập tài liệu cho cuộc họp.",
+      "author": "a user"
+    },
+    "64142": {
+      "id": 2588861,
+      "text": "Chỉ mất 10 phút lái xe thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "64143": {
+      "id": 2588862,
+      "text": "Tôi chỉ cần đảm bảo mình đã chuẩn bị cho cuộc họp này.",
+      "author": "ChatGPT4.1"
+    },
+    "64144": {
+      "id": 2588863,
+      "text": "Vâng, tôi có thể làm điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "64145": {
+      "id": 2588864,
+      "text": "Thực ra tôi từng được đào tạo ở văn phòng Marple nên tôi khá quen thuộc ở đó.",
+      "author": "a user"
+    },
+    "64146": {
+      "id": 2588865,
+      "text": "Tôi có thể đi ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "64147": {
+      "id": 2588866,
+      "text": "Đây có phải là tất cả tài liệu bạn cần không?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

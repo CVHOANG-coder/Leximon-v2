@@ -1,0 +1,775 @@
+{
+  "summary": {
+    "id": 424,
+    "name": "26. At the Customs",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 26,
+    "totalChallenges": 16,
+    "groupId": 103,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/424",
+  "detail": {
+    "id": 424,
+    "lessonName": "26. At the Customs",
+    "name": "26. At the Customs",
+    "position": 26,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/0-26-at-the-customs.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18018,
+        "position": 1,
+        "content": "Good morning. Can I see your passport?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning.",
+          "Can",
+          "I",
+          "see",
+          "your",
+          "passport?"
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ],
+          [
+            "Can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "your"
+          ],
+          [
+            "passport?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/1.mp3",
+        "timeStart": 2.16,
+        "timeEnd": 4.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18018/list"
+      },
+      {
+        "id": 18019,
+        "position": 2,
+        "content": "Certainly. Here it is.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly.",
+          "Here",
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "solution": [
+          [
+            "Certainly."
+          ],
+          [
+            "Here"
+          ],
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/2.mp3",
+        "timeStart": 4.26,
+        "timeEnd": 5.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18019/list"
+      },
+      {
+        "id": 18020,
+        "position": 3,
+        "content": "Yes, that's all right. Have you got anything to declare?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that's",
+          [
+            "all right.",
+            "alright"
+          ],
+          "Have",
+          "you",
+          "got",
+          "anything",
+          "to",
+          "declare?"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "all right.",
+            "alright"
+          ],
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "got"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "to"
+          ],
+          [
+            "declare?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/3.mp3",
+        "timeStart": 5.88,
+        "timeEnd": 9.22,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/18020/list"
+      },
+      {
+        "id": 18021,
+        "position": 4,
+        "content": "Yes, I have. I've got some whisky and some cigarettes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I have.",
+            "I've"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          "some",
+          "whisky",
+          "and",
+          "some",
+          "cigarettes."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I have.",
+            "I've"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "some"
+          ],
+          [
+            "whisky"
+          ],
+          [
+            "and"
+          ],
+          [
+            "some"
+          ],
+          [
+            "cigarettes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/4.mp3",
+        "timeStart": 9.28,
+        "timeEnd": 12.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18021/list"
+      },
+      {
+        "id": 18022,
+        "position": 5,
+        "content": "How much whisky have you got?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "much",
+          "whisky",
+          "have",
+          "you",
+          "got?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "much"
+          ],
+          [
+            "whisky"
+          ],
+          [
+            "have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "got?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/5.mp3",
+        "timeStart": 12.91,
+        "timeEnd": 14.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18022/list"
+      },
+      {
+        "id": 18023,
+        "position": 6,
+        "content": "A litre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          [
+            "litre.",
+            "liter"
+          ]
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "litre.",
+            "liter"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/6.mp3",
+        "timeStart": 14.33,
+        "timeEnd": 15.15,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18023/list"
+      },
+      {
+        "id": 18024,
+        "position": 7,
+        "content": "That's all right. And how many cigarettes have you got?",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          [
+            "all right.",
+            "alright"
+          ],
+          "And",
+          "how",
+          "many",
+          "cigarettes",
+          "have",
+          "you",
+          "got?"
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "all right.",
+            "alright"
+          ],
+          [
+            "And"
+          ],
+          [
+            "how"
+          ],
+          [
+            "many"
+          ],
+          [
+            "cigarettes"
+          ],
+          [
+            "have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "got?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/7.mp3",
+        "timeStart": 15.35,
+        "timeEnd": 18.08,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18024/list"
+      },
+      {
+        "id": 18025,
+        "position": 8,
+        "content": "200.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "200.",
+            "2 hundred",
+            "two hundred"
+          ]
+        ],
+        "solution": [
+          [
+            "200.",
+            "2 hundred",
+            "two hundred"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/8.mp3",
+        "timeStart": 18.18,
+        "timeEnd": 19.33,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18025/list"
+      },
+      {
+        "id": 18026,
+        "position": 9,
+        "content": "Fine. What about perfume?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Fine.",
+          "What",
+          "about",
+          "perfume?"
+        ],
+        "solution": [
+          [
+            "Fine."
+          ],
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "perfume?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/9.mp3",
+        "timeStart": 19.49,
+        "timeEnd": 21.52,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18026/list"
+      },
+      {
+        "id": 18027,
+        "position": 10,
+        "content": "Er... No, I haven't.",
+        "defaultInput": "Er... ",
+        "jsonContent": [
+          "Er...",
+          "No,",
+          "I",
+          "haven't."
+        ],
+        "solution": [
+          [
+            "Er..."
+          ],
+          [
+            "No,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "haven't."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/10.mp3",
+        "timeStart": 21.59,
+        "timeEnd": 23.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18027/list"
+      },
+      {
+        "id": 18028,
+        "position": 11,
+        "content": "Good. Open your case, please.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good.",
+          "Open",
+          "your",
+          "case,",
+          "please."
+        ],
+        "solution": [
+          [
+            "Good."
+          ],
+          [
+            "Open"
+          ],
+          [
+            "your"
+          ],
+          [
+            "case,"
+          ],
+          [
+            "please."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/11.mp3",
+        "timeStart": 23.75,
+        "timeEnd": 26.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18028/list"
+      },
+      {
+        "id": 18029,
+        "position": 12,
+        "content": "Pardon?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Pardon?"
+        ],
+        "solution": [
+          [
+            "Pardon?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/12.mp3",
+        "timeStart": 26.23,
+        "timeEnd": 26.92,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/18029/list"
+      },
+      {
+        "id": 18030,
+        "position": 13,
+        "content": "Open your case, please. Open it now!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Open",
+          "your",
+          "case,",
+          "please.",
+          "Open",
+          "it",
+          "now!"
+        ],
+        "solution": [
+          [
+            "Open"
+          ],
+          [
+            "your"
+          ],
+          [
+            "case,"
+          ],
+          [
+            "please."
+          ],
+          [
+            "Open"
+          ],
+          [
+            "it"
+          ],
+          [
+            "now!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/13.mp3",
+        "timeStart": 27.01,
+        "timeEnd": 29.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18030/list"
+      },
+      {
+        "id": 18031,
+        "position": 14,
+        "content": "Oh, dear! Look at this!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "dear!",
+          "Look",
+          "at",
+          "this!"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "dear!"
+          ],
+          [
+            "Look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "this!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/14.mp3",
+        "timeStart": 29.97,
+        "timeEnd": 31.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18031/list"
+      },
+      {
+        "id": 18032,
+        "position": 15,
+        "content": "You've got 3 bottles of whisky, 400 cigarettes and a lot of perfume!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You've",
+            "You have"
+          ],
+          "got",
+          [
+            "3",
+            "three"
+          ],
+          "bottles",
+          "of",
+          "whisky,",
+          [
+            "400",
+            "4 hundred",
+            "four hundred"
+          ],
+          "cigarettes",
+          "and",
+          "a",
+          "lot",
+          "of",
+          "perfume!"
+        ],
+        "solution": [
+          [
+            "You've",
+            "You have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "3",
+            "three"
+          ],
+          [
+            "bottles"
+          ],
+          [
+            "of"
+          ],
+          [
+            "whisky,"
+          ],
+          [
+            "400",
+            "4 hundred",
+            "four hundred"
+          ],
+          [
+            "cigarettes"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "perfume!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/15.mp3",
+        "timeStart": 31.65,
+        "timeEnd": 36.42,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/18032/list"
+      },
+      {
+        "id": 18033,
+        "position": 16,
+        "content": "Does that mean I can't go?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Does",
+          "that",
+          "mean",
+          "I",
+          "can't",
+          "go?"
+        ],
+        "solution": [
+          [
+            "Does"
+          ],
+          [
+            "that"
+          ],
+          [
+            "mean"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "go?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/26-at-the-customs-2022-03-07-21-13-03/16.mp3",
+        "timeStart": 36.56,
+        "timeEnd": 38.14,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18033/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18018": {
+      "id": 11064,
+      "text": "Chào buổi sáng. Tôi có thể xem hộ chiếu của bạn không?",
+      "author": "a user"
+    },
+    "18019": {
+      "id": 11066,
+      "text": "Tất nhiên rồi. Nó đây.",
+      "author": "a user"
+    },
+    "18020": {
+      "id": 11072,
+      "text": "Ừ, vậy ổn rồi. Bạn có mang gì cần khai báo không?",
+      "author": "a user"
+    },
+    "18021": {
+      "id": 11076,
+      "text": "Có, tôi có. Tôi có một ít rượu whisky và một ít thuốc lá.",
+      "author": "a user"
+    },
+    "18024": {
+      "id": 11087,
+      "text": "Vậy thì ổn thôi. Còn thuốc lá thì bạn có bao nhiêu điếu?",
+      "author": "a user"
+    },
+    "18027": {
+      "id": 11093,
+      "text": "À... Không, tôi không có.",
+      "author": "a user"
+    },
+    "18028": {
+      "id": 11096,
+      "text": "Tốt. Vui lòng mở vali của bạn.",
+      "author": "a user"
+    },
+    "18029": {
+      "id": 11098,
+      "text": "cái gì cơ?",
+      "author": "a user"
+    },
+    "18030": {
+      "id": 11099,
+      "text": "Vui lòng mở vali của bạn ra. Mở nó ra ngay!",
+      "author": "a user"
+    },
+    "18022": {
+      "id": 2595139,
+      "text": "Anh/chị mang bao nhiêu rượu whisky?",
+      "author": "ChatGPT4.1"
+    },
+    "18023": {
+      "id": 2595140,
+      "text": "Một lít.",
+      "author": "ChatGPT4.1"
+    },
+    "18025": {
+      "id": 2595141,
+      "text": "Hai trăm.",
+      "author": "ChatGPT4.1"
+    },
+    "18026": {
+      "id": 2595142,
+      "text": "Tốt. Thế còn nước hoa thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "18031": {
+      "id": 2595143,
+      "text": "Ôi, trời ơi! Nhìn cái này này!",
+      "author": "ChatGPT4.1"
+    },
+    "18032": {
+      "id": 2595144,
+      "text": "Anh/chị có 3 chai whisky, 400 điếu thuốc và rất nhiều nước hoa!",
+      "author": "ChatGPT4.1"
+    },
+    "18033": {
+      "id": 2595145,
+      "text": "Điều đó có nghĩa là tôi không thể đi à?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

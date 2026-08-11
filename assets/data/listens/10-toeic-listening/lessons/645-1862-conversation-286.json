@@ -1,0 +1,710 @@
+{
+  "summary": {
+    "id": 1862,
+    "name": "Conversation 286",
+    "subTitle": "Request to Reschedule Day Off",
+    "levelName": "B1",
+    "position": 645,
+    "totalChallenges": 11,
+    "groupId": 76,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1862",
+  "detail": {
+    "id": 1862,
+    "lessonName": "Conversation 286",
+    "name": "Conversation 286",
+    "position": 645,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/0-conversation-286.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 71166,
+        "position": 1,
+        "content": "Hey Mr. Robson, I was hoping to take Wednesday off.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey",
+          "Mr.",
+          "Robson,",
+          "I",
+          "was",
+          "hoping",
+          "to",
+          "take",
+          "Wednesday",
+          "off."
+        ],
+        "solution": [
+          [
+            "Hey"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Robson,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "hoping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "Wednesday"
+          ],
+          [
+            "off."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71166/list"
+      },
+      {
+        "id": 71167,
+        "position": 2,
+        "content": "I have a follow-up appointment with my doctor, and we're supposed to go over some test results.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          [
+            "follow-up",
+            "follow up"
+          ],
+          "appointment",
+          "with",
+          "my",
+          "doctor,",
+          "and",
+          [
+            "we're",
+            "we are"
+          ],
+          "supposed",
+          "to",
+          "go",
+          "over",
+          "some",
+          "test",
+          "results."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "follow-up",
+            "follow up"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "doctor,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "over"
+          ],
+          [
+            "some"
+          ],
+          [
+            "test"
+          ],
+          [
+            "results."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/2.mp3",
+        "timeStart": 3.15,
+        "timeEnd": 7.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71167/list"
+      },
+      {
+        "id": 71168,
+        "position": 3,
+        "content": "I get that, but Wednesday's tricky.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "get",
+          "that,",
+          "but",
+          "Wednesday's",
+          "tricky."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "get"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "Wednesday's"
+          ],
+          [
+            "tricky."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/3.mp3",
+        "timeStart": 7.78,
+        "timeEnd": 9.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71168/list"
+      },
+      {
+        "id": 71169,
+        "position": 4,
+        "content": "We've got that team-building event at our central office,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "We have"
+          ],
+          "got",
+          "that",
+          [
+            "team-building",
+            "team building"
+          ],
+          "event",
+          "at",
+          "our",
+          "central",
+          "office,"
+        ],
+        "solution": [
+          [
+            "We've",
+            "We have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "that"
+          ],
+          [
+            "team-building",
+            "team building"
+          ],
+          [
+            "event"
+          ],
+          [
+            "at"
+          ],
+          [
+            "our"
+          ],
+          [
+            "central"
+          ],
+          [
+            "office,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/4.mp3",
+        "timeStart": 9.91,
+        "timeEnd": 12.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71169/list"
+      },
+      {
+        "id": 71170,
+        "position": 5,
+        "content": "and we really need everyone there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "really",
+          "need",
+          "everyone",
+          "there."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "really"
+          ],
+          [
+            "need"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/5.mp3",
+        "timeStart": 12.85,
+        "timeEnd": 14.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71170/list"
+      },
+      {
+        "id": 71171,
+        "position": 6,
+        "content": "Could you check if you can move your appointment to Thursday or maybe the following Tuesday?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "check",
+          "if",
+          "you",
+          "can",
+          "move",
+          "your",
+          "appointment",
+          "to",
+          "Thursday",
+          "or",
+          "maybe",
+          "the",
+          "following",
+          "Tuesday?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "check"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "move"
+          ],
+          [
+            "your"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Thursday"
+          ],
+          [
+            "or"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "the"
+          ],
+          [
+            "following"
+          ],
+          [
+            "Tuesday?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/6.mp3",
+        "timeStart": 15.06,
+        "timeEnd": 19.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71171/list"
+      },
+      {
+        "id": 71172,
+        "position": 7,
+        "content": "Oh, right! I totally forgot about the event.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "right!",
+          "I",
+          "totally",
+          "forgot",
+          "about",
+          "the",
+          "event."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "right!"
+          ],
+          [
+            "I"
+          ],
+          [
+            "totally"
+          ],
+          [
+            "forgot"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "event."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/7.mp3",
+        "timeStart": 19.74,
+        "timeEnd": 22.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71172/list"
+      },
+      {
+        "id": 71173,
+        "position": 8,
+        "content": "Thanks for the reminder.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "for",
+          "the",
+          "reminder."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reminder."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/8.mp3",
+        "timeStart": 22.1,
+        "timeEnd": 23.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71173/list"
+      },
+      {
+        "id": 71174,
+        "position": 9,
+        "content": "I'll call the doctor's office to see if I can switch it to Thursday instead.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "call",
+          "the",
+          "doctor's",
+          "office",
+          "to",
+          "see",
+          "if",
+          "I",
+          "can",
+          "switch",
+          "it",
+          "to",
+          "Thursday",
+          "instead."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "call"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doctor's"
+          ],
+          [
+            "office"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "switch"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Thursday"
+          ],
+          [
+            "instead."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/9.mp3",
+        "timeStart": 23.41,
+        "timeEnd": 27.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71174/list"
+      },
+      {
+        "id": 71175,
+        "position": 10,
+        "content": "They're usually pretty flexible with rescheduling,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "They are"
+          ],
+          "usually",
+          "pretty",
+          "flexible",
+          "with",
+          "rescheduling,"
+        ],
+        "solution": [
+          [
+            "They're",
+            "They are"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "flexible"
+          ],
+          [
+            "with"
+          ],
+          [
+            "rescheduling,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/10.mp3",
+        "timeStart": 27.02,
+        "timeEnd": 29.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71175/list"
+      },
+      {
+        "id": 71176,
+        "position": 11,
+        "content": "so I'm sure we can work something out.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          "we",
+          "can",
+          "work",
+          "something",
+          "out."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "work"
+          ],
+          [
+            "something"
+          ],
+          [
+            "out."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-286-2024-11-14-11-57-17/11.mp3",
+        "timeStart": 29.63,
+        "timeEnd": 31.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71176/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "71166": {
+      "id": 2583987,
+      "text": "Chào ông Robson, tôi hy vọng có thể nghỉ làm vào thứ Tư.",
+      "author": "ChatGPT4.1"
+    },
+    "71167": {
+      "id": 2583988,
+      "text": "Tôi có một cuộc hẹn tái khám với bác sĩ, và chúng tôi dự định sẽ xem lại một số kết quả xét nghiệm.",
+      "author": "ChatGPT4.1"
+    },
+    "71168": {
+      "id": 2583989,
+      "text": "Tôi hiểu điều đó, nhưng thứ Tư thì hơi khó.",
+      "author": "ChatGPT4.1"
+    },
+    "71169": {
+      "id": 2583990,
+      "text": "Chúng ta có sự kiện xây dựng đội nhóm tại văn phòng trung tâm,",
+      "author": "ChatGPT4.1"
+    },
+    "71170": {
+      "id": 2583991,
+      "text": "và chúng ta thực sự cần tất cả mọi người có mặt.",
+      "author": "ChatGPT4.1"
+    },
+    "71171": {
+      "id": 2583992,
+      "text": "Bạn có thể kiểm tra xem mình có thể dời cuộc hẹn sang thứ Năm hoặc có thể là thứ Ba tuần sau không?",
+      "author": "ChatGPT4.1"
+    },
+    "71172": {
+      "id": 2583993,
+      "text": "Ồ đúng rồi! Tôi hoàn toàn quên mất sự kiện đó.",
+      "author": "ChatGPT4.1"
+    },
+    "71173": {
+      "id": 2583994,
+      "text": "Cảm ơn bạn đã nhắc nhở.",
+      "author": "ChatGPT4.1"
+    },
+    "71174": {
+      "id": 2583995,
+      "text": "Tôi sẽ gọi cho phòng khám để xem có thể chuyển sang thứ Năm không.",
+      "author": "ChatGPT4.1"
+    },
+    "71175": {
+      "id": 2583996,
+      "text": "Họ thường khá linh hoạt trong việc dời lịch,",
+      "author": "ChatGPT4.1"
+    },
+    "71176": {
+      "id": 2583997,
+      "text": "nên tôi chắc chắn chúng ta có thể sắp xếp được.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

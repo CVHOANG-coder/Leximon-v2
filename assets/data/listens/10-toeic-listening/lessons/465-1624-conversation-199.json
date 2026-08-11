@@ -1,0 +1,605 @@
+{
+  "summary": {
+    "id": 1624,
+    "name": "Conversation 199",
+    "subTitle": "Greenfield Books Presentation Approach",
+    "levelName": "B2",
+    "position": 465,
+    "totalChallenges": 10,
+    "groupId": 50,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1624",
+  "detail": {
+    "id": 1624,
+    "lessonName": "Conversation 199",
+    "name": "Conversation 199",
+    "position": 465,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/0-conversation-199.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68170,
+        "position": 1,
+        "content": "Hi, Jack.",
+        "defaultInput": "Hi, Jack.",
+        "jsonContent": [
+          "Hi,",
+          "Jack."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Jack."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/1.mp3",
+        "timeStart": 0.3,
+        "timeEnd": 1.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68170/list"
+      },
+      {
+        "id": 68171,
+        "position": 2,
+        "content": "Do you have a moment to discuss the presentation I'm working on for Thursday?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "you have",
+            "you've"
+          ],
+          "a",
+          "moment",
+          "to",
+          "discuss",
+          "the",
+          "presentation",
+          [
+            "I'm",
+            "I am"
+          ],
+          "working",
+          "on",
+          "for",
+          "Thursday?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "moment"
+          ],
+          [
+            "to"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "the"
+          ],
+          [
+            "presentation"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "working"
+          ],
+          [
+            "on"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Thursday?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/2.mp3",
+        "timeStart": 1.39,
+        "timeEnd": 5.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68171/list"
+      },
+      {
+        "id": 68172,
+        "position": 3,
+        "content": "Oh, is that for Greenfield Books?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "is",
+          "that",
+          "for",
+          "Greenfield",
+          "Books?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Greenfield"
+          ],
+          [
+            "Books?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/3.mp3",
+        "timeStart": 5.49,
+        "timeEnd": 7.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68172/list"
+      },
+      {
+        "id": 68173,
+        "position": 4,
+        "content": "Yes, I'll be presenting our updated marketing strategy for their bookstore chain.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "presenting",
+          "our",
+          "updated",
+          "marketing",
+          "strategy",
+          "for",
+          "their",
+          "bookstore",
+          "chain."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "presenting"
+          ],
+          [
+            "our"
+          ],
+          [
+            "updated"
+          ],
+          [
+            "marketing"
+          ],
+          [
+            "strategy"
+          ],
+          [
+            "for"
+          ],
+          [
+            "their"
+          ],
+          [
+            "bookstore"
+          ],
+          [
+            "chain."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/4.mp3",
+        "timeStart": 7.7,
+        "timeEnd": 12.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68173/list"
+      },
+      {
+        "id": 68174,
+        "position": 5,
+        "content": "You know, Greenfield Books prefers more laid-back meetings.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "know,",
+          "Greenfield",
+          "Books",
+          "prefers",
+          "more",
+          [
+            "laid-back",
+            "laid back"
+          ],
+          "meetings."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "Greenfield"
+          ],
+          [
+            "Books"
+          ],
+          [
+            "prefers"
+          ],
+          [
+            "more"
+          ],
+          [
+            "laid-back",
+            "laid back"
+          ],
+          [
+            "meetings."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/5.mp3",
+        "timeStart": 12.55,
+        "timeEnd": 15.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68174/list"
+      },
+      {
+        "id": 68175,
+        "position": 6,
+        "content": "I think just a simple handout highlighting the benefits of our approach would be sufficient.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "just",
+          "a",
+          "simple",
+          "handout",
+          "highlighting",
+          "the",
+          "benefits",
+          "of",
+          "our",
+          "approach",
+          "would",
+          "be",
+          "sufficient."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "handout"
+          ],
+          [
+            "highlighting"
+          ],
+          [
+            "the"
+          ],
+          [
+            "benefits"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "approach"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "sufficient."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/6.mp3",
+        "timeStart": 15.72,
+        "timeEnd": 20.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68175/list"
+      },
+      {
+        "id": 68176,
+        "position": 7,
+        "content": "Really? Thanks for letting me know.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Really?",
+          "Thanks",
+          "for",
+          "letting",
+          "me",
+          "know."
+        ],
+        "solution": [
+          [
+            "Really?"
+          ],
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "letting"
+          ],
+          [
+            "me"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/7.mp3",
+        "timeStart": 20.76,
+        "timeEnd": 23.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68176/list"
+      },
+      {
+        "id": 68177,
+        "position": 8,
+        "content": "Do you really think that would resonate better with them?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "really",
+          "think",
+          "that",
+          "would",
+          "resonate",
+          "better",
+          "with",
+          "them?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "really"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "resonate"
+          ],
+          [
+            "better"
+          ],
+          [
+            "with"
+          ],
+          [
+            "them?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/8.mp3",
+        "timeStart": 23.54,
+        "timeEnd": 26.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68177/list"
+      },
+      {
+        "id": 68178,
+        "position": 9,
+        "content": "Absolutely!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Absolutely!"
+        ],
+        "solution": [
+          [
+            "Absolutely!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/9.mp3",
+        "timeStart": 26.36,
+        "timeEnd": 27.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68178/list"
+      },
+      {
+        "id": 68179,
+        "position": 10,
+        "content": "A conversation-focused format could make a stronger connection rather than a formal presentation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          [
+            "conversation-focused",
+            "conversation focused"
+          ],
+          "format",
+          "could",
+          "make",
+          "a",
+          "stronger",
+          "connection",
+          "rather",
+          "than",
+          "a",
+          "formal",
+          "presentation."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "conversation-focused",
+            "conversation focused"
+          ],
+          [
+            "format"
+          ],
+          [
+            "could"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stronger"
+          ],
+          [
+            "connection"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "a"
+          ],
+          [
+            "formal"
+          ],
+          [
+            "presentation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-199-2024-09-30-23-03-20/10.mp3",
+        "timeStart": 27.7,
+        "timeEnd": 33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68179/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68170": {
+      "id": 2622471,
+      "text": "Chào Jack.",
+      "author": "ChatGPT4.1"
+    },
+    "68171": {
+      "id": 2622472,
+      "text": "Bạn có thời gian nói về bài thuyết trình tôi đang chuẩn bị cho thứ Năm không?",
+      "author": "ChatGPT4.1"
+    },
+    "68172": {
+      "id": 2622473,
+      "text": "Ồ, đó là dành cho Greenfield Books đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "68173": {
+      "id": 2622474,
+      "text": "Đúng vậy, tôi sẽ trình bày chiến lược marketing mới cho chuỗi nhà sách của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "68174": {
+      "id": 2622475,
+      "text": "Bạn biết đấy, Greenfield Books thích các buổi họp thoải mái hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "68175": {
+      "id": 2622476,
+      "text": "Tôi nghĩ chỉ cần tài liệu đơn giản nêu bật lợi ích của phương pháp chúng ta là đủ.",
+      "author": "ChatGPT4.1"
+    },
+    "68176": {
+      "id": 2622477,
+      "text": "Thật vậy sao? Cảm ơn vì đã cho tôi biết.",
+      "author": "ChatGPT4.1"
+    },
+    "68177": {
+      "id": 2622478,
+      "text": "Bạn có thực sự nghĩ cách đó sẽ phù hợp với họ hơn không?",
+      "author": "ChatGPT4.1"
+    },
+    "68178": {
+      "id": 2622479,
+      "text": "Chắc chắn rồi!",
+      "author": "ChatGPT4.1"
+    },
+    "68179": {
+      "id": 2622480,
+      "text": "Một hình thức tập trung vào đối thoại có thể tạo ra sự kết nối mạnh mẽ hơn so với bài thuyết trình trang trọng.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

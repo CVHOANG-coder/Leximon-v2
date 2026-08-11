@@ -1,0 +1,1706 @@
+{
+  "summary": {
+    "id": 123,
+    "name": "93. When I grow up",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 94,
+    "totalChallenges": 31,
+    "groupId": 90,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/123",
+  "detail": {
+    "id": 123,
+    "lessonName": "93. When I grow up",
+    "name": "93. When I grow up",
+    "position": 94,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/0-93-when-i-grow-up.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 4819,
+        "position": 1,
+        "content": "I have been thinking about what I'd like to be when I grow up.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "been",
+          "thinking",
+          "about",
+          "what",
+          "I'd",
+          "like",
+          "to",
+          "be",
+          "when",
+          "I",
+          "grow",
+          "up."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "been"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "grow"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/1.mp3",
+        "timeStart": 3.24,
+        "timeEnd": 7.22,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/4819/list"
+      },
+      {
+        "id": 4820,
+        "position": 2,
+        "content": "There are so many choices.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "so",
+          "many",
+          "choices."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "so"
+          ],
+          [
+            "many"
+          ],
+          [
+            "choices."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/2.mp3",
+        "timeStart": 7.6,
+        "timeEnd": 9.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4820/list"
+      },
+      {
+        "id": 4821,
+        "position": 3,
+        "content": "I could be a principal like my father.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "a",
+          "principal",
+          "like",
+          "my",
+          "father."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "principal"
+          ],
+          [
+            "like"
+          ],
+          [
+            "my"
+          ],
+          [
+            "father."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/3.mp3",
+        "timeStart": 10.13,
+        "timeEnd": 12.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4821/list"
+      },
+      {
+        "id": 4822,
+        "position": 4,
+        "content": "I could be a teacher.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "a",
+          "teacher."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "teacher."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/4.mp3",
+        "timeStart": 13.51,
+        "timeEnd": 14.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4822/list"
+      },
+      {
+        "id": 4823,
+        "position": 5,
+        "content": "I like animals.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "like",
+          "animals."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "animals."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/5.mp3",
+        "timeStart": 15.42,
+        "timeEnd": 16.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4823/list"
+      },
+      {
+        "id": 4824,
+        "position": 6,
+        "content": "Maybe I should be a veterinarian.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          "I",
+          "should",
+          "be",
+          "a",
+          "veterinarian."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "veterinarian."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/6.mp3",
+        "timeStart": 17.32,
+        "timeEnd": 19.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4824/list"
+      },
+      {
+        "id": 4825,
+        "position": 7,
+        "content": "My cat just went to the veterinarian to get her shots.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "cat",
+          "just",
+          "went",
+          "to",
+          "the",
+          "veterinarian",
+          "to",
+          "get",
+          "her",
+          "shots."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "cat"
+          ],
+          [
+            "just"
+          ],
+          [
+            "went"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "veterinarian"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "her"
+          ],
+          [
+            "shots."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/7.mp3",
+        "timeStart": 20.42,
+        "timeEnd": 23.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4825/list"
+      },
+      {
+        "id": 4826,
+        "position": 8,
+        "content": "I don't think my cat was too happy to be there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "my",
+          "cat",
+          "was",
+          "too",
+          "happy",
+          "to",
+          "be",
+          "there."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "my"
+          ],
+          [
+            "cat"
+          ],
+          [
+            "was"
+          ],
+          [
+            "too"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/8.mp3",
+        "timeStart": 23.93,
+        "timeEnd": 26.89,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/4826/list"
+      },
+      {
+        "id": 4827,
+        "position": 9,
+        "content": "I could be a farmer and grow vegetables.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "a",
+          "farmer",
+          "and",
+          "grow",
+          "vegetables."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "farmer"
+          ],
+          [
+            "and"
+          ],
+          [
+            "grow"
+          ],
+          [
+            "vegetables."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/9.mp3",
+        "timeStart": 28.24,
+        "timeEnd": 30.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4827/list"
+      },
+      {
+        "id": 4828,
+        "position": 10,
+        "content": "Maybe I could be a doctor and cure people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          "I",
+          "could",
+          "be",
+          "a",
+          "doctor",
+          "and",
+          "cure",
+          "people."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "and"
+          ],
+          [
+            "cure"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/10.mp3",
+        "timeStart": 31.23,
+        "timeEnd": 34.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4828/list"
+      },
+      {
+        "id": 4829,
+        "position": 11,
+        "content": "If I was good enough, I could be a famous sports person or a singer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "I",
+          "was",
+          "good",
+          "enough,",
+          "I",
+          "could",
+          "be",
+          "a",
+          "famous",
+          "sports",
+          "person",
+          "or",
+          "a",
+          "singer."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "good"
+          ],
+          [
+            "enough,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "famous"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "person"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "singer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/11.mp3",
+        "timeStart": 34.82,
+        "timeEnd": 39.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4829/list"
+      },
+      {
+        "id": 4830,
+        "position": 12,
+        "content": "I could be an actor on television or in the movies.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "an",
+          "actor",
+          "on",
+          "television",
+          "or",
+          "in",
+          "the",
+          "movies."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "an"
+          ],
+          [
+            "actor"
+          ],
+          [
+            "on"
+          ],
+          [
+            "television"
+          ],
+          [
+            "or"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "movies."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/12.mp3",
+        "timeStart": 40.32,
+        "timeEnd": 43.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4830/list"
+      },
+      {
+        "id": 4831,
+        "position": 13,
+        "content": "Maybe I would like to be a policeman or a fireman.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          [
+            "I would",
+            "I'd"
+          ],
+          "like",
+          "to",
+          "be",
+          "a",
+          "policeman",
+          "or",
+          "a",
+          "fireman."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "policeman"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fireman."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/13.mp3",
+        "timeStart": 44.81,
+        "timeEnd": 48.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4831/list"
+      },
+      {
+        "id": 4832,
+        "position": 14,
+        "content": "I could rescue people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "rescue",
+          "people."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "rescue"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/14.mp3",
+        "timeStart": 48.52,
+        "timeEnd": 49.78,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/4832/list"
+      },
+      {
+        "id": 4833,
+        "position": 15,
+        "content": "I can play the piano.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "play",
+          "the",
+          "piano."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "play"
+          ],
+          [
+            "the"
+          ],
+          [
+            "piano."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/15.mp3",
+        "timeStart": 50.27,
+        "timeEnd": 51.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4833/list"
+      },
+      {
+        "id": 4834,
+        "position": 16,
+        "content": "Maybe I should be a musician.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          "I",
+          "should",
+          "be",
+          "a",
+          "musician."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "musician."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/16.mp3",
+        "timeStart": 52.32,
+        "timeEnd": 54.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4834/list"
+      },
+      {
+        "id": 4835,
+        "position": 17,
+        "content": "I could be a lawyer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "a",
+          "lawyer."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lawyer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/17.mp3",
+        "timeStart": 55.63,
+        "timeEnd": 57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4835/list"
+      },
+      {
+        "id": 4836,
+        "position": 18,
+        "content": "I sometimes watch shows about lawyers defending people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "sometimes",
+          "watch",
+          "shows",
+          "about",
+          "lawyers",
+          "defending",
+          "people."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "watch"
+          ],
+          [
+            "shows"
+          ],
+          [
+            "about"
+          ],
+          [
+            "lawyers"
+          ],
+          [
+            "defending"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/18.mp3",
+        "timeStart": 57.19,
+        "timeEnd": 60.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4836/list"
+      },
+      {
+        "id": 4837,
+        "position": 19,
+        "content": "Lawyers have to be able to speak well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Lawyers",
+          "have",
+          "to",
+          "be",
+          "able",
+          "to",
+          "speak",
+          "well."
+        ],
+        "solution": [
+          [
+            "Lawyers"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "speak"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/19.mp3",
+        "timeStart": 60.91,
+        "timeEnd": 63.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4837/list"
+      },
+      {
+        "id": 4838,
+        "position": 20,
+        "content": "I could be a carpenter and work with wood,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "a",
+          "carpenter",
+          "and",
+          "work",
+          "with",
+          "wood,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "carpenter"
+          ],
+          [
+            "and"
+          ],
+          [
+            "work"
+          ],
+          [
+            "with"
+          ],
+          [
+            "wood,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/20.mp3",
+        "timeStart": 64.38,
+        "timeEnd": 66.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4838/list"
+      },
+      {
+        "id": 4839,
+        "position": 21,
+        "content": "or I could be a welder and work with metal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "I",
+          "could",
+          "be",
+          "a",
+          "welder",
+          "and",
+          "work",
+          "with",
+          "metal."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "welder"
+          ],
+          [
+            "and"
+          ],
+          [
+            "work"
+          ],
+          [
+            "with"
+          ],
+          [
+            "metal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/21.mp3",
+        "timeStart": 67.15,
+        "timeEnd": 69.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4839/list"
+      },
+      {
+        "id": 4840,
+        "position": 22,
+        "content": "There are just so many jobs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "just",
+          "so",
+          "many",
+          "jobs."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "just"
+          ],
+          [
+            "so"
+          ],
+          [
+            "many"
+          ],
+          [
+            "jobs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/22.mp3",
+        "timeStart": 70.37,
+        "timeEnd": 72.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4840/list"
+      },
+      {
+        "id": 4841,
+        "position": 23,
+        "content": "I could work in a restaurant.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "work",
+          "in",
+          "a",
+          "restaurant."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "work"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "restaurant."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/23.mp3",
+        "timeStart": 73.87,
+        "timeEnd": 75.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4841/list"
+      },
+      {
+        "id": 4842,
+        "position": 24,
+        "content": "I could cook food, or I could serve food.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "cook",
+          "food,",
+          "or",
+          "I",
+          "could",
+          "serve",
+          "food."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "cook"
+          ],
+          [
+            "food,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "serve"
+          ],
+          [
+            "food."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/24.mp3",
+        "timeStart": 75.68,
+        "timeEnd": 78.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4842/list"
+      },
+      {
+        "id": 4843,
+        "position": 25,
+        "content": "I could be an airline pilot or the captain of a ship.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "an",
+          "airline",
+          "pilot",
+          "or",
+          "the",
+          "captain",
+          "of",
+          "a",
+          "ship."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "an"
+          ],
+          [
+            "airline"
+          ],
+          [
+            "pilot"
+          ],
+          [
+            "or"
+          ],
+          [
+            "the"
+          ],
+          [
+            "captain"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "ship."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/25.mp3",
+        "timeStart": 79.51,
+        "timeEnd": 82.75,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/4843/list"
+      },
+      {
+        "id": 4844,
+        "position": 26,
+        "content": "I could be a repairman or an artist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "be",
+          "a",
+          "repairman",
+          "or",
+          "an",
+          "artist."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "repairman"
+          ],
+          [
+            "or"
+          ],
+          [
+            "an"
+          ],
+          [
+            "artist."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/26.mp3",
+        "timeStart": 83.39,
+        "timeEnd": 85.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4844/list"
+      },
+      {
+        "id": 4845,
+        "position": 27,
+        "content": "The world is full of jobs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "world",
+          "is",
+          "full",
+          "of",
+          "jobs."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "world"
+          ],
+          [
+            "is"
+          ],
+          [
+            "full"
+          ],
+          [
+            "of"
+          ],
+          [
+            "jobs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/27.mp3",
+        "timeStart": 86.4,
+        "timeEnd": 88.32,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/4845/list"
+      },
+      {
+        "id": 4846,
+        "position": 28,
+        "content": "Some of the jobs require a lot of education.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "of",
+          "the",
+          "jobs",
+          "require",
+          "a",
+          "lot",
+          "of",
+          "education."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "jobs"
+          ],
+          [
+            "require"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "education."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/28.mp3",
+        "timeStart": 88.6,
+        "timeEnd": 91.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4846/list"
+      },
+      {
+        "id": 4847,
+        "position": 29,
+        "content": "Some require a little bit of training, and some require a lot of training.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "require",
+          "a",
+          "little",
+          "bit",
+          "of",
+          "training,",
+          "and",
+          "some",
+          "require",
+          "a",
+          "lot",
+          "of",
+          "training."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "require"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "training,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "some"
+          ],
+          [
+            "require"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "training."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/29.mp3",
+        "timeStart": 92.62,
+        "timeEnd": 97.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4847/list"
+      },
+      {
+        "id": 4848,
+        "position": 30,
+        "content": "It's all up to me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "all",
+          "up",
+          "to",
+          "me."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "all"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/30.mp3",
+        "timeStart": 97.52,
+        "timeEnd": 99.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4848/list"
+      },
+      {
+        "id": 4849,
+        "position": 31,
+        "content": "I can be whatever I want to be.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "be",
+          "whatever",
+          "I",
+          [
+            "want to",
+            "wanna"
+          ],
+          "be."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "whatever"
+          ],
+          [
+            "I"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "be."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/93-when-i-grow-up-2019-04-07-03-50-36/31.mp3",
+        "timeStart": 99.59,
+        "timeEnd": 102.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4849/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "4820": {
+      "id": 2582,
+      "text": "Có quá nhiều sự lựa chọn.",
+      "author": "a user"
+    },
+    "4823": {
+      "id": 2586,
+      "text": "Tôi thích động vật.",
+      "author": "a user"
+    },
+    "4827": {
+      "id": 2605,
+      "text": "Tôi có thể là một nông dân và trồng các loại rau củ.",
+      "author": "a user"
+    },
+    "4829": {
+      "id": 2609,
+      "text": "Nếu tôi đủ giỏi, tôi có thể là một vận động viên thể thao nổi tiếng hoặc một ca sĩ.",
+      "author": "a user"
+    },
+    "4830": {
+      "id": 2614,
+      "text": "Tôi có thể là một diễn viên trên TV hoặc trong các bộ phim.",
+      "author": "a user"
+    },
+    "4831": {
+      "id": 2616,
+      "text": "Có lẽ tôi muốn trở thành một người cảnh sát hoặc lính cứu hỏa.",
+      "author": "a user"
+    },
+    "4840": {
+      "id": 2645,
+      "text": "Chỉ là có rất nhiều công việc.",
+      "author": "a user"
+    },
+    "4842": {
+      "id": 2647,
+      "text": "Tôi có thể nấu ăn, hoặc tôi có thể phục vụ đồ ăn.",
+      "author": "a user"
+    },
+    "4845": {
+      "id": 2655,
+      "text": "Thế giới tràn đầy những việc làm.",
+      "author": "a user"
+    },
+    "4847": {
+      "id": 2659,
+      "text": "Một số yêu cầu một chút đào tạo, và một số yêu cầu nhiều sự đào tạo .",
+      "author": "a user"
+    },
+    "4849": {
+      "id": 2664,
+      "text": "Tôi có thể trở thành bất cứ ai tôi muốn",
+      "author": "a user"
+    },
+    "4819": {
+      "id": 2596494,
+      "text": "Tôi đã suy nghĩ về việc mình muốn trở thành gì khi lớn lên.",
+      "author": "ChatGPT4.1"
+    },
+    "4821": {
+      "id": 2596495,
+      "text": "Tôi có thể trở thành hiệu trưởng như bố tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "4822": {
+      "id": 2596496,
+      "text": "Tôi có thể trở thành giáo viên.",
+      "author": "ChatGPT4.1"
+    },
+    "4824": {
+      "id": 2596497,
+      "text": "Có lẽ tôi nên trở thành bác sĩ thú y.",
+      "author": "ChatGPT4.1"
+    },
+    "4825": {
+      "id": 2596498,
+      "text": "Con mèo của tôi vừa đến gặp bác sĩ thú y để tiêm phòng.",
+      "author": "ChatGPT4.1"
+    },
+    "4826": {
+      "id": 2596499,
+      "text": "Tôi không nghĩ mèo của tôi cảm thấy vui khi ở đó.",
+      "author": "ChatGPT4.1"
+    },
+    "4828": {
+      "id": 2596500,
+      "text": "Có thể tôi sẽ trở thành bác sĩ và chữa bệnh cho người khác.",
+      "author": "ChatGPT4.1"
+    },
+    "4832": {
+      "id": 2596501,
+      "text": "Tôi có thể cứu người.",
+      "author": "ChatGPT4.1"
+    },
+    "4833": {
+      "id": 2596502,
+      "text": "Tôi có thể chơi đàn piano.",
+      "author": "ChatGPT4.1"
+    },
+    "4834": {
+      "id": 2596503,
+      "text": "Có thể tôi nên trở thành nhạc sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "4835": {
+      "id": 2596504,
+      "text": "Tôi có thể trở thành luật sư.",
+      "author": "ChatGPT4.1"
+    },
+    "4836": {
+      "id": 2596505,
+      "text": "Đôi khi tôi xem các chương trình nói về luật sư bào chữa cho mọi người.",
+      "author": "ChatGPT4.1"
+    },
+    "4837": {
+      "id": 2596506,
+      "text": "Luật sư phải có khả năng ăn nói lưu loát.",
+      "author": "a user"
+    },
+    "4838": {
+      "id": 2596507,
+      "text": "Tôi có thể làm thợ mộc và làm việc với gỗ,",
+      "author": "ChatGPT4.1"
+    },
+    "4839": {
+      "id": 2596508,
+      "text": "hoặc tôi có thể làm thợ hàn và làm việc với kim loại.",
+      "author": "ChatGPT4.1"
+    },
+    "4841": {
+      "id": 2596509,
+      "text": "Tôi có thể làm việc trong nhà hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "4843": {
+      "id": 2596510,
+      "text": "Tôi có thể trở thành phi công hàng không hoặc thuyền trưởng của một con tàu.",
+      "author": "ChatGPT4.1"
+    },
+    "4844": {
+      "id": 2596511,
+      "text": "Tôi có thể trở thành thợ sửa chữa hoặc họa sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "4846": {
+      "id": 2596512,
+      "text": "Một số nghề nghiệp đòi hỏi trình độ học vấn cao",
+      "author": "a user"
+    },
+    "4848": {
+      "id": 2596513,
+      "text": "Mọi thứ đều phụ thuộc vào tôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

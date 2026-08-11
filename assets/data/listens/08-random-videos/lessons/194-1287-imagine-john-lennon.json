@@ -1,0 +1,1107 @@
+{
+  "summary": {
+    "id": 1287,
+    "name": "Imagine - John Lennon",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 194,
+    "totalChallenges": 24,
+    "groupId": 123,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1287",
+  "detail": {
+    "id": 1287,
+    "lessonName": "Imagine - John Lennon",
+    "name": "Imagine - John Lennon",
+    "position": 194,
+    "levelName": "B1",
+    "audioSrc": "",
+    "youtubeVideoId": "YkgkThdzX-8",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 57047,
+        "position": 1,
+        "content": "...",
+        "defaultInput": "...",
+        "jsonContent": [
+          "..."
+        ],
+        "solution": [
+          [
+            "..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 40.58,
+        "timeEnd": 54.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57047/list"
+      },
+      {
+        "id": 57048,
+        "position": 2,
+        "content": "Imagine there's no heaven.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Imagine",
+          [
+            "there's",
+            "there is"
+          ],
+          "no",
+          "heaven."
+        ],
+        "solution": [
+          [
+            "Imagine"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "no"
+          ],
+          [
+            "heaven."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 54.6,
+        "timeEnd": 60.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57048/list"
+      },
+      {
+        "id": 57049,
+        "position": 3,
+        "content": "It's easy if you try.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "easy",
+          "if",
+          "you",
+          "try."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "easy"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "try."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 60.18,
+        "timeEnd": 67.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57049/list"
+      },
+      {
+        "id": 57050,
+        "position": 4,
+        "content": "No hell below us.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "hell",
+          "below",
+          "us."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "hell"
+          ],
+          [
+            "below"
+          ],
+          [
+            "us."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 67.33,
+        "timeEnd": 73.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57050/list"
+      },
+      {
+        "id": 57051,
+        "position": 5,
+        "content": "Above us only sky.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Above",
+          "us",
+          "only",
+          "sky."
+        ],
+        "solution": [
+          [
+            "Above"
+          ],
+          [
+            "us"
+          ],
+          [
+            "only"
+          ],
+          [
+            "sky."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 73.78,
+        "timeEnd": 78.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57051/list"
+      },
+      {
+        "id": 57052,
+        "position": 6,
+        "content": "Imagine all the people living for today...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Imagine",
+          "all",
+          "the",
+          "people",
+          "living",
+          "for",
+          "today..."
+        ],
+        "solution": [
+          [
+            "Imagine"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "people"
+          ],
+          [
+            "living"
+          ],
+          [
+            "for"
+          ],
+          [
+            "today..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 78.2,
+        "timeEnd": 92.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57052/list"
+      },
+      {
+        "id": 57053,
+        "position": 7,
+        "content": "Imagine there's no countries.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Imagine",
+          [
+            "there's",
+            "there is"
+          ],
+          "no",
+          "countries."
+        ],
+        "solution": [
+          [
+            "Imagine"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "no"
+          ],
+          [
+            "countries."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 92.85,
+        "timeEnd": 99.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57053/list"
+      },
+      {
+        "id": 57054,
+        "position": 8,
+        "content": "It isn't hard to do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "isn't",
+            "is not"
+          ],
+          "hard",
+          "to",
+          "do."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 99.2,
+        "timeEnd": 105.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57054/list"
+      },
+      {
+        "id": 57055,
+        "position": 9,
+        "content": "Nothing to kill or die for.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Nothing",
+          "to",
+          "kill",
+          "or",
+          "die",
+          "for."
+        ],
+        "solution": [
+          [
+            "Nothing"
+          ],
+          [
+            "to"
+          ],
+          [
+            "kill"
+          ],
+          [
+            "or"
+          ],
+          [
+            "die"
+          ],
+          [
+            "for."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 105.7,
+        "timeEnd": 111.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57055/list"
+      },
+      {
+        "id": 57056,
+        "position": 10,
+        "content": "And no religion too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "no",
+          "religion",
+          "too."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "no"
+          ],
+          [
+            "religion"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 111.98,
+        "timeEnd": 117.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57056/list"
+      },
+      {
+        "id": 57057,
+        "position": 11,
+        "content": "Imagine all the people living life in peace.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Imagine",
+          "all",
+          "the",
+          "people",
+          "living",
+          "life",
+          "in",
+          "peace."
+        ],
+        "solution": [
+          [
+            "Imagine"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "people"
+          ],
+          [
+            "living"
+          ],
+          [
+            "life"
+          ],
+          [
+            "in"
+          ],
+          [
+            "peace."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 117.53,
+        "timeEnd": 131.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57057/list"
+      },
+      {
+        "id": 57058,
+        "position": 12,
+        "content": "You may say I'm a dreamer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "may",
+          "say",
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "dreamer."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "may"
+          ],
+          [
+            "say"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dreamer."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 131.13,
+        "timeEnd": 137.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57058/list"
+      },
+      {
+        "id": 57059,
+        "position": 13,
+        "content": "But I'm not the only one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "the",
+          "only",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 137.45,
+        "timeEnd": 142.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57059/list"
+      },
+      {
+        "id": 57060,
+        "position": 14,
+        "content": "I hope some day you'll join us.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          "some",
+          "day",
+          [
+            "you'll",
+            "you will"
+          ],
+          "join",
+          "us."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "some"
+          ],
+          [
+            "day"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "join"
+          ],
+          [
+            "us."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 142.83,
+        "timeEnd": 150.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57060/list"
+      },
+      {
+        "id": 57061,
+        "position": 15,
+        "content": "And the world will be as one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "world",
+          "will",
+          "be",
+          "as",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "as"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 150.1,
+        "timeEnd": 155.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57061/list"
+      },
+      {
+        "id": 57062,
+        "position": 16,
+        "content": "Imagine no possessions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Imagine",
+          "no",
+          "possessions."
+        ],
+        "solution": [
+          [
+            "Imagine"
+          ],
+          [
+            "no"
+          ],
+          [
+            "possessions."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 155.23,
+        "timeEnd": 162.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57062/list"
+      },
+      {
+        "id": 57063,
+        "position": 17,
+        "content": "I wonder if you can.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wonder",
+          "if",
+          "you",
+          "can."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wonder"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 162.65,
+        "timeEnd": 167.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57063/list"
+      },
+      {
+        "id": 57064,
+        "position": 18,
+        "content": "No need for greed or hunger.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "need",
+          "for",
+          "greed",
+          "or",
+          "hunger."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "need"
+          ],
+          [
+            "for"
+          ],
+          [
+            "greed"
+          ],
+          [
+            "or"
+          ],
+          [
+            "hunger."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 167.43,
+        "timeEnd": 173.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57064/list"
+      },
+      {
+        "id": 57065,
+        "position": 19,
+        "content": "A brotherhood of man.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "brotherhood",
+          "of",
+          "man."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "brotherhood"
+          ],
+          [
+            "of"
+          ],
+          [
+            "man."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 173.7,
+        "timeEnd": 180.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57065/list"
+      },
+      {
+        "id": 57066,
+        "position": 20,
+        "content": "Imagine all the people sharing all the world...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Imagine",
+          "all",
+          "the",
+          "people",
+          "sharing",
+          "all",
+          "the",
+          "world..."
+        ],
+        "solution": [
+          [
+            "Imagine"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "people"
+          ],
+          [
+            "sharing"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 180.45,
+        "timeEnd": 194.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57066/list"
+      },
+      {
+        "id": 57067,
+        "position": 21,
+        "content": "You may say I'm a dreamer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "may",
+          "say",
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "dreamer."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "may"
+          ],
+          [
+            "say"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dreamer."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 194.38,
+        "timeEnd": 200.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57067/list"
+      },
+      {
+        "id": 57068,
+        "position": 22,
+        "content": "But I'm not the only one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "the",
+          "only",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 200.5,
+        "timeEnd": 206.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57068/list"
+      },
+      {
+        "id": 57069,
+        "position": 23,
+        "content": "I hope some day you'll join us.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          "some",
+          "day",
+          [
+            "you'll",
+            "you will"
+          ],
+          "join",
+          "us."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "some"
+          ],
+          [
+            "day"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "join"
+          ],
+          [
+            "us."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 206.18,
+        "timeEnd": 213.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57069/list"
+      },
+      {
+        "id": 57070,
+        "position": 24,
+        "content": "And the world will live as one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "world",
+          "will",
+          "live",
+          "as",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "will"
+          ],
+          [
+            "live"
+          ],
+          [
+            "as"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 213.4,
+        "timeEnd": 221.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/57070/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "57048": {
+      "id": 2598098,
+      "text": "Hãy tưởng tượng rằng thiên đường không có thật.",
+      "author": "a user"
+    },
+    "57049": {
+      "id": 2598099,
+      "text": "Điều đó thật dễ nếu bạn thử.",
+      "author": "ChatGPT4.1"
+    },
+    "57050": {
+      "id": 2598100,
+      "text": "Không có địa ngục bên dưới ta.",
+      "author": "ChatGPT4.1"
+    },
+    "57051": {
+      "id": 2598101,
+      "text": "Trên chúng ta chỉ có bầu trời.",
+      "author": "a user"
+    },
+    "57052": {
+      "id": 2598102,
+      "text": "Hãy tưởng tượng mọi người chỉ sống cho ngày hôm nay...",
+      "author": "ChatGPT4.1"
+    },
+    "57053": {
+      "id": 2598103,
+      "text": "Hãy tưởng tượng không còn các quốc gia.",
+      "author": "ChatGPT4.1"
+    },
+    "57054": {
+      "id": 2598104,
+      "text": "Điều đó không khó để làm.",
+      "author": "ChatGPT4.1"
+    },
+    "57055": {
+      "id": 2598105,
+      "text": "Không điều gì đáng để giết hoặc chết vì nó.",
+      "author": "ChatGPT4.1"
+    },
+    "57056": {
+      "id": 2598106,
+      "text": "Và cũng chẳng có tôn giáo nào.",
+      "author": "ChatGPT4.1"
+    },
+    "57057": {
+      "id": 2598107,
+      "text": "Hãy tưởng tượng mọi người đều sống trong hòa bình.",
+      "author": "ChatGPT4.1"
+    },
+    "57058": {
+      "id": 2598108,
+      "text": "Bạn có thể nói tôi là kẻ mơ mộng.",
+      "author": "ChatGPT4.1"
+    },
+    "57059": {
+      "id": 2598109,
+      "text": "Nhưng tôi không phải là người duy nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "57060": {
+      "id": 2598110,
+      "text": "Tôi hy vọng một ngày nào đó bạn sẽ tham gia với chúng tôi.",
+      "author": "a user"
+    },
+    "57061": {
+      "id": 2598111,
+      "text": "Và thế giới sẽ là một.",
+      "author": "ChatGPT4.1"
+    },
+    "57062": {
+      "id": 2598112,
+      "text": "Hãy tưởng tượng không có của cải vật chất.",
+      "author": "a user"
+    },
+    "57063": {
+      "id": 2598113,
+      "text": "Tôi tự hỏi liệu bạn có thể không.",
+      "author": "ChatGPT4.1"
+    },
+    "57064": {
+      "id": 2598114,
+      "text": "Không còn cần sự tham lam hay đói khát.",
+      "author": "a user"
+    },
+    "57065": {
+      "id": 2598115,
+      "text": "Một tình huynh đệ nhân loại.",
+      "author": "ChatGPT4.1"
+    },
+    "57066": {
+      "id": 2598116,
+      "text": "Hãy tưởng tượng mọi người cùng chia sẻ cả thế giới...",
+      "author": "a user"
+    },
+    "57067": {
+      "id": 2598117,
+      "text": "Bạn có thể nói tôi là kẻ mơ mộng.",
+      "author": "ChatGPT4.1"
+    },
+    "57068": {
+      "id": 2598118,
+      "text": "Nhưng tôi không phải người duy nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "57069": {
+      "id": 2598119,
+      "text": "Tôi hy vọng một ngày nào đó bạn sẽ tham gia cùng chúng tôi.",
+      "author": "a user"
+    },
+    "57070": {
+      "id": 2598120,
+      "text": "Và thế giới sẽ sống như một.",
+      "author": "ChatGPT4.1"
+    },
+    "57047": {
+      "id": 3366391,
+      "text": "...",
+      "author": "GoogleTranslate"
+    }
+  }
+}

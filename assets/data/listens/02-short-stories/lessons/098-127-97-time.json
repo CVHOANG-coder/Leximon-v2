@@ -1,0 +1,1695 @@
+{
+  "summary": {
+    "id": 127,
+    "name": "97. Time",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 98,
+    "totalChallenges": 32,
+    "groupId": 90,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/127",
+  "detail": {
+    "id": 127,
+    "lessonName": "97. Time",
+    "name": "97. Time",
+    "position": 98,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/0-97-time.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 4953,
+        "position": 1,
+        "content": "Time is something you should never waste.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Time",
+          "is",
+          "something",
+          "you",
+          "should",
+          "never",
+          "waste."
+        ],
+        "solution": [
+          [
+            "Time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "something"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "never"
+          ],
+          [
+            "waste."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/1.mp3",
+        "timeStart": 2.44,
+        "timeEnd": 4.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4953/list"
+      },
+      {
+        "id": 4954,
+        "position": 2,
+        "content": "Once an hour is gone, it is gone forever.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "an",
+          "hour",
+          "is",
+          "gone,",
+          [
+            "it is",
+            "it's"
+          ],
+          "gone",
+          "forever."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "is"
+          ],
+          [
+            "gone,"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "gone"
+          ],
+          [
+            "forever."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/2.mp3",
+        "timeStart": 5.04,
+        "timeEnd": 8.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4954/list"
+      },
+      {
+        "id": 4955,
+        "position": 3,
+        "content": "You should make the most of every minute.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "should",
+          "make",
+          "the",
+          "most",
+          "of",
+          "every",
+          "minute."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "should"
+          ],
+          [
+            "make"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "every"
+          ],
+          [
+            "minute."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/3.mp3",
+        "timeStart": 8.66,
+        "timeEnd": 11.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4955/list"
+      },
+      {
+        "id": 4956,
+        "position": 4,
+        "content": "Time is a funny thing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Time",
+          "is",
+          "a",
+          "funny",
+          "thing."
+        ],
+        "solution": [
+          [
+            "Time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "funny"
+          ],
+          [
+            "thing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/4.mp3",
+        "timeStart": 11.67,
+        "timeEnd": 13.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4956/list"
+      },
+      {
+        "id": 4957,
+        "position": 5,
+        "content": "Some days go by so slowly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "days",
+          "go",
+          "by",
+          "so",
+          "slowly."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "days"
+          ],
+          [
+            "go"
+          ],
+          [
+            "by"
+          ],
+          [
+            "so"
+          ],
+          [
+            "slowly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/5.mp3",
+        "timeStart": 13.68,
+        "timeEnd": 16.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4957/list"
+      },
+      {
+        "id": 4958,
+        "position": 6,
+        "content": "Those are the days that you do things that aren't fun.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Those",
+          "are",
+          "the",
+          "days",
+          "that",
+          "you",
+          "do",
+          "things",
+          "that",
+          [
+            "aren't",
+            "are not"
+          ],
+          "fun."
+        ],
+        "solution": [
+          [
+            "Those"
+          ],
+          [
+            "are"
+          ],
+          [
+            "the"
+          ],
+          [
+            "days"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "things"
+          ],
+          [
+            "that"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "fun."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/6.mp3",
+        "timeStart": 16.67,
+        "timeEnd": 19.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4958/list"
+      },
+      {
+        "id": 4959,
+        "position": 7,
+        "content": "When you are having fun, time just flies by.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          [
+            "you are",
+            "you're"
+          ],
+          "having",
+          "fun,",
+          "time",
+          "just",
+          "flies",
+          "by."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "having"
+          ],
+          [
+            "fun,"
+          ],
+          [
+            "time"
+          ],
+          [
+            "just"
+          ],
+          [
+            "flies"
+          ],
+          [
+            "by."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/7.mp3",
+        "timeStart": 19.88,
+        "timeEnd": 23.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4959/list"
+      },
+      {
+        "id": 4960,
+        "position": 8,
+        "content": "Time is made up of different units.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Time",
+          "is",
+          "made",
+          "up",
+          "of",
+          "different",
+          "units."
+        ],
+        "solution": [
+          [
+            "Time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "made"
+          ],
+          [
+            "up"
+          ],
+          [
+            "of"
+          ],
+          [
+            "different"
+          ],
+          [
+            "units."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/8.mp3",
+        "timeStart": 24.1,
+        "timeEnd": 26.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4960/list"
+      },
+      {
+        "id": 4961,
+        "position": 9,
+        "content": "Seconds turn into minutes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Seconds",
+          "turn",
+          "into",
+          "minutes."
+        ],
+        "solution": [
+          [
+            "Seconds"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "into"
+          ],
+          [
+            "minutes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/9.mp3",
+        "timeStart": 26.62,
+        "timeEnd": 28.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4961/list"
+      },
+      {
+        "id": 4962,
+        "position": 10,
+        "content": "Minutes turn into hours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Minutes",
+          "turn",
+          "into",
+          "hours."
+        ],
+        "solution": [
+          [
+            "Minutes"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "into"
+          ],
+          [
+            "hours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/10.mp3",
+        "timeStart": 28.99,
+        "timeEnd": 31.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4962/list"
+      },
+      {
+        "id": 4963,
+        "position": 11,
+        "content": "Hours turn into days.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hours",
+          "turn",
+          "into",
+          "days."
+        ],
+        "solution": [
+          [
+            "Hours"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "into"
+          ],
+          [
+            "days."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/11.mp3",
+        "timeStart": 31.32,
+        "timeEnd": 33.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4963/list"
+      },
+      {
+        "id": 4964,
+        "position": 12,
+        "content": "Days turn into weeks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Days",
+          "turn",
+          "into",
+          "weeks."
+        ],
+        "solution": [
+          [
+            "Days"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "into"
+          ],
+          [
+            "weeks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/12.mp3",
+        "timeStart": 33.58,
+        "timeEnd": 35.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4964/list"
+      },
+      {
+        "id": 4965,
+        "position": 13,
+        "content": "Weeks turn into months,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Weeks",
+          "turn",
+          "into",
+          "months,"
+        ],
+        "solution": [
+          [
+            "Weeks"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "into"
+          ],
+          [
+            "months,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/13.mp3",
+        "timeStart": 35.68,
+        "timeEnd": 37.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4965/list"
+      },
+      {
+        "id": 4966,
+        "position": 14,
+        "content": "and months turn into years.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "months",
+          "turn",
+          "into",
+          "years."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "months"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "into"
+          ],
+          [
+            "years."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/14.mp3",
+        "timeStart": 37.57,
+        "timeEnd": 40,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4966/list"
+      },
+      {
+        "id": 4967,
+        "position": 15,
+        "content": "We measure our lives by time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "measure",
+          "our",
+          "lives",
+          "by",
+          "time."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "measure"
+          ],
+          [
+            "our"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "by"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/15.mp3",
+        "timeStart": 40.64,
+        "timeEnd": 42.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4967/list"
+      },
+      {
+        "id": 4968,
+        "position": 16,
+        "content": "We are very concerned with time.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are",
+            "we're"
+          ],
+          "very",
+          "concerned",
+          "with",
+          "time."
+        ],
+        "solution": [
+          [
+            "We are",
+            "we're"
+          ],
+          [
+            "very"
+          ],
+          [
+            "concerned"
+          ],
+          [
+            "with"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/16.mp3",
+        "timeStart": 43.28,
+        "timeEnd": 45.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4968/list"
+      },
+      {
+        "id": 4969,
+        "position": 17,
+        "content": "Even little children are very conscious of time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Even",
+          "little",
+          "children",
+          "are",
+          "very",
+          "conscious",
+          "of",
+          "time."
+        ],
+        "solution": [
+          [
+            "Even"
+          ],
+          [
+            "little"
+          ],
+          [
+            "children"
+          ],
+          [
+            "are"
+          ],
+          [
+            "very"
+          ],
+          [
+            "conscious"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/17.mp3",
+        "timeStart": 45.7,
+        "timeEnd": 48.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4969/list"
+      },
+      {
+        "id": 4970,
+        "position": 18,
+        "content": "Little children often want to appear older,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Little",
+          "children",
+          "often",
+          [
+            "want to",
+            "wanna"
+          ],
+          "appear",
+          "older,"
+        ],
+        "solution": [
+          [
+            "Little"
+          ],
+          [
+            "children"
+          ],
+          [
+            "often"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "appear"
+          ],
+          [
+            "older,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/18.mp3",
+        "timeStart": 49.08,
+        "timeEnd": 51.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4970/list"
+      },
+      {
+        "id": 4971,
+        "position": 19,
+        "content": "so if you ask a 3-year-old how old he is,",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "if",
+          "you",
+          "ask",
+          "a",
+          [
+            "3-year-old",
+            "three-year-old",
+            "three year old",
+            "3 year old"
+          ],
+          "how",
+          "old",
+          [
+            "he is,",
+            "he's"
+          ]
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "a"
+          ],
+          [
+            "3-year-old",
+            "three-year-old",
+            "three year old",
+            "3 year old"
+          ],
+          [
+            "how"
+          ],
+          [
+            "old"
+          ],
+          [
+            "he is,",
+            "he's"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/19.mp3",
+        "timeStart": 51.87,
+        "timeEnd": 54.49,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/4971/list"
+      },
+      {
+        "id": 4972,
+        "position": 20,
+        "content": "he will often say three and a half.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "he will",
+            "he'll"
+          ],
+          "often",
+          "say",
+          [
+            "three",
+            "3"
+          ],
+          "and",
+          "a",
+          "half."
+        ],
+        "solution": [
+          [
+            "he will",
+            "he'll"
+          ],
+          [
+            "often"
+          ],
+          [
+            "say"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "half."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/20.mp3",
+        "timeStart": 54.49,
+        "timeEnd": 56.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4972/list"
+      },
+      {
+        "id": 4973,
+        "position": 21,
+        "content": "Many of our sayings are based on time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Many",
+          "of",
+          "our",
+          "sayings",
+          "are",
+          "based",
+          "on",
+          "time."
+        ],
+        "solution": [
+          [
+            "Many"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "sayings"
+          ],
+          [
+            "are"
+          ],
+          [
+            "based"
+          ],
+          [
+            "on"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/21.mp3",
+        "timeStart": 58.27,
+        "timeEnd": 60.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4973/list"
+      },
+      {
+        "id": 4974,
+        "position": 22,
+        "content": "\"Give me a minute\". \"Hold on a second\".",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Give",
+          "me",
+          "a",
+          "minute\".",
+          "\"Hold",
+          "on",
+          "a",
+          "second\"."
+        ],
+        "solution": [
+          [
+            "\"Give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "minute\"."
+          ],
+          [
+            "\"Hold"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/22.mp3",
+        "timeStart": 61.07,
+        "timeEnd": 63.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4974/list"
+      },
+      {
+        "id": 4975,
+        "position": 23,
+        "content": "\"I'm running out of time\". \"Time's up\".",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "\"I'm",
+            "I am"
+          ],
+          "running",
+          "out",
+          "of",
+          "time\".",
+          "\"Time's",
+          "up\"."
+        ],
+        "solution": [
+          [
+            "\"I'm",
+            "I am"
+          ],
+          [
+            "running"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time\"."
+          ],
+          [
+            "\"Time's"
+          ],
+          [
+            "up\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/23.mp3",
+        "timeStart": 63.74,
+        "timeEnd": 66.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4975/list"
+      },
+      {
+        "id": 4976,
+        "position": 24,
+        "content": "\"I just want an hour of your time\".",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"I",
+          "just",
+          "want",
+          "an",
+          "hour",
+          "of",
+          "your",
+          "time\"."
+        ],
+        "solution": [
+          [
+            "\"I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "want"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "time\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/24.mp3",
+        "timeStart": 66.52,
+        "timeEnd": 68.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4976/list"
+      },
+      {
+        "id": 4977,
+        "position": 25,
+        "content": "All of these are common things that we say,",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "of",
+          "these",
+          "are",
+          "common",
+          "things",
+          "that",
+          "we",
+          "say,"
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "are"
+          ],
+          [
+            "common"
+          ],
+          [
+            "things"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "say,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/25.mp3",
+        "timeStart": 69.51,
+        "timeEnd": 72.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4977/list"
+      },
+      {
+        "id": 4978,
+        "position": 26,
+        "content": "and they're all based on time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "they're",
+            "they are"
+          ],
+          "all",
+          "based",
+          "on",
+          "time."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "all"
+          ],
+          [
+            "based"
+          ],
+          [
+            "on"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/26.mp3",
+        "timeStart": 72.08,
+        "timeEnd": 74.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4978/list"
+      },
+      {
+        "id": 4979,
+        "position": 27,
+        "content": "We are a society that lives by the clock.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are",
+            "we're"
+          ],
+          "a",
+          "society",
+          "that",
+          "lives",
+          "by",
+          "the",
+          "clock."
+        ],
+        "solution": [
+          [
+            "We are",
+            "we're"
+          ],
+          [
+            "a"
+          ],
+          [
+            "society"
+          ],
+          [
+            "that"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clock."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/27.mp3",
+        "timeStart": 74.7,
+        "timeEnd": 77.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4979/list"
+      },
+      {
+        "id": 4980,
+        "position": 28,
+        "content": "We almost all wear watches, and we glance at our watches a lot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "almost",
+          "all",
+          "wear",
+          "watches,",
+          "and",
+          "we",
+          "glance",
+          "at",
+          "our",
+          "watches",
+          "a",
+          "lot."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "all"
+          ],
+          [
+            "wear"
+          ],
+          [
+            "watches,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "glance"
+          ],
+          [
+            "at"
+          ],
+          [
+            "our"
+          ],
+          [
+            "watches"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/28.mp3",
+        "timeStart": 77.57,
+        "timeEnd": 81.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4980/list"
+      },
+      {
+        "id": 4981,
+        "position": 29,
+        "content": "Time is something that we can't see,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Time",
+          "is",
+          "something",
+          "that",
+          "we",
+          "can't",
+          "see,"
+        ],
+        "solution": [
+          [
+            "Time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "something"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "see,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/29.mp3",
+        "timeStart": 82.3,
+        "timeEnd": 84.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4981/list"
+      },
+      {
+        "id": 4982,
+        "position": 30,
+        "content": "but it is a big factor in our lives.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "it is",
+            "it's"
+          ],
+          "a",
+          "big",
+          "factor",
+          "in",
+          "our",
+          "lives."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "factor"
+          ],
+          [
+            "in"
+          ],
+          [
+            "our"
+          ],
+          [
+            "lives."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/30.mp3",
+        "timeStart": 84.62,
+        "timeEnd": 87.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4982/list"
+      },
+      {
+        "id": 4983,
+        "position": 31,
+        "content": "How many times a day do you look at a watch or a clock?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "many",
+          "times",
+          "a",
+          "day",
+          "do",
+          "you",
+          "look",
+          "at",
+          "a",
+          "watch",
+          "or",
+          "a",
+          "clock?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "many"
+          ],
+          [
+            "times"
+          ],
+          [
+            "a"
+          ],
+          [
+            "day"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "watch"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "clock?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/31.mp3",
+        "timeStart": 87.76,
+        "timeEnd": 91.03,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/4983/list"
+      },
+      {
+        "id": 4984,
+        "position": 32,
+        "content": "I bet you'd be surprised at just how many times you do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "bet",
+          "you'd",
+          "be",
+          "surprised",
+          "at",
+          "just",
+          "how",
+          "many",
+          "times",
+          "you",
+          "do."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "bet"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "surprised"
+          ],
+          [
+            "at"
+          ],
+          [
+            "just"
+          ],
+          [
+            "how"
+          ],
+          [
+            "many"
+          ],
+          [
+            "times"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/97-time-2019-04-07-03-52-25/32.mp3",
+        "timeStart": 91.18,
+        "timeEnd": 94.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/4984/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "4953": {
+      "id": 2594659,
+      "text": "Thời gian là thứ mà bạn không bao giờ nên lãng phí.",
+      "author": "ChatGPT4.1"
+    },
+    "4954": {
+      "id": 2594660,
+      "text": "Một khi một giờ đã qua đi thì sẽ không bao giờ lấy lại được.",
+      "author": "a user"
+    },
+    "4955": {
+      "id": 2594661,
+      "text": "Bạn nên tận dụng tối đa từng phút giây.",
+      "author": "ChatGPT4.1"
+    },
+    "4956": {
+      "id": 2594662,
+      "text": "Thời gian là một điều kỳ lạ.",
+      "author": "ChatGPT4.1"
+    },
+    "4957": {
+      "id": 2594663,
+      "text": "Có những ngày trôi qua thật chậm chạp.",
+      "author": "ChatGPT4.1"
+    },
+    "4958": {
+      "id": 2594664,
+      "text": "Đó là những ngày bạn làm những việc không thú vị.",
+      "author": "ChatGPT4.1"
+    },
+    "4959": {
+      "id": 2594665,
+      "text": "Khi bạn đang vui vẻ, thời gian trôi qua rất nhanh.",
+      "author": "ChatGPT4.1"
+    },
+    "4960": {
+      "id": 2594666,
+      "text": "Thời gian được tạo thành từ nhiều đơn vị khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "4961": {
+      "id": 2594667,
+      "text": "Giây biến thành phút.",
+      "author": "ChatGPT4.1"
+    },
+    "4962": {
+      "id": 2594668,
+      "text": "Phút biến thành giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "4963": {
+      "id": 2594669,
+      "text": "Giờ biến thành ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "4964": {
+      "id": 2594670,
+      "text": "Ngày biến thành tuần.",
+      "author": "ChatGPT4.1"
+    },
+    "4965": {
+      "id": 2594671,
+      "text": "Tuần biến thành tháng,",
+      "author": "ChatGPT4.1"
+    },
+    "4966": {
+      "id": 2594672,
+      "text": "và tháng biến thành năm.",
+      "author": "ChatGPT4.1"
+    },
+    "4967": {
+      "id": 2594673,
+      "text": "Chúng ta đo lường cuộc sống của mình qua thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "4968": {
+      "id": 2594674,
+      "text": "Chúng ta rất quan tâm đến thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "4969": {
+      "id": 2594675,
+      "text": "Ngay cả những đứa trẻ nhỏ cũng rất ý thức về thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "4970": {
+      "id": 2594676,
+      "text": "Trẻ nhỏ thường muốn tỏ ra già dặn hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "4971": {
+      "id": 2594677,
+      "text": "Vì vậy, nếu bạn hỏi một đứa trẻ ba tuổi bao nhiêu tuổi, thì...",
+      "author": "a user"
+    },
+    "4972": {
+      "id": 2594678,
+      "text": "nó thường sẽ nói ba tuổi rưỡi.",
+      "author": "ChatGPT4.1"
+    },
+    "4973": {
+      "id": 2594679,
+      "text": "Nhiều câu nói của chúng ta dựa trên thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "4974": {
+      "id": 2594680,
+      "text": "\"Chờ tôi một phút\". \"Chờ một chút\".",
+      "author": "ChatGPT4.1"
+    },
+    "4975": {
+      "id": 2594681,
+      "text": "\"Tôi sắp hết thời gian\". \"Hết giờ rồi\".",
+      "author": "ChatGPT4.1"
+    },
+    "4976": {
+      "id": 2594682,
+      "text": "\"Tôi chỉ muốn một tiếng của bạn thôi\".",
+      "author": "ChatGPT4.1"
+    },
+    "4977": {
+      "id": 2594683,
+      "text": "Tất cả những điều này là những câu nói phổ biến mà chúng ta nói,",
+      "author": "ChatGPT4.1"
+    },
+    "4978": {
+      "id": 2594684,
+      "text": "và chúng đều dựa trên thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "4979": {
+      "id": 2594685,
+      "text": "Chúng ta là một xã hội sống theo đồng hồ.",
+      "author": "ChatGPT4.1"
+    },
+    "4980": {
+      "id": 2594686,
+      "text": "Hầu hết chúng ta đều đeo đồng hồ và thường xuyên liếc nhìn đồng hồ của mình.",
+      "author": "a user"
+    },
+    "4981": {
+      "id": 2594687,
+      "text": "Thời gian là thứ mà chúng ta không thể nhìn thấy,",
+      "author": "ChatGPT4.1"
+    },
+    "4982": {
+      "id": 2594688,
+      "text": "nhưng nó là một yếu tố quan trọng trong cuộc sống của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "4983": {
+      "id": 2596308,
+      "text": "Một ngày bạn nhìn đồng hồ bao nhiêu lần?",
+      "author": "ChatGPT4.1"
+    },
+    "4984": {
+      "id": 2596309,
+      "text": "Tôi cá là bạn sẽ ngạc nhiên khi biết mình làm điều đó nhiều đến thế.",
+      "author": "a user"
+    }
+  }
+}

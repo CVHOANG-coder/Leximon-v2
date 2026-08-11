@@ -1,0 +1,652 @@
+{
+  "summary": {
+    "id": 1086,
+    "name": "Short Talk 22",
+    "subTitle": "Dishwasher Error and Service Request",
+    "levelName": "B1",
+    "position": 124,
+    "totalChallenges": 11,
+    "groupId": 33,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1086",
+  "detail": {
+    "id": 1086,
+    "lessonName": "Short Talk 22",
+    "name": "Short Talk 22",
+    "position": 124,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/0-short-talk-22.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53175,
+        "position": 1,
+        "content": "Hello, this is Beth Hanson.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Beth",
+          "Hanson."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Beth"
+          ],
+          [
+            "Hanson."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.54,
+        "hints": [
+          "Beth Hanson"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53175/list"
+      },
+      {
+        "id": 53176,
+        "position": 2,
+        "content": "I purchased a dishwasher at your Maple Valley store yesterday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "purchased",
+          "a",
+          "dishwasher",
+          "at",
+          "your",
+          "Maple",
+          "Valley",
+          "store",
+          "yesterday."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "purchased"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dishwasher"
+          ],
+          [
+            "at"
+          ],
+          [
+            "your"
+          ],
+          [
+            "Maple"
+          ],
+          [
+            "Valley"
+          ],
+          [
+            "store"
+          ],
+          [
+            "yesterday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/2.mp3",
+        "timeStart": 2.69,
+        "timeEnd": 6.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53176/list"
+      },
+      {
+        "id": 53177,
+        "position": 3,
+        "content": "My son hooked it up,",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "son",
+          "hooked",
+          "it",
+          "up,"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "son"
+          ],
+          [
+            "hooked"
+          ],
+          [
+            "it"
+          ],
+          [
+            "up,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/3.mp3",
+        "timeStart": 7.18,
+        "timeEnd": 8.71,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53177/list"
+      },
+      {
+        "id": 53178,
+        "position": 4,
+        "content": "but something is not working correctly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "something",
+          [
+            "is not",
+            "isn't"
+          ],
+          "working",
+          "correctly."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "something"
+          ],
+          [
+            "is not",
+            "isn't"
+          ],
+          [
+            "working"
+          ],
+          [
+            "correctly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/4.mp3",
+        "timeStart": 8.71,
+        "timeEnd": 11.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53178/list"
+      },
+      {
+        "id": 53179,
+        "position": 5,
+        "content": "After turning it on, the machine keeps making a beeping sound,",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "turning",
+          "it",
+          "on,",
+          "the",
+          "machine",
+          "keeps",
+          "making",
+          "a",
+          "beeping",
+          "sound,"
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "turning"
+          ],
+          [
+            "it"
+          ],
+          [
+            "on,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "keeps"
+          ],
+          [
+            "making"
+          ],
+          [
+            "a"
+          ],
+          [
+            "beeping"
+          ],
+          [
+            "sound,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/5.mp3",
+        "timeStart": 11.58,
+        "timeEnd": 15.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53179/list"
+      },
+      {
+        "id": 53180,
+        "position": 6,
+        "content": "and displaying a \"P21\" error code.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "displaying",
+          "a",
+          "\"P21\"",
+          "error",
+          "code."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "displaying"
+          ],
+          [
+            "a"
+          ],
+          [
+            "\"P21\""
+          ],
+          [
+            "error"
+          ],
+          [
+            "code."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/6.mp3",
+        "timeStart": 15.9,
+        "timeEnd": 19.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53180/list"
+      },
+      {
+        "id": 53181,
+        "position": 7,
+        "content": "Do you have someone available to come and look at it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "you have",
+            "you've"
+          ],
+          "someone",
+          "available",
+          "to",
+          "come",
+          "and",
+          "look",
+          "at",
+          "it?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "available"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "and"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/7.mp3",
+        "timeStart": 19.42,
+        "timeEnd": 22.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53181/list"
+      },
+      {
+        "id": 53182,
+        "position": 8,
+        "content": "I'm not going to be able to bring it back to the store.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "able",
+          "to",
+          "bring",
+          "it",
+          "back",
+          "to",
+          "the",
+          "store."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "it"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "store."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/8.mp3",
+        "timeStart": 23.02,
+        "timeEnd": 26.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53182/list"
+      },
+      {
+        "id": 53183,
+        "position": 9,
+        "content": "One of the reasons I bought it was because of the warranty that was included.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "of",
+          "the",
+          "reasons",
+          "I",
+          "bought",
+          "it",
+          "was",
+          "because",
+          "of",
+          "the",
+          "warranty",
+          "that",
+          "was",
+          "included."
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reasons"
+          ],
+          [
+            "I"
+          ],
+          [
+            "bought"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "warranty"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "included."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/9.mp3",
+        "timeStart": 26.15,
+        "timeEnd": 30.48,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53183/list"
+      },
+      {
+        "id": 53184,
+        "position": 10,
+        "content": "Please call me back on 7482291.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "call",
+          "me",
+          "back",
+          "on",
+          "7482291."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "call"
+          ],
+          [
+            "me"
+          ],
+          [
+            "back"
+          ],
+          [
+            "on"
+          ],
+          [
+            "7482291."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/10.mp3",
+        "timeStart": 30.78,
+        "timeEnd": 35.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53184/list"
+      },
+      {
+        "id": 53185,
+        "position": 11,
+        "content": "I look forward to hearing from you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "look",
+          "forward",
+          "to",
+          "hearing",
+          "from",
+          "you."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "look"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hearing"
+          ],
+          [
+            "from"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-22-2023-09-12-17-39-30/11.mp3",
+        "timeStart": 35.67,
+        "timeEnd": 37.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53185/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "53177": {
+      "id": 876677,
+      "text": "Con trai tôi đã lắp đặt nó.",
+      "author": "a user"
+    },
+    "53179": {
+      "id": 876679,
+      "text": "Sau khi bật lên, máy liên tục kêu bíp bíp,",
+      "author": "a user"
+    },
+    "53185": {
+      "id": 876686,
+      "text": "Tôi mong sớm được nhận hồi âm từ bạn.",
+      "author": "a user"
+    },
+    "53181": {
+      "id": 996189,
+      "text": "Bạn có ai rảnh để đến xem xét nó không?",
+      "author": "a user"
+    },
+    "53175": {
+      "id": 2612277,
+      "text": "Xin chào, tôi là Beth Hanson.",
+      "author": "ChatGPT4.1"
+    },
+    "53176": {
+      "id": 2612278,
+      "text": "Tôi đã mua một chiếc máy rửa bát tại cửa hàng Maple Valley của bạn ngày hôm qua.",
+      "author": "ChatGPT4.1"
+    },
+    "53178": {
+      "id": 2612279,
+      "text": "nhưng có gì đó không hoạt động đúng.",
+      "author": "ChatGPT4.1"
+    },
+    "53180": {
+      "id": 2612280,
+      "text": "và hiển thị mã lỗi \"P21\".",
+      "author": "ChatGPT4.1"
+    },
+    "53182": {
+      "id": 2612281,
+      "text": "Tôi sẽ không thể mang nó quay lại cửa hàng được.",
+      "author": "ChatGPT4.1"
+    },
+    "53183": {
+      "id": 2612282,
+      "text": "Một trong những lý do tôi mua nó là vì có bảo hành kèm theo.",
+      "author": "ChatGPT4.1"
+    },
+    "53184": {
+      "id": 2612283,
+      "text": "Xin vui lòng gọi lại cho tôi theo số 7482291.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

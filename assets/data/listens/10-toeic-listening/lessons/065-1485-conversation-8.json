@@ -1,0 +1,727 @@
+{
+  "summary": {
+    "id": 1485,
+    "name": "Conversation 8",
+    "subTitle": "Request for Earlier Appointment",
+    "levelName": "B1",
+    "position": 65,
+    "totalChallenges": 12,
+    "groupId": 31,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1485",
+  "detail": {
+    "id": 1485,
+    "lessonName": "Conversation 8",
+    "name": "Conversation 8",
+    "position": 65,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/0-conversation-8.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 64180,
+        "position": 1,
+        "content": "Hello, this is Tom Barron.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Tom",
+          "Barron."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Tom"
+          ],
+          [
+            "Barron."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/1.mp3",
+        "timeStart": 0.24,
+        "timeEnd": 2.49,
+        "hints": [
+          "Tom Barron"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64180/list"
+      },
+      {
+        "id": 64181,
+        "position": 2,
+        "content": "I have an appointment with Dr. Coleman at 4 PM tomorrow,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "an",
+          "appointment",
+          "with",
+          "Dr.",
+          "Coleman",
+          "at",
+          [
+            "4",
+            "four"
+          ],
+          "PM",
+          "tomorrow,"
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Coleman"
+          ],
+          [
+            "at"
+          ],
+          [
+            "4",
+            "four"
+          ],
+          [
+            "PM"
+          ],
+          [
+            "tomorrow,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/2.mp3",
+        "timeStart": 2.49,
+        "timeEnd": 5.84,
+        "hints": [
+          "Dr. Coleman"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64181/list"
+      },
+      {
+        "id": 64182,
+        "position": 3,
+        "content": "but my head has been pounding since yesterday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "my",
+          "head",
+          "has",
+          "been",
+          "pounding",
+          "since",
+          "yesterday."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "my"
+          ],
+          [
+            "head"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "pounding"
+          ],
+          [
+            "since"
+          ],
+          [
+            "yesterday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/3.mp3",
+        "timeStart": 5.84,
+        "timeEnd": 8.5,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/64182/list"
+      },
+      {
+        "id": 64183,
+        "position": 4,
+        "content": "Could you schedule me for this afternoon instead?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "schedule",
+          "me",
+          "for",
+          "this",
+          "afternoon",
+          "instead?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "me"
+          ],
+          [
+            "for"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon"
+          ],
+          [
+            "instead?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/4.mp3",
+        "timeStart": 8.5,
+        "timeEnd": 11.6,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/64183/list"
+      },
+      {
+        "id": 64184,
+        "position": 5,
+        "content": "I'm sorry, but Dr. Coleman is out of town for personal reasons.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry,",
+          "but",
+          "Dr.",
+          "Coleman",
+          "is",
+          "out",
+          "of",
+          "town",
+          "for",
+          "personal",
+          "reasons."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Coleman"
+          ],
+          [
+            "is"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "town"
+          ],
+          [
+            "for"
+          ],
+          [
+            "personal"
+          ],
+          [
+            "reasons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/5.mp3",
+        "timeStart": 11.6,
+        "timeEnd": 15.81,
+        "hints": [
+          "Dr. Coleman"
+        ],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/64184/list"
+      },
+      {
+        "id": 64185,
+        "position": 6,
+        "content": "The earliest we can schedule you is 8 AM tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "earliest",
+          "we",
+          "can",
+          "schedule",
+          "you",
+          "is",
+          [
+            "8",
+            "eight"
+          ],
+          "AM",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "earliest"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "you"
+          ],
+          [
+            "is"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "AM"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/6.mp3",
+        "timeStart": 15.81,
+        "timeEnd": 19.28,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/64185/list"
+      },
+      {
+        "id": 64186,
+        "position": 7,
+        "content": "I don't think I can wait until tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "I",
+          "can",
+          "wait",
+          "until",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "until"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/7.mp3",
+        "timeStart": 19.28,
+        "timeEnd": 21.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64186/list"
+      },
+      {
+        "id": 64187,
+        "position": 8,
+        "content": "That's why I called in the first place.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "why",
+          "I",
+          "called",
+          "in",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "place."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "why"
+          ],
+          [
+            "I"
+          ],
+          [
+            "called"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "place."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/8.mp3",
+        "timeStart": 21.74,
+        "timeEnd": 24.26,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/64187/list"
+      },
+      {
+        "id": 64188,
+        "position": 9,
+        "content": "If you don't mind, Dr. Roberto is available.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "mind,",
+          "Dr.",
+          "Roberto",
+          "is",
+          "available."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "mind,"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Roberto"
+          ],
+          [
+            "is"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/9.mp3",
+        "timeStart": 24.51,
+        "timeEnd": 27.52,
+        "hints": [
+          "Dr. Roberto"
+        ],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/64188/list"
+      },
+      {
+        "id": 64189,
+        "position": 10,
+        "content": "He's our on-call doctor and can see patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "He's",
+            "He is"
+          ],
+          "our",
+          [
+            "on-call",
+            "on call"
+          ],
+          "doctor",
+          "and",
+          "can",
+          "see",
+          "patients."
+        ],
+        "solution": [
+          [
+            "He's",
+            "He is"
+          ],
+          [
+            "our"
+          ],
+          [
+            "on-call",
+            "on call"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "and"
+          ],
+          [
+            "can"
+          ],
+          [
+            "see"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/10.mp3",
+        "timeStart": 27.52,
+        "timeEnd": 30.62,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/64189/list"
+      },
+      {
+        "id": 64190,
+        "position": 11,
+        "content": "There's an opening at 2 PM today.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "an",
+          "opening",
+          "at",
+          [
+            "2",
+            "two"
+          ],
+          "PM",
+          "today."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "an"
+          ],
+          [
+            "opening"
+          ],
+          [
+            "at"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "PM"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/11.mp3",
+        "timeStart": 30.62,
+        "timeEnd": 32.9,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/64190/list"
+      },
+      {
+        "id": 64191,
+        "position": 12,
+        "content": "Would you like to see him?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "like",
+          "to",
+          "see",
+          "him?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "him?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-8-2024-08-18-22-55-23/12.mp3",
+        "timeStart": 32.9,
+        "timeEnd": 34.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64191/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "64183": {
+      "id": 1443107,
+      "text": "Thay vào đó bạn có thể lên lịch cho tôi vào chiều nay được không?",
+      "author": "a user"
+    },
+    "64184": {
+      "id": 1443108,
+      "text": "Tôi rất tiếc, nhưng bác sĩ Coleman đang đi vắng khỏi thành phố vì lý do cá nhân.",
+      "author": "a user"
+    },
+    "64188": {
+      "id": 1443112,
+      "text": "Nếu bạn không phiền, Bác sĩ Roberto đang rảnh.",
+      "author": "a user"
+    },
+    "64190": {
+      "id": 1443114,
+      "text": "Hôm nay có giờ trống lúc 2 giờ chiều.",
+      "author": "a user"
+    },
+    "64180": {
+      "id": 2595571,
+      "text": "Xin chào, tôi là Tom Barron.",
+      "author": "ChatGPT4.1"
+    },
+    "64181": {
+      "id": 2595572,
+      "text": "Tôi có một cuộc hẹn với bác sĩ Coleman lúc 4 giờ chiều ngày mai,",
+      "author": "ChatGPT4.1"
+    },
+    "64182": {
+      "id": 2595573,
+      "text": "nhưng đầu tôi bị đau nhức từ hôm qua đến giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "64185": {
+      "id": 2595574,
+      "text": "Thời gian sớm nhất chúng tôi có thể sắp cho bạn là 8 giờ sáng ngày mai.",
+      "author": "ChatGPT4.1"
+    },
+    "64186": {
+      "id": 2595575,
+      "text": "Tôi nghĩ mình không thể đợi đến ngày mai được.",
+      "author": "ChatGPT4.1"
+    },
+    "64187": {
+      "id": 2595576,
+      "text": "Đó là lý do tại sao tôi gọi ngay từ đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "64189": {
+      "id": 2595577,
+      "text": "Ông ấy là bác sĩ trực của chúng tôi và có thể khám cho bệnh nhân.",
+      "author": "ChatGPT4.1"
+    },
+    "64191": {
+      "id": 2595578,
+      "text": "Bạn có muốn gặp ông ấy không?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

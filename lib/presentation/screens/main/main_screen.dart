@@ -9,6 +9,7 @@ import '../../../shared/providers/app_providers.dart';
 import '../discover/discover_screen.dart';
 import '../home/home_screen.dart';
 import '../learning_filter/learning_filter_screen.dart';
+import '../messages/messages_screen.dart';
 import '../profile/profile_screen.dart';
 
 class MainScreen extends StatefulWidget {
@@ -81,12 +82,11 @@ class _MainScreenState extends State<MainScreen> {
       icon: Icons.bar_chart_outlined,
       screen: DiscoverScreen(),
     ),
-    // Temporarily hidden until the challenge flow is ready.
-    // const _MainTab(
-    //   label: 'Thử thách',
-    //   icon: Icons.shield_outlined,
-    //   screen: MessagesScreen(),
-    // ),
+    const _MainTab(
+      label: 'Thử thách',
+      icon: Icons.shield_outlined,
+      screen: MessagesScreen(),
+    ),
     _MainTab(
       label: 'Cá nhân',
       screen: ProfileScreen(onViewProgress: () => _selectTab(ref, 1)),
@@ -102,7 +102,7 @@ class _MainScreenState extends State<MainScreen> {
       ref.invalidate(topicProgressProvider);
       ref.invalidate(vocabularyCollectionProvider);
     }
-    if (index == 2) {
+    if (index == 3) {
       ref.invalidate(profileStatisticsProvider);
       ref.invalidate(topicProgressProvider);
     }

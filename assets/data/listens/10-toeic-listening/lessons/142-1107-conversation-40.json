@@ -1,0 +1,610 @@
+{
+  "summary": {
+    "id": 1107,
+    "name": "Conversation 40",
+    "subTitle": "Message for Account Manager",
+    "levelName": "B1",
+    "position": 142,
+    "totalChallenges": 9,
+    "groupId": 34,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1107",
+  "detail": {
+    "id": 1107,
+    "lessonName": "Conversation 40",
+    "name": "Conversation 40",
+    "position": 142,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/0-conversation-40.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53653,
+        "position": 1,
+        "content": "Hello, this is Jack O'Connell, from Jack's Grocery Store.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Jack",
+          "O'Connell,",
+          "from",
+          "Jack's",
+          "Grocery",
+          "Store."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Jack"
+          ],
+          [
+            "O'Connell,"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Jack's"
+          ],
+          [
+            "Grocery"
+          ],
+          [
+            "Store."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/1.mp3",
+        "timeStart": 0.24,
+        "timeEnd": 4.7,
+        "hints": [
+          "O'Connell"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53653/list"
+      },
+      {
+        "id": 53654,
+        "position": 2,
+        "content": "I need to speak with Miss Richards.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "need",
+          "to",
+          "speak",
+          "with",
+          "Miss",
+          "Richards."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "speak"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Miss"
+          ],
+          [
+            "Richards."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/2.mp3",
+        "timeStart": 4.7,
+        "timeEnd": 7.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53654/list"
+      },
+      {
+        "id": 53655,
+        "position": 3,
+        "content": "She is my store's account manager.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "she's"
+          ],
+          "my",
+          "store's",
+          "account",
+          "manager."
+        ],
+        "solution": [
+          [
+            "She is",
+            "she's"
+          ],
+          [
+            "my"
+          ],
+          [
+            "store's"
+          ],
+          [
+            "account"
+          ],
+          [
+            "manager."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/3.mp3",
+        "timeStart": 7.2,
+        "timeEnd": 9.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53655/list"
+      },
+      {
+        "id": 53656,
+        "position": 4,
+        "content": "I apologize, but Miss Richards is currently in a meeting with the senior account managers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "apologize,",
+            "apologise"
+          ],
+          "but",
+          "Miss",
+          "Richards",
+          "is",
+          "currently",
+          "in",
+          "a",
+          "meeting",
+          "with",
+          "the",
+          [
+            "senior",
+            "sr"
+          ],
+          "account",
+          "managers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "apologize,",
+            "apologise"
+          ],
+          [
+            "but"
+          ],
+          [
+            "Miss"
+          ],
+          [
+            "Richards"
+          ],
+          [
+            "is"
+          ],
+          [
+            "currently"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "senior",
+            "sr"
+          ],
+          [
+            "account"
+          ],
+          [
+            "managers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/4.mp3",
+        "timeStart": 9.45,
+        "timeEnd": 14.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53656/list"
+      },
+      {
+        "id": 53657,
+        "position": 5,
+        "content": "Would you like to leave a message for when she is available?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "like",
+          "to",
+          "leave",
+          "a",
+          "message",
+          "for",
+          "when",
+          [
+            "she is",
+            "she's"
+          ],
+          "available?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "a"
+          ],
+          [
+            "message"
+          ],
+          [
+            "for"
+          ],
+          [
+            "when"
+          ],
+          [
+            "she is",
+            "she's"
+          ],
+          [
+            "available?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/5.mp3",
+        "timeStart": 14.99,
+        "timeEnd": 18.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53657/list"
+      },
+      {
+        "id": 53658,
+        "position": 6,
+        "content": "I would.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would.",
+            "I'd"
+          ]
+        ],
+        "solution": [
+          [
+            "I would.",
+            "I'd"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/6.mp3",
+        "timeStart": 18.24,
+        "timeEnd": 19.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53658/list"
+      },
+      {
+        "id": 53659,
+        "position": 7,
+        "content": "Can you let her know that I was calling because I would like to check the progress of my building's remortgage application?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "let",
+          "her",
+          "know",
+          "that",
+          "I",
+          "was",
+          "calling",
+          "because",
+          [
+            "I would",
+            "I'd"
+          ],
+          "like",
+          "to",
+          "check",
+          "the",
+          "progress",
+          "of",
+          "my",
+          "building's",
+          "remortgage",
+          "application?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "let"
+          ],
+          [
+            "her"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "because"
+          ],
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "check"
+          ],
+          [
+            "the"
+          ],
+          [
+            "progress"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "building's"
+          ],
+          [
+            "remortgage"
+          ],
+          [
+            "application?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/7.mp3",
+        "timeStart": 19.44,
+        "timeEnd": 25.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53659/list"
+      },
+      {
+        "id": 53660,
+        "position": 8,
+        "content": "Of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/8.mp3",
+        "timeStart": 26.23,
+        "timeEnd": 27.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53660/list"
+      },
+      {
+        "id": 53661,
+        "position": 9,
+        "content": "I will give her this message and ask her to call you back as soon as the meeting has finished.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "give",
+          "her",
+          "this",
+          "message",
+          "and",
+          "ask",
+          "her",
+          "to",
+          "call",
+          "you",
+          "back",
+          "as",
+          "soon",
+          "as",
+          "the",
+          "meeting",
+          "has",
+          "finished."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "give"
+          ],
+          [
+            "her"
+          ],
+          [
+            "this"
+          ],
+          [
+            "message"
+          ],
+          [
+            "and"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "her"
+          ],
+          [
+            "to"
+          ],
+          [
+            "call"
+          ],
+          [
+            "you"
+          ],
+          [
+            "back"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "has"
+          ],
+          [
+            "finished."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-40-2023-09-14-16-26-45/9.mp3",
+        "timeStart": 27.25,
+        "timeEnd": 32.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53661/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "53659": {
+      "id": 897582,
+      "text": "Bạn có thể cho cô ấy biết rằng tôi đã gọi điện vì tôi muốn kiểm tra tiến độ đơn xin thế chấp lại tòa nhà của mình không?",
+      "author": "a user"
+    },
+    "53653": {
+      "id": 2652013,
+      "text": "Xin chào, tôi là Jack O'Connell, đến từ Cửa hàng Tạp hóa Jack.",
+      "author": "ChatGPT4.1"
+    },
+    "53654": {
+      "id": 2652014,
+      "text": "Tôi cần nói chuyện với cô Richards.",
+      "author": "ChatGPT4.1"
+    },
+    "53655": {
+      "id": 2652015,
+      "text": "Cô ấy là quản lý tài khoản của cửa hàng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "53656": {
+      "id": 2652016,
+      "text": "Tôi xin lỗi, nhưng cô Richards hiện đang họp với các quản lý tài khoản cấp cao.",
+      "author": "ChatGPT4.1"
+    },
+    "53657": {
+      "id": 2652017,
+      "text": "Bạn có muốn để lại lời nhắn cho cô ấy khi cô ấy rảnh không?",
+      "author": "ChatGPT4.1"
+    },
+    "53658": {
+      "id": 2652018,
+      "text": "Tôi muốn.",
+      "author": "ChatGPT4.1"
+    },
+    "53660": {
+      "id": 2652019,
+      "text": "Tất nhiên.",
+      "author": "ChatGPT4.1"
+    },
+    "53661": {
+      "id": 2652020,
+      "text": "Tôi sẽ chuyển lời nhắn này cho cô ấy và yêu cầu cô ấy gọi lại cho bạn ngay khi cuộc họp kết thúc.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

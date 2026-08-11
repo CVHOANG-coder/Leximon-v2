@@ -1,0 +1,708 @@
+{
+  "summary": {
+    "id": 1895,
+    "name": "Short Talk 298",
+    "subTitle": "Los Angeles Tree Planting Event",
+    "levelName": "B1",
+    "position": 668,
+    "totalChallenges": 11,
+    "groupId": 77,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1895",
+  "detail": {
+    "id": 1895,
+    "lessonName": "Short Talk 298",
+    "name": "Short Talk 298",
+    "position": 668,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/0-short-talk-298.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 71597,
+        "position": 1,
+        "content": "Good afternoon.",
+        "defaultInput": "Good afternoon.",
+        "jsonContent": [
+          "Good",
+          "afternoon."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 0.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71597/list"
+      },
+      {
+        "id": 71598,
+        "position": 2,
+        "content": "I'm Violet Hubbard with Channel 8 News.",
+        "defaultInput": "I'm Violet Hubbard ",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "Violet",
+          "Hubbard",
+          "with",
+          "Channel",
+          [
+            "8",
+            "eight"
+          ],
+          "News."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Violet"
+          ],
+          [
+            "Hubbard"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Channel"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "News."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/2.mp3",
+        "timeStart": 0.95,
+        "timeEnd": 3.43,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/71598/list"
+      },
+      {
+        "id": 71599,
+        "position": 3,
+        "content": "This Sunday, September 15th,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "Sunday,",
+          "September",
+          [
+            "15th,",
+            "fifteenth"
+          ]
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "Sunday,"
+          ],
+          [
+            "September"
+          ],
+          [
+            "15th,",
+            "fifteenth"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/3.mp3",
+        "timeStart": 3.6,
+        "timeEnd": 5.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71599/list"
+      },
+      {
+        "id": 71600,
+        "position": 4,
+        "content": "a nonprofit group called Green Future is organizing a tree planting event in downtown Los Angeles.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "nonprofit",
+          "group",
+          "called",
+          "Green",
+          "Future",
+          "is",
+          [
+            "organizing",
+            "organising"
+          ],
+          "a",
+          "tree",
+          "planting",
+          "event",
+          "in",
+          "downtown",
+          "Los",
+          "Angeles."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "nonprofit"
+          ],
+          [
+            "group"
+          ],
+          [
+            "called"
+          ],
+          [
+            "Green"
+          ],
+          [
+            "Future"
+          ],
+          [
+            "is"
+          ],
+          [
+            "organizing",
+            "organising"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tree"
+          ],
+          [
+            "planting"
+          ],
+          [
+            "event"
+          ],
+          [
+            "in"
+          ],
+          [
+            "downtown"
+          ],
+          [
+            "Los"
+          ],
+          [
+            "Angeles."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/4.mp3",
+        "timeStart": 5.41,
+        "timeEnd": 10.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71600/list"
+      },
+      {
+        "id": 71601,
+        "position": 5,
+        "content": "The aim is to create more green spaces in the city and improve air quality.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "aim",
+          "is",
+          "to",
+          "create",
+          "more",
+          "green",
+          "spaces",
+          "in",
+          "the",
+          "city",
+          "and",
+          "improve",
+          "air",
+          "quality."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "aim"
+          ],
+          [
+            "is"
+          ],
+          [
+            "to"
+          ],
+          [
+            "create"
+          ],
+          [
+            "more"
+          ],
+          [
+            "green"
+          ],
+          [
+            "spaces"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "and"
+          ],
+          [
+            "improve"
+          ],
+          [
+            "air"
+          ],
+          [
+            "quality."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/5.mp3",
+        "timeStart": 10.98,
+        "timeEnd": 14.97,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/71601/list"
+      },
+      {
+        "id": 71602,
+        "position": 6,
+        "content": "Organizers expect hundreds of volunteers to participate,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Organizers",
+            "organisers"
+          ],
+          "expect",
+          "hundreds",
+          "of",
+          "volunteers",
+          "to",
+          "participate,"
+        ],
+        "solution": [
+          [
+            "Organizers",
+            "organisers"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "hundreds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "volunteers"
+          ],
+          [
+            "to"
+          ],
+          [
+            "participate,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/6.mp3",
+        "timeStart": 15.21,
+        "timeEnd": 18.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71602/list"
+      },
+      {
+        "id": 71603,
+        "position": 7,
+        "content": "with a goal of planting over 5000 trees by the day's end.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "a",
+          "goal",
+          "of",
+          "planting",
+          "over",
+          [
+            "5000",
+            "five thousand",
+            "5 thousand"
+          ],
+          "trees",
+          "by",
+          "the",
+          "day's",
+          "end."
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "goal"
+          ],
+          [
+            "of"
+          ],
+          [
+            "planting"
+          ],
+          [
+            "over"
+          ],
+          [
+            "5000",
+            "five thousand",
+            "5 thousand"
+          ],
+          [
+            "trees"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day's"
+          ],
+          [
+            "end."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/7.mp3",
+        "timeStart": 18.65,
+        "timeEnd": 22.43,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/71603/list"
+      },
+      {
+        "id": 71604,
+        "position": 8,
+        "content": "Online registration for the event will remain open until September 13th,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Online",
+          "registration",
+          "for",
+          "the",
+          "event",
+          "will",
+          "remain",
+          "open",
+          "until",
+          "September",
+          [
+            "13th,",
+            "thirteenth"
+          ]
+        ],
+        "solution": [
+          [
+            "Online"
+          ],
+          [
+            "registration"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "event"
+          ],
+          [
+            "will"
+          ],
+          [
+            "remain"
+          ],
+          [
+            "open"
+          ],
+          [
+            "until"
+          ],
+          [
+            "September"
+          ],
+          [
+            "13th,",
+            "thirteenth"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/8.mp3",
+        "timeStart": 22.8,
+        "timeEnd": 27.29,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/71604/list"
+      },
+      {
+        "id": 71605,
+        "position": 9,
+        "content": "providing a few more days for anyone interested to sign up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "providing",
+          "a",
+          "few",
+          "more",
+          "days",
+          "for",
+          "anyone",
+          "interested",
+          "to",
+          "sign",
+          "up."
+        ],
+        "solution": [
+          [
+            "providing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "more"
+          ],
+          [
+            "days"
+          ],
+          [
+            "for"
+          ],
+          [
+            "anyone"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sign"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/9.mp3",
+        "timeStart": 27.29,
+        "timeEnd": 30.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71605/list"
+      },
+      {
+        "id": 71606,
+        "position": 10,
+        "content": "For those who cannot attend but wish to contribute,",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "those",
+          "who",
+          "cannot",
+          "attend",
+          "but",
+          "wish",
+          "to",
+          "contribute,"
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "those"
+          ],
+          [
+            "who"
+          ],
+          [
+            "cannot"
+          ],
+          [
+            "attend"
+          ],
+          [
+            "but"
+          ],
+          [
+            "wish"
+          ],
+          [
+            "to"
+          ],
+          [
+            "contribute,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/10.mp3",
+        "timeStart": 31.16,
+        "timeEnd": 34.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71606/list"
+      },
+      {
+        "id": 71607,
+        "position": 11,
+        "content": "donations are warmly welcomed to support this important environmental project.",
+        "defaultInput": "",
+        "jsonContent": [
+          "donations",
+          "are",
+          "warmly",
+          "welcomed",
+          "to",
+          "support",
+          "this",
+          "important",
+          "environmental",
+          "project."
+        ],
+        "solution": [
+          [
+            "donations"
+          ],
+          [
+            "are"
+          ],
+          [
+            "warmly"
+          ],
+          [
+            "welcomed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "support"
+          ],
+          [
+            "this"
+          ],
+          [
+            "important"
+          ],
+          [
+            "environmental"
+          ],
+          [
+            "project."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-298-2024-11-20-22-54-22/11.mp3",
+        "timeStart": 34.23,
+        "timeEnd": 38.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71607/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "71597": {
+      "id": 2584120,
+      "text": "Chào buổi chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "71598": {
+      "id": 2584121,
+      "text": "Tôi là Violet Hubbard đến từ kênh tin tức Channel 8.",
+      "author": "ChatGPT4.1"
+    },
+    "71599": {
+      "id": 2584122,
+      "text": "Chủ nhật này, ngày 15 tháng 9,",
+      "author": "ChatGPT4.1"
+    },
+    "71600": {
+      "id": 2584123,
+      "text": "một tổ chức phi lợi nhuận tên là Green Future đang tổ chức một sự kiện trồng cây ở trung tâm Los Angeles.",
+      "author": "ChatGPT4.1"
+    },
+    "71601": {
+      "id": 2584124,
+      "text": "Mục đích là tạo ra nhiều không gian xanh hơn trong thành phố và cải thiện chất lượng không khí.",
+      "author": "ChatGPT4.1"
+    },
+    "71602": {
+      "id": 2584125,
+      "text": "Ban tổ chức dự kiến sẽ có hàng trăm tình nguyện viên tham gia,",
+      "author": "ChatGPT4.1"
+    },
+    "71603": {
+      "id": 2584126,
+      "text": "với mục tiêu trồng được hơn 5000 cây trước khi kết thúc ngày hôm đó.",
+      "author": "ChatGPT4.1"
+    },
+    "71604": {
+      "id": 2584127,
+      "text": "Đăng ký trực tuyến cho sự kiện sẽ mở cho đến ngày 13 tháng 9,",
+      "author": "ChatGPT4.1"
+    },
+    "71605": {
+      "id": 2584128,
+      "text": "cung cấp thêm vài ngày nữa cho những ai quan tâm có thể đăng ký.",
+      "author": "ChatGPT4.1"
+    },
+    "71606": {
+      "id": 2584129,
+      "text": "Đối với những ai không thể tham dự nhưng muốn đóng góp,",
+      "author": "ChatGPT4.1"
+    },
+    "71607": {
+      "id": 2584130,
+      "text": "mọi khoản quyên góp đều được hoan nghênh để hỗ trợ dự án môi trường quan trọng này.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

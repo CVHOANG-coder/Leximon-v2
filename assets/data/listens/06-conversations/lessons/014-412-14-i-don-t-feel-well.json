@@ -1,0 +1,497 @@
+{
+  "summary": {
+    "id": 412,
+    "name": "14. I Don't Feel Well",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 14,
+    "totalChallenges": 10,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/412",
+  "detail": {
+    "id": 412,
+    "lessonName": "14. I Don't Feel Well",
+    "name": "14. I Don't Feel Well",
+    "position": 14,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/0-14-i-dont-feel-well.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17886,
+        "position": 1,
+        "content": "What are you looking for?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "are",
+          "you",
+          "looking",
+          "for?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/1.mp3",
+        "timeStart": 2.94,
+        "timeEnd": 4.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17886/list"
+      },
+      {
+        "id": 17887,
+        "position": 2,
+        "content": "My jacket. I'm going to the doctor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "jacket.",
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "the",
+          "doctor."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "jacket."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doctor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/2.mp3",
+        "timeStart": 4.08,
+        "timeEnd": 5.89,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/17887/list"
+      },
+      {
+        "id": 17888,
+        "position": 3,
+        "content": "Why? What's the problem?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why?",
+          [
+            "What's",
+            "what is"
+          ],
+          "the",
+          "problem?"
+        ],
+        "solution": [
+          [
+            "Why?"
+          ],
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "problem?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/3.mp3",
+        "timeStart": 5.89,
+        "timeEnd": 7.24,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17888/list"
+      },
+      {
+        "id": 17889,
+        "position": 4,
+        "content": "I'm not sure, but I don't feel well.",
+        "defaultInput": "I'm not sure ",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "sure,",
+          "but",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "feel",
+          "well."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "sure,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/4-2024-01-09-18-14-28.mp3",
+        "timeStart": 7.15,
+        "timeEnd": 9.04,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17889/list"
+      },
+      {
+        "id": 17890,
+        "position": 5,
+        "content": "Do you have a fever?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "you have",
+            "you've"
+          ],
+          "a",
+          "fever?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fever?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/5.mp3",
+        "timeStart": 9.04,
+        "timeEnd": 10.18,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17890/list"
+      },
+      {
+        "id": 17891,
+        "position": 6,
+        "content": "No, but I have a pain in my chest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "but",
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "pain",
+          "in",
+          "my",
+          "chest."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "chest."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/6.mp3",
+        "timeStart": 10.18,
+        "timeEnd": 12.42,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/17891/list"
+      },
+      {
+        "id": 17892,
+        "position": 7,
+        "content": "What time is your appointment?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "time",
+          "is",
+          "your",
+          "appointment?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "your"
+          ],
+          [
+            "appointment?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/7.mp3",
+        "timeStart": 12.42,
+        "timeEnd": 13.71,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/17892/list"
+      },
+      {
+        "id": 17893,
+        "position": 8,
+        "content": "11:30 I'm going now. Bye.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "11:30",
+            "11 30",
+            "Eleven-thirty.",
+            "Eleven thirty."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          "going",
+          "now.",
+          "Bye."
+        ],
+        "solution": [
+          [
+            "11:30",
+            "11 30",
+            "Eleven-thirty.",
+            "Eleven thirty."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going"
+          ],
+          [
+            "now."
+          ],
+          [
+            "Bye."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/8.mp3",
+        "timeStart": 13.71,
+        "timeEnd": 16.09,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17893/list"
+      },
+      {
+        "id": 17894,
+        "position": 9,
+        "content": "Goodbye. I hope it's nothing serious.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Goodbye.",
+          "I",
+          "hope",
+          "it's",
+          "nothing",
+          "serious."
+        ],
+        "solution": [
+          [
+            "Goodbye."
+          ],
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "nothing"
+          ],
+          [
+            "serious."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/9.mp3",
+        "timeStart": 16.24,
+        "timeEnd": 18.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17894/list"
+      },
+      {
+        "id": 17895,
+        "position": 10,
+        "content": "Thanks. See you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks.",
+          "See",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ],
+          [
+            "See"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/14-i-dont-feel-well-2022-03-07-21-08-48/10.mp3",
+        "timeStart": 18.34,
+        "timeEnd": 19.46,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17895/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17888": {
+      "id": 1712,
+      "text": "Sao vậy? Bạn bị gì à?",
+      "author": "a user"
+    },
+    "17893": {
+      "id": 1723,
+      "text": "11:30. Tôi đi ngay đây. Tạm biệt.",
+      "author": "a user"
+    },
+    "17895": {
+      "id": 1728,
+      "text": "Cảm ơn. Hẹn gặp lại.",
+      "author": "a user"
+    },
+    "17886": {
+      "id": 6553,
+      "text": "Bạn đang tìm gì vậy?",
+      "author": "a user"
+    },
+    "17887": {
+      "id": 6556,
+      "text": "Áo khoác của tôi. Tôi sắp đi gặp bác sĩ .",
+      "author": "a user"
+    },
+    "17894": {
+      "id": 669006,
+      "text": "Tạm biệt. Hy vọng là không có gì nghiêm trọng.",
+      "author": "a user"
+    },
+    "17889": {
+      "id": 2588651,
+      "text": "Tôi không chắc, nhưng tôi cảm thấy không khỏe.",
+      "author": "ChatGPT4.1"
+    },
+    "17890": {
+      "id": 2588652,
+      "text": "Bạn có bị sốt không?",
+      "author": "ChatGPT4.1"
+    },
+    "17891": {
+      "id": 2588653,
+      "text": "Không, nhưng tôi bị đau ở ngực.",
+      "author": "ChatGPT4.1"
+    },
+    "17892": {
+      "id": 2588654,
+      "text": "Cuộc hẹn của bạn lúc mấy giờ?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

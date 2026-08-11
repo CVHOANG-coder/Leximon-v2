@@ -1,0 +1,1062 @@
+{
+  "summary": {
+    "id": 1047,
+    "name": "Conversation 7",
+    "subTitle": "Minimalist Design Workshop Invitation",
+    "levelName": "B1",
+    "position": 64,
+    "totalChallenges": 19,
+    "groupId": 31,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1047",
+  "detail": {
+    "id": 1047,
+    "lessonName": "Conversation 7",
+    "name": "Conversation 7",
+    "position": 64,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/0-conversation-7.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 52646,
+        "position": 1,
+        "content": "I just got the invitation to the workshop on Monday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "got",
+          "the",
+          "invitation",
+          "to",
+          "the",
+          "workshop",
+          "on",
+          "Monday."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "got"
+          ],
+          [
+            "the"
+          ],
+          [
+            "invitation"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "workshop"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Monday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/1.mp3",
+        "timeStart": 0.24,
+        "timeEnd": 3.53,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52646/list"
+      },
+      {
+        "id": 52647,
+        "position": 2,
+        "content": "It seems very interesting,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "seems",
+          "very",
+          "interesting,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "very"
+          ],
+          [
+            "interesting,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/2.mp3",
+        "timeStart": 3.53,
+        "timeEnd": 5.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52647/list"
+      },
+      {
+        "id": 52648,
+        "position": 3,
+        "content": "the topic is \"Designing for the minimalist\".",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "topic",
+          "is",
+          "\"Designing",
+          "for",
+          "the",
+          "minimalist\"."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "topic"
+          ],
+          [
+            "is"
+          ],
+          [
+            "\"Designing"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "minimalist\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/3.mp3",
+        "timeStart": 5.77,
+        "timeEnd": 8.99,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/52648/list"
+      },
+      {
+        "id": 52649,
+        "position": 4,
+        "content": "Do you think you will go?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "think",
+          [
+            "you will",
+            "you'll"
+          ],
+          "go?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "go?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/4.mp3",
+        "timeStart": 8.99,
+        "timeEnd": 10.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52649/list"
+      },
+      {
+        "id": 52650,
+        "position": 5,
+        "content": "Oh, that does sound very interesting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "that",
+          "does",
+          "sound",
+          "very",
+          "interesting."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "does"
+          ],
+          [
+            "sound"
+          ],
+          [
+            "very"
+          ],
+          [
+            "interesting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/5.mp3",
+        "timeStart": 10.67,
+        "timeEnd": 13.38,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/52650/list"
+      },
+      {
+        "id": 52651,
+        "position": 6,
+        "content": "I'm seeing a trend in minimalism design with my clients.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "seeing",
+          "a",
+          "trend",
+          "in",
+          "minimalism",
+          "design",
+          "with",
+          "my",
+          "clients."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "seeing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "trend"
+          ],
+          [
+            "in"
+          ],
+          [
+            "minimalism"
+          ],
+          [
+            "design"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "clients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/6.mp3",
+        "timeStart": 13.38,
+        "timeEnd": 17.15,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/52651/list"
+      },
+      {
+        "id": 52652,
+        "position": 7,
+        "content": "I haven't checked my email,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "haven't",
+            "have not"
+          ],
+          "checked",
+          "my",
+          "email,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "checked"
+          ],
+          [
+            "my"
+          ],
+          [
+            "email,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/7.mp3",
+        "timeStart": 17.15,
+        "timeEnd": 18.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52652/list"
+      },
+      {
+        "id": 52653,
+        "position": 8,
+        "content": "what time is the workshop?",
+        "defaultInput": "",
+        "jsonContent": [
+          "what",
+          "time",
+          "is",
+          "the",
+          "workshop?"
+        ],
+        "solution": [
+          [
+            "what"
+          ],
+          [
+            "time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "workshop?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/8.mp3",
+        "timeStart": 18.83,
+        "timeEnd": 20.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52653/list"
+      },
+      {
+        "id": 52654,
+        "position": 9,
+        "content": "I have a presentation on Tuesday, so I am pretty busy until then.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "presentation",
+          "on",
+          "Tuesday,",
+          "so",
+          [
+            "I am",
+            "I'm"
+          ],
+          "pretty",
+          "busy",
+          "until",
+          "then."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "presentation"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Tuesday,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "until"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/9.mp3",
+        "timeStart": 20.53,
+        "timeEnd": 24.76,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52654/list"
+      },
+      {
+        "id": 52655,
+        "position": 10,
+        "content": "It starts at 9 A.M.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "starts",
+          "at",
+          [
+            "9",
+            "nine"
+          ],
+          "A.M."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "at"
+          ],
+          [
+            "9",
+            "nine"
+          ],
+          [
+            "A.M."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/10.mp3",
+        "timeStart": 24.77,
+        "timeEnd": 26.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52655/list"
+      },
+      {
+        "id": 52656,
+        "position": 11,
+        "content": "And is scheduled to last for an hour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "is",
+          "scheduled",
+          "to",
+          "last",
+          "for",
+          "an",
+          "hour."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "is"
+          ],
+          [
+            "scheduled"
+          ],
+          [
+            "to"
+          ],
+          [
+            "last"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/11.mp3",
+        "timeStart": 26.77,
+        "timeEnd": 28.86,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/52656/list"
+      },
+      {
+        "id": 52657,
+        "position": 12,
+        "content": "The email also mentioned free coffee and donuts.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "email",
+          "also",
+          "mentioned",
+          "free",
+          "coffee",
+          "and",
+          [
+            "donuts.",
+            "doughnuts"
+          ]
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "email"
+          ],
+          [
+            "also"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "free"
+          ],
+          [
+            "coffee"
+          ],
+          [
+            "and"
+          ],
+          [
+            "donuts.",
+            "doughnuts"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/12.mp3",
+        "timeStart": 28.86,
+        "timeEnd": 32.12,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52657/list"
+      },
+      {
+        "id": 52658,
+        "position": 13,
+        "content": "Luckily, it is a small workshop,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Luckily,",
+          [
+            "it is",
+            "it's"
+          ],
+          "a",
+          "small",
+          "workshop,"
+        ],
+        "solution": [
+          [
+            "Luckily,"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "small"
+          ],
+          [
+            "workshop,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/13.mp3",
+        "timeStart": 32.37,
+        "timeEnd": 34.76,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52658/list"
+      },
+      {
+        "id": 52659,
+        "position": 14,
+        "content": "so will be held in the meeting room next to your office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "will",
+          "be",
+          "held",
+          "in",
+          "the",
+          "meeting",
+          "room",
+          "next",
+          "to",
+          "your",
+          "office."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "held"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "room"
+          ],
+          [
+            "next"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/14.mp3",
+        "timeStart": 34.76,
+        "timeEnd": 37.93,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52659/list"
+      },
+      {
+        "id": 52660,
+        "position": 15,
+        "content": "They said there will be a few hands-on events.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "said",
+          [
+            "there will",
+            "there'll"
+          ],
+          "be",
+          "a",
+          "few",
+          [
+            "hands-on",
+            "hands on"
+          ],
+          "events."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "said"
+          ],
+          [
+            "there will",
+            "there'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "hands-on",
+            "hands on"
+          ],
+          [
+            "events."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/15.mp3",
+        "timeStart": 38.19,
+        "timeEnd": 41.26,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/52660/list"
+      },
+      {
+        "id": 52661,
+        "position": 16,
+        "content": "Can I do anything to help you out with your presentation?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "I",
+          "do",
+          "anything",
+          "to",
+          "help",
+          "you",
+          "out",
+          "with",
+          "your",
+          "presentation?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "out"
+          ],
+          [
+            "with"
+          ],
+          [
+            "your"
+          ],
+          [
+            "presentation?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/16.mp3",
+        "timeStart": 41.49,
+        "timeEnd": 44.58,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/52661/list"
+      },
+      {
+        "id": 52662,
+        "position": 17,
+        "content": "Well, if it is only an hour, I should be able to attend.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "if",
+          [
+            "it is",
+            "it's"
+          ],
+          "only",
+          "an",
+          "hour,",
+          "I",
+          "should",
+          "be",
+          "able",
+          "to",
+          "attend."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "only"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "attend."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/17.mp3",
+        "timeStart": 44.92,
+        "timeEnd": 48.86,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52662/list"
+      },
+      {
+        "id": 52663,
+        "position": 18,
+        "content": "It is a good way to start my busy day!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "a",
+          "good",
+          "way",
+          "to",
+          "start",
+          "my",
+          "busy",
+          "day!"
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "start"
+          ],
+          [
+            "my"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "day!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/18.mp3",
+        "timeStart": 48.86,
+        "timeEnd": 51.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52663/list"
+      },
+      {
+        "id": 52664,
+        "position": 19,
+        "content": "Thanks for letting me know.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "for",
+          "letting",
+          "me",
+          "know."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "letting"
+          ],
+          [
+            "me"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-7-2023-09-10-18-11-45/19.mp3",
+        "timeStart": 51.26,
+        "timeEnd": 52.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52664/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "52650": {
+      "id": 871063,
+      "text": "Ồ, nghe có vẻ rất thú vị.",
+      "author": "a user"
+    },
+    "52653": {
+      "id": 871071,
+      "text": "Hội thảo diễn ra vào lúc mấy giờ?",
+      "author": "a user"
+    },
+    "52657": {
+      "id": 871079,
+      "text": "Email cũng đã đề cập đến cà phê và bánh donut miễn phí.",
+      "author": "a user"
+    },
+    "52658": {
+      "id": 871082,
+      "text": "May mắn thay, đó là một cuộc hội thảo nhỏ",
+      "author": "a user"
+    },
+    "52659": {
+      "id": 871084,
+      "text": "nên sẽ được tổ chức tại phòng họp cạnh văn phòng của bạn.",
+      "author": "a user"
+    },
+    "52660": {
+      "id": 871212,
+      "text": "Họ nói rằng sẽ có một vài sự kiện trải nghiệm thực tế.",
+      "author": "a user"
+    },
+    "52662": {
+      "id": 871214,
+      "text": "Được rồi, nếu chỉ một giờ thôi, tôi chắc là có thể tham dự được.",
+      "author": "a user"
+    },
+    "52651": {
+      "id": 892381,
+      "text": "Tôi nhận thấy khách hàng của mình có xu hướng thích thiết kế tối giản.",
+      "author": "a user"
+    },
+    "52646": {
+      "id": 2584266,
+      "text": "Tôi vừa nhận được lời mời tham dự hội thảo vào thứ Hai.",
+      "author": "ChatGPT4.1"
+    },
+    "52647": {
+      "id": 2584267,
+      "text": "Nó có vẻ rất thú vị,",
+      "author": "ChatGPT4.1"
+    },
+    "52648": {
+      "id": 2584268,
+      "text": "chủ đề là \"Thiết kế cho người theo chủ nghĩa tối giản\".",
+      "author": "ChatGPT4.1"
+    },
+    "52649": {
+      "id": 2584269,
+      "text": "Bạn nghĩ bạn sẽ đi chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "52652": {
+      "id": 2584270,
+      "text": "Tôi vẫn chưa kiểm tra email,",
+      "author": "ChatGPT4.1"
+    },
+    "52654": {
+      "id": 2584271,
+      "text": "Tôi có một bài thuyết trình vào thứ Ba, vì vậy tôi khá bận cho đến lúc đó.",
+      "author": "ChatGPT4.1"
+    },
+    "52655": {
+      "id": 2584272,
+      "text": "Nó bắt đầu lúc 9 giờ sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "52656": {
+      "id": 2584273,
+      "text": "Và được lên lịch kéo dài trong một giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "52661": {
+      "id": 2584274,
+      "text": "Tôi có thể làm gì để giúp bạn với bài thuyết trình không?",
+      "author": "ChatGPT4.1"
+    },
+    "52663": {
+      "id": 2584275,
+      "text": "Đó là một cách tốt để bắt đầu một ngày bận rộn của tôi!",
+      "author": "ChatGPT4.1"
+    },
+    "52664": {
+      "id": 2584276,
+      "text": "Cảm ơn vì đã cho tôi biết.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

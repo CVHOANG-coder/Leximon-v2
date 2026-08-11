@@ -1,0 +1,1218 @@
+{
+  "summary": {
+    "id": 5,
+    "name": "2. Jessica's first day of school",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 2,
+    "totalChallenges": 25,
+    "groupId": 86,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/5",
+  "detail": {
+    "id": 5,
+    "lessonName": "2. Jessica's first day of school",
+    "name": "2. Jessica's first day of school",
+    "position": 2,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/0-2-jessicas-first-day-of-school.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 277,
+        "position": 1,
+        "content": "Today is Jessica's first day of kindergarten.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today",
+          "is",
+          "Jessica's",
+          [
+            "first",
+            "1st"
+          ],
+          "day",
+          "of",
+          "kindergarten."
+        ],
+        "solution": [
+          [
+            "Today"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Jessica's"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "day"
+          ],
+          [
+            "of"
+          ],
+          [
+            "kindergarten."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/1.mp3",
+        "timeStart": 4.4,
+        "timeEnd": 7.9,
+        "hints": [
+          "Jessica"
+        ],
+        "nbComments": 28,
+        "discussionUrl": "https://dailydictation.com/discussions/277/list"
+      },
+      {
+        "id": 278,
+        "position": 2,
+        "content": "Jessica and her parents walk to school.",
+        "defaultInput": "Jessica ",
+        "jsonContent": [
+          "Jessica",
+          "and",
+          "her",
+          "parents",
+          "walk",
+          "to",
+          "school."
+        ],
+        "solution": [
+          [
+            "Jessica"
+          ],
+          [
+            "and"
+          ],
+          [
+            "her"
+          ],
+          [
+            "parents"
+          ],
+          [
+            "walk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/2.mp3",
+        "timeStart": 8.8,
+        "timeEnd": 11.6,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/278/list"
+      },
+      {
+        "id": 279,
+        "position": 3,
+        "content": "Jessica's mom walks with her to her classroom.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jessica's",
+          [
+            "mom",
+            "mum"
+          ],
+          "walks",
+          "with",
+          "her",
+          "to",
+          "her",
+          "classroom."
+        ],
+        "solution": [
+          [
+            "Jessica's"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "walks"
+          ],
+          [
+            "with"
+          ],
+          [
+            "her"
+          ],
+          [
+            "to"
+          ],
+          [
+            "her"
+          ],
+          [
+            "classroom."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/3.mp3",
+        "timeStart": 12.8,
+        "timeEnd": 16.4,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/279/list"
+      },
+      {
+        "id": 280,
+        "position": 4,
+        "content": "Jessica meets her teacher.",
+        "defaultInput": "Jessica ",
+        "jsonContent": [
+          "Jessica",
+          "meets",
+          "her",
+          "teacher."
+        ],
+        "solution": [
+          [
+            "Jessica"
+          ],
+          [
+            "meets"
+          ],
+          [
+            "her"
+          ],
+          [
+            "teacher."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/4.mp3",
+        "timeStart": 17.5,
+        "timeEnd": 19.4,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/280/list"
+      },
+      {
+        "id": 281,
+        "position": 5,
+        "content": "His name is Mr. Parker.",
+        "defaultInput": "",
+        "jsonContent": [
+          "His",
+          "name",
+          "is",
+          "Mr.",
+          "Parker."
+        ],
+        "solution": [
+          [
+            "His"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Parker."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/5.mp3",
+        "timeStart": 20.7,
+        "timeEnd": 22.7,
+        "hints": [
+          "Mr. Parker"
+        ],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/281/list"
+      },
+      {
+        "id": 282,
+        "position": 6,
+        "content": "The school bell rings at 8:45 a.m.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "school",
+          "bell",
+          "rings",
+          "at",
+          [
+            "8:45",
+            "eight forty-five"
+          ],
+          "a.m."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "school"
+          ],
+          [
+            "bell"
+          ],
+          [
+            "rings"
+          ],
+          [
+            "at"
+          ],
+          [
+            "8:45",
+            "eight forty-five"
+          ],
+          [
+            "a.m."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/6.mp3",
+        "timeStart": 24,
+        "timeEnd": 27.9,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/282/list"
+      },
+      {
+        "id": 283,
+        "position": 7,
+        "content": "Jessica hugs and kisses her mom goodbye.",
+        "defaultInput": "Jessica ",
+        "jsonContent": [
+          "Jessica",
+          "hugs",
+          "and",
+          "kisses",
+          "her",
+          [
+            "mom",
+            "mum"
+          ],
+          "goodbye."
+        ],
+        "solution": [
+          [
+            "Jessica"
+          ],
+          [
+            "hugs"
+          ],
+          [
+            "and"
+          ],
+          [
+            "kisses"
+          ],
+          [
+            "her"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "goodbye."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/7.mp3",
+        "timeStart": 29.2,
+        "timeEnd": 32.5,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/283/list"
+      },
+      {
+        "id": 284,
+        "position": 8,
+        "content": "Jessica's mom says \"I love you!\".",
+        "defaultInput": "Jessica's ",
+        "jsonContent": [
+          "Jessica's",
+          [
+            "mom",
+            "mum"
+          ],
+          "says",
+          "\"I",
+          "love",
+          "you!\"."
+        ],
+        "solution": [
+          [
+            "Jessica's"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "says"
+          ],
+          [
+            "\"I"
+          ],
+          [
+            "love"
+          ],
+          [
+            "you!\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/8.mp3",
+        "timeStart": 33.8,
+        "timeEnd": 37,
+        "hints": [],
+        "nbComments": 24,
+        "discussionUrl": "https://dailydictation.com/discussions/284/list"
+      },
+      {
+        "id": 285,
+        "position": 9,
+        "content": "At 9 a.m, Jessica stands for the national anthem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          [
+            "9",
+            "nine",
+            "9:00"
+          ],
+          "a.m,",
+          "Jessica",
+          "stands",
+          "for",
+          "the",
+          "national",
+          "anthem."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "9",
+            "nine",
+            "9:00"
+          ],
+          [
+            "a.m,"
+          ],
+          [
+            "Jessica"
+          ],
+          [
+            "stands"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "national"
+          ],
+          [
+            "anthem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/9.mp3",
+        "timeStart": 38.4,
+        "timeEnd": 43.2,
+        "hints": [],
+        "nbComments": 34,
+        "discussionUrl": "https://dailydictation.com/discussions/285/list"
+      },
+      {
+        "id": 286,
+        "position": 10,
+        "content": "Mr. Parker calls out children's names.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mr.",
+          "Parker",
+          "calls",
+          "out",
+          "children's",
+          "names."
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Parker"
+          ],
+          [
+            "calls"
+          ],
+          [
+            "out"
+          ],
+          [
+            "children's"
+          ],
+          [
+            "names."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/10.mp3",
+        "timeStart": 44.5,
+        "timeEnd": 47.4,
+        "hints": [],
+        "nbComments": 21,
+        "discussionUrl": "https://dailydictation.com/discussions/286/list"
+      },
+      {
+        "id": 287,
+        "position": 11,
+        "content": "Each child yells back \"here!\".",
+        "defaultInput": "",
+        "jsonContent": [
+          "Each",
+          "child",
+          "yells",
+          "back",
+          "\"here!\"."
+        ],
+        "solution": [
+          [
+            "Each"
+          ],
+          [
+            "child"
+          ],
+          [
+            "yells"
+          ],
+          [
+            "back"
+          ],
+          [
+            "\"here!\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/11.mp3",
+        "timeStart": 48.3,
+        "timeEnd": 51,
+        "hints": [],
+        "nbComments": 44,
+        "discussionUrl": "https://dailydictation.com/discussions/287/list"
+      },
+      {
+        "id": 288,
+        "position": 12,
+        "content": "Mr. Parker teaches them about letters.",
+        "defaultInput": "Mr. Parker ",
+        "jsonContent": [
+          "Mr.",
+          "Parker",
+          "teaches",
+          "them",
+          "about",
+          "letters."
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Parker"
+          ],
+          [
+            "teaches"
+          ],
+          [
+            "them"
+          ],
+          [
+            "about"
+          ],
+          [
+            "letters."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/12.mp3",
+        "timeStart": 52.4,
+        "timeEnd": 55.6,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/288/list"
+      },
+      {
+        "id": 289,
+        "position": 13,
+        "content": "Mr. Parker teaches them about numbers.",
+        "defaultInput": "Mr. Parker ",
+        "jsonContent": [
+          "Mr.",
+          "Parker",
+          "teaches",
+          "them",
+          "about",
+          "numbers."
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Parker"
+          ],
+          [
+            "teaches"
+          ],
+          [
+            "them"
+          ],
+          [
+            "about"
+          ],
+          [
+            "numbers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/13.mp3",
+        "timeStart": 56.8,
+        "timeEnd": 60.3,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/289/list"
+      },
+      {
+        "id": 290,
+        "position": 14,
+        "content": "At 10:15 a.m, the students have recess.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          [
+            "10:15",
+            "ten fifteen"
+          ],
+          "a.m,",
+          "the",
+          "students",
+          "have",
+          "recess."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "10:15",
+            "ten fifteen"
+          ],
+          [
+            "a.m,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "have"
+          ],
+          [
+            "recess."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/14.mp3",
+        "timeStart": 61.7,
+        "timeEnd": 66.2,
+        "hints": [],
+        "nbComments": 27,
+        "discussionUrl": "https://dailydictation.com/discussions/290/list"
+      },
+      {
+        "id": 291,
+        "position": 15,
+        "content": "Recess is fun.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Recess",
+          "is",
+          "fun."
+        ],
+        "solution": [
+          [
+            "Recess"
+          ],
+          [
+            "is"
+          ],
+          [
+            "fun."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/15.mp3",
+        "timeStart": 67.1,
+        "timeEnd": 68.9,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/291/list"
+      },
+      {
+        "id": 292,
+        "position": 16,
+        "content": "The students get to play and eat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "students",
+          "get",
+          "to",
+          "play",
+          "and",
+          "eat."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "students"
+          ],
+          [
+            "get"
+          ],
+          [
+            "to"
+          ],
+          [
+            "play"
+          ],
+          [
+            "and"
+          ],
+          [
+            "eat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/16.mp3",
+        "timeStart": 70,
+        "timeEnd": 72.5,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/292/list"
+      },
+      {
+        "id": 293,
+        "position": 17,
+        "content": "At 10:30 a.m.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          [
+            "10:30",
+            "ten thirty"
+          ],
+          "a.m."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "10:30",
+            "ten thirty"
+          ],
+          [
+            "a.m."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/17.mp3",
+        "timeStart": 73.7,
+        "timeEnd": 75.7,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/293/list"
+      },
+      {
+        "id": 294,
+        "position": 18,
+        "content": "the students go to gym class.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "students",
+          "go",
+          "to",
+          "gym",
+          "class."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "gym"
+          ],
+          [
+            "class."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/18.mp3",
+        "timeStart": 76,
+        "timeEnd": 78.5,
+        "hints": [],
+        "nbComments": 17,
+        "discussionUrl": "https://dailydictation.com/discussions/294/list"
+      },
+      {
+        "id": 295,
+        "position": 19,
+        "content": "At 11:15 a.m.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          [
+            "11:15",
+            "eleven fifteen"
+          ],
+          "a.m."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "11:15",
+            "eleven fifteen"
+          ],
+          [
+            "a.m."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/19.mp3",
+        "timeStart": 79.5,
+        "timeEnd": 81.7,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/295/list"
+      },
+      {
+        "id": 296,
+        "position": 20,
+        "content": "the students return to Mr. Parker's classroom.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "students",
+          "return",
+          "to",
+          "Mr.",
+          "Parker's",
+          "classroom."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "return"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Parker's"
+          ],
+          [
+            "classroom."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/20.mp3",
+        "timeStart": 82.01,
+        "timeEnd": 85.3,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/296/list"
+      },
+      {
+        "id": 297,
+        "position": 21,
+        "content": "Mr. Parker tells the students to sit on the carpet.",
+        "defaultInput": "Mr. Parker ",
+        "jsonContent": [
+          "Mr.",
+          "Parker",
+          "tells",
+          "the",
+          "students",
+          "to",
+          "sit",
+          "on",
+          "the",
+          "carpet."
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Parker"
+          ],
+          [
+            "tells"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "carpet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/21.mp3",
+        "timeStart": 86.5,
+        "timeEnd": 90.1,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/297/list"
+      },
+      {
+        "id": 298,
+        "position": 22,
+        "content": "Mr. Parker reads the students a story.",
+        "defaultInput": "Mr. Parker ",
+        "jsonContent": [
+          "Mr.",
+          "Parker",
+          "reads",
+          "the",
+          "students",
+          "a",
+          "story."
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Parker"
+          ],
+          [
+            "reads"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "a"
+          ],
+          [
+            "story."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/22.mp3",
+        "timeStart": 91,
+        "timeEnd": 94.1,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/298/list"
+      },
+      {
+        "id": 299,
+        "position": 23,
+        "content": "Mr. Parker teaches the students a song.",
+        "defaultInput": "Mr. Parker ",
+        "jsonContent": [
+          "Mr.",
+          "Parker",
+          "teaches",
+          "the",
+          "students",
+          "a",
+          "song."
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Parker"
+          ],
+          [
+            "teaches"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "a"
+          ],
+          [
+            "song."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/23.mp3",
+        "timeStart": 95.1,
+        "timeEnd": 98.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/299/list"
+      },
+      {
+        "id": 300,
+        "position": 24,
+        "content": "The lunch bell rings.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "lunch",
+          "bell",
+          "rings."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "lunch"
+          ],
+          [
+            "bell"
+          ],
+          [
+            "rings."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/24-2023-10-05-17-02-29.mp3",
+        "timeStart": 99,
+        "timeEnd": 101.1,
+        "hints": [],
+        "nbComments": 17,
+        "discussionUrl": "https://dailydictation.com/discussions/300/list"
+      },
+      {
+        "id": 301,
+        "position": 25,
+        "content": "Jessica's first day of school is over.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jessica's",
+          [
+            "first",
+            "1st"
+          ],
+          "day",
+          "of",
+          "school",
+          "is",
+          "over."
+        ],
+        "solution": [
+          [
+            "Jessica's"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "day"
+          ],
+          [
+            "of"
+          ],
+          [
+            "school"
+          ],
+          [
+            "is"
+          ],
+          [
+            "over."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/2-jessicas-first-day-of-school-2019-03-15-00-20-34/25.mp3",
+        "timeStart": 102.1,
+        "timeEnd": 105.2,
+        "hints": [],
+        "nbComments": 18,
+        "discussionUrl": "https://dailydictation.com/discussions/301/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "277": {
+      "id": 34,
+      "text": "Hôm nay là ngày đầu tiên đi mẫu giáo của Jessica.",
+      "author": "a user"
+    },
+    "281": {
+      "id": 40,
+      "text": "Thầy ấy tên là Parker.",
+      "author": "a user"
+    },
+    "282": {
+      "id": 41,
+      "text": "Chuông trường reo lúc 8 giờ 45 sáng.",
+      "author": "a user"
+    },
+    "286": {
+      "id": 48,
+      "text": "Thầy Parker gọi to tên của những đứa trẻ.",
+      "author": "a user"
+    },
+    "287": {
+      "id": 49,
+      "text": "Từng đứa trẻ hô lên: \" Dạ có\"",
+      "author": "a user"
+    },
+    "288": {
+      "id": 50,
+      "text": "Thầy Parker dạy bọn trẻ về các chữ cái.",
+      "author": "a user"
+    },
+    "289": {
+      "id": 52,
+      "text": "Thầy Parker dạy bọn trẻ về các con số.",
+      "author": "a user"
+    },
+    "291": {
+      "id": 55,
+      "text": "Giờ ra chơi thật vui.",
+      "author": "a user"
+    },
+    "293": {
+      "id": 58,
+      "text": "Vào lúc 10:30 sáng",
+      "author": "a user"
+    },
+    "297": {
+      "id": 63,
+      "text": "Thầy Parker bảo các học sinh ngồi trên thảm.",
+      "author": "a user"
+    },
+    "298": {
+      "id": 64,
+      "text": "Thầy Parker đọc một câu chuyện cho học sinh nghe.",
+      "author": "a user"
+    },
+    "299": {
+      "id": 66,
+      "text": "Thầy Parker dạy học sinh một bài hát.",
+      "author": "a user"
+    },
+    "278": {
+      "id": 2588125,
+      "text": "Jessica và bố mẹ cùng đi bộ tới trường.",
+      "author": "ChatGPT4.1"
+    },
+    "279": {
+      "id": 2588126,
+      "text": "Mẹ của Jessica đi cùng cô bé đến lớp học.",
+      "author": "a user"
+    },
+    "280": {
+      "id": 2588127,
+      "text": "Jessica gặp giáo viên của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "283": {
+      "id": 2588128,
+      "text": "Jessica ôm và hôn mẹ tạm biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "284": {
+      "id": 2588129,
+      "text": "Mẹ của Jessica nói: \"Mẹ yêu con!\".",
+      "author": "a user"
+    },
+    "285": {
+      "id": 2588130,
+      "text": "Lúc 9 giờ sáng, Jessica đứng nghiêm trang để nghe quốc ca",
+      "author": "a user"
+    },
+    "290": {
+      "id": 2588131,
+      "text": "Lúc 10:15 sáng, học sinh có giờ ra chơi.",
+      "author": "a user"
+    },
+    "292": {
+      "id": 2588132,
+      "text": "Học sinh được vui chơi và ăn uống.",
+      "author": "a user"
+    },
+    "294": {
+      "id": 2588133,
+      "text": "Các học sinh đi học thể dục.",
+      "author": "ChatGPT4.1"
+    },
+    "295": {
+      "id": 2588134,
+      "text": "Lúc 11:15 sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "296": {
+      "id": 2588135,
+      "text": "Các học sinh quay lại lớp của thầy Parker.",
+      "author": "ChatGPT4.1"
+    },
+    "300": {
+      "id": 2588136,
+      "text": "Chuông báo giờ ăn trưa vang lên.",
+      "author": "ChatGPT4.1"
+    },
+    "301": {
+      "id": 2588137,
+      "text": "Ngày đi học đầu tiên của Jessica đã kết thúc.",
+      "author": "a user"
+    }
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "summary": {
+    "id": 1200,
+    "name": "Conversation 81",
+    "subTitle": "Medical Records Transfer Delay",
+    "levelName": "B1",
+    "position": 233,
+    "totalChallenges": 13,
+    "groupId": 39,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1200",
+  "detail": {
+    "id": 1200,
+    "lessonName": "Conversation 81",
+    "name": "Conversation 81",
+    "position": 233,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/0-conversation-81.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54858,
+        "position": 1,
+        "content": "Hello, this is Ross Gilmour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Ross",
+          "Gilmour."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Ross"
+          ],
+          [
+            "Gilmour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/1.mp3",
+        "timeStart": 0.21,
+        "timeEnd": 3.06,
+        "hints": [
+          "Ross Gilmour"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54858/list"
+      },
+      {
+        "id": 54859,
+        "position": 2,
+        "content": "I've recently moved to San Francisco,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "recently",
+          "moved",
+          "to",
+          "San",
+          "Francisco,"
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "recently"
+          ],
+          [
+            "moved"
+          ],
+          [
+            "to"
+          ],
+          [
+            "San"
+          ],
+          [
+            "Francisco,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/2.mp3",
+        "timeStart": 3.06,
+        "timeEnd": 5.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54859/list"
+      },
+      {
+        "id": 54860,
+        "position": 3,
+        "content": "so I sent an email requesting that my medical records be sent to my new family doctor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "sent",
+          "an",
+          "email",
+          "requesting",
+          "that",
+          "my",
+          "medical",
+          "records",
+          "be",
+          "sent",
+          "to",
+          "my",
+          "new",
+          "family",
+          "doctor."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "an"
+          ],
+          [
+            "email"
+          ],
+          [
+            "requesting"
+          ],
+          [
+            "that"
+          ],
+          [
+            "my"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "records"
+          ],
+          [
+            "be"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "to"
+          ],
+          [
+            "my"
+          ],
+          [
+            "new"
+          ],
+          [
+            "family"
+          ],
+          [
+            "doctor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/3.mp3",
+        "timeStart": 5.68,
+        "timeEnd": 11.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54860/list"
+      },
+      {
+        "id": 54861,
+        "position": 4,
+        "content": "I'd like to know why it's taking longer than expected.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "know",
+          "why",
+          "it's",
+          "taking",
+          "longer",
+          "than",
+          "expected."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "why"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "longer"
+          ],
+          [
+            "than"
+          ],
+          [
+            "expected."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/4.mp3",
+        "timeStart": 11.37,
+        "timeEnd": 14.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54861/list"
+      },
+      {
+        "id": 54862,
+        "position": 5,
+        "content": "Just a second, Mr. Gilmour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "a",
+          "second,",
+          "Mr.",
+          "Gilmour."
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Gilmour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/5.mp3",
+        "timeStart": 14.58,
+        "timeEnd": 16.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54862/list"
+      },
+      {
+        "id": 54863,
+        "position": 6,
+        "content": "Umm... Oh, I see what happened.",
+        "defaultInput": "Umm… Oh, ",
+        "jsonContent": [
+          "Umm...",
+          "Oh,",
+          "I",
+          "see",
+          "what",
+          "happened."
+        ],
+        "solution": [
+          [
+            "Umm..."
+          ],
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "happened."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/6.mp3",
+        "timeStart": 17.09,
+        "timeEnd": 19.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54863/list"
+      },
+      {
+        "id": 54864,
+        "position": 7,
+        "content": "You have to fill out an authorization form.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You have",
+            "you've"
+          ],
+          "to",
+          "fill",
+          "out",
+          "an",
+          "authorization",
+          "form."
+        ],
+        "solution": [
+          [
+            "You have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "fill"
+          ],
+          [
+            "out"
+          ],
+          [
+            "an"
+          ],
+          [
+            "authorization"
+          ],
+          [
+            "form."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/7.mp3",
+        "timeStart": 19.68,
+        "timeEnd": 22.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54864/list"
+      },
+      {
+        "id": 54865,
+        "position": 8,
+        "content": "I'm sorry for the inconvenience, but it's standard procedure.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry",
+          "for",
+          "the",
+          "inconvenience,",
+          "but",
+          "it's",
+          [
+            "standard",
+            "a standard"
+          ],
+          "procedure."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "inconvenience,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "standard",
+            "a standard"
+          ],
+          [
+            "procedure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/8.mp3",
+        "timeStart": 22.55,
+        "timeEnd": 25.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54865/list"
+      },
+      {
+        "id": 54866,
+        "position": 9,
+        "content": "We've been trying to reach you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "we have"
+          ],
+          "been",
+          "trying",
+          "to",
+          "reach",
+          "you."
+        ],
+        "solution": [
+          [
+            "We've",
+            "we have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/9.mp3",
+        "timeStart": 25.99,
+        "timeEnd": 27.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54866/list"
+      },
+      {
+        "id": 54867,
+        "position": 10,
+        "content": "Oh, I must have forgotten to add the form as an attachment to the email.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          [
+            "must have",
+            "must've"
+          ],
+          "forgotten",
+          "to",
+          "add",
+          "the",
+          "form",
+          "as",
+          "an",
+          "attachment",
+          "to",
+          "the",
+          "email."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "must have",
+            "must've"
+          ],
+          [
+            "forgotten"
+          ],
+          [
+            "to"
+          ],
+          [
+            "add"
+          ],
+          [
+            "the"
+          ],
+          [
+            "form"
+          ],
+          [
+            "as"
+          ],
+          [
+            "an"
+          ],
+          [
+            "attachment"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "email."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/10.mp3",
+        "timeStart": 27.71,
+        "timeEnd": 32.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54867/list"
+      },
+      {
+        "id": 54868,
+        "position": 11,
+        "content": "I'll do that right away.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "do",
+          "that",
+          "right",
+          "away."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that"
+          ],
+          [
+            "right"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/11.mp3",
+        "timeStart": 32.74,
+        "timeEnd": 34.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54868/list"
+      },
+      {
+        "id": 54869,
+        "position": 12,
+        "content": "Thank you, Mr. Gilmour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you,",
+          "Mr.",
+          "Gilmour."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Gilmour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/12.mp3",
+        "timeStart": 34.66,
+        "timeEnd": 36.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54869/list"
+      },
+      {
+        "id": 54870,
+        "position": 13,
+        "content": "Your new physician should receive your medical records no later than next Wednesday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Your",
+          "new",
+          "physician",
+          "should",
+          "receive",
+          "your",
+          "medical",
+          "records",
+          "no",
+          "later",
+          "than",
+          "next",
+          "Wednesday."
+        ],
+        "solution": [
+          [
+            "Your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "physician"
+          ],
+          [
+            "should"
+          ],
+          [
+            "receive"
+          ],
+          [
+            "your"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "records"
+          ],
+          [
+            "no"
+          ],
+          [
+            "later"
+          ],
+          [
+            "than"
+          ],
+          [
+            "next"
+          ],
+          [
+            "Wednesday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-81-2023-09-30-22-32-36/13.mp3",
+        "timeStart": 36.57,
+        "timeEnd": 41.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54870/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54858": {
+      "id": 2586249,
+      "text": "Xin chào, tôi là Ross Gilmour.",
+      "author": "ChatGPT4.1"
+    },
+    "54859": {
+      "id": 2586250,
+      "text": "Tôi mới chuyển đến San Francisco gần đây,",
+      "author": "ChatGPT4.1"
+    },
+    "54860": {
+      "id": 2586251,
+      "text": "vì vậy tôi đã gửi một email yêu cầu chuyển hồ sơ y tế của mình đến bác sĩ gia đình mới.",
+      "author": "ChatGPT4.1"
+    },
+    "54861": {
+      "id": 2586252,
+      "text": "Tôi muốn biết lý do tại sao quá trình này lại mất nhiều thời gian hơn dự kiến.",
+      "author": "ChatGPT4.1"
+    },
+    "54862": {
+      "id": 2586253,
+      "text": "Xin chờ một chút, ông Gilmour.",
+      "author": "ChatGPT4.1"
+    },
+    "54863": {
+      "id": 2586254,
+      "text": "Ơ... ồ, tôi hiểu chuyện gì đã xảy ra rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "54864": {
+      "id": 2586255,
+      "text": "Ông cần điền vào một mẫu đơn ủy quyền.",
+      "author": "ChatGPT4.1"
+    },
+    "54865": {
+      "id": 2586256,
+      "text": "Tôi xin lỗi vì sự bất tiện này, nhưng đây là thủ tục tiêu chuẩn.",
+      "author": "ChatGPT4.1"
+    },
+    "54866": {
+      "id": 2586257,
+      "text": "Chúng tôi đã cố gắng liên lạc với ông.",
+      "author": "ChatGPT4.1"
+    },
+    "54867": {
+      "id": 2586258,
+      "text": "Ồ, chắc tôi đã quên không đính kèm mẫu đơn vào email.",
+      "author": "ChatGPT4.1"
+    },
+    "54868": {
+      "id": 2586259,
+      "text": "Tôi sẽ làm điều đó ngay lập tức.",
+      "author": "ChatGPT4.1"
+    },
+    "54869": {
+      "id": 2586260,
+      "text": "Cảm ơn ông, ông Gilmour.",
+      "author": "ChatGPT4.1"
+    },
+    "54870": {
+      "id": 2586261,
+      "text": "Bác sĩ mới của ông sẽ nhận được hồ sơ y tế chậm nhất là vào thứ Tư tới.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

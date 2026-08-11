@@ -1,0 +1,973 @@
+{
+  "summary": {
+    "id": 1189,
+    "name": "Conversation 80",
+    "subTitle": "Accounting to Sales Request",
+    "levelName": "B1",
+    "position": 222,
+    "totalChallenges": 16,
+    "groupId": 38,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1189",
+  "detail": {
+    "id": 1189,
+    "lessonName": "Conversation 80",
+    "name": "Conversation 80",
+    "position": 222,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/0-conversation-80.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54748,
+        "position": 1,
+        "content": "Hi, Micheal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "Micheal."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Micheal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/1.mp3",
+        "timeStart": 0.37,
+        "timeEnd": 1.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54748/list"
+      },
+      {
+        "id": 54749,
+        "position": 2,
+        "content": "I know you are headed to Pittsburgh on Wednesday for the farming trade show.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          [
+            "you are",
+            "you're"
+          ],
+          "headed",
+          "to",
+          "Pittsburgh",
+          "on",
+          "Wednesday",
+          "for",
+          "the",
+          "farming",
+          "trade",
+          "show."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "headed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Pittsburgh"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Wednesday"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "farming"
+          ],
+          [
+            "trade"
+          ],
+          [
+            "show."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/2.mp3",
+        "timeStart": 1.85,
+        "timeEnd": 5.77,
+        "hints": [
+          "Pittsburgh"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54749/list"
+      },
+      {
+        "id": 54750,
+        "position": 3,
+        "content": "Would I be able to come with you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "I",
+          "be",
+          "able",
+          "to",
+          "come",
+          "with",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "I"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/3.mp3",
+        "timeStart": 6.02,
+        "timeEnd": 7.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54750/list"
+      },
+      {
+        "id": 54751,
+        "position": 4,
+        "content": "To be honest, we are focusing on getting the sales team there,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "be",
+          "honest,",
+          [
+            "we are",
+            "we're"
+          ],
+          "focusing",
+          "on",
+          "getting",
+          "the",
+          "sales",
+          "team",
+          "there,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "be"
+          ],
+          [
+            "honest,"
+          ],
+          [
+            "we are",
+            "we're"
+          ],
+          [
+            "focusing"
+          ],
+          [
+            "on"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sales"
+          ],
+          [
+            "team"
+          ],
+          [
+            "there,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/4.mp3",
+        "timeStart": 7.92,
+        "timeEnd": 12.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54751/list"
+      },
+      {
+        "id": 54752,
+        "position": 5,
+        "content": "to learn about the products they are selling.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "learn",
+          "about",
+          "the",
+          "products",
+          [
+            "they are",
+            "they're"
+          ],
+          "selling."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "learn"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "products"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "selling."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/5.mp3",
+        "timeStart": 12.07,
+        "timeEnd": 14.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54752/list"
+      },
+      {
+        "id": 54753,
+        "position": 6,
+        "content": "I'm not sure it would benefit someone in accounting, like yourself.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "sure",
+          [
+            "it would",
+            "It'd"
+          ],
+          "benefit",
+          "someone",
+          "in",
+          "accounting,",
+          "like",
+          "yourself."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "it would",
+            "It'd"
+          ],
+          [
+            "benefit"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "in"
+          ],
+          [
+            "accounting,"
+          ],
+          [
+            "like"
+          ],
+          [
+            "yourself."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/6.mp3",
+        "timeStart": 15.21,
+        "timeEnd": 19.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54753/list"
+      },
+      {
+        "id": 54754,
+        "position": 7,
+        "content": "Why do you want to go?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why",
+          "do",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "go?"
+        ],
+        "solution": [
+          [
+            "Why"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "go?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/7.mp3",
+        "timeStart": 19.95,
+        "timeEnd": 21.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54754/list"
+      },
+      {
+        "id": 54755,
+        "position": 8,
+        "content": "I am actually interested in moving departments.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "actually",
+          "interested",
+          "in",
+          "moving",
+          "departments."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "moving"
+          ],
+          [
+            "departments."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/8.mp3",
+        "timeStart": 21.76,
+        "timeEnd": 24.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54755/list"
+      },
+      {
+        "id": 54756,
+        "position": 9,
+        "content": "I thought it would be a good opportunity to learn about the products",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "thought",
+          [
+            "it would",
+            "It'd"
+          ],
+          "be",
+          "a",
+          "good",
+          "opportunity",
+          "to",
+          "learn",
+          "about",
+          "the",
+          "products"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "it would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "opportunity"
+          ],
+          [
+            "to"
+          ],
+          [
+            "learn"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "products"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/9.mp3",
+        "timeStart": 24.5,
+        "timeEnd": 28.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54756/list"
+      },
+      {
+        "id": 54757,
+        "position": 10,
+        "content": "and talk with the team about their day to day responsibilities.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "talk",
+          "with",
+          "the",
+          "team",
+          "about",
+          "their",
+          "day",
+          "to",
+          "day",
+          "responsibilities."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "team"
+          ],
+          [
+            "about"
+          ],
+          [
+            "their"
+          ],
+          [
+            "day"
+          ],
+          [
+            "to"
+          ],
+          [
+            "day"
+          ],
+          [
+            "responsibilities."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/10.mp3",
+        "timeStart": 28.25,
+        "timeEnd": 31.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54757/list"
+      },
+      {
+        "id": 54758,
+        "position": 11,
+        "content": "I had no idea you were interested in sales.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "no",
+          "idea",
+          "you",
+          "were",
+          "interested",
+          "in",
+          "sales."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "no"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "you"
+          ],
+          [
+            "were"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "sales."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/11.mp3",
+        "timeStart": 31.71,
+        "timeEnd": 35.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54758/list"
+      },
+      {
+        "id": 54759,
+        "position": 12,
+        "content": "In that case, I agree, it will be a good experience for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "that",
+          "case,",
+          "I",
+          "agree,",
+          [
+            "it will",
+            "it'll"
+          ],
+          "be",
+          "a",
+          "good",
+          "experience",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "that"
+          ],
+          [
+            "case,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "agree,"
+          ],
+          [
+            "it will",
+            "it'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/12.mp3",
+        "timeStart": 35.34,
+        "timeEnd": 40.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54759/list"
+      },
+      {
+        "id": 54760,
+        "position": 13,
+        "content": "I will book a hotel room for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "book",
+          "a",
+          "hotel",
+          "room",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "book"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hotel"
+          ],
+          [
+            "room"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/13.mp3",
+        "timeStart": 40.31,
+        "timeEnd": 42.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54760/list"
+      },
+      {
+        "id": 54761,
+        "position": 14,
+        "content": "Make sure you let your supervisor know you won't be in the office until Monday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Make",
+          "sure",
+          "you",
+          "let",
+          "your",
+          "supervisor",
+          "know",
+          "you",
+          "won't",
+          "be",
+          "in",
+          "the",
+          "office",
+          "until",
+          "Monday."
+        ],
+        "solution": [
+          [
+            "Make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you"
+          ],
+          [
+            "let"
+          ],
+          [
+            "your"
+          ],
+          [
+            "supervisor"
+          ],
+          [
+            "know"
+          ],
+          [
+            "you"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office"
+          ],
+          [
+            "until"
+          ],
+          [
+            "Monday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/14.mp3",
+        "timeStart": 43.07,
+        "timeEnd": 48.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54761/list"
+      },
+      {
+        "id": 54762,
+        "position": 15,
+        "content": "Thanks!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks!"
+        ],
+        "solution": [
+          [
+            "Thanks!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/15.mp3",
+        "timeStart": 48.14,
+        "timeEnd": 49.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54762/list"
+      },
+      {
+        "id": 54763,
+        "position": 16,
+        "content": "I already let her know, and I organized a remote schedule.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "already",
+          "let",
+          "her",
+          "know,",
+          "and",
+          "I",
+          [
+            "organized",
+            "organised"
+          ],
+          "a",
+          "remote",
+          "schedule."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "already"
+          ],
+          [
+            "let"
+          ],
+          [
+            "her"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "organized",
+            "organised"
+          ],
+          [
+            "a"
+          ],
+          [
+            "remote"
+          ],
+          [
+            "schedule."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-80-2023-09-28-18-02-06/16.mp3",
+        "timeStart": 49.2,
+        "timeEnd": 52.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54763/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "54752": {
+      "id": 908100,
+      "text": "để tìm hiểu về sản phẩm họ đang bán.",
+      "author": "a user"
+    },
+    "54761": {
+      "id": 908116,
+      "text": "Hãy chắc chắn rằng bạn thông báo cho quản lý của bạn biết rằng bạn sẽ không có mặt ở văn phòng cho đến thứ Hai.",
+      "author": "a user"
+    },
+    "54763": {
+      "id": 908118,
+      "text": "Tôi đã cho cô ấy biết và tôi đã sắp xếp một lịch trình làm việc từ xa.",
+      "author": "a user"
+    },
+    "54748": {
+      "id": 2709250,
+      "text": "Chào Micheal.",
+      "author": "ChatGPT4.1"
+    },
+    "54749": {
+      "id": 2709251,
+      "text": "Tôi biết bạn sẽ đến Pittsburgh vào thứ Tư để tham dự hội chợ nông nghiệp.",
+      "author": "ChatGPT4.1"
+    },
+    "54750": {
+      "id": 2709252,
+      "text": "Tôi có thể đi cùng bạn không?",
+      "author": "ChatGPT4.1"
+    },
+    "54751": {
+      "id": 2709253,
+      "text": "Thành thật mà nói, chúng tôi đang tập trung đưa đội ngũ bán hàng đến đó,",
+      "author": "ChatGPT4.1"
+    },
+    "54753": {
+      "id": 2709254,
+      "text": "Tôi không chắc điều này sẽ có ích cho người làm kế toán như bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "54754": {
+      "id": 2709255,
+      "text": "Tại sao bạn muốn đi?",
+      "author": "ChatGPT4.1"
+    },
+    "54755": {
+      "id": 2709256,
+      "text": "Thực ra tôi quan tâm đến việc chuyển phòng ban.",
+      "author": "ChatGPT4.1"
+    },
+    "54756": {
+      "id": 2709257,
+      "text": "Tôi nghĩ đây sẽ là cơ hội tốt để tìm hiểu về các sản phẩm",
+      "author": "ChatGPT4.1"
+    },
+    "54757": {
+      "id": 2709258,
+      "text": "và trò chuyện với đội ngũ về các trách nhiệm hàng ngày của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "54758": {
+      "id": 2709259,
+      "text": "Tôi không biết bạn quan tâm đến bộ phận bán hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "54759": {
+      "id": 2709260,
+      "text": "Trong trường hợp đó, tôi đồng ý, đây sẽ là trải nghiệm tốt cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "54760": {
+      "id": 2709261,
+      "text": "Tôi sẽ đặt phòng khách sạn cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "54762": {
+      "id": 2709262,
+      "text": "Cảm ơn!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

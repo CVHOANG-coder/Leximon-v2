@@ -1,0 +1,1311 @@
+{
+  "summary": {
+    "id": 2305,
+    "name": "Test 04 - Part B - Extract 5",
+    "subTitle": "Hand Laceration Treatment Conversation",
+    "levelName": "B2",
+    "position": 37,
+    "totalChallenges": 20,
+    "groupId": 134,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2305",
+  "detail": {
+    "id": 2305,
+    "lessonName": "Test 04 - Part B - Extract 5",
+    "name": "Test 04 - Part B - Extract 5",
+    "position": 37,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/0-test-04-part-b-extract-5.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90791,
+        "position": 1,
+        "content": "Good morning, Mrs. Bowder.",
+        "defaultInput": "Good morning, Mrs. Bowder.",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          "Mrs.",
+          "Bowder."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "Mrs."
+          ],
+          [
+            "Bowder."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/1.mp3",
+        "timeStart": 0.57,
+        "timeEnd": 2.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90791/list"
+      },
+      {
+        "id": 90792,
+        "position": 2,
+        "content": "I'll be your doctor taking care of your cut there.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "your",
+          "doctor",
+          "taking",
+          "care",
+          "of",
+          "your",
+          "cut",
+          "there."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "your"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "care"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "cut"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/2.mp3",
+        "timeStart": 2.26,
+        "timeEnd": 4.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90792/list"
+      },
+      {
+        "id": 90793,
+        "position": 3,
+        "content": "What exactly happened?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "exactly",
+          "happened?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "happened?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/3.mp3",
+        "timeStart": 4.74,
+        "timeEnd": 6.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90793/list"
+      },
+      {
+        "id": 90794,
+        "position": 4,
+        "content": "It's embarrassing, really.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "embarrassing,",
+          "really."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "embarrassing,"
+          ],
+          [
+            "really."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/4.mp3",
+        "timeStart": 6.09,
+        "timeEnd": 8.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90794/list"
+      },
+      {
+        "id": 90795,
+        "position": 5,
+        "content": "You see, I was just trying to chop some tomatoes for dinner and the knife accidentally slipped.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "see,",
+          "I",
+          "was",
+          "just",
+          "trying",
+          "to",
+          "chop",
+          "some",
+          "tomatoes",
+          "for",
+          "dinner",
+          "and",
+          "the",
+          "knife",
+          "accidentally",
+          "slipped."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "see,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "just"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "chop"
+          ],
+          [
+            "some"
+          ],
+          [
+            "tomatoes"
+          ],
+          [
+            "for"
+          ],
+          [
+            "dinner"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "knife"
+          ],
+          [
+            "accidentally"
+          ],
+          [
+            "slipped."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/5.mp3",
+        "timeStart": 8.17,
+        "timeEnd": 13.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90795/list"
+      },
+      {
+        "id": 90796,
+        "position": 6,
+        "content": "Oh, I'm so clumsy.",
+        "defaultInput": "Oh, ",
+        "jsonContent": [
+          "Oh,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "so",
+          "clumsy."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "so"
+          ],
+          [
+            "clumsy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/6.mp3",
+        "timeStart": 13.41,
+        "timeEnd": 15.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90796/list"
+      },
+      {
+        "id": 90797,
+        "position": 7,
+        "content": "I hope it doesn't hurt too much to stitch back up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "hurt",
+          "too",
+          "much",
+          "to",
+          "stitch",
+          "back",
+          "up."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "hurt"
+          ],
+          [
+            "too"
+          ],
+          [
+            "much"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stitch"
+          ],
+          [
+            "back"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/7.mp3",
+        "timeStart": 15.46,
+        "timeEnd": 18.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90797/list"
+      },
+      {
+        "id": 90798,
+        "position": 8,
+        "content": "Well, we're going to numb the area now with a shot of lidocaine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "numb",
+          "the",
+          "area",
+          "now",
+          "with",
+          "a",
+          "shot",
+          "of",
+          "lidocaine."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "numb"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area"
+          ],
+          [
+            "now"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "lidocaine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/8.mp3",
+        "timeStart": 18.19,
+        "timeEnd": 21.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90798/list"
+      },
+      {
+        "id": 90799,
+        "position": 9,
+        "content": "You'll feel a poke of the needle and a slight burn,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You'll",
+            "You will"
+          ],
+          "feel",
+          "a",
+          "poke",
+          "of",
+          "the",
+          "needle",
+          "and",
+          "a",
+          "slight",
+          "burn,"
+        ],
+        "solution": [
+          [
+            "You'll",
+            "You will"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "a"
+          ],
+          [
+            "poke"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "needle"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "slight"
+          ],
+          [
+            "burn,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/9.mp3",
+        "timeStart": 21.59,
+        "timeEnd": 24.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90799/list"
+      },
+      {
+        "id": 90800,
+        "position": 10,
+        "content": "but afterwards the area should be numb and you'll feel nothing during the procedure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "afterwards",
+          "the",
+          "area",
+          "should",
+          "be",
+          "numb",
+          "and",
+          [
+            "you'll",
+            "you will"
+          ],
+          "feel",
+          "nothing",
+          "during",
+          "the",
+          "procedure."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "afterwards"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "numb"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "nothing"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "procedure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/10.mp3",
+        "timeStart": 24.23,
+        "timeEnd": 28.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90800/list"
+      },
+      {
+        "id": 90801,
+        "position": 11,
+        "content": "Oh, good.",
+        "defaultInput": "Oh, good.",
+        "jsonContent": [
+          "Oh,",
+          "good."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/11.mp3",
+        "timeStart": 28.22,
+        "timeEnd": 29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90801/list"
+      },
+      {
+        "id": 90802,
+        "position": 12,
+        "content": "We should be finished in about ten minutes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "should",
+          "be",
+          "finished",
+          "in",
+          "about",
+          [
+            "ten",
+            "10"
+          ],
+          "minutes."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "finished"
+          ],
+          [
+            "in"
+          ],
+          [
+            "about"
+          ],
+          [
+            "ten",
+            "10"
+          ],
+          [
+            "minutes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/12.mp3",
+        "timeStart": 29,
+        "timeEnd": 30.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90802/list"
+      },
+      {
+        "id": 90803,
+        "position": 13,
+        "content": "How many stitches will I need?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "many",
+          "stitches",
+          "will",
+          "I",
+          "need?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "many"
+          ],
+          [
+            "stitches"
+          ],
+          [
+            "will"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/13.mp3",
+        "timeStart": 31.68,
+        "timeEnd": 33.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90803/list"
+      },
+      {
+        "id": 90804,
+        "position": 14,
+        "content": "How long will I have to stay in?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "long",
+          "will",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "stay",
+          "in?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "long"
+          ],
+          [
+            "will"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "in?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/14.mp3",
+        "timeStart": 34.21,
+        "timeEnd": 36.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90804/list"
+      },
+      {
+        "id": 90805,
+        "position": 15,
+        "content": "I'm really conscious about my hands, so I hope I don't have a scar.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "really",
+          "conscious",
+          "about",
+          "my",
+          "hands,",
+          "so",
+          "I",
+          "hope",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "have",
+          "a",
+          "scar."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "really"
+          ],
+          [
+            "conscious"
+          ],
+          [
+            "about"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hands,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "scar."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/15.mp3",
+        "timeStart": 36.08,
+        "timeEnd": 40.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90805/list"
+      },
+      {
+        "id": 90806,
+        "position": 16,
+        "content": "I will only know for sure once I finish suturing, but...",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "only",
+          "know",
+          "for",
+          "sure",
+          "once",
+          "I",
+          "finish",
+          "suturing,",
+          "but..."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "only"
+          ],
+          [
+            "know"
+          ],
+          [
+            "for"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "once"
+          ],
+          [
+            "I"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "suturing,"
+          ],
+          [
+            "but..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/16.mp3",
+        "timeStart": 41.02,
+        "timeEnd": 44.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90806/list"
+      },
+      {
+        "id": 90807,
+        "position": 17,
+        "content": "by my estimation, you might require at least four to five sutures.",
+        "defaultInput": "",
+        "jsonContent": [
+          "by",
+          "my",
+          "estimation,",
+          "you",
+          "might",
+          "require",
+          "at",
+          "least",
+          [
+            "four",
+            "4"
+          ],
+          "to",
+          [
+            "five",
+            "5"
+          ],
+          "sutures."
+        ],
+        "solution": [
+          [
+            "by"
+          ],
+          [
+            "my"
+          ],
+          [
+            "estimation,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "might"
+          ],
+          [
+            "require"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "to"
+          ],
+          [
+            "five",
+            "5"
+          ],
+          [
+            "sutures."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/17.mp3",
+        "timeStart": 44.21,
+        "timeEnd": 49.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90807/list"
+      },
+      {
+        "id": 90808,
+        "position": 18,
+        "content": "They'll have to stay in for five to ten days, and you'll need to come back in to get them removed.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They'll",
+            "They will"
+          ],
+          "have",
+          "to",
+          "stay",
+          "in",
+          "for",
+          [
+            "five",
+            "5"
+          ],
+          "to",
+          [
+            "ten",
+            "10"
+          ],
+          "days,",
+          "and",
+          [
+            "you'll",
+            "you will"
+          ],
+          "need",
+          "to",
+          "come",
+          "back",
+          "in",
+          "to",
+          "get",
+          "them",
+          "removed."
+        ],
+        "solution": [
+          [
+            "They'll",
+            "They will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "in"
+          ],
+          [
+            "for"
+          ],
+          [
+            "five",
+            "5"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ten",
+            "10"
+          ],
+          [
+            "days,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "back"
+          ],
+          [
+            "in"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "them"
+          ],
+          [
+            "removed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/18.mp3",
+        "timeStart": 49.1,
+        "timeEnd": 54.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90808/list"
+      },
+      {
+        "id": 90809,
+        "position": 19,
+        "content": "I'll do my best to try and line up the edges to create as little scarring as possible,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "do",
+          "my",
+          "best",
+          "to",
+          "try",
+          "and",
+          "line",
+          "up",
+          "the",
+          "edges",
+          "to",
+          "create",
+          "as",
+          "little",
+          "scarring",
+          "as",
+          "possible,"
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "do"
+          ],
+          [
+            "my"
+          ],
+          [
+            "best"
+          ],
+          [
+            "to"
+          ],
+          [
+            "try"
+          ],
+          [
+            "and"
+          ],
+          [
+            "line"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "edges"
+          ],
+          [
+            "to"
+          ],
+          [
+            "create"
+          ],
+          [
+            "as"
+          ],
+          [
+            "little"
+          ],
+          [
+            "scarring"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/19.mp3",
+        "timeStart": 54.27,
+        "timeEnd": 59.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90809/list"
+      },
+      {
+        "id": 90810,
+        "position": 20,
+        "content": "but I can't guarantee there will be nothing there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "can't",
+          "guarantee",
+          [
+            "there will",
+            "there'll"
+          ],
+          "be",
+          "nothing",
+          "there."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "guarantee"
+          ],
+          [
+            "there will",
+            "there'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "nothing"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-5-2025-08-29-22-08-41/20.mp3",
+        "timeStart": 59.54,
+        "timeEnd": 62.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90810/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90791": {
+      "id": 3683188,
+      "text": "Chào buổi sáng, bà Bowder.",
+      "author": "ChatGPT4.1"
+    },
+    "90792": {
+      "id": 3683189,
+      "text": "Tôi sẽ là bác sĩ chăm sóc vết cắt của bà ở đó.",
+      "author": "ChatGPT4.1"
+    },
+    "90793": {
+      "id": 3683190,
+      "text": "Chuyện gì đã xảy ra vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "90794": {
+      "id": 3683191,
+      "text": "Thật ra thì khá xấu hổ.",
+      "author": "ChatGPT4.1"
+    },
+    "90795": {
+      "id": 3683192,
+      "text": "Bà thấy đó, tôi chỉ đang cố cắt cà chua cho bữa tối và con dao chẳng may trượt tay.",
+      "author": "ChatGPT4.1"
+    },
+    "90796": {
+      "id": 3683193,
+      "text": "Ôi, tôi vụng về quá.",
+      "author": "ChatGPT4.1"
+    },
+    "90797": {
+      "id": 3683194,
+      "text": "Tôi hy vọng việc khâu lại không quá đau.",
+      "author": "ChatGPT4.1"
+    },
+    "90798": {
+      "id": 3683195,
+      "text": "Chúng tôi sẽ gây tê khu vực này bằng một mũi tiêm lidocaine.",
+      "author": "ChatGPT4.1"
+    },
+    "90799": {
+      "id": 3683196,
+      "text": "Bà sẽ cảm thấy kim chích và hơi rát một chút,",
+      "author": "ChatGPT4.1"
+    },
+    "90800": {
+      "id": 3683197,
+      "text": "nhưng sau đó khu vực đó sẽ được gây tê và bà sẽ không cảm thấy gì trong quá trình thực hiện.",
+      "author": "ChatGPT4.1"
+    },
+    "90801": {
+      "id": 3683198,
+      "text": "Ồ, tốt quá.",
+      "author": "ChatGPT4.1"
+    },
+    "90802": {
+      "id": 3683199,
+      "text": "Chúng tôi sẽ xong trong khoảng mười phút nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "90803": {
+      "id": 3683200,
+      "text": "Tôi cần khâu bao nhiêu mũi?",
+      "author": "a user"
+    },
+    "90804": {
+      "id": 3683201,
+      "text": "Tôi sẽ phải nằm viện bao lâu?",
+      "author": "a user"
+    },
+    "90805": {
+      "id": 3683202,
+      "text": "Tôi rất chú ý đến đôi tay của mình, nên tôi hy vọng sẽ không có vết sẹo nào.",
+      "author": "ChatGPT4.1"
+    },
+    "90806": {
+      "id": 3683203,
+      "text": "Tôi sẽ chỉ biết chắc chắn sau khi khâu xong, nhưng...",
+      "author": "a user"
+    },
+    "90807": {
+      "id": 3683204,
+      "text": "theo ước tính của tôi, bà có thể cần ít nhất bốn đến năm mũi khâu.",
+      "author": "ChatGPT4.1"
+    },
+    "90808": {
+      "id": 3683205,
+      "text": "Chúng sẽ phải ở đó từ năm đến mười ngày, và bạn sẽ cần quay lại để lấy chúng ra.",
+      "author": "a user"
+    },
+    "90809": {
+      "id": 3683206,
+      "text": "Tôi sẽ cố gắng hết sức để viền các mép lại sát nhau để hạn chế tối đa vết sẹo,",
+      "author": "ChatGPT4.1"
+    },
+    "90810": {
+      "id": 3683207,
+      "text": "nhưng tôi không thể đảm bảo là sẽ không có gì ở đó.",
+      "author": "a user"
+    }
+  }
+}

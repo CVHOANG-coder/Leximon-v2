@@ -1,0 +1,626 @@
+{
+  "summary": {
+    "id": 1234,
+    "name": "Short Talk 95",
+    "subTitle": "Oven Feedback and Improvements",
+    "levelName": "B1",
+    "position": 268,
+    "totalChallenges": 7,
+    "groupId": 40,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1234",
+  "detail": {
+    "id": 1234,
+    "lessonName": "Short Talk 95",
+    "name": "Short Talk 95",
+    "position": 268,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/0-short-talk-95.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55292,
+        "position": 1,
+        "content": "I wanted to personally thank each and every single one of you for participating in the meeting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wanted",
+          "to",
+          "personally",
+          "thank",
+          "each",
+          "and",
+          "every",
+          "single",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "you",
+          "for",
+          "participating",
+          "in",
+          "the",
+          "meeting."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "personally"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "each"
+          ],
+          [
+            "and"
+          ],
+          [
+            "every"
+          ],
+          [
+            "single"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "participating"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 6.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55292/list"
+      },
+      {
+        "id": 55293,
+        "position": 2,
+        "content": "Now, we will review the feedback from the surveys the customers filled out for our newest model oven.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          [
+            "we will",
+            "we'll"
+          ],
+          "review",
+          "the",
+          "feedback",
+          "from",
+          "the",
+          "surveys",
+          "the",
+          "customers",
+          "filled",
+          "out",
+          "for",
+          "our",
+          "newest",
+          "model",
+          "oven."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "review"
+          ],
+          [
+            "the"
+          ],
+          [
+            "feedback"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "surveys"
+          ],
+          [
+            "the"
+          ],
+          [
+            "customers"
+          ],
+          [
+            "filled"
+          ],
+          [
+            "out"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "newest"
+          ],
+          [
+            "model"
+          ],
+          [
+            "oven."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/2.mp3",
+        "timeStart": 6.23,
+        "timeEnd": 12.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55293/list"
+      },
+      {
+        "id": 55294,
+        "position": 3,
+        "content": "You already know, but this oven has a couple of new features that our consumers will find helpful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "already",
+          "know,",
+          "but",
+          "this",
+          "oven",
+          "has",
+          "a",
+          "couple",
+          "of",
+          "new",
+          "features",
+          "that",
+          "our",
+          "consumers",
+          "will",
+          "find",
+          "helpful."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "already"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "this"
+          ],
+          [
+            "oven"
+          ],
+          [
+            "has"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "new"
+          ],
+          [
+            "features"
+          ],
+          [
+            "that"
+          ],
+          [
+            "our"
+          ],
+          [
+            "consumers"
+          ],
+          [
+            "will"
+          ],
+          [
+            "find"
+          ],
+          [
+            "helpful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/3.mp3",
+        "timeStart": 12.81,
+        "timeEnd": 19.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55294/list"
+      },
+      {
+        "id": 55295,
+        "position": 4,
+        "content": "The results of the survey show users enjoyed the eco mode the most.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "results",
+          "of",
+          "the",
+          "survey",
+          "show",
+          "users",
+          "enjoyed",
+          "the",
+          "eco",
+          "mode",
+          "the",
+          "most."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "results"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "show"
+          ],
+          [
+            "users"
+          ],
+          [
+            "enjoyed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "eco"
+          ],
+          [
+            "mode"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/4.mp3",
+        "timeStart": 19.47,
+        "timeEnd": 24.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55295/list"
+      },
+      {
+        "id": 55296,
+        "position": 5,
+        "content": "This made the oven quieter, which is the main reason customers love it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "made",
+          "the",
+          "oven",
+          "quieter,",
+          "which",
+          "is",
+          "the",
+          "main",
+          "reason",
+          "customers",
+          "love",
+          "it."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "made"
+          ],
+          [
+            "the"
+          ],
+          [
+            "oven"
+          ],
+          [
+            "quieter,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "main"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "customers"
+          ],
+          [
+            "love"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/5.mp3",
+        "timeStart": 24.5,
+        "timeEnd": 28.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55296/list"
+      },
+      {
+        "id": 55297,
+        "position": 6,
+        "content": "Now, that the oven has so many features, the manual has way too many pages.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "that",
+          "the",
+          "oven",
+          "has",
+          "so",
+          "many",
+          "features,",
+          "the",
+          "manual",
+          "has",
+          "way",
+          "too",
+          "many",
+          "pages."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "oven"
+          ],
+          [
+            "has"
+          ],
+          [
+            "so"
+          ],
+          [
+            "many"
+          ],
+          [
+            "features,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "manual"
+          ],
+          [
+            "has"
+          ],
+          [
+            "way"
+          ],
+          [
+            "too"
+          ],
+          [
+            "many"
+          ],
+          [
+            "pages."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/6.mp3",
+        "timeStart": 28.93,
+        "timeEnd": 34.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55297/list"
+      },
+      {
+        "id": 55298,
+        "position": 7,
+        "content": "Our content department is currently working to edit the directions from 50 to 15 pages.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "content",
+          "department",
+          "is",
+          "currently",
+          "working",
+          "to",
+          "edit",
+          "the",
+          "directions",
+          "from",
+          [
+            "50",
+            "fifty"
+          ],
+          "to",
+          [
+            "15",
+            "fifteen"
+          ],
+          "pages."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "content"
+          ],
+          [
+            "department"
+          ],
+          [
+            "is"
+          ],
+          [
+            "currently"
+          ],
+          [
+            "working"
+          ],
+          [
+            "to"
+          ],
+          [
+            "edit"
+          ],
+          [
+            "the"
+          ],
+          [
+            "directions"
+          ],
+          [
+            "from"
+          ],
+          [
+            "50",
+            "fifty"
+          ],
+          [
+            "to"
+          ],
+          [
+            "15",
+            "fifteen"
+          ],
+          [
+            "pages."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-95-2023-10-02-19-34-21/7.mp3",
+        "timeStart": 34.59,
+        "timeEnd": 42.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55298/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55295": {
+      "id": 969599,
+      "text": "Kết quả khảo sát cho thấy người dùng thích chế độ tiết kiệm nhiều nhất.",
+      "author": "a user"
+    },
+    "55292": {
+      "id": 2645277,
+      "text": "Tôi muốn gửi lời cảm ơn chân thành đến từng người trong số các bạn đã tham gia cuộc họp.",
+      "author": "ChatGPT4.1"
+    },
+    "55293": {
+      "id": 2645278,
+      "text": "Bây giờ, chúng ta sẽ xem lại phản hồi từ các khảo sát mà khách hàng đã điền cho mẫu lò nướng mới nhất của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "55294": {
+      "id": 2645279,
+      "text": "Như các bạn đã biết, lò nướng này có một vài tính năng mới mà người tiêu dùng sẽ thấy hữu ích.",
+      "author": "ChatGPT4.1"
+    },
+    "55296": {
+      "id": 2645280,
+      "text": "Điều này làm cho lò nướng êm hơn, và đó là lý do chính khiến khách hàng yêu thích sản phẩm.",
+      "author": "ChatGPT4.1"
+    },
+    "55297": {
+      "id": 2645281,
+      "text": "Giờ đây, khi lò nướng có quá nhiều tính năng, sách hướng dẫn trở nên quá nhiều trang.",
+      "author": "ChatGPT4.1"
+    },
+    "55298": {
+      "id": 2645282,
+      "text": "Bộ phận nội dung của chúng tôi hiện đang làm việc để chỉnh sửa hướng dẫn từ 50 xuống còn 15 trang.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

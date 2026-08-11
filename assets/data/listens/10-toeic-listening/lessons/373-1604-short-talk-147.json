@@ -1,0 +1,931 @@
+{
+  "summary": {
+    "id": 1604,
+    "name": "Short Talk 147",
+    "subTitle": "Blender Timer Issue Update",
+    "levelName": "B1",
+    "position": 373,
+    "totalChallenges": 16,
+    "groupId": 45,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1604",
+  "detail": {
+    "id": 1604,
+    "lessonName": "Short Talk 147",
+    "name": "Short Talk 147",
+    "position": 373,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/0-short-talk-147.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66989,
+        "position": 1,
+        "content": "I appreciate you all being here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "appreciate",
+          "you",
+          "all",
+          "being",
+          "here."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "you"
+          ],
+          [
+            "all"
+          ],
+          [
+            "being"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66989/list"
+      },
+      {
+        "id": 66990,
+        "position": 2,
+        "content": "We are here to discuss a problem with the blenders we launched last month.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are",
+            "We're"
+          ],
+          "here",
+          "to",
+          "discuss",
+          "a",
+          "problem",
+          "with",
+          "the",
+          "blenders",
+          "we",
+          "launched",
+          "last",
+          "month."
+        ],
+        "solution": [
+          [
+            "We are",
+            "We're"
+          ],
+          [
+            "here"
+          ],
+          [
+            "to"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "a"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "blenders"
+          ],
+          [
+            "we"
+          ],
+          [
+            "launched"
+          ],
+          [
+            "last"
+          ],
+          [
+            "month."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/2.mp3",
+        "timeStart": 2.82,
+        "timeEnd": 7.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66990/list"
+      },
+      {
+        "id": 66991,
+        "position": 3,
+        "content": "One shipment of the timers our partner supplied us with was defective.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "shipment",
+          "of",
+          "the",
+          "timers",
+          "our",
+          "partner",
+          "supplied",
+          "us",
+          "with",
+          "was",
+          "defective."
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "shipment"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "timers"
+          ],
+          [
+            "our"
+          ],
+          [
+            "partner"
+          ],
+          [
+            "supplied"
+          ],
+          [
+            "us"
+          ],
+          [
+            "with"
+          ],
+          [
+            "was"
+          ],
+          [
+            "defective."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/3.mp3",
+        "timeStart": 7.43,
+        "timeEnd": 12.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66991/list"
+      },
+      {
+        "id": 66992,
+        "position": 4,
+        "content": "The time is supposed to be set for 60 seconds,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "time",
+          "is",
+          "supposed",
+          "to",
+          "be",
+          "set",
+          "for",
+          [
+            "60",
+            "sixty"
+          ],
+          "seconds,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "set"
+          ],
+          [
+            "for"
+          ],
+          [
+            "60",
+            "sixty"
+          ],
+          [
+            "seconds,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/4.mp3",
+        "timeStart": 12.61,
+        "timeEnd": 15.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66992/list"
+      },
+      {
+        "id": 66993,
+        "position": 5,
+        "content": "but instead is only 10 seconds.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "instead",
+          "is",
+          "only",
+          [
+            "10",
+            "ten"
+          ],
+          "seconds."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "instead"
+          ],
+          [
+            "is"
+          ],
+          [
+            "only"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "seconds."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/5.mp3",
+        "timeStart": 15.91,
+        "timeEnd": 18.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66993/list"
+      },
+      {
+        "id": 66994,
+        "position": 6,
+        "content": "Our customers are frustrated because...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "customers",
+          "are",
+          "frustrated",
+          "because..."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "customers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "frustrated"
+          ],
+          [
+            "because..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/6.mp3",
+        "timeStart": 18.5,
+        "timeEnd": 20.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66994/list"
+      },
+      {
+        "id": 66995,
+        "position": 7,
+        "content": "we advertised the ability to blend your morning smoothie",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "advertised",
+          "the",
+          "ability",
+          "to",
+          "blend",
+          "your",
+          "morning",
+          "smoothie"
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "advertised"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ability"
+          ],
+          [
+            "to"
+          ],
+          [
+            "blend"
+          ],
+          [
+            "your"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "smoothie"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/7.mp3",
+        "timeStart": 20.82,
+        "timeEnd": 24.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66995/list"
+      },
+      {
+        "id": 66996,
+        "position": 8,
+        "content": "while completing another task with our timer,",
+        "defaultInput": "",
+        "jsonContent": [
+          "while",
+          "completing",
+          "another",
+          "task",
+          "with",
+          "our",
+          "timer,"
+        ],
+        "solution": [
+          [
+            "while"
+          ],
+          [
+            "completing"
+          ],
+          [
+            "another"
+          ],
+          [
+            "task"
+          ],
+          [
+            "with"
+          ],
+          [
+            "our"
+          ],
+          [
+            "timer,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/8.mp3",
+        "timeStart": 24.64,
+        "timeEnd": 27.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66996/list"
+      },
+      {
+        "id": 66997,
+        "position": 9,
+        "content": "and we have not been able to deliver.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "we have",
+            "we've"
+          ],
+          "not",
+          "been",
+          "able",
+          "to",
+          "deliver."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "not"
+          ],
+          [
+            "been"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "deliver."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/9.mp3",
+        "timeStart": 27.57,
+        "timeEnd": 30.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66997/list"
+      },
+      {
+        "id": 66998,
+        "position": 10,
+        "content": "So far, we have repaired 400 blenders,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "far,",
+          [
+            "we have",
+            "we've"
+          ],
+          "repaired",
+          "400",
+          "blenders,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "far,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "repaired"
+          ],
+          [
+            "400"
+          ],
+          [
+            "blenders,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/10.mp3",
+        "timeStart": 30.47,
+        "timeEnd": 33.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66998/list"
+      },
+      {
+        "id": 66999,
+        "position": 11,
+        "content": "but we expect to repair at least 1000 more.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "expect",
+          "to",
+          "repair",
+          "at",
+          "least",
+          [
+            "1000",
+            "one thousand"
+          ],
+          "more."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "to"
+          ],
+          [
+            "repair"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "1000",
+            "one thousand"
+          ],
+          [
+            "more."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/11.mp3",
+        "timeStart": 33.36,
+        "timeEnd": 36.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66999/list"
+      },
+      {
+        "id": 67000,
+        "position": 12,
+        "content": "Please inform the customer service agents that customers can request a repair on our website",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "inform",
+          "the",
+          "customer",
+          "service",
+          "agents",
+          "that",
+          "customers",
+          "can",
+          "request",
+          "a",
+          "repair",
+          "on",
+          "our",
+          "website"
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "inform"
+          ],
+          [
+            "the"
+          ],
+          [
+            "customer"
+          ],
+          [
+            "service"
+          ],
+          [
+            "agents"
+          ],
+          [
+            "that"
+          ],
+          [
+            "customers"
+          ],
+          [
+            "can"
+          ],
+          [
+            "request"
+          ],
+          [
+            "a"
+          ],
+          [
+            "repair"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "website"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/12.mp3",
+        "timeStart": 36.94,
+        "timeEnd": 43.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67000/list"
+      },
+      {
+        "id": 67001,
+        "position": 13,
+        "content": "and we will send shipping information for free.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "we will",
+            "we'll"
+          ],
+          "send",
+          "shipping",
+          "information",
+          "for",
+          "free."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "send"
+          ],
+          [
+            "shipping"
+          ],
+          [
+            "information"
+          ],
+          [
+            "for"
+          ],
+          [
+            "free."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/13.mp3",
+        "timeStart": 43.24,
+        "timeEnd": 45.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67001/list"
+      },
+      {
+        "id": 67002,
+        "position": 14,
+        "content": "When the repaired blender is returned,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "the",
+          "repaired",
+          "blender",
+          "is",
+          "returned,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "the"
+          ],
+          [
+            "repaired"
+          ],
+          [
+            "blender"
+          ],
+          [
+            "is"
+          ],
+          [
+            "returned,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/14.mp3",
+        "timeStart": 46.07,
+        "timeEnd": 48.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67002/list"
+      },
+      {
+        "id": 67003,
+        "position": 15,
+        "content": "we will include a free smoothie recipe book.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "we will",
+            "we'll"
+          ],
+          "include",
+          "a",
+          "free",
+          "smoothie",
+          "recipe",
+          "book."
+        ],
+        "solution": [
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "include"
+          ],
+          [
+            "a"
+          ],
+          [
+            "free"
+          ],
+          [
+            "smoothie"
+          ],
+          [
+            "recipe"
+          ],
+          [
+            "book."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/15.mp3",
+        "timeStart": 48.2,
+        "timeEnd": 51.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67003/list"
+      },
+      {
+        "id": 67004,
+        "position": 16,
+        "content": "Now, let's talk about the press release.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "let's",
+          "talk",
+          "about",
+          "the",
+          "press",
+          "release."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "press"
+          ],
+          [
+            "release."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-147-2024-09-14-19-01-25/16.mp3",
+        "timeStart": 51.4,
+        "timeEnd": 54.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67004/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66989": {
+      "id": 2642600,
+      "text": "Tôi đánh giá cao việc mọi người có mặt ở đây.",
+      "author": "ChatGPT4.1"
+    },
+    "66990": {
+      "id": 2642601,
+      "text": "Chúng ta có mặt ở đây để thảo luận về một vấn đề với những chiếc máy xay sinh tố mà chúng ta đã ra mắt tháng trước.",
+      "author": "ChatGPT4.1"
+    },
+    "66991": {
+      "id": 2642602,
+      "text": "Một lô hẹn giờ mà đối tác cung cấp cho chúng ta bị lỗi.",
+      "author": "ChatGPT4.1"
+    },
+    "66992": {
+      "id": 2642603,
+      "text": "Thời gian lẽ ra phải được cài đặt là 60 giây,",
+      "author": "ChatGPT4.1"
+    },
+    "66993": {
+      "id": 2642604,
+      "text": "nhưng thực tế chỉ là 10 giây.",
+      "author": "ChatGPT4.1"
+    },
+    "66994": {
+      "id": 2642605,
+      "text": "Khách hàng của chúng ta cảm thấy khó chịu vì...",
+      "author": "ChatGPT4.1"
+    },
+    "66995": {
+      "id": 2642606,
+      "text": "chúng ta đã quảng cáo về khả năng xay sinh tố buổi sáng",
+      "author": "ChatGPT4.1"
+    },
+    "66996": {
+      "id": 2642607,
+      "text": "trong khi hoàn thành một việc khác nhờ vào bộ hẹn giờ,",
+      "author": "ChatGPT4.1"
+    },
+    "66997": {
+      "id": 2642608,
+      "text": "và chúng ta đã không thực hiện được điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "66998": {
+      "id": 2642609,
+      "text": "Cho đến nay, chúng ta đã sửa chữa 400 máy xay sinh tố,",
+      "author": "ChatGPT4.1"
+    },
+    "66999": {
+      "id": 2642610,
+      "text": "nhưng chúng ta dự kiến sẽ sửa ít nhất 1000 chiếc nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "67000": {
+      "id": 2642611,
+      "text": "Vui lòng thông báo cho các nhân viên chăm sóc khách hàng rằng khách hàng có thể yêu cầu sửa chữa trên trang web của chúng ta",
+      "author": "ChatGPT4.1"
+    },
+    "67001": {
+      "id": 2642612,
+      "text": "và chúng ta sẽ gửi thông tin giao hàng miễn phí.",
+      "author": "ChatGPT4.1"
+    },
+    "67002": {
+      "id": 2642613,
+      "text": "Khi máy xay sinh tố đã được sửa chữa được trả lại,",
+      "author": "ChatGPT4.1"
+    },
+    "67003": {
+      "id": 2642614,
+      "text": "chúng ta sẽ gửi kèm một cuốn sách công thức làm sinh tố miễn phí.",
+      "author": "ChatGPT4.1"
+    },
+    "67004": {
+      "id": 2642615,
+      "text": "Bây giờ, chúng ta hãy nói về thông cáo báo chí.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

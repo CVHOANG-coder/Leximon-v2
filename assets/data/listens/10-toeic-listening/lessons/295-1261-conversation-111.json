@@ -1,0 +1,1155 @@
+{
+  "summary": {
+    "id": 1261,
+    "name": "Conversation 111",
+    "subTitle": "Photograph Order Issue",
+    "levelName": "B2",
+    "position": 295,
+    "totalChallenges": 18,
+    "groupId": 42,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1261",
+  "detail": {
+    "id": 1261,
+    "lessonName": "Conversation 111",
+    "name": "Conversation 111",
+    "position": 295,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/0-conversation-111.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55718,
+        "position": 1,
+        "content": "Hello, Mr. Saunders.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "Mr.",
+          "Saunders."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Saunders."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.01,
+        "hints": [
+          "Saunders"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55718/list"
+      },
+      {
+        "id": 55719,
+        "position": 2,
+        "content": "This is Brittany.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "Brittany."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Brittany."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/2.mp3",
+        "timeStart": 2.01,
+        "timeEnd": 3.75,
+        "hints": [
+          "Brittany"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55719/list"
+      },
+      {
+        "id": 55720,
+        "position": 3,
+        "content": "I wanted to talk about the photographs we had lined up to put in all of Cameron Michelle's restaurants.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wanted",
+          "to",
+          "talk",
+          "about",
+          "the",
+          "photographs",
+          [
+            "we had",
+            "We'd"
+          ],
+          "lined",
+          "up",
+          "to",
+          "put",
+          "in",
+          "all",
+          "of",
+          "Cameron",
+          "Michelle's",
+          "restaurants."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "photographs"
+          ],
+          [
+            "we had",
+            "We'd"
+          ],
+          [
+            "lined"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "put"
+          ],
+          [
+            "in"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Cameron"
+          ],
+          [
+            "Michelle's"
+          ],
+          [
+            "restaurants."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/3.mp3",
+        "timeStart": 3.75,
+        "timeEnd": 11.03,
+        "hints": [
+          "Cameron Michelle"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55720/list"
+      },
+      {
+        "id": 55721,
+        "position": 4,
+        "content": "Yes, you've done a great job on that project.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "you've",
+            "You have"
+          ],
+          "done",
+          "a",
+          "great",
+          "job",
+          "on",
+          "that",
+          "project."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "done"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "job"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that"
+          ],
+          [
+            "project."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/4.mp3",
+        "timeStart": 11.29,
+        "timeEnd": 14.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55721/list"
+      },
+      {
+        "id": 55722,
+        "position": 5,
+        "content": "How is it all going?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "is",
+          "it",
+          "all",
+          "going?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "all"
+          ],
+          [
+            "going?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/5.mp3",
+        "timeStart": 14.8,
+        "timeEnd": 16.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55722/list"
+      },
+      {
+        "id": 55723,
+        "position": 6,
+        "content": "Well, we've had a bit of a hiccup.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "we've",
+            "we have"
+          ],
+          "had",
+          "a",
+          "bit",
+          "of",
+          "a",
+          "hiccup."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hiccup."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/6.mp3",
+        "timeStart": 16.7,
+        "timeEnd": 19.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55723/list"
+      },
+      {
+        "id": 55724,
+        "position": 7,
+        "content": "They already approved all of the materials, so we ordered them,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "already",
+          "approved",
+          "all",
+          "of",
+          "the",
+          "materials,",
+          "so",
+          "we",
+          "ordered",
+          "them,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "already"
+          ],
+          [
+            "approved"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "materials,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "we"
+          ],
+          [
+            "ordered"
+          ],
+          [
+            "them,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/7.mp3",
+        "timeStart": 19.81,
+        "timeEnd": 25.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55724/list"
+      },
+      {
+        "id": 55725,
+        "position": 8,
+        "content": "but now Mr. Michelle is having second thoughts on the size of the photographs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "now",
+          "Mr.",
+          "Michelle",
+          "is",
+          "having",
+          "second",
+          "thoughts",
+          "on",
+          "the",
+          "size",
+          "of",
+          "the",
+          "photographs."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "now"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Michelle"
+          ],
+          [
+            "is"
+          ],
+          [
+            "having"
+          ],
+          [
+            "second"
+          ],
+          [
+            "thoughts"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "size"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "photographs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/8.mp3",
+        "timeStart": 25.14,
+        "timeEnd": 31.07,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/55725/list"
+      },
+      {
+        "id": 55726,
+        "position": 9,
+        "content": "Despite being one of our biggest and most loyal clients, Mr. Michelle often has a change of heart.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Despite",
+          "being",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "our",
+          "biggest",
+          "and",
+          "most",
+          "loyal",
+          "clients,",
+          "Mr.",
+          "Michelle",
+          "often",
+          "has",
+          "a",
+          "change",
+          "of",
+          "heart."
+        ],
+        "solution": [
+          [
+            "Despite"
+          ],
+          [
+            "being"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "biggest"
+          ],
+          [
+            "and"
+          ],
+          [
+            "most"
+          ],
+          [
+            "loyal"
+          ],
+          [
+            "clients,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Michelle"
+          ],
+          [
+            "often"
+          ],
+          [
+            "has"
+          ],
+          [
+            "a"
+          ],
+          [
+            "change"
+          ],
+          [
+            "of"
+          ],
+          [
+            "heart."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/9.mp3",
+        "timeStart": 31.07,
+        "timeEnd": 38.27,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/55726/list"
+      },
+      {
+        "id": 55727,
+        "position": 10,
+        "content": "Have you had a chance to see if it is too late to change our order with our distributors?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          [
+            "you had",
+            "You'd"
+          ],
+          "a",
+          "chance",
+          "to",
+          "see",
+          "if",
+          [
+            "it is",
+            "it's"
+          ],
+          "too",
+          "late",
+          "to",
+          "change",
+          "our",
+          "order",
+          "with",
+          "our",
+          "distributors?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you had",
+            "You'd"
+          ],
+          [
+            "a"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "if"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "too"
+          ],
+          [
+            "late"
+          ],
+          [
+            "to"
+          ],
+          [
+            "change"
+          ],
+          [
+            "our"
+          ],
+          [
+            "order"
+          ],
+          [
+            "with"
+          ],
+          [
+            "our"
+          ],
+          [
+            "distributors?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/10.mp3",
+        "timeStart": 38.83,
+        "timeEnd": 44.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55727/list"
+      },
+      {
+        "id": 55728,
+        "position": 11,
+        "content": "I checked.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "checked."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "checked."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/11.mp3",
+        "timeStart": 44.49,
+        "timeEnd": 45.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55728/list"
+      },
+      {
+        "id": 55729,
+        "position": 12,
+        "content": "They said we could still cancel but would be charged a 4% fee.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "said",
+          "we",
+          "could",
+          "still",
+          "cancel",
+          "but",
+          "would",
+          "be",
+          "charged",
+          "a",
+          [
+            "4%",
+            "4 percent"
+          ],
+          "fee."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "said"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "still"
+          ],
+          [
+            "cancel"
+          ],
+          [
+            "but"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "charged"
+          ],
+          [
+            "a"
+          ],
+          [
+            "4%",
+            "4 percent"
+          ],
+          [
+            "fee."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/12.mp3",
+        "timeStart": 45.98,
+        "timeEnd": 51.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55729/list"
+      },
+      {
+        "id": 55730,
+        "position": 13,
+        "content": "We have until Monday morning to let them know.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          "until",
+          "Monday",
+          "morning",
+          "to",
+          "let",
+          "them",
+          "know."
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "until"
+          ],
+          [
+            "Monday"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "them"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/13.mp3",
+        "timeStart": 51.36,
+        "timeEnd": 54.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55730/list"
+      },
+      {
+        "id": 55731,
+        "position": 14,
+        "content": "Okay, great.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "great."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/14.mp3",
+        "timeStart": 55.29,
+        "timeEnd": 56.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55731/list"
+      },
+      {
+        "id": 55732,
+        "position": 15,
+        "content": "If Mr. Michelle decides to go with the smaller size,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "Mr.",
+          "Michelle",
+          "decides",
+          "to",
+          "go",
+          "with",
+          "the",
+          "smaller",
+          "size,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Michelle"
+          ],
+          [
+            "decides"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "smaller"
+          ],
+          [
+            "size,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/15.mp3",
+        "timeStart": 56.54,
+        "timeEnd": 59.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55732/list"
+      },
+      {
+        "id": 55733,
+        "position": 16,
+        "content": "we can incorporate the 4% fee into the new quote.",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "can",
+          "incorporate",
+          "the",
+          [
+            "4%",
+            "4 percent"
+          ],
+          "fee",
+          "into",
+          "the",
+          "new",
+          "quote."
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "incorporate"
+          ],
+          [
+            "the"
+          ],
+          [
+            "4%",
+            "4 percent"
+          ],
+          [
+            "fee"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "quote."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/16.mp3",
+        "timeStart": 59.86,
+        "timeEnd": 63.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55733/list"
+      },
+      {
+        "id": 55734,
+        "position": 17,
+        "content": "Give him two choices and let him decide, without giving exact quotes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Give",
+          "him",
+          [
+            "two",
+            "2"
+          ],
+          "choices",
+          "and",
+          "let",
+          "him",
+          "decide,",
+          "without",
+          "giving",
+          "exact",
+          "quotes."
+        ],
+        "solution": [
+          [
+            "Give"
+          ],
+          [
+            "him"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "choices"
+          ],
+          [
+            "and"
+          ],
+          [
+            "let"
+          ],
+          [
+            "him"
+          ],
+          [
+            "decide,"
+          ],
+          [
+            "without"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "exact"
+          ],
+          [
+            "quotes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/17.mp3",
+        "timeStart": 64.39,
+        "timeEnd": 69.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55734/list"
+      },
+      {
+        "id": 55735,
+        "position": 18,
+        "content": "Tell him to let me know by Sunday what he decides.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Tell",
+          "him",
+          "to",
+          "let",
+          "me",
+          "know",
+          "by",
+          "Sunday",
+          "what",
+          "he",
+          "decides."
+        ],
+        "solution": [
+          [
+            "Tell"
+          ],
+          [
+            "him"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "know"
+          ],
+          [
+            "by"
+          ],
+          [
+            "Sunday"
+          ],
+          [
+            "what"
+          ],
+          [
+            "he"
+          ],
+          [
+            "decides."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-111-2023-10-05-11-14-00/18.mp3",
+        "timeStart": 69.78,
+        "timeEnd": 74.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55735/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55718": {
+      "id": 2596454,
+      "text": "Xin chào, ông Saunders.",
+      "author": "ChatGPT4.1"
+    },
+    "55719": {
+      "id": 2596455,
+      "text": "Tôi là Brittany.",
+      "author": "ChatGPT4.1"
+    },
+    "55720": {
+      "id": 2596456,
+      "text": "Tôi muốn nói về những bức ảnh mà chúng ta đã lên kế hoạch để trưng bày ở tất cả các nhà hàng của Cameron Michelle.",
+      "author": "ChatGPT4.1"
+    },
+    "55721": {
+      "id": 2596457,
+      "text": "Vâng, anh đã làm rất tốt dự án đó.",
+      "author": "ChatGPT4.1"
+    },
+    "55722": {
+      "id": 2596458,
+      "text": "Mọi việc diễn ra thế nào rồi?",
+      "author": "ChatGPT4.1"
+    },
+    "55723": {
+      "id": 2596459,
+      "text": "Ờ, chúng tôi gặp một chút trục trặc.",
+      "author": "ChatGPT4.1"
+    },
+    "55724": {
+      "id": 2596460,
+      "text": "Họ đã phê duyệt tất cả các vật liệu, nên chúng tôi đã đặt hàng,",
+      "author": "ChatGPT4.1"
+    },
+    "55725": {
+      "id": 2596461,
+      "text": "nhưng bây giờ ông Michelle lại đang suy nghĩ lại về kích thước của những bức ảnh.",
+      "author": "ChatGPT4.1"
+    },
+    "55726": {
+      "id": 2596462,
+      "text": "Mặc dù là một trong những khách hàng lớn nhất và trung thành nhất của chúng ta, ông Michelle thường hay thay đổi ý kiến.",
+      "author": "ChatGPT4.1"
+    },
+    "55727": {
+      "id": 2596463,
+      "text": "Anh đã có cơ hội kiểm tra xem có quá muộn để thay đổi đơn hàng với các nhà phân phối chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "55728": {
+      "id": 2596464,
+      "text": "Tôi đã kiểm tra.",
+      "author": "ChatGPT4.1"
+    },
+    "55729": {
+      "id": 2596465,
+      "text": "Họ nói chúng ta vẫn có thể hủy, nhưng sẽ bị tính phí 4%.",
+      "author": "ChatGPT4.1"
+    },
+    "55730": {
+      "id": 2596466,
+      "text": "Chúng ta có thời hạn đến sáng thứ Hai để thông báo cho họ.",
+      "author": "ChatGPT4.1"
+    },
+    "55731": {
+      "id": 2596467,
+      "text": "Được rồi, tốt lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "55732": {
+      "id": 2596468,
+      "text": "Nếu ông Michelle quyết định chọn kích cỡ nhỏ hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "55733": {
+      "id": 2596469,
+      "text": "chúng ta có thể tính phí 4% vào bảng báo giá mới.",
+      "author": "ChatGPT4.1"
+    },
+    "55734": {
+      "id": 2596470,
+      "text": "Đưa cho ông ấy hai lựa chọn và để ông ấy quyết định, mà không cần cung cấp báo giá chính xác.",
+      "author": "ChatGPT4.1"
+    },
+    "55735": {
+      "id": 2596471,
+      "text": "Bảo ông ấy thông báo cho tôi trước Chủ nhật về quyết định của mình.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

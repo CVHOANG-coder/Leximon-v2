@@ -1,0 +1,4483 @@
+{
+  "summary": {
+    "id": 524,
+    "name": "Cam16 - Test 3 - Part 1",
+    "subTitle": "Junior Cycle Camp Information",
+    "levelName": "B1",
+    "position": 106,
+    "totalChallenges": 84,
+    "groupId": 57,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/524",
+  "detail": {
+    "id": 524,
+    "lessonName": "Cam16 - Test 3 - Part 1",
+    "name": "Cam16 - Test 3 - Part 1",
+    "position": 106,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/0-ielts-cambridge-16-test-3-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 20971,
+        "position": 1,
+        "content": "Hello, Junior Cycle camp, Jake speaking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "Junior",
+          "Cycle",
+          "camp,",
+          "Jake",
+          "speaking."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Junior"
+          ],
+          [
+            "Cycle"
+          ],
+          [
+            "camp,"
+          ],
+          [
+            "Jake"
+          ],
+          [
+            "speaking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/1.mp3",
+        "timeStart": 0.21,
+        "timeEnd": 4.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20971/list"
+      },
+      {
+        "id": 20972,
+        "position": 2,
+        "content": "Hi.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi."
+        ],
+        "solution": [
+          [
+            "Hi."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/2.mp3",
+        "timeStart": 4.44,
+        "timeEnd": 5.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20972/list"
+      },
+      {
+        "id": 20973,
+        "position": 3,
+        "content": "I'm calling for some information about the cycle camp -",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "for",
+          "some",
+          "information",
+          "about",
+          "the",
+          "cycle",
+          "camp",
+          "-"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "for"
+          ],
+          [
+            "some"
+          ],
+          [
+            "information"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cycle"
+          ],
+          [
+            "camp"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/3.mp3",
+        "timeStart": 5.59,
+        "timeEnd": 9.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20973/list"
+      },
+      {
+        "id": 20974,
+        "position": 4,
+        "content": "I'm thinking of sending my son.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "thinking",
+          "of",
+          "sending",
+          "my",
+          "son."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sending"
+          ],
+          [
+            "my"
+          ],
+          [
+            "son."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/4.mp3",
+        "timeStart": 9.62,
+        "timeEnd": 12.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20974/list"
+      },
+      {
+        "id": 20975,
+        "position": 5,
+        "content": "Great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great."
+        ],
+        "solution": [
+          [
+            "Great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/5.mp3",
+        "timeStart": 12.24,
+        "timeEnd": 12.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20975/list"
+      },
+      {
+        "id": 20976,
+        "position": 6,
+        "content": "Well, it's held every weekday morning over the summer vacation",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "it's",
+          "held",
+          "every",
+          "weekday",
+          "morning",
+          "over",
+          "the",
+          "summer",
+          "vacation"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "held"
+          ],
+          [
+            "every"
+          ],
+          [
+            "weekday"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "summer"
+          ],
+          [
+            "vacation"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/6.mp3",
+        "timeStart": 13.05,
+        "timeEnd": 18.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20976/list"
+      },
+      {
+        "id": 20977,
+        "position": 7,
+        "content": "and we focus on basic cycling skills and safety.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "focus",
+          "on",
+          "basic",
+          "cycling",
+          "skills",
+          "and",
+          "safety."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "on"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "cycling"
+          ],
+          [
+            "skills"
+          ],
+          [
+            "and"
+          ],
+          [
+            "safety."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/7.mp3",
+        "timeStart": 19.08,
+        "timeEnd": 23.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20977/list"
+      },
+      {
+        "id": 20978,
+        "position": 8,
+        "content": "We have eight levels for children from three years upwards.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "eight",
+            "8"
+          ],
+          "levels",
+          "for",
+          "children",
+          "from",
+          [
+            "three",
+            "3"
+          ],
+          "years",
+          "upwards."
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "eight",
+            "8"
+          ],
+          [
+            "levels"
+          ],
+          [
+            "for"
+          ],
+          [
+            "children"
+          ],
+          [
+            "from"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "years"
+          ],
+          [
+            "upwards."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/8.mp3",
+        "timeStart": 24,
+        "timeEnd": 29.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20978/list"
+      },
+      {
+        "id": 20979,
+        "position": 9,
+        "content": "How old's your son?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "old's",
+          "your",
+          "son?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "old's"
+          ],
+          [
+            "your"
+          ],
+          [
+            "son?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/9.mp3",
+        "timeStart": 29.79,
+        "timeEnd": 31.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20979/list"
+      },
+      {
+        "id": 20980,
+        "position": 10,
+        "content": "Charlie? He's seven.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Charlie?",
+          "He's",
+          [
+            "seven.",
+            "7"
+          ]
+        ],
+        "solution": [
+          [
+            "Charlie?"
+          ],
+          [
+            "He's"
+          ],
+          [
+            "seven.",
+            "7"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/10.mp3",
+        "timeStart": 31.61,
+        "timeEnd": 34.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20980/list"
+      },
+      {
+        "id": 20981,
+        "position": 11,
+        "content": "He can ride a bike,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "can",
+          "ride",
+          "a",
+          "bike,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "can"
+          ],
+          [
+            "ride"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bike,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/11.mp3",
+        "timeStart": 34.36,
+        "timeEnd": 36.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20981/list"
+      },
+      {
+        "id": 20982,
+        "position": 12,
+        "content": "but he needs a little more training before he's safe to go on the road.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "he",
+          "needs",
+          "a",
+          "little",
+          "more",
+          "training",
+          "before",
+          "he's",
+          "safe",
+          "to",
+          "go",
+          "on",
+          "the",
+          "road."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "he"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "more"
+          ],
+          [
+            "training"
+          ],
+          [
+            "before"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "safe"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "road."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/12.mp3",
+        "timeStart": 36.38,
+        "timeEnd": 41.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20982/list"
+      },
+      {
+        "id": 20983,
+        "position": 13,
+        "content": "He'd probably be best in Level 5.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He'd",
+          "probably",
+          "be",
+          "best",
+          "in",
+          "Level",
+          [
+            "5.",
+            "five"
+          ]
+        ],
+        "solution": [
+          [
+            "He'd"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "be"
+          ],
+          [
+            "best"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Level"
+          ],
+          [
+            "5.",
+            "five"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/13.mp3",
+        "timeStart": 41.83,
+        "timeEnd": 45.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20983/list"
+      },
+      {
+        "id": 20984,
+        "position": 14,
+        "content": "They start off practising on the site here,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "start",
+          "off",
+          [
+            "practising",
+            "practicing"
+          ],
+          "on",
+          "the",
+          "site",
+          "here,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "start"
+          ],
+          [
+            "off"
+          ],
+          [
+            "practising",
+            "practicing"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "site"
+          ],
+          [
+            "here,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/14.mp3",
+        "timeStart": 45.9,
+        "timeEnd": 49.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20984/list"
+      },
+      {
+        "id": 20985,
+        "position": 15,
+        "content": "and we aim to get them riding on the road,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "aim",
+          "to",
+          "get",
+          "them",
+          "riding",
+          "on",
+          "the",
+          "road,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "aim"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "them"
+          ],
+          [
+            "riding"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "road,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/15.mp3",
+        "timeStart": 49.92,
+        "timeEnd": 53.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20985/list"
+      },
+      {
+        "id": 20986,
+        "position": 16,
+        "content": "but first they're taken to ride in the park, away from the traffic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          "taken",
+          "to",
+          "ride",
+          "in",
+          "the",
+          "park,",
+          "away",
+          "from",
+          "the",
+          "traffic."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "taken"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ride"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "park,"
+          ],
+          [
+            "away"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "traffic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/16.mp3",
+        "timeStart": 53.08,
+        "timeEnd": 58.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20986/list"
+      },
+      {
+        "id": 20987,
+        "position": 17,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/17.mp3",
+        "timeStart": 59.26,
+        "timeEnd": 60.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20987/list"
+      },
+      {
+        "id": 20988,
+        "position": 18,
+        "content": "And can you tell me a bit about the instructors?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "can",
+          "you",
+          "tell",
+          "me",
+          "a",
+          "bit",
+          "about",
+          "the",
+          "instructors?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "instructors?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/18.mp3",
+        "timeStart": 60.37,
+        "timeEnd": 64.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20988/list"
+      },
+      {
+        "id": 20989,
+        "position": 19,
+        "content": "Well, all our staff wear different coloured shirts.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "all",
+          "our",
+          "staff",
+          "wear",
+          "different",
+          [
+            "coloured",
+            "colored"
+          ],
+          "shirts."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "all"
+          ],
+          [
+            "our"
+          ],
+          [
+            "staff"
+          ],
+          [
+            "wear"
+          ],
+          [
+            "different"
+          ],
+          [
+            "coloured",
+            "colored"
+          ],
+          [
+            "shirts."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/19.mp3",
+        "timeStart": 65.01,
+        "timeEnd": 69.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20989/list"
+      },
+      {
+        "id": 20990,
+        "position": 20,
+        "content": "So, we have three supervisors, and they have red shirts.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          "supervisors,",
+          "and",
+          [
+            "they have",
+            "they've"
+          ],
+          "red",
+          "shirts."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "supervisors,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "red"
+          ],
+          [
+            "shirts."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/20.mp3",
+        "timeStart": 70.03,
+        "timeEnd": 75.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20990/list"
+      },
+      {
+        "id": 20991,
+        "position": 21,
+        "content": "They support the instructors,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "support",
+          "the",
+          "instructors,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "support"
+          ],
+          [
+            "the"
+          ],
+          [
+            "instructors,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/21.mp3",
+        "timeStart": 75.71,
+        "timeEnd": 78.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20991/list"
+      },
+      {
+        "id": 20992,
+        "position": 22,
+        "content": "and they also stand in for me if I'm not around.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "they",
+          "also",
+          "stand",
+          "in",
+          "for",
+          "me",
+          "if",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "around."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "also"
+          ],
+          [
+            "stand"
+          ],
+          [
+            "in"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "around."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/22.mp3",
+        "timeStart": 78.44,
+        "timeEnd": 82.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20992/list"
+      },
+      {
+        "id": 20993,
+        "position": 23,
+        "content": "Then the instructors themselves are in blue shirts,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "the",
+          "instructors",
+          "themselves",
+          "are",
+          "in",
+          "blue",
+          "shirts,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "the"
+          ],
+          [
+            "instructors"
+          ],
+          [
+            "themselves"
+          ],
+          [
+            "are"
+          ],
+          [
+            "in"
+          ],
+          [
+            "blue"
+          ],
+          [
+            "shirts,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/23.mp3",
+        "timeStart": 82.86,
+        "timeEnd": 88.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20993/list"
+      },
+      {
+        "id": 20994,
+        "position": 24,
+        "content": "and one of these is responsible for each class.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "these",
+          "is",
+          "responsible",
+          "for",
+          "each",
+          "class."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "is"
+          ],
+          [
+            "responsible"
+          ],
+          [
+            "for"
+          ],
+          [
+            "each"
+          ],
+          [
+            "class."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/24.mp3",
+        "timeStart": 88.4,
+        "timeEnd": 92.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20994/list"
+      },
+      {
+        "id": 20995,
+        "position": 25,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/25.mp3",
+        "timeStart": 92.43,
+        "timeEnd": 93.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20995/list"
+      },
+      {
+        "id": 20996,
+        "position": 26,
+        "content": "In order to be accepted,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "order",
+          "to",
+          "be",
+          "accepted,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "order"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "accepted,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/26.mp3",
+        "timeStart": 94.17,
+        "timeEnd": 96.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20996/list"
+      },
+      {
+        "id": 20997,
+        "position": 27,
+        "content": "all our instructors have to submit a reference from someone who's seen them work with children -",
+        "defaultInput": "",
+        "jsonContent": [
+          "all",
+          "our",
+          "instructors",
+          "have",
+          "to",
+          "submit",
+          "a",
+          "reference",
+          "from",
+          "someone",
+          [
+            "who's",
+            "who is"
+          ],
+          "seen",
+          "them",
+          "work",
+          "with",
+          "children",
+          "-"
+        ],
+        "solution": [
+          [
+            "all"
+          ],
+          [
+            "our"
+          ],
+          [
+            "instructors"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "submit"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reference"
+          ],
+          [
+            "from"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "them"
+          ],
+          [
+            "work"
+          ],
+          [
+            "with"
+          ],
+          [
+            "children"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/27.mp3",
+        "timeStart": 96.52,
+        "timeEnd": 104.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20997/list"
+      },
+      {
+        "id": 20998,
+        "position": 28,
+        "content": "like if they've worked as a babysitter, for example.",
+        "defaultInput": "",
+        "jsonContent": [
+          "like",
+          "if",
+          [
+            "they've",
+            "they have"
+          ],
+          "worked",
+          "as",
+          "a",
+          "babysitter,",
+          "for",
+          "example."
+        ],
+        "solution": [
+          [
+            "like"
+          ],
+          [
+            "if"
+          ],
+          [
+            "they've",
+            "they have"
+          ],
+          [
+            "worked"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "babysitter,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/28.mp3",
+        "timeStart": 104.75,
+        "timeEnd": 109.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20998/list"
+      },
+      {
+        "id": 20999,
+        "position": 29,
+        "content": "Then they have to complete our training course,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          [
+            "they have",
+            "they've"
+          ],
+          "to",
+          "complete",
+          "our",
+          "training",
+          "course,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "complete"
+          ],
+          [
+            "our"
+          ],
+          [
+            "training"
+          ],
+          [
+            "course,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/29.mp3",
+        "timeStart": 110.48,
+        "timeEnd": 114,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20999/list"
+      },
+      {
+        "id": 21000,
+        "position": 30,
+        "content": "including how to do lesson plans,",
+        "defaultInput": "",
+        "jsonContent": [
+          "including",
+          "how",
+          "to",
+          "do",
+          "lesson",
+          "plans,"
+        ],
+        "solution": [
+          [
+            "including"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "lesson"
+          ],
+          [
+            "plans,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/30.mp3",
+        "timeStart": 114.16,
+        "timeEnd": 117.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21000/list"
+      },
+      {
+        "id": 21001,
+        "position": 31,
+        "content": "and generally care for the well-being of the kids in their class.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "generally",
+          "care",
+          "for",
+          "the",
+          [
+            "well-being",
+            "well being"
+          ],
+          "of",
+          "the",
+          "kids",
+          "in",
+          "their",
+          "class."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "generally"
+          ],
+          [
+            "care"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "well-being",
+            "well being"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "kids"
+          ],
+          [
+            "in"
+          ],
+          [
+            "their"
+          ],
+          [
+            "class."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/31.mp3",
+        "timeStart": 117.58,
+        "timeEnd": 122.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21001/list"
+      },
+      {
+        "id": 21002,
+        "position": 32,
+        "content": "They do a great job, I have to say.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "do",
+          "a",
+          "great",
+          "job,",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "say."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "do"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "job,"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "say."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/32.mp3",
+        "timeStart": 122.87,
+        "timeEnd": 125.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21002/list"
+      },
+      {
+        "id": 21003,
+        "position": 33,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/33.mp3",
+        "timeStart": 126.28,
+        "timeEnd": 127.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21003/list"
+      },
+      {
+        "id": 21004,
+        "position": 34,
+        "content": "And tell me a bit about the classes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "tell",
+          "me",
+          "a",
+          "bit",
+          "about",
+          "the",
+          "classes."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "classes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/34.mp3",
+        "timeStart": 127.37,
+        "timeEnd": 130.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21004/list"
+      },
+      {
+        "id": 21005,
+        "position": 35,
+        "content": "What size will Charlie's class be?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "size",
+          "will",
+          "Charlie's",
+          "class",
+          "be?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "size"
+          ],
+          [
+            "will"
+          ],
+          [
+            "Charlie's"
+          ],
+          [
+            "class"
+          ],
+          [
+            "be?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/35.mp3",
+        "timeStart": 131.13,
+        "timeEnd": 134.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21005/list"
+      },
+      {
+        "id": 21006,
+        "position": 36,
+        "content": "We have a limit of eight children in each class,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          "a",
+          "limit",
+          "of",
+          [
+            "eight",
+            "8"
+          ],
+          "children",
+          "in",
+          "each",
+          "class,"
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "limit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "eight",
+            "8"
+          ],
+          [
+            "children"
+          ],
+          [
+            "in"
+          ],
+          [
+            "each"
+          ],
+          [
+            "class,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/36.mp3",
+        "timeStart": 134.93,
+        "timeEnd": 139.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21006/list"
+      },
+      {
+        "id": 21007,
+        "position": 37,
+        "content": "so their instructor really gets to know them well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "their",
+          "instructor",
+          "really",
+          "gets",
+          "to",
+          "know",
+          "them",
+          "well."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "their"
+          ],
+          [
+            "instructor"
+          ],
+          [
+            "really"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "them"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/37.mp3",
+        "timeStart": 139.56,
+        "timeEnd": 143.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21007/list"
+      },
+      {
+        "id": 21008,
+        "position": 38,
+        "content": "They're out riding most of the time",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "out",
+          "riding",
+          "most",
+          "of",
+          "the",
+          "time"
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "out"
+          ],
+          [
+            "riding"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/38.mp3",
+        "timeStart": 144.2,
+        "timeEnd": 147.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21008/list"
+      },
+      {
+        "id": 21009,
+        "position": 39,
+        "content": "but they have quiet times too,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "they have",
+            "they've"
+          ],
+          "quiet",
+          "times",
+          "too,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "quiet"
+          ],
+          [
+            "times"
+          ],
+          [
+            "too,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/39.mp3",
+        "timeStart": 147.31,
+        "timeEnd": 150.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21009/list"
+      },
+      {
+        "id": 21010,
+        "position": 40,
+        "content": "where their instructor might tell them a story that's got something to do with cycling,",
+        "defaultInput": "",
+        "jsonContent": [
+          "where",
+          "their",
+          "instructor",
+          "might",
+          "tell",
+          "them",
+          "a",
+          "story",
+          [
+            "that's",
+            "that is"
+          ],
+          "got",
+          "something",
+          "to",
+          "do",
+          "with",
+          "cycling,"
+        ],
+        "solution": [
+          [
+            "where"
+          ],
+          [
+            "their"
+          ],
+          [
+            "instructor"
+          ],
+          [
+            "might"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "them"
+          ],
+          [
+            "a"
+          ],
+          [
+            "story"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "got"
+          ],
+          [
+            "something"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "with"
+          ],
+          [
+            "cycling,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/40.mp3",
+        "timeStart": 150.61,
+        "timeEnd": 157.44,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/21010/list"
+      },
+      {
+        "id": 21011,
+        "position": 41,
+        "content": "or get them to play a game together.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "get",
+          "them",
+          "to",
+          "play",
+          "a",
+          "game",
+          "together."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "get"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "play"
+          ],
+          [
+            "a"
+          ],
+          [
+            "game"
+          ],
+          [
+            "together."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/41.mp3",
+        "timeStart": 157.65,
+        "timeEnd": 160.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21011/list"
+      },
+      {
+        "id": 21012,
+        "position": 42,
+        "content": "It's a lot of fun.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          "lot",
+          "of",
+          "fun."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fun."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/42.mp3",
+        "timeStart": 160.56,
+        "timeEnd": 161.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21012/list"
+      },
+      {
+        "id": 21013,
+        "position": 43,
+        "content": "It must be.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "must",
+          "be."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/43.mp3",
+        "timeStart": 162.24,
+        "timeEnd": 163.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21013/list"
+      },
+      {
+        "id": 21014,
+        "position": 44,
+        "content": "Now, what happens if there's rain?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "what",
+          "happens",
+          "if",
+          [
+            "there's",
+            "there is"
+          ],
+          "rain?"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "if"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "rain?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/44.mp3",
+        "timeStart": 164.25,
+        "timeEnd": 168.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21014/list"
+      },
+      {
+        "id": 21015,
+        "position": 45,
+        "content": "Do the classes still run?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "the",
+          "classes",
+          "still",
+          "run?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "classes"
+          ],
+          [
+            "still"
+          ],
+          [
+            "run?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/45.mp3",
+        "timeStart": 168.41,
+        "timeEnd": 170.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21015/list"
+      },
+      {
+        "id": 21016,
+        "position": 46,
+        "content": "Oh yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "yes."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/46.mp3",
+        "timeStart": 170.84,
+        "timeEnd": 172.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21016/list"
+      },
+      {
+        "id": 21017,
+        "position": 47,
+        "content": "We don't let that put us off -",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          [
+            "don't",
+            "do not"
+          ],
+          "let",
+          "that",
+          "put",
+          "us",
+          "off",
+          "-"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "let"
+          ],
+          [
+            "that"
+          ],
+          [
+            "put"
+          ],
+          [
+            "us"
+          ],
+          [
+            "off"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/47.mp3",
+        "timeStart": 172.26,
+        "timeEnd": 174.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21017/list"
+      },
+      {
+        "id": 21018,
+        "position": 48,
+        "content": "we just put on our waterproofs and keep cycling.",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "just",
+          "put",
+          "on",
+          "our",
+          "waterproofs",
+          "and",
+          "keep",
+          "cycling."
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "just"
+          ],
+          [
+            "put"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "waterproofs"
+          ],
+          [
+            "and"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "cycling."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/48.mp3",
+        "timeStart": 174.7,
+        "timeEnd": 179.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21018/list"
+      },
+      {
+        "id": 21019,
+        "position": 49,
+        "content": "And is there anything special Charlie should bring along with him?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "is",
+          "there",
+          "anything",
+          "special",
+          "Charlie",
+          "should",
+          "bring",
+          "along",
+          "with",
+          "him?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "special"
+          ],
+          [
+            "Charlie"
+          ],
+          [
+            "should"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "along"
+          ],
+          [
+            "with"
+          ],
+          [
+            "him?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/49.mp3",
+        "timeStart": 179.77,
+        "timeEnd": 185.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21019/list"
+      },
+      {
+        "id": 21020,
+        "position": 50,
+        "content": "Well, maybe some spare clothes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "maybe",
+          "some",
+          "spare",
+          "clothes,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "some"
+          ],
+          [
+            "spare"
+          ],
+          [
+            "clothes,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/50.mp3",
+        "timeStart": 185.46,
+        "timeEnd": 189,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21020/list"
+      },
+      {
+        "id": 21021,
+        "position": 51,
+        "content": "especially if the weather's not so good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "especially",
+          "if",
+          "the",
+          "weather's",
+          "not",
+          "so",
+          "good."
+        ],
+        "solution": [
+          [
+            "especially"
+          ],
+          [
+            "if"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weather's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "so"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/51.mp3",
+        "timeStart": 189.06,
+        "timeEnd": 192.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21021/list"
+      },
+      {
+        "id": 21022,
+        "position": 52,
+        "content": "And a snack for break time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "a",
+          "snack",
+          "for",
+          "break",
+          "time."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "a"
+          ],
+          [
+            "snack"
+          ],
+          [
+            "for"
+          ],
+          [
+            "break"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/52.mp3",
+        "timeStart": 192.8,
+        "timeEnd": 196.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21022/list"
+      },
+      {
+        "id": 21023,
+        "position": 53,
+        "content": "How about a drink?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "about",
+          "a",
+          "drink?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "drink?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/53.mp3",
+        "timeStart": 196.22,
+        "timeEnd": 197.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21023/list"
+      },
+      {
+        "id": 21024,
+        "position": 54,
+        "content": "No, we'll provide that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "we'll",
+            "we will"
+          ],
+          "provide",
+          "that."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/54.mp3",
+        "timeStart": 198.05,
+        "timeEnd": 200.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21024/list"
+      },
+      {
+        "id": 21025,
+        "position": 55,
+        "content": "And make sure he has shoes, not sandals.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "make",
+          "sure",
+          [
+            "he has",
+            "he's"
+          ],
+          "shoes,",
+          "not",
+          "sandals."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          [
+            "shoes,"
+          ],
+          [
+            "not"
+          ],
+          [
+            "sandals."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/55.mp3",
+        "timeStart": 201.06,
+        "timeEnd": 204.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21025/list"
+      },
+      {
+        "id": 21026,
+        "position": 56,
+        "content": "Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/56.mp3",
+        "timeStart": 205.1,
+        "timeEnd": 206.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21026/list"
+      },
+      {
+        "id": 21027,
+        "position": 57,
+        "content": "And just at present Charlie has to take medication every few hours,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "just",
+          "at",
+          "present",
+          "Charlie",
+          "has",
+          "to",
+          "take",
+          "medication",
+          "every",
+          "few",
+          "hours,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "just"
+          ],
+          [
+            "at"
+          ],
+          [
+            "present"
+          ],
+          [
+            "Charlie"
+          ],
+          [
+            "has"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "medication"
+          ],
+          [
+            "every"
+          ],
+          [
+            "few"
+          ],
+          [
+            "hours,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/57.mp3",
+        "timeStart": 206.38,
+        "timeEnd": 213.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21027/list"
+      },
+      {
+        "id": 21028,
+        "position": 58,
+        "content": "so I'll make sure he has that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "I'll",
+            "I will"
+          ],
+          "make",
+          "sure",
+          [
+            "he has",
+            "he's"
+          ],
+          "that."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/58.mp3",
+        "timeStart": 213.51,
+        "timeEnd": 216.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21028/list"
+      },
+      {
+        "id": 21029,
+        "position": 59,
+        "content": "Absolutely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Absolutely."
+        ],
+        "solution": [
+          [
+            "Absolutely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/59.mp3",
+        "timeStart": 216.36,
+        "timeEnd": 217.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21029/list"
+      },
+      {
+        "id": 21030,
+        "position": 60,
+        "content": "Just give us details of when he has to take it",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "give",
+          "us",
+          "details",
+          "of",
+          "when",
+          [
+            "he has",
+            "he's"
+          ],
+          "to",
+          "take",
+          "it"
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "give"
+          ],
+          [
+            "us"
+          ],
+          [
+            "details"
+          ],
+          [
+            "of"
+          ],
+          [
+            "when"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "it"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/60.mp3",
+        "timeStart": 218.25,
+        "timeEnd": 222.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21030/list"
+      },
+      {
+        "id": 21031,
+        "position": 61,
+        "content": "and we'll make sure he does.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "we'll",
+            "we will"
+          ],
+          "make",
+          "sure",
+          "he",
+          "does."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "he"
+          ],
+          [
+            "does."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/61.mp3",
+        "timeStart": 222.43,
+        "timeEnd": 224.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21031/list"
+      },
+      {
+        "id": 21032,
+        "position": 62,
+        "content": "Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/62.mp3",
+        "timeStart": 224.55,
+        "timeEnd": 225.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21032/list"
+      },
+      {
+        "id": 21033,
+        "position": 63,
+        "content": "Now, there are a few things you should know about Day 1 of the camp.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "there",
+          "are",
+          "a",
+          "few",
+          "things",
+          "you",
+          "should",
+          "know",
+          "about",
+          "Day",
+          [
+            "1",
+            "one"
+          ],
+          "of",
+          "the",
+          "camp."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "things"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "know"
+          ],
+          [
+            "about"
+          ],
+          [
+            "Day"
+          ],
+          [
+            "1",
+            "one"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "camp."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/63.mp3",
+        "timeStart": 225.74,
+        "timeEnd": 231.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21033/list"
+      },
+      {
+        "id": 21034,
+        "position": 64,
+        "content": "The classes normally start at 9:30 every morning,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "classes",
+          "normally",
+          "start",
+          "at",
+          "9:30",
+          "every",
+          "morning,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "classes"
+          ],
+          [
+            "normally"
+          ],
+          [
+            "start"
+          ],
+          [
+            "at"
+          ],
+          [
+            "9:30"
+          ],
+          [
+            "every"
+          ],
+          [
+            "morning,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/64.mp3",
+        "timeStart": 232.07,
+        "timeEnd": 237.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21034/list"
+      },
+      {
+        "id": 21035,
+        "position": 65,
+        "content": "but on Day 1, you should aim to get Charlie here by 9:20.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "on",
+          "Day",
+          [
+            "1,",
+            "one"
+          ],
+          "you",
+          "should",
+          "aim",
+          "to",
+          "get",
+          "Charlie",
+          "here",
+          "by",
+          "9:20."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Day"
+          ],
+          [
+            "1,",
+            "one"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "aim"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "Charlie"
+          ],
+          [
+            "here"
+          ],
+          [
+            "by"
+          ],
+          [
+            "9:20."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/65.mp3",
+        "timeStart": 237.28,
+        "timeEnd": 243.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21035/list"
+      },
+      {
+        "id": 21036,
+        "position": 66,
+        "content": "The finishing time will be 12:30 as usual.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "finishing",
+          "time",
+          "will",
+          "be",
+          "12:30",
+          "as",
+          "usual."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "finishing"
+          ],
+          [
+            "time"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "12:30"
+          ],
+          [
+            "as"
+          ],
+          [
+            "usual."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/66.mp3",
+        "timeStart": 243.74,
+        "timeEnd": 248.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21036/list"
+      },
+      {
+        "id": 21037,
+        "position": 67,
+        "content": "We need the additional time because there are a few extra things to do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "need",
+          "the",
+          "additional",
+          "time",
+          "because",
+          "there",
+          "are",
+          "a",
+          "few",
+          "extra",
+          "things",
+          "to",
+          "do."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "need"
+          ],
+          [
+            "the"
+          ],
+          [
+            "additional"
+          ],
+          [
+            "time"
+          ],
+          [
+            "because"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "things"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/67.mp3",
+        "timeStart": 249.27,
+        "timeEnd": 255.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21037/list"
+      },
+      {
+        "id": 21038,
+        "position": 68,
+        "content": "The most important is that we have a very careful check to make sure that every child's helmet fits properly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "most",
+          "important",
+          "is",
+          "that",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "very",
+          "careful",
+          "check",
+          "to",
+          "make",
+          "sure",
+          "that",
+          "every",
+          "child's",
+          "helmet",
+          "fits",
+          "properly."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "most"
+          ],
+          [
+            "important"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "careful"
+          ],
+          [
+            "check"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "that"
+          ],
+          [
+            "every"
+          ],
+          [
+            "child's"
+          ],
+          [
+            "helmet"
+          ],
+          [
+            "fits"
+          ],
+          [
+            "properly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/68.mp3",
+        "timeStart": 255.8,
+        "timeEnd": 265.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21038/list"
+      },
+      {
+        "id": 21039,
+        "position": 69,
+        "content": "If it doesn't fit, we'll try to adjust it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "fit,",
+          [
+            "we'll",
+            "we will"
+          ],
+          "try",
+          "to",
+          "adjust",
+          "it,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "fit,"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "adjust"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/69.mp3",
+        "timeStart": 265.91,
+        "timeEnd": 269.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21039/list"
+      },
+      {
+        "id": 21040,
+        "position": 70,
+        "content": "or we'll find him another one -",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          [
+            "we'll",
+            "we will"
+          ],
+          "find",
+          "him",
+          "another",
+          [
+            "one",
+            "1"
+          ],
+          "-"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "find"
+          ],
+          [
+            "him"
+          ],
+          [
+            "another"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/70.mp3",
+        "timeStart": 269.87,
+        "timeEnd": 272.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21040/list"
+      },
+      {
+        "id": 21041,
+        "position": 71,
+        "content": "but he must wear it all the time he's on the bike.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "he",
+          "must",
+          "wear",
+          "it",
+          "all",
+          "the",
+          "time",
+          "he's",
+          "on",
+          "the",
+          "bike."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "he"
+          ],
+          [
+            "must"
+          ],
+          [
+            "wear"
+          ],
+          [
+            "it"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bike."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/71.mp3",
+        "timeStart": 272.72,
+        "timeEnd": 276.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21041/list"
+      },
+      {
+        "id": 21042,
+        "position": 72,
+        "content": "Of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/72.mp3",
+        "timeStart": 277.01,
+        "timeEnd": 278.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21042/list"
+      },
+      {
+        "id": 21043,
+        "position": 73,
+        "content": "Then after that, all the instructors will be waiting to meet their classes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "after",
+          "that,",
+          "all",
+          "the",
+          "instructors",
+          "will",
+          "be",
+          "waiting",
+          "to",
+          "meet",
+          "their",
+          "classes,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "after"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "instructors"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "waiting"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "their"
+          ],
+          [
+            "classes,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/73.mp3",
+        "timeStart": 278.59,
+        "timeEnd": 284.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21043/list"
+      },
+      {
+        "id": 21044,
+        "position": 74,
+        "content": "and they'll meet up in the tent -",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "they'll",
+            "they will"
+          ],
+          "meet",
+          "up",
+          "in",
+          "the",
+          "tent",
+          "-"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they'll",
+            "they will"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "up"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tent"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/74.mp3",
+        "timeStart": 285.08,
+        "timeEnd": 287.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21044/list"
+      },
+      {
+        "id": 21045,
+        "position": 75,
+        "content": "you can't miss it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "can't",
+          "miss",
+          "it."
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "miss"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/75.mp3",
+        "timeStart": 287.85,
+        "timeEnd": 289.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21045/list"
+      },
+      {
+        "id": 21046,
+        "position": 76,
+        "content": "And each instructor will take their class away and get started.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "each",
+          "instructor",
+          "will",
+          "take",
+          "their",
+          "class",
+          "away",
+          "and",
+          "get",
+          "started."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "each"
+          ],
+          [
+            "instructor"
+          ],
+          [
+            "will"
+          ],
+          [
+            "take"
+          ],
+          [
+            "their"
+          ],
+          [
+            "class"
+          ],
+          [
+            "away"
+          ],
+          [
+            "and"
+          ],
+          [
+            "get"
+          ],
+          [
+            "started."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/76.mp3",
+        "timeStart": 289.46,
+        "timeEnd": 294.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21046/list"
+      },
+      {
+        "id": 21047,
+        "position": 77,
+        "content": "OK. Well that all sounds good.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "Well",
+          "that",
+          "all",
+          "sounds",
+          "good."
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "Well"
+          ],
+          [
+            "that"
+          ],
+          [
+            "all"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/77.mp3",
+        "timeStart": 295.42,
+        "timeEnd": 299.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21047/list"
+      },
+      {
+        "id": 21048,
+        "position": 78,
+        "content": "Now, can you tell me how much the camp costs a week?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "can",
+          "you",
+          "tell",
+          "me",
+          "how",
+          "much",
+          "the",
+          "camp",
+          "costs",
+          "a",
+          "week?"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "how"
+          ],
+          [
+            "much"
+          ],
+          [
+            "the"
+          ],
+          [
+            "camp"
+          ],
+          [
+            "costs"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/78.mp3",
+        "timeStart": 299.6,
+        "timeEnd": 304.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21048/list"
+      },
+      {
+        "id": 21049,
+        "position": 79,
+        "content": "$199.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "$199.",
+            "199. dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "$199.",
+            "199. dollars"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/79.mp3",
+        "timeStart": 305.21,
+        "timeEnd": 308.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21049/list"
+      },
+      {
+        "id": 21050,
+        "position": 80,
+        "content": "We've managed to keep the price more or less the same as last year -",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "we have"
+          ],
+          "managed",
+          "to",
+          "keep",
+          "the",
+          "price",
+          "more",
+          "or",
+          "less",
+          "the",
+          "same",
+          "as",
+          "last",
+          "year",
+          "-"
+        ],
+        "solution": [
+          [
+            "We've",
+            "we have"
+          ],
+          [
+            "managed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "the"
+          ],
+          [
+            "price"
+          ],
+          [
+            "more"
+          ],
+          [
+            "or"
+          ],
+          [
+            "less"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "as"
+          ],
+          [
+            "last"
+          ],
+          [
+            "year"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/80.mp3",
+        "timeStart": 309.19,
+        "timeEnd": 314.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21050/list"
+      },
+      {
+        "id": 21051,
+        "position": 81,
+        "content": "it was 190 then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "was",
+          "190",
+          "then."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "190"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/81.mp3",
+        "timeStart": 315,
+        "timeEnd": 317.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21051/list"
+      },
+      {
+        "id": 21052,
+        "position": 82,
+        "content": "But the places are filling up quite quickly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "places",
+          "are",
+          "filling",
+          "up",
+          "quite",
+          "quickly."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "places"
+          ],
+          [
+            "are"
+          ],
+          [
+            "filling"
+          ],
+          [
+            "up"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "quickly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/82.mp3",
+        "timeStart": 318.36,
+        "timeEnd": 321.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21052/list"
+      },
+      {
+        "id": 21053,
+        "position": 83,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/83.mp3",
+        "timeStart": 322.16,
+        "timeEnd": 322.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21053/list"
+      },
+      {
+        "id": 21054,
+        "position": 84,
+        "content": "OK, well I'd like to book for...",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK,",
+            "okay"
+          ],
+          "well",
+          "I'd",
+          "like",
+          "to",
+          "book",
+          "for..."
+        ],
+        "solution": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "well"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "book"
+          ],
+          [
+            "for..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-16-test-3-part-1-2023-01-02-23-49-11/84.mp3",
+        "timeStart": 323.04,
+        "timeEnd": 326.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/21054/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "20971": {
+      "id": 326079,
+      "text": "Xin chào, trại xe đạp thiếu nhi, Jake đang nói.",
+      "author": "a user"
+    },
+    "20973": {
+      "id": 336014,
+      "text": "Tôi đang gọi để biết một số thông tin về trại tổ chức xe đạp",
+      "author": "a user"
+    },
+    "20984": {
+      "id": 336056,
+      "text": "Họ bắt đầu thực hành ngoài thực địa ở đây,",
+      "author": "a user"
+    },
+    "20997": {
+      "id": 340633,
+      "text": "Tất cả giảng viên của chúng tôi đều phải nộp một thư giới thiệu từ người đã từng thấy họ làm việc với trẻ em.",
+      "author": "a user"
+    },
+    "21001": {
+      "id": 343087,
+      "text": "và nhìn chung là quan tâm đến sức khỏe của học sinh trong lớp của họ.",
+      "author": "a user"
+    },
+    "21005": {
+      "id": 343091,
+      "text": "Lớp học của Charlie sẽ có sĩ số bao nhiêu?",
+      "author": "a user"
+    },
+    "21008": {
+      "id": 343095,
+      "text": "Hầu hết thời gian họ đạp xe bên ngoài",
+      "author": "a user"
+    },
+    "21015": {
+      "id": 343108,
+      "text": "Các lớp học vẫn diễn ra chứ?",
+      "author": "a user"
+    },
+    "21017": {
+      "id": 343110,
+      "text": "Chúng tôi không để điều đó làm chúng tôi hoãn lại -",
+      "author": "a user"
+    },
+    "21018": {
+      "id": 343113,
+      "text": "chúng tôi chỉ cần mặc áo mưa và tiếp tục đạp xe.",
+      "author": "a user"
+    },
+    "21040": {
+      "id": 343135,
+      "text": "hoặc chúng ta sẽ tìm cho anh ta một cái khác -",
+      "author": "a user"
+    },
+    "21047": {
+      "id": 343142,
+      "text": "VÂNG. Vâng, nghe có vẻ tất cả rất tốt\n",
+      "author": "a user"
+    },
+    "21050": {
+      "id": 343145,
+      "text": "Chúng tôi đã cố gắng giữ giá gần như giống năm ngoái",
+      "author": "a user"
+    },
+    "21052": {
+      "id": 343147,
+      "text": "Nhưng các chỗ trong trại hè đạp xe đang được đăng ký rất nhanh",
+      "author": "a user"
+    },
+    "20972": {
+      "id": 2593241,
+      "text": "Chào bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "20974": {
+      "id": 2593242,
+      "text": "Tôi đang nghĩ đến việc cho con trai mình tham gia.",
+      "author": "ChatGPT4.1"
+    },
+    "20975": {
+      "id": 2593243,
+      "text": "Tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "20976": {
+      "id": 2593244,
+      "text": "Trại được tổ chức vào mỗi buổi sáng các ngày trong tuần suốt kỳ nghỉ hè",
+      "author": "ChatGPT4.1"
+    },
+    "20977": {
+      "id": 2593245,
+      "text": "và chúng tôi tập trung vào các kỹ năng đi xe đạp cơ bản cũng như an toàn.",
+      "author": "ChatGPT4.1"
+    },
+    "20978": {
+      "id": 2593246,
+      "text": "Chúng tôi có tám cấp độ dành cho trẻ từ ba tuổi trở lên.",
+      "author": "ChatGPT4.1"
+    },
+    "20979": {
+      "id": 2593247,
+      "text": "Con trai bạn bao nhiêu tuổi?",
+      "author": "ChatGPT4.1"
+    },
+    "20980": {
+      "id": 2593248,
+      "text": "Charlie à? Cháu bảy tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "20981": {
+      "id": 2593249,
+      "text": "Cháu biết đi xe đạp,",
+      "author": "ChatGPT4.1"
+    },
+    "20982": {
+      "id": 2593250,
+      "text": "nhưng cháu cần thêm một ít huấn luyện nữa trước khi có thể an toàn đi trên đường phố.",
+      "author": "ChatGPT4.1"
+    },
+    "20983": {
+      "id": 2593251,
+      "text": "Có lẽ cháu phù hợp nhất với Cấp độ 5.",
+      "author": "ChatGPT4.1"
+    },
+    "20985": {
+      "id": 2593252,
+      "text": "và chúng tôi hướng đến việc giúp các em có thể đi xe ngoài đường,",
+      "author": "ChatGPT4.1"
+    },
+    "20986": {
+      "id": 2593253,
+      "text": "nhưng trước tiên chúng phải luyện tập chạy xe trong công viên, tránh xa xe cộ",
+      "author": "a user"
+    },
+    "20987": {
+      "id": 2593254,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "20988": {
+      "id": 2593255,
+      "text": "Bạn có thể cho tôi biết một chút về các huấn luyện viên không?",
+      "author": "ChatGPT4.1"
+    },
+    "20989": {
+      "id": 2593256,
+      "text": "Tất cả các nhân viên của chúng tôi đều mặc áo phông màu khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "20990": {
+      "id": 2593257,
+      "text": "Chúng tôi có ba giám sát viên, họ mặc áo đỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "20991": {
+      "id": 2593258,
+      "text": "Họ hỗ trợ các huấn luyện viên,",
+      "author": "ChatGPT4.1"
+    },
+    "20992": {
+      "id": 2593259,
+      "text": "và họ cũng thay tôi nếu tôi không có mặt.",
+      "author": "ChatGPT4.1"
+    },
+    "20993": {
+      "id": 2593260,
+      "text": "Các huấn luyện viên thì mặc áo xanh dương,",
+      "author": "ChatGPT4.1"
+    },
+    "20994": {
+      "id": 2593261,
+      "text": "và mỗi người trong số họ phụ trách một lớp.",
+      "author": "ChatGPT4.1"
+    },
+    "20995": {
+      "id": 2593262,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "20996": {
+      "id": 2593263,
+      "text": "Để được nhận vào,",
+      "author": "ChatGPT4.1"
+    },
+    "20998": {
+      "id": 2593264,
+      "text": "chẳng hạn như nếu họ đã từng làm việc với vai trò là người trông trẻ.",
+      "author": "a user"
+    },
+    "20999": {
+      "id": 2593265,
+      "text": "Sau đó họ phải hoàn thành khóa đào tạo của chúng tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "21000": {
+      "id": 2593266,
+      "text": "bao gồm cách soạn giáo án,",
+      "author": "ChatGPT4.1"
+    },
+    "21002": {
+      "id": 2594248,
+      "text": "Tôi phải nói rằng họ làm việc rất tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "21003": {
+      "id": 2594249,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "21004": {
+      "id": 2594250,
+      "text": "Và hãy nói cho tôi biết một chút về các lớp học.",
+      "author": "ChatGPT4.1"
+    },
+    "21006": {
+      "id": 2594251,
+      "text": "Mỗi lớp chúng tôi giới hạn tối đa tám em,",
+      "author": "ChatGPT4.1"
+    },
+    "21007": {
+      "id": 2594252,
+      "text": "nên huấn luyện viên sẽ hiểu rõ từng em.",
+      "author": "ChatGPT4.1"
+    },
+    "21009": {
+      "id": 2594253,
+      "text": "nhưng cũng có những khoảng thời gian yên tĩnh,",
+      "author": "ChatGPT4.1"
+    },
+    "21010": {
+      "id": 2594254,
+      "text": "đó là lúc người hướng dẫn có thể kể cho chúng nghe một câu chuyện liên quan đến việc đạp xe",
+      "author": "a user"
+    },
+    "21011": {
+      "id": 2594255,
+      "text": "hoặc cho các em chơi một trò chơi cùng nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "21012": {
+      "id": 2594256,
+      "text": "Rất vui đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "21013": {
+      "id": 2594257,
+      "text": "Chắc là vậy rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "21014": {
+      "id": 2594258,
+      "text": "Vậy nếu trời mưa thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "21016": {
+      "id": 2594259,
+      "text": "Ồ có chứ.",
+      "author": "ChatGPT4.1"
+    },
+    "21019": {
+      "id": 2594596,
+      "text": "Có điều gì đặc biệt mà Charlie nên mang theo không?",
+      "author": "ChatGPT4.1"
+    },
+    "21020": {
+      "id": 2594597,
+      "text": "Có lẽ là vài bộ quần áo dự phòng,",
+      "author": "ChatGPT4.1"
+    },
+    "21021": {
+      "id": 2594598,
+      "text": "nhất là nếu thời tiết không tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "21022": {
+      "id": 2594599,
+      "text": "Và một món ăn nhẹ cho giờ nghỉ.",
+      "author": "ChatGPT4.1"
+    },
+    "21023": {
+      "id": 2594600,
+      "text": "Còn nước uống thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "21024": {
+      "id": 2594601,
+      "text": "Không cần, chúng tôi sẽ chuẩn bị nước.",
+      "author": "ChatGPT4.1"
+    },
+    "21025": {
+      "id": 2594602,
+      "text": "Và nhớ chắc chắn rằng cậu bé đi giày, không phải dép.",
+      "author": "ChatGPT4.1"
+    },
+    "21026": {
+      "id": 2594603,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "21027": {
+      "id": 2594604,
+      "text": "Hiện tại Charlie cần phải uống thuốc vài tiếng một lần,",
+      "author": "ChatGPT4.1"
+    },
+    "21028": {
+      "id": 2594605,
+      "text": "tôi sẽ đảm bảo bé có thuốc mang theo.",
+      "author": "ChatGPT4.1"
+    },
+    "21029": {
+      "id": 2594606,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "21030": {
+      "id": 2594607,
+      "text": "Bạn chỉ cần đưa cho chúng tôi chi tiết về thời gian uống thuốc",
+      "author": "ChatGPT4.1"
+    },
+    "21031": {
+      "id": 2594608,
+      "text": "và chúng tôi sẽ đảm bảo bé được uống đúng giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "21032": {
+      "id": 2594609,
+      "text": "Cảm ơn.",
+      "author": "ChatGPT4.1"
+    },
+    "21033": {
+      "id": 2594610,
+      "text": "Bây giờ, có một vài điều bạn cần biết về ngày đầu tiên ở trại.",
+      "author": "ChatGPT4.1"
+    },
+    "21034": {
+      "id": 2594864,
+      "text": "Các lớp thông thường sẽ bắt đầu lúc 9:30 mỗi sáng,",
+      "author": "ChatGPT4.1"
+    },
+    "21035": {
+      "id": 2594865,
+      "text": "nhưng vào ngày đầu tiên, bạn nên đưa Charlie đến đây trước 9:20.",
+      "author": "ChatGPT4.1"
+    },
+    "21036": {
+      "id": 2594866,
+      "text": "Giờ kết thúc sẽ là 12:30 như mọi khi.",
+      "author": "ChatGPT4.1"
+    },
+    "21037": {
+      "id": 2594867,
+      "text": "Chúng tôi cần thêm thời gian vì có một số việc cần làm thêm.",
+      "author": "ChatGPT4.1"
+    },
+    "21038": {
+      "id": 2594868,
+      "text": "Điều quan trọng nhất là chúng tôi kiểm tra rất kỹ để đảm bảo mũ bảo hiểm của từng trẻ đều vừa vặn,",
+      "author": "ChatGPT4.1"
+    },
+    "21039": {
+      "id": 2594869,
+      "text": "Nếu chưa vừa, chúng tôi sẽ cố điều chỉnh,",
+      "author": "ChatGPT4.1"
+    },
+    "21041": {
+      "id": 2594870,
+      "text": "nhưng cháu bắt buộc phải đội mũ trong suốt thời gian đi xe đạp.",
+      "author": "ChatGPT4.1"
+    },
+    "21042": {
+      "id": 2594871,
+      "text": "Tất nhiên rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "21043": {
+      "id": 2594872,
+      "text": "Sau đó, tất cả các huấn luyện viên sẽ đứng đợi để gặp lớp của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "21044": {
+      "id": 2594873,
+      "text": "và họ sẽ tập trung trong lều -",
+      "author": "ChatGPT4.1"
+    },
+    "21045": {
+      "id": 2594874,
+      "text": "bạn sẽ không thể nhầm được đâu.",
+      "author": "ChatGPT4.1"
+    },
+    "21046": {
+      "id": 2594875,
+      "text": "Và mỗi huấn luyện viên sẽ dẫn lớp mình đi để bắt đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "21048": {
+      "id": 2594876,
+      "text": "Giờ, bạn có thể cho tôi biết trại có giá bao nhiêu một tuần không?",
+      "author": "ChatGPT4.1"
+    },
+    "21049": {
+      "id": 2595313,
+      "text": "199 đô la.",
+      "author": "ChatGPT4.1"
+    },
+    "21051": {
+      "id": 2595314,
+      "text": "khi đó là 190 đô la.",
+      "author": "ChatGPT4.1"
+    },
+    "21053": {
+      "id": 2595315,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "21054": {
+      "id": 2595316,
+      "text": "Được rồi, vậy tôi muốn đăng ký cho...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,909 @@
+{
+  "summary": {
+    "id": 1844,
+    "name": "Conversation 278",
+    "subTitle": "Order Address Correction Call",
+    "levelName": "B1",
+    "position": 627,
+    "totalChallenges": 16,
+    "groupId": 75,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1844",
+  "detail": {
+    "id": 1844,
+    "lessonName": "Conversation 278",
+    "name": "Conversation 278",
+    "position": 627,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/0-conversation-278.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70962,
+        "position": 1,
+        "content": "Good afternoon.",
+        "defaultInput": "Good afternoon.",
+        "jsonContent": [
+          "Good",
+          "afternoon."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70962/list"
+      },
+      {
+        "id": 70963,
+        "position": 2,
+        "content": "This is Troy Robbins from Urban Trends.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "Troy",
+          "Robbins",
+          "from",
+          "Urban",
+          "Trends."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Troy"
+          ],
+          [
+            "Robbins"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Urban"
+          ],
+          [
+            "Trends."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/2.mp3",
+        "timeStart": 1.25,
+        "timeEnd": 3.75,
+        "hints": [
+          "Troy Robbins"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70963/list"
+      },
+      {
+        "id": 70964,
+        "position": 3,
+        "content": "I'm calling to let you know that the shoes you ordered online were returned to us because the address provided was incorrect.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "to",
+          "let",
+          "you",
+          "know",
+          "that",
+          "the",
+          "shoes",
+          "you",
+          "ordered",
+          "online",
+          "were",
+          "returned",
+          "to",
+          "us",
+          "because",
+          "the",
+          "address",
+          "provided",
+          "was",
+          "incorrect."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shoes"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ordered"
+          ],
+          [
+            "online"
+          ],
+          [
+            "were"
+          ],
+          [
+            "returned"
+          ],
+          [
+            "to"
+          ],
+          [
+            "us"
+          ],
+          [
+            "because"
+          ],
+          [
+            "the"
+          ],
+          [
+            "address"
+          ],
+          [
+            "provided"
+          ],
+          [
+            "was"
+          ],
+          [
+            "incorrect."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/3.mp3",
+        "timeStart": 3.85,
+        "timeEnd": 10.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70964/list"
+      },
+      {
+        "id": 70965,
+        "position": 4,
+        "content": "Oh... My apologies for that oversight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh...",
+          "My",
+          "apologies",
+          "for",
+          "that",
+          "oversight."
+        ],
+        "solution": [
+          [
+            "Oh..."
+          ],
+          [
+            "My"
+          ],
+          [
+            "apologies"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that"
+          ],
+          [
+            "oversight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/4.mp3",
+        "timeStart": 10.58,
+        "timeEnd": 13.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70965/list"
+      },
+      {
+        "id": 70966,
+        "position": 5,
+        "content": "Could you please ship them again?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "please",
+          "ship",
+          "them",
+          "again?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "please"
+          ],
+          [
+            "ship"
+          ],
+          [
+            "them"
+          ],
+          [
+            "again?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/5.mp3",
+        "timeStart": 13.02,
+        "timeEnd": 14.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70966/list"
+      },
+      {
+        "id": 70967,
+        "position": 6,
+        "content": "My correct address is 4623 Elm Street.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "correct",
+          "address",
+          "is",
+          "4623",
+          "Elm",
+          "Street."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "correct"
+          ],
+          [
+            "address"
+          ],
+          [
+            "is"
+          ],
+          [
+            "4623"
+          ],
+          [
+            "Elm"
+          ],
+          [
+            "Street."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/6.mp3",
+        "timeStart": 14.84,
+        "timeEnd": 18.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70967/list"
+      },
+      {
+        "id": 70968,
+        "position": 7,
+        "content": "Of course, we'll get that sorted for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course,",
+          [
+            "we'll",
+            "we will"
+          ],
+          "get",
+          "that",
+          "sorted",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "get"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sorted"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/7.mp3",
+        "timeStart": 18.41,
+        "timeEnd": 20.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70968/list"
+      },
+      {
+        "id": 70969,
+        "position": 8,
+        "content": "Expect them to arrive in about a week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Expect",
+          "them",
+          "to",
+          "arrive",
+          "in",
+          "about",
+          "a",
+          "week."
+        ],
+        "solution": [
+          [
+            "Expect"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "arrive"
+          ],
+          [
+            "in"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/8.mp3",
+        "timeStart": 20.81,
+        "timeEnd": 23.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70969/list"
+      },
+      {
+        "id": 70970,
+        "position": 9,
+        "content": "Great, that's fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great,",
+          "that's",
+          "fine."
+        ],
+        "solution": [
+          [
+            "Great,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/9.mp3",
+        "timeStart": 23.35,
+        "timeEnd": 24.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70970/list"
+      },
+      {
+        "id": 70971,
+        "position": 10,
+        "content": "While I have you on the line, could you explain how to track my order on your website?",
+        "defaultInput": "",
+        "jsonContent": [
+          "While",
+          [
+            "I have",
+            "I've"
+          ],
+          "you",
+          "on",
+          "the",
+          "line,",
+          "could",
+          "you",
+          "explain",
+          "how",
+          "to",
+          "track",
+          "my",
+          "order",
+          "on",
+          "your",
+          "website?"
+        ],
+        "solution": [
+          [
+            "While"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "you"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "line,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "explain"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "track"
+          ],
+          [
+            "my"
+          ],
+          [
+            "order"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "website?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/10.mp3",
+        "timeStart": 24.82,
+        "timeEnd": 29.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70971/list"
+      },
+      {
+        "id": 70972,
+        "position": 11,
+        "content": "I had some difficulty with it last time.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "some",
+          "difficulty",
+          "with",
+          "it",
+          "last",
+          "time."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "some"
+          ],
+          [
+            "difficulty"
+          ],
+          [
+            "with"
+          ],
+          [
+            "it"
+          ],
+          [
+            "last"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/11.mp3",
+        "timeStart": 29.37,
+        "timeEnd": 31.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70972/list"
+      },
+      {
+        "id": 70973,
+        "position": 12,
+        "content": "Certainly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly."
+        ],
+        "solution": [
+          [
+            "Certainly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/12.mp3",
+        "timeStart": 31.8,
+        "timeEnd": 32.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70973/list"
+      },
+      {
+        "id": 70974,
+        "position": 13,
+        "content": "You'll need to log into your account,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You'll",
+            "You will"
+          ],
+          "need",
+          "to",
+          "log",
+          "into",
+          "your",
+          "account,"
+        ],
+        "solution": [
+          [
+            "You'll",
+            "You will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "log"
+          ],
+          [
+            "into"
+          ],
+          [
+            "your"
+          ],
+          [
+            "account,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/13.mp3",
+        "timeStart": 32.77,
+        "timeEnd": 34.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70974/list"
+      },
+      {
+        "id": 70975,
+        "position": 14,
+        "content": "and then go to the \"Order History\" section.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "then",
+          "go",
+          "to",
+          "the",
+          "\"Order",
+          "History\"",
+          "section."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "\"Order"
+          ],
+          [
+            "History\""
+          ],
+          [
+            "section."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/14.mp3",
+        "timeStart": 34.79,
+        "timeEnd": 37.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70975/list"
+      },
+      {
+        "id": 70976,
+        "position": 15,
+        "content": "There, you'll find a \"Track Order\" link next to your recent purchase.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There,",
+          [
+            "you'll",
+            "you will"
+          ],
+          "find",
+          "a",
+          "\"Track",
+          "Order\"",
+          "link",
+          "next",
+          "to",
+          "your",
+          "recent",
+          "purchase."
+        ],
+        "solution": [
+          [
+            "There,"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "find"
+          ],
+          [
+            "a"
+          ],
+          [
+            "\"Track"
+          ],
+          [
+            "Order\""
+          ],
+          [
+            "link"
+          ],
+          [
+            "next"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "recent"
+          ],
+          [
+            "purchase."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/15.mp3",
+        "timeStart": 37.3,
+        "timeEnd": 41.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70976/list"
+      },
+      {
+        "id": 70977,
+        "position": 16,
+        "content": "Click on it to follow your order's progress.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Click",
+          "on",
+          "it",
+          "to",
+          "follow",
+          "your",
+          "order's",
+          "progress."
+        ],
+        "solution": [
+          [
+            "Click"
+          ],
+          [
+            "on"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "follow"
+          ],
+          [
+            "your"
+          ],
+          [
+            "order's"
+          ],
+          [
+            "progress."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-278-2024-11-10-11-21-40/16.mp3",
+        "timeStart": 41.89,
+        "timeEnd": 44.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70977/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "70962": {
+      "id": 2584921,
+      "text": "Chào buổi chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "70963": {
+      "id": 2584922,
+      "text": "Tôi là Troy Robbins từ Urban Trends.",
+      "author": "ChatGPT4.1"
+    },
+    "70964": {
+      "id": 2584923,
+      "text": "Tôi gọi để thông báo rằng đôi giày bạn đặt mua trực tuyến đã được trả lại cho chúng tôi vì địa chỉ cung cấp không chính xác.",
+      "author": "ChatGPT4.1"
+    },
+    "70965": {
+      "id": 2584924,
+      "text": "Ồ... Tôi xin lỗi về sự sơ suất đó.",
+      "author": "ChatGPT4.1"
+    },
+    "70966": {
+      "id": 2584925,
+      "text": "Bạn có thể gửi lại chúng giúp tôi không?",
+      "author": "ChatGPT4.1"
+    },
+    "70967": {
+      "id": 2584926,
+      "text": "Địa chỉ đúng của tôi là 4623 Elm Street.",
+      "author": "ChatGPT4.1"
+    },
+    "70968": {
+      "id": 2584927,
+      "text": "Tất nhiên, chúng tôi sẽ sắp xếp lại cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "70969": {
+      "id": 2584928,
+      "text": "Dự kiến chúng sẽ đến trong khoảng một tuần nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "70970": {
+      "id": 2584929,
+      "text": "Tuyệt vời, như vậy là được.",
+      "author": "ChatGPT4.1"
+    },
+    "70971": {
+      "id": 2584930,
+      "text": "Nhân tiện bạn còn trên máy, bạn có thể hướng dẫn tôi cách theo dõi đơn hàng trên trang web của bạn không?",
+      "author": "ChatGPT4.1"
+    },
+    "70972": {
+      "id": 2584931,
+      "text": "Lần trước tôi gặp một chút khó khăn với việc này.",
+      "author": "ChatGPT4.1"
+    },
+    "70973": {
+      "id": 2584932,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "70974": {
+      "id": 2584933,
+      "text": "Bạn cần đăng nhập vào tài khoản của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "70975": {
+      "id": 2584934,
+      "text": "và sau đó vào phần \"Lịch sử đơn hàng\".",
+      "author": "ChatGPT4.1"
+    },
+    "70976": {
+      "id": 2584935,
+      "text": "Ở đó, bạn sẽ thấy liên kết \"Theo dõi đơn hàng\" bên cạnh lần mua gần đây nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "70977": {
+      "id": 2584936,
+      "text": "Nhấn vào đó để theo dõi tiến trình đơn hàng của bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

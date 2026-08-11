@@ -1,0 +1,473 @@
+{
+  "summary": {
+    "id": 456,
+    "name": "58. A Light Eater",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 59,
+    "totalChallenges": 10,
+    "groupId": 104,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/456",
+  "detail": {
+    "id": 456,
+    "lessonName": "58. A Light Eater",
+    "name": "58. A Light Eater",
+    "position": 59,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/0-58-a-light-eater.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18403,
+        "position": 1,
+        "content": "Would you like anything else? You haven't eaten very much.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "like",
+          "anything",
+          "else?",
+          "You",
+          [
+            "haven't",
+            "have not"
+          ],
+          "eaten",
+          "very",
+          "much."
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "else?"
+          ],
+          [
+            "You"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "eaten"
+          ],
+          [
+            "very"
+          ],
+          [
+            "much."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/1.mp3",
+        "timeStart": 2.92,
+        "timeEnd": 5.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18403/list"
+      },
+      {
+        "id": 18404,
+        "position": 2,
+        "content": "No, thanks. I'm already full.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "thanks.",
+          [
+            "I'm",
+            "I am"
+          ],
+          "already",
+          "full."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "thanks."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "already"
+          ],
+          [
+            "full."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/2.mp3",
+        "timeStart": 5.88,
+        "timeEnd": 7.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18404/list"
+      },
+      {
+        "id": 18405,
+        "position": 3,
+        "content": "Oh, come on. Have some more.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "come",
+          "on.",
+          "Have",
+          "some",
+          "more."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "come"
+          ],
+          [
+            "on."
+          ],
+          [
+            "Have"
+          ],
+          [
+            "some"
+          ],
+          [
+            "more."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/3.mp3",
+        "timeStart": 7.86,
+        "timeEnd": 10.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18405/list"
+      },
+      {
+        "id": 18406,
+        "position": 4,
+        "content": "No, I really can't. I've never been much of an eater.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "I",
+          "really",
+          "can't.",
+          [
+            "I've",
+            "I have"
+          ],
+          "never",
+          "been",
+          "much",
+          "of",
+          "an",
+          "eater."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "can't."
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "never"
+          ],
+          [
+            "been"
+          ],
+          [
+            "much"
+          ],
+          [
+            "of"
+          ],
+          [
+            "an"
+          ],
+          [
+            "eater."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/4.mp3",
+        "timeStart": 10.12,
+        "timeEnd": 13.84,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18406/list"
+      },
+      {
+        "id": 18407,
+        "position": 5,
+        "content": "Have some coffee then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "some",
+          "coffee",
+          "then."
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "some"
+          ],
+          [
+            "coffee"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/5.mp3",
+        "timeStart": 14.2,
+        "timeEnd": 15.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18407/list"
+      },
+      {
+        "id": 18408,
+        "position": 6,
+        "content": "That would be nice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "would",
+          "be",
+          "nice."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "nice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/6.mp3",
+        "timeStart": 15.41,
+        "timeEnd": 16.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18408/list"
+      },
+      {
+        "id": 18409,
+        "position": 7,
+        "content": "How do you take it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "do",
+          "you",
+          "take",
+          "it?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "take"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/7.mp3",
+        "timeStart": 16.66,
+        "timeEnd": 17.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18409/list"
+      },
+      {
+        "id": 18410,
+        "position": 8,
+        "content": "With sugar please, no cream.",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "sugar",
+          "please,",
+          "no",
+          "cream."
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "sugar"
+          ],
+          [
+            "please,"
+          ],
+          [
+            "no"
+          ],
+          [
+            "cream."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/8.mp3",
+        "timeStart": 17.77,
+        "timeEnd": 19.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18410/list"
+      },
+      {
+        "id": 18411,
+        "position": 9,
+        "content": "Here you are.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Here",
+          [
+            "you are.",
+            "you're"
+          ]
+        ],
+        "solution": [
+          [
+            "Here"
+          ],
+          [
+            "you are.",
+            "you're"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/9.mp3",
+        "timeStart": 19.96,
+        "timeEnd": 20.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18411/list"
+      },
+      {
+        "id": 18412,
+        "position": 10,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/58-a-light-eater-2022-03-07-21-24-02/10.mp3",
+        "timeStart": 20.99,
+        "timeEnd": 21.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18412/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18403": {
+      "id": 32408,
+      "text": "Bạn có muốn ăn thêm gì nữa không? Bạn chưa ăn nhiều lắm.",
+      "author": "a user"
+    },
+    "18405": {
+      "id": 32411,
+      "text": "Ồ, thôi nào. Ăn thêm chút đi.",
+      "author": "a user"
+    },
+    "18407": {
+      "id": 32416,
+      "text": "Vậy uống chút cà phê nhé.",
+      "author": "a user"
+    },
+    "18409": {
+      "id": 32420,
+      "text": "Bạn muốn dùng như nào?",
+      "author": "a user"
+    },
+    "18410": {
+      "id": 32422,
+      "text": "Xin vui lòng cho đường, không kem.",
+      "author": "a user"
+    },
+    "18404": {
+      "id": 2601752,
+      "text": "Không, cảm ơn. Tôi no rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "18406": {
+      "id": 2601753,
+      "text": "Không, thật sự tôi không thể. Tôi chưa bao giờ ăn nhiều cả.",
+      "author": "ChatGPT4.1"
+    },
+    "18408": {
+      "id": 2601755,
+      "text": "Như vậy thì thật tuyệt.",
+      "author": "ChatGPT4.1"
+    },
+    "18411": {
+      "id": 2601756,
+      "text": "Của bạn đây.",
+      "author": "ChatGPT4.1"
+    },
+    "18412": {
+      "id": 2601758,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

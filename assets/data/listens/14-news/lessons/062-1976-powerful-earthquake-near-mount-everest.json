@@ -1,0 +1,836 @@
+{
+  "summary": {
+    "id": 1976,
+    "name": "Powerful Earthquake Near Mount Everest",
+    "subTitle": "",
+    "levelName": "B2",
+    "position": 62,
+    "totalChallenges": 13,
+    "groupId": 110,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1976",
+  "detail": {
+    "id": 1976,
+    "lessonName": "Powerful Earthquake Near Mount Everest",
+    "name": "Powerful Earthquake Near Mount Everest",
+    "position": 62,
+    "levelName": "B2",
+    "audioSrc": "",
+    "youtubeVideoId": "I1yY-lsSsWc",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 76103,
+        "position": 1,
+        "content": "Watch as this surveillance camera captures the shaking of the earth.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Watch",
+          "as",
+          "this",
+          "surveillance",
+          "camera",
+          "captures",
+          "the",
+          "shaking",
+          "of",
+          "the",
+          "earth."
+        ],
+        "solution": [
+          [
+            "Watch"
+          ],
+          [
+            "as"
+          ],
+          [
+            "this"
+          ],
+          [
+            "surveillance"
+          ],
+          [
+            "camera"
+          ],
+          [
+            "captures"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shaking"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "earth."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 0,
+        "timeEnd": 5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76103/list"
+      },
+      {
+        "id": 76104,
+        "position": 2,
+        "content": "Nearby objects like this ceiling fan swayed uncontrollably.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Nearby",
+          "objects",
+          "like",
+          "this",
+          "ceiling",
+          "fan",
+          "swayed",
+          "uncontrollably."
+        ],
+        "solution": [
+          [
+            "Nearby"
+          ],
+          [
+            "objects"
+          ],
+          [
+            "like"
+          ],
+          [
+            "this"
+          ],
+          [
+            "ceiling"
+          ],
+          [
+            "fan"
+          ],
+          [
+            "swayed"
+          ],
+          [
+            "uncontrollably."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 7.08,
+        "timeEnd": 11.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76104/list"
+      },
+      {
+        "id": 76105,
+        "position": 3,
+        "content": "They were signs of a powerful earthquake that struck Tibet this week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "were",
+          "signs",
+          "of",
+          "a",
+          "powerful",
+          "earthquake",
+          "that",
+          "struck",
+          "Tibet",
+          "this",
+          "week."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "were"
+          ],
+          [
+            "signs"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "powerful"
+          ],
+          [
+            "earthquake"
+          ],
+          [
+            "that"
+          ],
+          [
+            "struck"
+          ],
+          [
+            "Tibet"
+          ],
+          [
+            "this"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 11.6,
+        "timeEnd": 15.53,
+        "hints": [
+          "Tibet"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76105/list"
+      },
+      {
+        "id": 76106,
+        "position": 4,
+        "content": "Estimated between 6.8 and 7.1 magnitude,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Estimated",
+          "between",
+          "6.8",
+          "and",
+          "7.1",
+          "magnitude,"
+        ],
+        "solution": [
+          [
+            "Estimated"
+          ],
+          [
+            "between"
+          ],
+          [
+            "6.8"
+          ],
+          [
+            "and"
+          ],
+          [
+            "7.1"
+          ],
+          [
+            "magnitude,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 15.53,
+        "timeEnd": 19.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76106/list"
+      },
+      {
+        "id": 76107,
+        "position": 5,
+        "content": "its effects were devastating.",
+        "defaultInput": "",
+        "jsonContent": [
+          "its",
+          "effects",
+          "were",
+          "devastating."
+        ],
+        "solution": [
+          [
+            "its"
+          ],
+          [
+            "effects"
+          ],
+          [
+            "were"
+          ],
+          [
+            "devastating."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 19.71,
+        "timeEnd": 21.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76107/list"
+      },
+      {
+        "id": 76108,
+        "position": 6,
+        "content": "Witnesses shared footage of rubble-strewn streets of a city in the Himalayas region, known as the gateway to Mount Everest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Witnesses",
+          "shared",
+          "footage",
+          "of",
+          [
+            "rubble-strewn",
+            "rubble strewn"
+          ],
+          "streets",
+          "of",
+          "a",
+          "city",
+          "in",
+          "the",
+          "Himalayas",
+          "region,",
+          "known",
+          "as",
+          "the",
+          "gateway",
+          "to",
+          "Mount",
+          "Everest."
+        ],
+        "solution": [
+          [
+            "Witnesses"
+          ],
+          [
+            "shared"
+          ],
+          [
+            "footage"
+          ],
+          [
+            "of"
+          ],
+          [
+            "rubble-strewn",
+            "rubble strewn"
+          ],
+          [
+            "streets"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "city"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Himalayas"
+          ],
+          [
+            "region,"
+          ],
+          [
+            "known"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "gateway"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Mount"
+          ],
+          [
+            "Everest."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 21.97,
+        "timeEnd": 29.77,
+        "hints": [
+          "Himalayas"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76108/list"
+      },
+      {
+        "id": 76109,
+        "position": 7,
+        "content": "Building materials are scattered everywhere,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Building",
+          "materials",
+          "are",
+          "scattered",
+          "everywhere,"
+        ],
+        "solution": [
+          [
+            "Building"
+          ],
+          [
+            "materials"
+          ],
+          [
+            "are"
+          ],
+          [
+            "scattered"
+          ],
+          [
+            "everywhere,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 29.77,
+        "timeEnd": 32.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76109/list"
+      },
+      {
+        "id": 76110,
+        "position": 8,
+        "content": "and a car was crushed by falling debris.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "a",
+          "car",
+          "was",
+          "crushed",
+          "by",
+          "falling",
+          "debris."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "car"
+          ],
+          [
+            "was"
+          ],
+          [
+            "crushed"
+          ],
+          [
+            "by"
+          ],
+          [
+            "falling"
+          ],
+          [
+            "debris."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 32.25,
+        "timeEnd": 34.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76110/list"
+      },
+      {
+        "id": 76111,
+        "position": 9,
+        "content": "First responders from Tibet Fire and Rescue raced to find survivors among collapsed buildings.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First",
+            "1st"
+          ],
+          "responders",
+          "from",
+          "Tibet",
+          "Fire",
+          "and",
+          "Rescue",
+          "raced",
+          "to",
+          "find",
+          "survivors",
+          "among",
+          "collapsed",
+          "buildings."
+        ],
+        "solution": [
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "responders"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Tibet"
+          ],
+          [
+            "Fire"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Rescue"
+          ],
+          [
+            "raced"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "survivors"
+          ],
+          [
+            "among"
+          ],
+          [
+            "collapsed"
+          ],
+          [
+            "buildings."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 34.87,
+        "timeEnd": 40.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76111/list"
+      },
+      {
+        "id": 76112,
+        "position": 10,
+        "content": "They could be seen moving one quake victim onto a stretcher.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "could",
+          "be",
+          "seen",
+          "moving",
+          [
+            "one",
+            "1"
+          ],
+          "quake",
+          "victim",
+          "onto",
+          "a",
+          "stretcher."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "moving"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "quake"
+          ],
+          [
+            "victim"
+          ],
+          [
+            "onto"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stretcher."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 40.55,
+        "timeEnd": 44.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76112/list"
+      },
+      {
+        "id": 76113,
+        "position": 11,
+        "content": "China's state-run television reported at least 120 deaths",
+        "defaultInput": "",
+        "jsonContent": [
+          "China's",
+          [
+            "state-run",
+            "state run"
+          ],
+          "television",
+          "reported",
+          "at",
+          "least",
+          "120",
+          "deaths"
+        ],
+        "solution": [
+          [
+            "China's"
+          ],
+          [
+            "state-run",
+            "state run"
+          ],
+          [
+            "television"
+          ],
+          [
+            "reported"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "120"
+          ],
+          [
+            "deaths"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.03,
+        "timeEnd": 48.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76113/list"
+      },
+      {
+        "id": 76114,
+        "position": 12,
+        "content": "and over 180 injuries from the quake.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "over",
+          "180",
+          "injuries",
+          "from",
+          "the",
+          "quake."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "over"
+          ],
+          [
+            "180"
+          ],
+          [
+            "injuries"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "quake."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 48.46,
+        "timeEnd": 51.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76114/list"
+      },
+      {
+        "id": 76115,
+        "position": 13,
+        "content": "A number of aftershocks, some as powerful as 3.0, were felt in the aftermath.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "number",
+          "of",
+          "aftershocks,",
+          "some",
+          "as",
+          "powerful",
+          "as",
+          "3.0,",
+          "were",
+          "felt",
+          "in",
+          "the",
+          "aftermath."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "aftershocks,"
+          ],
+          [
+            "some"
+          ],
+          [
+            "as"
+          ],
+          [
+            "powerful"
+          ],
+          [
+            "as"
+          ],
+          [
+            "3.0,"
+          ],
+          [
+            "were"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "aftermath."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 51.49,
+        "timeEnd": 57.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/76115/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "76103": {
+      "id": 2657752,
+      "text": "Xem khi camera giám sát này ghi lại cảnh mặt đất rung chuyển.",
+      "author": "ChatGPT4.1"
+    },
+    "76104": {
+      "id": 2657753,
+      "text": "Những vật thể gần đó như chiếc quạt trần này lắc lư không kiểm soát được.",
+      "author": "ChatGPT4.1"
+    },
+    "76105": {
+      "id": 2657754,
+      "text": "Đó là dấu hiệu của một trận động đất mạnh đã xảy ra ở Tây Tạng trong tuần này.",
+      "author": "ChatGPT4.1"
+    },
+    "76106": {
+      "id": 2657755,
+      "text": "Được ước tính có cường độ từ 6,8 đến 7,1 độ,",
+      "author": "ChatGPT4.1"
+    },
+    "76107": {
+      "id": 2657756,
+      "text": "tác động của nó rất tàn khốc.",
+      "author": "ChatGPT4.1"
+    },
+    "76108": {
+      "id": 2657757,
+      "text": "Những nhân chứng đã chia sẻ hình ảnh các con phố đầy đổ nát của một thành phố ở khu vực Himalaya, được biết đến là cửa ngõ lên đỉnh Everest.",
+      "author": "ChatGPT4.1"
+    },
+    "76109": {
+      "id": 2657758,
+      "text": "Vật liệu xây dựng vương vãi khắp nơi,",
+      "author": "ChatGPT4.1"
+    },
+    "76110": {
+      "id": 2657759,
+      "text": "và một chiếc ô tô đã bị đè nát bởi đống đổ nát rơi xuống.",
+      "author": "ChatGPT4.1"
+    },
+    "76111": {
+      "id": 2657760,
+      "text": "Lực lượng cứu hộ cứu hỏa Tây Tạng đã khẩn trương tìm kiếm người sống sót trong các tòa nhà bị sập.",
+      "author": "ChatGPT4.1"
+    },
+    "76112": {
+      "id": 2657761,
+      "text": "Họ được nhìn thấy đang di chuyển một nạn nhân động đất lên cáng.",
+      "author": "ChatGPT4.1"
+    },
+    "76113": {
+      "id": 2657762,
+      "text": "Đài truyền hình nhà nước Trung Quốc đưa tin ít nhất 120 người thiệt mạng",
+      "author": "ChatGPT4.1"
+    },
+    "76114": {
+      "id": 2657763,
+      "text": "và hơn 180 người bị thương do vụ động đất.",
+      "author": "ChatGPT4.1"
+    },
+    "76115": {
+      "id": 2657764,
+      "text": "Nhiều dư chấn, trong đó có những trận mạnh tới 3,0 độ, đã được cảm nhận sau đó.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

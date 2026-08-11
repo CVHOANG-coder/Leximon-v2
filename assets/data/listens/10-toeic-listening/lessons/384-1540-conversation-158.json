@@ -1,0 +1,715 @@
+{
+  "summary": {
+    "id": 1540,
+    "name": "Conversation 158",
+    "subTitle": "Movie Night Invitation",
+    "levelName": "B1",
+    "position": 384,
+    "totalChallenges": 13,
+    "groupId": 46,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1540",
+  "detail": {
+    "id": 1540,
+    "lessonName": "Conversation 158",
+    "name": "Conversation 158",
+    "position": 384,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/0-conversation-158.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66139,
+        "position": 1,
+        "content": "Hey, Emma.",
+        "defaultInput": "Hey, Emma.",
+        "jsonContent": [
+          "Hey,",
+          "Emma."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "Emma."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 0.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66139/list"
+      },
+      {
+        "id": 66140,
+        "position": 2,
+        "content": "The new Anthony Eyre movie just came out last weekend.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "new",
+          "Anthony",
+          "Eyre",
+          "movie",
+          "just",
+          "came",
+          "out",
+          "last",
+          "weekend."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "new"
+          ],
+          [
+            "Anthony"
+          ],
+          [
+            "Eyre"
+          ],
+          [
+            "movie"
+          ],
+          [
+            "just"
+          ],
+          [
+            "came"
+          ],
+          [
+            "out"
+          ],
+          [
+            "last"
+          ],
+          [
+            "weekend."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/2.mp3",
+        "timeStart": 0.92,
+        "timeEnd": 4.05,
+        "hints": [
+          "Anthony Eyre"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66140/list"
+      },
+      {
+        "id": 66141,
+        "position": 3,
+        "content": "Are you interested?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "interested?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "interested?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/3.mp3",
+        "timeStart": 4.05,
+        "timeEnd": 5.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66141/list"
+      },
+      {
+        "id": 66142,
+        "position": 4,
+        "content": "Ha! Thought you would never ask.",
+        "defaultInput": "Ha! ",
+        "jsonContent": [
+          "Ha!",
+          "Thought",
+          [
+            "you would",
+            "you'd"
+          ],
+          "never",
+          "ask."
+        ],
+        "solution": [
+          [
+            "Ha!"
+          ],
+          [
+            "Thought"
+          ],
+          [
+            "you would",
+            "you'd"
+          ],
+          [
+            "never"
+          ],
+          [
+            "ask."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/4.mp3",
+        "timeStart": 5.27,
+        "timeEnd": 7.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66142/list"
+      },
+      {
+        "id": 66143,
+        "position": 5,
+        "content": "But my aunt's coming for a visit,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "my",
+          "aunt's",
+          "coming",
+          "for",
+          "a",
+          "visit,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "my"
+          ],
+          [
+            "aunt's"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "visit,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/5.mp3",
+        "timeStart": 7.96,
+        "timeEnd": 9.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66143/list"
+      },
+      {
+        "id": 66144,
+        "position": 6,
+        "content": "and I'm supposed to pick her up at the airport around 6 pm.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "supposed",
+          "to",
+          "pick",
+          "her",
+          "up",
+          "at",
+          "the",
+          "airport",
+          "around",
+          [
+            "6",
+            "six"
+          ],
+          "pm."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "her"
+          ],
+          [
+            "up"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "airport"
+          ],
+          [
+            "around"
+          ],
+          [
+            "6",
+            "six"
+          ],
+          [
+            "pm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/6.mp3",
+        "timeStart": 9.9,
+        "timeEnd": 13.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66144/list"
+      },
+      {
+        "id": 66145,
+        "position": 7,
+        "content": "However, she loves watching movies,",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "she",
+          "loves",
+          "watching",
+          "movies,"
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "loves"
+          ],
+          [
+            "watching"
+          ],
+          [
+            "movies,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/7.mp3",
+        "timeStart": 13.88,
+        "timeEnd": 16.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66145/list"
+      },
+      {
+        "id": 66146,
+        "position": 8,
+        "content": "so why don't we invite her and watch the new movie together?",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "why",
+          [
+            "don't",
+            "do not"
+          ],
+          "we",
+          "invite",
+          "her",
+          "and",
+          "watch",
+          "the",
+          "new",
+          "movie",
+          "together?"
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "why"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "we"
+          ],
+          [
+            "invite"
+          ],
+          [
+            "her"
+          ],
+          [
+            "and"
+          ],
+          [
+            "watch"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "movie"
+          ],
+          [
+            "together?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/8.mp3",
+        "timeStart": 16.99,
+        "timeEnd": 20.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66146/list"
+      },
+      {
+        "id": 66147,
+        "position": 9,
+        "content": "You've met her, right?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You've",
+            "You have"
+          ],
+          "met",
+          "her,",
+          "right?"
+        ],
+        "solution": [
+          [
+            "You've",
+            "You have"
+          ],
+          [
+            "met"
+          ],
+          [
+            "her,"
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/9.mp3",
+        "timeStart": 20.62,
+        "timeEnd": 22.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66147/list"
+      },
+      {
+        "id": 66148,
+        "position": 10,
+        "content": "Of course, she's so much fun.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course,",
+          "she's",
+          "so",
+          "much",
+          "fun."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "so"
+          ],
+          [
+            "much"
+          ],
+          [
+            "fun."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/10.mp3",
+        "timeStart": 22.12,
+        "timeEnd": 24.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66148/list"
+      },
+      {
+        "id": 66149,
+        "position": 11,
+        "content": "And I seem to remember she's a huge fan of Anthony Eyre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "seem",
+          "to",
+          "remember",
+          "she's",
+          "a",
+          "huge",
+          "fan",
+          "of",
+          "Anthony",
+          "Eyre."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "to"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "huge"
+          ],
+          [
+            "fan"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Anthony"
+          ],
+          [
+            "Eyre."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/11.mp3",
+        "timeStart": 24.54,
+        "timeEnd": 28.02,
+        "hints": [
+          "Anthony Eyre"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66149/list"
+      },
+      {
+        "id": 66150,
+        "position": 12,
+        "content": "Well, drive safe.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "drive",
+          "safe."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "safe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/12.mp3",
+        "timeStart": 28.02,
+        "timeEnd": 29.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66150/list"
+      },
+      {
+        "id": 66151,
+        "position": 13,
+        "content": "I'll meet you at the movie theater on Burrard and Cambie Street.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "meet",
+          "you",
+          "at",
+          "the",
+          "movie",
+          [
+            "theater",
+            "theatre"
+          ],
+          "on",
+          "Burrard",
+          "and",
+          "Cambie",
+          "Street."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "you"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "movie"
+          ],
+          [
+            "theater",
+            "theatre"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Burrard"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Cambie"
+          ],
+          [
+            "Street."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-158-2024-09-14-18-24-02/13.mp3",
+        "timeStart": 29.48,
+        "timeEnd": 32.87,
+        "hints": [
+          "Burrard",
+          "Cambie"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66151/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66139": {
+      "id": 2623075,
+      "text": "Chào, Emma.",
+      "author": "ChatGPT4.1"
+    },
+    "66140": {
+      "id": 2623076,
+      "text": "Bộ phim mới của Anthony Eyre vừa ra mắt cuối tuần trước.",
+      "author": "ChatGPT4.1"
+    },
+    "66141": {
+      "id": 2623077,
+      "text": "Bạn có hứng thú không?",
+      "author": "ChatGPT4.1"
+    },
+    "66142": {
+      "id": 2623078,
+      "text": "Ha! Tớ cứ nghĩ cậu sẽ không bao giờ hỏi.",
+      "author": "ChatGPT4.1"
+    },
+    "66143": {
+      "id": 2623079,
+      "text": "Nhưng dì của tớ sẽ đến chơi,",
+      "author": "ChatGPT4.1"
+    },
+    "66144": {
+      "id": 2623080,
+      "text": "và tớ phải đón dì ở sân bay khoảng 6 giờ chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "66145": {
+      "id": 2623081,
+      "text": "Tuy nhiên, dì ấy rất thích xem phim,",
+      "author": "ChatGPT4.1"
+    },
+    "66146": {
+      "id": 2623082,
+      "text": "nên tại sao chúng ta không mời dì ấy và cùng xem phim mới?",
+      "author": "ChatGPT4.1"
+    },
+    "66147": {
+      "id": 2623083,
+      "text": "Cậu gặp dì ấy rồi mà phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "66148": {
+      "id": 2623084,
+      "text": "Tất nhiên, dì ấy rất vui tính.",
+      "author": "ChatGPT4.1"
+    },
+    "66149": {
+      "id": 2623085,
+      "text": "Và tớ nhớ là dì ấy là một fan lớn của Anthony Eyre.",
+      "author": "ChatGPT4.1"
+    },
+    "66150": {
+      "id": 2623086,
+      "text": "Vậy thì lái xe cẩn thận nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "66151": {
+      "id": 2623087,
+      "text": "Tớ sẽ gặp cậu tại rạp chiếu phim ở đường Burrard và Cambie.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

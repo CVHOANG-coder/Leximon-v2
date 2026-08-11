@@ -1,0 +1,4691 @@
+{
+  "summary": {
+    "id": 2297,
+    "name": "Test 03 - Part C - Extract 2",
+    "subTitle": "The Role of Narratives in Medicine",
+    "levelName": "C2",
+    "position": 30,
+    "totalChallenges": 72,
+    "groupId": 133,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2297",
+  "detail": {
+    "id": 2297,
+    "lessonName": "Test 03 - Part C - Extract 2",
+    "name": "Test 03 - Part C - Extract 2",
+    "position": 30,
+    "levelName": "C2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/0-test-03-part-c-extract-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90549,
+        "position": 1,
+        "content": "Hello, my name's Anthony Gibbons.",
+        "defaultInput": "Hello, my name's Anthony Gibbons.",
+        "jsonContent": [
+          "Hello,",
+          "my",
+          "name's",
+          "Anthony",
+          "Gibbons."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "name's"
+          ],
+          [
+            "Anthony"
+          ],
+          [
+            "Gibbons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/1.mp3",
+        "timeStart": 0.5,
+        "timeEnd": 2.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90549/list"
+      },
+      {
+        "id": 90550,
+        "position": 2,
+        "content": "I'm a clinical psychiatrist and published author.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "clinical",
+          "psychiatrist",
+          "and",
+          "published",
+          "author."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "clinical"
+          ],
+          [
+            "psychiatrist"
+          ],
+          [
+            "and"
+          ],
+          [
+            "published"
+          ],
+          [
+            "author."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/2.mp3",
+        "timeStart": 2.95,
+        "timeEnd": 6.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90550/list"
+      },
+      {
+        "id": 90551,
+        "position": 3,
+        "content": "I'd like to talk about something that's relevant to all medical professionals,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "talk",
+          "about",
+          "something",
+          "that's",
+          "relevant",
+          "to",
+          "all",
+          "medical",
+          "professionals,"
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "about"
+          ],
+          [
+            "something"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "relevant"
+          ],
+          [
+            "to"
+          ],
+          [
+            "all"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "professionals,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/3.mp3",
+        "timeStart": 6.6,
+        "timeEnd": 10.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90551/list"
+      },
+      {
+        "id": 90552,
+        "position": 4,
+        "content": "the use of narratives in medicine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "use",
+          "of",
+          "narratives",
+          "in",
+          "medicine."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "use"
+          ],
+          [
+            "of"
+          ],
+          [
+            "narratives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "medicine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/4.mp3",
+        "timeStart": 10.36,
+        "timeEnd": 13.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90552/list"
+      },
+      {
+        "id": 90553,
+        "position": 5,
+        "content": "Let me begin with a case study sent to me by a colleague who shares my interest in the subject.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let",
+          "me",
+          "begin",
+          "with",
+          "a",
+          "case",
+          "study",
+          "sent",
+          "to",
+          "me",
+          "by",
+          "a",
+          "colleague",
+          "who",
+          "shares",
+          "my",
+          "interest",
+          "in",
+          "the",
+          "subject."
+        ],
+        "solution": [
+          [
+            "Let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "begin"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "case"
+          ],
+          [
+            "study"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "to"
+          ],
+          [
+            "me"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "colleague"
+          ],
+          [
+            "who"
+          ],
+          [
+            "shares"
+          ],
+          [
+            "my"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "subject."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/5.mp3",
+        "timeStart": 13.26,
+        "timeEnd": 18.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90553/list"
+      },
+      {
+        "id": 90554,
+        "position": 6,
+        "content": "The study featured a 30-year-old man who was hospitalized for severe panic attacks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "study",
+          "featured",
+          "a",
+          [
+            "30-year-old",
+            "30 year old"
+          ],
+          "man",
+          "who",
+          "was",
+          "hospitalized",
+          "for",
+          "severe",
+          "panic",
+          "attacks."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "study"
+          ],
+          [
+            "featured"
+          ],
+          [
+            "a"
+          ],
+          [
+            "30-year-old",
+            "30 year old"
+          ],
+          [
+            "man"
+          ],
+          [
+            "who"
+          ],
+          [
+            "was"
+          ],
+          [
+            "hospitalized"
+          ],
+          [
+            "for"
+          ],
+          [
+            "severe"
+          ],
+          [
+            "panic"
+          ],
+          [
+            "attacks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/6.mp3",
+        "timeStart": 18.53,
+        "timeEnd": 23.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90554/list"
+      },
+      {
+        "id": 90555,
+        "position": 7,
+        "content": "He was treated with narcoanalysis but, feeling no relief,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "treated",
+          "with",
+          "narcoanalysis",
+          "but,",
+          "feeling",
+          "no",
+          "relief,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "treated"
+          ],
+          [
+            "with"
+          ],
+          [
+            "narcoanalysis"
+          ],
+          [
+            "but,"
+          ],
+          [
+            "feeling"
+          ],
+          [
+            "no"
+          ],
+          [
+            "relief,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/7.mp3",
+        "timeStart": 23.44,
+        "timeEnd": 26.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90555/list"
+      },
+      {
+        "id": 90556,
+        "position": 8,
+        "content": "turned to alcohol and endured years of depression and social isolation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "turned",
+          "to",
+          "alcohol",
+          "and",
+          "endured",
+          "years",
+          "of",
+          "depression",
+          "and",
+          "social",
+          "isolation."
+        ],
+        "solution": [
+          [
+            "turned"
+          ],
+          [
+            "to"
+          ],
+          [
+            "alcohol"
+          ],
+          [
+            "and"
+          ],
+          [
+            "endured"
+          ],
+          [
+            "years"
+          ],
+          [
+            "of"
+          ],
+          [
+            "depression"
+          ],
+          [
+            "and"
+          ],
+          [
+            "social"
+          ],
+          [
+            "isolation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/8.mp3",
+        "timeStart": 26.99,
+        "timeEnd": 31.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90556/list"
+      },
+      {
+        "id": 90557,
+        "position": 9,
+        "content": "Four decades later, he was back in the psychiatric system,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Four",
+            "4"
+          ],
+          "decades",
+          "later,",
+          "he",
+          "was",
+          "back",
+          "in",
+          "the",
+          "psychiatric",
+          "system,"
+        ],
+        "solution": [
+          [
+            "Four",
+            "4"
+          ],
+          [
+            "decades"
+          ],
+          [
+            "later,"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "back"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "psychiatric"
+          ],
+          [
+            "system,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/9.mp3",
+        "timeStart": 31.67,
+        "timeEnd": 35.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90557/list"
+      },
+      {
+        "id": 90558,
+        "position": 10,
+        "content": "but for the first time he was prescribed the antidepressant Zoloft.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "for",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "time",
+          "he",
+          "was",
+          "prescribed",
+          "the",
+          "antidepressant",
+          "Zoloft."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "time"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "prescribed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "antidepressant"
+          ],
+          [
+            "Zoloft."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/10.mp3",
+        "timeStart": 35.25,
+        "timeEnd": 39.49,
+        "hints": [
+          "Zoloft"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90558/list"
+      },
+      {
+        "id": 90559,
+        "position": 11,
+        "content": "Six weeks later, he was discharged because the panic attacks and depression had disappeared.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Six",
+            "6"
+          ],
+          "weeks",
+          "later,",
+          "he",
+          "was",
+          "discharged",
+          "because",
+          "the",
+          "panic",
+          "attacks",
+          "and",
+          "depression",
+          "had",
+          "disappeared."
+        ],
+        "solution": [
+          [
+            "Six",
+            "6"
+          ],
+          [
+            "weeks"
+          ],
+          [
+            "later,"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "discharged"
+          ],
+          [
+            "because"
+          ],
+          [
+            "the"
+          ],
+          [
+            "panic"
+          ],
+          [
+            "attacks"
+          ],
+          [
+            "and"
+          ],
+          [
+            "depression"
+          ],
+          [
+            "had"
+          ],
+          [
+            "disappeared."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/11.mp3",
+        "timeStart": 39.6,
+        "timeEnd": 45.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90559/list"
+      },
+      {
+        "id": 90560,
+        "position": 12,
+        "content": "He lived a full life until his death 19 years later.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "lived",
+          "a",
+          "full",
+          "life",
+          "until",
+          "his",
+          "death",
+          [
+            "19",
+            "nineteen"
+          ],
+          "years",
+          "later."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "lived"
+          ],
+          [
+            "a"
+          ],
+          [
+            "full"
+          ],
+          [
+            "life"
+          ],
+          [
+            "until"
+          ],
+          [
+            "his"
+          ],
+          [
+            "death"
+          ],
+          [
+            "19",
+            "nineteen"
+          ],
+          [
+            "years"
+          ],
+          [
+            "later."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/12.mp3",
+        "timeStart": 45.66,
+        "timeEnd": 49.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90560/list"
+      },
+      {
+        "id": 90561,
+        "position": 13,
+        "content": "If the narrative was striking, it was even more so for its inclusion in a medical journal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "the",
+          "narrative",
+          "was",
+          "striking,",
+          "it",
+          "was",
+          "even",
+          "more",
+          "so",
+          "for",
+          "its",
+          "inclusion",
+          "in",
+          "a",
+          "medical",
+          "journal."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "the"
+          ],
+          [
+            "narrative"
+          ],
+          [
+            "was"
+          ],
+          [
+            "striking,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "even"
+          ],
+          [
+            "more"
+          ],
+          [
+            "so"
+          ],
+          [
+            "for"
+          ],
+          [
+            "its"
+          ],
+          [
+            "inclusion"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "journal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/13.mp3",
+        "timeStart": 49.52,
+        "timeEnd": 54.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90561/list"
+      },
+      {
+        "id": 90562,
+        "position": 14,
+        "content": "Repeatedly, I've been surprised by the impact that even lightly sketched case histories can have on readers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Repeatedly,",
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "surprised",
+          "by",
+          "the",
+          "impact",
+          "that",
+          "even",
+          "lightly",
+          "sketched",
+          "case",
+          "histories",
+          "can",
+          "have",
+          "on",
+          "readers."
+        ],
+        "solution": [
+          [
+            "Repeatedly,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "surprised"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "impact"
+          ],
+          [
+            "that"
+          ],
+          [
+            "even"
+          ],
+          [
+            "lightly"
+          ],
+          [
+            "sketched"
+          ],
+          [
+            "case"
+          ],
+          [
+            "histories"
+          ],
+          [
+            "can"
+          ],
+          [
+            "have"
+          ],
+          [
+            "on"
+          ],
+          [
+            "readers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/14.mp3",
+        "timeStart": 54.95,
+        "timeEnd": 61.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90562/list"
+      },
+      {
+        "id": 90563,
+        "position": 15,
+        "content": "In my first book, I wrote about personality and how it might change on medication.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "my",
+          [
+            "first",
+            "1st"
+          ],
+          "book,",
+          "I",
+          "wrote",
+          "about",
+          "personality",
+          "and",
+          "how",
+          "it",
+          "might",
+          "change",
+          "on",
+          "medication."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "my"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "book,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "wrote"
+          ],
+          [
+            "about"
+          ],
+          [
+            "personality"
+          ],
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "change"
+          ],
+          [
+            "on"
+          ],
+          [
+            "medication."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/15.mp3",
+        "timeStart": 61.76,
+        "timeEnd": 67.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90563/list"
+      },
+      {
+        "id": 90564,
+        "position": 16,
+        "content": "My second was concerned with theories of intimacy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "second",
+          "was",
+          "concerned",
+          "with",
+          "theories",
+          "of",
+          "intimacy."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "second"
+          ],
+          [
+            "was"
+          ],
+          [
+            "concerned"
+          ],
+          [
+            "with"
+          ],
+          [
+            "theories"
+          ],
+          [
+            "of"
+          ],
+          [
+            "intimacy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/16.mp3",
+        "timeStart": 67.43,
+        "timeEnd": 70.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90564/list"
+      },
+      {
+        "id": 90565,
+        "position": 17,
+        "content": "Readers, however, often use the books for a different purpose, identifying depression.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Readers,",
+          "however,",
+          "often",
+          "use",
+          "the",
+          "books",
+          "for",
+          "a",
+          "different",
+          "purpose,",
+          "identifying",
+          "depression."
+        ],
+        "solution": [
+          [
+            "Readers,"
+          ],
+          [
+            "however,"
+          ],
+          [
+            "often"
+          ],
+          [
+            "use"
+          ],
+          [
+            "the"
+          ],
+          [
+            "books"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "different"
+          ],
+          [
+            "purpose,"
+          ],
+          [
+            "identifying"
+          ],
+          [
+            "depression."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/17.mp3",
+        "timeStart": 71.05,
+        "timeEnd": 76.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90565/list"
+      },
+      {
+        "id": 90566,
+        "position": 18,
+        "content": "Regularly, I received and still receive phone calls,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Regularly,",
+          "I",
+          "received",
+          "and",
+          "still",
+          "receive",
+          "phone",
+          "calls,"
+        ],
+        "solution": [
+          [
+            "Regularly,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "received"
+          ],
+          [
+            "and"
+          ],
+          [
+            "still"
+          ],
+          [
+            "receive"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "calls,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/18.mp3",
+        "timeStart": 76.95,
+        "timeEnd": 80.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90566/list"
+      },
+      {
+        "id": 90567,
+        "position": 19,
+        "content": "people saying, my husband's just like X, one figure from a clinical example.",
+        "defaultInput": "",
+        "jsonContent": [
+          "people",
+          "saying,",
+          "my",
+          "husband's",
+          "just",
+          "like",
+          "X,",
+          [
+            "one",
+            "1"
+          ],
+          "figure",
+          "from",
+          "a",
+          "clinical",
+          "example."
+        ],
+        "solution": [
+          [
+            "people"
+          ],
+          [
+            "saying,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "husband's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "like"
+          ],
+          [
+            "X,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "figure"
+          ],
+          [
+            "from"
+          ],
+          [
+            "a"
+          ],
+          [
+            "clinical"
+          ],
+          [
+            "example."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/19.mp3",
+        "timeStart": 80.77,
+        "timeEnd": 85.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90567/list"
+      },
+      {
+        "id": 90568,
+        "position": 20,
+        "content": "Other readers wrote to say that they'd recognised themselves.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Other",
+          "readers",
+          "wrote",
+          "to",
+          "say",
+          "that",
+          "they'd",
+          [
+            "recognised",
+            "recognized"
+          ],
+          "themselves."
+        ],
+        "solution": [
+          [
+            "Other"
+          ],
+          [
+            "readers"
+          ],
+          [
+            "wrote"
+          ],
+          [
+            "to"
+          ],
+          [
+            "say"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they'd"
+          ],
+          [
+            "recognised",
+            "recognized"
+          ],
+          [
+            "themselves."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/20.mp3",
+        "timeStart": 85.76,
+        "timeEnd": 89.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90568/list"
+      },
+      {
+        "id": 90569,
+        "position": 21,
+        "content": "Seeing that they weren't alone gave them hope.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Seeing",
+          "that",
+          "they",
+          [
+            "weren't",
+            "were not"
+          ],
+          "alone",
+          "gave",
+          "them",
+          "hope."
+        ],
+        "solution": [
+          [
+            "Seeing"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "weren't",
+            "were not"
+          ],
+          [
+            "alone"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "them"
+          ],
+          [
+            "hope."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/21.mp3",
+        "timeStart": 89.12,
+        "timeEnd": 91.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90569/list"
+      },
+      {
+        "id": 90570,
+        "position": 22,
+        "content": "Encouragement is another benefit of case description.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Encouragement",
+          "is",
+          "another",
+          "benefit",
+          "of",
+          "case",
+          "description."
+        ],
+        "solution": [
+          [
+            "Encouragement"
+          ],
+          [
+            "is"
+          ],
+          [
+            "another"
+          ],
+          [
+            "benefit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "case"
+          ],
+          [
+            "description."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/22.mp3",
+        "timeStart": 91.85,
+        "timeEnd": 95.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90570/list"
+      },
+      {
+        "id": 90571,
+        "position": 23,
+        "content": "Familiar to us in an age when everyone's writing their biography.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Familiar",
+          "to",
+          "us",
+          "in",
+          "an",
+          "age",
+          "when",
+          "everyone's",
+          "writing",
+          "their",
+          "biography."
+        ],
+        "solution": [
+          [
+            "Familiar"
+          ],
+          [
+            "to"
+          ],
+          [
+            "us"
+          ],
+          [
+            "in"
+          ],
+          [
+            "an"
+          ],
+          [
+            "age"
+          ],
+          [
+            "when"
+          ],
+          [
+            "everyone's"
+          ],
+          [
+            "writing"
+          ],
+          [
+            "their"
+          ],
+          [
+            "biography."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/23.mp3",
+        "timeStart": 95.56,
+        "timeEnd": 98.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90571/list"
+      },
+      {
+        "id": 90572,
+        "position": 24,
+        "content": "But this isn't to say that stories are a panacea to issues inherent in treating patients,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "this",
+          [
+            "isn't",
+            "is not"
+          ],
+          "to",
+          "say",
+          "that",
+          "stories",
+          "are",
+          "a",
+          "panacea",
+          "to",
+          "issues",
+          "inherent",
+          "in",
+          "treating",
+          "patients,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "this"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "to"
+          ],
+          [
+            "say"
+          ],
+          [
+            "that"
+          ],
+          [
+            "stories"
+          ],
+          [
+            "are"
+          ],
+          [
+            "a"
+          ],
+          [
+            "panacea"
+          ],
+          [
+            "to"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "inherent"
+          ],
+          [
+            "in"
+          ],
+          [
+            "treating"
+          ],
+          [
+            "patients,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/24.mp3",
+        "timeStart": 99.65,
+        "timeEnd": 105.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90572/list"
+      },
+      {
+        "id": 90573,
+        "position": 25,
+        "content": "and there can be disadvantages.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "there",
+          "can",
+          "be",
+          "disadvantages."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "there"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "disadvantages."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/25.mp3",
+        "timeStart": 105.44,
+        "timeEnd": 107.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90573/list"
+      },
+      {
+        "id": 90574,
+        "position": 26,
+        "content": "Consider my experience prescribing Prozac.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Consider",
+          "my",
+          "experience",
+          "prescribing",
+          "Prozac."
+        ],
+        "solution": [
+          [
+            "Consider"
+          ],
+          [
+            "my"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "prescribing"
+          ],
+          [
+            "Prozac."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/26.mp3",
+        "timeStart": 107.53,
+        "timeEnd": 110.51,
+        "hints": [
+          "Prozac"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90574/list"
+      },
+      {
+        "id": 90575,
+        "position": 27,
+        "content": "When certain patients reported feeling better than well after receiving it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "certain",
+          "patients",
+          "reported",
+          "feeling",
+          "better",
+          "than",
+          "well",
+          "after",
+          "receiving",
+          "it,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "certain"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "reported"
+          ],
+          [
+            "feeling"
+          ],
+          [
+            "better"
+          ],
+          [
+            "than"
+          ],
+          [
+            "well"
+          ],
+          [
+            "after"
+          ],
+          [
+            "receiving"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/27.mp3",
+        "timeStart": 110.75,
+        "timeEnd": 115.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90575/list"
+      },
+      {
+        "id": 90576,
+        "position": 28,
+        "content": "I presented these examples first in essays for psychiatrists and then in my book.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "presented",
+          "these",
+          "examples",
+          [
+            "first",
+            "1st"
+          ],
+          "in",
+          "essays",
+          "for",
+          "psychiatrists",
+          "and",
+          "then",
+          "in",
+          "my",
+          "book."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "presented"
+          ],
+          [
+            "these"
+          ],
+          [
+            "examples"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "in"
+          ],
+          [
+            "essays"
+          ],
+          [
+            "for"
+          ],
+          [
+            "psychiatrists"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "book."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/28.mp3",
+        "timeStart": 115.59,
+        "timeEnd": 120.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90576/list"
+      },
+      {
+        "id": 90577,
+        "position": 29,
+        "content": "Where I surrounded the narrative material with accounts of research.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Where",
+          "I",
+          "surrounded",
+          "the",
+          "narrative",
+          "material",
+          "with",
+          "accounts",
+          "of",
+          "research."
+        ],
+        "solution": [
+          [
+            "Where"
+          ],
+          [
+            "I"
+          ],
+          [
+            "surrounded"
+          ],
+          [
+            "the"
+          ],
+          [
+            "narrative"
+          ],
+          [
+            "material"
+          ],
+          [
+            "with"
+          ],
+          [
+            "accounts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "research."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/29.mp3",
+        "timeStart": 120.55,
+        "timeEnd": 124.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90577/list"
+      },
+      {
+        "id": 90578,
+        "position": 30,
+        "content": "In time, my loosely supported descriptions led others to do controlled trials that confirmed the phenomenon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "time,",
+          "my",
+          "loosely",
+          "supported",
+          "descriptions",
+          "led",
+          "others",
+          "to",
+          "do",
+          "controlled",
+          "trials",
+          "that",
+          "confirmed",
+          "the",
+          "phenomenon."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "loosely"
+          ],
+          [
+            "supported"
+          ],
+          [
+            "descriptions"
+          ],
+          [
+            "led"
+          ],
+          [
+            "others"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "controlled"
+          ],
+          [
+            "trials"
+          ],
+          [
+            "that"
+          ],
+          [
+            "confirmed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phenomenon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/30.mp3",
+        "timeStart": 124.51,
+        "timeEnd": 131.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90578/list"
+      },
+      {
+        "id": 90579,
+        "position": 31,
+        "content": "But doctors hadn't waited for those controlled trials.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "doctors",
+          [
+            "hadn't",
+            "had not"
+          ],
+          "waited",
+          "for",
+          "those",
+          "controlled",
+          "trials."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "doctors"
+          ],
+          [
+            "hadn't",
+            "had not"
+          ],
+          [
+            "waited"
+          ],
+          [
+            "for"
+          ],
+          [
+            "those"
+          ],
+          [
+            "controlled"
+          ],
+          [
+            "trials."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/31.mp3",
+        "timeStart": 131.47,
+        "timeEnd": 135.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90579/list"
+      },
+      {
+        "id": 90580,
+        "position": 32,
+        "content": "In advance, the better-than-well hypothesis had served as a tentative fact.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "advance,",
+          "the",
+          [
+            "better-than-well",
+            "better than well"
+          ],
+          "hypothesis",
+          "had",
+          "served",
+          "as",
+          "a",
+          "tentative",
+          "fact."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "advance,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "better-than-well",
+            "better than well"
+          ],
+          [
+            "hypothesis"
+          ],
+          [
+            "had"
+          ],
+          [
+            "served"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tentative"
+          ],
+          [
+            "fact."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/32.mp3",
+        "timeStart": 135.28,
+        "timeEnd": 140.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90580/list"
+      },
+      {
+        "id": 90581,
+        "position": 33,
+        "content": "Treating depression, colleagues looked out for personality change even aimed for it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Treating",
+          "depression,",
+          "colleagues",
+          "looked",
+          "out",
+          "for",
+          "personality",
+          "change",
+          "even",
+          "aimed",
+          "for",
+          "it,"
+        ],
+        "solution": [
+          [
+            "Treating"
+          ],
+          [
+            "depression,"
+          ],
+          [
+            "colleagues"
+          ],
+          [
+            "looked"
+          ],
+          [
+            "out"
+          ],
+          [
+            "for"
+          ],
+          [
+            "personality"
+          ],
+          [
+            "change"
+          ],
+          [
+            "even"
+          ],
+          [
+            "aimed"
+          ],
+          [
+            "for"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/33.mp3",
+        "timeStart": 140.91,
+        "timeEnd": 145.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90581/list"
+      },
+      {
+        "id": 90582,
+        "position": 34,
+        "content": "even though this wasn't my intended outcome.",
+        "defaultInput": "",
+        "jsonContent": [
+          "even",
+          "though",
+          "this",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "my",
+          "intended",
+          "outcome."
+        ],
+        "solution": [
+          [
+            "even"
+          ],
+          [
+            "though"
+          ],
+          [
+            "this"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "my"
+          ],
+          [
+            "intended"
+          ],
+          [
+            "outcome."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/34.mp3",
+        "timeStart": 145.77,
+        "timeEnd": 148.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90582/list"
+      },
+      {
+        "id": 90583,
+        "position": 35,
+        "content": "This brings me to my next point.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "brings",
+          "me",
+          "to",
+          "my",
+          "next",
+          "point."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "brings"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "my"
+          ],
+          [
+            "next"
+          ],
+          [
+            "point."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/35.mp3",
+        "timeStart": 149.15,
+        "timeEnd": 151.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90583/list"
+      },
+      {
+        "id": 90584,
+        "position": 36,
+        "content": "Often, the knowledge that informs clinical decisions emerges when you stand back from it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Often,",
+          "the",
+          "knowledge",
+          "that",
+          "informs",
+          "clinical",
+          "decisions",
+          "emerges",
+          "when",
+          "you",
+          "stand",
+          "back",
+          "from",
+          "it,"
+        ],
+        "solution": [
+          [
+            "Often,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "knowledge"
+          ],
+          [
+            "that"
+          ],
+          [
+            "informs"
+          ],
+          [
+            "clinical"
+          ],
+          [
+            "decisions"
+          ],
+          [
+            "emerges"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "stand"
+          ],
+          [
+            "back"
+          ],
+          [
+            "from"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/36.mp3",
+        "timeStart": 151.45,
+        "timeEnd": 156.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90584/list"
+      },
+      {
+        "id": 90585,
+        "position": 37,
+        "content": "like an impressionist painting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "like",
+          "an",
+          "impressionist",
+          "painting."
+        ],
+        "solution": [
+          [
+            "like"
+          ],
+          [
+            "an"
+          ],
+          [
+            "impressionist"
+          ],
+          [
+            "painting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/37.mp3",
+        "timeStart": 156.67,
+        "timeEnd": 158.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90585/list"
+      },
+      {
+        "id": 90586,
+        "position": 38,
+        "content": "What initially seems like randomly scattered information begins to come together,",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "initially",
+          "seems",
+          "like",
+          "randomly",
+          "scattered",
+          "information",
+          "begins",
+          "to",
+          "come",
+          "together,"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "initially"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "like"
+          ],
+          [
+            "randomly"
+          ],
+          [
+            "scattered"
+          ],
+          [
+            "information"
+          ],
+          [
+            "begins"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "together,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/38.mp3",
+        "timeStart": 158.83,
+        "timeEnd": 163.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90586/list"
+      },
+      {
+        "id": 90587,
+        "position": 39,
+        "content": "and what you see is the bigger picture.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "what",
+          "you",
+          "see",
+          "is",
+          "the",
+          "bigger",
+          "picture."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "see"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bigger"
+          ],
+          [
+            "picture."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/39.mp3",
+        "timeStart": 163.63,
+        "timeEnd": 166.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90587/list"
+      },
+      {
+        "id": 90588,
+        "position": 40,
+        "content": "That's where the true worth of anecdote lies.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "where",
+          "the",
+          "true",
+          "worth",
+          "of",
+          "anecdote",
+          "lies."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "where"
+          ],
+          [
+            "the"
+          ],
+          [
+            "true"
+          ],
+          [
+            "worth"
+          ],
+          [
+            "of"
+          ],
+          [
+            "anecdote"
+          ],
+          [
+            "lies."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/40.mp3",
+        "timeStart": 166.34,
+        "timeEnd": 169.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90588/list"
+      },
+      {
+        "id": 90589,
+        "position": 41,
+        "content": "Beyond its role as illustration, hypothesis builder, and low-level guidance for practice,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Beyond",
+          "its",
+          "role",
+          "as",
+          "illustration,",
+          "hypothesis",
+          "builder,",
+          "and",
+          [
+            "low-level",
+            "low level"
+          ],
+          "guidance",
+          "for",
+          [
+            "practice,",
+            "practise"
+          ]
+        ],
+        "solution": [
+          [
+            "Beyond"
+          ],
+          [
+            "its"
+          ],
+          [
+            "role"
+          ],
+          [
+            "as"
+          ],
+          [
+            "illustration,"
+          ],
+          [
+            "hypothesis"
+          ],
+          [
+            "builder,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "low-level",
+            "low level"
+          ],
+          [
+            "guidance"
+          ],
+          [
+            "for"
+          ],
+          [
+            "practice,",
+            "practise"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/41.mp3",
+        "timeStart": 169.21,
+        "timeEnd": 174.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90589/list"
+      },
+      {
+        "id": 90590,
+        "position": 42,
+        "content": "storytelling can act as a modest counterbalance to a narrow focus on data.",
+        "defaultInput": "",
+        "jsonContent": [
+          "storytelling",
+          "can",
+          "act",
+          "as",
+          "a",
+          "modest",
+          "counterbalance",
+          "to",
+          "a",
+          "narrow",
+          "focus",
+          "on",
+          "data."
+        ],
+        "solution": [
+          [
+            "storytelling"
+          ],
+          [
+            "can"
+          ],
+          [
+            "act"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "modest"
+          ],
+          [
+            "counterbalance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "narrow"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "on"
+          ],
+          [
+            "data."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/42.mp3",
+        "timeStart": 174.71,
+        "timeEnd": 180.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90590/list"
+      },
+      {
+        "id": 90591,
+        "position": 43,
+        "content": "If we rely solely on evidence,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "we",
+          "rely",
+          "solely",
+          "on",
+          "evidence,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "we"
+          ],
+          [
+            "rely"
+          ],
+          [
+            "solely"
+          ],
+          [
+            "on"
+          ],
+          [
+            "evidence,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/43.mp3",
+        "timeStart": 181,
+        "timeEnd": 183.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90591/list"
+      },
+      {
+        "id": 90592,
+        "position": 44,
+        "content": "we risk moving toward a monoculture,",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "risk",
+          "moving",
+          "toward",
+          "a",
+          "monoculture,"
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "moving"
+          ],
+          [
+            "toward"
+          ],
+          [
+            "a"
+          ],
+          [
+            "monoculture,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/44.mp3",
+        "timeStart": 183.86,
+        "timeEnd": 186.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90592/list"
+      },
+      {
+        "id": 90593,
+        "position": 45,
+        "content": "whereby patients and their afflictions become reduced to inanimate objects.",
+        "defaultInput": "",
+        "jsonContent": [
+          "whereby",
+          "patients",
+          "and",
+          "their",
+          "afflictions",
+          "become",
+          "reduced",
+          "to",
+          "inanimate",
+          "objects."
+        ],
+        "solution": [
+          [
+            "whereby"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "and"
+          ],
+          [
+            "their"
+          ],
+          [
+            "afflictions"
+          ],
+          [
+            "become"
+          ],
+          [
+            "reduced"
+          ],
+          [
+            "to"
+          ],
+          [
+            "inanimate"
+          ],
+          [
+            "objects."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/45.mp3",
+        "timeStart": 186.65,
+        "timeEnd": 191.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90593/list"
+      },
+      {
+        "id": 90594,
+        "position": 46,
+        "content": "A result I'd consider unfortunate,",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "result",
+          "I'd",
+          "consider",
+          "unfortunate,"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "result"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "consider"
+          ],
+          [
+            "unfortunate,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/46.mp3",
+        "timeStart": 191.82,
+        "timeEnd": 193.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90594/list"
+      },
+      {
+        "id": 90595,
+        "position": 47,
+        "content": "since there are many ways to influence preople for the better.",
+        "defaultInput": "",
+        "jsonContent": [
+          "since",
+          "there",
+          "are",
+          "many",
+          "ways",
+          "to",
+          "influence",
+          "preople",
+          "for",
+          "the",
+          "better."
+        ],
+        "solution": [
+          [
+            "since"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "many"
+          ],
+          [
+            "ways"
+          ],
+          [
+            "to"
+          ],
+          [
+            "influence"
+          ],
+          [
+            "preople"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "better."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/47.mp3",
+        "timeStart": 193.89,
+        "timeEnd": 197.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90595/list"
+      },
+      {
+        "id": 90596,
+        "position": 48,
+        "content": "It's been my hope that while we wait for conclusive science,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "been",
+          "my",
+          "hope",
+          "that",
+          "while",
+          "we",
+          "wait",
+          "for",
+          "conclusive",
+          "science,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "that"
+          ],
+          [
+            "while"
+          ],
+          [
+            "we"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "for"
+          ],
+          [
+            "conclusive"
+          ],
+          [
+            "science,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/48.mp3",
+        "timeStart": 197.67,
+        "timeEnd": 201.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90596/list"
+      },
+      {
+        "id": 90597,
+        "position": 49,
+        "content": "stories will preserve diversity in our theories of mind.",
+        "defaultInput": "",
+        "jsonContent": [
+          "stories",
+          "will",
+          "preserve",
+          "diversity",
+          "in",
+          "our",
+          "theories",
+          "of",
+          "mind."
+        ],
+        "solution": [
+          [
+            "stories"
+          ],
+          [
+            "will"
+          ],
+          [
+            "preserve"
+          ],
+          [
+            "diversity"
+          ],
+          [
+            "in"
+          ],
+          [
+            "our"
+          ],
+          [
+            "theories"
+          ],
+          [
+            "of"
+          ],
+          [
+            "mind."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/49.mp3",
+        "timeStart": 201.51,
+        "timeEnd": 205.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90597/list"
+      },
+      {
+        "id": 90598,
+        "position": 50,
+        "content": "My recent reading of outcome trials of antidepressants has strengthened my suspicion",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "recent",
+          "reading",
+          "of",
+          "outcome",
+          "trials",
+          "of",
+          "antidepressants",
+          "has",
+          "strengthened",
+          "my",
+          "suspicion"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "recent"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "of"
+          ],
+          [
+            "outcome"
+          ],
+          [
+            "trials"
+          ],
+          [
+            "of"
+          ],
+          [
+            "antidepressants"
+          ],
+          [
+            "has"
+          ],
+          [
+            "strengthened"
+          ],
+          [
+            "my"
+          ],
+          [
+            "suspicion"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/50.mp3",
+        "timeStart": 206.59,
+        "timeEnd": 211.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90598/list"
+      },
+      {
+        "id": 90599,
+        "position": 51,
+        "content": "that the line between research and storytelling can be fuzzy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "the",
+          "line",
+          "between",
+          "research",
+          "and",
+          "storytelling",
+          "can",
+          "be",
+          "fuzzy."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "line"
+          ],
+          [
+            "between"
+          ],
+          [
+            "research"
+          ],
+          [
+            "and"
+          ],
+          [
+            "storytelling"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fuzzy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/51.mp3",
+        "timeStart": 211.93,
+        "timeEnd": 215.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90599/list"
+      },
+      {
+        "id": 90600,
+        "position": 52,
+        "content": "In medicine, randomized trials are rarely large enough to provide guidance on their own.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "medicine,",
+          "randomized",
+          "trials",
+          "are",
+          "rarely",
+          "large",
+          "enough",
+          "to",
+          "provide",
+          "guidance",
+          "on",
+          "their",
+          "own."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "medicine,"
+          ],
+          [
+            "randomized"
+          ],
+          [
+            "trials"
+          ],
+          [
+            "are"
+          ],
+          [
+            "rarely"
+          ],
+          [
+            "large"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "to"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "guidance"
+          ],
+          [
+            "on"
+          ],
+          [
+            "their"
+          ],
+          [
+            "own."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/52.mp3",
+        "timeStart": 216.09,
+        "timeEnd": 221.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90600/list"
+      },
+      {
+        "id": 90601,
+        "position": 53,
+        "content": "Statisticians amalgamate many studies through a technique called meta-analysis.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Statisticians",
+          "amalgamate",
+          "many",
+          "studies",
+          "through",
+          "a",
+          "technique",
+          "called",
+          [
+            "meta-analysis.",
+            "meta analysis."
+          ]
+        ],
+        "solution": [
+          [
+            "Statisticians"
+          ],
+          [
+            "amalgamate"
+          ],
+          [
+            "many"
+          ],
+          [
+            "studies"
+          ],
+          [
+            "through"
+          ],
+          [
+            "a"
+          ],
+          [
+            "technique"
+          ],
+          [
+            "called"
+          ],
+          [
+            "meta-analysis.",
+            "meta analysis."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/53.mp3",
+        "timeStart": 221.33,
+        "timeEnd": 226.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90601/list"
+      },
+      {
+        "id": 90602,
+        "position": 54,
+        "content": "The first step of the process, deciding which data to include, colours the findings.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "first",
+            "1st"
+          ],
+          "step",
+          "of",
+          "the",
+          "process,",
+          "deciding",
+          "which",
+          "data",
+          "to",
+          "include,",
+          [
+            "colours",
+            "colors"
+          ],
+          "the",
+          "findings."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "step"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "process,"
+          ],
+          [
+            "deciding"
+          ],
+          [
+            "which"
+          ],
+          [
+            "data"
+          ],
+          [
+            "to"
+          ],
+          [
+            "include,"
+          ],
+          [
+            "colours",
+            "colors"
+          ],
+          [
+            "the"
+          ],
+          [
+            "findings."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/54.mp3",
+        "timeStart": 226.86,
+        "timeEnd": 231.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90602/list"
+      },
+      {
+        "id": 90603,
+        "position": 55,
+        "content": "Effectively, the numbers are narrative.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Effectively,",
+          "the",
+          "numbers",
+          "are",
+          "narrative."
+        ],
+        "solution": [
+          [
+            "Effectively,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "numbers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "narrative."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/55.mp3",
+        "timeStart": 231.89,
+        "timeEnd": 235.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90603/list"
+      },
+      {
+        "id": 90604,
+        "position": 56,
+        "content": "Put simply, evidence-based medicine is judgement-based medicine,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Put",
+          "simply,",
+          [
+            "evidence-based",
+            "evidence based"
+          ],
+          "medicine",
+          "is",
+          [
+            "judgement-based",
+            "judgement based"
+          ],
+          "medicine,"
+        ],
+        "solution": [
+          [
+            "Put"
+          ],
+          [
+            "simply,"
+          ],
+          [
+            "evidence-based",
+            "evidence based"
+          ],
+          [
+            "medicine"
+          ],
+          [
+            "is"
+          ],
+          [
+            "judgement-based",
+            "judgement based"
+          ],
+          [
+            "medicine,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/56.mp3",
+        "timeStart": 235.76,
+        "timeEnd": 240.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90604/list"
+      },
+      {
+        "id": 90605,
+        "position": 57,
+        "content": "in which randomised trials are carefully assessed and given their due.",
+        "defaultInput": "",
+        "jsonContent": [
+          "in",
+          "which",
+          "randomised",
+          "trials",
+          "are",
+          "carefully",
+          "assessed",
+          "and",
+          "given",
+          "their",
+          "due."
+        ],
+        "solution": [
+          [
+            "in"
+          ],
+          [
+            "which"
+          ],
+          [
+            "randomised"
+          ],
+          [
+            "trials"
+          ],
+          [
+            "are"
+          ],
+          [
+            "carefully"
+          ],
+          [
+            "assessed"
+          ],
+          [
+            "and"
+          ],
+          [
+            "given"
+          ],
+          [
+            "their"
+          ],
+          [
+            "due."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/57.mp3",
+        "timeStart": 240.1,
+        "timeEnd": 244.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90605/list"
+      },
+      {
+        "id": 90606,
+        "position": 58,
+        "content": "I don't think we need to be embarrassed about this.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "we",
+          "need",
+          "to",
+          "be",
+          "embarrassed",
+          "about",
+          "this."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "embarrassed"
+          ],
+          [
+            "about"
+          ],
+          [
+            "this."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/58.mp3",
+        "timeStart": 244.35,
+        "timeEnd": 246.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90606/list"
+      },
+      {
+        "id": 90607,
+        "position": 59,
+        "content": "Our substantial formal findings require integration.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "substantial",
+          "formal",
+          "findings",
+          "require",
+          "integration."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "substantial"
+          ],
+          [
+            "formal"
+          ],
+          [
+            "findings"
+          ],
+          [
+            "require"
+          ],
+          [
+            "integration."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/59.mp3",
+        "timeStart": 246.97,
+        "timeEnd": 250.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90607/list"
+      },
+      {
+        "id": 90608,
+        "position": 60,
+        "content": "The danger is in pretending otherwise.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "danger",
+          "is",
+          "in",
+          "pretending",
+          "otherwise."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "danger"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "pretending"
+          ],
+          [
+            "otherwise."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/60.mp3",
+        "timeStart": 250.54,
+        "timeEnd": 253.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90608/list"
+      },
+      {
+        "id": 90609,
+        "position": 61,
+        "content": "I've long felt isolated in embracing the use of narratives in medicine,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "long",
+          "felt",
+          "isolated",
+          "in",
+          "embracing",
+          "the",
+          "use",
+          "of",
+          "narratives",
+          "in",
+          "medicine,"
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "long"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "isolated"
+          ],
+          [
+            "in"
+          ],
+          [
+            "embracing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "use"
+          ],
+          [
+            "of"
+          ],
+          [
+            "narratives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "medicine,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/61.mp3",
+        "timeStart": 254.56,
+        "timeEnd": 259.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90609/list"
+      },
+      {
+        "id": 90610,
+        "position": 62,
+        "content": "which is why I warmed to the likelihood of narratives being used to inform future medical judgments.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "is",
+          "why",
+          "I",
+          "warmed",
+          "to",
+          "the",
+          "likelihood",
+          "of",
+          "narratives",
+          "being",
+          "used",
+          "to",
+          "inform",
+          "future",
+          "medical",
+          "judgments."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "why"
+          ],
+          [
+            "I"
+          ],
+          [
+            "warmed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "likelihood"
+          ],
+          [
+            "of"
+          ],
+          [
+            "narratives"
+          ],
+          [
+            "being"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "inform"
+          ],
+          [
+            "future"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "judgments."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/62.mp3",
+        "timeStart": 259.07,
+        "timeEnd": 265.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90610/list"
+      },
+      {
+        "id": 90611,
+        "position": 63,
+        "content": "It would be unfortunate if medicine moved fully to squeeze the art out of its science by marginalising the narrative.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It would",
+            "It'd"
+          ],
+          "be",
+          "unfortunate",
+          "if",
+          "medicine",
+          "moved",
+          "fully",
+          "to",
+          "squeeze",
+          "the",
+          "art",
+          "out",
+          "of",
+          "its",
+          "science",
+          "by",
+          "marginalising",
+          "the",
+          "narrative."
+        ],
+        "solution": [
+          [
+            "It would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "unfortunate"
+          ],
+          [
+            "if"
+          ],
+          [
+            "medicine"
+          ],
+          [
+            "moved"
+          ],
+          [
+            "fully"
+          ],
+          [
+            "to"
+          ],
+          [
+            "squeeze"
+          ],
+          [
+            "the"
+          ],
+          [
+            "art"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "its"
+          ],
+          [
+            "science"
+          ],
+          [
+            "by"
+          ],
+          [
+            "marginalising"
+          ],
+          [
+            "the"
+          ],
+          [
+            "narrative."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/63.mp3",
+        "timeStart": 265.53,
+        "timeEnd": 273.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90611/list"
+      },
+      {
+        "id": 90612,
+        "position": 64,
+        "content": "Stories aren't just better at capturing the bigger picture, but the smaller picture too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Stories",
+          [
+            "aren't",
+            "are not"
+          ],
+          "just",
+          "better",
+          "at",
+          "capturing",
+          "the",
+          "bigger",
+          "picture,",
+          "but",
+          "the",
+          "smaller",
+          "picture",
+          "too."
+        ],
+        "solution": [
+          [
+            "Stories"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "just"
+          ],
+          [
+            "better"
+          ],
+          [
+            "at"
+          ],
+          [
+            "capturing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bigger"
+          ],
+          [
+            "picture,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "smaller"
+          ],
+          [
+            "picture"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/64.mp3",
+        "timeStart": 273.85,
+        "timeEnd": 279.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90612/list"
+      },
+      {
+        "id": 90613,
+        "position": 65,
+        "content": "I'm thinking of the article about the depressed man given the drug Zoloft.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "thinking",
+          "of",
+          "the",
+          "article",
+          "about",
+          "the",
+          "depressed",
+          "man",
+          "given",
+          "the",
+          "drug",
+          "Zoloft."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "article"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "depressed"
+          ],
+          [
+            "man"
+          ],
+          [
+            "given"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drug"
+          ],
+          [
+            "Zoloft."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/65.mp3",
+        "timeStart": 279.67,
+        "timeEnd": 284.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90613/list"
+      },
+      {
+        "id": 90614,
+        "position": 66,
+        "content": "The degree of transformation in the patient was just as impressive as the length of observation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "degree",
+          "of",
+          "transformation",
+          "in",
+          "the",
+          "patient",
+          "was",
+          "just",
+          "as",
+          "impressive",
+          "as",
+          "the",
+          "length",
+          "of",
+          "observation."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "degree"
+          ],
+          [
+            "of"
+          ],
+          [
+            "transformation"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "patient"
+          ],
+          [
+            "was"
+          ],
+          [
+            "just"
+          ],
+          [
+            "as"
+          ],
+          [
+            "impressive"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "length"
+          ],
+          [
+            "of"
+          ],
+          [
+            "observation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/66.mp3",
+        "timeStart": 284.24,
+        "timeEnd": 289.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90614/list"
+      },
+      {
+        "id": 90615,
+        "position": 67,
+        "content": "No formal research can offer a 40-year lead-in or a 19-year follow-up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "formal",
+          "research",
+          "can",
+          "offer",
+          "a",
+          [
+            "40-year",
+            "40 year"
+          ],
+          [
+            "lead-in",
+            "lead in"
+          ],
+          "or",
+          "a",
+          [
+            "19-year",
+            "19 year"
+          ],
+          [
+            "follow-up.",
+            "follow up."
+          ]
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "formal"
+          ],
+          [
+            "research"
+          ],
+          [
+            "can"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "a"
+          ],
+          [
+            "40-year",
+            "40 year"
+          ],
+          [
+            "lead-in",
+            "lead in"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "19-year",
+            "19 year"
+          ],
+          [
+            "follow-up.",
+            "follow up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/67.mp3",
+        "timeStart": 290.21,
+        "timeEnd": 295.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90615/list"
+      },
+      {
+        "id": 90616,
+        "position": 68,
+        "content": "Few studies report on both symptoms and social progress.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Few",
+          "studies",
+          "report",
+          "on",
+          "both",
+          "symptoms",
+          "and",
+          "social",
+          "progress."
+        ],
+        "solution": [
+          [
+            "Few"
+          ],
+          [
+            "studies"
+          ],
+          [
+            "report"
+          ],
+          [
+            "on"
+          ],
+          [
+            "both"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "and"
+          ],
+          [
+            "social"
+          ],
+          [
+            "progress."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/68.mp3",
+        "timeStart": 296.04,
+        "timeEnd": 300.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90616/list"
+      },
+      {
+        "id": 90617,
+        "position": 69,
+        "content": "Research reduces information about many people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Research",
+          "reduces",
+          "information",
+          "about",
+          "many",
+          "people."
+        ],
+        "solution": [
+          [
+            "Research"
+          ],
+          [
+            "reduces"
+          ],
+          [
+            "information"
+          ],
+          [
+            "about"
+          ],
+          [
+            "many"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/69.mp3",
+        "timeStart": 301.02,
+        "timeEnd": 304.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90617/list"
+      },
+      {
+        "id": 90618,
+        "position": 70,
+        "content": "Narratives retain the texture of life in all its forms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Narratives",
+          "retain",
+          "the",
+          "texture",
+          "of",
+          "life",
+          "in",
+          "all",
+          "its",
+          "forms."
+        ],
+        "solution": [
+          [
+            "Narratives"
+          ],
+          [
+            "retain"
+          ],
+          [
+            "the"
+          ],
+          [
+            "texture"
+          ],
+          [
+            "of"
+          ],
+          [
+            "life"
+          ],
+          [
+            "in"
+          ],
+          [
+            "all"
+          ],
+          [
+            "its"
+          ],
+          [
+            "forms."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/70.mp3",
+        "timeStart": 304.55,
+        "timeEnd": 308.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90618/list"
+      },
+      {
+        "id": 90619,
+        "position": 71,
+        "content": "We need storytelling.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "need",
+          "storytelling."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "need"
+          ],
+          [
+            "storytelling."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/71.mp3",
+        "timeStart": 308.63,
+        "timeEnd": 310.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90619/list"
+      },
+      {
+        "id": 90620,
+        "position": 72,
+        "content": "Which is why I'll keep harping on about it until the message gets through.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "is",
+          "why",
+          [
+            "I'll",
+            "I will"
+          ],
+          "keep",
+          "harping",
+          "on",
+          "about",
+          "it",
+          "until",
+          "the",
+          "message",
+          "gets",
+          "through."
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "why"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "harping"
+          ],
+          [
+            "on"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it"
+          ],
+          [
+            "until"
+          ],
+          [
+            "the"
+          ],
+          [
+            "message"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "through."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-c-extract-2-2025-08-29-22-00-53/72.mp3",
+        "timeStart": 311.03,
+        "timeEnd": 315.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90620/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90549": {
+      "id": 3681891,
+      "text": "Xin chào, tôi tên là Anthony Gibbons.",
+      "author": "ChatGPT4.1"
+    },
+    "90550": {
+      "id": 3681892,
+      "text": "Tôi là một bác sĩ tâm thần lâm sàng và cũng là một tác giả đã xuất bản sách.",
+      "author": "ChatGPT4.1"
+    },
+    "90551": {
+      "id": 3681893,
+      "text": "Tôi muốn nói về một điều quan trọng đối với tất cả các chuyên gia y tế,",
+      "author": "ChatGPT4.1"
+    },
+    "90552": {
+      "id": 3681894,
+      "text": "đó là việc sử dụng các câu chuyện trong y học.",
+      "author": "ChatGPT4.1"
+    },
+    "90553": {
+      "id": 3681895,
+      "text": "Hãy để tôi bắt đầu với một nghiên cứu trường hợp được gửi cho tôi bởi một đồng nghiệp cũng có chung sự quan tâm về chủ đề này.",
+      "author": "ChatGPT4.1"
+    },
+    "90554": {
+      "id": 3681896,
+      "text": "Nghiên cứu nói về một người đàn ông 30 tuổi đã nhập viện vì những cơn hoảng loạn nghiêm trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "90555": {
+      "id": 3681897,
+      "text": "Anh ấy được điều trị bằng phương pháp phân tích thần kinh nhưng không cảm thấy thuyên giảm,",
+      "author": "ChatGPT4.1"
+    },
+    "90556": {
+      "id": 3681898,
+      "text": "đã chuyển sang rượu và chịu đựng nhiều năm trầm cảm cùng cô lập xã hội.",
+      "author": "ChatGPT4.1"
+    },
+    "90557": {
+      "id": 3681899,
+      "text": "Bốn thập kỷ sau, anh ấy lại trở lại hệ thống tâm thần,",
+      "author": "ChatGPT4.1"
+    },
+    "90558": {
+      "id": 3681900,
+      "text": "nhưng lần đầu tiên anh ấy được kê đơn thuốc chống trầm cảm Zoloft.",
+      "author": "ChatGPT4.1"
+    },
+    "90559": {
+      "id": 3681901,
+      "text": "Sáu tuần sau, anh ấy được xuất viện vì các cơn hoảng loạn và trầm cảm đã biến mất.",
+      "author": "ChatGPT4.1"
+    },
+    "90560": {
+      "id": 3681902,
+      "text": "Anh ta đã sống một cuộc đời trọn vẹn cho đến khi qua đời 19 năm sau đó.",
+      "author": "a user"
+    },
+    "90561": {
+      "id": 3681903,
+      "text": "Nếu câu chuyện này gây ấn tượng, thì càng đặc biệt hơn khi nó được đưa vào một tạp chí y khoa.",
+      "author": "ChatGPT4.1"
+    },
+    "90562": {
+      "id": 3681904,
+      "text": "Tôi đã nhiều lần ngạc nhiên trước tác động mà ngay cả những câu chuyện bệnh sử được phác họa sơ lược cũng có thể mang lại cho người đọc.",
+      "author": "a user"
+    },
+    "90563": {
+      "id": 3681905,
+      "text": "Trong cuốn sách đầu tiên của mình, tôi viết về tính cách và cách nó có thể thay đổi khi dùng thuốc.",
+      "author": "ChatGPT4.1"
+    },
+    "90564": {
+      "id": 3681906,
+      "text": "Cuốn thứ hai của tôi nói về các lý thuyết liên quan đến sự thân mật.",
+      "author": "ChatGPT4.1"
+    },
+    "90565": {
+      "id": 3681907,
+      "text": "Tuy nhiên, độc giả thường sử dụng những cuốn sách này cho một mục đích khác, đó là nhận diện chứng trầm cảm.",
+      "author": "a user"
+    },
+    "90566": {
+      "id": 3681908,
+      "text": "Tôi thường xuyên nhận được và vẫn nhận được các cuộc gọi,",
+      "author": "ChatGPT4.1"
+    },
+    "90567": {
+      "id": 3681909,
+      "text": "mọi người nói rằng, chồng tôi giống hệt X, một nhân vật trong ví dụ lâm sàng.",
+      "author": "ChatGPT4.1"
+    },
+    "90568": {
+      "id": 3681910,
+      "text": "Những độc giả khác viết thư nói rằng họ đã nhận ra chính mình.",
+      "author": "a user"
+    },
+    "90569": {
+      "id": 3681911,
+      "text": "Việc nhận ra rằng họ không đơn độc đã cho họ hy vọng.",
+      "author": "ChatGPT4.1"
+    },
+    "90570": {
+      "id": 3681912,
+      "text": "Khích lệ là một lợi ích khác của việc mô tả trường hợp.",
+      "author": "ChatGPT4.1"
+    },
+    "90571": {
+      "id": 3681913,
+      "text": "Điều này quen thuộc với chúng ta trong thời đại ai cũng viết tự truyện.",
+      "author": "ChatGPT4.1"
+    },
+    "90572": {
+      "id": 3681914,
+      "text": "Nhưng điều này không có nghĩa là những câu chuyện là liều thuốc chữa bách bệnh cho những vấn đề cố hữu trong việc điều trị bệnh nhân,",
+      "author": "a user"
+    },
+    "90573": {
+      "id": 3681915,
+      "text": "và có thể có những bất lợi.",
+      "author": "a user"
+    },
+    "90574": {
+      "id": 3681916,
+      "text": "Hãy xem xét kinh nghiệm kê đơn Prozac của tôi.",
+      "author": "a user"
+    },
+    "90575": {
+      "id": 3681917,
+      "text": "Khi một số bệnh nhân báo rằng họ cảm thấy tốt hơn mức bình thường sau khi dùng thuốc,",
+      "author": "ChatGPT4.1"
+    },
+    "90576": {
+      "id": 3681918,
+      "text": "Tôi đã trình bày những ví dụ này trước tiên trong các bài luận cho các bác sĩ tâm thần rồi sau đó đưa vào sách của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "90577": {
+      "id": 3681919,
+      "text": "Tôi đã lồng ghép tài liệu tường thuật với các báo cáo nghiên cứu.",
+      "author": "a user"
+    },
+    "90578": {
+      "id": 3681920,
+      "text": "Theo thời gian, những mô tả thiếu cơ sở của tôi đã dẫn dắt những người khác thực hiện các thử nghiệm có đối chứng để xác nhận hiện tượng này.",
+      "author": "a user"
+    },
+    "90579": {
+      "id": 3682970,
+      "text": "Nhưng các bác sĩ đã không chờ đợi những thử nghiệm có đối chứng đó.",
+      "author": "a user"
+    },
+    "90580": {
+      "id": 3682971,
+      "text": "Trước đó, giả thuyết \"tốt hơn cả bình thường\" đã được coi như một sự thật tạm thời.",
+      "author": "ChatGPT4.1"
+    },
+    "90581": {
+      "id": 3682972,
+      "text": "Khi điều trị trầm cảm, các đồng nghiệp đã chú ý đến sự thay đổi tính cách, thậm chí còn hướng đến điều đó,",
+      "author": "ChatGPT4.1"
+    },
+    "90582": {
+      "id": 3682973,
+      "text": "mặc dù đây không phải là kết quả mà tôi dự định.",
+      "author": "ChatGPT4.1"
+    },
+    "90583": {
+      "id": 3682974,
+      "text": "Điều này đưa tôi đến điểm tiếp theo.",
+      "author": "a user"
+    },
+    "90584": {
+      "id": 3682975,
+      "text": "Thường thì, kiến thức định hướng các quyết định lâm sàng sẽ xuất hiện khi bạn lùi lại một bước,",
+      "author": "ChatGPT4.1"
+    },
+    "90585": {
+      "id": 3682976,
+      "text": "giống như một bức tranh ấn tượng.",
+      "author": "ChatGPT4.1"
+    },
+    "90586": {
+      "id": 3682977,
+      "text": "Những gì ban đầu có vẻ như là thông tin rải rác ngẫu nhiên bắt đầu kết hợp lại với nhau,",
+      "author": "a user"
+    },
+    "90587": {
+      "id": 3682978,
+      "text": "và những gì bạn thấy là bức tranh toàn cảnh.",
+      "author": "a user"
+    },
+    "90588": {
+      "id": 3682979,
+      "text": "Đó chính là giá trị thực sự của giai thoại.",
+      "author": "a user"
+    },
+    "90589": {
+      "id": 3682980,
+      "text": "Ngoài vai trò minh họa, xây dựng giả thuyết và hướng dẫn thực hành cơ bản,",
+      "author": "ChatGPT4.1"
+    },
+    "90590": {
+      "id": 3682981,
+      "text": "việc kể chuyện có thể đóng vai trò là một đối trọng khiêm tốn cho sự tập trung quá hẹp vào dữ liệu.",
+      "author": "ChatGPT4.1"
+    },
+    "90591": {
+      "id": 3682982,
+      "text": "Nếu chúng ta chỉ dựa vào bằng chứng,",
+      "author": "ChatGPT4.1"
+    },
+    "90592": {
+      "id": 3682983,
+      "text": "chúng ta có nguy cơ tiến tới một nền văn hóa đồng nhất,",
+      "author": "ChatGPT4.1"
+    },
+    "90593": {
+      "id": 3682984,
+      "text": "nơi mà bệnh nhân và những nỗi đau của họ bị giản lược thành những vật vô tri vô giác.",
+      "author": "ChatGPT4.1"
+    },
+    "90594": {
+      "id": 3682985,
+      "text": "Một kết quả mà tôi cho là đáng tiếc,",
+      "author": "a user"
+    },
+    "90595": {
+      "id": 3682986,
+      "text": "vì có rất nhiều cách để tác động tích cực lên con người.",
+      "author": "ChatGPT4.1"
+    },
+    "90596": {
+      "id": 3682987,
+      "text": "Tôi luôn hy vọng rằng khi chúng ta chờ đợi khoa học có kết luận xác đáng,",
+      "author": "ChatGPT4.1"
+    },
+    "90597": {
+      "id": 3682988,
+      "text": "những câu chuyện sẽ bảo tồn sự đa dạng trong các lý thuyết về tâm trí của chúng ta.",
+      "author": "a user"
+    },
+    "90598": {
+      "id": 3682989,
+      "text": "Những gì tôi đọc gần đây về các thử nghiệm kết quả của thuốc chống trầm cảm đã củng cố thêm nghi ngờ của tôi",
+      "author": "a user"
+    },
+    "90599": {
+      "id": 3682990,
+      "text": "rằng ranh giới giữa nghiên cứu và kể chuyện có thể rất mờ nhạt.",
+      "author": "ChatGPT4.1"
+    },
+    "90600": {
+      "id": 3682991,
+      "text": "Trong y học, các thử nghiệm ngẫu nhiên hiếm khi đủ lớn để tự cung cấp chỉ dẫn.",
+      "author": "ChatGPT4.1"
+    },
+    "90601": {
+      "id": 3682992,
+      "text": "Các nhà thống kê tổng hợp nhiều nghiên cứu thông qua kỹ thuật gọi là phân tích tổng hợp (meta-analysis).",
+      "author": "ChatGPT4.1"
+    },
+    "90602": {
+      "id": 3682993,
+      "text": "Bước đầu tiên của quá trình này, quyết định đưa dữ liệu nào vào, sẽ ảnh hưởng đến kết quả.",
+      "author": "ChatGPT4.1"
+    },
+    "90603": {
+      "id": 3682994,
+      "text": "Thực chất, những con số cũng là câu chuyện.",
+      "author": "ChatGPT4.1"
+    },
+    "90604": {
+      "id": 3682995,
+      "text": "Nói một cách đơn giản, y học dựa trên bằng chứng cũng chính là y học dựa trên phán đoán,",
+      "author": "ChatGPT4.1"
+    },
+    "90605": {
+      "id": 3682996,
+      "text": "trong đó các thử nghiệm ngẫu nhiên được đánh giá cẩn thận và được công nhận xứng đáng.",
+      "author": "a user"
+    },
+    "90606": {
+      "id": 3682997,
+      "text": "Tôi không nghĩ chúng ta cần xấu hổ về điều này.",
+      "author": "ChatGPT4.1"
+    },
+    "90607": {
+      "id": 3682998,
+      "text": "Những phát hiện chính thức đáng kể của chúng ta cần được tích hợp lại.",
+      "author": "ChatGPT4.1"
+    },
+    "90608": {
+      "id": 3682999,
+      "text": "Mối nguy hiểm nằm ở việc giả vờ ngược lại.",
+      "author": "a user"
+    },
+    "90609": {
+      "id": 3683000,
+      "text": "Từ lâu tôi đã cảm thấy cô lập khi ủng hộ việc sử dụng các câu chuyện trong y học,",
+      "author": "ChatGPT4.1"
+    },
+    "90610": {
+      "id": 3683001,
+      "text": "đó là lý do tại sao tôi quan tâm đến khả năng các tường thuật được sử dụng để cung cấp thông tin cho các phán đoán y khoa trong tương lai.",
+      "author": "a user"
+    },
+    "90611": {
+      "id": 3683002,
+      "text": "Sẽ thật đáng tiếc nếu y học hoàn toàn loại bỏ tính nghệ thuật khỏi khoa học của mình bằng cách gạt ra bên lề các câu chuyện.",
+      "author": "ChatGPT4.1"
+    },
+    "90612": {
+      "id": 3683003,
+      "text": "Những câu chuyện không chỉ giỏi trong việc nắm bắt bức tranh lớn mà cả bức tranh nhỏ nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "90613": {
+      "id": 3683004,
+      "text": "Tôi đang nghĩ về bài báo nói về người đàn ông trầm cảm được cho dùng thuốc Zoloft.",
+      "author": "ChatGPT4.1"
+    },
+    "90614": {
+      "id": 3683005,
+      "text": "Mức độ thay đổi ở bệnh nhân gây ấn tượng không kém gì khoảng thời gian theo dõi.",
+      "author": "ChatGPT4.1"
+    },
+    "90615": {
+      "id": 3683006,
+      "text": "Không một nghiên cứu chính thức nào có thể đưa ra một khởi đầu kéo dài 40 năm hay 19 năm theo dõi.",
+      "author": "ChatGPT4.1"
+    },
+    "90616": {
+      "id": 3683007,
+      "text": "Ít nghiên cứu nào báo cáo về cả triệu chứng và tiến bộ xã hội.",
+      "author": "a user"
+    },
+    "90617": {
+      "id": 3683008,
+      "text": "Nghiên cứu làm giảm thông tin về nhiều người.",
+      "author": "ChatGPT4.1"
+    },
+    "90618": {
+      "id": 3683009,
+      "text": "Các câu chuyện giữ lại được kết cấu của cuộc sống dưới mọi hình thức.",
+      "author": "ChatGPT4.1"
+    },
+    "90619": {
+      "id": 3683010,
+      "text": "Chúng ta cần những câu chuyện.",
+      "author": "ChatGPT4.1"
+    },
+    "90620": {
+      "id": 3683011,
+      "text": "Đó là lý do tại sao tôi sẽ tiếp tục nhấn mạnh về điều này cho đến khi thông điệp được truyền tải đầy đủ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

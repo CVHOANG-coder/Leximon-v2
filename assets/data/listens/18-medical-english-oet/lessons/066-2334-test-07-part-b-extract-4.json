@@ -1,0 +1,732 @@
+{
+  "summary": {
+    "id": 2334,
+    "name": "Test 07 - Part B - Extract 4",
+    "subTitle": "Possible Post-Op Infection",
+    "levelName": "C1",
+    "position": 66,
+    "totalChallenges": 11,
+    "groupId": 137,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2334",
+  "detail": {
+    "id": 2334,
+    "lessonName": "Test 07 - Part B - Extract 4",
+    "name": "Test 07 - Part B - Extract 4",
+    "position": 66,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/0-test-07-part-b-extract-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 91808,
+        "position": 1,
+        "content": "Hi, Dr. Jones, this is Helen from the PA Hospital.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "Dr.",
+          "Jones,",
+          "this",
+          "is",
+          "Helen",
+          "from",
+          "the",
+          "PA",
+          "Hospital."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Jones,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Helen"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "PA"
+          ],
+          [
+            "Hospital."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/1.mp3",
+        "timeStart": 0.8,
+        "timeEnd": 4.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91808/list"
+      },
+      {
+        "id": 91809,
+        "position": 2,
+        "content": "I'm calling about your patient, Mrs. Singh, in room 231.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "about",
+          "your",
+          "patient,",
+          "Mrs.",
+          "Singh,",
+          "in",
+          "room",
+          "231."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "patient,"
+          ],
+          [
+            "Mrs."
+          ],
+          [
+            "Singh,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "room"
+          ],
+          [
+            "231."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/2.mp3",
+        "timeStart": 4.37,
+        "timeEnd": 8.62,
+        "hints": [
+          "Singh"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91809/list"
+      },
+      {
+        "id": 91810,
+        "position": 3,
+        "content": "She's a 70-year-old second-day post-op hip patient,",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "a",
+          [
+            "70-year-old",
+            "70 year old"
+          ],
+          [
+            "second-day",
+            "second day"
+          ],
+          [
+            "post-op",
+            "post op"
+          ],
+          "hip",
+          "patient,"
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "70-year-old",
+            "70 year old"
+          ],
+          [
+            "second-day",
+            "second day"
+          ],
+          [
+            "post-op",
+            "post op"
+          ],
+          [
+            "hip"
+          ],
+          [
+            "patient,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/3.mp3",
+        "timeStart": 9.09,
+        "timeEnd": 12.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91810/list"
+      },
+      {
+        "id": 91811,
+        "position": 4,
+        "content": "and she's been complaining of intense pain tonight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "she's",
+          "been",
+          "complaining",
+          "of",
+          "intense",
+          "pain",
+          "tonight."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "complaining"
+          ],
+          [
+            "of"
+          ],
+          [
+            "intense"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "tonight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/4.mp3",
+        "timeStart": 12.93,
+        "timeEnd": 16.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91811/list"
+      },
+      {
+        "id": 91812,
+        "position": 5,
+        "content": "She received all her scheduled antibiotics",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "received",
+          "all",
+          "her",
+          "scheduled",
+          "antibiotics"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "received"
+          ],
+          [
+            "all"
+          ],
+          [
+            "her"
+          ],
+          [
+            "scheduled"
+          ],
+          [
+            "antibiotics"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/5.mp3",
+        "timeStart": 16.31,
+        "timeEnd": 19.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91812/list"
+      },
+      {
+        "id": 91813,
+        "position": 6,
+        "content": "but started running a fever of 38.3 degrees at midnight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "started",
+          "running",
+          "a",
+          "fever",
+          "of",
+          "38.3",
+          "degrees",
+          "at",
+          "midnight."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "started"
+          ],
+          [
+            "running"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fever"
+          ],
+          [
+            "of"
+          ],
+          [
+            "38.3"
+          ],
+          [
+            "degrees"
+          ],
+          [
+            "at"
+          ],
+          [
+            "midnight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/6.mp3",
+        "timeStart": 19.11,
+        "timeEnd": 23.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91813/list"
+      },
+      {
+        "id": 91814,
+        "position": 7,
+        "content": "Her incision is also quite red and I noticed some new purulent drainage.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          "incision",
+          "is",
+          "also",
+          "quite",
+          "red",
+          "and",
+          "I",
+          "noticed",
+          "some",
+          "new",
+          "purulent",
+          "drainage."
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "incision"
+          ],
+          [
+            "is"
+          ],
+          [
+            "also"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "red"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "noticed"
+          ],
+          [
+            "some"
+          ],
+          [
+            "new"
+          ],
+          [
+            "purulent"
+          ],
+          [
+            "drainage."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/7.mp3",
+        "timeStart": 23.29,
+        "timeEnd": 27.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91814/list"
+      },
+      {
+        "id": 91815,
+        "position": 8,
+        "content": "I'm concerned she may have an infection",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "concerned",
+          "she",
+          "may",
+          "have",
+          "an",
+          "infection"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "concerned"
+          ],
+          [
+            "she"
+          ],
+          [
+            "may"
+          ],
+          [
+            "have"
+          ],
+          [
+            "an"
+          ],
+          [
+            "infection"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/8.mp3",
+        "timeStart": 28.12,
+        "timeEnd": 30.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91815/list"
+      },
+      {
+        "id": 91816,
+        "position": 9,
+        "content": "and I'd like you to see Mrs Singh as soon as possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I'd",
+          "like",
+          "you",
+          "to",
+          "see",
+          "Mrs",
+          "Singh",
+          "as",
+          "soon",
+          "as",
+          "possible."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Singh"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/9.mp3",
+        "timeStart": 30.47,
+        "timeEnd": 34.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91816/list"
+      },
+      {
+        "id": 91817,
+        "position": 10,
+        "content": "But in the meantime, I'm wondering what course of action you'd like me to take,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "in",
+          "the",
+          "meantime,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "wondering",
+          "what",
+          "course",
+          "of",
+          "action",
+          "you'd",
+          "like",
+          "me",
+          "to",
+          "take,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meantime,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "wondering"
+          ],
+          [
+            "what"
+          ],
+          [
+            "course"
+          ],
+          [
+            "of"
+          ],
+          [
+            "action"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/10.mp3",
+        "timeStart": 34.32,
+        "timeEnd": 39.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91817/list"
+      },
+      {
+        "id": 91818,
+        "position": 11,
+        "content": "whether or not you'd like me to draw a CBC or blood cultures.",
+        "defaultInput": "",
+        "jsonContent": [
+          "whether",
+          "or",
+          "not",
+          "you'd",
+          "like",
+          "me",
+          "to",
+          "draw",
+          "a",
+          "CBC",
+          "or",
+          "blood",
+          "cultures."
+        ],
+        "solution": [
+          [
+            "whether"
+          ],
+          [
+            "or"
+          ],
+          [
+            "not"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "draw"
+          ],
+          [
+            "a"
+          ],
+          [
+            "CBC"
+          ],
+          [
+            "or"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "cultures."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-4-2025-08-29-22-21-21/11.mp3",
+        "timeStart": 39.1,
+        "timeEnd": 43.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91818/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "91808": {
+      "id": 3680678,
+      "text": "Chào bác sĩ Jones, tôi là Helen từ bệnh viện PA.",
+      "author": "ChatGPT4.1"
+    },
+    "91809": {
+      "id": 3680679,
+      "text": "Tôi đang gọi về bệnh nhân của bác sĩ, bà Singh, ở phòng 231.",
+      "author": "ChatGPT4.1"
+    },
+    "91810": {
+      "id": 3680680,
+      "text": "Bà ấy là bệnh nhân 70 tuổi, ngày thứ hai sau phẫu thuật thay khớp háng,",
+      "author": "ChatGPT4.1"
+    },
+    "91811": {
+      "id": 3680681,
+      "text": "và tối nay, bà ấy than phiền về cơn đau dữ dội.",
+      "author": "ChatGPT4.1"
+    },
+    "91812": {
+      "id": 3680682,
+      "text": "Bà ấy đã nhận tất cả các liều kháng sinh theo lịch trình",
+      "author": "ChatGPT4.1"
+    },
+    "91813": {
+      "id": 3680683,
+      "text": "nhưng bắt đầu sốt 38,3 độ vào lúc nửa đêm.",
+      "author": "ChatGPT4.1"
+    },
+    "91814": {
+      "id": 3680684,
+      "text": "Vết mổ của bà ấy cũng khá đỏ và tôi nhận thấy có mủ mới chảy ra.",
+      "author": "ChatGPT4.1"
+    },
+    "91815": {
+      "id": 3680685,
+      "text": "Tôi lo lắng rằng có thể bà ấy đã bị nhiễm trùng",
+      "author": "ChatGPT4.1"
+    },
+    "91816": {
+      "id": 3680686,
+      "text": "và tôi muốn bác sĩ đến xem bà Singh càng sớm càng tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "91817": {
+      "id": 3680687,
+      "text": "Nhưng trong lúc chờ đợi, tôi muốn hỏi bác sĩ muốn tôi thực hiện các bước nào,",
+      "author": "ChatGPT4.1"
+    },
+    "91818": {
+      "id": 3680688,
+      "text": "liệu bác sĩ có muốn tôi lấy xét nghiệm công thức máu hoặc cấy máu không.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

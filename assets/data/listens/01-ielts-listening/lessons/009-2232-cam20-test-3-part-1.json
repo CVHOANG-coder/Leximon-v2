@@ -1,0 +1,4005 @@
+{
+  "summary": {
+    "id": 2232,
+    "name": "Cam20 - Test 3 - Part 1",
+    "subTitle": "Furniture Rental Options Discussion",
+    "levelName": "B2",
+    "position": 9,
+    "totalChallenges": 70,
+    "groupId": 129,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2232",
+  "detail": {
+    "id": 2232,
+    "lessonName": "Cam20 - Test 3 - Part 1",
+    "name": "Cam20 - Test 3 - Part 1",
+    "position": 9,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/0-cam20-test-3-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 88557,
+        "position": 1,
+        "content": "Good morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/1.mp3",
+        "timeStart": 0.68,
+        "timeEnd": 1.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88557/list"
+      },
+      {
+        "id": 88558,
+        "position": 2,
+        "content": "Hi, this is Shelley Meyer.",
+        "defaultInput": "Hi, this is Shelley Meyer.",
+        "jsonContent": [
+          "Hi,",
+          "this",
+          "is",
+          "Shelley",
+          "Meyer."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Shelley"
+          ],
+          [
+            "Meyer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/2.mp3",
+        "timeStart": 1.88,
+        "timeEnd": 4.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88558/list"
+      },
+      {
+        "id": 88559,
+        "position": 3,
+        "content": "I'm renting your house on Archwood Avenue.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "renting",
+          "your",
+          "house",
+          "on",
+          "Archwood",
+          "Avenue."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "renting"
+          ],
+          [
+            "your"
+          ],
+          [
+            "house"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Archwood"
+          ],
+          [
+            "Avenue."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/3.mp3",
+        "timeStart": 4.52,
+        "timeEnd": 7.25,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88559/list"
+      },
+      {
+        "id": 88560,
+        "position": 4,
+        "content": "I'm due to move in next week.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "due",
+          "to",
+          "move",
+          "in",
+          "next",
+          "week."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "due"
+          ],
+          [
+            "to"
+          ],
+          [
+            "move"
+          ],
+          [
+            "in"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/4.mp3",
+        "timeStart": 7.25,
+        "timeEnd": 9.47,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88560/list"
+      },
+      {
+        "id": 88561,
+        "position": 5,
+        "content": "Oh, yes... hello, Ms. Meyer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "yes...",
+          "hello,",
+          "Ms.",
+          "Meyer."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "yes..."
+          ],
+          [
+            "hello,"
+          ],
+          [
+            "Ms."
+          ],
+          [
+            "Meyer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/5.mp3",
+        "timeStart": 9.47,
+        "timeEnd": 11.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88561/list"
+      },
+      {
+        "id": 88562,
+        "position": 6,
+        "content": "What can I do for you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "can",
+          "I",
+          "do",
+          "for",
+          "you?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/6.mp3",
+        "timeStart": 11.63,
+        "timeEnd": 13.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88562/list"
+      },
+      {
+        "id": 88563,
+        "position": 7,
+        "content": "When I viewed the house, I told you I'll most probably need to rent some furniture,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "I",
+          "viewed",
+          "the",
+          "house,",
+          "I",
+          "told",
+          "you",
+          [
+            "I'll",
+            "I will"
+          ],
+          "most",
+          "probably",
+          "need",
+          "to",
+          "rent",
+          "some",
+          "furniture,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "I"
+          ],
+          [
+            "viewed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "told"
+          ],
+          [
+            "you"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "most"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "rent"
+          ],
+          [
+            "some"
+          ],
+          [
+            "furniture,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/7.mp3",
+        "timeStart": 13.15,
+        "timeEnd": 18.09,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88563/list"
+      },
+      {
+        "id": 88564,
+        "position": 8,
+        "content": "at least until I know whether my temporary work contract is going to be made permanent.",
+        "defaultInput": "",
+        "jsonContent": [
+          "at",
+          "least",
+          "until",
+          "I",
+          "know",
+          "whether",
+          "my",
+          "temporary",
+          "work",
+          "contract",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "made",
+          "permanent."
+        ],
+        "solution": [
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "until"
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "my"
+          ],
+          [
+            "temporary"
+          ],
+          [
+            "work"
+          ],
+          [
+            "contract"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "made"
+          ],
+          [
+            "permanent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/8.mp3",
+        "timeStart": 18.09,
+        "timeEnd": 23.37,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88564/list"
+      },
+      {
+        "id": 88565,
+        "position": 9,
+        "content": "Yes, of course, I remember.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "of",
+          "course,",
+          "I",
+          "remember."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "remember."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/9.mp3",
+        "timeStart": 23.37,
+        "timeEnd": 25.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88565/list"
+      },
+      {
+        "id": 88566,
+        "position": 10,
+        "content": "And I said I could give you some information about furniture rental companies in the city.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "said",
+          "I",
+          "could",
+          "give",
+          "you",
+          "some",
+          "information",
+          "about",
+          "furniture",
+          "rental",
+          "companies",
+          "in",
+          "the",
+          "city."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "said"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "information"
+          ],
+          [
+            "about"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "rental"
+          ],
+          [
+            "companies"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/10.mp3",
+        "timeStart": 25.57,
+        "timeEnd": 30.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88566/list"
+      },
+      {
+        "id": 88567,
+        "position": 11,
+        "content": "That's right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "right."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/11.mp3",
+        "timeStart": 30.79,
+        "timeEnd": 32.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88567/list"
+      },
+      {
+        "id": 88568,
+        "position": 12,
+        "content": "Well, the biggest company is called Peak Rentals.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          "biggest",
+          [
+            "company",
+            "Co"
+          ],
+          "is",
+          "called",
+          "Peak",
+          "Rentals."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "biggest"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "is"
+          ],
+          [
+            "called"
+          ],
+          [
+            "Peak"
+          ],
+          [
+            "Rentals."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/12.mp3",
+        "timeStart": 32.32,
+        "timeEnd": 35.88,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88568/list"
+      },
+      {
+        "id": 88569,
+        "position": 13,
+        "content": "I've recommended them to other people and have always heard positive reports about them.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "recommended",
+          "them",
+          "to",
+          "other",
+          "people",
+          "and",
+          "have",
+          "always",
+          "heard",
+          "positive",
+          "reports",
+          "about",
+          "them."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "recommended"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "other"
+          ],
+          [
+            "people"
+          ],
+          [
+            "and"
+          ],
+          [
+            "have"
+          ],
+          [
+            "always"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "positive"
+          ],
+          [
+            "reports"
+          ],
+          [
+            "about"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/13.mp3",
+        "timeStart": 35.88,
+        "timeEnd": 40.49,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88569/list"
+      },
+      {
+        "id": 88570,
+        "position": 14,
+        "content": "Could you give me an idea of their costs?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "give",
+          "me",
+          "an",
+          "idea",
+          "of",
+          "their",
+          "costs?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "an"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "costs?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/14.mp3",
+        "timeStart": 40.49,
+        "timeEnd": 43.79,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88570/list"
+      },
+      {
+        "id": 88571,
+        "position": 15,
+        "content": "Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/15.mp3",
+        "timeStart": 43.91,
+        "timeEnd": 44.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88571/list"
+      },
+      {
+        "id": 88572,
+        "position": 16,
+        "content": "I actually have one of their brochures here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "actually",
+          "have",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "their",
+          "brochures",
+          "here."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "have"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "brochures"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/16.mp3",
+        "timeStart": 44.72,
+        "timeEnd": 47.42,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88572/list"
+      },
+      {
+        "id": 88573,
+        "position": 17,
+        "content": "It says the monthly price per room starts at $105 and goes up to $239.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "says",
+          "the",
+          "monthly",
+          "price",
+          "per",
+          "room",
+          "starts",
+          "at",
+          [
+            "$105",
+            "105 dollars"
+          ],
+          "and",
+          "goes",
+          "up",
+          "to",
+          [
+            "$239.",
+            "239 dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "says"
+          ],
+          [
+            "the"
+          ],
+          [
+            "monthly"
+          ],
+          [
+            "price"
+          ],
+          [
+            "per"
+          ],
+          [
+            "room"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "at"
+          ],
+          [
+            "$105",
+            "105 dollars"
+          ],
+          [
+            "and"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "$239.",
+            "239 dollars"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/17.mp3",
+        "timeStart": 47.52,
+        "timeEnd": 55.67,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88573/list"
+      },
+      {
+        "id": 88574,
+        "position": 18,
+        "content": "That depends on which rooms you need furniture for, of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "depends",
+          "on",
+          "which",
+          "rooms",
+          "you",
+          "need",
+          "furniture",
+          "for,",
+          "of",
+          "course."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "depends"
+          ],
+          [
+            "on"
+          ],
+          [
+            "which"
+          ],
+          [
+            "rooms"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "for,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/18.mp3",
+        "timeStart": 55.67,
+        "timeEnd": 59.65,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88574/list"
+      },
+      {
+        "id": 88575,
+        "position": 19,
+        "content": "Sure.",
+        "defaultInput": "Sure.",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/19.mp3",
+        "timeStart": 59.65,
+        "timeEnd": 60.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88575/list"
+      },
+      {
+        "id": 88576,
+        "position": 20,
+        "content": "It's just to get a general idea of how much it's going to cost.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "just",
+          "to",
+          "get",
+          "a",
+          "general",
+          "idea",
+          "of",
+          "how",
+          "much",
+          "it's",
+          [
+            "going to",
+            "gonna"
+          ],
+          "cost."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "general"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "of"
+          ],
+          [
+            "how"
+          ],
+          [
+            "much"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "cost."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/20.mp3",
+        "timeStart": 60.61,
+        "timeEnd": 64.8,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88576/list"
+      },
+      {
+        "id": 88577,
+        "position": 21,
+        "content": "And you said you had some positive feedback about this company?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "you",
+          "said",
+          [
+            "you had",
+            "you'd"
+          ],
+          "some",
+          "positive",
+          "feedback",
+          "about",
+          "this",
+          [
+            "company?",
+            "Co"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you"
+          ],
+          [
+            "said"
+          ],
+          [
+            "you had",
+            "you'd"
+          ],
+          [
+            "some"
+          ],
+          [
+            "positive"
+          ],
+          [
+            "feedback"
+          ],
+          [
+            "about"
+          ],
+          [
+            "this"
+          ],
+          [
+            "company?",
+            "Co"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/21.mp3",
+        "timeStart": 64.9,
+        "timeEnd": 69.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88577/list"
+      },
+      {
+        "id": 88578,
+        "position": 22,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/22.mp3",
+        "timeStart": 69.47,
+        "timeEnd": 70.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88578/list"
+      },
+      {
+        "id": 88579,
+        "position": 23,
+        "content": "People have mentioned that the furniture from Peak Rentals is more modern than any of the other companies.",
+        "defaultInput": "",
+        "jsonContent": [
+          "People",
+          "have",
+          "mentioned",
+          "that",
+          "the",
+          "furniture",
+          "from",
+          "Peak",
+          "Rentals",
+          "is",
+          "more",
+          "modern",
+          "than",
+          "any",
+          "of",
+          "the",
+          "other",
+          "companies."
+        ],
+        "solution": [
+          [
+            "People"
+          ],
+          [
+            "have"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Peak"
+          ],
+          [
+            "Rentals"
+          ],
+          [
+            "is"
+          ],
+          [
+            "more"
+          ],
+          [
+            "modern"
+          ],
+          [
+            "than"
+          ],
+          [
+            "any"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "companies."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/23.mp3",
+        "timeStart": 70.49,
+        "timeEnd": 76.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88579/list"
+      },
+      {
+        "id": 88580,
+        "position": 24,
+        "content": "And also, once you place an order, the furniture will be delivered to you in just one or two days.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "also,",
+          "once",
+          "you",
+          "place",
+          "an",
+          "order,",
+          "the",
+          "furniture",
+          "will",
+          "be",
+          "delivered",
+          "to",
+          "you",
+          "in",
+          "just",
+          [
+            "one",
+            "1"
+          ],
+          "or",
+          [
+            "two",
+            "2"
+          ],
+          "days."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "also,"
+          ],
+          [
+            "once"
+          ],
+          [
+            "you"
+          ],
+          [
+            "place"
+          ],
+          [
+            "an"
+          ],
+          [
+            "order,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "delivered"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "in"
+          ],
+          [
+            "just"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "or"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "days."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/24.mp3",
+        "timeStart": 77.07,
+        "timeEnd": 83.9,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88580/list"
+      },
+      {
+        "id": 88581,
+        "position": 25,
+        "content": "That would be really helpful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "would",
+          "be",
+          "really",
+          "helpful."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "really"
+          ],
+          [
+            "helpful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/25.mp3",
+        "timeStart": 83.9,
+        "timeEnd": 86.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88581/list"
+      },
+      {
+        "id": 88582,
+        "position": 26,
+        "content": "Oh, and the brochure says that there's a special offer at the moment.",
+        "defaultInput": "Oh, and ",
+        "jsonContent": [
+          "Oh,",
+          "and",
+          "the",
+          "brochure",
+          "says",
+          "that",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "special",
+          "offer",
+          "at",
+          "the",
+          "moment."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "brochure"
+          ],
+          [
+            "says"
+          ],
+          [
+            "that"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "special"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "moment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/26.mp3",
+        "timeStart": 86.31,
+        "timeEnd": 91.07,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88582/list"
+      },
+      {
+        "id": 88583,
+        "position": 27,
+        "content": "If you rent living room furniture, I believe that's a set of chairs and a TV table,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "rent",
+          "living",
+          "room",
+          "furniture,",
+          "I",
+          "believe",
+          "that's",
+          "a",
+          "set",
+          "of",
+          "chairs",
+          "and",
+          "a",
+          "TV",
+          "table,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "rent"
+          ],
+          [
+            "living"
+          ],
+          [
+            "room"
+          ],
+          [
+            "furniture,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "set"
+          ],
+          [
+            "of"
+          ],
+          [
+            "chairs"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "TV"
+          ],
+          [
+            "table,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/27.mp3",
+        "timeStart": 91.07,
+        "timeEnd": 97.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88583/list"
+      },
+      {
+        "id": 88584,
+        "position": 28,
+        "content": "you'll also get a lamp at no extra cost.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "you'll",
+            "you will"
+          ],
+          "also",
+          "get",
+          "a",
+          "lamp",
+          "at",
+          "no",
+          "extra",
+          "cost."
+        ],
+        "solution": [
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "also"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lamp"
+          ],
+          [
+            "at"
+          ],
+          [
+            "no"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "cost."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/28.mp3",
+        "timeStart": 97.41,
+        "timeEnd": 100.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88584/list"
+      },
+      {
+        "id": 88585,
+        "position": 29,
+        "content": "Okay, but you know, that price range you gave is more than I was hoping to pay.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "but",
+          "you",
+          "know,",
+          "that",
+          "price",
+          "range",
+          "you",
+          "gave",
+          "is",
+          "more",
+          "than",
+          "I",
+          "was",
+          "hoping",
+          "to",
+          "pay."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "but"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "price"
+          ],
+          [
+            "range"
+          ],
+          [
+            "you"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "is"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "hoping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pay."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/29.mp3",
+        "timeStart": 101.03,
+        "timeEnd": 107.09,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88585/list"
+      },
+      {
+        "id": 88586,
+        "position": 30,
+        "content": "Then you could try Aaron and Oliver.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "you",
+          "could",
+          "try",
+          "Aaron",
+          "and",
+          "Oliver."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "try"
+          ],
+          [
+            "Aaron"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Oliver."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/30.mp3",
+        "timeStart": 107.09,
+        "timeEnd": 110.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88586/list"
+      },
+      {
+        "id": 88587,
+        "position": 31,
+        "content": "Sorry, what and Oliver?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sorry,",
+          "what",
+          "and",
+          "Oliver?"
+        ],
+        "solution": [
+          [
+            "Sorry,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Oliver?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/31.mp3",
+        "timeStart": 110.01,
+        "timeEnd": 113.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88587/list"
+      },
+      {
+        "id": 88588,
+        "position": 32,
+        "content": "Aaron.",
+        "defaultInput": "Aaron.",
+        "jsonContent": [
+          "Aaron."
+        ],
+        "solution": [
+          [
+            "Aaron."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/32-2025-07-23-10-26-20.mp3",
+        "timeStart": 113.47,
+        "timeEnd": 114.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88588/list"
+      },
+      {
+        "id": 88589,
+        "position": 33,
+        "content": "AARON.",
+        "defaultInput": "",
+        "jsonContent": [
+          "AARON."
+        ],
+        "solution": [
+          [
+            "AARON."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/33.mp3",
+        "timeStart": 114.45,
+        "timeEnd": 116.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88589/list"
+      },
+      {
+        "id": 88590,
+        "position": 34,
+        "content": "Okay, are they cheaper?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "are",
+          "they",
+          "cheaper?"
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "are"
+          ],
+          [
+            "they"
+          ],
+          [
+            "cheaper?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/34.mp3",
+        "timeStart": 117,
+        "timeEnd": 119.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88590/list"
+      },
+      {
+        "id": 88591,
+        "position": 35,
+        "content": "I'd say they are a mid price company.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "say",
+          [
+            "they are",
+            "they're"
+          ],
+          "a",
+          "mid",
+          "price",
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "say"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mid"
+          ],
+          [
+            "price"
+          ],
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/35.mp3",
+        "timeStart": 119.84,
+        "timeEnd": 122.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88591/list"
+      },
+      {
+        "id": 88592,
+        "position": 36,
+        "content": "But if you chose them, you need to be aware that they charge an extra 12% every month in case of damage.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "if",
+          "you",
+          "chose",
+          "them,",
+          "you",
+          "need",
+          "to",
+          "be",
+          "aware",
+          "that",
+          "they",
+          "charge",
+          "an",
+          "extra",
+          [
+            "12%",
+            "12 percent"
+          ],
+          "every",
+          "month",
+          "in",
+          "case",
+          "of",
+          "damage."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "chose"
+          ],
+          [
+            "them,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "aware"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "charge"
+          ],
+          [
+            "an"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "12%",
+            "12 percent"
+          ],
+          [
+            "every"
+          ],
+          [
+            "month"
+          ],
+          [
+            "in"
+          ],
+          [
+            "case"
+          ],
+          [
+            "of"
+          ],
+          [
+            "damage."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/36.mp3",
+        "timeStart": 122.66,
+        "timeEnd": 129.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88592/list"
+      },
+      {
+        "id": 88593,
+        "position": 37,
+        "content": "Oh, I see.",
+        "defaultInput": "Oh, I see.",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/37.mp3",
+        "timeStart": 129.75,
+        "timeEnd": 131.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88593/list"
+      },
+      {
+        "id": 88594,
+        "position": 38,
+        "content": "I'd have to do the math carefully then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "have",
+          "to",
+          "do",
+          "the",
+          "math",
+          "carefully",
+          "then."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "math"
+          ],
+          [
+            "carefully"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/38.mp3",
+        "timeStart": 131.91,
+        "timeEnd": 134.41,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88594/list"
+      },
+      {
+        "id": 88595,
+        "position": 39,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/39.mp3",
+        "timeStart": 134.41,
+        "timeEnd": 135.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88595/list"
+      },
+      {
+        "id": 88596,
+        "position": 40,
+        "content": "But one helpful thing is that they also do cleaning for customers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "one",
+            "1"
+          ],
+          "helpful",
+          "thing",
+          "is",
+          "that",
+          "they",
+          "also",
+          "do",
+          "cleaning",
+          "for",
+          "customers."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "helpful"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "also"
+          ],
+          [
+            "do"
+          ],
+          [
+            "cleaning"
+          ],
+          [
+            "for"
+          ],
+          [
+            "customers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/40.mp3",
+        "timeStart": 135.31,
+        "timeEnd": 139.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88596/list"
+      },
+      {
+        "id": 88597,
+        "position": 41,
+        "content": "For the furniture?",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "the",
+          "furniture?"
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "the"
+          ],
+          [
+            "furniture?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/41.mp3",
+        "timeStart": 139.74,
+        "timeEnd": 141.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88597/list"
+      },
+      {
+        "id": 88598,
+        "position": 42,
+        "content": "For the house.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "the",
+          "house."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/42.mp3",
+        "timeStart": 141.23,
+        "timeEnd": 142.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88598/list"
+      },
+      {
+        "id": 88599,
+        "position": 43,
+        "content": "Oh, I see.",
+        "defaultInput": "Oh, I see.",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/43.mp3",
+        "timeStart": 142.44,
+        "timeEnd": 143.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88599/list"
+      },
+      {
+        "id": 88600,
+        "position": 44,
+        "content": "I probably won't need that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "probably",
+          "won't",
+          "need",
+          "that."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "need"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/44.mp3",
+        "timeStart": 143.74,
+        "timeEnd": 145.83,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88600/list"
+      },
+      {
+        "id": 88601,
+        "position": 45,
+        "content": "There's another company called Larch Furniture.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "another",
+          [
+            "company",
+            "Co"
+          ],
+          "called",
+          "Larch",
+          "Furniture."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "another"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "called"
+          ],
+          [
+            "Larch"
+          ],
+          [
+            "Furniture."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/45.mp3",
+        "timeStart": 146.83,
+        "timeEnd": 150.33,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88601/list"
+      },
+      {
+        "id": 88602,
+        "position": 46,
+        "content": "It's quite new, and it has the lowest prices in town.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "quite",
+          "new,",
+          "and",
+          [
+            "it has",
+            "it's"
+          ],
+          "the",
+          "lowest",
+          "prices",
+          "in",
+          "town."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "new,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it has",
+            "it's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "lowest"
+          ],
+          [
+            "prices"
+          ],
+          [
+            "in"
+          ],
+          [
+            "town."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/46.mp3",
+        "timeStart": 150.47,
+        "timeEnd": 154.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88602/list"
+      },
+      {
+        "id": 88603,
+        "position": 47,
+        "content": "That's for both furniture and also electronic equipment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "for",
+          "both",
+          "furniture",
+          "and",
+          "also",
+          "electronic",
+          "equipment."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "for"
+          ],
+          [
+            "both"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "and"
+          ],
+          [
+            "also"
+          ],
+          [
+            "electronic"
+          ],
+          [
+            "equipment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/47.mp3",
+        "timeStart": 154.38,
+        "timeEnd": 158.47,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88603/list"
+      },
+      {
+        "id": 88604,
+        "position": 48,
+        "content": "Well, that would be good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "that",
+          "would",
+          "be",
+          "good."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/48.mp3",
+        "timeStart": 158.57,
+        "timeEnd": 160.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88604/list"
+      },
+      {
+        "id": 88605,
+        "position": 49,
+        "content": "I'm not bringing much with me, and I won't have much time to go shopping after I start my job.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "bringing",
+          "much",
+          "with",
+          "me,",
+          "and",
+          "I",
+          "won't",
+          "have",
+          "much",
+          "time",
+          "to",
+          "go",
+          "shopping",
+          "after",
+          "I",
+          "start",
+          "my",
+          "job."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "bringing"
+          ],
+          [
+            "much"
+          ],
+          [
+            "with"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "have"
+          ],
+          [
+            "much"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "shopping"
+          ],
+          [
+            "after"
+          ],
+          [
+            "I"
+          ],
+          [
+            "start"
+          ],
+          [
+            "my"
+          ],
+          [
+            "job."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/49.mp3",
+        "timeStart": 160.63,
+        "timeEnd": 167.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88605/list"
+      },
+      {
+        "id": 88606,
+        "position": 50,
+        "content": "There are two things you need to know about Larch Furniture.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          [
+            "two",
+            "2"
+          ],
+          "things",
+          "you",
+          "need",
+          "to",
+          "know",
+          "about",
+          "Larch",
+          "Furniture."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "things"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "about"
+          ],
+          [
+            "Larch"
+          ],
+          [
+            "Furniture."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/50.mp3",
+        "timeStart": 167.61,
+        "timeEnd": 171.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88606/list"
+      },
+      {
+        "id": 88607,
+        "position": 51,
+        "content": "First of all you have to take out insurance on the furniture and you need to organize that yourself.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First",
+            "1st"
+          ],
+          "of",
+          "all",
+          [
+            "you have",
+            "you've"
+          ],
+          "to",
+          "take",
+          "out",
+          "insurance",
+          "on",
+          "the",
+          "furniture",
+          "and",
+          "you",
+          "need",
+          "to",
+          [
+            "organize",
+            "organise"
+          ],
+          "that",
+          "yourself."
+        ],
+        "solution": [
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "out"
+          ],
+          [
+            "insurance"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "organize",
+            "organise"
+          ],
+          [
+            "that"
+          ],
+          [
+            "yourself."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/51.mp3",
+        "timeStart": 171.99,
+        "timeEnd": 177.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88607/list"
+      },
+      {
+        "id": 88608,
+        "position": 52,
+        "content": "That wouldn't be too hard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "be",
+          "too",
+          "hard."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "too"
+          ],
+          [
+            "hard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/52.mp3",
+        "timeStart": 177.83,
+        "timeEnd": 179.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88608/list"
+      },
+      {
+        "id": 88609,
+        "position": 53,
+        "content": "Also, you can't take out a contract for less than six months",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "you",
+          "can't",
+          "take",
+          "out",
+          "a",
+          "contract",
+          "for",
+          "less",
+          "than",
+          [
+            "six",
+            "6"
+          ],
+          "months"
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "take"
+          ],
+          [
+            "out"
+          ],
+          [
+            "a"
+          ],
+          [
+            "contract"
+          ],
+          [
+            "for"
+          ],
+          [
+            "less"
+          ],
+          [
+            "than"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "months"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/53.mp3",
+        "timeStart": 180.01,
+        "timeEnd": 184.19,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88609/list"
+      },
+      {
+        "id": 88610,
+        "position": 54,
+        "content": "but I figure that might not be a problem for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "figure",
+          "that",
+          "might",
+          "not",
+          "be",
+          "a",
+          "problem",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "figure"
+          ],
+          [
+            "that"
+          ],
+          [
+            "might"
+          ],
+          [
+            "not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/54.mp3",
+        "timeStart": 184.19,
+        "timeEnd": 187.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88610/list"
+      },
+      {
+        "id": 88611,
+        "position": 55,
+        "content": "You're renting the house for 12 months after all, aren't you?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You're",
+            "You are"
+          ],
+          "renting",
+          "the",
+          "house",
+          "for",
+          [
+            "12",
+            "twelve"
+          ],
+          "months",
+          "after",
+          "all,",
+          [
+            "aren't",
+            "are not"
+          ],
+          "you?"
+        ],
+        "solution": [
+          [
+            "You're",
+            "You are"
+          ],
+          [
+            "renting"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house"
+          ],
+          [
+            "for"
+          ],
+          [
+            "12",
+            "twelve"
+          ],
+          [
+            "months"
+          ],
+          [
+            "after"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/55.mp3",
+        "timeStart": 187.46,
+        "timeEnd": 191.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88611/list"
+      },
+      {
+        "id": 88612,
+        "position": 56,
+        "content": "Yes, okay.",
+        "defaultInput": "Yes, okay.",
+        "jsonContent": [
+          "Yes,",
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/56.mp3",
+        "timeStart": 191.03,
+        "timeEnd": 193.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88612/list"
+      },
+      {
+        "id": 88613,
+        "position": 57,
+        "content": "Well, I... Sorry to interrupt.",
+        "defaultInput": "Well, I… ",
+        "jsonContent": [
+          "Well,",
+          "I...",
+          "Sorry",
+          "to",
+          "interrupt."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I..."
+          ],
+          [
+            "Sorry"
+          ],
+          [
+            "to"
+          ],
+          [
+            "interrupt."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/57.mp3",
+        "timeStart": 193.54,
+        "timeEnd": 195.53,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88613/list"
+      },
+      {
+        "id": 88614,
+        "position": 58,
+        "content": "I just thought of another furniture rental company.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "thought",
+          "of",
+          "another",
+          "furniture",
+          "rental",
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "of"
+          ],
+          [
+            "another"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "rental"
+          ],
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/58.mp3",
+        "timeStart": 195.65,
+        "timeEnd": 198.41,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88614/list"
+      },
+      {
+        "id": 88615,
+        "position": 59,
+        "content": "It's called Space Rentals,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "called",
+          "Space",
+          "Rentals,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "called"
+          ],
+          [
+            "Space"
+          ],
+          [
+            "Rentals,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/59.mp3",
+        "timeStart": 198.41,
+        "timeEnd": 200.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88615/list"
+      },
+      {
+        "id": 88616,
+        "position": 60,
+        "content": "and it's located very near to the house.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it's",
+          "located",
+          "very",
+          "near",
+          "to",
+          "the",
+          "house."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "located"
+          ],
+          [
+            "very"
+          ],
+          [
+            "near"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/60.mp3",
+        "timeStart": 200.77,
+        "timeEnd": 203.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88616/list"
+      },
+      {
+        "id": 88617,
+        "position": 61,
+        "content": "Okay.",
+        "defaultInput": "Okay.",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/61.mp3",
+        "timeStart": 203.5,
+        "timeEnd": 204.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88617/list"
+      },
+      {
+        "id": 88618,
+        "position": 62,
+        "content": "I don't have any information about their charges,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "have",
+          "any",
+          "information",
+          "about",
+          "their",
+          "charges,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "any"
+          ],
+          [
+            "information"
+          ],
+          [
+            "about"
+          ],
+          [
+            "their"
+          ],
+          [
+            "charges,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/62.mp3",
+        "timeStart": 204.63,
+        "timeEnd": 208.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88618/list"
+      },
+      {
+        "id": 88619,
+        "position": 63,
+        "content": "so it's best to use their app to find out what it would cost you to use them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "it's",
+          "best",
+          "to",
+          "use",
+          "their",
+          "app",
+          "to",
+          "find",
+          "out",
+          "what",
+          [
+            "it would",
+            "it'd"
+          ],
+          "cost",
+          "you",
+          "to",
+          "use",
+          "them."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "best"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "their"
+          ],
+          [
+            "app"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "what"
+          ],
+          [
+            "it would",
+            "it'd"
+          ],
+          [
+            "cost"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/63.mp3",
+        "timeStart": 208.88,
+        "timeEnd": 213.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88619/list"
+      },
+      {
+        "id": 88620,
+        "position": 64,
+        "content": "Okay, thanks.",
+        "defaultInput": "Okay, thanks.",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "thanks."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/64.mp3",
+        "timeStart": 213.12,
+        "timeEnd": 214.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88620/list"
+      },
+      {
+        "id": 88621,
+        "position": 65,
+        "content": "I'll do that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "do",
+          "that."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/65.mp3",
+        "timeStart": 214.57,
+        "timeEnd": 215.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88621/list"
+      },
+      {
+        "id": 88622,
+        "position": 66,
+        "content": "One good thing about that company is that if you don't like the furniture once it's delivered, you can request exchanges,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "good",
+          "thing",
+          "about",
+          "that",
+          [
+            "company",
+            "Co"
+          ],
+          "is",
+          "that",
+          "if",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "like",
+          "the",
+          "furniture",
+          "once",
+          "it's",
+          "delivered,",
+          "you",
+          "can",
+          "request",
+          "exchanges,"
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "good"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "furniture"
+          ],
+          [
+            "once"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "delivered,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "request"
+          ],
+          [
+            "exchanges,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/66.mp3",
+        "timeStart": 215.9,
+        "timeEnd": 223.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88622/list"
+      },
+      {
+        "id": 88623,
+        "position": 67,
+        "content": "as long as you do that within a week of receiving it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "long",
+          "as",
+          "you",
+          "do",
+          "that",
+          "within",
+          "a",
+          "week",
+          "of",
+          "receiving",
+          "it."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "long"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that"
+          ],
+          [
+            "within"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week"
+          ],
+          [
+            "of"
+          ],
+          [
+            "receiving"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/67.mp3",
+        "timeStart": 223.22,
+        "timeEnd": 226.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88623/list"
+      },
+      {
+        "id": 88624,
+        "position": 68,
+        "content": "That sounds really great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "sounds",
+          "really",
+          "great."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "really"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/68.mp3",
+        "timeStart": 226.27,
+        "timeEnd": 229.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88624/list"
+      },
+      {
+        "id": 88625,
+        "position": 69,
+        "content": "Okay, well, thanks very much.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "well,",
+          "thanks",
+          "very",
+          "much."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "thanks"
+          ],
+          [
+            "very"
+          ],
+          [
+            "much."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/69.mp3",
+        "timeStart": 229.05,
+        "timeEnd": 232.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88625/list"
+      },
+      {
+        "id": 88626,
+        "position": 70,
+        "content": "That's so helpful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "so",
+          "helpful."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "so"
+          ],
+          [
+            "helpful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-3-part-1-2025-07-21-19-50-32/70.mp3",
+        "timeStart": 232.13,
+        "timeEnd": 233.71,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/88626/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "88557": {
+      "id": 3441739,
+      "text": "Chào buổi sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "88558": {
+      "id": 3441740,
+      "text": "Xin chào, tôi là Shelley Meyer.",
+      "author": "ChatGPT4.1"
+    },
+    "88559": {
+      "id": 3441741,
+      "text": "Tôi đang thuê nhà của bạn trên đại lộ Archwood.",
+      "author": "a user"
+    },
+    "88560": {
+      "id": 3441742,
+      "text": "Tôi dự kiến chuyển đến vào tuần tới.",
+      "author": "a user"
+    },
+    "88561": {
+      "id": 3441743,
+      "text": "Ồ, vâng... xin chào, cô Meyer.",
+      "author": "ChatGPT4.1"
+    },
+    "88562": {
+      "id": 3441744,
+      "text": "Tôi có thể giúp gì cho cô?",
+      "author": "ChatGPT4.1"
+    },
+    "88563": {
+      "id": 3441745,
+      "text": "Khi tôi xem nhà, tôi đã nói với bạn rằng tôi rất có thể sẽ cần thuê một số đồ nội thất,",
+      "author": "ChatGPT4.1"
+    },
+    "88564": {
+      "id": 3441746,
+      "text": "ít nhất là cho đến khi tôi biết hợp đồng làm việc tạm thời của mình có được chuyển thành cố định không.",
+      "author": "ChatGPT4.1"
+    },
+    "88565": {
+      "id": 3441747,
+      "text": "Vâng, tất nhiên, tôi nhớ mà.",
+      "author": "ChatGPT4.1"
+    },
+    "88566": {
+      "id": 3441748,
+      "text": "Và tôi đã nói rằng tôi có thể cung cấp cho cô một số thông tin về các công ty cho thuê đồ nội thất trong thành phố.",
+      "author": "ChatGPT4.1"
+    },
+    "88567": {
+      "id": 3441749,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "88568": {
+      "id": 3441750,
+      "text": "À, công ty lớn nhất có tên là Peak Rentals.",
+      "author": "ChatGPT4.1"
+    },
+    "88569": {
+      "id": 3441751,
+      "text": "Tôi đã giới thiệu họ cho nhiều người và luôn nghe được phản hồi tích cực về họ.",
+      "author": "ChatGPT4.1"
+    },
+    "88570": {
+      "id": 3441752,
+      "text": "Bạn có thể cho tôi biết về chi phí của họ không?",
+      "author": "ChatGPT4.1"
+    },
+    "88571": {
+      "id": 3441753,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88572": {
+      "id": 3441754,
+      "text": "Thực ra tôi có một tờ rơi của họ ở đây.",
+      "author": "ChatGPT4.1"
+    },
+    "88573": {
+      "id": 3441755,
+      "text": "Họ ghi rằng giá thuê hàng tháng cho mỗi phòng bắt đầu từ 105 đô và lên đến 239 đô.",
+      "author": "ChatGPT4.1"
+    },
+    "88574": {
+      "id": 3441756,
+      "text": "Tất nhiên, điều đó còn tùy vào bạn cần nội thất cho phòng nào.",
+      "author": "ChatGPT4.1"
+    },
+    "88575": {
+      "id": 3441757,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "88576": {
+      "id": 3441758,
+      "text": "Tôi chỉ muốn biết sơ qua chi phí sẽ là bao nhiêu.",
+      "author": "ChatGPT4.1"
+    },
+    "88577": {
+      "id": 3441759,
+      "text": "Và bạn nói bạn đã nhận được phản hồi tích cực về công ty này?",
+      "author": "ChatGPT4.1"
+    },
+    "88578": {
+      "id": 3441760,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "88579": {
+      "id": 3441761,
+      "text": "Mọi người nhận xét rằng nội thất của Peak Rentals hiện đại hơn bất kỳ công ty nào khác.",
+      "author": "ChatGPT4.1"
+    },
+    "88580": {
+      "id": 3441762,
+      "text": "Và nữa, khi bạn đặt hàng, đồ nội thất sẽ được giao đến bạn chỉ trong một hoặc hai ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "88581": {
+      "id": 3441763,
+      "text": "Điều đó thực sự hữu ích.",
+      "author": "ChatGPT4.1"
+    },
+    "88582": {
+      "id": 3441764,
+      "text": "À, và tờ rơi nói rằng hiện tại đang có chương trình khuyến mãi đặc biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "88583": {
+      "id": 3441765,
+      "text": "Nếu bạn thuê nội thất phòng khách, tôi nghĩ là một bộ ghế và một bàn để tivi,",
+      "author": "ChatGPT4.1"
+    },
+    "88584": {
+      "id": 3441766,
+      "text": "bạn cũng sẽ nhận được một chiếc đèn, không mất thêm phí.",
+      "author": "a user"
+    },
+    "88585": {
+      "id": 3441767,
+      "text": "Được rồi, nhưng bạn biết đấy, mức giá bạn đưa ra cao hơn mức tôi hy vọng có thể trả.",
+      "author": "ChatGPT4.1"
+    },
+    "88586": {
+      "id": 3441768,
+      "text": "Vậy thì bạn có thể thử liên hệ với Aaron và Oliver.",
+      "author": "ChatGPT4.1"
+    },
+    "88587": {
+      "id": 3442033,
+      "text": "Xin lỗi, gì và Oliver?",
+      "author": "ChatGPT4.1"
+    },
+    "88588": {
+      "id": 3442034,
+      "text": "Aaron.",
+      "author": "ChatGPT4.1"
+    },
+    "88589": {
+      "id": 3442035,
+      "text": "AARON.",
+      "author": "ChatGPT4.1"
+    },
+    "88590": {
+      "id": 3442036,
+      "text": "Được rồi, họ có rẻ hơn không?",
+      "author": "ChatGPT4.1"
+    },
+    "88591": {
+      "id": 3442037,
+      "text": "Tôi nghĩ họ là một công ty tầm trung về giá cả.",
+      "author": "ChatGPT4.1"
+    },
+    "88592": {
+      "id": 3442038,
+      "text": "Nhưng nếu bạn chọn họ, bạn cần lưu ý là họ sẽ tính thêm 12% mỗi tháng trong trường hợp hư hại.",
+      "author": "ChatGPT4.1"
+    },
+    "88593": {
+      "id": 3442039,
+      "text": "Ồ, tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88594": {
+      "id": 3442040,
+      "text": "Vậy thì tôi sẽ phải tính toán thật cẩn thận.",
+      "author": "ChatGPT4.1"
+    },
+    "88595": {
+      "id": 3442041,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88596": {
+      "id": 3442042,
+      "text": "Nhưng một điều hữu ích là họ cũng cung cấp dịch vụ dọn dẹp cho khách hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "88597": {
+      "id": 3442043,
+      "text": "Cho đồ nội thất à?",
+      "author": "ChatGPT4.1"
+    },
+    "88598": {
+      "id": 3442044,
+      "text": "Cho cả ngôi nhà.",
+      "author": "ChatGPT4.1"
+    },
+    "88599": {
+      "id": 3442045,
+      "text": "Ồ, tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88600": {
+      "id": 3442046,
+      "text": "Tôi có lẽ sẽ không cần điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "88601": {
+      "id": 3442047,
+      "text": "Có một công ty khác tên là Larch Furniture.",
+      "author": "ChatGPT4.1"
+    },
+    "88602": {
+      "id": 3442095,
+      "text": "Nó khá mới, và có giá rẻ nhất trong thành phố.",
+      "author": "ChatGPT4.1"
+    },
+    "88603": {
+      "id": 3442096,
+      "text": "Đó là cả cho đồ nội thất lẫn thiết bị điện tử.",
+      "author": "ChatGPT4.1"
+    },
+    "88604": {
+      "id": 3442097,
+      "text": "Thế thì tốt đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "88605": {
+      "id": 3442098,
+      "text": "Tôi không mang nhiều đồ theo, và tôi sẽ không có nhiều thời gian đi mua sắm sau khi bắt đầu công việc.",
+      "author": "ChatGPT4.1"
+    },
+    "88607": {
+      "id": 3442100,
+      "text": "Trước tiên bạn phải tự mua bảo hiểm cho đồ nội thất và bạn phải tự sắp xếp việc đó.",
+      "author": "ChatGPT4.1"
+    },
+    "88608": {
+      "id": 3442101,
+      "text": "Việc đó chắc cũng không khó lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "88610": {
+      "id": 3442103,
+      "text": "nhưng tôi nghĩ điều đó không phải là vấn đề với bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "88611": {
+      "id": 3442104,
+      "text": "Dù sao thì bạn cũng thuê nhà một năm mà, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "88612": {
+      "id": 3442105,
+      "text": "Vâng, được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88613": {
+      "id": 3442106,
+      "text": "Ờ, tôi... Xin lỗi đã cắt ngang.",
+      "author": "ChatGPT4.1"
+    },
+    "88614": {
+      "id": 3442107,
+      "text": "Tôi vừa nghĩ ra một công ty cho thuê đồ nội thất khác.",
+      "author": "ChatGPT4.1"
+    },
+    "88615": {
+      "id": 3442108,
+      "text": "Nó tên là Space Rentals,",
+      "author": "ChatGPT4.1"
+    },
+    "88616": {
+      "id": 3442109,
+      "text": "và nó nằm rất gần ngôi nhà.",
+      "author": "ChatGPT4.1"
+    },
+    "88617": {
+      "id": 3442122,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88618": {
+      "id": 3442123,
+      "text": "Tôi không có thông tin gì về phí dịch vụ của họ,",
+      "author": "ChatGPT4.1"
+    },
+    "88619": {
+      "id": 3442124,
+      "text": "nên tốt nhất bạn nên sử dụng ứng dụng của họ để tìm hiểu chi phí khi sử dụng dịch vụ.",
+      "author": "ChatGPT4.1"
+    },
+    "88620": {
+      "id": 3442125,
+      "text": "Được, cảm ơn nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "88621": {
+      "id": 3442126,
+      "text": "Tôi sẽ làm vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "88622": {
+      "id": 3442127,
+      "text": "Một điểm hay của công ty đó là nếu bạn không thích đồ nội thất sau khi được chuyển đến cho bạn, bạn có thể yêu cầu đổi,",
+      "author": "a user"
+    },
+    "88623": {
+      "id": 3442128,
+      "text": "miễn là bạn thực hiện việc đó trong vòng một tuần kể từ khi nhận hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "88624": {
+      "id": 3442129,
+      "text": "Nghe thật tuyệt.",
+      "author": "ChatGPT4.1"
+    },
+    "88625": {
+      "id": 3442130,
+      "text": "Vâng, cảm ơn rất nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "88626": {
+      "id": 3442131,
+      "text": "Thật sự rất hữu ích.",
+      "author": "ChatGPT4.1"
+    },
+    "88606": {
+      "id": 3456156,
+      "text": "Có hai điều bạn cần biết về Larch Furniture.",
+      "author": "ChatGPT4.1"
+    },
+    "88609": {
+      "id": 3458164,
+      "text": "Ngoài ra, bạn không thể ký hợp đồng dưới sáu tháng",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

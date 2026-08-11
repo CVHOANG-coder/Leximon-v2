@@ -1,0 +1,932 @@
+{
+  "summary": {
+    "id": 2002,
+    "name": "Apple Siri Lawsuit Settlement",
+    "subTitle": "",
+    "levelName": "B2",
+    "position": 71,
+    "totalChallenges": 13,
+    "groupId": 110,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2002",
+  "detail": {
+    "id": 2002,
+    "lessonName": "Apple Siri Lawsuit Settlement",
+    "name": "Apple Siri Lawsuit Settlement",
+    "position": 71,
+    "levelName": "B2",
+    "audioSrc": "",
+    "youtubeVideoId": "gxohSok8X00",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 77923,
+        "position": 1,
+        "content": "It's something we joke about all the time when we say \"our phones are listening to us\", right?",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "something",
+          "we",
+          "joke",
+          "about",
+          "all",
+          "the",
+          "time",
+          "when",
+          "we",
+          "say",
+          "\"our",
+          "phones",
+          "are",
+          "listening",
+          "to",
+          "us\",",
+          "right?"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "something"
+          ],
+          [
+            "we"
+          ],
+          [
+            "joke"
+          ],
+          [
+            "about"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "when"
+          ],
+          [
+            "we"
+          ],
+          [
+            "say"
+          ],
+          [
+            "\"our"
+          ],
+          [
+            "phones"
+          ],
+          [
+            "are"
+          ],
+          [
+            "listening"
+          ],
+          [
+            "to"
+          ],
+          [
+            "us\","
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 114.06,
+        "timeEnd": 118.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77923/list"
+      },
+      {
+        "id": 77924,
+        "position": 2,
+        "content": "But could it be true?",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "could",
+          "it",
+          "be",
+          "true?"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "could"
+          ],
+          [
+            "it"
+          ],
+          [
+            "be"
+          ],
+          [
+            "true?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 118.69,
+        "timeEnd": 120.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77924/list"
+      },
+      {
+        "id": 77925,
+        "position": 3,
+        "content": "Apple has agreed to pay 95 million dollars in cash to settle a proposed class action lawsuit.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Apple",
+          "has",
+          "agreed",
+          "to",
+          "pay",
+          "95",
+          "million",
+          "dollars",
+          "in",
+          "cash",
+          "to",
+          "settle",
+          "a",
+          "proposed",
+          "class",
+          "action",
+          "lawsuit."
+        ],
+        "solution": [
+          [
+            "Apple"
+          ],
+          [
+            "has"
+          ],
+          [
+            "agreed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pay"
+          ],
+          [
+            "95"
+          ],
+          [
+            "million"
+          ],
+          [
+            "dollars"
+          ],
+          [
+            "in"
+          ],
+          [
+            "cash"
+          ],
+          [
+            "to"
+          ],
+          [
+            "settle"
+          ],
+          [
+            "a"
+          ],
+          [
+            "proposed"
+          ],
+          [
+            "class"
+          ],
+          [
+            "action"
+          ],
+          [
+            "lawsuit."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 120.2,
+        "timeEnd": 126.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77925/list"
+      },
+      {
+        "id": 77926,
+        "position": 4,
+        "content": "Mobile device owners claimed that Apple routinely recorded their private conversations",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mobile",
+          "device",
+          "owners",
+          "claimed",
+          "that",
+          "Apple",
+          "routinely",
+          "recorded",
+          "their",
+          "private",
+          "conversations"
+        ],
+        "solution": [
+          [
+            "Mobile"
+          ],
+          [
+            "device"
+          ],
+          [
+            "owners"
+          ],
+          [
+            "claimed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "Apple"
+          ],
+          [
+            "routinely"
+          ],
+          [
+            "recorded"
+          ],
+          [
+            "their"
+          ],
+          [
+            "private"
+          ],
+          [
+            "conversations"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 126.78,
+        "timeEnd": 131.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77926/list"
+      },
+      {
+        "id": 77927,
+        "position": 5,
+        "content": "after they voice-activated Siri by accident.",
+        "defaultInput": "",
+        "jsonContent": [
+          "after",
+          "they",
+          [
+            "voice-activated",
+            "voice activated"
+          ],
+          "Siri",
+          "by",
+          "accident."
+        ],
+        "solution": [
+          [
+            "after"
+          ],
+          [
+            "they"
+          ],
+          [
+            "voice-activated",
+            "voice activated"
+          ],
+          [
+            "Siri"
+          ],
+          [
+            "by"
+          ],
+          [
+            "accident."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 131.91,
+        "timeEnd": 134.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77927/list"
+      },
+      {
+        "id": 77928,
+        "position": 6,
+        "content": "And the conversations were disclosed to third parties like advertisers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "conversations",
+          "were",
+          "disclosed",
+          "to",
+          "third",
+          "parties",
+          "like",
+          "advertisers."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "conversations"
+          ],
+          [
+            "were"
+          ],
+          [
+            "disclosed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "third"
+          ],
+          [
+            "parties"
+          ],
+          [
+            "like"
+          ],
+          [
+            "advertisers."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 134.84,
+        "timeEnd": 138.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77928/list"
+      },
+      {
+        "id": 77929,
+        "position": 7,
+        "content": "In agreeing to settle, Apple denied wrongdoing or violating users' privacy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "agreeing",
+          "to",
+          "settle,",
+          "Apple",
+          "denied",
+          "wrongdoing",
+          "or",
+          "violating",
+          "users'",
+          "privacy."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "agreeing"
+          ],
+          [
+            "to"
+          ],
+          [
+            "settle,"
+          ],
+          [
+            "Apple"
+          ],
+          [
+            "denied"
+          ],
+          [
+            "wrongdoing"
+          ],
+          [
+            "or"
+          ],
+          [
+            "violating"
+          ],
+          [
+            "users'"
+          ],
+          [
+            "privacy."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 138.88,
+        "timeEnd": 144.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77929/list"
+      },
+      {
+        "id": 77930,
+        "position": 8,
+        "content": "It's an important concern as technology takes bigger roles in our everyday lives.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "an",
+          "important",
+          "concern",
+          "as",
+          "technology",
+          "takes",
+          "bigger",
+          "roles",
+          "in",
+          "our",
+          "everyday",
+          "lives."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "an"
+          ],
+          [
+            "important"
+          ],
+          [
+            "concern"
+          ],
+          [
+            "as"
+          ],
+          [
+            "technology"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "bigger"
+          ],
+          [
+            "roles"
+          ],
+          [
+            "in"
+          ],
+          [
+            "our"
+          ],
+          [
+            "everyday"
+          ],
+          [
+            "lives."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 144.15,
+        "timeEnd": 148.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77930/list"
+      },
+      {
+        "id": 77931,
+        "position": 9,
+        "content": "One plaintiff in the class action suit said",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "plaintiff",
+          "in",
+          "the",
+          "class",
+          "action",
+          "suit",
+          "said"
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "plaintiff"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "class"
+          ],
+          [
+            "action"
+          ],
+          [
+            "suit"
+          ],
+          [
+            "said"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 148.96,
+        "timeEnd": 151.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77931/list"
+      },
+      {
+        "id": 77932,
+        "position": 10,
+        "content": "he got ads for a brand-named surgical treatment",
+        "defaultInput": "",
+        "jsonContent": [
+          "he",
+          "got",
+          "ads",
+          "for",
+          "a",
+          [
+            "brand-named",
+            "brand named"
+          ],
+          "surgical",
+          "treatment"
+        ],
+        "solution": [
+          [
+            "he"
+          ],
+          [
+            "got"
+          ],
+          [
+            "ads"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "brand-named",
+            "brand named"
+          ],
+          [
+            "surgical"
+          ],
+          [
+            "treatment"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 151.75,
+        "timeEnd": 155.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77932/list"
+      },
+      {
+        "id": 77933,
+        "position": 11,
+        "content": "having what he thought was a private conversation with his doctor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "having",
+          "what",
+          "he",
+          "thought",
+          "was",
+          "a",
+          "private",
+          "conversation",
+          "with",
+          "his",
+          "doctor."
+        ],
+        "solution": [
+          [
+            "having"
+          ],
+          [
+            "what"
+          ],
+          [
+            "he"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "private"
+          ],
+          [
+            "conversation"
+          ],
+          [
+            "with"
+          ],
+          [
+            "his"
+          ],
+          [
+            "doctor."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 155.31,
+        "timeEnd": 159.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77933/list"
+      },
+      {
+        "id": 77934,
+        "position": 12,
+        "content": "The number of people involved in the class action suit is estimated in the tens of millions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "number",
+          "of",
+          "people",
+          "involved",
+          "in",
+          "the",
+          "class",
+          "action",
+          "suit",
+          "is",
+          "estimated",
+          "in",
+          "the",
+          "tens",
+          "of",
+          "millions."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "people"
+          ],
+          [
+            "involved"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "class"
+          ],
+          [
+            "action"
+          ],
+          [
+            "suit"
+          ],
+          [
+            "is"
+          ],
+          [
+            "estimated"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tens"
+          ],
+          [
+            "of"
+          ],
+          [
+            "millions."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 159.14,
+        "timeEnd": 164.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77934/list"
+      },
+      {
+        "id": 77935,
+        "position": 13,
+        "content": "So folks might end up getting about $20 per Siri-enabled device, like an iPhone or Apple Watch.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "folks",
+          "might",
+          "end",
+          "up",
+          "getting",
+          "about",
+          [
+            "$20",
+            "20 dollars"
+          ],
+          "per",
+          [
+            "Siri-enabled",
+            "Siri enabled"
+          ],
+          "device,",
+          "like",
+          "an",
+          "iPhone",
+          "or",
+          "Apple",
+          "Watch."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "folks"
+          ],
+          [
+            "might"
+          ],
+          [
+            "end"
+          ],
+          [
+            "up"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "about"
+          ],
+          [
+            "$20",
+            "20 dollars"
+          ],
+          [
+            "per"
+          ],
+          [
+            "Siri-enabled",
+            "Siri enabled"
+          ],
+          [
+            "device,"
+          ],
+          [
+            "like"
+          ],
+          [
+            "an"
+          ],
+          [
+            "iPhone"
+          ],
+          [
+            "or"
+          ],
+          [
+            "Apple"
+          ],
+          [
+            "Watch."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 164.2,
+        "timeEnd": 171.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/77935/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "77923": {
+      "id": 3044391,
+      "text": "Đó là điều mà chúng ta thường xuyên đùa rằng \"điện thoại của chúng ta đang nghe lén chúng ta\", đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "77924": {
+      "id": 3044392,
+      "text": "Nhưng liệu điều đó có thể là sự thật không?",
+      "author": "ChatGPT4.1"
+    },
+    "77925": {
+      "id": 3044393,
+      "text": "Apple đã đồng ý trả 95 triệu đô la tiền mặt để giải quyết một vụ kiện tập thể được đề xuất.",
+      "author": "ChatGPT4.1"
+    },
+    "77926": {
+      "id": 3044394,
+      "text": "Chủ sở hữu thiết bị di động cho rằng Apple thường xuyên ghi âm các cuộc trò chuyện riêng tư của họ",
+      "author": "ChatGPT4.1"
+    },
+    "77927": {
+      "id": 3044395,
+      "text": "sau khi họ vô tình kích hoạt Siri bằng giọng nói.",
+      "author": "ChatGPT4.1"
+    },
+    "77928": {
+      "id": 3044396,
+      "text": "Và những cuộc trò chuyện này đã bị tiết lộ cho các bên thứ ba như các nhà quảng cáo.",
+      "author": "ChatGPT4.1"
+    },
+    "77929": {
+      "id": 3044397,
+      "text": "Khi đồng ý giải quyết, Apple đã phủ nhận hành vi sai trái hoặc vi phạm quyền riêng tư của người dùng.",
+      "author": "ChatGPT4.1"
+    },
+    "77930": {
+      "id": 3044398,
+      "text": "Đây là một mối quan tâm quan trọng khi công nghệ ngày càng đóng vai trò lớn hơn trong cuộc sống hàng ngày của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "77931": {
+      "id": 3044399,
+      "text": "Một nguyên đơn trong vụ kiện tập thể cho biết",
+      "author": "ChatGPT4.1"
+    },
+    "77932": {
+      "id": 3044400,
+      "text": "anh ta đã nhận được quảng cáo về một phương pháp điều trị phẫu thuật mang thương hiệu",
+      "author": "ChatGPT4.1"
+    },
+    "77933": {
+      "id": 3044401,
+      "text": "sau khi nghĩ rằng mình đang có một cuộc trò chuyện riêng tư với bác sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "77934": {
+      "id": 3044402,
+      "text": "Số người liên quan đến vụ kiện tập thể này ước tính lên tới hàng chục triệu người.",
+      "author": "ChatGPT4.1"
+    },
+    "77935": {
+      "id": 3044403,
+      "text": "Vì vậy, mọi người có thể sẽ nhận được khoảng 20 đô la cho mỗi thiết bị có Siri, như iPhone hoặc Apple Watch.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

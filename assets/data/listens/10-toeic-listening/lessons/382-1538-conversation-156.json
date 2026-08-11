@@ -1,0 +1,788 @@
+{
+  "summary": {
+    "id": 1538,
+    "name": "Conversation 156",
+    "subTitle": "Front-Desk Supervisor Opening",
+    "levelName": "B2",
+    "position": 382,
+    "totalChallenges": 13,
+    "groupId": 46,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1538",
+  "detail": {
+    "id": 1538,
+    "lessonName": "Conversation 156",
+    "name": "Conversation 156",
+    "position": 382,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/0-conversation-156.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66115,
+        "position": 1,
+        "content": "Oh, hi Yolanda.",
+        "defaultInput": "Oh, hi Yolanda.",
+        "jsonContent": [
+          "Oh,",
+          "hi",
+          "Yolanda."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "hi"
+          ],
+          [
+            "Yolanda."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/1.mp3",
+        "timeStart": 0.56,
+        "timeEnd": 2.23,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/66115/list"
+      },
+      {
+        "id": 66116,
+        "position": 2,
+        "content": "I'm surprised to see you at the front desk this late.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "surprised",
+          "to",
+          "see",
+          "you",
+          "at",
+          "the",
+          "front",
+          "desk",
+          "this",
+          "late."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "surprised"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "front"
+          ],
+          [
+            "desk"
+          ],
+          [
+            "this"
+          ],
+          [
+            "late."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/2.mp3",
+        "timeStart": 2.23,
+        "timeEnd": 5.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66116/list"
+      },
+      {
+        "id": 66117,
+        "position": 3,
+        "content": "Don't you usually work at the hotel in the morning?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          "you",
+          "usually",
+          "work",
+          "at",
+          "the",
+          "hotel",
+          "in",
+          "the",
+          "morning?"
+        ],
+        "solution": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          [
+            "you"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "work"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hotel"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "morning?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/3.mp3",
+        "timeStart": 5.28,
+        "timeEnd": 8.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66117/list"
+      },
+      {
+        "id": 66118,
+        "position": 4,
+        "content": "Actually, I'm going to be working the evening shift for a while;",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually,",
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "working",
+          "the",
+          "evening",
+          "shift",
+          "for",
+          "a",
+          "while;"
+        ],
+        "solution": [
+          [
+            "Actually,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "working"
+          ],
+          [
+            "the"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "shift"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "while;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/4.mp3",
+        "timeStart": 8.22,
+        "timeEnd": 12.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66118/list"
+      },
+      {
+        "id": 66119,
+        "position": 5,
+        "content": "I'm covering for a front-desk supervisor who was just promoted,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "covering",
+          "for",
+          "a",
+          [
+            "front-desk",
+            "front desk"
+          ],
+          "supervisor",
+          "who",
+          "was",
+          "just",
+          "promoted,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "covering"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "front-desk",
+            "front desk"
+          ],
+          [
+            "supervisor"
+          ],
+          [
+            "who"
+          ],
+          [
+            "was"
+          ],
+          [
+            "just"
+          ],
+          [
+            "promoted,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/5.mp3",
+        "timeStart": 12.22,
+        "timeEnd": 16.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66119/list"
+      },
+      {
+        "id": 66120,
+        "position": 6,
+        "content": "but only until the hotel hires a permanent replacement.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "only",
+          "until",
+          "the",
+          "hotel",
+          "hires",
+          "a",
+          "permanent",
+          "replacement."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "only"
+          ],
+          [
+            "until"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hotel"
+          ],
+          [
+            "hires"
+          ],
+          [
+            "a"
+          ],
+          [
+            "permanent"
+          ],
+          [
+            "replacement."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/6.mp3",
+        "timeStart": 16.11,
+        "timeEnd": 19.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66120/list"
+      },
+      {
+        "id": 66121,
+        "position": 7,
+        "content": "Oh, so there's a front-desk supervisor position open?",
+        "defaultInput": "Oh, ",
+        "jsonContent": [
+          "Oh,",
+          "so",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          [
+            "front-desk",
+            "front desk"
+          ],
+          "supervisor",
+          "position",
+          "open?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "front-desk",
+            "front desk"
+          ],
+          [
+            "supervisor"
+          ],
+          [
+            "position"
+          ],
+          [
+            "open?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/7.mp3",
+        "timeStart": 19.84,
+        "timeEnd": 23.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66121/list"
+      },
+      {
+        "id": 66122,
+        "position": 8,
+        "content": "I've been looking for a chance to take on a managerial role.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "looking",
+          "for",
+          "a",
+          "chance",
+          "to",
+          "take",
+          "on",
+          "a",
+          "managerial",
+          "role."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "managerial"
+          ],
+          [
+            "role."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/8.mp3",
+        "timeStart": 23.5,
+        "timeEnd": 26.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66122/list"
+      },
+      {
+        "id": 66123,
+        "position": 9,
+        "content": "Are they still accepting applications?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "they",
+          "still",
+          "accepting",
+          "applications?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "they"
+          ],
+          [
+            "still"
+          ],
+          [
+            "accepting"
+          ],
+          [
+            "applications?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/9.mp3",
+        "timeStart": 27.16,
+        "timeEnd": 29.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66123/list"
+      },
+      {
+        "id": 66124,
+        "position": 10,
+        "content": "Yes, and if you don't mind working evening hours,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "and",
+          "if",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "mind",
+          "working",
+          "evening",
+          "hours,"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "working"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "hours,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/10.mp3",
+        "timeStart": 29.79,
+        "timeEnd": 33.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66124/list"
+      },
+      {
+        "id": 66125,
+        "position": 11,
+        "content": "I think you have a good chance at the job.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "you have",
+            "you've"
+          ],
+          "a",
+          "good",
+          "chance",
+          "at",
+          "the",
+          "job."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "job."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/11.mp3",
+        "timeStart": 33.04,
+        "timeEnd": 35.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66125/list"
+      },
+      {
+        "id": 66126,
+        "position": 12,
+        "content": "I'd contact the manager right now, though.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'd",
+            "I would"
+          ],
+          "contact",
+          "the",
+          "manager",
+          "right",
+          "now,",
+          "though."
+        ],
+        "solution": [
+          [
+            "I'd",
+            "I would"
+          ],
+          [
+            "contact"
+          ],
+          [
+            "the"
+          ],
+          [
+            "manager"
+          ],
+          [
+            "right"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/12.mp3",
+        "timeStart": 35.46,
+        "timeEnd": 37.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66126/list"
+      },
+      {
+        "id": 66127,
+        "position": 13,
+        "content": "she's starting interviews this week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "she's",
+          "starting",
+          "interviews",
+          "this",
+          "week."
+        ],
+        "solution": [
+          [
+            "she's"
+          ],
+          [
+            "starting"
+          ],
+          [
+            "interviews"
+          ],
+          [
+            "this"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-156-2024-09-14-18-23-34/13.mp3",
+        "timeStart": 37.85,
+        "timeEnd": 39.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66127/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66115": {
+      "id": 2634453,
+      "text": "Ồ, chào Yolanda.",
+      "author": "ChatGPT4.1"
+    },
+    "66116": {
+      "id": 2634454,
+      "text": "Tôi ngạc nhiên khi thấy bạn ở quầy lễ tân muộn thế này.",
+      "author": "ChatGPT4.1"
+    },
+    "66117": {
+      "id": 2634455,
+      "text": "Bạn không thường làm việc ở khách sạn vào buổi sáng sao?",
+      "author": "ChatGPT4.1"
+    },
+    "66118": {
+      "id": 2634456,
+      "text": "Thật ra, tôi sẽ làm ca tối một thời gian;",
+      "author": "ChatGPT4.1"
+    },
+    "66119": {
+      "id": 2634457,
+      "text": "Tôi đang thay cho một giám sát viên lễ tân vừa được thăng chức,",
+      "author": "ChatGPT4.1"
+    },
+    "66120": {
+      "id": 2634458,
+      "text": "nhưng chỉ cho đến khi khách sạn tuyển được người thay thế cố định.",
+      "author": "ChatGPT4.1"
+    },
+    "66121": {
+      "id": 2634459,
+      "text": "Ồ, vậy là đang có vị trí giám sát lễ tân trống à?",
+      "author": "ChatGPT4.1"
+    },
+    "66122": {
+      "id": 2634460,
+      "text": "Tôi đang tìm kiếm cơ hội đảm nhận một vai trò quản lý.",
+      "author": "ChatGPT4.1"
+    },
+    "66123": {
+      "id": 2634461,
+      "text": "Họ vẫn còn nhận đơn không?",
+      "author": "ChatGPT4.1"
+    },
+    "66124": {
+      "id": 2634462,
+      "text": "Vâng, và nếu bạn không ngại làm việc vào buổi tối,",
+      "author": "ChatGPT4.1"
+    },
+    "66125": {
+      "id": 2634463,
+      "text": "tôi nghĩ bạn có cơ hội tốt cho vị trí đó.",
+      "author": "ChatGPT4.1"
+    },
+    "66126": {
+      "id": 2634464,
+      "text": "Tuy nhiên, tôi nghĩ bạn nên liên hệ với quản lý ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "66127": {
+      "id": 2634465,
+      "text": "Chị ấy sẽ bắt đầu phỏng vấn trong tuần này.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

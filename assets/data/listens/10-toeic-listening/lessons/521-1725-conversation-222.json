@@ -1,0 +1,591 @@
+{
+  "summary": {
+    "id": 1725,
+    "name": "Conversation 222",
+    "subTitle": "Office Chair Upgrade Request",
+    "levelName": "B2",
+    "position": 521,
+    "totalChallenges": 8,
+    "groupId": 53,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1725",
+  "detail": {
+    "id": 1725,
+    "lessonName": "Conversation 222",
+    "name": "Conversation 222",
+    "position": 521,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/0-conversation-222.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 69290,
+        "position": 1,
+        "content": "Mr. Porter, could we consider updating the office chairs?",
+        "defaultInput": "Mr. Porter, ",
+        "jsonContent": [
+          "Mr.",
+          "Porter,",
+          "could",
+          "we",
+          "consider",
+          "updating",
+          "the",
+          "office",
+          "chairs?"
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Porter,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "we"
+          ],
+          [
+            "consider"
+          ],
+          [
+            "updating"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office"
+          ],
+          [
+            "chairs?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69290/list"
+      },
+      {
+        "id": 69291,
+        "position": 2,
+        "content": "Several team members have mentioned that their current chairs are uncomfortable and impacting their productivity.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Several",
+          "team",
+          "members",
+          "have",
+          "mentioned",
+          "that",
+          "their",
+          "current",
+          "chairs",
+          "are",
+          "uncomfortable",
+          "and",
+          "impacting",
+          "their",
+          "productivity."
+        ],
+        "solution": [
+          [
+            "Several"
+          ],
+          [
+            "team"
+          ],
+          [
+            "members"
+          ],
+          [
+            "have"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "that"
+          ],
+          [
+            "their"
+          ],
+          [
+            "current"
+          ],
+          [
+            "chairs"
+          ],
+          [
+            "are"
+          ],
+          [
+            "uncomfortable"
+          ],
+          [
+            "and"
+          ],
+          [
+            "impacting"
+          ],
+          [
+            "their"
+          ],
+          [
+            "productivity."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/2.mp3",
+        "timeStart": 3.4,
+        "timeEnd": 10.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69291/list"
+      },
+      {
+        "id": 69292,
+        "position": 3,
+        "content": "I've noticed that too, and it's been on my list to address.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "noticed",
+          "that",
+          "too,",
+          "and",
+          "it's",
+          "been",
+          "on",
+          "my",
+          "list",
+          "to",
+          "address."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "noticed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "too,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "list"
+          ],
+          [
+            "to"
+          ],
+          [
+            "address."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/3.mp3",
+        "timeStart": 10.02,
+        "timeEnd": 14.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69292/list"
+      },
+      {
+        "id": 69293,
+        "position": 4,
+        "content": "We didn't have the budget for it previously, but we can allocate funds for new chairs this quarter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          [
+            "didn't",
+            "did not"
+          ],
+          "have",
+          "the",
+          "budget",
+          "for",
+          "it",
+          "previously,",
+          "but",
+          "we",
+          "can",
+          "allocate",
+          "funds",
+          "for",
+          "new",
+          "chairs",
+          "this",
+          "quarter."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "budget"
+          ],
+          [
+            "for"
+          ],
+          [
+            "it"
+          ],
+          [
+            "previously,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "allocate"
+          ],
+          [
+            "funds"
+          ],
+          [
+            "for"
+          ],
+          [
+            "new"
+          ],
+          [
+            "chairs"
+          ],
+          [
+            "this"
+          ],
+          [
+            "quarter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/4.mp3",
+        "timeStart": 14.02,
+        "timeEnd": 19.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69293/list"
+      },
+      {
+        "id": 69294,
+        "position": 5,
+        "content": "I'll coordinate with the office manager to choose ergonomic chairs for everyone.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "coordinate",
+          "with",
+          "the",
+          "office",
+          "manager",
+          "to",
+          "choose",
+          "ergonomic",
+          "chairs",
+          "for",
+          "everyone."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "coordinate"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office"
+          ],
+          [
+            "manager"
+          ],
+          [
+            "to"
+          ],
+          [
+            "choose"
+          ],
+          [
+            "ergonomic"
+          ],
+          [
+            "chairs"
+          ],
+          [
+            "for"
+          ],
+          [
+            "everyone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/5.mp3",
+        "timeStart": 19.4,
+        "timeEnd": 23.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69294/list"
+      },
+      {
+        "id": 69295,
+        "position": 6,
+        "content": "That's great to hear.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "great",
+          "to",
+          "hear."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "great"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hear."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/6.mp3",
+        "timeStart": 24.13,
+        "timeEnd": 25.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69295/list"
+      },
+      {
+        "id": 69296,
+        "position": 7,
+        "content": "If you need suggestions on which models to choose,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "need",
+          "suggestions",
+          "on",
+          "which",
+          "models",
+          "to",
+          "choose,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "suggestions"
+          ],
+          [
+            "on"
+          ],
+          [
+            "which"
+          ],
+          [
+            "models"
+          ],
+          [
+            "to"
+          ],
+          [
+            "choose,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/7.mp3",
+        "timeStart": 25.7,
+        "timeEnd": 29.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69296/list"
+      },
+      {
+        "id": 69297,
+        "position": 8,
+        "content": "I can gather some feedback from the team to see what features they find most beneficial.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "gather",
+          "some",
+          "feedback",
+          "from",
+          "the",
+          "team",
+          "to",
+          "see",
+          "what",
+          "features",
+          "they",
+          "find",
+          "most",
+          "beneficial."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "gather"
+          ],
+          [
+            "some"
+          ],
+          [
+            "feedback"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "team"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "features"
+          ],
+          [
+            "they"
+          ],
+          [
+            "find"
+          ],
+          [
+            "most"
+          ],
+          [
+            "beneficial."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-222-2024-10-24-00-19-28/8.mp3",
+        "timeStart": 29.03,
+        "timeEnd": 34.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69297/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "69294": {
+      "id": 1595184,
+      "text": "Tôi sẽ phối hợp với quản lý văn phòng để chọn ghế công thái học cho mọi người.",
+      "author": "a user"
+    },
+    "69290": {
+      "id": 2645743,
+      "text": "Ông Porter, chúng ta có thể xem xét việc nâng cấp ghế văn phòng không?",
+      "author": "ChatGPT4.1"
+    },
+    "69291": {
+      "id": 2645744,
+      "text": "Một số thành viên trong nhóm đã nói rằng ghế hiện tại của họ không thoải mái và ảnh hưởng đến năng suất làm việc.",
+      "author": "ChatGPT4.1"
+    },
+    "69292": {
+      "id": 2645745,
+      "text": "Tôi cũng đã nhận thấy điều đó, và nó đã nằm trong danh sách các việc tôi cần giải quyết.",
+      "author": "ChatGPT4.1"
+    },
+    "69293": {
+      "id": 2645746,
+      "text": "Trước đây chúng ta không có ngân sách cho việc này, nhưng quý này chúng ta có thể phân bổ tiền cho ghế mới.",
+      "author": "ChatGPT4.1"
+    },
+    "69295": {
+      "id": 2645747,
+      "text": "Thật tuyệt khi nghe như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "69296": {
+      "id": 2645748,
+      "text": "Nếu ông cần gợi ý về các mẫu ghế nên chọn,",
+      "author": "ChatGPT4.1"
+    },
+    "69297": {
+      "id": 2645749,
+      "text": "Tôi có thể thu thập ý kiến từ nhóm để xem họ thấy những tính năng nào là hữu ích nhất.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

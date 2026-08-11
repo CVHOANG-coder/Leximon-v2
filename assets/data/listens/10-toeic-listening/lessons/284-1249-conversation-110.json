@@ -1,0 +1,1113 @@
+{
+  "summary": {
+    "id": 1249,
+    "name": "Conversation 110",
+    "subTitle": "Report and Agenda Coordination",
+    "levelName": "B1",
+    "position": 284,
+    "totalChallenges": 18,
+    "groupId": 41,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1249",
+  "detail": {
+    "id": 1249,
+    "lessonName": "Conversation 110",
+    "name": "Conversation 110",
+    "position": 284,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/0-conversation-110.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55488,
+        "position": 1,
+        "content": "Xander, I am about to go pick up the assistant manager from the ferry terminal.",
+        "defaultInput": "Xander, ",
+        "jsonContent": [
+          "Xander,",
+          [
+            "I am",
+            "I'm"
+          ],
+          "about",
+          "to",
+          "go",
+          "pick",
+          "up",
+          "the",
+          "assistant",
+          "manager",
+          "from",
+          "the",
+          "ferry",
+          "terminal."
+        ],
+        "solution": [
+          [
+            "Xander,"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "about"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "assistant"
+          ],
+          [
+            "manager"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ferry"
+          ],
+          [
+            "terminal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/1-2023-10-03-11-39-20.mp3",
+        "timeStart": 0,
+        "timeEnd": 4.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55488/list"
+      },
+      {
+        "id": 55489,
+        "position": 2,
+        "content": "Have you completed the report I asked you for?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "you",
+          "completed",
+          "the",
+          "report",
+          "I",
+          "asked",
+          "you",
+          "for?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "completed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "report"
+          ],
+          [
+            "I"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/2.mp3",
+        "timeStart": 4.65,
+        "timeEnd": 6.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55489/list"
+      },
+      {
+        "id": 55490,
+        "position": 3,
+        "content": "I'm still not finished",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "still",
+          "not",
+          "finished"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "still"
+          ],
+          [
+            "not"
+          ],
+          [
+            "finished"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/3.mp3",
+        "timeStart": 6.95,
+        "timeEnd": 8.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55490/list"
+      },
+      {
+        "id": 55491,
+        "position": 4,
+        "content": "because I need to replace all of the bar graphs with updated data.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "I",
+          "need",
+          "to",
+          "replace",
+          "all",
+          "of",
+          "the",
+          "bar",
+          "graphs",
+          "with",
+          "updated",
+          "data."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "replace"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bar"
+          ],
+          [
+            "graphs"
+          ],
+          [
+            "with"
+          ],
+          [
+            "updated"
+          ],
+          [
+            "data."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/4.mp3",
+        "timeStart": 8.45,
+        "timeEnd": 12.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55491/list"
+      },
+      {
+        "id": 55492,
+        "position": 5,
+        "content": "I am worried I won't be able to complete it by the 2 pm deadline.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "worried",
+          "I",
+          "won't",
+          "be",
+          "able",
+          "to",
+          "complete",
+          "it",
+          "by",
+          "the",
+          [
+            "2",
+            "two"
+          ],
+          "pm",
+          "deadline."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "complete"
+          ],
+          [
+            "it"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "pm"
+          ],
+          [
+            "deadline."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/5.mp3",
+        "timeStart": 12.43,
+        "timeEnd": 16.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55492/list"
+      },
+      {
+        "id": 55493,
+        "position": 6,
+        "content": "Don't worry, I already updated all the data.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          "worry,",
+          "I",
+          "already",
+          "updated",
+          "all",
+          "the",
+          "data."
+        ],
+        "solution": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          [
+            "worry,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "already"
+          ],
+          [
+            "updated"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "data."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/6.mp3",
+        "timeStart": 16.48,
+        "timeEnd": 19.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55493/list"
+      },
+      {
+        "id": 55494,
+        "position": 7,
+        "content": "Does something not look right?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Does",
+          "something",
+          "not",
+          "look",
+          "right?"
+        ],
+        "solution": [
+          [
+            "Does"
+          ],
+          [
+            "something"
+          ],
+          [
+            "not"
+          ],
+          [
+            "look"
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/7.mp3",
+        "timeStart": 19.59,
+        "timeEnd": 21.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55494/list"
+      },
+      {
+        "id": 55495,
+        "position": 8,
+        "content": "Umm.. Well it doesn't match our current figures.",
+        "defaultInput": "Umm.. ",
+        "jsonContent": [
+          "Umm..",
+          "Well",
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "match",
+          "our",
+          "current",
+          "figures."
+        ],
+        "solution": [
+          [
+            "Umm.."
+          ],
+          [
+            "Well"
+          ],
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "match"
+          ],
+          [
+            "our"
+          ],
+          [
+            "current"
+          ],
+          [
+            "figures."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/8.mp3",
+        "timeStart": 21.01,
+        "timeEnd": 24.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55495/list"
+      },
+      {
+        "id": 55496,
+        "position": 9,
+        "content": "I just wanted to double-check before we present the data.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "wanted",
+          "to",
+          [
+            "double-check",
+            "double check"
+          ],
+          "before",
+          "we",
+          "present",
+          "the",
+          "data."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "double-check",
+            "double check"
+          ],
+          [
+            "before"
+          ],
+          [
+            "we"
+          ],
+          [
+            "present"
+          ],
+          [
+            "the"
+          ],
+          [
+            "data."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/9.mp3",
+        "timeStart": 24.02,
+        "timeEnd": 27.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55496/list"
+      },
+      {
+        "id": 55497,
+        "position": 10,
+        "content": "Oh.. Okay, well I have to leave now, so I can't be of any help.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh..",
+          [
+            "Okay,",
+            "ok"
+          ],
+          "well",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "leave",
+          "now,",
+          "so",
+          "I",
+          "can't",
+          "be",
+          "of",
+          "any",
+          "help."
+        ],
+        "solution": [
+          [
+            "Oh.."
+          ],
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "well"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "of"
+          ],
+          [
+            "any"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/10.mp3",
+        "timeStart": 27.69,
+        "timeEnd": 31.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55497/list"
+      },
+      {
+        "id": 55498,
+        "position": 11,
+        "content": "It all falls on you!",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "all",
+          "falls",
+          "on",
+          "you!"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "all"
+          ],
+          [
+            "falls"
+          ],
+          [
+            "on"
+          ],
+          [
+            "you!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/11.mp3",
+        "timeStart": 32.01,
+        "timeEnd": 33.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55498/list"
+      },
+      {
+        "id": 55499,
+        "position": 12,
+        "content": "You can count on me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "count",
+          "on",
+          "me."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "count"
+          ],
+          [
+            "on"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/12.mp3",
+        "timeStart": 33.61,
+        "timeEnd": 35.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55499/list"
+      },
+      {
+        "id": 55500,
+        "position": 13,
+        "content": "Good luck with the pickup",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "luck",
+          "with",
+          "the",
+          "pickup"
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "luck"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pickup"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/13.mp3",
+        "timeStart": 35.11,
+        "timeEnd": 36.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55500/list"
+      },
+      {
+        "id": 55501,
+        "position": 14,
+        "content": "and I will see you when you get back to the office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "I will",
+            "I'll"
+          ],
+          "see",
+          "you",
+          "when",
+          "you",
+          "get",
+          "back",
+          "to",
+          "the",
+          "office."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/14.mp3",
+        "timeStart": 36.49,
+        "timeEnd": 38.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55501/list"
+      },
+      {
+        "id": 55502,
+        "position": 15,
+        "content": "Did you want me to make copies of the meeting agenda?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "want",
+          "me",
+          "to",
+          "make",
+          "copies",
+          "of",
+          "the",
+          "meeting",
+          "agenda?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "copies"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "agenda?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/15.mp3",
+        "timeStart": 38.95,
+        "timeEnd": 41.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55502/list"
+      },
+      {
+        "id": 55503,
+        "position": 16,
+        "content": "No, that isn't necessary.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "that",
+          [
+            "isn't",
+            "is not"
+          ],
+          "necessary."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "necessary."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/16.mp3",
+        "timeStart": 41.54,
+        "timeEnd": 43.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55503/list"
+      },
+      {
+        "id": 55504,
+        "position": 17,
+        "content": "Will you please send the agenda to my secretary?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Will",
+          "you",
+          "please",
+          "send",
+          "the",
+          "agenda",
+          "to",
+          "my",
+          "secretary?"
+        ],
+        "solution": [
+          [
+            "Will"
+          ],
+          [
+            "you"
+          ],
+          [
+            "please"
+          ],
+          [
+            "send"
+          ],
+          [
+            "the"
+          ],
+          [
+            "agenda"
+          ],
+          [
+            "to"
+          ],
+          [
+            "my"
+          ],
+          [
+            "secretary?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/17.mp3",
+        "timeStart": 43.31,
+        "timeEnd": 45.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55504/list"
+      },
+      {
+        "id": 55505,
+        "position": 18,
+        "content": "She will make sure to combine it with the other documents in an organized folder.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She will",
+            "she'll"
+          ],
+          "make",
+          "sure",
+          "to",
+          "combine",
+          "it",
+          "with",
+          "the",
+          "other",
+          "documents",
+          "in",
+          "an",
+          [
+            "organized",
+            "organised"
+          ],
+          "folder."
+        ],
+        "solution": [
+          [
+            "She will",
+            "she'll"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "to"
+          ],
+          [
+            "combine"
+          ],
+          [
+            "it"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "documents"
+          ],
+          [
+            "in"
+          ],
+          [
+            "an"
+          ],
+          [
+            "organized",
+            "organised"
+          ],
+          [
+            "folder."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-110-2023-10-03-11-37-58/18.mp3",
+        "timeStart": 45.81,
+        "timeEnd": 49.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55505/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "55488": {
+      "id": 2649226,
+      "text": "Xander, tôi sắp đi đón trợ lý quản lý từ bến phà.",
+      "author": "ChatGPT4.1"
+    },
+    "55489": {
+      "id": 2649227,
+      "text": "Bạn đã hoàn thành báo cáo mà tôi yêu cầu chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "55490": {
+      "id": 2649228,
+      "text": "Tôi vẫn chưa xong",
+      "author": "ChatGPT4.1"
+    },
+    "55491": {
+      "id": 2649229,
+      "text": "vì tôi cần thay tất cả các biểu đồ cột bằng dữ liệu đã cập nhật.",
+      "author": "ChatGPT4.1"
+    },
+    "55492": {
+      "id": 2649230,
+      "text": "Tôi lo rằng mình sẽ không kịp hoàn thành trước thời hạn 2 giờ chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "55493": {
+      "id": 2649231,
+      "text": "Đừng lo, tôi đã cập nhật tất cả dữ liệu rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "55494": {
+      "id": 2649232,
+      "text": "Có điều gì đó trông không ổn sao?",
+      "author": "ChatGPT4.1"
+    },
+    "55495": {
+      "id": 2649233,
+      "text": "Ờm... Thực ra nó không khớp với số liệu hiện tại của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "55496": {
+      "id": 2649234,
+      "text": "Tôi chỉ muốn kiểm tra lại lần nữa trước khi trình bày dữ liệu.",
+      "author": "ChatGPT4.1"
+    },
+    "55497": {
+      "id": 2649235,
+      "text": "Ồ... Được rồi, tôi phải đi bây giờ nên không giúp gì được.",
+      "author": "ChatGPT4.1"
+    },
+    "55498": {
+      "id": 2649236,
+      "text": "Mọi thứ đều phụ thuộc vào bạn!",
+      "author": "ChatGPT4.1"
+    },
+    "55499": {
+      "id": 2649237,
+      "text": "Bạn có thể tin tưởng vào tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "55500": {
+      "id": 2649238,
+      "text": "Chúc may mắn với việc đón người",
+      "author": "ChatGPT4.1"
+    },
+    "55501": {
+      "id": 2649239,
+      "text": "và tôi sẽ gặp bạn khi bạn quay lại văn phòng.",
+      "author": "ChatGPT4.1"
+    },
+    "55502": {
+      "id": 2649240,
+      "text": "Bạn có muốn tôi photo tài liệu chương trình họp không?",
+      "author": "ChatGPT4.1"
+    },
+    "55503": {
+      "id": 2649241,
+      "text": "Không, điều đó không cần thiết.",
+      "author": "ChatGPT4.1"
+    },
+    "55504": {
+      "id": 2649242,
+      "text": "Bạn vui lòng gửi chương trình họp cho thư ký của tôi chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "55505": {
+      "id": 2649243,
+      "text": "Cô ấy sẽ đảm bảo kết hợp nó với các tài liệu khác trong một thư mục được sắp xếp ngăn nắp.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

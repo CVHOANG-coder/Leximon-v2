@@ -1,0 +1,4704 @@
+{
+  "summary": {
+    "id": 2225,
+    "name": "Cam20 - Test 1 - Part 2",
+    "subTitle": "Introduction to Pottery Workshop",
+    "levelName": "B2",
+    "position": 2,
+    "totalChallenges": 71,
+    "groupId": 129,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2225",
+  "detail": {
+    "id": 2225,
+    "lessonName": "Cam20 - Test 1 - Part 2",
+    "name": "Cam20 - Test 1 - Part 2",
+    "position": 2,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/0-cam20-test-1-part-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 88069,
+        "position": 1,
+        "content": "Hello, and welcome.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "and",
+          "welcome."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "welcome."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/1.mp3",
+        "timeStart": 0.45,
+        "timeEnd": 2.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88069/list"
+      },
+      {
+        "id": 88070,
+        "position": 2,
+        "content": "My name's Heather McCallum,",
+        "defaultInput": "My name's Heather McCallum,",
+        "jsonContent": [
+          "My",
+          "name's",
+          "Heather",
+          "McCallum,"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "name's"
+          ],
+          [
+            "Heather"
+          ],
+          [
+            "McCallum,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/2.mp3",
+        "timeStart": 2.77,
+        "timeEnd": 5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88070/list"
+      },
+      {
+        "id": 88071,
+        "position": 3,
+        "content": "and I'm one of the potters who work here at Edelman Pottery.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I'm",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "potters",
+          "who",
+          "work",
+          "here",
+          "at",
+          "Edelman",
+          "Pottery."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'm"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "potters"
+          ],
+          [
+            "who"
+          ],
+          [
+            "work"
+          ],
+          [
+            "here"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Edelman"
+          ],
+          [
+            "Pottery."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/3.mp3",
+        "timeStart": 5,
+        "timeEnd": 9.79,
+        "hints": [
+          "Edelman Pottery"
+        ],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/88071/list"
+      },
+      {
+        "id": 88072,
+        "position": 4,
+        "content": "Before we go into the workshop, I just want to say a bit about the craft of pottery.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "we",
+          "go",
+          "into",
+          "the",
+          "workshop,",
+          "I",
+          "just",
+          [
+            "want to",
+            "wanna"
+          ],
+          "say",
+          "a",
+          "bit",
+          "about",
+          "the",
+          "craft",
+          "of",
+          "pottery."
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "we"
+          ],
+          [
+            "go"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "workshop,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "say"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "craft"
+          ],
+          [
+            "of"
+          ],
+          [
+            "pottery."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/4.mp3",
+        "timeStart": 10.01,
+        "timeEnd": 16.18,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/88072/list"
+      },
+      {
+        "id": 88073,
+        "position": 5,
+        "content": "Then we'll have a look at the equipment,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          [
+            "we'll",
+            "we will"
+          ],
+          "have",
+          "a",
+          "look",
+          "at",
+          "the",
+          "equipment,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "equipment,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/5.mp3",
+        "timeStart": 16.31,
+        "timeEnd": 19.31,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88073/list"
+      },
+      {
+        "id": 88074,
+        "position": 6,
+        "content": "and you can try making a pot of your own.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "you",
+          "can",
+          "try",
+          "making",
+          "a",
+          "pot",
+          "of",
+          "your",
+          "own."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "try"
+          ],
+          [
+            "making"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/6.mp3",
+        "timeStart": 19.31,
+        "timeEnd": 22.51,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88074/list"
+      },
+      {
+        "id": 88075,
+        "position": 7,
+        "content": "Like many people, I'm sure you know that pottery as an art form is tens of thousands of years old,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "many",
+          "people,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          "you",
+          "know",
+          "that",
+          "pottery",
+          "as",
+          "an",
+          "art",
+          "form",
+          "is",
+          "tens",
+          "of",
+          "thousands",
+          "of",
+          "years",
+          "old,"
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "many"
+          ],
+          [
+            "people,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "pottery"
+          ],
+          [
+            "as"
+          ],
+          [
+            "an"
+          ],
+          [
+            "art"
+          ],
+          [
+            "form"
+          ],
+          [
+            "is"
+          ],
+          [
+            "tens"
+          ],
+          [
+            "of"
+          ],
+          [
+            "thousands"
+          ],
+          [
+            "of"
+          ],
+          [
+            "years"
+          ],
+          [
+            "old,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/7.mp3",
+        "timeStart": 22.69,
+        "timeEnd": 31.27,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/88075/list"
+      },
+      {
+        "id": 88076,
+        "position": 8,
+        "content": "and we know this because it stands the test of time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "know",
+          "this",
+          "because",
+          "it",
+          "stands",
+          "the",
+          "test",
+          "of",
+          "time."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "this"
+          ],
+          [
+            "because"
+          ],
+          [
+            "it"
+          ],
+          [
+            "stands"
+          ],
+          [
+            "the"
+          ],
+          [
+            "test"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/8.mp3",
+        "timeStart": 31.27,
+        "timeEnd": 36.02,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/88076/list"
+      },
+      {
+        "id": 88077,
+        "position": 9,
+        "content": "Things like baskets and pictures don't survive in the earth in the same way that pots do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Things",
+          "like",
+          "baskets",
+          "and",
+          "pictures",
+          [
+            "don't",
+            "do not"
+          ],
+          "survive",
+          "in",
+          "the",
+          "earth",
+          "in",
+          "the",
+          "same",
+          "way",
+          "that",
+          "pots",
+          "do."
+        ],
+        "solution": [
+          [
+            "Things"
+          ],
+          [
+            "like"
+          ],
+          [
+            "baskets"
+          ],
+          [
+            "and"
+          ],
+          [
+            "pictures"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "survive"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "earth"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "way"
+          ],
+          [
+            "that"
+          ],
+          [
+            "pots"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/9.mp3",
+        "timeStart": 36.02,
+        "timeEnd": 43.41,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/88077/list"
+      },
+      {
+        "id": 88078,
+        "position": 10,
+        "content": "And even if ancient pots are found in small pieces,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "even",
+          "if",
+          "ancient",
+          "pots",
+          "are",
+          "found",
+          "in",
+          "small",
+          "pieces,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "even"
+          ],
+          [
+            "if"
+          ],
+          [
+            "ancient"
+          ],
+          [
+            "pots"
+          ],
+          [
+            "are"
+          ],
+          [
+            "found"
+          ],
+          [
+            "in"
+          ],
+          [
+            "small"
+          ],
+          [
+            "pieces,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/10.mp3",
+        "timeStart": 43.5,
+        "timeEnd": 48.01,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/88078/list"
+      },
+      {
+        "id": 88079,
+        "position": 11,
+        "content": "they still provide a lot of information about the past.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "still",
+          "provide",
+          "a",
+          "lot",
+          "of",
+          "information",
+          "about",
+          "the",
+          "past."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "still"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "information"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/11.mp3",
+        "timeStart": 48.01,
+        "timeEnd": 52.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88079/list"
+      },
+      {
+        "id": 88080,
+        "position": 12,
+        "content": "There's no doubt that pottery has given archaeologists a fascinating insight into how ancient humans lived.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "no",
+          "doubt",
+          "that",
+          "pottery",
+          "has",
+          "given",
+          "archaeologists",
+          "a",
+          "fascinating",
+          "insight",
+          "into",
+          "how",
+          "ancient",
+          "humans",
+          "lived."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "no"
+          ],
+          [
+            "doubt"
+          ],
+          [
+            "that"
+          ],
+          [
+            "pottery"
+          ],
+          [
+            "has"
+          ],
+          [
+            "given"
+          ],
+          [
+            "archaeologists"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fascinating"
+          ],
+          [
+            "insight"
+          ],
+          [
+            "into"
+          ],
+          [
+            "how"
+          ],
+          [
+            "ancient"
+          ],
+          [
+            "humans"
+          ],
+          [
+            "lived."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/12.mp3",
+        "timeStart": 52.94,
+        "timeEnd": 62.3,
+        "hints": [],
+        "nbComments": 16,
+        "discussionUrl": "https://dailydictation.com/discussions/88080/list"
+      },
+      {
+        "id": 88081,
+        "position": 13,
+        "content": "The shape of an artifact may have been lost.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "shape",
+          "of",
+          "an",
+          "artifact",
+          "may",
+          "have",
+          "been",
+          "lost."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "shape"
+          ],
+          [
+            "of"
+          ],
+          [
+            "an"
+          ],
+          [
+            "artifact"
+          ],
+          [
+            "may"
+          ],
+          [
+            "have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "lost."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/13.mp3",
+        "timeStart": 62.5,
+        "timeEnd": 66.04,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/88081/list"
+      },
+      {
+        "id": 88082,
+        "position": 14,
+        "content": "But archaeologists can tell whether the pots were for, say, storage or cooking",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "archaeologists",
+          "can",
+          "tell",
+          "whether",
+          "the",
+          "pots",
+          "were",
+          "for,",
+          "say,",
+          "storage",
+          "or",
+          "cooking"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "archaeologists"
+          ],
+          [
+            "can"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pots"
+          ],
+          [
+            "were"
+          ],
+          [
+            "for,"
+          ],
+          [
+            "say,"
+          ],
+          [
+            "storage"
+          ],
+          [
+            "or"
+          ],
+          [
+            "cooking"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/14.mp3",
+        "timeStart": 66.13,
+        "timeEnd": 73,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/88082/list"
+      },
+      {
+        "id": 88083,
+        "position": 15,
+        "content": "by examining the impressions on the clay, the scratches from tools.",
+        "defaultInput": "",
+        "jsonContent": [
+          "by",
+          "examining",
+          "the",
+          "impressions",
+          "on",
+          "the",
+          "clay,",
+          "the",
+          "scratches",
+          "from",
+          "tools."
+        ],
+        "solution": [
+          [
+            "by"
+          ],
+          [
+            "examining"
+          ],
+          [
+            "the"
+          ],
+          [
+            "impressions"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clay,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "scratches"
+          ],
+          [
+            "from"
+          ],
+          [
+            "tools."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/15.mp3",
+        "timeStart": 73,
+        "timeEnd": 78.59,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/88083/list"
+      },
+      {
+        "id": 88084,
+        "position": 16,
+        "content": "And the clay itself can reveal where the pots came from.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "clay",
+          "itself",
+          "can",
+          "reveal",
+          "where",
+          "the",
+          "pots",
+          "came",
+          "from."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clay"
+          ],
+          [
+            "itself"
+          ],
+          [
+            "can"
+          ],
+          [
+            "reveal"
+          ],
+          [
+            "where"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pots"
+          ],
+          [
+            "came"
+          ],
+          [
+            "from."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/16.mp3",
+        "timeStart": 78.72,
+        "timeEnd": 83.84,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/88084/list"
+      },
+      {
+        "id": 88085,
+        "position": 17,
+        "content": "When I ask people why they want to take a pottery class with me,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "I",
+          "ask",
+          "people",
+          "why",
+          "they",
+          [
+            "want to",
+            "wanna"
+          ],
+          "take",
+          "a",
+          "pottery",
+          "class",
+          "with",
+          "me,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "I"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "people"
+          ],
+          [
+            "why"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "take"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pottery"
+          ],
+          [
+            "class"
+          ],
+          [
+            "with"
+          ],
+          [
+            "me,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/17.mp3",
+        "timeStart": 84.86,
+        "timeEnd": 89.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88085/list"
+      },
+      {
+        "id": 88086,
+        "position": 18,
+        "content": "they sometimes talk about these things.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "sometimes",
+          "talk",
+          "about",
+          "these",
+          "things."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "about"
+          ],
+          [
+            "these"
+          ],
+          [
+            "things."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/18.mp3",
+        "timeStart": 89.95,
+        "timeEnd": 92.95,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88086/list"
+      },
+      {
+        "id": 88087,
+        "position": 19,
+        "content": "Like our ancestors, they hope that something they create will also last longer than they do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "our",
+          "ancestors,",
+          "they",
+          "hope",
+          "that",
+          "something",
+          "they",
+          "create",
+          "will",
+          "also",
+          "last",
+          "longer",
+          "than",
+          "they",
+          "do."
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "our"
+          ],
+          [
+            "ancestors,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "that"
+          ],
+          [
+            "something"
+          ],
+          [
+            "they"
+          ],
+          [
+            "create"
+          ],
+          [
+            "will"
+          ],
+          [
+            "also"
+          ],
+          [
+            "last"
+          ],
+          [
+            "longer"
+          ],
+          [
+            "than"
+          ],
+          [
+            "they"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/19.mp3",
+        "timeStart": 92.95,
+        "timeEnd": 101.07,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/88087/list"
+      },
+      {
+        "id": 88088,
+        "position": 20,
+        "content": "That their work, whether it is good or not, might say something about humanity many years after their death.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "their",
+          "work,",
+          "whether",
+          [
+            "it is",
+            "it's"
+          ],
+          "good",
+          "or",
+          "not,",
+          "might",
+          "say",
+          "something",
+          "about",
+          "humanity",
+          "many",
+          "years",
+          "after",
+          "their",
+          "death."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "their"
+          ],
+          [
+            "work,"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "good"
+          ],
+          [
+            "or"
+          ],
+          [
+            "not,"
+          ],
+          [
+            "might"
+          ],
+          [
+            "say"
+          ],
+          [
+            "something"
+          ],
+          [
+            "about"
+          ],
+          [
+            "humanity"
+          ],
+          [
+            "many"
+          ],
+          [
+            "years"
+          ],
+          [
+            "after"
+          ],
+          [
+            "their"
+          ],
+          [
+            "death."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/20.mp3",
+        "timeStart": 101.07,
+        "timeEnd": 110.37,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88088/list"
+      },
+      {
+        "id": 88089,
+        "position": 21,
+        "content": "Of course, you will all have your own reasons for coming here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course,",
+          [
+            "you will",
+            "you'll"
+          ],
+          "all",
+          "have",
+          "your",
+          "own",
+          "reasons",
+          "for",
+          "coming",
+          "here."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "all"
+          ],
+          [
+            "have"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own"
+          ],
+          [
+            "reasons"
+          ],
+          [
+            "for"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/21.mp3",
+        "timeStart": 110.89,
+        "timeEnd": 115.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88089/list"
+      },
+      {
+        "id": 88090,
+        "position": 22,
+        "content": "As far as I'm concerned, what I love most is the concentration you need to make a good pot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "far",
+          "as",
+          [
+            "I'm",
+            "I am"
+          ],
+          "concerned,",
+          "what",
+          "I",
+          "love",
+          "most",
+          "is",
+          "the",
+          "concentration",
+          "you",
+          "need",
+          "to",
+          "make",
+          "a",
+          "good",
+          "pot."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "far"
+          ],
+          [
+            "as"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "concerned,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I"
+          ],
+          [
+            "love"
+          ],
+          [
+            "most"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "concentration"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "pot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/22.mp3",
+        "timeStart": 115.75,
+        "timeEnd": 123.29,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88090/list"
+      },
+      {
+        "id": 88091,
+        "position": 23,
+        "content": "That focus takes you away from the stresses of everyday life.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "focus",
+          "takes",
+          "you",
+          "away",
+          "from",
+          "the",
+          "stresses",
+          "of",
+          "everyday",
+          "life."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "you"
+          ],
+          [
+            "away"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "stresses"
+          ],
+          [
+            "of"
+          ],
+          [
+            "everyday"
+          ],
+          [
+            "life."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/23.mp3",
+        "timeStart": 123.87,
+        "timeEnd": 128.99,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88091/list"
+      },
+      {
+        "id": 88092,
+        "position": 24,
+        "content": "If you're elderly, it's also good exercise for hands and wrists, and helps with arthritis.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you're",
+            "you are"
+          ],
+          "elderly,",
+          "it's",
+          "also",
+          "good",
+          "exercise",
+          "for",
+          "hands",
+          "and",
+          "wrists,",
+          "and",
+          "helps",
+          "with",
+          "arthritis."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "elderly,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "also"
+          ],
+          [
+            "good"
+          ],
+          [
+            "exercise"
+          ],
+          [
+            "for"
+          ],
+          [
+            "hands"
+          ],
+          [
+            "and"
+          ],
+          [
+            "wrists,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "helps"
+          ],
+          [
+            "with"
+          ],
+          [
+            "arthritis."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/24.mp3",
+        "timeStart": 129.1,
+        "timeEnd": 136.48,
+        "hints": [],
+        "nbComments": 16,
+        "discussionUrl": "https://dailydictation.com/discussions/88092/list"
+      },
+      {
+        "id": 88093,
+        "position": 25,
+        "content": "And of course, it's a fun activity for children, because it's so messy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "of",
+          "course,",
+          "it's",
+          "a",
+          "fun",
+          "activity",
+          "for",
+          "children,",
+          "because",
+          "it's",
+          "so",
+          "messy."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fun"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "for"
+          ],
+          [
+            "children,"
+          ],
+          [
+            "because"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "so"
+          ],
+          [
+            "messy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/25.mp3",
+        "timeStart": 136.48,
+        "timeEnd": 142.11,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88093/list"
+      },
+      {
+        "id": 88094,
+        "position": 26,
+        "content": "Here at Edelman Pottery we show you some of the basic pottery techniques,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Here",
+          "at",
+          "Edelman",
+          "Pottery",
+          "we",
+          "show",
+          "you",
+          "some",
+          "of",
+          "the",
+          "basic",
+          "pottery",
+          "techniques,"
+        ],
+        "solution": [
+          [
+            "Here"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Edelman"
+          ],
+          [
+            "Pottery"
+          ],
+          [
+            "we"
+          ],
+          [
+            "show"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "pottery"
+          ],
+          [
+            "techniques,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/26.mp3",
+        "timeStart": 142.43,
+        "timeEnd": 148.17,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88094/list"
+      },
+      {
+        "id": 88095,
+        "position": 27,
+        "content": "so that you can use these to create whatever you wish, a gift for a friend perhaps.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "that",
+          "you",
+          "can",
+          "use",
+          "these",
+          "to",
+          "create",
+          "whatever",
+          "you",
+          "wish,",
+          "a",
+          "gift",
+          "for",
+          "a",
+          "friend",
+          "perhaps."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "use"
+          ],
+          [
+            "these"
+          ],
+          [
+            "to"
+          ],
+          [
+            "create"
+          ],
+          [
+            "whatever"
+          ],
+          [
+            "you"
+          ],
+          [
+            "wish,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "gift"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "friend"
+          ],
+          [
+            "perhaps."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/27.mp3",
+        "timeStart": 148.17,
+        "timeEnd": 154.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88095/list"
+      },
+      {
+        "id": 88096,
+        "position": 28,
+        "content": "Like nearly everyone who comes here, I'm sure this is the first time you will have tried the art.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "nearly",
+          "everyone",
+          "who",
+          "comes",
+          "here,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          "this",
+          "is",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "time",
+          [
+            "you will",
+            "you'll"
+          ],
+          "have",
+          "tried",
+          "the",
+          "art."
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "nearly"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "who"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "here,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "time"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "have"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "the"
+          ],
+          [
+            "art."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/28.mp3",
+        "timeStart": 154.47,
+        "timeEnd": 160.92,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/88096/list"
+      },
+      {
+        "id": 88097,
+        "position": 29,
+        "content": "So we'll keep things simple today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          [
+            "we'll",
+            "we will"
+          ],
+          "keep",
+          "things",
+          "simple",
+          "today."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "things"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/29.mp3",
+        "timeStart": 160.92,
+        "timeEnd": 163.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88097/list"
+      },
+      {
+        "id": 88098,
+        "position": 30,
+        "content": "Now, before we move on, can I just say a word about what you're wearing?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "before",
+          "we",
+          "move",
+          "on,",
+          "can",
+          "I",
+          "just",
+          "say",
+          "a",
+          "word",
+          "about",
+          "what",
+          [
+            "you're",
+            "you are"
+          ],
+          "wearing?"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "before"
+          ],
+          [
+            "we"
+          ],
+          [
+            "move"
+          ],
+          [
+            "on,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "say"
+          ],
+          [
+            "a"
+          ],
+          [
+            "word"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "wearing?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/30.mp3",
+        "timeStart": 164.45,
+        "timeEnd": 170.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88098/list"
+      },
+      {
+        "id": 88099,
+        "position": 31,
+        "content": "As we said in our email, please remove any watches, necklaces, et cetera.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "we",
+          "said",
+          "in",
+          "our",
+          "email,",
+          "please",
+          "remove",
+          "any",
+          "watches,",
+          "necklaces,",
+          [
+            "et cetera.",
+            "etc"
+          ]
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "we"
+          ],
+          [
+            "said"
+          ],
+          [
+            "in"
+          ],
+          [
+            "our"
+          ],
+          [
+            "email,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "remove"
+          ],
+          [
+            "any"
+          ],
+          [
+            "watches,"
+          ],
+          [
+            "necklaces,"
+          ],
+          [
+            "et cetera.",
+            "etc"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/31.mp3",
+        "timeStart": 170.3,
+        "timeEnd": 177.25,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/88099/list"
+      },
+      {
+        "id": 88100,
+        "position": 32,
+        "content": "And put them somewhere safe.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "put",
+          "them",
+          "somewhere",
+          "safe."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "put"
+          ],
+          [
+            "them"
+          ],
+          [
+            "somewhere"
+          ],
+          [
+            "safe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/32.mp3",
+        "timeStart": 177.25,
+        "timeEnd": 179.49,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88100/list"
+      },
+      {
+        "id": 88101,
+        "position": 33,
+        "content": "If you have long hair, do tie it back now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you have",
+            "you've"
+          ],
+          "long",
+          "hair,",
+          "do",
+          "tie",
+          "it",
+          "back",
+          "now."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "long"
+          ],
+          [
+            "hair,"
+          ],
+          [
+            "do"
+          ],
+          [
+            "tie"
+          ],
+          [
+            "it"
+          ],
+          [
+            "back"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/33.mp3",
+        "timeStart": 179.65,
+        "timeEnd": 184.13,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/88101/list"
+      },
+      {
+        "id": 88102,
+        "position": 34,
+        "content": "We'll provide aprons later,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We'll",
+            "We will"
+          ],
+          "provide",
+          "aprons",
+          "later,"
+        ],
+        "solution": [
+          [
+            "We'll",
+            "We will"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "aprons"
+          ],
+          [
+            "later,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/34.mp3",
+        "timeStart": 184.13,
+        "timeEnd": 186.58,
+        "hints": [],
+        "nbComments": 17,
+        "discussionUrl": "https://dailydictation.com/discussions/88102/list"
+      },
+      {
+        "id": 88103,
+        "position": 35,
+        "content": "but I trust your clothes are old but comfortable, not your favorite T-shirt or jeans.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "trust",
+          "your",
+          "clothes",
+          "are",
+          "old",
+          "but",
+          "comfortable,",
+          "not",
+          "your",
+          [
+            "favorite",
+            "favourite"
+          ],
+          [
+            "T-shirt",
+            "T shirt"
+          ],
+          "or",
+          "jeans."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "trust"
+          ],
+          [
+            "your"
+          ],
+          [
+            "clothes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "old"
+          ],
+          [
+            "but"
+          ],
+          [
+            "comfortable,"
+          ],
+          [
+            "not"
+          ],
+          [
+            "your"
+          ],
+          [
+            "favorite",
+            "favourite"
+          ],
+          [
+            "T-shirt",
+            "T shirt"
+          ],
+          [
+            "or"
+          ],
+          [
+            "jeans."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/35.mp3",
+        "timeStart": 186.58,
+        "timeEnd": 193.43,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88103/list"
+      },
+      {
+        "id": 88104,
+        "position": 36,
+        "content": "So now we're in the workshop.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "now",
+          [
+            "we're",
+            "we are"
+          ],
+          "in",
+          "the",
+          "workshop."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "now"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "workshop."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/36.mp3",
+        "timeStart": 194.15,
+        "timeEnd": 197.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88104/list"
+      },
+      {
+        "id": 88105,
+        "position": 37,
+        "content": "Have a look around.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "a",
+          "look",
+          "around."
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look"
+          ],
+          [
+            "around."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/37.mp3",
+        "timeStart": 197.15,
+        "timeEnd": 198.83,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88105/list"
+      },
+      {
+        "id": 88106,
+        "position": 38,
+        "content": "There's a lot going on.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "a",
+          "lot",
+          "going",
+          "on."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "going"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/38.mp3",
+        "timeStart": 198.83,
+        "timeEnd": 200.89,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88106/list"
+      },
+      {
+        "id": 88107,
+        "position": 39,
+        "content": "To make pottery that will last, you need a potter's wheel,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "make",
+          "pottery",
+          [
+            "that will",
+            "that'll"
+          ],
+          "last,",
+          "you",
+          "need",
+          "a",
+          "potter's",
+          "wheel,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "make"
+          ],
+          [
+            "pottery"
+          ],
+          [
+            "that will",
+            "that'll"
+          ],
+          [
+            "last,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "potter's"
+          ],
+          [
+            "wheel,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/39.mp3",
+        "timeStart": 200.89,
+        "timeEnd": 205.45,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88107/list"
+      },
+      {
+        "id": 88108,
+        "position": 40,
+        "content": "a kiln, which is basically a very hot oven where you fire the pottery,",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "kiln,",
+          "which",
+          "is",
+          "basically",
+          "a",
+          "very",
+          "hot",
+          "oven",
+          "where",
+          "you",
+          "fire",
+          "the",
+          "pottery,"
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "kiln,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "basically"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "oven"
+          ],
+          [
+            "where"
+          ],
+          [
+            "you"
+          ],
+          [
+            "fire"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pottery,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/40.mp3",
+        "timeStart": 205.45,
+        "timeEnd": 211.42,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/88108/list"
+      },
+      {
+        "id": 88109,
+        "position": 41,
+        "content": "and some tools.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "some",
+          "tools."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "some"
+          ],
+          [
+            "tools."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/41.mp3",
+        "timeStart": 211.42,
+        "timeEnd": 213.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88109/list"
+      },
+      {
+        "id": 88110,
+        "position": 42,
+        "content": "So first, the kiln.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          [
+            "first,",
+            "1st"
+          ],
+          "the",
+          "kiln."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "first,",
+            "1st"
+          ],
+          [
+            "the"
+          ],
+          [
+            "kiln."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/42.mp3",
+        "timeStart": 213.91,
+        "timeEnd": 217.14,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88110/list"
+      },
+      {
+        "id": 88111,
+        "position": 43,
+        "content": "If you look over in the far corner, you'll see one of ours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "look",
+          "over",
+          "in",
+          "the",
+          "far",
+          "corner,",
+          [
+            "you'll",
+            "you will"
+          ],
+          "see",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "ours."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "look"
+          ],
+          [
+            "over"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "far"
+          ],
+          [
+            "corner,"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "see"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "ours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/43.mp3",
+        "timeStart": 217.14,
+        "timeEnd": 222.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88111/list"
+      },
+      {
+        "id": 88112,
+        "position": 44,
+        "content": "Since their invention kilns have changed very little.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Since",
+          "their",
+          "invention",
+          "kilns",
+          "have",
+          "changed",
+          "very",
+          "little."
+        ],
+        "solution": [
+          [
+            "Since"
+          ],
+          [
+            "their"
+          ],
+          [
+            "invention"
+          ],
+          [
+            "kilns"
+          ],
+          [
+            "have"
+          ],
+          [
+            "changed"
+          ],
+          [
+            "very"
+          ],
+          [
+            "little."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/44.mp3",
+        "timeStart": 222.03,
+        "timeEnd": 226.16,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88112/list"
+      },
+      {
+        "id": 88113,
+        "position": 45,
+        "content": "Though in the past 20 years, a lot of progress has been made in temperature control.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Though",
+          "in",
+          "the",
+          "past",
+          [
+            "20",
+            "twenty"
+          ],
+          "years,",
+          "a",
+          "lot",
+          "of",
+          "progress",
+          "has",
+          "been",
+          "made",
+          "in",
+          "temperature",
+          "control."
+        ],
+        "solution": [
+          [
+            "Though"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past"
+          ],
+          [
+            "20",
+            "twenty"
+          ],
+          [
+            "years,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "progress"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "made"
+          ],
+          [
+            "in"
+          ],
+          [
+            "temperature"
+          ],
+          [
+            "control."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/45.mp3",
+        "timeStart": 226.28,
+        "timeEnd": 232.6,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88113/list"
+      },
+      {
+        "id": 88114,
+        "position": 46,
+        "content": "Basically, a kiln removes the water from clay.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Basically,",
+          "a",
+          "kiln",
+          "removes",
+          "the",
+          "water",
+          "from",
+          "clay."
+        ],
+        "solution": [
+          [
+            "Basically,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "kiln"
+          ],
+          [
+            "removes"
+          ],
+          [
+            "the"
+          ],
+          [
+            "water"
+          ],
+          [
+            "from"
+          ],
+          [
+            "clay."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/46.mp3",
+        "timeStart": 232.69,
+        "timeEnd": 236.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88114/list"
+      },
+      {
+        "id": 88115,
+        "position": 47,
+        "content": "At temperatures of around 1,000 degrees Celsius.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "temperatures",
+          "of",
+          "around",
+          [
+            "1,000",
+            "one thousand"
+          ],
+          "degrees",
+          "Celsius."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "temperatures"
+          ],
+          [
+            "of"
+          ],
+          [
+            "around"
+          ],
+          [
+            "1,000",
+            "one thousand"
+          ],
+          [
+            "degrees"
+          ],
+          [
+            "Celsius."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/47.mp3",
+        "timeStart": 236.89,
+        "timeEnd": 241.5,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/88115/list"
+      },
+      {
+        "id": 88116,
+        "position": 48,
+        "content": "This allows anything you've made to set permanently in shape.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "allows",
+          "anything",
+          [
+            "you've",
+            "you have"
+          ],
+          "made",
+          "to",
+          "set",
+          "permanently",
+          "in",
+          "shape."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "allows"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "made"
+          ],
+          [
+            "to"
+          ],
+          [
+            "set"
+          ],
+          [
+            "permanently"
+          ],
+          [
+            "in"
+          ],
+          [
+            "shape."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/48.mp3",
+        "timeStart": 241.66,
+        "timeEnd": 246.97,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/88116/list"
+      },
+      {
+        "id": 88117,
+        "position": 49,
+        "content": "It's a pretty ugly, heavy object that's hard to keep in a house or flat,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          "pretty",
+          "ugly,",
+          "heavy",
+          "object",
+          "that's",
+          "hard",
+          "to",
+          "keep",
+          "in",
+          "a",
+          "house",
+          "or",
+          "flat,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "ugly,"
+          ],
+          [
+            "heavy"
+          ],
+          [
+            "object"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "house"
+          ],
+          [
+            "or"
+          ],
+          [
+            "flat,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/49.mp3",
+        "timeStart": 247.38,
+        "timeEnd": 253.39,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88117/list"
+      },
+      {
+        "id": 88118,
+        "position": 50,
+        "content": "so most people don't have one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "most",
+          "people",
+          [
+            "don't",
+            "do not"
+          ],
+          "have",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "most"
+          ],
+          [
+            "people"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/50.mp3",
+        "timeStart": 253.39,
+        "timeEnd": 255.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88118/list"
+      },
+      {
+        "id": 88119,
+        "position": 51,
+        "content": "You may think, \"can't I use my oven?\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "may",
+          "think,",
+          "\"can't",
+          "I",
+          "use",
+          "my",
+          "oven?\""
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "may"
+          ],
+          [
+            "think,"
+          ],
+          [
+            "\"can't"
+          ],
+          [
+            "I"
+          ],
+          [
+            "use"
+          ],
+          [
+            "my"
+          ],
+          [
+            "oven?\""
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/51.mp3",
+        "timeStart": 255.99,
+        "timeEnd": 260.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88119/list"
+      },
+      {
+        "id": 88120,
+        "position": 52,
+        "content": "Well, that's possible,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "that's",
+          "possible,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "possible,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/52.mp3",
+        "timeStart": 260.09,
+        "timeEnd": 262.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88120/list"
+      },
+      {
+        "id": 88121,
+        "position": 53,
+        "content": "but domestic ovens don't really get hot enough,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "domestic",
+          "ovens",
+          [
+            "don't",
+            "do not"
+          ],
+          "really",
+          "get",
+          "hot",
+          "enough,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "domestic"
+          ],
+          [
+            "ovens"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "really"
+          ],
+          [
+            "get"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "enough,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/53.mp3",
+        "timeStart": 262.43,
+        "timeEnd": 266.03,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88121/list"
+      },
+      {
+        "id": 88122,
+        "position": 54,
+        "content": "and eventually the clay will crack and fall apart.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "eventually",
+          "the",
+          "clay",
+          "will",
+          "crack",
+          "and",
+          "fall",
+          "apart."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "eventually"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clay"
+          ],
+          [
+            "will"
+          ],
+          [
+            "crack"
+          ],
+          [
+            "and"
+          ],
+          [
+            "fall"
+          ],
+          [
+            "apart."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/54.mp3",
+        "timeStart": 266.03,
+        "timeEnd": 270.22,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88122/list"
+      },
+      {
+        "id": 88123,
+        "position": 55,
+        "content": "Some people fire pottery in a fire pit outside,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "people",
+          "fire",
+          "pottery",
+          "in",
+          "a",
+          "fire",
+          "pit",
+          "outside,"
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "people"
+          ],
+          [
+            "fire"
+          ],
+          [
+            "pottery"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fire"
+          ],
+          [
+            "pit"
+          ],
+          [
+            "outside,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/55.mp3",
+        "timeStart": 270.49,
+        "timeEnd": 275.44,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88123/list"
+      },
+      {
+        "id": 88124,
+        "position": 56,
+        "content": "but bear in mind that can be dangerous.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "bear",
+          "in",
+          "mind",
+          "that",
+          "can",
+          "be",
+          "dangerous."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "bear"
+          ],
+          [
+            "in"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "that"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "dangerous."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/56.mp3",
+        "timeStart": 275.44,
+        "timeEnd": 279.73,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/88124/list"
+      },
+      {
+        "id": 88125,
+        "position": 57,
+        "content": "You also need to know about safety procedures for kilns.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "also",
+          "need",
+          "to",
+          "know",
+          "about",
+          "safety",
+          "procedures",
+          "for",
+          "kilns."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "also"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "about"
+          ],
+          [
+            "safety"
+          ],
+          [
+            "procedures"
+          ],
+          [
+            "for"
+          ],
+          [
+            "kilns."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/57.mp3",
+        "timeStart": 280.03,
+        "timeEnd": 284.19,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/88125/list"
+      },
+      {
+        "id": 88126,
+        "position": 58,
+        "content": "As they release toxic compounds into the air.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "they",
+          "release",
+          "toxic",
+          "compounds",
+          "into",
+          "the",
+          "air."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "they"
+          ],
+          [
+            "release"
+          ],
+          [
+            "toxic"
+          ],
+          [
+            "compounds"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "air."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/58.mp3",
+        "timeStart": 284.19,
+        "timeEnd": 287.85,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/88126/list"
+      },
+      {
+        "id": 88127,
+        "position": 59,
+        "content": "Every potter needs a potter's wheel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Every",
+          "potter",
+          "needs",
+          "a",
+          "potter's",
+          "wheel."
+        ],
+        "solution": [
+          [
+            "Every"
+          ],
+          [
+            "potter"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "a"
+          ],
+          [
+            "potter's"
+          ],
+          [
+            "wheel."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/59.mp3",
+        "timeStart": 288.97,
+        "timeEnd": 292.89,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88127/list"
+      },
+      {
+        "id": 88128,
+        "position": 60,
+        "content": "This machine is used to shape the clay into an object with circular walls or sides, such as a bowl.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "machine",
+          "is",
+          "used",
+          "to",
+          "shape",
+          "the",
+          "clay",
+          "into",
+          "an",
+          "object",
+          "with",
+          "circular",
+          "walls",
+          "or",
+          "sides,",
+          "such",
+          "as",
+          "a",
+          "bowl."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "is"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "shape"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clay"
+          ],
+          [
+            "into"
+          ],
+          [
+            "an"
+          ],
+          [
+            "object"
+          ],
+          [
+            "with"
+          ],
+          [
+            "circular"
+          ],
+          [
+            "walls"
+          ],
+          [
+            "or"
+          ],
+          [
+            "sides,"
+          ],
+          [
+            "such"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bowl."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/60.mp3",
+        "timeStart": 293.01,
+        "timeEnd": 302.59,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88128/list"
+      },
+      {
+        "id": 88129,
+        "position": 61,
+        "content": "Its invention revolutionized the pottery industry,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Its",
+          "invention",
+          "revolutionized",
+          "the",
+          "pottery",
+          "industry,"
+        ],
+        "solution": [
+          [
+            "Its"
+          ],
+          [
+            "invention"
+          ],
+          [
+            "revolutionized"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pottery"
+          ],
+          [
+            "industry,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/61.mp3",
+        "timeStart": 302.89,
+        "timeEnd": 307.71,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88129/list"
+      },
+      {
+        "id": 88130,
+        "position": 62,
+        "content": "allowing multiple items to be produced in a day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "allowing",
+          "multiple",
+          "items",
+          "to",
+          "be",
+          "produced",
+          "in",
+          "a",
+          "day."
+        ],
+        "solution": [
+          [
+            "allowing"
+          ],
+          [
+            "multiple"
+          ],
+          [
+            "items"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "produced"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/62.mp3",
+        "timeStart": 307.71,
+        "timeEnd": 311.89,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88130/list"
+      },
+      {
+        "id": 88131,
+        "position": 63,
+        "content": "Lastly, there are a number of different tools that potters use,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Lastly,",
+          "there",
+          "are",
+          "a",
+          "number",
+          "of",
+          "different",
+          "tools",
+          "that",
+          "potters",
+          "use,"
+        ],
+        "solution": [
+          [
+            "Lastly,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "a"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "different"
+          ],
+          [
+            "tools"
+          ],
+          [
+            "that"
+          ],
+          [
+            "potters"
+          ],
+          [
+            "use,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/63.mp3",
+        "timeStart": 312.25,
+        "timeEnd": 317.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88131/list"
+      },
+      {
+        "id": 88132,
+        "position": 64,
+        "content": "depending on what they want to make.",
+        "defaultInput": "",
+        "jsonContent": [
+          "depending",
+          "on",
+          "what",
+          "they",
+          [
+            "want to",
+            "wanna"
+          ],
+          "make."
+        ],
+        "solution": [
+          [
+            "depending"
+          ],
+          [
+            "on"
+          ],
+          [
+            "what"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "make."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/64.mp3",
+        "timeStart": 317.51,
+        "timeEnd": 320.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88132/list"
+      },
+      {
+        "id": 88133,
+        "position": 65,
+        "content": "When you start, your hands can make all kinds of shapes and curves without relying on a sculpting tool.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "you",
+          "start,",
+          "your",
+          "hands",
+          "can",
+          "make",
+          "all",
+          "kinds",
+          "of",
+          "shapes",
+          "and",
+          "curves",
+          "without",
+          "relying",
+          "on",
+          "a",
+          "sculpting",
+          "tool."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you"
+          ],
+          [
+            "start,"
+          ],
+          [
+            "your"
+          ],
+          [
+            "hands"
+          ],
+          [
+            "can"
+          ],
+          [
+            "make"
+          ],
+          [
+            "all"
+          ],
+          [
+            "kinds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "shapes"
+          ],
+          [
+            "and"
+          ],
+          [
+            "curves"
+          ],
+          [
+            "without"
+          ],
+          [
+            "relying"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sculpting"
+          ],
+          [
+            "tool."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/65.mp3",
+        "timeStart": 320.33,
+        "timeEnd": 328.24,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/88133/list"
+      },
+      {
+        "id": 88134,
+        "position": 66,
+        "content": "However, there are some basic tools that you will need to handle the clay on the wheel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "there",
+          "are",
+          "some",
+          "basic",
+          "tools",
+          "that",
+          [
+            "you will",
+            "you'll"
+          ],
+          "need",
+          "to",
+          "handle",
+          "the",
+          "clay",
+          "on",
+          "the",
+          "wheel."
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "some"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "tools"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "handle"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clay"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wheel."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/66.mp3",
+        "timeStart": 328.39,
+        "timeEnd": 335.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88134/list"
+      },
+      {
+        "id": 88135,
+        "position": 67,
+        "content": "Some look very strange and have even odder names",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "look",
+          "very",
+          "strange",
+          "and",
+          "have",
+          "even",
+          "odder",
+          "names"
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "look"
+          ],
+          [
+            "very"
+          ],
+          [
+            "strange"
+          ],
+          [
+            "and"
+          ],
+          [
+            "have"
+          ],
+          [
+            "even"
+          ],
+          [
+            "odder"
+          ],
+          [
+            "names"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/67.mp3",
+        "timeStart": 335.54,
+        "timeEnd": 340.58,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/88135/list"
+      },
+      {
+        "id": 88136,
+        "position": 68,
+        "content": "that you may find hard to remember.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "you",
+          "may",
+          "find",
+          "hard",
+          "to",
+          "remember."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "may"
+          ],
+          [
+            "find"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "remember."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/68.mp3",
+        "timeStart": 340.58,
+        "timeEnd": 343.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88136/list"
+      },
+      {
+        "id": 88137,
+        "position": 69,
+        "content": "Rather than go through them all now, I'll just name a few tools as we go along.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rather",
+          "than",
+          "go",
+          "through",
+          "them",
+          "all",
+          "now,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "just",
+          "name",
+          "a",
+          "few",
+          "tools",
+          "as",
+          "we",
+          "go",
+          "along."
+        ],
+        "solution": [
+          [
+            "Rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "go"
+          ],
+          [
+            "through"
+          ],
+          [
+            "them"
+          ],
+          [
+            "all"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "just"
+          ],
+          [
+            "name"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "tools"
+          ],
+          [
+            "as"
+          ],
+          [
+            "we"
+          ],
+          [
+            "go"
+          ],
+          [
+            "along."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/69.mp3",
+        "timeStart": 343.37,
+        "timeEnd": 349.89,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88137/list"
+      },
+      {
+        "id": 88138,
+        "position": 70,
+        "content": "We can provide these and I wouldn't recommend spending money on them yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "can",
+          "provide",
+          "these",
+          "and",
+          "I",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "recommend",
+          "spending",
+          "money",
+          "on",
+          "them",
+          "yet."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "can"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "these"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "spending"
+          ],
+          [
+            "money"
+          ],
+          [
+            "on"
+          ],
+          [
+            "them"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/70.mp3",
+        "timeStart": 349.98,
+        "timeEnd": 355.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88138/list"
+      },
+      {
+        "id": 88139,
+        "position": 71,
+        "content": "So, let's try making a pot of your own...",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "let's",
+          "try",
+          "making",
+          "a",
+          "pot",
+          "of",
+          "your",
+          "own..."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "try"
+          ],
+          [
+            "making"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-1-part-2-2025-07-21-19-05-54/71.mp3",
+        "timeStart": 356.03,
+        "timeEnd": 360.14,
+        "hints": [],
+        "nbComments": 44,
+        "discussionUrl": "https://dailydictation.com/discussions/88139/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "88069": {
+      "id": 3441455,
+      "text": "Xin chào và chào mừng.",
+      "author": "ChatGPT4.1"
+    },
+    "88070": {
+      "id": 3441456,
+      "text": "Tôi tên là Heather McCallum,",
+      "author": "ChatGPT4.1"
+    },
+    "88071": {
+      "id": 3441457,
+      "text": "và tôi là một trong những thợ gốm làm việc ở Edelman Pottery.",
+      "author": "ChatGPT4.1"
+    },
+    "88072": {
+      "id": 3441458,
+      "text": "Trước khi chúng ta vào xưởng thực hành, tôi chỉ muốn nói một chút về nghề làm đồ gốm.",
+      "author": "a user"
+    },
+    "88073": {
+      "id": 3441459,
+      "text": "Sau đó chúng ta sẽ xem qua các thiết bị,",
+      "author": "ChatGPT4.1"
+    },
+    "88074": {
+      "id": 3441460,
+      "text": "và bạn có thể thử làm một chiếc bình cho riêng mình.",
+      "author": "ChatGPT4.1"
+    },
+    "88075": {
+      "id": 3441461,
+      "text": "Như nhiều người khác, tôi chắc rằng bạn biết gốm là một loại hình nghệ thuật có hàng chục ngàn năm tuổi,",
+      "author": "a user"
+    },
+    "88076": {
+      "id": 3441462,
+      "text": "và chúng ta biết điều này vì nó luôn trường tồn với thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "88077": {
+      "id": 3441463,
+      "text": "Những vật như giỏ đan và tranh ảnh không tồn tại trong lòng đất lâu bền như đồ gốm.",
+      "author": "a user"
+    },
+    "88078": {
+      "id": 3441464,
+      "text": "Và ngay cả khi những chiếc bình cổ được tìm thấy trong/dưới dạng những mảnh vỡ,",
+      "author": "a user"
+    },
+    "88079": {
+      "id": 3441465,
+      "text": "chúng vẫn cung cấp rất nhiều thông tin về quá khứ.",
+      "author": "ChatGPT4.1"
+    },
+    "88080": {
+      "id": 3441466,
+      "text": "Không nghi ngờ gì rằng gốm đã mang lại cho các nhà khảo cổ học cái nhìn hấp dẫn về cách người xưa sinh sống.",
+      "author": "ChatGPT4.1"
+    },
+    "88081": {
+      "id": 3441467,
+      "text": "Hình dạng của một hiện vật có thể đã bị mất.",
+      "author": "ChatGPT4.1"
+    },
+    "88082": {
+      "id": 3441468,
+      "text": "Nhưng các nhà khảo cổ học có thể biết được liệu những chiếc nồi đó được dùng để, chẳng hạn, cất trữ hay nấu nướng",
+      "author": "a user"
+    },
+    "88083": {
+      "id": 3441469,
+      "text": "bằng cách kiểm tra các dấu vết in trên đất sét, các vết xước do công cụ để lại",
+      "author": "a user"
+    },
+    "88084": {
+      "id": 3441470,
+      "text": "Và đất sét cũng có thể tiết lộ nguồn gốc của các bình đó.",
+      "author": "ChatGPT4.1"
+    },
+    "88085": {
+      "id": 3441471,
+      "text": "Khi tôi hỏi mọi người tại sao họ muốn tham gia lớp học làm gốm với tôi,",
+      "author": "a user"
+    },
+    "88086": {
+      "id": 3441472,
+      "text": "họ thỉnh thoảng nói về những điều này.",
+      "author": "ChatGPT4.1"
+    },
+    "88087": {
+      "id": 3441473,
+      "text": "Giống như tổ tiên chúng ta, họ hy vọng điều họ tạo ra sẽ tồn tại lâu hơn chính họ.",
+      "author": "ChatGPT4.1"
+    },
+    "88088": {
+      "id": 3441474,
+      "text": "Rằng tác phẩm của họ, dù có đẹp hay không, sẽ nói lên điều gì đó về nhân loại nhiều năm sau khi họ qua đời.",
+      "author": "ChatGPT4.1"
+    },
+    "88089": {
+      "id": 3441475,
+      "text": "Tất nhiên, mỗi người các bạn đều có lý do riêng để đến đây.",
+      "author": "ChatGPT4.1"
+    },
+    "88090": {
+      "id": 3441476,
+      "text": "Về phần tôi, điều tôi yêu thích nhất là sự tập trung mà bạn cần để làm ra một chiếc bình đẹp.",
+      "author": "ChatGPT4.1"
+    },
+    "88091": {
+      "id": 3441477,
+      "text": "Khi tập trung như vậy, bạn sẽ tạm rời xa những áp lực thường ngày.",
+      "author": "a user"
+    },
+    "88092": {
+      "id": 3441478,
+      "text": "Nếu bạn là một người lớn tuổi, việc này cũng là một bài tập tốt cho bàn tay và cổ tay, đồng thời giúp ích cho bệnh viêm khớp",
+      "author": "a user"
+    },
+    "88093": {
+      "id": 3441479,
+      "text": "Và tất nhiên, đây là một hoạt động vui dành cho trẻ em, vì nó rất bừa bộn.",
+      "author": "ChatGPT4.1"
+    },
+    "88094": {
+      "id": 3441480,
+      "text": "Tại Edelman Pottery, chúng tôi sẽ hướng dẫn các bạn một số kỹ thuật làm gốm cơ bản,",
+      "author": "a user"
+    },
+    "88095": {
+      "id": 3441481,
+      "text": "để bạn có thể dùng chúng để tạo ra bất cứ gì bạn muốn, có thể là một món quà cho bạn bè.",
+      "author": "ChatGPT4.1"
+    },
+    "88096": {
+      "id": 3441482,
+      "text": "Giống như hầu hết mọi người đến đây, tôi chắc rằng đây là lần đầu tiên bạn thử bộ môn nghệ thuật này.",
+      "author": "a user"
+    },
+    "88097": {
+      "id": 3441483,
+      "text": "Vì vậy, hôm nay chúng ta sẽ làm thật đơn giản.",
+      "author": "ChatGPT4.1"
+    },
+    "88098": {
+      "id": 3441484,
+      "text": "Bây giờ, trước khi chúng ta tiếp tục, tôi có thể nói đôi lời về trang phục của các bạn không?",
+      "author": "a user"
+    },
+    "88099": {
+      "id": 3441824,
+      "text": "Như đã nhắc trong email, xin hãy tháo đồng hồ, dây chuyền, v.v.",
+      "author": "ChatGPT4.1"
+    },
+    "88100": {
+      "id": 3441825,
+      "text": "Và cất chúng ở nơi an toàn.",
+      "author": "ChatGPT4.1"
+    },
+    "88101": {
+      "id": 3441826,
+      "text": "Nếu bạn có tóc dài, hãy buộc lại ngay nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "88102": {
+      "id": 3441827,
+      "text": "Chúng tôi sẽ cung cấp tạp dề sau,",
+      "author": "ChatGPT4.1"
+    },
+    "88103": {
+      "id": 3441828,
+      "text": "nhưng tôi mong bạn đang mặc quần áo cũ thoải mái, chứ không phải áo thun và quần jeans yêu thích của mình.",
+      "author": "a user"
+    },
+    "88104": {
+      "id": 3441829,
+      "text": "Vậy là bây giờ chúng ta đã ở trong xưởng.",
+      "author": "ChatGPT4.1"
+    },
+    "88105": {
+      "id": 3441830,
+      "text": "Hãy nhìn xung quanh nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "88106": {
+      "id": 3441831,
+      "text": "Có rất nhiều điều đang diễn ra.",
+      "author": "ChatGPT4.1"
+    },
+    "88107": {
+      "id": 3441832,
+      "text": "Để làm ra những sản phẩm gốm dùng bền lâu, bạn cần có bàn xoay gốm,",
+      "author": "a user"
+    },
+    "88108": {
+      "id": 3441833,
+      "text": "một lò nung, về cơ bản là một lò rất nóng để nung gốm,",
+      "author": "ChatGPT4.1"
+    },
+    "88109": {
+      "id": 3441834,
+      "text": "và một số dụng cụ.",
+      "author": "ChatGPT4.1"
+    },
+    "88110": {
+      "id": 3441835,
+      "text": "Vì vậy, đầu tiên là lò nung.",
+      "author": "ChatGPT4.1"
+    },
+    "88111": {
+      "id": 3441836,
+      "text": "Nếu bạn nhìn về phía góc xa kia, bạn sẽ thấy một cái lò nung của chúng tôi.",
+      "author": "a user"
+    },
+    "88112": {
+      "id": 3441837,
+      "text": "Kể từ khi được phát minh, lò nung hầu như không thay đổi nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "88113": {
+      "id": 3441838,
+      "text": "Tuy nhiên, trong 20 năm qua, đã có nhiều tiến bộ trong kiểm soát nhiệt độ.",
+      "author": "ChatGPT4.1"
+    },
+    "88114": {
+      "id": 3441870,
+      "text": "Về cơ bản, lò nung sẽ loại bỏ nước trong đất sét.",
+      "author": "ChatGPT4.1"
+    },
+    "88115": {
+      "id": 3441871,
+      "text": "Ở nhiệt độ khoảng 1.000 độ C.",
+      "author": "ChatGPT4.1"
+    },
+    "88116": {
+      "id": 3441872,
+      "text": "Việc này giúp bất kỳ món đồ nào bạn làm ra có thể giữ nguyên hình dạng vĩnh viễn.",
+      "author": "ChatGPT4.1"
+    },
+    "88117": {
+      "id": 3441873,
+      "text": "Nó là một vật khá xấu xí, nặng và khó giữ trong nhà hoặc căn hộ,",
+      "author": "ChatGPT4.1"
+    },
+    "88118": {
+      "id": 3441874,
+      "text": "nên hầu hết mọi người đều không có.",
+      "author": "ChatGPT4.1"
+    },
+    "88119": {
+      "id": 3441875,
+      "text": "Bạn có thể nghĩ, \"tôi không thể dùng lò nướng của tôi được à?\"",
+      "author": "a user"
+    },
+    "88120": {
+      "id": 3441876,
+      "text": "Vâng, điều đó là có thể,",
+      "author": "ChatGPT4.1"
+    },
+    "88121": {
+      "id": 3441877,
+      "text": "nhưng lò nướng gia đình thường không đủ nóng,",
+      "author": "ChatGPT4.1"
+    },
+    "88122": {
+      "id": 3441878,
+      "text": "và cuối cùng đất sét sẽ nứt rồi vỡ ra.",
+      "author": "ChatGPT4.1"
+    },
+    "88123": {
+      "id": 3441879,
+      "text": "Một số người nung đồ gốm trong hố lửa ngoài trời,",
+      "author": "ChatGPT4.1"
+    },
+    "88124": {
+      "id": 3441880,
+      "text": "nhưng hãy nhớ rằng việc đó có thể nguy hiểm.",
+      "author": "ChatGPT4.1"
+    },
+    "88125": {
+      "id": 3441881,
+      "text": "Bạn cũng cần biết về các quy trình an toàn cho lò nung.",
+      "author": "ChatGPT4.1"
+    },
+    "88126": {
+      "id": 3441882,
+      "text": "Vì chúng thải ra các hợp chất độc hại vào không khí.",
+      "author": "ChatGPT4.1"
+    },
+    "88127": {
+      "id": 3441883,
+      "text": "Mọi người làm gốm đều cần một bàn xoay.",
+      "author": "ChatGPT4.1"
+    },
+    "88128": {
+      "id": 3441884,
+      "text": "Chiếc máy này được dùng để tạo hình đất sét thành một vật thể có thành hoặc mặt bên hình tròn, chẳng hạn như cái bát.",
+      "author": "a user"
+    },
+    "88129": {
+      "id": 3441899,
+      "text": "Việc phát minh ra nó đã cách mạng hóa ngành làm gốm,",
+      "author": "ChatGPT4.1"
+    },
+    "88130": {
+      "id": 3441900,
+      "text": "cho phép sản xuất nhiều sản phẩm trong một ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "88131": {
+      "id": 3441901,
+      "text": "Cuối cùng, có một số dụng cụ khác nhau mà thợ gốm sử dụng,",
+      "author": "ChatGPT4.1"
+    },
+    "88132": {
+      "id": 3441902,
+      "text": "tùy thuộc vào những gì họ muốn làm.",
+      "author": "ChatGPT4.1"
+    },
+    "88133": {
+      "id": 3441903,
+      "text": "Khi mới bắt đầu, đôi tay bạn có thể tạo ra nhiều hình dáng và đường cong mà không cần đến dụng cụ nặn.",
+      "author": "ChatGPT4.1"
+    },
+    "88134": {
+      "id": 3441904,
+      "text": "Tuy nhiên, có một số dụng cụ cơ bản mà bạn sẽ cần để xử lý đất sét trên bàn xoay.",
+      "author": "ChatGPT4.1"
+    },
+    "88135": {
+      "id": 3441905,
+      "text": "Một số trông rất lạ và có những cái tên còn kỳ quặc hơn",
+      "author": "ChatGPT4.1"
+    },
+    "88136": {
+      "id": 3441906,
+      "text": "mà bạn có thể khó nhớ được.",
+      "author": "ChatGPT4.1"
+    },
+    "88137": {
+      "id": 3441907,
+      "text": "Thay vì giới thiệu hết ngay bây giờ, tôi sẽ chỉ nêu tên một vài dụng cụ trong quá trình thực hành.",
+      "author": "ChatGPT4.1"
+    },
+    "88138": {
+      "id": 3441908,
+      "text": "Chúng tôi có thể cung cấp chúng và tôi không khuyên bạn nên mua ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "88139": {
+      "id": 3441909,
+      "text": "Vậy, hãy thử làm một chiếc bình của riêng bạn nhé...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

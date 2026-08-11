@@ -1,0 +1,955 @@
+{
+  "summary": {
+    "id": 2314,
+    "name": "Test 05 - Part B - Extract 4",
+    "subTitle": "Debriefing and Case Delays",
+    "levelName": "B2",
+    "position": 46,
+    "totalChallenges": 14,
+    "groupId": 135,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2314",
+  "detail": {
+    "id": 2314,
+    "lessonName": "Test 05 - Part B - Extract 4",
+    "name": "Test 05 - Part B - Extract 4",
+    "position": 46,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/0-test-05-part-b-extract-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 91117,
+        "position": 1,
+        "content": "Okay, we need to do our debriefing.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "we",
+          "need",
+          "to",
+          "do",
+          "our",
+          "debriefing."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "our"
+          ],
+          [
+            "debriefing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/1.mp3",
+        "timeStart": 1.12,
+        "timeEnd": 3.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91117/list"
+      },
+      {
+        "id": 91118,
+        "position": 2,
+        "content": "Any comments about the case, Jackie?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Any",
+          "comments",
+          "about",
+          "the",
+          "case,",
+          "Jackie?"
+        ],
+        "solution": [
+          [
+            "Any"
+          ],
+          [
+            "comments"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "case,"
+          ],
+          [
+            "Jackie?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/2.mp3",
+        "timeStart": 3.96,
+        "timeEnd": 6.19,
+        "hints": [
+          "Jackie"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91118/list"
+      },
+      {
+        "id": 91119,
+        "position": 3,
+        "content": "Well, we were late getting started due to a delay in getting the surgical consent to come in,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "we",
+          "were",
+          "late",
+          "getting",
+          "started",
+          "due",
+          "to",
+          "a",
+          "delay",
+          "in",
+          "getting",
+          "the",
+          "surgical",
+          "consent",
+          "to",
+          "come",
+          "in,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "were"
+          ],
+          [
+            "late"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "started"
+          ],
+          [
+            "due"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "delay"
+          ],
+          [
+            "in"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "the"
+          ],
+          [
+            "surgical"
+          ],
+          [
+            "consent"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "in,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/3.mp3",
+        "timeStart": 6.29,
+        "timeEnd": 12.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91119/list"
+      },
+      {
+        "id": 91120,
+        "position": 4,
+        "content": "but I've talked to the junior resident",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "I've",
+            "I have"
+          ],
+          "talked",
+          "to",
+          "the",
+          "junior",
+          "resident"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "talked"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "junior"
+          ],
+          [
+            "resident"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/4.mp3",
+        "timeStart": 12.28,
+        "timeEnd": 14.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91120/list"
+      },
+      {
+        "id": 91121,
+        "position": 5,
+        "content": "and I think we just had a few crossed wires there, so it's sorted.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "think",
+          "we",
+          "just",
+          "had",
+          "a",
+          "few",
+          "crossed",
+          "wires",
+          "there,",
+          "so",
+          "it's",
+          "sorted."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "just"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "crossed"
+          ],
+          [
+            "wires"
+          ],
+          [
+            "there,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "sorted."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/5.mp3",
+        "timeStart": 14.98,
+        "timeEnd": 19.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91121/list"
+      },
+      {
+        "id": 91122,
+        "position": 6,
+        "content": "Yeah, we were busy in clinic this morning,",
+        "defaultInput": "Yeah, ",
+        "jsonContent": [
+          "Yeah,",
+          "we",
+          "were",
+          "busy",
+          "in",
+          "clinic",
+          "this",
+          "morning,"
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "were"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "in"
+          ],
+          [
+            "clinic"
+          ],
+          [
+            "this"
+          ],
+          [
+            "morning,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/6.mp3",
+        "timeStart": 19.09,
+        "timeEnd": 21.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91122/list"
+      },
+      {
+        "id": 91123,
+        "position": 7,
+        "content": "but we were also delayed getting into this room because the case before us went over their time,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "were",
+          "also",
+          "delayed",
+          "getting",
+          "into",
+          "this",
+          "room",
+          "because",
+          "the",
+          "case",
+          "before",
+          "us",
+          "went",
+          "over",
+          "their",
+          "time,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "were"
+          ],
+          [
+            "also"
+          ],
+          [
+            "delayed"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "into"
+          ],
+          [
+            "this"
+          ],
+          [
+            "room"
+          ],
+          [
+            "because"
+          ],
+          [
+            "the"
+          ],
+          [
+            "case"
+          ],
+          [
+            "before"
+          ],
+          [
+            "us"
+          ],
+          [
+            "went"
+          ],
+          [
+            "over"
+          ],
+          [
+            "their"
+          ],
+          [
+            "time,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/7.mp3",
+        "timeStart": 21.75,
+        "timeEnd": 26.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91123/list"
+      },
+      {
+        "id": 91124,
+        "position": 8,
+        "content": "which pushed us back.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "pushed",
+          "us",
+          "back."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "pushed"
+          ],
+          [
+            "us"
+          ],
+          [
+            "back."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/8.mp3",
+        "timeStart": 26.63,
+        "timeEnd": 28.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91124/list"
+      },
+      {
+        "id": 91125,
+        "position": 9,
+        "content": "That's becoming a regular occurrence with that particular team.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "becoming",
+          "a",
+          "regular",
+          "occurrence",
+          "with",
+          "that",
+          "particular",
+          "team."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "becoming"
+          ],
+          [
+            "a"
+          ],
+          [
+            "regular"
+          ],
+          [
+            "occurrence"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that"
+          ],
+          [
+            "particular"
+          ],
+          [
+            "team."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/9.mp3",
+        "timeStart": 28.09,
+        "timeEnd": 31.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91125/list"
+      },
+      {
+        "id": 91126,
+        "position": 10,
+        "content": "I'm going to ask our nurse manager to adjust their time slots based on the recent history of their cases.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "ask",
+          "our",
+          "nurse",
+          "manager",
+          "to",
+          "adjust",
+          "their",
+          "time",
+          "slots",
+          "based",
+          "on",
+          "the",
+          "recent",
+          "history",
+          "of",
+          "their",
+          "cases."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "our"
+          ],
+          [
+            "nurse"
+          ],
+          [
+            "manager"
+          ],
+          [
+            "to"
+          ],
+          [
+            "adjust"
+          ],
+          [
+            "their"
+          ],
+          [
+            "time"
+          ],
+          [
+            "slots"
+          ],
+          [
+            "based"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "recent"
+          ],
+          [
+            "history"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "cases."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/10.mp3",
+        "timeStart": 31.19,
+        "timeEnd": 36.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91126/list"
+      },
+      {
+        "id": 91127,
+        "position": 11,
+        "content": "We were also slow to get the portable films from radiology.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "were",
+          "also",
+          "slow",
+          "to",
+          "get",
+          "the",
+          "portable",
+          "films",
+          "from",
+          "radiology."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "were"
+          ],
+          [
+            "also"
+          ],
+          [
+            "slow"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "portable"
+          ],
+          [
+            "films"
+          ],
+          [
+            "from"
+          ],
+          [
+            "radiology."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/11.mp3",
+        "timeStart": 36.98,
+        "timeEnd": 41.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91127/list"
+      },
+      {
+        "id": 91128,
+        "position": 12,
+        "content": "There were several rooms requesting films and radiology seemed short-staffed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "were",
+          "several",
+          "rooms",
+          "requesting",
+          "films",
+          "and",
+          "radiology",
+          "seemed",
+          [
+            "short-staffed.",
+            "short staffed."
+          ]
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "were"
+          ],
+          [
+            "several"
+          ],
+          [
+            "rooms"
+          ],
+          [
+            "requesting"
+          ],
+          [
+            "films"
+          ],
+          [
+            "and"
+          ],
+          [
+            "radiology"
+          ],
+          [
+            "seemed"
+          ],
+          [
+            "short-staffed.",
+            "short staffed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/12.mp3",
+        "timeStart": 41.65,
+        "timeEnd": 46.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91128/list"
+      },
+      {
+        "id": 91129,
+        "position": 13,
+        "content": "That's unusual for them but let's keep an eye on that",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "unusual",
+          "for",
+          "them",
+          "but",
+          "let's",
+          "keep",
+          "an",
+          "eye",
+          "on",
+          "that"
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "unusual"
+          ],
+          [
+            "for"
+          ],
+          [
+            "them"
+          ],
+          [
+            "but"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "an"
+          ],
+          [
+            "eye"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/13.mp3",
+        "timeStart": 47.05,
+        "timeEnd": 50.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91129/list"
+      },
+      {
+        "id": 91130,
+        "position": 14,
+        "content": "and if it happens again raise it as a concern.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "if",
+          "it",
+          "happens",
+          "again",
+          "raise",
+          "it",
+          "as",
+          "a",
+          "concern."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "if"
+          ],
+          [
+            "it"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "again"
+          ],
+          [
+            "raise"
+          ],
+          [
+            "it"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "concern."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-4-2025-08-29-22-12-35/14.mp3",
+        "timeStart": 50.46,
+        "timeEnd": 53.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91130/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "91117": {
+      "id": 3683532,
+      "text": "Được rồi, chúng ta cần phải tiến hành cuộc họp tổng kết.",
+      "author": "ChatGPT4.1"
+    },
+    "91118": {
+      "id": 3683533,
+      "text": "Jackie, bạn có ý kiến gì về ca này không?",
+      "author": "ChatGPT4.1"
+    },
+    "91119": {
+      "id": 3683534,
+      "text": "Chúng ta bắt đầu trễ vì phải chờ giấy đồng ý phẫu thuật được đưa vào,",
+      "author": "ChatGPT4.1"
+    },
+    "91120": {
+      "id": 3683535,
+      "text": "nhưng tôi đã trao đổi với bác sĩ nội trú trẻ,",
+      "author": "ChatGPT4.1"
+    },
+    "91121": {
+      "id": 3683536,
+      "text": "và tôi nghĩ chỉ là có một vài sự hiểu lầm nhỏ, giờ đã giải quyết xong.",
+      "author": "ChatGPT4.1"
+    },
+    "91122": {
+      "id": 3683537,
+      "text": "Đúng vậy, sáng nay chúng ta bận ở phòng khám,",
+      "author": "ChatGPT4.1"
+    },
+    "91123": {
+      "id": 3683538,
+      "text": "nhưng chúng ta cũng bị trễ vào phòng này vì ca trước làm quá giờ,",
+      "author": "ChatGPT4.1"
+    },
+    "91124": {
+      "id": 3683539,
+      "text": "khiến cho chúng ta phải lùi lại.",
+      "author": "ChatGPT4.1"
+    },
+    "91125": {
+      "id": 3683540,
+      "text": "Điều đó dường như đang trở thành chuyện thường xuyên với đội đó.",
+      "author": "ChatGPT4.1"
+    },
+    "91126": {
+      "id": 3683541,
+      "text": "Tôi sẽ đề nghị quản lý điều dưỡng của chúng ta điều chỉnh lại lịch của họ dựa trên lịch sử các ca gần đây.",
+      "author": "ChatGPT4.1"
+    },
+    "91127": {
+      "id": 3683542,
+      "text": "Chúng ta cũng phải chờ khá lâu mới lấy được phim di động từ khoa X-quang.",
+      "author": "ChatGPT4.1"
+    },
+    "91128": {
+      "id": 3683543,
+      "text": "Có nhiều phòng cùng lúc yêu cầu phim và bên X-quang dường như thiếu người.",
+      "author": "ChatGPT4.1"
+    },
+    "91129": {
+      "id": 3683544,
+      "text": "Điều đó không thường xảy ra với họ nhưng chúng ta nên chú ý,",
+      "author": "ChatGPT4.1"
+    },
+    "91130": {
+      "id": 3683545,
+      "text": "và nếu điều đó xảy ra nữa thì chúng ta sẽ báo cáo như một vấn đề cần quan tâm.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

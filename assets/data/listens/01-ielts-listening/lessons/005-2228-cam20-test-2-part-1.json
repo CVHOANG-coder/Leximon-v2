@@ -1,0 +1,3648 @@
+{
+  "summary": {
+    "id": 2228,
+    "name": "Cam20 - Test 2 - Part 1",
+    "subTitle": "Support for Family Carers",
+    "levelName": "B2",
+    "position": 5,
+    "totalChallenges": 61,
+    "groupId": 129,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2228",
+  "detail": {
+    "id": 2228,
+    "lessonName": "Cam20 - Test 2 - Part 1",
+    "name": "Cam20 - Test 2 - Part 1",
+    "position": 5,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/0-cam20-test-2-part-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 88289,
+        "position": 1,
+        "content": "It's really good to see you, Tom.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "really",
+          "good",
+          "to",
+          "see",
+          "you,",
+          "Tom."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "really"
+          ],
+          [
+            "good"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you,"
+          ],
+          [
+            "Tom."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/1.mp3",
+        "timeStart": 0.61,
+        "timeEnd": 3.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88289/list"
+      },
+      {
+        "id": 88290,
+        "position": 2,
+        "content": "Since I had to give up work, I feel I'm losing touch with my friends and colleagues.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Since",
+          [
+            "I had",
+            "I'd"
+          ],
+          "to",
+          "give",
+          "up",
+          "work,",
+          "I",
+          "feel",
+          [
+            "I'm",
+            "I am"
+          ],
+          "losing",
+          "touch",
+          "with",
+          "my",
+          "friends",
+          "and",
+          "colleagues."
+        ],
+        "solution": [
+          [
+            "Since"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "up"
+          ],
+          [
+            "work,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "losing"
+          ],
+          [
+            "touch"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "friends"
+          ],
+          [
+            "and"
+          ],
+          [
+            "colleagues."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/2.mp3",
+        "timeStart": 3.22,
+        "timeEnd": 8.09,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/88290/list"
+      },
+      {
+        "id": 88291,
+        "position": 3,
+        "content": "We really miss you in the office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "really",
+          "miss",
+          "you",
+          "in",
+          "the",
+          "office."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "really"
+          ],
+          [
+            "miss"
+          ],
+          [
+            "you"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/3.mp3",
+        "timeStart": 8.09,
+        "timeEnd": 10.15,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88291/list"
+      },
+      {
+        "id": 88292,
+        "position": 4,
+        "content": "We were all so sorry you had to leave.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "were",
+          "all",
+          "so",
+          "sorry",
+          [
+            "you had",
+            "you'd"
+          ],
+          "to",
+          "leave."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "were"
+          ],
+          [
+            "all"
+          ],
+          [
+            "so"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "you had",
+            "you'd"
+          ],
+          [
+            "to"
+          ],
+          [
+            "leave."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/4.mp3",
+        "timeStart": 10.15,
+        "timeEnd": 12.68,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88292/list"
+      },
+      {
+        "id": 88293,
+        "position": 5,
+        "content": "But you must be relieved to have more time to look after your mother.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "you",
+          "must",
+          "be",
+          "relieved",
+          "to",
+          "have",
+          "more",
+          "time",
+          "to",
+          "look",
+          "after",
+          "your",
+          "mother."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "you"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "relieved"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "more"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "after"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mother."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/5.mp3",
+        "timeStart": 12.78,
+        "timeEnd": 16.05,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/88293/list"
+      },
+      {
+        "id": 88294,
+        "position": 6,
+        "content": "How is she?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "is",
+          "she?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "is"
+          ],
+          [
+            "she?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/6.mp3",
+        "timeStart": 16.21,
+        "timeEnd": 17.18,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88294/list"
+      },
+      {
+        "id": 88295,
+        "position": 7,
+        "content": "Well, she is very cheerful, but she needs a lot of help.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "she is",
+            "she's"
+          ],
+          "very",
+          "cheerful,",
+          "but",
+          "she",
+          "needs",
+          "a",
+          "lot",
+          "of",
+          "help."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "she is",
+            "she's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "cheerful,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "she"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/7.mp3",
+        "timeStart": 17.18,
+        "timeEnd": 21.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88295/list"
+      },
+      {
+        "id": 88296,
+        "position": 8,
+        "content": "Have you tried to get any support from the local council?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "you",
+          "tried",
+          "to",
+          "get",
+          "any",
+          "support",
+          "from",
+          "the",
+          "local",
+          "council?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "any"
+          ],
+          [
+            "support"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "local"
+          ],
+          [
+            "council?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/8.mp3",
+        "timeStart": 21.37,
+        "timeEnd": 24.37,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88296/list"
+      },
+      {
+        "id": 88297,
+        "position": 9,
+        "content": "No, I didn't know I could.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "I",
+          [
+            "didn't",
+            "did not"
+          ],
+          "know",
+          "I",
+          "could."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/9.mp3",
+        "timeStart": 24.37,
+        "timeEnd": 26.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88297/list"
+      },
+      {
+        "id": 88298,
+        "position": 10,
+        "content": "Yes, they offer different kinds of practical support.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "they",
+          "offer",
+          "different",
+          "kinds",
+          "of",
+          "practical",
+          "support."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "different"
+          ],
+          [
+            "kinds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "practical"
+          ],
+          [
+            "support."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/10.mp3",
+        "timeStart": 26.96,
+        "timeEnd": 30.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88298/list"
+      },
+      {
+        "id": 88299,
+        "position": 11,
+        "content": "They realise that carers sometimes need time for all the other responsibilities they have,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          [
+            "realise",
+            "realize"
+          ],
+          "that",
+          "carers",
+          "sometimes",
+          "need",
+          "time",
+          "for",
+          "all",
+          "the",
+          "other",
+          "responsibilities",
+          [
+            "they have,",
+            "they've"
+          ]
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "realise",
+            "realize"
+          ],
+          [
+            "that"
+          ],
+          [
+            "carers"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "need"
+          ],
+          [
+            "time"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "responsibilities"
+          ],
+          [
+            "they have,",
+            "they've"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/11.mp3",
+        "timeStart": 30.53,
+        "timeEnd": 35.3,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/88299/list"
+      },
+      {
+        "id": 88300,
+        "position": 12,
+        "content": "apart from the person they're caring for,",
+        "defaultInput": "",
+        "jsonContent": [
+          "apart",
+          "from",
+          "the",
+          "person",
+          [
+            "they're",
+            "they are"
+          ],
+          "caring",
+          "for,"
+        ],
+        "solution": [
+          [
+            "apart"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "person"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "caring"
+          ],
+          [
+            "for,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/12.mp3",
+        "timeStart": 35.3,
+        "timeEnd": 37.36,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88300/list"
+      },
+      {
+        "id": 88301,
+        "position": 13,
+        "content": "and also that they sometimes need a break.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "also",
+          "that",
+          "they",
+          "sometimes",
+          "need",
+          "a",
+          "break."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "also"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "break."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/13.mp3",
+        "timeStart": 37.36,
+        "timeEnd": 40.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88301/list"
+      },
+      {
+        "id": 88302,
+        "position": 14,
+        "content": "Absolutely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Absolutely."
+        ],
+        "solution": [
+          [
+            "Absolutely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/14.mp3",
+        "timeStart": 40.05,
+        "timeEnd": 42.19,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88302/list"
+      },
+      {
+        "id": 88303,
+        "position": 15,
+        "content": "Okay, so tell me more.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "so",
+          "tell",
+          "me",
+          "more."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "so"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "more."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/15.mp3",
+        "timeStart": 42.45,
+        "timeEnd": 45.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88303/list"
+      },
+      {
+        "id": 88304,
+        "position": 16,
+        "content": "How do I go about getting this support?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "do",
+          "I",
+          "go",
+          "about",
+          "getting",
+          "this",
+          "support?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "do"
+          ],
+          [
+            "I"
+          ],
+          [
+            "go"
+          ],
+          [
+            "about"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "this"
+          ],
+          [
+            "support?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/16.mp3",
+        "timeStart": 45.35,
+        "timeEnd": 48.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88304/list"
+      },
+      {
+        "id": 88305,
+        "position": 17,
+        "content": "Well, you'd have to have an assessment of your mother's needs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "you'd",
+          "have",
+          "to",
+          "have",
+          "an",
+          "assessment",
+          "of",
+          "your",
+          "mother's",
+          "needs."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "an"
+          ],
+          [
+            "assessment"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mother's"
+          ],
+          [
+            "needs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/17.mp3",
+        "timeStart": 48.25,
+        "timeEnd": 51.47,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88305/list"
+      },
+      {
+        "id": 88306,
+        "position": 18,
+        "content": "That means someone would come round and talk to you about the situation and what you need.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "means",
+          "someone",
+          "would",
+          "come",
+          "round",
+          "and",
+          "talk",
+          "to",
+          "you",
+          "about",
+          "the",
+          "situation",
+          "and",
+          "what",
+          "you",
+          "need."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "means"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "would"
+          ],
+          [
+            "come"
+          ],
+          [
+            "round"
+          ],
+          [
+            "and"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "situation"
+          ],
+          [
+            "and"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/18.mp3",
+        "timeStart": 51.47,
+        "timeEnd": 55.99,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/88306/list"
+      },
+      {
+        "id": 88307,
+        "position": 19,
+        "content": "So, for a start, they'd want to know the amount of time you spend looking after your mother every day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "for",
+          "a",
+          "start,",
+          "they'd",
+          [
+            "want to",
+            "wanna"
+          ],
+          "know",
+          "the",
+          "amount",
+          "of",
+          "time",
+          "you",
+          "spend",
+          "looking",
+          "after",
+          "your",
+          "mother",
+          "every",
+          "day."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "start,"
+          ],
+          [
+            "they'd"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "know"
+          ],
+          [
+            "the"
+          ],
+          [
+            "amount"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "after"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mother"
+          ],
+          [
+            "every"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/19.mp3",
+        "timeStart": 55.99,
+        "timeEnd": 60.83,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88307/list"
+      },
+      {
+        "id": 88308,
+        "position": 20,
+        "content": "Okay.",
+        "defaultInput": "Okay.",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/20.mp3",
+        "timeStart": 60.83,
+        "timeEnd": 61.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88308/list"
+      },
+      {
+        "id": 88309,
+        "position": 21,
+        "content": "Then they'll probably ask you what sorts of tasks you do for your mother during the day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          [
+            "they'll",
+            "they will"
+          ],
+          "probably",
+          "ask",
+          "you",
+          "what",
+          "sorts",
+          "of",
+          "tasks",
+          "you",
+          "do",
+          "for",
+          "your",
+          "mother",
+          "during",
+          "the",
+          "day."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "they'll",
+            "they will"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "you"
+          ],
+          [
+            "what"
+          ],
+          [
+            "sorts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "tasks"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mother"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/21.mp3",
+        "timeStart": 61.72,
+        "timeEnd": 66.47,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/88309/list"
+      },
+      {
+        "id": 88310,
+        "position": 22,
+        "content": "Things like if she needs help with getting dressed, for example.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Things",
+          "like",
+          "if",
+          "she",
+          "needs",
+          "help",
+          "with",
+          "getting",
+          "dressed,",
+          "for",
+          "example."
+        ],
+        "solution": [
+          [
+            "Things"
+          ],
+          [
+            "like"
+          ],
+          [
+            "if"
+          ],
+          [
+            "she"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "help"
+          ],
+          [
+            "with"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "dressed,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/22.mp3",
+        "timeStart": 66.59,
+        "timeEnd": 69.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88310/list"
+      },
+      {
+        "id": 88311,
+        "position": 23,
+        "content": "Right, I help her with that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "I",
+          "help",
+          "her",
+          "with",
+          "that."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "her"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/23.mp3",
+        "timeStart": 69.79,
+        "timeEnd": 72.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88311/list"
+      },
+      {
+        "id": 88312,
+        "position": 24,
+        "content": "And also I help her get into the shower in the morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "also",
+          "I",
+          "help",
+          "her",
+          "get",
+          "into",
+          "the",
+          "shower",
+          "in",
+          "the",
+          "morning."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "also"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "her"
+          ],
+          [
+            "get"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shower"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/24.mp3",
+        "timeStart": 72.45,
+        "timeEnd": 75.57,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88312/list"
+      },
+      {
+        "id": 88313,
+        "position": 25,
+        "content": "Yes, that sort of thing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that",
+          "sort",
+          "of",
+          "thing."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "thing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/25.mp3",
+        "timeStart": 75.57,
+        "timeEnd": 77.15,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88313/list"
+      },
+      {
+        "id": 88314,
+        "position": 26,
+        "content": "They'll probably ask you if you do the shopping for her",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They'll",
+            "They will"
+          ],
+          "probably",
+          "ask",
+          "you",
+          "if",
+          "you",
+          "do",
+          "the",
+          "shopping",
+          "for",
+          "her"
+        ],
+        "solution": [
+          [
+            "They'll",
+            "They will"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "you"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shopping"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/26.mp3",
+        "timeStart": 77.35,
+        "timeEnd": 80.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88314/list"
+      },
+      {
+        "id": 88315,
+        "position": 27,
+        "content": "and help her at meal times.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "help",
+          "her",
+          "at",
+          "meal",
+          "times."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "help"
+          ],
+          [
+            "her"
+          ],
+          [
+            "at"
+          ],
+          [
+            "meal"
+          ],
+          [
+            "times."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/27.mp3",
+        "timeStart": 80.13,
+        "timeEnd": 82.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88315/list"
+      },
+      {
+        "id": 88316,
+        "position": 28,
+        "content": "And whether she can cope using money.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "whether",
+          "she",
+          "can",
+          "cope",
+          "using",
+          "money."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "she"
+          ],
+          [
+            "can"
+          ],
+          [
+            "cope"
+          ],
+          [
+            "using"
+          ],
+          [
+            "money."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/28.mp3",
+        "timeStart": 82.05,
+        "timeEnd": 84.51,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/88316/list"
+      },
+      {
+        "id": 88317,
+        "position": 29,
+        "content": "Yes, that's becoming a bit of a problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that's",
+          "becoming",
+          "a",
+          "bit",
+          "of",
+          "a",
+          "problem."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "becoming"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/29.mp3",
+        "timeStart": 84.51,
+        "timeEnd": 87.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88317/list"
+      },
+      {
+        "id": 88318,
+        "position": 30,
+        "content": "She used to be very good at it, but not anymore.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "used",
+          "to",
+          "be",
+          "very",
+          "good",
+          "at",
+          "it,",
+          "but",
+          "not",
+          "anymore."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "very"
+          ],
+          [
+            "good"
+          ],
+          [
+            "at"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "not"
+          ],
+          [
+            "anymore."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/30.mp3",
+        "timeStart": 87.65,
+        "timeEnd": 91.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88318/list"
+      },
+      {
+        "id": 88319,
+        "position": 31,
+        "content": "And be ready to tell them about anything you find particularly difficult about caring for your mother.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "be",
+          "ready",
+          "to",
+          "tell",
+          "them",
+          "about",
+          "anything",
+          "you",
+          "find",
+          "particularly",
+          "difficult",
+          "about",
+          "caring",
+          "for",
+          "your",
+          "mother."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "to"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "them"
+          ],
+          [
+            "about"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "you"
+          ],
+          [
+            "find"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "about"
+          ],
+          [
+            "caring"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mother."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/31.mp3",
+        "timeStart": 92.52,
+        "timeEnd": 98.1,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88319/list"
+      },
+      {
+        "id": 88320,
+        "position": 32,
+        "content": "So, recently I've noticed she's started to have quite bad problems with her memory.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "recently",
+          [
+            "I've",
+            "I have"
+          ],
+          "noticed",
+          "she's",
+          "started",
+          "to",
+          "have",
+          "quite",
+          "bad",
+          "problems",
+          "with",
+          "her",
+          "memory."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "recently"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "noticed"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "bad"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "with"
+          ],
+          [
+            "her"
+          ],
+          [
+            "memory."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/32.mp3",
+        "timeStart": 98.32,
+        "timeEnd": 104.69,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88320/list"
+      },
+      {
+        "id": 88321,
+        "position": 33,
+        "content": "If I wasn't there, I think she'd forget to eat, for example.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "I",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "there,",
+          "I",
+          "think",
+          "she'd",
+          "forget",
+          "to",
+          "eat,",
+          "for",
+          "example."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "I"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "there,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "she'd"
+          ],
+          [
+            "forget"
+          ],
+          [
+            "to"
+          ],
+          [
+            "eat,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/33.mp3",
+        "timeStart": 104.69,
+        "timeEnd": 109.04,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88321/list"
+      },
+      {
+        "id": 88322,
+        "position": 34,
+        "content": "And often she doesn't seem quite sure what day it is.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "often",
+          "she",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "seem",
+          "quite",
+          "sure",
+          "what",
+          "day",
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "often"
+          ],
+          [
+            "she"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "what"
+          ],
+          [
+            "day"
+          ],
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/34.mp3",
+        "timeStart": 109.15,
+        "timeEnd": 112.95,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88322/list"
+      },
+      {
+        "id": 88323,
+        "position": 35,
+        "content": "Yes, tell them about that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "tell",
+          "them",
+          "about",
+          "that."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "them"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/35.mp3",
+        "timeStart": 112.95,
+        "timeEnd": 114.78,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88323/list"
+      },
+      {
+        "id": 88324,
+        "position": 36,
+        "content": "And are there any physical difficulties you have caring for her?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "are",
+          "there",
+          "any",
+          "physical",
+          "difficulties",
+          [
+            "you have",
+            "you've"
+          ],
+          "caring",
+          "for",
+          "her?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "are"
+          ],
+          [
+            "there"
+          ],
+          [
+            "any"
+          ],
+          [
+            "physical"
+          ],
+          [
+            "difficulties"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "caring"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/36.mp3",
+        "timeStart": 114.92,
+        "timeEnd": 118.7,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88324/list"
+      },
+      {
+        "id": 88325,
+        "position": 37,
+        "content": "Lifting her, for example?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Lifting",
+          "her,",
+          "for",
+          "example?"
+        ],
+        "solution": [
+          [
+            "Lifting"
+          ],
+          [
+            "her,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/37.mp3",
+        "timeStart": 118.78,
+        "timeEnd": 120.7,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88325/list"
+      },
+      {
+        "id": 88326,
+        "position": 38,
+        "content": "Yes, she's quite heavy",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "she's",
+          "quite",
+          "heavy"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "heavy"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/38.mp3",
+        "timeStart": 120.7,
+        "timeEnd": 123.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88326/list"
+      },
+      {
+        "id": 88327,
+        "position": 39,
+        "content": "and I'm afraid of hurting my back.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "afraid",
+          "of",
+          "hurting",
+          "my",
+          "back."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "of"
+          ],
+          [
+            "hurting"
+          ],
+          [
+            "my"
+          ],
+          [
+            "back."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/39.mp3",
+        "timeStart": 123.99,
+        "timeEnd": 126.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88327/list"
+      },
+      {
+        "id": 88328,
+        "position": 40,
+        "content": "I'd be in real trouble if that happened.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "be",
+          "in",
+          "real",
+          "trouble",
+          "if",
+          "that",
+          "happened."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "in"
+          ],
+          [
+            "real"
+          ],
+          [
+            "trouble"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that"
+          ],
+          [
+            "happened."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/40.mp3",
+        "timeStart": 126.41,
+        "timeEnd": 128.97,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88328/list"
+      },
+      {
+        "id": 88329,
+        "position": 41,
+        "content": "They can give you advice about that and also about how to avoid the possibility of your mum having a fall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "can",
+          "give",
+          "you",
+          "advice",
+          "about",
+          "that",
+          "and",
+          "also",
+          "about",
+          "how",
+          "to",
+          "avoid",
+          "the",
+          "possibility",
+          "of",
+          "your",
+          [
+            "mum",
+            "mom"
+          ],
+          "having",
+          "a",
+          "fall."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "can"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "advice"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that"
+          ],
+          [
+            "and"
+          ],
+          [
+            "also"
+          ],
+          [
+            "about"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "avoid"
+          ],
+          [
+            "the"
+          ],
+          [
+            "possibility"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mum",
+            "mom"
+          ],
+          [
+            "having"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/41.mp3",
+        "timeStart": 128.97,
+        "timeEnd": 134.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88329/list"
+      },
+      {
+        "id": 88330,
+        "position": 42,
+        "content": "Great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great."
+        ],
+        "solution": [
+          [
+            "Great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/42.mp3",
+        "timeStart": 134.94,
+        "timeEnd": 136.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88330/list"
+      },
+      {
+        "id": 88331,
+        "position": 43,
+        "content": "So once they've done this assessment, if I'm eligible, what happens next?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "once",
+          [
+            "they've",
+            "they have"
+          ],
+          "done",
+          "this",
+          "assessment,",
+          "if",
+          [
+            "I'm",
+            "I am"
+          ],
+          "eligible,",
+          "what",
+          "happens",
+          "next?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "once"
+          ],
+          [
+            "they've",
+            "they have"
+          ],
+          [
+            "done"
+          ],
+          [
+            "this"
+          ],
+          [
+            "assessment,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "eligible,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "next?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/43.mp3",
+        "timeStart": 136.27,
+        "timeEnd": 142.77,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/88331/list"
+      },
+      {
+        "id": 88332,
+        "position": 44,
+        "content": "Well, they might support you financially.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "they",
+          "might",
+          "support",
+          "you",
+          "financially."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "might"
+          ],
+          [
+            "support"
+          ],
+          [
+            "you"
+          ],
+          [
+            "financially."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/44.mp3",
+        "timeStart": 142.77,
+        "timeEnd": 145.37,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88332/list"
+      },
+      {
+        "id": 88333,
+        "position": 45,
+        "content": "So they might help you with transport costs,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "they",
+          "might",
+          "help",
+          "you",
+          "with",
+          "transport",
+          "costs,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "they"
+          ],
+          [
+            "might"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "with"
+          ],
+          [
+            "transport"
+          ],
+          [
+            "costs,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/45.mp3",
+        "timeStart": 145.37,
+        "timeEnd": 148.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88333/list"
+      },
+      {
+        "id": 88334,
+        "position": 46,
+        "content": "like if you have to get a taxi to take your mother for an appointment, for example.",
+        "defaultInput": "",
+        "jsonContent": [
+          "like",
+          "if",
+          [
+            "you have",
+            "you've"
+          ],
+          "to",
+          "get",
+          "a",
+          "taxi",
+          "to",
+          "take",
+          "your",
+          "mother",
+          "for",
+          "an",
+          "appointment,",
+          "for",
+          "example."
+        ],
+        "solution": [
+          [
+            "like"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "taxi"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mother"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/46.mp3",
+        "timeStart": 148.3,
+        "timeEnd": 152.14,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88334/list"
+      },
+      {
+        "id": 88335,
+        "position": 47,
+        "content": "I usually drive her myself, actually.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "usually",
+          "drive",
+          "her",
+          "myself,",
+          "actually."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "her"
+          ],
+          [
+            "myself,"
+          ],
+          [
+            "actually."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/47.mp3",
+        "timeStart": 152.14,
+        "timeEnd": 154.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88335/list"
+      },
+      {
+        "id": 88336,
+        "position": 48,
+        "content": "So, could I claim for the petrol?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "could",
+          "I",
+          "claim",
+          "for",
+          "the",
+          "petrol?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "I"
+          ],
+          [
+            "claim"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "petrol?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/48.mp3",
+        "timeStart": 155.11,
+        "timeEnd": 157.83,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88336/list"
+      },
+      {
+        "id": 88337,
+        "position": 49,
+        "content": "You could.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "could."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "could."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/49.mp3",
+        "timeStart": 157.83,
+        "timeEnd": 158.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88337/list"
+      },
+      {
+        "id": 88338,
+        "position": 50,
+        "content": "And you can claim for the insurance too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "you",
+          "can",
+          "claim",
+          "for",
+          "the",
+          "insurance",
+          "too."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "claim"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "insurance"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/50.mp3",
+        "timeStart": 158.7,
+        "timeEnd": 160.91,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88338/list"
+      },
+      {
+        "id": 88339,
+        "position": 51,
+        "content": "Oh, right.",
+        "defaultInput": "Oh, right.",
+        "jsonContent": [
+          "Oh,",
+          "right."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/51.mp3",
+        "timeStart": 160.91,
+        "timeEnd": 162.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88339/list"
+      },
+      {
+        "id": 88340,
+        "position": 52,
+        "content": "And if you need help with the housework, they can arrange for someone to come along once or twice a week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "if",
+          "you",
+          "need",
+          "help",
+          "with",
+          "the",
+          "housework,",
+          "they",
+          "can",
+          "arrange",
+          "for",
+          "someone",
+          "to",
+          "come",
+          "along",
+          "once",
+          "or",
+          "twice",
+          "a",
+          "week."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "help"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "housework,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "can"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "for"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "along"
+          ],
+          [
+            "once"
+          ],
+          [
+            "or"
+          ],
+          [
+            "twice"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/52.mp3",
+        "timeStart": 162.19,
+        "timeEnd": 167.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88340/list"
+      },
+      {
+        "id": 88341,
+        "position": 53,
+        "content": "And one other thing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "one",
+            "1"
+          ],
+          "other",
+          "thing."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "other"
+          ],
+          [
+            "thing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/53.mp3",
+        "timeStart": 167.62,
+        "timeEnd": 169.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88341/list"
+      },
+      {
+        "id": 88342,
+        "position": 54,
+        "content": "I hope you don't mind me saying this, but it's important you look after yourself.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "mind",
+          "me",
+          "saying",
+          "this,",
+          "but",
+          "it's",
+          "important",
+          "you",
+          "look",
+          "after",
+          "yourself."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "me"
+          ],
+          [
+            "saying"
+          ],
+          [
+            "this,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "important"
+          ],
+          [
+            "you"
+          ],
+          [
+            "look"
+          ],
+          [
+            "after"
+          ],
+          [
+            "yourself."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/54.mp3",
+        "timeStart": 169.46,
+        "timeEnd": 173.61,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/88342/list"
+      },
+      {
+        "id": 88343,
+        "position": 55,
+        "content": "And it seems to me you're under quite a bit of stress.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "it",
+          "seems",
+          "to",
+          "me",
+          [
+            "you're",
+            "you are"
+          ],
+          "under",
+          "quite",
+          "a",
+          "bit",
+          "of",
+          "stress."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "it"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "me"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "under"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "stress."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/55.mp3",
+        "timeStart": 173.7,
+        "timeEnd": 176.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88343/list"
+      },
+      {
+        "id": 88344,
+        "position": 56,
+        "content": "I am, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am,",
+            "I'm"
+          ],
+          "yes."
+        ],
+        "solution": [
+          [
+            "I am,",
+            "I'm"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/56.mp3",
+        "timeStart": 176.51,
+        "timeEnd": 177.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88344/list"
+      },
+      {
+        "id": 88345,
+        "position": 57,
+        "content": "Well tell the council because they may be able to give you some advice on how to minimise it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well",
+          "tell",
+          "the",
+          "council",
+          "because",
+          "they",
+          "may",
+          "be",
+          "able",
+          "to",
+          "give",
+          "you",
+          "some",
+          "advice",
+          "on",
+          "how",
+          "to",
+          [
+            "minimise",
+            "minimize"
+          ],
+          "it."
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "the"
+          ],
+          [
+            "council"
+          ],
+          [
+            "because"
+          ],
+          [
+            "they"
+          ],
+          [
+            "may"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "advice"
+          ],
+          [
+            "on"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "minimise",
+            "minimize"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/57.mp3",
+        "timeStart": 177.86,
+        "timeEnd": 183.27,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/88345/list"
+      },
+      {
+        "id": 88346,
+        "position": 58,
+        "content": "Really?",
+        "defaultInput": "Really?",
+        "jsonContent": [
+          "Really?"
+        ],
+        "solution": [
+          [
+            "Really?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/58.mp3",
+        "timeStart": 183.37,
+        "timeEnd": 184.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88346/list"
+      },
+      {
+        "id": 88347,
+        "position": 59,
+        "content": "Though, actually, I feel so much better having talked to you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Though,",
+          "actually,",
+          "I",
+          "feel",
+          "so",
+          "much",
+          "better",
+          "having",
+          "talked",
+          "to",
+          "you."
+        ],
+        "solution": [
+          [
+            "Though,"
+          ],
+          [
+            "actually,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "so"
+          ],
+          [
+            "much"
+          ],
+          [
+            "better"
+          ],
+          [
+            "having"
+          ],
+          [
+            "talked"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/59.mp3",
+        "timeStart": 185.21,
+        "timeEnd": 190.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/88347/list"
+      },
+      {
+        "id": 88348,
+        "position": 60,
+        "content": "I'll get in touch with the council straight away.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "get",
+          "in",
+          "touch",
+          "with",
+          "the",
+          "council",
+          [
+            "straight away.",
+            "straightaway"
+          ]
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "get"
+          ],
+          [
+            "in"
+          ],
+          [
+            "touch"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "council"
+          ],
+          [
+            "straight away.",
+            "straightaway"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/60.mp3",
+        "timeStart": 190.39,
+        "timeEnd": 193.63,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/88348/list"
+      },
+      {
+        "id": 88349,
+        "position": 61,
+        "content": "Now, shall we go for coffee...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "shall",
+          "we",
+          "go",
+          "for",
+          "coffee..."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "shall"
+          ],
+          [
+            "we"
+          ],
+          [
+            "go"
+          ],
+          [
+            "for"
+          ],
+          [
+            "coffee..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam20-test-2-part-2-2025-07-21-19-13-52/61.mp3",
+        "timeStart": 193.82,
+        "timeEnd": 196.15,
+        "hints": [],
+        "nbComments": 27,
+        "discussionUrl": "https://dailydictation.com/discussions/88349/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "88289": {
+      "id": 3441376,
+      "text": "Thật sự rất vui khi gặp bạn, Tom.",
+      "author": "ChatGPT4.1"
+    },
+    "88290": {
+      "id": 3441377,
+      "text": "Kể từ khi tôi phải nghỉ việc, tôi cảm thấy mình đang xa rời bạn bè và đồng nghiệp.",
+      "author": "ChatGPT4.1"
+    },
+    "88291": {
+      "id": 3441378,
+      "text": "Chúng tôi thực sự nhớ bạn ở văn phòng.",
+      "author": "ChatGPT4.1"
+    },
+    "88292": {
+      "id": 3441379,
+      "text": "Tất cả chúng tôi đều rất tiếc khi bạn phải rời đi.",
+      "author": "ChatGPT4.1"
+    },
+    "88293": {
+      "id": 3441380,
+      "text": "Nhưng chắc hẳn bạn cũng thấy nhẹ nhõm khi có thêm thời gian chăm sóc mẹ mình.",
+      "author": "ChatGPT4.1"
+    },
+    "88294": {
+      "id": 3441381,
+      "text": "Bà ấy thế nào rồi?",
+      "author": "ChatGPT4.1"
+    },
+    "88295": {
+      "id": 3441382,
+      "text": "Bà ấy rất vui vẻ, nhưng cần rất nhiều sự giúp đỡ.",
+      "author": "ChatGPT4.1"
+    },
+    "88296": {
+      "id": 3441383,
+      "text": "Bạn đã thử tìm kiếm sự hỗ trợ từ hội đồng địa phương chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "88297": {
+      "id": 3441384,
+      "text": "Chưa, tôi không biết là mình có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "88298": {
+      "id": 3441385,
+      "text": "Có, họ cung cấp nhiều loại hỗ trợ thiết thực khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "88299": {
+      "id": 3441386,
+      "text": "Họ nhận ra rằng những người chăm sóc đôi khi cần thời gian cho tất cả những trách nhiệm khác,",
+      "author": "ChatGPT4.1"
+    },
+    "88300": {
+      "id": 3441387,
+      "text": "ngoài việc chăm sóc người thân của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "88301": {
+      "id": 3441388,
+      "text": "và họ cũng cần có thời gian nghỉ ngơi.",
+      "author": "ChatGPT4.1"
+    },
+    "88302": {
+      "id": 3441389,
+      "text": "Chính xác.",
+      "author": "ChatGPT4.1"
+    },
+    "88303": {
+      "id": 3441390,
+      "text": "Được rồi, bạn nói thêm đi.",
+      "author": "ChatGPT4.1"
+    },
+    "88304": {
+      "id": 3441391,
+      "text": "Làm sao tôi có thể nhận được sự hỗ trợ này?",
+      "author": "ChatGPT4.1"
+    },
+    "88305": {
+      "id": 3441392,
+      "text": "Bạn sẽ cần có một buổi đánh giá về nhu cầu của mẹ bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "88306": {
+      "id": 3441393,
+      "text": "Điều đó nghĩa là sẽ có người tới và nói chuyện với bạn về tình hình cũng như những gì bạn cần.",
+      "author": "ChatGPT4.1"
+    },
+    "88307": {
+      "id": 3441394,
+      "text": "Vì vậy, trước tiên họ sẽ muốn biết bạn dành bao nhiêu thời gian chăm sóc mẹ mỗi ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "88308": {
+      "id": 3441395,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88309": {
+      "id": 3441396,
+      "text": "Sau đó họ có thể sẽ hỏi bạn làm những công việc gì cho mẹ trong ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "88310": {
+      "id": 3441397,
+      "text": "Ví dụ như bà ấy có cần giúp đỡ khi mặc quần áo không.",
+      "author": "ChatGPT4.1"
+    },
+    "88311": {
+      "id": 3441398,
+      "text": "Đúng, tôi giúp bà ấy với việc đó.",
+      "author": "a user"
+    },
+    "88312": {
+      "id": 3441399,
+      "text": "Tôi cũng giúp bà vào phòng tắm vào buổi sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "88313": {
+      "id": 3441400,
+      "text": "Vâng, những việc như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "88314": {
+      "id": 3441401,
+      "text": "Họ cũng có thể sẽ hỏi bạn có đi mua sắm cho bà ấy không",
+      "author": "a user"
+    },
+    "88315": {
+      "id": 3441402,
+      "text": "và giúp bà vào giờ ăn",
+      "author": "a user"
+    },
+    "88316": {
+      "id": 3441403,
+      "text": "Và liệu bà có thể tự xử lý việc sử dụng tiền bạc được không.",
+      "author": "a user"
+    },
+    "88317": {
+      "id": 3441404,
+      "text": "Vâng, điều đó đang trở thành một chút vấn đề.",
+      "author": "ChatGPT4.1"
+    },
+    "88318": {
+      "id": 3441405,
+      "text": "Trước đây bà rất giỏi việc đó, nhưng bây giờ thì không còn nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "88319": {
+      "id": 3442606,
+      "text": "Và hãy sẵn sàng kể cho họ nghe về bất kỳ điều gì bạn thấy đặc biệt khó khăn khi chăm sóc mẹ mình.",
+      "author": "ChatGPT4.1"
+    },
+    "88320": {
+      "id": 3442607,
+      "text": "Gần đây tôi nhận thấy bà bắt đầu có vấn đề khá nghiêm trọng với trí nhớ.",
+      "author": "ChatGPT4.1"
+    },
+    "88321": {
+      "id": 3442608,
+      "text": "Nếu tôi không có ở đó, tôi nghĩ bà ấy sẽ quên ăn chẳng hạn.",
+      "author": "a user"
+    },
+    "88322": {
+      "id": 3442609,
+      "text": "Và bà thường không chắc hôm nay là ngày nào.",
+      "author": "ChatGPT4.1"
+    },
+    "88323": {
+      "id": 3442610,
+      "text": "Đúng rồi, hãy kể cho họ về điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "88324": {
+      "id": 3442611,
+      "text": "Và bạn có gặp khó khăn gì về mặt thể chất khi chăm sóc bà ấy không?",
+      "author": "a user"
+    },
+    "88325": {
+      "id": 3442612,
+      "text": "Chẳng hạn như phải bế đỡ bà ấy?",
+      "author": "a user"
+    },
+    "88326": {
+      "id": 3442613,
+      "text": "Vâng, bà ấy khá nặng",
+      "author": "a user"
+    },
+    "88327": {
+      "id": 3442614,
+      "text": "và tôi lo bị đau lưng.",
+      "author": "ChatGPT4.1"
+    },
+    "88328": {
+      "id": 3442615,
+      "text": "Tôi sẽ gặp rắc rối thật sự nếu điều đó xảy ra.",
+      "author": "a user"
+    },
+    "88330": {
+      "id": 3442617,
+      "text": "Tuyệt quá.",
+      "author": "ChatGPT4.1"
+    },
+    "88331": {
+      "id": 3442618,
+      "text": "Vậy sau khi họ đánh giá, nếu tôi đủ điều kiện thì chuyện gì sẽ xảy ra tiếp theo?",
+      "author": "ChatGPT4.1"
+    },
+    "88332": {
+      "id": 3442619,
+      "text": "Họ có thể hỗ trợ bạn về mặt tài chính.",
+      "author": "ChatGPT4.1"
+    },
+    "88333": {
+      "id": 3442620,
+      "text": "Họ có thể giúp bạn chi phí đi lại,",
+      "author": "ChatGPT4.1"
+    },
+    "88334": {
+      "id": 3442621,
+      "text": "chẳng hạn như nếu bạn phải gọi taxi để đưa mẹ đi khám bệnh.",
+      "author": "ChatGPT4.1"
+    },
+    "88335": {
+      "id": 3442693,
+      "text": "Thực ra, tôi thường tự lái xe đưa bà đi.",
+      "author": "ChatGPT4.1"
+    },
+    "88337": {
+      "id": 3442695,
+      "text": "Bạn có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "88338": {
+      "id": 3442696,
+      "text": "Và bạn cũng có thể xin hỗ trợ phí bảo hiểm nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "88339": {
+      "id": 3442697,
+      "text": "Ồ, đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "88340": {
+      "id": 3442698,
+      "text": "Và nếu bạn cần giúp đỡ việc nhà, họ có thể sắp xếp người đến giúp một hoặc hai lần mỗi tuần.",
+      "author": "ChatGPT4.1"
+    },
+    "88341": {
+      "id": 3442699,
+      "text": "Và còn một điều nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "88344": {
+      "id": 3442702,
+      "text": "Đúng vậy, tôi đang căng thẳng.",
+      "author": "ChatGPT4.1"
+    },
+    "88345": {
+      "id": 3442703,
+      "text": "Vậy thì hãy nói với hội đồng vì họ có thể đưa bạn một số lời khuyên để giảm bớt căng thẳng.",
+      "author": "a user"
+    },
+    "88346": {
+      "id": 3442704,
+      "text": "Thật sao?",
+      "author": "ChatGPT4.1"
+    },
+    "88347": {
+      "id": 3442705,
+      "text": "Dù vậy, thực ra tôi cảm thấy tốt hơn rất nhiều sau khi nói chuyện với bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "88349": {
+      "id": 3442707,
+      "text": "Giờ thì, chúng ta đi uống cà phê nhé...",
+      "author": "ChatGPT4.1"
+    },
+    "88329": {
+      "id": 3451497,
+      "text": "Họ có thể cho bạn lời khuyên về vấn đề đó và cách tránh nguy cơ mẹ bạn bị ngã.",
+      "author": "a user"
+    },
+    "88336": {
+      "id": 3451498,
+      "text": "Vậy, tôi có thể xin thanh toán tiền xăng không?",
+      "author": "ChatGPT4.1"
+    },
+    "88342": {
+      "id": 3451499,
+      "text": "Hy vọng bạn không phiền khi tôi nói điều này, nhưng việc bạn chăm sóc cho bản thân là rất quan trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "88343": {
+      "id": 3452175,
+      "text": "Và tôi thấy hình như bạn đang khá căng thẳng.",
+      "author": "ChatGPT4.1"
+    },
+    "88348": {
+      "id": 3452176,
+      "text": "Tôi sẽ liên hệ với hội đồng ngay lập tức.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

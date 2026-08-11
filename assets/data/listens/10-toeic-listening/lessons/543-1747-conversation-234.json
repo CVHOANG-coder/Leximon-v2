@@ -1,0 +1,609 @@
+{
+  "summary": {
+    "id": 1747,
+    "name": "Conversation 234",
+    "subTitle": "Environmental Policy Update Request",
+    "levelName": "B1",
+    "position": 543,
+    "totalChallenges": 10,
+    "groupId": 71,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1747",
+  "detail": {
+    "id": 1747,
+    "lessonName": "Conversation 234",
+    "name": "Conversation 234",
+    "position": 543,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/0-conversation-234.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 69535,
+        "position": 1,
+        "content": "I've been asked to update our company's environmental policy for next month's meeting.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "asked",
+          "to",
+          "update",
+          "our",
+          "company's",
+          "environmental",
+          "policy",
+          "for",
+          "next",
+          "month's",
+          "meeting."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "to"
+          ],
+          [
+            "update"
+          ],
+          [
+            "our"
+          ],
+          [
+            "company's"
+          ],
+          [
+            "environmental"
+          ],
+          [
+            "policy"
+          ],
+          [
+            "for"
+          ],
+          [
+            "next"
+          ],
+          [
+            "month's"
+          ],
+          [
+            "meeting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 4.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69535/list"
+      },
+      {
+        "id": 69536,
+        "position": 2,
+        "content": "Do we have any resources I can refer to?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "we have",
+            "we've"
+          ],
+          "any",
+          "resources",
+          "I",
+          "can",
+          "refer",
+          "to?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "any"
+          ],
+          [
+            "resources"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "refer"
+          ],
+          [
+            "to?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/2.mp3",
+        "timeStart": 4.59,
+        "timeEnd": 6.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69536/list"
+      },
+      {
+        "id": 69537,
+        "position": 3,
+        "content": "Yes, I collected a lot of information last quarter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "collected",
+          "a",
+          "lot",
+          "of",
+          "information",
+          "last",
+          "quarter."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "collected"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "information"
+          ],
+          [
+            "last"
+          ],
+          [
+            "quarter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/3.mp3",
+        "timeStart": 7.04,
+        "timeEnd": 10.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69537/list"
+      },
+      {
+        "id": 69538,
+        "position": 4,
+        "content": "What specifically are you looking for?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "specifically",
+          "are",
+          "you",
+          "looking",
+          "for?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "specifically"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/4.mp3",
+        "timeStart": 10.52,
+        "timeEnd": 13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69538/list"
+      },
+      {
+        "id": 69539,
+        "position": 5,
+        "content": "I need something that covers waste management practices.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "need",
+          "something",
+          "that",
+          "covers",
+          "waste",
+          "management",
+          [
+            "practices.",
+            "practises"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "something"
+          ],
+          [
+            "that"
+          ],
+          [
+            "covers"
+          ],
+          [
+            "waste"
+          ],
+          [
+            "management"
+          ],
+          [
+            "practices.",
+            "practises"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/5.mp3",
+        "timeStart": 13,
+        "timeEnd": 16.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69539/list"
+      },
+      {
+        "id": 69540,
+        "position": 6,
+        "content": "I remember downloading a comprehensive report on that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "remember",
+          "downloading",
+          "a",
+          "comprehensive",
+          "report",
+          "on",
+          "that."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "downloading"
+          ],
+          [
+            "a"
+          ],
+          [
+            "comprehensive"
+          ],
+          [
+            "report"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/6.mp3",
+        "timeStart": 16.35,
+        "timeEnd": 19.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69540/list"
+      },
+      {
+        "id": 69541,
+        "position": 7,
+        "content": "I can share it with you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "share",
+          "it",
+          "with",
+          "you."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "share"
+          ],
+          [
+            "it"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/7.mp3",
+        "timeStart": 19.6,
+        "timeEnd": 21.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69541/list"
+      },
+      {
+        "id": 69542,
+        "position": 8,
+        "content": "Great! Could you send it to me today?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great!",
+          "Could",
+          "you",
+          "send",
+          "it",
+          "to",
+          "me",
+          "today?"
+        ],
+        "solution": [
+          [
+            "Great!"
+          ],
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "send"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "me"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/8.mp3",
+        "timeStart": 21.54,
+        "timeEnd": 23.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69542/list"
+      },
+      {
+        "id": 69543,
+        "position": 9,
+        "content": "Sure, I'll upload it to the shared drive. The file's too big to e-mail.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "upload",
+          "it",
+          "to",
+          "the",
+          "shared",
+          "drive.",
+          "The",
+          "file's",
+          "too",
+          "big",
+          "to",
+          [
+            "e-mail.",
+            "e mail."
+          ]
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "upload"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shared"
+          ],
+          [
+            "drive."
+          ],
+          [
+            "The"
+          ],
+          [
+            "file's"
+          ],
+          [
+            "too"
+          ],
+          [
+            "big"
+          ],
+          [
+            "to"
+          ],
+          [
+            "e-mail.",
+            "e mail."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/9.mp3",
+        "timeStart": 23.83,
+        "timeEnd": 28.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69543/list"
+      },
+      {
+        "id": 69544,
+        "position": 10,
+        "content": "Perfect, I'll grab it from there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perfect,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "grab",
+          "it",
+          "from",
+          "there."
+        ],
+        "solution": [
+          [
+            "Perfect,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "grab"
+          ],
+          [
+            "it"
+          ],
+          [
+            "from"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-234-2024-10-25-13-56-15/10.mp3",
+        "timeStart": 28.17,
+        "timeEnd": 30.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69544/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "69535": {
+      "id": 2590752,
+      "text": "Tôi được yêu cầu cập nhật chính sách môi trường của công ty cho cuộc họp tháng tới.",
+      "author": "ChatGPT4.1"
+    },
+    "69536": {
+      "id": 2590753,
+      "text": "Chúng ta có tài liệu nào mà tôi có thể tham khảo không?",
+      "author": "ChatGPT4.1"
+    },
+    "69537": {
+      "id": 2590754,
+      "text": "Vâng, tôi đã thu thập rất nhiều thông tin vào quý trước.",
+      "author": "ChatGPT4.1"
+    },
+    "69538": {
+      "id": 2590755,
+      "text": "Bạn đang tìm kiếm cụ thể điều gì?",
+      "author": "ChatGPT4.1"
+    },
+    "69539": {
+      "id": 2590756,
+      "text": "Tôi cần tài liệu về các phương pháp quản lý chất thải.",
+      "author": "ChatGPT4.1"
+    },
+    "69540": {
+      "id": 2590757,
+      "text": "Tôi nhớ mình đã tải về một báo cáo toàn diện về vấn đề đó.",
+      "author": "ChatGPT4.1"
+    },
+    "69541": {
+      "id": 2590758,
+      "text": "Tôi có thể chia sẻ nó với bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "69542": {
+      "id": 2590759,
+      "text": "Tuyệt! Bạn có thể gửi nó cho tôi hôm nay không?",
+      "author": "ChatGPT4.1"
+    },
+    "69543": {
+      "id": 2590760,
+      "text": "Được, tôi sẽ tải nó lên ổ lưu trữ chung. Tệp quá lớn để gửi qua email.",
+      "author": "ChatGPT4.1"
+    },
+    "69544": {
+      "id": 2590761,
+      "text": "Hoàn hảo, tôi sẽ lấy nó từ đó.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

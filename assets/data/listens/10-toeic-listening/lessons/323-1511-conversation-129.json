@@ -1,0 +1,876 @@
+{
+  "summary": {
+    "id": 1511,
+    "name": "Conversation 129",
+    "subTitle": "Seat Mix-up Conversation",
+    "levelName": "B1",
+    "position": 323,
+    "totalChallenges": 17,
+    "groupId": 43,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1511",
+  "detail": {
+    "id": 1511,
+    "lessonName": "Conversation 129",
+    "name": "Conversation 129",
+    "position": 323,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/0-conversation-129.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65690,
+        "position": 1,
+        "content": "Excuse me, ma'am.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Excuse",
+          "me,",
+          "ma'am."
+        ],
+        "solution": [
+          [
+            "Excuse"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "ma'am."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/1.mp3",
+        "timeStart": 0.41,
+        "timeEnd": 2.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65690/list"
+      },
+      {
+        "id": 65691,
+        "position": 2,
+        "content": "I'm afraid you are in my seat.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "afraid",
+          [
+            "you are",
+            "you're"
+          ],
+          "in",
+          "my",
+          "seat."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "seat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/2.mp3",
+        "timeStart": 2.26,
+        "timeEnd": 4.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65691/list"
+      },
+      {
+        "id": 65692,
+        "position": 3,
+        "content": "My ticket says 4F.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "ticket",
+          "says",
+          "4F."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "ticket"
+          ],
+          [
+            "says"
+          ],
+          [
+            "4F."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/3.mp3",
+        "timeStart": 4.68,
+        "timeEnd": 7.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65692/list"
+      },
+      {
+        "id": 65693,
+        "position": 4,
+        "content": "Do you mind checking your ticket again?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "mind",
+          "checking",
+          "your",
+          "ticket",
+          "again?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "checking"
+          ],
+          [
+            "your"
+          ],
+          [
+            "ticket"
+          ],
+          [
+            "again?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/4.mp3",
+        "timeStart": 7.36,
+        "timeEnd": 9.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65693/list"
+      },
+      {
+        "id": 65694,
+        "position": 5,
+        "content": "Sure. Let's take a look.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure.",
+          "Let's",
+          "take",
+          "a",
+          "look."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ],
+          [
+            "Let's"
+          ],
+          [
+            "take"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/5.mp3",
+        "timeStart": 9.76,
+        "timeEnd": 12.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65694/list"
+      },
+      {
+        "id": 65695,
+        "position": 6,
+        "content": "Wait a minute...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Wait",
+          "a",
+          "minute..."
+        ],
+        "solution": [
+          [
+            "Wait"
+          ],
+          [
+            "a"
+          ],
+          [
+            "minute..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/6.mp3",
+        "timeStart": 12.35,
+        "timeEnd": 13.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65695/list"
+      },
+      {
+        "id": 65696,
+        "position": 7,
+        "content": "I see what happened.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see",
+          "what",
+          "happened."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "happened."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/7.mp3",
+        "timeStart": 13.72,
+        "timeEnd": 15.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65696/list"
+      },
+      {
+        "id": 65697,
+        "position": 8,
+        "content": "I missed the double letters.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "missed",
+          "the",
+          "double",
+          "letters."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "missed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "double"
+          ],
+          [
+            "letters."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/8.mp3",
+        "timeStart": 15.59,
+        "timeEnd": 17.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65697/list"
+      },
+      {
+        "id": 65698,
+        "position": 9,
+        "content": "My assigned seat's all the way down there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "assigned",
+          "seat's",
+          "all",
+          "the",
+          "way",
+          "down",
+          "there."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "assigned"
+          ],
+          [
+            "seat's"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way"
+          ],
+          [
+            "down"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/9.mp3",
+        "timeStart": 17.76,
+        "timeEnd": 20.71,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/65698/list"
+      },
+      {
+        "id": 65699,
+        "position": 10,
+        "content": "I'm so sorry about that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "so",
+          "sorry",
+          "about",
+          "that."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "so"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/10.mp3",
+        "timeStart": 20.71,
+        "timeEnd": 22.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65699/list"
+      },
+      {
+        "id": 65700,
+        "position": 11,
+        "content": "No worries.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "worries."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "worries."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/11.mp3",
+        "timeStart": 22.94,
+        "timeEnd": 24.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65700/list"
+      },
+      {
+        "id": 65701,
+        "position": 12,
+        "content": "Actually, I prefer seats closer to the screen in a movie theater.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually,",
+          "I",
+          "prefer",
+          "seats",
+          "closer",
+          "to",
+          "the",
+          "screen",
+          "in",
+          "a",
+          "movie",
+          [
+            "theater.",
+            "theatre"
+          ]
+        ],
+        "solution": [
+          [
+            "Actually,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "seats"
+          ],
+          [
+            "closer"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "screen"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "movie"
+          ],
+          [
+            "theater.",
+            "theatre"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/12.mp3",
+        "timeStart": 24.56,
+        "timeEnd": 29.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65701/list"
+      },
+      {
+        "id": 65702,
+        "position": 13,
+        "content": "Well, if it's not too much to ask, can we switch seats?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "if",
+          "it's",
+          "not",
+          "too",
+          "much",
+          "to",
+          "ask,",
+          "can",
+          "we",
+          "switch",
+          "seats?"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "too"
+          ],
+          [
+            "much"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "we"
+          ],
+          [
+            "switch"
+          ],
+          [
+            "seats?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/13.mp3",
+        "timeStart": 29.7,
+        "timeEnd": 33.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65702/list"
+      },
+      {
+        "id": 65703,
+        "position": 14,
+        "content": "It couldn't have gone better.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "couldn't",
+            "could not"
+          ],
+          "have",
+          "gone",
+          "better."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "couldn't",
+            "could not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "gone"
+          ],
+          [
+            "better."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/14.mp3",
+        "timeStart": 33.99,
+        "timeEnd": 36.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65703/list"
+      },
+      {
+        "id": 65704,
+        "position": 15,
+        "content": "I like this seat anyway.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "like",
+          "this",
+          "seat",
+          "anyway."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "this"
+          ],
+          [
+            "seat"
+          ],
+          [
+            "anyway."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/15.mp3",
+        "timeStart": 36.02,
+        "timeEnd": 38.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65704/list"
+      },
+      {
+        "id": 65705,
+        "position": 16,
+        "content": "It's just that I've ordered some snacks using the in-seat delivery service.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "just",
+          "that",
+          [
+            "I've",
+            "I have"
+          ],
+          "ordered",
+          "some",
+          "snacks",
+          "using",
+          "the",
+          [
+            "in-seat",
+            "in seat"
+          ],
+          "delivery",
+          "service."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "ordered"
+          ],
+          [
+            "some"
+          ],
+          [
+            "snacks"
+          ],
+          [
+            "using"
+          ],
+          [
+            "the"
+          ],
+          [
+            "in-seat",
+            "in seat"
+          ],
+          [
+            "delivery"
+          ],
+          [
+            "service."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/16.mp3",
+        "timeStart": 38.16,
+        "timeEnd": 42.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65705/list"
+      },
+      {
+        "id": 65706,
+        "position": 17,
+        "content": "Could you kindly inform the theater attendant to send the food up here once it arrives?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "kindly",
+          "inform",
+          "the",
+          [
+            "theater",
+            "theatre"
+          ],
+          "attendant",
+          "to",
+          "send",
+          "the",
+          "food",
+          "up",
+          "here",
+          "once",
+          "it",
+          "arrives?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "kindly"
+          ],
+          [
+            "inform"
+          ],
+          [
+            "the"
+          ],
+          [
+            "theater",
+            "theatre"
+          ],
+          [
+            "attendant"
+          ],
+          [
+            "to"
+          ],
+          [
+            "send"
+          ],
+          [
+            "the"
+          ],
+          [
+            "food"
+          ],
+          [
+            "up"
+          ],
+          [
+            "here"
+          ],
+          [
+            "once"
+          ],
+          [
+            "it"
+          ],
+          [
+            "arrives?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-129-2024-09-14-18-07-23/17.mp3",
+        "timeStart": 43.2,
+        "timeEnd": 48.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65706/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "65690": {
+      "id": 2651066,
+      "text": "Xin lỗi, thưa bà.",
+      "author": "ChatGPT4.1"
+    },
+    "65691": {
+      "id": 2651067,
+      "text": "Tôi e rằng bà đang ngồi nhầm chỗ của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "65692": {
+      "id": 2651068,
+      "text": "Vé của tôi ghi là 4F.",
+      "author": "ChatGPT4.1"
+    },
+    "65693": {
+      "id": 2651069,
+      "text": "Bà có phiền kiểm tra lại vé của mình không?",
+      "author": "ChatGPT4.1"
+    },
+    "65694": {
+      "id": 2651070,
+      "text": "Tất nhiên. Để tôi xem nào.",
+      "author": "ChatGPT4.1"
+    },
+    "65695": {
+      "id": 2651071,
+      "text": "Chờ một chút...",
+      "author": "ChatGPT4.1"
+    },
+    "65696": {
+      "id": 2651072,
+      "text": "Tôi hiểu chuyện gì đã xảy ra rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "65697": {
+      "id": 2651073,
+      "text": "Tôi đã bỏ lỡ những chữ cái đôi.",
+      "author": "a user"
+    },
+    "65698": {
+      "id": 2651074,
+      "text": "Chỗ được phân của tôi ở tận phía dưới kia.",
+      "author": "ChatGPT4.1"
+    },
+    "65699": {
+      "id": 2651075,
+      "text": "Tôi rất xin lỗi về điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "65700": {
+      "id": 2651076,
+      "text": "Không sao đâu.",
+      "author": "ChatGPT4.1"
+    },
+    "65701": {
+      "id": 2651077,
+      "text": "Thật ra, tôi thích ngồi gần màn hình hơn khi xem phim.",
+      "author": "ChatGPT4.1"
+    },
+    "65702": {
+      "id": 2651078,
+      "text": "Vậy, nếu không phiền thì chúng ta đổi chỗ nhé?",
+      "author": "ChatGPT4.1"
+    },
+    "65703": {
+      "id": 2651079,
+      "text": "Không thể tốt hơn được nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "65704": {
+      "id": 2651080,
+      "text": "Tôi vẫn thích chỗ này mà.",
+      "author": "ChatGPT4.1"
+    },
+    "65705": {
+      "id": 2651081,
+      "text": "Chỉ là tôi đã đặt vài món ăn nhẹ qua dịch vụ giao đến tận chỗ ngồi.",
+      "author": "ChatGPT4.1"
+    },
+    "65706": {
+      "id": 2651082,
+      "text": "Bà có thể nhờ nhân viên rạp gửi đồ ăn lên đây khi nó được giao không?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,924 @@
+{
+  "summary": {
+    "id": 1104,
+    "name": "Conversation 37",
+    "subTitle": "Company Acquisition Announcement",
+    "levelName": "B1",
+    "position": 139,
+    "totalChallenges": 17,
+    "groupId": 34,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1104",
+  "detail": {
+    "id": 1104,
+    "lessonName": "Conversation 37",
+    "name": "Conversation 37",
+    "position": 139,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/0-conversation-37.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53607,
+        "position": 1,
+        "content": "Hello Gary. I have an exciting announcement.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello",
+          "Gary.",
+          [
+            "I have",
+            "I've"
+          ],
+          "an",
+          "exciting",
+          "announcement."
+        ],
+        "solution": [
+          [
+            "Hello"
+          ],
+          [
+            "Gary."
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "an"
+          ],
+          [
+            "exciting"
+          ],
+          [
+            "announcement."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/1.mp3",
+        "timeStart": 0.69,
+        "timeEnd": 4.81,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53607/list"
+      },
+      {
+        "id": 53608,
+        "position": 2,
+        "content": "The business came to an agreement to take over The Builder's Architect,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "business",
+          "came",
+          "to",
+          "an",
+          "agreement",
+          "to",
+          "take",
+          "over",
+          "The",
+          "Builder's",
+          "Architect,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "business"
+          ],
+          [
+            "came"
+          ],
+          [
+            "to"
+          ],
+          [
+            "an"
+          ],
+          [
+            "agreement"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "over"
+          ],
+          [
+            "The"
+          ],
+          [
+            "Builder's"
+          ],
+          [
+            "Architect,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/2.mp3",
+        "timeStart": 4.81,
+        "timeEnd": 9.31,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/53608/list"
+      },
+      {
+        "id": 53609,
+        "position": 3,
+        "content": "another architecture firm here in Manchester.",
+        "defaultInput": "",
+        "jsonContent": [
+          "another",
+          "architecture",
+          "firm",
+          "here",
+          "in",
+          "Manchester."
+        ],
+        "solution": [
+          [
+            "another"
+          ],
+          [
+            "architecture"
+          ],
+          [
+            "firm"
+          ],
+          [
+            "here"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Manchester."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/3.mp3",
+        "timeStart": 9.31,
+        "timeEnd": 12.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53609/list"
+      },
+      {
+        "id": 53610,
+        "position": 4,
+        "content": "Oh, wow!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "wow!"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "wow!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/4.mp3",
+        "timeStart": 12.79,
+        "timeEnd": 14.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53610/list"
+      },
+      {
+        "id": 53611,
+        "position": 5,
+        "content": "I wasn't aware there was a merger happening.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "aware",
+          "there",
+          "was",
+          "a",
+          "merger",
+          "happening."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "aware"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "merger"
+          ],
+          [
+            "happening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/5.mp3",
+        "timeStart": 14.35,
+        "timeEnd": 17.07,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53611/list"
+      },
+      {
+        "id": 53612,
+        "position": 6,
+        "content": "When will the deal be finalized?",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "will",
+          "the",
+          "deal",
+          "be",
+          [
+            "finalized?",
+            "finalised"
+          ]
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "will"
+          ],
+          [
+            "the"
+          ],
+          [
+            "deal"
+          ],
+          [
+            "be"
+          ],
+          [
+            "finalized?",
+            "finalised"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/6.mp3",
+        "timeStart": 17.93,
+        "timeEnd": 20.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53612/list"
+      },
+      {
+        "id": 53613,
+        "position": 7,
+        "content": "It will be final on December 4.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It will",
+            "it'll"
+          ],
+          "be",
+          "final",
+          "on",
+          "December",
+          [
+            "4.",
+            "four"
+          ]
+        ],
+        "solution": [
+          [
+            "It will",
+            "it'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "final"
+          ],
+          [
+            "on"
+          ],
+          [
+            "December"
+          ],
+          [
+            "4.",
+            "four"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/7.mp3",
+        "timeStart": 20.32,
+        "timeEnd": 23.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53613/list"
+      },
+      {
+        "id": 53614,
+        "position": 8,
+        "content": "Okay, great.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "great."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/8.mp3",
+        "timeStart": 24.05,
+        "timeEnd": 25.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53614/list"
+      },
+      {
+        "id": 53615,
+        "position": 9,
+        "content": "That is just over a month away.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That is",
+            "that's"
+          ],
+          "just",
+          "over",
+          "a",
+          "month",
+          "away."
+        ],
+        "solution": [
+          [
+            "That is",
+            "that's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "over"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/9.mp3",
+        "timeStart": 25.6,
+        "timeEnd": 27.61,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/53615/list"
+      },
+      {
+        "id": 53616,
+        "position": 10,
+        "content": "Will the employees from The Builder's Architect be joining our payroll following the acquisition?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Will",
+          "the",
+          "employees",
+          "from",
+          "The",
+          "Builder's",
+          "Architect",
+          "be",
+          "joining",
+          "our",
+          "payroll",
+          "following",
+          "the",
+          "acquisition?"
+        ],
+        "solution": [
+          [
+            "Will"
+          ],
+          [
+            "the"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "from"
+          ],
+          [
+            "The"
+          ],
+          [
+            "Builder's"
+          ],
+          [
+            "Architect"
+          ],
+          [
+            "be"
+          ],
+          [
+            "joining"
+          ],
+          [
+            "our"
+          ],
+          [
+            "payroll"
+          ],
+          [
+            "following"
+          ],
+          [
+            "the"
+          ],
+          [
+            "acquisition?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/10.mp3",
+        "timeStart": 28.1,
+        "timeEnd": 33.97,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/53616/list"
+      },
+      {
+        "id": 53617,
+        "position": 11,
+        "content": "We will retain the employees for the time being",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We will",
+            "we'll"
+          ],
+          "retain",
+          "the",
+          "employees",
+          "for",
+          "the",
+          "time",
+          "being"
+        ],
+        "solution": [
+          [
+            "We will",
+            "we'll"
+          ],
+          [
+            "retain"
+          ],
+          [
+            "the"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "being"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/11.mp3",
+        "timeStart": 33.97,
+        "timeEnd": 37.79,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53617/list"
+      },
+      {
+        "id": 53618,
+        "position": 12,
+        "content": "and perform evaluations to determine if we release them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "perform",
+          "evaluations",
+          "to",
+          "determine",
+          "if",
+          "we",
+          "release",
+          "them."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "perform"
+          ],
+          [
+            "evaluations"
+          ],
+          [
+            "to"
+          ],
+          [
+            "determine"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we"
+          ],
+          [
+            "release"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/12.mp3",
+        "timeStart": 37.79,
+        "timeEnd": 42.49,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53618/list"
+      },
+      {
+        "id": 53619,
+        "position": 13,
+        "content": "Ah, okay.",
+        "defaultInput": "Ah, okay.",
+        "jsonContent": [
+          "Ah,",
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/13.mp3",
+        "timeStart": 42.69,
+        "timeEnd": 43.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53619/list"
+      },
+      {
+        "id": 53620,
+        "position": 14,
+        "content": "I should let my employees know.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "should",
+          "let",
+          "my",
+          "employees",
+          "know."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "let"
+          ],
+          [
+            "my"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/14.mp3",
+        "timeStart": 43.93,
+        "timeEnd": 46.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53620/list"
+      },
+      {
+        "id": 53621,
+        "position": 15,
+        "content": "Yes, if you can tell them as soon as possible, that would be great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "if",
+          "you",
+          "can",
+          "tell",
+          "them",
+          "as",
+          "soon",
+          "as",
+          "possible,",
+          "that",
+          "would",
+          "be",
+          "great."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "them"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/15.mp3",
+        "timeStart": 46.06,
+        "timeEnd": 51.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53621/list"
+      },
+      {
+        "id": 53622,
+        "position": 16,
+        "content": "I will be speaking at a press conference this afternoon.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "be",
+          "speaking",
+          "at",
+          "a",
+          "press",
+          "conference",
+          "this",
+          "afternoon."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "speaking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "press"
+          ],
+          [
+            "conference"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/16.mp3",
+        "timeStart": 51.2,
+        "timeEnd": 55.41,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53622/list"
+      },
+      {
+        "id": 53623,
+        "position": 17,
+        "content": "No problem, I will let them know now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "problem,",
+          [
+            "I will",
+            "I'll"
+          ],
+          "let",
+          "them",
+          "know",
+          "now."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "problem,"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "let"
+          ],
+          [
+            "them"
+          ],
+          [
+            "know"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-37-2023-09-14-16-25-55/17.mp3",
+        "timeStart": 55.75,
+        "timeEnd": 58.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53623/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "53609": {
+      "id": 900929,
+      "text": "một công ty kiến trúc khác ở đây tại Manchester.",
+      "author": "a user"
+    },
+    "53616": {
+      "id": 900937,
+      "text": "Liệu các nhân viên của The Builder's Architect có tham gia vào bảng lương của chúng ta (trở thành nhân viên chính thức) sau thương vụ mua lại không?",
+      "author": "a user"
+    },
+    "53618": {
+      "id": 900939,
+      "text": "và thực hiện đánh giá để xác định xem liệu chúng ta có nên để họ đi hay không.",
+      "author": "a user"
+    },
+    "53607": {
+      "id": 2589156,
+      "text": "Xin chào Gary. Tôi có một thông báo thú vị.",
+      "author": "ChatGPT4.1"
+    },
+    "53608": {
+      "id": 2589157,
+      "text": "Doanh nghiệp đã đạt được thỏa thuận để tiếp quản The Builder's Architect,",
+      "author": "ChatGPT4.1"
+    },
+    "53610": {
+      "id": 2589158,
+      "text": "Ồ, tuyệt quá!",
+      "author": "ChatGPT4.1"
+    },
+    "53611": {
+      "id": 2589159,
+      "text": "Tôi không biết có một thương vụ sáp nhập đang diễn ra.",
+      "author": "ChatGPT4.1"
+    },
+    "53612": {
+      "id": 2589160,
+      "text": "Khi nào thương vụ sẽ được hoàn tất?",
+      "author": "ChatGPT4.1"
+    },
+    "53613": {
+      "id": 2589161,
+      "text": "Nó sẽ hoàn tất vào ngày 4 tháng 12.",
+      "author": "ChatGPT4.1"
+    },
+    "53614": {
+      "id": 2589162,
+      "text": "Được rồi, tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "53615": {
+      "id": 2589163,
+      "text": "Chỉ còn hơn một tháng nữa thôi.",
+      "author": "a user"
+    },
+    "53617": {
+      "id": 2589164,
+      "text": "Chúng tôi sẽ giữ lại các nhân viên trong thời gian này",
+      "author": "ChatGPT4.1"
+    },
+    "53619": {
+      "id": 2589165,
+      "text": "À, được thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "53620": {
+      "id": 2589166,
+      "text": "Tôi nên thông báo cho nhân viên của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "53621": {
+      "id": 2589167,
+      "text": "Vâng, nếu bạn có thể nói với họ càng sớm càng tốt thì rất tuyệt.",
+      "author": "ChatGPT4.1"
+    },
+    "53622": {
+      "id": 2589168,
+      "text": "Tôi sẽ phát biểu tại một buổi họp báo chiều nay.",
+      "author": "ChatGPT4.1"
+    },
+    "53623": {
+      "id": 2589169,
+      "text": "Không có vấn đề gì, tôi sẽ thông báo cho họ ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

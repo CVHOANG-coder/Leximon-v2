@@ -1,0 +1,734 @@
+{
+  "summary": {
+    "id": 2283,
+    "name": "Test 02 - Part B - Extract 6",
+    "subTitle": "Retinopathy Case Discussion",
+    "levelName": "C1",
+    "position": 18,
+    "totalChallenges": 11,
+    "groupId": 132,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2283",
+  "detail": {
+    "id": 2283,
+    "lessonName": "Test 02 - Part B - Extract 6",
+    "name": "Test 02 - Part B - Extract 6",
+    "position": 18,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/0-test-02-part-b-extract-6.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90136,
+        "position": 1,
+        "content": "Have we got Mrs Kent's notes?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "we",
+          "got",
+          "Mrs",
+          "Kent's",
+          "notes?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "we"
+          ],
+          [
+            "got"
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Kent's"
+          ],
+          [
+            "notes?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/1.mp3",
+        "timeStart": 0.32,
+        "timeEnd": 2.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90136/list"
+      },
+      {
+        "id": 90137,
+        "position": 2,
+        "content": "Yes, they're here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "they're",
+            "they are"
+          ],
+          "here."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/2.mp3",
+        "timeStart": 2.8,
+        "timeEnd": 4.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90137/list"
+      },
+      {
+        "id": 90138,
+        "position": 3,
+        "content": "She's coming in today for possible laser surgery for her retinopathy, isn't she?",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "coming",
+          "in",
+          "today",
+          "for",
+          "possible",
+          "laser",
+          "surgery",
+          "for",
+          "her",
+          "retinopathy,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "she?"
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "in"
+          ],
+          [
+            "today"
+          ],
+          [
+            "for"
+          ],
+          [
+            "possible"
+          ],
+          [
+            "laser"
+          ],
+          [
+            "surgery"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her"
+          ],
+          [
+            "retinopathy,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "she?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/3.mp3",
+        "timeStart": 4.73,
+        "timeEnd": 8.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90138/list"
+      },
+      {
+        "id": 90139,
+        "position": 4,
+        "content": "Well, depending on results...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "depending",
+          "on",
+          "results..."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "depending"
+          ],
+          [
+            "on"
+          ],
+          [
+            "results..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/4.mp3",
+        "timeStart": 8.94,
+        "timeEnd": 11.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90139/list"
+      },
+      {
+        "id": 90140,
+        "position": 5,
+        "content": "and from the look of these pictures we took last time, there's been a slow improvement,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "from",
+          "the",
+          "look",
+          "of",
+          "these",
+          "pictures",
+          "we",
+          "took",
+          "last",
+          "time,",
+          [
+            "there's",
+            "there is"
+          ],
+          "been",
+          "a",
+          "slow",
+          "improvement,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "look"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "pictures"
+          ],
+          [
+            "we"
+          ],
+          [
+            "took"
+          ],
+          [
+            "last"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "been"
+          ],
+          [
+            "a"
+          ],
+          [
+            "slow"
+          ],
+          [
+            "improvement,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/5.mp3",
+        "timeStart": 11.11,
+        "timeEnd": 15.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90140/list"
+      },
+      {
+        "id": 90141,
+        "position": 6,
+        "content": "so we'll talk to her and perhaps hold off for the time being",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "we'll",
+            "we will"
+          ],
+          "talk",
+          "to",
+          "her",
+          "and",
+          "perhaps",
+          "hold",
+          "off",
+          "for",
+          "the",
+          "time",
+          "being"
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "her"
+          ],
+          [
+            "and"
+          ],
+          [
+            "perhaps"
+          ],
+          [
+            "hold"
+          ],
+          [
+            "off"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "being"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/6.mp3",
+        "timeStart": 16.13,
+        "timeEnd": 19.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90141/list"
+      },
+      {
+        "id": 90142,
+        "position": 7,
+        "content": "unless her condition's worsened, 'cos it can in some cases.",
+        "defaultInput": "",
+        "jsonContent": [
+          "unless",
+          "her",
+          "condition's",
+          "worsened,",
+          [
+            "'cos",
+            "because",
+            "coz"
+          ],
+          "it",
+          "can",
+          "in",
+          "some",
+          "cases."
+        ],
+        "solution": [
+          [
+            "unless"
+          ],
+          [
+            "her"
+          ],
+          [
+            "condition's"
+          ],
+          [
+            "worsened,"
+          ],
+          [
+            "'cos",
+            "because",
+            "coz"
+          ],
+          [
+            "it"
+          ],
+          [
+            "can"
+          ],
+          [
+            "in"
+          ],
+          [
+            "some"
+          ],
+          [
+            "cases."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/7.mp3",
+        "timeStart": 19.71,
+        "timeEnd": 23.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90142/list"
+      },
+      {
+        "id": 90143,
+        "position": 8,
+        "content": "So what's the cause?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          [
+            "what's",
+            "what is"
+          ],
+          "the",
+          [
+            "cause?",
+            "cos",
+            "cuz"
+          ]
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cause?",
+            "cos",
+            "cuz"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/8.mp3",
+        "timeStart": 24.07,
+        "timeEnd": 25.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90143/list"
+      },
+      {
+        "id": 90144,
+        "position": 9,
+        "content": "Well, we know a leak of fluid behind the retina causes the distorted vision which sufferers get,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "we",
+          "know",
+          "a",
+          "leak",
+          "of",
+          "fluid",
+          "behind",
+          "the",
+          "retina",
+          "causes",
+          "the",
+          "distorted",
+          "vision",
+          "which",
+          "sufferers",
+          "get,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "a"
+          ],
+          [
+            "leak"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fluid"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "the"
+          ],
+          [
+            "retina"
+          ],
+          [
+            "causes"
+          ],
+          [
+            "the"
+          ],
+          [
+            "distorted"
+          ],
+          [
+            "vision"
+          ],
+          [
+            "which"
+          ],
+          [
+            "sufferers"
+          ],
+          [
+            "get,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/9.mp3",
+        "timeStart": 25.74,
+        "timeEnd": 32.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90144/list"
+      },
+      {
+        "id": 90145,
+        "position": 10,
+        "content": "but not why that occurs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "not",
+          "why",
+          "that",
+          "occurs."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "not"
+          ],
+          [
+            "why"
+          ],
+          [
+            "that"
+          ],
+          [
+            "occurs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/10.mp3",
+        "timeStart": 32.31,
+        "timeEnd": 34.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90145/list"
+      },
+      {
+        "id": 90146,
+        "position": 11,
+        "content": "There may be a link with stress, and also steroid use, but the jury's still out, I'm afraid.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "may",
+          "be",
+          "a",
+          "link",
+          "with",
+          "stress,",
+          "and",
+          "also",
+          "steroid",
+          "use,",
+          "but",
+          "the",
+          "jury's",
+          "still",
+          "out,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "afraid."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "may"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "link"
+          ],
+          [
+            "with"
+          ],
+          [
+            "stress,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "also"
+          ],
+          [
+            "steroid"
+          ],
+          [
+            "use,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "jury's"
+          ],
+          [
+            "still"
+          ],
+          [
+            "out,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "afraid."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-6-2025-08-29-21-10-43/11.mp3",
+        "timeStart": 34.53,
+        "timeEnd": 40.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90146/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90136": {
+      "id": 3682547,
+      "text": "Chúng ta đã có ghi chú của bà Kent chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "90137": {
+      "id": 3682548,
+      "text": "Vâng, chúng ở đây.",
+      "author": "ChatGPT4.1"
+    },
+    "90138": {
+      "id": 3682549,
+      "text": "Bà ấy sẽ đến hôm nay để có thể phẫu thuật laser cho bệnh võng mạc của mình, phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "90139": {
+      "id": 3682550,
+      "text": "Ờ, còn tùy vào kết quả...",
+      "author": "ChatGPT4.1"
+    },
+    "90140": {
+      "id": 3682551,
+      "text": "và từ những bức ảnh chúng tôi chụp lần trước, có thể thấy sự cải thiện chậm,",
+      "author": "a user"
+    },
+    "90141": {
+      "id": 3682552,
+      "text": "nên chúng ta sẽ nói chuyện với bà ấy và có thể tạm thời hoãn lại",
+      "author": "ChatGPT4.1"
+    },
+    "90142": {
+      "id": 3682553,
+      "text": "trừ khi tình trạng của bà ấy trở nên tệ hơn, vì thực tế có thể xảy ra trong một số trường hợp.",
+      "author": "ChatGPT4.1"
+    },
+    "90143": {
+      "id": 3682554,
+      "text": "Vậy nguyên nhân là gì?",
+      "author": "ChatGPT4.1"
+    },
+    "90144": {
+      "id": 3682555,
+      "text": "Vâng, chúng ta biết rằng rò rỉ chất lỏng phía sau võng mạc gây ra tình trạng thị lực bị biến dạng mà người bệnh gặp phải.",
+      "author": "a user"
+    },
+    "90145": {
+      "id": 3682556,
+      "text": "nhưng không biết tại sao điều đó lại xảy ra.",
+      "author": "ChatGPT4.1"
+    },
+    "90146": {
+      "id": 3682557,
+      "text": "Có thể có liên quan đến căng thẳng, hoặc sử dụng steroid, nhưng tôi e rằng điều này vẫn chưa chắc chắn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

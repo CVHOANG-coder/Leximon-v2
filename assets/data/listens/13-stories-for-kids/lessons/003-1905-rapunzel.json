@@ -1,0 +1,9067 @@
+{
+  "summary": {
+    "id": 1905,
+    "name": "Rapunzel",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 3,
+    "totalChallenges": 184,
+    "groupId": null,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1905",
+  "detail": {
+    "id": 1905,
+    "lessonName": "Rapunzel",
+    "name": "Rapunzel",
+    "position": 3,
+    "levelName": "B1",
+    "audioSrc": "",
+    "youtubeVideoId": "ki_DGMh2r0c",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 72448,
+        "position": 1,
+        "content": "Once upon a time there was a girl named Rapunzel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "upon",
+          "a",
+          "time",
+          "there",
+          "was",
+          "a",
+          "girl",
+          "named",
+          "Rapunzel."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "upon"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "girl"
+          ],
+          [
+            "named"
+          ],
+          [
+            "Rapunzel."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 5,
+        "timeEnd": 8.55,
+        "hints": [
+          "Rapunzel"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72448/list"
+      },
+      {
+        "id": 72449,
+        "position": 2,
+        "content": "Rapunzel lived in a tall tower in the middle of a forest.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "lived",
+          "in",
+          "a",
+          "tall",
+          "tower",
+          "in",
+          "the",
+          "middle",
+          "of",
+          "a",
+          "forest."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "lived"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tall"
+          ],
+          [
+            "tower"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "middle"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "forest."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 8.55,
+        "timeEnd": 12.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72449/list"
+      },
+      {
+        "id": 72450,
+        "position": 3,
+        "content": "The tower had no ladder no stairs",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "tower",
+          "had",
+          "no",
+          "ladder",
+          "no",
+          "stairs"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "tower"
+          ],
+          [
+            "had"
+          ],
+          [
+            "no"
+          ],
+          [
+            "ladder"
+          ],
+          [
+            "no"
+          ],
+          [
+            "stairs"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 12.82,
+        "timeEnd": 15.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72450/list"
+      },
+      {
+        "id": 72451,
+        "position": 4,
+        "content": "and definitely no elevator.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "definitely",
+          "no",
+          "elevator."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "definitely"
+          ],
+          [
+            "no"
+          ],
+          [
+            "elevator."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 15.78,
+        "timeEnd": 18.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72451/list"
+      },
+      {
+        "id": 72452,
+        "position": 5,
+        "content": "There was no way to get up or down.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "was",
+          "no",
+          "way",
+          "to",
+          "get",
+          "up",
+          "or",
+          "down."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "was"
+          ],
+          [
+            "no"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "up"
+          ],
+          [
+            "or"
+          ],
+          [
+            "down."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 18.18,
+        "timeEnd": 21.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72452/list"
+      },
+      {
+        "id": 72453,
+        "position": 6,
+        "content": "So... why did Rapunzel live in a tower?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So...",
+          "why",
+          "did",
+          "Rapunzel",
+          "live",
+          "in",
+          "a",
+          "tower?"
+        ],
+        "solution": [
+          [
+            "So..."
+          ],
+          [
+            "why"
+          ],
+          [
+            "did"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tower?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 21.38,
+        "timeEnd": 24.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72453/list"
+      },
+      {
+        "id": 72454,
+        "position": 7,
+        "content": "Well, it all started with a witch.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "it",
+          "all",
+          "started",
+          "with",
+          "a",
+          "witch."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "all"
+          ],
+          [
+            "started"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "witch."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 24.71,
+        "timeEnd": 28.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72454/list"
+      },
+      {
+        "id": 72455,
+        "position": 8,
+        "content": "As you know, witches can be very jealous.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "know,",
+          "witches",
+          "can",
+          "be",
+          "very",
+          "jealous."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "witches"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "very"
+          ],
+          [
+            "jealous."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 28.45,
+        "timeEnd": 32.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72455/list"
+      },
+      {
+        "id": 72456,
+        "position": 9,
+        "content": "They especially hate people stealing herbs from their gardens.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "especially",
+          "hate",
+          "people",
+          "stealing",
+          "herbs",
+          "from",
+          "their",
+          "gardens."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "especially"
+          ],
+          [
+            "hate"
+          ],
+          [
+            "people"
+          ],
+          [
+            "stealing"
+          ],
+          [
+            "herbs"
+          ],
+          [
+            "from"
+          ],
+          [
+            "their"
+          ],
+          [
+            "gardens."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 32.36,
+        "timeEnd": 36.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72456/list"
+      },
+      {
+        "id": 72457,
+        "position": 10,
+        "content": "Unfortunately Rapunzel's mother didn't know this about witches.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Unfortunately",
+          "Rapunzel's",
+          "mother",
+          [
+            "didn't",
+            "did not"
+          ],
+          "know",
+          "this",
+          "about",
+          "witches."
+        ],
+        "solution": [
+          [
+            "Unfortunately"
+          ],
+          [
+            "Rapunzel's"
+          ],
+          [
+            "mother"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "this"
+          ],
+          [
+            "about"
+          ],
+          [
+            "witches."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 36.54,
+        "timeEnd": 41.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72457/list"
+      },
+      {
+        "id": 72458,
+        "position": 11,
+        "content": "Many years ago when she was pregnant with Rapunzel,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Many",
+          "years",
+          "ago",
+          "when",
+          "she",
+          "was",
+          "pregnant",
+          "with",
+          "Rapunzel,"
+        ],
+        "solution": [
+          [
+            "Many"
+          ],
+          [
+            "years"
+          ],
+          [
+            "ago"
+          ],
+          [
+            "when"
+          ],
+          [
+            "she"
+          ],
+          [
+            "was"
+          ],
+          [
+            "pregnant"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Rapunzel,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 41.14,
+        "timeEnd": 44.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72458/list"
+      },
+      {
+        "id": 72459,
+        "position": 12,
+        "content": "she snuck over the fence and stole some parsley from the witch next door.",
+        "defaultInput": "",
+        "jsonContent": [
+          "she",
+          "snuck",
+          "over",
+          "the",
+          "fence",
+          "and",
+          "stole",
+          "some",
+          "parsley",
+          "from",
+          "the",
+          "witch",
+          "next",
+          "door."
+        ],
+        "solution": [
+          [
+            "she"
+          ],
+          [
+            "snuck"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fence"
+          ],
+          [
+            "and"
+          ],
+          [
+            "stole"
+          ],
+          [
+            "some"
+          ],
+          [
+            "parsley"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "next"
+          ],
+          [
+            "door."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.52,
+        "timeEnd": 49.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72459/list"
+      },
+      {
+        "id": 72460,
+        "position": 13,
+        "content": "The witch saw her stealing parsley.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "saw",
+          "her",
+          "stealing",
+          "parsley."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "her"
+          ],
+          [
+            "stealing"
+          ],
+          [
+            "parsley."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 50.37,
+        "timeEnd": 53.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72460/list"
+      },
+      {
+        "id": 72461,
+        "position": 14,
+        "content": "She was furious.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "was",
+          "furious."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "was"
+          ],
+          [
+            "furious."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 53.19,
+        "timeEnd": 56.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72461/list"
+      },
+      {
+        "id": 72462,
+        "position": 15,
+        "content": "She gave Rapunzel's mother two choices.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "gave",
+          "Rapunzel's",
+          "mother",
+          [
+            "two",
+            "2"
+          ],
+          "choices."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "Rapunzel's"
+          ],
+          [
+            "mother"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "choices."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 56.07,
+        "timeEnd": 59.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72462/list"
+      },
+      {
+        "id": 72463,
+        "position": 16,
+        "content": "Option one: The witch would curse her unborn baby girl.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Option",
+          [
+            "one:",
+            "1"
+          ],
+          "The",
+          "witch",
+          "would",
+          "curse",
+          "her",
+          "unborn",
+          "baby",
+          "girl."
+        ],
+        "solution": [
+          [
+            "Option"
+          ],
+          [
+            "one:",
+            "1"
+          ],
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "would"
+          ],
+          [
+            "curse"
+          ],
+          [
+            "her"
+          ],
+          [
+            "unborn"
+          ],
+          [
+            "baby"
+          ],
+          [
+            "girl."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 59.45,
+        "timeEnd": 64.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72463/list"
+      },
+      {
+        "id": 72464,
+        "position": 17,
+        "content": "The girl would always be unlucky.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "girl",
+          "would",
+          "always",
+          "be",
+          "unlucky."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "girl"
+          ],
+          [
+            "would"
+          ],
+          [
+            "always"
+          ],
+          [
+            "be"
+          ],
+          [
+            "unlucky."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 65.41,
+        "timeEnd": 68.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72464/list"
+      },
+      {
+        "id": 72465,
+        "position": 18,
+        "content": "She would meet the wrong people and say the wrong things",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She would",
+            "She'd"
+          ],
+          "meet",
+          "the",
+          "wrong",
+          "people",
+          "and",
+          "say",
+          "the",
+          "wrong",
+          "things"
+        ],
+        "solution": [
+          [
+            "She would",
+            "She'd"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "people"
+          ],
+          [
+            "and"
+          ],
+          [
+            "say"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "things"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 68.27,
+        "timeEnd": 72.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72465/list"
+      },
+      {
+        "id": 72466,
+        "position": 19,
+        "content": "and wear the wrong clothes for every occasion.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "wear",
+          "the",
+          "wrong",
+          "clothes",
+          "for",
+          "every",
+          "occasion."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "wear"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "clothes"
+          ],
+          [
+            "for"
+          ],
+          [
+            "every"
+          ],
+          [
+            "occasion."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 72.72,
+        "timeEnd": 76.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72466/list"
+      },
+      {
+        "id": 72467,
+        "position": 20,
+        "content": "She would never live happily ever after.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She would",
+            "She'd"
+          ],
+          "never",
+          "live",
+          "happily",
+          "ever",
+          "after."
+        ],
+        "solution": [
+          [
+            "She would",
+            "She'd"
+          ],
+          [
+            "never"
+          ],
+          [
+            "live"
+          ],
+          [
+            "happily"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "after."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 76.95,
+        "timeEnd": 81.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72467/list"
+      },
+      {
+        "id": 72468,
+        "position": 21,
+        "content": "Option two:",
+        "defaultInput": "",
+        "jsonContent": [
+          "Option",
+          [
+            "two:",
+            "2"
+          ]
+        ],
+        "solution": [
+          [
+            "Option"
+          ],
+          [
+            "two:",
+            "2"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 82.28,
+        "timeEnd": 83.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72468/list"
+      },
+      {
+        "id": 72469,
+        "position": 22,
+        "content": "On the girl's tenth birthday,",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "the",
+          "girl's",
+          [
+            "tenth",
+            "10th"
+          ],
+          "birthday,"
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "the"
+          ],
+          [
+            "girl's"
+          ],
+          [
+            "tenth",
+            "10th"
+          ],
+          [
+            "birthday,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 83.92,
+        "timeEnd": 86.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72469/list"
+      },
+      {
+        "id": 72470,
+        "position": 23,
+        "content": "she would go to live with the witch.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "she would",
+            "she'd"
+          ],
+          "go",
+          "to",
+          "live",
+          "with",
+          "the",
+          "witch."
+        ],
+        "solution": [
+          [
+            "she would",
+            "she'd"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "live"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 86.03,
+        "timeEnd": 88.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72470/list"
+      },
+      {
+        "id": 72471,
+        "position": 24,
+        "content": "She would be the witch's apprentice.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She would",
+            "She'd"
+          ],
+          "be",
+          "the",
+          "witch's",
+          "apprentice."
+        ],
+        "solution": [
+          [
+            "She would",
+            "She'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch's"
+          ],
+          [
+            "apprentice."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 88.83,
+        "timeEnd": 91.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72471/list"
+      },
+      {
+        "id": 72472,
+        "position": 25,
+        "content": "The witch promised that, eventually the girl would live happily ever after.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "promised",
+          "that,",
+          "eventually",
+          "the",
+          "girl",
+          "would",
+          "live",
+          "happily",
+          "ever",
+          "after."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "promised"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "eventually"
+          ],
+          [
+            "the"
+          ],
+          [
+            "girl"
+          ],
+          [
+            "would"
+          ],
+          [
+            "live"
+          ],
+          [
+            "happily"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "after."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 91.23,
+        "timeEnd": 96.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72472/list"
+      },
+      {
+        "id": 72473,
+        "position": 26,
+        "content": "Rapunzel's mother was heartbroken.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rapunzel's",
+          "mother",
+          "was",
+          "heartbroken."
+        ],
+        "solution": [
+          [
+            "Rapunzel's"
+          ],
+          [
+            "mother"
+          ],
+          [
+            "was"
+          ],
+          [
+            "heartbroken."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 97.67,
+        "timeEnd": 100.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72473/list"
+      },
+      {
+        "id": 72474,
+        "position": 27,
+        "content": "She chose option two.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "chose",
+          "option",
+          [
+            "two.",
+            "2"
+          ]
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "chose"
+          ],
+          [
+            "option"
+          ],
+          [
+            "two.",
+            "2"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 100.35,
+        "timeEnd": 102.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72474/list"
+      },
+      {
+        "id": 72475,
+        "position": 28,
+        "content": "And on the evening of Rapunzel's tenth birthday",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "on",
+          "the",
+          "evening",
+          "of",
+          "Rapunzel's",
+          [
+            "tenth",
+            "10th"
+          ],
+          "birthday"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Rapunzel's"
+          ],
+          [
+            "tenth",
+            "10th"
+          ],
+          [
+            "birthday"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 102.67,
+        "timeEnd": 105.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72475/list"
+      },
+      {
+        "id": 72476,
+        "position": 29,
+        "content": "the witch came to take her away.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "witch",
+          "came",
+          "to",
+          "take",
+          "her",
+          "away."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "came"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "her"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 105.77,
+        "timeEnd": 107.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72476/list"
+      },
+      {
+        "id": 72477,
+        "position": 30,
+        "content": "She put Rapunzel in the tall tower in the woods.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "put",
+          "Rapunzel",
+          "in",
+          "the",
+          "tall",
+          "tower",
+          "in",
+          "the",
+          "woods."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "put"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tall"
+          ],
+          [
+            "tower"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "woods."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 107.82,
+        "timeEnd": 112.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72477/list"
+      },
+      {
+        "id": 72478,
+        "position": 31,
+        "content": "After that, every day was the same for Rapunzel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "that,",
+          "every",
+          "day",
+          "was",
+          "the",
+          "same",
+          "for",
+          "Rapunzel."
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "every"
+          ],
+          [
+            "day"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Rapunzel."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 115.3,
+        "timeEnd": 119.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72478/list"
+      },
+      {
+        "id": 72479,
+        "position": 32,
+        "content": "She cleaned her room at the top of the tower.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "cleaned",
+          "her",
+          "room",
+          "at",
+          "the",
+          "top",
+          "of",
+          "the",
+          "tower."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "cleaned"
+          ],
+          [
+            "her"
+          ],
+          [
+            "room"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "top"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 119.29,
+        "timeEnd": 121.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72479/list"
+      },
+      {
+        "id": 72480,
+        "position": 33,
+        "content": "She braided her long, long hair.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "braided",
+          "her",
+          "long,",
+          "long",
+          "hair."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "braided"
+          ],
+          [
+            "her"
+          ],
+          [
+            "long,"
+          ],
+          [
+            "long"
+          ],
+          [
+            "hair."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 121.68,
+        "timeEnd": 124.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72480/list"
+      },
+      {
+        "id": 72481,
+        "position": 34,
+        "content": "And every day at lunchtime, the witch came to the tower.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "every",
+          "day",
+          "at",
+          "lunchtime,",
+          "the",
+          "witch",
+          "came",
+          "to",
+          "the",
+          "tower."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "every"
+          ],
+          [
+            "day"
+          ],
+          [
+            "at"
+          ],
+          [
+            "lunchtime,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "came"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 124.82,
+        "timeEnd": 128.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72481/list"
+      },
+      {
+        "id": 72482,
+        "position": 35,
+        "content": "She stood under the window and shouted: Rapunzel!",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "stood",
+          "under",
+          "the",
+          "window",
+          "and",
+          "shouted:",
+          "Rapunzel!"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "stood"
+          ],
+          [
+            "under"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window"
+          ],
+          [
+            "and"
+          ],
+          [
+            "shouted:"
+          ],
+          [
+            "Rapunzel!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 128.57,
+        "timeEnd": 132.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72482/list"
+      },
+      {
+        "id": 72483,
+        "position": 36,
+        "content": "Rapunzel! Let down your hair!",
+        "defaultInput": "Rapunzel! ",
+        "jsonContent": [
+          "Rapunzel!",
+          "Let",
+          "down",
+          "your",
+          "hair!"
+        ],
+        "solution": [
+          [
+            "Rapunzel!"
+          ],
+          [
+            "Let"
+          ],
+          [
+            "down"
+          ],
+          [
+            "your"
+          ],
+          [
+            "hair!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 132.52,
+        "timeEnd": 136.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72483/list"
+      },
+      {
+        "id": 72484,
+        "position": 37,
+        "content": "Rapunzel threw her braid out of the window.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "threw",
+          "her",
+          "braid",
+          "out",
+          "of",
+          "the",
+          "window."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "threw"
+          ],
+          [
+            "her"
+          ],
+          [
+            "braid"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 136.56,
+        "timeEnd": 139.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72484/list"
+      },
+      {
+        "id": 72485,
+        "position": 38,
+        "content": "The witch climbed up Rapunzel's hair like a rope",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "climbed",
+          "up",
+          "Rapunzel's",
+          "hair",
+          "like",
+          "a",
+          "rope"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "climbed"
+          ],
+          [
+            "up"
+          ],
+          [
+            "Rapunzel's"
+          ],
+          [
+            "hair"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "rope"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 139.8,
+        "timeEnd": 142.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72485/list"
+      },
+      {
+        "id": 72486,
+        "position": 39,
+        "content": "and crawled in through the window.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "crawled",
+          "in",
+          "through",
+          "the",
+          "window."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "crawled"
+          ],
+          [
+            "in"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 142.57,
+        "timeEnd": 144.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72486/list"
+      },
+      {
+        "id": 72487,
+        "position": 40,
+        "content": "The witch taught Rapunzel how to make medicines with herbs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "taught",
+          "Rapunzel",
+          "how",
+          "to",
+          "make",
+          "medicines",
+          "with",
+          "herbs."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "taught"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "medicines"
+          ],
+          [
+            "with"
+          ],
+          [
+            "herbs."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 144.76,
+        "timeEnd": 148.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72487/list"
+      },
+      {
+        "id": 72488,
+        "position": 41,
+        "content": "And Rapunzel loved the witch.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "Rapunzel",
+          "loved",
+          "the",
+          "witch."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "loved"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 148.43,
+        "timeEnd": 150.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72488/list"
+      },
+      {
+        "id": 72489,
+        "position": 42,
+        "content": "She was Rapunzel's only friend.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "was",
+          "Rapunzel's",
+          "only",
+          "friend."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "was"
+          ],
+          [
+            "Rapunzel's"
+          ],
+          [
+            "only"
+          ],
+          [
+            "friend."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 150.36,
+        "timeEnd": 153.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72489/list"
+      },
+      {
+        "id": 72490,
+        "position": 43,
+        "content": "One night, Rapunzel was reading a book beside the window",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "night,",
+          "Rapunzel",
+          "was",
+          "reading",
+          "a",
+          "book",
+          "beside",
+          "the",
+          "window"
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "night,"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "was"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "a"
+          ],
+          [
+            "book"
+          ],
+          [
+            "beside"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 153.52,
+        "timeEnd": 157.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72490/list"
+      },
+      {
+        "id": 72491,
+        "position": 44,
+        "content": "when she heard someone below:",
+        "defaultInput": "",
+        "jsonContent": [
+          "when",
+          "she",
+          "heard",
+          "someone",
+          "below:"
+        ],
+        "solution": [
+          [
+            "when"
+          ],
+          [
+            "she"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "below:"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 157.14,
+        "timeEnd": 159.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72491/list"
+      },
+      {
+        "id": 72492,
+        "position": 45,
+        "content": "Rapunzel! Rapunzel!",
+        "defaultInput": "Rapunzel! Rapunzel!",
+        "jsonContent": [
+          "Rapunzel!",
+          "Rapunzel!"
+        ],
+        "solution": [
+          [
+            "Rapunzel!"
+          ],
+          [
+            "Rapunzel!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 159.91,
+        "timeEnd": 163.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72492/list"
+      },
+      {
+        "id": 72493,
+        "position": 46,
+        "content": "Let down your hair?!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let",
+          "down",
+          "your",
+          "hair?!"
+        ],
+        "solution": [
+          [
+            "Let"
+          ],
+          [
+            "down"
+          ],
+          [
+            "your"
+          ],
+          [
+            "hair?!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 163.27,
+        "timeEnd": 166.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72493/list"
+      },
+      {
+        "id": 72494,
+        "position": 47,
+        "content": "\"That's strange,\" she thought.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"That's",
+          "strange,\"",
+          "she",
+          "thought."
+        ],
+        "solution": [
+          [
+            "\"That's"
+          ],
+          [
+            "strange,\""
+          ],
+          [
+            "she"
+          ],
+          [
+            "thought."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 167.11,
+        "timeEnd": 169.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72494/list"
+      },
+      {
+        "id": 72495,
+        "position": 48,
+        "content": "The witch never comes this late.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "never",
+          "comes",
+          "this",
+          "late."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "never"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "this"
+          ],
+          [
+            "late."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 169.59,
+        "timeEnd": 172.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72495/list"
+      },
+      {
+        "id": 72496,
+        "position": 49,
+        "content": "She threw her braid out of the window",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "threw",
+          "her",
+          "braid",
+          "out",
+          "of",
+          "the",
+          "window"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "threw"
+          ],
+          [
+            "her"
+          ],
+          [
+            "braid"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 172.54,
+        "timeEnd": 174.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72496/list"
+      },
+      {
+        "id": 72497,
+        "position": 50,
+        "content": "and the person climbed up, up, up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "person",
+          "climbed",
+          "up,",
+          "up,",
+          "up."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "person"
+          ],
+          [
+            "climbed"
+          ],
+          [
+            "up,"
+          ],
+          [
+            "up,"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 174.93,
+        "timeEnd": 177.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72497/list"
+      },
+      {
+        "id": 72498,
+        "position": 51,
+        "content": "But when this person reached the top",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "when",
+          "this",
+          "person",
+          "reached",
+          "the",
+          "top"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "when"
+          ],
+          [
+            "this"
+          ],
+          [
+            "person"
+          ],
+          [
+            "reached"
+          ],
+          [
+            "the"
+          ],
+          [
+            "top"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 178.77,
+        "timeEnd": 181.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72498/list"
+      },
+      {
+        "id": 72499,
+        "position": 52,
+        "content": "Rapunzel saw that it wasn't the witch.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rapunzel",
+          "saw",
+          "that",
+          "it",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "the",
+          "witch."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 181.11,
+        "timeEnd": 183.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72499/list"
+      },
+      {
+        "id": 72500,
+        "position": 53,
+        "content": "It was a man!",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "a",
+          "man!"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "man!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 183.73,
+        "timeEnd": 185.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72500/list"
+      },
+      {
+        "id": 72501,
+        "position": 54,
+        "content": "Rapunzel quickly grabbed her book and smacked the man on the head.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rapunzel",
+          "quickly",
+          "grabbed",
+          "her",
+          "book",
+          "and",
+          "smacked",
+          "the",
+          "man",
+          "on",
+          "the",
+          "head."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "quickly"
+          ],
+          [
+            "grabbed"
+          ],
+          [
+            "her"
+          ],
+          [
+            "book"
+          ],
+          [
+            "and"
+          ],
+          [
+            "smacked"
+          ],
+          [
+            "the"
+          ],
+          [
+            "man"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "head."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 185.78,
+        "timeEnd": 190.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72501/list"
+      },
+      {
+        "id": 72502,
+        "position": 55,
+        "content": "Get out! Get out! You're not the witch!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Get",
+          "out!",
+          "Get",
+          "out!",
+          [
+            "You're",
+            "You are"
+          ],
+          "not",
+          "the",
+          "witch!"
+        ],
+        "solution": [
+          [
+            "Get"
+          ],
+          [
+            "out!"
+          ],
+          [
+            "Get"
+          ],
+          [
+            "out!"
+          ],
+          [
+            "You're",
+            "You are"
+          ],
+          [
+            "not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 190.87,
+        "timeEnd": 194.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72502/list"
+      },
+      {
+        "id": 72503,
+        "position": 56,
+        "content": "The strange man fell to the floor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "strange",
+          "man",
+          "fell",
+          "to",
+          "the",
+          "floor."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "strange"
+          ],
+          [
+            "man"
+          ],
+          [
+            "fell"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "floor."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 194.83,
+        "timeEnd": 197.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72503/list"
+      },
+      {
+        "id": 72504,
+        "position": 57,
+        "content": "\"Ow! Ow! Stop hurting me!\" he begged.",
+        "defaultInput": "\"Ow! Ow! ",
+        "jsonContent": [
+          "\"Ow!",
+          "Ow!",
+          "Stop",
+          "hurting",
+          "me!\"",
+          "he",
+          "begged."
+        ],
+        "solution": [
+          [
+            "\"Ow!"
+          ],
+          [
+            "Ow!"
+          ],
+          [
+            "Stop"
+          ],
+          [
+            "hurting"
+          ],
+          [
+            "me!\""
+          ],
+          [
+            "he"
+          ],
+          [
+            "begged."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 197.27,
+        "timeEnd": 201.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72504/list"
+      },
+      {
+        "id": 72505,
+        "position": 58,
+        "content": "Who are you? What do you want?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Who",
+          "are",
+          "you?",
+          "What",
+          "do",
+          "you",
+          "want?"
+        ],
+        "solution": [
+          [
+            "Who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you?"
+          ],
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 201.63,
+        "timeEnd": 203.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72505/list"
+      },
+      {
+        "id": 72506,
+        "position": 59,
+        "content": "\"Why did you climb my hair?\" Demanded Rapunzel",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Why",
+          "did",
+          "you",
+          "climb",
+          "my",
+          "hair?\"",
+          "Demanded",
+          "Rapunzel"
+        ],
+        "solution": [
+          [
+            "\"Why"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "climb"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hair?\""
+          ],
+          [
+            "Demanded"
+          ],
+          [
+            "Rapunzel"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 203.68,
+        "timeEnd": 206.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72506/list"
+      },
+      {
+        "id": 72507,
+        "position": 60,
+        "content": "\"I'm Justin! My name is Justin!\" he whimpered.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "\"I'm",
+            "I am"
+          ],
+          "Justin!",
+          "My",
+          "name",
+          "is",
+          "Justin!\"",
+          "he",
+          "whimpered."
+        ],
+        "solution": [
+          [
+            "\"I'm",
+            "I am"
+          ],
+          [
+            "Justin!"
+          ],
+          [
+            "My"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Justin!\""
+          ],
+          [
+            "he"
+          ],
+          [
+            "whimpered."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 207.44,
+        "timeEnd": 211.11,
+        "hints": [
+          "Justin"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72507/list"
+      },
+      {
+        "id": 72508,
+        "position": 61,
+        "content": "I came here to... save you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "came",
+          "here",
+          "to...",
+          "save",
+          "you?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "came"
+          ],
+          [
+            "here"
+          ],
+          [
+            "to..."
+          ],
+          [
+            "save"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 211.11,
+        "timeEnd": 214.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72508/list"
+      },
+      {
+        "id": 72509,
+        "position": 62,
+        "content": "As you can imagine, Rapunzel was not very impressed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "can",
+          "imagine,",
+          "Rapunzel",
+          [
+            "was not",
+            "wasn't"
+          ],
+          "very",
+          "impressed."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "imagine,"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "was not",
+            "wasn't"
+          ],
+          [
+            "very"
+          ],
+          [
+            "impressed."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 214.61,
+        "timeEnd": 218.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72509/list"
+      },
+      {
+        "id": 72510,
+        "position": 63,
+        "content": "\"Tell me, Justin,\" she growled.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Tell",
+          "me,",
+          "Justin,\"",
+          "she",
+          "growled."
+        ],
+        "solution": [
+          [
+            "\"Tell"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "Justin,\""
+          ],
+          [
+            "she"
+          ],
+          [
+            "growled."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 218.54,
+        "timeEnd": 221.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72510/list"
+      },
+      {
+        "id": 72511,
+        "position": 64,
+        "content": "Does it look like I need to be saved?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Does",
+          "it",
+          "look",
+          "like",
+          "I",
+          "need",
+          "to",
+          "be",
+          "saved?"
+        ],
+        "solution": [
+          [
+            "Does"
+          ],
+          [
+            "it"
+          ],
+          [
+            "look"
+          ],
+          [
+            "like"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "saved?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 221.4,
+        "timeEnd": 224.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72511/list"
+      },
+      {
+        "id": 72512,
+        "position": 65,
+        "content": "Justin sighed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Justin",
+          "sighed."
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "sighed."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 224.95,
+        "timeEnd": 226.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72512/list"
+      },
+      {
+        "id": 72513,
+        "position": 66,
+        "content": "I'm sorry.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 226.49,
+        "timeEnd": 227.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72513/list"
+      },
+      {
+        "id": 72514,
+        "position": 67,
+        "content": "I thought this was my chance to be a hero.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "thought",
+          "this",
+          "was",
+          "my",
+          "chance",
+          "to",
+          "be",
+          "a",
+          "hero."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "this"
+          ],
+          [
+            "was"
+          ],
+          [
+            "my"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hero."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 227.83,
+        "timeEnd": 230.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72514/list"
+      },
+      {
+        "id": 72515,
+        "position": 68,
+        "content": "\"What do you mean?\" asked Rapunzel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"What",
+          "do",
+          "you",
+          "mean?\"",
+          "asked",
+          "Rapunzel."
+        ],
+        "solution": [
+          [
+            "\"What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mean?\""
+          ],
+          [
+            "asked"
+          ],
+          [
+            "Rapunzel."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 231,
+        "timeEnd": 233.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72515/list"
+      },
+      {
+        "id": 72516,
+        "position": 69,
+        "content": "My chance to be hero!",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "chance",
+          "to",
+          "be",
+          "hero!"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "hero!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 233.79,
+        "timeEnd": 235.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72516/list"
+      },
+      {
+        "id": 72517,
+        "position": 70,
+        "content": "Every man needs to be hero at least once in his life.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Every",
+          "man",
+          "needs",
+          "to",
+          "be",
+          "hero",
+          "at",
+          "least",
+          "once",
+          "in",
+          "his",
+          "life."
+        ],
+        "solution": [
+          [
+            "Every"
+          ],
+          [
+            "man"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "hero"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "once"
+          ],
+          [
+            "in"
+          ],
+          [
+            "his"
+          ],
+          [
+            "life."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 235.79,
+        "timeEnd": 239.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72517/list"
+      },
+      {
+        "id": 72518,
+        "position": 71,
+        "content": "It's the only way to live happily ever after!",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "the",
+          "only",
+          "way",
+          "to",
+          "live",
+          "happily",
+          "ever",
+          "after!"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "live"
+          ],
+          [
+            "happily"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "after!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 239.29,
+        "timeEnd": 243.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72518/list"
+      },
+      {
+        "id": 72519,
+        "position": 72,
+        "content": "Rapunzel put down her book.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "put",
+          "down",
+          "her",
+          "book."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "put"
+          ],
+          [
+            "down"
+          ],
+          [
+            "her"
+          ],
+          [
+            "book."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 243.6,
+        "timeEnd": 245.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72519/list"
+      },
+      {
+        "id": 72520,
+        "position": 73,
+        "content": "\"I don't need a hero,\" she said, kindly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"I",
+          [
+            "don't",
+            "do not"
+          ],
+          "need",
+          "a",
+          "hero,\"",
+          "she",
+          "said,",
+          "kindly."
+        ],
+        "solution": [
+          [
+            "\"I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hero,\""
+          ],
+          [
+            "she"
+          ],
+          [
+            "said,"
+          ],
+          [
+            "kindly."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 246.44,
+        "timeEnd": 250.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72520/list"
+      },
+      {
+        "id": 72521,
+        "position": 74,
+        "content": "Go away.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Go",
+          "away."
+        ],
+        "solution": [
+          [
+            "Go"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 250.36,
+        "timeEnd": 251.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72521/list"
+      },
+      {
+        "id": 72522,
+        "position": 75,
+        "content": "Be a hero somewhere else.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Be",
+          "a",
+          "hero",
+          "somewhere",
+          "else."
+        ],
+        "solution": [
+          [
+            "Be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hero"
+          ],
+          [
+            "somewhere"
+          ],
+          [
+            "else."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 251.56,
+        "timeEnd": 253.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72522/list"
+      },
+      {
+        "id": 72523,
+        "position": 76,
+        "content": "It's late.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "late."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "late."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 253.2,
+        "timeEnd": 254.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72523/list"
+      },
+      {
+        "id": 72524,
+        "position": 77,
+        "content": "I want to go to bed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "want to",
+            "wanna"
+          ],
+          "go",
+          "to",
+          "bed."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bed."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 254.21,
+        "timeEnd": 255.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72524/list"
+      },
+      {
+        "id": 72525,
+        "position": 78,
+        "content": "Rapunzel threw her braid out the window.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rapunzel",
+          "threw",
+          "her",
+          "braid",
+          "out",
+          "the",
+          "window."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "threw"
+          ],
+          [
+            "her"
+          ],
+          [
+            "braid"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 256.36,
+        "timeEnd": 259.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72525/list"
+      },
+      {
+        "id": 72526,
+        "position": 79,
+        "content": "\"Well, can I come back and talk to you tomorrow?\" Justin asked.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Well,",
+          "can",
+          "I",
+          "come",
+          "back",
+          "and",
+          "talk",
+          "to",
+          "you",
+          "tomorrow?\"",
+          "Justin",
+          "asked."
+        ],
+        "solution": [
+          [
+            "\"Well,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "come"
+          ],
+          [
+            "back"
+          ],
+          [
+            "and"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tomorrow?\""
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "asked."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 259.69,
+        "timeEnd": 264.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72526/list"
+      },
+      {
+        "id": 72527,
+        "position": 80,
+        "content": "\"You seem nice.\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"You",
+          "seem",
+          "nice.\""
+        ],
+        "solution": [
+          [
+            "\"You"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "nice.\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 264.28,
+        "timeEnd": 266.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72527/list"
+      },
+      {
+        "id": 72528,
+        "position": 81,
+        "content": "Also I brought a rope for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also",
+          "I",
+          "brought",
+          "a",
+          "rope",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "Also"
+          ],
+          [
+            "I"
+          ],
+          [
+            "brought"
+          ],
+          [
+            "a"
+          ],
+          [
+            "rope"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 266.02,
+        "timeEnd": 268.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72528/list"
+      },
+      {
+        "id": 72529,
+        "position": 82,
+        "content": "In case you change your mind one day...",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "case",
+          "you",
+          "change",
+          "your",
+          "mind",
+          [
+            "one",
+            "1"
+          ],
+          "day..."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "case"
+          ],
+          [
+            "you"
+          ],
+          [
+            "change"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "day..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 268.35,
+        "timeEnd": 270.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72529/list"
+      },
+      {
+        "id": 72530,
+        "position": 83,
+        "content": "\"Fine, fine,\" said Rapunzel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Fine,",
+          "fine,\"",
+          "said",
+          "Rapunzel."
+        ],
+        "solution": [
+          [
+            "\"Fine,"
+          ],
+          [
+            "fine,\""
+          ],
+          [
+            "said"
+          ],
+          [
+            "Rapunzel."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 271.51,
+        "timeEnd": 274.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72530/list"
+      },
+      {
+        "id": 72531,
+        "position": 84,
+        "content": "Goodbye, Justin.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Goodbye,",
+          "Justin."
+        ],
+        "solution": [
+          [
+            "Goodbye,"
+          ],
+          [
+            "Justin."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 274.23,
+        "timeEnd": 276.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72531/list"
+      },
+      {
+        "id": 72532,
+        "position": 85,
+        "content": "And Justin climbed out the window and down Rapunzel's hair.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "Justin",
+          "climbed",
+          "out",
+          "the",
+          "window",
+          "and",
+          "down",
+          "Rapunzel's",
+          "hair."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "climbed"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window"
+          ],
+          [
+            "and"
+          ],
+          [
+            "down"
+          ],
+          [
+            "Rapunzel's"
+          ],
+          [
+            "hair."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 276.65,
+        "timeEnd": 280.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72532/list"
+      },
+      {
+        "id": 72533,
+        "position": 86,
+        "content": "The next day, Rapunzel cleaned her room and braided her hair.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "next",
+          "day,",
+          "Rapunzel",
+          "cleaned",
+          "her",
+          "room",
+          "and",
+          "braided",
+          "her",
+          "hair."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "next"
+          ],
+          [
+            "day,"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "cleaned"
+          ],
+          [
+            "her"
+          ],
+          [
+            "room"
+          ],
+          [
+            "and"
+          ],
+          [
+            "braided"
+          ],
+          [
+            "her"
+          ],
+          [
+            "hair."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 282.23,
+        "timeEnd": 286.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72533/list"
+      },
+      {
+        "id": 72534,
+        "position": 87,
+        "content": "The witch came at lunch time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "came",
+          "at",
+          "lunch",
+          "time."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "came"
+          ],
+          [
+            "at"
+          ],
+          [
+            "lunch"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 286.82,
+        "timeEnd": 289.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72534/list"
+      },
+      {
+        "id": 72535,
+        "position": 88,
+        "content": "She brought Rapunzel a sandwich and showed her how to make medicine to cure headaches.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "brought",
+          "Rapunzel",
+          "a",
+          "sandwich",
+          "and",
+          "showed",
+          "her",
+          "how",
+          "to",
+          "make",
+          "medicine",
+          "to",
+          "cure",
+          "headaches."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "brought"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sandwich"
+          ],
+          [
+            "and"
+          ],
+          [
+            "showed"
+          ],
+          [
+            "her"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "medicine"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cure"
+          ],
+          [
+            "headaches."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 289.07,
+        "timeEnd": 294.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72535/list"
+      },
+      {
+        "id": 72536,
+        "position": 89,
+        "content": "But as the witch was leaving",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "as",
+          "the",
+          "witch",
+          "was",
+          "leaving"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "was"
+          ],
+          [
+            "leaving"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 294.37,
+        "timeEnd": 296.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72536/list"
+      },
+      {
+        "id": 72537,
+        "position": 90,
+        "content": "she saw Justin's rope lying on the floor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "she",
+          "saw",
+          "Justin's",
+          "rope",
+          "lying",
+          "on",
+          "the",
+          "floor."
+        ],
+        "solution": [
+          [
+            "she"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "Justin's"
+          ],
+          [
+            "rope"
+          ],
+          [
+            "lying"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "floor."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 296.46,
+        "timeEnd": 299.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72537/list"
+      },
+      {
+        "id": 72538,
+        "position": 91,
+        "content": "\"Whose rope is this?\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Whose",
+          "rope",
+          "is",
+          "this?\""
+        ],
+        "solution": [
+          [
+            "\"Whose"
+          ],
+          [
+            "rope"
+          ],
+          [
+            "is"
+          ],
+          [
+            "this?\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 300.09,
+        "timeEnd": 301.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72538/list"
+      },
+      {
+        "id": 72539,
+        "position": 92,
+        "content": "\"Where did you get it?\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Where",
+          "did",
+          "you",
+          "get",
+          "it?\""
+        ],
+        "solution": [
+          [
+            "\"Where"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "it?\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 301.67,
+        "timeEnd": 303.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72539/list"
+      },
+      {
+        "id": 72540,
+        "position": 93,
+        "content": "\"Do you want to escape?\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Do",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "escape?\""
+        ],
+        "solution": [
+          [
+            "\"Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "escape?\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 303.38,
+        "timeEnd": 305.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72540/list"
+      },
+      {
+        "id": 72541,
+        "position": 94,
+        "content": "Rapunzel tried to explain, but the witch was too upset.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "tried",
+          "to",
+          "explain,",
+          "but",
+          "the",
+          "witch",
+          "was",
+          "too",
+          "upset."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "explain,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "was"
+          ],
+          [
+            "too"
+          ],
+          [
+            "upset."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 306.51,
+        "timeEnd": 310.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72541/list"
+      },
+      {
+        "id": 72542,
+        "position": 95,
+        "content": "I love you like a daughter!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "love",
+          "you",
+          "like",
+          "a",
+          "daughter!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "love"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "daughter!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 311.17,
+        "timeEnd": 314.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72542/list"
+      },
+      {
+        "id": 72543,
+        "position": 96,
+        "content": "Do you really hate me so much that you want to leave?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "really",
+          "hate",
+          "me",
+          "so",
+          "much",
+          "that",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "leave?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "really"
+          ],
+          [
+            "hate"
+          ],
+          [
+            "me"
+          ],
+          [
+            "so"
+          ],
+          [
+            "much"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "leave?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 314.25,
+        "timeEnd": 318.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72543/list"
+      },
+      {
+        "id": 72544,
+        "position": 97,
+        "content": "\"No... there was a man\" said Rapunzel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"No...",
+          "there",
+          "was",
+          "a",
+          "man\"",
+          "said",
+          "Rapunzel."
+        ],
+        "solution": [
+          [
+            "\"No..."
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "man\""
+          ],
+          [
+            "said"
+          ],
+          [
+            "Rapunzel."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 318.28,
+        "timeEnd": 321.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72544/list"
+      },
+      {
+        "id": 72545,
+        "position": 98,
+        "content": "\"A man?\" the witch cried.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"A",
+          "man?\"",
+          "the",
+          "witch",
+          "cried."
+        ],
+        "solution": [
+          [
+            "\"A"
+          ],
+          [
+            "man?\""
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "cried."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 321.94,
+        "timeEnd": 325.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72545/list"
+      },
+      {
+        "id": 72546,
+        "position": 99,
+        "content": "Fine! Go to him! Go!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Fine!",
+          "Go",
+          "to",
+          "him!",
+          "Go!"
+        ],
+        "solution": [
+          [
+            "Fine!"
+          ],
+          [
+            "Go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "him!"
+          ],
+          [
+            "Go!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 325.29,
+        "timeEnd": 329,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72546/list"
+      },
+      {
+        "id": 72547,
+        "position": 100,
+        "content": "Tears poured down the witch's face.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Tears",
+          "poured",
+          "down",
+          "the",
+          "witch's",
+          "face."
+        ],
+        "solution": [
+          [
+            "Tears"
+          ],
+          [
+            "poured"
+          ],
+          [
+            "down"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch's"
+          ],
+          [
+            "face."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 329,
+        "timeEnd": 331.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72547/list"
+      },
+      {
+        "id": 72548,
+        "position": 101,
+        "content": "Go and live happily ever after with this.... man!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Go",
+          "and",
+          "live",
+          "happily",
+          "ever",
+          "after",
+          "with",
+          "this....",
+          "man!"
+        ],
+        "solution": [
+          [
+            "Go"
+          ],
+          [
+            "and"
+          ],
+          [
+            "live"
+          ],
+          [
+            "happily"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "after"
+          ],
+          [
+            "with"
+          ],
+          [
+            "this...."
+          ],
+          [
+            "man!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 331.66,
+        "timeEnd": 335.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72548/list"
+      },
+      {
+        "id": 72549,
+        "position": 102,
+        "content": "The witch threw some magic powder at the floor",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "threw",
+          "some",
+          "magic",
+          "powder",
+          "at",
+          "the",
+          "floor"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "threw"
+          ],
+          [
+            "some"
+          ],
+          [
+            "magic"
+          ],
+          [
+            "powder"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "floor"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 336.17,
+        "timeEnd": 339.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72549/list"
+      },
+      {
+        "id": 72550,
+        "position": 103,
+        "content": "and Rapunzel immediately fell asleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "Rapunzel",
+          "immediately",
+          "fell",
+          "asleep."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "immediately"
+          ],
+          [
+            "fell"
+          ],
+          [
+            "asleep."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 339.38,
+        "timeEnd": 342.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72550/list"
+      },
+      {
+        "id": 72551,
+        "position": 104,
+        "content": "When she woke up, she was not in the tower anymore.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "she",
+          "woke",
+          "up,",
+          "she",
+          [
+            "was not",
+            "wasn't"
+          ],
+          "in",
+          "the",
+          "tower",
+          "anymore."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "she"
+          ],
+          [
+            "woke"
+          ],
+          [
+            "up,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "was not",
+            "wasn't"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower"
+          ],
+          [
+            "anymore."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 342.93,
+        "timeEnd": 346.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72551/list"
+      },
+      {
+        "id": 72552,
+        "position": 105,
+        "content": "She was lying under a tree in the forest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "was",
+          "lying",
+          "under",
+          "a",
+          "tree",
+          "in",
+          "the",
+          "forest."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "was"
+          ],
+          [
+            "lying"
+          ],
+          [
+            "under"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tree"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "forest."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 347.11,
+        "timeEnd": 350.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72552/list"
+      },
+      {
+        "id": 72553,
+        "position": 106,
+        "content": "Her hair was cut.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          "hair",
+          "was",
+          "cut."
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "hair"
+          ],
+          [
+            "was"
+          ],
+          [
+            "cut."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 350.03,
+        "timeEnd": 352.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72553/list"
+      },
+      {
+        "id": 72554,
+        "position": 107,
+        "content": "Rapunzel cried for ten minutes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rapunzel",
+          "cried",
+          "for",
+          [
+            "ten",
+            "10"
+          ],
+          "minutes."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "cried"
+          ],
+          [
+            "for"
+          ],
+          [
+            "ten",
+            "10"
+          ],
+          [
+            "minutes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 352.5,
+        "timeEnd": 355.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72554/list"
+      },
+      {
+        "id": 72555,
+        "position": 108,
+        "content": "And then she stood up and decided to look for her tower.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "then",
+          "she",
+          "stood",
+          "up",
+          "and",
+          "decided",
+          "to",
+          "look",
+          "for",
+          "her",
+          "tower."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "then"
+          ],
+          [
+            "she"
+          ],
+          [
+            "stood"
+          ],
+          [
+            "up"
+          ],
+          [
+            "and"
+          ],
+          [
+            "decided"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her"
+          ],
+          [
+            "tower."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 355.45,
+        "timeEnd": 359.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72555/list"
+      },
+      {
+        "id": 72556,
+        "position": 109,
+        "content": "Meanwhile, back at the tower,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Meanwhile,",
+          "back",
+          "at",
+          "the",
+          "tower,"
+        ],
+        "solution": [
+          [
+            "Meanwhile,"
+          ],
+          [
+            "back"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 359.96,
+        "timeEnd": 362.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72556/list"
+      },
+      {
+        "id": 72557,
+        "position": 110,
+        "content": "Justin returned as promised.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Justin",
+          "returned",
+          "as",
+          "promised."
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "returned"
+          ],
+          [
+            "as"
+          ],
+          [
+            "promised."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 362.36,
+        "timeEnd": 364.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72557/list"
+      },
+      {
+        "id": 72558,
+        "position": 111,
+        "content": "Rapunzel, Rapunzel, let down your hair!",
+        "defaultInput": "Rapunzel, Rapunzel, ",
+        "jsonContent": [
+          "Rapunzel,",
+          "Rapunzel,",
+          "let",
+          "down",
+          "your",
+          "hair!"
+        ],
+        "solution": [
+          [
+            "Rapunzel,"
+          ],
+          [
+            "Rapunzel,"
+          ],
+          [
+            "let"
+          ],
+          [
+            "down"
+          ],
+          [
+            "your"
+          ],
+          [
+            "hair!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 364.89,
+        "timeEnd": 368.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72558/list"
+      },
+      {
+        "id": 72559,
+        "position": 112,
+        "content": "He shouted from beneath the window.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "shouted",
+          "from",
+          "beneath",
+          "the",
+          "window."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "shouted"
+          ],
+          [
+            "from"
+          ],
+          [
+            "beneath"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 368.57,
+        "timeEnd": 370.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72559/list"
+      },
+      {
+        "id": 72560,
+        "position": 113,
+        "content": "And the hair dropped down in front of his face.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "hair",
+          "dropped",
+          "down",
+          "in",
+          "front",
+          "of",
+          "his",
+          "face."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hair"
+          ],
+          [
+            "dropped"
+          ],
+          [
+            "down"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "his"
+          ],
+          [
+            "face."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 370.85,
+        "timeEnd": 373.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72560/list"
+      },
+      {
+        "id": 72561,
+        "position": 114,
+        "content": "But as I'm sure you know...",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "as",
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          "you",
+          "know..."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "as"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 374.29,
+        "timeEnd": 376.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72561/list"
+      },
+      {
+        "id": 72562,
+        "position": 115,
+        "content": "It wasn't Rapunzel in the tower.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "Rapunzel",
+          "in",
+          "the",
+          "tower."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 376.33,
+        "timeEnd": 378.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72562/list"
+      },
+      {
+        "id": 72563,
+        "position": 116,
+        "content": "It was the witch!",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "the",
+          "witch!"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 378.86,
+        "timeEnd": 380.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72563/list"
+      },
+      {
+        "id": 72564,
+        "position": 117,
+        "content": "When Justin got to the top of the tower,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "Justin",
+          "got",
+          "to",
+          "the",
+          "top",
+          "of",
+          "the",
+          "tower,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "top"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 381.01,
+        "timeEnd": 383.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72564/list"
+      },
+      {
+        "id": 72565,
+        "position": 118,
+        "content": "the witch pulled him in through the window.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "witch",
+          "pulled",
+          "him",
+          "in",
+          "through",
+          "the",
+          "window."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "pulled"
+          ],
+          [
+            "him"
+          ],
+          [
+            "in"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "window."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 383.39,
+        "timeEnd": 385.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72565/list"
+      },
+      {
+        "id": 72566,
+        "position": 119,
+        "content": "\"So you are the man who wants to take my Rapunzel!\" she said.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"So",
+          [
+            "you are",
+            "you're"
+          ],
+          "the",
+          "man",
+          "who",
+          "wants",
+          "to",
+          "take",
+          "my",
+          "Rapunzel!\"",
+          "she",
+          "said."
+        ],
+        "solution": [
+          [
+            "\"So"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "the"
+          ],
+          [
+            "man"
+          ],
+          [
+            "who"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "my"
+          ],
+          [
+            "Rapunzel!\""
+          ],
+          [
+            "she"
+          ],
+          [
+            "said."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 386.32,
+        "timeEnd": 392.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72566/list"
+      },
+      {
+        "id": 72567,
+        "position": 120,
+        "content": "I see.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 392.17,
+        "timeEnd": 394.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72567/list"
+      },
+      {
+        "id": 72568,
+        "position": 121,
+        "content": "Well then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well",
+          "then."
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 394.36,
+        "timeEnd": 395.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72568/list"
+      },
+      {
+        "id": 72569,
+        "position": 122,
+        "content": "Go and live happily ever after together!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Go",
+          "and",
+          "live",
+          "happily",
+          "ever",
+          "after",
+          "together!"
+        ],
+        "solution": [
+          [
+            "Go"
+          ],
+          [
+            "and"
+          ],
+          [
+            "live"
+          ],
+          [
+            "happily"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "after"
+          ],
+          [
+            "together!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 395.39,
+        "timeEnd": 399.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72569/list"
+      },
+      {
+        "id": 72570,
+        "position": 123,
+        "content": "The witch blew a handful of powder into his face.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "witch",
+          "blew",
+          "a",
+          "handful",
+          "of",
+          "powder",
+          "into",
+          "his",
+          "face."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "blew"
+          ],
+          [
+            "a"
+          ],
+          [
+            "handful"
+          ],
+          [
+            "of"
+          ],
+          [
+            "powder"
+          ],
+          [
+            "into"
+          ],
+          [
+            "his"
+          ],
+          [
+            "face."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 399.72,
+        "timeEnd": 403.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72570/list"
+      },
+      {
+        "id": 72571,
+        "position": 124,
+        "content": "And with that, Justin was blind.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "with",
+          "that,",
+          "Justin",
+          "was",
+          "blind."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "was"
+          ],
+          [
+            "blind."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 403.12,
+        "timeEnd": 406.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72571/list"
+      },
+      {
+        "id": 72572,
+        "position": 125,
+        "content": "After walking all night, Rapunzel found her way home.",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "walking",
+          "all",
+          "night,",
+          "Rapunzel",
+          "found",
+          "her",
+          "way",
+          "home."
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "walking"
+          ],
+          [
+            "all"
+          ],
+          [
+            "night,"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "found"
+          ],
+          [
+            "her"
+          ],
+          [
+            "way"
+          ],
+          [
+            "home."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 407.53,
+        "timeEnd": 411.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72572/list"
+      },
+      {
+        "id": 72573,
+        "position": 126,
+        "content": "But the tower was gone!",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "tower",
+          "was",
+          "gone!"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower"
+          ],
+          [
+            "was"
+          ],
+          [
+            "gone!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 412.23,
+        "timeEnd": 414.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72573/list"
+      },
+      {
+        "id": 72574,
+        "position": 127,
+        "content": "All that was left was a burnt circle on the ground.",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "that",
+          "was",
+          "left",
+          "was",
+          "a",
+          [
+            "burnt",
+            "burned"
+          ],
+          "circle",
+          "on",
+          "the",
+          "ground."
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "left"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "burnt",
+            "burned"
+          ],
+          [
+            "circle"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ground."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 414.79,
+        "timeEnd": 418.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72574/list"
+      },
+      {
+        "id": 72575,
+        "position": 128,
+        "content": "\"Oh nooooo!\" cried Rapunzel.",
+        "defaultInput": "\"Oh nooooo!\" cried Rapunzel.",
+        "jsonContent": [
+          "\"Oh",
+          "nooooo!\"",
+          "cried",
+          "Rapunzel."
+        ],
+        "solution": [
+          [
+            "\"Oh"
+          ],
+          [
+            "nooooo!\""
+          ],
+          [
+            "cried"
+          ],
+          [
+            "Rapunzel."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 419.73,
+        "timeEnd": 423.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72575/list"
+      },
+      {
+        "id": 72576,
+        "position": 129,
+        "content": "and she fell to the ground, sobbing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "she",
+          "fell",
+          "to",
+          "the",
+          "ground,",
+          "sobbing."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "she"
+          ],
+          [
+            "fell"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ground,"
+          ],
+          [
+            "sobbing."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 423.21,
+        "timeEnd": 425.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72576/list"
+      },
+      {
+        "id": 72577,
+        "position": 130,
+        "content": "But then she heard a voice coming from behind some trees.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "then",
+          "she",
+          "heard",
+          "a",
+          "voice",
+          "coming",
+          "from",
+          "behind",
+          "some",
+          "trees."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "then"
+          ],
+          [
+            "she"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "a"
+          ],
+          [
+            "voice"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "from"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "some"
+          ],
+          [
+            "trees."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 427,
+        "timeEnd": 430.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72577/list"
+      },
+      {
+        "id": 72578,
+        "position": 131,
+        "content": "Hello?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello?"
+        ],
+        "solution": [
+          [
+            "Hello?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 430.99,
+        "timeEnd": 432,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72578/list"
+      },
+      {
+        "id": 72579,
+        "position": 132,
+        "content": "Is someone there?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "someone",
+          "there?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "there?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 432,
+        "timeEnd": 433.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72579/list"
+      },
+      {
+        "id": 72580,
+        "position": 133,
+        "content": "Can you help me?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "help",
+          "me?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 433.62,
+        "timeEnd": 435.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72580/list"
+      },
+      {
+        "id": 72581,
+        "position": 134,
+        "content": "I can't see...",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "see..."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "see..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 435.03,
+        "timeEnd": 437.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72581/list"
+      },
+      {
+        "id": 72582,
+        "position": 135,
+        "content": "I can't see anything!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "see",
+          "anything!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "see"
+          ],
+          [
+            "anything!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 437.21,
+        "timeEnd": 439.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72582/list"
+      },
+      {
+        "id": 72583,
+        "position": 136,
+        "content": "It was Justin!",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "Justin!"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "Justin!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 439.66,
+        "timeEnd": 441.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72583/list"
+      },
+      {
+        "id": 72584,
+        "position": 137,
+        "content": "When Rapunzel saw Justin's blind eyes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "Rapunzel",
+          "saw",
+          "Justin's",
+          "blind",
+          "eyes,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "Justin's"
+          ],
+          [
+            "blind"
+          ],
+          [
+            "eyes,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 441.09,
+        "timeEnd": 443.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72584/list"
+      },
+      {
+        "id": 72585,
+        "position": 138,
+        "content": "she knew what to do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "she",
+          "knew",
+          "what",
+          "to",
+          "do."
+        ],
+        "solution": [
+          [
+            "she"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "what"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 443.91,
+        "timeEnd": 445.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72585/list"
+      },
+      {
+        "id": 72586,
+        "position": 139,
+        "content": "\"Stay right there,\" she ordered.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Stay",
+          "right",
+          "there,\"",
+          "she",
+          "ordered."
+        ],
+        "solution": [
+          [
+            "\"Stay"
+          ],
+          [
+            "right"
+          ],
+          [
+            "there,\""
+          ],
+          [
+            "she"
+          ],
+          [
+            "ordered."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 445.67,
+        "timeEnd": 448.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72586/list"
+      },
+      {
+        "id": 72587,
+        "position": 140,
+        "content": "Rapunzel ran into the forest to find some herbs.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "ran",
+          "into",
+          "the",
+          "forest",
+          "to",
+          "find",
+          "some",
+          "herbs."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "ran"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "forest"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "some"
+          ],
+          [
+            "herbs."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 448.52,
+        "timeEnd": 451.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72587/list"
+      },
+      {
+        "id": 72588,
+        "position": 141,
+        "content": "She ground the herbs and made medicine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "ground",
+          "the",
+          "herbs",
+          "and",
+          "made",
+          "medicine."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "ground"
+          ],
+          [
+            "the"
+          ],
+          [
+            "herbs"
+          ],
+          [
+            "and"
+          ],
+          [
+            "made"
+          ],
+          [
+            "medicine."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 451.7,
+        "timeEnd": 454.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72588/list"
+      },
+      {
+        "id": 72589,
+        "position": 142,
+        "content": "Then she put the medicine on Justin's eyes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "she",
+          "put",
+          "the",
+          "medicine",
+          "on",
+          "Justin's",
+          "eyes."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "she"
+          ],
+          [
+            "put"
+          ],
+          [
+            "the"
+          ],
+          [
+            "medicine"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Justin's"
+          ],
+          [
+            "eyes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 454.23,
+        "timeEnd": 457.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72589/list"
+      },
+      {
+        "id": 72590,
+        "position": 143,
+        "content": "Then... she cried again.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then...",
+          "she",
+          "cried",
+          "again."
+        ],
+        "solution": [
+          [
+            "Then..."
+          ],
+          [
+            "she"
+          ],
+          [
+            "cried"
+          ],
+          [
+            "again."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 457.02,
+        "timeEnd": 459.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72590/list"
+      },
+      {
+        "id": 72591,
+        "position": 144,
+        "content": "\"Please don't cry...\" said Justin, softly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Please",
+          [
+            "don't",
+            "do not"
+          ],
+          "cry...\"",
+          "said",
+          "Justin,",
+          "softly."
+        ],
+        "solution": [
+          [
+            "\"Please"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "cry...\""
+          ],
+          [
+            "said"
+          ],
+          [
+            "Justin,"
+          ],
+          [
+            "softly."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 460.53,
+        "timeEnd": 464.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72591/list"
+      },
+      {
+        "id": 72592,
+        "position": 145,
+        "content": "Why are you crying?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why",
+          "are",
+          "you",
+          "crying?"
+        ],
+        "solution": [
+          [
+            "Why"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "crying?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 464.54,
+        "timeEnd": 467.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72592/list"
+      },
+      {
+        "id": 72593,
+        "position": 146,
+        "content": "My home is gone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "home",
+          "is",
+          "gone."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "home"
+          ],
+          [
+            "is"
+          ],
+          [
+            "gone."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 467.11,
+        "timeEnd": 468.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72593/list"
+      },
+      {
+        "id": 72594,
+        "position": 147,
+        "content": "My only friend is gone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "only",
+          "friend",
+          "is",
+          "gone."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "only"
+          ],
+          [
+            "friend"
+          ],
+          [
+            "is"
+          ],
+          [
+            "gone."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 468.68,
+        "timeEnd": 470.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72594/list"
+      },
+      {
+        "id": 72595,
+        "position": 148,
+        "content": "You are blind, this is a mess!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You are",
+            "You're"
+          ],
+          "blind,",
+          "this",
+          "is",
+          "a",
+          "mess!"
+        ],
+        "solution": [
+          [
+            "You are",
+            "You're"
+          ],
+          [
+            "blind,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mess!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 470.54,
+        "timeEnd": 473.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72595/list"
+      },
+      {
+        "id": 72596,
+        "position": 149,
+        "content": "\"Everything will be ok,\" Justin said.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Everything",
+          "will",
+          "be",
+          [
+            "ok,\"",
+            "okay"
+          ],
+          "Justin",
+          "said."
+        ],
+        "solution": [
+          [
+            "\"Everything"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ok,\"",
+            "okay"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "said."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 473.67,
+        "timeEnd": 477.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72596/list"
+      },
+      {
+        "id": 72597,
+        "position": 150,
+        "content": "Then he smiled.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "he",
+          "smiled."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "he"
+          ],
+          [
+            "smiled."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 477.24,
+        "timeEnd": 478.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72597/list"
+      },
+      {
+        "id": 72598,
+        "position": 151,
+        "content": "Trust me, I'm a hero!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Trust",
+          "me,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "hero!"
+        ],
+        "solution": [
+          [
+            "Trust"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hero!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 478.91,
+        "timeEnd": 482.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72598/list"
+      },
+      {
+        "id": 72599,
+        "position": 152,
+        "content": "For three days, they camped in the forest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          [
+            "three",
+            "3"
+          ],
+          "days,",
+          "they",
+          "camped",
+          "in",
+          "the",
+          "forest."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "days,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "camped"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "forest."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 482.62,
+        "timeEnd": 486.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72599/list"
+      },
+      {
+        "id": 72600,
+        "position": 153,
+        "content": "Rapunzel made medicine for Justin's eyes.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "made",
+          "medicine",
+          "for",
+          "Justin's",
+          "eyes."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "made"
+          ],
+          [
+            "medicine"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Justin's"
+          ],
+          [
+            "eyes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 486.2,
+        "timeEnd": 489.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72600/list"
+      },
+      {
+        "id": 72601,
+        "position": 154,
+        "content": "Justin told her about every time he had tried to be a hero.",
+        "defaultInput": "Justin ",
+        "jsonContent": [
+          "Justin",
+          "told",
+          "her",
+          "about",
+          "every",
+          "time",
+          [
+            "he had",
+            "he'd"
+          ],
+          "tried",
+          "to",
+          "be",
+          "a",
+          "hero."
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "told"
+          ],
+          [
+            "her"
+          ],
+          [
+            "about"
+          ],
+          [
+            "every"
+          ],
+          [
+            "time"
+          ],
+          [
+            "he had",
+            "he'd"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hero."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 489.52,
+        "timeEnd": 493.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72601/list"
+      },
+      {
+        "id": 72602,
+        "position": 155,
+        "content": "Once he tried to fight a giant...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "he",
+          "tried",
+          "to",
+          "fight",
+          "a",
+          "giant..."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "he"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "fight"
+          ],
+          [
+            "a"
+          ],
+          [
+            "giant..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 494.34,
+        "timeEnd": 497.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72602/list"
+      },
+      {
+        "id": 72603,
+        "position": 156,
+        "content": "But the giant was very kind.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "giant",
+          "was",
+          "very",
+          "kind."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "giant"
+          ],
+          [
+            "was"
+          ],
+          [
+            "very"
+          ],
+          [
+            "kind."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 497.53,
+        "timeEnd": 499.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72603/list"
+      },
+      {
+        "id": 72604,
+        "position": 157,
+        "content": "He invited Justin inside for tea.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "invited",
+          "Justin",
+          "inside",
+          "for",
+          "tea."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "invited"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "inside"
+          ],
+          [
+            "for"
+          ],
+          [
+            "tea."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 499.74,
+        "timeEnd": 502.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72604/list"
+      },
+      {
+        "id": 72605,
+        "position": 158,
+        "content": "Once he tried to kill a dragon...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "he",
+          "tried",
+          "to",
+          "kill",
+          "a",
+          "dragon..."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "he"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "kill"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dragon..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 503.28,
+        "timeEnd": 506.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72605/list"
+      },
+      {
+        "id": 72606,
+        "position": 159,
+        "content": "But the dragon had baby dragons in its nest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "dragon",
+          "had",
+          "baby",
+          "dragons",
+          "in",
+          "its",
+          "nest."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dragon"
+          ],
+          [
+            "had"
+          ],
+          [
+            "baby"
+          ],
+          [
+            "dragons"
+          ],
+          [
+            "in"
+          ],
+          [
+            "its"
+          ],
+          [
+            "nest."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 507.64,
+        "timeEnd": 510.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72606/list"
+      },
+      {
+        "id": 72607,
+        "position": 160,
+        "content": "Justin couldn't do it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Justin",
+          [
+            "couldn't",
+            "could not"
+          ],
+          "do",
+          "it."
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "couldn't",
+            "could not"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 510.24,
+        "timeEnd": 511.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72607/list"
+      },
+      {
+        "id": 72608,
+        "position": 161,
+        "content": "Once he rescued a cat from a tree...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "he",
+          "rescued",
+          "a",
+          "cat",
+          "from",
+          "a",
+          "tree..."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "he"
+          ],
+          [
+            "rescued"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cat"
+          ],
+          [
+            "from"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tree..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 512.97,
+        "timeEnd": 516.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72608/list"
+      },
+      {
+        "id": 72609,
+        "position": 162,
+        "content": "But the cat immediately climbed back up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "cat",
+          "immediately",
+          "climbed",
+          "back",
+          "up."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cat"
+          ],
+          [
+            "immediately"
+          ],
+          [
+            "climbed"
+          ],
+          [
+            "back"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 516.46,
+        "timeEnd": 519.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72609/list"
+      },
+      {
+        "id": 72610,
+        "position": 163,
+        "content": "\"It's really hard to be a hero!\" he complained.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"It's",
+          "really",
+          "hard",
+          "to",
+          "be",
+          "a",
+          "hero!\"",
+          "he",
+          "complained."
+        ],
+        "solution": [
+          [
+            "\"It's"
+          ],
+          [
+            "really"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hero!\""
+          ],
+          [
+            "he"
+          ],
+          [
+            "complained."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 520.04,
+        "timeEnd": 524.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72610/list"
+      },
+      {
+        "id": 72611,
+        "position": 164,
+        "content": "When Rapunzel felt like crying,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "Rapunzel",
+          "felt",
+          "like",
+          "crying,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "like"
+          ],
+          [
+            "crying,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 524.7,
+        "timeEnd": 526.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72611/list"
+      },
+      {
+        "id": 72612,
+        "position": 165,
+        "content": "Justin told jokes until she laughed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Justin",
+          "told",
+          "jokes",
+          "until",
+          "she",
+          "laughed."
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "told"
+          ],
+          [
+            "jokes"
+          ],
+          [
+            "until"
+          ],
+          [
+            "she"
+          ],
+          [
+            "laughed."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 526.81,
+        "timeEnd": 529.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72612/list"
+      },
+      {
+        "id": 72613,
+        "position": 166,
+        "content": "When she couldn't sleep, he listened to all her worries.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "she",
+          [
+            "couldn't",
+            "could not"
+          ],
+          "sleep,",
+          "he",
+          "listened",
+          "to",
+          "all",
+          "her",
+          "worries."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "she"
+          ],
+          [
+            "couldn't",
+            "could not"
+          ],
+          [
+            "sleep,"
+          ],
+          [
+            "he"
+          ],
+          [
+            "listened"
+          ],
+          [
+            "to"
+          ],
+          [
+            "all"
+          ],
+          [
+            "her"
+          ],
+          [
+            "worries."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 529.58,
+        "timeEnd": 532.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72613/list"
+      },
+      {
+        "id": 72614,
+        "position": 167,
+        "content": "On the fourth day when Rapunzel woke up,",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "the",
+          [
+            "fourth",
+            "4th"
+          ],
+          "day",
+          "when",
+          "Rapunzel",
+          "woke",
+          "up,"
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fourth",
+            "4th"
+          ],
+          [
+            "day"
+          ],
+          [
+            "when"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "woke"
+          ],
+          [
+            "up,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 533.12,
+        "timeEnd": 536.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72614/list"
+      },
+      {
+        "id": 72615,
+        "position": 168,
+        "content": "Justin was already awake.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Justin",
+          "was",
+          "already",
+          "awake."
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "was"
+          ],
+          [
+            "already"
+          ],
+          [
+            "awake."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 536.2,
+        "timeEnd": 538.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72615/list"
+      },
+      {
+        "id": 72616,
+        "position": 169,
+        "content": "He was looking at her with his bright blue eyes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "looking",
+          "at",
+          "her",
+          "with",
+          "his",
+          "bright",
+          "blue",
+          "eyes."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "her"
+          ],
+          [
+            "with"
+          ],
+          [
+            "his"
+          ],
+          [
+            "bright"
+          ],
+          [
+            "blue"
+          ],
+          [
+            "eyes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 538.52,
+        "timeEnd": 542.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72616/list"
+      },
+      {
+        "id": 72617,
+        "position": 170,
+        "content": "He could see!",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "could",
+          "see!"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "could"
+          ],
+          [
+            "see!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 542.57,
+        "timeEnd": 544.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72617/list"
+      },
+      {
+        "id": 72618,
+        "position": 171,
+        "content": "\"Thank you, my beautiful friend,\" he said.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Thank",
+          "you,",
+          "my",
+          "beautiful",
+          "friend,\"",
+          "he",
+          "said."
+        ],
+        "solution": [
+          [
+            "\"Thank"
+          ],
+          [
+            "you,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "beautiful"
+          ],
+          [
+            "friend,\""
+          ],
+          [
+            "he"
+          ],
+          [
+            "said."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 544.76,
+        "timeEnd": 548.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72618/list"
+      },
+      {
+        "id": 72619,
+        "position": 172,
+        "content": "You fixed my eyes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "fixed",
+          "my",
+          "eyes."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "fixed"
+          ],
+          [
+            "my"
+          ],
+          [
+            "eyes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 548.52,
+        "timeEnd": 550.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72619/list"
+      },
+      {
+        "id": 72620,
+        "position": 173,
+        "content": "Justin and Rapunzel walked to Justin's village.",
+        "defaultInput": "Justin and Rapunzel ",
+        "jsonContent": [
+          "Justin",
+          "and",
+          "Rapunzel",
+          "walked",
+          "to",
+          "Justin's",
+          "village."
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "walked"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Justin's"
+          ],
+          [
+            "village."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 552.35,
+        "timeEnd": 555.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72620/list"
+      },
+      {
+        "id": 72621,
+        "position": 174,
+        "content": "Rapunzel liked it in the village.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "liked",
+          "it",
+          "in",
+          "the",
+          "village."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "liked"
+          ],
+          [
+            "it"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "village."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 556.09,
+        "timeEnd": 558.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72621/list"
+      },
+      {
+        "id": 72622,
+        "position": 175,
+        "content": "Justin helped her build a new tower",
+        "defaultInput": "",
+        "jsonContent": [
+          "Justin",
+          "helped",
+          "her",
+          "build",
+          "a",
+          "new",
+          "tower"
+        ],
+        "solution": [
+          [
+            "Justin"
+          ],
+          [
+            "helped"
+          ],
+          [
+            "her"
+          ],
+          [
+            "build"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "tower"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 558.63,
+        "timeEnd": 561.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72622/list"
+      },
+      {
+        "id": 72623,
+        "position": 176,
+        "content": "and this time the tower had stairs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "this",
+          "time",
+          "the",
+          "tower",
+          "had",
+          "stairs."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "this"
+          ],
+          [
+            "time"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tower"
+          ],
+          [
+            "had"
+          ],
+          [
+            "stairs."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 561.14,
+        "timeEnd": 564.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72623/list"
+      },
+      {
+        "id": 72624,
+        "position": 177,
+        "content": "Rapunzel spent her days making medicine for the sick people in the village.",
+        "defaultInput": "Rapunzel ",
+        "jsonContent": [
+          "Rapunzel",
+          "spent",
+          "her",
+          "days",
+          "making",
+          "medicine",
+          "for",
+          "the",
+          "sick",
+          "people",
+          "in",
+          "the",
+          "village."
+        ],
+        "solution": [
+          [
+            "Rapunzel"
+          ],
+          [
+            "spent"
+          ],
+          [
+            "her"
+          ],
+          [
+            "days"
+          ],
+          [
+            "making"
+          ],
+          [
+            "medicine"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sick"
+          ],
+          [
+            "people"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "village."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 564.95,
+        "timeEnd": 569.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72624/list"
+      },
+      {
+        "id": 72625,
+        "position": 178,
+        "content": "Did Justin ever become a hero?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "Justin",
+          "ever",
+          "become",
+          "a",
+          "hero?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "become"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hero?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 570.85,
+        "timeEnd": 573.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72625/list"
+      },
+      {
+        "id": 72626,
+        "position": 179,
+        "content": "Yes, of course!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "of",
+          "course!"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 573.02,
+        "timeEnd": 575.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72626/list"
+      },
+      {
+        "id": 72627,
+        "position": 180,
+        "content": "There are many kinds of heroes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "many",
+          "kinds",
+          "of",
+          "heroes."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "many"
+          ],
+          [
+            "kinds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "heroes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 575.03,
+        "timeEnd": 577.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72627/list"
+      },
+      {
+        "id": 72628,
+        "position": 181,
+        "content": "But the best and bravest heroes are the ones who help their friends through hard times.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "best",
+          "and",
+          "bravest",
+          "heroes",
+          "are",
+          "the",
+          "ones",
+          "who",
+          "help",
+          "their",
+          "friends",
+          "through",
+          "hard",
+          "times."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "and"
+          ],
+          [
+            "bravest"
+          ],
+          [
+            "heroes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ones"
+          ],
+          [
+            "who"
+          ],
+          [
+            "help"
+          ],
+          [
+            "their"
+          ],
+          [
+            "friends"
+          ],
+          [
+            "through"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "times."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 577.37,
+        "timeEnd": 583.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72628/list"
+      },
+      {
+        "id": 72629,
+        "position": 182,
+        "content": "And Justin had helped his friend Rapunzel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "Justin",
+          "had",
+          "helped",
+          "his",
+          "friend",
+          "Rapunzel."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "had"
+          ],
+          [
+            "helped"
+          ],
+          [
+            "his"
+          ],
+          [
+            "friend"
+          ],
+          [
+            "Rapunzel."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 583.03,
+        "timeEnd": 585.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72629/list"
+      },
+      {
+        "id": 72630,
+        "position": 183,
+        "content": "In the end Justin and Rapunzel both lived happily ever after,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "the",
+          "end",
+          "Justin",
+          "and",
+          "Rapunzel",
+          "both",
+          "lived",
+          "happily",
+          "ever",
+          "after,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "Justin"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Rapunzel"
+          ],
+          [
+            "both"
+          ],
+          [
+            "lived"
+          ],
+          [
+            "happily"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "after,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 586.33,
+        "timeEnd": 591.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72630/list"
+      },
+      {
+        "id": 72631,
+        "position": 184,
+        "content": "just as the witch had promised",
+        "defaultInput": "",
+        "jsonContent": [
+          "just",
+          "as",
+          "the",
+          "witch",
+          "had",
+          "promised"
+        ],
+        "solution": [
+          [
+            "just"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "witch"
+          ],
+          [
+            "had"
+          ],
+          [
+            "promised"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 591.49,
+        "timeEnd": 594.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/72631/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "72455": {
+      "id": 1659850,
+      "text": "Như bạn biết đấy, phù thủy có thể rất hay ghen tị",
+      "author": "a user"
+    },
+    "72459": {
+      "id": 1660085,
+      "text": "cô lén lút qua hàng rào và lấy trộm một ít rau mùi tây của mụ phù thủy ở nhà bên cạnh.",
+      "author": "a user"
+    },
+    "72462": {
+      "id": 1660088,
+      "text": "Bà ta đưa cho mẹ của Rapunzel hai sự lựa chọn.",
+      "author": "a user"
+    },
+    "72482": {
+      "id": 1660168,
+      "text": "Bà ta đứng dưới cửa sổ và hét lên: Rapunzel!",
+      "author": "a user"
+    },
+    "72502": {
+      "id": 1660233,
+      "text": "Cút đi! Cút đi! Ngươi không phải là phù thủy!",
+      "author": "a user"
+    },
+    "72505": {
+      "id": 1660236,
+      "text": "Anh là ai? Anh muốn gì?",
+      "author": "a user"
+    },
+    "72508": {
+      "id": 1660241,
+      "text": "Tôi đến đây để... cứu cô đấy?",
+      "author": "a user"
+    },
+    "72510": {
+      "id": 1660246,
+      "text": "\"Nói cho tôi biết đi, Justin,\" cô gầm gừ.",
+      "author": "a user"
+    },
+    "72511": {
+      "id": 1660248,
+      "text": "Trông tôi có giống như đang cần cứu không?",
+      "author": "a user"
+    },
+    "72522": {
+      "id": 1662250,
+      "text": "Làm anh hùng ở chỗ khác ấy.",
+      "author": "a user"
+    },
+    "72526": {
+      "id": 1662259,
+      "text": "\"Vậy, ngày mai anh có thể quay lại nói chuyện với em được không?\" Justin hỏi.",
+      "author": "a user"
+    },
+    "72528": {
+      "id": 1662264,
+      "text": "anh cũng mang theo một sợi dây thừng cho em.",
+      "author": "a user"
+    },
+    "72529": {
+      "id": 1662267,
+      "text": "Trong trường hợp một ngày nào đó em thay đổi quyết định...",
+      "author": "a user"
+    },
+    "72530": {
+      "id": 1662270,
+      "text": "\"Được, được rồi,\" Rapunzel nói.",
+      "author": "a user"
+    },
+    "72535": {
+      "id": 1662283,
+      "text": "Bà mang cho Rapunzel một chiếc bánh sandwich và chỉ cho cô cách làm thuốc chữa đau đầu.",
+      "author": "a user"
+    },
+    "72539": {
+      "id": 1662299,
+      "text": "\"Con lấy nó ở đâu?\"",
+      "author": "a user"
+    },
+    "72540": {
+      "id": 1662301,
+      "text": "\"Có phải con muốn trốn thoát không?\"",
+      "author": "a user"
+    },
+    "72542": {
+      "id": 1662307,
+      "text": "Ta thương con như con gái ruột của mình vậy!",
+      "author": "a user"
+    },
+    "72543": {
+      "id": 1662309,
+      "text": "Con ghét ta nhiều đến mức muốn rời đi sao?",
+      "author": "a user"
+    },
+    "72553": {
+      "id": 1662340,
+      "text": "Tóc của cô đã bị cắt.",
+      "author": "a user"
+    },
+    "72558": {
+      "id": 1662353,
+      "text": "Rapunzel, Rapunzel, thả tóc của em xuống đi!",
+      "author": "a user"
+    },
+    "72562": {
+      "id": 1662369,
+      "text": "Người trong tòa tháp không phải là Rapunzel.",
+      "author": "a user"
+    },
+    "72563": {
+      "id": 1662372,
+      "text": "Mà đó chính là mụ phù thủy!",
+      "author": "a user"
+    },
+    "72566": {
+      "id": 1662378,
+      "text": "\"Vậy ra ngươi là người muốn cướp Rapunzel của ta!\" Bà ta nói.",
+      "author": "a user"
+    },
+    "72567": {
+      "id": 1662380,
+      "text": "Ta hiểu rồi.",
+      "author": "a user"
+    },
+    "72570": {
+      "id": 1662386,
+      "text": "Mụ phù thủy thổi một nắm bột vào mặt Justin",
+      "author": "a user"
+    },
+    "72586": {
+      "id": 1662425,
+      "text": "\"Ở yên đó,\" cô ra lệnh.",
+      "author": "a user"
+    },
+    "72588": {
+      "id": 1662430,
+      "text": "Cô nghiền các loại thảo mộc và làm thuốc.",
+      "author": "a user"
+    },
+    "72592": {
+      "id": 1662440,
+      "text": "Tại sao em lại khóc?",
+      "author": "a user"
+    },
+    "72593": {
+      "id": 1662441,
+      "text": "Nhà của em không còn nữa.",
+      "author": "a user"
+    },
+    "72594": {
+      "id": 1662442,
+      "text": "Tôi đã mất đi người bạn duy nhất của mình rồi...",
+      "author": "a user"
+    },
+    "72595": {
+      "id": 1662443,
+      "text": "Anh bị mù rồi, mọi chuyện thật hỗn loạn!",
+      "author": "a user"
+    },
+    "72598": {
+      "id": 1662447,
+      "text": "Tin tôi đi, tôi là một anh hùng!",
+      "author": "a user"
+    },
+    "72600": {
+      "id": 1662450,
+      "text": "Rapunzel đã pha thuốc để chữa đôi mắt của Justin.",
+      "author": "a user"
+    },
+    "72603": {
+      "id": 1662453,
+      "text": "Nhưng người khổng lồ lại rất tử tế.",
+      "author": "a user"
+    },
+    "72609": {
+      "id": 1662462,
+      "text": "Nhưng con mèo lại ngay lập tức trèo lên trở lại",
+      "author": "a user"
+    },
+    "72618": {
+      "id": 1662474,
+      "text": "\"Cảm ơn cô bạn xinh đẹp của anh\", anh nói.",
+      "author": "a user"
+    },
+    "72619": {
+      "id": 1662476,
+      "text": "Cô đã chữa mắt của tôi.",
+      "author": "a user"
+    },
+    "72620": {
+      "id": 1662478,
+      "text": "Justin và Rapunzel đi về làng của Justin.",
+      "author": "a user"
+    },
+    "72624": {
+      "id": 1662485,
+      "text": "Rapunzel dành thời gian của mình để làm thuốc cho những người bệnh trong làng.",
+      "author": "a user"
+    },
+    "72628": {
+      "id": 1662492,
+      "text": "Nhưng những anh hùng tuyệt vời nhất và dũng cảm nhất là những người giúp đỡ bạn bè của mình vượt qua thời điểm khó khăn.",
+      "author": "a user"
+    },
+    "72448": {
+      "id": 2587540,
+      "text": "Ngày xửa ngày xưa có một cô gái tên là Rapunzel.",
+      "author": "ChatGPT4.1"
+    },
+    "72449": {
+      "id": 2587544,
+      "text": "Rapunzel sống trong một tòa tháp cao ở giữa khu rừng.",
+      "author": "ChatGPT4.1"
+    },
+    "72450": {
+      "id": 2587546,
+      "text": "Tòa tháp không có thang leo cũng không có cầu thang bộ",
+      "author": "a user"
+    },
+    "72451": {
+      "id": 2587549,
+      "text": "và chắc chắn không có thang máy.",
+      "author": "ChatGPT4.1"
+    },
+    "72452": {
+      "id": 2587552,
+      "text": "Không có cách nào để đi lên hoặc xuống.",
+      "author": "ChatGPT4.1"
+    },
+    "72453": {
+      "id": 2587554,
+      "text": "Vậy... tại sao Rapunzel lại sống trong một tòa tháp?",
+      "author": "ChatGPT4.1"
+    },
+    "72454": {
+      "id": 2587557,
+      "text": "À, tất cả bắt đầu với một mụ phù thủy.",
+      "author": "ChatGPT4.1"
+    },
+    "72456": {
+      "id": 2587559,
+      "text": "Họ đặc biệt ghét những người ăn trộm thảo mộc từ vườn của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "72457": {
+      "id": 2587562,
+      "text": "Thật không may, mẹ của Rapunzel không biết điều này về phù thủy.",
+      "author": "ChatGPT4.1"
+    },
+    "72458": {
+      "id": 2587565,
+      "text": "Nhiều năm trước khi bà mang thai Rapunzel,",
+      "author": "a user"
+    },
+    "72460": {
+      "id": 2587567,
+      "text": "Mụ phù thủy đã nhìn thấy cô ấy ăn trộm rau mùi tây.",
+      "author": "a user"
+    },
+    "72461": {
+      "id": 2587570,
+      "text": "Mụ giận dữ vô cùng.",
+      "author": "ChatGPT4.1"
+    },
+    "72463": {
+      "id": 2587572,
+      "text": "Lựa chọn một: Mụ phù thủy sẽ nguyền rủa đứa con gái chưa sinh ra của cô ấy.",
+      "author": "a user"
+    },
+    "72464": {
+      "id": 2587575,
+      "text": "Cô bé sẽ luôn gặp xui xẻo.",
+      "author": "ChatGPT4.1"
+    },
+    "72465": {
+      "id": 2587577,
+      "text": "Cô bé sẽ gặp những người không phù hợp và nói những điều không phù hợp.",
+      "author": "a user"
+    },
+    "72466": {
+      "id": 2587578,
+      "text": "và mặc những bộ quần áo không phù hợp cho mọi dịp.",
+      "author": "a user"
+    },
+    "72467": {
+      "id": 2587579,
+      "text": "Cô bé sẽ không bao giờ sống hạnh phúc mãi mãi.",
+      "author": "ChatGPT4.1"
+    },
+    "72468": {
+      "id": 2587580,
+      "text": "Lựa chọn hai:",
+      "author": "ChatGPT4.1"
+    },
+    "72469": {
+      "id": 2587581,
+      "text": "Vào sinh nhật lần thứ mười của cô bé,",
+      "author": "ChatGPT4.1"
+    },
+    "72470": {
+      "id": 2587582,
+      "text": "cô bé sẽ đến sống cùng mụ phù thủy.",
+      "author": "ChatGPT4.1"
+    },
+    "72471": {
+      "id": 2587583,
+      "text": "Cô bé sẽ trở thành học trò của mụ phù thủy.",
+      "author": "ChatGPT4.1"
+    },
+    "72472": {
+      "id": 2587584,
+      "text": "Mụ phù thủy hứa rằng, cuối cùng cô bé sẽ sống hạnh phúc mãi mãi.",
+      "author": "ChatGPT4.1"
+    },
+    "72473": {
+      "id": 2587585,
+      "text": "Mẹ của Rapunzel vô cùng đau lòng.",
+      "author": "ChatGPT4.1"
+    },
+    "72474": {
+      "id": 2587586,
+      "text": "Bà chọn lựa chọn hai.",
+      "author": "ChatGPT4.1"
+    },
+    "72475": {
+      "id": 2587587,
+      "text": "Và vào buổi tối sinh nhật lần thứ mười của Rapunzel",
+      "author": "ChatGPT4.1"
+    },
+    "72476": {
+      "id": 2587588,
+      "text": "mụ phù thủy đến đưa cô bé đi.",
+      "author": "ChatGPT4.1"
+    },
+    "72477": {
+      "id": 2587589,
+      "text": "Mụ nhốt Rapunzel trong tòa tháp cao giữa rừng.",
+      "author": "ChatGPT4.1"
+    },
+    "72478": {
+      "id": 2592845,
+      "text": "Sau đó, mỗi ngày đều giống nhau đối với Rapunzel.",
+      "author": "ChatGPT4.1"
+    },
+    "72479": {
+      "id": 2592846,
+      "text": "Cô ấy dọn dẹp phòng mình ở trên đỉnh tháp.",
+      "author": "a user"
+    },
+    "72480": {
+      "id": 2592847,
+      "text": "Cô bé tết mái tóc thật dài của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "72481": {
+      "id": 2592848,
+      "text": "Và mỗi ngày vào giờ ăn trưa, mụ phù thủy đều đến tòa tháp.",
+      "author": "ChatGPT4.1"
+    },
+    "72483": {
+      "id": 2592849,
+      "text": "Rapunzel! Thả tóc xuống nào!",
+      "author": "ChatGPT4.1"
+    },
+    "72484": {
+      "id": 2592850,
+      "text": "Rapunzel thả bím tóc ra ngoài cửa sổ.",
+      "author": "ChatGPT4.1"
+    },
+    "72485": {
+      "id": 2592851,
+      "text": "Mụ phù thủy trèo lên tóc của Rapunzel như trèo dây thừng",
+      "author": "ChatGPT4.1"
+    },
+    "72486": {
+      "id": 2592852,
+      "text": "và bò vào qua cửa sổ.",
+      "author": "ChatGPT4.1"
+    },
+    "72487": {
+      "id": 2592853,
+      "text": "Mụ phù thủy dạy Rapunzel cách làm thuốc bằng các loại thảo dược.",
+      "author": "ChatGPT4.1"
+    },
+    "72488": {
+      "id": 2592854,
+      "text": "Và Rapunzel yêu mến mụ phù thủy.",
+      "author": "ChatGPT4.1"
+    },
+    "72489": {
+      "id": 2592855,
+      "text": "Mụ là người bạn duy nhất của Rapunzel.",
+      "author": "ChatGPT4.1"
+    },
+    "72490": {
+      "id": 2592856,
+      "text": "Một đêm nọ, Rapunzel đang đọc sách bên cửa sổ",
+      "author": "ChatGPT4.1"
+    },
+    "72491": {
+      "id": 2592857,
+      "text": "thì cô nghe thấy ai đó phía dưới:",
+      "author": "ChatGPT4.1"
+    },
+    "72492": {
+      "id": 2592858,
+      "text": "Rapunzel! Rapunzel!",
+      "author": "ChatGPT4.1"
+    },
+    "72493": {
+      "id": 2594541,
+      "text": "Thả tóc xuống đi?!",
+      "author": "ChatGPT4.1"
+    },
+    "72494": {
+      "id": 2594542,
+      "text": "\"Lạ thật,\" cô nghĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "72495": {
+      "id": 2594543,
+      "text": "Mụ phù thủy chưa bao giờ đến muộn như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "72496": {
+      "id": 2594544,
+      "text": "Cô thả bím tóc ra ngoài cửa sổ",
+      "author": "ChatGPT4.1"
+    },
+    "72497": {
+      "id": 2594545,
+      "text": "và người đó leo lên, leo lên, leo lên.",
+      "author": "ChatGPT4.1"
+    },
+    "72498": {
+      "id": 2594546,
+      "text": "Nhưng khi người này lên đến đỉnh tháp",
+      "author": "ChatGPT4.1"
+    },
+    "72499": {
+      "id": 2594547,
+      "text": "Rapunzel thấy đó không phải là mụ phù thủy.",
+      "author": "ChatGPT4.1"
+    },
+    "72500": {
+      "id": 2594548,
+      "text": "Đó là một người đàn ông!",
+      "author": "ChatGPT4.1"
+    },
+    "72501": {
+      "id": 2594549,
+      "text": "Rapunzel vội vàng lấy cuốn sách và đập vào đầu người đàn ông.",
+      "author": "ChatGPT4.1"
+    },
+    "72503": {
+      "id": 2594550,
+      "text": "Người đàn ông lạ ngã nhào xuống sàn.",
+      "author": "ChatGPT4.1"
+    },
+    "72504": {
+      "id": 2594551,
+      "text": "\"Ái! Ái! Đừng làm đau tôi nữa!\" anh ta van xin.",
+      "author": "ChatGPT4.1"
+    },
+    "72506": {
+      "id": 2594552,
+      "text": "\"Sao anh lại trèo lên tóc tôi?\" Rapunzel hỏi gay gắt.",
+      "author": "a user"
+    },
+    "72507": {
+      "id": 2594553,
+      "text": "\"Tôi là Justin! Tên tôi là Justin!\" anh ta rên rỉ.",
+      "author": "ChatGPT4.1"
+    },
+    "72509": {
+      "id": 2596210,
+      "text": "Như bạn có thể tưởng tượng, Rapunzel không mấy ấn tượng.",
+      "author": "a user"
+    },
+    "72512": {
+      "id": 2596211,
+      "text": "Justin thở dài.",
+      "author": "ChatGPT4.1"
+    },
+    "72513": {
+      "id": 2596212,
+      "text": "Tôi xin lỗi.",
+      "author": "ChatGPT4.1"
+    },
+    "72514": {
+      "id": 2596213,
+      "text": "Tôi nghĩ đây là cơ hội để làm anh hùng.",
+      "author": "ChatGPT4.1"
+    },
+    "72515": {
+      "id": 2596214,
+      "text": "\"Ý anh là sao?\" Rapunzel hỏi.",
+      "author": "a user"
+    },
+    "72516": {
+      "id": 2596215,
+      "text": "Cơ hội để tôi trở thành người hùng!",
+      "author": "a user"
+    },
+    "72517": {
+      "id": 2596216,
+      "text": "Mỗi người đàn ông đều cần được làm anh hùng ít nhất một lần trong đời.",
+      "author": "ChatGPT4.1"
+    },
+    "72518": {
+      "id": 2596217,
+      "text": "Đó là cách duy nhất để sống hạnh phúc mãi về sau!",
+      "author": "ChatGPT4.1"
+    },
+    "72519": {
+      "id": 2596218,
+      "text": "Rapunzel đặt cuốn sách xuống.",
+      "author": "ChatGPT4.1"
+    },
+    "72520": {
+      "id": 2596219,
+      "text": "\"Tôi không cần anh hùng,\" cô nói, dịu dàng.",
+      "author": "ChatGPT4.1"
+    },
+    "72521": {
+      "id": 2596220,
+      "text": "Đi đi.",
+      "author": "ChatGPT4.1"
+    },
+    "72523": {
+      "id": 2596221,
+      "text": "Muộn rồi.",
+      "author": "a user"
+    },
+    "72524": {
+      "id": 2597120,
+      "text": "Tôi muốn đi ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "72525": {
+      "id": 2597121,
+      "text": "Rapunzel thả bím tóc qua cửa sổ.",
+      "author": "ChatGPT4.1"
+    },
+    "72527": {
+      "id": 2597122,
+      "text": "\"Bạn có vẻ tốt bụng.\"",
+      "author": "ChatGPT4.1"
+    },
+    "72531": {
+      "id": 2597123,
+      "text": "Tạm biệt, Justin.",
+      "author": "ChatGPT4.1"
+    },
+    "72532": {
+      "id": 2597124,
+      "text": "Và Justin trèo ra cửa sổ và tuột xuống theo bím tóc của Rapunzel.",
+      "author": "ChatGPT4.1"
+    },
+    "72533": {
+      "id": 2597125,
+      "text": "Ngày hôm sau, Rapunzel dọn phòng và tết tóc lại.",
+      "author": "ChatGPT4.1"
+    },
+    "72534": {
+      "id": 2597126,
+      "text": "Mụ phù thủy đến vào giờ trưa.",
+      "author": "ChatGPT4.1"
+    },
+    "72536": {
+      "id": 2597127,
+      "text": "Nhưng khi mụ phù thủy đang rời đi",
+      "author": "ChatGPT4.1"
+    },
+    "72537": {
+      "id": 2597128,
+      "text": "bà nhìn thấy sợi dây thừng của Justin nằm trên sàn.",
+      "author": "ChatGPT4.1"
+    },
+    "72538": {
+      "id": 2597129,
+      "text": "\"Sợi dây này của ai?\"",
+      "author": "ChatGPT4.1"
+    },
+    "72541": {
+      "id": 2597130,
+      "text": "Rapunzel cố gắng giải thích, nhưng mụ phù thủy quá tức giận.",
+      "author": "ChatGPT4.1"
+    },
+    "72544": {
+      "id": 2597919,
+      "text": "“Không... có một người đàn ông” Rapunzel nói.",
+      "author": "ChatGPT4.1"
+    },
+    "72545": {
+      "id": 2597920,
+      "text": "“Một người đàn ông à?” mụ phù thủy la lên.",
+      "author": "ChatGPT4.1"
+    },
+    "72546": {
+      "id": 2597921,
+      "text": "Được! Hãy đến với hắn! Đi đi!",
+      "author": "a user"
+    },
+    "72547": {
+      "id": 2597922,
+      "text": "Nước mắt tuôn trào trên khuôn mặt mụ phù thủy.",
+      "author": "ChatGPT4.1"
+    },
+    "72548": {
+      "id": 2597923,
+      "text": "Hãy đi và sống hạnh phúc mãi mãi với... hắn ta!",
+      "author": "ChatGPT4.1"
+    },
+    "72549": {
+      "id": 2597924,
+      "text": "Mụ phù thủy ném một ít bột phép thuật xuống sàn",
+      "author": "ChatGPT4.1"
+    },
+    "72550": {
+      "id": 2597925,
+      "text": "và Rapunzel lập tức chìm vào giấc ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "72551": {
+      "id": 2597926,
+      "text": "Khi tỉnh dậy, cô không còn ở trên tháp nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "72552": {
+      "id": 2597927,
+      "text": "Cô đang nằm dưới một gốc cây trong rừng.",
+      "author": "ChatGPT4.1"
+    },
+    "72554": {
+      "id": 2597928,
+      "text": "Rapunzel đã khóc suốt mười phút.",
+      "author": "ChatGPT4.1"
+    },
+    "72555": {
+      "id": 2597929,
+      "text": "Sau đó cô đứng dậy và quyết định đi tìm tòa tháp của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "72556": {
+      "id": 2597930,
+      "text": "Trong khi đó, tại tòa tháp,",
+      "author": "ChatGPT4.1"
+    },
+    "72557": {
+      "id": 2597931,
+      "text": "Justin đã quay lại như đã hứa.",
+      "author": "ChatGPT4.1"
+    },
+    "72559": {
+      "id": 2598495,
+      "text": "Anh ấy hét lên từ dưới cửa sổ.",
+      "author": "ChatGPT4.1"
+    },
+    "72560": {
+      "id": 2598496,
+      "text": "Và mái tóc rũ xuống ngay trước mặt anh.",
+      "author": "ChatGPT4.1"
+    },
+    "72561": {
+      "id": 2598497,
+      "text": "Nhưng tôi chắc là bạn cũng biết...",
+      "author": "a user"
+    },
+    "72564": {
+      "id": 2598498,
+      "text": "Khi Justin trèo lên đỉnh của tòa tháp,",
+      "author": "ChatGPT4.1"
+    },
+    "72565": {
+      "id": 2598499,
+      "text": "mụ phù thủy kéo anh ấy vào qua cửa sổ.",
+      "author": "ChatGPT4.1"
+    },
+    "72568": {
+      "id": 2598500,
+      "text": "Thế thì...",
+      "author": "ChatGPT4.1"
+    },
+    "72569": {
+      "id": 2598501,
+      "text": "Hãy đi và sống hạnh phúc mãi mãi bên nhau đi!",
+      "author": "ChatGPT4.1"
+    },
+    "72571": {
+      "id": 2598502,
+      "text": "Và ngay lúc đó, Justin bị mù.",
+      "author": "ChatGPT4.1"
+    },
+    "72572": {
+      "id": 2598503,
+      "text": "Sau khi đi bộ suốt đêm, Rapunzel đã tìm được đường về nhà.",
+      "author": "ChatGPT4.1"
+    },
+    "72573": {
+      "id": 2598504,
+      "text": "Nhưng tòa tháp đã biến mất!",
+      "author": "ChatGPT4.1"
+    },
+    "72574": {
+      "id": 2598939,
+      "text": "Tất cả những gì còn lại là một vòng tròn cháy xém trên mặt đất.",
+      "author": "ChatGPT4.1"
+    },
+    "72575": {
+      "id": 2598942,
+      "text": "\"Ôi khônggggg!\" Rapunzel kêu lên.",
+      "author": "ChatGPT4.1"
+    },
+    "72576": {
+      "id": 2598947,
+      "text": "và cô ngã xuống đất, nức nở khóc.",
+      "author": "ChatGPT4.1"
+    },
+    "72577": {
+      "id": 2598951,
+      "text": "Nhưng rồi cô nghe thấy một giọng nói vang lên từ sau những gốc cây.",
+      "author": "ChatGPT4.1"
+    },
+    "72578": {
+      "id": 2598954,
+      "text": "Xin chào?",
+      "author": "ChatGPT4.1"
+    },
+    "72579": {
+      "id": 2598956,
+      "text": "Có ai ở đó không?",
+      "author": "ChatGPT4.1"
+    },
+    "72580": {
+      "id": 2598957,
+      "text": "Bạn có thể giúp tôi không?",
+      "author": "ChatGPT4.1"
+    },
+    "72581": {
+      "id": 2598958,
+      "text": "Tôi không thể nhìn thấy gì...",
+      "author": "ChatGPT4.1"
+    },
+    "72582": {
+      "id": 2598959,
+      "text": "Tôi không nhìn thấy gì cả!",
+      "author": "ChatGPT4.1"
+    },
+    "72583": {
+      "id": 2598960,
+      "text": "Đó là Justin!",
+      "author": "ChatGPT4.1"
+    },
+    "72584": {
+      "id": 2598961,
+      "text": "Khi Rapunzel nhìn thấy đôi mắt mù lòa của Justin,",
+      "author": "ChatGPT4.1"
+    },
+    "72585": {
+      "id": 2598962,
+      "text": "cô biết phải làm gì.",
+      "author": "ChatGPT4.1"
+    },
+    "72587": {
+      "id": 2598963,
+      "text": "Rapunzel chạy vào rừng để tìm thảo dược.",
+      "author": "ChatGPT4.1"
+    },
+    "72589": {
+      "id": 2599314,
+      "text": "Sau đó, nàng bôi thuốc lên mắt Justin.",
+      "author": "ChatGPT4.1"
+    },
+    "72590": {
+      "id": 2599315,
+      "text": "Rồi... nàng lại khóc.",
+      "author": "ChatGPT4.1"
+    },
+    "72591": {
+      "id": 2599316,
+      "text": "\"Xin đừng khóc...\" Justin nói nhỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "72596": {
+      "id": 2599317,
+      "text": "\"Mọi chuyện sẽ ổn thôi,\" Justin nói.",
+      "author": "ChatGPT4.1"
+    },
+    "72597": {
+      "id": 2599318,
+      "text": "Rồi anh ấy mỉm cười.",
+      "author": "ChatGPT4.1"
+    },
+    "72599": {
+      "id": 2599319,
+      "text": "Ba ngày liên tiếp, họ cắm trại trong rừng.",
+      "author": "ChatGPT4.1"
+    },
+    "72601": {
+      "id": 2599320,
+      "text": "Justin kể cho nàng nghe mọi lần anh ấy cố gắng trở thành anh hùng.",
+      "author": "ChatGPT4.1"
+    },
+    "72602": {
+      "id": 2599321,
+      "text": "Có lần anh ấy đã cố đánh nhau với một người khổng lồ...",
+      "author": "ChatGPT4.1"
+    },
+    "72604": {
+      "id": 2613709,
+      "text": "Ông ta mời Justin vào nhà uống trà.",
+      "author": "ChatGPT4.1"
+    },
+    "72605": {
+      "id": 2613710,
+      "text": "Có lần anh đã cố giết một con rồng...",
+      "author": "ChatGPT4.1"
+    },
+    "72606": {
+      "id": 2613711,
+      "text": "Nhưng con rồng đó có các rồng con trong tổ.",
+      "author": "ChatGPT4.1"
+    },
+    "72607": {
+      "id": 2613712,
+      "text": "Justin đã không thể làm được.",
+      "author": "ChatGPT4.1"
+    },
+    "72608": {
+      "id": 2613713,
+      "text": "Có lần anh đã cứu một con mèo khỏi một cái cây...",
+      "author": "ChatGPT4.1"
+    },
+    "72610": {
+      "id": 2613714,
+      "text": "\"Làm anh hùng thật không dễ!\" anh ấy than phiền.",
+      "author": "ChatGPT4.1"
+    },
+    "72611": {
+      "id": 2613715,
+      "text": "Khi Rapunzel muốn khóc,",
+      "author": "ChatGPT4.1"
+    },
+    "72612": {
+      "id": 2613716,
+      "text": "Justin kể chuyện cười cho đến khi cô bật cười.",
+      "author": "ChatGPT4.1"
+    },
+    "72613": {
+      "id": 2613717,
+      "text": "Khi cô không ngủ được, anh lắng nghe tất cả những lo lắng của cô.",
+      "author": "ChatGPT4.1"
+    },
+    "72614": {
+      "id": 2613718,
+      "text": "Ngày thứ tư khi Rapunzel thức dậy,",
+      "author": "ChatGPT4.1"
+    },
+    "72615": {
+      "id": 2613719,
+      "text": "Justin đã thức rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "72616": {
+      "id": 2613720,
+      "text": "Anh ấy nhìn cô bằng đôi mắt xanh sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "72617": {
+      "id": 2613721,
+      "text": "Anh ấy đã nhìn thấy rồi!",
+      "author": "ChatGPT4.1"
+    },
+    "72621": {
+      "id": 2613722,
+      "text": "Rapunzel rất thích ở trong làng.",
+      "author": "ChatGPT4.1"
+    },
+    "72622": {
+      "id": 2613723,
+      "text": "Justin giúp cô xây một tòa tháp mới",
+      "author": "ChatGPT4.1"
+    },
+    "72623": {
+      "id": 2613724,
+      "text": "và lần này tòa tháp có cầu thang.",
+      "author": "ChatGPT4.1"
+    },
+    "72625": {
+      "id": 2613993,
+      "text": "Justin có từng trở thành anh hùng không?",
+      "author": "ChatGPT4.1"
+    },
+    "72626": {
+      "id": 2613994,
+      "text": "Có chứ, tất nhiên rồi!",
+      "author": "ChatGPT4.1"
+    },
+    "72627": {
+      "id": 2613995,
+      "text": "Có rất nhiều loại anh hùng.",
+      "author": "ChatGPT4.1"
+    },
+    "72629": {
+      "id": 2613996,
+      "text": "Và Justin đã giúp bạn của mình là Rapunzel.",
+      "author": "ChatGPT4.1"
+    },
+    "72630": {
+      "id": 2613997,
+      "text": "Cuối cùng Justin và Rapunzel đều sống hạnh phúc mãi mãi,",
+      "author": "ChatGPT4.1"
+    },
+    "72631": {
+      "id": 2613998,
+      "text": "đúng như phù thủy đã hứa.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,4172 @@
+{
+  "summary": {
+    "id": 2320,
+    "name": "Test 06 - Part A - Extract 2",
+    "subTitle": "Caring for a Husband with Dementia",
+    "levelName": "B2",
+    "position": 52,
+    "totalChallenges": 65,
+    "groupId": 136,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2320",
+  "detail": {
+    "id": 2320,
+    "lessonName": "Test 06 - Part A - Extract 2",
+    "name": "Test 06 - Part A - Extract 2",
+    "position": 52,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/0-test-06-part-a-extract-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 91350,
+        "position": 1,
+        "content": "Oh, hello nurse.",
+        "defaultInput": "Oh, ",
+        "jsonContent": [
+          "Oh,",
+          "hello",
+          "nurse."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "hello"
+          ],
+          [
+            "nurse."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/1.mp3",
+        "timeStart": 1.3,
+        "timeEnd": 2.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91350/list"
+      },
+      {
+        "id": 91351,
+        "position": 2,
+        "content": "My husband seems quite settled now, so I can answer those questions if you like.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "husband",
+          "seems",
+          "quite",
+          "settled",
+          "now,",
+          "so",
+          "I",
+          "can",
+          "answer",
+          "those",
+          "questions",
+          "if",
+          "you",
+          "like."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "husband"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "settled"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "answer"
+          ],
+          [
+            "those"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/2.mp3",
+        "timeStart": 2.66,
+        "timeEnd": 7.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91351/list"
+      },
+      {
+        "id": 91352,
+        "position": 3,
+        "content": "Yes, Mrs Georges, now's a good time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "Mrs",
+          "Georges,",
+          [
+            "now's",
+            "now is"
+          ],
+          "a",
+          "good",
+          "time."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Georges,"
+          ],
+          [
+            "now's",
+            "now is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/3.mp3",
+        "timeStart": 7.47,
+        "timeEnd": 10.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91352/list"
+      },
+      {
+        "id": 91353,
+        "position": 4,
+        "content": "Come in and have a seat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Come",
+          "in",
+          "and",
+          "have",
+          "a",
+          "seat."
+        ],
+        "solution": [
+          [
+            "Come"
+          ],
+          [
+            "in"
+          ],
+          [
+            "and"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "seat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/4.mp3",
+        "timeStart": 10.16,
+        "timeEnd": 11.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91353/list"
+      },
+      {
+        "id": 91354,
+        "position": 5,
+        "content": "So how are you feeling now that Mr Georges is here with us?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "how",
+          "are",
+          "you",
+          "feeling",
+          "now",
+          "that",
+          "Mr",
+          "Georges",
+          "is",
+          "here",
+          "with",
+          "us?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "how"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "feeling"
+          ],
+          [
+            "now"
+          ],
+          [
+            "that"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "Georges"
+          ],
+          [
+            "is"
+          ],
+          [
+            "here"
+          ],
+          [
+            "with"
+          ],
+          [
+            "us?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/5.mp3",
+        "timeStart": 12.25,
+        "timeEnd": 15.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91354/list"
+      },
+      {
+        "id": 91355,
+        "position": 6,
+        "content": "Oh, I know it was the right decision.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "know",
+          "it",
+          "was",
+          "the",
+          "right",
+          "decision."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "decision."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/6.mp3",
+        "timeStart": 15.8,
+        "timeEnd": 18.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91355/list"
+      },
+      {
+        "id": 91356,
+        "position": 7,
+        "content": "Being the only carer for my husband has been such hard work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Being",
+          "the",
+          "only",
+          "carer",
+          "for",
+          "my",
+          "husband",
+          "has",
+          "been",
+          "such",
+          "hard",
+          "work."
+        ],
+        "solution": [
+          [
+            "Being"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "carer"
+          ],
+          [
+            "for"
+          ],
+          [
+            "my"
+          ],
+          [
+            "husband"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "such"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/7.mp3",
+        "timeStart": 18.46,
+        "timeEnd": 22.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91356/list"
+      },
+      {
+        "id": 91357,
+        "position": 8,
+        "content": "And we did discuss everything fully with social workers and our doctor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "we",
+          "did",
+          "discuss",
+          "everything",
+          "fully",
+          "with",
+          "social",
+          "workers",
+          "and",
+          "our",
+          "doctor."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "we"
+          ],
+          [
+            "did"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "everything"
+          ],
+          [
+            "fully"
+          ],
+          [
+            "with"
+          ],
+          [
+            "social"
+          ],
+          [
+            "workers"
+          ],
+          [
+            "and"
+          ],
+          [
+            "our"
+          ],
+          [
+            "doctor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/8.mp3",
+        "timeStart": 22.64,
+        "timeEnd": 27.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91357/list"
+      },
+      {
+        "id": 91358,
+        "position": 9,
+        "content": "But I do miss having him with me at home.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "I",
+          "do",
+          "miss",
+          "having",
+          "him",
+          "with",
+          "me",
+          "at",
+          "home."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do"
+          ],
+          [
+            "miss"
+          ],
+          [
+            "having"
+          ],
+          [
+            "him"
+          ],
+          [
+            "with"
+          ],
+          [
+            "me"
+          ],
+          [
+            "at"
+          ],
+          [
+            "home."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/9.mp3",
+        "timeStart": 28.17,
+        "timeEnd": 30.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91358/list"
+      },
+      {
+        "id": 91359,
+        "position": 10,
+        "content": "It had to happen though, and I'm completely worn out.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It had",
+            "It'd"
+          ],
+          "to",
+          "happen",
+          "though,",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "completely",
+          "worn",
+          "out."
+        ],
+        "solution": [
+          [
+            "It had",
+            "It'd"
+          ],
+          [
+            "to"
+          ],
+          [
+            "happen"
+          ],
+          [
+            "though,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "worn"
+          ],
+          [
+            "out."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/10.mp3",
+        "timeStart": 31.22,
+        "timeEnd": 34.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91359/list"
+      },
+      {
+        "id": 91360,
+        "position": 11,
+        "content": "Do you mind telling me more about your husband?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "mind",
+          "telling",
+          "me",
+          "more",
+          "about",
+          "your",
+          "husband?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "telling"
+          ],
+          [
+            "me"
+          ],
+          [
+            "more"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "husband?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/11.mp3",
+        "timeStart": 35.46,
+        "timeEnd": 38.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91360/list"
+      },
+      {
+        "id": 91361,
+        "position": 12,
+        "content": "I do wish you could have seen him before all this happened.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "do",
+          "wish",
+          "you",
+          [
+            "could have",
+            "could've"
+          ],
+          "seen",
+          "him",
+          "before",
+          "all",
+          "this",
+          "happened."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "do"
+          ],
+          [
+            "wish"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could have",
+            "could've"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "him"
+          ],
+          [
+            "before"
+          ],
+          [
+            "all"
+          ],
+          [
+            "this"
+          ],
+          [
+            "happened."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/12.mp3",
+        "timeStart": 38.33,
+        "timeEnd": 42.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91361/list"
+      },
+      {
+        "id": 91362,
+        "position": 13,
+        "content": "He was so active and alert, always helping people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "so",
+          "active",
+          "and",
+          "alert,",
+          "always",
+          "helping",
+          "people."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "so"
+          ],
+          [
+            "active"
+          ],
+          [
+            "and"
+          ],
+          [
+            "alert,"
+          ],
+          [
+            "always"
+          ],
+          [
+            "helping"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/13.mp3",
+        "timeStart": 42.27,
+        "timeEnd": 46.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91362/list"
+      },
+      {
+        "id": 91363,
+        "position": 14,
+        "content": "He was in the Navy when he was younger,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "in",
+          "the",
+          "Navy",
+          "when",
+          "he",
+          "was",
+          "younger,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Navy"
+          ],
+          [
+            "when"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "younger,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/14.mp3",
+        "timeStart": 46.61,
+        "timeEnd": 49.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91363/list"
+      },
+      {
+        "id": 91364,
+        "position": 15,
+        "content": "so he'd often spend months away at a time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "he'd",
+          "often",
+          "spend",
+          "months",
+          "away",
+          "at",
+          "a",
+          "time."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "he'd"
+          ],
+          [
+            "often"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "months"
+          ],
+          [
+            "away"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/15.mp3",
+        "timeStart": 49.09,
+        "timeEnd": 52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91364/list"
+      },
+      {
+        "id": 91365,
+        "position": 16,
+        "content": "I got quite used to being on my own before he retired.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "got",
+          "quite",
+          "used",
+          "to",
+          "being",
+          "on",
+          "my",
+          "own",
+          "before",
+          "he",
+          "retired."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "being"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "own"
+          ],
+          [
+            "before"
+          ],
+          [
+            "he"
+          ],
+          [
+            "retired."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/16.mp3",
+        "timeStart": 52,
+        "timeEnd": 55.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91365/list"
+      },
+      {
+        "id": 91366,
+        "position": 17,
+        "content": "I hope you've got family nearby to help out and keep you company.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          [
+            "you've",
+            "you have"
+          ],
+          "got",
+          "family",
+          "nearby",
+          "to",
+          "help",
+          "out",
+          "and",
+          "keep",
+          "you",
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "family"
+          ],
+          [
+            "nearby"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "out"
+          ],
+          [
+            "and"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "you"
+          ],
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/17.mp3",
+        "timeStart": 56.07,
+        "timeEnd": 59.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91366/list"
+      },
+      {
+        "id": 91367,
+        "position": 18,
+        "content": "Well, I won't be lonely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "won't",
+          "be",
+          "lonely."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "lonely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/18.mp3",
+        "timeStart": 60.09,
+        "timeEnd": 61.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91367/list"
+      },
+      {
+        "id": 91368,
+        "position": 19,
+        "content": "Our son lives just round the corner and we have a daughter who comes to visit as often as she can.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "son",
+          "lives",
+          "just",
+          "round",
+          "the",
+          "corner",
+          "and",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "daughter",
+          "who",
+          "comes",
+          "to",
+          "visit",
+          "as",
+          "often",
+          "as",
+          "she",
+          "can."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "son"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "just"
+          ],
+          [
+            "round"
+          ],
+          [
+            "the"
+          ],
+          [
+            "corner"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "daughter"
+          ],
+          [
+            "who"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "as"
+          ],
+          [
+            "often"
+          ],
+          [
+            "as"
+          ],
+          [
+            "she"
+          ],
+          [
+            "can."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/19.mp3",
+        "timeStart": 62.08,
+        "timeEnd": 67.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91368/list"
+      },
+      {
+        "id": 91369,
+        "position": 20,
+        "content": "She has a young family now though, so she's quite busy.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She has",
+            "She's"
+          ],
+          "a",
+          "young",
+          "family",
+          "now",
+          "though,",
+          "so",
+          "she's",
+          "quite",
+          "busy."
+        ],
+        "solution": [
+          [
+            "She has",
+            "She's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "young"
+          ],
+          [
+            "family"
+          ],
+          [
+            "now"
+          ],
+          [
+            "though,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "busy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/20.mp3",
+        "timeStart": 67.48,
+        "timeEnd": 71.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91369/list"
+      },
+      {
+        "id": 91370,
+        "position": 21,
+        "content": "I really lost my husband when his mind started to go.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "really",
+          "lost",
+          "my",
+          "husband",
+          "when",
+          "his",
+          "mind",
+          "started",
+          "to",
+          "go."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "lost"
+          ],
+          [
+            "my"
+          ],
+          [
+            "husband"
+          ],
+          [
+            "when"
+          ],
+          [
+            "his"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/21.mp3",
+        "timeStart": 71.43,
+        "timeEnd": 75.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91370/list"
+      },
+      {
+        "id": 91371,
+        "position": 22,
+        "content": "When did you first notice something was wrong?",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "did",
+          "you",
+          [
+            "first",
+            "1st"
+          ],
+          "notice",
+          "something",
+          "was",
+          "wrong?"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "notice"
+          ],
+          [
+            "something"
+          ],
+          [
+            "was"
+          ],
+          [
+            "wrong?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/22.mp3",
+        "timeStart": 75.22,
+        "timeEnd": 77.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91371/list"
+      },
+      {
+        "id": 91372,
+        "position": 23,
+        "content": "Hard to say exactly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hard",
+          "to",
+          "say",
+          "exactly."
+        ],
+        "solution": [
+          [
+            "Hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "say"
+          ],
+          [
+            "exactly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/23.mp3",
+        "timeStart": 78.14,
+        "timeEnd": 80.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91372/list"
+      },
+      {
+        "id": 91373,
+        "position": 24,
+        "content": "I suppose you expect your memory to get worse,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "suppose",
+          "you",
+          "expect",
+          "your",
+          "memory",
+          "to",
+          "get",
+          "worse,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "suppose"
+          ],
+          [
+            "you"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "your"
+          ],
+          [
+            "memory"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "worse,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/24.mp3",
+        "timeStart": 80.05,
+        "timeEnd": 83.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91373/list"
+      },
+      {
+        "id": 91374,
+        "position": 25,
+        "content": "so you put the little lapses down as getting older.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "you",
+          "put",
+          "the",
+          "little",
+          "lapses",
+          "down",
+          "as",
+          "getting",
+          "older."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "put"
+          ],
+          [
+            "the"
+          ],
+          [
+            "little"
+          ],
+          [
+            "lapses"
+          ],
+          [
+            "down"
+          ],
+          [
+            "as"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "older."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/25.mp3",
+        "timeStart": 83.21,
+        "timeEnd": 86.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91374/list"
+      },
+      {
+        "id": 91375,
+        "position": 26,
+        "content": "We all lose our glasses and forget our names.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "all",
+          "lose",
+          "our",
+          "glasses",
+          "and",
+          "forget",
+          "our",
+          "names."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "all"
+          ],
+          [
+            "lose"
+          ],
+          [
+            "our"
+          ],
+          [
+            "glasses"
+          ],
+          [
+            "and"
+          ],
+          [
+            "forget"
+          ],
+          [
+            "our"
+          ],
+          [
+            "names."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/26.mp3",
+        "timeStart": 86.74,
+        "timeEnd": 90.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91375/list"
+      },
+      {
+        "id": 91376,
+        "position": 27,
+        "content": "But then it became clear it was more than that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "then",
+          "it",
+          "became",
+          "clear",
+          "it",
+          "was",
+          "more",
+          "than",
+          "that."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "then"
+          ],
+          [
+            "it"
+          ],
+          [
+            "became"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/27.mp3",
+        "timeStart": 90.17,
+        "timeEnd": 93.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91376/list"
+      },
+      {
+        "id": 91377,
+        "position": 28,
+        "content": "He started to seem muddled,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "started",
+          "to",
+          "seem",
+          "muddled,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "muddled,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/28.mp3",
+        "timeStart": 93.25,
+        "timeEnd": 95.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91377/list"
+      },
+      {
+        "id": 91378,
+        "position": 29,
+        "content": "you know, confused by everyday things like making a pot of tea.",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "know,",
+          "confused",
+          "by",
+          "everyday",
+          "things",
+          "like",
+          "making",
+          "a",
+          "pot",
+          "of",
+          "tea."
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "confused"
+          ],
+          [
+            "by"
+          ],
+          [
+            "everyday"
+          ],
+          [
+            "things"
+          ],
+          [
+            "like"
+          ],
+          [
+            "making"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "tea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/29.mp3",
+        "timeStart": 95.57,
+        "timeEnd": 99.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91378/list"
+      },
+      {
+        "id": 91379,
+        "position": 30,
+        "content": "He would put the tea bags into the kettle instead of in the pot, or the cups,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "He would",
+            "He'd"
+          ],
+          "put",
+          "the",
+          "tea",
+          "bags",
+          "into",
+          "the",
+          "kettle",
+          "instead",
+          "of",
+          "in",
+          "the",
+          "pot,",
+          "or",
+          "the",
+          "cups,"
+        ],
+        "solution": [
+          [
+            "He would",
+            "He'd"
+          ],
+          [
+            "put"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tea"
+          ],
+          [
+            "bags"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "kettle"
+          ],
+          [
+            "instead"
+          ],
+          [
+            "of"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pot,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cups,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/30.mp3",
+        "timeStart": 100.11,
+        "timeEnd": 104.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91379/list"
+      },
+      {
+        "id": 91380,
+        "position": 31,
+        "content": "or he'd forget about the kettle altogether and try making tea with cold water.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "he'd",
+          "forget",
+          "about",
+          "the",
+          "kettle",
+          "altogether",
+          "and",
+          "try",
+          "making",
+          "tea",
+          "with",
+          "cold",
+          "water."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "he'd"
+          ],
+          [
+            "forget"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "kettle"
+          ],
+          [
+            "altogether"
+          ],
+          [
+            "and"
+          ],
+          [
+            "try"
+          ],
+          [
+            "making"
+          ],
+          [
+            "tea"
+          ],
+          [
+            "with"
+          ],
+          [
+            "cold"
+          ],
+          [
+            "water."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/31.mp3",
+        "timeStart": 104.97,
+        "timeEnd": 109.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91380/list"
+      },
+      {
+        "id": 91381,
+        "position": 32,
+        "content": "How was he himself?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "was",
+          "he",
+          "himself?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "was"
+          ],
+          [
+            "he"
+          ],
+          [
+            "himself?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/32.mp3",
+        "timeStart": 110.06,
+        "timeEnd": 111.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91381/list"
+      },
+      {
+        "id": 91382,
+        "position": 33,
+        "content": "At first he knew something was wrong.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          [
+            "first",
+            "1st"
+          ],
+          "he",
+          "knew",
+          "something",
+          "was",
+          "wrong."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "he"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "something"
+          ],
+          [
+            "was"
+          ],
+          [
+            "wrong."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/33.mp3",
+        "timeStart": 112.9,
+        "timeEnd": 115.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91382/list"
+      },
+      {
+        "id": 91383,
+        "position": 34,
+        "content": "He was frustrated and would fly off the handle with me and I'd snap back at him.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "frustrated",
+          "and",
+          "would",
+          "fly",
+          "off",
+          "the",
+          "handle",
+          "with",
+          "me",
+          "and",
+          "I'd",
+          "snap",
+          "back",
+          "at",
+          "him."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "frustrated"
+          ],
+          [
+            "and"
+          ],
+          [
+            "would"
+          ],
+          [
+            "fly"
+          ],
+          [
+            "off"
+          ],
+          [
+            "the"
+          ],
+          [
+            "handle"
+          ],
+          [
+            "with"
+          ],
+          [
+            "me"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "snap"
+          ],
+          [
+            "back"
+          ],
+          [
+            "at"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/34.mp3",
+        "timeStart": 115.93,
+        "timeEnd": 120.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91383/list"
+      },
+      {
+        "id": 91384,
+        "position": 35,
+        "content": "I suppose I didn't realise he couldn't help it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "suppose",
+          "I",
+          "didn't",
+          [
+            "realise",
+            "realize"
+          ],
+          "he",
+          [
+            "couldn't",
+            "could not"
+          ],
+          "help",
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "suppose"
+          ],
+          [
+            "I"
+          ],
+          [
+            "didn't"
+          ],
+          [
+            "realise",
+            "realize"
+          ],
+          [
+            "he"
+          ],
+          [
+            "couldn't",
+            "could not"
+          ],
+          [
+            "help"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/35.mp3",
+        "timeStart": 121.07,
+        "timeEnd": 124.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91384/list"
+      },
+      {
+        "id": 91385,
+        "position": 36,
+        "content": "I feel teary now just talking about it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "feel",
+          "teary",
+          "now",
+          "just",
+          "talking",
+          "about",
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "teary"
+          ],
+          [
+            "now"
+          ],
+          [
+            "just"
+          ],
+          [
+            "talking"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/36.mp3",
+        "timeStart": 124.33,
+        "timeEnd": 127.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91385/list"
+      },
+      {
+        "id": 91386,
+        "position": 37,
+        "content": "After 40 years of marriage, we knew what the other was thinking most of the time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          [
+            "40",
+            "forty"
+          ],
+          "years",
+          "of",
+          "marriage,",
+          "we",
+          "knew",
+          "what",
+          "the",
+          "other",
+          "was",
+          "thinking",
+          "most",
+          "of",
+          "the",
+          "time."
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "40",
+            "forty"
+          ],
+          [
+            "years"
+          ],
+          [
+            "of"
+          ],
+          [
+            "marriage,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "what"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "was"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/37.mp3",
+        "timeStart": 127.87,
+        "timeEnd": 133.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91386/list"
+      },
+      {
+        "id": 91387,
+        "position": 38,
+        "content": "But now we can't understand one another at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "now",
+          "we",
+          "can't",
+          "understand",
+          [
+            "one",
+            "1"
+          ],
+          "another",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "now"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "another"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/38.mp3",
+        "timeStart": 133.35,
+        "timeEnd": 136.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91387/list"
+      },
+      {
+        "id": 91388,
+        "position": 39,
+        "content": "I'm sorry Mrs Georges.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry",
+          "Mrs",
+          "Georges."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Georges."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/39.mp3",
+        "timeStart": 136.59,
+        "timeEnd": 138.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91388/list"
+      },
+      {
+        "id": 91389,
+        "position": 40,
+        "content": "In the beginning, when I really started to suspect something wasn't right,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "the",
+          "beginning,",
+          "when",
+          "I",
+          "really",
+          "started",
+          "to",
+          "suspect",
+          "something",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "right,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "the"
+          ],
+          [
+            "beginning,"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "suspect"
+          ],
+          [
+            "something"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "right,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/40.mp3",
+        "timeStart": 139.63,
+        "timeEnd": 144.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91389/list"
+      },
+      {
+        "id": 91390,
+        "position": 41,
+        "content": "One of the main things he'd do would be ask me the same question again and again.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "of",
+          "the",
+          "main",
+          "things",
+          "he'd",
+          "do",
+          "would",
+          "be",
+          "ask",
+          "me",
+          "the",
+          "same",
+          "question",
+          "again",
+          "and",
+          "again."
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "main"
+          ],
+          [
+            "things"
+          ],
+          [
+            "he'd"
+          ],
+          [
+            "do"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "me"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "question"
+          ],
+          [
+            "again"
+          ],
+          [
+            "and"
+          ],
+          [
+            "again."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/41.mp3",
+        "timeStart": 145.15,
+        "timeEnd": 151.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91390/list"
+      },
+      {
+        "id": 91391,
+        "position": 42,
+        "content": "I'd say to him, Bob, you're driving me mad.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "say",
+          "to",
+          "him,",
+          "Bob,",
+          [
+            "you're",
+            "you are"
+          ],
+          "driving",
+          "me",
+          "mad."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "say"
+          ],
+          [
+            "to"
+          ],
+          [
+            "him,"
+          ],
+          [
+            "Bob,"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "driving"
+          ],
+          [
+            "me"
+          ],
+          [
+            "mad."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/42.mp3",
+        "timeStart": 151.32,
+        "timeEnd": 154.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91391/list"
+      },
+      {
+        "id": 91392,
+        "position": 43,
+        "content": "And he'd just smile, and the next minute he'd do it again.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "he'd",
+          "just",
+          "smile,",
+          "and",
+          "the",
+          "next",
+          "minute",
+          "he'd",
+          "do",
+          "it",
+          "again."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "he'd"
+          ],
+          [
+            "just"
+          ],
+          [
+            "smile,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "minute"
+          ],
+          [
+            "he'd"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it"
+          ],
+          [
+            "again."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/43.mp3",
+        "timeStart": 154.35,
+        "timeEnd": 157.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91392/list"
+      },
+      {
+        "id": 91393,
+        "position": 44,
+        "content": "But now he hardly speaks at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "now",
+          "he",
+          "hardly",
+          "speaks",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "now"
+          ],
+          [
+            "he"
+          ],
+          [
+            "hardly"
+          ],
+          [
+            "speaks"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/44.mp3",
+        "timeStart": 158,
+        "timeEnd": 160.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91393/list"
+      },
+      {
+        "id": 91394,
+        "position": 45,
+        "content": "How is he with his everyday tasks?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "is",
+          "he",
+          "with",
+          "his",
+          "everyday",
+          "tasks?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "is"
+          ],
+          [
+            "he"
+          ],
+          [
+            "with"
+          ],
+          [
+            "his"
+          ],
+          [
+            "everyday"
+          ],
+          [
+            "tasks?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/45.mp3",
+        "timeStart": 160.52,
+        "timeEnd": 163.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91394/list"
+      },
+      {
+        "id": 91395,
+        "position": 46,
+        "content": "Oh, he has a lot of trouble with dressing, I have to help him.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          [
+            "he has",
+            "he's"
+          ],
+          "a",
+          "lot",
+          "of",
+          "trouble",
+          "with",
+          "dressing,",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "help",
+          "him."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "trouble"
+          ],
+          [
+            "with"
+          ],
+          [
+            "dressing,"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/46.mp3",
+        "timeStart": 163.26,
+        "timeEnd": 167.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91395/list"
+      },
+      {
+        "id": 91396,
+        "position": 47,
+        "content": "It's as if he's completely forgotten what it is he has to do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "as",
+          "if",
+          "he's",
+          "completely",
+          "forgotten",
+          "what",
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          "to",
+          "do."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "as"
+          ],
+          [
+            "if"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "forgotten"
+          ],
+          [
+            "what"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/47.mp3",
+        "timeStart": 167.27,
+        "timeEnd": 171.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91396/list"
+      },
+      {
+        "id": 91397,
+        "position": 48,
+        "content": "Getting him to have a shave is another issue.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Getting",
+          "him",
+          "to",
+          "have",
+          "a",
+          "shave",
+          "is",
+          "another",
+          "issue."
+        ],
+        "solution": [
+          [
+            "Getting"
+          ],
+          [
+            "him"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shave"
+          ],
+          [
+            "is"
+          ],
+          [
+            "another"
+          ],
+          [
+            "issue."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/48.mp3",
+        "timeStart": 171.73,
+        "timeEnd": 174.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91397/list"
+      },
+      {
+        "id": 91398,
+        "position": 49,
+        "content": "He won't do it and he pushes me away if I try to help.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "won't",
+          "do",
+          "it",
+          "and",
+          "he",
+          "pushes",
+          "me",
+          "away",
+          "if",
+          "I",
+          "try",
+          "to",
+          "help."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it"
+          ],
+          [
+            "and"
+          ],
+          [
+            "he"
+          ],
+          [
+            "pushes"
+          ],
+          [
+            "me"
+          ],
+          [
+            "away"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/49.mp3",
+        "timeStart": 174.68,
+        "timeEnd": 178.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91398/list"
+      },
+      {
+        "id": 91399,
+        "position": 50,
+        "content": "I hate to see him looking so untidy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hate",
+          "to",
+          "see",
+          "him",
+          "looking",
+          "so",
+          "untidy."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hate"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "him"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "so"
+          ],
+          [
+            "untidy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/50.mp3",
+        "timeStart": 178.83,
+        "timeEnd": 181.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91399/list"
+      },
+      {
+        "id": 91400,
+        "position": 51,
+        "content": "He was always so particular about the way he looked.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "always",
+          "so",
+          "particular",
+          "about",
+          "the",
+          "way",
+          "he",
+          "looked."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "always"
+          ],
+          [
+            "so"
+          ],
+          [
+            "particular"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way"
+          ],
+          [
+            "he"
+          ],
+          [
+            "looked."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/51.mp3",
+        "timeStart": 181.98,
+        "timeEnd": 185.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91400/list"
+      },
+      {
+        "id": 91401,
+        "position": 52,
+        "content": "Maybe you'll have better luck with him than I had.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          [
+            "you'll",
+            "you will"
+          ],
+          "have",
+          "better",
+          "luck",
+          "with",
+          "him",
+          "than",
+          [
+            "I had.",
+            "I'd"
+          ]
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "better"
+          ],
+          [
+            "luck"
+          ],
+          [
+            "with"
+          ],
+          [
+            "him"
+          ],
+          [
+            "than"
+          ],
+          [
+            "I had.",
+            "I'd"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/52.mp3",
+        "timeStart": 186.2,
+        "timeEnd": 189.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91401/list"
+      },
+      {
+        "id": 91402,
+        "position": 53,
+        "content": "Perhaps.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perhaps."
+        ],
+        "solution": [
+          [
+            "Perhaps."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/53.mp3",
+        "timeStart": 189.62,
+        "timeEnd": 190.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91402/list"
+      },
+      {
+        "id": 91403,
+        "position": 54,
+        "content": "Oh, and the last few months he started to wander off during the day.",
+        "defaultInput": "Oh, ",
+        "jsonContent": [
+          "Oh,",
+          "and",
+          "the",
+          "last",
+          "few",
+          "months",
+          "he",
+          "started",
+          "to",
+          "wander",
+          "off",
+          "during",
+          "the",
+          "day."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "few"
+          ],
+          [
+            "months"
+          ],
+          [
+            "he"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "wander"
+          ],
+          [
+            "off"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/54.mp3",
+        "timeStart": 191.23,
+        "timeEnd": 196.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91403/list"
+      },
+      {
+        "id": 91404,
+        "position": 55,
+        "content": "That's been a real problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "been",
+          "a",
+          "real",
+          "problem."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "a"
+          ],
+          [
+            "real"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/55.mp3",
+        "timeStart": 196.05,
+        "timeEnd": 198.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91404/list"
+      },
+      {
+        "id": 91405,
+        "position": 56,
+        "content": "He would go out the front door and down the street before I even knew what was happening.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "He would",
+            "He'd"
+          ],
+          "go",
+          "out",
+          "the",
+          "front",
+          "door",
+          "and",
+          "down",
+          "the",
+          "street",
+          "before",
+          "I",
+          "even",
+          "knew",
+          "what",
+          "was",
+          "happening."
+        ],
+        "solution": [
+          [
+            "He would",
+            "He'd"
+          ],
+          [
+            "go"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "front"
+          ],
+          [
+            "door"
+          ],
+          [
+            "and"
+          ],
+          [
+            "down"
+          ],
+          [
+            "the"
+          ],
+          [
+            "street"
+          ],
+          [
+            "before"
+          ],
+          [
+            "I"
+          ],
+          [
+            "even"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "what"
+          ],
+          [
+            "was"
+          ],
+          [
+            "happening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/56.mp3",
+        "timeStart": 198.39,
+        "timeEnd": 203.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91405/list"
+      },
+      {
+        "id": 91406,
+        "position": 57,
+        "content": "I was sure that one day he was going to get hit by a car",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "was",
+          "sure",
+          "that",
+          [
+            "one",
+            "1"
+          ],
+          "day",
+          "he",
+          "was",
+          [
+            "going to",
+            "gonna"
+          ],
+          "get",
+          "hit",
+          "by",
+          "a",
+          "car"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "that"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "day"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "get"
+          ],
+          [
+            "hit"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "car"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/57.mp3",
+        "timeStart": 203.58,
+        "timeEnd": 207.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91406/list"
+      },
+      {
+        "id": 91407,
+        "position": 58,
+        "content": "and then he stopped knowing the difference between day and night",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "then",
+          "he",
+          "stopped",
+          "knowing",
+          "the",
+          "difference",
+          "between",
+          "day",
+          "and",
+          "night"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "he"
+          ],
+          [
+            "stopped"
+          ],
+          [
+            "knowing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "difference"
+          ],
+          [
+            "between"
+          ],
+          [
+            "day"
+          ],
+          [
+            "and"
+          ],
+          [
+            "night"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/58.mp3",
+        "timeStart": 207.04,
+        "timeEnd": 210.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91407/list"
+      },
+      {
+        "id": 91408,
+        "position": 59,
+        "content": "and would get up out of bed at all hours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "would",
+          "get",
+          "up",
+          "out",
+          "of",
+          "bed",
+          "at",
+          "all",
+          "hours."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "would"
+          ],
+          [
+            "get"
+          ],
+          [
+            "up"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "bed"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all"
+          ],
+          [
+            "hours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/59.mp3",
+        "timeStart": 210.57,
+        "timeEnd": 213.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91408/list"
+      },
+      {
+        "id": 91409,
+        "position": 60,
+        "content": "That really frightened me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "really",
+          "frightened",
+          "me."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "really"
+          ],
+          [
+            "frightened"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/60.mp3",
+        "timeStart": 213.31,
+        "timeEnd": 215.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91409/list"
+      },
+      {
+        "id": 91410,
+        "position": 61,
+        "content": "I used to wonder what would happen if he turned on the gas for the oven.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "used",
+          "to",
+          "wonder",
+          "what",
+          "would",
+          "happen",
+          "if",
+          "he",
+          "turned",
+          "on",
+          "the",
+          "gas",
+          "for",
+          "the",
+          "oven."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "wonder"
+          ],
+          [
+            "what"
+          ],
+          [
+            "would"
+          ],
+          [
+            "happen"
+          ],
+          [
+            "if"
+          ],
+          [
+            "he"
+          ],
+          [
+            "turned"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "gas"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "oven."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/61.mp3",
+        "timeStart": 215.53,
+        "timeEnd": 219.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91410/list"
+      },
+      {
+        "id": 91411,
+        "position": 62,
+        "content": "He was always playing with the controls for it during the day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "always",
+          "playing",
+          "with",
+          "the",
+          "controls",
+          "for",
+          "it",
+          "during",
+          "the",
+          "day."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "always"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "controls"
+          ],
+          [
+            "for"
+          ],
+          [
+            "it"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/62.mp3",
+        "timeStart": 219.51,
+        "timeEnd": 223.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91411/list"
+      },
+      {
+        "id": 91412,
+        "position": 63,
+        "content": "I'd lay there in bed in the dark listening to hear if he was going to get up",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "lay",
+          "there",
+          "in",
+          "bed",
+          "in",
+          "the",
+          "dark",
+          "listening",
+          "to",
+          "hear",
+          "if",
+          "he",
+          "was",
+          [
+            "going to",
+            "gonna"
+          ],
+          "get",
+          "up"
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "lay"
+          ],
+          [
+            "there"
+          ],
+          [
+            "in"
+          ],
+          [
+            "bed"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dark"
+          ],
+          [
+            "listening"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "if"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "get"
+          ],
+          [
+            "up"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/63.mp3",
+        "timeStart": 223.97,
+        "timeEnd": 228.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91412/list"
+      },
+      {
+        "id": 91413,
+        "position": 64,
+        "content": "and then when I finally did fall asleep any little noise would wake me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "then",
+          "when",
+          "I",
+          "finally",
+          "did",
+          "fall",
+          "asleep",
+          "any",
+          "little",
+          "noise",
+          "would",
+          "wake",
+          "me."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "finally"
+          ],
+          [
+            "did"
+          ],
+          [
+            "fall"
+          ],
+          [
+            "asleep"
+          ],
+          [
+            "any"
+          ],
+          [
+            "little"
+          ],
+          [
+            "noise"
+          ],
+          [
+            "would"
+          ],
+          [
+            "wake"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/64.mp3",
+        "timeStart": 228.22,
+        "timeEnd": 233.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91413/list"
+      },
+      {
+        "id": 91414,
+        "position": 65,
+        "content": "That's what finally convinced me to bring him here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "what",
+          "finally",
+          "convinced",
+          "me",
+          "to",
+          "bring",
+          "him",
+          "here."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "what"
+          ],
+          [
+            "finally"
+          ],
+          [
+            "convinced"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "him"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-06-part-a-extract-2-2025-08-29-22-14-51/65.mp3",
+        "timeStart": 233.81,
+        "timeEnd": 237.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91414/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "91350": {
+      "id": 3683866,
+      "text": "Ồ, xin chào y tá.",
+      "author": "ChatGPT4.1"
+    },
+    "91351": {
+      "id": 3683867,
+      "text": "Chồng tôi có vẻ đã ổn định rồi, nên tôi có thể trả lời những câu hỏi đó nếu cô muốn.",
+      "author": "ChatGPT4.1"
+    },
+    "91352": {
+      "id": 3683868,
+      "text": "Vâng, bà Georges, bây giờ là thời điểm tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "91353": {
+      "id": 3683869,
+      "text": "Mời vào và ngồi xuống đi.",
+      "author": "ChatGPT4.1"
+    },
+    "91354": {
+      "id": 3683870,
+      "text": "Vậy bà cảm thấy thế nào bây giờ khi ông Georges ở đây với chúng tôi?",
+      "author": "ChatGPT4.1"
+    },
+    "91355": {
+      "id": 3683871,
+      "text": "Ồ, tôi biết đó là quyết định đúng đắn.",
+      "author": "ChatGPT4.1"
+    },
+    "91356": {
+      "id": 3683872,
+      "text": "Việc là người chăm sóc duy nhất cho chồng tôi thật vất vả.",
+      "author": "ChatGPT4.1"
+    },
+    "91357": {
+      "id": 3683873,
+      "text": "Và chúng tôi đã thảo luận đầy đủ mọi chuyện với nhân viên xã hội và bác sĩ của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "91358": {
+      "id": 3683874,
+      "text": "Nhưng tôi thật sự nhớ việc có ông ấy ở nhà với mình.",
+      "author": "ChatGPT4.1"
+    },
+    "91359": {
+      "id": 3683875,
+      "text": "Nhưng chuyện này phải xảy ra thôi, và tôi hoàn toàn kiệt sức rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "91360": {
+      "id": 3683876,
+      "text": "Bà có phiền chia sẻ thêm với tôi về chồng bà không?",
+      "author": "ChatGPT4.1"
+    },
+    "91361": {
+      "id": 3683877,
+      "text": "Tôi ước gì cô có thể gặp ông ấy trước khi mọi chuyện này xảy ra.",
+      "author": "ChatGPT4.1"
+    },
+    "91362": {
+      "id": 3683878,
+      "text": "Ông ấy rất năng động và tỉnh táo, luôn giúp đỡ mọi người.",
+      "author": "ChatGPT4.1"
+    },
+    "91363": {
+      "id": 3683879,
+      "text": "Ông ấy từng phục vụ trong Hải quân khi còn trẻ,",
+      "author": "ChatGPT4.1"
+    },
+    "91364": {
+      "id": 3683880,
+      "text": "nên ông ấy thường phải xa nhà hàng tháng trời.",
+      "author": "ChatGPT4.1"
+    },
+    "91365": {
+      "id": 3683881,
+      "text": "Tôi khá quen với việc ở một mình trước khi ông ấy nghỉ hưu.",
+      "author": "ChatGPT4.1"
+    },
+    "91366": {
+      "id": 3683882,
+      "text": "Tôi mong bà có người thân ở gần để giúp đỡ và bầu bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "91367": {
+      "id": 3683883,
+      "text": "Ồ, tôi sẽ không cô đơn đâu.",
+      "author": "ChatGPT4.1"
+    },
+    "91368": {
+      "id": 3683884,
+      "text": "Con trai chúng tôi sống ngay gần đây và chúng tôi còn có một cô con gái thi thoảng về thăm khi có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "91369": {
+      "id": 3683885,
+      "text": "Nhưng bây giờ con bé cũng có gia đình nhỏ rồi nên khá bận rộn.",
+      "author": "ChatGPT4.1"
+    },
+    "91370": {
+      "id": 3683886,
+      "text": "Tôi thật sự “mất” chồng mình từ khi trí nhớ ông ấy bắt đầu kém đi.",
+      "author": "ChatGPT4.1"
+    },
+    "91371": {
+      "id": 3683887,
+      "text": "Bà phát hiện có vấn đề từ khi nào?",
+      "author": "ChatGPT4.1"
+    },
+    "91372": {
+      "id": 3683888,
+      "text": "Thật khó mà nói chính xác.",
+      "author": "ChatGPT4.1"
+    },
+    "91373": {
+      "id": 3683889,
+      "text": "Tôi nghĩ ai cũng mong trí nhớ không tệ đi,",
+      "author": "ChatGPT4.1"
+    },
+    "91374": {
+      "id": 3683890,
+      "text": "nên bạn quy những chuyện hay quên nhỏ nhặt là do lớn tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "91375": {
+      "id": 3683891,
+      "text": "Ai cũng từng để quên kính hoặc quên tên mình mà.",
+      "author": "ChatGPT4.1"
+    },
+    "91376": {
+      "id": 3683892,
+      "text": "Nhưng rồi tôi thấy rõ đó không chỉ là vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "91377": {
+      "id": 3683893,
+      "text": "Ông ấy bắt đầu trở nên lẫn lộn,",
+      "author": "ChatGPT4.1"
+    },
+    "91378": {
+      "id": 3683894,
+      "text": "cô biết đấy, rối rắm cả với những việc thường nhật như pha trà.",
+      "author": "ChatGPT4.1"
+    },
+    "91379": {
+      "id": 3683895,
+      "text": "Ông ấy bỏ túi trà vào ấm đun nước thay vì cho vào bình trà hay cốc,",
+      "author": "ChatGPT4.1"
+    },
+    "91380": {
+      "id": 3683896,
+      "text": "hoặc thậm chí quên cả việc nấu nước, rồi pha trà bằng nước lạnh.",
+      "author": "ChatGPT4.1"
+    },
+    "91381": {
+      "id": 3683897,
+      "text": "Ông ấy thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "91382": {
+      "id": 3683898,
+      "text": "Ban đầu ông ấy biết là mình có vấn đề.",
+      "author": "ChatGPT4.1"
+    },
+    "91383": {
+      "id": 3683899,
+      "text": "Ông ấy bực bội, dễ nổi giận với tôi và tôi cũng hay phản ứng lại.",
+      "author": "ChatGPT4.1"
+    },
+    "91384": {
+      "id": 3683900,
+      "text": "Tôi nghĩ lúc đó tôi không hiểu rằng ông ấy không thể kiểm soát chuyện đó.",
+      "author": "ChatGPT4.1"
+    },
+    "91385": {
+      "id": 3683901,
+      "text": "Bây giờ chỉ nói đến thôi là tôi cũng muốn khóc rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "91386": {
+      "id": 3683902,
+      "text": "Sau 40 năm chung sống, chúng tôi hầu như đều biết người kia đang nghĩ gì.",
+      "author": "a user"
+    },
+    "91387": {
+      "id": 3683903,
+      "text": "Nhưng bây giờ thì chẳng thể hiểu nhau nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "91388": {
+      "id": 3683904,
+      "text": "Tôi xin lỗi bà Georges.",
+      "author": "ChatGPT4.1"
+    },
+    "91389": {
+      "id": 3683905,
+      "text": "Ban đầu, khi tôi thật sự bắt đầu nghi ngờ có chuyện không ổn,",
+      "author": "ChatGPT4.1"
+    },
+    "91390": {
+      "id": 3683906,
+      "text": "Một trong những điều dễ nhận thấy nhất là ông ấy cứ hỏi đi hỏi lại một câu hỏi.",
+      "author": "ChatGPT4.1"
+    },
+    "91391": {
+      "id": 3683907,
+      "text": "Tôi hay nói với ông ấy, Bob à, anh làm em phát điên đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "91392": {
+      "id": 3683908,
+      "text": "Và ông ấy chỉ cười, rồi ngay sau đó lại hỏi tiếp.",
+      "author": "ChatGPT4.1"
+    },
+    "91393": {
+      "id": 3683909,
+      "text": "Nhưng giờ đây ông ấy hầu như chẳng còn nói gì nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "91394": {
+      "id": 3683910,
+      "text": "Ông ấy làm các việc hàng ngày thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "91395": {
+      "id": 3683911,
+      "text": "Ô, ông ấy gặp rất nhiều khó khăn trong việc mặc đồ, tôi phải giúp ông ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "91396": {
+      "id": 3683912,
+      "text": "Như thể ông ấy hoàn toàn quên mất mình phải làm gì.",
+      "author": "ChatGPT4.1"
+    },
+    "91397": {
+      "id": 3683913,
+      "text": "Bắt ông ấy cạo râu cũng là một vấn đề khác.",
+      "author": "ChatGPT4.1"
+    },
+    "91398": {
+      "id": 3683914,
+      "text": "Ông ấy không chịu làm và nếu tôi giúp thì ông ấy lại đẩy tôi ra.",
+      "author": "ChatGPT4.1"
+    },
+    "91399": {
+      "id": 3683915,
+      "text": "Tôi ghét khi thấy ông ấy trông luộm thuộm như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "91400": {
+      "id": 3683916,
+      "text": "Ông ấy trước đây luôn rất chú ý đến vẻ ngoài của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "91401": {
+      "id": 3683917,
+      "text": "Có lẽ anh/chị sẽ may mắn hơn tôi khi chăm sóc ông ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "91402": {
+      "id": 3683918,
+      "text": "Có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "91403": {
+      "id": 3683919,
+      "text": "Ồ, và vài tháng gần đây ông ấy bắt đầu lang thang bên ngoài vào ban ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "91404": {
+      "id": 3683920,
+      "text": "Đó thật sự là một vấn đề lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "91405": {
+      "id": 3683921,
+      "text": "Ông ấy đi ra cửa trước và xuống phố trước cả khi tôi kịp nhận ra có chuyện gì xảy ra.",
+      "author": "ChatGPT4.1"
+    },
+    "91406": {
+      "id": 3683922,
+      "text": "Tôi luôn nghĩ rằng sẽ có ngày ông ấy bị xe đâm",
+      "author": "ChatGPT4.1"
+    },
+    "91407": {
+      "id": 3683923,
+      "text": "rồi ông ấy cũng không phân biệt được ngày và đêm nữa",
+      "author": "ChatGPT4.1"
+    },
+    "91408": {
+      "id": 3683924,
+      "text": "và cứ dậy khỏi giường vào bất kỳ lúc nào.",
+      "author": "ChatGPT4.1"
+    },
+    "91409": {
+      "id": 3683925,
+      "text": "Điều đó thực sự làm tôi sợ hãi.",
+      "author": "ChatGPT4.1"
+    },
+    "91410": {
+      "id": 3683926,
+      "text": "Tôi từng tự hỏi chuyện gì sẽ xảy ra nếu ông ấy mở gas lò nướng.",
+      "author": "ChatGPT4.1"
+    },
+    "91411": {
+      "id": 3683927,
+      "text": "Ông ấy luôn nghịch các nút điều khiển của nó vào ban ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "91412": {
+      "id": 3683928,
+      "text": "Tôi nằm trên giường trong bóng tối lắng nghe xem ông ấy có định dậy hay không",
+      "author": "ChatGPT4.1"
+    },
+    "91413": {
+      "id": 3683929,
+      "text": "và rồi khi tôi vừa chợp mắt thì bất kỳ tiếng động nhỏ nào cũng khiến tôi tỉnh giấc.",
+      "author": "ChatGPT4.1"
+    },
+    "91414": {
+      "id": 3683930,
+      "text": "Đó là điều cuối cùng đã thuyết phục tôi đưa ông ấy đến đây.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

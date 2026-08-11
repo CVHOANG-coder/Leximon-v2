@@ -1,0 +1,699 @@
+{
+  "summary": {
+    "id": 1245,
+    "name": "Conversation 106",
+    "subTitle": "Booking a Switzerland Flight",
+    "levelName": "B1",
+    "position": 279,
+    "totalChallenges": 12,
+    "groupId": 41,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1245",
+  "detail": {
+    "id": 1245,
+    "lessonName": "Conversation 106",
+    "name": "Conversation 106",
+    "position": 279,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/0-conversation-106.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55436,
+        "position": 1,
+        "content": "Hey, Lily.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "Lily."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "Lily."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55436/list"
+      },
+      {
+        "id": 55437,
+        "position": 2,
+        "content": "Which flight did you book for our trip to Switzerland?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "flight",
+          "did",
+          "you",
+          "book",
+          "for",
+          "our",
+          "trip",
+          "to",
+          "Switzerland?"
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "book"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Switzerland?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/2.mp3",
+        "timeStart": 1.05,
+        "timeEnd": 4.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55437/list"
+      },
+      {
+        "id": 55438,
+        "position": 3,
+        "content": "Well, I'm still exploring the options.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "still",
+          "exploring",
+          "the",
+          "options."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "still"
+          ],
+          [
+            "exploring"
+          ],
+          [
+            "the"
+          ],
+          [
+            "options."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/3.mp3",
+        "timeStart": 4.15,
+        "timeEnd": 7.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55438/list"
+      },
+      {
+        "id": 55439,
+        "position": 4,
+        "content": "I remember that last time we booked well in advance,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "remember",
+          "that",
+          "last",
+          "time",
+          "we",
+          "booked",
+          "well",
+          "in",
+          "advance,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "that"
+          ],
+          [
+            "last"
+          ],
+          [
+            "time"
+          ],
+          [
+            "we"
+          ],
+          [
+            "booked"
+          ],
+          [
+            "well"
+          ],
+          [
+            "in"
+          ],
+          [
+            "advance,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/4.mp3",
+        "timeStart": 7.26,
+        "timeEnd": 10.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55439/list"
+      },
+      {
+        "id": 55440,
+        "position": 5,
+        "content": "only to find out that the airfare plummeted after just one week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "only",
+          "to",
+          "find",
+          "out",
+          "that",
+          "the",
+          "airfare",
+          "plummeted",
+          "after",
+          "just",
+          [
+            "one",
+            "1"
+          ],
+          "week."
+        ],
+        "solution": [
+          [
+            "only"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "airfare"
+          ],
+          [
+            "plummeted"
+          ],
+          [
+            "after"
+          ],
+          [
+            "just"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/5.mp3",
+        "timeStart": 10.81,
+        "timeEnd": 15.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55440/list"
+      },
+      {
+        "id": 55441,
+        "position": 6,
+        "content": "Yeah, that was unfortunate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "that",
+          "was",
+          "unfortunate."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "unfortunate."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/6.mp3",
+        "timeStart": 15.15,
+        "timeEnd": 17.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55441/list"
+      },
+      {
+        "id": 55442,
+        "position": 7,
+        "content": "So, uh... what are we going to look at?",
+        "defaultInput": "So, uh... ",
+        "jsonContent": [
+          "So,",
+          "uh...",
+          "what",
+          "are",
+          "we",
+          [
+            "going to",
+            "gonna"
+          ],
+          "look",
+          "at?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "uh..."
+          ],
+          [
+            "what"
+          ],
+          [
+            "are"
+          ],
+          [
+            "we"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/7.mp3",
+        "timeStart": 17.26,
+        "timeEnd": 19.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55442/list"
+      },
+      {
+        "id": 55443,
+        "position": 8,
+        "content": "Well, there are two flights to Switzerland.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "there",
+          "are",
+          [
+            "two",
+            "2"
+          ],
+          "flights",
+          "to",
+          "Switzerland."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "flights"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Switzerland."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/8.mp3",
+        "timeStart": 19.75,
+        "timeEnd": 22.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55443/list"
+      },
+      {
+        "id": 55444,
+        "position": 9,
+        "content": "One leaves at 10 am, and the other leaves at 2:30 pm.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "leaves",
+          "at",
+          [
+            "10",
+            "ten"
+          ],
+          "am,",
+          "and",
+          "the",
+          "other",
+          "leaves",
+          "at",
+          "2:30",
+          "pm."
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "leaves"
+          ],
+          [
+            "at"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "am,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "leaves"
+          ],
+          [
+            "at"
+          ],
+          [
+            "2:30"
+          ],
+          [
+            "pm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/9.mp3",
+        "timeStart": 22.5,
+        "timeEnd": 26.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55444/list"
+      },
+      {
+        "id": 55445,
+        "position": 10,
+        "content": "I'm leaning toward the one in the morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "leaning",
+          "toward",
+          "the",
+          [
+            "one",
+            "1"
+          ],
+          "in",
+          "the",
+          "morning."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "leaning"
+          ],
+          [
+            "toward"
+          ],
+          [
+            "the"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/10.mp3",
+        "timeStart": 26.03,
+        "timeEnd": 28.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55445/list"
+      },
+      {
+        "id": 55446,
+        "position": 11,
+        "content": "We could have breakfast at my place before catching the flight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          [
+            "could have",
+            "could've"
+          ],
+          "breakfast",
+          "at",
+          "my",
+          "place",
+          "before",
+          "catching",
+          "the",
+          "flight."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "could have",
+            "could've"
+          ],
+          [
+            "breakfast"
+          ],
+          [
+            "at"
+          ],
+          [
+            "my"
+          ],
+          [
+            "place"
+          ],
+          [
+            "before"
+          ],
+          [
+            "catching"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/11.mp3",
+        "timeStart": 28.39,
+        "timeEnd": 31.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55446/list"
+      },
+      {
+        "id": 55447,
+        "position": 12,
+        "content": "Perfect. I'll make a reservation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perfect.",
+          [
+            "I'll",
+            "I will"
+          ],
+          "make",
+          "a",
+          "reservation."
+        ],
+        "solution": [
+          [
+            "Perfect."
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reservation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-106-2023-10-03-11-37-02/12.mp3",
+        "timeStart": 31.49,
+        "timeEnd": 33.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55447/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55439": {
+      "id": 963610,
+      "text": "Tôi nhớ lần trước chúng ta đã đặt vé trước từ sớm,",
+      "author": "a user"
+    },
+    "55440": {
+      "id": 963611,
+      "text": "để rồi phát hiện ra rằng giá vé máy bay đã giảm mạnh chỉ sau một tuần.",
+      "author": "a user"
+    },
+    "55444": {
+      "id": 963615,
+      "text": "Một chuyến đi lúc 10 giờ sáng và chuyến còn lại đi lúc 2 giờ 30 chiều.",
+      "author": "a user"
+    },
+    "55445": {
+      "id": 963616,
+      "text": "Tôi đang nghiêng về chuyến bay vào buổi sáng.",
+      "author": "a user"
+    },
+    "55436": {
+      "id": 2649190,
+      "text": "Này, Lily.",
+      "author": "ChatGPT4.1"
+    },
+    "55437": {
+      "id": 2649191,
+      "text": "Bạn đã đặt chuyến bay nào cho chuyến đi Thụy Sĩ của chúng ta?",
+      "author": "ChatGPT4.1"
+    },
+    "55438": {
+      "id": 2649192,
+      "text": "Ừm, mình vẫn đang xem xét các lựa chọn.",
+      "author": "ChatGPT4.1"
+    },
+    "55441": {
+      "id": 2649193,
+      "text": "Đúng vậy, thật không may.",
+      "author": "ChatGPT4.1"
+    },
+    "55442": {
+      "id": 2649194,
+      "text": "Vậy... chúng ta sẽ xem xét cái gì?",
+      "author": "ChatGPT4.1"
+    },
+    "55443": {
+      "id": 2649195,
+      "text": "Có hai chuyến bay đến Thụy Sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "55446": {
+      "id": 2649196,
+      "text": "Chúng ta có thể ăn sáng ở nhà mình trước khi ra sân bay.",
+      "author": "ChatGPT4.1"
+    },
+    "55447": {
+      "id": 2649197,
+      "text": "Hoàn hảo. Mình sẽ đặt chỗ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

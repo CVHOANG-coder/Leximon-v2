@@ -1,0 +1,591 @@
+{
+  "summary": {
+    "id": 462,
+    "name": "64. How's Your New Job Going?",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 65,
+    "totalChallenges": 12,
+    "groupId": 105,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/462",
+  "detail": {
+    "id": 462,
+    "lessonName": "64. How's Your New Job Going?",
+    "name": "64. How's Your New Job Going?",
+    "position": 65,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/0-64-hows-your-new-job-going.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18462,
+        "position": 1,
+        "content": "Oh, Miss Wallace! Long time no see.",
+        "defaultInput": "Oh, Miss Wallace! ",
+        "jsonContent": [
+          "Oh,",
+          [
+            "Miss",
+            "Ms"
+          ],
+          "Wallace!",
+          "Long",
+          "time",
+          "no",
+          "see."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "Miss",
+            "Ms"
+          ],
+          [
+            "Wallace!"
+          ],
+          [
+            "Long"
+          ],
+          [
+            "time"
+          ],
+          [
+            "no"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/1.mp3",
+        "timeStart": 3.36,
+        "timeEnd": 6.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18462/list"
+      },
+      {
+        "id": 18463,
+        "position": 2,
+        "content": "How are you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "are",
+          "you?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/2.mp3",
+        "timeStart": 6.22,
+        "timeEnd": 7.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18463/list"
+      },
+      {
+        "id": 18464,
+        "position": 3,
+        "content": "Good. Thank you. How's your new job?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good.",
+          "Thank",
+          "you.",
+          "How's",
+          "your",
+          "new",
+          "job?"
+        ],
+        "solution": [
+          [
+            "Good."
+          ],
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ],
+          [
+            "How's"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "job?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/3.mp3",
+        "timeStart": 7.48,
+        "timeEnd": 9.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18464/list"
+      },
+      {
+        "id": 18465,
+        "position": 4,
+        "content": "I started working today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "started",
+          "working",
+          "today."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "started"
+          ],
+          [
+            "working"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/4.mp3",
+        "timeStart": 9.76,
+        "timeEnd": 11.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18465/list"
+      },
+      {
+        "id": 18466,
+        "position": 5,
+        "content": "How does it seem so far?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "does",
+          "it",
+          "seem",
+          "so",
+          "far?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "does"
+          ],
+          [
+            "it"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "so"
+          ],
+          [
+            "far?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/5.mp3",
+        "timeStart": 11.57,
+        "timeEnd": 12.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18466/list"
+      },
+      {
+        "id": 18467,
+        "position": 6,
+        "content": "It's demanding, but I'm happy to be working.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "demanding,",
+          "but",
+          [
+            "I'm",
+            "I am"
+          ],
+          "happy",
+          "to",
+          "be",
+          "working."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "demanding,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "working."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/6.mp3",
+        "timeStart": 12.98,
+        "timeEnd": 15.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18467/list"
+      },
+      {
+        "id": 18468,
+        "position": 7,
+        "content": "What's your boss like?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What's",
+            "what is"
+          ],
+          "your",
+          "boss",
+          "like?"
+        ],
+        "solution": [
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "your"
+          ],
+          [
+            "boss"
+          ],
+          [
+            "like?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/7.mp3",
+        "timeStart": 15.82,
+        "timeEnd": 17.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18468/list"
+      },
+      {
+        "id": 18469,
+        "position": 8,
+        "content": "He appears to be very thoughtful and kind,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "appears",
+          "to",
+          "be",
+          "very",
+          "thoughtful",
+          "and",
+          "kind,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "appears"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "very"
+          ],
+          [
+            "thoughtful"
+          ],
+          [
+            "and"
+          ],
+          [
+            "kind,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/8.mp3",
+        "timeStart": 17.05,
+        "timeEnd": 19.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18469/list"
+      },
+      {
+        "id": 18470,
+        "position": 9,
+        "content": "but they all do at first.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "they",
+          "all",
+          "do",
+          "at",
+          [
+            "first.",
+            "1st"
+          ]
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "they"
+          ],
+          [
+            "all"
+          ],
+          [
+            "do"
+          ],
+          [
+            "at"
+          ],
+          [
+            "first.",
+            "1st"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/9.mp3",
+        "timeStart": 19.79,
+        "timeEnd": 21.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18470/list"
+      },
+      {
+        "id": 18471,
+        "position": 10,
+        "content": "I guess we will have to wait and see.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "guess",
+          [
+            "we will",
+            "we'll"
+          ],
+          "have",
+          "to",
+          "wait",
+          "and",
+          "see."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "guess"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "and"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/10.mp3",
+        "timeStart": 21.44,
+        "timeEnd": 23.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18471/list"
+      },
+      {
+        "id": 18472,
+        "position": 11,
+        "content": "Well, I wish you the best of luck.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "wish",
+          "you",
+          "the",
+          "best",
+          "of",
+          "luck."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "wish"
+          ],
+          [
+            "you"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "of"
+          ],
+          [
+            "luck."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/11.mp3",
+        "timeStart": 23.67,
+        "timeEnd": 25.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18472/list"
+      },
+      {
+        "id": 18473,
+        "position": 12,
+        "content": "Thanks, take care.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks,",
+          "take",
+          "care."
+        ],
+        "solution": [
+          [
+            "Thanks,"
+          ],
+          [
+            "take"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/64-hows-your-new-job-going-2022-03-07-21-26-14/12.mp3",
+        "timeStart": 25.58,
+        "timeEnd": 27.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18473/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18463": {
+      "id": 36613,
+      "text": "Bạn thế nào?",
+      "author": "a user"
+    },
+    "18465": {
+      "id": 36616,
+      "text": "Tôi đã bắt đầu làm việc hôm nay.",
+      "author": "a user"
+    },
+    "18466": {
+      "id": 36617,
+      "text": "Cho đến nay mọi thứ thế nào rồi?",
+      "author": "a user"
+    },
+    "18467": {
+      "id": 36628,
+      "text": "Công việc đòi hỏi khắt khe, nhưng tôi rất vui khi được làm việc.",
+      "author": "a user"
+    },
+    "18468": {
+      "id": 36631,
+      "text": "Sếp của bạn là người như thế nào?",
+      "author": "a user"
+    },
+    "18469": {
+      "id": 36632,
+      "text": "Anh ấy có vẻ rất chu đáo và tốt bụng,",
+      "author": "a user"
+    },
+    "18470": {
+      "id": 36636,
+      "text": "nhưng ai cũng thế lúc mới bắt đầu",
+      "author": "a user"
+    },
+    "18472": {
+      "id": 36643,
+      "text": "Vâng, tôi chúc bạn những điều may mắn nhất.",
+      "author": "a user"
+    },
+    "18473": {
+      "id": 36646,
+      "text": "Cảm ơn, bảo trọng nhé.",
+      "author": "a user"
+    },
+    "18462": {
+      "id": 2593144,
+      "text": "Ôi, cô Wallace! Lâu rồi không gặp cô.",
+      "author": "ChatGPT4.1"
+    },
+    "18464": {
+      "id": 2593145,
+      "text": "Tôi ổn. Cảm ơn cô. Công việc mới của cô thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "18471": {
+      "id": 2593146,
+      "text": "Tôi nghĩ chúng ta sẽ phải chờ xem sao.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

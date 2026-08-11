@@ -1,0 +1,519 @@
+{
+  "summary": {
+    "id": 1150,
+    "name": "Short Talk 52",
+    "subTitle": "Interview Coordination Request",
+    "levelName": "B1",
+    "position": 184,
+    "totalChallenges": 8,
+    "groupId": 36,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1150",
+  "detail": {
+    "id": 1150,
+    "lessonName": "Short Talk 52",
+    "name": "Short Talk 52",
+    "position": 184,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/0-short-talk-52.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54226,
+        "position": 1,
+        "content": "Hi Jane, it's Sarah.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi",
+          "Jane,",
+          "it's",
+          "Sarah."
+        ],
+        "solution": [
+          [
+            "Hi"
+          ],
+          [
+            "Jane,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "Sarah."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.44,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54226/list"
+      },
+      {
+        "id": 54227,
+        "position": 2,
+        "content": "Are you available to meet at noon, tomorrow?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "available",
+          "to",
+          "meet",
+          "at",
+          "noon,",
+          "tomorrow?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "available"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "at"
+          ],
+          [
+            "noon,"
+          ],
+          [
+            "tomorrow?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/2.mp3",
+        "timeStart": 1.44,
+        "timeEnd": 3.87,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54227/list"
+      },
+      {
+        "id": 54228,
+        "position": 3,
+        "content": "We need to hold interviews for the customer service representative position.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "need",
+          "to",
+          "hold",
+          "interviews",
+          "for",
+          "the",
+          "customer",
+          "service",
+          "representative",
+          "position."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hold"
+          ],
+          [
+            "interviews"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "customer"
+          ],
+          [
+            "service"
+          ],
+          [
+            "representative"
+          ],
+          [
+            "position."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/3.mp3",
+        "timeStart": 3.87,
+        "timeEnd": 8.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54228/list"
+      },
+      {
+        "id": 54229,
+        "position": 4,
+        "content": "As you already know, there is only two months before the opening of the new center.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "already",
+          "know,",
+          [
+            "there is",
+            "there's"
+          ],
+          "only",
+          [
+            "two",
+            "2"
+          ],
+          "months",
+          "before",
+          "the",
+          "opening",
+          "of",
+          "the",
+          "new",
+          [
+            "center.",
+            "centre"
+          ]
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "already"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "there is",
+            "there's"
+          ],
+          [
+            "only"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "months"
+          ],
+          [
+            "before"
+          ],
+          [
+            "the"
+          ],
+          [
+            "opening"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "center.",
+            "centre"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/4.mp3",
+        "timeStart": 8.01,
+        "timeEnd": 12.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54229/list"
+      },
+      {
+        "id": 54230,
+        "position": 5,
+        "content": "I'm going to send you an email now with a shortlist of the most qualified candidates.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "send",
+          "you",
+          "an",
+          "email",
+          "now",
+          "with",
+          "a",
+          "shortlist",
+          "of",
+          "the",
+          "most",
+          "qualified",
+          "candidates."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "send"
+          ],
+          [
+            "you"
+          ],
+          [
+            "an"
+          ],
+          [
+            "email"
+          ],
+          [
+            "now"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shortlist"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "qualified"
+          ],
+          [
+            "candidates."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/5.mp3",
+        "timeStart": 12.72,
+        "timeEnd": 17.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54230/list"
+      },
+      {
+        "id": 54231,
+        "position": 6,
+        "content": "Before we meet tomorrow, please select four applicants to continue.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "we",
+          "meet",
+          "tomorrow,",
+          "please",
+          "select",
+          [
+            "four",
+            "4"
+          ],
+          "applicants",
+          "to",
+          "continue."
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "we"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "tomorrow,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "select"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "applicants"
+          ],
+          [
+            "to"
+          ],
+          [
+            "continue."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/6.mp3",
+        "timeStart": 17.71,
+        "timeEnd": 21.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54231/list"
+      },
+      {
+        "id": 54232,
+        "position": 7,
+        "content": "Call me back to confirm that tomorrow works for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Call",
+          "me",
+          "back",
+          "to",
+          "confirm",
+          "that",
+          "tomorrow",
+          "works",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "Call"
+          ],
+          [
+            "me"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "confirm"
+          ],
+          [
+            "that"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "works"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/7.mp3",
+        "timeStart": 21.74,
+        "timeEnd": 24.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54232/list"
+      },
+      {
+        "id": 54233,
+        "position": 8,
+        "content": "Thanks!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks!"
+        ],
+        "solution": [
+          [
+            "Thanks!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-52-2023-09-19-20-54-08/8.mp3",
+        "timeStart": 24.56,
+        "timeEnd": 25.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54233/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54227": {
+      "id": 895216,
+      "text": "Bạn có rảnh để gặp tôi vào buổi trưa ngày mai không?",
+      "author": "a user"
+    },
+    "54226": {
+      "id": 2598051,
+      "text": "Chào Jane, là Sarah đây.",
+      "author": "ChatGPT4.1"
+    },
+    "54228": {
+      "id": 2598052,
+      "text": "Chúng ta cần tổ chức phỏng vấn cho vị trí đại diện chăm sóc khách hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "54229": {
+      "id": 2598053,
+      "text": "Như bạn đã biết, chỉ còn hai tháng nữa là trung tâm mới sẽ khai trương.",
+      "author": "ChatGPT4.1"
+    },
+    "54230": {
+      "id": 2598054,
+      "text": "Tôi sẽ gửi cho bạn một email ngay bây giờ với danh sách rút gọn các ứng viên phù hợp nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "54231": {
+      "id": 2598055,
+      "text": "Trước khi chúng ta gặp nhau ngày mai, làm ơn chọn bốn ứng viên để tiếp tục.",
+      "author": "ChatGPT4.1"
+    },
+    "54232": {
+      "id": 2598056,
+      "text": "Gọi lại cho tôi để xác nhận rằng ngày mai được với bạn nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "54233": {
+      "id": 2598057,
+      "text": "Cảm ơn!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

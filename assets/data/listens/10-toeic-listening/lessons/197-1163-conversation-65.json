@@ -1,0 +1,829 @@
+{
+  "summary": {
+    "id": 1163,
+    "name": "Conversation 65",
+    "subTitle": "Car Repair Pickup Call",
+    "levelName": "B1",
+    "position": 197,
+    "totalChallenges": 14,
+    "groupId": 37,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1163",
+  "detail": {
+    "id": 1163,
+    "lessonName": "Conversation 65",
+    "name": "Conversation 65",
+    "position": 197,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/0-conversation-65.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54388,
+        "position": 1,
+        "content": "Hello, Mr. Bourne.",
+        "defaultInput": "Hello, Mr. Bourne.",
+        "jsonContent": [
+          "Hello,",
+          "Mr.",
+          "Bourne."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Bourne."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/1.mp3",
+        "timeStart": 0.38,
+        "timeEnd": 1.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54388/list"
+      },
+      {
+        "id": 54389,
+        "position": 2,
+        "content": "I'm calling to inform you that your sedan is ready for pickup.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "to",
+          "inform",
+          "you",
+          "that",
+          "your",
+          "sedan",
+          "is",
+          "ready",
+          "for",
+          "pickup."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "to"
+          ],
+          [
+            "inform"
+          ],
+          [
+            "you"
+          ],
+          [
+            "that"
+          ],
+          [
+            "your"
+          ],
+          [
+            "sedan"
+          ],
+          [
+            "is"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "for"
+          ],
+          [
+            "pickup."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/2.mp3",
+        "timeStart": 1.86,
+        "timeEnd": 5.41,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54389/list"
+      },
+      {
+        "id": 54390,
+        "position": 3,
+        "content": "Great!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great!"
+        ],
+        "solution": [
+          [
+            "Great!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/3.mp3",
+        "timeStart": 6.29,
+        "timeEnd": 7.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54390/list"
+      },
+      {
+        "id": 54391,
+        "position": 4,
+        "content": "What time are you open till?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "time",
+          "are",
+          "you",
+          "open",
+          "till?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "time"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "open"
+          ],
+          [
+            "till?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/4.mp3",
+        "timeStart": 7.45,
+        "timeEnd": 9.36,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54391/list"
+      },
+      {
+        "id": 54392,
+        "position": 5,
+        "content": "I can stop by after work if that's okay.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "stop",
+          "by",
+          "after",
+          "work",
+          "if",
+          "that's",
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "by"
+          ],
+          [
+            "after"
+          ],
+          [
+            "work"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/5.mp3",
+        "timeStart": 9.36,
+        "timeEnd": 12.34,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54392/list"
+      },
+      {
+        "id": 54393,
+        "position": 6,
+        "content": "We close at 9 pm.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "close",
+          "at",
+          [
+            "9",
+            "nine"
+          ],
+          "pm."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "close"
+          ],
+          [
+            "at"
+          ],
+          [
+            "9",
+            "nine"
+          ],
+          [
+            "pm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/6.mp3",
+        "timeStart": 13.02,
+        "timeEnd": 14.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54393/list"
+      },
+      {
+        "id": 54394,
+        "position": 7,
+        "content": "And your new total comes to $350.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "your",
+          "new",
+          "total",
+          "comes",
+          "to",
+          [
+            "$350.",
+            "350. dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "total"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "$350.",
+            "350. dollars"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/7.mp3",
+        "timeStart": 14.93,
+        "timeEnd": 18.42,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54394/list"
+      },
+      {
+        "id": 54395,
+        "position": 8,
+        "content": "Whoa, this is way more than what I was quoted.",
+        "defaultInput": "Whoa, ",
+        "jsonContent": [
+          "Whoa,",
+          "this",
+          "is",
+          "way",
+          "more",
+          "than",
+          "what",
+          "I",
+          "was",
+          "quoted."
+        ],
+        "solution": [
+          [
+            "Whoa,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "way"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "quoted."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/8.mp3",
+        "timeStart": 19.26,
+        "timeEnd": 23.36,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54395/list"
+      },
+      {
+        "id": 54396,
+        "position": 9,
+        "content": "Well, the mechanic had a good look under the hood,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          "mechanic",
+          "had",
+          "a",
+          "good",
+          "look",
+          "under",
+          "the",
+          "hood,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "mechanic"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "look"
+          ],
+          [
+            "under"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hood,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/9.mp3",
+        "timeStart": 24.48,
+        "timeEnd": 27.73,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54396/list"
+      },
+      {
+        "id": 54397,
+        "position": 10,
+        "content": "and your car needed a lot more work than we had expected.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "your",
+          "car",
+          "needed",
+          "a",
+          "lot",
+          "more",
+          "work",
+          "than",
+          [
+            "we had",
+            "We'd"
+          ],
+          "expected."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "your"
+          ],
+          [
+            "car"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "more"
+          ],
+          [
+            "work"
+          ],
+          [
+            "than"
+          ],
+          [
+            "we had",
+            "We'd"
+          ],
+          [
+            "expected."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/10.mp3",
+        "timeStart": 27.73,
+        "timeEnd": 31.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54397/list"
+      },
+      {
+        "id": 54398,
+        "position": 11,
+        "content": "He fixed a coolant leak and replaced the brake pads, battery, and fan belt.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "fixed",
+          "a",
+          "coolant",
+          "leak",
+          "and",
+          "replaced",
+          "the",
+          "brake",
+          "pads,",
+          "battery,",
+          "and",
+          "fan",
+          "belt."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "fixed"
+          ],
+          [
+            "a"
+          ],
+          [
+            "coolant"
+          ],
+          [
+            "leak"
+          ],
+          [
+            "and"
+          ],
+          [
+            "replaced"
+          ],
+          [
+            "the"
+          ],
+          [
+            "brake"
+          ],
+          [
+            "pads,"
+          ],
+          [
+            "battery,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "fan"
+          ],
+          [
+            "belt."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/11.mp3",
+        "timeStart": 31.63,
+        "timeEnd": 37.07,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54398/list"
+      },
+      {
+        "id": 54399,
+        "position": 12,
+        "content": "I came with one problem, and you found like a hundred others.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "came",
+          "with",
+          [
+            "one",
+            "1"
+          ],
+          "problem,",
+          "and",
+          "you",
+          "found",
+          "like",
+          "a",
+          "hundred",
+          "others."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "came"
+          ],
+          [
+            "with"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "problem,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "found"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hundred"
+          ],
+          [
+            "others."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/12.mp3",
+        "timeStart": 37.85,
+        "timeEnd": 42.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54399/list"
+      },
+      {
+        "id": 54400,
+        "position": 13,
+        "content": "Oh well, what else can I do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "well,",
+          "what",
+          "else",
+          "can",
+          "I",
+          "do?"
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "else"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/13.mp3",
+        "timeStart": 42.25,
+        "timeEnd": 45.34,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54400/list"
+      },
+      {
+        "id": 54401,
+        "position": 14,
+        "content": "Also, please note that we accept only cash and personal checks for repairs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "please",
+          "note",
+          "that",
+          "we",
+          "accept",
+          "only",
+          "cash",
+          "and",
+          "personal",
+          "checks",
+          "for",
+          "repairs."
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "note"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "accept"
+          ],
+          [
+            "only"
+          ],
+          [
+            "cash"
+          ],
+          [
+            "and"
+          ],
+          [
+            "personal"
+          ],
+          [
+            "checks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "repairs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-65-2023-09-23-21-39-42/14.mp3",
+        "timeStart": 46.3,
+        "timeEnd": 51.99,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54401/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54389": {
+      "id": 903345,
+      "text": "Tôi gọi để thông báo rằng chiếc sedan của bạn đã sẵn sàng để lấy về.",
+      "author": "a user"
+    },
+    "54395": {
+      "id": 903351,
+      "text": "Whoa, cái này nhiều hơn rất nhiều so với những gì tôi đã được báo giá.",
+      "author": "a user"
+    },
+    "54400": {
+      "id": 903356,
+      "text": "Ôi chao, tôi có thể làm gì khác đây?",
+      "author": "a user"
+    },
+    "54401": {
+      "id": 903357,
+      "text": "Ngoài ra, xin lưu ý rằng chúng tôi chỉ chấp nhận tiền mặt và séc cá nhân cho việc sửa chữa.",
+      "author": "a user"
+    },
+    "54399": {
+      "id": 1491700,
+      "text": "Tôi chỉ gặp một vấn đề, còn bạn thì tìm thấy hàng trăm vấn đề khác.",
+      "author": "a user"
+    },
+    "54388": {
+      "id": 2603592,
+      "text": "Xin chào, ông Bourne.",
+      "author": "ChatGPT4.1"
+    },
+    "54390": {
+      "id": 2603593,
+      "text": "Tuyệt vời!",
+      "author": "ChatGPT4.1"
+    },
+    "54391": {
+      "id": 2603594,
+      "text": "Ông mở cửa đến mấy giờ?",
+      "author": "ChatGPT4.1"
+    },
+    "54392": {
+      "id": 2603595,
+      "text": "Tôi có thể ghé qua sau giờ làm nếu được.",
+      "author": "ChatGPT4.1"
+    },
+    "54393": {
+      "id": 2603596,
+      "text": "Chúng tôi đóng cửa lúc 9 giờ tối.",
+      "author": "ChatGPT4.1"
+    },
+    "54394": {
+      "id": 2603597,
+      "text": "Và tổng số tiền mới của ông là 350 đô la.",
+      "author": "ChatGPT4.1"
+    },
+    "54396": {
+      "id": 2603598,
+      "text": "Thực ra, thợ máy đã kiểm tra kỹ dưới nắp ca pô,",
+      "author": "ChatGPT4.1"
+    },
+    "54397": {
+      "id": 2603599,
+      "text": "và xe của ông cần sửa chữa nhiều hơn chúng tôi dự đoán.",
+      "author": "ChatGPT4.1"
+    },
+    "54398": {
+      "id": 2603600,
+      "text": "Anh ấy đã sửa rò rỉ nước làm mát và thay má phanh, bình ắc quy, cùng dây đai quạt.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

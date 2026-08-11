@@ -1,0 +1,1286 @@
+{
+  "summary": {
+    "id": 1076,
+    "name": "Conversation 22",
+    "subTitle": "Missing Expense Reports",
+    "levelName": "B1",
+    "position": 114,
+    "totalChallenges": 21,
+    "groupId": 33,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1076",
+  "detail": {
+    "id": 1076,
+    "lessonName": "Conversation 22",
+    "name": "Conversation 22",
+    "position": 114,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/0-conversation-22.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53024,
+        "position": 1,
+        "content": "Good morning, am I speaking with Rick Rows?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          "am",
+          "I",
+          "speaking",
+          "with",
+          "Rick",
+          "Rows?"
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "am"
+          ],
+          [
+            "I"
+          ],
+          [
+            "speaking"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Rick"
+          ],
+          [
+            "Rows?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/1.mp3",
+        "timeStart": 0.45,
+        "timeEnd": 3.74,
+        "hints": [
+          "Rick Rows"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53024/list"
+      },
+      {
+        "id": 53025,
+        "position": 2,
+        "content": "I'm Geri Calwell, from the head office.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "Geri",
+          "Calwell,",
+          "from",
+          "the",
+          "head",
+          "office."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Geri"
+          ],
+          [
+            "Calwell,"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "head"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/2.mp3",
+        "timeStart": 3.86,
+        "timeEnd": 7.2,
+        "hints": [
+          "Geri Calwell"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53025/list"
+      },
+      {
+        "id": 53026,
+        "position": 3,
+        "content": "I am still waiting for the expense reports from January.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "still",
+          "waiting",
+          "for",
+          "the",
+          "expense",
+          "reports",
+          "from",
+          "January."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "still"
+          ],
+          [
+            "waiting"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "expense"
+          ],
+          [
+            "reports"
+          ],
+          [
+            "from"
+          ],
+          [
+            "January."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/3.mp3",
+        "timeStart": 7.2,
+        "timeEnd": 10.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53026/list"
+      },
+      {
+        "id": 53027,
+        "position": 4,
+        "content": "The deadline for the reports is always on the 15th of the next month,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "deadline",
+          "for",
+          "the",
+          "reports",
+          "is",
+          "always",
+          "on",
+          "the",
+          [
+            "15th",
+            "fifteenth"
+          ],
+          "of",
+          "the",
+          "next",
+          "month,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "deadline"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reports"
+          ],
+          [
+            "is"
+          ],
+          [
+            "always"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "15th",
+            "fifteenth"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "month,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/4.mp3",
+        "timeStart": 11.17,
+        "timeEnd": 15.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53027/list"
+      },
+      {
+        "id": 53028,
+        "position": 5,
+        "content": "so I was wondering if something came up?",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "was",
+          "wondering",
+          "if",
+          "something",
+          "came",
+          "up?"
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "wondering"
+          ],
+          [
+            "if"
+          ],
+          [
+            "something"
+          ],
+          [
+            "came"
+          ],
+          [
+            "up?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/5.mp3",
+        "timeStart": 15.57,
+        "timeEnd": 18.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53028/list"
+      },
+      {
+        "id": 53029,
+        "position": 6,
+        "content": "Hi, Geri. I'm sorry about that,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "Geri.",
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry",
+          "about",
+          "that,"
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Geri."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/6.mp3",
+        "timeStart": 19.09,
+        "timeEnd": 21.76,
+        "hints": [
+          "Geri"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53029/list"
+      },
+      {
+        "id": 53030,
+        "position": 7,
+        "content": "but I actually sent them off on the 12th using the interoffice mail.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "actually",
+          "sent",
+          "them",
+          "off",
+          "on",
+          "the",
+          [
+            "12th",
+            "twelfth"
+          ],
+          "using",
+          "the",
+          "interoffice",
+          "mail."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "them"
+          ],
+          [
+            "off"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "12th",
+            "twelfth"
+          ],
+          [
+            "using"
+          ],
+          [
+            "the"
+          ],
+          [
+            "interoffice"
+          ],
+          [
+            "mail."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/7.mp3",
+        "timeStart": 21.91,
+        "timeEnd": 26.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53030/list"
+      },
+      {
+        "id": 53031,
+        "position": 8,
+        "content": "I even remember placing them in the outgoing tray.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "even",
+          "remember",
+          "placing",
+          "them",
+          "in",
+          "the",
+          "outgoing",
+          "tray."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "even"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "placing"
+          ],
+          [
+            "them"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "outgoing"
+          ],
+          [
+            "tray."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/8.mp3",
+        "timeStart": 26.51,
+        "timeEnd": 29.71,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/53031/list"
+      },
+      {
+        "id": 53032,
+        "position": 9,
+        "content": "That's bizarre.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "bizarre."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "bizarre."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/9.mp3",
+        "timeStart": 29.71,
+        "timeEnd": 30.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53032/list"
+      },
+      {
+        "id": 53033,
+        "position": 10,
+        "content": "Hmm... Yeah, this has never happened before.",
+        "defaultInput": "Hmm... ",
+        "jsonContent": [
+          "Hmm...",
+          "Yeah,",
+          "this",
+          "has",
+          "never",
+          "happened",
+          "before."
+        ],
+        "solution": [
+          [
+            "Hmm..."
+          ],
+          [
+            "Yeah,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "has"
+          ],
+          [
+            "never"
+          ],
+          [
+            "happened"
+          ],
+          [
+            "before."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/10.mp3",
+        "timeStart": 31.83,
+        "timeEnd": 35.15,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/53033/list"
+      },
+      {
+        "id": 53034,
+        "position": 11,
+        "content": "I will double check with the other departments",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "double",
+          "check",
+          "with",
+          "the",
+          "other",
+          "departments"
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "double"
+          ],
+          [
+            "check"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "departments"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/11.mp3",
+        "timeStart": 35.31,
+        "timeEnd": 37.85,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/53034/list"
+      },
+      {
+        "id": 53035,
+        "position": 12,
+        "content": "as maybe they got delivered somewhere else in the building.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "maybe",
+          "they",
+          "got",
+          "delivered",
+          "somewhere",
+          "else",
+          "in",
+          "the",
+          "building."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "they"
+          ],
+          [
+            "got"
+          ],
+          [
+            "delivered"
+          ],
+          [
+            "somewhere"
+          ],
+          [
+            "else"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "building."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/12.mp3",
+        "timeStart": 37.85,
+        "timeEnd": 40.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53035/list"
+      },
+      {
+        "id": 53036,
+        "position": 13,
+        "content": "Just in case, can you email me the reports as soon as possible?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "in",
+          "case,",
+          "can",
+          "you",
+          "email",
+          "me",
+          "the",
+          "reports",
+          "as",
+          "soon",
+          "as",
+          "possible?"
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "in"
+          ],
+          [
+            "case,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "email"
+          ],
+          [
+            "me"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reports"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/13.mp3",
+        "timeStart": 41.38,
+        "timeEnd": 46.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53036/list"
+      },
+      {
+        "id": 53037,
+        "position": 14,
+        "content": "I need to work on the report this afternoon,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "need",
+          "to",
+          "work",
+          "on",
+          "the",
+          "report",
+          "this",
+          "afternoon,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "report"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/14.mp3",
+        "timeStart": 46.41,
+        "timeEnd": 49.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53037/list"
+      },
+      {
+        "id": 53038,
+        "position": 15,
+        "content": "so I will need a digital copy, just this once.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "I will",
+            "I'll"
+          ],
+          "need",
+          "a",
+          "digital",
+          "copy,",
+          "just",
+          "this",
+          "once."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "digital"
+          ],
+          [
+            "copy,"
+          ],
+          [
+            "just"
+          ],
+          [
+            "this"
+          ],
+          [
+            "once."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/15.mp3",
+        "timeStart": 49.58,
+        "timeEnd": 53.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53038/list"
+      },
+      {
+        "id": 53039,
+        "position": 16,
+        "content": "I actually have a meeting at the head office in about an hour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "actually",
+          "have",
+          "a",
+          "meeting",
+          "at",
+          "the",
+          "head",
+          "office",
+          "in",
+          "about",
+          "an",
+          "hour."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "head"
+          ],
+          [
+            "office"
+          ],
+          [
+            "in"
+          ],
+          [
+            "about"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/16.mp3",
+        "timeStart": 54.22,
+        "timeEnd": 57.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53039/list"
+      },
+      {
+        "id": 53040,
+        "position": 17,
+        "content": "I can quickly print another report and drop it off to your office before my meeting, if that suits you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "quickly",
+          "print",
+          "another",
+          "report",
+          "and",
+          "drop",
+          "it",
+          "off",
+          "to",
+          "your",
+          "office",
+          "before",
+          "my",
+          "meeting,",
+          "if",
+          "that",
+          "suits",
+          "you?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "quickly"
+          ],
+          [
+            "print"
+          ],
+          [
+            "another"
+          ],
+          [
+            "report"
+          ],
+          [
+            "and"
+          ],
+          [
+            "drop"
+          ],
+          [
+            "it"
+          ],
+          [
+            "off"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "office"
+          ],
+          [
+            "before"
+          ],
+          [
+            "my"
+          ],
+          [
+            "meeting,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that"
+          ],
+          [
+            "suits"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/17.mp3",
+        "timeStart": 58.34,
+        "timeEnd": 64.81,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53040/list"
+      },
+      {
+        "id": 53041,
+        "position": 18,
+        "content": "Yeah, that would be great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "that",
+          "would",
+          "be",
+          "great."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/18.mp3",
+        "timeStart": 65.28,
+        "timeEnd": 67.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53041/list"
+      },
+      {
+        "id": 53042,
+        "position": 19,
+        "content": "I am on the fourth floor, office 402.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "on",
+          "the",
+          [
+            "fourth",
+            "4th"
+          ],
+          "floor,",
+          "office",
+          "402."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fourth",
+            "4th"
+          ],
+          [
+            "floor,"
+          ],
+          [
+            "office"
+          ],
+          [
+            "402."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/19.mp3",
+        "timeStart": 67.61,
+        "timeEnd": 71.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53042/list"
+      },
+      {
+        "id": 53043,
+        "position": 20,
+        "content": "If for some reason I'm not in my office,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "for",
+          "some",
+          "reason",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "in",
+          "my",
+          "office,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "for"
+          ],
+          [
+            "some"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "office,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/20.mp3",
+        "timeStart": 72.07,
+        "timeEnd": 75.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53043/list"
+      },
+      {
+        "id": 53044,
+        "position": 21,
+        "content": "please leave it on my desk.",
+        "defaultInput": "",
+        "jsonContent": [
+          "please",
+          "leave",
+          "it",
+          "on",
+          "my",
+          "desk."
+        ],
+        "solution": [
+          [
+            "please"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "it"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "desk."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-22-2023-09-12-17-16-41/21.mp3",
+        "timeStart": 75.04,
+        "timeEnd": 76.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53044/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "53024": {
+      "id": 2588947,
+      "text": "Chào buổi sáng, tôi đang nói chuyện với Rick Rows đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "53025": {
+      "id": 2588948,
+      "text": "Tôi là Geri Calwell, từ trụ sở chính.",
+      "author": "a user"
+    },
+    "53026": {
+      "id": 2588949,
+      "text": "Tôi vẫn đang chờ các báo cáo chi tiêu từ tháng Một.",
+      "author": "ChatGPT4.1"
+    },
+    "53027": {
+      "id": 2588950,
+      "text": "Hạn chót nộp báo cáo luôn là ngày 15 của tháng sau,",
+      "author": "ChatGPT4.1"
+    },
+    "53028": {
+      "id": 2588951,
+      "text": "nên tôi tự hỏi có chuyện gì xảy ra không?",
+      "author": "ChatGPT4.1"
+    },
+    "53029": {
+      "id": 2588952,
+      "text": "Chào Geri. Tôi xin lỗi về điều đó,",
+      "author": "ChatGPT4.1"
+    },
+    "53030": {
+      "id": 2588953,
+      "text": "nhưng thật ra tôi đã gửi chúng đi vào ngày 12 bằng thư nội bộ.",
+      "author": "ChatGPT4.1"
+    },
+    "53031": {
+      "id": 2588954,
+      "text": "Tôi còn nhớ đã đặt chúng vào khay thư đi.",
+      "author": "ChatGPT4.1"
+    },
+    "53032": {
+      "id": 2588955,
+      "text": "Thật lạ lùng.",
+      "author": "ChatGPT4.1"
+    },
+    "53033": {
+      "id": 2588956,
+      "text": "Ừm... Vâng, điều này chưa từng xảy ra trước đây.",
+      "author": "ChatGPT4.1"
+    },
+    "53034": {
+      "id": 2588957,
+      "text": "Tôi sẽ kiểm tra lại với các phòng ban khác",
+      "author": "ChatGPT4.1"
+    },
+    "53035": {
+      "id": 2588958,
+      "text": "vì có thể chúng đã được giao nhầm đến chỗ khác trong tòa nhà.",
+      "author": "ChatGPT4.1"
+    },
+    "53036": {
+      "id": 2588959,
+      "text": "Để chắc ăn, bạn có thể gửi báo cáo cho tôi qua email càng sớm càng tốt được không?",
+      "author": "a user"
+    },
+    "53037": {
+      "id": 2588960,
+      "text": "Tôi cần làm việc với báo cáo vào chiều nay,",
+      "author": "ChatGPT4.1"
+    },
+    "53038": {
+      "id": 2588961,
+      "text": "nên tôi sẽ cần một bản sao kỹ thuật số, chỉ lần này thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "53039": {
+      "id": 2588962,
+      "text": "Thật ra tôi có một cuộc họp tại văn phòng chính trong khoảng một giờ nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "53040": {
+      "id": 2588963,
+      "text": "Tôi có thể in nhanh một bản báo cáo khác và mang đến văn phòng của bạn trước cuộc họp, nếu điều đó phù hợp với bạn?",
+      "author": "ChatGPT4.1"
+    },
+    "53041": {
+      "id": 2588964,
+      "text": "Vâng, điều đó sẽ rất tuyệt.",
+      "author": "ChatGPT4.1"
+    },
+    "53042": {
+      "id": 2588965,
+      "text": "Tôi ở tầng bốn, phòng 402.",
+      "author": "ChatGPT4.1"
+    },
+    "53043": {
+      "id": 2588966,
+      "text": "Nếu vì lý do nào đó tôi không có mặt tại văn phòng,",
+      "author": "ChatGPT4.1"
+    },
+    "53044": {
+      "id": 2588967,
+      "text": "xin vui lòng để nó trên bàn làm việc của tôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

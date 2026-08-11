@@ -1,0 +1,1308 @@
+{
+  "summary": {
+    "id": 2264,
+    "name": "Test 08 - Part B - Extract 1",
+    "subTitle": "Early Onset Alzheimer’s Diagnosis",
+    "levelName": "B2",
+    "position": 73,
+    "totalChallenges": 21,
+    "groupId": 138,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2264",
+  "detail": {
+    "id": 2264,
+    "lessonName": "Test 08 - Part B - Extract 1",
+    "name": "Test 08 - Part B - Extract 1",
+    "position": 73,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/0-test-01-part-b-extract-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 89603,
+        "position": 1,
+        "content": "Hello, Mrs Cox. Come in and sit down.",
+        "defaultInput": "Hello, Mrs Cox. ",
+        "jsonContent": [
+          "Hello,",
+          "Mrs",
+          "Cox.",
+          "Come",
+          "in",
+          "and",
+          "sit",
+          "down."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Cox."
+          ],
+          [
+            "Come"
+          ],
+          [
+            "in"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "down."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/1.mp3",
+        "timeStart": 0.54,
+        "timeEnd": 3.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89603/list"
+      },
+      {
+        "id": 89604,
+        "position": 2,
+        "content": "Oh, thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/2.mp3",
+        "timeStart": 3.04,
+        "timeEnd": 4.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89604/list"
+      },
+      {
+        "id": 89605,
+        "position": 3,
+        "content": "How are you today?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "are",
+          "you",
+          "today?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/3.mp3",
+        "timeStart": 4.62,
+        "timeEnd": 5.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89605/list"
+      },
+      {
+        "id": 89606,
+        "position": 4,
+        "content": "Oh, fine, thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "fine,",
+          "thanks."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "fine,"
+          ],
+          [
+            "thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/4.mp3",
+        "timeStart": 5.85,
+        "timeEnd": 7.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89606/list"
+      },
+      {
+        "id": 89607,
+        "position": 5,
+        "content": "And how's your father doing since we last spoke?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "how's",
+          "your",
+          "father",
+          "doing",
+          "since",
+          "we",
+          "last",
+          "spoke?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "how's"
+          ],
+          [
+            "your"
+          ],
+          [
+            "father"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "since"
+          ],
+          [
+            "we"
+          ],
+          [
+            "last"
+          ],
+          [
+            "spoke?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/5.mp3",
+        "timeStart": 7.37,
+        "timeEnd": 10.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89607/list"
+      },
+      {
+        "id": 89608,
+        "position": 6,
+        "content": "Ah, up and down.",
+        "defaultInput": "Ah, ",
+        "jsonContent": [
+          "Ah,",
+          "up",
+          "and",
+          "down."
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "up"
+          ],
+          [
+            "and"
+          ],
+          [
+            "down."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/6.mp3",
+        "timeStart": 10.15,
+        "timeEnd": 11.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89608/list"
+      },
+      {
+        "id": 89609,
+        "position": 7,
+        "content": "I'm still finding he seems to be getting increasingly forgetful",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "still",
+          "finding",
+          "he",
+          "seems",
+          "to",
+          "be",
+          "getting",
+          "increasingly",
+          "forgetful"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "still"
+          ],
+          [
+            "finding"
+          ],
+          [
+            "he"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "increasingly"
+          ],
+          [
+            "forgetful"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/7.mp3",
+        "timeStart": 11.7,
+        "timeEnd": 15.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89609/list"
+      },
+      {
+        "id": 89610,
+        "position": 8,
+        "content": "and he gets confused easily.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "he",
+          "gets",
+          "confused",
+          "easily."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "he"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "confused"
+          ],
+          [
+            "easily."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/8.mp3",
+        "timeStart": 15.11,
+        "timeEnd": 17.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89610/list"
+      },
+      {
+        "id": 89611,
+        "position": 9,
+        "content": "And this makes me really frustrated.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "this",
+          "makes",
+          "me",
+          "really",
+          "frustrated."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "this"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "me"
+          ],
+          [
+            "really"
+          ],
+          [
+            "frustrated."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/9.mp3",
+        "timeStart": 17.55,
+        "timeEnd": 20.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89611/list"
+      },
+      {
+        "id": 89612,
+        "position": 10,
+        "content": "So, as you remember from last time, we did a range of tests on your father.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "as",
+          "you",
+          "remember",
+          "from",
+          "last",
+          "time,",
+          "we",
+          "did",
+          "a",
+          "range",
+          "of",
+          "tests",
+          "on",
+          "your",
+          "father."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "from"
+          ],
+          [
+            "last"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "did"
+          ],
+          [
+            "a"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "tests"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "father."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/10.mp3",
+        "timeStart": 21.27,
+        "timeEnd": 27.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89612/list"
+      },
+      {
+        "id": 89613,
+        "position": 11,
+        "content": "And based on those results, it does look like he's developed an early onset Alzheimer's disease.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "based",
+          "on",
+          "those",
+          "results,",
+          "it",
+          "does",
+          "look",
+          "like",
+          "he's",
+          "developed",
+          "an",
+          "early",
+          "onset",
+          "Alzheimer's",
+          "disease."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "based"
+          ],
+          [
+            "on"
+          ],
+          [
+            "those"
+          ],
+          [
+            "results,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "does"
+          ],
+          [
+            "look"
+          ],
+          [
+            "like"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "developed"
+          ],
+          [
+            "an"
+          ],
+          [
+            "early"
+          ],
+          [
+            "onset"
+          ],
+          [
+            "Alzheimer's"
+          ],
+          [
+            "disease."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/11.mp3",
+        "timeStart": 27.25,
+        "timeEnd": 35.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89613/list"
+      },
+      {
+        "id": 89614,
+        "position": 12,
+        "content": "So, that would probably account for his memory loss, his feelings of hopelessness and his anger at times as well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "that",
+          "would",
+          "probably",
+          "account",
+          "for",
+          "his",
+          "memory",
+          "loss,",
+          "his",
+          "feelings",
+          "of",
+          "hopelessness",
+          "and",
+          "his",
+          "anger",
+          "at",
+          "times",
+          "as",
+          "well."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "account"
+          ],
+          [
+            "for"
+          ],
+          [
+            "his"
+          ],
+          [
+            "memory"
+          ],
+          [
+            "loss,"
+          ],
+          [
+            "his"
+          ],
+          [
+            "feelings"
+          ],
+          [
+            "of"
+          ],
+          [
+            "hopelessness"
+          ],
+          [
+            "and"
+          ],
+          [
+            "his"
+          ],
+          [
+            "anger"
+          ],
+          [
+            "at"
+          ],
+          [
+            "times"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/12.mp3",
+        "timeStart": 35.53,
+        "timeEnd": 43.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89614/list"
+      },
+      {
+        "id": 89615,
+        "position": 13,
+        "content": "What do you think the next step is then?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "do",
+          "you",
+          "think",
+          "the",
+          "next",
+          "step",
+          "is",
+          "then?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "step"
+          ],
+          [
+            "is"
+          ],
+          [
+            "then?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/13.mp3",
+        "timeStart": 43.78,
+        "timeEnd": 46.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89615/list"
+      },
+      {
+        "id": 89616,
+        "position": 14,
+        "content": "We can't do anything about his memory",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "can't",
+          "do",
+          "anything",
+          "about",
+          "his",
+          "memory"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "do"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "about"
+          ],
+          [
+            "his"
+          ],
+          [
+            "memory"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/14.mp3",
+        "timeStart": 47.03,
+        "timeEnd": 49.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89616/list"
+      },
+      {
+        "id": 89617,
+        "position": 15,
+        "content": "but we can help him to change his mood and enjoy life more.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "can",
+          "help",
+          "him",
+          "to",
+          "change",
+          "his",
+          "mood",
+          "and",
+          "enjoy",
+          "life",
+          "more."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "help"
+          ],
+          [
+            "him"
+          ],
+          [
+            "to"
+          ],
+          [
+            "change"
+          ],
+          [
+            "his"
+          ],
+          [
+            "mood"
+          ],
+          [
+            "and"
+          ],
+          [
+            "enjoy"
+          ],
+          [
+            "life"
+          ],
+          [
+            "more."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/15.mp3",
+        "timeStart": 49.78,
+        "timeEnd": 53.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89617/list"
+      },
+      {
+        "id": 89618,
+        "position": 16,
+        "content": "There's some good medications around that may slow the deterioration.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "some",
+          "good",
+          "medications",
+          "around",
+          "that",
+          "may",
+          "slow",
+          "the",
+          "deterioration."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "some"
+          ],
+          [
+            "good"
+          ],
+          [
+            "medications"
+          ],
+          [
+            "around"
+          ],
+          [
+            "that"
+          ],
+          [
+            "may"
+          ],
+          [
+            "slow"
+          ],
+          [
+            "the"
+          ],
+          [
+            "deterioration."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/16.mp3",
+        "timeStart": 54.17,
+        "timeEnd": 60.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89618/list"
+      },
+      {
+        "id": 89619,
+        "position": 17,
+        "content": "I think it's important he goes back to the aged care home and find some enjoyment in the activities they do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "it's",
+          "important",
+          "he",
+          "goes",
+          "back",
+          "to",
+          "the",
+          "aged",
+          "care",
+          "home",
+          "and",
+          "find",
+          "some",
+          "enjoyment",
+          "in",
+          "the",
+          "activities",
+          "they",
+          "do."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "important"
+          ],
+          [
+            "he"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "aged"
+          ],
+          [
+            "care"
+          ],
+          [
+            "home"
+          ],
+          [
+            "and"
+          ],
+          [
+            "find"
+          ],
+          [
+            "some"
+          ],
+          [
+            "enjoyment"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "they"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/17.mp3",
+        "timeStart": 60.76,
+        "timeEnd": 68.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89619/list"
+      },
+      {
+        "id": 89620,
+        "position": 18,
+        "content": "It's difficult to determine the long-term outlook,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "difficult",
+          "to",
+          "determine",
+          "the",
+          [
+            "long-term",
+            "long term"
+          ],
+          "outlook,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "to"
+          ],
+          [
+            "determine"
+          ],
+          [
+            "the"
+          ],
+          [
+            "long-term",
+            "long term"
+          ],
+          [
+            "outlook,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/18.mp3",
+        "timeStart": 68.35,
+        "timeEnd": 71.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89620/list"
+      },
+      {
+        "id": 89621,
+        "position": 19,
+        "content": "but we'll start him on medication and will check on him again in a couple of weeks to see how he's going.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "we'll",
+            "we will"
+          ],
+          "start",
+          "him",
+          "on",
+          "medication",
+          "and",
+          "will",
+          "check",
+          "on",
+          "him",
+          "again",
+          "in",
+          "a",
+          "couple",
+          "of",
+          "weeks",
+          "to",
+          "see",
+          "how",
+          "he's",
+          "going."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "start"
+          ],
+          [
+            "him"
+          ],
+          [
+            "on"
+          ],
+          [
+            "medication"
+          ],
+          [
+            "and"
+          ],
+          [
+            "will"
+          ],
+          [
+            "check"
+          ],
+          [
+            "on"
+          ],
+          [
+            "him"
+          ],
+          [
+            "again"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "weeks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "how"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "going."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/19.mp3",
+        "timeStart": 71.13,
+        "timeEnd": 76.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89621/list"
+      },
+      {
+        "id": 89622,
+        "position": 20,
+        "content": "Okay, thank you doctor.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "thank",
+          "you",
+          "doctor."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "doctor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/20.mp3",
+        "timeStart": 76.95,
+        "timeEnd": 78.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89622/list"
+      },
+      {
+        "id": 89623,
+        "position": 21,
+        "content": "I'm grateful for all your help.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "grateful",
+          "for",
+          "all",
+          "your",
+          "help."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "grateful"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "your"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-1-2025-08-29-20-56-28/21.mp3",
+        "timeStart": 78.83,
+        "timeEnd": 80.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89623/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "89603": {
+      "id": 3684822,
+      "text": "Chào bà Cox. Mời bà vào và ngồi xuống.",
+      "author": "ChatGPT4.1"
+    },
+    "89604": {
+      "id": 3684823,
+      "text": "Ồ, cảm ơn bác sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "89605": {
+      "id": 3684824,
+      "text": "Hôm nay bà thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "89606": {
+      "id": 3684825,
+      "text": "Tôi ổn, cảm ơn bác sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "89607": {
+      "id": 3684826,
+      "text": "Và cha bà dạo này thế nào kể từ lần chúng ta gặp nhau lần trước?",
+      "author": "ChatGPT4.1"
+    },
+    "89608": {
+      "id": 3684827,
+      "text": "À, lúc tốt lúc không.",
+      "author": "ChatGPT4.1"
+    },
+    "89609": {
+      "id": 3684828,
+      "text": "Tôi vẫn nhận thấy ông ấy ngày càng hay quên",
+      "author": "ChatGPT4.1"
+    },
+    "89610": {
+      "id": 3684829,
+      "text": "và ông ấy dễ bị bối rối.",
+      "author": "ChatGPT4.1"
+    },
+    "89611": {
+      "id": 3684830,
+      "text": "Và điều này làm tôi thật sự nản lòng.",
+      "author": "ChatGPT4.1"
+    },
+    "89612": {
+      "id": 3684831,
+      "text": "Như bà nhớ từ lần trước, chúng tôi đã làm một loạt xét nghiệm cho cha bà.",
+      "author": "ChatGPT4.1"
+    },
+    "89613": {
+      "id": 3684832,
+      "text": "Và dựa trên kết quả đó, có vẻ như ông ấy đã mắc bệnh Alzheimer khởi phát sớm.",
+      "author": "ChatGPT4.1"
+    },
+    "89614": {
+      "id": 3684833,
+      "text": "Vì vậy, điều này có thể giải thích cho việc ông ấy hay quên, cảm giác tuyệt vọng và đôi khi tức giận.",
+      "author": "ChatGPT4.1"
+    },
+    "89615": {
+      "id": 3684834,
+      "text": "Vậy bác sĩ nghĩ chúng ta nên làm gì tiếp theo?",
+      "author": "ChatGPT4.1"
+    },
+    "89616": {
+      "id": 3684835,
+      "text": "Chúng ta không thể làm gì cho trí nhớ của ông ấy",
+      "author": "ChatGPT4.1"
+    },
+    "89617": {
+      "id": 3684836,
+      "text": "nhưng chúng ta có thể giúp ông ấy thay đổi tâm trạng và tận hưởng cuộc sống hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "89618": {
+      "id": 3684837,
+      "text": "Có một số loại thuốc tốt có thể làm chậm quá trình suy giảm.",
+      "author": "ChatGPT4.1"
+    },
+    "89619": {
+      "id": 3684838,
+      "text": "Tôi nghĩ điều quan trọng là ông ấy nên trở lại viện dưỡng lão và tìm niềm vui trong các hoạt động ở đó.",
+      "author": "ChatGPT4.1"
+    },
+    "89620": {
+      "id": 3684839,
+      "text": "Rất khó để xác định tình hình lâu dài,",
+      "author": "ChatGPT4.1"
+    },
+    "89621": {
+      "id": 3684840,
+      "text": "nhưng chúng tôi sẽ bắt đầu cho ông ấy dùng thuốc và kiểm tra lại sau vài tuần để xem tình hình thế nào.",
+      "author": "ChatGPT4.1"
+    },
+    "89622": {
+      "id": 3684841,
+      "text": "Vâng, cảm ơn bác sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "89623": {
+      "id": 3684842,
+      "text": "Tôi rất biết ơn vì tất cả sự giúp đỡ của bác sĩ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

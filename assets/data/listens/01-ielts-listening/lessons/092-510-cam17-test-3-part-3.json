@@ -1,0 +1,5365 @@
+{
+  "summary": {
+    "id": 510,
+    "name": "Cam17 - Test 3 - Part 3",
+    "subTitle": "Sports Event Management Placement",
+    "levelName": "B2",
+    "position": 92,
+    "totalChallenges": 90,
+    "groupId": 56,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/510",
+  "detail": {
+    "id": 510,
+    "lessonName": "Cam17 - Test 3 - Part 3",
+    "name": "Cam17 - Test 3 - Part 3",
+    "position": 92,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/0-ielts-cambridge-17-test-3-section-3.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 19918,
+        "position": 1,
+        "content": "Hello Dr Green,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello",
+          [
+            "Dr",
+            "Doctor"
+          ],
+          "Green,"
+        ],
+        "solution": [
+          [
+            "Hello"
+          ],
+          [
+            "Dr",
+            "Doctor"
+          ],
+          [
+            "Green,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/1.mp3",
+        "timeStart": 0.34,
+        "timeEnd": 1.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19918/list"
+      },
+      {
+        "id": 19919,
+        "position": 2,
+        "content": "I'm here to talk to you about my work placement.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "here",
+          "to",
+          "talk",
+          "to",
+          "you",
+          "about",
+          "my",
+          "work",
+          "placement."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "here"
+          ],
+          [
+            "to"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "my"
+          ],
+          [
+            "work"
+          ],
+          [
+            "placement."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/2.mp3",
+        "timeStart": 2,
+        "timeEnd": 5.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19919/list"
+      },
+      {
+        "id": 19920,
+        "position": 3,
+        "content": "Oh yes, it's Holly, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "yes,",
+          "it's",
+          "Holly,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "yes,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "Holly,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/3.mp3",
+        "timeStart": 5.26,
+        "timeEnd": 7.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19920/list"
+      },
+      {
+        "id": 19921,
+        "position": 4,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/4.mp3",
+        "timeStart": 7.44,
+        "timeEnd": 8.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19921/list"
+      },
+      {
+        "id": 19922,
+        "position": 5,
+        "content": "So, which work placement have you chosen?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "which",
+          "work",
+          "placement",
+          "have",
+          "you",
+          "chosen?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "work"
+          ],
+          [
+            "placement"
+          ],
+          [
+            "have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "chosen?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/5.mp3",
+        "timeStart": 8.32,
+        "timeEnd": 10.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19922/list"
+      },
+      {
+        "id": 19923,
+        "position": 6,
+        "content": "I decided to go for the Orion Stadium placement.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "decided",
+          "to",
+          "go",
+          "for",
+          "the",
+          "Orion",
+          "Stadium",
+          "placement."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "decided"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Orion"
+          ],
+          [
+            "Stadium"
+          ],
+          [
+            "placement."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/6.mp3",
+        "timeStart": 11.15,
+        "timeEnd": 15.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19923/list"
+      },
+      {
+        "id": 19924,
+        "position": 7,
+        "content": "The event I'll be managing is one where I'm helping to set up a sports competition for primary school children.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "event",
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "managing",
+          "is",
+          [
+            "one",
+            "1"
+          ],
+          "where",
+          [
+            "I'm",
+            "I am"
+          ],
+          "helping",
+          "to",
+          "set",
+          "up",
+          "a",
+          "sports",
+          "competition",
+          "for",
+          "primary",
+          "school",
+          "children."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "event"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "managing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "where"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "helping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "set"
+          ],
+          [
+            "up"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "competition"
+          ],
+          [
+            "for"
+          ],
+          [
+            "primary"
+          ],
+          [
+            "school"
+          ],
+          [
+            "children."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/7.mp3",
+        "timeStart": 15.63,
+        "timeEnd": 22.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19924/list"
+      },
+      {
+        "id": 19925,
+        "position": 8,
+        "content": "Yup. That's always a popular placement,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Yup.",
+            "Yep"
+          ],
+          [
+            "That's",
+            "that is"
+          ],
+          "always",
+          "a",
+          "popular",
+          "placement,"
+        ],
+        "solution": [
+          [
+            "Yup.",
+            "Yep"
+          ],
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "always"
+          ],
+          [
+            "a"
+          ],
+          [
+            "popular"
+          ],
+          [
+            "placement,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/8.mp3",
+        "timeStart": 22.26,
+        "timeEnd": 24.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19925/list"
+      },
+      {
+        "id": 19926,
+        "position": 9,
+        "content": "even though it can be tougher than you think working with children.",
+        "defaultInput": "",
+        "jsonContent": [
+          "even",
+          "though",
+          "it",
+          "can",
+          "be",
+          "tougher",
+          "than",
+          "you",
+          "think",
+          "working",
+          "with",
+          "children."
+        ],
+        "solution": [
+          [
+            "even"
+          ],
+          [
+            "though"
+          ],
+          [
+            "it"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "tougher"
+          ],
+          [
+            "than"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "working"
+          ],
+          [
+            "with"
+          ],
+          [
+            "children."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/9.mp3",
+        "timeStart": 24.78,
+        "timeEnd": 28.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19926/list"
+      },
+      {
+        "id": 19927,
+        "position": 10,
+        "content": "I know, but it's the fresh air that attracts me,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know,",
+          "but",
+          "it's",
+          "the",
+          "fresh",
+          "air",
+          "that",
+          "attracts",
+          "me,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fresh"
+          ],
+          [
+            "air"
+          ],
+          [
+            "that"
+          ],
+          [
+            "attracts"
+          ],
+          [
+            "me,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/10.mp3",
+        "timeStart": 28.31,
+        "timeEnd": 31.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19927/list"
+      },
+      {
+        "id": 19928,
+        "position": 11,
+        "content": "organising something indoors doesn't have the same appeal,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "organising",
+            "organizing"
+          ],
+          "something",
+          "indoors",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "have",
+          "the",
+          "same",
+          "appeal,"
+        ],
+        "solution": [
+          [
+            "organising",
+            "organizing"
+          ],
+          [
+            "something"
+          ],
+          [
+            "indoors"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "appeal,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/11.mp3",
+        "timeStart": 31.86,
+        "timeEnd": 35.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19928/list"
+      },
+      {
+        "id": 19929,
+        "position": 12,
+        "content": "even though it might be fun.",
+        "defaultInput": "",
+        "jsonContent": [
+          "even",
+          "though",
+          "it",
+          "might",
+          "be",
+          "fun."
+        ],
+        "solution": [
+          [
+            "even"
+          ],
+          [
+            "though"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fun."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/12.mp3",
+        "timeStart": 35.38,
+        "timeEnd": 37.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19929/list"
+      },
+      {
+        "id": 19930,
+        "position": 13,
+        "content": "OK, so obviously safety's going to be one of your key concerns for this event.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK,",
+            "okay"
+          ],
+          "so",
+          "obviously",
+          [
+            "safety's",
+            "safety is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "your",
+          "key",
+          "concerns",
+          "for",
+          "this",
+          "event."
+        ],
+        "solution": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "so"
+          ],
+          [
+            "obviously"
+          ],
+          [
+            "safety's",
+            "safety is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "key"
+          ],
+          [
+            "concerns"
+          ],
+          [
+            "for"
+          ],
+          [
+            "this"
+          ],
+          [
+            "event."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/13.mp3",
+        "timeStart": 37.49,
+        "timeEnd": 43.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19930/list"
+      },
+      {
+        "id": 19931,
+        "position": 14,
+        "content": "Yes, I've already thought about that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I've",
+            "I have"
+          ],
+          "already",
+          "thought",
+          "about",
+          "that."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "already"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/14.mp3",
+        "timeStart": 43.14,
+        "timeEnd": 46.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19931/list"
+      },
+      {
+        "id": 19932,
+        "position": 15,
+        "content": "I'll need to make sure none of the equipment's damaged.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "need",
+          "to",
+          "make",
+          "sure",
+          "none",
+          "of",
+          "the",
+          "equipment's",
+          "damaged."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "none"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "equipment's"
+          ],
+          [
+            "damaged."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/15.mp3",
+        "timeStart": 46.29,
+        "timeEnd": 49.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19932/list"
+      },
+      {
+        "id": 19933,
+        "position": 16,
+        "content": "Ah well, you'll be working with schools, so the equipment will be their responsibility.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Ah",
+          "well,",
+          [
+            "you'll",
+            "you will"
+          ],
+          "be",
+          "working",
+          "with",
+          "schools,",
+          "so",
+          "the",
+          "equipment",
+          "will",
+          "be",
+          "their",
+          "responsibility."
+        ],
+        "solution": [
+          [
+            "Ah"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "working"
+          ],
+          [
+            "with"
+          ],
+          [
+            "schools,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "the"
+          ],
+          [
+            "equipment"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "their"
+          ],
+          [
+            "responsibility."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/16.mp3",
+        "timeStart": 49.81,
+        "timeEnd": 55.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19933/list"
+      },
+      {
+        "id": 19934,
+        "position": 17,
+        "content": "However, the grounds and what goes on there will be yours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "the",
+          "grounds",
+          "and",
+          "what",
+          "goes",
+          "on",
+          [
+            "there will",
+            "there'll"
+          ],
+          "be",
+          "yours."
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "grounds"
+          ],
+          [
+            "and"
+          ],
+          [
+            "what"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "on"
+          ],
+          [
+            "there will",
+            "there'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "yours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/17.mp3",
+        "timeStart": 55.33,
+        "timeEnd": 59.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19934/list"
+      },
+      {
+        "id": 19935,
+        "position": 18,
+        "content": "Oh I see,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "I",
+          "see,"
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/18.mp3",
+        "timeStart": 59.64,
+        "timeEnd": 61.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19935/list"
+      },
+      {
+        "id": 19936,
+        "position": 19,
+        "content": "that'll include keeping everyone within the boundary once they're in their kit and on the field?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "that'll",
+            "that will"
+          ],
+          "include",
+          "keeping",
+          "everyone",
+          "within",
+          "the",
+          "boundary",
+          "once",
+          [
+            "they're",
+            "they are"
+          ],
+          "in",
+          "their",
+          "kit",
+          "and",
+          "on",
+          "the",
+          "field?"
+        ],
+        "solution": [
+          [
+            "that'll",
+            "that will"
+          ],
+          [
+            "include"
+          ],
+          [
+            "keeping"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "within"
+          ],
+          [
+            "the"
+          ],
+          [
+            "boundary"
+          ],
+          [
+            "once"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "in"
+          ],
+          [
+            "their"
+          ],
+          [
+            "kit"
+          ],
+          [
+            "and"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "field?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/19.mp3",
+        "timeStart": 61.33,
+        "timeEnd": 66.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19936/list"
+      },
+      {
+        "id": 19937,
+        "position": 20,
+        "content": "Exactly,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Exactly,"
+        ],
+        "solution": [
+          [
+            "Exactly,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/20.mp3",
+        "timeStart": 67.04,
+        "timeEnd": 68.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19937/list"
+      },
+      {
+        "id": 19938,
+        "position": 21,
+        "content": "you'll need to inspect areas like changing rooms as well for anything someone can trip over,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "you'll",
+            "you will"
+          ],
+          "need",
+          "to",
+          "inspect",
+          "areas",
+          "like",
+          "changing",
+          "rooms",
+          "as",
+          "well",
+          "for",
+          "anything",
+          "someone",
+          "can",
+          "trip",
+          "over,"
+        ],
+        "solution": [
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "inspect"
+          ],
+          [
+            "areas"
+          ],
+          [
+            "like"
+          ],
+          [
+            "changing"
+          ],
+          [
+            "rooms"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "for"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "can"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "over,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/21.mp3",
+        "timeStart": 68.17,
+        "timeEnd": 73.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19938/list"
+      },
+      {
+        "id": 19939,
+        "position": 22,
+        "content": "but your main priority will be not to lose anyone!",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "your",
+          "main",
+          "priority",
+          "will",
+          "be",
+          "not",
+          "to",
+          "lose",
+          "anyone!"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "your"
+          ],
+          [
+            "main"
+          ],
+          [
+            "priority"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "not"
+          ],
+          [
+            "to"
+          ],
+          [
+            "lose"
+          ],
+          [
+            "anyone!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/22.mp3",
+        "timeStart": 74.23,
+        "timeEnd": 77.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19939/list"
+      },
+      {
+        "id": 19940,
+        "position": 23,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/23.mp3",
+        "timeStart": 77.81,
+        "timeEnd": 78.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19940/list"
+      },
+      {
+        "id": 19941,
+        "position": 24,
+        "content": "I'll need staff to help with that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "need",
+          "staff",
+          "to",
+          "help",
+          "with",
+          "that."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "staff"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/24.mp3",
+        "timeStart": 78.87,
+        "timeEnd": 81.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19941/list"
+      },
+      {
+        "id": 19942,
+        "position": 25,
+        "content": "And don't forget about the spectators.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "don't",
+            "do not"
+          ],
+          "forget",
+          "about",
+          "the",
+          "spectators."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "forget"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "spectators."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/25.mp3",
+        "timeStart": 81.67,
+        "timeEnd": 84.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19942/list"
+      },
+      {
+        "id": 19943,
+        "position": 26,
+        "content": "I was thinking that many of them will be parents, who could help run the event.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "was",
+          "thinking",
+          "that",
+          "many",
+          "of",
+          "them",
+          "will",
+          "be",
+          "parents,",
+          "who",
+          "could",
+          "help",
+          "run",
+          "the",
+          "event."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "that"
+          ],
+          [
+            "many"
+          ],
+          [
+            "of"
+          ],
+          [
+            "them"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "parents,"
+          ],
+          [
+            "who"
+          ],
+          [
+            "could"
+          ],
+          [
+            "help"
+          ],
+          [
+            "run"
+          ],
+          [
+            "the"
+          ],
+          [
+            "event."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/26.mp3",
+        "timeStart": 84.8,
+        "timeEnd": 89.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19943/list"
+      },
+      {
+        "id": 19944,
+        "position": 27,
+        "content": "I wouldn't rely on that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "rely",
+          "on",
+          "that."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "rely"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/27.mp3",
+        "timeStart": 89.66,
+        "timeEnd": 91.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19944/list"
+      },
+      {
+        "id": 19945,
+        "position": 28,
+        "content": "They'll be more interested in filming their children than volunteering.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They'll",
+            "they will"
+          ],
+          "be",
+          "more",
+          "interested",
+          "in",
+          "filming",
+          "their",
+          "children",
+          "than",
+          "volunteering."
+        ],
+        "solution": [
+          [
+            "They'll",
+            "they will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "more"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "filming"
+          ],
+          [
+            "their"
+          ],
+          [
+            "children"
+          ],
+          [
+            "than"
+          ],
+          [
+            "volunteering."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/28.mp3",
+        "timeStart": 91.57,
+        "timeEnd": 95.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19945/list"
+      },
+      {
+        "id": 19946,
+        "position": 29,
+        "content": "I'll need to make sure they don't interfere with events doing that!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "need",
+          "to",
+          "make",
+          "sure",
+          "they",
+          [
+            "don't",
+            "do not"
+          ],
+          "interfere",
+          "with",
+          "events",
+          "doing",
+          "that!"
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "they"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "interfere"
+          ],
+          [
+            "with"
+          ],
+          [
+            "events"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "that!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/29.mp3",
+        "timeStart": 95.25,
+        "timeEnd": 99.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19946/list"
+      },
+      {
+        "id": 19947,
+        "position": 30,
+        "content": "And that's not always easy,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "that's",
+            "that is"
+          ],
+          "not",
+          "always",
+          "easy,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "not"
+          ],
+          [
+            "always"
+          ],
+          [
+            "easy,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/30.mp3",
+        "timeStart": 99.15,
+        "timeEnd": 101.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19947/list"
+      },
+      {
+        "id": 19948,
+        "position": 31,
+        "content": "especially when a proud parent's trying to get a snap of their child",
+        "defaultInput": "",
+        "jsonContent": [
+          "especially",
+          "when",
+          "a",
+          "proud",
+          "parent's",
+          "trying",
+          "to",
+          "get",
+          "a",
+          "snap",
+          "of",
+          "their",
+          "child"
+        ],
+        "solution": [
+          [
+            "especially"
+          ],
+          [
+            "when"
+          ],
+          [
+            "a"
+          ],
+          [
+            "proud"
+          ],
+          [
+            "parent's"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "snap"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "child"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/31.mp3",
+        "timeStart": 101.13,
+        "timeEnd": 105.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19948/list"
+      },
+      {
+        "id": 19949,
+        "position": 32,
+        "content": "and you want them to move elsewhere.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "you",
+          "want",
+          "them",
+          "to",
+          "move",
+          "elsewhere."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "move"
+          ],
+          [
+            "elsewhere."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/32-2023-02-10-20-25-36.mp3",
+        "timeStart": 105.35,
+        "timeEnd": 107.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19949/list"
+      },
+      {
+        "id": 19950,
+        "position": 33,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/33.mp3",
+        "timeStart": 107.65,
+        "timeEnd": 108.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19950/list"
+      },
+      {
+        "id": 19951,
+        "position": 34,
+        "content": "What about the scheduling?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "the",
+          "scheduling?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "scheduling?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/34.mp3",
+        "timeStart": 109.39,
+        "timeEnd": 111.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19951/list"
+      },
+      {
+        "id": 19952,
+        "position": 35,
+        "content": "With sporting events there are all sorts of things that can alter the timetable,",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "sporting",
+          "events",
+          "there",
+          "are",
+          "all",
+          "sorts",
+          "of",
+          "things",
+          "that",
+          "can",
+          "alter",
+          "the",
+          "timetable,"
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "sporting"
+          ],
+          [
+            "events"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "all"
+          ],
+          [
+            "sorts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "things"
+          ],
+          [
+            "that"
+          ],
+          [
+            "can"
+          ],
+          [
+            "alter"
+          ],
+          [
+            "the"
+          ],
+          [
+            "timetable,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/35.mp3",
+        "timeStart": 111.61,
+        "timeEnd": 116.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19952/list"
+      },
+      {
+        "id": 19953,
+        "position": 36,
+        "content": "like rain, for instance, though so far, we've always been lucky with that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "like",
+          "rain,",
+          "for",
+          "instance,",
+          "though",
+          "so",
+          "far,",
+          [
+            "we've",
+            "we have"
+          ],
+          "always",
+          "been",
+          "lucky",
+          "with",
+          "that."
+        ],
+        "solution": [
+          [
+            "like"
+          ],
+          [
+            "rain,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "instance,"
+          ],
+          [
+            "though"
+          ],
+          [
+            "so"
+          ],
+          [
+            "far,"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "always"
+          ],
+          [
+            "been"
+          ],
+          [
+            "lucky"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/36.mp3",
+        "timeStart": 116.61,
+        "timeEnd": 121.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19953/list"
+      },
+      {
+        "id": 19954,
+        "position": 37,
+        "content": "Yeah, and I was thinking about what to do if someone got hurt as well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "and",
+          "I",
+          "was",
+          "thinking",
+          "about",
+          "what",
+          "to",
+          "do",
+          "if",
+          "someone",
+          "got",
+          "hurt",
+          "as",
+          "well."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "if"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "got"
+          ],
+          [
+            "hurt"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/37.mp3",
+        "timeStart": 122.03,
+        "timeEnd": 127.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19954/list"
+      },
+      {
+        "id": 19955,
+        "position": 38,
+        "content": "I know that last year that caused a terrible delay.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          "that",
+          "last",
+          "year",
+          "that",
+          "caused",
+          "a",
+          "terrible",
+          "delay."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "last"
+          ],
+          [
+            "year"
+          ],
+          [
+            "that"
+          ],
+          [
+            "caused"
+          ],
+          [
+            "a"
+          ],
+          [
+            "terrible"
+          ],
+          [
+            "delay."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/38.mp3",
+        "timeStart": 127.57,
+        "timeEnd": 130.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19955/list"
+      },
+      {
+        "id": 19956,
+        "position": 39,
+        "content": "You have to be prepared for such things.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You have",
+            "you've"
+          ],
+          "to",
+          "be",
+          "prepared",
+          "for",
+          "such",
+          "things."
+        ],
+        "solution": [
+          [
+            "You have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "prepared"
+          ],
+          [
+            "for"
+          ],
+          [
+            "such"
+          ],
+          [
+            "things."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/39.mp3",
+        "timeStart": 130.97,
+        "timeEnd": 133.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19956/list"
+      },
+      {
+        "id": 19957,
+        "position": 40,
+        "content": "Oh. What if a match ends in a draw,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh.",
+          "What",
+          "if",
+          "a",
+          "match",
+          "ends",
+          "in",
+          "a",
+          "draw,"
+        ],
+        "solution": [
+          [
+            "Oh."
+          ],
+          [
+            "What"
+          ],
+          [
+            "if"
+          ],
+          [
+            "a"
+          ],
+          [
+            "match"
+          ],
+          [
+            "ends"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "draw,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/40.mp3",
+        "timeStart": 133.64,
+        "timeEnd": 136.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19957/list"
+      },
+      {
+        "id": 19958,
+        "position": 41,
+        "content": "do you let the teams keep going until someone wins?",
+        "defaultInput": "",
+        "jsonContent": [
+          "do",
+          "you",
+          "let",
+          "the",
+          "teams",
+          "keep",
+          "going",
+          "until",
+          "someone",
+          "wins?"
+        ],
+        "solution": [
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "let"
+          ],
+          [
+            "the"
+          ],
+          [
+            "teams"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "going"
+          ],
+          [
+            "until"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "wins?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/41.mp3",
+        "timeStart": 136.84,
+        "timeEnd": 140.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19958/list"
+      },
+      {
+        "id": 19959,
+        "position": 42,
+        "content": "That'll be up to you,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That'll",
+            "That will"
+          ],
+          "be",
+          "up",
+          "to",
+          "you,"
+        ],
+        "solution": [
+          [
+            "That'll",
+            "That will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/42.mp3",
+        "timeStart": 140.88,
+        "timeEnd": 142.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19959/list"
+      },
+      {
+        "id": 19960,
+        "position": 43,
+        "content": "and again, you need to plan for it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "again,",
+          "you",
+          "need",
+          "to",
+          "plan",
+          "for",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "again,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "for"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/43.mp3",
+        "timeStart": 142.39,
+        "timeEnd": 144.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19960/list"
+      },
+      {
+        "id": 19961,
+        "position": 44,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/44.mp3",
+        "timeStart": 144.93,
+        "timeEnd": 145.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19961/list"
+      },
+      {
+        "id": 19962,
+        "position": 45,
+        "content": "Now, the aim of your work placement is to give you the opportunity to develop the skills that an events manager needs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "the",
+          "aim",
+          "of",
+          "your",
+          "work",
+          "placement",
+          "is",
+          "to",
+          "give",
+          "you",
+          "the",
+          "opportunity",
+          "to",
+          "develop",
+          "the",
+          "skills",
+          "that",
+          "an",
+          "events",
+          "manager",
+          "needs."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "aim"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "work"
+          ],
+          [
+            "placement"
+          ],
+          [
+            "is"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "the"
+          ],
+          [
+            "opportunity"
+          ],
+          [
+            "to"
+          ],
+          [
+            "develop"
+          ],
+          [
+            "the"
+          ],
+          [
+            "skills"
+          ],
+          [
+            "that"
+          ],
+          [
+            "an"
+          ],
+          [
+            "events"
+          ],
+          [
+            "manager"
+          ],
+          [
+            "needs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/45.mp3",
+        "timeStart": 146.68,
+        "timeEnd": 154.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19962/list"
+      },
+      {
+        "id": 19963,
+        "position": 46,
+        "content": "So, let's talk about those a bit.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "let's",
+          "talk",
+          "about",
+          "those",
+          "a",
+          "bit."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "about"
+          ],
+          [
+            "those"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/46.mp3",
+        "timeStart": 154.2,
+        "timeEnd": 156.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19963/list"
+      },
+      {
+        "id": 19964,
+        "position": 47,
+        "content": "Well, I think my communication skills are pretty good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "think",
+          "my",
+          "communication",
+          "skills",
+          "are",
+          "pretty",
+          "good."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "my"
+          ],
+          [
+            "communication"
+          ],
+          [
+            "skills"
+          ],
+          [
+            "are"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/47.mp3",
+        "timeStart": 157,
+        "timeEnd": 160.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19964/list"
+      },
+      {
+        "id": 19965,
+        "position": 48,
+        "content": "I can talk on the phone to people and book venues and that kind of thing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "talk",
+          "on",
+          "the",
+          "phone",
+          "to",
+          "people",
+          "and",
+          "book",
+          "venues",
+          "and",
+          "that",
+          "kind",
+          "of",
+          "thing."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "to"
+          ],
+          [
+            "people"
+          ],
+          [
+            "and"
+          ],
+          [
+            "book"
+          ],
+          [
+            "venues"
+          ],
+          [
+            "and"
+          ],
+          [
+            "that"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "thing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/48.mp3",
+        "timeStart": 160.8,
+        "timeEnd": 165.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19965/list"
+      },
+      {
+        "id": 19966,
+        "position": 49,
+        "content": "Good, just remember it isn't only about what you say.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good,",
+          "just",
+          "remember",
+          "it",
+          [
+            "isn't",
+            "is not"
+          ],
+          "only",
+          "about",
+          "what",
+          "you",
+          "say."
+        ],
+        "solution": [
+          [
+            "Good,"
+          ],
+          [
+            "just"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "it"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "only"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "say."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/49.mp3",
+        "timeStart": 166.07,
+        "timeEnd": 170.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19966/list"
+      },
+      {
+        "id": 19967,
+        "position": 50,
+        "content": "If you meet someone face-to-face and want to persuade them to be a sponsor, for example...",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "meet",
+          "someone",
+          [
+            "face-to-face",
+            "face to face"
+          ],
+          "and",
+          [
+            "want to",
+            "wanna"
+          ],
+          "persuade",
+          "them",
+          "to",
+          "be",
+          "a",
+          "sponsor,",
+          "for",
+          "example..."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "face-to-face",
+            "face to face"
+          ],
+          [
+            "and"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "persuade"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sponsor,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/50.mp3",
+        "timeStart": 170.26,
+        "timeEnd": 175.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19967/list"
+      },
+      {
+        "id": 19968,
+        "position": 51,
+        "content": "Oh, I'll dress up for that! Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "dress",
+          "up",
+          "for",
+          "that!",
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "dress"
+          ],
+          [
+            "up"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that!"
+          ],
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/51.mp3",
+        "timeStart": 175.43,
+        "timeEnd": 177.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19968/list"
+      },
+      {
+        "id": 19969,
+        "position": 52,
+        "content": "Good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good."
+        ],
+        "solution": [
+          [
+            "Good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/52.mp3",
+        "timeStart": 178.08,
+        "timeEnd": 178.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19969/list"
+      },
+      {
+        "id": 19970,
+        "position": 53,
+        "content": "Let's go on to think about your organisational skills.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "go",
+          "on",
+          "to",
+          "think",
+          "about",
+          "your",
+          [
+            "organisational",
+            "organizational"
+          ],
+          "skills."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "go"
+          ],
+          [
+            "on"
+          ],
+          [
+            "to"
+          ],
+          [
+            "think"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "organisational",
+            "organizational"
+          ],
+          [
+            "skills."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/53.mp3",
+        "timeStart": 179.12,
+        "timeEnd": 182.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19970/list"
+      },
+      {
+        "id": 19971,
+        "position": 54,
+        "content": "You're working in a very people-based industry",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You're",
+            "you are"
+          ],
+          "working",
+          "in",
+          "a",
+          "very",
+          [
+            "people-based",
+            "people based"
+          ],
+          "industry"
+        ],
+        "solution": [
+          [
+            "You're",
+            "you are"
+          ],
+          [
+            "working"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "people-based",
+            "people based"
+          ],
+          [
+            "industry"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/54.mp3",
+        "timeStart": 182.95,
+        "timeEnd": 185.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19971/list"
+      },
+      {
+        "id": 19972,
+        "position": 55,
+        "content": "and that means things won't always go to plan.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "that",
+          "means",
+          "things",
+          "won't",
+          "always",
+          "go",
+          "to",
+          "plan."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "that"
+          ],
+          [
+            "means"
+          ],
+          [
+            "things"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "always"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "plan."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/55.mp3",
+        "timeStart": 185.94,
+        "timeEnd": 188.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19972/list"
+      },
+      {
+        "id": 19973,
+        "position": 56,
+        "content": "I guess it's being prepared to make changes that matters.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "guess",
+          "it's",
+          "being",
+          "prepared",
+          "to",
+          "make",
+          "changes",
+          "that",
+          "matters."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "guess"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "being"
+          ],
+          [
+            "prepared"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "changes"
+          ],
+          [
+            "that"
+          ],
+          [
+            "matters."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/56.mp3",
+        "timeStart": 189.17,
+        "timeEnd": 192.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19973/list"
+      },
+      {
+        "id": 19974,
+        "position": 57,
+        "content": "That's right.",
+        "defaultInput": "That's right.",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/57.mp3",
+        "timeStart": 192.92,
+        "timeEnd": 193.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19974/list"
+      },
+      {
+        "id": 19975,
+        "position": 58,
+        "content": "You may have to make an on-the-spot change to a timetable because of a problem you hadn't anticipated...",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "may",
+          "have",
+          "to",
+          "make",
+          "an",
+          [
+            "on-the-spot",
+            "on the spot"
+          ],
+          "change",
+          "to",
+          "a",
+          "timetable",
+          "because",
+          "of",
+          "a",
+          "problem",
+          "you",
+          [
+            "hadn't",
+            "had not"
+          ],
+          "anticipated..."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "may"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "an"
+          ],
+          [
+            "on-the-spot",
+            "on the spot"
+          ],
+          [
+            "change"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "timetable"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "you"
+          ],
+          [
+            "hadn't",
+            "had not"
+          ],
+          [
+            "anticipated..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/58.mp3",
+        "timeStart": 194.07,
+        "timeEnd": 199.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19975/list"
+      },
+      {
+        "id": 19976,
+        "position": 59,
+        "content": "...just do it! OK",
+        "defaultInput": "",
+        "jsonContent": [
+          "...just",
+          "do",
+          "it!",
+          [
+            "OK",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "...just"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it!"
+          ],
+          [
+            "OK",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/59.mp3",
+        "timeStart": 199.9,
+        "timeEnd": 202.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19976/list"
+      },
+      {
+        "id": 19977,
+        "position": 60,
+        "content": "How's your time management these days?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How's",
+          "your",
+          "time",
+          "management",
+          "these",
+          "days?"
+        ],
+        "solution": [
+          [
+            "How's"
+          ],
+          [
+            "your"
+          ],
+          [
+            "time"
+          ],
+          [
+            "management"
+          ],
+          [
+            "these"
+          ],
+          [
+            "days?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/60.mp3",
+        "timeStart": 202.36,
+        "timeEnd": 204.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19977/list"
+      },
+      {
+        "id": 19978,
+        "position": 61,
+        "content": "I'm working on it,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "working",
+          "on",
+          "it,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "working"
+          ],
+          [
+            "on"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/61.mp3",
+        "timeStart": 205.04,
+        "timeEnd": 206.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19978/list"
+      },
+      {
+        "id": 19979,
+        "position": 62,
+        "content": "I'm certainly better when I have a deadline, which is why this work suits me.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "certainly",
+          "better",
+          "when",
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "deadline,",
+          "which",
+          "is",
+          "why",
+          "this",
+          "work",
+          "suits",
+          "me."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "certainly"
+          ],
+          [
+            "better"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "deadline,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "why"
+          ],
+          [
+            "this"
+          ],
+          [
+            "work"
+          ],
+          [
+            "suits"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/62.mp3",
+        "timeStart": 207.02,
+        "timeEnd": 211.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19979/list"
+      },
+      {
+        "id": 19980,
+        "position": 63,
+        "content": "Yes, but it's how you respond as that deadline approaches!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "but",
+          "it's",
+          "how",
+          "you",
+          "respond",
+          "as",
+          "that",
+          "deadline",
+          "approaches!"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "how"
+          ],
+          [
+            "you"
+          ],
+          [
+            "respond"
+          ],
+          [
+            "as"
+          ],
+          [
+            "that"
+          ],
+          [
+            "deadline"
+          ],
+          [
+            "approaches!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/63.mp3",
+        "timeStart": 211.77,
+        "timeEnd": 215.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19980/list"
+      },
+      {
+        "id": 19981,
+        "position": 64,
+        "content": "I know I've got to look calm even if I'm in a panic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          "to",
+          "look",
+          "calm",
+          "even",
+          "if",
+          [
+            "I'm",
+            "I am"
+          ],
+          "in",
+          "a",
+          "panic."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "calm"
+          ],
+          [
+            "even"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "panic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/64.mp3",
+        "timeStart": 215.58,
+        "timeEnd": 219.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19981/list"
+      },
+      {
+        "id": 19982,
+        "position": 65,
+        "content": "Just think to yourself,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "think",
+          "to",
+          "yourself,"
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "think"
+          ],
+          [
+            "to"
+          ],
+          [
+            "yourself,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/65.mp3",
+        "timeStart": 219.58,
+        "timeEnd": 221.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19982/list"
+      },
+      {
+        "id": 19983,
+        "position": 66,
+        "content": "no one must know I'm under pressure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "no",
+          [
+            "one",
+            "1"
+          ],
+          "must",
+          "know",
+          [
+            "I'm",
+            "I am"
+          ],
+          "under",
+          "pressure."
+        ],
+        "solution": [
+          [
+            "no"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "must"
+          ],
+          [
+            "know"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "under"
+          ],
+          [
+            "pressure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/66.mp3",
+        "timeStart": 221.15,
+        "timeEnd": 223.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19983/list"
+      },
+      {
+        "id": 19984,
+        "position": 67,
+        "content": "Yeah, even though I'm multi-tasking like crazy!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "even",
+          "though",
+          "I'm",
+          [
+            "multi-tasking",
+            "multi tasking"
+          ],
+          "like",
+          "crazy!"
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "even"
+          ],
+          [
+            "though"
+          ],
+          [
+            "I'm"
+          ],
+          [
+            "multi-tasking",
+            "multi tasking"
+          ],
+          [
+            "like"
+          ],
+          [
+            "crazy!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/67.mp3",
+        "timeStart": 223.54,
+        "timeEnd": 227.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19984/list"
+      },
+      {
+        "id": 19985,
+        "position": 68,
+        "content": "Another skill that events managers need is creativity.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Another",
+          "skill",
+          "that",
+          "events",
+          "managers",
+          "need",
+          "is",
+          "creativity."
+        ],
+        "solution": [
+          [
+            "Another"
+          ],
+          [
+            "skill"
+          ],
+          [
+            "that"
+          ],
+          [
+            "events"
+          ],
+          [
+            "managers"
+          ],
+          [
+            "need"
+          ],
+          [
+            "is"
+          ],
+          [
+            "creativity."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/68.mp3",
+        "timeStart": 227.48,
+        "timeEnd": 231.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19985/list"
+      },
+      {
+        "id": 19986,
+        "position": 69,
+        "content": "Often your client has what we call the 'big picture' idea,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Often",
+          "your",
+          "client",
+          "has",
+          "what",
+          "we",
+          "call",
+          "the",
+          "'big",
+          "picture'",
+          "idea,"
+        ],
+        "solution": [
+          [
+            "Often"
+          ],
+          [
+            "your"
+          ],
+          [
+            "client"
+          ],
+          [
+            "has"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "call"
+          ],
+          [
+            "the"
+          ],
+          [
+            "'big"
+          ],
+          [
+            "picture'"
+          ],
+          [
+            "idea,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/69.mp3",
+        "timeStart": 231.68,
+        "timeEnd": 235.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19986/list"
+      },
+      {
+        "id": 19987,
+        "position": 70,
+        "content": "but it's up to the events manager to think of all the fine points that go to making it work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "it's",
+          "up",
+          "to",
+          "the",
+          "events",
+          "manager",
+          "to",
+          "think",
+          "of",
+          "all",
+          "the",
+          "fine",
+          "points",
+          "that",
+          "go",
+          "to",
+          "making",
+          "it",
+          "work."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "events"
+          ],
+          [
+            "manager"
+          ],
+          [
+            "to"
+          ],
+          [
+            "think"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fine"
+          ],
+          [
+            "points"
+          ],
+          [
+            "that"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "making"
+          ],
+          [
+            "it"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/70.mp3",
+        "timeStart": 235.84,
+        "timeEnd": 241.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19987/list"
+      },
+      {
+        "id": 19988,
+        "position": 71,
+        "content": "Right, so I need to listen carefully to that idea and then fill in all the gaps.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "so",
+          "I",
+          "need",
+          "to",
+          "listen",
+          "carefully",
+          "to",
+          "that",
+          "idea",
+          "and",
+          "then",
+          "fill",
+          "in",
+          "all",
+          "the",
+          "gaps."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "listen"
+          ],
+          [
+            "carefully"
+          ],
+          [
+            "to"
+          ],
+          [
+            "that"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "fill"
+          ],
+          [
+            "in"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "gaps."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/71.mp3",
+        "timeStart": 241.21,
+        "timeEnd": 247.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19988/list"
+      },
+      {
+        "id": 19989,
+        "position": 72,
+        "content": "That's right.",
+        "defaultInput": "That's right.",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/72.mp3",
+        "timeStart": 247.44,
+        "timeEnd": 248.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19989/list"
+      },
+      {
+        "id": 19990,
+        "position": 73,
+        "content": "And you'll have a team working under you,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "you'll",
+            "you will"
+          ],
+          "have",
+          "a",
+          "team",
+          "working",
+          "under",
+          "you,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "team"
+          ],
+          [
+            "working"
+          ],
+          [
+            "under"
+          ],
+          [
+            "you,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/73.mp3",
+        "timeStart": 248.57,
+        "timeEnd": 251.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19990/list"
+      },
+      {
+        "id": 19991,
+        "position": 74,
+        "content": "so another key skill is leadership.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "another",
+          "key",
+          "skill",
+          "is",
+          "leadership."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "another"
+          ],
+          [
+            "key"
+          ],
+          [
+            "skill"
+          ],
+          [
+            "is"
+          ],
+          [
+            "leadership."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/74.mp3",
+        "timeStart": 251.17,
+        "timeEnd": 254.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19991/list"
+      },
+      {
+        "id": 19992,
+        "position": 75,
+        "content": "Your team may have lots of ideas too,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Your",
+          "team",
+          "may",
+          "have",
+          "lots",
+          "of",
+          "ideas",
+          "too,"
+        ],
+        "solution": [
+          [
+            "Your"
+          ],
+          [
+            "team"
+          ],
+          [
+            "may"
+          ],
+          [
+            "have"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "ideas"
+          ],
+          [
+            "too,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/75.mp3",
+        "timeStart": 254.4,
+        "timeEnd": 257.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19992/list"
+      },
+      {
+        "id": 19993,
+        "position": 76,
+        "content": "but you've got to make the ultimate choices.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "you've",
+            "You have"
+          ],
+          "got",
+          "to",
+          "make",
+          "the",
+          "ultimate",
+          "choices."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ultimate"
+          ],
+          [
+            "choices."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/76.mp3",
+        "timeStart": 257.4,
+        "timeEnd": 260.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19993/list"
+      },
+      {
+        "id": 19994,
+        "position": 77,
+        "content": "Do we have refreshments inside or out, for example?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "we have",
+            "we've"
+          ],
+          "refreshments",
+          "inside",
+          "or",
+          "out,",
+          "for",
+          "example?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "refreshments"
+          ],
+          [
+            "inside"
+          ],
+          [
+            "or"
+          ],
+          [
+            "out,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/77.mp3",
+        "timeStart": 260.69,
+        "timeEnd": 264.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19994/list"
+      },
+      {
+        "id": 19995,
+        "position": 78,
+        "content": "Isn't it better to be democratic?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Isn't",
+            "Is not"
+          ],
+          "it",
+          "better",
+          "to",
+          "be",
+          "democratic?"
+        ],
+        "solution": [
+          [
+            "Isn't",
+            "Is not"
+          ],
+          [
+            "it"
+          ],
+          [
+            "better"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "democratic?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/78.mp3",
+        "timeStart": 264.52,
+        "timeEnd": 267.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19995/list"
+      },
+      {
+        "id": 19996,
+        "position": 79,
+        "content": "It's a nice idea, but you have the ultimate responsibility.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          "nice",
+          "idea,",
+          "but",
+          [
+            "you have",
+            "you've"
+          ],
+          "the",
+          "ultimate",
+          "responsibility."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "nice"
+          ],
+          [
+            "idea,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ultimate"
+          ],
+          [
+            "responsibility."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/79.mp3",
+        "timeStart": 267.43,
+        "timeEnd": 271.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19996/list"
+      },
+      {
+        "id": 19997,
+        "position": 80,
+        "content": "So, believe in what you think best.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "believe",
+          "in",
+          "what",
+          "you",
+          "think",
+          "best."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "in"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "best."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/80.mp3",
+        "timeStart": 271.74,
+        "timeEnd": 274.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19997/list"
+      },
+      {
+        "id": 19998,
+        "position": 81,
+        "content": "Be prepared to say 'yes', that's a good idea but it won't work here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Be",
+          "prepared",
+          "to",
+          "say",
+          "'yes',",
+          [
+            "that's",
+            "that is"
+          ],
+          "a",
+          "good",
+          "idea",
+          "but",
+          "it",
+          "won't",
+          "work",
+          "here."
+        ],
+        "solution": [
+          [
+            "Be"
+          ],
+          [
+            "prepared"
+          ],
+          [
+            "to"
+          ],
+          [
+            "say"
+          ],
+          [
+            "'yes',"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "but"
+          ],
+          [
+            "it"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "work"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/81.mp3",
+        "timeStart": 275.13,
+        "timeEnd": 280.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19998/list"
+      },
+      {
+        "id": 19999,
+        "position": 82,
+        "content": "I see what you mean.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see",
+          "what",
+          "you",
+          "mean."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mean."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/82.mp3",
+        "timeStart": 280.34,
+        "timeEnd": 282.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/19999/list"
+      },
+      {
+        "id": 20000,
+        "position": 83,
+        "content": "What about the networking side of things?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "the",
+          "networking",
+          "side",
+          "of",
+          "things?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "networking"
+          ],
+          [
+            "side"
+          ],
+          [
+            "of"
+          ],
+          [
+            "things?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/83.mp3",
+        "timeStart": 282.59,
+        "timeEnd": 285.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20000/list"
+      },
+      {
+        "id": 20001,
+        "position": 84,
+        "content": "I know it's an area that a lot of students worry about",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          "it's",
+          "an",
+          "area",
+          "that",
+          "a",
+          "lot",
+          "of",
+          "students",
+          "worry",
+          "about"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "an"
+          ],
+          [
+            "area"
+          ],
+          [
+            "that"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "students"
+          ],
+          [
+            "worry"
+          ],
+          [
+            "about"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/84.mp3",
+        "timeStart": 285.69,
+        "timeEnd": 288.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20001/list"
+      },
+      {
+        "id": 20002,
+        "position": 85,
+        "content": "because we don't have much experience to offer others.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "we",
+          [
+            "don't",
+            "do not"
+          ],
+          "have",
+          "much",
+          "experience",
+          "to",
+          "offer",
+          "others."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "we"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "much"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "to"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "others."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/85.mp3",
+        "timeStart": 288.93,
+        "timeEnd": 292.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20002/list"
+      },
+      {
+        "id": 20003,
+        "position": 86,
+        "content": "But even without it, you can still be an interesting person with useful ideas.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "even",
+          "without",
+          "it,",
+          "you",
+          "can",
+          "still",
+          "be",
+          "an",
+          "interesting",
+          "person",
+          "with",
+          "useful",
+          "ideas."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "even"
+          ],
+          [
+            "without"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "still"
+          ],
+          [
+            "be"
+          ],
+          [
+            "an"
+          ],
+          [
+            "interesting"
+          ],
+          [
+            "person"
+          ],
+          [
+            "with"
+          ],
+          [
+            "useful"
+          ],
+          [
+            "ideas."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/86.mp3",
+        "timeStart": 292.77,
+        "timeEnd": 298.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20003/list"
+      },
+      {
+        "id": 20004,
+        "position": 87,
+        "content": "And the more people you impress, the better.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "more",
+          "people",
+          "you",
+          "impress,",
+          "the",
+          "better."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "more"
+          ],
+          [
+            "people"
+          ],
+          [
+            "you"
+          ],
+          [
+            "impress,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "better."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/87.mp3",
+        "timeStart": 298.53,
+        "timeEnd": 301.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20004/list"
+      },
+      {
+        "id": 20005,
+        "position": 88,
+        "content": "I guess that will help me when I apply for a real job.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "guess",
+          [
+            "that will",
+            "that'll"
+          ],
+          "help",
+          "me",
+          "when",
+          "I",
+          "apply",
+          "for",
+          "a",
+          "real",
+          "job."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "guess"
+          ],
+          [
+            "that will",
+            "that'll"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "apply"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "real"
+          ],
+          [
+            "job."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/88.mp3",
+        "timeStart": 301.62,
+        "timeEnd": 304.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20005/list"
+      },
+      {
+        "id": 20006,
+        "position": 89,
+        "content": "Exactly, think ahead, remember what your ambitions are and keep them in mind.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Exactly,",
+          "think",
+          "ahead,",
+          "remember",
+          "what",
+          "your",
+          "ambitions",
+          "are",
+          "and",
+          "keep",
+          "them",
+          "in",
+          "mind."
+        ],
+        "solution": [
+          [
+            "Exactly,"
+          ],
+          [
+            "think"
+          ],
+          [
+            "ahead,"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "what"
+          ],
+          [
+            "your"
+          ],
+          [
+            "ambitions"
+          ],
+          [
+            "are"
+          ],
+          [
+            "and"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "them"
+          ],
+          [
+            "in"
+          ],
+          [
+            "mind."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/89.mp3",
+        "timeStart": 305.02,
+        "timeEnd": 310.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/20006/list"
+      },
+      {
+        "id": 20007,
+        "position": 90,
+        "content": "Definitely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Definitely."
+        ],
+        "solution": [
+          [
+            "Definitely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-17-test-3-section-3-2022-12-26-23-49-24/90.mp3",
+        "timeStart": 310.98,
+        "timeEnd": 312.3,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/20007/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "19934": {
+      "id": 312302,
+      "text": "Tuy nhiên, sân chơi và những gì diễn ra ở đó sẽ là của bạn.",
+      "author": "a user"
+    },
+    "19936": {
+      "id": 312304,
+      "text": "Điều đó sẽ bao gồm việc đảm bảo mọi người ở trong ranh giới khi họ đã mặc đồ thi đấu và ở trên sân phải không?",
+      "author": "a user"
+    },
+    "19946": {
+      "id": 312319,
+      "text": "Tôi sẽ cần đảm bảo rằng họ không can thiệp vào sự kiện khi làm như vậy!",
+      "author": "a user"
+    },
+    "19968": {
+      "id": 312355,
+      "text": "Oh, tôi sẽ mặc đẹp! Chắc chắn rồi.",
+      "author": "a user"
+    },
+    "19973": {
+      "id": 312361,
+      "text": "Tôi đoán việc chuẩn bị để thay đổi là điều quan trọng",
+      "author": "a user"
+    },
+    "19977": {
+      "id": 312366,
+      "text": "Việc quản lí thời gian của bạn dạo này ra sao?",
+      "author": "a user"
+    },
+    "19984": {
+      "id": 312375,
+      "text": "Vâng, mặc dù tôi có thể làm việc đa nhiệm như điên",
+      "author": "a user"
+    },
+    "19987": {
+      "id": 312383,
+      "text": "Nhưng đó là trách nhiệm của người quản lý sự kiện để suy nghĩ về tất cả các chi tiết nhỏ cần thiết để làm cho nó hoạt động.",
+      "author": "a user"
+    },
+    "19994": {
+      "id": 312398,
+      "text": "Ví dụ chúng ta có phục vụ đồ ăn nhẹ trong nhà hay ngoài trời không ?",
+      "author": "a user"
+    },
+    "20000": {
+      "id": 312407,
+      "text": "Còn về khía cạnh kết nối doanh nghiệp thì sao?",
+      "author": "a user"
+    },
+    "20003": {
+      "id": 312414,
+      "text": "Nhưng ngay cả khi không có kinh nghiệm, bạn vẫn có thể là một người thú vị với những ý tưởng hữu ích.",
+      "author": "a user"
+    },
+    "19918": {
+      "id": 2557032,
+      "text": "Xin chào Tiến sĩ Green,",
+      "author": "ChatGPT4.1"
+    },
+    "19919": {
+      "id": 2557033,
+      "text": "Tôi đến đây để nói chuyện với thầy về kỳ thực tập của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "19920": {
+      "id": 2557034,
+      "text": "Ồ, đúng rồi, Holly phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "19921": {
+      "id": 2557035,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "19922": {
+      "id": 2557036,
+      "text": "Vậy em đã chọn nơi thực tập nào?",
+      "author": "ChatGPT4.1"
+    },
+    "19923": {
+      "id": 2557037,
+      "text": "Em quyết định chọn thực tập tại Sân vận động Orion.",
+      "author": "ChatGPT4.1"
+    },
+    "19924": {
+      "id": 2557038,
+      "text": "Sự kiện em sẽ quản lý là em giúp tổ chức một cuộc thi thể thao cho học sinh tiểu học.",
+      "author": "ChatGPT4.1"
+    },
+    "19925": {
+      "id": 2557039,
+      "text": "Ừ. Đó luôn là nơi thực tập được nhiều người yêu thích,",
+      "author": "ChatGPT4.1"
+    },
+    "19926": {
+      "id": 2557040,
+      "text": "mặc dù làm việc với trẻ con có thể khó khăn hơn em nghĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "19927": {
+      "id": 2557041,
+      "text": "Em biết, nhưng chính không khí trong lành mới thu hút em,",
+      "author": "ChatGPT4.1"
+    },
+    "19928": {
+      "id": 2557042,
+      "text": "việc tổ chức sự kiện trong nhà không hấp dẫn bằng,",
+      "author": "ChatGPT4.1"
+    },
+    "19929": {
+      "id": 2557043,
+      "text": "dù nó có thể vui.",
+      "author": "ChatGPT4.1"
+    },
+    "19930": {
+      "id": 2557044,
+      "text": "Được rồi, rõ ràng là an toàn sẽ là một trong những mối quan tâm chính của em cho sự kiện này.",
+      "author": "ChatGPT4.1"
+    },
+    "19931": {
+      "id": 2557045,
+      "text": "Vâng, em đã nghĩ đến chuyện đó rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "19932": {
+      "id": 2557046,
+      "text": "Em sẽ phải đảm bảo không có thiết bị nào bị hỏng.",
+      "author": "ChatGPT4.1"
+    },
+    "19933": {
+      "id": 2557047,
+      "text": "À, em sẽ làm việc với trường học, nên thiết bị sẽ là trách nhiệm của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "19935": {
+      "id": 2557048,
+      "text": "À em hiểu rồi,",
+      "author": "ChatGPT4.1"
+    },
+    "19937": {
+      "id": 2557049,
+      "text": "Chính xác,",
+      "author": "ChatGPT4.1"
+    },
+    "19938": {
+      "id": 2557050,
+      "text": "em cũng cần kiểm tra các khu vực như phòng thay đồ để xem có gì dễ vấp phải không,",
+      "author": "ChatGPT4.1"
+    },
+    "19939": {
+      "id": 2557051,
+      "text": "nhưng ưu tiên hàng đầu của em là không để ai bị lạc!",
+      "author": "ChatGPT4.1"
+    },
+    "19940": {
+      "id": 2557052,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "19941": {
+      "id": 2557053,
+      "text": "Em sẽ cần nhân viên hỗ trợ điều này.",
+      "author": "ChatGPT4.1"
+    },
+    "19942": {
+      "id": 2557054,
+      "text": "Và đừng quên cả khán giả nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "19943": {
+      "id": 2557055,
+      "text": "Em nghĩ rằng nhiều người trong số họ sẽ là phụ huynh, có thể giúp tổ chức sự kiện.",
+      "author": "ChatGPT4.1"
+    },
+    "19944": {
+      "id": 2557056,
+      "text": "Cô không nghĩ em nên trông chờ vào điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "19945": {
+      "id": 2557057,
+      "text": "Họ sẽ quan tâm quay phim con mình hơn là tình nguyện giúp.",
+      "author": "ChatGPT4.1"
+    },
+    "19947": {
+      "id": 2557058,
+      "text": "Và điều đó không phải lúc nào cũng dễ dàng,",
+      "author": "ChatGPT4.1"
+    },
+    "19948": {
+      "id": 2557059,
+      "text": "đặc biệt khi một phụ huynh tự hào đang cố chụp ảnh con mình",
+      "author": "ChatGPT4.1"
+    },
+    "19949": {
+      "id": 2557060,
+      "text": "và em muốn họ di chuyển sang chỗ khác.",
+      "author": "ChatGPT4.1"
+    },
+    "19950": {
+      "id": 2557688,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "19951": {
+      "id": 2557689,
+      "text": "Còn việc lên lịch thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "19952": {
+      "id": 2557690,
+      "text": "Ở các sự kiện thể thao có rất nhiều yếu tố có thể thay đổi thời gian biểu,",
+      "author": "ChatGPT4.1"
+    },
+    "19953": {
+      "id": 2557691,
+      "text": "ví dụ như mưa, mặc dù cho đến nay chúng ta luôn may mắn với điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "19954": {
+      "id": 2557692,
+      "text": "Vâng, tôi cũng đã nghĩ đến việc sẽ phải làm gì nếu có ai đó bị thương.",
+      "author": "ChatGPT4.1"
+    },
+    "19955": {
+      "id": 2557693,
+      "text": "Tôi biết năm ngoái điều đó đã gây ra một sự chậm trễ nghiêm trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "19956": {
+      "id": 2557694,
+      "text": "Bạn phải chuẩn bị sẵn sàng cho những tình huống như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "19957": {
+      "id": 2557695,
+      "text": "Ồ. Nếu một trận đấu kết thúc với tỷ số hòa,",
+      "author": "ChatGPT4.1"
+    },
+    "19958": {
+      "id": 2557696,
+      "text": "bạn có để các đội tiếp tục thi đấu cho đến khi có đội thắng không?",
+      "author": "ChatGPT4.1"
+    },
+    "19959": {
+      "id": 2557697,
+      "text": "Điều đó là tùy bạn quyết định,",
+      "author": "ChatGPT4.1"
+    },
+    "19960": {
+      "id": 2557698,
+      "text": "và một lần nữa, bạn cần lên kế hoạch cho tình huống này.",
+      "author": "ChatGPT4.1"
+    },
+    "19961": {
+      "id": 2557699,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "19962": {
+      "id": 2557700,
+      "text": "Bây giờ, mục tiêu của đợt thực tập này là tạo cơ hội cho bạn phát triển các kỹ năng mà một người quản lý sự kiện cần có.",
+      "author": "ChatGPT4.1"
+    },
+    "19963": {
+      "id": 2557701,
+      "text": "Vậy, chúng ta hãy nói về những kỹ năng đó một chút.",
+      "author": "ChatGPT4.1"
+    },
+    "19964": {
+      "id": 2557702,
+      "text": "Tôi nghĩ rằng kỹ năng giao tiếp của mình khá tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "19965": {
+      "id": 2557814,
+      "text": "Tôi có thể nói chuyện điện thoại với mọi người, đặt địa điểm và những việc tương tự.",
+      "author": "ChatGPT4.1"
+    },
+    "19966": {
+      "id": 2557815,
+      "text": "Tốt, chỉ cần nhớ rằng không chỉ là những gì bạn nói.",
+      "author": "ChatGPT4.1"
+    },
+    "19967": {
+      "id": 2557816,
+      "text": "Nếu bạn gặp ai đó trực tiếp và muốn thuyết phục họ trở thành nhà tài trợ, ví dụ như vậy...",
+      "author": "ChatGPT4.1"
+    },
+    "19969": {
+      "id": 2557817,
+      "text": "Tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "19970": {
+      "id": 2557818,
+      "text": "Giờ hãy nghĩ về kỹ năng tổ chức của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "19971": {
+      "id": 2557819,
+      "text": "Bạn đang làm việc trong một ngành rất chú trọng vào con người",
+      "author": "ChatGPT4.1"
+    },
+    "19972": {
+      "id": 2557820,
+      "text": "và điều đó có nghĩa là mọi thứ sẽ không luôn diễn ra như kế hoạch.",
+      "author": "ChatGPT4.1"
+    },
+    "19974": {
+      "id": 2557821,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "19975": {
+      "id": 2557822,
+      "text": "Bạn có thể phải thay đổi lịch trình ngay lập tức vì một vấn đề mà bạn chưa lường trước được...",
+      "author": "ChatGPT4.1"
+    },
+    "19976": {
+      "id": 2557823,
+      "text": "...cứ làm đi! Được rồi",
+      "author": "ChatGPT4.1"
+    },
+    "19978": {
+      "id": 2557824,
+      "text": "Tôi đang cải thiện điều đó,",
+      "author": "ChatGPT4.1"
+    },
+    "19979": {
+      "id": 2557825,
+      "text": "Tôi chắc chắn tốt hơn khi có thời hạn, đó là lý do công việc này hợp với tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "19980": {
+      "id": 2564141,
+      "text": "Đúng, nhưng quan trọng là cách bạn phản ứng khi hạn chót đến gần!",
+      "author": "ChatGPT4.1"
+    },
+    "19981": {
+      "id": 2564142,
+      "text": "Tôi biết mình phải trông thật bình tĩnh kể cả khi đang hoảng loạn.",
+      "author": "ChatGPT4.1"
+    },
+    "19982": {
+      "id": 2564143,
+      "text": "Chỉ cần tự nhủ với bản thân,",
+      "author": "ChatGPT4.1"
+    },
+    "19983": {
+      "id": 2564144,
+      "text": "không ai được biết tôi đang chịu áp lực.",
+      "author": "ChatGPT4.1"
+    },
+    "19985": {
+      "id": 2564145,
+      "text": "Một kỹ năng khác mà người quản lý sự kiện cần là sự sáng tạo.",
+      "author": "ChatGPT4.1"
+    },
+    "19986": {
+      "id": 2564146,
+      "text": "Thường thì khách hàng của bạn có những ý tưởng tổng quan,",
+      "author": "ChatGPT4.1"
+    },
+    "19988": {
+      "id": 2564147,
+      "text": "Đúng, vậy tôi cần lắng nghe kỹ ý tưởng đó và sau đó lấp đầy mọi khoảng trống.",
+      "author": "ChatGPT4.1"
+    },
+    "19989": {
+      "id": 2564148,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "19990": {
+      "id": 2564149,
+      "text": "Và bạn sẽ có một đội ngũ làm việc dưới quyền bạn,",
+      "author": "ChatGPT4.1"
+    },
+    "19991": {
+      "id": 2564150,
+      "text": "vì vậy một kỹ năng chủ chốt khác là khả năng lãnh đạo.",
+      "author": "ChatGPT4.1"
+    },
+    "19992": {
+      "id": 2564151,
+      "text": "Nhóm của bạn cũng có thể có rất nhiều ý tưởng,",
+      "author": "ChatGPT4.1"
+    },
+    "19993": {
+      "id": 2564152,
+      "text": "nhưng bạn phải là người đưa ra quyết định cuối cùng.",
+      "author": "ChatGPT4.1"
+    },
+    "19995": {
+      "id": 2564153,
+      "text": "Có phải dân chủ thì tốt hơn không?",
+      "author": "ChatGPT4.1"
+    },
+    "19996": {
+      "id": 2565477,
+      "text": "Đó là ý tưởng hay, nhưng bạn mới là người chịu trách nhiệm cuối cùng.",
+      "author": "ChatGPT4.1"
+    },
+    "19997": {
+      "id": 2565478,
+      "text": "Vì vậy, hãy tin vào điều bạn nghĩ là tốt nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "19998": {
+      "id": 2565479,
+      "text": "Hãy sẵn sàng nói “ừ, đó là ý hay nhưng nó sẽ không phù hợp ở đây”.",
+      "author": "ChatGPT4.1"
+    },
+    "19999": {
+      "id": 2565480,
+      "text": "Tôi hiểu ý bạn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "20001": {
+      "id": 2565481,
+      "text": "Tôi biết đây là lĩnh vực mà nhiều sinh viên lo lắng",
+      "author": "ChatGPT4.1"
+    },
+    "20002": {
+      "id": 2565482,
+      "text": "vì chúng tôi không có nhiều kinh nghiệm để trao đổi với người khác.",
+      "author": "ChatGPT4.1"
+    },
+    "20004": {
+      "id": 2565483,
+      "text": "Và bạn gây ấn tượng được với càng nhiều người thì càng tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "20005": {
+      "id": 2565484,
+      "text": "Tôi đoán điều đó sẽ giúp tôi khi xin việc thật sự.",
+      "author": "ChatGPT4.1"
+    },
+    "20006": {
+      "id": 2565485,
+      "text": "Chính xác, hãy nghĩ xa hơn, nhớ về tham vọng của mình và luôn ghi nhớ chúng.",
+      "author": "ChatGPT4.1"
+    },
+    "20007": {
+      "id": 2565486,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

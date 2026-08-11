@@ -1,0 +1,2018 @@
+{
+  "summary": {
+    "id": 166,
+    "name": "135. University",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 137,
+    "totalChallenges": 36,
+    "groupId": 92,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/166",
+  "detail": {
+    "id": 166,
+    "lessonName": "135. University",
+    "name": "135. University",
+    "position": 137,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/0-136-university.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 6134,
+        "position": 1,
+        "content": "It's time to sign up for school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "time",
+          "to",
+          "sign",
+          "up",
+          "for",
+          "school."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sign"
+          ],
+          [
+            "up"
+          ],
+          [
+            "for"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/1.mp3",
+        "timeStart": 2.08,
+        "timeEnd": 4.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6134/list"
+      },
+      {
+        "id": 6135,
+        "position": 2,
+        "content": "This year Natalie is going to Brock University.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "year",
+          "Natalie",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "Brock",
+          "University."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "year"
+          ],
+          [
+            "Natalie"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "Brock"
+          ],
+          [
+            "University."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/2.mp3",
+        "timeStart": 4.76,
+        "timeEnd": 8.16,
+        "hints": [
+          "Natalie",
+          "Brock"
+        ],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/6135/list"
+      },
+      {
+        "id": 6136,
+        "position": 3,
+        "content": "She has never been to university before.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She has",
+            "she's"
+          ],
+          "never",
+          "been",
+          "to",
+          "university",
+          "before."
+        ],
+        "solution": [
+          [
+            "She has",
+            "she's"
+          ],
+          [
+            "never"
+          ],
+          [
+            "been"
+          ],
+          [
+            "to"
+          ],
+          [
+            "university"
+          ],
+          [
+            "before."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/3.mp3",
+        "timeStart": 8.68,
+        "timeEnd": 11.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6136/list"
+      },
+      {
+        "id": 6137,
+        "position": 4,
+        "content": "She is a little bit scared.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "she's"
+          ],
+          "a",
+          "little",
+          "bit",
+          "scared."
+        ],
+        "solution": [
+          [
+            "She is",
+            "she's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "scared."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/4.mp3",
+        "timeStart": 12.08,
+        "timeEnd": 13.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6137/list"
+      },
+      {
+        "id": 6138,
+        "position": 5,
+        "content": "She hopes she meets nice, new friends.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "hopes",
+          "she",
+          "meets",
+          "nice,",
+          "new",
+          "friends."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "hopes"
+          ],
+          [
+            "she"
+          ],
+          [
+            "meets"
+          ],
+          [
+            "nice,"
+          ],
+          [
+            "new"
+          ],
+          [
+            "friends."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/5.mp3",
+        "timeStart": 14.56,
+        "timeEnd": 17.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6138/list"
+      },
+      {
+        "id": 6139,
+        "position": 6,
+        "content": "Natalie stood in line to get her picture taken.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Natalie",
+          "stood",
+          "in",
+          "line",
+          "to",
+          "get",
+          "her",
+          "picture",
+          "taken."
+        ],
+        "solution": [
+          [
+            "Natalie"
+          ],
+          [
+            "stood"
+          ],
+          [
+            "in"
+          ],
+          [
+            "line"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "her"
+          ],
+          [
+            "picture"
+          ],
+          [
+            "taken."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/6.mp3",
+        "timeStart": 18.24,
+        "timeEnd": 21.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6139/list"
+      },
+      {
+        "id": 6140,
+        "position": 7,
+        "content": "The picture was put on a card.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "picture",
+          "was",
+          "put",
+          "on",
+          "a",
+          "card."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "picture"
+          ],
+          [
+            "was"
+          ],
+          [
+            "put"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "card."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/7.mp3",
+        "timeStart": 22.08,
+        "timeEnd": 24.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6140/list"
+      },
+      {
+        "id": 6141,
+        "position": 8,
+        "content": "The card was her picture ID (identification).",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "card",
+          "was",
+          "her",
+          "picture",
+          "ID",
+          "(identification)."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "card"
+          ],
+          [
+            "was"
+          ],
+          [
+            "her"
+          ],
+          [
+            "picture"
+          ],
+          [
+            "ID"
+          ],
+          [
+            "(identification)."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/8.mp3",
+        "timeStart": 24.88,
+        "timeEnd": 28.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6141/list"
+      },
+      {
+        "id": 6142,
+        "position": 9,
+        "content": "She would use this card if she needed to buy books from the school bookstore;",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She would",
+            "She'd"
+          ],
+          "use",
+          "this",
+          "card",
+          "if",
+          "she",
+          "needed",
+          "to",
+          "buy",
+          "books",
+          "from",
+          "the",
+          "school",
+          "bookstore;"
+        ],
+        "solution": [
+          [
+            "She would",
+            "She'd"
+          ],
+          [
+            "use"
+          ],
+          [
+            "this"
+          ],
+          [
+            "card"
+          ],
+          [
+            "if"
+          ],
+          [
+            "she"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "books"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "school"
+          ],
+          [
+            "bookstore;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/9.mp3",
+        "timeStart": 29.4,
+        "timeEnd": 34.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6142/list"
+      },
+      {
+        "id": 6143,
+        "position": 10,
+        "content": "if she wanted to get a book from the library;",
+        "defaultInput": "",
+        "jsonContent": [
+          "if",
+          "she",
+          "wanted",
+          "to",
+          "get",
+          "a",
+          "book",
+          "from",
+          "the",
+          "library;"
+        ],
+        "solution": [
+          [
+            "if"
+          ],
+          [
+            "she"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "book"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/10.mp3",
+        "timeStart": 34.28,
+        "timeEnd": 36.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6143/list"
+      },
+      {
+        "id": 6144,
+        "position": 11,
+        "content": "or if she wanted to use the pool!",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "if",
+          "she",
+          "wanted",
+          "to",
+          "use",
+          "the",
+          "pool!"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "if"
+          ],
+          [
+            "she"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pool!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/11.mp3",
+        "timeStart": 36.96,
+        "timeEnd": 39.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6144/list"
+      },
+      {
+        "id": 6145,
+        "position": 12,
+        "content": "After all of the signing up and money was paid,",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "all",
+          "of",
+          "the",
+          "signing",
+          "up",
+          "and",
+          "money",
+          "was",
+          "paid,"
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "signing"
+          ],
+          [
+            "up"
+          ],
+          [
+            "and"
+          ],
+          [
+            "money"
+          ],
+          [
+            "was"
+          ],
+          [
+            "paid,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/12.mp3",
+        "timeStart": 39.72,
+        "timeEnd": 42.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6145/list"
+      },
+      {
+        "id": 6146,
+        "position": 13,
+        "content": "Natalie went out to lunch with her mother.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Natalie",
+          "went",
+          "out",
+          "to",
+          "lunch",
+          "with",
+          "her",
+          "mother."
+        ],
+        "solution": [
+          [
+            "Natalie"
+          ],
+          [
+            "went"
+          ],
+          [
+            "out"
+          ],
+          [
+            "to"
+          ],
+          [
+            "lunch"
+          ],
+          [
+            "with"
+          ],
+          [
+            "her"
+          ],
+          [
+            "mother."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/13.mp3",
+        "timeStart": 42.88,
+        "timeEnd": 45.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6146/list"
+      },
+      {
+        "id": 6147,
+        "position": 14,
+        "content": "\"Mom, I'm kind of scared about going to school.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "\"Mom,",
+            "mum"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          "kind",
+          "of",
+          "scared",
+          "about",
+          [
+            "going to",
+            "gonna"
+          ],
+          "school."
+        ],
+        "solution": [
+          [
+            "\"Mom,",
+            "mum"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "scared"
+          ],
+          [
+            "about"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/14.mp3",
+        "timeStart": 46.15,
+        "timeEnd": 49.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6147/list"
+      },
+      {
+        "id": 6148,
+        "position": 15,
+        "content": "I'm going to be the youngest kid there.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "the",
+          "youngest",
+          "kid",
+          "there."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "the"
+          ],
+          [
+            "youngest"
+          ],
+          [
+            "kid"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/15.mp3",
+        "timeStart": 49.79,
+        "timeEnd": 52.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6148/list"
+      },
+      {
+        "id": 6149,
+        "position": 16,
+        "content": "I don't know how to take notes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "know",
+          "how",
+          "to",
+          "take",
+          "notes."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "notes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/16.mp3",
+        "timeStart": 52.68,
+        "timeEnd": 54.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6149/list"
+      },
+      {
+        "id": 6150,
+        "position": 17,
+        "content": "The teachers might be mean....\",",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "teachers",
+          "might",
+          "be",
+          "mean....\","
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "teachers"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "mean....\","
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/17.mp3",
+        "timeStart": 55.06,
+        "timeEnd": 56.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6150/list"
+      },
+      {
+        "id": 6151,
+        "position": 18,
+        "content": "Natalie rambled on.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Natalie",
+          "rambled",
+          "on."
+        ],
+        "solution": [
+          [
+            "Natalie"
+          ],
+          [
+            "rambled"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/18.mp3",
+        "timeStart": 57.23,
+        "timeEnd": 58.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6151/list"
+      },
+      {
+        "id": 6152,
+        "position": 19,
+        "content": "Her mom just calmed her down and said,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          [
+            "mom",
+            "mum"
+          ],
+          "just",
+          "calmed",
+          "her",
+          "down",
+          "and",
+          "said,"
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "just"
+          ],
+          [
+            "calmed"
+          ],
+          [
+            "her"
+          ],
+          [
+            "down"
+          ],
+          [
+            "and"
+          ],
+          [
+            "said,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/19.mp3",
+        "timeStart": 59.36,
+        "timeEnd": 61.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6152/list"
+      },
+      {
+        "id": 6153,
+        "position": 20,
+        "content": "\"Take one day at a time, Natalie.",
+        "defaultInput": "",
+        "jsonContent": [
+          "\"Take",
+          [
+            "one",
+            "1"
+          ],
+          "day",
+          "at",
+          "a",
+          "time,",
+          "Natalie."
+        ],
+        "solution": [
+          [
+            "\"Take"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "day"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "Natalie."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/20.mp3",
+        "timeStart": 61.96,
+        "timeEnd": 64.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6153/list"
+      },
+      {
+        "id": 6154,
+        "position": 21,
+        "content": "Worry only about today\".",
+        "defaultInput": "",
+        "jsonContent": [
+          "Worry",
+          "only",
+          "about",
+          "today\"."
+        ],
+        "solution": [
+          [
+            "Worry"
+          ],
+          [
+            "only"
+          ],
+          [
+            "about"
+          ],
+          [
+            "today\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/21.mp3",
+        "timeStart": 64.67,
+        "timeEnd": 66.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6154/list"
+      },
+      {
+        "id": 6155,
+        "position": 22,
+        "content": "\"Hmmm. You're right, Mom. Thanks!\"",
+        "defaultInput": "Hmmm. ",
+        "jsonContent": [
+          "\"Hmmm.",
+          [
+            "You're",
+            "you are"
+          ],
+          "right,",
+          [
+            "Mom.",
+            "mum"
+          ],
+          "Thanks!\""
+        ],
+        "solution": [
+          [
+            "\"Hmmm."
+          ],
+          [
+            "You're",
+            "you are"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "Mom.",
+            "mum"
+          ],
+          [
+            "Thanks!\""
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/22.mp3",
+        "timeStart": 67.4,
+        "timeEnd": 70.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6155/list"
+      },
+      {
+        "id": 6156,
+        "position": 23,
+        "content": "Natalie was very scared on the first day of school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Natalie",
+          "was",
+          "very",
+          "scared",
+          "on",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "day",
+          "of",
+          "school."
+        ],
+        "solution": [
+          [
+            "Natalie"
+          ],
+          [
+            "was"
+          ],
+          [
+            "very"
+          ],
+          [
+            "scared"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "day"
+          ],
+          [
+            "of"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/23.mp3",
+        "timeStart": 71.35,
+        "timeEnd": 74.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6156/list"
+      },
+      {
+        "id": 6157,
+        "position": 24,
+        "content": "She made sure she had all of the books she needed",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "made",
+          "sure",
+          [
+            "she had",
+            "She'd"
+          ],
+          "all",
+          "of",
+          "the",
+          "books",
+          "she",
+          "needed"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "made"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "she had",
+            "She'd"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "books"
+          ],
+          [
+            "she"
+          ],
+          [
+            "needed"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/24.mp3",
+        "timeStart": 74.84,
+        "timeEnd": 77.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6157/list"
+      },
+      {
+        "id": 6158,
+        "position": 25,
+        "content": "and lots of pens, pencils and erasers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "lots",
+          "of",
+          "pens,",
+          "pencils",
+          "and",
+          "erasers."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "pens,"
+          ],
+          [
+            "pencils"
+          ],
+          [
+            "and"
+          ],
+          [
+            "erasers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/25.mp3",
+        "timeStart": 77.51,
+        "timeEnd": 80.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6158/list"
+      },
+      {
+        "id": 6159,
+        "position": 26,
+        "content": "She walked into the front of the building",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "walked",
+          "into",
+          "the",
+          "front",
+          "of",
+          "the",
+          "building"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "walked"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "building"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/26.mp3",
+        "timeStart": 81.1,
+        "timeEnd": 83.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6159/list"
+      },
+      {
+        "id": 6160,
+        "position": 27,
+        "content": "and went on her way to try and find her classroom.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "went",
+          "on",
+          "her",
+          "way",
+          "to",
+          "try",
+          "and",
+          "find",
+          "her",
+          "classroom."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "went"
+          ],
+          [
+            "on"
+          ],
+          [
+            "her"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "try"
+          ],
+          [
+            "and"
+          ],
+          [
+            "find"
+          ],
+          [
+            "her"
+          ],
+          [
+            "classroom."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/27.mp3",
+        "timeStart": 83.09,
+        "timeEnd": 86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6160/list"
+      },
+      {
+        "id": 6161,
+        "position": 28,
+        "content": "Natalie got through her classes and met a lot of new people, nice people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Natalie",
+          "got",
+          "through",
+          "her",
+          "classes",
+          "and",
+          "met",
+          "a",
+          "lot",
+          "of",
+          "new",
+          "people,",
+          "nice",
+          "people."
+        ],
+        "solution": [
+          [
+            "Natalie"
+          ],
+          [
+            "got"
+          ],
+          [
+            "through"
+          ],
+          [
+            "her"
+          ],
+          [
+            "classes"
+          ],
+          [
+            "and"
+          ],
+          [
+            "met"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "new"
+          ],
+          [
+            "people,"
+          ],
+          [
+            "nice"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/28.mp3",
+        "timeStart": 86.91,
+        "timeEnd": 91.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6161/list"
+      },
+      {
+        "id": 6162,
+        "position": 29,
+        "content": "Her classes seemed to go by really fast,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          "classes",
+          "seemed",
+          "to",
+          "go",
+          "by",
+          "really",
+          "fast,"
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "classes"
+          ],
+          [
+            "seemed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "by"
+          ],
+          [
+            "really"
+          ],
+          [
+            "fast,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/29.mp3",
+        "timeStart": 92.14,
+        "timeEnd": 94.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6162/list"
+      },
+      {
+        "id": 6163,
+        "position": 30,
+        "content": "and the day went by even faster.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "day",
+          "went",
+          "by",
+          "even",
+          "faster."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day"
+          ],
+          [
+            "went"
+          ],
+          [
+            "by"
+          ],
+          [
+            "even"
+          ],
+          [
+            "faster."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/30.mp3",
+        "timeStart": 94.74,
+        "timeEnd": 97.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6163/list"
+      },
+      {
+        "id": 6164,
+        "position": 31,
+        "content": "When Natalie got home she was so excited.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "Natalie",
+          "got",
+          "home",
+          "she",
+          "was",
+          "so",
+          "excited."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "Natalie"
+          ],
+          [
+            "got"
+          ],
+          [
+            "home"
+          ],
+          [
+            "she"
+          ],
+          [
+            "was"
+          ],
+          [
+            "so"
+          ],
+          [
+            "excited."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/31.mp3",
+        "timeStart": 97.76,
+        "timeEnd": 100.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6164/list"
+      },
+      {
+        "id": 6165,
+        "position": 32,
+        "content": "She told her mom that classes weren't all that scary;",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "told",
+          "her",
+          [
+            "mom",
+            "mum"
+          ],
+          "that",
+          "classes",
+          [
+            "weren't",
+            "were not"
+          ],
+          "all",
+          "that",
+          "scary;"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "told"
+          ],
+          [
+            "her"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "that"
+          ],
+          [
+            "classes"
+          ],
+          [
+            "weren't",
+            "were not"
+          ],
+          [
+            "all"
+          ],
+          [
+            "that"
+          ],
+          [
+            "scary;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/32.mp3",
+        "timeStart": 101.1,
+        "timeEnd": 104.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6165/list"
+      },
+      {
+        "id": 6166,
+        "position": 33,
+        "content": "the students and the teachers weren't scary either!",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "students",
+          "and",
+          "the",
+          "teachers",
+          [
+            "weren't",
+            "were not"
+          ],
+          "scary",
+          "either!"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "teachers"
+          ],
+          [
+            "weren't",
+            "were not"
+          ],
+          [
+            "scary"
+          ],
+          [
+            "either!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/33.mp3",
+        "timeStart": 104.57,
+        "timeEnd": 107.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6166/list"
+      },
+      {
+        "id": 6167,
+        "position": 34,
+        "content": "Natalie knew that the school work would be hard,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Natalie",
+          "knew",
+          "that",
+          "the",
+          "school",
+          "work",
+          "would",
+          "be",
+          "hard,"
+        ],
+        "solution": [
+          [
+            "Natalie"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "school"
+          ],
+          [
+            "work"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "hard,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/34.mp3",
+        "timeStart": 107.92,
+        "timeEnd": 110.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6167/list"
+      },
+      {
+        "id": 6168,
+        "position": 35,
+        "content": "but she felt good about the people she had met that day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "she",
+          "felt",
+          "good",
+          "about",
+          "the",
+          "people",
+          [
+            "she had",
+            "She'd"
+          ],
+          "met",
+          "that",
+          "day."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "she"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "good"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "people"
+          ],
+          [
+            "she had",
+            "She'd"
+          ],
+          [
+            "met"
+          ],
+          [
+            "that"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/35.mp3",
+        "timeStart": 110.59,
+        "timeEnd": 113.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6168/list"
+      },
+      {
+        "id": 6169,
+        "position": 36,
+        "content": "She knew she'd have a good year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "knew",
+          "she'd",
+          "have",
+          "a",
+          "good",
+          "year."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "she'd"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/136-university-2019-04-07-04-24-28/36.mp3",
+        "timeStart": 114.12,
+        "timeEnd": 115.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/6169/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "6135": {
+      "id": 2080933,
+      "text": "Năm nay Natalie sẽ học tại trường Đại học Brock.",
+      "author": "a user"
+    },
+    "6134": {
+      "id": 2605979,
+      "text": "Đã đến lúc đăng ký nhập học.",
+      "author": "ChatGPT4.1"
+    },
+    "6136": {
+      "id": 2605980,
+      "text": "Cô ấy chưa bao giờ học đại học trước đây.",
+      "author": "ChatGPT4.1"
+    },
+    "6137": {
+      "id": 2605981,
+      "text": "Cô ấy hơi sợ một chút.",
+      "author": "a user"
+    },
+    "6138": {
+      "id": 2605982,
+      "text": "Cô ấy hy vọng sẽ gặp được những người bạn mới tốt bụng.",
+      "author": "ChatGPT4.1"
+    },
+    "6139": {
+      "id": 2605983,
+      "text": "Natalie xếp hàng để chụp ảnh.",
+      "author": "ChatGPT4.1"
+    },
+    "6140": {
+      "id": 2605984,
+      "text": "Tấm ảnh đó được đặt lên một tấm thẻ.",
+      "author": "ChatGPT4.1"
+    },
+    "6141": {
+      "id": 2605985,
+      "text": "Tấm thẻ đó là thẻ nhận dạng có ảnh của cô ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "6142": {
+      "id": 2605986,
+      "text": "Cô ấy sẽ dùng thẻ này nếu cần mua sách từ hiệu sách trường;",
+      "author": "ChatGPT4.1"
+    },
+    "6143": {
+      "id": 2605987,
+      "text": "nếu cô ấy muốn mượn sách từ thư viện;",
+      "author": "ChatGPT4.1"
+    },
+    "6144": {
+      "id": 2605988,
+      "text": "hoặc nếu cô ấy muốn sử dụng hồ bơi!",
+      "author": "ChatGPT4.1"
+    },
+    "6145": {
+      "id": 2605989,
+      "text": "Sau khi hoàn tất các thủ tục đăng ký và thanh toán,",
+      "author": "ChatGPT4.1"
+    },
+    "6146": {
+      "id": 2605990,
+      "text": "Natalie đi ăn trưa với mẹ.",
+      "author": "ChatGPT4.1"
+    },
+    "6147": {
+      "id": 2605991,
+      "text": "“Mẹ ơi, con hơi sợ khi đi học.",
+      "author": "ChatGPT4.1"
+    },
+    "6148": {
+      "id": 2605992,
+      "text": "Con sẽ là đứa nhỏ nhất ở đó.",
+      "author": "ChatGPT4.1"
+    },
+    "6149": {
+      "id": 2605993,
+      "text": "Con không biết cách ghi chú.",
+      "author": "ChatGPT4.1"
+    },
+    "6150": {
+      "id": 2605994,
+      "text": "Các giáo viên có thể sẽ khó tính…\",",
+      "author": "ChatGPT4.1"
+    },
+    "6151": {
+      "id": 2605995,
+      "text": "Natalie tiếp tục lảm nhảm.",
+      "author": "ChatGPT4.1"
+    },
+    "6152": {
+      "id": 2605996,
+      "text": "Mẹ cô ấy chỉ nhẹ nhàng trấn an và nói,",
+      "author": "ChatGPT4.1"
+    },
+    "6153": {
+      "id": 2605997,
+      "text": "“Hãy sống từng ngày một, Natalie.",
+      "author": "ChatGPT4.1"
+    },
+    "6154": {
+      "id": 2605998,
+      "text": "Chỉ lo lắng về ngày hôm nay thôi”.",
+      "author": "ChatGPT4.1"
+    },
+    "6155": {
+      "id": 2605999,
+      "text": "“Ừm. Mẹ nói đúng đó. Cảm ơn mẹ!”",
+      "author": "ChatGPT4.1"
+    },
+    "6156": {
+      "id": 2606000,
+      "text": "Natalie rất sợ trong ngày đầu tiên đi học.",
+      "author": "ChatGPT4.1"
+    },
+    "6157": {
+      "id": 2606001,
+      "text": "Cô ấy đã kiểm tra chắc chắn là đã mang đủ tất cả các cuốn sách cần thiết",
+      "author": "ChatGPT4.1"
+    },
+    "6158": {
+      "id": 2606002,
+      "text": "và rất nhiều bút, bút chì và tẩy.",
+      "author": "ChatGPT4.1"
+    },
+    "6159": {
+      "id": 2606003,
+      "text": "Cô ấy đi vào phía trước tòa nhà",
+      "author": "ChatGPT4.1"
+    },
+    "6160": {
+      "id": 2606004,
+      "text": "và tiếp tục đi để cố gắng tìm đường tới lớp học của mình.",
+      "author": "a user"
+    },
+    "6161": {
+      "id": 2606005,
+      "text": "Natalie đã vượt qua các tiết học của mình và gặp rất nhiều người mới, những người tốt bụng.",
+      "author": "ChatGPT4.1"
+    },
+    "6162": {
+      "id": 2606006,
+      "text": "Các tiết học của cô ấy dường như trôi qua rất nhanh,",
+      "author": "ChatGPT4.1"
+    },
+    "6163": {
+      "id": 2606007,
+      "text": "và cả ngày trôi qua còn nhanh hơn nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "6164": {
+      "id": 2606640,
+      "text": "Khi Natalie về nhà, cô ấy rất phấn khích.",
+      "author": "ChatGPT4.1"
+    },
+    "6165": {
+      "id": 2606641,
+      "text": "Cô ấy nói với mẹ rằng các tiết học không đáng sợ như vậy;",
+      "author": "ChatGPT4.1"
+    },
+    "6166": {
+      "id": 2606642,
+      "text": "các học sinh và thầy cô cũng không đáng sợ!",
+      "author": "ChatGPT4.1"
+    },
+    "6167": {
+      "id": 2606643,
+      "text": "Natalie biết rằng việc học sẽ vất vả,",
+      "author": "ChatGPT4.1"
+    },
+    "6168": {
+      "id": 2606644,
+      "text": "nhưng cô ấy cảm thấy vui về những người mình đã gặp ngày hôm đó.",
+      "author": "ChatGPT4.1"
+    },
+    "6169": {
+      "id": 2606645,
+      "text": "Cô ấy biết rằng mình sẽ có một năm học tuyệt vời.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

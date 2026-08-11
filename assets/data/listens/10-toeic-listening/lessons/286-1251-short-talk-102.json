@@ -1,0 +1,860 @@
+{
+  "summary": {
+    "id": 1251,
+    "name": "Short Talk 102",
+    "subTitle": "Teleconferencing Training Session",
+    "levelName": "B1",
+    "position": 286,
+    "totalChallenges": 13,
+    "groupId": 41,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1251",
+  "detail": {
+    "id": 1251,
+    "lessonName": "Short Talk 102",
+    "name": "Short Talk 102",
+    "position": 286,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/0-short-talk-102.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55515,
+        "position": 1,
+        "content": "Okay, our last topic on the meeting schedule today is teleconferencing.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "our",
+          "last",
+          "topic",
+          "on",
+          "the",
+          "meeting",
+          "schedule",
+          "today",
+          "is",
+          "teleconferencing."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "our"
+          ],
+          [
+            "last"
+          ],
+          [
+            "topic"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "today"
+          ],
+          [
+            "is"
+          ],
+          [
+            "teleconferencing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 4.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55515/list"
+      },
+      {
+        "id": 55516,
+        "position": 2,
+        "content": "I would really like to take more advantage of our conference rooms and conduct meetings in this manner.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "really",
+          "like",
+          "to",
+          "take",
+          "more",
+          "advantage",
+          "of",
+          "our",
+          "conference",
+          "rooms",
+          "and",
+          "conduct",
+          "meetings",
+          "in",
+          "this",
+          "manner."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "really"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "more"
+          ],
+          [
+            "advantage"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "conference"
+          ],
+          [
+            "rooms"
+          ],
+          [
+            "and"
+          ],
+          [
+            "conduct"
+          ],
+          [
+            "meetings"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "manner."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/2.mp3",
+        "timeStart": 4.94,
+        "timeEnd": 10.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55516/list"
+      },
+      {
+        "id": 55517,
+        "position": 3,
+        "content": "All of our meeting rooms have now been equipped with computers with video cameras,",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "of",
+          "our",
+          "meeting",
+          "rooms",
+          "have",
+          "now",
+          "been",
+          "equipped",
+          "with",
+          "computers",
+          "with",
+          "video",
+          "cameras,"
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "rooms"
+          ],
+          [
+            "have"
+          ],
+          [
+            "now"
+          ],
+          [
+            "been"
+          ],
+          [
+            "equipped"
+          ],
+          [
+            "with"
+          ],
+          [
+            "computers"
+          ],
+          [
+            "with"
+          ],
+          [
+            "video"
+          ],
+          [
+            "cameras,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/3.mp3",
+        "timeStart": 11.18,
+        "timeEnd": 15.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55517/list"
+      },
+      {
+        "id": 55518,
+        "position": 4,
+        "content": "specifically for you to use to meet with clients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "specifically",
+          "for",
+          "you",
+          "to",
+          "use",
+          "to",
+          "meet",
+          "with",
+          "clients."
+        ],
+        "solution": [
+          [
+            "specifically"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "with"
+          ],
+          [
+            "clients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/4.mp3",
+        "timeStart": 15.47,
+        "timeEnd": 18.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55518/list"
+      },
+      {
+        "id": 55519,
+        "position": 5,
+        "content": "We know technology can be intimidating,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "know",
+          "technology",
+          "can",
+          "be",
+          "intimidating,"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "know"
+          ],
+          [
+            "technology"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "intimidating,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/5.mp3",
+        "timeStart": 19.05,
+        "timeEnd": 21.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55519/list"
+      },
+      {
+        "id": 55520,
+        "position": 6,
+        "content": "so we will train you on how to use the equipment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "we will",
+            "we'll"
+          ],
+          "train",
+          "you",
+          "on",
+          "how",
+          "to",
+          "use",
+          "the",
+          "equipment."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "train"
+          ],
+          [
+            "you"
+          ],
+          [
+            "on"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "the"
+          ],
+          [
+            "equipment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/6.mp3",
+        "timeStart": 21.89,
+        "timeEnd": 24.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55520/list"
+      },
+      {
+        "id": 55521,
+        "position": 7,
+        "content": "The first group training will be on Friday,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "first",
+            "1st"
+          ],
+          "group",
+          "training",
+          "will",
+          "be",
+          "on",
+          "Friday,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "group"
+          ],
+          [
+            "training"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Friday,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/7.mp3",
+        "timeStart": 25.17,
+        "timeEnd": 27.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55521/list"
+      },
+      {
+        "id": 55522,
+        "position": 8,
+        "content": "at the start of the business day, in conference room 2,",
+        "defaultInput": "",
+        "jsonContent": [
+          "at",
+          "the",
+          "start",
+          "of",
+          "the",
+          "business",
+          "day,",
+          "in",
+          "conference",
+          "room",
+          [
+            "2,",
+            "two"
+          ]
+        ],
+        "solution": [
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "start"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "business"
+          ],
+          [
+            "day,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "conference"
+          ],
+          [
+            "room"
+          ],
+          [
+            "2,",
+            "two"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/8.mp3",
+        "timeStart": 27.55,
+        "timeEnd": 31.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55522/list"
+      },
+      {
+        "id": 55523,
+        "position": 9,
+        "content": "so please be available.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "please",
+          "be",
+          "available."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "please"
+          ],
+          [
+            "be"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/9.mp3",
+        "timeStart": 31.29,
+        "timeEnd": 32.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55523/list"
+      },
+      {
+        "id": 55524,
+        "position": 10,
+        "content": "Before Friday, please read the training guide I just passed out,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "Friday,",
+          "please",
+          "read",
+          "the",
+          "training",
+          "guide",
+          "I",
+          "just",
+          "passed",
+          "out,"
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "Friday,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "read"
+          ],
+          [
+            "the"
+          ],
+          [
+            "training"
+          ],
+          [
+            "guide"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "passed"
+          ],
+          [
+            "out,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/10.mp3",
+        "timeStart": 33.25,
+        "timeEnd": 36.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55524/list"
+      },
+      {
+        "id": 55525,
+        "position": 11,
+        "content": "as it will familiarize you with the technology.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          [
+            "it will",
+            "it'll"
+          ],
+          "familiarize",
+          "you",
+          "with",
+          "the",
+          "technology."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "it will",
+            "it'll"
+          ],
+          [
+            "familiarize"
+          ],
+          [
+            "you"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "technology."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/11.mp3",
+        "timeStart": 36.77,
+        "timeEnd": 39.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55525/list"
+      },
+      {
+        "id": 55526,
+        "position": 12,
+        "content": "If you are unable to make it on Friday, let me know via email, as soon as possible",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you are",
+            "you're"
+          ],
+          "unable",
+          "to",
+          "make",
+          "it",
+          "on",
+          "Friday,",
+          "let",
+          "me",
+          "know",
+          "via",
+          "email,",
+          "as",
+          "soon",
+          "as",
+          "possible"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "unable"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "it"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Friday,"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "know"
+          ],
+          [
+            "via"
+          ],
+          [
+            "email,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/12.mp3",
+        "timeStart": 40.06,
+        "timeEnd": 45.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55526/list"
+      },
+      {
+        "id": 55527,
+        "position": 13,
+        "content": "and I can arrange an alternate date.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "can",
+          "arrange",
+          "an",
+          "alternate",
+          "date."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "an"
+          ],
+          [
+            "alternate"
+          ],
+          [
+            "date."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-102-2023-10-03-18-18-03/13.mp3",
+        "timeStart": 45.65,
+        "timeEnd": 47.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55527/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55515": {
+      "id": 2635685,
+      "text": "Được rồi, chủ đề cuối cùng trong lịch trình cuộc họp hôm nay của chúng ta là hội nghị truyền hình.",
+      "author": "ChatGPT4.1"
+    },
+    "55516": {
+      "id": 2635686,
+      "text": "Tôi thực sự muốn tận dụng nhiều hơn các phòng họp của chúng ta và tổ chức các cuộc họp theo cách này.",
+      "author": "ChatGPT4.1"
+    },
+    "55517": {
+      "id": 2635687,
+      "text": "Tất cả các phòng họp của chúng ta hiện đã được trang bị máy tính có camera video,",
+      "author": "ChatGPT4.1"
+    },
+    "55518": {
+      "id": 2635688,
+      "text": "đặc biệt dành cho các bạn sử dụng để họp với khách hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "55519": {
+      "id": 2635689,
+      "text": "Chúng tôi biết công nghệ có thể gây khó khăn,",
+      "author": "ChatGPT4.1"
+    },
+    "55520": {
+      "id": 2635690,
+      "text": "vì vậy chúng tôi sẽ đào tạo các bạn cách sử dụng thiết bị.",
+      "author": "ChatGPT4.1"
+    },
+    "55521": {
+      "id": 2635691,
+      "text": "Buổi đào tạo nhóm đầu tiên sẽ diễn ra vào thứ Sáu,",
+      "author": "ChatGPT4.1"
+    },
+    "55522": {
+      "id": 2635692,
+      "text": "vào đầu ngày làm việc, tại phòng họp số 2,",
+      "author": "ChatGPT4.1"
+    },
+    "55523": {
+      "id": 2635693,
+      "text": "vì vậy xin mọi người sắp xếp thời gian tham gia.",
+      "author": "ChatGPT4.1"
+    },
+    "55524": {
+      "id": 2635694,
+      "text": "Trước thứ Sáu, xin hãy đọc hướng dẫn đào tạo mà tôi vừa phát cho mọi người,",
+      "author": "ChatGPT4.1"
+    },
+    "55525": {
+      "id": 2635695,
+      "text": "vì nó sẽ giúp bạn làm quen với công nghệ này.",
+      "author": "ChatGPT4.1"
+    },
+    "55526": {
+      "id": 2635696,
+      "text": "Nếu bạn không thể tham gia vào thứ Sáu, hãy thông báo cho tôi qua email càng sớm càng tốt",
+      "author": "ChatGPT4.1"
+    },
+    "55527": {
+      "id": 2635697,
+      "text": "và tôi có thể sắp xếp một ngày khác.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

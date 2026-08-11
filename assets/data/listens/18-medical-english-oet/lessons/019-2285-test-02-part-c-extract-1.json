@@ -1,0 +1,4545 @@
+{
+  "summary": {
+    "id": 2285,
+    "name": "Test 02 - Part C - Extract 1",
+    "subTitle": "Sports Concussion Guidelines Overview",
+    "levelName": "B2",
+    "position": 19,
+    "totalChallenges": 66,
+    "groupId": 132,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2285",
+  "detail": {
+    "id": 2285,
+    "lessonName": "Test 02 - Part C - Extract 1",
+    "name": "Test 02 - Part C - Extract 1",
+    "position": 19,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/0-test-02-part-c-extract-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90147,
+        "position": 1,
+        "content": "My guest today is Dr Ian Marsh,",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "guest",
+          "today",
+          "is",
+          "Dr",
+          "Ian",
+          "Marsh,"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "guest"
+          ],
+          [
+            "today"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Dr"
+          ],
+          [
+            "Ian"
+          ],
+          [
+            "Marsh,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/1.mp3",
+        "timeStart": 0.81,
+        "timeEnd": 3.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90147/list"
+      },
+      {
+        "id": 90148,
+        "position": 2,
+        "content": "a specialist in the treatment of concussion in sport and a co-author on a new set of guidelines.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "specialist",
+          "in",
+          "the",
+          "treatment",
+          "of",
+          "concussion",
+          "in",
+          "sport",
+          "and",
+          "a",
+          [
+            "co-author",
+            "co author"
+          ],
+          "on",
+          "a",
+          "new",
+          "set",
+          "of",
+          "guidelines."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "specialist"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "treatment"
+          ],
+          [
+            "of"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "in"
+          ],
+          [
+            "sport"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "co-author",
+            "co author"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "set"
+          ],
+          [
+            "of"
+          ],
+          [
+            "guidelines."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/2.mp3",
+        "timeStart": 3.58,
+        "timeEnd": 9.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90148/list"
+      },
+      {
+        "id": 90149,
+        "position": 3,
+        "content": "So, Dr Marsh, what's the aim of these new guidelines?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "Dr",
+          "Marsh,",
+          [
+            "what's",
+            "what is"
+          ],
+          "the",
+          "aim",
+          "of",
+          "these",
+          "new",
+          "guidelines?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "Dr"
+          ],
+          [
+            "Marsh,"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "aim"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "new"
+          ],
+          [
+            "guidelines?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/3.mp3",
+        "timeStart": 9.8,
+        "timeEnd": 13.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90149/list"
+      },
+      {
+        "id": 90150,
+        "position": 4,
+        "content": "Well the aim was really to provide a resource,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well",
+          "the",
+          "aim",
+          "was",
+          "really",
+          "to",
+          "provide",
+          "a",
+          "resource,"
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "the"
+          ],
+          [
+            "aim"
+          ],
+          [
+            "was"
+          ],
+          [
+            "really"
+          ],
+          [
+            "to"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "a"
+          ],
+          [
+            "resource,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/4.mp3",
+        "timeStart": 13.83,
+        "timeEnd": 16.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90150/list"
+      },
+      {
+        "id": 90151,
+        "position": 5,
+        "content": "not for the top-level professional sports people, but for parents, teachers and coaches of young people playing sport.",
+        "defaultInput": "",
+        "jsonContent": [
+          "not",
+          "for",
+          "the",
+          [
+            "top-level",
+            "top level"
+          ],
+          "professional",
+          "sports",
+          "people,",
+          "but",
+          "for",
+          "parents,",
+          "teachers",
+          "and",
+          "coaches",
+          "of",
+          "young",
+          "people",
+          "playing",
+          "sport."
+        ],
+        "solution": [
+          [
+            "not"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "top-level",
+            "top level"
+          ],
+          [
+            "professional"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "people,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "for"
+          ],
+          [
+            "parents,"
+          ],
+          [
+            "teachers"
+          ],
+          [
+            "and"
+          ],
+          [
+            "coaches"
+          ],
+          [
+            "of"
+          ],
+          [
+            "young"
+          ],
+          [
+            "people"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "sport."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/5.mp3",
+        "timeStart": 17.3,
+        "timeEnd": 25.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90151/list"
+      },
+      {
+        "id": 90152,
+        "position": 6,
+        "content": "The guidelines basically offer some expert information from a GP (an emergency physician),",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "guidelines",
+          "basically",
+          "offer",
+          "some",
+          "expert",
+          "information",
+          "from",
+          "a",
+          "GP",
+          "(an",
+          "emergency",
+          "physician),"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "guidelines"
+          ],
+          [
+            "basically"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "some"
+          ],
+          [
+            "expert"
+          ],
+          [
+            "information"
+          ],
+          [
+            "from"
+          ],
+          [
+            "a"
+          ],
+          [
+            "GP"
+          ],
+          [
+            "(an"
+          ],
+          [
+            "emergency"
+          ],
+          [
+            "physician),"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/6.mp3",
+        "timeStart": 25.45,
+        "timeEnd": 31.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90152/list"
+      },
+      {
+        "id": 90153,
+        "position": 7,
+        "content": "and myself as a neurosurgeon,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "myself",
+          "as",
+          "a",
+          "neurosurgeon,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "myself"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "neurosurgeon,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/7.mp3",
+        "timeStart": 31.3,
+        "timeEnd": 33.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90153/list"
+      },
+      {
+        "id": 90154,
+        "position": 8,
+        "content": "about what the condition is, also how to identify the symptoms and how to manage it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "about",
+          "what",
+          "the",
+          "condition",
+          "is,",
+          "also",
+          "how",
+          "to",
+          "identify",
+          "the",
+          "symptoms",
+          "and",
+          "how",
+          "to",
+          "manage",
+          "it."
+        ],
+        "solution": [
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "the"
+          ],
+          [
+            "condition"
+          ],
+          [
+            "is,"
+          ],
+          [
+            "also"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "identify"
+          ],
+          [
+            "the"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/8.mp3",
+        "timeStart": 33.41,
+        "timeEnd": 39.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90154/list"
+      },
+      {
+        "id": 90155,
+        "position": 9,
+        "content": "If any of your listeners have ever had a concussion doing sports, you'll know how frightening it can be.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "any",
+          "of",
+          "your",
+          "listeners",
+          "have",
+          "ever",
+          "had",
+          "a",
+          "concussion",
+          "doing",
+          "sports,",
+          [
+            "you'll",
+            "you will"
+          ],
+          "know",
+          "how",
+          "frightening",
+          "it",
+          "can",
+          "be."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "any"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "listeners"
+          ],
+          [
+            "have"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "sports,"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "know"
+          ],
+          [
+            "how"
+          ],
+          [
+            "frightening"
+          ],
+          [
+            "it"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/9.mp3",
+        "timeStart": 39.79,
+        "timeEnd": 45.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90155/list"
+      },
+      {
+        "id": 90156,
+        "position": 10,
+        "content": "It's confusing and painful,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "confusing",
+          "and",
+          "painful,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "confusing"
+          ],
+          [
+            "and"
+          ],
+          [
+            "painful,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/10.mp3",
+        "timeStart": 45.05,
+        "timeEnd": 48.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90156/list"
+      },
+      {
+        "id": 90157,
+        "position": 11,
+        "content": "and difficult sometimes for teachers, parents, or whoever to work out if someone with concussion is okay.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "difficult",
+          "sometimes",
+          "for",
+          "teachers,",
+          "parents,",
+          "or",
+          "whoever",
+          "to",
+          "work",
+          "out",
+          "if",
+          "someone",
+          "with",
+          "concussion",
+          "is",
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "for"
+          ],
+          [
+            "teachers,"
+          ],
+          [
+            "parents,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "whoever"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work"
+          ],
+          [
+            "out"
+          ],
+          [
+            "if"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "with"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "is"
+          ],
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/11.mp3",
+        "timeStart": 48.48,
+        "timeEnd": 55.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90157/list"
+      },
+      {
+        "id": 90158,
+        "position": 12,
+        "content": "I mean... we hope to remedy that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "mean...",
+          "we",
+          "hope",
+          "to",
+          "remedy",
+          "that."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "mean..."
+          ],
+          [
+            "we"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "to"
+          ],
+          [
+            "remedy"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/12.mp3",
+        "timeStart": 55.48,
+        "timeEnd": 58.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90158/list"
+      },
+      {
+        "id": 90159,
+        "position": 13,
+        "content": "And how do we know when someone is suffering from concussion?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "how",
+          "do",
+          "we",
+          "know",
+          "when",
+          "someone",
+          "is",
+          "suffering",
+          "from",
+          "concussion?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "how"
+          ],
+          [
+            "do"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "when"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "is"
+          ],
+          [
+            "suffering"
+          ],
+          [
+            "from"
+          ],
+          [
+            "concussion?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/13.mp3",
+        "timeStart": 58.39,
+        "timeEnd": 62.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90159/list"
+      },
+      {
+        "id": 90160,
+        "position": 14,
+        "content": "Well, obviously, if the person's actually knocked out, it's clear.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "obviously,",
+          "if",
+          "the",
+          "person's",
+          "actually",
+          "knocked",
+          "out,",
+          "it's",
+          "clear."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "obviously,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "the"
+          ],
+          [
+            "person's"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "knocked"
+          ],
+          [
+            "out,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "clear."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/14.mp3",
+        "timeStart": 62.3,
+        "timeEnd": 65.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90160/list"
+      },
+      {
+        "id": 90161,
+        "position": 15,
+        "content": "But not all patients actually lose consciousness.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "not",
+          "all",
+          "patients",
+          "actually",
+          "lose",
+          "consciousness."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "not"
+          ],
+          [
+            "all"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "lose"
+          ],
+          [
+            "consciousness."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/15.mp3",
+        "timeStart": 65.89,
+        "timeEnd": 69.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90161/list"
+      },
+      {
+        "id": 90162,
+        "position": 16,
+        "content": "Often following a hard knock to the head, they become disorientated",
+        "defaultInput": "",
+        "jsonContent": [
+          "Often",
+          "following",
+          "a",
+          "hard",
+          "knock",
+          "to",
+          "the",
+          "head,",
+          "they",
+          "become",
+          "disorientated"
+        ],
+        "solution": [
+          [
+            "Often"
+          ],
+          [
+            "following"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "knock"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "head,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "become"
+          ],
+          [
+            "disorientated"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/16.mp3",
+        "timeStart": 69.31,
+        "timeEnd": 73.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90162/list"
+      },
+      {
+        "id": 90163,
+        "position": 17,
+        "content": "or experience headaches, nausea or vomiting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "experience",
+          "headaches,",
+          "nausea",
+          "or",
+          "vomiting."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "headaches,"
+          ],
+          [
+            "nausea"
+          ],
+          [
+            "or"
+          ],
+          [
+            "vomiting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/17.mp3",
+        "timeStart": 73.57,
+        "timeEnd": 77.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90163/list"
+      },
+      {
+        "id": 90164,
+        "position": 18,
+        "content": "These are signs of concussion and they may clear initially,",
+        "defaultInput": "",
+        "jsonContent": [
+          "These",
+          "are",
+          "signs",
+          "of",
+          "concussion",
+          "and",
+          "they",
+          "may",
+          "clear",
+          "initially,"
+        ],
+        "solution": [
+          [
+            "These"
+          ],
+          [
+            "are"
+          ],
+          [
+            "signs"
+          ],
+          [
+            "of"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "may"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "initially,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/18.mp3",
+        "timeStart": 77.43,
+        "timeEnd": 81.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90164/list"
+      },
+      {
+        "id": 90165,
+        "position": 19,
+        "content": "but then return when the individual actually undertakes further physical activity;",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "then",
+          "return",
+          "when",
+          "the",
+          "individual",
+          "actually",
+          "undertakes",
+          [
+            "further",
+            "farther"
+          ],
+          "physical",
+          "activity;"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "then"
+          ],
+          [
+            "return"
+          ],
+          [
+            "when"
+          ],
+          [
+            "the"
+          ],
+          [
+            "individual"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "undertakes"
+          ],
+          [
+            "further",
+            "farther"
+          ],
+          [
+            "physical"
+          ],
+          [
+            "activity;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/19.mp3",
+        "timeStart": 81.83,
+        "timeEnd": 86.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90165/list"
+      },
+      {
+        "id": 90166,
+        "position": 20,
+        "content": "when they start to train, say.",
+        "defaultInput": "",
+        "jsonContent": [
+          "when",
+          "they",
+          "start",
+          "to",
+          "train,",
+          "say."
+        ],
+        "solution": [
+          [
+            "when"
+          ],
+          [
+            "they"
+          ],
+          [
+            "start"
+          ],
+          [
+            "to"
+          ],
+          [
+            "train,"
+          ],
+          [
+            "say."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/20.mp3",
+        "timeStart": 86.9,
+        "timeEnd": 88.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90166/list"
+      },
+      {
+        "id": 90167,
+        "position": 21,
+        "content": "So, it can actually take quite a while for things to really clear up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "it",
+          "can",
+          "actually",
+          "take",
+          "quite",
+          "a",
+          "while",
+          "for",
+          "things",
+          "to",
+          "really",
+          "clear",
+          "up."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "can"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "take"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "while"
+          ],
+          [
+            "for"
+          ],
+          [
+            "things"
+          ],
+          [
+            "to"
+          ],
+          [
+            "really"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/21.mp3",
+        "timeStart": 88.95,
+        "timeEnd": 93.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90167/list"
+      },
+      {
+        "id": 90168,
+        "position": 22,
+        "content": "The essence of it is that people shouldn't start playing again until those warning signs have completely subsided.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "essence",
+          "of",
+          [
+            "it is",
+            "it's"
+          ],
+          "that",
+          "people",
+          [
+            "shouldn't",
+            "should not"
+          ],
+          "start",
+          "playing",
+          "again",
+          "until",
+          "those",
+          "warning",
+          "signs",
+          "have",
+          "completely",
+          "subsided."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "essence"
+          ],
+          [
+            "of"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "that"
+          ],
+          [
+            "people"
+          ],
+          [
+            "shouldn't",
+            "should not"
+          ],
+          [
+            "start"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "again"
+          ],
+          [
+            "until"
+          ],
+          [
+            "those"
+          ],
+          [
+            "warning"
+          ],
+          [
+            "signs"
+          ],
+          [
+            "have"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "subsided."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/22.mp3",
+        "timeStart": 94.01,
+        "timeEnd": 100.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90168/list"
+      },
+      {
+        "id": 90169,
+        "position": 23,
+        "content": "Yes, and you say that waiting anything less than fourteen days after all the symptoms have cleared would be too early to return?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "and",
+          "you",
+          "say",
+          "that",
+          "waiting",
+          "anything",
+          "less",
+          "than",
+          [
+            "fourteen",
+            "14"
+          ],
+          "days",
+          "after",
+          "all",
+          "the",
+          "symptoms",
+          "have",
+          "cleared",
+          "would",
+          "be",
+          "too",
+          "early",
+          "to",
+          "return?"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "say"
+          ],
+          [
+            "that"
+          ],
+          [
+            "waiting"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "less"
+          ],
+          [
+            "than"
+          ],
+          [
+            "fourteen",
+            "14"
+          ],
+          [
+            "days"
+          ],
+          [
+            "after"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "have"
+          ],
+          [
+            "cleared"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "too"
+          ],
+          [
+            "early"
+          ],
+          [
+            "to"
+          ],
+          [
+            "return?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/23.mp3",
+        "timeStart": 100.79,
+        "timeEnd": 108.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90169/list"
+      },
+      {
+        "id": 90170,
+        "position": 24,
+        "content": "Yeah, that's right.",
+        "defaultInput": "Yeah, that's right.",
+        "jsonContent": [
+          "Yeah,",
+          "that's",
+          "right."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/24.mp3",
+        "timeStart": 108.29,
+        "timeEnd": 109.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90170/list"
+      },
+      {
+        "id": 90171,
+        "position": 25,
+        "content": "If they go back too early, they risk a second concussion",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "they",
+          "go",
+          "back",
+          "too",
+          "early,",
+          "they",
+          "risk",
+          "a",
+          "second",
+          "concussion"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "they"
+          ],
+          [
+            "go"
+          ],
+          [
+            "back"
+          ],
+          [
+            "too"
+          ],
+          [
+            "early,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second"
+          ],
+          [
+            "concussion"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/25.mp3",
+        "timeStart": 109.2,
+        "timeEnd": 112.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90171/list"
+      },
+      {
+        "id": 90172,
+        "position": 26,
+        "content": "and, as we know from professional athletes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and,",
+          "as",
+          "we",
+          "know",
+          "from",
+          "professional",
+          "athletes,"
+        ],
+        "solution": [
+          [
+            "and,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "from"
+          ],
+          [
+            "professional"
+          ],
+          [
+            "athletes,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/26.mp3",
+        "timeStart": 112.5,
+        "timeEnd": 115.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90172/list"
+      },
+      {
+        "id": 90173,
+        "position": 27,
+        "content": "they may have to give up their sport if they have too many concussions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "may",
+          "have",
+          "to",
+          "give",
+          "up",
+          "their",
+          "sport",
+          "if",
+          [
+            "they have",
+            "they've"
+          ],
+          "too",
+          "many",
+          "concussions."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "may"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "up"
+          ],
+          [
+            "their"
+          ],
+          [
+            "sport"
+          ],
+          [
+            "if"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "too"
+          ],
+          [
+            "many"
+          ],
+          [
+            "concussions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/27.mp3",
+        "timeStart": 115.19,
+        "timeEnd": 119.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90173/list"
+      },
+      {
+        "id": 90174,
+        "position": 28,
+        "content": "So it's better, particularly in a young person with a developing brain,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "it's",
+          "better,",
+          "particularly",
+          "in",
+          "a",
+          "young",
+          "person",
+          "with",
+          "a",
+          "developing",
+          "brain,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "better,"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "young"
+          ],
+          [
+            "person"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "developing"
+          ],
+          [
+            "brain,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/28.mp3",
+        "timeStart": 119.25,
+        "timeEnd": 123.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90174/list"
+      },
+      {
+        "id": 90175,
+        "position": 29,
+        "content": "to allow all of the symptoms to settle, and only then return to play.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "allow",
+          "all",
+          "of",
+          "the",
+          "symptoms",
+          "to",
+          "settle,",
+          "and",
+          "only",
+          "then",
+          "return",
+          "to",
+          "play."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "allow"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "to"
+          ],
+          [
+            "settle,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "only"
+          ],
+          [
+            "then"
+          ],
+          [
+            "return"
+          ],
+          [
+            "to"
+          ],
+          [
+            "play."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/29.mp3",
+        "timeStart": 123.99,
+        "timeEnd": 129.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90175/list"
+      },
+      {
+        "id": 90176,
+        "position": 30,
+        "content": "Well, usually return to train first, then return to play after that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "usually",
+          "return",
+          "to",
+          "train",
+          [
+            "first,",
+            "1st"
+          ],
+          "then",
+          "return",
+          "to",
+          "play",
+          "after",
+          "that."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "return"
+          ],
+          [
+            "to"
+          ],
+          [
+            "train"
+          ],
+          [
+            "first,",
+            "1st"
+          ],
+          [
+            "then"
+          ],
+          [
+            "return"
+          ],
+          [
+            "to"
+          ],
+          [
+            "play"
+          ],
+          [
+            "after"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/30.mp3",
+        "timeStart": 129.01,
+        "timeEnd": 133.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90176/list"
+      },
+      {
+        "id": 90177,
+        "position": 31,
+        "content": "It used to be thought that receiving another concussion, could lead to severe brain swelling,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "used",
+          "to",
+          "be",
+          "thought",
+          "that",
+          "receiving",
+          "another",
+          "concussion,",
+          "could",
+          "lead",
+          "to",
+          "severe",
+          "brain",
+          "swelling,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "that"
+          ],
+          [
+            "receiving"
+          ],
+          [
+            "another"
+          ],
+          [
+            "concussion,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "lead"
+          ],
+          [
+            "to"
+          ],
+          [
+            "severe"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "swelling,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/31.mp3",
+        "timeStart": 134.26,
+        "timeEnd": 138.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90177/list"
+      },
+      {
+        "id": 90178,
+        "position": 32,
+        "content": "and that could be fatal or at least involve a visit to the emergency room.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "that",
+          "could",
+          "be",
+          "fatal",
+          "or",
+          "at",
+          "least",
+          "involve",
+          "a",
+          "visit",
+          "to",
+          "the",
+          "emergency",
+          "room."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "that"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fatal"
+          ],
+          [
+            "or"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "involve"
+          ],
+          [
+            "a"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "emergency"
+          ],
+          [
+            "room."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/32.mp3",
+        "timeStart": 138.83,
+        "timeEnd": 143.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90178/list"
+      },
+      {
+        "id": 90179,
+        "position": 33,
+        "content": "I think the evidence is fairly slim for that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "the",
+          "evidence",
+          "is",
+          "fairly",
+          "slim",
+          "for",
+          "that."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "the"
+          ],
+          [
+            "evidence"
+          ],
+          [
+            "is"
+          ],
+          [
+            "fairly"
+          ],
+          [
+            "slim"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/33.mp3",
+        "timeStart": 143.51,
+        "timeEnd": 146.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90179/list"
+      },
+      {
+        "id": 90180,
+        "position": 34,
+        "content": "What we do know though is that the compounding effect of having one concussion followed by another",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "we",
+          "do",
+          "know",
+          "though",
+          "is",
+          "that",
+          "the",
+          "compounding",
+          "effect",
+          "of",
+          "having",
+          [
+            "one",
+            "1"
+          ],
+          "concussion",
+          "followed",
+          "by",
+          "another"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "know"
+          ],
+          [
+            "though"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "compounding"
+          ],
+          [
+            "effect"
+          ],
+          [
+            "of"
+          ],
+          [
+            "having"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "followed"
+          ],
+          [
+            "by"
+          ],
+          [
+            "another"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/34.mp3",
+        "timeStart": 146.65,
+        "timeEnd": 152.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90180/list"
+      },
+      {
+        "id": 90181,
+        "position": 35,
+        "content": "seems to be more severe than just the one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "seems",
+          "to",
+          "be",
+          "more",
+          "severe",
+          "than",
+          "just",
+          "the",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "more"
+          ],
+          [
+            "severe"
+          ],
+          [
+            "than"
+          ],
+          [
+            "just"
+          ],
+          [
+            "the"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/35.mp3",
+        "timeStart": 152.31,
+        "timeEnd": 155.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90181/list"
+      },
+      {
+        "id": 90182,
+        "position": 36,
+        "content": "So it's always better to let the brain recover fully before playing again.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "it's",
+          "always",
+          "better",
+          "to",
+          "let",
+          "the",
+          "brain",
+          "recover",
+          "fully",
+          "before",
+          "playing",
+          "again."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "always"
+          ],
+          [
+            "better"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "the"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "recover"
+          ],
+          [
+            "fully"
+          ],
+          [
+            "before"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "again."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/36.mp3",
+        "timeStart": 155.56,
+        "timeEnd": 159.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90182/list"
+      },
+      {
+        "id": 90183,
+        "position": 37,
+        "content": "Right, so who's at the highest risk of sports concussion?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "so",
+          [
+            "who's",
+            "who is"
+          ],
+          "at",
+          "the",
+          "highest",
+          "risk",
+          "of",
+          "sports",
+          "concussion?"
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "highest"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "concussion?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/37.mp3",
+        "timeStart": 160.23,
+        "timeEnd": 164.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90183/list"
+      },
+      {
+        "id": 90184,
+        "position": 38,
+        "content": "Well, actually a concussion can happen whenever anyone receives a blow to the head.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "actually",
+          "a",
+          "concussion",
+          "can",
+          "happen",
+          "whenever",
+          "anyone",
+          "receives",
+          "a",
+          "blow",
+          "to",
+          "the",
+          "head."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "a"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "can"
+          ],
+          [
+            "happen"
+          ],
+          [
+            "whenever"
+          ],
+          [
+            "anyone"
+          ],
+          [
+            "receives"
+          ],
+          [
+            "a"
+          ],
+          [
+            "blow"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "head."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/38.mp3",
+        "timeStart": 164.83,
+        "timeEnd": 170.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90184/list"
+      },
+      {
+        "id": 90185,
+        "position": 39,
+        "content": "Usually it's a sort of twisting blow, not a straight-on blow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Usually",
+          "it's",
+          "a",
+          "sort",
+          "of",
+          "twisting",
+          "blow,",
+          "not",
+          "a",
+          [
+            "straight-on",
+            "straight on"
+          ],
+          "blow."
+        ],
+        "solution": [
+          [
+            "Usually"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "twisting"
+          ],
+          [
+            "blow,"
+          ],
+          [
+            "not"
+          ],
+          [
+            "a"
+          ],
+          [
+            "straight-on",
+            "straight on"
+          ],
+          [
+            "blow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/39.mp3",
+        "timeStart": 170.14,
+        "timeEnd": 174.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90185/list"
+      },
+      {
+        "id": 90186,
+        "position": 40,
+        "content": "But, obviously people playing sports like rugby, where there's bodily contact,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But,",
+          "obviously",
+          "people",
+          "playing",
+          "sports",
+          "like",
+          "rugby,",
+          "where",
+          [
+            "there's",
+            "there is"
+          ],
+          "bodily",
+          "contact,"
+        ],
+        "solution": [
+          [
+            "But,"
+          ],
+          [
+            "obviously"
+          ],
+          [
+            "people"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "like"
+          ],
+          [
+            "rugby,"
+          ],
+          [
+            "where"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "bodily"
+          ],
+          [
+            "contact,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/40.mp3",
+        "timeStart": 174.35,
+        "timeEnd": 179.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90186/list"
+      },
+      {
+        "id": 90187,
+        "position": 41,
+        "content": "stand more chance of being at the receiving end of such a blow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "stand",
+          "more",
+          "chance",
+          "of",
+          "being",
+          "at",
+          "the",
+          "receiving",
+          "end",
+          "of",
+          "such",
+          "a",
+          "blow."
+        ],
+        "solution": [
+          [
+            "stand"
+          ],
+          [
+            "more"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "of"
+          ],
+          [
+            "being"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "receiving"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "blow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/41.mp3",
+        "timeStart": 179.19,
+        "timeEnd": 182.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90187/list"
+      },
+      {
+        "id": 90188,
+        "position": 42,
+        "content": "But having said that, it's just as likely to affect kids kicking a ball around a park as it is to affect top professional players in big matches.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "having",
+          "said",
+          "that,",
+          "it's",
+          "just",
+          "as",
+          "likely",
+          "to",
+          "affect",
+          "kids",
+          "kicking",
+          "a",
+          "ball",
+          "around",
+          "a",
+          "park",
+          "as",
+          [
+            "it is",
+            "it's"
+          ],
+          "to",
+          "affect",
+          "top",
+          "professional",
+          "players",
+          "in",
+          "big",
+          "matches."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "having"
+          ],
+          [
+            "said"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "as"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "to"
+          ],
+          [
+            "affect"
+          ],
+          [
+            "kids"
+          ],
+          [
+            "kicking"
+          ],
+          [
+            "a"
+          ],
+          [
+            "ball"
+          ],
+          [
+            "around"
+          ],
+          [
+            "a"
+          ],
+          [
+            "park"
+          ],
+          [
+            "as"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "to"
+          ],
+          [
+            "affect"
+          ],
+          [
+            "top"
+          ],
+          [
+            "professional"
+          ],
+          [
+            "players"
+          ],
+          [
+            "in"
+          ],
+          [
+            "big"
+          ],
+          [
+            "matches."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/42.mp3",
+        "timeStart": 182.81,
+        "timeEnd": 191.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90188/list"
+      },
+      {
+        "id": 90189,
+        "position": 43,
+        "content": "Do you think that youth sports need specialist concussion doctors on hand?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "think",
+          "that",
+          "youth",
+          "sports",
+          "need",
+          "specialist",
+          "concussion",
+          "doctors",
+          "on",
+          "hand?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that"
+          ],
+          [
+            "youth"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "need"
+          ],
+          [
+            "specialist"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "doctors"
+          ],
+          [
+            "on"
+          ],
+          [
+            "hand?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/43.mp3",
+        "timeStart": 191.33,
+        "timeEnd": 195.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90189/list"
+      },
+      {
+        "id": 90190,
+        "position": 44,
+        "content": "Like the professionals do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "the",
+          "professionals",
+          "do?"
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/44.mp3",
+        "timeStart": 195.43,
+        "timeEnd": 196.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90190/list"
+      },
+      {
+        "id": 90191,
+        "position": 45,
+        "content": "There's always a risk and we know that it happens from time to time,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "always",
+          "a",
+          "risk",
+          "and",
+          "we",
+          "know",
+          "that",
+          "it",
+          "happens",
+          "from",
+          "time",
+          "to",
+          "time,"
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "always"
+          ],
+          [
+            "a"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "from"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "time,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/45.mp3",
+        "timeStart": 197.03,
+        "timeEnd": 201.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90191/list"
+      },
+      {
+        "id": 90192,
+        "position": 46,
+        "content": "but I mean most games, even the most dangerous ones, are without incident at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "mean",
+          "most",
+          "games,",
+          "even",
+          "the",
+          "most",
+          "dangerous",
+          "ones,",
+          "are",
+          "without",
+          "incident",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "mean"
+          ],
+          [
+            "most"
+          ],
+          [
+            "games,"
+          ],
+          [
+            "even"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "dangerous"
+          ],
+          [
+            "ones,"
+          ],
+          [
+            "are"
+          ],
+          [
+            "without"
+          ],
+          [
+            "incident"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/46.mp3",
+        "timeStart": 201.73,
+        "timeEnd": 207.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90192/list"
+      },
+      {
+        "id": 90193,
+        "position": 47,
+        "content": "I think people who are involved in running youth sports, whether they be referees, coaches, or parents,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "people",
+          "who",
+          "are",
+          "involved",
+          "in",
+          "running",
+          "youth",
+          "sports,",
+          "whether",
+          "they",
+          "be",
+          "referees,",
+          "coaches,",
+          "or",
+          "parents,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "people"
+          ],
+          [
+            "who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "involved"
+          ],
+          [
+            "in"
+          ],
+          [
+            "running"
+          ],
+          [
+            "youth"
+          ],
+          [
+            "sports,"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "they"
+          ],
+          [
+            "be"
+          ],
+          [
+            "referees,"
+          ],
+          [
+            "coaches,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "parents,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/47.mp3",
+        "timeStart": 207.61,
+        "timeEnd": 214.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90193/list"
+      },
+      {
+        "id": 90194,
+        "position": 48,
+        "content": "can be made aware of how to manage concussion,",
+        "defaultInput": "",
+        "jsonContent": [
+          "can",
+          "be",
+          "made",
+          "aware",
+          "of",
+          "how",
+          "to",
+          "manage",
+          "concussion,"
+        ],
+        "solution": [
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "made"
+          ],
+          [
+            "aware"
+          ],
+          [
+            "of"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "concussion,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/48.mp3",
+        "timeStart": 214.37,
+        "timeEnd": 217.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90194/list"
+      },
+      {
+        "id": 90195,
+        "position": 49,
+        "content": "the signs that they need to look out for,",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "signs",
+          "that",
+          "they",
+          "need",
+          "to",
+          "look",
+          "out",
+          "for,"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "signs"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "out"
+          ],
+          [
+            "for,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/49.mp3",
+        "timeStart": 217.41,
+        "timeEnd": 219.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90195/list"
+      },
+      {
+        "id": 90196,
+        "position": 50,
+        "content": "and maybe the warnings of something more serious,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "maybe",
+          "the",
+          "warnings",
+          "of",
+          "something",
+          "more",
+          "serious,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "the"
+          ],
+          [
+            "warnings"
+          ],
+          [
+            "of"
+          ],
+          [
+            "something"
+          ],
+          [
+            "more"
+          ],
+          [
+            "serious,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/50.mp3",
+        "timeStart": 219.97,
+        "timeEnd": 223.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90196/list"
+      },
+      {
+        "id": 90197,
+        "position": 51,
+        "content": "so that they can take the appropriate actions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "that",
+          "they",
+          "can",
+          "take",
+          "the",
+          "appropriate",
+          "actions."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "can"
+          ],
+          [
+            "take"
+          ],
+          [
+            "the"
+          ],
+          [
+            "appropriate"
+          ],
+          [
+            "actions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/51.mp3",
+        "timeStart": 223.01,
+        "timeEnd": 225.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90197/list"
+      },
+      {
+        "id": 90198,
+        "position": 52,
+        "content": "But I think always having a doctor on the sidelines where young people are playing is just an over-reaction.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "I",
+          "think",
+          "always",
+          "having",
+          "a",
+          "doctor",
+          "on",
+          "the",
+          "sidelines",
+          "where",
+          "young",
+          "people",
+          "are",
+          "playing",
+          "is",
+          "just",
+          "an",
+          [
+            "over-reaction.",
+            "over reaction."
+          ]
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "always"
+          ],
+          [
+            "having"
+          ],
+          [
+            "a"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sidelines"
+          ],
+          [
+            "where"
+          ],
+          [
+            "young"
+          ],
+          [
+            "people"
+          ],
+          [
+            "are"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "just"
+          ],
+          [
+            "an"
+          ],
+          [
+            "over-reaction.",
+            "over reaction."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/52.mp3",
+        "timeStart": 225.79,
+        "timeEnd": 231.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90198/list"
+      },
+      {
+        "id": 90199,
+        "position": 53,
+        "content": "Right, in the USA, college football is big business.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "in",
+          "the",
+          "USA,",
+          "college",
+          "football",
+          "is",
+          "big",
+          "business."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "USA,"
+          ],
+          [
+            "college"
+          ],
+          [
+            "football"
+          ],
+          [
+            "is"
+          ],
+          [
+            "big"
+          ],
+          [
+            "business."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/53.mp3",
+        "timeStart": 231.19,
+        "timeEnd": 236.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90199/list"
+      },
+      {
+        "id": 90200,
+        "position": 54,
+        "content": "They're trialling helmet sensors and impact sensors.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "They are"
+          ],
+          "trialling",
+          "helmet",
+          "sensors",
+          "and",
+          "impact",
+          "sensors."
+        ],
+        "solution": [
+          [
+            "They're",
+            "They are"
+          ],
+          [
+            "trialling"
+          ],
+          [
+            "helmet"
+          ],
+          [
+            "sensors"
+          ],
+          [
+            "and"
+          ],
+          [
+            "impact"
+          ],
+          [
+            "sensors."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/54.mp3",
+        "timeStart": 236.33,
+        "timeEnd": 239.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90200/list"
+      },
+      {
+        "id": 90201,
+        "position": 55,
+        "content": "Do you think that's something we need everywhere?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "think",
+          "that's",
+          "something",
+          "we",
+          "need",
+          "everywhere?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "something"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "everywhere?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/55.mp3",
+        "timeStart": 239.61,
+        "timeEnd": 241.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90201/list"
+      },
+      {
+        "id": 90202,
+        "position": 56,
+        "content": "Well, I don't think it'll come to that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          [
+            "it'll",
+            "it will"
+          ],
+          "come",
+          "to",
+          "that."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it'll",
+            "it will"
+          ],
+          [
+            "come"
+          ],
+          [
+            "to"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/56.mp3",
+        "timeStart": 241.89,
+        "timeEnd": 244.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90202/list"
+      },
+      {
+        "id": 90203,
+        "position": 57,
+        "content": "I think there are two scenarios here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "there",
+          "are",
+          [
+            "two",
+            "2"
+          ],
+          "scenarios",
+          "here."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "scenarios"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/57.mp3",
+        "timeStart": 244.75,
+        "timeEnd": 246.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90203/list"
+      },
+      {
+        "id": 90204,
+        "position": 58,
+        "content": "The first is one where a concussion's a one-off event following a significant blow to the head.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "first",
+            "1st"
+          ],
+          "is",
+          [
+            "one",
+            "1"
+          ],
+          "where",
+          "a",
+          "concussion's",
+          "a",
+          [
+            "one-off",
+            "one off"
+          ],
+          "event",
+          "following",
+          "a",
+          "significant",
+          "blow",
+          "to",
+          "the",
+          "head."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "is"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "where"
+          ],
+          [
+            "a"
+          ],
+          [
+            "concussion's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "one-off",
+            "one off"
+          ],
+          [
+            "event"
+          ],
+          [
+            "following"
+          ],
+          [
+            "a"
+          ],
+          [
+            "significant"
+          ],
+          [
+            "blow"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "head."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/58.mp3",
+        "timeStart": 246.73,
+        "timeEnd": 252.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90204/list"
+      },
+      {
+        "id": 90205,
+        "position": 59,
+        "content": "The second's quite different and involves Chronic Traumatic Encephalopathy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "second's",
+            "second is"
+          ],
+          "quite",
+          "different",
+          "and",
+          "involves",
+          "Chronic",
+          "Traumatic",
+          "Encephalopathy."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "second's",
+            "second is"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "different"
+          ],
+          [
+            "and"
+          ],
+          [
+            "involves"
+          ],
+          [
+            "Chronic"
+          ],
+          [
+            "Traumatic"
+          ],
+          [
+            "Encephalopathy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/59.mp3",
+        "timeStart": 252.46,
+        "timeEnd": 257.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90205/list"
+      },
+      {
+        "id": 90206,
+        "position": 60,
+        "content": "This comes about particularly in American Football,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "comes",
+          "about",
+          "particularly",
+          "in",
+          "American",
+          "Football,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "about"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "in"
+          ],
+          [
+            "American"
+          ],
+          [
+            "Football,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/60.mp3",
+        "timeStart": 257.65,
+        "timeEnd": 260.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90206/list"
+      },
+      {
+        "id": 90207,
+        "position": 61,
+        "content": "where players use their helmets and heads almost like weapons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "where",
+          "players",
+          "use",
+          "their",
+          "helmets",
+          "and",
+          "heads",
+          "almost",
+          "like",
+          "weapons."
+        ],
+        "solution": [
+          [
+            "where"
+          ],
+          [
+            "players"
+          ],
+          [
+            "use"
+          ],
+          [
+            "their"
+          ],
+          [
+            "helmets"
+          ],
+          [
+            "and"
+          ],
+          [
+            "heads"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "like"
+          ],
+          [
+            "weapons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/61.mp3",
+        "timeStart": 260.94,
+        "timeEnd": 264.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90207/list"
+      },
+      {
+        "id": 90208,
+        "position": 62,
+        "content": "That type of repeated impact seems to add up over the player's career.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "type",
+          "of",
+          "repeated",
+          "impact",
+          "seems",
+          "to",
+          "add",
+          "up",
+          "over",
+          "the",
+          "player's",
+          "career."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "type"
+          ],
+          [
+            "of"
+          ],
+          [
+            "repeated"
+          ],
+          [
+            "impact"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "add"
+          ],
+          [
+            "up"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "player's"
+          ],
+          [
+            "career."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/62.mp3",
+        "timeStart": 264.87,
+        "timeEnd": 269.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90208/list"
+      },
+      {
+        "id": 90209,
+        "position": 63,
+        "content": "That's something we've heard being discussed, mostly in the USA.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "something",
+          [
+            "we've",
+            "we have"
+          ],
+          "heard",
+          "being",
+          "discussed,",
+          "mostly",
+          "in",
+          "the",
+          "USA."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "something"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "being"
+          ],
+          [
+            "discussed,"
+          ],
+          [
+            "mostly"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "USA."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/63.mp3",
+        "timeStart": 269.93,
+        "timeEnd": 274.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90209/list"
+      },
+      {
+        "id": 90210,
+        "position": 64,
+        "content": "Naturally there's interest generally in protecting players,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Naturally",
+          [
+            "there's",
+            "there is"
+          ],
+          "interest",
+          "generally",
+          "in",
+          "protecting",
+          "players,"
+        ],
+        "solution": [
+          [
+            "Naturally"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "generally"
+          ],
+          [
+            "in"
+          ],
+          [
+            "protecting"
+          ],
+          [
+            "players,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/64.mp3",
+        "timeStart": 274.41,
+        "timeEnd": 278.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90210/list"
+      },
+      {
+        "id": 90211,
+        "position": 65,
+        "content": "particularly in the professional levels of sport,",
+        "defaultInput": "",
+        "jsonContent": [
+          "particularly",
+          "in",
+          "the",
+          "professional",
+          "levels",
+          "of",
+          "sport,"
+        ],
+        "solution": [
+          [
+            "particularly"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "professional"
+          ],
+          [
+            "levels"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sport,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/65.mp3",
+        "timeStart": 278.44,
+        "timeEnd": 281.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90211/list"
+      },
+      {
+        "id": 90212,
+        "position": 66,
+        "content": "but I see that as a different matter to the management of concussion itself.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "see",
+          "that",
+          "as",
+          "a",
+          "different",
+          "matter",
+          "to",
+          "the",
+          "management",
+          "of",
+          "concussion",
+          "itself."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "that"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "different"
+          ],
+          [
+            "matter"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "management"
+          ],
+          [
+            "of"
+          ],
+          [
+            "concussion"
+          ],
+          [
+            "itself."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-1-2025-08-29-21-13-51/66.mp3",
+        "timeStart": 281.21,
+        "timeEnd": 285.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90212/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90147": {
+      "id": 3676292,
+      "text": "Khách mời của tôi hôm nay là Tiến sĩ Ian Marsh,",
+      "author": "a user"
+    },
+    "90148": {
+      "id": 3676293,
+      "text": "một chuyên gia về điều trị chấn động não trong thể thao và là đồng tác giả của một bộ hướng dẫn mới.",
+      "author": "ChatGPT4.1"
+    },
+    "90149": {
+      "id": 3676294,
+      "text": "Vậy, bác sĩ Marsh, mục tiêu của bộ hướng dẫn mới này là gì?",
+      "author": "ChatGPT4.1"
+    },
+    "90150": {
+      "id": 3676295,
+      "text": "Mục đích thực sự là cung cấp một nguồn tài liệu,",
+      "author": "a user"
+    },
+    "90151": {
+      "id": 3676296,
+      "text": "không dành cho những vận động viên thể thao chuyên nghiệp hàng đầu, mà dành cho các bậc phụ huynh, giáo viên và huấn luyện viên của những người trẻ chơi thể thao.",
+      "author": "a user"
+    },
+    "90152": {
+      "id": 3676297,
+      "text": "Bộ hướng dẫn chủ yếu cung cấp một số thông tin chuyên môn từ bác sĩ đa khoa (hoặc bác sĩ cấp cứu),",
+      "author": "ChatGPT4.1"
+    },
+    "90153": {
+      "id": 3676298,
+      "text": "và bản thân tôi là một bác sĩ phẫu thuật thần kinh,",
+      "author": "ChatGPT4.1"
+    },
+    "90154": {
+      "id": 3676299,
+      "text": "về bệnh lý này là gì, cũng như cách nhận biết triệu chứng và cách xử lý.",
+      "author": "ChatGPT4.1"
+    },
+    "90155": {
+      "id": 3676300,
+      "text": "Nếu bất kỳ thính giả nào của bạn từng bị chấn động não khi chơi thể thao, bạn sẽ hiểu nó đáng sợ như thế nào.",
+      "author": "a user"
+    },
+    "90156": {
+      "id": 3676301,
+      "text": "Nó gây rối loạn và đau đớn,",
+      "author": "ChatGPT4.1"
+    },
+    "90157": {
+      "id": 3676302,
+      "text": "và đôi khi giáo viên, phụ huynh hoặc bất kỳ ai cũng khó có thể xác định được liệu một người bị chấn động não có ổn không.",
+      "author": "a user"
+    },
+    "90158": {
+      "id": 3676303,
+      "text": "Ý tôi là... chúng tôi hy vọng sẽ khắc phục được điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "90159": {
+      "id": 3676304,
+      "text": "Vậy làm sao chúng ta biết ai đó đang bị chấn động não?",
+      "author": "ChatGPT4.1"
+    },
+    "90160": {
+      "id": 3676305,
+      "text": "Rõ ràng, nếu người đó bị bất tỉnh, thì rất dễ nhận ra.",
+      "author": "ChatGPT4.1"
+    },
+    "90161": {
+      "id": 3676306,
+      "text": "Nhưng không phải tất cả các bệnh nhân đều mất ý thức.",
+      "author": "ChatGPT4.1"
+    },
+    "90162": {
+      "id": 3676307,
+      "text": "Thường sau một cú va đập mạnh vào đầu, họ sẽ bị mất phương hướng",
+      "author": "ChatGPT4.1"
+    },
+    "90163": {
+      "id": 3676308,
+      "text": "hoặc có biểu hiện đau đầu, buồn nôn hoặc nôn.",
+      "author": "ChatGPT4.1"
+    },
+    "90164": {
+      "id": 3676309,
+      "text": "Đây là các dấu hiệu của chấn động não và chúng có thể biến mất ban đầu,",
+      "author": "ChatGPT4.1"
+    },
+    "90165": {
+      "id": 3676310,
+      "text": "nhưng sau đó lại xuất hiện khi người đó thực hiện các hoạt động thể chất tiếp theo;",
+      "author": "ChatGPT4.1"
+    },
+    "90166": {
+      "id": 3676311,
+      "text": "chẳng hạn khi họ bắt đầu tập luyện lại.",
+      "author": "ChatGPT4.1"
+    },
+    "90167": {
+      "id": 3676312,
+      "text": "Vì vậy, thực tế có thể mất khá lâu để mọi thứ hồi phục hoàn toàn.",
+      "author": "ChatGPT4.1"
+    },
+    "90168": {
+      "id": 3676313,
+      "text": "Điều cốt lõi là mọi người không nên bắt đầu chơi lại cho đến khi các dấu hiệu cảnh báo đã biến mất hoàn toàn.",
+      "author": "ChatGPT4.1"
+    },
+    "90169": {
+      "id": 3676314,
+      "text": "Vâng, và ông nói rằng chờ đợi ít hơn mười bốn ngày sau khi tất cả các triệu chứng đã biến mất là quá sớm để quay trở lại?",
+      "author": "a user"
+    },
+    "90170": {
+      "id": 3676315,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "90171": {
+      "id": 3676316,
+      "text": "Nếu họ quay lại quá sớm, họ có nguy cơ bị chấn động não lần thứ hai",
+      "author": "ChatGPT4.1"
+    },
+    "90172": {
+      "id": 3676317,
+      "text": "và như chúng ta biết từ các vận động viên chuyên nghiệp,",
+      "author": "ChatGPT4.1"
+    },
+    "90173": {
+      "id": 3676318,
+      "text": "họ có thể phải từ bỏ thể thao nếu bị quá nhiều chấn động não.",
+      "author": "ChatGPT4.1"
+    },
+    "90174": {
+      "id": 3676319,
+      "text": "Vì vậy, tốt hơn hết, đặc biệt là với người trẻ có não đang phát triển,",
+      "author": "ChatGPT4.1"
+    },
+    "90175": {
+      "id": 3676320,
+      "text": "là để tất cả triệu chứng lắng xuống rồi mới quay lại thi đấu.",
+      "author": "ChatGPT4.1"
+    },
+    "90176": {
+      "id": 3676321,
+      "text": "Thường thì nên quay lại tập luyện trước, sau đó mới thi đấu lại.",
+      "author": "ChatGPT4.1"
+    },
+    "90177": {
+      "id": 3682567,
+      "text": "Trước đây người ta nghĩ rằng bị thêm một lần chấn động nữa có thể dẫn đến phù não nghiêm trọng,",
+      "author": "a user"
+    },
+    "90178": {
+      "id": 3682568,
+      "text": "và điều đó có thể gây tử vong hoặc ít nhất cũng phải nhập viện cấp cứu.",
+      "author": "ChatGPT4.1"
+    },
+    "90179": {
+      "id": 3682569,
+      "text": "Tôi nghĩ rằng bằng chứng cho điều đó là khá ít.",
+      "author": "ChatGPT4.1"
+    },
+    "90180": {
+      "id": 3682570,
+      "text": "Tuy nhiên điều chúng ta biết là tác động cộng dồn của việc bị chấn động não liên tiếp",
+      "author": "ChatGPT4.1"
+    },
+    "90181": {
+      "id": 3682571,
+      "text": "có vẻ nghiêm trọng hơn chỉ bị một lần.",
+      "author": "ChatGPT4.1"
+    },
+    "90182": {
+      "id": 3682572,
+      "text": "Vì vậy, luôn tốt hơn để cho não hồi phục hoàn toàn trước khi chơi lại.",
+      "author": "ChatGPT4.1"
+    },
+    "90183": {
+      "id": 3682573,
+      "text": "Đúng vậy, vậy ai là người có nguy cơ bị chấn động não do thể thao cao nhất?",
+      "author": "ChatGPT4.1"
+    },
+    "90184": {
+      "id": 3682574,
+      "text": "Thực ra, chấn động não có thể xảy ra bất cứ khi nào ai đó bị một cú va đập vào đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "90185": {
+      "id": 3682575,
+      "text": "Thường thì đó là một cú đập vặn, chứ không phải cú đập trực diện.",
+      "author": "ChatGPT4.1"
+    },
+    "90186": {
+      "id": 3682576,
+      "text": "Tuy nhiên, rõ ràng những người chơi thể thao như bóng bầu dục, nơi có va chạm cơ thể,",
+      "author": "ChatGPT4.1"
+    },
+    "90187": {
+      "id": 3682577,
+      "text": "có khả năng cao hơn bị nhận những cú va đập như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "90188": {
+      "id": 3682578,
+      "text": "Tuy nhiên, nói như vậy nhưng khả năng nó ảnh hưởng đến những đứa trẻ đang đá bóng ngoài công viên cũng giống như ảnh hưởng đến các cầu thủ chuyên nghiệp hàng đầu trong các trận đấu lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "90189": {
+      "id": 3682579,
+      "text": "Bạn có nghĩ rằng các môn thể thao trẻ em cần có bác sĩ chuyên về chấn động não thường trực không?",
+      "author": "ChatGPT4.1"
+    },
+    "90190": {
+      "id": 3682580,
+      "text": "Giống như các vận động viên chuyên nghiệp?",
+      "author": "ChatGPT4.1"
+    },
+    "90191": {
+      "id": 3682581,
+      "text": "Luôn có một rủi ro và chúng ta biết rằng điều này thỉnh thoảng vẫn xảy ra,",
+      "author": "ChatGPT4.1"
+    },
+    "90192": {
+      "id": 3682582,
+      "text": "nhưng ý tôi là hầu hết các trận đấu, kể cả những trận nguy hiểm nhất, đều không xảy ra sự cố gì cả.",
+      "author": "ChatGPT4.1"
+    },
+    "90193": {
+      "id": 3682583,
+      "text": "Tôi nghĩ những người tham gia điều hành thể thao trẻ, dù là trọng tài, huấn luyện viên hay phụ huynh,",
+      "author": "ChatGPT4.1"
+    },
+    "90194": {
+      "id": 3682584,
+      "text": "có thể được hướng dẫn cách xử lý chấn động não,",
+      "author": "ChatGPT4.1"
+    },
+    "90195": {
+      "id": 3682585,
+      "text": "các dấu hiệu mà họ cần chú ý,",
+      "author": "ChatGPT4.1"
+    },
+    "90196": {
+      "id": 3682586,
+      "text": "và có thể là những cảnh báo về vấn đề nghiêm trọng hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "90197": {
+      "id": 3682587,
+      "text": "để họ có thể đưa ra những hành động phù hợp.",
+      "author": "ChatGPT4.1"
+    },
+    "90198": {
+      "id": 3682588,
+      "text": "Nhưng tôi nghĩ lúc nào cũng có bác sĩ túc trực bên lề khi thanh thiếu niên chơi thể thao là phản ứng thái quá.",
+      "author": "ChatGPT4.1"
+    },
+    "90199": {
+      "id": 3682589,
+      "text": "Đúng vậy, tại Mỹ, bóng bầu dục đại học là ngành kinh doanh lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "90200": {
+      "id": 3682590,
+      "text": "Họ đang thử nghiệm cảm biến ở mũ bảo hiểm và cảm biến va chạm.",
+      "author": "ChatGPT4.1"
+    },
+    "90201": {
+      "id": 3682591,
+      "text": "Bạn có nghĩ chúng ta cần điều đó ở khắp mọi nơi không?",
+      "author": "ChatGPT4.1"
+    },
+    "90202": {
+      "id": 3682592,
+      "text": "Tôi không nghĩ mọi chuyện sẽ đi đến mức đó.",
+      "author": "ChatGPT4.1"
+    },
+    "90203": {
+      "id": 3682593,
+      "text": "Tôi nghĩ ở đây có hai kịch bản.",
+      "author": "ChatGPT4.1"
+    },
+    "90204": {
+      "id": 3682594,
+      "text": "Đầu tiên là chấn động não chỉ xảy ra một lần sau một cú va mạnh vào đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "90205": {
+      "id": 3682595,
+      "text": "Còn trường hợp thứ hai khá khác biệt và liên quan đến Bệnh não do chấn thương mãn tính.",
+      "author": "ChatGPT4.1"
+    },
+    "90206": {
+      "id": 3682596,
+      "text": "Điều này đặc biệt xảy ra ở bóng bầu dục Mỹ,",
+      "author": "ChatGPT4.1"
+    },
+    "90207": {
+      "id": 3682597,
+      "text": "nơi các cầu thủ dùng mũ bảo hiểm và đầu của mình gần như là vũ khí.",
+      "author": "ChatGPT4.1"
+    },
+    "90208": {
+      "id": 3682598,
+      "text": "Những tác động lặp đi lặp lại kiểu đó dường như tích tụ theo suốt sự nghiệp của cầu thủ.",
+      "author": "ChatGPT4.1"
+    },
+    "90209": {
+      "id": 3682599,
+      "text": "Đó là điều mà chúng ta thường nghe bàn luận, chủ yếu ở Mỹ.",
+      "author": "ChatGPT4.1"
+    },
+    "90210": {
+      "id": 3682600,
+      "text": "Tất nhiên, luôn có sự quan tâm trong việc bảo vệ các cầu thủ,",
+      "author": "ChatGPT4.1"
+    },
+    "90211": {
+      "id": 3682601,
+      "text": "đặc biệt là ở các cấp độ thể thao chuyên nghiệp,",
+      "author": "ChatGPT4.1"
+    },
+    "90212": {
+      "id": 3682602,
+      "text": "nhưng tôi cho rằng đó là một vấn đề khác với việc quản lý chấn động não.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

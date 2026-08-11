@@ -1,0 +1,807 @@
+{
+  "summary": {
+    "id": 1546,
+    "name": "Conversation 164",
+    "subTitle": "Lost Luggage Inquiry",
+    "levelName": "B1",
+    "position": 400,
+    "totalChallenges": 16,
+    "groupId": 47,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1546",
+  "detail": {
+    "id": 1546,
+    "lessonName": "Conversation 164",
+    "name": "Conversation 164",
+    "position": 400,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/0-conversation-164.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66221,
+        "position": 1,
+        "content": "Excuse me,",
+        "defaultInput": "Excuse me,",
+        "jsonContent": [
+          "Excuse",
+          "me,"
+        ],
+        "solution": [
+          [
+            "Excuse"
+          ],
+          [
+            "me,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/1.mp3",
+        "timeStart": 0.31,
+        "timeEnd": 1.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66221/list"
+      },
+      {
+        "id": 66222,
+        "position": 2,
+        "content": "I was on flight TR6 from Tokyo,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "was",
+          "on",
+          "flight",
+          "TR6",
+          "from",
+          "Tokyo,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "on"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "TR6"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Tokyo,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/2.mp3",
+        "timeStart": 1.89,
+        "timeEnd": 5.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66222/list"
+      },
+      {
+        "id": 66223,
+        "position": 3,
+        "content": "but none of my checked bags have shown up yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "none",
+          "of",
+          "my",
+          "checked",
+          "bags",
+          "have",
+          "shown",
+          "up",
+          "yet."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "none"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "checked"
+          ],
+          [
+            "bags"
+          ],
+          [
+            "have"
+          ],
+          [
+            "shown"
+          ],
+          [
+            "up"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/3.mp3",
+        "timeStart": 5.15,
+        "timeEnd": 8.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66223/list"
+      },
+      {
+        "id": 66224,
+        "position": 4,
+        "content": "May I see your tags, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "May",
+          "I",
+          "see",
+          "your",
+          "tags,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "May"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "your"
+          ],
+          [
+            "tags,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/4.mp3",
+        "timeStart": 8.41,
+        "timeEnd": 10.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66224/list"
+      },
+      {
+        "id": 66225,
+        "position": 5,
+        "content": "Huh?",
+        "defaultInput": "Huh?",
+        "jsonContent": [
+          "Huh?"
+        ],
+        "solution": [
+          [
+            "Huh?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/5.mp3",
+        "timeStart": 10.34,
+        "timeEnd": 11.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66225/list"
+      },
+      {
+        "id": 66226,
+        "position": 6,
+        "content": "What tags?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "tags?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "tags?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/6.mp3",
+        "timeStart": 11.63,
+        "timeEnd": 12.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66226/list"
+      },
+      {
+        "id": 66227,
+        "position": 7,
+        "content": "They should be stuck to the back of your ticket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "should",
+          "be",
+          "stuck",
+          "to",
+          "the",
+          "back",
+          "of",
+          "your",
+          "ticket."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "stuck"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "back"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "ticket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/7.mp3",
+        "timeStart": 12.6,
+        "timeEnd": 15.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66227/list"
+      },
+      {
+        "id": 66228,
+        "position": 8,
+        "content": "They're little stickers with a barcodes on them.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "They are"
+          ],
+          "little",
+          "stickers",
+          "with",
+          "a",
+          "barcodes",
+          "on",
+          "them."
+        ],
+        "solution": [
+          [
+            "They're",
+            "They are"
+          ],
+          [
+            "little"
+          ],
+          [
+            "stickers"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "barcodes"
+          ],
+          [
+            "on"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/8.mp3",
+        "timeStart": 15.37,
+        "timeEnd": 17.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66228/list"
+      },
+      {
+        "id": 66229,
+        "position": 9,
+        "content": "Oh, yeah.",
+        "defaultInput": "Oh, yeah.",
+        "jsonContent": [
+          "Oh,",
+          "yeah."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "yeah."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/9.mp3",
+        "timeStart": 17.89,
+        "timeEnd": 19.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66229/list"
+      },
+      {
+        "id": 66230,
+        "position": 10,
+        "content": "Here you go.",
+        "defaultInput": "Here you go.",
+        "jsonContent": [
+          "Here",
+          "you",
+          "go."
+        ],
+        "solution": [
+          [
+            "Here"
+          ],
+          [
+            "you"
+          ],
+          [
+            "go."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/10.mp3",
+        "timeStart": 19.47,
+        "timeEnd": 20.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66230/list"
+      },
+      {
+        "id": 66231,
+        "position": 11,
+        "content": "Hmm... It looks like your bags were sent to Chicago somehow!",
+        "defaultInput": "Hmm... ",
+        "jsonContent": [
+          "Hmm...",
+          "It",
+          "looks",
+          "like",
+          "your",
+          "bags",
+          "were",
+          "sent",
+          "to",
+          "Chicago",
+          "somehow!"
+        ],
+        "solution": [
+          [
+            "Hmm..."
+          ],
+          [
+            "It"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "like"
+          ],
+          [
+            "your"
+          ],
+          [
+            "bags"
+          ],
+          [
+            "were"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Chicago"
+          ],
+          [
+            "somehow!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/11.mp3",
+        "timeStart": 20.83,
+        "timeEnd": 25.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66231/list"
+      },
+      {
+        "id": 66232,
+        "position": 12,
+        "content": "I'm sorry about the mix-up.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry",
+          "about",
+          "the",
+          [
+            "mix-up.",
+            "mix up."
+          ]
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "mix-up.",
+            "mix up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/12.mp3",
+        "timeStart": 25.56,
+        "timeEnd": 27.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66232/list"
+      },
+      {
+        "id": 66233,
+        "position": 13,
+        "content": "They won't make it here today, but we can ship them to you by tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "won't",
+          "make",
+          "it",
+          "here",
+          "today,",
+          "but",
+          "we",
+          "can",
+          "ship",
+          "them",
+          "to",
+          "you",
+          "by",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "make"
+          ],
+          [
+            "it"
+          ],
+          [
+            "here"
+          ],
+          [
+            "today,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "ship"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "by"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/13.mp3",
+        "timeStart": 27.99,
+        "timeEnd": 32.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66233/list"
+      },
+      {
+        "id": 66234,
+        "position": 14,
+        "content": "Are you sure they'll arrive by tomorrow?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "sure",
+          [
+            "they'll",
+            "they will"
+          ],
+          "arrive",
+          "by",
+          "tomorrow?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "they'll",
+            "they will"
+          ],
+          [
+            "arrive"
+          ],
+          [
+            "by"
+          ],
+          [
+            "tomorrow?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/14.mp3",
+        "timeStart": 32.01,
+        "timeEnd": 34.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66234/list"
+      },
+      {
+        "id": 66235,
+        "position": 15,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/15.mp3",
+        "timeStart": 34.2,
+        "timeEnd": 34.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66235/list"
+      },
+      {
+        "id": 66236,
+        "position": 16,
+        "content": "Just give me your address, and we will deliver your bags to your house by noon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "give",
+          "me",
+          "your",
+          "address,",
+          "and",
+          [
+            "we will",
+            "we'll"
+          ],
+          "deliver",
+          "your",
+          "bags",
+          "to",
+          "your",
+          "house",
+          "by",
+          "noon."
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "your"
+          ],
+          [
+            "address,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "deliver"
+          ],
+          [
+            "your"
+          ],
+          [
+            "bags"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "house"
+          ],
+          [
+            "by"
+          ],
+          [
+            "noon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-164-2024-09-14-18-31-23/16.mp3",
+        "timeStart": 34.95,
+        "timeEnd": 39.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66236/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66221": {
+      "id": 2612830,
+      "text": "Xin lỗi,",
+      "author": "ChatGPT4.1"
+    },
+    "66222": {
+      "id": 2612831,
+      "text": "Tôi vừa đi trên chuyến bay TR6 từ Tokyo,",
+      "author": "ChatGPT4.1"
+    },
+    "66223": {
+      "id": 2612832,
+      "text": "nhưng chưa có hành lý ký gửi nào của tôi xuất hiện cả.",
+      "author": "ChatGPT4.1"
+    },
+    "66224": {
+      "id": 2612833,
+      "text": "Cho tôi xem thẻ hành lý của bạn được không?",
+      "author": "ChatGPT4.1"
+    },
+    "66225": {
+      "id": 2612834,
+      "text": "Hả?",
+      "author": "ChatGPT4.1"
+    },
+    "66226": {
+      "id": 2612835,
+      "text": "Thẻ nào vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "66227": {
+      "id": 2612836,
+      "text": "Chúng thường được dán ở mặt sau vé máy bay của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "66228": {
+      "id": 2612837,
+      "text": "Đó là những miếng dán nhỏ có mã vạch trên đó.",
+      "author": "ChatGPT4.1"
+    },
+    "66229": {
+      "id": 2612838,
+      "text": "À, đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "66230": {
+      "id": 2612839,
+      "text": "Đây ạ.",
+      "author": "ChatGPT4.1"
+    },
+    "66231": {
+      "id": 2612840,
+      "text": "Hmm... Có vẻ như hành lý của bạn đã bị gửi nhầm đến Chicago rồi!",
+      "author": "ChatGPT4.1"
+    },
+    "66232": {
+      "id": 2612841,
+      "text": "Tôi xin lỗi vì sự nhầm lẫn này.",
+      "author": "ChatGPT4.1"
+    },
+    "66233": {
+      "id": 2612842,
+      "text": "Hôm nay hành lý sẽ không tới kịp, nhưng chúng tôi có thể gửi chúng tới cho bạn vào ngày mai.",
+      "author": "ChatGPT4.1"
+    },
+    "66234": {
+      "id": 2612843,
+      "text": "Bạn chắc chắn hành lý sẽ tới vào ngày mai chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "66235": {
+      "id": 2612844,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "66236": {
+      "id": 2612845,
+      "text": "Chỉ cần cho tôi địa chỉ, chúng tôi sẽ gửi hành lý đến nhà bạn trước trưa mai.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

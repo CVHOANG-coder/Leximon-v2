@@ -1,0 +1,742 @@
+{
+  "summary": {
+    "id": 1819,
+    "name": "Conversation 265",
+    "subTitle": "Graphic Designer Application Inquiry",
+    "levelName": "B1",
+    "position": 604,
+    "totalChallenges": 11,
+    "groupId": 74,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1819",
+  "detail": {
+    "id": 1819,
+    "lessonName": "Conversation 265",
+    "name": "Conversation 265",
+    "position": 604,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/0-conversation-265.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70588,
+        "position": 1,
+        "content": "Hi, I'm interested in the graphic designer position I saw listed on your company's website.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "interested",
+          "in",
+          "the",
+          "graphic",
+          "designer",
+          "position",
+          "I",
+          "saw",
+          "listed",
+          "on",
+          "your",
+          "company's",
+          "website."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "graphic"
+          ],
+          [
+            "designer"
+          ],
+          [
+            "position"
+          ],
+          [
+            "I"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "listed"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "company's"
+          ],
+          [
+            "website."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 4.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70588/list"
+      },
+      {
+        "id": 70589,
+        "position": 2,
+        "content": "Is it still open?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "it",
+          "still",
+          "open?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "still"
+          ],
+          [
+            "open?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/2.mp3",
+        "timeStart": 4.81,
+        "timeEnd": 6.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70589/list"
+      },
+      {
+        "id": 70590,
+        "position": 3,
+        "content": "I have a background in digital media and four years of experience in graphic design.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "background",
+          "in",
+          "digital",
+          "media",
+          "and",
+          [
+            "four",
+            "4"
+          ],
+          "years",
+          "of",
+          "experience",
+          "in",
+          "graphic",
+          "design."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "background"
+          ],
+          [
+            "in"
+          ],
+          [
+            "digital"
+          ],
+          [
+            "media"
+          ],
+          [
+            "and"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "years"
+          ],
+          [
+            "of"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "in"
+          ],
+          [
+            "graphic"
+          ],
+          [
+            "design."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/3.mp3",
+        "timeStart": 6.27,
+        "timeEnd": 10.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70590/list"
+      },
+      {
+        "id": 70591,
+        "position": 4,
+        "content": "Hello. Yes, the graphic designer role is still open.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello.",
+          "Yes,",
+          "the",
+          "graphic",
+          "designer",
+          "role",
+          "is",
+          "still",
+          "open."
+        ],
+        "solution": [
+          [
+            "Hello."
+          ],
+          [
+            "Yes,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "graphic"
+          ],
+          [
+            "designer"
+          ],
+          [
+            "role"
+          ],
+          [
+            "is"
+          ],
+          [
+            "still"
+          ],
+          [
+            "open."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/4.mp3",
+        "timeStart": 11.03,
+        "timeEnd": 14.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70591/list"
+      },
+      {
+        "id": 70592,
+        "position": 5,
+        "content": "We're currently gathering applications and require interested candidates to submit a cover letter and CV by November 10th.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "We are"
+          ],
+          "currently",
+          "gathering",
+          "applications",
+          "and",
+          "require",
+          "interested",
+          "candidates",
+          "to",
+          "submit",
+          "a",
+          "cover",
+          "letter",
+          "and",
+          "CV",
+          "by",
+          "November",
+          [
+            "10th.",
+            "tenth"
+          ]
+        ],
+        "solution": [
+          [
+            "We're",
+            "We are"
+          ],
+          [
+            "currently"
+          ],
+          [
+            "gathering"
+          ],
+          [
+            "applications"
+          ],
+          [
+            "and"
+          ],
+          [
+            "require"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "candidates"
+          ],
+          [
+            "to"
+          ],
+          [
+            "submit"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cover"
+          ],
+          [
+            "letter"
+          ],
+          [
+            "and"
+          ],
+          [
+            "CV"
+          ],
+          [
+            "by"
+          ],
+          [
+            "November"
+          ],
+          [
+            "10th.",
+            "tenth"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/5.mp3",
+        "timeStart": 14.31,
+        "timeEnd": 20.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70592/list"
+      },
+      {
+        "id": 70593,
+        "position": 6,
+        "content": "You can send your documents to careers@creativevision.com.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "send",
+          "your",
+          "documents",
+          "to",
+          "careers@creativevision.com."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "send"
+          ],
+          [
+            "your"
+          ],
+          [
+            "documents"
+          ],
+          [
+            "to"
+          ],
+          [
+            "careers@creativevision.com."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/6.mp3",
+        "timeStart": 21.14,
+        "timeEnd": 25.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70593/list"
+      },
+      {
+        "id": 70594,
+        "position": 7,
+        "content": "Wonderful, I'll make sure to email you those files today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Wonderful,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "make",
+          "sure",
+          "to",
+          "email",
+          "you",
+          "those",
+          "files",
+          "today."
+        ],
+        "solution": [
+          [
+            "Wonderful,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "to"
+          ],
+          [
+            "email"
+          ],
+          [
+            "you"
+          ],
+          [
+            "those"
+          ],
+          [
+            "files"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/7.mp3",
+        "timeStart": 26.05,
+        "timeEnd": 28.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70594/list"
+      },
+      {
+        "id": 70595,
+        "position": 8,
+        "content": "Would it be possible for you to let me know once they have been received?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "it",
+          "be",
+          "possible",
+          "for",
+          "you",
+          "to",
+          "let",
+          "me",
+          "know",
+          "once",
+          [
+            "they have",
+            "they've"
+          ],
+          "been",
+          "received?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "it"
+          ],
+          [
+            "be"
+          ],
+          [
+            "possible"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "know"
+          ],
+          [
+            "once"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "been"
+          ],
+          [
+            "received?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/8.mp3",
+        "timeStart": 28.81,
+        "timeEnd": 32.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70595/list"
+      },
+      {
+        "id": 70596,
+        "position": 9,
+        "content": "Certainly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly."
+        ],
+        "solution": [
+          [
+            "Certainly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/9.mp3",
+        "timeStart": 32.83,
+        "timeEnd": 33.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70596/list"
+      },
+      {
+        "id": 70597,
+        "position": 10,
+        "content": "I'll send you a confirmation once your application is in our system.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "send",
+          "you",
+          "a",
+          "confirmation",
+          "once",
+          "your",
+          "application",
+          "is",
+          "in",
+          "our",
+          "system."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "send"
+          ],
+          [
+            "you"
+          ],
+          [
+            "a"
+          ],
+          [
+            "confirmation"
+          ],
+          [
+            "once"
+          ],
+          [
+            "your"
+          ],
+          [
+            "application"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "our"
+          ],
+          [
+            "system."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/10.mp3",
+        "timeStart": 33.75,
+        "timeEnd": 37.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70597/list"
+      },
+      {
+        "id": 70598,
+        "position": 11,
+        "content": "Thank you for reaching out about the position.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you",
+          "for",
+          "reaching",
+          "out",
+          "about",
+          "the",
+          "position."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "reaching"
+          ],
+          [
+            "out"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "position."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-265-2024-11-07-15-28-34/11.mp3",
+        "timeStart": 37.38,
+        "timeEnd": 39.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70598/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "70588": {
+      "id": 2615179,
+      "text": "Chào bạn, tôi quan tâm đến vị trí nhà thiết kế đồ họa mà tôi thấy được đăng trên trang web của công ty bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "70589": {
+      "id": 2615180,
+      "text": "Vị trí đó còn tuyển không?",
+      "author": "ChatGPT4.1"
+    },
+    "70590": {
+      "id": 2615181,
+      "text": "Tôi có nền tảng về truyền thông số và bốn năm kinh nghiệm trong lĩnh vực thiết kế đồ họa.",
+      "author": "ChatGPT4.1"
+    },
+    "70591": {
+      "id": 2615182,
+      "text": "Xin chào. Vâng, vị trí nhà thiết kế đồ họa vẫn còn đang tuyển.",
+      "author": "ChatGPT4.1"
+    },
+    "70592": {
+      "id": 2615183,
+      "text": "Chúng tôi hiện đang thu thập hồ sơ và yêu cầu các ứng viên quan tâm nộp thư xin việc và CV trước ngày 10 tháng 11.",
+      "author": "ChatGPT4.1"
+    },
+    "70593": {
+      "id": 2615184,
+      "text": "Bạn có thể gửi tài liệu của mình đến careers@creativevision.com.",
+      "author": "ChatGPT4.1"
+    },
+    "70594": {
+      "id": 2615185,
+      "text": "Tuyệt vời, tôi sẽ chắc chắn gửi email cho bạn các tài liệu đó trong hôm nay.",
+      "author": "ChatGPT4.1"
+    },
+    "70595": {
+      "id": 2615186,
+      "text": "Bạn có thể thông báo cho tôi khi đã nhận được chúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "70596": {
+      "id": 2615187,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "70597": {
+      "id": 2615188,
+      "text": "Tôi sẽ gửi xác nhận cho bạn khi hồ sơ của bạn đã được đưa vào hệ thống của chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "70598": {
+      "id": 2615189,
+      "text": "Cảm ơn bạn đã liên hệ về vị trí này.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

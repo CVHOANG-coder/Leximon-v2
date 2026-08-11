@@ -1,0 +1,3490 @@
+{
+  "summary": {
+    "id": 913,
+    "name": "Cam4 - Test 3 - Part 4",
+    "subTitle": "Student Union Building Proposal",
+    "levelName": "C1",
+    "position": 301,
+    "totalChallenges": 51,
+    "groupId": 69,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/913",
+  "detail": {
+    "id": 913,
+    "lessonName": "Cam4 - Test 3 - Part 4",
+    "name": "Cam4 - Test 3 - Part 4",
+    "position": 301,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/0-ielts-cambridge-4-test-3-part-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 48017,
+        "position": 1,
+        "content": "We're very grateful that the Committee has agreed that a representative for the Students' Union",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "we are"
+          ],
+          "very",
+          "grateful",
+          "that",
+          "the",
+          "Committee",
+          "has",
+          "agreed",
+          "that",
+          "a",
+          "representative",
+          "for",
+          "the",
+          "Students'",
+          "Union"
+        ],
+        "solution": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "very"
+          ],
+          [
+            "grateful"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Committee"
+          ],
+          [
+            "has"
+          ],
+          [
+            "agreed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "a"
+          ],
+          [
+            "representative"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Students'"
+          ],
+          [
+            "Union"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/1.mp3",
+        "timeStart": 0.64,
+        "timeEnd": 5.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48017/list"
+      },
+      {
+        "id": 48018,
+        "position": 2,
+        "content": "can present students' suggestions about the design for the proposed new Union building.",
+        "defaultInput": "",
+        "jsonContent": [
+          "can",
+          "present",
+          "students'",
+          "suggestions",
+          "about",
+          "the",
+          "design",
+          "for",
+          "the",
+          "proposed",
+          "new",
+          "Union",
+          "building."
+        ],
+        "solution": [
+          [
+            "can"
+          ],
+          [
+            "present"
+          ],
+          [
+            "students'"
+          ],
+          [
+            "suggestions"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "design"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "proposed"
+          ],
+          [
+            "new"
+          ],
+          [
+            "Union"
+          ],
+          [
+            "building."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/2.mp3",
+        "timeStart": 5.72,
+        "timeEnd": 10.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48018/list"
+      },
+      {
+        "id": 48019,
+        "position": 3,
+        "content": "We appreciate that some of our ideas may not be feasible in the circumstances,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "appreciate",
+          "that",
+          "some",
+          "of",
+          "our",
+          "ideas",
+          "may",
+          "not",
+          "be",
+          "feasible",
+          "in",
+          "the",
+          "circumstances,"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "that"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "ideas"
+          ],
+          [
+            "may"
+          ],
+          [
+            "not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "feasible"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "circumstances,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/3.mp3",
+        "timeStart": 10.96,
+        "timeEnd": 16.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48019/list"
+      },
+      {
+        "id": 48020,
+        "position": 4,
+        "content": "but we do feel that it is important that the ultimate beneficiaries of the facilities should have some say in its design.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "do",
+          "feel",
+          "that",
+          [
+            "it is",
+            "it's"
+          ],
+          "important",
+          "that",
+          "the",
+          "ultimate",
+          "beneficiaries",
+          "of",
+          "the",
+          "facilities",
+          [
+            "should have",
+            "should've"
+          ],
+          "some",
+          "say",
+          "in",
+          "its",
+          "design."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "important"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ultimate"
+          ],
+          [
+            "beneficiaries"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "facilities"
+          ],
+          [
+            "should have",
+            "should've"
+          ],
+          [
+            "some"
+          ],
+          [
+            "say"
+          ],
+          [
+            "in"
+          ],
+          [
+            "its"
+          ],
+          [
+            "design."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/4.mp3",
+        "timeStart": 16.43,
+        "timeEnd": 23.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48020/list"
+      },
+      {
+        "id": 48021,
+        "position": 5,
+        "content": "If I could start by briefly explaining what steps were taken to find out student opinion",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "I",
+          "could",
+          "start",
+          "by",
+          "briefly",
+          "explaining",
+          "what",
+          "steps",
+          "were",
+          "taken",
+          "to",
+          "find",
+          "out",
+          "student",
+          "opinion"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "start"
+          ],
+          [
+            "by"
+          ],
+          [
+            "briefly"
+          ],
+          [
+            "explaining"
+          ],
+          [
+            "what"
+          ],
+          [
+            "steps"
+          ],
+          [
+            "were"
+          ],
+          [
+            "taken"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "student"
+          ],
+          [
+            "opinion"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/5.mp3",
+        "timeStart": 24.82,
+        "timeEnd": 30.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48021/list"
+      },
+      {
+        "id": 48022,
+        "position": 6,
+        "content": "and how we have arrived at conclusions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "how",
+          [
+            "we have",
+            "we've"
+          ],
+          "arrived",
+          "at",
+          "conclusions."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "arrived"
+          ],
+          [
+            "at"
+          ],
+          [
+            "conclusions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/6.mp3",
+        "timeStart": 30.63,
+        "timeEnd": 33.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48022/list"
+      },
+      {
+        "id": 48023,
+        "position": 7,
+        "content": "Firstly, a meeting was held in the current Union for our SU Committee to explain the options.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Firstly,",
+          "a",
+          "meeting",
+          "was",
+          "held",
+          "in",
+          "the",
+          "current",
+          "Union",
+          "for",
+          "our",
+          "SU",
+          "Committee",
+          "to",
+          "explain",
+          "the",
+          "options."
+        ],
+        "solution": [
+          [
+            "Firstly,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "was"
+          ],
+          [
+            "held"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "current"
+          ],
+          [
+            "Union"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "SU"
+          ],
+          [
+            "Committee"
+          ],
+          [
+            "to"
+          ],
+          [
+            "explain"
+          ],
+          [
+            "the"
+          ],
+          [
+            "options."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/7.mp3",
+        "timeStart": 34.29,
+        "timeEnd": 40.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48023/list"
+      },
+      {
+        "id": 48024,
+        "position": 8,
+        "content": "Then we invited all students to submit written suggestions for the design,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "we",
+          "invited",
+          "all",
+          "students",
+          "to",
+          "submit",
+          "written",
+          "suggestions",
+          "for",
+          "the",
+          "design,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "we"
+          ],
+          [
+            "invited"
+          ],
+          [
+            "all"
+          ],
+          [
+            "students"
+          ],
+          [
+            "to"
+          ],
+          [
+            "submit"
+          ],
+          [
+            "written"
+          ],
+          [
+            "suggestions"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "design,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/8.mp3",
+        "timeStart": 41.48,
+        "timeEnd": 46.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48024/list"
+      },
+      {
+        "id": 48025,
+        "position": 9,
+        "content": "placing cards in a suggestion box.",
+        "defaultInput": "",
+        "jsonContent": [
+          "placing",
+          "cards",
+          "in",
+          "a",
+          "suggestion",
+          "box."
+        ],
+        "solution": [
+          [
+            "placing"
+          ],
+          [
+            "cards"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "suggestion"
+          ],
+          [
+            "box."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/9.mp3",
+        "timeStart": 46.28,
+        "timeEnd": 48.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48025/list"
+      },
+      {
+        "id": 48026,
+        "position": 10,
+        "content": "These suggestions then provided the basis for the design of a questionnaire,",
+        "defaultInput": "",
+        "jsonContent": [
+          "These",
+          "suggestions",
+          "then",
+          "provided",
+          "the",
+          "basis",
+          "for",
+          "the",
+          "design",
+          "of",
+          "a",
+          "questionnaire,"
+        ],
+        "solution": [
+          [
+            "These"
+          ],
+          [
+            "suggestions"
+          ],
+          [
+            "then"
+          ],
+          [
+            "provided"
+          ],
+          [
+            "the"
+          ],
+          [
+            "basis"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "design"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "questionnaire,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/10.mp3",
+        "timeStart": 49.12,
+        "timeEnd": 53.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48026/list"
+      },
+      {
+        "id": 48027,
+        "position": 11,
+        "content": "which was completed by approximately 2000 of the College students",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "was",
+          "completed",
+          "by",
+          "approximately",
+          [
+            "2000",
+            "two thousand"
+          ],
+          "of",
+          "the",
+          "College",
+          "students"
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "was"
+          ],
+          [
+            "completed"
+          ],
+          [
+            "by"
+          ],
+          [
+            "approximately"
+          ],
+          [
+            "2000",
+            "two thousand"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "College"
+          ],
+          [
+            "students"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/11.mp3",
+        "timeStart": 53.93,
+        "timeEnd": 59.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48027/list"
+      },
+      {
+        "id": 48028,
+        "position": 12,
+        "content": "over a period of three weeks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "over",
+          "a",
+          "period",
+          "of",
+          [
+            "three",
+            "3"
+          ],
+          "weeks."
+        ],
+        "solution": [
+          [
+            "over"
+          ],
+          [
+            "a"
+          ],
+          [
+            "period"
+          ],
+          [
+            "of"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "weeks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/12.mp3",
+        "timeStart": 59.04,
+        "timeEnd": 60.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48028/list"
+      },
+      {
+        "id": 48029,
+        "position": 13,
+        "content": "Finally, the SU Committee collated the results and drew up a report.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Finally,",
+          "the",
+          "SU",
+          "Committee",
+          "collated",
+          "the",
+          "results",
+          "and",
+          "drew",
+          "up",
+          "a",
+          "report."
+        ],
+        "solution": [
+          [
+            "Finally,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "SU"
+          ],
+          [
+            "Committee"
+          ],
+          [
+            "collated"
+          ],
+          [
+            "the"
+          ],
+          [
+            "results"
+          ],
+          [
+            "and"
+          ],
+          [
+            "drew"
+          ],
+          [
+            "up"
+          ],
+          [
+            "a"
+          ],
+          [
+            "report."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/13.mp3",
+        "timeStart": 61.32,
+        "timeEnd": 66.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48029/list"
+      },
+      {
+        "id": 48030,
+        "position": 14,
+        "content": "If I can just hand around a copy of that report.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "I",
+          "can",
+          "just",
+          "hand",
+          "around",
+          "a",
+          "copy",
+          "of",
+          "that",
+          "report."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "just"
+          ],
+          [
+            "hand"
+          ],
+          [
+            "around"
+          ],
+          [
+            "a"
+          ],
+          [
+            "copy"
+          ],
+          [
+            "of"
+          ],
+          [
+            "that"
+          ],
+          [
+            "report."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/14.mp3",
+        "timeStart": 66.89,
+        "timeEnd": 70.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48030/list"
+      },
+      {
+        "id": 48031,
+        "position": 15,
+        "content": "This presentation is essentially a summary and discussion of the key points of this report.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "presentation",
+          "is",
+          "essentially",
+          "a",
+          "summary",
+          "and",
+          "discussion",
+          "of",
+          "the",
+          "key",
+          "points",
+          "of",
+          "this",
+          "report."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "presentation"
+          ],
+          [
+            "is"
+          ],
+          [
+            "essentially"
+          ],
+          [
+            "a"
+          ],
+          [
+            "summary"
+          ],
+          [
+            "and"
+          ],
+          [
+            "discussion"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "key"
+          ],
+          [
+            "points"
+          ],
+          [
+            "of"
+          ],
+          [
+            "this"
+          ],
+          [
+            "report."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/15.mp3",
+        "timeStart": 74.66,
+        "timeEnd": 80.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48031/list"
+      },
+      {
+        "id": 48032,
+        "position": 16,
+        "content": "So, in broad terms, the consensus was as follows.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "in",
+          "broad",
+          "terms,",
+          "the",
+          "consensus",
+          "was",
+          "as",
+          "follows."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "broad"
+          ],
+          [
+            "terms,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "consensus"
+          ],
+          [
+            "was"
+          ],
+          [
+            "as"
+          ],
+          [
+            "follows."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/16.mp3",
+        "timeStart": 80.81,
+        "timeEnd": 84.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48032/list"
+      },
+      {
+        "id": 48033,
+        "position": 17,
+        "content": "Firstly, regarding the crucial matter of the site,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Firstly,",
+          "regarding",
+          "the",
+          "crucial",
+          "matter",
+          "of",
+          "the",
+          "site,"
+        ],
+        "solution": [
+          [
+            "Firstly,"
+          ],
+          [
+            "regarding"
+          ],
+          [
+            "the"
+          ],
+          [
+            "crucial"
+          ],
+          [
+            "matter"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "site,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/17.mp3",
+        "timeStart": 85.38,
+        "timeEnd": 89.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48033/list"
+      },
+      {
+        "id": 48034,
+        "position": 18,
+        "content": "we presented the three options that you have proposed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "presented",
+          "the",
+          [
+            "three",
+            "3"
+          ],
+          "options",
+          "that",
+          [
+            "you have",
+            "you've"
+          ],
+          "proposed."
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "presented"
+          ],
+          [
+            "the"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "options"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "proposed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/18.mp3",
+        "timeStart": 89.62,
+        "timeEnd": 92.69,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/48034/list"
+      },
+      {
+        "id": 48035,
+        "position": 19,
+        "content": "One: in the city centre, near the Faculty of Education;",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One:",
+            "1"
+          ],
+          "in",
+          "the",
+          "city",
+          [
+            "centre,",
+            "center"
+          ],
+          "near",
+          "the",
+          "Faculty",
+          "of",
+          "Education;"
+        ],
+        "solution": [
+          [
+            "One:",
+            "1"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "centre,",
+            "center"
+          ],
+          [
+            "near"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Faculty"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Education;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/19.mp3",
+        "timeStart": 92.69,
+        "timeEnd": 96.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48035/list"
+      },
+      {
+        "id": 48036,
+        "position": 20,
+        "content": "two: on the outskirts of the city, near the park,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "two:",
+            "2"
+          ],
+          "on",
+          "the",
+          "outskirts",
+          "of",
+          "the",
+          "city,",
+          "near",
+          "the",
+          "park,"
+        ],
+        "solution": [
+          [
+            "two:",
+            "2"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "outskirts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city,"
+          ],
+          [
+            "near"
+          ],
+          [
+            "the"
+          ],
+          [
+            "park,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/20.mp3",
+        "timeStart": 96.56,
+        "timeEnd": 100.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48036/list"
+      },
+      {
+        "id": 48037,
+        "position": 21,
+        "content": "and three: out of town, near the halls of residence.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "three:",
+            "3"
+          ],
+          "out",
+          "of",
+          "town,",
+          "near",
+          "the",
+          "halls",
+          "of",
+          "residence."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "three:",
+            "3"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "town,"
+          ],
+          [
+            "near"
+          ],
+          [
+            "the"
+          ],
+          [
+            "halls"
+          ],
+          [
+            "of"
+          ],
+          [
+            "residence."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/21.mp3",
+        "timeStart": 100.27,
+        "timeEnd": 104.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48037/list"
+      },
+      {
+        "id": 48038,
+        "position": 22,
+        "content": "We asked students to cite reasons for and against these sites and,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "asked",
+          "students",
+          "to",
+          "cite",
+          "reasons",
+          "for",
+          "and",
+          "against",
+          "these",
+          "sites",
+          "and,"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "students"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cite"
+          ],
+          [
+            "reasons"
+          ],
+          [
+            "for"
+          ],
+          [
+            "and"
+          ],
+          [
+            "against"
+          ],
+          [
+            "these"
+          ],
+          [
+            "sites"
+          ],
+          [
+            "and,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/22.mp3",
+        "timeStart": 104.6,
+        "timeEnd": 109.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48038/list"
+      },
+      {
+        "id": 48039,
+        "position": 23,
+        "content": "and there was remarkable agreement on all three.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "there",
+          "was",
+          "remarkable",
+          "agreement",
+          "on",
+          "all",
+          [
+            "three.",
+            "3"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "remarkable"
+          ],
+          [
+            "agreement"
+          ],
+          [
+            "on"
+          ],
+          [
+            "all"
+          ],
+          [
+            "three.",
+            "3"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/23.mp3",
+        "timeStart": 110.36,
+        "timeEnd": 113.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48039/list"
+      },
+      {
+        "id": 48040,
+        "position": 24,
+        "content": "Site One was unpopular because of traffic and parking problems.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Site",
+          [
+            "One",
+            "1"
+          ],
+          "was",
+          "unpopular",
+          "because",
+          "of",
+          "traffic",
+          "and",
+          "parking",
+          "problems."
+        ],
+        "solution": [
+          [
+            "Site"
+          ],
+          [
+            "One",
+            "1"
+          ],
+          [
+            "was"
+          ],
+          [
+            "unpopular"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "traffic"
+          ],
+          [
+            "and"
+          ],
+          [
+            "parking"
+          ],
+          [
+            "problems."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/24.mp3",
+        "timeStart": 113.97,
+        "timeEnd": 118.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48040/list"
+      },
+      {
+        "id": 48041,
+        "position": 25,
+        "content": "Site Two had a number of supporters,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Site",
+          [
+            "Two",
+            "2"
+          ],
+          "had",
+          "a",
+          "number",
+          "of",
+          "supporters,"
+        ],
+        "solution": [
+          [
+            "Site"
+          ],
+          [
+            "Two",
+            "2"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "supporters,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/25.mp3",
+        "timeStart": 118.89,
+        "timeEnd": 121.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48041/list"
+      },
+      {
+        "id": 48042,
+        "position": 26,
+        "content": "mainly because it was close to most lecture rooms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "mainly",
+          "because",
+          "it",
+          "was",
+          "close",
+          "to",
+          "most",
+          "lecture",
+          "rooms."
+        ],
+        "solution": [
+          [
+            "mainly"
+          ],
+          [
+            "because"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "close"
+          ],
+          [
+            "to"
+          ],
+          [
+            "most"
+          ],
+          [
+            "lecture"
+          ],
+          [
+            "rooms."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/26.mp3",
+        "timeStart": 121.64,
+        "timeEnd": 124.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48042/list"
+      },
+      {
+        "id": 48043,
+        "position": 27,
+        "content": "And Site Three, out of town, near the halls of residence,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "Site",
+          [
+            "Three,",
+            "3"
+          ],
+          "out",
+          "of",
+          "town,",
+          "near",
+          "the",
+          "halls",
+          "of",
+          "residence,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "Site"
+          ],
+          [
+            "Three,",
+            "3"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "town,"
+          ],
+          [
+            "near"
+          ],
+          [
+            "the"
+          ],
+          [
+            "halls"
+          ],
+          [
+            "of"
+          ],
+          [
+            "residence,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/27.mp3",
+        "timeStart": 124.44,
+        "timeEnd": 128.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48043/list"
+      },
+      {
+        "id": 48044,
+        "position": 28,
+        "content": "was clearly the most popular because of access from living quarters.",
+        "defaultInput": "",
+        "jsonContent": [
+          "was",
+          "clearly",
+          "the",
+          "most",
+          "popular",
+          "because",
+          "of",
+          "access",
+          "from",
+          "living",
+          "quarters."
+        ],
+        "solution": [
+          [
+            "was"
+          ],
+          [
+            "clearly"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "popular"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "access"
+          ],
+          [
+            "from"
+          ],
+          [
+            "living"
+          ],
+          [
+            "quarters."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/28.mp3",
+        "timeStart": 128.14,
+        "timeEnd": 132.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48044/list"
+      },
+      {
+        "id": 48045,
+        "position": 29,
+        "content": "It was clear that the Union was mainly to be used after lectures.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "clear",
+          "that",
+          "the",
+          "Union",
+          "was",
+          "mainly",
+          "to",
+          "be",
+          "used",
+          "after",
+          "lectures."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Union"
+          ],
+          [
+            "was"
+          ],
+          [
+            "mainly"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "used"
+          ],
+          [
+            "after"
+          ],
+          [
+            "lectures."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/29.mp3",
+        "timeStart": 133.09,
+        "timeEnd": 137.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48045/list"
+      },
+      {
+        "id": 48046,
+        "position": 30,
+        "content": "It was also felt that the larger site would allow more room for a choice of facilities.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "also",
+          "felt",
+          "that",
+          "the",
+          "larger",
+          "site",
+          "would",
+          "allow",
+          "more",
+          "room",
+          "for",
+          "a",
+          "choice",
+          "of",
+          "facilities."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "also"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "larger"
+          ],
+          [
+            "site"
+          ],
+          [
+            "would"
+          ],
+          [
+            "allow"
+          ],
+          [
+            "more"
+          ],
+          [
+            "room"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "choice"
+          ],
+          [
+            "of"
+          ],
+          [
+            "facilities."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/30.mp3",
+        "timeStart": 137.45,
+        "timeEnd": 142.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48046/list"
+      },
+      {
+        "id": 48047,
+        "position": 31,
+        "content": "Our second area of interest was obviously the facilities:",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "second",
+          "area",
+          "of",
+          "interest",
+          "was",
+          "obviously",
+          "the",
+          "facilities:"
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "second"
+          ],
+          [
+            "area"
+          ],
+          [
+            "of"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "was"
+          ],
+          [
+            "obviously"
+          ],
+          [
+            "the"
+          ],
+          [
+            "facilities:"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/31.mp3",
+        "timeStart": 143.55,
+        "timeEnd": 147.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48047/list"
+      },
+      {
+        "id": 48048,
+        "position": 32,
+        "content": "there was minimal interest in having a library on the premises,",
+        "defaultInput": "",
+        "jsonContent": [
+          "there",
+          "was",
+          "minimal",
+          "interest",
+          "in",
+          "having",
+          "a",
+          "library",
+          "on",
+          "the",
+          "premises,"
+        ],
+        "solution": [
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "minimal"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "in"
+          ],
+          [
+            "having"
+          ],
+          [
+            "a"
+          ],
+          [
+            "library"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "premises,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/32.mp3",
+        "timeStart": 147.79,
+        "timeEnd": 151.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48048/list"
+      },
+      {
+        "id": 48049,
+        "position": 33,
+        "content": "but one option seemed to be a reading room instead - more useful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "one",
+            "1"
+          ],
+          "option",
+          "seemed",
+          "to",
+          "be",
+          "a",
+          "reading",
+          "room",
+          "instead",
+          "-",
+          "more",
+          "useful."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "option"
+          ],
+          [
+            "seemed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "room"
+          ],
+          [
+            "instead"
+          ],
+          [
+            "-"
+          ],
+          [
+            "more"
+          ],
+          [
+            "useful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/33.mp3",
+        "timeStart": 151.43,
+        "timeEnd": 155.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48049/list"
+      },
+      {
+        "id": 48050,
+        "position": 34,
+        "content": "We would like the current table games room to be replaced with a small gym.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We would",
+            "We'd"
+          ],
+          "like",
+          "the",
+          "current",
+          "table",
+          "games",
+          "room",
+          "to",
+          "be",
+          "replaced",
+          "with",
+          "a",
+          "small",
+          "gym."
+        ],
+        "solution": [
+          [
+            "We would",
+            "We'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "current"
+          ],
+          [
+            "table"
+          ],
+          [
+            "games"
+          ],
+          [
+            "room"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "replaced"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "small"
+          ],
+          [
+            "gym."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/34.mp3",
+        "timeStart": 156.55,
+        "timeEnd": 161.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48050/list"
+      },
+      {
+        "id": 48051,
+        "position": 35,
+        "content": "And, if possible, a small swimming pool - not, of course, Olympic-sized!",
+        "defaultInput": "",
+        "jsonContent": [
+          "And,",
+          "if",
+          "possible,",
+          "a",
+          "small",
+          "swimming",
+          "pool",
+          "-",
+          "not,",
+          "of",
+          "course,",
+          [
+            "Olympic-sized!",
+            "Olympic sized!"
+          ]
+        ],
+        "solution": [
+          [
+            "And,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "possible,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "small"
+          ],
+          [
+            "swimming"
+          ],
+          [
+            "pool"
+          ],
+          [
+            "-"
+          ],
+          [
+            "not,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "Olympic-sized!",
+            "Olympic sized!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/35.mp3",
+        "timeStart": 161.56,
+        "timeEnd": 166.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48051/list"
+      },
+      {
+        "id": 48052,
+        "position": 36,
+        "content": "There was a large number of respondents in favour of a travel agent's and insurance centre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "was",
+          "a",
+          "large",
+          "number",
+          "of",
+          "respondents",
+          "in",
+          [
+            "favour",
+            "favor"
+          ],
+          "of",
+          "a",
+          "travel",
+          "agent's",
+          "and",
+          "insurance",
+          [
+            "centre.",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "large"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "respondents"
+          ],
+          [
+            "in"
+          ],
+          [
+            "favour",
+            "favor"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "travel"
+          ],
+          [
+            "agent's"
+          ],
+          [
+            "and"
+          ],
+          [
+            "insurance"
+          ],
+          [
+            "centre.",
+            "center"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/36.mp3",
+        "timeStart": 166.87,
+        "timeEnd": 172.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48052/list"
+      },
+      {
+        "id": 48053,
+        "position": 37,
+        "content": "We also request that there be the offices of the Student Counselling Centre,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "also",
+          "request",
+          "that",
+          "there",
+          "be",
+          "the",
+          "offices",
+          "of",
+          "the",
+          "Student",
+          [
+            "Counselling",
+            "counseling"
+          ],
+          [
+            "Centre,",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "also"
+          ],
+          [
+            "request"
+          ],
+          [
+            "that"
+          ],
+          [
+            "there"
+          ],
+          [
+            "be"
+          ],
+          [
+            "the"
+          ],
+          [
+            "offices"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Student"
+          ],
+          [
+            "Counselling",
+            "counseling"
+          ],
+          [
+            "Centre,",
+            "center"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/37.mp3",
+        "timeStart": 173.17,
+        "timeEnd": 177.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48053/list"
+      },
+      {
+        "id": 48054,
+        "position": 38,
+        "content": "moving this from the Refectory.",
+        "defaultInput": "",
+        "jsonContent": [
+          "moving",
+          "this",
+          "from",
+          "the",
+          "Refectory."
+        ],
+        "solution": [
+          [
+            "moving"
+          ],
+          [
+            "this"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Refectory."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/38.mp3",
+        "timeStart": 177.51,
+        "timeEnd": 179.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48054/list"
+      },
+      {
+        "id": 48055,
+        "position": 39,
+        "content": "There was, however, much disagreement about whether to build a drama theatre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "was,",
+          "however,",
+          "much",
+          "disagreement",
+          "about",
+          "whether",
+          "to",
+          "build",
+          "a",
+          "drama",
+          [
+            "theatre.",
+            "theater"
+          ]
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "was,"
+          ],
+          [
+            "however,"
+          ],
+          [
+            "much"
+          ],
+          [
+            "disagreement"
+          ],
+          [
+            "about"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "to"
+          ],
+          [
+            "build"
+          ],
+          [
+            "a"
+          ],
+          [
+            "drama"
+          ],
+          [
+            "theatre.",
+            "theater"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/39.mp3",
+        "timeStart": 180.19,
+        "timeEnd": 184.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48055/list"
+      },
+      {
+        "id": 48056,
+        "position": 40,
+        "content": "Just over forty per cent of the respondents were in favour,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "over",
+          [
+            "forty",
+            "40"
+          ],
+          "per",
+          "cent",
+          "of",
+          "the",
+          "respondents",
+          "were",
+          "in",
+          [
+            "favour,",
+            "favor"
+          ]
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "over"
+          ],
+          [
+            "forty",
+            "40"
+          ],
+          [
+            "per"
+          ],
+          [
+            "cent"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "respondents"
+          ],
+          [
+            "were"
+          ],
+          [
+            "in"
+          ],
+          [
+            "favour,",
+            "favor"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/40.mp3",
+        "timeStart": 184.58,
+        "timeEnd": 187.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48056/list"
+      },
+      {
+        "id": 48057,
+        "position": 41,
+        "content": "but a largish minority were strongly against it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "a",
+          "largish",
+          "minority",
+          "were",
+          "strongly",
+          "against",
+          "it,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "a"
+          ],
+          [
+            "largish"
+          ],
+          [
+            "minority"
+          ],
+          [
+            "were"
+          ],
+          [
+            "strongly"
+          ],
+          [
+            "against"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/41.mp3",
+        "timeStart": 188.16,
+        "timeEnd": 190.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48057/list"
+      },
+      {
+        "id": 48058,
+        "position": 42,
+        "content": "claiming that it is elitist and a waste of funds.",
+        "defaultInput": "",
+        "jsonContent": [
+          "claiming",
+          "that",
+          [
+            "it is",
+            "it's"
+          ],
+          "elitist",
+          "and",
+          "a",
+          "waste",
+          "of",
+          "funds."
+        ],
+        "solution": [
+          [
+            "claiming"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "elitist"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "waste"
+          ],
+          [
+            "of"
+          ],
+          [
+            "funds."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/42.mp3",
+        "timeStart": 190.91,
+        "timeEnd": 194.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48058/list"
+      },
+      {
+        "id": 48059,
+        "position": 43,
+        "content": "Essentially the jury is out on that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Essentially",
+          "the",
+          "jury",
+          "is",
+          "out",
+          "on",
+          "that."
+        ],
+        "solution": [
+          [
+            "Essentially"
+          ],
+          [
+            "the"
+          ],
+          [
+            "jury"
+          ],
+          [
+            "is"
+          ],
+          [
+            "out"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/43.mp3",
+        "timeStart": 194.2,
+        "timeEnd": 196.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48059/list"
+      },
+      {
+        "id": 48060,
+        "position": 44,
+        "content": "Finally, given the number of unfortunate incidents in the current Union over the past few months,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Finally,",
+          "given",
+          "the",
+          "number",
+          "of",
+          "unfortunate",
+          "incidents",
+          "in",
+          "the",
+          "current",
+          "Union",
+          "over",
+          "the",
+          "past",
+          "few",
+          "months,"
+        ],
+        "solution": [
+          [
+            "Finally,"
+          ],
+          [
+            "given"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "unfortunate"
+          ],
+          [
+            "incidents"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "current"
+          ],
+          [
+            "Union"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past"
+          ],
+          [
+            "few"
+          ],
+          [
+            "months,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/44.mp3",
+        "timeStart": 197.49,
+        "timeEnd": 202.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48060/list"
+      },
+      {
+        "id": 48061,
+        "position": 45,
+        "content": "a strong point was repeatedly made about security.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "strong",
+          "point",
+          "was",
+          "repeatedly",
+          "made",
+          "about",
+          "security."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "strong"
+          ],
+          [
+            "point"
+          ],
+          [
+            "was"
+          ],
+          [
+            "repeatedly"
+          ],
+          [
+            "made"
+          ],
+          [
+            "about"
+          ],
+          [
+            "security."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/45.mp3",
+        "timeStart": 202.79,
+        "timeEnd": 206.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48061/list"
+      },
+      {
+        "id": 48062,
+        "position": 46,
+        "content": "The recommendations would be at least video surveillance",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "recommendations",
+          "would",
+          "be",
+          "at",
+          "least",
+          "video",
+          "surveillance"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "recommendations"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "video"
+          ],
+          [
+            "surveillance"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/46.mp3",
+        "timeStart": 206.61,
+        "timeEnd": 210.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48062/list"
+      },
+      {
+        "id": 48063,
+        "position": 47,
+        "content": "and security personnel who would check Student Union cards on request.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "security",
+          "personnel",
+          "who",
+          "would",
+          "check",
+          "Student",
+          "Union",
+          "cards",
+          "on",
+          "request."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "security"
+          ],
+          [
+            "personnel"
+          ],
+          [
+            "who"
+          ],
+          [
+            "would"
+          ],
+          [
+            "check"
+          ],
+          [
+            "Student"
+          ],
+          [
+            "Union"
+          ],
+          [
+            "cards"
+          ],
+          [
+            "on"
+          ],
+          [
+            "request."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/47.mp3",
+        "timeStart": 210.84,
+        "timeEnd": 215.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48063/list"
+      },
+      {
+        "id": 48064,
+        "position": 48,
+        "content": "We doubt if it would be feasible to have a check at reception of all people coming in.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "doubt",
+          "if",
+          [
+            "it would",
+            "It'd"
+          ],
+          "be",
+          "feasible",
+          "to",
+          "have",
+          "a",
+          "check",
+          "at",
+          "reception",
+          "of",
+          "all",
+          "people",
+          "coming",
+          "in."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "doubt"
+          ],
+          [
+            "if"
+          ],
+          [
+            "it would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "feasible"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "check"
+          ],
+          [
+            "at"
+          ],
+          [
+            "reception"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all"
+          ],
+          [
+            "people"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "in."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/48.mp3",
+        "timeStart": 215.49,
+        "timeEnd": 219.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48064/list"
+      },
+      {
+        "id": 48065,
+        "position": 49,
+        "content": "Well, this is the summary of the views of the student population.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "this",
+          "is",
+          "the",
+          "summary",
+          "of",
+          "the",
+          "views",
+          "of",
+          "the",
+          "student",
+          "population."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "summary"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "views"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "student"
+          ],
+          [
+            "population."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/49.mp3",
+        "timeStart": 221.06,
+        "timeEnd": 225.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48065/list"
+      },
+      {
+        "id": 48066,
+        "position": 50,
+        "content": "As I say, fuller details are given in our report but",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "I",
+          "say,",
+          "fuller",
+          "details",
+          "are",
+          "given",
+          "in",
+          "our",
+          "report",
+          "but"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "I"
+          ],
+          [
+            "say,"
+          ],
+          [
+            "fuller"
+          ],
+          [
+            "details"
+          ],
+          [
+            "are"
+          ],
+          [
+            "given"
+          ],
+          [
+            "in"
+          ],
+          [
+            "our"
+          ],
+          [
+            "report"
+          ],
+          [
+            "but"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/50.mp3",
+        "timeStart": 225.83,
+        "timeEnd": 229.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48066/list"
+      },
+      {
+        "id": 48067,
+        "position": 51,
+        "content": "I'm happy to take any questions if...",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "happy",
+          "to",
+          "take",
+          "any",
+          "questions",
+          "if..."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "any"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "if..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-4-2023-08-12-20-23-27/51.mp3",
+        "timeStart": 229.21,
+        "timeEnd": 232.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48067/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "48017": {
+      "id": 2528563,
+      "text": "Chúng tôi rất biết ơn rằng Ban ủy ban đã đồng ý rằng một đại diện cho Hội sinh viên",
+      "author": "ChatGPT4.1"
+    },
+    "48018": {
+      "id": 2528564,
+      "text": "có thể trình bày các đề xuất của sinh viên về thiết kế cho tòa nhà Hội sinh viên mới được đề xuất.",
+      "author": "ChatGPT4.1"
+    },
+    "48019": {
+      "id": 2528565,
+      "text": "Chúng tôi hiểu rằng một số ý kiến của chúng tôi có thể không khả thi trong hoàn cảnh hiện tại,",
+      "author": "ChatGPT4.1"
+    },
+    "48020": {
+      "id": 2528566,
+      "text": "nhưng chúng tôi cảm thấy rằng điều quan trọng là những người thụ hưởng cuối cùng của các tiện ích này nên có tiếng nói trong thiết kế của nó.",
+      "author": "ChatGPT4.1"
+    },
+    "48021": {
+      "id": 2528567,
+      "text": "Nếu tôi có thể bắt đầu bằng cách giải thích sơ qua các bước đã được thực hiện để tìm hiểu ý kiến sinh viên",
+      "author": "ChatGPT4.1"
+    },
+    "48022": {
+      "id": 2528568,
+      "text": "và cách chúng tôi đã đi đến các kết luận.",
+      "author": "ChatGPT4.1"
+    },
+    "48023": {
+      "id": 2528569,
+      "text": "Đầu tiên, một cuộc họp đã được tổ chức tại Hội sinh viên hiện tại để Ủy ban Hội sinh viên của chúng tôi giải thích các lựa chọn.",
+      "author": "ChatGPT4.1"
+    },
+    "48024": {
+      "id": 2528570,
+      "text": "Sau đó, chúng tôi mời tất cả sinh viên gửi các đề xuất bằng văn bản cho thiết kế,",
+      "author": "ChatGPT4.1"
+    },
+    "48025": {
+      "id": 2528571,
+      "text": "bằng cách đặt phiếu vào một hộp góp ý.",
+      "author": "ChatGPT4.1"
+    },
+    "48026": {
+      "id": 2528572,
+      "text": "Những đề xuất này sau đó đã là cơ sở để thiết kế một bảng câu hỏi,",
+      "author": "ChatGPT4.1"
+    },
+    "48027": {
+      "id": 2528573,
+      "text": "được khoảng 2000 sinh viên của trường hoàn thành",
+      "author": "ChatGPT4.1"
+    },
+    "48028": {
+      "id": 2528574,
+      "text": "trong khoảng thời gian ba tuần.",
+      "author": "ChatGPT4.1"
+    },
+    "48029": {
+      "id": 2528575,
+      "text": "Cuối cùng, Ủy ban Hội sinh viên tổng hợp các kết quả và lập một báo cáo.",
+      "author": "ChatGPT4.1"
+    },
+    "48030": {
+      "id": 2528576,
+      "text": "Nếu tôi có thể phát cho mọi người một bản sao của báo cáo đó",
+      "author": "a user"
+    },
+    "48031": {
+      "id": 2528577,
+      "text": "Bài trình bày này thực chất là một bản tóm tắt và thảo luận về những điểm chính của báo cáo này.",
+      "author": "ChatGPT4.1"
+    },
+    "48032": {
+      "id": 2528578,
+      "text": "Vì vậy, về tổng thể, sự đồng thuận như sau.",
+      "author": "ChatGPT4.1"
+    },
+    "48033": {
+      "id": 2528579,
+      "text": "Đầu tiên, liên quan đến vấn đề quan trọng về địa điểm,",
+      "author": "ChatGPT4.1"
+    },
+    "48034": {
+      "id": 2528580,
+      "text": "chúng tôi đã trình bày ba lựa chọn mà các bạn đã đề xuất.",
+      "author": "ChatGPT4.1"
+    },
+    "48035": {
+      "id": 2528581,
+      "text": "Một: ở trung tâm thành phố, gần Khoa Giáo dục;",
+      "author": "ChatGPT4.1"
+    },
+    "48036": {
+      "id": 2528582,
+      "text": "hai: ở ngoại ô thành phố, gần công viên,",
+      "author": "ChatGPT4.1"
+    },
+    "48037": {
+      "id": 2528583,
+      "text": "và ba: bên ngoài thành phố, gần khu ký túc xá.",
+      "author": "ChatGPT4.1"
+    },
+    "48038": {
+      "id": 2528584,
+      "text": "Chúng tôi yêu cầu các sinh viên đưa ra lý do ủng hộ và phản đối các địa điểm này và,",
+      "author": "ChatGPT4.1"
+    },
+    "48039": {
+      "id": 2528585,
+      "text": "và có sự đồng thuận đáng kể về cả ba địa điểm.",
+      "author": "ChatGPT4.1"
+    },
+    "48040": {
+      "id": 2528586,
+      "text": "Vị trí Một không được ưa chuộng vì vấn đề giao thông và đỗ xe.",
+      "author": "ChatGPT4.1"
+    },
+    "48041": {
+      "id": 2528587,
+      "text": "Vị trí Hai có một số người ủng hộ,",
+      "author": "ChatGPT4.1"
+    },
+    "48042": {
+      "id": 2528588,
+      "text": "chủ yếu vì nó gần hầu hết các phòng học.",
+      "author": "ChatGPT4.1"
+    },
+    "48043": {
+      "id": 2528589,
+      "text": "Và vị trí Ba, ngoài thành phố, gần các khu ký túc xá,",
+      "author": "ChatGPT4.1"
+    },
+    "48044": {
+      "id": 2528590,
+      "text": "rõ ràng là được ưa thích nhất vì thuận tiện cho việc di chuyển từ nơi sinh sống.",
+      "author": "ChatGPT4.1"
+    },
+    "48045": {
+      "id": 2528591,
+      "text": "Rõ ràng Hội sinh viên chủ yếu sẽ được sử dụng sau giờ học.",
+      "author": "ChatGPT4.1"
+    },
+    "48046": {
+      "id": 2528592,
+      "text": "Ngoài ra, mọi người cũng cảm thấy rằng một địa điểm lớn hơn sẽ cho phép có thêm không gian để lựa chọn các tiện ích.",
+      "author": "ChatGPT4.1"
+    },
+    "48047": {
+      "id": 2528593,
+      "text": "Lĩnh vực quan tâm thứ hai của chúng tôi rõ ràng là các tiện ích:",
+      "author": "ChatGPT4.1"
+    },
+    "48048": {
+      "id": 2528594,
+      "text": "chỉ có rất ít sự quan tâm đến việc có một thư viện trong khuôn viên,",
+      "author": "ChatGPT4.1"
+    },
+    "48049": {
+      "id": 2528595,
+      "text": "nhưng một lựa chọn khác là phòng đọc - thực tế hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "48050": {
+      "id": 2528596,
+      "text": "Chúng tôi muốn thay thế phòng chơi game hiện tại bằng một phòng tập thể dục nhỏ.",
+      "author": "a user"
+    },
+    "48051": {
+      "id": 2528597,
+      "text": "Và, nếu có thể, một hồ bơi nhỏ - tất nhiên là không phải kích cỡ Olympic!",
+      "author": "ChatGPT4.1"
+    },
+    "48052": {
+      "id": 2528598,
+      "text": "Có rất nhiều người tham gia khảo sát ủng hộ việc có một đại lý du lịch và trung tâm bảo hiểm.",
+      "author": "ChatGPT4.1"
+    },
+    "48053": {
+      "id": 2528599,
+      "text": "Chúng tôi cũng đề nghị có văn phòng của Trung tâm Tư vấn Sinh viên,",
+      "author": "ChatGPT4.1"
+    },
+    "48054": {
+      "id": 2528600,
+      "text": "chuyển văn phòng này từ nhà ăn sang.",
+      "author": "ChatGPT4.1"
+    },
+    "48055": {
+      "id": 2528601,
+      "text": "Tuy nhiên, có rất nhiều ý kiến trái chiều về việc xây dựng một nhà hát kịch.",
+      "author": "ChatGPT4.1"
+    },
+    "48056": {
+      "id": 2528602,
+      "text": "Chỉ hơn bốn mươi phần trăm người trả lời ủng hộ,",
+      "author": "ChatGPT4.1"
+    },
+    "48057": {
+      "id": 2528603,
+      "text": "nhưng một thiểu số khá lớn lại phản đối mạnh mẽ,",
+      "author": "ChatGPT4.1"
+    },
+    "48058": {
+      "id": 2528604,
+      "text": "cho rằng nó mang tính ưu tú và lãng phí kinh phí.",
+      "author": "ChatGPT4.1"
+    },
+    "48059": {
+      "id": 2528605,
+      "text": "Về cơ bản, vẫn chưa có quyết định rõ ràng về vấn đề này.",
+      "author": "ChatGPT4.1"
+    },
+    "48060": {
+      "id": 2528606,
+      "text": "Cuối cùng, xét đến số vụ việc không may xảy ra tại Nhà sinh viên trong vài tháng qua,",
+      "author": "ChatGPT4.1"
+    },
+    "48061": {
+      "id": 2528607,
+      "text": "có nhiều ý kiến nhấn mạnh về vấn đề an ninh.",
+      "author": "ChatGPT4.1"
+    },
+    "48062": {
+      "id": 2528608,
+      "text": "Các khuyến nghị ít nhất là có hệ thống camera giám sát",
+      "author": "ChatGPT4.1"
+    },
+    "48063": {
+      "id": 2528609,
+      "text": "và nhân viên an ninh sẽ kiểm tra thẻ hội viên Nhà sinh viên khi được yêu cầu.",
+      "author": "ChatGPT4.1"
+    },
+    "48064": {
+      "id": 2528610,
+      "text": "Chúng tôi nghi ngờ liệu việc kiểm tra tất cả mọi người ở lễ tân có khả thi hay không.",
+      "author": "ChatGPT4.1"
+    },
+    "48065": {
+      "id": 2528611,
+      "text": "Vâng, đây là bản tóm tắt ý kiến của toàn bộ sinh viên.",
+      "author": "ChatGPT4.1"
+    },
+    "48066": {
+      "id": 2528612,
+      "text": "Như tôi đã nói, chi tiết đầy đủ được nêu trong báo cáo của chúng tôi nhưng",
+      "author": "ChatGPT4.1"
+    },
+    "48067": {
+      "id": 2528613,
+      "text": "Tôi sẵn sàng trả lời bất kỳ câu hỏi nào nếu...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

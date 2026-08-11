@@ -1,0 +1,942 @@
+{
+  "summary": {
+    "id": 1126,
+    "name": "Conversation 48",
+    "subTitle": "Office Phone Line Issue",
+    "levelName": "B1",
+    "position": 160,
+    "totalChallenges": 15,
+    "groupId": 35,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1126",
+  "detail": {
+    "id": 1126,
+    "lessonName": "Conversation 48",
+    "name": "Conversation 48",
+    "position": 160,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/0-conversation-48.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53883,
+        "position": 1,
+        "content": "How are you, Ronnie?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "are",
+          "you,",
+          "Ronnie?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you,"
+          ],
+          [
+            "Ronnie?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/1.mp3",
+        "timeStart": 0.23,
+        "timeEnd": 1.46,
+        "hints": [
+          "Ronnie"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53883/list"
+      },
+      {
+        "id": 53884,
+        "position": 2,
+        "content": "It's Molly, I'm calling from my cell phone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "Molly,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "from",
+          "my",
+          "cell",
+          "phone."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "Molly,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "from"
+          ],
+          [
+            "my"
+          ],
+          [
+            "cell"
+          ],
+          [
+            "phone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/2.mp3",
+        "timeStart": 1.46,
+        "timeEnd": 4.35,
+        "hints": [
+          "Molly"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53884/list"
+      },
+      {
+        "id": 53885,
+        "position": 3,
+        "content": "I just got back from lunch and my company phone won't work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "got",
+          "back",
+          "from",
+          "lunch",
+          "and",
+          "my",
+          [
+            "company",
+            "Co"
+          ],
+          "phone",
+          "won't",
+          "work."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "got"
+          ],
+          [
+            "back"
+          ],
+          [
+            "from"
+          ],
+          [
+            "lunch"
+          ],
+          [
+            "and"
+          ],
+          [
+            "my"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/3.mp3",
+        "timeStart": 4.35,
+        "timeEnd": 7.99,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/53885/list"
+      },
+      {
+        "id": 53886,
+        "position": 4,
+        "content": "I am sure it is connected because I hear a dial-tone,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "sure",
+          [
+            "it is",
+            "it's"
+          ],
+          "connected",
+          "because",
+          "I",
+          "hear",
+          "a",
+          [
+            "dial-tone,",
+            "dial tone,"
+          ]
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "connected"
+          ],
+          [
+            "because"
+          ],
+          [
+            "I"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dial-tone,",
+            "dial tone,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/4.mp3",
+        "timeStart": 8.13,
+        "timeEnd": 11.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53886/list"
+      },
+      {
+        "id": 53887,
+        "position": 5,
+        "content": "but I can't make any calls out.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "can't",
+          "make",
+          "any",
+          "calls",
+          "out."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "make"
+          ],
+          [
+            "any"
+          ],
+          [
+            "calls"
+          ],
+          [
+            "out."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/5.mp3",
+        "timeStart": 11.67,
+        "timeEnd": 13.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53887/list"
+      },
+      {
+        "id": 53888,
+        "position": 6,
+        "content": "Are you sure all the wires are pushed into the back of the console?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "sure",
+          "all",
+          "the",
+          "wires",
+          "are",
+          "pushed",
+          "into",
+          "the",
+          "back",
+          "of",
+          "the",
+          "console?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wires"
+          ],
+          [
+            "are"
+          ],
+          [
+            "pushed"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "back"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "console?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/6.mp3",
+        "timeStart": 13.74,
+        "timeEnd": 17.79,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53888/list"
+      },
+      {
+        "id": 53889,
+        "position": 7,
+        "content": "Yes, I double checked before I called you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "double",
+          "checked",
+          "before",
+          "I",
+          "called",
+          "you."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "double"
+          ],
+          [
+            "checked"
+          ],
+          [
+            "before"
+          ],
+          [
+            "I"
+          ],
+          [
+            "called"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/7.mp3",
+        "timeStart": 17.79,
+        "timeEnd": 20.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53889/list"
+      },
+      {
+        "id": 53890,
+        "position": 8,
+        "content": "Okay. Is the screen on the phone working?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ],
+          "Is",
+          "the",
+          "screen",
+          "on",
+          "the",
+          "phone",
+          "working?"
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ],
+          [
+            "Is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "screen"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "working?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/8.mp3",
+        "timeStart": 20.61,
+        "timeEnd": 24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53890/list"
+      },
+      {
+        "id": 53891,
+        "position": 9,
+        "content": "There should be a green light that comes on when you pick up the phone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "should",
+          "be",
+          "a",
+          "green",
+          "light",
+          "that",
+          "comes",
+          "on",
+          "when",
+          "you",
+          "pick",
+          "up",
+          "the",
+          "phone."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "green"
+          ],
+          [
+            "light"
+          ],
+          [
+            "that"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "on"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/9.mp3",
+        "timeStart": 24,
+        "timeEnd": 27.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53891/list"
+      },
+      {
+        "id": 53892,
+        "position": 10,
+        "content": "Hmm.. No, actually when I pick up the phone a red light comes on.",
+        "defaultInput": "Hmm.. ",
+        "jsonContent": [
+          "Hmm..",
+          "No,",
+          "actually",
+          "when",
+          "I",
+          "pick",
+          "up",
+          "the",
+          "phone",
+          "a",
+          "red",
+          "light",
+          "comes",
+          "on."
+        ],
+        "solution": [
+          [
+            "Hmm.."
+          ],
+          [
+            "No,"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "a"
+          ],
+          [
+            "red"
+          ],
+          [
+            "light"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/10.mp3",
+        "timeStart": 27.92,
+        "timeEnd": 32.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53892/list"
+      },
+      {
+        "id": 53893,
+        "position": 11,
+        "content": "Ah, okay!",
+        "defaultInput": "Ah, okay!",
+        "jsonContent": [
+          "Ah,",
+          [
+            "okay!",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "okay!",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/11.mp3",
+        "timeStart": 33.13,
+        "timeEnd": 34.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53893/list"
+      },
+      {
+        "id": 53894,
+        "position": 12,
+        "content": "That actually means there is a problem with the phone line.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "actually",
+          "means",
+          [
+            "there is",
+            "there's"
+          ],
+          "a",
+          "problem",
+          "with",
+          "the",
+          "phone",
+          "line."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "means"
+          ],
+          [
+            "there is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "line."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/12.mp3",
+        "timeStart": 34.75,
+        "timeEnd": 38.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53894/list"
+      },
+      {
+        "id": 53895,
+        "position": 13,
+        "content": "This happened once last year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "happened",
+          "once",
+          "last",
+          "year."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "happened"
+          ],
+          [
+            "once"
+          ],
+          [
+            "last"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/13.mp3",
+        "timeStart": 38.14,
+        "timeEnd": 40.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53895/list"
+      },
+      {
+        "id": 53896,
+        "position": 14,
+        "content": "Stay put, and I am going to come to check it out.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Stay",
+          "put,",
+          "and",
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "come",
+          "to",
+          "check",
+          "it",
+          "out."
+        ],
+        "solution": [
+          [
+            "Stay"
+          ],
+          [
+            "put,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "come"
+          ],
+          [
+            "to"
+          ],
+          [
+            "check"
+          ],
+          [
+            "it"
+          ],
+          [
+            "out."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/14.mp3",
+        "timeStart": 40.9,
+        "timeEnd": 44.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53896/list"
+      },
+      {
+        "id": 53897,
+        "position": 15,
+        "content": "I'm on my way to the first floor right now.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "on",
+          "my",
+          "way",
+          "to",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "floor",
+          "right",
+          "now."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "floor"
+          ],
+          [
+            "right"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-48-2023-09-15-20-39-34/15.mp3",
+        "timeStart": 44.55,
+        "timeEnd": 47.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53897/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "53884": {
+      "id": 896082,
+      "text": "Molly đây, tôi đang gọi từ điện thoại di động của mình.",
+      "author": "a user"
+    },
+    "53888": {
+      "id": 896089,
+      "text": "Bạn có chắc chắn tất cả các dây điện đã được cắm vào phía sau bảng điều khiển không?",
+      "author": "a user"
+    },
+    "53892": {
+      "id": 896094,
+      "text": "Hmm.. Không, thực ra khi tôi nhấc điện thoại lên, có một đèn đỏ sáng lên.",
+      "author": "a user"
+    },
+    "53896": {
+      "id": 896103,
+      "text": "Bạn cứ ở yên đó, tôi sẽ tới kiểm tra ngay.",
+      "author": "a user"
+    },
+    "53883": {
+      "id": 2593102,
+      "text": "Bạn khỏe không, Ronnie?",
+      "author": "ChatGPT4.1"
+    },
+    "53885": {
+      "id": 2593103,
+      "text": "Tôi vừa mới ăn trưa xong và điện thoại công ty của tôi không hoạt động.",
+      "author": "ChatGPT4.1"
+    },
+    "53886": {
+      "id": 2593104,
+      "text": "Tôi chắc chắn nó đã được kết nối vì tôi nghe thấy âm báo.",
+      "author": "ChatGPT4.1"
+    },
+    "53887": {
+      "id": 2593105,
+      "text": "nhưng tôi không thể gọi ra ngoài được.",
+      "author": "ChatGPT4.1"
+    },
+    "53889": {
+      "id": 2593106,
+      "text": "Vâng, tôi đã kiểm tra kỹ trước khi gọi cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "53890": {
+      "id": 2593107,
+      "text": "Được rồi. Màn hình trên điện thoại có hoạt động không?",
+      "author": "ChatGPT4.1"
+    },
+    "53891": {
+      "id": 2593108,
+      "text": "Sẽ có một đèn xanh bật lên khi bạn nhấc điện thoại lên.",
+      "author": "ChatGPT4.1"
+    },
+    "53893": {
+      "id": 2593109,
+      "text": "À, được rồi!",
+      "author": "ChatGPT4.1"
+    },
+    "53894": {
+      "id": 2593110,
+      "text": "Điều đó thực ra có nghĩa là có vấn đề với đường dây điện thoại.",
+      "author": "ChatGPT4.1"
+    },
+    "53895": {
+      "id": 2593111,
+      "text": "Chuyện này đã xảy ra một lần vào năm ngoái.",
+      "author": "ChatGPT4.1"
+    },
+    "53897": {
+      "id": 2593112,
+      "text": "Tôi đang lên đường xuống tầng một ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

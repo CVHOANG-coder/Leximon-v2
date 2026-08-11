@@ -1,0 +1,3356 @@
+{
+  "summary": {
+    "id": 2167,
+    "name": "How It's Made: Donuts",
+    "subTitle": "",
+    "levelName": "C1",
+    "position": 103,
+    "totalChallenges": 47,
+    "groupId": 84,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2167",
+  "detail": {
+    "id": 2167,
+    "lessonName": "How It's Made: Donuts",
+    "name": "How It's Made: Donuts",
+    "position": 103,
+    "levelName": "C1",
+    "audioSrc": "",
+    "youtubeVideoId": "DePRyZE5sn4",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 85703,
+        "position": 1,
+        "content": "Donuts used to be called oily cakes because they were deep-fried in pork fat. Nice!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Donuts",
+            "doughnuts"
+          ],
+          "used",
+          "to",
+          "be",
+          "called",
+          "oily",
+          "cakes",
+          "because",
+          "they",
+          "were",
+          [
+            "deep-fried",
+            "deep fried"
+          ],
+          "in",
+          "pork",
+          "fat.",
+          "Nice!"
+        ],
+        "solution": [
+          [
+            "Donuts",
+            "doughnuts"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "called"
+          ],
+          [
+            "oily"
+          ],
+          [
+            "cakes"
+          ],
+          [
+            "because"
+          ],
+          [
+            "they"
+          ],
+          [
+            "were"
+          ],
+          [
+            "deep-fried",
+            "deep fried"
+          ],
+          [
+            "in"
+          ],
+          [
+            "pork"
+          ],
+          [
+            "fat."
+          ],
+          [
+            "Nice!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 0,
+        "timeEnd": 5.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85703/list"
+      },
+      {
+        "id": 85704,
+        "position": 2,
+        "content": "They were ball-shaped when Dutch pilgrims brought them to America.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "were",
+          [
+            "ball-shaped",
+            "ball shaped"
+          ],
+          "when",
+          "Dutch",
+          "pilgrims",
+          "brought",
+          "them",
+          "to",
+          "America."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "were"
+          ],
+          [
+            "ball-shaped",
+            "ball shaped"
+          ],
+          [
+            "when"
+          ],
+          [
+            "Dutch"
+          ],
+          [
+            "pilgrims"
+          ],
+          [
+            "brought"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "America."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 5.69,
+        "timeEnd": 9.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85704/list"
+      },
+      {
+        "id": 85705,
+        "position": 3,
+        "content": "But then someone found that removing a nut of the dough in the centre helped them cook far more evenly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "then",
+          "someone",
+          "found",
+          "that",
+          "removing",
+          "a",
+          "nut",
+          "of",
+          "the",
+          "dough",
+          "in",
+          "the",
+          [
+            "centre",
+            "center"
+          ],
+          "helped",
+          "them",
+          "cook",
+          "far",
+          "more",
+          "evenly."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "then"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "found"
+          ],
+          [
+            "that"
+          ],
+          [
+            "removing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "nut"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "centre",
+            "center"
+          ],
+          [
+            "helped"
+          ],
+          [
+            "them"
+          ],
+          [
+            "cook"
+          ],
+          [
+            "far"
+          ],
+          [
+            "more"
+          ],
+          [
+            "evenly."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 9.11,
+        "timeEnd": 14.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85705/list"
+      },
+      {
+        "id": 85706,
+        "position": 4,
+        "content": "And so, the doughnut was born.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "so,",
+          "the",
+          [
+            "doughnut",
+            "donut"
+          ],
+          "was",
+          "born."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "so,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doughnut",
+            "donut"
+          ],
+          [
+            "was"
+          ],
+          [
+            "born."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 14.87,
+        "timeEnd": 17.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85706/list"
+      },
+      {
+        "id": 85707,
+        "position": 5,
+        "content": "Thank goodness for that!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "goodness",
+          "for",
+          "that!"
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "goodness"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 17.76,
+        "timeEnd": 19.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85707/list"
+      },
+      {
+        "id": 85708,
+        "position": 6,
+        "content": "In the world of doughnuts, there are two basic types, yeast doughnuts and cake doughnuts.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "the",
+          "world",
+          "of",
+          [
+            "doughnuts,",
+            "donuts"
+          ],
+          "there",
+          "are",
+          [
+            "two",
+            "2"
+          ],
+          "basic",
+          "types,",
+          "yeast",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "and",
+          "cake",
+          [
+            "doughnuts.",
+            "donuts"
+          ]
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "of"
+          ],
+          [
+            "doughnuts,",
+            "donuts"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "types,"
+          ],
+          [
+            "yeast"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "and"
+          ],
+          [
+            "cake"
+          ],
+          [
+            "doughnuts.",
+            "donuts"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 24.35,
+        "timeEnd": 30.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85708/list"
+      },
+      {
+        "id": 85709,
+        "position": 7,
+        "content": "The batter for cake doughnuts drops from the mixer right into boiling vegetable oil.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "batter",
+          "for",
+          "cake",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "drops",
+          "from",
+          "the",
+          "mixer",
+          "right",
+          "into",
+          "boiling",
+          "vegetable",
+          "oil."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "batter"
+          ],
+          [
+            "for"
+          ],
+          [
+            "cake"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "drops"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "mixer"
+          ],
+          [
+            "right"
+          ],
+          [
+            "into"
+          ],
+          [
+            "boiling"
+          ],
+          [
+            "vegetable"
+          ],
+          [
+            "oil."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 33.38,
+        "timeEnd": 38.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85709/list"
+      },
+      {
+        "id": 85710,
+        "position": 8,
+        "content": "The nozzles shape the dough as it passes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "nozzles",
+          "shape",
+          "the",
+          "dough",
+          "as",
+          "it",
+          "passes."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "nozzles"
+          ],
+          [
+            "shape"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "as"
+          ],
+          [
+            "it"
+          ],
+          [
+            "passes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 38.84,
+        "timeEnd": 41.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85710/list"
+      },
+      {
+        "id": 85711,
+        "position": 9,
+        "content": "The doughnuts fry for about a minute and a half,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "fry",
+          "for",
+          "about",
+          "a",
+          "minute",
+          "and",
+          "a",
+          "half,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "fry"
+          ],
+          [
+            "for"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "minute"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "half,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 41.91,
+        "timeEnd": 44.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85711/list"
+      },
+      {
+        "id": 85712,
+        "position": 10,
+        "content": "then a conveyor carries them out of the vat to cool.",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          "a",
+          "conveyor",
+          "carries",
+          "them",
+          "out",
+          "of",
+          "the",
+          "vat",
+          "to",
+          "cool."
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "a"
+          ],
+          [
+            "conveyor"
+          ],
+          [
+            "carries"
+          ],
+          [
+            "them"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "vat"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cool."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.57,
+        "timeEnd": 48.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85712/list"
+      },
+      {
+        "id": 85713,
+        "position": 11,
+        "content": "Yeast doughnuts require more time to make.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeast",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "require",
+          "more",
+          "time",
+          "to",
+          "make."
+        ],
+        "solution": [
+          [
+            "Yeast"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "require"
+          ],
+          [
+            "more"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 50.31,
+        "timeEnd": 53.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85713/list"
+      },
+      {
+        "id": 85714,
+        "position": 12,
+        "content": "A high-speed mixer works the yeast dough,",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          [
+            "high-speed",
+            "high speed"
+          ],
+          "mixer",
+          "works",
+          "the",
+          "yeast",
+          "dough,"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "high-speed",
+            "high speed"
+          ],
+          [
+            "mixer"
+          ],
+          [
+            "works"
+          ],
+          [
+            "the"
+          ],
+          [
+            "yeast"
+          ],
+          [
+            "dough,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 53.35,
+        "timeEnd": 56.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85714/list"
+      },
+      {
+        "id": 85715,
+        "position": 13,
+        "content": "then workers pull it off the machine into bins.",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          "workers",
+          "pull",
+          "it",
+          "off",
+          "the",
+          "machine",
+          "into",
+          "bins."
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "workers"
+          ],
+          [
+            "pull"
+          ],
+          [
+            "it"
+          ],
+          [
+            "off"
+          ],
+          [
+            "the"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "into"
+          ],
+          [
+            "bins."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 56.02,
+        "timeEnd": 59.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85715/list"
+      },
+      {
+        "id": 85716,
+        "position": 14,
+        "content": "From there, it goes into a hopper that extrudes the dough as a sheet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "From",
+          "there,",
+          "it",
+          "goes",
+          "into",
+          "a",
+          "hopper",
+          "that",
+          "extrudes",
+          "the",
+          "dough",
+          "as",
+          "a",
+          "sheet."
+        ],
+        "solution": [
+          [
+            "From"
+          ],
+          [
+            "there,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hopper"
+          ],
+          [
+            "that"
+          ],
+          [
+            "extrudes"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sheet."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 65.45,
+        "timeEnd": 71.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85716/list"
+      },
+      {
+        "id": 85717,
+        "position": 15,
+        "content": "Then it's on to another conveyor belt,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "it's",
+          "on",
+          "to",
+          "another",
+          "conveyor",
+          "belt,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "on"
+          ],
+          [
+            "to"
+          ],
+          [
+            "another"
+          ],
+          [
+            "conveyor"
+          ],
+          [
+            "belt,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 74.32,
+        "timeEnd": 76.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85717/list"
+      },
+      {
+        "id": 85718,
+        "position": 16,
+        "content": "where a series of rollers flatten the dough sheet to just two centimetres thick.",
+        "defaultInput": "",
+        "jsonContent": [
+          "where",
+          "a",
+          "series",
+          "of",
+          "rollers",
+          "flatten",
+          "the",
+          "dough",
+          "sheet",
+          "to",
+          "just",
+          [
+            "two",
+            "2"
+          ],
+          [
+            "centimetres",
+            "centimeters"
+          ],
+          "thick."
+        ],
+        "solution": [
+          [
+            "where"
+          ],
+          [
+            "a"
+          ],
+          [
+            "series"
+          ],
+          [
+            "of"
+          ],
+          [
+            "rollers"
+          ],
+          [
+            "flatten"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "sheet"
+          ],
+          [
+            "to"
+          ],
+          [
+            "just"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "centimetres",
+            "centimeters"
+          ],
+          [
+            "thick."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 76.71,
+        "timeEnd": 81.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85718/list"
+      },
+      {
+        "id": 85719,
+        "position": 17,
+        "content": "Next, the sheet passes under a shower of cinnamon,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Next,",
+          "the",
+          "sheet",
+          "passes",
+          "under",
+          "a",
+          "shower",
+          "of",
+          "cinnamon,"
+        ],
+        "solution": [
+          [
+            "Next,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sheet"
+          ],
+          [
+            "passes"
+          ],
+          [
+            "under"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shower"
+          ],
+          [
+            "of"
+          ],
+          [
+            "cinnamon,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 94.73,
+        "timeEnd": 99.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85719/list"
+      },
+      {
+        "id": 85720,
+        "position": 18,
+        "content": "then hits a rotating cylinder that rolls it into a log.",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          "hits",
+          "a",
+          "rotating",
+          "cylinder",
+          "that",
+          "rolls",
+          "it",
+          "into",
+          "a",
+          "log."
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "hits"
+          ],
+          [
+            "a"
+          ],
+          [
+            "rotating"
+          ],
+          [
+            "cylinder"
+          ],
+          [
+            "that"
+          ],
+          [
+            "rolls"
+          ],
+          [
+            "it"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "log."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 99.21,
+        "timeEnd": 103.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85720/list"
+      },
+      {
+        "id": 85721,
+        "position": 19,
+        "content": "A small metal rod sprinkles the dough with water.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "small",
+          "metal",
+          "rod",
+          "sprinkles",
+          "the",
+          "dough",
+          "with",
+          "water."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "small"
+          ],
+          [
+            "metal"
+          ],
+          [
+            "rod"
+          ],
+          [
+            "sprinkles"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "with"
+          ],
+          [
+            "water."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 104.43,
+        "timeEnd": 107.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85721/list"
+      },
+      {
+        "id": 85722,
+        "position": 20,
+        "content": "This keeps it sticky so it holds its shape while going under another flattening roller.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "keeps",
+          "it",
+          "sticky",
+          "so",
+          "it",
+          "holds",
+          "its",
+          "shape",
+          "while",
+          "going",
+          "under",
+          "another",
+          "flattening",
+          "roller."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "keeps"
+          ],
+          [
+            "it"
+          ],
+          [
+            "sticky"
+          ],
+          [
+            "so"
+          ],
+          [
+            "it"
+          ],
+          [
+            "holds"
+          ],
+          [
+            "its"
+          ],
+          [
+            "shape"
+          ],
+          [
+            "while"
+          ],
+          [
+            "going"
+          ],
+          [
+            "under"
+          ],
+          [
+            "another"
+          ],
+          [
+            "flattening"
+          ],
+          [
+            "roller."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 107.93,
+        "timeEnd": 113.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85722/list"
+      },
+      {
+        "id": 85723,
+        "position": 21,
+        "content": "A dusting of cornstarch keeps the dough from sticking to the blade that now cuts it into pieces.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "dusting",
+          "of",
+          "cornstarch",
+          "keeps",
+          "the",
+          "dough",
+          "from",
+          "sticking",
+          "to",
+          "the",
+          "blade",
+          "that",
+          "now",
+          "cuts",
+          "it",
+          "into",
+          "pieces."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "dusting"
+          ],
+          [
+            "of"
+          ],
+          [
+            "cornstarch"
+          ],
+          [
+            "keeps"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "from"
+          ],
+          [
+            "sticking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "blade"
+          ],
+          [
+            "that"
+          ],
+          [
+            "now"
+          ],
+          [
+            "cuts"
+          ],
+          [
+            "it"
+          ],
+          [
+            "into"
+          ],
+          [
+            "pieces."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 119.58,
+        "timeEnd": 125.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85723/list"
+      },
+      {
+        "id": 85724,
+        "position": 22,
+        "content": "A retractable arm drops the blocks of dough, four at a time, onto a wire mesh tray.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "retractable",
+          "arm",
+          "drops",
+          "the",
+          "blocks",
+          "of",
+          "dough,",
+          [
+            "four",
+            "4"
+          ],
+          "at",
+          "a",
+          "time,",
+          "onto",
+          "a",
+          "wire",
+          "mesh",
+          "tray."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "retractable"
+          ],
+          [
+            "arm"
+          ],
+          [
+            "drops"
+          ],
+          [
+            "the"
+          ],
+          [
+            "blocks"
+          ],
+          [
+            "of"
+          ],
+          [
+            "dough,"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "onto"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wire"
+          ],
+          [
+            "mesh"
+          ],
+          [
+            "tray."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 131.7,
+        "timeEnd": 138.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85724/list"
+      },
+      {
+        "id": 85725,
+        "position": 23,
+        "content": "Then it's off to the proofer, a machine much like a large bread box,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "it's",
+          "off",
+          "to",
+          "the",
+          "proofer,",
+          "a",
+          "machine",
+          "much",
+          "like",
+          "a",
+          "large",
+          "bread",
+          "box,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "off"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "proofer,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "much"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "large"
+          ],
+          [
+            "bread"
+          ],
+          [
+            "box,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 140.08,
+        "timeEnd": 144.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85725/list"
+      },
+      {
+        "id": 85726,
+        "position": 24,
+        "content": "in which heat and humidity make the yeast dough rise.",
+        "defaultInput": "",
+        "jsonContent": [
+          "in",
+          "which",
+          "heat",
+          "and",
+          "humidity",
+          "make",
+          "the",
+          "yeast",
+          "dough",
+          "rise."
+        ],
+        "solution": [
+          [
+            "in"
+          ],
+          [
+            "which"
+          ],
+          [
+            "heat"
+          ],
+          [
+            "and"
+          ],
+          [
+            "humidity"
+          ],
+          [
+            "make"
+          ],
+          [
+            "the"
+          ],
+          [
+            "yeast"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "rise."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 144.46,
+        "timeEnd": 148.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85726/list"
+      },
+      {
+        "id": 85727,
+        "position": 25,
+        "content": "This leavening process takes about 20 minutes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "leavening",
+          "process",
+          "takes",
+          "about",
+          [
+            "20",
+            "twenty"
+          ],
+          "minutes,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "leavening"
+          ],
+          [
+            "process"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "about"
+          ],
+          [
+            "20",
+            "twenty"
+          ],
+          [
+            "minutes,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 148.36,
+        "timeEnd": 151.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85727/list"
+      },
+      {
+        "id": 85728,
+        "position": 26,
+        "content": "during which time the trays, over 300 of them, go up and down, and then out to the fryer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "during",
+          "which",
+          "time",
+          "the",
+          "trays,",
+          "over",
+          [
+            "300",
+            "three hundred"
+          ],
+          "of",
+          "them,",
+          "go",
+          "up",
+          "and",
+          "down,",
+          "and",
+          "then",
+          "out",
+          "to",
+          "the",
+          "fryer."
+        ],
+        "solution": [
+          [
+            "during"
+          ],
+          [
+            "which"
+          ],
+          [
+            "time"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trays,"
+          ],
+          [
+            "over"
+          ],
+          [
+            "300",
+            "three hundred"
+          ],
+          [
+            "of"
+          ],
+          [
+            "them,"
+          ],
+          [
+            "go"
+          ],
+          [
+            "up"
+          ],
+          [
+            "and"
+          ],
+          [
+            "down,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "out"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fryer."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 151.23,
+        "timeEnd": 157.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85728/list"
+      },
+      {
+        "id": 85729,
+        "position": 27,
+        "content": "A gate slows them down just before the drop, so they slide in without splashing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "gate",
+          "slows",
+          "them",
+          "down",
+          "just",
+          "before",
+          "the",
+          "drop,",
+          "so",
+          "they",
+          "slide",
+          "in",
+          "without",
+          "splashing."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "gate"
+          ],
+          [
+            "slows"
+          ],
+          [
+            "them"
+          ],
+          [
+            "down"
+          ],
+          [
+            "just"
+          ],
+          [
+            "before"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drop,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "they"
+          ],
+          [
+            "slide"
+          ],
+          [
+            "in"
+          ],
+          [
+            "without"
+          ],
+          [
+            "splashing."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 160.76,
+        "timeEnd": 166.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85729/list"
+      },
+      {
+        "id": 85730,
+        "position": 28,
+        "content": "Gas burners keep the oil at a constant temperature.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Gas",
+          "burners",
+          "keep",
+          "the",
+          "oil",
+          "at",
+          "a",
+          "constant",
+          "temperature."
+        ],
+        "solution": [
+          [
+            "Gas"
+          ],
+          [
+            "burners"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "the"
+          ],
+          [
+            "oil"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "constant"
+          ],
+          [
+            "temperature."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 166.86,
+        "timeEnd": 170.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85730/list"
+      },
+      {
+        "id": 85731,
+        "position": 29,
+        "content": "Anything less and the doughnuts would come out partly raw.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anything",
+          "less",
+          "and",
+          "the",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "would",
+          "come",
+          "out",
+          "partly",
+          "raw."
+        ],
+        "solution": [
+          [
+            "Anything"
+          ],
+          [
+            "less"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "would"
+          ],
+          [
+            "come"
+          ],
+          [
+            "out"
+          ],
+          [
+            "partly"
+          ],
+          [
+            "raw."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 170.55,
+        "timeEnd": 174.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85731/list"
+      },
+      {
+        "id": 85732,
+        "position": 30,
+        "content": "Halfway through, it's time to flip the doughnuts so they cook evenly throughout.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Halfway",
+          "through,",
+          "it's",
+          "time",
+          "to",
+          "flip",
+          "the",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "so",
+          "they",
+          "cook",
+          "evenly",
+          "throughout."
+        ],
+        "solution": [
+          [
+            "Halfway"
+          ],
+          [
+            "through,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "flip"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "so"
+          ],
+          [
+            "they"
+          ],
+          [
+            "cook"
+          ],
+          [
+            "evenly"
+          ],
+          [
+            "throughout."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 174.11,
+        "timeEnd": 178.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85732/list"
+      },
+      {
+        "id": 85733,
+        "position": 31,
+        "content": "After two minutes, the doughnuts leave the fryer and move through a curtain of sweet glaze.",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          [
+            "two",
+            "2"
+          ],
+          "minutes,",
+          "the",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "leave",
+          "the",
+          "fryer",
+          "and",
+          "move",
+          "through",
+          "a",
+          "curtain",
+          "of",
+          "sweet",
+          "glaze."
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "minutes,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fryer"
+          ],
+          [
+            "and"
+          ],
+          [
+            "move"
+          ],
+          [
+            "through"
+          ],
+          [
+            "a"
+          ],
+          [
+            "curtain"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sweet"
+          ],
+          [
+            "glaze."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 182.07,
+        "timeEnd": 188.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85733/list"
+      },
+      {
+        "id": 85734,
+        "position": 32,
+        "content": "A strong air current blows off the excess and they're done.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "strong",
+          "air",
+          "current",
+          "blows",
+          "off",
+          "the",
+          "excess",
+          "and",
+          [
+            "they're",
+            "they are"
+          ],
+          "done."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "strong"
+          ],
+          [
+            "air"
+          ],
+          [
+            "current"
+          ],
+          [
+            "blows"
+          ],
+          [
+            "off"
+          ],
+          [
+            "the"
+          ],
+          [
+            "excess"
+          ],
+          [
+            "and"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "done."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 190.89,
+        "timeEnd": 196.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85734/list"
+      },
+      {
+        "id": 85735,
+        "position": 33,
+        "content": "They gradually cool as they spiral through the production area on their way to packaging.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "gradually",
+          "cool",
+          "as",
+          "they",
+          "spiral",
+          "through",
+          "the",
+          "production",
+          "area",
+          "on",
+          "their",
+          "way",
+          "to",
+          "packaging."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "gradually"
+          ],
+          [
+            "cool"
+          ],
+          [
+            "as"
+          ],
+          [
+            "they"
+          ],
+          [
+            "spiral"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "production"
+          ],
+          [
+            "area"
+          ],
+          [
+            "on"
+          ],
+          [
+            "their"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "packaging."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 197.19,
+        "timeEnd": 203.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85735/list"
+      },
+      {
+        "id": 85736,
+        "position": 34,
+        "content": "Now let's see how they make donuts with filling.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "let's",
+          "see",
+          "how",
+          "they",
+          "make",
+          [
+            "donuts",
+            "doughnuts"
+          ],
+          "with",
+          "filling."
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "see"
+          ],
+          [
+            "how"
+          ],
+          [
+            "they"
+          ],
+          [
+            "make"
+          ],
+          [
+            "donuts",
+            "doughnuts"
+          ],
+          [
+            "with"
+          ],
+          [
+            "filling."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 206.85,
+        "timeEnd": 210.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85736/list"
+      },
+      {
+        "id": 85737,
+        "position": 35,
+        "content": "A machine separates the yeast dough into little blobs",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "machine",
+          "separates",
+          "the",
+          "yeast",
+          "dough",
+          "into",
+          "little",
+          "blobs"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "separates"
+          ],
+          [
+            "the"
+          ],
+          [
+            "yeast"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "into"
+          ],
+          [
+            "little"
+          ],
+          [
+            "blobs"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 211.54,
+        "timeEnd": 214.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85737/list"
+      },
+      {
+        "id": 85738,
+        "position": 36,
+        "content": "then sends them rolling down plastic tunnels.",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          "sends",
+          "them",
+          "rolling",
+          "down",
+          "plastic",
+          "tunnels."
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "sends"
+          ],
+          [
+            "them"
+          ],
+          [
+            "rolling"
+          ],
+          [
+            "down"
+          ],
+          [
+            "plastic"
+          ],
+          [
+            "tunnels."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 214.97,
+        "timeEnd": 219.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85738/list"
+      },
+      {
+        "id": 85739,
+        "position": 37,
+        "content": "This shapes them first into little pugs, then into rounded dough balls.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "shapes",
+          "them",
+          [
+            "first",
+            "1st"
+          ],
+          "into",
+          "little",
+          "pugs,",
+          "then",
+          "into",
+          "rounded",
+          "dough",
+          "balls."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "shapes"
+          ],
+          [
+            "them"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "into"
+          ],
+          [
+            "little"
+          ],
+          [
+            "pugs,"
+          ],
+          [
+            "then"
+          ],
+          [
+            "into"
+          ],
+          [
+            "rounded"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "balls."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 220.37,
+        "timeEnd": 226.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85739/list"
+      },
+      {
+        "id": 85740,
+        "position": 38,
+        "content": "Rollers flatten the balls before they enter the proofer to rise.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rollers",
+          "flatten",
+          "the",
+          "balls",
+          "before",
+          "they",
+          "enter",
+          "the",
+          "proofer",
+          "to",
+          "rise."
+        ],
+        "solution": [
+          [
+            "Rollers"
+          ],
+          [
+            "flatten"
+          ],
+          [
+            "the"
+          ],
+          [
+            "balls"
+          ],
+          [
+            "before"
+          ],
+          [
+            "they"
+          ],
+          [
+            "enter"
+          ],
+          [
+            "the"
+          ],
+          [
+            "proofer"
+          ],
+          [
+            "to"
+          ],
+          [
+            "rise."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 232.11,
+        "timeEnd": 236.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85740/list"
+      },
+      {
+        "id": 85741,
+        "position": 39,
+        "content": "There's cornstarch everywhere to prevent the dough from sticking to the machinery or to the conveyor belt.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "cornstarch",
+          "everywhere",
+          "to",
+          "prevent",
+          "the",
+          "dough",
+          "from",
+          "sticking",
+          "to",
+          "the",
+          "machinery",
+          "or",
+          "to",
+          "the",
+          "conveyor",
+          "belt."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "cornstarch"
+          ],
+          [
+            "everywhere"
+          ],
+          [
+            "to"
+          ],
+          [
+            "prevent"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dough"
+          ],
+          [
+            "from"
+          ],
+          [
+            "sticking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "machinery"
+          ],
+          [
+            "or"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "conveyor"
+          ],
+          [
+            "belt."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 236.69,
+        "timeEnd": 242.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85741/list"
+      },
+      {
+        "id": 85742,
+        "position": 40,
+        "content": "Row after row of doughnuts fry in hot oil.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Row",
+          "after",
+          "row",
+          "of",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "fry",
+          "in",
+          "hot",
+          "oil."
+        ],
+        "solution": [
+          [
+            "Row"
+          ],
+          [
+            "after"
+          ],
+          [
+            "row"
+          ],
+          [
+            "of"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "fry"
+          ],
+          [
+            "in"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "oil."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 242.87,
+        "timeEnd": 247.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85742/list"
+      },
+      {
+        "id": 85743,
+        "position": 41,
+        "content": "Then slide into a large drum that tumbles them around, covering them with a sugary coating.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "slide",
+          "into",
+          "a",
+          "large",
+          "drum",
+          "that",
+          "tumbles",
+          "them",
+          "around,",
+          "covering",
+          "them",
+          "with",
+          "a",
+          "sugary",
+          "coating."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "slide"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "large"
+          ],
+          [
+            "drum"
+          ],
+          [
+            "that"
+          ],
+          [
+            "tumbles"
+          ],
+          [
+            "them"
+          ],
+          [
+            "around,"
+          ],
+          [
+            "covering"
+          ],
+          [
+            "them"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sugary"
+          ],
+          [
+            "coating."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 249.72,
+        "timeEnd": 256.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85743/list"
+      },
+      {
+        "id": 85744,
+        "position": 42,
+        "content": "Now it's time for the doughnuts to get their fill.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "it's",
+          "time",
+          "for",
+          "the",
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "to",
+          "get",
+          "their",
+          "fill."
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "time"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "their"
+          ],
+          [
+            "fill."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 258.15,
+        "timeEnd": 261.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85744/list"
+      },
+      {
+        "id": 85745,
+        "position": 43,
+        "content": "These nozzles inject just the right amount of jam, two at a time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "These",
+          "nozzles",
+          "inject",
+          "just",
+          "the",
+          "right",
+          "amount",
+          "of",
+          "jam,",
+          [
+            "two",
+            "2"
+          ],
+          "at",
+          "a",
+          "time."
+        ],
+        "solution": [
+          [
+            "These"
+          ],
+          [
+            "nozzles"
+          ],
+          [
+            "inject"
+          ],
+          [
+            "just"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "amount"
+          ],
+          [
+            "of"
+          ],
+          [
+            "jam,"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 261.81,
+        "timeEnd": 266.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85745/list"
+      },
+      {
+        "id": 85746,
+        "position": 44,
+        "content": "Each worker fills 45 doughnuts a minute.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Each",
+          "worker",
+          "fills",
+          [
+            "45",
+            "forty-five"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          "a",
+          "minute."
+        ],
+        "solution": [
+          [
+            "Each"
+          ],
+          [
+            "worker"
+          ],
+          [
+            "fills"
+          ],
+          [
+            "45",
+            "forty-five"
+          ],
+          [
+            "doughnuts",
+            "donuts"
+          ],
+          [
+            "a"
+          ],
+          [
+            "minute."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 266.23,
+        "timeEnd": 270.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85746/list"
+      },
+      {
+        "id": 85747,
+        "position": 45,
+        "content": "After filling, these doughnuts, known as Bismarcks, are ready to go onto packaging.",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "filling,",
+          "these",
+          [
+            "doughnuts,",
+            "donuts"
+          ],
+          "known",
+          "as",
+          "Bismarcks,",
+          "are",
+          "ready",
+          "to",
+          "go",
+          "onto",
+          "packaging."
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "filling,"
+          ],
+          [
+            "these"
+          ],
+          [
+            "doughnuts,",
+            "donuts"
+          ],
+          [
+            "known"
+          ],
+          [
+            "as"
+          ],
+          [
+            "Bismarcks,"
+          ],
+          [
+            "are"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "onto"
+          ],
+          [
+            "packaging."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 277.97,
+        "timeEnd": 283.99,
+        "hints": [
+          "Bismarcks"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85747/list"
+      },
+      {
+        "id": 85748,
+        "position": 46,
+        "content": "They're just one of the many delicious varieties that make devouring a doughnut a wholly wonderful experience.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "They are"
+          ],
+          "just",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "many",
+          "delicious",
+          "varieties",
+          "that",
+          "make",
+          "devouring",
+          "a",
+          [
+            "doughnut",
+            "donut"
+          ],
+          "a",
+          "wholly",
+          "wonderful",
+          "experience."
+        ],
+        "solution": [
+          [
+            "They're",
+            "They are"
+          ],
+          [
+            "just"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "many"
+          ],
+          [
+            "delicious"
+          ],
+          [
+            "varieties"
+          ],
+          [
+            "that"
+          ],
+          [
+            "make"
+          ],
+          [
+            "devouring"
+          ],
+          [
+            "a"
+          ],
+          [
+            "doughnut",
+            "donut"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wholly"
+          ],
+          [
+            "wonderful"
+          ],
+          [
+            "experience."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 283.99,
+        "timeEnd": 292.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85748/list"
+      },
+      {
+        "id": 85749,
+        "position": 47,
+        "content": "Sorry, I'm hungry now. I've got to go.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sorry,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "hungry",
+          "now.",
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          "to",
+          "go."
+        ],
+        "solution": [
+          [
+            "Sorry,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "hungry"
+          ],
+          [
+            "now."
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 293.88,
+        "timeEnd": 297.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/85749/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "85703": {
+      "id": 2680227,
+      "text": "Donut từng được gọi là bánh dầu vì chúng được chiên ngập dầu mỡ heo. Thật thú vị!",
+      "author": "ChatGPT4.1"
+    },
+    "85704": {
+      "id": 2680228,
+      "text": "Chúng có hình tròn khi những người hành hương Hà Lan mang chúng đến Mỹ.",
+      "author": "ChatGPT4.1"
+    },
+    "85705": {
+      "id": 2680229,
+      "text": "Nhưng rồi ai đó phát hiện ra rằng bỏ đi một phần bột ở giữa giúp chúng chín đều hơn nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "85706": {
+      "id": 2680230,
+      "text": "Và thế là bánh donut ra đời.",
+      "author": "ChatGPT4.1"
+    },
+    "85707": {
+      "id": 2680231,
+      "text": "Thật biết ơn vì điều đó!",
+      "author": "ChatGPT4.1"
+    },
+    "85708": {
+      "id": 2680232,
+      "text": "Trong thế giới bánh donut, có hai loại cơ bản: donut men và donut bánh bông lan.",
+      "author": "ChatGPT4.1"
+    },
+    "85709": {
+      "id": 2680233,
+      "text": "Bột của donut bánh bông lan được thả từ máy trộn vào dầu thực vật đang sôi.",
+      "author": "ChatGPT4.1"
+    },
+    "85710": {
+      "id": 2680234,
+      "text": "Các đầu phun định hình bột khi nó đi qua.",
+      "author": "ChatGPT4.1"
+    },
+    "85711": {
+      "id": 2680235,
+      "text": "Bánh donut được chiên trong khoảng một phút rưỡi,",
+      "author": "ChatGPT4.1"
+    },
+    "85712": {
+      "id": 2680236,
+      "text": "sau đó băng chuyền đưa chúng ra khỏi nồi dầu để nguội.",
+      "author": "ChatGPT4.1"
+    },
+    "85713": {
+      "id": 2680237,
+      "text": "Donut men cần nhiều thời gian hơn để làm.",
+      "author": "ChatGPT4.1"
+    },
+    "85714": {
+      "id": 2680238,
+      "text": "Máy trộn tốc độ cao nhào khối bột men,",
+      "author": "ChatGPT4.1"
+    },
+    "85715": {
+      "id": 2680239,
+      "text": "sau đó công nhân lấy bột ra khỏi máy cho vào thùng.",
+      "author": "ChatGPT4.1"
+    },
+    "85716": {
+      "id": 2680240,
+      "text": "Từ đó, bột được đưa vào phễu để cán thành tấm.",
+      "author": "ChatGPT4.1"
+    },
+    "85717": {
+      "id": 2680241,
+      "text": "Sau đó là chuyển sang một băng chuyền khác,",
+      "author": "ChatGPT4.1"
+    },
+    "85718": {
+      "id": 2680242,
+      "text": "nơi một loạt các con lăn làm phẳng tấm bột chỉ còn dày hai xen-ti-mét.",
+      "author": "ChatGPT4.1"
+    },
+    "85719": {
+      "id": 2680243,
+      "text": "Tiếp theo, tấm bột đi dưới một lớp rắc bột quế,",
+      "author": "ChatGPT4.1"
+    },
+    "85720": {
+      "id": 2680244,
+      "text": "rồi đến một trục quay cuộn nó lại thành hình khúc gỗ.",
+      "author": "ChatGPT4.1"
+    },
+    "85721": {
+      "id": 2680245,
+      "text": "Một thanh kim loại nhỏ phun nước lên bột.",
+      "author": "ChatGPT4.1"
+    },
+    "85722": {
+      "id": 2680246,
+      "text": "Điều này giúp bột dính và giữ hình dạng khi đi qua một con lăn làm phẳng khác.",
+      "author": "ChatGPT4.1"
+    },
+    "85723": {
+      "id": 2680247,
+      "text": "Một lớp bột bắp rắc lên giúp bột không dính vào lưỡi dao khi cắt thành từng miếng.",
+      "author": "ChatGPT4.1"
+    },
+    "85724": {
+      "id": 2680248,
+      "text": "Một cánh tay rút thả bốn khối bột cùng lúc lên khay lưới.",
+      "author": "ChatGPT4.1"
+    },
+    "85725": {
+      "id": 2680249,
+      "text": "Sau đó chuyển đến máy ủ, một thiết bị giống như một chiếc hộp đựng bánh mì lớn,",
+      "author": "ChatGPT4.1"
+    },
+    "85726": {
+      "id": 2680250,
+      "text": "nơi nhiệt độ và độ ẩm làm cho bột men nở lên.",
+      "author": "ChatGPT4.1"
+    },
+    "85727": {
+      "id": 2680251,
+      "text": "Quá trình lên men này mất khoảng 20 phút,",
+      "author": "ChatGPT4.1"
+    },
+    "85728": {
+      "id": 2680252,
+      "text": "trong thời gian đó, hơn 300 khay sẽ lên xuống và sau đó chuyển ra chảo chiên.",
+      "author": "ChatGPT4.1"
+    },
+    "85729": {
+      "id": 2680253,
+      "text": "Một cánh cổng làm chậm lại trước khi thả, để chúng trượt vào mà không làm bắn dầu.",
+      "author": "ChatGPT4.1"
+    },
+    "85730": {
+      "id": 2680254,
+      "text": "Các đầu đốt gas giữ nhiệt độ dầu ổn định.",
+      "author": "ChatGPT4.1"
+    },
+    "85731": {
+      "id": 2680255,
+      "text": "Nếu nhiệt thấp hơn, bánh donut sẽ bị sống ở bên trong.",
+      "author": "ChatGPT4.1"
+    },
+    "85732": {
+      "id": 2680256,
+      "text": "Khi được nửa thời gian, cần lật bánh donut để chúng chín đều bên trong.",
+      "author": "ChatGPT4.1"
+    },
+    "85733": {
+      "id": 2680557,
+      "text": "Sau hai phút, bánh được lấy ra khỏi máy chiên và đi qua một rèm si-rô ngọt.",
+      "author": "ChatGPT4.1"
+    },
+    "85734": {
+      "id": 2680558,
+      "text": "Luồng gió mạnh thổi bay si-rô thừa và bánh đã hoàn thành.",
+      "author": "ChatGPT4.1"
+    },
+    "85735": {
+      "id": 2680559,
+      "text": "Bánh dần nguội đi khi xoắn ốc quanh khu vực sản xuất trên đường đến đóng gói.",
+      "author": "ChatGPT4.1"
+    },
+    "85736": {
+      "id": 2680560,
+      "text": "Giờ hãy xem cách họ làm bánh donut có nhân.",
+      "author": "ChatGPT4.1"
+    },
+    "85737": {
+      "id": 2680561,
+      "text": "Một máy chia bột men thành từng khối nhỏ",
+      "author": "ChatGPT4.1"
+    },
+    "85738": {
+      "id": 2680562,
+      "text": "rồi chuyển chúng lăn xuống các ống nhựa.",
+      "author": "ChatGPT4.1"
+    },
+    "85739": {
+      "id": 2680563,
+      "text": "Đầu tiên chúng được tạo dáng thành hình bầu dục nhỏ, rồi thành những viên bột tròn.",
+      "author": "ChatGPT4.1"
+    },
+    "85740": {
+      "id": 2680564,
+      "text": "Con lăn cán dẹt các viên bột trước khi đưa vào máy ủ để nở lên.",
+      "author": "ChatGPT4.1"
+    },
+    "85741": {
+      "id": 2680565,
+      "text": "Bột bắp được rắc khắp nơi để chống dính bột vào máy móc hoặc băng chuyền.",
+      "author": "ChatGPT4.1"
+    },
+    "85742": {
+      "id": 2680566,
+      "text": "Hàng dài bánh donut liên tiếp được chiên trong dầu nóng.",
+      "author": "ChatGPT4.1"
+    },
+    "85743": {
+      "id": 2680567,
+      "text": "Sau đó, chúng trượt vào một trống lớn để lăn đều và phủ một lớp đường ngọt lên khắp bề mặt.",
+      "author": "ChatGPT4.1"
+    },
+    "85744": {
+      "id": 2680568,
+      "text": "Bây giờ là lúc bánh donut được bơm nhân.",
+      "author": "ChatGPT4.1"
+    },
+    "85745": {
+      "id": 2680569,
+      "text": "Các vòi này bơm chính xác lượng mứt vào, hai chiếc cùng lúc.",
+      "author": "ChatGPT4.1"
+    },
+    "85746": {
+      "id": 2680570,
+      "text": "Mỗi công nhân bơm nhân cho 45 chiếc bánh một phút.",
+      "author": "ChatGPT4.1"
+    },
+    "85747": {
+      "id": 2680571,
+      "text": "Sau khi bơm nhân, những chiếc bánh này, được gọi là Bismarcks, sẵn sàng được đóng gói.",
+      "author": "ChatGPT4.1"
+    },
+    "85748": {
+      "id": 2680688,
+      "text": "Chúng chỉ là một trong nhiều loại bánh hấp dẫn khiến việc thưởng thức bánh rán trở thành một trải nghiệm tuyệt vời tuyệt đối.",
+      "author": "ChatGPT4.1"
+    },
+    "85749": {
+      "id": 2680689,
+      "text": "Xin lỗi, giờ tôi đói quá rồi. Tôi phải đi thôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

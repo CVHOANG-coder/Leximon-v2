@@ -1,0 +1,572 @@
+{
+  "summary": {
+    "id": 1671,
+    "name": "Short Talk 190",
+    "subTitle": "Photography Basics Introduction",
+    "levelName": "B1",
+    "position": 456,
+    "totalChallenges": 9,
+    "groupId": 49,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1671",
+  "detail": {
+    "id": 1671,
+    "lessonName": "Short Talk 190",
+    "name": "Short Talk 190",
+    "position": 456,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/0-short-talk-190.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68662,
+        "position": 1,
+        "content": "Hi, everyone!",
+        "defaultInput": "Hi, everyone!",
+        "jsonContent": [
+          "Hi,",
+          "everyone!"
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "everyone!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/1.mp3",
+        "timeStart": 0.36,
+        "timeEnd": 1.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68662/list"
+      },
+      {
+        "id": 68663,
+        "position": 2,
+        "content": "Welcome to the Intro to Photography course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Welcome",
+          "to",
+          "the",
+          "Intro",
+          "to",
+          "Photography",
+          "course."
+        ],
+        "solution": [
+          [
+            "Welcome"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Intro"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Photography"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/2.mp3",
+        "timeStart": 1.42,
+        "timeEnd": 4.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68663/list"
+      },
+      {
+        "id": 68664,
+        "position": 3,
+        "content": "Over the next few weeks, we'll cover the basics of using a camera,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Over",
+          "the",
+          "next",
+          "few",
+          "weeks,",
+          [
+            "we'll",
+            "we will"
+          ],
+          "cover",
+          "the",
+          "basics",
+          "of",
+          "using",
+          "a",
+          "camera,"
+        ],
+        "solution": [
+          [
+            "Over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "few"
+          ],
+          [
+            "weeks,"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "cover"
+          ],
+          [
+            "the"
+          ],
+          [
+            "basics"
+          ],
+          [
+            "of"
+          ],
+          [
+            "using"
+          ],
+          [
+            "a"
+          ],
+          [
+            "camera,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/3.mp3",
+        "timeStart": 4.04,
+        "timeEnd": 7.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68664/list"
+      },
+      {
+        "id": 68665,
+        "position": 4,
+        "content": "understanding light, and composing great shots.",
+        "defaultInput": "",
+        "jsonContent": [
+          "understanding",
+          "light,",
+          "and",
+          "composing",
+          "great",
+          "shots."
+        ],
+        "solution": [
+          [
+            "understanding"
+          ],
+          [
+            "light,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "composing"
+          ],
+          [
+            "great"
+          ],
+          [
+            "shots."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/4.mp3",
+        "timeStart": 7.32,
+        "timeEnd": 10.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68665/list"
+      },
+      {
+        "id": 68666,
+        "position": 5,
+        "content": "Today, we'll start with the essentials:",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today,",
+          [
+            "we'll",
+            "we will"
+          ],
+          "start",
+          "with",
+          "the",
+          "essentials:"
+        ],
+        "solution": [
+          [
+            "Today,"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "start"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "essentials:"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/5.mp3",
+        "timeStart": 10.15,
+        "timeEnd": 12.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68666/list"
+      },
+      {
+        "id": 68667,
+        "position": 6,
+        "content": "camera settings, lenses, and how to shoot in manual mode.",
+        "defaultInput": "",
+        "jsonContent": [
+          "camera",
+          "settings,",
+          "lenses,",
+          "and",
+          "how",
+          "to",
+          "shoot",
+          "in",
+          "manual",
+          "mode."
+        ],
+        "solution": [
+          [
+            "camera"
+          ],
+          [
+            "settings,"
+          ],
+          [
+            "lenses,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "shoot"
+          ],
+          [
+            "in"
+          ],
+          [
+            "manual"
+          ],
+          [
+            "mode."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/6.mp3",
+        "timeStart": 12.24,
+        "timeEnd": 16.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68667/list"
+      },
+      {
+        "id": 68668,
+        "position": 7,
+        "content": "We'll also have a hands-on activity at the end where you can practice with your own cameras.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We'll",
+            "We will"
+          ],
+          "also",
+          "have",
+          "a",
+          [
+            "hands-on",
+            "hands on"
+          ],
+          "activity",
+          "at",
+          "the",
+          "end",
+          "where",
+          "you",
+          "can",
+          [
+            "practice",
+            "practise"
+          ],
+          "with",
+          "your",
+          "own",
+          "cameras."
+        ],
+        "solution": [
+          [
+            "We'll",
+            "We will"
+          ],
+          [
+            "also"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hands-on",
+            "hands on"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "where"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "practice",
+            "practise"
+          ],
+          [
+            "with"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own"
+          ],
+          [
+            "cameras."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/7.mp3",
+        "timeStart": 16.36,
+        "timeEnd": 20.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68668/list"
+      },
+      {
+        "id": 68669,
+        "position": 8,
+        "content": "If you have any questions as we go along, feel free to raise your hand.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you have",
+            "you've"
+          ],
+          "any",
+          "questions",
+          "as",
+          "we",
+          "go",
+          "along,",
+          "feel",
+          "free",
+          "to",
+          "raise",
+          "your",
+          "hand."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "any"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "as"
+          ],
+          [
+            "we"
+          ],
+          [
+            "go"
+          ],
+          [
+            "along,"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "free"
+          ],
+          [
+            "to"
+          ],
+          [
+            "raise"
+          ],
+          [
+            "your"
+          ],
+          [
+            "hand."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/8.mp3",
+        "timeStart": 21.08,
+        "timeEnd": 24.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68669/list"
+      },
+      {
+        "id": 68670,
+        "position": 9,
+        "content": "Let's have some fun and get creative!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "have",
+          "some",
+          "fun",
+          "and",
+          "get",
+          "creative!"
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "have"
+          ],
+          [
+            "some"
+          ],
+          [
+            "fun"
+          ],
+          [
+            "and"
+          ],
+          [
+            "get"
+          ],
+          [
+            "creative!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-190-2024-10-07-19-21-12/9.mp3",
+        "timeStart": 25.32,
+        "timeEnd": 27.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68670/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "68662": {
+      "id": 2582315,
+      "text": "Chào mọi người!",
+      "author": "ChatGPT4.1"
+    },
+    "68663": {
+      "id": 2582316,
+      "text": "Chào mừng các bạn đến với khóa học Nhập môn Nhiếp ảnh.",
+      "author": "ChatGPT4.1"
+    },
+    "68664": {
+      "id": 2582317,
+      "text": "Trong vài tuần tới, chúng ta sẽ tìm hiểu những kiến thức cơ bản về cách sử dụng máy ảnh,",
+      "author": "ChatGPT4.1"
+    },
+    "68665": {
+      "id": 2582318,
+      "text": "hiểu về ánh sáng, và cách bố cục những bức ảnh đẹp.",
+      "author": "ChatGPT4.1"
+    },
+    "68666": {
+      "id": 2582319,
+      "text": "Hôm nay, chúng ta sẽ bắt đầu với những điều cơ bản nhất:",
+      "author": "ChatGPT4.1"
+    },
+    "68667": {
+      "id": 2582320,
+      "text": "cài đặt máy ảnh, ống kính, và cách chụp ở chế độ chỉnh tay.",
+      "author": "ChatGPT4.1"
+    },
+    "68668": {
+      "id": 2582321,
+      "text": "Cuối buổi, chúng ta sẽ có hoạt động thực hành để các bạn luyện tập với chính máy ảnh của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "68669": {
+      "id": 2582322,
+      "text": "Nếu có thắc mắc trong quá trình học, các bạn cứ tự nhiên giơ tay nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "68670": {
+      "id": 2582323,
+      "text": "Hãy cùng vui vẻ và sáng tạo nào!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

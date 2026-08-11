@@ -1,0 +1,834 @@
+{
+  "summary": {
+    "id": 1178,
+    "name": "Short Talk 70",
+    "subTitle": "Flight Delay Due to Storm",
+    "levelName": "B1",
+    "position": 212,
+    "totalChallenges": 10,
+    "groupId": 37,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1178",
+  "detail": {
+    "id": 1178,
+    "lessonName": "Short Talk 70",
+    "name": "Short Talk 70",
+    "position": 212,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/0-short-talk-70.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54564,
+        "position": 1,
+        "content": "Hi, this is Sarah.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "this",
+          "is",
+          "Sarah."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Sarah."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/1.mp3",
+        "timeStart": 0.39,
+        "timeEnd": 2.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54564/list"
+      },
+      {
+        "id": 54565,
+        "position": 2,
+        "content": "As you know, I am supposed to be flying home tomorrow,",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "know,",
+          [
+            "I am",
+            "I'm"
+          ],
+          "supposed",
+          "to",
+          "be",
+          "flying",
+          "home",
+          "tomorrow,"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "flying"
+          ],
+          [
+            "home"
+          ],
+          [
+            "tomorrow,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/2.mp3",
+        "timeStart": 2.05,
+        "timeEnd": 5.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54565/list"
+      },
+      {
+        "id": 54566,
+        "position": 3,
+        "content": "but I just got an email that says my flight from Cancun to Miami has been cancelled because of a tropical storm.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "just",
+          "got",
+          "an",
+          "email",
+          "that",
+          "says",
+          "my",
+          "flight",
+          "from",
+          "Cancun",
+          "to",
+          "Miami",
+          "has",
+          "been",
+          [
+            "cancelled",
+            "canceled"
+          ],
+          "because",
+          "of",
+          "a",
+          "tropical",
+          "storm."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "got"
+          ],
+          [
+            "an"
+          ],
+          [
+            "email"
+          ],
+          [
+            "that"
+          ],
+          [
+            "says"
+          ],
+          [
+            "my"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Cancun"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Miami"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "cancelled",
+            "canceled"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tropical"
+          ],
+          [
+            "storm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/3.mp3",
+        "timeStart": 5.45,
+        "timeEnd": 12.27,
+        "hints": [
+          "Cancun",
+          "Miami"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54566/list"
+      },
+      {
+        "id": 54567,
+        "position": 4,
+        "content": "The airline said the soonest I can leave here wouldn't be until tomorrow afternoon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "airline",
+          "said",
+          "the",
+          "soonest",
+          "I",
+          "can",
+          "leave",
+          "here",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "be",
+          "until",
+          "tomorrow",
+          "afternoon."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "airline"
+          ],
+          [
+            "said"
+          ],
+          [
+            "the"
+          ],
+          [
+            "soonest"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "here"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "until"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "afternoon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/4.mp3",
+        "timeStart": 12.27,
+        "timeEnd": 17.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54567/list"
+      },
+      {
+        "id": 54568,
+        "position": 5,
+        "content": "The problem is, if I leave that late, by the time I get to Miami and take the bus to Fort Lauderdale, it will be after midnight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "problem",
+          "is,",
+          "if",
+          "I",
+          "leave",
+          "that",
+          "late,",
+          "by",
+          "the",
+          "time",
+          "I",
+          "get",
+          "to",
+          "Miami",
+          "and",
+          "take",
+          "the",
+          "bus",
+          "to",
+          "Fort",
+          "Lauderdale,",
+          [
+            "it will",
+            "it'll"
+          ],
+          "be",
+          "after",
+          "midnight."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "is,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "that"
+          ],
+          [
+            "late,"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "I"
+          ],
+          [
+            "get"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Miami"
+          ],
+          [
+            "and"
+          ],
+          [
+            "take"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bus"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Fort"
+          ],
+          [
+            "Lauderdale,"
+          ],
+          [
+            "it will",
+            "it'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "after"
+          ],
+          [
+            "midnight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/5.mp3",
+        "timeStart": 17.43,
+        "timeEnd": 25.59,
+        "hints": [
+          "Fort Lauderdale"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54568/list"
+      },
+      {
+        "id": 54569,
+        "position": 6,
+        "content": "Rather than have such a long day, I would rather just stay an additional night in Cancun,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rather",
+          "than",
+          "have",
+          "such",
+          "a",
+          "long",
+          "day,",
+          [
+            "I would",
+            "I'd"
+          ],
+          "rather",
+          "just",
+          "stay",
+          "an",
+          "additional",
+          "night",
+          "in",
+          "Cancun,"
+        ],
+        "solution": [
+          [
+            "Rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "have"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "long"
+          ],
+          [
+            "day,"
+          ],
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "just"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "an"
+          ],
+          [
+            "additional"
+          ],
+          [
+            "night"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Cancun,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/6.mp3",
+        "timeStart": 25.69,
+        "timeEnd": 31.11,
+        "hints": [
+          "Cancun"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54569/list"
+      },
+      {
+        "id": 54570,
+        "position": 7,
+        "content": "and then I can get a morning flight the day after tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "then",
+          "I",
+          "can",
+          "get",
+          "a",
+          "morning",
+          "flight",
+          "the",
+          "day",
+          "after",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day"
+          ],
+          [
+            "after"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/7.mp3",
+        "timeStart": 31.11,
+        "timeEnd": 34.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54570/list"
+      },
+      {
+        "id": 54571,
+        "position": 8,
+        "content": "That way, I will arrive in Fort Lauderdale the same evening.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "way,",
+          [
+            "I will",
+            "I'll"
+          ],
+          "arrive",
+          "in",
+          "Fort",
+          "Lauderdale",
+          "the",
+          "same",
+          "evening."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "way,"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "arrive"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Fort"
+          ],
+          [
+            "Lauderdale"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "evening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/8.mp3",
+        "timeStart": 34.33,
+        "timeEnd": 38.11,
+        "hints": [
+          "Fort Lauderdale"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54571/list"
+      },
+      {
+        "id": 54572,
+        "position": 9,
+        "content": "Cancun has been a blast, so I'm happy to have an extra day.",
+        "defaultInput": "Cancun ",
+        "jsonContent": [
+          "Cancun",
+          "has",
+          "been",
+          "a",
+          "blast,",
+          "so",
+          [
+            "I'm",
+            "I am"
+          ],
+          "happy",
+          "to",
+          "have",
+          "an",
+          "extra",
+          "day."
+        ],
+        "solution": [
+          [
+            "Cancun"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "a"
+          ],
+          [
+            "blast,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "an"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/9.mp3",
+        "timeStart": 38.11,
+        "timeEnd": 42.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54572/list"
+      },
+      {
+        "id": 54573,
+        "position": 10,
+        "content": "We should plan a trip together. I'll talk to you soon!",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "should",
+          "plan",
+          "a",
+          "trip",
+          "together.",
+          [
+            "I'll",
+            "I will"
+          ],
+          "talk",
+          "to",
+          "you",
+          "soon!"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "should"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "a"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "together."
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "soon!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-70-2023-09-24-19-30-28/10.mp3",
+        "timeStart": 42.49,
+        "timeEnd": 45.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54573/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "54564": {
+      "id": 2681314,
+      "text": "Chào, đây là Sarah.",
+      "author": "ChatGPT4.1"
+    },
+    "54565": {
+      "id": 2681315,
+      "text": "Như bạn biết đấy, tôi dự định sẽ bay về nhà vào ngày mai,",
+      "author": "ChatGPT4.1"
+    },
+    "54566": {
+      "id": 2681316,
+      "text": "nhưng tôi vừa nhận được một email thông báo chuyến bay từ Cancun đến Miami bị hủy do bão nhiệt đới.",
+      "author": "ChatGPT4.1"
+    },
+    "54567": {
+      "id": 2681317,
+      "text": "Hãng hàng không nói rằng sớm nhất tôi có thể rời khỏi đây là vào chiều mai.",
+      "author": "ChatGPT4.1"
+    },
+    "54568": {
+      "id": 2681318,
+      "text": "Vấn đề là nếu tôi đi muộn như vậy, khi đến Miami và bắt xe buýt đến Fort Lauderdale thì đã quá nửa đêm rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "54569": {
+      "id": 2681319,
+      "text": "Thay vì có một ngày dài như vậy, tôi thà ở lại Cancun thêm một đêm nữa,",
+      "author": "ChatGPT4.1"
+    },
+    "54570": {
+      "id": 2681320,
+      "text": "và sau đó tôi có thể bay chuyến sáng vào ngày kia.",
+      "author": "ChatGPT4.1"
+    },
+    "54571": {
+      "id": 2681321,
+      "text": "Bằng cách đó, tôi sẽ đến Fort Lauderdale vào buổi tối cùng ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "54572": {
+      "id": 2681322,
+      "text": "Cancun thật tuyệt vời, nên tôi rất vui vì có thêm một ngày nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "54573": {
+      "id": 2681323,
+      "text": "Chúng ta nên lên kế hoạch đi chơi cùng nhau. Tôi sẽ nói chuyện với bạn sớm thôi!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

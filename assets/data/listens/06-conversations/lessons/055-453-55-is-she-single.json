@@ -1,0 +1,519 @@
+{
+  "summary": {
+    "id": 453,
+    "name": "55. Is She Single?",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 55,
+    "totalChallenges": 12,
+    "groupId": 104,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/453",
+  "detail": {
+    "id": 453,
+    "lessonName": "55. Is She Single?",
+    "name": "55. Is She Single?",
+    "position": 55,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/0-55-is-she-single.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18374,
+        "position": 1,
+        "content": "Today is my cousin's birthday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today",
+          "is",
+          "my",
+          "cousin's",
+          "birthday."
+        ],
+        "solution": [
+          [
+            "Today"
+          ],
+          [
+            "is"
+          ],
+          [
+            "my"
+          ],
+          [
+            "cousin's"
+          ],
+          [
+            "birthday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/1.mp3",
+        "timeStart": 2.46,
+        "timeEnd": 4.3,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18374/list"
+      },
+      {
+        "id": 18375,
+        "position": 2,
+        "content": "What's your cousin's name?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What's",
+            "what is"
+          ],
+          "your",
+          "cousin's",
+          "name?"
+        ],
+        "solution": [
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "your"
+          ],
+          [
+            "cousin's"
+          ],
+          [
+            "name?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/2.mp3",
+        "timeStart": 4.42,
+        "timeEnd": 5.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18375/list"
+      },
+      {
+        "id": 18376,
+        "position": 3,
+        "content": "Kathy. I'm going to her house after dinner.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Kathy.",
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "her",
+          "house",
+          "after",
+          "dinner."
+        ],
+        "solution": [
+          [
+            "Kathy."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "her"
+          ],
+          [
+            "house"
+          ],
+          [
+            "after"
+          ],
+          [
+            "dinner."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/3.mp3",
+        "timeStart": 5.8,
+        "timeEnd": 8.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18376/list"
+      },
+      {
+        "id": 18377,
+        "position": 4,
+        "content": "How old is she?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "old",
+          "is",
+          "she?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "old"
+          ],
+          [
+            "is"
+          ],
+          [
+            "she?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/4.mp3",
+        "timeStart": 8.28,
+        "timeEnd": 9.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18377/list"
+      },
+      {
+        "id": 18378,
+        "position": 5,
+        "content": "She's 24",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          [
+            "24",
+            "twenty-four."
+          ]
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "24",
+            "twenty-four."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/5.mp3",
+        "timeStart": 9.39,
+        "timeEnd": 10.55,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18378/list"
+      },
+      {
+        "id": 18379,
+        "position": 6,
+        "content": "Hmm. She's my age.",
+        "defaultInput": "Hmm. ",
+        "jsonContent": [
+          "Hmm.",
+          "She's",
+          "my",
+          "age."
+        ],
+        "solution": [
+          [
+            "Hmm."
+          ],
+          [
+            "She's"
+          ],
+          [
+            "my"
+          ],
+          [
+            "age."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/6.mp3",
+        "timeStart": 10.55,
+        "timeEnd": 12.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18379/list"
+      },
+      {
+        "id": 18380,
+        "position": 7,
+        "content": "Is she pretty?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "she",
+          "pretty?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "she"
+          ],
+          [
+            "pretty?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/7.mp3",
+        "timeStart": 12.77,
+        "timeEnd": 13.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18380/list"
+      },
+      {
+        "id": 18381,
+        "position": 8,
+        "content": "Yes, and she's very nice, too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "and",
+          "she's",
+          "very",
+          "nice,",
+          "too."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "nice,"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/8.mp3",
+        "timeStart": 13.76,
+        "timeEnd": 16.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18381/list"
+      },
+      {
+        "id": 18382,
+        "position": 9,
+        "content": "Is she single?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "she",
+          "single?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "she"
+          ],
+          [
+            "single?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/9.mp3",
+        "timeStart": 16.2,
+        "timeEnd": 17.46,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18382/list"
+      },
+      {
+        "id": 18383,
+        "position": 10,
+        "content": "No, she's married and has two children.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "she's",
+            "she is"
+          ],
+          "married",
+          "and",
+          "has",
+          [
+            "two",
+            "2"
+          ],
+          "children."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "she's",
+            "she is"
+          ],
+          [
+            "married"
+          ],
+          [
+            "and"
+          ],
+          [
+            "has"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "children."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/10.mp3",
+        "timeStart": 17.46,
+        "timeEnd": 20.14,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18383/list"
+      },
+      {
+        "id": 18384,
+        "position": 11,
+        "content": "Oh that's too bad.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          [
+            "that's",
+            "that is"
+          ],
+          "too",
+          "bad."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "too"
+          ],
+          [
+            "bad."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/11.mp3",
+        "timeStart": 20.33,
+        "timeEnd": 22.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18384/list"
+      },
+      {
+        "id": 18385,
+        "position": 12,
+        "content": "Not for her!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Not",
+          "for",
+          "her!"
+        ],
+        "solution": [
+          [
+            "Not"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/55-is-she-single-2022-03-07-21-23-01/12.mp3",
+        "timeStart": 22.32,
+        "timeEnd": 23.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18385/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18374": {
+      "id": 7899,
+      "text": "Hôm nay là sinh nhật của em họ tôi.",
+      "author": "a user"
+    },
+    "18375": {
+      "id": 7901,
+      "text": "Tên em họ của bạn là gì?",
+      "author": "a user"
+    },
+    "18379": {
+      "id": 7910,
+      "text": "Hmm! Cô ấy bằng tuổi tôi.",
+      "author": "a user"
+    },
+    "18381": {
+      "id": 7913,
+      "text": "Vâng, và cô ấy cũng rất tốt tính/dễ thương.",
+      "author": "a user"
+    },
+    "18382": {
+      "id": 7914,
+      "text": "Cô ấy còn độc thân không?",
+      "author": "a user"
+    },
+    "18376": {
+      "id": 2599288,
+      "text": "Kathy. Tôi sẽ tới nhà cô ấy sau bữa tối.",
+      "author": "ChatGPT4.1"
+    },
+    "18377": {
+      "id": 2599289,
+      "text": "Cô ấy bao nhiêu tuổi?",
+      "author": "ChatGPT4.1"
+    },
+    "18378": {
+      "id": 2599290,
+      "text": "Cô ấy 24 tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "18380": {
+      "id": 2599291,
+      "text": "Cô ấy có xinh không?",
+      "author": "ChatGPT4.1"
+    },
+    "18383": {
+      "id": 2599292,
+      "text": "Không, cô ấy đã kết hôn và có hai đứa con.",
+      "author": "ChatGPT4.1"
+    },
+    "18384": {
+      "id": 2599293,
+      "text": "Ồ, thật tiếc quá.",
+      "author": "ChatGPT4.1"
+    },
+    "18385": {
+      "id": 2599294,
+      "text": "Đâu có tiếc cho cô ấy!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

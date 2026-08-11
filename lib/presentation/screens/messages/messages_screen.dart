@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../listening_practice/listening_practice_screen.dart';
 
 class MessagesScreen extends ConsumerWidget {
   const MessagesScreen({super.key});
@@ -14,6 +15,7 @@ class MessagesScreen extends ConsumerWidget {
         ref.watch(topicsProvider).valueOrNull?.firstOrNull?.translated ??
         'Du lịch';
     return SafeArea(
+      key: const ValueKey('challenge-screen'),
       bottom: false,
       child: Column(
         children: [
@@ -23,6 +25,7 @@ class MessagesScreen extends ConsumerWidget {
           ),
           Expanded(
             child: CustomScrollView(
+              key: const ValueKey('challenge-scroll'),
               slivers: [
                 SliverPadding(
                   padding: const EdgeInsets.symmetric(horizontal: 18),
@@ -68,9 +71,9 @@ class _PracticeHeader extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'CHALLENGE ARENA',
+                'ĐẤU TRƯỜNG TỪ VỰNG',
                 style: TextStyle(
-                  color: Colors.white70,
+                  color: Color(0xFF52739A),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1,
@@ -78,42 +81,52 @@ class _PracticeHeader extends StatelessWidget {
               ),
               SizedBox(height: 8),
               Text(
-                'Luyện tập thông minh',
+                'Thử thách mỗi ngày',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: AppColors.primaryDark,
                   fontSize: 30,
                   height: 1,
-                  fontWeight: FontWeight.w800,
+                  fontWeight: FontWeight.w700,
                   letterSpacing: -1.4,
                 ),
               ),
               SizedBox(height: 10),
               Text(
-                'Biến việc học từ vựng thành các thử thách ngắn, rõ mục tiêu và có cảm giác chinh phục.',
+                'Luyện phản xạ qua những chặng ngắn, rõ mục tiêu và đầy cảm giác chinh phục.',
                 style: TextStyle(
-                  color: Color(0xFFDCEBFF),
+                  color: AppColors.textSecondary,
                   fontSize: 11,
                   height: 1.4,
                 ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
               ),
             ],
           ),
         ),
+        const SizedBox(width: 12),
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 10),
           decoration: BoxDecoration(
-            color: Colors.white.withValues(alpha: .13),
+            color: Colors.white.withValues(alpha: .72),
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: Colors.white24),
+            border: Border.all(color: Colors.white.withValues(alpha: .9)),
+            boxShadow: const [
+              BoxShadow(
+                color: Color(0x142A70B8),
+                blurRadius: 16,
+                offset: Offset(0, 7),
+              ),
+            ],
           ),
           child: const Row(
             children: [
-              Text('⚡', style: TextStyle(fontSize: 18)),
+              Icon(Icons.bolt_rounded, color: AppColors.orange, size: 20),
               SizedBox(width: 6),
               Text(
                 '18',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: AppColors.primaryDark,
                   fontSize: 16,
                   fontWeight: FontWeight.w800,
                 ),
@@ -153,7 +166,7 @@ class _ChallengeHero extends StatelessWidget {
                     ),
                     SizedBox(height: 6),
                     Text(
-                      'Word Sprint',
+                      'Bứt tốc từ vựng',
                       style: TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.w800,
@@ -203,31 +216,16 @@ class _ChallengeHero extends StatelessWidget {
               children: [
                 const Row(
                   children: [
-                    Text(
-                      '+120 XP',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 9,
-                        fontWeight: FontWeight.w800,
-                      ),
+                    _ChallengeMeta(icon: Icons.stars_rounded, label: '+120 XP'),
+                    SizedBox(width: 12),
+                    _ChallengeMeta(
+                      icon: Icons.psychology_rounded,
+                      label: '8 từ khó',
                     ),
-                    SizedBox(width: 8),
-                    Text(
-                      '8 từ khó',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 9,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                    SizedBox(width: 8),
-                    Text(
-                      '3 lượt sai',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 9,
-                        fontWeight: FontWeight.w800,
-                      ),
+                    SizedBox(width: 12),
+                    _ChallengeMeta(
+                      icon: Icons.favorite_rounded,
+                      label: '3 lượt',
                     ),
                   ],
                 ),
@@ -314,6 +312,30 @@ class _ChallengeHero extends StatelessWidget {
   }
 }
 
+class _ChallengeMeta extends StatelessWidget {
+  const _ChallengeMeta({required this.icon, required this.label});
+
+  final IconData icon;
+  final String label;
+
+  @override
+  Widget build(BuildContext context) => Row(
+    mainAxisSize: MainAxisSize.min,
+    children: [
+      Icon(icon, color: Colors.white, size: 13),
+      const SizedBox(width: 4),
+      Text(
+        label,
+        style: const TextStyle(
+          color: Colors.white,
+          fontSize: 9,
+          fontWeight: FontWeight.w800,
+        ),
+      ),
+    ],
+  );
+}
+
 class _CountdownBadge extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Container(
@@ -357,7 +379,6 @@ class _ModesSection extends StatelessWidget {
           const SectionHeader(
             kicker: 'Chế độ luyện',
             title: 'Chọn cách bạn muốn học',
-            action: 'Xem tất cả',
           ),
           const SizedBox(height: 16),
           GridView.count(
@@ -367,31 +388,39 @@ class _ModesSection extends StatelessWidget {
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
             childAspectRatio: .92,
-            children: const [
+            children: [
               _ModeCard(
-                icon: '🎧',
+                key: const ValueKey('listening-mode-card'),
+                icon: Icons.headphones_rounded,
                 title: 'Nghe nhanh',
                 body: 'Nghe phát âm và chọn đúng nghĩa trong thời gian ngắn.',
                 tag: '3 phút',
                 color: AppColors.primary,
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => const ListeningPracticeScreen(),
+                    ),
+                  );
+                },
               ),
-              _ModeCard(
-                icon: '🧩',
+              const _ModeCard(
+                icon: Icons.extension_rounded,
                 title: 'Ghép nghĩa',
                 body: 'Ghép từ với nghĩa hoặc ví dụ đúng để tăng phản xạ.',
                 tag: '10 câu',
                 color: AppColors.orange,
               ),
-              _ModeCard(
-                icon: '🗣️',
+              const _ModeCard(
+                icon: Icons.mic_rounded,
                 title: 'Phát âm',
                 body: 'Luyện nói lại từ mới và hoàn thành combo chuẩn.',
                 tag: 'Mic bật',
                 color: AppColors.green,
               ),
-              _ModeCard(
-                icon: '⚔️',
-                title: 'Boss challenge',
+              const _ModeCard(
+                icon: Icons.sports_martial_arts_rounded,
+                title: 'Đấu trùm',
                 body: 'Trả lời đúng liên tiếp để đánh bại thử thách cuối ngày.',
                 tag: 'Hiếm',
                 color: AppColors.purple,
@@ -411,69 +440,86 @@ class _ModeCard extends StatelessWidget {
     required this.body,
     required this.tag,
     required this.color,
+    this.onTap,
+    super.key,
   });
-  final String icon;
+  final IconData icon;
   final String title;
   final String body;
   final String tag;
   final Color color;
+  final VoidCallback? onTap;
 
   @override
-  Widget build(BuildContext context) => Container(
-    padding: const EdgeInsets.all(12),
-    decoration: BoxDecoration(
-      color: color.withValues(alpha: .07),
+  Widget build(BuildContext context) {
+    final shape = RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(18),
-      border: Border.all(color: color.withValues(alpha: .12)),
-    ),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Container(
-          width: 40,
-          height: 40,
-          decoration: BoxDecoration(
-            color: color.withValues(alpha: .14),
-            borderRadius: BorderRadius.circular(13),
-          ),
-          child: Center(
-            child: Text(icon, style: const TextStyle(fontSize: 20)),
+      side: BorderSide(color: color.withValues(alpha: .12)),
+    );
+    return Material(
+      color: color.withValues(alpha: .07),
+      shape: shape,
+      clipBehavior: Clip.antiAlias,
+      child: InkWell(
+        key: onTap == null
+            ? null
+            : const ValueKey('listening-mode-card-action'),
+        onTap: onTap,
+        customBorder: shape,
+        child: Padding(
+          padding: const EdgeInsets.all(12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                width: 40,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: color.withValues(alpha: .14),
+                  borderRadius: BorderRadius.circular(13),
+                ),
+                child: Icon(icon, color: color, size: 21),
+              ),
+              const SizedBox(height: 10),
+              Text(
+                title,
+                style: const TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+              const SizedBox(height: 5),
+              Expanded(
+                child: Text(
+                  body,
+                  style: const TextStyle(
+                    color: AppColors.textSecondary,
+                    fontSize: 9,
+                    height: 1.25,
+                  ),
+                ),
+              ),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(99),
+                ),
+                child: Text(
+                  tag,
+                  style: TextStyle(
+                    color: color,
+                    fontSize: 8,
+                    fontWeight: FontWeight.w800,
+                  ),
+                ),
+              ),
+            ],
           ),
         ),
-        const SizedBox(height: 10),
-        Text(
-          title,
-          style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800),
-        ),
-        const SizedBox(height: 5),
-        Expanded(
-          child: Text(
-            body,
-            style: const TextStyle(
-              color: AppColors.textSecondary,
-              fontSize: 9,
-              height: 1.25,
-            ),
-          ),
-        ),
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 4),
-          decoration: BoxDecoration(
-            color: Colors.white,
-            borderRadius: BorderRadius.circular(99),
-          ),
-          child: Text(
-            tag,
-            style: TextStyle(
-              color: color,
-              fontSize: 8,
-              fontWeight: FontWeight.w800,
-            ),
-          ),
-        ),
-      ],
-    ),
-  );
+      ),
+    );
+  }
 }
 
 class _FocusSection extends StatelessWidget {
@@ -557,7 +603,7 @@ class _MissionsSection extends StatelessWidget {
     child: Column(
       children: [
         const SectionHeader(
-          kicker: 'Missions',
+          kicker: 'Nhiệm vụ',
           title: 'Nhiệm vụ nhận thưởng',
           action: 'Kho phần thưởng',
         ),
@@ -577,8 +623,8 @@ class _MissionsSection extends StatelessWidget {
         ),
         const _MissionItem(
           icon: '★',
-          title: 'Đánh bại boss challenge hôm nay',
-          body: 'Mở rương hiếm và cộng streak challenge',
+          title: 'Đánh bại trùm từ vựng hôm nay',
+          body: 'Mở rương hiếm và nối dài chuỗi thử thách',
           status: 'Chơi',
         ),
       ],
@@ -684,9 +730,9 @@ class _BossCard extends StatelessWidget {
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Row(
+        Row(
           children: [
-            Expanded(
+            const Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -712,12 +758,20 @@ class _BossCard extends StatelessWidget {
                 ],
               ),
             ),
-            Text(
-              'Mới',
-              style: TextStyle(
-                color: Color(0xFF8A3A00),
-                fontSize: 9,
-                fontWeight: FontWeight.w800,
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5),
+              decoration: BoxDecoration(
+                color: AppColors.yellow,
+                borderRadius: BorderRadius.circular(99),
+              ),
+              child: const Text(
+                'MỚI',
+                style: TextStyle(
+                  color: Color(0xFF714B00),
+                  fontSize: 8,
+                  fontWeight: FontWeight.w800,
+                  letterSpacing: .5,
+                ),
               ),
             ),
           ],

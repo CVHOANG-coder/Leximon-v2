@@ -1,0 +1,994 @@
+{
+  "summary": {
+    "id": 18,
+    "name": "10. Joe's first car",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 10,
+    "totalChallenges": 21,
+    "groupId": 86,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/18",
+  "detail": {
+    "id": 18,
+    "lessonName": "10. Joe's first car",
+    "name": "10. Joe's first car",
+    "position": 10,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/0-10-joes-first-car.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 834,
+        "position": 1,
+        "content": "Joe is 18 years old.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "is",
+          [
+            "18",
+            "eighteen"
+          ],
+          "years",
+          "old."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "is"
+          ],
+          [
+            "18",
+            "eighteen"
+          ],
+          [
+            "years"
+          ],
+          [
+            "old."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/1.mp3",
+        "timeStart": 3.52,
+        "timeEnd": 5.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/834/list"
+      },
+      {
+        "id": 835,
+        "position": 2,
+        "content": "Joe works at McDonald's.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "works",
+          "at",
+          "McDonald's."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "works"
+          ],
+          [
+            "at"
+          ],
+          [
+            "McDonald's."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/2.mp3",
+        "timeStart": 6.38,
+        "timeEnd": 8.58,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/835/list"
+      },
+      {
+        "id": 836,
+        "position": 3,
+        "content": "Joe saves all his money.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "saves",
+          "all",
+          "his",
+          "money."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "saves"
+          ],
+          [
+            "all"
+          ],
+          [
+            "his"
+          ],
+          [
+            "money."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/3.mp3",
+        "timeStart": 9.1,
+        "timeEnd": 11.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/836/list"
+      },
+      {
+        "id": 837,
+        "position": 4,
+        "content": "Joe has $2500 in the bank.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "has",
+          [
+            "$2500",
+            "2500 dollars",
+            "twenty-five hundred dollars"
+          ],
+          "in",
+          "the",
+          "bank."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "has"
+          ],
+          [
+            "$2500",
+            "2500 dollars",
+            "twenty-five hundred dollars"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bank."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/4.mp3",
+        "timeStart": 12.2,
+        "timeEnd": 15.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/837/list"
+      },
+      {
+        "id": 838,
+        "position": 5,
+        "content": "He wants to buy a sports car.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "wants",
+          "to",
+          "buy",
+          "a",
+          "sports",
+          "car."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "to"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "car."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/5.mp3",
+        "timeStart": 16.46,
+        "timeEnd": 18.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/838/list"
+      },
+      {
+        "id": 839,
+        "position": 6,
+        "content": "Joe starts to look for a new car.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "starts",
+          "to",
+          "look",
+          "for",
+          "a",
+          "new",
+          "car."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "car."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/6.mp3",
+        "timeStart": 19.8,
+        "timeEnd": 22.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/839/list"
+      },
+      {
+        "id": 840,
+        "position": 7,
+        "content": "Joe looks in the newspaper.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "looks",
+          "in",
+          "the",
+          "newspaper."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "newspaper."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/7.mp3",
+        "timeStart": 22.92,
+        "timeEnd": 24.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/840/list"
+      },
+      {
+        "id": 841,
+        "position": 8,
+        "content": "Joe looks in magazines.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "looks",
+          "in",
+          "magazines."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "in"
+          ],
+          [
+            "magazines."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/8.mp3",
+        "timeStart": 25.5,
+        "timeEnd": 27.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/841/list"
+      },
+      {
+        "id": 842,
+        "position": 9,
+        "content": "Joe finds a car he likes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "finds",
+          "a",
+          "car",
+          "he",
+          "likes."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "finds"
+          ],
+          [
+            "a"
+          ],
+          [
+            "car"
+          ],
+          [
+            "he"
+          ],
+          [
+            "likes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/9.mp3",
+        "timeStart": 28.6,
+        "timeEnd": 30.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/842/list"
+      },
+      {
+        "id": 843,
+        "position": 10,
+        "content": "Joe goes to see the car with his dad.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "goes",
+          "to",
+          "see",
+          "the",
+          "car",
+          "with",
+          "his",
+          "dad."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "car"
+          ],
+          [
+            "with"
+          ],
+          [
+            "his"
+          ],
+          [
+            "dad."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/10.mp3",
+        "timeStart": 31.7,
+        "timeEnd": 34.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/843/list"
+      },
+      {
+        "id": 844,
+        "position": 11,
+        "content": "He really likes it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "really",
+          "likes",
+          "it."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "really"
+          ],
+          [
+            "likes"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/11.mp3",
+        "timeStart": 35.2,
+        "timeEnd": 36.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/844/list"
+      },
+      {
+        "id": 845,
+        "position": 12,
+        "content": "Joe doesn't have enough money.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "have",
+          "enough",
+          "money."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "money."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/12.mp3",
+        "timeStart": 37.7,
+        "timeEnd": 39.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/845/list"
+      },
+      {
+        "id": 846,
+        "position": 13,
+        "content": "Joe's dad tells him to keep saving his money.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe's",
+          "dad",
+          "tells",
+          "him",
+          "to",
+          "keep",
+          "saving",
+          "his",
+          "money."
+        ],
+        "solution": [
+          [
+            "Joe's"
+          ],
+          [
+            "dad"
+          ],
+          [
+            "tells"
+          ],
+          [
+            "him"
+          ],
+          [
+            "to"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "saving"
+          ],
+          [
+            "his"
+          ],
+          [
+            "money."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/13.mp3",
+        "timeStart": 41,
+        "timeEnd": 44.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/846/list"
+      },
+      {
+        "id": 847,
+        "position": 14,
+        "content": "Joe wants this car a lot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "wants",
+          "this",
+          "car",
+          "a",
+          "lot."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "this"
+          ],
+          [
+            "car"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/14.mp3",
+        "timeStart": 44.8,
+        "timeEnd": 47.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/847/list"
+      },
+      {
+        "id": 848,
+        "position": 15,
+        "content": "Joe asks his dad to help him.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "asks",
+          "his",
+          "dad",
+          "to",
+          "help",
+          "him."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "asks"
+          ],
+          [
+            "his"
+          ],
+          [
+            "dad"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/15.mp3",
+        "timeStart": 47.99,
+        "timeEnd": 50.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/848/list"
+      },
+      {
+        "id": 849,
+        "position": 16,
+        "content": "Joe and his dad make a deal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "and",
+          "his",
+          "dad",
+          "make",
+          "a",
+          "deal."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "and"
+          ],
+          [
+            "his"
+          ],
+          [
+            "dad"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "deal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/16.mp3",
+        "timeStart": 51.1,
+        "timeEnd": 53.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/849/list"
+      },
+      {
+        "id": 850,
+        "position": 17,
+        "content": "Joe's dad will lend him the money.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe's",
+          "dad",
+          "will",
+          "lend",
+          "him",
+          "the",
+          "money."
+        ],
+        "solution": [
+          [
+            "Joe's"
+          ],
+          [
+            "dad"
+          ],
+          [
+            "will"
+          ],
+          [
+            "lend"
+          ],
+          [
+            "him"
+          ],
+          [
+            "the"
+          ],
+          [
+            "money."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/17.mp3",
+        "timeStart": 54.6,
+        "timeEnd": 56.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/850/list"
+      },
+      {
+        "id": 851,
+        "position": 18,
+        "content": "Joe must work hard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "must",
+          "work",
+          "hard."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "must"
+          ],
+          [
+            "work"
+          ],
+          [
+            "hard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/18.mp3",
+        "timeStart": 57.7,
+        "timeEnd": 59.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/851/list"
+      },
+      {
+        "id": 852,
+        "position": 19,
+        "content": "He must pay the money back to his dad.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "must",
+          "pay",
+          "the",
+          "money",
+          "back",
+          "to",
+          "his",
+          "dad."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "must"
+          ],
+          [
+            "pay"
+          ],
+          [
+            "the"
+          ],
+          [
+            "money"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "his"
+          ],
+          [
+            "dad."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/19.mp3",
+        "timeStart": 60,
+        "timeEnd": 62.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/852/list"
+      },
+      {
+        "id": 853,
+        "position": 20,
+        "content": "Joe is very happy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "is",
+          "very",
+          "happy."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "is"
+          ],
+          [
+            "very"
+          ],
+          [
+            "happy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/20.mp3",
+        "timeStart": 63.2,
+        "timeEnd": 65.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/853/list"
+      },
+      {
+        "id": 854,
+        "position": 21,
+        "content": "Joe owns his first car.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Joe",
+          "owns",
+          "his",
+          [
+            "first",
+            "1st"
+          ],
+          "car."
+        ],
+        "solution": [
+          [
+            "Joe"
+          ],
+          [
+            "owns"
+          ],
+          [
+            "his"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "car."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/10-joes-first-car-2019-03-19-23-56-09/21.mp3",
+        "timeStart": 65.5,
+        "timeEnd": 67.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/854/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "838": {
+      "id": 8123,
+      "text": "Anh ấy muốn mua một chiếc xe hơi thể thao.",
+      "author": "a user"
+    },
+    "840": {
+      "id": 8125,
+      "text": "Joe tìm trên báo.",
+      "author": "a user"
+    },
+    "841": {
+      "id": 8126,
+      "text": "Joe xem các tạp chí.",
+      "author": "a user"
+    },
+    "847": {
+      "id": 8132,
+      "text": "Joe rất muốn chiếc xe này.",
+      "author": "a user"
+    },
+    "849": {
+      "id": 8134,
+      "text": "Joe và bố anh ấy đã làm một thỏa thuận.",
+      "author": "a user"
+    },
+    "850": {
+      "id": 8135,
+      "text": "Bố của Joe sẽ cho anh ấy mượn tiền.",
+      "author": "a user"
+    },
+    "852": {
+      "id": 8137,
+      "text": "Anh ấy phải trả lại tiền cho bố anh ấy",
+      "author": "a user"
+    },
+    "834": {
+      "id": 2595051,
+      "text": "Joe 18 tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "835": {
+      "id": 2595052,
+      "text": "Joe làm việc ở McDonald's.",
+      "author": "ChatGPT4.1"
+    },
+    "836": {
+      "id": 2595053,
+      "text": "Joe tiết kiệm tất cả số tiền của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "837": {
+      "id": 2595054,
+      "text": "Joe có 2500 đô la trong ngân hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "839": {
+      "id": 2595055,
+      "text": "Joe bắt đầu tìm kiếm một chiếc xe mới.",
+      "author": "ChatGPT4.1"
+    },
+    "842": {
+      "id": 2595056,
+      "text": "Joe tìm thấy một chiếc xe mà cậu ấy thích.",
+      "author": "ChatGPT4.1"
+    },
+    "843": {
+      "id": 2595057,
+      "text": "Joe đi xem xe cùng với bố mình.",
+      "author": "ChatGPT4.1"
+    },
+    "844": {
+      "id": 2595058,
+      "text": "Anh ấy thật sự thích nó.",
+      "author": "a user"
+    },
+    "845": {
+      "id": 2595059,
+      "text": "Joe không có đủ tiền.",
+      "author": "ChatGPT4.1"
+    },
+    "846": {
+      "id": 2595060,
+      "text": "Bố của Joe bảo cậu ấy tiếp tục tiết kiệm tiền.",
+      "author": "ChatGPT4.1"
+    },
+    "848": {
+      "id": 2595061,
+      "text": "Joe nhờ bố giúp đỡ.",
+      "author": "ChatGPT4.1"
+    },
+    "851": {
+      "id": 2595062,
+      "text": "Joe phải làm việc chăm chỉ.",
+      "author": "ChatGPT4.1"
+    },
+    "853": {
+      "id": 2595063,
+      "text": "Joe rất vui.",
+      "author": "ChatGPT4.1"
+    },
+    "854": {
+      "id": 2595064,
+      "text": "Joe sở hữu chiếc ô tô đầu tiên của mình.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

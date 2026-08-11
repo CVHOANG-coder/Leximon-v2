@@ -1,0 +1,661 @@
+{
+  "summary": {
+    "id": 463,
+    "name": "65. We Eat a Lot",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 66,
+    "totalChallenges": 14,
+    "groupId": 105,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/463",
+  "detail": {
+    "id": 463,
+    "lessonName": "65. We Eat a Lot",
+    "name": "65. We Eat a Lot",
+    "position": 66,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/0-65-we-eat-a-lot.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18474,
+        "position": 1,
+        "content": "Did you see my car keys?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "see",
+          "my",
+          "car",
+          "keys?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "see"
+          ],
+          [
+            "my"
+          ],
+          [
+            "car"
+          ],
+          [
+            "keys?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/1.mp3",
+        "timeStart": 2.63,
+        "timeEnd": 4.18,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18474/list"
+      },
+      {
+        "id": 18475,
+        "position": 2,
+        "content": "They're on top of the TV.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "on",
+          "top",
+          "of",
+          "the",
+          "TV."
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "on"
+          ],
+          [
+            "top"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "TV."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/2.mp3",
+        "timeStart": 4.18,
+        "timeEnd": 5.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18475/list"
+      },
+      {
+        "id": 18476,
+        "position": 3,
+        "content": "You're right. Thanks!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You're",
+            "you are"
+          ],
+          "right.",
+          "Thanks!"
+        ],
+        "solution": [
+          [
+            "You're",
+            "you are"
+          ],
+          [
+            "right."
+          ],
+          [
+            "Thanks!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/3.mp3",
+        "timeStart": 5.7,
+        "timeEnd": 7.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18476/list"
+      },
+      {
+        "id": 18477,
+        "position": 4,
+        "content": "Where are you going?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Where",
+          "are",
+          "you",
+          "going?"
+        ],
+        "solution": [
+          [
+            "Where"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "going?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/4.mp3",
+        "timeStart": 7.29,
+        "timeEnd": 8.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18477/list"
+      },
+      {
+        "id": 18478,
+        "position": 5,
+        "content": "To the supermarket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "the",
+          "supermarket."
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "the"
+          ],
+          [
+            "supermarket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/5.mp3",
+        "timeStart": 8.31,
+        "timeEnd": 9.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18478/list"
+      },
+      {
+        "id": 18479,
+        "position": 6,
+        "content": "Again?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Again?"
+        ],
+        "solution": [
+          [
+            "Again?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/6.mp3",
+        "timeStart": 9.33,
+        "timeEnd": 10.25,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18479/list"
+      },
+      {
+        "id": 18480,
+        "position": 7,
+        "content": "Yes, we eat a lot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "we",
+          "eat",
+          "a",
+          "lot."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/7.mp3",
+        "timeStart": 10.25,
+        "timeEnd": 12.08,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18480/list"
+      },
+      {
+        "id": 18481,
+        "position": 8,
+        "content": "Do you want me to go with you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "want",
+          "me",
+          "to",
+          "go",
+          "with",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/8.mp3",
+        "timeStart": 12.08,
+        "timeEnd": 13.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18481/list"
+      },
+      {
+        "id": 18482,
+        "position": 9,
+        "content": "Sure, if you can.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          "if",
+          "you",
+          "can."
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/9.mp3",
+        "timeStart": 13.48,
+        "timeEnd": 14.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18482/list"
+      },
+      {
+        "id": 18483,
+        "position": 10,
+        "content": "Good. The packages will be heavy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good.",
+          "The",
+          "packages",
+          "will",
+          "be",
+          "heavy."
+        ],
+        "solution": [
+          [
+            "Good."
+          ],
+          [
+            "The"
+          ],
+          [
+            "packages"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "heavy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/10.mp3",
+        "timeStart": 14.62,
+        "timeEnd": 16.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18483/list"
+      },
+      {
+        "id": 18484,
+        "position": 11,
+        "content": "There's a new health store right up the road;",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "a",
+          "new",
+          "health",
+          "store",
+          "right",
+          "up",
+          "the",
+          "road;"
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "health"
+          ],
+          [
+            "store"
+          ],
+          [
+            "right"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "road;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/11.mp3",
+        "timeStart": 16.66,
+        "timeEnd": 18.66,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18484/list"
+      },
+      {
+        "id": 18485,
+        "position": 12,
+        "content": "maybe since you guys eat a lot you should try and eat more healthily.",
+        "defaultInput": "",
+        "jsonContent": [
+          "maybe",
+          "since",
+          "you",
+          "guys",
+          "eat",
+          "a",
+          "lot",
+          "you",
+          "should",
+          "try",
+          "and",
+          "eat",
+          "more",
+          "healthily."
+        ],
+        "solution": [
+          [
+            "maybe"
+          ],
+          [
+            "since"
+          ],
+          [
+            "you"
+          ],
+          [
+            "guys"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "try"
+          ],
+          [
+            "and"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "more"
+          ],
+          [
+            "healthily."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/12.mp3",
+        "timeStart": 18.66,
+        "timeEnd": 21.83,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18485/list"
+      },
+      {
+        "id": 18486,
+        "position": 13,
+        "content": "Maybe you're right;",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          [
+            "you're",
+            "you are"
+          ],
+          "right;"
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "right;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/13.mp3",
+        "timeStart": 22.02,
+        "timeEnd": 23.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18486/list"
+      },
+      {
+        "id": 18487,
+        "position": 14,
+        "content": "we have all put on a little weight.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "we have",
+            "we've"
+          ],
+          "all",
+          "put",
+          "on",
+          "a",
+          "little",
+          "weight."
+        ],
+        "solution": [
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "all"
+          ],
+          [
+            "put"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "weight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/65-we-eat-a-lot-2022-03-07-21-26-29/14.mp3",
+        "timeStart": 23.31,
+        "timeEnd": 25.35,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/18487/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18477": {
+      "id": 29034,
+      "text": "Bạn định đi đâu?",
+      "author": "a user"
+    },
+    "18479": {
+      "id": 29037,
+      "text": "Nữa hả?",
+      "author": "a user"
+    },
+    "18480": {
+      "id": 29038,
+      "text": "Ừ, bọn mình ăn nhiều mà.",
+      "author": "a user"
+    },
+    "18481": {
+      "id": 29039,
+      "text": "Bạn có muốn tôi đi với bạn không?",
+      "author": "a user"
+    },
+    "18483": {
+      "id": 29042,
+      "text": "Tốt. Các gói hàng sẽ nặng.",
+      "author": "a user"
+    },
+    "18484": {
+      "id": 29043,
+      "text": "Ngay trên đường có một cửa hàng thực phẩm sức khỏe mới .",
+      "author": "a user"
+    },
+    "18485": {
+      "id": 29047,
+      "text": "có lẽ vì các bạn ăn nhiều nên hãy cố gắng ăn uống lành mạnh hơn.",
+      "author": "a user"
+    },
+    "18487": {
+      "id": 29059,
+      "text": "tất cả chúng ta đều đã tăng cân một chút.",
+      "author": "a user"
+    },
+    "18474": {
+      "id": 2599205,
+      "text": "Bạn có thấy chìa khóa xe của tôi không?",
+      "author": "ChatGPT4.1"
+    },
+    "18475": {
+      "id": 2599206,
+      "text": "Chúng ở trên đầu tivi.",
+      "author": "ChatGPT4.1"
+    },
+    "18476": {
+      "id": 2599207,
+      "text": "Bạn nói đúng. Cảm ơn nhé!",
+      "author": "ChatGPT4.1"
+    },
+    "18478": {
+      "id": 2599208,
+      "text": "Đến siêu thị.",
+      "author": "ChatGPT4.1"
+    },
+    "18482": {
+      "id": 2599209,
+      "text": "Chắc chắn, nếu bạn có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "18486": {
+      "id": 2599210,
+      "text": "Có thể bạn nói đúng;",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

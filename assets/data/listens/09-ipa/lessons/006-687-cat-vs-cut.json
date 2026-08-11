@@ -1,0 +1,913 @@
+{
+  "summary": {
+    "id": 687,
+    "name": "/æ/ - /ʌ/ (cat vs cut)",
+    "subTitle": "",
+    "levelName": "",
+    "position": 6,
+    "totalChallenges": 10,
+    "groupId": null,
+    "isListenAndSelect": true,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/selecting-lessons/687",
+  "detail": {
+    "id": 687,
+    "name": "/æ/ - /ʌ/ (cat vs cut)",
+    "challenges": [
+      [
+        {
+          "id": 32805,
+          "recordings": {
+            "1": {
+              "id": 361,
+              "audioSrc": "https://dailydictation.com/tts/687/32805-1-361-2023-05-29-04-31-36.mp3",
+              "text": "cat",
+              "secondaryText": "kæt"
+            },
+            "2": {
+              "id": 362,
+              "audioSrc": "https://dailydictation.com/tts/687/32805-2-362-2023-05-29-04-31-36.mp3",
+              "text": "cat",
+              "secondaryText": "kæt"
+            },
+            "3": {
+              "id": 363,
+              "audioSrc": "https://dailydictation.com/tts/687/32805-3-363-2023-05-29-04-31-37.mp3",
+              "text": "cat",
+              "secondaryText": "kæt"
+            },
+            "4": {
+              "id": 364,
+              "audioSrc": "https://dailydictation.com/tts/687/32805-4-364-2023-05-29-04-31-37.mp3",
+              "text": "cat",
+              "secondaryText": "kæt"
+            },
+            "5": {
+              "id": 365,
+              "audioSrc": "https://dailydictation.com/tts/687/32805-5-365-2023-05-29-04-31-37.mp3",
+              "text": "cat",
+              "secondaryText": "kæt"
+            },
+            "6": {
+              "id": 366,
+              "audioSrc": "https://dailydictation.com/tts/687/32805-6-366-2023-05-29-04-31-38.mp3",
+              "text": "cat",
+              "secondaryText": "kæt"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32806,
+          "recordings": {
+            "1": {
+              "id": 367,
+              "audioSrc": "https://dailydictation.com/tts/687/32806-1-367-2023-05-29-04-31-38.mp3",
+              "text": "cut",
+              "secondaryText": "kʌt"
+            },
+            "2": {
+              "id": 368,
+              "audioSrc": "https://dailydictation.com/tts/687/32806-2-368-2023-05-29-04-31-38.mp3",
+              "text": "cut",
+              "secondaryText": "kʌt"
+            },
+            "3": {
+              "id": 369,
+              "audioSrc": "https://dailydictation.com/tts/687/32806-3-369-2023-05-29-04-31-39.mp3",
+              "text": "cut",
+              "secondaryText": "kʌt"
+            },
+            "4": {
+              "id": 370,
+              "audioSrc": "https://dailydictation.com/tts/687/32806-4-370-2023-05-29-04-31-39.mp3",
+              "text": "cut",
+              "secondaryText": "kʌt"
+            },
+            "5": {
+              "id": 371,
+              "audioSrc": "https://dailydictation.com/tts/687/32806-5-371-2023-05-29-04-31-40.mp3",
+              "text": "cut",
+              "secondaryText": "kʌt"
+            },
+            "6": {
+              "id": 372,
+              "audioSrc": "https://dailydictation.com/tts/687/32806-6-372-2023-05-29-04-31-40.mp3",
+              "text": "cut",
+              "secondaryText": "kʌt"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32807,
+          "recordings": {
+            "1": {
+              "id": 373,
+              "audioSrc": "https://dailydictation.com/tts/687/32807-1-373-2023-05-29-04-31-40.mp3",
+              "text": "bad",
+              "secondaryText": "bæd"
+            },
+            "2": {
+              "id": 374,
+              "audioSrc": "https://dailydictation.com/tts/687/32807-2-374-2023-05-29-04-31-41.mp3",
+              "text": "bad",
+              "secondaryText": "bæd"
+            },
+            "3": {
+              "id": 375,
+              "audioSrc": "https://dailydictation.com/tts/687/32807-3-375-2023-05-29-04-31-41.mp3",
+              "text": "bad",
+              "secondaryText": "bæd"
+            },
+            "4": {
+              "id": 376,
+              "audioSrc": "https://dailydictation.com/tts/687/32807-4-376-2023-05-29-04-31-41.mp3",
+              "text": "bad",
+              "secondaryText": "bæd"
+            },
+            "5": {
+              "id": 377,
+              "audioSrc": "https://dailydictation.com/tts/687/32807-5-377-2023-05-29-04-31-42.mp3",
+              "text": "bad",
+              "secondaryText": "bæd"
+            },
+            "6": {
+              "id": 378,
+              "audioSrc": "https://dailydictation.com/tts/687/32807-6-378-2023-05-29-04-31-42.mp3",
+              "text": "bad",
+              "secondaryText": "bæd"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32808,
+          "recordings": {
+            "1": {
+              "id": 379,
+              "audioSrc": "https://dailydictation.com/tts/687/32808-1-379-2023-05-29-04-31-42.mp3",
+              "text": "bud",
+              "secondaryText": "bʌd"
+            },
+            "2": {
+              "id": 380,
+              "audioSrc": "https://dailydictation.com/tts/687/32808-2-380-2023-05-29-04-31-43.mp3",
+              "text": "bud",
+              "secondaryText": "bʌd"
+            },
+            "3": {
+              "id": 381,
+              "audioSrc": "https://dailydictation.com/tts/687/32808-3-381-2023-05-29-04-31-43.mp3",
+              "text": "bud",
+              "secondaryText": "bʌd"
+            },
+            "4": {
+              "id": 382,
+              "audioSrc": "https://dailydictation.com/tts/687/32808-4-382-2023-05-29-04-31-43.mp3",
+              "text": "bud",
+              "secondaryText": "bʌd"
+            },
+            "5": {
+              "id": 383,
+              "audioSrc": "https://dailydictation.com/tts/687/32808-5-383-2023-05-29-04-31-44.mp3",
+              "text": "bud",
+              "secondaryText": "bʌd"
+            },
+            "6": {
+              "id": 384,
+              "audioSrc": "https://dailydictation.com/tts/687/32808-6-384-2023-05-29-04-31-44.mp3",
+              "text": "bud",
+              "secondaryText": "bʌd"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32809,
+          "recordings": {
+            "1": {
+              "id": 385,
+              "audioSrc": "https://dailydictation.com/tts/687/32809-1-385-2023-05-29-04-31-44.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "2": {
+              "id": 386,
+              "audioSrc": "https://dailydictation.com/tts/687/32809-2-386-2023-05-29-04-31-45.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "3": {
+              "id": 387,
+              "audioSrc": "https://dailydictation.com/tts/687/32809-3-387-2023-05-29-04-31-45.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "4": {
+              "id": 388,
+              "audioSrc": "https://dailydictation.com/tts/687/32809-4-388-2023-05-29-04-31-46.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "5": {
+              "id": 389,
+              "audioSrc": "https://dailydictation.com/tts/687/32809-5-389-2023-05-29-04-31-46.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "6": {
+              "id": 390,
+              "audioSrc": "https://dailydictation.com/tts/687/32809-6-390-2023-05-29-04-31-46.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32810,
+          "recordings": {
+            "1": {
+              "id": 391,
+              "audioSrc": "https://dailydictation.com/tts/687/32810-1-391-2023-05-29-04-31-47.mp3",
+              "text": "fun",
+              "secondaryText": "fʌn"
+            },
+            "2": {
+              "id": 392,
+              "audioSrc": "https://dailydictation.com/tts/687/32810-2-392-2023-05-29-04-31-47.mp3",
+              "text": "fun",
+              "secondaryText": "fʌn"
+            },
+            "3": {
+              "id": 393,
+              "audioSrc": "https://dailydictation.com/tts/687/32810-3-393-2023-05-29-04-31-47.mp3",
+              "text": "fun",
+              "secondaryText": "fʌn"
+            },
+            "4": {
+              "id": 394,
+              "audioSrc": "https://dailydictation.com/tts/687/32810-4-394-2023-05-29-04-31-48.mp3",
+              "text": "fun",
+              "secondaryText": "fʌn"
+            },
+            "5": {
+              "id": 395,
+              "audioSrc": "https://dailydictation.com/tts/687/32810-5-395-2023-05-29-04-31-48.mp3",
+              "text": "fun",
+              "secondaryText": "fʌn"
+            },
+            "6": {
+              "id": 396,
+              "audioSrc": "https://dailydictation.com/tts/687/32810-6-396-2023-05-29-04-31-48.mp3",
+              "text": "fun",
+              "secondaryText": "fʌn"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32811,
+          "recordings": {
+            "1": {
+              "id": 397,
+              "audioSrc": "https://dailydictation.com/tts/687/32811-1-397-2023-05-29-04-31-49.mp3",
+              "text": "hat",
+              "secondaryText": "hæt"
+            },
+            "2": {
+              "id": 398,
+              "audioSrc": "https://dailydictation.com/tts/687/32811-2-398-2023-05-29-04-31-49.mp3",
+              "text": "hat",
+              "secondaryText": "hæt"
+            },
+            "3": {
+              "id": 399,
+              "audioSrc": "https://dailydictation.com/tts/687/32811-3-399-2023-05-29-04-31-49.mp3",
+              "text": "hat",
+              "secondaryText": "hæt"
+            },
+            "4": {
+              "id": 400,
+              "audioSrc": "https://dailydictation.com/tts/687/32811-4-400-2023-05-29-04-31-50.mp3",
+              "text": "hat",
+              "secondaryText": "hæt"
+            },
+            "5": {
+              "id": 401,
+              "audioSrc": "https://dailydictation.com/tts/687/32811-5-401-2023-05-29-04-31-50.mp3",
+              "text": "hat",
+              "secondaryText": "hæt"
+            },
+            "6": {
+              "id": 402,
+              "audioSrc": "https://dailydictation.com/tts/687/32811-6-402-2023-05-29-04-31-50.mp3",
+              "text": "hat",
+              "secondaryText": "hæt"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32812,
+          "recordings": {
+            "1": {
+              "id": 403,
+              "audioSrc": "https://dailydictation.com/tts/687/32812-1-403-2023-05-29-04-31-51.mp3",
+              "text": "hut",
+              "secondaryText": "hʌt"
+            },
+            "2": {
+              "id": 404,
+              "audioSrc": "https://dailydictation.com/tts/687/32812-2-404-2023-05-29-04-31-51.mp3",
+              "text": "hut",
+              "secondaryText": "hʌt"
+            },
+            "3": {
+              "id": 405,
+              "audioSrc": "https://dailydictation.com/tts/687/32812-3-405-2023-05-29-04-31-52.mp3",
+              "text": "hut",
+              "secondaryText": "hʌt"
+            },
+            "4": {
+              "id": 406,
+              "audioSrc": "https://dailydictation.com/tts/687/32812-4-406-2023-05-29-04-31-52.mp3",
+              "text": "hut",
+              "secondaryText": "hʌt"
+            },
+            "5": {
+              "id": 407,
+              "audioSrc": "https://dailydictation.com/tts/687/32812-5-407-2023-05-29-04-31-52.mp3",
+              "text": "hut",
+              "secondaryText": "hʌt"
+            },
+            "6": {
+              "id": 408,
+              "audioSrc": "https://dailydictation.com/tts/687/32812-6-408-2023-05-29-04-31-53.mp3",
+              "text": "hut",
+              "secondaryText": "hʌt"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32813,
+          "recordings": {
+            "1": {
+              "id": 409,
+              "audioSrc": "https://dailydictation.com/tts/687/32813-1-409-2023-05-29-04-31-53.mp3",
+              "text": "bat",
+              "secondaryText": "bæt"
+            },
+            "2": {
+              "id": 410,
+              "audioSrc": "https://dailydictation.com/tts/687/32813-2-410-2023-05-29-04-31-53.mp3",
+              "text": "bat",
+              "secondaryText": "bæt"
+            },
+            "3": {
+              "id": 411,
+              "audioSrc": "https://dailydictation.com/tts/687/32813-3-411-2023-05-29-04-31-54.mp3",
+              "text": "bat",
+              "secondaryText": "bæt"
+            },
+            "4": {
+              "id": 412,
+              "audioSrc": "https://dailydictation.com/tts/687/32813-4-412-2023-05-29-04-31-54.mp3",
+              "text": "bat",
+              "secondaryText": "bæt"
+            },
+            "5": {
+              "id": 413,
+              "audioSrc": "https://dailydictation.com/tts/687/32813-5-413-2023-05-29-04-31-54.mp3",
+              "text": "bat",
+              "secondaryText": "bæt"
+            },
+            "6": {
+              "id": 414,
+              "audioSrc": "https://dailydictation.com/tts/687/32813-6-414-2023-05-29-04-31-55.mp3",
+              "text": "bat",
+              "secondaryText": "bæt"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32814,
+          "recordings": {
+            "1": {
+              "id": 415,
+              "audioSrc": "https://dailydictation.com/tts/687/32814-1-415-2023-05-29-04-31-55.mp3",
+              "text": "but",
+              "secondaryText": "bət"
+            },
+            "2": {
+              "id": 416,
+              "audioSrc": "https://dailydictation.com/tts/687/32814-2-416-2023-05-29-04-31-55.mp3",
+              "text": "but",
+              "secondaryText": "bət"
+            },
+            "3": {
+              "id": 417,
+              "audioSrc": "https://dailydictation.com/tts/687/32814-3-417-2023-05-29-04-31-56.mp3",
+              "text": "but",
+              "secondaryText": "bʌt"
+            },
+            "4": {
+              "id": 418,
+              "audioSrc": "https://dailydictation.com/tts/687/32814-4-418-2023-05-29-04-31-56.mp3",
+              "text": "but",
+              "secondaryText": "bʌt"
+            },
+            "5": {
+              "id": 419,
+              "audioSrc": "https://dailydictation.com/tts/687/32814-5-419-2023-05-29-04-31-56.mp3",
+              "text": "but",
+              "secondaryText": "bʌt"
+            },
+            "6": {
+              "id": 420,
+              "audioSrc": "https://dailydictation.com/tts/687/32814-6-420-2023-05-29-04-31-57.mp3",
+              "text": "but",
+              "secondaryText": "bʌt"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32815,
+          "recordings": {
+            "1": {
+              "id": 421,
+              "audioSrc": "https://dailydictation.com/tts/687/32815-1-421-2023-05-29-04-31-57.mp3",
+              "text": "ran",
+              "secondaryText": "ræn"
+            },
+            "2": {
+              "id": 422,
+              "audioSrc": "https://dailydictation.com/tts/687/32815-2-422-2023-05-29-04-31-57.mp3",
+              "text": "ran",
+              "secondaryText": "ræn"
+            },
+            "3": {
+              "id": 423,
+              "audioSrc": "https://dailydictation.com/tts/687/32815-3-423-2023-05-29-04-31-58.mp3",
+              "text": "ran",
+              "secondaryText": "ræn"
+            },
+            "4": {
+              "id": 424,
+              "audioSrc": "https://dailydictation.com/tts/687/32815-4-424-2023-05-29-04-31-58.mp3",
+              "text": "ran",
+              "secondaryText": "ræn"
+            },
+            "5": {
+              "id": 425,
+              "audioSrc": "https://dailydictation.com/tts/687/32815-5-425-2023-05-29-04-31-59.mp3",
+              "text": "ran",
+              "secondaryText": "ræn"
+            },
+            "6": {
+              "id": 426,
+              "audioSrc": "https://dailydictation.com/tts/687/32815-6-426-2023-05-29-04-31-59.mp3",
+              "text": "ran",
+              "secondaryText": "ræn"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32816,
+          "recordings": {
+            "1": {
+              "id": 427,
+              "audioSrc": "https://dailydictation.com/tts/687/32816-1-427-2023-05-29-04-31-59.mp3",
+              "text": "run",
+              "secondaryText": "rʌn"
+            },
+            "2": {
+              "id": 428,
+              "audioSrc": "https://dailydictation.com/tts/687/32816-2-428-2023-05-29-04-32-00.mp3",
+              "text": "run",
+              "secondaryText": "rʌn"
+            },
+            "3": {
+              "id": 429,
+              "audioSrc": "https://dailydictation.com/tts/687/32816-3-429-2023-05-29-04-32-00.mp3",
+              "text": "run",
+              "secondaryText": "rʌn"
+            },
+            "4": {
+              "id": 430,
+              "audioSrc": "https://dailydictation.com/tts/687/32816-4-430-2023-05-29-04-32-00.mp3",
+              "text": "run",
+              "secondaryText": "rʌn"
+            },
+            "5": {
+              "id": 431,
+              "audioSrc": "https://dailydictation.com/tts/687/32816-5-431-2023-05-29-04-32-01.mp3",
+              "text": "run",
+              "secondaryText": "rʌn"
+            },
+            "6": {
+              "id": 432,
+              "audioSrc": "https://dailydictation.com/tts/687/32816-6-432-2023-05-29-04-32-01.mp3",
+              "text": "run",
+              "secondaryText": "rʌn"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32817,
+          "recordings": {
+            "1": {
+              "id": 433,
+              "audioSrc": "https://dailydictation.com/tts/687/32817-1-433-2023-05-29-04-32-01.mp3",
+              "text": "sang",
+              "secondaryText": "sæŋ"
+            },
+            "2": {
+              "id": 434,
+              "audioSrc": "https://dailydictation.com/tts/687/32817-2-434-2023-05-29-04-32-02.mp3",
+              "text": "sang",
+              "secondaryText": "sæŋ"
+            },
+            "3": {
+              "id": 435,
+              "audioSrc": "https://dailydictation.com/tts/687/32817-3-435-2023-05-29-04-32-02.mp3",
+              "text": "sang",
+              "secondaryText": "sæŋ"
+            },
+            "4": {
+              "id": 436,
+              "audioSrc": "https://dailydictation.com/tts/687/32817-4-436-2023-05-29-04-32-03.mp3",
+              "text": "sang",
+              "secondaryText": "sæŋ"
+            },
+            "5": {
+              "id": 437,
+              "audioSrc": "https://dailydictation.com/tts/687/32817-5-437-2023-05-29-04-32-03.mp3",
+              "text": "sang",
+              "secondaryText": "sæŋ"
+            },
+            "6": {
+              "id": 438,
+              "audioSrc": "https://dailydictation.com/tts/687/32817-6-438-2023-05-29-04-32-03.mp3",
+              "text": "sang",
+              "secondaryText": "sæŋ"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32818,
+          "recordings": {
+            "1": {
+              "id": 439,
+              "audioSrc": "https://dailydictation.com/tts/687/32818-1-439-2023-05-29-04-32-04.mp3",
+              "text": "sung",
+              "secondaryText": "sʌŋ"
+            },
+            "2": {
+              "id": 440,
+              "audioSrc": "https://dailydictation.com/tts/687/32818-2-440-2023-05-29-04-32-04.mp3",
+              "text": "sung",
+              "secondaryText": "sʌŋ"
+            },
+            "3": {
+              "id": 441,
+              "audioSrc": "https://dailydictation.com/tts/687/32818-3-441-2023-05-29-04-32-04.mp3",
+              "text": "sung",
+              "secondaryText": "sʌŋ"
+            },
+            "4": {
+              "id": 442,
+              "audioSrc": "https://dailydictation.com/tts/687/32818-4-442-2023-05-29-04-32-05.mp3",
+              "text": "sung",
+              "secondaryText": "sʌŋ"
+            },
+            "5": {
+              "id": 443,
+              "audioSrc": "https://dailydictation.com/tts/687/32818-5-443-2023-05-29-04-32-05.mp3",
+              "text": "sung",
+              "secondaryText": "sʌŋ"
+            },
+            "6": {
+              "id": 444,
+              "audioSrc": "https://dailydictation.com/tts/687/32818-6-444-2023-05-29-04-32-05.mp3",
+              "text": "sung",
+              "secondaryText": "sʌŋ"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32819,
+          "recordings": {
+            "1": {
+              "id": 445,
+              "audioSrc": "https://dailydictation.com/tts/687/32819-1-445-2023-05-29-04-32-06.mp3",
+              "text": "back",
+              "secondaryText": "bæk"
+            },
+            "2": {
+              "id": 446,
+              "audioSrc": "https://dailydictation.com/tts/687/32819-2-446-2023-05-29-04-32-06.mp3",
+              "text": "back",
+              "secondaryText": "bæk"
+            },
+            "3": {
+              "id": 447,
+              "audioSrc": "https://dailydictation.com/tts/687/32819-3-447-2023-05-29-04-32-06.mp3",
+              "text": "back",
+              "secondaryText": "bæk"
+            },
+            "4": {
+              "id": 448,
+              "audioSrc": "https://dailydictation.com/tts/687/32819-4-448-2023-05-29-04-32-07.mp3",
+              "text": "back",
+              "secondaryText": "bæk"
+            },
+            "5": {
+              "id": 449,
+              "audioSrc": "https://dailydictation.com/tts/687/32819-5-449-2023-05-29-04-32-07.mp3",
+              "text": "back",
+              "secondaryText": "bæk"
+            },
+            "6": {
+              "id": 450,
+              "audioSrc": "https://dailydictation.com/tts/687/32819-6-450-2023-05-29-04-32-08.mp3",
+              "text": "back",
+              "secondaryText": "bæk"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32820,
+          "recordings": {
+            "1": {
+              "id": 451,
+              "audioSrc": "https://dailydictation.com/tts/687/32820-1-451-2023-05-29-04-32-08.mp3",
+              "text": "buck",
+              "secondaryText": "bʌk"
+            },
+            "2": {
+              "id": 452,
+              "audioSrc": "https://dailydictation.com/tts/687/32820-2-452-2023-05-29-04-32-08.mp3",
+              "text": "buck",
+              "secondaryText": "bʌk"
+            },
+            "3": {
+              "id": 453,
+              "audioSrc": "https://dailydictation.com/tts/687/32820-3-453-2023-05-29-04-32-09.mp3",
+              "text": "buck",
+              "secondaryText": "bʌk"
+            },
+            "4": {
+              "id": 454,
+              "audioSrc": "https://dailydictation.com/tts/687/32820-4-454-2023-05-29-04-32-09.mp3",
+              "text": "buck",
+              "secondaryText": "bʌk"
+            },
+            "5": {
+              "id": 455,
+              "audioSrc": "https://dailydictation.com/tts/687/32820-5-455-2023-05-29-04-32-09.mp3",
+              "text": "buck",
+              "secondaryText": "bʌk"
+            },
+            "6": {
+              "id": 456,
+              "audioSrc": "https://dailydictation.com/tts/687/32820-6-456-2023-05-29-04-32-10.mp3",
+              "text": "buck",
+              "secondaryText": "bʌk"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32821,
+          "recordings": {
+            "1": {
+              "id": 457,
+              "audioSrc": "https://dailydictation.com/tts/687/32821-1-457-2023-05-29-04-32-10.mp3",
+              "text": "hang",
+              "secondaryText": "hæŋ"
+            },
+            "2": {
+              "id": 458,
+              "audioSrc": "https://dailydictation.com/tts/687/32821-2-458-2023-05-29-04-32-10.mp3",
+              "text": "hang",
+              "secondaryText": "hæŋ"
+            },
+            "3": {
+              "id": 459,
+              "audioSrc": "https://dailydictation.com/tts/687/32821-3-459-2023-05-29-04-32-11.mp3",
+              "text": "hang",
+              "secondaryText": "hæŋ"
+            },
+            "4": {
+              "id": 460,
+              "audioSrc": "https://dailydictation.com/tts/687/32821-4-460-2023-05-29-04-32-11.mp3",
+              "text": "hang",
+              "secondaryText": "hæŋ"
+            },
+            "5": {
+              "id": 461,
+              "audioSrc": "https://dailydictation.com/tts/687/32821-5-461-2023-05-29-04-32-11.mp3",
+              "text": "hang",
+              "secondaryText": "hæŋ"
+            },
+            "6": {
+              "id": 462,
+              "audioSrc": "https://dailydictation.com/tts/687/32821-6-462-2023-05-29-04-32-12.mp3",
+              "text": "hang",
+              "secondaryText": "hæŋ"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32822,
+          "recordings": {
+            "1": {
+              "id": 463,
+              "audioSrc": "https://dailydictation.com/tts/687/32822-1-463-2023-05-29-04-32-12.mp3",
+              "text": "hung",
+              "secondaryText": "hʌŋ"
+            },
+            "2": {
+              "id": 464,
+              "audioSrc": "https://dailydictation.com/tts/687/32822-2-464-2023-05-29-04-32-12.mp3",
+              "text": "hung",
+              "secondaryText": "hʌŋ"
+            },
+            "3": {
+              "id": 465,
+              "audioSrc": "https://dailydictation.com/tts/687/32822-3-465-2023-05-29-04-32-13.mp3",
+              "text": "hung",
+              "secondaryText": "hʌŋ"
+            },
+            "4": {
+              "id": 466,
+              "audioSrc": "https://dailydictation.com/tts/687/32822-4-466-2023-05-29-04-32-13.mp3",
+              "text": "hung",
+              "secondaryText": "hʌŋ"
+            },
+            "5": {
+              "id": 467,
+              "audioSrc": "https://dailydictation.com/tts/687/32822-5-467-2023-05-29-04-32-14.mp3",
+              "text": "hung",
+              "secondaryText": "hʌŋ"
+            },
+            "6": {
+              "id": 468,
+              "audioSrc": "https://dailydictation.com/tts/687/32822-6-468-2023-05-29-04-32-14.mp3",
+              "text": "hung",
+              "secondaryText": "hʌŋ"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 32823,
+          "recordings": {
+            "1": {
+              "id": 469,
+              "audioSrc": "https://dailydictation.com/tts/687/32823-1-469-2023-05-29-04-32-14.mp3",
+              "text": "mad",
+              "secondaryText": "mæd"
+            },
+            "2": {
+              "id": 470,
+              "audioSrc": "https://dailydictation.com/tts/687/32823-2-470-2023-05-29-04-32-15.mp3",
+              "text": "mad",
+              "secondaryText": "mæd"
+            },
+            "3": {
+              "id": 471,
+              "audioSrc": "https://dailydictation.com/tts/687/32823-3-471-2023-05-29-04-32-15.mp3",
+              "text": "mad",
+              "secondaryText": "mæd"
+            },
+            "4": {
+              "id": 472,
+              "audioSrc": "https://dailydictation.com/tts/687/32823-4-472-2023-05-29-04-32-16.mp3",
+              "text": "mad",
+              "secondaryText": "mæd"
+            },
+            "5": {
+              "id": 473,
+              "audioSrc": "https://dailydictation.com/tts/687/32823-5-473-2023-05-29-04-32-16.mp3",
+              "text": "mad",
+              "secondaryText": "mæd"
+            },
+            "6": {
+              "id": 474,
+              "audioSrc": "https://dailydictation.com/tts/687/32823-6-474-2023-05-29-04-32-16.mp3",
+              "text": "mad",
+              "secondaryText": "mæd"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 32824,
+          "recordings": {
+            "1": {
+              "id": 475,
+              "audioSrc": "https://dailydictation.com/tts/687/32824-1-475-2023-05-29-04-32-17.mp3",
+              "text": "mud",
+              "secondaryText": "mʌd"
+            },
+            "2": {
+              "id": 476,
+              "audioSrc": "https://dailydictation.com/tts/687/32824-2-476-2023-05-29-04-32-17.mp3",
+              "text": "mud",
+              "secondaryText": "mʌd"
+            },
+            "3": {
+              "id": 477,
+              "audioSrc": "https://dailydictation.com/tts/687/32824-3-477-2023-05-29-04-32-17.mp3",
+              "text": "mud",
+              "secondaryText": "mʌd"
+            },
+            "4": {
+              "id": 478,
+              "audioSrc": "https://dailydictation.com/tts/687/32824-4-478-2023-05-29-04-32-18.mp3",
+              "text": "mud",
+              "secondaryText": "mʌd"
+            },
+            "5": {
+              "id": 479,
+              "audioSrc": "https://dailydictation.com/tts/687/32824-5-479-2023-05-29-04-32-18.mp3",
+              "text": "mud",
+              "secondaryText": "mʌd"
+            },
+            "6": {
+              "id": 480,
+              "audioSrc": "https://dailydictation.com/tts/687/32824-6-480-2023-05-29-04-32-19.mp3",
+              "text": "mud",
+              "secondaryText": "mʌd"
+            }
+          },
+          "saveUrl": null
+        }
+      ]
+    ],
+    "voices": [
+      {
+        "id": 2,
+        "displayName": "🇺🇸 American English (Male)",
+        "displayNameShort": "🇺🇸 (M)"
+      },
+      {
+        "id": 1,
+        "displayName": "🇺🇸 American English (Female)",
+        "displayNameShort": "🇺🇸 (F)"
+      },
+      {
+        "id": 4,
+        "displayName": "🇬🇧 British English (Male)",
+        "displayNameShort": "🇬🇧 (M)"
+      },
+      {
+        "id": 3,
+        "displayName": "🇬🇧 British English (Female)",
+        "displayNameShort": "🇬🇧 (F)"
+      },
+      {
+        "id": 6,
+        "displayName": "🇦🇺 Australian English (Male)",
+        "displayNameShort": "🇦🇺 (M)"
+      },
+      {
+        "id": 5,
+        "displayName": "🇦🇺 Australian English (Female)",
+        "displayNameShort": "🇦🇺 (F)"
+      }
+    ],
+    "defaultPosition": 0
+  }
+}

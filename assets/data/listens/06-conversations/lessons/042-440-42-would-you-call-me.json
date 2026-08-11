@@ -1,0 +1,838 @@
+{
+  "summary": {
+    "id": 440,
+    "name": "42. Would You Call me?",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 42,
+    "totalChallenges": 15,
+    "groupId": 104,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/440",
+  "detail": {
+    "id": 440,
+    "lessonName": "42. Would You Call me?",
+    "name": "42. Would You Call me?",
+    "position": 42,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/0-42-would-you-call-me.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18221,
+        "position": 1,
+        "content": "Well, see you tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "see",
+          "you",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/1.mp3",
+        "timeStart": 2.62,
+        "timeEnd": 4.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18221/list"
+      },
+      {
+        "id": 18222,
+        "position": 2,
+        "content": "I'd better go, too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "better",
+          "go,",
+          "too."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "better"
+          ],
+          [
+            "go,"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/2-2022-03-08-20-04-15.mp3",
+        "timeStart": 4.16,
+        "timeEnd": 5.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18222/list"
+      },
+      {
+        "id": 18223,
+        "position": 3,
+        "content": "Oh, would you do me a favour?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "would",
+          "you",
+          "do",
+          "me",
+          "a",
+          [
+            "favour?",
+            "favor"
+          ]
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "favour?",
+            "favor"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/3.mp3",
+        "timeStart": 5.28,
+        "timeEnd": 6.52,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18223/list"
+      },
+      {
+        "id": 18224,
+        "position": 4,
+        "content": "Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/4.mp3",
+        "timeStart": 6.52,
+        "timeEnd": 7.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18224/list"
+      },
+      {
+        "id": 18225,
+        "position": 5,
+        "content": "Would you call me tomorrow at six o'clock in the morning?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "call",
+          "me",
+          "tomorrow",
+          "at",
+          [
+            "six",
+            "6"
+          ],
+          "o'clock",
+          "in",
+          "the",
+          "morning?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "call"
+          ],
+          [
+            "me"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "at"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "o'clock"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "morning?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/5.mp3",
+        "timeStart": 7.12,
+        "timeEnd": 9.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18225/list"
+      },
+      {
+        "id": 18226,
+        "position": 6,
+        "content": "Tomorrow's my daughter's birthday. I wanna get her a new robe,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Tomorrow's",
+            "Tomorrow is"
+          ],
+          "my",
+          "daughter's",
+          "birthday.",
+          "I",
+          [
+            "wanna",
+            "want to"
+          ],
+          "get",
+          "her",
+          "a",
+          "new",
+          "robe,"
+        ],
+        "solution": [
+          [
+            "Tomorrow's",
+            "Tomorrow is"
+          ],
+          [
+            "my"
+          ],
+          [
+            "daughter's"
+          ],
+          [
+            "birthday."
+          ],
+          [
+            "I"
+          ],
+          [
+            "wanna",
+            "want to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "her"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "robe,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/6.mp3",
+        "timeStart": 9.38,
+        "timeEnd": 12.3,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18226/list"
+      },
+      {
+        "id": 18227,
+        "position": 7,
+        "content": "and I have to pick up the dry cleaning, and pick up the cake from the bakery.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "pick",
+          "up",
+          "the",
+          "dry",
+          "cleaning,",
+          "and",
+          "pick",
+          "up",
+          "the",
+          "cake",
+          "from",
+          "the",
+          "bakery."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dry"
+          ],
+          [
+            "cleaning,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cake"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bakery."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/7.mp3",
+        "timeStart": 12.3,
+        "timeEnd": 15.32,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/18227/list"
+      },
+      {
+        "id": 18228,
+        "position": 8,
+        "content": "Anyway, I have lots of things to do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anyway,",
+          [
+            "I have",
+            "I've"
+          ],
+          "lots",
+          "of",
+          "things",
+          "to",
+          "do."
+        ],
+        "solution": [
+          [
+            "Anyway,"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "things"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/8.mp3",
+        "timeStart": 15.32,
+        "timeEnd": 17.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18228/list"
+      },
+      {
+        "id": 18229,
+        "position": 9,
+        "content": "But I'm not sure I can get up early.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "sure",
+          "I",
+          "can",
+          "get",
+          "up",
+          "early."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "up"
+          ],
+          [
+            "early."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/9-2022-03-08-20-07-11.mp3",
+        "timeStart": 17.17,
+        "timeEnd": 18.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18229/list"
+      },
+      {
+        "id": 18230,
+        "position": 10,
+        "content": "Do you need a hand?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "need",
+          "a",
+          "hand?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hand?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/10.mp3",
+        "timeStart": 18.91,
+        "timeEnd": 19.88,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18230/list"
+      },
+      {
+        "id": 18231,
+        "position": 11,
+        "content": "Oh, can you? That would be great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "can",
+          "you?",
+          "That",
+          "would",
+          "be",
+          "great."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "you?"
+          ],
+          [
+            "That"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/11.mp3",
+        "timeStart": 19.88,
+        "timeEnd": 21.64,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18231/list"
+      },
+      {
+        "id": 18232,
+        "position": 12,
+        "content": "Can you go to the mall and buy her a new robe,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "go",
+          "to",
+          "the",
+          "mall",
+          "and",
+          "buy",
+          "her",
+          "a",
+          "new",
+          "robe,"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "mall"
+          ],
+          [
+            "and"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "her"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "robe,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/12.mp3",
+        "timeStart": 21.64,
+        "timeEnd": 23.7,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18232/list"
+      },
+      {
+        "id": 18233,
+        "position": 13,
+        "content": "pick up the dry cleaning, and get the cake from the bakery?",
+        "defaultInput": "",
+        "jsonContent": [
+          "pick",
+          "up",
+          "the",
+          "dry",
+          "cleaning,",
+          "and",
+          "get",
+          "the",
+          "cake",
+          "from",
+          "the",
+          "bakery?"
+        ],
+        "solution": [
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dry"
+          ],
+          [
+            "cleaning,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cake"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bakery?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/13.mp3",
+        "timeStart": 23.7,
+        "timeEnd": 26.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18233/list"
+      },
+      {
+        "id": 18234,
+        "position": 14,
+        "content": "And what will you be doing?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "will",
+          "you",
+          "be",
+          "doing?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "will"
+          ],
+          [
+            "you"
+          ],
+          [
+            "be"
+          ],
+          [
+            "doing?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/14.mp3",
+        "timeStart": 26.24,
+        "timeEnd": 27.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18234/list"
+      },
+      {
+        "id": 18235,
+        "position": 15,
+        "content": "Sleeping in of course!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sleeping",
+          "in",
+          "of",
+          "course!"
+        ],
+        "solution": [
+          [
+            "Sleeping"
+          ],
+          [
+            "in"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/42-would-you-call-me-2022-03-07-21-18-59/15.mp3",
+        "timeStart": 27.66,
+        "timeEnd": 29.22,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/18235/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18221": {
+      "id": 32568,
+      "text": "Được rồi, hẹn gặp cậu ngày mai nhé.",
+      "author": "a user"
+    },
+    "18222": {
+      "id": 32569,
+      "text": "Tớ cũng phải đi đây.",
+      "author": "a user"
+    },
+    "18223": {
+      "id": 32571,
+      "text": "Ồ, giúp tớ một việc được không?",
+      "author": "a user"
+    },
+    "18224": {
+      "id": 32574,
+      "text": "Chắc chắn rồi!",
+      "author": "a user"
+    },
+    "18225": {
+      "id": 32575,
+      "text": "Bạn gọi cho tôi vào lúc sáu giờ sáng mai được không?",
+      "author": "a user"
+    },
+    "18226": {
+      "id": 32578,
+      "text": "Ngày mai là sinh nhật của con gái tôi. Tôi muốn mua cho con bé một chiếc áo choàng mới,",
+      "author": "a user"
+    },
+    "18227": {
+      "id": 32585,
+      "text": "và tôi phải đến lấy quần áo đã được giặt khô, và lấy bánh từ tiệm bánh.",
+      "author": "a user"
+    },
+    "18228": {
+      "id": 32650,
+      "text": "Dù sao thì tôi cũng có rất nhiều việc phải làm.",
+      "author": "a user"
+    },
+    "18230": {
+      "id": 32658,
+      "text": "Cậu cần tớ giúp gì không?",
+      "author": "a user"
+    },
+    "18231": {
+      "id": 32661,
+      "text": "Ồ, thật à? Thế thì tốt quá.",
+      "author": "a user"
+    },
+    "18233": {
+      "id": 32670,
+      "text": "Lấy đồ đã được giặt khô, và lấy bánh từ tiệm bánh?",
+      "author": "a user"
+    },
+    "18234": {
+      "id": 32675,
+      "text": "Thế còn cậu làm gì?",
+      "author": "a user"
+    },
+    "18235": {
+      "id": 32678,
+      "text": "Dĩ nhiên là ngủ nướng rồi!",
+      "author": "a user"
+    },
+    "18229": {
+      "id": 2600400,
+      "text": "Nhưng tôi không chắc mình có thể dậy sớm được.",
+      "author": "ChatGPT4.1"
+    },
+    "18232": {
+      "id": 2600401,
+      "text": "Bạn có thể đến trung tâm thương mại mua cho con bé một chiếc áo choàng mới,",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

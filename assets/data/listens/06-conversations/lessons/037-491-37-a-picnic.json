@@ -1,0 +1,469 @@
+{
+  "summary": {
+    "id": 491,
+    "name": "37. A picnic",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 37,
+    "totalChallenges": 10,
+    "groupId": 103,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/491",
+  "detail": {
+    "id": 491,
+    "lessonName": "37. A picnic",
+    "name": "37. A picnic",
+    "position": 37,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/0-37-a-picnic.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18828,
+        "position": 1,
+        "content": "Let's go for a picnic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "go",
+          "for",
+          "a",
+          "picnic."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "go"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "picnic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/1.mp3",
+        "timeStart": 2.01,
+        "timeEnd": 3.36,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18828/list"
+      },
+      {
+        "id": 18829,
+        "position": 2,
+        "content": "That's a great idea! Where shall we go?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "a",
+          "great",
+          "idea!",
+          "Where",
+          "shall",
+          "we",
+          "go?"
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "idea!"
+          ],
+          [
+            "Where"
+          ],
+          [
+            "shall"
+          ],
+          [
+            "we"
+          ],
+          [
+            "go?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/2.mp3",
+        "timeStart": 3.36,
+        "timeEnd": 5.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18829/list"
+      },
+      {
+        "id": 18830,
+        "position": 3,
+        "content": "Let's go to the park.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "go",
+          "to",
+          "the",
+          "park."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "park."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/3.mp3",
+        "timeStart": 5.4,
+        "timeEnd": 6.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18830/list"
+      },
+      {
+        "id": 18831,
+        "position": 4,
+        "content": "How far is it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "far",
+          "is",
+          "it?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "far"
+          ],
+          [
+            "is"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/4.mp3",
+        "timeStart": 6.58,
+        "timeEnd": 7.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18831/list"
+      },
+      {
+        "id": 18832,
+        "position": 5,
+        "content": "About a mile.",
+        "defaultInput": "",
+        "jsonContent": [
+          "About",
+          "a",
+          "mile."
+        ],
+        "solution": [
+          [
+            "About"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mile."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/5.mp3",
+        "timeStart": 7.56,
+        "timeEnd": 8.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18832/list"
+      },
+      {
+        "id": 18833,
+        "position": 6,
+        "content": "Is it a nice place?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "it",
+          "a",
+          "nice",
+          "place?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "a"
+          ],
+          [
+            "nice"
+          ],
+          [
+            "place?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/6.mp3",
+        "timeStart": 8.67,
+        "timeEnd": 9.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18833/list"
+      },
+      {
+        "id": 18834,
+        "position": 7,
+        "content": "Sure. It has picnic tables and a beautiful lake.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure.",
+          [
+            "It has",
+            "it's"
+          ],
+          "picnic",
+          "tables",
+          "and",
+          "a",
+          "beautiful",
+          "lake."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ],
+          [
+            "It has",
+            "it's"
+          ],
+          [
+            "picnic"
+          ],
+          [
+            "tables"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "beautiful"
+          ],
+          [
+            "lake."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/7.mp3",
+        "timeStart": 9.83,
+        "timeEnd": 13.08,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18834/list"
+      },
+      {
+        "id": 18835,
+        "position": 8,
+        "content": "Good. I'll make some sandwiches.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good.",
+          [
+            "I'll",
+            "I will"
+          ],
+          "make",
+          "some",
+          "sandwiches."
+        ],
+        "solution": [
+          [
+            "Good."
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "some"
+          ],
+          [
+            "sandwiches."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/8.mp3",
+        "timeStart": 13.08,
+        "timeEnd": 14.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18835/list"
+      },
+      {
+        "id": 18836,
+        "position": 9,
+        "content": "I'll bring soda and cookies.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "bring",
+          "soda",
+          "and",
+          "cookies."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "soda"
+          ],
+          [
+            "and"
+          ],
+          [
+            "cookies."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/9.mp3",
+        "timeStart": 14.6,
+        "timeEnd": 16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18836/list"
+      },
+      {
+        "id": 18837,
+        "position": 10,
+        "content": "The kids will love it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "kids",
+          "will",
+          "love",
+          "it."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "kids"
+          ],
+          [
+            "will"
+          ],
+          [
+            "love"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/37-a-picnic-2022-03-08-16-53-08/10.mp3",
+        "timeStart": 16,
+        "timeEnd": 17.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18837/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18828": {
+      "id": 22541,
+      "text": "Chúng ta hãy cùng đi dã ngoại nào.",
+      "author": "a user"
+    },
+    "18830": {
+      "id": 22545,
+      "text": "Chúng ta hãy đi đến công viên đi.",
+      "author": "a user"
+    },
+    "18831": {
+      "id": 22546,
+      "text": "Nó cách đây bao xa?",
+      "author": "a user"
+    },
+    "18833": {
+      "id": 22548,
+      "text": "Chỗ đó có đẹp không?",
+      "author": "a user"
+    },
+    "18835": {
+      "id": 22554,
+      "text": "Tốt quá. Tôi sẽ làm một ít bánh sandwich.",
+      "author": "a user"
+    },
+    "18837": {
+      "id": 22570,
+      "text": "Bọn trẻ sẽ thích chúng.",
+      "author": "a user"
+    },
+    "18829": {
+      "id": 2587127,
+      "text": "Ý hay đấy! Chúng ta sẽ đi đâu?",
+      "author": "ChatGPT4.1"
+    },
+    "18832": {
+      "id": 2587128,
+      "text": "Khoảng một dặm.",
+      "author": "ChatGPT4.1"
+    },
+    "18834": {
+      "id": 2587129,
+      "text": "Chắc chắn rồi. Ở đó có bàn ăn ngoài trời và một hồ nước tuyệt đẹp.",
+      "author": "ChatGPT4.1"
+    },
+    "18836": {
+      "id": 2587130,
+      "text": "Tớ sẽ mang nước ngọt và bánh quy.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,637 @@
+{
+  "summary": {
+    "id": 1598,
+    "name": "Short Talk 141",
+    "subTitle": "Request for Nurse Appointment",
+    "levelName": "B1",
+    "position": 367,
+    "totalChallenges": 10,
+    "groupId": 45,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1598",
+  "detail": {
+    "id": 1598,
+    "lessonName": "Short Talk 141",
+    "name": "Short Talk 141",
+    "position": 367,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/0-short-talk-141.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66930,
+        "position": 1,
+        "content": "Good afternoon.",
+        "defaultInput": "Good afternoon.",
+        "jsonContent": [
+          "Good",
+          "afternoon."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66930/list"
+      },
+      {
+        "id": 66931,
+        "position": 2,
+        "content": "I would like to make an appointment with Nurse Jackie as soon as possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "like",
+          "to",
+          "make",
+          "an",
+          "appointment",
+          "with",
+          "Nurse",
+          "Jackie",
+          "as",
+          "soon",
+          "as",
+          "possible."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Nurse"
+          ],
+          [
+            "Jackie"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/2.mp3",
+        "timeStart": 1.03,
+        "timeEnd": 5,
+        "hints": [
+          "Jackie"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66931/list"
+      },
+      {
+        "id": 66932,
+        "position": 3,
+        "content": "I got my appendix out last week at Grant Hospital,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "got",
+          "my",
+          "appendix",
+          "out",
+          "last",
+          "week",
+          "at",
+          "Grant",
+          "Hospital,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "my"
+          ],
+          [
+            "appendix"
+          ],
+          [
+            "out"
+          ],
+          [
+            "last"
+          ],
+          [
+            "week"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Grant"
+          ],
+          [
+            "Hospital,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/3.mp3",
+        "timeStart": 5,
+        "timeEnd": 8.36,
+        "hints": [
+          "Grant"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66932/list"
+      },
+      {
+        "id": 66933,
+        "position": 4,
+        "content": "but I am still having some problems with my stitches.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "I am",
+            "I'm"
+          ],
+          "still",
+          "having",
+          "some",
+          "problems",
+          "with",
+          "my",
+          "stitches."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "still"
+          ],
+          [
+            "having"
+          ],
+          [
+            "some"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "stitches."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/4.mp3",
+        "timeStart": 8.36,
+        "timeEnd": 11.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66933/list"
+      },
+      {
+        "id": 66934,
+        "position": 5,
+        "content": "The hospital is far too busy,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "hospital",
+          "is",
+          "far",
+          "too",
+          "busy,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "hospital"
+          ],
+          [
+            "is"
+          ],
+          [
+            "far"
+          ],
+          [
+            "too"
+          ],
+          [
+            "busy,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/5.mp3",
+        "timeStart": 11.6,
+        "timeEnd": 13.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66934/list"
+      },
+      {
+        "id": 66935,
+        "position": 6,
+        "content": "so I think the nurse will be able to help me with my situation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "think",
+          "the",
+          "nurse",
+          "will",
+          "be",
+          "able",
+          "to",
+          "help",
+          "me",
+          "with",
+          "my",
+          "situation."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nurse"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "situation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/6.mp3",
+        "timeStart": 13.84,
+        "timeEnd": 17.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66935/list"
+      },
+      {
+        "id": 66936,
+        "position": 7,
+        "content": "I would also like to ask her what bandages are best for healing.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "also",
+          "like",
+          "to",
+          "ask",
+          "her",
+          "what",
+          "bandages",
+          "are",
+          "best",
+          "for",
+          "healing."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "also"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "her"
+          ],
+          [
+            "what"
+          ],
+          [
+            "bandages"
+          ],
+          [
+            "are"
+          ],
+          [
+            "best"
+          ],
+          [
+            "for"
+          ],
+          [
+            "healing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/7.mp3",
+        "timeStart": 17.56,
+        "timeEnd": 21.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66936/list"
+      },
+      {
+        "id": 66937,
+        "position": 8,
+        "content": "I am off of work for the next week, so I can come in at any time.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "off",
+          "of",
+          "work",
+          "for",
+          "the",
+          "next",
+          "week,",
+          "so",
+          "I",
+          "can",
+          "come",
+          "in",
+          "at",
+          "any",
+          "time."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "off"
+          ],
+          [
+            "of"
+          ],
+          [
+            "work"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "come"
+          ],
+          [
+            "in"
+          ],
+          [
+            "at"
+          ],
+          [
+            "any"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/8.mp3",
+        "timeStart": 21.56,
+        "timeEnd": 26.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66937/list"
+      },
+      {
+        "id": 66938,
+        "position": 9,
+        "content": "Please call me back as soon as possible at 738-90187.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "call",
+          "me",
+          "back",
+          "as",
+          "soon",
+          "as",
+          "possible",
+          "at",
+          [
+            "738-90187.",
+            "738 90187."
+          ]
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "call"
+          ],
+          [
+            "me"
+          ],
+          [
+            "back"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible"
+          ],
+          [
+            "at"
+          ],
+          [
+            "738-90187.",
+            "738 90187."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/9.mp3",
+        "timeStart": 26.08,
+        "timeEnd": 32.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66938/list"
+      },
+      {
+        "id": 66939,
+        "position": 10,
+        "content": "Thanks.",
+        "defaultInput": "Thanks.",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-141-2024-09-14-19-00-03/10.mp3",
+        "timeStart": 32.04,
+        "timeEnd": 33.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66939/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66930": {
+      "id": 2623949,
+      "text": "Chào buổi chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "66931": {
+      "id": 2623950,
+      "text": "Tôi muốn đặt lịch hẹn với y tá Jackie càng sớm càng tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "66932": {
+      "id": 2623951,
+      "text": "Tôi đã phẫu thuật cắt ruột thừa tuần trước tại bệnh viện Grant,",
+      "author": "ChatGPT4.1"
+    },
+    "66933": {
+      "id": 2623952,
+      "text": "nhưng tôi vẫn gặp một số vấn đề với các mũi khâu.",
+      "author": "ChatGPT4.1"
+    },
+    "66934": {
+      "id": 2623953,
+      "text": "Bệnh viện quá đông đúc,",
+      "author": "ChatGPT4.1"
+    },
+    "66935": {
+      "id": 2623954,
+      "text": "nên tôi nghĩ y tá sẽ có thể giúp tôi với tình trạng của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "66936": {
+      "id": 2623955,
+      "text": "Tôi cũng muốn hỏi cô ấy loại băng gạc nào tốt nhất cho quá trình lành vết thương.",
+      "author": "ChatGPT4.1"
+    },
+    "66937": {
+      "id": 2623956,
+      "text": "Tôi sẽ nghỉ làm trong tuần tới, nên tôi có thể đến bất cứ lúc nào.",
+      "author": "ChatGPT4.1"
+    },
+    "66938": {
+      "id": 2623957,
+      "text": "Vui lòng gọi lại cho tôi càng sớm càng tốt theo số 738-90187.",
+      "author": "ChatGPT4.1"
+    },
+    "66939": {
+      "id": 2623958,
+      "text": "Cảm ơn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

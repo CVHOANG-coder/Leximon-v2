@@ -1,0 +1,1675 @@
+{
+  "summary": {
+    "id": 94,
+    "name": "64. Me",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 65,
+    "totalChallenges": 28,
+    "groupId": 89,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/94",
+  "detail": {
+    "id": 94,
+    "lessonName": "64. Me",
+    "name": "64. Me",
+    "position": 65,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/0-64-me.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 3923,
+        "position": 1,
+        "content": "I am special - nobody in the world is exactly like I am.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "special",
+          "-",
+          "nobody",
+          "in",
+          "the",
+          "world",
+          "is",
+          "exactly",
+          "like",
+          [
+            "I am.",
+            "I'm"
+          ]
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "special"
+          ],
+          [
+            "-"
+          ],
+          [
+            "nobody"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "is"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "like"
+          ],
+          [
+            "I am.",
+            "I'm"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/1.mp3",
+        "timeStart": 3.2,
+        "timeEnd": 8.5,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/3923/list"
+      },
+      {
+        "id": 3924,
+        "position": 2,
+        "content": "They might have the same hair color and eyes that I do,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "might",
+          "have",
+          "the",
+          "same",
+          "hair",
+          [
+            "color",
+            "colour"
+          ],
+          "and",
+          "eyes",
+          "that",
+          "I",
+          "do,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "might"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "hair"
+          ],
+          [
+            "color",
+            "colour"
+          ],
+          [
+            "and"
+          ],
+          [
+            "eyes"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/2.mp3",
+        "timeStart": 9,
+        "timeEnd": 12.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3924/list"
+      },
+      {
+        "id": 3925,
+        "position": 3,
+        "content": "but they are not exactly like me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "they are",
+            "they're"
+          ],
+          "not",
+          "exactly",
+          "like",
+          "me."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "not"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "like"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/3.mp3",
+        "timeStart": 12.39,
+        "timeEnd": 14.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3925/list"
+      },
+      {
+        "id": 3926,
+        "position": 4,
+        "content": "I am the only person in the world who thinks my thoughts.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "the",
+          "only",
+          "person",
+          "in",
+          "the",
+          "world",
+          "who",
+          "thinks",
+          "my",
+          "thoughts."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "person"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "who"
+          ],
+          [
+            "thinks"
+          ],
+          [
+            "my"
+          ],
+          [
+            "thoughts."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/4.mp3",
+        "timeStart": 15.4,
+        "timeEnd": 19.5,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/3926/list"
+      },
+      {
+        "id": 3927,
+        "position": 5,
+        "content": "No two people in the world are exactly alike.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          [
+            "two",
+            "2"
+          ],
+          "people",
+          "in",
+          "the",
+          "world",
+          "are",
+          "exactly",
+          "alike."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "people"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "are"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "alike."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/5.mp3",
+        "timeStart": 19.9,
+        "timeEnd": 23.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3927/list"
+      },
+      {
+        "id": 3928,
+        "position": 6,
+        "content": "It is good to be your own person.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "good",
+          "to",
+          "be",
+          "your",
+          "own",
+          "person."
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "good"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own"
+          ],
+          [
+            "person."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/6.mp3",
+        "timeStart": 23.9,
+        "timeEnd": 26.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3928/list"
+      },
+      {
+        "id": 3929,
+        "position": 7,
+        "content": "It is good to be creative and be natural.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "good",
+          "to",
+          "be",
+          "creative",
+          "and",
+          "be",
+          "natural."
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "good"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "creative"
+          ],
+          [
+            "and"
+          ],
+          [
+            "be"
+          ],
+          [
+            "natural."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/7.mp3",
+        "timeStart": 26.6,
+        "timeEnd": 30,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3929/list"
+      },
+      {
+        "id": 3930,
+        "position": 8,
+        "content": "People have to follow the laws and the rules.",
+        "defaultInput": "",
+        "jsonContent": [
+          "People",
+          "have",
+          "to",
+          "follow",
+          "the",
+          "laws",
+          "and",
+          "the",
+          "rules."
+        ],
+        "solution": [
+          [
+            "People"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "follow"
+          ],
+          [
+            "the"
+          ],
+          [
+            "laws"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rules."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/8.mp3",
+        "timeStart": 30.9,
+        "timeEnd": 33.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3930/list"
+      },
+      {
+        "id": 3931,
+        "position": 9,
+        "content": "People should always be kind to others.",
+        "defaultInput": "",
+        "jsonContent": [
+          "People",
+          "should",
+          "always",
+          "be",
+          "kind",
+          "to",
+          "others."
+        ],
+        "solution": [
+          [
+            "People"
+          ],
+          [
+            "should"
+          ],
+          [
+            "always"
+          ],
+          [
+            "be"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "to"
+          ],
+          [
+            "others."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/9.mp3",
+        "timeStart": 34.5,
+        "timeEnd": 37.2,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/3931/list"
+      },
+      {
+        "id": 3932,
+        "position": 10,
+        "content": "I try to follow all the rules.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "try",
+          "to",
+          "follow",
+          "all",
+          "the",
+          "rules."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "follow"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rules."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/10.mp3",
+        "timeStart": 37.8,
+        "timeEnd": 39.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3932/list"
+      },
+      {
+        "id": 3933,
+        "position": 11,
+        "content": "I am kind to others.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "kind",
+          "to",
+          "others."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "to"
+          ],
+          [
+            "others."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/11.mp3",
+        "timeStart": 40.2,
+        "timeEnd": 42,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/3933/list"
+      },
+      {
+        "id": 3934,
+        "position": 12,
+        "content": "I am a lot like many other people, yet I am different.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "a",
+          "lot",
+          "like",
+          "many",
+          "other",
+          "people,",
+          "yet",
+          [
+            "I am",
+            "I'm"
+          ],
+          "different."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "like"
+          ],
+          [
+            "many"
+          ],
+          [
+            "other"
+          ],
+          [
+            "people,"
+          ],
+          [
+            "yet"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "different."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/12.mp3",
+        "timeStart": 42.6,
+        "timeEnd": 46.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3934/list"
+      },
+      {
+        "id": 3935,
+        "position": 13,
+        "content": "I am like my friend Jane,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "like",
+          "my",
+          "friend",
+          "Jane,"
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "like"
+          ],
+          [
+            "my"
+          ],
+          [
+            "friend"
+          ],
+          [
+            "Jane,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/13.mp3",
+        "timeStart": 47.7,
+        "timeEnd": 49.4,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/3935/list"
+      },
+      {
+        "id": 3936,
+        "position": 14,
+        "content": "but she has red hair and I have dark hair.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "she has",
+            "she's"
+          ],
+          "red",
+          "hair",
+          "and",
+          [
+            "I have",
+            "I've"
+          ],
+          "dark",
+          "hair."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "she has",
+            "she's"
+          ],
+          [
+            "red"
+          ],
+          [
+            "hair"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "dark"
+          ],
+          [
+            "hair."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/14.mp3",
+        "timeStart": 49.6,
+        "timeEnd": 53.2,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/3936/list"
+      },
+      {
+        "id": 3937,
+        "position": 15,
+        "content": "She has a loud voice, and I have a soft voice.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She has",
+            "she's"
+          ],
+          "a",
+          "loud",
+          "voice,",
+          "and",
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "soft",
+          "voice."
+        ],
+        "solution": [
+          [
+            "She has",
+            "she's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "loud"
+          ],
+          [
+            "voice,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "soft"
+          ],
+          [
+            "voice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/15.mp3",
+        "timeStart": 53.8,
+        "timeEnd": 57.6,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/3937/list"
+      },
+      {
+        "id": 3938,
+        "position": 16,
+        "content": "She likes to eat vegetables, and I do not.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "likes",
+          "to",
+          "eat",
+          "vegetables,",
+          "and",
+          "I",
+          [
+            "do not.",
+            "don't"
+          ]
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "likes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "vegetables,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do not.",
+            "don't"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/16.mp3",
+        "timeStart": 58,
+        "timeEnd": 61.13,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/3938/list"
+      },
+      {
+        "id": 3939,
+        "position": 17,
+        "content": "Jane and I are the same height.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jane",
+          "and",
+          "I",
+          "are",
+          "the",
+          "same",
+          "height."
+        ],
+        "solution": [
+          [
+            "Jane"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "are"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "height."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/17.mp3",
+        "timeStart": 61.6,
+        "timeEnd": 64.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3939/list"
+      },
+      {
+        "id": 3940,
+        "position": 18,
+        "content": "We both like movies, and we are both afraid of spiders.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "both",
+          "like",
+          "movies,",
+          "and",
+          [
+            "we are",
+            "we're"
+          ],
+          "both",
+          "afraid",
+          "of",
+          "spiders."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "both"
+          ],
+          [
+            "like"
+          ],
+          [
+            "movies,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we are",
+            "we're"
+          ],
+          [
+            "both"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "of"
+          ],
+          [
+            "spiders."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/18.mp3",
+        "timeStart": 64.6,
+        "timeEnd": 68.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3940/list"
+      },
+      {
+        "id": 3941,
+        "position": 19,
+        "content": "We wear the same size shoes, and we both have the same favorite color.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "wear",
+          "the",
+          "same",
+          "size",
+          "shoes,",
+          "and",
+          "we",
+          "both",
+          "have",
+          "the",
+          "same",
+          [
+            "favorite",
+            "favourite"
+          ],
+          [
+            "color.",
+            "colour"
+          ]
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "wear"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "size"
+          ],
+          [
+            "shoes,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "both"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "favorite",
+            "favourite"
+          ],
+          [
+            "color.",
+            "colour"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/19.mp3",
+        "timeStart": 69.3,
+        "timeEnd": 74.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3941/list"
+      },
+      {
+        "id": 3942,
+        "position": 20,
+        "content": "We are best friends, but sometimes we disagree about things.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are",
+            "we're"
+          ],
+          "best",
+          "friends,",
+          "but",
+          "sometimes",
+          "we",
+          "disagree",
+          "about",
+          "things."
+        ],
+        "solution": [
+          [
+            "We are",
+            "we're"
+          ],
+          [
+            "best"
+          ],
+          [
+            "friends,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "we"
+          ],
+          [
+            "disagree"
+          ],
+          [
+            "about"
+          ],
+          [
+            "things."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/20.mp3",
+        "timeStart": 74.8,
+        "timeEnd": 79.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3942/list"
+      },
+      {
+        "id": 3943,
+        "position": 21,
+        "content": "We are alike in many ways, and different in many ways.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are",
+            "we're"
+          ],
+          "alike",
+          "in",
+          "many",
+          "ways,",
+          "and",
+          "different",
+          "in",
+          "many",
+          "ways."
+        ],
+        "solution": [
+          [
+            "We are",
+            "we're"
+          ],
+          [
+            "alike"
+          ],
+          [
+            "in"
+          ],
+          [
+            "many"
+          ],
+          [
+            "ways,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "different"
+          ],
+          [
+            "in"
+          ],
+          [
+            "many"
+          ],
+          [
+            "ways."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/21.mp3",
+        "timeStart": 80,
+        "timeEnd": 84.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3943/list"
+      },
+      {
+        "id": 3944,
+        "position": 22,
+        "content": "If we were all exactly the same,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "we",
+          "were",
+          "all",
+          "exactly",
+          "the",
+          "same,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "we"
+          ],
+          [
+            "were"
+          ],
+          [
+            "all"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/22.mp3",
+        "timeStart": 85.3,
+        "timeEnd": 87.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3944/list"
+      },
+      {
+        "id": 3945,
+        "position": 23,
+        "content": "the world would be a very boring place.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "world",
+          "would",
+          "be",
+          "a",
+          "very",
+          "boring",
+          "place."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "boring"
+          ],
+          [
+            "place."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/23.mp3",
+        "timeStart": 88.1,
+        "timeEnd": 91.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3945/list"
+      },
+      {
+        "id": 3946,
+        "position": 24,
+        "content": "I am myself, and I am glad that I am special.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "myself,",
+          "and",
+          [
+            "I am",
+            "I'm"
+          ],
+          "glad",
+          "that",
+          [
+            "I am",
+            "I'm"
+          ],
+          "special."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "myself,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "glad"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "special."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/24.mp3",
+        "timeStart": 91.8,
+        "timeEnd": 95.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3946/list"
+      },
+      {
+        "id": 3947,
+        "position": 25,
+        "content": "You are special too.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You are",
+            "you're"
+          ],
+          "special",
+          "too."
+        ],
+        "solution": [
+          [
+            "You are",
+            "you're"
+          ],
+          [
+            "special"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/25.mp3",
+        "timeStart": 96.3,
+        "timeEnd": 98.4,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/3947/list"
+      },
+      {
+        "id": 3948,
+        "position": 26,
+        "content": "Use your own special talents, and take the time to meet other people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Use",
+          "your",
+          "own",
+          "special",
+          "talents,",
+          "and",
+          "take",
+          "the",
+          "time",
+          "to",
+          "meet",
+          "other",
+          "people."
+        ],
+        "solution": [
+          [
+            "Use"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own"
+          ],
+          [
+            "special"
+          ],
+          [
+            "talents,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "take"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "other"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/26.mp3",
+        "timeStart": 98.9,
+        "timeEnd": 103.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3948/list"
+      },
+      {
+        "id": 3949,
+        "position": 27,
+        "content": "The world is made up of a lot of different people,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "world",
+          "is",
+          "made",
+          "up",
+          "of",
+          "a",
+          "lot",
+          "of",
+          "different",
+          "people,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "world"
+          ],
+          [
+            "is"
+          ],
+          [
+            "made"
+          ],
+          [
+            "up"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "different"
+          ],
+          [
+            "people,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/27.mp3",
+        "timeStart": 104,
+        "timeEnd": 107.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3949/list"
+      },
+      {
+        "id": 3950,
+        "position": 28,
+        "content": "and that's what makes life exciting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "that's",
+            "that is"
+          ],
+          "what",
+          "makes",
+          "life",
+          "exciting."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "what"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "life"
+          ],
+          [
+            "exciting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/64-me-2019-03-29-12-42-14/28.mp3",
+        "timeStart": 107.5,
+        "timeEnd": 110.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3950/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "3926": {
+      "id": 2838,
+      "text": "Tôi là người duy nhất trên thế giới nghĩ những suy nghĩ của mình.",
+      "author": "a user"
+    },
+    "3927": {
+      "id": 2842,
+      "text": "Không có hai người nào trên thế giới là hoàn toàn giống nhau.",
+      "author": "a user"
+    },
+    "3928": {
+      "id": 2847,
+      "text": "Thật tốt khi được là chính mình.",
+      "author": "a user"
+    },
+    "3929": {
+      "id": 2848,
+      "text": "\"Thật tốt khi sáng tạo và sống tự nhiên",
+      "author": "a user"
+    },
+    "3930": {
+      "id": 2851,
+      "text": "Mọi người phải tuân theo các luật và các quy tắc.",
+      "author": "a user"
+    },
+    "3931": {
+      "id": 2853,
+      "text": "Mọi người luôn nên tử tế với người khác.",
+      "author": "a user"
+    },
+    "3932": {
+      "id": 2854,
+      "text": "Tôi cố gắng để tuân theo tất cả các quy tắc.",
+      "author": "a user"
+    },
+    "3933": {
+      "id": 2857,
+      "text": "Tôi tử tế với người khác.",
+      "author": "a user"
+    },
+    "3934": {
+      "id": 2858,
+      "text": "Tôi có nhiều điểm giống những người khác, nhưng tôi vẫn là một người khác biệt.",
+      "author": "a user"
+    },
+    "3936": {
+      "id": 2863,
+      "text": "nhưng cô ấy có mái tóc đỏ còn tôi có mái tóc sẫm màu.",
+      "author": "a user"
+    },
+    "3937": {
+      "id": 2864,
+      "text": "Cô ấy có giọng nói lớn, còn tôi có giọng nói nhẹ nhàng.",
+      "author": "a user"
+    },
+    "3941": {
+      "id": 2876,
+      "text": "Chúng tôi đi giày cùng kích cỡ, và cả hai có cùng màu yêu thích.",
+      "author": "a user"
+    },
+    "3942": {
+      "id": 2879,
+      "text": "Chúng tôi là bạn thân của nhau, nhưng đôi khi chúng tôi không đồng ý về vài thứ.",
+      "author": "a user"
+    },
+    "3943": {
+      "id": 2881,
+      "text": "Chúng tôi giống nhau về nhiều mặt, và khác nhau về nhiều mặt.",
+      "author": "a user"
+    },
+    "3946": {
+      "id": 2889,
+      "text": "Tôi là chính tôi, và tôi vui vì tôi đặc biệt.",
+      "author": "a user"
+    },
+    "3948": {
+      "id": 2895,
+      "text": "Hãy sử dụng tài năng đặc biệt của riêng bạn và dành thời gian để gặp gỡ những người khác.",
+      "author": "a user"
+    },
+    "3924": {
+      "id": 2595408,
+      "text": "Họ có thể có màu tóc và màu mắt giống tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "3925": {
+      "id": 2595409,
+      "text": "nhưng họ không hoàn toàn giống tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "3935": {
+      "id": 2595410,
+      "text": "Tôi giống bạn tôi là Jane,",
+      "author": "ChatGPT4.1"
+    },
+    "3938": {
+      "id": 2595411,
+      "text": "Bạn ấy thích ăn rau củ, còn tôi thì không.",
+      "author": "ChatGPT4.1"
+    },
+    "3939": {
+      "id": 2595412,
+      "text": "Jane và tôi cao bằng nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "3940": {
+      "id": 2595413,
+      "text": "Chúng tôi đều thích xem phim, và cả hai đều sợ nhện.",
+      "author": "ChatGPT4.1"
+    },
+    "3944": {
+      "id": 2595414,
+      "text": "Nếu tất cả chúng ta đều giống nhau,",
+      "author": "ChatGPT4.1"
+    },
+    "3945": {
+      "id": 2595415,
+      "text": "thì thế giới sẽ là một nơi rất nhàm chán.",
+      "author": "ChatGPT4.1"
+    },
+    "3947": {
+      "id": 2595416,
+      "text": "Bạn cũng đặc biệt nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "3949": {
+      "id": 2595417,
+      "text": "Thế giới được tạo nên từ rất nhiều người khác nhau,",
+      "author": "ChatGPT4.1"
+    },
+    "3950": {
+      "id": 2595418,
+      "text": "và đó là điều làm cuộc sống trở nên thú vị.",
+      "author": "ChatGPT4.1"
+    },
+    "3923": {
+      "id": 2675360,
+      "text": "Tôi đặc biệt - không ai trên thế giới này giống hệt như tôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

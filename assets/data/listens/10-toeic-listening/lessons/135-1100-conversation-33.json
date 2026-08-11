@@ -1,0 +1,618 @@
+{
+  "summary": {
+    "id": 1100,
+    "name": "Conversation 33",
+    "subTitle": "Doctor Appointment Request",
+    "levelName": "B1",
+    "position": 135,
+    "totalChallenges": 11,
+    "groupId": 34,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1100",
+  "detail": {
+    "id": 1100,
+    "lessonName": "Conversation 33",
+    "name": "Conversation 33",
+    "position": 135,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/0-conversation-33.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53542,
+        "position": 1,
+        "content": "Hello, this is David Mann speaking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "David",
+          "Mann",
+          "speaking."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "David"
+          ],
+          [
+            "Mann"
+          ],
+          [
+            "speaking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.97,
+        "hints": [
+          "David Mann"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53542/list"
+      },
+      {
+        "id": 53543,
+        "position": 2,
+        "content": "I'd like to make an appointment with Dr. Harris, please.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "make",
+          "an",
+          "appointment",
+          "with",
+          "Dr.",
+          "Harris,",
+          "please."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Harris,"
+          ],
+          [
+            "please."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/2.mp3",
+        "timeStart": 3.18,
+        "timeEnd": 6.91,
+        "hints": [
+          "Harris"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53543/list"
+      },
+      {
+        "id": 53544,
+        "position": 3,
+        "content": "I've had a dull pain in my stomach since last week.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "had",
+          "a",
+          "dull",
+          "pain",
+          "in",
+          "my",
+          "stomach",
+          "since",
+          "last",
+          "week."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dull"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "stomach"
+          ],
+          [
+            "since"
+          ],
+          [
+            "last"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/3.mp3",
+        "timeStart": 7.33,
+        "timeEnd": 10.77,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/53544/list"
+      },
+      {
+        "id": 53545,
+        "position": 4,
+        "content": "I'd like to see Dr. Harris as soon as possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "see",
+          "Dr.",
+          "Harris",
+          "as",
+          "soon",
+          "as",
+          "possible."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Harris"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/4.mp3",
+        "timeStart": 11.13,
+        "timeEnd": 13.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53545/list"
+      },
+      {
+        "id": 53546,
+        "position": 5,
+        "content": "Dr. Harris is available this Wednesday at 1 P.M.,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Dr.",
+          "Harris",
+          "is",
+          "available",
+          "this",
+          "Wednesday",
+          "at",
+          [
+            "1",
+            "one"
+          ],
+          "P.M.,"
+        ],
+        "solution": [
+          [
+            "Dr."
+          ],
+          [
+            "Harris"
+          ],
+          [
+            "is"
+          ],
+          [
+            "available"
+          ],
+          [
+            "this"
+          ],
+          [
+            "Wednesday"
+          ],
+          [
+            "at"
+          ],
+          [
+            "1",
+            "one"
+          ],
+          [
+            "P.M.,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/5.mp3",
+        "timeStart": 14.55,
+        "timeEnd": 18.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53546/list"
+      },
+      {
+        "id": 53547,
+        "position": 6,
+        "content": "this Friday at 8 A.M.,",
+        "defaultInput": "",
+        "jsonContent": [
+          "this",
+          "Friday",
+          "at",
+          [
+            "8",
+            "eight"
+          ],
+          "A.M.,"
+        ],
+        "solution": [
+          [
+            "this"
+          ],
+          [
+            "Friday"
+          ],
+          [
+            "at"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "A.M.,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/6.mp3",
+        "timeStart": 18.95,
+        "timeEnd": 21.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53547/list"
+      },
+      {
+        "id": 53548,
+        "position": 7,
+        "content": "or next Thursday at 7:30 P.M.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "next",
+          "Thursday",
+          "at",
+          "7:30",
+          "P.M."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "next"
+          ],
+          [
+            "Thursday"
+          ],
+          [
+            "at"
+          ],
+          [
+            "7:30"
+          ],
+          [
+            "P.M."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/7.mp3",
+        "timeStart": 21.82,
+        "timeEnd": 26.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53548/list"
+      },
+      {
+        "id": 53549,
+        "position": 8,
+        "content": "Friday would work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Friday",
+          "would",
+          "work."
+        ],
+        "solution": [
+          [
+            "Friday"
+          ],
+          [
+            "would"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/8.mp3",
+        "timeStart": 26.69,
+        "timeEnd": 28.31,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53549/list"
+      },
+      {
+        "id": 53550,
+        "position": 9,
+        "content": "I usually drop my children off at school around that time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "usually",
+          "drop",
+          "my",
+          "children",
+          "off",
+          "at",
+          "school",
+          "around",
+          "that",
+          "time."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "drop"
+          ],
+          [
+            "my"
+          ],
+          [
+            "children"
+          ],
+          [
+            "off"
+          ],
+          [
+            "at"
+          ],
+          [
+            "school"
+          ],
+          [
+            "around"
+          ],
+          [
+            "that"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/9.mp3",
+        "timeStart": 28.31,
+        "timeEnd": 32.09,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53550/list"
+      },
+      {
+        "id": 53551,
+        "position": 10,
+        "content": "No problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "problem."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/10.mp3",
+        "timeStart": 32.09,
+        "timeEnd": 33.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53551/list"
+      },
+      {
+        "id": 53552,
+        "position": 11,
+        "content": "If anything comes up between now and then, please let us know.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "anything",
+          "comes",
+          "up",
+          "between",
+          "now",
+          "and",
+          "then,",
+          "please",
+          "let",
+          "us",
+          "know."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "up"
+          ],
+          [
+            "between"
+          ],
+          [
+            "now"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "let"
+          ],
+          [
+            "us"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-33-2023-09-14-16-24-51/11.mp3",
+        "timeStart": 33.57,
+        "timeEnd": 37.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53552/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "53546": {
+      "id": 893267,
+      "text": "Bác sĩ Harris sẽ có lịch rảnh lúc 1 giờ chiều Thứ Tư tuần này,",
+      "author": "a user"
+    },
+    "53549": {
+      "id": 893270,
+      "text": "Thứ Sáu sẽ phù hợp.",
+      "author": "a user"
+    },
+    "53551": {
+      "id": 893272,
+      "text": "Không vấn đề gì.",
+      "author": "a user"
+    },
+    "53542": {
+      "id": 2588788,
+      "text": "Xin chào, tôi là David Mann đây.",
+      "author": "ChatGPT4.1"
+    },
+    "53543": {
+      "id": 2588789,
+      "text": "Vui lòng cho tôi đặt lịch hẹn với bác sĩ Harris",
+      "author": "a user"
+    },
+    "53544": {
+      "id": 2588790,
+      "text": "Tôi bị đau âm ỉ ở bụng từ tuần trước.",
+      "author": "ChatGPT4.1"
+    },
+    "53545": {
+      "id": 2588791,
+      "text": "Tôi muốn gặp bác sĩ Harris càng sớm càng tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "53547": {
+      "id": 2588792,
+      "text": "thứ Sáu tuần này lúc 8 giờ sáng,",
+      "author": "ChatGPT4.1"
+    },
+    "53548": {
+      "id": 2588793,
+      "text": "hoặc thứ Năm tuần sau lúc 7 giờ 30 tối.",
+      "author": "ChatGPT4.1"
+    },
+    "53550": {
+      "id": 2588794,
+      "text": "Tôi thường đưa các con đến trường vào khoảng thời gian đó.",
+      "author": "ChatGPT4.1"
+    },
+    "53552": {
+      "id": 2588795,
+      "text": "Nếu có bất kỳ thay đổi gì từ giờ đến lúc đó, xin vui lòng báo cho chúng tôi biết.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

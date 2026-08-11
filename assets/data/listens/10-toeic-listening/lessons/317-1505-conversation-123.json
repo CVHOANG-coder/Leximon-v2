@@ -1,0 +1,1133 @@
+{
+  "summary": {
+    "id": 1505,
+    "name": "Conversation 123",
+    "subTitle": "Blog Workload and Quality Concerns",
+    "levelName": "B2",
+    "position": 317,
+    "totalChallenges": 18,
+    "groupId": 43,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1505",
+  "detail": {
+    "id": 1505,
+    "lessonName": "Conversation 123",
+    "name": "Conversation 123",
+    "position": 317,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/0-conversation-123.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65573,
+        "position": 1,
+        "content": "Hello, Jenn.",
+        "defaultInput": "Hello, Jenn.",
+        "jsonContent": [
+          "Hello,",
+          "Jenn."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Jenn."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65573/list"
+      },
+      {
+        "id": 65574,
+        "position": 2,
+        "content": "I wanted to talk about the work you recently completed for our blog.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wanted",
+          "to",
+          "talk",
+          "about",
+          "the",
+          "work",
+          "you",
+          "recently",
+          "completed",
+          "for",
+          "our",
+          "blog."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "work"
+          ],
+          [
+            "you"
+          ],
+          [
+            "recently"
+          ],
+          [
+            "completed"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "blog."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/2.mp3",
+        "timeStart": 1.4,
+        "timeEnd": 5.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65574/list"
+      },
+      {
+        "id": 65575,
+        "position": 3,
+        "content": "It seems that the posts haven't been up to the standard we had hoped.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "seems",
+          "that",
+          "the",
+          "posts",
+          [
+            "haven't",
+            "have not"
+          ],
+          "been",
+          "up",
+          "to",
+          "the",
+          "standard",
+          [
+            "we had",
+            "we'd"
+          ],
+          "hoped."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "posts"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "been"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "standard"
+          ],
+          [
+            "we had",
+            "we'd"
+          ],
+          [
+            "hoped."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/3.mp3",
+        "timeStart": 5.74,
+        "timeEnd": 9.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65575/list"
+      },
+      {
+        "id": 65576,
+        "position": 4,
+        "content": "I agree.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "agree."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "agree."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/4.mp3",
+        "timeStart": 9.58,
+        "timeEnd": 10.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65576/list"
+      },
+      {
+        "id": 65577,
+        "position": 5,
+        "content": "Unfortunately, I am so busy and have had to hurry my posts lately,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Unfortunately,",
+          [
+            "I am",
+            "I'm"
+          ],
+          "so",
+          "busy",
+          "and",
+          "have",
+          "had",
+          "to",
+          "hurry",
+          "my",
+          "posts",
+          "lately,"
+        ],
+        "solution": [
+          [
+            "Unfortunately,"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "so"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "and"
+          ],
+          [
+            "have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hurry"
+          ],
+          [
+            "my"
+          ],
+          [
+            "posts"
+          ],
+          [
+            "lately,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/5.mp3",
+        "timeStart": 10.58,
+        "timeEnd": 15.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65577/list"
+      },
+      {
+        "id": 65578,
+        "position": 6,
+        "content": "so I haven't been able to spend much time looking up the background information I need for each article.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          [
+            "haven't",
+            "have not"
+          ],
+          "been",
+          "able",
+          "to",
+          "spend",
+          "much",
+          "time",
+          "looking",
+          "up",
+          "the",
+          "background",
+          "information",
+          "I",
+          "need",
+          "for",
+          "each",
+          "article."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "been"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "much"
+          ],
+          [
+            "time"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "background"
+          ],
+          [
+            "information"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "for"
+          ],
+          [
+            "each"
+          ],
+          [
+            "article."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/6.mp3",
+        "timeStart": 15.32,
+        "timeEnd": 21.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65578/list"
+      },
+      {
+        "id": 65579,
+        "position": 7,
+        "content": "Do you think we have been assigning you too many posts?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "think",
+          [
+            "we have",
+            "we've"
+          ],
+          "been",
+          "assigning",
+          "you",
+          "too",
+          "many",
+          "posts?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "been"
+          ],
+          [
+            "assigning"
+          ],
+          [
+            "you"
+          ],
+          [
+            "too"
+          ],
+          [
+            "many"
+          ],
+          [
+            "posts?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/7.mp3",
+        "timeStart": 21.05,
+        "timeEnd": 24.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65579/list"
+      },
+      {
+        "id": 65580,
+        "position": 8,
+        "content": "I think that is it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "that is",
+            "that's"
+          ],
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/8.mp3",
+        "timeStart": 24.52,
+        "timeEnd": 25.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65580/list"
+      },
+      {
+        "id": 65581,
+        "position": 9,
+        "content": "Since the recent redundancies, my workload has nearly tripled.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Since",
+          "the",
+          "recent",
+          "redundancies,",
+          "my",
+          "workload",
+          "has",
+          "nearly",
+          "tripled."
+        ],
+        "solution": [
+          [
+            "Since"
+          ],
+          [
+            "the"
+          ],
+          [
+            "recent"
+          ],
+          [
+            "redundancies,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "workload"
+          ],
+          [
+            "has"
+          ],
+          [
+            "nearly"
+          ],
+          [
+            "tripled."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/9.mp3",
+        "timeStart": 25.97,
+        "timeEnd": 30.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65581/list"
+      },
+      {
+        "id": 65582,
+        "position": 10,
+        "content": "I am sorry, I know that must be hard.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "sorry,",
+          "I",
+          "know",
+          "that",
+          "must",
+          "be",
+          "hard."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "sorry,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "hard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/10.mp3",
+        "timeStart": 30.04,
+        "timeEnd": 32.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65582/list"
+      },
+      {
+        "id": 65583,
+        "position": 11,
+        "content": "My workload has grown as well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "workload",
+          "has",
+          "grown",
+          "as",
+          "well."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "workload"
+          ],
+          [
+            "has"
+          ],
+          [
+            "grown"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/11.mp3",
+        "timeStart": 32.78,
+        "timeEnd": 35.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65583/list"
+      },
+      {
+        "id": 65584,
+        "position": 12,
+        "content": "Would it be helpful to give you a longer deadline for the posts?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "it",
+          "be",
+          "helpful",
+          "to",
+          "give",
+          "you",
+          "a",
+          "longer",
+          "deadline",
+          "for",
+          "the",
+          "posts?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "it"
+          ],
+          [
+            "be"
+          ],
+          [
+            "helpful"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "a"
+          ],
+          [
+            "longer"
+          ],
+          [
+            "deadline"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "posts?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/12.mp3",
+        "timeStart": 35.22,
+        "timeEnd": 39.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65584/list"
+      },
+      {
+        "id": 65585,
+        "position": 13,
+        "content": "I guess, but that is a short-term solution.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "guess,",
+          "but",
+          [
+            "that is",
+            "that's"
+          ],
+          "a",
+          [
+            "short-term",
+            "short term"
+          ],
+          "solution."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "guess,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "short-term",
+            "short term"
+          ],
+          [
+            "solution."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/13.mp3",
+        "timeStart": 39.11,
+        "timeEnd": 42.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65585/list"
+      },
+      {
+        "id": 65586,
+        "position": 14,
+        "content": "It is going to be impossible to sustain the number of posts if we don't have a full staff.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "It's"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "impossible",
+          "to",
+          "sustain",
+          "the",
+          "number",
+          "of",
+          "posts",
+          "if",
+          "we",
+          [
+            "don't",
+            "do not"
+          ],
+          "have",
+          "a",
+          "full",
+          "staff."
+        ],
+        "solution": [
+          [
+            "It is",
+            "It's"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "impossible"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sustain"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "posts"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "full"
+          ],
+          [
+            "staff."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/14.mp3",
+        "timeStart": 42.58,
+        "timeEnd": 48.04,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/65586/list"
+      },
+      {
+        "id": 65587,
+        "position": 15,
+        "content": "Fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Fine."
+        ],
+        "solution": [
+          [
+            "Fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/15.mp3",
+        "timeStart": 48.04,
+        "timeEnd": 48.98,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/65587/list"
+      },
+      {
+        "id": 65588,
+        "position": 16,
+        "content": "I will talk to all of the managers this afternoon",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "talk",
+          "to",
+          "all",
+          "of",
+          "the",
+          "managers",
+          "this",
+          "afternoon"
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "managers"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/16.mp3",
+        "timeStart": 48.98,
+        "timeEnd": 51.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65588/list"
+      },
+      {
+        "id": 65589,
+        "position": 17,
+        "content": "and we can start working towards a plan that is sustainable for all the staff.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "can",
+          "start",
+          "working",
+          "towards",
+          "a",
+          "plan",
+          [
+            "that is",
+            "that's"
+          ],
+          "sustainable",
+          "for",
+          "all",
+          "the",
+          "staff."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "start"
+          ],
+          [
+            "working"
+          ],
+          [
+            "towards"
+          ],
+          [
+            "a"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "sustainable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "staff."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/17.mp3",
+        "timeStart": 51.92,
+        "timeEnd": 56.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65589/list"
+      },
+      {
+        "id": 65590,
+        "position": 18,
+        "content": "Keeping our standards should be of utmost importance.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Keeping",
+          "our",
+          "standards",
+          "should",
+          "be",
+          "of",
+          "utmost",
+          "importance."
+        ],
+        "solution": [
+          [
+            "Keeping"
+          ],
+          [
+            "our"
+          ],
+          [
+            "standards"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "of"
+          ],
+          [
+            "utmost"
+          ],
+          [
+            "importance."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-123-2024-09-14-18-05-15/18.mp3",
+        "timeStart": 56.71,
+        "timeEnd": 60.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65590/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "65573": {
+      "id": 2650909,
+      "text": "Chào Jenn.",
+      "author": "ChatGPT4.1"
+    },
+    "65574": {
+      "id": 2650910,
+      "text": "Tôi muốn nói về công việc bạn vừa hoàn thành cho blog của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "65575": {
+      "id": 2650911,
+      "text": "Có vẻ như các bài đăng không đạt được tiêu chuẩn mà chúng ta mong đợi.",
+      "author": "ChatGPT4.1"
+    },
+    "65576": {
+      "id": 2650912,
+      "text": "Tôi đồng ý.",
+      "author": "ChatGPT4.1"
+    },
+    "65577": {
+      "id": 2650913,
+      "text": "Thật không may, dạo này tôi quá bận nên tôi phải vội vàng viết các bài của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "65578": {
+      "id": 2650914,
+      "text": "nên tôi không có nhiều thời gian để tìm kiếm thông tin nền tảng cần thiết cho từng bài viết.",
+      "author": "ChatGPT4.1"
+    },
+    "65579": {
+      "id": 2650915,
+      "text": "Bạn có nghĩ là chúng tôi đang giao cho bạn quá nhiều bài không?",
+      "author": "ChatGPT4.1"
+    },
+    "65580": {
+      "id": 2650916,
+      "text": "Tôi nghĩ đúng là như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "65581": {
+      "id": 2650917,
+      "text": "Kể từ khi có những cắt giảm nhân sự gần đây, khối lượng công việc của tôi gần như tăng gấp ba.",
+      "author": "ChatGPT4.1"
+    },
+    "65582": {
+      "id": 2650918,
+      "text": "Tôi xin lỗi, tôi biết điều đó chắc hẳn rất khó khăn.",
+      "author": "ChatGPT4.1"
+    },
+    "65583": {
+      "id": 2650919,
+      "text": "Khối lượng công việc của tôi cũng tăng lên.",
+      "author": "ChatGPT4.1"
+    },
+    "65584": {
+      "id": 2650920,
+      "text": "Liệu việc cho bạn thêm thời hạn nộp bài có hữu ích không?",
+      "author": "ChatGPT4.1"
+    },
+    "65585": {
+      "id": 2650921,
+      "text": "Tôi đoán là vậy, nhưng đó chỉ là giải pháp tạm thời.",
+      "author": "ChatGPT4.1"
+    },
+    "65586": {
+      "id": 2650922,
+      "text": "Sẽ không thể duy trì số lượng bài đăng nếu chúng ta không có đủ nhân sự.",
+      "author": "ChatGPT4.1"
+    },
+    "65587": {
+      "id": 2650923,
+      "text": "Được thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "65588": {
+      "id": 2650924,
+      "text": "Tôi sẽ nói chuyện với tất cả các quản lý vào chiều nay",
+      "author": "ChatGPT4.1"
+    },
+    "65589": {
+      "id": 2650925,
+      "text": "và chúng ta có thể bắt đầu xây dựng một kế hoạch bền vững cho toàn bộ nhân viên.",
+      "author": "ChatGPT4.1"
+    },
+    "65590": {
+      "id": 2650926,
+      "text": "Giữ vững tiêu chuẩn của chúng ta phải là điều quan trọng nhất.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,913 @@
+{
+  "summary": {
+    "id": 700,
+    "name": "/f/ - /v/ (fan vs van)",
+    "subTitle": "",
+    "levelName": "",
+    "position": 19,
+    "totalChallenges": 10,
+    "groupId": null,
+    "isListenAndSelect": true,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/selecting-lessons/700",
+  "detail": {
+    "id": 700,
+    "name": "/f/ - /v/ (fan vs van)",
+    "challenges": [
+      [
+        {
+          "id": 33065,
+          "recordings": {
+            "1": {
+              "id": 1921,
+              "audioSrc": "https://dailydictation.com/tts/700/33065-1-1921-2023-05-29-04-40-37.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "2": {
+              "id": 1922,
+              "audioSrc": "https://dailydictation.com/tts/700/33065-2-1922-2023-05-29-04-40-37.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "3": {
+              "id": 1923,
+              "audioSrc": "https://dailydictation.com/tts/700/33065-3-1923-2023-05-29-04-40-38.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "4": {
+              "id": 1924,
+              "audioSrc": "https://dailydictation.com/tts/700/33065-4-1924-2023-05-29-04-40-38.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "5": {
+              "id": 1925,
+              "audioSrc": "https://dailydictation.com/tts/700/33065-5-1925-2023-05-29-04-40-38.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            },
+            "6": {
+              "id": 1926,
+              "audioSrc": "https://dailydictation.com/tts/700/33065-6-1926-2023-05-29-04-40-39.mp3",
+              "text": "fan",
+              "secondaryText": "fæn"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33066,
+          "recordings": {
+            "1": {
+              "id": 1927,
+              "audioSrc": "https://dailydictation.com/tts/700/33066-1-1927-2023-05-29-04-40-39.mp3",
+              "text": "van",
+              "secondaryText": "væn"
+            },
+            "2": {
+              "id": 1928,
+              "audioSrc": "https://dailydictation.com/tts/700/33066-2-1928-2023-05-29-04-40-39.mp3",
+              "text": "van",
+              "secondaryText": "væn"
+            },
+            "3": {
+              "id": 1929,
+              "audioSrc": "https://dailydictation.com/tts/700/33066-3-1929-2023-05-29-04-40-39.mp3",
+              "text": "van",
+              "secondaryText": "væn"
+            },
+            "4": {
+              "id": 1930,
+              "audioSrc": "https://dailydictation.com/tts/700/33066-4-1930-2023-05-29-04-40-40.mp3",
+              "text": "van",
+              "secondaryText": "væn"
+            },
+            "5": {
+              "id": 1931,
+              "audioSrc": "https://dailydictation.com/tts/700/33066-5-1931-2023-05-29-04-40-40.mp3",
+              "text": "van",
+              "secondaryText": "væn"
+            },
+            "6": {
+              "id": 1932,
+              "audioSrc": "https://dailydictation.com/tts/700/33066-6-1932-2023-05-29-04-40-40.mp3",
+              "text": "van",
+              "secondaryText": "væn"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33067,
+          "recordings": {
+            "1": {
+              "id": 1933,
+              "audioSrc": "https://dailydictation.com/tts/700/33067-1-1933-2023-05-29-04-40-40.mp3",
+              "text": "fast",
+              "secondaryText": "fæst"
+            },
+            "2": {
+              "id": 1934,
+              "audioSrc": "https://dailydictation.com/tts/700/33067-2-1934-2023-05-29-04-40-41.mp3",
+              "text": "fast",
+              "secondaryText": "fæst"
+            },
+            "3": {
+              "id": 1935,
+              "audioSrc": "https://dailydictation.com/tts/700/33067-3-1935-2023-05-29-04-40-41.mp3",
+              "text": "fast",
+              "secondaryText": "fɑːst"
+            },
+            "4": {
+              "id": 1936,
+              "audioSrc": "https://dailydictation.com/tts/700/33067-4-1936-2023-05-29-04-40-41.mp3",
+              "text": "fast",
+              "secondaryText": "fɑːst"
+            },
+            "5": {
+              "id": 1937,
+              "audioSrc": "https://dailydictation.com/tts/700/33067-5-1937-2023-05-29-04-40-42.mp3",
+              "text": "fast",
+              "secondaryText": "fɑːst"
+            },
+            "6": {
+              "id": 1938,
+              "audioSrc": "https://dailydictation.com/tts/700/33067-6-1938-2023-05-29-04-40-42.mp3",
+              "text": "fast",
+              "secondaryText": "fɑːst"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33068,
+          "recordings": {
+            "1": {
+              "id": 1939,
+              "audioSrc": "https://dailydictation.com/tts/700/33068-1-1939-2023-05-29-04-40-43.mp3",
+              "text": "vast",
+              "secondaryText": "væst"
+            },
+            "2": {
+              "id": 1940,
+              "audioSrc": "https://dailydictation.com/tts/700/33068-2-1940-2023-05-29-04-40-43.mp3",
+              "text": "vast",
+              "secondaryText": "væst"
+            },
+            "3": {
+              "id": 1941,
+              "audioSrc": "https://dailydictation.com/tts/700/33068-3-1941-2023-05-29-04-40-43.mp3",
+              "text": "vast",
+              "secondaryText": "vɑːst"
+            },
+            "4": {
+              "id": 1942,
+              "audioSrc": "https://dailydictation.com/tts/700/33068-4-1942-2023-05-29-04-40-44.mp3",
+              "text": "vast",
+              "secondaryText": "vɑːst"
+            },
+            "5": {
+              "id": 1943,
+              "audioSrc": "https://dailydictation.com/tts/700/33068-5-1943-2023-05-29-04-40-44.mp3",
+              "text": "vast",
+              "secondaryText": "vɑːst"
+            },
+            "6": {
+              "id": 1944,
+              "audioSrc": "https://dailydictation.com/tts/700/33068-6-1944-2023-05-29-04-40-44.mp3",
+              "text": "vast",
+              "secondaryText": "vɑːst"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33069,
+          "recordings": {
+            "1": {
+              "id": 1945,
+              "audioSrc": "https://dailydictation.com/tts/700/33069-1-1945-2023-05-29-04-40-45.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "2": {
+              "id": 1946,
+              "audioSrc": "https://dailydictation.com/tts/700/33069-2-1946-2023-05-29-04-40-45.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "3": {
+              "id": 1947,
+              "audioSrc": "https://dailydictation.com/tts/700/33069-3-1947-2023-05-29-04-40-45.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "4": {
+              "id": 1948,
+              "audioSrc": "https://dailydictation.com/tts/700/33069-4-1948-2023-05-29-04-40-46.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "5": {
+              "id": 1949,
+              "audioSrc": "https://dailydictation.com/tts/700/33069-5-1949-2023-05-29-04-40-46.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "6": {
+              "id": 1950,
+              "audioSrc": "https://dailydictation.com/tts/700/33069-6-1950-2023-05-29-04-40-46.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33070,
+          "recordings": {
+            "1": {
+              "id": 1951,
+              "audioSrc": "https://dailydictation.com/tts/700/33070-1-1951-2023-05-29-04-40-47.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "2": {
+              "id": 1952,
+              "audioSrc": "https://dailydictation.com/tts/700/33070-2-1952-2023-05-29-04-40-47.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "3": {
+              "id": 1953,
+              "audioSrc": "https://dailydictation.com/tts/700/33070-3-1953-2023-05-29-04-40-47.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "4": {
+              "id": 1954,
+              "audioSrc": "https://dailydictation.com/tts/700/33070-4-1954-2023-05-29-04-40-48.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "5": {
+              "id": 1955,
+              "audioSrc": "https://dailydictation.com/tts/700/33070-5-1955-2023-05-29-04-40-48.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "6": {
+              "id": 1956,
+              "audioSrc": "https://dailydictation.com/tts/700/33070-6-1956-2023-05-29-04-40-49.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33071,
+          "recordings": {
+            "1": {
+              "id": 1957,
+              "audioSrc": "https://dailydictation.com/tts/700/33071-1-1957-2023-05-29-04-40-49.mp3",
+              "text": "belief",
+              "secondaryText": "bɪˈliːf"
+            },
+            "2": {
+              "id": 1958,
+              "audioSrc": "https://dailydictation.com/tts/700/33071-2-1958-2023-05-29-04-40-49.mp3",
+              "text": "belief",
+              "secondaryText": "bɪˈliːf"
+            },
+            "3": {
+              "id": 1959,
+              "audioSrc": "https://dailydictation.com/tts/700/33071-3-1959-2023-05-29-04-40-50.mp3",
+              "text": "belief",
+              "secondaryText": "bɪˈliːf"
+            },
+            "4": {
+              "id": 1960,
+              "audioSrc": "https://dailydictation.com/tts/700/33071-4-1960-2023-05-29-04-40-50.mp3",
+              "text": "belief",
+              "secondaryText": "bɪˈliːf"
+            },
+            "5": {
+              "id": 1961,
+              "audioSrc": "https://dailydictation.com/tts/700/33071-5-1961-2023-05-29-04-40-50.mp3",
+              "text": "belief",
+              "secondaryText": "bɪˈliːf"
+            },
+            "6": {
+              "id": 1962,
+              "audioSrc": "https://dailydictation.com/tts/700/33071-6-1962-2023-05-29-04-40-51.mp3",
+              "text": "belief",
+              "secondaryText": "bɪˈliːf"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33072,
+          "recordings": {
+            "1": {
+              "id": 1963,
+              "audioSrc": "https://dailydictation.com/tts/700/33072-1-1963-2023-05-29-04-40-51.mp3",
+              "text": "believe",
+              "secondaryText": "bɪˈliːv"
+            },
+            "2": {
+              "id": 1964,
+              "audioSrc": "https://dailydictation.com/tts/700/33072-2-1964-2023-05-29-04-40-51.mp3",
+              "text": "believe",
+              "secondaryText": "bɪˈliːv"
+            },
+            "3": {
+              "id": 1965,
+              "audioSrc": "https://dailydictation.com/tts/700/33072-3-1965-2023-05-29-04-40-52.mp3",
+              "text": "believe",
+              "secondaryText": "bɪˈliːv"
+            },
+            "4": {
+              "id": 1966,
+              "audioSrc": "https://dailydictation.com/tts/700/33072-4-1966-2023-05-29-04-40-52.mp3",
+              "text": "believe",
+              "secondaryText": "bɪˈliːv"
+            },
+            "5": {
+              "id": 1967,
+              "audioSrc": "https://dailydictation.com/tts/700/33072-5-1967-2023-05-29-04-40-53.mp3",
+              "text": "believe",
+              "secondaryText": "bɪˈliːv"
+            },
+            "6": {
+              "id": 1968,
+              "audioSrc": "https://dailydictation.com/tts/700/33072-6-1968-2023-05-29-04-40-53.mp3",
+              "text": "believe",
+              "secondaryText": "bɪˈliːv"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33073,
+          "recordings": {
+            "1": {
+              "id": 1969,
+              "audioSrc": "https://dailydictation.com/tts/700/33073-1-1969-2023-05-29-04-40-53.mp3",
+              "text": "fine",
+              "secondaryText": "faɪn"
+            },
+            "2": {
+              "id": 1970,
+              "audioSrc": "https://dailydictation.com/tts/700/33073-2-1970-2023-05-29-04-40-54.mp3",
+              "text": "fine",
+              "secondaryText": "faɪn"
+            },
+            "3": {
+              "id": 1971,
+              "audioSrc": "https://dailydictation.com/tts/700/33073-3-1971-2023-05-29-04-40-54.mp3",
+              "text": "fine",
+              "secondaryText": "faɪn"
+            },
+            "4": {
+              "id": 1972,
+              "audioSrc": "https://dailydictation.com/tts/700/33073-4-1972-2023-05-29-04-40-54.mp3",
+              "text": "fine",
+              "secondaryText": "faɪn"
+            },
+            "5": {
+              "id": 1973,
+              "audioSrc": "https://dailydictation.com/tts/700/33073-5-1973-2023-05-29-04-40-55.mp3",
+              "text": "fine",
+              "secondaryText": "faɪn"
+            },
+            "6": {
+              "id": 1974,
+              "audioSrc": "https://dailydictation.com/tts/700/33073-6-1974-2023-05-29-04-40-55.mp3",
+              "text": "fine",
+              "secondaryText": "faɪn"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33074,
+          "recordings": {
+            "1": {
+              "id": 1975,
+              "audioSrc": "https://dailydictation.com/tts/700/33074-1-1975-2023-05-29-04-40-55.mp3",
+              "text": "vine",
+              "secondaryText": "vaɪn"
+            },
+            "2": {
+              "id": 1976,
+              "audioSrc": "https://dailydictation.com/tts/700/33074-2-1976-2023-05-29-04-40-56.mp3",
+              "text": "vine",
+              "secondaryText": "vaɪn"
+            },
+            "3": {
+              "id": 1977,
+              "audioSrc": "https://dailydictation.com/tts/700/33074-3-1977-2023-05-29-04-40-56.mp3",
+              "text": "vine",
+              "secondaryText": "vaɪn"
+            },
+            "4": {
+              "id": 1978,
+              "audioSrc": "https://dailydictation.com/tts/700/33074-4-1978-2023-05-29-04-40-57.mp3",
+              "text": "vine",
+              "secondaryText": "vaɪn"
+            },
+            "5": {
+              "id": 1979,
+              "audioSrc": "https://dailydictation.com/tts/700/33074-5-1979-2023-05-29-04-40-57.mp3",
+              "text": "vine",
+              "secondaryText": "vaɪn"
+            },
+            "6": {
+              "id": 1980,
+              "audioSrc": "https://dailydictation.com/tts/700/33074-6-1980-2023-05-29-04-40-57.mp3",
+              "text": "vine",
+              "secondaryText": "vaɪn"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33075,
+          "recordings": {
+            "1": {
+              "id": 1981,
+              "audioSrc": "https://dailydictation.com/tts/700/33075-1-1981-2023-05-29-04-40-58.mp3",
+              "text": "off",
+              "secondaryText": "ɑːf"
+            },
+            "2": {
+              "id": 1982,
+              "audioSrc": "https://dailydictation.com/tts/700/33075-2-1982-2023-05-29-04-40-58.mp3",
+              "text": "off",
+              "secondaryText": "ɑːf"
+            },
+            "3": {
+              "id": 1983,
+              "audioSrc": "https://dailydictation.com/tts/700/33075-3-1983-2023-05-29-04-40-58.mp3",
+              "text": "off",
+              "secondaryText": "ɒf"
+            },
+            "4": {
+              "id": 1984,
+              "audioSrc": "https://dailydictation.com/tts/700/33075-4-1984-2023-05-29-04-40-59.mp3",
+              "text": "off",
+              "secondaryText": "ɒf"
+            },
+            "5": {
+              "id": 1985,
+              "audioSrc": "https://dailydictation.com/tts/700/33075-5-1985-2023-05-29-04-40-59.mp3",
+              "text": "off",
+              "secondaryText": "ɒf"
+            },
+            "6": {
+              "id": 1986,
+              "audioSrc": "https://dailydictation.com/tts/700/33075-6-1986-2023-05-29-04-40-59.mp3",
+              "text": "off",
+              "secondaryText": "ɒf"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33076,
+          "recordings": {
+            "1": {
+              "id": 1987,
+              "audioSrc": "https://dailydictation.com/tts/700/33076-1-1987-2023-05-29-04-41-00.mp3",
+              "text": "of",
+              "secondaryText": "ɒv"
+            },
+            "2": {
+              "id": 1988,
+              "audioSrc": "https://dailydictation.com/tts/700/33076-2-1988-2023-05-29-04-41-00.mp3",
+              "text": "of",
+              "secondaryText": "ɒv"
+            },
+            "3": {
+              "id": 1989,
+              "audioSrc": "https://dailydictation.com/tts/700/33076-3-1989-2023-05-29-04-41-00.mp3",
+              "text": "of",
+              "secondaryText": "əv"
+            },
+            "4": {
+              "id": 1990,
+              "audioSrc": "https://dailydictation.com/tts/700/33076-4-1990-2023-05-29-04-41-01.mp3",
+              "text": "of",
+              "secondaryText": "əv"
+            },
+            "5": {
+              "id": 1991,
+              "audioSrc": "https://dailydictation.com/tts/700/33076-5-1991-2023-05-29-04-41-01.mp3",
+              "text": "of",
+              "secondaryText": "əv"
+            },
+            "6": {
+              "id": 1992,
+              "audioSrc": "https://dailydictation.com/tts/700/33076-6-1992-2023-05-29-04-41-01.mp3",
+              "text": "of",
+              "secondaryText": "əv"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33077,
+          "recordings": {
+            "1": {
+              "id": 1993,
+              "audioSrc": "https://dailydictation.com/tts/700/33077-1-1993-2023-05-29-04-41-02.mp3",
+              "text": "life",
+              "secondaryText": "laɪf"
+            },
+            "2": {
+              "id": 1994,
+              "audioSrc": "https://dailydictation.com/tts/700/33077-2-1994-2023-05-29-04-41-02.mp3",
+              "text": "life",
+              "secondaryText": "laɪf"
+            },
+            "3": {
+              "id": 1995,
+              "audioSrc": "https://dailydictation.com/tts/700/33077-3-1995-2023-05-29-04-41-02.mp3",
+              "text": "life",
+              "secondaryText": "laɪf"
+            },
+            "4": {
+              "id": 1996,
+              "audioSrc": "https://dailydictation.com/tts/700/33077-4-1996-2023-05-29-04-41-03.mp3",
+              "text": "life",
+              "secondaryText": "laɪf"
+            },
+            "5": {
+              "id": 1997,
+              "audioSrc": "https://dailydictation.com/tts/700/33077-5-1997-2023-05-29-04-41-03.mp3",
+              "text": "life",
+              "secondaryText": "laɪf"
+            },
+            "6": {
+              "id": 1998,
+              "audioSrc": "https://dailydictation.com/tts/700/33077-6-1998-2023-05-29-04-41-04.mp3",
+              "text": "life",
+              "secondaryText": "laɪf"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33078,
+          "recordings": {
+            "1": {
+              "id": 1999,
+              "audioSrc": "https://dailydictation.com/tts/700/33078-1-1999-2023-05-29-04-41-04.mp3",
+              "text": "live",
+              "secondaryText": "laɪv"
+            },
+            "2": {
+              "id": 2000,
+              "audioSrc": "https://dailydictation.com/tts/700/33078-2-2000-2023-05-29-04-41-04.mp3",
+              "text": "live",
+              "secondaryText": "laɪv"
+            },
+            "3": {
+              "id": 2001,
+              "audioSrc": "https://dailydictation.com/tts/700/33078-3-2001-2023-05-29-04-41-05.mp3",
+              "text": "live",
+              "secondaryText": "laɪv"
+            },
+            "4": {
+              "id": 2002,
+              "audioSrc": "https://dailydictation.com/tts/700/33078-4-2002-2023-05-29-04-41-05.mp3",
+              "text": "live",
+              "secondaryText": "laɪv"
+            },
+            "5": {
+              "id": 2003,
+              "audioSrc": "https://dailydictation.com/tts/700/33078-5-2003-2023-05-29-04-41-05.mp3",
+              "text": "live",
+              "secondaryText": "laɪv"
+            },
+            "6": {
+              "id": 2004,
+              "audioSrc": "https://dailydictation.com/tts/700/33078-6-2004-2023-05-29-04-41-06.mp3",
+              "text": "live",
+              "secondaryText": "laɪv"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33079,
+          "recordings": {
+            "1": {
+              "id": 2005,
+              "audioSrc": "https://dailydictation.com/tts/700/33079-1-2005-2023-05-29-04-41-06.mp3",
+              "text": "surf",
+              "secondaryText": "sɜ:f"
+            },
+            "2": {
+              "id": 2006,
+              "audioSrc": "https://dailydictation.com/tts/700/33079-2-2006-2023-05-29-04-41-06.mp3",
+              "text": "surf",
+              "secondaryText": "sɜ:f"
+            },
+            "3": {
+              "id": 2007,
+              "audioSrc": "https://dailydictation.com/tts/700/33079-3-2007-2023-05-29-04-41-07.mp3",
+              "text": "surf",
+              "secondaryText": "sɜːf"
+            },
+            "4": {
+              "id": 2008,
+              "audioSrc": "https://dailydictation.com/tts/700/33079-4-2008-2023-05-29-04-41-07.mp3",
+              "text": "surf",
+              "secondaryText": "sɜːf"
+            },
+            "5": {
+              "id": 2009,
+              "audioSrc": "https://dailydictation.com/tts/700/33079-5-2009-2023-05-29-04-41-07.mp3",
+              "text": "surf",
+              "secondaryText": "sɜːf"
+            },
+            "6": {
+              "id": 2010,
+              "audioSrc": "https://dailydictation.com/tts/700/33079-6-2010-2023-05-29-04-41-08.mp3",
+              "text": "surf",
+              "secondaryText": "sɜːf"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33080,
+          "recordings": {
+            "1": {
+              "id": 2011,
+              "audioSrc": "https://dailydictation.com/tts/700/33080-1-2011-2023-05-29-04-41-08.mp3",
+              "text": "serve",
+              "secondaryText": "sɜ:v"
+            },
+            "2": {
+              "id": 2012,
+              "audioSrc": "https://dailydictation.com/tts/700/33080-2-2012-2023-05-29-04-41-08.mp3",
+              "text": "serve",
+              "secondaryText": "sɜ:v"
+            },
+            "3": {
+              "id": 2013,
+              "audioSrc": "https://dailydictation.com/tts/700/33080-3-2013-2023-05-29-04-41-09.mp3",
+              "text": "serve",
+              "secondaryText": "sɜːv"
+            },
+            "4": {
+              "id": 2014,
+              "audioSrc": "https://dailydictation.com/tts/700/33080-4-2014-2023-05-29-04-41-09.mp3",
+              "text": "serve",
+              "secondaryText": "sɜːv"
+            },
+            "5": {
+              "id": 2015,
+              "audioSrc": "https://dailydictation.com/tts/700/33080-5-2015-2023-05-29-04-41-09.mp3",
+              "text": "serve",
+              "secondaryText": "sɜːv"
+            },
+            "6": {
+              "id": 2016,
+              "audioSrc": "https://dailydictation.com/tts/700/33080-6-2016-2023-05-29-04-41-10.mp3",
+              "text": "serve",
+              "secondaryText": "sɜːv"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33081,
+          "recordings": {
+            "1": {
+              "id": 2017,
+              "audioSrc": "https://dailydictation.com/tts/700/33081-1-2017-2023-05-29-04-41-10.mp3",
+              "text": "safe",
+              "secondaryText": "seɪf"
+            },
+            "2": {
+              "id": 2018,
+              "audioSrc": "https://dailydictation.com/tts/700/33081-2-2018-2023-05-29-04-41-11.mp3",
+              "text": "safe",
+              "secondaryText": "seɪf"
+            },
+            "3": {
+              "id": 2019,
+              "audioSrc": "https://dailydictation.com/tts/700/33081-3-2019-2023-05-29-04-41-11.mp3",
+              "text": "safe",
+              "secondaryText": "seɪf"
+            },
+            "4": {
+              "id": 2020,
+              "audioSrc": "https://dailydictation.com/tts/700/33081-4-2020-2023-05-29-04-41-11.mp3",
+              "text": "safe",
+              "secondaryText": "seɪf"
+            },
+            "5": {
+              "id": 2021,
+              "audioSrc": "https://dailydictation.com/tts/700/33081-5-2021-2023-05-29-04-41-12.mp3",
+              "text": "safe",
+              "secondaryText": "seɪf"
+            },
+            "6": {
+              "id": 2022,
+              "audioSrc": "https://dailydictation.com/tts/700/33081-6-2022-2023-05-29-04-41-12.mp3",
+              "text": "safe",
+              "secondaryText": "seɪf"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33082,
+          "recordings": {
+            "1": {
+              "id": 2023,
+              "audioSrc": "https://dailydictation.com/tts/700/33082-1-2023-2023-05-29-04-41-12.mp3",
+              "text": "save",
+              "secondaryText": "seɪv"
+            },
+            "2": {
+              "id": 2024,
+              "audioSrc": "https://dailydictation.com/tts/700/33082-2-2024-2023-05-29-04-41-13.mp3",
+              "text": "save",
+              "secondaryText": "seɪv"
+            },
+            "3": {
+              "id": 2025,
+              "audioSrc": "https://dailydictation.com/tts/700/33082-3-2025-2023-05-29-04-41-13.mp3",
+              "text": "save",
+              "secondaryText": "seɪv"
+            },
+            "4": {
+              "id": 2026,
+              "audioSrc": "https://dailydictation.com/tts/700/33082-4-2026-2023-05-29-04-41-14.mp3",
+              "text": "save",
+              "secondaryText": "seɪv"
+            },
+            "5": {
+              "id": 2027,
+              "audioSrc": "https://dailydictation.com/tts/700/33082-5-2027-2023-05-29-04-41-14.mp3",
+              "text": "save",
+              "secondaryText": "seɪv"
+            },
+            "6": {
+              "id": 2028,
+              "audioSrc": "https://dailydictation.com/tts/700/33082-6-2028-2023-05-29-04-41-14.mp3",
+              "text": "save",
+              "secondaryText": "seɪv"
+            }
+          },
+          "saveUrl": null
+        }
+      ],
+      [
+        {
+          "id": 33083,
+          "recordings": {
+            "1": {
+              "id": 2029,
+              "audioSrc": "https://dailydictation.com/tts/700/33083-1-2029-2023-05-29-04-41-15.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "2": {
+              "id": 2030,
+              "audioSrc": "https://dailydictation.com/tts/700/33083-2-2030-2023-05-29-04-41-15.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "3": {
+              "id": 2031,
+              "audioSrc": "https://dailydictation.com/tts/700/33083-3-2031-2023-05-29-04-41-15.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "4": {
+              "id": 2032,
+              "audioSrc": "https://dailydictation.com/tts/700/33083-4-2032-2023-05-29-04-41-15.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "5": {
+              "id": 2033,
+              "audioSrc": "https://dailydictation.com/tts/700/33083-5-2033-2023-05-29-04-41-16.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            },
+            "6": {
+              "id": 2034,
+              "audioSrc": "https://dailydictation.com/tts/700/33083-6-2034-2023-05-29-04-41-16.mp3",
+              "text": "leaf",
+              "secondaryText": "liːf"
+            }
+          },
+          "saveUrl": null
+        },
+        {
+          "id": 33084,
+          "recordings": {
+            "1": {
+              "id": 2035,
+              "audioSrc": "https://dailydictation.com/tts/700/33084-1-2035-2023-05-29-04-41-16.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "2": {
+              "id": 2036,
+              "audioSrc": "https://dailydictation.com/tts/700/33084-2-2036-2023-05-29-04-41-17.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "3": {
+              "id": 2037,
+              "audioSrc": "https://dailydictation.com/tts/700/33084-3-2037-2023-05-29-04-41-17.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "4": {
+              "id": 2038,
+              "audioSrc": "https://dailydictation.com/tts/700/33084-4-2038-2023-05-29-04-41-17.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "5": {
+              "id": 2039,
+              "audioSrc": "https://dailydictation.com/tts/700/33084-5-2039-2023-05-29-04-41-17.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            },
+            "6": {
+              "id": 2040,
+              "audioSrc": "https://dailydictation.com/tts/700/33084-6-2040-2023-05-29-04-41-18.mp3",
+              "text": "leave",
+              "secondaryText": "liːv"
+            }
+          },
+          "saveUrl": null
+        }
+      ]
+    ],
+    "voices": [
+      {
+        "id": 2,
+        "displayName": "🇺🇸 American English (Male)",
+        "displayNameShort": "🇺🇸 (M)"
+      },
+      {
+        "id": 1,
+        "displayName": "🇺🇸 American English (Female)",
+        "displayNameShort": "🇺🇸 (F)"
+      },
+      {
+        "id": 4,
+        "displayName": "🇬🇧 British English (Male)",
+        "displayNameShort": "🇬🇧 (M)"
+      },
+      {
+        "id": 3,
+        "displayName": "🇬🇧 British English (Female)",
+        "displayNameShort": "🇬🇧 (F)"
+      },
+      {
+        "id": 6,
+        "displayName": "🇦🇺 Australian English (Male)",
+        "displayNameShort": "🇦🇺 (M)"
+      },
+      {
+        "id": 5,
+        "displayName": "🇦🇺 Australian English (Female)",
+        "displayNameShort": "🇦🇺 (F)"
+      }
+    ],
+    "defaultPosition": 0
+  }
+}

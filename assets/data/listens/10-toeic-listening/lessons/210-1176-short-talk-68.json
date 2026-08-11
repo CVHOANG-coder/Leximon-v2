@@ -1,0 +1,941 @@
+{
+  "summary": {
+    "id": 1176,
+    "name": "Short Talk 68",
+    "subTitle": "Board Meeting Attendance Confirmation",
+    "levelName": "B2",
+    "position": 210,
+    "totalChallenges": 14,
+    "groupId": 37,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1176",
+  "detail": {
+    "id": 1176,
+    "lessonName": "Short Talk 68",
+    "name": "Short Talk 68",
+    "position": 210,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/0-short-talk-68.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54540,
+        "position": 1,
+        "content": "Good morning, Mr. Vance.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          "Mr.",
+          "Vance."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Vance."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/1.mp3",
+        "timeStart": 0.81,
+        "timeEnd": 2.35,
+        "hints": [
+          "Vance"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54540/list"
+      },
+      {
+        "id": 54541,
+        "position": 2,
+        "content": "This is Scott Elope from the Washington, DC office,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "Scott",
+          "Elope",
+          "from",
+          "the",
+          "Washington,",
+          "DC",
+          "office,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Scott"
+          ],
+          [
+            "Elope"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Washington,"
+          ],
+          [
+            "DC"
+          ],
+          [
+            "office,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/2.mp3",
+        "timeStart": 2.35,
+        "timeEnd": 5.38,
+        "hints": [
+          "Scott Elope"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54541/list"
+      },
+      {
+        "id": 54542,
+        "position": 3,
+        "content": "and I am just wanting to confirm your presence at the final board meeting of the year in December.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "I am",
+            "I'm"
+          ],
+          "just",
+          "wanting",
+          "to",
+          "confirm",
+          "your",
+          "presence",
+          "at",
+          "the",
+          "final",
+          "board",
+          "meeting",
+          "of",
+          "the",
+          "year",
+          "in",
+          "December."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wanting"
+          ],
+          [
+            "to"
+          ],
+          [
+            "confirm"
+          ],
+          [
+            "your"
+          ],
+          [
+            "presence"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "final"
+          ],
+          [
+            "board"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "year"
+          ],
+          [
+            "in"
+          ],
+          [
+            "December."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/3.mp3",
+        "timeStart": 5.38,
+        "timeEnd": 10.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54542/list"
+      },
+      {
+        "id": 54543,
+        "position": 4,
+        "content": "The meeting is scheduled for the 3rd,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "meeting",
+          "is",
+          "scheduled",
+          "for",
+          "the",
+          [
+            "3rd,",
+            "third,"
+          ]
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "is"
+          ],
+          [
+            "scheduled"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "3rd,",
+            "third,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/4.mp3",
+        "timeStart": 10.31,
+        "timeEnd": 12.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54543/list"
+      },
+      {
+        "id": 54544,
+        "position": 5,
+        "content": "and when we last spoke you said there was a chance you may not be able to attend.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "when",
+          "we",
+          "last",
+          "spoke",
+          "you",
+          "said",
+          "there",
+          "was",
+          "a",
+          "chance",
+          "you",
+          "may",
+          "not",
+          "be",
+          "able",
+          "to",
+          "attend."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "when"
+          ],
+          [
+            "we"
+          ],
+          [
+            "last"
+          ],
+          [
+            "spoke"
+          ],
+          [
+            "you"
+          ],
+          [
+            "said"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "you"
+          ],
+          [
+            "may"
+          ],
+          [
+            "not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "attend."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/5.mp3",
+        "timeStart": 12.18,
+        "timeEnd": 15.82,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54544/list"
+      },
+      {
+        "id": 54545,
+        "position": 6,
+        "content": "I just wanted to get some clarification if that was still the case.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "wanted",
+          "to",
+          "get",
+          "some",
+          "clarification",
+          "if",
+          "that",
+          "was",
+          "still",
+          "the",
+          "case."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "some"
+          ],
+          [
+            "clarification"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "still"
+          ],
+          [
+            "the"
+          ],
+          [
+            "case."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/6.mp3",
+        "timeStart": 15.82,
+        "timeEnd": 19.38,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/54545/list"
+      },
+      {
+        "id": 54546,
+        "position": 7,
+        "content": "If you are not able to make the meeting in person,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you are",
+            "you're"
+          ],
+          "not",
+          "able",
+          "to",
+          "make",
+          "the",
+          "meeting",
+          "in",
+          "person,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "not"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "in"
+          ],
+          [
+            "person,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/7.mp3",
+        "timeStart": 19.38,
+        "timeEnd": 21.94,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54546/list"
+      },
+      {
+        "id": 54547,
+        "position": 8,
+        "content": "I can arrange a conference call, so you can still contribute.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "arrange",
+          "a",
+          "conference",
+          "call,",
+          "so",
+          "you",
+          "can",
+          "still",
+          "contribute."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "a"
+          ],
+          [
+            "conference"
+          ],
+          [
+            "call,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "still"
+          ],
+          [
+            "contribute."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/8.mp3",
+        "timeStart": 21.94,
+        "timeEnd": 24.91,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54547/list"
+      },
+      {
+        "id": 54548,
+        "position": 9,
+        "content": "We have a couple of times that could work,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          "a",
+          "couple",
+          "of",
+          "times",
+          "that",
+          "could",
+          "work,"
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "times"
+          ],
+          [
+            "that"
+          ],
+          [
+            "could"
+          ],
+          [
+            "work,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/9.mp3",
+        "timeStart": 25.03,
+        "timeEnd": 26.99,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54548/list"
+      },
+      {
+        "id": 54549,
+        "position": 10,
+        "content": "so I will send you an email with the possible times.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "I will",
+            "I'll"
+          ],
+          "send",
+          "you",
+          "an",
+          "email",
+          "with",
+          "the",
+          "possible",
+          "times."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "send"
+          ],
+          [
+            "you"
+          ],
+          [
+            "an"
+          ],
+          [
+            "email"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "possible"
+          ],
+          [
+            "times."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/10.mp3",
+        "timeStart": 26.99,
+        "timeEnd": 29.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54549/list"
+      },
+      {
+        "id": 54550,
+        "position": 11,
+        "content": "I apologize if the times are not convenient,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "apologize",
+            "apologise"
+          ],
+          "if",
+          "the",
+          "times",
+          [
+            "are not",
+            "aren't"
+          ],
+          "convenient,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "apologize",
+            "apologise"
+          ],
+          [
+            "if"
+          ],
+          [
+            "the"
+          ],
+          [
+            "times"
+          ],
+          [
+            "are not",
+            "aren't"
+          ],
+          [
+            "convenient,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/11.mp3",
+        "timeStart": 29.58,
+        "timeEnd": 32.3,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54550/list"
+      },
+      {
+        "id": 54551,
+        "position": 12,
+        "content": "please remember there is a big time difference.",
+        "defaultInput": "",
+        "jsonContent": [
+          "please",
+          "remember",
+          [
+            "there is",
+            "there's"
+          ],
+          "a",
+          "big",
+          "time",
+          "difference."
+        ],
+        "solution": [
+          [
+            "please"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "there is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "time"
+          ],
+          [
+            "difference."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/12.mp3",
+        "timeStart": 32.3,
+        "timeEnd": 34.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54551/list"
+      },
+      {
+        "id": 54552,
+        "position": 13,
+        "content": "I will also attach the agenda for the meeting, so you know the schedule.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "also",
+          "attach",
+          "the",
+          "agenda",
+          "for",
+          "the",
+          "meeting,",
+          "so",
+          "you",
+          "know",
+          "the",
+          "schedule."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "also"
+          ],
+          [
+            "attach"
+          ],
+          [
+            "the"
+          ],
+          [
+            "agenda"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "the"
+          ],
+          [
+            "schedule."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/13.mp3",
+        "timeStart": 34.67,
+        "timeEnd": 38.45,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54552/list"
+      },
+      {
+        "id": 54553,
+        "position": 14,
+        "content": "I look forward to hearing back from you. Thanks!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "look",
+          "forward",
+          "to",
+          "hearing",
+          "back",
+          "from",
+          "you.",
+          "Thanks!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "look"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hearing"
+          ],
+          [
+            "back"
+          ],
+          [
+            "from"
+          ],
+          [
+            "you."
+          ],
+          [
+            "Thanks!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-68-2023-09-24-19-28-58/14.mp3",
+        "timeStart": 38.45,
+        "timeEnd": 41.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54553/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54548": {
+      "id": 903037,
+      "text": "Chúng ta có một số khung thời gian có thể phù hợp,",
+      "author": "a user"
+    },
+    "54549": {
+      "id": 903038,
+      "text": "vì vậy tôi sẽ gửi cho bạn một email với những khung thời gian có thể phù hợp.",
+      "author": "a user"
+    },
+    "54553": {
+      "id": 903042,
+      "text": "Tôi mong nhận được phản hồi từ bạn. Cảm ơn!",
+      "author": "a user"
+    },
+    "54540": {
+      "id": 2617322,
+      "text": "Chào buổi sáng, ông Vance.",
+      "author": "ChatGPT4.1"
+    },
+    "54541": {
+      "id": 2617323,
+      "text": "Tôi là Scott Elope từ văn phòng Washington, DC,",
+      "author": "ChatGPT4.1"
+    },
+    "54542": {
+      "id": 2617324,
+      "text": "và tôi chỉ muốn xác nhận sự có mặt của ông tại cuộc họp hội đồng cuối cùng của năm vào tháng Mười Hai.",
+      "author": "ChatGPT4.1"
+    },
+    "54543": {
+      "id": 2617325,
+      "text": "Cuộc họp được dự kiến vào ngày 3,",
+      "author": "ChatGPT4.1"
+    },
+    "54544": {
+      "id": 2617326,
+      "text": "và trong lần nói chuyện gần nhất, ông có nói là có thể ông sẽ không tham dự được.",
+      "author": "ChatGPT4.1"
+    },
+    "54545": {
+      "id": 2617327,
+      "text": "Tôi chỉ muốn làm rõ là điều đó có còn đúng không.",
+      "author": "ChatGPT4.1"
+    },
+    "54546": {
+      "id": 2617328,
+      "text": "Nếu ông không thể tham dự trực tiếp,",
+      "author": "ChatGPT4.1"
+    },
+    "54547": {
+      "id": 2617329,
+      "text": "tôi có thể sắp xếp một cuộc gọi hội nghị, để ông vẫn có thể đóng góp.",
+      "author": "ChatGPT4.1"
+    },
+    "54550": {
+      "id": 2617330,
+      "text": "Tôi xin lỗi nếu các khung giờ này không thuận tiện,",
+      "author": "ChatGPT4.1"
+    },
+    "54551": {
+      "id": 2617331,
+      "text": "xin hãy nhớ rằng có sự chênh lệch múi giờ lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "54552": {
+      "id": 2617332,
+      "text": "Tôi cũng sẽ đính kèm chương trình nghị sự của cuộc họp, để ông biết lịch trình.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

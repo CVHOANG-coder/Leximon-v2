@@ -1,0 +1,799 @@
+{
+  "summary": {
+    "id": 1135,
+    "name": "Short Talk 47",
+    "subTitle": "Thank You and Invitation",
+    "levelName": "B1",
+    "position": 169,
+    "totalChallenges": 12,
+    "groupId": 35,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1135",
+  "detail": {
+    "id": 1135,
+    "lessonName": "Short Talk 47",
+    "name": "Short Talk 47",
+    "position": 169,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/0-short-talk-47.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54008,
+        "position": 1,
+        "content": "Hi Alex. It's me, Dave.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi",
+          "Alex.",
+          "It's",
+          "me,",
+          "Dave."
+        ],
+        "solution": [
+          [
+            "Hi"
+          ],
+          [
+            "Alex."
+          ],
+          [
+            "It's"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "Dave."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/1.mp3",
+        "timeStart": 0.14,
+        "timeEnd": 2.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54008/list"
+      },
+      {
+        "id": 54009,
+        "position": 2,
+        "content": "I'm just calling to thank you for the concert tickets you gave me.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "just",
+          "calling",
+          "to",
+          "thank",
+          "you",
+          "for",
+          "the",
+          "concert",
+          "tickets",
+          "you",
+          "gave",
+          "me."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "just"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "to"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "concert"
+          ],
+          [
+            "tickets"
+          ],
+          [
+            "you"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/2.mp3",
+        "timeStart": 2.41,
+        "timeEnd": 5.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54009/list"
+      },
+      {
+        "id": 54010,
+        "position": 3,
+        "content": "Drake's performance was absolutely amazing,",
+        "defaultInput": "Drake ",
+        "jsonContent": [
+          "Drake's",
+          "performance",
+          "was",
+          "absolutely",
+          "amazing,"
+        ],
+        "solution": [
+          [
+            "Drake's"
+          ],
+          [
+            "performance"
+          ],
+          [
+            "was"
+          ],
+          [
+            "absolutely"
+          ],
+          [
+            "amazing,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/3.mp3",
+        "timeStart": 5.75,
+        "timeEnd": 9.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54010/list"
+      },
+      {
+        "id": 54011,
+        "position": 4,
+        "content": "my girlfriend and I had such a good time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "my",
+          "girlfriend",
+          "and",
+          [
+            "I had",
+            "I'd"
+          ],
+          "such",
+          "a",
+          "good",
+          "time."
+        ],
+        "solution": [
+          [
+            "my"
+          ],
+          [
+            "girlfriend"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/4.mp3",
+        "timeStart": 9.01,
+        "timeEnd": 11.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54011/list"
+      },
+      {
+        "id": 54012,
+        "position": 5,
+        "content": "You won't believe this, we even got to go backstage and meet Drake!",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "won't",
+          "believe",
+          "this,",
+          "we",
+          "even",
+          "got",
+          "to",
+          "go",
+          "backstage",
+          "and",
+          "meet",
+          "Drake!"
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "this,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "even"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "backstage"
+          ],
+          [
+            "and"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "Drake!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/5.mp3",
+        "timeStart": 11.58,
+        "timeEnd": 16.88,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54012/list"
+      },
+      {
+        "id": 54013,
+        "position": 6,
+        "content": "I really appreciate the tickets.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "really",
+          "appreciate",
+          "the",
+          "tickets."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tickets."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/6.mp3",
+        "timeStart": 16.88,
+        "timeEnd": 19.02,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54013/list"
+      },
+      {
+        "id": 54014,
+        "position": 7,
+        "content": "Hey, by the way, I also wanted to let you know that...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "by",
+          "the",
+          "way,",
+          "I",
+          "also",
+          "wanted",
+          "to",
+          "let",
+          "you",
+          "know",
+          "that..."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "also"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/7.mp3",
+        "timeStart": 19.13,
+        "timeEnd": 22.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54014/list"
+      },
+      {
+        "id": 54015,
+        "position": 8,
+        "content": "I'm having a little get together at my house on Sunday to watch the Oscars on TV.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "having",
+          "a",
+          "little",
+          "get",
+          "together",
+          "at",
+          "my",
+          "house",
+          "on",
+          "Sunday",
+          "to",
+          "watch",
+          "the",
+          "Oscars",
+          "on",
+          "TV."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "having"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "get"
+          ],
+          [
+            "together"
+          ],
+          [
+            "at"
+          ],
+          [
+            "my"
+          ],
+          [
+            "house"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Sunday"
+          ],
+          [
+            "to"
+          ],
+          [
+            "watch"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Oscars"
+          ],
+          [
+            "on"
+          ],
+          [
+            "TV."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/8-2024-09-04-16-20-24.mp3",
+        "timeStart": 21.95,
+        "timeEnd": 27.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54015/list"
+      },
+      {
+        "id": 54016,
+        "position": 9,
+        "content": "Do you and your girlfriend want to come?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "and",
+          "your",
+          "girlfriend",
+          [
+            "want to",
+            "wanna"
+          ],
+          "come?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "and"
+          ],
+          [
+            "your"
+          ],
+          [
+            "girlfriend"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "come?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/9.mp3",
+        "timeStart": 27.37,
+        "timeEnd": 29.42,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54016/list"
+      },
+      {
+        "id": 54017,
+        "position": 10,
+        "content": "I know you guys love movies, so hopefully, you can make it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          "you",
+          "guys",
+          "love",
+          "movies,",
+          "so",
+          "hopefully,",
+          "you",
+          "can",
+          "make",
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "you"
+          ],
+          [
+            "guys"
+          ],
+          [
+            "love"
+          ],
+          [
+            "movies,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "hopefully,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "make"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/10.mp3",
+        "timeStart": 29.42,
+        "timeEnd": 33.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54017/list"
+      },
+      {
+        "id": 54018,
+        "position": 11,
+        "content": "Can you just text me and let me know by tonight?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "just",
+          "text",
+          "me",
+          "and",
+          "let",
+          "me",
+          "know",
+          "by",
+          "tonight?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "just"
+          ],
+          [
+            "text"
+          ],
+          [
+            "me"
+          ],
+          [
+            "and"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "know"
+          ],
+          [
+            "by"
+          ],
+          [
+            "tonight?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/11.mp3",
+        "timeStart": 33.18,
+        "timeEnd": 36.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54018/list"
+      },
+      {
+        "id": 54019,
+        "position": 12,
+        "content": "I'm going to go shopping after work and need to know how many pizzas to make.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "go",
+          "shopping",
+          "after",
+          "work",
+          "and",
+          "need",
+          "to",
+          "know",
+          "how",
+          "many",
+          "pizzas",
+          "to",
+          "make."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "go"
+          ],
+          [
+            "shopping"
+          ],
+          [
+            "after"
+          ],
+          [
+            "work"
+          ],
+          [
+            "and"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "how"
+          ],
+          [
+            "many"
+          ],
+          [
+            "pizzas"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-47-2023-09-16-20-31-23/12.mp3",
+        "timeStart": 36.18,
+        "timeEnd": 40.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54019/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54008": {
+      "id": 888103,
+      "text": "Chào Alex. Là tôi, Dave đây.",
+      "author": "a user"
+    },
+    "54012": {
+      "id": 888426,
+      "text": "Bạn sẽ không tin điều này đâu, chúng tôi thậm chí còn có cơ hội vào hậu trường và gặp Drake!",
+      "author": "a user"
+    },
+    "54013": {
+      "id": 888427,
+      "text": "Tôi thực sự trân trọng những tấm vé.",
+      "author": "a user"
+    },
+    "54015": {
+      "id": 888429,
+      "text": "Tôi sẽ có một cuộc gặp mặt nhỏ tại nhà tôi vào Chủ nhật để xem lễ trao giải Oscar trên TV.",
+      "author": "a user"
+    },
+    "54017": {
+      "id": 907330,
+      "text": "Tôi biết các bạn yêu thích phim ảnh nên hy vọng các bạn có thể đến.",
+      "author": "a user"
+    },
+    "54018": {
+      "id": 1044573,
+      "text": "Bạn có thể nhắn tin cho tôi và cho tôi biết trước tối nay được không?",
+      "author": "a user"
+    },
+    "54009": {
+      "id": 2616126,
+      "text": "Mình chỉ gọi để cảm ơn bạn vì đã tặng mình vé hòa nhạc.",
+      "author": "ChatGPT4.1"
+    },
+    "54010": {
+      "id": 2616127,
+      "text": "Màn trình diễn của Drake thật sự tuyệt vời,",
+      "author": "ChatGPT4.1"
+    },
+    "54011": {
+      "id": 2616128,
+      "text": "bạn gái mình và mình đã có khoảng thời gian rất vui.",
+      "author": "ChatGPT4.1"
+    },
+    "54014": {
+      "id": 2616129,
+      "text": "À, tiện thì mình cũng muốn báo cho bạn biết là...",
+      "author": "ChatGPT4.1"
+    },
+    "54016": {
+      "id": 2616130,
+      "text": "Bạn và bạn gái muốn tới không?",
+      "author": "ChatGPT4.1"
+    },
+    "54019": {
+      "id": 2616131,
+      "text": "Mình sẽ đi mua sắm sau giờ làm và cần biết nên làm bao nhiêu cái pizza.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,701 @@
+{
+  "summary": {
+    "id": 2292,
+    "name": "Test 03 - Part B - Extract 3",
+    "subTitle": "CPR Board Placement Discussion",
+    "levelName": "B2",
+    "position": 25,
+    "totalChallenges": 10,
+    "groupId": 133,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2292",
+  "detail": {
+    "id": 2292,
+    "lessonName": "Test 03 - Part B - Extract 3",
+    "name": "Test 03 - Part B - Extract 3",
+    "position": 25,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/0-test-03-part-b-extract-3.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90445,
+        "position": 1,
+        "content": "Okay, that went quite well, didn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "that",
+          "went",
+          "quite",
+          "well,",
+          [
+            "didn't",
+            "did not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "that"
+          ],
+          [
+            "went"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/1.mp3",
+        "timeStart": 0.31,
+        "timeEnd": 3.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90445/list"
+      },
+      {
+        "id": 90446,
+        "position": 2,
+        "content": "But it took you a while to work out where the CPR board was kept.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "it",
+          "took",
+          "you",
+          "a",
+          "while",
+          "to",
+          "work",
+          "out",
+          "where",
+          "the",
+          "CPR",
+          "board",
+          "was",
+          "kept."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "it"
+          ],
+          [
+            "took"
+          ],
+          [
+            "you"
+          ],
+          [
+            "a"
+          ],
+          [
+            "while"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work"
+          ],
+          [
+            "out"
+          ],
+          [
+            "where"
+          ],
+          [
+            "the"
+          ],
+          [
+            "CPR"
+          ],
+          [
+            "board"
+          ],
+          [
+            "was"
+          ],
+          [
+            "kept."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/2.mp3",
+        "timeStart": 3.15,
+        "timeEnd": 6.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90446/list"
+      },
+      {
+        "id": 90447,
+        "position": 3,
+        "content": "So, what does that tell you about this scenario?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "what",
+          "does",
+          "that",
+          "tell",
+          "you",
+          "about",
+          "this",
+          "scenario?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "does"
+          ],
+          [
+            "that"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "this"
+          ],
+          [
+            "scenario?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/3.mp3",
+        "timeStart": 6.49,
+        "timeEnd": 9.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90447/list"
+      },
+      {
+        "id": 90448,
+        "position": 4,
+        "content": "We need to check where things are before doing anything else.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "need",
+          "to",
+          "check",
+          "where",
+          "things",
+          "are",
+          "before",
+          "doing",
+          "anything",
+          "else."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "check"
+          ],
+          [
+            "where"
+          ],
+          [
+            "things"
+          ],
+          [
+            "are"
+          ],
+          [
+            "before"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "else."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/4.mp3",
+        "timeStart": 9.21,
+        "timeEnd": 12.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90448/list"
+      },
+      {
+        "id": 90449,
+        "position": 5,
+        "content": "Exactly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Exactly."
+        ],
+        "solution": [
+          [
+            "Exactly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/5.mp3",
+        "timeStart": 12.46,
+        "timeEnd": 13.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90449/list"
+      },
+      {
+        "id": 90450,
+        "position": 6,
+        "content": "And of course, it takes a second or two to put the head of the bed down,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "of",
+          "course,",
+          "it",
+          "takes",
+          "a",
+          "second",
+          "or",
+          [
+            "two",
+            "2"
+          ],
+          "to",
+          "put",
+          "the",
+          "head",
+          "of",
+          "the",
+          "bed",
+          "down,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second"
+          ],
+          [
+            "or"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "to"
+          ],
+          [
+            "put"
+          ],
+          [
+            "the"
+          ],
+          [
+            "head"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bed"
+          ],
+          [
+            "down,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/6.mp3",
+        "timeStart": 13.21,
+        "timeEnd": 17.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90450/list"
+      },
+      {
+        "id": 90451,
+        "position": 7,
+        "content": "because you've got to have that part of the bed flat before you slip the board in.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          [
+            "you've",
+            "you have"
+          ],
+          "got",
+          "to",
+          "have",
+          "that",
+          "part",
+          "of",
+          "the",
+          "bed",
+          "flat",
+          "before",
+          "you",
+          "slip",
+          "the",
+          "board",
+          "in."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "that"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bed"
+          ],
+          [
+            "flat"
+          ],
+          [
+            "before"
+          ],
+          [
+            "you"
+          ],
+          [
+            "slip"
+          ],
+          [
+            "the"
+          ],
+          [
+            "board"
+          ],
+          [
+            "in."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/7.mp3",
+        "timeStart": 17.19,
+        "timeEnd": 21.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90451/list"
+      },
+      {
+        "id": 90452,
+        "position": 8,
+        "content": "I wish there was a quicker way.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wish",
+          "there",
+          "was",
+          "a",
+          "quicker",
+          "way."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wish"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "quicker"
+          ],
+          [
+            "way."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/8.mp3",
+        "timeStart": 21.55,
+        "timeEnd": 23.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90452/list"
+      },
+      {
+        "id": 90453,
+        "position": 9,
+        "content": "So do I put the CPR board under or would I normally hand it over to somebody else?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "do",
+          "I",
+          "put",
+          "the",
+          "CPR",
+          "board",
+          "under",
+          "or",
+          "would",
+          "I",
+          "normally",
+          "hand",
+          "it",
+          "over",
+          "to",
+          "somebody",
+          "else?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "do"
+          ],
+          [
+            "I"
+          ],
+          [
+            "put"
+          ],
+          [
+            "the"
+          ],
+          [
+            "CPR"
+          ],
+          [
+            "board"
+          ],
+          [
+            "under"
+          ],
+          [
+            "or"
+          ],
+          [
+            "would"
+          ],
+          [
+            "I"
+          ],
+          [
+            "normally"
+          ],
+          [
+            "hand"
+          ],
+          [
+            "it"
+          ],
+          [
+            "over"
+          ],
+          [
+            "to"
+          ],
+          [
+            "somebody"
+          ],
+          [
+            "else?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/9.mp3",
+        "timeStart": 23.65,
+        "timeEnd": 28.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90453/list"
+      },
+      {
+        "id": 90454,
+        "position": 10,
+        "content": "It makes no difference as long as it's done.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "makes",
+          "no",
+          "difference",
+          "as",
+          "long",
+          "as",
+          "it's",
+          "done."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "no"
+          ],
+          [
+            "difference"
+          ],
+          [
+            "as"
+          ],
+          [
+            "long"
+          ],
+          [
+            "as"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "done."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-3-2025-08-29-21-58-45/10.mp3",
+        "timeStart": 28.83,
+        "timeEnd": 31.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90454/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90445": {
+      "id": 3682843,
+      "text": "Ổn rồi, chuyện đó diễn ra khá tốt, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "90446": {
+      "id": 3682844,
+      "text": "Nhưng bạn đã mất một lúc để tìm hiểu vị trí để bảng CPR.",
+      "author": "ChatGPT4.1"
+    },
+    "90447": {
+      "id": 3682845,
+      "text": "Vậy, điều đó nói cho bạn điều gì về tình huống này?",
+      "author": "ChatGPT4.1"
+    },
+    "90448": {
+      "id": 3682846,
+      "text": "Chúng ta cần kiểm tra vị trí mọi thứ trước khi làm bất cứ điều gì khác.",
+      "author": "ChatGPT4.1"
+    },
+    "90449": {
+      "id": 3682847,
+      "text": "Chính xác.",
+      "author": "ChatGPT4.1"
+    },
+    "90450": {
+      "id": 3682848,
+      "text": "Và dĩ nhiên, bạn cần một hai giây để hạ đầu giường xuống,",
+      "author": "ChatGPT4.1"
+    },
+    "90451": {
+      "id": 3682849,
+      "text": "bởi vì bạn phải làm cho phần đó của giường nằm phẳng trước khi luồn tấm bảng vào.",
+      "author": "ChatGPT4.1"
+    },
+    "90452": {
+      "id": 3682850,
+      "text": "Tôi ước có cách nào nhanh hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "90453": {
+      "id": 3682851,
+      "text": "Vậy tôi nên đặt bảng CPR vào hay thường sẽ đưa nó cho ai khác?",
+      "author": "ChatGPT4.1"
+    },
+    "90454": {
+      "id": 3682852,
+      "text": "Chỉ cần hoàn thành, ai làm cũng được.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

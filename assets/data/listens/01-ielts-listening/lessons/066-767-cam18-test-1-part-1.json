@@ -1,0 +1,3881 @@
+{
+  "summary": {
+    "id": 767,
+    "name": "Cam18 - Test 1 - Part 1",
+    "subTitle": "Transport Survey Interview",
+    "levelName": "B1",
+    "position": 66,
+    "totalChallenges": 78,
+    "groupId": 55,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/767",
+  "detail": {
+    "id": 767,
+    "lessonName": "Cam18 - Test 1 - Part 1",
+    "name": "Cam18 - Test 1 - Part 1",
+    "position": 66,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/0-ielts-cambridge-18-test-1-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 36251,
+        "position": 1,
+        "content": "Excuse me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Excuse",
+          "me."
+        ],
+        "solution": [
+          [
+            "Excuse"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/1.mp3",
+        "timeStart": 0.35,
+        "timeEnd": 1.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36251/list"
+      },
+      {
+        "id": 36252,
+        "position": 2,
+        "content": "Would you mind if I asked you some questions?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "mind",
+          "if",
+          "I",
+          "asked",
+          "you",
+          "some",
+          "questions?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "questions?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/2.mp3",
+        "timeStart": 1.78,
+        "timeEnd": 4.37,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/36252/list"
+      },
+      {
+        "id": 36253,
+        "position": 3,
+        "content": "We're doing a survey on transport.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "we are"
+          ],
+          "doing",
+          "a",
+          "survey",
+          "on",
+          "transport."
+        ],
+        "solution": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "on"
+          ],
+          [
+            "transport."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/3.mp3",
+        "timeStart": 4.54,
+        "timeEnd": 6.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36253/list"
+      },
+      {
+        "id": 36254,
+        "position": 4,
+        "content": "Yes, that's OK.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that's",
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/4.mp3",
+        "timeStart": 6.98,
+        "timeEnd": 9.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36254/list"
+      },
+      {
+        "id": 36255,
+        "position": 5,
+        "content": "First of all, can I take your name?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First",
+            "1st"
+          ],
+          "of",
+          "all,",
+          "can",
+          "I",
+          "take",
+          "your",
+          "name?"
+        ],
+        "solution": [
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "take"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/5.mp3",
+        "timeStart": 9.23,
+        "timeEnd": 11.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36255/list"
+      },
+      {
+        "id": 36256,
+        "position": 6,
+        "content": "Yes. It's Sadie Jones.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          "It's",
+          "Sadie",
+          "Jones."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "It's"
+          ],
+          [
+            "Sadie"
+          ],
+          [
+            "Jones."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/6.mp3",
+        "timeStart": 11.8,
+        "timeEnd": 14.9,
+        "hints": [
+          "Sadie Jones"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36256/list"
+      },
+      {
+        "id": 36257,
+        "position": 7,
+        "content": "Thanks very much.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "very",
+          "much."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "very"
+          ],
+          [
+            "much."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/7.mp3",
+        "timeStart": 14.9,
+        "timeEnd": 16.16,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36257/list"
+      },
+      {
+        "id": 36258,
+        "position": 8,
+        "content": "And could I have your date of birth - just the year will do, actually.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "could",
+          [
+            "I have",
+            "I've"
+          ],
+          "your",
+          "date",
+          "of",
+          "birth",
+          "-",
+          "just",
+          "the",
+          "year",
+          "will",
+          "do,",
+          "actually."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "could"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "your"
+          ],
+          [
+            "date"
+          ],
+          [
+            "of"
+          ],
+          [
+            "birth"
+          ],
+          [
+            "-"
+          ],
+          [
+            "just"
+          ],
+          [
+            "the"
+          ],
+          [
+            "year"
+          ],
+          [
+            "will"
+          ],
+          [
+            "do,"
+          ],
+          [
+            "actually."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/8-2023-11-11-22-16-10.mp3",
+        "timeStart": 16.47,
+        "timeEnd": 20.57,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36258/list"
+      },
+      {
+        "id": 36260,
+        "position": 9,
+        "content": "Is that alright?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "that",
+          [
+            "alright?",
+            "all right?"
+          ]
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "alright?",
+            "all right?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/10-2023-11-11-22-15-57.mp3",
+        "timeStart": 20.57,
+        "timeEnd": 21.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36260/list"
+      },
+      {
+        "id": 36261,
+        "position": 10,
+        "content": "Yes, that's fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "that's",
+            "that is"
+          ],
+          "fine."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/11.mp3",
+        "timeStart": 21.86,
+        "timeEnd": 23.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36261/list"
+      },
+      {
+        "id": 36262,
+        "position": 11,
+        "content": "It's 1991.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "1991."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "1991."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/12.mp3",
+        "timeStart": 24.05,
+        "timeEnd": 27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36262/list"
+      },
+      {
+        "id": 36263,
+        "position": 12,
+        "content": "So, next, your postcode, please.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "next,",
+          "your",
+          "postcode,",
+          "please."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "next,"
+          ],
+          [
+            "your"
+          ],
+          [
+            "postcode,"
+          ],
+          [
+            "please."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/13.mp3",
+        "timeStart": 27.15,
+        "timeEnd": 30.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36263/list"
+      },
+      {
+        "id": 36264,
+        "position": 13,
+        "content": "It's DW307YZ.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "DW307YZ."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "DW307YZ."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/14.mp3",
+        "timeStart": 30.58,
+        "timeEnd": 36.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36264/list"
+      },
+      {
+        "id": 36265,
+        "position": 14,
+        "content": "Great. Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great.",
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Great."
+          ],
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/15.mp3",
+        "timeStart": 36.82,
+        "timeEnd": 38.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36265/list"
+      },
+      {
+        "id": 36266,
+        "position": 15,
+        "content": "Is that in Wells?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "that",
+          "in",
+          "Wells?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Wells?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/16.mp3",
+        "timeStart": 38.65,
+        "timeEnd": 40.29,
+        "hints": [
+          "Wells"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36266/list"
+      },
+      {
+        "id": 36267,
+        "position": 16,
+        "content": "No it's actually in Harborne.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "it's",
+          "actually",
+          "in",
+          "Harborne."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Harborne."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/17.mp3",
+        "timeStart": 40.29,
+        "timeEnd": 43.21,
+        "hints": [
+          "Harborne"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36267/list"
+      },
+      {
+        "id": 36268,
+        "position": 17,
+        "content": "Wells isn't far from there, though.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Wells",
+          [
+            "isn't",
+            "is not"
+          ],
+          "far",
+          "from",
+          "there,",
+          "though."
+        ],
+        "solution": [
+          [
+            "Wells"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "far"
+          ],
+          [
+            "from"
+          ],
+          [
+            "there,"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/18.mp3",
+        "timeStart": 43.21,
+        "timeEnd": 45.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36268/list"
+      },
+      {
+        "id": 36269,
+        "position": 18,
+        "content": "I really like that area.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "really",
+          "like",
+          "that",
+          "area."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that"
+          ],
+          [
+            "area."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/19.mp3",
+        "timeStart": 45.58,
+        "timeEnd": 47.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36269/list"
+      },
+      {
+        "id": 36270,
+        "position": 19,
+        "content": "My grandmother lived there when I was a kid.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "grandmother",
+          "lived",
+          "there",
+          "when",
+          "I",
+          "was",
+          "a",
+          "kid."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "grandmother"
+          ],
+          [
+            "lived"
+          ],
+          [
+            "there"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "kid."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/20.mp3",
+        "timeStart": 47.63,
+        "timeEnd": 50.32,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36270/list"
+      },
+      {
+        "id": 36271,
+        "position": 20,
+        "content": "Yes, it is nice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "it is",
+            "it's"
+          ],
+          "nice."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "nice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/21.mp3",
+        "timeStart": 50.5,
+        "timeEnd": 52.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36271/list"
+      },
+      {
+        "id": 36272,
+        "position": 21,
+        "content": "Right, so now I want to ask you some questions about how you travelled here today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "so",
+          "now",
+          "I",
+          [
+            "want to",
+            "wanna"
+          ],
+          "ask",
+          "you",
+          "some",
+          "questions",
+          "about",
+          "how",
+          "you",
+          [
+            "travelled",
+            "traveled"
+          ],
+          "here",
+          "today."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "now"
+          ],
+          [
+            "I"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "about"
+          ],
+          [
+            "how"
+          ],
+          [
+            "you"
+          ],
+          [
+            "travelled",
+            "traveled"
+          ],
+          [
+            "here"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/22.mp3",
+        "timeStart": 52.89,
+        "timeEnd": 58.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36272/list"
+      },
+      {
+        "id": 36273,
+        "position": 22,
+        "content": "Did you use public transport?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "use",
+          "public",
+          "transport?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "use"
+          ],
+          [
+            "public"
+          ],
+          [
+            "transport?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/23.mp3",
+        "timeStart": 59.27,
+        "timeEnd": 61.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36273/list"
+      },
+      {
+        "id": 36274,
+        "position": 23,
+        "content": "Yes. I came by bus.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          "I",
+          "came",
+          "by",
+          "bus."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "I"
+          ],
+          [
+            "came"
+          ],
+          [
+            "by"
+          ],
+          [
+            "bus."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/24.mp3",
+        "timeStart": 61.54,
+        "timeEnd": 64.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36274/list"
+      },
+      {
+        "id": 36275,
+        "position": 24,
+        "content": "OK. And that was today.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "And",
+          "that",
+          "was",
+          "today."
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "And"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/25.mp3",
+        "timeStart": 64.03,
+        "timeEnd": 66.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36275/list"
+      },
+      {
+        "id": 36276,
+        "position": 25,
+        "content": "It's the 24th of April, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "the",
+          "24th",
+          "of",
+          "April,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "24th"
+          ],
+          [
+            "of"
+          ],
+          [
+            "April,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/26.mp3",
+        "timeStart": 67.01,
+        "timeEnd": 69.99,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36276/list"
+      },
+      {
+        "id": 36277,
+        "position": 26,
+        "content": "Isn't it the 25th?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Isn't",
+            "Is not"
+          ],
+          "it",
+          "the",
+          [
+            "25th?",
+            "twenty-fifth"
+          ]
+        ],
+        "solution": [
+          [
+            "Isn't",
+            "Is not"
+          ],
+          [
+            "it"
+          ],
+          [
+            "the"
+          ],
+          [
+            "25th?",
+            "twenty-fifth"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/27.mp3",
+        "timeStart": 69.99,
+        "timeEnd": 72.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36277/list"
+      },
+      {
+        "id": 36278,
+        "position": 27,
+        "content": "Ah... no, actually, you're right.",
+        "defaultInput": "Ah... ",
+        "jsonContent": [
+          "Ah...",
+          "no,",
+          "actually,",
+          [
+            "you're",
+            "you are"
+          ],
+          "right."
+        ],
+        "solution": [
+          [
+            "Ah..."
+          ],
+          [
+            "no,"
+          ],
+          [
+            "actually,"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/28.mp3",
+        "timeStart": 72.61,
+        "timeEnd": 75.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36278/list"
+      },
+      {
+        "id": 36279,
+        "position": 28,
+        "content": "And what was the reason for your trip today?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "was",
+          "the",
+          "reason",
+          "for",
+          "your",
+          "trip",
+          "today?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/29.mp3",
+        "timeStart": 76.85,
+        "timeEnd": 80.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36279/list"
+      },
+      {
+        "id": 36280,
+        "position": 29,
+        "content": "I can see you've got some shopping with you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "see",
+          [
+            "you've",
+            "You have"
+          ],
+          "got",
+          "some",
+          "shopping",
+          "with",
+          "you."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "some"
+          ],
+          [
+            "shopping"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/30.mp3",
+        "timeStart": 80.01,
+        "timeEnd": 82.56,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/36280/list"
+      },
+      {
+        "id": 36281,
+        "position": 30,
+        "content": "Yes. I did some shopping",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          "I",
+          "did",
+          "some",
+          "shopping"
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "I"
+          ],
+          [
+            "did"
+          ],
+          [
+            "some"
+          ],
+          [
+            "shopping"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/31.mp3",
+        "timeStart": 82.56,
+        "timeEnd": 84.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36281/list"
+      },
+      {
+        "id": 36282,
+        "position": 31,
+        "content": "but the main reason I came here was to go to the dentist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "the",
+          "main",
+          "reason",
+          "I",
+          "came",
+          "here",
+          "was",
+          "to",
+          "go",
+          "to",
+          "the",
+          "dentist."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "main"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "I"
+          ],
+          [
+            "came"
+          ],
+          [
+            "here"
+          ],
+          [
+            "was"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dentist."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/32.mp3",
+        "timeStart": 85.19,
+        "timeEnd": 89.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36282/list"
+      },
+      {
+        "id": 36283,
+        "position": 32,
+        "content": "That's not much fun.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "not",
+          "much",
+          "fun."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "not"
+          ],
+          [
+            "much"
+          ],
+          [
+            "fun."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/33.mp3",
+        "timeStart": 90.11,
+        "timeEnd": 91.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36283/list"
+      },
+      {
+        "id": 36284,
+        "position": 33,
+        "content": "Hope it was nothing serious.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hope",
+          "it",
+          "was",
+          "nothing",
+          "serious."
+        ],
+        "solution": [
+          [
+            "Hope"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "nothing"
+          ],
+          [
+            "serious."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/34.mp3",
+        "timeStart": 91.79,
+        "timeEnd": 93.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36284/list"
+      },
+      {
+        "id": 36285,
+        "position": 34,
+        "content": "No, it was just a check-up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "it",
+          "was",
+          "just",
+          "a",
+          [
+            "check-up.",
+            "check up."
+          ]
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "check-up.",
+            "check up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/35.mp3",
+        "timeStart": 93.59,
+        "timeEnd": 96.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36285/list"
+      },
+      {
+        "id": 36286,
+        "position": 35,
+        "content": "It's fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "fine."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/36.mp3",
+        "timeStart": 96.04,
+        "timeEnd": 96.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36286/list"
+      },
+      {
+        "id": 36287,
+        "position": 36,
+        "content": "Good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good."
+        ],
+        "solution": [
+          [
+            "Good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/37.mp3",
+        "timeStart": 96.95,
+        "timeEnd": 97.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36287/list"
+      },
+      {
+        "id": 36288,
+        "position": 37,
+        "content": "Do you normally travel by bus into the city centre?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "normally",
+          "travel",
+          "by",
+          "bus",
+          "into",
+          "the",
+          "city",
+          [
+            "centre?",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "normally"
+          ],
+          [
+            "travel"
+          ],
+          [
+            "by"
+          ],
+          [
+            "bus"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "centre?",
+            "center"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/38.mp3",
+        "timeStart": 98.23,
+        "timeEnd": 101.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36288/list"
+      },
+      {
+        "id": 36289,
+        "position": 38,
+        "content": "Yes. I stopped driving in ages ago",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          "I",
+          "stopped",
+          "driving",
+          "in",
+          "ages",
+          "ago"
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "I"
+          ],
+          [
+            "stopped"
+          ],
+          [
+            "driving"
+          ],
+          [
+            "in"
+          ],
+          [
+            "ages"
+          ],
+          [
+            "ago"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/39.mp3",
+        "timeStart": 101.43,
+        "timeEnd": 105.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36289/list"
+      },
+      {
+        "id": 36290,
+        "position": 39,
+        "content": "because parking was so difficult to find",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "parking",
+          "was",
+          "so",
+          "difficult",
+          "to",
+          "find"
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "parking"
+          ],
+          [
+            "was"
+          ],
+          [
+            "so"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/40.mp3",
+        "timeStart": 105.09,
+        "timeEnd": 108.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36290/list"
+      },
+      {
+        "id": 36291,
+        "position": 40,
+        "content": "and it costs so much.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          "costs",
+          "so",
+          "much."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "costs"
+          ],
+          [
+            "so"
+          ],
+          [
+            "much."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/41.mp3",
+        "timeStart": 108.7,
+        "timeEnd": 110.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36291/list"
+      },
+      {
+        "id": 36292,
+        "position": 41,
+        "content": "I see.",
+        "defaultInput": "I see.",
+        "jsonContent": [
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/42-2023-08-17-22-53-02.mp3",
+        "timeStart": 110.75,
+        "timeEnd": 111.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36292/list"
+      },
+      {
+        "id": 36293,
+        "position": 42,
+        "content": "The bus is much more convenient too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "bus",
+          "is",
+          "much",
+          "more",
+          "convenient",
+          "too."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "bus"
+          ],
+          [
+            "is"
+          ],
+          [
+            "much"
+          ],
+          [
+            "more"
+          ],
+          [
+            "convenient"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/43.mp3",
+        "timeStart": 111.67,
+        "timeEnd": 114.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36293/list"
+      },
+      {
+        "id": 36294,
+        "position": 43,
+        "content": "It only takes about 30 minutes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "only",
+          "takes",
+          "about",
+          [
+            "30",
+            "thirty"
+          ],
+          "minutes."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "only"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "about"
+          ],
+          [
+            "30",
+            "thirty"
+          ],
+          [
+            "minutes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/44.mp3",
+        "timeStart": 114.84,
+        "timeEnd": 117.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36294/list"
+      },
+      {
+        "id": 36295,
+        "position": 44,
+        "content": "That's good.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "good."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/45.mp3",
+        "timeStart": 117.27,
+        "timeEnd": 118.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36295/list"
+      },
+      {
+        "id": 36296,
+        "position": 45,
+        "content": "So where did you start your journey?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "where",
+          "did",
+          "you",
+          "start",
+          "your",
+          "journey?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "where"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "start"
+          ],
+          [
+            "your"
+          ],
+          [
+            "journey?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/46.mp3",
+        "timeStart": 118.6,
+        "timeEnd": 120.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36296/list"
+      },
+      {
+        "id": 36297,
+        "position": 46,
+        "content": "At the bus stop on Claxby Street.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "the",
+          "bus",
+          "stop",
+          "on",
+          "Claxby",
+          "Street."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bus"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Claxby"
+          ],
+          [
+            "Street."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/47.mp3",
+        "timeStart": 120.97,
+        "timeEnd": 124.76,
+        "hints": [
+          "Claxby"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36297/list"
+      },
+      {
+        "id": 36298,
+        "position": 47,
+        "content": "Is that C-L-A-X-B-Y?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "that",
+          [
+            "C-L-A-X-B-Y?",
+            "C L A X B Y?"
+          ]
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "C-L-A-X-B-Y?",
+            "C L A X B Y?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/48.mp3",
+        "timeStart": 124.76,
+        "timeEnd": 129.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36298/list"
+      },
+      {
+        "id": 36299,
+        "position": 48,
+        "content": "That's right.",
+        "defaultInput": "That's right.",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/49.mp3",
+        "timeStart": 129.19,
+        "timeEnd": 130.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36299/list"
+      },
+      {
+        "id": 36300,
+        "position": 49,
+        "content": "And how satisfied with the service are you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "how",
+          "satisfied",
+          "with",
+          "the",
+          "service",
+          "are",
+          "you?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "how"
+          ],
+          [
+            "satisfied"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "service"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/50.mp3",
+        "timeStart": 131.14,
+        "timeEnd": 133.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36300/list"
+      },
+      {
+        "id": 36301,
+        "position": 50,
+        "content": "Do you have any complaints?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "you have",
+            "you've"
+          ],
+          "any",
+          "complaints?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "any"
+          ],
+          [
+            "complaints?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/51.mp3",
+        "timeStart": 133.95,
+        "timeEnd": 135.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36301/list"
+      },
+      {
+        "id": 36302,
+        "position": 51,
+        "content": "Well, as I said, it's very convenient and quick when it's on time,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "as",
+          "I",
+          "said,",
+          "it's",
+          "very",
+          "convenient",
+          "and",
+          "quick",
+          "when",
+          "it's",
+          "on",
+          "time,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "I"
+          ],
+          [
+            "said,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "convenient"
+          ],
+          [
+            "and"
+          ],
+          [
+            "quick"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "on"
+          ],
+          [
+            "time,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/52.mp3",
+        "timeStart": 135.91,
+        "timeEnd": 142.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36302/list"
+      },
+      {
+        "id": 36303,
+        "position": 52,
+        "content": "but this morning it was late.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "this",
+          "morning",
+          "it",
+          "was",
+          "late."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "this"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "late."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/53.mp3",
+        "timeStart": 142.33,
+        "timeEnd": 144.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36303/list"
+      },
+      {
+        "id": 36304,
+        "position": 53,
+        "content": "Only about 10 minutes, but still.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Only",
+          "about",
+          [
+            "10",
+            "ten"
+          ],
+          "minutes,",
+          "but",
+          "still."
+        ],
+        "solution": [
+          [
+            "Only"
+          ],
+          [
+            "about"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "minutes,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "still."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/54.mp3",
+        "timeStart": 144.87,
+        "timeEnd": 147.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36304/list"
+      },
+      {
+        "id": 36305,
+        "position": 54,
+        "content": "Yes, I understand that's annoying.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "understand",
+          [
+            "that's",
+            "that is"
+          ],
+          "annoying."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "annoying."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/55.mp3",
+        "timeStart": 147.76,
+        "timeEnd": 149.95,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/36305/list"
+      },
+      {
+        "id": 36306,
+        "position": 55,
+        "content": "And what about the timetable?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "about",
+          "the",
+          "timetable?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "timetable?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/56.mp3",
+        "timeStart": 150.23,
+        "timeEnd": 152.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36306/list"
+      },
+      {
+        "id": 36307,
+        "position": 56,
+        "content": "Do you have any comments about that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "you have",
+            "you've"
+          ],
+          "any",
+          "comments",
+          "about",
+          "that?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "any"
+          ],
+          [
+            "comments"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/57.mp3",
+        "timeStart": 152.56,
+        "timeEnd": 154.35,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36307/list"
+      },
+      {
+        "id": 36308,
+        "position": 57,
+        "content": "I suppose I mainly use the bus during the day,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "suppose",
+          "I",
+          "mainly",
+          "use",
+          "the",
+          "bus",
+          "during",
+          "the",
+          "day,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "suppose"
+          ],
+          [
+            "I"
+          ],
+          [
+            "mainly"
+          ],
+          [
+            "use"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bus"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/58.mp3",
+        "timeStart": 155.86,
+        "timeEnd": 159.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36308/list"
+      },
+      {
+        "id": 36309,
+        "position": 58,
+        "content": "but any time I've been in town in the evening, for dinner or at the cinema,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "any",
+          "time",
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "in",
+          "town",
+          "in",
+          "the",
+          "evening,",
+          "for",
+          "dinner",
+          "or",
+          "at",
+          "the",
+          "cinema,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "any"
+          ],
+          [
+            "time"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "in"
+          ],
+          [
+            "town"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "evening,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "dinner"
+          ],
+          [
+            "or"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cinema,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/59-2023-11-07-18-00-50.mp3",
+        "timeStart": 160.1,
+        "timeEnd": 166.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36309/list"
+      },
+      {
+        "id": 36311,
+        "position": 59,
+        "content": "I've noticed you have to wait a long time for a bus.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "noticed",
+          [
+            "you have",
+            "you've"
+          ],
+          "to",
+          "wait",
+          "a",
+          "long",
+          "time",
+          "for",
+          "a",
+          "bus."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "noticed"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "a"
+          ],
+          [
+            "long"
+          ],
+          [
+            "time"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bus."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/61.mp3",
+        "timeStart": 166.88,
+        "timeEnd": 170.74,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36311/list"
+      },
+      {
+        "id": 36312,
+        "position": 60,
+        "content": "There aren't that many.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          [
+            "aren't",
+            "are not"
+          ],
+          "that",
+          "many."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "that"
+          ],
+          [
+            "many."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/62-2023-08-15-23-03-50.mp3",
+        "timeStart": 171.1,
+        "timeEnd": 172.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36312/list"
+      },
+      {
+        "id": 36313,
+        "position": 61,
+        "content": "OK, thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK,",
+            "okay"
+          ],
+          "thanks."
+        ],
+        "solution": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/63.mp3",
+        "timeStart": 172.67,
+        "timeEnd": 174.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36313/list"
+      },
+      {
+        "id": 36314,
+        "position": 62,
+        "content": "So now I'd like to ask you about your car use.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "now",
+          "I'd",
+          "like",
+          "to",
+          "ask",
+          "you",
+          "about",
+          "your",
+          "car",
+          "use."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "now"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "car"
+          ],
+          [
+            "use."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/64.mp3",
+        "timeStart": 174.33,
+        "timeEnd": 178.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36314/list"
+      },
+      {
+        "id": 36315,
+        "position": 63,
+        "content": "Well, I have got a car but I don't use it that often.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I have",
+            "I've"
+          ],
+          "got",
+          "a",
+          "car",
+          "but",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "use",
+          "it",
+          "that",
+          "often."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "car"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "use"
+          ],
+          [
+            "it"
+          ],
+          [
+            "that"
+          ],
+          [
+            "often."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/65.mp3",
+        "timeStart": 178.54,
+        "timeEnd": 182.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36315/list"
+      },
+      {
+        "id": 36316,
+        "position": 64,
+        "content": "Mainly just to go to the supermarket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mainly",
+          "just",
+          "to",
+          "go",
+          "to",
+          "the",
+          "supermarket."
+        ],
+        "solution": [
+          [
+            "Mainly"
+          ],
+          [
+            "just"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "supermarket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/66.mp3",
+        "timeStart": 182.91,
+        "timeEnd": 186.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36316/list"
+      },
+      {
+        "id": 36317,
+        "position": 65,
+        "content": "But that's about it really.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "that's",
+            "that is"
+          ],
+          "about",
+          "it",
+          "really."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it"
+          ],
+          [
+            "really."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/67.mp3",
+        "timeStart": 186.44,
+        "timeEnd": 188.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36317/list"
+      },
+      {
+        "id": 36318,
+        "position": 66,
+        "content": "My husband uses it at the weekends to go to the golf club.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "husband",
+          "uses",
+          "it",
+          "at",
+          "the",
+          "weekends",
+          "to",
+          "go",
+          "to",
+          "the",
+          "golf",
+          "club."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "husband"
+          ],
+          [
+            "uses"
+          ],
+          [
+            "it"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weekends"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "golf"
+          ],
+          [
+            "club."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/68.mp3",
+        "timeStart": 188.54,
+        "timeEnd": 193.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36318/list"
+      },
+      {
+        "id": 36319,
+        "position": 67,
+        "content": "And what about a bicycle?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "about",
+          "a",
+          "bicycle?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bicycle?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/69.mp3",
+        "timeStart": 193.01,
+        "timeEnd": 194.8,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36319/list"
+      },
+      {
+        "id": 36320,
+        "position": 68,
+        "content": "I don't actually have one at the moment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "actually",
+          "have",
+          [
+            "one",
+            "1"
+          ],
+          "at",
+          "the",
+          "moment."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "have"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "moment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/70.mp3",
+        "timeStart": 194.8,
+        "timeEnd": 197.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36320/list"
+      },
+      {
+        "id": 36321,
+        "position": 69,
+        "content": "What about the city bikes you can rent?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "the",
+          "city",
+          "bikes",
+          "you",
+          "can",
+          "rent?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "bikes"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "rent?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/71.mp3",
+        "timeStart": 197.59,
+        "timeEnd": 200.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36321/list"
+      },
+      {
+        "id": 36322,
+        "position": 70,
+        "content": "Do you ever use those?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "ever",
+          "use",
+          "those?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "use"
+          ],
+          [
+            "those?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/72.mp3",
+        "timeStart": 200.25,
+        "timeEnd": 201.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36322/list"
+      },
+      {
+        "id": 36323,
+        "position": 71,
+        "content": "No, I'm not keen on cycling there because of all the pollution.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "keen",
+          "on",
+          "cycling",
+          "there",
+          "because",
+          "of",
+          "all",
+          "the",
+          "pollution."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "keen"
+          ],
+          [
+            "on"
+          ],
+          [
+            "cycling"
+          ],
+          [
+            "there"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pollution."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/73.mp3",
+        "timeStart": 201.61,
+        "timeEnd": 207.01,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36323/list"
+      },
+      {
+        "id": 36324,
+        "position": 72,
+        "content": "But I would like to get a bike, it would be good to use it to get to work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "I would",
+            "I'd"
+          ],
+          "like",
+          "to",
+          "get",
+          "a",
+          "bike,",
+          [
+            "it would",
+            "It'd"
+          ],
+          "be",
+          "good",
+          "to",
+          "use",
+          "it",
+          "to",
+          "get",
+          "to",
+          "work."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bike,"
+          ],
+          [
+            "it would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "good"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/74.mp3",
+        "timeStart": 207.46,
+        "timeEnd": 212.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36324/list"
+      },
+      {
+        "id": 36325,
+        "position": 73,
+        "content": "So why haven't you got one now?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "why",
+          [
+            "haven't",
+            "have not"
+          ],
+          "you",
+          "got",
+          [
+            "one",
+            "1"
+          ],
+          "now?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "why"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "you"
+          ],
+          [
+            "got"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "now?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/75.mp3",
+        "timeStart": 212.3,
+        "timeEnd": 214.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36325/list"
+      },
+      {
+        "id": 36326,
+        "position": 74,
+        "content": "Well, I live in a flat, on the second floor",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "live",
+          "in",
+          "a",
+          "flat,",
+          "on",
+          "the",
+          [
+            "second",
+            "2nd"
+          ],
+          "floor"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "flat,"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second",
+            "2nd"
+          ],
+          [
+            "floor"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/76.mp3",
+        "timeStart": 214.6,
+        "timeEnd": 218.66,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/36326/list"
+      },
+      {
+        "id": 36327,
+        "position": 75,
+        "content": "and it doesn't have any storage,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "have",
+          "any",
+          "storage,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "any"
+          ],
+          [
+            "storage,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/77.mp3",
+        "timeStart": 218.66,
+        "timeEnd": 221.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36327/list"
+      },
+      {
+        "id": 36328,
+        "position": 76,
+        "content": "so we'd have to leave it in the hall outside the flat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "we'd",
+          "have",
+          "to",
+          "leave",
+          "it",
+          "in",
+          "the",
+          "hall",
+          "outside",
+          "the",
+          "flat."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "we'd"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "it"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hall"
+          ],
+          [
+            "outside"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/78.mp3",
+        "timeStart": 221.6,
+        "timeEnd": 225.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36328/list"
+      },
+      {
+        "id": 36329,
+        "position": 77,
+        "content": "I see.",
+        "defaultInput": "I see.",
+        "jsonContent": [
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/79.mp3",
+        "timeStart": 225.75,
+        "timeEnd": 226.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/36329/list"
+      },
+      {
+        "id": 36330,
+        "position": 78,
+        "content": "OK. Well, I think that's all...",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "Well,",
+          "I",
+          "think",
+          [
+            "that's",
+            "that is"
+          ],
+          "all..."
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "all..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-18-test-1-part-1-2023-06-16-20-37-03/80.mp3",
+        "timeStart": 227.02,
+        "timeEnd": 229.88,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/36330/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "36251": {
+      "id": 629196,
+      "text": "Xin thứ lỗi",
+      "author": "a user"
+    },
+    "36255": {
+      "id": 629233,
+      "text": "Trước hết thì, tôi có thể biết tên bạn chứ?",
+      "author": "a user"
+    },
+    "36256": {
+      "id": 629307,
+      "text": "Được chứ, tôi tên là Sadie Jones.",
+      "author": "a user"
+    },
+    "36261": {
+      "id": 629313,
+      "text": "Vâng, được mà",
+      "author": "a user"
+    },
+    "36268": {
+      "id": 629320,
+      "text": "Tuy nhiên, Wells không xa nơi đó lắm.",
+      "author": "a user"
+    },
+    "36272": {
+      "id": 629324,
+      "text": "Rồi, vậy bây giờ tôi muốn hỏi bạn một số câu hỏi về cách bạn di chuyển tới đây ngày hôm nay.",
+      "author": "a user"
+    },
+    "36273": {
+      "id": 629325,
+      "text": "Bạn đã sử dụng phương tiện giao thông công cộng đúng không?",
+      "author": "a user"
+    },
+    "36274": {
+      "id": 629326,
+      "text": "Đúng. Tôi đã đến bằng xe buýt.",
+      "author": "a user"
+    },
+    "36280": {
+      "id": 629332,
+      "text": "Tôi có thể thấy bạn đã vừa đi mua sắm\n",
+      "author": "a user"
+    },
+    "36281": {
+      "id": 629333,
+      "text": "Đúng. tôi đã đi mua sắm một chút",
+      "author": "a user"
+    },
+    "36283": {
+      "id": 629335,
+      "text": "Không vui lắm nhỉ",
+      "author": "a user"
+    },
+    "36300": {
+      "id": 629353,
+      "text": "Và mức độ hài lòng của bạn với dịch vụ như thế nào?",
+      "author": "a user"
+    },
+    "36304": {
+      "id": 629357,
+      "text": "Chỉ khoảng 10 phút thôi, nhưng vẫn trễ!",
+      "author": "a user"
+    },
+    "36306": {
+      "id": 629359,
+      "text": "Và còn lịch trình của xe bus thì sao?",
+      "author": "a user"
+    },
+    "36311": {
+      "id": 629364,
+      "text": "Tôi đã nhận thấy bạn phải đợi rất lâu cho một chiếc xe buýt.",
+      "author": "a user"
+    },
+    "36312": {
+      "id": 629365,
+      "text": "Không có nhiều lắm.",
+      "author": "a user"
+    },
+    "36315": {
+      "id": 629368,
+      "text": "Vâng, tôi đã có một chiếc xe hơi nhưng tôi không sử dụng nó thường xuyên lắm.",
+      "author": "a user"
+    },
+    "36317": {
+      "id": 629370,
+      "text": "Nhưng thực sự thì cũng chỉ có vậy thôi",
+      "author": "a user"
+    },
+    "36320": {
+      "id": 629373,
+      "text": "Hiện tại tôi thực sự không có nó vào lúc này",
+      "author": "a user"
+    },
+    "36324": {
+      "id": 629377,
+      "text": "Nhưng tôi muốn có một chiếc xe đạp, thật tốt khi sử dụng nó để đi làm.",
+      "author": "a user"
+    },
+    "36325": {
+      "id": 629378,
+      "text": "Vậy tại sao tới giờ bạn chưa có?",
+      "author": "a user"
+    },
+    "36327": {
+      "id": 629380,
+      "text": "và nó không có kho nào để chứa cả,",
+      "author": "a user"
+    },
+    "36328": {
+      "id": 629381,
+      "text": "vì vậy chúng tôi phải để nó ở hành lang bên ngoài căn hộ.",
+      "author": "a user"
+    },
+    "36330": {
+      "id": 629383,
+      "text": "Được rồi. Chà, tôi nghĩ đó là tất cả ...",
+      "author": "a user"
+    },
+    "36260": {
+      "id": 633195,
+      "text": "Có được không?",
+      "author": "a user"
+    },
+    "36263": {
+      "id": 633196,
+      "text": "Vậy, tiếp theo, vui lòng cho tôi mã bưu điện của bạn. ",
+      "author": "a user"
+    },
+    "36258": {
+      "id": 1003776,
+      "text": "Và tôi có thể biết ngày sinh của bạn không - thực ra chỉ cần năm sinh thôi.",
+      "author": "a user"
+    },
+    "36252": {
+      "id": 2593077,
+      "text": "Bạn có phiền nếu tôi hỏi bạn vài câu hỏi không?",
+      "author": "ChatGPT4.1"
+    },
+    "36253": {
+      "id": 2593078,
+      "text": "Chúng tôi đang thực hiện một cuộc khảo sát về phương tiện di chuyển.",
+      "author": "ChatGPT4.1"
+    },
+    "36254": {
+      "id": 2593079,
+      "text": "Vâng, không sao đâu.",
+      "author": "ChatGPT4.1"
+    },
+    "36257": {
+      "id": 2593080,
+      "text": "Cảm ơn bạn rất nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "36262": {
+      "id": 2593081,
+      "text": "Là 1991.",
+      "author": "ChatGPT4.1"
+    },
+    "36264": {
+      "id": 2593082,
+      "text": "Là DW307YZ.",
+      "author": "ChatGPT4.1"
+    },
+    "36265": {
+      "id": 2593083,
+      "text": "Tuyệt vời. Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "36266": {
+      "id": 2593084,
+      "text": "Có phải ở Wells không?",
+      "author": "ChatGPT4.1"
+    },
+    "36267": {
+      "id": 2593085,
+      "text": "Không, thực ra ở Harborne.",
+      "author": "ChatGPT4.1"
+    },
+    "36269": {
+      "id": 2593086,
+      "text": "Tôi thực sự thích khu vực đó.",
+      "author": "ChatGPT4.1"
+    },
+    "36270": {
+      "id": 2593087,
+      "text": "Bà tôi đã sống ở đó khi tôi còn nhỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "36271": {
+      "id": 2593088,
+      "text": "Vâng, nơi đó đẹp thật.",
+      "author": "ChatGPT4.1"
+    },
+    "36275": {
+      "id": 2593089,
+      "text": "Được rồi. Và đó là hôm nay.",
+      "author": "ChatGPT4.1"
+    },
+    "36276": {
+      "id": 2593090,
+      "text": "Hôm nay là ngày 24 tháng 4, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "36277": {
+      "id": 2593091,
+      "text": "Không phải là ngày 25 sao?",
+      "author": "ChatGPT4.1"
+    },
+    "36278": {
+      "id": 2593092,
+      "text": "À... không, đúng rồi, bạn nói đúng.",
+      "author": "ChatGPT4.1"
+    },
+    "36279": {
+      "id": 2593093,
+      "text": "Và lý do bạn đi hôm nay là gì?",
+      "author": "ChatGPT4.1"
+    },
+    "36282": {
+      "id": 2593094,
+      "text": "nhưng lý do chính tôi đến đây là để đi nha sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "36284": {
+      "id": 2593872,
+      "text": "Hy vọng đó không phải là vấn đề nghiêm trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "36285": {
+      "id": 2593873,
+      "text": "Không, chỉ là kiểm tra định kỳ thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "36286": {
+      "id": 2593874,
+      "text": "Ổn mà.",
+      "author": "ChatGPT4.1"
+    },
+    "36287": {
+      "id": 2593875,
+      "text": "Tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "36288": {
+      "id": 2593876,
+      "text": "Bạn thường đi xe buýt vào trung tâm thành phố không?",
+      "author": "a user"
+    },
+    "36289": {
+      "id": 2593877,
+      "text": "Vâng. Tôi đã ngừng lái xe từ lâu rồi",
+      "author": "ChatGPT4.1"
+    },
+    "36290": {
+      "id": 2593878,
+      "text": "vì chỗ đậu xe rất khó tìm",
+      "author": "ChatGPT4.1"
+    },
+    "36291": {
+      "id": 2593879,
+      "text": "và quá tốn kém.",
+      "author": "ChatGPT4.1"
+    },
+    "36292": {
+      "id": 2593880,
+      "text": "Tôi hiểu.",
+      "author": "ChatGPT4.1"
+    },
+    "36293": {
+      "id": 2593881,
+      "text": "Xe buýt cũng tiện lợi hơn nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "36294": {
+      "id": 2593882,
+      "text": "Chỉ mất khoảng 30 phút.",
+      "author": "ChatGPT4.1"
+    },
+    "36295": {
+      "id": 2593883,
+      "text": "Vậy là tốt rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "36296": {
+      "id": 2593884,
+      "text": "Vậy bạn bắt đầu chuyến đi của mình ở đâu?",
+      "author": "ChatGPT4.1"
+    },
+    "36297": {
+      "id": 2593885,
+      "text": "Tại trạm xe buýt trên đường Claxby.",
+      "author": "ChatGPT4.1"
+    },
+    "36298": {
+      "id": 2593886,
+      "text": "Đó có phải là C-L-A-X-B-Y không?",
+      "author": "ChatGPT4.1"
+    },
+    "36299": {
+      "id": 2594447,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "36301": {
+      "id": 2594448,
+      "text": "Bạn có phàn nàn gì không?",
+      "author": "ChatGPT4.1"
+    },
+    "36302": {
+      "id": 2594449,
+      "text": "À, như tôi đã nói, rất tiện lợi và nhanh khi xe đến đúng giờ,",
+      "author": "ChatGPT4.1"
+    },
+    "36303": {
+      "id": 2594450,
+      "text": "nhưng sáng nay xe lại đến trễ.",
+      "author": "ChatGPT4.1"
+    },
+    "36305": {
+      "id": 2594451,
+      "text": "Vâng, tôi hiểu điều đó thật phiền.",
+      "author": "ChatGPT4.1"
+    },
+    "36307": {
+      "id": 2594452,
+      "text": "Bạn có ý kiến gì về điều đó không?",
+      "author": "ChatGPT4.1"
+    },
+    "36308": {
+      "id": 2594453,
+      "text": "Tôi nghĩ mình chủ yếu đi xe buýt vào ban ngày,",
+      "author": "ChatGPT4.1"
+    },
+    "36309": {
+      "id": 2594454,
+      "text": "nhưng mỗi khi tôi vào thành phố vào buổi tối, đi ăn tối hoặc xem phim,",
+      "author": "ChatGPT4.1"
+    },
+    "36313": {
+      "id": 2594455,
+      "text": "Được rồi, cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "36314": {
+      "id": 2594456,
+      "text": "Bây giờ tôi muốn hỏi bạn về việc sử dụng ô tô của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "36316": {
+      "id": 2595106,
+      "text": "Chủ yếu là để đi siêu thị.",
+      "author": "ChatGPT4.1"
+    },
+    "36318": {
+      "id": 2595107,
+      "text": "Chồng tôi sử dụng xe vào cuối tuần để đi tới câu lạc bộ golf.",
+      "author": "ChatGPT4.1"
+    },
+    "36319": {
+      "id": 2595108,
+      "text": "Còn xe đạp thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "36321": {
+      "id": 2595109,
+      "text": "Còn mấy chiếc xe đạp công cộng có thể thuê thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "36322": {
+      "id": 2595110,
+      "text": "Bạn đã từng sử dụng chúng chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "36323": {
+      "id": 2595111,
+      "text": "Không, tôi không thích đạp xe ở đó vì ô nhiễm nhiều quá.",
+      "author": "ChatGPT4.1"
+    },
+    "36326": {
+      "id": 2595112,
+      "text": "Tôi sống ở căn hộ, tầng hai",
+      "author": "ChatGPT4.1"
+    },
+    "36329": {
+      "id": 2595113,
+      "text": "Tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "summary": {
+    "id": 399,
+    "name": "1. At home (1)",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 1,
+    "totalChallenges": 10,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/399",
+  "detail": {
+    "id": 399,
+    "lessonName": "1. At home (1)",
+    "name": "1. At home (1)",
+    "position": 1,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/1-at-home.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17767,
+        "position": 1,
+        "content": "Where is Jane?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Where is",
+            "where's"
+          ],
+          "Jane?"
+        ],
+        "solution": [
+          [
+            "Where is",
+            "where's"
+          ],
+          [
+            "Jane?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/1.mp3",
+        "timeStart": 3.39,
+        "timeEnd": 4.88,
+        "hints": [],
+        "nbComments": 26,
+        "discussionUrl": "https://dailydictation.com/discussions/17767/list"
+      },
+      {
+        "id": 17768,
+        "position": 2,
+        "content": "She is in the living room.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "She's"
+          ],
+          "in",
+          "the",
+          "living",
+          "room."
+        ],
+        "solution": [
+          [
+            "She is",
+            "She's"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "living"
+          ],
+          [
+            "room."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/2.mp3",
+        "timeStart": 4.97,
+        "timeEnd": 6.61,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/17768/list"
+      },
+      {
+        "id": 17769,
+        "position": 3,
+        "content": "What is she doing?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What is",
+            "what's"
+          ],
+          "she",
+          "doing?"
+        ],
+        "solution": [
+          [
+            "What is",
+            "what's"
+          ],
+          [
+            "she"
+          ],
+          [
+            "doing?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/3.mp3",
+        "timeStart": 6.67,
+        "timeEnd": 7.92,
+        "hints": [],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/17769/list"
+      },
+      {
+        "id": 17770,
+        "position": 4,
+        "content": "She is playing the piano.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "she's"
+          ],
+          "playing",
+          "the",
+          "piano."
+        ],
+        "solution": [
+          [
+            "She is",
+            "she's"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "piano."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/4.mp3",
+        "timeStart": 8.04,
+        "timeEnd": 10.08,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17770/list"
+      },
+      {
+        "id": 17771,
+        "position": 5,
+        "content": "Where is the car?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Where is",
+            "where's"
+          ],
+          "the",
+          "car?"
+        ],
+        "solution": [
+          [
+            "Where is",
+            "where's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "car?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/5.mp3",
+        "timeStart": 10.19,
+        "timeEnd": 11.68,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/17771/list"
+      },
+      {
+        "id": 17772,
+        "position": 6,
+        "content": "It is in the garage.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "in",
+          "the",
+          "garage."
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "garage."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/6.mp3",
+        "timeStart": 11.79,
+        "timeEnd": 13.64,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17772/list"
+      },
+      {
+        "id": 17773,
+        "position": 7,
+        "content": "Where is the dog?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Where is",
+            "where's"
+          ],
+          "the",
+          "dog?"
+        ],
+        "solution": [
+          [
+            "Where is",
+            "where's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dog?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/7.mp3",
+        "timeStart": 13.64,
+        "timeEnd": 15.01,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17773/list"
+      },
+      {
+        "id": 17774,
+        "position": 8,
+        "content": "The dog is in front of the door.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "dog",
+          "is",
+          "in",
+          "front",
+          "of",
+          "the",
+          "door."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "dog"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "door."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/8.mp3",
+        "timeStart": 15.19,
+        "timeEnd": 17.53,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/17774/list"
+      },
+      {
+        "id": 17775,
+        "position": 9,
+        "content": "What is the dog doing?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What is",
+            "what's"
+          ],
+          "the",
+          "dog",
+          "doing?"
+        ],
+        "solution": [
+          [
+            "What is",
+            "what's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dog"
+          ],
+          [
+            "doing?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/9.mp3",
+        "timeStart": 17.67,
+        "timeEnd": 19.45,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17775/list"
+      },
+      {
+        "id": 17776,
+        "position": 10,
+        "content": "The dog is eating.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "dog",
+          "is",
+          "eating."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "dog"
+          ],
+          [
+            "is"
+          ],
+          [
+            "eating."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/1.at-home-1-2022-03-07-20-50-26/10.mp3",
+        "timeStart": 19.45,
+        "timeEnd": 21.23,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17776/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17767": {
+      "id": 4380,
+      "text": "Jane ở đâu vậy?",
+      "author": "a user"
+    },
+    "17768": {
+      "id": 4381,
+      "text": "Cô ấy đang ở trong phòng khách.",
+      "author": "a user"
+    },
+    "17769": {
+      "id": 4382,
+      "text": "Cô ấy đang làm gì vậy?",
+      "author": "a user"
+    },
+    "17770": {
+      "id": 4383,
+      "text": "Cô ấy đang chơi đàn piano.",
+      "author": "a user"
+    },
+    "17771": {
+      "id": 4384,
+      "text": "Chiếc xe hơi ở đâu?",
+      "author": "a user"
+    },
+    "17774": {
+      "id": 4387,
+      "text": "Con chó ở trước cửa.",
+      "author": "a user"
+    },
+    "17776": {
+      "id": 4389,
+      "text": "Con chó đang ăn.",
+      "author": "a user"
+    },
+    "17772": {
+      "id": 2588867,
+      "text": "Nó đang ở trong nhà xe",
+      "author": "a user"
+    },
+    "17773": {
+      "id": 2588868,
+      "text": "Con chó ở đâu?",
+      "author": "ChatGPT4.1"
+    },
+    "17775": {
+      "id": 2588869,
+      "text": "Con chó đang làm gì?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

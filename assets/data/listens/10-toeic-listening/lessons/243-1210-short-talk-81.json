@@ -1,0 +1,642 @@
+{
+  "summary": {
+    "id": 1210,
+    "name": "Short Talk 81",
+    "subTitle": "Missing Trip Receipts",
+    "levelName": "B1",
+    "position": 243,
+    "totalChallenges": 9,
+    "groupId": 39,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1210",
+  "detail": {
+    "id": 1210,
+    "lessonName": "Short Talk 81",
+    "name": "Short Talk 81",
+    "position": 243,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/0-short-talk-90.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55005,
+        "position": 1,
+        "content": "Hello Sarah.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello",
+          "Sarah."
+        ],
+        "solution": [
+          [
+            "Hello"
+          ],
+          [
+            "Sarah."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/1.mp3",
+        "timeStart": 0.24,
+        "timeEnd": 1.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55005/list"
+      },
+      {
+        "id": 55006,
+        "position": 2,
+        "content": "It is Mindy, ringing from the HR department.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "Mindy,",
+          "ringing",
+          "from",
+          "the",
+          "HR",
+          "department."
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "Mindy,"
+          ],
+          [
+            "ringing"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "HR"
+          ],
+          [
+            "department."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/2.mp3",
+        "timeStart": 1.11,
+        "timeEnd": 3.65,
+        "hints": [
+          "Mindy"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55006/list"
+      },
+      {
+        "id": 55007,
+        "position": 3,
+        "content": "I just got the report you drew up for the reimbursements from your recent trip to India.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "got",
+          "the",
+          "report",
+          "you",
+          "drew",
+          "up",
+          "for",
+          "the",
+          "reimbursements",
+          "from",
+          "your",
+          "recent",
+          "trip",
+          "to",
+          "India."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "got"
+          ],
+          [
+            "the"
+          ],
+          [
+            "report"
+          ],
+          [
+            "you"
+          ],
+          [
+            "drew"
+          ],
+          [
+            "up"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reimbursements"
+          ],
+          [
+            "from"
+          ],
+          [
+            "your"
+          ],
+          [
+            "recent"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "to"
+          ],
+          [
+            "India."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/3.mp3",
+        "timeStart": 3.65,
+        "timeEnd": 8.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55007/list"
+      },
+      {
+        "id": 55008,
+        "position": 4,
+        "content": "There is a slight problem, I received the forms, but I haven't received the receipts from the trip.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "slight",
+          "problem,",
+          "I",
+          "received",
+          "the",
+          "forms,",
+          "but",
+          "I",
+          [
+            "haven't",
+            "have not"
+          ],
+          "received",
+          "the",
+          "receipts",
+          "from",
+          "the",
+          "trip."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "slight"
+          ],
+          [
+            "problem,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "received"
+          ],
+          [
+            "the"
+          ],
+          [
+            "forms,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "received"
+          ],
+          [
+            "the"
+          ],
+          [
+            "receipts"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trip."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/4.mp3",
+        "timeStart": 8.08,
+        "timeEnd": 13.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55008/list"
+      },
+      {
+        "id": 55009,
+        "position": 5,
+        "content": "Unfortunately, I am unable to reimburse you until I have the receipts to confirm each purchase.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Unfortunately,",
+          [
+            "I am",
+            "I'm"
+          ],
+          "unable",
+          "to",
+          "reimburse",
+          "you",
+          "until",
+          [
+            "I have",
+            "I've"
+          ],
+          "the",
+          "receipts",
+          "to",
+          "confirm",
+          "each",
+          "purchase."
+        ],
+        "solution": [
+          [
+            "Unfortunately,"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "unable"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reimburse"
+          ],
+          [
+            "you"
+          ],
+          [
+            "until"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "the"
+          ],
+          [
+            "receipts"
+          ],
+          [
+            "to"
+          ],
+          [
+            "confirm"
+          ],
+          [
+            "each"
+          ],
+          [
+            "purchase."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/5.mp3",
+        "timeStart": 14.09,
+        "timeEnd": 19.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55009/list"
+      },
+      {
+        "id": 55010,
+        "position": 6,
+        "content": "You are able to email me the receipts,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You are",
+            "you're"
+          ],
+          "able",
+          "to",
+          "email",
+          "me",
+          "the",
+          "receipts,"
+        ],
+        "solution": [
+          [
+            "You are",
+            "you're"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "email"
+          ],
+          [
+            "me"
+          ],
+          [
+            "the"
+          ],
+          [
+            "receipts,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/6.mp3",
+        "timeStart": 19.18,
+        "timeEnd": 21.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55010/list"
+      },
+      {
+        "id": 55011,
+        "position": 7,
+        "content": "but I think the process will be faster if you can drop them off in person.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "think",
+          "the",
+          "process",
+          "will",
+          "be",
+          "faster",
+          "if",
+          "you",
+          "can",
+          "drop",
+          "them",
+          "off",
+          "in",
+          "person."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "the"
+          ],
+          [
+            "process"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "faster"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "drop"
+          ],
+          [
+            "them"
+          ],
+          [
+            "off"
+          ],
+          [
+            "in"
+          ],
+          [
+            "person."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/7.mp3",
+        "timeStart": 21.39,
+        "timeEnd": 25.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55011/list"
+      },
+      {
+        "id": 55012,
+        "position": 8,
+        "content": "Just a reminder, my department is currently undergoing renovations,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "a",
+          "reminder,",
+          "my",
+          "department",
+          "is",
+          "currently",
+          "undergoing",
+          "renovations,"
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reminder,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "department"
+          ],
+          [
+            "is"
+          ],
+          [
+            "currently"
+          ],
+          [
+            "undergoing"
+          ],
+          [
+            "renovations,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/8.mp3",
+        "timeStart": 25.13,
+        "timeEnd": 29.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55012/list"
+      },
+      {
+        "id": 55013,
+        "position": 9,
+        "content": "so we are sharing an office with the design department.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "we are",
+            "we're"
+          ],
+          "sharing",
+          "an",
+          "office",
+          "with",
+          "the",
+          "design",
+          "department."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "we are",
+            "we're"
+          ],
+          [
+            "sharing"
+          ],
+          [
+            "an"
+          ],
+          [
+            "office"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "design"
+          ],
+          [
+            "department."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-90-2023-10-01-12-14-49/9.mp3",
+        "timeStart": 29.02,
+        "timeEnd": 31.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55013/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55007": {
+      "id": 963725,
+      "text": "Tôi vừa nhận được bản báo cáo mà bạn đã lập về các khoản hoàn trả cho chuyến đi gần đây của bạn tới Ấn Độ.",
+      "author": "a user"
+    },
+    "55008": {
+      "id": 963726,
+      "text": "Có một vấn đề nhỏ là mình đã nhận được đơn yêu cầu nhưng chưa nhận được biên lai từ chuyến đi.",
+      "author": "a user"
+    },
+    "55009": {
+      "id": 963727,
+      "text": "Rất tiếc, tôi không thể hoàn trả chi phí cho bạn cho đến khi tôi có biên lai để xác nhận cho mỗi giao dịch.",
+      "author": "a user"
+    },
+    "55011": {
+      "id": 963729,
+      "text": "nhưng tôi nghĩ quá trình sẽ nhanh hơn nếu bạn có thể đưa chúng đến trực tiếp.",
+      "author": "a user"
+    },
+    "55012": {
+      "id": 963730,
+      "text": "Xin nhắc lại, phòng ban của tôi hiện đang được cải tạo,",
+      "author": "a user"
+    },
+    "55005": {
+      "id": 2602490,
+      "text": "Chào Sarah.",
+      "author": "ChatGPT4.1"
+    },
+    "55006": {
+      "id": 2602491,
+      "text": "Mindy đây, gọi từ phòng Nhân sự.",
+      "author": "ChatGPT4.1"
+    },
+    "55010": {
+      "id": 2602492,
+      "text": "Bạn có thể gửi hóa đơn cho tôi qua email,",
+      "author": "ChatGPT4.1"
+    },
+    "55013": {
+      "id": 2602493,
+      "text": "nên chúng tôi đang dùng chung văn phòng với phòng thiết kế.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

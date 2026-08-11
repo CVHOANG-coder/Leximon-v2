@@ -1,0 +1,1022 @@
+{
+  "summary": {
+    "id": 1222,
+    "name": "Conversation 93",
+    "subTitle": "New Employee Training Workshop",
+    "levelName": "B2",
+    "position": 256,
+    "totalChallenges": 17,
+    "groupId": 40,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1222",
+  "detail": {
+    "id": 1222,
+    "lessonName": "Conversation 93",
+    "name": "Conversation 93",
+    "position": 256,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/0-conversation-93.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55125,
+        "position": 1,
+        "content": "Hi Laura.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi",
+          "Laura."
+        ],
+        "solution": [
+          [
+            "Hi"
+          ],
+          [
+            "Laura."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/1.mp3",
+        "timeStart": 0.31,
+        "timeEnd": 1.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55125/list"
+      },
+      {
+        "id": 55126,
+        "position": 2,
+        "content": "I forget, when is the training workshop for the new employees?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "forget,",
+          "when",
+          "is",
+          "the",
+          "training",
+          "workshop",
+          "for",
+          "the",
+          "new",
+          "employees?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "forget,"
+          ],
+          [
+            "when"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "training"
+          ],
+          [
+            "workshop"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "employees?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/2.mp3",
+        "timeStart": 1.04,
+        "timeEnd": 4.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55126/list"
+      },
+      {
+        "id": 55127,
+        "position": 3,
+        "content": "I would really like to get the new hires up and running by the end of next week.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "really",
+          "like",
+          "to",
+          "get",
+          "the",
+          "new",
+          "hires",
+          "up",
+          "and",
+          "running",
+          "by",
+          "the",
+          "end",
+          "of",
+          "next",
+          "week."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "really"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "hires"
+          ],
+          [
+            "up"
+          ],
+          [
+            "and"
+          ],
+          [
+            "running"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/3.mp3",
+        "timeStart": 4.71,
+        "timeEnd": 8.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55127/list"
+      },
+      {
+        "id": 55128,
+        "position": 4,
+        "content": "I agree.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "agree."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "agree."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/4.mp3",
+        "timeStart": 8.63,
+        "timeEnd": 9.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55128/list"
+      },
+      {
+        "id": 55129,
+        "position": 5,
+        "content": "Unfortunately, my schedule is very busy at the moment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Unfortunately,",
+          "my",
+          "schedule",
+          "is",
+          "very",
+          "busy",
+          "at",
+          "the",
+          "moment."
+        ],
+        "solution": [
+          [
+            "Unfortunately,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "is"
+          ],
+          [
+            "very"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "moment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/5.mp3",
+        "timeStart": 9.63,
+        "timeEnd": 13.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55129/list"
+      },
+      {
+        "id": 55130,
+        "position": 6,
+        "content": "I am headed to Phoenix to deliver a brief tomorrow,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "headed",
+          "to",
+          "Phoenix",
+          "to",
+          "deliver",
+          "a",
+          "brief",
+          "tomorrow,"
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "headed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Phoenix"
+          ],
+          [
+            "to"
+          ],
+          [
+            "deliver"
+          ],
+          [
+            "a"
+          ],
+          [
+            "brief"
+          ],
+          [
+            "tomorrow,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/6.mp3",
+        "timeStart": 13.41,
+        "timeEnd": 16.69,
+        "hints": [
+          "Phoenix"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55130/list"
+      },
+      {
+        "id": 55131,
+        "position": 7,
+        "content": "and I won't be back until Monday night.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "won't",
+          "be",
+          "back",
+          "until",
+          "Monday",
+          "night."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "back"
+          ],
+          [
+            "until"
+          ],
+          [
+            "Monday"
+          ],
+          [
+            "night."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/7.mp3",
+        "timeStart": 16.69,
+        "timeEnd": 18.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55131/list"
+      },
+      {
+        "id": 55132,
+        "position": 8,
+        "content": "I will need to catch up on my work from when I am gone on Tuesday.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "need",
+          "to",
+          "catch",
+          "up",
+          "on",
+          "my",
+          "work",
+          "from",
+          "when",
+          [
+            "I am",
+            "I'm"
+          ],
+          "gone",
+          "on",
+          "Tuesday."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "catch"
+          ],
+          [
+            "up"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "work"
+          ],
+          [
+            "from"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "gone"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Tuesday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/8.mp3",
+        "timeStart": 18.95,
+        "timeEnd": 22.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55132/list"
+      },
+      {
+        "id": 55133,
+        "position": 9,
+        "content": "Would we be able to do it on Wednesday?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "we",
+          "be",
+          "able",
+          "to",
+          "do",
+          "it",
+          "on",
+          "Wednesday?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "we"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Wednesday?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/9.mp3",
+        "timeStart": 22.74,
+        "timeEnd": 25.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55133/list"
+      },
+      {
+        "id": 55134,
+        "position": 10,
+        "content": "I can help get the materials ready if that makes it any easier.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "help",
+          "get",
+          "the",
+          "materials",
+          "ready",
+          "if",
+          "that",
+          "makes",
+          "it",
+          "any",
+          "easier."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "help"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "materials"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "it"
+          ],
+          [
+            "any"
+          ],
+          [
+            "easier."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/10.mp3",
+        "timeStart": 25.13,
+        "timeEnd": 28.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55134/list"
+      },
+      {
+        "id": 55135,
+        "position": 11,
+        "content": "Well, if you are willing to help out,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "if",
+          [
+            "you are",
+            "you're"
+          ],
+          "willing",
+          "to",
+          "help",
+          "out,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "willing"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "out,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/11.mp3",
+        "timeStart": 28.5,
+        "timeEnd": 30.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55135/list"
+      },
+      {
+        "id": 55136,
+        "position": 12,
+        "content": "I think we can swing it for Wednesday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "we",
+          "can",
+          "swing",
+          "it",
+          "for",
+          "Wednesday."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "swing"
+          ],
+          [
+            "it"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Wednesday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/12.mp3",
+        "timeStart": 30.89,
+        "timeEnd": 33.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55136/list"
+      },
+      {
+        "id": 55137,
+        "position": 13,
+        "content": "I can email you the training documents,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "email",
+          "you",
+          "the",
+          "training",
+          "documents,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "email"
+          ],
+          [
+            "you"
+          ],
+          [
+            "the"
+          ],
+          [
+            "training"
+          ],
+          [
+            "documents,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/13.mp3",
+        "timeStart": 33.27,
+        "timeEnd": 35.68,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/55137/list"
+      },
+      {
+        "id": 55138,
+        "position": 14,
+        "content": "and can you make a binder for each new employee?",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "can",
+          "you",
+          "make",
+          "a",
+          "binder",
+          "for",
+          "each",
+          "new",
+          "employee?"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "binder"
+          ],
+          [
+            "for"
+          ],
+          [
+            "each"
+          ],
+          [
+            "new"
+          ],
+          [
+            "employee?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/14.mp3",
+        "timeStart": 35.68,
+        "timeEnd": 38.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55138/list"
+      },
+      {
+        "id": 55139,
+        "position": 15,
+        "content": "I need to double-check,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "need",
+          "to",
+          [
+            "double-check,",
+            "double check,"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "double-check,",
+            "double check,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/15.mp3",
+        "timeStart": 38.99,
+        "timeEnd": 40.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55139/list"
+      },
+      {
+        "id": 55140,
+        "position": 16,
+        "content": "but I believe we have thirty new hires this quarter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "believe",
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "thirty",
+            "30"
+          ],
+          "new",
+          "hires",
+          "this",
+          "quarter."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "thirty",
+            "30"
+          ],
+          [
+            "new"
+          ],
+          [
+            "hires"
+          ],
+          [
+            "this"
+          ],
+          [
+            "quarter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/16.mp3",
+        "timeStart": 40.59,
+        "timeEnd": 43.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55140/list"
+      },
+      {
+        "id": 55141,
+        "position": 17,
+        "content": "Also, please notify the employees who need to be in attendance.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "please",
+          "notify",
+          "the",
+          "employees",
+          "who",
+          "need",
+          "to",
+          "be",
+          "in",
+          "attendance."
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "notify"
+          ],
+          [
+            "the"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "who"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "in"
+          ],
+          [
+            "attendance."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-93-2023-10-01-16-06-04/17.mp3",
+        "timeStart": 43.58,
+        "timeEnd": 47.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55141/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55127": {
+      "id": 966855,
+      "text": "Tôi thực sự muốn các nhân viên mới có thể sẵn sàng làm việc trước cuối tuần tới.",
+      "author": "a user"
+    },
+    "55132": {
+      "id": 966860,
+      "text": "Tôi sẽ cần phải bắt kịp công việc của mình vì tôi sẽ rời đi vào thứ Ba.",
+      "author": "a user"
+    },
+    "55134": {
+      "id": 966862,
+      "text": "Tôi có thể giúp chuẩn bị sẵn tài liệu nếu điều đó giúp ích cho bạn.",
+      "author": "a user"
+    },
+    "55125": {
+      "id": 2601673,
+      "text": "Chào Laura.",
+      "author": "ChatGPT4.1"
+    },
+    "55126": {
+      "id": 2601674,
+      "text": "Tôi quên mất, khi nào thì hội thảo đào tạo dành cho nhân viên mới diễn ra?",
+      "author": "ChatGPT4.1"
+    },
+    "55128": {
+      "id": 2601675,
+      "text": "Tôi đồng ý.",
+      "author": "ChatGPT4.1"
+    },
+    "55129": {
+      "id": 2601676,
+      "text": "Thật không may, lịch trình của tôi hiện tại rất bận rộn.",
+      "author": "ChatGPT4.1"
+    },
+    "55130": {
+      "id": 2601677,
+      "text": "Ngày mai tôi phải đến Phoenix để thuyết trình ngắn,",
+      "author": "ChatGPT4.1"
+    },
+    "55131": {
+      "id": 2601678,
+      "text": "và tôi sẽ không quay lại cho đến tối thứ Hai.",
+      "author": "ChatGPT4.1"
+    },
+    "55133": {
+      "id": 2601679,
+      "text": "Chúng ta có thể thực hiện vào thứ Tư được không?",
+      "author": "ChatGPT4.1"
+    },
+    "55135": {
+      "id": 2601680,
+      "text": "Vậy thì, nếu bạn sẵn sàng hỗ trợ,",
+      "author": "ChatGPT4.1"
+    },
+    "55136": {
+      "id": 2601681,
+      "text": "tôi nghĩ chúng ta có thể sắp xếp vào thứ Tư.",
+      "author": "ChatGPT4.1"
+    },
+    "55137": {
+      "id": 2601682,
+      "text": "Tôi có thể gửi tài liệu đào tạo qua email,",
+      "author": "a user"
+    },
+    "55138": {
+      "id": 2601683,
+      "text": "và bạn có thể chuẩn bị một bộ tài liệu cho mỗi nhân viên mới không?",
+      "author": "ChatGPT4.1"
+    },
+    "55139": {
+      "id": 2601684,
+      "text": "Tôi cần kiểm tra lại,",
+      "author": "ChatGPT4.1"
+    },
+    "55140": {
+      "id": 2601685,
+      "text": "nhưng tôi tin rằng quý này chúng ta có ba mươi nhân viên mới.",
+      "author": "ChatGPT4.1"
+    },
+    "55141": {
+      "id": 2601686,
+      "text": "Ngoài ra, vui lòng thông báo cho các nhân viên cần tham dự.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

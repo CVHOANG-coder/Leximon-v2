@@ -1,0 +1,574 @@
+{
+  "summary": {
+    "id": 1396,
+    "name": "97. Weekend plans",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 97,
+    "totalChallenges": 11,
+    "groupId": 106,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1396",
+  "detail": {
+    "id": 1396,
+    "lessonName": "97. Weekend plans",
+    "name": "97. Weekend plans",
+    "position": 97,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/0-conversation-weekend-plans.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 60714,
+        "position": 1,
+        "content": "It's been raining all week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "been",
+          "raining",
+          "all",
+          "week."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "raining"
+          ],
+          [
+            "all"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/1.mp3",
+        "timeStart": 0.44,
+        "timeEnd": 1.98,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/60714/list"
+      },
+      {
+        "id": 60715,
+        "position": 2,
+        "content": "Any plans for the weekend?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Any",
+          "plans",
+          "for",
+          "the",
+          "weekend?"
+        ],
+        "solution": [
+          [
+            "Any"
+          ],
+          [
+            "plans"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weekend?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/2.mp3",
+        "timeStart": 1.98,
+        "timeEnd": 3.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60715/list"
+      },
+      {
+        "id": 60716,
+        "position": 3,
+        "content": "I was hoping to go hiking,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "was",
+          "hoping",
+          "to",
+          "go",
+          "hiking,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "hoping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "hiking,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/3.mp3",
+        "timeStart": 3.56,
+        "timeEnd": 5.28,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/60716/list"
+      },
+      {
+        "id": 60717,
+        "position": 4,
+        "content": "but it doesn't look promising with this weather.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "look",
+          "promising",
+          "with",
+          "this",
+          "weather."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "look"
+          ],
+          [
+            "promising"
+          ],
+          [
+            "with"
+          ],
+          [
+            "this"
+          ],
+          [
+            "weather."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/4.mp3",
+        "timeStart": 5.28,
+        "timeEnd": 7.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60717/list"
+      },
+      {
+        "id": 60718,
+        "position": 5,
+        "content": "How about you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "about",
+          "you?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "about"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/5.mp3",
+        "timeStart": 7.4,
+        "timeEnd": 8.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60718/list"
+      },
+      {
+        "id": 60719,
+        "position": 6,
+        "content": "I had plans to visit the beach, but I might have to cancel, too.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "plans",
+          "to",
+          "visit",
+          "the",
+          "beach,",
+          "but",
+          "I",
+          "might",
+          "have",
+          "to",
+          "cancel,",
+          "too."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "plans"
+          ],
+          [
+            "to"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "the"
+          ],
+          [
+            "beach,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "might"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cancel,"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/6.mp3",
+        "timeStart": 8.47,
+        "timeEnd": 12.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60719/list"
+      },
+      {
+        "id": 60720,
+        "position": 7,
+        "content": "Have you checked the forecast?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "you",
+          "checked",
+          "the",
+          "forecast?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "checked"
+          ],
+          [
+            "the"
+          ],
+          [
+            "forecast?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/7.mp3",
+        "timeStart": 12.22,
+        "timeEnd": 13.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60720/list"
+      },
+      {
+        "id": 60721,
+        "position": 8,
+        "content": "Any chance it'll clear up?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Any",
+          "chance",
+          [
+            "it'll",
+            "it will"
+          ],
+          "clear",
+          "up?"
+        ],
+        "solution": [
+          [
+            "Any"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "it'll",
+            "it will"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "up?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/8.mp3",
+        "timeStart": 13.94,
+        "timeEnd": 15.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60721/list"
+      },
+      {
+        "id": 60722,
+        "position": 9,
+        "content": "Not really.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Not",
+          "really."
+        ],
+        "solution": [
+          [
+            "Not"
+          ],
+          [
+            "really."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/9.mp3",
+        "timeStart": 16,
+        "timeEnd": 16.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60722/list"
+      },
+      {
+        "id": 60723,
+        "position": 10,
+        "content": "Looks like we might need to find some indoor activities instead.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Looks",
+          "like",
+          "we",
+          "might",
+          "need",
+          "to",
+          "find",
+          "some",
+          "indoor",
+          "activities",
+          "instead."
+        ],
+        "solution": [
+          [
+            "Looks"
+          ],
+          [
+            "like"
+          ],
+          [
+            "we"
+          ],
+          [
+            "might"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "some"
+          ],
+          [
+            "indoor"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "instead."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/10.mp3",
+        "timeStart": 16.95,
+        "timeEnd": 19.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60723/list"
+      },
+      {
+        "id": 60724,
+        "position": 11,
+        "content": "Maybe we could just watch some movies or read a book.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          "we",
+          [
+            "could",
+            "can"
+          ],
+          "just",
+          "watch",
+          "some",
+          "movies",
+          "or",
+          "read",
+          "a",
+          "book."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could",
+            "can"
+          ],
+          [
+            "just"
+          ],
+          [
+            "watch"
+          ],
+          [
+            "some"
+          ],
+          [
+            "movies"
+          ],
+          [
+            "or"
+          ],
+          [
+            "read"
+          ],
+          [
+            "a"
+          ],
+          [
+            "book."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-weekend-plans-2024-07-21-17-27-40/11.mp3",
+        "timeStart": 20.07,
+        "timeEnd": 22.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60724/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "60714": {
+      "id": 1374415,
+      "text": "Trời mưa suốt cả tuần rồi.",
+      "author": "a user"
+    },
+    "60715": {
+      "id": 1374417,
+      "text": "Bạn có kế hoạch gì cho cuối tuần không?",
+      "author": "a user"
+    },
+    "60717": {
+      "id": 1374429,
+      "text": "nhưng với thời tiết này có vẻ không khả quan lắm.",
+      "author": "a user"
+    },
+    "60719": {
+      "id": 1374431,
+      "text": "Tôi đã có kế hoạch đi biển nhưng có lẽ tôi cũng phải hủy bỏ.",
+      "author": "a user"
+    },
+    "60720": {
+      "id": 1374434,
+      "text": "Bạn đã xem dự báo thời tiết chưa?",
+      "author": "a user"
+    },
+    "60721": {
+      "id": 1374435,
+      "text": "Có khả năng trời sẽ tạnh không?",
+      "author": "a user"
+    },
+    "60722": {
+      "id": 1374436,
+      "text": "Không có vẻ gì đâu.",
+      "author": "a user"
+    },
+    "60723": {
+      "id": 1374437,
+      "text": "Có vẻ như chúng ta cần tìm một vài hoạt động trong nhà để thay thế",
+      "author": "a user"
+    },
+    "60724": {
+      "id": 1513651,
+      "text": "Có lẽ chúng ta chỉ cần xem phim hoặc đọc sách cũng được.",
+      "author": "a user"
+    },
+    "60716": {
+      "id": 2590941,
+      "text": "Tôi đã hi vọng sẽ đi bộ đường dài.",
+      "author": "a user"
+    },
+    "60718": {
+      "id": 2590942,
+      "text": "Còn bạn thì sao?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "summary": {
+    "id": 416,
+    "name": "18. A Hot Day",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 18,
+    "totalChallenges": 10,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/416",
+  "detail": {
+    "id": 416,
+    "lessonName": "18. A Hot Day",
+    "name": "18. A Hot Day",
+    "position": 18,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/0-18-a-hot-day.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17928,
+        "position": 1,
+        "content": "This heat is killing me!",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "heat",
+          "is",
+          "killing",
+          "me!"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "heat"
+          ],
+          [
+            "is"
+          ],
+          [
+            "killing"
+          ],
+          [
+            "me!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/1.mp3",
+        "timeStart": 2.07,
+        "timeEnd": 4.29,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/17928/list"
+      },
+      {
+        "id": 17929,
+        "position": 2,
+        "content": "Me too! It must be 95 degrees.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Me",
+          "too!",
+          "It",
+          "must",
+          "be",
+          [
+            "95",
+            "ninety-five"
+          ],
+          "degrees."
+        ],
+        "solution": [
+          [
+            "Me"
+          ],
+          [
+            "too!"
+          ],
+          [
+            "It"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "95",
+            "ninety-five"
+          ],
+          [
+            "degrees."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/2.mp3",
+        "timeStart": 4.29,
+        "timeEnd": 6.7,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17929/list"
+      },
+      {
+        "id": 17930,
+        "position": 3,
+        "content": "I would like a cold drink.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "like",
+          "a",
+          "cold",
+          "drink."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cold"
+          ],
+          [
+            "drink."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/3.mp3",
+        "timeStart": 6.76,
+        "timeEnd": 8.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17930/list"
+      },
+      {
+        "id": 17931,
+        "position": 4,
+        "content": "I'll get you one.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "get",
+          "you",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "get"
+          ],
+          [
+            "you"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/4.mp3",
+        "timeStart": 8.98,
+        "timeEnd": 10.22,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/17931/list"
+      },
+      {
+        "id": 17932,
+        "position": 5,
+        "content": "Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/5.mp3",
+        "timeStart": 10.35,
+        "timeEnd": 11.1,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17932/list"
+      },
+      {
+        "id": 17933,
+        "position": 6,
+        "content": "Mmm. This tastes good!",
+        "defaultInput": "Mmm. ",
+        "jsonContent": [
+          "Mmm.",
+          "This",
+          "tastes",
+          "good!"
+        ],
+        "solution": [
+          [
+            "Mmm."
+          ],
+          [
+            "This"
+          ],
+          [
+            "tastes"
+          ],
+          [
+            "good!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/6.mp3",
+        "timeStart": 11.53,
+        "timeEnd": 13.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17933/list"
+      },
+      {
+        "id": 17934,
+        "position": 7,
+        "content": "It does, jeez, this hot weather makes me lazy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "does,",
+          "jeez,",
+          "this",
+          "hot",
+          "weather",
+          "makes",
+          "me",
+          "lazy."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "does,"
+          ],
+          [
+            "jeez,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "weather"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "me"
+          ],
+          [
+            "lazy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/7.mp3",
+        "timeStart": 13.51,
+        "timeEnd": 16.66,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17934/list"
+      },
+      {
+        "id": 17935,
+        "position": 8,
+        "content": "Me too, get me another drink?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Me",
+          "too,",
+          "get",
+          "me",
+          "another",
+          "drink?"
+        ],
+        "solution": [
+          [
+            "Me"
+          ],
+          [
+            "too,"
+          ],
+          [
+            "get"
+          ],
+          [
+            "me"
+          ],
+          [
+            "another"
+          ],
+          [
+            "drink?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/8.mp3",
+        "timeStart": 16.66,
+        "timeEnd": 18.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17935/list"
+      },
+      {
+        "id": 17936,
+        "position": 9,
+        "content": "I guess if you're lazy no one else is allowed to be!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "guess",
+          "if",
+          [
+            "you're",
+            "you are"
+          ],
+          "lazy",
+          "no",
+          [
+            "one",
+            "1"
+          ],
+          "else",
+          "is",
+          "allowed",
+          "to",
+          "be!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "guess"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "lazy"
+          ],
+          [
+            "no"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "else"
+          ],
+          [
+            "is"
+          ],
+          [
+            "allowed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/9.mp3",
+        "timeStart": 18.76,
+        "timeEnd": 21.6,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17936/list"
+      },
+      {
+        "id": 17937,
+        "position": 10,
+        "content": "He he he, thanks for understanding!",
+        "defaultInput": "He he he, ",
+        "jsonContent": [
+          "He",
+          "he",
+          "he,",
+          "thanks",
+          "for",
+          "understanding!"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "he"
+          ],
+          [
+            "he,"
+          ],
+          [
+            "thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "understanding!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/18-a-hot-day-2022-03-07-21-09-57/10.mp3",
+        "timeStart": 21.6,
+        "timeEnd": 23.4,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17937/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17928": {
+      "id": 7045,
+      "text": "Cái nóng này đang giết chết tôi!",
+      "author": "a user"
+    },
+    "17929": {
+      "id": 7047,
+      "text": "Tôi cũng vậy! Phải đến 95 độ F ấy chứ.",
+      "author": "a user"
+    },
+    "17931": {
+      "id": 7050,
+      "text": "Tôi sẽ lấy cho bạn một ly.",
+      "author": "a user"
+    },
+    "17932": {
+      "id": 7052,
+      "text": "Cảm ơn\n",
+      "author": "a user"
+    },
+    "17935": {
+      "id": 7171,
+      "text": "Tôi cũng vậy, lấy cho tôi thêm một ly nhé?",
+      "author": "a user"
+    },
+    "17937": {
+      "id": 7174,
+      "text": "He he he, cảm ơn vì đã hiểu!",
+      "author": "a user"
+    },
+    "17930": {
+      "id": 2585361,
+      "text": "Tớ muốn một ly nước lạnh.",
+      "author": "ChatGPT4.1"
+    },
+    "17933": {
+      "id": 2585362,
+      "text": "Ồ, cái này ngon thật!",
+      "author": "ChatGPT4.1"
+    },
+    "17934": {
+      "id": 2585363,
+      "text": "Đúng vậy, trời ơi nóng thế này làm tớ lười quá.",
+      "author": "a user"
+    },
+    "17936": {
+      "id": 2585364,
+      "text": "Tớ nghĩ nếu cậu lười thì không ai khác được phép lười đâu!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

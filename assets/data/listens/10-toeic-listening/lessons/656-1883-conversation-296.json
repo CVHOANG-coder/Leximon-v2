@@ -1,0 +1,786 @@
+{
+  "summary": {
+    "id": 1883,
+    "name": "Conversation 296",
+    "subTitle": "Mountain Gear Fest Inquiry",
+    "levelName": "B1",
+    "position": 656,
+    "totalChallenges": 13,
+    "groupId": 77,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1883",
+  "detail": {
+    "id": 1883,
+    "lessonName": "Conversation 296",
+    "name": "Conversation 296",
+    "position": 656,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/0-conversation-296.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 71463,
+        "position": 1,
+        "content": "Denver Expo Center. How may I assist you today?",
+        "defaultInput": "Denver Expo Center. ",
+        "jsonContent": [
+          "Denver",
+          "Expo",
+          [
+            "Center.",
+            "centre"
+          ],
+          "How",
+          "may",
+          "I",
+          "assist",
+          "you",
+          "today?"
+        ],
+        "solution": [
+          [
+            "Denver"
+          ],
+          [
+            "Expo"
+          ],
+          [
+            "Center.",
+            "centre"
+          ],
+          [
+            "How"
+          ],
+          [
+            "may"
+          ],
+          [
+            "I"
+          ],
+          [
+            "assist"
+          ],
+          [
+            "you"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71463/list"
+      },
+      {
+        "id": 71464,
+        "position": 2,
+        "content": "Hello. I'm inquiring about the Mountain Gear Fest happening on June 10th.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello.",
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "inquiring",
+            "enquiring"
+          ],
+          "about",
+          "the",
+          "Mountain",
+          "Gear",
+          "Fest",
+          "happening",
+          "on",
+          "June",
+          [
+            "10th.",
+            "tenth"
+          ]
+        ],
+        "solution": [
+          [
+            "Hello."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "inquiring",
+            "enquiring"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mountain"
+          ],
+          [
+            "Gear"
+          ],
+          [
+            "Fest"
+          ],
+          [
+            "happening"
+          ],
+          [
+            "on"
+          ],
+          [
+            "June"
+          ],
+          [
+            "10th.",
+            "tenth"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/2.mp3",
+        "timeStart": 3.43,
+        "timeEnd": 7.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71464/list"
+      },
+      {
+        "id": 71465,
+        "position": 3,
+        "content": "I understand individual tickets are 25 pounds each,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "understand",
+          "individual",
+          "tickets",
+          "are",
+          [
+            "25",
+            "twenty-five"
+          ],
+          "pounds",
+          "each,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "individual"
+          ],
+          [
+            "tickets"
+          ],
+          [
+            "are"
+          ],
+          [
+            "25",
+            "twenty-five"
+          ],
+          [
+            "pounds"
+          ],
+          [
+            "each,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/3.mp3",
+        "timeStart": 7.52,
+        "timeEnd": 10.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71465/list"
+      },
+      {
+        "id": 71466,
+        "position": 4,
+        "content": "but I'm planning to attend with my hiking group.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "I'm",
+            "I am"
+          ],
+          "planning",
+          "to",
+          "attend",
+          "with",
+          "my",
+          "hiking",
+          "group."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "planning"
+          ],
+          [
+            "to"
+          ],
+          [
+            "attend"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hiking"
+          ],
+          [
+            "group."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/4.mp3",
+        "timeStart": 10.81,
+        "timeEnd": 12.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71466/list"
+      },
+      {
+        "id": 71467,
+        "position": 5,
+        "content": "Can we benefit from a group discount?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "we",
+          "benefit",
+          "from",
+          "a",
+          "group",
+          "discount?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "we"
+          ],
+          [
+            "benefit"
+          ],
+          [
+            "from"
+          ],
+          [
+            "a"
+          ],
+          [
+            "group"
+          ],
+          [
+            "discount?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/5.mp3",
+        "timeStart": 12.96,
+        "timeEnd": 14.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71467/list"
+      },
+      {
+        "id": 71468,
+        "position": 6,
+        "content": "Certainly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly."
+        ],
+        "solution": [
+          [
+            "Certainly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/6.mp3",
+        "timeStart": 14.86,
+        "timeEnd": 15.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71468/list"
+      },
+      {
+        "id": 71469,
+        "position": 7,
+        "content": "For group tickets, you'll need to reach out to Dean Spencer, who handles those requests.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "group",
+          "tickets,",
+          [
+            "you'll",
+            "you will"
+          ],
+          "need",
+          "to",
+          "reach",
+          "out",
+          "to",
+          "Dean",
+          "Spencer,",
+          "who",
+          "handles",
+          "those",
+          "requests."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "group"
+          ],
+          [
+            "tickets,"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "out"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Dean"
+          ],
+          [
+            "Spencer,"
+          ],
+          [
+            "who"
+          ],
+          [
+            "handles"
+          ],
+          [
+            "those"
+          ],
+          [
+            "requests."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/7.mp3",
+        "timeStart": 16.42,
+        "timeEnd": 20.83,
+        "hints": [
+          "Dean Spencer"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71469/list"
+      },
+      {
+        "id": 71470,
+        "position": 8,
+        "content": "You can email him at dean@groupevents.com.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "email",
+          "him",
+          "at",
+          "dean@groupevents.com."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "email"
+          ],
+          [
+            "him"
+          ],
+          [
+            "at"
+          ],
+          [
+            "dean@groupevents.com."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/8.mp3",
+        "timeStart": 20.83,
+        "timeEnd": 24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71470/list"
+      },
+      {
+        "id": 71471,
+        "position": 9,
+        "content": "Wonderful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Wonderful."
+        ],
+        "solution": [
+          [
+            "Wonderful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/9.mp3",
+        "timeStart": 24,
+        "timeEnd": 24.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71471/list"
+      },
+      {
+        "id": 71472,
+        "position": 10,
+        "content": "Our group is particularly looking forward to the demonstration on climbing equipment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "group",
+          "is",
+          "particularly",
+          "looking",
+          "forward",
+          "to",
+          "the",
+          "demonstration",
+          "on",
+          "climbing",
+          "equipment."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "group"
+          ],
+          [
+            "is"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "demonstration"
+          ],
+          [
+            "on"
+          ],
+          [
+            "climbing"
+          ],
+          [
+            "equipment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/10.mp3",
+        "timeStart": 24.89,
+        "timeEnd": 29.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71472/list"
+      },
+      {
+        "id": 71473,
+        "position": 11,
+        "content": "We have promotional materials from the organization hosting that session.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "We've"
+          ],
+          "promotional",
+          "materials",
+          "from",
+          "the",
+          [
+            "organization",
+            "organisation"
+          ],
+          "hosting",
+          "that",
+          "session."
+        ],
+        "solution": [
+          [
+            "We have",
+            "We've"
+          ],
+          [
+            "promotional"
+          ],
+          [
+            "materials"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "organization",
+            "organisation"
+          ],
+          [
+            "hosting"
+          ],
+          [
+            "that"
+          ],
+          [
+            "session."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/11.mp3",
+        "timeStart": 29.28,
+        "timeEnd": 33.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71473/list"
+      },
+      {
+        "id": 71474,
+        "position": 12,
+        "content": "If you'd like, I can mail one to you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you'd",
+          "like,",
+          "I",
+          "can",
+          "mail",
+          [
+            "one",
+            "1"
+          ],
+          "to",
+          "you."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "like,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "mail"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/12.mp3",
+        "timeStart": 33.32,
+        "timeEnd": 35.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71474/list"
+      },
+      {
+        "id": 71475,
+        "position": 13,
+        "content": "I appreciate it, but I already have all the information I need.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "appreciate",
+          "it,",
+          "but",
+          "I",
+          "already",
+          "have",
+          "all",
+          "the",
+          "information",
+          "I",
+          "need."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "already"
+          ],
+          [
+            "have"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "information"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-296-2024-11-20-22-16-54/13.mp3",
+        "timeStart": 35.85,
+        "timeEnd": 39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71475/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "71463": {
+      "id": 2583436,
+      "text": "Trung tâm Triển lãm Denver. Tôi có thể giúp gì cho bạn hôm nay?",
+      "author": "ChatGPT4.1"
+    },
+    "71464": {
+      "id": 2583437,
+      "text": "Xin chào. Tôi muốn hỏi về Lễ hội Dụng cụ Leo núi diễn ra vào ngày 10 tháng 6.",
+      "author": "ChatGPT4.1"
+    },
+    "71465": {
+      "id": 2583438,
+      "text": "Tôi được biết vé cá nhân có giá 25 bảng mỗi vé,",
+      "author": "ChatGPT4.1"
+    },
+    "71466": {
+      "id": 2583439,
+      "text": "nhưng tôi dự định tham dự cùng nhóm leo núi của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "71467": {
+      "id": 2583440,
+      "text": "Chúng tôi có được hưởng ưu đãi dành cho nhóm không?",
+      "author": "ChatGPT4.1"
+    },
+    "71468": {
+      "id": 2583441,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "71469": {
+      "id": 2583442,
+      "text": "Để mua vé nhóm, bạn cần liên hệ với Dean Spencer, người phụ trách những yêu cầu này.",
+      "author": "ChatGPT4.1"
+    },
+    "71470": {
+      "id": 2583443,
+      "text": "Bạn có thể gửi email cho anh ấy tại dean@groupevents.com.",
+      "author": "ChatGPT4.1"
+    },
+    "71471": {
+      "id": 2583444,
+      "text": "Tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "71472": {
+      "id": 2583445,
+      "text": "Nhóm của chúng tôi đặc biệt mong chờ buổi trình diễn về thiết bị leo núi.",
+      "author": "ChatGPT4.1"
+    },
+    "71473": {
+      "id": 2583446,
+      "text": "Chúng tôi có tài liệu quảng cáo từ tổ chức chủ trì buổi đó.",
+      "author": "ChatGPT4.1"
+    },
+    "71474": {
+      "id": 2583447,
+      "text": "Nếu bạn muốn, tôi có thể gửi cho bạn một bản qua đường bưu điện.",
+      "author": "ChatGPT4.1"
+    },
+    "71475": {
+      "id": 2583448,
+      "text": "Tôi cảm ơn, nhưng tôi đã có đầy đủ thông tin cần thiết rồi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

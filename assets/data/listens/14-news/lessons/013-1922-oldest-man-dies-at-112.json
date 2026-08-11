@@ -1,0 +1,945 @@
+{
+  "summary": {
+    "id": 1922,
+    "name": "Oldest man dies at 112",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 13,
+    "totalChallenges": 13,
+    "groupId": 107,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1922",
+  "detail": {
+    "id": 1922,
+    "lessonName": "Oldest man dies at 112",
+    "name": "Oldest man dies at 112",
+    "position": 13,
+    "levelName": "B1",
+    "audioSrc": "",
+    "youtubeVideoId": "j-WFJ_WCpFE",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 74571,
+        "position": 1,
+        "content": "John Tenniswood, once dubbed the oldest living man, has died.",
+        "defaultInput": "John Tenniswood, ",
+        "jsonContent": [
+          "John",
+          "Tenniswood,",
+          "once",
+          "dubbed",
+          "the",
+          "oldest",
+          "living",
+          "man,",
+          "has",
+          "died."
+        ],
+        "solution": [
+          [
+            "John"
+          ],
+          [
+            "Tenniswood,"
+          ],
+          [
+            "once"
+          ],
+          [
+            "dubbed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "oldest"
+          ],
+          [
+            "living"
+          ],
+          [
+            "man,"
+          ],
+          [
+            "has"
+          ],
+          [
+            "died."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 0,
+        "timeEnd": 4.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74571/list"
+      },
+      {
+        "id": 74572,
+        "position": 2,
+        "content": "You either live long or you live short, and you can't do much about it.",
+        "defaultInput": "You either live long or you live short, and you can't do much about it.",
+        "jsonContent": [
+          "You",
+          "either",
+          "live",
+          "long",
+          "or",
+          "you",
+          "live",
+          "short,",
+          "and",
+          "you",
+          "can't",
+          "do",
+          "much",
+          "about",
+          "it."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "either"
+          ],
+          [
+            "live"
+          ],
+          [
+            "long"
+          ],
+          [
+            "or"
+          ],
+          [
+            "you"
+          ],
+          [
+            "live"
+          ],
+          [
+            "short,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "do"
+          ],
+          [
+            "much"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 4.41,
+        "timeEnd": 9.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74572/list"
+      },
+      {
+        "id": 74573,
+        "position": 3,
+        "content": "In the same year that the Titanic sank, John Tenniswood was born in Liverpool, England.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "the",
+          "same",
+          "year",
+          "that",
+          "the",
+          "Titanic",
+          "sank,",
+          "John",
+          "Tenniswood",
+          "was",
+          "born",
+          "in",
+          "Liverpool,",
+          "England."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "year"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Titanic"
+          ],
+          [
+            "sank,"
+          ],
+          [
+            "John"
+          ],
+          [
+            "Tenniswood"
+          ],
+          [
+            "was"
+          ],
+          [
+            "born"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Liverpool,"
+          ],
+          [
+            "England."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 9.77,
+        "timeEnd": 15.29,
+        "hints": [
+          "John Tenniswood",
+          "Liverpool, England"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74573/list"
+      },
+      {
+        "id": 74574,
+        "position": 4,
+        "content": "During World War II, Tenniswood served in the Royal Army Pay Corps,",
+        "defaultInput": "",
+        "jsonContent": [
+          "During",
+          "World",
+          "War",
+          [
+            "II,",
+            "2",
+            "two"
+          ],
+          "Tenniswood",
+          "served",
+          "in",
+          "the",
+          "Royal",
+          "Army",
+          "Pay",
+          "Corps,"
+        ],
+        "solution": [
+          [
+            "During"
+          ],
+          [
+            "World"
+          ],
+          [
+            "War"
+          ],
+          [
+            "II,",
+            "2",
+            "two"
+          ],
+          [
+            "Tenniswood"
+          ],
+          [
+            "served"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Royal"
+          ],
+          [
+            "Army"
+          ],
+          [
+            "Pay"
+          ],
+          [
+            "Corps,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 15.29,
+        "timeEnd": 19.56,
+        "hints": [
+          "Royal Army Pay Corps"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74574/list"
+      },
+      {
+        "id": 74575,
+        "position": 5,
+        "content": "where he worked in accounts and logistics.",
+        "defaultInput": "",
+        "jsonContent": [
+          "where",
+          "he",
+          "worked",
+          "in",
+          "accounts",
+          "and",
+          "logistics."
+        ],
+        "solution": [
+          [
+            "where"
+          ],
+          [
+            "he"
+          ],
+          [
+            "worked"
+          ],
+          [
+            "in"
+          ],
+          [
+            "accounts"
+          ],
+          [
+            "and"
+          ],
+          [
+            "logistics."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 19.56,
+        "timeEnd": 22.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74575/list"
+      },
+      {
+        "id": 74576,
+        "position": 6,
+        "content": "He met his wife, Blodwin, in 1942 at a dance,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "met",
+          "his",
+          "wife,",
+          "Blodwin,",
+          "in",
+          "1942",
+          "at",
+          "a",
+          "dance,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "met"
+          ],
+          [
+            "his"
+          ],
+          [
+            "wife,"
+          ],
+          [
+            "Blodwin,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "1942"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dance,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 22.21,
+        "timeEnd": 26.35,
+        "hints": [
+          "Blodwin"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74576/list"
+      },
+      {
+        "id": 74577,
+        "position": 7,
+        "content": "which sparked a 44 year marriage before her death.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "sparked",
+          "a",
+          "44",
+          "year",
+          "marriage",
+          "before",
+          "her",
+          "death."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "sparked"
+          ],
+          [
+            "a"
+          ],
+          [
+            "44"
+          ],
+          [
+            "year"
+          ],
+          [
+            "marriage"
+          ],
+          [
+            "before"
+          ],
+          [
+            "her"
+          ],
+          [
+            "death."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 26.35,
+        "timeEnd": 29.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74577/list"
+      },
+      {
+        "id": 74578,
+        "position": 8,
+        "content": "Whether you're learning something, or whether you're teaching someone, give it all you've got. Otherwise it's not worth bothering with.",
+        "defaultInput": "Whether you're learning something, or whether you're teaching someone, give it all you've got. Otherwise it's not worth bothering with.",
+        "jsonContent": [
+          "Whether",
+          [
+            "you're",
+            "you are"
+          ],
+          "learning",
+          "something,",
+          "or",
+          "whether",
+          [
+            "you're",
+            "you are"
+          ],
+          "teaching",
+          "someone,",
+          "give",
+          "it",
+          "all",
+          [
+            "you've",
+            "you have"
+          ],
+          "got.",
+          "Otherwise",
+          "it's",
+          "not",
+          "worth",
+          "bothering",
+          "with."
+        ],
+        "solution": [
+          [
+            "Whether"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "learning"
+          ],
+          [
+            "something,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "teaching"
+          ],
+          [
+            "someone,"
+          ],
+          [
+            "give"
+          ],
+          [
+            "it"
+          ],
+          [
+            "all"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "got."
+          ],
+          [
+            "Otherwise"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "worth"
+          ],
+          [
+            "bothering"
+          ],
+          [
+            "with."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 29.66,
+        "timeEnd": 44.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74578/list"
+      },
+      {
+        "id": 74579,
+        "position": 9,
+        "content": "Tenniswood's advice for longevity was simple:",
+        "defaultInput": "Tenniswood's ",
+        "jsonContent": [
+          "Tenniswood's",
+          "advice",
+          "for",
+          "longevity",
+          "was",
+          "simple:"
+        ],
+        "solution": [
+          [
+            "Tenniswood's"
+          ],
+          [
+            "advice"
+          ],
+          [
+            "for"
+          ],
+          [
+            "longevity"
+          ],
+          [
+            "was"
+          ],
+          [
+            "simple:"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.83,
+        "timeEnd": 48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74579/list"
+      },
+      {
+        "id": 74580,
+        "position": 10,
+        "content": "If you don't eat too much, and so long as you exercise both the brain and the body, you should keep them young.",
+        "defaultInput": "If you don't eat too much, and so long as you exercise both the brain and the body, you should keep them young.",
+        "jsonContent": [
+          "If",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "eat",
+          "too",
+          "much,",
+          "and",
+          "so",
+          "long",
+          "as",
+          "you",
+          "exercise",
+          "both",
+          "the",
+          "brain",
+          "and",
+          "the",
+          "body,",
+          "you",
+          "should",
+          "keep",
+          "them",
+          "young."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "too"
+          ],
+          [
+            "much,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "long"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "exercise"
+          ],
+          [
+            "both"
+          ],
+          [
+            "the"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "body,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "them"
+          ],
+          [
+            "young."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 48,
+        "timeEnd": 61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74580/list"
+      },
+      {
+        "id": 74581,
+        "position": 11,
+        "content": "His family says he passed away surrounded by music and love.",
+        "defaultInput": "",
+        "jsonContent": [
+          "His",
+          "family",
+          "says",
+          "he",
+          "passed",
+          "away",
+          "surrounded",
+          "by",
+          "music",
+          "and",
+          "love."
+        ],
+        "solution": [
+          [
+            "His"
+          ],
+          [
+            "family"
+          ],
+          [
+            "says"
+          ],
+          [
+            "he"
+          ],
+          [
+            "passed"
+          ],
+          [
+            "away"
+          ],
+          [
+            "surrounded"
+          ],
+          [
+            "by"
+          ],
+          [
+            "music"
+          ],
+          [
+            "and"
+          ],
+          [
+            "love."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 61,
+        "timeEnd": 65.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74581/list"
+      },
+      {
+        "id": 74582,
+        "position": 12,
+        "content": "He leaves behind a daughter, grandchildren, and great-grandchildren.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "leaves",
+          "behind",
+          "a",
+          "daughter,",
+          "grandchildren,",
+          "and",
+          [
+            "great-grandchildren.",
+            "great grandchildren."
+          ]
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "leaves"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "a"
+          ],
+          [
+            "daughter,"
+          ],
+          [
+            "grandchildren,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "great-grandchildren.",
+            "great grandchildren."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 65.01,
+        "timeEnd": 69.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74582/list"
+      },
+      {
+        "id": 74583,
+        "position": 13,
+        "content": "John Tenniswood was 112 years old.",
+        "defaultInput": "John Tenniswood ",
+        "jsonContent": [
+          "John",
+          "Tenniswood",
+          "was",
+          "112",
+          "years",
+          "old."
+        ],
+        "solution": [
+          [
+            "John"
+          ],
+          [
+            "Tenniswood"
+          ],
+          [
+            "was"
+          ],
+          [
+            "112"
+          ],
+          [
+            "years"
+          ],
+          [
+            "old."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 69.23,
+        "timeEnd": 73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74583/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "74571": {
+      "id": 2081927,
+      "text": "John Tenniswood, từng được xem là người đàn ông sống lâu nhất, đã qua đời.",
+      "author": "a user"
+    },
+    "74577": {
+      "id": 2081933,
+      "text": "điều đã khởi đầu cho một cuộc hôn nhân kéo dài 44 năm trước khi bà qua đời.",
+      "author": "a user"
+    },
+    "74572": {
+      "id": 2587262,
+      "text": "Cho dù bạn sống lâu hay sống ngắn, bạn không thể làm gì nhiều về điều đó.",
+      "author": "a user"
+    },
+    "74573": {
+      "id": 2587263,
+      "text": "Cùng năm con tàu Titanic chìm, John Tenniswood chào đời tại Liverpool, Anh.",
+      "author": "a user"
+    },
+    "74574": {
+      "id": 2587264,
+      "text": "Trong Thế chiến thứ hai, Tenniswood phục vụ trong Quân đoàn Trả lương của Quân đội Hoàng gia,",
+      "author": "ChatGPT4.1"
+    },
+    "74575": {
+      "id": 2587265,
+      "text": "nơi ông làm việc trong bộ phận kế toán và hậu cần.",
+      "author": "ChatGPT4.1"
+    },
+    "74576": {
+      "id": 2587266,
+      "text": "Ông gặp vợ mình, Blodwin, vào năm 1942 tại một buổi khiêu vũ,",
+      "author": "ChatGPT4.1"
+    },
+    "74578": {
+      "id": 2587267,
+      "text": "Dù bạn đang học điều gì, hay đang dạy ai đó, hãy dốc hết sức mình. Nếu không thì không đáng để bận tâm.",
+      "author": "ChatGPT4.1"
+    },
+    "74579": {
+      "id": 2587268,
+      "text": "Lời khuyên của Tenniswood về sự trường thọ rất đơn giản:",
+      "author": "ChatGPT4.1"
+    },
+    "74580": {
+      "id": 2587269,
+      "text": "Nếu bạn không ăn quá nhiều, và miễn là tập luyện cả trí óc lẫn cơ thể, bạn sẽ giữ chúng luôn trẻ trung.",
+      "author": "ChatGPT4.1"
+    },
+    "74581": {
+      "id": 2587270,
+      "text": "Gia đình ông cho biết ông đã ra đi trong vòng tay âm nhạc và tình yêu thương.",
+      "author": "ChatGPT4.1"
+    },
+    "74582": {
+      "id": 2587271,
+      "text": "Ông để lại một người con gái, các cháu và chắt.",
+      "author": "ChatGPT4.1"
+    },
+    "74583": {
+      "id": 2587272,
+      "text": "John Tenniswood thọ 112 tuổi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

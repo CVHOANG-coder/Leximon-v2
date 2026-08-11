@@ -1,0 +1,647 @@
+{
+  "summary": {
+    "id": 1840,
+    "name": "Conversation 274",
+    "subTitle": "Art Gallery Feature Success",
+    "levelName": "B1",
+    "position": 623,
+    "totalChallenges": 10,
+    "groupId": 75,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1840",
+  "detail": {
+    "id": 1840,
+    "lessonName": "Conversation 274",
+    "name": "Conversation 274",
+    "position": 623,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/0-conversation-274.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70916,
+        "position": 1,
+        "content": "Jason, I really enjoyed the profile you wrote last Friday on the new local art galleries.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jason,",
+          "I",
+          "really",
+          "enjoyed",
+          "the",
+          "profile",
+          "you",
+          "wrote",
+          "last",
+          "Friday",
+          "on",
+          "the",
+          "new",
+          "local",
+          "art",
+          "galleries."
+        ],
+        "solution": [
+          [
+            "Jason,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "enjoyed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "profile"
+          ],
+          [
+            "you"
+          ],
+          [
+            "wrote"
+          ],
+          [
+            "last"
+          ],
+          [
+            "Friday"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "local"
+          ],
+          [
+            "art"
+          ],
+          [
+            "galleries."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 5.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70916/list"
+      },
+      {
+        "id": 70917,
+        "position": 2,
+        "content": "It's been getting a lot of attention,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "been",
+          "getting",
+          "a",
+          "lot",
+          "of",
+          "attention,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "attention,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/2.mp3",
+        "timeStart": 5.43,
+        "timeEnd": 7.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70917/list"
+      },
+      {
+        "id": 70918,
+        "position": 3,
+        "content": "especially the piece about Kaleidoscope Art Studio that launched a few weeks ago.",
+        "defaultInput": "",
+        "jsonContent": [
+          "especially",
+          "the",
+          "piece",
+          "about",
+          "Kaleidoscope",
+          "Art",
+          "Studio",
+          "that",
+          "launched",
+          "a",
+          "few",
+          "weeks",
+          "ago."
+        ],
+        "solution": [
+          [
+            "especially"
+          ],
+          [
+            "the"
+          ],
+          [
+            "piece"
+          ],
+          [
+            "about"
+          ],
+          [
+            "Kaleidoscope"
+          ],
+          [
+            "Art"
+          ],
+          [
+            "Studio"
+          ],
+          [
+            "that"
+          ],
+          [
+            "launched"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "weeks"
+          ],
+          [
+            "ago."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/3.mp3",
+        "timeStart": 7.34,
+        "timeEnd": 11.61,
+        "hints": [
+          "Kaleidoscope Art Studio"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70918/list"
+      },
+      {
+        "id": 70919,
+        "position": 4,
+        "content": "Thanks, Megan.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks,",
+          "Megan."
+        ],
+        "solution": [
+          [
+            "Thanks,"
+          ],
+          [
+            "Megan."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/4.mp3",
+        "timeStart": 12.13,
+        "timeEnd": 13.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70919/list"
+      },
+      {
+        "id": 70920,
+        "position": 5,
+        "content": "I'm glad to know the readers are enjoying it and finding it interesting.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "glad",
+          "to",
+          "know",
+          "the",
+          "readers",
+          "are",
+          "enjoying",
+          "it",
+          "and",
+          "finding",
+          "it",
+          "interesting."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "glad"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "the"
+          ],
+          [
+            "readers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "enjoying"
+          ],
+          [
+            "it"
+          ],
+          [
+            "and"
+          ],
+          [
+            "finding"
+          ],
+          [
+            "it"
+          ],
+          [
+            "interesting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/5.mp3",
+        "timeStart": 13.78,
+        "timeEnd": 17.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70920/list"
+      },
+      {
+        "id": 70921,
+        "position": 6,
+        "content": "With all the buzz it's generating,",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "all",
+          "the",
+          "buzz",
+          "it's",
+          "generating,"
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "buzz"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "generating,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/6.mp3",
+        "timeStart": 17.49,
+        "timeEnd": 19.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70921/list"
+      },
+      {
+        "id": 70922,
+        "position": 7,
+        "content": "maybe you should consider another feature article.",
+        "defaultInput": "",
+        "jsonContent": [
+          "maybe",
+          "you",
+          "should",
+          "consider",
+          "another",
+          "feature",
+          "article."
+        ],
+        "solution": [
+          [
+            "maybe"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "consider"
+          ],
+          [
+            "another"
+          ],
+          [
+            "feature"
+          ],
+          [
+            "article."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/7.mp3",
+        "timeStart": 19.24,
+        "timeEnd": 21.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70922/list"
+      },
+      {
+        "id": 70923,
+        "position": 8,
+        "content": "How about covering another upcoming cultural event in the city?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "about",
+          "covering",
+          "another",
+          "upcoming",
+          "cultural",
+          "event",
+          "in",
+          "the",
+          "city?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "about"
+          ],
+          [
+            "covering"
+          ],
+          [
+            "another"
+          ],
+          [
+            "upcoming"
+          ],
+          [
+            "cultural"
+          ],
+          [
+            "event"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/8.mp3",
+        "timeStart": 21.96,
+        "timeEnd": 25.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70923/list"
+      },
+      {
+        "id": 70924,
+        "position": 9,
+        "content": "Funny you mentioned it;",
+        "defaultInput": "",
+        "jsonContent": [
+          "Funny",
+          "you",
+          "mentioned",
+          "it;"
+        ],
+        "solution": [
+          [
+            "Funny"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "it;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/9.mp3",
+        "timeStart": 25.61,
+        "timeEnd": 27.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70924/list"
+      },
+      {
+        "id": 70925,
+        "position": 10,
+        "content": "I'm actually on my way to meet with the editorial team to brainstorm for my next assignment on that very topic.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "actually",
+          "on",
+          "my",
+          "way",
+          "to",
+          "meet",
+          "with",
+          "the",
+          "editorial",
+          "team",
+          "to",
+          "brainstorm",
+          "for",
+          "my",
+          "next",
+          "assignment",
+          "on",
+          "that",
+          "very",
+          "topic."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "editorial"
+          ],
+          [
+            "team"
+          ],
+          [
+            "to"
+          ],
+          [
+            "brainstorm"
+          ],
+          [
+            "for"
+          ],
+          [
+            "my"
+          ],
+          [
+            "next"
+          ],
+          [
+            "assignment"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that"
+          ],
+          [
+            "very"
+          ],
+          [
+            "topic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-274-2024-11-10-11-19-53/10.mp3",
+        "timeStart": 27.26,
+        "timeEnd": 33.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70925/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "70916": {
+      "id": 2584640,
+      "text": "Jason, tôi thật sự rất thích bài viết mà bạn đã viết vào thứ Sáu tuần trước về các phòng trưng bày nghệ thuật mới trong khu vực.",
+      "author": "ChatGPT4.1"
+    },
+    "70917": {
+      "id": 2584641,
+      "text": "Bài viết đã nhận được rất nhiều sự chú ý,",
+      "author": "ChatGPT4.1"
+    },
+    "70918": {
+      "id": 2584642,
+      "text": "đặc biệt là phần nói về Kaleidoscope Art Studio vừa khai trương vài tuần trước.",
+      "author": "ChatGPT4.1"
+    },
+    "70919": {
+      "id": 2584643,
+      "text": "Cảm ơn, Megan.",
+      "author": "ChatGPT4.1"
+    },
+    "70920": {
+      "id": 2584644,
+      "text": "Tôi rất vui khi biết độc giả thích bài viết và thấy nó thú vị.",
+      "author": "ChatGPT4.1"
+    },
+    "70921": {
+      "id": 2584645,
+      "text": "Với tất cả sự quan tâm mà bài viết mang lại,",
+      "author": "ChatGPT4.1"
+    },
+    "70922": {
+      "id": 2584646,
+      "text": "có lẽ bạn nên cân nhắc viết thêm một bài phóng sự nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "70923": {
+      "id": 2584647,
+      "text": "Bạn nghĩ sao về việc đưa tin về một sự kiện văn hóa sắp tới trong thành phố?",
+      "author": "ChatGPT4.1"
+    },
+    "70924": {
+      "id": 2584648,
+      "text": "Thật buồn cười là bạn nhắc đến điều đó;",
+      "author": "ChatGPT4.1"
+    },
+    "70925": {
+      "id": 2584649,
+      "text": "Thực ra tôi đang trên đường gặp đội ngũ biên tập để cùng động não cho bài viết tiếp theo của mình về chủ đề đó.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,734 @@
+{
+  "summary": {
+    "id": 1787,
+    "name": "Short Talk 250",
+    "subTitle": "Meeting Rescheduled Notification",
+    "levelName": "B1",
+    "position": 579,
+    "totalChallenges": 11,
+    "groupId": 72,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1787",
+  "detail": {
+    "id": 1787,
+    "lessonName": "Short Talk 250",
+    "name": "Short Talk 250",
+    "position": 579,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/0-short-talk-250.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70072,
+        "position": 1,
+        "content": "Hello, Mr. Hersey.",
+        "defaultInput": "Hello, Mr. Hersey.",
+        "jsonContent": [
+          "Hello,",
+          "Mr.",
+          "Hersey."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Hersey."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70072/list"
+      },
+      {
+        "id": 70073,
+        "position": 2,
+        "content": "This is Rachel Taylor from Gibson and Associates.",
+        "defaultInput": "This is Rachel Taylor from Gibson and Associates.",
+        "jsonContent": [
+          "This",
+          "is",
+          "Rachel",
+          "Taylor",
+          "from",
+          "Gibson",
+          "and",
+          "Associates."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Rachel"
+          ],
+          [
+            "Taylor"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Gibson"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Associates."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/2.mp3",
+        "timeStart": 1.52,
+        "timeEnd": 4.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70073/list"
+      },
+      {
+        "id": 70074,
+        "position": 3,
+        "content": "I'm getting back to you about your call.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "getting",
+          "back",
+          "to",
+          "you",
+          "about",
+          "your",
+          "call."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "call."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/3.mp3",
+        "timeStart": 4.79,
+        "timeEnd": 7.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70074/list"
+      },
+      {
+        "id": 70075,
+        "position": 4,
+        "content": "I've moved our meeting about your business idea from 10 am Tuesday to 3 pm Wednesday, just like you asked.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "moved",
+          "our",
+          "meeting",
+          "about",
+          "your",
+          "business",
+          "idea",
+          "from",
+          [
+            "10",
+            "ten"
+          ],
+          "am",
+          "Tuesday",
+          "to",
+          [
+            "3",
+            "three"
+          ],
+          "pm",
+          "Wednesday,",
+          "just",
+          "like",
+          "you",
+          "asked."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "moved"
+          ],
+          [
+            "our"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "business"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "from"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "am"
+          ],
+          [
+            "Tuesday"
+          ],
+          [
+            "to"
+          ],
+          [
+            "3",
+            "three"
+          ],
+          [
+            "pm"
+          ],
+          [
+            "Wednesday,"
+          ],
+          [
+            "just"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "asked."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/4.mp3",
+        "timeStart": 7.3,
+        "timeEnd": 15.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70075/list"
+      },
+      {
+        "id": 70076,
+        "position": 5,
+        "content": "This gives me extra time to prepare some useful information for our talk.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "gives",
+          "me",
+          "extra",
+          "time",
+          "to",
+          "prepare",
+          "some",
+          "useful",
+          "information",
+          "for",
+          "our",
+          "talk."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "gives"
+          ],
+          [
+            "me"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "prepare"
+          ],
+          [
+            "some"
+          ],
+          [
+            "useful"
+          ],
+          [
+            "information"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "talk."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/5.mp3",
+        "timeStart": 15.29,
+        "timeEnd": 19.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70076/list"
+      },
+      {
+        "id": 70077,
+        "position": 6,
+        "content": "I'm excited to discuss some ideas that might help with your proposal.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "excited",
+          "to",
+          "discuss",
+          "some",
+          "ideas",
+          "that",
+          "might",
+          "help",
+          "with",
+          "your",
+          "proposal."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "excited"
+          ],
+          [
+            "to"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "some"
+          ],
+          [
+            "ideas"
+          ],
+          [
+            "that"
+          ],
+          [
+            "might"
+          ],
+          [
+            "help"
+          ],
+          [
+            "with"
+          ],
+          [
+            "your"
+          ],
+          [
+            "proposal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/6.mp3",
+        "timeStart": 20.18,
+        "timeEnd": 24.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70077/list"
+      },
+      {
+        "id": 70078,
+        "position": 7,
+        "content": "Just a quick note: our office is being renovated,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "a",
+          "quick",
+          "note:",
+          "our",
+          "office",
+          "is",
+          "being",
+          "renovated,"
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "quick"
+          ],
+          [
+            "note:"
+          ],
+          [
+            "our"
+          ],
+          [
+            "office"
+          ],
+          [
+            "is"
+          ],
+          [
+            "being"
+          ],
+          [
+            "renovated,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/7.mp3",
+        "timeStart": 24.31,
+        "timeEnd": 27.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70078/list"
+      },
+      {
+        "id": 70079,
+        "position": 8,
+        "content": "so we're temporarily in a different space on the third floor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "we're",
+            "we are"
+          ],
+          "temporarily",
+          "in",
+          "a",
+          "different",
+          "space",
+          "on",
+          "the",
+          "third",
+          "floor."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "temporarily"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "different"
+          ],
+          [
+            "space"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "third"
+          ],
+          [
+            "floor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/8.mp3",
+        "timeStart": 27.62,
+        "timeEnd": 31.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70079/list"
+      },
+      {
+        "id": 70080,
+        "position": 9,
+        "content": "It used to belong to a marketing company, and their name is still on the door.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "used",
+          "to",
+          "belong",
+          "to",
+          "a",
+          "marketing",
+          [
+            "company,",
+            "Co"
+          ],
+          "and",
+          "their",
+          "name",
+          "is",
+          "still",
+          "on",
+          "the",
+          "door."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "belong"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "marketing"
+          ],
+          [
+            "company,",
+            "Co"
+          ],
+          [
+            "and"
+          ],
+          [
+            "their"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "still"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "door."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/9.mp3",
+        "timeStart": 31.25,
+        "timeEnd": 36.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70080/list"
+      },
+      {
+        "id": 70081,
+        "position": 10,
+        "content": "Don't let that confuse you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          "let",
+          "that",
+          "confuse",
+          "you."
+        ],
+        "solution": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          [
+            "let"
+          ],
+          [
+            "that"
+          ],
+          [
+            "confuse"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/10.mp3",
+        "timeStart": 36.4,
+        "timeEnd": 38.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70081/list"
+      },
+      {
+        "id": 70082,
+        "position": 11,
+        "content": "See you soon, and thanks!",
+        "defaultInput": "",
+        "jsonContent": [
+          "See",
+          "you",
+          "soon,",
+          "and",
+          "thanks!"
+        ],
+        "solution": [
+          [
+            "See"
+          ],
+          [
+            "you"
+          ],
+          [
+            "soon,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "thanks!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-250-2024-10-29-23-11-05/11.mp3",
+        "timeStart": 38.09,
+        "timeEnd": 40.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70082/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "70072": {
+      "id": 2643123,
+      "text": "Xin chào, ông Hersey.",
+      "author": "ChatGPT4.1"
+    },
+    "70073": {
+      "id": 2643124,
+      "text": "Tôi là Rachel Taylor từ công ty Gibson and Associates.",
+      "author": "ChatGPT4.1"
+    },
+    "70074": {
+      "id": 2643125,
+      "text": "Tôi liên hệ lại với ông về cuộc gọi trước đó.",
+      "author": "ChatGPT4.1"
+    },
+    "70075": {
+      "id": 2643126,
+      "text": "Tôi đã chuyển cuộc họp về ý tưởng kinh doanh của ông từ 10 giờ sáng thứ Ba sang 3 giờ chiều thứ Tư, đúng như ông yêu cầu.",
+      "author": "ChatGPT4.1"
+    },
+    "70076": {
+      "id": 2643127,
+      "text": "Điều này giúp tôi có thêm thời gian để chuẩn bị một số thông tin hữu ích cho buổi trao đổi của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "70077": {
+      "id": 2643128,
+      "text": "Tôi rất hào hứng được thảo luận một số ý tưởng có thể hỗ trợ cho đề xuất của ông.",
+      "author": "ChatGPT4.1"
+    },
+    "70078": {
+      "id": 2643129,
+      "text": "Chỉ muốn lưu ý nhanh: văn phòng của chúng tôi đang được sửa chữa,",
+      "author": "ChatGPT4.1"
+    },
+    "70079": {
+      "id": 2643130,
+      "text": "nên chúng tôi tạm thời sử dụng một không gian khác ở tầng ba.",
+      "author": "ChatGPT4.1"
+    },
+    "70080": {
+      "id": 2643131,
+      "text": "Không gian này trước đây thuộc về một công ty marketing, tên của họ vẫn còn trên cửa.",
+      "author": "ChatGPT4.1"
+    },
+    "70081": {
+      "id": 2643132,
+      "text": "Xin đừng để điều đó làm ông bối rối.",
+      "author": "ChatGPT4.1"
+    },
+    "70082": {
+      "id": 2643133,
+      "text": "Hẹn gặp lại ông sớm, cảm ơn ông!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "id": 4,
+  "name": "Numbers",
+  "type": "audio",
+  "imgUrl": "https://dailydictation.com/images/dd-numbers.jpg",
+  "totalLessons": 9,
+  "difficulty": "Easy",
+  "levelName": "A1",
+  "levelNames": [
+    "A1"
+  ],
+  "lessons": [
+    {
+      "id": 344,
+      "name": "Phone numbers",
+      "subTitle": "",
+      "levelName": "",
+      "position": 1,
+      "totalChallenges": 30,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 330,
+      "name": "Numbers (1)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 2,
+      "totalChallenges": 100,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 331,
+      "name": "Numbers (2)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 3,
+      "totalChallenges": 200,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 332,
+      "name": "Numbers (3)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 4,
+      "totalChallenges": 255,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 333,
+      "name": "Numbers (4)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 5,
+      "totalChallenges": 210,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 339,
+      "name": "Numbers (5)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 6,
+      "totalChallenges": 165,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 335,
+      "name": "Numbers (6)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 7,
+      "totalChallenges": 201,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 336,
+      "name": "Numbers (7)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 8,
+      "totalChallenges": 182,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 337,
+      "name": "Numbers (8)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 9,
+      "totalChallenges": 163,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    }
+  ],
+  "lessonGroups": [],
+  "shouldGroupLessons": false
+}

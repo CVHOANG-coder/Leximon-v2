@@ -1,0 +1,4507 @@
+{
+  "summary": {
+    "id": 743,
+    "name": "Cam11 - Test 4 - Part 1",
+    "subTitle": "Stretton Festival Events Overview",
+    "levelName": "B1",
+    "position": 190,
+    "totalChallenges": 78,
+    "groupId": 62,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/743",
+  "detail": {
+    "id": 743,
+    "lessonName": "Cam11 - Test 4 - Part 1",
+    "name": "Cam11 - Test 4 - Part 1",
+    "position": 190,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/0-ielts-cambridge-11-test-4-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 34827,
+        "position": 1,
+        "content": "Good morning. Stretton Festival box office. How can I help you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning.",
+          "Stretton",
+          "Festival",
+          "box",
+          "office.",
+          "How",
+          "can",
+          "I",
+          "help",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ],
+          [
+            "Stretton"
+          ],
+          [
+            "Festival"
+          ],
+          [
+            "box"
+          ],
+          [
+            "office."
+          ],
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/1.mp3",
+        "timeStart": 0.56,
+        "timeEnd": 4.56,
+        "hints": [
+          "Stretton"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34827/list"
+      },
+      {
+        "id": 34828,
+        "position": 2,
+        "content": "Oh, hello.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "hello."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "hello."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/2.mp3",
+        "timeStart": 4.81,
+        "timeEnd": 5.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34828/list"
+      },
+      {
+        "id": 34829,
+        "position": 3,
+        "content": "My family and I are on holiday in the area,",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "family",
+          "and",
+          "I",
+          "are",
+          "on",
+          "holiday",
+          "in",
+          "the",
+          "area,"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "family"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "are"
+          ],
+          [
+            "on"
+          ],
+          [
+            "holiday"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/3.mp3",
+        "timeStart": 5.87,
+        "timeEnd": 8.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34829/list"
+      },
+      {
+        "id": 34830,
+        "position": 4,
+        "content": "and we've seen some posters about the festival this week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "we've",
+            "we have"
+          ],
+          "seen",
+          "some",
+          "posters",
+          "about",
+          "the",
+          "festival",
+          "this",
+          "week."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "some"
+          ],
+          [
+            "posters"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "festival"
+          ],
+          [
+            "this"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/4.mp3",
+        "timeStart": 8.91,
+        "timeEnd": 12.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34830/list"
+      },
+      {
+        "id": 34831,
+        "position": 5,
+        "content": "Could you tell me about some of the events, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "tell",
+          "me",
+          "about",
+          "some",
+          "of",
+          "the",
+          "events,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "events,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/5.mp3",
+        "timeStart": 12.88,
+        "timeEnd": 15.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34831/list"
+      },
+      {
+        "id": 34832,
+        "position": 6,
+        "content": "Of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/6.mp3",
+        "timeStart": 15.81,
+        "timeEnd": 16.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34832/list"
+      },
+      {
+        "id": 34833,
+        "position": 7,
+        "content": "First of all, are there still tickets available for the jazz band on Saturday?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First",
+            "1st"
+          ],
+          "of",
+          "all,",
+          "are",
+          "there",
+          "still",
+          "tickets",
+          "available",
+          "for",
+          "the",
+          "jazz",
+          "band",
+          "on",
+          "Saturday?"
+        ],
+        "solution": [
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "are"
+          ],
+          [
+            "there"
+          ],
+          [
+            "still"
+          ],
+          [
+            "tickets"
+          ],
+          [
+            "available"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "jazz"
+          ],
+          [
+            "band"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Saturday?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/7.mp3",
+        "timeStart": 17.56,
+        "timeEnd": 22.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34833/list"
+      },
+      {
+        "id": 34834,
+        "position": 8,
+        "content": "There are, but only £15.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are,",
+          "but",
+          "only",
+          [
+            "£15.",
+            "15 pounds",
+            "fifteen pounds"
+          ]
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "only"
+          ],
+          [
+            "£15.",
+            "15 pounds",
+            "fifteen pounds"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/8.mp3",
+        "timeStart": 22.44,
+        "timeEnd": 26.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34834/list"
+      },
+      {
+        "id": 34835,
+        "position": 9,
+        "content": "The £12 seats have all been sold.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "£12",
+            "12 pounds",
+            "twelve pounds"
+          ],
+          "seats",
+          "have",
+          "all",
+          "been",
+          "sold."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "£12",
+            "12 pounds",
+            "twelve pounds"
+          ],
+          [
+            "seats"
+          ],
+          [
+            "have"
+          ],
+          [
+            "all"
+          ],
+          [
+            "been"
+          ],
+          [
+            "sold."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/9.mp3",
+        "timeStart": 26.43,
+        "timeEnd": 29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34835/list"
+      },
+      {
+        "id": 34836,
+        "position": 10,
+        "content": "OK. And the venue is the school, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "And",
+          "the",
+          "venue",
+          "is",
+          "the",
+          "school,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "venue"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "school,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/10.mp3",
+        "timeStart": 29.27,
+        "timeEnd": 33.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34836/list"
+      },
+      {
+        "id": 34837,
+        "position": 11,
+        "content": "Yes, that's right, the secondary school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "that's",
+            "that is"
+          ],
+          "right,",
+          "the",
+          "secondary",
+          "school."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "secondary"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/11.mp3",
+        "timeStart": 33.11,
+        "timeEnd": 35.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34837/list"
+      },
+      {
+        "id": 34838,
+        "position": 12,
+        "content": "Make sure you don't go to the primary school by mistake!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Make",
+          "sure",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "go",
+          "to",
+          "the",
+          "primary",
+          "school",
+          "by",
+          "mistake!"
+        ],
+        "solution": [
+          [
+            "Make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "primary"
+          ],
+          [
+            "school"
+          ],
+          [
+            "by"
+          ],
+          [
+            "mistake!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/12.mp3",
+        "timeStart": 36.07,
+        "timeEnd": 39.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34838/list"
+      },
+      {
+        "id": 34839,
+        "position": 13,
+        "content": "And there's an additional performer who isn't mentioned on the posters -",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "there's",
+            "there is"
+          ],
+          "an",
+          "additional",
+          "performer",
+          "who",
+          [
+            "isn't",
+            "is not"
+          ],
+          "mentioned",
+          "on",
+          "the",
+          "posters",
+          "-"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "an"
+          ],
+          [
+            "additional"
+          ],
+          [
+            "performer"
+          ],
+          [
+            "who"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "posters"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/13.mp3",
+        "timeStart": 39.61,
+        "timeEnd": 44.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34839/list"
+      },
+      {
+        "id": 34840,
+        "position": 14,
+        "content": "Carolyn Hart is going to play with the band.",
+        "defaultInput": "Carolyn Hart ",
+        "jsonContent": [
+          "Carolyn",
+          "Hart",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "play",
+          "with",
+          "the",
+          "band."
+        ],
+        "solution": [
+          [
+            "Carolyn"
+          ],
+          [
+            "Hart"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "play"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "band."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/14.mp3",
+        "timeStart": 44.34,
+        "timeEnd": 47.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34840/list"
+      },
+      {
+        "id": 34841,
+        "position": 15,
+        "content": "Oh, I think I've heard her on the radio.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "think",
+          [
+            "I've",
+            "I have"
+          ],
+          "heard",
+          "her",
+          "on",
+          "the",
+          "radio."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "her"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "radio."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/15.mp3",
+        "timeStart": 47.24,
+        "timeEnd": 49.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34841/list"
+      },
+      {
+        "id": 34842,
+        "position": 16,
+        "content": "Doesn't she play the oboe, or flute or something?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Doesn't",
+            "Does not"
+          ],
+          "she",
+          "play",
+          "the",
+          "oboe,",
+          "or",
+          "flute",
+          "or",
+          "something?"
+        ],
+        "solution": [
+          [
+            "Doesn't",
+            "Does not"
+          ],
+          [
+            "she"
+          ],
+          [
+            "play"
+          ],
+          [
+            "the"
+          ],
+          [
+            "oboe,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "flute"
+          ],
+          [
+            "or"
+          ],
+          [
+            "something?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/16.mp3",
+        "timeStart": 49.55,
+        "timeEnd": 52.74,
+        "hints": [
+          "oboe"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34842/list"
+      },
+      {
+        "id": 34843,
+        "position": 17,
+        "content": "Yes the flute.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes",
+          "the",
+          "flute."
+        ],
+        "solution": [
+          [
+            "Yes"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flute."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/17.mp3",
+        "timeStart": 52.74,
+        "timeEnd": 54.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34843/list"
+      },
+      {
+        "id": 34844,
+        "position": 18,
+        "content": "She usually plays with symphony orchestras,",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "usually",
+          "plays",
+          "with",
+          "symphony",
+          "orchestras,"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "plays"
+          ],
+          [
+            "with"
+          ],
+          [
+            "symphony"
+          ],
+          [
+            "orchestras,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/18.mp3",
+        "timeStart": 54.15,
+        "timeEnd": 57.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34844/list"
+      },
+      {
+        "id": 34845,
+        "position": 19,
+        "content": "and apparently this is her first time with a jazz band.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "apparently",
+          "this",
+          "is",
+          "her",
+          [
+            "first",
+            "1st"
+          ],
+          "time",
+          "with",
+          "a",
+          "jazz",
+          "band."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "apparently"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "her"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "time"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "jazz"
+          ],
+          [
+            "band."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/19.mp3",
+        "timeStart": 57.08,
+        "timeEnd": 60.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34845/list"
+      },
+      {
+        "id": 34846,
+        "position": 20,
+        "content": "Well, I'd certainly like to hear her.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I'd",
+          "certainly",
+          "like",
+          "to",
+          "hear",
+          "her."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "certainly"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/20.mp3",
+        "timeStart": 60.38,
+        "timeEnd": 62.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34846/list"
+      },
+      {
+        "id": 34847,
+        "position": 21,
+        "content": "Then the next thing I want to ask about is the duck races -",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "the",
+          "next",
+          "thing",
+          "I",
+          [
+            "want to",
+            "wanna"
+          ],
+          "ask",
+          "about",
+          "is",
+          "the",
+          "duck",
+          "races",
+          "-"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "I"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "about"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "duck"
+          ],
+          [
+            "races"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/21.mp3",
+        "timeStart": 63.02,
+        "timeEnd": 66.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34847/list"
+      },
+      {
+        "id": 34848,
+        "position": 22,
+        "content": "I saw a poster beside a river. What are they, exactly?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "saw",
+          "a",
+          "poster",
+          "beside",
+          "a",
+          "river.",
+          "What",
+          "are",
+          "they,",
+          "exactly?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "a"
+          ],
+          [
+            "poster"
+          ],
+          [
+            "beside"
+          ],
+          [
+            "a"
+          ],
+          [
+            "river."
+          ],
+          [
+            "What"
+          ],
+          [
+            "are"
+          ],
+          [
+            "they,"
+          ],
+          [
+            "exactly?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/22.mp3",
+        "timeStart": 66.68,
+        "timeEnd": 70.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34848/list"
+      },
+      {
+        "id": 34849,
+        "position": 23,
+        "content": "Well, you buy a yellow plastic duck - or as many as you like - they're a pound each.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "you",
+          "buy",
+          "a",
+          "yellow",
+          "plastic",
+          "duck",
+          "-",
+          "or",
+          "as",
+          "many",
+          "as",
+          "you",
+          "like",
+          "-",
+          [
+            "they're",
+            "they are"
+          ],
+          "a",
+          "pound",
+          "each."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "a"
+          ],
+          [
+            "yellow"
+          ],
+          [
+            "plastic"
+          ],
+          [
+            "duck"
+          ],
+          [
+            "-"
+          ],
+          [
+            "or"
+          ],
+          [
+            "as"
+          ],
+          [
+            "many"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "-"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pound"
+          ],
+          [
+            "each."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/23.mp3",
+        "timeStart": 70.6,
+        "timeEnd": 77.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34849/list"
+      },
+      {
+        "id": 34850,
+        "position": 24,
+        "content": "And you write your name on each one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "you",
+          "write",
+          "your",
+          "name",
+          "on",
+          "each",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you"
+          ],
+          [
+            "write"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name"
+          ],
+          [
+            "on"
+          ],
+          [
+            "each"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/24.mp3",
+        "timeStart": 77.34,
+        "timeEnd": 79.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34850/list"
+      },
+      {
+        "id": 34851,
+        "position": 25,
+        "content": "There'll be several races, depending on the number of ducks taking part.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There'll",
+            "There will"
+          ],
+          "be",
+          "several",
+          "races,",
+          "depending",
+          "on",
+          "the",
+          "number",
+          "of",
+          "ducks",
+          "taking",
+          "part."
+        ],
+        "solution": [
+          [
+            "There'll",
+            "There will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "several"
+          ],
+          [
+            "races,"
+          ],
+          [
+            "depending"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "ducks"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "part."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/25.mp3",
+        "timeStart": 80.2,
+        "timeEnd": 84.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34851/list"
+      },
+      {
+        "id": 34852,
+        "position": 26,
+        "content": "And John Stevens, a champion swimmer who lives locally, is going to start the races.",
+        "defaultInput": "And John Stevens, ",
+        "jsonContent": [
+          "And",
+          "John",
+          "Stevens,",
+          "a",
+          "champion",
+          "swimmer",
+          "who",
+          "lives",
+          "locally,",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "start",
+          "the",
+          "races."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "John"
+          ],
+          [
+            "Stevens,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "champion"
+          ],
+          [
+            "swimmer"
+          ],
+          [
+            "who"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "locally,"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "start"
+          ],
+          [
+            "the"
+          ],
+          [
+            "races."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/26.mp3",
+        "timeStart": 84.98,
+        "timeEnd": 91.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34852/list"
+      },
+      {
+        "id": 34853,
+        "position": 27,
+        "content": "All the ducks will be launched into the river at the back of the cinema,",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "the",
+          "ducks",
+          "will",
+          "be",
+          "launched",
+          "into",
+          "the",
+          "river",
+          "at",
+          "the",
+          "back",
+          "of",
+          "the",
+          "cinema,"
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ducks"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "launched"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "river"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "back"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cinema,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/27.mp3",
+        "timeStart": 91.64,
+        "timeEnd": 95.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34853/list"
+      },
+      {
+        "id": 34854,
+        "position": 28,
+        "content": "then they'll float along the river for 500 metres, as far as the railway bridge.",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          [
+            "they'll",
+            "they will"
+          ],
+          "float",
+          "along",
+          "the",
+          "river",
+          "for",
+          "500",
+          [
+            "metres,",
+            "meters"
+          ],
+          "as",
+          "far",
+          "as",
+          "the",
+          "railway",
+          "bridge."
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "they'll",
+            "they will"
+          ],
+          [
+            "float"
+          ],
+          [
+            "along"
+          ],
+          [
+            "the"
+          ],
+          [
+            "river"
+          ],
+          [
+            "for"
+          ],
+          [
+            "500"
+          ],
+          [
+            "metres,",
+            "meters"
+          ],
+          [
+            "as"
+          ],
+          [
+            "far"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "railway"
+          ],
+          [
+            "bridge."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/28.mp3",
+        "timeStart": 95.64,
+        "timeEnd": 100.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34854/list"
+      },
+      {
+        "id": 34855,
+        "position": 29,
+        "content": "And are there any prizes?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "are",
+          "there",
+          "any",
+          "prizes?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "are"
+          ],
+          [
+            "there"
+          ],
+          [
+            "any"
+          ],
+          [
+            "prizes?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/29.mp3",
+        "timeStart": 100.64,
+        "timeEnd": 102.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34855/list"
+      },
+      {
+        "id": 34856,
+        "position": 30,
+        "content": "Yes, the first duck in each race to arrive at the finishing line wins its owner free tickets for the concert on the last night of the festival.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "duck",
+          "in",
+          "each",
+          "race",
+          "to",
+          "arrive",
+          "at",
+          "the",
+          "finishing",
+          "line",
+          "wins",
+          "its",
+          "owner",
+          "free",
+          "tickets",
+          "for",
+          "the",
+          "concert",
+          "on",
+          "the",
+          "last",
+          "night",
+          "of",
+          "the",
+          "festival."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "duck"
+          ],
+          [
+            "in"
+          ],
+          [
+            "each"
+          ],
+          [
+            "race"
+          ],
+          [
+            "to"
+          ],
+          [
+            "arrive"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "finishing"
+          ],
+          [
+            "line"
+          ],
+          [
+            "wins"
+          ],
+          [
+            "its"
+          ],
+          [
+            "owner"
+          ],
+          [
+            "free"
+          ],
+          [
+            "tickets"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "concert"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "night"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "festival."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/30.mp3",
+        "timeStart": 102.53,
+        "timeEnd": 111.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34856/list"
+      },
+      {
+        "id": 34857,
+        "position": 31,
+        "content": "You said you can buy a duck?",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "said",
+          "you",
+          "can",
+          "buy",
+          "a",
+          "duck?"
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "said"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "a"
+          ],
+          [
+            "duck?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/31.mp3",
+        "timeStart": 112.52,
+        "timeEnd": 114.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34857/list"
+      },
+      {
+        "id": 34858,
+        "position": 32,
+        "content": "I'm sure my children will both want one.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          "my",
+          "children",
+          "will",
+          "both",
+          "want",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "my"
+          ],
+          [
+            "children"
+          ],
+          [
+            "will"
+          ],
+          [
+            "both"
+          ],
+          [
+            "want"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/32.mp3",
+        "timeStart": 114.25,
+        "timeEnd": 116.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34858/list"
+      },
+      {
+        "id": 34859,
+        "position": 33,
+        "content": "They're on sale at a stall in the market.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "on",
+          "sale",
+          "at",
+          "a",
+          "stall",
+          "in",
+          "the",
+          "market."
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "on"
+          ],
+          [
+            "sale"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stall"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "market."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/33.mp3",
+        "timeStart": 116.56,
+        "timeEnd": 119.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34859/list"
+      },
+      {
+        "id": 34860,
+        "position": 34,
+        "content": "You can't miss it -",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can't",
+          "miss",
+          "it",
+          "-"
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "miss"
+          ],
+          [
+            "it"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/34.mp3",
+        "timeStart": 119.08,
+        "timeEnd": 120.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34860/list"
+      },
+      {
+        "id": 34861,
+        "position": 35,
+        "content": "it's got an enormous sign showing a couple of ducks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it's",
+          "got",
+          "an",
+          "enormous",
+          "sign",
+          "showing",
+          "a",
+          "couple",
+          "of",
+          "ducks."
+        ],
+        "solution": [
+          [
+            "it's"
+          ],
+          [
+            "got"
+          ],
+          [
+            "an"
+          ],
+          [
+            "enormous"
+          ],
+          [
+            "sign"
+          ],
+          [
+            "showing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "ducks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/35.mp3",
+        "timeStart": 120.4,
+        "timeEnd": 123.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34861/list"
+      },
+      {
+        "id": 34862,
+        "position": 36,
+        "content": "OK. I'll go there this afternoon.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          "go",
+          "there",
+          "this",
+          "afternoon."
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "go"
+          ],
+          [
+            "there"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/36.mp3",
+        "timeStart": 123.33,
+        "timeEnd": 126,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34862/list"
+      },
+      {
+        "id": 34863,
+        "position": 37,
+        "content": "I remember walking past there yesterday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "remember",
+          "walking",
+          "past",
+          "there",
+          "yesterday."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "walking"
+          ],
+          [
+            "past"
+          ],
+          [
+            "there"
+          ],
+          [
+            "yesterday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/37.mp3",
+        "timeStart": 126.16,
+        "timeEnd": 128.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34863/list"
+      },
+      {
+        "id": 34864,
+        "position": 38,
+        "content": "Now could you tell me something about the flower show, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "could",
+          "you",
+          "tell",
+          "me",
+          "something",
+          "about",
+          "the",
+          "flower",
+          "show,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "something"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flower"
+          ],
+          [
+            "show,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/38.mp3",
+        "timeStart": 128.65,
+        "timeEnd": 132.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34864/list"
+      },
+      {
+        "id": 34865,
+        "position": 39,
+        "content": "Well, admission is free,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "admission",
+          "is",
+          "free,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "admission"
+          ],
+          [
+            "is"
+          ],
+          [
+            "free,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/39.mp3",
+        "timeStart": 132.54,
+        "timeEnd": 134.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34865/list"
+      },
+      {
+        "id": 34866,
+        "position": 40,
+        "content": "and the show is being held in Bythwaite Hall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "show",
+          "is",
+          "being",
+          "held",
+          "in",
+          "Bythwaite",
+          "Hall."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "show"
+          ],
+          [
+            "is"
+          ],
+          [
+            "being"
+          ],
+          [
+            "held"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Bythwaite"
+          ],
+          [
+            "Hall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/40.mp3",
+        "timeStart": 134.72,
+        "timeEnd": 138.74,
+        "hints": [
+          "Bythwaite Hall"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34866/list"
+      },
+      {
+        "id": 34867,
+        "position": 41,
+        "content": "Sorry, how do you spell that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sorry,",
+          "how",
+          "do",
+          "you",
+          "spell",
+          "that?"
+        ],
+        "solution": [
+          [
+            "Sorry,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spell"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/41.mp3",
+        "timeStart": 138.74,
+        "timeEnd": 140.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34867/list"
+      },
+      {
+        "id": 34868,
+        "position": 42,
+        "content": "B-Y-T-H-W-A-I-T-E.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "B-Y-T-H-W-A-I-T-E.",
+            "B Y T H W A I T E."
+          ]
+        ],
+        "solution": [
+          [
+            "B-Y-T-H-W-A-I-T-E.",
+            "B Y T H W A I T E."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/42.mp3",
+        "timeStart": 140.91,
+        "timeEnd": 147.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34868/list"
+      },
+      {
+        "id": 34869,
+        "position": 43,
+        "content": "Bythwaite.",
+        "defaultInput": "Bythwaite.",
+        "jsonContent": [
+          "Bythwaite."
+        ],
+        "solution": [
+          [
+            "Bythwaite."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/43.mp3",
+        "timeStart": 147.88,
+        "timeEnd": 149.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34869/list"
+      },
+      {
+        "id": 34870,
+        "position": 44,
+        "content": "Is it easy to find?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "it",
+          "easy",
+          "to",
+          "find?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "easy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/44.mp3",
+        "timeStart": 149.47,
+        "timeEnd": 151.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34870/list"
+      },
+      {
+        "id": 34871,
+        "position": 45,
+        "content": "I'm not very familiar with the town yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "very",
+          "familiar",
+          "with",
+          "the",
+          "town",
+          "yet."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "very"
+          ],
+          [
+            "familiar"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "town"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/45.mp3",
+        "timeStart": 151.15,
+        "timeEnd": 153.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34871/list"
+      },
+      {
+        "id": 34872,
+        "position": 46,
+        "content": "Oh, you won't have any problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "you",
+          "won't",
+          "have",
+          "any",
+          "problem."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "have"
+          ],
+          [
+            "any"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/46.mp3",
+        "timeStart": 153.86,
+        "timeEnd": 155.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34872/list"
+      },
+      {
+        "id": 34873,
+        "position": 47,
+        "content": "It's right in the centre of Stretton.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "right",
+          "in",
+          "the",
+          [
+            "centre",
+            "center"
+          ],
+          "of",
+          "Stretton."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "right"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "centre",
+            "center"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Stretton."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/47.mp3",
+        "timeStart": 155.96,
+        "timeEnd": 158.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34873/list"
+      },
+      {
+        "id": 34874,
+        "position": 48,
+        "content": "It's the only old building in the town, so it's easy to recognise.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "the",
+          "only",
+          "old",
+          "building",
+          "in",
+          "the",
+          "town,",
+          "so",
+          "it's",
+          "easy",
+          "to",
+          [
+            "recognise.",
+            "recognize"
+          ]
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "old"
+          ],
+          [
+            "building"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "town,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "easy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "recognise.",
+            "recognize"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/48.mp3",
+        "timeStart": 158.64,
+        "timeEnd": 163.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34874/list"
+      },
+      {
+        "id": 34875,
+        "position": 49,
+        "content": "I know it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/49.mp3",
+        "timeStart": 163.15,
+        "timeEnd": 164.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34875/list"
+      },
+      {
+        "id": 34876,
+        "position": 50,
+        "content": "I presume it's open all day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "presume",
+          "it's",
+          "open",
+          "all",
+          "day."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "presume"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "open"
+          ],
+          [
+            "all"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/50.mp3",
+        "timeStart": 164.18,
+        "timeEnd": 166.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34876/list"
+      },
+      {
+        "id": 34877,
+        "position": 51,
+        "content": "Yes, but if you'd like to see the prizes being awarded for the best flowers,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "but",
+          "if",
+          "you'd",
+          "like",
+          "to",
+          "see",
+          "the",
+          "prizes",
+          "being",
+          "awarded",
+          "for",
+          "the",
+          "best",
+          "flowers,"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "prizes"
+          ],
+          [
+            "being"
+          ],
+          [
+            "awarded"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "flowers,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/51.mp3",
+        "timeStart": 166.31,
+        "timeEnd": 171,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34877/list"
+      },
+      {
+        "id": 34878,
+        "position": 52,
+        "content": "you'll need to be there at 5 o'clock.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "you'll",
+            "you will"
+          ],
+          "need",
+          "to",
+          "be",
+          "there",
+          "at",
+          [
+            "5",
+            "five"
+          ],
+          "o'clock."
+        ],
+        "solution": [
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "there"
+          ],
+          [
+            "at"
+          ],
+          [
+            "5",
+            "five"
+          ],
+          [
+            "o'clock."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/52.mp3",
+        "timeStart": 171,
+        "timeEnd": 173.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34878/list"
+      },
+      {
+        "id": 34879,
+        "position": 53,
+        "content": "The prizes are being given by a famous actor, Kevin Shapless.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "prizes",
+          "are",
+          "being",
+          "given",
+          "by",
+          "a",
+          "famous",
+          "actor,",
+          "Kevin",
+          "Shapless."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "prizes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "being"
+          ],
+          [
+            "given"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "famous"
+          ],
+          [
+            "actor,"
+          ],
+          [
+            "Kevin"
+          ],
+          [
+            "Shapless."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/53.mp3",
+        "timeStart": 173.8,
+        "timeEnd": 178.71,
+        "hints": [
+          "Kevin Shapless"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34879/list"
+      },
+      {
+        "id": 34880,
+        "position": 54,
+        "content": "He lives nearby and gets involved in a lot of community events.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "lives",
+          "nearby",
+          "and",
+          "gets",
+          "involved",
+          "in",
+          "a",
+          "lot",
+          "of",
+          "community",
+          "events."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "nearby"
+          ],
+          [
+            "and"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "involved"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "community"
+          ],
+          [
+            "events."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/54.mp3",
+        "timeStart": 178.91,
+        "timeEnd": 182.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34880/list"
+      },
+      {
+        "id": 34881,
+        "position": 55,
+        "content": "Gosh, I've seen him on TV.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Gosh,",
+          [
+            "I've",
+            "I have"
+          ],
+          "seen",
+          "him",
+          "on",
+          "TV."
+        ],
+        "solution": [
+          [
+            "Gosh,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "him"
+          ],
+          [
+            "on"
+          ],
+          [
+            "TV."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/55.mp3",
+        "timeStart": 182.49,
+        "timeEnd": 184.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34881/list"
+      },
+      {
+        "id": 34882,
+        "position": 56,
+        "content": "I'll definitely go to the prize-giving.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "definitely",
+          "go",
+          "to",
+          "the",
+          [
+            "prize-giving.",
+            "prize giving."
+          ]
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "definitely"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "prize-giving.",
+            "prize giving."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/56.mp3",
+        "timeStart": 184.38,
+        "timeEnd": 186.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34882/list"
+      },
+      {
+        "id": 34883,
+        "position": 57,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/57.mp3",
+        "timeStart": 186.52,
+        "timeEnd": 187.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34883/list"
+      },
+      {
+        "id": 34884,
+        "position": 58,
+        "content": "I've seen a list of plays that are being performed this week,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "seen",
+          "a",
+          "list",
+          "of",
+          "plays",
+          "that",
+          "are",
+          "being",
+          "performed",
+          "this",
+          "week,"
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "a"
+          ],
+          [
+            "list"
+          ],
+          [
+            "of"
+          ],
+          [
+            "plays"
+          ],
+          [
+            "that"
+          ],
+          [
+            "are"
+          ],
+          [
+            "being"
+          ],
+          [
+            "performed"
+          ],
+          [
+            "this"
+          ],
+          [
+            "week,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/58.mp3",
+        "timeStart": 188.06,
+        "timeEnd": 191.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34884/list"
+      },
+      {
+        "id": 34885,
+        "position": 59,
+        "content": "and I'd like to know which are suitable for my children,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I'd",
+          "like",
+          "to",
+          "know",
+          "which",
+          "are",
+          "suitable",
+          "for",
+          "my",
+          "children,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "which"
+          ],
+          [
+            "are"
+          ],
+          [
+            "suitable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "my"
+          ],
+          [
+            "children,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/59.mp3",
+        "timeStart": 191.6,
+        "timeEnd": 194.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34885/list"
+      },
+      {
+        "id": 34886,
+        "position": 60,
+        "content": "and which ones my husband and I might go to.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "which",
+          "ones",
+          "my",
+          "husband",
+          "and",
+          "I",
+          "might",
+          "go",
+          "to."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "which"
+          ],
+          [
+            "ones"
+          ],
+          [
+            "my"
+          ],
+          [
+            "husband"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "might"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/60.mp3",
+        "timeStart": 194.5,
+        "timeEnd": 197.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34886/list"
+      },
+      {
+        "id": 34887,
+        "position": 61,
+        "content": "How old are your children?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "old",
+          "are",
+          "your",
+          "children?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "old"
+          ],
+          [
+            "are"
+          ],
+          [
+            "your"
+          ],
+          [
+            "children?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/61.mp3",
+        "timeStart": 197.18,
+        "timeEnd": 198.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34887/list"
+      },
+      {
+        "id": 34888,
+        "position": 62,
+        "content": "Five and seven.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Five",
+            "5"
+          ],
+          "and",
+          [
+            "seven.",
+            "7"
+          ]
+        ],
+        "solution": [
+          [
+            "Five",
+            "5"
+          ],
+          [
+            "and"
+          ],
+          [
+            "seven.",
+            "7"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/62.mp3",
+        "timeStart": 198.62,
+        "timeEnd": 200.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34888/list"
+      },
+      {
+        "id": 34889,
+        "position": 63,
+        "content": "What about 'The Mystery of Muldoon'?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "'The",
+          "Mystery",
+          "of",
+          "Muldoon'?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "'The"
+          ],
+          [
+            "Mystery"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Muldoon'?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/63.mp3",
+        "timeStart": 200.03,
+        "timeEnd": 202.55,
+        "hints": [
+          "Muldoon"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34889/list"
+      },
+      {
+        "id": 34890,
+        "position": 64,
+        "content": "That's aimed at five to ten-year-olds.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "aimed",
+          "at",
+          [
+            "five",
+            "5"
+          ],
+          "to",
+          [
+            "ten-year-olds.",
+            "ten year olds."
+          ]
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "aimed"
+          ],
+          [
+            "at"
+          ],
+          [
+            "five",
+            "5"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ten-year-olds.",
+            "ten year olds."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/64.mp3",
+        "timeStart": 202.55,
+        "timeEnd": 204.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34890/list"
+      },
+      {
+        "id": 34891,
+        "position": 65,
+        "content": "So if I take my children, I can expect them to enjoy it more than I do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "if",
+          "I",
+          "take",
+          "my",
+          "children,",
+          "I",
+          "can",
+          "expect",
+          "them",
+          "to",
+          "enjoy",
+          "it",
+          "more",
+          "than",
+          "I",
+          "do?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "take"
+          ],
+          [
+            "my"
+          ],
+          [
+            "children,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "enjoy"
+          ],
+          [
+            "it"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/65.mp3",
+        "timeStart": 204.91,
+        "timeEnd": 209.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34891/list"
+      },
+      {
+        "id": 34892,
+        "position": 66,
+        "content": "I think so.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "so."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "so."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/66.mp3",
+        "timeStart": 209.05,
+        "timeEnd": 210.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34892/list"
+      },
+      {
+        "id": 34893,
+        "position": 67,
+        "content": "If you'd like something for yourself and your husband and leave your children with a babysitter,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you'd",
+          "like",
+          "something",
+          "for",
+          "yourself",
+          "and",
+          "your",
+          "husband",
+          "and",
+          "leave",
+          "your",
+          "children",
+          "with",
+          "a",
+          "babysitter,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "something"
+          ],
+          [
+            "for"
+          ],
+          [
+            "yourself"
+          ],
+          [
+            "and"
+          ],
+          [
+            "your"
+          ],
+          [
+            "husband"
+          ],
+          [
+            "and"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "your"
+          ],
+          [
+            "children"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "babysitter,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/67.mp3",
+        "timeStart": 210.64,
+        "timeEnd": 215.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34893/list"
+      },
+      {
+        "id": 34894,
+        "position": 68,
+        "content": "you might like to see 'Fire and Flood' -",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "might",
+          "like",
+          "to",
+          "see",
+          "'Fire",
+          "and",
+          "Flood'",
+          "-"
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "might"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "'Fire"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Flood'"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/68.mp3",
+        "timeStart": 215.93,
+        "timeEnd": 218.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34894/list"
+      },
+      {
+        "id": 34895,
+        "position": 69,
+        "content": "it's about events that really happened in Stretton 200 years ago,",
+        "defaultInput": "",
+        "jsonContent": [
+          "it's",
+          "about",
+          "events",
+          "that",
+          "really",
+          "happened",
+          "in",
+          "Stretton",
+          [
+            "200",
+            "two hundred"
+          ],
+          "years",
+          "ago,"
+        ],
+        "solution": [
+          [
+            "it's"
+          ],
+          [
+            "about"
+          ],
+          [
+            "events"
+          ],
+          [
+            "that"
+          ],
+          [
+            "really"
+          ],
+          [
+            "happened"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Stretton"
+          ],
+          [
+            "200",
+            "two hundred"
+          ],
+          [
+            "years"
+          ],
+          [
+            "ago,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/69.mp3",
+        "timeStart": 219.1,
+        "timeEnd": 223.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34895/list"
+      },
+      {
+        "id": 34896,
+        "position": 70,
+        "content": "and children might find it rather frightening.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "children",
+          "might",
+          "find",
+          "it",
+          "rather",
+          "frightening."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "children"
+          ],
+          [
+            "might"
+          ],
+          [
+            "find"
+          ],
+          [
+            "it"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "frightening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/70.mp3",
+        "timeStart": 223.02,
+        "timeEnd": 225.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34896/list"
+      },
+      {
+        "id": 34897,
+        "position": 71,
+        "content": "Oh, thanks for the warning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "thanks",
+          "for",
+          "the",
+          "warning."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "warning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/71.mp3",
+        "timeStart": 225.64,
+        "timeEnd": 227.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34897/list"
+      },
+      {
+        "id": 34898,
+        "position": 72,
+        "content": "And finally, what about 'Silly Sailor'?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "finally,",
+          "what",
+          "about",
+          "'Silly",
+          "Sailor'?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "finally,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "'Silly"
+          ],
+          [
+            "Sailor'?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/72.mp3",
+        "timeStart": 228.18,
+        "timeEnd": 230.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34898/list"
+      },
+      {
+        "id": 34899,
+        "position": 73,
+        "content": "That's a comedy, and it's for young and old.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "a",
+          "comedy,",
+          "and",
+          "it's",
+          "for",
+          "young",
+          "and",
+          "old."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "comedy,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "for"
+          ],
+          [
+            "young"
+          ],
+          [
+            "and"
+          ],
+          [
+            "old."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/73.mp3",
+        "timeStart": 230.9,
+        "timeEnd": 234.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34899/list"
+      },
+      {
+        "id": 34900,
+        "position": 74,
+        "content": "In fact, it won an award in the Stretton Drama Festival a couple of months ago.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "fact,",
+          "it",
+          "won",
+          "an",
+          "award",
+          "in",
+          "the",
+          "Stretton",
+          "Drama",
+          "Festival",
+          "a",
+          "couple",
+          "of",
+          "months",
+          "ago."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "fact,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "won"
+          ],
+          [
+            "an"
+          ],
+          [
+            "award"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Stretton"
+          ],
+          [
+            "Drama"
+          ],
+          [
+            "Festival"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "months"
+          ],
+          [
+            "ago."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/74.mp3",
+        "timeStart": 234.48,
+        "timeEnd": 239.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34900/list"
+      },
+      {
+        "id": 34901,
+        "position": 75,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/75.mp3",
+        "timeStart": 239.11,
+        "timeEnd": 239.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34901/list"
+      },
+      {
+        "id": 34902,
+        "position": 76,
+        "content": "Well, goodbye, and thanks for all the information.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "goodbye,",
+          "and",
+          "thanks",
+          "for",
+          "all",
+          "the",
+          "information."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "goodbye,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "information."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/76.mp3",
+        "timeStart": 240.31,
+        "timeEnd": 242.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34902/list"
+      },
+      {
+        "id": 34903,
+        "position": 77,
+        "content": "I'm looking forward to the festival!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "looking",
+          "forward",
+          "to",
+          "the",
+          "festival!"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "festival!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/77.mp3",
+        "timeStart": 242.76,
+        "timeEnd": 244.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34903/list"
+      },
+      {
+        "id": 34904,
+        "position": 78,
+        "content": "Goodbye.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Goodbye."
+        ],
+        "solution": [
+          [
+            "Goodbye."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-4-part-1-2023-06-08-13-11-21/78.mp3",
+        "timeStart": 244.71,
+        "timeEnd": 245.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34904/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "34836": {
+      "id": 609253,
+      "text": "Vâng. Và nơi tổ chức là trường học, phải không?",
+      "author": "a user"
+    },
+    "34837": {
+      "id": 609256,
+      "text": "Vâng, phải rồi, trường cấp hai.",
+      "author": "a user"
+    },
+    "34849": {
+      "id": 609526,
+      "text": "Chà, bạn mua một con vịt nhựa màu vàng - hoặc bao nhiêu tùy thích - mỗi con có giá 1 pound",
+      "author": "a user"
+    },
+    "34850": {
+      "id": 609530,
+      "text": "Và bạn viết tên của bạn lên từng con.",
+      "author": "a user"
+    },
+    "34858": {
+      "id": 609556,
+      "text": "Tôi chắc rằng cả hai đứa con của tôi đều muốn có một con.",
+      "author": "a user"
+    },
+    "34865": {
+      "id": 609563,
+      "text": "Vâng, phí vào cửa là miễn phí,",
+      "author": "a user"
+    },
+    "34882": {
+      "id": 609589,
+      "text": "Tôi nhất định sẽ đi đến lễ trao giải.",
+      "author": "a user"
+    },
+    "34834": {
+      "id": 677244,
+      "text": "Có, nhưng chỉ còn loại £15.",
+      "author": "a user"
+    },
+    "34827": {
+      "id": 2620835,
+      "text": "Chào buổi sáng. Phòng bán vé Lễ hội Stretton. Tôi có thể giúp gì cho bạn?",
+      "author": "ChatGPT4.1"
+    },
+    "34828": {
+      "id": 2620836,
+      "text": "Ồ, xin chào.",
+      "author": "ChatGPT4.1"
+    },
+    "34829": {
+      "id": 2620837,
+      "text": "Gia đình tôi và tôi đang đi nghỉ ở khu vực này,",
+      "author": "ChatGPT4.1"
+    },
+    "34830": {
+      "id": 2620838,
+      "text": "và chúng tôi đã thấy một số áp phích về lễ hội trong tuần này.",
+      "author": "ChatGPT4.1"
+    },
+    "34831": {
+      "id": 2620839,
+      "text": "Bạn có thể cho tôi biết về một số sự kiện được không?",
+      "author": "ChatGPT4.1"
+    },
+    "34832": {
+      "id": 2620840,
+      "text": "Dĩ nhiên.",
+      "author": "ChatGPT4.1"
+    },
+    "34833": {
+      "id": 2620841,
+      "text": "Trước hết, vé cho ban nhạc jazz vào thứ Bảy còn không?",
+      "author": "ChatGPT4.1"
+    },
+    "34835": {
+      "id": 2620842,
+      "text": "Tất cả các chỗ ngồi 12 bảng đã bán hết rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "34838": {
+      "id": 2620843,
+      "text": "Nhớ đừng đến nhầm trường tiểu học nhé!",
+      "author": "ChatGPT4.1"
+    },
+    "34839": {
+      "id": 2620844,
+      "text": "Và còn có một nghệ sĩ biểu diễn bổ sung không được nhắc đến trên áp phích -",
+      "author": "ChatGPT4.1"
+    },
+    "34840": {
+      "id": 2620845,
+      "text": "Carolyn Hart sẽ biểu diễn cùng ban nhạc.",
+      "author": "ChatGPT4.1"
+    },
+    "34841": {
+      "id": 2620846,
+      "text": "Ồ, tôi nghĩ mình đã nghe cô ấy trên đài.",
+      "author": "ChatGPT4.1"
+    },
+    "34842": {
+      "id": 2620847,
+      "text": "Cô ấy chơi kèn oboe, sáo hay gì đó phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "34843": {
+      "id": 2620848,
+      "text": "Vâng, là sáo.",
+      "author": "ChatGPT4.1"
+    },
+    "34844": {
+      "id": 2620849,
+      "text": "Cô ấy thường chơi cùng dàn nhạc giao hưởng,",
+      "author": "ChatGPT4.1"
+    },
+    "34845": {
+      "id": 2620850,
+      "text": "và có vẻ như đây là lần đầu tiên cô ấy biểu diễn cùng ban nhạc jazz.",
+      "author": "ChatGPT4.1"
+    },
+    "34846": {
+      "id": 2620851,
+      "text": "Tôi thật sự muốn nghe cô ấy chơi nhạc.",
+      "author": "ChatGPT4.1"
+    },
+    "34847": {
+      "id": 2620852,
+      "text": "Điều tiếp theo tôi muốn hỏi là về cuộc đua vịt -",
+      "author": "ChatGPT4.1"
+    },
+    "34848": {
+      "id": 2620853,
+      "text": "Tôi đã thấy một áp phích bên cạnh dòng sông. Đó là gì vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "34851": {
+      "id": 2620854,
+      "text": "Sẽ có nhiều cuộc đua, tuỳ vào số lượng vịt tham gia.",
+      "author": "ChatGPT4.1"
+    },
+    "34852": {
+      "id": 2620855,
+      "text": "Và John Stevens, một vận động viên bơi lội vô địch sống ở địa phương, sẽ khai mạc các cuộc đua.",
+      "author": "ChatGPT4.1"
+    },
+    "34853": {
+      "id": 2620856,
+      "text": "Tất cả các con vịt sẽ được thả xuống sông phía sau rạp chiếu phim,",
+      "author": "ChatGPT4.1"
+    },
+    "34854": {
+      "id": 2620857,
+      "text": "rồi chúng sẽ trôi theo dòng sông trong 500 mét, đến tận cây cầu đường sắt.",
+      "author": "ChatGPT4.1"
+    },
+    "34855": {
+      "id": 2620858,
+      "text": "Và có giải thưởng nào không?",
+      "author": "ChatGPT4.1"
+    },
+    "34856": {
+      "id": 2620859,
+      "text": "Có, con vịt đầu tiên trong mỗi cuộc đua đến vạch đích sẽ mang về cho chủ nhân của nó vé miễn phí cho buổi hoà nhạc vào đêm cuối cùng của lễ hội.",
+      "author": "ChatGPT4.1"
+    },
+    "34857": {
+      "id": 2832317,
+      "text": "Bạn nói là có thể mua một con vịt?",
+      "author": "ChatGPT4.1"
+    },
+    "34859": {
+      "id": 2832318,
+      "text": "Chúng được bán ở một quầy hàng trong chợ.",
+      "author": "ChatGPT4.1"
+    },
+    "34860": {
+      "id": 2832319,
+      "text": "Bạn không thể bỏ lỡ đâu -",
+      "author": "ChatGPT4.1"
+    },
+    "34861": {
+      "id": 2832320,
+      "text": "nó có một tấm biển rất lớn vẽ đôi vịt.",
+      "author": "ChatGPT4.1"
+    },
+    "34862": {
+      "id": 2832321,
+      "text": "Được rồi. Chiều nay tôi sẽ đến đó.",
+      "author": "ChatGPT4.1"
+    },
+    "34863": {
+      "id": 2832322,
+      "text": "Tôi nhớ là hôm qua tôi đã đi ngang qua đó.",
+      "author": "ChatGPT4.1"
+    },
+    "34864": {
+      "id": 2832323,
+      "text": "Bây giờ anh/chị có thể kể cho tôi nghe về triển lãm hoa không?",
+      "author": "ChatGPT4.1"
+    },
+    "34866": {
+      "id": 2832324,
+      "text": "và triển lãm được tổ chức tại hội trường Bythwaite.",
+      "author": "ChatGPT4.1"
+    },
+    "34867": {
+      "id": 2832325,
+      "text": "Xin lỗi, đánh vần như thế nào vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "34868": {
+      "id": 2832326,
+      "text": "B-Y-T-H-W-A-I-T-E.",
+      "author": "ChatGPT4.1"
+    },
+    "34869": {
+      "id": 2832327,
+      "text": "Bythwaite.",
+      "author": "ChatGPT4.1"
+    },
+    "34870": {
+      "id": 2832328,
+      "text": "Có dễ tìm không?",
+      "author": "ChatGPT4.1"
+    },
+    "34871": {
+      "id": 2832329,
+      "text": "Tôi chưa quen thị trấn này lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "34872": {
+      "id": 2832330,
+      "text": "Ồ, bạn sẽ không gặp vấn đề gì đâu.",
+      "author": "ChatGPT4.1"
+    },
+    "34873": {
+      "id": 2832331,
+      "text": "Nó nằm ngay trung tâm Stretton.",
+      "author": "ChatGPT4.1"
+    },
+    "34874": {
+      "id": 2832332,
+      "text": "Đó là tòa nhà cổ duy nhất trong thị trấn nên rất dễ nhận ra.",
+      "author": "ChatGPT4.1"
+    },
+    "34875": {
+      "id": 2832333,
+      "text": "Tôi biết nó.",
+      "author": "ChatGPT4.1"
+    },
+    "34876": {
+      "id": 2832334,
+      "text": "Tôi đoán là mở cửa cả ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "34877": {
+      "id": 2832335,
+      "text": "Vâng, nhưng nếu bạn muốn xem phần trao giải cho hoa đẹp nhất,",
+      "author": "ChatGPT4.1"
+    },
+    "34878": {
+      "id": 2832336,
+      "text": "bạn cần có mặt ở đó lúc 5 giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "34879": {
+      "id": 2832337,
+      "text": "Giải thưởng được trao bởi một nam diễn viên nổi tiếng, Kevin Shapless.",
+      "author": "ChatGPT4.1"
+    },
+    "34880": {
+      "id": 2832338,
+      "text": "Anh ấy sống gần đó và tham gia rất nhiều sự kiện cộng đồng.",
+      "author": "ChatGPT4.1"
+    },
+    "34881": {
+      "id": 2832339,
+      "text": "Trời, tôi đã từng thấy anh ấy trên TV.",
+      "author": "ChatGPT4.1"
+    },
+    "34883": {
+      "id": 2832340,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "34884": {
+      "id": 2832341,
+      "text": "Tôi đã xem qua danh sách các vở kịch sẽ được trình diễn trong tuần này,",
+      "author": "ChatGPT4.1"
+    },
+    "34885": {
+      "id": 2832342,
+      "text": "và tôi muốn biết những vở nào phù hợp cho các con tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "34886": {
+      "id": 2832343,
+      "text": "và những vở nào vợ chồng tôi có thể đi xem.",
+      "author": "ChatGPT4.1"
+    },
+    "34887": {
+      "id": 2832344,
+      "text": "Các con bạn bao nhiêu tuổi?",
+      "author": "ChatGPT4.1"
+    },
+    "34888": {
+      "id": 2832345,
+      "text": "Năm tuổi và bảy tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "34889": {
+      "id": 2832346,
+      "text": "Còn vở 'Bí ẩn nhà Muldoon' thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "34890": {
+      "id": 2832347,
+      "text": "Vở đó dành cho các bé từ năm đến mười tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "34891": {
+      "id": 2832348,
+      "text": "Vậy nếu tôi đưa các con đi, tôi có thể mong chúng thích hơn tôi đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "34892": {
+      "id": 2832349,
+      "text": "Tôi nghĩ vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "34893": {
+      "id": 2832350,
+      "text": "Nếu bạn muốn xem một vở cho bạn và chồng, và gửi các con cho người trông trẻ,",
+      "author": "ChatGPT4.1"
+    },
+    "34894": {
+      "id": 2832351,
+      "text": "bạn có thể thích xem 'Lửa và Lụt' -",
+      "author": "ChatGPT4.1"
+    },
+    "34895": {
+      "id": 2832352,
+      "text": "vở này kể về những sự kiện có thật xảy ra ở Stretton cách đây 200 năm,",
+      "author": "ChatGPT4.1"
+    },
+    "34896": {
+      "id": 2832353,
+      "text": "và trẻ con có thể thấy nó khá đáng sợ.",
+      "author": "ChatGPT4.1"
+    },
+    "34897": {
+      "id": 2832354,
+      "text": "Ồ, cảm ơn vì đã cảnh báo.",
+      "author": "ChatGPT4.1"
+    },
+    "34898": {
+      "id": 2832355,
+      "text": "Và cuối cùng, còn vở 'Chàng Thuỷ Thủ Hài Hước' thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "34899": {
+      "id": 2832356,
+      "text": "Đấy là một vở hài, dành cho cả trẻ em lẫn người lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "34900": {
+      "id": 2832357,
+      "text": "Thật ra, nó vừa đoạt giải ở Liên hoan Kịch Stretton cách đây vài tháng.",
+      "author": "ChatGPT4.1"
+    },
+    "34901": {
+      "id": 2832358,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "34902": {
+      "id": 2832359,
+      "text": "Vậy thì tạm biệt, cảm ơn về tất cả thông tin.",
+      "author": "ChatGPT4.1"
+    },
+    "34903": {
+      "id": 2832360,
+      "text": "Tôi rất mong chờ lễ hội!",
+      "author": "ChatGPT4.1"
+    },
+    "34904": {
+      "id": 2832361,
+      "text": "Tạm biệt.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

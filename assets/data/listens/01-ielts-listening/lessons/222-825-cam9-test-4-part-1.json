@@ -1,0 +1,3647 @@
+{
+  "summary": {
+    "id": 825,
+    "name": "Cam9 - Test 4 - Part 1",
+    "subTitle": "Registering with Local Health Centres",
+    "levelName": "B1",
+    "position": 222,
+    "totalChallenges": 62,
+    "groupId": 64,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/825",
+  "detail": {
+    "id": 825,
+    "lessonName": "Cam9 - Test 4 - Part 1",
+    "name": "Cam9 - Test 4 - Part 1",
+    "position": 222,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/0-ielts-cambridge-9-test-4-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 41641,
+        "position": 1,
+        "content": "Can I help you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "I",
+          "help",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/1.mp3",
+        "timeStart": 0.17,
+        "timeEnd": 1.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41641/list"
+      },
+      {
+        "id": 41642,
+        "position": 2,
+        "content": "Yes, I've just moved to this area with my wife and children",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I've",
+            "I have"
+          ],
+          "just",
+          "moved",
+          "to",
+          "this",
+          "area",
+          "with",
+          "my",
+          "wife",
+          "and",
+          "children"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "just"
+          ],
+          [
+            "moved"
+          ],
+          [
+            "to"
+          ],
+          [
+            "this"
+          ],
+          [
+            "area"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "wife"
+          ],
+          [
+            "and"
+          ],
+          [
+            "children"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/2.mp3",
+        "timeStart": 1.35,
+        "timeEnd": 5.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41642/list"
+      },
+      {
+        "id": 41643,
+        "position": 3,
+        "content": "and I'd like to know where we can all register with a doctor at a Health Centre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I'd",
+          "like",
+          "to",
+          "know",
+          "where",
+          "we",
+          "can",
+          "all",
+          "register",
+          "with",
+          "a",
+          "doctor",
+          "at",
+          "a",
+          "Health",
+          [
+            "Centre.",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "where"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "all"
+          ],
+          [
+            "register"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "Health"
+          ],
+          [
+            "Centre.",
+            "center"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/3.mp3",
+        "timeStart": 5.63,
+        "timeEnd": 10.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41643/list"
+      },
+      {
+        "id": 41644,
+        "position": 4,
+        "content": "Okay.",
+        "defaultInput": "Okay.",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/4.mp3",
+        "timeStart": 10.88,
+        "timeEnd": 11.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41644/list"
+      },
+      {
+        "id": 41645,
+        "position": 5,
+        "content": "Well, there's Doctor Green at The Harvey Clinic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "there's",
+            "there is"
+          ],
+          "Doctor",
+          "Green",
+          "at",
+          "The",
+          "Harvey",
+          "Clinic."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "Doctor"
+          ],
+          [
+            "Green"
+          ],
+          [
+            "at"
+          ],
+          [
+            "The"
+          ],
+          [
+            "Harvey"
+          ],
+          [
+            "Clinic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/5.mp3",
+        "timeStart": 12.23,
+        "timeEnd": 15.81,
+        "hints": [
+          "Harvey"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41645/list"
+      },
+      {
+        "id": 41646,
+        "position": 6,
+        "content": "We always recommend her for babies, because she's very good with them and she runs a special clinic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "always",
+          "recommend",
+          "her",
+          "for",
+          "babies,",
+          "because",
+          "she's",
+          "very",
+          "good",
+          "with",
+          "them",
+          "and",
+          "she",
+          "runs",
+          "a",
+          "special",
+          "clinic."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "always"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "her"
+          ],
+          [
+            "for"
+          ],
+          [
+            "babies,"
+          ],
+          [
+            "because"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "good"
+          ],
+          [
+            "with"
+          ],
+          [
+            "them"
+          ],
+          [
+            "and"
+          ],
+          [
+            "she"
+          ],
+          [
+            "runs"
+          ],
+          [
+            "a"
+          ],
+          [
+            "special"
+          ],
+          [
+            "clinic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/6.mp3",
+        "timeStart": 15.81,
+        "timeEnd": 20.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41646/list"
+      },
+      {
+        "id": 41647,
+        "position": 7,
+        "content": "Oh... actually my youngest child is five, so that wouldn't be any good for us.",
+        "defaultInput": "Oh... ",
+        "jsonContent": [
+          "Oh...",
+          "actually",
+          "my",
+          "youngest",
+          "child",
+          "is",
+          [
+            "five,",
+            "5"
+          ],
+          "so",
+          "that",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "be",
+          "any",
+          "good",
+          "for",
+          "us."
+        ],
+        "solution": [
+          [
+            "Oh..."
+          ],
+          [
+            "actually"
+          ],
+          [
+            "my"
+          ],
+          [
+            "youngest"
+          ],
+          [
+            "child"
+          ],
+          [
+            "is"
+          ],
+          [
+            "five,",
+            "5"
+          ],
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "any"
+          ],
+          [
+            "good"
+          ],
+          [
+            "for"
+          ],
+          [
+            "us."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/7.mp3",
+        "timeStart": 20.85,
+        "timeEnd": 26.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41647/list"
+      },
+      {
+        "id": 41648,
+        "position": 8,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/8.mp3",
+        "timeStart": 26.6,
+        "timeEnd": 27.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41648/list"
+      },
+      {
+        "id": 41649,
+        "position": 9,
+        "content": "Is there anywhere else I could try?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "there",
+          "anywhere",
+          "else",
+          "I",
+          "could",
+          "try?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "anywhere"
+          ],
+          [
+            "else"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "try?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/9.mp3",
+        "timeStart": 28.19,
+        "timeEnd": 30.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41649/list"
+      },
+      {
+        "id": 41650,
+        "position": 10,
+        "content": "Yes, the Eshcol Health Practice is the next one on my list.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "the",
+          "Eshcol",
+          "Health",
+          [
+            "Practice",
+            "practise"
+          ],
+          "is",
+          "the",
+          "next",
+          [
+            "one",
+            "1"
+          ],
+          "on",
+          "my",
+          "list."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Eshcol"
+          ],
+          [
+            "Health"
+          ],
+          [
+            "Practice",
+            "practise"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "list."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/10.mp3",
+        "timeStart": 31.09,
+        "timeEnd": 35.95,
+        "hints": [
+          "Eshcol"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41650/list"
+      },
+      {
+        "id": 41651,
+        "position": 11,
+        "content": "How do you spell that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "do",
+          "you",
+          "spell",
+          "that?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spell"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/11.mp3",
+        "timeStart": 35.95,
+        "timeEnd": 37.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41651/list"
+      },
+      {
+        "id": 41652,
+        "position": 12,
+        "content": "ESHCOL.",
+        "defaultInput": "",
+        "jsonContent": [
+          "ESHCOL."
+        ],
+        "solution": [
+          [
+            "ESHCOL."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/12.mp3",
+        "timeStart": 37.16,
+        "timeEnd": 41.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41652/list"
+      },
+      {
+        "id": 41653,
+        "position": 13,
+        "content": "And it's Doctor Fuller, who has space on his list.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "it's",
+          "Doctor",
+          "Fuller,",
+          "who",
+          "has",
+          "space",
+          "on",
+          "his",
+          "list."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "Doctor"
+          ],
+          [
+            "Fuller,"
+          ],
+          [
+            "who"
+          ],
+          [
+            "has"
+          ],
+          [
+            "space"
+          ],
+          [
+            "on"
+          ],
+          [
+            "his"
+          ],
+          [
+            "list."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/13.mp3",
+        "timeStart": 41.31,
+        "timeEnd": 44.55,
+        "hints": [
+          "Fuller"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41653/list"
+      },
+      {
+        "id": 41654,
+        "position": 14,
+        "content": "The clinic only opened a year ago, so the facilities are all very modern.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "clinic",
+          "only",
+          "opened",
+          "a",
+          "year",
+          "ago,",
+          "so",
+          "the",
+          "facilities",
+          "are",
+          "all",
+          "very",
+          "modern."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "clinic"
+          ],
+          [
+            "only"
+          ],
+          [
+            "opened"
+          ],
+          [
+            "a"
+          ],
+          [
+            "year"
+          ],
+          [
+            "ago,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "the"
+          ],
+          [
+            "facilities"
+          ],
+          [
+            "are"
+          ],
+          [
+            "all"
+          ],
+          [
+            "very"
+          ],
+          [
+            "modern."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/14.mp3",
+        "timeStart": 44.55,
+        "timeEnd": 48.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41654/list"
+      },
+      {
+        "id": 41655,
+        "position": 15,
+        "content": "That sounds good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "sounds",
+          "good."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/15.mp3",
+        "timeStart": 48.52,
+        "timeEnd": 49.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41655/list"
+      },
+      {
+        "id": 41656,
+        "position": 16,
+        "content": "And it's particularly good if you're busy during the day,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "it's",
+          "particularly",
+          "good",
+          "if",
+          [
+            "you're",
+            "you are"
+          ],
+          "busy",
+          "during",
+          "the",
+          "day,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "good"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/16.mp3",
+        "timeStart": 50.16,
+        "timeEnd": 53.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41656/list"
+      },
+      {
+        "id": 41657,
+        "position": 17,
+        "content": "because they also do appointments in the evening.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "because",
+            "cause'",
+            "cuz"
+          ],
+          "they",
+          "also",
+          "do",
+          "appointments",
+          "in",
+          "the",
+          "evening."
+        ],
+        "solution": [
+          [
+            "because",
+            "cause'",
+            "cuz"
+          ],
+          [
+            "they"
+          ],
+          [
+            "also"
+          ],
+          [
+            "do"
+          ],
+          [
+            "appointments"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "evening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/17.mp3",
+        "timeStart": 53.17,
+        "timeEnd": 56.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41657/list"
+      },
+      {
+        "id": 41658,
+        "position": 18,
+        "content": "They're closed on Saturday, though.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "closed",
+          "on",
+          "Saturday,",
+          "though."
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "closed"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Saturday,"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/18.mp3",
+        "timeStart": 56.09,
+        "timeEnd": 58.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41658/list"
+      },
+      {
+        "id": 41659,
+        "position": 19,
+        "content": "The only other place on the list is the Health Centre on Shore Lane.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "only",
+          "other",
+          "place",
+          "on",
+          "the",
+          "list",
+          "is",
+          "the",
+          "Health",
+          [
+            "Centre",
+            "center"
+          ],
+          "on",
+          "Shore",
+          "Lane."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "only"
+          ],
+          [
+            "other"
+          ],
+          [
+            "place"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "list"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Health"
+          ],
+          [
+            "Centre",
+            "center"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Shore"
+          ],
+          [
+            "Lane."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/19.mp3",
+        "timeStart": 58.63,
+        "timeEnd": 62.69,
+        "hints": [
+          "Shore Lane"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41659/list"
+      },
+      {
+        "id": 41660,
+        "position": 20,
+        "content": "You can register with Doctor Gormley,",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "register",
+          "with",
+          "Doctor",
+          "Gormley,"
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "register"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Doctor"
+          ],
+          [
+            "Gormley,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/20.mp3",
+        "timeStart": 62.69,
+        "timeEnd": 64.96,
+        "hints": [
+          "Gormley"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41660/list"
+      },
+      {
+        "id": 41661,
+        "position": 21,
+        "content": "that's GORMLEY.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "that's",
+            "that is"
+          ],
+          "GORMLEY."
+        ],
+        "solution": [
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "GORMLEY."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/21.mp3",
+        "timeStart": 64.96,
+        "timeEnd": 70.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41661/list"
+      },
+      {
+        "id": 41662,
+        "position": 22,
+        "content": "He's new there, but the centre has a very good reputation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He's",
+          "new",
+          "there,",
+          "but",
+          "the",
+          [
+            "centre",
+            "center"
+          ],
+          "has",
+          "a",
+          "very",
+          "good",
+          "reputation."
+        ],
+        "solution": [
+          [
+            "He's"
+          ],
+          [
+            "new"
+          ],
+          [
+            "there,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "centre",
+            "center"
+          ],
+          [
+            "has"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "good"
+          ],
+          [
+            "reputation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/22.mp3",
+        "timeStart": 70.11,
+        "timeEnd": 73.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41662/list"
+      },
+      {
+        "id": 41663,
+        "position": 23,
+        "content": "Oh yes, I think I know the road.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "yes,",
+          "I",
+          "think",
+          "I",
+          "know",
+          "the",
+          "road."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "the"
+          ],
+          [
+            "road."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/23.mp3",
+        "timeStart": 73.61,
+        "timeEnd": 76.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41663/list"
+      },
+      {
+        "id": 41664,
+        "position": 24,
+        "content": "That would be the best one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "would",
+          "be",
+          "the",
+          "best",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/24.mp3",
+        "timeStart": 76.03,
+        "timeEnd": 78.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41664/list"
+      },
+      {
+        "id": 41665,
+        "position": 25,
+        "content": "Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/25.mp3",
+        "timeStart": 78.12,
+        "timeEnd": 79.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41665/list"
+      },
+      {
+        "id": 41666,
+        "position": 26,
+        "content": "Could you tell me, will all their services be free?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "tell",
+          "me,",
+          "will",
+          "all",
+          "their",
+          "services",
+          "be",
+          "free?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "will"
+          ],
+          [
+            "all"
+          ],
+          [
+            "their"
+          ],
+          [
+            "services"
+          ],
+          [
+            "be"
+          ],
+          [
+            "free?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/26.mp3",
+        "timeStart": 79.36,
+        "timeEnd": 82.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41666/list"
+      },
+      {
+        "id": 41667,
+        "position": 27,
+        "content": "Erm... there are usually some small charges that doctors make.",
+        "defaultInput": "Erm... ",
+        "jsonContent": [
+          "Erm...",
+          "there",
+          "are",
+          "usually",
+          "some",
+          "small",
+          "charges",
+          "that",
+          "doctors",
+          "make."
+        ],
+        "solution": [
+          [
+            "Erm..."
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "some"
+          ],
+          [
+            "small"
+          ],
+          [
+            "charges"
+          ],
+          [
+            "that"
+          ],
+          [
+            "doctors"
+          ],
+          [
+            "make."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/27.mp3",
+        "timeStart": 82.8,
+        "timeEnd": 87.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41667/list"
+      },
+      {
+        "id": 41668,
+        "position": 28,
+        "content": "Let me see what it says about the Shore Lane Centre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let",
+          "me",
+          "see",
+          "what",
+          "it",
+          "says",
+          "about",
+          "the",
+          "Shore",
+          "Lane",
+          [
+            "Centre.",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "Let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "it"
+          ],
+          [
+            "says"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Shore"
+          ],
+          [
+            "Lane"
+          ],
+          [
+            "Centre.",
+            "center"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/28.mp3",
+        "timeStart": 87.64,
+        "timeEnd": 91.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41668/list"
+      },
+      {
+        "id": 41669,
+        "position": 29,
+        "content": "If you need to be vaccinated before any trips abroad, you won't have to pay for this.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "need",
+          "to",
+          "be",
+          "vaccinated",
+          "before",
+          "any",
+          "trips",
+          "abroad,",
+          "you",
+          "won't",
+          "have",
+          "to",
+          "pay",
+          "for",
+          "this."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "vaccinated"
+          ],
+          [
+            "before"
+          ],
+          [
+            "any"
+          ],
+          [
+            "trips"
+          ],
+          [
+            "abroad,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pay"
+          ],
+          [
+            "for"
+          ],
+          [
+            "this."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/29.mp3",
+        "timeStart": 91.35,
+        "timeEnd": 96.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41669/list"
+      },
+      {
+        "id": 41670,
+        "position": 30,
+        "content": "Erm, what else?",
+        "defaultInput": "Erm, ",
+        "jsonContent": [
+          "Erm,",
+          "what",
+          "else?"
+        ],
+        "solution": [
+          [
+            "Erm,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "else?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/30.mp3",
+        "timeStart": 96.51,
+        "timeEnd": 98.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41670/list"
+      },
+      {
+        "id": 41671,
+        "position": 31,
+        "content": "The sports injury treatment service operates on a paying basis,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "sports",
+          "injury",
+          "treatment",
+          "service",
+          "operates",
+          "on",
+          "a",
+          "paying",
+          "basis,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "injury"
+          ],
+          [
+            "treatment"
+          ],
+          [
+            "service"
+          ],
+          [
+            "operates"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "paying"
+          ],
+          [
+            "basis,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/31.mp3",
+        "timeStart": 98.75,
+        "timeEnd": 102.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41671/list"
+      },
+      {
+        "id": 41672,
+        "position": 32,
+        "content": "as does the nutritional therapy service.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "does",
+          "the",
+          "nutritional",
+          "therapy",
+          "service."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "does"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nutritional"
+          ],
+          [
+            "therapy"
+          ],
+          [
+            "service."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/32.mp3",
+        "timeStart": 102.89,
+        "timeEnd": 106.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41672/list"
+      },
+      {
+        "id": 41673,
+        "position": 33,
+        "content": "Some health centres do offer alternative therapies like homeopathy as part of their pay-to-use service.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "health",
+          [
+            "centres",
+            "centers"
+          ],
+          "do",
+          "offer",
+          "alternative",
+          "therapies",
+          "like",
+          "homeopathy",
+          "as",
+          "part",
+          "of",
+          "their",
+          [
+            "pay-to-use",
+            "pay to use"
+          ],
+          "service."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "health"
+          ],
+          [
+            "centres",
+            "centers"
+          ],
+          [
+            "do"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "alternative"
+          ],
+          [
+            "therapies"
+          ],
+          [
+            "like"
+          ],
+          [
+            "homeopathy"
+          ],
+          [
+            "as"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "pay-to-use",
+            "pay to use"
+          ],
+          [
+            "service."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/33.mp3",
+        "timeStart": 106.31,
+        "timeEnd": 112.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41673/list"
+      },
+      {
+        "id": 41674,
+        "position": 34,
+        "content": "Shore Lane are hoping to do this soon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Shore",
+          "Lane",
+          "are",
+          "hoping",
+          "to",
+          "do",
+          "this",
+          "soon."
+        ],
+        "solution": [
+          [
+            "Shore"
+          ],
+          [
+            "Lane"
+          ],
+          [
+            "are"
+          ],
+          [
+            "hoping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "this"
+          ],
+          [
+            "soon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/34.mp3",
+        "timeStart": 112.73,
+        "timeEnd": 114.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41674/list"
+      },
+      {
+        "id": 41675,
+        "position": 35,
+        "content": "I think they may start with acupuncture.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "they",
+          "may",
+          "start",
+          "with",
+          "acupuncture."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "they"
+          ],
+          [
+            "may"
+          ],
+          [
+            "start"
+          ],
+          [
+            "with"
+          ],
+          [
+            "acupuncture."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/35.mp3",
+        "timeStart": 114.91,
+        "timeEnd": 118.08,
+        "hints": [
+          "acupuncture"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41675/list"
+      },
+      {
+        "id": 41676,
+        "position": 36,
+        "content": "And finally, if you need to prove you're healthy",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "finally,",
+          "if",
+          "you",
+          "need",
+          "to",
+          "prove",
+          [
+            "you're",
+            "you are"
+          ],
+          "healthy"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "finally,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "prove"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "healthy"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/36.mp3",
+        "timeStart": 118.08,
+        "timeEnd": 121.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41676/list"
+      },
+      {
+        "id": 41677,
+        "position": 37,
+        "content": "or haven't had any serious injuries before a new employer will accept you,",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          [
+            "haven't",
+            "have not"
+          ],
+          "had",
+          "any",
+          "serious",
+          "injuries",
+          "before",
+          "a",
+          "new",
+          "employer",
+          "will",
+          "accept",
+          "you,"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "had"
+          ],
+          [
+            "any"
+          ],
+          [
+            "serious"
+          ],
+          [
+            "injuries"
+          ],
+          [
+            "before"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "employer"
+          ],
+          [
+            "will"
+          ],
+          [
+            "accept"
+          ],
+          [
+            "you,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/37.mp3",
+        "timeStart": 121.67,
+        "timeEnd": 126.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41677/list"
+      },
+      {
+        "id": 41678,
+        "position": 38,
+        "content": "you can get a free fitness check-up there,",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "can",
+          "get",
+          "a",
+          "free",
+          "fitness",
+          [
+            "check-up",
+            "check up"
+          ],
+          "there,"
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "free"
+          ],
+          [
+            "fitness"
+          ],
+          [
+            "check-up",
+            "check up"
+          ],
+          [
+            "there,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/38.mp3",
+        "timeStart": 126.04,
+        "timeEnd": 128.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41678/list"
+      },
+      {
+        "id": 41679,
+        "position": 39,
+        "content": "but you'd most likely have to pay for insurance medicals though.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "you'd",
+          "most",
+          "likely",
+          "have",
+          "to",
+          "pay",
+          "for",
+          "insurance",
+          "medicals",
+          "though."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "most"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pay"
+          ],
+          [
+            "for"
+          ],
+          [
+            "insurance"
+          ],
+          [
+            "medicals"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/39.mp3",
+        "timeStart": 128.81,
+        "timeEnd": 132.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41679/list"
+      },
+      {
+        "id": 41680,
+        "position": 40,
+        "content": "Okay, thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "thanks."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/40.mp3",
+        "timeStart": 132.17,
+        "timeEnd": 133.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41680/list"
+      },
+      {
+        "id": 41681,
+        "position": 41,
+        "content": "You might also be interested to know the Centre is running a pilot scheme of talks for patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "might",
+          "also",
+          "be",
+          "interested",
+          "to",
+          "know",
+          "the",
+          [
+            "Centre",
+            "center"
+          ],
+          "is",
+          "running",
+          "a",
+          "pilot",
+          "scheme",
+          "of",
+          "talks",
+          "for",
+          "patients."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "might"
+          ],
+          [
+            "also"
+          ],
+          [
+            "be"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Centre",
+            "center"
+          ],
+          [
+            "is"
+          ],
+          [
+            "running"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pilot"
+          ],
+          [
+            "scheme"
+          ],
+          [
+            "of"
+          ],
+          [
+            "talks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/41.mp3",
+        "timeStart": 134.45,
+        "timeEnd": 140.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41681/list"
+      },
+      {
+        "id": 41682,
+        "position": 42,
+        "content": "I've got the list here.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          "the",
+          "list",
+          "here."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "the"
+          ],
+          [
+            "list"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/42.mp3",
+        "timeStart": 140.36,
+        "timeEnd": 141.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41682/list"
+      },
+      {
+        "id": 41683,
+        "position": 43,
+        "content": "Actually, they look very interesting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually,",
+          "they",
+          "look",
+          "very",
+          "interesting."
+        ],
+        "solution": [
+          [
+            "Actually,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "look"
+          ],
+          [
+            "very"
+          ],
+          [
+            "interesting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/43.mp3",
+        "timeStart": 141.95,
+        "timeEnd": 143.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41683/list"
+      },
+      {
+        "id": 41684,
+        "position": 44,
+        "content": "What sort of things?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "sort",
+          "of",
+          "things?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "things?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/44.mp3",
+        "timeStart": 143.87,
+        "timeEnd": 145.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41684/list"
+      },
+      {
+        "id": 41685,
+        "position": 45,
+        "content": "Well, the first one's about giving up smoking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "one's",
+          "about",
+          "giving",
+          "up",
+          "smoking."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "one's"
+          ],
+          [
+            "about"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "up"
+          ],
+          [
+            "smoking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/45.mp3",
+        "timeStart": 145.76,
+        "timeEnd": 148.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41685/list"
+      },
+      {
+        "id": 41686,
+        "position": 46,
+        "content": "It's next week, the twenty-fifth of February, at 7 pm,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "next",
+          "week,",
+          "the",
+          [
+            "twenty-fifth",
+            "25th"
+          ],
+          "of",
+          "February,",
+          "at",
+          [
+            "7",
+            "seven"
+          ],
+          "pm,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "twenty-fifth",
+            "25th"
+          ],
+          [
+            "of"
+          ],
+          [
+            "February,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "7",
+            "seven"
+          ],
+          [
+            "pm,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/46.mp3",
+        "timeStart": 148.39,
+        "timeEnd": 152.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41686/list"
+      },
+      {
+        "id": 41687,
+        "position": 47,
+        "content": "and that's in Room 4.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "that's",
+            "that is"
+          ],
+          "in",
+          "Room",
+          [
+            "4.",
+            "four"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Room"
+          ],
+          [
+            "4.",
+            "four"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/47.mp3",
+        "timeStart": 152.91,
+        "timeEnd": 155.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41687/list"
+      },
+      {
+        "id": 41688,
+        "position": 48,
+        "content": "It says, the talk will stress the health benefits, particularly for people with asthma or heart disease.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "says,",
+          "the",
+          "talk",
+          "will",
+          "stress",
+          "the",
+          "health",
+          "benefits,",
+          "particularly",
+          "for",
+          "people",
+          "with",
+          "asthma",
+          "or",
+          "heart",
+          "disease."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "says,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "will"
+          ],
+          [
+            "stress"
+          ],
+          [
+            "the"
+          ],
+          [
+            "health"
+          ],
+          [
+            "benefits,"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "for"
+          ],
+          [
+            "people"
+          ],
+          [
+            "with"
+          ],
+          [
+            "asthma"
+          ],
+          [
+            "or"
+          ],
+          [
+            "heart"
+          ],
+          [
+            "disease."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/48.mp3",
+        "timeStart": 155.37,
+        "timeEnd": 161.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41688/list"
+      },
+      {
+        "id": 41689,
+        "position": 49,
+        "content": "That sounds very interesting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "sounds",
+          "very",
+          "interesting."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "very"
+          ],
+          [
+            "interesting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/49.mp3",
+        "timeStart": 161.59,
+        "timeEnd": 163.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41689/list"
+      },
+      {
+        "id": 41690,
+        "position": 50,
+        "content": "There's also a talk for families with children.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "also",
+          "a",
+          "talk",
+          "for",
+          "families",
+          "with",
+          "children."
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "also"
+          ],
+          [
+            "a"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "for"
+          ],
+          [
+            "families"
+          ],
+          [
+            "with"
+          ],
+          [
+            "children."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/50.mp3",
+        "timeStart": 163.43,
+        "timeEnd": 166.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41690/list"
+      },
+      {
+        "id": 41691,
+        "position": 51,
+        "content": "It's on Healthy Eating, and takes place on the first of March at five o'clock.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "on",
+          "Healthy",
+          "Eating,",
+          "and",
+          "takes",
+          "place",
+          "on",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "of",
+          "March",
+          "at",
+          [
+            "five",
+            "5"
+          ],
+          "o'clock."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Healthy"
+          ],
+          [
+            "Eating,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "place"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "March"
+          ],
+          [
+            "at"
+          ],
+          [
+            "five",
+            "5"
+          ],
+          [
+            "o'clock."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/51.mp3",
+        "timeStart": 166.15,
+        "timeEnd": 171.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41691/list"
+      },
+      {
+        "id": 41692,
+        "position": 52,
+        "content": "Will that be at the Health Centre?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Will",
+          "that",
+          "be",
+          "at",
+          "the",
+          "Health",
+          [
+            "Centre?",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "Will"
+          ],
+          [
+            "that"
+          ],
+          [
+            "be"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Health"
+          ],
+          [
+            "Centre?",
+            "center"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/52.mp3",
+        "timeStart": 171.77,
+        "timeEnd": 173.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41692/list"
+      },
+      {
+        "id": 41693,
+        "position": 53,
+        "content": "Erm, actually it's at the primary school on Shore Lane.",
+        "defaultInput": "Erm, ",
+        "jsonContent": [
+          "Erm,",
+          "actually",
+          "it's",
+          "at",
+          "the",
+          "primary",
+          "school",
+          "on",
+          "Shore",
+          "Lane."
+        ],
+        "solution": [
+          [
+            "Erm,"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "primary"
+          ],
+          [
+            "school"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Shore"
+          ],
+          [
+            "Lane."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/53.mp3",
+        "timeStart": 173.49,
+        "timeEnd": 178,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41693/list"
+      },
+      {
+        "id": 41694,
+        "position": 54,
+        "content": "I imagine they're inviting the parents of pupils there - it says here 'all welcome'.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "imagine",
+          [
+            "they're",
+            "they are"
+          ],
+          "inviting",
+          "the",
+          "parents",
+          "of",
+          "pupils",
+          "there",
+          "-",
+          "it",
+          "says",
+          "here",
+          "'all",
+          "welcome'."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "imagine"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "inviting"
+          ],
+          [
+            "the"
+          ],
+          [
+            "parents"
+          ],
+          [
+            "of"
+          ],
+          [
+            "pupils"
+          ],
+          [
+            "there"
+          ],
+          [
+            "-"
+          ],
+          [
+            "it"
+          ],
+          [
+            "says"
+          ],
+          [
+            "here"
+          ],
+          [
+            "'all"
+          ],
+          [
+            "welcome'."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/54.mp3",
+        "timeStart": 178,
+        "timeEnd": 182.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41694/list"
+      },
+      {
+        "id": 41695,
+        "position": 55,
+        "content": "I might go to that if I have time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "might",
+          "go",
+          "to",
+          "that",
+          "if",
+          [
+            "I have",
+            "I've"
+          ],
+          "time."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "might"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "that"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/55.mp3",
+        "timeStart": 182.97,
+        "timeEnd": 184.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41695/list"
+      },
+      {
+        "id": 41696,
+        "position": 56,
+        "content": "There's a couple of other talks -",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "a",
+          "couple",
+          "of",
+          "other",
+          "talks",
+          "-"
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "other"
+          ],
+          [
+            "talks"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/56.mp3",
+        "timeStart": 184.93,
+        "timeEnd": 187.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41696/list"
+      },
+      {
+        "id": 41697,
+        "position": 57,
+        "content": "one giving advice about how to avoid injuries while doing exercise.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "one",
+            "1"
+          ],
+          "giving",
+          "advice",
+          "about",
+          "how",
+          "to",
+          "avoid",
+          "injuries",
+          "while",
+          "doing",
+          "exercise."
+        ],
+        "solution": [
+          [
+            "one",
+            "1"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "advice"
+          ],
+          [
+            "about"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "avoid"
+          ],
+          [
+            "injuries"
+          ],
+          [
+            "while"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "exercise."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/57.mp3",
+        "timeStart": 187.04,
+        "timeEnd": 191.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41697/list"
+      },
+      {
+        "id": 41698,
+        "position": 58,
+        "content": "It's on the ninth of March.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "on",
+          "the",
+          [
+            "ninth",
+            "9th"
+          ],
+          "of",
+          "March."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ninth",
+            "9th"
+          ],
+          [
+            "of"
+          ],
+          [
+            "March."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/58.mp3",
+        "timeStart": 191.92,
+        "timeEnd": 194.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41698/list"
+      },
+      {
+        "id": 41699,
+        "position": 59,
+        "content": "Oh, it's a late afternoon talk, at 4:30",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "it's",
+          "a",
+          "late",
+          "afternoon",
+          "talk,",
+          "at",
+          "4:30"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "late"
+          ],
+          [
+            "afternoon"
+          ],
+          [
+            "talk,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "4:30"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/59.mp3",
+        "timeStart": 194.15,
+        "timeEnd": 198.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41699/list"
+      },
+      {
+        "id": 41700,
+        "position": 60,
+        "content": "and it'll be in Room 6.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "it'll",
+            "it will"
+          ],
+          "be",
+          "in",
+          "Room",
+          [
+            "6.",
+            "six"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it'll",
+            "it will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Room"
+          ],
+          [
+            "6.",
+            "six"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/60.mp3",
+        "timeStart": 198.17,
+        "timeEnd": 200.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41700/list"
+      },
+      {
+        "id": 41701,
+        "position": 61,
+        "content": "It also says the talk is suitable for all ages.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "also",
+          "says",
+          "the",
+          "talk",
+          "is",
+          "suitable",
+          "for",
+          "all",
+          "ages."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "also"
+          ],
+          [
+            "says"
+          ],
+          [
+            "the"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "is"
+          ],
+          [
+            "suitable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "ages."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/61.mp3",
+        "timeStart": 200.29,
+        "timeEnd": 203.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41701/list"
+      },
+      {
+        "id": 41702,
+        "position": 62,
+        "content": "And finally, there's a talk called 'Stress Management'...",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "finally,",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "talk",
+          "called",
+          "'Stress",
+          "Management'..."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "finally,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "called"
+          ],
+          [
+            "'Stress"
+          ],
+          [
+            "Management'..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-4-part-1-2023-07-24-14-48-55/62.mp3",
+        "timeStart": 204.28,
+        "timeEnd": 209.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41702/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "41653": {
+      "id": 727277,
+      "text": "Và Tiến sĩ Fuller có sẵn thời gian để chấp nhận hoặc xử lý thêm bệnh nhân",
+      "author": "a user"
+    },
+    "41659": {
+      "id": 727293,
+      "text": "Địa điểm còn lại duy nhất trong danh sách là Trung tâm Y tế trên Shore Lane.",
+      "author": "a user"
+    },
+    "41662": {
+      "id": 727305,
+      "text": "Anh ấy mới làm ở đó, nhưng trung tâm có danh tiếng rất tốt.",
+      "author": "a user"
+    },
+    "41663": {
+      "id": 727306,
+      "text": "Ồ vâng, tôi nghĩ la tôi biết đường đến chỗ đó.\n",
+      "author": "a user"
+    },
+    "41664": {
+      "id": 727307,
+      "text": "Đó sẽ là nơi tốt nhất.",
+      "author": "a user"
+    },
+    "41670": {
+      "id": 727314,
+      "text": "Ừm, còn gì nữa nhỉ?",
+      "author": "a user"
+    },
+    "41683": {
+      "id": 732574,
+      "text": "Trên thực tế, chúng trông rất thú vị.",
+      "author": "a user"
+    },
+    "41689": {
+      "id": 732580,
+      "text": "Điều đó nghe có vẻ rất thú vị.",
+      "author": "a user"
+    },
+    "41692": {
+      "id": 732583,
+      "text": "Địa điểm tổ chức sẽ là ở Trung tâm Y tế phải không?",
+      "author": "a user"
+    },
+    "41693": {
+      "id": 732584,
+      "text": "Erm, thực ra nó được tổ chức tại trường tiểu học trên Shore Lane.",
+      "author": "a user"
+    },
+    "41647": {
+      "id": 828068,
+      "text": "Ồ... thực ra đứa con út của tôi tận 5 tuổi, nên điều đó sẽ không tốt cho chúng tôi chút nào.",
+      "author": "a user"
+    },
+    "41657": {
+      "id": 828069,
+      "text": "vì họ cũng sắp lịch khám vào buổi tối.",
+      "author": "a user"
+    },
+    "41641": {
+      "id": 2600069,
+      "text": "Tôi có thể giúp gì cho bạn?",
+      "author": "ChatGPT4.1"
+    },
+    "41642": {
+      "id": 2600070,
+      "text": "Vâng, tôi vừa chuyển đến khu vực này cùng vợ và các con của tôi",
+      "author": "ChatGPT4.1"
+    },
+    "41643": {
+      "id": 2600071,
+      "text": "và tôi muốn biết ở đâu chúng tôi có thể đăng ký khám bác sĩ ở Trung tâm Y tế.",
+      "author": "ChatGPT4.1"
+    },
+    "41644": {
+      "id": 2600072,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "41645": {
+      "id": 2600073,
+      "text": "Vâng, có bác sĩ Green tại Phòng khám Harvey.",
+      "author": "ChatGPT4.1"
+    },
+    "41646": {
+      "id": 2600074,
+      "text": "Chúng tôi luôn giới thiệu bà ấy cho những em bé vì bà ấy rất giỏi với trẻ em và điều hành một phòng khám đặc biệt.",
+      "author": "a user"
+    },
+    "41648": {
+      "id": 2600075,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "41649": {
+      "id": 2600076,
+      "text": "Có nơi nào khác tôi có thể thử không?",
+      "author": "ChatGPT4.1"
+    },
+    "41650": {
+      "id": 2600077,
+      "text": "Vâng, Phòng khám Sức khỏe Eshcol là chỗ tiếp theo trong danh sách của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "41651": {
+      "id": 2600078,
+      "text": "Bạn đánh vần nó như thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "41652": {
+      "id": 2600079,
+      "text": "E-S-H-C-O-L.",
+      "author": "ChatGPT4.1"
+    },
+    "41654": {
+      "id": 2600080,
+      "text": "Phòng khám chỉ mới mở cách đây một năm nên cơ sở vật chất đều rất hiện đại.",
+      "author": "ChatGPT4.1"
+    },
+    "41655": {
+      "id": 2600081,
+      "text": "Nghe có vẻ tốt đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "41656": {
+      "id": 2600082,
+      "text": "Và nó đặc biệt phù hợp nếu bạn bận vào ban ngày,",
+      "author": "ChatGPT4.1"
+    },
+    "41658": {
+      "id": 2600083,
+      "text": "Nhưng họ đóng cửa vào thứ Bảy.",
+      "author": "ChatGPT4.1"
+    },
+    "41660": {
+      "id": 2600084,
+      "text": "Bạn có thể đăng ký với bác sĩ Gormley,",
+      "author": "ChatGPT4.1"
+    },
+    "41661": {
+      "id": 2600085,
+      "text": "đánh vần là G-O-R-M-L-E-Y.",
+      "author": "ChatGPT4.1"
+    },
+    "41665": {
+      "id": 2600086,
+      "text": "Cảm ơn.",
+      "author": "ChatGPT4.1"
+    },
+    "41666": {
+      "id": 2600087,
+      "text": "Bạn có thể cho tôi biết tất cả các dịch vụ ở đó có miễn phí không?",
+      "author": "ChatGPT4.1"
+    },
+    "41667": {
+      "id": 2600088,
+      "text": "Ờm... thường thì bác sĩ có tính một số khoản phí nhỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "41668": {
+      "id": 2600089,
+      "text": "Để tôi xem thông tin về Trung tâm Shore Lane.",
+      "author": "ChatGPT4.1"
+    },
+    "41669": {
+      "id": 2600090,
+      "text": "Nếu bạn cần tiêm chủng trước khi đi nước ngoài, bạn sẽ không phải trả phí cho dịch vụ này.",
+      "author": "ChatGPT4.1"
+    },
+    "41671": {
+      "id": 2600318,
+      "text": "Dịch vụ điều trị chấn thương thể thao là dịch vụ tính phí,",
+      "author": "ChatGPT4.1"
+    },
+    "41672": {
+      "id": 2600319,
+      "text": "dịch vụ tư vấn dinh dưỡng cũng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "41673": {
+      "id": 2600320,
+      "text": "Một số trung tâm y tế cũng cung cấp các phương pháp điều trị thay thế như vi lượng đồng căn trong dịch vụ tính phí của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "41674": {
+      "id": 2600321,
+      "text": "Trung tâm Shore Lane hy vọng sẽ triển khai điều này sớm.",
+      "author": "ChatGPT4.1"
+    },
+    "41675": {
+      "id": 2600322,
+      "text": "Tôi nghĩ họ có thể bắt đầu với châm cứu.",
+      "author": "ChatGPT4.1"
+    },
+    "41676": {
+      "id": 2600323,
+      "text": "Và cuối cùng, nếu bạn cần chứng minh mình khỏe mạnh",
+      "author": "ChatGPT4.1"
+    },
+    "41677": {
+      "id": 2600324,
+      "text": "hoặc chưa từng gặp chấn thương nghiêm trọng trước khi nhà tuyển dụng mới nhận bạn,",
+      "author": "ChatGPT4.1"
+    },
+    "41678": {
+      "id": 2600325,
+      "text": "bạn có thể kiểm tra sức khỏe miễn phí tại đó,",
+      "author": "ChatGPT4.1"
+    },
+    "41679": {
+      "id": 2600326,
+      "text": "nhưng có lẽ bạn sẽ phải trả phí cho khám sức khỏe bảo hiểm.",
+      "author": "ChatGPT4.1"
+    },
+    "41680": {
+      "id": 2600327,
+      "text": "Được rồi, cảm ơn.",
+      "author": "ChatGPT4.1"
+    },
+    "41681": {
+      "id": 2600328,
+      "text": "Bạn cũng có thể muốn biết trung tâm đang thử nghiệm chương trình nói chuyện chuyên đề dành cho bệnh nhân.",
+      "author": "ChatGPT4.1"
+    },
+    "41682": {
+      "id": 2600329,
+      "text": "Tôi có danh sách ở đây.",
+      "author": "ChatGPT4.1"
+    },
+    "41684": {
+      "id": 2600330,
+      "text": "Những vấn đề gì vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "41685": {
+      "id": 2600331,
+      "text": "À, chủ đề đầu tiên là về việc bỏ thuốc lá.",
+      "author": "ChatGPT4.1"
+    },
+    "41686": {
+      "id": 2649047,
+      "text": "Nó diễn ra vào tuần tới, ngày hai mươi lăm tháng hai, lúc 7 giờ tối,",
+      "author": "ChatGPT4.1"
+    },
+    "41687": {
+      "id": 2649048,
+      "text": "và sẽ được tổ chức ở Phòng 4.",
+      "author": "ChatGPT4.1"
+    },
+    "41688": {
+      "id": 2649049,
+      "text": "Theo thông tin, buổi nói chuyện sẽ nhấn mạnh lợi ích sức khỏe, đặc biệt đối với người bị hen suyễn hoặc bệnh tim.",
+      "author": "ChatGPT4.1"
+    },
+    "41690": {
+      "id": 2649050,
+      "text": "Cũng có một buổi nói chuyện dành cho các gia đình có trẻ nhỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "41691": {
+      "id": 2649051,
+      "text": "Chủ đề là Ăn uống lành mạnh, diễn ra vào ngày một tháng ba lúc năm giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "41694": {
+      "id": 2649052,
+      "text": "Tôi nghĩ họ đang mời phụ huynh học sinh ở đó – ở đây ghi là 'mọi người đều được chào đón'.",
+      "author": "ChatGPT4.1"
+    },
+    "41695": {
+      "id": 2649053,
+      "text": "Nếu có thời gian tôi có thể sẽ đi.",
+      "author": "ChatGPT4.1"
+    },
+    "41696": {
+      "id": 2649054,
+      "text": "Còn có một vài buổi nói chuyện nữa -",
+      "author": "ChatGPT4.1"
+    },
+    "41697": {
+      "id": 2649055,
+      "text": "một buổi sẽ đưa ra lời khuyên về cách tránh chấn thương khi tập luyện thể dục.",
+      "author": "ChatGPT4.1"
+    },
+    "41698": {
+      "id": 2649056,
+      "text": "Buổi đó diễn ra vào ngày chín tháng ba.",
+      "author": "ChatGPT4.1"
+    },
+    "41699": {
+      "id": 2649057,
+      "text": "Ồ, đó là buổi nói chuyện vào cuối giờ chiều, lúc 4:30",
+      "author": "ChatGPT4.1"
+    },
+    "41700": {
+      "id": 2649058,
+      "text": "và sẽ được tổ chức ở Phòng 6.",
+      "author": "ChatGPT4.1"
+    },
+    "41701": {
+      "id": 2649200,
+      "text": "Ngoài ra, buổi nói chuyện phù hợp cho mọi lứa tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "41702": {
+      "id": 2649201,
+      "text": "Và cuối cùng, có một buổi nói chuyện mang tên 'Quản lý Căng thẳng'...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

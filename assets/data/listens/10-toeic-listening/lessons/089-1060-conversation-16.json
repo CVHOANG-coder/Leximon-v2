@@ -1,0 +1,684 @@
+{
+  "summary": {
+    "id": 1060,
+    "name": "Conversation 16",
+    "subTitle": "Office Expansion Progress",
+    "levelName": "B1",
+    "position": 89,
+    "totalChallenges": 13,
+    "groupId": 32,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1060",
+  "detail": {
+    "id": 1060,
+    "lessonName": "Conversation 16",
+    "name": "Conversation 16",
+    "position": 89,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/0-conversation-16.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 52838,
+        "position": 1,
+        "content": "Have you two taken a look at the progress they've made upstairs on the office expansion?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "you",
+          [
+            "two",
+            "2"
+          ],
+          "taken",
+          "a",
+          "look",
+          "at",
+          "the",
+          "progress",
+          [
+            "they've",
+            "they have"
+          ],
+          "made",
+          "upstairs",
+          "on",
+          "the",
+          "office",
+          "expansion?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "taken"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "progress"
+          ],
+          [
+            "they've",
+            "they have"
+          ],
+          [
+            "made"
+          ],
+          [
+            "upstairs"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office"
+          ],
+          [
+            "expansion?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/1.mp3",
+        "timeStart": 0.22,
+        "timeEnd": 4.83,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/52838/list"
+      },
+      {
+        "id": 52839,
+        "position": 2,
+        "content": "It looks great!",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "looks",
+          "great!"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "great!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/2.mp3",
+        "timeStart": 4.83,
+        "timeEnd": 6.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52839/list"
+      },
+      {
+        "id": 52840,
+        "position": 3,
+        "content": "I know!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/3.mp3",
+        "timeStart": 6.16,
+        "timeEnd": 7.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52840/list"
+      },
+      {
+        "id": 52841,
+        "position": 4,
+        "content": "I can't believe it!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "believe",
+          "it!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "it!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/4.mp3",
+        "timeStart": 7.28,
+        "timeEnd": 8.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52841/list"
+      },
+      {
+        "id": 52842,
+        "position": 5,
+        "content": "And the offices up there have amazing views of the city.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "offices",
+          "up",
+          "there",
+          "have",
+          "amazing",
+          "views",
+          "of",
+          "the",
+          "city."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "offices"
+          ],
+          [
+            "up"
+          ],
+          [
+            "there"
+          ],
+          [
+            "have"
+          ],
+          [
+            "amazing"
+          ],
+          [
+            "views"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/5.mp3",
+        "timeStart": 8.59,
+        "timeEnd": 12.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52842/list"
+      },
+      {
+        "id": 52843,
+        "position": 6,
+        "content": "I wonder which division will move up there when it's finished.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wonder",
+          "which",
+          "division",
+          "will",
+          "move",
+          "up",
+          "there",
+          "when",
+          "it's",
+          "finished."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wonder"
+          ],
+          [
+            "which"
+          ],
+          [
+            "division"
+          ],
+          [
+            "will"
+          ],
+          [
+            "move"
+          ],
+          [
+            "up"
+          ],
+          [
+            "there"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "finished."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/6.mp3",
+        "timeStart": 12.32,
+        "timeEnd": 15.52,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52843/list"
+      },
+      {
+        "id": 52844,
+        "position": 7,
+        "content": "I heard it's the research department.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "heard",
+          "it's",
+          "the",
+          "research",
+          "department."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "research"
+          ],
+          [
+            "department."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/7.mp3",
+        "timeStart": 15.52,
+        "timeEnd": 18.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52844/list"
+      },
+      {
+        "id": 52845,
+        "position": 8,
+        "content": "Ah, because they have the most people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Ah,",
+          "because",
+          [
+            "they have",
+            "they've"
+          ],
+          "the",
+          "most",
+          "people."
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "because"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/8.mp3",
+        "timeStart": 18.15,
+        "timeEnd": 20.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52845/list"
+      },
+      {
+        "id": 52846,
+        "position": 9,
+        "content": "Probably.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Probably."
+        ],
+        "solution": [
+          [
+            "Probably."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/9.mp3",
+        "timeStart": 20.41,
+        "timeEnd": 21.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52846/list"
+      },
+      {
+        "id": 52847,
+        "position": 10,
+        "content": "I'd love to have an office on that floor, though.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "love",
+          "to",
+          "have",
+          "an",
+          "office",
+          "on",
+          "that",
+          "floor,",
+          "though."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "love"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "an"
+          ],
+          [
+            "office"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that"
+          ],
+          [
+            "floor,"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/10.mp3",
+        "timeStart": 21.51,
+        "timeEnd": 24.07,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/52847/list"
+      },
+      {
+        "id": 52848,
+        "position": 11,
+        "content": "Yeah.",
+        "defaultInput": "Yeah.",
+        "jsonContent": [
+          "Yeah."
+        ],
+        "solution": [
+          [
+            "Yeah."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/11.mp3",
+        "timeStart": 24.07,
+        "timeEnd": 24.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52848/list"
+      },
+      {
+        "id": 52849,
+        "position": 12,
+        "content": "Well, the company must be making good money if they're adding that space!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          [
+            "company",
+            "Co"
+          ],
+          "must",
+          "be",
+          "making",
+          "good",
+          "money",
+          "if",
+          [
+            "they're",
+            "they are"
+          ],
+          "adding",
+          "that",
+          "space!"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "making"
+          ],
+          [
+            "good"
+          ],
+          [
+            "money"
+          ],
+          [
+            "if"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "adding"
+          ],
+          [
+            "that"
+          ],
+          [
+            "space!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/12.mp3",
+        "timeStart": 24.98,
+        "timeEnd": 28.58,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52849/list"
+      },
+      {
+        "id": 52850,
+        "position": 13,
+        "content": "I think you're right, there!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "you're",
+            "you are"
+          ],
+          "right,",
+          "there!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "there!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-16-2023-09-11-16-38-09/13.mp3",
+        "timeStart": 28.58,
+        "timeEnd": 30.11,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52850/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "52839": {
+      "id": 876196,
+      "text": "Nó trông tuyệt!",
+      "author": "a user"
+    },
+    "52843": {
+      "id": 876207,
+      "text": "Tôi tự hỏi bộ phận nào sẽ chuyển lên đó khi nó hoàn tất.",
+      "author": "a user"
+    },
+    "52838": {
+      "id": 2598214,
+      "text": "Hai bạn đã xem qua tiến độ thi công mở rộng văn phòng ở trên lầu chưa?",
+      "author": "a user"
+    },
+    "52840": {
+      "id": 2598215,
+      "text": "Tôi biết mà!",
+      "author": "ChatGPT4.1"
+    },
+    "52841": {
+      "id": 2598216,
+      "text": "Tôi không thể tin được!",
+      "author": "ChatGPT4.1"
+    },
+    "52842": {
+      "id": 2598217,
+      "text": "Và các văn phòng ở trên đó có tầm nhìn tuyệt đẹp ra thành phố.",
+      "author": "ChatGPT4.1"
+    },
+    "52844": {
+      "id": 2598218,
+      "text": "Tôi nghe nói là phòng nghiên cứu.",
+      "author": "ChatGPT4.1"
+    },
+    "52845": {
+      "id": 2598219,
+      "text": "À, vì họ có nhiều người nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "52846": {
+      "id": 2598220,
+      "text": "Có lẽ vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "52847": {
+      "id": 2598221,
+      "text": "Tôi cũng muốn có một văn phòng ở tầng đó.",
+      "author": "ChatGPT4.1"
+    },
+    "52848": {
+      "id": 2598222,
+      "text": "Ừ.",
+      "author": "ChatGPT4.1"
+    },
+    "52849": {
+      "id": 2598223,
+      "text": "Ừ, công ty chắc hẳn đang ăn nên làm ra thì họ mới mở rộng thêm diện tích như vậy chứ!",
+      "author": "a user"
+    },
+    "52850": {
+      "id": 2598224,
+      "text": "Tôi nghĩ bạn nói đúng đấy!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

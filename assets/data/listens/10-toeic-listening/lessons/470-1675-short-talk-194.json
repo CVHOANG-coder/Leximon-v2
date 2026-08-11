@@ -1,0 +1,500 @@
+{
+  "summary": {
+    "id": 1675,
+    "name": "Short Talk 194",
+    "subTitle": "Flight 652 Announcement",
+    "levelName": "B1",
+    "position": 470,
+    "totalChallenges": 7,
+    "groupId": 50,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1675",
+  "detail": {
+    "id": 1675,
+    "lessonName": "Short Talk 194",
+    "name": "Short Talk 194",
+    "position": 470,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/0-short-talk-194.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68692,
+        "position": 1,
+        "content": "Good morning, and welcome aboard Flight 652 with service to Denver.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          "and",
+          "welcome",
+          "aboard",
+          "Flight",
+          "652",
+          "with",
+          "service",
+          "to",
+          "Denver."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "welcome"
+          ],
+          [
+            "aboard"
+          ],
+          [
+            "Flight"
+          ],
+          [
+            "652"
+          ],
+          [
+            "with"
+          ],
+          [
+            "service"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Denver."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 4.87,
+        "hints": [
+          "Denver"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68692/list"
+      },
+      {
+        "id": 68693,
+        "position": 2,
+        "content": "My name is Captain Riley, and I'll be your pilot for today's flight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "name",
+          "is",
+          "Captain",
+          "Riley,",
+          "and",
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "your",
+          "pilot",
+          "for",
+          "today's",
+          "flight."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Captain"
+          ],
+          [
+            "Riley,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "your"
+          ],
+          [
+            "pilot"
+          ],
+          [
+            "for"
+          ],
+          [
+            "today's"
+          ],
+          [
+            "flight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/2.mp3",
+        "timeStart": 4.87,
+        "timeEnd": 8.94,
+        "hints": [
+          "Captain Riley"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68693/list"
+      },
+      {
+        "id": 68694,
+        "position": 3,
+        "content": "We're expecting a smooth trip with clear skies,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "We are"
+          ],
+          "expecting",
+          "a",
+          "smooth",
+          "trip",
+          "with",
+          "clear",
+          "skies,"
+        ],
+        "solution": [
+          [
+            "We're",
+            "We are"
+          ],
+          [
+            "expecting"
+          ],
+          [
+            "a"
+          ],
+          [
+            "smooth"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "with"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "skies,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/3.mp3",
+        "timeStart": 8.94,
+        "timeEnd": 11.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68694/list"
+      },
+      {
+        "id": 68695,
+        "position": 4,
+        "content": "and our estimated arrival time is 3:15 pm local time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "our",
+          "estimated",
+          "arrival",
+          "time",
+          "is",
+          "3:15",
+          "pm",
+          "local",
+          "time."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "our"
+          ],
+          [
+            "estimated"
+          ],
+          [
+            "arrival"
+          ],
+          [
+            "time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "3:15"
+          ],
+          [
+            "pm"
+          ],
+          [
+            "local"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/4.mp3",
+        "timeStart": 11.83,
+        "timeEnd": 15.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68695/list"
+      },
+      {
+        "id": 68696,
+        "position": 5,
+        "content": "The weather in Denver is partly cloudy with a mild temperature of 68 degrees Fahrenheit.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "weather",
+          "in",
+          "Denver",
+          "is",
+          "partly",
+          "cloudy",
+          "with",
+          "a",
+          "mild",
+          "temperature",
+          "of",
+          "68",
+          "degrees",
+          "Fahrenheit."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "weather"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Denver"
+          ],
+          [
+            "is"
+          ],
+          [
+            "partly"
+          ],
+          [
+            "cloudy"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mild"
+          ],
+          [
+            "temperature"
+          ],
+          [
+            "of"
+          ],
+          [
+            "68"
+          ],
+          [
+            "degrees"
+          ],
+          [
+            "Fahrenheit."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/5.mp3",
+        "timeStart": 15.83,
+        "timeEnd": 21.29,
+        "hints": [
+          "Fahrenheit"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68696/list"
+      },
+      {
+        "id": 68697,
+        "position": 6,
+        "content": "Once we reach cruising altitude, the flight attendants will begin their service.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "we",
+          "reach",
+          "cruising",
+          "altitude,",
+          "the",
+          "flight",
+          "attendants",
+          "will",
+          "begin",
+          "their",
+          "service."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "we"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "cruising"
+          ],
+          [
+            "altitude,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "attendants"
+          ],
+          [
+            "will"
+          ],
+          [
+            "begin"
+          ],
+          [
+            "their"
+          ],
+          [
+            "service."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/6.mp3",
+        "timeStart": 21.41,
+        "timeEnd": 25.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68697/list"
+      },
+      {
+        "id": 68698,
+        "position": 7,
+        "content": "Please sit back, relax, and enjoy the flight!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "sit",
+          "back,",
+          "relax,",
+          "and",
+          "enjoy",
+          "the",
+          "flight!"
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "back,"
+          ],
+          [
+            "relax,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "enjoy"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flight!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-194-2024-10-08-13-04-11/7.mp3",
+        "timeStart": 25.81,
+        "timeEnd": 28.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68698/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68692": {
+      "id": 2659773,
+      "text": "Chào buổi sáng, và chào mừng quý khách lên chuyến bay 652 đi Denver.",
+      "author": "ChatGPT4.1"
+    },
+    "68693": {
+      "id": 2659774,
+      "text": "Tôi tên là Riley, cơ trưởng của quý khách cho chuyến bay hôm nay.",
+      "author": "ChatGPT4.1"
+    },
+    "68694": {
+      "id": 2659775,
+      "text": "Chúng tôi dự kiến chuyến bay sẽ êm ái với bầu trời trong xanh,",
+      "author": "ChatGPT4.1"
+    },
+    "68695": {
+      "id": 2659776,
+      "text": "và thời gian hạ cánh dự kiến là 3:15 chiều theo giờ địa phương.",
+      "author": "ChatGPT4.1"
+    },
+    "68696": {
+      "id": 2659777,
+      "text": "Thời tiết tại Denver hiện có mây nhẹ, nhiệt độ dễ chịu khoảng 68 độ F.",
+      "author": "ChatGPT4.1"
+    },
+    "68697": {
+      "id": 2659778,
+      "text": "Khi máy bay đạt độ cao hành trình, tiếp viên sẽ bắt đầu phục vụ.",
+      "author": "ChatGPT4.1"
+    },
+    "68698": {
+      "id": 2659779,
+      "text": "Xin mời quý khách ngồi lại, thư giãn và tận hưởng chuyến bay!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

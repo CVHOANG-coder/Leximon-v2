@@ -72,6 +72,25 @@ void main() {
       1.08,
     );
 
+    await tester.tap(find.text('Thử thách'));
+    await tester.pump(const Duration(milliseconds: 250));
+    expect(find.byKey(const ValueKey('challenge-screen')), findsOneWidget);
+    expect(find.text('Thử thách mỗi ngày'), findsOneWidget);
+
+    final listeningAction = tester.widget<InkWell>(
+      find.byKey(const ValueKey('listening-mode-card-action')),
+    );
+    listeningAction.onTap!();
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 300));
+    expect(
+      find.byKey(const ValueKey('listening-practice-screen')),
+      findsOneWidget,
+    );
+    await tester.tap(find.byTooltip('Quay lại'));
+    await tester.pump();
+    await tester.pump(const Duration(milliseconds: 300));
+
     await tester.tap(find.text('Học tập'));
     await tester.pump(const Duration(milliseconds: 250));
 

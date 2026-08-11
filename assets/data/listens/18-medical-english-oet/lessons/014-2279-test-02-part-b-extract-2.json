@@ -1,0 +1,722 @@
+{
+  "summary": {
+    "id": 2279,
+    "name": "Test 02 - Part B - Extract 2",
+    "subTitle": "MRI Scan Preparation",
+    "levelName": "B1",
+    "position": 14,
+    "totalChallenges": 11,
+    "groupId": 132,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2279",
+  "detail": {
+    "id": 2279,
+    "lessonName": "Test 02 - Part B - Extract 2",
+    "name": "Test 02 - Part B - Extract 2",
+    "position": 14,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/0-test-02-part-b-extract-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90095,
+        "position": 1,
+        "content": "Come in, come in... Mrs Brown, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Come",
+          "in,",
+          "come",
+          "in...",
+          "Mrs",
+          "Brown,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "Come"
+          ],
+          [
+            "in,"
+          ],
+          [
+            "come"
+          ],
+          [
+            "in..."
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Brown,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/1.mp3",
+        "timeStart": 0.45,
+        "timeEnd": 3.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90095/list"
+      },
+      {
+        "id": 90096,
+        "position": 2,
+        "content": "My name's Ted and I'm going to be doing your MRI scan today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "name's",
+            "name is"
+          ],
+          "Ted",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "doing",
+          "your",
+          "MRI",
+          "scan",
+          "today."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "name's",
+            "name is"
+          ],
+          [
+            "Ted"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "your"
+          ],
+          [
+            "MRI"
+          ],
+          [
+            "scan"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/2.mp3",
+        "timeStart": 3.05,
+        "timeEnd": 6.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90096/list"
+      },
+      {
+        "id": 90097,
+        "position": 3,
+        "content": "Now, can you get up on the table for me?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "can",
+          "you",
+          "get",
+          "up",
+          "on",
+          "the",
+          "table",
+          "for",
+          "me?"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "up"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "table"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/3.mp3",
+        "timeStart": 6.35,
+        "timeEnd": 9.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90097/list"
+      },
+      {
+        "id": 90098,
+        "position": 4,
+        "content": "You know, I'm really claustrophobic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "know,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "really",
+          "claustrophobic."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "really"
+          ],
+          [
+            "claustrophobic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/4.mp3",
+        "timeStart": 9.45,
+        "timeEnd": 12.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90098/list"
+      },
+      {
+        "id": 90099,
+        "position": 5,
+        "content": "Well, this is a new piece of equipment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "this",
+          "is",
+          "a",
+          "new",
+          "piece",
+          "of",
+          "equipment."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "piece"
+          ],
+          [
+            "of"
+          ],
+          [
+            "equipment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/5.mp3",
+        "timeStart": 12.29,
+        "timeEnd": 14.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90099/list"
+      },
+      {
+        "id": 90100,
+        "position": 6,
+        "content": "The diameter's much larger, so it should make it a little more comfortable for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "diameter's",
+            "diameter is"
+          ],
+          "much",
+          "larger,",
+          "so",
+          "it",
+          "should",
+          "make",
+          "it",
+          "a",
+          "little",
+          "more",
+          "comfortable",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "diameter's",
+            "diameter is"
+          ],
+          [
+            "much"
+          ],
+          [
+            "larger,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "it"
+          ],
+          [
+            "should"
+          ],
+          [
+            "make"
+          ],
+          [
+            "it"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "more"
+          ],
+          [
+            "comfortable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/6.mp3",
+        "timeStart": 14.47,
+        "timeEnd": 18.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90100/list"
+      },
+      {
+        "id": 90101,
+        "position": 7,
+        "content": "You'll also have this call bell, so if you need me at any point during the test, you squeeze that, okay?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You'll",
+            "You will"
+          ],
+          "also",
+          "have",
+          "this",
+          "call",
+          "bell,",
+          "so",
+          "if",
+          "you",
+          "need",
+          "me",
+          "at",
+          "any",
+          "point",
+          "during",
+          "the",
+          "test,",
+          "you",
+          "squeeze",
+          "that,",
+          [
+            "okay?",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "You'll",
+            "You will"
+          ],
+          [
+            "also"
+          ],
+          [
+            "have"
+          ],
+          [
+            "this"
+          ],
+          [
+            "call"
+          ],
+          [
+            "bell,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "me"
+          ],
+          [
+            "at"
+          ],
+          [
+            "any"
+          ],
+          [
+            "point"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "test,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "squeeze"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "okay?",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/7.mp3",
+        "timeStart": 18.69,
+        "timeEnd": 24.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90101/list"
+      },
+      {
+        "id": 90102,
+        "position": 8,
+        "content": "Okay.",
+        "defaultInput": "Okay.",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/8.mp3",
+        "timeStart": 24.21,
+        "timeEnd": 24.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90102/list"
+      },
+      {
+        "id": 90103,
+        "position": 9,
+        "content": "Now your scan's only going to take about 15 minutes, are you okay with that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "your",
+          [
+            "scan's",
+            "scan is"
+          ],
+          "only",
+          [
+            "going to",
+            "gonna"
+          ],
+          "take",
+          "about",
+          [
+            "15",
+            "fifteen"
+          ],
+          "minutes,",
+          "are",
+          "you",
+          [
+            "okay",
+            "ok"
+          ],
+          "with",
+          "that?"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "your"
+          ],
+          [
+            "scan's",
+            "scan is"
+          ],
+          [
+            "only"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "take"
+          ],
+          [
+            "about"
+          ],
+          [
+            "15",
+            "fifteen"
+          ],
+          [
+            "minutes,"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "okay",
+            "ok"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/9.mp3",
+        "timeStart": 24.99,
+        "timeEnd": 28.48,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/90103/list"
+      },
+      {
+        "id": 90104,
+        "position": 10,
+        "content": "I am.",
+        "defaultInput": "I am.",
+        "jsonContent": [
+          [
+            "I am.",
+            "I'm"
+          ]
+        ],
+        "solution": [
+          [
+            "I am.",
+            "I'm"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/10.mp3",
+        "timeStart": 28.48,
+        "timeEnd": 30.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90104/list"
+      },
+      {
+        "id": 90105,
+        "position": 11,
+        "content": "Okay, let's get started then.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "let's",
+          "get",
+          "started",
+          "then."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "get"
+          ],
+          [
+            "started"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-2-2025-08-29-21-08-34/11.mp3",
+        "timeStart": 30.33,
+        "timeEnd": 32.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90105/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90095": {
+      "id": 3676850,
+      "text": "Mời vào, mời vào... Bà Brown, đúng không ạ?",
+      "author": "ChatGPT4.1"
+    },
+    "90096": {
+      "id": 3676851,
+      "text": "Tôi tên là Ted và hôm nay tôi sẽ thực hiện chụp cộng hưởng từ cho bà.",
+      "author": "ChatGPT4.1"
+    },
+    "90097": {
+      "id": 3676852,
+      "text": "Bây giờ, bà có thể lên bàn giúp tôi được không?",
+      "author": "ChatGPT4.1"
+    },
+    "90098": {
+      "id": 3676853,
+      "text": "Anh biết đấy, tôi thật sự sợ không gian kín.",
+      "author": "ChatGPT4.1"
+    },
+    "90099": {
+      "id": 3676854,
+      "text": "Ờ, đây là thiết bị mới.",
+      "author": "ChatGPT4.1"
+    },
+    "90100": {
+      "id": 3676855,
+      "text": "Đường kính của máy lớn hơn nhiều, nên sẽ khiến bà cảm thấy thoải mái hơn một chút.",
+      "author": "ChatGPT4.1"
+    },
+    "90101": {
+      "id": 3676856,
+      "text": "Bà cũng sẽ có chuông gọi này, nếu cần tôi trong lúc làm xét nghiệm, bà chỉ cần bóp cái này nhé?",
+      "author": "ChatGPT4.1"
+    },
+    "90102": {
+      "id": 3676857,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "90103": {
+      "id": 3676858,
+      "text": "Buổi chụp này chỉ mất khoảng 15 phút thôi, bà có ổn với điều đó không?",
+      "author": "ChatGPT4.1"
+    },
+    "90104": {
+      "id": 3676859,
+      "text": "Tôi ổn.",
+      "author": "ChatGPT4.1"
+    },
+    "90105": {
+      "id": 3676860,
+      "text": "Vậy thì chúng ta bắt đầu nhé.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

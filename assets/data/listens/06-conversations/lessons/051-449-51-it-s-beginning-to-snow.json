@@ -1,0 +1,587 @@
+{
+  "summary": {
+    "id": 449,
+    "name": "51. It's Beginning to Snow.",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 51,
+    "totalChallenges": 12,
+    "groupId": 104,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/449",
+  "detail": {
+    "id": 449,
+    "lessonName": "51. It's Beginning to Snow.",
+    "name": "51. It's Beginning to Snow.",
+    "position": 51,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/0-51-its-beginning-to-snow.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18331,
+        "position": 1,
+        "content": "Do you like snow?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "like",
+          "snow?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "snow?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/1.mp3",
+        "timeStart": 3.03,
+        "timeEnd": 4.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18331/list"
+      },
+      {
+        "id": 18332,
+        "position": 2,
+        "content": "No! I hate it!",
+        "defaultInput": "",
+        "jsonContent": [
+          "No!",
+          "I",
+          "hate",
+          "it!"
+        ],
+        "solution": [
+          [
+            "No!"
+          ],
+          [
+            "I"
+          ],
+          [
+            "hate"
+          ],
+          [
+            "it!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/2.mp3",
+        "timeStart": 4.27,
+        "timeEnd": 5.9,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18332/list"
+      },
+      {
+        "id": 18333,
+        "position": 3,
+        "content": "Why? Snow is so pretty.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why?",
+          "Snow",
+          "is",
+          "so",
+          "pretty."
+        ],
+        "solution": [
+          [
+            "Why?"
+          ],
+          [
+            "Snow"
+          ],
+          [
+            "is"
+          ],
+          [
+            "so"
+          ],
+          [
+            "pretty."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/3.mp3",
+        "timeStart": 5.96,
+        "timeEnd": 8.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18333/list"
+      },
+      {
+        "id": 18334,
+        "position": 4,
+        "content": "Yes, but I don't like to drive in it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "but",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "like",
+          "to",
+          "drive",
+          "in",
+          "it."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "in"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/4.mp3",
+        "timeStart": 8.2,
+        "timeEnd": 10.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18334/list"
+      },
+      {
+        "id": 18335,
+        "position": 5,
+        "content": "Well, it's beginning to snow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "it's",
+          "beginning",
+          "to",
+          "snow."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "beginning"
+          ],
+          [
+            "to"
+          ],
+          [
+            "snow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/5.mp3",
+        "timeStart": 10.71,
+        "timeEnd": 12.72,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18335/list"
+      },
+      {
+        "id": 18336,
+        "position": 6,
+        "content": "And I have to drive to work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "drive",
+          "to",
+          "work."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/6.mp3",
+        "timeStart": 12.72,
+        "timeEnd": 14.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18336/list"
+      },
+      {
+        "id": 18337,
+        "position": 7,
+        "content": "How far is it to work?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "far",
+          "is",
+          "it",
+          "to",
+          "work?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "far"
+          ],
+          [
+            "is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/7.mp3",
+        "timeStart": 15.04,
+        "timeEnd": 16.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18337/list"
+      },
+      {
+        "id": 18338,
+        "position": 8,
+        "content": "Six miles. Are we going to get much snow?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Six",
+            "6"
+          ],
+          "miles.",
+          "Are",
+          "we",
+          [
+            "going to",
+            "gonna"
+          ],
+          "get",
+          "much",
+          "snow?"
+        ],
+        "solution": [
+          [
+            "Six",
+            "6"
+          ],
+          [
+            "miles."
+          ],
+          [
+            "Are"
+          ],
+          [
+            "we"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "get"
+          ],
+          [
+            "much"
+          ],
+          [
+            "snow?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/8.mp3",
+        "timeStart": 16.58,
+        "timeEnd": 19.39,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18338/list"
+      },
+      {
+        "id": 18339,
+        "position": 9,
+        "content": "About twelve inches, they say.",
+        "defaultInput": "",
+        "jsonContent": [
+          "About",
+          [
+            "twelve",
+            "12"
+          ],
+          "inches,",
+          "they",
+          "say."
+        ],
+        "solution": [
+          [
+            "About"
+          ],
+          [
+            "twelve",
+            "12"
+          ],
+          [
+            "inches,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "say."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/9.mp3",
+        "timeStart": 19.51,
+        "timeEnd": 21.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18339/list"
+      },
+      {
+        "id": 18340,
+        "position": 10,
+        "content": "Oh no! Driving will be dangerous!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "no!",
+          "Driving",
+          "will",
+          "be",
+          "dangerous!"
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "no!"
+          ],
+          [
+            "Driving"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "dangerous!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/10.mp3",
+        "timeStart": 21.39,
+        "timeEnd": 23.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18340/list"
+      },
+      {
+        "id": 18341,
+        "position": 11,
+        "content": "Please be careful!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "be",
+          "careful!"
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "be"
+          ],
+          [
+            "careful!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/11.mp3",
+        "timeStart": 23.97,
+        "timeEnd": 25.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18341/list"
+      },
+      {
+        "id": 18342,
+        "position": 12,
+        "content": "I will, by the way, can I borrow your car?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will,",
+            "I'll"
+          ],
+          "by",
+          "the",
+          "way,",
+          "can",
+          "I",
+          "borrow",
+          "your",
+          "car?"
+        ],
+        "solution": [
+          [
+            "I will,",
+            "I'll"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "borrow"
+          ],
+          [
+            "your"
+          ],
+          [
+            "car?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/51-its-beginning-to-snow-2022-03-07-21-21-47/12.mp3",
+        "timeStart": 25.09,
+        "timeEnd": 28.51,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18342/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18333": {
+      "id": 7786,
+      "text": "Tại sao? Tuyết đẹp mà.",
+      "author": "a user"
+    },
+    "18334": {
+      "id": 7790,
+      "text": "Có, nhưng tôi không thích lái xe trong tuyết",
+      "author": "a user"
+    },
+    "18335": {
+      "id": 7793,
+      "text": "Chà, trời bắt đầu có tuyết rồi.",
+      "author": "a user"
+    },
+    "18337": {
+      "id": 7800,
+      "text": "Đến chỗ làm việc bao xa?",
+      "author": "a user"
+    },
+    "18338": {
+      "id": 7802,
+      "text": "6 dặm. Chúng ta sắp có nhiều tuyết phải không?",
+      "author": "a user"
+    },
+    "18339": {
+      "id": 7808,
+      "text": "Người ta nói rằng khoảng 12 inch.",
+      "author": "a user"
+    },
+    "18331": {
+      "id": 2590188,
+      "text": "Bạn có thích tuyết không?",
+      "author": "ChatGPT4.1"
+    },
+    "18332": {
+      "id": 2590189,
+      "text": "Không! Tôi ghét nó!",
+      "author": "ChatGPT4.1"
+    },
+    "18336": {
+      "id": 2590190,
+      "text": "Và tôi phải lái xe đi làm.",
+      "author": "ChatGPT4.1"
+    },
+    "18340": {
+      "id": 2590191,
+      "text": "Ôi không! Lái xe sẽ rất nguy hiểm!",
+      "author": "ChatGPT4.1"
+    },
+    "18341": {
+      "id": 2590192,
+      "text": "Làm ơn hãy cẩn thận!",
+      "author": "ChatGPT4.1"
+    },
+    "18342": {
+      "id": 2590193,
+      "text": "Tôi sẽ cẩn thận, tiện đây, tôi có thể mượn xe của bạn không?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

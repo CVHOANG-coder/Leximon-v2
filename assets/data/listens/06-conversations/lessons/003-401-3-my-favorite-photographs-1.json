@@ -1,0 +1,359 @@
+{
+  "summary": {
+    "id": 401,
+    "name": "3. My Favorite Photographs (1)",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 3,
+    "totalChallenges": 8,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/401",
+  "detail": {
+    "id": 401,
+    "lessonName": "3. My Favorite Photographs (1)",
+    "name": "3. My Favorite Photographs (1)",
+    "position": 3,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/0-3.my-favorite-photographs.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17789,
+        "position": 1,
+        "content": "Who is she?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Who is",
+            "who's"
+          ],
+          "she?"
+        ],
+        "solution": [
+          [
+            "Who is",
+            "who's"
+          ],
+          [
+            "she?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/1.mp3",
+        "timeStart": 3.55,
+        "timeEnd": 4.89,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17789/list"
+      },
+      {
+        "id": 17790,
+        "position": 2,
+        "content": "She is my sister.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "she's"
+          ],
+          "my",
+          "sister."
+        ],
+        "solution": [
+          [
+            "She is",
+            "she's"
+          ],
+          [
+            "my"
+          ],
+          [
+            "sister."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/2.mp3",
+        "timeStart": 5,
+        "timeEnd": 6.67,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/17790/list"
+      },
+      {
+        "id": 17791,
+        "position": 3,
+        "content": "What's her name?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What's",
+            "what is"
+          ],
+          "her",
+          "name?"
+        ],
+        "solution": [
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "her"
+          ],
+          [
+            "name?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/3.mp3",
+        "timeStart": 6.76,
+        "timeEnd": 8.09,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/17791/list"
+      },
+      {
+        "id": 17792,
+        "position": 4,
+        "content": "Her name is Jennifer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          "name",
+          "is",
+          "Jennifer."
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Jennifer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/4.mp3",
+        "timeStart": 8.16,
+        "timeEnd": 9.93,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17792/list"
+      },
+      {
+        "id": 17793,
+        "position": 5,
+        "content": "Where is she in this photograph?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Where is",
+            "where's"
+          ],
+          "she",
+          "in",
+          "this",
+          "photograph?"
+        ],
+        "solution": [
+          [
+            "Where is",
+            "where's"
+          ],
+          [
+            "she"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "photograph?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/5.mp3",
+        "timeStart": 10.05,
+        "timeEnd": 12.13,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/17793/list"
+      },
+      {
+        "id": 17794,
+        "position": 6,
+        "content": "She's in Toronto.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She's",
+            "She is"
+          ],
+          "in",
+          "Toronto."
+        ],
+        "solution": [
+          [
+            "She's",
+            "She is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Toronto."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/6.mp3",
+        "timeStart": 12.19,
+        "timeEnd": 13.69,
+        "hints": [
+          "Toronto"
+        ],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17794/list"
+      },
+      {
+        "id": 17795,
+        "position": 7,
+        "content": "What is that building behind her?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What is",
+            "what's"
+          ],
+          "that",
+          "building",
+          "behind",
+          "her?"
+        ],
+        "solution": [
+          [
+            "What is",
+            "what's"
+          ],
+          [
+            "that"
+          ],
+          [
+            "building"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "her?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/7.mp3",
+        "timeStart": 14.03,
+        "timeEnd": 16.23,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17795/list"
+      },
+      {
+        "id": 17796,
+        "position": 8,
+        "content": "She's standing in front of the CN Tower.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "standing",
+          "in",
+          "front",
+          "of",
+          "the",
+          "CN",
+          "Tower."
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "standing"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "CN"
+          ],
+          [
+            "Tower."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/3.my-favorite-photographs-2022-03-07-20-51-14/8.mp3",
+        "timeStart": 16.23,
+        "timeEnd": 18.91,
+        "hints": [
+          "CN Tower"
+        ],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/17796/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17789": {
+      "id": 9442,
+      "text": "Cô ấy là ai vậy?",
+      "author": "a user"
+    },
+    "17790": {
+      "id": 2592543,
+      "text": "Cô ấy là chị gái của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "17791": {
+      "id": 2592544,
+      "text": "Tên cô ấy là gì?",
+      "author": "ChatGPT4.1"
+    },
+    "17792": {
+      "id": 2592545,
+      "text": "Tên cô ấy là Jennifer.",
+      "author": "ChatGPT4.1"
+    },
+    "17793": {
+      "id": 2592546,
+      "text": "Cô ấy ở đâu trong bức ảnh này?",
+      "author": "ChatGPT4.1"
+    },
+    "17794": {
+      "id": 2592547,
+      "text": "Cô ấy đang ở Toronto.",
+      "author": "ChatGPT4.1"
+    },
+    "17795": {
+      "id": 2592548,
+      "text": "Tòa nhà phía sau cô ấy là gì?",
+      "author": "ChatGPT4.1"
+    },
+    "17796": {
+      "id": 2592549,
+      "text": "Cô ấy đang đứng trước Tháp CN.",
+      "author": "a user"
+    }
+  }
+}

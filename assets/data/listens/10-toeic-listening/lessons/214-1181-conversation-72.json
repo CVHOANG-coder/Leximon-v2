@@ -1,0 +1,965 @@
+{
+  "summary": {
+    "id": 1181,
+    "name": "Conversation 72",
+    "subTitle": "Router Upgrade Appointment Mix-up",
+    "levelName": "B1",
+    "position": 214,
+    "totalChallenges": 17,
+    "groupId": 38,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1181",
+  "detail": {
+    "id": 1181,
+    "lessonName": "Conversation 72",
+    "name": "Conversation 72",
+    "position": 214,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/0-conversation-72.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54624,
+        "position": 1,
+        "content": "Hello, this is Sally Clark speaking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Sally",
+          "Clark",
+          "speaking."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Sally"
+          ],
+          [
+            "Clark"
+          ],
+          [
+            "speaking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/1.mp3",
+        "timeStart": 0.85,
+        "timeEnd": 3.13,
+        "hints": [
+          "Sally Clark"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54624/list"
+      },
+      {
+        "id": 54625,
+        "position": 2,
+        "content": "NextWave Comcast was supposed to send someone here to upgrade the router.",
+        "defaultInput": "NextWave Comcast ",
+        "jsonContent": [
+          "NextWave",
+          "Comcast",
+          "was",
+          "supposed",
+          "to",
+          "send",
+          "someone",
+          "here",
+          "to",
+          "upgrade",
+          "the",
+          "router."
+        ],
+        "solution": [
+          [
+            "NextWave"
+          ],
+          [
+            "Comcast"
+          ],
+          [
+            "was"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "send"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "here"
+          ],
+          [
+            "to"
+          ],
+          [
+            "upgrade"
+          ],
+          [
+            "the"
+          ],
+          [
+            "router."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/2.mp3",
+        "timeStart": 3.13,
+        "timeEnd": 6.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54625/list"
+      },
+      {
+        "id": 54626,
+        "position": 3,
+        "content": "I've been waiting for over an hour now.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "waiting",
+          "for",
+          "over",
+          "an",
+          "hour",
+          "now."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "waiting"
+          ],
+          [
+            "for"
+          ],
+          [
+            "over"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/3.mp3",
+        "timeStart": 6.98,
+        "timeEnd": 9.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54626/list"
+      },
+      {
+        "id": 54627,
+        "position": 4,
+        "content": "Thanks for calling, ma'am.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "for",
+          "calling,",
+          "ma'am."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "calling,"
+          ],
+          [
+            "ma'am."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/4.mp3",
+        "timeStart": 9.29,
+        "timeEnd": 10.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54627/list"
+      },
+      {
+        "id": 54628,
+        "position": 5,
+        "content": "Our record shows your appointment is not until 10 am tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "record",
+          "shows",
+          "your",
+          "appointment",
+          [
+            "is not",
+            "isn't"
+          ],
+          "until",
+          [
+            "10",
+            "ten"
+          ],
+          "am",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "record"
+          ],
+          [
+            "shows"
+          ],
+          [
+            "your"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "is not",
+            "isn't"
+          ],
+          [
+            "until"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "am"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/5.mp3",
+        "timeStart": 10.9,
+        "timeEnd": 14.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54628/list"
+      },
+      {
+        "id": 54629,
+        "position": 6,
+        "content": "That's impossible.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "impossible."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "impossible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/6.mp3",
+        "timeStart": 15.06,
+        "timeEnd": 16.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54629/list"
+      },
+      {
+        "id": 54630,
+        "position": 7,
+        "content": "Please check again: Sally Clark, unit 219, Moffatt Apartments.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "check",
+          "again:",
+          "Sally",
+          "Clark,",
+          "unit",
+          "219,",
+          "Moffatt",
+          "Apartments."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "check"
+          ],
+          [
+            "again:"
+          ],
+          [
+            "Sally"
+          ],
+          [
+            "Clark,"
+          ],
+          [
+            "unit"
+          ],
+          [
+            "219,"
+          ],
+          [
+            "Moffatt"
+          ],
+          [
+            "Apartments."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/7.mp3",
+        "timeStart": 16.35,
+        "timeEnd": 21.78,
+        "hints": [
+          "Sally Clark",
+          "Moffatt"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54630/list"
+      },
+      {
+        "id": 54631,
+        "position": 8,
+        "content": "I specifically asked for an express appointment",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "specifically",
+          "asked",
+          "for",
+          "an",
+          "express",
+          "appointment"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "specifically"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "express"
+          ],
+          [
+            "appointment"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/8.mp3",
+        "timeStart": 21.78,
+        "timeEnd": 24.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54631/list"
+      },
+      {
+        "id": 54632,
+        "position": 9,
+        "content": "because I can no longer stand having latency issues when I watch online videos.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "I",
+          "can",
+          "no",
+          "longer",
+          "stand",
+          "having",
+          "latency",
+          "issues",
+          "when",
+          "I",
+          "watch",
+          "online",
+          "videos."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "no"
+          ],
+          [
+            "longer"
+          ],
+          [
+            "stand"
+          ],
+          [
+            "having"
+          ],
+          [
+            "latency"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "watch"
+          ],
+          [
+            "online"
+          ],
+          [
+            "videos."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/9.mp3",
+        "timeStart": 24.61,
+        "timeEnd": 28.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54632/list"
+      },
+      {
+        "id": 54633,
+        "position": 10,
+        "content": "I am terribly sorry.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "terribly",
+          "sorry."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "terribly"
+          ],
+          [
+            "sorry."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/10.mp3",
+        "timeStart": 29.18,
+        "timeEnd": 30.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54633/list"
+      },
+      {
+        "id": 54634,
+        "position": 11,
+        "content": "There seems to be a mix-up in the information.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "seems",
+          "to",
+          "be",
+          "a",
+          [
+            "mix-up",
+            "mix up"
+          ],
+          "in",
+          "the",
+          "information."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mix-up",
+            "mix up"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "information."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/11.mp3",
+        "timeStart": 30.7,
+        "timeEnd": 32.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54634/list"
+      },
+      {
+        "id": 54635,
+        "position": 12,
+        "content": "Your appointment is scheduled for 10 am today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Your",
+          "appointment",
+          "is",
+          "scheduled",
+          "for",
+          [
+            "10",
+            "ten"
+          ],
+          "am",
+          "today."
+        ],
+        "solution": [
+          [
+            "Your"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "is"
+          ],
+          [
+            "scheduled"
+          ],
+          [
+            "for"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "am"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/12.mp3",
+        "timeStart": 32.99,
+        "timeEnd": 35.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54635/list"
+      },
+      {
+        "id": 54636,
+        "position": 13,
+        "content": "Our technician is probably just running late.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "technician",
+          "is",
+          "probably",
+          "just",
+          "running",
+          "late."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "technician"
+          ],
+          [
+            "is"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "just"
+          ],
+          [
+            "running"
+          ],
+          [
+            "late."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/13.mp3",
+        "timeStart": 35.94,
+        "timeEnd": 38.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54636/list"
+      },
+      {
+        "id": 54637,
+        "position": 14,
+        "content": "He should be there any minute now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "should",
+          "be",
+          "there",
+          "any",
+          "minute",
+          "now."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "there"
+          ],
+          [
+            "any"
+          ],
+          [
+            "minute"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/14.mp3",
+        "timeStart": 38.57,
+        "timeEnd": 40.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54637/list"
+      },
+      {
+        "id": 54638,
+        "position": 15,
+        "content": "Will your technician be able to complete the work soon?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Will",
+          "your",
+          "technician",
+          "be",
+          "able",
+          "to",
+          "complete",
+          "the",
+          "work",
+          "soon?"
+        ],
+        "solution": [
+          [
+            "Will"
+          ],
+          [
+            "your"
+          ],
+          [
+            "technician"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "complete"
+          ],
+          [
+            "the"
+          ],
+          [
+            "work"
+          ],
+          [
+            "soon?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/15.mp3",
+        "timeStart": 40.91,
+        "timeEnd": 43.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54638/list"
+      },
+      {
+        "id": 54639,
+        "position": 16,
+        "content": "I have an online meeting at 4 pm.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "an",
+          "online",
+          "meeting",
+          "at",
+          [
+            "4",
+            "four"
+          ],
+          "pm."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "an"
+          ],
+          [
+            "online"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "at"
+          ],
+          [
+            "4",
+            "four"
+          ],
+          [
+            "pm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/16.mp3",
+        "timeStart": 43.44,
+        "timeEnd": 45.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54639/list"
+      },
+      {
+        "id": 54640,
+        "position": 17,
+        "content": "Yes. The upgrade will take no longer than 30 minutes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          "The",
+          "upgrade",
+          "will",
+          "take",
+          "no",
+          "longer",
+          "than",
+          [
+            "30",
+            "thirty"
+          ],
+          "minutes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "The"
+          ],
+          [
+            "upgrade"
+          ],
+          [
+            "will"
+          ],
+          [
+            "take"
+          ],
+          [
+            "no"
+          ],
+          [
+            "longer"
+          ],
+          [
+            "than"
+          ],
+          [
+            "30",
+            "thirty"
+          ],
+          [
+            "minutes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-72-2023-09-28-18-00-06/17.mp3",
+        "timeStart": 46.02,
+        "timeEnd": 49.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54640/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54626": {
+      "id": 938420,
+      "text": "Tôi đã đợi tới bây giờ là hơn một giờ rồi.",
+      "author": "a user"
+    },
+    "54628": {
+      "id": 938675,
+      "text": "Hồ sơ của chúng tôi cho thấy cuộc hẹn của bạn không diễn ra cho đến 10 giờ sáng ngày mai.",
+      "author": "a user"
+    },
+    "54631": {
+      "id": 938678,
+      "text": "Tôi đặc biệt yêu cầu một cuộc hẹn khẩn cấp",
+      "author": "a user"
+    },
+    "54640": {
+      "id": 938688,
+      "text": "Vâng. Việc nâng cấp sẽ mất không quá 30 phút.",
+      "author": "a user"
+    },
+    "54624": {
+      "id": 2600471,
+      "text": "Xin chào, tôi là Sally Clark.",
+      "author": "ChatGPT4.1"
+    },
+    "54625": {
+      "id": 2600472,
+      "text": "NextWave Comcast lẽ ra phải cử người đến đây để nâng cấp bộ định tuyến.",
+      "author": "a user"
+    },
+    "54627": {
+      "id": 2600473,
+      "text": "Cảm ơn bà đã gọi điện.",
+      "author": "ChatGPT4.1"
+    },
+    "54629": {
+      "id": 2600474,
+      "text": "Điều đó không thể nào.",
+      "author": "ChatGPT4.1"
+    },
+    "54630": {
+      "id": 2600475,
+      "text": "Làm ơn kiểm tra lại: Sally Clark, căn hộ 219, chung cư Moffatt.",
+      "author": "ChatGPT4.1"
+    },
+    "54632": {
+      "id": 2600476,
+      "text": "bởi vì tôi không thể chịu đựng nổi việc bị lag khi xem video trực tuyến nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "54633": {
+      "id": 2600477,
+      "text": "Tôi vô cùng xin lỗi.",
+      "author": "ChatGPT4.1"
+    },
+    "54634": {
+      "id": 2600478,
+      "text": "Có vẻ như đã có sự nhầm lẫn trong thông tin.",
+      "author": "ChatGPT4.1"
+    },
+    "54635": {
+      "id": 2600479,
+      "text": "Lịch hẹn của bà được lên lịch vào 10 giờ sáng hôm nay.",
+      "author": "ChatGPT4.1"
+    },
+    "54636": {
+      "id": 2600480,
+      "text": "Kỹ thuật viên của chúng tôi có thể chỉ đến trễ một chút.",
+      "author": "ChatGPT4.1"
+    },
+    "54637": {
+      "id": 2600481,
+      "text": "Anh ấy sẽ đến nơi trong chốc lát thôi",
+      "author": "a user"
+    },
+    "54638": {
+      "id": 2600482,
+      "text": "Kỹ thuật viên của các bạn có thể hoàn thành công việc sớm không?",
+      "author": "ChatGPT4.1"
+    },
+    "54639": {
+      "id": 2600483,
+      "text": "Tôi có một cuộc họp trực tuyến vào lúc 4 giờ chiều.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "summary": {
+    "id": 1137,
+    "name": "Short Talk 49",
+    "subTitle": "Dentist Appointment Reminder",
+    "levelName": "B1",
+    "position": 171,
+    "totalChallenges": 11,
+    "groupId": 35,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1137",
+  "detail": {
+    "id": 1137,
+    "lessonName": "Short Talk 49",
+    "name": "Short Talk 49",
+    "position": 171,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/0-short-talk-49.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54030,
+        "position": 1,
+        "content": "Good afternoon, Mr. Lane.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "afternoon,",
+          "Mr.",
+          "Lane."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Lane."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54030/list"
+      },
+      {
+        "id": 54031,
+        "position": 2,
+        "content": "This is Ruby, calling from Dr. Decker's Dentistry.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "Ruby,",
+          "calling",
+          "from",
+          "Dr.",
+          "Decker's",
+          "Dentistry."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Ruby,"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Decker's"
+          ],
+          [
+            "Dentistry."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/2.mp3",
+        "timeStart": 1.6,
+        "timeEnd": 4.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54031/list"
+      },
+      {
+        "id": 54032,
+        "position": 3,
+        "content": "We just wanted to remind you about your appointment on Friday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "just",
+          "wanted",
+          "to",
+          "remind",
+          "you",
+          "about",
+          "your",
+          "appointment",
+          "on",
+          "Friday."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "remind"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Friday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/3.mp3",
+        "timeStart": 4.82,
+        "timeEnd": 8.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54032/list"
+      },
+      {
+        "id": 54033,
+        "position": 4,
+        "content": "Remember, you will be put under anesthesia for your treatment,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Remember,",
+          [
+            "you will",
+            "you'll"
+          ],
+          "be",
+          "put",
+          "under",
+          "anesthesia",
+          "for",
+          "your",
+          "treatment,"
+        ],
+        "solution": [
+          [
+            "Remember,"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "put"
+          ],
+          [
+            "under"
+          ],
+          [
+            "anesthesia"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "treatment,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/4.mp3",
+        "timeStart": 8.42,
+        "timeEnd": 11.83,
+        "hints": [
+          "anesthesia"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54033/list"
+      },
+      {
+        "id": 54034,
+        "position": 5,
+        "content": "so you will need someone to drive you home from your appointment,",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "you will",
+            "you'll"
+          ],
+          "need",
+          "someone",
+          "to",
+          "drive",
+          "you",
+          "home",
+          "from",
+          "your",
+          "appointment,"
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "to"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "you"
+          ],
+          [
+            "home"
+          ],
+          [
+            "from"
+          ],
+          [
+            "your"
+          ],
+          [
+            "appointment,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/5.mp3",
+        "timeStart": 11.83,
+        "timeEnd": 15.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54034/list"
+      },
+      {
+        "id": 54035,
+        "position": 6,
+        "content": "and care for you for the rest of the day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "care",
+          "for",
+          "you",
+          "for",
+          "the",
+          "rest",
+          "of",
+          "the",
+          "day."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "care"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rest"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/6.mp3",
+        "timeStart": 15.05,
+        "timeEnd": 17.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54035/list"
+      },
+      {
+        "id": 54036,
+        "position": 7,
+        "content": "Also, I just wanted to mention that since you had tooth trouble in the past,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "I",
+          "just",
+          "wanted",
+          "to",
+          "mention",
+          "that",
+          "since",
+          [
+            "you had",
+            "You'd"
+          ],
+          "tooth",
+          "trouble",
+          "in",
+          "the",
+          "past,"
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "that"
+          ],
+          [
+            "since"
+          ],
+          [
+            "you had",
+            "You'd"
+          ],
+          [
+            "tooth"
+          ],
+          [
+            "trouble"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/7.mp3",
+        "timeStart": 17.42,
+        "timeEnd": 21.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54036/list"
+      },
+      {
+        "id": 54037,
+        "position": 8,
+        "content": "I recommend getting our New Package,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "recommend",
+          "getting",
+          "our",
+          "New",
+          "Package,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "our"
+          ],
+          [
+            "New"
+          ],
+          [
+            "Package,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/8.mp3",
+        "timeStart": 21.43,
+        "timeEnd": 23.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54037/list"
+      },
+      {
+        "id": 54038,
+        "position": 9,
+        "content": "which includes additional services throughout the year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "includes",
+          "additional",
+          "services",
+          "throughout",
+          "the",
+          "year."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "includes"
+          ],
+          [
+            "additional"
+          ],
+          [
+            "services"
+          ],
+          [
+            "throughout"
+          ],
+          [
+            "the"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/9.mp3",
+        "timeStart": 23.6,
+        "timeEnd": 26.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54038/list"
+      },
+      {
+        "id": 54039,
+        "position": 10,
+        "content": "Since you are a longtime patient, we offer a special price.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Since",
+          [
+            "you are",
+            "you're"
+          ],
+          "a",
+          "longtime",
+          "patient,",
+          "we",
+          "offer",
+          "a",
+          "special",
+          "price."
+        ],
+        "solution": [
+          [
+            "Since"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "a"
+          ],
+          [
+            "longtime"
+          ],
+          [
+            "patient,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "a"
+          ],
+          [
+            "special"
+          ],
+          [
+            "price."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/10.mp3",
+        "timeStart": 26.83,
+        "timeEnd": 30.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54039/list"
+      },
+      {
+        "id": 54040,
+        "position": 11,
+        "content": "Give me a callback to confirm your appointment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Give",
+          "me",
+          "a",
+          "callback",
+          "to",
+          "confirm",
+          "your",
+          "appointment."
+        ],
+        "solution": [
+          [
+            "Give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "callback"
+          ],
+          [
+            "to"
+          ],
+          [
+            "confirm"
+          ],
+          [
+            "your"
+          ],
+          [
+            "appointment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-49-2023-09-16-20-31-55/11.mp3",
+        "timeStart": 30.3,
+        "timeEnd": 32.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54040/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54030": {
+      "id": 2587744,
+      "text": "Chào buổi chiều, ông Lane.",
+      "author": "ChatGPT4.1"
+    },
+    "54031": {
+      "id": 2587745,
+      "text": "Tôi là Ruby, gọi từ phòng khám nha khoa của bác sĩ Decker.",
+      "author": "ChatGPT4.1"
+    },
+    "54032": {
+      "id": 2587746,
+      "text": "Chúng tôi chỉ muốn nhắc ông về cuộc hẹn vào thứ Sáu.",
+      "author": "ChatGPT4.1"
+    },
+    "54033": {
+      "id": 2587747,
+      "text": "Xin nhớ rằng ông sẽ được gây mê cho quá trình điều trị,",
+      "author": "ChatGPT4.1"
+    },
+    "54034": {
+      "id": 2587748,
+      "text": "nên ông sẽ cần ai đó đưa ông về nhà sau cuộc hẹn,",
+      "author": "ChatGPT4.1"
+    },
+    "54035": {
+      "id": 2587749,
+      "text": "và chăm sóc ông cho phần còn lại của ngày hôm đó.",
+      "author": "ChatGPT4.1"
+    },
+    "54036": {
+      "id": 2587750,
+      "text": "Ngoài ra, tôi cũng muốn nhắc rằng vì ông từng gặp vấn đề về răng trước đây,",
+      "author": "ChatGPT4.1"
+    },
+    "54037": {
+      "id": 2587751,
+      "text": "tôi khuyên ông nên đăng ký gói Dịch Vụ Mới của chúng tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "54038": {
+      "id": 2587752,
+      "text": "gói này bao gồm các dịch vụ bổ sung xuyên suốt cả năm.",
+      "author": "ChatGPT4.1"
+    },
+    "54039": {
+      "id": 2587753,
+      "text": "Vì ông là bệnh nhân lâu năm, chúng tôi xin gửi mức giá ưu đãi đặc biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "54040": {
+      "id": 2587754,
+      "text": "Xin vui lòng gọi lại cho tôi để xác nhận cuộc hẹn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

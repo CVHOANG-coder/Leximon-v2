@@ -1,0 +1,4903 @@
+{
+  "summary": {
+    "id": 679,
+    "name": "Cam12 - Test 3 - Part 1",
+    "subTitle": "New Library Services Overview",
+    "levelName": "B1",
+    "position": 170,
+    "totalChallenges": 90,
+    "groupId": 61,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/679",
+  "detail": {
+    "id": 679,
+    "lessonName": "Cam12 - Test 3 - Part 1",
+    "name": "Cam12 - Test 3 - Part 1",
+    "position": 170,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/0-ielts-cambridge-12-test-3-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 32417,
+        "position": 1,
+        "content": "Hello?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello?"
+        ],
+        "solution": [
+          [
+            "Hello?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/1.mp3",
+        "timeStart": 0.31,
+        "timeEnd": 0.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32417/list"
+      },
+      {
+        "id": 32418,
+        "position": 2,
+        "content": "Hi, Susie, it's Paul here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "Susie,",
+          "it's",
+          "Paul",
+          "here."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Susie,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "Paul"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/2.mp3",
+        "timeStart": 0.97,
+        "timeEnd": 3.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32418/list"
+      },
+      {
+        "id": 32419,
+        "position": 3,
+        "content": "How are you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "are",
+          "you?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/3.mp3",
+        "timeStart": 3.77,
+        "timeEnd": 4.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32419/list"
+      },
+      {
+        "id": 32420,
+        "position": 4,
+        "content": "Enjoying your new job?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Enjoying",
+          "your",
+          "new",
+          "job?"
+        ],
+        "solution": [
+          [
+            "Enjoying"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "job?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/4.mp3",
+        "timeStart": 4.91,
+        "timeEnd": 6.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32420/list"
+      },
+      {
+        "id": 32421,
+        "position": 5,
+        "content": "You're working at the library, aren't you?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You're",
+            "you are"
+          ],
+          "working",
+          "at",
+          "the",
+          "library,",
+          [
+            "aren't",
+            "are not"
+          ],
+          "you?"
+        ],
+        "solution": [
+          [
+            "You're",
+            "you are"
+          ],
+          [
+            "working"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library,"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/5.mp3",
+        "timeStart": 6.86,
+        "timeEnd": 9.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32421/list"
+      },
+      {
+        "id": 32422,
+        "position": 6,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/6.mp3",
+        "timeStart": 9.24,
+        "timeEnd": 10.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32422/list"
+      },
+      {
+        "id": 32423,
+        "position": 7,
+        "content": "I started when the library re-opened a month ago.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "started",
+          "when",
+          "the",
+          "library",
+          [
+            "re-opened",
+            "re opened"
+          ],
+          "a",
+          "month",
+          "ago."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "started"
+          ],
+          [
+            "when"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "re-opened",
+            "re opened"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month"
+          ],
+          [
+            "ago."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/7.mp3",
+        "timeStart": 10.36,
+        "timeEnd": 13.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32423/list"
+      },
+      {
+        "id": 32424,
+        "position": 8,
+        "content": "It's great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "great."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/8.mp3",
+        "timeStart": 13.79,
+        "timeEnd": 14.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32424/list"
+      },
+      {
+        "id": 32425,
+        "position": 9,
+        "content": "Actually Carol and I have been meaning to join for a while.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually",
+          "Carol",
+          "and",
+          [
+            "I have",
+            "I've"
+          ],
+          "been",
+          "meaning",
+          "to",
+          "join",
+          "for",
+          "a",
+          "while."
+        ],
+        "solution": [
+          [
+            "Actually"
+          ],
+          [
+            "Carol"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "been"
+          ],
+          [
+            "meaning"
+          ],
+          [
+            "to"
+          ],
+          [
+            "join"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "while."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/9.mp3",
+        "timeStart": 14.98,
+        "timeEnd": 18.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32425/list"
+      },
+      {
+        "id": 32426,
+        "position": 10,
+        "content": "Oh, you should.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "you",
+          "should."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/10.mp3",
+        "timeStart": 18.64,
+        "timeEnd": 20.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32426/list"
+      },
+      {
+        "id": 32427,
+        "position": 11,
+        "content": "It doesn't cost anything,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "cost",
+          "anything,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "cost"
+          ],
+          [
+            "anything,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/11.mp3",
+        "timeStart": 20.04,
+        "timeEnd": 22.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32427/list"
+      },
+      {
+        "id": 32428,
+        "position": 12,
+        "content": "and the new library has all sorts of facilities.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "new",
+          "library",
+          "has",
+          "all",
+          "sorts",
+          "of",
+          "facilities."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "library"
+          ],
+          [
+            "has"
+          ],
+          [
+            "all"
+          ],
+          [
+            "sorts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "facilities."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/12.mp3",
+        "timeStart": 22.03,
+        "timeEnd": 25.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32428/list"
+      },
+      {
+        "id": 32429,
+        "position": 13,
+        "content": "It's not just a place where you borrow books.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "not",
+          "just",
+          "a",
+          "place",
+          "where",
+          "you",
+          "borrow",
+          "books."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "place"
+          ],
+          [
+            "where"
+          ],
+          [
+            "you"
+          ],
+          [
+            "borrow"
+          ],
+          [
+            "books."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/13.mp3",
+        "timeStart": 25.68,
+        "timeEnd": 28.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32429/list"
+      },
+      {
+        "id": 32430,
+        "position": 14,
+        "content": "For instance, there's an area with comfortable seats where you can sit and read the magazines they have there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "instance,",
+          [
+            "there's",
+            "there is"
+          ],
+          "an",
+          "area",
+          "with",
+          "comfortable",
+          "seats",
+          "where",
+          "you",
+          "can",
+          "sit",
+          "and",
+          "read",
+          "the",
+          "magazines",
+          [
+            "they have",
+            "they've"
+          ],
+          "there."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "instance,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "an"
+          ],
+          [
+            "area"
+          ],
+          [
+            "with"
+          ],
+          [
+            "comfortable"
+          ],
+          [
+            "seats"
+          ],
+          [
+            "where"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "and"
+          ],
+          [
+            "read"
+          ],
+          [
+            "the"
+          ],
+          [
+            "magazines"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/14.mp3",
+        "timeStart": 28.98,
+        "timeEnd": 35.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32430/list"
+      },
+      {
+        "id": 32431,
+        "position": 15,
+        "content": "Some people spend the whole morning there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "people",
+          "spend",
+          "the",
+          "whole",
+          "morning",
+          "there."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "people"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "the"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/15.mp3",
+        "timeStart": 35.82,
+        "timeEnd": 39.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32431/list"
+      },
+      {
+        "id": 32432,
+        "position": 16,
+        "content": "Wish I had that amount of time to spend!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Wish",
+          [
+            "I had",
+            "I'd"
+          ],
+          "that",
+          "amount",
+          "of",
+          "time",
+          "to",
+          "spend!"
+        ],
+        "solution": [
+          [
+            "Wish"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "that"
+          ],
+          [
+            "amount"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "spend!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/16.mp3",
+        "timeStart": 39.42,
+        "timeEnd": 41.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32432/list"
+      },
+      {
+        "id": 32433,
+        "position": 17,
+        "content": "Yes, you must be pretty busy at present, with the children and everything?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "you",
+          "must",
+          "be",
+          "pretty",
+          "busy",
+          "at",
+          "present,",
+          "with",
+          "the",
+          "children",
+          "and",
+          "everything?"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "at"
+          ],
+          [
+            "present,"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "children"
+          ],
+          [
+            "and"
+          ],
+          [
+            "everything?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/17.mp3",
+        "timeStart": 41.88,
+        "timeEnd": 46.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32433/list"
+      },
+      {
+        "id": 32434,
+        "position": 18,
+        "content": "We are, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are,",
+            "we're"
+          ],
+          "yes."
+        ],
+        "solution": [
+          [
+            "We are,",
+            "we're"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/18.mp3",
+        "timeStart": 46.61,
+        "timeEnd": 48.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32434/list"
+      },
+      {
+        "id": 32435,
+        "position": 19,
+        "content": "But we're hoping to get away this summer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "we're",
+            "we are"
+          ],
+          "hoping",
+          "to",
+          "get",
+          "away",
+          "this",
+          "summer."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "hoping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "away"
+          ],
+          [
+            "this"
+          ],
+          [
+            "summer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/19.mp3",
+        "timeStart": 48.13,
+        "timeEnd": 50.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32435/list"
+      },
+      {
+        "id": 32436,
+        "position": 20,
+        "content": "We're thinking of going to Greece.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "we are"
+          ],
+          "thinking",
+          "of",
+          [
+            "going to",
+            "gonna"
+          ],
+          "Greece."
+        ],
+        "solution": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "of"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "Greece."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/20.mp3",
+        "timeStart": 51.07,
+        "timeEnd": 53.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32436/list"
+      },
+      {
+        "id": 32437,
+        "position": 21,
+        "content": "Well, we've got a much larger section of the library devoted to travel books now,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "we've",
+            "we have"
+          ],
+          "got",
+          "a",
+          "much",
+          "larger",
+          "section",
+          "of",
+          "the",
+          "library",
+          "devoted",
+          "to",
+          "travel",
+          "books",
+          "now,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "much"
+          ],
+          [
+            "larger"
+          ],
+          [
+            "section"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "devoted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "travel"
+          ],
+          [
+            "books"
+          ],
+          [
+            "now,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/21.mp3",
+        "timeStart": 53.1,
+        "timeEnd": 59.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32437/list"
+      },
+      {
+        "id": 32438,
+        "position": 22,
+        "content": "so you should come and have a look.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "you",
+          "should",
+          "come",
+          "and",
+          "have",
+          "a",
+          "look."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "come"
+          ],
+          [
+            "and"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/22.mp3",
+        "timeStart": 59.07,
+        "timeEnd": 61.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32438/list"
+      },
+      {
+        "id": 32439,
+        "position": 23,
+        "content": "I can't remember if there's anything specifically on Greece,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "remember",
+          "if",
+          [
+            "there's",
+            "there is"
+          ],
+          "anything",
+          "specifically",
+          "on",
+          "Greece,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "if"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "specifically"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Greece,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/23.mp3",
+        "timeStart": 61.34,
+        "timeEnd": 65.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32439/list"
+      },
+      {
+        "id": 32440,
+        "position": 24,
+        "content": "but I should think so.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "should",
+          "think",
+          "so."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "think"
+          ],
+          [
+            "so."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/24.mp3",
+        "timeStart": 65.48,
+        "timeEnd": 66.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32440/list"
+      },
+      {
+        "id": 32441,
+        "position": 25,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/25.mp3",
+        "timeStart": 66.92,
+        "timeEnd": 67.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32441/list"
+      },
+      {
+        "id": 32442,
+        "position": 26,
+        "content": "Now Carol's organising a project for the history class she teaches at school,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "Carol's",
+          [
+            "organising",
+            "organizing"
+          ],
+          "a",
+          "project",
+          "for",
+          "the",
+          "history",
+          "class",
+          "she",
+          "teaches",
+          "at",
+          "school,"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "Carol's"
+          ],
+          [
+            "organising",
+            "organizing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "project"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "history"
+          ],
+          [
+            "class"
+          ],
+          [
+            "she"
+          ],
+          [
+            "teaches"
+          ],
+          [
+            "at"
+          ],
+          [
+            "school,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/26.mp3",
+        "timeStart": 68.2,
+        "timeEnd": 72.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32442/list"
+      },
+      {
+        "id": 32443,
+        "position": 27,
+        "content": "it's about life in the town a hundred years ago.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it's",
+          "about",
+          "life",
+          "in",
+          "the",
+          "town",
+          "a",
+          "hundred",
+          "years",
+          "ago."
+        ],
+        "solution": [
+          [
+            "it's"
+          ],
+          [
+            "about"
+          ],
+          [
+            "life"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "town"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hundred"
+          ],
+          [
+            "years"
+          ],
+          [
+            "ago."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/27.mp3",
+        "timeStart": 72.98,
+        "timeEnd": 76.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32443/list"
+      },
+      {
+        "id": 32444,
+        "position": 28,
+        "content": "Do you have anything that might be useful?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "you have",
+            "you've"
+          ],
+          "anything",
+          "that",
+          "might",
+          "be",
+          "useful?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "that"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "useful?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/28.mp3",
+        "timeStart": 76.98,
+        "timeEnd": 79.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32444/list"
+      },
+      {
+        "id": 32445,
+        "position": 29,
+        "content": "Yes, actually we've now got a new section with materials on the history of the town and surrounding region.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "actually",
+          [
+            "we've",
+            "we have"
+          ],
+          "now",
+          "got",
+          "a",
+          "new",
+          "section",
+          "with",
+          "materials",
+          "on",
+          "the",
+          "history",
+          "of",
+          "the",
+          "town",
+          "and",
+          "surrounding",
+          "region."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "now"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "section"
+          ],
+          [
+            "with"
+          ],
+          [
+            "materials"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "history"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "town"
+          ],
+          [
+            "and"
+          ],
+          [
+            "surrounding"
+          ],
+          [
+            "region."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/29.mp3",
+        "timeStart": 79.4,
+        "timeEnd": 87.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32445/list"
+      },
+      {
+        "id": 32446,
+        "position": 30,
+        "content": "Right. I'll tell her.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right.",
+          [
+            "I'll",
+            "I will"
+          ],
+          "tell",
+          "her."
+        ],
+        "solution": [
+          [
+            "Right."
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/30.mp3",
+        "timeStart": 87.97,
+        "timeEnd": 90.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32446/list"
+      },
+      {
+        "id": 32447,
+        "position": 31,
+        "content": "You can't always find that sort of thing on the internet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can't",
+          "always",
+          "find",
+          "that",
+          "sort",
+          "of",
+          "thing",
+          "on",
+          "the",
+          "internet."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "always"
+          ],
+          [
+            "find"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "internet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/31.mp3",
+        "timeStart": 90.51,
+        "timeEnd": 93.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32447/list"
+      },
+      {
+        "id": 32448,
+        "position": 32,
+        "content": "Now in the old library there used to be a separate room with reference books.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "in",
+          "the",
+          "old",
+          "library",
+          "there",
+          "used",
+          "to",
+          "be",
+          "a",
+          "separate",
+          "room",
+          "with",
+          "reference",
+          "books."
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "old"
+          ],
+          [
+            "library"
+          ],
+          [
+            "there"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "separate"
+          ],
+          [
+            "room"
+          ],
+          [
+            "with"
+          ],
+          [
+            "reference"
+          ],
+          [
+            "books."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/32.mp3",
+        "timeStart": 93.78,
+        "timeEnd": 99.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32448/list"
+      },
+      {
+        "id": 32449,
+        "position": 33,
+        "content": "It was a really nice quiet room.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "a",
+          "really",
+          "nice",
+          "quiet",
+          "room."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "really"
+          ],
+          [
+            "nice"
+          ],
+          [
+            "quiet"
+          ],
+          [
+            "room."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/33.mp3",
+        "timeStart": 99.32,
+        "timeEnd": 101.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32449/list"
+      },
+      {
+        "id": 32450,
+        "position": 34,
+        "content": "Yes. We've put those books in the main part of the library now,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          [
+            "We've",
+            "we have"
+          ],
+          "put",
+          "those",
+          "books",
+          "in",
+          "the",
+          "main",
+          "part",
+          "of",
+          "the",
+          "library",
+          "now,"
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "We've",
+            "we have"
+          ],
+          [
+            "put"
+          ],
+          [
+            "those"
+          ],
+          [
+            "books"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "main"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "now,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/34.mp3",
+        "timeStart": 101.59,
+        "timeEnd": 106.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32450/list"
+      },
+      {
+        "id": 32451,
+        "position": 35,
+        "content": "but we do have a room called the community room.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "do",
+          "have",
+          "a",
+          "room",
+          "called",
+          "the",
+          "community",
+          "room."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "room"
+          ],
+          [
+            "called"
+          ],
+          [
+            "the"
+          ],
+          [
+            "community"
+          ],
+          [
+            "room."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/35.mp3",
+        "timeStart": 106.61,
+        "timeEnd": 110.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32451/list"
+      },
+      {
+        "id": 32452,
+        "position": 36,
+        "content": "It can be hired out for meetings,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "can",
+          "be",
+          "hired",
+          "out",
+          "for",
+          "meetings,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "hired"
+          ],
+          [
+            "out"
+          ],
+          [
+            "for"
+          ],
+          [
+            "meetings,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/36.mp3",
+        "timeStart": 110.24,
+        "timeEnd": 112.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32452/list"
+      },
+      {
+        "id": 32453,
+        "position": 37,
+        "content": "but at other times people can use it to study.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "at",
+          "other",
+          "times",
+          "people",
+          "can",
+          "use",
+          "it",
+          "to",
+          "study."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "at"
+          ],
+          [
+            "other"
+          ],
+          [
+            "times"
+          ],
+          [
+            "people"
+          ],
+          [
+            "can"
+          ],
+          [
+            "use"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "study."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/37.mp3",
+        "timeStart": 112.65,
+        "timeEnd": 115.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32453/list"
+      },
+      {
+        "id": 32454,
+        "position": 38,
+        "content": "I might use that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "might",
+          "use",
+          "that."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "might"
+          ],
+          [
+            "use"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/38.mp3",
+        "timeStart": 115.89,
+        "timeEnd": 117.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32454/list"
+      },
+      {
+        "id": 32455,
+        "position": 39,
+        "content": "It's hard to find anywhere quiet at home sometimes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "hard",
+          "to",
+          "find",
+          "anywhere",
+          "quiet",
+          "at",
+          "home",
+          "sometimes."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "anywhere"
+          ],
+          [
+            "quiet"
+          ],
+          [
+            "at"
+          ],
+          [
+            "home"
+          ],
+          [
+            "sometimes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/39.mp3",
+        "timeStart": 117.6,
+        "timeEnd": 120.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32455/list"
+      },
+      {
+        "id": 32456,
+        "position": 40,
+        "content": "I can't remember how old your son and daughter are...",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "remember",
+          "how",
+          "old",
+          "your",
+          "son",
+          "and",
+          "daughter",
+          "are..."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "how"
+          ],
+          [
+            "old"
+          ],
+          [
+            "your"
+          ],
+          [
+            "son"
+          ],
+          [
+            "and"
+          ],
+          [
+            "daughter"
+          ],
+          [
+            "are..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/40.mp3",
+        "timeStart": 120.68,
+        "timeEnd": 124.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32456/list"
+      },
+      {
+        "id": 32457,
+        "position": 41,
+        "content": "we've introduced a special section of fiction written specially for teenagers,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "we've",
+            "we have"
+          ],
+          "introduced",
+          "a",
+          "special",
+          "section",
+          "of",
+          "fiction",
+          "written",
+          "specially",
+          "for",
+          "teenagers,"
+        ],
+        "solution": [
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "introduced"
+          ],
+          [
+            "a"
+          ],
+          [
+            "special"
+          ],
+          [
+            "section"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fiction"
+          ],
+          [
+            "written"
+          ],
+          [
+            "specially"
+          ],
+          [
+            "for"
+          ],
+          [
+            "teenagers,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/41.mp3",
+        "timeStart": 124.69,
+        "timeEnd": 129.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32457/list"
+      },
+      {
+        "id": 32458,
+        "position": 42,
+        "content": "but they might be a bit young for that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "they",
+          "might",
+          "be",
+          "a",
+          "bit",
+          "young",
+          "for",
+          "that?"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "they"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "young"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/42.mp3",
+        "timeStart": 129.93,
+        "timeEnd": 132.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32458/list"
+      },
+      {
+        "id": 32459,
+        "position": 43,
+        "content": "Yes, they would be.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "they would",
+            "They'd"
+          ],
+          "be."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "they would",
+            "They'd"
+          ],
+          [
+            "be."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/43.mp3",
+        "timeStart": 132.26,
+        "timeEnd": 133.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32459/list"
+      },
+      {
+        "id": 32460,
+        "position": 44,
+        "content": "Well, we do have lots of activities for younger children.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "we",
+          "do",
+          "have",
+          "lots",
+          "of",
+          "activities",
+          "for",
+          "younger",
+          "children."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "have"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "for"
+          ],
+          [
+            "younger"
+          ],
+          [
+            "children."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/44.mp3",
+        "timeStart": 135.59,
+        "timeEnd": 139.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32460/list"
+      },
+      {
+        "id": 32461,
+        "position": 45,
+        "content": "Yes?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes?"
+        ],
+        "solution": [
+          [
+            "Yes?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/45.mp3",
+        "timeStart": 139.5,
+        "timeEnd": 140.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32461/list"
+      },
+      {
+        "id": 32462,
+        "position": 46,
+        "content": "For example we have a Science Club.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "example",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "Science",
+          "Club."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "example"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "Science"
+          ],
+          [
+            "Club."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/46.mp3",
+        "timeStart": 140.54,
+        "timeEnd": 143.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32462/list"
+      },
+      {
+        "id": 32463,
+        "position": 47,
+        "content": "At the next meeting, they're going to be doing experiments with stuff that everyone has in the kitchen -",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "the",
+          "next",
+          "meeting,",
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "doing",
+          "experiments",
+          "with",
+          "stuff",
+          "that",
+          "everyone",
+          "has",
+          "in",
+          "the",
+          "kitchen",
+          "-"
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "meeting,"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "experiments"
+          ],
+          [
+            "with"
+          ],
+          [
+            "stuff"
+          ],
+          [
+            "that"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "has"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "kitchen"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/47.mp3",
+        "timeStart": 143.89,
+        "timeEnd": 150.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32463/list"
+      },
+      {
+        "id": 32464,
+        "position": 48,
+        "content": "sugar and flour and so on.",
+        "defaultInput": "",
+        "jsonContent": [
+          "sugar",
+          "and",
+          "flour",
+          "and",
+          "so",
+          "on."
+        ],
+        "solution": [
+          [
+            "sugar"
+          ],
+          [
+            "and"
+          ],
+          [
+            "flour"
+          ],
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/48.mp3",
+        "timeStart": 150.33,
+        "timeEnd": 152.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32464/list"
+      },
+      {
+        "id": 32465,
+        "position": 49,
+        "content": "They might be interested, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "might",
+          "be",
+          "interested,",
+          "yes."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "interested,"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/49.mp3",
+        "timeStart": 152.74,
+        "timeEnd": 155.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32465/list"
+      },
+      {
+        "id": 32466,
+        "position": 50,
+        "content": "And we have a competition for children called Reading Challenge.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "competition",
+          "for",
+          "children",
+          "called",
+          "Reading",
+          "Challenge."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "competition"
+          ],
+          [
+            "for"
+          ],
+          [
+            "children"
+          ],
+          [
+            "called"
+          ],
+          [
+            "Reading"
+          ],
+          [
+            "Challenge."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/50.mp3",
+        "timeStart": 155.06,
+        "timeEnd": 160.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32466/list"
+      },
+      {
+        "id": 32467,
+        "position": 51,
+        "content": "That doesn't begin until after the end of term.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "begin",
+          "until",
+          "after",
+          "the",
+          "end",
+          "of",
+          "term."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "begin"
+          ],
+          [
+            "until"
+          ],
+          [
+            "after"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "term."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/51.mp3",
+        "timeStart": 160.2,
+        "timeEnd": 163.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32467/list"
+      },
+      {
+        "id": 32468,
+        "position": 52,
+        "content": "They have to read six books,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They have",
+            "they've"
+          ],
+          "to",
+          "read",
+          [
+            "six",
+            "6"
+          ],
+          "books,"
+        ],
+        "solution": [
+          [
+            "They have",
+            "they've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "read"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "books,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/52.mp3",
+        "timeStart": 164.12,
+        "timeEnd": 166.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32468/list"
+      },
+      {
+        "id": 32469,
+        "position": 53,
+        "content": "and they get a certificate if they manage it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "they",
+          "get",
+          "a",
+          "certificate",
+          "if",
+          "they",
+          "manage",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "certificate"
+          ],
+          [
+            "if"
+          ],
+          [
+            "they"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/53.mp3",
+        "timeStart": 166.12,
+        "timeEnd": 169.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32469/list"
+      },
+      {
+        "id": 32470,
+        "position": 54,
+        "content": "So that gives them something to do while they're on holiday, instead of getting bored.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "that",
+          "gives",
+          "them",
+          "something",
+          "to",
+          "do",
+          "while",
+          [
+            "they're",
+            "they are"
+          ],
+          "on",
+          "holiday,",
+          "instead",
+          "of",
+          "getting",
+          "bored."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "that"
+          ],
+          [
+            "gives"
+          ],
+          [
+            "them"
+          ],
+          [
+            "something"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "while"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "on"
+          ],
+          [
+            "holiday,"
+          ],
+          [
+            "instead"
+          ],
+          [
+            "of"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "bored."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/54.mp3",
+        "timeStart": 169.16,
+        "timeEnd": 174.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32470/list"
+      },
+      {
+        "id": 32471,
+        "position": 55,
+        "content": "That's the idea.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "the",
+          "idea."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "idea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/55.mp3",
+        "timeStart": 174.12,
+        "timeEnd": 175.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32471/list"
+      },
+      {
+        "id": 32472,
+        "position": 56,
+        "content": "And there's special activities for adults too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "there's",
+            "there is"
+          ],
+          "special",
+          "activities",
+          "for",
+          "adults",
+          "too."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "special"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "for"
+          ],
+          [
+            "adults"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/56.mp3",
+        "timeStart": 175.81,
+        "timeEnd": 179,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32472/list"
+      },
+      {
+        "id": 32473,
+        "position": 57,
+        "content": "On Friday we have a local author called Tanya Streep,",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "Friday",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "local",
+          "author",
+          "called",
+          "Tanya",
+          "Streep,"
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "Friday"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "local"
+          ],
+          [
+            "author"
+          ],
+          [
+            "called"
+          ],
+          [
+            "Tanya"
+          ],
+          [
+            "Streep,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/57.mp3",
+        "timeStart": 179.45,
+        "timeEnd": 184.01,
+        "hints": [
+          "Tanya Streep"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32473/list"
+      },
+      {
+        "id": 32474,
+        "position": 58,
+        "content": "who's going to be talking about her new novel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "who's",
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "talking",
+          "about",
+          "her",
+          "new",
+          "novel."
+        ],
+        "solution": [
+          [
+            "who's"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "talking"
+          ],
+          [
+            "about"
+          ],
+          [
+            "her"
+          ],
+          [
+            "new"
+          ],
+          [
+            "novel."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/58.mp3",
+        "timeStart": 184.01,
+        "timeEnd": 187,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32474/list"
+      },
+      {
+        "id": 32475,
+        "position": 59,
+        "content": "It's called 'Catch the Mouse'",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "called",
+          "'Catch",
+          "the",
+          "Mouse'"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "called"
+          ],
+          [
+            "'Catch"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mouse'"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/59.mp3",
+        "timeStart": 187,
+        "timeEnd": 189.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32475/list"
+      },
+      {
+        "id": 32476,
+        "position": 60,
+        "content": "and she based the story on a crime that actually took place here years ago.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "she",
+          "based",
+          "the",
+          "story",
+          "on",
+          "a",
+          "crime",
+          "that",
+          "actually",
+          "took",
+          "place",
+          "here",
+          "years",
+          "ago."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "she"
+          ],
+          [
+            "based"
+          ],
+          [
+            "the"
+          ],
+          [
+            "story"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "crime"
+          ],
+          [
+            "that"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "took"
+          ],
+          [
+            "place"
+          ],
+          [
+            "here"
+          ],
+          [
+            "years"
+          ],
+          [
+            "ago."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/60.mp3",
+        "timeStart": 189.46,
+        "timeEnd": 194.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32476/list"
+      },
+      {
+        "id": 32477,
+        "position": 61,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/61.mp3",
+        "timeStart": 194.82,
+        "timeEnd": 195.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32477/list"
+      },
+      {
+        "id": 32478,
+        "position": 62,
+        "content": "We're not free on Friday, but I'll look out for the book.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "we are"
+          ],
+          "not",
+          "free",
+          "on",
+          "Friday,",
+          "but",
+          [
+            "I'll",
+            "I will"
+          ],
+          "look",
+          "out",
+          "for",
+          "the",
+          "book."
+        ],
+        "solution": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "not"
+          ],
+          [
+            "free"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Friday,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "look"
+          ],
+          [
+            "out"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "book."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/62.mp3",
+        "timeStart": 196.12,
+        "timeEnd": 199.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32478/list"
+      },
+      {
+        "id": 32479,
+        "position": 63,
+        "content": "Now this probably isn't for you,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "this",
+          "probably",
+          [
+            "isn't",
+            "is not"
+          ],
+          "for",
+          "you,"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "this"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/63.mp3",
+        "timeStart": 199.86,
+        "timeEnd": 202.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32479/list"
+      },
+      {
+        "id": 32480,
+        "position": 64,
+        "content": "but we do have IT support available for members.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "do",
+          "have",
+          "IT",
+          "support",
+          "available",
+          "for",
+          "members."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "have"
+          ],
+          [
+            "IT"
+          ],
+          [
+            "support"
+          ],
+          [
+            "available"
+          ],
+          [
+            "for"
+          ],
+          [
+            "members."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/64.mp3",
+        "timeStart": 202.16,
+        "timeEnd": 206.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32480/list"
+      },
+      {
+        "id": 32481,
+        "position": 65,
+        "content": "We get quite a few older people coming along",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "get",
+          "quite",
+          "a",
+          "few",
+          "older",
+          "people",
+          "coming",
+          "along"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "get"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "older"
+          ],
+          [
+            "people"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "along"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/65.mp3",
+        "timeStart": 207.02,
+        "timeEnd": 209.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32481/list"
+      },
+      {
+        "id": 32482,
+        "position": 66,
+        "content": "who are wanting to get up to speed with computer technology.",
+        "defaultInput": "",
+        "jsonContent": [
+          "who",
+          "are",
+          "wanting",
+          "to",
+          "get",
+          "up",
+          "to",
+          "speed",
+          "with",
+          "computer",
+          "technology."
+        ],
+        "solution": [
+          [
+            "who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "wanting"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "speed"
+          ],
+          [
+            "with"
+          ],
+          [
+            "computer"
+          ],
+          [
+            "technology."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/66.mp3",
+        "timeStart": 209.96,
+        "timeEnd": 214.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32482/list"
+      },
+      {
+        "id": 32483,
+        "position": 67,
+        "content": "It's on Tuesday mornings -",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "on",
+          "Tuesday",
+          "mornings",
+          "-"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Tuesday"
+          ],
+          [
+            "mornings"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/67.mp3",
+        "timeStart": 214.42,
+        "timeEnd": 216.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32483/list"
+      },
+      {
+        "id": 32484,
+        "position": 68,
+        "content": "they don't need to make an appointment or anything, they just turn up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          [
+            "don't",
+            "do not"
+          ],
+          "need",
+          "to",
+          "make",
+          "an",
+          "appointment",
+          "or",
+          "anything,",
+          "they",
+          "just",
+          "turn",
+          "up."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "or"
+          ],
+          [
+            "anything,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "just"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/68.mp3",
+        "timeStart": 216.41,
+        "timeEnd": 220.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32484/list"
+      },
+      {
+        "id": 32485,
+        "position": 69,
+        "content": "Well, my mother might be interested,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "my",
+          "mother",
+          "might",
+          "be",
+          "interested,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "mother"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "interested,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/69.mp3",
+        "timeStart": 220.61,
+        "timeEnd": 223,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32485/list"
+      },
+      {
+        "id": 32486,
+        "position": 70,
+        "content": "I'll let her know.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "let",
+          "her",
+          "know."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "let"
+          ],
+          [
+            "her"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/70.mp3",
+        "timeStart": 223,
+        "timeEnd": 224.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32486/list"
+      },
+      {
+        "id": 32487,
+        "position": 71,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/71.mp3",
+        "timeStart": 224.14,
+        "timeEnd": 225.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32487/list"
+      },
+      {
+        "id": 32488,
+        "position": 72,
+        "content": "And there's another service which you wouldn't expect from a library,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "there's",
+            "there is"
+          ],
+          "another",
+          "service",
+          "which",
+          "you",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "expect",
+          "from",
+          "a",
+          "library,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "another"
+          ],
+          [
+            "service"
+          ],
+          [
+            "which"
+          ],
+          [
+            "you"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "from"
+          ],
+          [
+            "a"
+          ],
+          [
+            "library,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/72.mp3",
+        "timeStart": 225.41,
+        "timeEnd": 230.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32488/list"
+      },
+      {
+        "id": 32489,
+        "position": 73,
+        "content": "which is a free medical check-up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "is",
+          "a",
+          "free",
+          "medical",
+          [
+            "check-up.",
+            "check up."
+          ]
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "free"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "check-up.",
+            "check up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/73.mp3",
+        "timeStart": 230.08,
+        "timeEnd": 232.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32489/list"
+      },
+      {
+        "id": 32490,
+        "position": 74,
+        "content": "The hospital arranges for someone to come along",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "hospital",
+          "arranges",
+          "for",
+          "someone",
+          "to",
+          "come",
+          "along"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "hospital"
+          ],
+          [
+            "arranges"
+          ],
+          [
+            "for"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "along"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/74.mp3",
+        "timeStart": 232.91,
+        "timeEnd": 235.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32490/list"
+      },
+      {
+        "id": 32491,
+        "position": 75,
+        "content": "and measure the level of sugar in your blood,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "measure",
+          "the",
+          "level",
+          "of",
+          "sugar",
+          "in",
+          "your",
+          "blood,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "measure"
+          ],
+          [
+            "the"
+          ],
+          [
+            "level"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sugar"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "blood,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/75.mp3",
+        "timeStart": 235.8,
+        "timeEnd": 238.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32491/list"
+      },
+      {
+        "id": 32492,
+        "position": 76,
+        "content": "and they check cholesterol levels at the same time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "they",
+          "check",
+          "cholesterol",
+          "levels",
+          "at",
+          "the",
+          "same",
+          "time."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "check"
+          ],
+          [
+            "cholesterol"
+          ],
+          [
+            "levels"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/76.mp3",
+        "timeStart": 238.81,
+        "timeEnd": 242.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32492/list"
+      },
+      {
+        "id": 32493,
+        "position": 77,
+        "content": "Really?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Really?"
+        ],
+        "solution": [
+          [
+            "Really?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/77.mp3",
+        "timeStart": 242.06,
+        "timeEnd": 242.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32493/list"
+      },
+      {
+        "id": 32494,
+        "position": 78,
+        "content": "Yes, but that's only for the over-60s,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "but",
+          [
+            "that's",
+            "that is"
+          ],
+          "only",
+          "for",
+          "the",
+          [
+            "over-60s,",
+            "over 60s,"
+          ]
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "only"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "over-60s,",
+            "over 60s,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/78.mp3",
+        "timeStart": 242.85,
+        "timeEnd": 246.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32494/list"
+      },
+      {
+        "id": 32495,
+        "position": 79,
+        "content": "so you wouldn't qualify.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "you",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "qualify."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "qualify."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/79.mp3",
+        "timeStart": 246.57,
+        "timeEnd": 248.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32495/list"
+      },
+      {
+        "id": 32496,
+        "position": 80,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/80.mp3",
+        "timeStart": 248.27,
+        "timeEnd": 249.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32496/list"
+      },
+      {
+        "id": 32497,
+        "position": 81,
+        "content": "Well, I'll tell my mother, she might be interested.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "tell",
+          "my",
+          "mother,",
+          "she",
+          "might",
+          "be",
+          "interested."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "my"
+          ],
+          [
+            "mother,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "interested."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/81.mp3",
+        "timeStart": 249.32,
+        "timeEnd": 252.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32497/list"
+      },
+      {
+        "id": 32498,
+        "position": 82,
+        "content": "What other information...",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "other",
+          "information..."
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "other"
+          ],
+          [
+            "information..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/82.mp3",
+        "timeStart": 252.87,
+        "timeEnd": 254.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32498/list"
+      },
+      {
+        "id": 32499,
+        "position": 83,
+        "content": "well, we do have a little shop with things like wallcharts and greetings cards,",
+        "defaultInput": "",
+        "jsonContent": [
+          "well,",
+          "we",
+          "do",
+          "have",
+          "a",
+          "little",
+          "shop",
+          "with",
+          "things",
+          "like",
+          "wallcharts",
+          "and",
+          "greetings",
+          "cards,"
+        ],
+        "solution": [
+          [
+            "well,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "shop"
+          ],
+          [
+            "with"
+          ],
+          [
+            "things"
+          ],
+          [
+            "like"
+          ],
+          [
+            "wallcharts"
+          ],
+          [
+            "and"
+          ],
+          [
+            "greetings"
+          ],
+          [
+            "cards,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/83.mp3",
+        "timeStart": 255.32,
+        "timeEnd": 261.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32499/list"
+      },
+      {
+        "id": 32500,
+        "position": 84,
+        "content": "and also stamps so you can post the cards straightaway, which is really useful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "also",
+          "stamps",
+          "so",
+          "you",
+          "can",
+          "post",
+          "the",
+          "cards",
+          "straightaway,",
+          "which",
+          "is",
+          "really",
+          "useful."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "also"
+          ],
+          [
+            "stamps"
+          ],
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "post"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cards"
+          ],
+          [
+            "straightaway,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "really"
+          ],
+          [
+            "useful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/84.mp3",
+        "timeStart": 261.81,
+        "timeEnd": 267.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32500/list"
+      },
+      {
+        "id": 32501,
+        "position": 85,
+        "content": "Yeah.",
+        "defaultInput": "Yeah.",
+        "jsonContent": [
+          "Yeah."
+        ],
+        "solution": [
+          [
+            "Yeah."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/85.mp3",
+        "timeStart": 267.29,
+        "timeEnd": 268.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32501/list"
+      },
+      {
+        "id": 32502,
+        "position": 86,
+        "content": "Well, I'll bring the children round at the weekend and we'll join.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "bring",
+          "the",
+          "children",
+          "round",
+          "at",
+          "the",
+          "weekend",
+          "and",
+          [
+            "we'll",
+            "we will"
+          ],
+          "join."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "the"
+          ],
+          [
+            "children"
+          ],
+          [
+            "round"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weekend"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "join."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/86.mp3",
+        "timeStart": 268.19,
+        "timeEnd": 271.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32502/list"
+      },
+      {
+        "id": 32503,
+        "position": 87,
+        "content": "Oh, one more thing - I'll be bringing the car, is there parking available?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          [
+            "one",
+            "1"
+          ],
+          "more",
+          "thing",
+          "-",
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "bringing",
+          "the",
+          "car,",
+          "is",
+          "there",
+          "parking",
+          "available?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "more"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "-"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "bringing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "car,"
+          ],
+          [
+            "is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "parking"
+          ],
+          [
+            "available?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/87.mp3",
+        "timeStart": 271.9,
+        "timeEnd": 276.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32503/list"
+      },
+      {
+        "id": 32504,
+        "position": 88,
+        "content": "Yes, and it's free in the evening and at weekends.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "and",
+          "it's",
+          "free",
+          "in",
+          "the",
+          "evening",
+          "and",
+          "at",
+          "weekends."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "free"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "and"
+          ],
+          [
+            "at"
+          ],
+          [
+            "weekends."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/88.mp3",
+        "timeStart": 276.82,
+        "timeEnd": 280.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32504/list"
+      },
+      {
+        "id": 32505,
+        "position": 89,
+        "content": "Perfect.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perfect."
+        ],
+        "solution": [
+          [
+            "Perfect."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/89.mp3",
+        "timeStart": 280.85,
+        "timeEnd": 281.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32505/list"
+      },
+      {
+        "id": 32506,
+        "position": 90,
+        "content": "Well, thanks, Susie...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "thanks,",
+          "Susie..."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "thanks,"
+          ],
+          [
+            "Susie..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-12-test-3-part-1-2023-05-22-08-12-27/90.mp3",
+        "timeStart": 281.92,
+        "timeEnd": 283.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/32506/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "32420": {
+      "id": 573581,
+      "text": "bạn có thích công việc mới của mình không?",
+      "author": "a user"
+    },
+    "32424": {
+      "id": 573590,
+      "text": "Tuyệt lắm.",
+      "author": "a user"
+    },
+    "32432": {
+      "id": 573617,
+      "text": "Ước gì tôi có khoảng thời gian đó để dành cho!",
+      "author": "a user"
+    },
+    "32433": {
+      "id": 573621,
+      "text": "Đúng rồi, hiện tại bạn hẳn là đang khá bận rộn nhỉ, với những đứa trẻ và mọi thứ?",
+      "author": "a user"
+    },
+    "32434": {
+      "id": 573624,
+      "text": "Chúng tôi khá bận, vâng.",
+      "author": "a user"
+    },
+    "32435": {
+      "id": 573625,
+      "text": "Nhưng chúng tôi hy vọng sẽ trốn thoát vào mùa hè này",
+      "author": "a user"
+    },
+    "32500": {
+      "id": 573804,
+      "text": "và cả tem để bạn có thể gửi thiệp ngay lập tức, điều này thực sự hữu ích.",
+      "author": "a user"
+    },
+    "32438": {
+      "id": 574298,
+      "text": "vì vậy bạn nên đến và xem qua.",
+      "author": "a user"
+    },
+    "32444": {
+      "id": 574308,
+      "text": "Bạn có bất cứ thứ gì hữu dụng không?",
+      "author": "a user"
+    },
+    "32449": {
+      "id": 574983,
+      "text": "Đó thực sự là một căn phòng yên tĩnh dễ chịu.",
+      "author": "a user"
+    },
+    "32455": {
+      "id": 574990,
+      "text": "Đôi khi thật khó để tìm thấy bất cứ nơi nào yên tĩnh ở nhà.",
+      "author": "a user"
+    },
+    "32457": {
+      "id": 574992,
+      "text": "chúng tôi đã giới thiệu một khu vực đặc biệt với tiểu thuyết giả tưởng được viết riêng cho thanh thiếu niên,",
+      "author": "a user"
+    },
+    "32458": {
+      "id": 574993,
+      "text": "nhưng chúng có lẽ còn hơi nhỏ để đọc tiểu thuyết giả tưởng?",
+      "author": "a user"
+    },
+    "32459": {
+      "id": 574994,
+      "text": "Vâng, chúng đúng là như vậy.",
+      "author": "a user"
+    },
+    "32467": {
+      "id": 575003,
+      "text": "Điều đó chưa bắt đầu cho đến khi kết thúc học kỳ.",
+      "author": "a user"
+    },
+    "32469": {
+      "id": 575005,
+      "text": "và họ nhận được chứng chỉ nếu họ thành công.",
+      "author": "a user"
+    },
+    "32471": {
+      "id": 575007,
+      "text": "Đúng rồi đấy.",
+      "author": "a user"
+    },
+    "32488": {
+      "id": 575024,
+      "text": "Và có một dịch vụ khác mà bạn sẽ thấy bất ngờ,",
+      "author": "a user"
+    },
+    "32490": {
+      "id": 575026,
+      "text": "Bệnh viện bố trí cho người đi cùng",
+      "author": "a user"
+    },
+    "32498": {
+      "id": 575034,
+      "text": "Còn những thông tin nào khác nhỉ...",
+      "author": "a user"
+    },
+    "32417": {
+      "id": 2595212,
+      "text": "A-lô?",
+      "author": "ChatGPT4.1"
+    },
+    "32418": {
+      "id": 2595213,
+      "text": "Chào Susie, Paul đây.",
+      "author": "ChatGPT4.1"
+    },
+    "32419": {
+      "id": 2595214,
+      "text": "Bạn khỏe không?",
+      "author": "ChatGPT4.1"
+    },
+    "32421": {
+      "id": 2595215,
+      "text": "Bạn đang làm việc ở thư viện phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "32422": {
+      "id": 2595216,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "32423": {
+      "id": 2595217,
+      "text": "Tôi bắt đầu khi thư viện mở cửa trở lại cách đây một tháng.",
+      "author": "ChatGPT4.1"
+    },
+    "32425": {
+      "id": 2595218,
+      "text": "Thật ra Carol và tôi đã định tham gia từ lâu rồi.",
+      "author": "a user"
+    },
+    "32426": {
+      "id": 2595219,
+      "text": "Ồ, bạn nên gia nhập đi.",
+      "author": "ChatGPT4.1"
+    },
+    "32427": {
+      "id": 2595220,
+      "text": "Không tốn phí gì đâu,",
+      "author": "ChatGPT4.1"
+    },
+    "32428": {
+      "id": 2595221,
+      "text": "và thư viện mới có đủ loại tiện ích.",
+      "author": "ChatGPT4.1"
+    },
+    "32429": {
+      "id": 2595222,
+      "text": "Nó không chỉ là nơi để mượn sách.",
+      "author": "ChatGPT4.1"
+    },
+    "32430": {
+      "id": 2595223,
+      "text": "Ví dụ, có một khu vực với ghế ngồi thoải mái mà bạn có thể ngồi đọc tạp chí ở đó.",
+      "author": "ChatGPT4.1"
+    },
+    "32431": {
+      "id": 2595224,
+      "text": "Có người ngồi đó cả buổi sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "32436": {
+      "id": 2595225,
+      "text": "Chúng tôi đang nghĩ đến việc đi Hy Lạp.",
+      "author": "ChatGPT4.1"
+    },
+    "32437": {
+      "id": 2595226,
+      "text": "À, bây giờ ở thư viện có khu vực sách du lịch lớn hơn nhiều,",
+      "author": "ChatGPT4.1"
+    },
+    "32439": {
+      "id": 2595227,
+      "text": "Tôi không nhớ là có sách nào chỉ nói về Hy Lạp không,",
+      "author": "ChatGPT4.1"
+    },
+    "32440": {
+      "id": 2595228,
+      "text": "nhưng chắc là có đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "32441": {
+      "id": 2595229,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "32442": {
+      "id": 2595230,
+      "text": "Bây giờ Carol đang tổ chức một dự án cho lớp lịch sử cô ấy dạy ở trường,",
+      "author": "ChatGPT4.1"
+    },
+    "32443": {
+      "id": 2595231,
+      "text": "đó là về cuộc sống ở thị trấn cách đây một trăm năm.",
+      "author": "ChatGPT4.1"
+    },
+    "32445": {
+      "id": 2595232,
+      "text": "Có, thực ra bây giờ chúng tôi có một khu mới với tài liệu về lịch sử thị trấn và vùng lân cận.",
+      "author": "ChatGPT4.1"
+    },
+    "32446": {
+      "id": 2595233,
+      "text": "Được rồi. Tôi sẽ nói với cô ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "32460": {
+      "id": 2621860,
+      "text": "Vâng, chúng tôi có rất nhiều hoạt động cho trẻ nhỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "32461": {
+      "id": 2621861,
+      "text": "Vậy à?",
+      "author": "ChatGPT4.1"
+    },
+    "32462": {
+      "id": 2621862,
+      "text": "Ví dụ như chúng tôi có một câu lạc bộ Khoa học.",
+      "author": "ChatGPT4.1"
+    },
+    "32463": {
+      "id": 2621863,
+      "text": "Tại buổi họp tới, các em sẽ làm thí nghiệm với những thứ mà ai cũng có trong bếp -",
+      "author": "ChatGPT4.1"
+    },
+    "32464": {
+      "id": 2621864,
+      "text": "như đường, bột mì và các thứ tương tự.",
+      "author": "ChatGPT4.1"
+    },
+    "32465": {
+      "id": 2621865,
+      "text": "Có thể các em sẽ quan tâm, vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "32466": {
+      "id": 2621866,
+      "text": "Và chúng tôi có một cuộc thi dành cho trẻ em gọi là Thử thách Đọc sách.",
+      "author": "ChatGPT4.1"
+    },
+    "32468": {
+      "id": 2621867,
+      "text": "Các em phải đọc sáu quyển sách,",
+      "author": "ChatGPT4.1"
+    },
+    "32470": {
+      "id": 2621868,
+      "text": "Vì vậy, các em sẽ có việc để làm trong kỳ nghỉ, thay vì cảm thấy chán.",
+      "author": "ChatGPT4.1"
+    },
+    "32472": {
+      "id": 2621869,
+      "text": "Và cũng có các hoạt động đặc biệt dành cho người lớn nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "32473": {
+      "id": 2621870,
+      "text": "Vào thứ Sáu, chúng tôi có một tác giả địa phương tên là Tanya Streep,",
+      "author": "ChatGPT4.1"
+    },
+    "32474": {
+      "id": 2621871,
+      "text": "người sẽ đến nói chuyện về tiểu thuyết mới của cô ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "32475": {
+      "id": 2621872,
+      "text": "Tác phẩm có tên là 'Bắt chuột'",
+      "author": "ChatGPT4.1"
+    },
+    "32476": {
+      "id": 2621873,
+      "text": "và cô ấy dựa trên một vụ án thực sự đã xảy ra ở đây cách đây nhiều năm.",
+      "author": "ChatGPT4.1"
+    },
+    "32477": {
+      "id": 2621874,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "32478": {
+      "id": 2621875,
+      "text": "Chúng tôi không rảnh vào thứ Sáu, nhưng tôi sẽ chú ý tìm quyển sách đó.",
+      "author": "ChatGPT4.1"
+    },
+    "32479": {
+      "id": 2621876,
+      "text": "Có lẽ điều này không phù hợp với bạn,",
+      "author": "ChatGPT4.1"
+    },
+    "32480": {
+      "id": 2621877,
+      "text": "nhưng chúng tôi có hỗ trợ CNTT cho các thành viên.",
+      "author": "ChatGPT4.1"
+    },
+    "32481": {
+      "id": 2621878,
+      "text": "Chúng tôi có khá nhiều người lớn tuổi tới",
+      "author": "ChatGPT4.1"
+    },
+    "32482": {
+      "id": 2621879,
+      "text": "những người muốn cập nhật kiến thức về công nghệ máy tính.",
+      "author": "ChatGPT4.1"
+    },
+    "32483": {
+      "id": 2621880,
+      "text": "Chương trình diễn ra vào sáng thứ Ba -",
+      "author": "ChatGPT4.1"
+    },
+    "32484": {
+      "id": 2621881,
+      "text": "họ không cần đặt lịch trước hay làm gì cả, chỉ cần đến thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "32485": {
+      "id": 2621882,
+      "text": "Mẹ tôi có thể sẽ quan tâm đấy,",
+      "author": "ChatGPT4.1"
+    },
+    "32486": {
+      "id": 2621883,
+      "text": "Tôi sẽ báo cho bà biết.",
+      "author": "ChatGPT4.1"
+    },
+    "32487": {
+      "id": 2621884,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "32489": {
+      "id": 2621885,
+      "text": "đó là kiểm tra sức khỏe miễn phí.",
+      "author": "ChatGPT4.1"
+    },
+    "32447": {
+      "id": 2622440,
+      "text": "Bạn không phải lúc nào cũng có thể tìm thấy kiểu tài liệu đó trên internet.",
+      "author": "ChatGPT4.1"
+    },
+    "32448": {
+      "id": 2622441,
+      "text": "Ngày trước ở thư viện cũ từng có một phòng riêng cho sách tham khảo.",
+      "author": "ChatGPT4.1"
+    },
+    "32450": {
+      "id": 2622442,
+      "text": "Vâng. Chúng tôi đã chuyển những cuốn đó vào khu chính của thư viện rồi,",
+      "author": "ChatGPT4.1"
+    },
+    "32451": {
+      "id": 2622443,
+      "text": "nhưng chúng tôi vẫn có một phòng gọi là phòng cộng đồng.",
+      "author": "ChatGPT4.1"
+    },
+    "32452": {
+      "id": 2622444,
+      "text": "Phòng đó có thể cho thuê để họp,",
+      "author": "ChatGPT4.1"
+    },
+    "32453": {
+      "id": 2622445,
+      "text": "nhưng những lúc khác thì mọi người có thể dùng để học tập.",
+      "author": "ChatGPT4.1"
+    },
+    "32454": {
+      "id": 2622446,
+      "text": "Tôi có thể sẽ dùng phòng đó.",
+      "author": "ChatGPT4.1"
+    },
+    "32456": {
+      "id": 2622447,
+      "text": "Tôi không nhớ con trai và con gái bạn bao nhiêu tuổi...",
+      "author": "ChatGPT4.1"
+    },
+    "32491": {
+      "id": 2623779,
+      "text": "và đo lượng đường trong máu của bạn,",
+      "author": "ChatGPT4.1"
+    },
+    "32492": {
+      "id": 2623780,
+      "text": "và họ cũng kiểm tra luôn mức cholesterol cùng lúc.",
+      "author": "ChatGPT4.1"
+    },
+    "32493": {
+      "id": 2623781,
+      "text": "Thật sao?",
+      "author": "ChatGPT4.1"
+    },
+    "32494": {
+      "id": 2623782,
+      "text": "Đúng vậy, nhưng chỉ dành cho người trên 60 tuổi,",
+      "author": "ChatGPT4.1"
+    },
+    "32495": {
+      "id": 2623783,
+      "text": "nên bạn sẽ không đủ điều kiện.",
+      "author": "ChatGPT4.1"
+    },
+    "32496": {
+      "id": 2623784,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "32497": {
+      "id": 2623785,
+      "text": "Vậy tôi sẽ nói cho mẹ tôi, bà có thể sẽ quan tâm.",
+      "author": "ChatGPT4.1"
+    },
+    "32499": {
+      "id": 2623786,
+      "text": "à, chúng tôi có một cửa hàng nhỏ bán các món như biểu đồ, thiệp chúc mừng,",
+      "author": "ChatGPT4.1"
+    },
+    "32501": {
+      "id": 2623787,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "32502": {
+      "id": 2623788,
+      "text": "Vậy tôi sẽ đưa các con đến vào cuối tuần và chúng tôi sẽ đăng ký tham gia.",
+      "author": "ChatGPT4.1"
+    },
+    "32503": {
+      "id": 2623789,
+      "text": "À, còn một điều nữa – tôi sẽ đi ô tô, có chỗ đỗ xe không?",
+      "author": "ChatGPT4.1"
+    },
+    "32504": {
+      "id": 2623790,
+      "text": "Có, và hoàn toàn miễn phí vào buổi tối và cuối tuần.",
+      "author": "ChatGPT4.1"
+    },
+    "32505": {
+      "id": 2623791,
+      "text": "Tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "32506": {
+      "id": 2623823,
+      "text": "Cảm ơn Susie...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

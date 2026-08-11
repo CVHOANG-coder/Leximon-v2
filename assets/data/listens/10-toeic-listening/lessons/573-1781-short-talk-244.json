@@ -1,0 +1,667 @@
+{
+  "summary": {
+    "id": 1781,
+    "name": "Short Talk 244",
+    "subTitle": "Smart Thermostat Offer",
+    "levelName": "B2",
+    "position": 573,
+    "totalChallenges": 10,
+    "groupId": 72,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1781",
+  "detail": {
+    "id": 1781,
+    "lessonName": "Short Talk 244",
+    "name": "Short Talk 244",
+    "position": 573,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/0-short-talk-244.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70013,
+        "position": 1,
+        "content": "Good afternoon, Mr. Henry.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "afternoon,",
+          "Mr.",
+          "Henry."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Henry."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70013/list"
+      },
+      {
+        "id": 70014,
+        "position": 2,
+        "content": "This is Rosemary Blake from GreenEnergize.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "Rosemary",
+          "Blake",
+          "from",
+          "GreenEnergize."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Rosemary"
+          ],
+          [
+            "Blake"
+          ],
+          [
+            "from"
+          ],
+          [
+            "GreenEnergize."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/2.mp3",
+        "timeStart": 1.58,
+        "timeEnd": 4.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70014/list"
+      },
+      {
+        "id": 70015,
+        "position": 3,
+        "content": "I'm delighted to let you know that you are eligible for our exclusive home upgrade program,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "delighted",
+          "to",
+          "let",
+          "you",
+          "know",
+          "that",
+          [
+            "you are",
+            "you're"
+          ],
+          "eligible",
+          "for",
+          "our",
+          "exclusive",
+          "home",
+          "upgrade",
+          [
+            "program,",
+            "programme"
+          ]
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "delighted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "eligible"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "exclusive"
+          ],
+          [
+            "home"
+          ],
+          [
+            "upgrade"
+          ],
+          [
+            "program,",
+            "programme"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/3.mp3",
+        "timeStart": 4.45,
+        "timeEnd": 9.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70015/list"
+      },
+      {
+        "id": 70016,
+        "position": 4,
+        "content": "which rewards customers who have been with us for over three years",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "rewards",
+          "customers",
+          "who",
+          "have",
+          "been",
+          "with",
+          "us",
+          "for",
+          "over",
+          [
+            "three",
+            "3"
+          ],
+          "years"
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "rewards"
+          ],
+          [
+            "customers"
+          ],
+          [
+            "who"
+          ],
+          [
+            "have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "with"
+          ],
+          [
+            "us"
+          ],
+          [
+            "for"
+          ],
+          [
+            "over"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "years"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/4.mp3",
+        "timeStart": 9.36,
+        "timeEnd": 12.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70016/list"
+      },
+      {
+        "id": 70017,
+        "position": 5,
+        "content": "by offering them an advanced smart thermostat at a significantly discounted price.",
+        "defaultInput": "",
+        "jsonContent": [
+          "by",
+          "offering",
+          "them",
+          "an",
+          "advanced",
+          "smart",
+          "thermostat",
+          "at",
+          "a",
+          "significantly",
+          "discounted",
+          "price."
+        ],
+        "solution": [
+          [
+            "by"
+          ],
+          [
+            "offering"
+          ],
+          [
+            "them"
+          ],
+          [
+            "an"
+          ],
+          [
+            "advanced"
+          ],
+          [
+            "smart"
+          ],
+          [
+            "thermostat"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "significantly"
+          ],
+          [
+            "discounted"
+          ],
+          [
+            "price."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/5.mp3",
+        "timeStart": 12.94,
+        "timeEnd": 17.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70017/list"
+      },
+      {
+        "id": 70018,
+        "position": 6,
+        "content": "We are currently featuring the state-of-the-art ClimateMaster 5 model.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are",
+            "We're"
+          ],
+          "currently",
+          "featuring",
+          "the",
+          [
+            "state-of-the-art",
+            "state of the art"
+          ],
+          "ClimateMaster",
+          [
+            "5",
+            "five"
+          ],
+          "model."
+        ],
+        "solution": [
+          [
+            "We are",
+            "We're"
+          ],
+          [
+            "currently"
+          ],
+          [
+            "featuring"
+          ],
+          [
+            "the"
+          ],
+          [
+            "state-of-the-art",
+            "state of the art"
+          ],
+          [
+            "ClimateMaster"
+          ],
+          [
+            "5",
+            "five"
+          ],
+          [
+            "model."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/6.mp3",
+        "timeStart": 17.9,
+        "timeEnd": 21.73,
+        "hints": [
+          "ClimateMaster 5"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70018/list"
+      },
+      {
+        "id": 70019,
+        "position": 7,
+        "content": "To receive this innovative device for only $40,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "receive",
+          "this",
+          "innovative",
+          "device",
+          "for",
+          "only",
+          [
+            "$40,",
+            "40, dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "receive"
+          ],
+          [
+            "this"
+          ],
+          [
+            "innovative"
+          ],
+          [
+            "device"
+          ],
+          [
+            "for"
+          ],
+          [
+            "only"
+          ],
+          [
+            "$40,",
+            "40, dollars"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/7.mp3",
+        "timeStart": 22.01,
+        "timeEnd": 25.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70019/list"
+      },
+      {
+        "id": 70020,
+        "position": 8,
+        "content": "simply visit our website and complete a brief environmental habits questionnaire.",
+        "defaultInput": "",
+        "jsonContent": [
+          "simply",
+          "visit",
+          "our",
+          "website",
+          "and",
+          "complete",
+          "a",
+          "brief",
+          "environmental",
+          "habits",
+          "questionnaire."
+        ],
+        "solution": [
+          [
+            "simply"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "our"
+          ],
+          [
+            "website"
+          ],
+          [
+            "and"
+          ],
+          [
+            "complete"
+          ],
+          [
+            "a"
+          ],
+          [
+            "brief"
+          ],
+          [
+            "environmental"
+          ],
+          [
+            "habits"
+          ],
+          [
+            "questionnaire."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/8.mp3",
+        "timeStart": 25.18,
+        "timeEnd": 30.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70020/list"
+      },
+      {
+        "id": 70021,
+        "position": 9,
+        "content": "Once we've received your responses, we'll promptly ship the device to your doorstep,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          [
+            "we've",
+            "we have"
+          ],
+          "received",
+          "your",
+          "responses,",
+          [
+            "we'll",
+            "we will"
+          ],
+          "promptly",
+          "ship",
+          "the",
+          "device",
+          "to",
+          "your",
+          "doorstep,"
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "received"
+          ],
+          [
+            "your"
+          ],
+          [
+            "responses,"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "promptly"
+          ],
+          [
+            "ship"
+          ],
+          [
+            "the"
+          ],
+          [
+            "device"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "doorstep,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/9.mp3",
+        "timeStart": 30.38,
+        "timeEnd": 34.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70021/list"
+      },
+      {
+        "id": 70022,
+        "position": 10,
+        "content": "with no shipping fees to worry about.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "no",
+          "shipping",
+          "fees",
+          "to",
+          "worry",
+          "about."
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "no"
+          ],
+          [
+            "shipping"
+          ],
+          [
+            "fees"
+          ],
+          [
+            "to"
+          ],
+          [
+            "worry"
+          ],
+          [
+            "about."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-244-2024-10-29-23-09-46/10.mp3",
+        "timeStart": 34.46,
+        "timeEnd": 36.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70022/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "70013": {
+      "id": 2642918,
+      "text": "Chào buổi chiều, ông Henry.",
+      "author": "ChatGPT4.1"
+    },
+    "70014": {
+      "id": 2642919,
+      "text": "Tôi là Rosemary Blake từ GreenEnergize.",
+      "author": "ChatGPT4.1"
+    },
+    "70015": {
+      "id": 2642920,
+      "text": "Tôi rất vui được thông báo rằng ông đủ điều kiện tham gia chương trình nâng cấp nhà độc quyền của chúng tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "70016": {
+      "id": 2642921,
+      "text": "chương trình này dành phần thưởng cho những khách hàng đã đồng hành cùng chúng tôi trên 3 năm",
+      "author": "ChatGPT4.1"
+    },
+    "70017": {
+      "id": 2642922,
+      "text": "bằng cách cung cấp cho họ một bộ điều nhiệt thông minh tiên tiến với mức giá giảm đáng kể.",
+      "author": "ChatGPT4.1"
+    },
+    "70018": {
+      "id": 2642923,
+      "text": "Hiện tại, chúng tôi đang giới thiệu mẫu ClimateMaster 5 tiên tiến nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "70019": {
+      "id": 2642924,
+      "text": "Để nhận thiết bị đột phá này chỉ với 40 đô la,",
+      "author": "ChatGPT4.1"
+    },
+    "70020": {
+      "id": 2642925,
+      "text": "ông chỉ cần truy cập trang web của chúng tôi và hoàn thành một khảo sát ngắn về thói quen môi trường.",
+      "author": "ChatGPT4.1"
+    },
+    "70021": {
+      "id": 2642926,
+      "text": "Sau khi nhận được phản hồi của ông, chúng tôi sẽ nhanh chóng gửi thiết bị đến tận nhà,",
+      "author": "ChatGPT4.1"
+    },
+    "70022": {
+      "id": 2642927,
+      "text": "và ông sẽ không phải lo về phí vận chuyển.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,621 @@
+{
+  "summary": {
+    "id": 1483,
+    "name": "Conversation 4",
+    "subTitle": "Dental Claim Status Inquiry",
+    "levelName": "B1",
+    "position": 60,
+    "totalChallenges": 10,
+    "groupId": 31,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1483",
+  "detail": {
+    "id": 1483,
+    "lessonName": "Conversation 4",
+    "name": "Conversation 4",
+    "position": 60,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/0-conversation-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 64161,
+        "position": 1,
+        "content": "Hi, I'm calling to get an update on a claim I filed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "to",
+          "get",
+          "an",
+          "update",
+          "on",
+          "a",
+          "claim",
+          "I",
+          "filed."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "an"
+          ],
+          [
+            "update"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "claim"
+          ],
+          [
+            "I"
+          ],
+          [
+            "filed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/1.mp3",
+        "timeStart": 0.19,
+        "timeEnd": 4.33,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/64161/list"
+      },
+      {
+        "id": 64162,
+        "position": 2,
+        "content": "It's for an emergency dental surgery I had while on vacation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "for",
+          "an",
+          "emergency",
+          "dental",
+          "surgery",
+          [
+            "I had",
+            "I'd"
+          ],
+          "while",
+          "on",
+          "vacation."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "emergency"
+          ],
+          [
+            "dental"
+          ],
+          [
+            "surgery"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "while"
+          ],
+          [
+            "on"
+          ],
+          [
+            "vacation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/2.mp3",
+        "timeStart": 4.33,
+        "timeEnd": 8.34,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/64162/list"
+      },
+      {
+        "id": 64163,
+        "position": 3,
+        "content": "Sure, I can help with that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          "I",
+          "can",
+          "help",
+          "with",
+          "that."
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "help"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/3.mp3",
+        "timeStart": 8.34,
+        "timeEnd": 10.58,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/64163/list"
+      },
+      {
+        "id": 64164,
+        "position": 4,
+        "content": "Do you remember when you submitted the claim?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "remember",
+          "when",
+          "you",
+          "submitted",
+          "the",
+          "claim?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "submitted"
+          ],
+          [
+            "the"
+          ],
+          [
+            "claim?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/4.mp3",
+        "timeStart": 10.58,
+        "timeEnd": 12.99,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/64164/list"
+      },
+      {
+        "id": 64165,
+        "position": 5,
+        "content": "I filed it on December 27th, so about a month ago.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "filed",
+          "it",
+          "on",
+          "December",
+          "27th,",
+          "so",
+          "about",
+          "a",
+          "month",
+          "ago."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "filed"
+          ],
+          [
+            "it"
+          ],
+          [
+            "on"
+          ],
+          [
+            "December"
+          ],
+          [
+            "27th,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month"
+          ],
+          [
+            "ago."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/5.mp3",
+        "timeStart": 12.99,
+        "timeEnd": 17.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64165/list"
+      },
+      {
+        "id": 64166,
+        "position": 6,
+        "content": "I see.",
+        "defaultInput": "I see.",
+        "jsonContent": [
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/6.mp3",
+        "timeStart": 17.14,
+        "timeEnd": 18.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64166/list"
+      },
+      {
+        "id": 64167,
+        "position": 7,
+        "content": "Normally, it takes about six weeks to resolve,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Normally,",
+          "it",
+          "takes",
+          "about",
+          [
+            "six",
+            "6"
+          ],
+          "weeks",
+          "to",
+          "resolve,"
+        ],
+        "solution": [
+          [
+            "Normally,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "about"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "weeks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "resolve,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/7.mp3",
+        "timeStart": 18.21,
+        "timeEnd": 20.97,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/64167/list"
+      },
+      {
+        "id": 64168,
+        "position": 8,
+        "content": "but because of the holidays, it might take up to eight weeks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "because",
+          "of",
+          "the",
+          "holidays,",
+          "it",
+          "might",
+          "take",
+          "up",
+          "to",
+          [
+            "eight",
+            "8"
+          ],
+          "weeks."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "holidays,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "take"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "eight",
+            "8"
+          ],
+          [
+            "weeks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/8.mp3",
+        "timeStart": 20.97,
+        "timeEnd": 24.65,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/64168/list"
+      },
+      {
+        "id": 64169,
+        "position": 9,
+        "content": "Can you give me the 8-digit reference number?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "give",
+          "me",
+          "the",
+          [
+            "8-digit",
+            "8 digit",
+            "eight digit",
+            "eight-digit"
+          ],
+          "reference",
+          "number?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "the"
+          ],
+          [
+            "8-digit",
+            "8 digit",
+            "eight digit",
+            "eight-digit"
+          ],
+          [
+            "reference"
+          ],
+          [
+            "number?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/9.mp3",
+        "timeStart": 24.65,
+        "timeEnd": 27.63,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/64169/list"
+      },
+      {
+        "id": 64170,
+        "position": 10,
+        "content": "I'll get back to you within 72 hours with an update.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "get",
+          "back",
+          "to",
+          "you",
+          "within",
+          "72",
+          "hours",
+          "with",
+          "an",
+          "update."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "get"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "within"
+          ],
+          [
+            "72"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "with"
+          ],
+          [
+            "an"
+          ],
+          [
+            "update."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-4-2024-08-18-22-32-03/10.mp3",
+        "timeStart": 27.63,
+        "timeEnd": 31.22,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/64170/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "64161": {
+      "id": 1443012,
+      "text": "Xin chào, tôi đang gọi để nhận thông tin cập nhật về yêu cầu bồi thường mà tôi đã nộp.",
+      "author": "a user"
+    },
+    "64162": {
+      "id": 1443013,
+      "text": "Đó là cho một ca phẫu thuật nha khoa khẩn cấp mà tôi đã thực hiện khi đang trong kỳ nghỉ.",
+      "author": "a user"
+    },
+    "64163": {
+      "id": 1443014,
+      "text": "Chắc chắn rồi, tôi có thể giúp bạn việc đó.",
+      "author": "a user"
+    },
+    "64164": {
+      "id": 1443016,
+      "text": "Bạn có nhớ bạn đã nộp yêu cầu bồi thường lúc nào không?",
+      "author": "a user"
+    },
+    "64165": {
+      "id": 2592436,
+      "text": "Tôi đã nộp vào ngày 27 tháng 12, tức là khoảng một tháng trước.",
+      "author": "ChatGPT4.1"
+    },
+    "64166": {
+      "id": 2592437,
+      "text": "Tôi hiểu.",
+      "author": "ChatGPT4.1"
+    },
+    "64167": {
+      "id": 2592438,
+      "text": "Thông thường, việc giải quyết mất khoảng sáu tuần,",
+      "author": "ChatGPT4.1"
+    },
+    "64168": {
+      "id": 2592439,
+      "text": "nhưng vì kỳ nghỉ lễ nên có thể mất tới tám tuần.",
+      "author": "a user"
+    },
+    "64169": {
+      "id": 2592440,
+      "text": "Bạn có thể cung cấp cho tôi số tham chiếu gồm 8 chữ số không?",
+      "author": "ChatGPT4.1"
+    },
+    "64170": {
+      "id": 2592441,
+      "text": "Tôi sẽ liên hệ lại với bạn trong vòng 72 giờ với thông tin cập nhật.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,929 @@
+{
+  "summary": {
+    "id": 2316,
+    "name": "Test 05 - Part B - Extract 6",
+    "subTitle": "Wound Care Procedure Instructions",
+    "levelName": "C1",
+    "position": 48,
+    "totalChallenges": 12,
+    "groupId": 135,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2316",
+  "detail": {
+    "id": 2316,
+    "lessonName": "Test 05 - Part B - Extract 6",
+    "name": "Test 05 - Part B - Extract 6",
+    "position": 48,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/0-test-05-part-b-extract-6.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 91145,
+        "position": 1,
+        "content": "Before changing the dressing, if there are any particular instructions regarding how to deal with Mrs. Harris or the ulcer,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "changing",
+          "the",
+          "dressing,",
+          "if",
+          "there",
+          "are",
+          "any",
+          "particular",
+          "instructions",
+          "regarding",
+          "how",
+          "to",
+          "deal",
+          "with",
+          "Mrs.",
+          "Harris",
+          "or",
+          "the",
+          "ulcer,"
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "changing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dressing,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "any"
+          ],
+          [
+            "particular"
+          ],
+          [
+            "instructions"
+          ],
+          [
+            "regarding"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "deal"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Mrs."
+          ],
+          [
+            "Harris"
+          ],
+          [
+            "or"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ulcer,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/1.mp3",
+        "timeStart": 1.13,
+        "timeEnd": 8.06,
+        "hints": [
+          "Mrs. Harris"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91145/list"
+      },
+      {
+        "id": 91146,
+        "position": 2,
+        "content": "you'll be given them at the start of the shift.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "you'll",
+            "you will"
+          ],
+          "be",
+          "given",
+          "them",
+          "at",
+          "the",
+          "start",
+          "of",
+          "the",
+          "shift."
+        ],
+        "solution": [
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "given"
+          ],
+          [
+            "them"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "start"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shift."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/2.mp3",
+        "timeStart": 8.06,
+        "timeEnd": 10.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91146/list"
+      },
+      {
+        "id": 91147,
+        "position": 3,
+        "content": "You won't ever have to access her records yourself and scroll through everything.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "won't",
+          "ever",
+          "have",
+          "to",
+          "access",
+          "her",
+          "records",
+          "yourself",
+          "and",
+          "scroll",
+          "through",
+          "everything."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "access"
+          ],
+          [
+            "her"
+          ],
+          [
+            "records"
+          ],
+          [
+            "yourself"
+          ],
+          [
+            "and"
+          ],
+          [
+            "scroll"
+          ],
+          [
+            "through"
+          ],
+          [
+            "everything."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/3.mp3",
+        "timeStart": 10.49,
+        "timeEnd": 15.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91147/list"
+      },
+      {
+        "id": 91148,
+        "position": 4,
+        "content": "There's an equipment checklist here with the type of cleaning solution and forceps you need,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "an",
+          "equipment",
+          "checklist",
+          "here",
+          "with",
+          "the",
+          "type",
+          "of",
+          "cleaning",
+          "solution",
+          "and",
+          "forceps",
+          "you",
+          "need,"
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "an"
+          ],
+          [
+            "equipment"
+          ],
+          [
+            "checklist"
+          ],
+          [
+            "here"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "type"
+          ],
+          [
+            "of"
+          ],
+          [
+            "cleaning"
+          ],
+          [
+            "solution"
+          ],
+          [
+            "and"
+          ],
+          [
+            "forceps"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/4.mp3",
+        "timeStart": 15.44,
+        "timeEnd": 20.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91148/list"
+      },
+      {
+        "id": 91149,
+        "position": 5,
+        "content": "so you'll know that off by heart.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "you'll",
+            "you will"
+          ],
+          "know",
+          "that",
+          "off",
+          "by",
+          "heart."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "off"
+          ],
+          [
+            "by"
+          ],
+          [
+            "heart."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/5.mp3",
+        "timeStart": 20.66,
+        "timeEnd": 23.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91149/list"
+      },
+      {
+        "id": 91150,
+        "position": 6,
+        "content": "You'll see that a face mask isn't essential, though some nurses prefer to have one.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You'll",
+            "You will"
+          ],
+          "see",
+          "that",
+          "a",
+          "face",
+          "mask",
+          [
+            "isn't",
+            "is not"
+          ],
+          "essential,",
+          "though",
+          "some",
+          "nurses",
+          "prefer",
+          "to",
+          "have",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "You'll",
+            "You will"
+          ],
+          [
+            "see"
+          ],
+          [
+            "that"
+          ],
+          [
+            "a"
+          ],
+          [
+            "face"
+          ],
+          [
+            "mask"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "essential,"
+          ],
+          [
+            "though"
+          ],
+          [
+            "some"
+          ],
+          [
+            "nurses"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/6.mp3",
+        "timeStart": 24.2,
+        "timeEnd": 28.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91150/list"
+      },
+      {
+        "id": 91151,
+        "position": 7,
+        "content": "As you know very well, you should chat to Mrs. Harris very briefly about what you'll be doing,",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "know",
+          "very",
+          "well,",
+          "you",
+          "should",
+          "chat",
+          "to",
+          "Mrs.",
+          "Harris",
+          "very",
+          "briefly",
+          "about",
+          "what",
+          [
+            "you'll",
+            "you will"
+          ],
+          "be",
+          "doing,"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "very"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "chat"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Mrs."
+          ],
+          [
+            "Harris"
+          ],
+          [
+            "very"
+          ],
+          [
+            "briefly"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "doing,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/7.mp3",
+        "timeStart": 28.74,
+        "timeEnd": 34.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91151/list"
+      },
+      {
+        "id": 91152,
+        "position": 8,
+        "content": "even when she gets familiar with the routine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "even",
+          "when",
+          "she",
+          "gets",
+          "familiar",
+          "with",
+          "the",
+          "routine."
+        ],
+        "solution": [
+          [
+            "even"
+          ],
+          [
+            "when"
+          ],
+          [
+            "she"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "familiar"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "routine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/8.mp3",
+        "timeStart": 34.04,
+        "timeEnd": 36.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91152/list"
+      },
+      {
+        "id": 91153,
+        "position": 9,
+        "content": "Now please take great care in recording the condition of the skin surrounding the wound,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "please",
+          "take",
+          "great",
+          "care",
+          "in",
+          "recording",
+          "the",
+          "condition",
+          "of",
+          "the",
+          "skin",
+          "surrounding",
+          "the",
+          "wound,"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "please"
+          ],
+          [
+            "take"
+          ],
+          [
+            "great"
+          ],
+          [
+            "care"
+          ],
+          [
+            "in"
+          ],
+          [
+            "recording"
+          ],
+          [
+            "the"
+          ],
+          [
+            "condition"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "skin"
+          ],
+          [
+            "surrounding"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wound,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/9.mp3",
+        "timeStart": 37.13,
+        "timeEnd": 42.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91153/list"
+      },
+      {
+        "id": 91154,
+        "position": 10,
+        "content": "plus the presence of any sort of inflammation, discoloration, or odor.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "plus",
+            "+"
+          ],
+          "the",
+          "presence",
+          "of",
+          "any",
+          "sort",
+          "of",
+          "inflammation,",
+          "discoloration,",
+          "or",
+          "odor."
+        ],
+        "solution": [
+          [
+            "plus",
+            "+"
+          ],
+          [
+            "the"
+          ],
+          [
+            "presence"
+          ],
+          [
+            "of"
+          ],
+          [
+            "any"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "inflammation,"
+          ],
+          [
+            "discoloration,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "odor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/10.mp3",
+        "timeStart": 42.05,
+        "timeEnd": 47.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91154/list"
+      },
+      {
+        "id": 91155,
+        "position": 11,
+        "content": "This assessment has got to be thorough.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "assessment",
+          "has",
+          "got",
+          "to",
+          "be",
+          "thorough."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "assessment"
+          ],
+          [
+            "has"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "thorough."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/11.mp3",
+        "timeStart": 47.97,
+        "timeEnd": 50.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91155/list"
+      },
+      {
+        "id": 91156,
+        "position": 12,
+        "content": "Then get her in a position that's comfortable for her, and you can begin.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "get",
+          "her",
+          "in",
+          "a",
+          "position",
+          "that's",
+          "comfortable",
+          "for",
+          "her,",
+          "and",
+          "you",
+          "can",
+          "begin."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "get"
+          ],
+          [
+            "her"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "position"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "comfortable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "begin."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-05-part-b-extract-6-2025-08-29-22-13-08/12.mp3",
+        "timeStart": 50.69,
+        "timeEnd": 55.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91156/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "91145": {
+      "id": 3683560,
+      "text": "Trước khi thay băng, nếu có bất kỳ hướng dẫn cụ thể nào về cách chăm sóc bà Harris hoặc vết loét,",
+      "author": "ChatGPT4.1"
+    },
+    "91146": {
+      "id": 3683561,
+      "text": "bạn sẽ được thông báo vào đầu ca làm việc.",
+      "author": "ChatGPT4.1"
+    },
+    "91147": {
+      "id": 3683562,
+      "text": "Bạn sẽ không bao giờ phải tự mình truy cập hồ sơ của bà ấy và xem qua tất cả mọi thứ.",
+      "author": "ChatGPT4.1"
+    },
+    "91148": {
+      "id": 3683563,
+      "text": "Ở đây có một danh sách kiểm tra thiết bị với loại dung dịch vệ sinh và kẹp cần thiết,",
+      "author": "ChatGPT4.1"
+    },
+    "91149": {
+      "id": 3683564,
+      "text": "vì vậy bạn sẽ nhớ điều đó một cách dễ dàng.",
+      "author": "ChatGPT4.1"
+    },
+    "91150": {
+      "id": 3683565,
+      "text": "Bạn sẽ thấy rằng khẩu trang không bắt buộc, mặc dù một số y tá thích sử dụng.",
+      "author": "ChatGPT4.1"
+    },
+    "91151": {
+      "id": 3683566,
+      "text": "Như bạn đã biết rõ, bạn nên trò chuyện ngắn gọn với bà Harris về những gì bạn sẽ thực hiện,",
+      "author": "ChatGPT4.1"
+    },
+    "91152": {
+      "id": 3683567,
+      "text": "ngay cả khi bà ấy đã quen với quy trình này.",
+      "author": "ChatGPT4.1"
+    },
+    "91153": {
+      "id": 3683568,
+      "text": "Bây giờ, hãy chú ý ghi chép tình trạng da xung quanh vết thương,",
+      "author": "ChatGPT4.1"
+    },
+    "91154": {
+      "id": 3683569,
+      "text": "cùng với sự xuất hiện của bất kỳ dấu hiệu viêm, đổi màu hay mùi nào.",
+      "author": "ChatGPT4.1"
+    },
+    "91155": {
+      "id": 3683570,
+      "text": "Việc đánh giá này phải thật kỹ lưỡng.",
+      "author": "ChatGPT4.1"
+    },
+    "91156": {
+      "id": 3683571,
+      "text": "Sau đó hãy đặt bà ấy vào tư thế thoải mái rồi bạn có thể bắt đầu.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

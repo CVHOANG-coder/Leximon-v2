@@ -1,0 +1,4721 @@
+{
+  "summary": {
+    "id": 741,
+    "name": "Cam11 - Test 3 - Part 3",
+    "subTitle": "Story Illustration Project Discussion",
+    "levelName": "B1",
+    "position": 188,
+    "totalChallenges": 78,
+    "groupId": 62,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/741",
+  "detail": {
+    "id": 741,
+    "lessonName": "Cam11 - Test 3 - Part 3",
+    "name": "Cam11 - Test 3 - Part 3",
+    "position": 188,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/0-ielts-cambridge-11-test-3-part-3.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 34681,
+        "position": 1,
+        "content": "Hello, Helen. Sorry I'm late.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "Helen.",
+          "Sorry",
+          [
+            "I'm",
+            "I am"
+          ],
+          "late."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Helen."
+          ],
+          [
+            "Sorry"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "late."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/1.mp3",
+        "timeStart": 0.35,
+        "timeEnd": 2.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34681/list"
+      },
+      {
+        "id": 34682,
+        "position": 2,
+        "content": "Hi, Jeremy, no problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "Jeremy,",
+          "no",
+          "problem."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Jeremy,"
+          ],
+          [
+            "no"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/2.mp3",
+        "timeStart": 2.37,
+        "timeEnd": 4.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34682/list"
+      },
+      {
+        "id": 34683,
+        "position": 3,
+        "content": "Well we'd better work out where we are on our project, I suppose.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well",
+          "we'd",
+          "better",
+          "work",
+          "out",
+          "where",
+          [
+            "we are",
+            "we're"
+          ],
+          "on",
+          "our",
+          "project,",
+          "I",
+          "suppose."
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "we'd"
+          ],
+          [
+            "better"
+          ],
+          [
+            "work"
+          ],
+          [
+            "out"
+          ],
+          [
+            "where"
+          ],
+          [
+            "we are",
+            "we're"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "project,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "suppose."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/3.mp3",
+        "timeStart": 4.39,
+        "timeEnd": 8.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34683/list"
+      },
+      {
+        "id": 34684,
+        "position": 4,
+        "content": "Yeah. I've looked at the drawings you've done for my story, 'The Forest',",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah.",
+          [
+            "I've",
+            "I have"
+          ],
+          "looked",
+          "at",
+          "the",
+          "drawings",
+          [
+            "you've",
+            "You have"
+          ],
+          "done",
+          "for",
+          "my",
+          "story,",
+          "'The",
+          "Forest',"
+        ],
+        "solution": [
+          [
+            "Yeah."
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "looked"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drawings"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "done"
+          ],
+          [
+            "for"
+          ],
+          [
+            "my"
+          ],
+          [
+            "story,"
+          ],
+          [
+            "'The"
+          ],
+          [
+            "Forest',"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/4.mp3",
+        "timeStart": 8.15,
+        "timeEnd": 12.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34684/list"
+      },
+      {
+        "id": 34685,
+        "position": 5,
+        "content": "and I think they're brilliant - they really create the atmosphere I had in mind when I was writing it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "think",
+          [
+            "they're",
+            "they are"
+          ],
+          "brilliant",
+          "-",
+          "they",
+          "really",
+          "create",
+          "the",
+          "atmosphere",
+          [
+            "I had",
+            "I'd"
+          ],
+          "in",
+          "mind",
+          "when",
+          "I",
+          "was",
+          "writing",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "brilliant"
+          ],
+          [
+            "-"
+          ],
+          [
+            "they"
+          ],
+          [
+            "really"
+          ],
+          [
+            "create"
+          ],
+          [
+            "the"
+          ],
+          [
+            "atmosphere"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "in"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "writing"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/5.mp3",
+        "timeStart": 12.65,
+        "timeEnd": 17.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34685/list"
+      },
+      {
+        "id": 34686,
+        "position": 6,
+        "content": "I'm glad you like them.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "glad",
+          "you",
+          "like",
+          "them."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "glad"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/6.mp3",
+        "timeStart": 17.64,
+        "timeEnd": 19.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34686/list"
+      },
+      {
+        "id": 34687,
+        "position": 7,
+        "content": "There are just a few suggestions I'd like to make.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "just",
+          "a",
+          "few",
+          "suggestions",
+          "I'd",
+          "like",
+          "to",
+          "make."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "suggestions"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/7.mp3",
+        "timeStart": 19.23,
+        "timeEnd": 22.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34687/list"
+      },
+      {
+        "id": 34688,
+        "position": 8,
+        "content": "Go ahead.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Go",
+          "ahead."
+        ],
+        "solution": [
+          [
+            "Go"
+          ],
+          [
+            "ahead."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/8.mp3",
+        "timeStart": 22.51,
+        "timeEnd": 23.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34688/list"
+      },
+      {
+        "id": 34689,
+        "position": 9,
+        "content": "Now, I'm not sure about the drawing of the cave -",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "sure",
+          "about",
+          "the",
+          "drawing",
+          "of",
+          "the",
+          "cave",
+          "-"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drawing"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cave"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/9.mp3",
+        "timeStart": 23.56,
+        "timeEnd": 27.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34689/list"
+      },
+      {
+        "id": 34690,
+        "position": 10,
+        "content": "it's got trees all around it, which is great,",
+        "defaultInput": "",
+        "jsonContent": [
+          "it's",
+          "got",
+          "trees",
+          "all",
+          "around",
+          "it,",
+          "which",
+          "is",
+          "great,"
+        ],
+        "solution": [
+          [
+            "it's"
+          ],
+          [
+            "got"
+          ],
+          [
+            "trees"
+          ],
+          [
+            "all"
+          ],
+          [
+            "around"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "great,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/10.mp3",
+        "timeStart": 27.48,
+        "timeEnd": 30.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34690/list"
+      },
+      {
+        "id": 34691,
+        "position": 11,
+        "content": "but the drawing's a bit too static, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "the",
+          "drawing's",
+          "a",
+          "bit",
+          "too",
+          "static,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drawing's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "too"
+          ],
+          [
+            "static,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/11.mp3",
+        "timeStart": 30.68,
+        "timeEnd": 34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34691/list"
+      },
+      {
+        "id": 34692,
+        "position": 12,
+        "content": "I think it needs some action.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "it",
+          "needs",
+          "some",
+          "action."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "some"
+          ],
+          [
+            "action."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/12.mp3",
+        "timeStart": 34,
+        "timeEnd": 36.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34692/list"
+      },
+      {
+        "id": 34693,
+        "position": 13,
+        "content": "Yes, there's nothing happening.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "there's",
+            "there is"
+          ],
+          "nothing",
+          "happening."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "nothing"
+          ],
+          [
+            "happening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/13.mp3",
+        "timeStart": 36.15,
+        "timeEnd": 38.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34693/list"
+      },
+      {
+        "id": 34694,
+        "position": 14,
+        "content": "Perhaps I should add the boy - Malcolm, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perhaps",
+          "I",
+          "should",
+          "add",
+          "the",
+          "boy",
+          "-",
+          "Malcolm,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "Perhaps"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "add"
+          ],
+          [
+            "the"
+          ],
+          [
+            "boy"
+          ],
+          [
+            "-"
+          ],
+          [
+            "Malcolm,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/14.mp3",
+        "timeStart": 38.82,
+        "timeEnd": 42.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34694/list"
+      },
+      {
+        "id": 34695,
+        "position": 15,
+        "content": "He would be walking up to it.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "He would",
+            "He'd"
+          ],
+          "be",
+          "walking",
+          "up",
+          "to",
+          "it."
+        ],
+        "solution": [
+          [
+            "He would",
+            "He'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "walking"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/15.mp3",
+        "timeStart": 42.71,
+        "timeEnd": 44.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34695/list"
+      },
+      {
+        "id": 34696,
+        "position": 16,
+        "content": "Yes, let's have Malcolm in the drawing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "let's",
+          "have",
+          "Malcolm",
+          "in",
+          "the",
+          "drawing."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "have"
+          ],
+          [
+            "Malcolm"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drawing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/16.mp3",
+        "timeStart": 44.65,
+        "timeEnd": 48.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34696/list"
+      },
+      {
+        "id": 34697,
+        "position": 17,
+        "content": "And what about putting in a tiger -",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "about",
+          "putting",
+          "in",
+          "a",
+          "tiger",
+          "-"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "putting"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tiger"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/17.mp3",
+        "timeStart": 48.31,
+        "timeEnd": 50.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34697/list"
+      },
+      {
+        "id": 34698,
+        "position": 18,
+        "content": "the one that he makes friends with a bit later? Maybe it could be sitting under a tree washing itself.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          [
+            "one",
+            "1"
+          ],
+          "that",
+          "he",
+          "makes",
+          "friends",
+          "with",
+          "a",
+          "bit",
+          "later?",
+          "Maybe",
+          "it",
+          "could",
+          "be",
+          "sitting",
+          "under",
+          "a",
+          "tree",
+          "washing",
+          "itself."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "that"
+          ],
+          [
+            "he"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "friends"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "later?"
+          ],
+          [
+            "Maybe"
+          ],
+          [
+            "it"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "sitting"
+          ],
+          [
+            "under"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tree"
+          ],
+          [
+            "washing"
+          ],
+          [
+            "itself."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/18.mp3",
+        "timeStart": 50.64,
+        "timeEnd": 57.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34698/list"
+      },
+      {
+        "id": 34699,
+        "position": 19,
+        "content": "And the tiger stops in the middle of what it's doing when it sees Malcolm walking past.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "tiger",
+          "stops",
+          "in",
+          "the",
+          "middle",
+          "of",
+          "what",
+          "it's",
+          "doing",
+          "when",
+          "it",
+          "sees",
+          "Malcolm",
+          "walking",
+          "past."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tiger"
+          ],
+          [
+            "stops"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "middle"
+          ],
+          [
+            "of"
+          ],
+          [
+            "what"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it"
+          ],
+          [
+            "sees"
+          ],
+          [
+            "Malcolm"
+          ],
+          [
+            "walking"
+          ],
+          [
+            "past."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/19.mp3",
+        "timeStart": 58.02,
+        "timeEnd": 62.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34699/list"
+      },
+      {
+        "id": 34700,
+        "position": 20,
+        "content": "That's a good idea.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "a",
+          "good",
+          "idea."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "idea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/20.mp3",
+        "timeStart": 62.68,
+        "timeEnd": 63.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34700/list"
+      },
+      {
+        "id": 34701,
+        "position": 21,
+        "content": "OK, I'll have a go at that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          "have",
+          "a",
+          "go",
+          "at",
+          "that."
+        ],
+        "solution": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "go"
+          ],
+          [
+            "at"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/21.mp3",
+        "timeStart": 63.66,
+        "timeEnd": 65.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34701/list"
+      },
+      {
+        "id": 34702,
+        "position": 22,
+        "content": "Then there's the drawing of the crowd of men and women dancing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          [
+            "there's",
+            "there is"
+          ],
+          "the",
+          "drawing",
+          "of",
+          "the",
+          "crowd",
+          "of",
+          "men",
+          "and",
+          "women",
+          "dancing."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drawing"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "crowd"
+          ],
+          [
+            "of"
+          ],
+          [
+            "men"
+          ],
+          [
+            "and"
+          ],
+          [
+            "women"
+          ],
+          [
+            "dancing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/22.mp3",
+        "timeStart": 65.58,
+        "timeEnd": 69.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34702/list"
+      },
+      {
+        "id": 34703,
+        "position": 23,
+        "content": "They're just outside the forest, and there's a lot going on.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "just",
+          "outside",
+          "the",
+          "forest,",
+          "and",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "lot",
+          "going",
+          "on."
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "just"
+          ],
+          [
+            "outside"
+          ],
+          [
+            "the"
+          ],
+          [
+            "forest,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "going"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/23.mp3",
+        "timeStart": 69.5,
+        "timeEnd": 73.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34703/list"
+      },
+      {
+        "id": 34704,
+        "position": 24,
+        "content": "That's right, you wanted them to be watching a carnival procession, but I thought it would be too crowded.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right,",
+          "you",
+          "wanted",
+          "them",
+          "to",
+          "be",
+          "watching",
+          "a",
+          "carnival",
+          "procession,",
+          "but",
+          "I",
+          "thought",
+          [
+            "it would",
+            "It'd"
+          ],
+          "be",
+          "too",
+          "crowded."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "watching"
+          ],
+          [
+            "a"
+          ],
+          [
+            "carnival"
+          ],
+          [
+            "procession,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "it would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "too"
+          ],
+          [
+            "crowded."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/24.mp3",
+        "timeStart": 73.16,
+        "timeEnd": 79.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34704/list"
+      },
+      {
+        "id": 34705,
+        "position": 25,
+        "content": "Do you think it works like this?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "think",
+          "it",
+          "works",
+          "like",
+          "this?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it"
+          ],
+          [
+            "works"
+          ],
+          [
+            "like"
+          ],
+          [
+            "this?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/25.mp3",
+        "timeStart": 79.53,
+        "timeEnd": 81.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34705/list"
+      },
+      {
+        "id": 34706,
+        "position": 26,
+        "content": "Yes, I like what you've done.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "like",
+          "what",
+          [
+            "you've",
+            "You have"
+          ],
+          "done."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "done."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/26.mp3",
+        "timeStart": 81.72,
+        "timeEnd": 84.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34706/list"
+      },
+      {
+        "id": 34707,
+        "position": 27,
+        "content": "The only thing is, could you add Malcolm to it, without changing what's already there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "only",
+          "thing",
+          "is,",
+          "could",
+          "you",
+          "add",
+          "Malcolm",
+          "to",
+          "it,",
+          "without",
+          "changing",
+          [
+            "what's",
+            "what is"
+          ],
+          "already",
+          "there."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "only"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "is,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "add"
+          ],
+          [
+            "Malcolm"
+          ],
+          [
+            "to"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "without"
+          ],
+          [
+            "changing"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "already"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/27.mp3",
+        "timeStart": 84.73,
+        "timeEnd": 90.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34707/list"
+      },
+      {
+        "id": 34708,
+        "position": 28,
+        "content": "What about having him sitting on the tree trunk on the right of the picture?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "having",
+          "him",
+          "sitting",
+          "on",
+          "the",
+          "tree",
+          "trunk",
+          "on",
+          "the",
+          "right",
+          "of",
+          "the",
+          "picture?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "having"
+          ],
+          [
+            "him"
+          ],
+          [
+            "sitting"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tree"
+          ],
+          [
+            "trunk"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "picture?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/28.mp3",
+        "timeStart": 91.49,
+        "timeEnd": 95.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34708/list"
+      },
+      {
+        "id": 34709,
+        "position": 29,
+        "content": "Yes, that would be fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that",
+          "would",
+          "be",
+          "fine."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/29.mp3",
+        "timeStart": 95.96,
+        "timeEnd": 97.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34709/list"
+      },
+      {
+        "id": 34710,
+        "position": 30,
+        "content": "And do you want him watching the other people?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "do",
+          "you",
+          "want",
+          "him",
+          "watching",
+          "the",
+          "other",
+          "people?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want"
+          ],
+          [
+            "him"
+          ],
+          [
+            "watching"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "people?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/30.mp3",
+        "timeStart": 98,
+        "timeEnd": 100.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34710/list"
+      },
+      {
+        "id": 34711,
+        "position": 31,
+        "content": "No, he's been left out of all the fun, so I'd like him to be crying -",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "he's",
+          "been",
+          "left",
+          "out",
+          "of",
+          "all",
+          "the",
+          "fun,",
+          "so",
+          "I'd",
+          "like",
+          "him",
+          "to",
+          "be",
+          "crying",
+          "-"
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "left"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fun,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "him"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "crying"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/31.mp3",
+        "timeStart": 100.4,
+        "timeEnd": 105.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34711/list"
+      },
+      {
+        "id": 34712,
+        "position": 32,
+        "content": "that'll contrast nicely with the next picture,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "that'll",
+            "that will"
+          ],
+          "contrast",
+          "nicely",
+          "with",
+          "the",
+          "next",
+          "picture,"
+        ],
+        "solution": [
+          [
+            "that'll",
+            "that will"
+          ],
+          [
+            "contrast"
+          ],
+          [
+            "nicely"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "picture,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/32.mp3",
+        "timeStart": 105.17,
+        "timeEnd": 108.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34712/list"
+      },
+      {
+        "id": 34713,
+        "position": 33,
+        "content": "where he's laughing at the clowns in the carnival.",
+        "defaultInput": "",
+        "jsonContent": [
+          "where",
+          "he's",
+          "laughing",
+          "at",
+          "the",
+          "clowns",
+          "in",
+          "the",
+          "carnival."
+        ],
+        "solution": [
+          [
+            "where"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "laughing"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clowns"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "carnival."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/33.mp3",
+        "timeStart": 108.04,
+        "timeEnd": 110.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34713/list"
+      },
+      {
+        "id": 34714,
+        "position": 34,
+        "content": "Right, I'll do that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "do",
+          "that."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/34.mp3",
+        "timeStart": 110.6,
+        "timeEnd": 112.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34714/list"
+      },
+      {
+        "id": 34715,
+        "position": 35,
+        "content": "And then the drawing of the people ice skating in the forest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "then",
+          "the",
+          "drawing",
+          "of",
+          "the",
+          "people",
+          "ice",
+          "skating",
+          "in",
+          "the",
+          "forest."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "then"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drawing"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "people"
+          ],
+          [
+            "ice"
+          ],
+          [
+            "skating"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "forest."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/35.mp3",
+        "timeStart": 112.61,
+        "timeEnd": 115.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34715/list"
+      },
+      {
+        "id": 34716,
+        "position": 36,
+        "content": "I wasn't too happy with that one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "too",
+          "happy",
+          "with",
+          "that",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "too"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/36.mp3",
+        "timeStart": 115.97,
+        "timeEnd": 118.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34716/list"
+      },
+      {
+        "id": 34717,
+        "position": 37,
+        "content": "Because they're supposed to be skating on grass aren't they?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Because",
+          [
+            "they're",
+            "they are"
+          ],
+          "supposed",
+          "to",
+          "be",
+          "skating",
+          "on",
+          "grass",
+          [
+            "aren't",
+            "are not"
+          ],
+          "they?"
+        ],
+        "solution": [
+          [
+            "Because"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "skating"
+          ],
+          [
+            "on"
+          ],
+          [
+            "grass"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "they?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/37.mp3",
+        "timeStart": 118.6,
+        "timeEnd": 121.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34717/list"
+      },
+      {
+        "id": 34718,
+        "position": 38,
+        "content": "That's right, and it's frozen over.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right,",
+          "and",
+          "it's",
+          "frozen",
+          "over."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "frozen"
+          ],
+          [
+            "over."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/38.mp3",
+        "timeStart": 121.82,
+        "timeEnd": 124.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34718/list"
+      },
+      {
+        "id": 34719,
+        "position": 39,
+        "content": "At the moment it doesn't look quite right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "the",
+          "moment",
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "look",
+          "quite",
+          "right."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "the"
+          ],
+          [
+            "moment"
+          ],
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "look"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/39.mp3",
+        "timeStart": 124.52,
+        "timeEnd": 128.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34719/list"
+      },
+      {
+        "id": 34720,
+        "position": 40,
+        "content": "I see what you mean.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see",
+          "what",
+          "you",
+          "mean."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mean."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/40.mp3",
+        "timeStart": 128.04,
+        "timeEnd": 129.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34720/list"
+      },
+      {
+        "id": 34721,
+        "position": 41,
+        "content": "I'll have another go at that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "have",
+          "another",
+          "go",
+          "at",
+          "that."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "another"
+          ],
+          [
+            "go"
+          ],
+          [
+            "at"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/41.mp3",
+        "timeStart": 129.61,
+        "timeEnd": 131.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34721/list"
+      },
+      {
+        "id": 34722,
+        "position": 42,
+        "content": "And I like the wool hats they're wearing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "like",
+          "the",
+          "wool",
+          "hats",
+          [
+            "they're",
+            "they are"
+          ],
+          "wearing."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wool"
+          ],
+          [
+            "hats"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "wearing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/42.mp3",
+        "timeStart": 131.91,
+        "timeEnd": 134.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34722/list"
+      },
+      {
+        "id": 34723,
+        "position": 43,
+        "content": "Maybe you could give each of them a scarf as well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          "you",
+          "could",
+          "give",
+          "each",
+          "of",
+          "them",
+          "a",
+          "scarf",
+          "as",
+          "well."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "give"
+          ],
+          [
+            "each"
+          ],
+          [
+            "of"
+          ],
+          [
+            "them"
+          ],
+          [
+            "a"
+          ],
+          [
+            "scarf"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/43.mp3",
+        "timeStart": 134.42,
+        "timeEnd": 137.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34723/list"
+      },
+      {
+        "id": 34724,
+        "position": 44,
+        "content": "Yeah, that's easy enough.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          [
+            "that's",
+            "that is"
+          ],
+          "easy",
+          "enough."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "easy"
+          ],
+          [
+            "enough."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/44.mp3",
+        "timeStart": 137.22,
+        "timeEnd": 138.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34724/list"
+      },
+      {
+        "id": 34725,
+        "position": 45,
+        "content": "They can be streaming out behind the people to suggest they're skating really fast.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "can",
+          "be",
+          "streaming",
+          "out",
+          "behind",
+          "the",
+          "people",
+          "to",
+          "suggest",
+          [
+            "they're",
+            "they are"
+          ],
+          "skating",
+          "really",
+          "fast."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "streaming"
+          ],
+          [
+            "out"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "the"
+          ],
+          [
+            "people"
+          ],
+          [
+            "to"
+          ],
+          [
+            "suggest"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "skating"
+          ],
+          [
+            "really"
+          ],
+          [
+            "fast."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/45.mp3",
+        "timeStart": 139.13,
+        "timeEnd": 143.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34725/list"
+      },
+      {
+        "id": 34726,
+        "position": 46,
+        "content": "Great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great."
+        ],
+        "solution": [
+          [
+            "Great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/46.mp3",
+        "timeStart": 143.23,
+        "timeEnd": 144,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34726/list"
+      },
+      {
+        "id": 34727,
+        "position": 47,
+        "content": "Well that's all on the drawings.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well",
+          [
+            "that's",
+            "that is"
+          ],
+          "all",
+          "on",
+          "the",
+          "drawings."
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "all"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drawings."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/47.mp3",
+        "timeStart": 144.57,
+        "timeEnd": 146.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34727/list"
+      },
+      {
+        "id": 34728,
+        "position": 48,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/48.mp3",
+        "timeStart": 146.97,
+        "timeEnd": 147.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34728/list"
+      },
+      {
+        "id": 34729,
+        "position": 49,
+        "content": "So you've finished writing your story and I just need to finish illustrating it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          [
+            "you've",
+            "You have"
+          ],
+          "finished",
+          "writing",
+          "your",
+          "story",
+          "and",
+          "I",
+          "just",
+          "need",
+          "to",
+          "finish",
+          "illustrating",
+          "it,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "finished"
+          ],
+          [
+            "writing"
+          ],
+          [
+            "your"
+          ],
+          [
+            "story"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "illustrating"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/49.mp3",
+        "timeStart": 147.76,
+        "timeEnd": 153.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34729/list"
+      },
+      {
+        "id": 34730,
+        "position": 50,
+        "content": "and my story and your drawings are done.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "my",
+          "story",
+          "and",
+          "your",
+          "drawings",
+          "are",
+          "done."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "my"
+          ],
+          [
+            "story"
+          ],
+          [
+            "and"
+          ],
+          [
+            "your"
+          ],
+          [
+            "drawings"
+          ],
+          [
+            "are"
+          ],
+          [
+            "done."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/50.mp3",
+        "timeStart": 153.29,
+        "timeEnd": 156.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34730/list"
+      },
+      {
+        "id": 34731,
+        "position": 51,
+        "content": "So the next thing is to decide what exactly we need to write about in the report that goes with the stories,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "the",
+          "next",
+          "thing",
+          "is",
+          "to",
+          "decide",
+          "what",
+          "exactly",
+          "we",
+          "need",
+          "to",
+          "write",
+          "about",
+          "in",
+          "the",
+          "report",
+          "that",
+          "goes",
+          "with",
+          "the",
+          "stories,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "to"
+          ],
+          [
+            "decide"
+          ],
+          [
+            "what"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "write"
+          ],
+          [
+            "about"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "report"
+          ],
+          [
+            "that"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "stories,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/51.mp3",
+        "timeStart": 157.4,
+        "timeEnd": 164.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34731/list"
+      },
+      {
+        "id": 34732,
+        "position": 52,
+        "content": "and how we're going to divide the work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "how",
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "divide",
+          "the",
+          "work."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "divide"
+          ],
+          [
+            "the"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/52.mp3",
+        "timeStart": 164.61,
+        "timeEnd": 166.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34732/list"
+      },
+      {
+        "id": 34733,
+        "position": 53,
+        "content": "Right, Helen.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "Helen."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "Helen."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/53.mp3",
+        "timeStart": 166.95,
+        "timeEnd": 167.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34733/list"
+      },
+      {
+        "id": 34734,
+        "position": 54,
+        "content": "What do you think about including a section on how we planned the project as a whole, Jeremy?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "do",
+          "you",
+          "think",
+          "about",
+          "including",
+          "a",
+          "section",
+          "on",
+          "how",
+          "we",
+          "planned",
+          "the",
+          "project",
+          "as",
+          "a",
+          "whole,",
+          "Jeremy?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "about"
+          ],
+          [
+            "including"
+          ],
+          [
+            "a"
+          ],
+          [
+            "section"
+          ],
+          [
+            "on"
+          ],
+          [
+            "how"
+          ],
+          [
+            "we"
+          ],
+          [
+            "planned"
+          ],
+          [
+            "the"
+          ],
+          [
+            "project"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "whole,"
+          ],
+          [
+            "Jeremy?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/54.mp3",
+        "timeStart": 168.15,
+        "timeEnd": 173.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34734/list"
+      },
+      {
+        "id": 34735,
+        "position": 55,
+        "content": "That's probably quite important.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "probably",
+          "quite",
+          "important."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "important."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/55.mp3",
+        "timeStart": 173.56,
+        "timeEnd": 175.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34735/list"
+      },
+      {
+        "id": 34736,
+        "position": 56,
+        "content": "Yeah. Well, you've had most of the good ideas so far.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah.",
+          "Well,",
+          [
+            "you've",
+            "You have"
+          ],
+          "had",
+          "most",
+          "of",
+          "the",
+          "good",
+          "ideas",
+          "so",
+          "far."
+        ],
+        "solution": [
+          [
+            "Yeah."
+          ],
+          [
+            "Well,"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "good"
+          ],
+          [
+            "ideas"
+          ],
+          [
+            "so"
+          ],
+          [
+            "far."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/56.mp3",
+        "timeStart": 175.4,
+        "timeEnd": 179.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34736/list"
+      },
+      {
+        "id": 34737,
+        "position": 57,
+        "content": "How do you feel about drafting something,",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "do",
+          "you",
+          "feel",
+          "about",
+          "drafting",
+          "something,"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "about"
+          ],
+          [
+            "drafting"
+          ],
+          [
+            "something,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/57.mp3",
+        "timeStart": 179.9,
+        "timeEnd": 182.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34737/list"
+      },
+      {
+        "id": 34738,
+        "position": 58,
+        "content": "then we can go through it together and discuss it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          "we",
+          "can",
+          "go",
+          "through",
+          "it",
+          "together",
+          "and",
+          "discuss",
+          "it?"
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "go"
+          ],
+          [
+            "through"
+          ],
+          [
+            "it"
+          ],
+          [
+            "together"
+          ],
+          [
+            "and"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/58.mp3",
+        "timeStart": 182.3,
+        "timeEnd": 184.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34738/list"
+      },
+      {
+        "id": 34739,
+        "position": 59,
+        "content": "OK, that seems reasonable.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK,",
+            "okay"
+          ],
+          "that",
+          "seems",
+          "reasonable."
+        ],
+        "solution": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "that"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "reasonable."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/59.mp3",
+        "timeStart": 184.97,
+        "timeEnd": 187,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34739/list"
+      },
+      {
+        "id": 34740,
+        "position": 60,
+        "content": "And I could include something on how we came up with the ideas for our two stories, couldn't I?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "could",
+          "include",
+          "something",
+          "on",
+          "how",
+          "we",
+          "came",
+          "up",
+          "with",
+          "the",
+          "ideas",
+          "for",
+          "our",
+          [
+            "two",
+            "2"
+          ],
+          "stories,",
+          [
+            "couldn't",
+            "could not"
+          ],
+          "I?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "include"
+          ],
+          [
+            "something"
+          ],
+          [
+            "on"
+          ],
+          [
+            "how"
+          ],
+          [
+            "we"
+          ],
+          [
+            "came"
+          ],
+          [
+            "up"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ideas"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "stories,"
+          ],
+          [
+            "couldn't",
+            "could not"
+          ],
+          [
+            "I?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/60.mp3",
+        "timeStart": 187.45,
+        "timeEnd": 191.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34740/list"
+      },
+      {
+        "id": 34741,
+        "position": 61,
+        "content": "Well, I've started writing something about that,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I've",
+            "I have"
+          ],
+          "started",
+          "writing",
+          "something",
+          "about",
+          "that,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "started"
+          ],
+          [
+            "writing"
+          ],
+          [
+            "something"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/61.mp3",
+        "timeStart": 191.92,
+        "timeEnd": 194.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34741/list"
+      },
+      {
+        "id": 34742,
+        "position": 62,
+        "content": "so why don't you do the same and we can include the two things.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "why",
+          [
+            "don't",
+            "do not"
+          ],
+          "you",
+          "do",
+          "the",
+          "same",
+          "and",
+          "we",
+          "can",
+          "include",
+          "the",
+          [
+            "two",
+            "2"
+          ],
+          "things."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "why"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "include"
+          ],
+          [
+            "the"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "things."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/62.mp3",
+        "timeStart": 194.74,
+        "timeEnd": 199.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34742/list"
+      },
+      {
+        "id": 34743,
+        "position": 63,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/63.mp3",
+        "timeStart": 199.21,
+        "timeEnd": 199.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34743/list"
+      },
+      {
+        "id": 34744,
+        "position": 64,
+        "content": "So what about our interpretation of the stories?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "what",
+          "about",
+          "our",
+          "interpretation",
+          "of",
+          "the",
+          "stories?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "our"
+          ],
+          [
+            "interpretation"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "stories?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/64.mp3",
+        "timeStart": 199.97,
+        "timeEnd": 203.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34744/list"
+      },
+      {
+        "id": 34745,
+        "position": 65,
+        "content": "Do we need to write about what we think they show,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "we",
+          "need",
+          "to",
+          "write",
+          "about",
+          "what",
+          "we",
+          "think",
+          "they",
+          "show,"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "write"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "think"
+          ],
+          [
+            "they"
+          ],
+          [
+            "show,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/65.mp3",
+        "timeStart": 203.3,
+        "timeEnd": 206.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34745/list"
+      },
+      {
+        "id": 34746,
+        "position": 66,
+        "content": "like the value of helping other people, all that sort of thing?",
+        "defaultInput": "",
+        "jsonContent": [
+          "like",
+          "the",
+          "value",
+          "of",
+          "helping",
+          "other",
+          "people,",
+          "all",
+          "that",
+          "sort",
+          "of",
+          "thing?"
+        ],
+        "solution": [
+          [
+            "like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "value"
+          ],
+          [
+            "of"
+          ],
+          [
+            "helping"
+          ],
+          [
+            "other"
+          ],
+          [
+            "people,"
+          ],
+          [
+            "all"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "thing?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/66.mp3",
+        "timeStart": 206.13,
+        "timeEnd": 209.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34746/list"
+      },
+      {
+        "id": 34747,
+        "position": 67,
+        "content": "That's going to come up later isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          [
+            "going to",
+            "gonna"
+          ],
+          "come",
+          "up",
+          "later",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "come"
+          ],
+          [
+            "up"
+          ],
+          [
+            "later"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/67.mp3",
+        "timeStart": 210.04,
+        "timeEnd": 212.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34747/list"
+      },
+      {
+        "id": 34748,
+        "position": 68,
+        "content": "I think everyone in the class is going to read each other's stories",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "everyone",
+          "in",
+          "the",
+          "class",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "read",
+          "each",
+          "other's",
+          "stories"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "class"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "read"
+          ],
+          [
+            "each"
+          ],
+          [
+            "other's"
+          ],
+          [
+            "stories"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/68.mp3",
+        "timeStart": 212.74,
+        "timeEnd": 216.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34748/list"
+      },
+      {
+        "id": 34749,
+        "position": 69,
+        "content": "and come up with their own interpretations which we're going to discuss.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "come",
+          "up",
+          "with",
+          "their",
+          "own",
+          "interpretations",
+          "which",
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "discuss."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "come"
+          ],
+          [
+            "up"
+          ],
+          [
+            "with"
+          ],
+          [
+            "their"
+          ],
+          [
+            "own"
+          ],
+          [
+            "interpretations"
+          ],
+          [
+            "which"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "discuss."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/69.mp3",
+        "timeStart": 216.99,
+        "timeEnd": 221.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34749/list"
+      },
+      {
+        "id": 34750,
+        "position": 70,
+        "content": "Oh, I missed that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "missed",
+          "that."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "missed"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/70.mp3",
+        "timeStart": 221.54,
+        "timeEnd": 223.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34750/list"
+      },
+      {
+        "id": 34751,
+        "position": 71,
+        "content": "So it isn't going to be part of the report at all?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "it",
+          "isn't",
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "part",
+          "of",
+          "the",
+          "report",
+          "at",
+          "all?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "it"
+          ],
+          [
+            "isn't"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "report"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/71.mp3",
+        "timeStart": 223.23,
+        "timeEnd": 226.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34751/list"
+      },
+      {
+        "id": 34752,
+        "position": 72,
+        "content": "No.",
+        "defaultInput": "No.",
+        "jsonContent": [
+          "No."
+        ],
+        "solution": [
+          [
+            "No."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/72.mp3",
+        "timeStart": 226.3,
+        "timeEnd": 226.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34752/list"
+      },
+      {
+        "id": 34753,
+        "position": 73,
+        "content": "But we need to write about the illustrations, because they're an essential element of children's experience of reading the stories.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "we",
+          "need",
+          "to",
+          "write",
+          "about",
+          "the",
+          "illustrations,",
+          "because",
+          [
+            "they're",
+            "they are"
+          ],
+          "an",
+          "essential",
+          "element",
+          "of",
+          "children's",
+          "experience",
+          "of",
+          "reading",
+          "the",
+          "stories."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "write"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "illustrations,"
+          ],
+          [
+            "because"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "an"
+          ],
+          [
+            "essential"
+          ],
+          [
+            "element"
+          ],
+          [
+            "of"
+          ],
+          [
+            "children's"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "of"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "the"
+          ],
+          [
+            "stories."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/73.mp3",
+        "timeStart": 227.54,
+        "timeEnd": 234.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34753/list"
+      },
+      {
+        "id": 34754,
+        "position": 74,
+        "content": "It's probably easiest for you to write that section, as you know more about drawing than I do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "probably",
+          "easiest",
+          "for",
+          "you",
+          "to",
+          "write",
+          "that",
+          "section,",
+          "as",
+          "you",
+          "know",
+          "more",
+          "about",
+          "drawing",
+          "than",
+          "I",
+          "do."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "easiest"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "write"
+          ],
+          [
+            "that"
+          ],
+          [
+            "section,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "more"
+          ],
+          [
+            "about"
+          ],
+          [
+            "drawing"
+          ],
+          [
+            "than"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/74.mp3",
+        "timeStart": 235.25,
+        "timeEnd": 240.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34754/list"
+      },
+      {
+        "id": 34755,
+        "position": 75,
+        "content": "Maybe, but I find it quite hard to write about.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe,",
+          "but",
+          "I",
+          "find",
+          "it",
+          "quite",
+          "hard",
+          "to",
+          "write",
+          "about."
+        ],
+        "solution": [
+          [
+            "Maybe,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "find"
+          ],
+          [
+            "it"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "write"
+          ],
+          [
+            "about."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/75.mp3",
+        "timeStart": 240.92,
+        "timeEnd": 244.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34755/list"
+      },
+      {
+        "id": 34756,
+        "position": 76,
+        "content": "I'd be happier if you did it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "be",
+          "happier",
+          "if",
+          "you",
+          "did",
+          "it."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "happier"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "did"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/76.mp3",
+        "timeStart": 244.62,
+        "timeEnd": 246.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34756/list"
+      },
+      {
+        "id": 34757,
+        "position": 77,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/77.mp3",
+        "timeStart": 246.66,
+        "timeEnd": 247.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34757/list"
+      },
+      {
+        "id": 34758,
+        "position": 78,
+        "content": "So when do you think...",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "when",
+          "do",
+          "you",
+          "think..."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "when"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-11-test-3-part-3-2023-06-07-23-09-21/78.mp3",
+        "timeStart": 248.11,
+        "timeEnd": 249.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/34758/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "34683": {
+      "id": 608192,
+      "text": "Chà, tốt hơn là chúng ta nên xác định tiến độ hiện tại trong dự án của mình, tôi cho là vậy.",
+      "author": "a user"
+    },
+    "34686": {
+      "id": 609184,
+      "text": "Tôi rất vui vì bạn thích chúng.",
+      "author": "a user"
+    },
+    "34688": {
+      "id": 609186,
+      "text": "Cứ nói đi.",
+      "author": "a user"
+    },
+    "34689": {
+      "id": 609187,
+      "text": "Bây giờ, tớ không chắc về bản vẽ hang động",
+      "author": "a user"
+    },
+    "34690": {
+      "id": 609188,
+      "text": "việc có những cái cây xung quanh nó thật tuyệt,",
+      "author": "a user"
+    },
+    "34693": {
+      "id": 609191,
+      "text": "Đúng vậy, chẳng có gì đang diễn ra cả.",
+      "author": "a user"
+    },
+    "34696": {
+      "id": 609194,
+      "text": "Đúng vậy, hãy thêm Malcolm vào trong bức tranh.",
+      "author": "a user"
+    },
+    "34697": {
+      "id": 609195,
+      "text": "Còn việc đưa thêm vào con hổ thì sao -",
+      "author": "a user"
+    },
+    "34698": {
+      "id": 609196,
+      "text": "con hổ sẽ làm bạn với anh sau này ấy? Nó có thể đang ngồi liếm láp dưới một cái cây chẳng hạn.",
+      "author": "a user"
+    },
+    "34709": {
+      "id": 609208,
+      "text": "Được, ổn đấy.",
+      "author": "a user"
+    },
+    "34710": {
+      "id": 609209,
+      "text": "Và bạn có muốn cậu bé đang nhìn những người khác không?",
+      "author": "a user"
+    },
+    "34714": {
+      "id": 609213,
+      "text": "Được rồi, tôi sẽ làm việc đó.",
+      "author": "a user"
+    },
+    "34719": {
+      "id": 609218,
+      "text": "Hiện tại, trông nó có vẻ không đúng cho lắm.",
+      "author": "a user"
+    },
+    "34721": {
+      "id": 609220,
+      "text": "Tôi sẽ thử một cái khác",
+      "author": "a user"
+    },
+    "34724": {
+      "id": 609223,
+      "text": "Yeah, dễ ấy mà.",
+      "author": "a user"
+    },
+    "34725": {
+      "id": 609224,
+      "text": "Những chiếc khăn sẽ bay phấp phới về phía sau để cho thấy họ đang trượt băng rất nhanh.",
+      "author": "a user"
+    },
+    "34727": {
+      "id": 609226,
+      "text": "Rồi, đó là tất cả về mấy bức tranh.",
+      "author": "a user"
+    },
+    "34729": {
+      "id": 609228,
+      "text": "Vậy là bạn đã hoàn thành câu chuyện của mình và tôi chỉ cần hoàn thành việc minh họa cho nó,",
+      "author": "a user"
+    },
+    "34734": {
+      "id": 609238,
+      "text": "Bạn nghĩ gì về việc thêm một phần nói về cách chúng ta lên kế hoạch cho toàn bộ dự án, Jeremy?",
+      "author": "a user"
+    },
+    "34736": {
+      "id": 609240,
+      "text": "Vâng. Mình thấy các ý tưởng bạn đưa ra tính đến hiện tại hầu hết đều rất ổn.",
+      "author": "a user"
+    },
+    "34740": {
+      "id": 609246,
+      "text": "Và mình còn có thể thêm vào cách thức chúng ta nghĩ ra ý tưởng cho hai câu chuyện của tụi mình, được chứ?",
+      "author": "a user"
+    },
+    "34741": {
+      "id": 609248,
+      "text": "Chà, tớ vừa mới bắt đầu viết về điều đó",
+      "author": "a user"
+    },
+    "34742": {
+      "id": 609250,
+      "text": ", vậy tại sao bạn không làm như vậy và chúng ta có thể đưa vào cả hai.",
+      "author": "a user"
+    },
+    "34744": {
+      "id": 609252,
+      "text": "Thế còn phần giải thích về các câu chuyện của chúng ta thì sao?",
+      "author": "a user"
+    },
+    "34745": {
+      "id": 609254,
+      "text": "Chúng ta có cần viết về nội dung truyền tải của những câu chuyện không,",
+      "author": "a user"
+    },
+    "34747": {
+      "id": 609257,
+      "text": "Phần này ở khúc sau phải không?",
+      "author": "a user"
+    },
+    "34681": {
+      "id": 2554252,
+      "text": "Chào Helen. Xin lỗi mình đến muộn.",
+      "author": "ChatGPT4.1"
+    },
+    "34682": {
+      "id": 2554253,
+      "text": "Chào Jeremy, không sao đâu.",
+      "author": "ChatGPT4.1"
+    },
+    "34684": {
+      "id": 2554254,
+      "text": "Ừ. Mình đã xem các bức vẽ bạn làm cho truyện của mình, 'Khu Rừng',",
+      "author": "ChatGPT4.1"
+    },
+    "34685": {
+      "id": 2554255,
+      "text": "và mình thấy chúng rất tuyệt - thật sự đã tạo nên bầu không khí mà mình hình dung khi viết.",
+      "author": "ChatGPT4.1"
+    },
+    "34687": {
+      "id": 2554256,
+      "text": "Mình chỉ có một vài góp ý nhỏ muốn đưa ra.",
+      "author": "ChatGPT4.1"
+    },
+    "34691": {
+      "id": 2554257,
+      "text": "nhưng bức vẽ hơi tĩnh quá, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "34692": {
+      "id": 2554258,
+      "text": "Mình nghĩ nó cần thêm chút chuyển động.",
+      "author": "ChatGPT4.1"
+    },
+    "34694": {
+      "id": 2554259,
+      "text": "Có lẽ mình nên thêm cậu bé vào - Malcolm phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "34695": {
+      "id": 2554260,
+      "text": "Cậu ấy sẽ đang đi đến gần cái hang.",
+      "author": "ChatGPT4.1"
+    },
+    "34699": {
+      "id": 2554261,
+      "text": "Và con hổ dừng việc nó đang làm khi thấy Malcolm đi ngang qua.",
+      "author": "ChatGPT4.1"
+    },
+    "34700": {
+      "id": 2554262,
+      "text": "Ý kiến hay đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "34701": {
+      "id": 2554263,
+      "text": "Được rồi, để mình thử làm vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "34702": {
+      "id": 2554264,
+      "text": "Còn bức vẽ nhóm đàn ông và phụ nữ đang nhảy múa nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "34703": {
+      "id": 2554265,
+      "text": "Họ ở ngay bên ngoài khu rừng, và có rất nhiều chuyện xảy ra.",
+      "author": "ChatGPT4.1"
+    },
+    "34704": {
+      "id": 2554266,
+      "text": "Đúng rồi, bạn muốn họ xem một đoàn diễu hành lễ hội, nhưng mình nghĩ như vậy sẽ quá đông.",
+      "author": "ChatGPT4.1"
+    },
+    "34705": {
+      "id": 2554267,
+      "text": "Bạn thấy bức vẽ hiện tại ổn không?",
+      "author": "ChatGPT4.1"
+    },
+    "34706": {
+      "id": 2554268,
+      "text": "Ừ, mình thích những gì bạn đã làm.",
+      "author": "ChatGPT4.1"
+    },
+    "34707": {
+      "id": 2554269,
+      "text": "Chỉ có điều, bạn có thể thêm Malcolm vào mà không phải thay đổi bố cục hiện tại không?",
+      "author": "ChatGPT4.1"
+    },
+    "34708": {
+      "id": 2554270,
+      "text": "Hay để cậu ấy ngồi trên khúc cây phía bên phải bức tranh nhỉ?",
+      "author": "ChatGPT4.1"
+    },
+    "34715": {
+      "id": 2561474,
+      "text": "Và sau đó là bức vẽ những người trượt băng trong rừng.",
+      "author": "ChatGPT4.1"
+    },
+    "34716": {
+      "id": 2561475,
+      "text": "Tôi không hài lòng lắm với bức vẽ đó.",
+      "author": "ChatGPT4.1"
+    },
+    "34717": {
+      "id": 2561476,
+      "text": "Bởi vì họ lẽ ra phải trượt trên cỏ đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "34718": {
+      "id": 2561477,
+      "text": "Đúng vậy, và chỗ đó đã bị đóng băng.",
+      "author": "ChatGPT4.1"
+    },
+    "34720": {
+      "id": 2561478,
+      "text": "Tôi hiểu ý bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "34722": {
+      "id": 2561479,
+      "text": "Và tôi thích những chiếc mũ len mà họ đội.",
+      "author": "ChatGPT4.1"
+    },
+    "34723": {
+      "id": 2561480,
+      "text": "Có lẽ bạn cũng có thể thêm cho mỗi người một chiếc khăn quàng cổ nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "34726": {
+      "id": 2561481,
+      "text": "Tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "34728": {
+      "id": 2561482,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "34730": {
+      "id": 2561483,
+      "text": "và câu chuyện của tôi cùng những bức vẽ của bạn đã xong.",
+      "author": "ChatGPT4.1"
+    },
+    "34731": {
+      "id": 2561484,
+      "text": "Vậy việc tiếp theo là quyết định chính xác những gì chúng ta cần viết trong báo cáo đi kèm với các câu chuyện,",
+      "author": "ChatGPT4.1"
+    },
+    "34732": {
+      "id": 2561485,
+      "text": "và chúng ta sẽ phân chia công việc như thế nào.",
+      "author": "ChatGPT4.1"
+    },
+    "34733": {
+      "id": 2561486,
+      "text": "Đúng rồi, Helen.",
+      "author": "ChatGPT4.1"
+    },
+    "34735": {
+      "id": 2561487,
+      "text": "Điều đó có lẽ khá quan trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "34737": {
+      "id": 2561488,
+      "text": "Bạn có muốn phác thảo một vài ý,",
+      "author": "ChatGPT4.1"
+    },
+    "34738": {
+      "id": 2561489,
+      "text": "rồi chúng ta sẽ cùng nhau xem lại và thảo luận?",
+      "author": "ChatGPT4.1"
+    },
+    "34739": {
+      "id": 2561490,
+      "text": "Được, nghe hợp lý đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "34743": {
+      "id": 2561491,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "34746": {
+      "id": 2561649,
+      "text": "như giá trị của việc giúp đỡ người khác, những điều kiểu như thế không?",
+      "author": "ChatGPT4.1"
+    },
+    "34748": {
+      "id": 2561650,
+      "text": "Tôi nghĩ mọi người trong lớp sẽ đọc chuyện của nhau",
+      "author": "ChatGPT4.1"
+    },
+    "34749": {
+      "id": 2561651,
+      "text": "và đưa ra ý kiến của riêng mình mà chúng ta sẽ cùng thảo luận.",
+      "author": "ChatGPT4.1"
+    },
+    "34750": {
+      "id": 2561652,
+      "text": "Ô, tôi bỏ lỡ mất phần đó.",
+      "author": "ChatGPT4.1"
+    },
+    "34751": {
+      "id": 2561653,
+      "text": "Vậy nó hoàn toàn không thuộc phần báo cáo sao?",
+      "author": "ChatGPT4.1"
+    },
+    "34752": {
+      "id": 2561654,
+      "text": "Không.",
+      "author": "ChatGPT4.1"
+    },
+    "34753": {
+      "id": 2561655,
+      "text": "Nhưng chúng ta cần viết về phần minh họa, bởi đó là một yếu tố quan trọng trong trải nghiệm của trẻ khi đọc những câu chuyện này.",
+      "author": "ChatGPT4.1"
+    },
+    "34754": {
+      "id": 2561656,
+      "text": "Có lẽ bạn sẽ dễ viết phần này hơn, vì bạn biết nhiều về vẽ tranh hơn tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "34755": {
+      "id": 2561657,
+      "text": "Có thể, nhưng tôi thấy khá khó để viết về điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "34756": {
+      "id": 2561658,
+      "text": "Tôi sẽ vui hơn nếu bạn làm phần đó.",
+      "author": "ChatGPT4.1"
+    },
+    "34757": {
+      "id": 2561659,
+      "text": "Được.",
+      "author": "ChatGPT4.1"
+    },
+    "34758": {
+      "id": 2561660,
+      "text": "Vậy bạn nghĩ khi nào...",
+      "author": "ChatGPT4.1"
+    },
+    "34711": {
+      "id": 2564470,
+      "text": "Không, anh ấy bị bỏ rơi khỏi tất cả niềm vui, nên tôi muốn anh ấy đang khóc -",
+      "author": "ChatGPT4.1"
+    },
+    "34712": {
+      "id": 2564471,
+      "text": "điều đó sẽ tạo sự tương phản đẹp với bức tranh tiếp theo,",
+      "author": "ChatGPT4.1"
+    },
+    "34713": {
+      "id": 2564472,
+      "text": "nơi anh ấy cười trước các chú hề trong lễ hội.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

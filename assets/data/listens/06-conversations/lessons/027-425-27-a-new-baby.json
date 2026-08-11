@@ -1,0 +1,499 @@
+{
+  "summary": {
+    "id": 425,
+    "name": "27. A New Baby",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 27,
+    "totalChallenges": 10,
+    "groupId": 103,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/425",
+  "detail": {
+    "id": 425,
+    "lessonName": "27. A New Baby",
+    "name": "27. A New Baby",
+    "position": 27,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/0-27-a-new-baby.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18034,
+        "position": 1,
+        "content": "Well, hello, Mr Wallace.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "hello,",
+          "Mr",
+          "Wallace."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "hello,"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "Wallace."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/1.mp3",
+        "timeStart": 1.73,
+        "timeEnd": 3.91,
+        "hints": [
+          "Wallace"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18034/list"
+      },
+      {
+        "id": 18035,
+        "position": 2,
+        "content": "You seem unusually happy today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "seem",
+          "unusually",
+          "happy",
+          "today."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "unusually"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/2.mp3",
+        "timeStart": 3.91,
+        "timeEnd": 5.79,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18035/list"
+      },
+      {
+        "id": 18036,
+        "position": 3,
+        "content": "I just became a father!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "became",
+          "a",
+          "father!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "became"
+          ],
+          [
+            "a"
+          ],
+          [
+            "father!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/3.mp3",
+        "timeStart": 5.79,
+        "timeEnd": 7.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18036/list"
+      },
+      {
+        "id": 18037,
+        "position": 4,
+        "content": "Congratulations. A boy or a girl?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Congratulations.",
+          "A",
+          "boy",
+          "or",
+          "a",
+          "girl?"
+        ],
+        "solution": [
+          [
+            "Congratulations."
+          ],
+          [
+            "A"
+          ],
+          [
+            "boy"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "girl?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/4.mp3",
+        "timeStart": 7.21,
+        "timeEnd": 9.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18037/list"
+      },
+      {
+        "id": 18038,
+        "position": 5,
+        "content": "You never saw such a cute girl.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "never",
+          "saw",
+          "such",
+          "a",
+          "cute",
+          "girl."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "never"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cute"
+          ],
+          [
+            "girl."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/5.mp3",
+        "timeStart": 9.56,
+        "timeEnd": 11.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18038/list"
+      },
+      {
+        "id": 18039,
+        "position": 6,
+        "content": "Nine pounds, three ounces... and as cute as a button.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Nine",
+            "9"
+          ],
+          "pounds,",
+          [
+            "three",
+            "3"
+          ],
+          "ounces...",
+          "and",
+          "as",
+          "cute",
+          "as",
+          "a",
+          "button."
+        ],
+        "solution": [
+          [
+            "Nine",
+            "9"
+          ],
+          [
+            "pounds,"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "ounces..."
+          ],
+          [
+            "and"
+          ],
+          [
+            "as"
+          ],
+          [
+            "cute"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "button."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/6.mp3",
+        "timeStart": 11.72,
+        "timeEnd": 14.76,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/18039/list"
+      },
+      {
+        "id": 18040,
+        "position": 7,
+        "content": "Doesn't this call for cigars?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Doesn't",
+            "Does not"
+          ],
+          "this",
+          "call",
+          "for",
+          "cigars?"
+        ],
+        "solution": [
+          [
+            "Doesn't",
+            "Does not"
+          ],
+          [
+            "this"
+          ],
+          [
+            "call"
+          ],
+          [
+            "for"
+          ],
+          [
+            "cigars?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/7.mp3",
+        "timeStart": 14.76,
+        "timeEnd": 16.27,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/18040/list"
+      },
+      {
+        "id": 18041,
+        "position": 8,
+        "content": "Oh, yes. I forgot about the cigars. Here, have one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "yes.",
+          "I",
+          "forgot",
+          "about",
+          "the",
+          "cigars.",
+          "Here,",
+          "have",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "yes."
+          ],
+          [
+            "I"
+          ],
+          [
+            "forgot"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cigars."
+          ],
+          [
+            "Here,"
+          ],
+          [
+            "have"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/8.mp3",
+        "timeStart": 16.27,
+        "timeEnd": 19.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18041/list"
+      },
+      {
+        "id": 18042,
+        "position": 9,
+        "content": "Thank you. How's your wife?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you.",
+          "How's",
+          "your",
+          "wife?"
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ],
+          [
+            "How's"
+          ],
+          [
+            "your"
+          ],
+          [
+            "wife?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/9.mp3",
+        "timeStart": 19.44,
+        "timeEnd": 21.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18042/list"
+      },
+      {
+        "id": 18043,
+        "position": 10,
+        "content": "She's just fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "just",
+          "fine."
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/27-a-new-baby-2022-03-07-21-13-19/10.mp3",
+        "timeStart": 21.13,
+        "timeEnd": 22.28,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18043/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18039": {
+      "id": 1059,
+      "text": "Em bé nặng 9 pound 3 ounce, và đáng yêu hết nấc!",
+      "author": "a user"
+    },
+    "18040": {
+      "id": 1060,
+      "text": "Không hút miếng xì gà (để ăn mừng) sao?",
+      "author": "a user"
+    },
+    "18037": {
+      "id": 2714,
+      "text": "Xin chúc mừng. Bé trai hay bé gái vậy?",
+      "author": "a user"
+    },
+    "18038": {
+      "id": 2715,
+      "text": "Bạn chưa bao giờ nhìn thấy một bé gái dễ thương như vậy đâu.",
+      "author": "a user"
+    },
+    "18041": {
+      "id": 2717,
+      "text": "Ồ, đúng rồi. Tôi quên mất vụ xì gà. Này, mời ông một điếu.",
+      "author": "a user"
+    },
+    "18034": {
+      "id": 11113,
+      "text": "Chà, xin chào anh Wallace.",
+      "author": "a user"
+    },
+    "18035": {
+      "id": 2583078,
+      "text": "Hôm nay trông ông có vẻ vui bất thường nhỉ.",
+      "author": "a user"
+    },
+    "18036": {
+      "id": 2583079,
+      "text": "Tôi vừa lên chức bố!",
+      "author": "ChatGPT4.1"
+    },
+    "18042": {
+      "id": 2583080,
+      "text": "Cảm ơn ông. Vợ ông thế nào rồi?",
+      "author": "ChatGPT4.1"
+    },
+    "18043": {
+      "id": 2583081,
+      "text": "Cô ấy vẫn khỏe.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

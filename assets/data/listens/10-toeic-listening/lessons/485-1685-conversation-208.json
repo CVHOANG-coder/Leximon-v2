@@ -1,0 +1,658 @@
+{
+  "summary": {
+    "id": 1685,
+    "name": "Conversation 208",
+    "subTitle": "Inventory Management Software Meeting",
+    "levelName": "B2",
+    "position": 485,
+    "totalChallenges": 11,
+    "groupId": 51,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1685",
+  "detail": {
+    "id": 1685,
+    "lessonName": "Conversation 208",
+    "name": "Conversation 208",
+    "position": 485,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/0-conversation-208.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68783,
+        "position": 1,
+        "content": "Thank you for taking the time to meet with us, Ms. Carter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you",
+          "for",
+          "taking",
+          "the",
+          "time",
+          "to",
+          "meet",
+          "with",
+          "us,",
+          "Ms.",
+          "Carter."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "with"
+          ],
+          [
+            "us,"
+          ],
+          [
+            "Ms."
+          ],
+          [
+            "Carter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68783/list"
+      },
+      {
+        "id": 68784,
+        "position": 2,
+        "content": "We're really looking forward to hearing about the software your team has created for businesses like ours.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "We are"
+          ],
+          "really",
+          "looking",
+          "forward",
+          "to",
+          "hearing",
+          "about",
+          "the",
+          "software",
+          "your",
+          "team",
+          "has",
+          "created",
+          "for",
+          "businesses",
+          "like",
+          "ours."
+        ],
+        "solution": [
+          [
+            "We're",
+            "We are"
+          ],
+          [
+            "really"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hearing"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "software"
+          ],
+          [
+            "your"
+          ],
+          [
+            "team"
+          ],
+          [
+            "has"
+          ],
+          [
+            "created"
+          ],
+          [
+            "for"
+          ],
+          [
+            "businesses"
+          ],
+          [
+            "like"
+          ],
+          [
+            "ours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/2.mp3",
+        "timeStart": 2.64,
+        "timeEnd": 7.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68784/list"
+      },
+      {
+        "id": 68785,
+        "position": 3,
+        "content": "I'm glad to be here!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "glad",
+          "to",
+          "be",
+          "here!"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "glad"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "here!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/3.mp3",
+        "timeStart": 8.12,
+        "timeEnd": 9.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68785/list"
+      },
+      {
+        "id": 68786,
+        "position": 4,
+        "content": "Our software is designed to optimize inventory management.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "software",
+          "is",
+          "designed",
+          "to",
+          "optimize",
+          "inventory",
+          "management."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "software"
+          ],
+          [
+            "is"
+          ],
+          [
+            "designed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "optimize"
+          ],
+          [
+            "inventory"
+          ],
+          [
+            "management."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/4.mp3",
+        "timeStart": 9.64,
+        "timeEnd": 13.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68786/list"
+      },
+      {
+        "id": 68787,
+        "position": 5,
+        "content": "It tracks stock levels in real-time and predicts when you'll need to reorder.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "tracks",
+          "stock",
+          "levels",
+          "in",
+          [
+            "real-time",
+            "real time"
+          ],
+          "and",
+          "predicts",
+          "when",
+          [
+            "you'll",
+            "you will"
+          ],
+          "need",
+          "to",
+          "reorder."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "tracks"
+          ],
+          [
+            "stock"
+          ],
+          [
+            "levels"
+          ],
+          [
+            "in"
+          ],
+          [
+            "real-time",
+            "real time"
+          ],
+          [
+            "and"
+          ],
+          [
+            "predicts"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reorder."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/5.mp3",
+        "timeStart": 13.02,
+        "timeEnd": 17.02,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/68787/list"
+      },
+      {
+        "id": 68788,
+        "position": 6,
+        "content": "That sounds good!",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "sounds",
+          "good!"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "good!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/6.mp3",
+        "timeStart": 17.02,
+        "timeEnd": 18.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68788/list"
+      },
+      {
+        "id": 68789,
+        "position": 7,
+        "content": "We manage a large inventory here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "manage",
+          "a",
+          "large",
+          "inventory",
+          "here."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "a"
+          ],
+          [
+            "large"
+          ],
+          [
+            "inventory"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/7.mp3",
+        "timeStart": 18.41,
+        "timeEnd": 20.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68789/list"
+      },
+      {
+        "id": 68790,
+        "position": 8,
+        "content": "How complicated is the setup process?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "complicated",
+          "is",
+          "the",
+          "setup",
+          "process?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "complicated"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "setup"
+          ],
+          [
+            "process?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/8.mp3",
+        "timeStart": 20.67,
+        "timeEnd": 22.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68790/list"
+      },
+      {
+        "id": 68791,
+        "position": 9,
+        "content": "It's fairly straightforward.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "fairly",
+          "straightforward."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "fairly"
+          ],
+          [
+            "straightforward."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/9.mp3",
+        "timeStart": 23.06,
+        "timeEnd": 24.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68791/list"
+      },
+      {
+        "id": 68792,
+        "position": 10,
+        "content": "It typically takes about two hours to set everything up,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "typically",
+          "takes",
+          "about",
+          [
+            "two",
+            "2"
+          ],
+          "hours",
+          "to",
+          "set",
+          "everything",
+          "up,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "typically"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "about"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "to"
+          ],
+          [
+            "set"
+          ],
+          [
+            "everything"
+          ],
+          [
+            "up,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/10.mp3",
+        "timeStart": 24.7,
+        "timeEnd": 27.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68792/list"
+      },
+      {
+        "id": 68793,
+        "position": 11,
+        "content": "and we offer guided tutorials to walk you through each stage.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "offer",
+          "guided",
+          "tutorials",
+          "to",
+          "walk",
+          "you",
+          "through",
+          "each",
+          "stage."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "guided"
+          ],
+          [
+            "tutorials"
+          ],
+          [
+            "to"
+          ],
+          [
+            "walk"
+          ],
+          [
+            "you"
+          ],
+          [
+            "through"
+          ],
+          [
+            "each"
+          ],
+          [
+            "stage."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-208-2024-10-09-12-36-08/11.mp3",
+        "timeStart": 27.64,
+        "timeEnd": 31.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68793/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68783": {
+      "id": 2673123,
+      "text": "Cảm ơn cô đã dành thời gian gặp chúng tôi, cô Carter.",
+      "author": "ChatGPT4.1"
+    },
+    "68784": {
+      "id": 2673124,
+      "text": "Chúng tôi rất mong được nghe về phần mềm mà nhóm của cô đã tạo ra cho những doanh nghiệp như chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "68785": {
+      "id": 2673125,
+      "text": "Tôi rất vui khi có mặt ở đây!",
+      "author": "ChatGPT4.1"
+    },
+    "68786": {
+      "id": 2673126,
+      "text": "Phần mềm của chúng tôi được thiết kế để tối ưu hóa quản lý hàng tồn kho.",
+      "author": "ChatGPT4.1"
+    },
+    "68787": {
+      "id": 2673127,
+      "text": "Nó theo dõi mức hàng tồn kho theo thời gian thực và dự đoán khi nào bạn cần đặt hàng lại.",
+      "author": "ChatGPT4.1"
+    },
+    "68788": {
+      "id": 2673128,
+      "text": "Nghe hay đấy!",
+      "author": "ChatGPT4.1"
+    },
+    "68789": {
+      "id": 2673129,
+      "text": "Chúng tôi quản lý một lượng lớn hàng tồn kho ở đây.",
+      "author": "ChatGPT4.1"
+    },
+    "68790": {
+      "id": 2673130,
+      "text": "Quy trình cài đặt có phức tạp không?",
+      "author": "ChatGPT4.1"
+    },
+    "68791": {
+      "id": 2673131,
+      "text": "Nó khá đơn giản.",
+      "author": "ChatGPT4.1"
+    },
+    "68792": {
+      "id": 2673132,
+      "text": "Thông thường chỉ mất khoảng hai giờ để thiết lập mọi thứ,",
+      "author": "ChatGPT4.1"
+    },
+    "68793": {
+      "id": 2673133,
+      "text": "và chúng tôi cung cấp các hướng dẫn từng bước để giúp bạn qua từng giai đoạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,669 @@
+{
+  "summary": {
+    "id": 1065,
+    "name": "Short Talk 11",
+    "subTitle": "Fruit Bouquet Delivery Confirmation",
+    "levelName": "B1",
+    "position": 97,
+    "totalChallenges": 10,
+    "groupId": 32,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1065",
+  "detail": {
+    "id": 1065,
+    "lessonName": "Short Talk 11",
+    "name": "Short Talk 11",
+    "position": 97,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/0-short-talk-11.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 52907,
+        "position": 1,
+        "content": "Hello, Sarah!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "Sarah!"
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Sarah!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/1.mp3",
+        "timeStart": 0.31,
+        "timeEnd": 1.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52907/list"
+      },
+      {
+        "id": 52908,
+        "position": 2,
+        "content": "This is Becky, calling from Fruit Arrangements.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "Becky,",
+          "calling",
+          "from",
+          "Fruit",
+          "Arrangements."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Becky,"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Fruit"
+          ],
+          [
+            "Arrangements."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/2.mp3",
+        "timeStart": 1.63,
+        "timeEnd": 4.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52908/list"
+      },
+      {
+        "id": 52909,
+        "position": 3,
+        "content": "I am calling you to confirm your online order of the extra-large fruit bouquet",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "calling",
+          "you",
+          "to",
+          "confirm",
+          "your",
+          "online",
+          "order",
+          "of",
+          "the",
+          [
+            "extra-large",
+            "extra large"
+          ],
+          "fruit",
+          "bouquet"
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "confirm"
+          ],
+          [
+            "your"
+          ],
+          [
+            "online"
+          ],
+          [
+            "order"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "extra-large",
+            "extra large"
+          ],
+          [
+            "fruit"
+          ],
+          [
+            "bouquet"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/3.mp3",
+        "timeStart": 4.64,
+        "timeEnd": 9.45,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52909/list"
+      },
+      {
+        "id": 52910,
+        "position": 4,
+        "content": "will be delivered to St. Catherine's School, Monday, at 2:30 pm.",
+        "defaultInput": "",
+        "jsonContent": [
+          "will",
+          "be",
+          "delivered",
+          "to",
+          [
+            "St.",
+            "saint"
+          ],
+          "Catherine's",
+          "School,",
+          "Monday,",
+          "at",
+          "2:30",
+          "pm."
+        ],
+        "solution": [
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "delivered"
+          ],
+          [
+            "to"
+          ],
+          [
+            "St.",
+            "saint"
+          ],
+          [
+            "Catherine's"
+          ],
+          [
+            "School,"
+          ],
+          [
+            "Monday,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "2:30"
+          ],
+          [
+            "pm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/4.mp3",
+        "timeStart": 9.45,
+        "timeEnd": 14.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52910/list"
+      },
+      {
+        "id": 52911,
+        "position": 5,
+        "content": "I am going to personally deliver the bouquet, and will email you the invoice when I do.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "personally",
+          "deliver",
+          "the",
+          "bouquet,",
+          "and",
+          "will",
+          "email",
+          "you",
+          "the",
+          "invoice",
+          "when",
+          "I",
+          "do."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "personally"
+          ],
+          [
+            "deliver"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bouquet,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "will"
+          ],
+          [
+            "email"
+          ],
+          [
+            "you"
+          ],
+          [
+            "the"
+          ],
+          [
+            "invoice"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/5.mp3",
+        "timeStart": 14.22,
+        "timeEnd": 19.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52911/list"
+      },
+      {
+        "id": 52912,
+        "position": 6,
+        "content": "We will include care notes,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We will",
+            "we'll"
+          ],
+          "include",
+          "care",
+          "notes,"
+        ],
+        "solution": [
+          [
+            "We will",
+            "we'll"
+          ],
+          [
+            "include"
+          ],
+          [
+            "care"
+          ],
+          [
+            "notes,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/6.mp3",
+        "timeStart": 19.69,
+        "timeEnd": 21.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52912/list"
+      },
+      {
+        "id": 52913,
+        "position": 7,
+        "content": "but you should tell the recipient to put the fruit in a refrigerator within four hours of delivery",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "you",
+          "should",
+          "tell",
+          "the",
+          "recipient",
+          "to",
+          "put",
+          "the",
+          "fruit",
+          "in",
+          "a",
+          "refrigerator",
+          "within",
+          [
+            "four",
+            "4"
+          ],
+          "hours",
+          "of",
+          "delivery"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "the"
+          ],
+          [
+            "recipient"
+          ],
+          [
+            "to"
+          ],
+          [
+            "put"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fruit"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "refrigerator"
+          ],
+          [
+            "within"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "of"
+          ],
+          [
+            "delivery"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/7.mp3",
+        "timeStart": 21.76,
+        "timeEnd": 27.25,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52913/list"
+      },
+      {
+        "id": 52914,
+        "position": 8,
+        "content": "to prevent the fruit from molding.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "prevent",
+          "the",
+          "fruit",
+          "from",
+          "molding."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "prevent"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fruit"
+          ],
+          [
+            "from"
+          ],
+          [
+            "molding."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/8-2024-07-22-15-39-47.mp3",
+        "timeStart": 27.15,
+        "timeEnd": 29.2,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52914/list"
+      },
+      {
+        "id": 52915,
+        "position": 9,
+        "content": "Thank you for your order,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you",
+          "for",
+          "your",
+          "order,"
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "order,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/9.mp3",
+        "timeStart": 29.3,
+        "timeEnd": 30.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52915/list"
+      },
+      {
+        "id": 52916,
+        "position": 10,
+        "content": "and please give me a call before the end of the day if you need to make any changes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "please",
+          "give",
+          "me",
+          "a",
+          "call",
+          "before",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day",
+          "if",
+          "you",
+          "need",
+          "to",
+          "make",
+          "any",
+          "changes."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "please"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "call"
+          ],
+          [
+            "before"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "any"
+          ],
+          [
+            "changes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-11-2023-09-11-16-39-49/10.mp3",
+        "timeStart": 30.83,
+        "timeEnd": 35.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52916/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "52908": {
+      "id": 872322,
+      "text": "Đây là Becky, đang gọi từ Fruit Arrangements.",
+      "author": "a user"
+    },
+    "52909": {
+      "id": 872325,
+      "text": "Tôi gọi cho bạn để xác nhận đơn đặt hàng trực tuyến của giỏ trái cây cỡ cực lớn",
+      "author": "a user"
+    },
+    "52912": {
+      "id": 874070,
+      "text": "Chúng tôi sẽ gửi kèm ghi chú cách bảo quản",
+      "author": "a user"
+    },
+    "52913": {
+      "id": 874076,
+      "text": "nhưng bạn nên bảo người nhận để trái cây vào tủ lạnh trong vòng bốn giờ kể từ lúc giao đến",
+      "author": "a user"
+    },
+    "52914": {
+      "id": 874094,
+      "text": "để tránh làm trái cây bị mốc.",
+      "author": "a user"
+    },
+    "52915": {
+      "id": 874101,
+      "text": "Cảm ơn vì bạn đã đặt hàng",
+      "author": "a user"
+    },
+    "52907": {
+      "id": 2592219,
+      "text": "Chào Sarah!",
+      "author": "ChatGPT4.1"
+    },
+    "52910": {
+      "id": 2592220,
+      "text": "sẽ được giao đến Trường St. Catherine vào thứ Hai lúc 2:30 chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "52911": {
+      "id": 2592221,
+      "text": "Tôi sẽ đích thân giao bó hoa, và sẽ gửi hóa đơn cho bạn qua email khi tôi làm điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "52916": {
+      "id": 2592222,
+      "text": "và vui lòng gọi cho tôi trước cuối ngày nếu bạn cần thay đổi điều gì.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

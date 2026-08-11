@@ -1,0 +1,754 @@
+{
+  "summary": {
+    "id": 1762,
+    "name": "Short Talk 239",
+    "subTitle": "Room Reservation Update",
+    "levelName": "B1",
+    "position": 558,
+    "totalChallenges": 11,
+    "groupId": 71,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1762",
+  "detail": {
+    "id": 1762,
+    "lessonName": "Short Talk 239",
+    "name": "Short Talk 239",
+    "position": 558,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/0-short-talk-239.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 69701,
+        "position": 1,
+        "content": "Hello, Mr. Martinez.",
+        "defaultInput": "Hello, Mr. Martinez.",
+        "jsonContent": [
+          "Hello,",
+          "Mr.",
+          "Martinez."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Martinez."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69701/list"
+      },
+      {
+        "id": 69702,
+        "position": 2,
+        "content": "This is Randall calling from the Blue Horizon Inn about the reservation you made on our website.",
+        "defaultInput": "This is Randall ",
+        "jsonContent": [
+          "This",
+          "is",
+          "Randall",
+          "calling",
+          "from",
+          "the",
+          "Blue",
+          "Horizon",
+          "Inn",
+          "about",
+          "the",
+          "reservation",
+          "you",
+          "made",
+          "on",
+          "our",
+          "website."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Randall"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Blue"
+          ],
+          [
+            "Horizon"
+          ],
+          [
+            "Inn"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reservation"
+          ],
+          [
+            "you"
+          ],
+          [
+            "made"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "website."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/2.mp3",
+        "timeStart": 1.47,
+        "timeEnd": 6.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69702/list"
+      },
+      {
+        "id": 69703,
+        "position": 3,
+        "content": "In your note, you mentioned that you'd like a king-sized bed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "your",
+          "note,",
+          "you",
+          "mentioned",
+          "that",
+          [
+            "you'd",
+            "you would"
+          ],
+          "like",
+          "a",
+          [
+            "king-sized",
+            "king sized"
+          ],
+          "bed."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "your"
+          ],
+          [
+            "note,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you'd",
+            "you would"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "king-sized",
+            "king sized"
+          ],
+          [
+            "bed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/3.mp3",
+        "timeStart": 7.12,
+        "timeEnd": 10.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69703/list"
+      },
+      {
+        "id": 69704,
+        "position": 4,
+        "content": "Unfortunately, all of our king-sized rooms are already booked for the night of your stay.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Unfortunately,",
+          "all",
+          "of",
+          "our",
+          [
+            "king-sized",
+            "king sized"
+          ],
+          "rooms",
+          "are",
+          "already",
+          "booked",
+          "for",
+          "the",
+          "night",
+          "of",
+          "your",
+          "stay."
+        ],
+        "solution": [
+          [
+            "Unfortunately,"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "king-sized",
+            "king sized"
+          ],
+          [
+            "rooms"
+          ],
+          [
+            "are"
+          ],
+          [
+            "already"
+          ],
+          [
+            "booked"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "night"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "stay."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/4.mp3",
+        "timeStart": 10.45,
+        "timeEnd": 15.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69704/list"
+      },
+      {
+        "id": 69705,
+        "position": 5,
+        "content": "However, I can offer you a deluxe room with two queen-sized beds at the same rate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "I",
+          "can",
+          "offer",
+          "you",
+          "a",
+          "deluxe",
+          "room",
+          "with",
+          [
+            "two",
+            "2"
+          ],
+          [
+            "queen-sized",
+            "queen sized"
+          ],
+          "beds",
+          "at",
+          "the",
+          "same",
+          "rate."
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "you"
+          ],
+          [
+            "a"
+          ],
+          [
+            "deluxe"
+          ],
+          [
+            "room"
+          ],
+          [
+            "with"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "queen-sized",
+            "queen sized"
+          ],
+          [
+            "beds"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "rate."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/5.mp3",
+        "timeStart": 15.48,
+        "timeEnd": 20.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69705/list"
+      },
+      {
+        "id": 69706,
+        "position": 6,
+        "content": "Please call me back to confirm if this change is suitable for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "call",
+          "me",
+          "back",
+          "to",
+          "confirm",
+          "if",
+          "this",
+          "change",
+          "is",
+          "suitable",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "call"
+          ],
+          [
+            "me"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "confirm"
+          ],
+          [
+            "if"
+          ],
+          [
+            "this"
+          ],
+          [
+            "change"
+          ],
+          [
+            "is"
+          ],
+          [
+            "suitable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/6.mp3",
+        "timeStart": 20.8,
+        "timeEnd": 24.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69706/list"
+      },
+      {
+        "id": 69707,
+        "position": 7,
+        "content": "Additionally, you asked about dining options nearby.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Additionally,",
+          "you",
+          "asked",
+          "about",
+          "dining",
+          "options",
+          "nearby."
+        ],
+        "solution": [
+          [
+            "Additionally,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "about"
+          ],
+          [
+            "dining"
+          ],
+          [
+            "options"
+          ],
+          [
+            "nearby."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/7.mp3",
+        "timeStart": 24.43,
+        "timeEnd": 27.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69707/list"
+      },
+      {
+        "id": 69708,
+        "position": 8,
+        "content": "We have a restaurant on-site that serves a variety of cuisines,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "We've"
+          ],
+          "a",
+          "restaurant",
+          [
+            "on-site",
+            "on site"
+          ],
+          "that",
+          "serves",
+          "a",
+          "variety",
+          "of",
+          "cuisines,"
+        ],
+        "solution": [
+          [
+            "We have",
+            "We've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "restaurant"
+          ],
+          [
+            "on-site",
+            "on site"
+          ],
+          [
+            "that"
+          ],
+          [
+            "serves"
+          ],
+          [
+            "a"
+          ],
+          [
+            "variety"
+          ],
+          [
+            "of"
+          ],
+          [
+            "cuisines,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/8.mp3",
+        "timeStart": 27.67,
+        "timeEnd": 31.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69708/list"
+      },
+      {
+        "id": 69709,
+        "position": 9,
+        "content": "and it is located right next to the main lobby.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "it is",
+            "it's"
+          ],
+          "located",
+          "right",
+          "next",
+          "to",
+          "the",
+          "main",
+          "lobby."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "located"
+          ],
+          [
+            "right"
+          ],
+          [
+            "next"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "main"
+          ],
+          [
+            "lobby."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/9.mp3",
+        "timeStart": 31.26,
+        "timeEnd": 33.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69709/list"
+      },
+      {
+        "id": 69710,
+        "position": 10,
+        "content": "I hope this information helps,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          "this",
+          "information",
+          "helps,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "this"
+          ],
+          [
+            "information"
+          ],
+          [
+            "helps,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/10.mp3",
+        "timeStart": 34.14,
+        "timeEnd": 35.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69710/list"
+      },
+      {
+        "id": 69711,
+        "position": 11,
+        "content": "and I look forward to hearing from you soon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "look",
+          "forward",
+          "to",
+          "hearing",
+          "from",
+          "you",
+          "soon."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "look"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hearing"
+          ],
+          [
+            "from"
+          ],
+          [
+            "you"
+          ],
+          [
+            "soon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-239-2024-10-25-13-59-58/11.mp3",
+        "timeStart": 35.94,
+        "timeEnd": 38.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69711/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "69701": {
+      "id": 2592051,
+      "text": "Xin chào, ông Martinez.",
+      "author": "ChatGPT4.1"
+    },
+    "69702": {
+      "id": 2592052,
+      "text": "Đây là Randall gọi từ khách sạn Blue Horizon Inn về việc đặt phòng mà ông đã thực hiện trên trang web của chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "69703": {
+      "id": 2592053,
+      "text": "Trong ghi chú của ông, ông đã đề cập rằng muốn có một giường cỡ king.",
+      "author": "ChatGPT4.1"
+    },
+    "69704": {
+      "id": 2592054,
+      "text": "Rất tiếc, tất cả các phòng giường king của chúng tôi đã được đặt cho đêm ông lưu trú.",
+      "author": "ChatGPT4.1"
+    },
+    "69705": {
+      "id": 2592055,
+      "text": "Tuy nhiên, tôi có thể cung cấp cho ông một phòng cao cấp với hai giường cỡ queen cùng mức giá đó.",
+      "author": "ChatGPT4.1"
+    },
+    "69706": {
+      "id": 2592056,
+      "text": "Vui lòng gọi lại cho tôi để xác nhận liệu sự thay đổi này có phù hợp với ông không.",
+      "author": "ChatGPT4.1"
+    },
+    "69707": {
+      "id": 2592057,
+      "text": "Ngoài ra, ông cũng đã hỏi về các lựa chọn ăn uống lân cận.",
+      "author": "ChatGPT4.1"
+    },
+    "69708": {
+      "id": 2592058,
+      "text": "Chúng tôi có một nhà hàng tại khách sạn phục vụ nhiều món ăn đa dạng,",
+      "author": "ChatGPT4.1"
+    },
+    "69709": {
+      "id": 2592059,
+      "text": "và nhà hàng này nằm ngay cạnh sảnh chính.",
+      "author": "ChatGPT4.1"
+    },
+    "69710": {
+      "id": 2592060,
+      "text": "Tôi hy vọng những thông tin này hữu ích,",
+      "author": "ChatGPT4.1"
+    },
+    "69711": {
+      "id": 2592061,
+      "text": "và tôi mong sớm nhận được phản hồi từ ông.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "summary": {
+    "id": 1510,
+    "name": "Conversation 128",
+    "subTitle": "Flight Delay at Check-In",
+    "levelName": "B1",
+    "position": 322,
+    "totalChallenges": 17,
+    "groupId": 43,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1510",
+  "detail": {
+    "id": 1510,
+    "lessonName": "Conversation 128",
+    "name": "Conversation 128",
+    "position": 322,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/0-conversation-128.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65673,
+        "position": 1,
+        "content": "Excuse me,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Excuse",
+          "me,"
+        ],
+        "solution": [
+          [
+            "Excuse"
+          ],
+          [
+            "me,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 0.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65673/list"
+      },
+      {
+        "id": 65674,
+        "position": 2,
+        "content": "is this the check-in counter for Jetstars Airlines?",
+        "defaultInput": "",
+        "jsonContent": [
+          "is",
+          "this",
+          "the",
+          [
+            "check-in",
+            "check in"
+          ],
+          "counter",
+          "for",
+          "Jetstars",
+          "Airlines?"
+        ],
+        "solution": [
+          [
+            "is"
+          ],
+          [
+            "this"
+          ],
+          [
+            "the"
+          ],
+          [
+            "check-in",
+            "check in"
+          ],
+          [
+            "counter"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Jetstars"
+          ],
+          [
+            "Airlines?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/2.mp3",
+        "timeStart": 0.86,
+        "timeEnd": 3.94,
+        "hints": [
+          "Jetstars"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65674/list"
+      },
+      {
+        "id": 65675,
+        "position": 3,
+        "content": "I'm flying to Sydney.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "flying",
+          "to",
+          "Sydney."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "flying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Sydney."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/3.mp3",
+        "timeStart": 3.94,
+        "timeEnd": 5.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65675/list"
+      },
+      {
+        "id": 65676,
+        "position": 4,
+        "content": "My apology, sir.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "apology,",
+          "sir."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "apology,"
+          ],
+          [
+            "sir."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/4.mp3",
+        "timeStart": 5.36,
+        "timeEnd": 6.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65676/list"
+      },
+      {
+        "id": 65677,
+        "position": 5,
+        "content": "The flight has been delayed due to a mechanical problem with the plane.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "flight",
+          "has",
+          "been",
+          "delayed",
+          "due",
+          "to",
+          "a",
+          "mechanical",
+          "problem",
+          "with",
+          "the",
+          "plane."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "delayed"
+          ],
+          [
+            "due"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mechanical"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "plane."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/5.mp3",
+        "timeStart": 6.98,
+        "timeEnd": 10.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65677/list"
+      },
+      {
+        "id": 65678,
+        "position": 6,
+        "content": "According to the technicians, the estimated wait time is around 5 hours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "According",
+          "to",
+          "the",
+          "technicians,",
+          "the",
+          "estimated",
+          "wait",
+          "time",
+          "is",
+          "around",
+          [
+            "5",
+            "five"
+          ],
+          "hours."
+        ],
+        "solution": [
+          [
+            "According"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "technicians,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "estimated"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "time"
+          ],
+          [
+            "is"
+          ],
+          [
+            "around"
+          ],
+          [
+            "5",
+            "five"
+          ],
+          [
+            "hours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/6.mp3",
+        "timeStart": 10.86,
+        "timeEnd": 15.75,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/65678/list"
+      },
+      {
+        "id": 65679,
+        "position": 7,
+        "content": "Umm... That's not good.",
+        "defaultInput": "Umm… ",
+        "jsonContent": [
+          "Umm...",
+          "That's",
+          "not",
+          "good."
+        ],
+        "solution": [
+          [
+            "Umm..."
+          ],
+          [
+            "That's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/7.mp3",
+        "timeStart": 15.75,
+        "timeEnd": 17.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65679/list"
+      },
+      {
+        "id": 65680,
+        "position": 8,
+        "content": "I have to make it to a fundraiser for a wildlife foundation in Australia this evening.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "make",
+          "it",
+          "to",
+          "a",
+          "fundraiser",
+          "for",
+          "a",
+          "wildlife",
+          "foundation",
+          "in",
+          "Australia",
+          "this",
+          "evening."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fundraiser"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wildlife"
+          ],
+          [
+            "foundation"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Australia"
+          ],
+          [
+            "this"
+          ],
+          [
+            "evening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/8.mp3",
+        "timeStart": 17.68,
+        "timeEnd": 22.81,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/65680/list"
+      },
+      {
+        "id": 65681,
+        "position": 9,
+        "content": "Can you put me on the next flight?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "put",
+          "me",
+          "on",
+          "the",
+          "next",
+          "flight?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "put"
+          ],
+          [
+            "me"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "flight?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/9.mp3",
+        "timeStart": 22.81,
+        "timeEnd": 24.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65681/list"
+      },
+      {
+        "id": 65682,
+        "position": 10,
+        "content": "Of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/10.mp3",
+        "timeStart": 24.7,
+        "timeEnd": 25.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65682/list"
+      },
+      {
+        "id": 65683,
+        "position": 11,
+        "content": "May I see your passport and ticket?",
+        "defaultInput": "",
+        "jsonContent": [
+          "May",
+          "I",
+          "see",
+          "your",
+          "passport",
+          "and",
+          "ticket?"
+        ],
+        "solution": [
+          [
+            "May"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "your"
+          ],
+          [
+            "passport"
+          ],
+          [
+            "and"
+          ],
+          [
+            "ticket?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/11.mp3",
+        "timeStart": 25.92,
+        "timeEnd": 28.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65683/list"
+      },
+      {
+        "id": 65684,
+        "position": 12,
+        "content": "Here you go.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Here",
+          "you",
+          "go."
+        ],
+        "solution": [
+          [
+            "Here"
+          ],
+          [
+            "you"
+          ],
+          [
+            "go."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/12.mp3",
+        "timeStart": 28.43,
+        "timeEnd": 29.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65684/list"
+      },
+      {
+        "id": 65685,
+        "position": 13,
+        "content": "I prefer a flight that arrives before noon and a business class seat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "prefer",
+          "a",
+          "flight",
+          "that",
+          "arrives",
+          "before",
+          "noon",
+          "and",
+          "a",
+          "business",
+          "class",
+          "seat."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "a"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "that"
+          ],
+          [
+            "arrives"
+          ],
+          [
+            "before"
+          ],
+          [
+            "noon"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "business"
+          ],
+          [
+            "class"
+          ],
+          [
+            "seat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/13.mp3",
+        "timeStart": 29.7,
+        "timeEnd": 33.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65685/list"
+      },
+      {
+        "id": 65686,
+        "position": 14,
+        "content": "Thanks!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks!"
+        ],
+        "solution": [
+          [
+            "Thanks!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/14.mp3",
+        "timeStart": 33.64,
+        "timeEnd": 34.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65686/list"
+      },
+      {
+        "id": 65687,
+        "position": 15,
+        "content": "Certainly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly."
+        ],
+        "solution": [
+          [
+            "Certainly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/15.mp3",
+        "timeStart": 34.95,
+        "timeEnd": 36.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65687/list"
+      },
+      {
+        "id": 65688,
+        "position": 16,
+        "content": "Just one moment....",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          [
+            "one",
+            "1"
+          ],
+          "moment...."
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "moment...."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/16.mp3",
+        "timeStart": 36.04,
+        "timeEnd": 38.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65688/list"
+      },
+      {
+        "id": 65689,
+        "position": 17,
+        "content": "let me check your booking and see what I can do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "let",
+          "me",
+          "check",
+          "your",
+          "booking",
+          "and",
+          "see",
+          "what",
+          "I",
+          "can",
+          "do."
+        ],
+        "solution": [
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "check"
+          ],
+          [
+            "your"
+          ],
+          [
+            "booking"
+          ],
+          [
+            "and"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-128-2024-09-14-18-07-08/17.mp3",
+        "timeStart": 38.23,
+        "timeEnd": 41.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65689/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "65673": {
+      "id": 2648006,
+      "text": "Xin lỗi,",
+      "author": "ChatGPT4.1"
+    },
+    "65674": {
+      "id": 2648007,
+      "text": "đây có phải là quầy làm thủ tục cho Hãng Hàng không Jetstars không?",
+      "author": "ChatGPT4.1"
+    },
+    "65675": {
+      "id": 2648008,
+      "text": "Tôi bay đến Sydney.",
+      "author": "ChatGPT4.1"
+    },
+    "65676": {
+      "id": 2648009,
+      "text": "Xin lỗi ông.",
+      "author": "ChatGPT4.1"
+    },
+    "65677": {
+      "id": 2648010,
+      "text": "Chuyến bay đã bị hoãn do sự cố kỹ thuật với máy bay.",
+      "author": "ChatGPT4.1"
+    },
+    "65678": {
+      "id": 2648011,
+      "text": "Theo các kỹ thuật viên, thời gian chờ ước tính là khoảng 5 tiếng.",
+      "author": "ChatGPT4.1"
+    },
+    "65679": {
+      "id": 2648012,
+      "text": "Ừm... Điều đó không tốt lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "65680": {
+      "id": 2648013,
+      "text": "Tối nay tôi phải tham dự một buổi gây quỹ cho một tổ chức bảo vệ động vật hoang dã ở Úc.",
+      "author": "ChatGPT4.1"
+    },
+    "65681": {
+      "id": 2648014,
+      "text": "Anh/chị có thể chuyển tôi sang chuyến bay tiếp theo không?",
+      "author": "ChatGPT4.1"
+    },
+    "65682": {
+      "id": 2648015,
+      "text": "Dĩ nhiên.",
+      "author": "ChatGPT4.1"
+    },
+    "65683": {
+      "id": 2648016,
+      "text": "Tôi có thể xem hộ chiếu và vé của ông không?",
+      "author": "ChatGPT4.1"
+    },
+    "65684": {
+      "id": 2648017,
+      "text": "Đây ạ.",
+      "author": "ChatGPT4.1"
+    },
+    "65685": {
+      "id": 2648018,
+      "text": "Tôi muốn chuyến bay đến trước buổi trưa và ghế hạng thương gia.",
+      "author": "ChatGPT4.1"
+    },
+    "65686": {
+      "id": 2648019,
+      "text": "Cảm ơn!",
+      "author": "ChatGPT4.1"
+    },
+    "65687": {
+      "id": 2648020,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "65688": {
+      "id": 2648021,
+      "text": "Xin chờ một chút...",
+      "author": "ChatGPT4.1"
+    },
+    "65689": {
+      "id": 2648022,
+      "text": "để tôi kiểm tra đặt chỗ của ông và xem tôi có thể giúp gì.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

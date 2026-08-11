@@ -1,0 +1,4892 @@
+{
+  "summary": {
+    "id": 2286,
+    "name": "Test 02 - Part C - Extract 2",
+    "subTitle": "SPRINT Blood Pressure Trial Overview",
+    "levelName": "C2",
+    "position": 20,
+    "totalChallenges": 71,
+    "groupId": 132,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2286",
+  "detail": {
+    "id": 2286,
+    "lessonName": "Test 02 - Part C - Extract 2",
+    "name": "Test 02 - Part C - Extract 2",
+    "position": 20,
+    "levelName": "C2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/0-test-02-part-c-extract-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90213,
+        "position": 1,
+        "content": "Hello, I'm Dr Pamela Skelton, Consultant Cardiologist at this hospital,",
+        "defaultInput": "Hello, I'm Dr Pamela Skelton, ",
+        "jsonContent": [
+          "Hello,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "Dr",
+          "Pamela",
+          "Skelton,",
+          "Consultant",
+          "Cardiologist",
+          "at",
+          "this",
+          "hospital,"
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Dr"
+          ],
+          [
+            "Pamela"
+          ],
+          [
+            "Skelton,"
+          ],
+          [
+            "Consultant"
+          ],
+          [
+            "Cardiologist"
+          ],
+          [
+            "at"
+          ],
+          [
+            "this"
+          ],
+          [
+            "hospital,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/1.mp3",
+        "timeStart": 0.61,
+        "timeEnd": 6.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90213/list"
+      },
+      {
+        "id": 90214,
+        "position": 2,
+        "content": "and I'm talking about the recent SPRINT study into the effects of setting lower blood-pressure targets,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "talking",
+          "about",
+          "the",
+          "recent",
+          "SPRINT",
+          "study",
+          "into",
+          "the",
+          "effects",
+          "of",
+          "setting",
+          "lower",
+          [
+            "blood-pressure",
+            "blood pressure"
+          ],
+          "targets,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "talking"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "recent"
+          ],
+          [
+            "SPRINT"
+          ],
+          [
+            "study"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "effects"
+          ],
+          [
+            "of"
+          ],
+          [
+            "setting"
+          ],
+          [
+            "lower"
+          ],
+          [
+            "blood-pressure",
+            "blood pressure"
+          ],
+          [
+            "targets,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/2.mp3",
+        "timeStart": 6.04,
+        "timeEnd": 12.97,
+        "hints": [
+          "SPRINT"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90214/list"
+      },
+      {
+        "id": 90215,
+        "position": 3,
+        "content": "which in turn affects the advice and medication which patients are given.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "in",
+          "turn",
+          "affects",
+          "the",
+          "advice",
+          "and",
+          "medication",
+          "which",
+          "patients",
+          "are",
+          "given."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "in"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "affects"
+          ],
+          [
+            "the"
+          ],
+          [
+            "advice"
+          ],
+          [
+            "and"
+          ],
+          [
+            "medication"
+          ],
+          [
+            "which"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "are"
+          ],
+          [
+            "given."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/3.mp3",
+        "timeStart": 12.97,
+        "timeEnd": 17.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90215/list"
+      },
+      {
+        "id": 90216,
+        "position": 4,
+        "content": "I'm going to describe the patients who were selected,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "describe",
+          "the",
+          "patients",
+          "who",
+          "were",
+          "selected,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "describe"
+          ],
+          [
+            "the"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "who"
+          ],
+          [
+            "were"
+          ],
+          [
+            "selected,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/4.mp3",
+        "timeStart": 17.94,
+        "timeEnd": 21.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90216/list"
+      },
+      {
+        "id": 90217,
+        "position": 5,
+        "content": "how the trial was conducted",
+        "defaultInput": "",
+        "jsonContent": [
+          "how",
+          "the",
+          "trial",
+          "was",
+          "conducted"
+        ],
+        "solution": [
+          [
+            "how"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trial"
+          ],
+          [
+            "was"
+          ],
+          [
+            "conducted"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/5.mp3",
+        "timeStart": 21.32,
+        "timeEnd": 23.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90217/list"
+      },
+      {
+        "id": 90218,
+        "position": 6,
+        "content": "and the implications of its results for us all as health professionals.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "implications",
+          "of",
+          "its",
+          "results",
+          "for",
+          "us",
+          "all",
+          "as",
+          "health",
+          "professionals."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "implications"
+          ],
+          [
+            "of"
+          ],
+          [
+            "its"
+          ],
+          [
+            "results"
+          ],
+          [
+            "for"
+          ],
+          [
+            "us"
+          ],
+          [
+            "all"
+          ],
+          [
+            "as"
+          ],
+          [
+            "health"
+          ],
+          [
+            "professionals."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/6.mp3",
+        "timeStart": 23.42,
+        "timeEnd": 28.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90218/list"
+      },
+      {
+        "id": 90219,
+        "position": 7,
+        "content": "First, the trial itself.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First,",
+            "1st"
+          ],
+          "the",
+          "trial",
+          "itself."
+        ],
+        "solution": [
+          [
+            "First,",
+            "1st"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trial"
+          ],
+          [
+            "itself."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/7.mp3",
+        "timeStart": 28.83,
+        "timeEnd": 31.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90219/list"
+      },
+      {
+        "id": 90220,
+        "position": 8,
+        "content": "It involved over 9000 hypertensive participants, aged 50-plus,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "involved",
+          "over",
+          "9000",
+          "hypertensive",
+          "participants,",
+          "aged",
+          [
+            "50-plus,",
+            "50 plus",
+            "fifty-plus",
+            "fifty plus"
+          ]
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "involved"
+          ],
+          [
+            "over"
+          ],
+          [
+            "9000"
+          ],
+          [
+            "hypertensive"
+          ],
+          [
+            "participants,"
+          ],
+          [
+            "aged"
+          ],
+          [
+            "50-plus,",
+            "50 plus",
+            "fifty-plus",
+            "fifty plus"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/8.mp3",
+        "timeStart": 31.25,
+        "timeEnd": 37.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90220/list"
+      },
+      {
+        "id": 90221,
+        "position": 9,
+        "content": "most of whom were on blood-pressure medication.",
+        "defaultInput": "",
+        "jsonContent": [
+          "most",
+          "of",
+          "whom",
+          "were",
+          "on",
+          [
+            "blood-pressure",
+            "blood pressure"
+          ],
+          "medication."
+        ],
+        "solution": [
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "whom"
+          ],
+          [
+            "were"
+          ],
+          [
+            "on"
+          ],
+          [
+            "blood-pressure",
+            "blood pressure"
+          ],
+          [
+            "medication."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/9.mp3",
+        "timeStart": 37.55,
+        "timeEnd": 40.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90221/list"
+      },
+      {
+        "id": 90222,
+        "position": 10,
+        "content": "They were randomly assigned to one of two groups,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "were",
+          "randomly",
+          "assigned",
+          "to",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          [
+            "two",
+            "2"
+          ],
+          "groups,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "were"
+          ],
+          [
+            "randomly"
+          ],
+          [
+            "assigned"
+          ],
+          [
+            "to"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "groups,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/10.mp3",
+        "timeStart": 41.18,
+        "timeEnd": 45.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90222/list"
+      },
+      {
+        "id": 90223,
+        "position": 11,
+        "content": "one with a goal of less than 120 millimetres systolic BP,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "one",
+            "1"
+          ],
+          "with",
+          "a",
+          "goal",
+          "of",
+          "less",
+          "than",
+          "120",
+          [
+            "millimetres",
+            "millimeters"
+          ],
+          "systolic",
+          "BP,"
+        ],
+        "solution": [
+          [
+            "one",
+            "1"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "goal"
+          ],
+          [
+            "of"
+          ],
+          [
+            "less"
+          ],
+          [
+            "than"
+          ],
+          [
+            "120"
+          ],
+          [
+            "millimetres",
+            "millimeters"
+          ],
+          [
+            "systolic"
+          ],
+          [
+            "BP,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/11.mp3",
+        "timeStart": 45.01,
+        "timeEnd": 50.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90223/list"
+      },
+      {
+        "id": 90224,
+        "position": 12,
+        "content": "the other with a goal of less than 140 millimetres, the traditional standard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "other",
+          "with",
+          "a",
+          "goal",
+          "of",
+          "less",
+          "than",
+          "140",
+          [
+            "millimetres,",
+            "millimeters"
+          ],
+          "the",
+          "traditional",
+          "standard."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "goal"
+          ],
+          [
+            "of"
+          ],
+          [
+            "less"
+          ],
+          [
+            "than"
+          ],
+          [
+            "140"
+          ],
+          [
+            "millimetres,",
+            "millimeters"
+          ],
+          [
+            "the"
+          ],
+          [
+            "traditional"
+          ],
+          [
+            "standard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/12.mp3",
+        "timeStart": 50.85,
+        "timeEnd": 57.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90224/list"
+      },
+      {
+        "id": 90225,
+        "position": 13,
+        "content": "The intention was to follow these patients for 5 years,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "intention",
+          "was",
+          "to",
+          "follow",
+          "these",
+          "patients",
+          "for",
+          [
+            "5",
+            "five"
+          ],
+          "years,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "intention"
+          ],
+          [
+            "was"
+          ],
+          [
+            "to"
+          ],
+          [
+            "follow"
+          ],
+          [
+            "these"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "for"
+          ],
+          [
+            "5",
+            "five"
+          ],
+          [
+            "years,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/13.mp3",
+        "timeStart": 57.89,
+        "timeEnd": 62.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90225/list"
+      },
+      {
+        "id": 90226,
+        "position": 14,
+        "content": "factoring in the usual drop-out rate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "factoring",
+          "in",
+          "the",
+          "usual",
+          [
+            "drop-out",
+            "drop out"
+          ],
+          "rate."
+        ],
+        "solution": [
+          [
+            "factoring"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "usual"
+          ],
+          [
+            "drop-out",
+            "drop out"
+          ],
+          [
+            "rate."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/14.mp3",
+        "timeStart": 62.11,
+        "timeEnd": 65.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90226/list"
+      },
+      {
+        "id": 90227,
+        "position": 15,
+        "content": "As it turned out, however, the trial was stopped after just 3 years",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "it",
+          "turned",
+          "out,",
+          "however,",
+          "the",
+          "trial",
+          "was",
+          "stopped",
+          "after",
+          "just",
+          [
+            "3",
+            "three"
+          ],
+          "years"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "it"
+          ],
+          [
+            "turned"
+          ],
+          [
+            "out,"
+          ],
+          [
+            "however,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trial"
+          ],
+          [
+            "was"
+          ],
+          [
+            "stopped"
+          ],
+          [
+            "after"
+          ],
+          [
+            "just"
+          ],
+          [
+            "3",
+            "three"
+          ],
+          [
+            "years"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/15.mp3",
+        "timeStart": 65.35,
+        "timeEnd": 70.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90227/list"
+      },
+      {
+        "id": 90228,
+        "position": 16,
+        "content": "thanks to an all cause mortality reduction of nearly 30% for the 120-group,",
+        "defaultInput": "",
+        "jsonContent": [
+          "thanks",
+          "to",
+          "an",
+          "all",
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          "mortality",
+          "reduction",
+          "of",
+          "nearly",
+          [
+            "30%",
+            "30 percent"
+          ],
+          "for",
+          "the",
+          [
+            "120-group,",
+            "120 group,"
+          ]
+        ],
+        "solution": [
+          [
+            "thanks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "an"
+          ],
+          [
+            "all"
+          ],
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          [
+            "mortality"
+          ],
+          [
+            "reduction"
+          ],
+          [
+            "of"
+          ],
+          [
+            "nearly"
+          ],
+          [
+            "30%",
+            "30 percent"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "120-group,",
+            "120 group,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/16.mp3",
+        "timeStart": 70.08,
+        "timeEnd": 76.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90228/list"
+      },
+      {
+        "id": 90229,
+        "position": 17,
+        "content": "which was definitive and shocking but wonderful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "was",
+          "definitive",
+          "and",
+          "shocking",
+          "but",
+          "wonderful."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "was"
+          ],
+          [
+            "definitive"
+          ],
+          [
+            "and"
+          ],
+          [
+            "shocking"
+          ],
+          [
+            "but"
+          ],
+          [
+            "wonderful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/17.mp3",
+        "timeStart": 76.87,
+        "timeEnd": 80.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90229/list"
+      },
+      {
+        "id": 90230,
+        "position": 18,
+        "content": "As I mentioned, the participants were over-fifties",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "I",
+          "mentioned,",
+          "the",
+          "participants",
+          "were",
+          [
+            "over-fifties",
+            "over fifties",
+            "over-50s",
+            "over 50s"
+          ]
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "I"
+          ],
+          [
+            "mentioned,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "participants"
+          ],
+          [
+            "were"
+          ],
+          [
+            "over-fifties",
+            "over fifties",
+            "over-50s",
+            "over 50s"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/18.mp3",
+        "timeStart": 81.62,
+        "timeEnd": 85.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90230/list"
+      },
+      {
+        "id": 90231,
+        "position": 19,
+        "content": "and it goes without saying that as people age, they develop more diseases and health problems as a matter of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          "goes",
+          "without",
+          "saying",
+          "that",
+          "as",
+          "people",
+          "age,",
+          "they",
+          "develop",
+          "more",
+          "diseases",
+          "and",
+          "health",
+          "problems",
+          "as",
+          "a",
+          "matter",
+          "of",
+          "course."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "goes"
+          ],
+          [
+            "without"
+          ],
+          [
+            "saying"
+          ],
+          [
+            "that"
+          ],
+          [
+            "as"
+          ],
+          [
+            "people"
+          ],
+          [
+            "age,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "develop"
+          ],
+          [
+            "more"
+          ],
+          [
+            "diseases"
+          ],
+          [
+            "and"
+          ],
+          [
+            "health"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "matter"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/19.mp3",
+        "timeStart": 85.69,
+        "timeEnd": 93.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90231/list"
+      },
+      {
+        "id": 90232,
+        "position": 20,
+        "content": "But there was a specific group of over-seventy-fives who did just as well as younger patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "there",
+          "was",
+          "a",
+          "specific",
+          "group",
+          "of",
+          [
+            "over-seventy-fives",
+            "over seventy fives",
+            "over-75s",
+            "over 75s"
+          ],
+          "who",
+          "did",
+          "just",
+          "as",
+          "well",
+          "as",
+          "younger",
+          "patients."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "specific"
+          ],
+          [
+            "group"
+          ],
+          [
+            "of"
+          ],
+          [
+            "over-seventy-fives",
+            "over seventy fives",
+            "over-75s",
+            "over 75s"
+          ],
+          [
+            "who"
+          ],
+          [
+            "did"
+          ],
+          [
+            "just"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "younger"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/20.mp3",
+        "timeStart": 94.55,
+        "timeEnd": 101.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90232/list"
+      },
+      {
+        "id": 90233,
+        "position": 21,
+        "content": "Before the trial, some medics referred to the natural stiffening of the arteries with ageing,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "the",
+          "trial,",
+          "some",
+          "medics",
+          "referred",
+          "to",
+          "the",
+          "natural",
+          "stiffening",
+          "of",
+          "the",
+          "arteries",
+          "with",
+          "ageing,"
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trial,"
+          ],
+          [
+            "some"
+          ],
+          [
+            "medics"
+          ],
+          [
+            "referred"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "natural"
+          ],
+          [
+            "stiffening"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "arteries"
+          ],
+          [
+            "with"
+          ],
+          [
+            "ageing,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/21.mp3",
+        "timeStart": 102.77,
+        "timeEnd": 109.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90233/list"
+      },
+      {
+        "id": 90234,
+        "position": 22,
+        "content": "suggesting that a hundred-and-twenty was too low a target for the over-seventy-fives,",
+        "defaultInput": "",
+        "jsonContent": [
+          "suggesting",
+          "that",
+          "a",
+          [
+            "hundred-and-twenty",
+            "hundred and twenty"
+          ],
+          "was",
+          "too",
+          "low",
+          "a",
+          "target",
+          "for",
+          "the",
+          [
+            "over-seventy-fives,",
+            "over seventy fives",
+            "over-75s",
+            "over 75s,"
+          ]
+        ],
+        "solution": [
+          [
+            "suggesting"
+          ],
+          [
+            "that"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hundred-and-twenty",
+            "hundred and twenty"
+          ],
+          [
+            "was"
+          ],
+          [
+            "too"
+          ],
+          [
+            "low"
+          ],
+          [
+            "a"
+          ],
+          [
+            "target"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "over-seventy-fives,",
+            "over seventy fives",
+            "over-75s",
+            "over 75s,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/22.mp3",
+        "timeStart": 109.42,
+        "timeEnd": 114.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90234/list"
+      },
+      {
+        "id": 90235,
+        "position": 23,
+        "content": "risking an increase of dizzy spells which would affect general wellbeing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "risking",
+          "an",
+          "increase",
+          "of",
+          "dizzy",
+          "spells",
+          "which",
+          "would",
+          "affect",
+          "general",
+          "wellbeing."
+        ],
+        "solution": [
+          [
+            "risking"
+          ],
+          [
+            "an"
+          ],
+          [
+            "increase"
+          ],
+          [
+            "of"
+          ],
+          [
+            "dizzy"
+          ],
+          [
+            "spells"
+          ],
+          [
+            "which"
+          ],
+          [
+            "would"
+          ],
+          [
+            "affect"
+          ],
+          [
+            "general"
+          ],
+          [
+            "wellbeing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/23.mp3",
+        "timeStart": 114.76,
+        "timeEnd": 119.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90235/list"
+      },
+      {
+        "id": 90236,
+        "position": 24,
+        "content": "But this concern turned out to be unfounded.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "this",
+          "concern",
+          "turned",
+          "out",
+          "to",
+          "be",
+          "unfounded."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "this"
+          ],
+          [
+            "concern"
+          ],
+          [
+            "turned"
+          ],
+          [
+            "out"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "unfounded."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/24.mp3",
+        "timeStart": 120.69,
+        "timeEnd": 123.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90236/list"
+      },
+      {
+        "id": 90237,
+        "position": 25,
+        "content": "Others thought there'd be a failure to take the number of tablets needed to reach a BP of 120,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Others",
+          "thought",
+          "there'd",
+          "be",
+          "a",
+          "failure",
+          "to",
+          "take",
+          "the",
+          "number",
+          "of",
+          "tablets",
+          "needed",
+          "to",
+          "reach",
+          "a",
+          "BP",
+          "of",
+          "120,"
+        ],
+        "solution": [
+          [
+            "Others"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "there'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "failure"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "tablets"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "a"
+          ],
+          [
+            "BP"
+          ],
+          [
+            "of"
+          ],
+          [
+            "120,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/25.mp3",
+        "timeStart": 124.2,
+        "timeEnd": 131.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90237/list"
+      },
+      {
+        "id": 90238,
+        "position": 26,
+        "content": "especially among older participants.",
+        "defaultInput": "",
+        "jsonContent": [
+          "especially",
+          "among",
+          "older",
+          "participants."
+        ],
+        "solution": [
+          [
+            "especially"
+          ],
+          [
+            "among"
+          ],
+          [
+            "older"
+          ],
+          [
+            "participants."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/26.mp3",
+        "timeStart": 131.18,
+        "timeEnd": 134.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90238/list"
+      },
+      {
+        "id": 90239,
+        "position": 27,
+        "content": "Again, this wasn't an issue.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Again,",
+          "this",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "an",
+          "issue."
+        ],
+        "solution": [
+          [
+            "Again,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "an"
+          ],
+          [
+            "issue."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/27.mp3",
+        "timeStart": 134.55,
+        "timeEnd": 137.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90239/list"
+      },
+      {
+        "id": 90240,
+        "position": 28,
+        "content": "The average needed was just three per day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "average",
+          "needed",
+          "was",
+          "just",
+          [
+            "three",
+            "3"
+          ],
+          "per",
+          "day."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "average"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "was"
+          ],
+          [
+            "just"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "per"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/28.mp3",
+        "timeStart": 137.21,
+        "timeEnd": 140.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90240/list"
+      },
+      {
+        "id": 90241,
+        "position": 29,
+        "content": "The over-seventy-fives, already on various drugs, didn't object to extra medication.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "over-seventy-fives,",
+            "over seventy fives",
+            "over-75s",
+            "over 75s"
+          ],
+          "already",
+          "on",
+          "various",
+          "drugs,",
+          [
+            "didn't",
+            "did not"
+          ],
+          "object",
+          "to",
+          "extra",
+          "medication."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "over-seventy-fives,",
+            "over seventy fives",
+            "over-75s",
+            "over 75s"
+          ],
+          [
+            "already"
+          ],
+          [
+            "on"
+          ],
+          [
+            "various"
+          ],
+          [
+            "drugs,"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "object"
+          ],
+          [
+            "to"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "medication."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/29.mp3",
+        "timeStart": 141.89,
+        "timeEnd": 148.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90241/list"
+      },
+      {
+        "id": 90242,
+        "position": 30,
+        "content": "Participants from this age group who didn't finish the trial were taken out because some conditions, which were already present, worsened;",
+        "defaultInput": "",
+        "jsonContent": [
+          "Participants",
+          "from",
+          "this",
+          "age",
+          "group",
+          "who",
+          [
+            "didn't",
+            "did not"
+          ],
+          "finish",
+          "the",
+          "trial",
+          "were",
+          "taken",
+          "out",
+          "because",
+          "some",
+          "conditions,",
+          "which",
+          "were",
+          "already",
+          "present,",
+          "worsened;"
+        ],
+        "solution": [
+          [
+            "Participants"
+          ],
+          [
+            "from"
+          ],
+          [
+            "this"
+          ],
+          [
+            "age"
+          ],
+          [
+            "group"
+          ],
+          [
+            "who"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trial"
+          ],
+          [
+            "were"
+          ],
+          [
+            "taken"
+          ],
+          [
+            "out"
+          ],
+          [
+            "because"
+          ],
+          [
+            "some"
+          ],
+          [
+            "conditions,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "were"
+          ],
+          [
+            "already"
+          ],
+          [
+            "present,"
+          ],
+          [
+            "worsened;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/30.mp3",
+        "timeStart": 149.18,
+        "timeEnd": 158.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90242/list"
+      },
+      {
+        "id": 90243,
+        "position": 31,
+        "content": "for example in some cases obesity levels rose too high.",
+        "defaultInput": "",
+        "jsonContent": [
+          "for",
+          "example",
+          "in",
+          "some",
+          "cases",
+          "obesity",
+          "levels",
+          "rose",
+          "too",
+          "high."
+        ],
+        "solution": [
+          [
+            "for"
+          ],
+          [
+            "example"
+          ],
+          [
+            "in"
+          ],
+          [
+            "some"
+          ],
+          [
+            "cases"
+          ],
+          [
+            "obesity"
+          ],
+          [
+            "levels"
+          ],
+          [
+            "rose"
+          ],
+          [
+            "too"
+          ],
+          [
+            "high."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/31.mp3",
+        "timeStart": 158.17,
+        "timeEnd": 162.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90243/list"
+      },
+      {
+        "id": 90244,
+        "position": 32,
+        "content": "To manage their blood pressure, participants were given standard drugs,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "manage",
+          "their",
+          "blood",
+          "pressure,",
+          "participants",
+          "were",
+          "given",
+          "standard",
+          "drugs,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "their"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "pressure,"
+          ],
+          [
+            "participants"
+          ],
+          [
+            "were"
+          ],
+          [
+            "given"
+          ],
+          [
+            "standard"
+          ],
+          [
+            "drugs,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/32.mp3",
+        "timeStart": 163.06,
+        "timeEnd": 167.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90244/list"
+      },
+      {
+        "id": 90245,
+        "position": 33,
+        "content": "nothing experimental, just drugs that are readily available and low-cost.",
+        "defaultInput": "",
+        "jsonContent": [
+          "nothing",
+          "experimental,",
+          "just",
+          "drugs",
+          "that",
+          "are",
+          "readily",
+          "available",
+          "and",
+          [
+            "low-cost.",
+            "low cost."
+          ]
+        ],
+        "solution": [
+          [
+            "nothing"
+          ],
+          [
+            "experimental,"
+          ],
+          [
+            "just"
+          ],
+          [
+            "drugs"
+          ],
+          [
+            "that"
+          ],
+          [
+            "are"
+          ],
+          [
+            "readily"
+          ],
+          [
+            "available"
+          ],
+          [
+            "and"
+          ],
+          [
+            "low-cost.",
+            "low cost."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/33.mp3",
+        "timeStart": 167.89,
+        "timeEnd": 172.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90245/list"
+      },
+      {
+        "id": 90246,
+        "position": 34,
+        "content": "Another key factor was that blood pressure was measured in a very specific way.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Another",
+          "key",
+          "factor",
+          "was",
+          "that",
+          "blood",
+          "pressure",
+          "was",
+          "measured",
+          "in",
+          "a",
+          "very",
+          "specific",
+          "way."
+        ],
+        "solution": [
+          [
+            "Another"
+          ],
+          [
+            "key"
+          ],
+          [
+            "factor"
+          ],
+          [
+            "was"
+          ],
+          [
+            "that"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "pressure"
+          ],
+          [
+            "was"
+          ],
+          [
+            "measured"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "specific"
+          ],
+          [
+            "way."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/34.mp3",
+        "timeStart": 173.26,
+        "timeEnd": 178.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90246/list"
+      },
+      {
+        "id": 90247,
+        "position": 35,
+        "content": "Rather than give patients an arm cuff for at-home 24-hour ambulatory monitoring,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Rather",
+          "than",
+          "give",
+          "patients",
+          "an",
+          "arm",
+          "cuff",
+          "for",
+          [
+            "at-home",
+            "at home"
+          ],
+          [
+            "24-hour",
+            "24 hour"
+          ],
+          "ambulatory",
+          "monitoring,"
+        ],
+        "solution": [
+          [
+            "Rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "give"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "an"
+          ],
+          [
+            "arm"
+          ],
+          [
+            "cuff"
+          ],
+          [
+            "for"
+          ],
+          [
+            "at-home",
+            "at home"
+          ],
+          [
+            "24-hour",
+            "24 hour"
+          ],
+          [
+            "ambulatory"
+          ],
+          [
+            "monitoring,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/35.mp3",
+        "timeStart": 178.81,
+        "timeEnd": 185.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90247/list"
+      },
+      {
+        "id": 90248,
+        "position": 36,
+        "content": "an automated machine was used at the hospital.",
+        "defaultInput": "",
+        "jsonContent": [
+          "an",
+          "automated",
+          "machine",
+          "was",
+          "used",
+          "at",
+          "the",
+          "hospital."
+        ],
+        "solution": [
+          [
+            "an"
+          ],
+          [
+            "automated"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "was"
+          ],
+          [
+            "used"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hospital."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/36.mp3",
+        "timeStart": 185.32,
+        "timeEnd": 188.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90248/list"
+      },
+      {
+        "id": 90249,
+        "position": 37,
+        "content": "This took three separate readings and averaged them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "took",
+          [
+            "three",
+            "3"
+          ],
+          "separate",
+          "readings",
+          "and",
+          "averaged",
+          "them."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "took"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "separate"
+          ],
+          [
+            "readings"
+          ],
+          [
+            "and"
+          ],
+          [
+            "averaged"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/37.mp3",
+        "timeStart": 189.22,
+        "timeEnd": 193.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90249/list"
+      },
+      {
+        "id": 90250,
+        "position": 38,
+        "content": "Also, readings were taken while staff were out of the room",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "readings",
+          "were",
+          "taken",
+          "while",
+          "staff",
+          "were",
+          "out",
+          "of",
+          "the",
+          "room"
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "readings"
+          ],
+          [
+            "were"
+          ],
+          [
+            "taken"
+          ],
+          [
+            "while"
+          ],
+          [
+            "staff"
+          ],
+          [
+            "were"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "room"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/38.mp3",
+        "timeStart": 193.91,
+        "timeEnd": 197.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90250/list"
+      },
+      {
+        "id": 90251,
+        "position": 39,
+        "content": "to avoid what's called 'white coat syndrome' in patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "avoid",
+          [
+            "what's",
+            "what is"
+          ],
+          "called",
+          "'white",
+          "coat",
+          "syndrome'",
+          "in",
+          "patients."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "avoid"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "called"
+          ],
+          [
+            "'white"
+          ],
+          [
+            "coat"
+          ],
+          [
+            "syndrome'"
+          ],
+          [
+            "in"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/39.mp3",
+        "timeStart": 197.77,
+        "timeEnd": 201.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90251/list"
+      },
+      {
+        "id": 90252,
+        "position": 40,
+        "content": "Now, some of you may be familiar with the ACCORD study into blood pressure levels several years ago,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "some",
+          "of",
+          "you",
+          "may",
+          "be",
+          "familiar",
+          "with",
+          "the",
+          "ACCORD",
+          "study",
+          "into",
+          "blood",
+          "pressure",
+          "levels",
+          "several",
+          "years",
+          "ago,"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "may"
+          ],
+          [
+            "be"
+          ],
+          [
+            "familiar"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ACCORD"
+          ],
+          [
+            "study"
+          ],
+          [
+            "into"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "pressure"
+          ],
+          [
+            "levels"
+          ],
+          [
+            "several"
+          ],
+          [
+            "years"
+          ],
+          [
+            "ago,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/40.mp3",
+        "timeStart": 203.07,
+        "timeEnd": 209.6,
+        "hints": [
+          "ACCORD"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90252/list"
+      },
+      {
+        "id": 90253,
+        "position": 41,
+        "content": "which in some respects was similar to SPRINT.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "in",
+          "some",
+          "respects",
+          "was",
+          "similar",
+          "to",
+          "SPRINT."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "in"
+          ],
+          [
+            "some"
+          ],
+          [
+            "respects"
+          ],
+          [
+            "was"
+          ],
+          [
+            "similar"
+          ],
+          [
+            "to"
+          ],
+          [
+            "SPRINT."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/41.mp3",
+        "timeStart": 209.67,
+        "timeEnd": 213.02,
+        "hints": [
+          "SPRINT"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90253/list"
+      },
+      {
+        "id": 90254,
+        "position": 42,
+        "content": "There are some differences, though.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "some",
+          "differences,",
+          "though."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "some"
+          ],
+          [
+            "differences,"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/42.mp3",
+        "timeStart": 213.39,
+        "timeEnd": 215.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90254/list"
+      },
+      {
+        "id": 90255,
+        "position": 43,
+        "content": "For example, ACCORD was about half the size of SPRINT,",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "example,",
+          "ACCORD",
+          "was",
+          "about",
+          "half",
+          "the",
+          "size",
+          "of",
+          "SPRINT,"
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "example,"
+          ],
+          [
+            "ACCORD"
+          ],
+          [
+            "was"
+          ],
+          [
+            "about"
+          ],
+          [
+            "half"
+          ],
+          [
+            "the"
+          ],
+          [
+            "size"
+          ],
+          [
+            "of"
+          ],
+          [
+            "SPRINT,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/43.mp3",
+        "timeStart": 216.1,
+        "timeEnd": 220.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90255/list"
+      },
+      {
+        "id": 90256,
+        "position": 44,
+        "content": "and unlike SPRINT, the ACCORD study allowed diabetic patients to take part.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "unlike",
+          "SPRINT,",
+          "the",
+          "ACCORD",
+          "study",
+          "allowed",
+          "diabetic",
+          "patients",
+          "to",
+          "take",
+          "part."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "unlike"
+          ],
+          [
+            "SPRINT,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ACCORD"
+          ],
+          [
+            "study"
+          ],
+          [
+            "allowed"
+          ],
+          [
+            "diabetic"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "part."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/44.mp3",
+        "timeStart": 220.39,
+        "timeEnd": 226.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90256/list"
+      },
+      {
+        "id": 90257,
+        "position": 45,
+        "content": "Despite this, in general, the ACCORD participants were rather lower risk than those in the SPRINT trial.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Despite",
+          "this,",
+          "in",
+          "general,",
+          "the",
+          "ACCORD",
+          "participants",
+          "were",
+          "rather",
+          "lower",
+          "risk",
+          "than",
+          "those",
+          "in",
+          "the",
+          "SPRINT",
+          "trial."
+        ],
+        "solution": [
+          [
+            "Despite"
+          ],
+          [
+            "this,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "general,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ACCORD"
+          ],
+          [
+            "participants"
+          ],
+          [
+            "were"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "lower"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "than"
+          ],
+          [
+            "those"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "SPRINT"
+          ],
+          [
+            "trial."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/45.mp3",
+        "timeStart": 227.14,
+        "timeEnd": 234.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90257/list"
+      },
+      {
+        "id": 90258,
+        "position": 46,
+        "content": "Probably because of the slightly lower average age.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Probably",
+          "because",
+          "of",
+          "the",
+          "slightly",
+          "lower",
+          "average",
+          "age."
+        ],
+        "solution": [
+          [
+            "Probably"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "slightly"
+          ],
+          [
+            "lower"
+          ],
+          [
+            "average"
+          ],
+          [
+            "age."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/46.mp3",
+        "timeStart": 234.67,
+        "timeEnd": 238.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90258/list"
+      },
+      {
+        "id": 90259,
+        "position": 47,
+        "content": "The ACCORD trial didn't show a statistically significant benefit for overall cardiovascular outcomes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "ACCORD",
+          "trial",
+          [
+            "didn't",
+            "did not"
+          ],
+          "show",
+          "a",
+          "statistically",
+          "significant",
+          "benefit",
+          "for",
+          "overall",
+          "cardiovascular",
+          "outcomes,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "ACCORD"
+          ],
+          [
+            "trial"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "show"
+          ],
+          [
+            "a"
+          ],
+          [
+            "statistically"
+          ],
+          [
+            "significant"
+          ],
+          [
+            "benefit"
+          ],
+          [
+            "for"
+          ],
+          [
+            "overall"
+          ],
+          [
+            "cardiovascular"
+          ],
+          [
+            "outcomes,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/47.mp3",
+        "timeStart": 238.71,
+        "timeEnd": 245.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90259/list"
+      },
+      {
+        "id": 90260,
+        "position": 48,
+        "content": "but there was a clear forty percent reduction in strokes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "there",
+          "was",
+          "a",
+          "clear",
+          [
+            "forty",
+            "40"
+          ],
+          "percent",
+          "reduction",
+          "in",
+          "strokes,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "forty",
+            "40"
+          ],
+          [
+            "percent"
+          ],
+          [
+            "reduction"
+          ],
+          [
+            "in"
+          ],
+          [
+            "strokes,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/48.mp3",
+        "timeStart": 245.73,
+        "timeEnd": 249.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90260/list"
+      },
+      {
+        "id": 90261,
+        "position": 49,
+        "content": "even though that was a secondary outcome.",
+        "defaultInput": "",
+        "jsonContent": [
+          "even",
+          "though",
+          "that",
+          "was",
+          "a",
+          "secondary",
+          "outcome."
+        ],
+        "solution": [
+          [
+            "even"
+          ],
+          [
+            "though"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "secondary"
+          ],
+          [
+            "outcome."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/49.mp3",
+        "timeStart": 249.35,
+        "timeEnd": 252.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90261/list"
+      },
+      {
+        "id": 90262,
+        "position": 50,
+        "content": "So, to summarise, the SPRINT trial seems to support 120 as a recommended blood pressure target.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "to",
+          [
+            "summarise,",
+            "summarize"
+          ],
+          "the",
+          "SPRINT",
+          "trial",
+          "seems",
+          "to",
+          "support",
+          "120",
+          "as",
+          "a",
+          "recommended",
+          "blood",
+          "pressure",
+          "target."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "to"
+          ],
+          [
+            "summarise,",
+            "summarize"
+          ],
+          [
+            "the"
+          ],
+          [
+            "SPRINT"
+          ],
+          [
+            "trial"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "support"
+          ],
+          [
+            "120"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "recommended"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "pressure"
+          ],
+          [
+            "target."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/50.mp3",
+        "timeStart": 253.51,
+        "timeEnd": 261.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90262/list"
+      },
+      {
+        "id": 90263,
+        "position": 51,
+        "content": "This is doubtless a landmark study",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "doubtless",
+          "a",
+          "landmark",
+          "study"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "doubtless"
+          ],
+          [
+            "a"
+          ],
+          [
+            "landmark"
+          ],
+          [
+            "study"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/51.mp3",
+        "timeStart": 261.71,
+        "timeEnd": 264.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90263/list"
+      },
+      {
+        "id": 90264,
+        "position": 52,
+        "content": "and, importantly, one which was sponsored by government",
+        "defaultInput": "",
+        "jsonContent": [
+          "and,",
+          "importantly,",
+          [
+            "one",
+            "1"
+          ],
+          "which",
+          "was",
+          "sponsored",
+          "by",
+          "government"
+        ],
+        "solution": [
+          [
+            "and,"
+          ],
+          [
+            "importantly,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "which"
+          ],
+          [
+            "was"
+          ],
+          [
+            "sponsored"
+          ],
+          [
+            "by"
+          ],
+          [
+            "government"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/52.mp3",
+        "timeStart": 264.59,
+        "timeEnd": 268.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90264/list"
+      },
+      {
+        "id": 90265,
+        "position": 53,
+        "content": "rather than by the interests of the pharmaceutical corporations.",
+        "defaultInput": "",
+        "jsonContent": [
+          "rather",
+          "than",
+          "by",
+          "the",
+          "interests",
+          "of",
+          "the",
+          "pharmaceutical",
+          "corporations."
+        ],
+        "solution": [
+          [
+            "rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "interests"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "pharmaceutical"
+          ],
+          [
+            "corporations."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/53.mp3",
+        "timeStart": 268.42,
+        "timeEnd": 272.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90265/list"
+      },
+      {
+        "id": 90266,
+        "position": 54,
+        "content": "I recommend a note of caution though,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "recommend",
+          "a",
+          "note",
+          "of",
+          "caution",
+          "though,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "a"
+          ],
+          [
+            "note"
+          ],
+          [
+            "of"
+          ],
+          [
+            "caution"
+          ],
+          [
+            "though,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/54.mp3",
+        "timeStart": 273.19,
+        "timeEnd": 275.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90266/list"
+      },
+      {
+        "id": 90267,
+        "position": 55,
+        "content": "as SPRINT does contradict previous findings.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "SPRINT",
+          "does",
+          "contradict",
+          "previous",
+          "findings."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "SPRINT"
+          ],
+          [
+            "does"
+          ],
+          [
+            "contradict"
+          ],
+          [
+            "previous"
+          ],
+          [
+            "findings."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/55.mp3",
+        "timeStart": 275.59,
+        "timeEnd": 279.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90267/list"
+      },
+      {
+        "id": 90268,
+        "position": 56,
+        "content": "The Cochrane View in 2011, for example,",
+        "defaultInput": "The Cochrane View ",
+        "jsonContent": [
+          "The",
+          "Cochrane",
+          "View",
+          "in",
+          "2011,",
+          "for",
+          "example,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Cochrane"
+          ],
+          [
+            "View"
+          ],
+          [
+            "in"
+          ],
+          [
+            "2011,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/56.mp3",
+        "timeStart": 279.89,
+        "timeEnd": 283.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90268/list"
+      },
+      {
+        "id": 90269,
+        "position": 57,
+        "content": "said that lowering to under 140 didn't produce a change in the risk of death overall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "said",
+          "that",
+          "lowering",
+          "to",
+          "under",
+          "140",
+          [
+            "didn't",
+            "did not"
+          ],
+          "produce",
+          "a",
+          "change",
+          "in",
+          "the",
+          "risk",
+          "of",
+          "death",
+          "overall."
+        ],
+        "solution": [
+          [
+            "said"
+          ],
+          [
+            "that"
+          ],
+          [
+            "lowering"
+          ],
+          [
+            "to"
+          ],
+          [
+            "under"
+          ],
+          [
+            "140"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "produce"
+          ],
+          [
+            "a"
+          ],
+          [
+            "change"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "of"
+          ],
+          [
+            "death"
+          ],
+          [
+            "overall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/57.mp3",
+        "timeStart": 283.69,
+        "timeEnd": 290.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90269/list"
+      },
+      {
+        "id": 90270,
+        "position": 58,
+        "content": "However, we must bear in mind that Cochrane was looking retrospectively at trials which weren't actually focused on the same particular issue.",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "we",
+          "must",
+          "bear",
+          "in",
+          "mind",
+          "that",
+          "Cochrane",
+          "was",
+          "looking",
+          "retrospectively",
+          "at",
+          "trials",
+          "which",
+          [
+            "weren't",
+            "were not"
+          ],
+          "actually",
+          "focused",
+          "on",
+          "the",
+          "same",
+          "particular",
+          "issue."
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "must"
+          ],
+          [
+            "bear"
+          ],
+          [
+            "in"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "that"
+          ],
+          [
+            "Cochrane"
+          ],
+          [
+            "was"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "retrospectively"
+          ],
+          [
+            "at"
+          ],
+          [
+            "trials"
+          ],
+          [
+            "which"
+          ],
+          [
+            "weren't",
+            "were not"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "focused"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "particular"
+          ],
+          [
+            "issue."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/58.mp3",
+        "timeStart": 291.25,
+        "timeEnd": 299.75,
+        "hints": [
+          "Cochrane"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90270/list"
+      },
+      {
+        "id": 90271,
+        "position": 59,
+        "content": "So it's worth doing a full and systematic evaluation,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "it's",
+          "worth",
+          "doing",
+          "a",
+          "full",
+          "and",
+          "systematic",
+          "evaluation,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "worth"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "full"
+          ],
+          [
+            "and"
+          ],
+          [
+            "systematic"
+          ],
+          [
+            "evaluation,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/59.mp3",
+        "timeStart": 300.19,
+        "timeEnd": 303.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90271/list"
+      },
+      {
+        "id": 90272,
+        "position": 60,
+        "content": "to see where the SPRINT trial fits in with what we already know.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "see",
+          "where",
+          "the",
+          "SPRINT",
+          "trial",
+          "fits",
+          "in",
+          "with",
+          "what",
+          "we",
+          "already",
+          "know."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "where"
+          ],
+          [
+            "the"
+          ],
+          [
+            "SPRINT"
+          ],
+          [
+            "trial"
+          ],
+          [
+            "fits"
+          ],
+          [
+            "in"
+          ],
+          [
+            "with"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "already"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/60.mp3",
+        "timeStart": 303.93,
+        "timeEnd": 308.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90272/list"
+      },
+      {
+        "id": 90273,
+        "position": 61,
+        "content": "It's interesting that a few GPs have already been working with older patients to hit lower blood-pressure goals,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "interesting",
+          "that",
+          "a",
+          "few",
+          "GPs",
+          "have",
+          "already",
+          "been",
+          "working",
+          "with",
+          "older",
+          "patients",
+          "to",
+          "hit",
+          "lower",
+          [
+            "blood-pressure",
+            "blood pressure"
+          ],
+          "goals,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "interesting"
+          ],
+          [
+            "that"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "GPs"
+          ],
+          [
+            "have"
+          ],
+          [
+            "already"
+          ],
+          [
+            "been"
+          ],
+          [
+            "working"
+          ],
+          [
+            "with"
+          ],
+          [
+            "older"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hit"
+          ],
+          [
+            "lower"
+          ],
+          [
+            "blood-pressure",
+            "blood pressure"
+          ],
+          [
+            "goals,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/61.mp3",
+        "timeStart": 308.55,
+        "timeEnd": 316,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90273/list"
+      },
+      {
+        "id": 90274,
+        "position": 62,
+        "content": "and the new data will doubtless encourage greater take-up of this more interventionist line of attack.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "new",
+          "data",
+          "will",
+          "doubtless",
+          "encourage",
+          "greater",
+          [
+            "take-up",
+            "take up"
+          ],
+          "of",
+          "this",
+          "more",
+          "interventionist",
+          "line",
+          "of",
+          "attack."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "data"
+          ],
+          [
+            "will"
+          ],
+          [
+            "doubtless"
+          ],
+          [
+            "encourage"
+          ],
+          [
+            "greater"
+          ],
+          [
+            "take-up",
+            "take up"
+          ],
+          [
+            "of"
+          ],
+          [
+            "this"
+          ],
+          [
+            "more"
+          ],
+          [
+            "interventionist"
+          ],
+          [
+            "line"
+          ],
+          [
+            "of"
+          ],
+          [
+            "attack."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/62.mp3",
+        "timeStart": 316.13,
+        "timeEnd": 322.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90274/list"
+      },
+      {
+        "id": 90275,
+        "position": 63,
+        "content": "But the SPRINT results don't mean that everyone with hypertension should be dropping to under a hundred and twenty.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "SPRINT",
+          "results",
+          [
+            "don't",
+            "do not"
+          ],
+          "mean",
+          "that",
+          "everyone",
+          "with",
+          "hypertension",
+          "should",
+          "be",
+          "dropping",
+          "to",
+          "under",
+          "a",
+          "hundred",
+          "and",
+          [
+            "twenty.",
+            "20"
+          ]
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "SPRINT"
+          ],
+          [
+            "results"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "mean"
+          ],
+          [
+            "that"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "with"
+          ],
+          [
+            "hypertension"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "dropping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "under"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hundred"
+          ],
+          [
+            "and"
+          ],
+          [
+            "twenty.",
+            "20"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/63.mp3",
+        "timeStart": 323.57,
+        "timeEnd": 329.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90275/list"
+      },
+      {
+        "id": 90276,
+        "position": 64,
+        "content": "Plus, to achieve those lower levels,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Plus,",
+            "+"
+          ],
+          "to",
+          "achieve",
+          "those",
+          "lower",
+          "levels,"
+        ],
+        "solution": [
+          [
+            "Plus,",
+            "+"
+          ],
+          [
+            "to"
+          ],
+          [
+            "achieve"
+          ],
+          [
+            "those"
+          ],
+          [
+            "lower"
+          ],
+          [
+            "levels,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/64.mp3",
+        "timeStart": 330.71,
+        "timeEnd": 333.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90276/list"
+      },
+      {
+        "id": 90277,
+        "position": 65,
+        "content": "it's unlikely that lifestyle changes alone would be enough,",
+        "defaultInput": "",
+        "jsonContent": [
+          "it's",
+          "unlikely",
+          "that",
+          "lifestyle",
+          "changes",
+          "alone",
+          "would",
+          "be",
+          "enough,"
+        ],
+        "solution": [
+          [
+            "it's"
+          ],
+          [
+            "unlikely"
+          ],
+          [
+            "that"
+          ],
+          [
+            "lifestyle"
+          ],
+          [
+            "changes"
+          ],
+          [
+            "alone"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "enough,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/65.mp3",
+        "timeStart": 333.29,
+        "timeEnd": 337.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90277/list"
+      },
+      {
+        "id": 90278,
+        "position": 66,
+        "content": "it could well require several anti-hypertensive drugs as well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "could",
+          "well",
+          "require",
+          "several",
+          [
+            "anti-hypertensive",
+            "anti hypertensive"
+          ],
+          "drugs",
+          "as",
+          "well."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "could"
+          ],
+          [
+            "well"
+          ],
+          [
+            "require"
+          ],
+          [
+            "several"
+          ],
+          [
+            "anti-hypertensive",
+            "anti hypertensive"
+          ],
+          [
+            "drugs"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/66.mp3",
+        "timeStart": 337.3,
+        "timeEnd": 341.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90278/list"
+      },
+      {
+        "id": 90279,
+        "position": 67,
+        "content": "There remain some unanswered questions, of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "remain",
+          "some",
+          "unanswered",
+          "questions,",
+          "of",
+          "course."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "remain"
+          ],
+          [
+            "some"
+          ],
+          [
+            "unanswered"
+          ],
+          [
+            "questions,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/67.mp3",
+        "timeStart": 342.91,
+        "timeEnd": 345.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90279/list"
+      },
+      {
+        "id": 90280,
+        "position": 68,
+        "content": "For example, whether other groups, like those with a lower heart-attack risk, need to keep their blood pressure that low.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "example,",
+          "whether",
+          "other",
+          "groups,",
+          "like",
+          "those",
+          "with",
+          "a",
+          "lower",
+          [
+            "heart-attack",
+            "heart attack"
+          ],
+          "risk,",
+          "need",
+          "to",
+          "keep",
+          "their",
+          "blood",
+          "pressure",
+          "that",
+          "low."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "example,"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "other"
+          ],
+          [
+            "groups,"
+          ],
+          [
+            "like"
+          ],
+          [
+            "those"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lower"
+          ],
+          [
+            "heart-attack",
+            "heart attack"
+          ],
+          [
+            "risk,"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "their"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "pressure"
+          ],
+          [
+            "that"
+          ],
+          [
+            "low."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/68.mp3",
+        "timeStart": 345.92,
+        "timeEnd": 353.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90280/list"
+      },
+      {
+        "id": 90281,
+        "position": 69,
+        "content": "So, while SPRINT can help guide doctors' decisions about some patients,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "while",
+          "SPRINT",
+          "can",
+          "help",
+          "guide",
+          "doctors'",
+          "decisions",
+          "about",
+          "some",
+          "patients,"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "while"
+          ],
+          [
+            "SPRINT"
+          ],
+          [
+            "can"
+          ],
+          [
+            "help"
+          ],
+          [
+            "guide"
+          ],
+          [
+            "doctors'"
+          ],
+          [
+            "decisions"
+          ],
+          [
+            "about"
+          ],
+          [
+            "some"
+          ],
+          [
+            "patients,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/69.mp3",
+        "timeStart": 354.11,
+        "timeEnd": 359.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90281/list"
+      },
+      {
+        "id": 90282,
+        "position": 70,
+        "content": "it doesn't mean that a new universal standard for blood pressure is in order.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "mean",
+          "that",
+          "a",
+          "new",
+          "universal",
+          "standard",
+          "for",
+          "blood",
+          "pressure",
+          "is",
+          "in",
+          "order."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "mean"
+          ],
+          [
+            "that"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "universal"
+          ],
+          [
+            "standard"
+          ],
+          [
+            "for"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "pressure"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "order."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/70.mp3",
+        "timeStart": 359.11,
+        "timeEnd": 363.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90282/list"
+      },
+      {
+        "id": 90283,
+        "position": 71,
+        "content": "Instead, it's a good reason for everyone to discuss with their doctor, their own ideal and particular target.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Instead,",
+          "it's",
+          "a",
+          "good",
+          "reason",
+          "for",
+          "everyone",
+          "to",
+          "discuss",
+          "with",
+          "their",
+          "doctor,",
+          "their",
+          "own",
+          "ideal",
+          "and",
+          "particular",
+          "target."
+        ],
+        "solution": [
+          [
+            "Instead,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "for"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "to"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "with"
+          ],
+          [
+            "their"
+          ],
+          [
+            "doctor,"
+          ],
+          [
+            "their"
+          ],
+          [
+            "own"
+          ],
+          [
+            "ideal"
+          ],
+          [
+            "and"
+          ],
+          [
+            "particular"
+          ],
+          [
+            "target."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-c-extract-2-2025-08-29-21-15-06/71.mp3",
+        "timeStart": 364.09,
+        "timeEnd": 371.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90283/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90213": {
+      "id": 3681860,
+      "text": "Xin chào, tôi là Tiến sĩ Pamela Skelton, Bác sĩ tư vấn tim mạch tại bệnh viện này,",
+      "author": "a user"
+    },
+    "90214": {
+      "id": 3681861,
+      "text": "và tôi đang nói về nghiên cứu SPRINT gần đây về tác động của việc thiết lập mục tiêu huyết áp thấp hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "90215": {
+      "id": 3681862,
+      "text": "điều này ảnh hưởng đến lời khuyên và thuốc mà bệnh nhân nhận được.",
+      "author": "ChatGPT4.1"
+    },
+    "90216": {
+      "id": 3681863,
+      "text": "Tôi sẽ mô tả những bệnh nhân được chọn,",
+      "author": "a user"
+    },
+    "90217": {
+      "id": 3681864,
+      "text": "cách mà thí nghiệm đã được tiến hành",
+      "author": "ChatGPT4.1"
+    },
+    "90218": {
+      "id": 3681865,
+      "text": "và ý nghĩa của các kết quả này đối với tất cả chúng ta với tư cách là các chuyên gia y tế.",
+      "author": "ChatGPT4.1"
+    },
+    "90219": {
+      "id": 3681866,
+      "text": "Trước tiên, về chính cuộc thử nghiệm này.",
+      "author": "ChatGPT4.1"
+    },
+    "90220": {
+      "id": 3681867,
+      "text": "Nó bao gồm hơn 9000 người tham gia bị tăng huyết áp, tuổi từ 50 trở lên,",
+      "author": "ChatGPT4.1"
+    },
+    "90221": {
+      "id": 3681868,
+      "text": "hầu hết trong số họ đang dùng thuốc hạ huyết áp.",
+      "author": "ChatGPT4.1"
+    },
+    "90222": {
+      "id": 3681869,
+      "text": "Họ được phân ngẫu nhiên vào một trong hai nhóm,",
+      "author": "ChatGPT4.1"
+    },
+    "90223": {
+      "id": 3681870,
+      "text": "một nhóm có mục tiêu huyết áp tâm thu dưới 120 milimét,",
+      "author": "ChatGPT4.1"
+    },
+    "90224": {
+      "id": 3681871,
+      "text": "nhóm còn lại có mục tiêu dưới 140 milimét, là tiêu chuẩn truyền thống.",
+      "author": "ChatGPT4.1"
+    },
+    "90225": {
+      "id": 3681872,
+      "text": "Ý định ban đầu là theo dõi những bệnh nhân này trong 5 năm,",
+      "author": "ChatGPT4.1"
+    },
+    "90226": {
+      "id": 3681873,
+      "text": "ba gồm cả tỉ lệ bỏ cuộc thông thường.",
+      "author": "ChatGPT4.1"
+    },
+    "90227": {
+      "id": 3681874,
+      "text": "Tuy nhiên, thực tế là thử nghiệm đã được dừng lại sau chỉ 3 năm",
+      "author": "ChatGPT4.1"
+    },
+    "90228": {
+      "id": 3681875,
+      "text": "nhờ vào việc giảm tỷ lệ tử vong do mọi nguyên nhân gần 30% ở nhóm 120,",
+      "author": "ChatGPT4.1"
+    },
+    "90229": {
+      "id": 3681876,
+      "text": "điều này là hết sức rõ ràng, sốc nhưng tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "90230": {
+      "id": 3681877,
+      "text": "Như tôi đã đề cập, các đối tượng tham gia đều trên 50 tuổi",
+      "author": "ChatGPT4.1"
+    },
+    "90231": {
+      "id": 3681878,
+      "text": "và không cần phải nói cũng biết rằng khi con người già đi, họ sẽ mắc nhiều bệnh tật và vấn đề sức khỏe hơn.",
+      "author": "a user"
+    },
+    "90232": {
+      "id": 3681879,
+      "text": "Nhưng có một nhóm cụ thể trên 75 tuổi lại có kết quả tốt như những bệnh nhân trẻ hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "90233": {
+      "id": 3681880,
+      "text": "Trước cuộc thử nghiệm, một số bác sĩ đề cập đến việc động mạch bị xơ cứng tự nhiên theo tuổi tác,",
+      "author": "ChatGPT4.1"
+    },
+    "90234": {
+      "id": 3681881,
+      "text": "và cho rằng mức 120 là mục tiêu quá thấp đối với người trên 75 tuổi,",
+      "author": "ChatGPT4.1"
+    },
+    "90235": {
+      "id": 3681882,
+      "text": "nguy cơ gây ra nhiều cơn chóng mặt hơn, có thể ảnh hưởng đến sức khỏe tổng thể.",
+      "author": "ChatGPT4.1"
+    },
+    "90236": {
+      "id": 3681883,
+      "text": "Nhưng mối lo này hóa ra là không có cơ sở.",
+      "author": "ChatGPT4.1"
+    },
+    "90237": {
+      "id": 3681884,
+      "text": "Những người khác thì nghĩ rằng sẽ không thể uống đủ số viên thuốc cần thiết để đạt huyết áp 120,",
+      "author": "ChatGPT4.1"
+    },
+    "90238": {
+      "id": 3681885,
+      "text": "đặc biệt là ở những người tham gia lớn tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "90239": {
+      "id": 3681886,
+      "text": "Một lần nữa, điều này không phải là vấn đề.",
+      "author": "ChatGPT4.1"
+    },
+    "90240": {
+      "id": 3681887,
+      "text": "Trung bình chỉ cần ba viên mỗi ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "90241": {
+      "id": 3681888,
+      "text": "Những người trên 75 tuổi, vốn đã dùng nhiều loại thuốc, cũng không phản đối việc dùng thêm thuốc.",
+      "author": "ChatGPT4.1"
+    },
+    "90242": {
+      "id": 3681889,
+      "text": "Những người tham gia ở nhóm tuổi này không hoàn thành thử nghiệm đã bị loại vì một số tình trạng bệnh vốn đã có trở nên trầm trọng hơn;",
+      "author": "a user"
+    },
+    "90243": {
+      "id": 3681890,
+      "text": "ví dụ như trong một số trường hợp, mức độ béo phì tăng lên quá cao.",
+      "author": "ChatGPT4.1"
+    },
+    "90244": {
+      "id": 3682603,
+      "text": "Để kiểm soát huyết áp, người tham gia được sử dụng các loại thuốc tiêu chuẩn,",
+      "author": "ChatGPT4.1"
+    },
+    "90245": {
+      "id": 3682604,
+      "text": "không phải thuốc thử nghiệm, mà là các thuốc sẵn có và giá rẻ.",
+      "author": "ChatGPT4.1"
+    },
+    "90246": {
+      "id": 3682605,
+      "text": "Một yếu tố quan trọng khác là huyết áp được đo theo một cách rất cụ thể.",
+      "author": "ChatGPT4.1"
+    },
+    "90247": {
+      "id": 3682606,
+      "text": "Thay vì đưa bệnh nhân một vòng bít để theo dõi huyết áp lưu động 24 giờ tại nhà,",
+      "author": "ChatGPT4.1"
+    },
+    "90248": {
+      "id": 3682607,
+      "text": "một máy tự động đã được sử dụng tại bệnh viện.",
+      "author": "ChatGPT4.1"
+    },
+    "90249": {
+      "id": 3682608,
+      "text": "Máy này thực hiện ba lần đo riêng biệt và lấy trung bình các kết quả đó.",
+      "author": "ChatGPT4.1"
+    },
+    "90250": {
+      "id": 3682609,
+      "text": "Ngoài ra, việc đo huyết áp được thực hiện khi nhân viên y tế ra khỏi phòng",
+      "author": "ChatGPT4.1"
+    },
+    "90251": {
+      "id": 3682610,
+      "text": "nhằm tránh cái gọi là ‘hội chứng áo choàng trắng’ ở bệnh nhân.",
+      "author": "ChatGPT4.1"
+    },
+    "90252": {
+      "id": 3682611,
+      "text": "Hiện nay, một số bạn có thể biết đến nghiên cứu ACCORD về mức huyết áp cách đây vài năm,",
+      "author": "ChatGPT4.1"
+    },
+    "90253": {
+      "id": 3682612,
+      "text": "về một số mặt, nghiên cứu này khá giống với SPRINT.",
+      "author": "ChatGPT4.1"
+    },
+    "90254": {
+      "id": 3682613,
+      "text": "Tuy nhiên, cũng có một số điểm khác biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "90255": {
+      "id": 3682614,
+      "text": "Ví dụ, ACCORD chỉ có quy mô bằng khoảng một nửa SPRINT,",
+      "author": "ChatGPT4.1"
+    },
+    "90256": {
+      "id": 3682615,
+      "text": "và không như SPRINT, nghiên cứu ACCORD cho phép bệnh nhân tiểu đường tham gia.",
+      "author": "ChatGPT4.1"
+    },
+    "90257": {
+      "id": 3682616,
+      "text": "Tuy nhiên nhìn chung, các đối tượng trong ACCORD lại có nguy cơ thấp hơn so với thử nghiệm SPRINT.",
+      "author": "ChatGPT4.1"
+    },
+    "90258": {
+      "id": 3682617,
+      "text": "Có lẽ là do độ tuổi trung bình thấp hơn một chút.",
+      "author": "ChatGPT4.1"
+    },
+    "90259": {
+      "id": 3682618,
+      "text": "Thử nghiệm ACCORD không cho thấy lợi ích đáng kể về mặt thống kê đối với kết quả tim mạch tổng thể,",
+      "author": "ChatGPT4.1"
+    },
+    "90260": {
+      "id": 3682619,
+      "text": "nhưng lại có sự giảm rõ rệt 40 phần trăm các ca đột quỵ,",
+      "author": "ChatGPT4.1"
+    },
+    "90261": {
+      "id": 3682620,
+      "text": "mặc dù đó chỉ là một kết quả phụ.",
+      "author": "ChatGPT4.1"
+    },
+    "90262": {
+      "id": 3682621,
+      "text": "Như vậy, để tóm tắt, thử nghiệm SPRINT dường như ủng hộ mức 120 là mục tiêu huyết áp khuyến nghị.",
+      "author": "ChatGPT4.1"
+    },
+    "90263": {
+      "id": 3682622,
+      "text": "Đây chắc chắn là một nghiên cứu mang tính bước ngoặt",
+      "author": "ChatGPT4.1"
+    },
+    "90264": {
+      "id": 3682623,
+      "text": "và quan trọng là, nghiên cứu này được tài trợ bởi chính phủ",
+      "author": "ChatGPT4.1"
+    },
+    "90265": {
+      "id": 3682624,
+      "text": "thay vì bởi các lợi ích của các tập đoàn dược phẩm.",
+      "author": "ChatGPT4.1"
+    },
+    "90266": {
+      "id": 3682625,
+      "text": "Tuy nhiên, tôi khuyên nên thận trọng,",
+      "author": "ChatGPT4.1"
+    },
+    "90267": {
+      "id": 3682626,
+      "text": "vì SPRINT có mâu thuẫn với các phát hiện trước đó.",
+      "author": "ChatGPT4.1"
+    },
+    "90268": {
+      "id": 3682627,
+      "text": "Ví dụ, Quan điểm của Cochrane năm 2011,",
+      "author": "ChatGPT4.1"
+    },
+    "90269": {
+      "id": 3682628,
+      "text": "nói rằng việc hạ huyết áp xuống dưới 140 không làm thay đổi nguy cơ tử vong tổng thể.",
+      "author": "ChatGPT4.1"
+    },
+    "90270": {
+      "id": 3682629,
+      "text": "Tuy nhiên, chúng ta cần nhớ rằng Cochrane đã xem xét hồi cứu các thử nghiệm không thực sự tập trung vào cùng một vấn đề cụ thể.",
+      "author": "ChatGPT4.1"
+    },
+    "90271": {
+      "id": 3682630,
+      "text": "Vì vậy, đáng để tiến hành một đánh giá đầy đủ và có hệ thống,",
+      "author": "ChatGPT4.1"
+    },
+    "90272": {
+      "id": 3682631,
+      "text": "để xem thử nghiệm SPRINT nằm ở đâu trong những gì chúng ta đã biết.",
+      "author": "ChatGPT4.1"
+    },
+    "90273": {
+      "id": 3682632,
+      "text": "Thật thú vị là một số bác sĩ đa khoa đã làm việc với các bệnh nhân lớn tuổi để đạt được mục tiêu huyết áp thấp hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "90274": {
+      "id": 3682633,
+      "text": "và dữ liệu mới chắc chắn sẽ khuyến khích áp dụng nhiều hơn hướng can thiệp tích cực này.",
+      "author": "ChatGPT4.1"
+    },
+    "90275": {
+      "id": 3682634,
+      "text": "Nhưng kết quả SPRINT không có nghĩa là tất cả bệnh nhân tăng huyết áp đều nên giảm xuống dưới một trăm hai mươi.",
+      "author": "ChatGPT4.1"
+    },
+    "90276": {
+      "id": 3682635,
+      "text": "Thêm vào đó, để đạt được những mức thấp đó,",
+      "author": "ChatGPT4.1"
+    },
+    "90277": {
+      "id": 3682636,
+      "text": "thay đổi lối sống đơn thuần khó có thể đủ,",
+      "author": "ChatGPT4.1"
+    },
+    "90278": {
+      "id": 3682637,
+      "text": "có thể sẽ cần sử dụng thêm nhiều loại thuốc hạ huyết áp.",
+      "author": "ChatGPT4.1"
+    },
+    "90279": {
+      "id": 3682638,
+      "text": "Tất nhiên, vẫn còn một số câu hỏi chưa được trả lời.",
+      "author": "ChatGPT4.1"
+    },
+    "90280": {
+      "id": 3682639,
+      "text": "Ví dụ, liệu các nhóm khác, như những nhóm có nguy cơ đau tim thấp hơn, có cần phải giữ huyết áp ở mức thấp như vậy không.",
+      "author": "a user"
+    },
+    "90281": {
+      "id": 3682640,
+      "text": "Vì vậy, dù SPRINT có thể giúp định hướng quyết định của bác sĩ cho một số bệnh nhân,",
+      "author": "ChatGPT4.1"
+    },
+    "90282": {
+      "id": 3682641,
+      "text": "điều đó không có nghĩa là cần có một tiêu chuẩn huyết áp phổ quát mới.",
+      "author": "ChatGPT4.1"
+    },
+    "90283": {
+      "id": 3682642,
+      "text": "Thay vào đó, đó là lý do hợp lý để mọi người thảo luận với bác sĩ về mục tiêu lý tưởng và cá nhân của chính mình.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

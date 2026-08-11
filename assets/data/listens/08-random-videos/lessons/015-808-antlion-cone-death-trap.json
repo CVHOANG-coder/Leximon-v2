@@ -1,0 +1,1386 @@
+{
+  "summary": {
+    "id": 808,
+    "name": "Antlion Cone Death Trap",
+    "subTitle": "",
+    "levelName": "C1",
+    "position": 15,
+    "totalChallenges": 25,
+    "groupId": 83,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/808",
+  "detail": {
+    "id": 808,
+    "lessonName": "Antlion Cone Death Trap",
+    "name": "Antlion Cone Death Trap",
+    "position": 15,
+    "levelName": "C1",
+    "audioSrc": "",
+    "youtubeVideoId": "QSYpWaFsIRY",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 40631,
+        "position": 1,
+        "content": "The Namib Desert, one of the most exposed places on Earth.",
+        "defaultInput": "The Namib Desert, ",
+        "jsonContent": [
+          "The",
+          "Namib",
+          "Desert,",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "most",
+          "exposed",
+          "places",
+          "on",
+          "Earth."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Namib"
+          ],
+          [
+            "Desert,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "exposed"
+          ],
+          [
+            "places"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Earth."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 1.22,
+        "timeEnd": 7.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40631/list"
+      },
+      {
+        "id": 40632,
+        "position": 2,
+        "content": "As the sun climbs high, everybody takes cover from the extreme heat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "the",
+          "sun",
+          "climbs",
+          "high,",
+          "everybody",
+          "takes",
+          "cover",
+          "from",
+          "the",
+          "extreme",
+          "heat."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sun"
+          ],
+          [
+            "climbs"
+          ],
+          [
+            "high,"
+          ],
+          [
+            "everybody"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "cover"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "extreme"
+          ],
+          [
+            "heat."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 11.76,
+        "timeEnd": 18.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40632/list"
+      },
+      {
+        "id": 40633,
+        "position": 3,
+        "content": "Everybody except the hotrod ant.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Everybody",
+          "except",
+          "the",
+          "hotrod",
+          "ant."
+        ],
+        "solution": [
+          [
+            "Everybody"
+          ],
+          [
+            "except"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hotrod"
+          ],
+          [
+            "ant."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 20.45,
+        "timeEnd": 26.26,
+        "hints": [
+          "hotrod"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40633/list"
+      },
+      {
+        "id": 40634,
+        "position": 4,
+        "content": "As others take refuge, their day is just beginning...",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "others",
+          "take",
+          "refuge,",
+          "their",
+          "day",
+          "is",
+          "just",
+          "beginning..."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "others"
+          ],
+          [
+            "take"
+          ],
+          [
+            "refuge,"
+          ],
+          [
+            "their"
+          ],
+          [
+            "day"
+          ],
+          [
+            "is"
+          ],
+          [
+            "just"
+          ],
+          [
+            "beginning..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 30.67,
+        "timeEnd": 36.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40634/list"
+      },
+      {
+        "id": 40635,
+        "position": 5,
+        "content": "cleaning out the nest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "cleaning",
+          "out",
+          "the",
+          "nest."
+        ],
+        "solution": [
+          [
+            "cleaning"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nest."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 38.75,
+        "timeEnd": 41.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40635/list"
+      },
+      {
+        "id": 40636,
+        "position": 6,
+        "content": "The sand can reach a scorching 70 centigrade.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "sand",
+          "can",
+          "reach",
+          "a",
+          "scorching",
+          [
+            "70",
+            "seventy"
+          ],
+          "centigrade."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "sand"
+          ],
+          [
+            "can"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "a"
+          ],
+          [
+            "scorching"
+          ],
+          [
+            "70",
+            "seventy"
+          ],
+          [
+            "centigrade."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 47.23,
+        "timeEnd": 52.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40636/list"
+      },
+      {
+        "id": 40637,
+        "position": 7,
+        "content": "The ants' long legs raise their bodies above the surface, where it's ten degrees cooler.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "ants'",
+          "long",
+          "legs",
+          "raise",
+          "their",
+          "bodies",
+          "above",
+          "the",
+          "surface,",
+          "where",
+          "it's",
+          [
+            "ten",
+            "10"
+          ],
+          "degrees",
+          "cooler."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "ants'"
+          ],
+          [
+            "long"
+          ],
+          [
+            "legs"
+          ],
+          [
+            "raise"
+          ],
+          [
+            "their"
+          ],
+          [
+            "bodies"
+          ],
+          [
+            "above"
+          ],
+          [
+            "the"
+          ],
+          [
+            "surface,"
+          ],
+          [
+            "where"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "ten",
+            "10"
+          ],
+          [
+            "degrees"
+          ],
+          [
+            "cooler."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 52.4,
+        "timeEnd": 59.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40637/list"
+      },
+      {
+        "id": 40638,
+        "position": 8,
+        "content": "But if they stand still, they will fry.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "if",
+          "they",
+          "stand",
+          "still,",
+          [
+            "they will",
+            "they'll"
+          ],
+          "fry."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "if"
+          ],
+          [
+            "they"
+          ],
+          [
+            "stand"
+          ],
+          [
+            "still,"
+          ],
+          [
+            "they will",
+            "they'll"
+          ],
+          [
+            "fry."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 61.78,
+        "timeEnd": 66.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40638/list"
+      },
+      {
+        "id": 40639,
+        "position": 9,
+        "content": "They must keep moving or risk the same fate as their quarry,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "must",
+          "keep",
+          "moving",
+          "or",
+          "risk",
+          "the",
+          "same",
+          "fate",
+          "as",
+          "their",
+          "quarry,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "must"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "moving"
+          ],
+          [
+            "or"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "fate"
+          ],
+          [
+            "as"
+          ],
+          [
+            "their"
+          ],
+          [
+            "quarry,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 68.04,
+        "timeEnd": 72.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40639/list"
+      },
+      {
+        "id": 40640,
+        "position": 10,
+        "content": "the creatures that have collapsed from heat stroke.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "creatures",
+          "that",
+          "have",
+          "collapsed",
+          "from",
+          "heat",
+          "stroke."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "creatures"
+          ],
+          [
+            "that"
+          ],
+          [
+            "have"
+          ],
+          [
+            "collapsed"
+          ],
+          [
+            "from"
+          ],
+          [
+            "heat"
+          ],
+          [
+            "stroke."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 72.06,
+        "timeEnd": 75.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40640/list"
+      },
+      {
+        "id": 40641,
+        "position": 11,
+        "content": "Too deeply buried, but a good place to cool off.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Too",
+          "deeply",
+          "buried,",
+          "but",
+          "a",
+          "good",
+          "place",
+          "to",
+          "cool",
+          "off."
+        ],
+        "solution": [
+          [
+            "Too"
+          ],
+          [
+            "deeply"
+          ],
+          [
+            "buried,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "place"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cool"
+          ],
+          [
+            "off."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 76.52,
+        "timeEnd": 81.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40641/list"
+      },
+      {
+        "id": 40642,
+        "position": 12,
+        "content": "Foraging decisions must be fast.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Foraging",
+          "decisions",
+          "must",
+          "be",
+          "fast."
+        ],
+        "solution": [
+          [
+            "Foraging"
+          ],
+          [
+            "decisions"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fast."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 82.7,
+        "timeEnd": 85.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40642/list"
+      },
+      {
+        "id": 40643,
+        "position": 13,
+        "content": "Too big...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Too",
+          "big..."
+        ],
+        "solution": [
+          [
+            "Too"
+          ],
+          [
+            "big..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 85.88,
+        "timeEnd": 88.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40643/list"
+      },
+      {
+        "id": 40644,
+        "position": 14,
+        "content": "Perfect.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perfect."
+        ],
+        "solution": [
+          [
+            "Perfect."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 89.31,
+        "timeEnd": 93.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40644/list"
+      },
+      {
+        "id": 40645,
+        "position": 15,
+        "content": "Back to the nest before they also die.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Back",
+          "to",
+          "the",
+          "nest",
+          "before",
+          "they",
+          "also",
+          "die."
+        ],
+        "solution": [
+          [
+            "Back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nest"
+          ],
+          [
+            "before"
+          ],
+          [
+            "they"
+          ],
+          [
+            "also"
+          ],
+          [
+            "die."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 94.71,
+        "timeEnd": 98.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40645/list"
+      },
+      {
+        "id": 40646,
+        "position": 16,
+        "content": "But they've strayed into a minefield.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "they've",
+            "they have"
+          ],
+          "strayed",
+          "into",
+          "a",
+          "minefield."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "they've",
+            "they have"
+          ],
+          [
+            "strayed"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "minefield."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 104.24,
+        "timeEnd": 107.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40646/list"
+      },
+      {
+        "id": 40647,
+        "position": 17,
+        "content": "Each of these strange, cone-shaped pits is a death-trap...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Each",
+          "of",
+          "these",
+          "strange,",
+          [
+            "cone-shaped",
+            "cone shaped"
+          ],
+          "pits",
+          "is",
+          "a",
+          [
+            "death-trap...",
+            "death trap..."
+          ]
+        ],
+        "solution": [
+          [
+            "Each"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "strange,"
+          ],
+          [
+            "cone-shaped",
+            "cone shaped"
+          ],
+          [
+            "pits"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "death-trap...",
+            "death trap..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 112.32,
+        "timeEnd": 118.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40647/list"
+      },
+      {
+        "id": 40648,
+        "position": 18,
+        "content": "with a brutal predator at its centre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "a",
+          "brutal",
+          "predator",
+          "at",
+          "its",
+          [
+            "centre.",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "brutal"
+          ],
+          [
+            "predator"
+          ],
+          [
+            "at"
+          ],
+          [
+            "its"
+          ],
+          [
+            "centre.",
+            "center"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 121.8,
+        "timeEnd": 125.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40648/list"
+      },
+      {
+        "id": 40649,
+        "position": 19,
+        "content": "Here lie antlion larvae...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Here",
+          "lie",
+          "antlion",
+          "larvae..."
+        ],
+        "solution": [
+          [
+            "Here"
+          ],
+          [
+            "lie"
+          ],
+          [
+            "antlion"
+          ],
+          [
+            "larvae..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 127.5,
+        "timeEnd": 130.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40649/list"
+      },
+      {
+        "id": 40650,
+        "position": 20,
+        "content": "tiny ambush predators with venom-filled pincers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "tiny",
+          "ambush",
+          "predators",
+          "with",
+          [
+            "venom-filled",
+            "venom filled"
+          ],
+          "pincers."
+        ],
+        "solution": [
+          [
+            "tiny"
+          ],
+          [
+            "ambush"
+          ],
+          [
+            "predators"
+          ],
+          [
+            "with"
+          ],
+          [
+            "venom-filled",
+            "venom filled"
+          ],
+          [
+            "pincers."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 130.59,
+        "timeEnd": 135.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40650/list"
+      },
+      {
+        "id": 40651,
+        "position": 21,
+        "content": "Some ants manage to escape, but the antlion has other tricks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "ants",
+          "manage",
+          "to",
+          "escape,",
+          "but",
+          "the",
+          "antlion",
+          "has",
+          "other",
+          "tricks."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "ants"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "to"
+          ],
+          [
+            "escape,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "antlion"
+          ],
+          [
+            "has"
+          ],
+          [
+            "other"
+          ],
+          [
+            "tricks."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 155.93,
+        "timeEnd": 161.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40651/list"
+      },
+      {
+        "id": 40652,
+        "position": 22,
+        "content": "Flinging sand into the air, it creates an avalanche.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Flinging",
+          "sand",
+          "into",
+          "the",
+          "air,",
+          "it",
+          "creates",
+          "an",
+          "avalanche."
+        ],
+        "solution": [
+          [
+            "Flinging"
+          ],
+          [
+            "sand"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "air,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "creates"
+          ],
+          [
+            "an"
+          ],
+          [
+            "avalanche."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 161.89,
+        "timeEnd": 166.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40652/list"
+      },
+      {
+        "id": 40653,
+        "position": 23,
+        "content": "In this cone of death, the walls are so angled that the sand slips beneath the ant's feet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "this",
+          "cone",
+          "of",
+          "death,",
+          "the",
+          "walls",
+          "are",
+          "so",
+          "angled",
+          "that",
+          "the",
+          "sand",
+          "slips",
+          "beneath",
+          "the",
+          "ant's",
+          "feet."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "this"
+          ],
+          [
+            "cone"
+          ],
+          [
+            "of"
+          ],
+          [
+            "death,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "walls"
+          ],
+          [
+            "are"
+          ],
+          [
+            "so"
+          ],
+          [
+            "angled"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sand"
+          ],
+          [
+            "slips"
+          ],
+          [
+            "beneath"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ant's"
+          ],
+          [
+            "feet."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 171.36,
+        "timeEnd": 178.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40653/list"
+      },
+      {
+        "id": 40654,
+        "position": 24,
+        "content": "As boulders rain from the sky, escape seems almost impossible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "boulders",
+          "rain",
+          "from",
+          "the",
+          "sky,",
+          "escape",
+          "seems",
+          "almost",
+          "impossible."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "boulders"
+          ],
+          [
+            "rain"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sky,"
+          ],
+          [
+            "escape"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "impossible."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 181.3,
+        "timeEnd": 187.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40654/list"
+      },
+      {
+        "id": 40655,
+        "position": 25,
+        "content": "Phew!",
+        "defaultInput": "Phew!",
+        "jsonContent": [
+          "Phew!"
+        ],
+        "solution": [
+          [
+            "Phew!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 187.23,
+        "timeEnd": 205.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/40655/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "40631": {
+      "id": 714486,
+      "text": "Sa mạc Namib, một trong những nơi tiếp xúc (ánh nắng) nhiều nhất trên Trái đất.",
+      "author": "a user"
+    },
+    "40634": {
+      "id": 714492,
+      "text": "Khi các loài khác trú ẩn, ngày của chúng chỉ mới bắt đầu...",
+      "author": "a user"
+    },
+    "40635": {
+      "id": 714493,
+      "text": "dọn dẹp tổ.",
+      "author": "a user"
+    },
+    "40637": {
+      "id": 714495,
+      "text": "Đôi chân dài của loài kiến nâng cơ thể chúng lên khỏi mặt đất, nơi có nhiệt độ mát hơn 10 độ.",
+      "author": "a user"
+    },
+    "40638": {
+      "id": 714499,
+      "text": "Nhưng nếu chúng đứng yên, chúng sẽ bị chiên sống.",
+      "author": "a user"
+    },
+    "40639": {
+      "id": 714500,
+      "text": "Chúng phải tiếp tục di chuyển hoặc chịu chung số phận với con mồi của mình,",
+      "author": "a user"
+    },
+    "40640": {
+      "id": 714502,
+      "text": "những sinh vật đã gục ngã vì sốc nhiệt.",
+      "author": "a user"
+    },
+    "40645": {
+      "id": 714510,
+      "text": "Trở về tổ trước khi chúng cũng chết.",
+      "author": "a user"
+    },
+    "40646": {
+      "id": 714511,
+      "text": "Nhưng chúng đã đi lạc vào một bãi mìn.",
+      "author": "a user"
+    },
+    "40647": {
+      "id": 714512,
+      "text": "Mỗi cái hố hình nón kỳ lạ này là một cái bẫy chết chóc...",
+      "author": "a user"
+    },
+    "40648": {
+      "id": 714513,
+      "text": "với một kẻ săn mồi tàn bạo ở trung tâm của cái hố",
+      "author": "a user"
+    },
+    "40649": {
+      "id": 714515,
+      "text": "Nằm ở đây là ấu trùng kiến sư tử",
+      "author": "a user"
+    },
+    "40651": {
+      "id": 714518,
+      "text": "Một số con kiến trốn thoát được, nhưng kiến sư tử có những mánh khóe khác.",
+      "author": "a user"
+    },
+    "40652": {
+      "id": 714520,
+      "text": "Ném cát vào không khí, nó tạo ra một trận sạt lở.",
+      "author": "a user"
+    },
+    "40632": {
+      "id": 2625220,
+      "text": "Khi mặt trời lên cao, mọi sinh vật đều ẩn náu tránh cái nóng cực độ.",
+      "author": "ChatGPT4.1"
+    },
+    "40633": {
+      "id": 2625221,
+      "text": "Tất cả mọi sinh vật ngoại trừ loài kiến \"hotrod\".",
+      "author": "ChatGPT4.1"
+    },
+    "40636": {
+      "id": 2625222,
+      "text": "Cát có thể đạt tới nhiệt độ bỏng rát 70 độ C.",
+      "author": "ChatGPT4.1"
+    },
+    "40641": {
+      "id": 2625223,
+      "text": "Chôn quá sâu, nhưng cũng là nơi lý tưởng để làm mát.",
+      "author": "ChatGPT4.1"
+    },
+    "40642": {
+      "id": 2625224,
+      "text": "Quyết định kiếm ăn phải thật nhanh.",
+      "author": "ChatGPT4.1"
+    },
+    "40643": {
+      "id": 2625225,
+      "text": "Quá to...",
+      "author": "ChatGPT4.1"
+    },
+    "40644": {
+      "id": 2625226,
+      "text": "Hoàn hảo.",
+      "author": "ChatGPT4.1"
+    },
+    "40650": {
+      "id": 2625227,
+      "text": "những kẻ săn mồi nhỏ bé có càng đầy nọc độc.",
+      "author": "ChatGPT4.1"
+    },
+    "40653": {
+      "id": 2625228,
+      "text": "Trong chiếc nón tử thần này, vách tường dốc tới mức cát trượt dưới chân kiến.",
+      "author": "ChatGPT4.1"
+    },
+    "40654": {
+      "id": 2625229,
+      "text": "Khi những tảng đá rơi như mưa từ trên xuống, việc thoát thân gần như là bất khả thi.",
+      "author": "ChatGPT4.1"
+    },
+    "40655": {
+      "id": 2625230,
+      "text": "Phù!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

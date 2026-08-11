@@ -1,0 +1,3810 @@
+{
+  "summary": {
+    "id": 2142,
+    "name": "How It's Made: Candles",
+    "subTitle": "",
+    "levelName": "C1",
+    "position": 93,
+    "totalChallenges": 59,
+    "groupId": 84,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2142",
+  "detail": {
+    "id": 2142,
+    "lessonName": "How It's Made: Candles",
+    "name": "How It's Made: Candles",
+    "position": 93,
+    "levelName": "C1",
+    "audioSrc": "",
+    "youtubeVideoId": "j_P35HJn5Ow",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 84547,
+        "position": 1,
+        "content": "There's a lot more to candles than lights the eye.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "a",
+          "lot",
+          "more",
+          "to",
+          "candles",
+          "than",
+          "lights",
+          "the",
+          "eye."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "more"
+          ],
+          [
+            "to"
+          ],
+          [
+            "candles"
+          ],
+          [
+            "than"
+          ],
+          [
+            "lights"
+          ],
+          [
+            "the"
+          ],
+          [
+            "eye."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 0.07,
+        "timeEnd": 3.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84547/list"
+      },
+      {
+        "id": 84548,
+        "position": 2,
+        "content": "Before they were invented, people relied on candles made with wicks floating in flammable, spillable oil.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "they",
+          "were",
+          "invented,",
+          "people",
+          "relied",
+          "on",
+          "candles",
+          "made",
+          "with",
+          "wicks",
+          "floating",
+          "in",
+          "flammable,",
+          "spillable",
+          "oil."
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "they"
+          ],
+          [
+            "were"
+          ],
+          [
+            "invented,"
+          ],
+          [
+            "people"
+          ],
+          [
+            "relied"
+          ],
+          [
+            "on"
+          ],
+          [
+            "candles"
+          ],
+          [
+            "made"
+          ],
+          [
+            "with"
+          ],
+          [
+            "wicks"
+          ],
+          [
+            "floating"
+          ],
+          [
+            "in"
+          ],
+          [
+            "flammable,"
+          ],
+          [
+            "spillable"
+          ],
+          [
+            "oil."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 3.03,
+        "timeEnd": 9.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84548/list"
+      },
+      {
+        "id": 84549,
+        "position": 3,
+        "content": "In the past, candles weren't just used for illumination.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "the",
+          "past,",
+          "candles",
+          [
+            "weren't",
+            "were not"
+          ],
+          "just",
+          "used",
+          "for",
+          "illumination."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past,"
+          ],
+          [
+            "candles"
+          ],
+          [
+            "weren't",
+            "were not"
+          ],
+          [
+            "just"
+          ],
+          [
+            "used"
+          ],
+          [
+            "for"
+          ],
+          [
+            "illumination."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 9.99,
+        "timeEnd": 13.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84549/list"
+      },
+      {
+        "id": 84550,
+        "position": 4,
+        "content": "Since they burn at such a steady rate, people have even used them as clocks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Since",
+          "they",
+          "burn",
+          "at",
+          "such",
+          "a",
+          "steady",
+          "rate,",
+          "people",
+          "have",
+          "even",
+          "used",
+          "them",
+          "as",
+          "clocks."
+        ],
+        "solution": [
+          [
+            "Since"
+          ],
+          [
+            "they"
+          ],
+          [
+            "burn"
+          ],
+          [
+            "at"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "steady"
+          ],
+          [
+            "rate,"
+          ],
+          [
+            "people"
+          ],
+          [
+            "have"
+          ],
+          [
+            "even"
+          ],
+          [
+            "used"
+          ],
+          [
+            "them"
+          ],
+          [
+            "as"
+          ],
+          [
+            "clocks."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 13.62,
+        "timeEnd": 19.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84550/list"
+      },
+      {
+        "id": 84551,
+        "position": 5,
+        "content": "Thanks to electricity, candles no longer have to illuminate our homes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "to",
+          "electricity,",
+          "candles",
+          "no",
+          "longer",
+          "have",
+          "to",
+          "illuminate",
+          "our",
+          "homes."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "electricity,"
+          ],
+          [
+            "candles"
+          ],
+          [
+            "no"
+          ],
+          [
+            "longer"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "illuminate"
+          ],
+          [
+            "our"
+          ],
+          [
+            "homes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 21.18,
+        "timeEnd": 26.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84551/list"
+      },
+      {
+        "id": 84552,
+        "position": 6,
+        "content": "They can simply brighten our evenings with atmospheric lighting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "can",
+          "simply",
+          "brighten",
+          "our",
+          "evenings",
+          "with",
+          "atmospheric",
+          "lighting."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "can"
+          ],
+          [
+            "simply"
+          ],
+          [
+            "brighten"
+          ],
+          [
+            "our"
+          ],
+          [
+            "evenings"
+          ],
+          [
+            "with"
+          ],
+          [
+            "atmospheric"
+          ],
+          [
+            "lighting."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 26.13,
+        "timeEnd": 30.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84552/list"
+      },
+      {
+        "id": 84553,
+        "position": 7,
+        "content": "This wax has been made into a powder with a rotating bar that sprays drops of hot wax into the air.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "wax",
+          "has",
+          "been",
+          "made",
+          "into",
+          "a",
+          "powder",
+          "with",
+          "a",
+          "rotating",
+          "bar",
+          "that",
+          "sprays",
+          "drops",
+          "of",
+          "hot",
+          "wax",
+          "into",
+          "the",
+          "air."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "made"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "powder"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "rotating"
+          ],
+          [
+            "bar"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sprays"
+          ],
+          [
+            "drops"
+          ],
+          [
+            "of"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "air."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 31.14,
+        "timeEnd": 38.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84553/list"
+      },
+      {
+        "id": 84554,
+        "position": 8,
+        "content": "As the drops fall, they cool and become solid wax particles.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "the",
+          "drops",
+          "fall,",
+          "they",
+          "cool",
+          "and",
+          "become",
+          "solid",
+          "wax",
+          "particles."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drops"
+          ],
+          [
+            "fall,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "cool"
+          ],
+          [
+            "and"
+          ],
+          [
+            "become"
+          ],
+          [
+            "solid"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "particles."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 38.58,
+        "timeEnd": 43.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84554/list"
+      },
+      {
+        "id": 84555,
+        "position": 9,
+        "content": "A specialized machine called a core press, vacuums the powder and begins a multi-step process.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          [
+            "specialized",
+            "specialised"
+          ],
+          "machine",
+          "called",
+          "a",
+          "core",
+          "press,",
+          "vacuums",
+          "the",
+          "powder",
+          "and",
+          "begins",
+          "a",
+          [
+            "multi-step",
+            "multi step"
+          ],
+          "process."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "specialized",
+            "specialised"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "called"
+          ],
+          [
+            "a"
+          ],
+          [
+            "core"
+          ],
+          [
+            "press,"
+          ],
+          [
+            "vacuums"
+          ],
+          [
+            "the"
+          ],
+          [
+            "powder"
+          ],
+          [
+            "and"
+          ],
+          [
+            "begins"
+          ],
+          [
+            "a"
+          ],
+          [
+            "multi-step",
+            "multi step"
+          ],
+          [
+            "process."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.25,
+        "timeEnd": 51.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84555/list"
+      },
+      {
+        "id": 84556,
+        "position": 10,
+        "content": "A series of small tube-shaped holes are filled with powder.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "series",
+          "of",
+          "small",
+          [
+            "tube-shaped",
+            "tube shaped"
+          ],
+          "holes",
+          "are",
+          "filled",
+          "with",
+          "powder."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "series"
+          ],
+          [
+            "of"
+          ],
+          [
+            "small"
+          ],
+          [
+            "tube-shaped",
+            "tube shaped"
+          ],
+          [
+            "holes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "filled"
+          ],
+          [
+            "with"
+          ],
+          [
+            "powder."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 51.31,
+        "timeEnd": 55.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84556/list"
+      },
+      {
+        "id": 84557,
+        "position": 11,
+        "content": "Then, hydraulic pistons compress the powder into short cylinders.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then,",
+          "hydraulic",
+          "pistons",
+          "compress",
+          "the",
+          "powder",
+          "into",
+          "short",
+          "cylinders."
+        ],
+        "solution": [
+          [
+            "Then,"
+          ],
+          [
+            "hydraulic"
+          ],
+          [
+            "pistons"
+          ],
+          [
+            "compress"
+          ],
+          [
+            "the"
+          ],
+          [
+            "powder"
+          ],
+          [
+            "into"
+          ],
+          [
+            "short"
+          ],
+          [
+            "cylinders."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 55.45,
+        "timeEnd": 60.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84557/list"
+      },
+      {
+        "id": 84558,
+        "position": 12,
+        "content": "Transport units move them to the next station.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Transport",
+          "units",
+          "move",
+          "them",
+          "to",
+          "the",
+          "next",
+          "station."
+        ],
+        "solution": [
+          [
+            "Transport"
+          ],
+          [
+            "units"
+          ],
+          [
+            "move"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "station."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 60.65,
+        "timeEnd": 63.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84558/list"
+      },
+      {
+        "id": 84559,
+        "position": 13,
+        "content": "The compressed wax cylinder will form the core of the candle",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "compressed",
+          "wax",
+          "cylinder",
+          "will",
+          "form",
+          "the",
+          "core",
+          "of",
+          "the",
+          "candle"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "compressed"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "cylinder"
+          ],
+          [
+            "will"
+          ],
+          [
+            "form"
+          ],
+          [
+            "the"
+          ],
+          [
+            "core"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "candle"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 66.04,
+        "timeEnd": 70.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84559/list"
+      },
+      {
+        "id": 84560,
+        "position": 14,
+        "content": "and prevent the burning wick from touching the edges of the glass.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "prevent",
+          "the",
+          "burning",
+          "wick",
+          "from",
+          "touching",
+          "the",
+          "edges",
+          "of",
+          "the",
+          "glass."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "prevent"
+          ],
+          [
+            "the"
+          ],
+          [
+            "burning"
+          ],
+          [
+            "wick"
+          ],
+          [
+            "from"
+          ],
+          [
+            "touching"
+          ],
+          [
+            "the"
+          ],
+          [
+            "edges"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "glass."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 70.01,
+        "timeEnd": 74.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84560/list"
+      },
+      {
+        "id": 84561,
+        "position": 15,
+        "content": "First, the candle needs a wick and a sustainer.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First,",
+            "1st"
+          ],
+          "the",
+          "candle",
+          "needs",
+          "a",
+          "wick",
+          "and",
+          "a",
+          "sustainer."
+        ],
+        "solution": [
+          [
+            "First,",
+            "1st"
+          ],
+          [
+            "the"
+          ],
+          [
+            "candle"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wick"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sustainer."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 74.54,
+        "timeEnd": 78.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84561/list"
+      },
+      {
+        "id": 84562,
+        "position": 16,
+        "content": "The metal sustainer is the wick's base.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "metal",
+          "sustainer",
+          "is",
+          "the",
+          "wick's",
+          "base."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "metal"
+          ],
+          [
+            "sustainer"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wick's"
+          ],
+          [
+            "base."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 78.06,
+        "timeEnd": 80.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84562/list"
+      },
+      {
+        "id": 84563,
+        "position": 17,
+        "content": "This machine shoots wicks into the sustainers, crimps them,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "machine",
+          "shoots",
+          "wicks",
+          "into",
+          "the",
+          "sustainers,",
+          "crimps",
+          "them,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "shoots"
+          ],
+          [
+            "wicks"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sustainers,"
+          ],
+          [
+            "crimps"
+          ],
+          [
+            "them,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 80.81,
+        "timeEnd": 85.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84563/list"
+      },
+      {
+        "id": 84564,
+        "position": 18,
+        "content": "and inserts the components into the candle core.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "inserts",
+          "the",
+          "components",
+          "into",
+          "the",
+          "candle",
+          "core."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "inserts"
+          ],
+          [
+            "the"
+          ],
+          [
+            "components"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "candle"
+          ],
+          [
+            "core."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 85.11,
+        "timeEnd": 88.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84564/list"
+      },
+      {
+        "id": 84565,
+        "position": 19,
+        "content": "A machine places drops of glue in the bottom of a series of small glass containers",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "machine",
+          "places",
+          "drops",
+          "of",
+          "glue",
+          "in",
+          "the",
+          "bottom",
+          "of",
+          "a",
+          "series",
+          "of",
+          "small",
+          "glass",
+          "containers"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "places"
+          ],
+          [
+            "drops"
+          ],
+          [
+            "of"
+          ],
+          [
+            "glue"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bottom"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "series"
+          ],
+          [
+            "of"
+          ],
+          [
+            "small"
+          ],
+          [
+            "glass"
+          ],
+          [
+            "containers"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 91.9,
+        "timeEnd": 97.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84565/list"
+      },
+      {
+        "id": 84566,
+        "position": 20,
+        "content": "before placing the candle cores inside.",
+        "defaultInput": "",
+        "jsonContent": [
+          "before",
+          "placing",
+          "the",
+          "candle",
+          "cores",
+          "inside."
+        ],
+        "solution": [
+          [
+            "before"
+          ],
+          [
+            "placing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "candle"
+          ],
+          [
+            "cores"
+          ],
+          [
+            "inside."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 97.43,
+        "timeEnd": 100.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84566/list"
+      },
+      {
+        "id": 84567,
+        "position": 21,
+        "content": "The glue holds the sustainers in place to prevent them from sliding around when hot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "glue",
+          "holds",
+          "the",
+          "sustainers",
+          "in",
+          "place",
+          "to",
+          "prevent",
+          "them",
+          "from",
+          "sliding",
+          "around",
+          "when",
+          "hot."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "glue"
+          ],
+          [
+            "holds"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sustainers"
+          ],
+          [
+            "in"
+          ],
+          [
+            "place"
+          ],
+          [
+            "to"
+          ],
+          [
+            "prevent"
+          ],
+          [
+            "them"
+          ],
+          [
+            "from"
+          ],
+          [
+            "sliding"
+          ],
+          [
+            "around"
+          ],
+          [
+            "when"
+          ],
+          [
+            "hot."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 100.78,
+        "timeEnd": 106.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84567/list"
+      },
+      {
+        "id": 84568,
+        "position": 22,
+        "content": "Onto the next phase of production.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Onto",
+          "the",
+          "next",
+          "phase",
+          "of",
+          "production."
+        ],
+        "solution": [
+          [
+            "Onto"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "phase"
+          ],
+          [
+            "of"
+          ],
+          [
+            "production."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 116.01,
+        "timeEnd": 118.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84568/list"
+      },
+      {
+        "id": 84569,
+        "position": 23,
+        "content": "Liquefied wax is poured into a mixing tank.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Liquefied",
+          "wax",
+          "is",
+          "poured",
+          "into",
+          "a",
+          "mixing",
+          "tank."
+        ],
+        "solution": [
+          [
+            "Liquefied"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "is"
+          ],
+          [
+            "poured"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mixing"
+          ],
+          [
+            "tank."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 118.44,
+        "timeEnd": 121.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84569/list"
+      },
+      {
+        "id": 84570,
+        "position": 24,
+        "content": "A technician pours in a series of additives,",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "technician",
+          "pours",
+          "in",
+          "a",
+          "series",
+          "of",
+          "additives,"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "technician"
+          ],
+          [
+            "pours"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "series"
+          ],
+          [
+            "of"
+          ],
+          [
+            "additives,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 122.03,
+        "timeEnd": 125.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84570/list"
+      },
+      {
+        "id": 84571,
+        "position": 25,
+        "content": "that include plasticizers to help solidify the wax and prevent crystallization,",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "include",
+          "plasticizers",
+          "to",
+          "help",
+          "solidify",
+          "the",
+          "wax",
+          "and",
+          "prevent",
+          "crystallization,"
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "include"
+          ],
+          [
+            "plasticizers"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "solidify"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "and"
+          ],
+          [
+            "prevent"
+          ],
+          [
+            "crystallization,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 125.15,
+        "timeEnd": 130.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84571/list"
+      },
+      {
+        "id": 84572,
+        "position": 26,
+        "content": "as well as UV light inhibitors that can protect the wax from color fading.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "well",
+          "as",
+          "UV",
+          "light",
+          "inhibitors",
+          "that",
+          "can",
+          "protect",
+          "the",
+          "wax",
+          "from",
+          [
+            "color",
+            "colour"
+          ],
+          "fading."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "UV"
+          ],
+          [
+            "light"
+          ],
+          [
+            "inhibitors"
+          ],
+          [
+            "that"
+          ],
+          [
+            "can"
+          ],
+          [
+            "protect"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "from"
+          ],
+          [
+            "color",
+            "colour"
+          ],
+          [
+            "fading."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 130.43,
+        "timeEnd": 135.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84572/list"
+      },
+      {
+        "id": 84573,
+        "position": 27,
+        "content": "He pours a pre-measured quantity of dye into the container.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "pours",
+          "a",
+          [
+            "pre-measured",
+            "pre measured"
+          ],
+          "quantity",
+          "of",
+          "dye",
+          "into",
+          "the",
+          "container."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "pours"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pre-measured",
+            "pre measured"
+          ],
+          [
+            "quantity"
+          ],
+          [
+            "of"
+          ],
+          [
+            "dye"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "container."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 136.81,
+        "timeEnd": 140.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84573/list"
+      },
+      {
+        "id": 84574,
+        "position": 28,
+        "content": "An agitator begins the mixing process, which takes 20 to 30 minutes",
+        "defaultInput": "",
+        "jsonContent": [
+          "An",
+          "agitator",
+          "begins",
+          "the",
+          "mixing",
+          "process,",
+          "which",
+          "takes",
+          [
+            "20",
+            "twenty"
+          ],
+          "to",
+          [
+            "30",
+            "thirty"
+          ],
+          "minutes"
+        ],
+        "solution": [
+          [
+            "An"
+          ],
+          [
+            "agitator"
+          ],
+          [
+            "begins"
+          ],
+          [
+            "the"
+          ],
+          [
+            "mixing"
+          ],
+          [
+            "process,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "20",
+            "twenty"
+          ],
+          [
+            "to"
+          ],
+          [
+            "30",
+            "thirty"
+          ],
+          [
+            "minutes"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 140.76,
+        "timeEnd": 145.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84574/list"
+      },
+      {
+        "id": 84575,
+        "position": 29,
+        "content": "to ensure that everything is thoroughly combined.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "ensure",
+          "that",
+          "everything",
+          "is",
+          "thoroughly",
+          "combined."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "ensure"
+          ],
+          [
+            "that"
+          ],
+          [
+            "everything"
+          ],
+          [
+            "is"
+          ],
+          [
+            "thoroughly"
+          ],
+          [
+            "combined."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 145.86,
+        "timeEnd": 149.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84575/list"
+      },
+      {
+        "id": 84576,
+        "position": 30,
+        "content": "The wax temperature is maintained at 185 degrees Fahrenheit",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "wax",
+          "temperature",
+          "is",
+          "maintained",
+          "at",
+          "185",
+          "degrees",
+          "Fahrenheit"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "temperature"
+          ],
+          [
+            "is"
+          ],
+          [
+            "maintained"
+          ],
+          [
+            "at"
+          ],
+          [
+            "185"
+          ],
+          [
+            "degrees"
+          ],
+          [
+            "Fahrenheit"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 149.96,
+        "timeEnd": 154.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84576/list"
+      },
+      {
+        "id": 84577,
+        "position": 31,
+        "content": "so the liquid is kept in its liquid state.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "the",
+          "liquid",
+          "is",
+          "kept",
+          "in",
+          "its",
+          "liquid",
+          "state."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "the"
+          ],
+          [
+            "liquid"
+          ],
+          [
+            "is"
+          ],
+          [
+            "kept"
+          ],
+          [
+            "in"
+          ],
+          [
+            "its"
+          ],
+          [
+            "liquid"
+          ],
+          [
+            "state."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 154.49,
+        "timeEnd": 157.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84577/list"
+      },
+      {
+        "id": 84578,
+        "position": 32,
+        "content": "Then the liquid wax travels through tubing to a computerized filling station.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "the",
+          "liquid",
+          "wax",
+          "travels",
+          "through",
+          "tubing",
+          "to",
+          "a",
+          [
+            "computerized",
+            "computerised"
+          ],
+          "filling",
+          "station."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "the"
+          ],
+          [
+            "liquid"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "travels"
+          ],
+          [
+            "through"
+          ],
+          [
+            "tubing"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "computerized",
+            "computerised"
+          ],
+          [
+            "filling"
+          ],
+          [
+            "station."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 159.85,
+        "timeEnd": 164.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84578/list"
+      },
+      {
+        "id": 84579,
+        "position": 33,
+        "content": "A set of nozzles fill the jars, surrounding and covering the cores.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "set",
+          "of",
+          "nozzles",
+          "fill",
+          "the",
+          "jars,",
+          "surrounding",
+          "and",
+          "covering",
+          "the",
+          "cores."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "set"
+          ],
+          [
+            "of"
+          ],
+          [
+            "nozzles"
+          ],
+          [
+            "fill"
+          ],
+          [
+            "the"
+          ],
+          [
+            "jars,"
+          ],
+          [
+            "surrounding"
+          ],
+          [
+            "and"
+          ],
+          [
+            "covering"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cores."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 165.26,
+        "timeEnd": 169.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84579/list"
+      },
+      {
+        "id": 84580,
+        "position": 34,
+        "content": "Once filled, the jars move slowly through two separate cooling chambers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "filled,",
+          "the",
+          "jars",
+          "move",
+          "slowly",
+          "through",
+          [
+            "two",
+            "2"
+          ],
+          "separate",
+          "cooling",
+          "chambers."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "filled,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "jars"
+          ],
+          [
+            "move"
+          ],
+          [
+            "slowly"
+          ],
+          [
+            "through"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "separate"
+          ],
+          [
+            "cooling"
+          ],
+          [
+            "chambers."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 170.07,
+        "timeEnd": 175.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84580/list"
+      },
+      {
+        "id": 84581,
+        "position": 35,
+        "content": "The candles undergo extensive quality control testing for flame height",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "candles",
+          "undergo",
+          "extensive",
+          "quality",
+          "control",
+          "testing",
+          "for",
+          "flame",
+          "height"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "candles"
+          ],
+          [
+            "undergo"
+          ],
+          [
+            "extensive"
+          ],
+          [
+            "quality"
+          ],
+          [
+            "control"
+          ],
+          [
+            "testing"
+          ],
+          [
+            "for"
+          ],
+          [
+            "flame"
+          ],
+          [
+            "height"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 176.77,
+        "timeEnd": 181.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84581/list"
+      },
+      {
+        "id": 84582,
+        "position": 36,
+        "content": "and temperature on the exterior of the container.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "temperature",
+          "on",
+          "the",
+          "exterior",
+          "of",
+          "the",
+          "container."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "temperature"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "exterior"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "container."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 181.4,
+        "timeEnd": 184.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84582/list"
+      },
+      {
+        "id": 84583,
+        "position": 37,
+        "content": "This facility also manufactures tealight candles.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "facility",
+          "also",
+          "manufactures",
+          "tealight",
+          "candles."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "facility"
+          ],
+          [
+            "also"
+          ],
+          [
+            "manufactures"
+          ],
+          [
+            "tealight"
+          ],
+          [
+            "candles."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 186.83,
+        "timeEnd": 190.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84583/list"
+      },
+      {
+        "id": 84584,
+        "position": 38,
+        "content": "The containers are made of aluminum alloy, pressed into a cup shape with small panels at the bottom",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "containers",
+          "are",
+          "made",
+          "of",
+          "aluminum",
+          "alloy,",
+          "pressed",
+          "into",
+          "a",
+          "cup",
+          "shape",
+          "with",
+          "small",
+          "panels",
+          "at",
+          "the",
+          "bottom"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "containers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "made"
+          ],
+          [
+            "of"
+          ],
+          [
+            "aluminum"
+          ],
+          [
+            "alloy,"
+          ],
+          [
+            "pressed"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cup"
+          ],
+          [
+            "shape"
+          ],
+          [
+            "with"
+          ],
+          [
+            "small"
+          ],
+          [
+            "panels"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bottom"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 190.92,
+        "timeEnd": 197.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84584/list"
+      },
+      {
+        "id": 84585,
+        "position": 39,
+        "content": "designed to direct melted wax to the center.",
+        "defaultInput": "",
+        "jsonContent": [
+          "designed",
+          "to",
+          "direct",
+          "melted",
+          "wax",
+          "to",
+          "the",
+          [
+            "center.",
+            "centre"
+          ]
+        ],
+        "solution": [
+          [
+            "designed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "direct"
+          ],
+          [
+            "melted"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "center.",
+            "centre"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 197.15,
+        "timeEnd": 200.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84585/list"
+      },
+      {
+        "id": 84586,
+        "position": 40,
+        "content": "Moved by air, the containers fall into a sorter,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Moved",
+          "by",
+          "air,",
+          "the",
+          "containers",
+          "fall",
+          "into",
+          "a",
+          "sorter,"
+        ],
+        "solution": [
+          [
+            "Moved"
+          ],
+          [
+            "by"
+          ],
+          [
+            "air,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "containers"
+          ],
+          [
+            "fall"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sorter,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 200.97,
+        "timeEnd": 204.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84586/list"
+      },
+      {
+        "id": 84587,
+        "position": 41,
+        "content": "which spins them into an upright position",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "spins",
+          "them",
+          "into",
+          "an",
+          "upright",
+          "position"
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "spins"
+          ],
+          [
+            "them"
+          ],
+          [
+            "into"
+          ],
+          [
+            "an"
+          ],
+          [
+            "upright"
+          ],
+          [
+            "position"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 204.51,
+        "timeEnd": 207.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84587/list"
+      },
+      {
+        "id": 84588,
+        "position": 42,
+        "content": "and onto a conveyor that offloads them to the next stations.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "onto",
+          "a",
+          "conveyor",
+          "that",
+          "offloads",
+          "them",
+          "to",
+          "the",
+          "next",
+          "stations."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "onto"
+          ],
+          [
+            "a"
+          ],
+          [
+            "conveyor"
+          ],
+          [
+            "that"
+          ],
+          [
+            "offloads"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "stations."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 207.37,
+        "timeEnd": 211.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84588/list"
+      },
+      {
+        "id": 84589,
+        "position": 43,
+        "content": "Like candles, tealights require sustainers and glue to hold the wick in place.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "candles,",
+          "tealights",
+          "require",
+          "sustainers",
+          "and",
+          "glue",
+          "to",
+          "hold",
+          "the",
+          "wick",
+          "in",
+          "place."
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "candles,"
+          ],
+          [
+            "tealights"
+          ],
+          [
+            "require"
+          ],
+          [
+            "sustainers"
+          ],
+          [
+            "and"
+          ],
+          [
+            "glue"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hold"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wick"
+          ],
+          [
+            "in"
+          ],
+          [
+            "place."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 212.09,
+        "timeEnd": 217.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84589/list"
+      },
+      {
+        "id": 84590,
+        "position": 44,
+        "content": "The steel discs drop into a vibrating sorting device.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "steel",
+          [
+            "discs",
+            "disks"
+          ],
+          "drop",
+          "into",
+          "a",
+          "vibrating",
+          "sorting",
+          "device."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "steel"
+          ],
+          [
+            "discs",
+            "disks"
+          ],
+          [
+            "drop"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "vibrating"
+          ],
+          [
+            "sorting"
+          ],
+          [
+            "device."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 217.69,
+        "timeEnd": 221.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84590/list"
+      },
+      {
+        "id": 84591,
+        "position": 45,
+        "content": "A giant spool of waxed thread is fed into the wicking machine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "giant",
+          "spool",
+          "of",
+          "waxed",
+          "thread",
+          "is",
+          "fed",
+          "into",
+          "the",
+          "wicking",
+          "machine."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "giant"
+          ],
+          [
+            "spool"
+          ],
+          [
+            "of"
+          ],
+          [
+            "waxed"
+          ],
+          [
+            "thread"
+          ],
+          [
+            "is"
+          ],
+          [
+            "fed"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wicking"
+          ],
+          [
+            "machine."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 222.51,
+        "timeEnd": 226.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84591/list"
+      },
+      {
+        "id": 84592,
+        "position": 46,
+        "content": "The machine cuts and inserts it into the sustainer clip",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "machine",
+          "cuts",
+          "and",
+          "inserts",
+          "it",
+          "into",
+          "the",
+          "sustainer",
+          "clip"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "cuts"
+          ],
+          [
+            "and"
+          ],
+          [
+            "inserts"
+          ],
+          [
+            "it"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sustainer"
+          ],
+          [
+            "clip"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 227.03,
+        "timeEnd": 230.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84592/list"
+      },
+      {
+        "id": 84593,
+        "position": 47,
+        "content": "and glues the assembly into a tealight container.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "glues",
+          "the",
+          "assembly",
+          "into",
+          "a",
+          "tealight",
+          "container."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "glues"
+          ],
+          [
+            "the"
+          ],
+          [
+            "assembly"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tealight"
+          ],
+          [
+            "container."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 230.72,
+        "timeEnd": 233.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84593/list"
+      },
+      {
+        "id": 84594,
+        "position": 48,
+        "content": "The containers with sustainers and wicks in place move to a circular buffering table,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "containers",
+          "with",
+          "sustainers",
+          "and",
+          "wicks",
+          "in",
+          "place",
+          "move",
+          "to",
+          "a",
+          "circular",
+          "buffering",
+          "table,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "containers"
+          ],
+          [
+            "with"
+          ],
+          [
+            "sustainers"
+          ],
+          [
+            "and"
+          ],
+          [
+            "wicks"
+          ],
+          [
+            "in"
+          ],
+          [
+            "place"
+          ],
+          [
+            "move"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "circular"
+          ],
+          [
+            "buffering"
+          ],
+          [
+            "table,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 234.18,
+        "timeEnd": 239.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84594/list"
+      },
+      {
+        "id": 84595,
+        "position": 49,
+        "content": "which disperses into three channels.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "disperses",
+          "into",
+          [
+            "three",
+            "3"
+          ],
+          "channels."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "disperses"
+          ],
+          [
+            "into"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "channels."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 239.71,
+        "timeEnd": 242.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84595/list"
+      },
+      {
+        "id": 84596,
+        "position": 50,
+        "content": "A multi-prong device advances the containers onto the filling machine's conveyor system.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          [
+            "multi-prong",
+            "multi prong"
+          ],
+          "device",
+          "advances",
+          "the",
+          "containers",
+          "onto",
+          "the",
+          "filling",
+          "machine's",
+          "conveyor",
+          "system."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "multi-prong",
+            "multi prong"
+          ],
+          [
+            "device"
+          ],
+          [
+            "advances"
+          ],
+          [
+            "the"
+          ],
+          [
+            "containers"
+          ],
+          [
+            "onto"
+          ],
+          [
+            "the"
+          ],
+          [
+            "filling"
+          ],
+          [
+            "machine's"
+          ],
+          [
+            "conveyor"
+          ],
+          [
+            "system."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 243.29,
+        "timeEnd": 249.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84596/list"
+      },
+      {
+        "id": 84597,
+        "position": 51,
+        "content": "The machine fills the containers in a two-step process:",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "machine",
+          "fills",
+          "the",
+          "containers",
+          "in",
+          "a",
+          [
+            "two-step",
+            "two step",
+            "2 step",
+            "2-step"
+          ],
+          "process:"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "fills"
+          ],
+          [
+            "the"
+          ],
+          [
+            "containers"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "two-step",
+            "two step",
+            "2 step",
+            "2-step"
+          ],
+          [
+            "process:"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 251.21,
+        "timeEnd": 254.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84597/list"
+      },
+      {
+        "id": 84598,
+        "position": 52,
+        "content": "filling them halfway, letting them cool,",
+        "defaultInput": "",
+        "jsonContent": [
+          "filling",
+          "them",
+          "halfway,",
+          "letting",
+          "them",
+          "cool,"
+        ],
+        "solution": [
+          [
+            "filling"
+          ],
+          [
+            "them"
+          ],
+          [
+            "halfway,"
+          ],
+          [
+            "letting"
+          ],
+          [
+            "them"
+          ],
+          [
+            "cool,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 254.77,
+        "timeEnd": 257.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84598/list"
+      },
+      {
+        "id": 84599,
+        "position": 53,
+        "content": "then filling them up and cooling the completed product.",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          "filling",
+          "them",
+          "up",
+          "and",
+          "cooling",
+          "the",
+          "completed",
+          "product."
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "filling"
+          ],
+          [
+            "them"
+          ],
+          [
+            "up"
+          ],
+          [
+            "and"
+          ],
+          [
+            "cooling"
+          ],
+          [
+            "the"
+          ],
+          [
+            "completed"
+          ],
+          [
+            "product."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 257.63,
+        "timeEnd": 260.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84599/list"
+      },
+      {
+        "id": 84600,
+        "position": 54,
+        "content": "The two-step filling process ensures a consistent product",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "two-step",
+            "two step",
+            "2-step",
+            "2 step"
+          ],
+          "filling",
+          "process",
+          "ensures",
+          "a",
+          "consistent",
+          "product"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "two-step",
+            "two step",
+            "2-step",
+            "2 step"
+          ],
+          [
+            "filling"
+          ],
+          [
+            "process"
+          ],
+          [
+            "ensures"
+          ],
+          [
+            "a"
+          ],
+          [
+            "consistent"
+          ],
+          [
+            "product"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 261.33,
+        "timeEnd": 265.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84600/list"
+      },
+      {
+        "id": 84601,
+        "position": 55,
+        "content": "at a faster manufacturing rate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "at",
+          "a",
+          "faster",
+          "manufacturing",
+          "rate."
+        ],
+        "solution": [
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "faster"
+          ],
+          [
+            "manufacturing"
+          ],
+          [
+            "rate."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 265.06,
+        "timeEnd": 267.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84601/list"
+      },
+      {
+        "id": 84602,
+        "position": 56,
+        "content": "The cooling chamber circulates air through the space at a specific temperature",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "cooling",
+          "chamber",
+          "circulates",
+          "air",
+          "through",
+          "the",
+          "space",
+          "at",
+          "a",
+          "specific",
+          "temperature"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "cooling"
+          ],
+          [
+            "chamber"
+          ],
+          [
+            "circulates"
+          ],
+          [
+            "air"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "space"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "specific"
+          ],
+          [
+            "temperature"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 268.16,
+        "timeEnd": 273.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84602/list"
+      },
+      {
+        "id": 84603,
+        "position": 57,
+        "content": "to cool the candles at a calibrated rate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "cool",
+          "the",
+          "candles",
+          "at",
+          "a",
+          "calibrated",
+          "rate."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "cool"
+          ],
+          [
+            "the"
+          ],
+          [
+            "candles"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "calibrated"
+          ],
+          [
+            "rate."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 273.12,
+        "timeEnd": 275.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84603/list"
+      },
+      {
+        "id": 84604,
+        "position": 58,
+        "content": "From start to finish, it takes just 45 minutes to produce and package a tealight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "From",
+          "start",
+          "to",
+          "finish,",
+          "it",
+          "takes",
+          "just",
+          [
+            "45",
+            "forty-five"
+          ],
+          "minutes",
+          "to",
+          "produce",
+          "and",
+          "package",
+          "a",
+          "tealight."
+        ],
+        "solution": [
+          [
+            "From"
+          ],
+          [
+            "start"
+          ],
+          [
+            "to"
+          ],
+          [
+            "finish,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "just"
+          ],
+          [
+            "45",
+            "forty-five"
+          ],
+          [
+            "minutes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "produce"
+          ],
+          [
+            "and"
+          ],
+          [
+            "package"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tealight."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 277.92,
+        "timeEnd": 283.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84604/list"
+      },
+      {
+        "id": 84605,
+        "position": 59,
+        "content": "There's a lot more to that cozy candle glow than just wax and wicks.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "a",
+          "lot",
+          "more",
+          "to",
+          "that",
+          [
+            "cozy",
+            "cosy"
+          ],
+          "candle",
+          "glow",
+          "than",
+          "just",
+          "wax",
+          "and",
+          "wicks."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "more"
+          ],
+          [
+            "to"
+          ],
+          [
+            "that"
+          ],
+          [
+            "cozy",
+            "cosy"
+          ],
+          [
+            "candle"
+          ],
+          [
+            "glow"
+          ],
+          [
+            "than"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wax"
+          ],
+          [
+            "and"
+          ],
+          [
+            "wicks."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 285.73,
+        "timeEnd": 292.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/84605/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "84547": {
+      "id": 2661481,
+      "text": "Nến có nhiều điều thú vị hơn là chỉ để chiếu sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "84548": {
+      "id": 2661482,
+      "text": "Trước khi nến được phát minh, người ta dựa vào nến làm từ bấc nổi trong dầu dễ cháy và dễ đổ.",
+      "author": "ChatGPT4.1"
+    },
+    "84549": {
+      "id": 2661483,
+      "text": "Trong quá khứ, nến không chỉ được dùng để chiếu sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "84550": {
+      "id": 2661484,
+      "text": "Vì nến cháy với tốc độ đều đặn, người ta còn sử dụng chúng như đồng hồ.",
+      "author": "ChatGPT4.1"
+    },
+    "84551": {
+      "id": 2661485,
+      "text": "Nhờ có điện, nến không còn phải thắp sáng nhà cửa của chúng ta nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "84552": {
+      "id": 2661486,
+      "text": "Chúng đơn giản chỉ giúp làm đẹp buổi tối của chúng ta với ánh sáng trang trí.",
+      "author": "ChatGPT4.1"
+    },
+    "84553": {
+      "id": 2661487,
+      "text": "Sáp này được tạo thành dạng bột nhờ một thanh quay phun các giọt sáp nóng vào không khí.",
+      "author": "ChatGPT4.1"
+    },
+    "84554": {
+      "id": 2661488,
+      "text": "Khi các giọt sáp rơi xuống, chúng nguội đi và trở thành các hạt sáp rắn.",
+      "author": "ChatGPT4.1"
+    },
+    "84555": {
+      "id": 2661489,
+      "text": "Một máy chuyên dụng gọi là máy ép lõi hút bột này vào và bắt đầu quy trình nhiều bước.",
+      "author": "ChatGPT4.1"
+    },
+    "84556": {
+      "id": 2661490,
+      "text": "Một loạt các lỗ nhỏ hình ống được đổ đầy bột sáp.",
+      "author": "ChatGPT4.1"
+    },
+    "84557": {
+      "id": 2661491,
+      "text": "Sau đó, các piston thủy lực nén bột thành các hình trụ ngắn.",
+      "author": "ChatGPT4.1"
+    },
+    "84558": {
+      "id": 2661492,
+      "text": "Thiết bị vận chuyển sẽ chuyển chúng đến trạm tiếp theo.",
+      "author": "ChatGPT4.1"
+    },
+    "84559": {
+      "id": 2661493,
+      "text": "Hình trụ sáp ép được này sẽ tạo thành lõi nến",
+      "author": "ChatGPT4.1"
+    },
+    "84560": {
+      "id": 2661494,
+      "text": "và ngăn bấc đang cháy chạm vào mép ly thủy tinh.",
+      "author": "ChatGPT4.1"
+    },
+    "84561": {
+      "id": 2661495,
+      "text": "Đầu tiên, nến cần một bấc và một chân giữ.",
+      "author": "ChatGPT4.1"
+    },
+    "84562": {
+      "id": 2661496,
+      "text": "Chân giữ kim loại là phần đế của bấc.",
+      "author": "ChatGPT4.1"
+    },
+    "84563": {
+      "id": 2661497,
+      "text": "Máy này bắn bấc vào chân giữ, kẹp chặt chúng lại,",
+      "author": "ChatGPT4.1"
+    },
+    "84564": {
+      "id": 2661498,
+      "text": "và đưa các bộ phận này vào lõi cây nến.",
+      "author": "ChatGPT4.1"
+    },
+    "84565": {
+      "id": 2661499,
+      "text": "Một máy khác sẽ nhỏ keo vào đáy của một loạt các ly thủy tinh nhỏ",
+      "author": "ChatGPT4.1"
+    },
+    "84566": {
+      "id": 2661500,
+      "text": "trước khi đưa lõi nến vào bên trong.",
+      "author": "ChatGPT4.1"
+    },
+    "84567": {
+      "id": 2661501,
+      "text": "Keo dính giữ chân giữ ở đúng vị trí, ngăn chúng di chuyển lúc gặp nhiệt độ cao.",
+      "author": "ChatGPT4.1"
+    },
+    "84568": {
+      "id": 2661502,
+      "text": "Tiếp theo là giai đoạn sản xuất kế tiếp.",
+      "author": "ChatGPT4.1"
+    },
+    "84569": {
+      "id": 2661503,
+      "text": "Sáp lỏng được rót vào bồn trộn.",
+      "author": "ChatGPT4.1"
+    },
+    "84570": {
+      "id": 2661504,
+      "text": "Một kỹ thuật viên cho vào thêm một số phụ gia,",
+      "author": "ChatGPT4.1"
+    },
+    "84571": {
+      "id": 2661505,
+      "text": "bao gồm chất dẻo để giúp sáp đông lại và ngăn ngừa kết tinh,",
+      "author": "ChatGPT4.1"
+    },
+    "84572": {
+      "id": 2661506,
+      "text": "cũng như chất ức chế tia UV giúp bảo vệ sáp không bị phai màu.",
+      "author": "ChatGPT4.1"
+    },
+    "84573": {
+      "id": 2661507,
+      "text": "Anh ấy cho một lượng thuốc nhuộm đã được đo sẵn vào bồn chứa.",
+      "author": "ChatGPT4.1"
+    },
+    "84574": {
+      "id": 2661508,
+      "text": "Máy khuấy bắt đầu quá trình trộn, kéo dài từ 20 đến 30 phút",
+      "author": "ChatGPT4.1"
+    },
+    "84575": {
+      "id": 2661509,
+      "text": "để đảm bảo mọi thứ được hòa quyện hoàn toàn.",
+      "author": "ChatGPT4.1"
+    },
+    "84576": {
+      "id": 2661510,
+      "text": "Nhiệt độ sáp được giữ ở mức 185 độ F",
+      "author": "ChatGPT4.1"
+    },
+    "84577": {
+      "id": 2661511,
+      "text": "để sáp vẫn giữ được dạng lỏng của nó.",
+      "author": "ChatGPT4.1"
+    },
+    "84578": {
+      "id": 2661674,
+      "text": "Sau đó, sáp lỏng được dẫn qua ống tới trạm chiết rót tự động hóa.",
+      "author": "ChatGPT4.1"
+    },
+    "84579": {
+      "id": 2661675,
+      "text": "Một loạt vòi phun chiết đầy các lọ, bao phủ lõi nến.",
+      "author": "ChatGPT4.1"
+    },
+    "84580": {
+      "id": 2661676,
+      "text": "Khi đã được chiết đầy, các lọ di chuyển chậm qua hai buồng làm mát riêng biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "84581": {
+      "id": 2661677,
+      "text": "Những cây nến trải qua kiểm tra chất lượng nghiêm ngặt về chiều cao ngọn lửa",
+      "author": "ChatGPT4.1"
+    },
+    "84582": {
+      "id": 2661678,
+      "text": "và nhiệt độ trên bề mặt ngoài của hũ đựng.",
+      "author": "ChatGPT4.1"
+    },
+    "84583": {
+      "id": 2661679,
+      "text": "Cơ sở này cũng sản xuất nến tealight.",
+      "author": "ChatGPT4.1"
+    },
+    "84584": {
+      "id": 2661680,
+      "text": "Các hũ đựng được làm từ hợp kim nhôm, được ép thành hình cốc với các mảnh nhỏ dưới đáy",
+      "author": "ChatGPT4.1"
+    },
+    "84585": {
+      "id": 2661681,
+      "text": "giúp dẫn sáp nóng chảy về giữa.",
+      "author": "ChatGPT4.1"
+    },
+    "84586": {
+      "id": 2661682,
+      "text": "Được đẩy bằng không khí, các hũ đựng rơi vào thiết bị phân loại,",
+      "author": "ChatGPT4.1"
+    },
+    "84587": {
+      "id": 2661683,
+      "text": "nơi chúng được quay thẳng đứng lên",
+      "author": "ChatGPT4.1"
+    },
+    "84588": {
+      "id": 2661684,
+      "text": "và đưa lên băng chuyền chuyển chúng đến các trạm tiếp theo.",
+      "author": "ChatGPT4.1"
+    },
+    "84589": {
+      "id": 2661685,
+      "text": "Giống như nến thường, nến tealight cũng cần phần giữ và keo để cố định bấc nến.",
+      "author": "ChatGPT4.1"
+    },
+    "84590": {
+      "id": 2661686,
+      "text": "Đĩa thép rơi vào thiết bị phân loại rung.",
+      "author": "ChatGPT4.1"
+    },
+    "84591": {
+      "id": 2661687,
+      "text": "Một cuộn chỉ phủ sáp lớn được đưa vào máy bấc nến.",
+      "author": "ChatGPT4.1"
+    },
+    "84592": {
+      "id": 2661688,
+      "text": "Máy cắt và chèn nó vào kẹp giữ bấc",
+      "author": "ChatGPT4.1"
+    },
+    "84593": {
+      "id": 2661689,
+      "text": "và dán toàn bộ vào trong hũ nến tealight.",
+      "author": "ChatGPT4.1"
+    },
+    "84594": {
+      "id": 2661731,
+      "text": "Các hộp chứa đã kẹp và gắn bấc được chuyển sang bàn trung gian hình tròn,",
+      "author": "ChatGPT4.1"
+    },
+    "84595": {
+      "id": 2661732,
+      "text": "bàn này phân chia chúng vào ba kênh.",
+      "author": "ChatGPT4.1"
+    },
+    "84596": {
+      "id": 2661733,
+      "text": "Thiết bị nhiều ngạnh đẩy các hộp chứa lên hệ thống băng chuyền của máy chiết rót.",
+      "author": "ChatGPT4.1"
+    },
+    "84597": {
+      "id": 2661734,
+      "text": "Máy thực hiện việc chiết rót theo hai bước:",
+      "author": "ChatGPT4.1"
+    },
+    "84598": {
+      "id": 2661735,
+      "text": "đầu tiên đổ đầy một nửa, để nguội,",
+      "author": "ChatGPT4.1"
+    },
+    "84599": {
+      "id": 2661736,
+      "text": "sau đó đổ đầy hoàn toàn và làm mát sản phẩm hoàn thiện.",
+      "author": "ChatGPT4.1"
+    },
+    "84600": {
+      "id": 2661737,
+      "text": "Quy trình chiết rót hai bước đảm bảo sản phẩm đồng nhất",
+      "author": "ChatGPT4.1"
+    },
+    "84601": {
+      "id": 2661738,
+      "text": "với tốc độ sản xuất nhanh hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "84602": {
+      "id": 2661739,
+      "text": "Buồng làm mát lưu thông không khí ở nhiệt độ xác định",
+      "author": "ChatGPT4.1"
+    },
+    "84603": {
+      "id": 2661740,
+      "text": "để làm nguội nến theo tốc độ được hiệu chuẩn.",
+      "author": "ChatGPT4.1"
+    },
+    "84604": {
+      "id": 2661741,
+      "text": "Từ đầu đến cuối, chỉ mất 45 phút để sản xuất và đóng gói một cây nến tealight.",
+      "author": "ChatGPT4.1"
+    },
+    "84605": {
+      "id": 2661742,
+      "text": "Ánh sáng ấm áp từ nến còn chứa đựng nhiều điều hơn chỉ là sáp và bấc.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

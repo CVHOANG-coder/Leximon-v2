@@ -1,0 +1,1883 @@
+{
+  "summary": {
+    "id": 35,
+    "name": "26. School",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 26,
+    "totalChallenges": 32,
+    "groupId": 87,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/35",
+  "detail": {
+    "id": 35,
+    "lessonName": "26. School",
+    "name": "26. School",
+    "position": 26,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/0-26-school.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 1265,
+        "position": 1,
+        "content": "There are different types of schools.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "different",
+          "types",
+          "of",
+          "schools."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "different"
+          ],
+          [
+            "types"
+          ],
+          [
+            "of"
+          ],
+          [
+            "schools."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/1.mp3",
+        "timeStart": 1.5,
+        "timeEnd": 3.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1265/list"
+      },
+      {
+        "id": 1266,
+        "position": 2,
+        "content": "There is an elementary school.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "an",
+          "elementary",
+          "school."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "an"
+          ],
+          [
+            "elementary"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/2.mp3",
+        "timeStart": 4.2,
+        "timeEnd": 5.8,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/1266/list"
+      },
+      {
+        "id": 1267,
+        "position": 3,
+        "content": "The children at the elementary school are young.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "children",
+          "at",
+          "the",
+          "elementary",
+          "school",
+          "are",
+          "young."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "children"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "elementary"
+          ],
+          [
+            "school"
+          ],
+          [
+            "are"
+          ],
+          [
+            "young."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/3.mp3",
+        "timeStart": 6.6,
+        "timeEnd": 9.2,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1267/list"
+      },
+      {
+        "id": 1268,
+        "position": 4,
+        "content": "There is a playground for them to play in.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "playground",
+          "for",
+          "them",
+          "to",
+          "play",
+          "in."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "playground"
+          ],
+          [
+            "for"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "play"
+          ],
+          [
+            "in."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/4.mp3",
+        "timeStart": 9.9,
+        "timeEnd": 12.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1268/list"
+      },
+      {
+        "id": 1269,
+        "position": 5,
+        "content": "The classrooms are bright and airy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "classrooms",
+          "are",
+          "bright",
+          "and",
+          "airy."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "classrooms"
+          ],
+          [
+            "are"
+          ],
+          [
+            "bright"
+          ],
+          [
+            "and"
+          ],
+          [
+            "airy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/5-2023-09-25-10-31-37.mp3",
+        "timeStart": 12.7,
+        "timeEnd": 15.2,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1269/list"
+      },
+      {
+        "id": 1270,
+        "position": 6,
+        "content": "There are blackboards in the classrooms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "blackboards",
+          "in",
+          "the",
+          "classrooms."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "blackboards"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "classrooms."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/6.mp3",
+        "timeStart": 16,
+        "timeEnd": 18.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1270/list"
+      },
+      {
+        "id": 1271,
+        "position": 7,
+        "content": "The children sit in desks to do their work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "children",
+          "sit",
+          "in",
+          "desks",
+          "to",
+          "do",
+          "their",
+          "work."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "children"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "in"
+          ],
+          [
+            "desks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "their"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/7.mp3",
+        "timeStart": 20.1,
+        "timeEnd": 23.1,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1271/list"
+      },
+      {
+        "id": 1272,
+        "position": 8,
+        "content": "There is a parking lot for the teachers to park in.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "parking",
+          "lot",
+          "for",
+          "the",
+          "teachers",
+          "to",
+          "park",
+          "in."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "parking"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "teachers"
+          ],
+          [
+            "to"
+          ],
+          [
+            "park"
+          ],
+          [
+            "in."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/8.mp3",
+        "timeStart": 23.8,
+        "timeEnd": 27.1,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1272/list"
+      },
+      {
+        "id": 1273,
+        "position": 9,
+        "content": "There is a cafeteria for the students to get food.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "cafeteria",
+          "for",
+          "the",
+          "students",
+          "to",
+          "get",
+          "food."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cafeteria"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "food."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/9.mp3",
+        "timeStart": 28.2,
+        "timeEnd": 31.3,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1273/list"
+      },
+      {
+        "id": 1274,
+        "position": 10,
+        "content": "The principal has an office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "principal",
+          "has",
+          "an",
+          "office."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "principal"
+          ],
+          [
+            "has"
+          ],
+          [
+            "an"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/10.mp3",
+        "timeStart": 32.2,
+        "timeEnd": 34.25,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/1274/list"
+      },
+      {
+        "id": 1275,
+        "position": 11,
+        "content": "Nobody wants to go to the principal's office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Nobody",
+          "wants",
+          "to",
+          "go",
+          "to",
+          "the",
+          "principal's",
+          "office."
+        ],
+        "solution": [
+          [
+            "Nobody"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "principal's"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/11.mp3",
+        "timeStart": 34.9,
+        "timeEnd": 37.43,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/1275/list"
+      },
+      {
+        "id": 1276,
+        "position": 12,
+        "content": "It usually means that you are in trouble if you have to go to the principal's office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "usually",
+          "means",
+          "that",
+          [
+            "you are",
+            "you're"
+          ],
+          "in",
+          "trouble",
+          "if",
+          [
+            "you have",
+            "you've"
+          ],
+          "to",
+          "go",
+          "to",
+          "the",
+          "principal's",
+          "office."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "means"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "in"
+          ],
+          [
+            "trouble"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "principal's"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/12.mp3",
+        "timeStart": 38.1,
+        "timeEnd": 43.46,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/1276/list"
+      },
+      {
+        "id": 1277,
+        "position": 13,
+        "content": "When you finish elementary school, you go to high school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "you",
+          "finish",
+          "elementary",
+          "school,",
+          "you",
+          "go",
+          "to",
+          "high",
+          "school."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "elementary"
+          ],
+          [
+            "school,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "high"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/13.mp3",
+        "timeStart": 44.6,
+        "timeEnd": 48.4,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/1277/list"
+      },
+      {
+        "id": 1278,
+        "position": 14,
+        "content": "Most of the students in high school are teenagers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Most",
+          "of",
+          "the",
+          "students",
+          "in",
+          "high",
+          "school",
+          "are",
+          "teenagers."
+        ],
+        "solution": [
+          [
+            "Most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "in"
+          ],
+          [
+            "high"
+          ],
+          [
+            "school"
+          ],
+          [
+            "are"
+          ],
+          [
+            "teenagers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/14.mp3",
+        "timeStart": 49,
+        "timeEnd": 52.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1278/list"
+      },
+      {
+        "id": 1279,
+        "position": 15,
+        "content": "There is a parking lot outside the high school.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "parking",
+          "lot",
+          "outside",
+          "the",
+          "high",
+          "school."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "parking"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "outside"
+          ],
+          [
+            "the"
+          ],
+          [
+            "high"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/15.mp3",
+        "timeStart": 53.4,
+        "timeEnd": 56.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1279/list"
+      },
+      {
+        "id": 1280,
+        "position": 16,
+        "content": "There is also a football field outside.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "There's"
+          ],
+          "also",
+          "a",
+          "football",
+          "field",
+          "outside."
+        ],
+        "solution": [
+          [
+            "There is",
+            "There's"
+          ],
+          [
+            "also"
+          ],
+          [
+            "a"
+          ],
+          [
+            "football"
+          ],
+          [
+            "field"
+          ],
+          [
+            "outside."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/16.mp3",
+        "timeStart": 57.5,
+        "timeEnd": 60.4,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1280/list"
+      },
+      {
+        "id": 1281,
+        "position": 17,
+        "content": "The students go to classes in different classrooms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "students",
+          "go",
+          "to",
+          "classes",
+          "in",
+          "different",
+          "classrooms."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "students"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "classes"
+          ],
+          [
+            "in"
+          ],
+          [
+            "different"
+          ],
+          [
+            "classrooms."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/17.mp3",
+        "timeStart": 61.1,
+        "timeEnd": 64.7,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1281/list"
+      },
+      {
+        "id": 1282,
+        "position": 18,
+        "content": "They move from classroom to classroom for each subject.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "move",
+          "from",
+          "classroom",
+          "to",
+          "classroom",
+          "for",
+          "each",
+          "subject."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "move"
+          ],
+          [
+            "from"
+          ],
+          [
+            "classroom"
+          ],
+          [
+            "to"
+          ],
+          [
+            "classroom"
+          ],
+          [
+            "for"
+          ],
+          [
+            "each"
+          ],
+          [
+            "subject."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/18.mp3",
+        "timeStart": 65.4,
+        "timeEnd": 69.1,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1282/list"
+      },
+      {
+        "id": 1283,
+        "position": 19,
+        "content": "There is a cafeteria where they can get their lunches or eat the lunches that they have brought from home.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "cafeteria",
+          "where",
+          "they",
+          "can",
+          "get",
+          "their",
+          "lunches",
+          "or",
+          "eat",
+          "the",
+          "lunches",
+          "that",
+          [
+            "they have",
+            "they've"
+          ],
+          "brought",
+          "from",
+          "home."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cafeteria"
+          ],
+          [
+            "where"
+          ],
+          [
+            "they"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "their"
+          ],
+          [
+            "lunches"
+          ],
+          [
+            "or"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "the"
+          ],
+          [
+            "lunches"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "brought"
+          ],
+          [
+            "from"
+          ],
+          [
+            "home."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/19.mp3",
+        "timeStart": 70.1,
+        "timeEnd": 76.45,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/1283/list"
+      },
+      {
+        "id": 1284,
+        "position": 20,
+        "content": "There is a gymnasium where students have physical education.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "gymnasium",
+          "where",
+          "students",
+          "have",
+          "physical",
+          "education."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "gymnasium"
+          ],
+          [
+            "where"
+          ],
+          [
+            "students"
+          ],
+          [
+            "have"
+          ],
+          [
+            "physical"
+          ],
+          [
+            "education."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/20.mp3",
+        "timeStart": 77.2,
+        "timeEnd": 81.42,
+        "hints": [],
+        "nbComments": 14,
+        "discussionUrl": "https://dailydictation.com/discussions/1284/list"
+      },
+      {
+        "id": 1285,
+        "position": 21,
+        "content": "Dances are also held in the gymnasium.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Dances",
+          "are",
+          "also",
+          "held",
+          "in",
+          "the",
+          "gymnasium."
+        ],
+        "solution": [
+          [
+            "Dances"
+          ],
+          [
+            "are"
+          ],
+          [
+            "also"
+          ],
+          [
+            "held"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "gymnasium."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/21.mp3",
+        "timeStart": 82.1,
+        "timeEnd": 85.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1285/list"
+      },
+      {
+        "id": 1286,
+        "position": 22,
+        "content": "Some students go on to university from high school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "students",
+          "go",
+          "on",
+          "to",
+          "university",
+          "from",
+          "high",
+          "school."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "students"
+          ],
+          [
+            "go"
+          ],
+          [
+            "on"
+          ],
+          [
+            "to"
+          ],
+          [
+            "university"
+          ],
+          [
+            "from"
+          ],
+          [
+            "high"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/22.mp3",
+        "timeStart": 86.2,
+        "timeEnd": 89.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1286/list"
+      },
+      {
+        "id": 1287,
+        "position": 23,
+        "content": "Students at the university are older.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Students",
+          "at",
+          "the",
+          "university",
+          "are",
+          "older."
+        ],
+        "solution": [
+          [
+            "Students"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "university"
+          ],
+          [
+            "are"
+          ],
+          [
+            "older."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/23.mp3",
+        "timeStart": 90.4,
+        "timeEnd": 93.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1287/list"
+      },
+      {
+        "id": 1288,
+        "position": 24,
+        "content": "Some of the students are even senior citizens.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "of",
+          "the",
+          "students",
+          "are",
+          "even",
+          [
+            "senior",
+            "sr"
+          ],
+          "citizens."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "are"
+          ],
+          [
+            "even"
+          ],
+          [
+            "senior",
+            "sr"
+          ],
+          [
+            "citizens."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/24.mp3",
+        "timeStart": 94.01,
+        "timeEnd": 97.27,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/1288/list"
+      },
+      {
+        "id": 1289,
+        "position": 25,
+        "content": "People come from all over the world to attend the university.",
+        "defaultInput": "",
+        "jsonContent": [
+          "People",
+          "come",
+          "from",
+          "all",
+          "over",
+          "the",
+          "world",
+          "to",
+          "attend",
+          "the",
+          "university."
+        ],
+        "solution": [
+          [
+            "People"
+          ],
+          [
+            "come"
+          ],
+          [
+            "from"
+          ],
+          [
+            "all"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "to"
+          ],
+          [
+            "attend"
+          ],
+          [
+            "the"
+          ],
+          [
+            "university."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/25.mp3",
+        "timeStart": 98.3,
+        "timeEnd": 102.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1289/list"
+      },
+      {
+        "id": 1290,
+        "position": 26,
+        "content": "There are lots of different things at the university.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "lots",
+          "of",
+          "different",
+          "things",
+          "at",
+          "the",
+          "university."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "different"
+          ],
+          [
+            "things"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "university."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/26.mp3",
+        "timeStart": 104.4,
+        "timeEnd": 107.2,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1290/list"
+      },
+      {
+        "id": 1291,
+        "position": 27,
+        "content": "There is a theater where plays and concerts are held.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "There's"
+          ],
+          "a",
+          [
+            "theater",
+            "theatre"
+          ],
+          "where",
+          "plays",
+          "and",
+          "concerts",
+          "are",
+          "held."
+        ],
+        "solution": [
+          [
+            "There is",
+            "There's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "theater",
+            "theatre"
+          ],
+          [
+            "where"
+          ],
+          [
+            "plays"
+          ],
+          [
+            "and"
+          ],
+          [
+            "concerts"
+          ],
+          [
+            "are"
+          ],
+          [
+            "held."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/27.mp3",
+        "timeStart": 108.1,
+        "timeEnd": 111.09,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1291/list"
+      },
+      {
+        "id": 1292,
+        "position": 28,
+        "content": "There is a bookstore where students can buy their textbooks.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "bookstore",
+          "where",
+          "students",
+          "can",
+          "buy",
+          "their",
+          "textbooks."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bookstore"
+          ],
+          [
+            "where"
+          ],
+          [
+            "students"
+          ],
+          [
+            "can"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "their"
+          ],
+          [
+            "textbooks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/28.mp3",
+        "timeStart": 111.6,
+        "timeEnd": 115.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1292/list"
+      },
+      {
+        "id": 1293,
+        "position": 29,
+        "content": "There is a physical education building that has a swimming pool in it.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "physical",
+          "education",
+          "building",
+          "that",
+          "has",
+          "a",
+          "swimming",
+          "pool",
+          "in",
+          "it."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "physical"
+          ],
+          [
+            "education"
+          ],
+          [
+            "building"
+          ],
+          [
+            "that"
+          ],
+          [
+            "has"
+          ],
+          [
+            "a"
+          ],
+          [
+            "swimming"
+          ],
+          [
+            "pool"
+          ],
+          [
+            "in"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/29.mp3",
+        "timeStart": 116,
+        "timeEnd": 119.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1293/list"
+      },
+      {
+        "id": 1294,
+        "position": 30,
+        "content": "The parking lot at the university is very big.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "parking",
+          "lot",
+          "at",
+          "the",
+          "university",
+          "is",
+          "very",
+          "big."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "parking"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "university"
+          ],
+          [
+            "is"
+          ],
+          [
+            "very"
+          ],
+          [
+            "big."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/30.mp3",
+        "timeStart": 120.4,
+        "timeEnd": 123.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1294/list"
+      },
+      {
+        "id": 1295,
+        "position": 31,
+        "content": "They call the land that the university is on a campus.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "call",
+          "the",
+          "land",
+          "that",
+          "the",
+          "university",
+          "is",
+          "on",
+          "a",
+          "campus."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "call"
+          ],
+          [
+            "the"
+          ],
+          [
+            "land"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "university"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "campus."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/31.mp3",
+        "timeStart": 123.9,
+        "timeEnd": 128.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1295/list"
+      },
+      {
+        "id": 1296,
+        "position": 32,
+        "content": "Some of the students live on campus in residence.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "of",
+          "the",
+          "students",
+          "live",
+          "on",
+          "campus",
+          "in",
+          "residence."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "live"
+          ],
+          [
+            "on"
+          ],
+          [
+            "campus"
+          ],
+          [
+            "in"
+          ],
+          [
+            "residence."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/26-school-2019-03-20-08-59-42/32.mp3",
+        "timeStart": 129,
+        "timeEnd": 132.3,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1296/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "1268": {
+      "id": 4903,
+      "text": "Có một sân chơi cho chúng.",
+      "author": "a user"
+    },
+    "1271": {
+      "id": 4912,
+      "text": "Các học sinh ngồi vào bàn học của mình để làm việc của họ.",
+      "author": "a user"
+    },
+    "1272": {
+      "id": 4914,
+      "text": "Có bãi đậu xe dành cho giáo viên.",
+      "author": "a user"
+    },
+    "1280": {
+      "id": 4945,
+      "text": "Còn có một sân bóng đá bên ngoài.",
+      "author": "a user"
+    },
+    "1281": {
+      "id": 4947,
+      "text": "Các học sinh đến các lớp học trong các phòng học khác nhau.",
+      "author": "a user"
+    },
+    "1285": {
+      "id": 4964,
+      "text": "các buổi khiêu vũ cũng được tổ chức ở trong phòng thể dục.",
+      "author": "a user"
+    },
+    "1287": {
+      "id": 4976,
+      "text": "Sinh viên tại trường đại học lớn tuổi hơn.",
+      "author": "a user"
+    },
+    "1295": {
+      "id": 5006,
+      "text": "Họ gọi khu đất mà trường đại học tọa lạc là khuôn viên trường",
+      "author": "a user"
+    },
+    "1296": {
+      "id": 5010,
+      "text": "Một vài sinh viên sống ở trong ký túc xá trong khuôn viên trường.",
+      "author": "a user"
+    },
+    "1265": {
+      "id": 2582556,
+      "text": "Có nhiều loại trường học khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "1266": {
+      "id": 2582557,
+      "text": "Có một trường tiểu học.",
+      "author": "ChatGPT4.1"
+    },
+    "1267": {
+      "id": 2582558,
+      "text": "Những đứa trẻ ở trường tiểu học còn nhỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "1269": {
+      "id": 2582559,
+      "text": "Các lớp học sáng sủa và thoáng đãng.",
+      "author": "ChatGPT4.1"
+    },
+    "1270": {
+      "id": 2582560,
+      "text": "Có các bảng đen trong lớp học.",
+      "author": "ChatGPT4.1"
+    },
+    "1273": {
+      "id": 2582561,
+      "text": "Có căng tin để học sinh lấy đồ ăn.",
+      "author": "a user"
+    },
+    "1274": {
+      "id": 2582562,
+      "text": "Hiệu trưởng có một văn phòng.",
+      "author": "ChatGPT4.1"
+    },
+    "1275": {
+      "id": 2582563,
+      "text": "Không một ai muốn vào văn phòng hiệu trưởng.",
+      "author": "a user"
+    },
+    "1276": {
+      "id": 2582564,
+      "text": "Thường thì điều đó có nghĩa là bạn đang gặp rắc rối nếu bạn phải vào văn phòng hiệu trưởng.",
+      "author": "ChatGPT4.1"
+    },
+    "1277": {
+      "id": 2582565,
+      "text": "Khi bạn hoàn thành trường tiểu học, bạn sẽ vào trường trung học.",
+      "author": "ChatGPT4.1"
+    },
+    "1278": {
+      "id": 2582566,
+      "text": "Hầu hết học sinh ở trường trung học là thanh thiếu niên.",
+      "author": "ChatGPT4.1"
+    },
+    "1279": {
+      "id": 2582567,
+      "text": "Có một bãi đậu xe bên ngoài trường trung học.",
+      "author": "ChatGPT4.1"
+    },
+    "1282": {
+      "id": 2582568,
+      "text": "Các em chuyển từ lớp này sang lớp khác cho từng môn học.",
+      "author": "ChatGPT4.1"
+    },
+    "1283": {
+      "id": 2582569,
+      "text": "Có một nhà ăn nơi các em có thể lấy bữa trưa hoặc ăn bữa trưa mang từ nhà đến.",
+      "author": "ChatGPT4.1"
+    },
+    "1284": {
+      "id": 2582570,
+      "text": "Có một phòng thể dục nơi học sinh học giáo dục thể chất.",
+      "author": "ChatGPT4.1"
+    },
+    "1286": {
+      "id": 2582571,
+      "text": "Một số học sinh từ trường trung học lên đại học.",
+      "author": "ChatGPT4.1"
+    },
+    "1288": {
+      "id": 2582572,
+      "text": "Một số sinh viên thậm chí là người cao tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "1289": {
+      "id": 2582573,
+      "text": "Mọi người đến từ khắp nơi trên thế giới để theo học đại học.",
+      "author": "ChatGPT4.1"
+    },
+    "1290": {
+      "id": 2582574,
+      "text": "Có rất nhiều điều khác nhau ở trường đại học.",
+      "author": "ChatGPT4.1"
+    },
+    "1291": {
+      "id": 2582575,
+      "text": "Có một nhà hát nơi các vở kịch và buổi hòa nhạc được tổ chức.",
+      "author": "ChatGPT4.1"
+    },
+    "1292": {
+      "id": 2582576,
+      "text": "Có một hiệu sách nơi sinh viên có thể mua sách giáo khoa.",
+      "author": "ChatGPT4.1"
+    },
+    "1293": {
+      "id": 2582577,
+      "text": "Có một tòa nhà giáo dục thể chất có hồ bơi bên trong.",
+      "author": "ChatGPT4.1"
+    },
+    "1294": {
+      "id": 2582578,
+      "text": "Bãi đậu xe ở trường đại học rất lớn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,725 @@
+{
+  "summary": {
+    "id": 2293,
+    "name": "Test 03 - Part B - Extract 4",
+    "subTitle": "Patient Not Wearing Compression Socks",
+    "levelName": "C1",
+    "position": 26,
+    "totalChallenges": 10,
+    "groupId": 133,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2293",
+  "detail": {
+    "id": 2293,
+    "lessonName": "Test 03 - Part B - Extract 4",
+    "name": "Test 03 - Part B - Extract 4",
+    "position": 26,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/0-test-03-part-b-extract-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90455,
+        "position": 1,
+        "content": "I noticed that Mrs Jones isn't wearing the usual anti-embolism socks, but I didn't want to ask her why not because she was asleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "noticed",
+          "that",
+          "Mrs",
+          "Jones",
+          [
+            "isn't",
+            "is not"
+          ],
+          "wearing",
+          "the",
+          "usual",
+          [
+            "anti-embolism",
+            "anti embolism"
+          ],
+          "socks,",
+          "but",
+          "I",
+          "didn't",
+          [
+            "want to",
+            "wanna"
+          ],
+          "ask",
+          "her",
+          "why",
+          "not",
+          "because",
+          "she",
+          "was",
+          "asleep."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "noticed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Jones"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "wearing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "usual"
+          ],
+          [
+            "anti-embolism",
+            "anti embolism"
+          ],
+          [
+            "socks,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "didn't"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "her"
+          ],
+          [
+            "why"
+          ],
+          [
+            "not"
+          ],
+          [
+            "because"
+          ],
+          [
+            "she"
+          ],
+          [
+            "was"
+          ],
+          [
+            "asleep."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/1.mp3",
+        "timeStart": 0.43,
+        "timeEnd": 7.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90455/list"
+      },
+      {
+        "id": 90456,
+        "position": 2,
+        "content": "Is it because her legs are swollen?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "it",
+          "because",
+          "her",
+          "legs",
+          "are",
+          "swollen?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "because"
+          ],
+          [
+            "her"
+          ],
+          [
+            "legs"
+          ],
+          [
+            "are"
+          ],
+          [
+            "swollen?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/2.mp3",
+        "timeStart": 7.18,
+        "timeEnd": 9.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90456/list"
+      },
+      {
+        "id": 90457,
+        "position": 3,
+        "content": "Well, sometimes we don't recommend the socks if there's severe swelling with oedema, but that's not the case here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "sometimes",
+          "we",
+          [
+            "don't",
+            "do not"
+          ],
+          "recommend",
+          "the",
+          "socks",
+          "if",
+          [
+            "there's",
+            "there is"
+          ],
+          "severe",
+          "swelling",
+          "with",
+          "oedema,",
+          "but",
+          "that's",
+          "not",
+          "the",
+          "case",
+          "here."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "we"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "the"
+          ],
+          [
+            "socks"
+          ],
+          [
+            "if"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "severe"
+          ],
+          [
+            "swelling"
+          ],
+          [
+            "with"
+          ],
+          [
+            "oedema,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "case"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/3.mp3",
+        "timeStart": 9.15,
+        "timeEnd": 15.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90457/list"
+      },
+      {
+        "id": 90458,
+        "position": 4,
+        "content": "Mrs Jones was actually given them initially on admission last night,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mrs",
+          "Jones",
+          "was",
+          "actually",
+          "given",
+          "them",
+          "initially",
+          "on",
+          "admission",
+          "last",
+          "night,"
+        ],
+        "solution": [
+          [
+            "Mrs"
+          ],
+          [
+            "Jones"
+          ],
+          [
+            "was"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "given"
+          ],
+          [
+            "them"
+          ],
+          [
+            "initially"
+          ],
+          [
+            "on"
+          ],
+          [
+            "admission"
+          ],
+          [
+            "last"
+          ],
+          [
+            "night,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/4.mp3",
+        "timeStart": 15.3,
+        "timeEnd": 20.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90458/list"
+      },
+      {
+        "id": 90459,
+        "position": 5,
+        "content": "but she told us this morning that her lower legs were feeling numb.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "she",
+          "told",
+          "us",
+          "this",
+          "morning",
+          "that",
+          "her",
+          "lower",
+          "legs",
+          "were",
+          "feeling",
+          "numb."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "she"
+          ],
+          [
+            "told"
+          ],
+          [
+            "us"
+          ],
+          [
+            "this"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "that"
+          ],
+          [
+            "her"
+          ],
+          [
+            "lower"
+          ],
+          [
+            "legs"
+          ],
+          [
+            "were"
+          ],
+          [
+            "feeling"
+          ],
+          [
+            "numb."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/5.mp3",
+        "timeStart": 20.03,
+        "timeEnd": 23.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90459/list"
+      },
+      {
+        "id": 90460,
+        "position": 6,
+        "content": "She described it as having no feeling.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "described",
+          "it",
+          "as",
+          "having",
+          "no",
+          "feeling."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "described"
+          ],
+          [
+            "it"
+          ],
+          [
+            "as"
+          ],
+          [
+            "having"
+          ],
+          [
+            "no"
+          ],
+          [
+            "feeling."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/6.mp3",
+        "timeStart": 23.71,
+        "timeEnd": 26.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90460/list"
+      },
+      {
+        "id": 90461,
+        "position": 7,
+        "content": "Until we've checked out the reason for that,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Until",
+          [
+            "we've",
+            "we have"
+          ],
+          "checked",
+          "out",
+          "the",
+          "reason",
+          "for",
+          "that,"
+        ],
+        "solution": [
+          [
+            "Until"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "checked"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/7.mp3",
+        "timeStart": 26.32,
+        "timeEnd": 28.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90461/list"
+      },
+      {
+        "id": 90462,
+        "position": 8,
+        "content": "for example, it could be an underlying condition which could damage her arterial circulation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "for",
+          "example,",
+          "it",
+          "could",
+          "be",
+          "an",
+          "underlying",
+          "condition",
+          "which",
+          "could",
+          "damage",
+          "her",
+          "arterial",
+          "circulation."
+        ],
+        "solution": [
+          [
+            "for"
+          ],
+          [
+            "example,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "an"
+          ],
+          [
+            "underlying"
+          ],
+          [
+            "condition"
+          ],
+          [
+            "which"
+          ],
+          [
+            "could"
+          ],
+          [
+            "damage"
+          ],
+          [
+            "her"
+          ],
+          [
+            "arterial"
+          ],
+          [
+            "circulation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/8.mp3",
+        "timeStart": 28.73,
+        "timeEnd": 34.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90462/list"
+      },
+      {
+        "id": 90463,
+        "position": 9,
+        "content": "We're reducing the risk of thrombosis by pharmacological means.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "We are"
+          ],
+          "reducing",
+          "the",
+          "risk",
+          "of",
+          "thrombosis",
+          "by",
+          "pharmacological",
+          "means."
+        ],
+        "solution": [
+          [
+            "We're",
+            "We are"
+          ],
+          [
+            "reducing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "of"
+          ],
+          [
+            "thrombosis"
+          ],
+          [
+            "by"
+          ],
+          [
+            "pharmacological"
+          ],
+          [
+            "means."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/9.mp3",
+        "timeStart": 34.63,
+        "timeEnd": 38.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90463/list"
+      },
+      {
+        "id": 90464,
+        "position": 10,
+        "content": "Oh, I see.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-b-extract-4-2025-08-29-21-59-04/10.mp3",
+        "timeStart": 38.48,
+        "timeEnd": 39.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90464/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90455": {
+      "id": 3682853,
+      "text": "Tôi nhận thấy bà Jones không đi tất chống huyết khối như thường lệ, nhưng tôi không muốn hỏi bà ấy tại sao vì bà ấy đang ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "90456": {
+      "id": 3682854,
+      "text": "Có phải vì chân bà ấy bị sưng không?",
+      "author": "ChatGPT4.1"
+    },
+    "90457": {
+      "id": 3682855,
+      "text": "À, đôi khi chúng tôi không khuyến nghị đi tất nếu bị sưng nặng kèm theo phù nề, nhưng trường hợp này thì không.",
+      "author": "a user"
+    },
+    "90458": {
+      "id": 3682856,
+      "text": "Thực ra bà Jones đã được phát tất ngay khi nhập viện tối qua,",
+      "author": "ChatGPT4.1"
+    },
+    "90459": {
+      "id": 3682857,
+      "text": "nhưng sáng nay bà ấy nói với chúng tôi rằng phần dưới chân bị tê.",
+      "author": "ChatGPT4.1"
+    },
+    "90460": {
+      "id": 3682858,
+      "text": "Bà ấy mô tả rằng không có cảm giác gì cả.",
+      "author": "ChatGPT4.1"
+    },
+    "90461": {
+      "id": 3682859,
+      "text": "Cho đến khi chúng tôi kiểm tra được nguyên nhân,",
+      "author": "ChatGPT4.1"
+    },
+    "90462": {
+      "id": 3682860,
+      "text": "ví dụ, có thể đó là một tình trạng tiềm ẩn có thể gây tổn thương tuần hoàn động mạch của bà ấy.",
+      "author": "a user"
+    },
+    "90463": {
+      "id": 3682861,
+      "text": "Chúng tôi đang giảm nguy cơ huyết khối bằng các biện pháp dược lý.",
+      "author": "ChatGPT4.1"
+    },
+    "90464": {
+      "id": 3682862,
+      "text": "Ồ, tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

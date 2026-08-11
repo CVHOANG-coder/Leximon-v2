@@ -1,0 +1,471 @@
+{
+  "summary": {
+    "id": 431,
+    "name": "33. Gardening",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 33,
+    "totalChallenges": 8,
+    "groupId": 103,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/431",
+  "detail": {
+    "id": 431,
+    "lessonName": "33. Gardening",
+    "name": "33. Gardening",
+    "position": 33,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/0-33-gardening.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18107,
+        "position": 1,
+        "content": "Your garden is really lovely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Your",
+          "garden",
+          "is",
+          "really",
+          "lovely."
+        ],
+        "solution": [
+          [
+            "Your"
+          ],
+          [
+            "garden"
+          ],
+          [
+            "is"
+          ],
+          [
+            "really"
+          ],
+          [
+            "lovely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/1.mp3",
+        "timeStart": 2.2,
+        "timeEnd": 4.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18107/list"
+      },
+      {
+        "id": 18108,
+        "position": 2,
+        "content": "Thank you. I enjoy working in the garden.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you.",
+          "I",
+          "enjoy",
+          "working",
+          "in",
+          "the",
+          "garden."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ],
+          [
+            "I"
+          ],
+          [
+            "enjoy"
+          ],
+          [
+            "working"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/2.mp3",
+        "timeStart": 4.31,
+        "timeEnd": 6.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18108/list"
+      },
+      {
+        "id": 18109,
+        "position": 3,
+        "content": "Do you do everything yourself?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "do",
+          "everything",
+          "yourself?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "everything"
+          ],
+          [
+            "yourself?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/3.mp3",
+        "timeStart": 6.45,
+        "timeEnd": 8.09,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18109/list"
+      },
+      {
+        "id": 18110,
+        "position": 4,
+        "content": "I trim the bushes and weed the flowerbeds myself.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "trim",
+          "the",
+          "bushes",
+          "and",
+          "weed",
+          "the",
+          "flowerbeds",
+          "myself."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "trim"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bushes"
+          ],
+          [
+            "and"
+          ],
+          [
+            "weed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flowerbeds"
+          ],
+          [
+            "myself."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/4.mp3",
+        "timeStart": 8.09,
+        "timeEnd": 10.73,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18110/list"
+      },
+      {
+        "id": 18111,
+        "position": 5,
+        "content": "Who cuts the grass?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Who",
+          "cuts",
+          "the",
+          "grass?"
+        ],
+        "solution": [
+          [
+            "Who"
+          ],
+          [
+            "cuts"
+          ],
+          [
+            "the"
+          ],
+          [
+            "grass?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/5.mp3",
+        "timeStart": 10.81,
+        "timeEnd": 12.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18111/list"
+      },
+      {
+        "id": 18112,
+        "position": 6,
+        "content": "Oh, it's so big that I hire one of the boys in the neighbourhood to do it for me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "it's",
+          "so",
+          "big",
+          "that",
+          "I",
+          "hire",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "boys",
+          "in",
+          "the",
+          [
+            "neighbourhood",
+            "neighborhood"
+          ],
+          "to",
+          "do",
+          "it",
+          "for",
+          "me."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "so"
+          ],
+          [
+            "big"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "hire"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "boys"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "neighbourhood",
+            "neighborhood"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/6.mp3",
+        "timeStart": 12.14,
+        "timeEnd": 15.7,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/18112/list"
+      },
+      {
+        "id": 18113,
+        "position": 7,
+        "content": "Well, I must say he does a good job.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "must",
+          "say",
+          "he",
+          "does",
+          "a",
+          "good",
+          "job."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "must"
+          ],
+          [
+            "say"
+          ],
+          [
+            "he"
+          ],
+          [
+            "does"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "job."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/7.mp3",
+        "timeStart": 15.79,
+        "timeEnd": 18.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18113/list"
+      },
+      {
+        "id": 18114,
+        "position": 8,
+        "content": "Yes. His work is more than satisfactory.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          "His",
+          "work",
+          "is",
+          "more",
+          "than",
+          "satisfactory."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "His"
+          ],
+          [
+            "work"
+          ],
+          [
+            "is"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "satisfactory."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/33-gardening-2022-03-07-21-14-59/8.mp3",
+        "timeStart": 18.11,
+        "timeEnd": 20.6,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18114/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18109": {
+      "id": 12663,
+      "text": "Bạn tự mình làm mọi thứ sao?",
+      "author": "a user"
+    },
+    "18110": {
+      "id": 12664,
+      "text": "Tôi tự tỉa cây và nhổ cỏ ở các luống hoa.",
+      "author": "a user"
+    },
+    "18111": {
+      "id": 12668,
+      "text": "Thế ai cắt cỏ?",
+      "author": "a user"
+    },
+    "18112": {
+      "id": 12694,
+      "text": "À, nó rộng quá nên tôi thuê một trong các cậu bé trong khu phố làm nó cho tôi.",
+      "author": "a user"
+    },
+    "18113": {
+      "id": 12773,
+      "text": "Ồ, tôi phải nói rằng cậu ấy làm rất tốt.",
+      "author": "a user"
+    },
+    "18114": {
+      "id": 12792,
+      "text": "Vâng. Những thứ cậu ấy làm còn hơn cả sự mong đợi của tôi.",
+      "author": "a user"
+    },
+    "18107": {
+      "id": 2592801,
+      "text": "Khu vườn của bạn thật sự rất đẹp.",
+      "author": "ChatGPT4.1"
+    },
+    "18108": {
+      "id": 2592802,
+      "text": "Cảm ơn bạn. Tôi rất thích làm vườn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

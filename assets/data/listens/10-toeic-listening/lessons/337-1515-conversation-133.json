@@ -1,0 +1,922 @@
+{
+  "summary": {
+    "id": 1515,
+    "name": "Conversation 133",
+    "subTitle": "Projector Troubles in Conference Room",
+    "levelName": "B1",
+    "position": 337,
+    "totalChallenges": 15,
+    "groupId": 44,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1515",
+  "detail": {
+    "id": 1515,
+    "lessonName": "Conversation 133",
+    "name": "Conversation 133",
+    "position": 337,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/0-conversation-133.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65747,
+        "position": 1,
+        "content": "Hello, George! This is Sarah, from marketing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "George!",
+          "This",
+          "is",
+          "Sarah,",
+          "from",
+          "marketing."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "George!"
+          ],
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Sarah,"
+          ],
+          [
+            "from"
+          ],
+          [
+            "marketing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/1.mp3",
+        "timeStart": 0.59,
+        "timeEnd": 3.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65747/list"
+      },
+      {
+        "id": 65748,
+        "position": 2,
+        "content": "I am in conference room B, but I can't get the projector working.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "in",
+          "conference",
+          "room",
+          "B,",
+          "but",
+          "I",
+          "can't",
+          "get",
+          "the",
+          "projector",
+          "working."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "in"
+          ],
+          [
+            "conference"
+          ],
+          [
+            "room"
+          ],
+          [
+            "B,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "projector"
+          ],
+          [
+            "working."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/2.mp3",
+        "timeStart": 3.88,
+        "timeEnd": 8.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65748/list"
+      },
+      {
+        "id": 65749,
+        "position": 3,
+        "content": "Okay, that projector has been acting up for a month.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "that",
+          "projector",
+          "has",
+          "been",
+          "acting",
+          "up",
+          "for",
+          "a",
+          "month."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "that"
+          ],
+          [
+            "projector"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "acting"
+          ],
+          [
+            "up"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/3.mp3",
+        "timeStart": 9.28,
+        "timeEnd": 13.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65749/list"
+      },
+      {
+        "id": 65750,
+        "position": 4,
+        "content": "It was out of order two days ago, but we thought we solved the problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "out",
+          "of",
+          "order",
+          [
+            "two",
+            "2"
+          ],
+          "days",
+          "ago,",
+          "but",
+          "we",
+          "thought",
+          "we",
+          "solved",
+          "the",
+          "problem."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "order"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "days"
+          ],
+          [
+            "ago,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "we"
+          ],
+          [
+            "solved"
+          ],
+          [
+            "the"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/4.mp3",
+        "timeStart": 13.24,
+        "timeEnd": 17.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65750/list"
+      },
+      {
+        "id": 65751,
+        "position": 5,
+        "content": "I am on my way to come to look at it.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "on",
+          "my",
+          "way",
+          "to",
+          "come",
+          "to",
+          "look",
+          "at",
+          "it."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/5.mp3",
+        "timeStart": 17.67,
+        "timeEnd": 20.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65751/list"
+      },
+      {
+        "id": 65752,
+        "position": 6,
+        "content": "Right now?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right",
+          "now?"
+        ],
+        "solution": [
+          [
+            "Right"
+          ],
+          [
+            "now?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/6.mp3",
+        "timeStart": 21.49,
+        "timeEnd": 22.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65752/list"
+      },
+      {
+        "id": 65753,
+        "position": 7,
+        "content": "Umm, the workshop will start in 5 minutes,",
+        "defaultInput": "Umm, ",
+        "jsonContent": [
+          "Umm,",
+          "the",
+          "workshop",
+          "will",
+          "start",
+          "in",
+          [
+            "5",
+            "five"
+          ],
+          "minutes,"
+        ],
+        "solution": [
+          [
+            "Umm,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "workshop"
+          ],
+          [
+            "will"
+          ],
+          [
+            "start"
+          ],
+          [
+            "in"
+          ],
+          [
+            "5",
+            "five"
+          ],
+          [
+            "minutes,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/7.mp3",
+        "timeStart": 22.91,
+        "timeEnd": 26.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65753/list"
+      },
+      {
+        "id": 65754,
+        "position": 8,
+        "content": "but it is only a small group,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "it is",
+            "it's"
+          ],
+          "only",
+          "a",
+          "small",
+          "group,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "only"
+          ],
+          [
+            "a"
+          ],
+          [
+            "small"
+          ],
+          [
+            "group,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/8.mp3",
+        "timeStart": 26.68,
+        "timeEnd": 28.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65754/list"
+      },
+      {
+        "id": 65755,
+        "position": 9,
+        "content": "so I can present using my laptop screen.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "can",
+          "present",
+          "using",
+          "my",
+          "laptop",
+          "screen."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "present"
+          ],
+          [
+            "using"
+          ],
+          [
+            "my"
+          ],
+          [
+            "laptop"
+          ],
+          [
+            "screen."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/9.mp3",
+        "timeStart": 28.83,
+        "timeEnd": 32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65755/list"
+      },
+      {
+        "id": 65756,
+        "position": 10,
+        "content": "Can you wait until I finish?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "wait",
+          "until",
+          "I",
+          "finish?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "until"
+          ],
+          [
+            "I"
+          ],
+          [
+            "finish?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/10.mp3",
+        "timeStart": 32,
+        "timeEnd": 34.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65756/list"
+      },
+      {
+        "id": 65757,
+        "position": 11,
+        "content": "Sure, just give me a callback when you are finished and I will come up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          "just",
+          "give",
+          "me",
+          "a",
+          "callback",
+          "when",
+          [
+            "you are",
+            "you're"
+          ],
+          "finished",
+          "and",
+          [
+            "I will",
+            "I'll"
+          ],
+          "come",
+          "up."
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "just"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "callback"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "finished"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "come"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/11.mp3",
+        "timeStart": 35.24,
+        "timeEnd": 39.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65757/list"
+      },
+      {
+        "id": 65758,
+        "position": 12,
+        "content": "Is there anything else you need to set up in the room?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "there",
+          "anything",
+          "else",
+          "you",
+          "need",
+          "to",
+          "set",
+          "up",
+          "in",
+          "the",
+          "room?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "else"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "set"
+          ],
+          [
+            "up"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "room?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/12.mp3",
+        "timeStart": 39.91,
+        "timeEnd": 43.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65758/list"
+      },
+      {
+        "id": 65759,
+        "position": 13,
+        "content": "Hmm.. No that is all,",
+        "defaultInput": "Hmm.. ",
+        "jsonContent": [
+          "Hmm..",
+          "No",
+          [
+            "that is",
+            "that's"
+          ],
+          "all,"
+        ],
+        "solution": [
+          [
+            "Hmm.."
+          ],
+          [
+            "No"
+          ],
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "all,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/13.mp3",
+        "timeStart": 44.26,
+        "timeEnd": 47.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65759/list"
+      },
+      {
+        "id": 65760,
+        "position": 14,
+        "content": "I just wanted to let you know in case there are bigger presentations scheduled in here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "wanted",
+          "to",
+          "let",
+          "you",
+          "know",
+          "in",
+          "case",
+          "there",
+          "are",
+          "bigger",
+          "presentations",
+          "scheduled",
+          "in",
+          "here."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "in"
+          ],
+          [
+            "case"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "bigger"
+          ],
+          [
+            "presentations"
+          ],
+          [
+            "scheduled"
+          ],
+          [
+            "in"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/14.mp3",
+        "timeStart": 47.02,
+        "timeEnd": 52.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65760/list"
+      },
+      {
+        "id": 65761,
+        "position": 15,
+        "content": "It isn't urgent for me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "isn't",
+            "is not"
+          ],
+          "urgent",
+          "for",
+          "me."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "urgent"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-133-2024-09-14-18-08-49/15.mp3",
+        "timeStart": 52.25,
+        "timeEnd": 54.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65761/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "65747": {
+      "id": 2589355,
+      "text": "Chào George! Đây là Sarah, từ bộ phận tiếp thị.",
+      "author": "ChatGPT4.1"
+    },
+    "65748": {
+      "id": 2589356,
+      "text": "Tôi đang ở phòng họp B, nhưng tôi không làm cho máy chiếu hoạt động được.",
+      "author": "ChatGPT4.1"
+    },
+    "65749": {
+      "id": 2589357,
+      "text": "Được rồi, máy chiếu đó đã gặp trục trặc hơn một tháng nay.",
+      "author": "ChatGPT4.1"
+    },
+    "65750": {
+      "id": 2589358,
+      "text": "Nó đã hỏng hai ngày trước, nhưng chúng tôi nghĩ đã giải quyết được vấn đề.",
+      "author": "ChatGPT4.1"
+    },
+    "65751": {
+      "id": 2589359,
+      "text": "Tôi đang trên đường đến để xem nó.",
+      "author": "ChatGPT4.1"
+    },
+    "65752": {
+      "id": 2589360,
+      "text": "Ngay bây giờ à?",
+      "author": "ChatGPT4.1"
+    },
+    "65753": {
+      "id": 2589361,
+      "text": "Ờm, buổi hội thảo sẽ bắt đầu trong 5 phút nữa,",
+      "author": "ChatGPT4.1"
+    },
+    "65754": {
+      "id": 2589362,
+      "text": "nhưng chỉ là một nhóm nhỏ thôi,",
+      "author": "ChatGPT4.1"
+    },
+    "65755": {
+      "id": 2589363,
+      "text": "vậy nên tôi có thể thuyết trình bằng màn hình laptop của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "65756": {
+      "id": 2589364,
+      "text": "Bạn có thể đợi tới khi tôi xong không?",
+      "author": "ChatGPT4.1"
+    },
+    "65757": {
+      "id": 2589365,
+      "text": "Được thôi, chỉ cần gọi lại cho tôi khi bạn xong và tôi sẽ lên.",
+      "author": "ChatGPT4.1"
+    },
+    "65758": {
+      "id": 2589366,
+      "text": "Có còn gì khác bạn cần chuẩn bị trong phòng không?",
+      "author": "ChatGPT4.1"
+    },
+    "65759": {
+      "id": 2589367,
+      "text": "Hmm.. Không, chỉ vậy thôi,",
+      "author": "ChatGPT4.1"
+    },
+    "65760": {
+      "id": 2589368,
+      "text": "Tôi chỉ muốn báo cho bạn biết phòng khi có những buổi thuyết trình lớn hơn được lên lịch ở đây.",
+      "author": "ChatGPT4.1"
+    },
+    "65761": {
+      "id": 2589369,
+      "text": "Nó không gấp đối với tôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

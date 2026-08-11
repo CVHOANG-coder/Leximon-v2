@@ -1,0 +1,494 @@
+{
+  "summary": {
+    "id": 429,
+    "name": "31. When's the Baby Due?",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 31,
+    "totalChallenges": 11,
+    "groupId": 103,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/429",
+  "detail": {
+    "id": 429,
+    "lessonName": "31. When's the Baby Due?",
+    "name": "31. When's the Baby Due?",
+    "position": 31,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/0-31-whens-the-baby-due.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18076,
+        "position": 1,
+        "content": "I have some good news.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "some",
+          "good",
+          "news."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "some"
+          ],
+          [
+            "good"
+          ],
+          [
+            "news."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/1.mp3",
+        "timeStart": 3.03,
+        "timeEnd": 4.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18076/list"
+      },
+      {
+        "id": 18077,
+        "position": 2,
+        "content": "What is it?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What is",
+            "what's"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "What is",
+            "what's"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/2.mp3",
+        "timeStart": 4.4,
+        "timeEnd": 5.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18077/list"
+      },
+      {
+        "id": 18078,
+        "position": 3,
+        "content": "Lisa is going to have a baby.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Lisa",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "have",
+          "a",
+          "baby."
+        ],
+        "solution": [
+          [
+            "Lisa"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "baby."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/3.mp3",
+        "timeStart": 5.17,
+        "timeEnd": 7.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18078/list"
+      },
+      {
+        "id": 18079,
+        "position": 4,
+        "content": "That's great! I'm so happy for her.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "great!",
+          [
+            "I'm",
+            "I am"
+          ],
+          "so",
+          "happy",
+          "for",
+          "her."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "great!"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "so"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/4.mp3",
+        "timeStart": 7.33,
+        "timeEnd": 9.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18079/list"
+      },
+      {
+        "id": 18080,
+        "position": 5,
+        "content": "Me too!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Me",
+          "too!"
+        ],
+        "solution": [
+          [
+            "Me"
+          ],
+          [
+            "too!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/5.mp3",
+        "timeStart": 9.55,
+        "timeEnd": 10.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18080/list"
+      },
+      {
+        "id": 18081,
+        "position": 6,
+        "content": "Do they want a boy or a girl?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "they",
+          "want",
+          "a",
+          "boy",
+          "or",
+          "a",
+          "girl?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "a"
+          ],
+          [
+            "boy"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "girl?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/6.mp3",
+        "timeStart": 10.27,
+        "timeEnd": 11.74,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/18081/list"
+      },
+      {
+        "id": 18082,
+        "position": 7,
+        "content": "A girl.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "girl."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "girl."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/7.mp3",
+        "timeStart": 11.74,
+        "timeEnd": 12.44,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18082/list"
+      },
+      {
+        "id": 18083,
+        "position": 8,
+        "content": "When's the baby due?",
+        "defaultInput": "",
+        "jsonContent": [
+          "When's",
+          "the",
+          "baby",
+          "due?"
+        ],
+        "solution": [
+          [
+            "When's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "baby"
+          ],
+          [
+            "due?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/8.mp3",
+        "timeStart": 12.44,
+        "timeEnd": 13.73,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18083/list"
+      },
+      {
+        "id": 18084,
+        "position": 9,
+        "content": "In the beginning of September.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "the",
+          "beginning",
+          "of",
+          "September."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "the"
+          ],
+          [
+            "beginning"
+          ],
+          [
+            "of"
+          ],
+          [
+            "September."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/9.mp3",
+        "timeStart": 13.73,
+        "timeEnd": 15.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18084/list"
+      },
+      {
+        "id": 18085,
+        "position": 10,
+        "content": "I'm gonna phone Lisa tonight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'm",
+          [
+            "gonna",
+            "going to"
+          ],
+          "phone",
+          "Lisa",
+          "tonight."
+        ],
+        "solution": [
+          [
+            "I'm"
+          ],
+          [
+            "gonna",
+            "going to"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "tonight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/10.mp3",
+        "timeStart": 15.34,
+        "timeEnd": 16.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18085/list"
+      },
+      {
+        "id": 18086,
+        "position": 11,
+        "content": "That's nice. Say hello for me.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "nice.",
+          "Say",
+          "hello",
+          "for",
+          "me."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "nice."
+          ],
+          [
+            "Say"
+          ],
+          [
+            "hello"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/31-whens-the-baby-due-2022-03-07-21-14-19/11.mp3",
+        "timeStart": 16.92,
+        "timeEnd": 18.82,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18086/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18077": {
+      "id": 4355,
+      "text": "Tin gì vậy?",
+      "author": "a user"
+    },
+    "18079": {
+      "id": 4357,
+      "text": "Thật tuyệt! Tôi rất mừng cho cô ấy.",
+      "author": "a user"
+    },
+    "18082": {
+      "id": 8559,
+      "text": "Một bé gái.",
+      "author": "a user"
+    },
+    "18083": {
+      "id": 8561,
+      "text": "Em bé dự sinh khi nào?",
+      "author": "a user"
+    },
+    "18086": {
+      "id": 8577,
+      "text": "Thật tuyệt. Gửi lời chào dùm tôi nhé .",
+      "author": "a user"
+    },
+    "18076": {
+      "id": 2590448,
+      "text": "Tôi có một tin tốt lành.",
+      "author": "ChatGPT4.1"
+    },
+    "18078": {
+      "id": 2590449,
+      "text": "Lisa sắp có em bé.",
+      "author": "ChatGPT4.1"
+    },
+    "18080": {
+      "id": 2590450,
+      "text": "Tôi cũng vậy!",
+      "author": "ChatGPT4.1"
+    },
+    "18081": {
+      "id": 2590451,
+      "text": "Họ muốn con trai hay con gái?",
+      "author": "ChatGPT4.1"
+    },
+    "18084": {
+      "id": 2590452,
+      "text": "Đầu tháng Chín.",
+      "author": "ChatGPT4.1"
+    },
+    "18085": {
+      "id": 2590453,
+      "text": "Tối nay tôi sẽ gọi cho Lisa.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

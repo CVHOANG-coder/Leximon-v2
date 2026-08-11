@@ -1,0 +1,714 @@
+{
+  "summary": {
+    "id": 2278,
+    "name": "Test 02 - Part B - Extract 1",
+    "subTitle": "Prioritizing Patient Referrals",
+    "levelName": "B2",
+    "position": 13,
+    "totalChallenges": 11,
+    "groupId": 132,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2278",
+  "detail": {
+    "id": 2278,
+    "lessonName": "Test 02 - Part B - Extract 1",
+    "name": "Test 02 - Part B - Extract 1",
+    "position": 13,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/0-test-02-part-b-extract-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90084,
+        "position": 1,
+        "content": "So what did the trainer say we have to do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "what",
+          "did",
+          "the",
+          "trainer",
+          "say",
+          [
+            "we have",
+            "we've"
+          ],
+          "to",
+          "do?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "what"
+          ],
+          [
+            "did"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trainer"
+          ],
+          [
+            "say"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/1.mp3",
+        "timeStart": 0.33,
+        "timeEnd": 2.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90084/list"
+      },
+      {
+        "id": 90085,
+        "position": 2,
+        "content": "Well, we've got to look through these case notes... ten sets in total,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "we've",
+            "we have"
+          ],
+          "got",
+          "to",
+          "look",
+          "through",
+          "these",
+          "case",
+          "notes...",
+          [
+            "ten",
+            "10"
+          ],
+          "sets",
+          "in",
+          "total,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "through"
+          ],
+          [
+            "these"
+          ],
+          [
+            "case"
+          ],
+          [
+            "notes..."
+          ],
+          [
+            "ten",
+            "10"
+          ],
+          [
+            "sets"
+          ],
+          [
+            "in"
+          ],
+          [
+            "total,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/2.mp3",
+        "timeStart": 2.81,
+        "timeEnd": 7.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90085/list"
+      },
+      {
+        "id": 90086,
+        "position": 3,
+        "content": "and decide which of the patients should be referred to the consultant as a matter of urgency, and which can wait.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "decide",
+          "which",
+          "of",
+          "the",
+          "patients",
+          "should",
+          "be",
+          "referred",
+          "to",
+          "the",
+          "consultant",
+          "as",
+          "a",
+          "matter",
+          "of",
+          "urgency,",
+          "and",
+          "which",
+          "can",
+          "wait."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "decide"
+          ],
+          [
+            "which"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "referred"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "consultant"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "matter"
+          ],
+          [
+            "of"
+          ],
+          [
+            "urgency,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "which"
+          ],
+          [
+            "can"
+          ],
+          [
+            "wait."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/3.mp3",
+        "timeStart": 7.09,
+        "timeEnd": 12.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90086/list"
+      },
+      {
+        "id": 90087,
+        "position": 4,
+        "content": "Oh, right.",
+        "defaultInput": "Oh, right.",
+        "jsonContent": [
+          "Oh,",
+          "right."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/4.mp3",
+        "timeStart": 12.7,
+        "timeEnd": 13.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90087/list"
+      },
+      {
+        "id": 90088,
+        "position": 5,
+        "content": "And did I hear him say there's a limited number you can refer?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "did",
+          "I",
+          "hear",
+          "him",
+          "say",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "limited",
+          "number",
+          "you",
+          "can",
+          "refer?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "did"
+          ],
+          [
+            "I"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "him"
+          ],
+          [
+            "say"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "limited"
+          ],
+          [
+            "number"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "refer?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/5.mp3",
+        "timeStart": 13.5,
+        "timeEnd": 16.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90088/list"
+      },
+      {
+        "id": 90089,
+        "position": 6,
+        "content": "Not exactly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Not",
+          "exactly."
+        ],
+        "solution": [
+          [
+            "Not"
+          ],
+          [
+            "exactly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/6.mp3",
+        "timeStart": 16.63,
+        "timeEnd": 17.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90089/list"
+      },
+      {
+        "id": 90090,
+        "position": 7,
+        "content": "He said that we should put them in rank order according to the severity of the symptoms",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "said",
+          "that",
+          "we",
+          "should",
+          "put",
+          "them",
+          "in",
+          "rank",
+          "order",
+          "according",
+          "to",
+          "the",
+          "severity",
+          "of",
+          "the",
+          "symptoms"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "said"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "should"
+          ],
+          [
+            "put"
+          ],
+          [
+            "them"
+          ],
+          [
+            "in"
+          ],
+          [
+            "rank"
+          ],
+          [
+            "order"
+          ],
+          [
+            "according"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "severity"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "symptoms"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/7.mp3",
+        "timeStart": 17.82,
+        "timeEnd": 22.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90090/list"
+      },
+      {
+        "id": 90091,
+        "position": 8,
+        "content": "and other factors evident from the case notes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "other",
+          "factors",
+          "evident",
+          "from",
+          "the",
+          "case",
+          "notes."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "other"
+          ],
+          [
+            "factors"
+          ],
+          [
+            "evident"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "case"
+          ],
+          [
+            "notes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/8.mp3",
+        "timeStart": 22.09,
+        "timeEnd": 24.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90091/list"
+      },
+      {
+        "id": 90092,
+        "position": 9,
+        "content": "Once we've agreed on our list, we have to go and compare with another pair of trainees.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          [
+            "we've",
+            "we have"
+          ],
+          "agreed",
+          "on",
+          "our",
+          "list,",
+          [
+            "we have",
+            "we've"
+          ],
+          "to",
+          "go",
+          "and",
+          "compare",
+          "with",
+          "another",
+          "pair",
+          "of",
+          "trainees."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "agreed"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "list,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "and"
+          ],
+          [
+            "compare"
+          ],
+          [
+            "with"
+          ],
+          [
+            "another"
+          ],
+          [
+            "pair"
+          ],
+          [
+            "of"
+          ],
+          [
+            "trainees."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/9.mp3",
+        "timeStart": 24.9,
+        "timeEnd": 29.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90092/list"
+      },
+      {
+        "id": 90093,
+        "position": 10,
+        "content": "Okay.",
+        "defaultInput": "Okay.",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/10.mp3",
+        "timeStart": 29.13,
+        "timeEnd": 29.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90093/list"
+      },
+      {
+        "id": 90094,
+        "position": 11,
+        "content": "Let's get started then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "get",
+          "started",
+          "then."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "get"
+          ],
+          [
+            "started"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-1-2025-08-29-21-08-11/11.mp3",
+        "timeStart": 30.01,
+        "timeEnd": 31.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90094/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90084": {
+      "id": 3682506,
+      "text": "Vậy huấn luyện viên đã nói chúng ta phải làm gì?",
+      "author": "ChatGPT4.1"
+    },
+    "90085": {
+      "id": 3682507,
+      "text": "Chúng ta phải xem qua những ghi chú hồ sơ này... tổng cộng mười bộ,",
+      "author": "ChatGPT4.1"
+    },
+    "90086": {
+      "id": 3682508,
+      "text": "và quyết định bệnh nhân nào cần được chuyển đến bác sĩ tư vấn ngay lập tức, và bệnh nhân nào có thể chờ.",
+      "author": "ChatGPT4.1"
+    },
+    "90087": {
+      "id": 3682509,
+      "text": "Ồ, đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "90088": {
+      "id": 3682510,
+      "text": "Và tôi có nghe anh ấy nói rằng chỉ được phép giới thiệu một số lượng nhất định không?",
+      "author": "ChatGPT4.1"
+    },
+    "90089": {
+      "id": 3682511,
+      "text": "Không hẳn.",
+      "author": "ChatGPT4.1"
+    },
+    "90090": {
+      "id": 3682512,
+      "text": "Anh ấy nói chúng ta nên xếp thứ tự họ theo mức độ nghiêm trọng của các triệu chứng",
+      "author": "ChatGPT4.1"
+    },
+    "90091": {
+      "id": 3682513,
+      "text": "và các yếu tố khác thể hiện trong hồ sơ bệnh án.",
+      "author": "ChatGPT4.1"
+    },
+    "90092": {
+      "id": 3682514,
+      "text": "Khi chúng ta đã đồng ý với danh sách của mình, chúng ta phải so sánh với một cặp thực tập sinh khác.",
+      "author": "ChatGPT4.1"
+    },
+    "90093": {
+      "id": 3682515,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "90094": {
+      "id": 3682516,
+      "text": "Vậy thì bắt đầu thôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

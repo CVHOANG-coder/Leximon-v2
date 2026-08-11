@@ -1,0 +1,813 @@
+{
+  "summary": {
+    "id": 1555,
+    "name": "Conversation 173",
+    "subTitle": "Meeting Preparation Planning",
+    "levelName": "B1",
+    "position": 419,
+    "totalChallenges": 12,
+    "groupId": 48,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1555",
+  "detail": {
+    "id": 1555,
+    "lessonName": "Conversation 173",
+    "name": "Conversation 173",
+    "position": 419,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/0-conversation-173.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66359,
+        "position": 1,
+        "content": "I am in desperate need of 50 copies of the monthly calendar for this tomorrow morning's meeting.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "in",
+          "desperate",
+          "need",
+          "of",
+          [
+            "50",
+            "fifty"
+          ],
+          "copies",
+          "of",
+          "the",
+          "monthly",
+          "calendar",
+          "for",
+          "this",
+          "tomorrow",
+          "morning's",
+          "meeting."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "in"
+          ],
+          [
+            "desperate"
+          ],
+          [
+            "need"
+          ],
+          [
+            "of"
+          ],
+          [
+            "50",
+            "fifty"
+          ],
+          [
+            "copies"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "monthly"
+          ],
+          [
+            "calendar"
+          ],
+          [
+            "for"
+          ],
+          [
+            "this"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "morning's"
+          ],
+          [
+            "meeting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/1.mp3",
+        "timeStart": 0.1,
+        "timeEnd": 5.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66359/list"
+      },
+      {
+        "id": 66360,
+        "position": 2,
+        "content": "No problem, boss.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "problem,",
+          "boss."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "problem,"
+          ],
+          [
+            "boss."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/2.mp3",
+        "timeStart": 6.55,
+        "timeEnd": 8.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66360/list"
+      },
+      {
+        "id": 66361,
+        "position": 3,
+        "content": "I will give Brittany copies this afternoon,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "give",
+          "Brittany",
+          "copies",
+          "this",
+          "afternoon,"
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "give"
+          ],
+          [
+            "Brittany"
+          ],
+          [
+            "copies"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/3.mp3",
+        "timeStart": 8.02,
+        "timeEnd": 10.56,
+        "hints": [
+          "Brittany"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66361/list"
+      },
+      {
+        "id": 66362,
+        "position": 4,
+        "content": "so she will place them at the desks for the employees to have when they arrive.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "she will",
+            "she'll"
+          ],
+          "place",
+          "them",
+          "at",
+          "the",
+          "desks",
+          "for",
+          "the",
+          "employees",
+          "to",
+          "have",
+          "when",
+          "they",
+          "arrive."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "she will",
+            "she'll"
+          ],
+          [
+            "place"
+          ],
+          [
+            "them"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "desks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "when"
+          ],
+          [
+            "they"
+          ],
+          [
+            "arrive."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/4.mp3",
+        "timeStart": 10.56,
+        "timeEnd": 14.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66362/list"
+      },
+      {
+        "id": 66363,
+        "position": 5,
+        "content": "Brilliant job!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Brilliant",
+          "job!"
+        ],
+        "solution": [
+          [
+            "Brilliant"
+          ],
+          [
+            "job!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/5.mp3",
+        "timeStart": 15.37,
+        "timeEnd": 16.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66363/list"
+      },
+      {
+        "id": 66364,
+        "position": 6,
+        "content": "I think we should also put out coffee and donuts for 50 people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "we",
+          "should",
+          "also",
+          "put",
+          "out",
+          "coffee",
+          "and",
+          [
+            "donuts",
+            "doughnuts"
+          ],
+          "for",
+          [
+            "50",
+            "fifty"
+          ],
+          "people."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "should"
+          ],
+          [
+            "also"
+          ],
+          [
+            "put"
+          ],
+          [
+            "out"
+          ],
+          [
+            "coffee"
+          ],
+          [
+            "and"
+          ],
+          [
+            "donuts",
+            "doughnuts"
+          ],
+          [
+            "for"
+          ],
+          [
+            "50",
+            "fifty"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/6.mp3",
+        "timeStart": 16.97,
+        "timeEnd": 20.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66364/list"
+      },
+      {
+        "id": 66365,
+        "position": 7,
+        "content": "Since it is the first thing in the morning and expected to last until lunch,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Since",
+          [
+            "it is",
+            "it's"
+          ],
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "thing",
+          "in",
+          "the",
+          "morning",
+          "and",
+          "expected",
+          "to",
+          "last",
+          "until",
+          "lunch,"
+        ],
+        "solution": [
+          [
+            "Since"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "and"
+          ],
+          [
+            "expected"
+          ],
+          [
+            "to"
+          ],
+          [
+            "last"
+          ],
+          [
+            "until"
+          ],
+          [
+            "lunch,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/7.mp3",
+        "timeStart": 20.92,
+        "timeEnd": 24.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66365/list"
+      },
+      {
+        "id": 66366,
+        "position": 8,
+        "content": "I don't want people to get too hungry and lose focus.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "want",
+          "people",
+          "to",
+          "get",
+          "too",
+          "hungry",
+          "and",
+          "lose",
+          "focus."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "want"
+          ],
+          [
+            "people"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "too"
+          ],
+          [
+            "hungry"
+          ],
+          [
+            "and"
+          ],
+          [
+            "lose"
+          ],
+          [
+            "focus."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/8.mp3",
+        "timeStart": 24.79,
+        "timeEnd": 28.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66366/list"
+      },
+      {
+        "id": 66367,
+        "position": 9,
+        "content": "I'm way ahead of you and organized a food delivery at 8:30 am.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "way",
+          "ahead",
+          "of",
+          "you",
+          "and",
+          [
+            "organized",
+            "organised"
+          ],
+          "a",
+          "food",
+          "delivery",
+          "at",
+          "8:30",
+          "am."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "way"
+          ],
+          [
+            "ahead"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "and"
+          ],
+          [
+            "organized",
+            "organised"
+          ],
+          [
+            "a"
+          ],
+          [
+            "food"
+          ],
+          [
+            "delivery"
+          ],
+          [
+            "at"
+          ],
+          [
+            "8:30"
+          ],
+          [
+            "am."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/9.mp3",
+        "timeStart": 28.77,
+        "timeEnd": 33.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66367/list"
+      },
+      {
+        "id": 66368,
+        "position": 10,
+        "content": "Do you need me to help with the speakers and microphone,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "need",
+          "me",
+          "to",
+          "help",
+          "with",
+          "the",
+          "speakers",
+          "and",
+          "microphone,"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "speakers"
+          ],
+          [
+            "and"
+          ],
+          [
+            "microphone,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/10.mp3",
+        "timeStart": 33.67,
+        "timeEnd": 36.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66368/list"
+      },
+      {
+        "id": 66369,
+        "position": 11,
+        "content": "or have you already asked someone to help out?",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "have",
+          "you",
+          "already",
+          "asked",
+          "someone",
+          "to",
+          "help",
+          "out?"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "already"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "out?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/11.mp3",
+        "timeStart": 36.32,
+        "timeEnd": 38.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66369/list"
+      },
+      {
+        "id": 66370,
+        "position": 12,
+        "content": "Suzie offered to do that, but thank you.",
+        "defaultInput": "Suzie ",
+        "jsonContent": [
+          "Suzie",
+          "offered",
+          "to",
+          "do",
+          "that,",
+          "but",
+          "thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Suzie"
+          ],
+          [
+            "offered"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-173-2024-09-14-18-33-46/12.mp3",
+        "timeStart": 39.07,
+        "timeEnd": 41.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66370/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66359": {
+      "id": 2598174,
+      "text": "Tôi đang rất cần 50 bản sao của lịch tháng cho cuộc họp vào sáng mai này.",
+      "author": "ChatGPT4.1"
+    },
+    "66360": {
+      "id": 2598175,
+      "text": "Không thành vấn đề, sếp.",
+      "author": "ChatGPT4.1"
+    },
+    "66361": {
+      "id": 2598176,
+      "text": "Tôi sẽ giao các bản sao đó cho Brittany vào chiều nay,",
+      "author": "ChatGPT4.1"
+    },
+    "66362": {
+      "id": 2598177,
+      "text": "để cô ấy đặt chúng lên bàn cho nhân viên khi họ đến.",
+      "author": "ChatGPT4.1"
+    },
+    "66363": {
+      "id": 2598178,
+      "text": "Làm tốt lắm!",
+      "author": "ChatGPT4.1"
+    },
+    "66364": {
+      "id": 2598179,
+      "text": "Tôi nghĩ chúng ta cũng nên chuẩn bị cà phê và bánh donut cho 50 người.",
+      "author": "ChatGPT4.1"
+    },
+    "66365": {
+      "id": 2598180,
+      "text": "Vì đây là hoạt động đầu ngày và dự kiến sẽ kéo dài đến giờ trưa,",
+      "author": "ChatGPT4.1"
+    },
+    "66366": {
+      "id": 2598181,
+      "text": "Tôi không muốn mọi người bị quá đói và mất tập trung.",
+      "author": "ChatGPT4.1"
+    },
+    "66367": {
+      "id": 2598182,
+      "text": "Tôi đã đoán trước được điều đó và đặt giao đồ ăn lúc 8:30 sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "66368": {
+      "id": 2598183,
+      "text": "Bạn có cần tôi giúp gì với loa và micro không,",
+      "author": "ChatGPT4.1"
+    },
+    "66369": {
+      "id": 2598184,
+      "text": "hay bạn đã nhờ ai đó giúp rồi?",
+      "author": "ChatGPT4.1"
+    },
+    "66370": {
+      "id": 2598185,
+      "text": "Suzie đã đề nghị làm việc đó rồi, nhưng cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

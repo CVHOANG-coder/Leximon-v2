@@ -1,0 +1,1316 @@
+{
+  "summary": {
+    "id": 32,
+    "name": "23. Seasons",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 23,
+    "totalChallenges": 29,
+    "groupId": 87,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/32",
+  "detail": {
+    "id": 32,
+    "lessonName": "23. Seasons",
+    "name": "23. Seasons",
+    "position": 23,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/0-23-seasons.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 1179,
+        "position": 1,
+        "content": "There are four seasons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          [
+            "four",
+            "4"
+          ],
+          "seasons."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "seasons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/1.mp3",
+        "timeStart": 1.8,
+        "timeEnd": 3.64,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1179/list"
+      },
+      {
+        "id": 1180,
+        "position": 2,
+        "content": "Winter is the cold season.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Winter",
+          "is",
+          "the",
+          "cold",
+          "season."
+        ],
+        "solution": [
+          [
+            "Winter"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cold"
+          ],
+          [
+            "season."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/2.mp3",
+        "timeStart": 4.2,
+        "timeEnd": 5.93,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1180/list"
+      },
+      {
+        "id": 1181,
+        "position": 3,
+        "content": "It snows in the winter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "snows",
+          "in",
+          "the",
+          "winter."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "snows"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "winter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/3.mp3",
+        "timeStart": 6.5,
+        "timeEnd": 8.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1181/list"
+      },
+      {
+        "id": 1182,
+        "position": 4,
+        "content": "The winds blow,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "winds",
+          "blow,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "winds"
+          ],
+          [
+            "blow,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/4.mp3",
+        "timeStart": 9.4,
+        "timeEnd": 10.69,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1182/list"
+      },
+      {
+        "id": 1183,
+        "position": 5,
+        "content": "and ice forms on the water.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "ice",
+          "forms",
+          "on",
+          "the",
+          "water."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "ice"
+          ],
+          [
+            "forms"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "water."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/5.mp3",
+        "timeStart": 10.9,
+        "timeEnd": 12.91,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1183/list"
+      },
+      {
+        "id": 1184,
+        "position": 6,
+        "content": "We play hockey on the ice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "play",
+          "hockey",
+          "on",
+          "the",
+          "ice."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "play"
+          ],
+          [
+            "hockey"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/6.mp3",
+        "timeStart": 13.7,
+        "timeEnd": 15.62,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1184/list"
+      },
+      {
+        "id": 1185,
+        "position": 7,
+        "content": "We play in the snow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "play",
+          "in",
+          "the",
+          "snow."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "play"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "snow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/7.mp3",
+        "timeStart": 15.8,
+        "timeEnd": 17.26,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1185/list"
+      },
+      {
+        "id": 1186,
+        "position": 8,
+        "content": "After winter is the spring.",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "winter",
+          "is",
+          "the",
+          "spring."
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "winter"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "spring."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/8.mp3",
+        "timeStart": 18,
+        "timeEnd": 20.4,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1186/list"
+      },
+      {
+        "id": 1187,
+        "position": 9,
+        "content": "That is when it begins to get warmer.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That is",
+            "that's"
+          ],
+          "when",
+          "it",
+          "begins",
+          "to",
+          "get",
+          "warmer."
+        ],
+        "solution": [
+          [
+            "That is",
+            "that's"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it"
+          ],
+          [
+            "begins"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "warmer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/9.mp3",
+        "timeStart": 21.3,
+        "timeEnd": 23.46,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1187/list"
+      },
+      {
+        "id": 1188,
+        "position": 10,
+        "content": "Trees get buds on them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Trees",
+          "get",
+          "buds",
+          "on",
+          "them."
+        ],
+        "solution": [
+          [
+            "Trees"
+          ],
+          [
+            "get"
+          ],
+          [
+            "buds"
+          ],
+          [
+            "on"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/10.mp3",
+        "timeStart": 24.2,
+        "timeEnd": 26.11,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1188/list"
+      },
+      {
+        "id": 1189,
+        "position": 11,
+        "content": "Flowers start to bloom.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Flowers",
+          "start",
+          "to",
+          "bloom."
+        ],
+        "solution": [
+          [
+            "Flowers"
+          ],
+          [
+            "start"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bloom."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/11.mp3",
+        "timeStart": 26.8,
+        "timeEnd": 28.32,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1189/list"
+      },
+      {
+        "id": 1190,
+        "position": 12,
+        "content": "It rains a lot in the spring.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "rains",
+          "a",
+          "lot",
+          "in",
+          "the",
+          "spring."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "rains"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "spring."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/12.mp3",
+        "timeStart": 28.7,
+        "timeEnd": 30.67,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1190/list"
+      },
+      {
+        "id": 1191,
+        "position": 13,
+        "content": "Spring is followed by the summer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Spring",
+          "is",
+          "followed",
+          "by",
+          "the",
+          "summer."
+        ],
+        "solution": [
+          [
+            "Spring"
+          ],
+          [
+            "is"
+          ],
+          [
+            "followed"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "summer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/13.mp3",
+        "timeStart": 31.3,
+        "timeEnd": 33.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1191/list"
+      },
+      {
+        "id": 1192,
+        "position": 14,
+        "content": "It can get very hot in the summertime.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "can",
+          "get",
+          "very",
+          "hot",
+          "in",
+          "the",
+          "summertime."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "very"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "summertime."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/14.mp3",
+        "timeStart": 34.4,
+        "timeEnd": 36.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1192/list"
+      },
+      {
+        "id": 1193,
+        "position": 15,
+        "content": "The sun shines brightly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "sun",
+          "shines",
+          "brightly."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "sun"
+          ],
+          [
+            "shines"
+          ],
+          [
+            "brightly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/15.mp3",
+        "timeStart": 37.3,
+        "timeEnd": 38.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1193/list"
+      },
+      {
+        "id": 1194,
+        "position": 16,
+        "content": "We go swimming in the summer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "go",
+          "swimming",
+          "in",
+          "the",
+          "summer."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "go"
+          ],
+          [
+            "swimming"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "summer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/16.mp3",
+        "timeStart": 39.2,
+        "timeEnd": 40.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1194/list"
+      },
+      {
+        "id": 1195,
+        "position": 17,
+        "content": "We spend a lot of time outdoors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "spend",
+          "a",
+          "lot",
+          "of",
+          "time",
+          "outdoors."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time"
+          ],
+          [
+            "outdoors."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/17.mp3",
+        "timeStart": 41.2,
+        "timeEnd": 43.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1195/list"
+      },
+      {
+        "id": 1196,
+        "position": 18,
+        "content": "Many people go on vacations in the summer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Many",
+          "people",
+          "go",
+          "on",
+          "vacations",
+          "in",
+          "the",
+          "summer."
+        ],
+        "solution": [
+          [
+            "Many"
+          ],
+          [
+            "people"
+          ],
+          [
+            "go"
+          ],
+          [
+            "on"
+          ],
+          [
+            "vacations"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "summer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/18.mp3",
+        "timeStart": 44.3,
+        "timeEnd": 47.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1196/list"
+      },
+      {
+        "id": 1197,
+        "position": 19,
+        "content": "We get a summer vacation from school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "get",
+          "a",
+          "summer",
+          "vacation",
+          "from",
+          "school."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "summer"
+          ],
+          [
+            "vacation"
+          ],
+          [
+            "from"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/19.mp3",
+        "timeStart": 48.1,
+        "timeEnd": 50.1,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1197/list"
+      },
+      {
+        "id": 1198,
+        "position": 20,
+        "content": "Summer is followed by the fall or autumn.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Summer",
+          "is",
+          "followed",
+          "by",
+          "the",
+          "fall",
+          "or",
+          "autumn."
+        ],
+        "solution": [
+          [
+            "Summer"
+          ],
+          [
+            "is"
+          ],
+          [
+            "followed"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fall"
+          ],
+          [
+            "or"
+          ],
+          [
+            "autumn."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/20.mp3",
+        "timeStart": 51,
+        "timeEnd": 54.5,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1198/list"
+      },
+      {
+        "id": 1199,
+        "position": 21,
+        "content": "The leaves on the trees change colors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "leaves",
+          "on",
+          "the",
+          "trees",
+          "change",
+          [
+            "colors.",
+            "colours"
+          ]
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "leaves"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trees"
+          ],
+          [
+            "change"
+          ],
+          [
+            "colors.",
+            "colours"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/21.mp3",
+        "timeStart": 55,
+        "timeEnd": 58.2,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1199/list"
+      },
+      {
+        "id": 1200,
+        "position": 22,
+        "content": "They change from green to red,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "change",
+          "from",
+          "green",
+          "to",
+          "red,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "change"
+          ],
+          [
+            "from"
+          ],
+          [
+            "green"
+          ],
+          [
+            "to"
+          ],
+          [
+            "red,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/22.mp3",
+        "timeStart": 59.4,
+        "timeEnd": 61.8,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1200/list"
+      },
+      {
+        "id": 1201,
+        "position": 23,
+        "content": "orange and brown.",
+        "defaultInput": "",
+        "jsonContent": [
+          "orange",
+          "and",
+          "brown."
+        ],
+        "solution": [
+          [
+            "orange"
+          ],
+          [
+            "and"
+          ],
+          [
+            "brown."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/23.mp3",
+        "timeStart": 62.6,
+        "timeEnd": 63.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1201/list"
+      },
+      {
+        "id": 1202,
+        "position": 24,
+        "content": "The leaves fall off the trees.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "leaves",
+          "fall",
+          "off",
+          "the",
+          "trees."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "leaves"
+          ],
+          [
+            "fall"
+          ],
+          [
+            "off"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trees."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/24.mp3",
+        "timeStart": 64.9,
+        "timeEnd": 66.9,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/1202/list"
+      },
+      {
+        "id": 1203,
+        "position": 25,
+        "content": "The weather gets cooler.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "weather",
+          "gets",
+          "cooler."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "weather"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "cooler."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/25.mp3",
+        "timeStart": 67.8,
+        "timeEnd": 69.5,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1203/list"
+      },
+      {
+        "id": 1204,
+        "position": 26,
+        "content": "The days get shorter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "days",
+          "get",
+          "shorter."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "days"
+          ],
+          [
+            "get"
+          ],
+          [
+            "shorter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/26.mp3",
+        "timeStart": 70.2,
+        "timeEnd": 71.76,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1204/list"
+      },
+      {
+        "id": 1205,
+        "position": 27,
+        "content": "We go back to school in the fall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "go",
+          "back",
+          "to",
+          "school",
+          "in",
+          "the",
+          "fall."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "go"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "school"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/27.mp3",
+        "timeStart": 72.3,
+        "timeEnd": 74.35,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1205/list"
+      },
+      {
+        "id": 1206,
+        "position": 28,
+        "content": "Then, winter comes again.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then,",
+          "winter",
+          "comes",
+          "again."
+        ],
+        "solution": [
+          [
+            "Then,"
+          ],
+          [
+            "winter"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "again."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/28.mp3",
+        "timeStart": 74.8,
+        "timeEnd": 76.6,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1206/list"
+      },
+      {
+        "id": 1207,
+        "position": 29,
+        "content": "The seasons follow one after each other.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "seasons",
+          "follow",
+          [
+            "one",
+            "1"
+          ],
+          "after",
+          "each",
+          "other."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "seasons"
+          ],
+          [
+            "follow"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "after"
+          ],
+          [
+            "each"
+          ],
+          [
+            "other."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/23-seasons-2019-03-20-08-47-09/29.mp3",
+        "timeStart": 77.3,
+        "timeEnd": 80.52,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1207/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "1181": {
+      "id": 3961,
+      "text": "Có tuyết rơi vào mùa đông.",
+      "author": "a user"
+    },
+    "1198": {
+      "id": 3982,
+      "text": "Tiếp theo mùa hè là mùa thu.",
+      "author": "a user"
+    },
+    "1202": {
+      "id": 3987,
+      "text": "Những chiếc lá rơi khỏi cây",
+      "author": "a user"
+    },
+    "1179": {
+      "id": 2592724,
+      "text": "Có bốn mùa trong năm.",
+      "author": "ChatGPT4.1"
+    },
+    "1180": {
+      "id": 2592725,
+      "text": "Mùa đông là mùa lạnh.",
+      "author": "ChatGPT4.1"
+    },
+    "1182": {
+      "id": 2592726,
+      "text": "Gió thổi,",
+      "author": "ChatGPT4.1"
+    },
+    "1183": {
+      "id": 2592727,
+      "text": "và băng hình thành trên mặt nước.",
+      "author": "ChatGPT4.1"
+    },
+    "1184": {
+      "id": 2592728,
+      "text": "Chúng tôi chơi khúc côn cầu trên băng.",
+      "author": "ChatGPT4.1"
+    },
+    "1185": {
+      "id": 2592729,
+      "text": "Chúng tôi chơi trong tuyết.",
+      "author": "ChatGPT4.1"
+    },
+    "1186": {
+      "id": 2592730,
+      "text": "Sau mùa đông là mùa xuân.",
+      "author": "ChatGPT4.1"
+    },
+    "1187": {
+      "id": 2592731,
+      "text": "Đó là lúc thời tiết bắt đầu ấm lên.",
+      "author": "ChatGPT4.1"
+    },
+    "1188": {
+      "id": 2592732,
+      "text": "Cây bắt đầu đâm chồi.",
+      "author": "ChatGPT4.1"
+    },
+    "1189": {
+      "id": 2592733,
+      "text": "Hoa bắt đầu nở.",
+      "author": "ChatGPT4.1"
+    },
+    "1190": {
+      "id": 2592734,
+      "text": "Mùa xuân thường mưa nhiều.",
+      "author": "a user"
+    },
+    "1191": {
+      "id": 2592735,
+      "text": "Sau mùa xuân là mùa hè.",
+      "author": "ChatGPT4.1"
+    },
+    "1192": {
+      "id": 2592736,
+      "text": "Mùa hè có thể rất nóng.",
+      "author": "ChatGPT4.1"
+    },
+    "1193": {
+      "id": 2592737,
+      "text": "Mặt trời chiếu sáng rực rỡ.",
+      "author": "ChatGPT4.1"
+    },
+    "1194": {
+      "id": 2592738,
+      "text": "Chúng tôi đi bơi vào mùa hè.",
+      "author": "ChatGPT4.1"
+    },
+    "1195": {
+      "id": 2592739,
+      "text": "Chúng tôi dành nhiều thời gian ngoài trời.",
+      "author": "ChatGPT4.1"
+    },
+    "1196": {
+      "id": 2592740,
+      "text": "Nhiều người đi du lịch vào mùa hè.",
+      "author": "ChatGPT4.1"
+    },
+    "1197": {
+      "id": 2592741,
+      "text": "Chúng tôi được nghỉ hè ở trường.",
+      "author": "ChatGPT4.1"
+    },
+    "1199": {
+      "id": 2592742,
+      "text": "Lá trên cây thay đổi màu sắc.",
+      "author": "ChatGPT4.1"
+    },
+    "1200": {
+      "id": 2592743,
+      "text": "Chúng chuyển từ màu xanh sang màu đỏ,",
+      "author": "ChatGPT4.1"
+    },
+    "1201": {
+      "id": 2592744,
+      "text": "cam và nâu.",
+      "author": "ChatGPT4.1"
+    },
+    "1203": {
+      "id": 2592745,
+      "text": "Thời tiết trở nên mát mẻ hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "1204": {
+      "id": 2592746,
+      "text": "Ban ngày ngắn lại.",
+      "author": "ChatGPT4.1"
+    },
+    "1205": {
+      "id": 2592747,
+      "text": "Chúng tôi đi học lại vào mùa thu.",
+      "author": "ChatGPT4.1"
+    },
+    "1206": {
+      "id": 2592748,
+      "text": "Rồi mùa đông lại đến.",
+      "author": "ChatGPT4.1"
+    },
+    "1207": {
+      "id": 2592749,
+      "text": "Các mùa nối tiếp nhau liên tục.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

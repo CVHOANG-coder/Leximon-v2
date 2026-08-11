@@ -1,0 +1,636 @@
+{
+  "summary": {
+    "id": 1667,
+    "name": "Short Talk 186",
+    "subTitle": "Package Pickup Reminder",
+    "levelName": "B1",
+    "position": 452,
+    "totalChallenges": 9,
+    "groupId": 49,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1667",
+  "detail": {
+    "id": 1667,
+    "lessonName": "Short Talk 186",
+    "name": "Short Talk 186",
+    "position": 452,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/0-short-talk-186.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68626,
+        "position": 1,
+        "content": "Good afternoon, Mr. Johnson.",
+        "defaultInput": "Good afternoon, Mr. Johnson.",
+        "jsonContent": [
+          "Good",
+          "afternoon,",
+          "Mr.",
+          "Johnson."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Johnson."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/1.mp3",
+        "timeStart": 0.41,
+        "timeEnd": 2.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68626/list"
+      },
+      {
+        "id": 68627,
+        "position": 2,
+        "content": "I hope you're starting to feel at home in your new office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          [
+            "you're",
+            "you are"
+          ],
+          "starting",
+          "to",
+          "feel",
+          "at",
+          "home",
+          "in",
+          "your",
+          "new",
+          "office."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "starting"
+          ],
+          [
+            "to"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "at"
+          ],
+          [
+            "home"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/2.mp3",
+        "timeStart": 2.44,
+        "timeEnd": 5.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68627/list"
+      },
+      {
+        "id": 68628,
+        "position": 3,
+        "content": "I'm calling about some sizable deliveries that arrived for your team earlier this week.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "about",
+          "some",
+          "sizable",
+          "deliveries",
+          "that",
+          "arrived",
+          "for",
+          "your",
+          "team",
+          "earlier",
+          "this",
+          "week."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "about"
+          ],
+          [
+            "some"
+          ],
+          [
+            "sizable"
+          ],
+          [
+            "deliveries"
+          ],
+          [
+            "that"
+          ],
+          [
+            "arrived"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "team"
+          ],
+          [
+            "earlier"
+          ],
+          [
+            "this"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/3.mp3",
+        "timeStart": 5.95,
+        "timeEnd": 11.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68628/list"
+      },
+      {
+        "id": 68629,
+        "position": 4,
+        "content": "We've stored them safely in the designated area on the ground floor.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "We have"
+          ],
+          "stored",
+          "them",
+          "safely",
+          "in",
+          "the",
+          "designated",
+          "area",
+          "on",
+          "the",
+          "ground",
+          "floor."
+        ],
+        "solution": [
+          [
+            "We've",
+            "We have"
+          ],
+          [
+            "stored"
+          ],
+          [
+            "them"
+          ],
+          [
+            "safely"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "designated"
+          ],
+          [
+            "area"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ground"
+          ],
+          [
+            "floor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/4.mp3",
+        "timeStart": 11.33,
+        "timeEnd": 15.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68629/list"
+      },
+      {
+        "id": 68630,
+        "position": 5,
+        "content": "According to our lease agreement,",
+        "defaultInput": "",
+        "jsonContent": [
+          "According",
+          "to",
+          "our",
+          "lease",
+          "agreement,"
+        ],
+        "solution": [
+          [
+            "According"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "lease"
+          ],
+          [
+            "agreement,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/5.mp3",
+        "timeStart": 16.03,
+        "timeEnd": 18.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68630/list"
+      },
+      {
+        "id": 68631,
+        "position": 6,
+        "content": "we're able to hold packages for up to five days,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "we're",
+            "we are"
+          ],
+          "able",
+          "to",
+          "hold",
+          "packages",
+          "for",
+          "up",
+          "to",
+          [
+            "five",
+            "5"
+          ],
+          "days,"
+        ],
+        "solution": [
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hold"
+          ],
+          [
+            "packages"
+          ],
+          [
+            "for"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "five",
+            "5"
+          ],
+          [
+            "days,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/6.mp3",
+        "timeStart": 18.19,
+        "timeEnd": 21.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68631/list"
+      },
+      {
+        "id": 68632,
+        "position": 7,
+        "content": "but it's now been a week since they arrived.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "it's",
+          "now",
+          "been",
+          "a",
+          "week",
+          "since",
+          "they",
+          "arrived."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "now"
+          ],
+          [
+            "been"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week"
+          ],
+          [
+            "since"
+          ],
+          [
+            "they"
+          ],
+          [
+            "arrived."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/7.mp3",
+        "timeStart": 21.59,
+        "timeEnd": 24.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68632/list"
+      },
+      {
+        "id": 68633,
+        "position": 8,
+        "content": "When you have a moment, please give me a call to arrange a time for you to pick them up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          [
+            "you have",
+            "you've"
+          ],
+          "a",
+          "moment,",
+          "please",
+          "give",
+          "me",
+          "a",
+          "call",
+          "to",
+          "arrange",
+          "a",
+          "time",
+          "for",
+          "you",
+          "to",
+          "pick",
+          "them",
+          "up."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "moment,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "call"
+          ],
+          [
+            "to"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "them"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/8.mp3",
+        "timeStart": 24.96,
+        "timeEnd": 30.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68633/list"
+      },
+      {
+        "id": 68634,
+        "position": 9,
+        "content": "I'll make sure to be there to assist you with getting them.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "make",
+          "sure",
+          "to",
+          "be",
+          "there",
+          "to",
+          "assist",
+          "you",
+          "with",
+          "getting",
+          "them."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "there"
+          ],
+          [
+            "to"
+          ],
+          [
+            "assist"
+          ],
+          [
+            "you"
+          ],
+          [
+            "with"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-186-2024-10-07-19-20-00/9.mp3",
+        "timeStart": 30.18,
+        "timeEnd": 33.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68634/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68626": {
+      "id": 2595881,
+      "text": "Chào buổi chiều, ông Johnson.",
+      "author": "ChatGPT4.1"
+    },
+    "68627": {
+      "id": 2595882,
+      "text": "Tôi hy vọng ông đã bắt đầu cảm thấy như ở nhà trong văn phòng mới của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "68628": {
+      "id": 2595883,
+      "text": "Tôi gọi để thông báo về một số kiện hàng lớn đã đến cho đội của ông vào đầu tuần này.",
+      "author": "ChatGPT4.1"
+    },
+    "68629": {
+      "id": 2595884,
+      "text": "Chúng tôi đã lưu trữ chúng an toàn tại khu vực được chỉ định ở tầng trệt.",
+      "author": "ChatGPT4.1"
+    },
+    "68630": {
+      "id": 2595885,
+      "text": "Theo hợp đồng thuê của chúng ta,",
+      "author": "ChatGPT4.1"
+    },
+    "68631": {
+      "id": 2595886,
+      "text": "chúng tôi có thể giữ các kiện hàng trong tối đa năm ngày,",
+      "author": "ChatGPT4.1"
+    },
+    "68632": {
+      "id": 2595887,
+      "text": "nhưng đến nay đã được một tuần kể từ khi chúng đến.",
+      "author": "ChatGPT4.1"
+    },
+    "68633": {
+      "id": 2595888,
+      "text": "Khi ông có thời gian, xin vui lòng gọi cho tôi để sắp xếp thời gian nhận hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "68634": {
+      "id": 2595889,
+      "text": "Tôi sẽ đảm bảo có mặt để hỗ trợ ông nhận các kiện hàng đó.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

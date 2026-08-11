@@ -1,0 +1,508 @@
+{
+  "summary": {
+    "id": 471,
+    "name": "73. Operating Room",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 74,
+    "totalChallenges": 9,
+    "groupId": 105,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/471",
+  "detail": {
+    "id": 471,
+    "lessonName": "73. Operating Room",
+    "name": "73. Operating Room",
+    "position": 74,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/0-73-operating-room.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18568,
+        "position": 1,
+        "content": "Mrs, Martin? I'm Dr. Thomas.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mrs,",
+          "Martin?",
+          [
+            "I'm",
+            "I am"
+          ],
+          "Dr.",
+          "Thomas."
+        ],
+        "solution": [
+          [
+            "Mrs,"
+          ],
+          [
+            "Martin?"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Thomas."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/1.mp3",
+        "timeStart": 2.31,
+        "timeEnd": 4.69,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18568/list"
+      },
+      {
+        "id": 18569,
+        "position": 2,
+        "content": "Oh, doctor, how is he?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "doctor,",
+          "how",
+          "is",
+          "he?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "doctor,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "is"
+          ],
+          [
+            "he?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/2.mp3",
+        "timeStart": 4.69,
+        "timeEnd": 6.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18569/list"
+      },
+      {
+        "id": 18570,
+        "position": 3,
+        "content": "Well, I'm afraid we'll have to operate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "afraid",
+          [
+            "we'll",
+            "we will"
+          ],
+          "have",
+          "to",
+          "operate."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "operate."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/3.mp3",
+        "timeStart": 6.58,
+        "timeEnd": 8.68,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18570/list"
+      },
+      {
+        "id": 18571,
+        "position": 4,
+        "content": "Oh, no! He's always been afraid of operations.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "no!",
+          "He's",
+          "always",
+          "been",
+          "afraid",
+          "of",
+          "operations."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "no!"
+          ],
+          [
+            "He's"
+          ],
+          [
+            "always"
+          ],
+          [
+            "been"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "of"
+          ],
+          [
+            "operations."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/4.mp3",
+        "timeStart": 8.74,
+        "timeEnd": 12.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18571/list"
+      },
+      {
+        "id": 18572,
+        "position": 5,
+        "content": "Don't worry. If we operate now, he'll be all right.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          "worry.",
+          "If",
+          "we",
+          "operate",
+          "now,",
+          [
+            "he'll",
+            "he will"
+          ],
+          "be",
+          [
+            "all right.",
+            "alright"
+          ]
+        ],
+        "solution": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          [
+            "worry."
+          ],
+          [
+            "If"
+          ],
+          [
+            "we"
+          ],
+          [
+            "operate"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "he'll",
+            "he will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "all right.",
+            "alright"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/5.mp3",
+        "timeStart": 12.22,
+        "timeEnd": 15.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18572/list"
+      },
+      {
+        "id": 18573,
+        "position": 6,
+        "content": "Oh, doctor, do you really have to?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "doctor,",
+          "do",
+          "you",
+          "really",
+          "have",
+          "to?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "doctor,"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "really"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/6.mp3",
+        "timeStart": 15.33,
+        "timeEnd": 18.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18573/list"
+      },
+      {
+        "id": 18574,
+        "position": 7,
+        "content": "I'm afraid so. He's lost a lot of blood.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "afraid",
+          "so.",
+          "He's",
+          "lost",
+          "a",
+          "lot",
+          "of",
+          "blood."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "so."
+          ],
+          [
+            "He's"
+          ],
+          [
+            "lost"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "blood."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/7.mp3",
+        "timeStart": 18.02,
+        "timeEnd": 20.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18574/list"
+      },
+      {
+        "id": 18575,
+        "position": 8,
+        "content": "If we don't operate, he'll die!",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "we",
+          [
+            "don't",
+            "do not"
+          ],
+          "operate,",
+          [
+            "he'll",
+            "he will"
+          ],
+          "die!"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "we"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "operate,"
+          ],
+          [
+            "he'll",
+            "he will"
+          ],
+          [
+            "die!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/8.mp3",
+        "timeStart": 20.33,
+        "timeEnd": 22.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18575/list"
+      },
+      {
+        "id": 18576,
+        "position": 9,
+        "content": "Oh, please do whatever you have to.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "please",
+          "do",
+          "whatever",
+          [
+            "you have",
+            "you've"
+          ],
+          "to."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "do"
+          ],
+          [
+            "whatever"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/73-operating-room-2022-03-07-21-28-36/9.mp3",
+        "timeStart": 22.28,
+        "timeEnd": 24.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18576/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18568": {
+      "id": 41990,
+      "text": "Bà, Martin? Tôi là bác sĩ Thomas.",
+      "author": "a user"
+    },
+    "18569": {
+      "id": 41993,
+      "text": "Ôi bác sĩ, anh ấy thế nào rồi?",
+      "author": "a user"
+    },
+    "18570": {
+      "id": 41997,
+      "text": "Ồ, tôi e rằng chúng ta sẽ phải phẫu thuật.",
+      "author": "a user"
+    },
+    "18572": {
+      "id": 42001,
+      "text": "Đừng lo. Nếu chúng tôi phẫu thuật ngay bây giờ, anh ấy sẽ ổn thôi.",
+      "author": "a user"
+    },
+    "18574": {
+      "id": 42004,
+      "text": "Tôi e là vậy. Anh ấy mất rất nhiều máu.",
+      "author": "a user"
+    },
+    "18571": {
+      "id": 2593267,
+      "text": "Ôi không! Ông ấy luôn sợ các ca phẫu thuật.",
+      "author": "ChatGPT4.1"
+    },
+    "18573": {
+      "id": 2593268,
+      "text": "Ôi, bác sĩ, thật sự phải làm vậy sao?",
+      "author": "ChatGPT4.1"
+    },
+    "18575": {
+      "id": 2593269,
+      "text": "Nếu chúng ta không phẫu thuật, ông ấy sẽ chết!",
+      "author": "ChatGPT4.1"
+    },
+    "18576": {
+      "id": 2593270,
+      "text": "Ôi, xin hãy làm bất cứ điều gì cần thiết.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

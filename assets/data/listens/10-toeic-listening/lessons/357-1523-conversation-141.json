@@ -1,0 +1,1006 @@
+{
+  "summary": {
+    "id": 1523,
+    "name": "Conversation 141",
+    "subTitle": "M&A Report Discussion",
+    "levelName": "B2",
+    "position": 357,
+    "totalChallenges": 17,
+    "groupId": 45,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1523",
+  "detail": {
+    "id": 1523,
+    "lessonName": "Conversation 141",
+    "name": "Conversation 141",
+    "position": 357,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/0-conversation-141.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65867,
+        "position": 1,
+        "content": "Good morning, Sarah.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          "Sarah."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "Sarah."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/1.mp3",
+        "timeStart": 0.28,
+        "timeEnd": 1.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65867/list"
+      },
+      {
+        "id": 65868,
+        "position": 2,
+        "content": "I just looked over the M&A report.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "looked",
+          "over",
+          "the",
+          [
+            "M&A",
+            "M and A"
+          ],
+          "report."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "looked"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "M&A",
+            "M and A"
+          ],
+          [
+            "report."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/2.mp3",
+        "timeStart": 1.62,
+        "timeEnd": 4.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65868/list"
+      },
+      {
+        "id": 65869,
+        "position": 3,
+        "content": "Have you had a chance to look at it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          [
+            "you had",
+            "you'd"
+          ],
+          "a",
+          "chance",
+          "to",
+          "look",
+          "at",
+          "it?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you had",
+            "you'd"
+          ],
+          [
+            "a"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/3.mp3",
+        "timeStart": 4.01,
+        "timeEnd": 5.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65869/list"
+      },
+      {
+        "id": 65870,
+        "position": 4,
+        "content": "It seems we considered merging with Hastings Investments last month.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "seems",
+          "we",
+          "considered",
+          "merging",
+          "with",
+          "Hastings",
+          "Investments",
+          "last",
+          "month."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "we"
+          ],
+          [
+            "considered"
+          ],
+          [
+            "merging"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Hastings"
+          ],
+          [
+            "Investments"
+          ],
+          [
+            "last"
+          ],
+          [
+            "month."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/4.mp3",
+        "timeStart": 5.78,
+        "timeEnd": 10.08,
+        "hints": [
+          "Hastings"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65870/list"
+      },
+      {
+        "id": 65871,
+        "position": 5,
+        "content": "You are kidding me!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You are",
+            "You're"
+          ],
+          "kidding",
+          "me!"
+        ],
+        "solution": [
+          [
+            "You are",
+            "You're"
+          ],
+          [
+            "kidding"
+          ],
+          [
+            "me!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/5.mp3",
+        "timeStart": 10.08,
+        "timeEnd": 11.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65871/list"
+      },
+      {
+        "id": 65872,
+        "position": 6,
+        "content": "Does it say anything else that is interesting?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Does",
+          "it",
+          "say",
+          "anything",
+          "else",
+          [
+            "that is",
+            "that's"
+          ],
+          "interesting?"
+        ],
+        "solution": [
+          [
+            "Does"
+          ],
+          [
+            "it"
+          ],
+          [
+            "say"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "else"
+          ],
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "interesting?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/6.mp3",
+        "timeStart": 11.44,
+        "timeEnd": 14.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65872/list"
+      },
+      {
+        "id": 65873,
+        "position": 7,
+        "content": "The biggest point was our businesses' stock value.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "biggest",
+          "point",
+          "was",
+          "our",
+          "businesses'",
+          "stock",
+          "value."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "biggest"
+          ],
+          [
+            "point"
+          ],
+          [
+            "was"
+          ],
+          [
+            "our"
+          ],
+          [
+            "businesses'"
+          ],
+          [
+            "stock"
+          ],
+          [
+            "value."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/7.mp3",
+        "timeStart": 14.06,
+        "timeEnd": 17.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65873/list"
+      },
+      {
+        "id": 65874,
+        "position": 8,
+        "content": "We have never had the biggest value,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "We've"
+          ],
+          "never",
+          "had",
+          "the",
+          "biggest",
+          "value,"
+        ],
+        "solution": [
+          [
+            "We have",
+            "We've"
+          ],
+          [
+            "never"
+          ],
+          [
+            "had"
+          ],
+          [
+            "the"
+          ],
+          [
+            "biggest"
+          ],
+          [
+            "value,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/8.mp3",
+        "timeStart": 17.08,
+        "timeEnd": 19.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65874/list"
+      },
+      {
+        "id": 65875,
+        "position": 9,
+        "content": "but we always are trying to get our numbers up to keep in line with our competitors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "always",
+          "are",
+          "trying",
+          "to",
+          "get",
+          "our",
+          "numbers",
+          "up",
+          "to",
+          "keep",
+          "in",
+          "line",
+          "with",
+          "our",
+          "competitors."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "always"
+          ],
+          [
+            "are"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "our"
+          ],
+          [
+            "numbers"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "in"
+          ],
+          [
+            "line"
+          ],
+          [
+            "with"
+          ],
+          [
+            "our"
+          ],
+          [
+            "competitors."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/9.mp3",
+        "timeStart": 19.03,
+        "timeEnd": 23.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65875/list"
+      },
+      {
+        "id": 65876,
+        "position": 10,
+        "content": "Well, we are already the second biggest firm in the country,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "we are",
+            "we're"
+          ],
+          "already",
+          "the",
+          "second",
+          "biggest",
+          "firm",
+          "in",
+          "the",
+          "country,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we are",
+            "we're"
+          ],
+          [
+            "already"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second"
+          ],
+          [
+            "biggest"
+          ],
+          [
+            "firm"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "country,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/10.mp3",
+        "timeStart": 23.26,
+        "timeEnd": 27.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65876/list"
+      },
+      {
+        "id": 65877,
+        "position": 11,
+        "content": "and if we could acquire Hastings Investments,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "if",
+          "we",
+          "could",
+          "acquire",
+          "Hastings",
+          "Investments,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "acquire"
+          ],
+          [
+            "Hastings"
+          ],
+          [
+            "Investments,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/11.mp3",
+        "timeStart": 27.02,
+        "timeEnd": 29.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65877/list"
+      },
+      {
+        "id": 65878,
+        "position": 12,
+        "content": "we would likely move up to overtake the first spot.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "we would",
+            "we'd"
+          ],
+          "likely",
+          "move",
+          "up",
+          "to",
+          "overtake",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "spot."
+        ],
+        "solution": [
+          [
+            "we would",
+            "we'd"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "move"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "overtake"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "spot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/12.mp3",
+        "timeStart": 29.68,
+        "timeEnd": 32.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65878/list"
+      },
+      {
+        "id": 65879,
+        "position": 13,
+        "content": "I think it is a great idea.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "it is",
+            "it's"
+          ],
+          "a",
+          "great",
+          "idea."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "idea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/13.mp3",
+        "timeStart": 32.36,
+        "timeEnd": 34.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65879/list"
+      },
+      {
+        "id": 65880,
+        "position": 14,
+        "content": "Hmm.. I don't know.",
+        "defaultInput": "Hmm.. I don't know.",
+        "jsonContent": [
+          "Hmm..",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "know."
+        ],
+        "solution": [
+          [
+            "Hmm.."
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/14.mp3",
+        "timeStart": 34.41,
+        "timeEnd": 36.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65880/list"
+      },
+      {
+        "id": 65881,
+        "position": 15,
+        "content": "I don't think it would be what is best for our company.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          [
+            "it would",
+            "it'd"
+          ],
+          "be",
+          [
+            "what is",
+            "what's"
+          ],
+          "best",
+          "for",
+          "our",
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it would",
+            "it'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "what is",
+            "what's"
+          ],
+          [
+            "best"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/15.mp3",
+        "timeStart": 36.61,
+        "timeEnd": 39.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65881/list"
+      },
+      {
+        "id": 65882,
+        "position": 16,
+        "content": "I am reading the latest report now.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "reading",
+          "the",
+          "latest",
+          "report",
+          "now."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "the"
+          ],
+          [
+            "latest"
+          ],
+          [
+            "report"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/16.mp3",
+        "timeStart": 39.8,
+        "timeEnd": 42.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65882/list"
+      },
+      {
+        "id": 65883,
+        "position": 17,
+        "content": "It seems that Hastings Investments has reported a drop in their profits over the last three quarters.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "seems",
+          "that",
+          "Hastings",
+          "Investments",
+          "has",
+          "reported",
+          "a",
+          "drop",
+          "in",
+          "their",
+          "profits",
+          "over",
+          "the",
+          "last",
+          [
+            "three",
+            "3"
+          ],
+          "quarters."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "that"
+          ],
+          [
+            "Hastings"
+          ],
+          [
+            "Investments"
+          ],
+          [
+            "has"
+          ],
+          [
+            "reported"
+          ],
+          [
+            "a"
+          ],
+          [
+            "drop"
+          ],
+          [
+            "in"
+          ],
+          [
+            "their"
+          ],
+          [
+            "profits"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "quarters."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-141-2024-09-14-18-19-39/17.mp3",
+        "timeStart": 42.12,
+        "timeEnd": 48.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65883/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "65867": {
+      "id": 2597711,
+      "text": "Chào buổi sáng, Sarah.",
+      "author": "ChatGPT4.1"
+    },
+    "65868": {
+      "id": 2597712,
+      "text": "Tôi vừa xem qua báo cáo M&A.",
+      "author": "ChatGPT4.1"
+    },
+    "65869": {
+      "id": 2597713,
+      "text": "Bạn đã có cơ hội xem qua nó chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "65870": {
+      "id": 2597714,
+      "text": "Có vẻ như chúng ta đã cân nhắc sáp nhập với Hastings Investments vào tháng trước.",
+      "author": "ChatGPT4.1"
+    },
+    "65871": {
+      "id": 2597715,
+      "text": "Bạn đang đùa tôi đấy à!",
+      "author": "ChatGPT4.1"
+    },
+    "65872": {
+      "id": 2597716,
+      "text": "Nó có đề cập thêm điều gì thú vị không?",
+      "author": "ChatGPT4.1"
+    },
+    "65873": {
+      "id": 2597717,
+      "text": "Điểm lớn nhất là giá trị cổ phiếu của doanh nghiệp chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "65874": {
+      "id": 2597718,
+      "text": "Chúng ta chưa bao giờ có giá trị lớn nhất,",
+      "author": "ChatGPT4.1"
+    },
+    "65875": {
+      "id": 2597719,
+      "text": "nhưng chúng ta luôn cố gắng nâng cao các con số để theo kịp các đối thủ cạnh tranh.",
+      "author": "ChatGPT4.1"
+    },
+    "65876": {
+      "id": 2597720,
+      "text": "Chà, chúng ta đã là công ty lớn thứ hai trong nước rồi,",
+      "author": "ChatGPT4.1"
+    },
+    "65877": {
+      "id": 2597721,
+      "text": "và nếu chúng ta có thể mua lại Hastings Investments,",
+      "author": "ChatGPT4.1"
+    },
+    "65878": {
+      "id": 2597722,
+      "text": "chúng ta có thể sẽ vượt lên để giành vị trí số một.",
+      "author": "ChatGPT4.1"
+    },
+    "65879": {
+      "id": 2597723,
+      "text": "Tôi nghĩ đó là một ý tưởng tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "65880": {
+      "id": 2597724,
+      "text": "Ừm... Tôi không chắc.",
+      "author": "ChatGPT4.1"
+    },
+    "65881": {
+      "id": 2597725,
+      "text": "Tôi không nghĩ đó là điều tốt nhất cho công ty chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "65882": {
+      "id": 2597726,
+      "text": "Tôi đang đọc báo cáo mới nhất ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "65883": {
+      "id": 2597727,
+      "text": "Có vẻ như Hastings Investments đã báo cáo sụt giảm lợi nhuận trong ba quý gần đây.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

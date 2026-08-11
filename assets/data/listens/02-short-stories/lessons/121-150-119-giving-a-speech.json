@@ -1,0 +1,2217 @@
+{
+  "summary": {
+    "id": 150,
+    "name": "119. Giving a speech",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 121,
+    "totalChallenges": 34,
+    "groupId": 91,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/150",
+  "detail": {
+    "id": 150,
+    "lessonName": "119. Giving a speech",
+    "name": "119. Giving a speech",
+    "position": 121,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/0-120-giving-a-speech.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 5601,
+        "position": 1,
+        "content": "I had to give a speech last week.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "to",
+          "give",
+          "a",
+          "speech",
+          "last",
+          "week."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech"
+          ],
+          [
+            "last"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/1.mp3",
+        "timeStart": 2.48,
+        "timeEnd": 4.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5601/list"
+      },
+      {
+        "id": 5602,
+        "position": 2,
+        "content": "I gave a speech to 300 people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "gave",
+          "a",
+          "speech",
+          "to",
+          [
+            "300",
+            "three hundred"
+          ],
+          "people."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech"
+          ],
+          [
+            "to"
+          ],
+          [
+            "300",
+            "three hundred"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/2.mp3",
+        "timeStart": 4.32,
+        "timeEnd": 6.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5602/list"
+      },
+      {
+        "id": 5603,
+        "position": 3,
+        "content": "I had to speak in front of a group of students.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "to",
+          "speak",
+          "in",
+          "front",
+          "of",
+          "a",
+          "group",
+          "of",
+          "students."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "to"
+          ],
+          [
+            "speak"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "group"
+          ],
+          [
+            "of"
+          ],
+          [
+            "students."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/3.mp3",
+        "timeStart": 6.56,
+        "timeEnd": 8.56,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/5603/list"
+      },
+      {
+        "id": 5604,
+        "position": 4,
+        "content": "I had to tell them about a campaign that we were having to raise money for cancer research.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "to",
+          "tell",
+          "them",
+          "about",
+          "a",
+          "campaign",
+          "that",
+          "we",
+          "were",
+          "having",
+          "to",
+          "raise",
+          "money",
+          "for",
+          "cancer",
+          "research."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "to"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "them"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "campaign"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "were"
+          ],
+          [
+            "having"
+          ],
+          [
+            "to"
+          ],
+          [
+            "raise"
+          ],
+          [
+            "money"
+          ],
+          [
+            "for"
+          ],
+          [
+            "cancer"
+          ],
+          [
+            "research."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/4.mp3",
+        "timeStart": 8.72,
+        "timeEnd": 13.27,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/5604/list"
+      },
+      {
+        "id": 5605,
+        "position": 5,
+        "content": "Giving a speech can be a difficult thing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Giving",
+          "a",
+          "speech",
+          "can",
+          "be",
+          "a",
+          "difficult",
+          "thing."
+        ],
+        "solution": [
+          [
+            "Giving"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "thing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/5.mp3",
+        "timeStart": 13.92,
+        "timeEnd": 16.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5605/list"
+      },
+      {
+        "id": 5606,
+        "position": 6,
+        "content": "When you stand in front of a big crowd, you can get very nervous.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "you",
+          "stand",
+          "in",
+          "front",
+          "of",
+          "a",
+          "big",
+          "crowd,",
+          "you",
+          "can",
+          "get",
+          "very",
+          "nervous."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you"
+          ],
+          [
+            "stand"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "crowd,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "very"
+          ],
+          [
+            "nervous."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/6.mp3",
+        "timeStart": 16.22,
+        "timeEnd": 19.62,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/5606/list"
+      },
+      {
+        "id": 5607,
+        "position": 7,
+        "content": "Some people feel like they have weak knees.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "people",
+          "feel",
+          "like",
+          [
+            "they have",
+            "they've"
+          ],
+          "weak",
+          "knees."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "people"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "like"
+          ],
+          [
+            "they have",
+            "they've"
+          ],
+          [
+            "weak"
+          ],
+          [
+            "knees."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/7.mp3",
+        "timeStart": 19.66,
+        "timeEnd": 21.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5607/list"
+      },
+      {
+        "id": 5608,
+        "position": 8,
+        "content": "Their legs feel as if they are made of rubber.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Their",
+          "legs",
+          "feel",
+          "as",
+          "if",
+          [
+            "they are",
+            "they're"
+          ],
+          "made",
+          "of",
+          "rubber."
+        ],
+        "solution": [
+          [
+            "Their"
+          ],
+          [
+            "legs"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "as"
+          ],
+          [
+            "if"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "made"
+          ],
+          [
+            "of"
+          ],
+          [
+            "rubber."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/8.mp3",
+        "timeStart": 21.88,
+        "timeEnd": 24.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5608/list"
+      },
+      {
+        "id": 5609,
+        "position": 9,
+        "content": "Their heart beats very hard inside of their chest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Their",
+          "heart",
+          "beats",
+          "very",
+          "hard",
+          "inside",
+          "of",
+          "their",
+          "chest."
+        ],
+        "solution": [
+          [
+            "Their"
+          ],
+          [
+            "heart"
+          ],
+          [
+            "beats"
+          ],
+          [
+            "very"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "inside"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "chest."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/9.mp3",
+        "timeStart": 24.24,
+        "timeEnd": 26.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5609/list"
+      },
+      {
+        "id": 5610,
+        "position": 10,
+        "content": "Their palms get sweaty.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Their",
+          "palms",
+          "get",
+          "sweaty."
+        ],
+        "solution": [
+          [
+            "Their"
+          ],
+          [
+            "palms"
+          ],
+          [
+            "get"
+          ],
+          [
+            "sweaty."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/10.mp3",
+        "timeStart": 26.88,
+        "timeEnd": 28.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5610/list"
+      },
+      {
+        "id": 5611,
+        "position": 11,
+        "content": "Some people even become short of breath.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "people",
+          "even",
+          "become",
+          "short",
+          "of",
+          "breath."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "people"
+          ],
+          [
+            "even"
+          ],
+          [
+            "become"
+          ],
+          [
+            "short"
+          ],
+          [
+            "of"
+          ],
+          [
+            "breath."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/11.mp3",
+        "timeStart": 28.35,
+        "timeEnd": 30.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5611/list"
+      },
+      {
+        "id": 5612,
+        "position": 12,
+        "content": "For some people, giving a speech is their worst fear.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "some",
+          "people,",
+          "giving",
+          "a",
+          "speech",
+          "is",
+          "their",
+          "worst",
+          "fear."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "some"
+          ],
+          [
+            "people,"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech"
+          ],
+          [
+            "is"
+          ],
+          [
+            "their"
+          ],
+          [
+            "worst"
+          ],
+          [
+            "fear."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/12.mp3",
+        "timeStart": 30.72,
+        "timeEnd": 33.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5612/list"
+      },
+      {
+        "id": 5613,
+        "position": 13,
+        "content": "When you give a speech, everyone is looking at you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "you",
+          "give",
+          "a",
+          "speech,",
+          "everyone",
+          "is",
+          "looking",
+          "at",
+          "you."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you"
+          ],
+          [
+            "give"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech,"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "is"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/13.mp3",
+        "timeStart": 34.13,
+        "timeEnd": 36.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5613/list"
+      },
+      {
+        "id": 5614,
+        "position": 14,
+        "content": "They're waiting to hear what you have to say.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "They are"
+          ],
+          "waiting",
+          "to",
+          "hear",
+          "what",
+          [
+            "you have",
+            "you've"
+          ],
+          "to",
+          "say."
+        ],
+        "solution": [
+          [
+            "They're",
+            "They are"
+          ],
+          [
+            "waiting"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "say."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/14.mp3",
+        "timeStart": 37,
+        "timeEnd": 39.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5614/list"
+      },
+      {
+        "id": 5615,
+        "position": 15,
+        "content": "When you have 300 people looking at you; you have 600 eyes that are on you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "300",
+            "three hundred"
+          ],
+          "people",
+          "looking",
+          "at",
+          "you;",
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "600",
+            "six hundred"
+          ],
+          "eyes",
+          "that",
+          "are",
+          "on",
+          "you."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "300",
+            "three hundred"
+          ],
+          [
+            "people"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "you;"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "600",
+            "six hundred"
+          ],
+          [
+            "eyes"
+          ],
+          [
+            "that"
+          ],
+          [
+            "are"
+          ],
+          [
+            "on"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/15.mp3",
+        "timeStart": 40.21,
+        "timeEnd": 44.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5615/list"
+      },
+      {
+        "id": 5616,
+        "position": 16,
+        "content": "It is a little frightening when you think of it that way.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "a",
+          "little",
+          "frightening",
+          "when",
+          "you",
+          "think",
+          "of",
+          "it",
+          "that",
+          "way."
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "frightening"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "of"
+          ],
+          [
+            "it"
+          ],
+          [
+            "that"
+          ],
+          [
+            "way."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/16.mp3",
+        "timeStart": 45.2,
+        "timeEnd": 47.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5616/list"
+      },
+      {
+        "id": 5617,
+        "position": 17,
+        "content": "Before I give a speech, I take three big breaths.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "I",
+          "give",
+          "a",
+          "speech,",
+          "I",
+          "take",
+          [
+            "three",
+            "3"
+          ],
+          "big",
+          "breaths."
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "I"
+          ],
+          [
+            "give"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "take"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "big"
+          ],
+          [
+            "breaths."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/17.mp3",
+        "timeStart": 48.19,
+        "timeEnd": 51.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5617/list"
+      },
+      {
+        "id": 5618,
+        "position": 18,
+        "content": "I calm myself, and I remind myself that what I have to say is important.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "calm",
+          "myself,",
+          "and",
+          "I",
+          "remind",
+          "myself",
+          "that",
+          "what",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "say",
+          "is",
+          "important."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "calm"
+          ],
+          [
+            "myself,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "remind"
+          ],
+          [
+            "myself"
+          ],
+          [
+            "that"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "say"
+          ],
+          [
+            "is"
+          ],
+          [
+            "important."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/18.mp3",
+        "timeStart": 51.6,
+        "timeEnd": 56.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5618/list"
+      },
+      {
+        "id": 5619,
+        "position": 19,
+        "content": "I like to be sure of what I am going to say, so I practice my speech in front of a mirror at home.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "like",
+          "to",
+          "be",
+          "sure",
+          "of",
+          "what",
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "say,",
+          "so",
+          "I",
+          [
+            "practice",
+            "practise"
+          ],
+          "my",
+          "speech",
+          "in",
+          "front",
+          "of",
+          "a",
+          "mirror",
+          "at",
+          "home."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "of"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "say,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "practice",
+            "practise"
+          ],
+          [
+            "my"
+          ],
+          [
+            "speech"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mirror"
+          ],
+          [
+            "at"
+          ],
+          [
+            "home."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/19.mp3",
+        "timeStart": 56.75,
+        "timeEnd": 61.67,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/5619/list"
+      },
+      {
+        "id": 5620,
+        "position": 20,
+        "content": "I like to look like I am relaxed and friendly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "like",
+          "to",
+          "look",
+          "like",
+          [
+            "I am",
+            "I'm"
+          ],
+          "relaxed",
+          "and",
+          "friendly."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "like"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "relaxed"
+          ],
+          [
+            "and"
+          ],
+          [
+            "friendly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/20.mp3",
+        "timeStart": 62.11,
+        "timeEnd": 64.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5620/list"
+      },
+      {
+        "id": 5621,
+        "position": 21,
+        "content": "They say that practice makes perfect;",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "say",
+          "that",
+          [
+            "practice",
+            "practise"
+          ],
+          "makes",
+          "perfect;"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "say"
+          ],
+          [
+            "that"
+          ],
+          [
+            "practice",
+            "practise"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "perfect;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/21.mp3",
+        "timeStart": 64.97,
+        "timeEnd": 66.95,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/5621/list"
+      },
+      {
+        "id": 5622,
+        "position": 22,
+        "content": "so the more speeches that you give, the better you will become at it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "the",
+          "more",
+          "speeches",
+          "that",
+          "you",
+          "give,",
+          "the",
+          "better",
+          [
+            "you will",
+            "you'll"
+          ],
+          "become",
+          "at",
+          "it."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "the"
+          ],
+          [
+            "more"
+          ],
+          [
+            "speeches"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "give,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "better"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "become"
+          ],
+          [
+            "at"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/22.mp3",
+        "timeStart": 67.03,
+        "timeEnd": 70.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5622/list"
+      },
+      {
+        "id": 5623,
+        "position": 23,
+        "content": "Whenever I have to give a speech, I imagine that the audience is just one big person.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Whenever",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "give",
+          "a",
+          "speech,",
+          "I",
+          "imagine",
+          "that",
+          "the",
+          "audience",
+          "is",
+          "just",
+          [
+            "one",
+            "1"
+          ],
+          "big",
+          "person."
+        ],
+        "solution": [
+          [
+            "Whenever"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "imagine"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "audience"
+          ],
+          [
+            "is"
+          ],
+          [
+            "just"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "big"
+          ],
+          [
+            "person."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/23.mp3",
+        "timeStart": 71.47,
+        "timeEnd": 76.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5623/list"
+      },
+      {
+        "id": 5624,
+        "position": 24,
+        "content": "I look out into the audience until I find a friendly, smiling face.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "look",
+          "out",
+          "into",
+          "the",
+          "audience",
+          "until",
+          "I",
+          "find",
+          "a",
+          "friendly,",
+          "smiling",
+          "face."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "look"
+          ],
+          [
+            "out"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "audience"
+          ],
+          [
+            "until"
+          ],
+          [
+            "I"
+          ],
+          [
+            "find"
+          ],
+          [
+            "a"
+          ],
+          [
+            "friendly,"
+          ],
+          [
+            "smiling"
+          ],
+          [
+            "face."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/24.mp3",
+        "timeStart": 76.51,
+        "timeEnd": 80.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5624/list"
+      },
+      {
+        "id": 5625,
+        "position": 25,
+        "content": "I focus on that person,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "focus",
+          "on",
+          "that",
+          "person,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that"
+          ],
+          [
+            "person,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/25.mp3",
+        "timeStart": 80.21,
+        "timeEnd": 81.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5625/list"
+      },
+      {
+        "id": 5626,
+        "position": 26,
+        "content": "and I pretend that I am just talking to them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "pretend",
+          "that",
+          [
+            "I am",
+            "I'm"
+          ],
+          "just",
+          "talking",
+          "to",
+          "them."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "pretend"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "just"
+          ],
+          [
+            "talking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/26.mp3",
+        "timeStart": 81.98,
+        "timeEnd": 84.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5626/list"
+      },
+      {
+        "id": 5627,
+        "position": 27,
+        "content": "I have become used to giving speeches.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "become",
+          "used",
+          "to",
+          "giving",
+          "speeches."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "become"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "speeches."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/27.mp3",
+        "timeStart": 85.64,
+        "timeEnd": 87.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5627/list"
+      },
+      {
+        "id": 5628,
+        "position": 28,
+        "content": "I am more relaxed now than I used to be.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "more",
+          "relaxed",
+          "now",
+          "than",
+          "I",
+          "used",
+          "to",
+          "be."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "more"
+          ],
+          [
+            "relaxed"
+          ],
+          [
+            "now"
+          ],
+          [
+            "than"
+          ],
+          [
+            "I"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/28.mp3",
+        "timeStart": 87.72,
+        "timeEnd": 90,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5628/list"
+      },
+      {
+        "id": 5629,
+        "position": 29,
+        "content": "People tell me that I do not look nervous at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "People",
+          "tell",
+          "me",
+          "that",
+          "I",
+          [
+            "do not",
+            "don't"
+          ],
+          "look",
+          "nervous",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "People"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do not",
+            "don't"
+          ],
+          [
+            "look"
+          ],
+          [
+            "nervous"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/29.mp3",
+        "timeStart": 90.1,
+        "timeEnd": 92.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5629/list"
+      },
+      {
+        "id": 5630,
+        "position": 30,
+        "content": "I like to hear that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "like",
+          "to",
+          "hear",
+          "that."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/30.mp3",
+        "timeStart": 93.09,
+        "timeEnd": 94.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5630/list"
+      },
+      {
+        "id": 5631,
+        "position": 31,
+        "content": "Sometimes I do feel a little flutter of nervousness,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sometimes",
+          "I",
+          "do",
+          "feel",
+          "a",
+          "little",
+          "flutter",
+          "of",
+          "nervousness,"
+        ],
+        "solution": [
+          [
+            "Sometimes"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "flutter"
+          ],
+          [
+            "of"
+          ],
+          [
+            "nervousness,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/31.mp3",
+        "timeStart": 94.36,
+        "timeEnd": 97.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5631/list"
+      },
+      {
+        "id": 5632,
+        "position": 32,
+        "content": "but I just ignore it and do the best that I can.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "just",
+          "ignore",
+          "it",
+          "and",
+          "do",
+          "the",
+          "best",
+          "that",
+          "I",
+          "can."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "ignore"
+          ],
+          [
+            "it"
+          ],
+          [
+            "and"
+          ],
+          [
+            "do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/32.mp3",
+        "timeStart": 97.12,
+        "timeEnd": 99.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5632/list"
+      },
+      {
+        "id": 5633,
+        "position": 33,
+        "content": "Giving a speech is not as scary as it appears to be.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Giving",
+          "a",
+          "speech",
+          [
+            "is not",
+            "isn't"
+          ],
+          "as",
+          "scary",
+          "as",
+          "it",
+          "appears",
+          "to",
+          "be."
+        ],
+        "solution": [
+          [
+            "Giving"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speech"
+          ],
+          [
+            "is not",
+            "isn't"
+          ],
+          [
+            "as"
+          ],
+          [
+            "scary"
+          ],
+          [
+            "as"
+          ],
+          [
+            "it"
+          ],
+          [
+            "appears"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/33.mp3",
+        "timeStart": 100.02,
+        "timeEnd": 102.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5633/list"
+      },
+      {
+        "id": 5634,
+        "position": 34,
+        "content": "Anyone can do it with a little practice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anyone",
+          "can",
+          "do",
+          "it",
+          "with",
+          "a",
+          "little",
+          [
+            "practice.",
+            "practise"
+          ]
+        ],
+        "solution": [
+          [
+            "Anyone"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "practice.",
+            "practise"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/120-giving-a-speech-2019-04-07-04-17-40/34.mp3",
+        "timeStart": 102.63,
+        "timeEnd": 105.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5634/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "5622": {
+      "id": 2080046,
+      "text": "vì vậy, bạn càng thuyết trình nhiều thì bạn sẽ càng giỏi hơn trong việc đó",
+      "author": "a user"
+    },
+    "5631": {
+      "id": 2080055,
+      "text": "Đôi khi tôi cảm thấy một chút lo lắng thoáng qua.",
+      "author": "a user"
+    },
+    "5633": {
+      "id": 2082715,
+      "text": "Việc phát biểu không hề đáng sợ như bạn nghĩ.",
+      "author": "a user"
+    },
+    "5601": {
+      "id": 2582523,
+      "text": "Tôi đã phải phát biểu vào tuần trước.",
+      "author": "ChatGPT4.1"
+    },
+    "5602": {
+      "id": 2582524,
+      "text": "Tôi đã phát biểu trước 300 người.",
+      "author": "ChatGPT4.1"
+    },
+    "5603": {
+      "id": 2582525,
+      "text": "Tôi đã phải nói trước một nhóm sinh viên.",
+      "author": "ChatGPT4.1"
+    },
+    "5604": {
+      "id": 2582526,
+      "text": "Tôi đã phải nói cho họ về một chiến dịch mà chúng tôi tổ chức để gây quỹ nghiên cứu ung thư.",
+      "author": "ChatGPT4.1"
+    },
+    "5605": {
+      "id": 2582527,
+      "text": "Phát biểu trước đám đông có thể là một việc khó khăn.",
+      "author": "ChatGPT4.1"
+    },
+    "5606": {
+      "id": 2582528,
+      "text": "Khi bạn đứng trước một đám đông lớn, bạn có thể rất hồi hộp.",
+      "author": "ChatGPT4.1"
+    },
+    "5607": {
+      "id": 2582529,
+      "text": "Một số người cảm thấy như đầu gối mình yếu đi.",
+      "author": "ChatGPT4.1"
+    },
+    "5608": {
+      "id": 2582530,
+      "text": "Chân họ cảm giác như làm bằng cao su vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "5609": {
+      "id": 2582531,
+      "text": "Tim họ đập rất mạnh trong lồng ngực.",
+      "author": "ChatGPT4.1"
+    },
+    "5610": {
+      "id": 2582532,
+      "text": "Lòng bàn tay họ trở nên ướt đẫm mồ hôi.",
+      "author": "ChatGPT4.1"
+    },
+    "5611": {
+      "id": 2582533,
+      "text": "Một số người còn cảm thấy khó thở.",
+      "author": "ChatGPT4.1"
+    },
+    "5612": {
+      "id": 2582534,
+      "text": "Với một số người, phát biểu trước đám đông chính là nỗi sợ lớn nhất của họ.",
+      "author": "a user"
+    },
+    "5613": {
+      "id": 2582535,
+      "text": "Khi bạn phát biểu, mọi người đều nhìn vào bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "5614": {
+      "id": 2582536,
+      "text": "Họ đang chờ để nghe xem bạn nói điều gì.",
+      "author": "a user"
+    },
+    "5615": {
+      "id": 2582537,
+      "text": "Khi bạn có 300 người đang nhìn vào mình; bạn có 600 con mắt đang hướng về bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "5616": {
+      "id": 2582538,
+      "text": "Nghĩ như vậy thực sự hơi đáng sợ.",
+      "author": "ChatGPT4.1"
+    },
+    "5617": {
+      "id": 2582539,
+      "text": "Trước khi phát biểu, tôi hít thở sâu ba lần.",
+      "author": "ChatGPT4.1"
+    },
+    "5618": {
+      "id": 2582540,
+      "text": "Tôi trấn an bản thân và nhắc mình rằng điều mình sắp nói là quan trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "5619": {
+      "id": 2582541,
+      "text": "Tôi muốn chắc chắn về những gì mình sắp nói nên tôi luyện tập nói trước gương ở nhà.",
+      "author": "a user"
+    },
+    "5620": {
+      "id": 2582542,
+      "text": "Tôi muốn trông thật thoải mái và thân thiện.",
+      "author": "ChatGPT4.1"
+    },
+    "5621": {
+      "id": 2582543,
+      "text": "Người ta nói rằng luyện tập sẽ tạo nên sự hoàn hảo;",
+      "author": "ChatGPT4.1"
+    },
+    "5623": {
+      "id": 2582544,
+      "text": "Mỗi khi phải phát biểu, tôi tưởng tượng cả khán phòng chỉ là một người lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "5624": {
+      "id": 2582545,
+      "text": "Tôi nhìn vào khán giả cho đến khi tìm thấy một khuôn mặt thân thiện, mỉm cười.",
+      "author": "ChatGPT4.1"
+    },
+    "5625": {
+      "id": 2582546,
+      "text": "Tôi tập trung vào người đó,",
+      "author": "ChatGPT4.1"
+    },
+    "5626": {
+      "id": 2582547,
+      "text": "và tôi giả vờ như tôi chỉ đang nói chuyện với người đó mà thôi.",
+      "author": "a user"
+    },
+    "5627": {
+      "id": 2582548,
+      "text": "Tôi đã quen với việc phát biểu trước đám đông.",
+      "author": "ChatGPT4.1"
+    },
+    "5628": {
+      "id": 2582549,
+      "text": "Giờ đây tôi cảm thấy thoải mái hơn trước rất nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "5629": {
+      "id": 2582550,
+      "text": "Mọi người nói rằng tôi trông hoàn toàn không có vẻ lo lắng.",
+      "author": "ChatGPT4.1"
+    },
+    "5630": {
+      "id": 2582551,
+      "text": "Tôi thích được nghe như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "5632": {
+      "id": 2585899,
+      "text": "nhưng tôi chỉ phớt lờ nó và làm hết sức mình.",
+      "author": "ChatGPT4.1"
+    },
+    "5634": {
+      "id": 2585900,
+      "text": "Ai cũng có thể làm được điều đó nếu luyện tập một chút.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

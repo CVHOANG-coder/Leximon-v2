@@ -1,0 +1,773 @@
+{
+  "summary": {
+    "id": 1199,
+    "name": "Short Talk 80",
+    "subTitle": "Customer Survey Results Summary",
+    "levelName": "B1",
+    "position": 232,
+    "totalChallenges": 10,
+    "groupId": 38,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1199",
+  "detail": {
+    "id": 1199,
+    "lessonName": "Short Talk 80",
+    "name": "Short Talk 80",
+    "position": 232,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/0-short-talk-80.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54848,
+        "position": 1,
+        "content": "Hey, everyone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "everyone."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "everyone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/1.mp3",
+        "timeStart": 0.49,
+        "timeEnd": 1.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54848/list"
+      },
+      {
+        "id": 54849,
+        "position": 2,
+        "content": "I want to start today's meeting by sharing the outcome of the customer satisfaction survey we recently gave.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "want to",
+            "wanna"
+          ],
+          "start",
+          "today's",
+          "meeting",
+          "by",
+          "sharing",
+          "the",
+          "outcome",
+          "of",
+          "the",
+          "customer",
+          "satisfaction",
+          "survey",
+          "we",
+          "recently",
+          "gave."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "start"
+          ],
+          [
+            "today's"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "by"
+          ],
+          [
+            "sharing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "outcome"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "customer"
+          ],
+          [
+            "satisfaction"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "we"
+          ],
+          [
+            "recently"
+          ],
+          [
+            "gave."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/2.mp3",
+        "timeStart": 1.67,
+        "timeEnd": 8.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54849/list"
+      },
+      {
+        "id": 54850,
+        "position": 3,
+        "content": "The results surrounding the new high heeled shoes are of utmost importance.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "results",
+          "surrounding",
+          "the",
+          "new",
+          "high",
+          "heeled",
+          "shoes",
+          "are",
+          "of",
+          "utmost",
+          "importance."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "results"
+          ],
+          [
+            "surrounding"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "high"
+          ],
+          [
+            "heeled"
+          ],
+          [
+            "shoes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "of"
+          ],
+          [
+            "utmost"
+          ],
+          [
+            "importance."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/3.mp3",
+        "timeStart": 8.79,
+        "timeEnd": 13.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54850/list"
+      },
+      {
+        "id": 54851,
+        "position": 4,
+        "content": "The feature they enjoyed the most was the comfortability of the shoe.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "feature",
+          "they",
+          "enjoyed",
+          "the",
+          "most",
+          "was",
+          "the",
+          "comfortability",
+          "of",
+          "the",
+          "shoe."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "feature"
+          ],
+          [
+            "they"
+          ],
+          [
+            "enjoyed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "comfortability"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shoe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/4.mp3",
+        "timeStart": 14.03,
+        "timeEnd": 18.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54851/list"
+      },
+      {
+        "id": 54852,
+        "position": 5,
+        "content": "This is good, because we don't need to make any massive changes to the shape of the shoe.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "good,",
+          "because",
+          "we",
+          [
+            "don't",
+            "do not"
+          ],
+          "need",
+          "to",
+          "make",
+          "any",
+          "massive",
+          "changes",
+          "to",
+          "the",
+          "shape",
+          "of",
+          "the",
+          "shoe."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "good,"
+          ],
+          [
+            "because"
+          ],
+          [
+            "we"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "any"
+          ],
+          [
+            "massive"
+          ],
+          [
+            "changes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shape"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shoe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/5.mp3",
+        "timeStart": 18.54,
+        "timeEnd": 23.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54852/list"
+      },
+      {
+        "id": 54853,
+        "position": 6,
+        "content": "Here are the most common answers to the question, \"What do you like most about your new shoes?\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "Here",
+          "are",
+          "the",
+          "most",
+          "common",
+          "answers",
+          "to",
+          "the",
+          "question,",
+          "\"What",
+          "do",
+          "you",
+          "like",
+          "most",
+          "about",
+          "your",
+          "new",
+          "shoes?\""
+        ],
+        "solution": [
+          [
+            "Here"
+          ],
+          [
+            "are"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "common"
+          ],
+          [
+            "answers"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "question,"
+          ],
+          [
+            "\"What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "most"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "shoes?\""
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/6.mp3",
+        "timeStart": 24.25,
+        "timeEnd": 30.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54853/list"
+      },
+      {
+        "id": 54854,
+        "position": 7,
+        "content": "The biggest problem was the color palette,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "biggest",
+          "problem",
+          "was",
+          "the",
+          [
+            "color",
+            "colour"
+          ],
+          "palette,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "biggest"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "color",
+            "colour"
+          ],
+          [
+            "palette,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/7.mp3",
+        "timeStart": 30.87,
+        "timeEnd": 33.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54854/list"
+      },
+      {
+        "id": 54855,
+        "position": 8,
+        "content": "so the designers are going to make a new mock-up as soon as possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "the",
+          "designers",
+          "are",
+          [
+            "going to",
+            "gonna"
+          ],
+          "make",
+          "a",
+          "new",
+          [
+            "mock-up",
+            "mock up"
+          ],
+          "as",
+          "soon",
+          "as",
+          "possible."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "the"
+          ],
+          [
+            "designers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "mock-up",
+            "mock up"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/8.mp3",
+        "timeStart": 33.51,
+        "timeEnd": 37.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54855/list"
+      },
+      {
+        "id": 54856,
+        "position": 9,
+        "content": "Right now, we should discuss the second-most-common answer and how to solve that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right",
+          "now,",
+          "we",
+          "should",
+          "discuss",
+          "the",
+          [
+            "second-most-common",
+            "second most common"
+          ],
+          "answer",
+          "and",
+          "how",
+          "to",
+          "solve",
+          "that."
+        ],
+        "solution": [
+          [
+            "Right"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "should"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second-most-common",
+            "second most common"
+          ],
+          [
+            "answer"
+          ],
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "solve"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/9.mp3",
+        "timeStart": 38.45,
+        "timeEnd": 43.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54856/list"
+      },
+      {
+        "id": 54857,
+        "position": 10,
+        "content": "Please think of two solutions and share them by the end of the day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "think",
+          "of",
+          [
+            "two",
+            "2"
+          ],
+          "solutions",
+          "and",
+          "share",
+          "them",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "think"
+          ],
+          [
+            "of"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "solutions"
+          ],
+          [
+            "and"
+          ],
+          [
+            "share"
+          ],
+          [
+            "them"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-80-2023-09-29-21-27-09/10.mp3",
+        "timeStart": 43.91,
+        "timeEnd": 48.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54857/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "54848": {
+      "id": 2779943,
+      "text": "Chào mọi người.",
+      "author": "ChatGPT4.1"
+    },
+    "54849": {
+      "id": 2779944,
+      "text": "Tôi muốn bắt đầu cuộc họp hôm nay bằng cách chia sẻ kết quả của khảo sát sự hài lòng của khách hàng mà chúng ta vừa thực hiện.",
+      "author": "ChatGPT4.1"
+    },
+    "54850": {
+      "id": 2779945,
+      "text": "Kết quả liên quan đến đôi giày cao gót mới là vô cùng quan trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "54851": {
+      "id": 2779946,
+      "text": "Tính năng mà họ thích nhất là sự thoải mái của đôi giày.",
+      "author": "ChatGPT4.1"
+    },
+    "54852": {
+      "id": 2779947,
+      "text": "Đây là điều tốt vì chúng ta không cần phải thay đổi nhiều về kiểu dáng của giày.",
+      "author": "ChatGPT4.1"
+    },
+    "54853": {
+      "id": 2779948,
+      "text": "Sau đây là những câu trả lời phổ biến nhất cho câu hỏi: \"Bạn thích gì nhất ở đôi giày mới của mình?\"",
+      "author": "ChatGPT4.1"
+    },
+    "54854": {
+      "id": 2779949,
+      "text": "Vấn đề lớn nhất là bảng màu,",
+      "author": "ChatGPT4.1"
+    },
+    "54855": {
+      "id": 2779950,
+      "text": "vì vậy các nhà thiết kế sẽ tạo ra một bản mẫu mới càng sớm càng tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "54856": {
+      "id": 2779951,
+      "text": "Hiện tại, chúng ta nên thảo luận về câu trả lời phổ biến thứ hai và cách giải quyết nó.",
+      "author": "ChatGPT4.1"
+    },
+    "54857": {
+      "id": 2779952,
+      "text": "Vui lòng nghĩ ra hai giải pháp và chia sẻ chúng trước khi hết ngày.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

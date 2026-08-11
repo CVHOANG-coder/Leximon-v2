@@ -1,0 +1,942 @@
+{
+  "summary": {
+    "id": 1187,
+    "name": "Conversation 78",
+    "subTitle": "Important Company Meeting Tomorrow",
+    "levelName": "B2",
+    "position": 220,
+    "totalChallenges": 15,
+    "groupId": 38,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1187",
+  "detail": {
+    "id": 1187,
+    "lessonName": "Conversation 78",
+    "name": "Conversation 78",
+    "position": 220,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/0-conversation-78.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54721,
+        "position": 1,
+        "content": "Hey, Matthew.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "Matthew."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "Matthew."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/1.mp3",
+        "timeStart": 0.75,
+        "timeEnd": 1.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54721/list"
+      },
+      {
+        "id": 54722,
+        "position": 2,
+        "content": "I'm having lunch with an endorser tomorrow to talk about partnership opportunities for our newly launched product,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "having",
+          "lunch",
+          "with",
+          "an",
+          "endorser",
+          "tomorrow",
+          "to",
+          "talk",
+          "about",
+          "partnership",
+          "opportunities",
+          "for",
+          "our",
+          "newly",
+          "launched",
+          "product,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "having"
+          ],
+          [
+            "lunch"
+          ],
+          [
+            "with"
+          ],
+          [
+            "an"
+          ],
+          [
+            "endorser"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "to"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "about"
+          ],
+          [
+            "partnership"
+          ],
+          [
+            "opportunities"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "newly"
+          ],
+          [
+            "launched"
+          ],
+          [
+            "product,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/2.mp3",
+        "timeStart": 1.76,
+        "timeEnd": 7.39,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54722/list"
+      },
+      {
+        "id": 54723,
+        "position": 3,
+        "content": "so it might end late.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "it",
+          "might",
+          "end",
+          "late."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "end"
+          ],
+          [
+            "late."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/3.mp3",
+        "timeStart": 7.39,
+        "timeEnd": 8.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54723/list"
+      },
+      {
+        "id": 54724,
+        "position": 4,
+        "content": "Are you telling me that you won't be able to attend the meeting tomorrow afternoon?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "telling",
+          "me",
+          "that",
+          "you",
+          "won't",
+          "be",
+          "able",
+          "to",
+          "attend",
+          "the",
+          "meeting",
+          "tomorrow",
+          "afternoon?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "telling"
+          ],
+          [
+            "me"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "attend"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "afternoon?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/4.mp3",
+        "timeStart": 8.94,
+        "timeEnd": 13.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54724/list"
+      },
+      {
+        "id": 54725,
+        "position": 5,
+        "content": "Yeah, could you fill me in later?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "could",
+          "you",
+          "fill",
+          "me",
+          "in",
+          "later?"
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "fill"
+          ],
+          [
+            "me"
+          ],
+          [
+            "in"
+          ],
+          [
+            "later?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/5.mp3",
+        "timeStart": 13.6,
+        "timeEnd": 15.54,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54725/list"
+      },
+      {
+        "id": 54726,
+        "position": 6,
+        "content": "Well, Mr. Palmer insisted that everyone in the company be there,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "Mr.",
+          "Palmer",
+          "insisted",
+          "that",
+          "everyone",
+          "in",
+          "the",
+          [
+            "company",
+            "Co"
+          ],
+          "be",
+          "there,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Palmer"
+          ],
+          [
+            "insisted"
+          ],
+          [
+            "that"
+          ],
+          [
+            "everyone"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "be"
+          ],
+          [
+            "there,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/6.mp3",
+        "timeStart": 15.83,
+        "timeEnd": 19.94,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54726/list"
+      },
+      {
+        "id": 54727,
+        "position": 7,
+        "content": "so you really shouldn't miss it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "you",
+          "really",
+          [
+            "shouldn't",
+            "should not"
+          ],
+          "miss",
+          "it."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "really"
+          ],
+          [
+            "shouldn't",
+            "should not"
+          ],
+          [
+            "miss"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/7.mp3",
+        "timeStart": 19.94,
+        "timeEnd": 21.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54727/list"
+      },
+      {
+        "id": 54728,
+        "position": 8,
+        "content": "Rumor has it that there will be a groundbreaking board leadership change.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Rumor",
+            "rumour"
+          ],
+          "has",
+          "it",
+          "that",
+          [
+            "there will",
+            "there'll"
+          ],
+          "be",
+          "a",
+          "groundbreaking",
+          "board",
+          "leadership",
+          "change."
+        ],
+        "solution": [
+          [
+            "Rumor",
+            "rumour"
+          ],
+          [
+            "has"
+          ],
+          [
+            "it"
+          ],
+          [
+            "that"
+          ],
+          [
+            "there will",
+            "there'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "groundbreaking"
+          ],
+          [
+            "board"
+          ],
+          [
+            "leadership"
+          ],
+          [
+            "change."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/8.mp3",
+        "timeStart": 22.08,
+        "timeEnd": 26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54728/list"
+      },
+      {
+        "id": 54729,
+        "position": 9,
+        "content": "These changes will have lots of implications down the line.",
+        "defaultInput": "",
+        "jsonContent": [
+          "These",
+          "changes",
+          "will",
+          "have",
+          "lots",
+          "of",
+          "implications",
+          "down",
+          "the",
+          "line."
+        ],
+        "solution": [
+          [
+            "These"
+          ],
+          [
+            "changes"
+          ],
+          [
+            "will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "implications"
+          ],
+          [
+            "down"
+          ],
+          [
+            "the"
+          ],
+          [
+            "line."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/9.mp3",
+        "timeStart": 26,
+        "timeEnd": 29.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54729/list"
+      },
+      {
+        "id": 54730,
+        "position": 10,
+        "content": "You're right.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You're",
+            "you are"
+          ],
+          "right."
+        ],
+        "solution": [
+          [
+            "You're",
+            "you are"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/10.mp3",
+        "timeStart": 29.81,
+        "timeEnd": 30.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54730/list"
+      },
+      {
+        "id": 54731,
+        "position": 11,
+        "content": "I'll call my client to reschedule the meeting.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "call",
+          "my",
+          "client",
+          "to",
+          "reschedule",
+          "the",
+          "meeting."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "call"
+          ],
+          [
+            "my"
+          ],
+          [
+            "client"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reschedule"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/11.mp3",
+        "timeStart": 30.78,
+        "timeEnd": 33.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54731/list"
+      },
+      {
+        "id": 54732,
+        "position": 12,
+        "content": "Umm, are the meetings still held in Room A on the first floor?",
+        "defaultInput": "Umm, ",
+        "jsonContent": [
+          "Umm,",
+          "are",
+          "the",
+          "meetings",
+          "still",
+          "held",
+          "in",
+          "Room",
+          "A",
+          "on",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "floor?"
+        ],
+        "solution": [
+          [
+            "Umm,"
+          ],
+          [
+            "are"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meetings"
+          ],
+          [
+            "still"
+          ],
+          [
+            "held"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Room"
+          ],
+          [
+            "A"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "floor?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/12.mp3",
+        "timeStart": 33.18,
+        "timeEnd": 36.94,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54732/list"
+      },
+      {
+        "id": 54733,
+        "position": 13,
+        "content": "No, the meetings have been moved to the second floor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "the",
+          "meetings",
+          "have",
+          "been",
+          "moved",
+          "to",
+          "the",
+          "second",
+          "floor."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meetings"
+          ],
+          [
+            "have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "moved"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second"
+          ],
+          [
+            "floor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/13.mp3",
+        "timeStart": 37.07,
+        "timeEnd": 40.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54733/list"
+      },
+      {
+        "id": 54734,
+        "position": 14,
+        "content": "When you get to the top of the stairs, walk straight to the end of the hall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "you",
+          "get",
+          "to",
+          "the",
+          "top",
+          "of",
+          "the",
+          "stairs,",
+          "walk",
+          "straight",
+          "to",
+          "the",
+          "end",
+          "of",
+          "the",
+          "hall."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "top"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "stairs,"
+          ],
+          [
+            "walk"
+          ],
+          [
+            "straight"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/14.mp3",
+        "timeStart": 40.14,
+        "timeEnd": 43.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54734/list"
+      },
+      {
+        "id": 54735,
+        "position": 15,
+        "content": "It's the last door on your right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "the",
+          "last",
+          "door",
+          "on",
+          "your",
+          "right."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "door"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-78-2023-09-28-18-01-36/15.mp3",
+        "timeStart": 43.93,
+        "timeEnd": 45.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54735/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54722": {
+      "id": 944660,
+      "text": "Ngày mai tôi sẽ ăn trưa với một nhà hỗ trợ tiếp thị để nói về cơ hội hợp tác cho sản phẩm mới ra mắt của chúng ta,",
+      "author": "a user"
+    },
+    "54724": {
+      "id": 944662,
+      "text": "Có phải bạn đang nói với tôi rằng bạn sẽ không thể tham dự cuộc họp chiều mai được phải không?",
+      "author": "a user"
+    },
+    "54725": {
+      "id": 944663,
+      "text": "Vâng, bạn có thể truyền đạt lại nội dung họp cho tôi sau được không?",
+      "author": "a user"
+    },
+    "54729": {
+      "id": 944667,
+      "text": "Những thay đổi này sẽ có tác động rất nhiều trong tương lai.",
+      "author": "a user"
+    },
+    "54721": {
+      "id": 2599571,
+      "text": "Chào, Matthew.",
+      "author": "ChatGPT4.1"
+    },
+    "54723": {
+      "id": 2599572,
+      "text": "nên có thể sẽ kết thúc muộn.",
+      "author": "ChatGPT4.1"
+    },
+    "54726": {
+      "id": 2599573,
+      "text": "Ông Palmer kiên quyết rằng tất cả mọi người trong công ty đều phải có mặt,",
+      "author": "ChatGPT4.1"
+    },
+    "54727": {
+      "id": 2599574,
+      "text": "vì vậy bạn thực sự không nên bỏ lỡ.",
+      "author": "ChatGPT4.1"
+    },
+    "54728": {
+      "id": 2599575,
+      "text": "Có tin đồn rằng sẽ có một sự thay đổi lớn trong ban lãnh đạo công ty.",
+      "author": "ChatGPT4.1"
+    },
+    "54730": {
+      "id": 2599576,
+      "text": "Bạn nói đúng.",
+      "author": "ChatGPT4.1"
+    },
+    "54731": {
+      "id": 2599577,
+      "text": "Tôi sẽ gọi cho khách hàng để dời lại cuộc họp.",
+      "author": "ChatGPT4.1"
+    },
+    "54732": {
+      "id": 2599578,
+      "text": "Ờ, các cuộc họp vẫn tổ chức ở phòng A tầng một chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "54733": {
+      "id": 2599579,
+      "text": "Không, các cuộc họp đã được chuyển lên tầng hai rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "54734": {
+      "id": 2599580,
+      "text": "Khi bạn lên đến đầu cầu thang, đi thẳng đến cuối hành lang.",
+      "author": "ChatGPT4.1"
+    },
+    "54735": {
+      "id": 2599581,
+      "text": "Đó là cánh cửa cuối cùng bên phải bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

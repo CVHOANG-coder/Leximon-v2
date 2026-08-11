@@ -1,0 +1,6296 @@
+{
+  "summary": {
+    "id": 2056,
+    "name": "Do animals dream?",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 116,
+    "totalChallenges": 109,
+    "groupId": 123,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2056",
+  "detail": {
+    "id": 2056,
+    "lessonName": "Do animals dream?",
+    "name": "Do animals dream?",
+    "position": 116,
+    "levelName": "B1",
+    "audioSrc": "",
+    "youtubeVideoId": "9ZI3VoFhH0Q",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 80877,
+        "position": 1,
+        "content": "Hey, it's Esther.",
+        "defaultInput": "Hey, it's Esther.",
+        "jsonContent": [
+          "Hey,",
+          "it's",
+          "Esther."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "Esther."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 1.72,
+        "timeEnd": 4.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80877/list"
+      },
+      {
+        "id": 80878,
+        "position": 2,
+        "content": "My cat Olive loves to nap.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "cat",
+          "Olive",
+          "loves",
+          "to",
+          "nap."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "cat"
+          ],
+          [
+            "Olive"
+          ],
+          [
+            "loves"
+          ],
+          [
+            "to"
+          ],
+          [
+            "nap."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 4.21,
+        "timeEnd": 7.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80878/list"
+      },
+      {
+        "id": 80879,
+        "position": 3,
+        "content": "Her favorite spot is anywhere with warm sunshine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          [
+            "favorite",
+            "favourite"
+          ],
+          "spot",
+          "is",
+          "anywhere",
+          "with",
+          "warm",
+          "sunshine."
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "favorite",
+            "favourite"
+          ],
+          [
+            "spot"
+          ],
+          [
+            "is"
+          ],
+          [
+            "anywhere"
+          ],
+          [
+            "with"
+          ],
+          [
+            "warm"
+          ],
+          [
+            "sunshine."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 7.35,
+        "timeEnd": 11.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80879/list"
+      },
+      {
+        "id": 80880,
+        "position": 4,
+        "content": "But sometimes she'll come into my office while I'm working,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "sometimes",
+          [
+            "she'll",
+            "she will"
+          ],
+          "come",
+          "into",
+          "my",
+          "office",
+          "while",
+          [
+            "I'm",
+            "I am"
+          ],
+          "working,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "she'll",
+            "she will"
+          ],
+          [
+            "come"
+          ],
+          [
+            "into"
+          ],
+          [
+            "my"
+          ],
+          [
+            "office"
+          ],
+          [
+            "while"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "working,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 11.7,
+        "timeEnd": 15.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80880/list"
+      },
+      {
+        "id": 80881,
+        "position": 5,
+        "content": "stretch out on her back, and fall into a deep sleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "stretch",
+          "out",
+          "on",
+          "her",
+          "back,",
+          "and",
+          "fall",
+          "into",
+          "a",
+          "deep",
+          "sleep."
+        ],
+        "solution": [
+          [
+            "stretch"
+          ],
+          [
+            "out"
+          ],
+          [
+            "on"
+          ],
+          [
+            "her"
+          ],
+          [
+            "back,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "fall"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "deep"
+          ],
+          [
+            "sleep."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 15.43,
+        "timeEnd": 19.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80881/list"
+      },
+      {
+        "id": 80882,
+        "position": 6,
+        "content": "She is out.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "She's"
+          ],
+          "out."
+        ],
+        "solution": [
+          [
+            "She is",
+            "She's"
+          ],
+          [
+            "out."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 19.69,
+        "timeEnd": 21.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80882/list"
+      },
+      {
+        "id": 80883,
+        "position": 7,
+        "content": "If I accidentally make a loud noise, she stays asleep,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "I",
+          "accidentally",
+          "make",
+          "a",
+          "loud",
+          "noise,",
+          "she",
+          "stays",
+          "asleep,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "I"
+          ],
+          [
+            "accidentally"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "loud"
+          ],
+          [
+            "noise,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "stays"
+          ],
+          [
+            "asleep,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 21.48,
+        "timeEnd": 25.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80883/list"
+      },
+      {
+        "id": 80884,
+        "position": 8,
+        "content": "but her paws wave around.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "her",
+          "paws",
+          "wave",
+          "around."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "her"
+          ],
+          [
+            "paws"
+          ],
+          [
+            "wave"
+          ],
+          [
+            "around."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 25.57,
+        "timeEnd": 28.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80884/list"
+      },
+      {
+        "id": 80885,
+        "position": 9,
+        "content": "It's almost like she's saying, \"Hey, quiet down!\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "almost",
+          "like",
+          "she's",
+          "saying,",
+          "\"Hey,",
+          "quiet",
+          "down!\""
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "like"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "saying,"
+          ],
+          [
+            "\"Hey,"
+          ],
+          [
+            "quiet"
+          ],
+          [
+            "down!\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 28.06,
+        "timeEnd": 31.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80885/list"
+      },
+      {
+        "id": 80886,
+        "position": 10,
+        "content": "Someone named Peyton is curious about what happens when animals sleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Someone",
+          "named",
+          "Peyton",
+          "is",
+          "curious",
+          "about",
+          "what",
+          "happens",
+          "when",
+          "animals",
+          "sleep."
+        ],
+        "solution": [
+          [
+            "Someone"
+          ],
+          [
+            "named"
+          ],
+          [
+            "Peyton"
+          ],
+          [
+            "is"
+          ],
+          [
+            "curious"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "when"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "sleep."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 31.35,
+        "timeEnd": 35.77,
+        "hints": [
+          "Peyton"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80886/list"
+      },
+      {
+        "id": 80887,
+        "position": 11,
+        "content": "Let's give Peyton a call now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "give",
+          "Peyton",
+          "a",
+          "call",
+          "now."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "give"
+          ],
+          [
+            "Peyton"
+          ],
+          [
+            "a"
+          ],
+          [
+            "call"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 35.77,
+        "timeEnd": 37.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80887/list"
+      },
+      {
+        "id": 80888,
+        "position": 12,
+        "content": "Hi, Esther.",
+        "defaultInput": "Hi, Esther.",
+        "jsonContent": [
+          "Hi,",
+          "Esther."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Esther."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 39.83,
+        "timeEnd": 41.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80888/list"
+      },
+      {
+        "id": 80889,
+        "position": 13,
+        "content": "Hi, Peyton.",
+        "defaultInput": "Hi, Peyton.",
+        "jsonContent": [
+          "Hi,",
+          "Peyton."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Peyton."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 41.47,
+        "timeEnd": 42.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80889/list"
+      },
+      {
+        "id": 80890,
+        "position": 14,
+        "content": "I have a question for you.",
+        "defaultInput": "I have a question for you.",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "question",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "question"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 42.66,
+        "timeEnd": 44.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80890/list"
+      },
+      {
+        "id": 80891,
+        "position": 15,
+        "content": "Do animals dream?",
+        "defaultInput": "Do animals dream?",
+        "jsonContent": [
+          "Do",
+          "animals",
+          "dream?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "dream?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.3,
+        "timeEnd": 45.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80891/list"
+      },
+      {
+        "id": 80892,
+        "position": 16,
+        "content": "That's a great question.",
+        "defaultInput": "That's a great question.",
+        "jsonContent": [
+          "That's",
+          "a",
+          "great",
+          "question."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "question."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 45.96,
+        "timeEnd": 48.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80892/list"
+      },
+      {
+        "id": 80893,
+        "position": 17,
+        "content": "We know that people dream because we can share stories about our dreams.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "know",
+          "that",
+          "people",
+          "dream",
+          "because",
+          "we",
+          "can",
+          "share",
+          "stories",
+          "about",
+          "our",
+          "dreams."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "people"
+          ],
+          [
+            "dream"
+          ],
+          [
+            "because"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "share"
+          ],
+          [
+            "stories"
+          ],
+          [
+            "about"
+          ],
+          [
+            "our"
+          ],
+          [
+            "dreams."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 48.07,
+        "timeEnd": 52.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80893/list"
+      },
+      {
+        "id": 80894,
+        "position": 18,
+        "content": "But unfortunately, we can't chat like that with animals, at least not yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "unfortunately,",
+          "we",
+          "can't",
+          "chat",
+          "like",
+          "that",
+          "with",
+          "animals,",
+          "at",
+          "least",
+          "not",
+          "yet."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "unfortunately,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "chat"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that"
+          ],
+          [
+            "with"
+          ],
+          [
+            "animals,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "not"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 52.78,
+        "timeEnd": 58.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80894/list"
+      },
+      {
+        "id": 80895,
+        "position": 19,
+        "content": "There are things I've seen animals do when they sleep that make me wonder if they dream.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "things",
+          [
+            "I've",
+            "I have"
+          ],
+          "seen",
+          "animals",
+          "do",
+          "when",
+          "they",
+          "sleep",
+          "that",
+          [
+            "make",
+            "makes"
+          ],
+          "me",
+          "wonder",
+          "if",
+          "they",
+          "dream."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "things"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "do"
+          ],
+          [
+            "when"
+          ],
+          [
+            "they"
+          ],
+          [
+            "sleep"
+          ],
+          [
+            "that"
+          ],
+          [
+            "make",
+            "makes"
+          ],
+          [
+            "me"
+          ],
+          [
+            "wonder"
+          ],
+          [
+            "if"
+          ],
+          [
+            "they"
+          ],
+          [
+            "dream."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 58.56,
+        "timeEnd": 64.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80895/list"
+      },
+      {
+        "id": 80896,
+        "position": 20,
+        "content": "Like when Olive waves her paws.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "when",
+          "Olive",
+          "waves",
+          "her",
+          "paws."
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "when"
+          ],
+          [
+            "Olive"
+          ],
+          [
+            "waves"
+          ],
+          [
+            "her"
+          ],
+          [
+            "paws."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 64.28,
+        "timeEnd": 66.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80896/list"
+      },
+      {
+        "id": 80897,
+        "position": 21,
+        "content": "Or check out this dog.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Or",
+          "check",
+          "out",
+          "this",
+          "dog."
+        ],
+        "solution": [
+          [
+            "Or"
+          ],
+          [
+            "check"
+          ],
+          [
+            "out"
+          ],
+          [
+            "this"
+          ],
+          [
+            "dog."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 66.58,
+        "timeEnd": 68.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80897/list"
+      },
+      {
+        "id": 80898,
+        "position": 22,
+        "content": "He's asleep, but see how his feet twitch?",
+        "defaultInput": "",
+        "jsonContent": [
+          "He's",
+          "asleep,",
+          "but",
+          "see",
+          "how",
+          "his",
+          "feet",
+          "twitch?"
+        ],
+        "solution": [
+          [
+            "He's"
+          ],
+          [
+            "asleep,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "see"
+          ],
+          [
+            "how"
+          ],
+          [
+            "his"
+          ],
+          [
+            "feet"
+          ],
+          [
+            "twitch?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 68.31,
+        "timeEnd": 72.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80898/list"
+      },
+      {
+        "id": 80899,
+        "position": 23,
+        "content": "And now it looks like he's running.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "now",
+          "it",
+          "looks",
+          "like",
+          "he's",
+          "running."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "now"
+          ],
+          [
+            "it"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "like"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "running."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 72.17,
+        "timeEnd": 74.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80899/list"
+      },
+      {
+        "id": 80900,
+        "position": 24,
+        "content": "Could that be a sign that he's dreaming about running?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "that",
+          "be",
+          "a",
+          "sign",
+          "that",
+          "he's",
+          "dreaming",
+          "about",
+          "running?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "that"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sign"
+          ],
+          [
+            "that"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "dreaming"
+          ],
+          [
+            "about"
+          ],
+          [
+            "running?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 74.92,
+        "timeEnd": 78.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80900/list"
+      },
+      {
+        "id": 80901,
+        "position": 25,
+        "content": "Like a dream where he's chasing after a ball and his body is acting out what's happening in the dream?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "a",
+          "dream",
+          "where",
+          "he's",
+          "chasing",
+          "after",
+          "a",
+          "ball",
+          "and",
+          "his",
+          "body",
+          "is",
+          "acting",
+          "out",
+          [
+            "what's",
+            "what is"
+          ],
+          "happening",
+          "in",
+          "the",
+          "dream?"
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dream"
+          ],
+          [
+            "where"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "chasing"
+          ],
+          [
+            "after"
+          ],
+          [
+            "a"
+          ],
+          [
+            "ball"
+          ],
+          [
+            "and"
+          ],
+          [
+            "his"
+          ],
+          [
+            "body"
+          ],
+          [
+            "is"
+          ],
+          [
+            "acting"
+          ],
+          [
+            "out"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "happening"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dream?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 78.56,
+        "timeEnd": 84.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80901/list"
+      },
+      {
+        "id": 80902,
+        "position": 26,
+        "content": "And watch this sleeping cat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "watch",
+          "this",
+          "sleeping",
+          "cat."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "watch"
+          ],
+          [
+            "this"
+          ],
+          [
+            "sleeping"
+          ],
+          [
+            "cat."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 84.97,
+        "timeEnd": 89.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80902/list"
+      },
+      {
+        "id": 80903,
+        "position": 27,
+        "content": "She hissed so loud that it woke her up!",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "hissed",
+          "so",
+          "loud",
+          "that",
+          "it",
+          "woke",
+          "her",
+          "up!"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "hissed"
+          ],
+          [
+            "so"
+          ],
+          [
+            "loud"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it"
+          ],
+          [
+            "woke"
+          ],
+          [
+            "her"
+          ],
+          [
+            "up!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 89.07,
+        "timeEnd": 92.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80903/list"
+      },
+      {
+        "id": 80904,
+        "position": 28,
+        "content": "Hissing is a cat's way of saying, \"Stay away!\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hissing",
+          "is",
+          "a",
+          "cat's",
+          "way",
+          "of",
+          "saying,",
+          "\"Stay",
+          "away!\""
+        ],
+        "solution": [
+          [
+            "Hissing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cat's"
+          ],
+          [
+            "way"
+          ],
+          [
+            "of"
+          ],
+          [
+            "saying,"
+          ],
+          [
+            "\"Stay"
+          ],
+          [
+            "away!\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 92.35,
+        "timeEnd": 95.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80904/list"
+      },
+      {
+        "id": 80905,
+        "position": 29,
+        "content": "So maybe she dreamed about something scary, like a vacuum cleaner.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "maybe",
+          "she",
+          [
+            "dreamed",
+            "dreamt"
+          ],
+          "about",
+          "something",
+          "scary,",
+          "like",
+          "a",
+          "vacuum",
+          "cleaner."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "she"
+          ],
+          [
+            "dreamed",
+            "dreamt"
+          ],
+          [
+            "about"
+          ],
+          [
+            "something"
+          ],
+          [
+            "scary,"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "vacuum"
+          ],
+          [
+            "cleaner."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 95.52,
+        "timeEnd": 100.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80905/list"
+      },
+      {
+        "id": 80906,
+        "position": 30,
+        "content": "Olive hates those.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Olive",
+          "hates",
+          "those."
+        ],
+        "solution": [
+          [
+            "Olive"
+          ],
+          [
+            "hates"
+          ],
+          [
+            "those."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 100.03,
+        "timeEnd": 101.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80906/list"
+      },
+      {
+        "id": 80907,
+        "position": 31,
+        "content": "Maybe you've seen pets do similar things while they sleep",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          [
+            "you've",
+            "you have"
+          ],
+          "seen",
+          "pets",
+          "do",
+          "similar",
+          "things",
+          "while",
+          "they",
+          "sleep"
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "pets"
+          ],
+          [
+            "do"
+          ],
+          [
+            "similar"
+          ],
+          [
+            "things"
+          ],
+          [
+            "while"
+          ],
+          [
+            "they"
+          ],
+          [
+            "sleep"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 101.61,
+        "timeEnd": 104.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80907/list"
+      },
+      {
+        "id": 80908,
+        "position": 32,
+        "content": "and wondered if that was a sign that they were dreaming.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "wondered",
+          "if",
+          "that",
+          "was",
+          "a",
+          "sign",
+          "that",
+          "they",
+          "were",
+          "dreaming."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "wondered"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sign"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "were"
+          ],
+          [
+            "dreaming."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 104.9,
+        "timeEnd": 108.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80908/list"
+      },
+      {
+        "id": 80909,
+        "position": 33,
+        "content": "And you can probably think of lots of other animals that sleep too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "you",
+          "can",
+          "probably",
+          "think",
+          "of",
+          "lots",
+          "of",
+          "other",
+          "animals",
+          "that",
+          "sleep",
+          "too."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "think"
+          ],
+          [
+            "of"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "other"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sleep"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 108.43,
+        "timeEnd": 113.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80909/list"
+      },
+      {
+        "id": 80910,
+        "position": 34,
+        "content": "How could you tell if those animals are dreaming?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "could",
+          "you",
+          "tell",
+          "if",
+          "those",
+          "animals",
+          "are",
+          "dreaming?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "if"
+          ],
+          [
+            "those"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "are"
+          ],
+          [
+            "dreaming?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 113.03,
+        "timeEnd": 116.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80910/list"
+      },
+      {
+        "id": 80911,
+        "position": 35,
+        "content": "Maybe you have some ideas.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          [
+            "you have",
+            "you've"
+          ],
+          "some",
+          "ideas."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "some"
+          ],
+          [
+            "ideas."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 116.44,
+        "timeEnd": 118.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80911/list"
+      },
+      {
+        "id": 80912,
+        "position": 36,
+        "content": "This is a tricky question,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "a",
+          "tricky",
+          "question,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tricky"
+          ],
+          [
+            "question,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 128.51,
+        "timeEnd": 130.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80912/list"
+      },
+      {
+        "id": 80913,
+        "position": 37,
+        "content": "especially since animals sleep in such different ways.",
+        "defaultInput": "",
+        "jsonContent": [
+          "especially",
+          "since",
+          "animals",
+          "sleep",
+          "in",
+          "such",
+          "different",
+          "ways."
+        ],
+        "solution": [
+          [
+            "especially"
+          ],
+          [
+            "since"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "sleep"
+          ],
+          [
+            "in"
+          ],
+          [
+            "such"
+          ],
+          [
+            "different"
+          ],
+          [
+            "ways."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 130.93,
+        "timeEnd": 134.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80913/list"
+      },
+      {
+        "id": 80914,
+        "position": 38,
+        "content": "How do you tell if a bat is dreaming?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "do",
+          "you",
+          "tell",
+          "if",
+          "a",
+          "bat",
+          "is",
+          "dreaming?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "if"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bat"
+          ],
+          [
+            "is"
+          ],
+          [
+            "dreaming?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 134.99,
+        "timeEnd": 137.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80914/list"
+      },
+      {
+        "id": 80915,
+        "position": 39,
+        "content": "Or a turtle?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Or",
+          "a",
+          "turtle?"
+        ],
+        "solution": [
+          [
+            "Or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "turtle?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 137.44,
+        "timeEnd": 138.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80915/list"
+      },
+      {
+        "id": 80916,
+        "position": 40,
+        "content": "Or a whale?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Or",
+          "a",
+          "whale?"
+        ],
+        "solution": [
+          [
+            "Or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "whale?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 138.61,
+        "timeEnd": 140.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80916/list"
+      },
+      {
+        "id": 80917,
+        "position": 41,
+        "content": "Well, one idea scientists have is to observe what happens when animals sleep",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "one",
+            "1"
+          ],
+          "idea",
+          "scientists",
+          "have",
+          "is",
+          "to",
+          "observe",
+          "what",
+          "happens",
+          "when",
+          "animals",
+          "sleep"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "scientists"
+          ],
+          [
+            "have"
+          ],
+          [
+            "is"
+          ],
+          [
+            "to"
+          ],
+          [
+            "observe"
+          ],
+          [
+            "what"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "when"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "sleep"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 140.07,
+        "timeEnd": 145.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80917/list"
+      },
+      {
+        "id": 80918,
+        "position": 42,
+        "content": "and compare that to what happens when people sleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "compare",
+          "that",
+          "to",
+          "what",
+          "happens",
+          "when",
+          "people",
+          "sleep."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "compare"
+          ],
+          [
+            "that"
+          ],
+          [
+            "to"
+          ],
+          [
+            "what"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "when"
+          ],
+          [
+            "people"
+          ],
+          [
+            "sleep."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 145.47,
+        "timeEnd": 149.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80918/list"
+      },
+      {
+        "id": 80919,
+        "position": 43,
+        "content": "Since we know for sure that people dream,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Since",
+          "we",
+          "know",
+          "for",
+          "sure",
+          "that",
+          "people",
+          "dream,"
+        ],
+        "solution": [
+          [
+            "Since"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "for"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "that"
+          ],
+          [
+            "people"
+          ],
+          [
+            "dream,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 149.07,
+        "timeEnd": 152.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80919/list"
+      },
+      {
+        "id": 80920,
+        "position": 44,
+        "content": "scientists are still figuring out exactly how to tell when a person is dreaming.",
+        "defaultInput": "",
+        "jsonContent": [
+          "scientists",
+          "are",
+          "still",
+          "figuring",
+          "out",
+          "exactly",
+          "how",
+          "to",
+          "tell",
+          "when",
+          "a",
+          "person",
+          "is",
+          "dreaming."
+        ],
+        "solution": [
+          [
+            "scientists"
+          ],
+          [
+            "are"
+          ],
+          [
+            "still"
+          ],
+          [
+            "figuring"
+          ],
+          [
+            "out"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "when"
+          ],
+          [
+            "a"
+          ],
+          [
+            "person"
+          ],
+          [
+            "is"
+          ],
+          [
+            "dreaming."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 152.21,
+        "timeEnd": 157.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80920/list"
+      },
+      {
+        "id": 80921,
+        "position": 45,
+        "content": "But their best guess is that dreaming looks like this.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "their",
+          "best",
+          "guess",
+          "is",
+          "that",
+          "dreaming",
+          "looks",
+          "like",
+          "this."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "their"
+          ],
+          [
+            "best"
+          ],
+          [
+            "guess"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "dreaming"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "like"
+          ],
+          [
+            "this."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 157.13,
+        "timeEnd": 161.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80921/list"
+      },
+      {
+        "id": 80922,
+        "position": 46,
+        "content": "Looks like a bunch of squigglies, right?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Looks",
+          "like",
+          "a",
+          "bunch",
+          "of",
+          "squigglies,",
+          "right?"
+        ],
+        "solution": [
+          [
+            "Looks"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bunch"
+          ],
+          [
+            "of"
+          ],
+          [
+            "squigglies,"
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 161.24,
+        "timeEnd": 163.89,
+        "hints": [
+          "squigglies"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80922/list"
+      },
+      {
+        "id": 80923,
+        "position": 47,
+        "content": "But those squigglies show what's going on inside a person's brain.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "those",
+          "squigglies",
+          "show",
+          [
+            "what's",
+            "what is"
+          ],
+          "going",
+          "on",
+          "inside",
+          "a",
+          "person's",
+          "brain."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "those"
+          ],
+          [
+            "squigglies"
+          ],
+          [
+            "show"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "going"
+          ],
+          [
+            "on"
+          ],
+          [
+            "inside"
+          ],
+          [
+            "a"
+          ],
+          [
+            "person's"
+          ],
+          [
+            "brain."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 163.89,
+        "timeEnd": 168.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80923/list"
+      },
+      {
+        "id": 80924,
+        "position": 48,
+        "content": "The lines come from an EEG,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "lines",
+          "come",
+          "from",
+          "an",
+          "EEG,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "lines"
+          ],
+          [
+            "come"
+          ],
+          [
+            "from"
+          ],
+          [
+            "an"
+          ],
+          [
+            "EEG,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 168.98,
+        "timeEnd": 171.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80924/list"
+      },
+      {
+        "id": 80925,
+        "position": 49,
+        "content": "which is a machine that measures brain activity.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "is",
+          "a",
+          "machine",
+          "that",
+          "measures",
+          "brain",
+          "activity."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "machine"
+          ],
+          [
+            "that"
+          ],
+          [
+            "measures"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "activity."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 171.77,
+        "timeEnd": 174.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80925/list"
+      },
+      {
+        "id": 80926,
+        "position": 50,
+        "content": "It's kind of like how a heart monitor shows your heartbeat as a zigzag line.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "kind",
+          "of",
+          "like",
+          "how",
+          "a",
+          "heart",
+          "monitor",
+          "shows",
+          "your",
+          "heartbeat",
+          "as",
+          "a",
+          "zigzag",
+          "line."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "like"
+          ],
+          [
+            "how"
+          ],
+          [
+            "a"
+          ],
+          [
+            "heart"
+          ],
+          [
+            "monitor"
+          ],
+          [
+            "shows"
+          ],
+          [
+            "your"
+          ],
+          [
+            "heartbeat"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "zigzag"
+          ],
+          [
+            "line."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 174.5,
+        "timeEnd": 179.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80926/list"
+      },
+      {
+        "id": 80927,
+        "position": 51,
+        "content": "This person is wearing a cap with sensors that connect to the EEG.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "person",
+          "is",
+          "wearing",
+          "a",
+          "cap",
+          "with",
+          "sensors",
+          "that",
+          "connect",
+          "to",
+          "the",
+          "EEG."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "person"
+          ],
+          [
+            "is"
+          ],
+          [
+            "wearing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cap"
+          ],
+          [
+            "with"
+          ],
+          [
+            "sensors"
+          ],
+          [
+            "that"
+          ],
+          [
+            "connect"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "EEG."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 179.5,
+        "timeEnd": 185.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80927/list"
+      },
+      {
+        "id": 80928,
+        "position": 52,
+        "content": "When there's activity in the person's brain, like their brain is doing something,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          [
+            "there's",
+            "there is"
+          ],
+          "activity",
+          "in",
+          "the",
+          "person's",
+          "brain,",
+          "like",
+          "their",
+          "brain",
+          "is",
+          "doing",
+          "something,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "person's"
+          ],
+          [
+            "brain,"
+          ],
+          [
+            "like"
+          ],
+          [
+            "their"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "is"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "something,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 185.15,
+        "timeEnd": 190.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80928/list"
+      },
+      {
+        "id": 80929,
+        "position": 53,
+        "content": "it shows up on the EEG as wavy lines.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "shows",
+          "up",
+          "on",
+          "the",
+          "EEG",
+          "as",
+          "wavy",
+          "lines."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "shows"
+          ],
+          [
+            "up"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "EEG"
+          ],
+          [
+            "as"
+          ],
+          [
+            "wavy"
+          ],
+          [
+            "lines."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 190.2,
+        "timeEnd": 193.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80929/list"
+      },
+      {
+        "id": 80930,
+        "position": 54,
+        "content": "Sometimes, when you sleep,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sometimes,",
+          "when",
+          "you",
+          "sleep,"
+        ],
+        "solution": [
+          [
+            "Sometimes,"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "sleep,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 194.05,
+        "timeEnd": 196.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80930/list"
+      },
+      {
+        "id": 80931,
+        "position": 55,
+        "content": "the activity in your brain looks like big, spread-out waves.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "activity",
+          "in",
+          "your",
+          "brain",
+          "looks",
+          "like",
+          "big,",
+          [
+            "spread-out",
+            "spread out"
+          ],
+          "waves."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "like"
+          ],
+          [
+            "big,"
+          ],
+          [
+            "spread-out",
+            "spread out"
+          ],
+          [
+            "waves."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 196.23,
+        "timeEnd": 200.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80931/list"
+      },
+      {
+        "id": 80932,
+        "position": 56,
+        "content": "But other times, it's these short, fast waves all packaged together.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "other",
+          "times,",
+          "it's",
+          "these",
+          "short,",
+          "fast",
+          "waves",
+          "all",
+          "packaged",
+          "together."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "other"
+          ],
+          [
+            "times,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "these"
+          ],
+          [
+            "short,"
+          ],
+          [
+            "fast"
+          ],
+          [
+            "waves"
+          ],
+          [
+            "all"
+          ],
+          [
+            "packaged"
+          ],
+          [
+            "together."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 200.75,
+        "timeEnd": 205.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80932/list"
+      },
+      {
+        "id": 80933,
+        "position": 57,
+        "content": "They look a lot like the waves your brain makes when you're awake,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "look",
+          "a",
+          "lot",
+          "like",
+          "the",
+          "waves",
+          "your",
+          "brain",
+          "makes",
+          "when",
+          [
+            "you're",
+            "you are"
+          ],
+          "awake,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "look"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "waves"
+          ],
+          [
+            "your"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "awake,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 206.09,
+        "timeEnd": 210.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80933/list"
+      },
+      {
+        "id": 80934,
+        "position": 58,
+        "content": "when you're thinking and learning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "when",
+          [
+            "you're",
+            "you are"
+          ],
+          "thinking",
+          "and",
+          "learning."
+        ],
+        "solution": [
+          [
+            "when"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "and"
+          ],
+          [
+            "learning."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 210.17,
+        "timeEnd": 212.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80934/list"
+      },
+      {
+        "id": 80935,
+        "position": 59,
+        "content": "So why is there fast activity in parts of your brain when you're just lying there asleep?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "why",
+          "is",
+          "there",
+          "fast",
+          "activity",
+          "in",
+          "parts",
+          "of",
+          "your",
+          "brain",
+          "when",
+          [
+            "you're",
+            "you are"
+          ],
+          "just",
+          "lying",
+          "there",
+          "asleep?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "why"
+          ],
+          [
+            "is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "fast"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "in"
+          ],
+          [
+            "parts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "just"
+          ],
+          [
+            "lying"
+          ],
+          [
+            "there"
+          ],
+          [
+            "asleep?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 212.37,
+        "timeEnd": 219.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80935/list"
+      },
+      {
+        "id": 80936,
+        "position": 60,
+        "content": "Scientists think it's because you're dreaming.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Scientists",
+          "think",
+          "it's",
+          "because",
+          [
+            "you're",
+            "you are"
+          ],
+          "dreaming."
+        ],
+        "solution": [
+          [
+            "Scientists"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "because"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "dreaming."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 219.41,
+        "timeEnd": 222.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80936/list"
+      },
+      {
+        "id": 80937,
+        "position": 61,
+        "content": "If dreams happen when there's a lot of fast activity in people's brains,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "dreams",
+          "happen",
+          "when",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "lot",
+          "of",
+          "fast",
+          "activity",
+          "in",
+          "people's",
+          "brains,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "dreams"
+          ],
+          [
+            "happen"
+          ],
+          [
+            "when"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fast"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "in"
+          ],
+          [
+            "people's"
+          ],
+          [
+            "brains,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 222.86,
+        "timeEnd": 228.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80937/list"
+      },
+      {
+        "id": 80938,
+        "position": 62,
+        "content": "we can check if something similar happens when other animals sleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "can",
+          "check",
+          "if",
+          "something",
+          "similar",
+          "happens",
+          "when",
+          "other",
+          "animals",
+          "sleep."
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "check"
+          ],
+          [
+            "if"
+          ],
+          [
+            "something"
+          ],
+          [
+            "similar"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "when"
+          ],
+          [
+            "other"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "sleep."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 228.12,
+        "timeEnd": 232.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80938/list"
+      },
+      {
+        "id": 80939,
+        "position": 63,
+        "content": "Like this cat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Like",
+          "this",
+          "cat."
+        ],
+        "solution": [
+          [
+            "Like"
+          ],
+          [
+            "this"
+          ],
+          [
+            "cat."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 233.12,
+        "timeEnd": 234.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80939/list"
+      },
+      {
+        "id": 80940,
+        "position": 64,
+        "content": "She's wearing EEG sensors like you saw before,",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "wearing",
+          "EEG",
+          "sensors",
+          "like",
+          "you",
+          "saw",
+          "before,"
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "wearing"
+          ],
+          [
+            "EEG"
+          ],
+          [
+            "sensors"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "before,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 234.53,
+        "timeEnd": 238.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80940/list"
+      },
+      {
+        "id": 80941,
+        "position": 65,
+        "content": "so scientists can see what her brain activity looks like.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "scientists",
+          "can",
+          "see",
+          "what",
+          "her",
+          "brain",
+          "activity",
+          "looks",
+          "like."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "scientists"
+          ],
+          [
+            "can"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "her"
+          ],
+          [
+            "brain"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "like."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 238.47,
+        "timeEnd": 241.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80941/list"
+      },
+      {
+        "id": 80942,
+        "position": 66,
+        "content": "Scientists found that when dogs and cats sleep,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Scientists",
+          "found",
+          "that",
+          "when",
+          "dogs",
+          "and",
+          "cats",
+          "sleep,"
+        ],
+        "solution": [
+          [
+            "Scientists"
+          ],
+          [
+            "found"
+          ],
+          [
+            "that"
+          ],
+          [
+            "when"
+          ],
+          [
+            "dogs"
+          ],
+          [
+            "and"
+          ],
+          [
+            "cats"
+          ],
+          [
+            "sleep,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 241.95,
+        "timeEnd": 245.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80942/list"
+      },
+      {
+        "id": 80943,
+        "position": 67,
+        "content": "they also have moments where their brains have lots of fast activity,",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "also",
+          "have",
+          "moments",
+          "where",
+          "their",
+          "brains",
+          "have",
+          "lots",
+          "of",
+          "fast",
+          "activity,"
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "also"
+          ],
+          [
+            "have"
+          ],
+          [
+            "moments"
+          ],
+          [
+            "where"
+          ],
+          [
+            "their"
+          ],
+          [
+            "brains"
+          ],
+          [
+            "have"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fast"
+          ],
+          [
+            "activity,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 245.44,
+        "timeEnd": 250.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80943/list"
+      },
+      {
+        "id": 80944,
+        "position": 68,
+        "content": "a lot like we do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "lot",
+          "like",
+          "we",
+          "do."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "like"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 250.55,
+        "timeEnd": 252.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80944/list"
+      },
+      {
+        "id": 80945,
+        "position": 69,
+        "content": "Which means dogs and cats might dream like we do too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "means",
+          "dogs",
+          "and",
+          "cats",
+          "might",
+          "dream",
+          "like",
+          "we",
+          "do",
+          "too."
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "means"
+          ],
+          [
+            "dogs"
+          ],
+          [
+            "and"
+          ],
+          [
+            "cats"
+          ],
+          [
+            "might"
+          ],
+          [
+            "dream"
+          ],
+          [
+            "like"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 252.04,
+        "timeEnd": 256.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80945/list"
+      },
+      {
+        "id": 80946,
+        "position": 70,
+        "content": "So Olive might really be dreaming when her paws twitch.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "Olive",
+          "might",
+          "really",
+          "be",
+          "dreaming",
+          "when",
+          "her",
+          "paws",
+          "twitch."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "Olive"
+          ],
+          [
+            "might"
+          ],
+          [
+            "really"
+          ],
+          [
+            "be"
+          ],
+          [
+            "dreaming"
+          ],
+          [
+            "when"
+          ],
+          [
+            "her"
+          ],
+          [
+            "paws"
+          ],
+          [
+            "twitch."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 256.61,
+        "timeEnd": 260.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80946/list"
+      },
+      {
+        "id": 80947,
+        "position": 71,
+        "content": "Scientists have studied how lots of other animals sleep as well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Scientists",
+          "have",
+          "studied",
+          "how",
+          "lots",
+          "of",
+          "other",
+          "animals",
+          "sleep",
+          "as",
+          "well."
+        ],
+        "solution": [
+          [
+            "Scientists"
+          ],
+          [
+            "have"
+          ],
+          [
+            "studied"
+          ],
+          [
+            "how"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "other"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "sleep"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 260.59,
+        "timeEnd": 264.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80947/list"
+      },
+      {
+        "id": 80948,
+        "position": 72,
+        "content": "But sometimes it's difficult to study all animals' brains.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "sometimes",
+          "it's",
+          "difficult",
+          "to",
+          "study",
+          "all",
+          "animals'",
+          "brains."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "to"
+          ],
+          [
+            "study"
+          ],
+          [
+            "all"
+          ],
+          [
+            "animals'"
+          ],
+          [
+            "brains."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 264.93,
+        "timeEnd": 268.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80948/list"
+      },
+      {
+        "id": 80949,
+        "position": 73,
+        "content": "The animal might be really big or really small",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "animal",
+          "might",
+          "be",
+          "really",
+          "big",
+          "or",
+          "really",
+          "small"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "animal"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "really"
+          ],
+          [
+            "big"
+          ],
+          [
+            "or"
+          ],
+          [
+            "really"
+          ],
+          [
+            "small"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 268.86,
+        "timeEnd": 272.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80949/list"
+      },
+      {
+        "id": 80950,
+        "position": 74,
+        "content": "or live somewhere hard to reach.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "live",
+          "somewhere",
+          "hard",
+          "to",
+          "reach."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "live"
+          ],
+          [
+            "somewhere"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reach."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 272.91,
+        "timeEnd": 275.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80950/list"
+      },
+      {
+        "id": 80951,
+        "position": 75,
+        "content": "So scientists look for other signs that could show a lot of activity happening in a sleeping animal's brain.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "scientists",
+          "look",
+          "for",
+          "other",
+          "signs",
+          "that",
+          "could",
+          "show",
+          "a",
+          "lot",
+          "of",
+          "activity",
+          "happening",
+          "in",
+          "a",
+          "sleeping",
+          "animal's",
+          "brain."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "scientists"
+          ],
+          [
+            "look"
+          ],
+          [
+            "for"
+          ],
+          [
+            "other"
+          ],
+          [
+            "signs"
+          ],
+          [
+            "that"
+          ],
+          [
+            "could"
+          ],
+          [
+            "show"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "happening"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sleeping"
+          ],
+          [
+            "animal's"
+          ],
+          [
+            "brain."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 275.18,
+        "timeEnd": 281.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80951/list"
+      },
+      {
+        "id": 80952,
+        "position": 76,
+        "content": "For instance, this is a jumping spider.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "instance,",
+          "this",
+          "is",
+          "a",
+          "jumping",
+          "spider."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "instance,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "jumping"
+          ],
+          [
+            "spider."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 281.89,
+        "timeEnd": 285.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80952/list"
+      },
+      {
+        "id": 80953,
+        "position": 77,
+        "content": "It's hard to see here, but...",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "hard",
+          "to",
+          "see",
+          "here,",
+          "but..."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "here,"
+          ],
+          [
+            "but..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 285.65,
+        "timeEnd": 288.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80953/list"
+      },
+      {
+        "id": 80954,
+        "position": 78,
+        "content": "when it sleeps, parts of its eyes will make sudden quick movements.",
+        "defaultInput": "",
+        "jsonContent": [
+          "when",
+          "it",
+          "sleeps,",
+          "parts",
+          "of",
+          "its",
+          "eyes",
+          "will",
+          "make",
+          "sudden",
+          "quick",
+          "movements."
+        ],
+        "solution": [
+          [
+            "when"
+          ],
+          [
+            "it"
+          ],
+          [
+            "sleeps,"
+          ],
+          [
+            "parts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "its"
+          ],
+          [
+            "eyes"
+          ],
+          [
+            "will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sudden"
+          ],
+          [
+            "quick"
+          ],
+          [
+            "movements."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 288.09,
+        "timeEnd": 293.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80954/list"
+      },
+      {
+        "id": 80955,
+        "position": 79,
+        "content": "Sounds kind of weird, right?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sounds",
+          "kind",
+          "of",
+          "weird,",
+          "right?"
+        ],
+        "solution": [
+          [
+            "Sounds"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "weird,"
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 293.17,
+        "timeEnd": 295.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80955/list"
+      },
+      {
+        "id": 80956,
+        "position": 80,
+        "content": "But your body does something similar when you sleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "your",
+          "body",
+          "does",
+          "something",
+          "similar",
+          "when",
+          "you",
+          "sleep."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "your"
+          ],
+          [
+            "body"
+          ],
+          [
+            "does"
+          ],
+          [
+            "something"
+          ],
+          [
+            "similar"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "sleep."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 295.23,
+        "timeEnd": 299.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80956/list"
+      },
+      {
+        "id": 80957,
+        "position": 81,
+        "content": "Watch this person's eyes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Watch",
+          "this",
+          "person's",
+          "eyes."
+        ],
+        "solution": [
+          [
+            "Watch"
+          ],
+          [
+            "this"
+          ],
+          [
+            "person's"
+          ],
+          [
+            "eyes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 299.01,
+        "timeEnd": 301.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80957/list"
+      },
+      {
+        "id": 80958,
+        "position": 82,
+        "content": "Do you notice how they're moving?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "notice",
+          "how",
+          [
+            "they're",
+            "they are"
+          ],
+          "moving?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "notice"
+          ],
+          [
+            "how"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "moving?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 301.71,
+        "timeEnd": 303.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80958/list"
+      },
+      {
+        "id": 80959,
+        "position": 83,
+        "content": "Scientists call that rapid eye movement, or REM for short.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Scientists",
+          "call",
+          "that",
+          "rapid",
+          "eye",
+          "movement,",
+          "or",
+          "REM",
+          "for",
+          "short."
+        ],
+        "solution": [
+          [
+            "Scientists"
+          ],
+          [
+            "call"
+          ],
+          [
+            "that"
+          ],
+          [
+            "rapid"
+          ],
+          [
+            "eye"
+          ],
+          [
+            "movement,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "REM"
+          ],
+          [
+            "for"
+          ],
+          [
+            "short."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 303.97,
+        "timeEnd": 308.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80959/list"
+      },
+      {
+        "id": 80960,
+        "position": 84,
+        "content": "REM happens during some of those times when there's lots of fast activity in your brain,",
+        "defaultInput": "",
+        "jsonContent": [
+          "REM",
+          "happens",
+          "during",
+          "some",
+          "of",
+          "those",
+          "times",
+          "when",
+          [
+            "there's",
+            "there is"
+          ],
+          "lots",
+          "of",
+          "fast",
+          "activity",
+          "in",
+          "your",
+          "brain,"
+        ],
+        "solution": [
+          [
+            "REM"
+          ],
+          [
+            "happens"
+          ],
+          [
+            "during"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "those"
+          ],
+          [
+            "times"
+          ],
+          [
+            "when"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fast"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "brain,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 309.21,
+        "timeEnd": 315.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80960/list"
+      },
+      {
+        "id": 80961,
+        "position": 85,
+        "content": "times when dreaming is likely to happen.",
+        "defaultInput": "",
+        "jsonContent": [
+          "times",
+          "when",
+          "dreaming",
+          "is",
+          "likely",
+          "to",
+          "happen."
+        ],
+        "solution": [
+          [
+            "times"
+          ],
+          [
+            "when"
+          ],
+          [
+            "dreaming"
+          ],
+          [
+            "is"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "to"
+          ],
+          [
+            "happen."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 315.08,
+        "timeEnd": 318.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80961/list"
+      },
+      {
+        "id": 80962,
+        "position": 86,
+        "content": "So if people wiggle their eyes when they dream,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "if",
+          "people",
+          "wiggle",
+          "their",
+          "eyes",
+          "when",
+          "they",
+          "dream,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "if"
+          ],
+          [
+            "people"
+          ],
+          [
+            "wiggle"
+          ],
+          [
+            "their"
+          ],
+          [
+            "eyes"
+          ],
+          [
+            "when"
+          ],
+          [
+            "they"
+          ],
+          [
+            "dream,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 318.27,
+        "timeEnd": 321.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80962/list"
+      },
+      {
+        "id": 80963,
+        "position": 87,
+        "content": "maybe jumping spiders wiggle their eyes when they dream too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "maybe",
+          "jumping",
+          "spiders",
+          "wiggle",
+          "their",
+          "eyes",
+          "when",
+          "they",
+          "dream",
+          "too."
+        ],
+        "solution": [
+          [
+            "maybe"
+          ],
+          [
+            "jumping"
+          ],
+          [
+            "spiders"
+          ],
+          [
+            "wiggle"
+          ],
+          [
+            "their"
+          ],
+          [
+            "eyes"
+          ],
+          [
+            "when"
+          ],
+          [
+            "they"
+          ],
+          [
+            "dream"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 321.82,
+        "timeEnd": 325.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80963/list"
+      },
+      {
+        "id": 80964,
+        "position": 88,
+        "content": "Can you imagine what a spider's dreams might look like?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "imagine",
+          "what",
+          "a",
+          "spider's",
+          "dreams",
+          "might",
+          "look",
+          "like?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "imagine"
+          ],
+          [
+            "what"
+          ],
+          [
+            "a"
+          ],
+          [
+            "spider's"
+          ],
+          [
+            "dreams"
+          ],
+          [
+            "might"
+          ],
+          [
+            "look"
+          ],
+          [
+            "like?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 325.97,
+        "timeEnd": 329.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80964/list"
+      },
+      {
+        "id": 80965,
+        "position": 89,
+        "content": "Different animals experience the world in such different ways,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Different",
+          "animals",
+          "experience",
+          "the",
+          "world",
+          "in",
+          "such",
+          "different",
+          "ways,"
+        ],
+        "solution": [
+          [
+            "Different"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "in"
+          ],
+          [
+            "such"
+          ],
+          [
+            "different"
+          ],
+          [
+            "ways,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 329.25,
+        "timeEnd": 333.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80965/list"
+      },
+      {
+        "id": 80966,
+        "position": 90,
+        "content": "and it makes sense their dreams would be just as different.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          "makes",
+          "sense",
+          "their",
+          "dreams",
+          "would",
+          "be",
+          "just",
+          "as",
+          "different."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "sense"
+          ],
+          [
+            "their"
+          ],
+          [
+            "dreams"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "just"
+          ],
+          [
+            "as"
+          ],
+          [
+            "different."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 333.25,
+        "timeEnd": 337.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80966/list"
+      },
+      {
+        "id": 80967,
+        "position": 91,
+        "content": "I mean, think about what life would be like if you were a dog.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "mean,",
+          "think",
+          "about",
+          "what",
+          "life",
+          "would",
+          "be",
+          "like",
+          "if",
+          "you",
+          "were",
+          "a",
+          "dog."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "mean,"
+          ],
+          [
+            "think"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "life"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "like"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "were"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dog."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 337.17,
+        "timeEnd": 341.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80967/list"
+      },
+      {
+        "id": 80968,
+        "position": 92,
+        "content": "You'd probably use your sense of smell to explore.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You'd",
+          "probably",
+          "use",
+          "your",
+          "sense",
+          "of",
+          "smell",
+          "to",
+          "explore."
+        ],
+        "solution": [
+          [
+            "You'd"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "use"
+          ],
+          [
+            "your"
+          ],
+          [
+            "sense"
+          ],
+          [
+            "of"
+          ],
+          [
+            "smell"
+          ],
+          [
+            "to"
+          ],
+          [
+            "explore."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 341.45,
+        "timeEnd": 344.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80968/list"
+      },
+      {
+        "id": 80969,
+        "position": 93,
+        "content": "And maybe you dream in smells too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "maybe",
+          "you",
+          "dream",
+          "in",
+          "smells",
+          "too."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "you"
+          ],
+          [
+            "dream"
+          ],
+          [
+            "in"
+          ],
+          [
+            "smells"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 344.82,
+        "timeEnd": 347.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80969/list"
+      },
+      {
+        "id": 80970,
+        "position": 94,
+        "content": "So in summary, it's difficult to know if animals dream.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "in",
+          "summary,",
+          "it's",
+          "difficult",
+          "to",
+          "know",
+          "if",
+          "animals",
+          "dream."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "in"
+          ],
+          [
+            "summary,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "if"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "dream."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 348.5,
+        "timeEnd": 352.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80970/list"
+      },
+      {
+        "id": 80971,
+        "position": 95,
+        "content": "But one way scientists are figuring this out is by comparing other animals with people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "one",
+            "1"
+          ],
+          "way",
+          "scientists",
+          "are",
+          "figuring",
+          "this",
+          "out",
+          "is",
+          "by",
+          "comparing",
+          "other",
+          "animals",
+          "with",
+          "people."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "way"
+          ],
+          [
+            "scientists"
+          ],
+          [
+            "are"
+          ],
+          [
+            "figuring"
+          ],
+          [
+            "this"
+          ],
+          [
+            "out"
+          ],
+          [
+            "is"
+          ],
+          [
+            "by"
+          ],
+          [
+            "comparing"
+          ],
+          [
+            "other"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "with"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 352.81,
+        "timeEnd": 358.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80971/list"
+      },
+      {
+        "id": 80972,
+        "position": 96,
+        "content": "When people sleep, sometimes there's lots of fast activity in parts of our brains.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "people",
+          "sleep,",
+          "sometimes",
+          [
+            "there's",
+            "there is"
+          ],
+          "lots",
+          "of",
+          "fast",
+          "activity",
+          "in",
+          "parts",
+          "of",
+          "our",
+          "brains."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "people"
+          ],
+          [
+            "sleep,"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fast"
+          ],
+          [
+            "activity"
+          ],
+          [
+            "in"
+          ],
+          [
+            "parts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "brains."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 358.48,
+        "timeEnd": 364.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80972/list"
+      },
+      {
+        "id": 80973,
+        "position": 97,
+        "content": "And that's when dreaming likely happens.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "that's",
+          "when",
+          "dreaming",
+          "likely",
+          "happens."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "when"
+          ],
+          [
+            "dreaming"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "happens."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 364.8,
+        "timeEnd": 367.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80973/list"
+      },
+      {
+        "id": 80974,
+        "position": 98,
+        "content": "When some animals sleep,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "some",
+          "animals",
+          "sleep,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "some"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "sleep,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 367.51,
+        "timeEnd": 369.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80974/list"
+      },
+      {
+        "id": 80975,
+        "position": 99,
+        "content": "there are signs that their brains also get very active, a lot like ours do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "there",
+          "are",
+          "signs",
+          "that",
+          "their",
+          "brains",
+          "also",
+          "get",
+          "very",
+          "active,",
+          "a",
+          "lot",
+          "like",
+          "ours",
+          "do."
+        ],
+        "solution": [
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "signs"
+          ],
+          [
+            "that"
+          ],
+          [
+            "their"
+          ],
+          [
+            "brains"
+          ],
+          [
+            "also"
+          ],
+          [
+            "get"
+          ],
+          [
+            "very"
+          ],
+          [
+            "active,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "like"
+          ],
+          [
+            "ours"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 369.3,
+        "timeEnd": 374.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80975/list"
+      },
+      {
+        "id": 80976,
+        "position": 100,
+        "content": "So maybe they dream like we do too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "maybe",
+          "they",
+          "dream",
+          "like",
+          "we",
+          "do",
+          "too."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "they"
+          ],
+          [
+            "dream"
+          ],
+          [
+            "like"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 374.55,
+        "timeEnd": 377.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80976/list"
+      },
+      {
+        "id": 80977,
+        "position": 101,
+        "content": "That means cats, dogs, and even jumping spiders might dream,",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "means",
+          "cats,",
+          "dogs,",
+          "and",
+          "even",
+          "jumping",
+          "spiders",
+          "might",
+          "dream,"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "means"
+          ],
+          [
+            "cats,"
+          ],
+          [
+            "dogs,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "even"
+          ],
+          [
+            "jumping"
+          ],
+          [
+            "spiders"
+          ],
+          [
+            "might"
+          ],
+          [
+            "dream,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 377.63,
+        "timeEnd": 382.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80977/list"
+      },
+      {
+        "id": 80978,
+        "position": 102,
+        "content": "as well as chimps, mice, pigeons,",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "well",
+          "as",
+          "chimps,",
+          "mice,",
+          "pigeons,"
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "chimps,"
+          ],
+          [
+            "mice,"
+          ],
+          [
+            "pigeons,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 382.18,
+        "timeEnd": 385.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80978/list"
+      },
+      {
+        "id": 80979,
+        "position": 103,
+        "content": "bearded dragons, octopuses, and many others.",
+        "defaultInput": "",
+        "jsonContent": [
+          "bearded",
+          "dragons,",
+          "octopuses,",
+          "and",
+          "many",
+          "others."
+        ],
+        "solution": [
+          [
+            "bearded"
+          ],
+          [
+            "dragons,"
+          ],
+          [
+            "octopuses,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "many"
+          ],
+          [
+            "others."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 385.8,
+        "timeEnd": 390.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80979/list"
+      },
+      {
+        "id": 80980,
+        "position": 104,
+        "content": "But animal dreams would be very different from ours since they experience the world in such different ways.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "animal",
+          "dreams",
+          "would",
+          "be",
+          "very",
+          "different",
+          "from",
+          "ours",
+          "since",
+          "they",
+          "experience",
+          "the",
+          "world",
+          "in",
+          "such",
+          "different",
+          "ways."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "animal"
+          ],
+          [
+            "dreams"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "very"
+          ],
+          [
+            "different"
+          ],
+          [
+            "from"
+          ],
+          [
+            "ours"
+          ],
+          [
+            "since"
+          ],
+          [
+            "they"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "in"
+          ],
+          [
+            "such"
+          ],
+          [
+            "different"
+          ],
+          [
+            "ways."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 390.23,
+        "timeEnd": 396.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80980/list"
+      },
+      {
+        "id": 80981,
+        "position": 105,
+        "content": "So while we can't say yes for sure,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "while",
+          "we",
+          "can't",
+          "say",
+          "yes",
+          "for",
+          "sure,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "while"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "say"
+          ],
+          [
+            "yes"
+          ],
+          [
+            "for"
+          ],
+          [
+            "sure,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 397.16,
+        "timeEnd": 400.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80981/list"
+      },
+      {
+        "id": 80982,
+        "position": 106,
+        "content": "there's evidence that some animals do dream.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "there's",
+            "there is"
+          ],
+          "evidence",
+          "that",
+          "some",
+          "animals",
+          "do",
+          "dream."
+        ],
+        "solution": [
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "evidence"
+          ],
+          [
+            "that"
+          ],
+          [
+            "some"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "do"
+          ],
+          [
+            "dream."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 400.28,
+        "timeEnd": 403.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80982/list"
+      },
+      {
+        "id": 80983,
+        "position": 107,
+        "content": "And maybe someday, you'll find more clues that help us answer if animals dream.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "maybe",
+          "someday,",
+          [
+            "you'll",
+            "you will"
+          ],
+          "find",
+          "more",
+          "clues",
+          "that",
+          "help",
+          "us",
+          "answer",
+          "if",
+          "animals",
+          "dream."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "someday,"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "find"
+          ],
+          [
+            "more"
+          ],
+          [
+            "clues"
+          ],
+          [
+            "that"
+          ],
+          [
+            "help"
+          ],
+          [
+            "us"
+          ],
+          [
+            "answer"
+          ],
+          [
+            "if"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "dream."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 403.39,
+        "timeEnd": 408.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80983/list"
+      },
+      {
+        "id": 80984,
+        "position": 108,
+        "content": "That's all for this week's question.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "all",
+          "for",
+          "this",
+          "week's",
+          "question."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "all"
+          ],
+          [
+            "for"
+          ],
+          [
+            "this"
+          ],
+          [
+            "week's"
+          ],
+          [
+            "question."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 408.86,
+        "timeEnd": 410.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80984/list"
+      },
+      {
+        "id": 80985,
+        "position": 109,
+        "content": "Thanks, Peyton, for asking it!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks,",
+          "Peyton,",
+          "for",
+          "asking",
+          "it!"
+        ],
+        "solution": [
+          [
+            "Thanks,"
+          ],
+          [
+            "Peyton,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "asking"
+          ],
+          [
+            "it!"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 410.73,
+        "timeEnd": 412.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/80985/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "80877": {
+      "id": 2596733,
+      "text": "Chào, mình là Esther.",
+      "author": "ChatGPT4.1"
+    },
+    "80878": {
+      "id": 2596734,
+      "text": "Con mèo của mình tên Olive rất thích ngủ trưa.",
+      "author": "ChatGPT4.1"
+    },
+    "80879": {
+      "id": 2596735,
+      "text": "Chỗ yêu thích của nó là bất cứ nơi nào có ánh nắng ấm áp.",
+      "author": "ChatGPT4.1"
+    },
+    "80880": {
+      "id": 2596736,
+      "text": "Nhưng đôi khi nó sẽ vào phòng làm việc của tôi khi tôi đang làm việc,",
+      "author": "a user"
+    },
+    "80881": {
+      "id": 2596737,
+      "text": "nằm ngửa ra và ngủ say sưa.",
+      "author": "ChatGPT4.1"
+    },
+    "80882": {
+      "id": 2596738,
+      "text": "Nó đã ngủ mê man.",
+      "author": "ChatGPT4.1"
+    },
+    "80883": {
+      "id": 2596739,
+      "text": "Nếu mình vô tình gây ra tiếng ồn lớn, nó vẫn tiếp tục ngủ,",
+      "author": "ChatGPT4.1"
+    },
+    "80884": {
+      "id": 2596740,
+      "text": "nhưng các bàn chân nó vẫy qua vẫy lại.",
+      "author": "ChatGPT4.1"
+    },
+    "80885": {
+      "id": 2596741,
+      "text": "Cứ như là nó đang nói, \"Này, trật tự nào!\"",
+      "author": "ChatGPT4.1"
+    },
+    "80886": {
+      "id": 2596742,
+      "text": "Có một bạn tên Peyton muốn biết điều gì xảy ra khi động vật ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "80887": {
+      "id": 2596743,
+      "text": "Chúng ta hãy gọi cho Peyton nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "80888": {
+      "id": 2596744,
+      "text": "Chào Esther.",
+      "author": "ChatGPT4.1"
+    },
+    "80889": {
+      "id": 2596745,
+      "text": "Chào Peyton.",
+      "author": "ChatGPT4.1"
+    },
+    "80890": {
+      "id": 2596746,
+      "text": "Mình có một câu hỏi cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "80891": {
+      "id": 2596747,
+      "text": "Động vật có mơ không?",
+      "author": "ChatGPT4.1"
+    },
+    "80892": {
+      "id": 2596748,
+      "text": "Đó là một câu hỏi tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "80893": {
+      "id": 2596749,
+      "text": "Chúng ta biết con người mơ vì chúng ta có thể kể lại các giấc mơ của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "80894": {
+      "id": 2596750,
+      "text": "Nhưng thật tiếc là chúng ta không thể trò chuyện như vậy với động vật, ít nhất là chưa thể.",
+      "author": "ChatGPT4.1"
+    },
+    "80895": {
+      "id": 2596751,
+      "text": "Có những điều mình thấy động vật làm khi ngủ khiến mình tự hỏi liệu chúng có mơ không.",
+      "author": "ChatGPT4.1"
+    },
+    "80896": {
+      "id": 2596752,
+      "text": "Như khi Olive vẫy các bàn chân.",
+      "author": "ChatGPT4.1"
+    },
+    "80897": {
+      "id": 2596753,
+      "text": "Hoặc nhìn con chó này.",
+      "author": "ChatGPT4.1"
+    },
+    "80898": {
+      "id": 2596754,
+      "text": "Nó đang ngủ, nhưng bạn thấy chân nó giật không?",
+      "author": "ChatGPT4.1"
+    },
+    "80899": {
+      "id": 2596755,
+      "text": "Và bây giờ trông như nó đang chạy.",
+      "author": "ChatGPT4.1"
+    },
+    "80900": {
+      "id": 2596756,
+      "text": "Có thể đó là dấu hiệu nó đang mơ về việc chạy không?",
+      "author": "ChatGPT4.1"
+    },
+    "80901": {
+      "id": 2596757,
+      "text": "Như một giấc mơ mà nó đang đuổi theo quả bóng và cơ thể nó diễn lại những gì xảy ra trong mơ?",
+      "author": "ChatGPT4.1"
+    },
+    "80902": {
+      "id": 2596758,
+      "text": "Và hãy xem con mèo đang ngủ này.",
+      "author": "a user"
+    },
+    "80903": {
+      "id": 2596759,
+      "text": "Nó đã rít lên to đến mức chính nó tự tỉnh dậy!",
+      "author": "ChatGPT4.1"
+    },
+    "80904": {
+      "id": 2596760,
+      "text": "Rít là cách mèo nói, \"Đừng lại gần!\"",
+      "author": "ChatGPT4.1"
+    },
+    "80905": {
+      "id": 2596761,
+      "text": "Vậy nên có lẽ nó đã mơ về điều gì đó đáng sợ, như máy hút bụi.",
+      "author": "ChatGPT4.1"
+    },
+    "80906": {
+      "id": 2596762,
+      "text": "Olive rất ghét những thứ đó.",
+      "author": "ChatGPT4.1"
+    },
+    "80907": {
+      "id": 2600811,
+      "text": "Có thể bạn cũng từng thấy thú cưng làm những điều tương tự khi chúng ngủ",
+      "author": "ChatGPT4.1"
+    },
+    "80908": {
+      "id": 2600812,
+      "text": "và tự hỏi liệu đó có phải là dấu hiệu cho thấy chúng đang mơ không.",
+      "author": "ChatGPT4.1"
+    },
+    "80909": {
+      "id": 2600813,
+      "text": "Và có lẽ bạn cũng có thể nghĩ đến nhiều loài động vật khác cũng ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "80910": {
+      "id": 2600814,
+      "text": "Bạn làm sao biết được liệu những động vật đó có đang mơ không?",
+      "author": "ChatGPT4.1"
+    },
+    "80911": {
+      "id": 2600815,
+      "text": "Có lẽ bạn có vài ý tưởng.",
+      "author": "ChatGPT4.1"
+    },
+    "80912": {
+      "id": 2600816,
+      "text": "Đây là một câu hỏi khó,",
+      "author": "ChatGPT4.1"
+    },
+    "80913": {
+      "id": 2600817,
+      "text": "đặc biệt vì động vật ngủ theo nhiều cách khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "80914": {
+      "id": 2600818,
+      "text": "Làm sao bạn biết được một con dơi có đang mơ không?",
+      "author": "ChatGPT4.1"
+    },
+    "80915": {
+      "id": 2600819,
+      "text": "Hoặc một con rùa?",
+      "author": "ChatGPT4.1"
+    },
+    "80916": {
+      "id": 2600820,
+      "text": "Hay một con cá voi?",
+      "author": "ChatGPT4.1"
+    },
+    "80917": {
+      "id": 2600821,
+      "text": "Vâng, một ý tưởng mà các nhà khoa học có là quan sát những gì xảy ra khi động vật ngủ",
+      "author": "ChatGPT4.1"
+    },
+    "80918": {
+      "id": 2600822,
+      "text": "và so sánh điều đó với những gì xảy ra khi con người ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "80919": {
+      "id": 2600823,
+      "text": "Bởi vì chúng ta chắc chắn rằng con người mơ,",
+      "author": "ChatGPT4.1"
+    },
+    "80920": {
+      "id": 2600824,
+      "text": "các nhà khoa học vẫn đang tìm hiểu chính xác làm sao để biết khi nào một người đang mơ.",
+      "author": "ChatGPT4.1"
+    },
+    "80921": {
+      "id": 2600825,
+      "text": "Nhưng theo phán đoán tốt nhất của họ, việc mơ trông như thế này.",
+      "author": "ChatGPT4.1"
+    },
+    "80922": {
+      "id": 2623305,
+      "text": "Trông giống như một đống vạch ngoằn ngoèo, phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "80923": {
+      "id": 2623306,
+      "text": "Nhưng những vạch ngoằn ngoèo đó cho thấy điều gì đang diễn ra bên trong não bộ của một người.",
+      "author": "ChatGPT4.1"
+    },
+    "80924": {
+      "id": 2623307,
+      "text": "Những đường này được tạo ra từ một máy EEG,",
+      "author": "ChatGPT4.1"
+    },
+    "80925": {
+      "id": 2623308,
+      "text": "đó là một thiết bị đo hoạt động của não.",
+      "author": "ChatGPT4.1"
+    },
+    "80926": {
+      "id": 2623309,
+      "text": "Nó hơi giống như cách máy đo nhịp tim hiển thị nhịp tim của bạn bằng các đường chữ chi.",
+      "author": "ChatGPT4.1"
+    },
+    "80927": {
+      "id": 2623310,
+      "text": "Người này đang đội một chiếc mũ có cảm biến kết nối với máy EEG.",
+      "author": "ChatGPT4.1"
+    },
+    "80928": {
+      "id": 2623311,
+      "text": "Khi có hoạt động trong não người, giống như não họ đang làm gì đó,",
+      "author": "ChatGPT4.1"
+    },
+    "80929": {
+      "id": 2623312,
+      "text": "nó sẽ xuất hiện trên máy EEG dưới dạng các đường lượn sóng.",
+      "author": "ChatGPT4.1"
+    },
+    "80930": {
+      "id": 2623313,
+      "text": "Đôi khi, khi bạn ngủ,",
+      "author": "ChatGPT4.1"
+    },
+    "80931": {
+      "id": 2623314,
+      "text": "hoạt động trong não bộ của bạn trông như những làn sóng lớn trải rộng.",
+      "author": "ChatGPT4.1"
+    },
+    "80932": {
+      "id": 2623315,
+      "text": "Nhưng đôi lúc, chúng là những làn sóng ngắn và nhanh gộp lại với nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "80933": {
+      "id": 2623316,
+      "text": "Chúng trông rất giống những làn sóng mà não bạn tạo ra khi bạn thức,",
+      "author": "ChatGPT4.1"
+    },
+    "80934": {
+      "id": 2623317,
+      "text": "lúc bạn đang suy nghĩ và học tập.",
+      "author": "ChatGPT4.1"
+    },
+    "80935": {
+      "id": 2623318,
+      "text": "Vậy tại sao lại có hoạt động nhanh trong một số phần của não bạn khi bạn chỉ nằm đó ngủ?",
+      "author": "ChatGPT4.1"
+    },
+    "80936": {
+      "id": 2623319,
+      "text": "Các nhà khoa học nghĩ rằng đó là vì bạn đang mơ.",
+      "author": "ChatGPT4.1"
+    },
+    "80937": {
+      "id": 2623824,
+      "text": "Nếu giấc mơ diễn ra khi có nhiều hoạt động nhanh trong não người,",
+      "author": "ChatGPT4.1"
+    },
+    "80938": {
+      "id": 2623825,
+      "text": "chúng ta có thể kiểm tra xem điều gì đó tương tự có xảy ra khi các loài vật khác ngủ hay không.",
+      "author": "ChatGPT4.1"
+    },
+    "80939": {
+      "id": 2623826,
+      "text": "Như con mèo này.",
+      "author": "ChatGPT4.1"
+    },
+    "80940": {
+      "id": 2623827,
+      "text": "Nó cũng đang đeo các cảm biến EEG giống như bạn thấy trước đó,",
+      "author": "ChatGPT4.1"
+    },
+    "80941": {
+      "id": 2623828,
+      "text": "để các nhà khoa học có thể xem hoạt động não của nó trông như thế nào.",
+      "author": "ChatGPT4.1"
+    },
+    "80942": {
+      "id": 2623829,
+      "text": "Các nhà khoa học phát hiện rằng khi chó và mèo ngủ,",
+      "author": "ChatGPT4.1"
+    },
+    "80943": {
+      "id": 2623830,
+      "text": "chúng cũng có những khoảnh khắc mà não chúng có nhiều hoạt động nhanh,",
+      "author": "ChatGPT4.1"
+    },
+    "80944": {
+      "id": 2623831,
+      "text": "rất giống với chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "80945": {
+      "id": 2623832,
+      "text": "Điều này có nghĩa là chó và mèo cũng có thể mơ giống chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "80946": {
+      "id": 2623833,
+      "text": "Vì vậy, Olive thật sự có thể đang mơ khi bàn chân cô ấy giật lên.",
+      "author": "ChatGPT4.1"
+    },
+    "80947": {
+      "id": 2623834,
+      "text": "Các nhà khoa học cũng đã nghiên cứu cách ngủ của nhiều loài động vật khác.",
+      "author": "ChatGPT4.1"
+    },
+    "80948": {
+      "id": 2623835,
+      "text": "Nhưng đôi khi rất khó để nghiên cứu não của mọi loài động vật.",
+      "author": "ChatGPT4.1"
+    },
+    "80949": {
+      "id": 2623836,
+      "text": "Động vật có thể rất lớn hoặc rất nhỏ",
+      "author": "ChatGPT4.1"
+    },
+    "80950": {
+      "id": 2623837,
+      "text": "hoặc sống ở nơi khó tiếp cận.",
+      "author": "ChatGPT4.1"
+    },
+    "80951": {
+      "id": 2623838,
+      "text": "Vì vậy, các nhà khoa học tìm kiếm các dấu hiệu khác có thể cho thấy có nhiều hoạt động đang diễn ra trong não của động vật khi chúng ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "80952": {
+      "id": 2625498,
+      "text": "Ví dụ, đây là một con nhện nhảy.",
+      "author": "ChatGPT4.1"
+    },
+    "80953": {
+      "id": 2625499,
+      "text": "Ở đây hơi khó nhìn, nhưng...",
+      "author": "ChatGPT4.1"
+    },
+    "80954": {
+      "id": 2625500,
+      "text": "khi nó ngủ, một phần mắt của nó sẽ chuyển động đột ngột và nhanh.",
+      "author": "ChatGPT4.1"
+    },
+    "80955": {
+      "id": 2625501,
+      "text": "Nghe có vẻ kỳ lạ phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "80956": {
+      "id": 2625502,
+      "text": "Nhưng cơ thể bạn cũng làm điều tương tự khi bạn ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "80957": {
+      "id": 2625503,
+      "text": "Hãy quan sát mắt của người này.",
+      "author": "ChatGPT4.1"
+    },
+    "80958": {
+      "id": 2625504,
+      "text": "Bạn có thấy mắt họ đang chuyển động như thế nào không?",
+      "author": "ChatGPT4.1"
+    },
+    "80959": {
+      "id": 2625505,
+      "text": "Các nhà khoa học gọi đó là chuyển động mắt nhanh, hoặc REM nói ngắn gọn.",
+      "author": "ChatGPT4.1"
+    },
+    "80960": {
+      "id": 2625506,
+      "text": "REM xảy ra trong một số khoảng thời gian khi trong não bạn có nhiều hoạt động nhanh,",
+      "author": "ChatGPT4.1"
+    },
+    "80961": {
+      "id": 2625507,
+      "text": "những thời điểm mà giấc mơ thường xuất hiện.",
+      "author": "ChatGPT4.1"
+    },
+    "80962": {
+      "id": 2625508,
+      "text": "Vậy nếu con người cử động mắt khi họ mơ,",
+      "author": "ChatGPT4.1"
+    },
+    "80963": {
+      "id": 2625509,
+      "text": "có thể nhện nhảy cũng cử động mắt khi chúng mơ nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "80964": {
+      "id": 2625510,
+      "text": "Bạn có thể tưởng tượng những giấc mơ của một con nhện sẽ trông như thế nào không?",
+      "author": "ChatGPT4.1"
+    },
+    "80965": {
+      "id": 2625511,
+      "text": "Các loài động vật khác nhau cảm nhận thế giới theo những cách rất khác nhau,",
+      "author": "ChatGPT4.1"
+    },
+    "80966": {
+      "id": 2625512,
+      "text": "và thật hợp lý khi giấc mơ của chúng cũng sẽ rất khác biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "80967": {
+      "id": 2625520,
+      "text": "Ý tôi là, hãy nghĩ cuộc sống sẽ thế nào nếu bạn là một con chó.",
+      "author": "ChatGPT4.1"
+    },
+    "80968": {
+      "id": 2625521,
+      "text": "Bạn có lẽ sẽ dùng khứu giác của mình để khám phá thế giới.",
+      "author": "ChatGPT4.1"
+    },
+    "80969": {
+      "id": 2625522,
+      "text": "Và có thể bạn cũng mơ bằng mùi hương nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "80970": {
+      "id": 2625523,
+      "text": "Tóm lại, thật khó để biết được các loài động vật có mơ hay không.",
+      "author": "ChatGPT4.1"
+    },
+    "80971": {
+      "id": 2625524,
+      "text": "Nhưng một cách mà các nhà khoa học đang tìm ra điều này là bằng cách so sánh các loài động vật khác với con người.",
+      "author": "ChatGPT4.1"
+    },
+    "80972": {
+      "id": 2625525,
+      "text": "Khi con người ngủ, đôi khi có rất nhiều hoạt động nhanh ở một số phần não bộ của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "80973": {
+      "id": 2625526,
+      "text": "Và đó là lúc giấc mơ có thể xảy ra.",
+      "author": "ChatGPT4.1"
+    },
+    "80974": {
+      "id": 2625527,
+      "text": "Khi một số loài động vật ngủ,",
+      "author": "ChatGPT4.1"
+    },
+    "80975": {
+      "id": 2625528,
+      "text": "có dấu hiệu cho thấy não của chúng cũng hoạt động mạnh, giống như chúng ta vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "80976": {
+      "id": 2625529,
+      "text": "Vì vậy có thể chúng cũng mơ giống như chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "80977": {
+      "id": 2625530,
+      "text": "Điều đó có nghĩa là mèo, chó, thậm chí cả nhện nhảy đều có thể mơ,",
+      "author": "ChatGPT4.1"
+    },
+    "80978": {
+      "id": 2625531,
+      "text": "cũng như tinh tinh, chuột, bồ câu,",
+      "author": "ChatGPT4.1"
+    },
+    "80979": {
+      "id": 2625532,
+      "text": "kỳ nhông râu, bạch tuộc, và nhiều loài khác nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "80980": {
+      "id": 2625533,
+      "text": "Nhưng những giấc mơ của động vật sẽ rất khác với chúng ta vì chúng trải nghiệm thế giới theo những cách rất khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "80981": {
+      "id": 2625534,
+      "text": "Vì vậy, dù chúng ta không thể khẳng định chắc chắn là có,",
+      "author": "ChatGPT4.1"
+    },
+    "80982": {
+      "id": 2625535,
+      "text": "có bằng chứng cho thấy một số loài động vật thực sự mơ.",
+      "author": "ChatGPT4.1"
+    },
+    "80983": {
+      "id": 2648398,
+      "text": "Và có thể một ngày nào đó, bạn sẽ tìm thấy thêm manh mối giúp chúng ta trả lời liệu động vật có mơ không.",
+      "author": "ChatGPT4.1"
+    },
+    "80984": {
+      "id": 2648399,
+      "text": "Đó là tất cả cho câu hỏi tuần này.",
+      "author": "ChatGPT4.1"
+    },
+    "80985": {
+      "id": 2648400,
+      "text": "Cảm ơn Peyton đã đặt ra câu hỏi này!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

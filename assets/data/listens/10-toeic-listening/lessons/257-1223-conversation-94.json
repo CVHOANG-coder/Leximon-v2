@@ -1,0 +1,793 @@
+{
+  "summary": {
+    "id": 1223,
+    "name": "Conversation 94",
+    "subTitle": "Espresso Machine Recommendations",
+    "levelName": "B1",
+    "position": 257,
+    "totalChallenges": 14,
+    "groupId": 40,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1223",
+  "detail": {
+    "id": 1223,
+    "lessonName": "Conversation 94",
+    "name": "Conversation 94",
+    "position": 257,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/0-conversation-94.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55142,
+        "position": 1,
+        "content": "I see you have a new espresso machine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see",
+          [
+            "you have",
+            "you've"
+          ],
+          "a",
+          "new",
+          "espresso",
+          "machine."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "espresso"
+          ],
+          [
+            "machine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/1.mp3",
+        "timeStart": 0.61,
+        "timeEnd": 3.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55142/list"
+      },
+      {
+        "id": 55143,
+        "position": 2,
+        "content": "Which brand is it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "brand",
+          "is",
+          "it?"
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "brand"
+          ],
+          [
+            "is"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/2.mp3",
+        "timeStart": 3.52,
+        "timeEnd": 4.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55143/list"
+      },
+      {
+        "id": 55144,
+        "position": 3,
+        "content": "I'm looking to buy one, but I have no idea which manufacturer is the best.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "looking",
+          "to",
+          "buy",
+          [
+            "one,",
+            "1"
+          ],
+          "but",
+          [
+            "I have",
+            "I've"
+          ],
+          "no",
+          "idea",
+          "which",
+          "manufacturer",
+          "is",
+          "the",
+          "best."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "one,",
+            "1"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "no"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "which"
+          ],
+          [
+            "manufacturer"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/3.mp3",
+        "timeStart": 4.81,
+        "timeEnd": 9.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55144/list"
+      },
+      {
+        "id": 55145,
+        "position": 4,
+        "content": "Mine's made by Grandville Pro.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mine's",
+          "made",
+          "by",
+          "Grandville",
+          "Pro."
+        ],
+        "solution": [
+          [
+            "Mine's"
+          ],
+          [
+            "made"
+          ],
+          [
+            "by"
+          ],
+          [
+            "Grandville"
+          ],
+          [
+            "Pro."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/4.mp3",
+        "timeStart": 10.42,
+        "timeEnd": 13.04,
+        "hints": [
+          "Grandville Pro"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55145/list"
+      },
+      {
+        "id": 55146,
+        "position": 5,
+        "content": "I really like it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "really",
+          "like",
+          "it,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "like"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/5.mp3",
+        "timeStart": 13.04,
+        "timeEnd": 14.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55146/list"
+      },
+      {
+        "id": 55147,
+        "position": 6,
+        "content": "as it seems to perform better than the alternatives on the market,",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "it",
+          "seems",
+          "to",
+          "perform",
+          "better",
+          "than",
+          "the",
+          "alternatives",
+          "on",
+          "the",
+          "market,"
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "it"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "perform"
+          ],
+          [
+            "better"
+          ],
+          [
+            "than"
+          ],
+          [
+            "the"
+          ],
+          [
+            "alternatives"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "market,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/6.mp3",
+        "timeStart": 14.27,
+        "timeEnd": 18.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55147/list"
+      },
+      {
+        "id": 55148,
+        "position": 7,
+        "content": "although I went over budget.",
+        "defaultInput": "",
+        "jsonContent": [
+          "although",
+          "I",
+          "went",
+          "over",
+          "budget."
+        ],
+        "solution": [
+          [
+            "although"
+          ],
+          [
+            "I"
+          ],
+          [
+            "went"
+          ],
+          [
+            "over"
+          ],
+          [
+            "budget."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/7.mp3",
+        "timeStart": 18.06,
+        "timeEnd": 20.79,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/55148/list"
+      },
+      {
+        "id": 55149,
+        "position": 8,
+        "content": "Grandville Pro has received a lot of comments from its online community.",
+        "defaultInput": "Grandville Pro ",
+        "jsonContent": [
+          "Grandville",
+          "Pro",
+          "has",
+          "received",
+          "a",
+          "lot",
+          "of",
+          "comments",
+          "from",
+          "its",
+          "online",
+          "community."
+        ],
+        "solution": [
+          [
+            "Grandville"
+          ],
+          [
+            "Pro"
+          ],
+          [
+            "has"
+          ],
+          [
+            "received"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "comments"
+          ],
+          [
+            "from"
+          ],
+          [
+            "its"
+          ],
+          [
+            "online"
+          ],
+          [
+            "community."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/8.mp3",
+        "timeStart": 21.75,
+        "timeEnd": 26.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55149/list"
+      },
+      {
+        "id": 55150,
+        "position": 9,
+        "content": "Many users complain about the add-on accessories.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Many",
+          "users",
+          "complain",
+          "about",
+          "the",
+          [
+            "add-on",
+            "add on"
+          ],
+          "accessories."
+        ],
+        "solution": [
+          [
+            "Many"
+          ],
+          [
+            "users"
+          ],
+          [
+            "complain"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "add-on",
+            "add on"
+          ],
+          [
+            "accessories."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/9.mp3",
+        "timeStart": 26.89,
+        "timeEnd": 30.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55150/list"
+      },
+      {
+        "id": 55151,
+        "position": 10,
+        "content": "Apparently, they are quite costly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Apparently,",
+          [
+            "they are",
+            "they're"
+          ],
+          "quite",
+          "costly."
+        ],
+        "solution": [
+          [
+            "Apparently,"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "costly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/10.mp3",
+        "timeStart": 30.05,
+        "timeEnd": 32.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55151/list"
+      },
+      {
+        "id": 55152,
+        "position": 11,
+        "content": "Actually, that doesn't seem to bother me at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually,",
+          "that",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "seem",
+          "to",
+          "bother",
+          "me",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "Actually,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bother"
+          ],
+          [
+            "me"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/11.mp3",
+        "timeStart": 33.44,
+        "timeEnd": 36.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55152/list"
+      },
+      {
+        "id": 55153,
+        "position": 12,
+        "content": "After all, you get what you pay for.",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "all,",
+          "you",
+          "get",
+          "what",
+          "you",
+          "pay",
+          "for."
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "pay"
+          ],
+          [
+            "for."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/12.mp3",
+        "timeStart": 36.27,
+        "timeEnd": 38.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55153/list"
+      },
+      {
+        "id": 55154,
+        "position": 13,
+        "content": "Why don't you visit Armada Store?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why",
+          [
+            "don't",
+            "do not"
+          ],
+          "you",
+          "visit",
+          "Armada",
+          "Store?"
+        ],
+        "solution": [
+          [
+            "Why"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "you"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "Armada"
+          ],
+          [
+            "Store?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/13.mp3",
+        "timeStart": 38.79,
+        "timeEnd": 41.03,
+        "hints": [
+          "Armada"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55154/list"
+      },
+      {
+        "id": 55155,
+        "position": 14,
+        "content": "I got mine there, and the store has a large selection.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "got",
+          "mine",
+          "there,",
+          "and",
+          "the",
+          "store",
+          "has",
+          "a",
+          "large",
+          "selection."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "mine"
+          ],
+          [
+            "there,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "store"
+          ],
+          [
+            "has"
+          ],
+          [
+            "a"
+          ],
+          [
+            "large"
+          ],
+          [
+            "selection."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-94-2023-10-01-16-06-15/14.mp3",
+        "timeStart": 41.03,
+        "timeEnd": 44.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55155/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55144": {
+      "id": 966872,
+      "text": "Mình đang có ý định mua nhưng không biết nhà sản xuất nào tốt nhất.",
+      "author": "a user"
+    },
+    "55153": {
+      "id": 966881,
+      "text": "Rốt cuộc, tiền nào của nấy.",
+      "author": "a user"
+    },
+    "55142": {
+      "id": 2603421,
+      "text": "Tôi thấy bạn có một máy pha espresso mới.",
+      "author": "ChatGPT4.1"
+    },
+    "55143": {
+      "id": 2603422,
+      "text": "Đó là thương hiệu nào vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "55145": {
+      "id": 2603423,
+      "text": "Của tôi là của Grandville Pro sản xuất.",
+      "author": "ChatGPT4.1"
+    },
+    "55146": {
+      "id": 2603424,
+      "text": "Tôi thật sự thích nó,",
+      "author": "ChatGPT4.1"
+    },
+    "55147": {
+      "id": 2603425,
+      "text": "vì có vẻ nó hoạt động tốt hơn các sản phẩm khác trên thị trường,",
+      "author": "ChatGPT4.1"
+    },
+    "55148": {
+      "id": 2603426,
+      "text": "mặc dù tôi đã tiêu quá ngân sách.",
+      "author": "ChatGPT4.1"
+    },
+    "55149": {
+      "id": 2603427,
+      "text": "Grandville Pro đã nhận được rất nhiều bình luận từ cộng đồng trực tuyến của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "55150": {
+      "id": 2603428,
+      "text": "Nhiều người dùng phàn nàn về các phụ kiện bổ sung.",
+      "author": "ChatGPT4.1"
+    },
+    "55151": {
+      "id": 2603429,
+      "text": "Dường như chúng khá đắt đỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "55152": {
+      "id": 2603430,
+      "text": "Thật ra, điều đó dường như chẳng làm tôi bận tâm chút nào.",
+      "author": "ChatGPT4.1"
+    },
+    "55154": {
+      "id": 2603431,
+      "text": "Sao bạn không thử ghé Armada Store?",
+      "author": "ChatGPT4.1"
+    },
+    "55155": {
+      "id": 2603432,
+      "text": "Tôi đã mua cái của mình ở đó, và cửa hàng có rất nhiều lựa chọn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

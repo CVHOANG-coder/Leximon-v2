@@ -1,0 +1,852 @@
+{
+  "summary": {
+    "id": 6,
+    "name": "3. My flower garden",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 3,
+    "totalChallenges": 19,
+    "groupId": 86,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/6",
+  "detail": {
+    "id": 6,
+    "lessonName": "3. My flower garden",
+    "name": "3. My flower garden",
+    "position": 3,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/0-3-my-flower-garden.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 302,
+        "position": 1,
+        "content": "My name is Anne.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "name is",
+            "name's"
+          ],
+          "Anne."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "name is",
+            "name's"
+          ],
+          [
+            "Anne."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/1.mp3",
+        "timeStart": 3.5,
+        "timeEnd": 5.1,
+        "hints": [
+          "Anne"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/302/list"
+      },
+      {
+        "id": 303,
+        "position": 2,
+        "content": "I love flowers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "love",
+          "flowers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "love"
+          ],
+          [
+            "flowers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/2.mp3",
+        "timeStart": 5.5,
+        "timeEnd": 7.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/303/list"
+      },
+      {
+        "id": 304,
+        "position": 3,
+        "content": "I have a flower garden.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "flower",
+          "garden."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "flower"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/3.mp3",
+        "timeStart": 7.8,
+        "timeEnd": 9.6,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/304/list"
+      },
+      {
+        "id": 305,
+        "position": 4,
+        "content": "My garden is in front of my house.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "garden",
+          "is",
+          "in",
+          "front",
+          "of",
+          "my",
+          "house."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "garden"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "house."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/4.mp3",
+        "timeStart": 10.2,
+        "timeEnd": 12.7,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/305/list"
+      },
+      {
+        "id": 306,
+        "position": 5,
+        "content": "My neighbor has a garden too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "neighbor",
+            "neighbour"
+          ],
+          "has",
+          "a",
+          "garden",
+          "too."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "neighbor",
+            "neighbour"
+          ],
+          [
+            "has"
+          ],
+          [
+            "a"
+          ],
+          [
+            "garden"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/5.mp3",
+        "timeStart": 13.3,
+        "timeEnd": 15.4,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/306/list"
+      },
+      {
+        "id": 307,
+        "position": 6,
+        "content": "My garden has different types of flowers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "garden",
+          "has",
+          "different",
+          "types",
+          "of",
+          "flowers."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "garden"
+          ],
+          [
+            "has"
+          ],
+          [
+            "different"
+          ],
+          [
+            "types"
+          ],
+          [
+            "of"
+          ],
+          [
+            "flowers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/6.mp3",
+        "timeStart": 16.2,
+        "timeEnd": 19,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/307/list"
+      },
+      {
+        "id": 308,
+        "position": 7,
+        "content": "I have roses in my garden.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "roses",
+          "in",
+          "my",
+          "garden."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "roses"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/7.mp3",
+        "timeStart": 19.6,
+        "timeEnd": 21.6,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/308/list"
+      },
+      {
+        "id": 309,
+        "position": 8,
+        "content": "I have tulips in my garden.",
+        "defaultInput": "I have ",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "tulips",
+          "in",
+          "my",
+          "garden."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "tulips"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/8.mp3",
+        "timeStart": 21.9,
+        "timeEnd": 24.3,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/309/list"
+      },
+      {
+        "id": 310,
+        "position": 9,
+        "content": "I have petunias in my garden.",
+        "defaultInput": "I have petunias ",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "petunias",
+          "in",
+          "my",
+          "garden."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "petunias"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/9.mp3",
+        "timeStart": 24.6,
+        "timeEnd": 27.2,
+        "hints": [],
+        "nbComments": 19,
+        "discussionUrl": "https://dailydictation.com/discussions/310/list"
+      },
+      {
+        "id": 311,
+        "position": 10,
+        "content": "My garden has different colors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "garden",
+          "has",
+          "different",
+          [
+            "colors.",
+            "colours"
+          ]
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "garden"
+          ],
+          [
+            "has"
+          ],
+          [
+            "different"
+          ],
+          [
+            "colors.",
+            "colours"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/10.mp3",
+        "timeStart": 27.5,
+        "timeEnd": 29.9,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/311/list"
+      },
+      {
+        "id": 312,
+        "position": 11,
+        "content": "I plant red flowers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "plant",
+          "red",
+          "flowers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "plant"
+          ],
+          [
+            "red"
+          ],
+          [
+            "flowers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/11.mp3",
+        "timeStart": 30.3,
+        "timeEnd": 32.1,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/312/list"
+      },
+      {
+        "id": 313,
+        "position": 12,
+        "content": "I plant orange flowers.",
+        "defaultInput": "I plant ",
+        "jsonContent": [
+          "I",
+          "plant",
+          "orange",
+          "flowers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "plant"
+          ],
+          [
+            "orange"
+          ],
+          [
+            "flowers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/12.mp3",
+        "timeStart": 32.5,
+        "timeEnd": 34.5,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/313/list"
+      },
+      {
+        "id": 314,
+        "position": 13,
+        "content": "I plant blue flowers.",
+        "defaultInput": "I plant ",
+        "jsonContent": [
+          "I",
+          "plant",
+          "blue",
+          "flowers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "plant"
+          ],
+          [
+            "blue"
+          ],
+          [
+            "flowers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/13.mp3",
+        "timeStart": 35,
+        "timeEnd": 37.1,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/314/list"
+      },
+      {
+        "id": 315,
+        "position": 14,
+        "content": "I plant purple flowers.",
+        "defaultInput": "I plant ",
+        "jsonContent": [
+          "I",
+          "plant",
+          "purple",
+          "flowers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "plant"
+          ],
+          [
+            "purple"
+          ],
+          [
+            "flowers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/14.mp3",
+        "timeStart": 37.4,
+        "timeEnd": 39.7,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/315/list"
+      },
+      {
+        "id": 316,
+        "position": 15,
+        "content": "I take care of my garden.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "take",
+          "care",
+          "of",
+          "my",
+          "garden."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "take"
+          ],
+          [
+            "care"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/15.mp3",
+        "timeStart": 40,
+        "timeEnd": 42.2,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/316/list"
+      },
+      {
+        "id": 317,
+        "position": 16,
+        "content": "I water my garden every day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "water",
+          "my",
+          "garden",
+          "every",
+          "day."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "water"
+          ],
+          [
+            "my"
+          ],
+          [
+            "garden"
+          ],
+          [
+            "every"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/16.mp3",
+        "timeStart": 42.5,
+        "timeEnd": 45.2,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/317/list"
+      },
+      {
+        "id": 318,
+        "position": 17,
+        "content": "I kill the weeds in my garden.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "kill",
+          "the",
+          "weeds",
+          "in",
+          "my",
+          "garden."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "kill"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weeds"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/17.mp3",
+        "timeStart": 45.6,
+        "timeEnd": 48.1,
+        "hints": [],
+        "nbComments": 19,
+        "discussionUrl": "https://dailydictation.com/discussions/318/list"
+      },
+      {
+        "id": 319,
+        "position": 18,
+        "content": "I kill insects that eat my flowers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "kill",
+          "insects",
+          "that",
+          "eat",
+          "my",
+          "flowers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "kill"
+          ],
+          [
+            "insects"
+          ],
+          [
+            "that"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "my"
+          ],
+          [
+            "flowers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/18.mp3",
+        "timeStart": 48.4,
+        "timeEnd": 51.3,
+        "hints": [],
+        "nbComments": 18,
+        "discussionUrl": "https://dailydictation.com/discussions/319/list"
+      },
+      {
+        "id": 320,
+        "position": 19,
+        "content": "I love my beautiful garden.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "love",
+          "my",
+          "beautiful",
+          "garden."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "love"
+          ],
+          [
+            "my"
+          ],
+          [
+            "beautiful"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/3-my-flower-garden-2019-03-15-01-07-24/19.mp3",
+        "timeStart": 52,
+        "timeEnd": 54.4,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/320/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "310": {
+      "id": 803,
+      "text": "Tôi có hoa dạ yến thảo trong vườn của tôi.",
+      "author": "a user"
+    },
+    "314": {
+      "id": 807,
+      "text": "Tôi trồng những bông hoa màu xanh dương.",
+      "author": "a user"
+    },
+    "318": {
+      "id": 812,
+      "text": "Tôi diệt cỏ dại trong vườn của tôi.",
+      "author": "a user"
+    },
+    "319": {
+      "id": 813,
+      "text": "Tôi diệt những con côn trùng ăn hoa của tôi.",
+      "author": "a user"
+    },
+    "305": {
+      "id": 821,
+      "text": "Khu vườn nằm trước nhà tôi",
+      "author": "a user"
+    },
+    "302": {
+      "id": 2587200,
+      "text": "Tên tôi là Anne.",
+      "author": "ChatGPT4.1"
+    },
+    "303": {
+      "id": 2587201,
+      "text": "Tôi yêu hoa.",
+      "author": "ChatGPT4.1"
+    },
+    "304": {
+      "id": 2587202,
+      "text": "Tôi có một vườn hoa.",
+      "author": "a user"
+    },
+    "306": {
+      "id": 2587203,
+      "text": "Hàng xóm của tôi cũng có một khu vườn.",
+      "author": "ChatGPT4.1"
+    },
+    "307": {
+      "id": 2587204,
+      "text": "Khu vườn của tôi có nhiều loại hoa khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "308": {
+      "id": 2587205,
+      "text": "Tôi có những bông hoa hồng trong vườn của mình.",
+      "author": "a user"
+    },
+    "309": {
+      "id": 2587206,
+      "text": "Tôi có hoa tulip trong vườn của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "311": {
+      "id": 2587207,
+      "text": "Khu vườn của tôi có nhiều màu sắc khác nhau.",
+      "author": "a user"
+    },
+    "312": {
+      "id": 2587208,
+      "text": "Tôi trồng những bông hoa màu đỏ.",
+      "author": "a user"
+    },
+    "313": {
+      "id": 2587209,
+      "text": "Tôi trồng những bông hoa màu cam.",
+      "author": "a user"
+    },
+    "315": {
+      "id": 2587210,
+      "text": "Tôi trồng những bông hoa màu tím.",
+      "author": "a user"
+    },
+    "316": {
+      "id": 2587211,
+      "text": "Tôi chăm sóc khu vườn của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "317": {
+      "id": 2587212,
+      "text": "Tôi tưới nước cho khu vườn của mình mỗi ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "320": {
+      "id": 2587213,
+      "text": "Tôi yêu khu vườn xinh đẹp của mình.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

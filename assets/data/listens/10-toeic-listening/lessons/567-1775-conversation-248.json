@@ -1,0 +1,710 @@
+{
+  "summary": {
+    "id": 1775,
+    "name": "Conversation 248",
+    "subTitle": "Marketing Slides Delay",
+    "levelName": "B2",
+    "position": 567,
+    "totalChallenges": 11,
+    "groupId": 72,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1775",
+  "detail": {
+    "id": 1775,
+    "lessonName": "Conversation 248",
+    "name": "Conversation 248",
+    "position": 567,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/0-conversation-248.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 69954,
+        "position": 1,
+        "content": "I'm still waiting on the final edits for the presentation slides from the marketing team.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "still",
+          "waiting",
+          "on",
+          "the",
+          "final",
+          "edits",
+          "for",
+          "the",
+          "presentation",
+          "slides",
+          "from",
+          "the",
+          "marketing",
+          "team."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "still"
+          ],
+          [
+            "waiting"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "final"
+          ],
+          [
+            "edits"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "presentation"
+          ],
+          [
+            "slides"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "marketing"
+          ],
+          [
+            "team."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 4.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69954/list"
+      },
+      {
+        "id": 69955,
+        "position": 2,
+        "content": "They were meant to be ready by noon for a quick review before the meeting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "were",
+          "meant",
+          "to",
+          "be",
+          "ready",
+          "by",
+          "noon",
+          "for",
+          "a",
+          "quick",
+          "review",
+          "before",
+          "the",
+          "meeting."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "were"
+          ],
+          [
+            "meant"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "by"
+          ],
+          [
+            "noon"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "quick"
+          ],
+          [
+            "review"
+          ],
+          [
+            "before"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/2.mp3",
+        "timeStart": 4.5,
+        "timeEnd": 8.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69955/list"
+      },
+      {
+        "id": 69956,
+        "position": 3,
+        "content": "That's odd.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "odd."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "odd."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/3.mp3",
+        "timeStart": 8.84,
+        "timeEnd": 9.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69956/list"
+      },
+      {
+        "id": 69957,
+        "position": 4,
+        "content": "I was under the impression they had wrapped that up yesterday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "was",
+          "under",
+          "the",
+          "impression",
+          [
+            "they had",
+            "they'd"
+          ],
+          "wrapped",
+          "that",
+          "up",
+          "yesterday."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "under"
+          ],
+          [
+            "the"
+          ],
+          [
+            "impression"
+          ],
+          [
+            "they had",
+            "they'd"
+          ],
+          [
+            "wrapped"
+          ],
+          [
+            "that"
+          ],
+          [
+            "up"
+          ],
+          [
+            "yesterday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/4.mp3",
+        "timeStart": 9.9,
+        "timeEnd": 12.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69957/list"
+      },
+      {
+        "id": 69958,
+        "position": 5,
+        "content": "Would you like me to swing by their section and ask about the delay?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "like",
+          "me",
+          "to",
+          "swing",
+          "by",
+          "their",
+          "section",
+          "and",
+          "ask",
+          "about",
+          "the",
+          "delay?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "swing"
+          ],
+          [
+            "by"
+          ],
+          [
+            "their"
+          ],
+          [
+            "section"
+          ],
+          [
+            "and"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "delay?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/5.mp3",
+        "timeStart": 12.85,
+        "timeEnd": 16.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69958/list"
+      },
+      {
+        "id": 69959,
+        "position": 6,
+        "content": "If you could, that would be great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "could,",
+          "that",
+          "would",
+          "be",
+          "great."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/6.mp3",
+        "timeStart": 16.06,
+        "timeEnd": 17.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69959/list"
+      },
+      {
+        "id": 69960,
+        "position": 7,
+        "content": "I'm tied down with another task at the moment and won't be free for a while.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "tied",
+          "down",
+          "with",
+          "another",
+          "task",
+          "at",
+          "the",
+          "moment",
+          "and",
+          "won't",
+          "be",
+          "free",
+          "for",
+          "a",
+          "while."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "tied"
+          ],
+          [
+            "down"
+          ],
+          [
+            "with"
+          ],
+          [
+            "another"
+          ],
+          [
+            "task"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "moment"
+          ],
+          [
+            "and"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "free"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "while."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/7.mp3",
+        "timeStart": 17.77,
+        "timeEnd": 21.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69960/list"
+      },
+      {
+        "id": 69961,
+        "position": 8,
+        "content": "Absolutely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Absolutely."
+        ],
+        "solution": [
+          [
+            "Absolutely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/8.mp3",
+        "timeStart": 21.82,
+        "timeEnd": 22.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69961/list"
+      },
+      {
+        "id": 69962,
+        "position": 9,
+        "content": "It's no trouble at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "no",
+          "trouble",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "no"
+          ],
+          [
+            "trouble"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/9.mp3",
+        "timeStart": 22.92,
+        "timeEnd": 24.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69962/list"
+      },
+      {
+        "id": 69963,
+        "position": 10,
+        "content": "I have some files to drop off at their office, so I can inquire about the slides right after.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "some",
+          "files",
+          "to",
+          "drop",
+          "off",
+          "at",
+          "their",
+          "office,",
+          "so",
+          "I",
+          "can",
+          "inquire",
+          "about",
+          "the",
+          "slides",
+          "right",
+          "after."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "some"
+          ],
+          [
+            "files"
+          ],
+          [
+            "to"
+          ],
+          [
+            "drop"
+          ],
+          [
+            "off"
+          ],
+          [
+            "at"
+          ],
+          [
+            "their"
+          ],
+          [
+            "office,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "inquire"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "slides"
+          ],
+          [
+            "right"
+          ],
+          [
+            "after."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/10.mp3",
+        "timeStart": 24.26,
+        "timeEnd": 28.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69963/list"
+      },
+      {
+        "id": 69964,
+        "position": 11,
+        "content": "I'll go there shortly.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "go",
+          "there",
+          "shortly."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "go"
+          ],
+          [
+            "there"
+          ],
+          [
+            "shortly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-248-2024-10-29-23-07-24/11.mp3",
+        "timeStart": 28.74,
+        "timeEnd": 30.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69964/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "69954": {
+      "id": 2621641,
+      "text": "Tôi vẫn đang chờ các chỉnh sửa cuối cùng cho trang trình bày từ đội ngũ marketing.",
+      "author": "ChatGPT4.1"
+    },
+    "69955": {
+      "id": 2621642,
+      "text": "Chúng lẽ ra đã phải sẵn sàng trước buổi trưa để xem xét nhanh trước cuộc họp.",
+      "author": "ChatGPT4.1"
+    },
+    "69956": {
+      "id": 2621643,
+      "text": "Thật lạ.",
+      "author": "ChatGPT4.1"
+    },
+    "69957": {
+      "id": 2621644,
+      "text": "Tôi tưởng rằng họ đã hoàn thành việc đó vào hôm qua.",
+      "author": "ChatGPT4.1"
+    },
+    "69958": {
+      "id": 2621645,
+      "text": "Bạn có muốn tôi ghé khu vực làm việc của họ và hỏi về sự chậm trễ không?",
+      "author": "ChatGPT4.1"
+    },
+    "69959": {
+      "id": 2621646,
+      "text": "Nếu bạn có thể làm vậy thì tốt quá.",
+      "author": "ChatGPT4.1"
+    },
+    "69960": {
+      "id": 2621647,
+      "text": "Hiện tại tôi đang bị vướng vào một công việc khác và sẽ chưa rảnh trong một lúc.",
+      "author": "ChatGPT4.1"
+    },
+    "69961": {
+      "id": 2621648,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "69962": {
+      "id": 2621649,
+      "text": "Không có gì khó khăn cả.",
+      "author": "ChatGPT4.1"
+    },
+    "69963": {
+      "id": 2621650,
+      "text": "Tôi có vài tài liệu cần chuyển đến văn phòng của họ, nên tôi có thể hỏi về các trang trình bày ngay sau đó.",
+      "author": "ChatGPT4.1"
+    },
+    "69964": {
+      "id": 2621651,
+      "text": "Tôi sẽ đến đó ngay.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

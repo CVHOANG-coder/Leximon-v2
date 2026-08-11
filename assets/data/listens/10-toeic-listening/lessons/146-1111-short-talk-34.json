@@ -1,0 +1,620 @@
+{
+  "summary": {
+    "id": 1111,
+    "name": "Short Talk 34",
+    "subTitle": "Interview with Billy Hays",
+    "levelName": "B1",
+    "position": 146,
+    "totalChallenges": 9,
+    "groupId": 34,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1111",
+  "detail": {
+    "id": 1111,
+    "lessonName": "Short Talk 34",
+    "name": "Short Talk 34",
+    "position": 146,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/0-short-talk-34.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53692,
+        "position": 1,
+        "content": "Hello everyone, and thanks for tuning in.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello",
+          "everyone,",
+          "and",
+          "thanks",
+          "for",
+          "tuning",
+          "in."
+        ],
+        "solution": [
+          [
+            "Hello"
+          ],
+          [
+            "everyone,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "tuning"
+          ],
+          [
+            "in."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.79,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53692/list"
+      },
+      {
+        "id": 53693,
+        "position": 2,
+        "content": "We have a spectacular set for you today.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          "a",
+          "spectacular",
+          "set",
+          "for",
+          "you",
+          "today."
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "spectacular"
+          ],
+          [
+            "set"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/2.mp3",
+        "timeStart": 2.79,
+        "timeEnd": 5.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53693/list"
+      },
+      {
+        "id": 53694,
+        "position": 3,
+        "content": "Our first guest will be Billy Hays.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          [
+            "first",
+            "1st"
+          ],
+          "guest",
+          "will",
+          "be",
+          "Billy",
+          "Hays."
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "guest"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "Billy"
+          ],
+          [
+            "Hays."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/3.mp3",
+        "timeStart": 5.81,
+        "timeEnd": 8.54,
+        "hints": [
+          "Billy Hays"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53694/list"
+      },
+      {
+        "id": 53695,
+        "position": 4,
+        "content": "Now, Billy has just returned from Nicarauga, where he was the director of a children's home for at risk orphans.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "Billy",
+          "has",
+          "just",
+          "returned",
+          "from",
+          "Nicarauga,",
+          "where",
+          "he",
+          "was",
+          "the",
+          "director",
+          "of",
+          "a",
+          "children's",
+          "home",
+          "for",
+          "at",
+          "risk",
+          "orphans."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "Billy"
+          ],
+          [
+            "has"
+          ],
+          [
+            "just"
+          ],
+          [
+            "returned"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Nicarauga,"
+          ],
+          [
+            "where"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "director"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "children's"
+          ],
+          [
+            "home"
+          ],
+          [
+            "for"
+          ],
+          [
+            "at"
+          ],
+          [
+            "risk"
+          ],
+          [
+            "orphans."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/4.mp3",
+        "timeStart": 8.54,
+        "timeEnd": 14.55,
+        "hints": [
+          "Nicarauga"
+        ],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53695/list"
+      },
+      {
+        "id": 53696,
+        "position": 5,
+        "content": "This home was responsible for the care and education of over fifty orphans.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "home",
+          "was",
+          "responsible",
+          "for",
+          "the",
+          "care",
+          "and",
+          "education",
+          "of",
+          "over",
+          [
+            "fifty",
+            "50"
+          ],
+          "orphans."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "home"
+          ],
+          [
+            "was"
+          ],
+          [
+            "responsible"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "care"
+          ],
+          [
+            "and"
+          ],
+          [
+            "education"
+          ],
+          [
+            "of"
+          ],
+          [
+            "over"
+          ],
+          [
+            "fifty",
+            "50"
+          ],
+          [
+            "orphans."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/5.mp3",
+        "timeStart": 14.55,
+        "timeEnd": 19.5,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53696/list"
+      },
+      {
+        "id": 53697,
+        "position": 6,
+        "content": "It benefits both the local, and national community.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "benefits",
+          "both",
+          "the",
+          "local,",
+          "and",
+          "national",
+          "community."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "benefits"
+          ],
+          [
+            "both"
+          ],
+          [
+            "the"
+          ],
+          [
+            "local,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "national"
+          ],
+          [
+            "community."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/6.mp3",
+        "timeStart": 19.5,
+        "timeEnd": 22.83,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53697/list"
+      },
+      {
+        "id": 53698,
+        "position": 7,
+        "content": "Today, Billy will talk to us about his experience in the Central American country,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today,",
+          "Billy",
+          "will",
+          "talk",
+          "to",
+          "us",
+          "about",
+          "his",
+          "experience",
+          "in",
+          "the",
+          "Central",
+          "American",
+          "country,"
+        ],
+        "solution": [
+          [
+            "Today,"
+          ],
+          [
+            "Billy"
+          ],
+          [
+            "will"
+          ],
+          [
+            "talk"
+          ],
+          [
+            "to"
+          ],
+          [
+            "us"
+          ],
+          [
+            "about"
+          ],
+          [
+            "his"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Central"
+          ],
+          [
+            "American"
+          ],
+          [
+            "country,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/7.mp3",
+        "timeStart": 22.83,
+        "timeEnd": 27.62,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53698/list"
+      },
+      {
+        "id": 53699,
+        "position": 8,
+        "content": "and what you can do to help.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "what",
+          "you",
+          "can",
+          "do",
+          "to",
+          "help."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/8.mp3",
+        "timeStart": 27.62,
+        "timeEnd": 29.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53699/list"
+      },
+      {
+        "id": 53700,
+        "position": 9,
+        "content": "Lastly, we will open up the phones for any questions from our audience.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Lastly,",
+          [
+            "we will",
+            "we'll"
+          ],
+          "open",
+          "up",
+          "the",
+          "phones",
+          "for",
+          "any",
+          "questions",
+          "from",
+          "our",
+          "audience."
+        ],
+        "solution": [
+          [
+            "Lastly,"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "open"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phones"
+          ],
+          [
+            "for"
+          ],
+          [
+            "any"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "from"
+          ],
+          [
+            "our"
+          ],
+          [
+            "audience."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-34-2023-09-14-20-04-40/9.mp3",
+        "timeStart": 29.35,
+        "timeEnd": 33.65,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53700/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "53695": {
+      "id": 897523,
+      "text": "Hiện tại, Billy vừa trở về từ Nicarauga, nơi anh là giám đốc của một trại trẻ mồ côi có hoàn cảnh khó khăn.",
+      "author": "a user"
+    },
+    "53692": {
+      "id": 2589315,
+      "text": "Xin chào mọi người, cảm ơn các bạn đã theo dõi chương trình.",
+      "author": "ChatGPT4.1"
+    },
+    "53693": {
+      "id": 2589316,
+      "text": "Hôm nay, chúng tôi sẽ mang đến cho các bạn một chương trình đặc biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "53694": {
+      "id": 2589317,
+      "text": "Vị khách mời đầu tiên của chúng ta là Billy Hays.",
+      "author": "ChatGPT4.1"
+    },
+    "53696": {
+      "id": 2589318,
+      "text": "Trại trẻ mồ côi này chịu trách nhiệm chăm sóc và giáo dục cho hơn năm mươi trẻ em mồ côi.",
+      "author": "ChatGPT4.1"
+    },
+    "53697": {
+      "id": 2589319,
+      "text": "Nó mang lại lợi ích cho cả cộng đồng địa phương và quốc gia.",
+      "author": "ChatGPT4.1"
+    },
+    "53698": {
+      "id": 2589320,
+      "text": "Hôm nay, Billy sẽ chia sẻ với chúng ta về trải nghiệm của mình tại quốc gia Trung Mỹ này,",
+      "author": "ChatGPT4.1"
+    },
+    "53699": {
+      "id": 2589321,
+      "text": "và những gì bạn có thể làm để giúp đỡ.",
+      "author": "ChatGPT4.1"
+    },
+    "53700": {
+      "id": 2589322,
+      "text": "Cuối cùng, chúng tôi sẽ mở điện thoại để khán giả có thể đặt câu hỏi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,923 @@
+{
+  "summary": {
+    "id": 1242,
+    "name": "Conversation 103",
+    "subTitle": "Hotel Booking Confirmation Inquiry",
+    "levelName": "B1",
+    "position": 276,
+    "totalChallenges": 16,
+    "groupId": 41,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1242",
+  "detail": {
+    "id": 1242,
+    "lessonName": "Conversation 103",
+    "name": "Conversation 103",
+    "position": 276,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/0-conversation-103.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55391,
+        "position": 1,
+        "content": "Morning. My name is Harvey Rose.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Morning.",
+          "My",
+          "name",
+          "is",
+          "Harvey",
+          "Rose."
+        ],
+        "solution": [
+          [
+            "Morning."
+          ],
+          [
+            "My"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Harvey"
+          ],
+          [
+            "Rose."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/1.mp3",
+        "timeStart": 0.59,
+        "timeEnd": 3.1,
+        "hints": [
+          "Harvey Rose"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55391/list"
+      },
+      {
+        "id": 55392,
+        "position": 2,
+        "content": "I booked a stay on March 25th, but I still haven't received a confirmation email.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "booked",
+          "a",
+          "stay",
+          "on",
+          "March",
+          [
+            "25th,",
+            "twenty-fifth"
+          ],
+          "but",
+          "I",
+          "still",
+          [
+            "haven't",
+            "have not"
+          ],
+          "received",
+          "a",
+          "confirmation",
+          "email."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "booked"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "on"
+          ],
+          [
+            "March"
+          ],
+          [
+            "25th,",
+            "twenty-fifth"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "still"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "received"
+          ],
+          [
+            "a"
+          ],
+          [
+            "confirmation"
+          ],
+          [
+            "email."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/2.mp3",
+        "timeStart": 3.26,
+        "timeEnd": 7.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55392/list"
+      },
+      {
+        "id": 55393,
+        "position": 3,
+        "content": "Sorry about that, Mr. Rose.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sorry",
+          "about",
+          "that,",
+          "Mr.",
+          "Rose."
+        ],
+        "solution": [
+          [
+            "Sorry"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Rose."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/3.mp3",
+        "timeStart": 8.62,
+        "timeEnd": 10.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55393/list"
+      },
+      {
+        "id": 55394,
+        "position": 4,
+        "content": "I see you booked a room with a city view for three consecutive nights.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see",
+          "you",
+          "booked",
+          "a",
+          "room",
+          "with",
+          "a",
+          "city",
+          "view",
+          "for",
+          [
+            "three",
+            "3"
+          ],
+          "consecutive",
+          "nights."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "booked"
+          ],
+          [
+            "a"
+          ],
+          [
+            "room"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "city"
+          ],
+          [
+            "view"
+          ],
+          [
+            "for"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "consecutive"
+          ],
+          [
+            "nights."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/4.mp3",
+        "timeStart": 10.93,
+        "timeEnd": 14.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55394/list"
+      },
+      {
+        "id": 55395,
+        "position": 5,
+        "content": "Just a second.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "a",
+          "second."
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/5.mp3",
+        "timeStart": 15.09,
+        "timeEnd": 16.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55395/list"
+      },
+      {
+        "id": 55396,
+        "position": 6,
+        "content": "Okay, the confirmation email has just been sent.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "the",
+          "confirmation",
+          "email",
+          "has",
+          "just",
+          "been",
+          "sent."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "the"
+          ],
+          [
+            "confirmation"
+          ],
+          [
+            "email"
+          ],
+          [
+            "has"
+          ],
+          [
+            "just"
+          ],
+          [
+            "been"
+          ],
+          [
+            "sent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/6.mp3",
+        "timeStart": 17.36,
+        "timeEnd": 20.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55396/list"
+      },
+      {
+        "id": 55397,
+        "position": 7,
+        "content": "You may check your mailbox now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "may",
+          "check",
+          "your",
+          "mailbox",
+          "now."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "may"
+          ],
+          [
+            "check"
+          ],
+          [
+            "your"
+          ],
+          [
+            "mailbox"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/7.mp3",
+        "timeStart": 20.48,
+        "timeEnd": 22.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55397/list"
+      },
+      {
+        "id": 55398,
+        "position": 8,
+        "content": "Thanks, that was quick.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks,",
+          "that",
+          "was",
+          "quick."
+        ],
+        "solution": [
+          [
+            "Thanks,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "quick."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/8.mp3",
+        "timeStart": 23.52,
+        "timeEnd": 25.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55398/list"
+      },
+      {
+        "id": 55399,
+        "position": 9,
+        "content": "By the way, could you also help me reserve a private sedan service?",
+        "defaultInput": "",
+        "jsonContent": [
+          "By",
+          "the",
+          "way,",
+          "could",
+          "you",
+          "also",
+          "help",
+          "me",
+          "reserve",
+          "a",
+          "private",
+          "sedan",
+          "service?"
+        ],
+        "solution": [
+          [
+            "By"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "also"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me"
+          ],
+          [
+            "reserve"
+          ],
+          [
+            "a"
+          ],
+          [
+            "private"
+          ],
+          [
+            "sedan"
+          ],
+          [
+            "service?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/9.mp3",
+        "timeStart": 25.41,
+        "timeEnd": 29.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55399/list"
+      },
+      {
+        "id": 55400,
+        "position": 10,
+        "content": "It could even be a shared ride, as I don't really mind.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "could",
+          "even",
+          "be",
+          "a",
+          "shared",
+          "ride,",
+          "as",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "really",
+          "mind."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "could"
+          ],
+          [
+            "even"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shared"
+          ],
+          [
+            "ride,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "really"
+          ],
+          [
+            "mind."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/10.mp3",
+        "timeStart": 29.59,
+        "timeEnd": 32.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55400/list"
+      },
+      {
+        "id": 55401,
+        "position": 11,
+        "content": "Actually, we offer a courtesy shuttle to and from Narita International Airport.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually,",
+          "we",
+          "offer",
+          "a",
+          "courtesy",
+          "shuttle",
+          "to",
+          "and",
+          "from",
+          "Narita",
+          "International",
+          "Airport."
+        ],
+        "solution": [
+          [
+            "Actually,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "a"
+          ],
+          [
+            "courtesy"
+          ],
+          [
+            "shuttle"
+          ],
+          [
+            "to"
+          ],
+          [
+            "and"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Narita"
+          ],
+          [
+            "International"
+          ],
+          [
+            "Airport."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/11.mp3",
+        "timeStart": 33.14,
+        "timeEnd": 38.53,
+        "hints": [
+          "Narita"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55401/list"
+      },
+      {
+        "id": 55402,
+        "position": 12,
+        "content": "It departs every hour 24/7.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "departs",
+          "every",
+          "hour",
+          "24/7."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "departs"
+          ],
+          [
+            "every"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "24/7."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/12.mp3",
+        "timeStart": 38.79,
+        "timeEnd": 41.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55402/list"
+      },
+      {
+        "id": 55403,
+        "position": 13,
+        "content": "That's terrific.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "terrific."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "terrific."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/13.mp3",
+        "timeStart": 42.39,
+        "timeEnd": 43.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55403/list"
+      },
+      {
+        "id": 55404,
+        "position": 14,
+        "content": "Where should I wait for the shuttle bus?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Where",
+          "should",
+          "I",
+          "wait",
+          "for",
+          "the",
+          "shuttle",
+          "bus?"
+        ],
+        "solution": [
+          [
+            "Where"
+          ],
+          [
+            "should"
+          ],
+          [
+            "I"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shuttle"
+          ],
+          [
+            "bus?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/14.mp3",
+        "timeStart": 43.45,
+        "timeEnd": 45.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55404/list"
+      },
+      {
+        "id": 55405,
+        "position": 15,
+        "content": "Once you walk out of the central exit, use the crosswalk.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "you",
+          "walk",
+          "out",
+          "of",
+          "the",
+          "central",
+          "exit,",
+          "use",
+          "the",
+          "crosswalk."
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "you"
+          ],
+          [
+            "walk"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "central"
+          ],
+          [
+            "exit,"
+          ],
+          [
+            "use"
+          ],
+          [
+            "the"
+          ],
+          [
+            "crosswalk."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/15.mp3",
+        "timeStart": 46.41,
+        "timeEnd": 49.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55405/list"
+      },
+      {
+        "id": 55406,
+        "position": 16,
+        "content": "The bus stop is opposite the taxi stand.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "bus",
+          "stop",
+          "is",
+          "opposite",
+          "the",
+          "taxi",
+          "stand."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "bus"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "is"
+          ],
+          [
+            "opposite"
+          ],
+          [
+            "the"
+          ],
+          [
+            "taxi"
+          ],
+          [
+            "stand."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-103-2023-10-03-11-36-26/16.mp3",
+        "timeStart": 49.86,
+        "timeEnd": 52.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55406/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55391": {
+      "id": 2606423,
+      "text": "Chào buổi sáng. Tôi tên là Harvey Rose.",
+      "author": "ChatGPT4.1"
+    },
+    "55392": {
+      "id": 2606424,
+      "text": "Tôi đã đặt phòng vào ngày 25 tháng 3, nhưng tôi vẫn chưa nhận được email xác nhận.",
+      "author": "ChatGPT4.1"
+    },
+    "55393": {
+      "id": 2606425,
+      "text": "Xin lỗi về việc đó, ông Rose.",
+      "author": "ChatGPT4.1"
+    },
+    "55394": {
+      "id": 2606426,
+      "text": "Tôi thấy ông đã đặt một phòng có hướng nhìn ra thành phố trong ba đêm liên tiếp.",
+      "author": "ChatGPT4.1"
+    },
+    "55395": {
+      "id": 2606427,
+      "text": "Xin chờ một chút.",
+      "author": "ChatGPT4.1"
+    },
+    "55396": {
+      "id": 2606428,
+      "text": "Được rồi, email xác nhận vừa được gửi đi.",
+      "author": "ChatGPT4.1"
+    },
+    "55397": {
+      "id": 2606429,
+      "text": "Ông có thể kiểm tra hòm thư của mình ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "55398": {
+      "id": 2606430,
+      "text": "Cảm ơn, nhanh thật đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "55399": {
+      "id": 2606431,
+      "text": "Nhân tiện, ông có thể giúp tôi đặt dịch vụ xe riêng không?",
+      "author": "ChatGPT4.1"
+    },
+    "55400": {
+      "id": 2606432,
+      "text": "Thậm chí đi xe ghép cũng được, tôi không phiền đâu.",
+      "author": "ChatGPT4.1"
+    },
+    "55401": {
+      "id": 2606433,
+      "text": "Thực ra, chúng tôi có cung cấp xe đưa đón miễn phí đến và từ Sân bay Quốc tế Narita.",
+      "author": "ChatGPT4.1"
+    },
+    "55402": {
+      "id": 2606434,
+      "text": "Xe xuất phát mỗi giờ, hoạt động 24/7.",
+      "author": "ChatGPT4.1"
+    },
+    "55403": {
+      "id": 2606435,
+      "text": "Tuyệt quá.",
+      "author": "ChatGPT4.1"
+    },
+    "55404": {
+      "id": 2606436,
+      "text": "Tôi nên đợi xe đưa đón ở đâu?",
+      "author": "ChatGPT4.1"
+    },
+    "55405": {
+      "id": 2606437,
+      "text": "Sau khi ra khỏi cửa trung tâm, ông hãy sử dụng lối đi bộ qua đường.",
+      "author": "ChatGPT4.1"
+    },
+    "55406": {
+      "id": 2606438,
+      "text": "Trạm xe buýt nằm đối diện bãi đỗ taxi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

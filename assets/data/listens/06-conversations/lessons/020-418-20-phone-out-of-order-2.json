@@ -1,0 +1,599 @@
+{
+  "summary": {
+    "id": 418,
+    "name": "20. Phone Out of Order (2)",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 20,
+    "totalChallenges": 10,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/418",
+  "detail": {
+    "id": 418,
+    "lessonName": "20. Phone Out of Order (2)",
+    "name": "20. Phone Out of Order (2)",
+    "position": 20,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/0-20-phone-out-of-order-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17948,
+        "position": 1,
+        "content": "Hey! What's the matter with the phone?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey!",
+          [
+            "What's",
+            "what is"
+          ],
+          "the",
+          "matter",
+          "with",
+          "the",
+          "phone?"
+        ],
+        "solution": [
+          [
+            "Hey!"
+          ],
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "matter"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/1.mp3",
+        "timeStart": 2.84,
+        "timeEnd": 5.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17948/list"
+      },
+      {
+        "id": 17949,
+        "position": 2,
+        "content": "Here, listen to this peculiar noise.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Here,",
+          "listen",
+          "to",
+          "this",
+          "peculiar",
+          "noise."
+        ],
+        "solution": [
+          [
+            "Here,"
+          ],
+          [
+            "listen"
+          ],
+          [
+            "to"
+          ],
+          [
+            "this"
+          ],
+          [
+            "peculiar"
+          ],
+          [
+            "noise."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/2.mp3",
+        "timeStart": 5.55,
+        "timeEnd": 7.87,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/17949/list"
+      },
+      {
+        "id": 17950,
+        "position": 3,
+        "content": "It doesn't sound like a dial tone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "sound",
+          "like",
+          "a",
+          "dial",
+          "tone."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "sound"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dial"
+          ],
+          [
+            "tone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/3.mp3",
+        "timeStart": 7.87,
+        "timeEnd": 9.66,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/17950/list"
+      },
+      {
+        "id": 17951,
+        "position": 4,
+        "content": "It must be out of order.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "must",
+          "be",
+          "out",
+          "of",
+          "order."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "order."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/4.mp3",
+        "timeStart": 9.68,
+        "timeEnd": 11.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17951/list"
+      },
+      {
+        "id": 17952,
+        "position": 5,
+        "content": "We'd better notify the phone company.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We'd",
+          "better",
+          "notify",
+          "the",
+          "phone",
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "solution": [
+          [
+            "We'd"
+          ],
+          [
+            "better"
+          ],
+          [
+            "notify"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "company.",
+            "Co"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/5.mp3",
+        "timeStart": 11.12,
+        "timeEnd": 13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17952/list"
+      },
+      {
+        "id": 17953,
+        "position": 6,
+        "content": "How do we do that? We can't use the phone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "do",
+          "we",
+          "do",
+          "that?",
+          "We",
+          "can't",
+          "use",
+          "the",
+          "phone."
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "do"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that?"
+          ],
+          [
+            "We"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "use"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/6.mp3",
+        "timeStart": 13,
+        "timeEnd": 15.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17953/list"
+      },
+      {
+        "id": 17954,
+        "position": 7,
+        "content": "Let's go next door and use our neighbour's phone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "go",
+          "next",
+          "door",
+          "and",
+          "use",
+          "our",
+          [
+            "neighbour's",
+            "neighbor's"
+          ],
+          "phone."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "go"
+          ],
+          [
+            "next"
+          ],
+          [
+            "door"
+          ],
+          [
+            "and"
+          ],
+          [
+            "use"
+          ],
+          [
+            "our"
+          ],
+          [
+            "neighbour's",
+            "neighbor's"
+          ],
+          [
+            "phone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/7.mp3",
+        "timeStart": 15.28,
+        "timeEnd": 17.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17954/list"
+      },
+      {
+        "id": 17955,
+        "position": 8,
+        "content": "He's always complaining about people. I don't wanna ask any favours of him.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He's",
+          "always",
+          "complaining",
+          "about",
+          "people.",
+          "I",
+          "don't",
+          [
+            "wanna",
+            "want to"
+          ],
+          "ask",
+          "any",
+          [
+            "favours",
+            "favors"
+          ],
+          "of",
+          "him."
+        ],
+        "solution": [
+          [
+            "He's"
+          ],
+          [
+            "always"
+          ],
+          [
+            "complaining"
+          ],
+          [
+            "about"
+          ],
+          [
+            "people."
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't"
+          ],
+          [
+            "wanna",
+            "want to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "any"
+          ],
+          [
+            "favours",
+            "favors"
+          ],
+          [
+            "of"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/8.mp3",
+        "timeStart": 17.4,
+        "timeEnd": 21.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17955/list"
+      },
+      {
+        "id": 17956,
+        "position": 9,
+        "content": "How about across the street?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "about",
+          "across",
+          "the",
+          "street?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "about"
+          ],
+          [
+            "across"
+          ],
+          [
+            "the"
+          ],
+          [
+            "street?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/9.mp3",
+        "timeStart": 21.04,
+        "timeEnd": 22.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17956/list"
+      },
+      {
+        "id": 17957,
+        "position": 10,
+        "content": "I forgot about Mrs. Riley! I'm sure she'd let us use her phone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "forgot",
+          "about",
+          "Mrs.",
+          "Riley!",
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          "she'd",
+          "let",
+          "us",
+          "use",
+          "her",
+          "phone."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "forgot"
+          ],
+          [
+            "about"
+          ],
+          [
+            "Mrs."
+          ],
+          [
+            "Riley!"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "she'd"
+          ],
+          [
+            "let"
+          ],
+          [
+            "us"
+          ],
+          [
+            "use"
+          ],
+          [
+            "her"
+          ],
+          [
+            "phone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/20-phone-out-of-order-2-2022-03-07-21-11-02/10.mp3",
+        "timeStart": 22.5,
+        "timeEnd": 26.08,
+        "hints": [
+          "Mrs. Riley"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17957/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "17949": {
+      "id": 4625,
+      "text": "Nghe thử tiếng ồn kỳ lạ này xem",
+      "author": "a user"
+    },
+    "17950": {
+      "id": 4632,
+      "text": "Nó không giống như âm thanh quay số.",
+      "author": "a user"
+    },
+    "17951": {
+      "id": 4643,
+      "text": "Chắc là điện thoại bị hỏng rồi.",
+      "author": "a user"
+    },
+    "17952": {
+      "id": 4649,
+      "text": "Tốt hơn chúng ta nên thông báo cho công ty điện thoại.",
+      "author": "a user"
+    },
+    "17953": {
+      "id": 4651,
+      "text": "Làm sao để làm điều đó? Chúng ta không thể dùng điện thoại này.",
+      "author": "a user"
+    },
+    "17955": {
+      "id": 4664,
+      "text": "Anh ấy lúc nào cũng phàn nàn về người khác. Tôi không muốn nhờ vả gì anh ấy đâu.",
+      "author": "a user"
+    },
+    "17956": {
+      "id": 4687,
+      "text": "Vậy còn nhà hàng xóm đối diện thì sao?",
+      "author": "a user"
+    },
+    "17957": {
+      "id": 4690,
+      "text": "Tôi quên mất bà Riley! Tôi chắc rằng bà ấy sẽ cho chúng ta sử dụng điện thoại của bà ấy.",
+      "author": "a user"
+    },
+    "17948": {
+      "id": 2606904,
+      "text": "Này! Điện thoại cậu bị sao vậy?",
+      "author": "a user"
+    },
+    "17954": {
+      "id": 2606905,
+      "text": "Chúng ta sang nhà bên cạnh dùng điện thoại của hàng xóm đi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

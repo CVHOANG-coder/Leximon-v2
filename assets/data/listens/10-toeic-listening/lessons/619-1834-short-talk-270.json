@@ -1,0 +1,854 @@
+{
+  "summary": {
+    "id": 1834,
+    "name": "Short Talk 270",
+    "subTitle": "Order Amendment Request",
+    "levelName": "B2",
+    "position": 619,
+    "totalChallenges": 13,
+    "groupId": 74,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1834",
+  "detail": {
+    "id": 1834,
+    "lessonName": "Short Talk 270",
+    "name": "Short Talk 270",
+    "position": 619,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/0-short-talk-270.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70744,
+        "position": 1,
+        "content": "Hello, this is Lisa Turner from GreenWave Solutions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Lisa",
+          "Turner",
+          "from",
+          "GreenWave",
+          "Solutions."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "Turner"
+          ],
+          [
+            "from"
+          ],
+          [
+            "GreenWave"
+          ],
+          [
+            "Solutions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.36,
+        "hints": [
+          "Lisa Turner"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70744/list"
+      },
+      {
+        "id": 70745,
+        "position": 2,
+        "content": "I need to amend an order I placed through your platform last week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "need",
+          "to",
+          "amend",
+          "an",
+          "order",
+          "I",
+          "placed",
+          "through",
+          "your",
+          "platform",
+          "last",
+          "week."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "amend"
+          ],
+          [
+            "an"
+          ],
+          [
+            "order"
+          ],
+          [
+            "I"
+          ],
+          [
+            "placed"
+          ],
+          [
+            "through"
+          ],
+          [
+            "your"
+          ],
+          [
+            "platform"
+          ],
+          [
+            "last"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/2.mp3",
+        "timeStart": 3.36,
+        "timeEnd": 6.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70745/list"
+      },
+      {
+        "id": 70746,
+        "position": 3,
+        "content": "We've decided to expand our outdoor event next month,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "We have"
+          ],
+          "decided",
+          "to",
+          "expand",
+          "our",
+          "outdoor",
+          "event",
+          "next",
+          "month,"
+        ],
+        "solution": [
+          [
+            "We've",
+            "We have"
+          ],
+          [
+            "decided"
+          ],
+          [
+            "to"
+          ],
+          [
+            "expand"
+          ],
+          [
+            "our"
+          ],
+          [
+            "outdoor"
+          ],
+          [
+            "event"
+          ],
+          [
+            "next"
+          ],
+          [
+            "month,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/3.mp3",
+        "timeStart": 6.62,
+        "timeEnd": 9.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70746/list"
+      },
+      {
+        "id": 70747,
+        "position": 4,
+        "content": "and I just got word from our events coordinator that we are expecting more attendees than initially planned.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "just",
+          "got",
+          "word",
+          "from",
+          "our",
+          "events",
+          "coordinator",
+          "that",
+          [
+            "we are",
+            "we're"
+          ],
+          "expecting",
+          "more",
+          "attendees",
+          "than",
+          "initially",
+          "planned."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "got"
+          ],
+          [
+            "word"
+          ],
+          [
+            "from"
+          ],
+          [
+            "our"
+          ],
+          [
+            "events"
+          ],
+          [
+            "coordinator"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we are",
+            "we're"
+          ],
+          [
+            "expecting"
+          ],
+          [
+            "more"
+          ],
+          [
+            "attendees"
+          ],
+          [
+            "than"
+          ],
+          [
+            "initially"
+          ],
+          [
+            "planned."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/4.mp3",
+        "timeStart": 9.66,
+        "timeEnd": 15.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70747/list"
+      },
+      {
+        "id": 70748,
+        "position": 5,
+        "content": "Consequently, we will need a different set up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Consequently,",
+          [
+            "we will",
+            "we'll"
+          ],
+          "need",
+          "a",
+          "different",
+          "set",
+          "up."
+        ],
+        "solution": [
+          [
+            "Consequently,"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "different"
+          ],
+          [
+            "set"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/5.mp3",
+        "timeStart": 15.13,
+        "timeEnd": 17.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70748/list"
+      },
+      {
+        "id": 70749,
+        "position": 6,
+        "content": "We won't need the additional small tents or portable speakers we originally ordered,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "won't",
+          "need",
+          "the",
+          "additional",
+          "small",
+          "tents",
+          "or",
+          "portable",
+          "speakers",
+          "we",
+          "originally",
+          "ordered,"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "need"
+          ],
+          [
+            "the"
+          ],
+          [
+            "additional"
+          ],
+          [
+            "small"
+          ],
+          [
+            "tents"
+          ],
+          [
+            "or"
+          ],
+          [
+            "portable"
+          ],
+          [
+            "speakers"
+          ],
+          [
+            "we"
+          ],
+          [
+            "originally"
+          ],
+          [
+            "ordered,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/6.mp3",
+        "timeStart": 17.63,
+        "timeEnd": 21.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70749/list"
+      },
+      {
+        "id": 70750,
+        "position": 7,
+        "content": "but we do need to increase the number of folding chairs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "do",
+          "need",
+          "to",
+          "increase",
+          "the",
+          "number",
+          "of",
+          "folding",
+          "chairs."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "increase"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "folding"
+          ],
+          [
+            "chairs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/7.mp3",
+        "timeStart": 22.08,
+        "timeEnd": 25.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70750/list"
+      },
+      {
+        "id": 70751,
+        "position": 8,
+        "content": "We're looking at needing a total of 150 now.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "We are"
+          ],
+          "looking",
+          "at",
+          "needing",
+          "a",
+          "total",
+          "of",
+          "150",
+          "now."
+        ],
+        "solution": [
+          [
+            "We're",
+            "We are"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "needing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "total"
+          ],
+          [
+            "of"
+          ],
+          [
+            "150"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/8.mp3",
+        "timeStart": 25.01,
+        "timeEnd": 28.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70751/list"
+      },
+      {
+        "id": 70752,
+        "position": 9,
+        "content": "Also, our finance team would like to handle these adjustments with a different company credit card,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "our",
+          "finance",
+          "team",
+          "would",
+          "like",
+          "to",
+          "handle",
+          "these",
+          "adjustments",
+          "with",
+          "a",
+          "different",
+          [
+            "company",
+            "Co"
+          ],
+          "credit",
+          "card,"
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "our"
+          ],
+          [
+            "finance"
+          ],
+          [
+            "team"
+          ],
+          [
+            "would"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "handle"
+          ],
+          [
+            "these"
+          ],
+          [
+            "adjustments"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "different"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "credit"
+          ],
+          [
+            "card,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/9.mp3",
+        "timeStart": 28.17,
+        "timeEnd": 32.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70752/list"
+      },
+      {
+        "id": 70753,
+        "position": 10,
+        "content": "so please call me back for the new payment details.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "please",
+          "call",
+          "me",
+          "back",
+          "for",
+          "the",
+          "new",
+          "payment",
+          "details."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "please"
+          ],
+          [
+            "call"
+          ],
+          [
+            "me"
+          ],
+          [
+            "back"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "payment"
+          ],
+          [
+            "details."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/10.mp3",
+        "timeStart": 33.11,
+        "timeEnd": 35.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70753/list"
+      },
+      {
+        "id": 70754,
+        "position": 11,
+        "content": "My contact information is on the original order form.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "contact",
+          "information",
+          "is",
+          "on",
+          "the",
+          "original",
+          "order",
+          "form."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "contact"
+          ],
+          [
+            "information"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "original"
+          ],
+          [
+            "order"
+          ],
+          [
+            "form."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/11.mp3",
+        "timeStart": 35.82,
+        "timeEnd": 38.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70754/list"
+      },
+      {
+        "id": 70755,
+        "position": 12,
+        "content": "I appreciate your prompt attention to this matter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "appreciate",
+          "your",
+          "prompt",
+          "attention",
+          "to",
+          "this",
+          "matter."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "your"
+          ],
+          [
+            "prompt"
+          ],
+          [
+            "attention"
+          ],
+          [
+            "to"
+          ],
+          [
+            "this"
+          ],
+          [
+            "matter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/12.mp3",
+        "timeStart": 38.91,
+        "timeEnd": 41.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70755/list"
+      },
+      {
+        "id": 70756,
+        "position": 13,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-270-2024-11-07-15-32-17/13.mp3",
+        "timeStart": 41.38,
+        "timeEnd": 42.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70756/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "70744": {
+      "id": 2644214,
+      "text": "Xin chào, đây là Lisa Turner từ GreenWave Solutions.",
+      "author": "ChatGPT4.1"
+    },
+    "70745": {
+      "id": 2644215,
+      "text": "Tôi cần chỉnh sửa một đơn hàng mà tôi đã đặt thông qua nền tảng của quý công ty vào tuần trước.",
+      "author": "ChatGPT4.1"
+    },
+    "70746": {
+      "id": 2644216,
+      "text": "Chúng tôi đã quyết định mở rộng sự kiện ngoài trời của mình vào tháng tới,",
+      "author": "ChatGPT4.1"
+    },
+    "70747": {
+      "id": 2644217,
+      "text": "và tôi vừa nhận được thông tin từ điều phối viên sự kiện rằng chúng tôi dự kiến sẽ có nhiều người tham dự hơn so với kế hoạch ban đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "70748": {
+      "id": 2644218,
+      "text": "Do đó, chúng tôi sẽ cần một cách bố trí khác.",
+      "author": "ChatGPT4.1"
+    },
+    "70749": {
+      "id": 2644219,
+      "text": "Chúng tôi sẽ không cần thêm những lều nhỏ hoặc loa di động như đã đặt ban đầu,",
+      "author": "ChatGPT4.1"
+    },
+    "70750": {
+      "id": 2644220,
+      "text": "nhưng chúng tôi cần tăng số lượng ghế xếp.",
+      "author": "ChatGPT4.1"
+    },
+    "70751": {
+      "id": 2644221,
+      "text": "Chúng tôi dự kiến sẽ cần tổng cộng 150 cái.",
+      "author": "ChatGPT4.1"
+    },
+    "70752": {
+      "id": 2644222,
+      "text": "Ngoài ra, đội ngũ tài chính của chúng tôi muốn thực hiện các điều chỉnh này bằng một thẻ tín dụng công ty khác,",
+      "author": "ChatGPT4.1"
+    },
+    "70753": {
+      "id": 2644223,
+      "text": "vì vậy xin vui lòng gọi lại cho tôi để cung cấp chi tiết thanh toán mới.",
+      "author": "ChatGPT4.1"
+    },
+    "70754": {
+      "id": 2644224,
+      "text": "Thông tin liên hệ của tôi nằm trên mẫu đơn đặt hàng ban đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "70755": {
+      "id": 2644225,
+      "text": "Tôi rất trân trọng sự chú ý nhanh chóng của quý công ty đối với vấn đề này.",
+      "author": "ChatGPT4.1"
+    },
+    "70756": {
+      "id": 2644226,
+      "text": "Xin cảm ơn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

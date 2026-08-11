@@ -1,0 +1,634 @@
+{
+  "summary": {
+    "id": 1690,
+    "name": "Short Talk 202",
+    "subTitle": "Library Book Return Reminder",
+    "levelName": "B1",
+    "position": 489,
+    "totalChallenges": 9,
+    "groupId": 51,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1690",
+  "detail": {
+    "id": 1690,
+    "lessonName": "Short Talk 202",
+    "name": "Short Talk 202",
+    "position": 489,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/0-short-talk-202.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68895,
+        "position": 1,
+        "content": "Hi, this is Tony from City Library Services.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "this",
+          "is",
+          "Tony",
+          "from",
+          "City",
+          "Library",
+          "Services."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Tony"
+          ],
+          [
+            "from"
+          ],
+          [
+            "City"
+          ],
+          [
+            "Library"
+          ],
+          [
+            "Services."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68895/list"
+      },
+      {
+        "id": 68896,
+        "position": 2,
+        "content": "I'm calling to remind you that your books, including \"The Catcher in the Rye\" and \"1984,\"",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "to",
+          "remind",
+          "you",
+          "that",
+          "your",
+          "books,",
+          "including",
+          "\"The",
+          "Catcher",
+          "in",
+          "the",
+          "Rye\"",
+          "and",
+          "\"1984,\""
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "to"
+          ],
+          [
+            "remind"
+          ],
+          [
+            "you"
+          ],
+          [
+            "that"
+          ],
+          [
+            "your"
+          ],
+          [
+            "books,"
+          ],
+          [
+            "including"
+          ],
+          [
+            "\"The"
+          ],
+          [
+            "Catcher"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Rye\""
+          ],
+          [
+            "and"
+          ],
+          [
+            "\"1984,\""
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/2.mp3",
+        "timeStart": 3.09,
+        "timeEnd": 9.3,
+        "hints": [
+          "The Catcher in the Rye"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68896/list"
+      },
+      {
+        "id": 68897,
+        "position": 3,
+        "content": "are due for return next Monday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "are",
+          "due",
+          "for",
+          "return",
+          "next",
+          "Monday."
+        ],
+        "solution": [
+          [
+            "are"
+          ],
+          [
+            "due"
+          ],
+          [
+            "for"
+          ],
+          [
+            "return"
+          ],
+          [
+            "next"
+          ],
+          [
+            "Monday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/3.mp3",
+        "timeStart": 9.3,
+        "timeEnd": 11.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68897/list"
+      },
+      {
+        "id": 68898,
+        "position": 4,
+        "content": "If you need more time, feel free to renew them online through our website or app.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "need",
+          "more",
+          "time,",
+          "feel",
+          "free",
+          "to",
+          "renew",
+          "them",
+          "online",
+          "through",
+          "our",
+          "website",
+          "or",
+          "app."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "more"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "free"
+          ],
+          [
+            "to"
+          ],
+          [
+            "renew"
+          ],
+          [
+            "them"
+          ],
+          [
+            "online"
+          ],
+          [
+            "through"
+          ],
+          [
+            "our"
+          ],
+          [
+            "website"
+          ],
+          [
+            "or"
+          ],
+          [
+            "app."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/4.mp3",
+        "timeStart": 11.64,
+        "timeEnd": 16.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68898/list"
+      },
+      {
+        "id": 68899,
+        "position": 5,
+        "content": "Also, we have a new selection of audiobooks available,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "new",
+          "selection",
+          "of",
+          "audiobooks",
+          "available,"
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "selection"
+          ],
+          [
+            "of"
+          ],
+          [
+            "audiobooks"
+          ],
+          [
+            "available,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/5.mp3",
+        "timeStart": 16.73,
+        "timeEnd": 20.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68899/list"
+      },
+      {
+        "id": 68900,
+        "position": 6,
+        "content": "which you can check out on your account.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "you",
+          "can",
+          "check",
+          "out",
+          "on",
+          "your",
+          "account."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "check"
+          ],
+          [
+            "out"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "account."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/6.mp3",
+        "timeStart": 20.36,
+        "timeEnd": 22.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68900/list"
+      },
+      {
+        "id": 68901,
+        "position": 7,
+        "content": "Remember, if any book is overdue, there's a late fee of 50 cents per day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Remember,",
+          "if",
+          "any",
+          "book",
+          "is",
+          "overdue,",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "late",
+          "fee",
+          "of",
+          [
+            "50",
+            "fifty"
+          ],
+          "cents",
+          "per",
+          "day."
+        ],
+        "solution": [
+          [
+            "Remember,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "any"
+          ],
+          [
+            "book"
+          ],
+          [
+            "is"
+          ],
+          [
+            "overdue,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "late"
+          ],
+          [
+            "fee"
+          ],
+          [
+            "of"
+          ],
+          [
+            "50",
+            "fifty"
+          ],
+          [
+            "cents"
+          ],
+          [
+            "per"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/7.mp3",
+        "timeStart": 22.68,
+        "timeEnd": 27.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68901/list"
+      },
+      {
+        "id": 68902,
+        "position": 8,
+        "content": "We hope you're enjoying your current reads,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "hope",
+          [
+            "you're",
+            "you are"
+          ],
+          "enjoying",
+          "your",
+          "current",
+          "reads,"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "enjoying"
+          ],
+          [
+            "your"
+          ],
+          [
+            "current"
+          ],
+          [
+            "reads,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/8.mp3",
+        "timeStart": 28.04,
+        "timeEnd": 30.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68902/list"
+      },
+      {
+        "id": 68903,
+        "position": 9,
+        "content": "and let us know if there's anything else we can assist you with.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "let",
+          "us",
+          "know",
+          "if",
+          [
+            "there's",
+            "there is"
+          ],
+          "anything",
+          "else",
+          "we",
+          "can",
+          "assist",
+          "you",
+          "with."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "let"
+          ],
+          [
+            "us"
+          ],
+          [
+            "know"
+          ],
+          [
+            "if"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "else"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "assist"
+          ],
+          [
+            "you"
+          ],
+          [
+            "with."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-202-2024-10-14-13-58-04/9.mp3",
+        "timeStart": 30.15,
+        "timeEnd": 32.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68903/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68897": {
+      "id": 1579114,
+      "text": "sẽ đến hạn trả lại vào thứ Hai tuần tới.",
+      "author": "a user"
+    },
+    "68895": {
+      "id": 2657178,
+      "text": "Xin chào, đây là Tony từ Dịch vụ Thư viện Thành phố.",
+      "author": "ChatGPT4.1"
+    },
+    "68896": {
+      "id": 2657179,
+      "text": "Tôi gọi để nhắc bạn rằng các cuốn sách của bạn, bao gồm \"Bắt trẻ đồng xanh\" và \"1984,\"",
+      "author": "ChatGPT4.1"
+    },
+    "68898": {
+      "id": 2657180,
+      "text": "Nếu bạn cần thêm thời gian, hãy thoải mái gia hạn sách trực tuyến qua trang web hoặc ứng dụng của chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "68899": {
+      "id": 2657181,
+      "text": "Ngoài ra, chúng tôi hiện có bộ sưu tập sách nói mới,",
+      "author": "ChatGPT4.1"
+    },
+    "68900": {
+      "id": 2657182,
+      "text": "mà bạn có thể mượn thông qua tài khoản của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "68901": {
+      "id": 2657183,
+      "text": "Lưu ý, nếu có bất kỳ cuốn sách nào quá hạn, bạn sẽ bị tính phí trễ là 50 cent mỗi ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "68902": {
+      "id": 2657184,
+      "text": "Chúng tôi hy vọng bạn đang thưởng thức các cuốn sách hiện tại,",
+      "author": "ChatGPT4.1"
+    },
+    "68903": {
+      "id": 2657185,
+      "text": "và hãy cho chúng tôi biết nếu có điều gì khác chúng tôi có thể hỗ trợ bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

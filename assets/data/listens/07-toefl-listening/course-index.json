@@ -1,0 +1,623 @@
+{
+  "id": 7,
+  "name": "TOEFL Listening",
+  "type": "audio",
+  "imgUrl": "https://dailydictation.com/images/dd-toefl.jpg",
+  "totalLessons": 54,
+  "difficulty": "Hard",
+  "levelName": "B1-C2",
+  "levelNames": [
+    "B1",
+    "B2",
+    "C1",
+    "C2"
+  ],
+  "lessons": [
+    {
+      "id": 537,
+      "name": "TOEFL Conversation 1",
+      "subTitle": "",
+      "levelName": "B1",
+      "position": 1,
+      "totalChallenges": 48,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 538,
+      "name": "TOEFL Lecture 1",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 2,
+      "totalChallenges": 63,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 539,
+      "name": "TOEFL Conversation 2",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 3,
+      "totalChallenges": 87,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 540,
+      "name": "TOEFL Lecture 2",
+      "subTitle": "",
+      "levelName": "B1",
+      "position": 4,
+      "totalChallenges": 85,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 546,
+      "name": "TOEFL Conversation 3",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 5,
+      "totalChallenges": 84,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 547,
+      "name": "TOEFL Lecture 3",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 6,
+      "totalChallenges": 83,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 550,
+      "name": "TOEFL Conversation 4",
+      "subTitle": "",
+      "levelName": "B1",
+      "position": 7,
+      "totalChallenges": 61,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 549,
+      "name": "TOEFL Lecture 4",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 8,
+      "totalChallenges": 81,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 555,
+      "name": "TOEFL Conversation 5",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 9,
+      "totalChallenges": 64,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 556,
+      "name": "TOEFL Lecture 5",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 10,
+      "totalChallenges": 67,
+      "groupId": 115,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 557,
+      "name": "TOEFL Conversation 6",
+      "subTitle": "",
+      "levelName": "B1",
+      "position": 11,
+      "totalChallenges": 46,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 558,
+      "name": "TOEFL Lecture 6",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 12,
+      "totalChallenges": 58,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 563,
+      "name": "TOEFL Conversation 7",
+      "subTitle": "",
+      "levelName": "B1",
+      "position": 13,
+      "totalChallenges": 74,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 564,
+      "name": "TOEFL Lecture 7",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 14,
+      "totalChallenges": 65,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 569,
+      "name": "TOEFL Conversation 8",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 15,
+      "totalChallenges": 81,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 570,
+      "name": "TOEFL Lecture 8",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 16,
+      "totalChallenges": 73,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 576,
+      "name": "TOEFL Conversation 9",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 17,
+      "totalChallenges": 79,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 577,
+      "name": "TOEFL Lecture 9",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 18,
+      "totalChallenges": 72,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 582,
+      "name": "TOEFL Conversation 10",
+      "subTitle": "",
+      "levelName": "B1",
+      "position": 19,
+      "totalChallenges": 83,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 583,
+      "name": "TOEFL Lecture 10",
+      "subTitle": "",
+      "levelName": "C2",
+      "position": 20,
+      "totalChallenges": 69,
+      "groupId": 116,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 588,
+      "name": "TOEFL Conversation 11",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 21,
+      "totalChallenges": 79,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 589,
+      "name": "TOEFL Lecture 11",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 22,
+      "totalChallenges": 72,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 595,
+      "name": "TOEFL Conversation 12",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 23,
+      "totalChallenges": 82,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 596,
+      "name": "TOEFL Lecture 12",
+      "subTitle": "",
+      "levelName": "C2",
+      "position": 24,
+      "totalChallenges": 72,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 653,
+      "name": "TOEFL Conversation 13",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 25,
+      "totalChallenges": 92,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 654,
+      "name": "TOEFL Lecture 13",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 26,
+      "totalChallenges": 83,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 938,
+      "name": "Lecture: Iroquois and Huron peoples",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 27,
+      "totalChallenges": 73,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 939,
+      "name": "Lecture: Notothenioids",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 28,
+      "totalChallenges": 74,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 940,
+      "name": "Conversation: Bicycle club",
+      "subTitle": "",
+      "levelName": "B1",
+      "position": 29,
+      "totalChallenges": 70,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 941,
+      "name": "Lecture: The flight of the Bumblebee",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 30,
+      "totalChallenges": 50,
+      "groupId": 117,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 942,
+      "name": "Lecture: Antikythera Mechanism",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 31,
+      "totalChallenges": 54,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 943,
+      "name": "Lecture: Archimedes Palimpsest",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 32,
+      "totalChallenges": 62,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 944,
+      "name": "Lecture: Rosetta Stone",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 33,
+      "totalChallenges": 45,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 945,
+      "name": "Lecture: The Botai People",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 34,
+      "totalChallenges": 55,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 946,
+      "name": "Lecture: Sauropods",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 35,
+      "totalChallenges": 60,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 948,
+      "name": "Lecture: Father of American Anthropology",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 37,
+      "totalChallenges": 66,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 949,
+      "name": "Lecture: Ancient Writings on Mathematics",
+      "subTitle": "",
+      "levelName": "C2",
+      "position": 38,
+      "totalChallenges": 51,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 950,
+      "name": "Lecture: Hexagonal House",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 39,
+      "totalChallenges": 69,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 951,
+      "name": "Lecture: Epic theaters",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 40,
+      "totalChallenges": 55,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 952,
+      "name": "Lecture: Modern Dance",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 41,
+      "totalChallenges": 58,
+      "groupId": 118,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 953,
+      "name": "Lecture: History of Violins",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 42,
+      "totalChallenges": 75,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 955,
+      "name": "Lecture: History of Film",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 43,
+      "totalChallenges": 65,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 956,
+      "name": "Lecture: Pinhole Camera",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 44,
+      "totalChallenges": 61,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 957,
+      "name": "Lecture: Dada",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 45,
+      "totalChallenges": 71,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 958,
+      "name": "Lecture: Action Film",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 46,
+      "totalChallenges": 69,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 959,
+      "name": "Lecture: Roman Sculpture",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 47,
+      "totalChallenges": 64,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 960,
+      "name": "Lecture: Van Gogh",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 48,
+      "totalChallenges": 50,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 961,
+      "name": "Lecture: Impressionism",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 49,
+      "totalChallenges": 83,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 962,
+      "name": "Lecture: Theater and Film",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 50,
+      "totalChallenges": 80,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 963,
+      "name": "Lecture: Art Movement",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 51,
+      "totalChallenges": 69,
+      "groupId": 119,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 964,
+      "name": "Lecture: Painting Style",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 52,
+      "totalChallenges": 66,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 1095,
+      "name": "Lecture: Béla Bartók",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 53,
+      "totalChallenges": 49,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 1096,
+      "name": "Lecture: Cecilia Beaux",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 54,
+      "totalChallenges": 77,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    }
+  ],
+  "lessonGroups": [
+    {
+      "id": 115,
+      "name": "Section 1"
+    },
+    {
+      "id": 116,
+      "name": "Section 2"
+    },
+    {
+      "id": 117,
+      "name": "Section 3"
+    },
+    {
+      "id": 118,
+      "name": "Section 4"
+    },
+    {
+      "id": 119,
+      "name": "Section 5"
+    }
+  ],
+  "shouldGroupLessons": true
+}

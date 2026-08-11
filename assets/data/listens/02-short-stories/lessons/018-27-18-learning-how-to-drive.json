@@ -1,0 +1,887 @@
+{
+  "summary": {
+    "id": 27,
+    "name": "18. Learning how to drive",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 18,
+    "totalChallenges": 18,
+    "groupId": 86,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/27",
+  "detail": {
+    "id": 27,
+    "lessonName": "18. Learning how to drive",
+    "name": "18. Learning how to drive",
+    "position": 18,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/0-18-learning-how-to-drive.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 1044,
+        "position": 1,
+        "content": "Amy is 16 years old.",
+        "defaultInput": "Amy ",
+        "jsonContent": [
+          "Amy",
+          "is",
+          [
+            "16",
+            "sixteen"
+          ],
+          "years",
+          "old."
+        ],
+        "solution": [
+          [
+            "Amy"
+          ],
+          [
+            "is"
+          ],
+          [
+            "16",
+            "sixteen"
+          ],
+          [
+            "years"
+          ],
+          [
+            "old."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/1.mp3",
+        "timeStart": 3.5,
+        "timeEnd": 5.82,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/1044/list"
+      },
+      {
+        "id": 1045,
+        "position": 2,
+        "content": "She lives in a small town.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "lives",
+          "in",
+          "a",
+          "small",
+          "town."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "small"
+          ],
+          [
+            "town."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/2.mp3",
+        "timeStart": 6.2,
+        "timeEnd": 8.26,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/1045/list"
+      },
+      {
+        "id": 1046,
+        "position": 3,
+        "content": "Amy is learning how to drive.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy",
+          "is",
+          "learning",
+          "how",
+          "to",
+          "drive."
+        ],
+        "solution": [
+          [
+            "Amy"
+          ],
+          [
+            "is"
+          ],
+          [
+            "learning"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "drive."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/3.mp3",
+        "timeStart": 9,
+        "timeEnd": 10.99,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1046/list"
+      },
+      {
+        "id": 1047,
+        "position": 4,
+        "content": "Amy's dad is giving her lessons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy's",
+          "dad",
+          "is",
+          "giving",
+          "her",
+          "lessons."
+        ],
+        "solution": [
+          [
+            "Amy's"
+          ],
+          [
+            "dad"
+          ],
+          [
+            "is"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "her"
+          ],
+          [
+            "lessons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/4.mp3",
+        "timeStart": 11.8,
+        "timeEnd": 14.27,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/1047/list"
+      },
+      {
+        "id": 1048,
+        "position": 5,
+        "content": "Amy's dad's name is Howard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy's",
+          "dad's",
+          "name",
+          "is",
+          "Howard."
+        ],
+        "solution": [
+          [
+            "Amy's"
+          ],
+          [
+            "dad's"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Howard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/5.mp3",
+        "timeStart": 15,
+        "timeEnd": 17.3,
+        "hints": [
+          "Howard"
+        ],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/1048/list"
+      },
+      {
+        "id": 1049,
+        "position": 6,
+        "content": "Amy has had three lessons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy",
+          "has",
+          "had",
+          [
+            "three",
+            "3"
+          ],
+          "lessons."
+        ],
+        "solution": [
+          [
+            "Amy"
+          ],
+          [
+            "has"
+          ],
+          [
+            "had"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "lessons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/6.mp3",
+        "timeStart": 18.2,
+        "timeEnd": 20.35,
+        "hints": [],
+        "nbComments": 18,
+        "discussionUrl": "https://dailydictation.com/discussions/1049/list"
+      },
+      {
+        "id": 1050,
+        "position": 7,
+        "content": "Amy and her dad argue during the lessons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy",
+          "and",
+          "her",
+          "dad",
+          "argue",
+          "during",
+          "the",
+          "lessons."
+        ],
+        "solution": [
+          [
+            "Amy"
+          ],
+          [
+            "and"
+          ],
+          [
+            "her"
+          ],
+          [
+            "dad"
+          ],
+          [
+            "argue"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "lessons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/7.mp3",
+        "timeStart": 21.2,
+        "timeEnd": 24.26,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/1050/list"
+      },
+      {
+        "id": 1051,
+        "position": 8,
+        "content": "Amy's mom is giving her driving lessons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy's",
+          [
+            "mom",
+            "mum"
+          ],
+          "is",
+          "giving",
+          "her",
+          "driving",
+          "lessons."
+        ],
+        "solution": [
+          [
+            "Amy's"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "is"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "her"
+          ],
+          [
+            "driving"
+          ],
+          [
+            "lessons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/8.mp3",
+        "timeStart": 25.1,
+        "timeEnd": 28.07,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1051/list"
+      },
+      {
+        "id": 1052,
+        "position": 9,
+        "content": "Amy's mom's name is Jane.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy's",
+          [
+            "mom's",
+            "mums"
+          ],
+          "name",
+          "is",
+          "Jane."
+        ],
+        "solution": [
+          [
+            "Amy's"
+          ],
+          [
+            "mom's",
+            "mums"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Jane."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/9.mp3",
+        "timeStart": 28.7,
+        "timeEnd": 31.3,
+        "hints": [
+          "Jane"
+        ],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/1052/list"
+      },
+      {
+        "id": 1053,
+        "position": 10,
+        "content": "Jane has given Amy a lesson.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jane",
+          "has",
+          "given",
+          "Amy",
+          "a",
+          "lesson."
+        ],
+        "solution": [
+          [
+            "Jane"
+          ],
+          [
+            "has"
+          ],
+          [
+            "given"
+          ],
+          [
+            "Amy"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lesson."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/10.mp3",
+        "timeStart": 32.05,
+        "timeEnd": 34.19,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1053/list"
+      },
+      {
+        "id": 1054,
+        "position": 11,
+        "content": "Jane has decided to stop giving Amy lessons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jane",
+          "has",
+          "decided",
+          "to",
+          "stop",
+          "giving",
+          "Amy",
+          "lessons."
+        ],
+        "solution": [
+          [
+            "Jane"
+          ],
+          [
+            "has"
+          ],
+          [
+            "decided"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "Amy"
+          ],
+          [
+            "lessons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/11.mp3",
+        "timeStart": 34.8,
+        "timeEnd": 38.13,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1054/list"
+      },
+      {
+        "id": 1055,
+        "position": 12,
+        "content": "Jane and Amy argue during the lessons too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jane",
+          "and",
+          "Amy",
+          "argue",
+          "during",
+          "the",
+          "lessons",
+          "too."
+        ],
+        "solution": [
+          [
+            "Jane"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Amy"
+          ],
+          [
+            "argue"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "lessons"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/12.mp3",
+        "timeStart": 38.7,
+        "timeEnd": 42,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/1055/list"
+      },
+      {
+        "id": 1056,
+        "position": 13,
+        "content": "Amy's parents call a driving school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy's",
+          "parents",
+          "call",
+          "a",
+          "driving",
+          "school."
+        ],
+        "solution": [
+          [
+            "Amy's"
+          ],
+          [
+            "parents"
+          ],
+          [
+            "call"
+          ],
+          [
+            "a"
+          ],
+          [
+            "driving"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/13.mp3",
+        "timeStart": 42.9,
+        "timeEnd": 45.9,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/1056/list"
+      },
+      {
+        "id": 1057,
+        "position": 14,
+        "content": "Amy is going to get lessons from a professional.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "get",
+          "lessons",
+          "from",
+          "a",
+          "professional."
+        ],
+        "solution": [
+          [
+            "Amy"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "get"
+          ],
+          [
+            "lessons"
+          ],
+          [
+            "from"
+          ],
+          [
+            "a"
+          ],
+          [
+            "professional."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/14.mp3",
+        "timeStart": 46.8,
+        "timeEnd": 49.8,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/1057/list"
+      },
+      {
+        "id": 1058,
+        "position": 15,
+        "content": "The classes cost $300 for 10 lessons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "classes",
+          "cost",
+          [
+            "$300",
+            "300 dollars",
+            "three hundred dollars"
+          ],
+          "for",
+          [
+            "10",
+            "ten"
+          ],
+          "lessons."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "classes"
+          ],
+          [
+            "cost"
+          ],
+          [
+            "$300",
+            "300 dollars",
+            "three hundred dollars"
+          ],
+          [
+            "for"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "lessons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/15.mp3",
+        "timeStart": 50.5,
+        "timeEnd": 54.48,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1058/list"
+      },
+      {
+        "id": 1059,
+        "position": 16,
+        "content": "The lessons are very good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "lessons",
+          "are",
+          "very",
+          "good."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "lessons"
+          ],
+          [
+            "are"
+          ],
+          [
+            "very"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/16.mp3",
+        "timeStart": 55.1,
+        "timeEnd": 57.06,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1059/list"
+      },
+      {
+        "id": 1060,
+        "position": 17,
+        "content": "Amy learns how to drive.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy",
+          "learns",
+          "how",
+          "to",
+          "drive."
+        ],
+        "solution": [
+          [
+            "Amy"
+          ],
+          [
+            "learns"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "drive."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/17.mp3",
+        "timeStart": 57.8,
+        "timeEnd": 59.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1060/list"
+      },
+      {
+        "id": 1061,
+        "position": 18,
+        "content": "Amy gets her licence.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amy",
+          "gets",
+          "her",
+          [
+            "licence.",
+            "license."
+          ]
+        ],
+        "solution": [
+          [
+            "Amy"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "her"
+          ],
+          [
+            "licence.",
+            "license."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/18-learning-how-to-drive-2019-03-20-05-41-06/18.mp3",
+        "timeStart": 60.2,
+        "timeEnd": 62.11,
+        "hints": [],
+        "nbComments": 14,
+        "discussionUrl": "https://dailydictation.com/discussions/1061/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "1050": {
+      "id": 1918,
+      "text": "Amy và cha cô ấy cãi nhau trong các buổi học.",
+      "author": "a user"
+    },
+    "1053": {
+      "id": 1921,
+      "text": "Jane đã dạy cho Amy một bài học.",
+      "author": "a user"
+    },
+    "1055": {
+      "id": 1925,
+      "text": "Jane và Amy cũng cãi nhau trong giờ học.",
+      "author": "a user"
+    },
+    "1057": {
+      "id": 1927,
+      "text": "Amy sắp được học với một người chuyên nghiệp.",
+      "author": "a user"
+    },
+    "1058": {
+      "id": 1928,
+      "text": "Các lớp học có giá là 300 đô la cho 10 buổi học.",
+      "author": "a user"
+    },
+    "1061": {
+      "id": 1931,
+      "text": "Amy nhận được bằng lái xe của mình.",
+      "author": "a user"
+    },
+    "1044": {
+      "id": 2595301,
+      "text": "Amy 16 tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "1045": {
+      "id": 2595302,
+      "text": "Cô ấy sống ở một thị trấn nhỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "1046": {
+      "id": 2595303,
+      "text": "Amy đang học cách lái xe.",
+      "author": "a user"
+    },
+    "1047": {
+      "id": 2595304,
+      "text": "Bố của Amy đang dạy cô ấy lái xe.",
+      "author": "ChatGPT4.1"
+    },
+    "1048": {
+      "id": 2595305,
+      "text": "Tên bố của Amy là Howard.",
+      "author": "ChatGPT4.1"
+    },
+    "1049": {
+      "id": 2595306,
+      "text": "Amy đã có ba buổi học lái xe.",
+      "author": "ChatGPT4.1"
+    },
+    "1051": {
+      "id": 2595307,
+      "text": "Mẹ của Amy đang dạy cô ấy lái xe.",
+      "author": "a user"
+    },
+    "1052": {
+      "id": 2595308,
+      "text": "Tên mẹ của Amy là Jane.",
+      "author": "ChatGPT4.1"
+    },
+    "1054": {
+      "id": 2595309,
+      "text": "Jane đã quyết định ngừng dạy Amy lái xe.",
+      "author": "ChatGPT4.1"
+    },
+    "1056": {
+      "id": 2595310,
+      "text": "Bố mẹ của Amy gọi cho một trường dạy lái xe.",
+      "author": "a user"
+    },
+    "1059": {
+      "id": 2595311,
+      "text": "Các bài học rất tốt.",
+      "author": "a user"
+    },
+    "1060": {
+      "id": 2595312,
+      "text": "Amy học được cách lái xe.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

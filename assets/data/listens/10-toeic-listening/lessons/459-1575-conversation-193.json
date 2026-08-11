@@ -1,0 +1,841 @@
+{
+  "summary": {
+    "id": 1575,
+    "name": "Conversation 193",
+    "subTitle": "Booking a Round-Trip Flight",
+    "levelName": "B1",
+    "position": 459,
+    "totalChallenges": 13,
+    "groupId": 50,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1575",
+  "detail": {
+    "id": 1575,
+    "lessonName": "Conversation 193",
+    "name": "Conversation 193",
+    "position": 459,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/0-conversation-193.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66676,
+        "position": 1,
+        "content": "Good morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66676/list"
+      },
+      {
+        "id": 66677,
+        "position": 2,
+        "content": "I'd like to purchase a round-trip Economy ticket from Taipei to Vancouver, please.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "purchase",
+          "a",
+          [
+            "round-trip",
+            "round trip"
+          ],
+          "Economy",
+          "ticket",
+          "from",
+          "Taipei",
+          "to",
+          "Vancouver,",
+          "please."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "purchase"
+          ],
+          [
+            "a"
+          ],
+          [
+            "round-trip",
+            "round trip"
+          ],
+          [
+            "Economy"
+          ],
+          [
+            "ticket"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Taipei"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Vancouver,"
+          ],
+          [
+            "please."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/2.mp3",
+        "timeStart": 1.28,
+        "timeEnd": 7.36,
+        "hints": [
+          "Taipei",
+          "Vancouver"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66677/list"
+      },
+      {
+        "id": 66678,
+        "position": 3,
+        "content": "I will be leaving on August 24 and returning on September 7.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "be",
+          "leaving",
+          "on",
+          "August",
+          [
+            "24",
+            "twenty-four"
+          ],
+          "and",
+          "returning",
+          "on",
+          "September",
+          [
+            "7.",
+            "seven"
+          ]
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "leaving"
+          ],
+          [
+            "on"
+          ],
+          [
+            "August"
+          ],
+          [
+            "24",
+            "twenty-four"
+          ],
+          [
+            "and"
+          ],
+          [
+            "returning"
+          ],
+          [
+            "on"
+          ],
+          [
+            "September"
+          ],
+          [
+            "7.",
+            "seven"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/3.mp3",
+        "timeStart": 7.75,
+        "timeEnd": 12.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66678/list"
+      },
+      {
+        "id": 66679,
+        "position": 4,
+        "content": "Well, there's a direct flight leaving for Vancouver that day at 11:30 pm,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "direct",
+          "flight",
+          "leaving",
+          "for",
+          "Vancouver",
+          "that",
+          "day",
+          "at",
+          "11:30",
+          "pm,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "direct"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "leaving"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Vancouver"
+          ],
+          [
+            "that"
+          ],
+          [
+            "day"
+          ],
+          [
+            "at"
+          ],
+          [
+            "11:30"
+          ],
+          [
+            "pm,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/4.mp3",
+        "timeStart": 13.05,
+        "timeEnd": 19.62,
+        "hints": [
+          "Vancouver"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66679/list"
+      },
+      {
+        "id": 66680,
+        "position": 5,
+        "content": "and there's a return flight bound for Taipei at 2 am on the 6th.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "return",
+          "flight",
+          "bound",
+          "for",
+          "Taipei",
+          "at",
+          [
+            "2",
+            "two"
+          ],
+          "am",
+          "on",
+          "the",
+          [
+            "6th.",
+            "sixth"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "return"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "bound"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Taipei"
+          ],
+          [
+            "at"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "am"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "6th.",
+            "sixth"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/5.mp3",
+        "timeStart": 19.62,
+        "timeEnd": 25.48,
+        "hints": [
+          "Taipei"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66680/list"
+      },
+      {
+        "id": 66681,
+        "position": 6,
+        "content": "You will be arriving in Taipei on the 7th.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You will",
+            "You'll"
+          ],
+          "be",
+          "arriving",
+          "in",
+          "Taipei",
+          "on",
+          "the",
+          [
+            "7th.",
+            "seventh"
+          ]
+        ],
+        "solution": [
+          [
+            "You will",
+            "You'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "arriving"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Taipei"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "7th.",
+            "seventh"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/6.mp3",
+        "timeStart": 25.77,
+        "timeEnd": 29.56,
+        "hints": [
+          "Taipei"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66681/list"
+      },
+      {
+        "id": 66682,
+        "position": 7,
+        "content": "Is there another departure option?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "there",
+          "another",
+          "departure",
+          "option?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "another"
+          ],
+          [
+            "departure"
+          ],
+          [
+            "option?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/7.mp3",
+        "timeStart": 30.43,
+        "timeEnd": 32.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66682/list"
+      },
+      {
+        "id": 66683,
+        "position": 8,
+        "content": "I don't like taking flights departing after midnight.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "like",
+          "taking",
+          "flights",
+          "departing",
+          "after",
+          "midnight."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "like"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "flights"
+          ],
+          [
+            "departing"
+          ],
+          [
+            "after"
+          ],
+          [
+            "midnight."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/8.mp3",
+        "timeStart": 32.97,
+        "timeEnd": 36.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66683/list"
+      },
+      {
+        "id": 66684,
+        "position": 9,
+        "content": "Oh, I forgot to mention that I'd like to use my frequent flyer miles to get the ticket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "forgot",
+          "to",
+          "mention",
+          "that",
+          "I'd",
+          "like",
+          "to",
+          "use",
+          "my",
+          "frequent",
+          "flyer",
+          "miles",
+          "to",
+          "get",
+          "the",
+          "ticket."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "forgot"
+          ],
+          [
+            "to"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "my"
+          ],
+          [
+            "frequent"
+          ],
+          [
+            "flyer"
+          ],
+          [
+            "miles"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ticket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/9.mp3",
+        "timeStart": 36.53,
+        "timeEnd": 42.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66684/list"
+      },
+      {
+        "id": 66685,
+        "position": 10,
+        "content": "Could you help me with that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "help",
+          "me",
+          "with",
+          "that?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/10.mp3",
+        "timeStart": 42.35,
+        "timeEnd": 44.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66685/list"
+      },
+      {
+        "id": 66686,
+        "position": 11,
+        "content": "Certainly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly."
+        ],
+        "solution": [
+          [
+            "Certainly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/11.mp3",
+        "timeStart": 44.95,
+        "timeEnd": 46.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66686/list"
+      },
+      {
+        "id": 66687,
+        "position": 12,
+        "content": "There's another return flight with one stop at 8 am.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "another",
+          "return",
+          "flight",
+          "with",
+          [
+            "one",
+            "1"
+          ],
+          "stop",
+          "at",
+          [
+            "8",
+            "eight"
+          ],
+          "am."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "another"
+          ],
+          [
+            "return"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "with"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "at"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "am."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/12.mp3",
+        "timeStart": 46.42,
+        "timeEnd": 50.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66687/list"
+      },
+      {
+        "id": 66688,
+        "position": 13,
+        "content": "Uh... Let's see if there are any seats available.",
+        "defaultInput": "Uh… ",
+        "jsonContent": [
+          "Uh...",
+          "Let's",
+          "see",
+          "if",
+          "there",
+          "are",
+          "any",
+          "seats",
+          "available."
+        ],
+        "solution": [
+          [
+            "Uh..."
+          ],
+          [
+            "Let's"
+          ],
+          [
+            "see"
+          ],
+          [
+            "if"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "any"
+          ],
+          [
+            "seats"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-193-2024-09-14-18-38-22/13.mp3",
+        "timeStart": 50.78,
+        "timeEnd": 55.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66688/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66676": {
+      "id": 2589114,
+      "text": "Chào buổi sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "66677": {
+      "id": 2589115,
+      "text": "Tôi muốn mua một vé khứ hồi hạng phổ thông từ Đài Bắc đến Vancouver.",
+      "author": "ChatGPT4.1"
+    },
+    "66678": {
+      "id": 2589116,
+      "text": "Tôi sẽ khởi hành vào ngày 24 tháng 8 và trở về vào ngày 7 tháng 9.",
+      "author": "ChatGPT4.1"
+    },
+    "66679": {
+      "id": 2589117,
+      "text": "Có một chuyến bay thẳng đến Vancouver vào lúc 11:30 tối hôm đó,",
+      "author": "ChatGPT4.1"
+    },
+    "66680": {
+      "id": 2589118,
+      "text": "và có chuyến bay trở về Đài Bắc lúc 2 giờ sáng ngày 6.",
+      "author": "ChatGPT4.1"
+    },
+    "66681": {
+      "id": 2589119,
+      "text": "Bạn sẽ đến Đài Bắc vào ngày 7.",
+      "author": "ChatGPT4.1"
+    },
+    "66682": {
+      "id": 2589120,
+      "text": "Có lựa chọn khởi hành nào khác không?",
+      "author": "ChatGPT4.1"
+    },
+    "66683": {
+      "id": 2589121,
+      "text": "Tôi không thích bay những chuyến khởi hành sau nửa đêm.",
+      "author": "ChatGPT4.1"
+    },
+    "66684": {
+      "id": 2589122,
+      "text": "Ồ, tôi quên nói rằng tôi muốn dùng điểm tích lũy bay thường xuyên để mua vé.",
+      "author": "ChatGPT4.1"
+    },
+    "66685": {
+      "id": 2589123,
+      "text": "Bạn có thể giúp tôi chuyện đó không?",
+      "author": "ChatGPT4.1"
+    },
+    "66686": {
+      "id": 2589124,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "66687": {
+      "id": 2589125,
+      "text": "Có một chuyến bay trở về khác với một điểm dừng lúc 8 giờ sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "66688": {
+      "id": 2589126,
+      "text": "Ờ... Để xem còn chỗ trống không nhé.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "summary": {
+    "id": 443,
+    "name": "45. A Cup of Coffee",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 45,
+    "totalChallenges": 14,
+    "groupId": 104,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/443",
+  "detail": {
+    "id": 443,
+    "lessonName": "45. A Cup of Coffee",
+    "name": "45. A Cup of Coffee",
+    "position": 45,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/0-45-a-cup-of-coffee.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18261,
+        "position": 1,
+        "content": "Can I get you something to drink?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "I",
+          "get",
+          "you",
+          "something",
+          "to",
+          "drink?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "get"
+          ],
+          [
+            "you"
+          ],
+          [
+            "something"
+          ],
+          [
+            "to"
+          ],
+          [
+            "drink?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/1.mp3",
+        "timeStart": 2.97,
+        "timeEnd": 4.44,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18261/list"
+      },
+      {
+        "id": 18262,
+        "position": 2,
+        "content": "A cup of coffee, please.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "cup",
+          "of",
+          "coffee,",
+          "please."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "cup"
+          ],
+          [
+            "of"
+          ],
+          [
+            "coffee,"
+          ],
+          [
+            "please."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/2.mp3",
+        "timeStart": 4.44,
+        "timeEnd": 5.8,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18262/list"
+      },
+      {
+        "id": 18263,
+        "position": 3,
+        "content": "With milk and sugar?",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "milk",
+          "and",
+          "sugar?"
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "milk"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sugar?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/3.mp3",
+        "timeStart": 5.8,
+        "timeEnd": 7.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18263/list"
+      },
+      {
+        "id": 18264,
+        "position": 4,
+        "content": "A little milk, but no sugar.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "little",
+          "milk,",
+          "but",
+          "no",
+          "sugar."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "little"
+          ],
+          [
+            "milk,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "no"
+          ],
+          [
+            "sugar."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/4.mp3",
+        "timeStart": 7.15,
+        "timeEnd": 8.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18264/list"
+      },
+      {
+        "id": 18265,
+        "position": 5,
+        "content": "I never drink coffee at night.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "never",
+          "drink",
+          "coffee",
+          "at",
+          "night."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "never"
+          ],
+          [
+            "drink"
+          ],
+          [
+            "coffee"
+          ],
+          [
+            "at"
+          ],
+          [
+            "night."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/5.mp3",
+        "timeStart": 8.76,
+        "timeEnd": 10.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18265/list"
+      },
+      {
+        "id": 18266,
+        "position": 6,
+        "content": "Why not?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why",
+          "not?"
+        ],
+        "solution": [
+          [
+            "Why"
+          ],
+          [
+            "not?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/6.mp3",
+        "timeStart": 10.62,
+        "timeEnd": 11.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18266/list"
+      },
+      {
+        "id": 18267,
+        "position": 7,
+        "content": "It keeps me awake.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "keeps",
+          "me",
+          "awake."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "keeps"
+          ],
+          [
+            "me"
+          ],
+          [
+            "awake."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/7.mp3",
+        "timeStart": 11.27,
+        "timeEnd": 12.58,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18267/list"
+      },
+      {
+        "id": 18268,
+        "position": 8,
+        "content": "What do you drink with supper?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "do",
+          "you",
+          "drink",
+          "with",
+          "supper?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "drink"
+          ],
+          [
+            "with"
+          ],
+          [
+            "supper?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/8.mp3",
+        "timeStart": 12.93,
+        "timeEnd": 14.29,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/18268/list"
+      },
+      {
+        "id": 18269,
+        "position": 9,
+        "content": "Tea, it helps me relax.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Tea,",
+          "it",
+          "helps",
+          "me",
+          "relax."
+        ],
+        "solution": [
+          [
+            "Tea,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "helps"
+          ],
+          [
+            "me"
+          ],
+          [
+            "relax."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/9.mp3",
+        "timeStart": 14.37,
+        "timeEnd": 16.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18269/list"
+      },
+      {
+        "id": 18270,
+        "position": 10,
+        "content": "I don't like tea.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "like",
+          "tea."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "like"
+          ],
+          [
+            "tea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/10.mp3",
+        "timeStart": 16.68,
+        "timeEnd": 17.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18270/list"
+      },
+      {
+        "id": 18271,
+        "position": 11,
+        "content": "There are so many kinds of tea;",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "so",
+          "many",
+          "kinds",
+          "of",
+          "tea;"
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "so"
+          ],
+          [
+            "many"
+          ],
+          [
+            "kinds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "tea;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/11.mp3",
+        "timeStart": 17.78,
+        "timeEnd": 19.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18271/list"
+      },
+      {
+        "id": 18272,
+        "position": 12,
+        "content": "maybe you should shop around and try to find one you like",
+        "defaultInput": "",
+        "jsonContent": [
+          "maybe",
+          "you",
+          "should",
+          "shop",
+          "around",
+          "and",
+          "try",
+          "to",
+          "find",
+          [
+            "one",
+            "1"
+          ],
+          "you",
+          "like"
+        ],
+        "solution": [
+          [
+            "maybe"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "shop"
+          ],
+          [
+            "around"
+          ],
+          [
+            "and"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/12.mp3",
+        "timeStart": 19.74,
+        "timeEnd": 23.5,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18272/list"
+      },
+      {
+        "id": 18273,
+        "position": 13,
+        "content": "because coffee is bad for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "coffee",
+          "is",
+          "bad",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "coffee"
+          ],
+          [
+            "is"
+          ],
+          [
+            "bad"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/13.mp3",
+        "timeStart": 23.5,
+        "timeEnd": 25.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18273/list"
+      },
+      {
+        "id": 18274,
+        "position": 14,
+        "content": "That's a good idea.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "a",
+          "good",
+          "idea."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "idea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/45-a-cup-of-coffee-2022-03-07-21-20-04/14.mp3",
+        "timeStart": 25.63,
+        "timeEnd": 26.93,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18274/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18262": {
+      "id": 36441,
+      "text": "Làm ơn cho một tách cà phê.",
+      "author": "a user"
+    },
+    "18267": {
+      "id": 36465,
+      "text": "Nó khiến tôi khó ngủ.",
+      "author": "a user"
+    },
+    "18268": {
+      "id": 36471,
+      "text": "Bạn uống gì với bữa ăn tối?",
+      "author": "a user"
+    },
+    "18272": {
+      "id": 36486,
+      "text": "Có thể bạn nên đi tham khảo nhiều loại và thử tìm một loại mà bạn thích.\"",
+      "author": "a user"
+    },
+    "18261": {
+      "id": 2586913,
+      "text": "Tôi có thể lấy cho bạn gì đó để uống không?",
+      "author": "ChatGPT4.1"
+    },
+    "18263": {
+      "id": 2586914,
+      "text": "Với sữa và đường chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "18264": {
+      "id": 2586915,
+      "text": "Một ít sữa thôi, không đường.",
+      "author": "ChatGPT4.1"
+    },
+    "18265": {
+      "id": 2586916,
+      "text": "Tôi không bao giờ uống cà phê vào ban đêm.",
+      "author": "ChatGPT4.1"
+    },
+    "18266": {
+      "id": 2586917,
+      "text": "Tại sao không?",
+      "author": "ChatGPT4.1"
+    },
+    "18269": {
+      "id": 2586918,
+      "text": "Trà, nó giúp tôi thư giãn.",
+      "author": "ChatGPT4.1"
+    },
+    "18270": {
+      "id": 2586919,
+      "text": "Tôi không thích trà.",
+      "author": "ChatGPT4.1"
+    },
+    "18271": {
+      "id": 2586920,
+      "text": "Có rất nhiều loại trà;",
+      "author": "ChatGPT4.1"
+    },
+    "18273": {
+      "id": 2586921,
+      "text": "bởi vì cà phê không tốt cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "18274": {
+      "id": 2586922,
+      "text": "Đó là một ý kiến hay.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

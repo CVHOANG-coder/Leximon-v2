@@ -7153,6 +7153,1521 @@ class UserProfilesCompanion extends UpdateCompanion<UserProfileRow> {
   }
 }
 
+class $ListeningLessonProgressModelsTable extends ListeningLessonProgressModels
+    with
+        TableInfo<
+          $ListeningLessonProgressModelsTable,
+          ListeningLessonProgressRow
+        > {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ListeningLessonProgressModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _courseIdMeta = const VerificationMeta(
+    'courseId',
+  );
+  @override
+  late final GeneratedColumn<int> courseId = GeneratedColumn<int>(
+    'course_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _lessonIdMeta = const VerificationMeta(
+    'lessonId',
+  );
+  @override
+  late final GeneratedColumn<int> lessonId = GeneratedColumn<int>(
+    'lesson_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _currentChallengePositionMeta =
+      const VerificationMeta('currentChallengePosition');
+  @override
+  late final GeneratedColumn<int> currentChallengePosition =
+      GeneratedColumn<int>(
+        'current_challenge_position',
+        aliasedName,
+        false,
+        type: DriftSqlType.int,
+        requiredDuringInsert: false,
+        defaultValue: const Constant(1),
+      );
+  static const VerificationMeta _completedChallengesMeta =
+      const VerificationMeta('completedChallenges');
+  @override
+  late final GeneratedColumn<int> completedChallenges = GeneratedColumn<int>(
+    'completed_challenges',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _totalChallengesMeta = const VerificationMeta(
+    'totalChallenges',
+  );
+  @override
+  late final GeneratedColumn<int> totalChallenges = GeneratedColumn<int>(
+    'total_challenges',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _statusMeta = const VerificationMeta('status');
+  @override
+  late final GeneratedColumn<int> status = GeneratedColumn<int>(
+    'status',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _startedAtMeta = const VerificationMeta(
+    'startedAt',
+  );
+  @override
+  late final GeneratedColumn<int> startedAt = GeneratedColumn<int>(
+    'started_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<int> updatedAt = GeneratedColumn<int>(
+    'updated_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _completedAtMeta = const VerificationMeta(
+    'completedAt',
+  );
+  @override
+  late final GeneratedColumn<int> completedAt = GeneratedColumn<int>(
+    'completed_at',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _activeMillisecondsMeta =
+      const VerificationMeta('activeMilliseconds');
+  @override
+  late final GeneratedColumn<int> activeMilliseconds = GeneratedColumn<int>(
+    'active_milliseconds',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    courseId,
+    lessonId,
+    currentChallengePosition,
+    completedChallenges,
+    totalChallenges,
+    status,
+    startedAt,
+    updatedAt,
+    completedAt,
+    activeMilliseconds,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'listening_lesson_progress_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ListeningLessonProgressRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('course_id')) {
+      context.handle(
+        _courseIdMeta,
+        courseId.isAcceptableOrUnknown(data['course_id']!, _courseIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_courseIdMeta);
+    }
+    if (data.containsKey('lesson_id')) {
+      context.handle(
+        _lessonIdMeta,
+        lessonId.isAcceptableOrUnknown(data['lesson_id']!, _lessonIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_lessonIdMeta);
+    }
+    if (data.containsKey('current_challenge_position')) {
+      context.handle(
+        _currentChallengePositionMeta,
+        currentChallengePosition.isAcceptableOrUnknown(
+          data['current_challenge_position']!,
+          _currentChallengePositionMeta,
+        ),
+      );
+    }
+    if (data.containsKey('completed_challenges')) {
+      context.handle(
+        _completedChallengesMeta,
+        completedChallenges.isAcceptableOrUnknown(
+          data['completed_challenges']!,
+          _completedChallengesMeta,
+        ),
+      );
+    }
+    if (data.containsKey('total_challenges')) {
+      context.handle(
+        _totalChallengesMeta,
+        totalChallenges.isAcceptableOrUnknown(
+          data['total_challenges']!,
+          _totalChallengesMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_totalChallengesMeta);
+    }
+    if (data.containsKey('status')) {
+      context.handle(
+        _statusMeta,
+        status.isAcceptableOrUnknown(data['status']!, _statusMeta),
+      );
+    }
+    if (data.containsKey('started_at')) {
+      context.handle(
+        _startedAtMeta,
+        startedAt.isAcceptableOrUnknown(data['started_at']!, _startedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_startedAtMeta);
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_updatedAtMeta);
+    }
+    if (data.containsKey('completed_at')) {
+      context.handle(
+        _completedAtMeta,
+        completedAt.isAcceptableOrUnknown(
+          data['completed_at']!,
+          _completedAtMeta,
+        ),
+      );
+    }
+    if (data.containsKey('active_milliseconds')) {
+      context.handle(
+        _activeMillisecondsMeta,
+        activeMilliseconds.isAcceptableOrUnknown(
+          data['active_milliseconds']!,
+          _activeMillisecondsMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {courseId, lessonId};
+  @override
+  ListeningLessonProgressRow map(
+    Map<String, dynamic> data, {
+    String? tablePrefix,
+  }) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ListeningLessonProgressRow(
+      courseId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}course_id'],
+      )!,
+      lessonId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}lesson_id'],
+      )!,
+      currentChallengePosition: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}current_challenge_position'],
+      )!,
+      completedChallenges: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}completed_challenges'],
+      )!,
+      totalChallenges: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}total_challenges'],
+      )!,
+      status: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}status'],
+      )!,
+      startedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}started_at'],
+      )!,
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}updated_at'],
+      )!,
+      completedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}completed_at'],
+      ),
+      activeMilliseconds: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}active_milliseconds'],
+      )!,
+    );
+  }
+
+  @override
+  $ListeningLessonProgressModelsTable createAlias(String alias) {
+    return $ListeningLessonProgressModelsTable(attachedDatabase, alias);
+  }
+}
+
+class ListeningLessonProgressRow extends DataClass
+    implements Insertable<ListeningLessonProgressRow> {
+  final int courseId;
+  final int lessonId;
+  final int currentChallengePosition;
+  final int completedChallenges;
+  final int totalChallenges;
+  final int status;
+  final int startedAt;
+  final int updatedAt;
+  final int? completedAt;
+  final int activeMilliseconds;
+  const ListeningLessonProgressRow({
+    required this.courseId,
+    required this.lessonId,
+    required this.currentChallengePosition,
+    required this.completedChallenges,
+    required this.totalChallenges,
+    required this.status,
+    required this.startedAt,
+    required this.updatedAt,
+    this.completedAt,
+    required this.activeMilliseconds,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['course_id'] = Variable<int>(courseId);
+    map['lesson_id'] = Variable<int>(lessonId);
+    map['current_challenge_position'] = Variable<int>(currentChallengePosition);
+    map['completed_challenges'] = Variable<int>(completedChallenges);
+    map['total_challenges'] = Variable<int>(totalChallenges);
+    map['status'] = Variable<int>(status);
+    map['started_at'] = Variable<int>(startedAt);
+    map['updated_at'] = Variable<int>(updatedAt);
+    if (!nullToAbsent || completedAt != null) {
+      map['completed_at'] = Variable<int>(completedAt);
+    }
+    map['active_milliseconds'] = Variable<int>(activeMilliseconds);
+    return map;
+  }
+
+  ListeningLessonProgressModelsCompanion toCompanion(bool nullToAbsent) {
+    return ListeningLessonProgressModelsCompanion(
+      courseId: Value(courseId),
+      lessonId: Value(lessonId),
+      currentChallengePosition: Value(currentChallengePosition),
+      completedChallenges: Value(completedChallenges),
+      totalChallenges: Value(totalChallenges),
+      status: Value(status),
+      startedAt: Value(startedAt),
+      updatedAt: Value(updatedAt),
+      completedAt: completedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(completedAt),
+      activeMilliseconds: Value(activeMilliseconds),
+    );
+  }
+
+  factory ListeningLessonProgressRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ListeningLessonProgressRow(
+      courseId: serializer.fromJson<int>(json['courseId']),
+      lessonId: serializer.fromJson<int>(json['lessonId']),
+      currentChallengePosition: serializer.fromJson<int>(
+        json['currentChallengePosition'],
+      ),
+      completedChallenges: serializer.fromJson<int>(
+        json['completedChallenges'],
+      ),
+      totalChallenges: serializer.fromJson<int>(json['totalChallenges']),
+      status: serializer.fromJson<int>(json['status']),
+      startedAt: serializer.fromJson<int>(json['startedAt']),
+      updatedAt: serializer.fromJson<int>(json['updatedAt']),
+      completedAt: serializer.fromJson<int?>(json['completedAt']),
+      activeMilliseconds: serializer.fromJson<int>(json['activeMilliseconds']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'courseId': serializer.toJson<int>(courseId),
+      'lessonId': serializer.toJson<int>(lessonId),
+      'currentChallengePosition': serializer.toJson<int>(
+        currentChallengePosition,
+      ),
+      'completedChallenges': serializer.toJson<int>(completedChallenges),
+      'totalChallenges': serializer.toJson<int>(totalChallenges),
+      'status': serializer.toJson<int>(status),
+      'startedAt': serializer.toJson<int>(startedAt),
+      'updatedAt': serializer.toJson<int>(updatedAt),
+      'completedAt': serializer.toJson<int?>(completedAt),
+      'activeMilliseconds': serializer.toJson<int>(activeMilliseconds),
+    };
+  }
+
+  ListeningLessonProgressRow copyWith({
+    int? courseId,
+    int? lessonId,
+    int? currentChallengePosition,
+    int? completedChallenges,
+    int? totalChallenges,
+    int? status,
+    int? startedAt,
+    int? updatedAt,
+    Value<int?> completedAt = const Value.absent(),
+    int? activeMilliseconds,
+  }) => ListeningLessonProgressRow(
+    courseId: courseId ?? this.courseId,
+    lessonId: lessonId ?? this.lessonId,
+    currentChallengePosition:
+        currentChallengePosition ?? this.currentChallengePosition,
+    completedChallenges: completedChallenges ?? this.completedChallenges,
+    totalChallenges: totalChallenges ?? this.totalChallenges,
+    status: status ?? this.status,
+    startedAt: startedAt ?? this.startedAt,
+    updatedAt: updatedAt ?? this.updatedAt,
+    completedAt: completedAt.present ? completedAt.value : this.completedAt,
+    activeMilliseconds: activeMilliseconds ?? this.activeMilliseconds,
+  );
+  ListeningLessonProgressRow copyWithCompanion(
+    ListeningLessonProgressModelsCompanion data,
+  ) {
+    return ListeningLessonProgressRow(
+      courseId: data.courseId.present ? data.courseId.value : this.courseId,
+      lessonId: data.lessonId.present ? data.lessonId.value : this.lessonId,
+      currentChallengePosition: data.currentChallengePosition.present
+          ? data.currentChallengePosition.value
+          : this.currentChallengePosition,
+      completedChallenges: data.completedChallenges.present
+          ? data.completedChallenges.value
+          : this.completedChallenges,
+      totalChallenges: data.totalChallenges.present
+          ? data.totalChallenges.value
+          : this.totalChallenges,
+      status: data.status.present ? data.status.value : this.status,
+      startedAt: data.startedAt.present ? data.startedAt.value : this.startedAt,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+      completedAt: data.completedAt.present
+          ? data.completedAt.value
+          : this.completedAt,
+      activeMilliseconds: data.activeMilliseconds.present
+          ? data.activeMilliseconds.value
+          : this.activeMilliseconds,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ListeningLessonProgressRow(')
+          ..write('courseId: $courseId, ')
+          ..write('lessonId: $lessonId, ')
+          ..write('currentChallengePosition: $currentChallengePosition, ')
+          ..write('completedChallenges: $completedChallenges, ')
+          ..write('totalChallenges: $totalChallenges, ')
+          ..write('status: $status, ')
+          ..write('startedAt: $startedAt, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('completedAt: $completedAt, ')
+          ..write('activeMilliseconds: $activeMilliseconds')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    courseId,
+    lessonId,
+    currentChallengePosition,
+    completedChallenges,
+    totalChallenges,
+    status,
+    startedAt,
+    updatedAt,
+    completedAt,
+    activeMilliseconds,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ListeningLessonProgressRow &&
+          other.courseId == this.courseId &&
+          other.lessonId == this.lessonId &&
+          other.currentChallengePosition == this.currentChallengePosition &&
+          other.completedChallenges == this.completedChallenges &&
+          other.totalChallenges == this.totalChallenges &&
+          other.status == this.status &&
+          other.startedAt == this.startedAt &&
+          other.updatedAt == this.updatedAt &&
+          other.completedAt == this.completedAt &&
+          other.activeMilliseconds == this.activeMilliseconds);
+}
+
+class ListeningLessonProgressModelsCompanion
+    extends UpdateCompanion<ListeningLessonProgressRow> {
+  final Value<int> courseId;
+  final Value<int> lessonId;
+  final Value<int> currentChallengePosition;
+  final Value<int> completedChallenges;
+  final Value<int> totalChallenges;
+  final Value<int> status;
+  final Value<int> startedAt;
+  final Value<int> updatedAt;
+  final Value<int?> completedAt;
+  final Value<int> activeMilliseconds;
+  final Value<int> rowid;
+  const ListeningLessonProgressModelsCompanion({
+    this.courseId = const Value.absent(),
+    this.lessonId = const Value.absent(),
+    this.currentChallengePosition = const Value.absent(),
+    this.completedChallenges = const Value.absent(),
+    this.totalChallenges = const Value.absent(),
+    this.status = const Value.absent(),
+    this.startedAt = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+    this.completedAt = const Value.absent(),
+    this.activeMilliseconds = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  ListeningLessonProgressModelsCompanion.insert({
+    required int courseId,
+    required int lessonId,
+    this.currentChallengePosition = const Value.absent(),
+    this.completedChallenges = const Value.absent(),
+    required int totalChallenges,
+    this.status = const Value.absent(),
+    required int startedAt,
+    required int updatedAt,
+    this.completedAt = const Value.absent(),
+    this.activeMilliseconds = const Value.absent(),
+    this.rowid = const Value.absent(),
+  }) : courseId = Value(courseId),
+       lessonId = Value(lessonId),
+       totalChallenges = Value(totalChallenges),
+       startedAt = Value(startedAt),
+       updatedAt = Value(updatedAt);
+  static Insertable<ListeningLessonProgressRow> custom({
+    Expression<int>? courseId,
+    Expression<int>? lessonId,
+    Expression<int>? currentChallengePosition,
+    Expression<int>? completedChallenges,
+    Expression<int>? totalChallenges,
+    Expression<int>? status,
+    Expression<int>? startedAt,
+    Expression<int>? updatedAt,
+    Expression<int>? completedAt,
+    Expression<int>? activeMilliseconds,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (courseId != null) 'course_id': courseId,
+      if (lessonId != null) 'lesson_id': lessonId,
+      if (currentChallengePosition != null)
+        'current_challenge_position': currentChallengePosition,
+      if (completedChallenges != null)
+        'completed_challenges': completedChallenges,
+      if (totalChallenges != null) 'total_challenges': totalChallenges,
+      if (status != null) 'status': status,
+      if (startedAt != null) 'started_at': startedAt,
+      if (updatedAt != null) 'updated_at': updatedAt,
+      if (completedAt != null) 'completed_at': completedAt,
+      if (activeMilliseconds != null) 'active_milliseconds': activeMilliseconds,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  ListeningLessonProgressModelsCompanion copyWith({
+    Value<int>? courseId,
+    Value<int>? lessonId,
+    Value<int>? currentChallengePosition,
+    Value<int>? completedChallenges,
+    Value<int>? totalChallenges,
+    Value<int>? status,
+    Value<int>? startedAt,
+    Value<int>? updatedAt,
+    Value<int?>? completedAt,
+    Value<int>? activeMilliseconds,
+    Value<int>? rowid,
+  }) {
+    return ListeningLessonProgressModelsCompanion(
+      courseId: courseId ?? this.courseId,
+      lessonId: lessonId ?? this.lessonId,
+      currentChallengePosition:
+          currentChallengePosition ?? this.currentChallengePosition,
+      completedChallenges: completedChallenges ?? this.completedChallenges,
+      totalChallenges: totalChallenges ?? this.totalChallenges,
+      status: status ?? this.status,
+      startedAt: startedAt ?? this.startedAt,
+      updatedAt: updatedAt ?? this.updatedAt,
+      completedAt: completedAt ?? this.completedAt,
+      activeMilliseconds: activeMilliseconds ?? this.activeMilliseconds,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (courseId.present) {
+      map['course_id'] = Variable<int>(courseId.value);
+    }
+    if (lessonId.present) {
+      map['lesson_id'] = Variable<int>(lessonId.value);
+    }
+    if (currentChallengePosition.present) {
+      map['current_challenge_position'] = Variable<int>(
+        currentChallengePosition.value,
+      );
+    }
+    if (completedChallenges.present) {
+      map['completed_challenges'] = Variable<int>(completedChallenges.value);
+    }
+    if (totalChallenges.present) {
+      map['total_challenges'] = Variable<int>(totalChallenges.value);
+    }
+    if (status.present) {
+      map['status'] = Variable<int>(status.value);
+    }
+    if (startedAt.present) {
+      map['started_at'] = Variable<int>(startedAt.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<int>(updatedAt.value);
+    }
+    if (completedAt.present) {
+      map['completed_at'] = Variable<int>(completedAt.value);
+    }
+    if (activeMilliseconds.present) {
+      map['active_milliseconds'] = Variable<int>(activeMilliseconds.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ListeningLessonProgressModelsCompanion(')
+          ..write('courseId: $courseId, ')
+          ..write('lessonId: $lessonId, ')
+          ..write('currentChallengePosition: $currentChallengePosition, ')
+          ..write('completedChallenges: $completedChallenges, ')
+          ..write('totalChallenges: $totalChallenges, ')
+          ..write('status: $status, ')
+          ..write('startedAt: $startedAt, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('completedAt: $completedAt, ')
+          ..write('activeMilliseconds: $activeMilliseconds, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $ListeningChallengeProgressModelsTable
+    extends ListeningChallengeProgressModels
+    with
+        TableInfo<
+          $ListeningChallengeProgressModelsTable,
+          ListeningChallengeProgressRow
+        > {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ListeningChallengeProgressModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _courseIdMeta = const VerificationMeta(
+    'courseId',
+  );
+  @override
+  late final GeneratedColumn<int> courseId = GeneratedColumn<int>(
+    'course_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _lessonIdMeta = const VerificationMeta(
+    'lessonId',
+  );
+  @override
+  late final GeneratedColumn<int> lessonId = GeneratedColumn<int>(
+    'lesson_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _challengeIdMeta = const VerificationMeta(
+    'challengeId',
+  );
+  @override
+  late final GeneratedColumn<int> challengeId = GeneratedColumn<int>(
+    'challenge_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _positionMeta = const VerificationMeta(
+    'position',
+  );
+  @override
+  late final GeneratedColumn<int> position = GeneratedColumn<int>(
+    'position',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _isCompletedMeta = const VerificationMeta(
+    'isCompleted',
+  );
+  @override
+  late final GeneratedColumn<bool> isCompleted = GeneratedColumn<bool>(
+    'is_completed',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("is_completed" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  static const VerificationMeta _isSkippedMeta = const VerificationMeta(
+    'isSkipped',
+  );
+  @override
+  late final GeneratedColumn<bool> isSkipped = GeneratedColumn<bool>(
+    'is_skipped',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("is_skipped" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  static const VerificationMeta _attemptCountMeta = const VerificationMeta(
+    'attemptCount',
+  );
+  @override
+  late final GeneratedColumn<int> attemptCount = GeneratedColumn<int>(
+    'attempt_count',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _lastAnswerMeta = const VerificationMeta(
+    'lastAnswer',
+  );
+  @override
+  late final GeneratedColumn<String> lastAnswer = GeneratedColumn<String>(
+    'last_answer',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<int> updatedAt = GeneratedColumn<int>(
+    'updated_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _completedAtMeta = const VerificationMeta(
+    'completedAt',
+  );
+  @override
+  late final GeneratedColumn<int> completedAt = GeneratedColumn<int>(
+    'completed_at',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    courseId,
+    lessonId,
+    challengeId,
+    position,
+    isCompleted,
+    isSkipped,
+    attemptCount,
+    lastAnswer,
+    updatedAt,
+    completedAt,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'listening_challenge_progress_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ListeningChallengeProgressRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('course_id')) {
+      context.handle(
+        _courseIdMeta,
+        courseId.isAcceptableOrUnknown(data['course_id']!, _courseIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_courseIdMeta);
+    }
+    if (data.containsKey('lesson_id')) {
+      context.handle(
+        _lessonIdMeta,
+        lessonId.isAcceptableOrUnknown(data['lesson_id']!, _lessonIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_lessonIdMeta);
+    }
+    if (data.containsKey('challenge_id')) {
+      context.handle(
+        _challengeIdMeta,
+        challengeId.isAcceptableOrUnknown(
+          data['challenge_id']!,
+          _challengeIdMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_challengeIdMeta);
+    }
+    if (data.containsKey('position')) {
+      context.handle(
+        _positionMeta,
+        position.isAcceptableOrUnknown(data['position']!, _positionMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_positionMeta);
+    }
+    if (data.containsKey('is_completed')) {
+      context.handle(
+        _isCompletedMeta,
+        isCompleted.isAcceptableOrUnknown(
+          data['is_completed']!,
+          _isCompletedMeta,
+        ),
+      );
+    }
+    if (data.containsKey('is_skipped')) {
+      context.handle(
+        _isSkippedMeta,
+        isSkipped.isAcceptableOrUnknown(data['is_skipped']!, _isSkippedMeta),
+      );
+    }
+    if (data.containsKey('attempt_count')) {
+      context.handle(
+        _attemptCountMeta,
+        attemptCount.isAcceptableOrUnknown(
+          data['attempt_count']!,
+          _attemptCountMeta,
+        ),
+      );
+    }
+    if (data.containsKey('last_answer')) {
+      context.handle(
+        _lastAnswerMeta,
+        lastAnswer.isAcceptableOrUnknown(data['last_answer']!, _lastAnswerMeta),
+      );
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_updatedAtMeta);
+    }
+    if (data.containsKey('completed_at')) {
+      context.handle(
+        _completedAtMeta,
+        completedAt.isAcceptableOrUnknown(
+          data['completed_at']!,
+          _completedAtMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {courseId, lessonId, challengeId};
+  @override
+  ListeningChallengeProgressRow map(
+    Map<String, dynamic> data, {
+    String? tablePrefix,
+  }) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ListeningChallengeProgressRow(
+      courseId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}course_id'],
+      )!,
+      lessonId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}lesson_id'],
+      )!,
+      challengeId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}challenge_id'],
+      )!,
+      position: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}position'],
+      )!,
+      isCompleted: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}is_completed'],
+      )!,
+      isSkipped: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}is_skipped'],
+      )!,
+      attemptCount: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}attempt_count'],
+      )!,
+      lastAnswer: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}last_answer'],
+      ),
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}updated_at'],
+      )!,
+      completedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}completed_at'],
+      ),
+    );
+  }
+
+  @override
+  $ListeningChallengeProgressModelsTable createAlias(String alias) {
+    return $ListeningChallengeProgressModelsTable(attachedDatabase, alias);
+  }
+}
+
+class ListeningChallengeProgressRow extends DataClass
+    implements Insertable<ListeningChallengeProgressRow> {
+  final int courseId;
+  final int lessonId;
+  final int challengeId;
+  final int position;
+  final bool isCompleted;
+  final bool isSkipped;
+  final int attemptCount;
+  final String? lastAnswer;
+  final int updatedAt;
+  final int? completedAt;
+  const ListeningChallengeProgressRow({
+    required this.courseId,
+    required this.lessonId,
+    required this.challengeId,
+    required this.position,
+    required this.isCompleted,
+    required this.isSkipped,
+    required this.attemptCount,
+    this.lastAnswer,
+    required this.updatedAt,
+    this.completedAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['course_id'] = Variable<int>(courseId);
+    map['lesson_id'] = Variable<int>(lessonId);
+    map['challenge_id'] = Variable<int>(challengeId);
+    map['position'] = Variable<int>(position);
+    map['is_completed'] = Variable<bool>(isCompleted);
+    map['is_skipped'] = Variable<bool>(isSkipped);
+    map['attempt_count'] = Variable<int>(attemptCount);
+    if (!nullToAbsent || lastAnswer != null) {
+      map['last_answer'] = Variable<String>(lastAnswer);
+    }
+    map['updated_at'] = Variable<int>(updatedAt);
+    if (!nullToAbsent || completedAt != null) {
+      map['completed_at'] = Variable<int>(completedAt);
+    }
+    return map;
+  }
+
+  ListeningChallengeProgressModelsCompanion toCompanion(bool nullToAbsent) {
+    return ListeningChallengeProgressModelsCompanion(
+      courseId: Value(courseId),
+      lessonId: Value(lessonId),
+      challengeId: Value(challengeId),
+      position: Value(position),
+      isCompleted: Value(isCompleted),
+      isSkipped: Value(isSkipped),
+      attemptCount: Value(attemptCount),
+      lastAnswer: lastAnswer == null && nullToAbsent
+          ? const Value.absent()
+          : Value(lastAnswer),
+      updatedAt: Value(updatedAt),
+      completedAt: completedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(completedAt),
+    );
+  }
+
+  factory ListeningChallengeProgressRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ListeningChallengeProgressRow(
+      courseId: serializer.fromJson<int>(json['courseId']),
+      lessonId: serializer.fromJson<int>(json['lessonId']),
+      challengeId: serializer.fromJson<int>(json['challengeId']),
+      position: serializer.fromJson<int>(json['position']),
+      isCompleted: serializer.fromJson<bool>(json['isCompleted']),
+      isSkipped: serializer.fromJson<bool>(json['isSkipped']),
+      attemptCount: serializer.fromJson<int>(json['attemptCount']),
+      lastAnswer: serializer.fromJson<String?>(json['lastAnswer']),
+      updatedAt: serializer.fromJson<int>(json['updatedAt']),
+      completedAt: serializer.fromJson<int?>(json['completedAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'courseId': serializer.toJson<int>(courseId),
+      'lessonId': serializer.toJson<int>(lessonId),
+      'challengeId': serializer.toJson<int>(challengeId),
+      'position': serializer.toJson<int>(position),
+      'isCompleted': serializer.toJson<bool>(isCompleted),
+      'isSkipped': serializer.toJson<bool>(isSkipped),
+      'attemptCount': serializer.toJson<int>(attemptCount),
+      'lastAnswer': serializer.toJson<String?>(lastAnswer),
+      'updatedAt': serializer.toJson<int>(updatedAt),
+      'completedAt': serializer.toJson<int?>(completedAt),
+    };
+  }
+
+  ListeningChallengeProgressRow copyWith({
+    int? courseId,
+    int? lessonId,
+    int? challengeId,
+    int? position,
+    bool? isCompleted,
+    bool? isSkipped,
+    int? attemptCount,
+    Value<String?> lastAnswer = const Value.absent(),
+    int? updatedAt,
+    Value<int?> completedAt = const Value.absent(),
+  }) => ListeningChallengeProgressRow(
+    courseId: courseId ?? this.courseId,
+    lessonId: lessonId ?? this.lessonId,
+    challengeId: challengeId ?? this.challengeId,
+    position: position ?? this.position,
+    isCompleted: isCompleted ?? this.isCompleted,
+    isSkipped: isSkipped ?? this.isSkipped,
+    attemptCount: attemptCount ?? this.attemptCount,
+    lastAnswer: lastAnswer.present ? lastAnswer.value : this.lastAnswer,
+    updatedAt: updatedAt ?? this.updatedAt,
+    completedAt: completedAt.present ? completedAt.value : this.completedAt,
+  );
+  ListeningChallengeProgressRow copyWithCompanion(
+    ListeningChallengeProgressModelsCompanion data,
+  ) {
+    return ListeningChallengeProgressRow(
+      courseId: data.courseId.present ? data.courseId.value : this.courseId,
+      lessonId: data.lessonId.present ? data.lessonId.value : this.lessonId,
+      challengeId: data.challengeId.present
+          ? data.challengeId.value
+          : this.challengeId,
+      position: data.position.present ? data.position.value : this.position,
+      isCompleted: data.isCompleted.present
+          ? data.isCompleted.value
+          : this.isCompleted,
+      isSkipped: data.isSkipped.present ? data.isSkipped.value : this.isSkipped,
+      attemptCount: data.attemptCount.present
+          ? data.attemptCount.value
+          : this.attemptCount,
+      lastAnswer: data.lastAnswer.present
+          ? data.lastAnswer.value
+          : this.lastAnswer,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+      completedAt: data.completedAt.present
+          ? data.completedAt.value
+          : this.completedAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ListeningChallengeProgressRow(')
+          ..write('courseId: $courseId, ')
+          ..write('lessonId: $lessonId, ')
+          ..write('challengeId: $challengeId, ')
+          ..write('position: $position, ')
+          ..write('isCompleted: $isCompleted, ')
+          ..write('isSkipped: $isSkipped, ')
+          ..write('attemptCount: $attemptCount, ')
+          ..write('lastAnswer: $lastAnswer, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('completedAt: $completedAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    courseId,
+    lessonId,
+    challengeId,
+    position,
+    isCompleted,
+    isSkipped,
+    attemptCount,
+    lastAnswer,
+    updatedAt,
+    completedAt,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ListeningChallengeProgressRow &&
+          other.courseId == this.courseId &&
+          other.lessonId == this.lessonId &&
+          other.challengeId == this.challengeId &&
+          other.position == this.position &&
+          other.isCompleted == this.isCompleted &&
+          other.isSkipped == this.isSkipped &&
+          other.attemptCount == this.attemptCount &&
+          other.lastAnswer == this.lastAnswer &&
+          other.updatedAt == this.updatedAt &&
+          other.completedAt == this.completedAt);
+}
+
+class ListeningChallengeProgressModelsCompanion
+    extends UpdateCompanion<ListeningChallengeProgressRow> {
+  final Value<int> courseId;
+  final Value<int> lessonId;
+  final Value<int> challengeId;
+  final Value<int> position;
+  final Value<bool> isCompleted;
+  final Value<bool> isSkipped;
+  final Value<int> attemptCount;
+  final Value<String?> lastAnswer;
+  final Value<int> updatedAt;
+  final Value<int?> completedAt;
+  final Value<int> rowid;
+  const ListeningChallengeProgressModelsCompanion({
+    this.courseId = const Value.absent(),
+    this.lessonId = const Value.absent(),
+    this.challengeId = const Value.absent(),
+    this.position = const Value.absent(),
+    this.isCompleted = const Value.absent(),
+    this.isSkipped = const Value.absent(),
+    this.attemptCount = const Value.absent(),
+    this.lastAnswer = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+    this.completedAt = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  ListeningChallengeProgressModelsCompanion.insert({
+    required int courseId,
+    required int lessonId,
+    required int challengeId,
+    required int position,
+    this.isCompleted = const Value.absent(),
+    this.isSkipped = const Value.absent(),
+    this.attemptCount = const Value.absent(),
+    this.lastAnswer = const Value.absent(),
+    required int updatedAt,
+    this.completedAt = const Value.absent(),
+    this.rowid = const Value.absent(),
+  }) : courseId = Value(courseId),
+       lessonId = Value(lessonId),
+       challengeId = Value(challengeId),
+       position = Value(position),
+       updatedAt = Value(updatedAt);
+  static Insertable<ListeningChallengeProgressRow> custom({
+    Expression<int>? courseId,
+    Expression<int>? lessonId,
+    Expression<int>? challengeId,
+    Expression<int>? position,
+    Expression<bool>? isCompleted,
+    Expression<bool>? isSkipped,
+    Expression<int>? attemptCount,
+    Expression<String>? lastAnswer,
+    Expression<int>? updatedAt,
+    Expression<int>? completedAt,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (courseId != null) 'course_id': courseId,
+      if (lessonId != null) 'lesson_id': lessonId,
+      if (challengeId != null) 'challenge_id': challengeId,
+      if (position != null) 'position': position,
+      if (isCompleted != null) 'is_completed': isCompleted,
+      if (isSkipped != null) 'is_skipped': isSkipped,
+      if (attemptCount != null) 'attempt_count': attemptCount,
+      if (lastAnswer != null) 'last_answer': lastAnswer,
+      if (updatedAt != null) 'updated_at': updatedAt,
+      if (completedAt != null) 'completed_at': completedAt,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  ListeningChallengeProgressModelsCompanion copyWith({
+    Value<int>? courseId,
+    Value<int>? lessonId,
+    Value<int>? challengeId,
+    Value<int>? position,
+    Value<bool>? isCompleted,
+    Value<bool>? isSkipped,
+    Value<int>? attemptCount,
+    Value<String?>? lastAnswer,
+    Value<int>? updatedAt,
+    Value<int?>? completedAt,
+    Value<int>? rowid,
+  }) {
+    return ListeningChallengeProgressModelsCompanion(
+      courseId: courseId ?? this.courseId,
+      lessonId: lessonId ?? this.lessonId,
+      challengeId: challengeId ?? this.challengeId,
+      position: position ?? this.position,
+      isCompleted: isCompleted ?? this.isCompleted,
+      isSkipped: isSkipped ?? this.isSkipped,
+      attemptCount: attemptCount ?? this.attemptCount,
+      lastAnswer: lastAnswer ?? this.lastAnswer,
+      updatedAt: updatedAt ?? this.updatedAt,
+      completedAt: completedAt ?? this.completedAt,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (courseId.present) {
+      map['course_id'] = Variable<int>(courseId.value);
+    }
+    if (lessonId.present) {
+      map['lesson_id'] = Variable<int>(lessonId.value);
+    }
+    if (challengeId.present) {
+      map['challenge_id'] = Variable<int>(challengeId.value);
+    }
+    if (position.present) {
+      map['position'] = Variable<int>(position.value);
+    }
+    if (isCompleted.present) {
+      map['is_completed'] = Variable<bool>(isCompleted.value);
+    }
+    if (isSkipped.present) {
+      map['is_skipped'] = Variable<bool>(isSkipped.value);
+    }
+    if (attemptCount.present) {
+      map['attempt_count'] = Variable<int>(attemptCount.value);
+    }
+    if (lastAnswer.present) {
+      map['last_answer'] = Variable<String>(lastAnswer.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<int>(updatedAt.value);
+    }
+    if (completedAt.present) {
+      map['completed_at'] = Variable<int>(completedAt.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ListeningChallengeProgressModelsCompanion(')
+          ..write('courseId: $courseId, ')
+          ..write('lessonId: $lessonId, ')
+          ..write('challengeId: $challengeId, ')
+          ..write('position: $position, ')
+          ..write('isCompleted: $isCompleted, ')
+          ..write('isSkipped: $isSkipped, ')
+          ..write('attemptCount: $attemptCount, ')
+          ..write('lastAnswer: $lastAnswer, ')
+          ..write('updatedAt: $updatedAt, ')
+          ..write('completedAt: $completedAt, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $ListeningPracticeDaysTable extends ListeningPracticeDays
+    with TableInfo<$ListeningPracticeDaysTable, ListeningPracticeDayRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ListeningPracticeDaysTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _dateMeta = const VerificationMeta('date');
+  @override
+  late final GeneratedColumn<int> date = GeneratedColumn<int>(
+    'date',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _activeMillisecondsMeta =
+      const VerificationMeta('activeMilliseconds');
+  @override
+  late final GeneratedColumn<int> activeMilliseconds = GeneratedColumn<int>(
+    'active_milliseconds',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [date, activeMilliseconds];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'listening_practice_days';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ListeningPracticeDayRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('date')) {
+      context.handle(
+        _dateMeta,
+        date.isAcceptableOrUnknown(data['date']!, _dateMeta),
+      );
+    }
+    if (data.containsKey('active_milliseconds')) {
+      context.handle(
+        _activeMillisecondsMeta,
+        activeMilliseconds.isAcceptableOrUnknown(
+          data['active_milliseconds']!,
+          _activeMillisecondsMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {date};
+  @override
+  ListeningPracticeDayRow map(
+    Map<String, dynamic> data, {
+    String? tablePrefix,
+  }) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ListeningPracticeDayRow(
+      date: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}date'],
+      )!,
+      activeMilliseconds: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}active_milliseconds'],
+      )!,
+    );
+  }
+
+  @override
+  $ListeningPracticeDaysTable createAlias(String alias) {
+    return $ListeningPracticeDaysTable(attachedDatabase, alias);
+  }
+}
+
+class ListeningPracticeDayRow extends DataClass
+    implements Insertable<ListeningPracticeDayRow> {
+  /// Local midnight, stored as milliseconds since epoch.
+  final int date;
+  final int activeMilliseconds;
+  const ListeningPracticeDayRow({
+    required this.date,
+    required this.activeMilliseconds,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['date'] = Variable<int>(date);
+    map['active_milliseconds'] = Variable<int>(activeMilliseconds);
+    return map;
+  }
+
+  ListeningPracticeDaysCompanion toCompanion(bool nullToAbsent) {
+    return ListeningPracticeDaysCompanion(
+      date: Value(date),
+      activeMilliseconds: Value(activeMilliseconds),
+    );
+  }
+
+  factory ListeningPracticeDayRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ListeningPracticeDayRow(
+      date: serializer.fromJson<int>(json['date']),
+      activeMilliseconds: serializer.fromJson<int>(json['activeMilliseconds']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'date': serializer.toJson<int>(date),
+      'activeMilliseconds': serializer.toJson<int>(activeMilliseconds),
+    };
+  }
+
+  ListeningPracticeDayRow copyWith({int? date, int? activeMilliseconds}) =>
+      ListeningPracticeDayRow(
+        date: date ?? this.date,
+        activeMilliseconds: activeMilliseconds ?? this.activeMilliseconds,
+      );
+  ListeningPracticeDayRow copyWithCompanion(
+    ListeningPracticeDaysCompanion data,
+  ) {
+    return ListeningPracticeDayRow(
+      date: data.date.present ? data.date.value : this.date,
+      activeMilliseconds: data.activeMilliseconds.present
+          ? data.activeMilliseconds.value
+          : this.activeMilliseconds,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ListeningPracticeDayRow(')
+          ..write('date: $date, ')
+          ..write('activeMilliseconds: $activeMilliseconds')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(date, activeMilliseconds);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ListeningPracticeDayRow &&
+          other.date == this.date &&
+          other.activeMilliseconds == this.activeMilliseconds);
+}
+
+class ListeningPracticeDaysCompanion
+    extends UpdateCompanion<ListeningPracticeDayRow> {
+  final Value<int> date;
+  final Value<int> activeMilliseconds;
+  const ListeningPracticeDaysCompanion({
+    this.date = const Value.absent(),
+    this.activeMilliseconds = const Value.absent(),
+  });
+  ListeningPracticeDaysCompanion.insert({
+    this.date = const Value.absent(),
+    this.activeMilliseconds = const Value.absent(),
+  });
+  static Insertable<ListeningPracticeDayRow> custom({
+    Expression<int>? date,
+    Expression<int>? activeMilliseconds,
+  }) {
+    return RawValuesInsertable({
+      if (date != null) 'date': date,
+      if (activeMilliseconds != null) 'active_milliseconds': activeMilliseconds,
+    });
+  }
+
+  ListeningPracticeDaysCompanion copyWith({
+    Value<int>? date,
+    Value<int>? activeMilliseconds,
+  }) {
+    return ListeningPracticeDaysCompanion(
+      date: date ?? this.date,
+      activeMilliseconds: activeMilliseconds ?? this.activeMilliseconds,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (date.present) {
+      map['date'] = Variable<int>(date.value);
+    }
+    if (activeMilliseconds.present) {
+      map['active_milliseconds'] = Variable<int>(activeMilliseconds.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ListeningPracticeDaysCompanion(')
+          ..write('date: $date, ')
+          ..write('activeMilliseconds: $activeMilliseconds')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -7183,6 +8698,14 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   );
   late final $AppUsageDaysTable appUsageDays = $AppUsageDaysTable(this);
   late final $UserProfilesTable userProfiles = $UserProfilesTable(this);
+  late final $ListeningLessonProgressModelsTable listeningLessonProgressModels =
+      $ListeningLessonProgressModelsTable(this);
+  late final $ListeningChallengeProgressModelsTable
+  listeningChallengeProgressModels = $ListeningChallengeProgressModelsTable(
+    this,
+  );
+  late final $ListeningPracticeDaysTable listeningPracticeDays =
+      $ListeningPracticeDaysTable(this);
   late final Index topicModelEnabledOrder = Index(
     'topic_model_enabled_order',
     'CREATE INDEX topic_model_enabled_order ON TopicModel (is_enabled, "order")',
@@ -7207,6 +8730,14 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     'session_exercise_session_order',
     'CREATE UNIQUE INDEX session_exercise_session_order ON SessionExercise (session_id, order_index)',
   );
+  late final Index listeningLessonProgressStatusUpdated = Index(
+    'listening_lesson_progress_status_updated',
+    'CREATE INDEX listening_lesson_progress_status_updated ON listening_lesson_progress_models (status, updated_at)',
+  );
+  late final Index listeningChallengeProgressLessonPosition = Index(
+    'listening_challenge_progress_lesson_position',
+    'CREATE UNIQUE INDEX listening_challenge_progress_lesson_position ON listening_challenge_progress_models (course_id, lesson_id, position)',
+  );
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -7227,12 +8758,17 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     contentRevisions,
     appUsageDays,
     userProfiles,
+    listeningLessonProgressModels,
+    listeningChallengeProgressModels,
+    listeningPracticeDays,
     topicModelEnabledOrder,
     wordModelTopicEnabled,
     learningProgressRepetitionDate,
     sentenceExposureWord,
     learningSessionStatusStartedAt,
     sessionExerciseSessionOrder,
+    listeningLessonProgressStatusUpdated,
+    listeningChallengeProgressLessonPosition,
   ];
 }
 
@@ -10950,6 +12486,812 @@ typedef $$UserProfilesTableProcessedTableManager =
       UserProfileRow,
       PrefetchHooks Function()
     >;
+typedef $$ListeningLessonProgressModelsTableCreateCompanionBuilder =
+    ListeningLessonProgressModelsCompanion Function({
+      required int courseId,
+      required int lessonId,
+      Value<int> currentChallengePosition,
+      Value<int> completedChallenges,
+      required int totalChallenges,
+      Value<int> status,
+      required int startedAt,
+      required int updatedAt,
+      Value<int?> completedAt,
+      Value<int> activeMilliseconds,
+      Value<int> rowid,
+    });
+typedef $$ListeningLessonProgressModelsTableUpdateCompanionBuilder =
+    ListeningLessonProgressModelsCompanion Function({
+      Value<int> courseId,
+      Value<int> lessonId,
+      Value<int> currentChallengePosition,
+      Value<int> completedChallenges,
+      Value<int> totalChallenges,
+      Value<int> status,
+      Value<int> startedAt,
+      Value<int> updatedAt,
+      Value<int?> completedAt,
+      Value<int> activeMilliseconds,
+      Value<int> rowid,
+    });
+
+class $$ListeningLessonProgressModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $ListeningLessonProgressModelsTable> {
+  $$ListeningLessonProgressModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get courseId => $composableBuilder(
+    column: $table.courseId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get currentChallengePosition => $composableBuilder(
+    column: $table.currentChallengePosition,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get completedChallenges => $composableBuilder(
+    column: $table.completedChallenges,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get totalChallenges => $composableBuilder(
+    column: $table.totalChallenges,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get status => $composableBuilder(
+    column: $table.status,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get startedAt => $composableBuilder(
+    column: $table.startedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get activeMilliseconds => $composableBuilder(
+    column: $table.activeMilliseconds,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$ListeningLessonProgressModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $ListeningLessonProgressModelsTable> {
+  $$ListeningLessonProgressModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get courseId => $composableBuilder(
+    column: $table.courseId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get currentChallengePosition => $composableBuilder(
+    column: $table.currentChallengePosition,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get completedChallenges => $composableBuilder(
+    column: $table.completedChallenges,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get totalChallenges => $composableBuilder(
+    column: $table.totalChallenges,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get status => $composableBuilder(
+    column: $table.status,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get startedAt => $composableBuilder(
+    column: $table.startedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get activeMilliseconds => $composableBuilder(
+    column: $table.activeMilliseconds,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$ListeningLessonProgressModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ListeningLessonProgressModelsTable> {
+  $$ListeningLessonProgressModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get courseId =>
+      $composableBuilder(column: $table.courseId, builder: (column) => column);
+
+  GeneratedColumn<int> get lessonId =>
+      $composableBuilder(column: $table.lessonId, builder: (column) => column);
+
+  GeneratedColumn<int> get currentChallengePosition => $composableBuilder(
+    column: $table.currentChallengePosition,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get completedChallenges => $composableBuilder(
+    column: $table.completedChallenges,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get totalChallenges => $composableBuilder(
+    column: $table.totalChallenges,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get status =>
+      $composableBuilder(column: $table.status, builder: (column) => column);
+
+  GeneratedColumn<int> get startedAt =>
+      $composableBuilder(column: $table.startedAt, builder: (column) => column);
+
+  GeneratedColumn<int> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+
+  GeneratedColumn<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get activeMilliseconds => $composableBuilder(
+    column: $table.activeMilliseconds,
+    builder: (column) => column,
+  );
+}
+
+class $$ListeningLessonProgressModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ListeningLessonProgressModelsTable,
+          ListeningLessonProgressRow,
+          $$ListeningLessonProgressModelsTableFilterComposer,
+          $$ListeningLessonProgressModelsTableOrderingComposer,
+          $$ListeningLessonProgressModelsTableAnnotationComposer,
+          $$ListeningLessonProgressModelsTableCreateCompanionBuilder,
+          $$ListeningLessonProgressModelsTableUpdateCompanionBuilder,
+          (
+            ListeningLessonProgressRow,
+            BaseReferences<
+              _$AppDatabase,
+              $ListeningLessonProgressModelsTable,
+              ListeningLessonProgressRow
+            >,
+          ),
+          ListeningLessonProgressRow,
+          PrefetchHooks Function()
+        > {
+  $$ListeningLessonProgressModelsTableTableManager(
+    _$AppDatabase db,
+    $ListeningLessonProgressModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ListeningLessonProgressModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$ListeningLessonProgressModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$ListeningLessonProgressModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> courseId = const Value.absent(),
+                Value<int> lessonId = const Value.absent(),
+                Value<int> currentChallengePosition = const Value.absent(),
+                Value<int> completedChallenges = const Value.absent(),
+                Value<int> totalChallenges = const Value.absent(),
+                Value<int> status = const Value.absent(),
+                Value<int> startedAt = const Value.absent(),
+                Value<int> updatedAt = const Value.absent(),
+                Value<int?> completedAt = const Value.absent(),
+                Value<int> activeMilliseconds = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ListeningLessonProgressModelsCompanion(
+                courseId: courseId,
+                lessonId: lessonId,
+                currentChallengePosition: currentChallengePosition,
+                completedChallenges: completedChallenges,
+                totalChallenges: totalChallenges,
+                status: status,
+                startedAt: startedAt,
+                updatedAt: updatedAt,
+                completedAt: completedAt,
+                activeMilliseconds: activeMilliseconds,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required int courseId,
+                required int lessonId,
+                Value<int> currentChallengePosition = const Value.absent(),
+                Value<int> completedChallenges = const Value.absent(),
+                required int totalChallenges,
+                Value<int> status = const Value.absent(),
+                required int startedAt,
+                required int updatedAt,
+                Value<int?> completedAt = const Value.absent(),
+                Value<int> activeMilliseconds = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ListeningLessonProgressModelsCompanion.insert(
+                courseId: courseId,
+                lessonId: lessonId,
+                currentChallengePosition: currentChallengePosition,
+                completedChallenges: completedChallenges,
+                totalChallenges: totalChallenges,
+                status: status,
+                startedAt: startedAt,
+                updatedAt: updatedAt,
+                completedAt: completedAt,
+                activeMilliseconds: activeMilliseconds,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$ListeningLessonProgressModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ListeningLessonProgressModelsTable,
+      ListeningLessonProgressRow,
+      $$ListeningLessonProgressModelsTableFilterComposer,
+      $$ListeningLessonProgressModelsTableOrderingComposer,
+      $$ListeningLessonProgressModelsTableAnnotationComposer,
+      $$ListeningLessonProgressModelsTableCreateCompanionBuilder,
+      $$ListeningLessonProgressModelsTableUpdateCompanionBuilder,
+      (
+        ListeningLessonProgressRow,
+        BaseReferences<
+          _$AppDatabase,
+          $ListeningLessonProgressModelsTable,
+          ListeningLessonProgressRow
+        >,
+      ),
+      ListeningLessonProgressRow,
+      PrefetchHooks Function()
+    >;
+typedef $$ListeningChallengeProgressModelsTableCreateCompanionBuilder =
+    ListeningChallengeProgressModelsCompanion Function({
+      required int courseId,
+      required int lessonId,
+      required int challengeId,
+      required int position,
+      Value<bool> isCompleted,
+      Value<bool> isSkipped,
+      Value<int> attemptCount,
+      Value<String?> lastAnswer,
+      required int updatedAt,
+      Value<int?> completedAt,
+      Value<int> rowid,
+    });
+typedef $$ListeningChallengeProgressModelsTableUpdateCompanionBuilder =
+    ListeningChallengeProgressModelsCompanion Function({
+      Value<int> courseId,
+      Value<int> lessonId,
+      Value<int> challengeId,
+      Value<int> position,
+      Value<bool> isCompleted,
+      Value<bool> isSkipped,
+      Value<int> attemptCount,
+      Value<String?> lastAnswer,
+      Value<int> updatedAt,
+      Value<int?> completedAt,
+      Value<int> rowid,
+    });
+
+class $$ListeningChallengeProgressModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $ListeningChallengeProgressModelsTable> {
+  $$ListeningChallengeProgressModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get courseId => $composableBuilder(
+    column: $table.courseId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get challengeId => $composableBuilder(
+    column: $table.challengeId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get position => $composableBuilder(
+    column: $table.position,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get isCompleted => $composableBuilder(
+    column: $table.isCompleted,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get isSkipped => $composableBuilder(
+    column: $table.isSkipped,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get attemptCount => $composableBuilder(
+    column: $table.attemptCount,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get lastAnswer => $composableBuilder(
+    column: $table.lastAnswer,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$ListeningChallengeProgressModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $ListeningChallengeProgressModelsTable> {
+  $$ListeningChallengeProgressModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get courseId => $composableBuilder(
+    column: $table.courseId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get lessonId => $composableBuilder(
+    column: $table.lessonId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get challengeId => $composableBuilder(
+    column: $table.challengeId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get position => $composableBuilder(
+    column: $table.position,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get isCompleted => $composableBuilder(
+    column: $table.isCompleted,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get isSkipped => $composableBuilder(
+    column: $table.isSkipped,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get attemptCount => $composableBuilder(
+    column: $table.attemptCount,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get lastAnswer => $composableBuilder(
+    column: $table.lastAnswer,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$ListeningChallengeProgressModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ListeningChallengeProgressModelsTable> {
+  $$ListeningChallengeProgressModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get courseId =>
+      $composableBuilder(column: $table.courseId, builder: (column) => column);
+
+  GeneratedColumn<int> get lessonId =>
+      $composableBuilder(column: $table.lessonId, builder: (column) => column);
+
+  GeneratedColumn<int> get challengeId => $composableBuilder(
+    column: $table.challengeId,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get position =>
+      $composableBuilder(column: $table.position, builder: (column) => column);
+
+  GeneratedColumn<bool> get isCompleted => $composableBuilder(
+    column: $table.isCompleted,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<bool> get isSkipped =>
+      $composableBuilder(column: $table.isSkipped, builder: (column) => column);
+
+  GeneratedColumn<int> get attemptCount => $composableBuilder(
+    column: $table.attemptCount,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get lastAnswer => $composableBuilder(
+    column: $table.lastAnswer,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+
+  GeneratedColumn<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => column,
+  );
+}
+
+class $$ListeningChallengeProgressModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ListeningChallengeProgressModelsTable,
+          ListeningChallengeProgressRow,
+          $$ListeningChallengeProgressModelsTableFilterComposer,
+          $$ListeningChallengeProgressModelsTableOrderingComposer,
+          $$ListeningChallengeProgressModelsTableAnnotationComposer,
+          $$ListeningChallengeProgressModelsTableCreateCompanionBuilder,
+          $$ListeningChallengeProgressModelsTableUpdateCompanionBuilder,
+          (
+            ListeningChallengeProgressRow,
+            BaseReferences<
+              _$AppDatabase,
+              $ListeningChallengeProgressModelsTable,
+              ListeningChallengeProgressRow
+            >,
+          ),
+          ListeningChallengeProgressRow,
+          PrefetchHooks Function()
+        > {
+  $$ListeningChallengeProgressModelsTableTableManager(
+    _$AppDatabase db,
+    $ListeningChallengeProgressModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ListeningChallengeProgressModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$ListeningChallengeProgressModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$ListeningChallengeProgressModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> courseId = const Value.absent(),
+                Value<int> lessonId = const Value.absent(),
+                Value<int> challengeId = const Value.absent(),
+                Value<int> position = const Value.absent(),
+                Value<bool> isCompleted = const Value.absent(),
+                Value<bool> isSkipped = const Value.absent(),
+                Value<int> attemptCount = const Value.absent(),
+                Value<String?> lastAnswer = const Value.absent(),
+                Value<int> updatedAt = const Value.absent(),
+                Value<int?> completedAt = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ListeningChallengeProgressModelsCompanion(
+                courseId: courseId,
+                lessonId: lessonId,
+                challengeId: challengeId,
+                position: position,
+                isCompleted: isCompleted,
+                isSkipped: isSkipped,
+                attemptCount: attemptCount,
+                lastAnswer: lastAnswer,
+                updatedAt: updatedAt,
+                completedAt: completedAt,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required int courseId,
+                required int lessonId,
+                required int challengeId,
+                required int position,
+                Value<bool> isCompleted = const Value.absent(),
+                Value<bool> isSkipped = const Value.absent(),
+                Value<int> attemptCount = const Value.absent(),
+                Value<String?> lastAnswer = const Value.absent(),
+                required int updatedAt,
+                Value<int?> completedAt = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ListeningChallengeProgressModelsCompanion.insert(
+                courseId: courseId,
+                lessonId: lessonId,
+                challengeId: challengeId,
+                position: position,
+                isCompleted: isCompleted,
+                isSkipped: isSkipped,
+                attemptCount: attemptCount,
+                lastAnswer: lastAnswer,
+                updatedAt: updatedAt,
+                completedAt: completedAt,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$ListeningChallengeProgressModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ListeningChallengeProgressModelsTable,
+      ListeningChallengeProgressRow,
+      $$ListeningChallengeProgressModelsTableFilterComposer,
+      $$ListeningChallengeProgressModelsTableOrderingComposer,
+      $$ListeningChallengeProgressModelsTableAnnotationComposer,
+      $$ListeningChallengeProgressModelsTableCreateCompanionBuilder,
+      $$ListeningChallengeProgressModelsTableUpdateCompanionBuilder,
+      (
+        ListeningChallengeProgressRow,
+        BaseReferences<
+          _$AppDatabase,
+          $ListeningChallengeProgressModelsTable,
+          ListeningChallengeProgressRow
+        >,
+      ),
+      ListeningChallengeProgressRow,
+      PrefetchHooks Function()
+    >;
+typedef $$ListeningPracticeDaysTableCreateCompanionBuilder =
+    ListeningPracticeDaysCompanion Function({
+      Value<int> date,
+      Value<int> activeMilliseconds,
+    });
+typedef $$ListeningPracticeDaysTableUpdateCompanionBuilder =
+    ListeningPracticeDaysCompanion Function({
+      Value<int> date,
+      Value<int> activeMilliseconds,
+    });
+
+class $$ListeningPracticeDaysTableFilterComposer
+    extends Composer<_$AppDatabase, $ListeningPracticeDaysTable> {
+  $$ListeningPracticeDaysTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get date => $composableBuilder(
+    column: $table.date,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get activeMilliseconds => $composableBuilder(
+    column: $table.activeMilliseconds,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$ListeningPracticeDaysTableOrderingComposer
+    extends Composer<_$AppDatabase, $ListeningPracticeDaysTable> {
+  $$ListeningPracticeDaysTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get date => $composableBuilder(
+    column: $table.date,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get activeMilliseconds => $composableBuilder(
+    column: $table.activeMilliseconds,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$ListeningPracticeDaysTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ListeningPracticeDaysTable> {
+  $$ListeningPracticeDaysTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get date =>
+      $composableBuilder(column: $table.date, builder: (column) => column);
+
+  GeneratedColumn<int> get activeMilliseconds => $composableBuilder(
+    column: $table.activeMilliseconds,
+    builder: (column) => column,
+  );
+}
+
+class $$ListeningPracticeDaysTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ListeningPracticeDaysTable,
+          ListeningPracticeDayRow,
+          $$ListeningPracticeDaysTableFilterComposer,
+          $$ListeningPracticeDaysTableOrderingComposer,
+          $$ListeningPracticeDaysTableAnnotationComposer,
+          $$ListeningPracticeDaysTableCreateCompanionBuilder,
+          $$ListeningPracticeDaysTableUpdateCompanionBuilder,
+          (
+            ListeningPracticeDayRow,
+            BaseReferences<
+              _$AppDatabase,
+              $ListeningPracticeDaysTable,
+              ListeningPracticeDayRow
+            >,
+          ),
+          ListeningPracticeDayRow,
+          PrefetchHooks Function()
+        > {
+  $$ListeningPracticeDaysTableTableManager(
+    _$AppDatabase db,
+    $ListeningPracticeDaysTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ListeningPracticeDaysTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$ListeningPracticeDaysTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$ListeningPracticeDaysTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> date = const Value.absent(),
+                Value<int> activeMilliseconds = const Value.absent(),
+              }) => ListeningPracticeDaysCompanion(
+                date: date,
+                activeMilliseconds: activeMilliseconds,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> date = const Value.absent(),
+                Value<int> activeMilliseconds = const Value.absent(),
+              }) => ListeningPracticeDaysCompanion.insert(
+                date: date,
+                activeMilliseconds: activeMilliseconds,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$ListeningPracticeDaysTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ListeningPracticeDaysTable,
+      ListeningPracticeDayRow,
+      $$ListeningPracticeDaysTableFilterComposer,
+      $$ListeningPracticeDaysTableOrderingComposer,
+      $$ListeningPracticeDaysTableAnnotationComposer,
+      $$ListeningPracticeDaysTableCreateCompanionBuilder,
+      $$ListeningPracticeDaysTableUpdateCompanionBuilder,
+      (
+        ListeningPracticeDayRow,
+        BaseReferences<
+          _$AppDatabase,
+          $ListeningPracticeDaysTable,
+          ListeningPracticeDayRow
+        >,
+      ),
+      ListeningPracticeDayRow,
+      PrefetchHooks Function()
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -10998,4 +13340,18 @@ class $AppDatabaseManager {
       $$AppUsageDaysTableTableManager(_db, _db.appUsageDays);
   $$UserProfilesTableTableManager get userProfiles =>
       $$UserProfilesTableTableManager(_db, _db.userProfiles);
+  $$ListeningLessonProgressModelsTableTableManager
+  get listeningLessonProgressModels =>
+      $$ListeningLessonProgressModelsTableTableManager(
+        _db,
+        _db.listeningLessonProgressModels,
+      );
+  $$ListeningChallengeProgressModelsTableTableManager
+  get listeningChallengeProgressModels =>
+      $$ListeningChallengeProgressModelsTableTableManager(
+        _db,
+        _db.listeningChallengeProgressModels,
+      );
+  $$ListeningPracticeDaysTableTableManager get listeningPracticeDays =>
+      $$ListeningPracticeDaysTableTableManager(_db, _db.listeningPracticeDays);
 }

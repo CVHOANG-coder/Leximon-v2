@@ -1,0 +1,236 @@
+{
+  "summary": {
+    "id": 405,
+    "name": "7. Color (2)",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 7,
+    "totalChallenges": 5,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/405",
+  "detail": {
+    "id": 405,
+    "lessonName": "7. Color (2)",
+    "name": "7. Color (2)",
+    "position": 7,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/7-color-2-2022-03-07-20-52-43/0-7-color-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17821,
+        "position": 1,
+        "content": "Excuse me? Is this your umbrella?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Excuse",
+          "me?",
+          "Is",
+          "this",
+          "your",
+          "umbrella?"
+        ],
+        "solution": [
+          [
+            "Excuse"
+          ],
+          [
+            "me?"
+          ],
+          [
+            "Is"
+          ],
+          [
+            "this"
+          ],
+          [
+            "your"
+          ],
+          [
+            "umbrella?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/7-color-2-2022-03-07-20-52-43/1.mp3",
+        "timeStart": 3.08,
+        "timeEnd": 5.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17821/list"
+      },
+      {
+        "id": 17822,
+        "position": 2,
+        "content": "No, it isn't.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "it",
+          "isn't."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "isn't."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/7-color-2-2022-03-07-20-52-43/2.mp3",
+        "timeStart": 5.73,
+        "timeEnd": 7.09,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17822/list"
+      },
+      {
+        "id": 17823,
+        "position": 3,
+        "content": "Are you sure?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "sure?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "sure?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/7-color-2-2022-03-07-20-52-43/3.mp3",
+        "timeStart": 7.09,
+        "timeEnd": 8.24,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/17823/list"
+      },
+      {
+        "id": 17824,
+        "position": 4,
+        "content": "Yes, I am sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I am",
+            "I'm"
+          ],
+          "sure."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/7-color-2-2022-03-07-20-52-43/4.mp3",
+        "timeStart": 8.29,
+        "timeEnd": 9.79,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/17824/list"
+      },
+      {
+        "id": 17825,
+        "position": 5,
+        "content": "That umbrella is brown, and my umbrella is yellow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "umbrella",
+          "is",
+          "brown,",
+          "and",
+          "my",
+          "umbrella",
+          "is",
+          "yellow."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "umbrella"
+          ],
+          [
+            "is"
+          ],
+          [
+            "brown,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "my"
+          ],
+          [
+            "umbrella"
+          ],
+          [
+            "is"
+          ],
+          [
+            "yellow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/7-color-2-2022-03-07-20-52-43/5.mp3",
+        "timeStart": 9.87,
+        "timeEnd": 13.6,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/17825/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17821": {
+      "id": 6367,
+      "text": "Xin lỗi cho tôi hỏi? Đây là cái ô của bạn phải không?",
+      "author": "a user"
+    },
+    "17822": {
+      "id": 6370,
+      "text": "Không, không phải đâu.",
+      "author": "a user"
+    },
+    "17823": {
+      "id": 6372,
+      "text": "Bạn chắc chứ?",
+      "author": "a user"
+    },
+    "17824": {
+      "id": 2584005,
+      "text": "Vâng, tôi chắc chắn.",
+      "author": "ChatGPT4.1"
+    },
+    "17825": {
+      "id": 2584006,
+      "text": "Chiếc ô đó màu nâu, còn ô của tôi màu vàng.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

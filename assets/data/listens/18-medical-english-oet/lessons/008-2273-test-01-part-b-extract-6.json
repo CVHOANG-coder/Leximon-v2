@@ -1,0 +1,682 @@
+{
+  "summary": {
+    "id": 2273,
+    "name": "Test 01 - Part B - Extract 6",
+    "subTitle": "Creatinine Test Discussion",
+    "levelName": "B2",
+    "position": 8,
+    "totalChallenges": 11,
+    "groupId": 131,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2273",
+  "detail": {
+    "id": 2273,
+    "lessonName": "Test 01 - Part B - Extract 6",
+    "name": "Test 01 - Part B - Extract 6",
+    "position": 8,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/0-test-01-part-b-extract-6.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 89773,
+        "position": 1,
+        "content": "I can't see the results of Mr Roberts' last blood test to check creatinine levels.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "see",
+          "the",
+          "results",
+          "of",
+          "Mr",
+          "Roberts'",
+          "last",
+          "blood",
+          "test",
+          "to",
+          "check",
+          "creatinine",
+          "levels."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "results"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "Roberts'"
+          ],
+          [
+            "last"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "test"
+          ],
+          [
+            "to"
+          ],
+          [
+            "check"
+          ],
+          [
+            "creatinine"
+          ],
+          [
+            "levels."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/1.mp3",
+        "timeStart": 0.51,
+        "timeEnd": 5.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89773/list"
+      },
+      {
+        "id": 89774,
+        "position": 2,
+        "content": "Did you do the last one?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "do",
+          "the",
+          "last",
+          [
+            "one?",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "one?",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/2.mp3",
+        "timeStart": 5.66,
+        "timeEnd": 7.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89774/list"
+      },
+      {
+        "id": 89775,
+        "position": 3,
+        "content": "No, not me... let's see...",
+        "defaultInput": "No, not me... let's see...",
+        "jsonContent": [
+          "No,",
+          "not",
+          "me...",
+          "let's",
+          "see..."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "not"
+          ],
+          [
+            "me..."
+          ],
+          [
+            "let's"
+          ],
+          [
+            "see..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/3.mp3",
+        "timeStart": 7.05,
+        "timeEnd": 9.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89775/list"
+      },
+      {
+        "id": 89776,
+        "position": 4,
+        "content": "Ah, here it is.",
+        "defaultInput": "Ah, here it is.",
+        "jsonContent": [
+          "Ah,",
+          "here",
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "here"
+          ],
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/4.mp3",
+        "timeStart": 10.29,
+        "timeEnd": 12.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89776/list"
+      },
+      {
+        "id": 89777,
+        "position": 5,
+        "content": "The last test was four hours ago and results show a level of 38,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "last",
+          "test",
+          "was",
+          [
+            "four",
+            "4"
+          ],
+          "hours",
+          "ago",
+          "and",
+          "results",
+          "show",
+          "a",
+          "level",
+          "of",
+          "38,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "last"
+          ],
+          [
+            "test"
+          ],
+          [
+            "was"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "ago"
+          ],
+          [
+            "and"
+          ],
+          [
+            "results"
+          ],
+          [
+            "show"
+          ],
+          [
+            "a"
+          ],
+          [
+            "level"
+          ],
+          [
+            "of"
+          ],
+          [
+            "38,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/5.mp3",
+        "timeStart": 12.05,
+        "timeEnd": 16.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89777/list"
+      },
+      {
+        "id": 89778,
+        "position": 6,
+        "content": "so it's still well below normal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "it's",
+          "still",
+          "well",
+          "below",
+          "normal."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "still"
+          ],
+          [
+            "well"
+          ],
+          [
+            "below"
+          ],
+          [
+            "normal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/6.mp3",
+        "timeStart": 16.37,
+        "timeEnd": 18.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89778/list"
+      },
+      {
+        "id": 89779,
+        "position": 7,
+        "content": "We'd better do one when he wakes up, as it might have changed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We'd",
+          "better",
+          "do",
+          [
+            "one",
+            "1"
+          ],
+          "when",
+          "he",
+          "wakes",
+          "up,",
+          "as",
+          "it",
+          "might",
+          "have",
+          "changed."
+        ],
+        "solution": [
+          [
+            "We'd"
+          ],
+          [
+            "better"
+          ],
+          [
+            "do"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "when"
+          ],
+          [
+            "he"
+          ],
+          [
+            "wakes"
+          ],
+          [
+            "up,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "have"
+          ],
+          [
+            "changed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/7.mp3",
+        "timeStart": 18.73,
+        "timeEnd": 21.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89779/list"
+      },
+      {
+        "id": 89780,
+        "position": 8,
+        "content": "The patient's not keen on needles though.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "patient's",
+          "not",
+          "keen",
+          "on",
+          "needles",
+          "though."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "patient's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "keen"
+          ],
+          [
+            "on"
+          ],
+          [
+            "needles"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/8.mp3",
+        "timeStart": 21.84,
+        "timeEnd": 24.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89780/list"
+      },
+      {
+        "id": 89781,
+        "position": 9,
+        "content": "I had a real job last night trying to convince him it was necessary.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "a",
+          "real",
+          "job",
+          "last",
+          "night",
+          "trying",
+          "to",
+          "convince",
+          "him",
+          "it",
+          "was",
+          "necessary."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "a"
+          ],
+          [
+            "real"
+          ],
+          [
+            "job"
+          ],
+          [
+            "last"
+          ],
+          [
+            "night"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "convince"
+          ],
+          [
+            "him"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "necessary."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/9.mp3",
+        "timeStart": 24.19,
+        "timeEnd": 27.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89781/list"
+      },
+      {
+        "id": 89782,
+        "position": 10,
+        "content": "Not the easiest of patients, if you're happy to have a go.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Not",
+          "the",
+          "easiest",
+          "of",
+          "patients,",
+          "if",
+          [
+            "you're",
+            "you are"
+          ],
+          "happy",
+          "to",
+          "have",
+          "a",
+          "go."
+        ],
+        "solution": [
+          [
+            "Not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "easiest"
+          ],
+          [
+            "of"
+          ],
+          [
+            "patients,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "go."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/10.mp3",
+        "timeStart": 27.57,
+        "timeEnd": 31.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89782/list"
+      },
+      {
+        "id": 89783,
+        "position": 11,
+        "content": "Okay... my turn, I reckon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Okay...",
+          "my",
+          "turn,",
+          "I",
+          "reckon."
+        ],
+        "solution": [
+          [
+            "Okay..."
+          ],
+          [
+            "my"
+          ],
+          [
+            "turn,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "reckon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-6-2025-08-29-21-04-22/11.mp3",
+        "timeStart": 31.01,
+        "timeEnd": 33.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89783/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "89773": {
+      "id": 3680602,
+      "text": "Tôi không thấy kết quả xét nghiệm máu gần nhất của ông Roberts để kiểm tra nồng độ creatinine.",
+      "author": "a user"
+    },
+    "89774": {
+      "id": 3680603,
+      "text": "Bạn có làm xét nghiệm lần vừa rồi không?",
+      "author": "ChatGPT4.1"
+    },
+    "89775": {
+      "id": 3680604,
+      "text": "Không, không phải tôi... để xem nào...",
+      "author": "a user"
+    },
+    "89776": {
+      "id": 3680605,
+      "text": "À, đây rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "89777": {
+      "id": 3680606,
+      "text": "Lần xét nghiệm gần nhất là bốn tiếng trước và kết quả cho thấy nồng độ creatinine là 38,",
+      "author": "a user"
+    },
+    "89778": {
+      "id": 3680607,
+      "text": "vậy nên nó vẫn thấp hơn mức bình thường khá nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "89779": {
+      "id": 3680608,
+      "text": "Tốt hơn hết là chúng ta nên làm xét nghiệm khi ông ấy tỉnh dậy, vì nồng độ có thể đã thay đổi.",
+      "author": "a user"
+    },
+    "89780": {
+      "id": 3680609,
+      "text": "Tuy nhiên, bệnh nhân không thích kim tiêm cho lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "89781": {
+      "id": 3680610,
+      "text": "Tối qua tôi đã phải rất vất vả thuyết phục ông ấy rằng việc này là cần thiết.",
+      "author": "a user"
+    },
+    "89782": {
+      "id": 3680611,
+      "text": "Không phải là bệnh nhân dễ tính nhất đâu, nếu bạn muốn thử thì cứ làm nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "89783": {
+      "id": 3680612,
+      "text": "Được rồi... tôi nghĩ đến lượt mình.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

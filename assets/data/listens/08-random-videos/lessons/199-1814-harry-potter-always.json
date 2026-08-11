@@ -1,0 +1,1494 @@
+{
+  "summary": {
+    "id": 1814,
+    "name": "Harry Potter - Always",
+    "subTitle": "",
+    "levelName": "C2",
+    "position": 199,
+    "totalChallenges": 29,
+    "groupId": 85,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1814",
+  "detail": {
+    "id": 1814,
+    "lessonName": "Harry Potter - Always",
+    "name": "Harry Potter - Always",
+    "position": 199,
+    "levelName": "C2",
+    "audioSrc": "",
+    "youtubeVideoId": "lJ83ILGA8yI",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70510,
+        "position": 1,
+        "content": "Don't ignore me Severus.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          "ignore",
+          "me",
+          "Severus."
+        ],
+        "solution": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          [
+            "ignore"
+          ],
+          [
+            "me"
+          ],
+          [
+            "Severus."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 0,
+        "timeEnd": 2.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70510/list"
+      },
+      {
+        "id": 70511,
+        "position": 2,
+        "content": "We both know Lord Voldemort has ordered the Malfoy boy to murder me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "both",
+          "know",
+          "Lord",
+          "Voldemort",
+          "has",
+          "ordered",
+          "the",
+          "Malfoy",
+          "boy",
+          "to",
+          "murder",
+          "me."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "both"
+          ],
+          [
+            "know"
+          ],
+          [
+            "Lord"
+          ],
+          [
+            "Voldemort"
+          ],
+          [
+            "has"
+          ],
+          [
+            "ordered"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Malfoy"
+          ],
+          [
+            "boy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "murder"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 3.49,
+        "timeEnd": 7.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70511/list"
+      },
+      {
+        "id": 70512,
+        "position": 3,
+        "content": "But should he fail,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "should",
+          "he",
+          "fail,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "should"
+          ],
+          [
+            "he"
+          ],
+          [
+            "fail,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 7.47,
+        "timeEnd": 11.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70512/list"
+      },
+      {
+        "id": 70513,
+        "position": 4,
+        "content": "I should presume the Dark Lord will turn to you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "should",
+          "presume",
+          "the",
+          "Dark",
+          "Lord",
+          "will",
+          "turn",
+          "to",
+          "you."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "presume"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Dark"
+          ],
+          [
+            "Lord"
+          ],
+          [
+            "will"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 11.34,
+        "timeEnd": 17.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70513/list"
+      },
+      {
+        "id": 70514,
+        "position": 5,
+        "content": "You must be the one to kill me, Severus.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "must",
+          "be",
+          "the",
+          [
+            "one",
+            "1"
+          ],
+          "to",
+          "kill",
+          "me,",
+          "Severus."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "the"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "to"
+          ],
+          [
+            "kill"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "Severus."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 18.37,
+        "timeEnd": 22.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70514/list"
+      },
+      {
+        "id": 70515,
+        "position": 6,
+        "content": "It is the only way.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "It's"
+          ],
+          "the",
+          "only",
+          "way."
+        ],
+        "solution": [
+          [
+            "It is",
+            "It's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "way."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 22.37,
+        "timeEnd": 25.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70515/list"
+      },
+      {
+        "id": 70516,
+        "position": 7,
+        "content": "Only then will the Dark Lord trust you completely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Only",
+          "then",
+          "will",
+          "the",
+          "Dark",
+          "Lord",
+          "trust",
+          "you",
+          "completely."
+        ],
+        "solution": [
+          [
+            "Only"
+          ],
+          [
+            "then"
+          ],
+          [
+            "will"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Dark"
+          ],
+          [
+            "Lord"
+          ],
+          [
+            "trust"
+          ],
+          [
+            "you"
+          ],
+          [
+            "completely."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 25.3,
+        "timeEnd": 33.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70516/list"
+      },
+      {
+        "id": 70517,
+        "position": 8,
+        "content": "There will come a time when Harry Potter must be told something.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There will",
+            "There'll"
+          ],
+          "come",
+          "a",
+          "time",
+          "when",
+          "Harry",
+          "Potter",
+          "must",
+          "be",
+          "told",
+          "something."
+        ],
+        "solution": [
+          [
+            "There will",
+            "There'll"
+          ],
+          [
+            "come"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time"
+          ],
+          [
+            "when"
+          ],
+          [
+            "Harry"
+          ],
+          [
+            "Potter"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "told"
+          ],
+          [
+            "something."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 35.6,
+        "timeEnd": 41.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70517/list"
+      },
+      {
+        "id": 70518,
+        "position": 9,
+        "content": "But you must wait until Voldemort is at his most vulnerable.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "you",
+          "must",
+          "wait",
+          "until",
+          "Voldemort",
+          "is",
+          "at",
+          "his",
+          "most",
+          "vulnerable."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "you"
+          ],
+          [
+            "must"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "until"
+          ],
+          [
+            "Voldemort"
+          ],
+          [
+            "is"
+          ],
+          [
+            "at"
+          ],
+          [
+            "his"
+          ],
+          [
+            "most"
+          ],
+          [
+            "vulnerable."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 41.92,
+        "timeEnd": 48.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70518/list"
+      },
+      {
+        "id": 70519,
+        "position": 10,
+        "content": "Must be told what?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Must",
+          "be",
+          "told",
+          "what?"
+        ],
+        "solution": [
+          [
+            "Must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "told"
+          ],
+          [
+            "what?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 48.46,
+        "timeEnd": 51.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70519/list"
+      },
+      {
+        "id": 70520,
+        "position": 11,
+        "content": "On the night Lord Voldemort went to Godric's Hollow, to kill Harry",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "the",
+          "night",
+          "Lord",
+          "Voldemort",
+          "went",
+          "to",
+          "Godric's",
+          "Hollow,",
+          "to",
+          "kill",
+          "Harry"
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "the"
+          ],
+          [
+            "night"
+          ],
+          [
+            "Lord"
+          ],
+          [
+            "Voldemort"
+          ],
+          [
+            "went"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Godric's"
+          ],
+          [
+            "Hollow,"
+          ],
+          [
+            "to"
+          ],
+          [
+            "kill"
+          ],
+          [
+            "Harry"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 51.36,
+        "timeEnd": 56.91,
+        "hints": [
+          "Godric's Hollow"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70520/list"
+      },
+      {
+        "id": 70521,
+        "position": 12,
+        "content": "and Lily Potter cast herself between them",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "Lily",
+          "Potter",
+          "cast",
+          "herself",
+          "between",
+          "them"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "Lily"
+          ],
+          [
+            "Potter"
+          ],
+          [
+            "cast"
+          ],
+          [
+            "herself"
+          ],
+          [
+            "between"
+          ],
+          [
+            "them"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 56.91,
+        "timeEnd": 60.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70521/list"
+      },
+      {
+        "id": 70522,
+        "position": 13,
+        "content": "the curse rebounded.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "curse",
+          "rebounded."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "curse"
+          ],
+          [
+            "rebounded."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 60.91,
+        "timeEnd": 63.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70522/list"
+      },
+      {
+        "id": 70523,
+        "position": 14,
+        "content": "When that happened, a part of Voldemort's soul latched itself to the only living thing it could find.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "that",
+          "happened,",
+          "a",
+          "part",
+          "of",
+          "Voldemort's",
+          "soul",
+          "latched",
+          "itself",
+          "to",
+          "the",
+          "only",
+          "living",
+          "thing",
+          "it",
+          "could",
+          "find."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "that"
+          ],
+          [
+            "happened,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Voldemort's"
+          ],
+          [
+            "soul"
+          ],
+          [
+            "latched"
+          ],
+          [
+            "itself"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "only"
+          ],
+          [
+            "living"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "it"
+          ],
+          [
+            "could"
+          ],
+          [
+            "find."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 63.34,
+        "timeEnd": 73.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70523/list"
+      },
+      {
+        "id": 70524,
+        "position": 15,
+        "content": "Harry himself.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Harry",
+          "himself."
+        ],
+        "solution": [
+          [
+            "Harry"
+          ],
+          [
+            "himself."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 73.6,
+        "timeEnd": 76.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70524/list"
+      },
+      {
+        "id": 70525,
+        "position": 16,
+        "content": "There's a reason Harry can speak with snakes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "a",
+          "reason",
+          "Harry",
+          "can",
+          "speak",
+          "with",
+          "snakes."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "Harry"
+          ],
+          [
+            "can"
+          ],
+          [
+            "speak"
+          ],
+          [
+            "with"
+          ],
+          [
+            "snakes."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 76.26,
+        "timeEnd": 81.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70525/list"
+      },
+      {
+        "id": 70526,
+        "position": 17,
+        "content": "There's a reason he can look into Lord Voldemort's mind.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "a",
+          "reason",
+          "he",
+          "can",
+          "look",
+          "into",
+          "Lord",
+          "Voldemort's",
+          "mind."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "he"
+          ],
+          [
+            "can"
+          ],
+          [
+            "look"
+          ],
+          [
+            "into"
+          ],
+          [
+            "Lord"
+          ],
+          [
+            "Voldemort's"
+          ],
+          [
+            "mind."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 81.02,
+        "timeEnd": 86.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70526/list"
+      },
+      {
+        "id": 70527,
+        "position": 18,
+        "content": "A part of Voldemort lives inside him.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "part",
+          "of",
+          "Voldemort",
+          "lives",
+          "inside",
+          "him."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Voldemort"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "inside"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 86.02,
+        "timeEnd": 96.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70527/list"
+      },
+      {
+        "id": 70528,
+        "position": 19,
+        "content": "So, when the time comes...",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "when",
+          "the",
+          "time",
+          "comes..."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "when"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "comes..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 98.03,
+        "timeEnd": 101.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70528/list"
+      },
+      {
+        "id": 70529,
+        "position": 20,
+        "content": "the boy must die?",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "boy",
+          "must",
+          "die?"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "boy"
+          ],
+          [
+            "must"
+          ],
+          [
+            "die?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 102.19,
+        "timeEnd": 106,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70529/list"
+      },
+      {
+        "id": 70530,
+        "position": 21,
+        "content": "Yes, yes... he must die.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "yes...",
+          "he",
+          "must",
+          "die."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "yes..."
+          ],
+          [
+            "he"
+          ],
+          [
+            "must"
+          ],
+          [
+            "die."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 106.83,
+        "timeEnd": 112.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70530/list"
+      },
+      {
+        "id": 70531,
+        "position": 22,
+        "content": "...",
+        "defaultInput": "...",
+        "jsonContent": [
+          "..."
+        ],
+        "solution": [
+          [
+            "..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 112.06,
+        "timeEnd": 128.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70531/list"
+      },
+      {
+        "id": 70532,
+        "position": 23,
+        "content": "You've kept him alive so that he can die at the proper moment.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You've",
+            "You have"
+          ],
+          "kept",
+          "him",
+          "alive",
+          "so",
+          "that",
+          "he",
+          "can",
+          "die",
+          "at",
+          "the",
+          "proper",
+          "moment."
+        ],
+        "solution": [
+          [
+            "You've",
+            "You have"
+          ],
+          [
+            "kept"
+          ],
+          [
+            "him"
+          ],
+          [
+            "alive"
+          ],
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "he"
+          ],
+          [
+            "can"
+          ],
+          [
+            "die"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "proper"
+          ],
+          [
+            "moment."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 128.92,
+        "timeEnd": 135.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70532/list"
+      },
+      {
+        "id": 70533,
+        "position": 24,
+        "content": "You've been raising him like a pig for slaughter.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You've",
+            "You have"
+          ],
+          "been",
+          "raising",
+          "him",
+          "like",
+          "a",
+          "pig",
+          "for",
+          "slaughter."
+        ],
+        "solution": [
+          [
+            "You've",
+            "You have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "raising"
+          ],
+          [
+            "him"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pig"
+          ],
+          [
+            "for"
+          ],
+          [
+            "slaughter."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 137.53,
+        "timeEnd": 141.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70533/list"
+      },
+      {
+        "id": 70534,
+        "position": 25,
+        "content": "Don't tell me now, that you have grown to care for the boy?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          "tell",
+          "me",
+          "now,",
+          "that",
+          [
+            "you have",
+            "you've"
+          ],
+          "grown",
+          "to",
+          "care",
+          "for",
+          "the",
+          "boy?"
+        ],
+        "solution": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "grown"
+          ],
+          [
+            "to"
+          ],
+          [
+            "care"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "boy?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 141.6,
+        "timeEnd": 145.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70534/list"
+      },
+      {
+        "id": 70535,
+        "position": 26,
+        "content": "Expecto Patronum",
+        "defaultInput": "Expecto Patronum",
+        "jsonContent": [
+          "Expecto",
+          "Patronum"
+        ],
+        "solution": [
+          [
+            "Expecto"
+          ],
+          [
+            "Patronum"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 145.98,
+        "timeEnd": 164.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70535/list"
+      },
+      {
+        "id": 70536,
+        "position": 27,
+        "content": "Lily",
+        "defaultInput": "Lily",
+        "jsonContent": [
+          "Lily"
+        ],
+        "solution": [
+          [
+            "Lily"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 164.8,
+        "timeEnd": 169.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70536/list"
+      },
+      {
+        "id": 70537,
+        "position": 28,
+        "content": "After all this time?",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "all",
+          "this",
+          "time?"
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "all"
+          ],
+          [
+            "this"
+          ],
+          [
+            "time?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 169.5,
+        "timeEnd": 172.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70537/list"
+      },
+      {
+        "id": 70538,
+        "position": 29,
+        "content": "Always.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Always."
+        ],
+        "solution": [
+          [
+            "Always."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 172.98,
+        "timeEnd": 177.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70538/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "70532": {
+      "id": 1619293,
+      "text": "Thầy giữ thằng bé sống để nó có thể chết vào thời điểm thích hợp.",
+      "author": "a user"
+    },
+    "70533": {
+      "id": 1619294,
+      "text": "Thầy nuôi lớn thằng bé như nuôi một con lợn để giết thịt.",
+      "author": "a user"
+    },
+    "70535": {
+      "id": 1619298,
+      "text": "Expecto Patronum (Bùa hộ mệnh) (là thần chú mạnh nhất trong mọi bùa chú được miêu tả trong Harry Potter, để sử dụng được, người dùng phải trở lại thâm sâu bên trong mình, tìm kiếm những kỷ niệm tươi đẹp nhất, hạnh phúc tuyệt vời nhất...)",
+      "author": "a user"
+    },
+    "70536": {
+      "id": 1619301,
+      "text": "Lily",
+      "author": "a user"
+    },
+    "70510": {
+      "id": 2584616,
+      "text": "Đừng phớt lờ tôi, Severus.",
+      "author": "ChatGPT4.1"
+    },
+    "70511": {
+      "id": 2584617,
+      "text": "Chúng ta đều biết Chúa tể Voldemort đã ra lệnh cho cậu bé Malfoy giết tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "70512": {
+      "id": 2584618,
+      "text": "Nhưng nếu cậu ta thất bại,",
+      "author": "ChatGPT4.1"
+    },
+    "70513": {
+      "id": 2584619,
+      "text": "Tôi đoán rằng Chúa tể Hắc ám sẽ tìm đến anh.",
+      "author": "ChatGPT4.1"
+    },
+    "70514": {
+      "id": 2584620,
+      "text": "Anh phải là người giết tôi, Severus.",
+      "author": "ChatGPT4.1"
+    },
+    "70515": {
+      "id": 2584621,
+      "text": "Đó là cách duy nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "70516": {
+      "id": 2584622,
+      "text": "Chỉ khi đó Chúa tể Hắc ám mới hoàn toàn tin tưởng anh.",
+      "author": "ChatGPT4.1"
+    },
+    "70517": {
+      "id": 2584623,
+      "text": "Sẽ đến lúc Harry Potter phải được nói một vài điều.",
+      "author": "ChatGPT4.1"
+    },
+    "70518": {
+      "id": 2584624,
+      "text": "Nhưng anh phải chờ đến khi Voldemort yếu nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "70519": {
+      "id": 2584625,
+      "text": "Phải nói điều gì?",
+      "author": "ChatGPT4.1"
+    },
+    "70520": {
+      "id": 2584626,
+      "text": "Vào đêm Chúa tể Voldemort đến Godric's Hollow, để giết Harry",
+      "author": "ChatGPT4.1"
+    },
+    "70521": {
+      "id": 2584627,
+      "text": "và Lily Potter đã lao mình vào giữa họ",
+      "author": "ChatGPT4.1"
+    },
+    "70522": {
+      "id": 2584628,
+      "text": "lời nguyền bật ngược trở lại.",
+      "author": "ChatGPT4.1"
+    },
+    "70523": {
+      "id": 2584629,
+      "text": "Khi điều đó xảy ra, một phần linh hồn của Voldemort đã bám vào sinh vật sống duy nhất nó có thể tìm thấy.",
+      "author": "a user"
+    },
+    "70524": {
+      "id": 2584630,
+      "text": "Chính Harry.",
+      "author": "ChatGPT4.1"
+    },
+    "70525": {
+      "id": 2584631,
+      "text": "Có lý do vì sao Harry có thể nói chuyện với rắn.",
+      "author": "ChatGPT4.1"
+    },
+    "70526": {
+      "id": 2584632,
+      "text": "Có lý do vì sao cậu ấy có thể nhìn vào tâm trí Chúa tể Voldemort.",
+      "author": "ChatGPT4.1"
+    },
+    "70527": {
+      "id": 2584633,
+      "text": "Một phần của Voldemort sống trong cậu ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "70528": {
+      "id": 2584634,
+      "text": "Vậy nên, khi đến lúc...",
+      "author": "ChatGPT4.1"
+    },
+    "70529": {
+      "id": 2584635,
+      "text": "cậu bé phải chết?",
+      "author": "ChatGPT4.1"
+    },
+    "70530": {
+      "id": 2584636,
+      "text": "Đúng, đúng... cậu ấy phải chết.",
+      "author": "ChatGPT4.1"
+    },
+    "70534": {
+      "id": 2584637,
+      "text": "Đừng nói với tôi là bây giờ anh đã bắt đầu quan tâm đến cậu bé?",
+      "author": "ChatGPT4.1"
+    },
+    "70537": {
+      "id": 2584638,
+      "text": "Sau ngần ấy thời gian?",
+      "author": "ChatGPT4.1"
+    },
+    "70538": {
+      "id": 2584639,
+      "text": "Mãi mãi.",
+      "author": "ChatGPT4.1"
+    },
+    "70531": {
+      "id": 3366839,
+      "text": "...",
+      "author": "GoogleTranslate"
+    }
+  }
+}

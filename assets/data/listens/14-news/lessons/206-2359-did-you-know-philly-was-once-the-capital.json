@@ -1,0 +1,969 @@
+{
+  "summary": {
+    "id": 2359,
+    "name": "Did You Know Philly Was Once the Capital?",
+    "subTitle": "",
+    "levelName": "B2",
+    "position": 206,
+    "totalChallenges": 14,
+    "groupId": 139,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2359",
+  "detail": {
+    "id": 2359,
+    "lessonName": "Did You Know Philly Was Once the Capital?",
+    "name": "Did You Know Philly Was Once the Capital?",
+    "position": 206,
+    "levelName": "B2",
+    "audioSrc": "",
+    "youtubeVideoId": "tc4vUFFzEms",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 92693,
+        "position": 1,
+        "content": "I'm coming to you from my home state of Pennsylvania.",
+        "defaultInput": "I'm coming ",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "coming",
+          "to",
+          "you",
+          "from",
+          "my",
+          "home",
+          "state",
+          "of",
+          "Pennsylvania."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "from"
+          ],
+          [
+            "my"
+          ],
+          [
+            "home"
+          ],
+          [
+            "state"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Pennsylvania."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 16.69,
+        "timeEnd": 19.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92693/list"
+      },
+      {
+        "id": 92694,
+        "position": 2,
+        "content": "We're in the phenomenal city of Philadelphia - the home of the Philadelphia Eagles.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "We are"
+          ],
+          "in",
+          "the",
+          "phenomenal",
+          "city",
+          "of",
+          "Philadelphia",
+          "-",
+          "the",
+          "home",
+          "of",
+          "the",
+          "Philadelphia",
+          "Eagles."
+        ],
+        "solution": [
+          [
+            "We're",
+            "We are"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phenomenal"
+          ],
+          [
+            "city"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Philadelphia"
+          ],
+          [
+            "-"
+          ],
+          [
+            "the"
+          ],
+          [
+            "home"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Philadelphia"
+          ],
+          [
+            "Eagles."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 19.3,
+        "timeEnd": 23.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92694/list"
+      },
+      {
+        "id": 92695,
+        "position": 3,
+        "content": "This is one of the rowdiest stadiums I ever played in during my NFL career.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "rowdiest",
+          "stadiums",
+          "I",
+          "ever",
+          "played",
+          "in",
+          "during",
+          "my",
+          "NFL",
+          "career."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rowdiest"
+          ],
+          [
+            "stadiums"
+          ],
+          [
+            "I"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "played"
+          ],
+          [
+            "in"
+          ],
+          [
+            "during"
+          ],
+          [
+            "my"
+          ],
+          [
+            "NFL"
+          ],
+          [
+            "career."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 23.69,
+        "timeEnd": 27.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92695/list"
+      },
+      {
+        "id": 92696,
+        "position": 4,
+        "content": "The NFL season kicked off last night.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "NFL",
+          "season",
+          "kicked",
+          "off",
+          "last",
+          "night."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "NFL"
+          ],
+          [
+            "season"
+          ],
+          [
+            "kicked"
+          ],
+          [
+            "off"
+          ],
+          [
+            "last"
+          ],
+          [
+            "night."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 27.64,
+        "timeEnd": 30.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92696/list"
+      },
+      {
+        "id": 92697,
+        "position": 5,
+        "content": "The defending Super Bowl champs facing the Dallas Cowboys.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "defending",
+          "Super",
+          "Bowl",
+          "champs",
+          "facing",
+          "the",
+          "Dallas",
+          "Cowboys."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "defending"
+          ],
+          [
+            "Super"
+          ],
+          [
+            "Bowl"
+          ],
+          [
+            "champs"
+          ],
+          [
+            "facing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Dallas"
+          ],
+          [
+            "Cowboys."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 30.06,
+        "timeEnd": 32.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92697/list"
+      },
+      {
+        "id": 92698,
+        "position": 6,
+        "content": "Pads popping, fans hollering.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Pads",
+          "popping,",
+          "fans",
+          "hollering."
+        ],
+        "solution": [
+          [
+            "Pads"
+          ],
+          [
+            "popping,"
+          ],
+          [
+            "fans"
+          ],
+          [
+            "hollering."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 32.8,
+        "timeEnd": 35.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92698/list"
+      },
+      {
+        "id": 92699,
+        "position": 7,
+        "content": "Smells like Philly cheese steak, I think.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Smells",
+          "like",
+          "Philly",
+          "cheese",
+          "steak,",
+          "I",
+          "think."
+        ],
+        "solution": [
+          [
+            "Smells"
+          ],
+          [
+            "like"
+          ],
+          [
+            "Philly"
+          ],
+          [
+            "cheese"
+          ],
+          [
+            "steak,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 35.1,
+        "timeEnd": 37.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92699/list"
+      },
+      {
+        "id": 92700,
+        "position": 8,
+        "content": "This moment calls for a \"Did you know?\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "moment",
+          "calls",
+          "for",
+          "a",
+          "\"Did",
+          "you",
+          "know?\""
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "moment"
+          ],
+          [
+            "calls"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "\"Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know?\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 37.11,
+        "timeEnd": 40.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92700/list"
+      },
+      {
+        "id": 92701,
+        "position": 9,
+        "content": "Philadelphia was the nation's temporary capital for 10 years?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Philadelphia",
+          "was",
+          "the",
+          "nation's",
+          "temporary",
+          "capital",
+          "for",
+          [
+            "10",
+            "ten"
+          ],
+          "years?"
+        ],
+        "solution": [
+          [
+            "Philadelphia"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nation's"
+          ],
+          [
+            "temporary"
+          ],
+          [
+            "capital"
+          ],
+          [
+            "for"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "years?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 40.98,
+        "timeEnd": 44.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92701/list"
+      },
+      {
+        "id": 92702,
+        "position": 10,
+        "content": "While Washington DC was still under construction, America's founding fathers and first leaders gathered in Philly between 1790 and 1800.",
+        "defaultInput": "",
+        "jsonContent": [
+          "While",
+          "Washington",
+          "DC",
+          "was",
+          "still",
+          "under",
+          "construction,",
+          "America's",
+          "founding",
+          "fathers",
+          "and",
+          [
+            "first",
+            "1st"
+          ],
+          "leaders",
+          "gathered",
+          "in",
+          "Philly",
+          "between",
+          "1790",
+          "and",
+          "1800."
+        ],
+        "solution": [
+          [
+            "While"
+          ],
+          [
+            "Washington"
+          ],
+          [
+            "DC"
+          ],
+          [
+            "was"
+          ],
+          [
+            "still"
+          ],
+          [
+            "under"
+          ],
+          [
+            "construction,"
+          ],
+          [
+            "America's"
+          ],
+          [
+            "founding"
+          ],
+          [
+            "fathers"
+          ],
+          [
+            "and"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "leaders"
+          ],
+          [
+            "gathered"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Philly"
+          ],
+          [
+            "between"
+          ],
+          [
+            "1790"
+          ],
+          [
+            "and"
+          ],
+          [
+            "1800."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.73,
+        "timeEnd": 52.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92702/list"
+      },
+      {
+        "id": 92703,
+        "position": 11,
+        "content": "Both the Declaration of Independence and the US Constitution were signed at Philadelphia's Independence Hall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Both",
+          "the",
+          "Declaration",
+          "of",
+          "Independence",
+          "and",
+          "the",
+          "US",
+          "Constitution",
+          "were",
+          "signed",
+          "at",
+          "Philadelphia's",
+          "Independence",
+          "Hall."
+        ],
+        "solution": [
+          [
+            "Both"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Declaration"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Independence"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "US"
+          ],
+          [
+            "Constitution"
+          ],
+          [
+            "were"
+          ],
+          [
+            "signed"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Philadelphia's"
+          ],
+          [
+            "Independence"
+          ],
+          [
+            "Hall."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 52.99,
+        "timeEnd": 59.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92703/list"
+      },
+      {
+        "id": 92704,
+        "position": 12,
+        "content": "The city was also the first American city to establish a hospital and a library",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "city",
+          "was",
+          "also",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "American",
+          "city",
+          "to",
+          "establish",
+          "a",
+          "hospital",
+          "and",
+          "a",
+          "library"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "city"
+          ],
+          [
+            "was"
+          ],
+          [
+            "also"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "American"
+          ],
+          [
+            "city"
+          ],
+          [
+            "to"
+          ],
+          [
+            "establish"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hospital"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "library"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 59.69,
+        "timeEnd": 64.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92704/list"
+      },
+      {
+        "id": 92705,
+        "position": 13,
+        "content": "which was founded by Benjamin Franklin, did you know?",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "was",
+          "founded",
+          "by",
+          "Benjamin",
+          "Franklin,",
+          "did",
+          "you",
+          "know?"
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "was"
+          ],
+          [
+            "founded"
+          ],
+          [
+            "by"
+          ],
+          [
+            "Benjamin"
+          ],
+          [
+            "Franklin,"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 64.39,
+        "timeEnd": 67.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92705/list"
+      },
+      {
+        "id": 92706,
+        "position": 14,
+        "content": "For all of these reasons, Philadelphia is often called the birthplace of America.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "all",
+          "of",
+          "these",
+          "reasons,",
+          "Philadelphia",
+          "is",
+          "often",
+          "called",
+          "the",
+          "birthplace",
+          "of",
+          "America."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "all"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "reasons,"
+          ],
+          [
+            "Philadelphia"
+          ],
+          [
+            "is"
+          ],
+          [
+            "often"
+          ],
+          [
+            "called"
+          ],
+          [
+            "the"
+          ],
+          [
+            "birthplace"
+          ],
+          [
+            "of"
+          ],
+          [
+            "America."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 67.07,
+        "timeEnd": 73.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/92706/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "92693": {
+      "id": 4046582,
+      "text": "Tôi đang đến với bạn từ bang quê nhà của tôi là Pennsylvania.",
+      "author": "ChatGPT4.1"
+    },
+    "92694": {
+      "id": 4046583,
+      "text": "Chúng tôi đang ở thành phố tuyệt vời Philadelphia - quê hương của đội Philadelphia Eagles.",
+      "author": "ChatGPT4.1"
+    },
+    "92695": {
+      "id": 4046584,
+      "text": "Đây là một trong những sân vận động náo nhiệt nhất mà tôi từng thi đấu trong sự nghiệp NFL của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "92696": {
+      "id": 4046585,
+      "text": "Mùa giải NFL đã bắt đầu vào tối qua.",
+      "author": "ChatGPT4.1"
+    },
+    "92697": {
+      "id": 4046586,
+      "text": "Nhà vô địch Super Bowl đương kim đối đầu với Dallas Cowboys.",
+      "author": "ChatGPT4.1"
+    },
+    "92698": {
+      "id": 4046587,
+      "text": "Tấm bảo vệ va chạm mạnh, người hâm mộ hét vang.",
+      "author": "ChatGPT4.1"
+    },
+    "92699": {
+      "id": 4046588,
+      "text": "Tôi nghĩ là có mùi Philly cheese steak.",
+      "author": "ChatGPT4.1"
+    },
+    "92700": {
+      "id": 4046589,
+      "text": "Khoảnh khắc này thật thích hợp cho câu hỏi “Bạn có biết không?”",
+      "author": "ChatGPT4.1"
+    },
+    "92701": {
+      "id": 4046590,
+      "text": "Philadelphia từng là thủ đô tạm thời của quốc gia trong 10 năm?",
+      "author": "ChatGPT4.1"
+    },
+    "92702": {
+      "id": 4046591,
+      "text": "Khi Washington DC còn đang được xây dựng, các cha lập quốc và những nhà lãnh đạo đầu tiên của Mỹ đã tụ họp tại Philadelphia từ năm 1790 đến 1800.",
+      "author": "ChatGPT4.1"
+    },
+    "92703": {
+      "id": 4046592,
+      "text": "Cả Tuyên ngôn Độc lập và Hiến pháp Hoa Kỳ đều được ký tại Phòng Độc lập ở Philadelphia.",
+      "author": "ChatGPT4.1"
+    },
+    "92704": {
+      "id": 4046593,
+      "text": "Thành phố này cũng là thành phố đầu tiên của Mỹ thành lập bệnh viện và thư viện",
+      "author": "ChatGPT4.1"
+    },
+    "92705": {
+      "id": 4046594,
+      "text": "do Benjamin Franklin sáng lập, bạn có biết không?",
+      "author": "ChatGPT4.1"
+    },
+    "92706": {
+      "id": 4046595,
+      "text": "Vì tất cả những lý do này, Philadelphia thường được gọi là cái nôi của nước Mỹ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

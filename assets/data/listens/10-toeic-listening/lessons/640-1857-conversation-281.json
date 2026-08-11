@@ -1,0 +1,589 @@
+{
+  "summary": {
+    "id": 1857,
+    "name": "Conversation 281",
+    "subTitle": "Poster Design Contact Inquiry",
+    "levelName": "B2",
+    "position": 640,
+    "totalChallenges": 8,
+    "groupId": 76,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1857",
+  "detail": {
+    "id": 1857,
+    "lessonName": "Conversation 281",
+    "name": "Conversation 281",
+    "position": 640,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/0-conversation-281.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 71111,
+        "position": 1,
+        "content": "Do you happen to know who's in charge of designing the new poster for the product launch event?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "happen",
+          "to",
+          "know",
+          [
+            "who's",
+            "who is"
+          ],
+          "in",
+          "charge",
+          "of",
+          "designing",
+          "the",
+          "new",
+          "poster",
+          "for",
+          "the",
+          "product",
+          "launch",
+          "event?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "happen"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "charge"
+          ],
+          [
+            "of"
+          ],
+          [
+            "designing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "poster"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "product"
+          ],
+          [
+            "launch"
+          ],
+          [
+            "event?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/1.mp3",
+        "timeStart": 0.78,
+        "timeEnd": 6.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71111/list"
+      },
+      {
+        "id": 71112,
+        "position": 2,
+        "content": "The director wants to update some of the visuals and asked me to communicate his request to the right person.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "director",
+          "wants",
+          "to",
+          "update",
+          "some",
+          "of",
+          "the",
+          "visuals",
+          "and",
+          "asked",
+          "me",
+          "to",
+          "communicate",
+          "his",
+          "request",
+          "to",
+          "the",
+          "right",
+          "person."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "director"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "to"
+          ],
+          [
+            "update"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "visuals"
+          ],
+          [
+            "and"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "communicate"
+          ],
+          [
+            "his"
+          ],
+          [
+            "request"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "person."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/2.mp3",
+        "timeStart": 6.65,
+        "timeEnd": 12.95,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/71112/list"
+      },
+      {
+        "id": 71113,
+        "position": 3,
+        "content": "I'm not entirely sure, but you might want to check with Craig Cooper.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "entirely",
+          "sure,",
+          "but",
+          "you",
+          "might",
+          [
+            "want to",
+            "wanna"
+          ],
+          "check",
+          "with",
+          "Craig",
+          "Cooper."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "entirely"
+          ],
+          [
+            "sure,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "you"
+          ],
+          [
+            "might"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "check"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Craig"
+          ],
+          [
+            "Cooper."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/3.mp3",
+        "timeStart": 13.18,
+        "timeEnd": 16.95,
+        "hints": [
+          "Craig Cooper"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71113/list"
+      },
+      {
+        "id": 71114,
+        "position": 4,
+        "content": "He's coordinating the entire event, so he should know who's handling the design work.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He's",
+          "coordinating",
+          "the",
+          "entire",
+          "event,",
+          "so",
+          "he",
+          "should",
+          "know",
+          [
+            "who's",
+            "who is"
+          ],
+          "handling",
+          "the",
+          "design",
+          "work."
+        ],
+        "solution": [
+          [
+            "He's"
+          ],
+          [
+            "coordinating"
+          ],
+          [
+            "the"
+          ],
+          [
+            "entire"
+          ],
+          [
+            "event,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "he"
+          ],
+          [
+            "should"
+          ],
+          [
+            "know"
+          ],
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "handling"
+          ],
+          [
+            "the"
+          ],
+          [
+            "design"
+          ],
+          [
+            "work."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/4.mp3",
+        "timeStart": 17.04,
+        "timeEnd": 21.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71114/list"
+      },
+      {
+        "id": 71115,
+        "position": 5,
+        "content": "Okay, thanks for the tip.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "thanks",
+          "for",
+          "the",
+          "tip."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tip."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/5.mp3",
+        "timeStart": 21.61,
+        "timeEnd": 23.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71115/list"
+      },
+      {
+        "id": 71116,
+        "position": 6,
+        "content": "I think he has a meeting this morning,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "he has",
+            "he's"
+          ],
+          "a",
+          "meeting",
+          "this",
+          "morning,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "this"
+          ],
+          [
+            "morning,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/6.mp3",
+        "timeStart": 23.54,
+        "timeEnd": 25.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71116/list"
+      },
+      {
+        "id": 71117,
+        "position": 7,
+        "content": "but I'll reach out to him as soon as he's available.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "I'll",
+            "I will"
+          ],
+          "reach",
+          "out",
+          "to",
+          "him",
+          "as",
+          "soon",
+          "as",
+          "he's",
+          "available."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "out"
+          ],
+          [
+            "to"
+          ],
+          [
+            "him"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/7.mp3",
+        "timeStart": 25.75,
+        "timeEnd": 28.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71117/list"
+      },
+      {
+        "id": 71118,
+        "position": 8,
+        "content": "Appreciate your help!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Appreciate",
+          "your",
+          "help!"
+        ],
+        "solution": [
+          [
+            "Appreciate"
+          ],
+          [
+            "your"
+          ],
+          [
+            "help!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-281-2024-11-14-11-55-50/8.mp3",
+        "timeStart": 28.73,
+        "timeEnd": 30.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71118/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "71111": {
+      "id": 2588331,
+      "text": "Bạn có biết ai là người chịu trách nhiệm thiết kế poster mới cho sự kiện ra mắt sản phẩm không?",
+      "author": "ChatGPT4.1"
+    },
+    "71112": {
+      "id": 2588332,
+      "text": "Giám đốc muốn cập nhật một số hình ảnh và nhờ tôi chuyển yêu cầu của ông ấy đến đúng người.",
+      "author": "ChatGPT4.1"
+    },
+    "71113": {
+      "id": 2588333,
+      "text": "Tôi không chắc lắm, nhưng bạn có thể hỏi Craig Cooper.",
+      "author": "ChatGPT4.1"
+    },
+    "71114": {
+      "id": 2588334,
+      "text": "Anh ấy đang điều phối toàn bộ sự kiện, nên chắc sẽ biết ai phụ trách phần thiết kế.",
+      "author": "ChatGPT4.1"
+    },
+    "71115": {
+      "id": 2588335,
+      "text": "Được rồi, cảm ơn vì gợi ý nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "71116": {
+      "id": 2588336,
+      "text": "Tôi nghĩ anh ấy có cuộc họp vào sáng nay,",
+      "author": "ChatGPT4.1"
+    },
+    "71117": {
+      "id": 2588337,
+      "text": "nhưng tôi sẽ liên lạc với anh ấy ngay khi anh ấy rảnh.",
+      "author": "ChatGPT4.1"
+    },
+    "71118": {
+      "id": 2588338,
+      "text": "Cảm ơn bạn đã giúp đỡ!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

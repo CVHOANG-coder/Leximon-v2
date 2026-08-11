@@ -1,0 +1,885 @@
+{
+  "summary": {
+    "id": 1061,
+    "name": "Conversation 17",
+    "subTitle": "Albert Park Condo Presale",
+    "levelName": "B1",
+    "position": 90,
+    "totalChallenges": 16,
+    "groupId": 32,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1061",
+  "detail": {
+    "id": 1061,
+    "lessonName": "Conversation 17",
+    "name": "Conversation 17",
+    "position": 90,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/0-conversation-17.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 52851,
+        "position": 1,
+        "content": "Hey, Caroline.",
+        "defaultInput": "Hey, Caroline.",
+        "jsonContent": [
+          "Hey,",
+          "Caroline."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "Caroline."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/1.mp3",
+        "timeStart": 0.26,
+        "timeEnd": 1.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52851/list"
+      },
+      {
+        "id": 52852,
+        "position": 2,
+        "content": "I hear your agency is managing the largest luxury condo complex yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hear",
+          "your",
+          "agency",
+          "is",
+          "managing",
+          "the",
+          "largest",
+          "luxury",
+          "condo",
+          "complex",
+          "yet."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "your"
+          ],
+          [
+            "agency"
+          ],
+          [
+            "is"
+          ],
+          [
+            "managing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "largest"
+          ],
+          [
+            "luxury"
+          ],
+          [
+            "condo"
+          ],
+          [
+            "complex"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/2.mp3",
+        "timeStart": 1.37,
+        "timeEnd": 5.92,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52852/list"
+      },
+      {
+        "id": 52853,
+        "position": 3,
+        "content": "How's the presale going?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How's",
+          "the",
+          "presale",
+          "going?"
+        ],
+        "solution": [
+          [
+            "How's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "presale"
+          ],
+          [
+            "going?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/3.mp3",
+        "timeStart": 5.92,
+        "timeEnd": 7.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52853/list"
+      },
+      {
+        "id": 52854,
+        "position": 4,
+        "content": "You mean Albert Park?",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "mean",
+          "Albert",
+          "Park?"
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "mean"
+          ],
+          [
+            "Albert"
+          ],
+          [
+            "Park?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/4.mp3",
+        "timeStart": 8.09,
+        "timeEnd": 10.08,
+        "hints": [
+          "Albert"
+        ],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52854/list"
+      },
+      {
+        "id": 52855,
+        "position": 5,
+        "content": "Yeah, homes are just flying off the shelf.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "homes",
+          "are",
+          "just",
+          "flying",
+          "off",
+          "the",
+          "shelf."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "homes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "just"
+          ],
+          [
+            "flying"
+          ],
+          [
+            "off"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shelf."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/5.mp3",
+        "timeStart": 10.35,
+        "timeEnd": 13.42,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/52855/list"
+      },
+      {
+        "id": 52856,
+        "position": 6,
+        "content": "I'm surprised there's been so much interest in this residential development.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "surprised",
+          [
+            "there's",
+            "there is"
+          ],
+          "been",
+          "so",
+          "much",
+          "interest",
+          "in",
+          "this",
+          "residential",
+          "development."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "surprised"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "been"
+          ],
+          [
+            "so"
+          ],
+          [
+            "much"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "residential"
+          ],
+          [
+            "development."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/6.mp3",
+        "timeStart": 13.61,
+        "timeEnd": 17.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52856/list"
+      },
+      {
+        "id": 52857,
+        "position": 7,
+        "content": "That's true, considering the hefty price tag.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "true,",
+          "considering",
+          "the",
+          "hefty",
+          "price",
+          "tag."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "true,"
+          ],
+          [
+            "considering"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hefty"
+          ],
+          [
+            "price"
+          ],
+          [
+            "tag."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/7.mp3",
+        "timeStart": 18.63,
+        "timeEnd": 21.35,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/52857/list"
+      },
+      {
+        "id": 52858,
+        "position": 8,
+        "content": "But actually, my wife and I are interested since this condo complex is brand new and so close to everything.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "actually,",
+          "my",
+          "wife",
+          "and",
+          "I",
+          "are",
+          "interested",
+          "since",
+          "this",
+          "condo",
+          "complex",
+          "is",
+          "brand",
+          "new",
+          "and",
+          "so",
+          "close",
+          "to",
+          "everything."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "actually,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "wife"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "are"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "since"
+          ],
+          [
+            "this"
+          ],
+          [
+            "condo"
+          ],
+          [
+            "complex"
+          ],
+          [
+            "is"
+          ],
+          [
+            "brand"
+          ],
+          [
+            "new"
+          ],
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "close"
+          ],
+          [
+            "to"
+          ],
+          [
+            "everything."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/8.mp3",
+        "timeStart": 21.53,
+        "timeEnd": 28.37,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/52858/list"
+      },
+      {
+        "id": 52859,
+        "position": 9,
+        "content": "Oh, really?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "really?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "really?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/9.mp3",
+        "timeStart": 29.12,
+        "timeEnd": 30.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52859/list"
+      },
+      {
+        "id": 52860,
+        "position": 10,
+        "content": "We're doing a special promotion.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "we are"
+          ],
+          "doing",
+          "a",
+          "special",
+          "promotion."
+        ],
+        "solution": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "special"
+          ],
+          [
+            "promotion."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/10.mp3",
+        "timeStart": 30.95,
+        "timeEnd": 33.3,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52860/list"
+      },
+      {
+        "id": 52861,
+        "position": 11,
+        "content": "If you buy a unit, you get the maximum level of protection for your new home",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "buy",
+          "a",
+          "unit,",
+          "you",
+          "get",
+          "the",
+          "maximum",
+          "level",
+          "of",
+          "protection",
+          "for",
+          "your",
+          "new",
+          "home"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "a"
+          ],
+          [
+            "unit,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "maximum"
+          ],
+          [
+            "level"
+          ],
+          [
+            "of"
+          ],
+          [
+            "protection"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "home"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/11.mp3",
+        "timeStart": 33.57,
+        "timeEnd": 38.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52861/list"
+      },
+      {
+        "id": 52862,
+        "position": 12,
+        "content": "thanks to our extended new home warranty.",
+        "defaultInput": "",
+        "jsonContent": [
+          "thanks",
+          "to",
+          "our",
+          "extended",
+          "new",
+          "home",
+          "warranty."
+        ],
+        "solution": [
+          [
+            "thanks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "extended"
+          ],
+          [
+            "new"
+          ],
+          [
+            "home"
+          ],
+          [
+            "warranty."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/12.mp3",
+        "timeStart": 38.9,
+        "timeEnd": 41.78,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/52862/list"
+      },
+      {
+        "id": 52863,
+        "position": 13,
+        "content": "That's fantastic!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "fantastic!"
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "fantastic!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/13.mp3",
+        "timeStart": 42.32,
+        "timeEnd": 44.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52863/list"
+      },
+      {
+        "id": 52864,
+        "position": 14,
+        "content": "Could you tell me more about the proposed amenities?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "tell",
+          "me",
+          "more",
+          "about",
+          "the",
+          "proposed",
+          "amenities?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "more"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "proposed"
+          ],
+          [
+            "amenities?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/14.mp3",
+        "timeStart": 44.17,
+        "timeEnd": 47.14,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52864/list"
+      },
+      {
+        "id": 52865,
+        "position": 15,
+        "content": "Sure, I'd be happy to give you a brochure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          "I'd",
+          "be",
+          "happy",
+          "to",
+          "give",
+          "you",
+          "a",
+          "brochure."
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "a"
+          ],
+          [
+            "brochure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/15.mp3",
+        "timeStart": 47.5,
+        "timeEnd": 50.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52865/list"
+      },
+      {
+        "id": 52866,
+        "position": 16,
+        "content": "Hold on... It's in my car.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hold",
+          "on...",
+          "It's",
+          "in",
+          "my",
+          "car."
+        ],
+        "solution": [
+          [
+            "Hold"
+          ],
+          [
+            "on..."
+          ],
+          [
+            "It's"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "car."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-17-2023-09-11-16-38-24/16.mp3",
+        "timeStart": 51.05,
+        "timeEnd": 53.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52866/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "52855": {
+      "id": 875571,
+      "text": "Vâng, những ngôi nhà đang cháy hàng.",
+      "author": "a user"
+    },
+    "52856": {
+      "id": 875572,
+      "text": "Tôi ngạc nhiên là có nhiều sự quan tâm đến dự án phát triển khu dân cư này.",
+      "author": "a user"
+    },
+    "52851": {
+      "id": 2585627,
+      "text": "Xin chào, Caroline.",
+      "author": "ChatGPT4.1"
+    },
+    "52852": {
+      "id": 2585628,
+      "text": "Tôi nghe nói công ty bạn đang quản lý khu căn hộ cao cấp lớn nhất từ trước đến nay.",
+      "author": "ChatGPT4.1"
+    },
+    "52853": {
+      "id": 2585629,
+      "text": "Việc bán trước thế nào rồi?",
+      "author": "ChatGPT4.1"
+    },
+    "52854": {
+      "id": 2585630,
+      "text": "Ý bạn là Albert Park chứ gì?",
+      "author": "ChatGPT4.1"
+    },
+    "52857": {
+      "id": 2585631,
+      "text": "Điều đó đúng, xét đến mức giá khá cao.",
+      "author": "ChatGPT4.1"
+    },
+    "52858": {
+      "id": 2585632,
+      "text": "Nhưng thực ra, vợ chồng tôi cũng quan tâm vì khu căn hộ này hoàn toàn mới và gần mọi tiện ích.",
+      "author": "ChatGPT4.1"
+    },
+    "52859": {
+      "id": 2585633,
+      "text": "Ồ, thật sao?",
+      "author": "ChatGPT4.1"
+    },
+    "52860": {
+      "id": 2585634,
+      "text": "Chúng tôi đang có chương trình khuyến mãi đặc biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "52861": {
+      "id": 2585635,
+      "text": "Nếu bạn mua một căn, bạn sẽ được bảo vệ tối đa cho ngôi nhà mới của mình",
+      "author": "ChatGPT4.1"
+    },
+    "52862": {
+      "id": 2585636,
+      "text": "nhờ vào chế độ bảo hành mở rộng cho ngôi nhà mới của chúng tôi.",
+      "author": "a user"
+    },
+    "52863": {
+      "id": 2585637,
+      "text": "Tuyệt vời quá!",
+      "author": "ChatGPT4.1"
+    },
+    "52864": {
+      "id": 2585638,
+      "text": "Bạn có thể cho tôi biết thêm về các tiện ích đã đề xuất không?",
+      "author": "a user"
+    },
+    "52865": {
+      "id": 2585639,
+      "text": "Vâng, tôi rất sẵn lòng đưa cho bạn một cuốn tài liệu quảng cáo.",
+      "author": "a user"
+    },
+    "52866": {
+      "id": 2585640,
+      "text": "Chờ chút nhé… Nó ở trong xe tôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

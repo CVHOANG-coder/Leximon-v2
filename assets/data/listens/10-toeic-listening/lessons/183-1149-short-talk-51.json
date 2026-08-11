@@ -1,0 +1,927 @@
+{
+  "summary": {
+    "id": 1149,
+    "name": "Short Talk 51",
+    "subTitle": "Wilton Clinic Therapy Services",
+    "levelName": "B1",
+    "position": 183,
+    "totalChallenges": 14,
+    "groupId": 36,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1149",
+  "detail": {
+    "id": 1149,
+    "lessonName": "Short Talk 51",
+    "name": "Short Talk 51",
+    "position": 183,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/0-short-talk-51.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54212,
+        "position": 1,
+        "content": "Do you find yourself struggling to get out of bed?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "find",
+          "yourself",
+          "struggling",
+          "to",
+          "get",
+          "out",
+          "of",
+          "bed?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "find"
+          ],
+          [
+            "yourself"
+          ],
+          [
+            "struggling"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "bed?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/1.mp3",
+        "timeStart": 0.31,
+        "timeEnd": 3.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54212/list"
+      },
+      {
+        "id": 54213,
+        "position": 2,
+        "content": "Does it feel hard to do your everyday tasks?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Does",
+          "it",
+          "feel",
+          "hard",
+          "to",
+          "do",
+          "your",
+          "everyday",
+          "tasks?"
+        ],
+        "solution": [
+          [
+            "Does"
+          ],
+          [
+            "it"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "your"
+          ],
+          [
+            "everyday"
+          ],
+          [
+            "tasks?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/2.mp3",
+        "timeStart": 3.52,
+        "timeEnd": 6.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54213/list"
+      },
+      {
+        "id": 54214,
+        "position": 3,
+        "content": "If you answered yes to these questions,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "answered",
+          "yes",
+          "to",
+          "these",
+          "questions,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "answered"
+          ],
+          [
+            "yes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "these"
+          ],
+          [
+            "questions,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/3.mp3",
+        "timeStart": 6.95,
+        "timeEnd": 9.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54214/list"
+      },
+      {
+        "id": 54215,
+        "position": 4,
+        "content": "the therapists at Wilton Clinic are here to help.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "therapists",
+          "at",
+          "Wilton",
+          "Clinic",
+          "are",
+          "here",
+          "to",
+          "help."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "therapists"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Wilton"
+          ],
+          [
+            "Clinic"
+          ],
+          [
+            "are"
+          ],
+          [
+            "here"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/4.mp3",
+        "timeStart": 9.31,
+        "timeEnd": 12.69,
+        "hints": [
+          "Wilton"
+        ],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54215/list"
+      },
+      {
+        "id": 54216,
+        "position": 5,
+        "content": "Bill Wilton, the owner and head therapist, is the author of Energize Your Life,",
+        "defaultInput": "Bill Wilton, ",
+        "jsonContent": [
+          "Bill",
+          "Wilton,",
+          "the",
+          "owner",
+          "and",
+          "head",
+          "therapist,",
+          "is",
+          "the",
+          "author",
+          "of",
+          "Energize",
+          "Your",
+          "Life,"
+        ],
+        "solution": [
+          [
+            "Bill"
+          ],
+          [
+            "Wilton,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "owner"
+          ],
+          [
+            "and"
+          ],
+          [
+            "head"
+          ],
+          [
+            "therapist,"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "author"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Energize"
+          ],
+          [
+            "Your"
+          ],
+          [
+            "Life,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/5.mp3",
+        "timeStart": 12.69,
+        "timeEnd": 17.83,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/54216/list"
+      },
+      {
+        "id": 54217,
+        "position": 6,
+        "content": "a book that discusses stress management and adding new energy into your daily life.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "book",
+          "that",
+          "discusses",
+          "stress",
+          "management",
+          "and",
+          "adding",
+          "new",
+          "energy",
+          "into",
+          "your",
+          "daily",
+          "life."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "book"
+          ],
+          [
+            "that"
+          ],
+          [
+            "discusses"
+          ],
+          [
+            "stress"
+          ],
+          [
+            "management"
+          ],
+          [
+            "and"
+          ],
+          [
+            "adding"
+          ],
+          [
+            "new"
+          ],
+          [
+            "energy"
+          ],
+          [
+            "into"
+          ],
+          [
+            "your"
+          ],
+          [
+            "daily"
+          ],
+          [
+            "life."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/6.mp3",
+        "timeStart": 17.83,
+        "timeEnd": 22.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54217/list"
+      },
+      {
+        "id": 54218,
+        "position": 7,
+        "content": "Dr. Wilton is a world-famous doctor that has won multiple awards for his methods,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Dr.",
+          "Wilton",
+          "is",
+          "a",
+          [
+            "world-famous",
+            "world famous"
+          ],
+          "doctor",
+          "that",
+          "has",
+          "won",
+          "multiple",
+          "awards",
+          "for",
+          "his",
+          "methods,"
+        ],
+        "solution": [
+          [
+            "Dr."
+          ],
+          [
+            "Wilton"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "world-famous",
+            "world famous"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "that"
+          ],
+          [
+            "has"
+          ],
+          [
+            "won"
+          ],
+          [
+            "multiple"
+          ],
+          [
+            "awards"
+          ],
+          [
+            "for"
+          ],
+          [
+            "his"
+          ],
+          [
+            "methods,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/7.mp3",
+        "timeStart": 22.95,
+        "timeEnd": 28.18,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/54218/list"
+      },
+      {
+        "id": 54219,
+        "position": 8,
+        "content": "and the success he has had in treating patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "success",
+          [
+            "he has",
+            "he's"
+          ],
+          "had",
+          "in",
+          "treating",
+          "patients."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "success"
+          ],
+          [
+            "he has",
+            "he's"
+          ],
+          [
+            "had"
+          ],
+          [
+            "in"
+          ],
+          [
+            "treating"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/8.mp3",
+        "timeStart": 28.18,
+        "timeEnd": 31.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54219/list"
+      },
+      {
+        "id": 54220,
+        "position": 9,
+        "content": "He was recently featured in the magazine, Psychology Now, as the best doctor in America.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "recently",
+          "featured",
+          "in",
+          "the",
+          "magazine,",
+          "Psychology",
+          "Now,",
+          "as",
+          "the",
+          "best",
+          "doctor",
+          "in",
+          "America."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "recently"
+          ],
+          [
+            "featured"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "magazine,"
+          ],
+          [
+            "Psychology"
+          ],
+          [
+            "Now,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "in"
+          ],
+          [
+            "America."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/9.mp3",
+        "timeStart": 31.5,
+        "timeEnd": 37.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54220/list"
+      },
+      {
+        "id": 54221,
+        "position": 10,
+        "content": "We are open Monday through Friday from 8 am until 8 pm,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We are",
+            "we're"
+          ],
+          "open",
+          "Monday",
+          "through",
+          "Friday",
+          "from",
+          [
+            "8",
+            "eight"
+          ],
+          "am",
+          "until",
+          [
+            "8",
+            "eight"
+          ],
+          "pm,"
+        ],
+        "solution": [
+          [
+            "We are",
+            "we're"
+          ],
+          [
+            "open"
+          ],
+          [
+            "Monday"
+          ],
+          [
+            "through"
+          ],
+          [
+            "Friday"
+          ],
+          [
+            "from"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "am"
+          ],
+          [
+            "until"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "pm,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/10.mp3",
+        "timeStart": 37.36,
+        "timeEnd": 41.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54221/list"
+      },
+      {
+        "id": 54222,
+        "position": 11,
+        "content": "365 days a year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "365",
+          "days",
+          "a",
+          "year."
+        ],
+        "solution": [
+          [
+            "365"
+          ],
+          [
+            "days"
+          ],
+          [
+            "a"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/11.mp3",
+        "timeStart": 41.51,
+        "timeEnd": 43.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54222/list"
+      },
+      {
+        "id": 54223,
+        "position": 12,
+        "content": "Give us a call now, at 5551232",
+        "defaultInput": "",
+        "jsonContent": [
+          "Give",
+          "us",
+          "a",
+          "call",
+          "now,",
+          "at",
+          "5551232"
+        ],
+        "solution": [
+          [
+            "Give"
+          ],
+          [
+            "us"
+          ],
+          [
+            "a"
+          ],
+          [
+            "call"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "5551232"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/12.mp3",
+        "timeStart": 43.91,
+        "timeEnd": 48.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54223/list"
+      },
+      {
+        "id": 54224,
+        "position": 13,
+        "content": "to set up an appointment with one of our therapists.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "set",
+          "up",
+          "an",
+          "appointment",
+          "with",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "our",
+          "therapists."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "set"
+          ],
+          [
+            "up"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "therapists."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/13.mp3",
+        "timeStart": 48.85,
+        "timeEnd": 51.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54224/list"
+      },
+      {
+        "id": 54225,
+        "position": 14,
+        "content": "Mention this message to receive 10% off your first appointment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mention",
+          "this",
+          "message",
+          "to",
+          "receive",
+          [
+            "10%",
+            "10 percent"
+          ],
+          "off",
+          "your",
+          [
+            "first",
+            "1st"
+          ],
+          "appointment."
+        ],
+        "solution": [
+          [
+            "Mention"
+          ],
+          [
+            "this"
+          ],
+          [
+            "message"
+          ],
+          [
+            "to"
+          ],
+          [
+            "receive"
+          ],
+          [
+            "10%",
+            "10 percent"
+          ],
+          [
+            "off"
+          ],
+          [
+            "your"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "appointment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-51-2023-09-19-20-53-55/14.mp3",
+        "timeStart": 51.51,
+        "timeEnd": 55.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54225/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54212": {
+      "id": 2595988,
+      "text": "Bạn có thấy mình vất vả khi phải ra khỏi giường không?",
+      "author": "ChatGPT4.1"
+    },
+    "54213": {
+      "id": 2595989,
+      "text": "Bạn có cảm thấy khó khăn khi thực hiện các công việc hàng ngày không?",
+      "author": "ChatGPT4.1"
+    },
+    "54214": {
+      "id": 2595990,
+      "text": "Nếu bạn trả lời \"có\" cho những câu hỏi này,",
+      "author": "ChatGPT4.1"
+    },
+    "54215": {
+      "id": 2595991,
+      "text": "các nhà trị liệu tại Phòng khám Wilton luôn sẵn sàng giúp đỡ bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "54216": {
+      "id": 2595992,
+      "text": "Bill Wilton, chủ sở hữu và là chuyên gia trị liệu chính, là tác giả của cuốn sách Nạp Năng Lượng Cho Cuộc Sống Của Bạn,",
+      "author": "ChatGPT4.1"
+    },
+    "54217": {
+      "id": 2595993,
+      "text": "một cuốn sách nói về quản lý căng thẳng và bổ sung năng lượng mới vào cuộc sống hàng ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "54218": {
+      "id": 2595994,
+      "text": "Bác sĩ Wilton là một bác sĩ nổi tiếng thế giới đã đoạt nhiều giải thưởng với các phương pháp của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "54219": {
+      "id": 2595995,
+      "text": "và sự thành công mà ông có được trong việc điều trị bệnh nhân.",
+      "author": "ChatGPT4.1"
+    },
+    "54220": {
+      "id": 2595996,
+      "text": "Gần đây ông được tạp chí Psychology Now giới thiệu là bác sĩ xuất sắc nhất tại Mỹ.",
+      "author": "ChatGPT4.1"
+    },
+    "54221": {
+      "id": 2595997,
+      "text": "Chúng tôi mở cửa từ thứ Hai đến thứ Sáu từ 8 giờ sáng đến 8 giờ tối,",
+      "author": "ChatGPT4.1"
+    },
+    "54222": {
+      "id": 2595998,
+      "text": "365 ngày trong năm.",
+      "author": "ChatGPT4.1"
+    },
+    "54223": {
+      "id": 2595999,
+      "text": "Hãy gọi cho chúng tôi ngay bây giờ, theo số 5551232",
+      "author": "ChatGPT4.1"
+    },
+    "54224": {
+      "id": 2596000,
+      "text": "để đặt lịch hẹn với một trong các chuyên gia trị liệu của chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "54225": {
+      "id": 2596001,
+      "text": "Hãy nhắc đến thông điệp này để được giảm giá 10% cho lần hẹn đầu tiên.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

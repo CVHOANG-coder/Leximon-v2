@@ -1,0 +1,468 @@
+{
+  "summary": {
+    "id": 1695,
+    "name": "Short Talk 203",
+    "subTitle": "Chesterton Playhouse Reopens",
+    "levelName": "B2",
+    "position": 490,
+    "totalChallenges": 7,
+    "groupId": 51,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1695",
+  "detail": {
+    "id": 1695,
+    "lessonName": "Short Talk 203",
+    "name": "Short Talk 203",
+    "position": 490,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/0-short-talk-207.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68941,
+        "position": 1,
+        "content": "Attention all theatre enthusiasts!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Attention",
+          "all",
+          [
+            "theatre",
+            "theater"
+          ],
+          "enthusiasts!"
+        ],
+        "solution": [
+          [
+            "Attention"
+          ],
+          [
+            "all"
+          ],
+          [
+            "theatre",
+            "theater"
+          ],
+          [
+            "enthusiasts!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68941/list"
+      },
+      {
+        "id": 68942,
+        "position": 2,
+        "content": "The Chesterton Playhouse has finally reopened its doors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "Chesterton",
+          "Playhouse",
+          "has",
+          "finally",
+          "reopened",
+          "its",
+          "doors."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Chesterton"
+          ],
+          [
+            "Playhouse"
+          ],
+          [
+            "has"
+          ],
+          [
+            "finally"
+          ],
+          [
+            "reopened"
+          ],
+          [
+            "its"
+          ],
+          [
+            "doors."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/2.mp3",
+        "timeStart": 2.69,
+        "timeEnd": 6.29,
+        "hints": [
+          "Chesterton"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68942/list"
+      },
+      {
+        "id": 68943,
+        "position": 3,
+        "content": "Our redesigned interior offers patrons a throwback to the grandeur of Broadway's golden age,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "redesigned",
+          "interior",
+          "offers",
+          "patrons",
+          "a",
+          "throwback",
+          "to",
+          "the",
+          "grandeur",
+          "of",
+          "Broadway's",
+          "golden",
+          "age,"
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "redesigned"
+          ],
+          [
+            "interior"
+          ],
+          [
+            "offers"
+          ],
+          [
+            "patrons"
+          ],
+          [
+            "a"
+          ],
+          [
+            "throwback"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "grandeur"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Broadway's"
+          ],
+          [
+            "golden"
+          ],
+          [
+            "age,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/3.mp3",
+        "timeStart": 6.52,
+        "timeEnd": 12.38,
+        "hints": [
+          "grandeur of Broadway's"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68943/list"
+      },
+      {
+        "id": 68944,
+        "position": 4,
+        "content": "featuring lush velvet seats and an elaborate proscenium stage.",
+        "defaultInput": "",
+        "jsonContent": [
+          "featuring",
+          "lush",
+          "velvet",
+          "seats",
+          "and",
+          "an",
+          "elaborate",
+          "proscenium",
+          "stage."
+        ],
+        "solution": [
+          [
+            "featuring"
+          ],
+          [
+            "lush"
+          ],
+          [
+            "velvet"
+          ],
+          [
+            "seats"
+          ],
+          [
+            "and"
+          ],
+          [
+            "an"
+          ],
+          [
+            "elaborate"
+          ],
+          [
+            "proscenium"
+          ],
+          [
+            "stage."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/4.mp3",
+        "timeStart": 12.38,
+        "timeEnd": 16.76,
+        "hints": [
+          "proscenium"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68944/list"
+      },
+      {
+        "id": 68945,
+        "position": 5,
+        "content": "Join us for the grand premiere next week as we bring back timeless classics.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Join",
+          "us",
+          "for",
+          "the",
+          "grand",
+          "premiere",
+          "next",
+          "week",
+          "as",
+          "we",
+          "bring",
+          "back",
+          "timeless",
+          "classics."
+        ],
+        "solution": [
+          [
+            "Join"
+          ],
+          [
+            "us"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "grand"
+          ],
+          [
+            "premiere"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week"
+          ],
+          [
+            "as"
+          ],
+          [
+            "we"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "back"
+          ],
+          [
+            "timeless"
+          ],
+          [
+            "classics."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/5.mp3",
+        "timeStart": 16.96,
+        "timeEnd": 21.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68945/list"
+      },
+      {
+        "id": 68946,
+        "position": 6,
+        "content": "To avoid the city rush,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "avoid",
+          "the",
+          "city",
+          "rush,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "avoid"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "rush,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/6.mp3",
+        "timeStart": 22.02,
+        "timeEnd": 23.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68946/list"
+      },
+      {
+        "id": 68947,
+        "position": 7,
+        "content": "the Chesterton Playhouse can be conveniently reached by taking the metro to the Arts District Station.",
+        "defaultInput": "the Chesterton Playhouse ",
+        "jsonContent": [
+          "the",
+          "Chesterton",
+          "Playhouse",
+          "can",
+          "be",
+          "conveniently",
+          "reached",
+          "by",
+          "taking",
+          "the",
+          "metro",
+          "to",
+          "the",
+          "Arts",
+          "District",
+          "Station."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "Chesterton"
+          ],
+          [
+            "Playhouse"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "conveniently"
+          ],
+          [
+            "reached"
+          ],
+          [
+            "by"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "the"
+          ],
+          [
+            "metro"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Arts"
+          ],
+          [
+            "District"
+          ],
+          [
+            "Station."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-207-2024-10-14-13-59-38/7.mp3",
+        "timeStart": 23.6,
+        "timeEnd": 29.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68947/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68941": {
+      "id": 2587502,
+      "text": "Xin lưu ý tất cả những người yêu thích sân khấu!",
+      "author": "ChatGPT4.1"
+    },
+    "68942": {
+      "id": 2587503,
+      "text": "Nhà hát Chesterton cuối cùng cũng đã mở cửa trở lại.",
+      "author": "ChatGPT4.1"
+    },
+    "68943": {
+      "id": 2587504,
+      "text": "Nội thất được thiết kế lại của chúng tôi mang đến cho khán giả cảm giác trở về thời hoàng kim xa hoa của Broadway,",
+      "author": "ChatGPT4.1"
+    },
+    "68944": {
+      "id": 2587505,
+      "text": "với những hàng ghế nhung sang trọng và một sân khấu chính công phu.",
+      "author": "ChatGPT4.1"
+    },
+    "68945": {
+      "id": 2587506,
+      "text": "Hãy cùng tham dự buổi công chiếu hoành tráng vào tuần tới khi chúng tôi mang trở lại những tác phẩm kinh điển vượt thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "68946": {
+      "id": 2587507,
+      "text": "Để tránh đông đúc trong thành phố,",
+      "author": "ChatGPT4.1"
+    },
+    "68947": {
+      "id": 2587508,
+      "text": "nhà hát Chesterton có thể dễ dàng đến bằng tuyến metro đến ga Arts District.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

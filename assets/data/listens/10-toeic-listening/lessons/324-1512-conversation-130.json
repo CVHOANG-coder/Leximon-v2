@@ -1,0 +1,832 @@
+{
+  "summary": {
+    "id": 1512,
+    "name": "Conversation 130",
+    "subTitle": "Office Flooring Selection Call",
+    "levelName": "B2",
+    "position": 324,
+    "totalChallenges": 14,
+    "groupId": 43,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1512",
+  "detail": {
+    "id": 1512,
+    "lessonName": "Conversation 130",
+    "name": "Conversation 130",
+    "position": 324,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/0-conversation-130.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65707,
+        "position": 1,
+        "content": "Hello, this is Emily Larson calling on behalf of Robo Technology.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Emily",
+          "Larson",
+          "calling",
+          "on",
+          "behalf",
+          "of",
+          "Robo",
+          "Technology."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Emily"
+          ],
+          [
+            "Larson"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "on"
+          ],
+          [
+            "behalf"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Robo"
+          ],
+          [
+            "Technology."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/1.mp3",
+        "timeStart": 2,
+        "timeEnd": 7.28,
+        "hints": [
+          "Emily Larson",
+          "Robo"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65707/list"
+      },
+      {
+        "id": 65708,
+        "position": 2,
+        "content": "We've picked a few options that we feel might be suitable for our office refurbishment.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "We have"
+          ],
+          "picked",
+          "a",
+          "few",
+          "options",
+          "that",
+          "we",
+          "feel",
+          "might",
+          "be",
+          "suitable",
+          "for",
+          "our",
+          "office",
+          "refurbishment."
+        ],
+        "solution": [
+          [
+            "We've",
+            "We have"
+          ],
+          [
+            "picked"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "options"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "suitable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "office"
+          ],
+          [
+            "refurbishment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/2.mp3",
+        "timeStart": 7.28,
+        "timeEnd": 12.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65708/list"
+      },
+      {
+        "id": 65709,
+        "position": 3,
+        "content": "Can we see some samples?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "we",
+          "see",
+          "some",
+          "samples?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "we"
+          ],
+          [
+            "see"
+          ],
+          [
+            "some"
+          ],
+          [
+            "samples?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/3.mp3",
+        "timeStart": 12.27,
+        "timeEnd": 14.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65709/list"
+      },
+      {
+        "id": 65710,
+        "position": 4,
+        "content": "Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/4.mp3",
+        "timeStart": 14.22,
+        "timeEnd": 15.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65710/list"
+      },
+      {
+        "id": 65711,
+        "position": 5,
+        "content": "We have a wide range of wood species and finishes now available.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "We've"
+          ],
+          "a",
+          "wide",
+          "range",
+          "of",
+          "wood",
+          "species",
+          "and",
+          "finishes",
+          "now",
+          "available."
+        ],
+        "solution": [
+          [
+            "We have",
+            "We've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wide"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "wood"
+          ],
+          [
+            "species"
+          ],
+          [
+            "and"
+          ],
+          [
+            "finishes"
+          ],
+          [
+            "now"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/5.mp3",
+        "timeStart": 15.02,
+        "timeEnd": 19.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65711/list"
+      },
+      {
+        "id": 65712,
+        "position": 6,
+        "content": "It would be great if you could specify their names from the artisan wood floors catalog we sent you earlier.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It would",
+            "It'd"
+          ],
+          "be",
+          "great",
+          "if",
+          "you",
+          "could",
+          "specify",
+          "their",
+          "names",
+          "from",
+          "the",
+          "artisan",
+          "wood",
+          "floors",
+          "catalog",
+          "we",
+          "sent",
+          "you",
+          "earlier."
+        ],
+        "solution": [
+          [
+            "It would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "great"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "specify"
+          ],
+          [
+            "their"
+          ],
+          [
+            "names"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "artisan"
+          ],
+          [
+            "wood"
+          ],
+          [
+            "floors"
+          ],
+          [
+            "catalog"
+          ],
+          [
+            "we"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "you"
+          ],
+          [
+            "earlier."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/6.mp3",
+        "timeStart": 19.03,
+        "timeEnd": 25.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65712/list"
+      },
+      {
+        "id": 65713,
+        "position": 7,
+        "content": "Of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/7.mp3",
+        "timeStart": 25.1,
+        "timeEnd": 26.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65713/list"
+      },
+      {
+        "id": 65714,
+        "position": 8,
+        "content": "Montiel and Chambery both look really nice.",
+        "defaultInput": "Montiel and Chambery ",
+        "jsonContent": [
+          "Montiel",
+          "and",
+          "Chambery",
+          "both",
+          "look",
+          "really",
+          "nice."
+        ],
+        "solution": [
+          [
+            "Montiel"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Chambery"
+          ],
+          [
+            "both"
+          ],
+          [
+            "look"
+          ],
+          [
+            "really"
+          ],
+          [
+            "nice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/8.mp3",
+        "timeStart": 26.44,
+        "timeEnd": 30.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65714/list"
+      },
+      {
+        "id": 65715,
+        "position": 9,
+        "content": "They are going to be used for a mixture of office spaces,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They are",
+            "They're"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "used",
+          "for",
+          "a",
+          "mixture",
+          "of",
+          "office",
+          "spaces,"
+        ],
+        "solution": [
+          [
+            "They are",
+            "They're"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "used"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mixture"
+          ],
+          [
+            "of"
+          ],
+          [
+            "office"
+          ],
+          [
+            "spaces,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/9.mp3",
+        "timeStart": 30.02,
+        "timeEnd": 33.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65715/list"
+      },
+      {
+        "id": 65716,
+        "position": 10,
+        "content": "so it's hard to decide.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "it's",
+          "hard",
+          "to",
+          "decide."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "decide."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/10.mp3",
+        "timeStart": 33.82,
+        "timeEnd": 35.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65716/list"
+      },
+      {
+        "id": 65717,
+        "position": 11,
+        "content": "Why don't you come to our warehouse?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why",
+          [
+            "don't",
+            "do not"
+          ],
+          "you",
+          "come",
+          "to",
+          "our",
+          "warehouse?"
+        ],
+        "solution": [
+          [
+            "Why"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "you"
+          ],
+          [
+            "come"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "warehouse?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/11.mp3",
+        "timeStart": 36.04,
+        "timeEnd": 38.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65717/list"
+      },
+      {
+        "id": 65718,
+        "position": 12,
+        "content": "You can walk on them to get the feel underfoot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "walk",
+          "on",
+          "them",
+          "to",
+          "get",
+          "the",
+          "feel",
+          "underfoot."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "walk"
+          ],
+          [
+            "on"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "underfoot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/12.mp3",
+        "timeStart": 38.33,
+        "timeEnd": 41.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65718/list"
+      },
+      {
+        "id": 65719,
+        "position": 13,
+        "content": "Good point.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "point."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "point."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/13.mp3",
+        "timeStart": 41.38,
+        "timeEnd": 42.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65719/list"
+      },
+      {
+        "id": 65720,
+        "position": 14,
+        "content": "Could you also recommend someone who would be able to install the flooring for us?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "also",
+          "recommend",
+          "someone",
+          "who",
+          "would",
+          "be",
+          "able",
+          "to",
+          "install",
+          "the",
+          "flooring",
+          "for",
+          "us?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "also"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "install"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flooring"
+          ],
+          [
+            "for"
+          ],
+          [
+            "us?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-130-2024-09-14-18-07-42/14.mp3",
+        "timeStart": 42.61,
+        "timeEnd": 47.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65720/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "65707": {
+      "id": 2371649,
+      "text": "Xin chào, tôi là Emily Larson gọi điện thay mặt cho Robo Technology.",
+      "author": "DeepSeekAI"
+    },
+    "65708": {
+      "id": 2371650,
+      "text": "Chúng tôi đã chọn một vài mẫu mà chúng tôi cảm thấy có thể phù hợp cho việc cải tạo văn phòng.",
+      "author": "DeepSeekAI"
+    },
+    "65709": {
+      "id": 2371651,
+      "text": "Chúng tôi có thể xem một số mẫu được không?",
+      "author": "DeepSeekAI"
+    },
+    "65710": {
+      "id": 2371652,
+      "text": "Chắc chắn rồi.",
+      "author": "DeepSeekAI"
+    },
+    "65711": {
+      "id": 2371653,
+      "text": "Hiện chúng tôi có rất nhiều loại gỗ và lớp hoàn thiện đa dạng.",
+      "author": "DeepSeekAI"
+    },
+    "65712": {
+      "id": 2371654,
+      "text": "Sẽ rất tốt nếu bạn có thể chỉ định tên của chúng từ danh mục sàn gỗ thủ công mà chúng tôi đã gửi cho bạn trước đó.",
+      "author": "DeepSeekAI"
+    },
+    "65713": {
+      "id": 2371655,
+      "text": "Tất nhiên.",
+      "author": "DeepSeekAI"
+    },
+    "65714": {
+      "id": 2371656,
+      "text": "Montiel và Chambery đều trông rất đẹp.",
+      "author": "DeepSeekAI"
+    },
+    "65715": {
+      "id": 2371657,
+      "text": "Chúng sẽ được sử dụng cho nhiều không gian văn phòng khác nhau,",
+      "author": "DeepSeekAI"
+    },
+    "65716": {
+      "id": 2371658,
+      "text": "nên thật khó để quyết định.",
+      "author": "DeepSeekAI"
+    },
+    "65717": {
+      "id": 2371659,
+      "text": "Tại sao bạn không đến kho của chúng tôi?",
+      "author": "DeepSeekAI"
+    },
+    "65718": {
+      "id": 2371660,
+      "text": "Bạn có thể đi thử để cảm nhận trực tiếp.",
+      "author": "DeepSeekAI"
+    },
+    "65719": {
+      "id": 2371661,
+      "text": "Ý hay đấy.",
+      "author": "DeepSeekAI"
+    },
+    "65720": {
+      "id": 2371662,
+      "text": "Bạn có thể giới thiệu ai đó có thể lắp đặt sàn giúp chúng tôi không?",
+      "author": "DeepSeekAI"
+    }
+  }
+}

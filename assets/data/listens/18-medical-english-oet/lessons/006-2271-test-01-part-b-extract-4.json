@@ -1,0 +1,843 @@
+{
+  "summary": {
+    "id": 2271,
+    "name": "Test 01 - Part B - Extract 4",
+    "subTitle": "Bed Management Challenges",
+    "levelName": "B2",
+    "position": 6,
+    "totalChallenges": 14,
+    "groupId": 131,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2271",
+  "detail": {
+    "id": 2271,
+    "lessonName": "Test 01 - Part B - Extract 4",
+    "name": "Test 01 - Part B - Extract 4",
+    "position": 6,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/0-test-01-part-b-extract-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 89746,
+        "position": 1,
+        "content": "The bed manager just rang.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "bed",
+          "manager",
+          "just",
+          "rang."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "bed"
+          ],
+          [
+            "manager"
+          ],
+          [
+            "just"
+          ],
+          [
+            "rang."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/1.mp3",
+        "timeStart": 0.49,
+        "timeEnd": 2.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89746/list"
+      },
+      {
+        "id": 89747,
+        "position": 2,
+        "content": "He wants us to clear three spaces in the ward today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "wants",
+          "us",
+          "to",
+          "clear",
+          [
+            "three",
+            "3"
+          ],
+          "spaces",
+          "in",
+          "the",
+          "ward",
+          "today."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "us"
+          ],
+          [
+            "to"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "spaces"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ward"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/2.mp3",
+        "timeStart": 2.03,
+        "timeEnd": 5.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89747/list"
+      },
+      {
+        "id": 89748,
+        "position": 3,
+        "content": "Oh, it's never-ending!",
+        "defaultInput": "Oh, ",
+        "jsonContent": [
+          "Oh,",
+          "it's",
+          [
+            "never-ending!",
+            "never ending!"
+          ]
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "never-ending!",
+            "never ending!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/3.mp3",
+        "timeStart": 5.09,
+        "timeEnd": 7.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89748/list"
+      },
+      {
+        "id": 89749,
+        "position": 4,
+        "content": "Let's see what we can do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "see",
+          "what",
+          "we",
+          "can",
+          "do."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/4.mp3",
+        "timeStart": 7.49,
+        "timeEnd": 9.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89749/list"
+      },
+      {
+        "id": 89750,
+        "position": 5,
+        "content": "There's no one ready to be discharged.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "no",
+          [
+            "one",
+            "1"
+          ],
+          "ready",
+          "to",
+          "be",
+          "discharged."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "no"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "discharged."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/5.mp3",
+        "timeStart": 9.86,
+        "timeEnd": 12.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89750/list"
+      },
+      {
+        "id": 89751,
+        "position": 6,
+        "content": "But we could try chasing referrals for Mr Davison to the community hospital for rehab.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "we",
+          "could",
+          "try",
+          "chasing",
+          "referrals",
+          "for",
+          "Mr",
+          "Davison",
+          "to",
+          "the",
+          "community",
+          "hospital",
+          "for",
+          "rehab."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "try"
+          ],
+          [
+            "chasing"
+          ],
+          [
+            "referrals"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "Davison"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "community"
+          ],
+          [
+            "hospital"
+          ],
+          [
+            "for"
+          ],
+          [
+            "rehab."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/6.mp3",
+        "timeStart": 12.21,
+        "timeEnd": 17.16,
+        "hints": [
+          "Mr Davison"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89751/list"
+      },
+      {
+        "id": 89752,
+        "position": 7,
+        "content": "Where are his notes?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Where",
+          "are",
+          "his",
+          "notes?"
+        ],
+        "solution": [
+          [
+            "Where"
+          ],
+          [
+            "are"
+          ],
+          [
+            "his"
+          ],
+          [
+            "notes?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/7.mp3",
+        "timeStart": 17.47,
+        "timeEnd": 18.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89752/list"
+      },
+      {
+        "id": 89753,
+        "position": 8,
+        "content": "Yes, but has he had his assessment yet?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "but",
+          "has",
+          [
+            "he had",
+            "he'd"
+          ],
+          "his",
+          "assessment",
+          "yet?"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "has"
+          ],
+          [
+            "he had",
+            "he'd"
+          ],
+          [
+            "his"
+          ],
+          [
+            "assessment"
+          ],
+          [
+            "yet?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/8.mp3",
+        "timeStart": 18.51,
+        "timeEnd": 20.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89753/list"
+      },
+      {
+        "id": 89754,
+        "position": 9,
+        "content": "They were all away at that conference yesterday and the day before.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "were",
+          "all",
+          "away",
+          "at",
+          "that",
+          "conference",
+          "yesterday",
+          "and",
+          "the",
+          "day",
+          "before."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "were"
+          ],
+          [
+            "all"
+          ],
+          [
+            "away"
+          ],
+          [
+            "at"
+          ],
+          [
+            "that"
+          ],
+          [
+            "conference"
+          ],
+          [
+            "yesterday"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day"
+          ],
+          [
+            "before."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/9.mp3",
+        "timeStart": 20.55,
+        "timeEnd": 24.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89754/list"
+      },
+      {
+        "id": 89755,
+        "position": 10,
+        "content": "I think he'll have slipped through the net.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "he'll",
+            "he will"
+          ],
+          "have",
+          "slipped",
+          "through",
+          "the",
+          "net."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "he'll",
+            "he will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "slipped"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "net."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/10.mp3",
+        "timeStart": 24.12,
+        "timeEnd": 26.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89755/list"
+      },
+      {
+        "id": 89756,
+        "position": 11,
+        "content": "But Doctor Ammat's already got him medically stable and signed off, so...",
+        "defaultInput": "But Doctor Ammat's ",
+        "jsonContent": [
+          "But",
+          "Doctor",
+          "Ammat's",
+          "already",
+          "got",
+          "him",
+          "medically",
+          "stable",
+          "and",
+          "signed",
+          "off,",
+          "so..."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "Doctor"
+          ],
+          [
+            "Ammat's"
+          ],
+          [
+            "already"
+          ],
+          [
+            "got"
+          ],
+          [
+            "him"
+          ],
+          [
+            "medically"
+          ],
+          [
+            "stable"
+          ],
+          [
+            "and"
+          ],
+          [
+            "signed"
+          ],
+          [
+            "off,"
+          ],
+          [
+            "so..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/11.mp3",
+        "timeStart": 26.38,
+        "timeEnd": 30.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89756/list"
+      },
+      {
+        "id": 89757,
+        "position": 12,
+        "content": "he should be the next one to move on.",
+        "defaultInput": "",
+        "jsonContent": [
+          "he",
+          "should",
+          "be",
+          "the",
+          "next",
+          [
+            "one",
+            "1"
+          ],
+          "to",
+          "move",
+          "on."
+        ],
+        "solution": [
+          [
+            "he"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "to"
+          ],
+          [
+            "move"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/12.mp3",
+        "timeStart": 30.41,
+        "timeEnd": 32.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89757/list"
+      },
+      {
+        "id": 89758,
+        "position": 13,
+        "content": "Well I'd get him there as quickly as possible before they give the place to somebody else.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well",
+          "I'd",
+          "get",
+          "him",
+          "there",
+          "as",
+          "quickly",
+          "as",
+          "possible",
+          "before",
+          "they",
+          "give",
+          "the",
+          "place",
+          "to",
+          "somebody",
+          "else."
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "get"
+          ],
+          [
+            "him"
+          ],
+          [
+            "there"
+          ],
+          [
+            "as"
+          ],
+          [
+            "quickly"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible"
+          ],
+          [
+            "before"
+          ],
+          [
+            "they"
+          ],
+          [
+            "give"
+          ],
+          [
+            "the"
+          ],
+          [
+            "place"
+          ],
+          [
+            "to"
+          ],
+          [
+            "somebody"
+          ],
+          [
+            "else."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/13.mp3",
+        "timeStart": 32.07,
+        "timeEnd": 36.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89758/list"
+      },
+      {
+        "id": 89759,
+        "position": 14,
+        "content": "I'll phone them straight away.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "phone",
+          "them",
+          "straight",
+          "away."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "them"
+          ],
+          [
+            "straight"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-b-extract-4-2025-08-29-21-03-23/14.mp3",
+        "timeStart": 36.41,
+        "timeEnd": 37.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89759/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "89746": {
+      "id": 3678500,
+      "text": "Quản lý giường bệnh vừa mới gọi điện.",
+      "author": "ChatGPT4.1"
+    },
+    "89747": {
+      "id": 3678501,
+      "text": "Ông ấy muốn chúng ta giải phóng ba chỗ trong khu điều trị hôm nay.",
+      "author": "ChatGPT4.1"
+    },
+    "89748": {
+      "id": 3678502,
+      "text": "Ôi, chuyện này cứ không bao giờ dứt!",
+      "author": "ChatGPT4.1"
+    },
+    "89749": {
+      "id": 3678503,
+      "text": "Hãy xem chúng ta có thể làm gì.",
+      "author": "ChatGPT4.1"
+    },
+    "89750": {
+      "id": 3678504,
+      "text": "Không ai sẵn sàng xuất viện cả.",
+      "author": "ChatGPT4.1"
+    },
+    "89751": {
+      "id": 3678505,
+      "text": "Nhưng chúng ta có thể thử thúc đẩy chuyển tuyến cho ông Davison sang bệnh viện cộng đồng để phục hồi chức năng.",
+      "author": "ChatGPT4.1"
+    },
+    "89752": {
+      "id": 3678506,
+      "text": "Hồ sơ của ông ấy đâu?",
+      "author": "ChatGPT4.1"
+    },
+    "89753": {
+      "id": 3678507,
+      "text": "Vâng, nhưng ông ấy đã được đánh giá chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "89754": {
+      "id": 3678508,
+      "text": "Họ đều đi dự hội nghị ngày hôm qua và ngày hôm kia.",
+      "author": "a user"
+    },
+    "89755": {
+      "id": 3678509,
+      "text": "Tôi nghĩ ông ấy đã bị sót lại rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "89756": {
+      "id": 3678510,
+      "text": "Nhưng bác sĩ Ammat đã giúp ông ấy ổn định về mặt y tế và ký xác nhận rồi nên...",
+      "author": "ChatGPT4.1"
+    },
+    "89757": {
+      "id": 3678511,
+      "text": "ông ấy nên là người tiếp theo được chuyển đi.",
+      "author": "ChatGPT4.1"
+    },
+    "89758": {
+      "id": 3678512,
+      "text": "Tôi sẽ đưa ông ấy đến đó càng sớm càng tốt trước khi họ giao chỗ cho người khác.",
+      "author": "a user"
+    },
+    "89759": {
+      "id": 3678513,
+      "text": "Tôi sẽ gọi cho họ ngay lập tức.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

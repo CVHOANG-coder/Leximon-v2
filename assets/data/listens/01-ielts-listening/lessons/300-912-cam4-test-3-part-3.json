@@ -1,0 +1,4914 @@
+{
+  "summary": {
+    "id": 912,
+    "name": "Cam4 - Test 3 - Part 3",
+    "subTitle": "Study Skills Refresher Courses",
+    "levelName": "B1",
+    "position": 300,
+    "totalChallenges": 83,
+    "groupId": 69,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/912",
+  "detail": {
+    "id": 912,
+    "lessonName": "Cam4 - Test 3 - Part 3",
+    "name": "Cam4 - Test 3 - Part 3",
+    "position": 300,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/0-ielts-cambridge-4-test-3-part-3.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 47934,
+        "position": 1,
+        "content": "Hello.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello."
+        ],
+        "solution": [
+          [
+            "Hello."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/1.mp3",
+        "timeStart": 0.55,
+        "timeEnd": 1.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47934/list"
+      },
+      {
+        "id": 47935,
+        "position": 2,
+        "content": "I'm Dawn Matthews.",
+        "defaultInput": "I'm Dawn Matthews.",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "Dawn",
+          "Matthews."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Dawn"
+          ],
+          [
+            "Matthews."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/2.mp3",
+        "timeStart": 1.91,
+        "timeEnd": 3.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47935/list"
+      },
+      {
+        "id": 47936,
+        "position": 3,
+        "content": "Yes, hello.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "hello."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "hello."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/3.mp3",
+        "timeStart": 3.63,
+        "timeEnd": 4.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47936/list"
+      },
+      {
+        "id": 47937,
+        "position": 4,
+        "content": "I've been referred to you because I'm enquiring about the refresher courses that you run.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "referred",
+          "to",
+          "you",
+          "because",
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "enquiring",
+            "inquiring"
+          ],
+          "about",
+          "the",
+          "refresher",
+          "courses",
+          "that",
+          "you",
+          "run."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "referred"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "because"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "enquiring",
+            "inquiring"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "refresher"
+          ],
+          [
+            "courses"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "run."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/4.mp3",
+        "timeStart": 4.92,
+        "timeEnd": 9.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47937/list"
+      },
+      {
+        "id": 47938,
+        "position": 5,
+        "content": "I'd like to find out a bit more about them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "find",
+          "out",
+          "a",
+          "bit",
+          "more",
+          "about",
+          "them."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "more"
+          ],
+          [
+            "about"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/5.mp3",
+        "timeStart": 9.78,
+        "timeEnd": 12.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47938/list"
+      },
+      {
+        "id": 47939,
+        "position": 6,
+        "content": "Okay.",
+        "defaultInput": "Okay.",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/6.mp3",
+        "timeStart": 12.19,
+        "timeEnd": 13.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47939/list"
+      },
+      {
+        "id": 47940,
+        "position": 7,
+        "content": "Well, we run quite a few different short courses for students who are either returning to study or studying part-time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "we",
+          "run",
+          "quite",
+          "a",
+          "few",
+          "different",
+          "short",
+          "courses",
+          "for",
+          "students",
+          "who",
+          "are",
+          "either",
+          "returning",
+          "to",
+          "study",
+          "or",
+          "studying",
+          [
+            "part-time.",
+            "part time."
+          ]
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "run"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "different"
+          ],
+          [
+            "short"
+          ],
+          [
+            "courses"
+          ],
+          [
+            "for"
+          ],
+          [
+            "students"
+          ],
+          [
+            "who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "either"
+          ],
+          [
+            "returning"
+          ],
+          [
+            "to"
+          ],
+          [
+            "study"
+          ],
+          [
+            "or"
+          ],
+          [
+            "studying"
+          ],
+          [
+            "part-time.",
+            "part time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/7.mp3",
+        "timeStart": 13.23,
+        "timeEnd": 21.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47940/list"
+      },
+      {
+        "id": 47941,
+        "position": 8,
+        "content": "Um, tell me about your situation.",
+        "defaultInput": "Um, ",
+        "jsonContent": [
+          "Um,",
+          "tell",
+          "me",
+          "about",
+          "your",
+          "situation."
+        ],
+        "solution": [
+          [
+            "Um,"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "situation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/8.mp3",
+        "timeStart": 21.59,
+        "timeEnd": 24.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47941/list"
+      },
+      {
+        "id": 47942,
+        "position": 9,
+        "content": "Well, I think that I really need some help in preparing for the coming semester,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "think",
+          "that",
+          "I",
+          "really",
+          "need",
+          "some",
+          "help",
+          "in",
+          "preparing",
+          "for",
+          "the",
+          "coming",
+          "semester,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "need"
+          ],
+          [
+            "some"
+          ],
+          [
+            "help"
+          ],
+          [
+            "in"
+          ],
+          [
+            "preparing"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "semester,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/9.mp3",
+        "timeStart": 24.52,
+        "timeEnd": 29.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47942/list"
+      },
+      {
+        "id": 47943,
+        "position": 10,
+        "content": "especially to build up my confidence a bit",
+        "defaultInput": "",
+        "jsonContent": [
+          "especially",
+          "to",
+          "build",
+          "up",
+          "my",
+          "confidence",
+          "a",
+          "bit"
+        ],
+        "solution": [
+          [
+            "especially"
+          ],
+          [
+            "to"
+          ],
+          [
+            "build"
+          ],
+          [
+            "up"
+          ],
+          [
+            "my"
+          ],
+          [
+            "confidence"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/10.mp3",
+        "timeStart": 29.34,
+        "timeEnd": 31.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47943/list"
+      },
+      {
+        "id": 47944,
+        "position": 11,
+        "content": "and help me study effectively because, you see,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "help",
+          "me",
+          "study",
+          "effectively",
+          "because,",
+          "you",
+          "see,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me"
+          ],
+          [
+            "study"
+          ],
+          [
+            "effectively"
+          ],
+          [
+            "because,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "see,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/11.mp3",
+        "timeStart": 31.73,
+        "timeEnd": 34.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47944/list"
+      },
+      {
+        "id": 47945,
+        "position": 12,
+        "content": "I've been out in the work-force for nearly twelve years now, so...",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "out",
+          "in",
+          "the",
+          [
+            "work-force",
+            "work force"
+          ],
+          "for",
+          "nearly",
+          [
+            "twelve",
+            "12"
+          ],
+          "years",
+          "now,",
+          "so..."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "out"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "work-force",
+            "work force"
+          ],
+          [
+            "for"
+          ],
+          [
+            "nearly"
+          ],
+          [
+            "twelve",
+            "12"
+          ],
+          [
+            "years"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "so..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/12.mp3",
+        "timeStart": 35.07,
+        "timeEnd": 38.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47945/list"
+      },
+      {
+        "id": 47946,
+        "position": 13,
+        "content": "it really is a long time since I was last a student.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "really",
+          "is",
+          "a",
+          "long",
+          "time",
+          "since",
+          "I",
+          "was",
+          "last",
+          "a",
+          "student."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "really"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "long"
+          ],
+          [
+            "time"
+          ],
+          [
+            "since"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "last"
+          ],
+          [
+            "a"
+          ],
+          [
+            "student."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/13.mp3",
+        "timeStart": 38.46,
+        "timeEnd": 41.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47946/list"
+      },
+      {
+        "id": 47947,
+        "position": 14,
+        "content": "Yes, it can seem like a long time, can't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "it",
+          "can",
+          "seem",
+          "like",
+          "a",
+          "long",
+          "time,",
+          "can't",
+          "it?"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "can"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "long"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/14.mp3",
+        "timeStart": 41.16,
+        "timeEnd": 44.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47947/list"
+      },
+      {
+        "id": 47948,
+        "position": 15,
+        "content": "Um, well, let me start by telling you what courses we have that might suit you.",
+        "defaultInput": "Um, well, ",
+        "jsonContent": [
+          "Um,",
+          "well,",
+          "let",
+          "me",
+          "start",
+          "by",
+          "telling",
+          "you",
+          "what",
+          "courses",
+          [
+            "we have",
+            "we've"
+          ],
+          "that",
+          "might",
+          "suit",
+          "you."
+        ],
+        "solution": [
+          [
+            "Um,"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "start"
+          ],
+          [
+            "by"
+          ],
+          [
+            "telling"
+          ],
+          [
+            "you"
+          ],
+          [
+            "what"
+          ],
+          [
+            "courses"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "that"
+          ],
+          [
+            "might"
+          ],
+          [
+            "suit"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/15.mp3",
+        "timeStart": 44.32,
+        "timeEnd": 49.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47948/list"
+      },
+      {
+        "id": 47949,
+        "position": 16,
+        "content": "Are you an undergraduate or a postgraduate?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "an",
+          "undergraduate",
+          "or",
+          "a",
+          "postgraduate?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "an"
+          ],
+          [
+            "undergraduate"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "postgraduate?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/16.mp3",
+        "timeStart": 49.76,
+        "timeEnd": 53.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47949/list"
+      },
+      {
+        "id": 47950,
+        "position": 17,
+        "content": "Arts or Sciences?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Arts",
+          "or",
+          "Sciences?"
+        ],
+        "solution": [
+          [
+            "Arts"
+          ],
+          [
+            "or"
+          ],
+          [
+            "Sciences?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/17.mp3",
+        "timeStart": 53.54,
+        "timeEnd": 54.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47950/list"
+      },
+      {
+        "id": 47951,
+        "position": 18,
+        "content": "Undergraduate, and I'm in the Business faculty.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Undergraduate,",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "in",
+          "the",
+          "Business",
+          "faculty."
+        ],
+        "solution": [
+          [
+            "Undergraduate,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Business"
+          ],
+          [
+            "faculty."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/18.mp3",
+        "timeStart": 54.84,
+        "timeEnd": 57.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47951/list"
+      },
+      {
+        "id": 47952,
+        "position": 19,
+        "content": "Right then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right",
+          "then."
+        ],
+        "solution": [
+          [
+            "Right"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/19.mp3",
+        "timeStart": 57.77,
+        "timeEnd": 58.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47952/list"
+      },
+      {
+        "id": 47953,
+        "position": 20,
+        "content": "First of all, there's our intensive 'Study for Success' seminar",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First",
+            "1st"
+          ],
+          "of",
+          "all,",
+          [
+            "there's",
+            "there is"
+          ],
+          "our",
+          "intensive",
+          "'Study",
+          "for",
+          "Success'",
+          "seminar"
+        ],
+        "solution": [
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "our"
+          ],
+          [
+            "intensive"
+          ],
+          [
+            "'Study"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Success'"
+          ],
+          [
+            "seminar"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/20.mp3",
+        "timeStart": 59.41,
+        "timeEnd": 63.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47953/list"
+      },
+      {
+        "id": 47954,
+        "position": 21,
+        "content": "on the first and second of February.",
+        "defaultInput": "",
+        "jsonContent": [
+          "on",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "and",
+          "second",
+          "of",
+          "February."
+        ],
+        "solution": [
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "and"
+          ],
+          [
+            "second"
+          ],
+          [
+            "of"
+          ],
+          [
+            "February."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/21.mp3",
+        "timeStart": 63.98,
+        "timeEnd": 66.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47954/list"
+      },
+      {
+        "id": 47955,
+        "position": 22,
+        "content": "It's aimed at students like you who are uncertain about what to expect at college,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "aimed",
+          "at",
+          "students",
+          "like",
+          "you",
+          "who",
+          "are",
+          "uncertain",
+          "about",
+          "what",
+          "to",
+          "expect",
+          "at",
+          "college,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "aimed"
+          ],
+          [
+            "at"
+          ],
+          [
+            "students"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "uncertain"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what"
+          ],
+          [
+            "to"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "at"
+          ],
+          [
+            "college,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/22.mp3",
+        "timeStart": 66.72,
+        "timeEnd": 71.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47955/list"
+      },
+      {
+        "id": 47956,
+        "position": 23,
+        "content": "and looks at a fairly wide range of approaches to university learning,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "looks",
+          "at",
+          "a",
+          "fairly",
+          "wide",
+          "range",
+          "of",
+          "approaches",
+          "to",
+          "university",
+          "learning,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fairly"
+          ],
+          [
+            "wide"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "approaches"
+          ],
+          [
+            "to"
+          ],
+          [
+            "university"
+          ],
+          [
+            "learning,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/23.mp3",
+        "timeStart": 71.3,
+        "timeEnd": 75.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47956/list"
+      },
+      {
+        "id": 47957,
+        "position": 24,
+        "content": "to motivate you to begin your study",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "motivate",
+          "you",
+          "to",
+          "begin",
+          "your",
+          "study"
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "motivate"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "begin"
+          ],
+          [
+            "your"
+          ],
+          [
+            "study"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/24.mp3",
+        "timeStart": 75.52,
+        "timeEnd": 78.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47957/list"
+      },
+      {
+        "id": 47958,
+        "position": 25,
+        "content": "and build on your own learning strategies.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "build",
+          "on",
+          "your",
+          "own",
+          "learning",
+          "strategies."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "build"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own"
+          ],
+          [
+            "learning"
+          ],
+          [
+            "strategies."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/25.mp3",
+        "timeStart": 78.15,
+        "timeEnd": 80.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47958/list"
+      },
+      {
+        "id": 47959,
+        "position": 26,
+        "content": "Mm, that sounds good.",
+        "defaultInput": "Mm, ",
+        "jsonContent": [
+          "Mm,",
+          "that",
+          "sounds",
+          "good."
+        ],
+        "solution": [
+          [
+            "Mm,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/26.mp3",
+        "timeStart": 80.93,
+        "timeEnd": 82.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47959/list"
+      },
+      {
+        "id": 47960,
+        "position": 27,
+        "content": "What are some of the strategies that are presented?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "are",
+          "some",
+          "of",
+          "the",
+          "strategies",
+          "that",
+          "are",
+          "presented?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "are"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "strategies"
+          ],
+          [
+            "that"
+          ],
+          [
+            "are"
+          ],
+          [
+            "presented?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/27.mp3",
+        "timeStart": 83.33,
+        "timeEnd": 86.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47960/list"
+      },
+      {
+        "id": 47961,
+        "position": 28,
+        "content": "Well, we try to cover all aspects of study.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "we",
+          "try",
+          "to",
+          "cover",
+          "all",
+          "aspects",
+          "of",
+          "study."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cover"
+          ],
+          [
+            "all"
+          ],
+          [
+            "aspects"
+          ],
+          [
+            "of"
+          ],
+          [
+            "study."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/28.mp3",
+        "timeStart": 86.19,
+        "timeEnd": 89.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47961/list"
+      },
+      {
+        "id": 47962,
+        "position": 29,
+        "content": "Some of the strategies in writing, for example,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "of",
+          "the",
+          "strategies",
+          "in",
+          "writing,",
+          "for",
+          "example,"
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "strategies"
+          ],
+          [
+            "in"
+          ],
+          [
+            "writing,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/29.mp3",
+        "timeStart": 89.88,
+        "timeEnd": 92.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47962/list"
+      },
+      {
+        "id": 47963,
+        "position": 30,
+        "content": "would be improving your planning for writing,",
+        "defaultInput": "",
+        "jsonContent": [
+          "would",
+          "be",
+          "improving",
+          "your",
+          "planning",
+          "for",
+          "writing,"
+        ],
+        "solution": [
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "improving"
+          ],
+          [
+            "your"
+          ],
+          [
+            "planning"
+          ],
+          [
+            "for"
+          ],
+          [
+            "writing,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/30.mp3",
+        "timeStart": 92.8,
+        "timeEnd": 96.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47963/list"
+      },
+      {
+        "id": 47964,
+        "position": 31,
+        "content": "organising your thinking",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "organising",
+            "organizing"
+          ],
+          "your",
+          "thinking"
+        ],
+        "solution": [
+          [
+            "organising",
+            "organizing"
+          ],
+          [
+            "your"
+          ],
+          [
+            "thinking"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/31.mp3",
+        "timeStart": 96.4,
+        "timeEnd": 98.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47964/list"
+      },
+      {
+        "id": 47965,
+        "position": 32,
+        "content": "and building some techniques to help you write more clearly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "building",
+          "some",
+          "techniques",
+          "to",
+          "help",
+          "you",
+          "write",
+          "more",
+          "clearly."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "building"
+          ],
+          [
+            "some"
+          ],
+          [
+            "techniques"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "write"
+          ],
+          [
+            "more"
+          ],
+          [
+            "clearly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/32.mp3",
+        "timeStart": 98.28,
+        "timeEnd": 101.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47965/list"
+      },
+      {
+        "id": 47966,
+        "position": 33,
+        "content": "With reading, there'll be sessions aimed at getting into the habit of analysing material as you read it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "reading,",
+          [
+            "there'll",
+            "there will"
+          ],
+          "be",
+          "sessions",
+          "aimed",
+          "at",
+          "getting",
+          "into",
+          "the",
+          "habit",
+          "of",
+          [
+            "analysing",
+            "analyzing"
+          ],
+          "material",
+          "as",
+          "you",
+          "read",
+          "it,"
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "reading,"
+          ],
+          [
+            "there'll",
+            "there will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "sessions"
+          ],
+          [
+            "aimed"
+          ],
+          [
+            "at"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "habit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "analysing",
+            "analyzing"
+          ],
+          [
+            "material"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "read"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/33.mp3",
+        "timeStart": 102.04,
+        "timeEnd": 108.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47966/list"
+      },
+      {
+        "id": 47967,
+        "position": 34,
+        "content": "and tips to help you record and remember what you have read.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "tips",
+          "to",
+          "help",
+          "you",
+          "record",
+          "and",
+          "remember",
+          "what",
+          [
+            "you have",
+            "you've"
+          ],
+          "read."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "tips"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "record"
+          ],
+          [
+            "and"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "read."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/34.mp3",
+        "timeStart": 108.67,
+        "timeEnd": 112.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47967/list"
+      },
+      {
+        "id": 47968,
+        "position": 35,
+        "content": "It really is very important to begin reading confidently right from the beginning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "really",
+          "is",
+          "very",
+          "important",
+          "to",
+          "begin",
+          "reading",
+          "confidently",
+          "right",
+          "from",
+          "the",
+          "beginning."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "really"
+          ],
+          [
+            "is"
+          ],
+          [
+            "very"
+          ],
+          [
+            "important"
+          ],
+          [
+            "to"
+          ],
+          [
+            "begin"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "confidently"
+          ],
+          [
+            "right"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "beginning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/35.mp3",
+        "timeStart": 112.68,
+        "timeEnd": 117.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47968/list"
+      },
+      {
+        "id": 47969,
+        "position": 36,
+        "content": "There's also advice on how to get the most from your lectures",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "also",
+          "advice",
+          "on",
+          "how",
+          "to",
+          "get",
+          "the",
+          "most",
+          "from",
+          "your",
+          "lectures"
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "also"
+          ],
+          [
+            "advice"
+          ],
+          [
+            "on"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "from"
+          ],
+          [
+            "your"
+          ],
+          [
+            "lectures"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/36.mp3",
+        "timeStart": 118.04,
+        "timeEnd": 121.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47969/list"
+      },
+      {
+        "id": 47970,
+        "position": 37,
+        "content": "and practice in giving confident presentations,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "practice",
+            "practise"
+          ],
+          "in",
+          "giving",
+          "confident",
+          "presentations,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "practice",
+            "practise"
+          ],
+          [
+            "in"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "confident"
+          ],
+          [
+            "presentations,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/37.mp3",
+        "timeStart": 121.76,
+        "timeEnd": 124.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47970/list"
+      },
+      {
+        "id": 47971,
+        "position": 38,
+        "content": "as well as how to prepare for exams.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "well",
+          "as",
+          "how",
+          "to",
+          "prepare",
+          "for",
+          "exams."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "prepare"
+          ],
+          [
+            "for"
+          ],
+          [
+            "exams."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/38.mp3",
+        "timeStart": 124.82,
+        "timeEnd": 127.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47971/list"
+      },
+      {
+        "id": 47972,
+        "position": 39,
+        "content": "What about the motivational side of things?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "the",
+          "motivational",
+          "side",
+          "of",
+          "things?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "motivational"
+          ],
+          [
+            "side"
+          ],
+          [
+            "of"
+          ],
+          [
+            "things?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/39.mp3",
+        "timeStart": 127.08,
+        "timeEnd": 129.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47972/list"
+      },
+      {
+        "id": 47973,
+        "position": 40,
+        "content": "Ah. Well, there's a range of motivational exercises that we do",
+        "defaultInput": "Ah. ",
+        "jsonContent": [
+          "Ah.",
+          "Well,",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "range",
+          "of",
+          "motivational",
+          "exercises",
+          "that",
+          "we",
+          "do"
+        ],
+        "solution": [
+          [
+            "Ah."
+          ],
+          [
+            "Well,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "motivational"
+          ],
+          [
+            "exercises"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/40.mp3",
+        "timeStart": 130.45,
+        "timeEnd": 135.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47973/list"
+      },
+      {
+        "id": 47974,
+        "position": 41,
+        "content": "to help the students feel positive and enthusiastic about their study.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "help",
+          "the",
+          "students",
+          "feel",
+          "positive",
+          "and",
+          "enthusiastic",
+          "about",
+          "their",
+          "study."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "the"
+          ],
+          [
+            "students"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "positive"
+          ],
+          [
+            "and"
+          ],
+          [
+            "enthusiastic"
+          ],
+          [
+            "about"
+          ],
+          [
+            "their"
+          ],
+          [
+            "study."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/41.mp3",
+        "timeStart": 135.31,
+        "timeEnd": 139.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47974/list"
+      },
+      {
+        "id": 47975,
+        "position": 42,
+        "content": "The process of learning and exploring a subject can lead to a whole new way of looking at the world,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "process",
+          "of",
+          "learning",
+          "and",
+          "exploring",
+          "a",
+          "subject",
+          "can",
+          "lead",
+          "to",
+          "a",
+          "whole",
+          "new",
+          "way",
+          "of",
+          "looking",
+          "at",
+          "the",
+          "world,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "process"
+          ],
+          [
+            "of"
+          ],
+          [
+            "learning"
+          ],
+          [
+            "and"
+          ],
+          [
+            "exploring"
+          ],
+          [
+            "a"
+          ],
+          [
+            "subject"
+          ],
+          [
+            "can"
+          ],
+          [
+            "lead"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "new"
+          ],
+          [
+            "way"
+          ],
+          [
+            "of"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/42.mp3",
+        "timeStart": 139.96,
+        "timeEnd": 145.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47975/list"
+      },
+      {
+        "id": 47976,
+        "position": 43,
+        "content": "and the study skills and techniques that you build up",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "study",
+          "skills",
+          "and",
+          "techniques",
+          "that",
+          "you",
+          "build",
+          "up"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "study"
+          ],
+          [
+            "skills"
+          ],
+          [
+            "and"
+          ],
+          [
+            "techniques"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "build"
+          ],
+          [
+            "up"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/43.mp3",
+        "timeStart": 145.96,
+        "timeEnd": 149.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47976/list"
+      },
+      {
+        "id": 47977,
+        "position": 44,
+        "content": "can be applied in all sorts of different ways.",
+        "defaultInput": "",
+        "jsonContent": [
+          "can",
+          "be",
+          "applied",
+          "in",
+          "all",
+          "sorts",
+          "of",
+          "different",
+          "ways."
+        ],
+        "solution": [
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "applied"
+          ],
+          [
+            "in"
+          ],
+          [
+            "all"
+          ],
+          [
+            "sorts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "different"
+          ],
+          [
+            "ways."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/44.mp3",
+        "timeStart": 149.04,
+        "timeEnd": 152.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47977/list"
+      },
+      {
+        "id": 47978,
+        "position": 45,
+        "content": "Actually, I...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually,",
+          "I..."
+        ],
+        "solution": [
+          [
+            "Actually,"
+          ],
+          [
+            "I..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/45.mp3",
+        "timeStart": 153.12,
+        "timeEnd": 154.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47978/list"
+      },
+      {
+        "id": 47979,
+        "position": 46,
+        "content": "I'm very excited about the whole thing of taking up studying again but,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "very",
+          "excited",
+          "about",
+          "the",
+          "whole",
+          "thing",
+          "of",
+          "taking",
+          "up",
+          "studying",
+          "again",
+          "but,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "very"
+          ],
+          [
+            "excited"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "of"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "up"
+          ],
+          [
+            "studying"
+          ],
+          [
+            "again"
+          ],
+          [
+            "but,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/46.mp3",
+        "timeStart": 154.94,
+        "timeEnd": 159.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47979/list"
+      },
+      {
+        "id": 47980,
+        "position": 47,
+        "content": "you know, I'm a little nervous about whether I'll manage to get everything done.",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "know,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "little",
+          "nervous",
+          "about",
+          "whether",
+          [
+            "I'll",
+            "I will"
+          ],
+          "manage",
+          "to",
+          "get",
+          "everything",
+          "done."
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "nervous"
+          ],
+          [
+            "about"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "everything"
+          ],
+          [
+            "done."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/47.mp3",
+        "timeStart": 159.61,
+        "timeEnd": 164.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47980/list"
+      },
+      {
+        "id": 47981,
+        "position": 48,
+        "content": "I suppose it's the same for all mature students?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "suppose",
+          "it's",
+          "the",
+          "same",
+          "for",
+          "all",
+          "mature",
+          "students?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "suppose"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "mature"
+          ],
+          [
+            "students?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/48.mp3",
+        "timeStart": 164.69,
+        "timeEnd": 166.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47981/list"
+      },
+      {
+        "id": 47982,
+        "position": 49,
+        "content": "Of course it is.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course",
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course"
+          ],
+          [
+            "it is.",
+            "it's"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/49.mp3",
+        "timeStart": 166.97,
+        "timeEnd": 168.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47982/list"
+      },
+      {
+        "id": 47983,
+        "position": 50,
+        "content": "Two of the key components of the course are time management",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Two",
+            "2"
+          ],
+          "of",
+          "the",
+          "key",
+          "components",
+          "of",
+          "the",
+          "course",
+          "are",
+          "time",
+          "management"
+        ],
+        "solution": [
+          [
+            "Two",
+            "2"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "key"
+          ],
+          [
+            "components"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "course"
+          ],
+          [
+            "are"
+          ],
+          [
+            "time"
+          ],
+          [
+            "management"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/50.mp3",
+        "timeStart": 168.96,
+        "timeEnd": 172.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47983/list"
+      },
+      {
+        "id": 47984,
+        "position": 51,
+        "content": "and overcoming procrastination.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "overcoming",
+          "procrastination."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "overcoming"
+          ],
+          [
+            "procrastination."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/51.mp3",
+        "timeStart": 172.79,
+        "timeEnd": 175.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47984/list"
+      },
+      {
+        "id": 47985,
+        "position": 52,
+        "content": "People discover that, once they learn to plan their days,",
+        "defaultInput": "",
+        "jsonContent": [
+          "People",
+          "discover",
+          "that,",
+          "once",
+          "they",
+          "learn",
+          "to",
+          "plan",
+          "their",
+          "days,"
+        ],
+        "solution": [
+          [
+            "People"
+          ],
+          [
+            "discover"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "once"
+          ],
+          [
+            "they"
+          ],
+          [
+            "learn"
+          ],
+          [
+            "to"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "their"
+          ],
+          [
+            "days,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/52.mp3",
+        "timeStart": 176.17,
+        "timeEnd": 179.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47985/list"
+      },
+      {
+        "id": 47986,
+        "position": 53,
+        "content": "all the work can be accomplished and there'll still be time for leisure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "all",
+          "the",
+          "work",
+          "can",
+          "be",
+          "accomplished",
+          "and",
+          [
+            "there'll",
+            "there will"
+          ],
+          "still",
+          "be",
+          "time",
+          "for",
+          "leisure."
+        ],
+        "solution": [
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "work"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "accomplished"
+          ],
+          [
+            "and"
+          ],
+          [
+            "there'll",
+            "there will"
+          ],
+          [
+            "still"
+          ],
+          [
+            "be"
+          ],
+          [
+            "time"
+          ],
+          [
+            "for"
+          ],
+          [
+            "leisure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/53.mp3",
+        "timeStart": 179.64,
+        "timeEnd": 182.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47986/list"
+      },
+      {
+        "id": 47987,
+        "position": 54,
+        "content": "Is there an enrolment fee?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "there",
+          "an",
+          "enrolment",
+          "fee?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "an"
+          ],
+          [
+            "enrolment"
+          ],
+          [
+            "fee?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/54.mp3",
+        "timeStart": 182.93,
+        "timeEnd": 184.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47987/list"
+      },
+      {
+        "id": 47988,
+        "position": 55,
+        "content": "Well, er, oh, just a minute, let's see...",
+        "defaultInput": "Well, er, oh, just a minute, let's see...",
+        "jsonContent": [
+          "Well,",
+          "er,",
+          "oh,",
+          "just",
+          "a",
+          "minute,",
+          "let's",
+          "see..."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "er,"
+          ],
+          [
+            "oh,"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "minute,"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "see..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/55.mp3",
+        "timeStart": 185.35,
+        "timeEnd": 188.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47988/list"
+      },
+      {
+        "id": 47989,
+        "position": 56,
+        "content": "Ah, the cost is 30 pounds,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Ah,",
+          "the",
+          "cost",
+          "is",
+          [
+            "30",
+            "thirty"
+          ],
+          "pounds,"
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cost"
+          ],
+          [
+            "is"
+          ],
+          [
+            "30",
+            "thirty"
+          ],
+          [
+            "pounds,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/56.mp3",
+        "timeStart": 189.06,
+        "timeEnd": 191.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47989/list"
+      },
+      {
+        "id": 47990,
+        "position": 57,
+        "content": "which includes all course materials and morning tea.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "includes",
+          "all",
+          "course",
+          "materials",
+          "and",
+          "morning",
+          "tea."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "includes"
+          ],
+          [
+            "all"
+          ],
+          [
+            "course"
+          ],
+          [
+            "materials"
+          ],
+          [
+            "and"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "tea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/57.mp3",
+        "timeStart": 191.99,
+        "timeEnd": 195.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47990/list"
+      },
+      {
+        "id": 47991,
+        "position": 58,
+        "content": "You have to arrange your own lunch.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You have",
+            "you've"
+          ],
+          "to",
+          "arrange",
+          "your",
+          "own",
+          "lunch."
+        ],
+        "solution": [
+          [
+            "You have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "your"
+          ],
+          [
+            "own"
+          ],
+          [
+            "lunch."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/58.mp3",
+        "timeStart": 195.4,
+        "timeEnd": 197.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47991/list"
+      },
+      {
+        "id": 47992,
+        "position": 59,
+        "content": "That wouldn't be a problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "be",
+          "a",
+          "problem."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/59.mp3",
+        "timeStart": 197.88,
+        "timeEnd": 199.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47992/list"
+      },
+      {
+        "id": 47993,
+        "position": 60,
+        "content": "I already make sandwiches for my three kids and my wife and myself every day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "already",
+          "make",
+          "sandwiches",
+          "for",
+          "my",
+          [
+            "three",
+            "3"
+          ],
+          "kids",
+          "and",
+          "my",
+          "wife",
+          "and",
+          "myself",
+          "every",
+          "day."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "already"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sandwiches"
+          ],
+          [
+            "for"
+          ],
+          [
+            "my"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "kids"
+          ],
+          [
+            "and"
+          ],
+          [
+            "my"
+          ],
+          [
+            "wife"
+          ],
+          [
+            "and"
+          ],
+          [
+            "myself"
+          ],
+          [
+            "every"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/60.mp3",
+        "timeStart": 199.03,
+        "timeEnd": 203.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47993/list"
+      },
+      {
+        "id": 47994,
+        "position": 61,
+        "content": "I won't have to change my routine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "won't",
+          "have",
+          "to",
+          "change",
+          "my",
+          "routine."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "change"
+          ],
+          [
+            "my"
+          ],
+          [
+            "routine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/61.mp3",
+        "timeStart": 203.16,
+        "timeEnd": 206.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47994/list"
+      },
+      {
+        "id": 47995,
+        "position": 62,
+        "content": "Now, I need to tell you that this is a very popular course",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "I",
+          "need",
+          "to",
+          "tell",
+          "you",
+          "that",
+          "this",
+          "is",
+          "a",
+          "very",
+          "popular",
+          "course"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "you"
+          ],
+          [
+            "that"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "popular"
+          ],
+          [
+            "course"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/62.mp3",
+        "timeStart": 206.18,
+        "timeEnd": 209.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47995/list"
+      },
+      {
+        "id": 47996,
+        "position": 63,
+        "content": "and it's essential that you book well ahead of time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it's",
+          "essential",
+          "that",
+          "you",
+          "book",
+          "well",
+          "ahead",
+          "of",
+          "time."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "essential"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "book"
+          ],
+          [
+            "well"
+          ],
+          [
+            "ahead"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/63.mp3",
+        "timeStart": 209.27,
+        "timeEnd": 211.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47996/list"
+      },
+      {
+        "id": 47997,
+        "position": 64,
+        "content": "In fact, the Course Convenor tells me that there are only five places left.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "fact,",
+          "the",
+          "Course",
+          "Convenor",
+          "tells",
+          "me",
+          "that",
+          "there",
+          "are",
+          "only",
+          [
+            "five",
+            "5"
+          ],
+          "places",
+          "left."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "fact,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Course"
+          ],
+          [
+            "Convenor"
+          ],
+          [
+            "tells"
+          ],
+          [
+            "me"
+          ],
+          [
+            "that"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "only"
+          ],
+          [
+            "five",
+            "5"
+          ],
+          [
+            "places"
+          ],
+          [
+            "left."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/64.mp3",
+        "timeStart": 212.28,
+        "timeEnd": 217.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47997/list"
+      },
+      {
+        "id": 47998,
+        "position": 65,
+        "content": "What other course might be good for me?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "other",
+          "course",
+          "might",
+          "be",
+          "good",
+          "for",
+          "me?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "other"
+          ],
+          [
+            "course"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "good"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/65.mp3",
+        "timeStart": 218.54,
+        "timeEnd": 220.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47998/list"
+      },
+      {
+        "id": 47999,
+        "position": 66,
+        "content": "There is one other that you could benefit from.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          "other",
+          "that",
+          "you",
+          "could",
+          "benefit",
+          "from."
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "other"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "benefit"
+          ],
+          [
+            "from."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/66.mp3",
+        "timeStart": 221.56,
+        "timeEnd": 224.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47999/list"
+      },
+      {
+        "id": 48000,
+        "position": 67,
+        "content": "It's simply called 'Learning Skills for University Study'",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "simply",
+          "called",
+          "'Learning",
+          "Skills",
+          "for",
+          "University",
+          "Study'"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "simply"
+          ],
+          [
+            "called"
+          ],
+          [
+            "'Learning"
+          ],
+          [
+            "Skills"
+          ],
+          [
+            "for"
+          ],
+          [
+            "University"
+          ],
+          [
+            "Study'"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/67.mp3",
+        "timeStart": 224.66,
+        "timeEnd": 229.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48000/list"
+      },
+      {
+        "id": 48001,
+        "position": 68,
+        "content": "and is on three consecutive mornings",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "is",
+          "on",
+          [
+            "three",
+            "3"
+          ],
+          "consecutive",
+          "mornings"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "consecutive"
+          ],
+          [
+            "mornings"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/68.mp3",
+        "timeStart": 229.3,
+        "timeEnd": 232.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48001/list"
+      },
+      {
+        "id": 48002,
+        "position": 69,
+        "content": "starting on a Monday, from nine to twelve,",
+        "defaultInput": "",
+        "jsonContent": [
+          "starting",
+          "on",
+          "a",
+          "Monday,",
+          "from",
+          [
+            "nine",
+            "9"
+          ],
+          "to",
+          [
+            "twelve,",
+            "12"
+          ]
+        ],
+        "solution": [
+          [
+            "starting"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "Monday,"
+          ],
+          [
+            "from"
+          ],
+          [
+            "nine",
+            "9"
+          ],
+          [
+            "to"
+          ],
+          [
+            "twelve,",
+            "12"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/69.mp3",
+        "timeStart": 232.14,
+        "timeEnd": 235.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48002/list"
+      },
+      {
+        "id": 48003,
+        "position": 70,
+        "content": "and costs 25 pounds.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "costs",
+          [
+            "25",
+            "twenty-five"
+          ],
+          "pounds."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "costs"
+          ],
+          [
+            "25",
+            "twenty-five"
+          ],
+          [
+            "pounds."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/70.mp3",
+        "timeStart": 236.25,
+        "timeEnd": 239.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48003/list"
+      },
+      {
+        "id": 48004,
+        "position": 71,
+        "content": "This is aimed at upgrading the study skills most school-leavers have",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "aimed",
+          "at",
+          "upgrading",
+          "the",
+          "study",
+          "skills",
+          "most",
+          [
+            "school-leavers",
+            "school leavers"
+          ],
+          "have"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "aimed"
+          ],
+          [
+            "at"
+          ],
+          [
+            "upgrading"
+          ],
+          [
+            "the"
+          ],
+          [
+            "study"
+          ],
+          [
+            "skills"
+          ],
+          [
+            "most"
+          ],
+          [
+            "school-leavers",
+            "school leavers"
+          ],
+          [
+            "have"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/71.mp3",
+        "timeStart": 239.45,
+        "timeEnd": 244.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48004/list"
+      },
+      {
+        "id": 48005,
+        "position": 72,
+        "content": "and help them cope with the increased demands of university study.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "help",
+          "them",
+          "cope",
+          "with",
+          "the",
+          "increased",
+          "demands",
+          "of",
+          "university",
+          "study."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "help"
+          ],
+          [
+            "them"
+          ],
+          [
+            "cope"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "increased"
+          ],
+          [
+            "demands"
+          ],
+          [
+            "of"
+          ],
+          [
+            "university"
+          ],
+          [
+            "study."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/72.mp3",
+        "timeStart": 244.41,
+        "timeEnd": 248.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48005/list"
+      },
+      {
+        "id": 48006,
+        "position": 73,
+        "content": "It focuses mainly on making students more responsible for their own success.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "focuses",
+          "mainly",
+          "on",
+          "making",
+          "students",
+          "more",
+          "responsible",
+          "for",
+          "their",
+          "own",
+          "success."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "focuses"
+          ],
+          [
+            "mainly"
+          ],
+          [
+            "on"
+          ],
+          [
+            "making"
+          ],
+          [
+            "students"
+          ],
+          [
+            "more"
+          ],
+          [
+            "responsible"
+          ],
+          [
+            "for"
+          ],
+          [
+            "their"
+          ],
+          [
+            "own"
+          ],
+          [
+            "success."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/73.mp3",
+        "timeStart": 248.83,
+        "timeEnd": 253.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48006/list"
+      },
+      {
+        "id": 48007,
+        "position": 74,
+        "content": "What sort of things are covered in this course?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "sort",
+          "of",
+          "things",
+          "are",
+          "covered",
+          "in",
+          "this",
+          "course?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "things"
+          ],
+          [
+            "are"
+          ],
+          [
+            "covered"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "course?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/74.mp3",
+        "timeStart": 253.63,
+        "timeEnd": 255.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48007/list"
+      },
+      {
+        "id": 48008,
+        "position": 75,
+        "content": "Well, basically it's more advanced thinking,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "basically",
+          "it's",
+          "more",
+          "advanced",
+          "thinking,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "basically"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "more"
+          ],
+          [
+            "advanced"
+          ],
+          [
+            "thinking,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/75.mp3",
+        "timeStart": 256.28,
+        "timeEnd": 260.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48008/list"
+      },
+      {
+        "id": 48009,
+        "position": 76,
+        "content": "note-taking, reading and writing strategies,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "note-taking,",
+            "note taking,"
+          ],
+          "reading",
+          "and",
+          "writing",
+          "strategies,"
+        ],
+        "solution": [
+          [
+            "note-taking,",
+            "note taking,"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "and"
+          ],
+          [
+            "writing"
+          ],
+          [
+            "strategies,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/76.mp3",
+        "timeStart": 260.34,
+        "timeEnd": 263.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48009/list"
+      },
+      {
+        "id": 48010,
+        "position": 77,
+        "content": "but also some input about stress management.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "also",
+          "some",
+          "input",
+          "about",
+          "stress",
+          "management."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "also"
+          ],
+          [
+            "some"
+          ],
+          [
+            "input"
+          ],
+          [
+            "about"
+          ],
+          [
+            "stress"
+          ],
+          [
+            "management."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/77.mp3",
+        "timeStart": 263.8,
+        "timeEnd": 267.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48010/list"
+      },
+      {
+        "id": 48011,
+        "position": 78,
+        "content": "I think I'd be better off starting from the basics and looking at all the strategies, don't you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "I'd",
+          "be",
+          "better",
+          "off",
+          "starting",
+          "from",
+          "the",
+          "basics",
+          "and",
+          "looking",
+          "at",
+          "all",
+          "the",
+          "strategies,",
+          [
+            "don't",
+            "do not"
+          ],
+          "you?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "better"
+          ],
+          [
+            "off"
+          ],
+          [
+            "starting"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "basics"
+          ],
+          [
+            "and"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "strategies,"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/78.mp3",
+        "timeStart": 267.93,
+        "timeEnd": 273.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48011/list"
+      },
+      {
+        "id": 48012,
+        "position": 79,
+        "content": "Yes, from what you've told me, I think that's more in line with your situation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "from",
+          "what",
+          [
+            "you've",
+            "You have"
+          ],
+          "told",
+          "me,",
+          "I",
+          "think",
+          [
+            "that's",
+            "that is"
+          ],
+          "more",
+          "in",
+          "line",
+          "with",
+          "your",
+          "situation."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "from"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "told"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "more"
+          ],
+          [
+            "in"
+          ],
+          [
+            "line"
+          ],
+          [
+            "with"
+          ],
+          [
+            "your"
+          ],
+          [
+            "situation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/79.mp3",
+        "timeStart": 273.6,
+        "timeEnd": 278.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48012/list"
+      },
+      {
+        "id": 48013,
+        "position": 80,
+        "content": "Alright then,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Alright",
+            "all right"
+          ],
+          "then,"
+        ],
+        "solution": [
+          [
+            "Alright",
+            "all right"
+          ],
+          [
+            "then,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/80-2023-09-06-16-39-30.mp3",
+        "timeStart": 278,
+        "timeEnd": 279.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48013/list"
+      },
+      {
+        "id": 48014,
+        "position": 81,
+        "content": "can I book a place on the 'Study for Success' seminar course now?",
+        "defaultInput": "",
+        "jsonContent": [
+          "can",
+          "I",
+          "book",
+          "a",
+          "place",
+          "on",
+          "the",
+          "'Study",
+          "for",
+          "Success'",
+          "seminar",
+          "course",
+          "now?"
+        ],
+        "solution": [
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "book"
+          ],
+          [
+            "a"
+          ],
+          [
+            "place"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "'Study"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Success'"
+          ],
+          [
+            "seminar"
+          ],
+          [
+            "course"
+          ],
+          [
+            "now?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/81.mp3",
+        "timeStart": 279.92,
+        "timeEnd": 283.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48014/list"
+      },
+      {
+        "id": 48015,
+        "position": 82,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/82.mp3",
+        "timeStart": 283.12,
+        "timeEnd": 283.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48015/list"
+      },
+      {
+        "id": 48016,
+        "position": 83,
+        "content": "Let me just get out a registration form and take down your details.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let",
+          "me",
+          "just",
+          "get",
+          "out",
+          "a",
+          "registration",
+          "form",
+          "and",
+          "take",
+          "down",
+          "your",
+          "details."
+        ],
+        "solution": [
+          [
+            "Let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "just"
+          ],
+          [
+            "get"
+          ],
+          [
+            "out"
+          ],
+          [
+            "a"
+          ],
+          [
+            "registration"
+          ],
+          [
+            "form"
+          ],
+          [
+            "and"
+          ],
+          [
+            "take"
+          ],
+          [
+            "down"
+          ],
+          [
+            "your"
+          ],
+          [
+            "details."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-4-test-3-part-3-2023-08-12-20-23-09/83.mp3",
+        "timeStart": 284.21,
+        "timeEnd": 288.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/48016/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "47934": {
+      "id": 2558295,
+      "text": "Xin chào.",
+      "author": "ChatGPT4.1"
+    },
+    "47935": {
+      "id": 2558296,
+      "text": "Tôi là Dawn Matthews.",
+      "author": "ChatGPT4.1"
+    },
+    "47936": {
+      "id": 2558297,
+      "text": "Vâng, xin chào.",
+      "author": "ChatGPT4.1"
+    },
+    "47937": {
+      "id": 2558298,
+      "text": "Tôi được giới thiệu đến bạn vì tôi đang tìm hiểu về các khóa học ôn tập mà bạn tổ chức.",
+      "author": "ChatGPT4.1"
+    },
+    "47938": {
+      "id": 2558299,
+      "text": "Tôi muốn tìm hiểu thêm một chút về chúng.",
+      "author": "ChatGPT4.1"
+    },
+    "47939": {
+      "id": 2558300,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "47940": {
+      "id": 2558301,
+      "text": "Chúng tôi tổ chức khá nhiều khóa học ngắn hạn khác nhau dành cho sinh viên quay lại việc học hoặc học bán thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "47941": {
+      "id": 2558302,
+      "text": "Ờ, bạn hãy kể cho tôi nghe về tình hình của bạn đi.",
+      "author": "ChatGPT4.1"
+    },
+    "47942": {
+      "id": 2558303,
+      "text": "Tôi nghĩ tôi thật sự cần sự giúp đỡ để chuẩn bị cho học kỳ sắp tới,",
+      "author": "ChatGPT4.1"
+    },
+    "47943": {
+      "id": 2558304,
+      "text": "đặc biệt là để lấy lại chút tự tin",
+      "author": "ChatGPT4.1"
+    },
+    "47944": {
+      "id": 2558305,
+      "text": "và giúp tôi học hiệu quả hơn vì, bạn thấy đó,",
+      "author": "ChatGPT4.1"
+    },
+    "47945": {
+      "id": 2558306,
+      "text": "tôi đã rời xa môi trường học tập, đi làm gần mười hai năm rồi, nên...",
+      "author": "ChatGPT4.1"
+    },
+    "47946": {
+      "id": 2558307,
+      "text": "đúng là đã lâu lắm rồi kể từ lần cuối tôi làm sinh viên.",
+      "author": "ChatGPT4.1"
+    },
+    "47947": {
+      "id": 2558308,
+      "text": "Vâng, nghe như một thời gian rất dài phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "47948": {
+      "id": 2558309,
+      "text": "À, vậy để tôi bắt đầu kể cho bạn nghe các khóa học có thể phù hợp với bạn nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "47949": {
+      "id": 2558310,
+      "text": "Bạn là sinh viên đại học hay sau đại học?",
+      "author": "ChatGPT4.1"
+    },
+    "47950": {
+      "id": 2558311,
+      "text": "Bạn học khối ngành xã hội hay khoa học tự nhiên?",
+      "author": "ChatGPT4.1"
+    },
+    "47951": {
+      "id": 2558312,
+      "text": "Tôi là sinh viên đại học, thuộc khoa Kinh doanh.",
+      "author": "ChatGPT4.1"
+    },
+    "47952": {
+      "id": 2558313,
+      "text": "Vậy thì được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "47953": {
+      "id": 2558314,
+      "text": "Đầu tiên, chúng tôi có hội thảo chuyên sâu \"Học để Thành công\"",
+      "author": "ChatGPT4.1"
+    },
+    "47954": {
+      "id": 2558315,
+      "text": "tổ chức vào ngày mùng một và mùng hai tháng Hai.",
+      "author": "ChatGPT4.1"
+    },
+    "47955": {
+      "id": 2558316,
+      "text": "Hội thảo này dành cho những sinh viên như bạn, những người chưa rõ sẽ mong đợi gì ở đại học,",
+      "author": "ChatGPT4.1"
+    },
+    "47956": {
+      "id": 2558317,
+      "text": "và tập trung vào nhiều phương pháp học tập khác nhau ở đại học,",
+      "author": "ChatGPT4.1"
+    },
+    "47957": {
+      "id": 2558318,
+      "text": "để tạo động lực cho bạn bắt đầu việc học",
+      "author": "ChatGPT4.1"
+    },
+    "47958": {
+      "id": 2558319,
+      "text": "và phát triển các chiến lược học tập của riêng bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "47959": {
+      "id": 2558320,
+      "text": "Ừm, nghe có vẻ hay đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "47960": {
+      "id": 2558321,
+      "text": "Một số chiến lược sẽ được trình bày là gì?",
+      "author": "ChatGPT4.1"
+    },
+    "47961": {
+      "id": 2558322,
+      "text": "Chúng tôi cố gắng đề cập đến mọi khía cạnh của việc học.",
+      "author": "ChatGPT4.1"
+    },
+    "47962": {
+      "id": 2558323,
+      "text": "Ví dụ, một số chiến lược về kỹ năng viết,",
+      "author": "ChatGPT4.1"
+    },
+    "47963": {
+      "id": 2558324,
+      "text": "là cải thiện việc lập kế hoạch trước khi viết,",
+      "author": "ChatGPT4.1"
+    },
+    "47964": {
+      "id": 2558325,
+      "text": "sắp xếp lại suy nghĩ của bạn",
+      "author": "ChatGPT4.1"
+    },
+    "47965": {
+      "id": 2558326,
+      "text": "và phát triển một số kỹ thuật giúp bạn viết rõ ràng hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "47995": {
+      "id": 2574152,
+      "text": "Bây giờ, tôi cần nói với bạn rằng đây là một khóa học rất phổ biến",
+      "author": "ChatGPT4.1"
+    },
+    "47996": {
+      "id": 2574153,
+      "text": "và việc bạn đặt chỗ trước từ sớm là rất cần thiết.",
+      "author": "ChatGPT4.1"
+    },
+    "47997": {
+      "id": 2574154,
+      "text": "Thực ra, người điều phối khóa học nói với tôi rằng chỉ còn lại năm chỗ trống.",
+      "author": "ChatGPT4.1"
+    },
+    "47998": {
+      "id": 2574155,
+      "text": "Khóa học nào khác có thể phù hợp với tôi?",
+      "author": "ChatGPT4.1"
+    },
+    "47999": {
+      "id": 2574156,
+      "text": "Có một khóa học khác mà bạn có thể được lợi.",
+      "author": "ChatGPT4.1"
+    },
+    "48000": {
+      "id": 2574157,
+      "text": "Khóa học này đơn giản có tên là 'Kỹ năng học tập cho việc học đại học'",
+      "author": "ChatGPT4.1"
+    },
+    "48001": {
+      "id": 2574158,
+      "text": "và diễn ra trong ba buổi sáng liên tiếp",
+      "author": "ChatGPT4.1"
+    },
+    "48002": {
+      "id": 2574159,
+      "text": "bắt đầu vào thứ Hai, từ chín giờ đến mười hai giờ,",
+      "author": "ChatGPT4.1"
+    },
+    "48003": {
+      "id": 2574160,
+      "text": "và có giá 25 bảng Anh.",
+      "author": "ChatGPT4.1"
+    },
+    "48004": {
+      "id": 2574161,
+      "text": "Khóa học này nhằm nâng cao kỹ năng học tập mà hầu hết học sinh vừa tốt nghiệp phổ thông có",
+      "author": "ChatGPT4.1"
+    },
+    "48005": {
+      "id": 2574162,
+      "text": "và giúp họ đối phó với những yêu cầu cao hơn của việc học đại học.",
+      "author": "ChatGPT4.1"
+    },
+    "48006": {
+      "id": 2574163,
+      "text": "Khóa học chủ yếu tập trung vào việc khuyến khích sinh viên chịu trách nhiệm hơn với thành công của bản thân.",
+      "author": "ChatGPT4.1"
+    },
+    "48007": {
+      "id": 2574164,
+      "text": "Khóa học này bao gồm những nội dung gì?",
+      "author": "ChatGPT4.1"
+    },
+    "48008": {
+      "id": 2574165,
+      "text": "Về cơ bản, đó là tư duy nâng cao hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "48009": {
+      "id": 2574166,
+      "text": "chiến lược ghi chú, đọc hiểu và viết,",
+      "author": "ChatGPT4.1"
+    },
+    "48010": {
+      "id": 2574167,
+      "text": "cũng như một số kiến thức về quản lý căng thẳng.",
+      "author": "ChatGPT4.1"
+    },
+    "48011": {
+      "id": 2574168,
+      "text": "Tôi nghĩ mình nên bắt đầu từ những điều cơ bản và xem xét tất cả các chiến lược, bạn có nghĩ vậy không?",
+      "author": "ChatGPT4.1"
+    },
+    "48012": {
+      "id": 2574169,
+      "text": "Vâng, dựa trên những gì bạn nói, tôi nghĩ điều đó phù hợp hơn với tình huống của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "48013": {
+      "id": 2574170,
+      "text": "Được rồi,",
+      "author": "ChatGPT4.1"
+    },
+    "48014": {
+      "id": 2574171,
+      "text": "bây giờ tôi có thể đăng ký một chỗ trong khóa hội thảo 'Học để thành công' không?",
+      "author": "ChatGPT4.1"
+    },
+    "48015": {
+      "id": 2574172,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "48016": {
+      "id": 2574173,
+      "text": "Để tôi lấy mẫu đơn đăng ký và ghi lại thông tin của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "47966": {
+      "id": 2605453,
+      "text": "Với kỹ năng đọc, sẽ có các buổi hướng dẫn thói quen phân tích tài liệu khi bạn đọc,",
+      "author": "ChatGPT4.1"
+    },
+    "47967": {
+      "id": 2605454,
+      "text": "và mẹo giúp bạn ghi lại và ghi nhớ những gì đã đọc.",
+      "author": "ChatGPT4.1"
+    },
+    "47968": {
+      "id": 2605455,
+      "text": "Thực sự rất quan trọng để bạn có thể đọc một cách tự tin ngay từ đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "47969": {
+      "id": 2605456,
+      "text": "Cũng có những lời khuyên về cách tận dụng tối đa các bài giảng",
+      "author": "ChatGPT4.1"
+    },
+    "47970": {
+      "id": 2605457,
+      "text": "và luyện tập thuyết trình tự tin,",
+      "author": "ChatGPT4.1"
+    },
+    "47971": {
+      "id": 2605458,
+      "text": "cũng như cách chuẩn bị cho các kỳ thi.",
+      "author": "ChatGPT4.1"
+    },
+    "47972": {
+      "id": 2605459,
+      "text": "Còn về khía cạnh động lực thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "47973": {
+      "id": 2605460,
+      "text": "À. Chúng tôi có nhiều bài tập giúp tạo động lực",
+      "author": "ChatGPT4.1"
+    },
+    "47974": {
+      "id": 2605461,
+      "text": "giúp sinh viên cảm thấy tích cực và hào hứng về việc học.",
+      "author": "ChatGPT4.1"
+    },
+    "47975": {
+      "id": 2605462,
+      "text": "Quá trình học tập và khám phá một môn học có thể mở ra một cách nhìn mới về thế giới,",
+      "author": "ChatGPT4.1"
+    },
+    "47976": {
+      "id": 2605463,
+      "text": "và các kỹ năng, phương pháp học mà bạn phát triển",
+      "author": "ChatGPT4.1"
+    },
+    "47977": {
+      "id": 2605464,
+      "text": "có thể áp dụng theo nhiều cách khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "47978": {
+      "id": 2605465,
+      "text": "Thật ra, tôi...",
+      "author": "ChatGPT4.1"
+    },
+    "47979": {
+      "id": 2605466,
+      "text": "Tôi rất hào hứng với việc quay lại học tập nhưng,",
+      "author": "ChatGPT4.1"
+    },
+    "47980": {
+      "id": 2605467,
+      "text": "bạn biết đó, tôi hơi lo không biết mình có thể làm xong hết mọi việc không.",
+      "author": "ChatGPT4.1"
+    },
+    "47981": {
+      "id": 2605837,
+      "text": "Tôi đoán là mọi sinh viên lớn tuổi đều như vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "47982": {
+      "id": 2605838,
+      "text": "Tất nhiên rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "47983": {
+      "id": 2605839,
+      "text": "Hai trong số những thành phần chính của khóa học là quản lý thời gian",
+      "author": "ChatGPT4.1"
+    },
+    "47984": {
+      "id": 2605840,
+      "text": "và vượt qua sự trì hoãn.",
+      "author": "ChatGPT4.1"
+    },
+    "47985": {
+      "id": 2605841,
+      "text": "Mọi người nhận ra rằng, một khi họ học cách lên kế hoạch cho ngày của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "47986": {
+      "id": 2605842,
+      "text": "tất cả công việc đều có thể hoàn thành mà vẫn có thời gian để giải trí.",
+      "author": "ChatGPT4.1"
+    },
+    "47987": {
+      "id": 2605843,
+      "text": "Có phí đăng ký không?",
+      "author": "ChatGPT4.1"
+    },
+    "47988": {
+      "id": 2605844,
+      "text": "À, ừm, đợi chút, để tôi xem...",
+      "author": "ChatGPT4.1"
+    },
+    "47989": {
+      "id": 2605845,
+      "text": "À, chi phí là 30 bảng,",
+      "author": "ChatGPT4.1"
+    },
+    "47990": {
+      "id": 2605846,
+      "text": "bao gồm tất cả tài liệu khóa học và trà sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "47991": {
+      "id": 2605847,
+      "text": "Bạn phải tự lo bữa trưa của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "47992": {
+      "id": 2605848,
+      "text": "Điều đó không thành vấn đề.",
+      "author": "ChatGPT4.1"
+    },
+    "47993": {
+      "id": 2605849,
+      "text": "Tôi đã làm bánh mì kẹp cho ba đứa con, vợ và chính tôi mỗi ngày rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "47994": {
+      "id": 2605850,
+      "text": "Tôi sẽ không phải thay đổi thói quen của mình.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

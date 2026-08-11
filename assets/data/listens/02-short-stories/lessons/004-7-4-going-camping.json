@@ -1,0 +1,981 @@
+{
+  "summary": {
+    "id": 7,
+    "name": "4. Going camping",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 4,
+    "totalChallenges": 22,
+    "groupId": 86,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/7",
+  "detail": {
+    "id": 7,
+    "lessonName": "4. Going camping",
+    "name": "4. Going camping",
+    "position": 4,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/0-4-going-camping.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 321,
+        "position": 1,
+        "content": "The Bright family went camping on the weekend.",
+        "defaultInput": "The Bright ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "went",
+          "camping",
+          "on",
+          "the",
+          "weekend."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "went"
+          ],
+          [
+            "camping"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weekend."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/1.mp3",
+        "timeStart": 3.4,
+        "timeEnd": 6.3,
+        "hints": [],
+        "nbComments": 17,
+        "discussionUrl": "https://dailydictation.com/discussions/321/list"
+      },
+      {
+        "id": 322,
+        "position": 2,
+        "content": "The Bright family went to Silent Lake.",
+        "defaultInput": "The Bright family ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "went",
+          "to",
+          "Silent",
+          "Lake."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "went"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Silent"
+          ],
+          [
+            "Lake."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/2.mp3",
+        "timeStart": 6.8,
+        "timeEnd": 9.4,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/322/list"
+      },
+      {
+        "id": 323,
+        "position": 3,
+        "content": "The Bright family left on Friday.",
+        "defaultInput": "The Bright family ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "left",
+          "on",
+          "Friday."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "left"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Friday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/3.mp3",
+        "timeStart": 10,
+        "timeEnd": 12.3,
+        "hints": [],
+        "nbComments": 10,
+        "discussionUrl": "https://dailydictation.com/discussions/323/list"
+      },
+      {
+        "id": 324,
+        "position": 4,
+        "content": "They camped for three days.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "camped",
+          "for",
+          [
+            "three",
+            "3"
+          ],
+          "days."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "camped"
+          ],
+          [
+            "for"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "days."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/4.mp3",
+        "timeStart": 12.9,
+        "timeEnd": 15,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/324/list"
+      },
+      {
+        "id": 325,
+        "position": 5,
+        "content": "The Bright family brought a big tent.",
+        "defaultInput": "The Bright family ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "brought",
+          "a",
+          "big",
+          "tent."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "brought"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "tent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/5.mp3",
+        "timeStart": 15.6,
+        "timeEnd": 18.1,
+        "hints": [],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/325/list"
+      },
+      {
+        "id": 326,
+        "position": 6,
+        "content": "They brought a lot of food.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "brought",
+          "a",
+          "lot",
+          "of",
+          "food."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "brought"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "food."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/6.mp3",
+        "timeStart": 18.5,
+        "timeEnd": 20.2,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/326/list"
+      },
+      {
+        "id": 327,
+        "position": 7,
+        "content": "They brought insect repellent.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "brought",
+          "insect",
+          "repellent."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "brought"
+          ],
+          [
+            "insect"
+          ],
+          [
+            "repellent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/7.mp3",
+        "timeStart": 20.7,
+        "timeEnd": 22.7,
+        "hints": [],
+        "nbComments": 29,
+        "discussionUrl": "https://dailydictation.com/discussions/327/list"
+      },
+      {
+        "id": 328,
+        "position": 8,
+        "content": "The Bright family had a campfire on Friday.",
+        "defaultInput": "The Bright family ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "had",
+          "a",
+          "campfire",
+          "on",
+          "Friday."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "campfire"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Friday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/8.mp3",
+        "timeStart": 23.2,
+        "timeEnd": 26.1,
+        "hints": [],
+        "nbComments": 19,
+        "discussionUrl": "https://dailydictation.com/discussions/328/list"
+      },
+      {
+        "id": 329,
+        "position": 9,
+        "content": "They roasted marshmallows.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "roasted",
+          "marshmallows."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "roasted"
+          ],
+          [
+            "marshmallows."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/9.mp3",
+        "timeStart": 26.6,
+        "timeEnd": 28.4,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/329/list"
+      },
+      {
+        "id": 330,
+        "position": 10,
+        "content": "They sang campfire songs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "sang",
+          "campfire",
+          "songs."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "sang"
+          ],
+          [
+            "campfire"
+          ],
+          [
+            "songs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/10.mp3",
+        "timeStart": 28.9,
+        "timeEnd": 31,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/330/list"
+      },
+      {
+        "id": 331,
+        "position": 11,
+        "content": "On Saturday they went canoeing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "Saturday",
+          "they",
+          "went",
+          "canoeing."
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "Saturday"
+          ],
+          [
+            "they"
+          ],
+          [
+            "went"
+          ],
+          [
+            "canoeing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/11.mp3",
+        "timeStart": 31.8,
+        "timeEnd": 34.3,
+        "hints": [],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/331/list"
+      },
+      {
+        "id": 332,
+        "position": 12,
+        "content": "On Saturday they went fishing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "Saturday",
+          "they",
+          "went",
+          "fishing."
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "Saturday"
+          ],
+          [
+            "they"
+          ],
+          [
+            "went"
+          ],
+          [
+            "fishing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/12.mp3",
+        "timeStart": 34.9,
+        "timeEnd": 37.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/332/list"
+      },
+      {
+        "id": 333,
+        "position": 13,
+        "content": "On Saturday they went swimming.",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "Saturday",
+          "they",
+          "went",
+          "swimming."
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "Saturday"
+          ],
+          [
+            "they"
+          ],
+          [
+            "went"
+          ],
+          [
+            "swimming."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/13.mp3",
+        "timeStart": 38.2,
+        "timeEnd": 40.8,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/333/list"
+      },
+      {
+        "id": 334,
+        "position": 14,
+        "content": "They went hiking on Sunday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "went",
+          "hiking",
+          "on",
+          "Sunday."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "went"
+          ],
+          [
+            "hiking"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Sunday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/14.mp3",
+        "timeStart": 41.5,
+        "timeEnd": 43.4,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/334/list"
+      },
+      {
+        "id": 335,
+        "position": 15,
+        "content": "The Bright family saw many birds.",
+        "defaultInput": "The Bright family ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "saw",
+          "many",
+          "birds."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "many"
+          ],
+          [
+            "birds."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/15.mp3",
+        "timeStart": 44.1,
+        "timeEnd": 46.5,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/335/list"
+      },
+      {
+        "id": 336,
+        "position": 16,
+        "content": "They saw blue jays.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "saw",
+          "blue",
+          "jays."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "blue"
+          ],
+          [
+            "jays."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/16.mp3",
+        "timeStart": 46.8,
+        "timeEnd": 48.4,
+        "hints": [],
+        "nbComments": 32,
+        "discussionUrl": "https://dailydictation.com/discussions/336/list"
+      },
+      {
+        "id": 337,
+        "position": 17,
+        "content": "They saw hummingbirds.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "saw",
+          [
+            "hummingbirds.",
+            "humming birds"
+          ]
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "hummingbirds.",
+            "humming birds"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/17.mp3",
+        "timeStart": 48.7,
+        "timeEnd": 50.4,
+        "hints": [],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/337/list"
+      },
+      {
+        "id": 338,
+        "position": 18,
+        "content": "The Bright family saw many animals.",
+        "defaultInput": "The Bright family ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "saw",
+          "many",
+          "animals."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "many"
+          ],
+          [
+            "animals."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/18.mp3",
+        "timeStart": 51,
+        "timeEnd": 53.5,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/338/list"
+      },
+      {
+        "id": 339,
+        "position": 19,
+        "content": "They saw a raccoon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "saw",
+          "a",
+          [
+            "raccoon.",
+            "racoon"
+          ]
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "a"
+          ],
+          [
+            "raccoon.",
+            "racoon"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/19.mp3",
+        "timeStart": 53.9,
+        "timeEnd": 55.4,
+        "hints": [],
+        "nbComments": 18,
+        "discussionUrl": "https://dailydictation.com/discussions/339/list"
+      },
+      {
+        "id": 340,
+        "position": 20,
+        "content": "They saw a squirrel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "saw",
+          "a",
+          "squirrel."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "saw"
+          ],
+          [
+            "a"
+          ],
+          [
+            "squirrel."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/20.mp3",
+        "timeStart": 55.91,
+        "timeEnd": 57.3,
+        "hints": [],
+        "nbComments": 16,
+        "discussionUrl": "https://dailydictation.com/discussions/340/list"
+      },
+      {
+        "id": 341,
+        "position": 21,
+        "content": "But they didn't see a bear.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "they",
+          [
+            "didn't",
+            "did not"
+          ],
+          "see",
+          "a",
+          "bear."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "they"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "see"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bear."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/21.mp3",
+        "timeStart": 57.91,
+        "timeEnd": 59.81,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/341/list"
+      },
+      {
+        "id": 342,
+        "position": 22,
+        "content": "The Bright family had a fun vacation.",
+        "defaultInput": "The Bright family ",
+        "jsonContent": [
+          "The",
+          "Bright",
+          "family",
+          "had",
+          "a",
+          "fun",
+          "vacation."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Bright"
+          ],
+          [
+            "family"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fun"
+          ],
+          [
+            "vacation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/4-going-camping-2019-03-15-01-11-00/22.mp3",
+        "timeStart": 60.4,
+        "timeEnd": 62.9,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/342/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "321": {
+      "id": 1545,
+      "text": "Gia đình Bright đã đi cắm trại vào cuối tuần.",
+      "author": "a user"
+    },
+    "322": {
+      "id": 1547,
+      "text": "Gia đình Bright đã đến hồ Silent",
+      "author": "a user"
+    },
+    "324": {
+      "id": 1550,
+      "text": "Họ đã cắm trại trong ba ngày.",
+      "author": "a user"
+    },
+    "327": {
+      "id": 1554,
+      "text": "Họ mang theo thuốc chống côn trùng.",
+      "author": "a user"
+    },
+    "329": {
+      "id": 1556,
+      "text": "Họ đã nướng kẹo dẻo trên than hồng",
+      "author": "a user"
+    },
+    "330": {
+      "id": 1558,
+      "text": "Họ đã hát những bài hát lửa trại.",
+      "author": "a user"
+    },
+    "331": {
+      "id": 1559,
+      "text": "Vào thứ bảy, họ đã đi chèo cano",
+      "author": "a user"
+    },
+    "335": {
+      "id": 3488,
+      "text": "Gia đình Bright đã thấy nhiều loài chim.",
+      "author": "a user"
+    },
+    "336": {
+      "id": 3489,
+      "text": "Họ đã nhìn thấy những con chim giẻ cùi xanh.",
+      "author": "a user"
+    },
+    "338": {
+      "id": 3491,
+      "text": "Gia đình Bright đã nhìn thấy nhiều động vật.",
+      "author": "a user"
+    },
+    "339": {
+      "id": 3492,
+      "text": "Họ đã nhìn thấy một con gấu mèo",
+      "author": "a user"
+    },
+    "341": {
+      "id": 3495,
+      "text": "Nhưng họ không nhìn thấy một con gấu nào cả.",
+      "author": "a user"
+    },
+    "342": {
+      "id": 3498,
+      "text": "Gia đình Bright đã có một kỳ nghỉ thật vui",
+      "author": "a user"
+    },
+    "323": {
+      "id": 2585352,
+      "text": "Gia đình Bright đã khởi hành vào thứ Sáu.",
+      "author": "ChatGPT4.1"
+    },
+    "325": {
+      "id": 2585353,
+      "text": "Gia đình Bright đã mang theo một cái lều lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "326": {
+      "id": 2585354,
+      "text": "Họ đã mang theo rất nhiều thức ăn.",
+      "author": "ChatGPT4.1"
+    },
+    "328": {
+      "id": 2585355,
+      "text": "Gia đình Bright đã đốt lửa trại vào thứ Sáu.",
+      "author": "ChatGPT4.1"
+    },
+    "332": {
+      "id": 2585356,
+      "text": "Vào thứ Bảy, họ đã đi câu cá.",
+      "author": "ChatGPT4.1"
+    },
+    "333": {
+      "id": 2585357,
+      "text": "Vào thứ Bảy, họ đã đi bơi.",
+      "author": "ChatGPT4.1"
+    },
+    "334": {
+      "id": 2585358,
+      "text": "Họ đã đi bộ đường dài vào Chủ Nhật.",
+      "author": "a user"
+    },
+    "337": {
+      "id": 2585359,
+      "text": "Họ đã nhìn thấy những con chim ruồi.",
+      "author": "a user"
+    },
+    "340": {
+      "id": 2585360,
+      "text": "Họ đã nhìn thấy một con sóc.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

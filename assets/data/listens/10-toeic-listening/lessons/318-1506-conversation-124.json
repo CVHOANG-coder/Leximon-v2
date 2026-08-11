@@ -1,0 +1,1138 @@
+{
+  "summary": {
+    "id": 1506,
+    "name": "Conversation 124",
+    "subTitle": "Choosing Drum Lesson Options",
+    "levelName": "B1",
+    "position": 318,
+    "totalChallenges": 19,
+    "groupId": 43,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1506",
+  "detail": {
+    "id": 1506,
+    "lessonName": "Conversation 124",
+    "name": "Conversation 124",
+    "position": 318,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/0-conversation-124.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65591,
+        "position": 1,
+        "content": "Hey, Mateo, I'm so glad I ran into you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "Mateo,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "so",
+          "glad",
+          "I",
+          "ran",
+          "into",
+          "you."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "Mateo,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "so"
+          ],
+          [
+            "glad"
+          ],
+          [
+            "I"
+          ],
+          [
+            "ran"
+          ],
+          [
+            "into"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/1.mp3",
+        "timeStart": 0.23,
+        "timeEnd": 3.49,
+        "hints": [
+          "Mateo"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65591/list"
+      },
+      {
+        "id": 65592,
+        "position": 2,
+        "content": "I've been meaning to ask you about the drum lessons you've been taking.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "meaning",
+          "to",
+          "ask",
+          "you",
+          "about",
+          "the",
+          "drum",
+          "lessons",
+          [
+            "you've",
+            "you have"
+          ],
+          "been",
+          "taking."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "meaning"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "drum"
+          ],
+          [
+            "lessons"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "taking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/2.mp3",
+        "timeStart": 3.49,
+        "timeEnd": 7.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65592/list"
+      },
+      {
+        "id": 65593,
+        "position": 3,
+        "content": "Right now, I'm trying to decide between hiring a private tutor",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right",
+          "now,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "trying",
+          "to",
+          "decide",
+          "between",
+          "hiring",
+          "a",
+          "private",
+          "tutor"
+        ],
+        "solution": [
+          [
+            "Right"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "decide"
+          ],
+          [
+            "between"
+          ],
+          [
+            "hiring"
+          ],
+          [
+            "a"
+          ],
+          [
+            "private"
+          ],
+          [
+            "tutor"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/3.mp3",
+        "timeStart": 7.24,
+        "timeEnd": 11.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65593/list"
+      },
+      {
+        "id": 65594,
+        "position": 4,
+        "content": "and enrolling in online video lessons.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "enrolling",
+          "in",
+          "online",
+          "video",
+          "lessons."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "enrolling"
+          ],
+          [
+            "in"
+          ],
+          [
+            "online"
+          ],
+          [
+            "video"
+          ],
+          [
+            "lessons."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/4.mp3",
+        "timeStart": 11.22,
+        "timeEnd": 14.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65594/list"
+      },
+      {
+        "id": 65595,
+        "position": 5,
+        "content": "Actually, I'm self-taught.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Actually,",
+          "I'm",
+          [
+            "self-taught.",
+            "self taught."
+          ]
+        ],
+        "solution": [
+          [
+            "Actually,"
+          ],
+          [
+            "I'm"
+          ],
+          [
+            "self-taught.",
+            "self taught."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/5.mp3",
+        "timeStart": 14.28,
+        "timeEnd": 16.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65595/list"
+      },
+      {
+        "id": 65596,
+        "position": 6,
+        "content": "But, um, one of my neighbors had lessons at Heart Music Academy,",
+        "defaultInput": "But, um, ",
+        "jsonContent": [
+          "But,",
+          "um,",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "my",
+          [
+            "neighbors",
+            "neighbours"
+          ],
+          "had",
+          "lessons",
+          "at",
+          "Heart",
+          "Music",
+          "Academy,"
+        ],
+        "solution": [
+          [
+            "But,"
+          ],
+          [
+            "um,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "neighbors",
+            "neighbours"
+          ],
+          [
+            "had"
+          ],
+          [
+            "lessons"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Heart"
+          ],
+          [
+            "Music"
+          ],
+          [
+            "Academy,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/6.mp3",
+        "timeStart": 16.42,
+        "timeEnd": 20.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65596/list"
+      },
+      {
+        "id": 65597,
+        "position": 7,
+        "content": "and they offer in-person lessons for $35 per half hour",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "they",
+          "offer",
+          [
+            "in-person",
+            "in person"
+          ],
+          "lessons",
+          "for",
+          [
+            "$35",
+            "35 dollars"
+          ],
+          "per",
+          "half",
+          "hour"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "in-person",
+            "in person"
+          ],
+          [
+            "lessons"
+          ],
+          [
+            "for"
+          ],
+          [
+            "$35",
+            "35 dollars"
+          ],
+          [
+            "per"
+          ],
+          [
+            "half"
+          ],
+          [
+            "hour"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/7.mp3",
+        "timeStart": 20.4,
+        "timeEnd": 24.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65597/list"
+      },
+      {
+        "id": 65598,
+        "position": 8,
+        "content": "or $60 per hour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          [
+            "$60",
+            "60 dollars"
+          ],
+          "per",
+          "hour."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "$60",
+            "60 dollars"
+          ],
+          [
+            "per"
+          ],
+          [
+            "hour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/8.mp3",
+        "timeStart": 24.39,
+        "timeEnd": 26.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65598/list"
+      },
+      {
+        "id": 65599,
+        "position": 9,
+        "content": "Another option is DrumeoProf online school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Another",
+          "option",
+          "is",
+          "DrumeoProf",
+          "online",
+          "school."
+        ],
+        "solution": [
+          [
+            "Another"
+          ],
+          [
+            "option"
+          ],
+          [
+            "is"
+          ],
+          [
+            "DrumeoProf"
+          ],
+          [
+            "online"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/9.mp3",
+        "timeStart": 26.92,
+        "timeEnd": 30.47,
+        "hints": [
+          "DrumeoProf"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65599/list"
+      },
+      {
+        "id": 65600,
+        "position": 10,
+        "content": "They have online courses designed for all skill levels and topics at a fraction of the cost.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They have",
+            "They've"
+          ],
+          "online",
+          "courses",
+          "designed",
+          "for",
+          "all",
+          "skill",
+          "levels",
+          "and",
+          "topics",
+          "at",
+          "a",
+          "fraction",
+          "of",
+          "the",
+          "cost."
+        ],
+        "solution": [
+          [
+            "They have",
+            "They've"
+          ],
+          [
+            "online"
+          ],
+          [
+            "courses"
+          ],
+          [
+            "designed"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "skill"
+          ],
+          [
+            "levels"
+          ],
+          [
+            "and"
+          ],
+          [
+            "topics"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fraction"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cost."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/10.mp3",
+        "timeStart": 30.47,
+        "timeEnd": 36.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65600/list"
+      },
+      {
+        "id": 65601,
+        "position": 11,
+        "content": "The second option is a lot more affordable.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "second",
+          "option",
+          "is",
+          "a",
+          "lot",
+          "more",
+          "affordable."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "second"
+          ],
+          [
+            "option"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "more"
+          ],
+          [
+            "affordable."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/11.mp3",
+        "timeStart": 36.04,
+        "timeEnd": 38.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65601/list"
+      },
+      {
+        "id": 65602,
+        "position": 12,
+        "content": "Thanks for your advice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "for",
+          "your",
+          "advice."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "advice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/12.mp3",
+        "timeStart": 38.96,
+        "timeEnd": 40.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65602/list"
+      },
+      {
+        "id": 65603,
+        "position": 13,
+        "content": "I will look into both options.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "look",
+          "into",
+          "both",
+          "options."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "look"
+          ],
+          [
+            "into"
+          ],
+          [
+            "both"
+          ],
+          [
+            "options."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/13.mp3",
+        "timeStart": 40.6,
+        "timeEnd": 42.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65603/list"
+      },
+      {
+        "id": 65604,
+        "position": 14,
+        "content": "By the way, I downloaded a list of equipment I might need.",
+        "defaultInput": "",
+        "jsonContent": [
+          "By",
+          "the",
+          "way,",
+          "I",
+          "downloaded",
+          "a",
+          "list",
+          "of",
+          "equipment",
+          "I",
+          "might",
+          "need."
+        ],
+        "solution": [
+          [
+            "By"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "downloaded"
+          ],
+          [
+            "a"
+          ],
+          [
+            "list"
+          ],
+          [
+            "of"
+          ],
+          [
+            "equipment"
+          ],
+          [
+            "I"
+          ],
+          [
+            "might"
+          ],
+          [
+            "need."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/14.mp3",
+        "timeStart": 42.59,
+        "timeEnd": 46.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65604/list"
+      },
+      {
+        "id": 65605,
+        "position": 15,
+        "content": "Could you give me some advice?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "give",
+          "me",
+          "some",
+          "advice?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "some"
+          ],
+          [
+            "advice?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/15.mp3",
+        "timeStart": 46.5,
+        "timeEnd": 48.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65605/list"
+      },
+      {
+        "id": 65606,
+        "position": 16,
+        "content": "Sure, let me take a look.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          "let",
+          "me",
+          "take",
+          "a",
+          "look."
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "take"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/16.mp3",
+        "timeStart": 48.36,
+        "timeEnd": 50.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65606/list"
+      },
+      {
+        "id": 65607,
+        "position": 17,
+        "content": "Well, a beginner like you needs only the first three items.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "a",
+          "beginner",
+          "like",
+          "you",
+          "needs",
+          "only",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          "items."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "beginner"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "only"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "items."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/17.mp3",
+        "timeStart": 50.53,
+        "timeEnd": 54.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65607/list"
+      },
+      {
+        "id": 65608,
+        "position": 18,
+        "content": "You may choose to buy the rest once you've committed to the instrument.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "may",
+          "choose",
+          "to",
+          "buy",
+          "the",
+          "rest",
+          "once",
+          [
+            "you've",
+            "you have"
+          ],
+          "committed",
+          "to",
+          "the",
+          "instrument."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "may"
+          ],
+          [
+            "choose"
+          ],
+          [
+            "to"
+          ],
+          [
+            "buy"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rest"
+          ],
+          [
+            "once"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "committed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "instrument."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/18.mp3",
+        "timeStart": 54.48,
+        "timeEnd": 58.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65608/list"
+      },
+      {
+        "id": 65609,
+        "position": 19,
+        "content": "Thanks. I'll do just that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks.",
+          [
+            "I'll",
+            "I will"
+          ],
+          "do",
+          "just",
+          "that."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "do"
+          ],
+          [
+            "just"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-124-2024-09-14-18-05-42/19.mp3",
+        "timeStart": 58.28,
+        "timeEnd": 60.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65609/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "65591": {
+      "id": 2621136,
+      "text": "Chào Mateo, mình rất vui vì đã gặp được bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "65592": {
+      "id": 2621137,
+      "text": "Mình định hỏi bạn về các buổi học trống mà bạn đã tham gia.",
+      "author": "ChatGPT4.1"
+    },
+    "65593": {
+      "id": 2621138,
+      "text": "Hiện tại, mình đang phân vân giữa việc thuê gia sư riêng",
+      "author": "ChatGPT4.1"
+    },
+    "65594": {
+      "id": 2621139,
+      "text": "và đăng ký các bài học trống qua video trực tuyến.",
+      "author": "ChatGPT4.1"
+    },
+    "65595": {
+      "id": 2621140,
+      "text": "Thực ra, mình tự học.",
+      "author": "ChatGPT4.1"
+    },
+    "65596": {
+      "id": 2621141,
+      "text": "Nhưng, ừm, một người hàng xóm của mình đã học ở Học Viện Âm Nhạc Heart,",
+      "author": "ChatGPT4.1"
+    },
+    "65597": {
+      "id": 2621142,
+      "text": "và họ có các buổi học trực tiếp với giá 35 đô cho mỗi nửa giờ",
+      "author": "ChatGPT4.1"
+    },
+    "65598": {
+      "id": 2621143,
+      "text": "hoặc 60 đô một giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "65599": {
+      "id": 2621144,
+      "text": "Một lựa chọn khác là trường trực tuyến DrumeoProf.",
+      "author": "ChatGPT4.1"
+    },
+    "65600": {
+      "id": 2621145,
+      "text": "Họ có các khóa học trực tuyến cho mọi trình độ và chủ đề với giá rẻ hơn nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "65601": {
+      "id": 2621146,
+      "text": "Lựa chọn thứ hai rẻ hơn nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "65602": {
+      "id": 2621147,
+      "text": "Cảm ơn lời khuyên của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "65603": {
+      "id": 2621148,
+      "text": "Mình sẽ xem xét cả hai lựa chọn.",
+      "author": "ChatGPT4.1"
+    },
+    "65604": {
+      "id": 2621149,
+      "text": "Nhân tiện, mình đã tải một danh sách thiết bị có thể cần.",
+      "author": "ChatGPT4.1"
+    },
+    "65605": {
+      "id": 2621150,
+      "text": "Bạn có thể cho mình vài lời khuyên không?",
+      "author": "ChatGPT4.1"
+    },
+    "65606": {
+      "id": 2621151,
+      "text": "Được thôi, để mình xem nào.",
+      "author": "ChatGPT4.1"
+    },
+    "65607": {
+      "id": 2621152,
+      "text": "À, một người mới như bạn chỉ cần ba món đầu tiên thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "65608": {
+      "id": 2621153,
+      "text": "Bạn có thể chọn mua những món khác sau khi đã quyết tâm theo đuổi nhạc cụ này.",
+      "author": "ChatGPT4.1"
+    },
+    "65609": {
+      "id": 2621154,
+      "text": "Cảm ơn. Mình sẽ làm như vậy.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

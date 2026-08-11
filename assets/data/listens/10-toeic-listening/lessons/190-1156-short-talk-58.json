@@ -1,0 +1,735 @@
+{
+  "summary": {
+    "id": 1156,
+    "name": "Short Talk 58",
+    "subTitle": "Office Software Training Session",
+    "levelName": "B1",
+    "position": 190,
+    "totalChallenges": 10,
+    "groupId": 36,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1156",
+  "detail": {
+    "id": 1156,
+    "lessonName": "Short Talk 58",
+    "name": "Short Talk 58",
+    "position": 190,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/0-short-talk-58.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54288,
+        "position": 1,
+        "content": "Good afternoon, folks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "afternoon,",
+          "folks."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "folks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/1.mp3",
+        "timeStart": 0.46,
+        "timeEnd": 2.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54288/list"
+      },
+      {
+        "id": 54289,
+        "position": 2,
+        "content": "My name is Bill Brooks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "name",
+          "is",
+          "Bill",
+          "Brooks."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Bill"
+          ],
+          [
+            "Brooks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/2.mp3",
+        "timeStart": 2.06,
+        "timeEnd": 3.79,
+        "hints": [
+          "Bill Brooks"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54289/list"
+      },
+      {
+        "id": 54290,
+        "position": 3,
+        "content": "Today I'll help you to learn how to use our office software and work to your best ability.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today",
+          [
+            "I'll",
+            "I will"
+          ],
+          "help",
+          "you",
+          "to",
+          "learn",
+          "how",
+          "to",
+          "use",
+          "our",
+          "office",
+          "software",
+          "and",
+          "work",
+          "to",
+          "your",
+          "best",
+          "ability."
+        ],
+        "solution": [
+          [
+            "Today"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "learn"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "our"
+          ],
+          [
+            "office"
+          ],
+          [
+            "software"
+          ],
+          [
+            "and"
+          ],
+          [
+            "work"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "best"
+          ],
+          [
+            "ability."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/3.mp3",
+        "timeStart": 3.92,
+        "timeEnd": 10.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54290/list"
+      },
+      {
+        "id": 54291,
+        "position": 4,
+        "content": "For your first day, you will get in groups of three people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "your",
+          [
+            "first",
+            "1st"
+          ],
+          "day,",
+          [
+            "you will",
+            "you'll"
+          ],
+          "get",
+          "in",
+          "groups",
+          "of",
+          [
+            "three",
+            "3"
+          ],
+          "people."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "your"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "day,"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "get"
+          ],
+          [
+            "in"
+          ],
+          [
+            "groups"
+          ],
+          [
+            "of"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/4.mp3",
+        "timeStart": 10.67,
+        "timeEnd": 14.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54291/list"
+      },
+      {
+        "id": 54292,
+        "position": 5,
+        "content": "In each group, you will have a training assistant who specializes in workflow and office software.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "each",
+          "group,",
+          [
+            "you will",
+            "you'll"
+          ],
+          "have",
+          "a",
+          "training",
+          "assistant",
+          "who",
+          [
+            "specializes",
+            "specialises"
+          ],
+          "in",
+          "workflow",
+          "and",
+          "office",
+          "software."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "each"
+          ],
+          [
+            "group,"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "training"
+          ],
+          [
+            "assistant"
+          ],
+          [
+            "who"
+          ],
+          [
+            "specializes",
+            "specialises"
+          ],
+          [
+            "in"
+          ],
+          [
+            "workflow"
+          ],
+          [
+            "and"
+          ],
+          [
+            "office"
+          ],
+          [
+            "software."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/5.mp3",
+        "timeStart": 14.7,
+        "timeEnd": 21.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54292/list"
+      },
+      {
+        "id": 54293,
+        "position": 6,
+        "content": "Have a look at the poster by the door to find your group and sign in for attendance.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "a",
+          "look",
+          "at",
+          "the",
+          "poster",
+          "by",
+          "the",
+          "door",
+          "to",
+          "find",
+          "your",
+          "group",
+          "and",
+          "sign",
+          "in",
+          "for",
+          "attendance."
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "poster"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "door"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "your"
+          ],
+          [
+            "group"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sign"
+          ],
+          [
+            "in"
+          ],
+          [
+            "for"
+          ],
+          [
+            "attendance."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/6.mp3",
+        "timeStart": 21.47,
+        "timeEnd": 26.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54293/list"
+      },
+      {
+        "id": 54294,
+        "position": 7,
+        "content": "This will take a few minutes since there are so many of you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "will",
+          "take",
+          "a",
+          "few",
+          "minutes",
+          "since",
+          "there",
+          "are",
+          "so",
+          "many",
+          "of",
+          "you."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "will"
+          ],
+          [
+            "take"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "minutes"
+          ],
+          [
+            "since"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "so"
+          ],
+          [
+            "many"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/7.mp3",
+        "timeStart": 27.14,
+        "timeEnd": 30.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54294/list"
+      },
+      {
+        "id": 54295,
+        "position": 8,
+        "content": "Also, if you haven't turned in a copy of your work ID,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "if",
+          "you",
+          [
+            "haven't",
+            "have not"
+          ],
+          "turned",
+          "in",
+          "a",
+          "copy",
+          "of",
+          "your",
+          "work",
+          "ID,"
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "turned"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "copy"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "work"
+          ],
+          [
+            "ID,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/8.mp3",
+        "timeStart": 30.96,
+        "timeEnd": 35.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54295/list"
+      },
+      {
+        "id": 54296,
+        "position": 9,
+        "content": "please make a copy and turn it into the secretary as soon as possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "please",
+          "make",
+          "a",
+          "copy",
+          "and",
+          "turn",
+          "it",
+          "into",
+          "the",
+          "secretary",
+          "as",
+          "soon",
+          "as",
+          "possible."
+        ],
+        "solution": [
+          [
+            "please"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "copy"
+          ],
+          [
+            "and"
+          ],
+          [
+            "turn"
+          ],
+          [
+            "it"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "secretary"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/9.mp3",
+        "timeStart": 35.06,
+        "timeEnd": 39.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54296/list"
+      },
+      {
+        "id": 54297,
+        "position": 10,
+        "content": "The copier is located in room 211.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "copier",
+          "is",
+          "located",
+          "in",
+          "room",
+          "211."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "copier"
+          ],
+          [
+            "is"
+          ],
+          [
+            "located"
+          ],
+          [
+            "in"
+          ],
+          [
+            "room"
+          ],
+          [
+            "211."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-58-2023-09-19-20-56-00/10.mp3",
+        "timeStart": 39.65,
+        "timeEnd": 42.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54297/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54288": {
+      "id": 2603931,
+      "text": "Chào buổi chiều, các bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "54289": {
+      "id": 2603932,
+      "text": "Tên tôi là Bill Brooks.",
+      "author": "ChatGPT4.1"
+    },
+    "54290": {
+      "id": 2603933,
+      "text": "Hôm nay tôi sẽ giúp các bạn học cách sử dụng phần mềm văn phòng của chúng ta và làm việc với khả năng tốt nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "54291": {
+      "id": 2603934,
+      "text": "Trong ngày đầu tiên, các bạn sẽ được chia thành nhóm ba người.",
+      "author": "ChatGPT4.1"
+    },
+    "54292": {
+      "id": 2603935,
+      "text": "Mỗi nhóm sẽ có một trợ lý đào tạo chuyên về quy trình làm việc và phần mềm văn phòng.",
+      "author": "ChatGPT4.1"
+    },
+    "54293": {
+      "id": 2603936,
+      "text": "Hãy xem tấm áp phích cạnh cửa để tìm nhóm của mình và điểm danh.",
+      "author": "ChatGPT4.1"
+    },
+    "54294": {
+      "id": 2603937,
+      "text": "Việc này sẽ mất vài phút vì có rất nhiều người trong các bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "54295": {
+      "id": 2603938,
+      "text": "Ngoài ra, nếu bạn chưa nộp bản sao thẻ công tác của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "54296": {
+      "id": 2603939,
+      "text": "vui lòng sao chụp thẻ và nộp cho thư ký càng sớm càng tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "54297": {
+      "id": 2603940,
+      "text": "Máy photocopy nằm ở phòng 211.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

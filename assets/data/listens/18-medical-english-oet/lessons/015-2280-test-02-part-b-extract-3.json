@@ -1,0 +1,857 @@
+{
+  "summary": {
+    "id": 2280,
+    "name": "Test 02 - Part B - Extract 3",
+    "subTitle": "Stroke-Related Visual Impairment",
+    "levelName": "B2",
+    "position": 15,
+    "totalChallenges": 10,
+    "groupId": 132,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2280",
+  "detail": {
+    "id": 2280,
+    "lessonName": "Test 02 - Part B - Extract 3",
+    "name": "Test 02 - Part B - Extract 3",
+    "position": 15,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/0-test-02-part-b-extract-3.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90106,
+        "position": 1,
+        "content": "Did you see the article about research on strokes and sight problems in the latest Nursing magazine?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "see",
+          "the",
+          "article",
+          "about",
+          "research",
+          "on",
+          "strokes",
+          "and",
+          "sight",
+          "problems",
+          "in",
+          "the",
+          "latest",
+          "Nursing",
+          "magazine?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "article"
+          ],
+          [
+            "about"
+          ],
+          [
+            "research"
+          ],
+          [
+            "on"
+          ],
+          [
+            "strokes"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sight"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "latest"
+          ],
+          [
+            "Nursing"
+          ],
+          [
+            "magazine?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/1.mp3",
+        "timeStart": 0.26,
+        "timeEnd": 4.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90106/list"
+      },
+      {
+        "id": 90107,
+        "position": 2,
+        "content": "Yes, I found it interesting that there's quite such a high degree of visual impairment after a stroke.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "found",
+          "it",
+          "interesting",
+          "that",
+          [
+            "there's",
+            "there is"
+          ],
+          "quite",
+          "such",
+          "a",
+          "high",
+          "degree",
+          "of",
+          "visual",
+          "impairment",
+          "after",
+          "a",
+          "stroke."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "found"
+          ],
+          [
+            "it"
+          ],
+          [
+            "interesting"
+          ],
+          [
+            "that"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "high"
+          ],
+          [
+            "degree"
+          ],
+          [
+            "of"
+          ],
+          [
+            "visual"
+          ],
+          [
+            "impairment"
+          ],
+          [
+            "after"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stroke."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/2.mp3",
+        "timeStart": 4.74,
+        "timeEnd": 9.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90107/list"
+      },
+      {
+        "id": 90108,
+        "position": 3,
+        "content": "Yeah, but I think I could've told them that without an expensive research study.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "but",
+          "I",
+          "think",
+          "I",
+          [
+            "could've",
+            "could have"
+          ],
+          "told",
+          "them",
+          "that",
+          "without",
+          "an",
+          "expensive",
+          "research",
+          "study."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could've",
+            "could have"
+          ],
+          [
+            "told"
+          ],
+          [
+            "them"
+          ],
+          [
+            "that"
+          ],
+          [
+            "without"
+          ],
+          [
+            "an"
+          ],
+          [
+            "expensive"
+          ],
+          [
+            "research"
+          ],
+          [
+            "study."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/3.mp3",
+        "timeStart": 9.6,
+        "timeEnd": 13.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90108/list"
+      },
+      {
+        "id": 90109,
+        "position": 4,
+        "content": "Well, you need evidence to get progress in how people are treated.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "you",
+          "need",
+          "evidence",
+          "to",
+          "get",
+          "progress",
+          "in",
+          "how",
+          "people",
+          "are",
+          "treated."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "evidence"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "progress"
+          ],
+          [
+            "in"
+          ],
+          [
+            "how"
+          ],
+          [
+            "people"
+          ],
+          [
+            "are"
+          ],
+          [
+            "treated."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/4.mp3",
+        "timeStart": 13.44,
+        "timeEnd": 16.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90109/list"
+      },
+      {
+        "id": 90110,
+        "position": 5,
+        "content": "And now there'll be a push for all stroke patients to have eye assessments as a matter of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "now",
+          [
+            "there'll",
+            "there will"
+          ],
+          "be",
+          "a",
+          "push",
+          "for",
+          "all",
+          "stroke",
+          "patients",
+          "to",
+          "have",
+          "eye",
+          "assessments",
+          "as",
+          "a",
+          "matter",
+          "of",
+          "course."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "now"
+          ],
+          [
+            "there'll",
+            "there will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "push"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "stroke"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "eye"
+          ],
+          [
+            "assessments"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "matter"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/5.mp3",
+        "timeStart": 16.85,
+        "timeEnd": 20.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90110/list"
+      },
+      {
+        "id": 90111,
+        "position": 6,
+        "content": "It certainly makes a pretty solid case for that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "certainly",
+          "makes",
+          "a",
+          "pretty",
+          "solid",
+          "case",
+          "for",
+          "that."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "certainly"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "solid"
+          ],
+          [
+            "case"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/6.mp3",
+        "timeStart": 20.85,
+        "timeEnd": 23.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90111/list"
+      },
+      {
+        "id": 90112,
+        "position": 7,
+        "content": "Especially as there's plenty that can be done to help people if early screening diagnoses an issue.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Especially",
+          "as",
+          [
+            "there's",
+            "there is"
+          ],
+          "plenty",
+          "that",
+          "can",
+          "be",
+          "done",
+          "to",
+          "help",
+          "people",
+          "if",
+          "early",
+          "screening",
+          "diagnoses",
+          "an",
+          "issue."
+        ],
+        "solution": [
+          [
+            "Especially"
+          ],
+          [
+            "as"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "plenty"
+          ],
+          [
+            "that"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "done"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "people"
+          ],
+          [
+            "if"
+          ],
+          [
+            "early"
+          ],
+          [
+            "screening"
+          ],
+          [
+            "diagnoses"
+          ],
+          [
+            "an"
+          ],
+          [
+            "issue."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/7.mp3",
+        "timeStart": 23.89,
+        "timeEnd": 28.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90112/list"
+      },
+      {
+        "id": 90113,
+        "position": 8,
+        "content": "Absolutely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Absolutely."
+        ],
+        "solution": [
+          [
+            "Absolutely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/8.mp3",
+        "timeStart": 28.7,
+        "timeEnd": 29.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90113/list"
+      },
+      {
+        "id": 90114,
+        "position": 9,
+        "content": "I was just sorry the article didn't provide more detail about the type of sight problems that are most common after a stroke.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "was",
+          "just",
+          "sorry",
+          "the",
+          "article",
+          [
+            "didn't",
+            "did not"
+          ],
+          "provide",
+          "more",
+          "detail",
+          "about",
+          "the",
+          "type",
+          "of",
+          "sight",
+          "problems",
+          "that",
+          "are",
+          "most",
+          "common",
+          "after",
+          "a",
+          "stroke."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "just"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "the"
+          ],
+          [
+            "article"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "more"
+          ],
+          [
+            "detail"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "type"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sight"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "that"
+          ],
+          [
+            "are"
+          ],
+          [
+            "most"
+          ],
+          [
+            "common"
+          ],
+          [
+            "after"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stroke."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/9.mp3",
+        "timeStart": 29.87,
+        "timeEnd": 35.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90114/list"
+      },
+      {
+        "id": 90115,
+        "position": 10,
+        "content": "Well there's a reference to where the whole study's been published so you could always find out there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "reference",
+          "to",
+          "where",
+          "the",
+          "whole",
+          "study's",
+          "been",
+          "published",
+          "so",
+          "you",
+          "could",
+          "always",
+          "find",
+          "out",
+          "there."
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reference"
+          ],
+          [
+            "to"
+          ],
+          [
+            "where"
+          ],
+          [
+            "the"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "study's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "published"
+          ],
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "always"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-02-part-b-extract-3-2025-08-29-21-08-55/10.mp3",
+        "timeStart": 35.95,
+        "timeEnd": 39.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90115/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90106": {
+      "id": 3682517,
+      "text": "Bạn có thấy bài báo về nghiên cứu đột quỵ và các vấn đề về thị lực trên tạp chí Điều Dưỡng mới nhất không?",
+      "author": "ChatGPT4.1"
+    },
+    "90107": {
+      "id": 3682518,
+      "text": "Vâng, tôi thấy thú vị khi biết có tỷ lệ suy giảm thị lực khá cao sau một cơn đột quỵ.",
+      "author": "ChatGPT4.1"
+    },
+    "90108": {
+      "id": 3682519,
+      "text": "Ừ, nhưng tôi nghĩ tôi có thể nói với họ điều đó mà không cần một nghiên cứu tốn kém như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "90109": {
+      "id": 3682520,
+      "text": "Thật ra, bạn cần có bằng chứng để thúc đẩy tiến bộ trong cách điều trị cho mọi người.",
+      "author": "ChatGPT4.1"
+    },
+    "90110": {
+      "id": 3682521,
+      "text": "Và bây giờ sẽ có sự thúc đẩy để tất cả bệnh nhân đột quỵ được khám mắt như một thủ tục thông thường.",
+      "author": "ChatGPT4.1"
+    },
+    "90111": {
+      "id": 3682522,
+      "text": "Đây chắc chắn là một lập luận khá vững chắc cho điều đó.",
+      "author": "a user"
+    },
+    "90112": {
+      "id": 3682523,
+      "text": "Đặc biệt là khi có rất nhiều cách có thể được thực hiện để giúp đỡ mọi người nếu việc sàng lọc sớm chẩn đoán được vấn đề.",
+      "author": "a user"
+    },
+    "90113": {
+      "id": 3682524,
+      "text": "Chắc chắn rồi.",
+      "author": "a user"
+    },
+    "90114": {
+      "id": 3682525,
+      "text": "Tôi chỉ tiếc là bài báo không cung cấp thêm chi tiết về loại vấn đề thị lực phổ biến nhất sau đột quỵ.",
+      "author": "ChatGPT4.1"
+    },
+    "90115": {
+      "id": 3682526,
+      "text": "Thật ra có trích dẫn nơi toàn bộ nghiên cứu đã được công bố nên bạn luôn có thể tra cứu ở đó.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

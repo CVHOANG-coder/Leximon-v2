@@ -1,0 +1,842 @@
+{
+  "summary": {
+    "id": 1578,
+    "name": "Short Talk 122",
+    "subTitle": "Speed Demon Mountain Ride",
+    "levelName": "B1",
+    "position": 326,
+    "totalChallenges": 13,
+    "groupId": 43,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1578",
+  "detail": {
+    "id": 1578,
+    "lessonName": "Short Talk 122",
+    "name": "Short Talk 122",
+    "position": 326,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/0-short-talk-122.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66721,
+        "position": 1,
+        "content": "Are you ready, folks?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "ready,",
+          "folks?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ready,"
+          ],
+          [
+            "folks?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/1.mp3",
+        "timeStart": 0.12,
+        "timeEnd": 1.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66721/list"
+      },
+      {
+        "id": 66722,
+        "position": 2,
+        "content": "You are in for the thrill of your life,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You are",
+            "You're"
+          ],
+          "in",
+          "for",
+          "the",
+          "thrill",
+          "of",
+          "your",
+          "life,"
+        ],
+        "solution": [
+          [
+            "You are",
+            "You're"
+          ],
+          [
+            "in"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "thrill"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "life,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/2.mp3",
+        "timeStart": 1.76,
+        "timeEnd": 4.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66722/list"
+      },
+      {
+        "id": 66723,
+        "position": 3,
+        "content": "as you are about to ride the Speed Demon Mountain, here at Erie Point Amusement Park.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          [
+            "you are",
+            "you're"
+          ],
+          "about",
+          "to",
+          "ride",
+          "the",
+          "Speed",
+          "Demon",
+          "Mountain,",
+          "here",
+          "at",
+          "Erie",
+          "Point",
+          "Amusement",
+          "Park."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "about"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ride"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Speed"
+          ],
+          [
+            "Demon"
+          ],
+          [
+            "Mountain,"
+          ],
+          [
+            "here"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Erie"
+          ],
+          [
+            "Point"
+          ],
+          [
+            "Amusement"
+          ],
+          [
+            "Park."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/3.mp3",
+        "timeStart": 4.49,
+        "timeEnd": 9.39,
+        "hints": [
+          "Erie Point"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66723/list"
+      },
+      {
+        "id": 66724,
+        "position": 4,
+        "content": "The roller coaster reaches a speed of 190 kilometers per hour,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "roller",
+          "coaster",
+          "reaches",
+          "a",
+          "speed",
+          "of",
+          "190",
+          [
+            "kilometers",
+            "kilometres"
+          ],
+          "per",
+          "hour,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "roller"
+          ],
+          [
+            "coaster"
+          ],
+          [
+            "reaches"
+          ],
+          [
+            "a"
+          ],
+          [
+            "speed"
+          ],
+          [
+            "of"
+          ],
+          [
+            "190"
+          ],
+          [
+            "kilometers",
+            "kilometres"
+          ],
+          [
+            "per"
+          ],
+          [
+            "hour,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/4.mp3",
+        "timeStart": 9.39,
+        "timeEnd": 14.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66724/list"
+      },
+      {
+        "id": 66725,
+        "position": 5,
+        "content": "and stands 160 meters tall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "stands",
+          "160",
+          [
+            "meters",
+            "metres"
+          ],
+          "tall."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "stands"
+          ],
+          [
+            "160"
+          ],
+          [
+            "meters",
+            "metres"
+          ],
+          [
+            "tall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/5.mp3",
+        "timeStart": 14.1,
+        "timeEnd": 16.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66725/list"
+      },
+      {
+        "id": 66726,
+        "position": 6,
+        "content": "Before we get going, let's go over a few safety procedures.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Before",
+          "we",
+          "get",
+          "going,",
+          "let's",
+          "go",
+          "over",
+          "a",
+          "few",
+          "safety",
+          "procedures."
+        ],
+        "solution": [
+          [
+            "Before"
+          ],
+          [
+            "we"
+          ],
+          [
+            "get"
+          ],
+          [
+            "going,"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "go"
+          ],
+          [
+            "over"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "safety"
+          ],
+          [
+            "procedures."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/6.mp3",
+        "timeStart": 16.76,
+        "timeEnd": 20.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66726/list"
+      },
+      {
+        "id": 66727,
+        "position": 7,
+        "content": "First, keep all parts of your body inside the cart at all times.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First,",
+            "1st"
+          ],
+          "keep",
+          "all",
+          "parts",
+          "of",
+          "your",
+          "body",
+          "inside",
+          "the",
+          "cart",
+          "at",
+          "all",
+          "times."
+        ],
+        "solution": [
+          [
+            "First,",
+            "1st"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "all"
+          ],
+          [
+            "parts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "your"
+          ],
+          [
+            "body"
+          ],
+          [
+            "inside"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cart"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all"
+          ],
+          [
+            "times."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/7.mp3",
+        "timeStart": 21.19,
+        "timeEnd": 25.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66727/list"
+      },
+      {
+        "id": 66728,
+        "position": 8,
+        "content": "Second, you should leave personal items in the free lockers provided.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Second,",
+          "you",
+          "should",
+          "leave",
+          "personal",
+          "items",
+          "in",
+          "the",
+          "free",
+          "lockers",
+          "provided."
+        ],
+        "solution": [
+          [
+            "Second,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "personal"
+          ],
+          [
+            "items"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "free"
+          ],
+          [
+            "lockers"
+          ],
+          [
+            "provided."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/8.mp3",
+        "timeStart": 26.1,
+        "timeEnd": 30.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66728/list"
+      },
+      {
+        "id": 66729,
+        "position": 9,
+        "content": "This includes cell phones, please do not try to keep them in your pocket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "includes",
+          "cell",
+          "phones,",
+          "please",
+          [
+            "do not",
+            "don't"
+          ],
+          "try",
+          "to",
+          "keep",
+          "them",
+          "in",
+          "your",
+          "pocket."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "includes"
+          ],
+          [
+            "cell"
+          ],
+          [
+            "phones,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "do not",
+            "don't"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "them"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "pocket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/9.mp3",
+        "timeStart": 30.52,
+        "timeEnd": 34.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66729/list"
+      },
+      {
+        "id": 66730,
+        "position": 10,
+        "content": "Once you are strapped in and the ride begins to take off,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          [
+            "you are",
+            "you're"
+          ],
+          "strapped",
+          "in",
+          "and",
+          "the",
+          "ride",
+          "begins",
+          "to",
+          "take",
+          "off,"
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "strapped"
+          ],
+          [
+            "in"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ride"
+          ],
+          [
+            "begins"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "off,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/10.mp3",
+        "timeStart": 35.13,
+        "timeEnd": 38.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66730/list"
+      },
+      {
+        "id": 66731,
+        "position": 11,
+        "content": "there are no options to disembark until the ride is finished,",
+        "defaultInput": "",
+        "jsonContent": [
+          "there",
+          "are",
+          "no",
+          "options",
+          "to",
+          "disembark",
+          "until",
+          "the",
+          "ride",
+          "is",
+          "finished,"
+        ],
+        "solution": [
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "no"
+          ],
+          [
+            "options"
+          ],
+          [
+            "to"
+          ],
+          [
+            "disembark"
+          ],
+          [
+            "until"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ride"
+          ],
+          [
+            "is"
+          ],
+          [
+            "finished,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/11.mp3",
+        "timeStart": 38.29,
+        "timeEnd": 41.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66731/list"
+      },
+      {
+        "id": 66732,
+        "position": 12,
+        "content": "so be sure you would like to ride before boarding.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "be",
+          "sure",
+          [
+            "you would",
+            "you'd"
+          ],
+          "like",
+          "to",
+          "ride",
+          "before",
+          "boarding."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "be"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you would",
+            "you'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ride"
+          ],
+          [
+            "before"
+          ],
+          [
+            "boarding."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/12.mp3",
+        "timeStart": 41.6,
+        "timeEnd": 44.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66732/list"
+      },
+      {
+        "id": 66733,
+        "position": 13,
+        "content": "Have a great time!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "a",
+          "great",
+          "time!"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "time!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-122-2024-09-14-18-42-05/13.mp3",
+        "timeStart": 44.99,
+        "timeEnd": 46.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66733/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66721": {
+      "id": 2618482,
+      "text": "Mọi người đã sẵn sàng chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "66722": {
+      "id": 2618483,
+      "text": "Bạn sẽ được trải nghiệm cảm giác hồi hộp nhất trong đời,",
+      "author": "ChatGPT4.1"
+    },
+    "66723": {
+      "id": 2618484,
+      "text": "khi bạn chuẩn bị lên tàu lượn Speed Demon Mountain, tại Công viên Giải trí Erie Point.",
+      "author": "ChatGPT4.1"
+    },
+    "66724": {
+      "id": 2618485,
+      "text": "Tàu lượn đạt tốc độ lên đến 190 km một giờ,",
+      "author": "ChatGPT4.1"
+    },
+    "66725": {
+      "id": 2618486,
+      "text": "và cao 160 mét.",
+      "author": "ChatGPT4.1"
+    },
+    "66726": {
+      "id": 2618487,
+      "text": "Trước khi bắt đầu, hãy cùng điểm qua một số quy định an toàn.",
+      "author": "ChatGPT4.1"
+    },
+    "66727": {
+      "id": 2618488,
+      "text": "Đầu tiên, hãy luôn giữ tất cả các bộ phận cơ thể bên trong xe mọi lúc.",
+      "author": "ChatGPT4.1"
+    },
+    "66728": {
+      "id": 2618489,
+      "text": "Thứ hai, bạn nên để đồ dùng cá nhân vào tủ khóa miễn phí được cung cấp.",
+      "author": "ChatGPT4.1"
+    },
+    "66729": {
+      "id": 2618490,
+      "text": "Điều này bao gồm cả điện thoại di động, xin đừng cố giữ trong túi quần.",
+      "author": "ChatGPT4.1"
+    },
+    "66730": {
+      "id": 2618491,
+      "text": "Sau khi bạn đã được cài dây an toàn và chuyến đi bắt đầu rời ga,",
+      "author": "ChatGPT4.1"
+    },
+    "66731": {
+      "id": 2618492,
+      "text": "sẽ không có lựa chọn nào để xuống cho đến khi chuyến đi hoàn thành,",
+      "author": "ChatGPT4.1"
+    },
+    "66732": {
+      "id": 2618493,
+      "text": "vì vậy hãy chắc chắn bạn muốn tham gia trước khi lên tàu.",
+      "author": "ChatGPT4.1"
+    },
+    "66733": {
+      "id": 2618494,
+      "text": "Chúc bạn có khoảng thời gian thật tuyệt vời!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

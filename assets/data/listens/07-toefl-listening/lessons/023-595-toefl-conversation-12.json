@@ -1,0 +1,4649 @@
+{
+  "summary": {
+    "id": 595,
+    "name": "TOEFL Conversation 12",
+    "subTitle": "",
+    "levelName": "B2",
+    "position": 23,
+    "totalChallenges": 82,
+    "groupId": 117,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/595",
+  "detail": {
+    "id": 595,
+    "lessonName": "TOEFL Conversation 12",
+    "name": "TOEFL Conversation 12",
+    "position": 23,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/0-toefl-conversation-12.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 26143,
+        "position": 1,
+        "content": "Ah, there you are. Hi, Jared.",
+        "defaultInput": "ah, ",
+        "jsonContent": [
+          "Ah,",
+          "there",
+          [
+            "you are.",
+            "you're"
+          ],
+          "Hi,",
+          "Jared."
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "you are.",
+            "you're"
+          ],
+          [
+            "Hi,"
+          ],
+          [
+            "Jared."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/1.mp3",
+        "timeStart": 5.92,
+        "timeEnd": 8.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26143/list"
+      },
+      {
+        "id": 26144,
+        "position": 2,
+        "content": "Hi, Colleen. You still got time?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "Colleen.",
+          "You",
+          "still",
+          "got",
+          "time?"
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Colleen."
+          ],
+          [
+            "You"
+          ],
+          [
+            "still"
+          ],
+          [
+            "got"
+          ],
+          [
+            "time?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/2.mp3",
+        "timeStart": 8.29,
+        "timeEnd": 10.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26144/list"
+      },
+      {
+        "id": 26145,
+        "position": 3,
+        "content": "Yes, I've got almost an hour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          "almost",
+          "an",
+          "hour."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/3.mp3",
+        "timeStart": 10.69,
+        "timeEnd": 13.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26145/list"
+      },
+      {
+        "id": 26146,
+        "position": 4,
+        "content": "My next class isn't until three-thirty.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "next",
+          "class",
+          [
+            "isn't",
+            "is not"
+          ],
+          "until",
+          [
+            "three-thirty.",
+            "three thirty."
+          ]
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "next"
+          ],
+          [
+            "class"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "until"
+          ],
+          [
+            "three-thirty.",
+            "three thirty."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/4.mp3",
+        "timeStart": 13.16,
+        "timeEnd": 15.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26146/list"
+      },
+      {
+        "id": 26147,
+        "position": 5,
+        "content": "That should be enough time, shouldn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "should",
+          "be",
+          "enough",
+          "time,",
+          [
+            "shouldn't",
+            "should not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "shouldn't",
+            "should not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/5.mp3",
+        "timeStart": 15.95,
+        "timeEnd": 18.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26147/list"
+      },
+      {
+        "id": 26148,
+        "position": 6,
+        "content": "We haven't got that much to decide now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          [
+            "haven't",
+            "have not"
+          ],
+          "got",
+          "that",
+          "much",
+          "to",
+          "decide",
+          "now."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "got"
+          ],
+          [
+            "that"
+          ],
+          [
+            "much"
+          ],
+          [
+            "to"
+          ],
+          [
+            "decide"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/6.mp3",
+        "timeStart": 18.23,
+        "timeEnd": 20.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26148/list"
+      },
+      {
+        "id": 26149,
+        "position": 7,
+        "content": "It depends how it goes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "depends",
+          "how",
+          "it",
+          "goes."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "depends"
+          ],
+          [
+            "how"
+          ],
+          [
+            "it"
+          ],
+          [
+            "goes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/7.mp3",
+        "timeStart": 20.8,
+        "timeEnd": 22.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26149/list"
+      },
+      {
+        "id": 26150,
+        "position": 8,
+        "content": "We've got our topic, but we haven't divided up the workload yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "we have"
+          ],
+          "got",
+          "our",
+          "topic,",
+          "but",
+          "we",
+          [
+            "haven't",
+            "have not"
+          ],
+          "divided",
+          "up",
+          "the",
+          "workload",
+          "yet."
+        ],
+        "solution": [
+          [
+            "We've",
+            "we have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "our"
+          ],
+          [
+            "topic,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "divided"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "workload"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/8.mp3",
+        "timeStart": 22.55,
+        "timeEnd": 26.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26150/list"
+      },
+      {
+        "id": 26151,
+        "position": 9,
+        "content": "And we haven't even discussed how to approach it, really.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "we",
+          [
+            "haven't",
+            "have not"
+          ],
+          "even",
+          "discussed",
+          "how",
+          "to",
+          "approach",
+          "it,",
+          "really."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "we"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "even"
+          ],
+          [
+            "discussed"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "approach"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "really."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/9.mp3",
+        "timeStart": 26.61,
+        "timeEnd": 29.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26151/list"
+      },
+      {
+        "id": 26152,
+        "position": 10,
+        "content": "I thought one of us was going to take the coelenterates and the other was going to do the sponges.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "thought",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "us",
+          "was",
+          [
+            "going to",
+            "gonna"
+          ],
+          "take",
+          "the",
+          "coelenterates",
+          "and",
+          "the",
+          "other",
+          "was",
+          [
+            "going to",
+            "gonna"
+          ],
+          "do",
+          "the",
+          "sponges."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "us"
+          ],
+          [
+            "was"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "take"
+          ],
+          [
+            "the"
+          ],
+          [
+            "coelenterates"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "was"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sponges."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/10.mp3",
+        "timeStart": 30,
+        "timeEnd": 35.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26152/list"
+      },
+      {
+        "id": 26153,
+        "position": 11,
+        "content": "Seems pretty simple.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Seems",
+          "pretty",
+          "simple."
+        ],
+        "solution": [
+          [
+            "Seems"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "simple."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/11.mp3",
+        "timeStart": 35.33,
+        "timeEnd": 36.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26153/list"
+      },
+      {
+        "id": 26154,
+        "position": 12,
+        "content": "Yeah, well, that's fine for the basic research,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "well,",
+          [
+            "that's",
+            "that is"
+          ],
+          "fine",
+          "for",
+          "the",
+          "basic",
+          "research,"
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "fine"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "research,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/12.mp3",
+        "timeStart": 36.96,
+        "timeEnd": 39.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26154/list"
+      },
+      {
+        "id": 26155,
+        "position": 13,
+        "content": "but don't forget that we've got to make the presentation together.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "don't",
+            "do not"
+          ],
+          "forget",
+          "that",
+          [
+            "we've",
+            "we have"
+          ],
+          "got",
+          "to",
+          "make",
+          "the",
+          "presentation",
+          "together."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "forget"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "the"
+          ],
+          [
+            "presentation"
+          ],
+          [
+            "together."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/13.mp3",
+        "timeStart": 39.93,
+        "timeEnd": 43.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26155/list"
+      },
+      {
+        "id": 26156,
+        "position": 14,
+        "content": "We just can't be 'stings' and 'squirts', like Laurel and Hardy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "just",
+          "can't",
+          "be",
+          "'stings'",
+          "and",
+          "'squirts',",
+          "like",
+          "Laurel",
+          "and",
+          "Hardy."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "just"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "'stings'"
+          ],
+          [
+            "and"
+          ],
+          [
+            "'squirts',"
+          ],
+          [
+            "like"
+          ],
+          [
+            "Laurel"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Hardy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/14.mp3",
+        "timeStart": 43.57,
+        "timeEnd": 47.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26156/list"
+      },
+      {
+        "id": 26157,
+        "position": 15,
+        "content": "We're going to have to field questions from the rest of the seminar, and from Doctor Mankiewicz, too!",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "have",
+          "to",
+          "field",
+          "questions",
+          "from",
+          "the",
+          "rest",
+          "of",
+          "the",
+          "seminar,",
+          "and",
+          "from",
+          "Doctor",
+          "Mankiewicz,",
+          "too!"
+        ],
+        "solution": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "field"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rest"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "seminar,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Doctor"
+          ],
+          [
+            "Mankiewicz,"
+          ],
+          [
+            "too!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/15.mp3",
+        "timeStart": 47.65,
+        "timeEnd": 53.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26157/list"
+      },
+      {
+        "id": 26158,
+        "position": 16,
+        "content": "Yeah, and they can be brutal! So?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "and",
+          "they",
+          "can",
+          "be",
+          "brutal!",
+          "So?"
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "brutal!"
+          ],
+          [
+            "So?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/16.mp3",
+        "timeStart": 53.85,
+        "timeEnd": 56.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26158/list"
+      },
+      {
+        "id": 26159,
+        "position": 17,
+        "content": "So, we both have to have a pretty good grasp of the whole thing, the overall picture.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "we",
+          "both",
+          "have",
+          "to",
+          "have",
+          "a",
+          "pretty",
+          "good",
+          "grasp",
+          "of",
+          "the",
+          "whole",
+          "thing,",
+          "the",
+          "overall",
+          "picture."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "both"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "good"
+          ],
+          [
+            "grasp"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "thing,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "overall"
+          ],
+          [
+            "picture."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/17.mp3",
+        "timeStart": 56.68,
+        "timeEnd": 61.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26159/list"
+      },
+      {
+        "id": 26160,
+        "position": 18,
+        "content": "Don't forget that the key word is 'comparative',",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          "forget",
+          "that",
+          "the",
+          "key",
+          "word",
+          "is",
+          "'comparative',"
+        ],
+        "solution": [
+          [
+            "Don't",
+            "Do not"
+          ],
+          [
+            "forget"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "key"
+          ],
+          [
+            "word"
+          ],
+          [
+            "is"
+          ],
+          [
+            "'comparative',"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/18.mp3",
+        "timeStart": 62.12,
+        "timeEnd": 64.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26160/list"
+      },
+      {
+        "id": 26161,
+        "position": 19,
+        "content": "'A Comparison of the Adaptive Evolution of the Coelenterata and Porifera'.",
+        "defaultInput": "",
+        "jsonContent": [
+          "'A",
+          "Comparison",
+          "of",
+          "the",
+          "Adaptive",
+          "Evolution",
+          "of",
+          "the",
+          "Coelenterata",
+          "and",
+          "Porifera'."
+        ],
+        "solution": [
+          [
+            "'A"
+          ],
+          [
+            "Comparison"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Adaptive"
+          ],
+          [
+            "Evolution"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Coelenterata"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Porifera'."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/19.mp3",
+        "timeStart": 64.85,
+        "timeEnd": 68.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26161/list"
+      },
+      {
+        "id": 26162,
+        "position": 20,
+        "content": "It's not just how jellyfish have evolved and how sponges've evolved,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "not",
+          "just",
+          "how",
+          "jellyfish",
+          "have",
+          "evolved",
+          "and",
+          "how",
+          "sponges've",
+          "evolved,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "just"
+          ],
+          [
+            "how"
+          ],
+          [
+            "jellyfish"
+          ],
+          [
+            "have"
+          ],
+          [
+            "evolved"
+          ],
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "sponges've"
+          ],
+          [
+            "evolved,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/20.mp3",
+        "timeStart": 69.13,
+        "timeEnd": 72.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26162/list"
+      },
+      {
+        "id": 26163,
+        "position": 21,
+        "content": "but a, an analysis of their comparative success.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "a,",
+          "an",
+          "analysis",
+          "of",
+          "their",
+          "comparative",
+          "success."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "a,"
+          ],
+          [
+            "an"
+          ],
+          [
+            "analysis"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "comparative"
+          ],
+          [
+            "success."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/21.mp3",
+        "timeStart": 72.89,
+        "timeEnd": 75.55,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/26163/list"
+      },
+      {
+        "id": 26164,
+        "position": 22,
+        "content": "So I guess we need to get together and really look at that together, don't we?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "I",
+          "guess",
+          "we",
+          "need",
+          "to",
+          "get",
+          "together",
+          "and",
+          "really",
+          "look",
+          "at",
+          "that",
+          "together,",
+          [
+            "don't",
+            "do not"
+          ],
+          "we?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "I"
+          ],
+          [
+            "guess"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "together"
+          ],
+          [
+            "and"
+          ],
+          [
+            "really"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "that"
+          ],
+          [
+            "together,"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "we?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/22.mp3",
+        "timeStart": 76.04,
+        "timeEnd": 80.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26164/list"
+      },
+      {
+        "id": 26165,
+        "position": 23,
+        "content": "Yes, we sure do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "we",
+          "sure",
+          "do."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/23.mp3",
+        "timeStart": 80.4,
+        "timeEnd": 81.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26165/list"
+      },
+      {
+        "id": 26166,
+        "position": 24,
+        "content": "And it's going to take some thinking,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "it's",
+          [
+            "going to",
+            "gonna"
+          ],
+          "take",
+          "some",
+          "thinking,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "take"
+          ],
+          [
+            "some"
+          ],
+          [
+            "thinking,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/24.mp3",
+        "timeStart": 81.77,
+        "timeEnd": 83.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26166/list"
+      },
+      {
+        "id": 26167,
+        "position": 25,
+        "content": "because I don't think we're going to find all that much material on this idea.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "find",
+          "all",
+          "that",
+          "much",
+          "material",
+          "on",
+          "this",
+          "idea."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "find"
+          ],
+          [
+            "all"
+          ],
+          [
+            "that"
+          ],
+          [
+            "much"
+          ],
+          [
+            "material"
+          ],
+          [
+            "on"
+          ],
+          [
+            "this"
+          ],
+          [
+            "idea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/25.mp3",
+        "timeStart": 83.51,
+        "timeEnd": 87.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26167/list"
+      },
+      {
+        "id": 26168,
+        "position": 26,
+        "content": "There're whole books on invertebrate evolution...",
+        "defaultInput": "",
+        "jsonContent": [
+          "There're",
+          "whole",
+          "books",
+          "on",
+          "invertebrate",
+          "evolution..."
+        ],
+        "solution": [
+          [
+            "There're"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "books"
+          ],
+          [
+            "on"
+          ],
+          [
+            "invertebrate"
+          ],
+          [
+            "evolution..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/26.mp3",
+        "timeStart": 87.88,
+        "timeEnd": 91.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26168/list"
+      },
+      {
+        "id": 26169,
+        "position": 27,
+        "content": "Yeah, but each phylum is kind of looked at independently,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "but",
+          "each",
+          "phylum",
+          "is",
+          "kind",
+          "of",
+          "looked",
+          "at",
+          "independently,"
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "each"
+          ],
+          [
+            "phylum"
+          ],
+          [
+            "is"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "looked"
+          ],
+          [
+            "at"
+          ],
+          [
+            "independently,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/27.mp3",
+        "timeStart": 91.16,
+        "timeEnd": 93.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26169/list"
+      },
+      {
+        "id": 26170,
+        "position": 28,
+        "content": "you know, at least they're in the same texts I've been reading through.",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "know,",
+          "at",
+          "least",
+          [
+            "they're",
+            "they are"
+          ],
+          "in",
+          "the",
+          "same",
+          "texts",
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "reading",
+          "through."
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "texts"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "through."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/28.mp3",
+        "timeStart": 93.91,
+        "timeEnd": 97.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26170/list"
+      },
+      {
+        "id": 26171,
+        "position": 29,
+        "content": "Which are?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "are?"
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "are?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/29.mp3",
+        "timeStart": 98,
+        "timeEnd": 99.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26171/list"
+      },
+      {
+        "id": 26172,
+        "position": 30,
+        "content": "Hyman's 'Invertebrates'.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hyman's",
+          "'Invertebrates'."
+        ],
+        "solution": [
+          [
+            "Hyman's"
+          ],
+          [
+            "'Invertebrates'."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/30.mp3",
+        "timeStart": 99.15,
+        "timeEnd": 100.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26172/list"
+      },
+      {
+        "id": 26173,
+        "position": 31,
+        "content": "McEdward's 'Ecology of Marine Invertebrates'.",
+        "defaultInput": "",
+        "jsonContent": [
+          "McEdward's",
+          "'Ecology",
+          "of",
+          "Marine",
+          "Invertebrates'."
+        ],
+        "solution": [
+          [
+            "McEdward's"
+          ],
+          [
+            "'Ecology"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Marine"
+          ],
+          [
+            "Invertebrates'."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/31.mp3",
+        "timeStart": 101.04,
+        "timeEnd": 103.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26173/list"
+      },
+      {
+        "id": 26174,
+        "position": 32,
+        "content": "McEdward's really good, he's got a lot of fascinating examples,",
+        "defaultInput": "",
+        "jsonContent": [
+          "McEdward's",
+          "really",
+          "good,",
+          "he's",
+          "got",
+          "a",
+          "lot",
+          "of",
+          "fascinating",
+          "examples,"
+        ],
+        "solution": [
+          [
+            "McEdward's"
+          ],
+          [
+            "really"
+          ],
+          [
+            "good,"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "fascinating"
+          ],
+          [
+            "examples,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/32.mp3",
+        "timeStart": 104,
+        "timeEnd": 108.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26174/list"
+      },
+      {
+        "id": 26175,
+        "position": 33,
+        "content": "but he doesn't really look at one phylum versus another in term of relative, uh, relative success.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "he",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "really",
+          "look",
+          "at",
+          [
+            "one",
+            "1"
+          ],
+          "phylum",
+          "versus",
+          "another",
+          "in",
+          "term",
+          "of",
+          "relative,",
+          "uh,",
+          "relative",
+          "success."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "he"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "really"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "phylum"
+          ],
+          [
+            "versus"
+          ],
+          [
+            "another"
+          ],
+          [
+            "in"
+          ],
+          [
+            "term"
+          ],
+          [
+            "of"
+          ],
+          [
+            "relative,"
+          ],
+          [
+            "uh,"
+          ],
+          [
+            "relative"
+          ],
+          [
+            "success."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/33.mp3",
+        "timeStart": 108.36,
+        "timeEnd": 115.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26175/list"
+      },
+      {
+        "id": 26176,
+        "position": 34,
+        "content": "He just marvels at their individual, uh, creativity.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "just",
+          "marvels",
+          "at",
+          "their",
+          "individual,",
+          "uh,",
+          "creativity."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "just"
+          ],
+          [
+            "marvels"
+          ],
+          [
+            "at"
+          ],
+          [
+            "their"
+          ],
+          [
+            "individual,"
+          ],
+          [
+            "uh,"
+          ],
+          [
+            "creativity."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/34.mp3",
+        "timeStart": 115.44,
+        "timeEnd": 119.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26176/list"
+      },
+      {
+        "id": 26177,
+        "position": 35,
+        "content": "Well, that's good stuff...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "that's",
+            "that is"
+          ],
+          "good",
+          "stuff..."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "good"
+          ],
+          [
+            "stuff..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/35.mp3",
+        "timeStart": 119.59,
+        "timeEnd": 121.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26177/list"
+      },
+      {
+        "id": 26178,
+        "position": 36,
+        "content": "But we're gonna have to take it a step further than that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "gonna",
+            "going to"
+          ],
+          "have",
+          "to",
+          "take",
+          "it",
+          "a",
+          "step",
+          [
+            "further",
+            "farther"
+          ],
+          "than",
+          "that."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "gonna",
+            "going to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "it"
+          ],
+          [
+            "a"
+          ],
+          [
+            "step"
+          ],
+          [
+            "further",
+            "farther"
+          ],
+          [
+            "than"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/36.mp3",
+        "timeStart": 121.71,
+        "timeEnd": 124.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26178/list"
+      },
+      {
+        "id": 26179,
+        "position": 37,
+        "content": "Well, look, we're still beginning with each of us researching a phylum, aren't we?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "look,",
+          [
+            "we're",
+            "we are"
+          ],
+          "still",
+          "beginning",
+          "with",
+          "each",
+          "of",
+          "us",
+          "researching",
+          "a",
+          "phylum,",
+          [
+            "aren't",
+            "are not"
+          ],
+          "we?"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "look,"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "still"
+          ],
+          [
+            "beginning"
+          ],
+          [
+            "with"
+          ],
+          [
+            "each"
+          ],
+          [
+            "of"
+          ],
+          [
+            "us"
+          ],
+          [
+            "researching"
+          ],
+          [
+            "a"
+          ],
+          [
+            "phylum,"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "we?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/37.mp3",
+        "timeStart": 124.51,
+        "timeEnd": 129.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26179/list"
+      },
+      {
+        "id": 26180,
+        "position": 38,
+        "content": "Yes, yes, that's still a good starting point for sure, but...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "yes,",
+          [
+            "that's",
+            "that is"
+          ],
+          "still",
+          "a",
+          "good",
+          "starting",
+          "point",
+          "for",
+          "sure,",
+          "but..."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "yes,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "still"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "starting"
+          ],
+          [
+            "point"
+          ],
+          [
+            "for"
+          ],
+          [
+            "sure,"
+          ],
+          [
+            "but..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/38.mp3",
+        "timeStart": 129.84,
+        "timeEnd": 133.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26180/list"
+      },
+      {
+        "id": 26181,
+        "position": 39,
+        "content": "I know, so let's get going on that then,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know,",
+          "so",
+          "let's",
+          "get",
+          "going",
+          "on",
+          "that",
+          "then,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "let's"
+          ],
+          [
+            "get"
+          ],
+          [
+            "going"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that"
+          ],
+          [
+            "then,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/39.mp3",
+        "timeStart": 133.8,
+        "timeEnd": 136.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26181/list"
+      },
+      {
+        "id": 26182,
+        "position": 40,
+        "content": "learn something about these critters, and then try to put it together after we've got an idea what we're talking about.",
+        "defaultInput": "",
+        "jsonContent": [
+          "learn",
+          "something",
+          "about",
+          "these",
+          "critters,",
+          "and",
+          "then",
+          "try",
+          "to",
+          "put",
+          "it",
+          "together",
+          "after",
+          [
+            "we've",
+            "we have"
+          ],
+          "got",
+          "an",
+          "idea",
+          "what",
+          [
+            "we're",
+            "we are"
+          ],
+          "talking",
+          "about."
+        ],
+        "solution": [
+          [
+            "learn"
+          ],
+          [
+            "something"
+          ],
+          [
+            "about"
+          ],
+          [
+            "these"
+          ],
+          [
+            "critters,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "put"
+          ],
+          [
+            "it"
+          ],
+          [
+            "together"
+          ],
+          [
+            "after"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "an"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "talking"
+          ],
+          [
+            "about."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/40.mp3",
+        "timeStart": 136.84,
+        "timeEnd": 142.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26182/list"
+      },
+      {
+        "id": 26183,
+        "position": 41,
+        "content": "We've got six weeks to do this thing,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "we have"
+          ],
+          "got",
+          [
+            "six",
+            "6"
+          ],
+          "weeks",
+          "to",
+          "do",
+          "this",
+          "thing,"
+        ],
+        "solution": [
+          [
+            "We've",
+            "we have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "weeks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "this"
+          ],
+          [
+            "thing,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/41.mp3",
+        "timeStart": 143.12,
+        "timeEnd": 145.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26183/list"
+      },
+      {
+        "id": 26184,
+        "position": 42,
+        "content": "so why don't we, well, bulldoze our way through this first part in, say, two weeks?",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "why",
+          [
+            "don't",
+            "do not"
+          ],
+          "we,",
+          "well,",
+          "bulldoze",
+          "our",
+          "way",
+          "through",
+          "this",
+          [
+            "first",
+            "1st"
+          ],
+          "part",
+          "in,",
+          "say,",
+          [
+            "two",
+            "2"
+          ],
+          "weeks?"
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "why"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "we,"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "bulldoze"
+          ],
+          [
+            "our"
+          ],
+          [
+            "way"
+          ],
+          [
+            "through"
+          ],
+          [
+            "this"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "part"
+          ],
+          [
+            "in,"
+          ],
+          [
+            "say,"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "weeks?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/42.mp3",
+        "timeStart": 145.45,
+        "timeEnd": 150.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26184/list"
+      },
+      {
+        "id": 26185,
+        "position": 43,
+        "content": "And then plan to get together a lot after that to intercalate what we've found.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "then",
+          "plan",
+          "to",
+          "get",
+          "together",
+          "a",
+          "lot",
+          "after",
+          "that",
+          "to",
+          "intercalate",
+          "what",
+          [
+            "we've",
+            "we have"
+          ],
+          "found."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "then"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "together"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "after"
+          ],
+          [
+            "that"
+          ],
+          [
+            "to"
+          ],
+          [
+            "intercalate"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "found."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/43.mp3",
+        "timeStart": 151.07,
+        "timeEnd": 155.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26185/list"
+      },
+      {
+        "id": 26186,
+        "position": 44,
+        "content": "And get some original ideas.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "get",
+          "some",
+          "original",
+          "ideas."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "get"
+          ],
+          [
+            "some"
+          ],
+          [
+            "original"
+          ],
+          [
+            "ideas."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/44.mp3",
+        "timeStart": 155.79,
+        "timeEnd": 157.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26186/list"
+      },
+      {
+        "id": 26187,
+        "position": 45,
+        "content": "Yeah, OK.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/45.mp3",
+        "timeStart": 157.97,
+        "timeEnd": 159.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26187/list"
+      },
+      {
+        "id": 26188,
+        "position": 46,
+        "content": "We can, like, mini-present to each other and see what angles we can come up with.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "can,",
+          "like,",
+          [
+            "mini-present",
+            "mini present"
+          ],
+          "to",
+          "each",
+          "other",
+          "and",
+          "see",
+          "what",
+          "angles",
+          "we",
+          "can",
+          "come",
+          "up",
+          "with."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "can,"
+          ],
+          [
+            "like,"
+          ],
+          [
+            "mini-present",
+            "mini present"
+          ],
+          [
+            "to"
+          ],
+          [
+            "each"
+          ],
+          [
+            "other"
+          ],
+          [
+            "and"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "angles"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "come"
+          ],
+          [
+            "up"
+          ],
+          [
+            "with."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/46.mp3",
+        "timeStart": 159.07,
+        "timeEnd": 164.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26188/list"
+      },
+      {
+        "id": 26189,
+        "position": 47,
+        "content": "Put four weeks into that, and we might have something.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Put",
+          [
+            "four",
+            "4"
+          ],
+          "weeks",
+          "into",
+          "that,",
+          "and",
+          "we",
+          "might",
+          "have",
+          "something."
+        ],
+        "solution": [
+          [
+            "Put"
+          ],
+          [
+            "four",
+            "4"
+          ],
+          [
+            "weeks"
+          ],
+          [
+            "into"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "might"
+          ],
+          [
+            "have"
+          ],
+          [
+            "something."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/47.mp3",
+        "timeStart": 164.16,
+        "timeEnd": 167.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26189/list"
+      },
+      {
+        "id": 26190,
+        "position": 48,
+        "content": "So, what do you like?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "what",
+          "do",
+          "you",
+          "like?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/48.mp3",
+        "timeStart": 167.57,
+        "timeEnd": 169.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26190/list"
+      },
+      {
+        "id": 26191,
+        "position": 49,
+        "content": "Huh? What do I what?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Huh?",
+          "What",
+          "do",
+          "I",
+          "what?"
+        ],
+        "solution": [
+          [
+            "Huh?"
+          ],
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "I"
+          ],
+          [
+            "what?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/49.mp3",
+        "timeStart": 169.51,
+        "timeEnd": 171.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26191/list"
+      },
+      {
+        "id": 26192,
+        "position": 50,
+        "content": "Which ones you want, sponges or jellyfish?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "ones",
+          "you",
+          "want,",
+          "sponges",
+          "or",
+          "jellyfish?"
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "ones"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want,"
+          ],
+          [
+            "sponges"
+          ],
+          [
+            "or"
+          ],
+          [
+            "jellyfish?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/50.mp3",
+        "timeStart": 171.8,
+        "timeEnd": 174.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26192/list"
+      },
+      {
+        "id": 26193,
+        "position": 51,
+        "content": "Oh. Yeah. Huh!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh.",
+          "Yeah.",
+          "Huh!"
+        ],
+        "solution": [
+          [
+            "Oh."
+          ],
+          [
+            "Yeah."
+          ],
+          [
+            "Huh!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/51.mp3",
+        "timeStart": 174.91,
+        "timeEnd": 176.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26193/list"
+      },
+      {
+        "id": 26194,
+        "position": 52,
+        "content": "Y'know, they're actually both very intriguing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Y'know,",
+          [
+            "they're",
+            "they are"
+          ],
+          "actually",
+          "both",
+          "very",
+          "intriguing."
+        ],
+        "solution": [
+          [
+            "Y'know,"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "both"
+          ],
+          [
+            "very"
+          ],
+          [
+            "intriguing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/52.mp3",
+        "timeStart": 176.63,
+        "timeEnd": 179.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26194/list"
+      },
+      {
+        "id": 26195,
+        "position": 53,
+        "content": "Amazing beasts.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amazing",
+          "beasts."
+        ],
+        "solution": [
+          [
+            "Amazing"
+          ],
+          [
+            "beasts."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/53.mp3",
+        "timeStart": 179.19,
+        "timeEnd": 180.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26195/list"
+      },
+      {
+        "id": 26196,
+        "position": 54,
+        "content": "Frankly, though, the coelenterates look pretty daunting,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Frankly,",
+          "though,",
+          "the",
+          "coelenterates",
+          "look",
+          "pretty",
+          "daunting,"
+        ],
+        "solution": [
+          [
+            "Frankly,"
+          ],
+          [
+            "though,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "coelenterates"
+          ],
+          [
+            "look"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "daunting,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/54.mp3",
+        "timeStart": 180.91,
+        "timeEnd": 184.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26196/list"
+      },
+      {
+        "id": 26197,
+        "position": 55,
+        "content": "there's such a, you know, range of forms and behaviour.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "there's",
+            "there is"
+          ],
+          "such",
+          "a,",
+          "you",
+          "know,",
+          "range",
+          "of",
+          "forms",
+          "and",
+          [
+            "behaviour.",
+            "behavior"
+          ]
+        ],
+        "solution": [
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "forms"
+          ],
+          [
+            "and"
+          ],
+          [
+            "behaviour.",
+            "behavior"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/55.mp3",
+        "timeStart": 184.44,
+        "timeEnd": 188.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26197/list"
+      },
+      {
+        "id": 26198,
+        "position": 56,
+        "content": "The sponges seem much more manageable.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "sponges",
+          "seem",
+          "much",
+          "more",
+          "manageable."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "sponges"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "much"
+          ],
+          [
+            "more"
+          ],
+          [
+            "manageable."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/56.mp3",
+        "timeStart": 188.31,
+        "timeEnd": 190.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26198/list"
+      },
+      {
+        "id": 26199,
+        "position": 57,
+        "content": "But what about you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "what",
+          "about",
+          "you?"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/57.mp3",
+        "timeStart": 190.84,
+        "timeEnd": 192.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26199/list"
+      },
+      {
+        "id": 26200,
+        "position": 58,
+        "content": "I'm easy, really.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "easy,",
+          "really."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "easy,"
+          ],
+          [
+            "really."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/58.mp3",
+        "timeStart": 192.19,
+        "timeEnd": 193.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26200/list"
+      },
+      {
+        "id": 26201,
+        "position": 59,
+        "content": "Ha! That's funny,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Ha!",
+          [
+            "That's",
+            "that is"
+          ],
+          "funny,"
+        ],
+        "solution": [
+          [
+            "Ha!"
+          ],
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "funny,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/59.mp3",
+        "timeStart": 193.75,
+        "timeEnd": 195.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26201/list"
+      },
+      {
+        "id": 26202,
+        "position": 60,
+        "content": "to me, the Porifera seem kind of boring.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "me,",
+          "the",
+          "Porifera",
+          "seem",
+          "kind",
+          "of",
+          "boring."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Porifera"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "boring."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/60.mp3",
+        "timeStart": 195.49,
+        "timeEnd": 198.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26202/list"
+      },
+      {
+        "id": 26203,
+        "position": 61,
+        "content": "They're so, so... sessile.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "so,",
+          "so...",
+          "sessile."
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "so,"
+          ],
+          [
+            "so..."
+          ],
+          [
+            "sessile."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/61.mp3",
+        "timeStart": 198.56,
+        "timeEnd": 201.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26203/list"
+      },
+      {
+        "id": 26204,
+        "position": 62,
+        "content": "They just sit there and filter.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "just",
+          "sit",
+          "there",
+          "and",
+          "filter."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "just"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "there"
+          ],
+          [
+            "and"
+          ],
+          [
+            "filter."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/62.mp3",
+        "timeStart": 201.56,
+        "timeEnd": 203.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26204/list"
+      },
+      {
+        "id": 26205,
+        "position": 63,
+        "content": "They remind me of my grandfather.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "remind",
+          "me",
+          "of",
+          "my",
+          "grandfather."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "remind"
+          ],
+          [
+            "me"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "grandfather."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/63.mp3",
+        "timeStart": 203.31,
+        "timeEnd": 205.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26205/list"
+      },
+      {
+        "id": 26206,
+        "position": 64,
+        "content": "I like that. Stick it in the presentation!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "like",
+          "that.",
+          "Stick",
+          "it",
+          "in",
+          "the",
+          "presentation!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that."
+          ],
+          [
+            "Stick"
+          ],
+          [
+            "it"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "presentation!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/64.mp3",
+        "timeStart": 205.69,
+        "timeEnd": 208.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26206/list"
+      },
+      {
+        "id": 26207,
+        "position": 65,
+        "content": "Maybe.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe."
+        ],
+        "solution": [
+          [
+            "Maybe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/65.mp3",
+        "timeStart": 209,
+        "timeEnd": 209.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26207/list"
+      },
+      {
+        "id": 26208,
+        "position": 66,
+        "content": "Anyway, I'll be happy to take the jellyfish,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anyway,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "happy",
+          "to",
+          "take",
+          "the",
+          "jellyfish,"
+        ],
+        "solution": [
+          [
+            "Anyway,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "the"
+          ],
+          [
+            "jellyfish,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/66.mp3",
+        "timeStart": 210.08,
+        "timeEnd": 212.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26208/list"
+      },
+      {
+        "id": 26209,
+        "position": 67,
+        "content": "they interest me much more.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "interest",
+          "me",
+          "much",
+          "more."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "me"
+          ],
+          [
+            "much"
+          ],
+          [
+            "more."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/67.mp3",
+        "timeStart": 212.99,
+        "timeEnd": 214.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26209/list"
+      },
+      {
+        "id": 26210,
+        "position": 68,
+        "content": "OK. Say, this is working out well so far.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "Say,",
+          "this",
+          "is",
+          "working",
+          "out",
+          "well",
+          "so",
+          "far."
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "Say,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "working"
+          ],
+          [
+            "out"
+          ],
+          [
+            "well"
+          ],
+          [
+            "so"
+          ],
+          [
+            "far."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/68.mp3",
+        "timeStart": 214.65,
+        "timeEnd": 218.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26210/list"
+      },
+      {
+        "id": 26211,
+        "position": 69,
+        "content": "Yeah, but the hard part comes later.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "but",
+          "the",
+          "hard",
+          "part",
+          "comes",
+          "later."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "part"
+          ],
+          [
+            "comes"
+          ],
+          [
+            "later."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/69.mp3",
+        "timeStart": 218.36,
+        "timeEnd": 220.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26211/list"
+      },
+      {
+        "id": 26212,
+        "position": 70,
+        "content": "So, shall we look at our schedules and see if we can arrange a regular time to meet?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "shall",
+          "we",
+          "look",
+          "at",
+          "our",
+          "schedules",
+          "and",
+          "see",
+          "if",
+          "we",
+          "can",
+          "arrange",
+          "a",
+          "regular",
+          "time",
+          "to",
+          "meet?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "shall"
+          ],
+          [
+            "we"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "our"
+          ],
+          [
+            "schedules"
+          ],
+          [
+            "and"
+          ],
+          [
+            "see"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "a"
+          ],
+          [
+            "regular"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/70.mp3",
+        "timeStart": 220.93,
+        "timeEnd": 225.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26212/list"
+      },
+      {
+        "id": 26213,
+        "position": 71,
+        "content": "Uh, sure. Once a week?",
+        "defaultInput": "uh, ",
+        "jsonContent": [
+          "Uh,",
+          "sure.",
+          "Once",
+          "a",
+          "week?"
+        ],
+        "solution": [
+          [
+            "Uh,"
+          ],
+          [
+            "sure."
+          ],
+          [
+            "Once"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/71.mp3",
+        "timeStart": 226.03,
+        "timeEnd": 228.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26213/list"
+      },
+      {
+        "id": 26214,
+        "position": 72,
+        "content": "For now, yeah, that's enough, I guess.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "now,",
+          "yeah,",
+          [
+            "that's",
+            "that is"
+          ],
+          "enough,",
+          "I",
+          "guess."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "yeah,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "enough,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "guess."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/72.mp3",
+        "timeStart": 228.29,
+        "timeEnd": 230.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26214/list"
+      },
+      {
+        "id": 26215,
+        "position": 73,
+        "content": "Well, how about this time?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "how",
+          "about",
+          "this",
+          "time?"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "about"
+          ],
+          [
+            "this"
+          ],
+          [
+            "time?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/73.mp3",
+        "timeStart": 230.96,
+        "timeEnd": 232.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26215/list"
+      },
+      {
+        "id": 26216,
+        "position": 74,
+        "content": "Um... yeah, that'll be good for me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Um...",
+          "yeah,",
+          [
+            "that'll",
+            "that will"
+          ],
+          "be",
+          "good",
+          "for",
+          "me."
+        ],
+        "solution": [
+          [
+            "Um..."
+          ],
+          [
+            "yeah,"
+          ],
+          [
+            "that'll",
+            "that will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "good"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/74.mp3",
+        "timeStart": 233.07,
+        "timeEnd": 235.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26216/list"
+      },
+      {
+        "id": 26217,
+        "position": 75,
+        "content": "So... Tuesdays at 1 p.m.?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So...",
+          "Tuesdays",
+          "at",
+          [
+            "1",
+            "one"
+          ],
+          "p.m.?"
+        ],
+        "solution": [
+          [
+            "So..."
+          ],
+          [
+            "Tuesdays"
+          ],
+          [
+            "at"
+          ],
+          [
+            "1",
+            "one"
+          ],
+          [
+            "p.m.?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/75.mp3",
+        "timeStart": 235.39,
+        "timeEnd": 237.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26217/list"
+      },
+      {
+        "id": 26218,
+        "position": 76,
+        "content": "Fine. Uh... here?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Fine.",
+          "Uh...",
+          "here?"
+        ],
+        "solution": [
+          [
+            "Fine."
+          ],
+          [
+            "Uh..."
+          ],
+          [
+            "here?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/76.mp3",
+        "timeStart": 238.03,
+        "timeEnd": 240.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26218/list"
+      },
+      {
+        "id": 26219,
+        "position": 77,
+        "content": "This'll be OK, I think.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This'll",
+          "be",
+          [
+            "OK,",
+            "okay"
+          ],
+          "I",
+          "think."
+        ],
+        "solution": [
+          [
+            "This'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/77.mp3",
+        "timeStart": 240.44,
+        "timeEnd": 242.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26219/list"
+      },
+      {
+        "id": 26220,
+        "position": 78,
+        "content": "Not too noisy after lunch hour.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Not",
+          "too",
+          "noisy",
+          "after",
+          "lunch",
+          "hour."
+        ],
+        "solution": [
+          [
+            "Not"
+          ],
+          [
+            "too"
+          ],
+          [
+            "noisy"
+          ],
+          [
+            "after"
+          ],
+          [
+            "lunch"
+          ],
+          [
+            "hour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/78.mp3",
+        "timeStart": 242.48,
+        "timeEnd": 244.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26220/list"
+      },
+      {
+        "id": 26221,
+        "position": 79,
+        "content": "All right, then I'll see you next week, on the seventh.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "All right,",
+            "alright"
+          ],
+          "then",
+          [
+            "I'll",
+            "I will"
+          ],
+          "see",
+          "you",
+          "next",
+          "week,",
+          "on",
+          "the",
+          [
+            "seventh.",
+            "7th"
+          ]
+        ],
+        "solution": [
+          [
+            "All right,",
+            "alright"
+          ],
+          [
+            "then"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week,"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "seventh.",
+            "7th"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/79.mp3",
+        "timeStart": 244.91,
+        "timeEnd": 247.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26221/list"
+      },
+      {
+        "id": 26222,
+        "position": 80,
+        "content": "No! I'll see you in the seminar on Thursday, won't I?",
+        "defaultInput": "",
+        "jsonContent": [
+          "No!",
+          [
+            "I'll",
+            "I will"
+          ],
+          "see",
+          "you",
+          "in",
+          "the",
+          "seminar",
+          "on",
+          "Thursday,",
+          "won't",
+          "I?"
+        ],
+        "solution": [
+          [
+            "No!"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "seminar"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Thursday,"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "I?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/80.mp3",
+        "timeStart": 247.77,
+        "timeEnd": 250.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26222/list"
+      },
+      {
+        "id": 26223,
+        "position": 81,
+        "content": "Huh, yep. Gotta go.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Huh,",
+          "yep.",
+          "Gotta",
+          "go."
+        ],
+        "solution": [
+          [
+            "Huh,"
+          ],
+          [
+            "yep."
+          ],
+          [
+            "Gotta"
+          ],
+          [
+            "go."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/81.mp3",
+        "timeStart": 250.93,
+        "timeEnd": 252.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26223/list"
+      },
+      {
+        "id": 26224,
+        "position": 82,
+        "content": "Right. Thanks. Later.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right.",
+          "Thanks.",
+          "Later."
+        ],
+        "solution": [
+          [
+            "Right."
+          ],
+          [
+            "Thanks."
+          ],
+          [
+            "Later."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toefl-listening/toefl-conversation-12-2023-02-15-23-39-14/82.mp3",
+        "timeStart": 252.8,
+        "timeEnd": 254.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/26224/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "26143": {
+      "id": 422936,
+      "text": "Ah bạn đây rồi. Chào, Jared.",
+      "author": "a user"
+    },
+    "26145": {
+      "id": 423042,
+      "text": "Vâng, tôi có gần một tiếng.",
+      "author": "a user"
+    },
+    "26146": {
+      "id": 423043,
+      "text": "Lớp học tiếp theo của tôi sẽ bắt đầu vào lúc ba giờ ba mươi.",
+      "author": "a user"
+    },
+    "26148": {
+      "id": 423045,
+      "text": "Chúng ta không có nhiều điều để quyết định lúc này.",
+      "author": "a user"
+    },
+    "26150": {
+      "id": 423047,
+      "text": "Chúng ta đã có chủ đề, nhưng chúng ta vẫn chưa phân chia khối lượng công việc.",
+      "author": "a user"
+    },
+    "26151": {
+      "id": 423048,
+      "text": "Và chúng ta thậm chí còn chưa thảo luận về cách tiếp cận nó, thực sự.",
+      "author": "a user"
+    },
+    "26152": {
+      "id": 423049,
+      "text": "Tôi tưởng một người trong số chúng ta sẽ làm về động vật ruột khoang và người còn lại sẽ làm về bọt biển.",
+      "author": "a user"
+    },
+    "26154": {
+      "id": 423051,
+      "text": "Ừ, thì, điều đó là ổn cho việc nghiên cứu cơ bản.",
+      "author": "a user"
+    },
+    "26157": {
+      "id": 423054,
+      "text": "Chúng ta sẽ phải trả lời các câu hỏi từ những người còn lại trong hội thảo và cả từ Tiến sĩ Mankiewicz nữa!",
+      "author": "a user"
+    },
+    "26163": {
+      "id": 423060,
+      "text": "nhưng một phân tích về thành công so sánh của họ.",
+      "author": "a user"
+    },
+    "26169": {
+      "id": 423066,
+      "text": "Vâng, nhưng mỗi ngành đại loại được xem xét một cách độc lập,",
+      "author": "a user"
+    },
+    "26171": {
+      "id": 423068,
+      "text": "Đó là những cái nào?",
+      "author": "a user"
+    },
+    "26175": {
+      "id": 423072,
+      "text": "nhưng ông ấy không thực sự xem xét ngành này so với ngành khác theo khía cạnh thành công tương đối.",
+      "author": "a user"
+    },
+    "26176": {
+      "id": 423073,
+      "text": "Anh ấy chỉ kinh ngạc trước sự sáng tạo riêng biệt của chúng.",
+      "author": "a user"
+    },
+    "26188": {
+      "id": 423085,
+      "text": "Chúng ta có thể, kiểu như, trình bày ngắn gọn với nhau và xem chúng ta có thể nghĩ ra những khía cạnh nào.",
+      "author": "a user"
+    },
+    "26195": {
+      "id": 423092,
+      "text": "Những con quái vật tuyệt vời.",
+      "author": "a user"
+    },
+    "26197": {
+      "id": 423094,
+      "text": "có một, bạn biết đấy, có một loạt các hình thức và hành vi.",
+      "author": "a user"
+    },
+    "26204": {
+      "id": 423101,
+      "text": "Chúng chỉ ngồi đó và lọc.",
+      "author": "a user"
+    },
+    "26205": {
+      "id": 423102,
+      "text": "Chúng làm tôi nhớ đến ông tôi.",
+      "author": "a user"
+    },
+    "26209": {
+      "id": 423106,
+      "text": "chúng gây hứng thú cho tôi hơn nhiều.",
+      "author": "a user"
+    },
+    "26218": {
+      "id": 423115,
+      "text": "Ổn. Ờ... ở đây ư?",
+      "author": "a user"
+    },
+    "26221": {
+      "id": 423118,
+      "text": "Được rồi, vậy tôi sẽ gặp bạn vào tuần tới, vào ngày bảy.",
+      "author": "a user"
+    },
+    "26224": {
+      "id": 423121,
+      "text": "Phải. Cảm ơn. Hẹn gặp lại sau.",
+      "author": "a user"
+    },
+    "26156": {
+      "id": 645045,
+      "text": "Chúng ta không thể chỉ là \"mũi đốt\" và \"tia nước\", như Laurel và Hardy được.",
+      "author": "a user"
+    },
+    "26144": {
+      "id": 2703017,
+      "text": "Chào Colleen. Bạn còn thời gian chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "26147": {
+      "id": 2703018,
+      "text": "Vậy là đủ thời gian rồi nhỉ?",
+      "author": "ChatGPT4.1"
+    },
+    "26149": {
+      "id": 2703019,
+      "text": "Còn tùy vào tiến trình thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "26153": {
+      "id": 2703020,
+      "text": "Nghe có vẻ đơn giản mà.",
+      "author": "ChatGPT4.1"
+    },
+    "26155": {
+      "id": 2703021,
+      "text": "nhưng đừng quên rằng chúng ta phải cùng nhau thuyết trình.",
+      "author": "a user"
+    },
+    "26158": {
+      "id": 2703022,
+      "text": "Ừ, mà họ có thể hỏi khó lắm! Thế thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "26159": {
+      "id": 2703023,
+      "text": "Nên cả hai chúng ta đều phải nắm vững toàn bộ, nhìn được tổng thể.",
+      "author": "ChatGPT4.1"
+    },
+    "26160": {
+      "id": 2703024,
+      "text": "Đừng quên từ khóa ở đây là 'so sánh',",
+      "author": "ChatGPT4.1"
+    },
+    "26161": {
+      "id": 2703025,
+      "text": "'So sánh tiến hóa thích nghi của Coelenterata và Porifera'.",
+      "author": "ChatGPT4.1"
+    },
+    "26162": {
+      "id": 2703026,
+      "text": "Không chỉ là sứa tiến hóa ra sao và bọt biển tiến hóa như thế nào,",
+      "author": "ChatGPT4.1"
+    },
+    "26164": {
+      "id": 2703027,
+      "text": "Vậy mình nghĩ ta nên ngồi lại với nhau để xem xét thật kỹ việc này đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "26165": {
+      "id": 2703028,
+      "text": "Ừ, chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "26166": {
+      "id": 2703029,
+      "text": "Và nó sẽ cần phải suy nghĩ khá nhiều,",
+      "author": "ChatGPT4.1"
+    },
+    "26167": {
+      "id": 2703030,
+      "text": "vì mình không nghĩ sẽ có nhiều tài liệu về ý tưởng này.",
+      "author": "ChatGPT4.1"
+    },
+    "26168": {
+      "id": 2703031,
+      "text": "Có đầy sách nói về sự tiến hóa của động vật không xương sống...",
+      "author": "ChatGPT4.1"
+    },
+    "26170": {
+      "id": 2703032,
+      "text": "bạn biết không, ít nhất là trong mấy quyển mình đang đọc thì vậy đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "26172": {
+      "id": 2703033,
+      "text": "'Invertebrates' của Hyman.",
+      "author": "ChatGPT4.1"
+    },
+    "26173": {
+      "id": 2703733,
+      "text": "'Ecology of Marine Invertebrates' của McEdward.",
+      "author": "ChatGPT4.1"
+    },
+    "26174": {
+      "id": 2703734,
+      "text": "McEdward rất hay, ông ấy có nhiều ví dụ hấp dẫn,",
+      "author": "ChatGPT4.1"
+    },
+    "26177": {
+      "id": 2703735,
+      "text": "Ừ, đó cũng là tài liệu hữu ích...",
+      "author": "ChatGPT4.1"
+    },
+    "26178": {
+      "id": 2703736,
+      "text": "Nhưng ta cần phải tiến xa hơn mức đó.",
+      "author": "ChatGPT4.1"
+    },
+    "26179": {
+      "id": 2703737,
+      "text": "Vậy thì, chúng ta vẫn bắt đầu bằng việc mỗi người nghiên cứu một ngành, phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "26180": {
+      "id": 2703738,
+      "text": "Đúng, đúng, đó chắc chắn vẫn là điểm xuất phát tốt, nhưng...",
+      "author": "ChatGPT4.1"
+    },
+    "26181": {
+      "id": 2703739,
+      "text": "Tôi hiểu, vậy thì ta cùng bắt đầu đi,",
+      "author": "ChatGPT4.1"
+    },
+    "26182": {
+      "id": 2703740,
+      "text": "tìm hiểu đôi điều về những sinh vật này, sau đó cố gắng ghép chúng lại với nhau sau khi chúng ta đã có ý tưởng về những gì chúng ta đang nói đến.",
+      "author": "a user"
+    },
+    "26183": {
+      "id": 2703741,
+      "text": "Chúng ta có sáu tuần để làm việc này,",
+      "author": "ChatGPT4.1"
+    },
+    "26184": {
+      "id": 2703742,
+      "text": "vậy sao không cố gắng hoàn thành phần đầu trong vòng, ví dụ, hai tuần?",
+      "author": "ChatGPT4.1"
+    },
+    "26185": {
+      "id": 2703743,
+      "text": "Rồi sau đó lên kế hoạch gặp nhau thường xuyên để lồng ghép những gì đã tìm được.",
+      "author": "ChatGPT4.1"
+    },
+    "26186": {
+      "id": 2703744,
+      "text": "Và có thêm vài ý tưởng độc đáo.",
+      "author": "ChatGPT4.1"
+    },
+    "26187": {
+      "id": 2703745,
+      "text": "Ừ, được thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "26189": {
+      "id": 2718421,
+      "text": "Dành bốn tuần cho việc đó, có thể chúng ta sẽ tạo ra được cái gì đó hay.",
+      "author": "ChatGPT4.1"
+    },
+    "26190": {
+      "id": 2718422,
+      "text": "Vậy, bạn thích cái nào?",
+      "author": "ChatGPT4.1"
+    },
+    "26191": {
+      "id": 2718423,
+      "text": "Hả? Tôi gì cơ?",
+      "author": "ChatGPT4.1"
+    },
+    "26192": {
+      "id": 2718424,
+      "text": "Bạn muốn chọn loài nào, bọt biển hay sứa?",
+      "author": "ChatGPT4.1"
+    },
+    "26193": {
+      "id": 2718425,
+      "text": "Ồ. À. Hừm!",
+      "author": "ChatGPT4.1"
+    },
+    "26194": {
+      "id": 2718426,
+      "text": "Bạn biết không, thật ra cả hai đều rất thú vị.",
+      "author": "ChatGPT4.1"
+    },
+    "26196": {
+      "id": 2718427,
+      "text": "Thành thật mà nói, ngành ruột khoang trông có vẻ hơi khó,",
+      "author": "ChatGPT4.1"
+    },
+    "26198": {
+      "id": 2718428,
+      "text": "Loài bọt biển có vẻ dễ kiểm soát hơn nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "26199": {
+      "id": 2718429,
+      "text": "Còn bạn thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "26200": {
+      "id": 2718430,
+      "text": "Tôi thì sao cũng được mà.",
+      "author": "ChatGPT4.1"
+    },
+    "26201": {
+      "id": 2718431,
+      "text": "Ha! Vui thật,",
+      "author": "ChatGPT4.1"
+    },
+    "26202": {
+      "id": 2718432,
+      "text": "với tôi, ngành bọt biển có vẻ hơi chán.",
+      "author": "ChatGPT4.1"
+    },
+    "26203": {
+      "id": 2718433,
+      "text": "Chúng rất là... bất động.",
+      "author": "ChatGPT4.1"
+    },
+    "26206": {
+      "id": 2718773,
+      "text": "Tôi thích ý đó. Đưa nó vào bài thuyết trình đi!",
+      "author": "ChatGPT4.1"
+    },
+    "26207": {
+      "id": 2718774,
+      "text": "Có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "26208": {
+      "id": 2718775,
+      "text": "Dù sao thì, tôi sẽ vui lòng chọn loài sứa,",
+      "author": "ChatGPT4.1"
+    },
+    "26210": {
+      "id": 2718776,
+      "text": "OK. Này, mọi việc tới giờ diễn ra suôn sẻ đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "26211": {
+      "id": 2718777,
+      "text": "Ừ, nhưng phần khó sẽ đến sau.",
+      "author": "ChatGPT4.1"
+    },
+    "26212": {
+      "id": 2718778,
+      "text": "Vậy, chúng ta xem lại lịch và thử sắp xếp một thời gian gặp cố định nhé?",
+      "author": "ChatGPT4.1"
+    },
+    "26213": {
+      "id": 2718779,
+      "text": "Ờ, được thôi. Một lần một tuần?",
+      "author": "ChatGPT4.1"
+    },
+    "26214": {
+      "id": 2718780,
+      "text": "Bây giờ thế là đủ rồi, chắc vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "26215": {
+      "id": 2718781,
+      "text": "Ờ, còn giờ này thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "26216": {
+      "id": 2718782,
+      "text": "Ờ... được, giờ đó phù hợp với tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "26217": {
+      "id": 2718783,
+      "text": "Vậy... thứ Ba lúc 1 giờ chiều nhé?",
+      "author": "ChatGPT4.1"
+    },
+    "26219": {
+      "id": 2718784,
+      "text": "Tôi nghĩ ở đây là được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "26220": {
+      "id": 2718785,
+      "text": "Không quá ồn sau giờ ăn trưa.",
+      "author": "ChatGPT4.1"
+    },
+    "26222": {
+      "id": 2718969,
+      "text": "Không! Tôi sẽ gặp bạn ở buổi hội thảo thứ Năm, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "26223": {
+      "id": 2718970,
+      "text": "Ờ, đúng vậy. Tôi phải đi đây.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

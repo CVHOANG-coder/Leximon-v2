@@ -1,0 +1,535 @@
+{
+  "summary": {
+    "id": 1642,
+    "name": "Short Talk 161",
+    "subTitle": "Cake Order Confirmation",
+    "levelName": "A2",
+    "position": 407,
+    "totalChallenges": 8,
+    "groupId": 47,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1642",
+  "detail": {
+    "id": 1642,
+    "lessonName": "Short Talk 161",
+    "name": "Short Talk 161",
+    "position": 407,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/0-short-talk-161.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68408,
+        "position": 1,
+        "content": "Hi, this is Emily from Bella's Bakery.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "this",
+          "is",
+          "Emily",
+          "from",
+          "Bella's",
+          "Bakery."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Emily"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Bella's"
+          ],
+          [
+            "Bakery."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/1.mp3",
+        "timeStart": 0.42,
+        "timeEnd": 2.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68408/list"
+      },
+      {
+        "id": 68409,
+        "position": 2,
+        "content": "Just wanted to confirm your cake order for Saturday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "wanted",
+          "to",
+          "confirm",
+          "your",
+          "cake",
+          "order",
+          "for",
+          "Saturday."
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "confirm"
+          ],
+          [
+            "your"
+          ],
+          [
+            "cake"
+          ],
+          [
+            "order"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Saturday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/2.mp3",
+        "timeStart": 2.94,
+        "timeEnd": 6.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68409/list"
+      },
+      {
+        "id": 68410,
+        "position": 3,
+        "content": "You've requested a chocolate cake with raspberry filling and a custom message on top, right?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You've",
+            "You have"
+          ],
+          "requested",
+          "a",
+          "chocolate",
+          "cake",
+          "with",
+          "raspberry",
+          "filling",
+          "and",
+          "a",
+          "custom",
+          "message",
+          "on",
+          "top,",
+          "right?"
+        ],
+        "solution": [
+          [
+            "You've",
+            "You have"
+          ],
+          [
+            "requested"
+          ],
+          [
+            "a"
+          ],
+          [
+            "chocolate"
+          ],
+          [
+            "cake"
+          ],
+          [
+            "with"
+          ],
+          [
+            "raspberry"
+          ],
+          [
+            "filling"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "custom"
+          ],
+          [
+            "message"
+          ],
+          [
+            "on"
+          ],
+          [
+            "top,"
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/3.mp3",
+        "timeStart": 6.34,
+        "timeEnd": 11.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68410/list"
+      },
+      {
+        "id": 68411,
+        "position": 4,
+        "content": "If you need any changes, please let us know by tomorrow afternoon.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "need",
+          "any",
+          "changes,",
+          "please",
+          "let",
+          "us",
+          "know",
+          "by",
+          "tomorrow",
+          "afternoon."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "any"
+          ],
+          [
+            "changes,"
+          ],
+          [
+            "please"
+          ],
+          [
+            "let"
+          ],
+          [
+            "us"
+          ],
+          [
+            "know"
+          ],
+          [
+            "by"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "afternoon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/4.mp3",
+        "timeStart": 11.77,
+        "timeEnd": 15.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68411/list"
+      },
+      {
+        "id": 68412,
+        "position": 5,
+        "content": "Also, we offer delivery if that's more convenient for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "we",
+          "offer",
+          "delivery",
+          "if",
+          "that's",
+          "more",
+          "convenient",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "delivery"
+          ],
+          [
+            "if"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "more"
+          ],
+          [
+            "convenient"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/5.mp3",
+        "timeStart": 15.91,
+        "timeEnd": 19.98,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/68412/list"
+      },
+      {
+        "id": 68413,
+        "position": 6,
+        "content": "Otherwise, it'll be ready for pickup anytime after 10 AM on Saturday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Otherwise,",
+          [
+            "it'll",
+            "it will"
+          ],
+          "be",
+          "ready",
+          "for",
+          "pickup",
+          "anytime",
+          "after",
+          [
+            "10",
+            "ten"
+          ],
+          "AM",
+          "on",
+          "Saturday."
+        ],
+        "solution": [
+          [
+            "Otherwise,"
+          ],
+          [
+            "it'll",
+            "it will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "for"
+          ],
+          [
+            "pickup"
+          ],
+          [
+            "anytime"
+          ],
+          [
+            "after"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "AM"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Saturday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/6.mp3",
+        "timeStart": 19.98,
+        "timeEnd": 24.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68413/list"
+      },
+      {
+        "id": 68414,
+        "position": 7,
+        "content": "Thanks again for choosing us,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "again",
+          "for",
+          "choosing",
+          "us,"
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "again"
+          ],
+          [
+            "for"
+          ],
+          [
+            "choosing"
+          ],
+          [
+            "us,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/7.mp3",
+        "timeStart": 24.92,
+        "timeEnd": 26.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68414/list"
+      },
+      {
+        "id": 68415,
+        "position": 8,
+        "content": "and we look forward to making your celebration a little sweeter!",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "look",
+          "forward",
+          "to",
+          "making",
+          "your",
+          "celebration",
+          "a",
+          "little",
+          "sweeter!"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "look"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "making"
+          ],
+          [
+            "your"
+          ],
+          [
+            "celebration"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "sweeter!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-161-2024-10-05-12-19-09/8.mp3",
+        "timeStart": 26.84,
+        "timeEnd": 30.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68415/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68408": {
+      "id": 2589897,
+      "text": "Chào bạn, tôi là Emily từ tiệm bánh Bella's Bakery.",
+      "author": "ChatGPT4.1"
+    },
+    "68409": {
+      "id": 2589898,
+      "text": "Chỉ muốn xác nhận lại đơn đặt bánh của bạn cho ngày thứ Bảy.",
+      "author": "ChatGPT4.1"
+    },
+    "68410": {
+      "id": 2589899,
+      "text": "Bạn đã đặt một chiếc bánh sô-cô-la với nhân mâm xôi và một thông điệp tùy chỉnh trên mặt bánh, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "68411": {
+      "id": 2589900,
+      "text": "Nếu bạn cần thay đổi gì, vui lòng thông báo cho chúng tôi trước chiều mai.",
+      "author": "ChatGPT4.1"
+    },
+    "68412": {
+      "id": 2589901,
+      "text": "Chúng tôi cũng cung cấp dịch vụ giao hàng nếu điều đó thuận tiện hơn cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "68413": {
+      "id": 2589902,
+      "text": "Nếu không, bánh sẽ sẵn sàng để lấy bất cứ lúc nào sau 10 giờ sáng thứ Bảy.",
+      "author": "ChatGPT4.1"
+    },
+    "68414": {
+      "id": 2589903,
+      "text": "Cảm ơn bạn một lần nữa vì đã chọn chúng tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "68415": {
+      "id": 2589904,
+      "text": "Và chúng tôi mong được góp phần làm cho buổi tiệc của bạn thêm ngọt ngào!",
+      "author": "a user"
+    }
+  }
+}

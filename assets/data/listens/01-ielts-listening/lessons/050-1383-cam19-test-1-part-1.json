@@ -1,0 +1,3654 @@
+{
+  "summary": {
+    "id": 1383,
+    "name": "Cam19 - Test 1 - Part 1",
+    "subTitle": "Park Educational Visits Overview",
+    "levelName": "B2",
+    "position": 50,
+    "totalChallenges": 67,
+    "groupId": 54,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1383",
+  "detail": {
+    "id": 1383,
+    "lessonName": "Cam19 - Test 1 - Part 1",
+    "name": "Cam19 - Test 1 - Part 1",
+    "position": 50,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/0-cam19-test-1-part-1_v3.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 60363,
+        "position": 1,
+        "content": "Okay. What would you like to know?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ],
+          "What",
+          "would",
+          "you",
+          "like",
+          "to",
+          "know?"
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ],
+          [
+            "What"
+          ],
+          [
+            "would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/1_v3.mp3",
+        "timeStart": 0.52,
+        "timeEnd": 3.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60363/list"
+      },
+      {
+        "id": 60364,
+        "position": 2,
+        "content": "Well, I'm new to this area,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "new",
+          "to",
+          "this",
+          "area,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "new"
+          ],
+          [
+            "to"
+          ],
+          [
+            "this"
+          ],
+          [
+            "area,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/2_v3.mp3",
+        "timeStart": 3.64,
+        "timeEnd": 6.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60364/list"
+      },
+      {
+        "id": 60365,
+        "position": 3,
+        "content": "so perhaps you could tell me something about the park first, please.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "perhaps",
+          "you",
+          "could",
+          "tell",
+          "me",
+          "something",
+          "about",
+          "the",
+          "park",
+          [
+            "first,",
+            "1st"
+          ],
+          "please."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "perhaps"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "something"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "park"
+          ],
+          [
+            "first,",
+            "1st"
+          ],
+          [
+            "please."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/3_v3.mp3",
+        "timeStart": 6.88,
+        "timeEnd": 11.11,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/60365/list"
+      },
+      {
+        "id": 60366,
+        "position": 4,
+        "content": "Of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/4_v3.mp3",
+        "timeStart": 11.11,
+        "timeEnd": 12.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60366/list"
+      },
+      {
+        "id": 60367,
+        "position": 5,
+        "content": "Altogether the park covers 170 acres,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Altogether",
+          "the",
+          "park",
+          "covers",
+          "170",
+          "acres,"
+        ],
+        "solution": [
+          [
+            "Altogether"
+          ],
+          [
+            "the"
+          ],
+          [
+            "park"
+          ],
+          [
+            "covers"
+          ],
+          [
+            "170"
+          ],
+          [
+            "acres,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/5_v3.mp3",
+        "timeStart": 12.51,
+        "timeEnd": 16.87,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/60367/list"
+      },
+      {
+        "id": 60368,
+        "position": 6,
+        "content": "that's 69 hectares.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that's",
+          "69",
+          "hectares."
+        ],
+        "solution": [
+          [
+            "that's"
+          ],
+          [
+            "69"
+          ],
+          [
+            "hectares."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/6_v3.mp3",
+        "timeStart": 16.87,
+        "timeEnd": 19.69,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60368/list"
+      },
+      {
+        "id": 60369,
+        "position": 7,
+        "content": "There are three main types of habitat:",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          [
+            "three",
+            "3"
+          ],
+          "main",
+          "types",
+          "of",
+          "habitat:"
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "main"
+          ],
+          [
+            "types"
+          ],
+          [
+            "of"
+          ],
+          [
+            "habitat:"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/7_v3.mp3",
+        "timeStart": 19.89,
+        "timeEnd": 22.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60369/list"
+      },
+      {
+        "id": 60370,
+        "position": 8,
+        "content": "wetland, grassland and woodland.",
+        "defaultInput": "",
+        "jsonContent": [
+          "wetland,",
+          "grassland",
+          "and",
+          "woodland."
+        ],
+        "solution": [
+          [
+            "wetland,"
+          ],
+          [
+            "grassland"
+          ],
+          [
+            "and"
+          ],
+          [
+            "woodland."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/8_v3.mp3",
+        "timeStart": 22.6,
+        "timeEnd": 25.96,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60370/list"
+      },
+      {
+        "id": 60371,
+        "position": 9,
+        "content": "The woods are well established and varied,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "woods",
+          "are",
+          "well",
+          "established",
+          "and",
+          "varied,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "woods"
+          ],
+          [
+            "are"
+          ],
+          [
+            "well"
+          ],
+          [
+            "established"
+          ],
+          [
+            "and"
+          ],
+          [
+            "varied,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/9_v3.mp3",
+        "timeStart": 25.96,
+        "timeEnd": 29.2,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60371/list"
+      },
+      {
+        "id": 60372,
+        "position": 10,
+        "content": "with an oak plantation, and other areas of mixed species.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "an",
+          "oak",
+          "plantation,",
+          "and",
+          "other",
+          "areas",
+          "of",
+          "mixed",
+          "species."
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "an"
+          ],
+          [
+            "oak"
+          ],
+          [
+            "plantation,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "other"
+          ],
+          [
+            "areas"
+          ],
+          [
+            "of"
+          ],
+          [
+            "mixed"
+          ],
+          [
+            "species."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/10_v3.mp3",
+        "timeStart": 29.2,
+        "timeEnd": 33.65,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60372/list"
+      },
+      {
+        "id": 60373,
+        "position": 11,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/11_v3.mp3",
+        "timeStart": 33.65,
+        "timeEnd": 34.57,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60373/list"
+      },
+      {
+        "id": 60374,
+        "position": 12,
+        "content": "The wetland is quite varied, too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "wetland",
+          "is",
+          "quite",
+          "varied,",
+          "too."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "wetland"
+          ],
+          [
+            "is"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "varied,"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/12_v3.mp3",
+        "timeStart": 34.57,
+        "timeEnd": 37.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60374/list"
+      },
+      {
+        "id": 60375,
+        "position": 13,
+        "content": "The original farmland was dug up around 40 years ago to extract gravel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "original",
+          "farmland",
+          "was",
+          "dug",
+          "up",
+          "around",
+          [
+            "40",
+            "forty"
+          ],
+          "years",
+          "ago",
+          "to",
+          "extract",
+          "gravel."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "original"
+          ],
+          [
+            "farmland"
+          ],
+          [
+            "was"
+          ],
+          [
+            "dug"
+          ],
+          [
+            "up"
+          ],
+          [
+            "around"
+          ],
+          [
+            "40",
+            "forty"
+          ],
+          [
+            "years"
+          ],
+          [
+            "ago"
+          ],
+          [
+            "to"
+          ],
+          [
+            "extract"
+          ],
+          [
+            "gravel."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/13_v3.mp3",
+        "timeStart": 37.39,
+        "timeEnd": 43.24,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/60375/list"
+      },
+      {
+        "id": 60376,
+        "position": 14,
+        "content": "Once this work was completed,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "this",
+          "work",
+          "was",
+          "completed,"
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "this"
+          ],
+          [
+            "work"
+          ],
+          [
+            "was"
+          ],
+          [
+            "completed,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/14_v3.mp3",
+        "timeStart": 43.51,
+        "timeEnd": 45.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60376/list"
+      },
+      {
+        "id": 60377,
+        "position": 15,
+        "content": "the gravel pits filled with water, forming the two large lakes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "gravel",
+          "pits",
+          "filled",
+          "with",
+          "water,",
+          "forming",
+          "the",
+          [
+            "two",
+            "2"
+          ],
+          "large",
+          "lakes."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "gravel"
+          ],
+          [
+            "pits"
+          ],
+          [
+            "filled"
+          ],
+          [
+            "with"
+          ],
+          [
+            "water,"
+          ],
+          [
+            "forming"
+          ],
+          [
+            "the"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "large"
+          ],
+          [
+            "lakes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/15_v3.mp3",
+        "timeStart": 45.88,
+        "timeEnd": 50.73,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/60377/list"
+      },
+      {
+        "id": 60378,
+        "position": 16,
+        "content": "There are also several smaller ones, ponds and a stream that flows through the park.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "also",
+          "several",
+          "smaller",
+          "ones,",
+          "ponds",
+          "and",
+          "a",
+          "stream",
+          "that",
+          "flows",
+          "through",
+          "the",
+          "park."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "also"
+          ],
+          [
+            "several"
+          ],
+          [
+            "smaller"
+          ],
+          [
+            "ones,"
+          ],
+          [
+            "ponds"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stream"
+          ],
+          [
+            "that"
+          ],
+          [
+            "flows"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "park."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/16_v3.mp3",
+        "timeStart": 50.73,
+        "timeEnd": 57.77,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/60378/list"
+      },
+      {
+        "id": 60379,
+        "position": 17,
+        "content": "Okay, so I suppose with these different habitats there's quite a variety of wildlife.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "so",
+          "I",
+          "suppose",
+          "with",
+          "these",
+          "different",
+          "habitats",
+          [
+            "there's",
+            "there is"
+          ],
+          "quite",
+          "a",
+          "variety",
+          "of",
+          "wildlife."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "suppose"
+          ],
+          [
+            "with"
+          ],
+          [
+            "these"
+          ],
+          [
+            "different"
+          ],
+          [
+            "habitats"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "variety"
+          ],
+          [
+            "of"
+          ],
+          [
+            "wildlife."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/17_v3.mp3",
+        "timeStart": 57.77,
+        "timeEnd": 65.25,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/60379/list"
+      },
+      {
+        "id": 60380,
+        "position": 18,
+        "content": "There certainly is.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "certainly",
+          "is."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "certainly"
+          ],
+          [
+            "is."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/18_v3.mp3",
+        "timeStart": 65.25,
+        "timeEnd": 67.07,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60380/list"
+      },
+      {
+        "id": 60381,
+        "position": 19,
+        "content": "A lot of different species of birds and insects,",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "lot",
+          "of",
+          "different",
+          "species",
+          "of",
+          "birds",
+          "and",
+          "insects,"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "different"
+          ],
+          [
+            "species"
+          ],
+          [
+            "of"
+          ],
+          [
+            "birds"
+          ],
+          [
+            "and"
+          ],
+          [
+            "insects,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/19_v3.mp3",
+        "timeStart": 67.07,
+        "timeEnd": 71.4,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60381/list"
+      },
+      {
+        "id": 60382,
+        "position": 20,
+        "content": "and also animals like deer and rabbits.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "also",
+          "animals",
+          "like",
+          "deer",
+          "and",
+          "rabbits."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "also"
+          ],
+          [
+            "animals"
+          ],
+          [
+            "like"
+          ],
+          [
+            "deer"
+          ],
+          [
+            "and"
+          ],
+          [
+            "rabbits."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/20_v3.mp3",
+        "timeStart": 71.4,
+        "timeEnd": 74.76,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60382/list"
+      },
+      {
+        "id": 60383,
+        "position": 21,
+        "content": "And I understand you organise educational visits for school parties.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "understand",
+          "you",
+          [
+            "organise",
+            "organize"
+          ],
+          "educational",
+          "visits",
+          "for",
+          [
+            "school",
+            "the school"
+          ],
+          "parties."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "you"
+          ],
+          [
+            "organise",
+            "organize"
+          ],
+          [
+            "educational"
+          ],
+          [
+            "visits"
+          ],
+          [
+            "for"
+          ],
+          [
+            "school",
+            "the school"
+          ],
+          [
+            "parties."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/21_v3.mp3",
+        "timeStart": 74.76,
+        "timeEnd": 79.79,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60383/list"
+      },
+      {
+        "id": 60384,
+        "position": 22,
+        "content": "That's right.",
+        "defaultInput": "That's right.",
+        "jsonContent": [
+          "That's",
+          "right."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/22_v3.mp3",
+        "timeStart": 79.79,
+        "timeEnd": 81.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60384/list"
+      },
+      {
+        "id": 60385,
+        "position": 23,
+        "content": "We can organise a wide range of activities and adapt them to suit all ages.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "can",
+          [
+            "organise",
+            "organize"
+          ],
+          "a",
+          "wide",
+          "range",
+          "of",
+          "activities",
+          "and",
+          "adapt",
+          "them",
+          "to",
+          "suit",
+          "all",
+          "ages."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "can"
+          ],
+          [
+            "organise",
+            "organize"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wide"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "and"
+          ],
+          [
+            "adapt"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "suit"
+          ],
+          [
+            "all"
+          ],
+          [
+            "ages."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/23_v3.mp3",
+        "timeStart": 81.25,
+        "timeEnd": 87.33,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/60385/list"
+      },
+      {
+        "id": 60386,
+        "position": 24,
+        "content": "Can you give me some examples of the activities?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "give",
+          "me",
+          "some",
+          "examples",
+          "of",
+          "the",
+          "activities?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "some"
+          ],
+          [
+            "examples"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "activities?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/24_v3.mp3",
+        "timeStart": 87.33,
+        "timeEnd": 90.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60386/list"
+      },
+      {
+        "id": 60387,
+        "position": 25,
+        "content": "Well, one focus is on science,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "one",
+            "1"
+          ],
+          "focus",
+          "is",
+          "on",
+          "science,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "science,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/25_v3.mp3",
+        "timeStart": 90.75,
+        "timeEnd": 94.13,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60387/list"
+      },
+      {
+        "id": 60388,
+        "position": 26,
+        "content": "where we help children to discover and study plants, trees and insects.",
+        "defaultInput": "",
+        "jsonContent": [
+          "where",
+          "we",
+          "help",
+          "children",
+          "to",
+          "discover",
+          "and",
+          "study",
+          "plants,",
+          "trees",
+          "and",
+          "insects."
+        ],
+        "solution": [
+          [
+            "where"
+          ],
+          [
+            "we"
+          ],
+          [
+            "help"
+          ],
+          [
+            "children"
+          ],
+          [
+            "to"
+          ],
+          [
+            "discover"
+          ],
+          [
+            "and"
+          ],
+          [
+            "study"
+          ],
+          [
+            "plants,"
+          ],
+          [
+            "trees"
+          ],
+          [
+            "and"
+          ],
+          [
+            "insects."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/26_v3.mp3",
+        "timeStart": 94.13,
+        "timeEnd": 99.41,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/60388/list"
+      },
+      {
+        "id": 60389,
+        "position": 27,
+        "content": "They also collect and analyse data about the things they see.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "also",
+          "collect",
+          "and",
+          [
+            "analyse",
+            "analyze"
+          ],
+          "data",
+          "about",
+          "the",
+          "things",
+          "they",
+          "see."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "also"
+          ],
+          [
+            "collect"
+          ],
+          [
+            "and"
+          ],
+          [
+            "analyse",
+            "analyze"
+          ],
+          [
+            "data"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "things"
+          ],
+          [
+            "they"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/27_v3.mp3",
+        "timeStart": 99.68,
+        "timeEnd": 105.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60389/list"
+      },
+      {
+        "id": 60390,
+        "position": 28,
+        "content": "Another focus is on geography.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Another",
+          "focus",
+          "is",
+          "on",
+          "geography."
+        ],
+        "solution": [
+          [
+            "Another"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "geography."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/28_v3.mp3",
+        "timeStart": 105.27,
+        "timeEnd": 108.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60390/list"
+      },
+      {
+        "id": 60391,
+        "position": 29,
+        "content": "The park is a great environment to learn and practise reading a map",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "park",
+          "is",
+          "a",
+          "great",
+          "environment",
+          "to",
+          "learn",
+          "and",
+          [
+            "practise",
+            "practice"
+          ],
+          "reading",
+          "a",
+          "map"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "park"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "environment"
+          ],
+          [
+            "to"
+          ],
+          [
+            "learn"
+          ],
+          [
+            "and"
+          ],
+          [
+            "practise",
+            "practice"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "a"
+          ],
+          [
+            "map"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/29_v3.mp3",
+        "timeStart": 108.39,
+        "timeEnd": 113.55,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60391/list"
+      },
+      {
+        "id": 60392,
+        "position": 30,
+        "content": "and using a compass to navigate around the park.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "using",
+          "a",
+          "compass",
+          "to",
+          "navigate",
+          "around",
+          "the",
+          "park."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "using"
+          ],
+          [
+            "a"
+          ],
+          [
+            "compass"
+          ],
+          [
+            "to"
+          ],
+          [
+            "navigate"
+          ],
+          [
+            "around"
+          ],
+          [
+            "the"
+          ],
+          [
+            "park."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/30_v3.mp3",
+        "timeStart": 113.55,
+        "timeEnd": 117.4,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/60392/list"
+      },
+      {
+        "id": 60393,
+        "position": 31,
+        "content": "Do you do anything connected with history?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "do",
+          "anything",
+          "connected",
+          "with",
+          "history?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "connected"
+          ],
+          [
+            "with"
+          ],
+          [
+            "history?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/31_v3.mp3",
+        "timeStart": 117.73,
+        "timeEnd": 121.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60393/list"
+      },
+      {
+        "id": 60394,
+        "position": 32,
+        "content": "Yes, we do.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "we",
+          "do."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/32_v3.mp3",
+        "timeStart": 121.04,
+        "timeEnd": 122.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60394/list"
+      },
+      {
+        "id": 60395,
+        "position": 33,
+        "content": "For instance, the children can explore how the use of the land has changed over time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "instance,",
+          "the",
+          "children",
+          "can",
+          "explore",
+          "how",
+          "the",
+          "use",
+          "of",
+          "the",
+          "land",
+          "has",
+          "changed",
+          "over",
+          "time."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "instance,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "children"
+          ],
+          [
+            "can"
+          ],
+          [
+            "explore"
+          ],
+          [
+            "how"
+          ],
+          [
+            "the"
+          ],
+          [
+            "use"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "land"
+          ],
+          [
+            "has"
+          ],
+          [
+            "changed"
+          ],
+          [
+            "over"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/33_v3.mp3",
+        "timeStart": 122.72,
+        "timeEnd": 129.32,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60395/list"
+      },
+      {
+        "id": 60396,
+        "position": 34,
+        "content": "Then there's leisure and tourism.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          [
+            "there's",
+            "there is"
+          ],
+          "leisure",
+          "and",
+          "tourism."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "leisure"
+          ],
+          [
+            "and"
+          ],
+          [
+            "tourism."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/34_v3.mp3",
+        "timeStart": 129.32,
+        "timeEnd": 131.71,
+        "hints": [],
+        "nbComments": 7,
+        "discussionUrl": "https://dailydictation.com/discussions/60396/list"
+      },
+      {
+        "id": 60397,
+        "position": 35,
+        "content": "That focuses on your visitors, I would imagine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "focuses",
+          "on",
+          "your",
+          "visitors,",
+          [
+            "I would",
+            "I'd"
+          ],
+          "imagine."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "focuses"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "visitors,"
+          ],
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "imagine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/35_v3.mp3",
+        "timeStart": 131.71,
+        "timeEnd": 135.75,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60397/list"
+      },
+      {
+        "id": 60398,
+        "position": 36,
+        "content": "Yes, mostly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "mostly."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "mostly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/36_v3.mp3",
+        "timeStart": 135.75,
+        "timeEnd": 137.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60398/list"
+      },
+      {
+        "id": 60399,
+        "position": 37,
+        "content": "The children find out about them,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "children",
+          "find",
+          "out",
+          "about",
+          "them,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "children"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "about"
+          ],
+          [
+            "them,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/37_v3.mp3",
+        "timeStart": 137.49,
+        "timeEnd": 139.88,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60399/list"
+      },
+      {
+        "id": 60400,
+        "position": 38,
+        "content": "their requirements, the problems they may cause and how we manage these.",
+        "defaultInput": "",
+        "jsonContent": [
+          "their",
+          "requirements,",
+          "the",
+          "problems",
+          "they",
+          "may",
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          "and",
+          "how",
+          "we",
+          "manage",
+          "these."
+        ],
+        "solution": [
+          [
+            "their"
+          ],
+          [
+            "requirements,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "they"
+          ],
+          [
+            "may"
+          ],
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "we"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "these."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/38_v3.mp3",
+        "timeStart": 139.88,
+        "timeEnd": 145.27,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60400/list"
+      },
+      {
+        "id": 60401,
+        "position": 39,
+        "content": "And another subject we cover is music:",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "another",
+          "subject",
+          "we",
+          "cover",
+          "is",
+          "music:"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "another"
+          ],
+          [
+            "subject"
+          ],
+          [
+            "we"
+          ],
+          [
+            "cover"
+          ],
+          [
+            "is"
+          ],
+          [
+            "music:"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/39_v3.mp3",
+        "timeStart": 145.27,
+        "timeEnd": 149,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60401/list"
+      },
+      {
+        "id": 60402,
+        "position": 40,
+        "content": "here the children experiment with natural materials to create sounds",
+        "defaultInput": "",
+        "jsonContent": [
+          "here",
+          "the",
+          "children",
+          "experiment",
+          "with",
+          "natural",
+          "materials",
+          "to",
+          "create",
+          "sounds"
+        ],
+        "solution": [
+          [
+            "here"
+          ],
+          [
+            "the"
+          ],
+          [
+            "children"
+          ],
+          [
+            "experiment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "natural"
+          ],
+          [
+            "materials"
+          ],
+          [
+            "to"
+          ],
+          [
+            "create"
+          ],
+          [
+            "sounds"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/40_v3.mp3",
+        "timeStart": 149.43,
+        "timeEnd": 155.05,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60402/list"
+      },
+      {
+        "id": 60403,
+        "position": 41,
+        "content": "and explore rhythm and tempo.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "explore",
+          "rhythm",
+          "and",
+          "tempo."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "explore"
+          ],
+          [
+            "rhythm"
+          ],
+          [
+            "and"
+          ],
+          [
+            "tempo."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/41_v3.mp3",
+        "timeStart": 155.05,
+        "timeEnd": 157.29,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/60403/list"
+      },
+      {
+        "id": 60404,
+        "position": 42,
+        "content": "That must be fun!",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "must",
+          "be",
+          "fun!"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fun!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/42_v3.mp3",
+        "timeStart": 157.29,
+        "timeEnd": 158.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60404/list"
+      },
+      {
+        "id": 60405,
+        "position": 43,
+        "content": "Most children really enjoy it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Most",
+          "children",
+          "really",
+          "enjoy",
+          "it."
+        ],
+        "solution": [
+          [
+            "Most"
+          ],
+          [
+            "children"
+          ],
+          [
+            "really"
+          ],
+          [
+            "enjoy"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/43_v3.mp3",
+        "timeStart": 158.71,
+        "timeEnd": 161.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60405/list"
+      },
+      {
+        "id": 60406,
+        "position": 44,
+        "content": "And of course, all the activities are educational, too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "of",
+          "course,",
+          "all",
+          "the",
+          "activities",
+          "are",
+          "educational,",
+          "too."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "are"
+          ],
+          [
+            "educational,"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/44_v3.mp3",
+        "timeStart": 162.13,
+        "timeEnd": 167.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60406/list"
+      },
+      {
+        "id": 60407,
+        "position": 45,
+        "content": "Learning outside the classroom encourages children to be creative,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Learning",
+          "outside",
+          "the",
+          "classroom",
+          "encourages",
+          "children",
+          "to",
+          "be",
+          "creative,"
+        ],
+        "solution": [
+          [
+            "Learning"
+          ],
+          [
+            "outside"
+          ],
+          [
+            "the"
+          ],
+          [
+            "classroom"
+          ],
+          [
+            "encourages"
+          ],
+          [
+            "children"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "creative,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/45_v3.mp3",
+        "timeStart": 167.28,
+        "timeEnd": 172.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60407/list"
+      },
+      {
+        "id": 60408,
+        "position": 46,
+        "content": "and to explore and discover for themselves.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "to",
+          "explore",
+          "and",
+          "discover",
+          "for",
+          "themselves."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "to"
+          ],
+          [
+            "explore"
+          ],
+          [
+            "and"
+          ],
+          [
+            "discover"
+          ],
+          [
+            "for"
+          ],
+          [
+            "themselves."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/46_v3.mp3",
+        "timeStart": 172.32,
+        "timeEnd": 175.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60408/list"
+      },
+      {
+        "id": 60409,
+        "position": 47,
+        "content": "I would imagine they get a sense of freedom that might not be a normal part of their lives.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "imagine",
+          "they",
+          "get",
+          "a",
+          "sense",
+          "of",
+          "freedom",
+          "that",
+          "might",
+          "not",
+          "be",
+          "a",
+          "normal",
+          "part",
+          "of",
+          "their",
+          "lives."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "imagine"
+          ],
+          [
+            "they"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sense"
+          ],
+          [
+            "of"
+          ],
+          [
+            "freedom"
+          ],
+          [
+            "that"
+          ],
+          [
+            "might"
+          ],
+          [
+            "not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "normal"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "lives."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/47_v3.mp3",
+        "timeStart": 175.8,
+        "timeEnd": 182.17,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60409/list"
+      },
+      {
+        "id": 60410,
+        "position": 48,
+        "content": "That's right.",
+        "defaultInput": "That's right.",
+        "jsonContent": [
+          "That's",
+          "right."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/48_v3.mp3",
+        "timeStart": 182.17,
+        "timeEnd": 183.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60410/list"
+      },
+      {
+        "id": 60411,
+        "position": 49,
+        "content": "And very often the children discover that they can do things they didn't know they could do,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "very",
+          "often",
+          "the",
+          "children",
+          "discover",
+          "that",
+          "they",
+          "can",
+          "do",
+          "things",
+          "they",
+          [
+            "didn't",
+            "did not"
+          ],
+          "know",
+          "they",
+          "could",
+          "do,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "very"
+          ],
+          [
+            "often"
+          ],
+          [
+            "the"
+          ],
+          [
+            "children"
+          ],
+          [
+            "discover"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do"
+          ],
+          [
+            "things"
+          ],
+          [
+            "they"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "they"
+          ],
+          [
+            "could"
+          ],
+          [
+            "do,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/49_v3.mp3",
+        "timeStart": 183.36,
+        "timeEnd": 189.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60411/list"
+      },
+      {
+        "id": 60412,
+        "position": 50,
+        "content": "and they develop new skills.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "they",
+          "develop",
+          "new",
+          "skills."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "develop"
+          ],
+          [
+            "new"
+          ],
+          [
+            "skills."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/50_v3.mp3",
+        "timeStart": 189.07,
+        "timeEnd": 191.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60412/list"
+      },
+      {
+        "id": 60413,
+        "position": 51,
+        "content": "This gives them greater self-confidence.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "gives",
+          "them",
+          "greater",
+          [
+            "self-confidence.",
+            "self confidence."
+          ]
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "gives"
+          ],
+          [
+            "them"
+          ],
+          [
+            "greater"
+          ],
+          [
+            "self-confidence.",
+            "self confidence."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/51_v3.mp3",
+        "timeStart": 192.07,
+        "timeEnd": 194.85,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60413/list"
+      },
+      {
+        "id": 60414,
+        "position": 52,
+        "content": "It sounds great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "sounds",
+          "great."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/52_v3.mp3",
+        "timeStart": 194.85,
+        "timeEnd": 196.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60414/list"
+      },
+      {
+        "id": 60415,
+        "position": 53,
+        "content": "So, what about the practical side of it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "what",
+          "about",
+          "the",
+          "practical",
+          "side",
+          "of",
+          "it?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "practical"
+          ],
+          [
+            "side"
+          ],
+          [
+            "of"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/53_v3.mp3",
+        "timeStart": 197.03,
+        "timeEnd": 200.99,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60415/list"
+      },
+      {
+        "id": 60416,
+        "position": 54,
+        "content": "How much does it cost for a full-day visit?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "much",
+          "does",
+          "it",
+          "cost",
+          "for",
+          "a",
+          [
+            "full-day",
+            "full day"
+          ],
+          "visit?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "much"
+          ],
+          [
+            "does"
+          ],
+          [
+            "it"
+          ],
+          [
+            "cost"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "full-day",
+            "full day"
+          ],
+          [
+            "visit?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/54_v3.mp3",
+        "timeStart": 200.99,
+        "timeEnd": 204.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60416/list"
+      },
+      {
+        "id": 60417,
+        "position": 55,
+        "content": "We would expect to bring between 30 and 40 children.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We would",
+            "We'd"
+          ],
+          "expect",
+          "to",
+          "bring",
+          "between",
+          [
+            "30",
+            "thirty"
+          ],
+          "and",
+          [
+            "40",
+            "forty"
+          ],
+          "children."
+        ],
+        "solution": [
+          [
+            "We would",
+            "We'd"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "between"
+          ],
+          [
+            "30",
+            "thirty"
+          ],
+          [
+            "and"
+          ],
+          [
+            "40",
+            "forty"
+          ],
+          [
+            "children."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/55_v3.mp3",
+        "timeStart": 204.52,
+        "timeEnd": 209.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60417/list"
+      },
+      {
+        "id": 60418,
+        "position": 56,
+        "content": "If there are over 30,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "there",
+          "are",
+          "over",
+          [
+            "30,",
+            "thirty"
+          ]
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "over"
+          ],
+          [
+            "30,",
+            "thirty"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/56_v3.mp3",
+        "timeStart": 209.25,
+        "timeEnd": 211.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60418/list"
+      },
+      {
+        "id": 60419,
+        "position": 57,
+        "content": "it costs £4.95 for each child who attends on the day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "costs",
+          [
+            "£4.95",
+            "4.95 pounds",
+            "4 pounds 95"
+          ],
+          "for",
+          "each",
+          "child",
+          "who",
+          "attends",
+          "on",
+          "the",
+          "day."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "costs"
+          ],
+          [
+            "£4.95",
+            "4.95 pounds",
+            "4 pounds 95"
+          ],
+          [
+            "for"
+          ],
+          [
+            "each"
+          ],
+          [
+            "child"
+          ],
+          [
+            "who"
+          ],
+          [
+            "attends"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/57_v3.mp3",
+        "timeStart": 211.68,
+        "timeEnd": 217.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60419/list"
+      },
+      {
+        "id": 60420,
+        "position": 58,
+        "content": "We invoice you afterwards,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "invoice",
+          "you",
+          "afterwards,"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "invoice"
+          ],
+          [
+            "you"
+          ],
+          [
+            "afterwards,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/58_v3.mp3",
+        "timeStart": 217.8,
+        "timeEnd": 219.93,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/60420/list"
+      },
+      {
+        "id": 60421,
+        "position": 59,
+        "content": "so you don't pay for children who can't come because of sickness, for example.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "pay",
+          "for",
+          "children",
+          "who",
+          "can't",
+          "come",
+          "because",
+          "of",
+          "sickness,",
+          "for",
+          "example."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "pay"
+          ],
+          [
+            "for"
+          ],
+          [
+            "children"
+          ],
+          [
+            "who"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "come"
+          ],
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sickness,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/59_v3.mp3",
+        "timeStart": 219.93,
+        "timeEnd": 225,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60421/list"
+      },
+      {
+        "id": 60422,
+        "position": 60,
+        "content": "There's no charge for leaders and other adults - as many as you want to bring.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "no",
+          "charge",
+          "for",
+          "leaders",
+          "and",
+          "other",
+          "adults",
+          "-",
+          "as",
+          "many",
+          "as",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "bring."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "no"
+          ],
+          [
+            "charge"
+          ],
+          [
+            "for"
+          ],
+          [
+            "leaders"
+          ],
+          [
+            "and"
+          ],
+          [
+            "other"
+          ],
+          [
+            "adults"
+          ],
+          [
+            "-"
+          ],
+          [
+            "as"
+          ],
+          [
+            "many"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "bring."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/60_v3.mp3",
+        "timeStart": 225.28,
+        "timeEnd": 231.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60422/list"
+      },
+      {
+        "id": 60423,
+        "position": 61,
+        "content": "That sounds very fair.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "sounds",
+          "very",
+          "fair."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "very"
+          ],
+          [
+            "fair."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/61_v3.mp3",
+        "timeStart": 231.32,
+        "timeEnd": 233.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60423/list"
+      },
+      {
+        "id": 60424,
+        "position": 62,
+        "content": "Well, thanks for all the information.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "thanks",
+          "for",
+          "all",
+          "the",
+          "information."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "information."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/62_v3.mp3",
+        "timeStart": 233.6,
+        "timeEnd": 236.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60424/list"
+      },
+      {
+        "id": 60425,
+        "position": 63,
+        "content": "I'll need to discuss it with my colleagues,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "need",
+          "to",
+          "discuss",
+          "it",
+          "with",
+          "my",
+          "colleagues,"
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "it"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "colleagues,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/63_v3.mp3",
+        "timeStart": 236.53,
+        "timeEnd": 239.17,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/60425/list"
+      },
+      {
+        "id": 60426,
+        "position": 64,
+        "content": "and I hope to get back to you soon to make a booking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "hope",
+          "to",
+          "get",
+          "back",
+          "to",
+          "you",
+          "soon",
+          "to",
+          "make",
+          "a",
+          "booking."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "booking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/64_v3.mp3",
+        "timeStart": 239.17,
+        "timeEnd": 242.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60426/list"
+      },
+      {
+        "id": 60427,
+        "position": 65,
+        "content": "We'll look forward to hearing from you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We'll",
+            "We will"
+          ],
+          "look",
+          "forward",
+          "to",
+          "hearing",
+          "from",
+          "you."
+        ],
+        "solution": [
+          [
+            "We'll",
+            "We will"
+          ],
+          [
+            "look"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hearing"
+          ],
+          [
+            "from"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/65_v3.mp3",
+        "timeStart": 242.84,
+        "timeEnd": 245.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60427/list"
+      },
+      {
+        "id": 60428,
+        "position": 66,
+        "content": "Goodbye.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Goodbye."
+        ],
+        "solution": [
+          [
+            "Goodbye."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/66_v3.mp3",
+        "timeStart": 245.29,
+        "timeEnd": 246.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/60428/list"
+      },
+      {
+        "id": 60429,
+        "position": 67,
+        "content": "Goodbye, and thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Goodbye,",
+          "and",
+          "thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Goodbye,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/cam19-test-1-part-1-2024-06-29-10-03-27/67_v3.mp3",
+        "timeStart": 246.28,
+        "timeEnd": 248.63,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/60429/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "60363": {
+      "id": 1337388,
+      "text": "Ok. Bạn muốn biết điều gì?",
+      "author": "a user"
+    },
+    "60368": {
+      "id": 1337477,
+      "text": "đó là 69 héc ta",
+      "author": "a user"
+    },
+    "60370": {
+      "id": 1337479,
+      "text": "đầm lầy, đồng cỏ và rừng cây.",
+      "author": "a user"
+    },
+    "60371": {
+      "id": 1337480,
+      "text": "Các khu rừng đã phát triển ổn định và đa dạng",
+      "author": "a user"
+    },
+    "60372": {
+      "id": 1337481,
+      "text": "với một đồn điền cây sồi và các khu vực khác có nhiều loài hỗn hợp.",
+      "author": "a user"
+    },
+    "60373": {
+      "id": 1337482,
+      "text": "Vâng. Đúng rồi",
+      "author": "a user"
+    },
+    "60375": {
+      "id": 1337484,
+      "text": "Khu đất nông nghiệp ban đầu đã bị đào xới cách đây khoảng 40 năm để khai thác sỏi.",
+      "author": "a user"
+    },
+    "60377": {
+      "id": 1337486,
+      "text": "những hố sỏi chứa đầy nước, hình thành hai hồ nước lớn.",
+      "author": "a user"
+    },
+    "60379": {
+      "id": 1337555,
+      "text": "Được thôi, tôi cho rằng với những môi trường sống khác nhau này thì sẽ có đa dạng các loài động vật hoang dã.",
+      "author": "a user"
+    },
+    "60386": {
+      "id": 1337562,
+      "text": "Bạn có thể cho tôi một số ví dụ về các hoạt động đó được không?",
+      "author": "a user"
+    },
+    "60387": {
+      "id": 1337563,
+      "text": "Vâng, một trọng tâm là về khoa học,",
+      "author": "a user"
+    },
+    "60391": {
+      "id": 1337567,
+      "text": "Công viên là môi trường tuyệt vời để học và luyện tập đọc bản đồ",
+      "author": "a user"
+    },
+    "60392": {
+      "id": 1337568,
+      "text": "và sử dụng la bàn để tìm đường xung quanh công viên.",
+      "author": "a user"
+    },
+    "60397": {
+      "id": 1337573,
+      "text": "Điều đó tập trung vào khách tham quan của bạn, tôi nghĩ vậy.",
+      "author": "a user"
+    },
+    "60399": {
+      "id": 1337575,
+      "text": "Bọn trẻ tìm hiểu về chúng,",
+      "author": "a user"
+    },
+    "60400": {
+      "id": 1337576,
+      "text": "yêu cầu của họ, những vấn đề họ có thể gây ra và cách chúng tôi giải quyết những vấn đề này.",
+      "author": "a user"
+    },
+    "60409": {
+      "id": 1337585,
+      "text": "Tôi hình dung bọn trẻ có được cảm giác tự do mà có lẽ không xuất hiện trong cuộc sống thường ngày của chúng.",
+      "author": "a user"
+    },
+    "60413": {
+      "id": 1337589,
+      "text": "Điều này giúp chúng tự tin hơn.",
+      "author": "a user"
+    },
+    "60421": {
+      "id": 1337597,
+      "text": "vì vậy bạn không phải trả tiền cho những đứa trẻ không thể đến vì ốm bệnh chẳng hạn.",
+      "author": "a user"
+    },
+    "60423": {
+      "id": 1337599,
+      "text": "Nghe có vẻ hợp tình hợp lý.",
+      "author": "a user"
+    },
+    "60383": {
+      "id": 1420756,
+      "text": "Và tôi được biết là bạn tổ chức các chuyến tham quan mang tính giáo dục cho các đoàn học sinh.",
+      "author": "a user"
+    },
+    "60394": {
+      "id": 2584449,
+      "text": "Vâng, chúng tôi có.",
+      "author": "ChatGPT4.1"
+    },
+    "60395": {
+      "id": 2584450,
+      "text": "Ví dụ, các em có thể khám phá việc sử dụng đất đã thay đổi như thế nào theo thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "60396": {
+      "id": 2584451,
+      "text": "Sau đó là giải trí và du lịch.",
+      "author": "ChatGPT4.1"
+    },
+    "60398": {
+      "id": 2584452,
+      "text": "Vâng, chủ yếu là vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "60401": {
+      "id": 2584453,
+      "text": "Và một chủ đề khác mà chúng tôi đề cập là âm nhạc:",
+      "author": "ChatGPT4.1"
+    },
+    "60402": {
+      "id": 2584454,
+      "text": "ở đây các em thử nghiệm với vật liệu tự nhiên để tạo ra âm thanh",
+      "author": "ChatGPT4.1"
+    },
+    "60403": {
+      "id": 2584455,
+      "text": "và khám phá nhịp điệu cũng như nhịp độ.",
+      "author": "a user"
+    },
+    "60404": {
+      "id": 2584456,
+      "text": "Chắc chắn điều đó rất thú vị!",
+      "author": "ChatGPT4.1"
+    },
+    "60405": {
+      "id": 2584457,
+      "text": "Hầu hết các em thực sự thích hoạt động này.",
+      "author": "ChatGPT4.1"
+    },
+    "60406": {
+      "id": 2584458,
+      "text": "Và tất nhiên, tất cả các hoạt động đều mang tính giáo dục.",
+      "author": "ChatGPT4.1"
+    },
+    "60407": {
+      "id": 2584459,
+      "text": "Việc học bên ngoài lớp học khuyến khích các em sáng tạo,",
+      "author": "ChatGPT4.1"
+    },
+    "60408": {
+      "id": 2584460,
+      "text": "và tự mình khám phá và tìm hiểu.",
+      "author": "ChatGPT4.1"
+    },
+    "60410": {
+      "id": 2584461,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "60411": {
+      "id": 2584462,
+      "text": "Và rất thường xuyên, các em phát hiện ra mình có thể làm những điều mà trước đây không biết mình có thể làm,",
+      "author": "ChatGPT4.1"
+    },
+    "60412": {
+      "id": 2584463,
+      "text": "và các em phát triển các kỹ năng mới.",
+      "author": "ChatGPT4.1"
+    },
+    "60414": {
+      "id": 2584464,
+      "text": "Nghe thật tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "60415": {
+      "id": 2584465,
+      "text": "Vậy, còn về mặt thực tế thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "60416": {
+      "id": 2584466,
+      "text": "Chi phí cho một chuyến tham quan cả ngày là bao nhiêu?",
+      "author": "ChatGPT4.1"
+    },
+    "60417": {
+      "id": 2584467,
+      "text": "Chúng tôi dự kiến sẽ mang theo khoảng từ 30 đến 40 em học sinh.",
+      "author": "ChatGPT4.1"
+    },
+    "60418": {
+      "id": 2584468,
+      "text": "Nếu có hơn 30 em,",
+      "author": "ChatGPT4.1"
+    },
+    "60419": {
+      "id": 2584469,
+      "text": "thì chi phí là £4.95 mỗi em tham dự trong ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "60420": {
+      "id": 2584470,
+      "text": "Chúng tôi sẽ gửi hóa đơn cho bạn sau đó,",
+      "author": "ChatGPT4.1"
+    },
+    "60422": {
+      "id": 2584471,
+      "text": "Không tính phí cho người dẫn đoàn và các người lớn khác - bạn muốn dẫn theo bao nhiêu người cũng được.",
+      "author": "a user"
+    },
+    "60424": {
+      "id": 2584472,
+      "text": "Vâng, cảm ơn bạn về tất cả thông tin vừa rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "60364": {
+      "id": 2584507,
+      "text": "Chà, tôi mới đến khu vực này,",
+      "author": "ChatGPT4.1"
+    },
+    "60365": {
+      "id": 2584508,
+      "text": "vậy có lẽ bạn có thể nói cho tôi biết một chút về công viên trước tiên được không.",
+      "author": "ChatGPT4.1"
+    },
+    "60366": {
+      "id": 2584509,
+      "text": "Tất nhiên rồi.",
+      "author": "a user"
+    },
+    "60367": {
+      "id": 2584510,
+      "text": "Tổng cộng công viên có diện tích 170 mẫu Anh,",
+      "author": "ChatGPT4.1"
+    },
+    "60369": {
+      "id": 2584511,
+      "text": "Có ba loại môi trường sống chính:",
+      "author": "ChatGPT4.1"
+    },
+    "60374": {
+      "id": 2584512,
+      "text": "Khu đất ngập nước cũng khá đa dạng nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "60376": {
+      "id": 2584513,
+      "text": "Khi công việc này hoàn thành,",
+      "author": "ChatGPT4.1"
+    },
+    "60378": {
+      "id": 2584514,
+      "text": "Cũng có một vài hồ nhỏ hơn, ao và một con suối chảy qua công viên.",
+      "author": "ChatGPT4.1"
+    },
+    "60380": {
+      "id": 2584515,
+      "text": "Đúng như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "60381": {
+      "id": 2584516,
+      "text": "Có rất nhiều loài chim và côn trùng khác nhau,",
+      "author": "ChatGPT4.1"
+    },
+    "60382": {
+      "id": 2584517,
+      "text": "và cả những động vật như nai và thỏ nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "60384": {
+      "id": 2584518,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "60385": {
+      "id": 2584519,
+      "text": "Chúng tôi có thể tổ chức nhiều hoạt động khác nhau và điều chỉnh để phù hợp với mọi lứa tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "60388": {
+      "id": 2584520,
+      "text": "nơi mà chúng tôi giúp trẻ em khám phá và nghiên cứu các loài thực vật, cây cối và côn trùng.",
+      "author": "ChatGPT4.1"
+    },
+    "60389": {
+      "id": 2584521,
+      "text": "Các em cũng sẽ thu thập và phân tích dữ liệu về những gì các em quan sát được.",
+      "author": "ChatGPT4.1"
+    },
+    "60390": {
+      "id": 2584522,
+      "text": "Một hướng khác là về địa lý.",
+      "author": "ChatGPT4.1"
+    },
+    "60393": {
+      "id": 2586613,
+      "text": "Các bạn có tổ chức hoạt động nào liên quan đến lịch sử không?",
+      "author": "ChatGPT4.1"
+    },
+    "60425": {
+      "id": 2589626,
+      "text": "Tôi cần thảo luận việc này với các đồng nghiệp,",
+      "author": "ChatGPT4.1"
+    },
+    "60426": {
+      "id": 2589627,
+      "text": "và tôi hy vọng sẽ sớm liên hệ lại với bạn để đặt chỗ.",
+      "author": "ChatGPT4.1"
+    },
+    "60427": {
+      "id": 2589628,
+      "text": "Chúng tôi mong nhận được hồi âm từ bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "60428": {
+      "id": 2589629,
+      "text": "Tạm biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "60429": {
+      "id": 2589630,
+      "text": "Tạm biệt, và cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

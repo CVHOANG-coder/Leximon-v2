@@ -1,0 +1,675 @@
+{
+  "summary": {
+    "id": 1243,
+    "name": "Conversation 104",
+    "subTitle": "New Policy on Parties",
+    "levelName": "B2",
+    "position": 277,
+    "totalChallenges": 12,
+    "groupId": 41,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1243",
+  "detail": {
+    "id": 1243,
+    "lessonName": "Conversation 104",
+    "name": "Conversation 104",
+    "position": 277,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/0-conversation-104.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55407,
+        "position": 1,
+        "content": "Did you get the memo on the new policy on company parties?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "get",
+          "the",
+          "memo",
+          "on",
+          "the",
+          "new",
+          "policy",
+          "on",
+          [
+            "company",
+            "Co"
+          ],
+          "parties?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "memo"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "policy"
+          ],
+          [
+            "on"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "parties?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55407/list"
+      },
+      {
+        "id": 55408,
+        "position": 2,
+        "content": "I can't believe it!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "believe",
+          "it!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "it!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/2.mp3",
+        "timeStart": 3.31,
+        "timeEnd": 4.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55408/list"
+      },
+      {
+        "id": 55409,
+        "position": 3,
+        "content": "Yeah, Sarah told me about it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "Sarah",
+          "told",
+          "me",
+          "about",
+          "it."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "Sarah"
+          ],
+          [
+            "told"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/3.mp3",
+        "timeStart": 4.75,
+        "timeEnd": 7.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55409/list"
+      },
+      {
+        "id": 55410,
+        "position": 4,
+        "content": "It is terrible.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "terrible."
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "terrible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/4.mp3",
+        "timeStart": 7.28,
+        "timeEnd": 8.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55410/list"
+      },
+      {
+        "id": 55411,
+        "position": 5,
+        "content": "Ten dollars per head for our parties?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Ten",
+            "10"
+          ],
+          "dollars",
+          "per",
+          "head",
+          "for",
+          "our",
+          "parties?"
+        ],
+        "solution": [
+          [
+            "Ten",
+            "10"
+          ],
+          [
+            "dollars"
+          ],
+          [
+            "per"
+          ],
+          [
+            "head"
+          ],
+          [
+            "for"
+          ],
+          [
+            "our"
+          ],
+          [
+            "parties?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/5.mp3",
+        "timeStart": 8.64,
+        "timeEnd": 11.04,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/55411/list"
+      },
+      {
+        "id": 55412,
+        "position": 6,
+        "content": "They are really going to go downhill.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They are",
+            "they're"
+          ],
+          "really",
+          [
+            "going to",
+            "gonna"
+          ],
+          "go",
+          "downhill."
+        ],
+        "solution": [
+          [
+            "They are",
+            "they're"
+          ],
+          [
+            "really"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "go"
+          ],
+          [
+            "downhill."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/6.mp3",
+        "timeStart": 11.04,
+        "timeEnd": 13.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55412/list"
+      },
+      {
+        "id": 55413,
+        "position": 7,
+        "content": "I know!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/7.mp3",
+        "timeStart": 13.27,
+        "timeEnd": 14.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55413/list"
+      },
+      {
+        "id": 55414,
+        "position": 8,
+        "content": "Management said that we didn't perform to their satisfaction this year,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Management",
+          "said",
+          "that",
+          "we",
+          [
+            "didn't",
+            "did not"
+          ],
+          "perform",
+          "to",
+          "their",
+          "satisfaction",
+          "this",
+          "year,"
+        ],
+        "solution": [
+          [
+            "Management"
+          ],
+          [
+            "said"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "perform"
+          ],
+          [
+            "to"
+          ],
+          [
+            "their"
+          ],
+          [
+            "satisfaction"
+          ],
+          [
+            "this"
+          ],
+          [
+            "year,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/8-2024-09-20-20-52-53.mp3",
+        "timeStart": 14.22,
+        "timeEnd": 18.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55414/list"
+      },
+      {
+        "id": 55415,
+        "position": 9,
+        "content": "so they didn't have the extra money to spend, which is ridiculous",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "they",
+          [
+            "didn't",
+            "did not"
+          ],
+          "have",
+          "the",
+          "extra",
+          "money",
+          "to",
+          "spend,",
+          "which",
+          "is",
+          "ridiculous"
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "they"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "money"
+          ],
+          [
+            "to"
+          ],
+          [
+            "spend,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "ridiculous"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/9.mp3",
+        "timeStart": 18.47,
+        "timeEnd": 21.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55415/list"
+      },
+      {
+        "id": 55416,
+        "position": 10,
+        "content": "because we only have two parties per year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "we",
+          "only",
+          "have",
+          [
+            "two",
+            "2"
+          ],
+          "parties",
+          "per",
+          "year."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "we"
+          ],
+          [
+            "only"
+          ],
+          [
+            "have"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "parties"
+          ],
+          [
+            "per"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/10.mp3",
+        "timeStart": 21.69,
+        "timeEnd": 24.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55416/list"
+      },
+      {
+        "id": 55417,
+        "position": 11,
+        "content": "I agree. And they think that this is going to motivate us?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "agree.",
+          "And",
+          "they",
+          "think",
+          "that",
+          "this",
+          "is",
+          [
+            "going to",
+            "gonna"
+          ],
+          "motivate",
+          "us?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "agree."
+          ],
+          [
+            "And"
+          ],
+          [
+            "they"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "motivate"
+          ],
+          [
+            "us?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/11.mp3",
+        "timeStart": 24.16,
+        "timeEnd": 27.5,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/55417/list"
+      },
+      {
+        "id": 55418,
+        "position": 12,
+        "content": "I am ready to look for a new job.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "ready",
+          "to",
+          "look",
+          "for",
+          "a",
+          "new",
+          "job."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "job."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-104-2023-10-03-11-36-38/12.mp3",
+        "timeStart": 27.5,
+        "timeEnd": 29.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55418/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55407": {
+      "id": 2614080,
+      "text": "Bạn đã nhận được thông báo về chính sách mới cho các buổi tiệc công ty chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "55408": {
+      "id": 2614081,
+      "text": "Tôi không thể tin được!",
+      "author": "ChatGPT4.1"
+    },
+    "55409": {
+      "id": 2614082,
+      "text": "Ừ, Sarah đã kể cho tôi về điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "55410": {
+      "id": 2614083,
+      "text": "Thật là tệ.",
+      "author": "ChatGPT4.1"
+    },
+    "55411": {
+      "id": 2614084,
+      "text": "Mười đô la cho mỗi người cho các buổi tiệc của chúng ta sao?",
+      "author": "ChatGPT4.1"
+    },
+    "55412": {
+      "id": 2614085,
+      "text": "Mọi thứ thực sự sẽ đi xuống.",
+      "author": "ChatGPT4.1"
+    },
+    "55413": {
+      "id": 2614086,
+      "text": "Tôi biết mà!",
+      "author": "ChatGPT4.1"
+    },
+    "55414": {
+      "id": 2614087,
+      "text": "Ban quản lý nói rằng chúng ta không đạt mong đợi của họ trong năm nay,",
+      "author": "ChatGPT4.1"
+    },
+    "55415": {
+      "id": 2614088,
+      "text": "nên họ không có thêm tiền để chi tiêu, điều này thật vô lý",
+      "author": "ChatGPT4.1"
+    },
+    "55416": {
+      "id": 2614089,
+      "text": "bởi vì chúng ta chỉ có hai bữa tiệc mỗi năm thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "55417": {
+      "id": 2614090,
+      "text": "Tôi đồng ý. Và họ nghĩ điều này sẽ thúc đẩy chúng ta sao?",
+      "author": "ChatGPT4.1"
+    },
+    "55418": {
+      "id": 2614091,
+      "text": "Tôi sẵn sàng đi tìm việc mới rồi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

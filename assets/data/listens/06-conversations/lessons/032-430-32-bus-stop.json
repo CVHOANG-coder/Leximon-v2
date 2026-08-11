@@ -1,0 +1,959 @@
+{
+  "summary": {
+    "id": 430,
+    "name": "32. Bus Stop",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 32,
+    "totalChallenges": 20,
+    "groupId": 103,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/430",
+  "detail": {
+    "id": 430,
+    "lessonName": "32. Bus Stop",
+    "name": "32. Bus Stop",
+    "position": 32,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/0-32-bus-stop.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18087,
+        "position": 1,
+        "content": "Jean!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Jean!"
+        ],
+        "solution": [
+          [
+            "Jean!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/1.mp3",
+        "timeStart": 2.19,
+        "timeEnd": 2.97,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18087/list"
+      },
+      {
+        "id": 18088,
+        "position": 2,
+        "content": "Barbara! Do you work around here?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Barbara!",
+          "Do",
+          "you",
+          "work",
+          "around",
+          "here?"
+        ],
+        "solution": [
+          [
+            "Barbara!"
+          ],
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "work"
+          ],
+          [
+            "around"
+          ],
+          [
+            "here?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/2.mp3",
+        "timeStart": 2.97,
+        "timeEnd": 4.74,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18088/list"
+      },
+      {
+        "id": 18089,
+        "position": 3,
+        "content": "Yes, I work in that building across the street.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "work",
+          "in",
+          "that",
+          "building",
+          "across",
+          "the",
+          "street."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "work"
+          ],
+          [
+            "in"
+          ],
+          [
+            "that"
+          ],
+          [
+            "building"
+          ],
+          [
+            "across"
+          ],
+          [
+            "the"
+          ],
+          [
+            "street."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/3.mp3",
+        "timeStart": 4.74,
+        "timeEnd": 7.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18089/list"
+      },
+      {
+        "id": 18090,
+        "position": 4,
+        "content": "Really? What do you do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Really?",
+          "What",
+          "do",
+          "you",
+          "do?"
+        ],
+        "solution": [
+          [
+            "Really?"
+          ],
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/4.mp3",
+        "timeStart": 7.18,
+        "timeEnd": 8.48,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18090/list"
+      },
+      {
+        "id": 18091,
+        "position": 5,
+        "content": "I work in a law office, I'm a secretary.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "work",
+          "in",
+          "a",
+          "law",
+          "office,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "secretary."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "work"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "law"
+          ],
+          [
+            "office,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "secretary."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/5.mp3",
+        "timeStart": 8.55,
+        "timeEnd": 11.01,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18091/list"
+      },
+      {
+        "id": 18092,
+        "position": 6,
+        "content": "Oh, that's interesting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          [
+            "that's",
+            "that is"
+          ],
+          "interesting."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "interesting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/6.mp3",
+        "timeStart": 11.01,
+        "timeEnd": 12.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18092/list"
+      },
+      {
+        "id": 18093,
+        "position": 7,
+        "content": "What about you? What do you do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "you?",
+          "What",
+          "do",
+          "you",
+          "do?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "you?"
+          ],
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/7.mp3",
+        "timeStart": 12.34,
+        "timeEnd": 13.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18093/list"
+      },
+      {
+        "id": 18094,
+        "position": 8,
+        "content": "I work at Duru Restaurant.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "work",
+          "at",
+          "Duru",
+          "Restaurant."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "work"
+          ],
+          [
+            "at"
+          ],
+          [
+            "Duru"
+          ],
+          [
+            "Restaurant."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/8.mp3",
+        "timeStart": 13.99,
+        "timeEnd": 15.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18094/list"
+      },
+      {
+        "id": 18095,
+        "position": 9,
+        "content": "Oh... are you a cook?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh...",
+          "are",
+          "you",
+          "a",
+          "cook?"
+        ],
+        "solution": [
+          [
+            "Oh..."
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cook?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/9.mp3",
+        "timeStart": 15.91,
+        "timeEnd": 17.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18095/list"
+      },
+      {
+        "id": 18096,
+        "position": 10,
+        "content": "No, I'm a waitress.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "waitress."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "waitress."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/10.mp3",
+        "timeStart": 17.45,
+        "timeEnd": 18.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18096/list"
+      },
+      {
+        "id": 18097,
+        "position": 11,
+        "content": "That's a really hard job; I don't envy you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "a",
+          "really",
+          "hard",
+          "job;",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "envy",
+          "you."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "really"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "job;"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "envy"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/11.mp3",
+        "timeStart": 18.72,
+        "timeEnd": 21.26,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18097/list"
+      },
+      {
+        "id": 18098,
+        "position": 12,
+        "content": "Me neither!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Me",
+          "neither!"
+        ],
+        "solution": [
+          [
+            "Me"
+          ],
+          [
+            "neither!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/12.mp3",
+        "timeStart": 21.26,
+        "timeEnd": 22.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18098/list"
+      },
+      {
+        "id": 18099,
+        "position": 13,
+        "content": "Do you live alone, Jean?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "live",
+          "alone,",
+          "Jean?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "live"
+          ],
+          [
+            "alone,"
+          ],
+          [
+            "Jean?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/13.mp3",
+        "timeStart": 24.94,
+        "timeEnd": 26.37,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18099/list"
+      },
+      {
+        "id": 18100,
+        "position": 14,
+        "content": "No, I don't. I live with my family. How about you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "I",
+          [
+            "don't.",
+            "do not"
+          ],
+          "I",
+          "live",
+          "with",
+          "my",
+          "family.",
+          "How",
+          "about",
+          "you?"
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't.",
+            "do not"
+          ],
+          [
+            "I"
+          ],
+          [
+            "live"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "family."
+          ],
+          [
+            "How"
+          ],
+          [
+            "about"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/14.mp3",
+        "timeStart": 26.37,
+        "timeEnd": 28.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18100/list"
+      },
+      {
+        "id": 18101,
+        "position": 15,
+        "content": "I'm married now. I got married last year.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "married",
+          "now.",
+          "I",
+          "got",
+          "married",
+          "last",
+          "year."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "married"
+          ],
+          [
+            "now."
+          ],
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "married"
+          ],
+          [
+            "last"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/15.mp3",
+        "timeStart": 28.9,
+        "timeEnd": 31.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18101/list"
+      },
+      {
+        "id": 18102,
+        "position": 16,
+        "content": "Really? Congratulations! Who did you marry?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Really?",
+          "Congratulations!",
+          "Who",
+          "did",
+          "you",
+          "marry?"
+        ],
+        "solution": [
+          [
+            "Really?"
+          ],
+          [
+            "Congratulations!"
+          ],
+          [
+            "Who"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "marry?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/16.mp3",
+        "timeStart": 31.38,
+        "timeEnd": 33.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18102/list"
+      },
+      {
+        "id": 18103,
+        "position": 17,
+        "content": "His name's Jeff Hunt. He lives in my building.",
+        "defaultInput": "",
+        "jsonContent": [
+          "His",
+          "name's",
+          "Jeff",
+          "Hunt.",
+          "He",
+          "lives",
+          "in",
+          "my",
+          "building."
+        ],
+        "solution": [
+          [
+            "His"
+          ],
+          [
+            "name's"
+          ],
+          [
+            "Jeff"
+          ],
+          [
+            "Hunt."
+          ],
+          [
+            "He"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "building."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/17.mp3",
+        "timeStart": 34.04,
+        "timeEnd": 36.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18103/list"
+      },
+      {
+        "id": 18104,
+        "position": 18,
+        "content": "Oh, what does he do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "what",
+          "does",
+          "he",
+          "do?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "does"
+          ],
+          [
+            "he"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/18.mp3",
+        "timeStart": 36.88,
+        "timeEnd": 38.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18104/list"
+      },
+      {
+        "id": 18105,
+        "position": 19,
+        "content": "He's a doctor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He's",
+          "a",
+          "doctor."
+        ],
+        "solution": [
+          [
+            "He's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "doctor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/19.mp3",
+        "timeStart": 38.22,
+        "timeEnd": 39.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18105/list"
+      },
+      {
+        "id": 18106,
+        "position": 20,
+        "content": "How wonderful, I'm very happy for you!",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "wonderful,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "very",
+          "happy",
+          "for",
+          "you!"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "wonderful,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "very"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/32-bus-stop-2022-03-07-21-14-34/20.mp3",
+        "timeStart": 39.24,
+        "timeEnd": 41.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18106/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18088": {
+      "id": 8589,
+      "text": "Barbara! Cậu làm việc ở khu này à?",
+      "author": "a user"
+    },
+    "18090": {
+      "id": 8613,
+      "text": "Thật hả? Cậu làm nghề gì vậy?",
+      "author": "a user"
+    },
+    "18095": {
+      "id": 8631,
+      "text": "Ồ... bạn là đầu bếp à?",
+      "author": "a user"
+    },
+    "18097": {
+      "id": 8635,
+      "text": "Đó là một công việc thực sự khó khăn; tôi không hề ghen tị với bạn chút nào.",
+      "author": "a user"
+    },
+    "18098": {
+      "id": 8639,
+      "text": "Tôi cũng không thích lắm!",
+      "author": "a user"
+    },
+    "18099": {
+      "id": 8640,
+      "text": "Jean này, cậu sống một mình à?",
+      "author": "a user"
+    },
+    "18101": {
+      "id": 8646,
+      "text": "Hiện tại tôi đã kết hôn. Tôi kết hôn vào năm ngoái.",
+      "author": "a user"
+    },
+    "18102": {
+      "id": 8655,
+      "text": "Thật chứ? Chúc mừng nha! Bạn kết hôn với ai vậy?",
+      "author": "a user"
+    },
+    "18103": {
+      "id": 8663,
+      "text": "Tên anh ấy là Jeff Hunt. Anh ấy sống cùng tòa nhà với tôi.",
+      "author": "a user"
+    },
+    "18106": {
+      "id": 8681,
+      "text": "Thật tuyệt vời, tôi thấy mừng thay cho bạn!",
+      "author": "a user"
+    },
+    "18087": {
+      "id": 2590005,
+      "text": "Jean!",
+      "author": "ChatGPT4.1"
+    },
+    "18089": {
+      "id": 2590006,
+      "text": "Vâng, tôi làm việc trong tòa nhà bên kia đường.",
+      "author": "ChatGPT4.1"
+    },
+    "18091": {
+      "id": 2590007,
+      "text": "Tôi làm việc tại một văn phòng luật, tôi là thư ký.",
+      "author": "ChatGPT4.1"
+    },
+    "18092": {
+      "id": 2590008,
+      "text": "Ồ, thú vị đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "18093": {
+      "id": 2590009,
+      "text": "Còn bạn thì sao? Bạn làm gì?",
+      "author": "ChatGPT4.1"
+    },
+    "18094": {
+      "id": 2590010,
+      "text": "Tôi làm ở Nhà hàng Duru.",
+      "author": "ChatGPT4.1"
+    },
+    "18096": {
+      "id": 2590011,
+      "text": "Không, tôi là phục vụ bàn.",
+      "author": "ChatGPT4.1"
+    },
+    "18100": {
+      "id": 2590012,
+      "text": "Không, tôi không. Tôi sống với gia đình mình. Còn bạn thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "18104": {
+      "id": 2590013,
+      "text": "Ồ, anh ấy làm nghề gì?",
+      "author": "ChatGPT4.1"
+    },
+    "18105": {
+      "id": 2590014,
+      "text": "Anh ấy là bác sĩ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

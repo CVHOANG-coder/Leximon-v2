@@ -1,0 +1,874 @@
+{
+  "summary": {
+    "id": 2304,
+    "name": "Test 04 - Part B - Extract 4",
+    "subTitle": "Flu Shot Discussion",
+    "levelName": "B2",
+    "position": 36,
+    "totalChallenges": 13,
+    "groupId": 134,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2304",
+  "detail": {
+    "id": 2304,
+    "lessonName": "Test 04 - Part B - Extract 4",
+    "name": "Test 04 - Part B - Extract 4",
+    "position": 36,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/0-test-04-part-b-extract-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90778,
+        "position": 1,
+        "content": "Good morning Mr Henderson.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning",
+          "Mr",
+          "Henderson."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "Henderson."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/1.mp3",
+        "timeStart": 0.44,
+        "timeEnd": 2.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90778/list"
+      },
+      {
+        "id": 90779,
+        "position": 2,
+        "content": "Dr Ray has recommended that you get a flu immunisation shot before you're discharged.",
+        "defaultInput": "Dr Ray ",
+        "jsonContent": [
+          "Dr",
+          "Ray",
+          "has",
+          "recommended",
+          "that",
+          "you",
+          "get",
+          "a",
+          "flu",
+          "immunisation",
+          "shot",
+          "before",
+          [
+            "you're",
+            "you are"
+          ],
+          "discharged."
+        ],
+        "solution": [
+          [
+            "Dr"
+          ],
+          [
+            "Ray"
+          ],
+          [
+            "has"
+          ],
+          [
+            "recommended"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "flu"
+          ],
+          [
+            "immunisation"
+          ],
+          [
+            "shot"
+          ],
+          [
+            "before"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "discharged."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/2.mp3",
+        "timeStart": 2.38,
+        "timeEnd": 8.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90779/list"
+      },
+      {
+        "id": 90780,
+        "position": 3,
+        "content": "I've got the injection ready to give you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          "the",
+          "injection",
+          "ready",
+          "to",
+          "give",
+          "you."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "the"
+          ],
+          [
+            "injection"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/3.mp3",
+        "timeStart": 8.01,
+        "timeEnd": 10.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90780/list"
+      },
+      {
+        "id": 90781,
+        "position": 4,
+        "content": "Are you allergic to anything?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "allergic",
+          "to",
+          "anything?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "allergic"
+          ],
+          [
+            "to"
+          ],
+          [
+            "anything?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/4.mp3",
+        "timeStart": 10.03,
+        "timeEnd": 11.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90781/list"
+      },
+      {
+        "id": 90782,
+        "position": 5,
+        "content": "I'm only allergic to latex and penicillin.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "only",
+          "allergic",
+          "to",
+          "latex",
+          "and",
+          "penicillin."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "only"
+          ],
+          [
+            "allergic"
+          ],
+          [
+            "to"
+          ],
+          [
+            "latex"
+          ],
+          [
+            "and"
+          ],
+          [
+            "penicillin."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/5.mp3",
+        "timeStart": 12.19,
+        "timeEnd": 15.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90782/list"
+      },
+      {
+        "id": 90783,
+        "position": 6,
+        "content": "I don't know if I want the flu shot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "know",
+          "if",
+          "I",
+          "want",
+          "the",
+          "flu",
+          "shot."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "want"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flu"
+          ],
+          [
+            "shot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/6.mp3",
+        "timeStart": 16,
+        "timeEnd": 17.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90783/list"
+      },
+      {
+        "id": 90784,
+        "position": 7,
+        "content": "The last time I got the shot I got sick.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "last",
+          "time",
+          "I",
+          "got",
+          "the",
+          "shot",
+          "I",
+          "got",
+          "sick."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "last"
+          ],
+          [
+            "time"
+          ],
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shot"
+          ],
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "sick."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/7.mp3",
+        "timeStart": 17.95,
+        "timeEnd": 20.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90784/list"
+      },
+      {
+        "id": 90785,
+        "position": 8,
+        "content": "I'm sorry that happened to you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry",
+          "that",
+          "happened",
+          "to",
+          "you."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry"
+          ],
+          [
+            "that"
+          ],
+          [
+            "happened"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/8.mp3",
+        "timeStart": 20.05,
+        "timeEnd": 21.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90785/list"
+      },
+      {
+        "id": 90786,
+        "position": 9,
+        "content": "What kind of symptoms did you have after that last flu shot?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "kind",
+          "of",
+          "symptoms",
+          "did",
+          [
+            "you have",
+            "you've"
+          ],
+          "after",
+          "that",
+          "last",
+          "flu",
+          "shot?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "after"
+          ],
+          [
+            "that"
+          ],
+          [
+            "last"
+          ],
+          [
+            "flu"
+          ],
+          [
+            "shot?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/9.mp3",
+        "timeStart": 21.97,
+        "timeEnd": 25.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90786/list"
+      },
+      {
+        "id": 90787,
+        "position": 10,
+        "content": "I got a runny nose and a headache and my arm felt like someone punched me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "got",
+          "a",
+          "runny",
+          "nose",
+          "and",
+          "a",
+          "headache",
+          "and",
+          "my",
+          "arm",
+          "felt",
+          "like",
+          "someone",
+          "punched",
+          "me."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "runny"
+          ],
+          [
+            "nose"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "headache"
+          ],
+          [
+            "and"
+          ],
+          [
+            "my"
+          ],
+          [
+            "arm"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "like"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "punched"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/10.mp3",
+        "timeStart": 25.83,
+        "timeEnd": 31.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90787/list"
+      },
+      {
+        "id": 90788,
+        "position": 11,
+        "content": "Sometimes the flu shot can cause reactions like a sore injection site and headache.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sometimes",
+          "the",
+          "flu",
+          "shot",
+          "can",
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          "reactions",
+          "like",
+          "a",
+          "sore",
+          "injection",
+          "site",
+          "and",
+          "headache."
+        ],
+        "solution": [
+          [
+            "Sometimes"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flu"
+          ],
+          [
+            "shot"
+          ],
+          [
+            "can"
+          ],
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          [
+            "reactions"
+          ],
+          [
+            "like"
+          ],
+          [
+            "a"
+          ],
+          [
+            "sore"
+          ],
+          [
+            "injection"
+          ],
+          [
+            "site"
+          ],
+          [
+            "and"
+          ],
+          [
+            "headache."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/11.mp3",
+        "timeStart": 31.63,
+        "timeEnd": 38.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90788/list"
+      },
+      {
+        "id": 90789,
+        "position": 12,
+        "content": "Other common symptoms include being tired, muscle and joint aches, shivering and fever.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Other",
+          "common",
+          "symptoms",
+          "include",
+          "being",
+          "tired,",
+          "muscle",
+          "and",
+          "joint",
+          "aches,",
+          "shivering",
+          "and",
+          "fever."
+        ],
+        "solution": [
+          [
+            "Other"
+          ],
+          [
+            "common"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "include"
+          ],
+          [
+            "being"
+          ],
+          [
+            "tired,"
+          ],
+          [
+            "muscle"
+          ],
+          [
+            "and"
+          ],
+          [
+            "joint"
+          ],
+          [
+            "aches,"
+          ],
+          [
+            "shivering"
+          ],
+          [
+            "and"
+          ],
+          [
+            "fever."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/12.mp3",
+        "timeStart": 39.13,
+        "timeEnd": 45.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90789/list"
+      },
+      {
+        "id": 90790,
+        "position": 13,
+        "content": "All of these symptoms can be seen with the flu, but the shot can't give you the flu.",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "of",
+          "these",
+          "symptoms",
+          "can",
+          "be",
+          "seen",
+          "with",
+          "the",
+          "flu,",
+          "but",
+          "the",
+          "shot",
+          "can't",
+          "give",
+          "you",
+          "the",
+          "flu."
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flu,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shot"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flu."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-04-part-b-extract-4-2025-08-29-22-08-13/13.mp3",
+        "timeStart": 45.9,
+        "timeEnd": 51.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90790/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90778": {
+      "id": 3683175,
+      "text": "Chào buổi sáng ông Henderson.",
+      "author": "ChatGPT4.1"
+    },
+    "90779": {
+      "id": 3683176,
+      "text": "Bác sĩ Ray đã khuyên ông nên tiêm vắc-xin phòng cúm trước khi xuất viện.",
+      "author": "a user"
+    },
+    "90780": {
+      "id": 3683177,
+      "text": "Tôi đã chuẩn bị mũi tiêm sẵn sàng cho ông.",
+      "author": "ChatGPT4.1"
+    },
+    "90781": {
+      "id": 3683178,
+      "text": "Ông có bị dị ứng với gì không?",
+      "author": "ChatGPT4.1"
+    },
+    "90782": {
+      "id": 3683179,
+      "text": "Tôi chỉ dị ứng với latex và penicillin thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "90783": {
+      "id": 3683180,
+      "text": "Tôi không biết mình có muốn tiêm phòng cúm không.",
+      "author": "ChatGPT4.1"
+    },
+    "90784": {
+      "id": 3683181,
+      "text": "Lần tiêm trước tôi bị ốm.",
+      "author": "a user"
+    },
+    "90785": {
+      "id": 3683182,
+      "text": "Tôi rất tiếc vì chuyện đó đã xảy ra với ông.",
+      "author": "a user"
+    },
+    "90786": {
+      "id": 3683183,
+      "text": "Ông có những triệu chứng gì sau mũi tiêm cúm cuối cùng?",
+      "author": "a user"
+    },
+    "90787": {
+      "id": 3683184,
+      "text": "Tôi bị sổ mũi, đau đầu và cảm giác như ai đó đấm vào cánh tay tôi vậy.",
+      "author": "a user"
+    },
+    "90788": {
+      "id": 3683185,
+      "text": "Đôi khi, vắc-xin phòng cúm có thể gây ra các phản ứng như đau chỗ tiêm và đau đầu.",
+      "author": "a user"
+    },
+    "90789": {
+      "id": 3683186,
+      "text": "Các triệu chứng phổ biến khác bao gồm mệt mỏi, đau cơ và khớp, run rẩy và sốt.",
+      "author": "a user"
+    },
+    "90790": {
+      "id": 3683187,
+      "text": "Tất cả những triệu chứng này đều có thể gặp ở bệnh cúm, nhưng mũi tiêm không thể khiến bạn bị cúm.",
+      "author": "a user"
+    }
+  }
+}

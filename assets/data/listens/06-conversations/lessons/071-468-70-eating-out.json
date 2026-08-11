@@ -1,0 +1,368 @@
+{
+  "summary": {
+    "id": 468,
+    "name": "70. Eating out",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 71,
+    "totalChallenges": 7,
+    "groupId": 105,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/468",
+  "detail": {
+    "id": 468,
+    "lessonName": "70. Eating out",
+    "name": "70. Eating out",
+    "position": 71,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/0-70-eating-out.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18536,
+        "position": 1,
+        "content": "Waiter! Could we have the bill, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Waiter!",
+          "Could",
+          [
+            "we have",
+            "we've"
+          ],
+          "the",
+          "bill,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Waiter!"
+          ],
+          [
+            "Could"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bill,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/1.mp3",
+        "timeStart": 3.02,
+        "timeEnd": 5.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18536/list"
+      },
+      {
+        "id": 18537,
+        "position": 2,
+        "content": "Can I put it all on one bill?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "I",
+          "put",
+          "it",
+          "all",
+          "on",
+          [
+            "one",
+            "1"
+          ],
+          "bill?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "put"
+          ],
+          [
+            "it"
+          ],
+          [
+            "all"
+          ],
+          [
+            "on"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "bill?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/2.mp3",
+        "timeStart": 5.48,
+        "timeEnd": 7.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18537/list"
+      },
+      {
+        "id": 18538,
+        "position": 3,
+        "content": "No, we'd prefer separate checks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "we'd",
+          "prefer",
+          "separate",
+          "checks."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "we'd"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "separate"
+          ],
+          [
+            "checks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/3.mp3",
+        "timeStart": 7.07,
+        "timeEnd": 9.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18538/list"
+      },
+      {
+        "id": 18539,
+        "position": 4,
+        "content": "Your bill's $18.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Your",
+          "bill's",
+          [
+            "$18.",
+            "18 dollars",
+            "eighteen dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "Your"
+          ],
+          [
+            "bill's"
+          ],
+          [
+            "$18.",
+            "18 dollars",
+            "eighteen dollars"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/4.mp3",
+        "timeStart": 9.56,
+        "timeEnd": 11.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18539/list"
+      },
+      {
+        "id": 18540,
+        "position": 5,
+        "content": "That seems expensive. Would you check it again please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "seems",
+          "expensive.",
+          "Would",
+          "you",
+          "check",
+          "it",
+          "again",
+          "please?"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "expensive."
+          ],
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "check"
+          ],
+          [
+            "it"
+          ],
+          [
+            "again"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/5.mp3",
+        "timeStart": 11.45,
+        "timeEnd": 14.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18540/list"
+      },
+      {
+        "id": 18541,
+        "position": 6,
+        "content": "Sorry, ma'am. This is your friend's bill.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sorry,",
+          "ma'am.",
+          "This",
+          "is",
+          "your",
+          "friend's",
+          "bill."
+        ],
+        "solution": [
+          [
+            "Sorry,"
+          ],
+          [
+            "ma'am."
+          ],
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "your"
+          ],
+          [
+            "friend's"
+          ],
+          [
+            "bill."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/6.mp3",
+        "timeStart": 15,
+        "timeEnd": 17.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18541/list"
+      },
+      {
+        "id": 18542,
+        "position": 7,
+        "content": "Here is yours; it's $24.16!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Here",
+          "is",
+          "yours;",
+          "it's",
+          [
+            "$24.16!",
+            "24.16! dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "Here"
+          ],
+          [
+            "is"
+          ],
+          [
+            "yours;"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "$24.16!",
+            "24.16! dollars"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/70-eating-out-2022-03-07-21-27-45/7.mp3",
+        "timeStart": 17.3,
+        "timeEnd": 20.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18542/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "18536": {
+      "id": 36946,
+      "text": "Này bạn! Bạn có thể giúp tôi tính tiền không",
+      "author": "a user"
+    },
+    "18537": {
+      "id": 36947,
+      "text": "Tôi có thể tính chúng vào cùng một hóa đơn không?",
+      "author": "a user"
+    },
+    "18538": {
+      "id": 36948,
+      "text": "Không, chúng tôi muốn tính tiền riêng hơn.",
+      "author": "a user"
+    },
+    "18540": {
+      "id": 36950,
+      "text": "Cái đó có vẻ đắt. Bạn vui lòng kiểm tra lại nó một lần nữa được không?",
+      "author": "a user"
+    },
+    "18541": {
+      "id": 36951,
+      "text": "Xin lỗi, thưa bà. Đây là hóa đơn của bạn bà",
+      "author": "a user"
+    },
+    "18539": {
+      "id": 2649198,
+      "text": "Hóa đơn của bạn là 18 đô la.",
+      "author": "ChatGPT4.1"
+    },
+    "18542": {
+      "id": 2649199,
+      "text": "Còn đây là của bà; là 24,16 đô la!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

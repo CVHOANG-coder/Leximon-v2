@@ -1,0 +1,732 @@
+{
+  "summary": {
+    "id": 1793,
+    "name": "Conversation 252",
+    "subTitle": "Apartment Cleaning Quote Request",
+    "levelName": "B1",
+    "position": 581,
+    "totalChallenges": 13,
+    "groupId": 73,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1793",
+  "detail": {
+    "id": 1793,
+    "lessonName": "Conversation 252",
+    "name": "Conversation 252",
+    "position": 581,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/0-conversation-252.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 70142,
+        "position": 1,
+        "content": "Good afternoon, Green Clean Services. This is Sabrina speaking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "afternoon,",
+          "Green",
+          "Clean",
+          "Services.",
+          "This",
+          "is",
+          "Sabrina",
+          "speaking."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "Green"
+          ],
+          [
+            "Clean"
+          ],
+          [
+            "Services."
+          ],
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Sabrina"
+          ],
+          [
+            "speaking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70142/list"
+      },
+      {
+        "id": 70143,
+        "position": 2,
+        "content": "How can I assist you today?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "can",
+          "I",
+          "assist",
+          "you",
+          "today?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "assist"
+          ],
+          [
+            "you"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/2.mp3",
+        "timeStart": 3.65,
+        "timeEnd": 5.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70143/list"
+      },
+      {
+        "id": 70144,
+        "position": 3,
+        "content": "Hi, I'm looking to get a quote for having my apartment cleaned.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "looking",
+          "to",
+          "get",
+          "a",
+          "quote",
+          "for",
+          "having",
+          "my",
+          "apartment",
+          "cleaned."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "quote"
+          ],
+          [
+            "for"
+          ],
+          [
+            "having"
+          ],
+          [
+            "my"
+          ],
+          [
+            "apartment"
+          ],
+          [
+            "cleaned."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/3.mp3",
+        "timeStart": 5.13,
+        "timeEnd": 8.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70144/list"
+      },
+      {
+        "id": 70145,
+        "position": 4,
+        "content": "Could you tell me what your rates are?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "tell",
+          "me",
+          "what",
+          "your",
+          "rates",
+          "are?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "what"
+          ],
+          [
+            "your"
+          ],
+          [
+            "rates"
+          ],
+          [
+            "are?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/4.mp3",
+        "timeStart": 8.07,
+        "timeEnd": 9.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70145/list"
+      },
+      {
+        "id": 70146,
+        "position": 5,
+        "content": "Sure!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure!"
+        ],
+        "solution": [
+          [
+            "Sure!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/5.mp3",
+        "timeStart": 9.88,
+        "timeEnd": 10.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70146/list"
+      },
+      {
+        "id": 70147,
+        "position": 6,
+        "content": "Our pricing depends on the number of rooms and the level of cleaning you'd like:",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "pricing",
+          "depends",
+          "on",
+          "the",
+          "number",
+          "of",
+          "rooms",
+          "and",
+          "the",
+          "level",
+          "of",
+          "cleaning",
+          "you'd",
+          "like:"
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "pricing"
+          ],
+          [
+            "depends"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "rooms"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "level"
+          ],
+          [
+            "of"
+          ],
+          [
+            "cleaning"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "like:"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/6.mp3",
+        "timeStart": 10.68,
+        "timeEnd": 14.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70147/list"
+      },
+      {
+        "id": 70148,
+        "position": 7,
+        "content": "basic, deep, or custom.",
+        "defaultInput": "",
+        "jsonContent": [
+          "basic,",
+          "deep,",
+          "or",
+          "custom."
+        ],
+        "solution": [
+          [
+            "basic,"
+          ],
+          [
+            "deep,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "custom."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/7.mp3",
+        "timeStart": 14.97,
+        "timeEnd": 17.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70148/list"
+      },
+      {
+        "id": 70149,
+        "position": 8,
+        "content": "I'd say a basic clean should be fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "say",
+          "a",
+          "basic",
+          "clean",
+          "should",
+          "be",
+          "fine."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "say"
+          ],
+          [
+            "a"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "clean"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/8.mp3",
+        "timeStart": 17.12,
+        "timeEnd": 19.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70149/list"
+      },
+      {
+        "id": 70150,
+        "position": 9,
+        "content": "It's a one-bedroom place.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          [
+            "one-bedroom",
+            "one bedroom"
+          ],
+          "place."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "one-bedroom",
+            "one bedroom"
+          ],
+          [
+            "place."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/9.mp3",
+        "timeStart": 19.23,
+        "timeEnd": 20.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70150/list"
+      },
+      {
+        "id": 70151,
+        "position": 10,
+        "content": "Great, for a one-bedroom apartment with basic cleaning, it's typically around $80.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great,",
+          "for",
+          "a",
+          [
+            "one-bedroom",
+            "one bedroom"
+          ],
+          "apartment",
+          "with",
+          "basic",
+          "cleaning,",
+          "it's",
+          "typically",
+          "around",
+          [
+            "$80.",
+            "80. dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "Great,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "one-bedroom",
+            "one bedroom"
+          ],
+          [
+            "apartment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "cleaning,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "typically"
+          ],
+          [
+            "around"
+          ],
+          [
+            "$80.",
+            "80. dollars"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/10.mp3",
+        "timeStart": 20.99,
+        "timeEnd": 26.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70151/list"
+      },
+      {
+        "id": 70152,
+        "position": 11,
+        "content": "Would you like to schedule a time?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "like",
+          "to",
+          "schedule",
+          "a",
+          "time?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "a"
+          ],
+          [
+            "time?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/11.mp3",
+        "timeStart": 26.69,
+        "timeEnd": 28.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70152/list"
+      },
+      {
+        "id": 70153,
+        "position": 12,
+        "content": "Not just yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Not",
+          "just",
+          "yet."
+        ],
+        "solution": [
+          [
+            "Not"
+          ],
+          [
+            "just"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/12.mp3",
+        "timeStart": 28.77,
+        "timeEnd": 29.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70153/list"
+      },
+      {
+        "id": 70154,
+        "position": 13,
+        "content": "I'll need to double-check my schedule and call you back later today.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "need",
+          "to",
+          [
+            "double-check",
+            "double check"
+          ],
+          "my",
+          "schedule",
+          "and",
+          "call",
+          "you",
+          "back",
+          "later",
+          "today."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "double-check",
+            "double check"
+          ],
+          [
+            "my"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "and"
+          ],
+          [
+            "call"
+          ],
+          [
+            "you"
+          ],
+          [
+            "back"
+          ],
+          [
+            "later"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-252-2024-11-03-20-03-57/13.mp3",
+        "timeStart": 29.63,
+        "timeEnd": 32.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/70154/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "70142": {
+      "id": 2621035,
+      "text": "Chào buổi chiều, Green Clean Services. Sabrina đang nghe máy.",
+      "author": "ChatGPT4.1"
+    },
+    "70143": {
+      "id": 2621036,
+      "text": "Tôi có thể giúp gì cho bạn hôm nay?",
+      "author": "ChatGPT4.1"
+    },
+    "70144": {
+      "id": 2621037,
+      "text": "Chào bạn, tôi muốn xin báo giá dịch vụ dọn dẹp căn hộ của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "70145": {
+      "id": 2621038,
+      "text": "Bạn có thể cho tôi biết giá dịch vụ của bạn không?",
+      "author": "ChatGPT4.1"
+    },
+    "70146": {
+      "id": 2621039,
+      "text": "Chắc chắn rồi!",
+      "author": "ChatGPT4.1"
+    },
+    "70147": {
+      "id": 2621040,
+      "text": "Giá của chúng tôi phụ thuộc vào số phòng và mức độ làm sạch mà bạn muốn:",
+      "author": "ChatGPT4.1"
+    },
+    "70148": {
+      "id": 2621041,
+      "text": "cơ bản, sâu, hoặc tùy chọn.",
+      "author": "ChatGPT4.1"
+    },
+    "70149": {
+      "id": 2621042,
+      "text": "Tôi nghĩ dọn dẹp cơ bản là được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "70150": {
+      "id": 2621043,
+      "text": "Đó là một căn hộ một phòng ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "70151": {
+      "id": 2621044,
+      "text": "Tuyệt vời, với một căn hộ một phòng ngủ và dọn dẹp cơ bản, giá khoảng 80 đô la.",
+      "author": "ChatGPT4.1"
+    },
+    "70152": {
+      "id": 2621045,
+      "text": "Bạn có muốn đặt lịch không?",
+      "author": "ChatGPT4.1"
+    },
+    "70153": {
+      "id": 2621046,
+      "text": "Chưa phải bây giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "70154": {
+      "id": 2621047,
+      "text": "Tôi cần kiểm tra lại lịch trình của mình và sẽ gọi lại cho bạn sau hôm nay.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

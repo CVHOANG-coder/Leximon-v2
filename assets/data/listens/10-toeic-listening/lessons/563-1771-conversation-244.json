@@ -1,0 +1,634 @@
+{
+  "summary": {
+    "id": 1771,
+    "name": "Conversation 244",
+    "subTitle": "Passport Renewal Inquiry",
+    "levelName": "B1",
+    "position": 563,
+    "totalChallenges": 11,
+    "groupId": 72,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1771",
+  "detail": {
+    "id": 1771,
+    "lessonName": "Conversation 244",
+    "name": "Conversation 244",
+    "position": 563,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/0-conversation-244.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 69907,
+        "position": 1,
+        "content": "Next, please. How can I help?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Next,",
+          "please.",
+          "How",
+          "can",
+          "I",
+          "help?"
+        ],
+        "solution": [
+          [
+            "Next,"
+          ],
+          [
+            "please."
+          ],
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69907/list"
+      },
+      {
+        "id": 69908,
+        "position": 2,
+        "content": "Hi, I need to get my passport renewed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "I",
+          "need",
+          "to",
+          "get",
+          "my",
+          "passport",
+          "renewed."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "my"
+          ],
+          [
+            "passport"
+          ],
+          [
+            "renewed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/2.mp3",
+        "timeStart": 2.12,
+        "timeEnd": 4.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69908/list"
+      },
+      {
+        "id": 69909,
+        "position": 3,
+        "content": "Sure, do you have the application and your old passport?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          "do",
+          [
+            "you have",
+            "you've"
+          ],
+          "the",
+          "application",
+          "and",
+          "your",
+          "old",
+          "passport?"
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "the"
+          ],
+          [
+            "application"
+          ],
+          [
+            "and"
+          ],
+          [
+            "your"
+          ],
+          [
+            "old"
+          ],
+          [
+            "passport?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/3.mp3",
+        "timeStart": 4.51,
+        "timeEnd": 7.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69909/list"
+      },
+      {
+        "id": 69910,
+        "position": 4,
+        "content": "Yes, right here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "right",
+          "here."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "right"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/4.mp3",
+        "timeStart": 7.44,
+        "timeEnd": 9.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69910/list"
+      },
+      {
+        "id": 69911,
+        "position": 5,
+        "content": "Do you know how long the wait might be?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "know",
+          "how",
+          "long",
+          "the",
+          "wait",
+          "might",
+          "be?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "how"
+          ],
+          [
+            "long"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wait"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/5.mp3",
+        "timeStart": 9.16,
+        "timeEnd": 11.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69911/list"
+      },
+      {
+        "id": 69912,
+        "position": 6,
+        "content": "I have to pick up my kids soon.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "pick",
+          "up",
+          "my",
+          "kids",
+          "soon."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "my"
+          ],
+          [
+            "kids"
+          ],
+          [
+            "soon."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/6.mp3",
+        "timeStart": 11.52,
+        "timeEnd": 13.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69912/list"
+      },
+      {
+        "id": 69913,
+        "position": 7,
+        "content": "There's quite a line today, so it could be over an hour.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "quite",
+          "a",
+          "line",
+          "today,",
+          "so",
+          "it",
+          "could",
+          "be",
+          "over",
+          "an",
+          "hour."
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "line"
+          ],
+          [
+            "today,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "it"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "over"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/7.mp3",
+        "timeStart": 13.68,
+        "timeEnd": 16.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69913/list"
+      },
+      {
+        "id": 69914,
+        "position": 8,
+        "content": "If that's too long, you could come early tomorrow when it's less busy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "that's",
+          "too",
+          "long,",
+          "you",
+          "could",
+          "come",
+          "early",
+          "tomorrow",
+          "when",
+          "it's",
+          "less",
+          "busy."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "too"
+          ],
+          [
+            "long,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "come"
+          ],
+          [
+            "early"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "less"
+          ],
+          [
+            "busy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/8.mp3",
+        "timeStart": 17.06,
+        "timeEnd": 20.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69914/list"
+      },
+      {
+        "id": 69915,
+        "position": 9,
+        "content": "Hmm, maybe that's a better idea.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hmm,",
+          "maybe",
+          "that's",
+          "a",
+          "better",
+          "idea."
+        ],
+        "solution": [
+          [
+            "Hmm,"
+          ],
+          [
+            "maybe"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "better"
+          ],
+          [
+            "idea."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/9.mp3",
+        "timeStart": 21.06,
+        "timeEnd": 23.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69915/list"
+      },
+      {
+        "id": 69916,
+        "position": 10,
+        "content": "What time do you open?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "time",
+          "do",
+          "you",
+          "open?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "time"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "open?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/10.mp3",
+        "timeStart": 23.73,
+        "timeEnd": 25.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69916/list"
+      },
+      {
+        "id": 69917,
+        "position": 11,
+        "content": "We open at 8 am, and it's usually very quiet then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "open",
+          "at",
+          [
+            "8",
+            "eight"
+          ],
+          "am,",
+          "and",
+          "it's",
+          "usually",
+          "very",
+          "quiet",
+          "then."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "open"
+          ],
+          [
+            "at"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "am,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "very"
+          ],
+          [
+            "quiet"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-244-2024-10-29-23-06-31/11.mp3",
+        "timeStart": 25.2,
+        "timeEnd": 28.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69917/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "69907": {
+      "id": 2592223,
+      "text": "Tiếp theo, xin mời. Tôi có thể giúp gì cho bạn?",
+      "author": "ChatGPT4.1"
+    },
+    "69908": {
+      "id": 2592224,
+      "text": "Chào, tôi cần làm lại hộ chiếu.",
+      "author": "ChatGPT4.1"
+    },
+    "69909": {
+      "id": 2592225,
+      "text": "Chắc chắn rồi, bạn có mang theo đơn xin và hộ chiếu cũ không?",
+      "author": "ChatGPT4.1"
+    },
+    "69910": {
+      "id": 2592226,
+      "text": "Vâng, ở đây này.",
+      "author": "ChatGPT4.1"
+    },
+    "69911": {
+      "id": 2592227,
+      "text": "Bạn có biết thời gian chờ khoảng bao lâu không?",
+      "author": "ChatGPT4.1"
+    },
+    "69912": {
+      "id": 2592228,
+      "text": "Tôi phải đi đón con sớm.",
+      "author": "ChatGPT4.1"
+    },
+    "69913": {
+      "id": 2592229,
+      "text": "Hôm nay khá đông, vậy nên có thể phải chờ hơn một tiếng.",
+      "author": "ChatGPT4.1"
+    },
+    "69914": {
+      "id": 2592230,
+      "text": "Nếu như vậy quá lâu, bạn có thể đến sớm vào ngày mai khi vắng hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "69915": {
+      "id": 2592231,
+      "text": "Ừm, có lẽ đó là ý hay hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "69916": {
+      "id": 2592232,
+      "text": "Mấy giờ bạn mở cửa?",
+      "author": "ChatGPT4.1"
+    },
+    "69917": {
+      "id": 2592233,
+      "text": "Chúng tôi mở cửa lúc 8 giờ sáng, và lúc đó thường rất vắng.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

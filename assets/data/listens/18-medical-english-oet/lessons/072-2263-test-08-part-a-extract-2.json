@@ -1,0 +1,3311 @@
+{
+  "summary": {
+    "id": 2263,
+    "name": "Test 08 - Part A - Extract 2",
+    "subTitle": "Parkinson's Disease Patient Interview",
+    "levelName": "B2",
+    "position": 72,
+    "totalChallenges": 56,
+    "groupId": 138,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2263",
+  "detail": {
+    "id": 2263,
+    "lessonName": "Test 08 - Part A - Extract 2",
+    "name": "Test 08 - Part A - Extract 2",
+    "position": 72,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/0-test-01-part-a-extract-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 89547,
+        "position": 1,
+        "content": "Hello Mr McDonald.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello",
+          "Mr",
+          "McDonald."
+        ],
+        "solution": [
+          [
+            "Hello"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "McDonald."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/1.mp3",
+        "timeStart": 0.95,
+        "timeEnd": 2.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89547/list"
+      },
+      {
+        "id": 89548,
+        "position": 2,
+        "content": "I understand you're here to have a lump removed from your back,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "understand",
+          [
+            "you're",
+            "you are"
+          ],
+          "here",
+          "to",
+          "have",
+          "a",
+          "lump",
+          "removed",
+          "from",
+          "your",
+          "back,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "here"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lump"
+          ],
+          [
+            "removed"
+          ],
+          [
+            "from"
+          ],
+          [
+            "your"
+          ],
+          [
+            "back,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/2.mp3",
+        "timeStart": 2.51,
+        "timeEnd": 5.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89548/list"
+      },
+      {
+        "id": 89549,
+        "position": 3,
+        "content": "and the plan is to send you home later today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "plan",
+          "is",
+          "to",
+          "send",
+          "you",
+          "home",
+          "later",
+          "today."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "is"
+          ],
+          [
+            "to"
+          ],
+          [
+            "send"
+          ],
+          [
+            "you"
+          ],
+          [
+            "home"
+          ],
+          [
+            "later"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/3.mp3",
+        "timeStart": 5.48,
+        "timeEnd": 8.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89549/list"
+      },
+      {
+        "id": 89550,
+        "position": 4,
+        "content": "Yes, that's right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that's",
+          "right."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/4.mp3",
+        "timeStart": 8.11,
+        "timeEnd": 9.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89550/list"
+      },
+      {
+        "id": 89551,
+        "position": 5,
+        "content": "The lump really needs to come off.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "lump",
+          "really",
+          "needs",
+          "to",
+          "come",
+          "off."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "lump"
+          ],
+          [
+            "really"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "off."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/5.mp3",
+        "timeStart": 9.46,
+        "timeEnd": 11.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89551/list"
+      },
+      {
+        "id": 89552,
+        "position": 6,
+        "content": "It's more than a little annoying and it can be quite painful too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "more",
+          "than",
+          "a",
+          "little",
+          "annoying",
+          "and",
+          "it",
+          "can",
+          "be",
+          "quite",
+          "painful",
+          "too."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "annoying"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "painful"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/6.mp3",
+        "timeStart": 11.51,
+        "timeEnd": 15.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89552/list"
+      },
+      {
+        "id": 89553,
+        "position": 7,
+        "content": "It's near my waist and gets in the way of the waistband of my trousers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "near",
+          "my",
+          "waist",
+          "and",
+          "gets",
+          "in",
+          "the",
+          "way",
+          "of",
+          "the",
+          "waistband",
+          "of",
+          "my",
+          "trousers."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "near"
+          ],
+          [
+            "my"
+          ],
+          [
+            "waist"
+          ],
+          [
+            "and"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "waistband"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "trousers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/7.mp3",
+        "timeStart": 15.58,
+        "timeEnd": 19.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89553/list"
+      },
+      {
+        "id": 89554,
+        "position": 8,
+        "content": "I'm not particularly worried about the surgery,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "particularly",
+          "worried",
+          "about",
+          "the",
+          "surgery,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "surgery,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/8.mp3",
+        "timeStart": 19.62,
+        "timeEnd": 22.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89554/list"
+      },
+      {
+        "id": 89555,
+        "position": 9,
+        "content": "they explained everything to me very clearly when I was at the assessment clinic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "explained",
+          "everything",
+          "to",
+          "me",
+          "very",
+          "clearly",
+          "when",
+          "I",
+          "was",
+          "at",
+          "the",
+          "assessment",
+          "clinic."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "explained"
+          ],
+          [
+            "everything"
+          ],
+          [
+            "to"
+          ],
+          [
+            "me"
+          ],
+          [
+            "very"
+          ],
+          [
+            "clearly"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "assessment"
+          ],
+          [
+            "clinic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/9.mp3",
+        "timeStart": 22.08,
+        "timeEnd": 26.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89555/list"
+      },
+      {
+        "id": 89556,
+        "position": 10,
+        "content": "But I am concerned about how I'll go later on when I'm recovering.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "I am",
+            "I'm"
+          ],
+          "concerned",
+          "about",
+          "how",
+          [
+            "I'll",
+            "I will"
+          ],
+          "go",
+          "later",
+          "on",
+          "when",
+          [
+            "I'm",
+            "I am"
+          ],
+          "recovering."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "concerned"
+          ],
+          [
+            "about"
+          ],
+          [
+            "how"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "go"
+          ],
+          [
+            "later"
+          ],
+          [
+            "on"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "recovering."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/10.mp3",
+        "timeStart": 26.16,
+        "timeEnd": 30.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89556/list"
+      },
+      {
+        "id": 89557,
+        "position": 11,
+        "content": "Did they tell you I have Parkinson's disease?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "they",
+          "tell",
+          "you",
+          [
+            "I have",
+            "I've"
+          ],
+          "Parkinson's",
+          "disease?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "they"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "you"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "Parkinson's"
+          ],
+          [
+            "disease?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/11.mp3",
+        "timeStart": 30.41,
+        "timeEnd": 32.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89557/list"
+      },
+      {
+        "id": 89558,
+        "position": 12,
+        "content": "Yes, it's here in your notes from the clinic,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "it's",
+          "here",
+          "in",
+          "your",
+          "notes",
+          "from",
+          "the",
+          "clinic,"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "here"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "notes"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clinic,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/12.mp3",
+        "timeStart": 33.03,
+        "timeEnd": 35.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89558/list"
+      },
+      {
+        "id": 89559,
+        "position": 13,
+        "content": "but it doesn't say how long you've had it or anything about how it affects you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "it",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "say",
+          "how",
+          "long",
+          [
+            "you've",
+            "you have"
+          ],
+          "had",
+          "it",
+          "or",
+          "anything",
+          "about",
+          "how",
+          "it",
+          "affects",
+          "you."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "say"
+          ],
+          [
+            "how"
+          ],
+          [
+            "long"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "it"
+          ],
+          [
+            "or"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "about"
+          ],
+          [
+            "how"
+          ],
+          [
+            "it"
+          ],
+          [
+            "affects"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/13.mp3",
+        "timeStart": 35.77,
+        "timeEnd": 39.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89559/list"
+      },
+      {
+        "id": 89560,
+        "position": 14,
+        "content": "Oh, I've had it a few years now, five, I think.",
+        "defaultInput": "Oh, ",
+        "jsonContent": [
+          "Oh,",
+          [
+            "I've",
+            "I have"
+          ],
+          "had",
+          "it",
+          "a",
+          "few",
+          "years",
+          "now,",
+          [
+            "five,",
+            "5"
+          ],
+          "I",
+          "think."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "it"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "years"
+          ],
+          [
+            "now,"
+          ],
+          [
+            "five,",
+            "5"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/14.mp3",
+        "timeStart": 39.94,
+        "timeEnd": 44.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89560/list"
+      },
+      {
+        "id": 89561,
+        "position": 15,
+        "content": "The walking is the worst.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "walking",
+          "is",
+          "the",
+          "worst."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "walking"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "worst."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/15.mp3",
+        "timeStart": 44.07,
+        "timeEnd": 45.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89561/list"
+      },
+      {
+        "id": 89562,
+        "position": 16,
+        "content": "It's difficult to start moving, and I'm so slow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "difficult",
+          "to",
+          "start",
+          "moving,",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "so",
+          "slow."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "to"
+          ],
+          [
+            "start"
+          ],
+          [
+            "moving,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "so"
+          ],
+          [
+            "slow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/16.mp3",
+        "timeStart": 45.66,
+        "timeEnd": 48.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89562/list"
+      },
+      {
+        "id": 89563,
+        "position": 17,
+        "content": "All I can do is shuffle to start with and then my steps get shorter and shorter and I get faster and faster.",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "I",
+          "can",
+          "do",
+          "is",
+          "shuffle",
+          "to",
+          "start",
+          "with",
+          "and",
+          "then",
+          "my",
+          "steps",
+          "get",
+          "shorter",
+          "and",
+          "shorter",
+          "and",
+          "I",
+          "get",
+          "faster",
+          "and",
+          "faster."
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do"
+          ],
+          [
+            "is"
+          ],
+          [
+            "shuffle"
+          ],
+          [
+            "to"
+          ],
+          [
+            "start"
+          ],
+          [
+            "with"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "my"
+          ],
+          [
+            "steps"
+          ],
+          [
+            "get"
+          ],
+          [
+            "shorter"
+          ],
+          [
+            "and"
+          ],
+          [
+            "shorter"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "get"
+          ],
+          [
+            "faster"
+          ],
+          [
+            "and"
+          ],
+          [
+            "faster."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/17.mp3",
+        "timeStart": 48.85,
+        "timeEnd": 55.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89563/list"
+      },
+      {
+        "id": 89564,
+        "position": 18,
+        "content": "Sometimes I even fall over.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sometimes",
+          "I",
+          "even",
+          "fall",
+          "over."
+        ],
+        "solution": [
+          [
+            "Sometimes"
+          ],
+          [
+            "I"
+          ],
+          [
+            "even"
+          ],
+          [
+            "fall"
+          ],
+          [
+            "over."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/18.mp3",
+        "timeStart": 55.38,
+        "timeEnd": 57.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89564/list"
+      },
+      {
+        "id": 89565,
+        "position": 19,
+        "content": "Right, I see.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/19.mp3",
+        "timeStart": 57.57,
+        "timeEnd": 59.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89565/list"
+      },
+      {
+        "id": 89566,
+        "position": 20,
+        "content": "I also sometimes get that freezing thing that happens.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "also",
+          "sometimes",
+          "get",
+          "that",
+          "freezing",
+          "thing",
+          "that",
+          "happens."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "also"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "get"
+          ],
+          [
+            "that"
+          ],
+          [
+            "freezing"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "that"
+          ],
+          [
+            "happens."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/20.mp3",
+        "timeStart": 59.16,
+        "timeEnd": 62.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89566/list"
+      },
+      {
+        "id": 89567,
+        "position": 21,
+        "content": "You know, where you're stuck in the one spot...",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "know,",
+          "where",
+          [
+            "you're",
+            "you are"
+          ],
+          "stuck",
+          "in",
+          "the",
+          [
+            "one",
+            "1"
+          ],
+          "spot..."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "where"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "stuck"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "spot..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/21.mp3",
+        "timeStart": 62.55,
+        "timeEnd": 65.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89567/list"
+      },
+      {
+        "id": 89568,
+        "position": 22,
+        "content": "akin... something, I think they call it...",
+        "defaultInput": "",
+        "jsonContent": [
+          "akin...",
+          "something,",
+          "I",
+          "think",
+          "they",
+          "call",
+          "it..."
+        ],
+        "solution": [
+          [
+            "akin..."
+          ],
+          [
+            "something,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "they"
+          ],
+          [
+            "call"
+          ],
+          [
+            "it..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/22.mp3",
+        "timeStart": 65.03,
+        "timeEnd": 67.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89568/list"
+      },
+      {
+        "id": 89569,
+        "position": 23,
+        "content": "Akinesia.",
+        "defaultInput": "Akinesia.",
+        "jsonContent": [
+          "Akinesia."
+        ],
+        "solution": [
+          [
+            "Akinesia."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/23.mp3",
+        "timeStart": 67.57,
+        "timeEnd": 68.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89569/list"
+      },
+      {
+        "id": 89570,
+        "position": 24,
+        "content": "Yes, maybe.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "maybe."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "maybe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/24.mp3",
+        "timeStart": 68.86,
+        "timeEnd": 70.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89570/list"
+      },
+      {
+        "id": 89571,
+        "position": 25,
+        "content": "You'd know better than me!",
+        "defaultInput": "",
+        "jsonContent": [
+          "You'd",
+          "know",
+          "better",
+          "than",
+          "me!"
+        ],
+        "solution": [
+          [
+            "You'd"
+          ],
+          [
+            "know"
+          ],
+          [
+            "better"
+          ],
+          [
+            "than"
+          ],
+          [
+            "me!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/25.mp3",
+        "timeStart": 70.46,
+        "timeEnd": 72.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89571/list"
+      },
+      {
+        "id": 89572,
+        "position": 26,
+        "content": "Anyway, it'll come on me when I least expect it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anyway,",
+          [
+            "it'll",
+            "it will"
+          ],
+          "come",
+          "on",
+          "me",
+          "when",
+          "I",
+          "least",
+          "expect",
+          "it,"
+        ],
+        "solution": [
+          [
+            "Anyway,"
+          ],
+          [
+            "it'll",
+            "it will"
+          ],
+          [
+            "come"
+          ],
+          [
+            "on"
+          ],
+          [
+            "me"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "least"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/26.mp3",
+        "timeStart": 72.17,
+        "timeEnd": 75.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89572/list"
+      },
+      {
+        "id": 89573,
+        "position": 27,
+        "content": "and always at the worst possible moment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "always",
+          "at",
+          "the",
+          "worst",
+          "possible",
+          "moment."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "always"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "worst"
+          ],
+          [
+            "possible"
+          ],
+          [
+            "moment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/27.mp3",
+        "timeStart": 75.3,
+        "timeEnd": 77.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89573/list"
+      },
+      {
+        "id": 89574,
+        "position": 28,
+        "content": "I worked out that if I try and do more than one thing at once, that almost always brings it on.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "worked",
+          "out",
+          "that",
+          "if",
+          "I",
+          "try",
+          "and",
+          "do",
+          "more",
+          "than",
+          [
+            "one",
+            "1"
+          ],
+          "thing",
+          "at",
+          "once,",
+          "that",
+          "almost",
+          "always",
+          "brings",
+          "it",
+          "on."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "worked"
+          ],
+          [
+            "out"
+          ],
+          [
+            "that"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "try"
+          ],
+          [
+            "and"
+          ],
+          [
+            "do"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "at"
+          ],
+          [
+            "once,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "always"
+          ],
+          [
+            "brings"
+          ],
+          [
+            "it"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/28.mp3",
+        "timeStart": 77.84,
+        "timeEnd": 82.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89574/list"
+      },
+      {
+        "id": 89575,
+        "position": 29,
+        "content": "I also get this terrible shaking in my hands,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "also",
+          "get",
+          "this",
+          "terrible",
+          "shaking",
+          "in",
+          "my",
+          "hands,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "also"
+          ],
+          [
+            "get"
+          ],
+          [
+            "this"
+          ],
+          [
+            "terrible"
+          ],
+          [
+            "shaking"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hands,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/29.mp3",
+        "timeStart": 82.82,
+        "timeEnd": 85.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89575/list"
+      },
+      {
+        "id": 89576,
+        "position": 30,
+        "content": "and it's hard to do some things because my arms are so stiff.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it's",
+          "hard",
+          "to",
+          "do",
+          "some",
+          "things",
+          "because",
+          "my",
+          "arms",
+          "are",
+          "so",
+          "stiff."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "some"
+          ],
+          [
+            "things"
+          ],
+          [
+            "because"
+          ],
+          [
+            "my"
+          ],
+          [
+            "arms"
+          ],
+          [
+            "are"
+          ],
+          [
+            "so"
+          ],
+          [
+            "stiff."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/30.mp3",
+        "timeStart": 85.61,
+        "timeEnd": 89.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89576/list"
+      },
+      {
+        "id": 89577,
+        "position": 31,
+        "content": "What activities are the most difficult for you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "activities",
+          "are",
+          "the",
+          "most",
+          "difficult",
+          "for",
+          "you?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "are"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/31.mp3",
+        "timeStart": 89.57,
+        "timeEnd": 92.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89577/list"
+      },
+      {
+        "id": 89578,
+        "position": 32,
+        "content": "It sounds ridiculous, but it's mainly things like turning over in bed,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "sounds",
+          "ridiculous,",
+          "but",
+          "it's",
+          "mainly",
+          "things",
+          "like",
+          "turning",
+          "over",
+          "in",
+          "bed,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "ridiculous,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "mainly"
+          ],
+          [
+            "things"
+          ],
+          [
+            "like"
+          ],
+          [
+            "turning"
+          ],
+          [
+            "over"
+          ],
+          [
+            "in"
+          ],
+          [
+            "bed,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/32.mp3",
+        "timeStart": 92.23,
+        "timeEnd": 96.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89578/list"
+      },
+      {
+        "id": 89579,
+        "position": 33,
+        "content": "reaching for a glass of water or a plate of food,",
+        "defaultInput": "",
+        "jsonContent": [
+          "reaching",
+          "for",
+          "a",
+          "glass",
+          "of",
+          "water",
+          "or",
+          "a",
+          "plate",
+          "of",
+          "food,"
+        ],
+        "solution": [
+          [
+            "reaching"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "glass"
+          ],
+          [
+            "of"
+          ],
+          [
+            "water"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "plate"
+          ],
+          [
+            "of"
+          ],
+          [
+            "food,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/33.mp3",
+        "timeStart": 96.43,
+        "timeEnd": 99.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89579/list"
+      },
+      {
+        "id": 89580,
+        "position": 34,
+        "content": "getting up out of a chair and then turning around once I am standing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "getting",
+          "up",
+          "out",
+          "of",
+          "a",
+          "chair",
+          "and",
+          "then",
+          "turning",
+          "around",
+          "once",
+          [
+            "I am",
+            "I'm"
+          ],
+          "standing."
+        ],
+        "solution": [
+          [
+            "getting"
+          ],
+          [
+            "up"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "chair"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "turning"
+          ],
+          [
+            "around"
+          ],
+          [
+            "once"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "standing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/34.mp3",
+        "timeStart": 99.21,
+        "timeEnd": 103.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89580/list"
+      },
+      {
+        "id": 89581,
+        "position": 35,
+        "content": "That can be a challenge!",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "can",
+          "be",
+          "a",
+          "challenge!"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "challenge!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/35.mp3",
+        "timeStart": 103.2,
+        "timeEnd": 105.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89581/list"
+      },
+      {
+        "id": 89582,
+        "position": 36,
+        "content": "I've learnt a few tricks to help though,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I've",
+          [
+            "learnt",
+            "learned"
+          ],
+          "a",
+          "few",
+          "tricks",
+          "to",
+          "help",
+          "though,"
+        ],
+        "solution": [
+          [
+            "I've"
+          ],
+          [
+            "learnt",
+            "learned"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "tricks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "though,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/36.mp3",
+        "timeStart": 105.03,
+        "timeEnd": 107.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89582/list"
+      },
+      {
+        "id": 89583,
+        "position": 37,
+        "content": "like having a good firm mattress and a high-backed chair with arms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "like",
+          "having",
+          "a",
+          "good",
+          "firm",
+          "mattress",
+          "and",
+          "a",
+          [
+            "high-backed",
+            "high backed"
+          ],
+          "chair",
+          "with",
+          "arms."
+        ],
+        "solution": [
+          [
+            "like"
+          ],
+          [
+            "having"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "firm"
+          ],
+          [
+            "mattress"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "high-backed",
+            "high backed"
+          ],
+          [
+            "chair"
+          ],
+          [
+            "with"
+          ],
+          [
+            "arms."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/37.mp3",
+        "timeStart": 107.19,
+        "timeEnd": 111.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89583/list"
+      },
+      {
+        "id": 89584,
+        "position": 38,
+        "content": "What about activities that need fine movements, how do you manage with those?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "activities",
+          "that",
+          "need",
+          "fine",
+          "movements,",
+          "how",
+          "do",
+          "you",
+          "manage",
+          "with",
+          "those?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "activities"
+          ],
+          [
+            "that"
+          ],
+          [
+            "need"
+          ],
+          [
+            "fine"
+          ],
+          [
+            "movements,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "with"
+          ],
+          [
+            "those?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/38.mp3",
+        "timeStart": 111.49,
+        "timeEnd": 115.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89584/list"
+      },
+      {
+        "id": 89585,
+        "position": 39,
+        "content": "Well, tying my shoelaces is a real problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "tying",
+          "my",
+          "shoelaces",
+          "is",
+          "a",
+          "real",
+          "problem."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "tying"
+          ],
+          [
+            "my"
+          ],
+          [
+            "shoelaces"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "real"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/39.mp3",
+        "timeStart": 116.17,
+        "timeEnd": 119.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89585/list"
+      },
+      {
+        "id": 89586,
+        "position": 40,
+        "content": "And buttons, doing those up is almost impossible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "buttons,",
+          "doing",
+          "those",
+          "up",
+          "is",
+          "almost",
+          "impossible."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "buttons,"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "those"
+          ],
+          [
+            "up"
+          ],
+          [
+            "is"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "impossible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/40.mp3",
+        "timeStart": 119.45,
+        "timeEnd": 123.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89586/list"
+      },
+      {
+        "id": 89587,
+        "position": 41,
+        "content": "I like that material that sticks to itself, it's very handy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "like",
+          "that",
+          "material",
+          "that",
+          "sticks",
+          "to",
+          "itself,",
+          "it's",
+          "very",
+          "handy."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that"
+          ],
+          [
+            "material"
+          ],
+          [
+            "that"
+          ],
+          [
+            "sticks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "itself,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "handy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/41.mp3",
+        "timeStart": 123.16,
+        "timeEnd": 127.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89587/list"
+      },
+      {
+        "id": 89588,
+        "position": 42,
+        "content": "What's it called again?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What's",
+            "What is"
+          ],
+          "it",
+          "called",
+          "again?"
+        ],
+        "solution": [
+          [
+            "What's",
+            "What is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "called"
+          ],
+          [
+            "again?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/42.mp3",
+        "timeStart": 127.05,
+        "timeEnd": 128.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89588/list"
+      },
+      {
+        "id": 89589,
+        "position": 43,
+        "content": "Velcro! That's it.",
+        "defaultInput": "Velcro! ",
+        "jsonContent": [
+          "Velcro!",
+          "That's",
+          "it."
+        ],
+        "solution": [
+          [
+            "Velcro!"
+          ],
+          [
+            "That's"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/43.mp3",
+        "timeStart": 128.37,
+        "timeEnd": 130.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89589/list"
+      },
+      {
+        "id": 89590,
+        "position": 44,
+        "content": "Also, my handwriting is terrible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Also,",
+          "my",
+          "handwriting",
+          "is",
+          "terrible."
+        ],
+        "solution": [
+          [
+            "Also,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "handwriting"
+          ],
+          [
+            "is"
+          ],
+          [
+            "terrible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/44.mp3",
+        "timeStart": 130.19,
+        "timeEnd": 132.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89590/list"
+      },
+      {
+        "id": 89591,
+        "position": 45,
+        "content": "I've basically given up on it.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "basically",
+          "given",
+          "up",
+          "on",
+          "it."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "basically"
+          ],
+          [
+            "given"
+          ],
+          [
+            "up"
+          ],
+          [
+            "on"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/45.mp3",
+        "timeStart": 132.42,
+        "timeEnd": 134.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89591/list"
+      },
+      {
+        "id": 89592,
+        "position": 46,
+        "content": "It sounds like you might benefit from seeing an occupational therapist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "sounds",
+          "like",
+          "you",
+          "might",
+          "benefit",
+          "from",
+          "seeing",
+          "an",
+          "occupational",
+          "therapist."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "might"
+          ],
+          [
+            "benefit"
+          ],
+          [
+            "from"
+          ],
+          [
+            "seeing"
+          ],
+          [
+            "an"
+          ],
+          [
+            "occupational"
+          ],
+          [
+            "therapist."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/46.mp3",
+        "timeStart": 134.71,
+        "timeEnd": 138.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89592/list"
+      },
+      {
+        "id": 89593,
+        "position": 47,
+        "content": "Yes, maybe.",
+        "defaultInput": "Yes, maybe.",
+        "jsonContent": [
+          "Yes,",
+          "maybe."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "maybe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/47.mp3",
+        "timeStart": 138.33,
+        "timeEnd": 139.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89593/list"
+      },
+      {
+        "id": 89594,
+        "position": 48,
+        "content": "I'll have to speak to my GP about a referral.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "have",
+          "to",
+          "speak",
+          "to",
+          "my",
+          "GP",
+          "about",
+          "a",
+          "referral."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "speak"
+          ],
+          [
+            "to"
+          ],
+          [
+            "my"
+          ],
+          [
+            "GP"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "referral."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/48.mp3",
+        "timeStart": 139.55,
+        "timeEnd": 142.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89594/list"
+      },
+      {
+        "id": 89595,
+        "position": 49,
+        "content": "One of the other main problems I've had during the past 12 months has been the cramps I get at night,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "of",
+          "the",
+          "other",
+          "main",
+          "problems",
+          [
+            "I've",
+            "I have"
+          ],
+          "had",
+          "during",
+          "the",
+          "past",
+          [
+            "12",
+            "twelve"
+          ],
+          "months",
+          "has",
+          "been",
+          "the",
+          "cramps",
+          "I",
+          "get",
+          "at",
+          "night,"
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "main"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past"
+          ],
+          [
+            "12",
+            "twelve"
+          ],
+          [
+            "months"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cramps"
+          ],
+          [
+            "I"
+          ],
+          [
+            "get"
+          ],
+          [
+            "at"
+          ],
+          [
+            "night,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/49.mp3",
+        "timeStart": 142.64,
+        "timeEnd": 147.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89595/list"
+      },
+      {
+        "id": 89596,
+        "position": 50,
+        "content": "they really ruin my sleep.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "really",
+          "ruin",
+          "my",
+          "sleep."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "really"
+          ],
+          [
+            "ruin"
+          ],
+          [
+            "my"
+          ],
+          [
+            "sleep."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/50.mp3",
+        "timeStart": 147.95,
+        "timeEnd": 149.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89596/list"
+      },
+      {
+        "id": 89597,
+        "position": 51,
+        "content": "I understand your medication has been changed recently.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "understand",
+          "your",
+          "medication",
+          "has",
+          "been",
+          "changed",
+          "recently."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "your"
+          ],
+          [
+            "medication"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "changed"
+          ],
+          [
+            "recently."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/51.mp3",
+        "timeStart": 150.15,
+        "timeEnd": 152.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89597/list"
+      },
+      {
+        "id": 89598,
+        "position": 52,
+        "content": "Yes, that's right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that's",
+          "right."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/52.mp3",
+        "timeStart": 152.98,
+        "timeEnd": 154.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89598/list"
+      },
+      {
+        "id": 89599,
+        "position": 53,
+        "content": "I said to the doctor they'd gone on far too long,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "said",
+          "to",
+          "the",
+          "doctor",
+          "they'd",
+          "gone",
+          "on",
+          "far",
+          "too",
+          "long,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "said"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "they'd"
+          ],
+          [
+            "gone"
+          ],
+          [
+            "on"
+          ],
+          [
+            "far"
+          ],
+          [
+            "too"
+          ],
+          [
+            "long,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/53.mp3",
+        "timeStart": 154.33,
+        "timeEnd": 157.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89599/list"
+      },
+      {
+        "id": 89600,
+        "position": 54,
+        "content": "so she said I should try some different tablets.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "she",
+          "said",
+          "I",
+          "should",
+          "try",
+          "some",
+          "different",
+          "tablets."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "she"
+          ],
+          [
+            "said"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "try"
+          ],
+          [
+            "some"
+          ],
+          [
+            "different"
+          ],
+          [
+            "tablets."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/54.mp3",
+        "timeStart": 157.31,
+        "timeEnd": 159.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89600/list"
+      },
+      {
+        "id": 89601,
+        "position": 55,
+        "content": "I've only been on them for a month or so,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "only",
+          "been",
+          "on",
+          "them",
+          "for",
+          "a",
+          "month",
+          "or",
+          "so,"
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "only"
+          ],
+          [
+            "been"
+          ],
+          [
+            "on"
+          ],
+          [
+            "them"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month"
+          ],
+          [
+            "or"
+          ],
+          [
+            "so,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/55.mp3",
+        "timeStart": 159.81,
+        "timeEnd": 161.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89601/list"
+      },
+      {
+        "id": 89602,
+        "position": 56,
+        "content": "but I think they've really reduced...",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "think",
+          [
+            "they've",
+            "they have"
+          ],
+          "really",
+          "reduced..."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "they've",
+            "they have"
+          ],
+          [
+            "really"
+          ],
+          [
+            "reduced..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-a-extract-2-2025-08-29-20-55-43/56.mp3",
+        "timeStart": 161.97,
+        "timeEnd": 164.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89602/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "89547": {
+      "id": 3684765,
+      "text": "Chào ông McDonald.",
+      "author": "ChatGPT4.1"
+    },
+    "89548": {
+      "id": 3684766,
+      "text": "Tôi hiểu ông đến đây để cắt bỏ một khối u trên lưng,",
+      "author": "ChatGPT4.1"
+    },
+    "89549": {
+      "id": 3684767,
+      "text": "và dự định là sẽ cho ông về nhà trong ngày hôm nay.",
+      "author": "ChatGPT4.1"
+    },
+    "89550": {
+      "id": 3684768,
+      "text": "Vâng, đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "89551": {
+      "id": 3684769,
+      "text": "Khối u này thực sự cần phải được loại bỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "89552": {
+      "id": 3684770,
+      "text": "Nó không chỉ hơi khó chịu mà còn có thể khá đau nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "89553": {
+      "id": 3684771,
+      "text": "Nó nằm gần thắt lưng và vướng vào cạp quần của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "89554": {
+      "id": 3684772,
+      "text": "Tôi không quá lo lắng về ca phẫu thuật,",
+      "author": "ChatGPT4.1"
+    },
+    "89555": {
+      "id": 3684773,
+      "text": "họ đã giải thích mọi thứ cho tôi rất rõ ràng khi tôi ở phòng khám đánh giá.",
+      "author": "ChatGPT4.1"
+    },
+    "89556": {
+      "id": 3684774,
+      "text": "Nhưng tôi lo lắng về việc tôi sẽ thế nào sau này khi tôi hồi phục.",
+      "author": "ChatGPT4.1"
+    },
+    "89557": {
+      "id": 3684775,
+      "text": "Họ có nói với bác sĩ là tôi bị bệnh Parkinson không?",
+      "author": "ChatGPT4.1"
+    },
+    "89558": {
+      "id": 3684776,
+      "text": "Vâng, có ghi trong hồ sơ từ phòng khám,",
+      "author": "ChatGPT4.1"
+    },
+    "89559": {
+      "id": 3684777,
+      "text": "nhưng không nói rõ ông bị bao lâu rồi hoặc bệnh ảnh hưởng như thế nào đến ông.",
+      "author": "ChatGPT4.1"
+    },
+    "89560": {
+      "id": 3684778,
+      "text": "Ồ, tôi bị bệnh này vài năm rồi, khoảng năm năm, tôi nghĩ vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "89561": {
+      "id": 3684779,
+      "text": "Đi lại là tệ nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "89562": {
+      "id": 3684780,
+      "text": "Bắt đầu di chuyển rất khó, và tôi đi cực kỳ chậm.",
+      "author": "ChatGPT4.1"
+    },
+    "89563": {
+      "id": 3684781,
+      "text": "Tôi chỉ có thể kéo lê chân lúc đầu, rồi bước đi dần ngắn lại nhưng lại nhanh hơn và nhanh hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "89564": {
+      "id": 3684782,
+      "text": "Đôi khi tôi còn bị ngã nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "89565": {
+      "id": 3684783,
+      "text": "Vâng, tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "89566": {
+      "id": 3684784,
+      "text": "Tôi cũng đôi khi bị triệu chứng cứng người đó.",
+      "author": "ChatGPT4.1"
+    },
+    "89567": {
+      "id": 3684785,
+      "text": "Ông biết đấy, lúc bị kẹt một chỗ...",
+      "author": "ChatGPT4.1"
+    },
+    "89568": {
+      "id": 3684786,
+      "text": "akin... gì đó, tôi nghĩ họ gọi là...",
+      "author": "ChatGPT4.1"
+    },
+    "89569": {
+      "id": 3684787,
+      "text": "Chứng bất động.",
+      "author": "ChatGPT4.1"
+    },
+    "89570": {
+      "id": 3684788,
+      "text": "Vâng, có lẽ vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "89571": {
+      "id": 3684789,
+      "text": "Bác sĩ biết rõ hơn tôi mà!",
+      "author": "ChatGPT4.1"
+    },
+    "89572": {
+      "id": 3684790,
+      "text": "Dù sao thì, triệu chứng đó hay xuất hiện lúc tôi không ngờ tới nhất,",
+      "author": "ChatGPT4.1"
+    },
+    "89573": {
+      "id": 3684791,
+      "text": "và luôn luôn vào lúc tệ nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "89574": {
+      "id": 3684792,
+      "text": "Tôi nhận ra rằng nếu tôi cố làm nhiều việc cùng lúc, triệu chứng gần như luôn xuất hiện.",
+      "author": "ChatGPT4.1"
+    },
+    "89575": {
+      "id": 3684793,
+      "text": "Tôi cũng bị run tay rất nhiều,",
+      "author": "ChatGPT4.1"
+    },
+    "89576": {
+      "id": 3684794,
+      "text": "và thật khó làm một số việc vì cánh tay tôi quá cứng.",
+      "author": "ChatGPT4.1"
+    },
+    "89577": {
+      "id": 3684795,
+      "text": "Những hoạt động nào là khó khăn nhất đối với anh?",
+      "author": "ChatGPT4.1"
+    },
+    "89578": {
+      "id": 3684796,
+      "text": "Nghe có vẻ lạ lùng, nhưng chủ yếu là những việc như trở mình trên giường,",
+      "author": "ChatGPT4.1"
+    },
+    "89579": {
+      "id": 3684797,
+      "text": "với lấy ly nước hoặc dĩa thức ăn,",
+      "author": "ChatGPT4.1"
+    },
+    "89580": {
+      "id": 3684798,
+      "text": "đứng dậy khỏi ghế và quay người lại khi tôi đã đứng lên.",
+      "author": "ChatGPT4.1"
+    },
+    "89581": {
+      "id": 3684799,
+      "text": "Đó thật sự là một thử thách!",
+      "author": "ChatGPT4.1"
+    },
+    "89582": {
+      "id": 3684800,
+      "text": "Nhưng tôi cũng đã học được vài mẹo để giúp mình,",
+      "author": "ChatGPT4.1"
+    },
+    "89583": {
+      "id": 3684801,
+      "text": "như dùng nệm chắc chắn và ghế tựa lưng cao có tay vịn.",
+      "author": "ChatGPT4.1"
+    },
+    "89584": {
+      "id": 3684802,
+      "text": "Còn những việc cần vận động tinh, anh xoay sở như thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "89585": {
+      "id": 3684803,
+      "text": "Buộc dây giày thực sự là một vấn đề với tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "89586": {
+      "id": 3684804,
+      "text": "Và cài nút áo, việc đó gần như không thể với tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "89587": {
+      "id": 3684805,
+      "text": "Tôi thích loại chất liệu tự dính lấy nhau, nó rất tiện lợi.",
+      "author": "ChatGPT4.1"
+    },
+    "89588": {
+      "id": 3684806,
+      "text": "Nó gọi là gì nhỉ?",
+      "author": "ChatGPT4.1"
+    },
+    "89589": {
+      "id": 3684807,
+      "text": "Velcro! Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "89590": {
+      "id": 3684808,
+      "text": "Ngoài ra, chữ viết tay của tôi rất xấu.",
+      "author": "ChatGPT4.1"
+    },
+    "89591": {
+      "id": 3684809,
+      "text": "Tôi gần như đã bỏ luôn việc đó rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "89592": {
+      "id": 3684810,
+      "text": "Nghe có vẻ bạn sẽ được lợi nếu gặp chuyên gia trị liệu nghề nghiệp.",
+      "author": "ChatGPT4.1"
+    },
+    "89593": {
+      "id": 3684811,
+      "text": "Vâng, có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "89594": {
+      "id": 3684812,
+      "text": "Tôi sẽ phải nói chuyện với bác sĩ gia đình về việc giới thiệu chuyên gia.",
+      "author": "ChatGPT4.1"
+    },
+    "89595": {
+      "id": 3684813,
+      "text": "Một trong những vấn đề chính khác mà tôi gặp phải trong 12 tháng qua là các cơn chuột rút vào ban đêm,",
+      "author": "ChatGPT4.1"
+    },
+    "89596": {
+      "id": 3684814,
+      "text": "chúng thực sự phá hỏng giấc ngủ của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "89597": {
+      "id": 3684815,
+      "text": "Tôi được biết là thuốc của bạn đã được thay đổi gần đây.",
+      "author": "ChatGPT4.1"
+    },
+    "89598": {
+      "id": 3684816,
+      "text": "Vâng, đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "89599": {
+      "id": 3684817,
+      "text": "Tôi đã nói với bác sĩ là tình trạng đó kéo dài quá lâu,",
+      "author": "ChatGPT4.1"
+    },
+    "89600": {
+      "id": 3684818,
+      "text": "nên bác sĩ bảo tôi nên thử một loại thuốc khác.",
+      "author": "ChatGPT4.1"
+    },
+    "89601": {
+      "id": 3684819,
+      "text": "Tôi mới dùng loại thuốc này khoảng một tháng thôi,",
+      "author": "ChatGPT4.1"
+    },
+    "89602": {
+      "id": 3684820,
+      "text": "nhưng tôi nghĩ chúng đã thực sự làm giảm...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

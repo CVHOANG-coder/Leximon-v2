@@ -1,0 +1,903 @@
+{
+  "summary": {
+    "id": 1160,
+    "name": "Conversation 62",
+    "subTitle": "Blender Return Request",
+    "levelName": "B1",
+    "position": 194,
+    "totalChallenges": 16,
+    "groupId": 37,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1160",
+  "detail": {
+    "id": 1160,
+    "lessonName": "Conversation 62",
+    "name": "Conversation 62",
+    "position": 194,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/0-conversation-62.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54332,
+        "position": 1,
+        "content": "Hello, Mr. Scofield?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "Mr.",
+          "Scofield?"
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Scofield?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/1.mp3",
+        "timeStart": 0.33,
+        "timeEnd": 2.41,
+        "hints": [
+          "Scofield"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54332/list"
+      },
+      {
+        "id": 54333,
+        "position": 2,
+        "content": "I'm Robin Aldrin with the support team,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "Robin",
+          "Aldrin",
+          "with",
+          "the",
+          "support",
+          "team,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Robin"
+          ],
+          [
+            "Aldrin"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "support"
+          ],
+          [
+            "team,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/2.mp3",
+        "timeStart": 2.41,
+        "timeEnd": 4.89,
+        "hints": [
+          "Robin Aldrin"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54333/list"
+      },
+      {
+        "id": 54334,
+        "position": 3,
+        "content": "and I was informed that you were having an issue.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "was",
+          "informed",
+          "that",
+          "you",
+          "were",
+          "having",
+          "an",
+          "issue."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "informed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "were"
+          ],
+          [
+            "having"
+          ],
+          [
+            "an"
+          ],
+          [
+            "issue."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/3.mp3",
+        "timeStart": 4.89,
+        "timeEnd": 7.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54334/list"
+      },
+      {
+        "id": 54335,
+        "position": 4,
+        "content": "How can I help?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "can",
+          "I",
+          "help?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/4.mp3",
+        "timeStart": 7.46,
+        "timeEnd": 8.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54335/list"
+      },
+      {
+        "id": 54336,
+        "position": 5,
+        "content": "I was hoping I could return this blender.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "was",
+          "hoping",
+          "I",
+          "could",
+          "return",
+          "this",
+          "blender."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "hoping"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "return"
+          ],
+          [
+            "this"
+          ],
+          [
+            "blender."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/5.mp3",
+        "timeStart": 8.58,
+        "timeEnd": 10.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54336/list"
+      },
+      {
+        "id": 54337,
+        "position": 6,
+        "content": "But I was told by a customer service agent that I was not eligible for the refund",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "I",
+          "was",
+          "told",
+          "by",
+          "a",
+          "customer",
+          "service",
+          "agent",
+          "that",
+          "I",
+          [
+            "was not",
+            "wasn't"
+          ],
+          "eligible",
+          "for",
+          "the",
+          "refund"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "told"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "customer"
+          ],
+          [
+            "service"
+          ],
+          [
+            "agent"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was not",
+            "wasn't"
+          ],
+          [
+            "eligible"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "refund"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/6.mp3",
+        "timeStart": 10.94,
+        "timeEnd": 15.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54337/list"
+      },
+      {
+        "id": 54338,
+        "position": 7,
+        "content": "because I had lost the original receipt.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          [
+            "I had",
+            "I'd"
+          ],
+          "lost",
+          "the",
+          "original",
+          "receipt."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "lost"
+          ],
+          [
+            "the"
+          ],
+          [
+            "original"
+          ],
+          [
+            "receipt."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/7.mp3",
+        "timeStart": 15.43,
+        "timeEnd": 17.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54338/list"
+      },
+      {
+        "id": 54339,
+        "position": 8,
+        "content": "First of all, I want to apologize for the experience you've had.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First",
+            "1st"
+          ],
+          "of",
+          "all,",
+          "I",
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "apologize",
+            "apologise"
+          ],
+          "for",
+          "the",
+          "experience",
+          [
+            "you've",
+            "You have"
+          ],
+          "had."
+        ],
+        "solution": [
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "apologize",
+            "apologise"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "had."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/8.mp3",
+        "timeStart": 17.81,
+        "timeEnd": 21.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54339/list"
+      },
+      {
+        "id": 54340,
+        "position": 9,
+        "content": "Did you pay with a debit or a credit card by any chance?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "pay",
+          "with",
+          "a",
+          "debit",
+          "or",
+          "a",
+          "credit",
+          "card",
+          "by",
+          "any",
+          "chance?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "pay"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "debit"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "credit"
+          ],
+          [
+            "card"
+          ],
+          [
+            "by"
+          ],
+          [
+            "any"
+          ],
+          [
+            "chance?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/9.mp3",
+        "timeStart": 21.68,
+        "timeEnd": 25.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54340/list"
+      },
+      {
+        "id": 54341,
+        "position": 10,
+        "content": "Yes, I paid with a Visa credit card.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "paid",
+          "with",
+          "a",
+          "Visa",
+          "credit",
+          "card."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "paid"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "Visa"
+          ],
+          [
+            "credit"
+          ],
+          [
+            "card."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/10.mp3",
+        "timeStart": 25.07,
+        "timeEnd": 27.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54341/list"
+      },
+      {
+        "id": 54342,
+        "position": 11,
+        "content": "In that case, I'll be able to scan your card to verify the purchase.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "that",
+          "case,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "able",
+          "to",
+          "scan",
+          "your",
+          "card",
+          "to",
+          "verify",
+          "the",
+          "purchase."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "that"
+          ],
+          [
+            "case,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "scan"
+          ],
+          [
+            "your"
+          ],
+          [
+            "card"
+          ],
+          [
+            "to"
+          ],
+          [
+            "verify"
+          ],
+          [
+            "the"
+          ],
+          [
+            "purchase."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/11.mp3",
+        "timeStart": 27.58,
+        "timeEnd": 31.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54342/list"
+      },
+      {
+        "id": 54343,
+        "position": 12,
+        "content": "Phew... That's a relief.",
+        "defaultInput": "Phew… ",
+        "jsonContent": [
+          "Phew...",
+          [
+            "That's",
+            "that is"
+          ],
+          "a",
+          "relief."
+        ],
+        "solution": [
+          [
+            "Phew..."
+          ],
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "relief."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/12.mp3",
+        "timeStart": 31.85,
+        "timeEnd": 33.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54343/list"
+      },
+      {
+        "id": 54344,
+        "position": 13,
+        "content": "Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/13.mp3",
+        "timeStart": 33.84,
+        "timeEnd": 34.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54344/list"
+      },
+      {
+        "id": 54345,
+        "position": 14,
+        "content": "No problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "problem."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/14.mp3",
+        "timeStart": 34.53,
+        "timeEnd": 35.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54345/list"
+      },
+      {
+        "id": 54346,
+        "position": 15,
+        "content": "Please have a seat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "have",
+          "a",
+          "seat."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "seat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/15.mp3",
+        "timeStart": 35.68,
+        "timeEnd": 36.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54346/list"
+      },
+      {
+        "id": 54347,
+        "position": 16,
+        "content": "It'll take just a few minutes for me to sort things out.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It'll",
+            "it will"
+          ],
+          "take",
+          "just",
+          "a",
+          "few",
+          "minutes",
+          "for",
+          "me",
+          "to",
+          "sort",
+          "things",
+          "out."
+        ],
+        "solution": [
+          [
+            "It'll",
+            "it will"
+          ],
+          [
+            "take"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "minutes"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "things"
+          ],
+          [
+            "out."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-62-2023-09-23-21-39-08/16.mp3",
+        "timeStart": 36.96,
+        "timeEnd": 40.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54347/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54332": {
+      "id": 2609068,
+      "text": "Xin chào, ông Scofield?",
+      "author": "ChatGPT4.1"
+    },
+    "54333": {
+      "id": 2609069,
+      "text": "Tôi là Robin Aldrin từ nhóm hỗ trợ,",
+      "author": "ChatGPT4.1"
+    },
+    "54334": {
+      "id": 2609070,
+      "text": "và tôi đã được thông báo rằng ông đang gặp sự cố.",
+      "author": "ChatGPT4.1"
+    },
+    "54335": {
+      "id": 2609071,
+      "text": "Tôi có thể giúp gì cho ông?",
+      "author": "ChatGPT4.1"
+    },
+    "54336": {
+      "id": 2609072,
+      "text": "Tôi hy vọng tôi có thể trả lại cái máy xay sinh tố này.",
+      "author": "ChatGPT4.1"
+    },
+    "54337": {
+      "id": 2609073,
+      "text": "Nhưng một nhân viên dịch vụ khách hàng nói với tôi rằng tôi không đủ điều kiện để hoàn tiền",
+      "author": "ChatGPT4.1"
+    },
+    "54338": {
+      "id": 2609074,
+      "text": "vì tôi đã làm mất hóa đơn gốc.",
+      "author": "ChatGPT4.1"
+    },
+    "54339": {
+      "id": 2609075,
+      "text": "Trước hết, tôi muốn xin lỗi về trải nghiệm mà ông đã gặp phải.",
+      "author": "ChatGPT4.1"
+    },
+    "54340": {
+      "id": 2609076,
+      "text": "Không biết anh có thanh toán bằng thẻ ghi nợ hoặc thẻ tín dụng không?",
+      "author": "a user"
+    },
+    "54341": {
+      "id": 2609077,
+      "text": "Vâng, tôi đã thanh toán bằng thẻ tín dụng Visa.",
+      "author": "ChatGPT4.1"
+    },
+    "54342": {
+      "id": 2609078,
+      "text": "Trong trường hợp đó, tôi có thể quét thẻ của ông để xác minh giao dịch mua hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "54343": {
+      "id": 2609079,
+      "text": "Phù... Thật nhẹ nhõm.",
+      "author": "ChatGPT4.1"
+    },
+    "54344": {
+      "id": 2609080,
+      "text": "Cảm ơn.",
+      "author": "ChatGPT4.1"
+    },
+    "54345": {
+      "id": 2609081,
+      "text": "Không có gì.",
+      "author": "ChatGPT4.1"
+    },
+    "54346": {
+      "id": 2609082,
+      "text": "Xin mời ông ngồi.",
+      "author": "ChatGPT4.1"
+    },
+    "54347": {
+      "id": 2609083,
+      "text": "Chỉ mất vài phút để tôi giải quyết mọi việc.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

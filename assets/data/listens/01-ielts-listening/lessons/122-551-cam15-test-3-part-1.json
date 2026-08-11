@@ -1,0 +1,5083 @@
+{
+  "summary": {
+    "id": 551,
+    "name": "Cam15 - Test 3 - Part 1",
+    "subTitle": "Job Interview Discussion",
+    "levelName": "B1",
+    "position": 122,
+    "totalChallenges": 98,
+    "groupId": 58,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/551",
+  "detail": {
+    "id": 551,
+    "lessonName": "Cam15 - Test 3 - Part 1",
+    "name": "Cam15 - Test 3 - Part 1",
+    "position": 122,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/0-ielts-cambridge-15-test-3-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 22983,
+        "position": 1,
+        "content": "Good morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22983/list"
+      },
+      {
+        "id": 22984,
+        "position": 2,
+        "content": "Thanks for coming in to see us here at the agency, Joe.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "for",
+          "coming",
+          "in",
+          "to",
+          "see",
+          "us",
+          "here",
+          "at",
+          "the",
+          "agency,",
+          "Joe."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "in"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "us"
+          ],
+          [
+            "here"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "agency,"
+          ],
+          [
+            "Joe."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/2.mp3",
+        "timeStart": 1.28,
+        "timeEnd": 4.51,
+        "hints": [
+          "Joe"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22984/list"
+      },
+      {
+        "id": 22985,
+        "position": 3,
+        "content": "I'm one of the agency representatives, and my name's Sally Baker.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'm",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "agency",
+          "representatives,",
+          "and",
+          "my",
+          [
+            "name's",
+            "name is"
+          ],
+          "Sally",
+          "Baker."
+        ],
+        "solution": [
+          [
+            "I'm"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "agency"
+          ],
+          [
+            "representatives,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "my"
+          ],
+          [
+            "name's",
+            "name is"
+          ],
+          [
+            "Sally"
+          ],
+          [
+            "Baker."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/3.mp3",
+        "timeStart": 4.58,
+        "timeEnd": 8.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22985/list"
+      },
+      {
+        "id": 22986,
+        "position": 4,
+        "content": "Hi Sally. I think we spoke on the phone, didn't we?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi",
+          "Sally.",
+          "I",
+          "think",
+          "we",
+          "spoke",
+          "on",
+          "the",
+          "phone,",
+          [
+            "didn't",
+            "did not"
+          ],
+          "we?"
+        ],
+        "solution": [
+          [
+            "Hi"
+          ],
+          [
+            "Sally."
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "spoke"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone,"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "we?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/4.mp3",
+        "timeStart": 8.91,
+        "timeEnd": 11.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22986/list"
+      },
+      {
+        "id": 22987,
+        "position": 5,
+        "content": "That's right, we did.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right,",
+          "we",
+          "did."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "did."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/5.mp3",
+        "timeStart": 11.81,
+        "timeEnd": 13.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22987/list"
+      },
+      {
+        "id": 22988,
+        "position": 6,
+        "content": "So thank you for sending in your CV.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "thank",
+          "you",
+          "for",
+          "sending",
+          "in",
+          "your",
+          "CV."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "sending"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "CV."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/6.mp3",
+        "timeStart": 13.31,
+        "timeEnd": 16.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22988/list"
+      },
+      {
+        "id": 22989,
+        "position": 7,
+        "content": "We've had quite a careful look at it",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "we have"
+          ],
+          "had",
+          "quite",
+          "a",
+          "careful",
+          "look",
+          "at",
+          "it"
+        ],
+        "solution": [
+          [
+            "We've",
+            "we have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "careful"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "it"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/7.mp3",
+        "timeStart": 16.29,
+        "timeEnd": 18.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22989/list"
+      },
+      {
+        "id": 22990,
+        "position": 8,
+        "content": "and I think we have two jobs that might be suitable for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "think",
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          "jobs",
+          "that",
+          "might",
+          "be",
+          "suitable",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "jobs"
+          ],
+          [
+            "that"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "suitable"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/8.mp3",
+        "timeStart": 18.55,
+        "timeEnd": 22.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22990/list"
+      },
+      {
+        "id": 22991,
+        "position": 9,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/9.mp3",
+        "timeStart": 22.22,
+        "timeEnd": 23.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22991/list"
+      },
+      {
+        "id": 22992,
+        "position": 10,
+        "content": "The first one is in a company based in North London.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          "is",
+          "in",
+          "a",
+          [
+            "company",
+            "Co"
+          ],
+          "based",
+          "in",
+          "North",
+          "London."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "based"
+          ],
+          [
+            "in"
+          ],
+          [
+            "North"
+          ],
+          [
+            "London."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/10.mp3",
+        "timeStart": 23.15,
+        "timeEnd": 26.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22992/list"
+      },
+      {
+        "id": 22993,
+        "position": 11,
+        "content": "They're looking for an administrative assistant.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "looking",
+          "for",
+          "an",
+          "administrative",
+          "assistant."
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "administrative"
+          ],
+          [
+            "assistant."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/11.mp3",
+        "timeStart": 26.85,
+        "timeEnd": 29.43,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/22993/list"
+      },
+      {
+        "id": 22994,
+        "position": 12,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/12.mp3",
+        "timeStart": 29.49,
+        "timeEnd": 30.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22994/list"
+      },
+      {
+        "id": 22995,
+        "position": 13,
+        "content": "What sort of company is it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "sort",
+          "of",
+          [
+            "company",
+            "Co"
+          ],
+          "is",
+          "it?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "is"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/13.mp3",
+        "timeStart": 30.33,
+        "timeEnd": 32.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22995/list"
+      },
+      {
+        "id": 22996,
+        "position": 14,
+        "content": "They're called Home Solutions",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "they are"
+          ],
+          "called",
+          "Home",
+          "Solutions"
+        ],
+        "solution": [
+          [
+            "They're",
+            "they are"
+          ],
+          [
+            "called"
+          ],
+          [
+            "Home"
+          ],
+          [
+            "Solutions"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/14.mp3",
+        "timeStart": 32.47,
+        "timeEnd": 34.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22996/list"
+      },
+      {
+        "id": 22997,
+        "position": 15,
+        "content": "and they design and make furniture.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "they",
+          "design",
+          "and",
+          "make",
+          "furniture."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "design"
+          ],
+          [
+            "and"
+          ],
+          [
+            "make"
+          ],
+          [
+            "furniture."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/15.mp3",
+        "timeStart": 34.87,
+        "timeEnd": 37.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22997/list"
+      },
+      {
+        "id": 22998,
+        "position": 16,
+        "content": "Oh, I don't know much about that,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "know",
+          "much",
+          "about",
+          "that,"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "much"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/16.mp3",
+        "timeStart": 37.68,
+        "timeEnd": 40.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22998/list"
+      },
+      {
+        "id": 22999,
+        "position": 17,
+        "content": "but it sounds interesting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "it",
+          "sounds",
+          "interesting."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "interesting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/17.mp3",
+        "timeStart": 40.51,
+        "timeEnd": 42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/22999/list"
+      },
+      {
+        "id": 23000,
+        "position": 18,
+        "content": "Yes, well as I said, they want someone in their office,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "well",
+          "as",
+          "I",
+          "said,",
+          "they",
+          "want",
+          "someone",
+          "in",
+          "their",
+          "office,"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "I"
+          ],
+          [
+            "said,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "in"
+          ],
+          [
+            "their"
+          ],
+          [
+            "office,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/18.mp3",
+        "timeStart": 42.14,
+        "timeEnd": 45.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23000/list"
+      },
+      {
+        "id": 23001,
+        "position": 19,
+        "content": "and looking at your past experience",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "looking",
+          "at",
+          "your",
+          "past",
+          "experience"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "your"
+          ],
+          [
+            "past"
+          ],
+          [
+            "experience"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/19.mp3",
+        "timeStart": 45.36,
+        "timeEnd": 47.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23001/list"
+      },
+      {
+        "id": 23002,
+        "position": 20,
+        "content": "it does look as if you fit quite a few of the requirements.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "does",
+          "look",
+          "as",
+          "if",
+          "you",
+          "fit",
+          "quite",
+          "a",
+          "few",
+          "of",
+          "the",
+          "requirements."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "does"
+          ],
+          [
+            "look"
+          ],
+          [
+            "as"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "fit"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "requirements."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/20.mp3",
+        "timeStart": 47.73,
+        "timeEnd": 51.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23002/list"
+      },
+      {
+        "id": 23003,
+        "position": 21,
+        "content": "So on your CV it appears you've done some data entry?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "on",
+          "your",
+          "CV",
+          "it",
+          "appears",
+          [
+            "you've",
+            "You have"
+          ],
+          "done",
+          "some",
+          "data",
+          "entry?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "CV"
+          ],
+          [
+            "it"
+          ],
+          [
+            "appears"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "done"
+          ],
+          [
+            "some"
+          ],
+          [
+            "data"
+          ],
+          [
+            "entry?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/21.mp3",
+        "timeStart": 51.31,
+        "timeEnd": 55.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23003/list"
+      },
+      {
+        "id": 23004,
+        "position": 22,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/22.mp3",
+        "timeStart": 55.57,
+        "timeEnd": 56.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23004/list"
+      },
+      {
+        "id": 23005,
+        "position": 23,
+        "content": "So that's one skill they want.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "that's",
+          [
+            "one",
+            "1"
+          ],
+          "skill",
+          "they",
+          "want."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "skill"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/23.mp3",
+        "timeStart": 56.55,
+        "timeEnd": 58.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23005/list"
+      },
+      {
+        "id": 23006,
+        "position": 24,
+        "content": "Then they expect the person they appoint to attend meetings and take notes there...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "they",
+          "expect",
+          "the",
+          "person",
+          "they",
+          "appoint",
+          "to",
+          "attend",
+          "meetings",
+          "and",
+          "take",
+          "notes",
+          "there..."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "they"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "the"
+          ],
+          [
+            "person"
+          ],
+          [
+            "they"
+          ],
+          [
+            "appoint"
+          ],
+          [
+            "to"
+          ],
+          [
+            "attend"
+          ],
+          [
+            "meetings"
+          ],
+          [
+            "and"
+          ],
+          [
+            "take"
+          ],
+          [
+            "notes"
+          ],
+          [
+            "there..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/24.mp3",
+        "timeStart": 58.51,
+        "timeEnd": 63.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23006/list"
+      },
+      {
+        "id": 23007,
+        "position": 25,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/25.mp3",
+        "timeStart": 63.73,
+        "timeEnd": 64.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23007/list"
+      },
+      {
+        "id": 23008,
+        "position": 26,
+        "content": "I've done that before, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "done",
+          "that",
+          "before,",
+          "yes."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "done"
+          ],
+          [
+            "that"
+          ],
+          [
+            "before,"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/26.mp3",
+        "timeStart": 64.7,
+        "timeEnd": 66.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23008/list"
+      },
+      {
+        "id": 23009,
+        "position": 27,
+        "content": "And you'd need to be able to cope with general admin.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "you'd",
+          "need",
+          "to",
+          "be",
+          "able",
+          "to",
+          "cope",
+          "with",
+          "general",
+          "admin."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cope"
+          ],
+          [
+            "with"
+          ],
+          [
+            "general"
+          ],
+          [
+            "admin."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/27.mp3",
+        "timeStart": 66.55,
+        "timeEnd": 69.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23009/list"
+      },
+      {
+        "id": 23010,
+        "position": 28,
+        "content": "Filing, and keeping records and so on?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Filing,",
+          "and",
+          "keeping",
+          "records",
+          "and",
+          "so",
+          "on?"
+        ],
+        "solution": [
+          [
+            "Filing,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "keeping"
+          ],
+          [
+            "records"
+          ],
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "on?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/28.mp3",
+        "timeStart": 69.86,
+        "timeEnd": 72.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23010/list"
+      },
+      {
+        "id": 23011,
+        "position": 29,
+        "content": "That should be OK.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "should",
+          "be",
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/29-2023-07-28-22-13-58.mp3",
+        "timeStart": 72.65,
+        "timeEnd": 73.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23011/list"
+      },
+      {
+        "id": 23012,
+        "position": 30,
+        "content": "And in my last job I also had to manage the diary.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "in",
+          "my",
+          "last",
+          "job",
+          "I",
+          "also",
+          "had",
+          "to",
+          "manage",
+          "the",
+          "diary."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "last"
+          ],
+          [
+            "job"
+          ],
+          [
+            "I"
+          ],
+          [
+            "also"
+          ],
+          [
+            "had"
+          ],
+          [
+            "to"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "the"
+          ],
+          [
+            "diary."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/30.mp3",
+        "timeStart": 74.14,
+        "timeEnd": 77.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23012/list"
+      },
+      {
+        "id": 23013,
+        "position": 31,
+        "content": "Excellent.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Excellent."
+        ],
+        "solution": [
+          [
+            "Excellent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/31.mp3",
+        "timeStart": 77.65,
+        "timeEnd": 78.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23013/list"
+      },
+      {
+        "id": 23014,
+        "position": 32,
+        "content": "That's something they want here too.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "something",
+          "they",
+          "want",
+          "here",
+          "too."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "something"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "here"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/32.mp3",
+        "timeStart": 78.82,
+        "timeEnd": 80.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23014/list"
+      },
+      {
+        "id": 23015,
+        "position": 33,
+        "content": "I'd suggest you add it to your CV.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "suggest",
+          "you",
+          "add",
+          "it",
+          "to",
+          "your",
+          "CV."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "suggest"
+          ],
+          [
+            "you"
+          ],
+          [
+            "add"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "CV."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/33.mp3",
+        "timeStart": 81.19,
+        "timeEnd": 83.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23015/list"
+      },
+      {
+        "id": 23016,
+        "position": 34,
+        "content": "I don't think you mentioned that, did you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "you",
+          "mentioned",
+          "that,",
+          "did",
+          "you?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "you"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/34.mp3",
+        "timeStart": 83.61,
+        "timeEnd": 85.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23016/list"
+      },
+      {
+        "id": 23017,
+        "position": 35,
+        "content": "No.",
+        "defaultInput": "No.",
+        "jsonContent": [
+          "No."
+        ],
+        "solution": [
+          [
+            "No."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/35.mp3",
+        "timeStart": 85.65,
+        "timeEnd": 86.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23017/list"
+      },
+      {
+        "id": 23018,
+        "position": 36,
+        "content": "So as far as the requirements go, they want good computer skills, of course,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "as",
+          "far",
+          "as",
+          "the",
+          "requirements",
+          "go,",
+          "they",
+          "want",
+          "good",
+          "computer",
+          "skills,",
+          "of",
+          "course,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "as"
+          ],
+          [
+            "far"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "requirements"
+          ],
+          [
+            "go,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "good"
+          ],
+          [
+            "computer"
+          ],
+          [
+            "skills,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/36.mp3",
+        "timeStart": 86.67,
+        "timeEnd": 91.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23018/list"
+      },
+      {
+        "id": 23019,
+        "position": 37,
+        "content": "and they particularly mention spreadsheets.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "they",
+          "particularly",
+          "mention",
+          "spreadsheets."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "spreadsheets."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/37.mp3",
+        "timeStart": 91.92,
+        "timeEnd": 94.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23019/list"
+      },
+      {
+        "id": 23020,
+        "position": 38,
+        "content": "That should be fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "should",
+          "be",
+          "fine."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/38.mp3",
+        "timeStart": 94.96,
+        "timeEnd": 96.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23020/list"
+      },
+      {
+        "id": 23021,
+        "position": 39,
+        "content": "And interpersonal skills,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "interpersonal",
+          "skills,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "interpersonal"
+          ],
+          [
+            "skills,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/39.mp3",
+        "timeStart": 96.31,
+        "timeEnd": 98.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23021/list"
+      },
+      {
+        "id": 23022,
+        "position": 40,
+        "content": "which would be something they'd check with your references.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "would",
+          "be",
+          "something",
+          "they'd",
+          "check",
+          "with",
+          "your",
+          "references."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "something"
+          ],
+          [
+            "they'd"
+          ],
+          [
+            "check"
+          ],
+          [
+            "with"
+          ],
+          [
+            "your"
+          ],
+          [
+            "references."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/40.mp3",
+        "timeStart": 98.34,
+        "timeEnd": 101.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23022/list"
+      },
+      {
+        "id": 23023,
+        "position": 41,
+        "content": "I think that should be OK, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "that",
+          "should",
+          "be",
+          [
+            "OK,",
+            "okay"
+          ],
+          "yes."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/41.mp3",
+        "timeStart": 101.34,
+        "timeEnd": 103.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23023/list"
+      },
+      {
+        "id": 23024,
+        "position": 42,
+        "content": "Then they mention that they want someone who is careful and takes care with details.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "they",
+          "mention",
+          "that",
+          "they",
+          "want",
+          "someone",
+          [
+            "who is",
+            "who's"
+          ],
+          "careful",
+          "and",
+          "takes",
+          "care",
+          "with",
+          "details."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "they"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who is",
+            "who's"
+          ],
+          [
+            "careful"
+          ],
+          [
+            "and"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "care"
+          ],
+          [
+            "with"
+          ],
+          [
+            "details."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/42.mp3",
+        "timeStart": 104.58,
+        "timeEnd": 109.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23024/list"
+      },
+      {
+        "id": 23025,
+        "position": 43,
+        "content": "Just looking at your CV, I'd say you're probably alright there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "looking",
+          "at",
+          "your",
+          "CV,",
+          "I'd",
+          "say",
+          [
+            "you're",
+            "you are"
+          ],
+          "probably",
+          [
+            "alright",
+            "all right"
+          ],
+          "there."
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "your"
+          ],
+          [
+            "CV,"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "say"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "alright",
+            "all right"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/43.mp3",
+        "timeStart": 109.89,
+        "timeEnd": 113.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23025/list"
+      },
+      {
+        "id": 23026,
+        "position": 44,
+        "content": "I think so, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "so,",
+          "yes."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "so,"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/44.mp3",
+        "timeStart": 113.81,
+        "timeEnd": 115.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23026/list"
+      },
+      {
+        "id": 23027,
+        "position": 45,
+        "content": "Do they want any special experience?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "they",
+          "want",
+          "any",
+          "special",
+          "experience?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "any"
+          ],
+          [
+            "special"
+          ],
+          [
+            "experience?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/45.mp3",
+        "timeStart": 115.58,
+        "timeEnd": 118.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23027/list"
+      },
+      {
+        "id": 23028,
+        "position": 46,
+        "content": "I think they wanted some experience of teleconferencing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "they",
+          "wanted",
+          "some",
+          "experience",
+          "of",
+          "teleconferencing."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "they"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "some"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "of"
+          ],
+          [
+            "teleconferencing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/46.mp3",
+        "timeStart": 118.32,
+        "timeEnd": 121.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23028/list"
+      },
+      {
+        "id": 23029,
+        "position": 47,
+        "content": "I've got three years' experience of that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          [
+            "three",
+            "3"
+          ],
+          "years'",
+          "experience",
+          "of",
+          "that."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "years'"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "of"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/47.mp3",
+        "timeStart": 122.4,
+        "timeEnd": 124.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23029/list"
+      },
+      {
+        "id": 23030,
+        "position": 48,
+        "content": "Let's see, yes, good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let's",
+          "see,",
+          "yes,",
+          "good."
+        ],
+        "solution": [
+          [
+            "Let's"
+          ],
+          [
+            "see,"
+          ],
+          [
+            "yes,"
+          ],
+          [
+            "good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/48.mp3",
+        "timeStart": 125.51,
+        "timeEnd": 127.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23030/list"
+      },
+      {
+        "id": 23031,
+        "position": 49,
+        "content": "In fact they're only asking for at least one year, so that's great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "fact",
+          [
+            "they're",
+            "they are"
+          ],
+          "only",
+          "asking",
+          "for",
+          "at",
+          "least",
+          [
+            "one",
+            "1"
+          ],
+          "year,",
+          "so",
+          [
+            "that's",
+            "that is"
+          ],
+          "great."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "fact"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "only"
+          ],
+          [
+            "asking"
+          ],
+          [
+            "for"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "year,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/49.mp3",
+        "timeStart": 127.67,
+        "timeEnd": 132.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23031/list"
+      },
+      {
+        "id": 23032,
+        "position": 50,
+        "content": "So is that something that might interest you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "is",
+          "that",
+          "something",
+          "that",
+          "might",
+          "interest",
+          "you?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "something"
+          ],
+          [
+            "that"
+          ],
+          [
+            "might"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/50.mp3",
+        "timeStart": 132.43,
+        "timeEnd": 134.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23032/list"
+      },
+      {
+        "id": 23033,
+        "position": 51,
+        "content": "It is, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is,",
+            "it's"
+          ],
+          "yes."
+        ],
+        "solution": [
+          [
+            "It is,",
+            "it's"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/51.mp3",
+        "timeStart": 134.71,
+        "timeEnd": 136.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23033/list"
+      },
+      {
+        "id": 23034,
+        "position": 52,
+        "content": "The only thing is, you said they were in North London",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "only",
+          "thing",
+          "is,",
+          "you",
+          "said",
+          "they",
+          "were",
+          "in",
+          "North",
+          "London"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "only"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "is,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "said"
+          ],
+          [
+            "they"
+          ],
+          [
+            "were"
+          ],
+          [
+            "in"
+          ],
+          [
+            "North"
+          ],
+          [
+            "London"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/52.mp3",
+        "timeStart": 136.54,
+        "timeEnd": 140.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23034/list"
+      },
+      {
+        "id": 23035,
+        "position": 53,
+        "content": "so it would be quite a long commute for me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "it would",
+            "It'd"
+          ],
+          "be",
+          "quite",
+          "a",
+          "long",
+          "commute",
+          "for",
+          "me."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "it would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "a"
+          ],
+          [
+            "long"
+          ],
+          [
+            "commute"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/53.mp3",
+        "timeStart": 140.4,
+        "timeEnd": 142.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23035/list"
+      },
+      {
+        "id": 23036,
+        "position": 54,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/54.mp3",
+        "timeStart": 143.09,
+        "timeEnd": 144.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23036/list"
+      },
+      {
+        "id": 23037,
+        "position": 55,
+        "content": "So the second position might suit you better as far as the location goes;",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "the",
+          "second",
+          "position",
+          "might",
+          "suit",
+          "you",
+          "better",
+          "as",
+          "far",
+          "as",
+          "the",
+          "location",
+          "goes;"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second"
+          ],
+          [
+            "position"
+          ],
+          [
+            "might"
+          ],
+          [
+            "suit"
+          ],
+          [
+            "you"
+          ],
+          [
+            "better"
+          ],
+          [
+            "as"
+          ],
+          [
+            "far"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "location"
+          ],
+          [
+            "goes;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/55.mp3",
+        "timeStart": 144.51,
+        "timeEnd": 148.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23037/list"
+      },
+      {
+        "id": 23038,
+        "position": 56,
+        "content": "that's for a warehouse assistant and that's in South London.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "that's",
+            "that is"
+          ],
+          "for",
+          "a",
+          "warehouse",
+          "assistant",
+          "and",
+          [
+            "that's",
+            "that is"
+          ],
+          "in",
+          "South",
+          "London."
+        ],
+        "solution": [
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "warehouse"
+          ],
+          [
+            "assistant"
+          ],
+          [
+            "and"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "South"
+          ],
+          [
+            "London."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/56-2024-10-24-11-18-23.mp3",
+        "timeStart": 148.84,
+        "timeEnd": 152.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23038/list"
+      },
+      {
+        "id": 23039,
+        "position": 57,
+        "content": "Yes, that would be a lot closer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "that",
+          "would",
+          "be",
+          "a",
+          "lot",
+          "closer."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "closer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/57.mp3",
+        "timeStart": 152.58,
+        "timeEnd": 154.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23039/list"
+      },
+      {
+        "id": 23040,
+        "position": 58,
+        "content": "And you've worked in a warehouse before, haven't you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "you've",
+            "You have"
+          ],
+          "worked",
+          "in",
+          "a",
+          "warehouse",
+          "before,",
+          [
+            "haven't",
+            "have not"
+          ],
+          "you?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "worked"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "warehouse"
+          ],
+          [
+            "before,"
+          ],
+          [
+            "haven't",
+            "have not"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/58.mp3",
+        "timeStart": 154.83,
+        "timeEnd": 157.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23040/list"
+      },
+      {
+        "id": 23041,
+        "position": 59,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/59.mp3",
+        "timeStart": 157.46,
+        "timeEnd": 158.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23041/list"
+      },
+      {
+        "id": 23042,
+        "position": 60,
+        "content": "So as far as the responsibilities for this position go,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "as",
+          "far",
+          "as",
+          "the",
+          "responsibilities",
+          "for",
+          "this",
+          "position",
+          "go,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "as"
+          ],
+          [
+            "far"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "responsibilities"
+          ],
+          [
+            "for"
+          ],
+          [
+            "this"
+          ],
+          [
+            "position"
+          ],
+          [
+            "go,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/60.mp3",
+        "timeStart": 158.27,
+        "timeEnd": 161.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23042/list"
+      },
+      {
+        "id": 23043,
+        "position": 61,
+        "content": "they want someone who can manage the stock, obviously, and also deliveries.",
+        "defaultInput": "",
+        "jsonContent": [
+          "they",
+          "want",
+          "someone",
+          "who",
+          "can",
+          "manage",
+          "the",
+          "stock,",
+          "obviously,",
+          "and",
+          "also",
+          "deliveries."
+        ],
+        "solution": [
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who"
+          ],
+          [
+            "can"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "the"
+          ],
+          [
+            "stock,"
+          ],
+          [
+            "obviously,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "also"
+          ],
+          [
+            "deliveries."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/61.mp3",
+        "timeStart": 161.94,
+        "timeEnd": 167.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23043/list"
+      },
+      {
+        "id": 23044,
+        "position": 62,
+        "content": "That should be OK.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "should",
+          "be",
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/62.mp3",
+        "timeStart": 167.45,
+        "timeEnd": 169.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23044/list"
+      },
+      {
+        "id": 23045,
+        "position": 63,
+        "content": "You've got to keep track of stuff,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You've",
+            "You have"
+          ],
+          "got",
+          "to",
+          "keep",
+          "track",
+          "of",
+          "stuff,"
+        ],
+        "solution": [
+          [
+            "You've",
+            "You have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "to"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "track"
+          ],
+          [
+            "of"
+          ],
+          [
+            "stuff,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/63.mp3",
+        "timeStart": 169.41,
+        "timeEnd": 171.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23045/list"
+      },
+      {
+        "id": 23046,
+        "position": 64,
+        "content": "but I've always been quite good with numbers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "I've",
+            "I have"
+          ],
+          "always",
+          "been",
+          "quite",
+          "good",
+          "with",
+          "numbers."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "always"
+          ],
+          [
+            "been"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "good"
+          ],
+          [
+            "with"
+          ],
+          [
+            "numbers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/64.mp3",
+        "timeStart": 171.74,
+        "timeEnd": 174.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23046/list"
+      },
+      {
+        "id": 23047,
+        "position": 65,
+        "content": "Good, that's their first requirement.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good,",
+          [
+            "that's",
+            "that is"
+          ],
+          "their",
+          [
+            "first",
+            "1st"
+          ],
+          "requirement."
+        ],
+        "solution": [
+          [
+            "Good,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "their"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "requirement."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/65.mp3",
+        "timeStart": 174.46,
+        "timeEnd": 177.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23047/list"
+      },
+      {
+        "id": 23048,
+        "position": 66,
+        "content": "And they want someone who's computer literate, which we know you are.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "they",
+          "want",
+          "someone",
+          [
+            "who's",
+            "who is"
+          ],
+          "computer",
+          "literate,",
+          "which",
+          "we",
+          "know",
+          [
+            "you are.",
+            "you're"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "computer"
+          ],
+          [
+            "literate,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "you are.",
+            "you're"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/66.mp3",
+        "timeStart": 177.34,
+        "timeEnd": 181.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23048/list"
+      },
+      {
+        "id": 23049,
+        "position": 67,
+        "content": "Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/67.mp3",
+        "timeStart": 181.23,
+        "timeEnd": 182,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23049/list"
+      },
+      {
+        "id": 23050,
+        "position": 68,
+        "content": "Then they mention organisational skills.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "they",
+          "mention",
+          [
+            "organisational",
+            "organizational"
+          ],
+          "skills."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "they"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "organisational",
+            "organizational"
+          ],
+          [
+            "skills."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/68.mp3",
+        "timeStart": 182.4,
+        "timeEnd": 185.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23050/list"
+      },
+      {
+        "id": 23051,
+        "position": 69,
+        "content": "They want someone who's well organised.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "want",
+          "someone",
+          [
+            "who's",
+            "who is"
+          ],
+          "well",
+          [
+            "organised.",
+            "organized"
+          ]
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "well"
+          ],
+          [
+            "organised.",
+            "organized"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/69.mp3",
+        "timeStart": 185.44,
+        "timeEnd": 187.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23051/list"
+      },
+      {
+        "id": 23052,
+        "position": 70,
+        "content": "Yes, I think I am.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "think",
+          [
+            "I am.",
+            "I'm"
+          ]
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I am.",
+            "I'm"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/70.mp3",
+        "timeStart": 187.81,
+        "timeEnd": 190.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23052/list"
+      },
+      {
+        "id": 23053,
+        "position": 71,
+        "content": "And tidy?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "tidy?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "tidy?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/71.mp3",
+        "timeStart": 190.31,
+        "timeEnd": 191.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23053/list"
+      },
+      {
+        "id": 23054,
+        "position": 72,
+        "content": "Yes, they go together really, don't they?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "they",
+          "go",
+          "together",
+          "really,",
+          [
+            "don't",
+            "do not"
+          ],
+          "they?"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "go"
+          ],
+          [
+            "together"
+          ],
+          [
+            "really,"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "they?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/72.mp3",
+        "timeStart": 192.1,
+        "timeEnd": 195.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23054/list"
+      },
+      {
+        "id": 23055,
+        "position": 73,
+        "content": "Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/73.mp3",
+        "timeStart": 195.19,
+        "timeEnd": 195.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23055/list"
+      },
+      {
+        "id": 23056,
+        "position": 74,
+        "content": "Then the usual stuff; they want someone who can communicate well both orally and in writing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "the",
+          "usual",
+          "stuff;",
+          "they",
+          "want",
+          "someone",
+          "who",
+          "can",
+          "communicate",
+          "well",
+          "both",
+          "orally",
+          "and",
+          "in",
+          "writing."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "the"
+          ],
+          [
+            "usual"
+          ],
+          [
+            "stuff;"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who"
+          ],
+          [
+            "can"
+          ],
+          [
+            "communicate"
+          ],
+          [
+            "well"
+          ],
+          [
+            "both"
+          ],
+          [
+            "orally"
+          ],
+          [
+            "and"
+          ],
+          [
+            "in"
+          ],
+          [
+            "writing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/74.mp3",
+        "timeStart": 196.17,
+        "timeEnd": 201.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23056/list"
+      },
+      {
+        "id": 23057,
+        "position": 75,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/75.mp3",
+        "timeStart": 202.01,
+        "timeEnd": 202.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23057/list"
+      },
+      {
+        "id": 23058,
+        "position": 76,
+        "content": "And for the last warehouse job I had,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "for",
+          "the",
+          "last",
+          "warehouse",
+          "job",
+          [
+            "I had,",
+            "I'd"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "warehouse"
+          ],
+          [
+            "job"
+          ],
+          [
+            "I had,",
+            "I'd"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/76.mp3",
+        "timeStart": 203.21,
+        "timeEnd": 205.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23058/list"
+      },
+      {
+        "id": 23059,
+        "position": 77,
+        "content": "one of the things I enjoyed most was being part of a team.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "things",
+          "I",
+          "enjoyed",
+          "most",
+          "was",
+          "being",
+          "part",
+          "of",
+          "a",
+          "team."
+        ],
+        "solution": [
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "things"
+          ],
+          [
+            "I"
+          ],
+          [
+            "enjoyed"
+          ],
+          [
+            "most"
+          ],
+          [
+            "was"
+          ],
+          [
+            "being"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "team."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/77.mp3",
+        "timeStart": 205.65,
+        "timeEnd": 209.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23059/list"
+      },
+      {
+        "id": 23060,
+        "position": 78,
+        "content": "I found that was really essential for the job.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "found",
+          "that",
+          "was",
+          "really",
+          "essential",
+          "for",
+          "the",
+          "job."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "found"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "really"
+          ],
+          [
+            "essential"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "job."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/78.mp3",
+        "timeStart": 209.82,
+        "timeEnd": 212.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23060/list"
+      },
+      {
+        "id": 23061,
+        "position": 79,
+        "content": "Excellent.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Excellent."
+        ],
+        "solution": [
+          [
+            "Excellent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/79.mp3",
+        "timeStart": 212.49,
+        "timeEnd": 213.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23061/list"
+      },
+      {
+        "id": 23062,
+        "position": 80,
+        "content": "Yes, they do mention that they want someone who's used to that, yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "they",
+          "do",
+          "mention",
+          "that",
+          "they",
+          "want",
+          "someone",
+          [
+            "who's",
+            "who is"
+          ],
+          "used",
+          "to",
+          "that,",
+          "yes."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "do"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/80.mp3",
+        "timeStart": 213.81,
+        "timeEnd": 217.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23062/list"
+      },
+      {
+        "id": 23063,
+        "position": 81,
+        "content": "Now when you were working in a warehouse last time,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "when",
+          "you",
+          "were",
+          "working",
+          "in",
+          "a",
+          "warehouse",
+          "last",
+          "time,"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "were"
+          ],
+          [
+            "working"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "warehouse"
+          ],
+          [
+            "last"
+          ],
+          [
+            "time,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/81.mp3",
+        "timeStart": 218.14,
+        "timeEnd": 221.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23063/list"
+      },
+      {
+        "id": 23064,
+        "position": 82,
+        "content": "what sorts of items were you dealing with?",
+        "defaultInput": "",
+        "jsonContent": [
+          "what",
+          "sorts",
+          "of",
+          "items",
+          "were",
+          "you",
+          "dealing",
+          "with?"
+        ],
+        "solution": [
+          [
+            "what"
+          ],
+          [
+            "sorts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "items"
+          ],
+          [
+            "were"
+          ],
+          [
+            "you"
+          ],
+          [
+            "dealing"
+          ],
+          [
+            "with?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/82.mp3",
+        "timeStart": 221.53,
+        "timeEnd": 224.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23064/list"
+      },
+      {
+        "id": 23065,
+        "position": 83,
+        "content": "It was mostly bathroom and kitchen equipment,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "mostly",
+          "bathroom",
+          "and",
+          "kitchen",
+          "equipment,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "mostly"
+          ],
+          [
+            "bathroom"
+          ],
+          [
+            "and"
+          ],
+          [
+            "kitchen"
+          ],
+          [
+            "equipment,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/83.mp3",
+        "timeStart": 224.48,
+        "timeEnd": 227.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23065/list"
+      },
+      {
+        "id": 23066,
+        "position": 84,
+        "content": "sinks and stoves and fridges.",
+        "defaultInput": "",
+        "jsonContent": [
+          "sinks",
+          "and",
+          "stoves",
+          "and",
+          "fridges."
+        ],
+        "solution": [
+          [
+            "sinks"
+          ],
+          [
+            "and"
+          ],
+          [
+            "stoves"
+          ],
+          [
+            "and"
+          ],
+          [
+            "fridges."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/84.mp3",
+        "timeStart": 228.07,
+        "timeEnd": 230.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23066/list"
+      },
+      {
+        "id": 23067,
+        "position": 85,
+        "content": "So you're OK moving heavy things?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "you're",
+          [
+            "OK",
+            "okay"
+          ],
+          "moving",
+          "heavy",
+          "things?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "you're"
+          ],
+          [
+            "OK",
+            "okay"
+          ],
+          [
+            "moving"
+          ],
+          [
+            "heavy"
+          ],
+          [
+            "things?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/85.mp3",
+        "timeStart": 231.02,
+        "timeEnd": 234.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23067/list"
+      },
+      {
+        "id": 23068,
+        "position": 86,
+        "content": "Sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure."
+        ],
+        "solution": [
+          [
+            "Sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/86.mp3",
+        "timeStart": 234.17,
+        "timeEnd": 234.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23068/list"
+      },
+      {
+        "id": 23069,
+        "position": 87,
+        "content": "I'm quite strong, and I've had the training.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "quite",
+          "strong,",
+          "and",
+          [
+            "I've",
+            "I have"
+          ],
+          "had",
+          "the",
+          "training."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "strong,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "the"
+          ],
+          [
+            "training."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/87.mp3",
+        "timeStart": 235.12,
+        "timeEnd": 237.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23069/list"
+      },
+      {
+        "id": 23070,
+        "position": 88,
+        "content": "Good.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good."
+        ],
+        "solution": [
+          [
+            "Good."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/88.mp3",
+        "timeStart": 237.76,
+        "timeEnd": 238.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23070/list"
+      },
+      {
+        "id": 23071,
+        "position": 89,
+        "content": "Now as far as experience goes, they mention they want someone with a licence,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "as",
+          "far",
+          "as",
+          "experience",
+          "goes,",
+          "they",
+          "mention",
+          "they",
+          "want",
+          "someone",
+          "with",
+          "a",
+          [
+            "licence,",
+            "license"
+          ]
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "as"
+          ],
+          [
+            "far"
+          ],
+          [
+            "as"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "goes,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "they"
+          ],
+          [
+            "want"
+          ],
+          [
+            "someone"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "licence,",
+            "license"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/89.mp3",
+        "timeStart": 238.74,
+        "timeEnd": 243.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23071/list"
+      },
+      {
+        "id": 23072,
+        "position": 90,
+        "content": "and that you have experience of driving in London -",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "that",
+          [
+            "you have",
+            "you've"
+          ],
+          "experience",
+          "of",
+          "driving",
+          "in",
+          "London",
+          "-"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "of"
+          ],
+          [
+            "driving"
+          ],
+          [
+            "in"
+          ],
+          [
+            "London"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/90.mp3",
+        "timeStart": 243.94,
+        "timeEnd": 247.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23072/list"
+      },
+      {
+        "id": 23073,
+        "position": 91,
+        "content": "so you can cope with the traffic and so on.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "you",
+          "can",
+          "cope",
+          "with",
+          "the",
+          "traffic",
+          "and",
+          "so",
+          "on."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "cope"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "traffic"
+          ],
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/91.mp3",
+        "timeStart": 247.6,
+        "timeEnd": 250.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23073/list"
+      },
+      {
+        "id": 23074,
+        "position": 92,
+        "content": "Yes, no problem.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "no",
+          "problem."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "no"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/92.mp3",
+        "timeStart": 250.14,
+        "timeEnd": 251.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23074/list"
+      },
+      {
+        "id": 23075,
+        "position": 93,
+        "content": "And you've got experience of warehouse work...",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "you've",
+            "You have"
+          ],
+          "got",
+          "experience",
+          "of",
+          "warehouse",
+          "work..."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "of"
+          ],
+          [
+            "warehouse"
+          ],
+          [
+            "work..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/93.mp3",
+        "timeStart": 251.79,
+        "timeEnd": 254.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23075/list"
+      },
+      {
+        "id": 23076,
+        "position": 94,
+        "content": "and the final thing they mention is customer service.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "final",
+          "thing",
+          "they",
+          "mention",
+          "is",
+          "customer",
+          "service."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "final"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "they"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "is"
+          ],
+          [
+            "customer"
+          ],
+          [
+            "service."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/94.mp3",
+        "timeStart": 254.83,
+        "timeEnd": 257.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23076/list"
+      },
+      {
+        "id": 23077,
+        "position": 95,
+        "content": "I think looking at your CV you're OK there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "looking",
+          "at",
+          "your",
+          "CV",
+          "you're",
+          [
+            "OK",
+            "okay"
+          ],
+          "there."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "your"
+          ],
+          [
+            "CV"
+          ],
+          [
+            "you're"
+          ],
+          [
+            "OK",
+            "okay"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/95.mp3",
+        "timeStart": 257.9,
+        "timeEnd": 261.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23077/list"
+      },
+      {
+        "id": 23078,
+        "position": 96,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/96.mp3",
+        "timeStart": 261.44,
+        "timeEnd": 262.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23078/list"
+      },
+      {
+        "id": 23079,
+        "position": 97,
+        "content": "So what about pay?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "what",
+          "about",
+          "pay?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "pay?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/97.mp3",
+        "timeStart": 262.31,
+        "timeEnd": 264.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23079/list"
+      },
+      {
+        "id": 23080,
+        "position": 98,
+        "content": "Can you tell me a bit more about that, please...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "tell",
+          "me",
+          "a",
+          "bit",
+          "more",
+          "about",
+          "that,",
+          "please..."
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "more"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "please..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-15-test-3-part-1-2023-01-18-10-52-01/98.mp3",
+        "timeStart": 264.21,
+        "timeEnd": 266.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/23080/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "22989": {
+      "id": 357841,
+      "text": "Chúng tôi đã xem qua CV của anh kỹ rồi",
+      "author": "a user"
+    },
+    "23009": {
+      "id": 357877,
+      "text": "Và bạn cần phải có khả năng xử lý các công việc quản trị chung",
+      "author": "a user"
+    },
+    "23019": {
+      "id": 357887,
+      "text": "và họ đặc biệt đề cập đến Excel ",
+      "author": "a user"
+    },
+    "23027": {
+      "id": 357895,
+      "text": "Họ có cần kinh nghiệm đặc biệt nào không?",
+      "author": "a user"
+    },
+    "23028": {
+      "id": 357896,
+      "text": "Tôi nghĩ rằng họ muốn có một số kinh nghiệm về hội nghị trực tuyến\n",
+      "author": "a user"
+    },
+    "23032": {
+      "id": 357900,
+      "text": "Vậy, công việc này bạn có hứng thú không?",
+      "author": "a user"
+    },
+    "23035": {
+      "id": 357903,
+      "text": "vì vậy nó sẽ là một tuyến đường đi làm khá dài đối với tôi.",
+      "author": "a user"
+    },
+    "23051": {
+      "id": 359005,
+      "text": "Họ muốn ai đó có khả năng tổ chức tốt.",
+      "author": "a user"
+    },
+    "23052": {
+      "id": 359006,
+      "text": "Vâng, tôi nghĩ tôi như vậy.",
+      "author": "a user"
+    },
+    "23054": {
+      "id": 359009,
+      "text": "Vâng, 2 tính đó thực sự đi liền với nhau , phải không?",
+      "author": "a user"
+    },
+    "23018": {
+      "id": 2586587,
+      "text": "Vì vậy về các yêu cầu, họ muốn có kỹ năng máy tính tốt, dĩ nhiên rồi,",
+      "author": "ChatGPT4.1"
+    },
+    "23020": {
+      "id": 2586588,
+      "text": "Điều đó chắc ổn thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "23021": {
+      "id": 2586589,
+      "text": "Và kỹ năng giao tiếp,",
+      "author": "ChatGPT4.1"
+    },
+    "23022": {
+      "id": 2586590,
+      "text": "điều này họ sẽ kiểm tra qua người tham khảo của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "23023": {
+      "id": 2586591,
+      "text": "Tôi nghĩ điều đó ổn thôi, vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "23024": {
+      "id": 2586592,
+      "text": "Rồi họ nhắc là muốn một người cẩn thận và chú ý đến chi tiết.",
+      "author": "ChatGPT4.1"
+    },
+    "23025": {
+      "id": 2586593,
+      "text": "Chỉ nhìn vào CV của bạn, tôi nghĩ bạn ổn khoản đó.",
+      "author": "ChatGPT4.1"
+    },
+    "23026": {
+      "id": 2586594,
+      "text": "Tôi nghĩ vậy, vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "23029": {
+      "id": 2586595,
+      "text": "Tôi có ba năm kinh nghiệm về việc đó.",
+      "author": "ChatGPT4.1"
+    },
+    "23030": {
+      "id": 2586596,
+      "text": "Để xem nào, vâng, tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "23031": {
+      "id": 2586597,
+      "text": "Thực ra họ chỉ yêu cầu tối thiểu một năm thôi, vậy là rất tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "23033": {
+      "id": 2586598,
+      "text": "Đúng vậy, vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "23034": {
+      "id": 2586599,
+      "text": "Chỉ có điều là, bạn nói họ ở Bắc London",
+      "author": "ChatGPT4.1"
+    },
+    "23036": {
+      "id": 2586600,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "23037": {
+      "id": 2586601,
+      "text": "Vậy vị trí thứ hai có thể sẽ phù hợp với bạn hơn về mặt địa điểm;",
+      "author": "ChatGPT4.1"
+    },
+    "23038": {
+      "id": 2586602,
+      "text": "đó là vị trí trợ lý kho và ở Nam London.",
+      "author": "ChatGPT4.1"
+    },
+    "23039": {
+      "id": 2586603,
+      "text": "Vâng, vậy sẽ gần hơn nhiều.",
+      "author": "ChatGPT4.1"
+    },
+    "23040": {
+      "id": 2586604,
+      "text": "Và bạn đã từng làm ở kho trước đây rồi nhỉ?",
+      "author": "ChatGPT4.1"
+    },
+    "23041": {
+      "id": 2586605,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "23042": {
+      "id": 2586606,
+      "text": "Vậy về các trách nhiệm của vị trí này,",
+      "author": "ChatGPT4.1"
+    },
+    "23043": {
+      "id": 2586607,
+      "text": "họ muốn một người có thể quản lý hàng tồn, dĩ nhiên, và cả giao nhận hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "23044": {
+      "id": 2586608,
+      "text": "Việc đó chắc là ổn thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "23045": {
+      "id": 2586609,
+      "text": "Bạn phải theo dõi hàng hóa,",
+      "author": "ChatGPT4.1"
+    },
+    "23046": {
+      "id": 2586610,
+      "text": "nhưng tôi luôn khá giỏi về các con số mà.",
+      "author": "ChatGPT4.1"
+    },
+    "23047": {
+      "id": 2586611,
+      "text": "Tốt, đó là yêu cầu đầu tiên của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "23048": {
+      "id": 2586612,
+      "text": "Và họ muốn một người biết sử dụng máy tính, điều mà chúng ta biết bạn có.",
+      "author": "ChatGPT4.1"
+    },
+    "23049": {
+      "id": 2587014,
+      "text": "Chắc rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "23050": {
+      "id": 2587015,
+      "text": "Sau đó họ nhắc đến kỹ năng tổ chức.",
+      "author": "ChatGPT4.1"
+    },
+    "23053": {
+      "id": 2587016,
+      "text": "Và gọn gàng chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "23055": {
+      "id": 2587017,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "23056": {
+      "id": 2587018,
+      "text": "Sau đó là những điều thông thường; họ muốn một người có thể giao tiếp tốt cả nói và viết.",
+      "author": "ChatGPT4.1"
+    },
+    "23057": {
+      "id": 2587019,
+      "text": "Được thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "23058": {
+      "id": 2587020,
+      "text": "Và trong công việc kho gần đây nhất mà tôi làm,",
+      "author": "ChatGPT4.1"
+    },
+    "23059": {
+      "id": 2587021,
+      "text": "một trong những điều tôi thích nhất là được làm việc trong nhóm.",
+      "author": "ChatGPT4.1"
+    },
+    "23060": {
+      "id": 2587022,
+      "text": "Tôi thấy điều đó thực sự cần thiết cho công việc.",
+      "author": "ChatGPT4.1"
+    },
+    "23061": {
+      "id": 2587023,
+      "text": "Tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "23062": {
+      "id": 2587024,
+      "text": "Vâng, họ có nhắc rằng họ muốn một người quen với điều đó, đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "23063": {
+      "id": 2587025,
+      "text": "Bây giờ khi bạn làm việc ở kho lần trước,",
+      "author": "ChatGPT4.1"
+    },
+    "23064": {
+      "id": 2587026,
+      "text": "bạn đã xử lý những loại hàng hóa nào?",
+      "author": "ChatGPT4.1"
+    },
+    "23065": {
+      "id": 2587340,
+      "text": "Chủ yếu là thiết bị phòng tắm và nhà bếp,",
+      "author": "ChatGPT4.1"
+    },
+    "23066": {
+      "id": 2587341,
+      "text": "bồn rửa, bếp và tủ lạnh.",
+      "author": "ChatGPT4.1"
+    },
+    "23067": {
+      "id": 2587342,
+      "text": "Vậy bạn có ổn khi di chuyển những vật nặng không?",
+      "author": "ChatGPT4.1"
+    },
+    "23068": {
+      "id": 2587343,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "23069": {
+      "id": 2587344,
+      "text": "Tôi khá khỏe, và tôi đã được đào tạo.",
+      "author": "ChatGPT4.1"
+    },
+    "23070": {
+      "id": 2587345,
+      "text": "Tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "23071": {
+      "id": 2587346,
+      "text": "Về kinh nghiệm, họ đề cập muốn tìm ai có bằng lái xe,",
+      "author": "ChatGPT4.1"
+    },
+    "23072": {
+      "id": 2587347,
+      "text": "và bạn đã có kinh nghiệm lái xe ở London -",
+      "author": "ChatGPT4.1"
+    },
+    "23073": {
+      "id": 2587348,
+      "text": "để bạn có thể đối phó với giao thông và các vấn đề liên quan.",
+      "author": "ChatGPT4.1"
+    },
+    "23074": {
+      "id": 2587349,
+      "text": "Vâng, không vấn đề gì.",
+      "author": "ChatGPT4.1"
+    },
+    "23075": {
+      "id": 2587350,
+      "text": "Và bạn cũng đã có kinh nghiệm làm việc ở kho...",
+      "author": "ChatGPT4.1"
+    },
+    "23076": {
+      "id": 2587351,
+      "text": "và điều cuối cùng họ đề cập là dịch vụ khách hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "23077": {
+      "id": 2587352,
+      "text": "Tôi nghĩ nhìn vào CV của bạn thì bạn ổn về khoản này.",
+      "author": "ChatGPT4.1"
+    },
+    "23078": {
+      "id": 2587353,
+      "text": "Đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "23079": {
+      "id": 2587354,
+      "text": "Vậy còn lương thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "23080": {
+      "id": 2587604,
+      "text": "Bạn có thể nói rõ hơn về điều đó không...",
+      "author": "ChatGPT4.1"
+    },
+    "22983": {
+      "id": 2595513,
+      "text": "Chào buổi sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "22984": {
+      "id": 2595514,
+      "text": "Cảm ơn bạn đã đến gặp chúng tôi tại công ty môi giới, Joe.",
+      "author": "ChatGPT4.1"
+    },
+    "22985": {
+      "id": 2595515,
+      "text": "Tôi là một trong những đại diện của công ty, tên tôi là Sally Baker.",
+      "author": "ChatGPT4.1"
+    },
+    "22986": {
+      "id": 2595516,
+      "text": "Chào Sally. Tôi nghĩ chúng ta đã nói chuyện qua điện thoại rồi, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "22987": {
+      "id": 2595517,
+      "text": "Đúng rồi, chúng ta đã nói chuyện rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "22988": {
+      "id": 2595518,
+      "text": "Cảm ơn bạn đã gửi CV của mình cho chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "22990": {
+      "id": 2595519,
+      "text": "và tôi nghĩ chúng tôi có hai công việc có thể phù hợp với bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "22991": {
+      "id": 2595520,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "22992": {
+      "id": 2595521,
+      "text": "Công việc đầu tiên là tại một công ty có trụ sở ở Bắc London.",
+      "author": "ChatGPT4.1"
+    },
+    "22993": {
+      "id": 2595522,
+      "text": "Họ đang tìm kiếm một trợ lý hành chính.",
+      "author": "ChatGPT4.1"
+    },
+    "22994": {
+      "id": 2595523,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "22995": {
+      "id": 2595524,
+      "text": "Đó là công ty loại gì vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "22996": {
+      "id": 2595525,
+      "text": "Công ty tên là Home Solutions",
+      "author": "ChatGPT4.1"
+    },
+    "22997": {
+      "id": 2595526,
+      "text": "và họ thiết kế và sản xuất đồ nội thất.",
+      "author": "ChatGPT4.1"
+    },
+    "22998": {
+      "id": 2595527,
+      "text": "Ồ, tôi không biết nhiều về lĩnh vực đó,",
+      "author": "ChatGPT4.1"
+    },
+    "22999": {
+      "id": 2595528,
+      "text": "nhưng nghe có vẻ thú vị.",
+      "author": "ChatGPT4.1"
+    },
+    "23000": {
+      "id": 2595529,
+      "text": "Vâng, như tôi đã nói, họ cần một người làm việc trong văn phòng,",
+      "author": "ChatGPT4.1"
+    },
+    "23001": {
+      "id": 2595530,
+      "text": "và khi xem xét kinh nghiệm trong quá khứ của bạn",
+      "author": "ChatGPT4.1"
+    },
+    "23002": {
+      "id": 2595531,
+      "text": "có vẻ như bạn phù hợp với khá nhiều yêu cầu của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "23003": {
+      "id": 2595532,
+      "text": "Vậy trên CV bạn có ghi là từng nhập dữ liệu đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "23004": {
+      "id": 2595533,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "23005": {
+      "id": 2595534,
+      "text": "Vậy đó là một kỹ năng mà họ cần.",
+      "author": "ChatGPT4.1"
+    },
+    "23006": {
+      "id": 2595535,
+      "text": "Họ cũng mong người được tuyển sẽ tham dự các cuộc họp và ghi chép lại nội dung...",
+      "author": "ChatGPT4.1"
+    },
+    "23007": {
+      "id": 2595536,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "23008": {
+      "id": 2595537,
+      "text": "Tôi đã làm việc đó trước đây rồi, đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "23010": {
+      "id": 2595538,
+      "text": "Lưu trữ hồ sơ, quản lý sổ sách và các việc tương tự?",
+      "author": "ChatGPT4.1"
+    },
+    "23011": {
+      "id": 2595539,
+      "text": "Việc đó chắc là ổn.",
+      "author": "ChatGPT4.1"
+    },
+    "23012": {
+      "id": 2595540,
+      "text": "Và trong công việc trước đây, tôi cũng phải quản lý lịch làm việc.",
+      "author": "ChatGPT4.1"
+    },
+    "23013": {
+      "id": 2597728,
+      "text": "Tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "23014": {
+      "id": 2597729,
+      "text": "Đó cũng là điều họ cần ở đây.",
+      "author": "ChatGPT4.1"
+    },
+    "23015": {
+      "id": 2597730,
+      "text": "Tôi khuyên bạn nên thêm điều đó vào CV của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "23016": {
+      "id": 2597731,
+      "text": "Tôi nghĩ bạn chưa đề cập điều đó, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "23017": {
+      "id": 2597732,
+      "text": "Không.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

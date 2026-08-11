@@ -374,6 +374,88 @@ class UserProfiles extends Table {
   Set<Column<Object>> get primaryKey => {id};
 }
 
+/// Local-only progress for a listening lesson. Status values are managed by
+/// [ListeningProgressService]: 0 = not started, 1 = in progress, 2 = complete.
+@DataClassName('ListeningLessonProgressRow')
+@TableIndex(
+  name: 'listening_lesson_progress_status_updated',
+  columns: {#status, #updatedAt},
+)
+class ListeningLessonProgressModels extends Table {
+  IntColumn get courseId => integer()();
+
+  IntColumn get lessonId => integer()();
+
+  IntColumn get currentChallengePosition =>
+      integer().withDefault(const Constant(1))();
+
+  IntColumn get completedChallenges =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get totalChallenges => integer()();
+
+  IntColumn get status => integer().withDefault(const Constant(0))();
+
+  IntColumn get startedAt => integer()();
+
+  IntColumn get updatedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  IntColumn get activeMilliseconds =>
+      integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {courseId, lessonId};
+}
+
+/// Per-challenge attempts are retained locally so an interrupted lesson can
+/// resume without relying on a server progress endpoint.
+@DataClassName('ListeningChallengeProgressRow')
+@TableIndex(
+  name: 'listening_challenge_progress_lesson_position',
+  columns: {#courseId, #lessonId, #position},
+  unique: true,
+)
+class ListeningChallengeProgressModels extends Table {
+  IntColumn get courseId => integer()();
+
+  IntColumn get lessonId => integer()();
+
+  IntColumn get challengeId => integer()();
+
+  IntColumn get position => integer()();
+
+  BoolColumn get isCompleted =>
+      boolean().withDefault(const Constant(false))();
+
+  BoolColumn get isSkipped => boolean().withDefault(const Constant(false))();
+
+  IntColumn get attemptCount => integer().withDefault(const Constant(0))();
+
+  TextColumn get lastAnswer => text().nullable()();
+
+  IntColumn get updatedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {courseId, lessonId, challengeId};
+}
+
+/// Listening time is tracked separately from general app foreground time.
+@DataClassName('ListeningPracticeDayRow')
+class ListeningPracticeDays extends Table {
+  /// Local midnight, stored as milliseconds since epoch.
+  IntColumn get date => integer()();
+
+  IntColumn get activeMilliseconds =>
+      integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {date};
+}
+
 @DriftDatabase(
   tables: [
     TopicModels,
@@ -391,6 +473,9 @@ class UserProfiles extends Table {
     ContentRevisions,
     AppUsageDays,
     UserProfiles,
+    ListeningLessonProgressModels,
+    ListeningChallengeProgressModels,
+    ListeningPracticeDays,
   ],
 )
 class AppDatabase extends _$AppDatabase {
@@ -402,7 +487,7 @@ class AppDatabase extends _$AppDatabase {
       'bundled_topics_$languageCode';
 
   @override
-  int get schemaVersion => 6;
+  int get schemaVersion => 7;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -433,6 +518,11 @@ class AppDatabase extends _$AppDatabase {
         await m.addColumn(visitModels, visitModels.wordsInSentencesCount);
         await m.addColumn(visitModels, visitModels.sentencesTrainedCount);
         await m.addColumn(visitModels, visitModels.sentencesTrainedExtraCount);
+      }
+      if (from < 7) {
+        await m.createTable(listeningLessonProgressModels);
+        await m.createTable(listeningChallengeProgressModels);
+        await m.createTable(listeningPracticeDays);
       }
     },
   );

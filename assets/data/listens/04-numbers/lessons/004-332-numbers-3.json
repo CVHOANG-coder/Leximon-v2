@@ -1,0 +1,6406 @@
+{
+  "summary": {
+    "id": 332,
+    "name": "Numbers (3)",
+    "subTitle": "",
+    "levelName": "",
+    "position": 4,
+    "totalChallenges": 255,
+    "groupId": null,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/332",
+  "detail": {
+    "id": 332,
+    "lessonName": "Numbers (3)",
+    "name": "Numbers (3)",
+    "position": 4,
+    "levelName": "",
+    "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/0-4-digit-numbers.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": true,
+    "isNumbersLesson": true,
+    "challenges": [
+      {
+        "id": 13789,
+        "position": 1,
+        "content": "9,803",
+        "defaultInput": "",
+        "jsonContent": [
+          "9,803"
+        ],
+        "solution": [
+          [
+            "9,803"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13789/list"
+      },
+      {
+        "id": 13790,
+        "position": 2,
+        "content": "38",
+        "defaultInput": "",
+        "jsonContent": [
+          "38"
+        ],
+        "solution": [
+          [
+            "38"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/2.mp3",
+        "timeStart": 1.71,
+        "timeEnd": 2.35,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/13790/list"
+      },
+      {
+        "id": 13791,
+        "position": 3,
+        "content": "732",
+        "defaultInput": "",
+        "jsonContent": [
+          "732"
+        ],
+        "solution": [
+          [
+            "732"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/3.mp3",
+        "timeStart": 2.35,
+        "timeEnd": 3.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13791/list"
+      },
+      {
+        "id": 13792,
+        "position": 4,
+        "content": "61",
+        "defaultInput": "",
+        "jsonContent": [
+          "61"
+        ],
+        "solution": [
+          [
+            "61"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/4.mp3",
+        "timeStart": 3.77,
+        "timeEnd": 4.6,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13792/list"
+      },
+      {
+        "id": 13793,
+        "position": 5,
+        "content": "3",
+        "defaultInput": "",
+        "jsonContent": [
+          "3"
+        ],
+        "solution": [
+          [
+            "3"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/5.mp3",
+        "timeStart": 4.6,
+        "timeEnd": 5.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13793/list"
+      },
+      {
+        "id": 13794,
+        "position": 6,
+        "content": "310",
+        "defaultInput": "",
+        "jsonContent": [
+          "310"
+        ],
+        "solution": [
+          [
+            "310"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/6.mp3",
+        "timeStart": 5.27,
+        "timeEnd": 6.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13794/list"
+      },
+      {
+        "id": 13795,
+        "position": 7,
+        "content": "69",
+        "defaultInput": "",
+        "jsonContent": [
+          "69"
+        ],
+        "solution": [
+          [
+            "69"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/7.mp3",
+        "timeStart": 6.41,
+        "timeEnd": 7.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13795/list"
+      },
+      {
+        "id": 13796,
+        "position": 8,
+        "content": "52",
+        "defaultInput": "",
+        "jsonContent": [
+          "52"
+        ],
+        "solution": [
+          [
+            "52"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/8.mp3",
+        "timeStart": 7.32,
+        "timeEnd": 8.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13796/list"
+      },
+      {
+        "id": 13797,
+        "position": 9,
+        "content": "106",
+        "defaultInput": "",
+        "jsonContent": [
+          "106"
+        ],
+        "solution": [
+          [
+            "106"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/9.mp3",
+        "timeStart": 8.05,
+        "timeEnd": 9.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13797/list"
+      },
+      {
+        "id": 13798,
+        "position": 10,
+        "content": "98",
+        "defaultInput": "",
+        "jsonContent": [
+          "98"
+        ],
+        "solution": [
+          [
+            "98"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/10.mp3",
+        "timeStart": 9.17,
+        "timeEnd": 9.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13798/list"
+      },
+      {
+        "id": 13799,
+        "position": 11,
+        "content": "500",
+        "defaultInput": "",
+        "jsonContent": [
+          "500"
+        ],
+        "solution": [
+          [
+            "500"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/11.mp3",
+        "timeStart": 9.91,
+        "timeEnd": 10.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13799/list"
+      },
+      {
+        "id": 13800,
+        "position": 12,
+        "content": "34",
+        "defaultInput": "",
+        "jsonContent": [
+          "34"
+        ],
+        "solution": [
+          [
+            "34"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/12.mp3",
+        "timeStart": 10.83,
+        "timeEnd": 11.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13800/list"
+      },
+      {
+        "id": 13801,
+        "position": 13,
+        "content": "1,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "1,000"
+        ],
+        "solution": [
+          [
+            "1,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/13.mp3",
+        "timeStart": 11.64,
+        "timeEnd": 12.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13801/list"
+      },
+      {
+        "id": 13802,
+        "position": 14,
+        "content": "97",
+        "defaultInput": "",
+        "jsonContent": [
+          "97"
+        ],
+        "solution": [
+          [
+            "97"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/14.mp3",
+        "timeStart": 12.5,
+        "timeEnd": 13.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13802/list"
+      },
+      {
+        "id": 13803,
+        "position": 15,
+        "content": "93",
+        "defaultInput": "",
+        "jsonContent": [
+          "93"
+        ],
+        "solution": [
+          [
+            "93"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/15.mp3",
+        "timeStart": 13.32,
+        "timeEnd": 14.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13803/list"
+      },
+      {
+        "id": 13804,
+        "position": 16,
+        "content": "595",
+        "defaultInput": "",
+        "jsonContent": [
+          "595"
+        ],
+        "solution": [
+          [
+            "595"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/16.mp3",
+        "timeStart": 14.22,
+        "timeEnd": 15.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13804/list"
+      },
+      {
+        "id": 13805,
+        "position": 17,
+        "content": "4,209",
+        "defaultInput": "",
+        "jsonContent": [
+          "4,209"
+        ],
+        "solution": [
+          [
+            "4,209"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/17.mp3",
+        "timeStart": 15.59,
+        "timeEnd": 17.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13805/list"
+      },
+      {
+        "id": 13806,
+        "position": 18,
+        "content": "5,425",
+        "defaultInput": "",
+        "jsonContent": [
+          "5,425"
+        ],
+        "solution": [
+          [
+            "5,425"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/18.mp3",
+        "timeStart": 17.42,
+        "timeEnd": 19.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13806/list"
+      },
+      {
+        "id": 13807,
+        "position": 19,
+        "content": "249",
+        "defaultInput": "",
+        "jsonContent": [
+          "249"
+        ],
+        "solution": [
+          [
+            "249"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/19.mp3",
+        "timeStart": 19.48,
+        "timeEnd": 20.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13807/list"
+      },
+      {
+        "id": 13808,
+        "position": 20,
+        "content": "194",
+        "defaultInput": "",
+        "jsonContent": [
+          "194"
+        ],
+        "solution": [
+          [
+            "194"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/20.mp3",
+        "timeStart": 21.01,
+        "timeEnd": 22.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13808/list"
+      },
+      {
+        "id": 13809,
+        "position": 21,
+        "content": "898",
+        "defaultInput": "",
+        "jsonContent": [
+          "898"
+        ],
+        "solution": [
+          [
+            "898"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/21.mp3",
+        "timeStart": 22.26,
+        "timeEnd": 23.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13809/list"
+      },
+      {
+        "id": 13810,
+        "position": 22,
+        "content": "329",
+        "defaultInput": "",
+        "jsonContent": [
+          "329"
+        ],
+        "solution": [
+          [
+            "329"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/22.mp3",
+        "timeStart": 23.55,
+        "timeEnd": 24.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13810/list"
+      },
+      {
+        "id": 13811,
+        "position": 23,
+        "content": "65",
+        "defaultInput": "",
+        "jsonContent": [
+          "65"
+        ],
+        "solution": [
+          [
+            "65"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/23.mp3",
+        "timeStart": 24.87,
+        "timeEnd": 25.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13811/list"
+      },
+      {
+        "id": 13812,
+        "position": 24,
+        "content": "37",
+        "defaultInput": "",
+        "jsonContent": [
+          "37"
+        ],
+        "solution": [
+          [
+            "37"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/24.mp3",
+        "timeStart": 25.7,
+        "timeEnd": 26.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13812/list"
+      },
+      {
+        "id": 13813,
+        "position": 25,
+        "content": "8,599",
+        "defaultInput": "",
+        "jsonContent": [
+          "8,599"
+        ],
+        "solution": [
+          [
+            "8,599"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/25.mp3",
+        "timeStart": 26.47,
+        "timeEnd": 28.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13813/list"
+      },
+      {
+        "id": 13814,
+        "position": 26,
+        "content": "581",
+        "defaultInput": "",
+        "jsonContent": [
+          "581"
+        ],
+        "solution": [
+          [
+            "581"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/26.mp3",
+        "timeStart": 28.45,
+        "timeEnd": 29.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13814/list"
+      },
+      {
+        "id": 13815,
+        "position": 27,
+        "content": "16",
+        "defaultInput": "",
+        "jsonContent": [
+          "16"
+        ],
+        "solution": [
+          [
+            "16"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/27.mp3",
+        "timeStart": 29.85,
+        "timeEnd": 30.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13815/list"
+      },
+      {
+        "id": 13816,
+        "position": 28,
+        "content": "460",
+        "defaultInput": "",
+        "jsonContent": [
+          "460"
+        ],
+        "solution": [
+          [
+            "460"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/28.mp3",
+        "timeStart": 30.55,
+        "timeEnd": 31.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13816/list"
+      },
+      {
+        "id": 13817,
+        "position": 29,
+        "content": "21",
+        "defaultInput": "",
+        "jsonContent": [
+          "21"
+        ],
+        "solution": [
+          [
+            "21"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/29.mp3",
+        "timeStart": 31.83,
+        "timeEnd": 32.62,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13817/list"
+      },
+      {
+        "id": 13818,
+        "position": 30,
+        "content": "83",
+        "defaultInput": "",
+        "jsonContent": [
+          "83"
+        ],
+        "solution": [
+          [
+            "83"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/30.mp3",
+        "timeStart": 32.65,
+        "timeEnd": 33.53,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13818/list"
+      },
+      {
+        "id": 13819,
+        "position": 31,
+        "content": "7,044",
+        "defaultInput": "",
+        "jsonContent": [
+          "7,044"
+        ],
+        "solution": [
+          [
+            "7,044"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/31.mp3",
+        "timeStart": 33.53,
+        "timeEnd": 35.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13819/list"
+      },
+      {
+        "id": 13820,
+        "position": 32,
+        "content": "9,231",
+        "defaultInput": "",
+        "jsonContent": [
+          "9,231"
+        ],
+        "solution": [
+          [
+            "9,231"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/32.mp3",
+        "timeStart": 35.11,
+        "timeEnd": 37.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13820/list"
+      },
+      {
+        "id": 13821,
+        "position": 33,
+        "content": "32",
+        "defaultInput": "",
+        "jsonContent": [
+          "32"
+        ],
+        "solution": [
+          [
+            "32"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/33.mp3",
+        "timeStart": 37.07,
+        "timeEnd": 37.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13821/list"
+      },
+      {
+        "id": 13822,
+        "position": 34,
+        "content": "62",
+        "defaultInput": "",
+        "jsonContent": [
+          "62"
+        ],
+        "solution": [
+          [
+            "62"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/34.mp3",
+        "timeStart": 37.85,
+        "timeEnd": 38.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13822/list"
+      },
+      {
+        "id": 13823,
+        "position": 35,
+        "content": "4,726",
+        "defaultInput": "",
+        "jsonContent": [
+          "4,726"
+        ],
+        "solution": [
+          [
+            "4,726"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/35.mp3",
+        "timeStart": 38.68,
+        "timeEnd": 40.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13823/list"
+      },
+      {
+        "id": 13824,
+        "position": 36,
+        "content": "3,882",
+        "defaultInput": "",
+        "jsonContent": [
+          "3,882"
+        ],
+        "solution": [
+          [
+            "3,882"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/36.mp3",
+        "timeStart": 40.8,
+        "timeEnd": 42.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13824/list"
+      },
+      {
+        "id": 13825,
+        "position": 37,
+        "content": "8,131",
+        "defaultInput": "",
+        "jsonContent": [
+          "8,131"
+        ],
+        "solution": [
+          [
+            "8,131"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/37.mp3",
+        "timeStart": 42.8,
+        "timeEnd": 44.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13825/list"
+      },
+      {
+        "id": 13826,
+        "position": 38,
+        "content": "415",
+        "defaultInput": "",
+        "jsonContent": [
+          "415"
+        ],
+        "solution": [
+          [
+            "415"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/38.mp3",
+        "timeStart": 44.62,
+        "timeEnd": 46.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13826/list"
+      },
+      {
+        "id": 13827,
+        "position": 39,
+        "content": "41",
+        "defaultInput": "",
+        "jsonContent": [
+          "41"
+        ],
+        "solution": [
+          [
+            "41"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/39.mp3",
+        "timeStart": 46.02,
+        "timeEnd": 46.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13827/list"
+      },
+      {
+        "id": 13828,
+        "position": 40,
+        "content": "406",
+        "defaultInput": "",
+        "jsonContent": [
+          "406"
+        ],
+        "solution": [
+          [
+            "406"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/40.mp3",
+        "timeStart": 46.82,
+        "timeEnd": 48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13828/list"
+      },
+      {
+        "id": 13829,
+        "position": 41,
+        "content": "205",
+        "defaultInput": "",
+        "jsonContent": [
+          "205"
+        ],
+        "solution": [
+          [
+            "205"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/41.mp3",
+        "timeStart": 48,
+        "timeEnd": 49.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13829/list"
+      },
+      {
+        "id": 13830,
+        "position": 42,
+        "content": "490",
+        "defaultInput": "",
+        "jsonContent": [
+          "490"
+        ],
+        "solution": [
+          [
+            "490"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/42.mp3",
+        "timeStart": 49.27,
+        "timeEnd": 50.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13830/list"
+      },
+      {
+        "id": 13831,
+        "position": 43,
+        "content": "22",
+        "defaultInput": "",
+        "jsonContent": [
+          "22"
+        ],
+        "solution": [
+          [
+            "22"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/43.mp3",
+        "timeStart": 50.47,
+        "timeEnd": 51.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13831/list"
+      },
+      {
+        "id": 13832,
+        "position": 44,
+        "content": "164",
+        "defaultInput": "",
+        "jsonContent": [
+          "164"
+        ],
+        "solution": [
+          [
+            "164"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/44.mp3",
+        "timeStart": 51.25,
+        "timeEnd": 52.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13832/list"
+      },
+      {
+        "id": 13833,
+        "position": 45,
+        "content": "9,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "9,000"
+        ],
+        "solution": [
+          [
+            "9,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/45.mp3",
+        "timeStart": 52.61,
+        "timeEnd": 53.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13833/list"
+      },
+      {
+        "id": 13834,
+        "position": 46,
+        "content": "342",
+        "defaultInput": "",
+        "jsonContent": [
+          "342"
+        ],
+        "solution": [
+          [
+            "342"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/46.mp3",
+        "timeStart": 53.68,
+        "timeEnd": 55.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13834/list"
+      },
+      {
+        "id": 13835,
+        "position": 47,
+        "content": "99",
+        "defaultInput": "",
+        "jsonContent": [
+          "99"
+        ],
+        "solution": [
+          [
+            "99"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/47.mp3",
+        "timeStart": 55.04,
+        "timeEnd": 55.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13835/list"
+      },
+      {
+        "id": 13836,
+        "position": 48,
+        "content": "7,275",
+        "defaultInput": "",
+        "jsonContent": [
+          "7,275"
+        ],
+        "solution": [
+          [
+            "7,275"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/48.mp3",
+        "timeStart": 55.95,
+        "timeEnd": 58.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13836/list"
+      },
+      {
+        "id": 13837,
+        "position": 49,
+        "content": "23",
+        "defaultInput": "",
+        "jsonContent": [
+          "23"
+        ],
+        "solution": [
+          [
+            "23"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/49.mp3",
+        "timeStart": 58.27,
+        "timeEnd": 59.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13837/list"
+      },
+      {
+        "id": 13838,
+        "position": 50,
+        "content": "27",
+        "defaultInput": "",
+        "jsonContent": [
+          "27"
+        ],
+        "solution": [
+          [
+            "27"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/50.mp3",
+        "timeStart": 59.12,
+        "timeEnd": 59.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13838/list"
+      },
+      {
+        "id": 13839,
+        "position": 51,
+        "content": "9,999",
+        "defaultInput": "",
+        "jsonContent": [
+          "9,999"
+        ],
+        "solution": [
+          [
+            "9,999"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/51.mp3",
+        "timeStart": 59.9,
+        "timeEnd": 61.82,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13839/list"
+      },
+      {
+        "id": 13840,
+        "position": 52,
+        "content": "363",
+        "defaultInput": "",
+        "jsonContent": [
+          "363"
+        ],
+        "solution": [
+          [
+            "363"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/52.mp3",
+        "timeStart": 61.81,
+        "timeEnd": 63.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13840/list"
+      },
+      {
+        "id": 13841,
+        "position": 53,
+        "content": "55",
+        "defaultInput": "",
+        "jsonContent": [
+          "55"
+        ],
+        "solution": [
+          [
+            "55"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/53.mp3",
+        "timeStart": 63.31,
+        "timeEnd": 64.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13841/list"
+      },
+      {
+        "id": 13842,
+        "position": 54,
+        "content": "518",
+        "defaultInput": "",
+        "jsonContent": [
+          "518"
+        ],
+        "solution": [
+          [
+            "518"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/54.mp3",
+        "timeStart": 64.07,
+        "timeEnd": 65.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13842/list"
+      },
+      {
+        "id": 13843,
+        "position": 55,
+        "content": "9,044",
+        "defaultInput": "",
+        "jsonContent": [
+          "9,044"
+        ],
+        "solution": [
+          [
+            "9,044"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/55.mp3",
+        "timeStart": 65.26,
+        "timeEnd": 66.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13843/list"
+      },
+      {
+        "id": 13844,
+        "position": 56,
+        "content": "4",
+        "defaultInput": "",
+        "jsonContent": [
+          "4"
+        ],
+        "solution": [
+          [
+            "4"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/56.mp3",
+        "timeStart": 66.91,
+        "timeEnd": 67.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13844/list"
+      },
+      {
+        "id": 13845,
+        "position": 57,
+        "content": "839",
+        "defaultInput": "",
+        "jsonContent": [
+          "839"
+        ],
+        "solution": [
+          [
+            "839"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/57.mp3",
+        "timeStart": 67.63,
+        "timeEnd": 69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13845/list"
+      },
+      {
+        "id": 13846,
+        "position": 58,
+        "content": "875",
+        "defaultInput": "",
+        "jsonContent": [
+          "875"
+        ],
+        "solution": [
+          [
+            "875"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/58.mp3",
+        "timeStart": 68.99,
+        "timeEnd": 70.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13846/list"
+      },
+      {
+        "id": 13847,
+        "position": 59,
+        "content": "475",
+        "defaultInput": "",
+        "jsonContent": [
+          "475"
+        ],
+        "solution": [
+          [
+            "475"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/59.mp3",
+        "timeStart": 70.44,
+        "timeEnd": 71.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13847/list"
+      },
+      {
+        "id": 13848,
+        "position": 60,
+        "content": "214",
+        "defaultInput": "",
+        "jsonContent": [
+          "214"
+        ],
+        "solution": [
+          [
+            "214"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/60.mp3",
+        "timeStart": 71.9,
+        "timeEnd": 73.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13848/list"
+      },
+      {
+        "id": 13849,
+        "position": 61,
+        "content": "1",
+        "defaultInput": "",
+        "jsonContent": [
+          "1"
+        ],
+        "solution": [
+          [
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/61.mp3",
+        "timeStart": 73.38,
+        "timeEnd": 74.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13849/list"
+      },
+      {
+        "id": 13850,
+        "position": 62,
+        "content": "136",
+        "defaultInput": "",
+        "jsonContent": [
+          "136"
+        ],
+        "solution": [
+          [
+            "136"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/62.mp3",
+        "timeStart": 73.99,
+        "timeEnd": 75.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13850/list"
+      },
+      {
+        "id": 13851,
+        "position": 63,
+        "content": "43",
+        "defaultInput": "",
+        "jsonContent": [
+          "43"
+        ],
+        "solution": [
+          [
+            "43"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/63.mp3",
+        "timeStart": 75.47,
+        "timeEnd": 76.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13851/list"
+      },
+      {
+        "id": 13852,
+        "position": 64,
+        "content": "25",
+        "defaultInput": "",
+        "jsonContent": [
+          "25"
+        ],
+        "solution": [
+          [
+            "25"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/64.mp3",
+        "timeStart": 76.31,
+        "timeEnd": 77.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13852/list"
+      },
+      {
+        "id": 13853,
+        "position": 65,
+        "content": "936",
+        "defaultInput": "",
+        "jsonContent": [
+          "936"
+        ],
+        "solution": [
+          [
+            "936"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/65.mp3",
+        "timeStart": 77.12,
+        "timeEnd": 78.44,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13853/list"
+      },
+      {
+        "id": 13854,
+        "position": 66,
+        "content": "7,978",
+        "defaultInput": "",
+        "jsonContent": [
+          "7,978"
+        ],
+        "solution": [
+          [
+            "7,978"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/66.mp3",
+        "timeStart": 78.44,
+        "timeEnd": 80.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13854/list"
+      },
+      {
+        "id": 13855,
+        "position": 67,
+        "content": "853",
+        "defaultInput": "",
+        "jsonContent": [
+          "853"
+        ],
+        "solution": [
+          [
+            "853"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/67.mp3",
+        "timeStart": 80.48,
+        "timeEnd": 81.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13855/list"
+      },
+      {
+        "id": 13856,
+        "position": 68,
+        "content": "623",
+        "defaultInput": "",
+        "jsonContent": [
+          "623"
+        ],
+        "solution": [
+          [
+            "623"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/68.mp3",
+        "timeStart": 81.88,
+        "timeEnd": 83.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13856/list"
+      },
+      {
+        "id": 13857,
+        "position": 69,
+        "content": "29",
+        "defaultInput": "",
+        "jsonContent": [
+          "29"
+        ],
+        "solution": [
+          [
+            "29"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/69.mp3",
+        "timeStart": 83.35,
+        "timeEnd": 84.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13857/list"
+      },
+      {
+        "id": 13858,
+        "position": 70,
+        "content": "3,708",
+        "defaultInput": "",
+        "jsonContent": [
+          "3,708"
+        ],
+        "solution": [
+          [
+            "3,708"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/70.mp3",
+        "timeStart": 84.16,
+        "timeEnd": 85.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13858/list"
+      },
+      {
+        "id": 13859,
+        "position": 71,
+        "content": "80",
+        "defaultInput": "",
+        "jsonContent": [
+          "80"
+        ],
+        "solution": [
+          [
+            "80"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/71.mp3",
+        "timeStart": 85.93,
+        "timeEnd": 86.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13859/list"
+      },
+      {
+        "id": 13860,
+        "position": 72,
+        "content": "6,164",
+        "defaultInput": "",
+        "jsonContent": [
+          "6,164"
+        ],
+        "solution": [
+          [
+            "6,164"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/72.mp3",
+        "timeStart": 86.64,
+        "timeEnd": 88.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13860/list"
+      },
+      {
+        "id": 13861,
+        "position": 73,
+        "content": "63",
+        "defaultInput": "",
+        "jsonContent": [
+          "63"
+        ],
+        "solution": [
+          [
+            "63"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/73.mp3",
+        "timeStart": 88.75,
+        "timeEnd": 89.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13861/list"
+      },
+      {
+        "id": 13862,
+        "position": 74,
+        "content": "7,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "7,000"
+        ],
+        "solution": [
+          [
+            "7,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/74.mp3",
+        "timeStart": 89.56,
+        "timeEnd": 90.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13862/list"
+      },
+      {
+        "id": 13863,
+        "position": 75,
+        "content": "9,417",
+        "defaultInput": "",
+        "jsonContent": [
+          "9,417"
+        ],
+        "solution": [
+          [
+            "9,417"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/75.mp3",
+        "timeStart": 90.68,
+        "timeEnd": 92.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13863/list"
+      },
+      {
+        "id": 13864,
+        "position": 76,
+        "content": "6,403",
+        "defaultInput": "",
+        "jsonContent": [
+          "6,403"
+        ],
+        "solution": [
+          [
+            "6,403"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/76.mp3",
+        "timeStart": 92.76,
+        "timeEnd": 94.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13864/list"
+      },
+      {
+        "id": 13865,
+        "position": 77,
+        "content": "655",
+        "defaultInput": "",
+        "jsonContent": [
+          "655"
+        ],
+        "solution": [
+          [
+            "655"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/77.mp3",
+        "timeStart": 94.55,
+        "timeEnd": 95.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13865/list"
+      },
+      {
+        "id": 13866,
+        "position": 78,
+        "content": "283",
+        "defaultInput": "",
+        "jsonContent": [
+          "283"
+        ],
+        "solution": [
+          [
+            "283"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/78.mp3",
+        "timeStart": 95.94,
+        "timeEnd": 97.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13866/list"
+      },
+      {
+        "id": 13867,
+        "position": 79,
+        "content": "278",
+        "defaultInput": "",
+        "jsonContent": [
+          "278"
+        ],
+        "solution": [
+          [
+            "278"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/79.mp3",
+        "timeStart": 97.21,
+        "timeEnd": 98.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13867/list"
+      },
+      {
+        "id": 13868,
+        "position": 80,
+        "content": "4,957",
+        "defaultInput": "",
+        "jsonContent": [
+          "4,957"
+        ],
+        "solution": [
+          [
+            "4,957"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/80.mp3",
+        "timeStart": 98.64,
+        "timeEnd": 100.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13868/list"
+      },
+      {
+        "id": 13869,
+        "position": 81,
+        "content": "900",
+        "defaultInput": "",
+        "jsonContent": [
+          "900"
+        ],
+        "solution": [
+          [
+            "900"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/81.mp3",
+        "timeStart": 100.74,
+        "timeEnd": 101.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13869/list"
+      },
+      {
+        "id": 13870,
+        "position": 82,
+        "content": "5,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "5,000"
+        ],
+        "solution": [
+          [
+            "5,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/82.mp3",
+        "timeStart": 101.66,
+        "timeEnd": 102.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13870/list"
+      },
+      {
+        "id": 13871,
+        "position": 83,
+        "content": "600",
+        "defaultInput": "",
+        "jsonContent": [
+          "600"
+        ],
+        "solution": [
+          [
+            "600"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/83.mp3",
+        "timeStart": 102.73,
+        "timeEnd": 103.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13871/list"
+      },
+      {
+        "id": 13872,
+        "position": 84,
+        "content": "680",
+        "defaultInput": "",
+        "jsonContent": [
+          "680"
+        ],
+        "solution": [
+          [
+            "680"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/84.mp3",
+        "timeStart": 103.59,
+        "timeEnd": 104.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13872/list"
+      },
+      {
+        "id": 13873,
+        "position": 85,
+        "content": "123",
+        "defaultInput": "",
+        "jsonContent": [
+          "123"
+        ],
+        "solution": [
+          [
+            "123"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/85.mp3",
+        "timeStart": 104.79,
+        "timeEnd": 106.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13873/list"
+      },
+      {
+        "id": 13874,
+        "position": 86,
+        "content": "157",
+        "defaultInput": "",
+        "jsonContent": [
+          "157"
+        ],
+        "solution": [
+          [
+            "157"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/86.mp3",
+        "timeStart": 106.21,
+        "timeEnd": 107.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13874/list"
+      },
+      {
+        "id": 13875,
+        "position": 87,
+        "content": "6,790",
+        "defaultInput": "",
+        "jsonContent": [
+          "6,790"
+        ],
+        "solution": [
+          [
+            "6,790"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/87.mp3",
+        "timeStart": 107.63,
+        "timeEnd": 109.55,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13875/list"
+      },
+      {
+        "id": 13876,
+        "position": 88,
+        "content": "828",
+        "defaultInput": "",
+        "jsonContent": [
+          "828"
+        ],
+        "solution": [
+          [
+            "828"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/88.mp3",
+        "timeStart": 109.55,
+        "timeEnd": 110.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13876/list"
+      },
+      {
+        "id": 13877,
+        "position": 89,
+        "content": "869",
+        "defaultInput": "",
+        "jsonContent": [
+          "869"
+        ],
+        "solution": [
+          [
+            "869"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/89.mp3",
+        "timeStart": 110.8,
+        "timeEnd": 112.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13877/list"
+      },
+      {
+        "id": 13878,
+        "position": 90,
+        "content": "14",
+        "defaultInput": "",
+        "jsonContent": [
+          "14"
+        ],
+        "solution": [
+          [
+            "14"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/90.mp3",
+        "timeStart": 112.37,
+        "timeEnd": 113.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13878/list"
+      },
+      {
+        "id": 13879,
+        "position": 91,
+        "content": "397",
+        "defaultInput": "",
+        "jsonContent": [
+          "397"
+        ],
+        "solution": [
+          [
+            "397"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/91.mp3",
+        "timeStart": 113.04,
+        "timeEnd": 114.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13879/list"
+      },
+      {
+        "id": 13880,
+        "position": 92,
+        "content": "999",
+        "defaultInput": "",
+        "jsonContent": [
+          "999"
+        ],
+        "solution": [
+          [
+            "999"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/92.mp3",
+        "timeStart": 114.56,
+        "timeEnd": 115.91,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/13880/list"
+      },
+      {
+        "id": 13881,
+        "position": 93,
+        "content": "2,890",
+        "defaultInput": "",
+        "jsonContent": [
+          "2,890"
+        ],
+        "solution": [
+          [
+            "2,890"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/93.mp3",
+        "timeStart": 115.97,
+        "timeEnd": 117.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13881/list"
+      },
+      {
+        "id": 13882,
+        "position": 94,
+        "content": "796",
+        "defaultInput": "",
+        "jsonContent": [
+          "796"
+        ],
+        "solution": [
+          [
+            "796"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/94.mp3",
+        "timeStart": 118.01,
+        "timeEnd": 119.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13882/list"
+      },
+      {
+        "id": 13883,
+        "position": 95,
+        "content": "20",
+        "defaultInput": "",
+        "jsonContent": [
+          "20"
+        ],
+        "solution": [
+          [
+            "20"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/95.mp3",
+        "timeStart": 119.7,
+        "timeEnd": 120.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13883/list"
+      },
+      {
+        "id": 13884,
+        "position": 96,
+        "content": "802",
+        "defaultInput": "",
+        "jsonContent": [
+          "802"
+        ],
+        "solution": [
+          [
+            "802"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/96.mp3",
+        "timeStart": 120.28,
+        "timeEnd": 121.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13884/list"
+      },
+      {
+        "id": 13885,
+        "position": 97,
+        "content": "534",
+        "defaultInput": "",
+        "jsonContent": [
+          "534"
+        ],
+        "solution": [
+          [
+            "534"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/97.mp3",
+        "timeStart": 121.35,
+        "timeEnd": 122.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13885/list"
+      },
+      {
+        "id": 13886,
+        "position": 98,
+        "content": "3,352",
+        "defaultInput": "",
+        "jsonContent": [
+          "3,352"
+        ],
+        "solution": [
+          [
+            "3,352"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/98.mp3",
+        "timeStart": 122.92,
+        "timeEnd": 125.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13886/list"
+      },
+      {
+        "id": 13887,
+        "position": 99,
+        "content": "66",
+        "defaultInput": "",
+        "jsonContent": [
+          "66"
+        ],
+        "solution": [
+          [
+            "66"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/99.mp3",
+        "timeStart": 125.08,
+        "timeEnd": 125.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13887/list"
+      },
+      {
+        "id": 13888,
+        "position": 100,
+        "content": "35",
+        "defaultInput": "",
+        "jsonContent": [
+          "35"
+        ],
+        "solution": [
+          [
+            "35"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/100.mp3",
+        "timeStart": 125.99,
+        "timeEnd": 126.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13888/list"
+      },
+      {
+        "id": 13889,
+        "position": 101,
+        "content": "4,195",
+        "defaultInput": "",
+        "jsonContent": [
+          "4,195"
+        ],
+        "solution": [
+          [
+            "4,195"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/101.mp3",
+        "timeStart": 126.76,
+        "timeEnd": 128.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13889/list"
+      },
+      {
+        "id": 13890,
+        "position": 102,
+        "content": "662",
+        "defaultInput": "",
+        "jsonContent": [
+          "662"
+        ],
+        "solution": [
+          [
+            "662"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/102.mp3",
+        "timeStart": 128.75,
+        "timeEnd": 130.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13890/list"
+      },
+      {
+        "id": 13891,
+        "position": 103,
+        "content": "81",
+        "defaultInput": "",
+        "jsonContent": [
+          "81"
+        ],
+        "solution": [
+          [
+            "81"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/103.mp3",
+        "timeStart": 130.18,
+        "timeEnd": 130.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13891/list"
+      },
+      {
+        "id": 13892,
+        "position": 104,
+        "content": "948",
+        "defaultInput": "",
+        "jsonContent": [
+          "948"
+        ],
+        "solution": [
+          [
+            "948"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/104.mp3",
+        "timeStart": 131.03,
+        "timeEnd": 132.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13892/list"
+      },
+      {
+        "id": 13893,
+        "position": 105,
+        "content": "1,951",
+        "defaultInput": "",
+        "jsonContent": [
+          "1,951"
+        ],
+        "solution": [
+          [
+            "1,951"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/105.mp3",
+        "timeStart": 132.25,
+        "timeEnd": 134.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13893/list"
+      },
+      {
+        "id": 13894,
+        "position": 106,
+        "content": "6,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "6,000"
+        ],
+        "solution": [
+          [
+            "6,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/106.mp3",
+        "timeStart": 134.25,
+        "timeEnd": 135.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13894/list"
+      },
+      {
+        "id": 13895,
+        "position": 107,
+        "content": "56",
+        "defaultInput": "",
+        "jsonContent": [
+          "56"
+        ],
+        "solution": [
+          [
+            "56"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/107.mp3",
+        "timeStart": 135.49,
+        "timeEnd": 136.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13895/list"
+      },
+      {
+        "id": 13896,
+        "position": 108,
+        "content": "92",
+        "defaultInput": "",
+        "jsonContent": [
+          "92"
+        ],
+        "solution": [
+          [
+            "92"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/108.mp3",
+        "timeStart": 136.28,
+        "timeEnd": 137.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13896/list"
+      },
+      {
+        "id": 13897,
+        "position": 109,
+        "content": "96",
+        "defaultInput": "",
+        "jsonContent": [
+          "96"
+        ],
+        "solution": [
+          [
+            "96"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/109.mp3",
+        "timeStart": 137.08,
+        "timeEnd": 137.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13897/list"
+      },
+      {
+        "id": 13898,
+        "position": 110,
+        "content": "77",
+        "defaultInput": "",
+        "jsonContent": [
+          "77"
+        ],
+        "solution": [
+          [
+            "77"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/110.mp3",
+        "timeStart": 137.94,
+        "timeEnd": 138.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13898/list"
+      },
+      {
+        "id": 13899,
+        "position": 111,
+        "content": "140",
+        "defaultInput": "",
+        "jsonContent": [
+          "140"
+        ],
+        "solution": [
+          [
+            "140"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/111.mp3",
+        "timeStart": 138.84,
+        "timeEnd": 139.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13899/list"
+      },
+      {
+        "id": 13900,
+        "position": 112,
+        "content": "58",
+        "defaultInput": "",
+        "jsonContent": [
+          "58"
+        ],
+        "solution": [
+          [
+            "58"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/112.mp3",
+        "timeStart": 140.02,
+        "timeEnd": 140.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13900/list"
+      },
+      {
+        "id": 13901,
+        "position": 113,
+        "content": "6,245",
+        "defaultInput": "",
+        "jsonContent": [
+          "6,245"
+        ],
+        "solution": [
+          [
+            "6,245"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/113.mp3",
+        "timeStart": 140.75,
+        "timeEnd": 142.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13901/list"
+      },
+      {
+        "id": 13902,
+        "position": 114,
+        "content": "48",
+        "defaultInput": "",
+        "jsonContent": [
+          "48"
+        ],
+        "solution": [
+          [
+            "48"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/114.mp3",
+        "timeStart": 142.86,
+        "timeEnd": 143.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13902/list"
+      },
+      {
+        "id": 13903,
+        "position": 115,
+        "content": "2,191",
+        "defaultInput": "",
+        "jsonContent": [
+          "2,191"
+        ],
+        "solution": [
+          [
+            "2,191"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/115.mp3",
+        "timeStart": 143.66,
+        "timeEnd": 145.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13903/list"
+      },
+      {
+        "id": 13904,
+        "position": 116,
+        "content": "7,776",
+        "defaultInput": "",
+        "jsonContent": [
+          "7,776"
+        ],
+        "solution": [
+          [
+            "7,776"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/116.mp3",
+        "timeStart": 145.64,
+        "timeEnd": 147.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13904/list"
+      },
+      {
+        "id": 13905,
+        "position": 117,
+        "content": "2,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "2,000"
+        ],
+        "solution": [
+          [
+            "2,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/117.mp3",
+        "timeStart": 148.05,
+        "timeEnd": 149.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13905/list"
+      },
+      {
+        "id": 13906,
+        "position": 118,
+        "content": "700",
+        "defaultInput": "",
+        "jsonContent": [
+          "700"
+        ],
+        "solution": [
+          [
+            "700"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/118.mp3",
+        "timeStart": 149.08,
+        "timeEnd": 150.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13906/list"
+      },
+      {
+        "id": 13907,
+        "position": 119,
+        "content": "172",
+        "defaultInput": "",
+        "jsonContent": [
+          "172"
+        ],
+        "solution": [
+          [
+            "172"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/119.mp3",
+        "timeStart": 150.09,
+        "timeEnd": 151.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13907/list"
+      },
+      {
+        "id": 13908,
+        "position": 120,
+        "content": "79",
+        "defaultInput": "",
+        "jsonContent": [
+          "79"
+        ],
+        "solution": [
+          [
+            "79"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/120.mp3",
+        "timeStart": 151.49,
+        "timeEnd": 152.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13908/list"
+      },
+      {
+        "id": 13909,
+        "position": 121,
+        "content": "293",
+        "defaultInput": "",
+        "jsonContent": [
+          "293"
+        ],
+        "solution": [
+          [
+            "293"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/121.mp3",
+        "timeStart": 152.55,
+        "timeEnd": 153.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13909/list"
+      },
+      {
+        "id": 13910,
+        "position": 122,
+        "content": "994",
+        "defaultInput": "",
+        "jsonContent": [
+          "994"
+        ],
+        "solution": [
+          [
+            "994"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/122.mp3",
+        "timeStart": 153.77,
+        "timeEnd": 155.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13910/list"
+      },
+      {
+        "id": 13911,
+        "position": 123,
+        "content": "71",
+        "defaultInput": "",
+        "jsonContent": [
+          "71"
+        ],
+        "solution": [
+          [
+            "71"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/123.mp3",
+        "timeStart": 155.18,
+        "timeEnd": 155.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13911/list"
+      },
+      {
+        "id": 13912,
+        "position": 124,
+        "content": "50",
+        "defaultInput": "",
+        "jsonContent": [
+          "50"
+        ],
+        "solution": [
+          [
+            "50"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/124.mp3",
+        "timeStart": 156.1,
+        "timeEnd": 156.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13912/list"
+      },
+      {
+        "id": 13913,
+        "position": 125,
+        "content": "973",
+        "defaultInput": "",
+        "jsonContent": [
+          "973"
+        ],
+        "solution": [
+          [
+            "973"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/125.mp3",
+        "timeStart": 156.72,
+        "timeEnd": 158.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13913/list"
+      },
+      {
+        "id": 13914,
+        "position": 126,
+        "content": "18",
+        "defaultInput": "",
+        "jsonContent": [
+          "18"
+        ],
+        "solution": [
+          [
+            "18"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/126.mp3",
+        "timeStart": 158.16,
+        "timeEnd": 158.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13914/list"
+      },
+      {
+        "id": 13915,
+        "position": 127,
+        "content": "780",
+        "defaultInput": "",
+        "jsonContent": [
+          "780"
+        ],
+        "solution": [
+          [
+            "780"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/127.mp3",
+        "timeStart": 158.79,
+        "timeEnd": 160.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13915/list"
+      },
+      {
+        "id": 13916,
+        "position": 128,
+        "content": "8,380",
+        "defaultInput": "",
+        "jsonContent": [
+          "8,380"
+        ],
+        "solution": [
+          [
+            "8,380"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/128.mp3",
+        "timeStart": 160.08,
+        "timeEnd": 161.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13916/list"
+      },
+      {
+        "id": 13917,
+        "position": 129,
+        "content": "672",
+        "defaultInput": "",
+        "jsonContent": [
+          "672"
+        ],
+        "solution": [
+          [
+            "672"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/129.mp3",
+        "timeStart": 161.74,
+        "timeEnd": 163.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13917/list"
+      },
+      {
+        "id": 13918,
+        "position": 130,
+        "content": "6",
+        "defaultInput": "",
+        "jsonContent": [
+          "6"
+        ],
+        "solution": [
+          [
+            "6"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/130.mp3",
+        "timeStart": 163.24,
+        "timeEnd": 163.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13918/list"
+      },
+      {
+        "id": 13919,
+        "position": 131,
+        "content": "75",
+        "defaultInput": "",
+        "jsonContent": [
+          "75"
+        ],
+        "solution": [
+          [
+            "75"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/131.mp3",
+        "timeStart": 163.89,
+        "timeEnd": 164.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13919/list"
+      },
+      {
+        "id": 13920,
+        "position": 132,
+        "content": "552",
+        "defaultInput": "",
+        "jsonContent": [
+          "552"
+        ],
+        "solution": [
+          [
+            "552"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/132.mp3",
+        "timeStart": 164.8,
+        "timeEnd": 166.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13920/list"
+      },
+      {
+        "id": 13921,
+        "position": 133,
+        "content": "442",
+        "defaultInput": "",
+        "jsonContent": [
+          "442"
+        ],
+        "solution": [
+          [
+            "442"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/133.mp3",
+        "timeStart": 166.13,
+        "timeEnd": 167.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13921/list"
+      },
+      {
+        "id": 13922,
+        "position": 134,
+        "content": "67",
+        "defaultInput": "",
+        "jsonContent": [
+          "67"
+        ],
+        "solution": [
+          [
+            "67"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/134.mp3",
+        "timeStart": 167.65,
+        "timeEnd": 168.48,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13922/list"
+      },
+      {
+        "id": 13923,
+        "position": 135,
+        "content": "84",
+        "defaultInput": "",
+        "jsonContent": [
+          "84"
+        ],
+        "solution": [
+          [
+            "84"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/135.mp3",
+        "timeStart": 168.48,
+        "timeEnd": 169.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13923/list"
+      },
+      {
+        "id": 13924,
+        "position": 136,
+        "content": "87",
+        "defaultInput": "",
+        "jsonContent": [
+          "87"
+        ],
+        "solution": [
+          [
+            "87"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/136.mp3",
+        "timeStart": 169.35,
+        "timeEnd": 170.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13924/list"
+      },
+      {
+        "id": 13925,
+        "position": 137,
+        "content": "10",
+        "defaultInput": "",
+        "jsonContent": [
+          "10"
+        ],
+        "solution": [
+          [
+            "10"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/137.mp3",
+        "timeStart": 170.29,
+        "timeEnd": 170.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13925/list"
+      },
+      {
+        "id": 13926,
+        "position": 138,
+        "content": "28",
+        "defaultInput": "",
+        "jsonContent": [
+          "28"
+        ],
+        "solution": [
+          [
+            "28"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/138.mp3",
+        "timeStart": 170.92,
+        "timeEnd": 171.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13926/list"
+      },
+      {
+        "id": 13927,
+        "position": 139,
+        "content": "12",
+        "defaultInput": "",
+        "jsonContent": [
+          "12"
+        ],
+        "solution": [
+          [
+            "12"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/139.mp3",
+        "timeStart": 171.59,
+        "timeEnd": 172.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13927/list"
+      },
+      {
+        "id": 13928,
+        "position": 140,
+        "content": "47",
+        "defaultInput": "",
+        "jsonContent": [
+          "47"
+        ],
+        "solution": [
+          [
+            "47"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/140.mp3",
+        "timeStart": 172.3,
+        "timeEnd": 173.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13928/list"
+      },
+      {
+        "id": 13929,
+        "position": 141,
+        "content": "19",
+        "defaultInput": "",
+        "jsonContent": [
+          "19"
+        ],
+        "solution": [
+          [
+            "19"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/141.mp3",
+        "timeStart": 173.15,
+        "timeEnd": 173.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13929/list"
+      },
+      {
+        "id": 13930,
+        "position": 142,
+        "content": "78",
+        "defaultInput": "",
+        "jsonContent": [
+          "78"
+        ],
+        "solution": [
+          [
+            "78"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/142.mp3",
+        "timeStart": 173.83,
+        "timeEnd": 174.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13930/list"
+      },
+      {
+        "id": 13931,
+        "position": 143,
+        "content": "76",
+        "defaultInput": "",
+        "jsonContent": [
+          "76"
+        ],
+        "solution": [
+          [
+            "76"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/143.mp3",
+        "timeStart": 174.58,
+        "timeEnd": 175.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13931/list"
+      },
+      {
+        "id": 13932,
+        "position": 144,
+        "content": "3,182",
+        "defaultInput": "",
+        "jsonContent": [
+          "3,182"
+        ],
+        "solution": [
+          [
+            "3,182"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/144.mp3",
+        "timeStart": 175.64,
+        "timeEnd": 177.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13932/list"
+      },
+      {
+        "id": 13933,
+        "position": 145,
+        "content": "5,921",
+        "defaultInput": "",
+        "jsonContent": [
+          "5,921"
+        ],
+        "solution": [
+          [
+            "5,921"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/145.mp3",
+        "timeStart": 177.74,
+        "timeEnd": 179.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13933/list"
+      },
+      {
+        "id": 13934,
+        "position": 146,
+        "content": "1,419",
+        "defaultInput": "",
+        "jsonContent": [
+          "1,419"
+        ],
+        "solution": [
+          [
+            "1,419"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/146.mp3",
+        "timeStart": 179.59,
+        "timeEnd": 181.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13934/list"
+      },
+      {
+        "id": 13935,
+        "position": 147,
+        "content": "45",
+        "defaultInput": "",
+        "jsonContent": [
+          "45"
+        ],
+        "solution": [
+          [
+            "45"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/147.mp3",
+        "timeStart": 181.7,
+        "timeEnd": 182.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13935/list"
+      },
+      {
+        "id": 13936,
+        "position": 148,
+        "content": "8,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "8,000"
+        ],
+        "solution": [
+          [
+            "8,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/148.mp3",
+        "timeStart": 182.54,
+        "timeEnd": 183.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13936/list"
+      },
+      {
+        "id": 13937,
+        "position": 149,
+        "content": "2",
+        "defaultInput": "",
+        "jsonContent": [
+          "2"
+        ],
+        "solution": [
+          [
+            "2"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/149.mp3",
+        "timeStart": 183.47,
+        "timeEnd": 184.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13937/list"
+      },
+      {
+        "id": 13938,
+        "position": 150,
+        "content": "9,676",
+        "defaultInput": "",
+        "jsonContent": [
+          "9,676"
+        ],
+        "solution": [
+          [
+            "9,676"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/150.mp3",
+        "timeStart": 184.2,
+        "timeEnd": 186.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13938/list"
+      },
+      {
+        "id": 13939,
+        "position": 151,
+        "content": "59",
+        "defaultInput": "",
+        "jsonContent": [
+          "59"
+        ],
+        "solution": [
+          [
+            "59"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/151.mp3",
+        "timeStart": 186.47,
+        "timeEnd": 187.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13939/list"
+      },
+      {
+        "id": 13940,
+        "position": 152,
+        "content": "15",
+        "defaultInput": "",
+        "jsonContent": [
+          "15"
+        ],
+        "solution": [
+          [
+            "15"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/152.mp3",
+        "timeStart": 187.43,
+        "timeEnd": 188.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13940/list"
+      },
+      {
+        "id": 13941,
+        "position": 153,
+        "content": "49",
+        "defaultInput": "",
+        "jsonContent": [
+          "49"
+        ],
+        "solution": [
+          [
+            "49"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/153.mp3",
+        "timeStart": 188.12,
+        "timeEnd": 188.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13941/list"
+      },
+      {
+        "id": 13942,
+        "position": 154,
+        "content": "72",
+        "defaultInput": "",
+        "jsonContent": [
+          "72"
+        ],
+        "solution": [
+          [
+            "72"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/154.mp3",
+        "timeStart": 188.91,
+        "timeEnd": 189.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13942/list"
+      },
+      {
+        "id": 13943,
+        "position": 155,
+        "content": "540",
+        "defaultInput": "",
+        "jsonContent": [
+          "540"
+        ],
+        "solution": [
+          [
+            "540"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/155.mp3",
+        "timeStart": 189.82,
+        "timeEnd": 190.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13943/list"
+      },
+      {
+        "id": 13944,
+        "position": 156,
+        "content": "88",
+        "defaultInput": "",
+        "jsonContent": [
+          "88"
+        ],
+        "solution": [
+          [
+            "88"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/156.mp3",
+        "timeStart": 190.92,
+        "timeEnd": 191.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13944/list"
+      },
+      {
+        "id": 13945,
+        "position": 157,
+        "content": "1,362",
+        "defaultInput": "",
+        "jsonContent": [
+          "1,362"
+        ],
+        "solution": [
+          [
+            "1,362"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/157.mp3",
+        "timeStart": 191.71,
+        "timeEnd": 193.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13945/list"
+      },
+      {
+        "id": 13946,
+        "position": 158,
+        "content": "86",
+        "defaultInput": "",
+        "jsonContent": [
+          "86"
+        ],
+        "solution": [
+          [
+            "86"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/158.mp3",
+        "timeStart": 193.69,
+        "timeEnd": 194.59,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13946/list"
+      },
+      {
+        "id": 13947,
+        "position": 159,
+        "content": "4,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "4,000"
+        ],
+        "solution": [
+          [
+            "4,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/159.mp3",
+        "timeStart": 194.65,
+        "timeEnd": 195.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13947/list"
+      },
+      {
+        "id": 13948,
+        "position": 160,
+        "content": "17",
+        "defaultInput": "",
+        "jsonContent": [
+          "17"
+        ],
+        "solution": [
+          [
+            "17"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/160.mp3",
+        "timeStart": 195.77,
+        "timeEnd": 196.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13948/list"
+      },
+      {
+        "id": 13949,
+        "position": 161,
+        "content": "0",
+        "defaultInput": "",
+        "jsonContent": [
+          "0"
+        ],
+        "solution": [
+          [
+            "0"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/161.mp3",
+        "timeStart": 196.54,
+        "timeEnd": 197.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13949/list"
+      },
+      {
+        "id": 13950,
+        "position": 162,
+        "content": "3,538",
+        "defaultInput": "",
+        "jsonContent": [
+          "3,538"
+        ],
+        "solution": [
+          [
+            "3,538"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/162.mp3",
+        "timeStart": 197.14,
+        "timeEnd": 199.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13950/list"
+      },
+      {
+        "id": 13951,
+        "position": 163,
+        "content": "385",
+        "defaultInput": "",
+        "jsonContent": [
+          "385"
+        ],
+        "solution": [
+          [
+            "385"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/163.mp3",
+        "timeStart": 199.24,
+        "timeEnd": 200.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13951/list"
+      },
+      {
+        "id": 13952,
+        "position": 164,
+        "content": "64",
+        "defaultInput": "",
+        "jsonContent": [
+          "64"
+        ],
+        "solution": [
+          [
+            "64"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/164.mp3",
+        "timeStart": 200.92,
+        "timeEnd": 201.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13952/list"
+      },
+      {
+        "id": 13953,
+        "position": 165,
+        "content": "810",
+        "defaultInput": "",
+        "jsonContent": [
+          "810"
+        ],
+        "solution": [
+          [
+            "810"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/165.mp3",
+        "timeStart": 201.77,
+        "timeEnd": 202.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13953/list"
+      },
+      {
+        "id": 13954,
+        "position": 166,
+        "content": "2,513",
+        "defaultInput": "",
+        "jsonContent": [
+          "2,513"
+        ],
+        "solution": [
+          [
+            "2,513"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/166.mp3",
+        "timeStart": 202.79,
+        "timeEnd": 204.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13954/list"
+      },
+      {
+        "id": 13955,
+        "position": 167,
+        "content": "3,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "3,000"
+        ],
+        "solution": [
+          [
+            "3,000"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/167.mp3",
+        "timeStart": 204.93,
+        "timeEnd": 205.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13955/list"
+      },
+      {
+        "id": 13956,
+        "position": 168,
+        "content": "844",
+        "defaultInput": "",
+        "jsonContent": [
+          "844"
+        ],
+        "solution": [
+          [
+            "844"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/168.mp3",
+        "timeStart": 206.11,
+        "timeEnd": 207.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13956/list"
+      },
+      {
+        "id": 13957,
+        "position": 169,
+        "content": "36",
+        "defaultInput": "",
+        "jsonContent": [
+          "36"
+        ],
+        "solution": [
+          [
+            "36"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/169.mp3",
+        "timeStart": 207.4,
+        "timeEnd": 208.17,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/13957/list"
+      },
+      {
+        "id": 13958,
+        "position": 170,
+        "content": "337",
+        "defaultInput": "",
+        "jsonContent": [
+          "337"
+        ],
+        "solution": [
+          [
+            "337"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/170.mp3",
+        "timeStart": 208.15,
+        "timeEnd": 209.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13958/list"
+      },
+      {
+        "id": 13959,
+        "position": 171,
+        "content": "33",
+        "defaultInput": "",
+        "jsonContent": [
+          "33"
+        ],
+        "solution": [
+          [
+            "33"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/171.mp3",
+        "timeStart": 209.62,
+        "timeEnd": 210.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13959/list"
+      },
+      {
+        "id": 13960,
+        "position": 172,
+        "content": "606",
+        "defaultInput": "",
+        "jsonContent": [
+          "606"
+        ],
+        "solution": [
+          [
+            "606"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/172.mp3",
+        "timeStart": 210.33,
+        "timeEnd": 211.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13960/list"
+      },
+      {
+        "id": 13961,
+        "position": 173,
+        "content": "51",
+        "defaultInput": "",
+        "jsonContent": [
+          "51"
+        ],
+        "solution": [
+          [
+            "51"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/173.mp3",
+        "timeStart": 211.6,
+        "timeEnd": 212.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13961/list"
+      },
+      {
+        "id": 13962,
+        "position": 174,
+        "content": "925",
+        "defaultInput": "",
+        "jsonContent": [
+          "925"
+        ],
+        "solution": [
+          [
+            "925"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/174.mp3",
+        "timeStart": 212.32,
+        "timeEnd": 213.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13962/list"
+      },
+      {
+        "id": 13963,
+        "position": 175,
+        "content": "53",
+        "defaultInput": "",
+        "jsonContent": [
+          "53"
+        ],
+        "solution": [
+          [
+            "53"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/175.mp3",
+        "timeStart": 213.84,
+        "timeEnd": 214.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13963/list"
+      },
+      {
+        "id": 13964,
+        "position": 176,
+        "content": "728",
+        "defaultInput": "",
+        "jsonContent": [
+          "728"
+        ],
+        "solution": [
+          [
+            "728"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/176.mp3",
+        "timeStart": 214.61,
+        "timeEnd": 215.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13964/list"
+      },
+      {
+        "id": 13965,
+        "position": 177,
+        "content": "5,012",
+        "defaultInput": "",
+        "jsonContent": [
+          "5,012"
+        ],
+        "solution": [
+          [
+            "5,012"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/177.mp3",
+        "timeStart": 215.93,
+        "timeEnd": 217.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13965/list"
+      },
+      {
+        "id": 13966,
+        "position": 178,
+        "content": "8",
+        "defaultInput": "",
+        "jsonContent": [
+          "8"
+        ],
+        "solution": [
+          [
+            "8"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/178.mp3",
+        "timeStart": 217.37,
+        "timeEnd": 218.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13966/list"
+      },
+      {
+        "id": 13967,
+        "position": 179,
+        "content": "697",
+        "defaultInput": "",
+        "jsonContent": [
+          "697"
+        ],
+        "solution": [
+          [
+            "697"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/179.mp3",
+        "timeStart": 218.01,
+        "timeEnd": 219.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13967/list"
+      },
+      {
+        "id": 13968,
+        "position": 180,
+        "content": "57",
+        "defaultInput": "",
+        "jsonContent": [
+          "57"
+        ],
+        "solution": [
+          [
+            "57"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/180.mp3",
+        "timeStart": 219.54,
+        "timeEnd": 220.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13968/list"
+      },
+      {
+        "id": 13969,
+        "position": 181,
+        "content": "881",
+        "defaultInput": "",
+        "jsonContent": [
+          "881"
+        ],
+        "solution": [
+          [
+            "881"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/181.mp3",
+        "timeStart": 220.33,
+        "timeEnd": 221.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13969/list"
+      },
+      {
+        "id": 13970,
+        "position": 182,
+        "content": "420",
+        "defaultInput": "",
+        "jsonContent": [
+          "420"
+        ],
+        "solution": [
+          [
+            "420"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/182.mp3",
+        "timeStart": 221.62,
+        "timeEnd": 222.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13970/list"
+      },
+      {
+        "id": 13971,
+        "position": 183,
+        "content": "431",
+        "defaultInput": "",
+        "jsonContent": [
+          "431"
+        ],
+        "solution": [
+          [
+            "431"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/183.mp3",
+        "timeStart": 222.92,
+        "timeEnd": 224.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13971/list"
+      },
+      {
+        "id": 13972,
+        "position": 184,
+        "content": "200",
+        "defaultInput": "",
+        "jsonContent": [
+          "200"
+        ],
+        "solution": [
+          [
+            "200"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/184.mp3",
+        "timeStart": 224.33,
+        "timeEnd": 225.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13972/list"
+      },
+      {
+        "id": 13973,
+        "position": 185,
+        "content": "637",
+        "defaultInput": "",
+        "jsonContent": [
+          "637"
+        ],
+        "solution": [
+          [
+            "637"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/185.mp3",
+        "timeStart": 225.32,
+        "timeEnd": 226.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13973/list"
+      },
+      {
+        "id": 13974,
+        "position": 186,
+        "content": "31",
+        "defaultInput": "",
+        "jsonContent": [
+          "31"
+        ],
+        "solution": [
+          [
+            "31"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/186.mp3",
+        "timeStart": 226.72,
+        "timeEnd": 227.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13974/list"
+      },
+      {
+        "id": 13975,
+        "position": 187,
+        "content": "40",
+        "defaultInput": "",
+        "jsonContent": [
+          "40"
+        ],
+        "solution": [
+          [
+            "40"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/187.mp3",
+        "timeStart": 227.52,
+        "timeEnd": 228.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13975/list"
+      },
+      {
+        "id": 13976,
+        "position": 188,
+        "content": "957",
+        "defaultInput": "",
+        "jsonContent": [
+          "957"
+        ],
+        "solution": [
+          [
+            "957"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/188.mp3",
+        "timeStart": 228.14,
+        "timeEnd": 229.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13976/list"
+      },
+      {
+        "id": 13977,
+        "position": 189,
+        "content": "353",
+        "defaultInput": "",
+        "jsonContent": [
+          "353"
+        ],
+        "solution": [
+          [
+            "353"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/189.mp3",
+        "timeStart": 229.51,
+        "timeEnd": 230.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13977/list"
+      },
+      {
+        "id": 13978,
+        "position": 190,
+        "content": "46",
+        "defaultInput": "",
+        "jsonContent": [
+          "46"
+        ],
+        "solution": [
+          [
+            "46"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/190.mp3",
+        "timeStart": 231.04,
+        "timeEnd": 231.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13978/list"
+      },
+      {
+        "id": 13979,
+        "position": 191,
+        "content": "74",
+        "defaultInput": "",
+        "jsonContent": [
+          "74"
+        ],
+        "solution": [
+          [
+            "74"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/191.mp3",
+        "timeStart": 231.84,
+        "timeEnd": 232.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13979/list"
+      },
+      {
+        "id": 13980,
+        "position": 192,
+        "content": "744",
+        "defaultInput": "",
+        "jsonContent": [
+          "744"
+        ],
+        "solution": [
+          [
+            "744"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/192.mp3",
+        "timeStart": 232.76,
+        "timeEnd": 234.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13980/list"
+      },
+      {
+        "id": 13981,
+        "position": 193,
+        "content": "400",
+        "defaultInput": "",
+        "jsonContent": [
+          "400"
+        ],
+        "solution": [
+          [
+            "400"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/193.mp3",
+        "timeStart": 234.12,
+        "timeEnd": 235.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13981/list"
+      },
+      {
+        "id": 13982,
+        "position": 194,
+        "content": "94",
+        "defaultInput": "",
+        "jsonContent": [
+          "94"
+        ],
+        "solution": [
+          [
+            "94"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/194.mp3",
+        "timeStart": 235.06,
+        "timeEnd": 235.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13982/list"
+      },
+      {
+        "id": 13983,
+        "position": 195,
+        "content": "90",
+        "defaultInput": "",
+        "jsonContent": [
+          "90"
+        ],
+        "solution": [
+          [
+            "90"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/195.mp3",
+        "timeStart": 235.94,
+        "timeEnd": 236.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13983/list"
+      },
+      {
+        "id": 13984,
+        "position": 196,
+        "content": "5,395",
+        "defaultInput": "",
+        "jsonContent": [
+          "5,395"
+        ],
+        "solution": [
+          [
+            "5,395"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/196.mp3",
+        "timeStart": 236.77,
+        "timeEnd": 238.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13984/list"
+      },
+      {
+        "id": 13985,
+        "position": 197,
+        "content": "800",
+        "defaultInput": "",
+        "jsonContent": [
+          "800"
+        ],
+        "solution": [
+          [
+            "800"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/197.mp3",
+        "timeStart": 238.67,
+        "timeEnd": 239.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13985/list"
+      },
+      {
+        "id": 13986,
+        "position": 198,
+        "content": "9",
+        "defaultInput": "",
+        "jsonContent": [
+          "9"
+        ],
+        "solution": [
+          [
+            "9"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/198.mp3",
+        "timeStart": 239.55,
+        "timeEnd": 240.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13986/list"
+      },
+      {
+        "id": 13987,
+        "position": 199,
+        "content": "522",
+        "defaultInput": "",
+        "jsonContent": [
+          "522"
+        ],
+        "solution": [
+          [
+            "522"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/199.mp3",
+        "timeStart": 240.28,
+        "timeEnd": 241.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13987/list"
+      },
+      {
+        "id": 13988,
+        "position": 200,
+        "content": "766",
+        "defaultInput": "",
+        "jsonContent": [
+          "766"
+        ],
+        "solution": [
+          [
+            "766"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/200.mp3",
+        "timeStart": 241.64,
+        "timeEnd": 243.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13988/list"
+      },
+      {
+        "id": 13989,
+        "position": 201,
+        "content": "378",
+        "defaultInput": "",
+        "jsonContent": [
+          "378"
+        ],
+        "solution": [
+          [
+            "378"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/201.mp3",
+        "timeStart": 243.13,
+        "timeEnd": 244.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13989/list"
+      },
+      {
+        "id": 13990,
+        "position": 202,
+        "content": "44",
+        "defaultInput": "",
+        "jsonContent": [
+          "44"
+        ],
+        "solution": [
+          [
+            "44"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/202.mp3",
+        "timeStart": 244.67,
+        "timeEnd": 245.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13990/list"
+      },
+      {
+        "id": 13991,
+        "position": 203,
+        "content": "753",
+        "defaultInput": "",
+        "jsonContent": [
+          "753"
+        ],
+        "solution": [
+          [
+            "753"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/203.mp3",
+        "timeStart": 245.5,
+        "timeEnd": 246.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13991/list"
+      },
+      {
+        "id": 13992,
+        "position": 204,
+        "content": "54",
+        "defaultInput": "",
+        "jsonContent": [
+          "54"
+        ],
+        "solution": [
+          [
+            "54"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/204.mp3",
+        "timeStart": 246.93,
+        "timeEnd": 247.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13992/list"
+      },
+      {
+        "id": 13993,
+        "position": 205,
+        "content": "960",
+        "defaultInput": "",
+        "jsonContent": [
+          "960"
+        ],
+        "solution": [
+          [
+            "960"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/205.mp3",
+        "timeStart": 247.62,
+        "timeEnd": 248.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13993/list"
+      },
+      {
+        "id": 13994,
+        "position": 206,
+        "content": "481",
+        "defaultInput": "",
+        "jsonContent": [
+          "481"
+        ],
+        "solution": [
+          [
+            "481"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/206.mp3",
+        "timeStart": 248.79,
+        "timeEnd": 250.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13994/list"
+      },
+      {
+        "id": 13995,
+        "position": 207,
+        "content": "264",
+        "defaultInput": "",
+        "jsonContent": [
+          "264"
+        ],
+        "solution": [
+          [
+            "264"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/207.mp3",
+        "timeStart": 250.01,
+        "timeEnd": 251.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13995/list"
+      },
+      {
+        "id": 13996,
+        "position": 208,
+        "content": "11",
+        "defaultInput": "",
+        "jsonContent": [
+          "11"
+        ],
+        "solution": [
+          [
+            "11"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/208.mp3",
+        "timeStart": 251.46,
+        "timeEnd": 252.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13996/list"
+      },
+      {
+        "id": 13997,
+        "position": 209,
+        "content": "644",
+        "defaultInput": "",
+        "jsonContent": [
+          "644"
+        ],
+        "solution": [
+          [
+            "644"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/209.mp3",
+        "timeStart": 252.14,
+        "timeEnd": 253.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13997/list"
+      },
+      {
+        "id": 13998,
+        "position": 210,
+        "content": "502",
+        "defaultInput": "",
+        "jsonContent": [
+          "502"
+        ],
+        "solution": [
+          [
+            "502"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/210.mp3",
+        "timeStart": 253.5,
+        "timeEnd": 254.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13998/list"
+      },
+      {
+        "id": 13999,
+        "position": 211,
+        "content": "100",
+        "defaultInput": "",
+        "jsonContent": [
+          "100"
+        ],
+        "solution": [
+          [
+            "100"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/211.mp3",
+        "timeStart": 254.59,
+        "timeEnd": 255.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/13999/list"
+      },
+      {
+        "id": 14000,
+        "position": 212,
+        "content": "8,804",
+        "defaultInput": "",
+        "jsonContent": [
+          "8,804"
+        ],
+        "solution": [
+          [
+            "8,804"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/212.mp3",
+        "timeStart": 255.44,
+        "timeEnd": 257.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14000/list"
+      },
+      {
+        "id": 14001,
+        "position": 213,
+        "content": "6,911",
+        "defaultInput": "",
+        "jsonContent": [
+          "6,911"
+        ],
+        "solution": [
+          [
+            "6,911"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/213.mp3",
+        "timeStart": 257.18,
+        "timeEnd": 259.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14001/list"
+      },
+      {
+        "id": 14002,
+        "position": 214,
+        "content": "39",
+        "defaultInput": "",
+        "jsonContent": [
+          "39"
+        ],
+        "solution": [
+          [
+            "39"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/214.mp3",
+        "timeStart": 259.32,
+        "timeEnd": 260.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14002/list"
+      },
+      {
+        "id": 14003,
+        "position": 215,
+        "content": "774",
+        "defaultInput": "",
+        "jsonContent": [
+          "774"
+        ],
+        "solution": [
+          [
+            "774"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/215.mp3",
+        "timeStart": 260.14,
+        "timeEnd": 261.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14003/list"
+      },
+      {
+        "id": 14004,
+        "position": 216,
+        "content": "913",
+        "defaultInput": "",
+        "jsonContent": [
+          "913"
+        ],
+        "solution": [
+          [
+            "913"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/216.mp3",
+        "timeStart": 261.65,
+        "timeEnd": 262.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14004/list"
+      },
+      {
+        "id": 14005,
+        "position": 217,
+        "content": "119",
+        "defaultInput": "",
+        "jsonContent": [
+          "119"
+        ],
+        "solution": [
+          [
+            "119"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/217.mp3",
+        "timeStart": 262.96,
+        "timeEnd": 264.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14005/list"
+      },
+      {
+        "id": 14006,
+        "position": 218,
+        "content": "573",
+        "defaultInput": "",
+        "jsonContent": [
+          "573"
+        ],
+        "solution": [
+          [
+            "573"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/218.mp3",
+        "timeStart": 264.29,
+        "timeEnd": 265.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14006/list"
+      },
+      {
+        "id": 14007,
+        "position": 219,
+        "content": "2,277",
+        "defaultInput": "",
+        "jsonContent": [
+          "2,277"
+        ],
+        "solution": [
+          [
+            "2,277"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/219.mp3",
+        "timeStart": 265.74,
+        "timeEnd": 267.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14007/list"
+      },
+      {
+        "id": 14008,
+        "position": 220,
+        "content": "983",
+        "defaultInput": "",
+        "jsonContent": [
+          "983"
+        ],
+        "solution": [
+          [
+            "983"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/220.mp3",
+        "timeStart": 268.05,
+        "timeEnd": 269.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14008/list"
+      },
+      {
+        "id": 14009,
+        "position": 221,
+        "content": "2,639",
+        "defaultInput": "",
+        "jsonContent": [
+          "2,639"
+        ],
+        "solution": [
+          [
+            "2,639"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/221.mp3",
+        "timeStart": 269.45,
+        "timeEnd": 271.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14009/list"
+      },
+      {
+        "id": 14010,
+        "position": 222,
+        "content": "30",
+        "defaultInput": "",
+        "jsonContent": [
+          "30"
+        ],
+        "solution": [
+          [
+            "30"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/222.mp3",
+        "timeStart": 271.57,
+        "timeEnd": 272.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14010/list"
+      },
+      {
+        "id": 14011,
+        "position": 223,
+        "content": "89",
+        "defaultInput": "",
+        "jsonContent": [
+          "89"
+        ],
+        "solution": [
+          [
+            "89"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/223.mp3",
+        "timeStart": 272.12,
+        "timeEnd": 272.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14011/list"
+      },
+      {
+        "id": 14012,
+        "position": 224,
+        "content": "60",
+        "defaultInput": "",
+        "jsonContent": [
+          "60"
+        ],
+        "solution": [
+          [
+            "60"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/224.mp3",
+        "timeStart": 273.04,
+        "timeEnd": 273.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14012/list"
+      },
+      {
+        "id": 14013,
+        "position": 225,
+        "content": "617",
+        "defaultInput": "",
+        "jsonContent": [
+          "617"
+        ],
+        "solution": [
+          [
+            "617"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/225.mp3",
+        "timeStart": 273.69,
+        "timeEnd": 275.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14013/list"
+      },
+      {
+        "id": 14014,
+        "position": 226,
+        "content": "24",
+        "defaultInput": "",
+        "jsonContent": [
+          "24"
+        ],
+        "solution": [
+          [
+            "24"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/226.mp3",
+        "timeStart": 275.11,
+        "timeEnd": 275.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14014/list"
+      },
+      {
+        "id": 14015,
+        "position": 227,
+        "content": "13",
+        "defaultInput": "",
+        "jsonContent": [
+          "13"
+        ],
+        "solution": [
+          [
+            "13"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/227.mp3",
+        "timeStart": 275.95,
+        "timeEnd": 276.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14015/list"
+      },
+      {
+        "id": 14016,
+        "position": 228,
+        "content": "221",
+        "defaultInput": "",
+        "jsonContent": [
+          "221"
+        ],
+        "solution": [
+          [
+            "221"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/228.mp3",
+        "timeStart": 276.66,
+        "timeEnd": 278.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14016/list"
+      },
+      {
+        "id": 14017,
+        "position": 229,
+        "content": "4,588",
+        "defaultInput": "",
+        "jsonContent": [
+          "4,588"
+        ],
+        "solution": [
+          [
+            "4,588"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/229.mp3",
+        "timeStart": 278.13,
+        "timeEnd": 280.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14017/list"
+      },
+      {
+        "id": 14018,
+        "position": 230,
+        "content": "68",
+        "defaultInput": "",
+        "jsonContent": [
+          "68"
+        ],
+        "solution": [
+          [
+            "68"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/230.mp3",
+        "timeStart": 280.11,
+        "timeEnd": 280.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14018/list"
+      },
+      {
+        "id": 14019,
+        "position": 231,
+        "content": "1,740",
+        "defaultInput": "",
+        "jsonContent": [
+          "1,740"
+        ],
+        "solution": [
+          [
+            "1,740"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/231.mp3",
+        "timeStart": 280.91,
+        "timeEnd": 282.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14019/list"
+      },
+      {
+        "id": 14020,
+        "position": 232,
+        "content": "95",
+        "defaultInput": "",
+        "jsonContent": [
+          "95"
+        ],
+        "solution": [
+          [
+            "95"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/232.mp3",
+        "timeStart": 282.75,
+        "timeEnd": 283.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14020/list"
+      },
+      {
+        "id": 14021,
+        "position": 233,
+        "content": "82",
+        "defaultInput": "",
+        "jsonContent": [
+          "82"
+        ],
+        "solution": [
+          [
+            "82"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/233.mp3",
+        "timeStart": 283.66,
+        "timeEnd": 284.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14021/list"
+      },
+      {
+        "id": 14022,
+        "position": 234,
+        "content": "73",
+        "defaultInput": "",
+        "jsonContent": [
+          "73"
+        ],
+        "solution": [
+          [
+            "73"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/234.mp3",
+        "timeStart": 284.49,
+        "timeEnd": 285.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14022/list"
+      },
+      {
+        "id": 14023,
+        "position": 235,
+        "content": "453",
+        "defaultInput": "",
+        "jsonContent": [
+          "453"
+        ],
+        "solution": [
+          [
+            "453"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/235.mp3",
+        "timeStart": 285.43,
+        "timeEnd": 286.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14023/list"
+      },
+      {
+        "id": 14024,
+        "position": 236,
+        "content": "251",
+        "defaultInput": "",
+        "jsonContent": [
+          "251"
+        ],
+        "solution": [
+          [
+            "251"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/236.mp3",
+        "timeStart": 286.92,
+        "timeEnd": 288.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14024/list"
+      },
+      {
+        "id": 14025,
+        "position": 237,
+        "content": "1,038",
+        "defaultInput": "",
+        "jsonContent": [
+          "1,038"
+        ],
+        "solution": [
+          [
+            "1,038"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/237.mp3",
+        "timeStart": 288.31,
+        "timeEnd": 289.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14025/list"
+      },
+      {
+        "id": 14026,
+        "position": 238,
+        "content": "85",
+        "defaultInput": "",
+        "jsonContent": [
+          "85"
+        ],
+        "solution": [
+          [
+            "85"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/238.mp3",
+        "timeStart": 289.73,
+        "timeEnd": 290.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14026/list"
+      },
+      {
+        "id": 14027,
+        "position": 239,
+        "content": "7",
+        "defaultInput": "",
+        "jsonContent": [
+          "7"
+        ],
+        "solution": [
+          [
+            "7"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/239.mp3",
+        "timeStart": 290.62,
+        "timeEnd": 291.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14027/list"
+      },
+      {
+        "id": 14028,
+        "position": 240,
+        "content": "42",
+        "defaultInput": "",
+        "jsonContent": [
+          "42"
+        ],
+        "solution": [
+          [
+            "42"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/240.mp3",
+        "timeStart": 291.4,
+        "timeEnd": 292.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14028/list"
+      },
+      {
+        "id": 14029,
+        "position": 241,
+        "content": "8,760",
+        "defaultInput": "",
+        "jsonContent": [
+          "8,760"
+        ],
+        "solution": [
+          [
+            "8,760"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/241.mp3",
+        "timeStart": 292.19,
+        "timeEnd": 294.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14029/list"
+      },
+      {
+        "id": 14030,
+        "position": 242,
+        "content": "305",
+        "defaultInput": "",
+        "jsonContent": [
+          "305"
+        ],
+        "solution": [
+          [
+            "305"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/242.mp3",
+        "timeStart": 294.04,
+        "timeEnd": 295.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14030/list"
+      },
+      {
+        "id": 14031,
+        "position": 243,
+        "content": "232",
+        "defaultInput": "",
+        "jsonContent": [
+          "232"
+        ],
+        "solution": [
+          [
+            "232"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/243.mp3",
+        "timeStart": 295.17,
+        "timeEnd": 296.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14031/list"
+      },
+      {
+        "id": 14032,
+        "position": 244,
+        "content": "26",
+        "defaultInput": "",
+        "jsonContent": [
+          "26"
+        ],
+        "solution": [
+          [
+            "26"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/244.mp3",
+        "timeStart": 296.59,
+        "timeEnd": 297.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14032/list"
+      },
+      {
+        "id": 14033,
+        "position": 245,
+        "content": "903",
+        "defaultInput": "",
+        "jsonContent": [
+          "903"
+        ],
+        "solution": [
+          [
+            "903"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/245.mp3",
+        "timeStart": 297.42,
+        "timeEnd": 298.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14033/list"
+      },
+      {
+        "id": 14034,
+        "position": 246,
+        "content": "300",
+        "defaultInput": "",
+        "jsonContent": [
+          "300"
+        ],
+        "solution": [
+          [
+            "300"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/246.mp3",
+        "timeStart": 298.56,
+        "timeEnd": 299.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14034/list"
+      },
+      {
+        "id": 14035,
+        "position": 247,
+        "content": "5",
+        "defaultInput": "",
+        "jsonContent": [
+          "5"
+        ],
+        "solution": [
+          [
+            "5"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/247.mp3",
+        "timeStart": 299.43,
+        "timeEnd": 300.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14035/list"
+      },
+      {
+        "id": 14036,
+        "position": 248,
+        "content": "70",
+        "defaultInput": "",
+        "jsonContent": [
+          "70"
+        ],
+        "solution": [
+          [
+            "70"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/248.mp3",
+        "timeStart": 300.05,
+        "timeEnd": 300.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14036/list"
+      },
+      {
+        "id": 14037,
+        "position": 249,
+        "content": "185",
+        "defaultInput": "",
+        "jsonContent": [
+          "185"
+        ],
+        "solution": [
+          [
+            "185"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/249.mp3",
+        "timeStart": 300.75,
+        "timeEnd": 302.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14037/list"
+      },
+      {
+        "id": 14038,
+        "position": 250,
+        "content": "567",
+        "defaultInput": "",
+        "jsonContent": [
+          "567"
+        ],
+        "solution": [
+          [
+            "567"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/250.mp3",
+        "timeStart": 302.13,
+        "timeEnd": 303.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14038/list"
+      },
+      {
+        "id": 14039,
+        "position": 251,
+        "content": "7,402",
+        "defaultInput": "",
+        "jsonContent": [
+          "7,402"
+        ],
+        "solution": [
+          [
+            "7,402"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/251.mp3",
+        "timeStart": 303.55,
+        "timeEnd": 305.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14039/list"
+      },
+      {
+        "id": 14040,
+        "position": 252,
+        "content": "714",
+        "defaultInput": "",
+        "jsonContent": [
+          "714"
+        ],
+        "solution": [
+          [
+            "714"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/252.mp3",
+        "timeStart": 305.35,
+        "timeEnd": 306.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14040/list"
+      },
+      {
+        "id": 14041,
+        "position": 253,
+        "content": "703",
+        "defaultInput": "",
+        "jsonContent": [
+          "703"
+        ],
+        "solution": [
+          [
+            "703"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/253.mp3",
+        "timeStart": 306.82,
+        "timeEnd": 308.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14041/list"
+      },
+      {
+        "id": 14042,
+        "position": 254,
+        "content": "5,604",
+        "defaultInput": "",
+        "jsonContent": [
+          "5,604"
+        ],
+        "solution": [
+          [
+            "5,604"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/254.mp3",
+        "timeStart": 308.02,
+        "timeEnd": 309.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14042/list"
+      },
+      {
+        "id": 14043,
+        "position": 255,
+        "content": "91",
+        "defaultInput": "",
+        "jsonContent": [
+          "91"
+        ],
+        "solution": [
+          [
+            "91"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/numbers/4-digit-numbers-2019-04-18-05-58-30/255.mp3",
+        "timeStart": 309.93,
+        "timeEnd": 310.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/14043/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "13789": {
+      "id": 2746822,
+      "text": "9.803",
+      "author": "ChatGPT4.1"
+    },
+    "13790": {
+      "id": 2746823,
+      "text": "Ba mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13791": {
+      "id": 2746824,
+      "text": "Bảy trăm ba mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13792": {
+      "id": 2746825,
+      "text": "Sáu mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13793": {
+      "id": 2746826,
+      "text": "Ba",
+      "author": "ChatGPT4.1"
+    },
+    "13794": {
+      "id": 2746827,
+      "text": "Ba trăm mười",
+      "author": "ChatGPT4.1"
+    },
+    "13795": {
+      "id": 2746828,
+      "text": "Sáu mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13796": {
+      "id": 2746829,
+      "text": "Năm mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13797": {
+      "id": 2746830,
+      "text": "Một trăm lẻ sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13798": {
+      "id": 2746831,
+      "text": "Chín mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13799": {
+      "id": 2746832,
+      "text": "Năm trăm",
+      "author": "ChatGPT4.1"
+    },
+    "13800": {
+      "id": 2746833,
+      "text": "Ba mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13801": {
+      "id": 2746834,
+      "text": "Một nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13802": {
+      "id": 2746835,
+      "text": "Chín mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13803": {
+      "id": 2746836,
+      "text": "Chín mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13804": {
+      "id": 2746837,
+      "text": "Năm trăm chín mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13805": {
+      "id": 2746838,
+      "text": "Bốn nghìn hai trăm chín",
+      "author": "ChatGPT4.1"
+    },
+    "13806": {
+      "id": 2746839,
+      "text": "Năm nghìn bốn trăm hai mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13807": {
+      "id": 2746840,
+      "text": "Hai trăm bốn mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13808": {
+      "id": 2746841,
+      "text": "Một trăm chín mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13809": {
+      "id": 2746842,
+      "text": "Tám trăm chín mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13810": {
+      "id": 2746843,
+      "text": "Ba trăm hai mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13811": {
+      "id": 2746844,
+      "text": "Sáu mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13812": {
+      "id": 2746845,
+      "text": "Ba mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13813": {
+      "id": 2746846,
+      "text": "Tám nghìn năm trăm chín mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13814": {
+      "id": 2746847,
+      "text": "Năm trăm tám mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13815": {
+      "id": 2746848,
+      "text": "Mười sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13816": {
+      "id": 2746849,
+      "text": "Bốn trăm sáu mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13817": {
+      "id": 2746850,
+      "text": "Hai mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13818": {
+      "id": 2746851,
+      "text": "Tám mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13819": {
+      "id": 2746852,
+      "text": "Bảy nghìn không trăm bốn mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13820": {
+      "id": 2746853,
+      "text": "Chín nghìn hai trăm ba mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13821": {
+      "id": 2746854,
+      "text": "Ba mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13822": {
+      "id": 2746855,
+      "text": "Sáu mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13823": {
+      "id": 2746856,
+      "text": "Bốn nghìn bảy trăm hai mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13824": {
+      "id": 2746857,
+      "text": "Ba nghìn tám trăm tám mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13825": {
+      "id": 2746858,
+      "text": "Tám nghìn một trăm ba mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13826": {
+      "id": 2746859,
+      "text": "Bốn trăm mười lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13827": {
+      "id": 2746860,
+      "text": "Bốn mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13828": {
+      "id": 2746861,
+      "text": "Bốn trăm lẻ sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13829": {
+      "id": 2746862,
+      "text": "Hai trăm lẻ năm",
+      "author": "ChatGPT4.1"
+    },
+    "13830": {
+      "id": 2746863,
+      "text": "Bốn trăm chín mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13831": {
+      "id": 2746864,
+      "text": "Hai mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13832": {
+      "id": 2746865,
+      "text": "Một trăm sáu mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13833": {
+      "id": 2746866,
+      "text": "Chín nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13834": {
+      "id": 2746867,
+      "text": "Ba trăm bốn mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13835": {
+      "id": 2746868,
+      "text": "Chín mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13836": {
+      "id": 2746869,
+      "text": "Bảy nghìn hai trăm bảy mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13837": {
+      "id": 2746870,
+      "text": "Hai mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13838": {
+      "id": 2746871,
+      "text": "Hai mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13839": {
+      "id": 2746872,
+      "text": "Chín nghìn chín trăm chín mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13840": {
+      "id": 2746873,
+      "text": "Ba trăm sáu mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13841": {
+      "id": 2746874,
+      "text": "Năm mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13842": {
+      "id": 2746875,
+      "text": "Năm trăm mười tám",
+      "author": "ChatGPT4.1"
+    },
+    "13843": {
+      "id": 2746876,
+      "text": "Chín nghìn không trăm bốn mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13844": {
+      "id": 2746877,
+      "text": "Bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13845": {
+      "id": 2746878,
+      "text": "Tám trăm ba mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13846": {
+      "id": 2746879,
+      "text": "Tám trăm bảy mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13847": {
+      "id": 2746880,
+      "text": "Bốn trăm bảy mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13848": {
+      "id": 2746881,
+      "text": "Hai trăm mười bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13849": {
+      "id": 2746882,
+      "text": "Một",
+      "author": "ChatGPT4.1"
+    },
+    "13850": {
+      "id": 2746883,
+      "text": "Một trăm ba mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13851": {
+      "id": 2746884,
+      "text": "Bốn mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13852": {
+      "id": 2746885,
+      "text": "Hai mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13853": {
+      "id": 2746886,
+      "text": "Chín trăm ba mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13854": {
+      "id": 2746887,
+      "text": "Bảy nghìn chín trăm bảy mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13855": {
+      "id": 2746888,
+      "text": "Tám trăm năm mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13856": {
+      "id": 2746889,
+      "text": "Sáu trăm hai mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13857": {
+      "id": 2746890,
+      "text": "Hai mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13858": {
+      "id": 2746891,
+      "text": "Ba nghìn bảy trăm lẻ tám",
+      "author": "ChatGPT4.1"
+    },
+    "13859": {
+      "id": 2746892,
+      "text": "Tám mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13860": {
+      "id": 2746893,
+      "text": "Sáu nghìn một trăm sáu mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13861": {
+      "id": 2746894,
+      "text": "Sáu mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13862": {
+      "id": 2746895,
+      "text": "Bảy nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13863": {
+      "id": 2746896,
+      "text": "Chín nghìn bốn trăm mười bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13864": {
+      "id": 2746897,
+      "text": "Sáu nghìn bốn trăm lẻ ba",
+      "author": "ChatGPT4.1"
+    },
+    "13865": {
+      "id": 2746898,
+      "text": "Sáu trăm năm mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13866": {
+      "id": 2746899,
+      "text": "Hai trăm tám mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13867": {
+      "id": 2746900,
+      "text": "Hai trăm bảy mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13868": {
+      "id": 2746901,
+      "text": "Bốn nghìn chín trăm năm mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13869": {
+      "id": 2746902,
+      "text": "Chín trăm",
+      "author": "ChatGPT4.1"
+    },
+    "13870": {
+      "id": 2746903,
+      "text": "Năm nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13871": {
+      "id": 2746904,
+      "text": "Sáu trăm",
+      "author": "ChatGPT4.1"
+    },
+    "13872": {
+      "id": 2746905,
+      "text": "Sáu trăm tám mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13873": {
+      "id": 2746906,
+      "text": "Một trăm hai mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13874": {
+      "id": 2746907,
+      "text": "Một trăm năm mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13875": {
+      "id": 2746908,
+      "text": "Sáu nghìn bảy trăm chín mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13876": {
+      "id": 2746909,
+      "text": "Tám trăm hai mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13877": {
+      "id": 2746910,
+      "text": "Tám trăm sáu mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13878": {
+      "id": 2746911,
+      "text": "Mười bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13879": {
+      "id": 2746912,
+      "text": "Ba trăm chín mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13880": {
+      "id": 2746913,
+      "text": "Chín trăm chín mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13881": {
+      "id": 2746914,
+      "text": "Hai nghìn tám trăm chín mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13882": {
+      "id": 2746915,
+      "text": "Bảy trăm chín mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13883": {
+      "id": 2746916,
+      "text": "Hai mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13884": {
+      "id": 2746917,
+      "text": "Tám trăm lẻ hai",
+      "author": "ChatGPT4.1"
+    },
+    "13885": {
+      "id": 2746918,
+      "text": "Năm trăm ba mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13886": {
+      "id": 2746919,
+      "text": "Ba nghìn ba trăm năm mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13887": {
+      "id": 2746920,
+      "text": "Sáu mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13888": {
+      "id": 2746921,
+      "text": "Ba mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13889": {
+      "id": 2746922,
+      "text": "Bốn nghìn một trăm chín mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13890": {
+      "id": 2746923,
+      "text": "Sáu trăm sáu mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13891": {
+      "id": 2746924,
+      "text": "Tám mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13892": {
+      "id": 2746925,
+      "text": "Chín trăm bốn mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13893": {
+      "id": 2746926,
+      "text": "Một nghìn chín trăm năm mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13894": {
+      "id": 2746927,
+      "text": "Sáu nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13895": {
+      "id": 2746928,
+      "text": "Năm mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13896": {
+      "id": 2746929,
+      "text": "Chín mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13897": {
+      "id": 2746930,
+      "text": "Chín mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13898": {
+      "id": 2746931,
+      "text": "Bảy mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13899": {
+      "id": 2746932,
+      "text": "Một trăm bốn mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13900": {
+      "id": 2746933,
+      "text": "Năm mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13901": {
+      "id": 2746934,
+      "text": "Sáu nghìn hai trăm bốn mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13902": {
+      "id": 2746935,
+      "text": "Bốn mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13903": {
+      "id": 2746936,
+      "text": "Hai nghìn một trăm chín mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13904": {
+      "id": 2746937,
+      "text": "Bảy nghìn bảy trăm bảy mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13905": {
+      "id": 2746938,
+      "text": "Hai nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13906": {
+      "id": 2746939,
+      "text": "Bảy trăm",
+      "author": "ChatGPT4.1"
+    },
+    "13907": {
+      "id": 2746940,
+      "text": "Một trăm bảy mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13908": {
+      "id": 2746941,
+      "text": "Bảy mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13909": {
+      "id": 2746942,
+      "text": "Hai trăm chín mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13910": {
+      "id": 2746943,
+      "text": "Chín trăm chín mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13911": {
+      "id": 2746944,
+      "text": "Bảy mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13912": {
+      "id": 2746945,
+      "text": "Năm mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13913": {
+      "id": 2746946,
+      "text": "Chín trăm bảy mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13914": {
+      "id": 2746947,
+      "text": "Mười tám",
+      "author": "ChatGPT4.1"
+    },
+    "13915": {
+      "id": 2746948,
+      "text": "Bảy trăm tám mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13916": {
+      "id": 2746949,
+      "text": "Tám nghìn ba trăm tám mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13917": {
+      "id": 2746950,
+      "text": "Sáu trăm bảy mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13918": {
+      "id": 2746951,
+      "text": "Sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13919": {
+      "id": 2746952,
+      "text": "Bảy mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13920": {
+      "id": 2746953,
+      "text": "Năm trăm năm mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13921": {
+      "id": 2746954,
+      "text": "Bốn trăm bốn mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13922": {
+      "id": 2746955,
+      "text": "Sáu mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13923": {
+      "id": 2746956,
+      "text": "Tám mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13924": {
+      "id": 2746957,
+      "text": "Tám mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13925": {
+      "id": 2746958,
+      "text": "Mười",
+      "author": "ChatGPT4.1"
+    },
+    "13926": {
+      "id": 2746959,
+      "text": "Hai mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13927": {
+      "id": 2746960,
+      "text": "Mười hai",
+      "author": "ChatGPT4.1"
+    },
+    "13928": {
+      "id": 2746961,
+      "text": "Bốn mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13929": {
+      "id": 2746962,
+      "text": "Mười chín",
+      "author": "ChatGPT4.1"
+    },
+    "13930": {
+      "id": 2746963,
+      "text": "Bảy mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13931": {
+      "id": 2746964,
+      "text": "Bảy mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13932": {
+      "id": 2746965,
+      "text": "Ba nghìn một trăm tám mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13933": {
+      "id": 2746966,
+      "text": "Năm nghìn chín trăm hai mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13934": {
+      "id": 2746967,
+      "text": "Một nghìn bốn trăm mười chín",
+      "author": "ChatGPT4.1"
+    },
+    "13935": {
+      "id": 2746968,
+      "text": "Bốn mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13936": {
+      "id": 2746969,
+      "text": "Tám nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13937": {
+      "id": 2746970,
+      "text": "Hai",
+      "author": "ChatGPT4.1"
+    },
+    "13938": {
+      "id": 2746971,
+      "text": "Chín nghìn sáu trăm bảy mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13939": {
+      "id": 2746972,
+      "text": "Năm mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13940": {
+      "id": 2746973,
+      "text": "Mười lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13941": {
+      "id": 2746974,
+      "text": "Bốn mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "13942": {
+      "id": 2746975,
+      "text": "Bảy mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13943": {
+      "id": 2746976,
+      "text": "Năm trăm bốn mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13944": {
+      "id": 2746977,
+      "text": "Tám mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13945": {
+      "id": 2746978,
+      "text": "Một nghìn ba trăm sáu mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13946": {
+      "id": 2746979,
+      "text": "Tám mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13947": {
+      "id": 2746980,
+      "text": "Bốn nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13948": {
+      "id": 2746981,
+      "text": "Mười bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13949": {
+      "id": 2746982,
+      "text": "Không",
+      "author": "ChatGPT4.1"
+    },
+    "13950": {
+      "id": 2746983,
+      "text": "Ba nghìn năm trăm ba mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13951": {
+      "id": 2746984,
+      "text": "Ba trăm tám mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13952": {
+      "id": 2746985,
+      "text": "Sáu mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13953": {
+      "id": 2746986,
+      "text": "Tám trăm mười",
+      "author": "ChatGPT4.1"
+    },
+    "13954": {
+      "id": 2746987,
+      "text": "Hai nghìn năm trăm mười ba",
+      "author": "ChatGPT4.1"
+    },
+    "13955": {
+      "id": 2746988,
+      "text": "Ba nghìn",
+      "author": "ChatGPT4.1"
+    },
+    "13956": {
+      "id": 2746989,
+      "text": "Tám trăm bốn mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13957": {
+      "id": 2746990,
+      "text": "Ba mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13958": {
+      "id": 2746991,
+      "text": "Ba trăm ba mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13959": {
+      "id": 2746992,
+      "text": "Ba mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13960": {
+      "id": 2746993,
+      "text": "Sáu trăm lẻ sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13961": {
+      "id": 2746994,
+      "text": "Năm mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13962": {
+      "id": 2746995,
+      "text": "Chín trăm hai mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13963": {
+      "id": 2746996,
+      "text": "Năm mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13964": {
+      "id": 2746997,
+      "text": "Bảy trăm hai mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13965": {
+      "id": 2746998,
+      "text": "Năm nghìn mười hai",
+      "author": "ChatGPT4.1"
+    },
+    "13966": {
+      "id": 2746999,
+      "text": "Tám",
+      "author": "ChatGPT4.1"
+    },
+    "13967": {
+      "id": 2747000,
+      "text": "Sáu trăm chín mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13968": {
+      "id": 2747001,
+      "text": "Năm mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13969": {
+      "id": 2747002,
+      "text": "Tám trăm tám mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13970": {
+      "id": 2747003,
+      "text": "Bốn trăm hai mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13971": {
+      "id": 2747004,
+      "text": "Bốn trăm ba mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13972": {
+      "id": 2747005,
+      "text": "Hai trăm",
+      "author": "ChatGPT4.1"
+    },
+    "13973": {
+      "id": 2747006,
+      "text": "Sáu trăm ba mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13974": {
+      "id": 2747007,
+      "text": "Ba mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13975": {
+      "id": 2747008,
+      "text": "Bốn mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13976": {
+      "id": 2747009,
+      "text": "Chín trăm năm mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "13977": {
+      "id": 2747010,
+      "text": "Ba trăm năm mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13978": {
+      "id": 2747011,
+      "text": "Bốn mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13979": {
+      "id": 2747012,
+      "text": "Bảy mươi tư",
+      "author": "ChatGPT4.1"
+    },
+    "13980": {
+      "id": 2747013,
+      "text": "Bảy trăm bốn mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13981": {
+      "id": 2747014,
+      "text": "Bốn trăm",
+      "author": "ChatGPT4.1"
+    },
+    "13982": {
+      "id": 2747015,
+      "text": "Chín mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13983": {
+      "id": 2747016,
+      "text": "Chín mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13984": {
+      "id": 2747017,
+      "text": "Năm nghìn ba trăm chín mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "13985": {
+      "id": 2747018,
+      "text": "Tám trăm",
+      "author": "ChatGPT4.1"
+    },
+    "13986": {
+      "id": 2747019,
+      "text": "Chín",
+      "author": "ChatGPT4.1"
+    },
+    "13987": {
+      "id": 2747020,
+      "text": "Năm trăm hai mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "13988": {
+      "id": 2747021,
+      "text": "Bảy trăm sáu mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "13989": {
+      "id": 2747022,
+      "text": "Ba trăm bảy mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "13990": {
+      "id": 2747023,
+      "text": "Bốn mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13991": {
+      "id": 2747024,
+      "text": "Bảy trăm năm mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "13992": {
+      "id": 2747025,
+      "text": "Năm mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13993": {
+      "id": 2747026,
+      "text": "Chín trăm sáu mươi",
+      "author": "ChatGPT4.1"
+    },
+    "13994": {
+      "id": 2747027,
+      "text": "Bốn trăm tám mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "13995": {
+      "id": 2747028,
+      "text": "Hai trăm sáu mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13996": {
+      "id": 2747029,
+      "text": "Mười một",
+      "author": "ChatGPT4.1"
+    },
+    "13997": {
+      "id": 2747030,
+      "text": "Sáu trăm bốn mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "13998": {
+      "id": 2747031,
+      "text": "Năm trăm lẻ hai",
+      "author": "ChatGPT4.1"
+    },
+    "13999": {
+      "id": 2747032,
+      "text": "Một trăm",
+      "author": "ChatGPT4.1"
+    },
+    "14000": {
+      "id": 2747033,
+      "text": "Tám nghìn tám trăm lẻ bốn",
+      "author": "ChatGPT4.1"
+    },
+    "14001": {
+      "id": 2747034,
+      "text": "Sáu nghìn chín trăm mười một",
+      "author": "ChatGPT4.1"
+    },
+    "14002": {
+      "id": 2747035,
+      "text": "Ba mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "14003": {
+      "id": 2747036,
+      "text": "Bảy trăm bảy mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "14004": {
+      "id": 2747037,
+      "text": "Chín trăm mười ba",
+      "author": "ChatGPT4.1"
+    },
+    "14005": {
+      "id": 2747038,
+      "text": "Một trăm mười chín",
+      "author": "ChatGPT4.1"
+    },
+    "14006": {
+      "id": 2747039,
+      "text": "Năm trăm bảy mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "14007": {
+      "id": 2747040,
+      "text": "Hai nghìn hai trăm bảy mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "14008": {
+      "id": 2747041,
+      "text": "Chín trăm tám mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "14009": {
+      "id": 2747042,
+      "text": "Hai nghìn sáu trăm ba mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "14010": {
+      "id": 2747043,
+      "text": "Ba mươi",
+      "author": "ChatGPT4.1"
+    },
+    "14011": {
+      "id": 2747044,
+      "text": "Tám mươi chín",
+      "author": "ChatGPT4.1"
+    },
+    "14012": {
+      "id": 2747045,
+      "text": "Sáu mươi",
+      "author": "ChatGPT4.1"
+    },
+    "14013": {
+      "id": 2747046,
+      "text": "Sáu trăm mười bảy",
+      "author": "ChatGPT4.1"
+    },
+    "14014": {
+      "id": 2747047,
+      "text": "Hai mươi bốn",
+      "author": "ChatGPT4.1"
+    },
+    "14015": {
+      "id": 2747048,
+      "text": "Mười ba",
+      "author": "ChatGPT4.1"
+    },
+    "14016": {
+      "id": 2747049,
+      "text": "Hai trăm hai mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "14017": {
+      "id": 2747050,
+      "text": "Bốn nghìn năm trăm tám mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "14018": {
+      "id": 2747051,
+      "text": "Sáu mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "14019": {
+      "id": 2747052,
+      "text": "Một nghìn bảy trăm bốn mươi",
+      "author": "ChatGPT4.1"
+    },
+    "14020": {
+      "id": 2747053,
+      "text": "Chín mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "14021": {
+      "id": 2747054,
+      "text": "Tám mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "14022": {
+      "id": 2747055,
+      "text": "Bảy mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "14023": {
+      "id": 2747056,
+      "text": "Bốn trăm năm mươi ba",
+      "author": "ChatGPT4.1"
+    },
+    "14024": {
+      "id": 2747057,
+      "text": "Hai trăm năm mươi mốt",
+      "author": "ChatGPT4.1"
+    },
+    "14025": {
+      "id": 2747058,
+      "text": "Một nghìn không trăm ba mươi tám",
+      "author": "ChatGPT4.1"
+    },
+    "14026": {
+      "id": 2747059,
+      "text": "Tám mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "14027": {
+      "id": 2747060,
+      "text": "Bảy",
+      "author": "ChatGPT4.1"
+    },
+    "14028": {
+      "id": 2747061,
+      "text": "Bốn mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "14029": {
+      "id": 2747062,
+      "text": "Tám nghìn bảy trăm sáu mươi",
+      "author": "ChatGPT4.1"
+    },
+    "14030": {
+      "id": 2747063,
+      "text": "Ba trăm lẻ năm",
+      "author": "ChatGPT4.1"
+    },
+    "14031": {
+      "id": 2747064,
+      "text": "Hai trăm ba mươi hai",
+      "author": "ChatGPT4.1"
+    },
+    "14032": {
+      "id": 2747065,
+      "text": "Hai mươi sáu",
+      "author": "ChatGPT4.1"
+    },
+    "14033": {
+      "id": 2747066,
+      "text": "Chín trăm lẻ ba",
+      "author": "ChatGPT4.1"
+    },
+    "14034": {
+      "id": 2747067,
+      "text": "Ba trăm",
+      "author": "ChatGPT4.1"
+    },
+    "14035": {
+      "id": 2747068,
+      "text": "Năm",
+      "author": "ChatGPT4.1"
+    },
+    "14036": {
+      "id": 2747069,
+      "text": "Bảy mươi",
+      "author": "ChatGPT4.1"
+    },
+    "14037": {
+      "id": 2747070,
+      "text": "Một trăm tám mươi lăm",
+      "author": "ChatGPT4.1"
+    },
+    "14038": {
+      "id": 2747071,
+      "text": "Năm trăm sáu mươi bảy",
+      "author": "ChatGPT4.1"
+    },
+    "14039": {
+      "id": 2747072,
+      "text": "Bảy nghìn bốn trăm lẻ hai",
+      "author": "ChatGPT4.1"
+    },
+    "14040": {
+      "id": 2747073,
+      "text": "Bảy trăm mười bốn",
+      "author": "ChatGPT4.1"
+    },
+    "14041": {
+      "id": 2747074,
+      "text": "Bảy trăm lẻ ba",
+      "author": "ChatGPT4.1"
+    },
+    "14042": {
+      "id": 2747075,
+      "text": "Năm nghìn sáu trăm lẻ bốn",
+      "author": "ChatGPT4.1"
+    },
+    "14043": {
+      "id": 2747076,
+      "text": "Chín mươi mốt",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

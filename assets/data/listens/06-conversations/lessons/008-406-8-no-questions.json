@@ -1,0 +1,481 @@
+{
+  "summary": {
+    "id": 406,
+    "name": "8. No questions",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 8,
+    "totalChallenges": 10,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/406",
+  "detail": {
+    "id": 406,
+    "lessonName": "8. No questions",
+    "name": "8. No questions",
+    "position": 8,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/0-8-no-questions.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17826,
+        "position": 1,
+        "content": "Are you married?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "married?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "married?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/1.mp3",
+        "timeStart": 2.64,
+        "timeEnd": 3.71,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17826/list"
+      },
+      {
+        "id": 17827,
+        "position": 2,
+        "content": "No, I'm not. I'm single.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not.",
+          [
+            "I'm",
+            "I am"
+          ],
+          "single."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "single."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/2.mp3",
+        "timeStart": 3.79,
+        "timeEnd": 6.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17827/list"
+      },
+      {
+        "id": 17828,
+        "position": 3,
+        "content": "Tell me about your new car. Is it large?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Tell",
+          "me",
+          "about",
+          "your",
+          "new",
+          "car.",
+          "Is",
+          "it",
+          "large?"
+        ],
+        "solution": [
+          [
+            "Tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "car."
+          ],
+          [
+            "Is"
+          ],
+          [
+            "it"
+          ],
+          [
+            "large?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/3.mp3",
+        "timeStart": 6.51,
+        "timeEnd": 9.23,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/17828/list"
+      },
+      {
+        "id": 17829,
+        "position": 4,
+        "content": "No, it's not. It is small.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "it's",
+          "not.",
+          [
+            "It is",
+            "it's"
+          ],
+          "small."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "not."
+          ],
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "small."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/4.mp3",
+        "timeStart": 9.23,
+        "timeEnd": 11.85,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17829/list"
+      },
+      {
+        "id": 17830,
+        "position": 5,
+        "content": "Tell me about the questions in your English book.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Tell",
+          "me",
+          "about",
+          "the",
+          "questions",
+          "in",
+          "your",
+          "English",
+          "book."
+        ],
+        "solution": [
+          [
+            "Tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "English"
+          ],
+          [
+            "book."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/5.mp3",
+        "timeStart": 12.03,
+        "timeEnd": 14.6,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17830/list"
+      },
+      {
+        "id": 17831,
+        "position": 6,
+        "content": "Are they difficult?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "they",
+          "difficult?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "they"
+          ],
+          [
+            "difficult?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/6.mp3",
+        "timeStart": 14.64,
+        "timeEnd": 15.87,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17831/list"
+      },
+      {
+        "id": 17832,
+        "position": 7,
+        "content": "No, they're not. They are easy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "they're",
+            "they are"
+          ],
+          "not.",
+          [
+            "They are",
+            "they're"
+          ],
+          "easy."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "not."
+          ],
+          [
+            "They are",
+            "they're"
+          ],
+          [
+            "easy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/7.mp3",
+        "timeStart": 16.03,
+        "timeEnd": 18.95,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17832/list"
+      },
+      {
+        "id": 17833,
+        "position": 8,
+        "content": "Tell me about your new neighbors?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Tell",
+          "me",
+          "about",
+          "your",
+          "new",
+          [
+            "neighbors?",
+            "neighbours"
+          ]
+        ],
+        "solution": [
+          [
+            "Tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "new"
+          ],
+          [
+            "neighbors?",
+            "neighbours"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/8.mp3",
+        "timeStart": 19.11,
+        "timeEnd": 21.17,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/17833/list"
+      },
+      {
+        "id": 17834,
+        "position": 9,
+        "content": "Are they quiet?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "they",
+          "quiet?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "they"
+          ],
+          [
+            "quiet?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/9.mp3",
+        "timeStart": 21.24,
+        "timeEnd": 22.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17834/list"
+      },
+      {
+        "id": 17835,
+        "position": 10,
+        "content": "No, they aren't. They are noisy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "they",
+          "aren't.",
+          [
+            "They are",
+            "they're"
+          ],
+          "noisy."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "aren't."
+          ],
+          [
+            "They are",
+            "they're"
+          ],
+          [
+            "noisy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/8-no-questions-2022-03-07-20-53-08/10.mp3",
+        "timeStart": 22.43,
+        "timeEnd": 25.43,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/17835/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17827": {
+      "id": 6378,
+      "text": "Không, tôi chưa. Tôi độc thân.",
+      "author": "a user"
+    },
+    "17829": {
+      "id": 6387,
+      "text": "Không, nó không lớn. Nó nhỏ.",
+      "author": "a user"
+    },
+    "17831": {
+      "id": 6391,
+      "text": "Chúng có khó không?",
+      "author": "a user"
+    },
+    "17832": {
+      "id": 6392,
+      "text": "Không, chúng không khó. Chúng dễ.",
+      "author": "a user"
+    },
+    "17833": {
+      "id": 6395,
+      "text": "Hãy kể cho tôi nghe về những người hàng xóm mới của bạn?",
+      "author": "a user"
+    },
+    "17834": {
+      "id": 6399,
+      "text": "Họ có yên tĩnh không?",
+      "author": "a user"
+    },
+    "17835": {
+      "id": 6401,
+      "text": "Không, họ không yên lặng. Họ ồn ào.",
+      "author": "a user"
+    },
+    "17826": {
+      "id": 2584098,
+      "text": "Bạn đã kết hôn chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "17828": {
+      "id": 2584099,
+      "text": "Kể cho tôi về chiếc xe mới của bạn. Nó có lớn không?",
+      "author": "ChatGPT4.1"
+    },
+    "17830": {
+      "id": 2584100,
+      "text": "Kể cho tôi về các câu hỏi trong sách tiếng Anh của bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

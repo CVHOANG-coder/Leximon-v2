@@ -1,0 +1,1446 @@
+{
+  "summary": {
+    "id": 1139,
+    "name": "Conversation 51",
+    "subTitle": "Group Interview Scheduling Conversation",
+    "levelName": "B1",
+    "position": 173,
+    "totalChallenges": 24,
+    "groupId": 36,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1139",
+  "detail": {
+    "id": 1139,
+    "lessonName": "Conversation 51",
+    "name": "Conversation 51",
+    "position": 173,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/0-conversation-51.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54053,
+        "position": 1,
+        "content": "Hello, Xander? This is Susan Moore.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "Xander?",
+          "This",
+          "is",
+          "Susan",
+          "Moore."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Xander?"
+          ],
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Susan"
+          ],
+          [
+            "Moore."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.83,
+        "hints": [
+          "Xander",
+          "Susan Moore"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54053/list"
+      },
+      {
+        "id": 54054,
+        "position": 2,
+        "content": "We met on Tuesday when you did your competency assessment at British Electrics.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "met",
+          "on",
+          "Tuesday",
+          "when",
+          "you",
+          "did",
+          "your",
+          "competency",
+          "assessment",
+          "at",
+          "British",
+          "Electrics."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "met"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Tuesday"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "did"
+          ],
+          [
+            "your"
+          ],
+          [
+            "competency"
+          ],
+          [
+            "assessment"
+          ],
+          [
+            "at"
+          ],
+          [
+            "British"
+          ],
+          [
+            "Electrics."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/2.mp3",
+        "timeStart": 2.83,
+        "timeEnd": 7.42,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54054/list"
+      },
+      {
+        "id": 54055,
+        "position": 3,
+        "content": "I wanted to let you know that you passed the assessment",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wanted",
+          "to",
+          "let",
+          "you",
+          "know",
+          "that",
+          "you",
+          "passed",
+          "the",
+          "assessment"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "let"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "passed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "assessment"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/3.mp3",
+        "timeStart": 7.79,
+        "timeEnd": 10.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54055/list"
+      },
+      {
+        "id": 54056,
+        "position": 4,
+        "content": "and we would like to move forward in the recruitment process.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "we would",
+            "We'd"
+          ],
+          "like",
+          "to",
+          "move",
+          "forward",
+          "in",
+          "the",
+          "recruitment",
+          "process."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we would",
+            "We'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "move"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "recruitment"
+          ],
+          [
+            "process."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/4.mp3",
+        "timeStart": 10.62,
+        "timeEnd": 13.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54056/list"
+      },
+      {
+        "id": 54057,
+        "position": 5,
+        "content": "The next step is a group interview with the hiring manager, Ross Arnette.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "next",
+          "step",
+          "is",
+          "a",
+          "group",
+          "interview",
+          "with",
+          "the",
+          "hiring",
+          "manager,",
+          "Ross",
+          "Arnette."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "next"
+          ],
+          [
+            "step"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "group"
+          ],
+          [
+            "interview"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hiring"
+          ],
+          [
+            "manager,"
+          ],
+          [
+            "Ross"
+          ],
+          [
+            "Arnette."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/5.mp3",
+        "timeStart": 13.78,
+        "timeEnd": 18.3,
+        "hints": [
+          "Ross Arnette"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54057/list"
+      },
+      {
+        "id": 54058,
+        "position": 6,
+        "content": "I remember you, hello!",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "remember",
+          "you,",
+          "hello!"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "you,"
+          ],
+          [
+            "hello!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/6.mp3",
+        "timeStart": 18.53,
+        "timeEnd": 20.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54058/list"
+      },
+      {
+        "id": 54059,
+        "position": 7,
+        "content": "I'm really happy to hear that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "really",
+          "happy",
+          "to",
+          "hear",
+          "that."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "really"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/7.mp3",
+        "timeStart": 20.99,
+        "timeEnd": 23.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54059/list"
+      },
+      {
+        "id": 54060,
+        "position": 8,
+        "content": "I am scheduled for the rest of the week, but available any day next week.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "scheduled",
+          "for",
+          "the",
+          "rest",
+          "of",
+          "the",
+          "week,",
+          "but",
+          "available",
+          "any",
+          "day",
+          "next",
+          "week."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "scheduled"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rest"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "week,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "available"
+          ],
+          [
+            "any"
+          ],
+          [
+            "day"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/8.mp3",
+        "timeStart": 23.2,
+        "timeEnd": 28.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54060/list"
+      },
+      {
+        "id": 54061,
+        "position": 9,
+        "content": "Which day works best for Mr. Arnette?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "day",
+          "works",
+          "best",
+          "for",
+          "Mr.",
+          "Arnette?"
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "day"
+          ],
+          [
+            "works"
+          ],
+          [
+            "best"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Arnette?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/9.mp3",
+        "timeStart": 28.19,
+        "timeEnd": 31.09,
+        "hints": [
+          "Arnette"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54061/list"
+      },
+      {
+        "id": 54062,
+        "position": 10,
+        "content": "Mr. Arnette has some time on Monday,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Mr.",
+          "Arnette",
+          "has",
+          "some",
+          "time",
+          "on",
+          "Monday,"
+        ],
+        "solution": [
+          [
+            "Mr."
+          ],
+          [
+            "Arnette"
+          ],
+          [
+            "has"
+          ],
+          [
+            "some"
+          ],
+          [
+            "time"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Monday,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/10.mp3",
+        "timeStart": 31.09,
+        "timeEnd": 33.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54062/list"
+      },
+      {
+        "id": 54063,
+        "position": 11,
+        "content": "so we would like to invite you back to our headquarters then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "we would",
+            "We'd"
+          ],
+          "like",
+          "to",
+          "invite",
+          "you",
+          "back",
+          "to",
+          "our",
+          "headquarters",
+          "then."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "we would",
+            "We'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "invite"
+          ],
+          [
+            "you"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "headquarters"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/11.mp3",
+        "timeStart": 33.38,
+        "timeEnd": 36.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54063/list"
+      },
+      {
+        "id": 54064,
+        "position": 12,
+        "content": "We don't expect the meeting to take longer than an hour and have several time slots available.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          [
+            "don't",
+            "do not"
+          ],
+          "expect",
+          "the",
+          "meeting",
+          "to",
+          "take",
+          "longer",
+          "than",
+          "an",
+          "hour",
+          "and",
+          "have",
+          "several",
+          "time",
+          "slots",
+          "available."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "expect"
+          ],
+          [
+            "the"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "longer"
+          ],
+          [
+            "than"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "and"
+          ],
+          [
+            "have"
+          ],
+          [
+            "several"
+          ],
+          [
+            "time"
+          ],
+          [
+            "slots"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/12.mp3",
+        "timeStart": 36.55,
+        "timeEnd": 41.79,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54064/list"
+      },
+      {
+        "id": 54065,
+        "position": 13,
+        "content": "Would you prefer a morning, or afternoon interview?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "prefer",
+          "a",
+          "morning,",
+          "or",
+          "afternoon",
+          "interview?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "a"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "afternoon"
+          ],
+          [
+            "interview?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/13.mp3",
+        "timeStart": 41.79,
+        "timeEnd": 44.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54065/list"
+      },
+      {
+        "id": 54066,
+        "position": 14,
+        "content": "I would prefer an afternoon interview.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "prefer",
+          "an",
+          "afternoon",
+          "interview."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "an"
+          ],
+          [
+            "afternoon"
+          ],
+          [
+            "interview."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/14.mp3",
+        "timeStart": 45.12,
+        "timeEnd": 47.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54066/list"
+      },
+      {
+        "id": 54067,
+        "position": 15,
+        "content": "I have a quick question.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "a",
+          "quick",
+          "question."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "quick"
+          ],
+          [
+            "question."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/15.mp3",
+        "timeStart": 47.94,
+        "timeEnd": 49.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54067/list"
+      },
+      {
+        "id": 54068,
+        "position": 16,
+        "content": "On your website, I clicked the boxes for the apprentice and the junior role.",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "your",
+          "website,",
+          "I",
+          "clicked",
+          "the",
+          "boxes",
+          "for",
+          "the",
+          "apprentice",
+          "and",
+          "the",
+          "junior",
+          "role."
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "your"
+          ],
+          [
+            "website,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "clicked"
+          ],
+          [
+            "the"
+          ],
+          [
+            "boxes"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "apprentice"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "junior"
+          ],
+          [
+            "role."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/16.mp3",
+        "timeStart": 49.83,
+        "timeEnd": 54.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54068/list"
+      },
+      {
+        "id": 54069,
+        "position": 17,
+        "content": "Which one will this interview be for?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          [
+            "one",
+            "1"
+          ],
+          "will",
+          "this",
+          "interview",
+          "be",
+          "for?"
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "will"
+          ],
+          [
+            "this"
+          ],
+          [
+            "interview"
+          ],
+          [
+            "be"
+          ],
+          [
+            "for?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/17.mp3",
+        "timeStart": 55.13,
+        "timeEnd": 57.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54069/list"
+      },
+      {
+        "id": 54070,
+        "position": 18,
+        "content": "Well, ideally Mr. Arnette would like to see you in a junior role, based on the assessment results.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "ideally",
+          "Mr.",
+          "Arnette",
+          "would",
+          "like",
+          "to",
+          "see",
+          "you",
+          "in",
+          "a",
+          "junior",
+          "role,",
+          "based",
+          "on",
+          "the",
+          "assessment",
+          "results."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "ideally"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Arnette"
+          ],
+          [
+            "would"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "junior"
+          ],
+          [
+            "role,"
+          ],
+          [
+            "based"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "assessment"
+          ],
+          [
+            "results."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/18.mp3",
+        "timeStart": 57.69,
+        "timeEnd": 63.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54070/list"
+      },
+      {
+        "id": 54071,
+        "position": 19,
+        "content": "However, if he feels like you aren't quite ready,",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "if",
+          "he",
+          "feels",
+          "like",
+          "you",
+          [
+            "aren't",
+            "are not"
+          ],
+          "quite",
+          "ready,"
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "he"
+          ],
+          [
+            "feels"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "ready,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/19.mp3",
+        "timeStart": 64.09,
+        "timeEnd": 67.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54071/list"
+      },
+      {
+        "id": 54072,
+        "position": 20,
+        "content": "he would also be open to the apprenticeship.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "he would",
+            "He'd"
+          ],
+          "also",
+          "be",
+          "open",
+          "to",
+          "the",
+          "apprenticeship."
+        ],
+        "solution": [
+          [
+            "he would",
+            "He'd"
+          ],
+          [
+            "also"
+          ],
+          [
+            "be"
+          ],
+          [
+            "open"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "apprenticeship."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/20.mp3",
+        "timeStart": 67.11,
+        "timeEnd": 69.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54072/list"
+      },
+      {
+        "id": 54073,
+        "position": 21,
+        "content": "It will more or less depend on the way your interview goes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It will",
+            "it'll"
+          ],
+          "more",
+          "or",
+          "less",
+          "depend",
+          "on",
+          "the",
+          "way",
+          "your",
+          "interview",
+          "goes."
+        ],
+        "solution": [
+          [
+            "It will",
+            "it'll"
+          ],
+          [
+            "more"
+          ],
+          [
+            "or"
+          ],
+          [
+            "less"
+          ],
+          [
+            "depend"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way"
+          ],
+          [
+            "your"
+          ],
+          [
+            "interview"
+          ],
+          [
+            "goes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/21.mp3",
+        "timeStart": 69.77,
+        "timeEnd": 73.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54073/list"
+      },
+      {
+        "id": 54074,
+        "position": 22,
+        "content": "Does 2 pm work?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Does",
+          [
+            "2",
+            "two"
+          ],
+          "pm",
+          "work?"
+        ],
+        "solution": [
+          [
+            "Does"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "pm"
+          ],
+          [
+            "work?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/22.mp3",
+        "timeStart": 73.07,
+        "timeEnd": 74.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54074/list"
+      },
+      {
+        "id": 54075,
+        "position": 23,
+        "content": "Yes, I will see you then!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I will",
+            "I'll"
+          ],
+          "see",
+          "you",
+          "then!"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "then!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/23.mp3",
+        "timeStart": 74.67,
+        "timeEnd": 77.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54075/list"
+      },
+      {
+        "id": 54076,
+        "position": 24,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-51-2023-09-19-17-09-03/24.mp3",
+        "timeStart": 77.17,
+        "timeEnd": 78.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54076/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54056": {
+      "id": 897352,
+      "text": "và chúng tôi muốn tiến tới trong quá trình tuyển dụng.",
+      "author": "a user"
+    },
+    "54060": {
+      "id": 897357,
+      "text": "Tôi đã có lịch cho những ngày còn lại trong tuần, nhưng rảnh vào bất kỳ ngày nào trong tuần tới.",
+      "author": "a user"
+    },
+    "54063": {
+      "id": 897360,
+      "text": "vì vậy chúng tôi muốn mời bạn trở lại trụ sở của chúng tôi vào lúc đó.",
+      "author": "a user"
+    },
+    "54064": {
+      "id": 897361,
+      "text": "Chúng tôi không mong đợi cuộc họp sẽ kéo dài hơn một giờ và có một số khung thời gian trống.",
+      "author": "a user"
+    },
+    "54072": {
+      "id": 897371,
+      "text": "anh ấy cũng sẽ sẵn sàng cho bạn học việc.",
+      "author": "a user"
+    },
+    "54053": {
+      "id": 2607807,
+      "text": "Xin chào, Xander? Tôi là Susan Moore đây.",
+      "author": "ChatGPT4.1"
+    },
+    "54054": {
+      "id": 2607808,
+      "text": "Chúng ta đã gặp nhau vào thứ Ba khi bạn tham gia đánh giá năng lực tại British Electrics.",
+      "author": "ChatGPT4.1"
+    },
+    "54055": {
+      "id": 2607809,
+      "text": "Tôi muốn thông báo rằng bạn đã vượt qua bài đánh giá",
+      "author": "ChatGPT4.1"
+    },
+    "54057": {
+      "id": 2607810,
+      "text": "Bước tiếp theo là một buổi phỏng vấn nhóm với quản lý tuyển dụng, ông Ross Arnette.",
+      "author": "ChatGPT4.1"
+    },
+    "54058": {
+      "id": 2607811,
+      "text": "Tôi nhớ bạn rồi, xin chào!",
+      "author": "ChatGPT4.1"
+    },
+    "54059": {
+      "id": 2607812,
+      "text": "Tôi thực sự rất vui khi nghe điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "54061": {
+      "id": 2607813,
+      "text": "Ngày nào là thuận tiện nhất cho ông Arnette?",
+      "author": "ChatGPT4.1"
+    },
+    "54062": {
+      "id": 2607814,
+      "text": "Ông Arnette có thời gian rảnh vào thứ Hai,",
+      "author": "ChatGPT4.1"
+    },
+    "54065": {
+      "id": 2607815,
+      "text": "Bạn muốn phỏng vấn vào buổi sáng hay buổi chiều?",
+      "author": "ChatGPT4.1"
+    },
+    "54066": {
+      "id": 2607816,
+      "text": "Tôi muốn phỏng vấn vào buổi chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "54067": {
+      "id": 2607817,
+      "text": "Tôi có một câu hỏi nhanh.",
+      "author": "ChatGPT4.1"
+    },
+    "54068": {
+      "id": 2607818,
+      "text": "Trên trang web của bạn, tôi đã chọn cả hai ô cho vị trí thực tập sinh và vị trí nhân viên mới.",
+      "author": "ChatGPT4.1"
+    },
+    "54069": {
+      "id": 2607819,
+      "text": "Buổi phỏng vấn này sẽ dành cho vị trí nào?",
+      "author": "ChatGPT4.1"
+    },
+    "54070": {
+      "id": 2607820,
+      "text": "Thực ra, theo kết quả đánh giá thì ông Arnette muốn bạn vào vị trí nhân viên mới.",
+      "author": "ChatGPT4.1"
+    },
+    "54071": {
+      "id": 2607821,
+      "text": "Tuy nhiên, nếu ông ấy cảm thấy bạn chưa thực sự sẵn sàng,",
+      "author": "ChatGPT4.1"
+    },
+    "54073": {
+      "id": 2607822,
+      "text": "Điều này phần lớn sẽ phụ thuộc vào cách bạn thể hiện trong buổi phỏng vấn.",
+      "author": "ChatGPT4.1"
+    },
+    "54074": {
+      "id": 2607823,
+      "text": "Bạn có rảnh lúc 2 giờ chiều không?",
+      "author": "ChatGPT4.1"
+    },
+    "54075": {
+      "id": 2607824,
+      "text": "Vâng, tôi sẽ gặp bạn lúc đó!",
+      "author": "ChatGPT4.1"
+    },
+    "54076": {
+      "id": 2607825,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

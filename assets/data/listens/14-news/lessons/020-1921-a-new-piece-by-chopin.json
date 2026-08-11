@@ -1,0 +1,1553 @@
+{
+  "summary": {
+    "id": 1921,
+    "name": "A new piece by Chopin",
+    "subTitle": "",
+    "levelName": "B2",
+    "position": 20,
+    "totalChallenges": 22,
+    "groupId": 109,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1921",
+  "detail": {
+    "id": 1921,
+    "lessonName": "A new piece by Chopin",
+    "name": "A new piece by Chopin",
+    "position": 20,
+    "levelName": "B2",
+    "audioSrc": "",
+    "youtubeVideoId": "yugAEvNAhlc",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 74549,
+        "position": 1,
+        "content": "An emotional waltz written by a master composer,",
+        "defaultInput": "",
+        "jsonContent": [
+          "An",
+          "emotional",
+          "waltz",
+          "written",
+          "by",
+          "a",
+          "master",
+          "composer,"
+        ],
+        "solution": [
+          [
+            "An"
+          ],
+          [
+            "emotional"
+          ],
+          [
+            "waltz"
+          ],
+          [
+            "written"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "master"
+          ],
+          [
+            "composer,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 2.3,
+        "timeEnd": 6.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74549/list"
+      },
+      {
+        "id": 74550,
+        "position": 2,
+        "content": "too bad nobody knew it existed for 200 years.",
+        "defaultInput": "",
+        "jsonContent": [
+          "too",
+          "bad",
+          "nobody",
+          "knew",
+          "it",
+          "existed",
+          "for",
+          [
+            "200",
+            "two hundred"
+          ],
+          "years."
+        ],
+        "solution": [
+          [
+            "too"
+          ],
+          [
+            "bad"
+          ],
+          [
+            "nobody"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "it"
+          ],
+          [
+            "existed"
+          ],
+          [
+            "for"
+          ],
+          [
+            "200",
+            "two hundred"
+          ],
+          [
+            "years."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 6.77,
+        "timeEnd": 10.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74550/list"
+      },
+      {
+        "id": 74551,
+        "position": 3,
+        "content": "A curator at the Morgan Library and Museum in New York discovered an untitled and unsigned piece of sheet music",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "curator",
+          "at",
+          "the",
+          "Morgan",
+          "Library",
+          "and",
+          "Museum",
+          "in",
+          "New",
+          "York",
+          "discovered",
+          "an",
+          "untitled",
+          "and",
+          "unsigned",
+          "piece",
+          "of",
+          "sheet",
+          "music"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "curator"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Morgan"
+          ],
+          [
+            "Library"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Museum"
+          ],
+          [
+            "in"
+          ],
+          [
+            "New"
+          ],
+          [
+            "York"
+          ],
+          [
+            "discovered"
+          ],
+          [
+            "an"
+          ],
+          [
+            "untitled"
+          ],
+          [
+            "and"
+          ],
+          [
+            "unsigned"
+          ],
+          [
+            "piece"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sheet"
+          ],
+          [
+            "music"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 13.29,
+        "timeEnd": 20.89,
+        "hints": [
+          "Morgan"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74551/list"
+      },
+      {
+        "id": 74552,
+        "position": 4,
+        "content": "that is now being credited to European composer Frederic Chopin.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "that is",
+            "that's"
+          ],
+          "now",
+          "being",
+          "credited",
+          "to",
+          "European",
+          "composer",
+          "Frederic",
+          "Chopin."
+        ],
+        "solution": [
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "now"
+          ],
+          [
+            "being"
+          ],
+          [
+            "credited"
+          ],
+          [
+            "to"
+          ],
+          [
+            "European"
+          ],
+          [
+            "composer"
+          ],
+          [
+            "Frederic"
+          ],
+          [
+            "Chopin."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 20.89,
+        "timeEnd": 25.35,
+        "hints": [
+          "Frederic Chopin"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74552/list"
+      },
+      {
+        "id": 74553,
+        "position": 5,
+        "content": "This is a manuscript by Frederic Chopin, the French-Polish composer of the 19th century.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "a",
+          "manuscript",
+          "by",
+          "Frederic",
+          "Chopin,",
+          "the",
+          [
+            "French-Polish",
+            "French Polish"
+          ],
+          "composer",
+          "of",
+          "the",
+          [
+            "19th",
+            "nineteenth"
+          ],
+          "century."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "manuscript"
+          ],
+          [
+            "by"
+          ],
+          [
+            "Frederic"
+          ],
+          [
+            "Chopin,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "French-Polish",
+            "French Polish"
+          ],
+          [
+            "composer"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "19th",
+            "nineteenth"
+          ],
+          [
+            "century."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 25.35,
+        "timeEnd": 29.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74553/list"
+      },
+      {
+        "id": 74554,
+        "position": 6,
+        "content": "It's very small, the size of an index card. It's a one page piece of music.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "very",
+          "small,",
+          "the",
+          "size",
+          "of",
+          "an",
+          "index",
+          "card.",
+          "It's",
+          "a",
+          [
+            "one",
+            "1"
+          ],
+          "page",
+          "piece",
+          "of",
+          "music."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "small,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "size"
+          ],
+          [
+            "of"
+          ],
+          [
+            "an"
+          ],
+          [
+            "index"
+          ],
+          [
+            "card."
+          ],
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "page"
+          ],
+          [
+            "piece"
+          ],
+          [
+            "of"
+          ],
+          [
+            "music."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 29.64,
+        "timeEnd": 34.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74554/list"
+      },
+      {
+        "id": 74555,
+        "position": 7,
+        "content": "Frederic Chopin was a maestro of the 18th-century Romantic Era.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Frederic",
+          "Chopin",
+          "was",
+          "a",
+          "maestro",
+          "of",
+          "the",
+          [
+            "18th-century",
+            "18th century"
+          ],
+          "Romantic",
+          "Era."
+        ],
+        "solution": [
+          [
+            "Frederic"
+          ],
+          [
+            "Chopin"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "maestro"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "18th-century",
+            "18th century"
+          ],
+          [
+            "Romantic"
+          ],
+          [
+            "Era."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 34.62,
+        "timeEnd": 39.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74555/list"
+      },
+      {
+        "id": 74556,
+        "position": 8,
+        "content": "He died in Paris at the age of 39,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "died",
+          "in",
+          "Paris",
+          "at",
+          "the",
+          "age",
+          "of",
+          [
+            "39,",
+            "thirty-nine"
+          ]
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "died"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Paris"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "age"
+          ],
+          [
+            "of"
+          ],
+          [
+            "39,",
+            "thirty-nine"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 39.04,
+        "timeEnd": 41.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74556/list"
+      },
+      {
+        "id": 74557,
+        "position": 9,
+        "content": "leaving some wondering if there could have been more music if Chopin had lived longer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "leaving",
+          "some",
+          "wondering",
+          "if",
+          "there",
+          [
+            "could have",
+            "could've"
+          ],
+          "been",
+          "more",
+          "music",
+          "if",
+          "Chopin",
+          "had",
+          "lived",
+          "longer."
+        ],
+        "solution": [
+          [
+            "leaving"
+          ],
+          [
+            "some"
+          ],
+          [
+            "wondering"
+          ],
+          [
+            "if"
+          ],
+          [
+            "there"
+          ],
+          [
+            "could have",
+            "could've"
+          ],
+          [
+            "been"
+          ],
+          [
+            "more"
+          ],
+          [
+            "music"
+          ],
+          [
+            "if"
+          ],
+          [
+            "Chopin"
+          ],
+          [
+            "had"
+          ],
+          [
+            "lived"
+          ],
+          [
+            "longer."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 41.78,
+        "timeEnd": 46.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74557/list"
+      },
+      {
+        "id": 74558,
+        "position": 10,
+        "content": "The incomplete sheet music became part of the library's collection in 2019.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "incomplete",
+          "sheet",
+          "music",
+          "became",
+          "part",
+          "of",
+          "the",
+          "library's",
+          "collection",
+          "in",
+          "2019."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "incomplete"
+          ],
+          [
+            "sheet"
+          ],
+          [
+            "music"
+          ],
+          [
+            "became"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library's"
+          ],
+          [
+            "collection"
+          ],
+          [
+            "in"
+          ],
+          [
+            "2019."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 46.97,
+        "timeEnd": 52.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74558/list"
+      },
+      {
+        "id": 74559,
+        "position": 11,
+        "content": "As the music was unsigned,",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "the",
+          "music",
+          "was",
+          "unsigned,"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "the"
+          ],
+          [
+            "music"
+          ],
+          [
+            "was"
+          ],
+          [
+            "unsigned,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 52.17,
+        "timeEnd": 54.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74559/list"
+      },
+      {
+        "id": 74560,
+        "position": 12,
+        "content": "the library has worked with experts to try to authenticate it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "library",
+          "has",
+          "worked",
+          "with",
+          "experts",
+          "to",
+          "try",
+          "to",
+          "authenticate",
+          "it."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "has"
+          ],
+          [
+            "worked"
+          ],
+          [
+            "with"
+          ],
+          [
+            "experts"
+          ],
+          [
+            "to"
+          ],
+          [
+            "try"
+          ],
+          [
+            "to"
+          ],
+          [
+            "authenticate"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 54.12,
+        "timeEnd": 57.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74560/list"
+      },
+      {
+        "id": 74561,
+        "position": 13,
+        "content": "There's some debate as well as to whether it's a piece he wrote,",
+        "defaultInput": "There's some ",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "some",
+          "debate",
+          "as",
+          "well",
+          "as",
+          "to",
+          "whether",
+          "it's",
+          "a",
+          "piece",
+          "he",
+          "wrote,"
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "some"
+          ],
+          [
+            "debate"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "to"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "piece"
+          ],
+          [
+            "he"
+          ],
+          [
+            "wrote,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 57.76,
+        "timeEnd": 61.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74561/list"
+      },
+      {
+        "id": 74562,
+        "position": 14,
+        "content": "but the consensus so far is that it really feels like him.",
+        "defaultInput": "but the ",
+        "jsonContent": [
+          "but",
+          "the",
+          "consensus",
+          "so",
+          "far",
+          "is",
+          "that",
+          "it",
+          "really",
+          "feels",
+          "like",
+          "him."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "consensus"
+          ],
+          [
+            "so"
+          ],
+          [
+            "far"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it"
+          ],
+          [
+            "really"
+          ],
+          [
+            "feels"
+          ],
+          [
+            "like"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 63.19,
+        "timeEnd": 65.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74562/list"
+      },
+      {
+        "id": 74563,
+        "position": 15,
+        "content": "Finding anything by a composer like Chopin is very meaningful.",
+        "defaultInput": "Finding anything ",
+        "jsonContent": [
+          "Finding",
+          "anything",
+          "by",
+          "a",
+          "composer",
+          "like",
+          "Chopin",
+          "is",
+          "very",
+          "meaningful."
+        ],
+        "solution": [
+          [
+            "Finding"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "composer"
+          ],
+          [
+            "like"
+          ],
+          [
+            "Chopin"
+          ],
+          [
+            "is"
+          ],
+          [
+            "very"
+          ],
+          [
+            "meaningful."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 65.83,
+        "timeEnd": 70.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74563/list"
+      },
+      {
+        "id": 74564,
+        "position": 16,
+        "content": "It would be like, I don't know...",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It would",
+            "It'd"
+          ],
+          "be",
+          "like,",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "know..."
+        ],
+        "solution": [
+          [
+            "It would",
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "like,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know..."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 71.28,
+        "timeEnd": 73.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74564/list"
+      },
+      {
+        "id": 74565,
+        "position": 17,
+        "content": "a playwright finding some new Shakespeare or a writer finding some new Dickens or something like that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "playwright",
+          "finding",
+          "some",
+          "new",
+          "Shakespeare",
+          "or",
+          "a",
+          "writer",
+          "finding",
+          "some",
+          "new",
+          "Dickens",
+          "or",
+          "something",
+          "like",
+          "that."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "playwright"
+          ],
+          [
+            "finding"
+          ],
+          [
+            "some"
+          ],
+          [
+            "new"
+          ],
+          [
+            "Shakespeare"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "writer"
+          ],
+          [
+            "finding"
+          ],
+          [
+            "some"
+          ],
+          [
+            "new"
+          ],
+          [
+            "Dickens"
+          ],
+          [
+            "or"
+          ],
+          [
+            "something"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 73.81,
+        "timeEnd": 79.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74565/list"
+      },
+      {
+        "id": 74566,
+        "position": 18,
+        "content": "Whether it really is a Chopin piece or not,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Whether",
+          "it",
+          "really",
+          "is",
+          "a",
+          "Chopin",
+          "piece",
+          "or",
+          "not,"
+        ],
+        "solution": [
+          [
+            "Whether"
+          ],
+          [
+            "it"
+          ],
+          [
+            "really"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "Chopin"
+          ],
+          [
+            "piece"
+          ],
+          [
+            "or"
+          ],
+          [
+            "not,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 79.53,
+        "timeEnd": 82.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74566/list"
+      },
+      {
+        "id": 74567,
+        "position": 19,
+        "content": "the music is on display at the Morgan Library and Museum.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "music",
+          "is",
+          "on",
+          "display",
+          "at",
+          "the",
+          "Morgan",
+          "Library",
+          "and",
+          "Museum."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "music"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "display"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Morgan"
+          ],
+          [
+            "Library"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Museum."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 82.76,
+        "timeEnd": 86.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74567/list"
+      },
+      {
+        "id": 74568,
+        "position": 20,
+        "content": "Discoveries like this are quite rare.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Discoveries",
+          "like",
+          "this",
+          "are",
+          "quite",
+          "rare."
+        ],
+        "solution": [
+          [
+            "Discoveries"
+          ],
+          [
+            "like"
+          ],
+          [
+            "this"
+          ],
+          [
+            "are"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "rare."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 86.68,
+        "timeEnd": 88.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74568/list"
+      },
+      {
+        "id": 74569,
+        "position": 21,
+        "content": "As you may have heard of the Mozart discovery a few months ago,",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "may",
+          "have",
+          "heard",
+          "of",
+          "the",
+          "Mozart",
+          "discovery",
+          "a",
+          "few",
+          "months",
+          "ago,"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "may"
+          ],
+          [
+            "have"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mozart"
+          ],
+          [
+            "discovery"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "months"
+          ],
+          [
+            "ago,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 88.76,
+        "timeEnd": 92.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74569/list"
+      },
+      {
+        "id": 74570,
+        "position": 22,
+        "content": "These really don't happen very often. For Chopin, this is the first in almost a hundred years.",
+        "defaultInput": "",
+        "jsonContent": [
+          "These",
+          "really",
+          [
+            "don't",
+            "do not"
+          ],
+          "happen",
+          "very",
+          "often.",
+          "For",
+          "Chopin,",
+          "this",
+          "is",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "in",
+          "almost",
+          [
+            "a hundred",
+            "100"
+          ],
+          "years."
+        ],
+        "solution": [
+          [
+            "These"
+          ],
+          [
+            "really"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "happen"
+          ],
+          [
+            "very"
+          ],
+          [
+            "often."
+          ],
+          [
+            "For"
+          ],
+          [
+            "Chopin,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "in"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "a hundred",
+            "100"
+          ],
+          [
+            "years."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 92.92,
+        "timeEnd": 98.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/74570/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "74549": {
+      "id": 2687596,
+      "text": "Một bản valse đầy cảm xúc được viết bởi một nhạc sĩ bậc thầy,",
+      "author": "ChatGPT4.1"
+    },
+    "74550": {
+      "id": 2687597,
+      "text": "Thật tiếc là không ai biết đến sự tồn tại của nó trong suốt 200 năm.",
+      "author": "ChatGPT4.1"
+    },
+    "74551": {
+      "id": 2687598,
+      "text": "Một người phụ trách tại Thư viện và Bảo tàng Morgan ở New York đã phát hiện ra một bản nhạc không tiêu đề và không ký tên",
+      "author": "ChatGPT4.1"
+    },
+    "74552": {
+      "id": 2687599,
+      "text": "và hiện đang được ghi nhận là của nhà soạn nhạc châu Âu Frederic Chopin.",
+      "author": "ChatGPT4.1"
+    },
+    "74553": {
+      "id": 2687600,
+      "text": "Đây là một bản thảo của Frederic Chopin, nhà soạn nhạc Pháp-Ba Lan thế kỷ 19.",
+      "author": "ChatGPT4.1"
+    },
+    "74554": {
+      "id": 2687601,
+      "text": "Nó rất nhỏ, chỉ bằng một chiếc thẻ ghi chú. Đó là một bản nhạc dài một trang giấy.",
+      "author": "ChatGPT4.1"
+    },
+    "74555": {
+      "id": 2687602,
+      "text": "Frederic Chopin là một bậc thầy của thời kỳ Lãng mạn thế kỷ 18.",
+      "author": "ChatGPT4.1"
+    },
+    "74556": {
+      "id": 2687603,
+      "text": "Ông qua đời tại Paris khi mới 39 tuổi,",
+      "author": "ChatGPT4.1"
+    },
+    "74557": {
+      "id": 2687604,
+      "text": "khiến nhiều người tự hỏi liệu sẽ có thêm nhiều tác phẩm nữa nếu Chopin sống lâu hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "74558": {
+      "id": 2687605,
+      "text": "Bản nhạc chưa hoàn chỉnh này đã trở thành một phần của bộ sưu tập của thư viện vào năm 2019.",
+      "author": "ChatGPT4.1"
+    },
+    "74559": {
+      "id": 2687606,
+      "text": "Vì bản nhạc không có chữ ký,",
+      "author": "ChatGPT4.1"
+    },
+    "74560": {
+      "id": 2687607,
+      "text": "thư viện đã hợp tác với các chuyên gia để cố gắng xác thực nó.",
+      "author": "ChatGPT4.1"
+    },
+    "74561": {
+      "id": 2687608,
+      "text": "Cũng có một số tranh luận về việc liệu đây có phải là tác phẩm do ông sáng tác hay không,",
+      "author": "ChatGPT4.1"
+    },
+    "74562": {
+      "id": 2687609,
+      "text": "nhưng cho đến nay, đa số đều đồng ý rằng nó thực sự mang dấu ấn của ông.",
+      "author": "ChatGPT4.1"
+    },
+    "74563": {
+      "id": 2687610,
+      "text": "Tìm thấy bất cứ tác phẩm nào của một nhà soạn nhạc như Chopin đều rất có ý nghĩa.",
+      "author": "ChatGPT4.1"
+    },
+    "74564": {
+      "id": 2687611,
+      "text": "Nó cũng giống như, tôi cũng không biết nữa...",
+      "author": "ChatGPT4.1"
+    },
+    "74565": {
+      "id": 2687612,
+      "text": "một nhà viết kịch tìm ra một vở kịch mới của Shakespeare hay một nhà văn phát hiện tác phẩm mới của Dickens hoặc điều gì đó tương tự.",
+      "author": "ChatGPT4.1"
+    },
+    "74566": {
+      "id": 2687613,
+      "text": "Dù có thực sự là một tác phẩm của Chopin hay không,",
+      "author": "ChatGPT4.1"
+    },
+    "74567": {
+      "id": 2687614,
+      "text": "bản nhạc này vẫn đang được trưng bày tại Thư viện và Bảo tàng Morgan.",
+      "author": "ChatGPT4.1"
+    },
+    "74568": {
+      "id": 2687615,
+      "text": "Những phát hiện như thế này là rất hiếm.",
+      "author": "ChatGPT4.1"
+    },
+    "74569": {
+      "id": 2687616,
+      "text": "Như bạn có thể đã nghe về phát hiện của Mozart vài tháng trước,",
+      "author": "ChatGPT4.1"
+    },
+    "74570": {
+      "id": 2687617,
+      "text": "Những điều như vậy thực sự rất hiếm. Đối với Chopin, đây là lần đầu tiên trong gần một trăm năm.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "summary": {
+    "id": 1652,
+    "name": "Short Talk 171",
+    "subTitle": "Atlantic Energy Service Notice",
+    "levelName": "B1",
+    "position": 427,
+    "totalChallenges": 10,
+    "groupId": 48,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1652",
+  "detail": {
+    "id": 1652,
+    "lessonName": "Short Talk 171",
+    "name": "Short Talk 171",
+    "position": 427,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/0-short-talk-171.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68491,
+        "position": 1,
+        "content": "Hello!",
+        "defaultInput": "Hello!",
+        "jsonContent": [
+          "Hello!"
+        ],
+        "solution": [
+          [
+            "Hello!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/1.mp3",
+        "timeStart": 0.44,
+        "timeEnd": 1.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68491/list"
+      },
+      {
+        "id": 68492,
+        "position": 2,
+        "content": "You've reached Atlantic Energy Services,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You've",
+            "You have"
+          ],
+          "reached",
+          "Atlantic",
+          "Energy",
+          "Services,"
+        ],
+        "solution": [
+          [
+            "You've",
+            "You have"
+          ],
+          [
+            "reached"
+          ],
+          [
+            "Atlantic"
+          ],
+          [
+            "Energy"
+          ],
+          [
+            "Services,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/2.mp3",
+        "timeStart": 1.29,
+        "timeEnd": 3.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68492/list"
+      },
+      {
+        "id": 68493,
+        "position": 3,
+        "content": "your trusted provider of electricity and gas in the Mid-Atlantic area.",
+        "defaultInput": "",
+        "jsonContent": [
+          "your",
+          "trusted",
+          "provider",
+          "of",
+          "electricity",
+          "and",
+          "gas",
+          "in",
+          "the",
+          [
+            "Mid-Atlantic",
+            "Mid Atlantic"
+          ],
+          "area."
+        ],
+        "solution": [
+          [
+            "your"
+          ],
+          [
+            "trusted"
+          ],
+          [
+            "provider"
+          ],
+          [
+            "of"
+          ],
+          [
+            "electricity"
+          ],
+          [
+            "and"
+          ],
+          [
+            "gas"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mid-Atlantic",
+            "Mid Atlantic"
+          ],
+          [
+            "area."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/3.mp3",
+        "timeStart": 3.78,
+        "timeEnd": 7.95,
+        "hints": [
+          "Mid-Atlantic"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68493/list"
+      },
+      {
+        "id": 68494,
+        "position": 4,
+        "content": "Please hold for the next available agent.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "hold",
+          "for",
+          "the",
+          "next",
+          "available",
+          "agent."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "hold"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "available"
+          ],
+          [
+            "agent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/4.mp3",
+        "timeStart": 8.17,
+        "timeEnd": 10.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68494/list"
+      },
+      {
+        "id": 68495,
+        "position": 5,
+        "content": "If you're inquiring about the current power interruptions in Maplewood,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "inquiring",
+            "enquiring"
+          ],
+          "about",
+          "the",
+          "current",
+          "power",
+          "interruptions",
+          "in",
+          "Maplewood,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "inquiring",
+            "enquiring"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "current"
+          ],
+          [
+            "power"
+          ],
+          [
+            "interruptions"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Maplewood,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/5.mp3",
+        "timeStart": 10.86,
+        "timeEnd": 14.5,
+        "hints": [
+          "Maplewood"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68495/list"
+      },
+      {
+        "id": 68496,
+        "position": 6,
+        "content": "we want to assure you that our teams are actively working in the area",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          [
+            "want to",
+            "wanna"
+          ],
+          "assure",
+          "you",
+          "that",
+          "our",
+          "teams",
+          "are",
+          "actively",
+          "working",
+          "in",
+          "the",
+          "area"
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "assure"
+          ],
+          [
+            "you"
+          ],
+          [
+            "that"
+          ],
+          [
+            "our"
+          ],
+          [
+            "teams"
+          ],
+          [
+            "are"
+          ],
+          [
+            "actively"
+          ],
+          [
+            "working"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/6.mp3",
+        "timeStart": 14.5,
+        "timeEnd": 18.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68496/list"
+      },
+      {
+        "id": 68497,
+        "position": 7,
+        "content": "and aim to have everything back to normal by 3 PM today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "aim",
+          "to",
+          "have",
+          "everything",
+          "back",
+          "to",
+          "normal",
+          "by",
+          [
+            "3",
+            "three"
+          ],
+          "PM",
+          "today."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "aim"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "everything"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "normal"
+          ],
+          [
+            "by"
+          ],
+          [
+            "3",
+            "three"
+          ],
+          [
+            "PM"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/7.mp3",
+        "timeStart": 18.23,
+        "timeEnd": 21.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68497/list"
+      },
+      {
+        "id": 68498,
+        "position": 8,
+        "content": "If you've recently relocated and need to initiate or terminate a service,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you've",
+            "you have"
+          ],
+          "recently",
+          "relocated",
+          "and",
+          "need",
+          "to",
+          "initiate",
+          "or",
+          "terminate",
+          "a",
+          "service,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "recently"
+          ],
+          [
+            "relocated"
+          ],
+          [
+            "and"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "initiate"
+          ],
+          [
+            "or"
+          ],
+          [
+            "terminate"
+          ],
+          [
+            "a"
+          ],
+          [
+            "service,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/8.mp3",
+        "timeStart": 22.2,
+        "timeEnd": 26.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68498/list"
+      },
+      {
+        "id": 68499,
+        "position": 9,
+        "content": "please visit our website to submit your request.",
+        "defaultInput": "",
+        "jsonContent": [
+          "please",
+          "visit",
+          "our",
+          "website",
+          "to",
+          "submit",
+          "your",
+          "request."
+        ],
+        "solution": [
+          [
+            "please"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "our"
+          ],
+          [
+            "website"
+          ],
+          [
+            "to"
+          ],
+          [
+            "submit"
+          ],
+          [
+            "your"
+          ],
+          [
+            "request."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/9.mp3",
+        "timeStart": 26.26,
+        "timeEnd": 29.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68499/list"
+      },
+      {
+        "id": 68500,
+        "position": 10,
+        "content": "Thank you for your patience!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you",
+          "for",
+          "your",
+          "patience!"
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "your"
+          ],
+          [
+            "patience!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-171-2024-10-05-20-41-36/10.mp3",
+        "timeStart": 29.2,
+        "timeEnd": 31.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68500/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68491": {
+      "id": 2648177,
+      "text": "Xin chào!",
+      "author": "ChatGPT4.1"
+    },
+    "68492": {
+      "id": 2648178,
+      "text": "Bạn đã liên hệ với Atlantic Energy Services,",
+      "author": "ChatGPT4.1"
+    },
+    "68493": {
+      "id": 2648179,
+      "text": "nhà cung cấp điện và gas đáng tin cậy của bạn tại khu vực Mid-Atlantic.",
+      "author": "ChatGPT4.1"
+    },
+    "68494": {
+      "id": 2648180,
+      "text": "Vui lòng chờ để gặp nhân viên tiếp theo.",
+      "author": "ChatGPT4.1"
+    },
+    "68495": {
+      "id": 2648181,
+      "text": "Nếu bạn đang thắc mắc về sự cố mất điện hiện tại ở Maplewood,",
+      "author": "ChatGPT4.1"
+    },
+    "68496": {
+      "id": 2648182,
+      "text": "chúng tôi muốn đảm bảo với bạn rằng các đội ngũ của chúng tôi đang tích cực làm việc tại khu vực này",
+      "author": "ChatGPT4.1"
+    },
+    "68497": {
+      "id": 2648183,
+      "text": "và dự kiến mọi thứ sẽ trở lại bình thường trước 3 giờ chiều hôm nay.",
+      "author": "ChatGPT4.1"
+    },
+    "68498": {
+      "id": 2648184,
+      "text": "Nếu bạn mới chuyển đến và cần khởi tạo hoặc kết thúc một dịch vụ,",
+      "author": "ChatGPT4.1"
+    },
+    "68499": {
+      "id": 2648185,
+      "text": "xin vui lòng truy cập trang web của chúng tôi để gửi yêu cầu.",
+      "author": "ChatGPT4.1"
+    },
+    "68500": {
+      "id": 2648186,
+      "text": "Cảm ơn bạn đã kiên nhẫn!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

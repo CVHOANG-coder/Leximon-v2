@@ -1,0 +1,718 @@
+{
+  "summary": {
+    "id": 1664,
+    "name": "Short Talk 183",
+    "subTitle": "Request for Contact Number",
+    "levelName": "B1",
+    "position": 449,
+    "totalChallenges": 11,
+    "groupId": 49,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1664",
+  "detail": {
+    "id": 1664,
+    "lessonName": "Short Talk 183",
+    "name": "Short Talk 183",
+    "position": 449,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/0-short-talk-183.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68597,
+        "position": 1,
+        "content": "Good morning, Ms. Taylor. This is Mark Thompson.",
+        "defaultInput": "Good morning, Ms. Taylor. This is Mark Thompson.",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          "Ms.",
+          "Taylor.",
+          "This",
+          "is",
+          "Mark",
+          "Thompson."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "Ms."
+          ],
+          [
+            "Taylor."
+          ],
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Mark"
+          ],
+          [
+            "Thompson."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/1.mp3",
+        "timeStart": 0.44,
+        "timeEnd": 3.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68597/list"
+      },
+      {
+        "id": 68598,
+        "position": 2,
+        "content": "I hope you're doing well.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "hope",
+          [
+            "you're",
+            "you are"
+          ],
+          "doing",
+          "well."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "hope"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "well."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/2.mp3",
+        "timeStart": 3.1,
+        "timeEnd": 4.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68598/list"
+      },
+      {
+        "id": 68599,
+        "position": 3,
+        "content": "It's Saturday, and I'm currently heading to the airport.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "Saturday,",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "currently",
+          "heading",
+          "to",
+          "the",
+          "airport."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "Saturday,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "currently"
+          ],
+          [
+            "heading"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "airport."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/3.mp3",
+        "timeStart": 4.67,
+        "timeEnd": 7.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68599/list"
+      },
+      {
+        "id": 68600,
+        "position": 4,
+        "content": "I realize this is a bit of an unusual request,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "realize",
+            "realise"
+          ],
+          "this",
+          "is",
+          "a",
+          "bit",
+          "of",
+          "an",
+          "unusual",
+          "request,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "realize",
+            "realise"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "an"
+          ],
+          [
+            "unusual"
+          ],
+          [
+            "request,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/4.mp3",
+        "timeStart": 7.29,
+        "timeEnd": 10.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68600/list"
+      },
+      {
+        "id": 68601,
+        "position": 5,
+        "content": "but I accidentally left a note with Mr. Adams' contact number on my desk.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "accidentally",
+          "left",
+          "a",
+          "note",
+          "with",
+          "Mr.",
+          "Adams'",
+          "contact",
+          "number",
+          "on",
+          "my",
+          "desk."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "accidentally"
+          ],
+          [
+            "left"
+          ],
+          [
+            "a"
+          ],
+          [
+            "note"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Adams'"
+          ],
+          [
+            "contact"
+          ],
+          [
+            "number"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "desk."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/5.mp3",
+        "timeStart": 10.14,
+        "timeEnd": 14.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68601/list"
+      },
+      {
+        "id": 68602,
+        "position": 6,
+        "content": "He's supposed to pick me up when I arrive,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He's",
+          "supposed",
+          "to",
+          "pick",
+          "me",
+          "up",
+          "when",
+          "I",
+          "arrive,"
+        ],
+        "solution": [
+          [
+            "He's"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "me"
+          ],
+          [
+            "up"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "arrive,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/6.mp3",
+        "timeStart": 14.05,
+        "timeEnd": 16.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68602/list"
+      },
+      {
+        "id": 68603,
+        "position": 7,
+        "content": "and I won't be able to reach him without it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "won't",
+          "be",
+          "able",
+          "to",
+          "reach",
+          "him",
+          "without",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "him"
+          ],
+          [
+            "without"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/7.mp3",
+        "timeStart": 16.2,
+        "timeEnd": 18.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68603/list"
+      },
+      {
+        "id": 68604,
+        "position": 8,
+        "content": "Could you please go to the office and send me a text with the number?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "please",
+          "go",
+          "to",
+          "the",
+          "office",
+          "and",
+          "send",
+          "me",
+          "a",
+          "text",
+          "with",
+          "the",
+          "number?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "please"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office"
+          ],
+          [
+            "and"
+          ],
+          [
+            "send"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "text"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/8.mp3",
+        "timeStart": 18.26,
+        "timeEnd": 21.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68604/list"
+      },
+      {
+        "id": 68605,
+        "position": 9,
+        "content": "I really appreciate your help, and I know this isn't the easiest favor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "really",
+          "appreciate",
+          "your",
+          "help,",
+          "and",
+          "I",
+          "know",
+          "this",
+          [
+            "isn't",
+            "is not"
+          ],
+          "the",
+          "easiest",
+          [
+            "favor.",
+            "favour"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "your"
+          ],
+          [
+            "help,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "this"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "easiest"
+          ],
+          [
+            "favor.",
+            "favour"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/9.mp3",
+        "timeStart": 21.49,
+        "timeEnd": 25.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68605/list"
+      },
+      {
+        "id": 68606,
+        "position": 10,
+        "content": "I'll check my messages once I touch down in San Diego.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "check",
+          "my",
+          "messages",
+          "once",
+          "I",
+          "touch",
+          "down",
+          "in",
+          "San",
+          "Diego."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "check"
+          ],
+          [
+            "my"
+          ],
+          [
+            "messages"
+          ],
+          [
+            "once"
+          ],
+          [
+            "I"
+          ],
+          [
+            "touch"
+          ],
+          [
+            "down"
+          ],
+          [
+            "in"
+          ],
+          [
+            "San"
+          ],
+          [
+            "Diego."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/10.mp3",
+        "timeStart": 26.06,
+        "timeEnd": 29.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68606/list"
+      },
+      {
+        "id": 68607,
+        "position": 11,
+        "content": "Thank you so much!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you",
+          "so",
+          "much!"
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "so"
+          ],
+          [
+            "much!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-183-2024-10-07-19-19-03/11.mp3",
+        "timeStart": 29.01,
+        "timeEnd": 30.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68607/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68597": {
+      "id": 2618296,
+      "text": "Chào buổi sáng, cô Taylor. Tôi là Mark Thompson đây.",
+      "author": "ChatGPT4.1"
+    },
+    "68598": {
+      "id": 2618297,
+      "text": "Tôi hy vọng cô vẫn khỏe.",
+      "author": "ChatGPT4.1"
+    },
+    "68599": {
+      "id": 2618298,
+      "text": "Hôm nay là thứ Bảy, và hiện tại tôi đang trên đường ra sân bay.",
+      "author": "ChatGPT4.1"
+    },
+    "68600": {
+      "id": 2618299,
+      "text": "Tôi nhận ra đây là một yêu cầu hơi lạ,",
+      "author": "ChatGPT4.1"
+    },
+    "68601": {
+      "id": 2618300,
+      "text": "nhưng tôi đã vô tình để quên tờ giấy ghi số liên lạc của ông Adams trên bàn làm việc.",
+      "author": "ChatGPT4.1"
+    },
+    "68602": {
+      "id": 2618301,
+      "text": "Ông ấy dự định sẽ đón tôi khi tôi đến nơi,",
+      "author": "ChatGPT4.1"
+    },
+    "68603": {
+      "id": 2618302,
+      "text": "và tôi sẽ không thể liên lạc được với ông ấy nếu không có số đó.",
+      "author": "ChatGPT4.1"
+    },
+    "68604": {
+      "id": 2618303,
+      "text": "Cô có thể đến văn phòng và nhắn tin cho tôi số đó được không?",
+      "author": "ChatGPT4.1"
+    },
+    "68605": {
+      "id": 2618304,
+      "text": "Tôi thật sự cảm kích sự giúp đỡ của cô, và tôi biết đây không phải là việc dễ dàng.",
+      "author": "ChatGPT4.1"
+    },
+    "68606": {
+      "id": 2618305,
+      "text": "Tôi sẽ kiểm tra tin nhắn ngay khi hạ cánh ở San Diego.",
+      "author": "ChatGPT4.1"
+    },
+    "68607": {
+      "id": 2618306,
+      "text": "Cảm ơn cô rất nhiều!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "summary": {
+    "id": 1258,
+    "name": "Short Talk 109",
+    "subTitle": "Order Confirmation Needed",
+    "levelName": "B1",
+    "position": 293,
+    "totalChallenges": 11,
+    "groupId": 41,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1258",
+  "detail": {
+    "id": 1258,
+    "lessonName": "Short Talk 109",
+    "name": "Short Talk 109",
+    "position": 293,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/0-short-talk-109.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55586,
+        "position": 1,
+        "content": "Hi there, this message is intended for Gary Geard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi",
+          "there,",
+          "this",
+          "message",
+          "is",
+          "intended",
+          "for",
+          "Gary",
+          "Geard."
+        ],
+        "solution": [
+          [
+            "Hi"
+          ],
+          [
+            "there,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "message"
+          ],
+          [
+            "is"
+          ],
+          [
+            "intended"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Gary"
+          ],
+          [
+            "Geard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/1.mp3",
+        "timeStart": 0.16,
+        "timeEnd": 3.52,
+        "hints": [
+          "Gary Geard"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55586/list"
+      },
+      {
+        "id": 55587,
+        "position": 2,
+        "content": "I noticed your weekly order is very different from what you normally do,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "noticed",
+          "your",
+          "weekly",
+          "order",
+          "is",
+          "very",
+          "different",
+          "from",
+          "what",
+          "you",
+          "normally",
+          "do,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "noticed"
+          ],
+          [
+            "your"
+          ],
+          [
+            "weekly"
+          ],
+          [
+            "order"
+          ],
+          [
+            "is"
+          ],
+          [
+            "very"
+          ],
+          [
+            "different"
+          ],
+          [
+            "from"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "normally"
+          ],
+          [
+            "do,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/2.mp3",
+        "timeStart": 3.76,
+        "timeEnd": 7.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55587/list"
+      },
+      {
+        "id": 55588,
+        "position": 3,
+        "content": "so I just wanted to make sure this was intentional.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "just",
+          "wanted",
+          "to",
+          "make",
+          "sure",
+          "this",
+          "was",
+          "intentional."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "this"
+          ],
+          [
+            "was"
+          ],
+          [
+            "intentional."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/3.mp3",
+        "timeStart": 7.47,
+        "timeEnd": 10.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55588/list"
+      },
+      {
+        "id": 55589,
+        "position": 4,
+        "content": "Based on my records, I believe you are using the QR-T100, correct?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Based",
+          "on",
+          "my",
+          "records,",
+          "I",
+          "believe",
+          [
+            "you are",
+            "you're"
+          ],
+          "using",
+          "the",
+          [
+            "QR-T100,",
+            "QR T100,"
+          ],
+          "correct?"
+        ],
+        "solution": [
+          [
+            "Based"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "records,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "you are",
+            "you're"
+          ],
+          [
+            "using"
+          ],
+          [
+            "the"
+          ],
+          [
+            "QR-T100,",
+            "QR T100,"
+          ],
+          [
+            "correct?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/4.mp3",
+        "timeStart": 10.64,
+        "timeEnd": 15.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55589/list"
+      },
+      {
+        "id": 55590,
+        "position": 5,
+        "content": "The product you ordered actually won't work with the printer in your office.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "product",
+          "you",
+          "ordered",
+          "actually",
+          "won't",
+          "work",
+          "with",
+          "the",
+          "printer",
+          "in",
+          "your",
+          "office."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "product"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ordered"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "work"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "printer"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "office."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/5.mp3",
+        "timeStart": 15.99,
+        "timeEnd": 20.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55590/list"
+      },
+      {
+        "id": 55591,
+        "position": 6,
+        "content": "I am wondering if you want me to change the code,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "wondering",
+          "if",
+          "you",
+          "want",
+          "me",
+          "to",
+          "change",
+          "the",
+          "code,"
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "wondering"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "change"
+          ],
+          [
+            "the"
+          ],
+          [
+            "code,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/6.mp3",
+        "timeStart": 20.35,
+        "timeEnd": 22.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55591/list"
+      },
+      {
+        "id": 55592,
+        "position": 7,
+        "content": "so it will work with what you already have.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          [
+            "it will",
+            "it'll"
+          ],
+          "work",
+          "with",
+          "what",
+          "you",
+          "already",
+          "have."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "it will",
+            "it'll"
+          ],
+          [
+            "work"
+          ],
+          [
+            "with"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "already"
+          ],
+          [
+            "have."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/7.mp3",
+        "timeStart": 22.95,
+        "timeEnd": 25.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55592/list"
+      },
+      {
+        "id": 55593,
+        "position": 8,
+        "content": "Or, if you would like to order a new printer, I am happy to set up an order.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Or,",
+          "if",
+          [
+            "you would",
+            "You'd"
+          ],
+          "like",
+          "to",
+          "order",
+          "a",
+          "new",
+          "printer,",
+          [
+            "I am",
+            "I'm"
+          ],
+          "happy",
+          "to",
+          "set",
+          "up",
+          "an",
+          "order."
+        ],
+        "solution": [
+          [
+            "Or,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you would",
+            "You'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "order"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "printer,"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "set"
+          ],
+          [
+            "up"
+          ],
+          [
+            "an"
+          ],
+          [
+            "order."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/8.mp3",
+        "timeStart": 25.63,
+        "timeEnd": 29.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55593/list"
+      },
+      {
+        "id": 55594,
+        "position": 9,
+        "content": "Please give me a call by the end of the day so we can get this resolved.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "give",
+          "me",
+          "a",
+          "call",
+          "by",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day",
+          "so",
+          "we",
+          "can",
+          "get",
+          "this",
+          "resolved."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "call"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day"
+          ],
+          [
+            "so"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "this"
+          ],
+          [
+            "resolved."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/9.mp3",
+        "timeStart": 30.11,
+        "timeEnd": 33.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55594/list"
+      },
+      {
+        "id": 55595,
+        "position": 10,
+        "content": "The office closes today at 6:30.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "office",
+          "closes",
+          "today",
+          "at",
+          "6:30."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "office"
+          ],
+          [
+            "closes"
+          ],
+          [
+            "today"
+          ],
+          [
+            "at"
+          ],
+          [
+            "6:30."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/10.mp3",
+        "timeStart": 33.74,
+        "timeEnd": 36.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55595/list"
+      },
+      {
+        "id": 55596,
+        "position": 11,
+        "content": "Thanks, Gary!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks,",
+          "Gary!"
+        ],
+        "solution": [
+          [
+            "Thanks,"
+          ],
+          [
+            "Gary!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-109-2023-10-03-18-30-06/11.mp3",
+        "timeStart": 36.73,
+        "timeEnd": 37.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55596/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55586": {
+      "id": 2643751,
+      "text": "Chào bạn, tin nhắn này được gửi đến Gary Geard.",
+      "author": "ChatGPT4.1"
+    },
+    "55587": {
+      "id": 2643752,
+      "text": "Tôi nhận thấy đơn đặt hàng hàng tuần của bạn rất khác so với bình thường,",
+      "author": "ChatGPT4.1"
+    },
+    "55588": {
+      "id": 2643753,
+      "text": "nên tôi chỉ muốn đảm bảo rằng điều này là có chủ ý.",
+      "author": "ChatGPT4.1"
+    },
+    "55589": {
+      "id": 2643754,
+      "text": "Dựa trên hồ sơ của tôi, tôi tin rằng bạn đang sử dụng QR-T100, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "55590": {
+      "id": 2643755,
+      "text": "Sản phẩm bạn đặt thực tế sẽ không hoạt động với máy in trong văn phòng của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "55591": {
+      "id": 2643756,
+      "text": "Tôi tự hỏi liệu bạn có muốn tôi thay đổi mã không,",
+      "author": "ChatGPT4.1"
+    },
+    "55592": {
+      "id": 2643757,
+      "text": "để nó sẽ hoạt động với những gì bạn đã có.",
+      "author": "ChatGPT4.1"
+    },
+    "55593": {
+      "id": 2643758,
+      "text": "Hoặc, nếu bạn muốn đặt một máy in mới, tôi rất sẵn lòng thiết lập đơn hàng.",
+      "author": "ChatGPT4.1"
+    },
+    "55594": {
+      "id": 2643759,
+      "text": "Vui lòng gọi cho tôi trước cuối ngày để chúng ta có thể giải quyết việc này.",
+      "author": "ChatGPT4.1"
+    },
+    "55595": {
+      "id": 2643760,
+      "text": "Văn phòng hôm nay đóng cửa lúc 6:30.",
+      "author": "ChatGPT4.1"
+    },
+    "55596": {
+      "id": 2643761,
+      "text": "Cảm ơn bạn, Gary!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

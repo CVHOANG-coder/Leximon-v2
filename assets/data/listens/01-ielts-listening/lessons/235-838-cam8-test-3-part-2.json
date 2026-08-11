@@ -1,0 +1,3975 @@
+{
+  "summary": {
+    "id": 838,
+    "name": "Cam8 - Test 3 - Part 2",
+    "subTitle": "The National Arts Centre Overview",
+    "levelName": "B2",
+    "position": 235,
+    "totalChallenges": 58,
+    "groupId": 65,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/838",
+  "detail": {
+    "id": 838,
+    "lessonName": "Cam8 - Test 3 - Part 2",
+    "name": "Cam8 - Test 3 - Part 2",
+    "position": 235,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/0-ielts-cambridge-8-test-3-part-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 42600,
+        "position": 1,
+        "content": "Hello, and welcome to \"Focus on the Arts\".",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "and",
+          "welcome",
+          "to",
+          "\"Focus",
+          "on",
+          "the",
+          "Arts\"."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "welcome"
+          ],
+          [
+            "to"
+          ],
+          [
+            "\"Focus"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Arts\"."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/1.mp3",
+        "timeStart": 0.43,
+        "timeEnd": 3.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42600/list"
+      },
+      {
+        "id": 42601,
+        "position": 2,
+        "content": "I'm your host - Dave Green -",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "your",
+          "host",
+          "-",
+          "Dave",
+          "Green",
+          "-"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "your"
+          ],
+          [
+            "host"
+          ],
+          [
+            "-"
+          ],
+          [
+            "Dave"
+          ],
+          [
+            "Green"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/2.mp3",
+        "timeStart": 3.53,
+        "timeEnd": 5.4,
+        "hints": [
+          "Dave Green"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42601/list"
+      },
+      {
+        "id": 42602,
+        "position": 3,
+        "content": "and this is your very own local radio programme.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "this",
+          "is",
+          "your",
+          "very",
+          "own",
+          "local",
+          "radio",
+          [
+            "programme.",
+            "program"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "your"
+          ],
+          [
+            "very"
+          ],
+          [
+            "own"
+          ],
+          [
+            "local"
+          ],
+          [
+            "radio"
+          ],
+          [
+            "programme.",
+            "program"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/3.mp3",
+        "timeStart": 5.4,
+        "timeEnd": 8.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42602/list"
+      },
+      {
+        "id": 42603,
+        "position": 4,
+        "content": "Every Friday evening we put the spotlight on different arts and culture facilities,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Every",
+          "Friday",
+          "evening",
+          "we",
+          "put",
+          "the",
+          "spotlight",
+          "on",
+          "different",
+          "arts",
+          "and",
+          "culture",
+          "facilities,"
+        ],
+        "solution": [
+          [
+            "Every"
+          ],
+          [
+            "Friday"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "we"
+          ],
+          [
+            "put"
+          ],
+          [
+            "the"
+          ],
+          [
+            "spotlight"
+          ],
+          [
+            "on"
+          ],
+          [
+            "different"
+          ],
+          [
+            "arts"
+          ],
+          [
+            "and"
+          ],
+          [
+            "culture"
+          ],
+          [
+            "facilities,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/4.mp3",
+        "timeStart": 8.89,
+        "timeEnd": 13.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42603/list"
+      },
+      {
+        "id": 42604,
+        "position": 5,
+        "content": "and look at the shows and events that are on offer in the coming week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "look",
+          "at",
+          "the",
+          "shows",
+          "and",
+          "events",
+          "that",
+          "are",
+          "on",
+          "offer",
+          "in",
+          "the",
+          "coming",
+          "week."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shows"
+          ],
+          [
+            "and"
+          ],
+          [
+            "events"
+          ],
+          [
+            "that"
+          ],
+          [
+            "are"
+          ],
+          [
+            "on"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/5.mp3",
+        "timeStart": 13.35,
+        "timeEnd": 16.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42604/list"
+      },
+      {
+        "id": 42605,
+        "position": 6,
+        "content": "And today the focus is on The National Arts Centre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "today",
+          "the",
+          "focus",
+          "is",
+          "on",
+          "The",
+          "National",
+          "Arts",
+          [
+            "Centre.",
+            "center"
+          ]
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "today"
+          ],
+          [
+            "the"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "The"
+          ],
+          [
+            "National"
+          ],
+          [
+            "Arts"
+          ],
+          [
+            "Centre.",
+            "center"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/6.mp3",
+        "timeStart": 16.99,
+        "timeEnd": 19.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42605/list"
+      },
+      {
+        "id": 42606,
+        "position": 7,
+        "content": "Now, if you don't already know it yourself,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "if",
+          "you",
+          [
+            "don't",
+            "do not"
+          ],
+          "already",
+          "know",
+          "it",
+          "yourself,"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "already"
+          ],
+          [
+            "know"
+          ],
+          [
+            "it"
+          ],
+          [
+            "yourself,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/7.mp3",
+        "timeStart": 20.61,
+        "timeEnd": 23.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42606/list"
+      },
+      {
+        "id": 42607,
+        "position": 8,
+        "content": "I'm sure you've all heard of it.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          [
+            "you've",
+            "You have"
+          ],
+          "all",
+          "heard",
+          "of",
+          "it."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "all"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "of"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/8.mp3",
+        "timeStart": 23.04,
+        "timeEnd": 24.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42607/list"
+      },
+      {
+        "id": 42608,
+        "position": 9,
+        "content": "It's famous throughout the world as one of the major venues for classical music.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "famous",
+          "throughout",
+          "the",
+          "world",
+          "as",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "major",
+          "venues",
+          "for",
+          "classical",
+          "music."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "famous"
+          ],
+          [
+            "throughout"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "as"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "major"
+          ],
+          [
+            "venues"
+          ],
+          [
+            "for"
+          ],
+          [
+            "classical"
+          ],
+          [
+            "music."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/9.mp3",
+        "timeStart": 24.72,
+        "timeEnd": 29.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42608/list"
+      },
+      {
+        "id": 42609,
+        "position": 10,
+        "content": "But did you know that it is actually much more than just a place to hear concerts?",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "did",
+          "you",
+          "know",
+          "that",
+          [
+            "it is",
+            "it's"
+          ],
+          "actually",
+          "much",
+          "more",
+          "than",
+          "just",
+          "a",
+          "place",
+          "to",
+          "hear",
+          "concerts?"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "much"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "place"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "concerts?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/10.mp3",
+        "timeStart": 29.57,
+        "timeEnd": 33.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42609/list"
+      },
+      {
+        "id": 42610,
+        "position": 11,
+        "content": "The Centre itself is a huge complex that caters for a great range of arts.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "Centre",
+            "center"
+          ],
+          "itself",
+          "is",
+          "a",
+          "huge",
+          "complex",
+          "that",
+          "caters",
+          "for",
+          "a",
+          "great",
+          "range",
+          "of",
+          "arts."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Centre",
+            "center"
+          ],
+          [
+            "itself"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "huge"
+          ],
+          [
+            "complex"
+          ],
+          [
+            "that"
+          ],
+          [
+            "caters"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "arts."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/11.mp3",
+        "timeStart": 34.01,
+        "timeEnd": 38.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42610/list"
+      },
+      {
+        "id": 42611,
+        "position": 12,
+        "content": "Under a single roof it houses concert rooms, theatres, cinemas, art galleries",
+        "defaultInput": "",
+        "jsonContent": [
+          "Under",
+          "a",
+          "single",
+          "roof",
+          "it",
+          "houses",
+          "concert",
+          "rooms,",
+          [
+            "theatres,",
+            "theaters"
+          ],
+          "cinemas,",
+          "art",
+          "galleries"
+        ],
+        "solution": [
+          [
+            "Under"
+          ],
+          [
+            "a"
+          ],
+          [
+            "single"
+          ],
+          [
+            "roof"
+          ],
+          [
+            "it"
+          ],
+          [
+            "houses"
+          ],
+          [
+            "concert"
+          ],
+          [
+            "rooms,"
+          ],
+          [
+            "theatres,",
+            "theaters"
+          ],
+          [
+            "cinemas,"
+          ],
+          [
+            "art"
+          ],
+          [
+            "galleries"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/12.mp3",
+        "timeStart": 38.63,
+        "timeEnd": 44.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42611/list"
+      },
+      {
+        "id": 42612,
+        "position": 13,
+        "content": "and a wonderful public library,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "a",
+          "wonderful",
+          "public",
+          "library,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wonderful"
+          ],
+          [
+            "public"
+          ],
+          [
+            "library,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/13.mp3",
+        "timeStart": 44.17,
+        "timeEnd": 46.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42612/list"
+      },
+      {
+        "id": 42613,
+        "position": 14,
+        "content": "as well as service facilities including three restaurants and a bookshop.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "well",
+          "as",
+          "service",
+          "facilities",
+          "including",
+          [
+            "three",
+            "3"
+          ],
+          "restaurants",
+          "and",
+          "a",
+          "bookshop."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "service"
+          ],
+          [
+            "facilities"
+          ],
+          [
+            "including"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "restaurants"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bookshop."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/14.mp3",
+        "timeStart": 46.01,
+        "timeEnd": 50.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42613/list"
+      },
+      {
+        "id": 42614,
+        "position": 15,
+        "content": "So at any one time, the choice of entertainment there is simply enormous.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "at",
+          "any",
+          [
+            "one",
+            "1"
+          ],
+          "time,",
+          "the",
+          "choice",
+          "of",
+          "entertainment",
+          [
+            "there is",
+            "there's"
+          ],
+          "simply",
+          "enormous."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "at"
+          ],
+          [
+            "any"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "choice"
+          ],
+          [
+            "of"
+          ],
+          [
+            "entertainment"
+          ],
+          [
+            "there is",
+            "there's"
+          ],
+          [
+            "simply"
+          ],
+          [
+            "enormous."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/15.mp3",
+        "timeStart": 50.56,
+        "timeEnd": 55.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42614/list"
+      },
+      {
+        "id": 42615,
+        "position": 16,
+        "content": "So, how did they manage to build such a big arts complex right in the heart of the city?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "how",
+          "did",
+          "they",
+          "manage",
+          "to",
+          "build",
+          "such",
+          "a",
+          "big",
+          "arts",
+          "complex",
+          "right",
+          "in",
+          "the",
+          "heart",
+          "of",
+          "the",
+          "city?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "did"
+          ],
+          [
+            "they"
+          ],
+          [
+            "manage"
+          ],
+          [
+            "to"
+          ],
+          [
+            "build"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "arts"
+          ],
+          [
+            "complex"
+          ],
+          [
+            "right"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heart"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/16.mp3",
+        "timeStart": 55.73,
+        "timeEnd": 61.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42615/list"
+      },
+      {
+        "id": 42616,
+        "position": 17,
+        "content": "Well, the area was completely destroyed by bombs during the war in 1940.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          "area",
+          "was",
+          "completely",
+          "destroyed",
+          "by",
+          "bombs",
+          "during",
+          "the",
+          "war",
+          "in",
+          "1940."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area"
+          ],
+          [
+            "was"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "destroyed"
+          ],
+          [
+            "by"
+          ],
+          [
+            "bombs"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "war"
+          ],
+          [
+            "in"
+          ],
+          [
+            "1940."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/17.mp3",
+        "timeStart": 61.56,
+        "timeEnd": 66.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42616/list"
+      },
+      {
+        "id": 42617,
+        "position": 18,
+        "content": "So the opportunity was taken to create a cultural centre that would be...",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "the",
+          "opportunity",
+          "was",
+          "taken",
+          "to",
+          "create",
+          "a",
+          "cultural",
+          [
+            "centre",
+            "center"
+          ],
+          "that",
+          "would",
+          "be..."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "the"
+          ],
+          [
+            "opportunity"
+          ],
+          [
+            "was"
+          ],
+          [
+            "taken"
+          ],
+          [
+            "to"
+          ],
+          [
+            "create"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cultural"
+          ],
+          [
+            "centre",
+            "center"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/18.mp3",
+        "timeStart": 66.65,
+        "timeEnd": 70.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42617/list"
+      },
+      {
+        "id": 42618,
+        "position": 19,
+        "content": "what they called: 'The City's gift to the Nation'.",
+        "defaultInput": "",
+        "jsonContent": [
+          "what",
+          "they",
+          "called:",
+          "'The",
+          "City's",
+          "gift",
+          "to",
+          "the",
+          "Nation'."
+        ],
+        "solution": [
+          [
+            "what"
+          ],
+          [
+            "they"
+          ],
+          [
+            "called:"
+          ],
+          [
+            "'The"
+          ],
+          [
+            "City's"
+          ],
+          [
+            "gift"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Nation'."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/19.mp3",
+        "timeStart": 70.31,
+        "timeEnd": 73.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42618/list"
+      },
+      {
+        "id": 42619,
+        "position": 20,
+        "content": "Of course, it took a while for such a big project to get started,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course,",
+          "it",
+          "took",
+          "a",
+          "while",
+          "for",
+          "such",
+          "a",
+          "big",
+          "project",
+          "to",
+          "get",
+          "started,"
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "took"
+          ],
+          [
+            "a"
+          ],
+          [
+            "while"
+          ],
+          [
+            "for"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "project"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "started,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/20.mp3",
+        "timeStart": 73.65,
+        "timeEnd": 77.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42619/list"
+      },
+      {
+        "id": 42620,
+        "position": 21,
+        "content": "but it was planned in the 60s, built in the 70s",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "it",
+          "was",
+          "planned",
+          "in",
+          "the",
+          "60s,",
+          "built",
+          "in",
+          "the",
+          "70s"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "planned"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "60s,"
+          ],
+          [
+            "built"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "70s"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/21.mp3",
+        "timeStart": 77.04,
+        "timeEnd": 79.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42620/list"
+      },
+      {
+        "id": 42621,
+        "position": 22,
+        "content": "and eventually opened to the public in 1983.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "eventually",
+          "opened",
+          "to",
+          "the",
+          "public",
+          "in",
+          "1983."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "eventually"
+          ],
+          [
+            "opened"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "public"
+          ],
+          [
+            "in"
+          ],
+          [
+            "1983."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/22.mp3",
+        "timeStart": 79.96,
+        "timeEnd": 82.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42621/list"
+      },
+      {
+        "id": 42622,
+        "position": 23,
+        "content": "Ever since then, it has proved to be a great success.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Ever",
+          "since",
+          "then,",
+          [
+            "it has",
+            "it's"
+          ],
+          "proved",
+          "to",
+          "be",
+          "a",
+          "great",
+          "success."
+        ],
+        "solution": [
+          [
+            "Ever"
+          ],
+          [
+            "since"
+          ],
+          [
+            "then,"
+          ],
+          [
+            "it has",
+            "it's"
+          ],
+          [
+            "proved"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "success."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/23.mp3",
+        "timeStart": 83.69,
+        "timeEnd": 86.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42622/list"
+      },
+      {
+        "id": 42623,
+        "position": 24,
+        "content": "It is not privately owned, like many arts centres,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "not",
+          "privately",
+          "owned,",
+          "like",
+          "many",
+          "arts",
+          [
+            "centres,",
+            "centers"
+          ]
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "privately"
+          ],
+          [
+            "owned,"
+          ],
+          [
+            "like"
+          ],
+          [
+            "many"
+          ],
+          [
+            "arts"
+          ],
+          [
+            "centres,",
+            "centers"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/24.mp3",
+        "timeStart": 87.88,
+        "timeEnd": 90.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42623/list"
+      },
+      {
+        "id": 42624,
+        "position": 25,
+        "content": "but is still in public hands - it's run by the City Council.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "is",
+          "still",
+          "in",
+          "public",
+          "hands",
+          "-",
+          "it's",
+          "run",
+          "by",
+          "the",
+          "City",
+          "Council."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "is"
+          ],
+          [
+            "still"
+          ],
+          [
+            "in"
+          ],
+          [
+            "public"
+          ],
+          [
+            "hands"
+          ],
+          [
+            "-"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "run"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "City"
+          ],
+          [
+            "Council."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/25.mp3",
+        "timeStart": 90.8,
+        "timeEnd": 94.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42624/list"
+      },
+      {
+        "id": 42625,
+        "position": 26,
+        "content": "Both our National Symphony Orchestra and National Theater Company were involved in the planning of the project,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Both",
+          "our",
+          "National",
+          "Symphony",
+          "Orchestra",
+          "and",
+          "National",
+          [
+            "Theater",
+            "theatre"
+          ],
+          [
+            "Company",
+            "Co"
+          ],
+          "were",
+          "involved",
+          "in",
+          "the",
+          "planning",
+          "of",
+          "the",
+          "project,"
+        ],
+        "solution": [
+          [
+            "Both"
+          ],
+          [
+            "our"
+          ],
+          [
+            "National"
+          ],
+          [
+            "Symphony"
+          ],
+          [
+            "Orchestra"
+          ],
+          [
+            "and"
+          ],
+          [
+            "National"
+          ],
+          [
+            "Theater",
+            "theatre"
+          ],
+          [
+            "Company",
+            "Co"
+          ],
+          [
+            "were"
+          ],
+          [
+            "involved"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "planning"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "project,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/26.mp3",
+        "timeStart": 95.05,
+        "timeEnd": 100.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42625/list"
+      },
+      {
+        "id": 42626,
+        "position": 27,
+        "content": "and they are now based there - giving regular performances every week -",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "they are",
+            "they're"
+          ],
+          "now",
+          "based",
+          "there",
+          "-",
+          "giving",
+          "regular",
+          "performances",
+          "every",
+          "week",
+          "-"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "now"
+          ],
+          [
+            "based"
+          ],
+          [
+            "there"
+          ],
+          [
+            "-"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "regular"
+          ],
+          [
+            "performances"
+          ],
+          [
+            "every"
+          ],
+          [
+            "week"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/27.mp3",
+        "timeStart": 100.37,
+        "timeEnd": 103.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42626/list"
+      },
+      {
+        "id": 42627,
+        "position": 28,
+        "content": "and as the Centre is open 363 days of the year,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "as",
+          "the",
+          [
+            "Centre",
+            "center"
+          ],
+          "is",
+          "open",
+          "363",
+          "days",
+          "of",
+          "the",
+          "year,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Centre",
+            "center"
+          ],
+          [
+            "is"
+          ],
+          [
+            "open"
+          ],
+          [
+            "363"
+          ],
+          [
+            "days"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "year,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/28.mp3",
+        "timeStart": 104.23,
+        "timeEnd": 107.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42627/list"
+      },
+      {
+        "id": 42628,
+        "position": 29,
+        "content": "there are plenty of performances to choose from.",
+        "defaultInput": "",
+        "jsonContent": [
+          "there",
+          "are",
+          "plenty",
+          "of",
+          "performances",
+          "to",
+          "choose",
+          "from."
+        ],
+        "solution": [
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "plenty"
+          ],
+          [
+            "of"
+          ],
+          [
+            "performances"
+          ],
+          [
+            "to"
+          ],
+          [
+            "choose"
+          ],
+          [
+            "from."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/29.mp3",
+        "timeStart": 107.99,
+        "timeEnd": 110.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42628/list"
+      },
+      {
+        "id": 42629,
+        "position": 30,
+        "content": "So, to give you some idea of what's on,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "to",
+          "give",
+          "you",
+          "some",
+          "idea",
+          "of",
+          [
+            "what's",
+            "what is"
+          ],
+          "on,"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "of"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "on,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/30.mp3",
+        "timeStart": 111.11,
+        "timeEnd": 113.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42629/list"
+      },
+      {
+        "id": 42630,
+        "position": 31,
+        "content": "and to help you choose from the many possibilities,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "to",
+          "help",
+          "you",
+          "choose",
+          "from",
+          "the",
+          "many",
+          "possibilities,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "choose"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "many"
+          ],
+          [
+            "possibilities,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/31.mp3",
+        "timeStart": 113.79,
+        "timeEnd": 116.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42630/list"
+      },
+      {
+        "id": 42631,
+        "position": 32,
+        "content": "we've made a selection of the star attractions.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "we've",
+            "we have"
+          ],
+          "made",
+          "a",
+          "selection",
+          "of",
+          "the",
+          "star",
+          "attractions."
+        ],
+        "solution": [
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "made"
+          ],
+          [
+            "a"
+          ],
+          [
+            "selection"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "star"
+          ],
+          [
+            "attractions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/32.mp3",
+        "timeStart": 116.23,
+        "timeEnd": 118.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42631/list"
+      },
+      {
+        "id": 42632,
+        "position": 33,
+        "content": "If you're interested in classical music,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you're",
+            "you are"
+          ],
+          "interested",
+          "in",
+          "classical",
+          "music,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "classical"
+          ],
+          [
+            "music,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/33.mp3",
+        "timeStart": 119.44,
+        "timeEnd": 121.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42632/list"
+      },
+      {
+        "id": 42633,
+        "position": 34,
+        "content": "then we recommend you go along to the National on either Monday or Tuesday evening at 7.30",
+        "defaultInput": "",
+        "jsonContent": [
+          "then",
+          "we",
+          "recommend",
+          "you",
+          "go",
+          "along",
+          "to",
+          "the",
+          "National",
+          "on",
+          "either",
+          "Monday",
+          "or",
+          "Tuesday",
+          "evening",
+          "at",
+          "7.30"
+        ],
+        "solution": [
+          [
+            "then"
+          ],
+          [
+            "we"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "you"
+          ],
+          [
+            "go"
+          ],
+          [
+            "along"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "National"
+          ],
+          [
+            "on"
+          ],
+          [
+            "either"
+          ],
+          [
+            "Monday"
+          ],
+          [
+            "or"
+          ],
+          [
+            "Tuesday"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "at"
+          ],
+          [
+            "7.30"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/34.mp3",
+        "timeStart": 121.49,
+        "timeEnd": 126.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42633/list"
+      },
+      {
+        "id": 42634,
+        "position": 35,
+        "content": "for a spectacular production of 'The Magic Flute' -",
+        "defaultInput": "",
+        "jsonContent": [
+          "for",
+          "a",
+          "spectacular",
+          "production",
+          "of",
+          "'The",
+          "Magic",
+          "Flute'",
+          "-"
+        ],
+        "solution": [
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "spectacular"
+          ],
+          [
+            "production"
+          ],
+          [
+            "of"
+          ],
+          [
+            "'The"
+          ],
+          [
+            "Magic"
+          ],
+          [
+            "Flute'"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/35.mp3",
+        "timeStart": 126.97,
+        "timeEnd": 129.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42634/list"
+      },
+      {
+        "id": 42635,
+        "position": 36,
+        "content": "probably the most popular of all Mozart's operas.",
+        "defaultInput": "",
+        "jsonContent": [
+          "probably",
+          "the",
+          "most",
+          "popular",
+          "of",
+          "all",
+          "Mozart's",
+          "operas."
+        ],
+        "solution": [
+          [
+            "probably"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "popular"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all"
+          ],
+          [
+            "Mozart's"
+          ],
+          [
+            "operas."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/36.mp3",
+        "timeStart": 129.71,
+        "timeEnd": 132.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42635/list"
+      },
+      {
+        "id": 42636,
+        "position": 37,
+        "content": "It's in the Garden Hall and tickets start at only £8,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "in",
+          "the",
+          "Garden",
+          "Hall",
+          "and",
+          "tickets",
+          "start",
+          "at",
+          "only",
+          [
+            "£8,",
+            "8 pounds"
+          ]
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Garden"
+          ],
+          [
+            "Hall"
+          ],
+          [
+            "and"
+          ],
+          [
+            "tickets"
+          ],
+          [
+            "start"
+          ],
+          [
+            "at"
+          ],
+          [
+            "only"
+          ],
+          [
+            "£8,",
+            "8 pounds"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/37.mp3",
+        "timeStart": 133.25,
+        "timeEnd": 136.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42636/list"
+      },
+      {
+        "id": 42637,
+        "position": 38,
+        "content": "but you'll have to be early if you want to get them that cheap!",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "you'll",
+            "you will"
+          ],
+          "have",
+          "to",
+          "be",
+          "early",
+          "if",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "get",
+          "them",
+          "that",
+          "cheap!"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "early"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "get"
+          ],
+          [
+            "them"
+          ],
+          [
+            "that"
+          ],
+          [
+            "cheap!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/38.mp3",
+        "timeStart": 136.72,
+        "timeEnd": 139.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42637/list"
+      },
+      {
+        "id": 42638,
+        "position": 39,
+        "content": "And remember, it's only on for those two evenings.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "remember,",
+          "it's",
+          "only",
+          "on",
+          "for",
+          "those",
+          [
+            "two",
+            "2"
+          ],
+          "evenings."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "remember,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "only"
+          ],
+          [
+            "on"
+          ],
+          [
+            "for"
+          ],
+          [
+            "those"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "evenings."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/39.mp3",
+        "timeStart": 139.28,
+        "timeEnd": 142.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42638/list"
+      },
+      {
+        "id": 42639,
+        "position": 40,
+        "content": "For those more interested in the cinema,",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "those",
+          "more",
+          "interested",
+          "in",
+          "the",
+          "cinema,"
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "those"
+          ],
+          [
+            "more"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cinema,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/40.mp3",
+        "timeStart": 143.07,
+        "timeEnd": 145.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42639/list"
+      },
+      {
+        "id": 42640,
+        "position": 41,
+        "content": "you might like to see the new Canadian film",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "might",
+          "like",
+          "to",
+          "see",
+          "the",
+          "new",
+          "Canadian",
+          "film"
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "might"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "Canadian"
+          ],
+          [
+            "film"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/41.mp3",
+        "timeStart": 145.24,
+        "timeEnd": 147.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42640/list"
+      },
+      {
+        "id": 42641,
+        "position": 42,
+        "content": "which is showing on Wednesday evening at 8 pm in Cinema 2.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "is",
+          "showing",
+          "on",
+          "Wednesday",
+          "evening",
+          "at",
+          [
+            "8",
+            "eight"
+          ],
+          "pm",
+          "in",
+          "Cinema",
+          [
+            "2.",
+            "two"
+          ]
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "showing"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Wednesday"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "at"
+          ],
+          [
+            "8",
+            "eight"
+          ],
+          [
+            "pm"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Cinema"
+          ],
+          [
+            "2.",
+            "two"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/42.mp3",
+        "timeStart": 147.43,
+        "timeEnd": 151.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42641/list"
+      },
+      {
+        "id": 42642,
+        "position": 43,
+        "content": "And that's called 'Three Lives'.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "that's",
+            "that is"
+          ],
+          "called",
+          [
+            "'Three",
+            "3"
+          ],
+          "Lives'."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "called"
+          ],
+          [
+            "'Three",
+            "3"
+          ],
+          [
+            "Lives'."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/43.mp3",
+        "timeStart": 151.41,
+        "timeEnd": 153.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42642/list"
+      },
+      {
+        "id": 42643,
+        "position": 44,
+        "content": "It's had fantastic reviews",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "had",
+          "fantastic",
+          "reviews"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "had"
+          ],
+          [
+            "fantastic"
+          ],
+          [
+            "reviews"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/44.mp3",
+        "timeStart": 153.55,
+        "timeEnd": 155.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42643/list"
+      },
+      {
+        "id": 42644,
+        "position": 45,
+        "content": "and tickets cost just £4.50,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "tickets",
+          "cost",
+          "just",
+          [
+            "£4.50,",
+            "4.50, pounds"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "tickets"
+          ],
+          [
+            "cost"
+          ],
+          [
+            "just"
+          ],
+          [
+            "£4.50,",
+            "4.50, pounds"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/45.mp3",
+        "timeStart": 155.29,
+        "timeEnd": 157.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42644/list"
+      },
+      {
+        "id": 42645,
+        "position": 46,
+        "content": "which is a reduction on the usual price of £5.50.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "is",
+          "a",
+          "reduction",
+          "on",
+          "the",
+          "usual",
+          "price",
+          "of",
+          [
+            "£5.50.",
+            "5.50. pounds"
+          ]
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reduction"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "usual"
+          ],
+          [
+            "price"
+          ],
+          [
+            "of"
+          ],
+          [
+            "£5.50.",
+            "5.50. pounds"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/46.mp3",
+        "timeStart": 157.51,
+        "timeEnd": 160.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42645/list"
+      },
+      {
+        "id": 42646,
+        "position": 47,
+        "content": "So, it's really good value, especially for such a great movie.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "it's",
+          "really",
+          "good",
+          "value,",
+          "especially",
+          "for",
+          "such",
+          "a",
+          "great",
+          "movie."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "really"
+          ],
+          [
+            "good"
+          ],
+          [
+            "value,"
+          ],
+          [
+            "especially"
+          ],
+          [
+            "for"
+          ],
+          [
+            "such"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "movie."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/47.mp3",
+        "timeStart": 160.76,
+        "timeEnd": 164.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42646/list"
+      },
+      {
+        "id": 42647,
+        "position": 48,
+        "content": "But you can see the centre's main attraction at the weekend,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "you",
+          "can",
+          "see",
+          "the",
+          [
+            "centre's",
+            "centers"
+          ],
+          "main",
+          "attraction",
+          "at",
+          "the",
+          "weekend,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "centre's",
+            "centers"
+          ],
+          [
+            "main"
+          ],
+          [
+            "attraction"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weekend,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/48.mp3",
+        "timeStart": 165.25,
+        "timeEnd": 168.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42647/list"
+      },
+      {
+        "id": 42648,
+        "position": 49,
+        "content": "because on Saturday and Sunday, 11 am to 10 pm,",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "on",
+          "Saturday",
+          "and",
+          "Sunday,",
+          [
+            "11",
+            "eleven"
+          ],
+          "am",
+          "to",
+          [
+            "10",
+            "ten"
+          ],
+          "pm,"
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Saturday"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Sunday,"
+          ],
+          [
+            "11",
+            "eleven"
+          ],
+          [
+            "am"
+          ],
+          [
+            "to"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "pm,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/49.mp3",
+        "timeStart": 168.24,
+        "timeEnd": 172.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42648/list"
+      },
+      {
+        "id": 42649,
+        "position": 50,
+        "content": "they're showing a wonderful new exhibition that hasn't been seen anywhere else in Europe yet.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "they're",
+            "they are"
+          ],
+          "showing",
+          "a",
+          "wonderful",
+          "new",
+          "exhibition",
+          "that",
+          [
+            "hasn't",
+            "has not"
+          ],
+          "been",
+          "seen",
+          "anywhere",
+          "else",
+          "in",
+          "Europe",
+          "yet."
+        ],
+        "solution": [
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "showing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wonderful"
+          ],
+          [
+            "new"
+          ],
+          [
+            "exhibition"
+          ],
+          [
+            "that"
+          ],
+          [
+            "hasn't",
+            "has not"
+          ],
+          [
+            "been"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "anywhere"
+          ],
+          [
+            "else"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Europe"
+          ],
+          [
+            "yet."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/50.mp3",
+        "timeStart": 172.28,
+        "timeEnd": 176.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42649/list"
+      },
+      {
+        "id": 42650,
+        "position": 51,
+        "content": "It's a collection of Chinese Art called 'Faces of China' - that's in Gallery 1 -",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          "collection",
+          "of",
+          "Chinese",
+          "Art",
+          "called",
+          "'Faces",
+          "of",
+          "China'",
+          "-",
+          [
+            "that's",
+            "that is"
+          ],
+          "in",
+          "Gallery",
+          [
+            "1",
+            "one"
+          ],
+          "-"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "collection"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Chinese"
+          ],
+          [
+            "Art"
+          ],
+          [
+            "called"
+          ],
+          [
+            "'Faces"
+          ],
+          [
+            "of"
+          ],
+          [
+            "China'"
+          ],
+          [
+            "-"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Gallery"
+          ],
+          [
+            "1",
+            "one"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/51.mp3",
+        "timeStart": 177.32,
+        "timeEnd": 183.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42650/list"
+      },
+      {
+        "id": 42651,
+        "position": 52,
+        "content": "and it has some really fascinating paintings and sculptures by leading artists from all over China -",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "it has",
+            "it's"
+          ],
+          "some",
+          "really",
+          "fascinating",
+          "paintings",
+          "and",
+          "sculptures",
+          "by",
+          "leading",
+          "artists",
+          "from",
+          "all",
+          "over",
+          "China",
+          "-"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it has",
+            "it's"
+          ],
+          [
+            "some"
+          ],
+          [
+            "really"
+          ],
+          [
+            "fascinating"
+          ],
+          [
+            "paintings"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sculptures"
+          ],
+          [
+            "by"
+          ],
+          [
+            "leading"
+          ],
+          [
+            "artists"
+          ],
+          [
+            "from"
+          ],
+          [
+            "all"
+          ],
+          [
+            "over"
+          ],
+          [
+            "China"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/52.mp3",
+        "timeStart": 183.25,
+        "timeEnd": 188.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42651/list"
+      },
+      {
+        "id": 42652,
+        "position": 53,
+        "content": "and the good news is that it's completely free, so don't miss it!",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "good",
+          "news",
+          "is",
+          "that",
+          "it's",
+          "completely",
+          "free,",
+          "so",
+          [
+            "don't",
+            "do not"
+          ],
+          "miss",
+          "it!"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "good"
+          ],
+          [
+            "news"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "free,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "miss"
+          ],
+          [
+            "it!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/53.mp3",
+        "timeStart": 188.93,
+        "timeEnd": 193.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42652/list"
+      },
+      {
+        "id": 42653,
+        "position": 54,
+        "content": "So why not go along to the National Art Centre next week for one - or all - of these great events -",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "why",
+          "not",
+          "go",
+          "along",
+          "to",
+          "the",
+          "National",
+          "Art",
+          [
+            "Centre",
+            "center"
+          ],
+          "next",
+          "week",
+          "for",
+          [
+            "one",
+            "1"
+          ],
+          "-",
+          "or",
+          "all",
+          "-",
+          "of",
+          "these",
+          "great",
+          "events",
+          "-"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "why"
+          ],
+          [
+            "not"
+          ],
+          [
+            "go"
+          ],
+          [
+            "along"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "National"
+          ],
+          [
+            "Art"
+          ],
+          [
+            "Centre",
+            "center"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week"
+          ],
+          [
+            "for"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "-"
+          ],
+          [
+            "or"
+          ],
+          [
+            "all"
+          ],
+          [
+            "-"
+          ],
+          [
+            "of"
+          ],
+          [
+            "these"
+          ],
+          [
+            "great"
+          ],
+          [
+            "events"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/54.mp3",
+        "timeStart": 193.75,
+        "timeEnd": 199.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42653/list"
+      },
+      {
+        "id": 42654,
+        "position": 55,
+        "content": "and you can always pick up a programme",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "you",
+          "can",
+          "always",
+          "pick",
+          "up",
+          "a",
+          [
+            "programme",
+            "program"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "always"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "up"
+          ],
+          [
+            "a"
+          ],
+          [
+            "programme",
+            "program"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/55.mp3",
+        "timeStart": 199.61,
+        "timeEnd": 201.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42654/list"
+      },
+      {
+        "id": 42655,
+        "position": 56,
+        "content": "and check out all the other performances and exhibitions on offer, or coming soon,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "check",
+          "out",
+          "all",
+          "the",
+          "other",
+          "performances",
+          "and",
+          "exhibitions",
+          "on",
+          "offer,",
+          "or",
+          "coming",
+          "soon,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "check"
+          ],
+          [
+            "out"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "performances"
+          ],
+          [
+            "and"
+          ],
+          [
+            "exhibitions"
+          ],
+          [
+            "on"
+          ],
+          [
+            "offer,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "soon,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/56.mp3",
+        "timeStart": 201.56,
+        "timeEnd": 206.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42655/list"
+      },
+      {
+        "id": 42656,
+        "position": 57,
+        "content": "on almost every day of the year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "on",
+          "almost",
+          "every",
+          "day",
+          "of",
+          "the",
+          "year."
+        ],
+        "solution": [
+          [
+            "on"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "every"
+          ],
+          [
+            "day"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/57.mp3",
+        "timeStart": 206.03,
+        "timeEnd": 208.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42656/list"
+      },
+      {
+        "id": 42657,
+        "position": 58,
+        "content": "Next week, we'll be looking at the new Museum of Science...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Next",
+          "week,",
+          [
+            "we'll",
+            "we will"
+          ],
+          "be",
+          "looking",
+          "at",
+          "the",
+          "new",
+          "Museum",
+          "of",
+          "Science..."
+        ],
+        "solution": [
+          [
+            "Next"
+          ],
+          [
+            "week,"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "Museum"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Science..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-2-2023-07-26-16-45-09/58.mp3",
+        "timeStart": 208.96,
+        "timeEnd": 211.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42657/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "42600": {
+      "id": 3117806,
+      "text": "Xin chào, và chào mừng bạn đến với \"Tập trung vào Nghệ thuật\".",
+      "author": "ChatGPT4.1"
+    },
+    "42601": {
+      "id": 3117807,
+      "text": "Tôi là người dẫn chương trình của bạn - Dave Green -",
+      "author": "ChatGPT4.1"
+    },
+    "42602": {
+      "id": 3117808,
+      "text": "và đây là chương trình phát thanh địa phương dành riêng cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "42603": {
+      "id": 3117809,
+      "text": "Mỗi tối thứ Sáu chúng tôi làm nổi bật các cơ sở nghệ thuật và văn hóa khác nhau,",
+      "author": "ChatGPT4.1"
+    },
+    "42604": {
+      "id": 3117810,
+      "text": "và xem xét các buổi biểu diễn và sự kiện sẽ diễn ra trong tuần tới.",
+      "author": "ChatGPT4.1"
+    },
+    "42605": {
+      "id": 3117811,
+      "text": "Và hôm nay, chúng ta sẽ tập trung vào Trung tâm Nghệ thuật Quốc gia.",
+      "author": "ChatGPT4.1"
+    },
+    "42606": {
+      "id": 3117812,
+      "text": "Bây giờ, nếu bạn chưa biết về nó,",
+      "author": "ChatGPT4.1"
+    },
+    "42607": {
+      "id": 3117813,
+      "text": "Tôi chắc rằng các bạn đều đã nghe nói về nó.",
+      "author": "ChatGPT4.1"
+    },
+    "42608": {
+      "id": 3117814,
+      "text": "Nó nổi tiếng khắp thế giới là một trong những địa điểm lớn cho âm nhạc cổ điển.",
+      "author": "ChatGPT4.1"
+    },
+    "42609": {
+      "id": 3117815,
+      "text": "Nhưng bạn có biết rằng thực ra nơi này còn nhiều hơn chỉ là một nơi để nghe hòa nhạc không?",
+      "author": "ChatGPT4.1"
+    },
+    "42610": {
+      "id": 3117816,
+      "text": "Bản thân trung tâm là một khu phức hợp lớn phục vụ nhiều loại hình nghệ thuật.",
+      "author": "ChatGPT4.1"
+    },
+    "42611": {
+      "id": 3117817,
+      "text": "Dưới cùng một mái nhà có các phòng hòa nhạc, rạp hát, rạp chiếu phim, phòng triển lãm nghệ thuật",
+      "author": "ChatGPT4.1"
+    },
+    "42612": {
+      "id": 3117818,
+      "text": "và một thư viện công cộng tuyệt vời,",
+      "author": "ChatGPT4.1"
+    },
+    "42613": {
+      "id": 3117819,
+      "text": "cũng như các cơ sở dịch vụ bao gồm ba nhà hàng và một hiệu sách.",
+      "author": "ChatGPT4.1"
+    },
+    "42614": {
+      "id": 3117820,
+      "text": "Vì vậy, bất kỳ lúc nào, lựa chọn giải trí ở đó vô cùng phong phú.",
+      "author": "ChatGPT4.1"
+    },
+    "42615": {
+      "id": 3117821,
+      "text": "Vậy, làm thế nào họ xây dựng được một khu phức hợp nghệ thuật lớn như vậy ngay giữa lòng thành phố?",
+      "author": "ChatGPT4.1"
+    },
+    "42616": {
+      "id": 3117822,
+      "text": "Thực ra, khu vực này đã bị phá hủy hoàn toàn bởi bom đạn trong chiến tranh năm 1940.",
+      "author": "ChatGPT4.1"
+    },
+    "42617": {
+      "id": 3117823,
+      "text": "Vì vậy, họ đã tận dụng cơ hội đó để xây dựng một trung tâm văn hóa sẽ là...",
+      "author": "ChatGPT4.1"
+    },
+    "42618": {
+      "id": 3117824,
+      "text": "điều mà họ gọi là: 'Món quà của thành phố dành cho quốc gia'.",
+      "author": "ChatGPT4.1"
+    },
+    "42619": {
+      "id": 3117825,
+      "text": "Tất nhiên, phải mất một thời gian để dự án lớn như vậy được khởi động,",
+      "author": "ChatGPT4.1"
+    },
+    "42620": {
+      "id": 3117826,
+      "text": "nhưng nó đã được lên kế hoạch từ những năm 60, xây dựng trong những năm 70",
+      "author": "ChatGPT4.1"
+    },
+    "42621": {
+      "id": 3117827,
+      "text": "và cuối cùng mở cửa cho công chúng vào năm 1983.",
+      "author": "ChatGPT4.1"
+    },
+    "42622": {
+      "id": 3117828,
+      "text": "Kể từ đó, nó đã chứng minh được sự thành công lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "42623": {
+      "id": 3117829,
+      "text": "Nó không thuộc sở hữu tư nhân như nhiều trung tâm nghệ thuật khác,",
+      "author": "ChatGPT4.1"
+    },
+    "42624": {
+      "id": 3117830,
+      "text": "mà vẫn thuộc sở hữu công - được điều hành bởi Hội đồng thành phố.",
+      "author": "ChatGPT4.1"
+    },
+    "42625": {
+      "id": 3117831,
+      "text": "Cả Dàn nhạc Giao hưởng Quốc gia và Đoàn Kịch Quốc gia đều tham gia vào việc lên kế hoạch cho dự án,",
+      "author": "ChatGPT4.1"
+    },
+    "42626": {
+      "id": 3117832,
+      "text": "và hiện nay họ đặt trụ sở tại đó - biểu diễn thường xuyên hàng tuần -",
+      "author": "ChatGPT4.1"
+    },
+    "42627": {
+      "id": 3117833,
+      "text": "và vì Trung tâm mở cửa 363 ngày trong năm,",
+      "author": "ChatGPT4.1"
+    },
+    "42628": {
+      "id": 3117834,
+      "text": "nên có rất nhiều buổi biểu diễn để lựa chọn.",
+      "author": "ChatGPT4.1"
+    },
+    "42629": {
+      "id": 3117835,
+      "text": "Vì vậy, để giúp bạn hình dung về những gì đang diễn ra,",
+      "author": "ChatGPT4.1"
+    },
+    "42630": {
+      "id": 3117836,
+      "text": "và giúp bạn chọn lựa giữa nhiều khả năng,",
+      "author": "ChatGPT4.1"
+    },
+    "42631": {
+      "id": 3117837,
+      "text": "chúng tôi đã lựa chọn ra một số điểm đặc sắc nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "42632": {
+      "id": 3117912,
+      "text": "Nếu bạn quan tâm đến nhạc cổ điển,",
+      "author": "ChatGPT4.1"
+    },
+    "42633": {
+      "id": 3117913,
+      "text": "thì chúng tôi khuyên bạn nên đến Nhà hát Quốc gia vào tối thứ Hai hoặc thứ Ba lúc 7 giờ 30",
+      "author": "ChatGPT4.1"
+    },
+    "42634": {
+      "id": 3117914,
+      "text": "để thưởng thức vở diễn ngoạn mục ‘Cây sáo thần’ -",
+      "author": "ChatGPT4.1"
+    },
+    "42635": {
+      "id": 3117915,
+      "text": "có lẽ là vở opera nổi tiếng nhất của Mozart.",
+      "author": "ChatGPT4.1"
+    },
+    "42636": {
+      "id": 3117916,
+      "text": "Chương trình được tổ chức tại Garden Hall và vé chỉ từ £8,",
+      "author": "ChatGPT4.1"
+    },
+    "42637": {
+      "id": 3117917,
+      "text": "nhưng bạn sẽ phải mua sớm nếu muốn có giá vé rẻ như vậy!",
+      "author": "ChatGPT4.1"
+    },
+    "42638": {
+      "id": 3117918,
+      "text": "Và nhớ rằng, chương trình chỉ diễn ra trong hai tối đó.",
+      "author": "ChatGPT4.1"
+    },
+    "42639": {
+      "id": 3117919,
+      "text": "Đối với những ai quan tâm hơn đến điện ảnh,",
+      "author": "ChatGPT4.1"
+    },
+    "42640": {
+      "id": 3117920,
+      "text": "bạn có thể thích xem bộ phim Canada mới",
+      "author": "ChatGPT4.1"
+    },
+    "42641": {
+      "id": 3117921,
+      "text": "phim sẽ được chiếu vào tối thứ Tư lúc 8 giờ tại rạp Cinema 2.",
+      "author": "ChatGPT4.1"
+    },
+    "42642": {
+      "id": 3117922,
+      "text": "Tên phim là ‘Ba cuộc đời’.",
+      "author": "ChatGPT4.1"
+    },
+    "42643": {
+      "id": 3117923,
+      "text": "Phim này đã nhận được những lời nhận xét tuyệt vời",
+      "author": "ChatGPT4.1"
+    },
+    "42644": {
+      "id": 3117924,
+      "text": "và vé chỉ có giá £4.50,",
+      "author": "ChatGPT4.1"
+    },
+    "42645": {
+      "id": 3117925,
+      "text": "thấp hơn giá vé thông thường là £5.50.",
+      "author": "ChatGPT4.1"
+    },
+    "42646": {
+      "id": 3117926,
+      "text": "Vì vậy, giá vé thật sự rất hợp lý, nhất là với một bộ phim hay như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "42647": {
+      "id": 3118036,
+      "text": "Nhưng bạn có thể xem chương trình chính của trung tâm vào cuối tuần,",
+      "author": "ChatGPT4.1"
+    },
+    "42648": {
+      "id": 3118037,
+      "text": "bởi vì vào thứ Bảy và Chủ nhật, từ 11 giờ sáng đến 10 giờ tối,",
+      "author": "ChatGPT4.1"
+    },
+    "42649": {
+      "id": 3118038,
+      "text": "họ sẽ trưng bày một triển lãm mới tuyệt vời mà chưa nơi nào ở châu Âu từng có.",
+      "author": "ChatGPT4.1"
+    },
+    "42650": {
+      "id": 3118039,
+      "text": "Đó là bộ sưu tập Nghệ Thuật Trung Hoa mang tên 'Những Khuôn Mặt Trung Quốc' - tổ chức tại Phòng Trưng Bày số 1 -",
+      "author": "ChatGPT4.1"
+    },
+    "42651": {
+      "id": 3118040,
+      "text": "và có những bức tranh cùng tác phẩm điêu khắc hấp dẫn của các nghệ sĩ hàng đầu từ khắp nơi ở Trung Quốc -",
+      "author": "ChatGPT4.1"
+    },
+    "42652": {
+      "id": 3118041,
+      "text": "và tin vui là hoàn toàn miễn phí, vì vậy đừng bỏ lỡ nhé!",
+      "author": "ChatGPT4.1"
+    },
+    "42653": {
+      "id": 3118042,
+      "text": "Vậy tại sao không đến Trung tâm Nghệ thuật Quốc gia vào tuần tới cho một - hoặc tất cả - những sự kiện tuyệt vời này -",
+      "author": "ChatGPT4.1"
+    },
+    "42654": {
+      "id": 3118043,
+      "text": "và bạn có thể luôn lấy một chương trình",
+      "author": "ChatGPT4.1"
+    },
+    "42655": {
+      "id": 3118044,
+      "text": "và kiểm tra tất cả các buổi trình diễn và triển lãm khác đang có hoặc sắp tới,",
+      "author": "ChatGPT4.1"
+    },
+    "42656": {
+      "id": 3118045,
+      "text": "gần như vào mỗi ngày trong năm.",
+      "author": "ChatGPT4.1"
+    },
+    "42657": {
+      "id": 3118046,
+      "text": "Tuần tới, chúng tôi sẽ nói về Bảo tàng Khoa học mới...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,4049 @@
+{
+  "summary": {
+    "id": 749,
+    "name": "Cam10 - Test 1 - Part 1",
+    "subTitle": "California Self-Drive Tours Inquiry",
+    "levelName": "B1",
+    "position": 194,
+    "totalChallenges": 78,
+    "groupId": 63,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/749",
+  "detail": {
+    "id": 749,
+    "lessonName": "Cam10 - Test 1 - Part 1",
+    "name": "Cam10 - Test 1 - Part 1",
+    "position": 194,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/0-ielts-cambridge-10-test-1-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 35145,
+        "position": 1,
+        "content": "Good morning. World Tours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning.",
+          "World",
+          "Tours."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ],
+          [
+            "World"
+          ],
+          [
+            "Tours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/1.mp3",
+        "timeStart": 0.42,
+        "timeEnd": 2.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35145/list"
+      },
+      {
+        "id": 35146,
+        "position": 2,
+        "content": "My name is Jamie.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "name",
+          "is",
+          "Jamie."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "name"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Jamie."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/2.mp3",
+        "timeStart": 2.21,
+        "timeEnd": 3.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35146/list"
+      },
+      {
+        "id": 35147,
+        "position": 3,
+        "content": "How can I help you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "can",
+          "I",
+          "help",
+          "you?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/3.mp3",
+        "timeStart": 3.42,
+        "timeEnd": 4.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35147/list"
+      },
+      {
+        "id": 35148,
+        "position": 4,
+        "content": "Good morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/4.mp3",
+        "timeStart": 4.82,
+        "timeEnd": 5.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35148/list"
+      },
+      {
+        "id": 35149,
+        "position": 5,
+        "content": "I want some information on self-drive tours in the USA.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "want",
+          "some",
+          "information",
+          "on",
+          [
+            "self-drive",
+            "self drive"
+          ],
+          "tours",
+          "in",
+          "the",
+          "USA."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "want"
+          ],
+          [
+            "some"
+          ],
+          [
+            "information"
+          ],
+          [
+            "on"
+          ],
+          [
+            "self-drive",
+            "self drive"
+          ],
+          [
+            "tours"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "USA."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/5.mp3",
+        "timeStart": 5.84,
+        "timeEnd": 10.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35149/list"
+      },
+      {
+        "id": 35150,
+        "position": 6,
+        "content": "Could you send me a brochure?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "send",
+          "me",
+          "a",
+          "brochure?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "send"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "brochure?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/6.mp3",
+        "timeStart": 10.09,
+        "timeEnd": 11.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35150/list"
+      },
+      {
+        "id": 35151,
+        "position": 7,
+        "content": "Of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/7.mp3",
+        "timeStart": 11.58,
+        "timeEnd": 12.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35151/list"
+      },
+      {
+        "id": 35152,
+        "position": 8,
+        "content": "Could I have your name please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          [
+            "I have",
+            "I've"
+          ],
+          "your",
+          "name",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/8.mp3",
+        "timeStart": 12.57,
+        "timeEnd": 14.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35152/list"
+      },
+      {
+        "id": 35153,
+        "position": 9,
+        "content": "Andrea Brown.",
+        "defaultInput": "Andrea Brown.",
+        "jsonContent": [
+          "Andrea",
+          "Brown."
+        ],
+        "solution": [
+          [
+            "Andrea"
+          ],
+          [
+            "Brown."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/9.mp3",
+        "timeStart": 14.18,
+        "timeEnd": 15.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35153/list"
+      },
+      {
+        "id": 35154,
+        "position": 10,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/10.mp3",
+        "timeStart": 15.69,
+        "timeEnd": 16.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35154/list"
+      },
+      {
+        "id": 35155,
+        "position": 11,
+        "content": "And your address?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "your",
+          "address?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "your"
+          ],
+          [
+            "address?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/11.mp3",
+        "timeStart": 16.66,
+        "timeEnd": 18.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35155/list"
+      },
+      {
+        "id": 35156,
+        "position": 12,
+        "content": "24, Ardleigh Road.",
+        "defaultInput": "24, Ardleigh Road.",
+        "jsonContent": [
+          [
+            "24,",
+            "twenty-four"
+          ],
+          "Ardleigh",
+          "Road."
+        ],
+        "solution": [
+          [
+            "24,",
+            "twenty-four"
+          ],
+          [
+            "Ardleigh"
+          ],
+          [
+            "Road."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/12.mp3",
+        "timeStart": 18.17,
+        "timeEnd": 20.58,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/35156/list"
+      },
+      {
+        "id": 35157,
+        "position": 13,
+        "content": "Can you spell that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "spell",
+          "that?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spell"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/13.mp3",
+        "timeStart": 20.58,
+        "timeEnd": 21.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35157/list"
+      },
+      {
+        "id": 35158,
+        "position": 14,
+        "content": "A-R-D-L-E-I-G-H Road.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "A-R-D-L-E-I-G-H",
+            "A R D L E I G H"
+          ],
+          "Road."
+        ],
+        "solution": [
+          [
+            "A-R-D-L-E-I-G-H",
+            "A R D L E I G H"
+          ],
+          [
+            "Road."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/14.mp3",
+        "timeStart": 22.19,
+        "timeEnd": 27.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35158/list"
+      },
+      {
+        "id": 35159,
+        "position": 15,
+        "content": "Postcode?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Postcode?"
+        ],
+        "solution": [
+          [
+            "Postcode?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/15.mp3",
+        "timeStart": 27.32,
+        "timeEnd": 28.45,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/35159/list"
+      },
+      {
+        "id": 35160,
+        "position": 16,
+        "content": "BH52OP",
+        "defaultInput": "",
+        "jsonContent": [
+          "BH52OP"
+        ],
+        "solution": [
+          [
+            "BH52OP"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/16.mp3",
+        "timeStart": 28.6,
+        "timeEnd": 32.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35160/list"
+      },
+      {
+        "id": 35161,
+        "position": 17,
+        "content": "Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/17.mp3",
+        "timeStart": 32.17,
+        "timeEnd": 33.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35161/list"
+      },
+      {
+        "id": 35162,
+        "position": 18,
+        "content": "And can I have your phone number?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "can",
+          [
+            "I have",
+            "I've"
+          ],
+          "your",
+          "phone",
+          "number?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "your"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "number?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/18.mp3",
+        "timeStart": 33.03,
+        "timeEnd": 34.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35162/list"
+      },
+      {
+        "id": 35163,
+        "position": 19,
+        "content": "Is a mobile alright?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "a",
+          "mobile",
+          "alright?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mobile"
+          ],
+          [
+            "alright?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/19.mp3",
+        "timeStart": 34.82,
+        "timeEnd": 36.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35163/list"
+      },
+      {
+        "id": 35164,
+        "position": 20,
+        "content": "Fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Fine."
+        ],
+        "solution": [
+          [
+            "Fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/20.mp3",
+        "timeStart": 36.23,
+        "timeEnd": 36.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35164/list"
+      },
+      {
+        "id": 35165,
+        "position": 21,
+        "content": "It's 07786643091.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "07786643091."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "07786643091."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/21.mp3",
+        "timeStart": 37.16,
+        "timeEnd": 44.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35165/list"
+      },
+      {
+        "id": 35166,
+        "position": 22,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/22.mp3",
+        "timeStart": 44.32,
+        "timeEnd": 45.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35166/list"
+      },
+      {
+        "id": 35167,
+        "position": 23,
+        "content": "And can I ask you where you heard about World Tours?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "can",
+          "I",
+          "ask",
+          "you",
+          "where",
+          "you",
+          "heard",
+          "about",
+          "World",
+          "Tours?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "you"
+          ],
+          [
+            "where"
+          ],
+          [
+            "you"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "about"
+          ],
+          [
+            "World"
+          ],
+          [
+            "Tours?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/23.mp3",
+        "timeStart": 45.41,
+        "timeEnd": 48.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35167/list"
+      },
+      {
+        "id": 35168,
+        "position": 24,
+        "content": "From a friend? Or did you see an advert somewhere?",
+        "defaultInput": "",
+        "jsonContent": [
+          "From",
+          "a",
+          "friend?",
+          "Or",
+          "did",
+          "you",
+          "see",
+          "an",
+          "advert",
+          "somewhere?"
+        ],
+        "solution": [
+          [
+            "From"
+          ],
+          [
+            "a"
+          ],
+          [
+            "friend?"
+          ],
+          [
+            "Or"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "see"
+          ],
+          [
+            "an"
+          ],
+          [
+            "advert"
+          ],
+          [
+            "somewhere?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/24.mp3",
+        "timeStart": 48.2,
+        "timeEnd": 50.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35168/list"
+      },
+      {
+        "id": 35169,
+        "position": 25,
+        "content": "No, I read about you in the newspaper.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "I",
+          "read",
+          "about",
+          "you",
+          "in",
+          "the",
+          "newspaper."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "read"
+          ],
+          [
+            "about"
+          ],
+          [
+            "you"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "newspaper."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/25.mp3",
+        "timeStart": 50.67,
+        "timeEnd": 53.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35169/list"
+      },
+      {
+        "id": 35170,
+        "position": 26,
+        "content": "OK, I'll get the brochures in the post to you but can I give you some information over the phone.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          "get",
+          "the",
+          "brochures",
+          "in",
+          "the",
+          "post",
+          "to",
+          "you",
+          "but",
+          "can",
+          "I",
+          "give",
+          "you",
+          "some",
+          "information",
+          "over",
+          "the",
+          "phone."
+        ],
+        "solution": [
+          [
+            "OK,",
+            "okay"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "brochures"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "post"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you"
+          ],
+          [
+            "but"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "information"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "phone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/26.mp3",
+        "timeStart": 53.62,
+        "timeEnd": 58.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35170/list"
+      },
+      {
+        "id": 35171,
+        "position": 27,
+        "content": "What kinds of things do you want to do on your holiday?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "kinds",
+          "of",
+          "things",
+          "do",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "do",
+          "on",
+          "your",
+          "holiday?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "kinds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "things"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "do"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "holiday?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/27.mp3",
+        "timeStart": 58.43,
+        "timeEnd": 61.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35171/list"
+      },
+      {
+        "id": 35172,
+        "position": 28,
+        "content": "I'm interested in going to California with my family.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "interested",
+          "in",
+          [
+            "going to",
+            "gonna"
+          ],
+          "California",
+          "with",
+          "my",
+          "family."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "California"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "family."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/28.mp3",
+        "timeStart": 61.98,
+        "timeEnd": 65.3,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/35172/list"
+      },
+      {
+        "id": 35173,
+        "position": 29,
+        "content": "I've got two children and we want to hire a car.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          [
+            "two",
+            "2"
+          ],
+          "children",
+          "and",
+          "we",
+          [
+            "want to",
+            "wanna"
+          ],
+          "hire",
+          "a",
+          "car."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "children"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "hire"
+          ],
+          [
+            "a"
+          ],
+          [
+            "car."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/29.mp3",
+        "timeStart": 65.3,
+        "timeEnd": 68.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35173/list"
+      },
+      {
+        "id": 35174,
+        "position": 30,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/30.mp3",
+        "timeStart": 68.71,
+        "timeEnd": 69.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35174/list"
+      },
+      {
+        "id": 35175,
+        "position": 31,
+        "content": "We have a couple of self-drive tours there visiting different places of interest in California.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          "a",
+          "couple",
+          "of",
+          [
+            "self-drive",
+            "self drive"
+          ],
+          "tours",
+          "there",
+          "visiting",
+          "different",
+          "places",
+          "of",
+          "interest",
+          "in",
+          "California."
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "self-drive",
+            "self drive"
+          ],
+          [
+            "tours"
+          ],
+          [
+            "there"
+          ],
+          [
+            "visiting"
+          ],
+          [
+            "different"
+          ],
+          [
+            "places"
+          ],
+          [
+            "of"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "in"
+          ],
+          [
+            "California."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/31.mp3",
+        "timeStart": 69.61,
+        "timeEnd": 74.99,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/35175/list"
+      },
+      {
+        "id": 35176,
+        "position": 32,
+        "content": "The first one begins in Los Angeles and there's plenty of time to visit some of the theme parks there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          "begins",
+          "in",
+          "Los",
+          "Angeles",
+          "and",
+          [
+            "there's",
+            "there is"
+          ],
+          "plenty",
+          "of",
+          "time",
+          "to",
+          "visit",
+          "some",
+          "of",
+          "the",
+          "theme",
+          "parks",
+          "there."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "begins"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Los"
+          ],
+          [
+            "Angeles"
+          ],
+          [
+            "and"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "plenty"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "theme"
+          ],
+          [
+            "parks"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/32.mp3",
+        "timeStart": 74.99,
+        "timeEnd": 80.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35176/list"
+      },
+      {
+        "id": 35177,
+        "position": 33,
+        "content": "That's something on my children's list so I'd want to include that.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "something",
+          "on",
+          "my",
+          "children's",
+          "list",
+          "so",
+          "I'd",
+          [
+            "want to",
+            "wanna"
+          ],
+          "include",
+          "that."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "something"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "children's"
+          ],
+          [
+            "list"
+          ],
+          [
+            "so"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "include"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/33.mp3",
+        "timeStart": 80.59,
+        "timeEnd": 84.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35177/list"
+      },
+      {
+        "id": 35178,
+        "position": 34,
+        "content": "Good. Then you drive to San Francisco.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good.",
+          "Then",
+          "you",
+          "drive",
+          "to",
+          "San",
+          "Francisco."
+        ],
+        "solution": [
+          [
+            "Good."
+          ],
+          [
+            "Then"
+          ],
+          [
+            "you"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "to"
+          ],
+          [
+            "San"
+          ],
+          [
+            "Francisco."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/34.mp3",
+        "timeStart": 84.7,
+        "timeEnd": 87.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35178/list"
+      },
+      {
+        "id": 35179,
+        "position": 35,
+        "content": "From San Francisco you can drive to Yosemite Park where you spend a couple of nights.",
+        "defaultInput": "",
+        "jsonContent": [
+          "From",
+          "San",
+          "Francisco",
+          "you",
+          "can",
+          "drive",
+          "to",
+          "Yosemite",
+          "Park",
+          "where",
+          "you",
+          "spend",
+          "a",
+          "couple",
+          "of",
+          "nights."
+        ],
+        "solution": [
+          [
+            "From"
+          ],
+          [
+            "San"
+          ],
+          [
+            "Francisco"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Yosemite"
+          ],
+          [
+            "Park"
+          ],
+          [
+            "where"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "nights."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/35.mp3",
+        "timeStart": 87.71,
+        "timeEnd": 92.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35179/list"
+      },
+      {
+        "id": 35180,
+        "position": 36,
+        "content": "You can choose to stay in a lodge or on the campsite.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "choose",
+          "to",
+          "stay",
+          "in",
+          "a",
+          "lodge",
+          "or",
+          "on",
+          "the",
+          "campsite."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "choose"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lodge"
+          ],
+          [
+            "or"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "campsite."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/36.mp3",
+        "timeStart": 93.12,
+        "timeEnd": 96.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35180/list"
+      },
+      {
+        "id": 35181,
+        "position": 37,
+        "content": "I don't like the idea of staying in a tent.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "like",
+          "the",
+          "idea",
+          "of",
+          "staying",
+          "in",
+          "a",
+          "tent."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "of"
+          ],
+          [
+            "staying"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/37.mp3",
+        "timeStart": 96.59,
+        "timeEnd": 99.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35181/list"
+      },
+      {
+        "id": 35182,
+        "position": 38,
+        "content": "It'd be too hot.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It'd",
+          "be",
+          "too",
+          "hot."
+        ],
+        "solution": [
+          [
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "too"
+          ],
+          [
+            "hot."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/38.mp3",
+        "timeStart": 99.38,
+        "timeEnd": 100.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35182/list"
+      },
+      {
+        "id": 35183,
+        "position": 39,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/39.mp3",
+        "timeStart": 100.77,
+        "timeEnd": 101.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35183/list"
+      },
+      {
+        "id": 35184,
+        "position": 40,
+        "content": "And the tour ends in Las Vegas.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "the",
+          "tour",
+          "ends",
+          "in",
+          "Las",
+          "Vegas."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tour"
+          ],
+          [
+            "ends"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Las"
+          ],
+          [
+            "Vegas."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/40.mp3",
+        "timeStart": 101.58,
+        "timeEnd": 103.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35184/list"
+      },
+      {
+        "id": 35185,
+        "position": 41,
+        "content": "OK.",
+        "defaultInput": "OK.",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/41.mp3",
+        "timeStart": 103.81,
+        "timeEnd": 104.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35185/list"
+      },
+      {
+        "id": 35186,
+        "position": 42,
+        "content": "The other trip we can arrange is slightly different.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "other",
+          "trip",
+          "we",
+          "can",
+          "arrange",
+          "is",
+          "slightly",
+          "different."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "other"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "is"
+          ],
+          [
+            "slightly"
+          ],
+          [
+            "different."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/42.mp3",
+        "timeStart": 105,
+        "timeEnd": 107.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35186/list"
+      },
+      {
+        "id": 35187,
+        "position": 43,
+        "content": "It starts in San Francisco.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "starts",
+          "in",
+          "San",
+          "Francisco."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "in"
+          ],
+          [
+            "San"
+          ],
+          [
+            "Francisco."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/43.mp3",
+        "timeStart": 107.8,
+        "timeEnd": 109.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35187/list"
+      },
+      {
+        "id": 35188,
+        "position": 44,
+        "content": "Then you drive south to Cambria.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "you",
+          "drive",
+          "south",
+          "to",
+          "Cambria."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "you"
+          ],
+          [
+            "drive"
+          ],
+          [
+            "south"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Cambria."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/44.mp3",
+        "timeStart": 109.82,
+        "timeEnd": 111.93,
+        "hints": [
+          "Cambria"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35188/list"
+      },
+      {
+        "id": 35189,
+        "position": 45,
+        "content": "Someone told me there's a really nice castle near Cambria.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Someone",
+          "told",
+          "me",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "really",
+          "nice",
+          "castle",
+          "near",
+          "Cambria."
+        ],
+        "solution": [
+          [
+            "Someone"
+          ],
+          [
+            "told"
+          ],
+          [
+            "me"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "really"
+          ],
+          [
+            "nice"
+          ],
+          [
+            "castle"
+          ],
+          [
+            "near"
+          ],
+          [
+            "Cambria."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/45.mp3",
+        "timeStart": 112.07,
+        "timeEnd": 115.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35189/list"
+      },
+      {
+        "id": 35190,
+        "position": 46,
+        "content": "Will we go near that?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Will",
+          "we",
+          "go",
+          "near",
+          "that?"
+        ],
+        "solution": [
+          [
+            "Will"
+          ],
+          [
+            "we"
+          ],
+          [
+            "go"
+          ],
+          [
+            "near"
+          ],
+          [
+            "that?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/46.mp3",
+        "timeStart": 115.96,
+        "timeEnd": 117.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35190/list"
+      },
+      {
+        "id": 35191,
+        "position": 47,
+        "content": "Hearst Castle is on that road so you could stop there.",
+        "defaultInput": "Hearst Castle ",
+        "jsonContent": [
+          "Hearst",
+          "Castle",
+          "is",
+          "on",
+          "that",
+          "road",
+          "so",
+          "you",
+          "could",
+          "stop",
+          "there."
+        ],
+        "solution": [
+          [
+            "Hearst"
+          ],
+          [
+            "Castle"
+          ],
+          [
+            "is"
+          ],
+          [
+            "on"
+          ],
+          [
+            "that"
+          ],
+          [
+            "road"
+          ],
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/47.mp3",
+        "timeStart": 117.39,
+        "timeEnd": 120.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35191/list"
+      },
+      {
+        "id": 35192,
+        "position": 48,
+        "content": "Good. I'd like to do that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good.",
+          "I'd",
+          "like",
+          "to",
+          "do",
+          "that."
+        ],
+        "solution": [
+          [
+            "Good."
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/48.mp3",
+        "timeStart": 120.78,
+        "timeEnd": 123.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35192/list"
+      },
+      {
+        "id": 35193,
+        "position": 49,
+        "content": "Does this trip also go into the desert?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Does",
+          "this",
+          "trip",
+          "also",
+          "go",
+          "into",
+          "the",
+          "desert?"
+        ],
+        "solution": [
+          [
+            "Does"
+          ],
+          [
+            "this"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "also"
+          ],
+          [
+            "go"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "desert?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/49.mp3",
+        "timeStart": 123.01,
+        "timeEnd": 125.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35193/list"
+      },
+      {
+        "id": 35194,
+        "position": 50,
+        "content": "No, it continues to Santa Monica where most people like to stop and do some shopping.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "it",
+          "continues",
+          "to",
+          "Santa",
+          "Monica",
+          "where",
+          "most",
+          "people",
+          "like",
+          "to",
+          "stop",
+          "and",
+          "do",
+          "some",
+          "shopping."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "continues"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Santa"
+          ],
+          [
+            "Monica"
+          ],
+          [
+            "where"
+          ],
+          [
+            "most"
+          ],
+          [
+            "people"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stop"
+          ],
+          [
+            "and"
+          ],
+          [
+            "do"
+          ],
+          [
+            "some"
+          ],
+          [
+            "shopping."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/50.mp3",
+        "timeStart": 125.65,
+        "timeEnd": 130.41,
+        "hints": [
+          "Santa Monica"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35194/list"
+      },
+      {
+        "id": 35195,
+        "position": 51,
+        "content": "We have enough of that at home so that doesn't interest us.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          "enough",
+          "of",
+          "that",
+          "at",
+          "home",
+          "so",
+          "that",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "interest",
+          "us."
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "of"
+          ],
+          [
+            "that"
+          ],
+          [
+            "at"
+          ],
+          [
+            "home"
+          ],
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "us."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/51.mp3",
+        "timeStart": 130.67,
+        "timeEnd": 134.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35195/list"
+      },
+      {
+        "id": 35196,
+        "position": 52,
+        "content": "OK. Well you could go straight on to San Diego.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "Well",
+          "you",
+          "could",
+          "go",
+          "straight",
+          "on",
+          "to",
+          "San",
+          "Diego."
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "Well"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "go"
+          ],
+          [
+            "straight"
+          ],
+          [
+            "on"
+          ],
+          [
+            "to"
+          ],
+          [
+            "San"
+          ],
+          [
+            "Diego."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/52.mp3",
+        "timeStart": 134.61,
+        "timeEnd": 138.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35196/list"
+      },
+      {
+        "id": 35197,
+        "position": 53,
+        "content": "That's good for beaches isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "good",
+          "for",
+          "beaches",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "good"
+          ],
+          [
+            "for"
+          ],
+          [
+            "beaches"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/53.mp3",
+        "timeStart": 138.31,
+        "timeEnd": 140.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35197/list"
+      },
+      {
+        "id": 35198,
+        "position": 54,
+        "content": "That's right, that's a good place to relax and your children might like to visit the zoo before flying home.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "right,",
+          [
+            "that's",
+            "that is"
+          ],
+          "a",
+          "good",
+          "place",
+          "to",
+          "relax",
+          "and",
+          "your",
+          "children",
+          "might",
+          "like",
+          "to",
+          "visit",
+          "the",
+          "zoo",
+          "before",
+          "flying",
+          "home."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "place"
+          ],
+          [
+            "to"
+          ],
+          [
+            "relax"
+          ],
+          [
+            "and"
+          ],
+          [
+            "your"
+          ],
+          [
+            "children"
+          ],
+          [
+            "might"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "visit"
+          ],
+          [
+            "the"
+          ],
+          [
+            "zoo"
+          ],
+          [
+            "before"
+          ],
+          [
+            "flying"
+          ],
+          [
+            "home."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/54.mp3",
+        "timeStart": 140.48,
+        "timeEnd": 146.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35198/list"
+      },
+      {
+        "id": 35199,
+        "position": 55,
+        "content": "I don't think so.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "so."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "so."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/55.mp3",
+        "timeStart": 146.48,
+        "timeEnd": 148.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35199/list"
+      },
+      {
+        "id": 35200,
+        "position": 56,
+        "content": "We want some time for sunbathing and swimming.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "want",
+          "some",
+          "time",
+          "for",
+          "sunbathing",
+          "and",
+          "swimming."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "want"
+          ],
+          [
+            "some"
+          ],
+          [
+            "time"
+          ],
+          [
+            "for"
+          ],
+          [
+            "sunbathing"
+          ],
+          [
+            "and"
+          ],
+          [
+            "swimming."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/56.mp3",
+        "timeStart": 148.18,
+        "timeEnd": 151.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35200/list"
+      },
+      {
+        "id": 35201,
+        "position": 57,
+        "content": "So how many days are the trips and how much do they cost?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "how",
+          "many",
+          "days",
+          "are",
+          "the",
+          "trips",
+          "and",
+          "how",
+          "much",
+          "do",
+          "they",
+          "cost?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "how"
+          ],
+          [
+            "many"
+          ],
+          [
+            "days"
+          ],
+          [
+            "are"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trips"
+          ],
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "much"
+          ],
+          [
+            "do"
+          ],
+          [
+            "they"
+          ],
+          [
+            "cost?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/57.mp3",
+        "timeStart": 151.91,
+        "timeEnd": 155.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35201/list"
+      },
+      {
+        "id": 35202,
+        "position": 58,
+        "content": "The first one I told you about is a self-drive tour through California",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          "I",
+          "told",
+          "you",
+          "about",
+          "is",
+          "a",
+          [
+            "self-drive",
+            "self drive"
+          ],
+          "tour",
+          "through",
+          "California"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "I"
+          ],
+          [
+            "told"
+          ],
+          [
+            "you"
+          ],
+          [
+            "about"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "self-drive",
+            "self drive"
+          ],
+          [
+            "tour"
+          ],
+          [
+            "through"
+          ],
+          [
+            "California"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/58.mp3",
+        "timeStart": 155.79,
+        "timeEnd": 160.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35202/list"
+      },
+      {
+        "id": 35203,
+        "position": 59,
+        "content": "which lasts twelve days and covers 2,020 kilometres.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "lasts",
+          [
+            "twelve",
+            "12"
+          ],
+          "days",
+          "and",
+          "covers",
+          "2,020",
+          [
+            "kilometres.",
+            "kilometers"
+          ]
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "lasts"
+          ],
+          [
+            "twelve",
+            "12"
+          ],
+          [
+            "days"
+          ],
+          [
+            "and"
+          ],
+          [
+            "covers"
+          ],
+          [
+            "2,020"
+          ],
+          [
+            "kilometres.",
+            "kilometers"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/59.mp3",
+        "timeStart": 160.43,
+        "timeEnd": 165.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35203/list"
+      },
+      {
+        "id": 35204,
+        "position": 60,
+        "content": "The shortest journey is 206 kilometres",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "shortest",
+          "journey",
+          "is",
+          "206",
+          [
+            "kilometres",
+            "kilometers"
+          ]
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "shortest"
+          ],
+          [
+            "journey"
+          ],
+          [
+            "is"
+          ],
+          [
+            "206"
+          ],
+          [
+            "kilometres",
+            "kilometers"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/60.mp3",
+        "timeStart": 165.59,
+        "timeEnd": 168.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35204/list"
+      },
+      {
+        "id": 35205,
+        "position": 61,
+        "content": "and the longest is 632 kilometres.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "longest",
+          "is",
+          "632",
+          [
+            "kilometres.",
+            "kilometers"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "longest"
+          ],
+          [
+            "is"
+          ],
+          [
+            "632"
+          ],
+          [
+            "kilometres.",
+            "kilometers"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/61.mp3",
+        "timeStart": 168.92,
+        "timeEnd": 172.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35205/list"
+      },
+      {
+        "id": 35206,
+        "position": 62,
+        "content": "The cost is £525 per person.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "cost",
+          "is",
+          [
+            "£525",
+            "525 pounds"
+          ],
+          "per",
+          "person."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "cost"
+          ],
+          [
+            "is"
+          ],
+          [
+            "£525",
+            "525 pounds"
+          ],
+          [
+            "per"
+          ],
+          [
+            "person."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/62.mp3",
+        "timeStart": 172.48,
+        "timeEnd": 176.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35206/list"
+      },
+      {
+        "id": 35207,
+        "position": 63,
+        "content": "That includes accommodation, car rental and a flight but no meals.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "includes",
+          "accommodation,",
+          "car",
+          "rental",
+          "and",
+          "a",
+          "flight",
+          "but",
+          "no",
+          "meals."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "includes"
+          ],
+          [
+            "accommodation,"
+          ],
+          [
+            "car"
+          ],
+          [
+            "rental"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "but"
+          ],
+          [
+            "no"
+          ],
+          [
+            "meals."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/63.mp3",
+        "timeStart": 176.06,
+        "timeEnd": 180.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35207/list"
+      },
+      {
+        "id": 35208,
+        "position": 64,
+        "content": "OK. And the other trip?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "And",
+          "the",
+          "other",
+          "trip?"
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "And"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "trip?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/64.mp3",
+        "timeStart": 180.71,
+        "timeEnd": 183.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35208/list"
+      },
+      {
+        "id": 35209,
+        "position": 65,
+        "content": "That lasts nine days but you spend only three days on the road.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "lasts",
+          [
+            "nine",
+            "9"
+          ],
+          "days",
+          "but",
+          "you",
+          "spend",
+          "only",
+          [
+            "three",
+            "3"
+          ],
+          "days",
+          "on",
+          "the",
+          "road."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "lasts"
+          ],
+          [
+            "nine",
+            "9"
+          ],
+          [
+            "days"
+          ],
+          [
+            "but"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "only"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "days"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "road."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/65.mp3",
+        "timeStart": 183.07,
+        "timeEnd": 187.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35209/list"
+      },
+      {
+        "id": 35210,
+        "position": 66,
+        "content": "You cover about 980 kilometres altogether.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "cover",
+          "about",
+          "980",
+          [
+            "kilometres",
+            "kilometers"
+          ],
+          "altogether."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "cover"
+          ],
+          [
+            "about"
+          ],
+          [
+            "980"
+          ],
+          [
+            "kilometres",
+            "kilometers"
+          ],
+          [
+            "altogether."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/66.mp3",
+        "timeStart": 187.22,
+        "timeEnd": 190.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35210/list"
+      },
+      {
+        "id": 35211,
+        "position": 67,
+        "content": "So is that cheaper then?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "is",
+          "that",
+          "cheaper",
+          "then?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "cheaper"
+          ],
+          [
+            "then?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/67.mp3",
+        "timeStart": 190.66,
+        "timeEnd": 192.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35211/list"
+      },
+      {
+        "id": 35212,
+        "position": 68,
+        "content": "Yes, it's almost a hundred pounds cheaper.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "it's",
+          "almost",
+          [
+            "a hundred",
+            "100"
+          ],
+          "pounds",
+          "cheaper."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "a hundred",
+            "100"
+          ],
+          [
+            "pounds"
+          ],
+          [
+            "cheaper."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/68.mp3",
+        "timeStart": 192.25,
+        "timeEnd": 194.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35212/list"
+      },
+      {
+        "id": 35213,
+        "position": 69,
+        "content": "It's £429 per person, which is a good deal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          [
+            "£429",
+            "429 pounds"
+          ],
+          "per",
+          "person,",
+          "which",
+          "is",
+          "a",
+          "good",
+          "deal."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "£429",
+            "429 pounds"
+          ],
+          [
+            "per"
+          ],
+          [
+            "person,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "deal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/69.mp3",
+        "timeStart": 194.62,
+        "timeEnd": 198.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35213/list"
+      },
+      {
+        "id": 35214,
+        "position": 70,
+        "content": "So that covers accommodation and car hire.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "that",
+          "covers",
+          "accommodation",
+          "and",
+          "car",
+          "hire."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "that"
+          ],
+          [
+            "covers"
+          ],
+          [
+            "accommodation"
+          ],
+          [
+            "and"
+          ],
+          [
+            "car"
+          ],
+          [
+            "hire."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/70.mp3",
+        "timeStart": 198.46,
+        "timeEnd": 201.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35214/list"
+      },
+      {
+        "id": 35215,
+        "position": 71,
+        "content": "What about flights?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "flights?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "flights?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/71.mp3",
+        "timeStart": 201.84,
+        "timeEnd": 203.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35215/list"
+      },
+      {
+        "id": 35216,
+        "position": 72,
+        "content": "They aren't included.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          [
+            "aren't",
+            "are not"
+          ],
+          "included."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "included."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/72.mp3",
+        "timeStart": 203.4,
+        "timeEnd": 204.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35216/list"
+      },
+      {
+        "id": 35217,
+        "position": 73,
+        "content": "But these hotels offer dinner in the price.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "these",
+          "hotels",
+          "offer",
+          "dinner",
+          "in",
+          "the",
+          "price."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "these"
+          ],
+          [
+            "hotels"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "dinner"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "price."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/73.mp3",
+        "timeStart": 204.75,
+        "timeEnd": 207.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35217/list"
+      },
+      {
+        "id": 35218,
+        "position": 74,
+        "content": "OK. Well, thank you very much.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "OK.",
+            "okay"
+          ],
+          "Well,",
+          "thank",
+          "you",
+          "very",
+          "much."
+        ],
+        "solution": [
+          [
+            "OK.",
+            "okay"
+          ],
+          [
+            "Well,"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "very"
+          ],
+          [
+            "much."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/74.mp3",
+        "timeStart": 207.65,
+        "timeEnd": 210.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35218/list"
+      },
+      {
+        "id": 35219,
+        "position": 75,
+        "content": "I'll be in touch when I've had a chance to look at the brochure.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "in",
+          "touch",
+          "when",
+          [
+            "I've",
+            "I have"
+          ],
+          "had",
+          "a",
+          "chance",
+          "to",
+          "look",
+          "at",
+          "the",
+          "brochure."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "in"
+          ],
+          [
+            "touch"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "chance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "brochure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/75.mp3",
+        "timeStart": 210.25,
+        "timeEnd": 213.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35219/list"
+      },
+      {
+        "id": 35220,
+        "position": 76,
+        "content": "I'm pleased to help.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "pleased",
+          "to",
+          "help."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "pleased"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/76.mp3",
+        "timeStart": 213.16,
+        "timeEnd": 214.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35220/list"
+      },
+      {
+        "id": 35221,
+        "position": 77,
+        "content": "Goodbye.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Goodbye."
+        ],
+        "solution": [
+          [
+            "Goodbye."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/77.mp3",
+        "timeStart": 214.26,
+        "timeEnd": 215.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35221/list"
+      },
+      {
+        "id": 35222,
+        "position": 78,
+        "content": "Goodbye.",
+        "defaultInput": "Goodbye.",
+        "jsonContent": [
+          "Goodbye."
+        ],
+        "solution": [
+          [
+            "Goodbye."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-10-test-1-part-1-2023-06-09-21-53-29/78.mp3",
+        "timeStart": 215.01,
+        "timeEnd": 215.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/35222/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "35145": {
+      "id": 611405,
+      "text": "Chào buổi sáng. Chúng tôi là World Tours.",
+      "author": "a user"
+    },
+    "35147": {
+      "id": 611407,
+      "text": "Tôi có thể giúp gì cho quý khách ạ?",
+      "author": "a user"
+    },
+    "35149": {
+      "id": 611410,
+      "text": "Tôi muốn một số thông tin về các tour du lịch tự lái ở Mỹ.",
+      "author": "a user"
+    },
+    "35150": {
+      "id": 611413,
+      "text": "Anh có thể gửi cho tôi một tờ rơi thông tin được không?",
+      "author": "a user"
+    },
+    "35155": {
+      "id": 611419,
+      "text": "Và địa chỉ của chị?",
+      "author": "a user"
+    },
+    "35157": {
+      "id": 611421,
+      "text": "Chị có thể đánh vần tên đường giúp tôi không?",
+      "author": "a user"
+    },
+    "35162": {
+      "id": 611426,
+      "text": "Và tôi có thể có số điện thoại của chị được chứ?",
+      "author": "a user"
+    },
+    "35163": {
+      "id": 611427,
+      "text": "Điện thoại di động có được không?",
+      "author": "a user"
+    },
+    "35164": {
+      "id": 611428,
+      "text": "Ổn.",
+      "author": "a user"
+    },
+    "35167": {
+      "id": 611431,
+      "text": "Và tôi có thể hỏi chị rằng chị biết đến World Tours từ đâu vậy ?",
+      "author": "a user"
+    },
+    "35168": {
+      "id": 611432,
+      "text": "Từ một người bạn? Hay chị đã thấy một quảng cáo ở đâu đó?",
+      "author": "a user"
+    },
+    "35169": {
+      "id": 611434,
+      "text": "Không, tôi đã đọc về đại lý bên anh trên báo.",
+      "author": "a user"
+    },
+    "35170": {
+      "id": 611435,
+      "text": "Được rồi, tôi sẽ gửi tài liệu quảng cáo cho chị qua đường bưu điện nhưng tôi có thể cung cấp cho chị một số thông tin qua điện thoại được không.",
+      "author": "a user"
+    },
+    "35171": {
+      "id": 611439,
+      "text": "Chị muốn làm gì vào kỳ nghỉ?",
+      "author": "a user"
+    },
+    "35176": {
+      "id": 611449,
+      "text": "Tour đầu tiên bắt đầu ở Los Angeles và có rất nhiều thời gian cho mọi người ghé thăm một số công viên giải trí ở đó.",
+      "author": "a user"
+    },
+    "35178": {
+      "id": 611462,
+      "text": "Tốt. Sau đó, anh chị lái xe đến San Francisco.",
+      "author": "a user"
+    },
+    "35179": {
+      "id": 611464,
+      "text": "Từ San Francisco, anh chị có thể lái xe đến Công viên Yosemite và ở đó vài đêm.",
+      "author": "a user"
+    },
+    "35180": {
+      "id": 611467,
+      "text": "Anh chị và các cháu có thể ở trong nhà nghỉ hoặc trên khu cắm trại.",
+      "author": "a user"
+    },
+    "35188": {
+      "id": 611490,
+      "text": "Sau đó, anh chị lái xe về phía nam đến Cambria.",
+      "author": "a user"
+    },
+    "35191": {
+      "id": 611497,
+      "text": "Lâu đài Hearst nằm ngay ven đường, anh chị có thể dừng xe và vào tham quan.",
+      "author": "a user"
+    },
+    "35192": {
+      "id": 611499,
+      "text": "Tốt quá. Tôi muốn tham quan lâu đài.",
+      "author": "a user"
+    },
+    "35193": {
+      "id": 611500,
+      "text": "Chuyến đi này có đi vào sa mạc không?",
+      "author": "a user"
+    },
+    "35195": {
+      "id": 611510,
+      "text": "Chúng tôi mua sắm chán chê ở nhà rồi nên cũng không quan tâm lắm đâu.",
+      "author": "a user"
+    },
+    "35196": {
+      "id": 611515,
+      "text": "OK. Anh chị có thể đi thẳng đến San Diego.",
+      "author": "a user"
+    },
+    "35197": {
+      "id": 611518,
+      "text": "Nơi đó rất lý tưởng để đi biển có phải không?",
+      "author": "a user"
+    },
+    "35198": {
+      "id": 611519,
+      "text": "Đúng vậy, đó là một nơi tuyệt vời để thư giãn và các cháu nhà anh chị có thể đến thăm sở thú trước khi bay về nhà.",
+      "author": "a user"
+    },
+    "35201": {
+      "id": 611524,
+      "text": "Vậy các chuyến đi dài bao nhiêu ngày và tốn bao nhiêu tiền?",
+      "author": "a user"
+    },
+    "35202": {
+      "id": 611525,
+      "text": "Tour đầu tiên tôi nói với chị là một chuyến du lịch tự lái qua California",
+      "author": "a user"
+    },
+    "35209": {
+      "id": 611532,
+      "text": "Tour đó kéo dài chín ngày nhưng anh chị chỉ mất ba ngày đi trên đường",
+      "author": "a user"
+    },
+    "35210": {
+      "id": 611533,
+      "text": "Anh chị sẽ đi tổng cộng khoảng 980 km.",
+      "author": "a user"
+    },
+    "35211": {
+      "id": 611534,
+      "text": "Như vậy chi phí sẽ rẻ hơn phải không?",
+      "author": "a user"
+    },
+    "35213": {
+      "id": 611536,
+      "text": "Nó có giá £ 429 mỗi người, một cái giá hời.",
+      "author": "a user"
+    },
+    "35214": {
+      "id": 611537,
+      "text": "Vậy nó bao gồm chỗ ở và thuê xe.",
+      "author": "a user"
+    },
+    "35215": {
+      "id": 611588,
+      "text": "Còn vé bay thì sao?",
+      "author": "a user"
+    },
+    "35216": {
+      "id": 611618,
+      "text": "Không bao gồm vé máy bay.",
+      "author": "a user"
+    },
+    "35217": {
+      "id": 611619,
+      "text": "Nhưng những khách sạn này sẽ cung cấp bữa ăn tối bao gồm trong giá rồi",
+      "author": "a user"
+    },
+    "35218": {
+      "id": 611622,
+      "text": "OK. Vâng, cảm ơn anh rất nhiều.",
+      "author": "a user"
+    },
+    "35219": {
+      "id": 611623,
+      "text": "Tôi sẽ liên lạc khi tôi có thời gian xem tài liệu quảng cáo.",
+      "author": "a user"
+    },
+    "35152": {
+      "id": 663139,
+      "text": "Tôi có thể biết tên của chị được không?",
+      "author": "a user"
+    },
+    "35146": {
+      "id": 2600408,
+      "text": "Tôi tên là Jamie.",
+      "author": "ChatGPT4.1"
+    },
+    "35148": {
+      "id": 2600409,
+      "text": "Chào buổi sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "35151": {
+      "id": 2600410,
+      "text": "Tất nhiên rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35153": {
+      "id": 2600411,
+      "text": "Andrea Brown.",
+      "author": "ChatGPT4.1"
+    },
+    "35154": {
+      "id": 2600412,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "35156": {
+      "id": 2600413,
+      "text": "24, đường Ardleigh.",
+      "author": "ChatGPT4.1"
+    },
+    "35158": {
+      "id": 2600414,
+      "text": "A-R-D-L-E-I-G-H Road.",
+      "author": "ChatGPT4.1"
+    },
+    "35159": {
+      "id": 2600415,
+      "text": "Mã bưu điện?",
+      "author": "ChatGPT4.1"
+    },
+    "35160": {
+      "id": 2600416,
+      "text": "BH52OP",
+      "author": "ChatGPT4.1"
+    },
+    "35161": {
+      "id": 2600417,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "35165": {
+      "id": 2600418,
+      "text": "Số của tôi là 07786643091.",
+      "author": "ChatGPT4.1"
+    },
+    "35166": {
+      "id": 2600419,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "35172": {
+      "id": 2600420,
+      "text": "Tôi muốn đi California với gia đình.",
+      "author": "ChatGPT4.1"
+    },
+    "35173": {
+      "id": 2600421,
+      "text": "Tôi có hai con và chúng tôi muốn thuê một chiếc xe.",
+      "author": "ChatGPT4.1"
+    },
+    "35174": {
+      "id": 2600422,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "35175": {
+      "id": 2602248,
+      "text": "Chúng tôi có một vài tour tự lái tham quan các địa điểm thú vị ở California.",
+      "author": "ChatGPT4.1"
+    },
+    "35177": {
+      "id": 2602249,
+      "text": "Đó là điều các con tôi rất muốn nên tôi muốn thêm vào.",
+      "author": "ChatGPT4.1"
+    },
+    "35181": {
+      "id": 2602250,
+      "text": "Tôi không thích ý tưởng ở trong lều.",
+      "author": "ChatGPT4.1"
+    },
+    "35182": {
+      "id": 2602251,
+      "text": "Sẽ rất nóng.",
+      "author": "ChatGPT4.1"
+    },
+    "35183": {
+      "id": 2602252,
+      "text": "Đúng vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "35184": {
+      "id": 2602253,
+      "text": "Và tour sẽ kết thúc ở Las Vegas.",
+      "author": "ChatGPT4.1"
+    },
+    "35185": {
+      "id": 2602254,
+      "text": "Được.",
+      "author": "ChatGPT4.1"
+    },
+    "35186": {
+      "id": 2602255,
+      "text": "Chuyến đi khác mà chúng tôi có thể sắp xếp thì hơi khác một chút.",
+      "author": "ChatGPT4.1"
+    },
+    "35187": {
+      "id": 2602256,
+      "text": "Nó bắt đầu ở San Francisco.",
+      "author": "ChatGPT4.1"
+    },
+    "35189": {
+      "id": 2602257,
+      "text": "Có người nói với tôi rằng có một lâu đài rất đẹp gần Cambria.",
+      "author": "ChatGPT4.1"
+    },
+    "35190": {
+      "id": 2605080,
+      "text": "Chúng ta có tới gần đó chứ?",
+      "author": "a user"
+    },
+    "35194": {
+      "id": 2605081,
+      "text": "Không, nó tiếp tục tới Santa Monica nơi hầu hết mọi người thích dừng lại mua sắm.",
+      "author": "ChatGPT4.1"
+    },
+    "35199": {
+      "id": 2605082,
+      "text": "Tôi không nghĩ vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "35200": {
+      "id": 2605083,
+      "text": "Chúng tôi muốn có thời gian tắm nắng và bơi lội.",
+      "author": "ChatGPT4.1"
+    },
+    "35203": {
+      "id": 2605084,
+      "text": "kéo dài mười hai ngày và đi qua 2.020 km.",
+      "author": "ChatGPT4.1"
+    },
+    "35204": {
+      "id": 2605085,
+      "text": "Quãng đường ngắn nhất là 206 km",
+      "author": "ChatGPT4.1"
+    },
+    "35205": {
+      "id": 2605086,
+      "text": "và quãng đường dài nhất là 632 km.",
+      "author": "ChatGPT4.1"
+    },
+    "35206": {
+      "id": 2612355,
+      "text": "Chi phí là 525 bảng một người.",
+      "author": "ChatGPT4.1"
+    },
+    "35207": {
+      "id": 2612356,
+      "text": "Giá đó bao gồm chỗ ở, thuê xe và một chuyến bay nhưng không bao gồm ăn uống.",
+      "author": "ChatGPT4.1"
+    },
+    "35208": {
+      "id": 2612357,
+      "text": "Được rồi. Còn chuyến kia thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "35212": {
+      "id": 2612358,
+      "text": "Vâng, nó rẻ hơn gần một trăm bảng.",
+      "author": "ChatGPT4.1"
+    },
+    "35220": {
+      "id": 2612359,
+      "text": "Tôi rất vui được giúp đỡ.",
+      "author": "ChatGPT4.1"
+    },
+    "35221": {
+      "id": 2612360,
+      "text": "Tạm biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "35222": {
+      "id": 2612361,
+      "text": "Tạm biệt.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

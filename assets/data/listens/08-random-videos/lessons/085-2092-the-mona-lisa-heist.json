@@ -1,0 +1,8308 @@
+{
+  "summary": {
+    "id": 2092,
+    "name": "The Mona Lisa Heist",
+    "subTitle": "",
+    "levelName": "B2",
+    "position": 85,
+    "totalChallenges": 131,
+    "groupId": 82,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2092",
+  "detail": {
+    "id": 2092,
+    "lessonName": "The Mona Lisa Heist",
+    "name": "The Mona Lisa Heist",
+    "position": 85,
+    "levelName": "B2",
+    "audioSrc": "",
+    "youtubeVideoId": "h0ZMhhquL8c",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 82658,
+        "position": 1,
+        "content": "It's a hot summer's evening in Paris.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          "hot",
+          "summer's",
+          "evening",
+          "in",
+          "Paris."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "summer's"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Paris."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 0.11,
+        "timeEnd": 2.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82658/list"
+      },
+      {
+        "id": 82659,
+        "position": 2,
+        "content": "For weeks, a record-breaking heat wave has been cooking the city,",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "weeks,",
+          "a",
+          [
+            "record-breaking",
+            "record breaking"
+          ],
+          "heat",
+          "wave",
+          "has",
+          "been",
+          "cooking",
+          "the",
+          "city,"
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "weeks,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "record-breaking",
+            "record breaking"
+          ],
+          [
+            "heat"
+          ],
+          [
+            "wave"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "cooking"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 2.75,
+        "timeEnd": 6.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82659/list"
+      },
+      {
+        "id": 82660,
+        "position": 3,
+        "content": "leaving the streets empty and the Louvre quieter than ever.",
+        "defaultInput": "",
+        "jsonContent": [
+          "leaving",
+          "the",
+          "streets",
+          "empty",
+          "and",
+          "the",
+          "Louvre",
+          "quieter",
+          "than",
+          "ever."
+        ],
+        "solution": [
+          [
+            "leaving"
+          ],
+          [
+            "the"
+          ],
+          [
+            "streets"
+          ],
+          [
+            "empty"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "quieter"
+          ],
+          [
+            "than"
+          ],
+          [
+            "ever."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 6.25,
+        "timeEnd": 9.57,
+        "hints": [
+          "Louvre"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82660/list"
+      },
+      {
+        "id": 82661,
+        "position": 4,
+        "content": "No one dares to go outside",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          [
+            "one",
+            "1"
+          ],
+          "dares",
+          "to",
+          "go",
+          "outside"
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "dares"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "outside"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 9.57,
+        "timeEnd": 11.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82661/list"
+      },
+      {
+        "id": 82662,
+        "position": 5,
+        "content": "but for one man, it's time to strike.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "for",
+          [
+            "one",
+            "1"
+          ],
+          "man,",
+          "it's",
+          "time",
+          "to",
+          "strike."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "for"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "man,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "strike."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 11.88,
+        "timeEnd": 14.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82662/list"
+      },
+      {
+        "id": 82663,
+        "position": 6,
+        "content": "Throughout the night he pulls off the heist of the century:",
+        "defaultInput": "",
+        "jsonContent": [
+          "Throughout",
+          "the",
+          "night",
+          "he",
+          "pulls",
+          "off",
+          "the",
+          "heist",
+          "of",
+          "the",
+          "century:"
+        ],
+        "solution": [
+          [
+            "Throughout"
+          ],
+          [
+            "the"
+          ],
+          [
+            "night"
+          ],
+          [
+            "he"
+          ],
+          [
+            "pulls"
+          ],
+          [
+            "off"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heist"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "century:"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 14.79,
+        "timeEnd": 18.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82663/list"
+      },
+      {
+        "id": 82664,
+        "position": 7,
+        "content": "plucking the Mona Lisa from the Louvre and disappearing into the city.",
+        "defaultInput": "",
+        "jsonContent": [
+          "plucking",
+          "the",
+          "Mona",
+          "Lisa",
+          "from",
+          "the",
+          "Louvre",
+          "and",
+          "disappearing",
+          "into",
+          "the",
+          "city."
+        ],
+        "solution": [
+          [
+            "plucking"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "and"
+          ],
+          [
+            "disappearing"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 18.3,
+        "timeEnd": 22.21,
+        "hints": [
+          "Louvre"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82664/list"
+      },
+      {
+        "id": 82665,
+        "position": 8,
+        "content": "This set off a worldwide investigation",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "set",
+          "off",
+          "a",
+          "worldwide",
+          "investigation"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "set"
+          ],
+          [
+            "off"
+          ],
+          [
+            "a"
+          ],
+          [
+            "worldwide"
+          ],
+          [
+            "investigation"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 22.21,
+        "timeEnd": 25.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82665/list"
+      },
+      {
+        "id": 82666,
+        "position": 9,
+        "content": "leading French police down a 2 year rabbit hole of false leads and famous arrests",
+        "defaultInput": "",
+        "jsonContent": [
+          "leading",
+          "French",
+          "police",
+          "down",
+          "a",
+          [
+            "2",
+            "two"
+          ],
+          "year",
+          "rabbit",
+          "hole",
+          "of",
+          "false",
+          "leads",
+          "and",
+          "famous",
+          "arrests"
+        ],
+        "solution": [
+          [
+            "leading"
+          ],
+          [
+            "French"
+          ],
+          [
+            "police"
+          ],
+          [
+            "down"
+          ],
+          [
+            "a"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "year"
+          ],
+          [
+            "rabbit"
+          ],
+          [
+            "hole"
+          ],
+          [
+            "of"
+          ],
+          [
+            "false"
+          ],
+          [
+            "leads"
+          ],
+          [
+            "and"
+          ],
+          [
+            "famous"
+          ],
+          [
+            "arrests"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 25.15,
+        "timeEnd": 30.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82666/list"
+      },
+      {
+        "id": 82667,
+        "position": 10,
+        "content": "before a mysterious letter eventually gave the thief away.",
+        "defaultInput": "",
+        "jsonContent": [
+          "before",
+          "a",
+          "mysterious",
+          "letter",
+          "eventually",
+          "gave",
+          "the",
+          "thief",
+          "away."
+        ],
+        "solution": [
+          [
+            "before"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mysterious"
+          ],
+          [
+            "letter"
+          ],
+          [
+            "eventually"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "the"
+          ],
+          [
+            "thief"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 30.68,
+        "timeEnd": 34.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82667/list"
+      },
+      {
+        "id": 82668,
+        "position": 11,
+        "content": "We modeled the entire thing to show you how a single man stole the Mona Lisa,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "modeled",
+          "the",
+          "entire",
+          "thing",
+          "to",
+          "show",
+          "you",
+          "how",
+          "a",
+          "single",
+          "man",
+          "stole",
+          "the",
+          "Mona",
+          "Lisa,"
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "modeled"
+          ],
+          [
+            "the"
+          ],
+          [
+            "entire"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "to"
+          ],
+          [
+            "show"
+          ],
+          [
+            "you"
+          ],
+          [
+            "how"
+          ],
+          [
+            "a"
+          ],
+          [
+            "single"
+          ],
+          [
+            "man"
+          ],
+          [
+            "stole"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 34.26,
+        "timeEnd": 39.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82668/list"
+      },
+      {
+        "id": 82669,
+        "position": 12,
+        "content": "how he almost got away with it",
+        "defaultInput": "",
+        "jsonContent": [
+          "how",
+          "he",
+          "almost",
+          "got",
+          "away",
+          "with",
+          "it"
+        ],
+        "solution": [
+          [
+            "how"
+          ],
+          [
+            "he"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "got"
+          ],
+          [
+            "away"
+          ],
+          [
+            "with"
+          ],
+          [
+            "it"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 39.47,
+        "timeEnd": 41.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82669/list"
+      },
+      {
+        "id": 82670,
+        "position": 13,
+        "content": "and the elaborate plan behind the heist that was eventually revealed decades later.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "elaborate",
+          "plan",
+          "behind",
+          "the",
+          "heist",
+          "that",
+          "was",
+          "eventually",
+          "revealed",
+          "decades",
+          "later."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "elaborate"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heist"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "eventually"
+          ],
+          [
+            "revealed"
+          ],
+          [
+            "decades"
+          ],
+          [
+            "later."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 41.35,
+        "timeEnd": 47.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82670/list"
+      },
+      {
+        "id": 82671,
+        "position": 14,
+        "content": "As the sun went down that Sunday evening,",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "the",
+          "sun",
+          "went",
+          "down",
+          "that",
+          "Sunday",
+          "evening,"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "the"
+          ],
+          [
+            "sun"
+          ],
+          [
+            "went"
+          ],
+          [
+            "down"
+          ],
+          [
+            "that"
+          ],
+          [
+            "Sunday"
+          ],
+          [
+            "evening,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 47.59,
+        "timeEnd": 50.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82671/list"
+      },
+      {
+        "id": 82672,
+        "position": 15,
+        "content": "the last few tourists were trickling out of the Louvre",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "last",
+          "few",
+          "tourists",
+          "were",
+          "trickling",
+          "out",
+          "of",
+          "the",
+          "Louvre"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "last"
+          ],
+          [
+            "few"
+          ],
+          [
+            "tourists"
+          ],
+          [
+            "were"
+          ],
+          [
+            "trickling"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 50.27,
+        "timeEnd": 53.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82672/list"
+      },
+      {
+        "id": 82673,
+        "position": 16,
+        "content": "but just before it closed, a man entered the museum dressed in the Louvre's official white uniform",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "just",
+          "before",
+          "it",
+          "closed,",
+          "a",
+          "man",
+          "entered",
+          "the",
+          "museum",
+          "dressed",
+          "in",
+          "the",
+          "Louvre's",
+          "official",
+          "white",
+          "uniform"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "just"
+          ],
+          [
+            "before"
+          ],
+          [
+            "it"
+          ],
+          [
+            "closed,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "man"
+          ],
+          [
+            "entered"
+          ],
+          [
+            "the"
+          ],
+          [
+            "museum"
+          ],
+          [
+            "dressed"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre's"
+          ],
+          [
+            "official"
+          ],
+          [
+            "white"
+          ],
+          [
+            "uniform"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 53.26,
+        "timeEnd": 59.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82673/list"
+      },
+      {
+        "id": 82674,
+        "position": 17,
+        "content": "blending in as an employee, he quickly found his way to a small storage closet,",
+        "defaultInput": "",
+        "jsonContent": [
+          "blending",
+          "in",
+          "as",
+          "an",
+          "employee,",
+          "he",
+          "quickly",
+          "found",
+          "his",
+          "way",
+          "to",
+          "a",
+          "small",
+          "storage",
+          "closet,"
+        ],
+        "solution": [
+          [
+            "blending"
+          ],
+          [
+            "in"
+          ],
+          [
+            "as"
+          ],
+          [
+            "an"
+          ],
+          [
+            "employee,"
+          ],
+          [
+            "he"
+          ],
+          [
+            "quickly"
+          ],
+          [
+            "found"
+          ],
+          [
+            "his"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "small"
+          ],
+          [
+            "storage"
+          ],
+          [
+            "closet,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 59.74,
+        "timeEnd": 64.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82674/list"
+      },
+      {
+        "id": 82675,
+        "position": 18,
+        "content": "squeezed his way in, and waited out the entire night.",
+        "defaultInput": "",
+        "jsonContent": [
+          "squeezed",
+          "his",
+          "way",
+          "in,",
+          "and",
+          "waited",
+          "out",
+          "the",
+          "entire",
+          "night."
+        ],
+        "solution": [
+          [
+            "squeezed"
+          ],
+          [
+            "his"
+          ],
+          [
+            "way"
+          ],
+          [
+            "in,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "waited"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "entire"
+          ],
+          [
+            "night."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 64.71,
+        "timeEnd": 68.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82675/list"
+      },
+      {
+        "id": 82676,
+        "position": 19,
+        "content": "The Louvre was closed the next day",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "Louvre",
+          "was",
+          "closed",
+          "the",
+          "next",
+          "day"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "was"
+          ],
+          [
+            "closed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "day"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 68.18,
+        "timeEnd": 70.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82676/list"
+      },
+      {
+        "id": 82677,
+        "position": 20,
+        "content": "so very few employees were going to be patrolling the museum.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "very",
+          "few",
+          "employees",
+          "were",
+          [
+            "going to",
+            "gonna"
+          ],
+          "be",
+          "patrolling",
+          "the",
+          "museum."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "very"
+          ],
+          [
+            "few"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "were"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "patrolling"
+          ],
+          [
+            "the"
+          ],
+          [
+            "museum."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 70.03,
+        "timeEnd": 73.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82677/list"
+      },
+      {
+        "id": 82678,
+        "position": 21,
+        "content": "At precisely 7:15 the next morning,",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "precisely",
+          "7:15",
+          "the",
+          "next",
+          "morning,"
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "precisely"
+          ],
+          [
+            "7:15"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "morning,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 73.92,
+        "timeEnd": 76.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82678/list"
+      },
+      {
+        "id": 82679,
+        "position": 22,
+        "content": "the thief emerged into an almost empty Louvre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "thief",
+          "emerged",
+          "into",
+          "an",
+          "almost",
+          "empty",
+          "Louvre."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "thief"
+          ],
+          [
+            "emerged"
+          ],
+          [
+            "into"
+          ],
+          [
+            "an"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "empty"
+          ],
+          [
+            "Louvre."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 76.76,
+        "timeEnd": 79.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82679/list"
+      },
+      {
+        "id": 82680,
+        "position": 23,
+        "content": "With no one in sight, he quickly made his way into the Salon Carre and there it was.",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "no",
+          [
+            "one",
+            "1"
+          ],
+          "in",
+          "sight,",
+          "he",
+          "quickly",
+          "made",
+          "his",
+          "way",
+          "into",
+          "the",
+          "Salon",
+          "Carre",
+          "and",
+          "there",
+          "it",
+          "was."
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "no"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "in"
+          ],
+          [
+            "sight,"
+          ],
+          [
+            "he"
+          ],
+          [
+            "quickly"
+          ],
+          [
+            "made"
+          ],
+          [
+            "his"
+          ],
+          [
+            "way"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Salon"
+          ],
+          [
+            "Carre"
+          ],
+          [
+            "and"
+          ],
+          [
+            "there"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 79.83,
+        "timeEnd": 84.89,
+        "hints": [
+          "Salon Carre"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82680/list"
+      },
+      {
+        "id": 82681,
+        "position": 24,
+        "content": "At the time, the Mona Lisa didn't have its own room",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "the",
+          "time,",
+          "the",
+          "Mona",
+          "Lisa",
+          [
+            "didn't",
+            "did not"
+          ],
+          "have",
+          "its",
+          "own",
+          "room"
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "its"
+          ],
+          [
+            "own"
+          ],
+          [
+            "room"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 84.89,
+        "timeEnd": 87.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82681/list"
+      },
+      {
+        "id": 82682,
+        "position": 25,
+        "content": "and it wasn't nearly as famous as it is today",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "nearly",
+          "as",
+          "famous",
+          "as",
+          [
+            "it is",
+            "it's"
+          ],
+          "today"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "nearly"
+          ],
+          [
+            "as"
+          ],
+          [
+            "famous"
+          ],
+          [
+            "as"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "today"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 87.94,
+        "timeEnd": 90.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82682/list"
+      },
+      {
+        "id": 82683,
+        "position": 26,
+        "content": "but the thief was about to change that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "the",
+          "thief",
+          "was",
+          "about",
+          "to",
+          "change",
+          "that."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "thief"
+          ],
+          [
+            "was"
+          ],
+          [
+            "about"
+          ],
+          [
+            "to"
+          ],
+          [
+            "change"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 90.74,
+        "timeEnd": 93.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82683/list"
+      },
+      {
+        "id": 82684,
+        "position": 27,
+        "content": "With no one in sight, he pulled the painting off its metal pins",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "no",
+          [
+            "one",
+            "1"
+          ],
+          "in",
+          "sight,",
+          "he",
+          "pulled",
+          "the",
+          "painting",
+          "off",
+          "its",
+          "metal",
+          "pins"
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "no"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "in"
+          ],
+          [
+            "sight,"
+          ],
+          [
+            "he"
+          ],
+          [
+            "pulled"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting"
+          ],
+          [
+            "off"
+          ],
+          [
+            "its"
+          ],
+          [
+            "metal"
+          ],
+          [
+            "pins"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 93.19,
+        "timeEnd": 96.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82684/list"
+      },
+      {
+        "id": 82685,
+        "position": 28,
+        "content": "and carried it to a nearby stairwell.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "carried",
+          "it",
+          "to",
+          "a",
+          "nearby",
+          "stairwell."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "carried"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "nearby"
+          ],
+          [
+            "stairwell."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 96.87,
+        "timeEnd": 99.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82685/list"
+      },
+      {
+        "id": 82686,
+        "position": 29,
+        "content": "Using a screwdriver, he managed to remove the painting from its protective frame",
+        "defaultInput": "",
+        "jsonContent": [
+          "Using",
+          "a",
+          "screwdriver,",
+          "he",
+          "managed",
+          "to",
+          "remove",
+          "the",
+          "painting",
+          "from",
+          "its",
+          "protective",
+          "frame"
+        ],
+        "solution": [
+          [
+            "Using"
+          ],
+          [
+            "a"
+          ],
+          [
+            "screwdriver,"
+          ],
+          [
+            "he"
+          ],
+          [
+            "managed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "remove"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting"
+          ],
+          [
+            "from"
+          ],
+          [
+            "its"
+          ],
+          [
+            "protective"
+          ],
+          [
+            "frame"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 99.03,
+        "timeEnd": 103.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82686/list"
+      },
+      {
+        "id": 82687,
+        "position": 30,
+        "content": "before covering it in a white sheet",
+        "defaultInput": "",
+        "jsonContent": [
+          "before",
+          "covering",
+          "it",
+          "in",
+          "a",
+          "white",
+          "sheet"
+        ],
+        "solution": [
+          [
+            "before"
+          ],
+          [
+            "covering"
+          ],
+          [
+            "it"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "white"
+          ],
+          [
+            "sheet"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 103.19,
+        "timeEnd": 105.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82687/list"
+      },
+      {
+        "id": 82688,
+        "position": 31,
+        "content": "and heading straight for the nearest exit.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "heading",
+          "straight",
+          "for",
+          "the",
+          "nearest",
+          "exit."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "heading"
+          ],
+          [
+            "straight"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nearest"
+          ],
+          [
+            "exit."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 105.18,
+        "timeEnd": 107.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82688/list"
+      },
+      {
+        "id": 82689,
+        "position": 32,
+        "content": "But as he reached for the door, it was locked.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "as",
+          "he",
+          "reached",
+          "for",
+          "the",
+          "door,",
+          "it",
+          "was",
+          "locked."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "as"
+          ],
+          [
+            "he"
+          ],
+          [
+            "reached"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "door,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "locked."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 107.54,
+        "timeEnd": 110.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82689/list"
+      },
+      {
+        "id": 82690,
+        "position": 33,
+        "content": "At that exact moment, a plumber working for the Louvre appeared out of nowhere.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "that",
+          "exact",
+          "moment,",
+          "a",
+          "plumber",
+          "working",
+          "for",
+          "the",
+          "Louvre",
+          "appeared",
+          "out",
+          "of",
+          "nowhere."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "that"
+          ],
+          [
+            "exact"
+          ],
+          [
+            "moment,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "plumber"
+          ],
+          [
+            "working"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "appeared"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "nowhere."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 110.45,
+        "timeEnd": 114.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82690/list"
+      },
+      {
+        "id": 82691,
+        "position": 34,
+        "content": "He assumed that the man was a Louvre employee",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "assumed",
+          "that",
+          "the",
+          "man",
+          "was",
+          "a",
+          "Louvre",
+          "employee"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "assumed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "man"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "employee"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 114.6,
+        "timeEnd": 117.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82691/list"
+      },
+      {
+        "id": 82692,
+        "position": 35,
+        "content": "and so he helped him open the door",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "so",
+          "he",
+          "helped",
+          "him",
+          "open",
+          "the",
+          "door"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "he"
+          ],
+          [
+            "helped"
+          ],
+          [
+            "him"
+          ],
+          [
+            "open"
+          ],
+          [
+            "the"
+          ],
+          [
+            "door"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 117.61,
+        "timeEnd": 119.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82692/list"
+      },
+      {
+        "id": 82693,
+        "position": 36,
+        "content": "and just like that, the thief disappeared into the city",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "just",
+          "like",
+          "that,",
+          "the",
+          "thief",
+          "disappeared",
+          "into",
+          "the",
+          "city"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "just"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "thief"
+          ],
+          [
+            "disappeared"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "city"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 119.79,
+        "timeEnd": 123.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82693/list"
+      },
+      {
+        "id": 82694,
+        "position": 37,
+        "content": "with the Mona Lisa under his arms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "the",
+          "Mona",
+          "Lisa",
+          "under",
+          "his",
+          "arms."
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "under"
+          ],
+          [
+            "his"
+          ],
+          [
+            "arms."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 123.15,
+        "timeEnd": 125.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82694/list"
+      },
+      {
+        "id": 82695,
+        "position": 38,
+        "content": "The whole heist was over in just a matter of minutes",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "whole",
+          "heist",
+          "was",
+          "over",
+          "in",
+          "just",
+          "a",
+          "matter",
+          "of",
+          "minutes"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "heist"
+          ],
+          [
+            "was"
+          ],
+          [
+            "over"
+          ],
+          [
+            "in"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "matter"
+          ],
+          [
+            "of"
+          ],
+          [
+            "minutes"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 125.7,
+        "timeEnd": 129.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82695/list"
+      },
+      {
+        "id": 82696,
+        "position": 39,
+        "content": "but it would take another 28 hours before anyone realized the painting was really gone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "it would",
+            "it'd"
+          ],
+          "take",
+          "another",
+          [
+            "28",
+            "twenty-eight"
+          ],
+          "hours",
+          "before",
+          "anyone",
+          [
+            "realized",
+            "realised"
+          ],
+          "the",
+          "painting",
+          "was",
+          "really",
+          "gone."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "it would",
+            "it'd"
+          ],
+          [
+            "take"
+          ],
+          [
+            "another"
+          ],
+          [
+            "28",
+            "twenty-eight"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "before"
+          ],
+          [
+            "anyone"
+          ],
+          [
+            "realized",
+            "realised"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting"
+          ],
+          [
+            "was"
+          ],
+          [
+            "really"
+          ],
+          [
+            "gone."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 129.47,
+        "timeEnd": 135.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82696/list"
+      },
+      {
+        "id": 82697,
+        "position": 40,
+        "content": "That week, photographers had been going through the museum",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "week,",
+          "photographers",
+          "had",
+          "been",
+          "going",
+          "through",
+          "the",
+          "museum"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "week,"
+          ],
+          [
+            "photographers"
+          ],
+          [
+            "had"
+          ],
+          [
+            "been"
+          ],
+          [
+            "going"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "museum"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 135.33,
+        "timeEnd": 138.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82697/list"
+      },
+      {
+        "id": 82698,
+        "position": 41,
+        "content": "and taking the paintings to be officially photographed,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "taking",
+          "the",
+          "paintings",
+          "to",
+          "be",
+          "officially",
+          "photographed,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "the"
+          ],
+          [
+            "paintings"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "officially"
+          ],
+          [
+            "photographed,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 138.58,
+        "timeEnd": 141.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82698/list"
+      },
+      {
+        "id": 82699,
+        "position": 42,
+        "content": "so blank spaces on the wall were completely normal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "blank",
+          "spaces",
+          "on",
+          "the",
+          "wall",
+          "were",
+          "completely",
+          "normal."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "blank"
+          ],
+          [
+            "spaces"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wall"
+          ],
+          [
+            "were"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "normal."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 141.39,
+        "timeEnd": 144.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82699/list"
+      },
+      {
+        "id": 82700,
+        "position": 43,
+        "content": "But when the photographers showed up the next morning without the Mona Lisa,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "when",
+          "the",
+          "photographers",
+          "showed",
+          "up",
+          "the",
+          "next",
+          "morning",
+          "without",
+          "the",
+          "Mona",
+          "Lisa,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "when"
+          ],
+          [
+            "the"
+          ],
+          [
+            "photographers"
+          ],
+          [
+            "showed"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "without"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 144.83,
+        "timeEnd": 148.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82700/list"
+      },
+      {
+        "id": 82701,
+        "position": 44,
+        "content": "it became clear that something was extremely wrong.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "became",
+          "clear",
+          "that",
+          "something",
+          "was",
+          "extremely",
+          "wrong."
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "became"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "that"
+          ],
+          [
+            "something"
+          ],
+          [
+            "was"
+          ],
+          [
+            "extremely"
+          ],
+          [
+            "wrong."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 148.97,
+        "timeEnd": 152.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82701/list"
+      },
+      {
+        "id": 82702,
+        "position": 45,
+        "content": "The Mona Lisa was officially missing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "Mona",
+          "Lisa",
+          "was",
+          "officially",
+          "missing."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "was"
+          ],
+          [
+            "officially"
+          ],
+          [
+            "missing."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 152.44,
+        "timeEnd": 155.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82702/list"
+      },
+      {
+        "id": 82703,
+        "position": 46,
+        "content": "When the Louvre announced that one of its prized possessions had disappeared,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "the",
+          "Louvre",
+          "announced",
+          "that",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "its",
+          "prized",
+          "possessions",
+          "had",
+          "disappeared,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "announced"
+          ],
+          [
+            "that"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "its"
+          ],
+          [
+            "prized"
+          ],
+          [
+            "possessions"
+          ],
+          [
+            "had"
+          ],
+          [
+            "disappeared,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 237.72,
+        "timeEnd": 241.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82703/list"
+      },
+      {
+        "id": 82704,
+        "position": 47,
+        "content": "it sent shock waves all around the world",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "sent",
+          "shock",
+          "waves",
+          "all",
+          "around",
+          "the",
+          "world"
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "shock"
+          ],
+          [
+            "waves"
+          ],
+          [
+            "all"
+          ],
+          [
+            "around"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 241.84,
+        "timeEnd": 244.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82704/list"
+      },
+      {
+        "id": 82705,
+        "position": 48,
+        "content": "and the question was \"where did it go?\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "question",
+          "was",
+          "\"where",
+          "did",
+          "it",
+          "go?\""
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "question"
+          ],
+          [
+            "was"
+          ],
+          [
+            "\"where"
+          ],
+          [
+            "did"
+          ],
+          [
+            "it"
+          ],
+          [
+            "go?\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 244.28,
+        "timeEnd": 247.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82705/list"
+      },
+      {
+        "id": 82706,
+        "position": 49,
+        "content": "All the police had found was the wooden picture frame and a fingerprint left behind by the thief.",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "the",
+          "police",
+          "had",
+          "found",
+          "was",
+          "the",
+          "wooden",
+          "picture",
+          "frame",
+          "and",
+          "a",
+          "fingerprint",
+          "left",
+          "behind",
+          "by",
+          "the",
+          "thief."
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "the"
+          ],
+          [
+            "police"
+          ],
+          [
+            "had"
+          ],
+          [
+            "found"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wooden"
+          ],
+          [
+            "picture"
+          ],
+          [
+            "frame"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fingerprint"
+          ],
+          [
+            "left"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "thief."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 247.31,
+        "timeEnd": 252.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82706/list"
+      },
+      {
+        "id": 82707,
+        "position": 50,
+        "content": "To get the investigation going,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "get",
+          "the",
+          "investigation",
+          "going,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "investigation"
+          ],
+          [
+            "going,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 252.83,
+        "timeEnd": 254.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82707/list"
+      },
+      {
+        "id": 82708,
+        "position": 51,
+        "content": "local newspapers started offering a reward of $250,000",
+        "defaultInput": "",
+        "jsonContent": [
+          "local",
+          "newspapers",
+          "started",
+          "offering",
+          "a",
+          "reward",
+          "of",
+          [
+            "$250,000",
+            "250,000 dollars"
+          ]
+        ],
+        "solution": [
+          [
+            "local"
+          ],
+          [
+            "newspapers"
+          ],
+          [
+            "started"
+          ],
+          [
+            "offering"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reward"
+          ],
+          [
+            "of"
+          ],
+          [
+            "$250,000",
+            "250,000 dollars"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 254.73,
+        "timeEnd": 260.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82708/list"
+      },
+      {
+        "id": 82709,
+        "position": 52,
+        "content": "for any information that would lead them to the painting.",
+        "defaultInput": "for ",
+        "jsonContent": [
+          "for",
+          "any",
+          "information",
+          "that",
+          "would",
+          "lead",
+          "them",
+          "to",
+          "the",
+          "painting."
+        ],
+        "solution": [
+          [
+            "for"
+          ],
+          [
+            "any"
+          ],
+          [
+            "information"
+          ],
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "lead"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 260.19,
+        "timeEnd": 263.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82709/list"
+      },
+      {
+        "id": 82710,
+        "position": 53,
+        "content": "The response was overwhelming.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "response",
+          "was",
+          "overwhelming."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "response"
+          ],
+          [
+            "was"
+          ],
+          [
+            "overwhelming."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 263.54,
+        "timeEnd": 266,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82710/list"
+      },
+      {
+        "id": 82711,
+        "position": 54,
+        "content": "Thousands of people sent letters and showed up to police stations",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thousands",
+          "of",
+          "people",
+          "sent",
+          "letters",
+          "and",
+          "showed",
+          "up",
+          "to",
+          "police",
+          "stations"
+        ],
+        "solution": [
+          [
+            "Thousands"
+          ],
+          [
+            "of"
+          ],
+          [
+            "people"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "letters"
+          ],
+          [
+            "and"
+          ],
+          [
+            "showed"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "police"
+          ],
+          [
+            "stations"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 266,
+        "timeEnd": 270.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82711/list"
+      },
+      {
+        "id": 82712,
+        "position": 55,
+        "content": "with all kinds of information placing the Mona Lisa all over the world.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "all",
+          "kinds",
+          "of",
+          "information",
+          "placing",
+          "the",
+          "Mona",
+          "Lisa",
+          "all",
+          "over",
+          "the",
+          "world."
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "all"
+          ],
+          [
+            "kinds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "information"
+          ],
+          [
+            "placing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "all"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 270.21,
+        "timeEnd": 275.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82712/list"
+      },
+      {
+        "id": 82713,
+        "position": 56,
+        "content": "Two separate witnesses recalled seeing a man leaving the Louvre with a bulky object.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Two",
+            "2"
+          ],
+          "separate",
+          "witnesses",
+          "recalled",
+          "seeing",
+          "a",
+          "man",
+          "leaving",
+          "the",
+          "Louvre",
+          "with",
+          "a",
+          "bulky",
+          "object."
+        ],
+        "solution": [
+          [
+            "Two",
+            "2"
+          ],
+          [
+            "separate"
+          ],
+          [
+            "witnesses"
+          ],
+          [
+            "recalled"
+          ],
+          [
+            "seeing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "man"
+          ],
+          [
+            "leaving"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bulky"
+          ],
+          [
+            "object."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 275.46,
+        "timeEnd": 280.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82713/list"
+      },
+      {
+        "id": 82714,
+        "position": 57,
+        "content": "But the descriptions of the man were completely different.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "descriptions",
+          "of",
+          "the",
+          "man",
+          "were",
+          "completely",
+          "different."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "descriptions"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "man"
+          ],
+          [
+            "were"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "different."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 280.37,
+        "timeEnd": 283.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82714/list"
+      },
+      {
+        "id": 82715,
+        "position": 58,
+        "content": "One person claimed that the Mona Lisa was on a freight train heading through Belgium",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "One",
+            "1"
+          ],
+          "person",
+          "claimed",
+          "that",
+          "the",
+          "Mona",
+          "Lisa",
+          "was",
+          "on",
+          "a",
+          "freight",
+          "train",
+          "heading",
+          "through",
+          "Belgium"
+        ],
+        "solution": [
+          [
+            "One",
+            "1"
+          ],
+          [
+            "person"
+          ],
+          [
+            "claimed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "was"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "freight"
+          ],
+          [
+            "train"
+          ],
+          [
+            "heading"
+          ],
+          [
+            "through"
+          ],
+          [
+            "Belgium"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 283.76,
+        "timeEnd": 287.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82715/list"
+      },
+      {
+        "id": 82716,
+        "position": 59,
+        "content": "and another claimed that the painting was on a ship which had already set sail for America",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "another",
+          "claimed",
+          "that",
+          "the",
+          "painting",
+          "was",
+          "on",
+          "a",
+          "ship",
+          "which",
+          "had",
+          "already",
+          "set",
+          "sail",
+          "for",
+          "America"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "another"
+          ],
+          [
+            "claimed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting"
+          ],
+          [
+            "was"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "ship"
+          ],
+          [
+            "which"
+          ],
+          [
+            "had"
+          ],
+          [
+            "already"
+          ],
+          [
+            "set"
+          ],
+          [
+            "sail"
+          ],
+          [
+            "for"
+          ],
+          [
+            "America"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 287.89,
+        "timeEnd": 293.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82716/list"
+      },
+      {
+        "id": 82717,
+        "position": 60,
+        "content": "but perhaps the most promising suspect was the famous artist Pablo Picasso.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "perhaps",
+          "the",
+          "most",
+          "promising",
+          "suspect",
+          "was",
+          "the",
+          "famous",
+          "artist",
+          "Pablo",
+          "Picasso."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "perhaps"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "promising"
+          ],
+          [
+            "suspect"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "famous"
+          ],
+          [
+            "artist"
+          ],
+          [
+            "Pablo"
+          ],
+          [
+            "Picasso."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 293.35,
+        "timeEnd": 298.6,
+        "hints": [
+          "Pablo Picasso"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82717/list"
+      },
+      {
+        "id": 82718,
+        "position": 61,
+        "content": "A secretary who knew Picasso wrote to the police",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "secretary",
+          "who",
+          "knew",
+          "Picasso",
+          "wrote",
+          "to",
+          "the",
+          "police"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "secretary"
+          ],
+          [
+            "who"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "Picasso"
+          ],
+          [
+            "wrote"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "police"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 298.71,
+        "timeEnd": 301.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82718/list"
+      },
+      {
+        "id": 82719,
+        "position": 62,
+        "content": "and admitted that he had stolen several Iberian statues from the Louvre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "admitted",
+          "that",
+          [
+            "he had",
+            "he'd"
+          ],
+          "stolen",
+          "several",
+          "Iberian",
+          "statues",
+          "from",
+          "the",
+          "Louvre."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "admitted"
+          ],
+          [
+            "that"
+          ],
+          [
+            "he had",
+            "he'd"
+          ],
+          [
+            "stolen"
+          ],
+          [
+            "several"
+          ],
+          [
+            "Iberian"
+          ],
+          [
+            "statues"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 301.78,
+        "timeEnd": 305.83,
+        "hints": [
+          "Iberian"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82719/list"
+      },
+      {
+        "id": 82720,
+        "position": 63,
+        "content": "He claimed to have sold these statues to Picasso,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "claimed",
+          "to",
+          "have",
+          "sold",
+          "these",
+          "statues",
+          "to",
+          "Picasso,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "claimed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "sold"
+          ],
+          [
+            "these"
+          ],
+          [
+            "statues"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Picasso,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 305.83,
+        "timeEnd": 308.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82720/list"
+      },
+      {
+        "id": 82721,
+        "position": 64,
+        "content": "who went on to use them in one of his paintings.",
+        "defaultInput": "",
+        "jsonContent": [
+          "who",
+          "went",
+          "on",
+          "to",
+          "use",
+          "them",
+          "in",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "his",
+          "paintings."
+        ],
+        "solution": [
+          [
+            "who"
+          ],
+          [
+            "went"
+          ],
+          [
+            "on"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "them"
+          ],
+          [
+            "in"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "his"
+          ],
+          [
+            "paintings."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 308.55,
+        "timeEnd": 311.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82721/list"
+      },
+      {
+        "id": 82722,
+        "position": 65,
+        "content": "It seemed unlikely,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "seemed",
+          "unlikely,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "seemed"
+          ],
+          [
+            "unlikely,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 311.04,
+        "timeEnd": 312.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82722/list"
+      },
+      {
+        "id": 82723,
+        "position": 66,
+        "content": "but after checking the serial number on the statues",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "after",
+          "checking",
+          "the",
+          "serial",
+          "number",
+          "on",
+          "the",
+          "statues"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "after"
+          ],
+          [
+            "checking"
+          ],
+          [
+            "the"
+          ],
+          [
+            "serial"
+          ],
+          [
+            "number"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "statues"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 312.69,
+        "timeEnd": 315.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82723/list"
+      },
+      {
+        "id": 82724,
+        "position": 67,
+        "content": "the Louvre confirmed that they really were from the museum.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "Louvre",
+          "confirmed",
+          "that",
+          "they",
+          "really",
+          "were",
+          "from",
+          "the",
+          "museum."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "confirmed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "really"
+          ],
+          [
+            "were"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "museum."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 315.75,
+        "timeEnd": 319.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82724/list"
+      },
+      {
+        "id": 82725,
+        "position": 68,
+        "content": "Picasso was arrested and taken in for questioning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Picasso",
+          "was",
+          "arrested",
+          "and",
+          "taken",
+          "in",
+          "for",
+          "questioning."
+        ],
+        "solution": [
+          [
+            "Picasso"
+          ],
+          [
+            "was"
+          ],
+          [
+            "arrested"
+          ],
+          [
+            "and"
+          ],
+          [
+            "taken"
+          ],
+          [
+            "in"
+          ],
+          [
+            "for"
+          ],
+          [
+            "questioning."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 319.45,
+        "timeEnd": 322.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82725/list"
+      },
+      {
+        "id": 82726,
+        "position": 69,
+        "content": "Meanwhile, the police turned their attention to another famous suspect:",
+        "defaultInput": "",
+        "jsonContent": [
+          "Meanwhile,",
+          "the",
+          "police",
+          "turned",
+          "their",
+          "attention",
+          "to",
+          "another",
+          "famous",
+          "suspect:"
+        ],
+        "solution": [
+          [
+            "Meanwhile,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "police"
+          ],
+          [
+            "turned"
+          ],
+          [
+            "their"
+          ],
+          [
+            "attention"
+          ],
+          [
+            "to"
+          ],
+          [
+            "another"
+          ],
+          [
+            "famous"
+          ],
+          [
+            "suspect:"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 322.7,
+        "timeEnd": 326.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82726/list"
+      },
+      {
+        "id": 82727,
+        "position": 70,
+        "content": "American banker and art collector JP Morgan.",
+        "defaultInput": "",
+        "jsonContent": [
+          "American",
+          "banker",
+          "and",
+          "art",
+          "collector",
+          "JP",
+          "Morgan."
+        ],
+        "solution": [
+          [
+            "American"
+          ],
+          [
+            "banker"
+          ],
+          [
+            "and"
+          ],
+          [
+            "art"
+          ],
+          [
+            "collector"
+          ],
+          [
+            "JP"
+          ],
+          [
+            "Morgan."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 326.73,
+        "timeEnd": 330.31,
+        "hints": [
+          "JP Morgan"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82727/list"
+      },
+      {
+        "id": 82728,
+        "position": 71,
+        "content": "At the time, art forgery was a big business",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "the",
+          "time,",
+          "art",
+          "forgery",
+          "was",
+          "a",
+          "big",
+          "business"
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "art"
+          ],
+          [
+            "forgery"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "business"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 330.31,
+        "timeEnd": 333.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82728/list"
+      },
+      {
+        "id": 82729,
+        "position": 72,
+        "content": "and paintings were often being forged and sold to naive millionaires in America.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "paintings",
+          "were",
+          "often",
+          "being",
+          "forged",
+          "and",
+          "sold",
+          "to",
+          "naive",
+          "millionaires",
+          "in",
+          "America."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "paintings"
+          ],
+          [
+            "were"
+          ],
+          [
+            "often"
+          ],
+          [
+            "being"
+          ],
+          [
+            "forged"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sold"
+          ],
+          [
+            "to"
+          ],
+          [
+            "naive"
+          ],
+          [
+            "millionaires"
+          ],
+          [
+            "in"
+          ],
+          [
+            "America."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 333.78,
+        "timeEnd": 339,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82729/list"
+      },
+      {
+        "id": 82730,
+        "position": 73,
+        "content": "According to the claim, Morgan had commissioned the heist",
+        "defaultInput": "",
+        "jsonContent": [
+          "According",
+          "to",
+          "the",
+          "claim,",
+          "Morgan",
+          "had",
+          "commissioned",
+          "the",
+          "heist"
+        ],
+        "solution": [
+          [
+            "According"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "claim,"
+          ],
+          [
+            "Morgan"
+          ],
+          [
+            "had"
+          ],
+          [
+            "commissioned"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heist"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 339,
+        "timeEnd": 342.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82730/list"
+      },
+      {
+        "id": 82731,
+        "position": 74,
+        "content": "and the painting was now on its way to him.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "painting",
+          "was",
+          "now",
+          "on",
+          "its",
+          "way",
+          "to",
+          "him."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting"
+          ],
+          [
+            "was"
+          ],
+          [
+            "now"
+          ],
+          [
+            "on"
+          ],
+          [
+            "its"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 342.35,
+        "timeEnd": 344.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82731/list"
+      },
+      {
+        "id": 82732,
+        "position": 75,
+        "content": "Police in America stopped and searched a boat pulling into New York",
+        "defaultInput": "",
+        "jsonContent": [
+          "Police",
+          "in",
+          "America",
+          "stopped",
+          "and",
+          "searched",
+          "a",
+          "boat",
+          "pulling",
+          "into",
+          "New",
+          "York"
+        ],
+        "solution": [
+          [
+            "Police"
+          ],
+          [
+            "in"
+          ],
+          [
+            "America"
+          ],
+          [
+            "stopped"
+          ],
+          [
+            "and"
+          ],
+          [
+            "searched"
+          ],
+          [
+            "a"
+          ],
+          [
+            "boat"
+          ],
+          [
+            "pulling"
+          ],
+          [
+            "into"
+          ],
+          [
+            "New"
+          ],
+          [
+            "York"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 344.56,
+        "timeEnd": 347.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82732/list"
+      },
+      {
+        "id": 82733,
+        "position": 76,
+        "content": "but there was no Mona Lisa onboard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "there",
+          "was",
+          "no",
+          "Mona",
+          "Lisa",
+          "onboard."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "no"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "onboard."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 347.83,
+        "timeEnd": 350.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82733/list"
+      },
+      {
+        "id": 82734,
+        "position": 77,
+        "content": "Theories kept coming in from all over the world",
+        "defaultInput": "",
+        "jsonContent": [
+          "Theories",
+          "kept",
+          "coming",
+          "in",
+          "from",
+          "all",
+          "over",
+          "the",
+          "world"
+        ],
+        "solution": [
+          [
+            "Theories"
+          ],
+          [
+            "kept"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "in"
+          ],
+          [
+            "from"
+          ],
+          [
+            "all"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 350.58,
+        "timeEnd": 353.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82734/list"
+      },
+      {
+        "id": 82735,
+        "position": 78,
+        "content": "but after 2 years of searching,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "after",
+          [
+            "2",
+            "two"
+          ],
+          "years",
+          "of",
+          "searching,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "after"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "years"
+          ],
+          [
+            "of"
+          ],
+          [
+            "searching,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 353.79,
+        "timeEnd": 355.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82735/list"
+      },
+      {
+        "id": 82736,
+        "position": 79,
+        "content": "the location of the Mona Lisa was still a complete mystery.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "location",
+          "of",
+          "the",
+          "Mona",
+          "Lisa",
+          "was",
+          "still",
+          "a",
+          "complete",
+          "mystery."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "location"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "was"
+          ],
+          [
+            "still"
+          ],
+          [
+            "a"
+          ],
+          [
+            "complete"
+          ],
+          [
+            "mystery."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 355.74,
+        "timeEnd": 359.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82736/list"
+      },
+      {
+        "id": 82737,
+        "position": 80,
+        "content": "As it turned out, the Mona Lisa hadn't gone far at all",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "it",
+          "turned",
+          "out,",
+          "the",
+          "Mona",
+          "Lisa",
+          [
+            "hadn't",
+            "had not"
+          ],
+          "gone",
+          "far",
+          "at",
+          "all"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "it"
+          ],
+          [
+            "turned"
+          ],
+          [
+            "out,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "hadn't",
+            "had not"
+          ],
+          [
+            "gone"
+          ],
+          [
+            "far"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 359.92,
+        "timeEnd": 363.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82737/list"
+      },
+      {
+        "id": 82738,
+        "position": 81,
+        "content": "and it was sitting in an apartment just 2 miles from the Louvre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          "was",
+          "sitting",
+          "in",
+          "an",
+          "apartment",
+          "just",
+          [
+            "2",
+            "two"
+          ],
+          "miles",
+          "from",
+          "the",
+          "Louvre."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "sitting"
+          ],
+          [
+            "in"
+          ],
+          [
+            "an"
+          ],
+          [
+            "apartment"
+          ],
+          [
+            "just"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "miles"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 363.27,
+        "timeEnd": 367.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82738/list"
+      },
+      {
+        "id": 82739,
+        "position": 82,
+        "content": "This was the apartment of Vincenzo Peruggia",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "was",
+          "the",
+          "apartment",
+          "of",
+          "Vincenzo",
+          "Peruggia"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "apartment"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Vincenzo"
+          ],
+          [
+            "Peruggia"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 367.22,
+        "timeEnd": 370.31,
+        "hints": [
+          "Vincenzo Peruggia"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82739/list"
+      },
+      {
+        "id": 82740,
+        "position": 83,
+        "content": "a 29 year old Italian who used to work at the Louvre as a handyman.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          [
+            "29",
+            "twenty-nine"
+          ],
+          "year",
+          "old",
+          "Italian",
+          "who",
+          "used",
+          "to",
+          "work",
+          "at",
+          "the",
+          "Louvre",
+          "as",
+          "a",
+          "handyman."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "29",
+            "twenty-nine"
+          ],
+          [
+            "year"
+          ],
+          [
+            "old"
+          ],
+          [
+            "Italian"
+          ],
+          [
+            "who"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "handyman."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 370.31,
+        "timeEnd": 374.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82740/list"
+      },
+      {
+        "id": 82741,
+        "position": 84,
+        "content": "He knew every weakness of the Louvre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "knew",
+          "every",
+          "weakness",
+          "of",
+          "the",
+          "Louvre."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "every"
+          ],
+          [
+            "weakness"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 374.42,
+        "timeEnd": 376.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82741/list"
+      },
+      {
+        "id": 82742,
+        "position": 85,
+        "content": "He knew that it was closed on Mondays.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "knew",
+          "that",
+          "it",
+          "was",
+          "closed",
+          "on",
+          "Mondays."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "closed"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Mondays."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 376.97,
+        "timeEnd": 379.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82742/list"
+      },
+      {
+        "id": 82743,
+        "position": 86,
+        "content": "He knew about the photographers",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "knew",
+          "about",
+          "the",
+          "photographers"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "photographers"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 379.15,
+        "timeEnd": 380.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82743/list"
+      },
+      {
+        "id": 82744,
+        "position": 87,
+        "content": "and it was him who had made the Mona Lisa's protective case",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          "was",
+          "him",
+          "who",
+          "had",
+          "made",
+          "the",
+          "Mona",
+          "Lisa's",
+          "protective",
+          "case"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "him"
+          ],
+          [
+            "who"
+          ],
+          [
+            "had"
+          ],
+          [
+            "made"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa's"
+          ],
+          [
+            "protective"
+          ],
+          [
+            "case"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 380.71,
+        "timeEnd": 384.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82744/list"
+      },
+      {
+        "id": 82745,
+        "position": 88,
+        "content": "which he dismantled so easily during the heist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "he",
+          "dismantled",
+          "so",
+          "easily",
+          "during",
+          "the",
+          "heist."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "he"
+          ],
+          [
+            "dismantled"
+          ],
+          [
+            "so"
+          ],
+          [
+            "easily"
+          ],
+          [
+            "during"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heist."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 384.13,
+        "timeEnd": 387.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82745/list"
+      },
+      {
+        "id": 82746,
+        "position": 89,
+        "content": "After leaving the Louvre he hid the painting in a trunk with a false floor which he had made himself",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "leaving",
+          "the",
+          "Louvre",
+          "he",
+          "hid",
+          "the",
+          "painting",
+          "in",
+          "a",
+          "trunk",
+          "with",
+          "a",
+          "false",
+          "floor",
+          "which",
+          [
+            "he had",
+            "he'd"
+          ],
+          "made",
+          "himself"
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "leaving"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Louvre"
+          ],
+          [
+            "he"
+          ],
+          [
+            "hid"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "trunk"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "false"
+          ],
+          [
+            "floor"
+          ],
+          [
+            "which"
+          ],
+          [
+            "he had",
+            "he'd"
+          ],
+          [
+            "made"
+          ],
+          [
+            "himself"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 387.01,
+        "timeEnd": 392.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82746/list"
+      },
+      {
+        "id": 82747,
+        "position": 90,
+        "content": "but how did he get away with it for so long?",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "how",
+          "did",
+          "he",
+          "get",
+          "away",
+          "with",
+          "it",
+          "for",
+          "so",
+          "long?"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "how"
+          ],
+          [
+            "did"
+          ],
+          [
+            "he"
+          ],
+          [
+            "get"
+          ],
+          [
+            "away"
+          ],
+          [
+            "with"
+          ],
+          [
+            "it"
+          ],
+          [
+            "for"
+          ],
+          [
+            "so"
+          ],
+          [
+            "long?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 392.59,
+        "timeEnd": 395.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82747/list"
+      },
+      {
+        "id": 82748,
+        "position": 91,
+        "content": "Amazingly, Peruggia already had a criminal record",
+        "defaultInput": "",
+        "jsonContent": [
+          "Amazingly,",
+          "Peruggia",
+          "already",
+          "had",
+          "a",
+          "criminal",
+          "record"
+        ],
+        "solution": [
+          [
+            "Amazingly,"
+          ],
+          [
+            "Peruggia"
+          ],
+          [
+            "already"
+          ],
+          [
+            "had"
+          ],
+          [
+            "a"
+          ],
+          [
+            "criminal"
+          ],
+          [
+            "record"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 395.34,
+        "timeEnd": 398.79,
+        "hints": [
+          "Peruggia"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82748/list"
+      },
+      {
+        "id": 82749,
+        "position": 92,
+        "content": "and his fingerprints were already in the system",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "his",
+          "fingerprints",
+          "were",
+          "already",
+          "in",
+          "the",
+          "system"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "his"
+          ],
+          [
+            "fingerprints"
+          ],
+          [
+            "were"
+          ],
+          [
+            "already"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "system"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 398.79,
+        "timeEnd": 401.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82749/list"
+      },
+      {
+        "id": 82750,
+        "position": 93,
+        "content": "but only his right-hand fingerprints were in the system",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "only",
+          "his",
+          [
+            "right-hand",
+            "right hand"
+          ],
+          "fingerprints",
+          "were",
+          "in",
+          "the",
+          "system"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "only"
+          ],
+          [
+            "his"
+          ],
+          [
+            "right-hand",
+            "right hand"
+          ],
+          [
+            "fingerprints"
+          ],
+          [
+            "were"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "system"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 401.47,
+        "timeEnd": 404.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82750/list"
+      },
+      {
+        "id": 82751,
+        "position": 94,
+        "content": "and the one on the picture frame was a left-hand print",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          [
+            "one",
+            "1"
+          ],
+          "on",
+          "the",
+          "picture",
+          "frame",
+          "was",
+          "a",
+          [
+            "left-hand",
+            "left hand"
+          ],
+          "print"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "picture"
+          ],
+          [
+            "frame"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "left-hand",
+            "left hand"
+          ],
+          [
+            "print"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 404.94,
+        "timeEnd": 407.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82751/list"
+      },
+      {
+        "id": 82752,
+        "position": 95,
+        "content": "and so a match was never found.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "so",
+          "a",
+          "match",
+          "was",
+          "never",
+          "found."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "a"
+          ],
+          [
+            "match"
+          ],
+          [
+            "was"
+          ],
+          [
+            "never"
+          ],
+          [
+            "found."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 407.87,
+        "timeEnd": 410.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82752/list"
+      },
+      {
+        "id": 82753,
+        "position": 96,
+        "content": "During the investigation, police had visited Peruggia's apartment twice but never found anything.",
+        "defaultInput": "",
+        "jsonContent": [
+          "During",
+          "the",
+          "investigation,",
+          "police",
+          "had",
+          "visited",
+          "Peruggia's",
+          "apartment",
+          "twice",
+          "but",
+          "never",
+          "found",
+          "anything."
+        ],
+        "solution": [
+          [
+            "During"
+          ],
+          [
+            "the"
+          ],
+          [
+            "investigation,"
+          ],
+          [
+            "police"
+          ],
+          [
+            "had"
+          ],
+          [
+            "visited"
+          ],
+          [
+            "Peruggia's"
+          ],
+          [
+            "apartment"
+          ],
+          [
+            "twice"
+          ],
+          [
+            "but"
+          ],
+          [
+            "never"
+          ],
+          [
+            "found"
+          ],
+          [
+            "anything."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 410.17,
+        "timeEnd": 415.53,
+        "hints": [
+          "Peruggia's"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82753/list"
+      },
+      {
+        "id": 82754,
+        "position": 97,
+        "content": "Little did they know that the Mona Lisa was hiding right under their noses.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Little",
+          "did",
+          "they",
+          "know",
+          "that",
+          "the",
+          "Mona",
+          "Lisa",
+          "was",
+          "hiding",
+          "right",
+          "under",
+          "their",
+          "noses."
+        ],
+        "solution": [
+          [
+            "Little"
+          ],
+          [
+            "did"
+          ],
+          [
+            "they"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "was"
+          ],
+          [
+            "hiding"
+          ],
+          [
+            "right"
+          ],
+          [
+            "under"
+          ],
+          [
+            "their"
+          ],
+          [
+            "noses."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 415.62,
+        "timeEnd": 420.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82754/list"
+      },
+      {
+        "id": 82755,
+        "position": 98,
+        "content": "Peruggia had pulled off a stupidly simple heist",
+        "defaultInput": "Peruggia ",
+        "jsonContent": [
+          "Peruggia",
+          "had",
+          "pulled",
+          "off",
+          "a",
+          "stupidly",
+          "simple",
+          "heist"
+        ],
+        "solution": [
+          [
+            "Peruggia"
+          ],
+          [
+            "had"
+          ],
+          [
+            "pulled"
+          ],
+          [
+            "off"
+          ],
+          [
+            "a"
+          ],
+          [
+            "stupidly"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "heist"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 420.55,
+        "timeEnd": 424.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82755/list"
+      },
+      {
+        "id": 82756,
+        "position": 99,
+        "content": "and it seemed like he would get away with it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it",
+          "seemed",
+          "like",
+          [
+            "he would",
+            "he'd"
+          ],
+          "get",
+          "away",
+          "with",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "seemed"
+          ],
+          [
+            "like"
+          ],
+          [
+            "he would",
+            "he'd"
+          ],
+          [
+            "get"
+          ],
+          [
+            "away"
+          ],
+          [
+            "with"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 424.03,
+        "timeEnd": 426.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82756/list"
+      },
+      {
+        "id": 82757,
+        "position": 100,
+        "content": "But after 2 years holding the painting hostage,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "after",
+          [
+            "2",
+            "two"
+          ],
+          "years",
+          "holding",
+          "the",
+          "painting",
+          "hostage,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "after"
+          ],
+          [
+            "2",
+            "two"
+          ],
+          [
+            "years"
+          ],
+          [
+            "holding"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting"
+          ],
+          [
+            "hostage,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 426.28,
+        "timeEnd": 429.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82757/list"
+      },
+      {
+        "id": 82758,
+        "position": 101,
+        "content": "he started to get impatient.",
+        "defaultInput": "",
+        "jsonContent": [
+          "he",
+          "started",
+          "to",
+          "get",
+          "impatient."
+        ],
+        "solution": [
+          [
+            "he"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "impatient."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 429.49,
+        "timeEnd": 431.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82758/list"
+      },
+      {
+        "id": 82759,
+        "position": 102,
+        "content": "He wrote an anonymous letter to an art dealer in Florence",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "wrote",
+          "an",
+          "anonymous",
+          "letter",
+          "to",
+          "an",
+          "art",
+          "dealer",
+          "in",
+          "Florence"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "wrote"
+          ],
+          [
+            "an"
+          ],
+          [
+            "anonymous"
+          ],
+          [
+            "letter"
+          ],
+          [
+            "to"
+          ],
+          [
+            "an"
+          ],
+          [
+            "art"
+          ],
+          [
+            "dealer"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Florence"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 431.71,
+        "timeEnd": 435.09,
+        "hints": [
+          "Florence"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82759/list"
+      },
+      {
+        "id": 82760,
+        "position": 103,
+        "content": "the city where da Vinci painted the masterpiece.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "city",
+          "where",
+          "da",
+          "Vinci",
+          "painted",
+          "the",
+          "masterpiece."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "city"
+          ],
+          [
+            "where"
+          ],
+          [
+            "da"
+          ],
+          [
+            "Vinci"
+          ],
+          [
+            "painted"
+          ],
+          [
+            "the"
+          ],
+          [
+            "masterpiece."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 435.09,
+        "timeEnd": 437.81,
+        "hints": [
+          "da Vinci"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82760/list"
+      },
+      {
+        "id": 82761,
+        "position": 104,
+        "content": "In the letter he claimed to have the Mona Lisa in his possession",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "the",
+          "letter",
+          "he",
+          "claimed",
+          "to",
+          "have",
+          "the",
+          "Mona",
+          "Lisa",
+          "in",
+          "his",
+          "possession"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "the"
+          ],
+          [
+            "letter"
+          ],
+          [
+            "he"
+          ],
+          [
+            "claimed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "in"
+          ],
+          [
+            "his"
+          ],
+          [
+            "possession"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 437.81,
+        "timeEnd": 441.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82761/list"
+      },
+      {
+        "id": 82762,
+        "position": 105,
+        "content": "and said he wanted to return it back to its home.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "said",
+          "he",
+          "wanted",
+          "to",
+          "return",
+          "it",
+          "back",
+          "to",
+          "its",
+          "home."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "said"
+          ],
+          [
+            "he"
+          ],
+          [
+            "wanted"
+          ],
+          [
+            "to"
+          ],
+          [
+            "return"
+          ],
+          [
+            "it"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "its"
+          ],
+          [
+            "home."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 441.47,
+        "timeEnd": 444.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82762/list"
+      },
+      {
+        "id": 82763,
+        "position": 106,
+        "content": "He signed the letter with the name Leonardo and took the next train to Florence.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "signed",
+          "the",
+          "letter",
+          "with",
+          "the",
+          "name",
+          "Leonardo",
+          "and",
+          "took",
+          "the",
+          "next",
+          "train",
+          "to",
+          "Florence."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "signed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "letter"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "name"
+          ],
+          [
+            "Leonardo"
+          ],
+          [
+            "and"
+          ],
+          [
+            "took"
+          ],
+          [
+            "the"
+          ],
+          [
+            "next"
+          ],
+          [
+            "train"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Florence."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 444.5,
+        "timeEnd": 449.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82763/list"
+      },
+      {
+        "id": 82764,
+        "position": 107,
+        "content": "The art dealer and his associate agreed to meet Peruggia in his hotel room to authenticate the painting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "art",
+          "dealer",
+          "and",
+          "his",
+          "associate",
+          "agreed",
+          "to",
+          "meet",
+          "Peruggia",
+          "in",
+          "his",
+          "hotel",
+          "room",
+          "to",
+          "authenticate",
+          "the",
+          "painting."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "art"
+          ],
+          [
+            "dealer"
+          ],
+          [
+            "and"
+          ],
+          [
+            "his"
+          ],
+          [
+            "associate"
+          ],
+          [
+            "agreed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "meet"
+          ],
+          [
+            "Peruggia"
+          ],
+          [
+            "in"
+          ],
+          [
+            "his"
+          ],
+          [
+            "hotel"
+          ],
+          [
+            "room"
+          ],
+          [
+            "to"
+          ],
+          [
+            "authenticate"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 449.51,
+        "timeEnd": 455.12,
+        "hints": [
+          "Peruggia"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82764/list"
+      },
+      {
+        "id": 82765,
+        "position": 108,
+        "content": "With the doors locked, Peruggia opened up the trunk",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "the",
+          "doors",
+          "locked,",
+          "Peruggia",
+          "opened",
+          "up",
+          "the",
+          "trunk"
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doors"
+          ],
+          [
+            "locked,"
+          ],
+          [
+            "Peruggia"
+          ],
+          [
+            "opened"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trunk"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 455.12,
+        "timeEnd": 457.9,
+        "hints": [
+          "Peruggia"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82765/list"
+      },
+      {
+        "id": 82766,
+        "position": 109,
+        "content": "and to their surprise it really was the Mona Lisa.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "to",
+          "their",
+          "surprise",
+          "it",
+          "really",
+          "was",
+          "the",
+          "Mona",
+          "Lisa."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "to"
+          ],
+          [
+            "their"
+          ],
+          [
+            "surprise"
+          ],
+          [
+            "it"
+          ],
+          [
+            "really"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 457.9,
+        "timeEnd": 461.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82766/list"
+      },
+      {
+        "id": 82767,
+        "position": 110,
+        "content": "In order to further authenticate the painting,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "order",
+          "to",
+          [
+            "further",
+            "farther"
+          ],
+          "authenticate",
+          "the",
+          "painting,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "order"
+          ],
+          [
+            "to"
+          ],
+          [
+            "further",
+            "farther"
+          ],
+          [
+            "authenticate"
+          ],
+          [
+            "the"
+          ],
+          [
+            "painting,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 461.5,
+        "timeEnd": 464.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82767/list"
+      },
+      {
+        "id": 82768,
+        "position": 111,
+        "content": "the art dealers took it back to their studio",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "art",
+          "dealers",
+          "took",
+          "it",
+          "back",
+          "to",
+          "their",
+          "studio"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "art"
+          ],
+          [
+            "dealers"
+          ],
+          [
+            "took"
+          ],
+          [
+            "it"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "their"
+          ],
+          [
+            "studio"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 464.11,
+        "timeEnd": 466.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82768/list"
+      },
+      {
+        "id": 82769,
+        "position": 112,
+        "content": "assuring Peruggia that he would be rewarded for bringing it back to Italy",
+        "defaultInput": "",
+        "jsonContent": [
+          "assuring",
+          "Peruggia",
+          "that",
+          [
+            "he would",
+            "he'd"
+          ],
+          "be",
+          "rewarded",
+          "for",
+          "bringing",
+          "it",
+          "back",
+          "to",
+          "Italy"
+        ],
+        "solution": [
+          [
+            "assuring"
+          ],
+          [
+            "Peruggia"
+          ],
+          [
+            "that"
+          ],
+          [
+            "he would",
+            "he'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "rewarded"
+          ],
+          [
+            "for"
+          ],
+          [
+            "bringing"
+          ],
+          [
+            "it"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Italy"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 466.5,
+        "timeEnd": 470.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82769/list"
+      },
+      {
+        "id": 82770,
+        "position": 113,
+        "content": "but just an hour later the police showed up at his door and arrested him.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "just",
+          "an",
+          "hour",
+          "later",
+          "the",
+          "police",
+          "showed",
+          "up",
+          "at",
+          "his",
+          "door",
+          "and",
+          "arrested",
+          "him."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "just"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "later"
+          ],
+          [
+            "the"
+          ],
+          [
+            "police"
+          ],
+          [
+            "showed"
+          ],
+          [
+            "up"
+          ],
+          [
+            "at"
+          ],
+          [
+            "his"
+          ],
+          [
+            "door"
+          ],
+          [
+            "and"
+          ],
+          [
+            "arrested"
+          ],
+          [
+            "him."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 470.36,
+        "timeEnd": 474.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82770/list"
+      },
+      {
+        "id": 82771,
+        "position": 114,
+        "content": "Peruggia ended up spending just 7 months in prison",
+        "defaultInput": "Peruggia ",
+        "jsonContent": [
+          "Peruggia",
+          "ended",
+          "up",
+          "spending",
+          "just",
+          [
+            "7",
+            "seven"
+          ],
+          "months",
+          "in",
+          "prison"
+        ],
+        "solution": [
+          [
+            "Peruggia"
+          ],
+          [
+            "ended"
+          ],
+          [
+            "up"
+          ],
+          [
+            "spending"
+          ],
+          [
+            "just"
+          ],
+          [
+            "7",
+            "seven"
+          ],
+          [
+            "months"
+          ],
+          [
+            "in"
+          ],
+          [
+            "prison"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 474.95,
+        "timeEnd": 478.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82771/list"
+      },
+      {
+        "id": 82772,
+        "position": 115,
+        "content": "and died just 10 years later.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "died",
+          "just",
+          [
+            "10",
+            "ten"
+          ],
+          "years",
+          "later."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "died"
+          ],
+          [
+            "just"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "years"
+          ],
+          [
+            "later."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 478.13,
+        "timeEnd": 480.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82772/list"
+      },
+      {
+        "id": 82773,
+        "position": 116,
+        "content": "Although the search for the Mona Lisa was over,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Although",
+          "the",
+          "search",
+          "for",
+          "the",
+          "Mona",
+          "Lisa",
+          "was",
+          "over,"
+        ],
+        "solution": [
+          [
+            "Although"
+          ],
+          [
+            "the"
+          ],
+          [
+            "search"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "was"
+          ],
+          [
+            "over,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 480.23,
+        "timeEnd": 482.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82773/list"
+      },
+      {
+        "id": 82774,
+        "position": 117,
+        "content": "the truth behind what really happened seemed to have gone to the grave.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "truth",
+          "behind",
+          "what",
+          "really",
+          "happened",
+          "seemed",
+          "to",
+          "have",
+          "gone",
+          "to",
+          "the",
+          "grave."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "truth"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "what"
+          ],
+          [
+            "really"
+          ],
+          [
+            "happened"
+          ],
+          [
+            "seemed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "gone"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "grave."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 482.5,
+        "timeEnd": 486.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82774/list"
+      },
+      {
+        "id": 82775,
+        "position": 118,
+        "content": "But in 1932,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "in",
+          "1932,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "in"
+          ],
+          [
+            "1932,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 486.96,
+        "timeEnd": 488.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82775/list"
+      },
+      {
+        "id": 82776,
+        "position": 119,
+        "content": "a story was published that revealed a much more elaborate plan behind the heist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "story",
+          "was",
+          "published",
+          "that",
+          "revealed",
+          "a",
+          "much",
+          "more",
+          "elaborate",
+          "plan",
+          "behind",
+          "the",
+          "heist."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "story"
+          ],
+          [
+            "was"
+          ],
+          [
+            "published"
+          ],
+          [
+            "that"
+          ],
+          [
+            "revealed"
+          ],
+          [
+            "a"
+          ],
+          [
+            "much"
+          ],
+          [
+            "more"
+          ],
+          [
+            "elaborate"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heist."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 488.94,
+        "timeEnd": 493.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82776/list"
+      },
+      {
+        "id": 82777,
+        "position": 120,
+        "content": "Written by Karl Decker.",
+        "defaultInput": "Written by Karl Decker.",
+        "jsonContent": [
+          "Written",
+          "by",
+          "Karl",
+          "Decker."
+        ],
+        "solution": [
+          [
+            "Written"
+          ],
+          [
+            "by"
+          ],
+          [
+            "Karl"
+          ],
+          [
+            "Decker."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 493.95,
+        "timeEnd": 495.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82777/list"
+      },
+      {
+        "id": 82778,
+        "position": 121,
+        "content": "He claimed to know the man who was really behind the heist",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "claimed",
+          "to",
+          "know",
+          "the",
+          "man",
+          "who",
+          "was",
+          "really",
+          "behind",
+          "the",
+          "heist"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "claimed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "the"
+          ],
+          [
+            "man"
+          ],
+          [
+            "who"
+          ],
+          [
+            "was"
+          ],
+          [
+            "really"
+          ],
+          [
+            "behind"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heist"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 495.44,
+        "timeEnd": 499.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82778/list"
+      },
+      {
+        "id": 82779,
+        "position": 122,
+        "content": "a man named Eduardo de Valfierno, an expert in art forgery.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "man",
+          "named",
+          "Eduardo",
+          "de",
+          "Valfierno,",
+          "an",
+          "expert",
+          "in",
+          "art",
+          "forgery."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "man"
+          ],
+          [
+            "named"
+          ],
+          [
+            "Eduardo"
+          ],
+          [
+            "de"
+          ],
+          [
+            "Valfierno,"
+          ],
+          [
+            "an"
+          ],
+          [
+            "expert"
+          ],
+          [
+            "in"
+          ],
+          [
+            "art"
+          ],
+          [
+            "forgery."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 499.33,
+        "timeEnd": 503.74,
+        "hints": [
+          "Eduardo de Valfierno"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82779/list"
+      },
+      {
+        "id": 82780,
+        "position": 123,
+        "content": "He had come up with a grand plan to sell not one, but six perfect copies of the Mona Lisa to six unsuspecting millionaires lined up in America.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "He had",
+            "He'd"
+          ],
+          "come",
+          "up",
+          "with",
+          "a",
+          "grand",
+          "plan",
+          "to",
+          "sell",
+          "not",
+          [
+            "one,",
+            "1"
+          ],
+          "but",
+          [
+            "six",
+            "6"
+          ],
+          "perfect",
+          "copies",
+          "of",
+          "the",
+          "Mona",
+          "Lisa",
+          "to",
+          [
+            "six",
+            "6"
+          ],
+          "unsuspecting",
+          "millionaires",
+          "lined",
+          "up",
+          "in",
+          "America."
+        ],
+        "solution": [
+          [
+            "He had",
+            "He'd"
+          ],
+          [
+            "come"
+          ],
+          [
+            "up"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "grand"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sell"
+          ],
+          [
+            "not"
+          ],
+          [
+            "one,",
+            "1"
+          ],
+          [
+            "but"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "perfect"
+          ],
+          [
+            "copies"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "to"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "unsuspecting"
+          ],
+          [
+            "millionaires"
+          ],
+          [
+            "lined"
+          ],
+          [
+            "up"
+          ],
+          [
+            "in"
+          ],
+          [
+            "America."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 503.74,
+        "timeEnd": 513.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82780/list"
+      },
+      {
+        "id": 82781,
+        "position": 124,
+        "content": "He commissioned a talented French painter to make the copies",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "commissioned",
+          "a",
+          "talented",
+          "French",
+          "painter",
+          "to",
+          "make",
+          "the",
+          "copies"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "commissioned"
+          ],
+          [
+            "a"
+          ],
+          [
+            "talented"
+          ],
+          [
+            "French"
+          ],
+          [
+            "painter"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "the"
+          ],
+          [
+            "copies"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 513.66,
+        "timeEnd": 517.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82781/list"
+      },
+      {
+        "id": 82782,
+        "position": 125,
+        "content": "and shipped them off to America and put them into storage.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "shipped",
+          "them",
+          "off",
+          "to",
+          "America",
+          "and",
+          "put",
+          "them",
+          "into",
+          "storage."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "shipped"
+          ],
+          [
+            "them"
+          ],
+          [
+            "off"
+          ],
+          [
+            "to"
+          ],
+          [
+            "America"
+          ],
+          [
+            "and"
+          ],
+          [
+            "put"
+          ],
+          [
+            "them"
+          ],
+          [
+            "into"
+          ],
+          [
+            "storage."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 517.14,
+        "timeEnd": 520.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82782/list"
+      },
+      {
+        "id": 82783,
+        "position": 126,
+        "content": "In order for them to believe they were really getting their hands on the Mona Lisa",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "order",
+          "for",
+          "them",
+          "to",
+          "believe",
+          "they",
+          "were",
+          "really",
+          "getting",
+          "their",
+          "hands",
+          "on",
+          "the",
+          "Mona",
+          "Lisa"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "order"
+          ],
+          [
+            "for"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "they"
+          ],
+          [
+            "were"
+          ],
+          [
+            "really"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "their"
+          ],
+          [
+            "hands"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 520.43,
+        "timeEnd": 523.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82783/list"
+      },
+      {
+        "id": 82784,
+        "position": 127,
+        "content": "the real one had to go missing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "real",
+          [
+            "one",
+            "1"
+          ],
+          "had",
+          "to",
+          "go",
+          "missing."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "real"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "had"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "missing."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 523.98,
+        "timeEnd": 525.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82784/list"
+      },
+      {
+        "id": 82785,
+        "position": 128,
+        "content": "And so he contracted Peruggia to pull off the heist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "so",
+          "he",
+          "contracted",
+          "Peruggia",
+          "to",
+          "pull",
+          "off",
+          "the",
+          "heist."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "so"
+          ],
+          [
+            "he"
+          ],
+          [
+            "contracted"
+          ],
+          [
+            "Peruggia"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pull"
+          ],
+          [
+            "off"
+          ],
+          [
+            "the"
+          ],
+          [
+            "heist."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 525.97,
+        "timeEnd": 529.42,
+        "hints": [
+          "Peruggia"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82785/list"
+      },
+      {
+        "id": 82786,
+        "position": 129,
+        "content": "When news spread that the Mona Lisa had gone missing,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "news",
+          "spread",
+          "that",
+          "the",
+          "Mona",
+          "Lisa",
+          "had",
+          "gone",
+          "missing,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "news"
+          ],
+          [
+            "spread"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Mona"
+          ],
+          [
+            "Lisa"
+          ],
+          [
+            "had"
+          ],
+          [
+            "gone"
+          ],
+          [
+            "missing,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 529.51,
+        "timeEnd": 532.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82786/list"
+      },
+      {
+        "id": 82787,
+        "position": 130,
+        "content": "the paintings were sold to their buyers",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "paintings",
+          "were",
+          "sold",
+          "to",
+          "their",
+          "buyers"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "paintings"
+          ],
+          [
+            "were"
+          ],
+          [
+            "sold"
+          ],
+          [
+            "to"
+          ],
+          [
+            "their"
+          ],
+          [
+            "buyers"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 532.19,
+        "timeEnd": 534.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82787/list"
+      },
+      {
+        "id": 82788,
+        "position": 131,
+        "content": "and the three involved ran off with the equivalent of 90 million dollars.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          [
+            "three",
+            "3"
+          ],
+          "involved",
+          "ran",
+          "off",
+          "with",
+          "the",
+          "equivalent",
+          "of",
+          [
+            "90",
+            "ninety"
+          ],
+          "million",
+          "dollars."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "involved"
+          ],
+          [
+            "ran"
+          ],
+          [
+            "off"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "equivalent"
+          ],
+          [
+            "of"
+          ],
+          [
+            "90",
+            "ninety"
+          ],
+          [
+            "million"
+          ],
+          [
+            "dollars."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 534.17,
+        "timeEnd": 539.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/82788/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "82665": {
+      "id": 2595579,
+      "text": "Điều này đã khởi động một cuộc điều tra toàn cầu",
+      "author": "ChatGPT4.1"
+    },
+    "82666": {
+      "id": 2595580,
+      "text": "dẫn cảnh sát Pháp lao vào một mê cung kéo dài 2 năm với những manh mối giả và các vụ bắt giữ nổi tiếng",
+      "author": "ChatGPT4.1"
+    },
+    "82667": {
+      "id": 2595581,
+      "text": "trước khi một bức thư bí ẩn cuối cùng đã vạch trần tên trộm.",
+      "author": "ChatGPT4.1"
+    },
+    "82668": {
+      "id": 2595582,
+      "text": "Chúng tôi đã mô phỏng toàn bộ sự việc để cho bạn thấy cách một người đàn ông duy nhất đã đánh cắp bức tranh Mona Lisa,",
+      "author": "ChatGPT4.1"
+    },
+    "82669": {
+      "id": 2595583,
+      "text": "cách hắn suýt nữa đã trốn thoát thành công",
+      "author": "ChatGPT4.1"
+    },
+    "82670": {
+      "id": 2595584,
+      "text": "và kế hoạch tinh vi phía sau vụ trộm đã được hé lộ nhiều thập kỷ sau đó.",
+      "author": "ChatGPT4.1"
+    },
+    "82671": {
+      "id": 2595585,
+      "text": "Khi mặt trời lặn vào buổi tối Chủ nhật đó,",
+      "author": "ChatGPT4.1"
+    },
+    "82672": {
+      "id": 2595586,
+      "text": "những du khách cuối cùng đang lác đác rời khỏi bảo tàng Louvre",
+      "author": "ChatGPT4.1"
+    },
+    "82673": {
+      "id": 2595587,
+      "text": "nhưng ngay trước khi đóng cửa, một người đàn ông bước vào bảo tàng trong bộ đồng phục trắng chính thức của Louvre",
+      "author": "a user"
+    },
+    "82674": {
+      "id": 2595588,
+      "text": "giả làm nhân viên, hắn nhanh chóng tìm đến một phòng chứa nhỏ,",
+      "author": "ChatGPT4.1"
+    },
+    "82675": {
+      "id": 2595589,
+      "text": "lẻn vào trong và chờ đợi suốt cả đêm đó.",
+      "author": "ChatGPT4.1"
+    },
+    "82676": {
+      "id": 2595590,
+      "text": "Ngày hôm sau, bảo tàng Louvre vẫn đóng cửa",
+      "author": "ChatGPT4.1"
+    },
+    "82677": {
+      "id": 2595591,
+      "text": "nên chỉ có rất ít nhân viên tuần tra quanh viện bảo tàng.",
+      "author": "ChatGPT4.1"
+    },
+    "82678": {
+      "id": 2595592,
+      "text": "Chính xác vào lúc 7:15 sáng hôm sau,",
+      "author": "ChatGPT4.1"
+    },
+    "82679": {
+      "id": 2595593,
+      "text": "tên trộm bước ra giữa bảo tàng Louvre gần như trống vắng.",
+      "author": "ChatGPT4.1"
+    },
+    "82680": {
+      "id": 2595594,
+      "text": "Không có ai xung quanh, hắn nhanh chóng tiến vào phòng Salon Carre và ở đó, bức tranh hiện ra.",
+      "author": "ChatGPT4.1"
+    },
+    "82681": {
+      "id": 2595595,
+      "text": "Vào thời điểm đó, Mona Lisa chưa có phòng riêng",
+      "author": "ChatGPT4.1"
+    },
+    "82682": {
+      "id": 2595596,
+      "text": "và nó cũng chưa nổi tiếng như ngày nay",
+      "author": "ChatGPT4.1"
+    },
+    "82683": {
+      "id": 2595597,
+      "text": "nhưng tên trộm sắp sửa thay đổi điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "82684": {
+      "id": 2595598,
+      "text": "Chẳng có ai, hắn đã tháo bức tranh khỏi các chốt kim loại",
+      "author": "ChatGPT4.1"
+    },
+    "82685": {
+      "id": 2595599,
+      "text": "và đem nó đến một cầu thang gần đó.",
+      "author": "ChatGPT4.1"
+    },
+    "82686": {
+      "id": 2595600,
+      "text": "Dùng một chiếc tua vít, hắn đã tháo được bức tranh khỏi khung bảo vệ",
+      "author": "ChatGPT4.1"
+    },
+    "82687": {
+      "id": 2595601,
+      "text": "rồi bọc nó lại trong một tấm vải trắng",
+      "author": "ChatGPT4.1"
+    },
+    "82688": {
+      "id": 2595602,
+      "text": "và đi thẳng về phía lối thoát gần nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "82689": {
+      "id": 2595603,
+      "text": "Nhưng khi hắn tới gần cửa, thì nó đã bị khóa.",
+      "author": "ChatGPT4.1"
+    },
+    "82690": {
+      "id": 2595604,
+      "text": "Đúng lúc đó, một thợ sửa ống nước làm việc cho Louvre bất ngờ xuất hiện.",
+      "author": "ChatGPT4.1"
+    },
+    "82691": {
+      "id": 2595605,
+      "text": "Người thợ tưởng rằng hắn là nhân viên ở Louvre",
+      "author": "ChatGPT4.1"
+    },
+    "82692": {
+      "id": 2595606,
+      "text": "nên đã giúp hắn mở cửa",
+      "author": "ChatGPT4.1"
+    },
+    "82693": {
+      "id": 2595607,
+      "text": "và chỉ như vậy thôi, tên trộm biến mất giữa lòng thành phố",
+      "author": "ChatGPT4.1"
+    },
+    "82694": {
+      "id": 2595608,
+      "text": "cùng với bức tranh Mona Lisa dưới cánh tay.",
+      "author": "ChatGPT4.1"
+    },
+    "82695": {
+      "id": 2595609,
+      "text": "Toàn bộ vụ trộm chỉ diễn ra trong vài phút ngắn ngủi",
+      "author": "ChatGPT4.1"
+    },
+    "82696": {
+      "id": 2595610,
+      "text": "nhưng phải mất thêm 28 tiếng nữa người ta mới nhận ra bức tranh thực sự đã biến mất.",
+      "author": "ChatGPT4.1"
+    },
+    "82697": {
+      "id": 2595657,
+      "text": "Tuần đó, các nhiếp ảnh gia đã đi khắp bảo tàng",
+      "author": "ChatGPT4.1"
+    },
+    "82698": {
+      "id": 2595658,
+      "text": "và mang các bức tranh đi để chụp hình chính thức,",
+      "author": "ChatGPT4.1"
+    },
+    "82699": {
+      "id": 2595659,
+      "text": "nên những khoảng trống trên tường là điều hoàn toàn bình thường.",
+      "author": "ChatGPT4.1"
+    },
+    "82700": {
+      "id": 2595660,
+      "text": "Nhưng khi các nhiếp ảnh gia xuất hiện vào sáng hôm sau mà không có bức Mona Lisa,",
+      "author": "ChatGPT4.1"
+    },
+    "82701": {
+      "id": 2595661,
+      "text": "mọi người nhận ra ngay rằng có điều gì đó vô cùng bất thường.",
+      "author": "ChatGPT4.1"
+    },
+    "82702": {
+      "id": 2595662,
+      "text": "Bức Mona Lisa đã chính thức biến mất.",
+      "author": "ChatGPT4.1"
+    },
+    "82703": {
+      "id": 2595663,
+      "text": "Khi Louvre thông báo rằng một trong những bảo vật của họ đã bị mất cắp,",
+      "author": "ChatGPT4.1"
+    },
+    "82704": {
+      "id": 2595664,
+      "text": "thông tin này gây ra làn sóng chấn động trên toàn thế giới",
+      "author": "a user"
+    },
+    "82705": {
+      "id": 2595665,
+      "text": "và câu hỏi đặt ra là \"nó đã đi đâu?\"",
+      "author": "ChatGPT4.1"
+    },
+    "82706": {
+      "id": 2595666,
+      "text": "Những gì cảnh sát tìm thấy chỉ là khung tranh bằng gỗ và một dấu vân tay của tên trộm để lại.",
+      "author": "ChatGPT4.1"
+    },
+    "82707": {
+      "id": 2595667,
+      "text": "Để thúc đẩy cuộc điều tra,",
+      "author": "ChatGPT4.1"
+    },
+    "82708": {
+      "id": 2595668,
+      "text": "các tờ báo địa phương bắt đầu treo thưởng 250.000 đô la",
+      "author": "ChatGPT4.1"
+    },
+    "82709": {
+      "id": 2595669,
+      "text": "cho bất kỳ thông tin nào giúp tìm lại được bức tranh.",
+      "author": "ChatGPT4.1"
+    },
+    "82710": {
+      "id": 2595670,
+      "text": "Phản hồi nhận được cực kỳ lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "82711": {
+      "id": 2595671,
+      "text": "Hàng ngàn người đã gửi thư và đến trình báo ở các đồn cảnh sát",
+      "author": "ChatGPT4.1"
+    },
+    "82712": {
+      "id": 2595672,
+      "text": "với đủ loại thông tin cho rằng bức Mona Lisa đang xuất hiện ở khắp nơi trên thế giới.",
+      "author": "ChatGPT4.1"
+    },
+    "82658": {
+      "id": 2602271,
+      "text": "Đó là một buổi tối mùa hè oi bức ở Paris.",
+      "author": "ChatGPT4.1"
+    },
+    "82659": {
+      "id": 2602272,
+      "text": "Trong nhiều tuần, một đợt sóng nhiệt phá kỷ lục đã nung chín cả thành phố,",
+      "author": "ChatGPT4.1"
+    },
+    "82660": {
+      "id": 2602273,
+      "text": "khiến các con phố vắng tanh và bảo tàng Louvre yên tĩnh hơn bao giờ hết.",
+      "author": "ChatGPT4.1"
+    },
+    "82661": {
+      "id": 2602274,
+      "text": "Không ai dám ra ngoài",
+      "author": "ChatGPT4.1"
+    },
+    "82662": {
+      "id": 2602275,
+      "text": "nhưng đối với một người, đây là lúc ra tay.",
+      "author": "ChatGPT4.1"
+    },
+    "82663": {
+      "id": 2602276,
+      "text": "Suốt đêm, anh ta thực hiện vụ trộm thế kỷ:",
+      "author": "ChatGPT4.1"
+    },
+    "82664": {
+      "id": 2602277,
+      "text": "lấy bức tranh Mona Lisa khỏi Louvre rồi biến mất vào thành phố.",
+      "author": "ChatGPT4.1"
+    },
+    "82713": {
+      "id": 2604592,
+      "text": "Hai nhân chứng khác nhau kể rằng họ đã thấy một người đàn ông rời Louvre với một vật cồng kềnh.",
+      "author": "ChatGPT4.1"
+    },
+    "82714": {
+      "id": 2604593,
+      "text": "Nhưng các mô tả về người đàn ông này hoàn toàn khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "82715": {
+      "id": 2604594,
+      "text": "Một người cho rằng Mona Lisa đang trên chuyến tàu hàng đi qua Bỉ",
+      "author": "ChatGPT4.1"
+    },
+    "82716": {
+      "id": 2604595,
+      "text": "và người khác thì cho rằng bức tranh đã ở trên một con tàu đã rời bến sang Mỹ",
+      "author": "ChatGPT4.1"
+    },
+    "82717": {
+      "id": 2604596,
+      "text": "nhưng có lẽ nghi phạm sáng giá nhất là họa sĩ nổi tiếng Pablo Picasso.",
+      "author": "ChatGPT4.1"
+    },
+    "82718": {
+      "id": 2604597,
+      "text": "Một thư ký quen biết Picasso đã viết thư cho cảnh sát",
+      "author": "ChatGPT4.1"
+    },
+    "82719": {
+      "id": 2604598,
+      "text": "và thừa nhận rằng ông đã đánh cắp một số bức tượng Iberia từ bảo tàng Louvre.",
+      "author": "ChatGPT4.1"
+    },
+    "82720": {
+      "id": 2604599,
+      "text": "Ông ta khai rằng đã bán những bức tượng này cho Picasso,",
+      "author": "ChatGPT4.1"
+    },
+    "82721": {
+      "id": 2604600,
+      "text": "người đã sử dụng chúng trong một bức tranh của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "82722": {
+      "id": 2604601,
+      "text": "Điều này nghe có vẻ khó tin,",
+      "author": "ChatGPT4.1"
+    },
+    "82723": {
+      "id": 2604602,
+      "text": "nhưng sau khi kiểm tra số sê-ri trên các bức tượng",
+      "author": "ChatGPT4.1"
+    },
+    "82724": {
+      "id": 2604603,
+      "text": "Louvre xác nhận rằng chúng thực sự thuộc về bảo tàng.",
+      "author": "ChatGPT4.1"
+    },
+    "82725": {
+      "id": 2604604,
+      "text": "Picasso đã bị bắt và đưa đi thẩm vấn.",
+      "author": "ChatGPT4.1"
+    },
+    "82726": {
+      "id": 2604605,
+      "text": "Trong khi đó, cảnh sát chuyển sự chú ý sang một nghi phạm nổi tiếng khác:",
+      "author": "ChatGPT4.1"
+    },
+    "82727": {
+      "id": 2604606,
+      "text": "Ngân hàng người Mỹ kiêm nhà sưu tầm nghệ thuật JP Morgan.",
+      "author": "ChatGPT4.1"
+    },
+    "82728": {
+      "id": 2605094,
+      "text": "Vào thời điểm đó, làm giả nghệ thuật là một ngành kinh doanh lớn",
+      "author": "ChatGPT4.1"
+    },
+    "82729": {
+      "id": 2605095,
+      "text": "và các bức tranh thường xuyên bị làm giả và bán cho những triệu phú ngây thơ ở Mỹ.",
+      "author": "ChatGPT4.1"
+    },
+    "82730": {
+      "id": 2605096,
+      "text": "Theo lời tố cáo, Morgan đã thuê người đánh cắp",
+      "author": "ChatGPT4.1"
+    },
+    "82731": {
+      "id": 2605097,
+      "text": "và bức tranh hiện đang trên đường đến chỗ ông ta.",
+      "author": "ChatGPT4.1"
+    },
+    "82732": {
+      "id": 2605098,
+      "text": "Cảnh sát Mỹ đã dừng và lục soát một con tàu cập cảng New York",
+      "author": "ChatGPT4.1"
+    },
+    "82733": {
+      "id": 2605099,
+      "text": "nhưng không tìm thấy Mona Lisa nào trên tàu cả.",
+      "author": "ChatGPT4.1"
+    },
+    "82734": {
+      "id": 2605100,
+      "text": "Nhiều giả thuyết tiếp tục được gửi về từ khắp nơi trên thế giới",
+      "author": "ChatGPT4.1"
+    },
+    "82735": {
+      "id": 2605101,
+      "text": "nhưng sau 2 năm tìm kiếm,",
+      "author": "ChatGPT4.1"
+    },
+    "82736": {
+      "id": 2605102,
+      "text": "vị trí của bức Mona Lisa vẫn là một bí ẩn hoàn toàn.",
+      "author": "ChatGPT4.1"
+    },
+    "82737": {
+      "id": 2605103,
+      "text": "Sự thật là, bức Mona Lisa thực ra chưa từng đi xa",
+      "author": "ChatGPT4.1"
+    },
+    "82738": {
+      "id": 2605104,
+      "text": "và nó đang nằm trong một căn hộ chỉ cách Louvre khoảng 2 dặm.",
+      "author": "ChatGPT4.1"
+    },
+    "82739": {
+      "id": 2605105,
+      "text": "Đây chính là căn hộ của Vincenzo Peruggia",
+      "author": "ChatGPT4.1"
+    },
+    "82740": {
+      "id": 2605106,
+      "text": "một người Ý 29 tuổi từng làm việc tại Louvre với vai trò thợ sửa chữa.",
+      "author": "ChatGPT4.1"
+    },
+    "82741": {
+      "id": 2605107,
+      "text": "Anh ta biết rõ mọi nhược điểm của Louvre.",
+      "author": "ChatGPT4.1"
+    },
+    "82742": {
+      "id": 2605108,
+      "text": "Anh ta biết rằng bảo tàng đóng cửa vào các ngày thứ Hai.",
+      "author": "ChatGPT4.1"
+    },
+    "82743": {
+      "id": 2605649,
+      "text": "Anh ta biết về những người thợ chụp ảnh",
+      "author": "ChatGPT4.1"
+    },
+    "82744": {
+      "id": 2605650,
+      "text": "và chính anh ta là người đã làm hộp bảo vệ cho Mona Lisa",
+      "author": "ChatGPT4.1"
+    },
+    "82745": {
+      "id": 2605651,
+      "text": "mà anh ta đã tháo rời một cách dễ dàng trong vụ trộm.",
+      "author": "ChatGPT4.1"
+    },
+    "82746": {
+      "id": 2605652,
+      "text": "Sau khi rời Louvre, anh ta đã giấu bức tranh trong một chiếc rương có đáy giả do chính mình làm ra",
+      "author": "ChatGPT4.1"
+    },
+    "82747": {
+      "id": 2605653,
+      "text": "nhưng làm sao anh ta có thể trốn tránh lâu đến vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "82748": {
+      "id": 2605654,
+      "text": "Thật bất ngờ, Peruggia đã có tiền án trước đó",
+      "author": "ChatGPT4.1"
+    },
+    "82749": {
+      "id": 2605655,
+      "text": "và dấu vân tay của anh ta đã có trong hồ sơ",
+      "author": "ChatGPT4.1"
+    },
+    "82750": {
+      "id": 2605656,
+      "text": "nhưng chỉ có dấu vân tay bàn tay phải của anh ta trong hồ sơ",
+      "author": "ChatGPT4.1"
+    },
+    "82751": {
+      "id": 2605657,
+      "text": "và dấu vân tay trên khung tranh lại là của tay trái",
+      "author": "ChatGPT4.1"
+    },
+    "82752": {
+      "id": 2605658,
+      "text": "vì vậy mà không bao giờ tìm được sự trùng khớp.",
+      "author": "ChatGPT4.1"
+    },
+    "82753": {
+      "id": 2605659,
+      "text": "Trong quá trình điều tra, cảnh sát đã ghé thăm căn hộ của Peruggia hai lần nhưng không phát hiện được gì.",
+      "author": "ChatGPT4.1"
+    },
+    "82754": {
+      "id": 2605660,
+      "text": "Họ đâu biết rằng Mona Lisa đang ẩn ngay trước mũi họ.",
+      "author": "ChatGPT4.1"
+    },
+    "82755": {
+      "id": 2605661,
+      "text": "Peruggia đã thực hiện một vụ trộm đơn giản đến ngờ nghệch",
+      "author": "ChatGPT4.1"
+    },
+    "82756": {
+      "id": 2605662,
+      "text": "và có vẻ như anh ta sẽ thoát tội.",
+      "author": "ChatGPT4.1"
+    },
+    "82757": {
+      "id": 2605663,
+      "text": "Nhưng sau 2 năm giữ bức tranh làm con tin,",
+      "author": "ChatGPT4.1"
+    },
+    "82758": {
+      "id": 2605664,
+      "text": "anh ta bắt đầu mất kiên nhẫn.",
+      "author": "ChatGPT4.1"
+    },
+    "82759": {
+      "id": 2606994,
+      "text": "Anh ta đã viết một bức thư nặc danh gửi cho một nhà buôn tranh ở Florence",
+      "author": "ChatGPT4.1"
+    },
+    "82760": {
+      "id": 2606995,
+      "text": "thành phố nơi da Vinci đã vẽ kiệt tác này.",
+      "author": "ChatGPT4.1"
+    },
+    "82761": {
+      "id": 2606996,
+      "text": "Trong thư, anh ta tuyên bố đang sở hữu Mona Lisa",
+      "author": "ChatGPT4.1"
+    },
+    "82762": {
+      "id": 2606997,
+      "text": "và nói muốn trả lại nó về quê hương.",
+      "author": "ChatGPT4.1"
+    },
+    "82763": {
+      "id": 2606998,
+      "text": "Anh ta ký tên Leonardo trong thư và lên chuyến tàu tiếp theo đến Florence.",
+      "author": "ChatGPT4.1"
+    },
+    "82764": {
+      "id": 2606999,
+      "text": "Nhà buôn tranh và cộng sự đồng ý gặp Peruggia tại phòng khách sạn để xác thực bức tranh.",
+      "author": "ChatGPT4.1"
+    },
+    "82765": {
+      "id": 2607000,
+      "text": "Khi cửa đã khóa, Peruggia mở chiếc rương ra",
+      "author": "ChatGPT4.1"
+    },
+    "82766": {
+      "id": 2607001,
+      "text": "và thật bất ngờ, đó thực sự là bức tranh Mona Lisa.",
+      "author": "ChatGPT4.1"
+    },
+    "82767": {
+      "id": 2607002,
+      "text": "Để kiểm chứng thêm về bức tranh,",
+      "author": "ChatGPT4.1"
+    },
+    "82768": {
+      "id": 2607003,
+      "text": "những người buôn tranh đã mang nó về xưởng của họ",
+      "author": "ChatGPT4.1"
+    },
+    "82769": {
+      "id": 2607004,
+      "text": "và đảm bảo với Peruggia rằng anh sẽ được thưởng khi mang nó về Ý",
+      "author": "ChatGPT4.1"
+    },
+    "82770": {
+      "id": 2607005,
+      "text": "nhưng chỉ một giờ sau, cảnh sát xuất hiện trước cửa và bắt giữ anh ta.",
+      "author": "ChatGPT4.1"
+    },
+    "82771": {
+      "id": 2607006,
+      "text": "Kết quả là Peruggia chỉ phải ngồi tù 7 tháng",
+      "author": "ChatGPT4.1"
+    },
+    "82772": {
+      "id": 2607007,
+      "text": "và qua đời chỉ 10 năm sau đó.",
+      "author": "ChatGPT4.1"
+    },
+    "82773": {
+      "id": 2607008,
+      "text": "Dù cuộc truy tìm Mona Lisa đã kết thúc,",
+      "author": "ChatGPT4.1"
+    },
+    "82774": {
+      "id": 2607009,
+      "text": "sự thật về những gì thực sự đã xảy ra dường như đã chôn vùi theo xuống mồ.",
+      "author": "ChatGPT4.1"
+    },
+    "82775": {
+      "id": 2607487,
+      "text": "Nhưng vào năm 1932,",
+      "author": "ChatGPT4.1"
+    },
+    "82776": {
+      "id": 2607488,
+      "text": "một câu chuyện đã được xuất bản tiết lộ một kế hoạch tinh vi hơn nhiều đằng sau vụ trộm.",
+      "author": "ChatGPT4.1"
+    },
+    "82777": {
+      "id": 2607489,
+      "text": "Được viết bởi Karl Decker.",
+      "author": "ChatGPT4.1"
+    },
+    "82778": {
+      "id": 2607490,
+      "text": "Ông ấy khẳng định biết người thực sự đứng sau vụ trộm",
+      "author": "ChatGPT4.1"
+    },
+    "82779": {
+      "id": 2607491,
+      "text": "một người tên là Eduardo de Valfierno, một chuyên gia về làm giả nghệ thuật.",
+      "author": "ChatGPT4.1"
+    },
+    "82780": {
+      "id": 2607492,
+      "text": "Ông ta đã nghĩ ra một kế hoạch lớn để bán không chỉ một, mà sáu bản sao hoàn hảo của bức Mona Lisa cho sáu triệu phú không hề hay biết ở Mỹ.",
+      "author": "ChatGPT4.1"
+    },
+    "82781": {
+      "id": 2607493,
+      "text": "Ông ta đã thuê một họa sĩ Pháp tài ba để vẽ các bản sao",
+      "author": "ChatGPT4.1"
+    },
+    "82782": {
+      "id": 2607494,
+      "text": "và gửi chúng sang Mỹ, cất giữ vào kho.",
+      "author": "ChatGPT4.1"
+    },
+    "82783": {
+      "id": 2607495,
+      "text": "Để họ tin rằng mình thực sự sở hữu bức Mona Lisa",
+      "author": "ChatGPT4.1"
+    },
+    "82784": {
+      "id": 2607496,
+      "text": "bản gốc phải biến mất.",
+      "author": "ChatGPT4.1"
+    },
+    "82785": {
+      "id": 2607497,
+      "text": "Và vì vậy, ông ta đã thuê Peruggia để thực hiện vụ trộm.",
+      "author": "ChatGPT4.1"
+    },
+    "82786": {
+      "id": 2607498,
+      "text": "Khi tin tức về việc Mona Lisa biến mất lan rộng,",
+      "author": "ChatGPT4.1"
+    },
+    "82787": {
+      "id": 2607499,
+      "text": "các bức tranh đã được bán cho những người mua",
+      "author": "ChatGPT4.1"
+    },
+    "82788": {
+      "id": 2607500,
+      "text": "và ba người liên quan đã chuồn đi với số tiền tương đương 90 triệu đô la.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

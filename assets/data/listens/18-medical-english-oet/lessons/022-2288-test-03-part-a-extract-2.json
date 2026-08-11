@@ -1,0 +1,4306 @@
+{
+  "summary": {
+    "id": 2288,
+    "name": "Test 03 - Part A - Extract 2",
+    "subTitle": "Suspected Fibromyalgia Consultation",
+    "levelName": "C1",
+    "position": 22,
+    "totalChallenges": 67,
+    "groupId": 133,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2288",
+  "detail": {
+    "id": 2288,
+    "lessonName": "Test 03 - Part A - Extract 2",
+    "name": "Test 03 - Part A - Extract 2",
+    "position": 22,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/0-test-03-part-a-extract-2.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 90355,
+        "position": 1,
+        "content": "Hello?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello?"
+        ],
+        "solution": [
+          [
+            "Hello?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/1.mp3",
+        "timeStart": 0.58,
+        "timeEnd": 1.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90355/list"
+      },
+      {
+        "id": 90356,
+        "position": 2,
+        "content": "Come on in.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Come",
+          "on",
+          "in."
+        ],
+        "solution": [
+          [
+            "Come"
+          ],
+          [
+            "on"
+          ],
+          [
+            "in."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/2.mp3",
+        "timeStart": 1.39,
+        "timeEnd": 2.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90356/list"
+      },
+      {
+        "id": 90357,
+        "position": 3,
+        "content": "You must be Mr Royce.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "must",
+          "be",
+          "Mr",
+          "Royce."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "must"
+          ],
+          [
+            "be"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "Royce."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/3.mp3",
+        "timeStart": 2.48,
+        "timeEnd": 4.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90357/list"
+      },
+      {
+        "id": 90358,
+        "position": 4,
+        "content": "I understand that you've just signed up with the practice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "understand",
+          "that",
+          [
+            "you've",
+            "you have"
+          ],
+          "just",
+          "signed",
+          "up",
+          "with",
+          "the",
+          [
+            "practice.",
+            "practise"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "just"
+          ],
+          [
+            "signed"
+          ],
+          [
+            "up"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "practice.",
+            "practise"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/4.mp3",
+        "timeStart": 4.34,
+        "timeEnd": 6.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90358/list"
+      },
+      {
+        "id": 90359,
+        "position": 5,
+        "content": "Yeah, that's right, Mike Royce.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yeah,",
+          "that's",
+          "right,",
+          "Mike",
+          "Royce."
+        ],
+        "solution": [
+          [
+            "Yeah,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "Mike"
+          ],
+          [
+            "Royce."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/5.mp3",
+        "timeStart": 6.87,
+        "timeEnd": 8.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90359/list"
+      },
+      {
+        "id": 90360,
+        "position": 6,
+        "content": "I've joined this practice because my previous GP retired and he suggested I come here.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "joined",
+          "this",
+          [
+            "practice",
+            "practise"
+          ],
+          "because",
+          "my",
+          "previous",
+          "GP",
+          "retired",
+          "and",
+          "he",
+          "suggested",
+          "I",
+          "come",
+          "here."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "joined"
+          ],
+          [
+            "this"
+          ],
+          [
+            "practice",
+            "practise"
+          ],
+          [
+            "because"
+          ],
+          [
+            "my"
+          ],
+          [
+            "previous"
+          ],
+          [
+            "GP"
+          ],
+          [
+            "retired"
+          ],
+          [
+            "and"
+          ],
+          [
+            "he"
+          ],
+          [
+            "suggested"
+          ],
+          [
+            "I"
+          ],
+          [
+            "come"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/6.mp3",
+        "timeStart": 8.67,
+        "timeEnd": 13.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90360/list"
+      },
+      {
+        "id": 90361,
+        "position": 7,
+        "content": "Right, and I understand you've got an ongoing medical condition you're worried about.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "and",
+          "I",
+          "understand",
+          [
+            "you've",
+            "you have"
+          ],
+          "got",
+          "an",
+          "ongoing",
+          "medical",
+          "condition",
+          [
+            "you're",
+            "you are"
+          ],
+          "worried",
+          "about."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "understand"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "an"
+          ],
+          [
+            "ongoing"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "condition"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "about."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/7.mp3",
+        "timeStart": 13.14,
+        "timeEnd": 17.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90361/list"
+      },
+      {
+        "id": 90362,
+        "position": 8,
+        "content": "Perhaps you'd like to start by telling me about that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perhaps",
+          "you'd",
+          "like",
+          "to",
+          "start",
+          "by",
+          "telling",
+          "me",
+          "about",
+          "that."
+        ],
+        "solution": [
+          [
+            "Perhaps"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "start"
+          ],
+          [
+            "by"
+          ],
+          [
+            "telling"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/8.mp3",
+        "timeStart": 17.51,
+        "timeEnd": 20.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90362/list"
+      },
+      {
+        "id": 90363,
+        "position": 9,
+        "content": "How did it start?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "did",
+          "it",
+          "start?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "did"
+          ],
+          [
+            "it"
+          ],
+          [
+            "start?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/9.mp3",
+        "timeStart": 20.26,
+        "timeEnd": 21.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90363/list"
+      },
+      {
+        "id": 90364,
+        "position": 10,
+        "content": "Well, I suppose it started out as a really strong pain in my left knee.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "suppose",
+          "it",
+          "started",
+          "out",
+          "as",
+          "a",
+          "really",
+          "strong",
+          "pain",
+          "in",
+          "my",
+          "left",
+          "knee."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "suppose"
+          ],
+          [
+            "it"
+          ],
+          [
+            "started"
+          ],
+          [
+            "out"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "really"
+          ],
+          [
+            "strong"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "left"
+          ],
+          [
+            "knee."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/10.mp3",
+        "timeStart": 21.69,
+        "timeEnd": 26.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90364/list"
+      },
+      {
+        "id": 90365,
+        "position": 11,
+        "content": "I think it's called the medial meniscus... is that right?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "it's",
+          "called",
+          "the",
+          "medial",
+          "meniscus...",
+          "is",
+          "that",
+          "right?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "called"
+          ],
+          [
+            "the"
+          ],
+          [
+            "medial"
+          ],
+          [
+            "meniscus..."
+          ],
+          [
+            "is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/11.mp3",
+        "timeStart": 27.24,
+        "timeEnd": 31.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90365/list"
+      },
+      {
+        "id": 90366,
+        "position": 12,
+        "content": "It came on whenever I tried to bend the knee more than normal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "came",
+          "on",
+          "whenever",
+          "I",
+          "tried",
+          "to",
+          "bend",
+          "the",
+          "knee",
+          "more",
+          "than",
+          "normal."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "came"
+          ],
+          [
+            "on"
+          ],
+          [
+            "whenever"
+          ],
+          [
+            "I"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bend"
+          ],
+          [
+            "the"
+          ],
+          [
+            "knee"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "normal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/12.mp3",
+        "timeStart": 31.13,
+        "timeEnd": 34.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90366/list"
+      },
+      {
+        "id": 90367,
+        "position": 13,
+        "content": "Then I tripped while climbing some stairs at work and that seemed to make things worse.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "I",
+          "tripped",
+          "while",
+          "climbing",
+          "some",
+          "stairs",
+          "at",
+          "work",
+          "and",
+          "that",
+          "seemed",
+          "to",
+          "make",
+          "things",
+          "worse."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "I"
+          ],
+          [
+            "tripped"
+          ],
+          [
+            "while"
+          ],
+          [
+            "climbing"
+          ],
+          [
+            "some"
+          ],
+          [
+            "stairs"
+          ],
+          [
+            "at"
+          ],
+          [
+            "work"
+          ],
+          [
+            "and"
+          ],
+          [
+            "that"
+          ],
+          [
+            "seemed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "things"
+          ],
+          [
+            "worse."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/13.mp3",
+        "timeStart": 34.62,
+        "timeEnd": 39.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90367/list"
+      },
+      {
+        "id": 90368,
+        "position": 14,
+        "content": "I started to get these very tender bumps all over the back of the knee.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "started",
+          "to",
+          "get",
+          "these",
+          "very",
+          "tender",
+          "bumps",
+          "all",
+          "over",
+          "the",
+          "back",
+          "of",
+          "the",
+          "knee."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "these"
+          ],
+          [
+            "very"
+          ],
+          [
+            "tender"
+          ],
+          [
+            "bumps"
+          ],
+          [
+            "all"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "back"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "knee."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/14.mp3",
+        "timeStart": 39.44,
+        "timeEnd": 43.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90368/list"
+      },
+      {
+        "id": 90369,
+        "position": 15,
+        "content": "They were very painful, even just lightly touching them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "were",
+          "very",
+          "painful,",
+          "even",
+          "just",
+          "lightly",
+          "touching",
+          "them."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "were"
+          ],
+          [
+            "very"
+          ],
+          [
+            "painful,"
+          ],
+          [
+            "even"
+          ],
+          [
+            "just"
+          ],
+          [
+            "lightly"
+          ],
+          [
+            "touching"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/15.mp3",
+        "timeStart": 43.87,
+        "timeEnd": 47.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90369/list"
+      },
+      {
+        "id": 90370,
+        "position": 16,
+        "content": "The doctor called them trigger points.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "doctor",
+          "called",
+          "them",
+          "trigger",
+          "points."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "called"
+          ],
+          [
+            "them"
+          ],
+          [
+            "trigger"
+          ],
+          [
+            "points."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/16.mp3",
+        "timeStart": 47.01,
+        "timeEnd": 50.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90370/list"
+      },
+      {
+        "id": 90371,
+        "position": 17,
+        "content": "They're called that because pain frequently radiates out from them when touched.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They're",
+            "They are"
+          ],
+          "called",
+          "that",
+          "because",
+          "pain",
+          "frequently",
+          "radiates",
+          "out",
+          "from",
+          "them",
+          "when",
+          "touched."
+        ],
+        "solution": [
+          [
+            "They're",
+            "They are"
+          ],
+          [
+            "called"
+          ],
+          [
+            "that"
+          ],
+          [
+            "because"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "frequently"
+          ],
+          [
+            "radiates"
+          ],
+          [
+            "out"
+          ],
+          [
+            "from"
+          ],
+          [
+            "them"
+          ],
+          [
+            "when"
+          ],
+          [
+            "touched."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/17.mp3",
+        "timeStart": 50.48,
+        "timeEnd": 55.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90371/list"
+      },
+      {
+        "id": 90372,
+        "position": 18,
+        "content": "And how did that affect you day to day?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "how",
+          "did",
+          "that",
+          "affect",
+          "you",
+          "day",
+          "to",
+          "day?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "how"
+          ],
+          [
+            "did"
+          ],
+          [
+            "that"
+          ],
+          [
+            "affect"
+          ],
+          [
+            "you"
+          ],
+          [
+            "day"
+          ],
+          [
+            "to"
+          ],
+          [
+            "day?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/18.mp3",
+        "timeStart": 55.09,
+        "timeEnd": 57.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90372/list"
+      },
+      {
+        "id": 90373,
+        "position": 19,
+        "content": "Well, I went back to work after a week or so,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "went",
+          "back",
+          "to",
+          "work",
+          "after",
+          "a",
+          "week",
+          "or",
+          "so,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "went"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work"
+          ],
+          [
+            "after"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week"
+          ],
+          [
+            "or"
+          ],
+          [
+            "so,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/19.mp3",
+        "timeStart": 57.31,
+        "timeEnd": 60.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90373/list"
+      },
+      {
+        "id": 90374,
+        "position": 20,
+        "content": "but I was still having knee problems.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "was",
+          "still",
+          "having",
+          "knee",
+          "problems."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "still"
+          ],
+          [
+            "having"
+          ],
+          [
+            "knee"
+          ],
+          [
+            "problems."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/20.mp3",
+        "timeStart": 60.15,
+        "timeEnd": 62.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90374/list"
+      },
+      {
+        "id": 90375,
+        "position": 21,
+        "content": "I couldn't really squat properly or climb ladders.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "couldn't",
+            "could not"
+          ],
+          "really",
+          "squat",
+          "properly",
+          "or",
+          "climb",
+          "ladders."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "couldn't",
+            "could not"
+          ],
+          [
+            "really"
+          ],
+          [
+            "squat"
+          ],
+          [
+            "properly"
+          ],
+          [
+            "or"
+          ],
+          [
+            "climb"
+          ],
+          [
+            "ladders."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/21.mp3",
+        "timeStart": 62.47,
+        "timeEnd": 65.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90375/list"
+      },
+      {
+        "id": 90376,
+        "position": 22,
+        "content": "That's important in my job; I'm a painter, you know.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          "important",
+          "in",
+          "my",
+          "job;",
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "painter,",
+          "you",
+          "know."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "important"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "job;"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "painter,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/22.mp3",
+        "timeStart": 65.51,
+        "timeEnd": 68.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90376/list"
+      },
+      {
+        "id": 90377,
+        "position": 23,
+        "content": "And I'm always having to get into awkward positions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "I'm",
+            "I am"
+          ],
+          "always",
+          "having",
+          "to",
+          "get",
+          "into",
+          "awkward",
+          "positions."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "always"
+          ],
+          [
+            "having"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "into"
+          ],
+          [
+            "awkward"
+          ],
+          [
+            "positions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/23.mp3",
+        "timeStart": 68.1,
+        "timeEnd": 70.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90377/list"
+      },
+      {
+        "id": 90378,
+        "position": 24,
+        "content": "Anyway, I kept going back to my old GP explaining that I still had severe pain whenever I tried to bend my knee.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anyway,",
+          "I",
+          "kept",
+          "going",
+          "back",
+          "to",
+          "my",
+          "old",
+          "GP",
+          "explaining",
+          "that",
+          "I",
+          "still",
+          "had",
+          "severe",
+          "pain",
+          "whenever",
+          "I",
+          "tried",
+          "to",
+          "bend",
+          "my",
+          "knee."
+        ],
+        "solution": [
+          [
+            "Anyway,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "kept"
+          ],
+          [
+            "going"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "my"
+          ],
+          [
+            "old"
+          ],
+          [
+            "GP"
+          ],
+          [
+            "explaining"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "still"
+          ],
+          [
+            "had"
+          ],
+          [
+            "severe"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "whenever"
+          ],
+          [
+            "I"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bend"
+          ],
+          [
+            "my"
+          ],
+          [
+            "knee."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/24.mp3",
+        "timeStart": 70.76,
+        "timeEnd": 77.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90378/list"
+      },
+      {
+        "id": 90379,
+        "position": 25,
+        "content": "He gave me all these exercises to do and I tried doing them, I really did.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "gave",
+          "me",
+          "all",
+          "these",
+          "exercises",
+          "to",
+          "do",
+          "and",
+          "I",
+          "tried",
+          "doing",
+          "them,",
+          "I",
+          "really",
+          "did."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "me"
+          ],
+          [
+            "all"
+          ],
+          [
+            "these"
+          ],
+          [
+            "exercises"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "them,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "did."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/25.mp3",
+        "timeStart": 77.82,
+        "timeEnd": 81.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90379/list"
+      },
+      {
+        "id": 90380,
+        "position": 26,
+        "content": "I made sure I did gentle stretches before I did anything more energetic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "made",
+          "sure",
+          "I",
+          "did",
+          "gentle",
+          "stretches",
+          "before",
+          "I",
+          "did",
+          "anything",
+          "more",
+          "energetic."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "made"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "I"
+          ],
+          [
+            "did"
+          ],
+          [
+            "gentle"
+          ],
+          [
+            "stretches"
+          ],
+          [
+            "before"
+          ],
+          [
+            "I"
+          ],
+          [
+            "did"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "more"
+          ],
+          [
+            "energetic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/26.mp3",
+        "timeStart": 81.75,
+        "timeEnd": 86.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90380/list"
+      },
+      {
+        "id": 90381,
+        "position": 27,
+        "content": "Everything really.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Everything",
+          "really."
+        ],
+        "solution": [
+          [
+            "Everything"
+          ],
+          [
+            "really."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/27.mp3",
+        "timeStart": 86.06,
+        "timeEnd": 87.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90381/list"
+      },
+      {
+        "id": 90382,
+        "position": 28,
+        "content": "I tried resting like he told me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "tried",
+          "resting",
+          "like",
+          "he",
+          "told",
+          "me."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "resting"
+          ],
+          [
+            "like"
+          ],
+          [
+            "he"
+          ],
+          [
+            "told"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/28.mp3",
+        "timeStart": 87.31,
+        "timeEnd": 89.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90382/list"
+      },
+      {
+        "id": 90383,
+        "position": 29,
+        "content": "I used ice packs when it got sore.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "used",
+          "ice",
+          "packs",
+          "when",
+          "it",
+          "got",
+          "sore."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "used"
+          ],
+          [
+            "ice"
+          ],
+          [
+            "packs"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it"
+          ],
+          [
+            "got"
+          ],
+          [
+            "sore."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/29.mp3",
+        "timeStart": 89.33,
+        "timeEnd": 92.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90383/list"
+      },
+      {
+        "id": 90384,
+        "position": 30,
+        "content": "But nothing really worked.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "nothing",
+          "really",
+          "worked."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "nothing"
+          ],
+          [
+            "really"
+          ],
+          [
+            "worked."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/30.mp3",
+        "timeStart": 92.03,
+        "timeEnd": 93.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90384/list"
+      },
+      {
+        "id": 90385,
+        "position": 31,
+        "content": "Right, I see.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/31.mp3",
+        "timeStart": 93.58,
+        "timeEnd": 94.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90385/list"
+      },
+      {
+        "id": 90386,
+        "position": 32,
+        "content": "But then the doctor decided I might be suffering from tendinitis.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "then",
+          "the",
+          "doctor",
+          "decided",
+          "I",
+          "might",
+          "be",
+          "suffering",
+          "from",
+          "tendinitis."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "then"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "decided"
+          ],
+          [
+            "I"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "suffering"
+          ],
+          [
+            "from"
+          ],
+          [
+            "tendinitis."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/32.mp3",
+        "timeStart": 95.41,
+        "timeEnd": 98.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90386/list"
+      },
+      {
+        "id": 90387,
+        "position": 33,
+        "content": "So he sent me for some rehab work in the hospital.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "he",
+          "sent",
+          "me",
+          "for",
+          "some",
+          "rehab",
+          "work",
+          "in",
+          "the",
+          "hospital."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "he"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "me"
+          ],
+          [
+            "for"
+          ],
+          [
+            "some"
+          ],
+          [
+            "rehab"
+          ],
+          [
+            "work"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hospital."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/33.mp3",
+        "timeStart": 98.81,
+        "timeEnd": 102.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90387/list"
+      },
+      {
+        "id": 90388,
+        "position": 34,
+        "content": "That actually did seem to work, at least at first.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "actually",
+          "did",
+          "seem",
+          "to",
+          "work,",
+          "at",
+          "least",
+          "at",
+          [
+            "first.",
+            "1st"
+          ]
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "did"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "least"
+          ],
+          [
+            "at"
+          ],
+          [
+            "first.",
+            "1st"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/34.mp3",
+        "timeStart": 102.13,
+        "timeEnd": 105.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90388/list"
+      },
+      {
+        "id": 90389,
+        "position": 35,
+        "content": "But I'm guessing not for long.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          [
+            "I'm",
+            "I am"
+          ],
+          "guessing",
+          "not",
+          "for",
+          "long."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "guessing"
+          ],
+          [
+            "not"
+          ],
+          [
+            "for"
+          ],
+          [
+            "long."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/35.mp3",
+        "timeStart": 105.41,
+        "timeEnd": 106.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90389/list"
+      },
+      {
+        "id": 90390,
+        "position": 36,
+        "content": "Right, the problem came back.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "the",
+          "problem",
+          "came",
+          "back."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "came"
+          ],
+          [
+            "back."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/36.mp3",
+        "timeStart": 106.95,
+        "timeEnd": 109.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90390/list"
+      },
+      {
+        "id": 90391,
+        "position": 37,
+        "content": "I kept telling the doctor that my knee still wasn't healed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "kept",
+          "telling",
+          "the",
+          "doctor",
+          "that",
+          "my",
+          "knee",
+          "still",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "healed."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "kept"
+          ],
+          [
+            "telling"
+          ],
+          [
+            "the"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "that"
+          ],
+          [
+            "my"
+          ],
+          [
+            "knee"
+          ],
+          [
+            "still"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "healed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/37.mp3",
+        "timeStart": 109.21,
+        "timeEnd": 112.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90391/list"
+      },
+      {
+        "id": 90392,
+        "position": 38,
+        "content": "But it was actually my physiotherapist in the hospital, rather than my old GP,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "it",
+          "was",
+          "actually",
+          "my",
+          "physiotherapist",
+          "in",
+          "the",
+          "hospital,",
+          "rather",
+          "than",
+          "my",
+          "old",
+          "GP,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "my"
+          ],
+          [
+            "physiotherapist"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hospital,"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "my"
+          ],
+          [
+            "old"
+          ],
+          [
+            "GP,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/38.mp3",
+        "timeStart": 112.45,
+        "timeEnd": 117.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90392/list"
+      },
+      {
+        "id": 90393,
+        "position": 39,
+        "content": "who noticed that something was wrong with my muscles.",
+        "defaultInput": "",
+        "jsonContent": [
+          "who",
+          "noticed",
+          "that",
+          "something",
+          "was",
+          "wrong",
+          "with",
+          "my",
+          "muscles."
+        ],
+        "solution": [
+          [
+            "who"
+          ],
+          [
+            "noticed"
+          ],
+          [
+            "that"
+          ],
+          [
+            "something"
+          ],
+          [
+            "was"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "muscles."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/39.mp3",
+        "timeStart": 117.26,
+        "timeEnd": 119.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90393/list"
+      },
+      {
+        "id": 90394,
+        "position": 40,
+        "content": "He wouldn't say what it was,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "say",
+          "what",
+          "it",
+          "was,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "say"
+          ],
+          [
+            "what"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/40.mp3",
+        "timeStart": 120.05,
+        "timeEnd": 121.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90394/list"
+      },
+      {
+        "id": 90395,
+        "position": 41,
+        "content": "but I knew something was up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I",
+          "knew",
+          "something",
+          "was",
+          "up."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "knew"
+          ],
+          [
+            "something"
+          ],
+          [
+            "was"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/41.mp3",
+        "timeStart": 122.03,
+        "timeEnd": 124.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90395/list"
+      },
+      {
+        "id": 90396,
+        "position": 42,
+        "content": "He was doing myofascial release on my hamstrings and I was in agony.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "was",
+          "doing",
+          "myofascial",
+          "release",
+          "on",
+          "my",
+          "hamstrings",
+          "and",
+          "I",
+          "was",
+          "in",
+          "agony."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "was"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "myofascial"
+          ],
+          [
+            "release"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hamstrings"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "in"
+          ],
+          [
+            "agony."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/42.mp3",
+        "timeStart": 124.19,
+        "timeEnd": 128.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90396/list"
+      },
+      {
+        "id": 90397,
+        "position": 43,
+        "content": "Right, so did you go back to your GP?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "so",
+          "did",
+          "you",
+          "go",
+          "back",
+          "to",
+          "your",
+          "GP?"
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "go"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "GP?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/43.mp3",
+        "timeStart": 129.02,
+        "timeEnd": 131.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90397/list"
+      },
+      {
+        "id": 90398,
+        "position": 44,
+        "content": "I did, but he didn't know what I should do about it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "did,",
+          "but",
+          "he",
+          [
+            "didn't",
+            "did not"
+          ],
+          "know",
+          "what",
+          "I",
+          "should",
+          "do",
+          "about",
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "did,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "he"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "do"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/44.mp3",
+        "timeStart": 131.41,
+        "timeEnd": 134.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90398/list"
+      },
+      {
+        "id": 90399,
+        "position": 45,
+        "content": "So I left feeling completely fed up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "I",
+          "left",
+          "feeling",
+          "completely",
+          "fed",
+          "up."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "I"
+          ],
+          [
+            "left"
+          ],
+          [
+            "feeling"
+          ],
+          [
+            "completely"
+          ],
+          [
+            "fed"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/45.mp3",
+        "timeStart": 134.8,
+        "timeEnd": 137.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90399/list"
+      },
+      {
+        "id": 90400,
+        "position": 46,
+        "content": "That's one of the reasons I decided to come here.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "reasons",
+          "I",
+          "decided",
+          "to",
+          "come",
+          "here."
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reasons"
+          ],
+          [
+            "I"
+          ],
+          [
+            "decided"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "here."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/46.mp3",
+        "timeStart": 137.3,
+        "timeEnd": 139.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90400/list"
+      },
+      {
+        "id": 90401,
+        "position": 47,
+        "content": "I just feel like nobody's taking this seriously.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          "feel",
+          "like",
+          "nobody's",
+          "taking",
+          "this",
+          "seriously."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "like"
+          ],
+          [
+            "nobody's"
+          ],
+          [
+            "taking"
+          ],
+          [
+            "this"
+          ],
+          [
+            "seriously."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/47.mp3",
+        "timeStart": 139.84,
+        "timeEnd": 142.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90401/list"
+      },
+      {
+        "id": 90402,
+        "position": 48,
+        "content": "I think it's affecting my life in lots of other ways too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "it's",
+          "affecting",
+          "my",
+          "life",
+          "in",
+          "lots",
+          "of",
+          "other",
+          "ways",
+          "too."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "affecting"
+          ],
+          [
+            "my"
+          ],
+          [
+            "life"
+          ],
+          [
+            "in"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "of"
+          ],
+          [
+            "other"
+          ],
+          [
+            "ways"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/48.mp3",
+        "timeStart": 142.53,
+        "timeEnd": 145.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90402/list"
+      },
+      {
+        "id": 90403,
+        "position": 49,
+        "content": "The worry's giving me insomnia for one thing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "worry's",
+          "giving",
+          "me",
+          "insomnia",
+          "for",
+          [
+            "one",
+            "1"
+          ],
+          "thing."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "worry's"
+          ],
+          [
+            "giving"
+          ],
+          [
+            "me"
+          ],
+          [
+            "insomnia"
+          ],
+          [
+            "for"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "thing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/49.mp3",
+        "timeStart": 145.63,
+        "timeEnd": 148.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90403/list"
+      },
+      {
+        "id": 90404,
+        "position": 50,
+        "content": "I don't think I have actual depression, but I certainly suffer from constant anxiety about when it's going to flare up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          [
+            "I have",
+            "I've"
+          ],
+          "actual",
+          "depression,",
+          "but",
+          "I",
+          "certainly",
+          "suffer",
+          "from",
+          "constant",
+          "anxiety",
+          "about",
+          "when",
+          "it's",
+          [
+            "going to",
+            "gonna"
+          ],
+          "flare",
+          "up."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "actual"
+          ],
+          [
+            "depression,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "certainly"
+          ],
+          [
+            "suffer"
+          ],
+          [
+            "from"
+          ],
+          [
+            "constant"
+          ],
+          [
+            "anxiety"
+          ],
+          [
+            "about"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "flare"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/50.mp3",
+        "timeStart": 148.59,
+        "timeEnd": 155.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90404/list"
+      },
+      {
+        "id": 90405,
+        "position": 51,
+        "content": "Is there anything that you're particularly worried you might have?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "there",
+          "anything",
+          "that",
+          [
+            "you're",
+            "you are"
+          ],
+          "particularly",
+          "worried",
+          "you",
+          "might",
+          "have?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "you"
+          ],
+          [
+            "might"
+          ],
+          [
+            "have?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/51.mp3",
+        "timeStart": 155.31,
+        "timeEnd": 159.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90405/list"
+      },
+      {
+        "id": 90406,
+        "position": 52,
+        "content": "Well, I've researched this pain I'm getting.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I've",
+            "I have"
+          ],
+          "researched",
+          "this",
+          "pain",
+          [
+            "I'm",
+            "I am"
+          ],
+          "getting."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "researched"
+          ],
+          [
+            "this"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "getting."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/52.mp3",
+        "timeStart": 159.83,
+        "timeEnd": 162.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90406/list"
+      },
+      {
+        "id": 90407,
+        "position": 53,
+        "content": "To be honest, I'm convinced I've got fibromyalgia,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "be",
+          "honest,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "convinced",
+          [
+            "I've",
+            "I have"
+          ],
+          "got",
+          "fibromyalgia,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "be"
+          ],
+          [
+            "honest,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "convinced"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "fibromyalgia,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/53.mp3",
+        "timeStart": 162.13,
+        "timeEnd": 166.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90407/list"
+      },
+      {
+        "id": 90408,
+        "position": 54,
+        "content": "not just some simple muscle problem, because I fit most of the symptoms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "not",
+          "just",
+          "some",
+          "simple",
+          "muscle",
+          "problem,",
+          "because",
+          "I",
+          "fit",
+          "most",
+          "of",
+          "the",
+          "symptoms."
+        ],
+        "solution": [
+          [
+            "not"
+          ],
+          [
+            "just"
+          ],
+          [
+            "some"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "muscle"
+          ],
+          [
+            "problem,"
+          ],
+          [
+            "because"
+          ],
+          [
+            "I"
+          ],
+          [
+            "fit"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "symptoms."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/54.mp3",
+        "timeStart": 166.68,
+        "timeEnd": 171.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90408/list"
+      },
+      {
+        "id": 90409,
+        "position": 55,
+        "content": "And I've had pain absolutely everywhere.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          [
+            "I've",
+            "I have"
+          ],
+          "had",
+          "pain",
+          "absolutely",
+          "everywhere."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "had"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "absolutely"
+          ],
+          [
+            "everywhere."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/55.mp3",
+        "timeStart": 171.21,
+        "timeEnd": 173.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90409/list"
+      },
+      {
+        "id": 90410,
+        "position": 56,
+        "content": "Look, I've even kept a pain diary so that I could track what I did that set it off.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Look,",
+          [
+            "I've",
+            "I have"
+          ],
+          "even",
+          "kept",
+          "a",
+          "pain",
+          "diary",
+          "so",
+          "that",
+          "I",
+          "could",
+          "track",
+          "what",
+          "I",
+          "did",
+          "that",
+          "set",
+          "it",
+          "off."
+        ],
+        "solution": [
+          [
+            "Look,"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "even"
+          ],
+          [
+            "kept"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "diary"
+          ],
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "track"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I"
+          ],
+          [
+            "did"
+          ],
+          [
+            "that"
+          ],
+          [
+            "set"
+          ],
+          [
+            "it"
+          ],
+          [
+            "off."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/56.mp3",
+        "timeStart": 174.18,
+        "timeEnd": 179.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90410/list"
+      },
+      {
+        "id": 90411,
+        "position": 57,
+        "content": "You know, the weather, if I was working or not, where it was affecting me, what it felt like.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "know,",
+          "the",
+          "weather,",
+          "if",
+          "I",
+          "was",
+          "working",
+          "or",
+          "not,",
+          "where",
+          "it",
+          "was",
+          "affecting",
+          "me,",
+          "what",
+          "it",
+          "felt",
+          "like."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "weather,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "working"
+          ],
+          [
+            "or"
+          ],
+          [
+            "not,"
+          ],
+          [
+            "where"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "affecting"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "it"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "like."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/57.mp3",
+        "timeStart": 179.75,
+        "timeEnd": 185.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90411/list"
+      },
+      {
+        "id": 90412,
+        "position": 58,
+        "content": "I figured out from this that it's usually in the same places that I mentioned earlier,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "figured",
+          "out",
+          "from",
+          "this",
+          "that",
+          "it's",
+          "usually",
+          "in",
+          "the",
+          "same",
+          "places",
+          "that",
+          "I",
+          "mentioned",
+          "earlier,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "figured"
+          ],
+          [
+            "out"
+          ],
+          [
+            "from"
+          ],
+          [
+            "this"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "places"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "earlier,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/58.mp3",
+        "timeStart": 185.8,
+        "timeEnd": 190.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90412/list"
+      },
+      {
+        "id": 90413,
+        "position": 59,
+        "content": "plus some newish places too.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "plus",
+            "+"
+          ],
+          "some",
+          "newish",
+          "places",
+          "too."
+        ],
+        "solution": [
+          [
+            "plus",
+            "+"
+          ],
+          [
+            "some"
+          ],
+          [
+            "newish"
+          ],
+          [
+            "places"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/59.mp3",
+        "timeStart": 190.39,
+        "timeEnd": 192.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90413/list"
+      },
+      {
+        "id": 90414,
+        "position": 60,
+        "content": "My shoulders and elbows.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "shoulders",
+          "and",
+          "elbows."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "shoulders"
+          ],
+          [
+            "and"
+          ],
+          [
+            "elbows."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/60.mp3",
+        "timeStart": 192.59,
+        "timeEnd": 194.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90414/list"
+      },
+      {
+        "id": 90415,
+        "position": 61,
+        "content": "And I know that my knee's actually one of the more tender points for it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "know",
+          "that",
+          "my",
+          "knee's",
+          "actually",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "the",
+          "more",
+          "tender",
+          "points",
+          "for",
+          "it."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "my"
+          ],
+          [
+            "knee's"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "more"
+          ],
+          [
+            "tender"
+          ],
+          [
+            "points"
+          ],
+          [
+            "for"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/61.mp3",
+        "timeStart": 194.15,
+        "timeEnd": 197.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90415/list"
+      },
+      {
+        "id": 90416,
+        "position": 62,
+        "content": "What do you think?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "do",
+          "you",
+          "think?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/62.mp3",
+        "timeStart": 198.47,
+        "timeEnd": 199.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90416/list"
+      },
+      {
+        "id": 90417,
+        "position": 63,
+        "content": "Look, I must say from what you've told me so far that I'm concerned enough to look into that possibility.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Look,",
+          "I",
+          "must",
+          "say",
+          "from",
+          "what",
+          [
+            "you've",
+            "you have"
+          ],
+          "told",
+          "me",
+          "so",
+          "far",
+          "that",
+          [
+            "I'm",
+            "I am"
+          ],
+          "concerned",
+          "enough",
+          "to",
+          "look",
+          "into",
+          "that",
+          "possibility."
+        ],
+        "solution": [
+          [
+            "Look,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "must"
+          ],
+          [
+            "say"
+          ],
+          [
+            "from"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you've",
+            "you have"
+          ],
+          [
+            "told"
+          ],
+          [
+            "me"
+          ],
+          [
+            "so"
+          ],
+          [
+            "far"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "concerned"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "into"
+          ],
+          [
+            "that"
+          ],
+          [
+            "possibility."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/63.mp3",
+        "timeStart": 199.86,
+        "timeEnd": 205.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90417/list"
+      },
+      {
+        "id": 90418,
+        "position": 64,
+        "content": "So as a next step, we need to get you seen by a rheumatologist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "as",
+          "a",
+          "next",
+          "step,",
+          "we",
+          "need",
+          "to",
+          "get",
+          "you",
+          "seen",
+          "by",
+          "a",
+          "rheumatologist."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "next"
+          ],
+          [
+            "step,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "you"
+          ],
+          [
+            "seen"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "rheumatologist."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/64.mp3",
+        "timeStart": 205.97,
+        "timeEnd": 210.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90418/list"
+      },
+      {
+        "id": 90419,
+        "position": 65,
+        "content": "This is a notoriously difficult condition to diagnose,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "a",
+          "notoriously",
+          "difficult",
+          "condition",
+          "to",
+          "diagnose,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "notoriously"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "condition"
+          ],
+          [
+            "to"
+          ],
+          [
+            "diagnose,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/65.mp3",
+        "timeStart": 210.15,
+        "timeEnd": 213.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90419/list"
+      },
+      {
+        "id": 90420,
+        "position": 66,
+        "content": "as I'm sure you're aware, because so many of the symptoms overlap with other conditions too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          [
+            "you're",
+            "you are"
+          ],
+          "aware,",
+          "because",
+          "so",
+          "many",
+          "of",
+          "the",
+          "symptoms",
+          "overlap",
+          "with",
+          "other",
+          "conditions",
+          "too."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "aware,"
+          ],
+          [
+            "because"
+          ],
+          [
+            "so"
+          ],
+          [
+            "many"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "overlap"
+          ],
+          [
+            "with"
+          ],
+          [
+            "other"
+          ],
+          [
+            "conditions"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/66.mp3",
+        "timeStart": 213.71,
+        "timeEnd": 219.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90420/list"
+      },
+      {
+        "id": 90421,
+        "position": 67,
+        "content": "I won't be happy to be proved right, but I'll certainly be glad to get some answers at long last.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "won't",
+          "be",
+          "happy",
+          "to",
+          "be",
+          "proved",
+          "right,",
+          "but",
+          [
+            "I'll",
+            "I will"
+          ],
+          "certainly",
+          "be",
+          "glad",
+          "to",
+          "get",
+          "some",
+          "answers",
+          "at",
+          "long",
+          "last."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "be"
+          ],
+          [
+            "happy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "proved"
+          ],
+          [
+            "right,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "certainly"
+          ],
+          [
+            "be"
+          ],
+          [
+            "glad"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "some"
+          ],
+          [
+            "answers"
+          ],
+          [
+            "at"
+          ],
+          [
+            "long"
+          ],
+          [
+            "last."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-03-part-a-extract-2-2025-08-29-21-57-27/67.mp3",
+        "timeStart": 219.17,
+        "timeEnd": 224.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/90421/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "90355": {
+      "id": 3682745,
+      "text": "Xin chào?",
+      "author": "ChatGPT4.1"
+    },
+    "90356": {
+      "id": 3682746,
+      "text": "Mời vào.",
+      "author": "ChatGPT4.1"
+    },
+    "90357": {
+      "id": 3682747,
+      "text": "Chắc hẳn ông là ông Royce.",
+      "author": "ChatGPT4.1"
+    },
+    "90358": {
+      "id": 3682748,
+      "text": "Tôi được biết ông vừa đăng ký tại phòng khám này.",
+      "author": "ChatGPT4.1"
+    },
+    "90359": {
+      "id": 3682749,
+      "text": "Vâng, đúng vậy, tôi là Mike Royce.",
+      "author": "ChatGPT4.1"
+    },
+    "90360": {
+      "id": 3682750,
+      "text": "Tôi tham gia phòng khám này vì bác sĩ gia đình trước đây của tôi đã nghỉ hưu và ông ấy đề xuất tôi tới đây.",
+      "author": "ChatGPT4.1"
+    },
+    "90361": {
+      "id": 3682751,
+      "text": "Đúng vậy, và tôi được biết ông đang lo lắng về một vấn đề sức khỏe kéo dài.",
+      "author": "ChatGPT4.1"
+    },
+    "90362": {
+      "id": 3682752,
+      "text": "Có lẽ ông muốn bắt đầu bằng cách kể cho tôi nghe về điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "90363": {
+      "id": 3682753,
+      "text": "Nó bắt đầu như thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "90364": {
+      "id": 3682754,
+      "text": "Tôi đoán là nó bắt đầu bằng một cơn đau dữ dội ở đầu gối trái.",
+      "author": "a user"
+    },
+    "90365": {
+      "id": 3682755,
+      "text": "Tôi nghĩ nó được gọi là sụn chêm trong... có đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "90366": {
+      "id": 3682756,
+      "text": "Nó xuất hiện bất cứ khi nào tôi cố gắng gập đầu gối nhiều hơn bình thường.",
+      "author": "a user"
+    },
+    "90367": {
+      "id": 3682757,
+      "text": "Sau đó tôi bị vấp ngã khi leo cầu thang ở chỗ làm và điều đó dường như khiến vấn đề trở nên tồi tệ hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "90368": {
+      "id": 3682758,
+      "text": "Tôi bắt đầu nổi những cục u rất đau ở mặt sau đầu gối.",
+      "author": "a user"
+    },
+    "90369": {
+      "id": 3682759,
+      "text": "Những vết này rất đau, thậm chí chỉ cần chạm nhẹ vào cũng đau.",
+      "author": "ChatGPT4.1"
+    },
+    "90370": {
+      "id": 3682760,
+      "text": "Bác sĩ gọi chúng là các điểm kích hoạt.",
+      "author": "ChatGPT4.1"
+    },
+    "90371": {
+      "id": 3682761,
+      "text": "Chúng được gọi như vậy vì cơn đau thường lan tỏa ra từ chúng khi chạm vào.",
+      "author": "a user"
+    },
+    "90372": {
+      "id": 3682762,
+      "text": "Điều đó ảnh hưởng tới sinh hoạt hàng ngày của ông như thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "90373": {
+      "id": 3682763,
+      "text": "Chà, tôi đã đi làm lại sau khoảng một tuần,",
+      "author": "a user"
+    },
+    "90374": {
+      "id": 3682764,
+      "text": "nhưng tôi vẫn gặp vấn đề về đầu gối.",
+      "author": "a user"
+    },
+    "90375": {
+      "id": 3682765,
+      "text": "Tôi không thể ngồi xổm đúng cách hoặc leo lên thang.",
+      "author": "ChatGPT4.1"
+    },
+    "90376": {
+      "id": 3682766,
+      "text": "Điều đó rất quan trọng trong công việc của tôi; tôi là thợ sơn, ông biết đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "90377": {
+      "id": 3682767,
+      "text": "Và tôi thường phải vào các tư thế khó.",
+      "author": "ChatGPT4.1"
+    },
+    "90378": {
+      "id": 3682768,
+      "text": "Dù sao đi nữa, tôi vẫn đến gặp bác sĩ đa khoa cũ của mình và giải thích rằng tôi vẫn bị đau dữ dội mỗi khi cố gắng gập đầu gối.",
+      "author": "a user"
+    },
+    "90379": {
+      "id": 3682769,
+      "text": "Ông ấy đã cho tôi tất cả các bài tập này để làm và tôi đã cố gắng thực hiện chúng, tôi thực sự đã làm.",
+      "author": "a user"
+    },
+    "90380": {
+      "id": 3682770,
+      "text": "Tôi đảm bảo rằng mình đã thực hiện các động tác giãn cơ nhẹ nhàng trước khi thực hiện bất kỳ động tác nào mạnh hơn.",
+      "author": "a user"
+    },
+    "90381": {
+      "id": 3682771,
+      "text": "Tôi đã làm mọi thứ thực sự.",
+      "author": "ChatGPT4.1"
+    },
+    "90382": {
+      "id": 3682772,
+      "text": "Tôi cũng đã thử nghỉ ngơi như ông ấy chỉ dẫn.",
+      "author": "ChatGPT4.1"
+    },
+    "90383": {
+      "id": 3682773,
+      "text": "Tôi dùng túi đá chườm khi chỗ đó đau nhức.",
+      "author": "ChatGPT4.1"
+    },
+    "90384": {
+      "id": 3682774,
+      "text": "Nhưng không có gì thực sự hiệu quả cả.",
+      "author": "ChatGPT4.1"
+    },
+    "90385": {
+      "id": 3682775,
+      "text": "Phải, tôi hiểu rồi.",
+      "author": "a user"
+    },
+    "90386": {
+      "id": 3682776,
+      "text": "Nhưng sau đó bác sĩ cho rằng tôi có thể bị viêm gân.",
+      "author": "ChatGPT4.1"
+    },
+    "90387": {
+      "id": 3682777,
+      "text": "Vì vậy, ông ấy đã gửi tôi đến bệnh viện để tập phục hồi chức năng.",
+      "author": "a user"
+    },
+    "90388": {
+      "id": 3682778,
+      "text": "Việc đó thực sự có vẻ hiệu quả, ít nhất là ban đầu.",
+      "author": "ChatGPT4.1"
+    },
+    "90389": {
+      "id": 3682779,
+      "text": "Nhưng tôi đoán là không được bao lâu.",
+      "author": "ChatGPT4.1"
+    },
+    "90390": {
+      "id": 3682780,
+      "text": "Đúng vậy, vấn đề lại tái phát.",
+      "author": "ChatGPT4.1"
+    },
+    "90391": {
+      "id": 3682781,
+      "text": "Tôi cứ nói với bác sĩ rằng đầu gối tôi vẫn chưa lành.",
+      "author": "a user"
+    },
+    "90392": {
+      "id": 3682782,
+      "text": "Nhưng thật ra chính là chuyên viên vật lý trị liệu ở bệnh viện, chứ không phải bác sĩ gia đình cũ của tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "90393": {
+      "id": 3682783,
+      "text": "cô ấy nhận thấy có điều gì đó không ổn với các cơ của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "90394": {
+      "id": 3682784,
+      "text": "Ông ấy không nói rõ là gì,",
+      "author": "a user"
+    },
+    "90395": {
+      "id": 3682785,
+      "text": "nhưng tôi biết có chuyện gì đó không ổn.",
+      "author": "ChatGPT4.1"
+    },
+    "90396": {
+      "id": 3682786,
+      "text": "Ông ấy thực hiện thao tác giải phóng cơ mạc trên nhóm cơ gân kheo của tôi và tôi đau dữ dội.",
+      "author": "ChatGPT4.1"
+    },
+    "90397": {
+      "id": 3682787,
+      "text": "Vậy, bạn có quay lại gặp bác sĩ gia đình của mình không?",
+      "author": "ChatGPT4.1"
+    },
+    "90398": {
+      "id": 3682788,
+      "text": "Tôi có quay lại, nhưng ông ấy không biết tôi nên làm gì với nó.",
+      "author": "ChatGPT4.1"
+    },
+    "90399": {
+      "id": 3682789,
+      "text": "Vì vậy, tôi rời đi với cảm giác hoàn toàn chán nản.",
+      "author": "a user"
+    },
+    "90400": {
+      "id": 3692356,
+      "text": "Đó là một trong những lý do tôi quyết định đến đây.",
+      "author": "ChatGPT4.1"
+    },
+    "90401": {
+      "id": 3692357,
+      "text": "Tôi chỉ cảm thấy không ai coi trọng chuyện này.",
+      "author": "a user"
+    },
+    "90402": {
+      "id": 3692358,
+      "text": "Tôi nghĩ điều này cũng đang ảnh hưởng đến cuộc sống của tôi theo nhiều cách khác nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "90403": {
+      "id": 3692359,
+      "text": "Sự lo lắng khiến tôi bị mất ngủ.",
+      "author": "ChatGPT4.1"
+    },
+    "90404": {
+      "id": 3692360,
+      "text": "Tôi không nghĩ mình thực sự bị trầm cảm, nhưng tôi chắc chắn luôn lo lắng về việc khi nào nó sẽ bùng phát.",
+      "author": "a user"
+    },
+    "90405": {
+      "id": 3692361,
+      "text": "Có điều gì bạn đặc biệt lo lắng mình có thể mắc phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "90406": {
+      "id": 3692362,
+      "text": "À, tôi đã nghiên cứu về cơn đau này của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "90407": {
+      "id": 3692363,
+      "text": "Thành thật mà nói, tôi tin chắc mình bị đau cơ xơ hóa,",
+      "author": "ChatGPT4.1"
+    },
+    "90408": {
+      "id": 3692364,
+      "text": "không chỉ là một vấn đề cơ bắp đơn giản, vì tôi có hầu hết các triệu chứng.",
+      "author": "a user"
+    },
+    "90409": {
+      "id": 3692365,
+      "text": "Và tôi đã cảm thấy đau ở khắp mọi nơi.",
+      "author": "ChatGPT4.1"
+    },
+    "90410": {
+      "id": 3692366,
+      "text": "Nhìn này, tôi thậm chí còn ghi nhật ký đau để theo dõi những gì tôi đã làm khiến nó phát sinh.",
+      "author": "ChatGPT4.1"
+    },
+    "90411": {
+      "id": 3692367,
+      "text": "Bạn biết đấy, thời tiết, việc tôi có làm việc hay không, nó ảnh hưởng đến tôi ở đâu, cảm giác như thế nào.",
+      "author": "a user"
+    },
+    "90412": {
+      "id": 3692368,
+      "text": "Từ đó tôi nhận ra rằng nó thường xảy ra ở những chỗ tôi đã nhắc đến trước đó,",
+      "author": "ChatGPT4.1"
+    },
+    "90413": {
+      "id": 3692369,
+      "text": "cộng thêm một vài chỗ mới nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "90414": {
+      "id": 3692370,
+      "text": "Vai và khuỷu tay của tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "90415": {
+      "id": 3692371,
+      "text": "Và tôi biết rằng đầu gối của mình thực sự là một trong những điểm nhạy cảm hơn với nó.",
+      "author": "ChatGPT4.1"
+    },
+    "90416": {
+      "id": 3692372,
+      "text": "Bạn nghĩ sao?",
+      "author": "ChatGPT4.1"
+    },
+    "90417": {
+      "id": 3692373,
+      "text": "Này, tôi phải nói rằng từ những gì bạn đã nói với tôi cho đến nay, tôi đủ lo lắng để xem xét khả năng đó.",
+      "author": "a user"
+    },
+    "90418": {
+      "id": 3692374,
+      "text": "Vì vậy, bước tiếp theo là chúng ta cần cho bạn gặp bác sĩ chuyên khoa thấp khớp.",
+      "author": "ChatGPT4.1"
+    },
+    "90419": {
+      "id": 3692375,
+      "text": "Đây là một tình trạng nổi tiếng là rất khó chẩn đoán,",
+      "author": "ChatGPT4.1"
+    },
+    "90420": {
+      "id": 3692376,
+      "text": "tôi chắc bạn cũng biết, vì rất nhiều triệu chứng trùng lặp với các bệnh lý khác.",
+      "author": "a user"
+    },
+    "90421": {
+      "id": 3692377,
+      "text": "Tôi sẽ không vui nếu mình đoán đúng, nhưng chắc chắn tôi sẽ nhẹ nhõm khi cuối cùng cũng có được câu trả lời.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

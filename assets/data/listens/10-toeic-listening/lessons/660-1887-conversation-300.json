@@ -1,0 +1,895 @@
+{
+  "summary": {
+    "id": 1887,
+    "name": "Conversation 300",
+    "subTitle": "Scheduling a Cleaning Estimate",
+    "levelName": "B1",
+    "position": 660,
+    "totalChallenges": 16,
+    "groupId": 77,
+    "isListenAndSelect": false,
+    "isFree": false
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1887",
+  "detail": {
+    "id": 1887,
+    "lessonName": "Conversation 300",
+    "name": "Conversation 300",
+    "position": 660,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/0-conversation-300.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 71506,
+        "position": 1,
+        "content": "Thank you for contacting Swift Home Services.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you",
+          "for",
+          "contacting",
+          "Swift",
+          "Home",
+          "Services."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you"
+          ],
+          [
+            "for"
+          ],
+          [
+            "contacting"
+          ],
+          [
+            "Swift"
+          ],
+          [
+            "Home"
+          ],
+          [
+            "Services."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71506/list"
+      },
+      {
+        "id": 71507,
+        "position": 2,
+        "content": "How can I help you today?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "can",
+          "I",
+          "help",
+          "you",
+          "today?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/2.mp3",
+        "timeStart": 2.79,
+        "timeEnd": 4.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71507/list"
+      },
+      {
+        "id": 71508,
+        "position": 3,
+        "content": "I heard about your company from a friend.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "heard",
+          "about",
+          "your",
+          [
+            "company",
+            "Co"
+          ],
+          "from",
+          "a",
+          "friend."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "company",
+            "Co"
+          ],
+          [
+            "from"
+          ],
+          [
+            "a"
+          ],
+          [
+            "friend."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/3.mp3",
+        "timeStart": 4.21,
+        "timeEnd": 6.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71508/list"
+      },
+      {
+        "id": 71509,
+        "position": 4,
+        "content": "I'm interested in scheduling some cleaning.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "interested",
+          "in",
+          "scheduling",
+          "some",
+          "cleaning."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "scheduling"
+          ],
+          [
+            "some"
+          ],
+          [
+            "cleaning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/4.mp3",
+        "timeStart": 6.63,
+        "timeEnd": 9.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71509/list"
+      },
+      {
+        "id": 71510,
+        "position": 5,
+        "content": "I need my kitchen floors mopped and the countertops cleaned.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "need",
+          "my",
+          "kitchen",
+          "floors",
+          "mopped",
+          "and",
+          "the",
+          "countertops",
+          "cleaned."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "my"
+          ],
+          [
+            "kitchen"
+          ],
+          [
+            "floors"
+          ],
+          [
+            "mopped"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "countertops"
+          ],
+          [
+            "cleaned."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/5.mp3",
+        "timeStart": 9.22,
+        "timeEnd": 12.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71510/list"
+      },
+      {
+        "id": 71511,
+        "position": 6,
+        "content": "Additionally, I'm looking to have the bathrooms sanitized.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Additionally,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "looking",
+          "to",
+          "have",
+          "the",
+          "bathrooms",
+          "sanitized."
+        ],
+        "solution": [
+          [
+            "Additionally,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bathrooms"
+          ],
+          [
+            "sanitized."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/6.mp3",
+        "timeStart": 12.81,
+        "timeEnd": 16.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71511/list"
+      },
+      {
+        "id": 71512,
+        "position": 7,
+        "content": "We can definitely take care of those tasks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "can",
+          "definitely",
+          "take",
+          "care",
+          "of",
+          "those",
+          "tasks."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "can"
+          ],
+          [
+            "definitely"
+          ],
+          [
+            "take"
+          ],
+          [
+            "care"
+          ],
+          [
+            "of"
+          ],
+          [
+            "those"
+          ],
+          [
+            "tasks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/7.mp3",
+        "timeStart": 16.36,
+        "timeEnd": 18.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71512/list"
+      },
+      {
+        "id": 71513,
+        "position": 8,
+        "content": "If you're also interested in having the carpets shampooed,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you're",
+            "you are"
+          ],
+          "also",
+          "interested",
+          "in",
+          "having",
+          "the",
+          "carpets",
+          "shampooed,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "also"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "having"
+          ],
+          [
+            "the"
+          ],
+          [
+            "carpets"
+          ],
+          [
+            "shampooed,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/8.mp3",
+        "timeStart": 18.94,
+        "timeEnd": 22.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71513/list"
+      },
+      {
+        "id": 71514,
+        "position": 9,
+        "content": "that would be an additional 75 pounds.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "would",
+          "be",
+          "an",
+          "additional",
+          "75",
+          "pounds."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "an"
+          ],
+          [
+            "additional"
+          ],
+          [
+            "75"
+          ],
+          [
+            "pounds."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/9.mp3",
+        "timeStart": 22.17,
+        "timeEnd": 25.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71514/list"
+      },
+      {
+        "id": 71515,
+        "position": 10,
+        "content": "I appreciate the offer, but I'm just looking for basic cleaning at the moment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "appreciate",
+          "the",
+          "offer,",
+          "but",
+          [
+            "I'm",
+            "I am"
+          ],
+          "just",
+          "looking",
+          "for",
+          "basic",
+          "cleaning",
+          "at",
+          "the",
+          "moment."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "the"
+          ],
+          [
+            "offer,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "just"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for"
+          ],
+          [
+            "basic"
+          ],
+          [
+            "cleaning"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "moment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/10.mp3",
+        "timeStart": 25.35,
+        "timeEnd": 29.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71515/list"
+      },
+      {
+        "id": 71516,
+        "position": 11,
+        "content": "No problem at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "problem",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/11.mp3",
+        "timeStart": 29.72,
+        "timeEnd": 31.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71516/list"
+      },
+      {
+        "id": 71517,
+        "position": 12,
+        "content": "The next step would be to arrange an in-home estimate,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "next",
+          "step",
+          "would",
+          "be",
+          "to",
+          "arrange",
+          "an",
+          [
+            "in-home",
+            "in home"
+          ],
+          "estimate,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "next"
+          ],
+          [
+            "step"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "to"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "an"
+          ],
+          [
+            "in-home",
+            "in home"
+          ],
+          [
+            "estimate,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/12.mp3",
+        "timeStart": 31.2,
+        "timeEnd": 34.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71517/list"
+      },
+      {
+        "id": 71518,
+        "position": 13,
+        "content": "as our pricing is based on the size of the area to be cleaned.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "our",
+          "pricing",
+          "is",
+          "based",
+          "on",
+          "the",
+          "size",
+          "of",
+          "the",
+          "area",
+          "to",
+          "be",
+          "cleaned."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "our"
+          ],
+          [
+            "pricing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "based"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "size"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "cleaned."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/13.mp3",
+        "timeStart": 34.47,
+        "timeEnd": 37.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71518/list"
+      },
+      {
+        "id": 71519,
+        "position": 14,
+        "content": "Would sometime next week suit you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "sometime",
+          "next",
+          "week",
+          "suit",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "sometime"
+          ],
+          [
+            "next"
+          ],
+          [
+            "week"
+          ],
+          [
+            "suit"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/14.mp3",
+        "timeStart": 37.98,
+        "timeEnd": 40.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71519/list"
+      },
+      {
+        "id": 71520,
+        "position": 15,
+        "content": "Yes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/15.mp3",
+        "timeStart": 40.19,
+        "timeEnd": 40.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71520/list"
+      },
+      {
+        "id": 71521,
+        "position": 16,
+        "content": "Thursday at 10 am would be ideal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thursday",
+          "at",
+          [
+            "10",
+            "ten"
+          ],
+          "am",
+          "would",
+          "be",
+          "ideal."
+        ],
+        "solution": [
+          [
+            "Thursday"
+          ],
+          [
+            "at"
+          ],
+          [
+            "10",
+            "ten"
+          ],
+          [
+            "am"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ideal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-300-2024-11-20-22-17-54/16.mp3",
+        "timeStart": 41.15,
+        "timeEnd": 43.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71521/list"
+      }
+    ],
+    "translations": {},
+    "isFree": false
+  },
+  "translations": {
+    "71506": {
+      "id": 2583703,
+      "text": "Cảm ơn bạn đã liên hệ với Swift Home Services.",
+      "author": "ChatGPT4.1"
+    },
+    "71507": {
+      "id": 2583704,
+      "text": "Tôi có thể giúp gì cho bạn hôm nay?",
+      "author": "ChatGPT4.1"
+    },
+    "71508": {
+      "id": 2583705,
+      "text": "Tôi đã nghe về công ty của bạn từ một người bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "71509": {
+      "id": 2583706,
+      "text": "Tôi quan tâm đến việc đặt lịch cho một số dịch vụ dọn dẹp.",
+      "author": "ChatGPT4.1"
+    },
+    "71510": {
+      "id": 2583707,
+      "text": "Tôi cần lau sàn bếp và làm sạch mặt bếp.",
+      "author": "ChatGPT4.1"
+    },
+    "71511": {
+      "id": 2583708,
+      "text": "Ngoài ra, tôi muốn các phòng tắm được khử trùng.",
+      "author": "ChatGPT4.1"
+    },
+    "71512": {
+      "id": 2583709,
+      "text": "Chúng tôi chắc chắn có thể thực hiện những công việc đó.",
+      "author": "ChatGPT4.1"
+    },
+    "71513": {
+      "id": 2583710,
+      "text": "Nếu bạn cũng muốn giặt thảm,",
+      "author": "ChatGPT4.1"
+    },
+    "71514": {
+      "id": 2583711,
+      "text": "chi phí đó sẽ là thêm 75 bảng Anh.",
+      "author": "ChatGPT4.1"
+    },
+    "71515": {
+      "id": 2583712,
+      "text": "Tôi cảm ơn lời đề nghị, nhưng hiện tại tôi chỉ cần dọn dẹp cơ bản.",
+      "author": "ChatGPT4.1"
+    },
+    "71516": {
+      "id": 2583713,
+      "text": "Không vấn đề gì cả.",
+      "author": "ChatGPT4.1"
+    },
+    "71517": {
+      "id": 2583714,
+      "text": "Bước tiếp theo sẽ là sắp xếp một buổi ước tính tại nhà,",
+      "author": "ChatGPT4.1"
+    },
+    "71518": {
+      "id": 2583715,
+      "text": "vì giá của chúng tôi dựa trên diện tích cần làm sạch.",
+      "author": "ChatGPT4.1"
+    },
+    "71519": {
+      "id": 2583716,
+      "text": "Tuần sau bạn có tiện không?",
+      "author": "ChatGPT4.1"
+    },
+    "71520": {
+      "id": 2583717,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "71521": {
+      "id": 2583718,
+      "text": "10 giờ sáng thứ Năm sẽ là lý tưởng.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

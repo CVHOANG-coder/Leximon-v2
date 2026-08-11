@@ -1,0 +1,653 @@
+{
+  "summary": {
+    "id": 1486,
+    "name": "Conversation 9",
+    "subTitle": "Returning Tight Shoes",
+    "levelName": "B1",
+    "position": 66,
+    "totalChallenges": 12,
+    "groupId": 31,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1486",
+  "detail": {
+    "id": 1486,
+    "lessonName": "Conversation 9",
+    "name": "Conversation 9",
+    "position": 66,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/0-conversation-9.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 64192,
+        "position": 1,
+        "content": "Hi, this is Christina.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "this",
+          "is",
+          "Christina."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Christina."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/1.mp3",
+        "timeStart": 0.46,
+        "timeEnd": 2.05,
+        "hints": [
+          "Christina"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64192/list"
+      },
+      {
+        "id": 64193,
+        "position": 2,
+        "content": "I bought a pair of dress shoes from your online store,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "bought",
+          "a",
+          "pair",
+          "of",
+          "dress",
+          "shoes",
+          "from",
+          "your",
+          "online",
+          "store,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "bought"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pair"
+          ],
+          [
+            "of"
+          ],
+          [
+            "dress"
+          ],
+          [
+            "shoes"
+          ],
+          [
+            "from"
+          ],
+          [
+            "your"
+          ],
+          [
+            "online"
+          ],
+          [
+            "store,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/2.mp3",
+        "timeStart": 2.05,
+        "timeEnd": 4.9,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/64193/list"
+      },
+      {
+        "id": 64194,
+        "position": 3,
+        "content": "but they're too tight because I got narrow width instead of medium.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "they're",
+            "they are"
+          ],
+          "too",
+          "tight",
+          "because",
+          "I",
+          "got",
+          "narrow",
+          "width",
+          "instead",
+          "of",
+          "medium."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "too"
+          ],
+          [
+            "tight"
+          ],
+          [
+            "because"
+          ],
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "narrow"
+          ],
+          [
+            "width"
+          ],
+          [
+            "instead"
+          ],
+          [
+            "of"
+          ],
+          [
+            "medium."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/3.mp3",
+        "timeStart": 4.9,
+        "timeEnd": 8.39,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/64194/list"
+      },
+      {
+        "id": 64195,
+        "position": 4,
+        "content": "What can I do?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "can",
+          "I",
+          "do?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "do?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/4.mp3",
+        "timeStart": 8.39,
+        "timeEnd": 9.59,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/64195/list"
+      },
+      {
+        "id": 64196,
+        "position": 5,
+        "content": "Sorry about that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sorry",
+          "about",
+          "that."
+        ],
+        "solution": [
+          [
+            "Sorry"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/5.mp3",
+        "timeStart": 9.59,
+        "timeEnd": 10.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64196/list"
+      },
+      {
+        "id": 64197,
+        "position": 6,
+        "content": "Shoes do stretch with wear,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Shoes",
+          "do",
+          "stretch",
+          "with",
+          "wear,"
+        ],
+        "solution": [
+          [
+            "Shoes"
+          ],
+          [
+            "do"
+          ],
+          [
+            "stretch"
+          ],
+          [
+            "with"
+          ],
+          [
+            "wear,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/6.mp3",
+        "timeStart": 10.83,
+        "timeEnd": 12.73,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/64197/list"
+      },
+      {
+        "id": 64198,
+        "position": 7,
+        "content": "but you can return them by mail or at one of our outlets.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "you",
+          "can",
+          "return",
+          "them",
+          "by",
+          "mail",
+          "or",
+          "at",
+          [
+            "one",
+            "1"
+          ],
+          "of",
+          "our",
+          "outlets."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "return"
+          ],
+          [
+            "them"
+          ],
+          [
+            "by"
+          ],
+          [
+            "mail"
+          ],
+          [
+            "or"
+          ],
+          [
+            "at"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "outlets."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/7.mp3",
+        "timeStart": 12.73,
+        "timeEnd": 16,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/64198/list"
+      },
+      {
+        "id": 64199,
+        "position": 8,
+        "content": "Driving across town is too much hassle for me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Driving",
+          "across",
+          "town",
+          "is",
+          "too",
+          "much",
+          "hassle",
+          "for",
+          "me."
+        ],
+        "solution": [
+          [
+            "Driving"
+          ],
+          [
+            "across"
+          ],
+          [
+            "town"
+          ],
+          [
+            "is"
+          ],
+          [
+            "too"
+          ],
+          [
+            "much"
+          ],
+          [
+            "hassle"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/8.mp3",
+        "timeStart": 16,
+        "timeEnd": 18.79,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/64199/list"
+      },
+      {
+        "id": 64200,
+        "position": 9,
+        "content": "How do I return them by mail?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "do",
+          "I",
+          "return",
+          "them",
+          "by",
+          "mail?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "do"
+          ],
+          [
+            "I"
+          ],
+          [
+            "return"
+          ],
+          [
+            "them"
+          ],
+          [
+            "by"
+          ],
+          [
+            "mail?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/9.mp3",
+        "timeStart": 18.79,
+        "timeEnd": 20.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64200/list"
+      },
+      {
+        "id": 64201,
+        "position": 10,
+        "content": "Just fill out the exchange form on the packing slip,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Just",
+          "fill",
+          "out",
+          "the",
+          "exchange",
+          "form",
+          "on",
+          "the",
+          "packing",
+          "slip,"
+        ],
+        "solution": [
+          [
+            "Just"
+          ],
+          [
+            "fill"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "exchange"
+          ],
+          [
+            "form"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "packing"
+          ],
+          [
+            "slip,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/10.mp3",
+        "timeStart": 20.57,
+        "timeEnd": 23.15,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/64201/list"
+      },
+      {
+        "id": 64202,
+        "position": 11,
+        "content": "attach a shipping label,",
+        "defaultInput": "",
+        "jsonContent": [
+          "attach",
+          "a",
+          "shipping",
+          "label,"
+        ],
+        "solution": [
+          [
+            "attach"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shipping"
+          ],
+          [
+            "label,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/11.mp3",
+        "timeStart": 23.15,
+        "timeEnd": 24.7,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/64202/list"
+      },
+      {
+        "id": 64203,
+        "position": 12,
+        "content": "and mail them back in the original packaging.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "mail",
+          "them",
+          "back",
+          "in",
+          "the",
+          "original",
+          "packaging."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "mail"
+          ],
+          [
+            "them"
+          ],
+          [
+            "back"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "original"
+          ],
+          [
+            "packaging."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-9-2024-08-18-23-15-42/12.mp3",
+        "timeStart": 24.7,
+        "timeEnd": 27.12,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/64203/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "64198": {
+      "id": 1443124,
+      "text": "Nhưng bạn có thể trả lại chúng qua bưu điện hoặc tại một trong các cửa hàng của chúng tôi.",
+      "author": "a user"
+    },
+    "64200": {
+      "id": 1443126,
+      "text": "Tôi trả lại chúng qua đường bưu điện như thế nào?",
+      "author": "a user"
+    },
+    "64192": {
+      "id": 2582410,
+      "text": "Chào, tôi là Christina.",
+      "author": "ChatGPT4.1"
+    },
+    "64193": {
+      "id": 2582411,
+      "text": "Tôi đã mua một đôi giày tây từ cửa hàng trực tuyến của bạn,",
+      "author": "ChatGPT4.1"
+    },
+    "64194": {
+      "id": 2582412,
+      "text": "nhưng chúng quá chật vì tôi chọn cỡ hẹp thay vì cỡ trung bình.",
+      "author": "ChatGPT4.1"
+    },
+    "64195": {
+      "id": 2582413,
+      "text": "Tôi có thể làm gì?",
+      "author": "a user"
+    },
+    "64196": {
+      "id": 2582414,
+      "text": "Xin lỗi về việc đó.",
+      "author": "ChatGPT4.1"
+    },
+    "64197": {
+      "id": 2582415,
+      "text": "Giày sẽ giãn ra khi mang,",
+      "author": "ChatGPT4.1"
+    },
+    "64199": {
+      "id": 2582416,
+      "text": "Lái xe băng qua cả thành phố với tôi thì quá phiền phức.",
+      "author": "ChatGPT4.1"
+    },
+    "64201": {
+      "id": 2582417,
+      "text": "Chỉ cần điền vào mẫu đổi trả trên phiếu đóng gói,",
+      "author": "ChatGPT4.1"
+    },
+    "64202": {
+      "id": 2582418,
+      "text": "gắn nhãn vận chuyển,",
+      "author": "ChatGPT4.1"
+    },
+    "64203": {
+      "id": 2582419,
+      "text": "và gửi lại trong bao bì gốc ban đầu.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

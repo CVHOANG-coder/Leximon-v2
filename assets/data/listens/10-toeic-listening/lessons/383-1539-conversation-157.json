@@ -1,0 +1,698 @@
+{
+  "summary": {
+    "id": 1539,
+    "name": "Conversation 157",
+    "subTitle": "Quarterly Meeting Schedule Coordination",
+    "levelName": "B1",
+    "position": 383,
+    "totalChallenges": 11,
+    "groupId": 46,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1539",
+  "detail": {
+    "id": 1539,
+    "lessonName": "Conversation 157",
+    "name": "Conversation 157",
+    "position": 383,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/0-conversation-157.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66128,
+        "position": 1,
+        "content": "Good afternoon, Rachel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "afternoon,",
+          "Rachel."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "Rachel."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/1.mp3",
+        "timeStart": 0.26,
+        "timeEnd": 2.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66128/list"
+      },
+      {
+        "id": 66129,
+        "position": 2,
+        "content": "You are putting together the schedule for Friday's quarterly meeting, correct?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You are",
+            "You're"
+          ],
+          "putting",
+          "together",
+          "the",
+          "schedule",
+          "for",
+          "Friday's",
+          "quarterly",
+          "meeting,",
+          "correct?"
+        ],
+        "solution": [
+          [
+            "You are",
+            "You're"
+          ],
+          [
+            "putting"
+          ],
+          [
+            "together"
+          ],
+          [
+            "the"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Friday's"
+          ],
+          [
+            "quarterly"
+          ],
+          [
+            "meeting,"
+          ],
+          [
+            "correct?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/2.mp3",
+        "timeStart": 2.36,
+        "timeEnd": 7.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66129/list"
+      },
+      {
+        "id": 66130,
+        "position": 3,
+        "content": "I really want to read over it before you send it to the team managers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "really",
+          [
+            "want to",
+            "wanna"
+          ],
+          "read",
+          "over",
+          "it",
+          "before",
+          "you",
+          "send",
+          "it",
+          "to",
+          "the",
+          "team",
+          "managers."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "really"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "read"
+          ],
+          [
+            "over"
+          ],
+          [
+            "it"
+          ],
+          [
+            "before"
+          ],
+          [
+            "you"
+          ],
+          [
+            "send"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "team"
+          ],
+          [
+            "managers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/3.mp3",
+        "timeStart": 7.81,
+        "timeEnd": 12.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66130/list"
+      },
+      {
+        "id": 66131,
+        "position": 4,
+        "content": "Okay, but I am still working on the finishing touches and waiting for Bob.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "but",
+          [
+            "I am",
+            "I'm"
+          ],
+          "still",
+          "working",
+          "on",
+          "the",
+          "finishing",
+          "touches",
+          "and",
+          "waiting",
+          "for",
+          "Bob."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "still"
+          ],
+          [
+            "working"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "finishing"
+          ],
+          [
+            "touches"
+          ],
+          [
+            "and"
+          ],
+          [
+            "waiting"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Bob."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/4.mp3",
+        "timeStart": 12.81,
+        "timeEnd": 17.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66131/list"
+      },
+      {
+        "id": 66132,
+        "position": 5,
+        "content": "He said he was going to send over the outline for his speech on this quarter's growth figures.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "said",
+          "he",
+          "was",
+          [
+            "going to",
+            "gonna"
+          ],
+          "send",
+          "over",
+          "the",
+          "outline",
+          "for",
+          "his",
+          "speech",
+          "on",
+          "this",
+          "quarter's",
+          "growth",
+          "figures."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "said"
+          ],
+          [
+            "he"
+          ],
+          [
+            "was"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "send"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "outline"
+          ],
+          [
+            "for"
+          ],
+          [
+            "his"
+          ],
+          [
+            "speech"
+          ],
+          [
+            "on"
+          ],
+          [
+            "this"
+          ],
+          [
+            "quarter's"
+          ],
+          [
+            "growth"
+          ],
+          [
+            "figures."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/5.mp3",
+        "timeStart": 17.26,
+        "timeEnd": 22.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66132/list"
+      },
+      {
+        "id": 66133,
+        "position": 6,
+        "content": "Once he gets that to me,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Once",
+          "he",
+          "gets",
+          "that",
+          "to",
+          "me,"
+        ],
+        "solution": [
+          [
+            "Once"
+          ],
+          [
+            "he"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "that"
+          ],
+          [
+            "to"
+          ],
+          [
+            "me,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/6.mp3",
+        "timeStart": 22.36,
+        "timeEnd": 24.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66133/list"
+      },
+      {
+        "id": 66134,
+        "position": 7,
+        "content": "the schedule will be ready and I will email it to you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "schedule",
+          "will",
+          "be",
+          "ready",
+          "and",
+          [
+            "I will",
+            "I'll"
+          ],
+          "email",
+          "it",
+          "to",
+          "you."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "email"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/7.mp3",
+        "timeStart": 24.08,
+        "timeEnd": 27.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66134/list"
+      },
+      {
+        "id": 66135,
+        "position": 8,
+        "content": "It should be ready by 3 pm, latest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "should",
+          "be",
+          "ready",
+          "by",
+          [
+            "3",
+            "three"
+          ],
+          "pm,",
+          "latest."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "ready"
+          ],
+          [
+            "by"
+          ],
+          [
+            "3",
+            "three"
+          ],
+          [
+            "pm,"
+          ],
+          [
+            "latest."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/8.mp3",
+        "timeStart": 27.39,
+        "timeEnd": 30.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66135/list"
+      },
+      {
+        "id": 66136,
+        "position": 9,
+        "content": "Okay, no problem.",
+        "defaultInput": "Okay, no problem.",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "no",
+          "problem."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "no"
+          ],
+          [
+            "problem."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/9.mp3",
+        "timeStart": 30.31,
+        "timeEnd": 32.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66136/list"
+      },
+      {
+        "id": 66137,
+        "position": 10,
+        "content": "Can you make sure the schedule lists who will be presenting each piece?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "make",
+          "sure",
+          "the",
+          "schedule",
+          "lists",
+          "who",
+          "will",
+          "be",
+          "presenting",
+          "each",
+          "piece?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "the"
+          ],
+          [
+            "schedule"
+          ],
+          [
+            "lists"
+          ],
+          [
+            "who"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "presenting"
+          ],
+          [
+            "each"
+          ],
+          [
+            "piece?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/10.mp3",
+        "timeStart": 32.22,
+        "timeEnd": 36.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66137/list"
+      },
+      {
+        "id": 66138,
+        "position": 11,
+        "content": "I appreciate it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "appreciate",
+          "it."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "appreciate"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-157-2024-09-14-18-23-47/11.mp3",
+        "timeStart": 37.04,
+        "timeEnd": 38.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66138/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66128": {
+      "id": 2622764,
+      "text": "Chào buổi chiều, Rachel.",
+      "author": "ChatGPT4.1"
+    },
+    "66129": {
+      "id": 2622765,
+      "text": "Bạn đang lên lịch cho cuộc họp hàng quý vào thứ Sáu, đúng không?",
+      "author": "a user"
+    },
+    "66130": {
+      "id": 2622766,
+      "text": "Tôi thực sự muốn đọc qua nó trước khi bạn gửi cho các quản lý nhóm.",
+      "author": "ChatGPT4.1"
+    },
+    "66131": {
+      "id": 2622767,
+      "text": "Được thôi, nhưng tôi vẫn đang hoàn thiện nốt và chờ Bob.",
+      "author": "ChatGPT4.1"
+    },
+    "66132": {
+      "id": 2622768,
+      "text": "Anh ấy nói sẽ gửi cho tôi dàn ý bài phát biểu về số liệu tăng trưởng của quý này.",
+      "author": "ChatGPT4.1"
+    },
+    "66133": {
+      "id": 2622769,
+      "text": "Khi nào anh ấy gửi cho tôi,",
+      "author": "ChatGPT4.1"
+    },
+    "66134": {
+      "id": 2622770,
+      "text": "lịch trình sẽ sẵn sàng và tôi sẽ gửi email cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "66135": {
+      "id": 2622771,
+      "text": "Nó sẽ được hoàn thành muộn nhất là 3 giờ chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "66136": {
+      "id": 2622772,
+      "text": "Được thôi, không vấn đề gì.",
+      "author": "ChatGPT4.1"
+    },
+    "66137": {
+      "id": 2622773,
+      "text": "Bạn có thể đảm bảo lịch trình ghi rõ ai sẽ thuyết trình từng phần không?",
+      "author": "ChatGPT4.1"
+    },
+    "66138": {
+      "id": 2622774,
+      "text": "Tôi rất cảm kích.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

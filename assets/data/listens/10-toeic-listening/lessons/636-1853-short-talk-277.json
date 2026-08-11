@@ -1,0 +1,729 @@
+{
+  "summary": {
+    "id": 1853,
+    "name": "Short Talk 277",
+    "subTitle": "Interview with Dr. James Franklin",
+    "levelName": "C1",
+    "position": 636,
+    "totalChallenges": 12,
+    "groupId": 75,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1853",
+  "detail": {
+    "id": 1853,
+    "lessonName": "Short Talk 277",
+    "name": "Short Talk 277",
+    "position": 636,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/0-short-talk-277.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 71068,
+        "position": 1,
+        "content": "You're listening to Sydney Today on 92.7 FM.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You're",
+            "You are"
+          ],
+          "listening",
+          "to",
+          "Sydney",
+          "Today",
+          "on",
+          "92.7",
+          "FM."
+        ],
+        "solution": [
+          [
+            "You're",
+            "You are"
+          ],
+          [
+            "listening"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Sydney"
+          ],
+          [
+            "Today"
+          ],
+          [
+            "on"
+          ],
+          [
+            "92.7"
+          ],
+          [
+            "FM."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 3.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71068/list"
+      },
+      {
+        "id": 71069,
+        "position": 2,
+        "content": "My guest this afternoon is Dr. James Franklin,",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "guest",
+          "this",
+          "afternoon",
+          "is",
+          "Dr.",
+          "James",
+          "Franklin,"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "guest"
+          ],
+          [
+            "this"
+          ],
+          [
+            "afternoon"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "James"
+          ],
+          [
+            "Franklin,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/2.mp3",
+        "timeStart": 3.91,
+        "timeEnd": 6.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71069/list"
+      },
+      {
+        "id": 71070,
+        "position": 3,
+        "content": "a world-renowned paleontologist who has been featured on the Discovery Channel and the Science Network,",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          [
+            "world-renowned",
+            "world renowned"
+          ],
+          "paleontologist",
+          "who",
+          "has",
+          "been",
+          "featured",
+          "on",
+          "the",
+          "Discovery",
+          "Channel",
+          "and",
+          "the",
+          "Science",
+          "Network,"
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "world-renowned",
+            "world renowned"
+          ],
+          [
+            "paleontologist"
+          ],
+          [
+            "who"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "featured"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Discovery"
+          ],
+          [
+            "Channel"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Science"
+          ],
+          [
+            "Network,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/3.mp3",
+        "timeStart": 6.74,
+        "timeEnd": 12.08,
+        "hints": [
+          "paleontologist"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71070/list"
+      },
+      {
+        "id": 71071,
+        "position": 4,
+        "content": "as well as in numerous scientific journals and publications.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "well",
+          "as",
+          "in",
+          "numerous",
+          "scientific",
+          "journals",
+          "and",
+          "publications."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "in"
+          ],
+          [
+            "numerous"
+          ],
+          [
+            "scientific"
+          ],
+          [
+            "journals"
+          ],
+          [
+            "and"
+          ],
+          [
+            "publications."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/4.mp3",
+        "timeStart": 12.08,
+        "timeEnd": 15.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71071/list"
+      },
+      {
+        "id": 71072,
+        "position": 5,
+        "content": "Over the past year, he's been traveling the globe",
+        "defaultInput": "",
+        "jsonContent": [
+          "Over",
+          "the",
+          "past",
+          "year,",
+          "he's",
+          "been",
+          [
+            "traveling",
+            "travelling"
+          ],
+          "the",
+          "globe"
+        ],
+        "solution": [
+          [
+            "Over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past"
+          ],
+          [
+            "year,"
+          ],
+          [
+            "he's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "traveling",
+            "travelling"
+          ],
+          [
+            "the"
+          ],
+          [
+            "globe"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/5.mp3",
+        "timeStart": 15.69,
+        "timeEnd": 18.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71072/list"
+      },
+      {
+        "id": 71073,
+        "position": 6,
+        "content": "conducting groundbreaking research at various excavation sites.",
+        "defaultInput": "",
+        "jsonContent": [
+          "conducting",
+          "groundbreaking",
+          "research",
+          "at",
+          "various",
+          "excavation",
+          "sites."
+        ],
+        "solution": [
+          [
+            "conducting"
+          ],
+          [
+            "groundbreaking"
+          ],
+          [
+            "research"
+          ],
+          [
+            "at"
+          ],
+          [
+            "various"
+          ],
+          [
+            "excavation"
+          ],
+          [
+            "sites."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/6.mp3",
+        "timeStart": 18.28,
+        "timeEnd": 21.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71073/list"
+      },
+      {
+        "id": 71074,
+        "position": 7,
+        "content": "He arrived in Australia yesterday and will depart for New Zealand the day after tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "arrived",
+          "in",
+          "Australia",
+          "yesterday",
+          "and",
+          "will",
+          "depart",
+          "for",
+          "New",
+          "Zealand",
+          "the",
+          "day",
+          "after",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "arrived"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Australia"
+          ],
+          [
+            "yesterday"
+          ],
+          [
+            "and"
+          ],
+          [
+            "will"
+          ],
+          [
+            "depart"
+          ],
+          [
+            "for"
+          ],
+          [
+            "New"
+          ],
+          [
+            "Zealand"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day"
+          ],
+          [
+            "after"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/7.mp3",
+        "timeStart": 22.3,
+        "timeEnd": 27.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71074/list"
+      },
+      {
+        "id": 71075,
+        "position": 8,
+        "content": "I intend to ask Dr. Franklin about Earth Heritage,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "intend",
+          "to",
+          "ask",
+          "Dr.",
+          "Franklin",
+          "about",
+          "Earth",
+          "Heritage,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "intend"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "Dr."
+          ],
+          [
+            "Franklin"
+          ],
+          [
+            "about"
+          ],
+          [
+            "Earth"
+          ],
+          [
+            "Heritage,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/8.mp3",
+        "timeStart": 27.35,
+        "timeEnd": 30.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71075/list"
+      },
+      {
+        "id": 71076,
+        "position": 9,
+        "content": "a nonprofit organization he founded",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "nonprofit",
+          [
+            "organization",
+            "organisation"
+          ],
+          "he",
+          "founded"
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "nonprofit"
+          ],
+          [
+            "organization",
+            "organisation"
+          ],
+          [
+            "he"
+          ],
+          [
+            "founded"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/9.mp3",
+        "timeStart": 30.42,
+        "timeEnd": 32.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71076/list"
+      },
+      {
+        "id": 71077,
+        "position": 10,
+        "content": "that is dedicated to preserving and studying prehistoric fossils and ecosystems.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "that is",
+            "that's"
+          ],
+          "dedicated",
+          "to",
+          "preserving",
+          "and",
+          "studying",
+          "prehistoric",
+          "fossils",
+          "and",
+          "ecosystems."
+        ],
+        "solution": [
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "dedicated"
+          ],
+          [
+            "to"
+          ],
+          [
+            "preserving"
+          ],
+          [
+            "and"
+          ],
+          [
+            "studying"
+          ],
+          [
+            "prehistoric"
+          ],
+          [
+            "fossils"
+          ],
+          [
+            "and"
+          ],
+          [
+            "ecosystems."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/10.mp3",
+        "timeStart": 32.55,
+        "timeEnd": 37.4,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/71077/list"
+      },
+      {
+        "id": 71078,
+        "position": 11,
+        "content": "So, without further ado,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "without",
+          [
+            "further",
+            "farther"
+          ],
+          "ado,"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "without"
+          ],
+          [
+            "further",
+            "farther"
+          ],
+          [
+            "ado,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/11.mp3",
+        "timeStart": 37.55,
+        "timeEnd": 39.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71078/list"
+      },
+      {
+        "id": 71079,
+        "position": 12,
+        "content": "let's dive right into our conversation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "let's",
+          "dive",
+          "right",
+          "into",
+          "our",
+          "conversation."
+        ],
+        "solution": [
+          [
+            "let's"
+          ],
+          [
+            "dive"
+          ],
+          [
+            "right"
+          ],
+          [
+            "into"
+          ],
+          [
+            "our"
+          ],
+          [
+            "conversation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-277-2024-11-10-11-24-18/12.mp3",
+        "timeStart": 39.64,
+        "timeEnd": 41.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/71079/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "71068": {
+      "id": 2585375,
+      "text": "Bạn đang nghe chương trình Sydney Hôm Nay trên sóng 92.7 FM.",
+      "author": "ChatGPT4.1"
+    },
+    "71069": {
+      "id": 2585376,
+      "text": "Khách mời của tôi chiều nay là Tiến sĩ James Franklin,",
+      "author": "ChatGPT4.1"
+    },
+    "71070": {
+      "id": 2585377,
+      "text": "một nhà cổ sinh vật học nổi tiếng thế giới từng xuất hiện trên kênh Discovery và Khoa Học,",
+      "author": "ChatGPT4.1"
+    },
+    "71071": {
+      "id": 2585378,
+      "text": "cũng như trong nhiều tạp chí và ấn phẩm khoa học khác.",
+      "author": "ChatGPT4.1"
+    },
+    "71072": {
+      "id": 2585379,
+      "text": "Trong suốt năm qua, ông đã đi khắp thế giới",
+      "author": "ChatGPT4.1"
+    },
+    "71073": {
+      "id": 2585380,
+      "text": "để thực hiện các nghiên cứu đột phá tại nhiều địa điểm khai quật khác nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "71074": {
+      "id": 2585381,
+      "text": "Ông đã đến Úc vào ngày hôm qua và sẽ lên đường đến New Zealand vào ngày kia.",
+      "author": "ChatGPT4.1"
+    },
+    "71075": {
+      "id": 2585382,
+      "text": "Tôi dự định hỏi Tiến sĩ Franklin về Earth Heritage,",
+      "author": "ChatGPT4.1"
+    },
+    "71076": {
+      "id": 2585383,
+      "text": "một tổ chức phi lợi nhuận do ông sáng lập",
+      "author": "ChatGPT4.1"
+    },
+    "71077": {
+      "id": 2585384,
+      "text": "chuyên bảo tồn và nghiên cứu hóa thạch cũng như hệ sinh thái thời tiền sử.",
+      "author": "ChatGPT4.1"
+    },
+    "71078": {
+      "id": 2585385,
+      "text": "Vậy nên, không để quý vị chờ lâu nữa,",
+      "author": "ChatGPT4.1"
+    },
+    "71079": {
+      "id": 2585386,
+      "text": "chúng ta hãy cùng bắt đầu cuộc trò chuyện ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

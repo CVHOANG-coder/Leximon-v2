@@ -1,0 +1,1403 @@
+{
+  "summary": {
+    "id": 95,
+    "name": "65. My cat",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 66,
+    "totalChallenges": 24,
+    "groupId": 89,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/95",
+  "detail": {
+    "id": 95,
+    "lessonName": "65. My cat",
+    "name": "65. My cat",
+    "position": 66,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/0-65-my-cat.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 3951,
+        "position": 1,
+        "content": "I got my cat when she was just a tiny kitten.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "got",
+          "my",
+          "cat",
+          "when",
+          "she",
+          "was",
+          "just",
+          "a",
+          "tiny",
+          "kitten."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "got"
+          ],
+          [
+            "my"
+          ],
+          [
+            "cat"
+          ],
+          [
+            "when"
+          ],
+          [
+            "she"
+          ],
+          [
+            "was"
+          ],
+          [
+            "just"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tiny"
+          ],
+          [
+            "kitten."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/1.mp3",
+        "timeStart": 3.8,
+        "timeEnd": 7.5,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/3951/list"
+      },
+      {
+        "id": 3952,
+        "position": 2,
+        "content": "I named her Puff because her fur is soft and fluffy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "named",
+          "her",
+          "Puff",
+          "because",
+          "her",
+          "fur",
+          "is",
+          "soft",
+          "and",
+          "fluffy."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "named"
+          ],
+          [
+            "her"
+          ],
+          [
+            "Puff"
+          ],
+          [
+            "because"
+          ],
+          [
+            "her"
+          ],
+          [
+            "fur"
+          ],
+          [
+            "is"
+          ],
+          [
+            "soft"
+          ],
+          [
+            "and"
+          ],
+          [
+            "fluffy."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/2.mp3",
+        "timeStart": 7.8,
+        "timeEnd": 12,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/3952/list"
+      },
+      {
+        "id": 3953,
+        "position": 3,
+        "content": "She has white fur, but her tail, paws and ears are black.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She has",
+            "she's"
+          ],
+          "white",
+          "fur,",
+          "but",
+          "her",
+          "tail,",
+          "paws",
+          "and",
+          "ears",
+          "are",
+          "black."
+        ],
+        "solution": [
+          [
+            "She has",
+            "she's"
+          ],
+          [
+            "white"
+          ],
+          [
+            "fur,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "her"
+          ],
+          [
+            "tail,"
+          ],
+          [
+            "paws"
+          ],
+          [
+            "and"
+          ],
+          [
+            "ears"
+          ],
+          [
+            "are"
+          ],
+          [
+            "black."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/3.mp3",
+        "timeStart": 12.4,
+        "timeEnd": 17.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3953/list"
+      },
+      {
+        "id": 3954,
+        "position": 4,
+        "content": "She has a little pink nose and yellow eyes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She has",
+            "she's"
+          ],
+          "a",
+          "little",
+          "pink",
+          "nose",
+          "and",
+          "yellow",
+          "eyes."
+        ],
+        "solution": [
+          [
+            "She has",
+            "she's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "pink"
+          ],
+          [
+            "nose"
+          ],
+          [
+            "and"
+          ],
+          [
+            "yellow"
+          ],
+          [
+            "eyes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/4.mp3",
+        "timeStart": 18.26,
+        "timeEnd": 21.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3954/list"
+      },
+      {
+        "id": 3955,
+        "position": 5,
+        "content": "She says \"meow\" whenever she wants a bowl of milk.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "says",
+          "\"meow\"",
+          "whenever",
+          "she",
+          "wants",
+          "a",
+          "bowl",
+          "of",
+          "milk."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "says"
+          ],
+          [
+            "\"meow\""
+          ],
+          [
+            "whenever"
+          ],
+          [
+            "she"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bowl"
+          ],
+          [
+            "of"
+          ],
+          [
+            "milk."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/5.mp3",
+        "timeStart": 21.9,
+        "timeEnd": 25.8,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/3955/list"
+      },
+      {
+        "id": 3956,
+        "position": 6,
+        "content": "I feed her cat food and treats.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "feed",
+          "her",
+          "cat",
+          "food",
+          "and",
+          "treats."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "feed"
+          ],
+          [
+            "her"
+          ],
+          [
+            "cat"
+          ],
+          [
+            "food"
+          ],
+          [
+            "and"
+          ],
+          [
+            "treats."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/6.mp3",
+        "timeStart": 26.3,
+        "timeEnd": 28.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3956/list"
+      },
+      {
+        "id": 3957,
+        "position": 7,
+        "content": "She washes her face with her paw when she is finished eating.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "washes",
+          "her",
+          "face",
+          "with",
+          "her",
+          "paw",
+          "when",
+          [
+            "she is",
+            "she's"
+          ],
+          "finished",
+          "eating."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "washes"
+          ],
+          [
+            "her"
+          ],
+          [
+            "face"
+          ],
+          [
+            "with"
+          ],
+          [
+            "her"
+          ],
+          [
+            "paw"
+          ],
+          [
+            "when"
+          ],
+          [
+            "she is",
+            "she's"
+          ],
+          [
+            "finished"
+          ],
+          [
+            "eating."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/7.mp3",
+        "timeStart": 29,
+        "timeEnd": 33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3957/list"
+      },
+      {
+        "id": 3958,
+        "position": 8,
+        "content": "My whole family loves her, and we can tell that she loves us.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "whole",
+          "family",
+          "loves",
+          "her,",
+          "and",
+          "we",
+          "can",
+          "tell",
+          "that",
+          "she",
+          "loves",
+          "us."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "whole"
+          ],
+          [
+            "family"
+          ],
+          [
+            "loves"
+          ],
+          [
+            "her,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "that"
+          ],
+          [
+            "she"
+          ],
+          [
+            "loves"
+          ],
+          [
+            "us."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/8.mp3",
+        "timeStart": 33.5,
+        "timeEnd": 38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3958/list"
+      },
+      {
+        "id": 3959,
+        "position": 9,
+        "content": "She loves to curl up in our laps.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "loves",
+          "to",
+          "curl",
+          "up",
+          "in",
+          "our",
+          "laps."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "loves"
+          ],
+          [
+            "to"
+          ],
+          [
+            "curl"
+          ],
+          [
+            "up"
+          ],
+          [
+            "in"
+          ],
+          [
+            "our"
+          ],
+          [
+            "laps."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/9.mp3",
+        "timeStart": 38.4,
+        "timeEnd": 40.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3959/list"
+      },
+      {
+        "id": 3960,
+        "position": 10,
+        "content": "She purrs whenever we pet her.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "purrs",
+          "whenever",
+          "we",
+          "pet",
+          "her."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "purrs"
+          ],
+          [
+            "whenever"
+          ],
+          [
+            "we"
+          ],
+          [
+            "pet"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/10.mp3",
+        "timeStart": 41.1,
+        "timeEnd": 43.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3960/list"
+      },
+      {
+        "id": 3961,
+        "position": 11,
+        "content": "She is very playful.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "she's"
+          ],
+          "very",
+          "playful."
+        ],
+        "solution": [
+          [
+            "She is",
+            "she's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "playful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/11.mp3",
+        "timeStart": 44.3,
+        "timeEnd": 46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3961/list"
+      },
+      {
+        "id": 3962,
+        "position": 12,
+        "content": "We sometimes roll up a piece of paper and throw it to her.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "sometimes",
+          "roll",
+          "up",
+          "a",
+          "piece",
+          "of",
+          "paper",
+          "and",
+          "throw",
+          "it",
+          "to",
+          "her."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "roll"
+          ],
+          [
+            "up"
+          ],
+          [
+            "a"
+          ],
+          [
+            "piece"
+          ],
+          [
+            "of"
+          ],
+          [
+            "paper"
+          ],
+          [
+            "and"
+          ],
+          [
+            "throw"
+          ],
+          [
+            "it"
+          ],
+          [
+            "to"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/12.mp3",
+        "timeStart": 46.54,
+        "timeEnd": 49.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3962/list"
+      },
+      {
+        "id": 3963,
+        "position": 13,
+        "content": "She loves to chase the paper and hit it with her paws.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "loves",
+          "to",
+          "chase",
+          "the",
+          "paper",
+          "and",
+          "hit",
+          "it",
+          "with",
+          "her",
+          "paws."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "loves"
+          ],
+          [
+            "to"
+          ],
+          [
+            "chase"
+          ],
+          [
+            "the"
+          ],
+          [
+            "paper"
+          ],
+          [
+            "and"
+          ],
+          [
+            "hit"
+          ],
+          [
+            "it"
+          ],
+          [
+            "with"
+          ],
+          [
+            "her"
+          ],
+          [
+            "paws."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/13.mp3",
+        "timeStart": 50.3,
+        "timeEnd": 53.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3963/list"
+      },
+      {
+        "id": 3964,
+        "position": 14,
+        "content": "She also chases bugs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "also",
+          "chases",
+          "bugs."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "also"
+          ],
+          [
+            "chases"
+          ],
+          [
+            "bugs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/14.mp3",
+        "timeStart": 54.2,
+        "timeEnd": 56.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3964/list"
+      },
+      {
+        "id": 3965,
+        "position": 15,
+        "content": "Last night she chased a spider,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Last",
+          "night",
+          "she",
+          "chased",
+          "a",
+          "spider,"
+        ],
+        "solution": [
+          [
+            "Last"
+          ],
+          [
+            "night"
+          ],
+          [
+            "she"
+          ],
+          [
+            "chased"
+          ],
+          [
+            "a"
+          ],
+          [
+            "spider,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/15.mp3",
+        "timeStart": 56.49,
+        "timeEnd": 58.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3965/list"
+      },
+      {
+        "id": 3966,
+        "position": 16,
+        "content": "but she was afraid to touch it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "she",
+          "was",
+          "afraid",
+          "to",
+          "touch",
+          "it."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "she"
+          ],
+          [
+            "was"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "to"
+          ],
+          [
+            "touch"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/16.mp3",
+        "timeStart": 58.7,
+        "timeEnd": 60.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3966/list"
+      },
+      {
+        "id": 3967,
+        "position": 17,
+        "content": "At night she curls up in my bed with me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "At",
+          "night",
+          "she",
+          "curls",
+          "up",
+          "in",
+          "my",
+          "bed",
+          "with",
+          "me."
+        ],
+        "solution": [
+          [
+            "At"
+          ],
+          [
+            "night"
+          ],
+          [
+            "she"
+          ],
+          [
+            "curls"
+          ],
+          [
+            "up"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "bed"
+          ],
+          [
+            "with"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/17.mp3",
+        "timeStart": 61.2,
+        "timeEnd": 64.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3967/list"
+      },
+      {
+        "id": 3968,
+        "position": 18,
+        "content": "She likes to be warm.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "likes",
+          "to",
+          "be",
+          "warm."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "likes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "warm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/18.mp3",
+        "timeStart": 64.6,
+        "timeEnd": 66.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3968/list"
+      },
+      {
+        "id": 3969,
+        "position": 19,
+        "content": "I have given her a blanket of her own,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "given",
+          "her",
+          "a",
+          "blanket",
+          "of",
+          "her",
+          "own,"
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "given"
+          ],
+          [
+            "her"
+          ],
+          [
+            "a"
+          ],
+          [
+            "blanket"
+          ],
+          [
+            "of"
+          ],
+          [
+            "her"
+          ],
+          [
+            "own,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/19.mp3",
+        "timeStart": 66.4,
+        "timeEnd": 68.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3969/list"
+      },
+      {
+        "id": 3970,
+        "position": 20,
+        "content": "but when I put her on it her tail twitches.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "when",
+          "I",
+          "put",
+          "her",
+          "on",
+          "it",
+          "her",
+          "tail",
+          "twitches."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "put"
+          ],
+          [
+            "her"
+          ],
+          [
+            "on"
+          ],
+          [
+            "it"
+          ],
+          [
+            "her"
+          ],
+          [
+            "tail"
+          ],
+          [
+            "twitches."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/20.mp3",
+        "timeStart": 68.9,
+        "timeEnd": 71.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3970/list"
+      },
+      {
+        "id": 3971,
+        "position": 21,
+        "content": "Her tail twitches whenever she is upset or angry.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          "tail",
+          "twitches",
+          "whenever",
+          [
+            "she is",
+            "she's"
+          ],
+          "upset",
+          "or",
+          "angry."
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "tail"
+          ],
+          [
+            "twitches"
+          ],
+          [
+            "whenever"
+          ],
+          [
+            "she is",
+            "she's"
+          ],
+          [
+            "upset"
+          ],
+          [
+            "or"
+          ],
+          [
+            "angry."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/21.mp3",
+        "timeStart": 72.2,
+        "timeEnd": 76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3971/list"
+      },
+      {
+        "id": 3972,
+        "position": 22,
+        "content": "I know she doesn't want to be on her blanket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          "she",
+          "doesn't",
+          [
+            "want to",
+            "wanna"
+          ],
+          "be",
+          "on",
+          "her",
+          "blanket."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "she"
+          ],
+          [
+            "doesn't"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "be"
+          ],
+          [
+            "on"
+          ],
+          [
+            "her"
+          ],
+          [
+            "blanket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/22.mp3",
+        "timeStart": 76.5,
+        "timeEnd": 79.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3972/list"
+      },
+      {
+        "id": 3973,
+        "position": 23,
+        "content": "She wants to be in my bed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "wants",
+          "to",
+          "be",
+          "in",
+          "my",
+          "bed."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "wants"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "in"
+          ],
+          [
+            "my"
+          ],
+          [
+            "bed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/23.mp3",
+        "timeStart": 79.4,
+        "timeEnd": 81.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3973/list"
+      },
+      {
+        "id": 3974,
+        "position": 24,
+        "content": "I let her into my bed, and she falls asleep purring loudly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "let",
+          "her",
+          "into",
+          "my",
+          "bed,",
+          "and",
+          "she",
+          "falls",
+          "asleep",
+          "purring",
+          "loudly."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "let"
+          ],
+          [
+            "her"
+          ],
+          [
+            "into"
+          ],
+          [
+            "my"
+          ],
+          [
+            "bed,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "she"
+          ],
+          [
+            "falls"
+          ],
+          [
+            "asleep"
+          ],
+          [
+            "purring"
+          ],
+          [
+            "loudly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/65-my-cat-2019-03-29-12-42-40/24.mp3",
+        "timeStart": 81.9,
+        "timeEnd": 86.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/3974/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "3951": {
+      "id": 2908,
+      "text": "Tôi nuôi con mèo của mình khi nó mới chỉ là một con mèo con nhỏ.",
+      "author": "a user"
+    },
+    "3953": {
+      "id": 2911,
+      "text": "Nó có bộ lông màu trắng, nhưng đuôi, bàn chân và tai của nó có màu đen.",
+      "author": "a user"
+    },
+    "3954": {
+      "id": 2915,
+      "text": "Cô ấy có một cái mũi nhỏ màu hồng và đôi mắt màu vàng.",
+      "author": "a user"
+    },
+    "3955": {
+      "id": 2917,
+      "text": "Cô ấy kêu \"meo\" bất cứ khi nào cô ấy muốn một bát sữa.",
+      "author": "a user"
+    },
+    "3956": {
+      "id": 2918,
+      "text": "Tôi cho cô ấy ăn thức ăn cho mèo và đồ ăn vặt.",
+      "author": "a user"
+    },
+    "3957": {
+      "id": 2919,
+      "text": "Cô ấy vuốt mặt bằng bàn chân của mình khi cô ấy ăn xong.",
+      "author": "a user"
+    },
+    "3964": {
+      "id": 2929,
+      "text": "Nó cũng đuổi theo các con bọ.",
+      "author": "a user"
+    },
+    "3967": {
+      "id": 2933,
+      "text": "Vào ban đêm, nó nằm cuộn tròn trên giường với tôi.",
+      "author": "a user"
+    },
+    "3971": {
+      "id": 2944,
+      "text": "Đuôi của cô ấy giật bất cứ khi nào cô ấy khó chịu hoặc tức giận.",
+      "author": "a user"
+    },
+    "3974": {
+      "id": 2951,
+      "text": "Tôi để cô ấy vào giường của tôi, và cô ấy ngủ thiếp đi trong tiếng gừ gừ rất to.",
+      "author": "a user"
+    },
+    "3952": {
+      "id": 2587926,
+      "text": "Tôi đặt tên cho nó là Puff vì lông của nó mềm và xù.",
+      "author": "ChatGPT4.1"
+    },
+    "3958": {
+      "id": 2587927,
+      "text": "Cả gia đình tôi đều yêu cô ấy, và chúng tôi có thể thấy rằng cô ấy cũng yêu chúng tôi.",
+      "author": "a user"
+    },
+    "3959": {
+      "id": 2587928,
+      "text": "Nó rất yêu thích cuộn tròn nằm trong lòng chúng tôi.",
+      "author": "a user"
+    },
+    "3960": {
+      "id": 2587929,
+      "text": "Nó kêu rừ rừ mỗi khi chúng tôi vuốt ve nó.",
+      "author": "ChatGPT4.1"
+    },
+    "3961": {
+      "id": 2587930,
+      "text": "Nó rất tinh nghịch.",
+      "author": "ChatGPT4.1"
+    },
+    "3962": {
+      "id": 2587931,
+      "text": "Đôi khi chúng tôi cuộn một tờ giấy và ném cho nó chơi.",
+      "author": "ChatGPT4.1"
+    },
+    "3963": {
+      "id": 2587932,
+      "text": "Nó thích đuổi theo tờ giấy và vồ nó bằng chân.",
+      "author": "ChatGPT4.1"
+    },
+    "3965": {
+      "id": 2587933,
+      "text": "Tối qua nó đuổi theo một con nhện,",
+      "author": "ChatGPT4.1"
+    },
+    "3966": {
+      "id": 2587934,
+      "text": "Nhưng cô ấy sợ chạm vào nó.",
+      "author": "a user"
+    },
+    "3968": {
+      "id": 2587935,
+      "text": "Nó thích được ấm áp.",
+      "author": "ChatGPT4.1"
+    },
+    "3969": {
+      "id": 2587936,
+      "text": "Tôi đã cho nó một chiếc chăn riêng,",
+      "author": "ChatGPT4.1"
+    },
+    "3970": {
+      "id": 2587937,
+      "text": "nhưng khi tôi đặt nó lên đó thì đuôi nó giật giật.",
+      "author": "ChatGPT4.1"
+    },
+    "3972": {
+      "id": 2587938,
+      "text": "Tôi biết là nó không muốn nằm trên chiếc chăn của nó.",
+      "author": "ChatGPT4.1"
+    },
+    "3973": {
+      "id": 2587939,
+      "text": "Nó muốn nằm trên giường của tôi.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

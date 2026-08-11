@@ -38,6 +38,7 @@ dependencies:
   drift: ^2.34.3
   drift_flutter: ^0.3.1
   flutter_tts: ^4.2.5
+  just_audio: ^0.10.6
   shared_preferences: ^2.5.3
 
   # The following adds the Cupertino Icons font to your application.
@@ -94,11 +95,38 @@ flutter:
     - assets/images/owl_daily_home.png
     - assets/images/tab_personal_active.png
     - assets/images/tab_personal_inactive.png
+    - assets/images/practice_listen/
     - assets/images/owls/
     - assets/images/onboarding/
     - assets/data/vocabulary_test.json
     - assets/data/topics/
     - assets/data/sentences/
+    - assets/data/listens/01-ielts-listening/course-index.json
+    - assets/data/listens/02-short-stories/course-index.json
+    - assets/data/listens/03-spelling-names/course-index.json
+    - assets/data/listens/04-numbers/course-index.json
+    - assets/data/listens/06-conversations/course-index.json
+    - assets/data/listens/07-toefl-listening/course-index.json
+    - assets/data/listens/08-random-videos/course-index.json
+    - assets/data/listens/09-ipa/course-index.json
+    - assets/data/listens/10-toeic-listening/course-index.json
+    - assets/data/listens/12-ted/course-index.json
+    - assets/data/listens/13-stories-for-kids/course-index.json
+    - assets/data/listens/14-news/course-index.json
+    - assets/data/listens/18-medical-english-oet/course-index.json
+    - assets/data/listens/01-ielts-listening/lessons/
+    - assets/data/listens/02-short-stories/lessons/
+    - assets/data/listens/03-spelling-names/lessons/
+    - assets/data/listens/04-numbers/lessons/
+    - assets/data/listens/06-conversations/lessons/
+    - assets/data/listens/07-toefl-listening/lessons/
+    - assets/data/listens/08-random-videos/lessons/
+    - assets/data/listens/09-ipa/lessons/
+    - assets/data/listens/10-toeic-listening/lessons/
+    - assets/data/listens/12-ted/lessons/
+    - assets/data/listens/13-stories-for-kids/lessons/
+    - assets/data/listens/14-news/lessons/
+    - assets/data/listens/18-medical-english-oet/lessons/
     - assets/svgs/
     - assets/svgs/onboarding/
     - assets/lotties/

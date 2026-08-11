@@ -1,0 +1,1361 @@
+{
+  "summary": {
+    "id": 46,
+    "name": "37. Diseases",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 37,
+    "totalChallenges": 24,
+    "groupId": 87,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/46",
+  "detail": {
+    "id": 46,
+    "lessonName": "37. Diseases",
+    "name": "37. Diseases",
+    "position": 37,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/0-37-diseases.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 1603,
+        "position": 1,
+        "content": "There are many diseases.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "many",
+          "diseases."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "many"
+          ],
+          [
+            "diseases."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/1.mp3",
+        "timeStart": 4.1,
+        "timeEnd": 5.7,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1603/list"
+      },
+      {
+        "id": 1604,
+        "position": 2,
+        "content": "Some diseases are very deadly, and some are not so serious.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "diseases",
+          "are",
+          "very",
+          "deadly,",
+          "and",
+          "some",
+          [
+            "are not",
+            "aren't"
+          ],
+          "so",
+          "serious."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "diseases"
+          ],
+          [
+            "are"
+          ],
+          [
+            "very"
+          ],
+          [
+            "deadly,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "some"
+          ],
+          [
+            "are not",
+            "aren't"
+          ],
+          [
+            "so"
+          ],
+          [
+            "serious."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/2.mp3",
+        "timeStart": 7.2,
+        "timeEnd": 11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1604/list"
+      },
+      {
+        "id": 1605,
+        "position": 3,
+        "content": "Most people catch a cold sometimes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Most",
+          "people",
+          "catch",
+          "a",
+          "cold",
+          "sometimes."
+        ],
+        "solution": [
+          [
+            "Most"
+          ],
+          [
+            "people"
+          ],
+          [
+            "catch"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cold"
+          ],
+          [
+            "sometimes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/3.mp3",
+        "timeStart": 12.3,
+        "timeEnd": 14.4,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/1605/list"
+      },
+      {
+        "id": 1606,
+        "position": 4,
+        "content": "A cold makes you cough and sneeze.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "cold",
+          "makes",
+          "you",
+          "cough",
+          "and",
+          "sneeze."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "cold"
+          ],
+          [
+            "makes"
+          ],
+          [
+            "you"
+          ],
+          [
+            "cough"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sneeze."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/4.mp3",
+        "timeStart": 15.9,
+        "timeEnd": 17.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1606/list"
+      },
+      {
+        "id": 1607,
+        "position": 5,
+        "content": "Colds can be passed on from person to person.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Colds",
+          "can",
+          "be",
+          "passed",
+          "on",
+          "from",
+          "person",
+          "to",
+          "person."
+        ],
+        "solution": [
+          [
+            "Colds"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "passed"
+          ],
+          [
+            "on"
+          ],
+          [
+            "from"
+          ],
+          [
+            "person"
+          ],
+          [
+            "to"
+          ],
+          [
+            "person."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/5.mp3",
+        "timeStart": 19.5,
+        "timeEnd": 22.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1607/list"
+      },
+      {
+        "id": 1608,
+        "position": 6,
+        "content": "Some people get the flu.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "people",
+          "get",
+          "the",
+          "flu."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "people"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flu."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/6.mp3",
+        "timeStart": 23.6,
+        "timeEnd": 25.1,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1608/list"
+      },
+      {
+        "id": 1609,
+        "position": 7,
+        "content": "With the flu, you get chills and a fever.",
+        "defaultInput": "",
+        "jsonContent": [
+          "With",
+          "the",
+          "flu,",
+          "you",
+          "get",
+          "chills",
+          "and",
+          "a",
+          "fever."
+        ],
+        "solution": [
+          [
+            "With"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flu,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "chills"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fever."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/7.mp3",
+        "timeStart": 26.6,
+        "timeEnd": 29.2,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1609/list"
+      },
+      {
+        "id": 1610,
+        "position": 8,
+        "content": "A fever is a high temperature.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "fever",
+          "is",
+          "a",
+          "high",
+          "temperature."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "fever"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "high"
+          ],
+          [
+            "temperature."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/8.mp3",
+        "timeStart": 30.7,
+        "timeEnd": 32.6,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/1610/list"
+      },
+      {
+        "id": 1611,
+        "position": 9,
+        "content": "If you have the flu, you will feel very bad.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          [
+            "you have",
+            "you've"
+          ],
+          "the",
+          "flu,",
+          [
+            "you will",
+            "you'll"
+          ],
+          "feel",
+          "very",
+          "bad."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "the"
+          ],
+          [
+            "flu,"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "very"
+          ],
+          [
+            "bad."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/9.mp3",
+        "timeStart": 34.1,
+        "timeEnd": 37.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1611/list"
+      },
+      {
+        "id": 1612,
+        "position": 10,
+        "content": "You have to stay home in bed.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You have",
+            "you've"
+          ],
+          "to",
+          "stay",
+          "home",
+          "in",
+          "bed."
+        ],
+        "solution": [
+          [
+            "You have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "home"
+          ],
+          [
+            "in"
+          ],
+          [
+            "bed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/10.mp3",
+        "timeStart": 38.5,
+        "timeEnd": 40.2,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1612/list"
+      },
+      {
+        "id": 1613,
+        "position": 11,
+        "content": "There are diseases that children get.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "diseases",
+          "that",
+          "children",
+          "get."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "diseases"
+          ],
+          [
+            "that"
+          ],
+          [
+            "children"
+          ],
+          [
+            "get."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/11.mp3",
+        "timeStart": 41.8,
+        "timeEnd": 43.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1613/list"
+      },
+      {
+        "id": 1614,
+        "position": 12,
+        "content": "The mumps makes you have lumps in your neck.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "mumps",
+          [
+            "makes",
+            "make"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          "lumps",
+          "in",
+          "your",
+          "neck."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "mumps"
+          ],
+          [
+            "makes",
+            "make"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "lumps"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "neck."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/12.mp3",
+        "timeStart": 45.3,
+        "timeEnd": 47.8,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/1614/list"
+      },
+      {
+        "id": 1615,
+        "position": 13,
+        "content": "Chicken pox and measles leave you with red itchy dots on your skin.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Chicken",
+          "pox",
+          "and",
+          "measles",
+          "leave",
+          "you",
+          "with",
+          "red",
+          "itchy",
+          "dots",
+          "on",
+          "your",
+          "skin."
+        ],
+        "solution": [
+          [
+            "Chicken"
+          ],
+          [
+            "pox"
+          ],
+          [
+            "and"
+          ],
+          [
+            "measles"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "you"
+          ],
+          [
+            "with"
+          ],
+          [
+            "red"
+          ],
+          [
+            "itchy"
+          ],
+          [
+            "dots"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "skin."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/13.mp3",
+        "timeStart": 49.6,
+        "timeEnd": 53.4,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1615/list"
+      },
+      {
+        "id": 1616,
+        "position": 14,
+        "content": "Older people sometimes get arthritis.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Older",
+          "people",
+          "sometimes",
+          "get",
+          "arthritis."
+        ],
+        "solution": [
+          [
+            "Older"
+          ],
+          [
+            "people"
+          ],
+          [
+            "sometimes"
+          ],
+          [
+            "get"
+          ],
+          [
+            "arthritis."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/14.mp3",
+        "timeStart": 54.9,
+        "timeEnd": 57.2,
+        "hints": [
+          "arthritis"
+        ],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/1616/list"
+      },
+      {
+        "id": 1617,
+        "position": 15,
+        "content": "Their bones get stiff and sore.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Their",
+          "bones",
+          "get",
+          "stiff",
+          "and",
+          "sore."
+        ],
+        "solution": [
+          [
+            "Their"
+          ],
+          [
+            "bones"
+          ],
+          [
+            "get"
+          ],
+          [
+            "stiff"
+          ],
+          [
+            "and"
+          ],
+          [
+            "sore."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/15.mp3",
+        "timeStart": 58.6,
+        "timeEnd": 60.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1617/list"
+      },
+      {
+        "id": 1618,
+        "position": 16,
+        "content": "There are people who get heart disease.",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "people",
+          "who",
+          "get",
+          "heart",
+          "disease."
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "people"
+          ],
+          [
+            "who"
+          ],
+          [
+            "get"
+          ],
+          [
+            "heart"
+          ],
+          [
+            "disease."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/16.mp3",
+        "timeStart": 62.3,
+        "timeEnd": 64.3,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1618/list"
+      },
+      {
+        "id": 1619,
+        "position": 17,
+        "content": "In many cases, a healthy lifestyle can prevent heart disease.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "many",
+          "cases,",
+          "a",
+          "healthy",
+          "lifestyle",
+          "can",
+          "prevent",
+          "heart",
+          "disease."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "many"
+          ],
+          [
+            "cases,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "healthy"
+          ],
+          [
+            "lifestyle"
+          ],
+          [
+            "can"
+          ],
+          [
+            "prevent"
+          ],
+          [
+            "heart"
+          ],
+          [
+            "disease."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/17.mp3",
+        "timeStart": 65.6,
+        "timeEnd": 69.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1619/list"
+      },
+      {
+        "id": 1620,
+        "position": 18,
+        "content": "Cancer can attack different parts of the body.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Cancer",
+          "can",
+          "attack",
+          "different",
+          "parts",
+          "of",
+          "the",
+          "body."
+        ],
+        "solution": [
+          [
+            "Cancer"
+          ],
+          [
+            "can"
+          ],
+          [
+            "attack"
+          ],
+          [
+            "different"
+          ],
+          [
+            "parts"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "body."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/18.mp3",
+        "timeStart": 70.7,
+        "timeEnd": 73.2,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/1620/list"
+      },
+      {
+        "id": 1621,
+        "position": 19,
+        "content": "Many smokers get lung cancer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Many",
+          "smokers",
+          "get",
+          "lung",
+          "cancer."
+        ],
+        "solution": [
+          [
+            "Many"
+          ],
+          [
+            "smokers"
+          ],
+          [
+            "get"
+          ],
+          [
+            "lung"
+          ],
+          [
+            "cancer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/19.mp3",
+        "timeStart": 74.7,
+        "timeEnd": 76.7,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1621/list"
+      },
+      {
+        "id": 1622,
+        "position": 20,
+        "content": "Some diseases are treated with pills or medicine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "diseases",
+          "are",
+          "treated",
+          "with",
+          "pills",
+          "or",
+          "medicine."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "diseases"
+          ],
+          [
+            "are"
+          ],
+          [
+            "treated"
+          ],
+          [
+            "with"
+          ],
+          [
+            "pills"
+          ],
+          [
+            "or"
+          ],
+          [
+            "medicine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/20.mp3",
+        "timeStart": 78.3,
+        "timeEnd": 81.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1622/list"
+      },
+      {
+        "id": 1623,
+        "position": 21,
+        "content": "Other diseases need to be treated in the hospital.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Other",
+          "diseases",
+          "need",
+          "to",
+          "be",
+          "treated",
+          "in",
+          "the",
+          "hospital."
+        ],
+        "solution": [
+          [
+            "Other"
+          ],
+          [
+            "diseases"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "treated"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hospital."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/21.mp3",
+        "timeStart": 83,
+        "timeEnd": 85.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1623/list"
+      },
+      {
+        "id": 1624,
+        "position": 22,
+        "content": "Sometimes doctors need to give you tests to find out what kind of disease you have.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sometimes",
+          "doctors",
+          "need",
+          "to",
+          "give",
+          "you",
+          "tests",
+          "to",
+          "find",
+          "out",
+          "what",
+          "kind",
+          "of",
+          "disease",
+          [
+            "you have.",
+            "you've"
+          ]
+        ],
+        "solution": [
+          [
+            "Sometimes"
+          ],
+          [
+            "doctors"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tests"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "what"
+          ],
+          [
+            "kind"
+          ],
+          [
+            "of"
+          ],
+          [
+            "disease"
+          ],
+          [
+            "you have.",
+            "you've"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/22.mp3",
+        "timeStart": 87.3,
+        "timeEnd": 91.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/1624/list"
+      },
+      {
+        "id": 1625,
+        "position": 23,
+        "content": "The doctor might have to do a blood test or an x-ray to find out what is wrong with you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "doctor",
+          "might",
+          "have",
+          "to",
+          "do",
+          "a",
+          "blood",
+          "test",
+          "or",
+          "an",
+          [
+            "x-ray",
+            "x ray"
+          ],
+          "to",
+          "find",
+          "out",
+          [
+            "what is",
+            "what's"
+          ],
+          "wrong",
+          "with",
+          "you."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "might"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "a"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "test"
+          ],
+          [
+            "or"
+          ],
+          [
+            "an"
+          ],
+          [
+            "x-ray",
+            "x ray"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "what is",
+            "what's"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/23.mp3",
+        "timeStart": 93.5,
+        "timeEnd": 98.2,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/1625/list"
+      },
+      {
+        "id": 1626,
+        "position": 24,
+        "content": "Most diseases can be cured by a doctor.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Most",
+          "diseases",
+          "can",
+          "be",
+          "cured",
+          "by",
+          "a",
+          "doctor."
+        ],
+        "solution": [
+          [
+            "Most"
+          ],
+          [
+            "diseases"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "cured"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "doctor."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/37-diseases-2019-03-20-09-38-02/24.mp3",
+        "timeStart": 99.7,
+        "timeEnd": 102.3,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/1626/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "1603": {
+      "id": 2588406,
+      "text": "Có nhiều loại bệnh.",
+      "author": "ChatGPT4.1"
+    },
+    "1604": {
+      "id": 2588407,
+      "text": "Một số bệnh rất nguy hiểm, và một số thì không nghiêm trọng lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "1605": {
+      "id": 2588408,
+      "text": "Hầu hết mọi người đôi khi bị cảm lạnh.",
+      "author": "ChatGPT4.1"
+    },
+    "1606": {
+      "id": 2588409,
+      "text": "Cảm lạnh khiến bạn ho và hắt hơi.",
+      "author": "ChatGPT4.1"
+    },
+    "1607": {
+      "id": 2588410,
+      "text": "Cảm lạnh có thể lây truyền từ người này sang người khác.",
+      "author": "ChatGPT4.1"
+    },
+    "1608": {
+      "id": 2588411,
+      "text": "Một số người bị cúm.",
+      "author": "ChatGPT4.1"
+    },
+    "1609": {
+      "id": 2588412,
+      "text": "Khi bị cúm, bạn sẽ bị ớn lạnh và sốt.",
+      "author": "ChatGPT4.1"
+    },
+    "1610": {
+      "id": 2588413,
+      "text": "Sốt là nhiệt độ cơ thể cao.",
+      "author": "ChatGPT4.1"
+    },
+    "1611": {
+      "id": 2588414,
+      "text": "Nếu bị cúm, bạn sẽ cảm thấy rất mệt mỏi.",
+      "author": "ChatGPT4.1"
+    },
+    "1612": {
+      "id": 2588415,
+      "text": "Bạn phải ở nhà nằm nghỉ trên giường.",
+      "author": "ChatGPT4.1"
+    },
+    "1613": {
+      "id": 2588416,
+      "text": "Có những căn bệnh mà trẻ em mắc phải.",
+      "author": "ChatGPT4.1"
+    },
+    "1614": {
+      "id": 2588417,
+      "text": "Bệnh quai bị khiến bạn bị nổi các cục sưng ở cổ.",
+      "author": "a user"
+    },
+    "1615": {
+      "id": 2588418,
+      "text": "Bệnh thủy đậu và sởi khiến bạn có các chấm đỏ ngứa trên da.",
+      "author": "ChatGPT4.1"
+    },
+    "1616": {
+      "id": 2588419,
+      "text": "Người già đôi khi bị viêm khớp.",
+      "author": "ChatGPT4.1"
+    },
+    "1617": {
+      "id": 2588420,
+      "text": "Xương của họ trở nên cứng và đau.",
+      "author": "ChatGPT4.1"
+    },
+    "1618": {
+      "id": 2588421,
+      "text": "Có những người mắc bệnh tim.",
+      "author": "ChatGPT4.1"
+    },
+    "1619": {
+      "id": 2588422,
+      "text": "Trong nhiều trường hợp, lối sống lành mạnh có thể phòng ngừa bệnh tim.",
+      "author": "ChatGPT4.1"
+    },
+    "1620": {
+      "id": 2588423,
+      "text": "Ung thư có thể tấn công các bộ phận khác nhau của cơ thể.",
+      "author": "ChatGPT4.1"
+    },
+    "1621": {
+      "id": 2588424,
+      "text": "Nhiều người hút thuốc bị ung thư phổi.",
+      "author": "ChatGPT4.1"
+    },
+    "1622": {
+      "id": 2588425,
+      "text": "Một số bệnh được điều trị bằng thuốc viên hoặc thuốc uống.",
+      "author": "ChatGPT4.1"
+    },
+    "1623": {
+      "id": 2588426,
+      "text": "Một số bệnh khác cần được điều trị tại bệnh viện.",
+      "author": "ChatGPT4.1"
+    },
+    "1624": {
+      "id": 2588427,
+      "text": "Đôi khi bác sĩ cần làm xét nghiệm để biết bạn mắc loại bệnh gì.",
+      "author": "ChatGPT4.1"
+    },
+    "1625": {
+      "id": 2588428,
+      "text": "Bác sĩ có thể phải làm xét nghiệm máu hoặc chụp X-quang để biết bạn bị gì.",
+      "author": "ChatGPT4.1"
+    },
+    "1626": {
+      "id": 2588429,
+      "text": "Hầu hết các bệnh đều có thể được chữa khỏi bởi bác sĩ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

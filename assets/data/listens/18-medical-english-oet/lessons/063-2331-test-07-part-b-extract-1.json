@@ -1,0 +1,822 @@
+{
+  "summary": {
+    "id": 2331,
+    "name": "Test 07 - Part B - Extract 1",
+    "subTitle": "Kidney Function Assessment",
+    "levelName": "B2",
+    "position": 63,
+    "totalChallenges": 11,
+    "groupId": 137,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2331",
+  "detail": {
+    "id": 2331,
+    "lessonName": "Test 07 - Part B - Extract 1",
+    "name": "Test 07 - Part B - Extract 1",
+    "position": 63,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/0-test-07-part-b-extract-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 91767,
+        "position": 1,
+        "content": "You can get dressed now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "get",
+          "dressed",
+          "now."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "dressed"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/1.mp3",
+        "timeStart": 0.63,
+        "timeEnd": 2.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91767/list"
+      },
+      {
+        "id": 91768,
+        "position": 2,
+        "content": "Well Mr Hartley, I think your problem is due to the fact that the kidneys are not working as well as they should be.",
+        "defaultInput": "Well Mr Hartley, ",
+        "jsonContent": [
+          "Well",
+          "Mr",
+          "Hartley,",
+          "I",
+          "think",
+          "your",
+          "problem",
+          "is",
+          "due",
+          "to",
+          "the",
+          "fact",
+          "that",
+          "the",
+          "kidneys",
+          [
+            "are not",
+            "aren't"
+          ],
+          "working",
+          "as",
+          "well",
+          "as",
+          "they",
+          "should",
+          "be."
+        ],
+        "solution": [
+          [
+            "Well"
+          ],
+          [
+            "Mr"
+          ],
+          [
+            "Hartley,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "your"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "is"
+          ],
+          [
+            "due"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fact"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "kidneys"
+          ],
+          [
+            "are not",
+            "aren't"
+          ],
+          [
+            "working"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "they"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/2.mp3",
+        "timeStart": 2.21,
+        "timeEnd": 8.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91768/list"
+      },
+      {
+        "id": 91769,
+        "position": 3,
+        "content": "Have you ever had trouble with your water before?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "you",
+          "ever",
+          "had",
+          "trouble",
+          "with",
+          "your",
+          "water",
+          "before?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "had"
+          ],
+          [
+            "trouble"
+          ],
+          [
+            "with"
+          ],
+          [
+            "your"
+          ],
+          [
+            "water"
+          ],
+          [
+            "before?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/3.mp3",
+        "timeStart": 8.19,
+        "timeEnd": 10.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91769/list"
+      },
+      {
+        "id": 91770,
+        "position": 4,
+        "content": "Oh yes, a couple of years ago I had burning when I passed water.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "yes,",
+          "a",
+          "couple",
+          "of",
+          "years",
+          "ago",
+          [
+            "I had",
+            "I'd"
+          ],
+          "burning",
+          "when",
+          "I",
+          "passed",
+          "water."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "yes,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "years"
+          ],
+          [
+            "ago"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "burning"
+          ],
+          [
+            "when"
+          ],
+          [
+            "I"
+          ],
+          [
+            "passed"
+          ],
+          [
+            "water."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/4.mp3",
+        "timeStart": 10.67,
+        "timeEnd": 15.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91770/list"
+      },
+      {
+        "id": 91771,
+        "position": 5,
+        "content": "The GP said I had high blood pressure and he put me on tablets and it cleared up for a while.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "GP",
+          "said",
+          [
+            "I had",
+            "I'd"
+          ],
+          "high",
+          "blood",
+          "pressure",
+          "and",
+          "he",
+          "put",
+          "me",
+          "on",
+          "tablets",
+          "and",
+          "it",
+          "cleared",
+          "up",
+          "for",
+          "a",
+          "while."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "GP"
+          ],
+          [
+            "said"
+          ],
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "high"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "pressure"
+          ],
+          [
+            "and"
+          ],
+          [
+            "he"
+          ],
+          [
+            "put"
+          ],
+          [
+            "me"
+          ],
+          [
+            "on"
+          ],
+          [
+            "tablets"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it"
+          ],
+          [
+            "cleared"
+          ],
+          [
+            "up"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "while."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/5.mp3",
+        "timeStart": 15.02,
+        "timeEnd": 20.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91771/list"
+      },
+      {
+        "id": 91772,
+        "position": 6,
+        "content": "So what now?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "what",
+          "now?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "what"
+          ],
+          [
+            "now?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/6.mp3",
+        "timeStart": 20.69,
+        "timeEnd": 22.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91772/list"
+      },
+      {
+        "id": 91773,
+        "position": 7,
+        "content": "Well, I want you to have some blood tests, x-rays and kidney function tests.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I",
+          "want",
+          "you",
+          "to",
+          "have",
+          "some",
+          "blood",
+          "tests,",
+          [
+            "x-rays",
+            "x rays"
+          ],
+          "and",
+          "kidney",
+          "function",
+          "tests."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "want"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "some"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "tests,"
+          ],
+          [
+            "x-rays",
+            "x rays"
+          ],
+          [
+            "and"
+          ],
+          [
+            "kidney"
+          ],
+          [
+            "function"
+          ],
+          [
+            "tests."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/7.mp3",
+        "timeStart": 22.07,
+        "timeEnd": 27.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91773/list"
+      },
+      {
+        "id": 91774,
+        "position": 8,
+        "content": "I want you to collect your urine for 24 hours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "want",
+          "you",
+          "to",
+          "collect",
+          "your",
+          "urine",
+          "for",
+          [
+            "24",
+            "twenty-four"
+          ],
+          "hours."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "want"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "collect"
+          ],
+          [
+            "your"
+          ],
+          [
+            "urine"
+          ],
+          [
+            "for"
+          ],
+          [
+            "24",
+            "twenty-four"
+          ],
+          [
+            "hours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/8.mp3",
+        "timeStart": 27.34,
+        "timeEnd": 30.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91774/list"
+      },
+      {
+        "id": 91775,
+        "position": 9,
+        "content": "The nurse will tell you exactly how to do it.",
+        "defaultInput": "The ",
+        "jsonContent": [
+          "The",
+          "nurse",
+          "will",
+          "tell",
+          "you",
+          "exactly",
+          "how",
+          "to",
+          "do",
+          "it."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "nurse"
+          ],
+          [
+            "will"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "you"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/9.mp3",
+        "timeStart": 30.17,
+        "timeEnd": 32.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91775/list"
+      },
+      {
+        "id": 91776,
+        "position": 10,
+        "content": "Then we'll ask you to come in for an ultrasound examination of the kidneys.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          [
+            "we'll",
+            "we will"
+          ],
+          "ask",
+          "you",
+          "to",
+          "come",
+          "in",
+          "for",
+          "an",
+          "ultrasound",
+          "examination",
+          "of",
+          "the",
+          "kidneys."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "in"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "ultrasound"
+          ],
+          [
+            "examination"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "kidneys."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/10.mp3",
+        "timeStart": 32.62,
+        "timeEnd": 36.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91776/list"
+      },
+      {
+        "id": 91777,
+        "position": 11,
+        "content": "This is a very simple procedure to make sure there is no obstruction.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "a",
+          "very",
+          "simple",
+          "procedure",
+          "to",
+          "make",
+          "sure",
+          [
+            "there is",
+            "there's"
+          ],
+          "no",
+          "obstruction."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "procedure"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "there is",
+            "there's"
+          ],
+          [
+            "no"
+          ],
+          [
+            "obstruction."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-b-extract-1-2025-08-29-22-20-19/11.mp3",
+        "timeStart": 36.77,
+        "timeEnd": 40.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91777/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "91767": {
+      "id": 3684422,
+      "text": "Bây giờ ông có thể mặc quần áo vào.",
+      "author": "ChatGPT4.1"
+    },
+    "91768": {
+      "id": 3684423,
+      "text": "Ông Hartley, tôi nghĩ vấn đề của ông là do thận không hoạt động tốt như bình thường.",
+      "author": "ChatGPT4.1"
+    },
+    "91769": {
+      "id": 3684424,
+      "text": "Trước đây, ông có từng gặp khó khăn gì khi đi tiểu không?",
+      "author": "ChatGPT4.1"
+    },
+    "91770": {
+      "id": 3684425,
+      "text": "À có, vài năm trước tôi cảm thấy rát khi đi tiểu.",
+      "author": "ChatGPT4.1"
+    },
+    "91771": {
+      "id": 3684426,
+      "text": "Bác sĩ đa khoa bảo tôi bị cao huyết áp và kê thuốc cho tôi, sau đó tạm thời hết triệu chứng.",
+      "author": "ChatGPT4.1"
+    },
+    "91772": {
+      "id": 3684427,
+      "text": "Vậy bây giờ thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "91773": {
+      "id": 3684428,
+      "text": "Tôi muốn ông làm một số xét nghiệm máu, chụp X-quang và kiểm tra chức năng thận.",
+      "author": "ChatGPT4.1"
+    },
+    "91774": {
+      "id": 3684429,
+      "text": "Tôi muốn ông lấy mẫu nước tiểu trong vòng 24 giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "91775": {
+      "id": 3684430,
+      "text": "Y tá sẽ hướng dẫn ông chính xác cách thực hiện.",
+      "author": "ChatGPT4.1"
+    },
+    "91776": {
+      "id": 3684431,
+      "text": "Sau đó, chúng tôi sẽ yêu cầu ông đến kiểm tra siêu âm thận.",
+      "author": "ChatGPT4.1"
+    },
+    "91777": {
+      "id": 3684432,
+      "text": "Đây là một thủ thuật rất đơn giản để đảm bảo không có sự tắc nghẽn nào.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

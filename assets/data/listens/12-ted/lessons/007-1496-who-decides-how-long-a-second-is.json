@@ -1,0 +1,4467 @@
+{
+  "summary": {
+    "id": 1496,
+    "name": "Who decides how long a second is?",
+    "subTitle": "",
+    "levelName": "C2",
+    "position": 7,
+    "totalChallenges": 78,
+    "groupId": 114,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1496",
+  "detail": {
+    "id": 1496,
+    "lessonName": "Who decides how long a second is?",
+    "name": "Who decides how long a second is?",
+    "position": 7,
+    "levelName": "C2",
+    "audioSrc": "",
+    "youtubeVideoId": "OKms5a0nGO4",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 64472,
+        "position": 1,
+        "content": "In 1967,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "1967,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "1967,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 6.8,
+        "timeEnd": 8.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64472/list"
+      },
+      {
+        "id": 64473,
+        "position": 2,
+        "content": "researchers from around the world gathered to answer a long-running scientific question:",
+        "defaultInput": "",
+        "jsonContent": [
+          "researchers",
+          "from",
+          "around",
+          "the",
+          "world",
+          "gathered",
+          "to",
+          "answer",
+          "a",
+          [
+            "long-running",
+            "long running"
+          ],
+          "scientific",
+          "question:"
+        ],
+        "solution": [
+          [
+            "researchers"
+          ],
+          [
+            "from"
+          ],
+          [
+            "around"
+          ],
+          [
+            "the"
+          ],
+          [
+            "world"
+          ],
+          [
+            "gathered"
+          ],
+          [
+            "to"
+          ],
+          [
+            "answer"
+          ],
+          [
+            "a"
+          ],
+          [
+            "long-running",
+            "long running"
+          ],
+          [
+            "scientific"
+          ],
+          [
+            "question:"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 8.61,
+        "timeEnd": 14.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64473/list"
+      },
+      {
+        "id": 64474,
+        "position": 3,
+        "content": "just how long is a second?",
+        "defaultInput": "",
+        "jsonContent": [
+          "just",
+          "how",
+          "long",
+          "is",
+          "a",
+          "second?"
+        ],
+        "solution": [
+          [
+            "just"
+          ],
+          [
+            "how"
+          ],
+          [
+            "long"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 14.56,
+        "timeEnd": 17.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64474/list"
+      },
+      {
+        "id": 64475,
+        "position": 4,
+        "content": "It might seem obvious at first.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "might",
+          "seem",
+          "obvious",
+          "at",
+          [
+            "first.",
+            "1st"
+          ]
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "might"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "obvious"
+          ],
+          [
+            "at"
+          ],
+          [
+            "first.",
+            "1st"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 17.48,
+        "timeEnd": 19.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64475/list"
+      },
+      {
+        "id": 64476,
+        "position": 5,
+        "content": "A second is the tick of a clock, the swing of a pendulum,",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "second",
+          "is",
+          "the",
+          "tick",
+          "of",
+          "a",
+          "clock,",
+          "the",
+          "swing",
+          "of",
+          "a",
+          "pendulum,"
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "second"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "tick"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "clock,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "swing"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pendulum,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 19.93,
+        "timeEnd": 23.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64476/list"
+      },
+      {
+        "id": 64477,
+        "position": 6,
+        "content": "the time it takes to count to one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "time",
+          "it",
+          "takes",
+          "to",
+          "count",
+          "to",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "it"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "count"
+          ],
+          [
+            "to"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 23.32,
+        "timeEnd": 25.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64477/list"
+      },
+      {
+        "id": 64478,
+        "position": 7,
+        "content": "But how precise are those measurements?",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "how",
+          "precise",
+          "are",
+          "those",
+          "measurements?"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "how"
+          ],
+          [
+            "precise"
+          ],
+          [
+            "are"
+          ],
+          [
+            "those"
+          ],
+          [
+            "measurements?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 25.77,
+        "timeEnd": 28.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64478/list"
+      },
+      {
+        "id": 64479,
+        "position": 8,
+        "content": "What is that length based on?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What is",
+            "What's"
+          ],
+          "that",
+          "length",
+          "based",
+          "on?"
+        ],
+        "solution": [
+          [
+            "What is",
+            "What's"
+          ],
+          [
+            "that"
+          ],
+          [
+            "length"
+          ],
+          [
+            "based"
+          ],
+          [
+            "on?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 28.24,
+        "timeEnd": 30.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64479/list"
+      },
+      {
+        "id": 64480,
+        "position": 9,
+        "content": "And how can we scientifically define this fundamental unit of time?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "how",
+          "can",
+          "we",
+          "scientifically",
+          "define",
+          "this",
+          "fundamental",
+          "unit",
+          "of",
+          "time?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "how"
+          ],
+          [
+            "can"
+          ],
+          [
+            "we"
+          ],
+          [
+            "scientifically"
+          ],
+          [
+            "define"
+          ],
+          [
+            "this"
+          ],
+          [
+            "fundamental"
+          ],
+          [
+            "unit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 30.3,
+        "timeEnd": 35.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64480/list"
+      },
+      {
+        "id": 64481,
+        "position": 10,
+        "content": "For most of human history,",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "most",
+          "of",
+          "human",
+          "history,"
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "human"
+          ],
+          [
+            "history,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 35.55,
+        "timeEnd": 37.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64481/list"
+      },
+      {
+        "id": 64482,
+        "position": 11,
+        "content": "ancient civilizations measured time with unique calendars",
+        "defaultInput": "",
+        "jsonContent": [
+          "ancient",
+          [
+            "civilizations",
+            "civilisations"
+          ],
+          "measured",
+          "time",
+          "with",
+          "unique",
+          "calendars"
+        ],
+        "solution": [
+          [
+            "ancient"
+          ],
+          [
+            "civilizations",
+            "civilisations"
+          ],
+          [
+            "measured"
+          ],
+          [
+            "time"
+          ],
+          [
+            "with"
+          ],
+          [
+            "unique"
+          ],
+          [
+            "calendars"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 37.44,
+        "timeEnd": 41.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64482/list"
+      },
+      {
+        "id": 64483,
+        "position": 12,
+        "content": "that tracked the steady march of the night sky.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "tracked",
+          "the",
+          "steady",
+          "march",
+          "of",
+          "the",
+          "night",
+          "sky."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "tracked"
+          ],
+          [
+            "the"
+          ],
+          [
+            "steady"
+          ],
+          [
+            "march"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "night"
+          ],
+          [
+            "sky."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 41.56,
+        "timeEnd": 44.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64483/list"
+      },
+      {
+        "id": 64484,
+        "position": 13,
+        "content": "In fact, the second as we know it wasn't introduced until the late 1500's,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "fact,",
+          "the",
+          "second",
+          "as",
+          "we",
+          "know",
+          "it",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "introduced",
+          "until",
+          "the",
+          "late",
+          "1500's,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "fact,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second"
+          ],
+          [
+            "as"
+          ],
+          [
+            "we"
+          ],
+          [
+            "know"
+          ],
+          [
+            "it"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "introduced"
+          ],
+          [
+            "until"
+          ],
+          [
+            "the"
+          ],
+          [
+            "late"
+          ],
+          [
+            "1500's,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 44.84,
+        "timeEnd": 51.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64484/list"
+      },
+      {
+        "id": 64485,
+        "position": 14,
+        "content": "when the Gregorian calendar began to spread across the globe alongside British colonialism.",
+        "defaultInput": "",
+        "jsonContent": [
+          "when",
+          "the",
+          "Gregorian",
+          "calendar",
+          "began",
+          "to",
+          "spread",
+          "across",
+          "the",
+          "globe",
+          "alongside",
+          "British",
+          "colonialism."
+        ],
+        "solution": [
+          [
+            "when"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Gregorian"
+          ],
+          [
+            "calendar"
+          ],
+          [
+            "began"
+          ],
+          [
+            "to"
+          ],
+          [
+            "spread"
+          ],
+          [
+            "across"
+          ],
+          [
+            "the"
+          ],
+          [
+            "globe"
+          ],
+          [
+            "alongside"
+          ],
+          [
+            "British"
+          ],
+          [
+            "colonialism."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 51.13,
+        "timeEnd": 57.31,
+        "hints": [
+          "Gregorian"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64485/list"
+      },
+      {
+        "id": 64486,
+        "position": 15,
+        "content": "The Gregorian calendar defined a day as a single revolution of the Earth about its axis.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "Gregorian",
+          "calendar",
+          "defined",
+          "a",
+          "day",
+          "as",
+          "a",
+          "single",
+          "revolution",
+          "of",
+          "the",
+          "Earth",
+          "about",
+          "its",
+          "axis."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "Gregorian"
+          ],
+          [
+            "calendar"
+          ],
+          [
+            "defined"
+          ],
+          [
+            "a"
+          ],
+          [
+            "day"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "single"
+          ],
+          [
+            "revolution"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Earth"
+          ],
+          [
+            "about"
+          ],
+          [
+            "its"
+          ],
+          [
+            "axis."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 57.31,
+        "timeEnd": 63.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64486/list"
+      },
+      {
+        "id": 64487,
+        "position": 16,
+        "content": "Each day could be divided into 24 hours,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Each",
+          "day",
+          "could",
+          "be",
+          "divided",
+          "into",
+          [
+            "24",
+            "twenty-four"
+          ],
+          "hours,"
+        ],
+        "solution": [
+          [
+            "Each"
+          ],
+          [
+            "day"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "divided"
+          ],
+          [
+            "into"
+          ],
+          [
+            "24",
+            "twenty-four"
+          ],
+          [
+            "hours,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 63.9,
+        "timeEnd": 67.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64487/list"
+      },
+      {
+        "id": 64488,
+        "position": 17,
+        "content": "each hour into 60 minutes,",
+        "defaultInput": "",
+        "jsonContent": [
+          "each",
+          "hour",
+          "into",
+          [
+            "60",
+            "sixty"
+          ],
+          "minutes,"
+        ],
+        "solution": [
+          [
+            "each"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "into"
+          ],
+          [
+            "60",
+            "sixty"
+          ],
+          [
+            "minutes,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 67.39,
+        "timeEnd": 69.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64488/list"
+      },
+      {
+        "id": 64489,
+        "position": 18,
+        "content": "and each minute into 60 seconds.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "each",
+          "minute",
+          "into",
+          [
+            "60",
+            "sixty"
+          ],
+          "seconds."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "each"
+          ],
+          [
+            "minute"
+          ],
+          [
+            "into"
+          ],
+          [
+            "60",
+            "sixty"
+          ],
+          [
+            "seconds."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 69.55,
+        "timeEnd": 72.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64489/list"
+      },
+      {
+        "id": 64490,
+        "position": 19,
+        "content": "However, when it was first defined,",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "when",
+          "it",
+          "was",
+          [
+            "first",
+            "1st"
+          ],
+          "defined,"
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "defined,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 72.56,
+        "timeEnd": 75.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64490/list"
+      },
+      {
+        "id": 64491,
+        "position": 20,
+        "content": "the second was more of a mathematical idea than a useful unit of time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "second",
+          "was",
+          "more",
+          "of",
+          "a",
+          "mathematical",
+          "idea",
+          "than",
+          "a",
+          "useful",
+          "unit",
+          "of",
+          "time."
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "second"
+          ],
+          [
+            "was"
+          ],
+          [
+            "more"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "mathematical"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "than"
+          ],
+          [
+            "a"
+          ],
+          [
+            "useful"
+          ],
+          [
+            "unit"
+          ],
+          [
+            "of"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 75.04,
+        "timeEnd": 80.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64491/list"
+      },
+      {
+        "id": 64492,
+        "position": 21,
+        "content": "Measuring days and hours was sufficient for most tasks in pastoral communities.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Measuring",
+          "days",
+          "and",
+          "hours",
+          "was",
+          "sufficient",
+          "for",
+          "most",
+          "tasks",
+          "in",
+          "pastoral",
+          "communities."
+        ],
+        "solution": [
+          [
+            "Measuring"
+          ],
+          [
+            "days"
+          ],
+          [
+            "and"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "was"
+          ],
+          [
+            "sufficient"
+          ],
+          [
+            "for"
+          ],
+          [
+            "most"
+          ],
+          [
+            "tasks"
+          ],
+          [
+            "in"
+          ],
+          [
+            "pastoral"
+          ],
+          [
+            "communities."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 80.44,
+        "timeEnd": 86.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64492/list"
+      },
+      {
+        "id": 64493,
+        "position": 22,
+        "content": "It wasn't until society became interconnected through fast-moving railways",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "until",
+          "society",
+          "became",
+          "interconnected",
+          "through",
+          [
+            "fast-moving",
+            "fast moving"
+          ],
+          "railways"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "until"
+          ],
+          [
+            "society"
+          ],
+          [
+            "became"
+          ],
+          [
+            "interconnected"
+          ],
+          [
+            "through"
+          ],
+          [
+            "fast-moving",
+            "fast moving"
+          ],
+          [
+            "railways"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 86.26,
+        "timeEnd": 91.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64493/list"
+      },
+      {
+        "id": 64494,
+        "position": 23,
+        "content": "that cities needed to agree on exact timekeeping.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "cities",
+          "needed",
+          "to",
+          "agree",
+          "on",
+          "exact",
+          "timekeeping."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "cities"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "agree"
+          ],
+          [
+            "on"
+          ],
+          [
+            "exact"
+          ],
+          [
+            "timekeeping."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 91.25,
+        "timeEnd": 94.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64494/list"
+      },
+      {
+        "id": 64495,
+        "position": 24,
+        "content": "By the 1950's,",
+        "defaultInput": "",
+        "jsonContent": [
+          "By",
+          "the",
+          "1950's,"
+        ],
+        "solution": [
+          [
+            "By"
+          ],
+          [
+            "the"
+          ],
+          [
+            "1950's,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 94.75,
+        "timeEnd": 96.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64495/list"
+      },
+      {
+        "id": 64496,
+        "position": 25,
+        "content": "numerous global systems required every second to be perfectly accounted for,",
+        "defaultInput": "",
+        "jsonContent": [
+          "numerous",
+          "global",
+          "systems",
+          "required",
+          "every",
+          "second",
+          "to",
+          "be",
+          "perfectly",
+          "accounted",
+          "for,"
+        ],
+        "solution": [
+          [
+            "numerous"
+          ],
+          [
+            "global"
+          ],
+          [
+            "systems"
+          ],
+          [
+            "required"
+          ],
+          [
+            "every"
+          ],
+          [
+            "second"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "perfectly"
+          ],
+          [
+            "accounted"
+          ],
+          [
+            "for,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 96.28,
+        "timeEnd": 101.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64496/list"
+      },
+      {
+        "id": 64497,
+        "position": 26,
+        "content": "with as much precision as possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "as",
+          "much",
+          "precision",
+          "as",
+          "possible."
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "as"
+          ],
+          [
+            "much"
+          ],
+          [
+            "precision"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 101.43,
+        "timeEnd": 103.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64497/list"
+      },
+      {
+        "id": 64498,
+        "position": 27,
+        "content": "And what could be more precise than the atomic scale?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "could",
+          "be",
+          "more",
+          "precise",
+          "than",
+          "the",
+          "atomic",
+          "scale?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "more"
+          ],
+          [
+            "precise"
+          ],
+          [
+            "than"
+          ],
+          [
+            "the"
+          ],
+          [
+            "atomic"
+          ],
+          [
+            "scale?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 103.96,
+        "timeEnd": 108.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64498/list"
+      },
+      {
+        "id": 64499,
+        "position": 28,
+        "content": "As early as 1955,",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "early",
+          "as",
+          "1955,"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "early"
+          ],
+          [
+            "as"
+          ],
+          [
+            "1955,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 108.86,
+        "timeEnd": 111.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64499/list"
+      },
+      {
+        "id": 64500,
+        "position": 29,
+        "content": "researchers began to develop atomic clocks,",
+        "defaultInput": "",
+        "jsonContent": [
+          "researchers",
+          "began",
+          "to",
+          "develop",
+          "atomic",
+          "clocks,"
+        ],
+        "solution": [
+          [
+            "researchers"
+          ],
+          [
+            "began"
+          ],
+          [
+            "to"
+          ],
+          [
+            "develop"
+          ],
+          [
+            "atomic"
+          ],
+          [
+            "clocks,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 111.2,
+        "timeEnd": 114.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64500/list"
+      },
+      {
+        "id": 64501,
+        "position": 30,
+        "content": "which relied on the unchanging laws of physics",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "relied",
+          "on",
+          "the",
+          "unchanging",
+          "laws",
+          "of",
+          "physics"
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "relied"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "unchanging"
+          ],
+          [
+            "laws"
+          ],
+          [
+            "of"
+          ],
+          [
+            "physics"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 114.42,
+        "timeEnd": 117.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64501/list"
+      },
+      {
+        "id": 64502,
+        "position": 31,
+        "content": "to establish a new foundation for timekeeping.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "establish",
+          "a",
+          "new",
+          "foundation",
+          "for",
+          "timekeeping."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "establish"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "foundation"
+          ],
+          [
+            "for"
+          ],
+          [
+            "timekeeping."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 117.56,
+        "timeEnd": 120.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64502/list"
+      },
+      {
+        "id": 64503,
+        "position": 32,
+        "content": "An atom consists of negatively charged electrons",
+        "defaultInput": "",
+        "jsonContent": [
+          "An",
+          "atom",
+          "consists",
+          "of",
+          "negatively",
+          "charged",
+          "electrons"
+        ],
+        "solution": [
+          [
+            "An"
+          ],
+          [
+            "atom"
+          ],
+          [
+            "consists"
+          ],
+          [
+            "of"
+          ],
+          [
+            "negatively"
+          ],
+          [
+            "charged"
+          ],
+          [
+            "electrons"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 121.12,
+        "timeEnd": 124.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64503/list"
+      },
+      {
+        "id": 64504,
+        "position": 33,
+        "content": "orbiting a positively charged nucleus at a consistent frequency.",
+        "defaultInput": "",
+        "jsonContent": [
+          "orbiting",
+          "a",
+          "positively",
+          "charged",
+          "nucleus",
+          "at",
+          "a",
+          "consistent",
+          "frequency."
+        ],
+        "solution": [
+          [
+            "orbiting"
+          ],
+          [
+            "a"
+          ],
+          [
+            "positively"
+          ],
+          [
+            "charged"
+          ],
+          [
+            "nucleus"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "consistent"
+          ],
+          [
+            "frequency."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 124.89,
+        "timeEnd": 129.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64504/list"
+      },
+      {
+        "id": 64505,
+        "position": 34,
+        "content": "The laws of quantum mechanics keep these electrons in place,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "laws",
+          "of",
+          "quantum",
+          "mechanics",
+          "keep",
+          "these",
+          "electrons",
+          "in",
+          "place,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "laws"
+          ],
+          [
+            "of"
+          ],
+          [
+            "quantum"
+          ],
+          [
+            "mechanics"
+          ],
+          [
+            "keep"
+          ],
+          [
+            "these"
+          ],
+          [
+            "electrons"
+          ],
+          [
+            "in"
+          ],
+          [
+            "place,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 129.83,
+        "timeEnd": 133.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64505/list"
+      },
+      {
+        "id": 64506,
+        "position": 35,
+        "content": "but if you expose an atom to an electromagnetic field such as light or radio waves,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "if",
+          "you",
+          "expose",
+          "an",
+          "atom",
+          "to",
+          "an",
+          "electromagnetic",
+          "field",
+          "such",
+          "as",
+          "light",
+          "or",
+          "radio",
+          "waves,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "expose"
+          ],
+          [
+            "an"
+          ],
+          [
+            "atom"
+          ],
+          [
+            "to"
+          ],
+          [
+            "an"
+          ],
+          [
+            "electromagnetic"
+          ],
+          [
+            "field"
+          ],
+          [
+            "such"
+          ],
+          [
+            "as"
+          ],
+          [
+            "light"
+          ],
+          [
+            "or"
+          ],
+          [
+            "radio"
+          ],
+          [
+            "waves,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 133.96,
+        "timeEnd": 139.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64506/list"
+      },
+      {
+        "id": 64507,
+        "position": 36,
+        "content": "you can slightly disturb an electron's orientation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "can",
+          "slightly",
+          "disturb",
+          "an",
+          "electron's",
+          "orientation."
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "slightly"
+          ],
+          [
+            "disturb"
+          ],
+          [
+            "an"
+          ],
+          [
+            "electron's"
+          ],
+          [
+            "orientation."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 139.94,
+        "timeEnd": 143.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64507/list"
+      },
+      {
+        "id": 64508,
+        "position": 37,
+        "content": "And if you briefly tweak an electron at just the right frequency,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "if",
+          "you",
+          "briefly",
+          "tweak",
+          "an",
+          "electron",
+          "at",
+          "just",
+          "the",
+          "right",
+          "frequency,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "briefly"
+          ],
+          [
+            "tweak"
+          ],
+          [
+            "an"
+          ],
+          [
+            "electron"
+          ],
+          [
+            "at"
+          ],
+          [
+            "just"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "frequency,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 144.08,
+        "timeEnd": 148.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64508/list"
+      },
+      {
+        "id": 64509,
+        "position": 38,
+        "content": "you can create a vibration that resembles a ticking pendulum.",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "can",
+          "create",
+          "a",
+          "vibration",
+          "that",
+          "resembles",
+          "a",
+          "ticking",
+          "pendulum."
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "create"
+          ],
+          [
+            "a"
+          ],
+          [
+            "vibration"
+          ],
+          [
+            "that"
+          ],
+          [
+            "resembles"
+          ],
+          [
+            "a"
+          ],
+          [
+            "ticking"
+          ],
+          [
+            "pendulum."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 148.72,
+        "timeEnd": 153.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64509/list"
+      },
+      {
+        "id": 64510,
+        "position": 39,
+        "content": "Unlike regular pendulums that quickly lose energy,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Unlike",
+          "regular",
+          "pendulums",
+          "that",
+          "quickly",
+          "lose",
+          "energy,"
+        ],
+        "solution": [
+          [
+            "Unlike"
+          ],
+          [
+            "regular"
+          ],
+          [
+            "pendulums"
+          ],
+          [
+            "that"
+          ],
+          [
+            "quickly"
+          ],
+          [
+            "lose"
+          ],
+          [
+            "energy,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 153.83,
+        "timeEnd": 157.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64510/list"
+      },
+      {
+        "id": 64511,
+        "position": 40,
+        "content": "electrons can tick for centuries.",
+        "defaultInput": "",
+        "jsonContent": [
+          "electrons",
+          "can",
+          "tick",
+          "for",
+          "centuries."
+        ],
+        "solution": [
+          [
+            "electrons"
+          ],
+          [
+            "can"
+          ],
+          [
+            "tick"
+          ],
+          [
+            "for"
+          ],
+          [
+            "centuries."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 157.23,
+        "timeEnd": 159.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64511/list"
+      },
+      {
+        "id": 64512,
+        "position": 41,
+        "content": "To maintain consistency and make ticks easier to measure,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "maintain",
+          "consistency",
+          "and",
+          "make",
+          "ticks",
+          "easier",
+          "to",
+          "measure,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "maintain"
+          ],
+          [
+            "consistency"
+          ],
+          [
+            "and"
+          ],
+          [
+            "make"
+          ],
+          [
+            "ticks"
+          ],
+          [
+            "easier"
+          ],
+          [
+            "to"
+          ],
+          [
+            "measure,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 159.9,
+        "timeEnd": 163.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64512/list"
+      },
+      {
+        "id": 64513,
+        "position": 42,
+        "content": "researchers vaporize the atoms,",
+        "defaultInput": "",
+        "jsonContent": [
+          "researchers",
+          "vaporize",
+          "the",
+          "atoms,"
+        ],
+        "solution": [
+          [
+            "researchers"
+          ],
+          [
+            "vaporize"
+          ],
+          [
+            "the"
+          ],
+          [
+            "atoms,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 163.97,
+        "timeEnd": 166.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64513/list"
+      },
+      {
+        "id": 64514,
+        "position": 43,
+        "content": "converting them to a less interactive and volatile state.",
+        "defaultInput": "",
+        "jsonContent": [
+          "converting",
+          "them",
+          "to",
+          "a",
+          "less",
+          "interactive",
+          "and",
+          "volatile",
+          "state."
+        ],
+        "solution": [
+          [
+            "converting"
+          ],
+          [
+            "them"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "less"
+          ],
+          [
+            "interactive"
+          ],
+          [
+            "and"
+          ],
+          [
+            "volatile"
+          ],
+          [
+            "state."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 166.28,
+        "timeEnd": 170.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64514/list"
+      },
+      {
+        "id": 64515,
+        "position": 44,
+        "content": "But this process doesn't slow down the atom's remarkably fast ticking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "this",
+          "process",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "slow",
+          "down",
+          "the",
+          "atom's",
+          "remarkably",
+          "fast",
+          "ticking."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "this"
+          ],
+          [
+            "process"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "slow"
+          ],
+          [
+            "down"
+          ],
+          [
+            "the"
+          ],
+          [
+            "atom's"
+          ],
+          [
+            "remarkably"
+          ],
+          [
+            "fast"
+          ],
+          [
+            "ticking."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 170.76,
+        "timeEnd": 175.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64515/list"
+      },
+      {
+        "id": 64516,
+        "position": 45,
+        "content": "Some atoms can oscillate over nine billion times per second,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "atoms",
+          "can",
+          "oscillate",
+          "over",
+          [
+            "nine",
+            "9"
+          ],
+          "billion",
+          "times",
+          "per",
+          "second,"
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "atoms"
+          ],
+          [
+            "can"
+          ],
+          [
+            "oscillate"
+          ],
+          [
+            "over"
+          ],
+          [
+            "nine",
+            "9"
+          ],
+          [
+            "billion"
+          ],
+          [
+            "times"
+          ],
+          [
+            "per"
+          ],
+          [
+            "second,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 175.68,
+        "timeEnd": 180.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64516/list"
+      },
+      {
+        "id": 64517,
+        "position": 46,
+        "content": "giving atomic clocks an unparalleled resolution for measuring time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "giving",
+          "atomic",
+          "clocks",
+          "an",
+          "unparalleled",
+          "resolution",
+          "for",
+          "measuring",
+          "time."
+        ],
+        "solution": [
+          [
+            "giving"
+          ],
+          [
+            "atomic"
+          ],
+          [
+            "clocks"
+          ],
+          [
+            "an"
+          ],
+          [
+            "unparalleled"
+          ],
+          [
+            "resolution"
+          ],
+          [
+            "for"
+          ],
+          [
+            "measuring"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 180.04,
+        "timeEnd": 184.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64517/list"
+      },
+      {
+        "id": 64518,
+        "position": 47,
+        "content": "And since every atom of a given elemental isotope is identical,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "since",
+          "every",
+          "atom",
+          "of",
+          "a",
+          "given",
+          "elemental",
+          "isotope",
+          "is",
+          "identical,"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "since"
+          ],
+          [
+            "every"
+          ],
+          [
+            "atom"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "given"
+          ],
+          [
+            "elemental"
+          ],
+          [
+            "isotope"
+          ],
+          [
+            "is"
+          ],
+          [
+            "identical,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 185.27,
+        "timeEnd": 190,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64518/list"
+      },
+      {
+        "id": 64519,
+        "position": 48,
+        "content": "two researchers using the same element and the same electromagnetic wave",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "two",
+            "2"
+          ],
+          "researchers",
+          "using",
+          "the",
+          "same",
+          "element",
+          "and",
+          "the",
+          "same",
+          "electromagnetic",
+          "wave"
+        ],
+        "solution": [
+          [
+            "two",
+            "2"
+          ],
+          [
+            "researchers"
+          ],
+          [
+            "using"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "element"
+          ],
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "electromagnetic"
+          ],
+          [
+            "wave"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 190,
+        "timeEnd": 194.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64519/list"
+      },
+      {
+        "id": 64520,
+        "position": 49,
+        "content": "should produce perfectly consistent clocks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "should",
+          "produce",
+          "perfectly",
+          "consistent",
+          "clocks."
+        ],
+        "solution": [
+          [
+            "should"
+          ],
+          [
+            "produce"
+          ],
+          [
+            "perfectly"
+          ],
+          [
+            "consistent"
+          ],
+          [
+            "clocks."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 194.68,
+        "timeEnd": 197.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64520/list"
+      },
+      {
+        "id": 64521,
+        "position": 50,
+        "content": "But before timekeeping could go fully atomic,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "before",
+          "timekeeping",
+          "could",
+          "go",
+          "fully",
+          "atomic,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "before"
+          ],
+          [
+            "timekeeping"
+          ],
+          [
+            "could"
+          ],
+          [
+            "go"
+          ],
+          [
+            "fully"
+          ],
+          [
+            "atomic,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 198.44,
+        "timeEnd": 201.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64521/list"
+      },
+      {
+        "id": 64522,
+        "position": 51,
+        "content": "countries had to decide which atom would work best.",
+        "defaultInput": "",
+        "jsonContent": [
+          "countries",
+          "had",
+          "to",
+          "decide",
+          "which",
+          "atom",
+          "would",
+          "work",
+          "best."
+        ],
+        "solution": [
+          [
+            "countries"
+          ],
+          [
+            "had"
+          ],
+          [
+            "to"
+          ],
+          [
+            "decide"
+          ],
+          [
+            "which"
+          ],
+          [
+            "atom"
+          ],
+          [
+            "would"
+          ],
+          [
+            "work"
+          ],
+          [
+            "best."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 201.66,
+        "timeEnd": 205.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64522/list"
+      },
+      {
+        "id": 64523,
+        "position": 52,
+        "content": "This was the discussion in 1967,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "was",
+          "the",
+          "discussion",
+          "in",
+          "1967,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "discussion"
+          ],
+          [
+            "in"
+          ],
+          [
+            "1967,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 205.63,
+        "timeEnd": 208.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64523/list"
+      },
+      {
+        "id": 64524,
+        "position": 53,
+        "content": "at the Thirteenth General Conference",
+        "defaultInput": "",
+        "jsonContent": [
+          "at",
+          "the",
+          [
+            "Thirteenth",
+            "13th"
+          ],
+          "General",
+          "Conference"
+        ],
+        "solution": [
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Thirteenth",
+            "13th"
+          ],
+          [
+            "General"
+          ],
+          [
+            "Conference"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 208.7,
+        "timeEnd": 211.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64524/list"
+      },
+      {
+        "id": 64525,
+        "position": 54,
+        "content": "of the International Committee for Weights and Measures.",
+        "defaultInput": "",
+        "jsonContent": [
+          "of",
+          "the",
+          "International",
+          "Committee",
+          "for",
+          "Weights",
+          "and",
+          "Measures."
+        ],
+        "solution": [
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "International"
+          ],
+          [
+            "Committee"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Weights"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Measures."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 211.06,
+        "timeEnd": 214.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64525/list"
+      },
+      {
+        "id": 64526,
+        "position": 55,
+        "content": "There are 118 elements on the periodic table,",
+        "defaultInput": "",
+        "jsonContent": [
+          "There",
+          "are",
+          "118",
+          "elements",
+          "on",
+          "the",
+          "periodic",
+          "table,"
+        ],
+        "solution": [
+          [
+            "There"
+          ],
+          [
+            "are"
+          ],
+          [
+            "118"
+          ],
+          [
+            "elements"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "periodic"
+          ],
+          [
+            "table,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 215.23,
+        "timeEnd": 219.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64526/list"
+      },
+      {
+        "id": 64527,
+        "position": 56,
+        "content": "each with their own unique properties.",
+        "defaultInput": "",
+        "jsonContent": [
+          "each",
+          "with",
+          "their",
+          "own",
+          "unique",
+          "properties."
+        ],
+        "solution": [
+          [
+            "each"
+          ],
+          [
+            "with"
+          ],
+          [
+            "their"
+          ],
+          [
+            "own"
+          ],
+          [
+            "unique"
+          ],
+          [
+            "properties."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 219.18,
+        "timeEnd": 221.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64527/list"
+      },
+      {
+        "id": 64528,
+        "position": 57,
+        "content": "For this task, the researchers were looking for several things.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "this",
+          "task,",
+          "the",
+          "researchers",
+          "were",
+          "looking",
+          "for",
+          "several",
+          "things."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "this"
+          ],
+          [
+            "task,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "researchers"
+          ],
+          [
+            "were"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for"
+          ],
+          [
+            "several"
+          ],
+          [
+            "things."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 221.49,
+        "timeEnd": 225.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64528/list"
+      },
+      {
+        "id": 64529,
+        "position": 58,
+        "content": "The element needed to have long-lived and high frequency electron oscillation",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "element",
+          "needed",
+          "to",
+          "have",
+          [
+            "long-lived",
+            "long lived"
+          ],
+          "and",
+          "high",
+          "frequency",
+          "electron",
+          "oscillation"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "element"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "long-lived",
+            "long lived"
+          ],
+          [
+            "and"
+          ],
+          [
+            "high"
+          ],
+          [
+            "frequency"
+          ],
+          [
+            "electron"
+          ],
+          [
+            "oscillation"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 225.56,
+        "timeEnd": 230.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64529/list"
+      },
+      {
+        "id": 64530,
+        "position": 59,
+        "content": "for precise, long-term timekeeping.",
+        "defaultInput": "",
+        "jsonContent": [
+          "for",
+          "precise,",
+          [
+            "long-term",
+            "long term"
+          ],
+          "timekeeping."
+        ],
+        "solution": [
+          [
+            "for"
+          ],
+          [
+            "precise,"
+          ],
+          [
+            "long-term",
+            "long term"
+          ],
+          [
+            "timekeeping."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 230.92,
+        "timeEnd": 233.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64530/list"
+      },
+      {
+        "id": 64531,
+        "position": 60,
+        "content": "To easily track this oscillation,",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "easily",
+          "track",
+          "this",
+          "oscillation,"
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "easily"
+          ],
+          [
+            "track"
+          ],
+          [
+            "this"
+          ],
+          [
+            "oscillation,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 233.91,
+        "timeEnd": 236.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64531/list"
+      },
+      {
+        "id": 64532,
+        "position": 61,
+        "content": "it also needed to have a reliably measurable quantum spin,",
+        "defaultInput": "",
+        "jsonContent": [
+          "it",
+          "also",
+          "needed",
+          "to",
+          "have",
+          "a",
+          "reliably",
+          "measurable",
+          "quantum",
+          "spin,"
+        ],
+        "solution": [
+          [
+            "it"
+          ],
+          [
+            "also"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "reliably"
+          ],
+          [
+            "measurable"
+          ],
+          [
+            "quantum"
+          ],
+          [
+            "spin,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 236.33,
+        "timeEnd": 240.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64532/list"
+      },
+      {
+        "id": 64533,
+        "position": 62,
+        "content": "meaning the orientation of the axis about which the electron rotates,",
+        "defaultInput": "",
+        "jsonContent": [
+          "meaning",
+          "the",
+          "orientation",
+          "of",
+          "the",
+          "axis",
+          "about",
+          "which",
+          "the",
+          "electron",
+          "rotates,"
+        ],
+        "solution": [
+          [
+            "meaning"
+          ],
+          [
+            "the"
+          ],
+          [
+            "orientation"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "axis"
+          ],
+          [
+            "about"
+          ],
+          [
+            "which"
+          ],
+          [
+            "the"
+          ],
+          [
+            "electron"
+          ],
+          [
+            "rotates,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 240.61,
+        "timeEnd": 245.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64533/list"
+      },
+      {
+        "id": 64534,
+        "position": 63,
+        "content": "as well as a simple energy level structure,",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "well",
+          "as",
+          "a",
+          "simple",
+          "energy",
+          "level",
+          "structure,"
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "energy"
+          ],
+          [
+            "level"
+          ],
+          [
+            "structure,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 245.5,
+        "timeEnd": 248.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64534/list"
+      },
+      {
+        "id": 64535,
+        "position": 64,
+        "content": "meaning the active electrons are few and their state is simple to identify.",
+        "defaultInput": "",
+        "jsonContent": [
+          "meaning",
+          "the",
+          "active",
+          "electrons",
+          "are",
+          "few",
+          "and",
+          "their",
+          "state",
+          "is",
+          "simple",
+          "to",
+          "identify."
+        ],
+        "solution": [
+          [
+            "meaning"
+          ],
+          [
+            "the"
+          ],
+          [
+            "active"
+          ],
+          [
+            "electrons"
+          ],
+          [
+            "are"
+          ],
+          [
+            "few"
+          ],
+          [
+            "and"
+          ],
+          [
+            "their"
+          ],
+          [
+            "state"
+          ],
+          [
+            "is"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "to"
+          ],
+          [
+            "identify."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 248.97,
+        "timeEnd": 254.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64535/list"
+      },
+      {
+        "id": 64536,
+        "position": 65,
+        "content": "Finally, it needed to be easy to vaporize.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Finally,",
+          "it",
+          "needed",
+          "to",
+          "be",
+          "easy",
+          "to",
+          "vaporize."
+        ],
+        "solution": [
+          [
+            "Finally,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "needed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "easy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "vaporize."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 254.22,
+        "timeEnd": 258.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64536/list"
+      },
+      {
+        "id": 64537,
+        "position": 66,
+        "content": "The winning atom? Cesium-133.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "winning",
+          "atom?",
+          [
+            "Cesium-133.",
+            "Cesium 133."
+          ]
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "winning"
+          ],
+          [
+            "atom?"
+          ],
+          [
+            "Cesium-133.",
+            "Cesium 133."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 258.26,
+        "timeEnd": 261.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64537/list"
+      },
+      {
+        "id": 64538,
+        "position": 67,
+        "content": "Cesium was already a popular element for atomic clock research,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Cesium",
+          "was",
+          "already",
+          "a",
+          "popular",
+          "element",
+          "for",
+          "atomic",
+          "clock",
+          "research,"
+        ],
+        "solution": [
+          [
+            "Cesium"
+          ],
+          [
+            "was"
+          ],
+          [
+            "already"
+          ],
+          [
+            "a"
+          ],
+          [
+            "popular"
+          ],
+          [
+            "element"
+          ],
+          [
+            "for"
+          ],
+          [
+            "atomic"
+          ],
+          [
+            "clock"
+          ],
+          [
+            "research,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 262.37,
+        "timeEnd": 266.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64538/list"
+      },
+      {
+        "id": 64539,
+        "position": 68,
+        "content": "and by 1968, some cesium clocks were even commercially available.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "by",
+          "1968,",
+          "some",
+          "cesium",
+          "clocks",
+          "were",
+          "even",
+          "commercially",
+          "available."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "by"
+          ],
+          [
+            "1968,"
+          ],
+          [
+            "some"
+          ],
+          [
+            "cesium"
+          ],
+          [
+            "clocks"
+          ],
+          [
+            "were"
+          ],
+          [
+            "even"
+          ],
+          [
+            "commercially"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 266.5,
+        "timeEnd": 271.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64539/list"
+      },
+      {
+        "id": 64540,
+        "position": 69,
+        "content": "All that was left was to determine how many ticks of a cesium atom were in a second.",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "that",
+          "was",
+          "left",
+          "was",
+          "to",
+          "determine",
+          "how",
+          "many",
+          "ticks",
+          "of",
+          "a",
+          "cesium",
+          "atom",
+          "were",
+          "in",
+          "a",
+          "second."
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "that"
+          ],
+          [
+            "was"
+          ],
+          [
+            "left"
+          ],
+          [
+            "was"
+          ],
+          [
+            "to"
+          ],
+          [
+            "determine"
+          ],
+          [
+            "how"
+          ],
+          [
+            "many"
+          ],
+          [
+            "ticks"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cesium"
+          ],
+          [
+            "atom"
+          ],
+          [
+            "were"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 271.84,
+        "timeEnd": 277.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64540/list"
+      },
+      {
+        "id": 64541,
+        "position": 70,
+        "content": "The conference used the most precise astronomical measurement of a second available at the time,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "conference",
+          "used",
+          "the",
+          "most",
+          "precise",
+          "astronomical",
+          "measurement",
+          "of",
+          "a",
+          "second",
+          "available",
+          "at",
+          "the",
+          "time,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "conference"
+          ],
+          [
+            "used"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "precise"
+          ],
+          [
+            "astronomical"
+          ],
+          [
+            "measurement"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "second"
+          ],
+          [
+            "available"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 277.28,
+        "timeEnd": 283.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64541/list"
+      },
+      {
+        "id": 64542,
+        "position": 71,
+        "content": "beginning with the number of days in a year and dividing down.",
+        "defaultInput": "",
+        "jsonContent": [
+          "beginning",
+          "with",
+          "the",
+          "number",
+          "of",
+          "days",
+          "in",
+          "a",
+          "year",
+          "and",
+          "dividing",
+          "down."
+        ],
+        "solution": [
+          [
+            "beginning"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "days"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "year"
+          ],
+          [
+            "and"
+          ],
+          [
+            "dividing"
+          ],
+          [
+            "down."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 283.49,
+        "timeEnd": 287.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64542/list"
+      },
+      {
+        "id": 64543,
+        "position": 72,
+        "content": "When compared to the atom's ticking rate,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "compared",
+          "to",
+          "the",
+          "atom's",
+          "ticking",
+          "rate,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "compared"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "atom's"
+          ],
+          [
+            "ticking"
+          ],
+          [
+            "rate,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 287.79,
+        "timeEnd": 290.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64543/list"
+      },
+      {
+        "id": 64544,
+        "position": 73,
+        "content": "the results formally defined one second",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "results",
+          "formally",
+          "defined",
+          [
+            "one",
+            "1"
+          ],
+          "second"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "results"
+          ],
+          [
+            "formally"
+          ],
+          [
+            "defined"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "second"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 290.33,
+        "timeEnd": 293.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64544/list"
+      },
+      {
+        "id": 64545,
+        "position": 74,
+        "content": "as exactly 9,192,631,770 ticks of a cesium-133 atom.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "exactly",
+          "9,192,631,770",
+          "ticks",
+          "of",
+          "a",
+          [
+            "cesium-133",
+            "cesium 133"
+          ],
+          "atom."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "9,192,631,770"
+          ],
+          [
+            "ticks"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cesium-133",
+            "cesium 133"
+          ],
+          [
+            "atom."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 293.56,
+        "timeEnd": 305.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64545/list"
+      },
+      {
+        "id": 64546,
+        "position": 75,
+        "content": "Today, atomic clocks are used all over the Earth and beyond it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today,",
+          "atomic",
+          "clocks",
+          "are",
+          "used",
+          "all",
+          "over",
+          "the",
+          "Earth",
+          "and",
+          "beyond",
+          "it."
+        ],
+        "solution": [
+          [
+            "Today,"
+          ],
+          [
+            "atomic"
+          ],
+          [
+            "clocks"
+          ],
+          [
+            "are"
+          ],
+          [
+            "used"
+          ],
+          [
+            "all"
+          ],
+          [
+            "over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Earth"
+          ],
+          [
+            "and"
+          ],
+          [
+            "beyond"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 306.42,
+        "timeEnd": 311.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64546/list"
+      },
+      {
+        "id": 64547,
+        "position": 76,
+        "content": "From radio signal transmitters to satellites for global positioning systems,",
+        "defaultInput": "",
+        "jsonContent": [
+          "From",
+          "radio",
+          "signal",
+          "transmitters",
+          "to",
+          "satellites",
+          "for",
+          "global",
+          "positioning",
+          "systems,"
+        ],
+        "solution": [
+          [
+            "From"
+          ],
+          [
+            "radio"
+          ],
+          [
+            "signal"
+          ],
+          [
+            "transmitters"
+          ],
+          [
+            "to"
+          ],
+          [
+            "satellites"
+          ],
+          [
+            "for"
+          ],
+          [
+            "global"
+          ],
+          [
+            "positioning"
+          ],
+          [
+            "systems,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 311.88,
+        "timeEnd": 316.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64547/list"
+      },
+      {
+        "id": 64548,
+        "position": 77,
+        "content": "these devices have been synchronized to help us maintain a globally consistent time",
+        "defaultInput": "",
+        "jsonContent": [
+          "these",
+          "devices",
+          "have",
+          "been",
+          "synchronized",
+          "to",
+          "help",
+          "us",
+          "maintain",
+          "a",
+          "globally",
+          "consistent",
+          "time"
+        ],
+        "solution": [
+          [
+            "these"
+          ],
+          [
+            "devices"
+          ],
+          [
+            "have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "synchronized"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "us"
+          ],
+          [
+            "maintain"
+          ],
+          [
+            "a"
+          ],
+          [
+            "globally"
+          ],
+          [
+            "consistent"
+          ],
+          [
+            "time"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 316.73,
+        "timeEnd": 322.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64548/list"
+      },
+      {
+        "id": 64549,
+        "position": 78,
+        "content": "with precision that's second to none.",
+        "defaultInput": "",
+        "jsonContent": [
+          "with",
+          "precision",
+          "that's",
+          "second",
+          "to",
+          "none."
+        ],
+        "solution": [
+          [
+            "with"
+          ],
+          [
+            "precision"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "second"
+          ],
+          [
+            "to"
+          ],
+          [
+            "none."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 322.72,
+        "timeEnd": 325.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/64549/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "64508": {
+      "id": 2201659,
+      "text": "Nếu bạn điều chỉnh một electron trong thời gian ngắn ở đúng tần số",
+      "author": "a user"
+    },
+    "64472": {
+      "id": 2623686,
+      "text": "Vào năm 1967,",
+      "author": "ChatGPT4.1"
+    },
+    "64473": {
+      "id": 2623687,
+      "text": "các nhà nghiên cứu từ khắp nơi trên thế giới đã tập hợp để trả lời một câu hỏi khoa học lâu dài:",
+      "author": "ChatGPT4.1"
+    },
+    "64474": {
+      "id": 2623688,
+      "text": "chính xác thì một giây dài bao lâu?",
+      "author": "ChatGPT4.1"
+    },
+    "64475": {
+      "id": 2623689,
+      "text": "Thoạt đầu, điều này có vẻ hiển nhiên.",
+      "author": "a user"
+    },
+    "64476": {
+      "id": 2623690,
+      "text": "Một giây là tiếng tích tắc của đồng hồ, là nhịp đung đưa của con lắc,",
+      "author": "ChatGPT4.1"
+    },
+    "64477": {
+      "id": 2623691,
+      "text": "là thời gian cần thiết để đếm đến một.",
+      "author": "a user"
+    },
+    "64478": {
+      "id": 2623692,
+      "text": "Nhưng những phép đo đó chính xác đến mức nào?",
+      "author": "ChatGPT4.1"
+    },
+    "64479": {
+      "id": 2623693,
+      "text": "Độ dài đó dựa trên điều gì?",
+      "author": "ChatGPT4.1"
+    },
+    "64480": {
+      "id": 2623694,
+      "text": "Và làm thế nào chúng ta có thể định nghĩa một cách khoa học đơn vị thời gian cơ bản này?",
+      "author": "a user"
+    },
+    "64481": {
+      "id": 2623695,
+      "text": "Trong phần lớn lịch sử loài người,",
+      "author": "ChatGPT4.1"
+    },
+    "64482": {
+      "id": 2623696,
+      "text": "các nền văn minh cổ đại đo thời gian bằng những loại lịch độc đáo",
+      "author": "ChatGPT4.1"
+    },
+    "64483": {
+      "id": 2623697,
+      "text": "theo dõi sự vận động đều đặn của bầu trời đêm.",
+      "author": "ChatGPT4.1"
+    },
+    "64484": {
+      "id": 2623698,
+      "text": "Trên thực tế, giây mà chúng ta biết đến ngày nay chỉ được giới thiệu vào cuối những năm 1500,",
+      "author": "a user"
+    },
+    "64485": {
+      "id": 2623699,
+      "text": "khi lịch Gregorian bắt đầu lan rộng trên toàn cầu cùng với làn sóng thực dân Anh.",
+      "author": "ChatGPT4.1"
+    },
+    "64486": {
+      "id": 2623700,
+      "text": "Lịch Gregorian định nghĩa một ngày là một vòng quay của Trái Đất quanh trục của nó.",
+      "author": "ChatGPT4.1"
+    },
+    "64487": {
+      "id": 2623701,
+      "text": "Mỗi ngày có thể được chia thành 24 giờ,",
+      "author": "ChatGPT4.1"
+    },
+    "64488": {
+      "id": 2623702,
+      "text": "mỗi giờ thành 60 phút,",
+      "author": "ChatGPT4.1"
+    },
+    "64489": {
+      "id": 2623703,
+      "text": "và mỗi phút thành 60 giây.",
+      "author": "ChatGPT4.1"
+    },
+    "64490": {
+      "id": 2623704,
+      "text": "Tuy nhiên, khi nó được định nghĩa lần đầu,",
+      "author": "a user"
+    },
+    "64491": {
+      "id": 2623705,
+      "text": "giây mang tính toán học nhiều hơn là một đơn vị thời gian hữu ích.",
+      "author": "a user"
+    },
+    "64492": {
+      "id": 2623706,
+      "text": "Việc đo ngày và giờ là đủ cho hầu hết các công việc trong các cộng đồng chăn nuôi.",
+      "author": "a user"
+    },
+    "64493": {
+      "id": 2623707,
+      "text": "Mãi cho đến khi xã hội được kết nối với nhau thông qua hệ thống đường sắt tốc độ cao",
+      "author": "a user"
+    },
+    "64494": {
+      "id": 2623708,
+      "text": "các thành phố mới cần thống nhất về cách tính giờ chính xác.",
+      "author": "ChatGPT4.1"
+    },
+    "64495": {
+      "id": 2623709,
+      "text": "Đến những năm 1950,",
+      "author": "ChatGPT4.1"
+    },
+    "64496": {
+      "id": 2623710,
+      "text": "nhiều hệ thống toàn cầu yêu cầu mỗi giây phải được tính toán một cách hoàn hảo,",
+      "author": "a user"
+    },
+    "64497": {
+      "id": 2623711,
+      "text": "với độ chính xác cao nhất có thể.",
+      "author": "ChatGPT4.1"
+    },
+    "64498": {
+      "id": 2623712,
+      "text": "Và có gì chính xác hơn quy mô nguyên tử?",
+      "author": "ChatGPT4.1"
+    },
+    "64499": {
+      "id": 2623713,
+      "text": "Ngay từ năm 1955,",
+      "author": "ChatGPT4.1"
+    },
+    "64500": {
+      "id": 2623714,
+      "text": "các nhà nghiên cứu đã bắt đầu phát triển đồng hồ nguyên tử,",
+      "author": "ChatGPT4.1"
+    },
+    "64501": {
+      "id": 2623715,
+      "text": "dựa vào các định luật vật lý bất biến",
+      "author": "ChatGPT4.1"
+    },
+    "64502": {
+      "id": 2623716,
+      "text": "để xây dựng một nền tảng mới cho việc xác định thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "64503": {
+      "id": 2665450,
+      "text": "Một nguyên tử bao gồm các electron mang điện tích âm",
+      "author": "ChatGPT4.1"
+    },
+    "64504": {
+      "id": 2665451,
+      "text": "quay quanh hạt nhân mang điện tích dương với tần số ổn định.",
+      "author": "ChatGPT4.1"
+    },
+    "64505": {
+      "id": 2665452,
+      "text": "Các định luật cơ học lượng tử giữ cho các electron này ở vị trí nhất định,",
+      "author": "ChatGPT4.1"
+    },
+    "64506": {
+      "id": 2665453,
+      "text": "nhưng nếu bạn cho một nguyên tử tiếp xúc với trường điện từ như ánh sáng hoặc sóng vô tuyến,",
+      "author": "a user"
+    },
+    "64507": {
+      "id": 2665454,
+      "text": "bạn có thể làm xáo trộn nhẹ hướng của electron.",
+      "author": "ChatGPT4.1"
+    },
+    "64509": {
+      "id": 2665455,
+      "text": "bạn có thể tạo ra một dao động giống như một con lắc đang tích tắc.",
+      "author": "a user"
+    },
+    "64510": {
+      "id": 2665456,
+      "text": "Khác với các con lắc thông thường nhanh chóng mất năng lượng,",
+      "author": "ChatGPT4.1"
+    },
+    "64511": {
+      "id": 2665457,
+      "text": "các electron có thể \"tích tắc\" hàng thế kỷ.",
+      "author": "ChatGPT4.1"
+    },
+    "64512": {
+      "id": 2665458,
+      "text": "Để duy trì tính nhất quán và giúp việc đo đếm dễ dàng hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "64513": {
+      "id": 2665459,
+      "text": "các nhà nghiên cứu đã làm bay hơi các nguyên tử,",
+      "author": "a user"
+    },
+    "64514": {
+      "id": 2665460,
+      "text": "chuyển chúng thành trạng thái ít tương tác và ổn định hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "64515": {
+      "id": 2665461,
+      "text": "Nhưng quá trình này không làm chậm lại nhịp \"tích tắc\" cực nhanh của nguyên tử.",
+      "author": "ChatGPT4.1"
+    },
+    "64516": {
+      "id": 2665462,
+      "text": "Một số nguyên tử có thể dao động hơn chín tỷ lần mỗi giây,",
+      "author": "ChatGPT4.1"
+    },
+    "64517": {
+      "id": 2665463,
+      "text": "giúp đồng hồ nguyên tử có độ phân giải vô song trong việc đo thời gian.",
+      "author": "ChatGPT4.1"
+    },
+    "64518": {
+      "id": 2665622,
+      "text": "Và vì mỗi nguyên tử của một đồng vị nguyên tố đều giống hệt nhau,",
+      "author": "ChatGPT4.1"
+    },
+    "64519": {
+      "id": 2665623,
+      "text": "hai nhà nghiên cứu sử dụng cùng nguyên tố và cùng sóng điện từ",
+      "author": "ChatGPT4.1"
+    },
+    "64520": {
+      "id": 2665624,
+      "text": "sẽ tạo ra những chiếc đồng hồ hoàn toàn nhất quán.",
+      "author": "ChatGPT4.1"
+    },
+    "64521": {
+      "id": 2665625,
+      "text": "Nhưng trước khi việc đo thời gian chuyển hoàn toàn sang nguyên tử,",
+      "author": "ChatGPT4.1"
+    },
+    "64522": {
+      "id": 2665626,
+      "text": "các quốc gia phải quyết định nguyên tử nào phù hợp nhất.",
+      "author": "ChatGPT4.1"
+    },
+    "64523": {
+      "id": 2665627,
+      "text": "Đây là chủ đề thảo luận vào năm 1967,",
+      "author": "ChatGPT4.1"
+    },
+    "64524": {
+      "id": 2665628,
+      "text": "tại Hội nghị toàn thể lần thứ mười ba",
+      "author": "ChatGPT4.1"
+    },
+    "64525": {
+      "id": 2665629,
+      "text": "của Ủy ban Quốc tế về Cân đo.",
+      "author": "ChatGPT4.1"
+    },
+    "64526": {
+      "id": 2665630,
+      "text": "Có 118 nguyên tố trong bảng tuần hoàn,",
+      "author": "ChatGPT4.1"
+    },
+    "64527": {
+      "id": 2665631,
+      "text": "mỗi nguyên tố có đặc tính riêng biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "64528": {
+      "id": 2665632,
+      "text": "Đối với nhiệm vụ này, các nhà nghiên cứu đã xem xét một số tiêu chí.",
+      "author": "ChatGPT4.1"
+    },
+    "64529": {
+      "id": 2665633,
+      "text": "Nguyên tố cần có dao động electron tần số cao và tồn tại lâu dài",
+      "author": "ChatGPT4.1"
+    },
+    "64530": {
+      "id": 2665634,
+      "text": "để đảm bảo độ chính xác cao cho việc đo thời gian kéo dài.",
+      "author": "ChatGPT4.1"
+    },
+    "64531": {
+      "id": 2665635,
+      "text": "Để dễ dàng theo dõi dao động này,",
+      "author": "ChatGPT4.1"
+    },
+    "64532": {
+      "id": 2665636,
+      "text": "nguyên tố cũng cần có spin lượng tử có thể đo lường đáng tin cậy,",
+      "author": "ChatGPT4.1"
+    },
+    "64533": {
+      "id": 2665637,
+      "text": "nghĩa là xác định được hướng của trục quay electron,",
+      "author": "ChatGPT4.1"
+    },
+    "64534": {
+      "id": 2665638,
+      "text": "cũng như có cấu trúc mức năng lượng đơn giản,",
+      "author": "ChatGPT4.1"
+    },
+    "64535": {
+      "id": 2665639,
+      "text": "nghĩa là số electron hoạt động ít và trạng thái của chúng dễ xác định.",
+      "author": "ChatGPT4.1"
+    },
+    "64536": {
+      "id": 2665770,
+      "text": "Cuối cùng, nó cần phải dễ hóa hơi.",
+      "author": "ChatGPT4.1"
+    },
+    "64537": {
+      "id": 2665771,
+      "text": "Nguyên tử đạt yêu cầu? Cesium-133.",
+      "author": "ChatGPT4.1"
+    },
+    "64538": {
+      "id": 2665772,
+      "text": "Cesium đã là một nguyên tố phổ biến cho nghiên cứu đồng hồ nguyên tử,",
+      "author": "ChatGPT4.1"
+    },
+    "64539": {
+      "id": 2665773,
+      "text": "và đến năm 1968, một số đồng hồ cesium thậm chí đã có mặt trên thị trường.",
+      "author": "ChatGPT4.1"
+    },
+    "64540": {
+      "id": 2665774,
+      "text": "Việc còn lại chỉ là xác định có bao nhiêu dao động của nguyên tử cesium trong một giây.",
+      "author": "ChatGPT4.1"
+    },
+    "64541": {
+      "id": 2665775,
+      "text": "Hội nghị đã sử dụng phép đo thời gian một giây chính xác nhất theo thiên văn học vào thời điểm đó,",
+      "author": "ChatGPT4.1"
+    },
+    "64542": {
+      "id": 2665776,
+      "text": "bắt đầu từ số ngày trong một năm và chia nhỏ ra.",
+      "author": "ChatGPT4.1"
+    },
+    "64543": {
+      "id": 2665777,
+      "text": "Khi so sánh với tốc độ dao động của nguyên tử,",
+      "author": "ChatGPT4.1"
+    },
+    "64544": {
+      "id": 2665778,
+      "text": "kết quả đã chính thức định nghĩa một giây",
+      "author": "ChatGPT4.1"
+    },
+    "64545": {
+      "id": 2665779,
+      "text": "là chính xác 9.192.631.770 dao động của một nguyên tử cesium-133.",
+      "author": "ChatGPT4.1"
+    },
+    "64546": {
+      "id": 2665780,
+      "text": "Ngày nay, đồng hồ nguyên tử được sử dụng trên toàn Trái Đất và cả bên ngoài Trái Đất.",
+      "author": "ChatGPT4.1"
+    },
+    "64547": {
+      "id": 2665781,
+      "text": "Từ các máy phát tín hiệu vô tuyến đến các vệ tinh cho hệ thống định vị toàn cầu,",
+      "author": "ChatGPT4.1"
+    },
+    "64548": {
+      "id": 2665782,
+      "text": "những thiết bị này đã được đồng bộ hóa để giúp chúng ta duy trì thời gian nhất quán toàn cầu",
+      "author": "ChatGPT4.1"
+    },
+    "64549": {
+      "id": 2665783,
+      "text": "với độ chính xác chưa từng có ai sánh bằng.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

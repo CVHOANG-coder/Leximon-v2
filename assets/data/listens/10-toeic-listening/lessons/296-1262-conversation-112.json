@@ -1,0 +1,920 @@
+{
+  "summary": {
+    "id": 1262,
+    "name": "Conversation 112",
+    "subTitle": "Gallery Tour Inquiry",
+    "levelName": "B1",
+    "position": 296,
+    "totalChallenges": 15,
+    "groupId": 42,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1262",
+  "detail": {
+    "id": 1262,
+    "lessonName": "Conversation 112",
+    "name": "Conversation 112",
+    "position": 296,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/0-conversation-112.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55736,
+        "position": 1,
+        "content": "Good morning, I'm here for Anne-Marie Kidman's first solo show.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "here",
+          "for",
+          [
+            "Anne-Marie",
+            "Anne Marie"
+          ],
+          "Kidman's",
+          [
+            "first",
+            "1st"
+          ],
+          "solo",
+          "show."
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "here"
+          ],
+          [
+            "for"
+          ],
+          [
+            "Anne-Marie",
+            "Anne Marie"
+          ],
+          [
+            "Kidman's"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "solo"
+          ],
+          [
+            "show."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/1.mp3",
+        "timeStart": 0.21,
+        "timeEnd": 4.45,
+        "hints": [
+          "Anne-Marie Kidman"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55736/list"
+      },
+      {
+        "id": 55737,
+        "position": 2,
+        "content": "I'm wondering if the gallery offers any tours.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "wondering",
+          "if",
+          "the",
+          "gallery",
+          "offers",
+          "any",
+          "tours."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "wondering"
+          ],
+          [
+            "if"
+          ],
+          [
+            "the"
+          ],
+          [
+            "gallery"
+          ],
+          [
+            "offers"
+          ],
+          [
+            "any"
+          ],
+          [
+            "tours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/2.mp3",
+        "timeStart": 4.45,
+        "timeEnd": 7.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55737/list"
+      },
+      {
+        "id": 55738,
+        "position": 3,
+        "content": "The next available guided tour starts at 6 pm.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "next",
+          "available",
+          "guided",
+          "tour",
+          "starts",
+          "at",
+          [
+            "6",
+            "six"
+          ],
+          "pm."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "next"
+          ],
+          [
+            "available"
+          ],
+          [
+            "guided"
+          ],
+          [
+            "tour"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "at"
+          ],
+          [
+            "6",
+            "six"
+          ],
+          [
+            "pm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/3.mp3",
+        "timeStart": 7.46,
+        "timeEnd": 10.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55738/list"
+      },
+      {
+        "id": 55739,
+        "position": 4,
+        "content": "Would you like me to book you in?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "like",
+          "me",
+          "to",
+          "book",
+          "you",
+          "in?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "book"
+          ],
+          [
+            "you"
+          ],
+          [
+            "in?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/4.mp3",
+        "timeStart": 10.7,
+        "timeEnd": 12.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55739/list"
+      },
+      {
+        "id": 55740,
+        "position": 5,
+        "content": "I don't think I can hang around until the evening.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "I",
+          "can",
+          "hang",
+          "around",
+          "until",
+          "the",
+          "evening."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "hang"
+          ],
+          [
+            "around"
+          ],
+          [
+            "until"
+          ],
+          [
+            "the"
+          ],
+          [
+            "evening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/5.mp3",
+        "timeStart": 12.27,
+        "timeEnd": 15.18,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/55740/list"
+      },
+      {
+        "id": 55741,
+        "position": 6,
+        "content": "That's a shame, as I've been looking forward to viewing art with an expert guide.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "a",
+          "shame,",
+          "as",
+          [
+            "I've",
+            "I have"
+          ],
+          "been",
+          "looking",
+          "forward",
+          "to",
+          "viewing",
+          "art",
+          "with",
+          "an",
+          "expert",
+          "guide."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shame,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "viewing"
+          ],
+          [
+            "art"
+          ],
+          [
+            "with"
+          ],
+          [
+            "an"
+          ],
+          [
+            "expert"
+          ],
+          [
+            "guide."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/6.mp3",
+        "timeStart": 15.18,
+        "timeEnd": 20.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55741/list"
+      },
+      {
+        "id": 55742,
+        "position": 7,
+        "content": "I'm sorry, all the other sessions are fully booked.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry,",
+          "all",
+          "the",
+          "other",
+          "sessions",
+          "are",
+          "fully",
+          "booked."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry,"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "other"
+          ],
+          [
+            "sessions"
+          ],
+          [
+            "are"
+          ],
+          [
+            "fully"
+          ],
+          [
+            "booked."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/7.mp3",
+        "timeStart": 20.19,
+        "timeEnd": 23.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55742/list"
+      },
+      {
+        "id": 55743,
+        "position": 8,
+        "content": "The exhibit has been a huge success",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "exhibit",
+          "has",
+          "been",
+          "a",
+          "huge",
+          "success"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "exhibit"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "a"
+          ],
+          [
+            "huge"
+          ],
+          [
+            "success"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/8.mp3",
+        "timeStart": 23.37,
+        "timeEnd": 25.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55743/list"
+      },
+      {
+        "id": 55744,
+        "position": 9,
+        "content": "since it's not common to see free contemporary art exhibitions in this town.",
+        "defaultInput": "",
+        "jsonContent": [
+          "since",
+          "it's",
+          "not",
+          "common",
+          "to",
+          "see",
+          "free",
+          "contemporary",
+          "art",
+          "exhibitions",
+          "in",
+          "this",
+          "town."
+        ],
+        "solution": [
+          [
+            "since"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "not"
+          ],
+          [
+            "common"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "free"
+          ],
+          [
+            "contemporary"
+          ],
+          [
+            "art"
+          ],
+          [
+            "exhibitions"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "town."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/9.mp3",
+        "timeStart": 25.91,
+        "timeEnd": 30.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55744/list"
+      },
+      {
+        "id": 55745,
+        "position": 10,
+        "content": "However, there are self-guided tours if you're interested.",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "there",
+          "are",
+          [
+            "self-guided",
+            "self guided"
+          ],
+          "tours",
+          "if",
+          [
+            "you're",
+            "you are"
+          ],
+          "interested."
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "self-guided",
+            "self guided"
+          ],
+          [
+            "tours"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "interested."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/10.mp3",
+        "timeStart": 30.95,
+        "timeEnd": 34.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55745/list"
+      },
+      {
+        "id": 55746,
+        "position": 11,
+        "content": "Is there any additional charge?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "there",
+          "any",
+          "additional",
+          "charge?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "any"
+          ],
+          [
+            "additional"
+          ],
+          [
+            "charge?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/11.mp3",
+        "timeStart": 34.3,
+        "timeEnd": 36.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55746/list"
+      },
+      {
+        "id": 55747,
+        "position": 12,
+        "content": "No, self-guided tours are free,",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          [
+            "self-guided",
+            "self guided"
+          ],
+          "tours",
+          "are",
+          "free,"
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "self-guided",
+            "self guided"
+          ],
+          [
+            "tours"
+          ],
+          [
+            "are"
+          ],
+          [
+            "free,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/12.mp3",
+        "timeStart": 36.31,
+        "timeEnd": 38.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55747/list"
+      },
+      {
+        "id": 55748,
+        "position": 13,
+        "content": "but you must have a smartphone or a computer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "you",
+          [
+            "must have",
+            "must've"
+          ],
+          "a",
+          "smartphone",
+          "or",
+          "a",
+          "computer."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "you"
+          ],
+          [
+            "must have",
+            "must've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "smartphone"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "computer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/13.mp3",
+        "timeStart": 38.58,
+        "timeEnd": 41.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55748/list"
+      },
+      {
+        "id": 55749,
+        "position": 14,
+        "content": "You can get more information from our customer service.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "get",
+          "more",
+          "information",
+          "from",
+          "our",
+          "customer",
+          "service."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "more"
+          ],
+          [
+            "information"
+          ],
+          [
+            "from"
+          ],
+          [
+            "our"
+          ],
+          [
+            "customer"
+          ],
+          [
+            "service."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/14.mp3",
+        "timeStart": 41.46,
+        "timeEnd": 44.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55749/list"
+      },
+      {
+        "id": 55750,
+        "position": 15,
+        "content": "Perfect. I'll look into that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Perfect.",
+          [
+            "I'll",
+            "I will"
+          ],
+          "look",
+          "into",
+          "that."
+        ],
+        "solution": [
+          [
+            "Perfect."
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "look"
+          ],
+          [
+            "into"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-112-2023-10-05-11-14-12/15.mp3",
+        "timeStart": 44.43,
+        "timeEnd": 46.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55750/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55736": {
+      "id": 2597565,
+      "text": "Chào buổi sáng, tôi đến đây để xem buổi triển lãm cá nhân đầu tiên của Anne-Marie Kidman.",
+      "author": "ChatGPT4.1"
+    },
+    "55737": {
+      "id": 2597566,
+      "text": "Tôi muốn hỏi liệu phòng trưng bày có tổ chức tour tham quan nào không.",
+      "author": "ChatGPT4.1"
+    },
+    "55738": {
+      "id": 2597567,
+      "text": "Chuyến tham quan có hướng dẫn tiếp theo sẽ bắt đầu lúc 6 giờ chiều.",
+      "author": "ChatGPT4.1"
+    },
+    "55739": {
+      "id": 2597568,
+      "text": "Bạn có muốn tôi đặt chỗ cho bạn không?",
+      "author": "ChatGPT4.1"
+    },
+    "55740": {
+      "id": 2597569,
+      "text": "Tôi nghĩ mình không thể ở lại đến tối được.",
+      "author": "ChatGPT4.1"
+    },
+    "55741": {
+      "id": 2597570,
+      "text": "Thật tiếc, vì tôi đã rất mong đợi được xem nghệ thuật cùng một hướng dẫn viên chuyên nghiệp.",
+      "author": "ChatGPT4.1"
+    },
+    "55742": {
+      "id": 2597571,
+      "text": "Xin lỗi, tất cả các suất khác đều đã được đặt kín.",
+      "author": "ChatGPT4.1"
+    },
+    "55743": {
+      "id": 2597572,
+      "text": "Buổi triển lãm đã rất thành công",
+      "author": "ChatGPT4.1"
+    },
+    "55744": {
+      "id": 2597573,
+      "text": "bởi vì không thường có các triển lãm nghệ thuật đương đại miễn phí ở thị trấn này.",
+      "author": "ChatGPT4.1"
+    },
+    "55745": {
+      "id": 2597574,
+      "text": "Tuy nhiên, có các chuyến tham quan tự hướng dẫn nếu bạn quan tâm.",
+      "author": "ChatGPT4.1"
+    },
+    "55746": {
+      "id": 2597575,
+      "text": "Có phải trả thêm phí gì không?",
+      "author": "ChatGPT4.1"
+    },
+    "55747": {
+      "id": 2597576,
+      "text": "Không, các chuyến tham quan tự hướng dẫn là miễn phí,",
+      "author": "ChatGPT4.1"
+    },
+    "55748": {
+      "id": 2597577,
+      "text": "nhưng bạn phải có điện thoại thông minh hoặc máy tính.",
+      "author": "ChatGPT4.1"
+    },
+    "55749": {
+      "id": 2597578,
+      "text": "Bạn có thể nhận thêm thông tin từ bộ phận chăm sóc khách hàng của chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "55750": {
+      "id": 2597579,
+      "text": "Tuyệt vời. Tôi sẽ xem xét điều đó.",
+      "author": "a user"
+    }
+  }
+}

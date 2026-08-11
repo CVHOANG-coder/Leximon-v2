@@ -1,0 +1,1359 @@
+{
+  "summary": {
+    "id": 439,
+    "name": "41. Oral Exams",
+    "subTitle": "",
+    "levelName": "B1",
+    "position": 41,
+    "totalChallenges": 26,
+    "groupId": 104,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/439",
+  "detail": {
+    "id": 439,
+    "lessonName": "41. Oral Exams",
+    "name": "41. Oral Exams",
+    "position": 41,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/0-41-oral-exams.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18195,
+        "position": 1,
+        "content": "Hey, Cindy! Have you finished the exam?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "Cindy!",
+          "Have",
+          "you",
+          "finished",
+          "the",
+          "exam?"
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "Cindy!"
+          ],
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "finished"
+          ],
+          [
+            "the"
+          ],
+          [
+            "exam?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/1.mp3",
+        "timeStart": 2.25,
+        "timeEnd": 4.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18195/list"
+      },
+      {
+        "id": 18196,
+        "position": 2,
+        "content": "Yes, I have. Whew!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "I have.",
+            "I've"
+          ],
+          "Whew!"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I have.",
+            "I've"
+          ],
+          [
+            "Whew!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/2.mp3",
+        "timeStart": 4.27,
+        "timeEnd": 5.93,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18196/list"
+      },
+      {
+        "id": 18197,
+        "position": 3,
+        "content": "Was it hard?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Was",
+          "it",
+          "hard?"
+        ],
+        "solution": [
+          [
+            "Was"
+          ],
+          [
+            "it"
+          ],
+          [
+            "hard?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/3.mp3",
+        "timeStart": 5.98,
+        "timeEnd": 6.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18197/list"
+      },
+      {
+        "id": 18198,
+        "position": 4,
+        "content": "Well, yes. It was hard, pretty hard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "yes.",
+          "It",
+          "was",
+          "hard,",
+          "pretty",
+          "hard."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "yes."
+          ],
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "hard,"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "hard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/4.mp3",
+        "timeStart": 6.96,
+        "timeEnd": 8.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18198/list"
+      },
+      {
+        "id": 18199,
+        "position": 5,
+        "content": "Did you pass?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "pass?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "pass?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/5.mp3",
+        "timeStart": 8.86,
+        "timeEnd": 9.64,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18199/list"
+      },
+      {
+        "id": 18200,
+        "position": 6,
+        "content": "I don't know. Mrs. Lester didn't tell me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "know.",
+          "Mrs.",
+          "Lester",
+          [
+            "didn't",
+            "did not"
+          ],
+          "tell",
+          "me."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know."
+          ],
+          [
+            "Mrs."
+          ],
+          [
+            "Lester"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/6.mp3",
+        "timeStart": 9.68,
+        "timeEnd": 11.8,
+        "hints": [
+          "Lester"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18200/list"
+      },
+      {
+        "id": 18201,
+        "position": 7,
+        "content": "What questions did she ask?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "questions",
+          "did",
+          "she",
+          "ask?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "did"
+          ],
+          [
+            "she"
+          ],
+          [
+            "ask?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/7.mp3",
+        "timeStart": 11.87,
+        "timeEnd": 13.38,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18201/list"
+      },
+      {
+        "id": 18202,
+        "position": 8,
+        "content": "First she asked me what my name was.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "First",
+            "1st"
+          ],
+          "she",
+          "asked",
+          "me",
+          "what",
+          "my",
+          "name",
+          "was."
+        ],
+        "solution": [
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "she"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "me"
+          ],
+          [
+            "what"
+          ],
+          [
+            "my"
+          ],
+          [
+            "name"
+          ],
+          [
+            "was."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/8.mp3",
+        "timeStart": 13.38,
+        "timeEnd": 15.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18202/list"
+      },
+      {
+        "id": 18203,
+        "position": 9,
+        "content": "That was easy, wasn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "was",
+          "easy,",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "was"
+          ],
+          [
+            "easy,"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/9.mp3",
+        "timeStart": 15.12,
+        "timeEnd": 16.38,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/18203/list"
+      },
+      {
+        "id": 18204,
+        "position": 10,
+        "content": "Yes, except I couldn't remember!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "except",
+          "I",
+          [
+            "couldn't",
+            "could not"
+          ],
+          "remember!"
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "except"
+          ],
+          [
+            "I"
+          ],
+          [
+            "couldn't",
+            "could not"
+          ],
+          [
+            "remember!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/10.mp3",
+        "timeStart": 16.38,
+        "timeEnd": 18.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18204/list"
+      },
+      {
+        "id": 18205,
+        "position": 11,
+        "content": "Then she asked me where I came from,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "she",
+          "asked",
+          "me",
+          "where",
+          "I",
+          "came",
+          "from,"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "she"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "me"
+          ],
+          [
+            "where"
+          ],
+          [
+            "I"
+          ],
+          [
+            "came"
+          ],
+          [
+            "from,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/11.mp3",
+        "timeStart": 18.08,
+        "timeEnd": 19.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18205/list"
+      },
+      {
+        "id": 18206,
+        "position": 12,
+        "content": "and how long it took to get here from my country.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "how",
+          "long",
+          "it",
+          "took",
+          "to",
+          "get",
+          "here",
+          "from",
+          "my",
+          "country."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "how"
+          ],
+          [
+            "long"
+          ],
+          [
+            "it"
+          ],
+          [
+            "took"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "here"
+          ],
+          [
+            "from"
+          ],
+          [
+            "my"
+          ],
+          [
+            "country."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/12.mp3",
+        "timeStart": 19.72,
+        "timeEnd": 22.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18206/list"
+      },
+      {
+        "id": 18207,
+        "position": 13,
+        "content": "And what else did she ask?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "else",
+          "did",
+          "she",
+          "ask?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "else"
+          ],
+          [
+            "did"
+          ],
+          [
+            "she"
+          ],
+          [
+            "ask?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/13.mp3",
+        "timeStart": 22.16,
+        "timeEnd": 23.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18207/list"
+      },
+      {
+        "id": 18208,
+        "position": 14,
+        "content": "She asked how long I'd been studying English here in Canada,",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "asked",
+          "how",
+          "long",
+          "I'd",
+          "been",
+          "studying",
+          "English",
+          "here",
+          "in",
+          "Canada,"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "how"
+          ],
+          [
+            "long"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "been"
+          ],
+          [
+            "studying"
+          ],
+          [
+            "English"
+          ],
+          [
+            "here"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Canada,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/14.mp3",
+        "timeStart": 23.67,
+        "timeEnd": 26.23,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/18208/list"
+      },
+      {
+        "id": 18209,
+        "position": 15,
+        "content": "and she asked how I would use English in the future.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "she",
+          "asked",
+          "how",
+          [
+            "I would",
+            "I'd"
+          ],
+          "use",
+          "English",
+          "in",
+          "the",
+          "future."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "she"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "how"
+          ],
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "use"
+          ],
+          [
+            "English"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "future."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/15.mp3",
+        "timeStart": 26.23,
+        "timeEnd": 28.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18209/list"
+      },
+      {
+        "id": 18210,
+        "position": 16,
+        "content": "Yes, yes, go on.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "yes,",
+          "go",
+          "on."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "yes,"
+          ],
+          [
+            "go"
+          ],
+          [
+            "on."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/16.mp3",
+        "timeStart": 28.68,
+        "timeEnd": 30.29,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18210/list"
+      },
+      {
+        "id": 18211,
+        "position": 17,
+        "content": "Then she asked me to explain the difference between my country and Canada.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "she",
+          "asked",
+          "me",
+          "to",
+          "explain",
+          "the",
+          "difference",
+          "between",
+          "my",
+          "country",
+          "and",
+          "Canada."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "she"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "explain"
+          ],
+          [
+            "the"
+          ],
+          [
+            "difference"
+          ],
+          [
+            "between"
+          ],
+          [
+            "my"
+          ],
+          [
+            "country"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Canada."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/17.mp3",
+        "timeStart": 30.29,
+        "timeEnd": 33.7,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/18211/list"
+      },
+      {
+        "id": 18212,
+        "position": 18,
+        "content": "Anything else?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anything",
+          "else?"
+        ],
+        "solution": [
+          [
+            "Anything"
+          ],
+          [
+            "else?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/18.mp3",
+        "timeStart": 33.7,
+        "timeEnd": 34.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18212/list"
+      },
+      {
+        "id": 18213,
+        "position": 19,
+        "content": "I'm trying to remember.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "trying",
+          "to",
+          "remember."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "remember."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/19.mp3",
+        "timeStart": 34.76,
+        "timeEnd": 35.94,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/18213/list"
+      },
+      {
+        "id": 18214,
+        "position": 20,
+        "content": "Oh, yes! She asked if I spoke any other language.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "yes!",
+          "She",
+          "asked",
+          "if",
+          "I",
+          "spoke",
+          "any",
+          "other",
+          "language."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "yes!"
+          ],
+          [
+            "She"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "if"
+          ],
+          [
+            "I"
+          ],
+          [
+            "spoke"
+          ],
+          [
+            "any"
+          ],
+          [
+            "other"
+          ],
+          [
+            "language."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/20.mp3",
+        "timeStart": 35.94,
+        "timeEnd": 38.81,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18214/list"
+      },
+      {
+        "id": 18215,
+        "position": 21,
+        "content": "Is that all?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "that",
+          "all?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "that"
+          ],
+          [
+            "all?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/21.mp3",
+        "timeStart": 38.81,
+        "timeEnd": 39.93,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18215/list"
+      },
+      {
+        "id": 18216,
+        "position": 22,
+        "content": "Oh, there were a lot of other questions. She asked me what my hobbies were,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "there",
+          "were",
+          "a",
+          "lot",
+          "of",
+          "other",
+          "questions.",
+          "She",
+          "asked",
+          "me",
+          "what",
+          "my",
+          "hobbies",
+          "were,"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "were"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "other"
+          ],
+          [
+            "questions."
+          ],
+          [
+            "She"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "me"
+          ],
+          [
+            "what"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hobbies"
+          ],
+          [
+            "were,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/22.mp3",
+        "timeStart": 40.05,
+        "timeEnd": 43.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18216/list"
+      },
+      {
+        "id": 18217,
+        "position": 23,
+        "content": "where I visited in Canada. Then I was asked to read a passage.",
+        "defaultInput": "",
+        "jsonContent": [
+          "where",
+          "I",
+          "visited",
+          "in",
+          "Canada.",
+          "Then",
+          "I",
+          "was",
+          "asked",
+          "to",
+          "read",
+          "a",
+          "passage."
+        ],
+        "solution": [
+          [
+            "where"
+          ],
+          [
+            "I"
+          ],
+          [
+            "visited"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Canada."
+          ],
+          [
+            "Then"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "to"
+          ],
+          [
+            "read"
+          ],
+          [
+            "a"
+          ],
+          [
+            "passage."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/23.mp3",
+        "timeStart": 43.09,
+        "timeEnd": 46.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18217/list"
+      },
+      {
+        "id": 18218,
+        "position": 24,
+        "content": "What did she say at the end?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "did",
+          "she",
+          "say",
+          "at",
+          "the",
+          "end?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "did"
+          ],
+          [
+            "she"
+          ],
+          [
+            "say"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/24.mp3",
+        "timeStart": 46.32,
+        "timeEnd": 47.89,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18218/list"
+      },
+      {
+        "id": 18219,
+        "position": 25,
+        "content": "Hmm. Let's see...",
+        "defaultInput": "Hmm. ",
+        "jsonContent": [
+          "Hmm.",
+          "Let's",
+          "see..."
+        ],
+        "solution": [
+          [
+            "Hmm."
+          ],
+          [
+            "Let's"
+          ],
+          [
+            "see..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/25.mp3",
+        "timeStart": 48.01,
+        "timeEnd": 49.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18219/list"
+      },
+      {
+        "id": 18220,
+        "position": 26,
+        "content": "Oh, Yes! She asked me to tell you to go in, right away.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "Yes!",
+          "She",
+          "asked",
+          "me",
+          "to",
+          "tell",
+          "you",
+          "to",
+          "go",
+          "in,",
+          "right",
+          "away."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "Yes!"
+          ],
+          [
+            "She"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "in,"
+          ],
+          [
+            "right"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/41-oral-exams-2022-03-07-21-18-39/26.mp3",
+        "timeStart": 49.28,
+        "timeEnd": 52.6,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/18220/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18195": {
+      "id": 29558,
+      "text": "Này Cindy! Cậu làm xong bài kiểm tra chưa?",
+      "author": "a user"
+    },
+    "18196": {
+      "id": 29621,
+      "text": "Vâng, tôi hoàn thành rồi. Phew!",
+      "author": "a user"
+    },
+    "18197": {
+      "id": 29624,
+      "text": " Bài thi có khó không?",
+      "author": "a user"
+    },
+    "18198": {
+      "id": 29633,
+      "text": "Vâng, đúng vậy. Nó khó, rất khó.",
+      "author": "a user"
+    },
+    "18199": {
+      "id": 29644,
+      "text": "Bạn có đậu không?",
+      "author": "a user"
+    },
+    "18200": {
+      "id": 29661,
+      "text": "Tôi không biết. Cô Lester không nói với tôi.",
+      "author": "a user"
+    },
+    "18203": {
+      "id": 29719,
+      "text": "Câu đó dễ mà, đúng không?",
+      "author": "a user"
+    },
+    "18204": {
+      "id": 29741,
+      "text": "Đúng vậy, chỉ là tôi không nhớ!",
+      "author": "a user"
+    },
+    "18208": {
+      "id": 29775,
+      "text": "Cô ấy hỏi tôi đã học tiếng Anh ở Canada bao lâu rồi,",
+      "author": "a user"
+    },
+    "18210": {
+      "id": 29780,
+      "text": "Rồi, rồi, tiếp tục đi.",
+      "author": "a user"
+    },
+    "18215": {
+      "id": 29795,
+      "text": "Bấy nhiêu thôi hả?",
+      "author": "a user"
+    },
+    "18220": {
+      "id": 29826,
+      "text": "Ồ, vâng! Cô ấy bảo tôi nói với bạn vào trong, ngay lập tức.",
+      "author": "a user"
+    },
+    "18201": {
+      "id": 2593376,
+      "text": "Cô ấy hỏi những câu gì?",
+      "author": "ChatGPT4.1"
+    },
+    "18202": {
+      "id": 2593377,
+      "text": "Đầu tiên cô ấy hỏi tớ tên là gì.",
+      "author": "ChatGPT4.1"
+    },
+    "18205": {
+      "id": 2593378,
+      "text": "Sau đó cô ấy hỏi tớ đến từ đâu,",
+      "author": "ChatGPT4.1"
+    },
+    "18206": {
+      "id": 2593379,
+      "text": "và mất bao lâu để đến đây từ nước của tớ.",
+      "author": "ChatGPT4.1"
+    },
+    "18207": {
+      "id": 2593380,
+      "text": "Cô ấy còn hỏi gì nữa không?",
+      "author": "a user"
+    },
+    "18209": {
+      "id": 2593381,
+      "text": "và cô ấy hỏi tớ sẽ sử dụng tiếng Anh như thế nào trong tương lai.",
+      "author": "ChatGPT4.1"
+    },
+    "18211": {
+      "id": 2593382,
+      "text": "Rồi cô ấy bảo tớ giải thích sự khác nhau giữa nước tớ và Canada.",
+      "author": "ChatGPT4.1"
+    },
+    "18212": {
+      "id": 2593383,
+      "text": "Còn gì nữa không?",
+      "author": "ChatGPT4.1"
+    },
+    "18213": {
+      "id": 2593384,
+      "text": "Tớ đang cố nhớ lại đây.",
+      "author": "ChatGPT4.1"
+    },
+    "18214": {
+      "id": 2593385,
+      "text": "À, đúng rồi! Cô ấy hỏi tớ có nói ngôn ngữ nào khác nữa không.",
+      "author": "a user"
+    },
+    "18216": {
+      "id": 2593386,
+      "text": "Còn nhiều câu hỏi khác nữa. Cô ấy hỏi tớ sở thích của tớ là gì,",
+      "author": "ChatGPT4.1"
+    },
+    "18217": {
+      "id": 2593387,
+      "text": "tớ đã đi đâu ở Canada. Rồi tớ được yêu cầu đọc một đoạn văn.",
+      "author": "ChatGPT4.1"
+    },
+    "18218": {
+      "id": 2593388,
+      "text": "Cô ấy nói gì vào cuối buổi?",
+      "author": "ChatGPT4.1"
+    },
+    "18219": {
+      "id": 2593389,
+      "text": "Ừm. Để tớ nhớ xem...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

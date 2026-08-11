@@ -1,0 +1,821 @@
+{
+  "summary": {
+    "id": 1063,
+    "name": "Conversation 19",
+    "subTitle": "Mascara Labeling Concerns",
+    "levelName": "B2",
+    "position": 93,
+    "totalChallenges": 14,
+    "groupId": 32,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1063",
+  "detail": {
+    "id": 1063,
+    "lessonName": "Conversation 19",
+    "name": "Conversation 19",
+    "position": 93,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/0-conversation-19.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 52883,
+        "position": 1,
+        "content": "Sharon, how was the feedback on our new mascaras?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sharon,",
+          "how",
+          "was",
+          "the",
+          "feedback",
+          "on",
+          "our",
+          "new",
+          "mascaras?"
+        ],
+        "solution": [
+          [
+            "Sharon,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "feedback"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "new"
+          ],
+          [
+            "mascaras?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/1.mp3",
+        "timeStart": 0.19,
+        "timeEnd": 3.52,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/52883/list"
+      },
+      {
+        "id": 52884,
+        "position": 2,
+        "content": "Did we stand out from other brands?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "we",
+          "stand",
+          "out",
+          "from",
+          "other",
+          "brands?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "we"
+          ],
+          [
+            "stand"
+          ],
+          [
+            "out"
+          ],
+          [
+            "from"
+          ],
+          [
+            "other"
+          ],
+          [
+            "brands?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/2.mp3",
+        "timeStart": 3.52,
+        "timeEnd": 5.84,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52884/list"
+      },
+      {
+        "id": 52885,
+        "position": 3,
+        "content": "The product has been a success overall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "product",
+          "has",
+          "been",
+          "a",
+          "success",
+          "overall."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "product"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "a"
+          ],
+          [
+            "success"
+          ],
+          [
+            "overall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/3.mp3",
+        "timeStart": 5.95,
+        "timeEnd": 8.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52885/list"
+      },
+      {
+        "id": 52886,
+        "position": 4,
+        "content": "However, we did receive a number of complaints from the customers",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "we",
+          "did",
+          "receive",
+          "a",
+          "number",
+          "of",
+          "complaints",
+          "from",
+          "the",
+          "customers"
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "did"
+          ],
+          [
+            "receive"
+          ],
+          [
+            "a"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "complaints"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "customers"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/4.mp3",
+        "timeStart": 8.79,
+        "timeEnd": 12.87,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/52886/list"
+      },
+      {
+        "id": 52887,
+        "position": 5,
+        "content": "saying that the product didn't live up to their expectations.",
+        "defaultInput": "",
+        "jsonContent": [
+          "saying",
+          "that",
+          "the",
+          "product",
+          [
+            "didn't",
+            "did not"
+          ],
+          "live",
+          "up",
+          "to",
+          "their",
+          "expectations."
+        ],
+        "solution": [
+          [
+            "saying"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "product"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "live"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "their"
+          ],
+          [
+            "expectations."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/5.mp3",
+        "timeStart": 12.87,
+        "timeEnd": 16.98,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/52887/list"
+      },
+      {
+        "id": 52888,
+        "position": 6,
+        "content": "In what aspects exactly?",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "what",
+          "aspects",
+          "exactly?"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "what"
+          ],
+          [
+            "aspects"
+          ],
+          [
+            "exactly?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/6.mp3",
+        "timeStart": 17.13,
+        "timeEnd": 19.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52888/list"
+      },
+      {
+        "id": 52889,
+        "position": 7,
+        "content": "Most complaints are about the products not being clearly labeled.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Most",
+          "complaints",
+          "are",
+          "about",
+          "the",
+          "products",
+          "not",
+          "being",
+          "clearly",
+          [
+            "labeled.",
+            "labelled"
+          ]
+        ],
+        "solution": [
+          [
+            "Most"
+          ],
+          [
+            "complaints"
+          ],
+          [
+            "are"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "products"
+          ],
+          [
+            "not"
+          ],
+          [
+            "being"
+          ],
+          [
+            "clearly"
+          ],
+          [
+            "labeled.",
+            "labelled"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/7.mp3",
+        "timeStart": 19.61,
+        "timeEnd": 23.89,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/52889/list"
+      },
+      {
+        "id": 52890,
+        "position": 8,
+        "content": "The consumers feel cheated",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "consumers",
+          "feel",
+          "cheated"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "consumers"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "cheated"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/8.mp3",
+        "timeStart": 24.01,
+        "timeEnd": 26.21,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52890/list"
+      },
+      {
+        "id": 52891,
+        "position": 9,
+        "content": "because our mascaras boast an organic formula,",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "our",
+          "mascaras",
+          "boast",
+          "an",
+          "organic",
+          "formula,"
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "our"
+          ],
+          [
+            "mascaras"
+          ],
+          [
+            "boast"
+          ],
+          [
+            "an"
+          ],
+          [
+            "organic"
+          ],
+          [
+            "formula,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/9.mp3",
+        "timeStart": 26.21,
+        "timeEnd": 29.34,
+        "hints": [],
+        "nbComments": 5,
+        "discussionUrl": "https://dailydictation.com/discussions/52891/list"
+      },
+      {
+        "id": 52892,
+        "position": 10,
+        "content": "when, in fact, only a small part of the ingredients are.",
+        "defaultInput": "",
+        "jsonContent": [
+          "when,",
+          "in",
+          "fact,",
+          "only",
+          "a",
+          "small",
+          "part",
+          "of",
+          "the",
+          "ingredients",
+          "are."
+        ],
+        "solution": [
+          [
+            "when,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "fact,"
+          ],
+          [
+            "only"
+          ],
+          [
+            "a"
+          ],
+          [
+            "small"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "ingredients"
+          ],
+          [
+            "are."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/10.mp3",
+        "timeStart": 29.34,
+        "timeEnd": 33.22,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/52892/list"
+      },
+      {
+        "id": 52893,
+        "position": 11,
+        "content": "I think we should arrange a discussion with the graphic designers and our product development teams.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "we",
+          "should",
+          "arrange",
+          "a",
+          "discussion",
+          "with",
+          "the",
+          "graphic",
+          "designers",
+          "and",
+          "our",
+          "product",
+          "development",
+          "teams."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "should"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "a"
+          ],
+          [
+            "discussion"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "graphic"
+          ],
+          [
+            "designers"
+          ],
+          [
+            "and"
+          ],
+          [
+            "our"
+          ],
+          [
+            "product"
+          ],
+          [
+            "development"
+          ],
+          [
+            "teams."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/11.mp3",
+        "timeStart": 33.47,
+        "timeEnd": 39.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52893/list"
+      },
+      {
+        "id": 52894,
+        "position": 12,
+        "content": "For sure.",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "sure."
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "sure."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/12.mp3",
+        "timeStart": 39.14,
+        "timeEnd": 40.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/52894/list"
+      },
+      {
+        "id": 52895,
+        "position": 13,
+        "content": "We should come up with a solution to the problem as soon as possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "should",
+          "come",
+          "up",
+          "with",
+          "a",
+          "solution",
+          "to",
+          "the",
+          "problem",
+          "as",
+          "soon",
+          "as",
+          "possible."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "should"
+          ],
+          [
+            "come"
+          ],
+          [
+            "up"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "solution"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "problem"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/13.mp3",
+        "timeStart": 40.31,
+        "timeEnd": 44.42,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52895/list"
+      },
+      {
+        "id": 52896,
+        "position": 14,
+        "content": "I'll reserve the boardroom for tomorrow morning right away.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "reserve",
+          "the",
+          "boardroom",
+          "for",
+          "tomorrow",
+          "morning",
+          "right",
+          "away."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "reserve"
+          ],
+          [
+            "the"
+          ],
+          [
+            "boardroom"
+          ],
+          [
+            "for"
+          ],
+          [
+            "tomorrow"
+          ],
+          [
+            "morning"
+          ],
+          [
+            "right"
+          ],
+          [
+            "away."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-19-2023-09-11-16-39-03/14.mp3",
+        "timeStart": 44.42,
+        "timeEnd": 48.33,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/52896/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "52883": {
+      "id": 869806,
+      "text": "Sharon, phản hồi về loại chuốt mi mới của chúng ta thế nào rồi?",
+      "author": "a user"
+    },
+    "52884": {
+      "id": 869807,
+      "text": "Chúng ta có nổi bật hơn so với các thương hiệu khác không?",
+      "author": "a user"
+    },
+    "52886": {
+      "id": 869809,
+      "text": "Tuy nhiên, chúng ta đã nhận được một số khiếu nại từ khách hàng",
+      "author": "a user"
+    },
+    "52887": {
+      "id": 869810,
+      "text": "nói rằng sản phẩm đã không đáp ứng được mong đợi của họ.",
+      "author": "a user"
+    },
+    "52888": {
+      "id": 869811,
+      "text": "Chính xác là ở những khía cạnh nào?",
+      "author": "a user"
+    },
+    "52891": {
+      "id": 869814,
+      "text": "bởi vì mascara của chúng ta tự hào có công thức hữu cơ,",
+      "author": "a user"
+    },
+    "52892": {
+      "id": 869815,
+      "text": "trong khi, trên thực tế, chỉ có một phần nhỏ các thành phần là như vậy.",
+      "author": "a user"
+    },
+    "52896": {
+      "id": 869819,
+      "text": "Tôi sẽ đặt phòng họp cho sáng mai ngay bây giờ.",
+      "author": "a user"
+    },
+    "52885": {
+      "id": 2599794,
+      "text": "Nhìn chung, sản phẩm đã rất thành công.",
+      "author": "ChatGPT4.1"
+    },
+    "52889": {
+      "id": 2599795,
+      "text": "Hầu hết các phàn nàn là về việc sản phẩm không được ghi nhãn rõ ràng.",
+      "author": "ChatGPT4.1"
+    },
+    "52890": {
+      "id": 2599796,
+      "text": "Người tiêu dùng cảm thấy bị lừa dối",
+      "author": "ChatGPT4.1"
+    },
+    "52893": {
+      "id": 2599797,
+      "text": "Tôi nghĩ chúng ta nên sắp xếp một cuộc thảo luận với nhóm thiết kế đồ họa và nhóm phát triển sản phẩm.",
+      "author": "ChatGPT4.1"
+    },
+    "52894": {
+      "id": 2599798,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "52895": {
+      "id": 2599799,
+      "text": "Chúng ta nên tìm ra giải pháp cho vấn đề này càng sớm càng tốt.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

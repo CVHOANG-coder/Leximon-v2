@@ -1,0 +1,849 @@
+{
+  "summary": {
+    "id": 1551,
+    "name": "Conversation 169",
+    "subTitle": "Project Deadline Extension Request",
+    "levelName": "B1",
+    "position": 405,
+    "totalChallenges": 14,
+    "groupId": 47,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1551",
+  "detail": {
+    "id": 1551,
+    "lessonName": "Conversation 169",
+    "name": "Conversation 169",
+    "position": 405,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/0-conversation-169.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66307,
+        "position": 1,
+        "content": "Hey! How is the project coming along for the new launch event?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey!",
+          "How",
+          "is",
+          "the",
+          "project",
+          "coming",
+          "along",
+          "for",
+          "the",
+          "new",
+          "launch",
+          "event?"
+        ],
+        "solution": [
+          [
+            "Hey!"
+          ],
+          [
+            "How"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "project"
+          ],
+          [
+            "coming"
+          ],
+          [
+            "along"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "new"
+          ],
+          [
+            "launch"
+          ],
+          [
+            "event?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/1.mp3",
+        "timeStart": 0.29,
+        "timeEnd": 3.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66307/list"
+      },
+      {
+        "id": 66308,
+        "position": 2,
+        "content": "To be honest, it isn't going great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "To",
+          "be",
+          "honest,",
+          "it",
+          [
+            "isn't",
+            "is not"
+          ],
+          "going",
+          "great."
+        ],
+        "solution": [
+          [
+            "To"
+          ],
+          [
+            "be"
+          ],
+          [
+            "honest,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "going"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/2.mp3",
+        "timeStart": 3.86,
+        "timeEnd": 6.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66308/list"
+      },
+      {
+        "id": 66309,
+        "position": 3,
+        "content": "I have barely had time to look at all the requirements.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "barely",
+          "had",
+          "time",
+          "to",
+          "look",
+          "at",
+          "all",
+          "the",
+          "requirements."
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "barely"
+          ],
+          [
+            "had"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "requirements."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/3.mp3",
+        "timeStart": 6.44,
+        "timeEnd": 9.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66309/list"
+      },
+      {
+        "id": 66310,
+        "position": 4,
+        "content": "I am really busy with a lot of other events right now,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "really",
+          "busy",
+          "with",
+          "a",
+          "lot",
+          "of",
+          "other",
+          "events",
+          "right",
+          "now,"
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "really"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "other"
+          ],
+          [
+            "events"
+          ],
+          [
+            "right"
+          ],
+          [
+            "now,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/4.mp3",
+        "timeStart": 9.63,
+        "timeEnd": 13.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66310/list"
+      },
+      {
+        "id": 66311,
+        "position": 5,
+        "content": "I am worried I won't finish it by the deadline.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "worried",
+          "I",
+          "won't",
+          "finish",
+          "it",
+          "by",
+          "the",
+          "deadline."
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "I"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "it"
+          ],
+          [
+            "by"
+          ],
+          [
+            "the"
+          ],
+          [
+            "deadline."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/5.mp3",
+        "timeStart": 13.01,
+        "timeEnd": 16.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66311/list"
+      },
+      {
+        "id": 66312,
+        "position": 6,
+        "content": "Oh, no.",
+        "defaultInput": "Oh, no.",
+        "jsonContent": [
+          "Oh,",
+          "no."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "no."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/6.mp3",
+        "timeStart": 16.06,
+        "timeEnd": 17.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66312/list"
+      },
+      {
+        "id": 66313,
+        "position": 7,
+        "content": "It is a very busy time of year.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "It's"
+          ],
+          "a",
+          "very",
+          "busy",
+          "time",
+          "of",
+          "year."
+        ],
+        "solution": [
+          [
+            "It is",
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "time"
+          ],
+          [
+            "of"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/7.mp3",
+        "timeStart": 17.19,
+        "timeEnd": 19.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66313/list"
+      },
+      {
+        "id": 66314,
+        "position": 8,
+        "content": "The due date is Friday afternoon, right?",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "due",
+          "date",
+          "is",
+          "Friday",
+          "afternoon,",
+          "right?"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "due"
+          ],
+          [
+            "date"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Friday"
+          ],
+          [
+            "afternoon,"
+          ],
+          [
+            "right?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/8.mp3",
+        "timeStart": 19.56,
+        "timeEnd": 22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66314/list"
+      },
+      {
+        "id": 66315,
+        "position": 9,
+        "content": "Should you ask for an extension on the deadline?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Should",
+          "you",
+          "ask",
+          "for",
+          "an",
+          "extension",
+          "on",
+          "the",
+          "deadline?"
+        ],
+        "solution": [
+          [
+            "Should"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "for"
+          ],
+          [
+            "an"
+          ],
+          [
+            "extension"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "deadline?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/9.mp3",
+        "timeStart": 22,
+        "timeEnd": 24.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66315/list"
+      },
+      {
+        "id": 66316,
+        "position": 10,
+        "content": "I am going to have to ask for one.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "have",
+          "to",
+          "ask",
+          "for",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "for"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/10.mp3",
+        "timeStart": 24.64,
+        "timeEnd": 26.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66316/list"
+      },
+      {
+        "id": 66317,
+        "position": 11,
+        "content": "I think I could get it done by next Tuesday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "I",
+          "could",
+          "get",
+          "it",
+          "done",
+          "by",
+          "next",
+          "Tuesday."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "get"
+          ],
+          [
+            "it"
+          ],
+          [
+            "done"
+          ],
+          [
+            "by"
+          ],
+          [
+            "next"
+          ],
+          [
+            "Tuesday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/11.mp3",
+        "timeStart": 26.7,
+        "timeEnd": 29.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66317/list"
+      },
+      {
+        "id": 66318,
+        "position": 12,
+        "content": "I feel nervous, will you speak to our boss with me, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "feel",
+          "nervous,",
+          "will",
+          "you",
+          "speak",
+          "to",
+          "our",
+          "boss",
+          "with",
+          "me,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "nervous,"
+          ],
+          [
+            "will"
+          ],
+          [
+            "you"
+          ],
+          [
+            "speak"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "boss"
+          ],
+          [
+            "with"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/12.mp3",
+        "timeStart": 29.53,
+        "timeEnd": 33.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66318/list"
+      },
+      {
+        "id": 66319,
+        "position": 13,
+        "content": "I wish I could, but I have to leave now to take my daughter to her dentist appointment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wish",
+          "I",
+          "could,",
+          "but",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "leave",
+          "now",
+          "to",
+          "take",
+          "my",
+          "daughter",
+          "to",
+          "her",
+          "dentist",
+          "appointment."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wish"
+          ],
+          [
+            "I"
+          ],
+          [
+            "could,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "now"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "my"
+          ],
+          [
+            "daughter"
+          ],
+          [
+            "to"
+          ],
+          [
+            "her"
+          ],
+          [
+            "dentist"
+          ],
+          [
+            "appointment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/13.mp3",
+        "timeStart": 33.3,
+        "timeEnd": 39.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66319/list"
+      },
+      {
+        "id": 66320,
+        "position": 14,
+        "content": "Good luck!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "luck!"
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "luck!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-169-2024-09-14-18-32-42/14.mp3",
+        "timeStart": 39.02,
+        "timeEnd": 40.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66320/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66307": {
+      "id": 2614714,
+      "text": "Này! Dự án cho sự kiện ra mắt mới tiến triển thế nào rồi?",
+      "author": "ChatGPT4.1"
+    },
+    "66308": {
+      "id": 2614715,
+      "text": "Thành thật mà nói, nó không ổn lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "66309": {
+      "id": 2614716,
+      "text": "Tôi hầu như không có thời gian để xem hết tất cả các yêu cầu.",
+      "author": "ChatGPT4.1"
+    },
+    "66310": {
+      "id": 2614717,
+      "text": "Tôi đang thực sự bận với rất nhiều sự kiện khác ngay lúc này,",
+      "author": "ChatGPT4.1"
+    },
+    "66311": {
+      "id": 2614718,
+      "text": "Tôi lo mình sẽ không hoàn thành kịp hạn chót.",
+      "author": "ChatGPT4.1"
+    },
+    "66312": {
+      "id": 2614719,
+      "text": "Ôi không.",
+      "author": "ChatGPT4.1"
+    },
+    "66313": {
+      "id": 2614720,
+      "text": "Đây là thời điểm trong năm rất bận rộn.",
+      "author": "ChatGPT4.1"
+    },
+    "66314": {
+      "id": 2614721,
+      "text": "Hạn nộp là chiều thứ Sáu, đúng không?",
+      "author": "ChatGPT4.1"
+    },
+    "66315": {
+      "id": 2614722,
+      "text": "Bạn có nên xin gia hạn thêm thời gian không?",
+      "author": "ChatGPT4.1"
+    },
+    "66316": {
+      "id": 2614723,
+      "text": "Tôi sẽ phải xin một lần gia hạn.",
+      "author": "ChatGPT4.1"
+    },
+    "66317": {
+      "id": 2614724,
+      "text": "Tôi nghĩ mình có thể hoàn thành vào thứ Ba tuần sau.",
+      "author": "ChatGPT4.1"
+    },
+    "66318": {
+      "id": 2614725,
+      "text": "Tôi cảm thấy lo lắng, bạn có thể nói chuyện với sếp cùng tôi không?",
+      "author": "ChatGPT4.1"
+    },
+    "66319": {
+      "id": 2614726,
+      "text": "Tôi ước gì có thể, nhưng bây giờ tôi phải đi đưa con gái đến nha sĩ.",
+      "author": "ChatGPT4.1"
+    },
+    "66320": {
+      "id": 2614727,
+      "text": "Chúc may mắn!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

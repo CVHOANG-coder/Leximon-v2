@@ -1,0 +1,658 @@
+{
+  "summary": {
+    "id": 422,
+    "name": "24. What did you do yesterday?",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 24,
+    "totalChallenges": 13,
+    "groupId": 103,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/422",
+  "detail": {
+    "id": 422,
+    "lessonName": "24. What did you do yesterday?",
+    "name": "24. What did you do yesterday?",
+    "position": 24,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/0-24-what-did-you-do-yesterday.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17989,
+        "position": 1,
+        "content": "Hi, how are you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi,",
+          "how",
+          "are",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/1.mp3",
+        "timeStart": 2.57,
+        "timeEnd": 4.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17989/list"
+      },
+      {
+        "id": 17990,
+        "position": 2,
+        "content": "You look tired.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "look",
+          "tired."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "look"
+          ],
+          [
+            "tired."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/2.mp3",
+        "timeStart": 4.14,
+        "timeEnd": 5.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17990/list"
+      },
+      {
+        "id": 17991,
+        "position": 3,
+        "content": "Did you sleep okay last night?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Did",
+          "you",
+          "sleep",
+          [
+            "okay",
+            "ok"
+          ],
+          "last",
+          "night?"
+        ],
+        "solution": [
+          [
+            "Did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "sleep"
+          ],
+          [
+            "okay",
+            "ok"
+          ],
+          [
+            "last"
+          ],
+          [
+            "night?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/3.mp3",
+        "timeStart": 5.25,
+        "timeEnd": 6.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17991/list"
+      },
+      {
+        "id": 17992,
+        "position": 4,
+        "content": "No, I didn't.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "I",
+          "didn't."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "didn't."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/4.mp3",
+        "timeStart": 6.9,
+        "timeEnd": 8.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17992/list"
+      },
+      {
+        "id": 17993,
+        "position": 5,
+        "content": "Why? What did you do yesterday?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why?",
+          "What",
+          "did",
+          "you",
+          "do",
+          "yesterday?"
+        ],
+        "solution": [
+          [
+            "Why?"
+          ],
+          [
+            "What"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "yesterday?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/5.mp3",
+        "timeStart": 8.45,
+        "timeEnd": 10.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17993/list"
+      },
+      {
+        "id": 17994,
+        "position": 6,
+        "content": "I went to a nightclub last night and danced all night.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "went",
+          "to",
+          "a",
+          "nightclub",
+          "last",
+          "night",
+          "and",
+          "danced",
+          "all",
+          "night."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "went"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "nightclub"
+          ],
+          [
+            "last"
+          ],
+          [
+            "night"
+          ],
+          [
+            "and"
+          ],
+          [
+            "danced"
+          ],
+          [
+            "all"
+          ],
+          [
+            "night."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/6.mp3",
+        "timeStart": 10.51,
+        "timeEnd": 13.71,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/17994/list"
+      },
+      {
+        "id": 17995,
+        "position": 7,
+        "content": "Oh, yeah? Did you have a good time?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "yeah?",
+          "Did",
+          [
+            "you have",
+            "you've"
+          ],
+          "a",
+          "good",
+          "time?"
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "yeah?"
+          ],
+          [
+            "Did"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "time?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/7.mp3",
+        "timeStart": 13.71,
+        "timeEnd": 15.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17995/list"
+      },
+      {
+        "id": 17996,
+        "position": 8,
+        "content": "I had a wonderful time, but I'm beat today.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I had",
+            "I'd"
+          ],
+          "a",
+          "wonderful",
+          "time,",
+          "but",
+          [
+            "I'm",
+            "I am"
+          ],
+          "beat",
+          "today."
+        ],
+        "solution": [
+          [
+            "I had",
+            "I'd"
+          ],
+          [
+            "a"
+          ],
+          [
+            "wonderful"
+          ],
+          [
+            "time,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "beat"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/8.mp3",
+        "timeStart": 15.58,
+        "timeEnd": 18.59,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/17996/list"
+      },
+      {
+        "id": 17997,
+        "position": 9,
+        "content": "What time did you leave the nightclub?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "time",
+          "did",
+          "you",
+          "leave",
+          "the",
+          "nightclub?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "time"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nightclub?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/9.mp3",
+        "timeStart": 18.76,
+        "timeEnd": 20.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/17997/list"
+      },
+      {
+        "id": 17998,
+        "position": 10,
+        "content": "I left at about 3:00 a.m.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "left",
+          "at",
+          "about",
+          [
+            "3:00",
+            "3",
+            "three"
+          ],
+          "a.m."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "left"
+          ],
+          [
+            "at"
+          ],
+          [
+            "about"
+          ],
+          [
+            "3:00",
+            "3",
+            "three"
+          ],
+          [
+            "a.m."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/10.mp3",
+        "timeStart": 20.39,
+        "timeEnd": 22.41,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/17998/list"
+      },
+      {
+        "id": 17999,
+        "position": 11,
+        "content": "I'm not surprised that you're tired.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "surprised",
+          "that",
+          [
+            "you're",
+            "you are"
+          ],
+          "tired."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "surprised"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "tired."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/11.mp3",
+        "timeStart": 22.41,
+        "timeEnd": 24.36,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/17999/list"
+      },
+      {
+        "id": 18000,
+        "position": 12,
+        "content": "Which nightclub did you go to?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Which",
+          "nightclub",
+          "did",
+          "you",
+          "go",
+          "to?"
+        ],
+        "solution": [
+          [
+            "Which"
+          ],
+          [
+            "nightclub"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/12.mp3",
+        "timeStart": 24.36,
+        "timeEnd": 25.88,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/18000/list"
+      },
+      {
+        "id": 18001,
+        "position": 13,
+        "content": "Fantastic. It's on Ontario Street. It's really nice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Fantastic.",
+          "It's",
+          "on",
+          "Ontario",
+          "Street.",
+          "It's",
+          "really",
+          "nice."
+        ],
+        "solution": [
+          [
+            "Fantastic."
+          ],
+          [
+            "It's"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Ontario"
+          ],
+          [
+            "Street."
+          ],
+          [
+            "It's"
+          ],
+          [
+            "really"
+          ],
+          [
+            "nice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/24-what-did-you-do-yesterday-2022-03-07-21-12-15/13.mp3",
+        "timeStart": 25.88,
+        "timeEnd": 29.42,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18001/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17990": {
+      "id": 8372,
+      "text": "Trông bạn có vẻ mệt mỏi đấy.",
+      "author": "a user"
+    },
+    "17991": {
+      "id": 8373,
+      "text": "Đêm qua bạn ngủ ngon chứ?",
+      "author": "a user"
+    },
+    "17992": {
+      "id": 8375,
+      "text": "Không.",
+      "author": "a user"
+    },
+    "17993": {
+      "id": 8376,
+      "text": "Sao vậy? Hôm qua bạn đã làm gì?",
+      "author": "a user"
+    },
+    "17994": {
+      "id": 8377,
+      "text": "Tối qua tôi đi hộp đêm và nhảy suốt cả đêm.",
+      "author": "a user"
+    },
+    "17995": {
+      "id": 8378,
+      "text": "Ồ, vậy sao? Đêm hôm qua vui chứ?",
+      "author": "a user"
+    },
+    "17996": {
+      "id": 8379,
+      "text": "Tôi đã có một buổi tối tuyệt vời, nhưng hôm nay thì kiệt sức rồi.",
+      "author": "a user"
+    },
+    "17997": {
+      "id": 8380,
+      "text": "Bạn rời khỏi hộp đêm lúc mấy giờ?",
+      "author": "a user"
+    },
+    "18000": {
+      "id": 8384,
+      "text": "Bạn đã đến hộp đêm nào vậy?",
+      "author": "a user"
+    },
+    "18001": {
+      "id": 8385,
+      "text": "Fantastic. Nó nằm trên đường Ontario. Nơi đó thật sự tuyệt vời.",
+      "author": "a user"
+    },
+    "17989": {
+      "id": 2592761,
+      "text": "Chào, bạn khỏe không?",
+      "author": "ChatGPT4.1"
+    },
+    "17998": {
+      "id": 2592762,
+      "text": "Tôi rời đi lúc khoảng 3 giờ sáng.",
+      "author": "ChatGPT4.1"
+    },
+    "17999": {
+      "id": 2592763,
+      "text": "Tôi không ngạc nhiên là bạn mệt.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

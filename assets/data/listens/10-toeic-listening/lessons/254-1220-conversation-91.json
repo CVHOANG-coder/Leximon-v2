@@ -1,0 +1,741 @@
+{
+  "summary": {
+    "id": 1220,
+    "name": "Conversation 91",
+    "subTitle": "Internet Access Issue",
+    "levelName": "B1",
+    "position": 254,
+    "totalChallenges": 12,
+    "groupId": 40,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1220",
+  "detail": {
+    "id": 1220,
+    "lessonName": "Conversation 91",
+    "name": "Conversation 91",
+    "position": 254,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/0-conversation-91.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55099,
+        "position": 1,
+        "content": "Hello, this is Emilia Marsh calling from the Human Resources Department.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "this",
+          "is",
+          "Emilia",
+          "Marsh",
+          "calling",
+          "from",
+          "the",
+          "Human",
+          "Resources",
+          "Department."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Emilia"
+          ],
+          [
+            "Marsh"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Human"
+          ],
+          [
+            "Resources"
+          ],
+          [
+            "Department."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/1.mp3",
+        "timeStart": 2.15,
+        "timeEnd": 7.57,
+        "hints": [
+          "Emilia Marsh"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55099/list"
+      },
+      {
+        "id": 55100,
+        "position": 2,
+        "content": "I can't access the Internet, and I have an important email I need to send by 1 o'clock.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "access",
+          "the",
+          "Internet,",
+          "and",
+          [
+            "I have",
+            "I've"
+          ],
+          "an",
+          "important",
+          "email",
+          "I",
+          "need",
+          "to",
+          "send",
+          "by",
+          [
+            "1",
+            "one"
+          ],
+          "o'clock."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "access"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Internet,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "an"
+          ],
+          [
+            "important"
+          ],
+          [
+            "email"
+          ],
+          [
+            "I"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "send"
+          ],
+          [
+            "by"
+          ],
+          [
+            "1",
+            "one"
+          ],
+          [
+            "o'clock."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/2.mp3",
+        "timeStart": 7.68,
+        "timeEnd": 13.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55100/list"
+      },
+      {
+        "id": 55101,
+        "position": 3,
+        "content": "Could you help me, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "help",
+          "me,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/3.mp3",
+        "timeStart": 13.19,
+        "timeEnd": 14.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55101/list"
+      },
+      {
+        "id": 55102,
+        "position": 4,
+        "content": "Sorry about that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sorry",
+          "about",
+          "that."
+        ],
+        "solution": [
+          [
+            "Sorry"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/4.mp3",
+        "timeStart": 15.07,
+        "timeEnd": 16.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55102/list"
+      },
+      {
+        "id": 55103,
+        "position": 5,
+        "content": "In fact, the Public Relations Department has been complaining about this issue too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "fact,",
+          "the",
+          "Public",
+          "Relations",
+          "Department",
+          "has",
+          "been",
+          "complaining",
+          "about",
+          "this",
+          "issue",
+          "too."
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "fact,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Public"
+          ],
+          [
+            "Relations"
+          ],
+          [
+            "Department"
+          ],
+          [
+            "has"
+          ],
+          [
+            "been"
+          ],
+          [
+            "complaining"
+          ],
+          [
+            "about"
+          ],
+          [
+            "this"
+          ],
+          [
+            "issue"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/5.mp3",
+        "timeStart": 16.64,
+        "timeEnd": 21.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55103/list"
+      },
+      {
+        "id": 55104,
+        "position": 6,
+        "content": "I can assure you our programmers are working on it as we speak.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "assure",
+          "you",
+          "our",
+          "programmers",
+          "are",
+          "working",
+          "on",
+          "it",
+          "as",
+          "we",
+          "speak."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "assure"
+          ],
+          [
+            "you"
+          ],
+          [
+            "our"
+          ],
+          [
+            "programmers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "working"
+          ],
+          [
+            "on"
+          ],
+          [
+            "it"
+          ],
+          [
+            "as"
+          ],
+          [
+            "we"
+          ],
+          [
+            "speak."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/6.mp3",
+        "timeStart": 21.51,
+        "timeEnd": 25.67,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/55104/list"
+      },
+      {
+        "id": 55105,
+        "position": 7,
+        "content": "I see. Thanks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see.",
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see."
+          ],
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/7.mp3",
+        "timeStart": 26.08,
+        "timeEnd": 28.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55105/list"
+      },
+      {
+        "id": 55106,
+        "position": 8,
+        "content": "By the way, I sent an email to request access to a blocked site last week,",
+        "defaultInput": "",
+        "jsonContent": [
+          "By",
+          "the",
+          "way,",
+          "I",
+          "sent",
+          "an",
+          "email",
+          "to",
+          "request",
+          "access",
+          "to",
+          "a",
+          "blocked",
+          "site",
+          "last",
+          "week,"
+        ],
+        "solution": [
+          [
+            "By"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "an"
+          ],
+          [
+            "email"
+          ],
+          [
+            "to"
+          ],
+          [
+            "request"
+          ],
+          [
+            "access"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "blocked"
+          ],
+          [
+            "site"
+          ],
+          [
+            "last"
+          ],
+          [
+            "week,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/8.mp3",
+        "timeStart": 28.1,
+        "timeEnd": 33.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55106/list"
+      },
+      {
+        "id": 55107,
+        "position": 9,
+        "content": "but nobody responded.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "nobody",
+          "responded."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "nobody"
+          ],
+          [
+            "responded."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/9.mp3",
+        "timeStart": 33.43,
+        "timeEnd": 35.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55107/list"
+      },
+      {
+        "id": 55108,
+        "position": 10,
+        "content": "Well, the IT Department prioritizes tasks",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          "IT",
+          "Department",
+          "prioritizes",
+          "tasks"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "IT"
+          ],
+          [
+            "Department"
+          ],
+          [
+            "prioritizes"
+          ],
+          [
+            "tasks"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/10.mp3",
+        "timeStart": 35.61,
+        "timeEnd": 39.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55108/list"
+      },
+      {
+        "id": 55109,
+        "position": 11,
+        "content": "so that our programmers could first deal with the most urgent issues that disrupt operations.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "that",
+          "our",
+          "programmers",
+          "could",
+          [
+            "first",
+            "1st"
+          ],
+          "deal",
+          "with",
+          "the",
+          "most",
+          "urgent",
+          "issues",
+          "that",
+          "disrupt",
+          "operations."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "our"
+          ],
+          [
+            "programmers"
+          ],
+          [
+            "could"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "deal"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "urgent"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "that"
+          ],
+          [
+            "disrupt"
+          ],
+          [
+            "operations."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/11.mp3",
+        "timeStart": 39.05,
+        "timeEnd": 44.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55109/list"
+      },
+      {
+        "id": 55110,
+        "position": 12,
+        "content": "I'm sure you will understand.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sure",
+          [
+            "you will",
+            "you'll"
+          ],
+          "understand."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "understand."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-91-2023-10-01-16-05-36/12.mp3",
+        "timeStart": 44.03,
+        "timeEnd": 45.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55110/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55104": {
+      "id": 966832,
+      "text": "Tôi đảm bảo với bạn rằng các lập trình viên của chúng tôi đang xử lý việc đó ngay lúc này.",
+      "author": "a user"
+    },
+    "55108": {
+      "id": 966836,
+      "text": "À, bộ phận IT sắp xếp độ ưu tiên cho các nhiệm vụ",
+      "author": "a user"
+    },
+    "55099": {
+      "id": 2595634,
+      "text": "Xin chào, đây là Emilia Marsh gọi từ Phòng Nhân sự.",
+      "author": "ChatGPT4.1"
+    },
+    "55100": {
+      "id": 2595635,
+      "text": "Tôi không thể truy cập Internet, và tôi có một email quan trọng cần gửi trước 1 giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "55101": {
+      "id": 2595636,
+      "text": "Bạn có thể giúp tôi không?",
+      "author": "ChatGPT4.1"
+    },
+    "55102": {
+      "id": 2595637,
+      "text": "Xin lỗi về điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "55103": {
+      "id": 2595638,
+      "text": "Thật ra, Phòng Quan hệ Công chúng cũng đã phàn nàn về vấn đề này.",
+      "author": "ChatGPT4.1"
+    },
+    "55105": {
+      "id": 2595639,
+      "text": "Tôi hiểu. Cảm ơn.",
+      "author": "ChatGPT4.1"
+    },
+    "55106": {
+      "id": 2595640,
+      "text": "Nhân tiện, tuần trước tôi đã gửi một email yêu cầu truy cập vào một trang web bị chặn,",
+      "author": "ChatGPT4.1"
+    },
+    "55107": {
+      "id": 2595641,
+      "text": "nhưng không ai trả lời.",
+      "author": "ChatGPT4.1"
+    },
+    "55109": {
+      "id": 2595642,
+      "text": "để các lập trình viên của chúng tôi có thể giải quyết trước các vấn đề khẩn cấp nhất làm gián đoạn hoạt động.",
+      "author": "ChatGPT4.1"
+    },
+    "55110": {
+      "id": 2595643,
+      "text": "Tôi chắc rằng bạn sẽ hiểu.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

@@ -1,0 +1,3740 @@
+{
+  "summary": {
+    "id": 817,
+    "name": "Cam9 - Test 2 - Part 1",
+    "subTitle": "University Accommodation Interview",
+    "levelName": "B1",
+    "position": 214,
+    "totalChallenges": 69,
+    "groupId": 64,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/817",
+  "detail": {
+    "id": 817,
+    "lessonName": "Cam9 - Test 2 - Part 1",
+    "name": "Cam9 - Test 2 - Part 1",
+    "position": 214,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/0-ielts-cambridge-9-test-2-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 41098,
+        "position": 1,
+        "content": "Good morning. Can I help you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning.",
+          "Can",
+          "I",
+          "help",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ],
+          [
+            "Can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/1.mp3",
+        "timeStart": 0.35,
+        "timeEnd": 2.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41098/list"
+      },
+      {
+        "id": 41099,
+        "position": 2,
+        "content": "Yes. I've just been accepted on a course at the university",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          [
+            "I've",
+            "I have"
+          ],
+          "just",
+          "been",
+          "accepted",
+          "on",
+          "a",
+          "course",
+          "at",
+          "the",
+          "university"
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "just"
+          ],
+          [
+            "been"
+          ],
+          [
+            "accepted"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "course"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "university"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/2.mp3",
+        "timeStart": 2.09,
+        "timeEnd": 6.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41099/list"
+      },
+      {
+        "id": 41100,
+        "position": 3,
+        "content": "and I'd like to try and arrange accommodation in the hall of residence.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I'd",
+          "like",
+          "to",
+          "try",
+          "and",
+          "arrange",
+          "accommodation",
+          "in",
+          "the",
+          "hall",
+          "of",
+          "residence."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "try"
+          ],
+          [
+            "and"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "accommodation"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "hall"
+          ],
+          [
+            "of"
+          ],
+          [
+            "residence."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/3.mp3",
+        "timeStart": 6.32,
+        "timeEnd": 10.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41100/list"
+      },
+      {
+        "id": 41101,
+        "position": 4,
+        "content": "Yes, certainly.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "certainly."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "certainly."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/4.mp3",
+        "timeStart": 10.29,
+        "timeEnd": 11.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41101/list"
+      },
+      {
+        "id": 41102,
+        "position": 5,
+        "content": "Please sit down.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "sit",
+          "down."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "down."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/5.mp3",
+        "timeStart": 11.4,
+        "timeEnd": 13.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41102/list"
+      },
+      {
+        "id": 41103,
+        "position": 6,
+        "content": "What I'll do is fill in a form with you to find out a little more about your preferences and so forth.",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          [
+            "I'll",
+            "I will"
+          ],
+          "do",
+          "is",
+          "fill",
+          "in",
+          "a",
+          "form",
+          "with",
+          "you",
+          "to",
+          "find",
+          "out",
+          "a",
+          "little",
+          "more",
+          "about",
+          "your",
+          "preferences",
+          "and",
+          "so",
+          "forth."
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "do"
+          ],
+          [
+            "is"
+          ],
+          [
+            "fill"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "form"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "find"
+          ],
+          [
+            "out"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "more"
+          ],
+          [
+            "about"
+          ],
+          [
+            "your"
+          ],
+          [
+            "preferences"
+          ],
+          [
+            "and"
+          ],
+          [
+            "so"
+          ],
+          [
+            "forth."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/6.mp3",
+        "timeStart": 13.08,
+        "timeEnd": 17.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41103/list"
+      },
+      {
+        "id": 41104,
+        "position": 7,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/7.mp3",
+        "timeStart": 17.93,
+        "timeEnd": 18.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41104/list"
+      },
+      {
+        "id": 41105,
+        "position": 8,
+        "content": "So, first of all, can I take your name?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          [
+            "first",
+            "1st"
+          ],
+          "of",
+          "all,",
+          "can",
+          "I",
+          "take",
+          "your",
+          "name?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "take"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/8.mp3",
+        "timeStart": 19.05,
+        "timeEnd": 22.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41105/list"
+      },
+      {
+        "id": 41106,
+        "position": 9,
+        "content": "It's Anu Bhatt.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "Anu",
+          "Bhatt."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "Anu"
+          ],
+          [
+            "Bhatt."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/9.mp3",
+        "timeStart": 22.05,
+        "timeEnd": 23.57,
+        "hints": [
+          "Anu Bhatt"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41106/list"
+      },
+      {
+        "id": 41107,
+        "position": 10,
+        "content": "Could you spell your name please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "you",
+          "spell",
+          "your",
+          "name",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "spell"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/10.mp3",
+        "timeStart": 23.57,
+        "timeEnd": 25.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41107/list"
+      },
+      {
+        "id": 41108,
+        "position": 11,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/11.mp3",
+        "timeStart": 25.19,
+        "timeEnd": 26.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41108/list"
+      },
+      {
+        "id": 41109,
+        "position": 12,
+        "content": "ANU... BHATT.",
+        "defaultInput": "",
+        "jsonContent": [
+          "ANU...",
+          "BHATT."
+        ],
+        "solution": [
+          [
+            "ANU..."
+          ],
+          [
+            "BHATT."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/12.mp3",
+        "timeStart": 26.07,
+        "timeEnd": 31.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41109/list"
+      },
+      {
+        "id": 41110,
+        "position": 13,
+        "content": "Thanks, and could I ask your date of birth?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks,",
+          "and",
+          "could",
+          "I",
+          "ask",
+          "your",
+          "date",
+          "of",
+          "birth?"
+        ],
+        "solution": [
+          [
+            "Thanks,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "could"
+          ],
+          [
+            "I"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "your"
+          ],
+          [
+            "date"
+          ],
+          [
+            "of"
+          ],
+          [
+            "birth?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/13.mp3",
+        "timeStart": 31.77,
+        "timeEnd": 34.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41110/list"
+      },
+      {
+        "id": 41111,
+        "position": 14,
+        "content": "The 31st of March, 1972.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "31st",
+          "of",
+          "March,",
+          "1972."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "31st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "March,"
+          ],
+          [
+            "1972."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/14.mp3",
+        "timeStart": 34.43,
+        "timeEnd": 37.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41111/list"
+      },
+      {
+        "id": 41112,
+        "position": 15,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/15.mp3",
+        "timeStart": 37.93,
+        "timeEnd": 38.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41112/list"
+      },
+      {
+        "id": 41113,
+        "position": 16,
+        "content": "And where are you from?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "where",
+          "are",
+          "you",
+          "from?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "where"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "from?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/16.mp3",
+        "timeStart": 38.8,
+        "timeEnd": 40.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41113/list"
+      },
+      {
+        "id": 41114,
+        "position": 17,
+        "content": "India.",
+        "defaultInput": "",
+        "jsonContent": [
+          "India."
+        ],
+        "solution": [
+          [
+            "India."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/17.mp3",
+        "timeStart": 40.19,
+        "timeEnd": 40.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41114/list"
+      },
+      {
+        "id": 41115,
+        "position": 18,
+        "content": "Oh right.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "right."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/18.mp3",
+        "timeStart": 40.97,
+        "timeEnd": 42.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41115/list"
+      },
+      {
+        "id": 41116,
+        "position": 19,
+        "content": "And um... what will you be studying?",
+        "defaultInput": "And um... ",
+        "jsonContent": [
+          "And",
+          "um...",
+          "what",
+          "will",
+          "you",
+          "be",
+          "studying?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "um..."
+          ],
+          [
+            "what"
+          ],
+          [
+            "will"
+          ],
+          [
+            "you"
+          ],
+          [
+            "be"
+          ],
+          [
+            "studying?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/19.mp3",
+        "timeStart": 42.04,
+        "timeEnd": 44.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41116/list"
+      },
+      {
+        "id": 41117,
+        "position": 20,
+        "content": "I'm doing a course in nursing.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "doing",
+          "a",
+          "course",
+          "in",
+          "nursing."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "doing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "course"
+          ],
+          [
+            "in"
+          ],
+          [
+            "nursing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/20.mp3",
+        "timeStart": 44.44,
+        "timeEnd": 46.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41117/list"
+      },
+      {
+        "id": 41118,
+        "position": 21,
+        "content": "Right, thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right,",
+          "thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Right,"
+          ],
+          [
+            "thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/21.mp3",
+        "timeStart": 46.53,
+        "timeEnd": 47.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41118/list"
+      },
+      {
+        "id": 41119,
+        "position": 22,
+        "content": "And how long would you want to stay in hall, do you think?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "how",
+          "long",
+          "would",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "stay",
+          "in",
+          "hall,",
+          "do",
+          "you",
+          "think?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "how"
+          ],
+          [
+            "long"
+          ],
+          [
+            "would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "in"
+          ],
+          [
+            "hall,"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/22.mp3",
+        "timeStart": 48.31,
+        "timeEnd": 51.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41119/list"
+      },
+      {
+        "id": 41120,
+        "position": 23,
+        "content": "Well, it'll take three years",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "it'll",
+            "it will"
+          ],
+          "take",
+          [
+            "three",
+            "3"
+          ],
+          "years"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "it'll",
+            "it will"
+          ],
+          [
+            "take"
+          ],
+          [
+            "three",
+            "3"
+          ],
+          [
+            "years"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/23.mp3",
+        "timeStart": 51.28,
+        "timeEnd": 54.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41120/list"
+      },
+      {
+        "id": 41121,
+        "position": 24,
+        "content": "but I'd only like to stay in hall for two.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "I'd",
+          "only",
+          "like",
+          "to",
+          "stay",
+          "in",
+          "hall",
+          "for",
+          [
+            "two.",
+            "2"
+          ]
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "only"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "stay"
+          ],
+          [
+            "in"
+          ],
+          [
+            "hall"
+          ],
+          [
+            "for"
+          ],
+          [
+            "two.",
+            "2"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/24.mp3",
+        "timeStart": 54.29,
+        "timeEnd": 57.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41121/list"
+      },
+      {
+        "id": 41122,
+        "position": 25,
+        "content": "I'd like to think about living outside for the third year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "think",
+          "about",
+          "living",
+          "outside",
+          "for",
+          "the",
+          "third",
+          "year."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "think"
+          ],
+          [
+            "about"
+          ],
+          [
+            "living"
+          ],
+          [
+            "outside"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "third"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/25.mp3",
+        "timeStart": 57.35,
+        "timeEnd": 60.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41122/list"
+      },
+      {
+        "id": 41123,
+        "position": 26,
+        "content": "Fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Fine."
+        ],
+        "solution": [
+          [
+            "Fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/26.mp3",
+        "timeStart": 60.93,
+        "timeEnd": 61.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41123/list"
+      },
+      {
+        "id": 41124,
+        "position": 27,
+        "content": "And what did you have in mind for catering?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "did",
+          [
+            "you have",
+            "you've"
+          ],
+          "in",
+          "mind",
+          "for",
+          "catering?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "did"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "in"
+          ],
+          [
+            "mind"
+          ],
+          [
+            "for"
+          ],
+          [
+            "catering?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/27.mp3",
+        "timeStart": 61.8,
+        "timeEnd": 64.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41124/list"
+      },
+      {
+        "id": 41125,
+        "position": 28,
+        "content": "Do you want to cook for yourself or have all your meals provided, that's full board?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "cook",
+          "for",
+          "yourself",
+          "or",
+          "have",
+          "all",
+          "your",
+          "meals",
+          "provided,",
+          [
+            "that's",
+            "that is"
+          ],
+          "full",
+          "board?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "cook"
+          ],
+          [
+            "for"
+          ],
+          [
+            "yourself"
+          ],
+          [
+            "or"
+          ],
+          [
+            "have"
+          ],
+          [
+            "all"
+          ],
+          [
+            "your"
+          ],
+          [
+            "meals"
+          ],
+          [
+            "provided,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "full"
+          ],
+          [
+            "board?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/28.mp3",
+        "timeStart": 64.75,
+        "timeEnd": 69.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41125/list"
+      },
+      {
+        "id": 41126,
+        "position": 29,
+        "content": "Is there something in between?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Is",
+          "there",
+          "something",
+          "in",
+          "between?"
+        ],
+        "solution": [
+          [
+            "Is"
+          ],
+          [
+            "there"
+          ],
+          [
+            "something"
+          ],
+          [
+            "in"
+          ],
+          [
+            "between?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/29.mp3",
+        "timeStart": 69.29,
+        "timeEnd": 71.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41126/list"
+      },
+      {
+        "id": 41127,
+        "position": 30,
+        "content": "Yes. You can just have evening meal provided, which is half board.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes.",
+          "You",
+          "can",
+          "just",
+          "have",
+          "evening",
+          "meal",
+          "provided,",
+          "which",
+          "is",
+          "half",
+          "board."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ],
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "just"
+          ],
+          [
+            "have"
+          ],
+          [
+            "evening"
+          ],
+          [
+            "meal"
+          ],
+          [
+            "provided,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "is"
+          ],
+          [
+            "half"
+          ],
+          [
+            "board."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/30.mp3",
+        "timeStart": 71.65,
+        "timeEnd": 75.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41127/list"
+      },
+      {
+        "id": 41128,
+        "position": 31,
+        "content": "That's what I'd prefer.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "what",
+          "I'd",
+          "prefer."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "prefer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/31.mp3",
+        "timeStart": 75.45,
+        "timeEnd": 77.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41128/list"
+      },
+      {
+        "id": 41129,
+        "position": 32,
+        "content": "Yes, a lot of students opt for that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "a",
+          "lot",
+          "of",
+          "students",
+          "opt",
+          "for",
+          "that."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "students"
+          ],
+          [
+            "opt"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/32.mp3",
+        "timeStart": 77.23,
+        "timeEnd": 79.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41129/list"
+      },
+      {
+        "id": 41130,
+        "position": 33,
+        "content": "Now, with that in mind, do you have any special diet, anything we should know about?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "with",
+          "that",
+          "in",
+          "mind,",
+          "do",
+          [
+            "you have",
+            "you've"
+          ],
+          "any",
+          "special",
+          "diet,",
+          "anything",
+          "we",
+          "should",
+          "know",
+          "about?"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that"
+          ],
+          [
+            "in"
+          ],
+          [
+            "mind,"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "any"
+          ],
+          [
+            "special"
+          ],
+          [
+            "diet,"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "we"
+          ],
+          [
+            "should"
+          ],
+          [
+            "know"
+          ],
+          [
+            "about?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/33.mp3",
+        "timeStart": 79.83,
+        "timeEnd": 84.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41130/list"
+      },
+      {
+        "id": 41131,
+        "position": 34,
+        "content": "Yes, I don't take red meat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "take",
+          "red",
+          "meat."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "take"
+          ],
+          [
+            "red"
+          ],
+          [
+            "meat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/34.mp3",
+        "timeStart": 84.76,
+        "timeEnd": 87.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41131/list"
+      },
+      {
+        "id": 41132,
+        "position": 35,
+        "content": "No red meat.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "red",
+          "meat."
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "red"
+          ],
+          [
+            "meat."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/35.mp3",
+        "timeStart": 87.52,
+        "timeEnd": 89.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41132/list"
+      },
+      {
+        "id": 41133,
+        "position": 36,
+        "content": "Now, thinking about the room itself, we have a number of options.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "thinking",
+          "about",
+          "the",
+          "room",
+          "itself,",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "number",
+          "of",
+          "options."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "room"
+          ],
+          [
+            "itself,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "number"
+          ],
+          [
+            "of"
+          ],
+          [
+            "options."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/36.mp3",
+        "timeStart": 90.55,
+        "timeEnd": 94.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41133/list"
+      },
+      {
+        "id": 41134,
+        "position": 37,
+        "content": "You can have a single study bedroom or you can have a shared one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "can",
+          "have",
+          "a",
+          "single",
+          "study",
+          "bedroom",
+          "or",
+          "you",
+          "can",
+          "have",
+          "a",
+          "shared",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "can"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "single"
+          ],
+          [
+            "study"
+          ],
+          [
+            "bedroom"
+          ],
+          [
+            "or"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shared"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/37.mp3",
+        "timeStart": 94.93,
+        "timeEnd": 98.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41134/list"
+      },
+      {
+        "id": 41135,
+        "position": 38,
+        "content": "These are both what we call simple rooms.",
+        "defaultInput": "",
+        "jsonContent": [
+          "These",
+          "are",
+          "both",
+          "what",
+          "we",
+          "call",
+          "simple",
+          "rooms."
+        ],
+        "solution": [
+          [
+            "These"
+          ],
+          [
+            "are"
+          ],
+          [
+            "both"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "call"
+          ],
+          [
+            "simple"
+          ],
+          [
+            "rooms."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/38.mp3",
+        "timeStart": 98.56,
+        "timeEnd": 101.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41135/list"
+      },
+      {
+        "id": 41136,
+        "position": 39,
+        "content": "The other alternative is to opt for a single bedsit",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "other",
+          "alternative",
+          "is",
+          "to",
+          "opt",
+          "for",
+          "a",
+          "single",
+          "bedsit"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "other"
+          ],
+          [
+            "alternative"
+          ],
+          [
+            "is"
+          ],
+          [
+            "to"
+          ],
+          [
+            "opt"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "single"
+          ],
+          [
+            "bedsit"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/39.mp3",
+        "timeStart": 101.64,
+        "timeEnd": 104.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41136/list"
+      },
+      {
+        "id": 41137,
+        "position": 40,
+        "content": "which actually has more space and better facilities.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "actually",
+          "has",
+          "more",
+          "space",
+          "and",
+          "better",
+          "facilities."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "has"
+          ],
+          [
+            "more"
+          ],
+          [
+            "space"
+          ],
+          [
+            "and"
+          ],
+          [
+            "better"
+          ],
+          [
+            "facilities."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/40.mp3",
+        "timeStart": 104.97,
+        "timeEnd": 108.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41137/list"
+      },
+      {
+        "id": 41138,
+        "position": 41,
+        "content": "There's about £20 a week difference between them.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "about",
+          [
+            "£20",
+            "20 pounds",
+            "twenty pounds"
+          ],
+          "a",
+          "week",
+          "difference",
+          "between",
+          "them."
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "about"
+          ],
+          [
+            "£20",
+            "20 pounds",
+            "twenty pounds"
+          ],
+          [
+            "a"
+          ],
+          [
+            "week"
+          ],
+          [
+            "difference"
+          ],
+          [
+            "between"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/41.mp3",
+        "timeStart": 108.11,
+        "timeEnd": 111.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41138/list"
+      },
+      {
+        "id": 41139,
+        "position": 42,
+        "content": "Well, actually my grant is quite generous and I think the bedsit sounds the best option.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "actually",
+          "my",
+          "grant",
+          "is",
+          "quite",
+          "generous",
+          "and",
+          "I",
+          "think",
+          "the",
+          "bedsit",
+          "sounds",
+          "the",
+          "best",
+          "option."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "my"
+          ],
+          [
+            "grant"
+          ],
+          [
+            "is"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "generous"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bedsit"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "option."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/42.mp3",
+        "timeStart": 111.72,
+        "timeEnd": 117.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41139/list"
+      },
+      {
+        "id": 41140,
+        "position": 43,
+        "content": "Lovely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Lovely."
+        ],
+        "solution": [
+          [
+            "Lovely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/43.mp3",
+        "timeStart": 117.61,
+        "timeEnd": 118.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41140/list"
+      },
+      {
+        "id": 41141,
+        "position": 44,
+        "content": "I'll put you down for that and we'll see what availability is like.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "put",
+          "you",
+          "down",
+          "for",
+          "that",
+          "and",
+          [
+            "we'll",
+            "we will"
+          ],
+          "see",
+          "what",
+          "availability",
+          "is",
+          "like."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "put"
+          ],
+          [
+            "you"
+          ],
+          [
+            "down"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "availability"
+          ],
+          [
+            "is"
+          ],
+          [
+            "like."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/44.mp3",
+        "timeStart": 118.51,
+        "timeEnd": 121.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41141/list"
+      },
+      {
+        "id": 41142,
+        "position": 45,
+        "content": "Now can I ask some other personal details which we like to have on record?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "can",
+          "I",
+          "ask",
+          "some",
+          "other",
+          "personal",
+          "details",
+          "which",
+          "we",
+          "like",
+          "to",
+          "have",
+          "on",
+          "record?"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "some"
+          ],
+          [
+            "other"
+          ],
+          [
+            "personal"
+          ],
+          [
+            "details"
+          ],
+          [
+            "which"
+          ],
+          [
+            "we"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "on"
+          ],
+          [
+            "record?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/45.mp3",
+        "timeStart": 122.08,
+        "timeEnd": 125.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41142/list"
+      },
+      {
+        "id": 41143,
+        "position": 46,
+        "content": "Yes, of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/46.mp3",
+        "timeStart": 125.96,
+        "timeEnd": 127.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41143/list"
+      },
+      {
+        "id": 41144,
+        "position": 47,
+        "content": "I wonder if you could let us know what your interests are.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "wonder",
+          "if",
+          "you",
+          "could",
+          "let",
+          "us",
+          "know",
+          "what",
+          "your",
+          "interests",
+          "are."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "wonder"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "let"
+          ],
+          [
+            "us"
+          ],
+          [
+            "know"
+          ],
+          [
+            "what"
+          ],
+          [
+            "your"
+          ],
+          [
+            "interests"
+          ],
+          [
+            "are."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/47.mp3",
+        "timeStart": 127.27,
+        "timeEnd": 130.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41144/list"
+      },
+      {
+        "id": 41145,
+        "position": 48,
+        "content": "This might help us get a closer match for placing you in a particular hall.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "might",
+          "help",
+          "us",
+          "get",
+          "a",
+          "closer",
+          "match",
+          "for",
+          "placing",
+          "you",
+          "in",
+          "a",
+          "particular",
+          "hall."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "might"
+          ],
+          [
+            "help"
+          ],
+          [
+            "us"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "closer"
+          ],
+          [
+            "match"
+          ],
+          [
+            "for"
+          ],
+          [
+            "placing"
+          ],
+          [
+            "you"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "particular"
+          ],
+          [
+            "hall."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/48.mp3",
+        "timeStart": 130.44,
+        "timeEnd": 134.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41145/list"
+      },
+      {
+        "id": 41146,
+        "position": 49,
+        "content": "Well. I love the theatre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well.",
+          "I",
+          "love",
+          "the",
+          [
+            "theatre.",
+            "theater"
+          ]
+        ],
+        "solution": [
+          [
+            "Well."
+          ],
+          [
+            "I"
+          ],
+          [
+            "love"
+          ],
+          [
+            "the"
+          ],
+          [
+            "theatre.",
+            "theater"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/49.mp3",
+        "timeStart": 135.89,
+        "timeEnd": 138.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41146/list"
+      },
+      {
+        "id": 41147,
+        "position": 50,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/50.mp3",
+        "timeStart": 138.27,
+        "timeEnd": 139.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41147/list"
+      },
+      {
+        "id": 41148,
+        "position": 51,
+        "content": "And I enjoy sports, particularly badminton.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "I",
+          "enjoy",
+          "sports,",
+          "particularly",
+          "badminton."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "I"
+          ],
+          [
+            "enjoy"
+          ],
+          [
+            "sports,"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "badminton."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/51.mp3",
+        "timeStart": 139.24,
+        "timeEnd": 143.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41148/list"
+      },
+      {
+        "id": 41149,
+        "position": 52,
+        "content": "Ah, that's worth knowing.",
+        "defaultInput": "Ah, ",
+        "jsonContent": [
+          "Ah,",
+          [
+            "that's",
+            "that is"
+          ],
+          "worth",
+          "knowing."
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "worth"
+          ],
+          [
+            "knowing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/52.mp3",
+        "timeStart": 143.05,
+        "timeEnd": 144.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41149/list"
+      },
+      {
+        "id": 41150,
+        "position": 53,
+        "content": "Now, what we finish with on the form is really a list from you of what your priorities are in choosing a hall",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "what",
+          "we",
+          "finish",
+          "with",
+          "on",
+          "the",
+          "form",
+          "is",
+          "really",
+          "a",
+          "list",
+          "from",
+          "you",
+          "of",
+          "what",
+          "your",
+          "priorities",
+          "are",
+          "in",
+          "choosing",
+          "a",
+          "hall"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "with"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "form"
+          ],
+          [
+            "is"
+          ],
+          [
+            "really"
+          ],
+          [
+            "a"
+          ],
+          [
+            "list"
+          ],
+          [
+            "from"
+          ],
+          [
+            "you"
+          ],
+          [
+            "of"
+          ],
+          [
+            "what"
+          ],
+          [
+            "your"
+          ],
+          [
+            "priorities"
+          ],
+          [
+            "are"
+          ],
+          [
+            "in"
+          ],
+          [
+            "choosing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hall"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/53.mp3",
+        "timeStart": 144.75,
+        "timeEnd": 150.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41150/list"
+      },
+      {
+        "id": 41151,
+        "position": 54,
+        "content": "and we'll do our best to take these into account.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "we'll",
+            "we will"
+          ],
+          "do",
+          "our",
+          "best",
+          "to",
+          "take",
+          "these",
+          "into",
+          "account."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "do"
+          ],
+          [
+            "our"
+          ],
+          [
+            "best"
+          ],
+          [
+            "to"
+          ],
+          [
+            "take"
+          ],
+          [
+            "these"
+          ],
+          [
+            "into"
+          ],
+          [
+            "account."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/54.mp3",
+        "timeStart": 150.87,
+        "timeEnd": 153.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41151/list"
+      },
+      {
+        "id": 41152,
+        "position": 55,
+        "content": "Well, the first thing is I'd prefer a hall where there are other mature students, if possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "thing",
+          "is",
+          "I'd",
+          "prefer",
+          "a",
+          "hall",
+          "where",
+          "there",
+          "are",
+          "other",
+          "mature",
+          "students,",
+          "if",
+          "possible."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "thing"
+          ],
+          [
+            "is"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hall"
+          ],
+          [
+            "where"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "other"
+          ],
+          [
+            "mature"
+          ],
+          [
+            "students,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/55.mp3",
+        "timeStart": 154.4,
+        "timeEnd": 160.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41152/list"
+      },
+      {
+        "id": 41153,
+        "position": 56,
+        "content": "Yes, we do have halls which tend to cater for slightly older students.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "we",
+          "do",
+          "have",
+          "halls",
+          "which",
+          "tend",
+          "to",
+          "cater",
+          "for",
+          "slightly",
+          "older",
+          "students."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "have"
+          ],
+          [
+            "halls"
+          ],
+          [
+            "which"
+          ],
+          [
+            "tend"
+          ],
+          [
+            "to"
+          ],
+          [
+            "cater"
+          ],
+          [
+            "for"
+          ],
+          [
+            "slightly"
+          ],
+          [
+            "older"
+          ],
+          [
+            "students."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/56.mp3",
+        "timeStart": 160.69,
+        "timeEnd": 164.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41153/list"
+      },
+      {
+        "id": 41154,
+        "position": 57,
+        "content": "Ummm and I'd prefer to be out of town.",
+        "defaultInput": "Ummm ",
+        "jsonContent": [
+          "Ummm",
+          "and",
+          "I'd",
+          "prefer",
+          "to",
+          "be",
+          "out",
+          "of",
+          "town."
+        ],
+        "solution": [
+          [
+            "Ummm"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "town."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/57.mp3",
+        "timeStart": 164.97,
+        "timeEnd": 169.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41154/list"
+      },
+      {
+        "id": 41155,
+        "position": 58,
+        "content": "That's actually very good for you because we tend to have more vacancies in out-of-town halls.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "actually",
+          "very",
+          "good",
+          "for",
+          "you",
+          "because",
+          "we",
+          "tend",
+          "to",
+          "have",
+          "more",
+          "vacancies",
+          "in",
+          [
+            "out-of-town",
+            "out of town"
+          ],
+          "halls."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "very"
+          ],
+          [
+            "good"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "because"
+          ],
+          [
+            "we"
+          ],
+          [
+            "tend"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "more"
+          ],
+          [
+            "vacancies"
+          ],
+          [
+            "in"
+          ],
+          [
+            "out-of-town",
+            "out of town"
+          ],
+          [
+            "halls."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/58.mp3",
+        "timeStart": 169.69,
+        "timeEnd": 174.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41155/list"
+      },
+      {
+        "id": 41156,
+        "position": 59,
+        "content": "Lucky!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Lucky!"
+        ],
+        "solution": [
+          [
+            "Lucky!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/59.mp3",
+        "timeStart": 174.51,
+        "timeEnd": 175.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41156/list"
+      },
+      {
+        "id": 41157,
+        "position": 60,
+        "content": "Yes.",
+        "defaultInput": "Yes.",
+        "jsonContent": [
+          "Yes."
+        ],
+        "solution": [
+          [
+            "Yes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/60.mp3",
+        "timeStart": 175.67,
+        "timeEnd": 176.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41157/list"
+      },
+      {
+        "id": 41158,
+        "position": 61,
+        "content": "Anything else?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anything",
+          "else?"
+        ],
+        "solution": [
+          [
+            "Anything"
+          ],
+          [
+            "else?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/61.mp3",
+        "timeStart": 176.53,
+        "timeEnd": 177.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41158/list"
+      },
+      {
+        "id": 41159,
+        "position": 62,
+        "content": "Well, I would like somewhere with a shared area, a TV room for example, or something like that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "I would",
+            "I'd"
+          ],
+          "like",
+          "somewhere",
+          "with",
+          "a",
+          "shared",
+          "area,",
+          "a",
+          "TV",
+          "room",
+          "for",
+          "example,",
+          "or",
+          "something",
+          "like",
+          "that."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "somewhere"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "shared"
+          ],
+          [
+            "area,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "TV"
+          ],
+          [
+            "room"
+          ],
+          [
+            "for"
+          ],
+          [
+            "example,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "something"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/62.mp3",
+        "timeStart": 178.04,
+        "timeEnd": 184.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41159/list"
+      },
+      {
+        "id": 41160,
+        "position": 63,
+        "content": "It's a good way to socialise.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          "good",
+          "way",
+          "to",
+          [
+            "socialise.",
+            "socialize"
+          ]
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "socialise.",
+            "socialize"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/63.mp3",
+        "timeStart": 184.16,
+        "timeEnd": 186.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41160/list"
+      },
+      {
+        "id": 41161,
+        "position": 64,
+        "content": "Certainly is.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly",
+          "is."
+        ],
+        "solution": [
+          [
+            "Certainly"
+          ],
+          [
+            "is."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/64.mp3",
+        "timeStart": 186.31,
+        "timeEnd": 187.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41161/list"
+      },
+      {
+        "id": 41162,
+        "position": 65,
+        "content": "That's it.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That's",
+            "that is"
+          ],
+          "it."
+        ],
+        "solution": [
+          [
+            "That's",
+            "that is"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/65.mp3",
+        "timeStart": 187.29,
+        "timeEnd": 188.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41162/list"
+      },
+      {
+        "id": 41163,
+        "position": 66,
+        "content": "Now, we just need a contact telephone number for you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "we",
+          "just",
+          "need",
+          "a",
+          "contact",
+          "telephone",
+          "number",
+          "for",
+          "you."
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "just"
+          ],
+          [
+            "need"
+          ],
+          [
+            "a"
+          ],
+          [
+            "contact"
+          ],
+          [
+            "telephone"
+          ],
+          [
+            "number"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/66.mp3",
+        "timeStart": 188.6,
+        "timeEnd": 191.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41163/list"
+      },
+      {
+        "id": 41164,
+        "position": 67,
+        "content": "Sure, I'll just find it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sure,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "just",
+          "find",
+          "it."
+        ],
+        "solution": [
+          [
+            "Sure,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "just"
+          ],
+          [
+            "find"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/67.mp3",
+        "timeStart": 192.33,
+        "timeEnd": 195.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41164/list"
+      },
+      {
+        "id": 41165,
+        "position": 68,
+        "content": "It's 667549.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "667549."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "667549."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/68.mp3",
+        "timeStart": 195.24,
+        "timeEnd": 200.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41165/list"
+      },
+      {
+        "id": 41166,
+        "position": 69,
+        "content": "Great, so we'll be in contact with you as soon as possible...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great,",
+          "so",
+          [
+            "we'll",
+            "we will"
+          ],
+          "be",
+          "in",
+          "contact",
+          "with",
+          "you",
+          "as",
+          "soon",
+          "as",
+          "possible..."
+        ],
+        "solution": [
+          [
+            "Great,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "we'll",
+            "we will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "in"
+          ],
+          [
+            "contact"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-9-test-2-part-1-2023-07-23-08-16-08/69.mp3",
+        "timeStart": 200.52,
+        "timeEnd": 203.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/41166/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "41100": {
+      "id": 725837,
+      "text": "và tôi muốn cố gắng sắp xếp chỗ ở trong kí túc xá",
+      "author": "a user"
+    },
+    "41118": {
+      "id": 725855,
+      "text": "Được rồi, cảm ơn bạn.",
+      "author": "a user"
+    },
+    "41119": {
+      "id": 725856,
+      "text": "Bạn nghĩ bạn muốn ở trong ký túc xá trong bao lâu?",
+      "author": "a user"
+    },
+    "41121": {
+      "id": 725858,
+      "text": "nhưng tôi chỉ muốn ở kí túc xá trong vòng hai năm.",
+      "author": "a user"
+    },
+    "41123": {
+      "id": 725860,
+      "text": "Được rồi.",
+      "author": "a user"
+    },
+    "41124": {
+      "id": 725861,
+      "text": "Và bạn đã suy nghĩ gì về việc ăn uống chưa?",
+      "author": "a user"
+    },
+    "41126": {
+      "id": 725864,
+      "text": "Có sự lựa chọn nào ở giữa không?\"",
+      "author": "a user"
+    },
+    "41127": {
+      "id": 725865,
+      "text": "Có. Bạn có thể chỉ được cung cấp bữa ăn tối, đó là dịch vụ \" nửa gói\"",
+      "author": "a user"
+    },
+    "41141": {
+      "id": 725879,
+      "text": "Tôi sẽ ghi lại thông tin của bạn và chúng ta sẽ xem xét tình trạng sẵn có như thế nào.",
+      "author": "a user"
+    },
+    "41142": {
+      "id": 725880,
+      "text": "Bây giờ tôi có thể hỏi một số chi tiết cá nhân khác mà chúng tôi muốn lưu trữ không?",
+      "author": "a user"
+    },
+    "41145": {
+      "id": 725941,
+      "text": "Điều này có thể giúp chúng tôi có được sự phù hợp chặt chẽ hơn để xếp bạn vào một khu kí túc xá cụ thể.",
+      "author": "a user"
+    },
+    "41150": {
+      "id": 725946,
+      "text": "Bây giờ, những gì chúng tôi hoàn thành trên biểu mẫu thực sự là một danh sách từ bạn về những ưu tiên của bạn trong việc chọn chỗ ở kí túc xá",
+      "author": "a user"
+    },
+    "41152": {
+      "id": 725948,
+      "text": "Chà, điều đầu tiên là tôi muốn khu ký túc xá nơi có những học sinh trưởng thành khác, nếu có thể.",
+      "author": "a user"
+    },
+    "41153": {
+      "id": 725949,
+      "text": "Có, chúng tôi có các khu ký túc xá dành cho học sinh lớn hơn một chút.",
+      "author": "a user"
+    },
+    "41155": {
+      "id": 725951,
+      "text": "Điều đó thực sự rất tốt cho bạn vì chúng tôi có xu hướng có nhiều chỗ trống hơn ở các khu ký túc xá bên ngoài thành phố.",
+      "author": "a user"
+    },
+    "41138": {
+      "id": 812221,
+      "text": "Có sự chênh lệch khoảng £ 20 một tuần giữa chúng.",
+      "author": "a user"
+    },
+    "41098": {
+      "id": 2590349,
+      "text": "Chào buổi sáng. Tôi có thể giúp gì cho bạn?",
+      "author": "ChatGPT4.1"
+    },
+    "41099": {
+      "id": 2590350,
+      "text": "Vâng. Tôi vừa được nhận vào một khóa học tại trường đại học",
+      "author": "ChatGPT4.1"
+    },
+    "41101": {
+      "id": 2590351,
+      "text": "Vâng, chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "41102": {
+      "id": 2590352,
+      "text": "Xin mời ngồi.",
+      "author": "ChatGPT4.1"
+    },
+    "41103": {
+      "id": 2590353,
+      "text": "Tôi sẽ điền vào một mẫu đơn cùng bạn để tìm hiểu thêm về sở thích và các thông tin liên quan khác của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "41104": {
+      "id": 2590354,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "41105": {
+      "id": 2590355,
+      "text": "Vậy trước tiên, tôi có thể biết tên bạn không?",
+      "author": "ChatGPT4.1"
+    },
+    "41106": {
+      "id": 2590356,
+      "text": "Tôi là Anu Bhatt.",
+      "author": "ChatGPT4.1"
+    },
+    "41107": {
+      "id": 2590357,
+      "text": "Bạn có thể đánh vần tên mình được không?",
+      "author": "ChatGPT4.1"
+    },
+    "41108": {
+      "id": 2590358,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "41109": {
+      "id": 2590359,
+      "text": "ANU... BHATT.",
+      "author": "ChatGPT4.1"
+    },
+    "41110": {
+      "id": 2590360,
+      "text": "Cảm ơn, và tôi có thể hỏi ngày sinh của bạn không?",
+      "author": "ChatGPT4.1"
+    },
+    "41111": {
+      "id": 2590361,
+      "text": "Ngày 31 tháng 3 năm 1972.",
+      "author": "ChatGPT4.1"
+    },
+    "41112": {
+      "id": 2590362,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "41113": {
+      "id": 2590363,
+      "text": "Và bạn đến từ đâu?",
+      "author": "ChatGPT4.1"
+    },
+    "41114": {
+      "id": 2590364,
+      "text": "Ấn Độ.",
+      "author": "ChatGPT4.1"
+    },
+    "41115": {
+      "id": 2590365,
+      "text": "Ồ, đúng rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "41116": {
+      "id": 2590366,
+      "text": "Và... bạn sẽ học ngành gì?",
+      "author": "ChatGPT4.1"
+    },
+    "41117": {
+      "id": 2590367,
+      "text": "Tôi đang học một khóa điều dưỡng.",
+      "author": "ChatGPT4.1"
+    },
+    "41120": {
+      "id": 2590368,
+      "text": "Ừm, khóa học sẽ kéo dài ba năm",
+      "author": "ChatGPT4.1"
+    },
+    "41122": {
+      "id": 2590369,
+      "text": "Tôi muốn cân nhắc sống bên ngoài vào năm thứ ba.",
+      "author": "ChatGPT4.1"
+    },
+    "41125": {
+      "id": 2590370,
+      "text": "Bạn muốn tự nấu ăn hay được cung cấp tất cả các bữa ăn, gọi là trọn gói?",
+      "author": "ChatGPT4.1"
+    },
+    "41128": {
+      "id": 2635709,
+      "text": "Đó là điều tôi muốn.",
+      "author": "ChatGPT4.1"
+    },
+    "41129": {
+      "id": 2635710,
+      "text": "Vâng, rất nhiều sinh viên chọn như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "41130": {
+      "id": 2635711,
+      "text": "Bây giờ, với điều đó trong đầu, bạn có chế độ ăn kiêng đặc biệt nào không, có điều gì chúng tôi nên biết không?",
+      "author": "ChatGPT4.1"
+    },
+    "41131": {
+      "id": 2635712,
+      "text": "Vâng, tôi không ăn thịt đỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "41132": {
+      "id": 2635713,
+      "text": "Không ăn thịt đỏ.",
+      "author": "ChatGPT4.1"
+    },
+    "41133": {
+      "id": 2635714,
+      "text": "Bây giờ, nói về căn phòng, chúng tôi có một số lựa chọn.",
+      "author": "ChatGPT4.1"
+    },
+    "41134": {
+      "id": 2635715,
+      "text": "Bạn có thể chọn phòng ngủ đơn hoặc phòng ngủ chung.",
+      "author": "ChatGPT4.1"
+    },
+    "41135": {
+      "id": 2635716,
+      "text": "Đây đều là những gì chúng tôi gọi là phòng đơn giản.",
+      "author": "ChatGPT4.1"
+    },
+    "41136": {
+      "id": 2635717,
+      "text": "Lựa chọn khác là chọn phòng studio đơn",
+      "author": "ChatGPT4.1"
+    },
+    "41137": {
+      "id": 2635718,
+      "text": "phòng này thực sự rộng hơn và có tiện nghi tốt hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "41139": {
+      "id": 2635719,
+      "text": "Thực ra khoản học bổng của tôi cũng khá hậu hĩnh và tôi nghĩ phòng studio nghe có vẻ là lựa chọn tốt nhất.",
+      "author": "a user"
+    },
+    "41140": {
+      "id": 2635720,
+      "text": "Tuyệt vời.",
+      "author": "ChatGPT4.1"
+    },
+    "41143": {
+      "id": 2635721,
+      "text": "Vâng, tất nhiên.",
+      "author": "ChatGPT4.1"
+    },
+    "41144": {
+      "id": 2635722,
+      "text": "Tôi muốn biết bạn có thể cho chúng tôi biết về sở thích của bạn được không.",
+      "author": "ChatGPT4.1"
+    },
+    "41146": {
+      "id": 2635723,
+      "text": "À, tôi thích nhà hát.",
+      "author": "ChatGPT4.1"
+    },
+    "41147": {
+      "id": 2635724,
+      "text": "Được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "41148": {
+      "id": 2635725,
+      "text": "Và tôi thích thể thao, đặc biệt là cầu lông.",
+      "author": "ChatGPT4.1"
+    },
+    "41149": {
+      "id": 2635726,
+      "text": "À, điều đó đáng lưu ý.",
+      "author": "ChatGPT4.1"
+    },
+    "41151": {
+      "id": 2635727,
+      "text": "và chúng tôi sẽ cố gắng hết sức để xem xét những điều đó.",
+      "author": "ChatGPT4.1"
+    },
+    "41154": {
+      "id": 2635728,
+      "text": "Ummm và tôi muốn ở ngoài trung tâm thành phố.",
+      "author": "ChatGPT4.1"
+    },
+    "41156": {
+      "id": 2635729,
+      "text": "May mắn thật!",
+      "author": "ChatGPT4.1"
+    },
+    "41157": {
+      "id": 2635730,
+      "text": "Vâng.",
+      "author": "ChatGPT4.1"
+    },
+    "41158": {
+      "id": 2635731,
+      "text": "Còn gì nữa không?",
+      "author": "ChatGPT4.1"
+    },
+    "41159": {
+      "id": 2657578,
+      "text": "Tôi muốn ở nơi nào có khu vực sinh hoạt chung, ví dụ như một phòng xem TV, hoặc thứ gì đó tương tự.",
+      "author": "ChatGPT4.1"
+    },
+    "41160": {
+      "id": 2657579,
+      "text": "Đó là cách tốt để giao lưu.",
+      "author": "ChatGPT4.1"
+    },
+    "41161": {
+      "id": 2657580,
+      "text": "Chắc chắn rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "41162": {
+      "id": 2657581,
+      "text": "Vậy thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "41163": {
+      "id": 2657582,
+      "text": "Bây giờ, chúng tôi chỉ cần số điện thoại liên lạc của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "41164": {
+      "id": 2657583,
+      "text": "Được, tôi sẽ lấy nó ngay.",
+      "author": "ChatGPT4.1"
+    },
+    "41165": {
+      "id": 2657584,
+      "text": "Là 667549.",
+      "author": "ChatGPT4.1"
+    },
+    "41166": {
+      "id": 2657585,
+      "text": "Tuyệt, chúng tôi sẽ liên lạc với bạn sớm nhất có thể...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

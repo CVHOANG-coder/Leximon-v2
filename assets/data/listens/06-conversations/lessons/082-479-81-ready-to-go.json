@@ -1,0 +1,578 @@
+{
+  "summary": {
+    "id": 479,
+    "name": "81. Ready to Go",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 82,
+    "totalChallenges": 11,
+    "groupId": 106,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/479",
+  "detail": {
+    "id": 479,
+    "lessonName": "81. Ready to Go",
+    "name": "81. Ready to Go",
+    "position": 82,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/0-81-ready-to-go.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18658,
+        "position": 1,
+        "content": "Are you ready?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Are",
+          "you",
+          "ready?"
+        ],
+        "solution": [
+          [
+            "Are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ready?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/1.mp3",
+        "timeStart": 2.15,
+        "timeEnd": 3.11,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/18658/list"
+      },
+      {
+        "id": 18659,
+        "position": 2,
+        "content": "Grace is still in her room.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Grace",
+          "is",
+          "still",
+          "in",
+          "her",
+          "room."
+        ],
+        "solution": [
+          [
+            "Grace"
+          ],
+          [
+            "is"
+          ],
+          [
+            "still"
+          ],
+          [
+            "in"
+          ],
+          [
+            "her"
+          ],
+          [
+            "room."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/2.mp3",
+        "timeStart": 3.21,
+        "timeEnd": 4.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18659/list"
+      },
+      {
+        "id": 18660,
+        "position": 3,
+        "content": "She needs to rush. We don't have enough time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "needs",
+          "to",
+          "rush.",
+          "We",
+          [
+            "don't",
+            "do not"
+          ],
+          "have",
+          "enough",
+          "time."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "to"
+          ],
+          [
+            "rush."
+          ],
+          [
+            "We"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/3.mp3",
+        "timeStart": 4.92,
+        "timeEnd": 7.32,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18660/list"
+      },
+      {
+        "id": 18661,
+        "position": 4,
+        "content": "What time does the movie begin?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "time",
+          "does",
+          "the",
+          "movie",
+          "begin?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "time"
+          ],
+          [
+            "does"
+          ],
+          [
+            "the"
+          ],
+          [
+            "movie"
+          ],
+          [
+            "begin?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/4.mp3",
+        "timeStart": 7.32,
+        "timeEnd": 9.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18661/list"
+      },
+      {
+        "id": 18662,
+        "position": 5,
+        "content": "It starts at 7:30.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "starts",
+          "at",
+          "7:30."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "at"
+          ],
+          [
+            "7:30."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/5.mp3",
+        "timeStart": 9.08,
+        "timeEnd": 10.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18662/list"
+      },
+      {
+        "id": 18663,
+        "position": 6,
+        "content": "What's the time now?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What's",
+            "what is"
+          ],
+          "the",
+          "time",
+          "now?"
+        ],
+        "solution": [
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "time"
+          ],
+          [
+            "now?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/6.mp3",
+        "timeStart": 10.5,
+        "timeEnd": 11.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18663/list"
+      },
+      {
+        "id": 18664,
+        "position": 7,
+        "content": "About 7:10.",
+        "defaultInput": "",
+        "jsonContent": [
+          "About",
+          "7:10."
+        ],
+        "solution": [
+          [
+            "About"
+          ],
+          [
+            "7:10."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/7.mp3",
+        "timeStart": 11.72,
+        "timeEnd": 13.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18664/list"
+      },
+      {
+        "id": 18665,
+        "position": 8,
+        "content": "There's no hurry. It only takes ten minutes by car to get there.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "no",
+          "hurry.",
+          "It",
+          "only",
+          "takes",
+          [
+            "ten",
+            "10"
+          ],
+          "minutes",
+          "by",
+          "car",
+          "to",
+          "get",
+          "there."
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "no"
+          ],
+          [
+            "hurry."
+          ],
+          [
+            "It"
+          ],
+          [
+            "only"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "ten",
+            "10"
+          ],
+          [
+            "minutes"
+          ],
+          [
+            "by"
+          ],
+          [
+            "car"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/8.mp3",
+        "timeStart": 13.15,
+        "timeEnd": 16.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18665/list"
+      },
+      {
+        "id": 18666,
+        "position": 9,
+        "content": "I know, but there aren't enough parking spaces around the theatre.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know,",
+          "but",
+          "there",
+          [
+            "aren't",
+            "are not"
+          ],
+          "enough",
+          "parking",
+          "spaces",
+          "around",
+          "the",
+          [
+            "theatre.",
+            "theater"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "there"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "parking"
+          ],
+          [
+            "spaces"
+          ],
+          [
+            "around"
+          ],
+          [
+            "the"
+          ],
+          [
+            "theatre.",
+            "theater"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/9.mp3",
+        "timeStart": 16.76,
+        "timeEnd": 19.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18666/list"
+      },
+      {
+        "id": 18667,
+        "position": 10,
+        "content": "Well, I'd better tell Grace to hurry up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I'd",
+          "better",
+          "tell",
+          "Grace",
+          "to",
+          "hurry",
+          "up."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "better"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "Grace"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hurry"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/10.mp3",
+        "timeStart": 19.94,
+        "timeEnd": 22.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18667/list"
+      },
+      {
+        "id": 18668,
+        "position": 11,
+        "content": "She can take hours to get ready.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "can",
+          "take",
+          "hours",
+          "to",
+          "get",
+          "ready."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "can"
+          ],
+          [
+            "take"
+          ],
+          [
+            "hours"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "ready."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/81-ready-to-go-2022-03-07-21-31-04/11.mp3",
+        "timeStart": 22.47,
+        "timeEnd": 24.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18668/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18659": {
+      "id": 32299,
+      "text": "Grace vẫn còn ở trong phòng của cô ấy.",
+      "author": "a user"
+    },
+    "18660": {
+      "id": 32300,
+      "text": "Cô ấy cần nhanh lên. Chúng ta không có đủ thời gian.",
+      "author": "a user"
+    },
+    "18665": {
+      "id": 32310,
+      "text": "Không cần vội. Đi xe hơi chỉ mất mười phút để đến đó thôi.",
+      "author": "a user"
+    },
+    "18666": {
+      "id": 32314,
+      "text": "Tôi biết, nhưng quanh rạp chiếu phim không có nhiều chỗ đậu xe.",
+      "author": "a user"
+    },
+    "18658": {
+      "id": 2584156,
+      "text": "Bạn sẵn sàng chưa?",
+      "author": "a user"
+    },
+    "18661": {
+      "id": 2584157,
+      "text": "Bộ phim bắt đầu lúc mấy giờ?",
+      "author": "ChatGPT4.1"
+    },
+    "18662": {
+      "id": 2584158,
+      "text": "Nó bắt đầu lúc 7 giờ 30.",
+      "author": "ChatGPT4.1"
+    },
+    "18663": {
+      "id": 2584159,
+      "text": "Bây giờ là mấy giờ?",
+      "author": "ChatGPT4.1"
+    },
+    "18664": {
+      "id": 2584160,
+      "text": "Khoảng 7 giờ 10.",
+      "author": "ChatGPT4.1"
+    },
+    "18667": {
+      "id": 2584161,
+      "text": "Vậy thì tốt hơn tôi nên bảo Grace nhanh lên.",
+      "author": "ChatGPT4.1"
+    },
+    "18668": {
+      "id": 2584162,
+      "text": "Cô ấy có thể mất hàng giờ để chuẩn bị.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

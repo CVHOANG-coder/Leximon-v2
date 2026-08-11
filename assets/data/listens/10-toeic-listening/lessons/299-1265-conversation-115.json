@@ -1,0 +1,913 @@
+{
+  "summary": {
+    "id": 1265,
+    "name": "Conversation 115",
+    "subTitle": "Choosing Festival Performers",
+    "levelName": "B1",
+    "position": 299,
+    "totalChallenges": 14,
+    "groupId": 42,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1265",
+  "detail": {
+    "id": 1265,
+    "lessonName": "Conversation 115",
+    "name": "Conversation 115",
+    "position": 299,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/0-conversation-115.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 55789,
+        "position": 1,
+        "content": "Hi Anna!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hi",
+          "Anna!"
+        ],
+        "solution": [
+          [
+            "Hi"
+          ],
+          [
+            "Anna!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/1.mp3",
+        "timeStart": 0.11,
+        "timeEnd": 0.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55789/list"
+      },
+      {
+        "id": 55790,
+        "position": 2,
+        "content": "I am looking forward to the community festival our business is helping to fund and organize.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I am",
+            "I'm"
+          ],
+          "looking",
+          "forward",
+          "to",
+          "the",
+          "community",
+          "festival",
+          "our",
+          "business",
+          "is",
+          "helping",
+          "to",
+          "fund",
+          "and",
+          [
+            "organize.",
+            "organise"
+          ]
+        ],
+        "solution": [
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "community"
+          ],
+          [
+            "festival"
+          ],
+          [
+            "our"
+          ],
+          [
+            "business"
+          ],
+          [
+            "is"
+          ],
+          [
+            "helping"
+          ],
+          [
+            "to"
+          ],
+          [
+            "fund"
+          ],
+          [
+            "and"
+          ],
+          [
+            "organize.",
+            "organise"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/2.mp3",
+        "timeStart": 0.91,
+        "timeEnd": 5.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55790/list"
+      },
+      {
+        "id": 55791,
+        "position": 3,
+        "content": "So many people will be attending it,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "many",
+          "people",
+          "will",
+          "be",
+          "attending",
+          "it,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "many"
+          ],
+          [
+            "people"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "attending"
+          ],
+          [
+            "it,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/3.mp3",
+        "timeStart": 5.78,
+        "timeEnd": 7.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55791/list"
+      },
+      {
+        "id": 55792,
+        "position": 4,
+        "content": "so I think it will be great for getting our name out there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "think",
+          [
+            "it will",
+            "it'll"
+          ],
+          "be",
+          "great",
+          "for",
+          "getting",
+          "our",
+          "name",
+          "out",
+          "there."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it will",
+            "it'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "great"
+          ],
+          [
+            "for"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "our"
+          ],
+          [
+            "name"
+          ],
+          [
+            "out"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/4.mp3",
+        "timeStart": 7.93,
+        "timeEnd": 10.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55792/list"
+      },
+      {
+        "id": 55793,
+        "position": 5,
+        "content": "Oh, I almost forgot about it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "I",
+          "almost",
+          "forgot",
+          "about",
+          "it."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "almost"
+          ],
+          [
+            "forgot"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/5.mp3",
+        "timeStart": 10.89,
+        "timeEnd": 13.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55793/list"
+      },
+      {
+        "id": 55794,
+        "position": 6,
+        "content": "Have you looked over, or listened to any of the bands that we are looking into hiring?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "you",
+          "looked",
+          "over,",
+          "or",
+          "listened",
+          "to",
+          "any",
+          "of",
+          "the",
+          "bands",
+          "that",
+          [
+            "we are",
+            "we're"
+          ],
+          "looking",
+          "into",
+          "hiring?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "looked"
+          ],
+          [
+            "over,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "listened"
+          ],
+          [
+            "to"
+          ],
+          [
+            "any"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bands"
+          ],
+          [
+            "that"
+          ],
+          [
+            "we are",
+            "we're"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "into"
+          ],
+          [
+            "hiring?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/6.mp3",
+        "timeStart": 13.17,
+        "timeEnd": 18.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55794/list"
+      },
+      {
+        "id": 55795,
+        "position": 7,
+        "content": "A decision needs to be made soon so the band has time to prepare.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "decision",
+          "needs",
+          "to",
+          "be",
+          "made",
+          "soon",
+          "so",
+          "the",
+          "band",
+          "has",
+          "time",
+          "to",
+          "prepare."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "decision"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "made"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "so"
+          ],
+          [
+            "the"
+          ],
+          [
+            "band"
+          ],
+          [
+            "has"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "prepare."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/7.mp3",
+        "timeStart": 18.56,
+        "timeEnd": 23.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55795/list"
+      },
+      {
+        "id": 55796,
+        "position": 8,
+        "content": "Wow, I was actually so busy with the advertising, the performers slipped my mind.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Wow,",
+          "I",
+          "was",
+          "actually",
+          "so",
+          "busy",
+          "with",
+          "the",
+          "advertising,",
+          "the",
+          "performers",
+          "slipped",
+          "my",
+          "mind."
+        ],
+        "solution": [
+          [
+            "Wow,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "so"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "advertising,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "performers"
+          ],
+          [
+            "slipped"
+          ],
+          [
+            "my"
+          ],
+          [
+            "mind."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/8.mp3",
+        "timeStart": 23.15,
+        "timeEnd": 28.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55796/list"
+      },
+      {
+        "id": 55797,
+        "position": 9,
+        "content": "I personally love the band HooHa, but their fee is pretty high",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "personally",
+          "love",
+          "the",
+          "band",
+          "HooHa,",
+          "but",
+          "their",
+          "fee",
+          "is",
+          "pretty",
+          "high"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "personally"
+          ],
+          [
+            "love"
+          ],
+          [
+            "the"
+          ],
+          [
+            "band"
+          ],
+          [
+            "HooHa,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "their"
+          ],
+          [
+            "fee"
+          ],
+          [
+            "is"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "high"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/9.mp3",
+        "timeStart": 28.42,
+        "timeEnd": 32.29,
+        "hints": [
+          "HooHa"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55797/list"
+      },
+      {
+        "id": 55798,
+        "position": 10,
+        "content": "and I don't know if we can afford it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "know",
+          "if",
+          "we",
+          "can",
+          "afford",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "afford"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/10.mp3",
+        "timeStart": 32.29,
+        "timeEnd": 34.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55798/list"
+      },
+      {
+        "id": 55799,
+        "position": 11,
+        "content": "I love them too, but unfortunately, I agree.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "love",
+          "them",
+          "too,",
+          "but",
+          "unfortunately,",
+          "I",
+          "agree."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "love"
+          ],
+          [
+            "them"
+          ],
+          [
+            "too,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "unfortunately,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "agree."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/11.mp3",
+        "timeStart": 34.41,
+        "timeEnd": 37.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55799/list"
+      },
+      {
+        "id": 55800,
+        "position": 12,
+        "content": "Should we just book the band from Hamilton?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Should",
+          "we",
+          "just",
+          "book",
+          "the",
+          "band",
+          "from",
+          "Hamilton?"
+        ],
+        "solution": [
+          [
+            "Should"
+          ],
+          [
+            "we"
+          ],
+          [
+            "just"
+          ],
+          [
+            "book"
+          ],
+          [
+            "the"
+          ],
+          [
+            "band"
+          ],
+          [
+            "from"
+          ],
+          [
+            "Hamilton?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/12.mp3",
+        "timeStart": 38.08,
+        "timeEnd": 40.88,
+        "hints": [
+          "Hamilton"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55800/list"
+      },
+      {
+        "id": 55801,
+        "position": 13,
+        "content": "They are pretty popular and have a good following on social media,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They are",
+            "they're"
+          ],
+          "pretty",
+          "popular",
+          "and",
+          "have",
+          "a",
+          "good",
+          "following",
+          "on",
+          "social",
+          "media,"
+        ],
+        "solution": [
+          [
+            "They are",
+            "they're"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "popular"
+          ],
+          [
+            "and"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "following"
+          ],
+          [
+            "on"
+          ],
+          [
+            "social"
+          ],
+          [
+            "media,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/13.mp3",
+        "timeStart": 40.88,
+        "timeEnd": 44.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55801/list"
+      },
+      {
+        "id": 55802,
+        "position": 14,
+        "content": "and their fee is significantly lower.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "their",
+          "fee",
+          "is",
+          "significantly",
+          "lower."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "their"
+          ],
+          [
+            "fee"
+          ],
+          [
+            "is"
+          ],
+          [
+            "significantly"
+          ],
+          [
+            "lower."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-115-2023-10-05-11-14-55/14.mp3",
+        "timeStart": 44.88,
+        "timeEnd": 47.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/55802/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "55789": {
+      "id": 2599523,
+      "text": "Chào Anna!",
+      "author": "ChatGPT4.1"
+    },
+    "55790": {
+      "id": 2599524,
+      "text": "Tôi đang rất mong chờ lễ hội cộng đồng mà công ty chúng ta đang hỗ trợ tài trợ và tổ chức.",
+      "author": "ChatGPT4.1"
+    },
+    "55791": {
+      "id": 2599525,
+      "text": "Sẽ có rất nhiều người tham dự sự kiện này,",
+      "author": "ChatGPT4.1"
+    },
+    "55792": {
+      "id": 2599526,
+      "text": "nên tôi nghĩ đây sẽ là dịp tuyệt vời để quảng bá tên tuổi của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "55793": {
+      "id": 2599527,
+      "text": "Ồ, tôi suýt nữa thì quên mất chuyện này.",
+      "author": "ChatGPT4.1"
+    },
+    "55794": {
+      "id": 2599528,
+      "text": "Bạn đã xem qua hoặc nghe thử bất kỳ ban nhạc nào mà chúng ta đang cân nhắc thuê chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "55795": {
+      "id": 2599529,
+      "text": "Chúng ta cần quyết định sớm để ban nhạc có thời gian chuẩn bị.",
+      "author": "ChatGPT4.1"
+    },
+    "55796": {
+      "id": 2599530,
+      "text": "Ôi, thực ra tôi đã bận quá với việc quảng cáo nên quên mất phần nghệ sĩ biểu diễn.",
+      "author": "ChatGPT4.1"
+    },
+    "55797": {
+      "id": 2599531,
+      "text": "Cá nhân tôi rất thích ban nhạc HooHa, nhưng phí của họ khá cao",
+      "author": "ChatGPT4.1"
+    },
+    "55798": {
+      "id": 2599532,
+      "text": "và tôi không chắc liệu chúng ta có đủ khả năng chi trả không.",
+      "author": "ChatGPT4.1"
+    },
+    "55799": {
+      "id": 2599533,
+      "text": "Tôi cũng thích họ, nhưng thật tiếc, tôi đồng ý với bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "55800": {
+      "id": 2599534,
+      "text": "Chúng ta có nên đặt ban nhạc đến từ Hamilton không?",
+      "author": "ChatGPT4.1"
+    },
+    "55801": {
+      "id": 2599535,
+      "text": "Họ khá nổi tiếng và có lượng người theo dõi tốt trên mạng xã hội,",
+      "author": "ChatGPT4.1"
+    },
+    "55802": {
+      "id": 2599536,
+      "text": "và phí của họ thấp hơn đáng kể.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

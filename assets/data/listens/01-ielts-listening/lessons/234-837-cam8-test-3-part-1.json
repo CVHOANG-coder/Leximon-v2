@@ -1,0 +1,4283 @@
+{
+  "summary": {
+    "id": 837,
+    "name": "Cam8 - Test 3 - Part 1",
+    "subTitle": "House Rental Inquiry Conversation",
+    "levelName": "B1",
+    "position": 234,
+    "totalChallenges": 74,
+    "groupId": 65,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/837",
+  "detail": {
+    "id": 837,
+    "lessonName": "Cam8 - Test 3 - Part 1",
+    "name": "Cam8 - Test 3 - Part 1",
+    "position": 234,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/0-ielts-cambridge-8-test-3-part-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 42526,
+        "position": 1,
+        "content": "Good morning. How can I help you?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Good",
+          "morning.",
+          "How",
+          "can",
+          "I",
+          "help",
+          "you?"
+        ],
+        "solution": [
+          [
+            "Good"
+          ],
+          [
+            "morning."
+          ],
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/1.mp3",
+        "timeStart": 0.19,
+        "timeEnd": 2.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42526/list"
+      },
+      {
+        "id": 42527,
+        "position": 2,
+        "content": "Hello. I'm interested in renting a house somewhere in the town.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello.",
+          [
+            "I'm",
+            "I am"
+          ],
+          "interested",
+          "in",
+          "renting",
+          "a",
+          "house",
+          "somewhere",
+          "in",
+          "the",
+          "town."
+        ],
+        "solution": [
+          [
+            "Hello."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "renting"
+          ],
+          [
+            "a"
+          ],
+          [
+            "house"
+          ],
+          [
+            "somewhere"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "town."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/2.mp3",
+        "timeStart": 2.13,
+        "timeEnd": 6.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42527/list"
+      },
+      {
+        "id": 42528,
+        "position": 3,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/3.mp3",
+        "timeStart": 6.08,
+        "timeEnd": 6.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42528/list"
+      },
+      {
+        "id": 42529,
+        "position": 4,
+        "content": "Could I have your name please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          [
+            "I have",
+            "I've"
+          ],
+          "your",
+          "name",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/4.mp3",
+        "timeStart": 7.57,
+        "timeEnd": 9.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42529/list"
+      },
+      {
+        "id": 42530,
+        "position": 5,
+        "content": "Yes, it's Steven Godfrey.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "it's",
+          "Steven",
+          "Godfrey."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "Steven"
+          ],
+          [
+            "Godfrey."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/5.mp3",
+        "timeStart": 9.19,
+        "timeEnd": 11.19,
+        "hints": [
+          "Steven Godfrey"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42530/list"
+      },
+      {
+        "id": 42531,
+        "position": 6,
+        "content": "And tell me how many bedrooms you're looking for.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "tell",
+          "me",
+          "how",
+          "many",
+          "bedrooms",
+          [
+            "you're",
+            "you are"
+          ],
+          "looking",
+          "for."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "how"
+          ],
+          [
+            "many"
+          ],
+          [
+            "bedrooms"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/6.mp3",
+        "timeStart": 12.05,
+        "timeEnd": 15.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42531/list"
+      },
+      {
+        "id": 42532,
+        "position": 7,
+        "content": "Well, we'd need 4, because I'm going to share the house with 3 friends.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "we'd",
+          "need",
+          [
+            "4,",
+            "four"
+          ],
+          "because",
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "share",
+          "the",
+          "house",
+          "with",
+          [
+            "3",
+            "three"
+          ],
+          "friends."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we'd"
+          ],
+          [
+            "need"
+          ],
+          [
+            "4,",
+            "four"
+          ],
+          [
+            "because"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "share"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house"
+          ],
+          [
+            "with"
+          ],
+          [
+            "3",
+            "three"
+          ],
+          [
+            "friends."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/7.mp3",
+        "timeStart": 15.19,
+        "timeEnd": 20.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42532/list"
+      },
+      {
+        "id": 42533,
+        "position": 8,
+        "content": "Okay, there are several of that size on our books.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "there",
+          "are",
+          "several",
+          "of",
+          "that",
+          "size",
+          "on",
+          "our",
+          "books."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "several"
+          ],
+          [
+            "of"
+          ],
+          [
+            "that"
+          ],
+          [
+            "size"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "books."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/8.mp3",
+        "timeStart": 20.2,
+        "timeEnd": 23.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42533/list"
+      },
+      {
+        "id": 42534,
+        "position": 9,
+        "content": "They mostly belong to families who are working abroad at the moment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "mostly",
+          "belong",
+          "to",
+          "families",
+          "who",
+          "are",
+          "working",
+          "abroad",
+          "at",
+          "the",
+          "moment."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "mostly"
+          ],
+          [
+            "belong"
+          ],
+          [
+            "to"
+          ],
+          [
+            "families"
+          ],
+          [
+            "who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "working"
+          ],
+          [
+            "abroad"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "moment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/9.mp3",
+        "timeStart": 23.79,
+        "timeEnd": 27.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42534/list"
+      },
+      {
+        "id": 42535,
+        "position": 10,
+        "content": "What about the location?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "the",
+          "location?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "location?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/10.mp3",
+        "timeStart": 27.55,
+        "timeEnd": 29.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42535/list"
+      },
+      {
+        "id": 42536,
+        "position": 11,
+        "content": "It'd be nice to be central.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It'd",
+          "be",
+          "nice",
+          "to",
+          "be",
+          "central."
+        ],
+        "solution": [
+          [
+            "It'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "nice"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "central."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/11.mp3",
+        "timeStart": 29.15,
+        "timeEnd": 31.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42536/list"
+      },
+      {
+        "id": 42537,
+        "position": 12,
+        "content": "That might be difficult, as most houses of that size are in the suburbs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "might",
+          "be",
+          "difficult,",
+          "as",
+          "most",
+          "houses",
+          "of",
+          "that",
+          "size",
+          "are",
+          "in",
+          "the",
+          "suburbs."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "difficult,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "most"
+          ],
+          [
+            "houses"
+          ],
+          [
+            "of"
+          ],
+          [
+            "that"
+          ],
+          [
+            "size"
+          ],
+          [
+            "are"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "suburbs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/12.mp3",
+        "timeStart": 31.72,
+        "timeEnd": 36.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42537/list"
+      },
+      {
+        "id": 42538,
+        "position": 13,
+        "content": "Still, there are a few.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Still,",
+          "there",
+          "are",
+          "a",
+          "few."
+        ],
+        "solution": [
+          [
+            "Still,"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/13.mp3",
+        "timeStart": 36.36,
+        "timeEnd": 38.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42538/list"
+      },
+      {
+        "id": 42539,
+        "position": 14,
+        "content": "What's your upper limit for the rent?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "What's",
+            "what is"
+          ],
+          "your",
+          "upper",
+          "limit",
+          "for",
+          "the",
+          "rent?"
+        ],
+        "solution": [
+          [
+            "What's",
+            "what is"
+          ],
+          [
+            "your"
+          ],
+          [
+            "upper"
+          ],
+          [
+            "limit"
+          ],
+          [
+            "for"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rent?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/14.mp3",
+        "timeStart": 38.44,
+        "timeEnd": 41.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42539/list"
+      },
+      {
+        "id": 42540,
+        "position": 15,
+        "content": "We'd like something around £500 a month,",
+        "defaultInput": "",
+        "jsonContent": [
+          "We'd",
+          "like",
+          "something",
+          "around",
+          [
+            "£500",
+            "500 pounds"
+          ],
+          "a",
+          "month,"
+        ],
+        "solution": [
+          [
+            "We'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "something"
+          ],
+          [
+            "around"
+          ],
+          [
+            "£500",
+            "500 pounds"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/15.mp3",
+        "timeStart": 41.04,
+        "timeEnd": 44.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42540/list"
+      },
+      {
+        "id": 42541,
+        "position": 16,
+        "content": "but we could go up to £600 if we have to.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "could",
+          "go",
+          "up",
+          "to",
+          [
+            "£600",
+            "600 pounds"
+          ],
+          "if",
+          [
+            "we have",
+            "we've"
+          ],
+          "to."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "go"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "£600",
+            "600 pounds"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "to."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/16.mp3",
+        "timeStart": 44.69,
+        "timeEnd": 48.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42541/list"
+      },
+      {
+        "id": 42542,
+        "position": 17,
+        "content": "But we can't go beyond that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "we",
+          "can't",
+          "go",
+          "beyond",
+          "that."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "go"
+          ],
+          [
+            "beyond"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/17.mp3",
+        "timeStart": 48.07,
+        "timeEnd": 50.27,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/42542/list"
+      },
+      {
+        "id": 42543,
+        "position": 18,
+        "content": "Do you know how long you want to rent the house for?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "know",
+          "how",
+          "long",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "rent",
+          "the",
+          "house",
+          "for?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "how"
+          ],
+          [
+            "long"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "rent"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house"
+          ],
+          [
+            "for?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/18.mp3",
+        "timeStart": 50.67,
+        "timeEnd": 53.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42543/list"
+      },
+      {
+        "id": 42544,
+        "position": 19,
+        "content": "The minimum let is 6 months, as you probably realise.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "minimum",
+          "let",
+          "is",
+          [
+            "6",
+            "six"
+          ],
+          "months,",
+          "as",
+          "you",
+          "probably",
+          [
+            "realise.",
+            "realize"
+          ]
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "minimum"
+          ],
+          [
+            "let"
+          ],
+          [
+            "is"
+          ],
+          [
+            "6",
+            "six"
+          ],
+          [
+            "months,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "you"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "realise.",
+            "realize"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/19.mp3",
+        "timeStart": 53.53,
+        "timeEnd": 56.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42544/list"
+      },
+      {
+        "id": 42545,
+        "position": 20,
+        "content": "We're at college here for two years,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "we are"
+          ],
+          "at",
+          "college",
+          "here",
+          "for",
+          [
+            "two",
+            "2"
+          ],
+          "years,"
+        ],
+        "solution": [
+          [
+            "We're",
+            "we are"
+          ],
+          [
+            "at"
+          ],
+          [
+            "college"
+          ],
+          [
+            "here"
+          ],
+          [
+            "for"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "years,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/20.mp3",
+        "timeStart": 56.89,
+        "timeEnd": 59.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42545/list"
+      },
+      {
+        "id": 42546,
+        "position": 21,
+        "content": "and we don't want to have to move during that time if we can avoid it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "don't",
+          [
+            "want to",
+            "wanna"
+          ],
+          "have",
+          "to",
+          "move",
+          "during",
+          "that",
+          "time",
+          "if",
+          "we",
+          "can",
+          "avoid",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "don't"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "move"
+          ],
+          [
+            "during"
+          ],
+          [
+            "that"
+          ],
+          [
+            "time"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "avoid"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/21.mp3",
+        "timeStart": 59.11,
+        "timeEnd": 62.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42546/list"
+      },
+      {
+        "id": 42547,
+        "position": 22,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/22.mp3",
+        "timeStart": 62.79,
+        "timeEnd": 63.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42547/list"
+      },
+      {
+        "id": 42548,
+        "position": 23,
+        "content": "And how soon do you want to move in?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "how",
+          "soon",
+          "do",
+          "you",
+          [
+            "want to",
+            "wanna"
+          ],
+          "move",
+          "in?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "how"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "move"
+          ],
+          [
+            "in?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/23.mp3",
+        "timeStart": 63.97,
+        "timeEnd": 66.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42548/list"
+      },
+      {
+        "id": 42549,
+        "position": 24,
+        "content": "All our lets start on the first of the month.",
+        "defaultInput": "",
+        "jsonContent": [
+          "All",
+          "our",
+          "lets",
+          "start",
+          "on",
+          "the",
+          [
+            "first",
+            "1st"
+          ],
+          "of",
+          "the",
+          "month."
+        ],
+        "solution": [
+          [
+            "All"
+          ],
+          [
+            "our"
+          ],
+          [
+            "lets"
+          ],
+          [
+            "start"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "month."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/24.mp3",
+        "timeStart": 66.27,
+        "timeEnd": 68.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42549/list"
+      },
+      {
+        "id": 42550,
+        "position": 25,
+        "content": "Well, as soon as possible, really, so that means September 1st.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "as",
+          "soon",
+          "as",
+          "possible,",
+          "really,",
+          "so",
+          "that",
+          "means",
+          "September",
+          [
+            "1st.",
+            "first"
+          ]
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "possible,"
+          ],
+          [
+            "really,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "means"
+          ],
+          [
+            "September"
+          ],
+          [
+            "1st.",
+            "first"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/25.mp3",
+        "timeStart": 68.73,
+        "timeEnd": 73.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42550/list"
+      },
+      {
+        "id": 42551,
+        "position": 26,
+        "content": "Okay, let me have a look at what we've got....",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "let",
+          "me",
+          "have",
+          "a",
+          "look",
+          "at",
+          "what",
+          [
+            "we've",
+            "we have"
+          ],
+          "got...."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "got...."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/26.mp3",
+        "timeStart": 73.2,
+        "timeEnd": 75.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42551/list"
+      },
+      {
+        "id": 42552,
+        "position": 27,
+        "content": "We have photographs of all the houses on our books, so you can get an idea of what they're like.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "we've"
+          ],
+          "photographs",
+          "of",
+          "all",
+          "the",
+          "houses",
+          "on",
+          "our",
+          "books,",
+          "so",
+          "you",
+          "can",
+          "get",
+          "an",
+          "idea",
+          "of",
+          "what",
+          [
+            "they're",
+            "they are"
+          ],
+          "like."
+        ],
+        "solution": [
+          [
+            "We have",
+            "we've"
+          ],
+          [
+            "photographs"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all"
+          ],
+          [
+            "the"
+          ],
+          [
+            "houses"
+          ],
+          [
+            "on"
+          ],
+          [
+            "our"
+          ],
+          [
+            "books,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "get"
+          ],
+          [
+            "an"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "of"
+          ],
+          [
+            "what"
+          ],
+          [
+            "they're",
+            "they are"
+          ],
+          [
+            "like."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/27.mp3",
+        "timeStart": 75.85,
+        "timeEnd": 81.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42552/list"
+      },
+      {
+        "id": 42553,
+        "position": 28,
+        "content": "There's this one in Oakington Avenue, at £550 a month.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "this",
+          [
+            "one",
+            "1"
+          ],
+          "in",
+          "Oakington",
+          "Avenue,",
+          "at",
+          [
+            "£550",
+            "550 pounds"
+          ],
+          "a",
+          "month."
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "this"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Oakington"
+          ],
+          [
+            "Avenue,"
+          ],
+          [
+            "at"
+          ],
+          [
+            "£550",
+            "550 pounds"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/28.mp3",
+        "timeStart": 81.97,
+        "timeEnd": 87.01,
+        "hints": [
+          "Oakington Avenue"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42553/list"
+      },
+      {
+        "id": 42554,
+        "position": 29,
+        "content": "Combined living room and dining room, with a separate kitchen.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Combined",
+          "living",
+          "room",
+          "and",
+          "dining",
+          "room,",
+          "with",
+          "a",
+          "separate",
+          "kitchen."
+        ],
+        "solution": [
+          [
+            "Combined"
+          ],
+          [
+            "living"
+          ],
+          [
+            "room"
+          ],
+          [
+            "and"
+          ],
+          [
+            "dining"
+          ],
+          [
+            "room,"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "separate"
+          ],
+          [
+            "kitchen."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/29.mp3",
+        "timeStart": 87.01,
+        "timeEnd": 90.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42554/list"
+      },
+      {
+        "id": 42555,
+        "position": 30,
+        "content": "It doesn't have a garage, though you can park in the road.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "have",
+          "a",
+          "garage,",
+          "though",
+          "you",
+          "can",
+          "park",
+          "in",
+          "the",
+          "road."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "garage,"
+          ],
+          [
+            "though"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "park"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "road."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/30.mp3",
+        "timeStart": 90.75,
+        "timeEnd": 94.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42555/list"
+      },
+      {
+        "id": 42556,
+        "position": 31,
+        "content": "Ah, we'd prefer to have one, if possible.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Ah,",
+          "we'd",
+          "prefer",
+          "to",
+          "have",
+          [
+            "one,",
+            "1"
+          ],
+          "if",
+          "possible."
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "we'd"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "one,",
+            "1"
+          ],
+          [
+            "if"
+          ],
+          [
+            "possible."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/31.mp3",
+        "timeStart": 94.29,
+        "timeEnd": 97.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42556/list"
+      },
+      {
+        "id": 42557,
+        "position": 32,
+        "content": "Right.",
+        "defaultInput": "Right.",
+        "jsonContent": [
+          "Right."
+        ],
+        "solution": [
+          [
+            "Right."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/32.mp3",
+        "timeStart": 97.23,
+        "timeEnd": 98.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42557/list"
+      },
+      {
+        "id": 42558,
+        "position": 33,
+        "content": "Then have a look at this house, in Mead Street.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          "have",
+          "a",
+          "look",
+          "at",
+          "this",
+          "house,",
+          "in",
+          "Mead",
+          "Street."
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "look"
+          ],
+          [
+            "at"
+          ],
+          [
+            "this"
+          ],
+          [
+            "house,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Mead"
+          ],
+          [
+            "Street."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/33.mp3",
+        "timeStart": 98.19,
+        "timeEnd": 102.09,
+        "hints": [
+          "Mead Street"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42558/list"
+      },
+      {
+        "id": 42559,
+        "position": 34,
+        "content": "It's got a very large living room and kitchen, bathroom, cloakroom...",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "got",
+          "a",
+          "very",
+          "large",
+          "living",
+          "room",
+          "and",
+          "kitchen,",
+          "bathroom,",
+          "cloakroom..."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "very"
+          ],
+          [
+            "large"
+          ],
+          [
+            "living"
+          ],
+          [
+            "room"
+          ],
+          [
+            "and"
+          ],
+          [
+            "kitchen,"
+          ],
+          [
+            "bathroom,"
+          ],
+          [
+            "cloakroom..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/34.mp3",
+        "timeStart": 102.09,
+        "timeEnd": 106.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42559/list"
+      },
+      {
+        "id": 42560,
+        "position": 35,
+        "content": "How much is it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "much",
+          "is",
+          "it?"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "much"
+          ],
+          [
+            "is"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/35.mp3",
+        "timeStart": 106.39,
+        "timeEnd": 107.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42560/list"
+      },
+      {
+        "id": 42561,
+        "position": 36,
+        "content": "That one's 580.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "one's",
+          "580."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "one's"
+          ],
+          [
+            "580."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/36.mp3",
+        "timeStart": 107.24,
+        "timeEnd": 109.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42561/list"
+      },
+      {
+        "id": 42562,
+        "position": 37,
+        "content": "It's very well furnished and equipped.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "very",
+          "well",
+          "furnished",
+          "and",
+          "equipped."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "well"
+          ],
+          [
+            "furnished"
+          ],
+          [
+            "and"
+          ],
+          [
+            "equipped."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/37.mp3",
+        "timeStart": 109.73,
+        "timeEnd": 111.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42562/list"
+      },
+      {
+        "id": 42563,
+        "position": 38,
+        "content": "It also has plenty of space for parking, and it's available for a minimum of a year.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "also",
+          "has",
+          "plenty",
+          "of",
+          "space",
+          "for",
+          "parking,",
+          "and",
+          "it's",
+          "available",
+          "for",
+          "a",
+          "minimum",
+          "of",
+          "a",
+          "year."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "also"
+          ],
+          [
+            "has"
+          ],
+          [
+            "plenty"
+          ],
+          [
+            "of"
+          ],
+          [
+            "space"
+          ],
+          [
+            "for"
+          ],
+          [
+            "parking,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "available"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "minimum"
+          ],
+          [
+            "of"
+          ],
+          [
+            "a"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/38.mp3",
+        "timeStart": 111.96,
+        "timeEnd": 117.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42563/list"
+      },
+      {
+        "id": 42564,
+        "position": 39,
+        "content": "Oh, and there's a big garden.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "and",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "big",
+          "garden."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "garden."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/39.mp3",
+        "timeStart": 117.15,
+        "timeEnd": 119.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42564/list"
+      },
+      {
+        "id": 42565,
+        "position": 40,
+        "content": "I don't think we could cope with that, to be honest.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "we",
+          "could",
+          "cope",
+          "with",
+          "that,",
+          "to",
+          "be",
+          "honest."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "cope"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that,"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "honest."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/40.mp3",
+        "timeStart": 119.44,
+        "timeEnd": 122.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42565/list"
+      },
+      {
+        "id": 42566,
+        "position": 41,
+        "content": "We'll be too busy to look after it.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We'll",
+            "we will"
+          ],
+          "be",
+          "too",
+          "busy",
+          "to",
+          "look",
+          "after",
+          "it."
+        ],
+        "solution": [
+          [
+            "We'll",
+            "we will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "too"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "to"
+          ],
+          [
+            "look"
+          ],
+          [
+            "after"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/41.mp3",
+        "timeStart": 122.05,
+        "timeEnd": 123.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42566/list"
+      },
+      {
+        "id": 42567,
+        "position": 42,
+        "content": "Okay.",
+        "defaultInput": "Okay.",
+        "jsonContent": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "Okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/42.mp3",
+        "timeStart": 124.57,
+        "timeEnd": 125.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42567/list"
+      },
+      {
+        "id": 42568,
+        "position": 43,
+        "content": "Then there's this older house in Hamilton Road:",
+        "defaultInput": "",
+        "jsonContent": [
+          "Then",
+          [
+            "there's",
+            "there is"
+          ],
+          "this",
+          "older",
+          "house",
+          "in",
+          "Hamilton",
+          "Road:"
+        ],
+        "solution": [
+          [
+            "Then"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "this"
+          ],
+          [
+            "older"
+          ],
+          [
+            "house"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Hamilton"
+          ],
+          [
+            "Road:"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/43.mp3",
+        "timeStart": 126.59,
+        "timeEnd": 129.23,
+        "hints": [
+          "Hamilton Road"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42568/list"
+      },
+      {
+        "id": 42569,
+        "position": 44,
+        "content": "living room, kitchen-diner, and it has a study.",
+        "defaultInput": "",
+        "jsonContent": [
+          "living",
+          "room,",
+          [
+            "kitchen-diner,",
+            "kitchen diner,"
+          ],
+          "and",
+          [
+            "it has",
+            "it's"
+          ],
+          "a",
+          "study."
+        ],
+        "solution": [
+          [
+            "living"
+          ],
+          [
+            "room,"
+          ],
+          [
+            "kitchen-diner,",
+            "kitchen diner,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it has",
+            "it's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "study."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/44.mp3",
+        "timeStart": 129.23,
+        "timeEnd": 132.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42569/list"
+      },
+      {
+        "id": 42570,
+        "position": 45,
+        "content": "550 a month.",
+        "defaultInput": "",
+        "jsonContent": [
+          "550",
+          "a",
+          "month."
+        ],
+        "solution": [
+          [
+            "550"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/45.mp3",
+        "timeStart": 132.73,
+        "timeEnd": 134.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42570/list"
+      },
+      {
+        "id": 42571,
+        "position": 46,
+        "content": "That looks rather nice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "looks",
+          "rather",
+          "nice."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "nice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/46.mp3",
+        "timeStart": 134.59,
+        "timeEnd": 136,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42571/list"
+      },
+      {
+        "id": 42572,
+        "position": 47,
+        "content": "But whereabouts in Hamilton Road?",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "whereabouts",
+          "in",
+          "Hamilton",
+          "Road?"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "whereabouts"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Hamilton"
+          ],
+          [
+            "Road?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/47.mp3",
+        "timeStart": 136.2,
+        "timeEnd": 138.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42572/list"
+      },
+      {
+        "id": 42573,
+        "position": 48,
+        "content": "Towards the western end.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Towards",
+          "the",
+          "western",
+          "end."
+        ],
+        "solution": [
+          [
+            "Towards"
+          ],
+          [
+            "the"
+          ],
+          [
+            "western"
+          ],
+          [
+            "end."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/48.mp3",
+        "timeStart": 138.52,
+        "timeEnd": 140.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42573/list"
+      },
+      {
+        "id": 42574,
+        "position": 49,
+        "content": "Oh, that'll be very noisy. I know the area.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          [
+            "that'll",
+            "that will"
+          ],
+          "be",
+          "very",
+          "noisy.",
+          "I",
+          "know",
+          "the",
+          "area."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "that'll",
+            "that will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "very"
+          ],
+          [
+            "noisy."
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/49.mp3",
+        "timeStart": 140.52,
+        "timeEnd": 143.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42574/list"
+      },
+      {
+        "id": 42575,
+        "position": 50,
+        "content": "Yes, it's pretty lively.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "it's",
+          "pretty",
+          "lively."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "pretty"
+          ],
+          [
+            "lively."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/50.mp3",
+        "timeStart": 143.64,
+        "timeEnd": 145.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42575/list"
+      },
+      {
+        "id": 42576,
+        "position": 51,
+        "content": "Some people like it, though.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "people",
+          "like",
+          "it,",
+          "though."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "people"
+          ],
+          [
+            "like"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/51.mp3",
+        "timeStart": 145.56,
+        "timeEnd": 147.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42576/list"
+      },
+      {
+        "id": 42577,
+        "position": 52,
+        "content": "Well, what about this house in Devon Close?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "what",
+          "about",
+          "this",
+          "house",
+          "in",
+          "Devon",
+          "Close?"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "this"
+          ],
+          [
+            "house"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Devon"
+          ],
+          [
+            "Close?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/52.mp3",
+        "timeStart": 147.71,
+        "timeEnd": 151.92,
+        "hints": [
+          "Devon Close"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42577/list"
+      },
+      {
+        "id": 42578,
+        "position": 53,
+        "content": "That looks lovely.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That",
+          "looks",
+          "lovely."
+        ],
+        "solution": [
+          [
+            "That"
+          ],
+          [
+            "looks"
+          ],
+          [
+            "lovely."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/53.mp3",
+        "timeStart": 151.92,
+        "timeEnd": 153.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42578/list"
+      },
+      {
+        "id": 42579,
+        "position": 54,
+        "content": "There's a big demand for houses in that area, so prices tend to be quite high.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "a",
+          "big",
+          "demand",
+          "for",
+          "houses",
+          "in",
+          "that",
+          "area,",
+          "so",
+          "prices",
+          "tend",
+          "to",
+          "be",
+          "quite",
+          "high."
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "demand"
+          ],
+          [
+            "for"
+          ],
+          [
+            "houses"
+          ],
+          [
+            "in"
+          ],
+          [
+            "that"
+          ],
+          [
+            "area,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "prices"
+          ],
+          [
+            "tend"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "high."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/54.mp3",
+        "timeStart": 153.69,
+        "timeEnd": 157.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42579/list"
+      },
+      {
+        "id": 42580,
+        "position": 55,
+        "content": "But this one hasn't been decorated for a few years, which has kept the rent down a bit.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "this",
+          [
+            "one",
+            "1"
+          ],
+          [
+            "hasn't",
+            "has not"
+          ],
+          "been",
+          "decorated",
+          "for",
+          "a",
+          "few",
+          "years,",
+          "which",
+          "has",
+          "kept",
+          "the",
+          "rent",
+          "down",
+          "a",
+          "bit."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "this"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "hasn't",
+            "has not"
+          ],
+          [
+            "been"
+          ],
+          [
+            "decorated"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "years,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "has"
+          ],
+          [
+            "kept"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rent"
+          ],
+          [
+            "down"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/55.mp3",
+        "timeStart": 157.6,
+        "timeEnd": 162.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42580/list"
+      },
+      {
+        "id": 42581,
+        "position": 56,
+        "content": "It's got a living room, dining room and small kitchen,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "got",
+          "a",
+          "living",
+          "room,",
+          "dining",
+          "room",
+          "and",
+          "small",
+          "kitchen,"
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "living"
+          ],
+          [
+            "room,"
+          ],
+          [
+            "dining"
+          ],
+          [
+            "room"
+          ],
+          [
+            "and"
+          ],
+          [
+            "small"
+          ],
+          [
+            "kitchen,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/56.mp3",
+        "timeStart": 162.08,
+        "timeEnd": 165.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42581/list"
+      },
+      {
+        "id": 42582,
+        "position": 57,
+        "content": "and it's 595 a month.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it's",
+          "595",
+          "a",
+          "month."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "595"
+          ],
+          [
+            "a"
+          ],
+          [
+            "month."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/57.mp3",
+        "timeStart": 165.93,
+        "timeEnd": 168.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42582/list"
+      },
+      {
+        "id": 42583,
+        "position": 58,
+        "content": "I think it would suit you, from what you've said.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "it would",
+            "It'd"
+          ],
+          "suit",
+          "you,",
+          "from",
+          "what",
+          [
+            "you've",
+            "You have"
+          ],
+          "said."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it would",
+            "It'd"
+          ],
+          [
+            "suit"
+          ],
+          [
+            "you,"
+          ],
+          [
+            "from"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "said."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/58.mp3",
+        "timeStart": 169.11,
+        "timeEnd": 171.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42583/list"
+      },
+      {
+        "id": 42584,
+        "position": 59,
+        "content": "It sounds fine.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "sounds",
+          "fine."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "fine."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/59.mp3",
+        "timeStart": 171.95,
+        "timeEnd": 173.07,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42584/list"
+      },
+      {
+        "id": 42585,
+        "position": 60,
+        "content": "Why's that part of town so popular?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why's",
+          "that",
+          "part",
+          "of",
+          "town",
+          "so",
+          "popular?"
+        ],
+        "solution": [
+          [
+            "Why's"
+          ],
+          [
+            "that"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "town"
+          ],
+          [
+            "so"
+          ],
+          [
+            "popular?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/60.mp3",
+        "timeStart": 174,
+        "timeEnd": 176.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42585/list"
+      },
+      {
+        "id": 42586,
+        "position": 61,
+        "content": "Well, there's a big scheme to improve the district, and it'll soon have the best facilities for miles around.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "there's",
+            "there is"
+          ],
+          "a",
+          "big",
+          "scheme",
+          "to",
+          "improve",
+          "the",
+          "district,",
+          "and",
+          [
+            "it'll",
+            "it will"
+          ],
+          "soon",
+          "have",
+          "the",
+          "best",
+          "facilities",
+          "for",
+          "miles",
+          "around."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "there's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "scheme"
+          ],
+          [
+            "to"
+          ],
+          [
+            "improve"
+          ],
+          [
+            "the"
+          ],
+          [
+            "district,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "it'll",
+            "it will"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "facilities"
+          ],
+          [
+            "for"
+          ],
+          [
+            "miles"
+          ],
+          [
+            "around."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/61.mp3",
+        "timeStart": 176.56,
+        "timeEnd": 181.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42586/list"
+      },
+      {
+        "id": 42587,
+        "position": 62,
+        "content": "What sort of thing?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "sort",
+          "of",
+          "thing?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "thing?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/62.mp3",
+        "timeStart": 181.71,
+        "timeEnd": 183.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42587/list"
+      },
+      {
+        "id": 42588,
+        "position": 63,
+        "content": "There's a big sports centre under construction, which will be very impressive when it's finished.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "there is"
+          ],
+          "a",
+          "big",
+          "sports",
+          [
+            "centre",
+            "center"
+          ],
+          "under",
+          "construction,",
+          "which",
+          "will",
+          "be",
+          "very",
+          "impressive",
+          "when",
+          "it's",
+          "finished."
+        ],
+        "solution": [
+          [
+            "There's",
+            "there is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "sports"
+          ],
+          [
+            "centre",
+            "center"
+          ],
+          [
+            "under"
+          ],
+          [
+            "construction,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "very"
+          ],
+          [
+            "impressive"
+          ],
+          [
+            "when"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "finished."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/63.mp3",
+        "timeStart": 183.05,
+        "timeEnd": 187.59,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42588/list"
+      },
+      {
+        "id": 42589,
+        "position": 64,
+        "content": "In fact, the swimming pool's already opened, ahead of schedule,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "fact,",
+          "the",
+          "swimming",
+          "pool's",
+          "already",
+          "opened,",
+          "ahead",
+          "of",
+          "schedule,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "fact,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "swimming"
+          ],
+          [
+            "pool's"
+          ],
+          [
+            "already"
+          ],
+          [
+            "opened,"
+          ],
+          [
+            "ahead"
+          ],
+          [
+            "of"
+          ],
+          [
+            "schedule,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/64.mp3",
+        "timeStart": 187.59,
+        "timeEnd": 191.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42589/list"
+      },
+      {
+        "id": 42590,
+        "position": 65,
+        "content": "and it's attracting a lot of people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it's",
+          "attracting",
+          "a",
+          "lot",
+          "of",
+          "people."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "attracting"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/65.mp3",
+        "timeStart": 191.25,
+        "timeEnd": 193.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42590/list"
+      },
+      {
+        "id": 42591,
+        "position": 66,
+        "content": "What about cinemas: are there any in the area?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "about",
+          "cinemas:",
+          "are",
+          "there",
+          "any",
+          "in",
+          "the",
+          "area?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "about"
+          ],
+          [
+            "cinemas:"
+          ],
+          [
+            "are"
+          ],
+          [
+            "there"
+          ],
+          [
+            "any"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/66.mp3",
+        "timeStart": 193.2,
+        "timeEnd": 196.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42591/list"
+      },
+      {
+        "id": 42592,
+        "position": 67,
+        "content": "The only one closed down last year,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "only",
+          [
+            "one",
+            "1"
+          ],
+          "closed",
+          "down",
+          "last",
+          "year,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "only"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "closed"
+          ],
+          [
+            "down"
+          ],
+          [
+            "last"
+          ],
+          [
+            "year,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/67.mp3",
+        "timeStart": 196.24,
+        "timeEnd": 198.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42592/list"
+      },
+      {
+        "id": 42593,
+        "position": 68,
+        "content": "and it's now in the process of being converted into a film museum.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "it's",
+          "now",
+          "in",
+          "the",
+          "process",
+          "of",
+          "being",
+          "converted",
+          "into",
+          "a",
+          "film",
+          "museum."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "now"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "process"
+          ],
+          [
+            "of"
+          ],
+          [
+            "being"
+          ],
+          [
+            "converted"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "film"
+          ],
+          [
+            "museum."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/68.mp3",
+        "timeStart": 198.69,
+        "timeEnd": 202.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42593/list"
+      },
+      {
+        "id": 42594,
+        "position": 69,
+        "content": "The local people are trying to get a new cinema added to the scheme.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "local",
+          "people",
+          "are",
+          "trying",
+          "to",
+          "get",
+          "a",
+          "new",
+          "cinema",
+          "added",
+          "to",
+          "the",
+          "scheme."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "local"
+          ],
+          [
+            "people"
+          ],
+          [
+            "are"
+          ],
+          [
+            "trying"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "cinema"
+          ],
+          [
+            "added"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "scheme."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/69.mp3",
+        "timeStart": 202.03,
+        "timeEnd": 205.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42594/list"
+      },
+      {
+        "id": 42595,
+        "position": 70,
+        "content": "I think I heard something about a plan to replace the existing concert hall with a larger one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "I",
+          "heard",
+          "something",
+          "about",
+          "a",
+          "plan",
+          "to",
+          "replace",
+          "the",
+          "existing",
+          "concert",
+          "hall",
+          "with",
+          "a",
+          "larger",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "something"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "plan"
+          ],
+          [
+            "to"
+          ],
+          [
+            "replace"
+          ],
+          [
+            "the"
+          ],
+          [
+            "existing"
+          ],
+          [
+            "concert"
+          ],
+          [
+            "hall"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "larger"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/70.mp3",
+        "timeStart": 206.01,
+        "timeEnd": 211.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42595/list"
+      },
+      {
+        "id": 42596,
+        "position": 71,
+        "content": "Ah, that's due to start next year.",
+        "defaultInput": "Ah, ",
+        "jsonContent": [
+          "Ah,",
+          [
+            "that's",
+            "that is"
+          ],
+          "due",
+          "to",
+          "start",
+          "next",
+          "year."
+        ],
+        "solution": [
+          [
+            "Ah,"
+          ],
+          [
+            "that's",
+            "that is"
+          ],
+          [
+            "due"
+          ],
+          [
+            "to"
+          ],
+          [
+            "start"
+          ],
+          [
+            "next"
+          ],
+          [
+            "year."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/71.mp3",
+        "timeStart": 211.51,
+        "timeEnd": 214.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42596/list"
+      },
+      {
+        "id": 42597,
+        "position": 72,
+        "content": "Well, it sounds an interesting area to live in.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "it",
+          "sounds",
+          "an",
+          "interesting",
+          "area",
+          "to",
+          "live",
+          "in."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "it"
+          ],
+          [
+            "sounds"
+          ],
+          [
+            "an"
+          ],
+          [
+            "interesting"
+          ],
+          [
+            "area"
+          ],
+          [
+            "to"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/72.mp3",
+        "timeStart": 214.33,
+        "timeEnd": 217.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42597/list"
+      },
+      {
+        "id": 42598,
+        "position": 73,
+        "content": "Could I go and see the house, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Could",
+          "I",
+          "go",
+          "and",
+          "see",
+          "the",
+          "house,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "Could"
+          ],
+          [
+            "I"
+          ],
+          [
+            "go"
+          ],
+          [
+            "and"
+          ],
+          [
+            "see"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/73.mp3",
+        "timeStart": 217.23,
+        "timeEnd": 218.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42598/list"
+      },
+      {
+        "id": 42599,
+        "position": 74,
+        "content": "Yes, of course.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "of",
+          "course."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-8-test-3-part-1-2023-07-26-16-41-21/74.mp3",
+        "timeStart": 218.83,
+        "timeEnd": 219.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/42599/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "42526": {
+      "id": 735337,
+      "text": "Chào buổi sáng. Tôi có thể làm gì để giúp bạn?",
+      "author": "a user"
+    },
+    "42527": {
+      "id": 735338,
+      "text": "Xin chào. Tôi đang muốn thuê một căn nhà ở đâu đó trong thị trấn.",
+      "author": "a user"
+    },
+    "42528": {
+      "id": 735339,
+      "text": "Được rồi.",
+      "author": "a user"
+    },
+    "42529": {
+      "id": 735340,
+      "text": "Làm ơn cho tôi biết tên của bạn được không?",
+      "author": "a user"
+    },
+    "42530": {
+      "id": 735341,
+      "text": "Vâng, tên tôi là Steven Godfrey.",
+      "author": "a user"
+    },
+    "42531": {
+      "id": 735342,
+      "text": "Và cho tôi biết bạn đang cần bao nhiêu phòng ngủ.",
+      "author": "a user"
+    },
+    "42532": {
+      "id": 735343,
+      "text": "Chà, chúng tôi cần 4 phòng ngủ, vì tôi sẽ ở chung với 3 người bạn.",
+      "author": "a user"
+    },
+    "42533": {
+      "id": 735344,
+      "text": "Được rồi, chúng tôi có sẵn rất nhiều phòng với kích thước như vậy.",
+      "author": "a user"
+    },
+    "42534": {
+      "id": 735348,
+      "text": "Hầu hết chúng thuộc về những gia đình đang làm việc ở nước ngoài.",
+      "author": "a user"
+    },
+    "42536": {
+      "id": 735359,
+      "text": "Sẽ thật tuyệt nếu được ở trong trung tâm thị trấn.",
+      "author": "a user"
+    },
+    "42537": {
+      "id": 735363,
+      "text": "Có lẽ sẽ khó đấy, vì hầu hết các ngôi nhà có kích thước như vậy đều ở ngoại ô.",
+      "author": "a user"
+    },
+    "42539": {
+      "id": 735980,
+      "text": "Số tiền lớn nhất mà bạn có thể chi trả cho việc thuê nhà là bao nhiêu?",
+      "author": "a user"
+    },
+    "42542": {
+      "id": 736004,
+      "text": "Nhưng chúng tôi không thể trả nhiều hơn thế.",
+      "author": "a user"
+    },
+    "42544": {
+      "id": 736011,
+      "text": "Bạn có lẽ đã biết thời hạn tối thiểu là 6 tháng.",
+      "author": "a user"
+    },
+    "42547": {
+      "id": 736036,
+      "text": "Được rồi.",
+      "author": "a user"
+    },
+    "42549": {
+      "id": 736041,
+      "text": "Tất cả hợp đồng thuê nhà của chúng tôi bắt đầu vào ngày đầu tiên của tháng.",
+      "author": "a user"
+    },
+    "42557": {
+      "id": 737230,
+      "text": "Được rồi.",
+      "author": "a user"
+    },
+    "42560": {
+      "id": 737233,
+      "text": "Nó có giá bao nhiêu vậy?",
+      "author": "a user"
+    },
+    "42561": {
+      "id": 737234,
+      "text": "Nó có giá 580.",
+      "author": "a user"
+    },
+    "42562": {
+      "id": 737235,
+      "text": "Nó được trang trí và trang bị đồ đạc rất đầy đủ",
+      "author": "a user"
+    },
+    "42565": {
+      "id": 737238,
+      "text": "Thật lòng mà nói, tôi nghĩ chúng tôi không thể xoay xở nổi với số tiền đó.",
+      "author": "a user"
+    },
+    "42568": {
+      "id": 737241,
+      "text": "Vậy thì có ngôi nhà cũ này ở Hamilton Road:",
+      "author": "a user"
+    },
+    "42569": {
+      "id": 737242,
+      "text": "phòng khách, bếp-ăn, và nó có một phòng làm việc.",
+      "author": "a user"
+    },
+    "42571": {
+      "id": 737244,
+      "text": "Trông có vẻ khá tốt đấy.",
+      "author": "a user"
+    },
+    "42572": {
+      "id": 737245,
+      "text": "Nhưng chính xác thì nó nằm ở đâu trên đường Hamilton vậy?",
+      "author": "a user"
+    },
+    "42576": {
+      "id": 737249,
+      "text": "Tuy nhiên một số người lại thích nó.",
+      "author": "a user"
+    },
+    "42578": {
+      "id": 737251,
+      "text": "Căn đó trông đáng yêu đấy.",
+      "author": "a user"
+    },
+    "42582": {
+      "id": 737255,
+      "text": "và nó có giá 595 một tháng.",
+      "author": "a user"
+    },
+    "42596": {
+      "id": 737269,
+      "text": "Ah, nó sẽ bắt đầu vào năm tới.",
+      "author": "a user"
+    },
+    "42598": {
+      "id": 737271,
+      "text": "Tôi có thể đi xem nhà không, làm ơn?",
+      "author": "a user"
+    },
+    "42541": {
+      "id": 812223,
+      "text": "nhưng chúng tôi có thể chi trả lên tới £600 nếu cần thiết.",
+      "author": "a user"
+    },
+    "42535": {
+      "id": 2637871,
+      "text": "Còn về vị trí thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "42538": {
+      "id": 2637872,
+      "text": "Tuy nhiên, vẫn có một vài căn.",
+      "author": "ChatGPT4.1"
+    },
+    "42540": {
+      "id": 2637873,
+      "text": "Chúng tôi muốn một căn khoảng 500 bảng một tháng,",
+      "author": "ChatGPT4.1"
+    },
+    "42543": {
+      "id": 2637874,
+      "text": "Bạn đã biết mình muốn thuê nhà trong bao lâu chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "42545": {
+      "id": 2637875,
+      "text": "Chúng tôi học đại học ở đây hai năm,",
+      "author": "ChatGPT4.1"
+    },
+    "42546": {
+      "id": 2637876,
+      "text": "và chúng tôi không muốn phải chuyển đi trong thời gian đó nếu có thể tránh được.",
+      "author": "ChatGPT4.1"
+    },
+    "42548": {
+      "id": 2637877,
+      "text": "Và bạn muốn chuyển vào nhà sớm thế nào?",
+      "author": "ChatGPT4.1"
+    },
+    "42550": {
+      "id": 2637878,
+      "text": "Thật ra, càng sớm càng tốt, vậy tức là ngày 1 tháng 9.",
+      "author": "ChatGPT4.1"
+    },
+    "42551": {
+      "id": 2637879,
+      "text": "Được rồi, để tôi xem chúng tôi có gì nhé...",
+      "author": "ChatGPT4.1"
+    },
+    "42552": {
+      "id": 2637880,
+      "text": "Chúng tôi có ảnh của tất cả các căn nhà trong danh sách, để bạn có thể hình dung chúng như thế nào.",
+      "author": "ChatGPT4.1"
+    },
+    "42553": {
+      "id": 2637881,
+      "text": "Có một căn ở Oakington Avenue, giá 550 bảng một tháng.",
+      "author": "ChatGPT4.1"
+    },
+    "42554": {
+      "id": 2637882,
+      "text": "Phòng khách và phòng ăn kết hợp, bếp riêng biệt.",
+      "author": "ChatGPT4.1"
+    },
+    "42555": {
+      "id": 2637883,
+      "text": "Nó không có ga-ra, nhưng bạn có thể đỗ xe ngoài đường.",
+      "author": "ChatGPT4.1"
+    },
+    "42573": {
+      "id": 2637884,
+      "text": "Về phía tây của đường.",
+      "author": "ChatGPT4.1"
+    },
+    "42574": {
+      "id": 2637885,
+      "text": "Ồ, chỗ đó sẽ rất ồn ào. Tôi biết khu đó.",
+      "author": "ChatGPT4.1"
+    },
+    "42575": {
+      "id": 2637886,
+      "text": "Vâng, khá nhộn nhịp.",
+      "author": "ChatGPT4.1"
+    },
+    "42577": {
+      "id": 2637887,
+      "text": "Thế còn căn nhà ở Devon Close này thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "42579": {
+      "id": 2637888,
+      "text": "Có nhiều người muốn mua nhà ở khu vực đó, nên giá thường khá cao.",
+      "author": "ChatGPT4.1"
+    },
+    "42580": {
+      "id": 2637889,
+      "text": "Nhưng căn này đã lâu chưa được trang trí lại, nên giá thuê có phần thấp hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "42581": {
+      "id": 2637890,
+      "text": "Nó có phòng khách, phòng ăn và bếp nhỏ,",
+      "author": "ChatGPT4.1"
+    },
+    "42583": {
+      "id": 2637891,
+      "text": "Tôi nghĩ nó phù hợp với bạn, dựa trên những gì bạn nói.",
+      "author": "ChatGPT4.1"
+    },
+    "42584": {
+      "id": 2637892,
+      "text": "Nghe có vẻ ổn đấy.",
+      "author": "ChatGPT4.1"
+    },
+    "42585": {
+      "id": 2637893,
+      "text": "Tại sao khu vực đó lại được ưa chuộng vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "42586": {
+      "id": 2637894,
+      "text": "Có một dự án lớn để nâng cấp khu vực, và nó sẽ sớm có những tiện ích tốt nhất trong vùng.",
+      "author": "ChatGPT4.1"
+    },
+    "42587": {
+      "id": 2637895,
+      "text": "Những tiện ích gì vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "42588": {
+      "id": 2637896,
+      "text": "Có một trung tâm thể thao lớn đang được xây dựng, sẽ rất ấn tượng khi hoàn thành.",
+      "author": "ChatGPT4.1"
+    },
+    "42589": {
+      "id": 2637897,
+      "text": "Thật ra, hồ bơi tại đó đã khai trương, sớm hơn dự kiến,",
+      "author": "ChatGPT4.1"
+    },
+    "42590": {
+      "id": 2637898,
+      "text": "và đang thu hút rất nhiều người.",
+      "author": "ChatGPT4.1"
+    },
+    "42591": {
+      "id": 2637899,
+      "text": "Còn rạp chiếu phim thì sao: có cái nào ở khu vực đó không?",
+      "author": "ChatGPT4.1"
+    },
+    "42592": {
+      "id": 2637900,
+      "text": "Rạp duy nhất đã đóng cửa năm ngoái,",
+      "author": "ChatGPT4.1"
+    },
+    "42593": {
+      "id": 2637901,
+      "text": "và bây giờ đang được cải tạo thành bảo tàng điện ảnh.",
+      "author": "ChatGPT4.1"
+    },
+    "42594": {
+      "id": 2637902,
+      "text": "Người dân địa phương đang cố gắng đưa thêm một rạp chiếu phim mới vào dự án đó.",
+      "author": "ChatGPT4.1"
+    },
+    "42595": {
+      "id": 2637903,
+      "text": "Tôi nghĩ tôi đã nghe về kế hoạch thay thế nhà hát hòa nhạc hiện tại bằng một nhà hát lớn hơn.",
+      "author": "ChatGPT4.1"
+    },
+    "42597": {
+      "id": 2637904,
+      "text": "Vậy thì nghe có vẻ là một khu vực thú vị để sống.",
+      "author": "ChatGPT4.1"
+    },
+    "42599": {
+      "id": 2637905,
+      "text": "Vâng, tất nhiên rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "42556": {
+      "id": 2637937,
+      "text": "À, chúng tôi muốn có gara nếu được.",
+      "author": "ChatGPT4.1"
+    },
+    "42558": {
+      "id": 2637938,
+      "text": "Vậy hãy xem căn ở Mead Street này nhé.",
+      "author": "ChatGPT4.1"
+    },
+    "42559": {
+      "id": 2637939,
+      "text": "Nó có phòng khách và bếp rất rộng, phòng tắm, phòng thay đồ...",
+      "author": "ChatGPT4.1"
+    },
+    "42563": {
+      "id": 2637940,
+      "text": "Nó cũng có nhiều chỗ đậu xe, và thời gian thuê tối thiểu là một năm.",
+      "author": "ChatGPT4.1"
+    },
+    "42564": {
+      "id": 2637941,
+      "text": "À, và nó còn có một khu vườn lớn.",
+      "author": "ChatGPT4.1"
+    },
+    "42566": {
+      "id": 2637942,
+      "text": "Chúng tôi sẽ quá bận để chăm sóc vườn.",
+      "author": "ChatGPT4.1"
+    },
+    "42567": {
+      "id": 2637943,
+      "text": "Được thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "42570": {
+      "id": 2637944,
+      "text": "550 bảng một tháng.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

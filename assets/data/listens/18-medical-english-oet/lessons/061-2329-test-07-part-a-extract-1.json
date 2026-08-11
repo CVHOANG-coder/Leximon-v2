@@ -1,0 +1,3859 @@
+{
+  "summary": {
+    "id": 2329,
+    "name": "Test 07 - Part A - Extract 1",
+    "subTitle": "Concern About Daughter's Health",
+    "levelName": "B2",
+    "position": 61,
+    "totalChallenges": 62,
+    "groupId": 137,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2329",
+  "detail": {
+    "id": 2329,
+    "lessonName": "Test 07 - Part A - Extract 1",
+    "name": "Test 07 - Part A - Extract 1",
+    "position": 61,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/0-test-07-part-a-extract-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 91623,
+        "position": 1,
+        "content": "Hello. Mrs Black, isn't it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello.",
+          "Mrs",
+          "Black,",
+          [
+            "isn't",
+            "is not"
+          ],
+          "it?"
+        ],
+        "solution": [
+          [
+            "Hello."
+          ],
+          [
+            "Mrs"
+          ],
+          [
+            "Black,"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/1.mp3",
+        "timeStart": 1.08,
+        "timeEnd": 3.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91623/list"
+      },
+      {
+        "id": 91624,
+        "position": 2,
+        "content": "I believe it's your first time with this clinic.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "believe",
+          "it's",
+          "your",
+          [
+            "first",
+            "1st"
+          ],
+          "time",
+          "with",
+          "this",
+          "clinic."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "your"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "time"
+          ],
+          [
+            "with"
+          ],
+          [
+            "this"
+          ],
+          [
+            "clinic."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/2.mp3",
+        "timeStart": 3.03,
+        "timeEnd": 5.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91624/list"
+      },
+      {
+        "id": 91625,
+        "position": 3,
+        "content": "Yes, we've just moved to the area, so we're looking for a new GP.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          [
+            "we've",
+            "we have"
+          ],
+          "just",
+          "moved",
+          "to",
+          "the",
+          "area,",
+          "so",
+          [
+            "we're",
+            "we are"
+          ],
+          "looking",
+          "for",
+          "a",
+          "new",
+          "GP."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "just"
+          ],
+          [
+            "moved"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "area,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "we're",
+            "we are"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "GP."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/3.mp3",
+        "timeStart": 5.12,
+        "timeEnd": 8.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91625/list"
+      },
+      {
+        "id": 91626,
+        "position": 4,
+        "content": "Right then.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Right",
+          "then."
+        ],
+        "solution": [
+          [
+            "Right"
+          ],
+          [
+            "then."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/4.mp3",
+        "timeStart": 8.89,
+        "timeEnd": 9.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91626/list"
+      },
+      {
+        "id": 91627,
+        "position": 5,
+        "content": "So, how can I help you today?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "how",
+          "can",
+          "I",
+          "help",
+          "you",
+          "today?"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "how"
+          ],
+          [
+            "can"
+          ],
+          [
+            "I"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "today?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/5.mp3",
+        "timeStart": 9.82,
+        "timeEnd": 11.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91627/list"
+      },
+      {
+        "id": 91628,
+        "position": 6,
+        "content": "Oh well, I'm actually a bit worried about our daughter, Mia.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "well,",
+          [
+            "I'm",
+            "I am"
+          ],
+          "actually",
+          "a",
+          "bit",
+          "worried",
+          "about",
+          "our",
+          "daughter,",
+          "Mia."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "well,"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "about"
+          ],
+          [
+            "our"
+          ],
+          [
+            "daughter,"
+          ],
+          [
+            "Mia."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/6.mp3",
+        "timeStart": 11.85,
+        "timeEnd": 15.05,
+        "hints": [
+          "Mia"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91628/list"
+      },
+      {
+        "id": 91629,
+        "position": 7,
+        "content": "She's 15 now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          [
+            "15",
+            "fifteen"
+          ],
+          "now."
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "15",
+            "fifteen"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/7.mp3",
+        "timeStart": 15.05,
+        "timeEnd": 16.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91629/list"
+      },
+      {
+        "id": 91630,
+        "position": 8,
+        "content": "She's always been very healthy,",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "always",
+          "been",
+          "very",
+          "healthy,"
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "always"
+          ],
+          [
+            "been"
+          ],
+          [
+            "very"
+          ],
+          [
+            "healthy,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/8.mp3",
+        "timeStart": 16.42,
+        "timeEnd": 18.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91630/list"
+      },
+      {
+        "id": 91631,
+        "position": 9,
+        "content": "but recently she's gotten very thin and I'm worried that it might be anorexia.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "recently",
+          "she's",
+          "gotten",
+          "very",
+          "thin",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "worried",
+          "that",
+          "it",
+          "might",
+          "be",
+          "anorexia."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "recently"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "gotten"
+          ],
+          [
+            "very"
+          ],
+          [
+            "thin"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "anorexia."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/9.mp3",
+        "timeStart": 18.37,
+        "timeEnd": 22.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91631/list"
+      },
+      {
+        "id": 91632,
+        "position": 10,
+        "content": "Okay, I see.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/10.mp3",
+        "timeStart": 22.74,
+        "timeEnd": 24.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91632/list"
+      },
+      {
+        "id": 91633,
+        "position": 11,
+        "content": "Can you tell me a little bit more about Mia?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Can",
+          "you",
+          "tell",
+          "me",
+          "a",
+          "little",
+          "bit",
+          "more",
+          "about",
+          "Mia?"
+        ],
+        "solution": [
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "little"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "more"
+          ],
+          [
+            "about"
+          ],
+          [
+            "Mia?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/11.mp3",
+        "timeStart": 24.1,
+        "timeEnd": 26.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91633/list"
+      },
+      {
+        "id": 91634,
+        "position": 12,
+        "content": "Well, she always used to eat with the family,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "she",
+          "always",
+          "used",
+          "to",
+          "eat",
+          "with",
+          "the",
+          "family,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "always"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "family,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/12.mp3",
+        "timeStart": 26.66,
+        "timeEnd": 29.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91634/list"
+      },
+      {
+        "id": 91635,
+        "position": 13,
+        "content": "but lately she says she hasn't got time to eat with us because she's too busy,",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "lately",
+          "she",
+          "says",
+          "she",
+          [
+            "hasn't",
+            "has not"
+          ],
+          "got",
+          "time",
+          "to",
+          "eat",
+          "with",
+          "us",
+          "because",
+          "she's",
+          "too",
+          "busy,"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "lately"
+          ],
+          [
+            "she"
+          ],
+          [
+            "says"
+          ],
+          [
+            "she"
+          ],
+          [
+            "hasn't",
+            "has not"
+          ],
+          [
+            "got"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "eat"
+          ],
+          [
+            "with"
+          ],
+          [
+            "us"
+          ],
+          [
+            "because"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "too"
+          ],
+          [
+            "busy,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/13.mp3",
+        "timeStart": 29.57,
+        "timeEnd": 33.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91635/list"
+      },
+      {
+        "id": 91636,
+        "position": 14,
+        "content": "or she takes her plate into her room and eats in there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "she",
+          "takes",
+          "her",
+          "plate",
+          "into",
+          "her",
+          "room",
+          "and",
+          "eats",
+          "in",
+          "there."
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "she"
+          ],
+          [
+            "takes"
+          ],
+          [
+            "her"
+          ],
+          [
+            "plate"
+          ],
+          [
+            "into"
+          ],
+          [
+            "her"
+          ],
+          [
+            "room"
+          ],
+          [
+            "and"
+          ],
+          [
+            "eats"
+          ],
+          [
+            "in"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/14.mp3",
+        "timeStart": 33.82,
+        "timeEnd": 37.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91636/list"
+      },
+      {
+        "id": 91637,
+        "position": 15,
+        "content": "She skips breakfast a lot as well,",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "skips",
+          "breakfast",
+          "a",
+          "lot",
+          "as",
+          "well,"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "skips"
+          ],
+          [
+            "breakfast"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/15.mp3",
+        "timeStart": 37.32,
+        "timeEnd": 39.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91637/list"
+      },
+      {
+        "id": 91638,
+        "position": 16,
+        "content": "or just has a glass of juice, a couple of bites of toast,",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "just",
+          "has",
+          "a",
+          "glass",
+          "of",
+          "juice,",
+          "a",
+          "couple",
+          "of",
+          "bites",
+          "of",
+          "toast,"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "just"
+          ],
+          [
+            "has"
+          ],
+          [
+            "a"
+          ],
+          [
+            "glass"
+          ],
+          [
+            "of"
+          ],
+          [
+            "juice,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "bites"
+          ],
+          [
+            "of"
+          ],
+          [
+            "toast,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/16.mp3",
+        "timeStart": 39.7,
+        "timeEnd": 43.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91638/list"
+      },
+      {
+        "id": 91639,
+        "position": 17,
+        "content": "before she's out the door and off to school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "before",
+          "she's",
+          "out",
+          "the",
+          "door",
+          "and",
+          "off",
+          "to",
+          "school."
+        ],
+        "solution": [
+          [
+            "before"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "door"
+          ],
+          [
+            "and"
+          ],
+          [
+            "off"
+          ],
+          [
+            "to"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/17.mp3",
+        "timeStart": 43.27,
+        "timeEnd": 45.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91639/list"
+      },
+      {
+        "id": 91640,
+        "position": 18,
+        "content": "It all started late last year, but I'm not really sure what triggered the change.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "all",
+          "started",
+          "late",
+          "last",
+          "year,",
+          "but",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          "really",
+          "sure",
+          "what",
+          "triggered",
+          "the",
+          "change."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "all"
+          ],
+          [
+            "started"
+          ],
+          [
+            "late"
+          ],
+          [
+            "last"
+          ],
+          [
+            "year,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "really"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "what"
+          ],
+          [
+            "triggered"
+          ],
+          [
+            "the"
+          ],
+          [
+            "change."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/18.mp3",
+        "timeStart": 45.78,
+        "timeEnd": 50.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91640/list"
+      },
+      {
+        "id": 91641,
+        "position": 19,
+        "content": "And what about school?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "what",
+          "about",
+          "school?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "school?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/19.mp3",
+        "timeStart": 51.21,
+        "timeEnd": 52.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91641/list"
+      },
+      {
+        "id": 91642,
+        "position": 20,
+        "content": "How's that going?",
+        "defaultInput": "",
+        "jsonContent": [
+          "How's",
+          "that",
+          "going?"
+        ],
+        "solution": [
+          [
+            "How's"
+          ],
+          [
+            "that"
+          ],
+          [
+            "going?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/20.mp3",
+        "timeStart": 52.54,
+        "timeEnd": 53.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91642/list"
+      },
+      {
+        "id": 91643,
+        "position": 21,
+        "content": "She's a good student, gets high marks in most exams.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "a",
+          "good",
+          "student,",
+          "gets",
+          "high",
+          "marks",
+          "in",
+          "most",
+          "exams."
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "good"
+          ],
+          [
+            "student,"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "high"
+          ],
+          [
+            "marks"
+          ],
+          [
+            "in"
+          ],
+          [
+            "most"
+          ],
+          [
+            "exams."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/21.mp3",
+        "timeStart": 53.71,
+        "timeEnd": 57.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91643/list"
+      },
+      {
+        "id": 91644,
+        "position": 22,
+        "content": "Her teachers have always said she's a quiet girl, but she works hard.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          "teachers",
+          "have",
+          "always",
+          "said",
+          "she's",
+          "a",
+          "quiet",
+          "girl,",
+          "but",
+          "she",
+          "works",
+          "hard."
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "teachers"
+          ],
+          [
+            "have"
+          ],
+          [
+            "always"
+          ],
+          [
+            "said"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "quiet"
+          ],
+          [
+            "girl,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "she"
+          ],
+          [
+            "works"
+          ],
+          [
+            "hard."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/22.mp3",
+        "timeStart": 57.24,
+        "timeEnd": 60.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91644/list"
+      },
+      {
+        "id": 91645,
+        "position": 23,
+        "content": "Now that I think of it, her maths teacher told us at a recent parent-teacher interview",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "that",
+          "I",
+          "think",
+          "of",
+          "it,",
+          "her",
+          "maths",
+          "teacher",
+          "told",
+          "us",
+          "at",
+          "a",
+          "recent",
+          [
+            "parent-teacher",
+            "parent teacher"
+          ],
+          "interview"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "of"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "her"
+          ],
+          [
+            "maths"
+          ],
+          [
+            "teacher"
+          ],
+          [
+            "told"
+          ],
+          [
+            "us"
+          ],
+          [
+            "at"
+          ],
+          [
+            "a"
+          ],
+          [
+            "recent"
+          ],
+          [
+            "parent-teacher",
+            "parent teacher"
+          ],
+          [
+            "interview"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/23.mp3",
+        "timeStart": 61.15,
+        "timeEnd": 66.02,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91645/list"
+      },
+      {
+        "id": 91646,
+        "position": 24,
+        "content": "that lately she seems to be having trouble concentrating in class.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "lately",
+          "she",
+          "seems",
+          "to",
+          "be",
+          "having",
+          "trouble",
+          "concentrating",
+          "in",
+          "class."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "lately"
+          ],
+          [
+            "she"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "having"
+          ],
+          [
+            "trouble"
+          ],
+          [
+            "concentrating"
+          ],
+          [
+            "in"
+          ],
+          [
+            "class."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/24.mp3",
+        "timeStart": 66.02,
+        "timeEnd": 70.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91646/list"
+      },
+      {
+        "id": 91647,
+        "position": 25,
+        "content": "He said that she was never like that before,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "said",
+          "that",
+          "she",
+          "was",
+          "never",
+          "like",
+          "that",
+          "before,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "said"
+          ],
+          [
+            "that"
+          ],
+          [
+            "she"
+          ],
+          [
+            "was"
+          ],
+          [
+            "never"
+          ],
+          [
+            "like"
+          ],
+          [
+            "that"
+          ],
+          [
+            "before,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/25.mp3",
+        "timeStart": 70.19,
+        "timeEnd": 72.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91647/list"
+      },
+      {
+        "id": 91648,
+        "position": 26,
+        "content": "and he wondered if we could think of any reason why it might be happening now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "he",
+          "wondered",
+          "if",
+          "we",
+          "could",
+          "think",
+          "of",
+          "any",
+          "reason",
+          "why",
+          "it",
+          "might",
+          "be",
+          "happening",
+          "now."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "he"
+          ],
+          [
+            "wondered"
+          ],
+          [
+            "if"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "think"
+          ],
+          [
+            "of"
+          ],
+          [
+            "any"
+          ],
+          [
+            "reason"
+          ],
+          [
+            "why"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "be"
+          ],
+          [
+            "happening"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/26.mp3",
+        "timeStart": 72.74,
+        "timeEnd": 76.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91648/list"
+      },
+      {
+        "id": 91649,
+        "position": 27,
+        "content": "I see.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "see."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "see."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/27.mp3",
+        "timeStart": 76.46,
+        "timeEnd": 77.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91649/list"
+      },
+      {
+        "id": 91650,
+        "position": 28,
+        "content": "She doesn't have many friends, just one or two girls she's close with.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "have",
+          "many",
+          "friends,",
+          "just",
+          [
+            "one",
+            "1"
+          ],
+          "or",
+          [
+            "two",
+            "2"
+          ],
+          "girls",
+          "she's",
+          "close",
+          "with."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "many"
+          ],
+          [
+            "friends,"
+          ],
+          [
+            "just"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "or"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "girls"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "close"
+          ],
+          [
+            "with."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/28.mp3",
+        "timeStart": 77.53,
+        "timeEnd": 81.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91650/list"
+      },
+      {
+        "id": 91651,
+        "position": 29,
+        "content": "She's always been a bit shy and reserved.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She's",
+          "always",
+          "been",
+          "a",
+          "bit",
+          "shy",
+          "and",
+          "reserved."
+        ],
+        "solution": [
+          [
+            "She's"
+          ],
+          [
+            "always"
+          ],
+          [
+            "been"
+          ],
+          [
+            "a"
+          ],
+          [
+            "bit"
+          ],
+          [
+            "shy"
+          ],
+          [
+            "and"
+          ],
+          [
+            "reserved."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/29.mp3",
+        "timeStart": 81.65,
+        "timeEnd": 84.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91651/list"
+      },
+      {
+        "id": 91652,
+        "position": 30,
+        "content": "She doesn't have a boyfriend and we wouldn't allow it at her age anyway.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          [
+            "doesn't",
+            "does not"
+          ],
+          "have",
+          "a",
+          "boyfriend",
+          "and",
+          "we",
+          [
+            "wouldn't",
+            "would not"
+          ],
+          "allow",
+          "it",
+          "at",
+          "her",
+          "age",
+          "anyway."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "a"
+          ],
+          [
+            "boyfriend"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "wouldn't",
+            "would not"
+          ],
+          [
+            "allow"
+          ],
+          [
+            "it"
+          ],
+          [
+            "at"
+          ],
+          [
+            "her"
+          ],
+          [
+            "age"
+          ],
+          [
+            "anyway."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/30.mp3",
+        "timeStart": 84.25,
+        "timeEnd": 88.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91652/list"
+      },
+      {
+        "id": 91653,
+        "position": 31,
+        "content": "After school she does ballet, which she loves,",
+        "defaultInput": "",
+        "jsonContent": [
+          "After",
+          "school",
+          "she",
+          "does",
+          "ballet,",
+          "which",
+          "she",
+          "loves,"
+        ],
+        "solution": [
+          [
+            "After"
+          ],
+          [
+            "school"
+          ],
+          [
+            "she"
+          ],
+          [
+            "does"
+          ],
+          [
+            "ballet,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "she"
+          ],
+          [
+            "loves,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/31.mp3",
+        "timeStart": 88.26,
+        "timeEnd": 91.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91653/list"
+      },
+      {
+        "id": 91654,
+        "position": 32,
+        "content": "but apart from that she tends to spend a lot of her time lying around the house, usually in her room.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "apart",
+          "from",
+          "that",
+          "she",
+          "tends",
+          "to",
+          "spend",
+          "a",
+          "lot",
+          "of",
+          "her",
+          "time",
+          "lying",
+          "around",
+          "the",
+          "house,",
+          "usually",
+          "in",
+          "her",
+          "room."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "apart"
+          ],
+          [
+            "from"
+          ],
+          [
+            "that"
+          ],
+          [
+            "she"
+          ],
+          [
+            "tends"
+          ],
+          [
+            "to"
+          ],
+          [
+            "spend"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "her"
+          ],
+          [
+            "time"
+          ],
+          [
+            "lying"
+          ],
+          [
+            "around"
+          ],
+          [
+            "the"
+          ],
+          [
+            "house,"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "in"
+          ],
+          [
+            "her"
+          ],
+          [
+            "room."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/32.mp3",
+        "timeStart": 91.05,
+        "timeEnd": 96.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91654/list"
+      },
+      {
+        "id": 91655,
+        "position": 33,
+        "content": "Hmm, and what about her weight?",
+        "defaultInput": "Hmm, ",
+        "jsonContent": [
+          "Hmm,",
+          "and",
+          "what",
+          "about",
+          "her",
+          "weight?"
+        ],
+        "solution": [
+          [
+            "Hmm,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "what"
+          ],
+          [
+            "about"
+          ],
+          [
+            "her"
+          ],
+          [
+            "weight?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/33.mp3",
+        "timeStart": 96.52,
+        "timeEnd": 98.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91655/list"
+      },
+      {
+        "id": 91656,
+        "position": 34,
+        "content": "You said she'd become quite thin.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "said",
+          "she'd",
+          "become",
+          "quite",
+          "thin."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "said"
+          ],
+          [
+            "she'd"
+          ],
+          [
+            "become"
+          ],
+          [
+            "quite"
+          ],
+          [
+            "thin."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/34.mp3",
+        "timeStart": 98.67,
+        "timeEnd": 100.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91656/list"
+      },
+      {
+        "id": 91657,
+        "position": 35,
+        "content": "Yes, she really has.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "she",
+          "really",
+          "has."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "really"
+          ],
+          [
+            "has."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/35.mp3",
+        "timeStart": 100.42,
+        "timeEnd": 101.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91657/list"
+      },
+      {
+        "id": 91658,
+        "position": 36,
+        "content": "I've tried talking to her about it, but of course she won't tell me how much.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "tried",
+          "talking",
+          "to",
+          "her",
+          "about",
+          "it,",
+          "but",
+          "of",
+          "course",
+          "she",
+          "won't",
+          "tell",
+          "me",
+          "how",
+          "much."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "talking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "her"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course"
+          ],
+          [
+            "she"
+          ],
+          [
+            "won't"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "how"
+          ],
+          [
+            "much."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/36.mp3",
+        "timeStart": 101.99,
+        "timeEnd": 106.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91658/list"
+      },
+      {
+        "id": 91659,
+        "position": 37,
+        "content": "Her clothes don't seem to fit her properly anymore though.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Her",
+          "clothes",
+          [
+            "don't",
+            "do not"
+          ],
+          "seem",
+          "to",
+          "fit",
+          "her",
+          "properly",
+          "anymore",
+          "though."
+        ],
+        "solution": [
+          [
+            "Her"
+          ],
+          [
+            "clothes"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "seem"
+          ],
+          [
+            "to"
+          ],
+          [
+            "fit"
+          ],
+          [
+            "her"
+          ],
+          [
+            "properly"
+          ],
+          [
+            "anymore"
+          ],
+          [
+            "though."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/37.mp3",
+        "timeStart": 106.17,
+        "timeEnd": 109.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91659/list"
+      },
+      {
+        "id": 91660,
+        "position": 38,
+        "content": "They just hang off her like sacks.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "just",
+          "hang",
+          "off",
+          "her",
+          "like",
+          "sacks."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "just"
+          ],
+          [
+            "hang"
+          ],
+          [
+            "off"
+          ],
+          [
+            "her"
+          ],
+          [
+            "like"
+          ],
+          [
+            "sacks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/38.mp3",
+        "timeStart": 109.27,
+        "timeEnd": 111.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91660/list"
+      },
+      {
+        "id": 91661,
+        "position": 39,
+        "content": "She seems obsessed about her appearance lately too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "seems",
+          "obsessed",
+          "about",
+          "her",
+          "appearance",
+          "lately",
+          "too."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "obsessed"
+          ],
+          [
+            "about"
+          ],
+          [
+            "her"
+          ],
+          [
+            "appearance"
+          ],
+          [
+            "lately"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/39.mp3",
+        "timeStart": 111.57,
+        "timeEnd": 114.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91661/list"
+      },
+      {
+        "id": 91662,
+        "position": 40,
+        "content": "I always catch her standing in front of the mirror.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "always",
+          "catch",
+          "her",
+          "standing",
+          "in",
+          "front",
+          "of",
+          "the",
+          "mirror."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "always"
+          ],
+          [
+            "catch"
+          ],
+          [
+            "her"
+          ],
+          [
+            "standing"
+          ],
+          [
+            "in"
+          ],
+          [
+            "front"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "mirror."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/40.mp3",
+        "timeStart": 114.77,
+        "timeEnd": 117.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91662/list"
+      },
+      {
+        "id": 91663,
+        "position": 41,
+        "content": "I don't think she's sleeping very well either.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "think",
+          "she's",
+          "sleeping",
+          "very",
+          "well",
+          "either."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "think"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "sleeping"
+          ],
+          [
+            "very"
+          ],
+          [
+            "well"
+          ],
+          [
+            "either."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/41.mp3",
+        "timeStart": 117.61,
+        "timeEnd": 120.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91663/list"
+      },
+      {
+        "id": 91664,
+        "position": 42,
+        "content": "She stays up very late at night, reading or playing around on her phone,",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "stays",
+          "up",
+          "very",
+          "late",
+          "at",
+          "night,",
+          "reading",
+          "or",
+          "playing",
+          "around",
+          "on",
+          "her",
+          "phone,"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "stays"
+          ],
+          [
+            "up"
+          ],
+          [
+            "very"
+          ],
+          [
+            "late"
+          ],
+          [
+            "at"
+          ],
+          [
+            "night,"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "or"
+          ],
+          [
+            "playing"
+          ],
+          [
+            "around"
+          ],
+          [
+            "on"
+          ],
+          [
+            "her"
+          ],
+          [
+            "phone,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/42.mp3",
+        "timeStart": 120.37,
+        "timeEnd": 124.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91664/list"
+      },
+      {
+        "id": 91665,
+        "position": 43,
+        "content": "and then of course she'll be tired and moody in the morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "then",
+          "of",
+          "course",
+          [
+            "she'll",
+            "she will"
+          ],
+          "be",
+          "tired",
+          "and",
+          "moody",
+          "in",
+          "the",
+          "morning."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course"
+          ],
+          [
+            "she'll",
+            "she will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "tired"
+          ],
+          [
+            "and"
+          ],
+          [
+            "moody"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/43.mp3",
+        "timeStart": 124.7,
+        "timeEnd": 127.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91665/list"
+      },
+      {
+        "id": 91666,
+        "position": 44,
+        "content": "Anything else you can tell me about Mia?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anything",
+          "else",
+          "you",
+          "can",
+          "tell",
+          "me",
+          "about",
+          "Mia?"
+        ],
+        "solution": [
+          [
+            "Anything"
+          ],
+          [
+            "else"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "about"
+          ],
+          [
+            "Mia?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/44.mp3",
+        "timeStart": 128.48,
+        "timeEnd": 130.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91666/list"
+      },
+      {
+        "id": 91667,
+        "position": 45,
+        "content": "Oh yes, she seems to have been getting a lot of headaches lately.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh",
+          "yes,",
+          "she",
+          "seems",
+          "to",
+          "have",
+          "been",
+          "getting",
+          "a",
+          "lot",
+          "of",
+          "headaches",
+          "lately."
+        ],
+        "solution": [
+          [
+            "Oh"
+          ],
+          [
+            "yes,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "seems"
+          ],
+          [
+            "to"
+          ],
+          [
+            "have"
+          ],
+          [
+            "been"
+          ],
+          [
+            "getting"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "headaches"
+          ],
+          [
+            "lately."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/45.mp3",
+        "timeStart": 130.77,
+        "timeEnd": 134.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91667/list"
+      },
+      {
+        "id": 91668,
+        "position": 46,
+        "content": "I can't remember her really having them before,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can't",
+          "remember",
+          "her",
+          "really",
+          "having",
+          "them",
+          "before,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can't"
+          ],
+          [
+            "remember"
+          ],
+          [
+            "her"
+          ],
+          [
+            "really"
+          ],
+          [
+            "having"
+          ],
+          [
+            "them"
+          ],
+          [
+            "before,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/46.mp3",
+        "timeStart": 134.35,
+        "timeEnd": 137.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91668/list"
+      },
+      {
+        "id": 91669,
+        "position": 47,
+        "content": "and I found a box of laxatives in her room.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "found",
+          "a",
+          "box",
+          "of",
+          "laxatives",
+          "in",
+          "her",
+          "room."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "found"
+          ],
+          [
+            "a"
+          ],
+          [
+            "box"
+          ],
+          [
+            "of"
+          ],
+          [
+            "laxatives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "her"
+          ],
+          [
+            "room."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/47.mp3",
+        "timeStart": 137.31,
+        "timeEnd": 140.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91669/list"
+      },
+      {
+        "id": 91670,
+        "position": 48,
+        "content": "I even think she's been throwing up, but she denies it of course,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "even",
+          "think",
+          "she's",
+          "been",
+          "throwing",
+          "up,",
+          "but",
+          "she",
+          "denies",
+          "it",
+          "of",
+          "course,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "even"
+          ],
+          [
+            "think"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "been"
+          ],
+          [
+            "throwing"
+          ],
+          [
+            "up,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "she"
+          ],
+          [
+            "denies"
+          ],
+          [
+            "it"
+          ],
+          [
+            "of"
+          ],
+          [
+            "course,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/48.mp3",
+        "timeStart": 140.47,
+        "timeEnd": 144.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91670/list"
+      },
+      {
+        "id": 91671,
+        "position": 49,
+        "content": "so that's a big concern for her father and me too.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "that's",
+          "a",
+          "big",
+          "concern",
+          "for",
+          "her",
+          "father",
+          "and",
+          "me",
+          "too."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "concern"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her"
+          ],
+          [
+            "father"
+          ],
+          [
+            "and"
+          ],
+          [
+            "me"
+          ],
+          [
+            "too."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/49.mp3",
+        "timeStart": 144.49,
+        "timeEnd": 147.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91671/list"
+      },
+      {
+        "id": 91672,
+        "position": 50,
+        "content": "So what do you think doctor?",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "what",
+          "do",
+          "you",
+          "think",
+          "doctor?"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "what"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "doctor?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/50.mp3",
+        "timeStart": 147.88,
+        "timeEnd": 149.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91672/list"
+      },
+      {
+        "id": 91673,
+        "position": 51,
+        "content": "From what I've told you, do you think Mia has anorexia?",
+        "defaultInput": "",
+        "jsonContent": [
+          "From",
+          "what",
+          [
+            "I've",
+            "I have"
+          ],
+          "told",
+          "you,",
+          "do",
+          "you",
+          "think",
+          "Mia",
+          "has",
+          "anorexia?"
+        ],
+        "solution": [
+          [
+            "From"
+          ],
+          [
+            "what"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "told"
+          ],
+          [
+            "you,"
+          ],
+          [
+            "do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "think"
+          ],
+          [
+            "Mia"
+          ],
+          [
+            "has"
+          ],
+          [
+            "anorexia?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/51.mp3",
+        "timeStart": 149.57,
+        "timeEnd": 152.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91673/list"
+      },
+      {
+        "id": 91674,
+        "position": 52,
+        "content": "Well, without meeting Mia and assessing her, which I think I will need to do,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "without",
+          "meeting",
+          "Mia",
+          "and",
+          "assessing",
+          "her,",
+          "which",
+          "I",
+          "think",
+          [
+            "I will",
+            "I'll"
+          ],
+          "need",
+          "to",
+          "do,"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "without"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "Mia"
+          ],
+          [
+            "and"
+          ],
+          [
+            "assessing"
+          ],
+          [
+            "her,"
+          ],
+          [
+            "which"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/52.mp3",
+        "timeStart": 152.87,
+        "timeEnd": 157.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91674/list"
+      },
+      {
+        "id": 91675,
+        "position": 53,
+        "content": "it's hard to make that judgment.",
+        "defaultInput": "",
+        "jsonContent": [
+          "it's",
+          "hard",
+          "to",
+          "make",
+          "that",
+          "judgment."
+        ],
+        "solution": [
+          [
+            "it's"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "that"
+          ],
+          [
+            "judgment."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/53.mp3",
+        "timeStart": 157.25,
+        "timeEnd": 159.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91675/list"
+      },
+      {
+        "id": 91676,
+        "position": 54,
+        "content": "However, I can give you some information about anorexia,",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "I",
+          "can",
+          "give",
+          "you",
+          "some",
+          "information",
+          "about",
+          "anorexia,"
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "some"
+          ],
+          [
+            "information"
+          ],
+          [
+            "about"
+          ],
+          [
+            "anorexia,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/54.mp3",
+        "timeStart": 159.1,
+        "timeEnd": 162.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91676/list"
+      },
+      {
+        "id": 91677,
+        "position": 55,
+        "content": "and then I think we need to arrange for me to see your daughter sooner rather than later.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "then",
+          "I",
+          "think",
+          "we",
+          "need",
+          "to",
+          "arrange",
+          "for",
+          "me",
+          "to",
+          "see",
+          "your",
+          "daughter",
+          "sooner",
+          "rather",
+          "than",
+          "later."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "arrange"
+          ],
+          [
+            "for"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "your"
+          ],
+          [
+            "daughter"
+          ],
+          [
+            "sooner"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "later."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/55.mp3",
+        "timeStart": 162.42,
+        "timeEnd": 166.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91677/list"
+      },
+      {
+        "id": 91678,
+        "position": 56,
+        "content": "Okay, I understand.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "I",
+          "understand."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "I"
+          ],
+          [
+            "understand."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/56.mp3",
+        "timeStart": 166.87,
+        "timeEnd": 168.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91678/list"
+      },
+      {
+        "id": 91679,
+        "position": 57,
+        "content": "Anything you can tell me, any advice you have, would be very helpful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Anything",
+          "you",
+          "can",
+          "tell",
+          "me,",
+          "any",
+          "advice",
+          [
+            "you have,",
+            "you've"
+          ],
+          "would",
+          "be",
+          "very",
+          "helpful."
+        ],
+        "solution": [
+          [
+            "Anything"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me,"
+          ],
+          [
+            "any"
+          ],
+          [
+            "advice"
+          ],
+          [
+            "you have,",
+            "you've"
+          ],
+          [
+            "would"
+          ],
+          [
+            "be"
+          ],
+          [
+            "very"
+          ],
+          [
+            "helpful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/57.mp3",
+        "timeStart": 168.34,
+        "timeEnd": 172.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91679/list"
+      },
+      {
+        "id": 91680,
+        "position": 58,
+        "content": "We've tried talking to her to see if she's alright,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "We have"
+          ],
+          "tried",
+          "talking",
+          "to",
+          "her",
+          "to",
+          "see",
+          "if",
+          "she's",
+          "alright,"
+        ],
+        "solution": [
+          [
+            "We've",
+            "We have"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "talking"
+          ],
+          [
+            "to"
+          ],
+          [
+            "her"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "if"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "alright,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/58.mp3",
+        "timeStart": 172.35,
+        "timeEnd": 175.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91680/list"
+      },
+      {
+        "id": 91681,
+        "position": 59,
+        "content": "but she's very sensitive about it all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "she's",
+          "very",
+          "sensitive",
+          "about",
+          "it",
+          "all."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "she's"
+          ],
+          [
+            "very"
+          ],
+          [
+            "sensitive"
+          ],
+          [
+            "about"
+          ],
+          [
+            "it"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/59.mp3",
+        "timeStart": 175.61,
+        "timeEnd": 177.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91681/list"
+      },
+      {
+        "id": 91682,
+        "position": 60,
+        "content": "The moment we mention anything, she gets very upset.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "moment",
+          "we",
+          "mention",
+          "anything,",
+          "she",
+          "gets",
+          "very",
+          "upset."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "moment"
+          ],
+          [
+            "we"
+          ],
+          [
+            "mention"
+          ],
+          [
+            "anything,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "gets"
+          ],
+          [
+            "very"
+          ],
+          [
+            "upset."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/60.mp3",
+        "timeStart": 177.87,
+        "timeEnd": 181.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91682/list"
+      },
+      {
+        "id": 91683,
+        "position": 61,
+        "content": "I know it's difficult, but there are some options available.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "know",
+          "it's",
+          "difficult,",
+          "but",
+          "there",
+          "are",
+          "some",
+          "options",
+          "available."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "difficult,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "some"
+          ],
+          [
+            "options"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/61.mp3",
+        "timeStart": 181.2,
+        "timeEnd": 184.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91683/list"
+      },
+      {
+        "id": 91684,
+        "position": 62,
+        "content": "If we think it's necessary, we may even have to consider referral to a psychiatrist.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "we",
+          "think",
+          "it's",
+          "necessary,",
+          "we",
+          "may",
+          "even",
+          "have",
+          "to",
+          "consider",
+          "referral",
+          "to",
+          "a",
+          "psychiatrist."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "we"
+          ],
+          [
+            "think"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "necessary,"
+          ],
+          [
+            "we"
+          ],
+          [
+            "may"
+          ],
+          [
+            "even"
+          ],
+          [
+            "have"
+          ],
+          [
+            "to"
+          ],
+          [
+            "consider"
+          ],
+          [
+            "referral"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "psychiatrist."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-07-part-a-extract-1-2025-08-29-22-19-34/62.mp3",
+        "timeStart": 184.33,
+        "timeEnd": 189.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/91684/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "91623": {
+      "id": 3681445,
+      "text": "Xin chào. Bà Black, phải không?",
+      "author": "a user"
+    },
+    "91624": {
+      "id": 3681446,
+      "text": "Tôi tin rằng đây là lần đầu tiên bà đến phòng khám này.",
+      "author": "ChatGPT4.1"
+    },
+    "91625": {
+      "id": 3681447,
+      "text": "Vâng, chúng tôi vừa chuyển đến khu vực này, nên đang tìm một bác sĩ gia đình mới.",
+      "author": "ChatGPT4.1"
+    },
+    "91626": {
+      "id": 3681448,
+      "text": "Vâng, được rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "91627": {
+      "id": 3681449,
+      "text": "Vậy hôm nay tôi có thể giúp gì cho bà?",
+      "author": "ChatGPT4.1"
+    },
+    "91628": {
+      "id": 3681450,
+      "text": "À, thực ra tôi hơi lo lắng về con gái chúng tôi, Mia.",
+      "author": "ChatGPT4.1"
+    },
+    "91629": {
+      "id": 3681451,
+      "text": "Cháu hiện nay 15 tuổi.",
+      "author": "ChatGPT4.1"
+    },
+    "91630": {
+      "id": 3681452,
+      "text": "Con bé luôn rất khỏe mạnh,",
+      "author": "ChatGPT4.1"
+    },
+    "91631": {
+      "id": 3681453,
+      "text": "nhưng dạo gần đây con bé gầy đi rất nhiều và tôi lo rằng có thể là biếng ăn.",
+      "author": "ChatGPT4.1"
+    },
+    "91632": {
+      "id": 3681454,
+      "text": "Vâng, tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "91633": {
+      "id": 3681455,
+      "text": "Bà có thể kể cho tôi nghe thêm về Mia không?",
+      "author": "ChatGPT4.1"
+    },
+    "91634": {
+      "id": 3681456,
+      "text": "Thường thì con bé hay ăn cùng gia đình,",
+      "author": "ChatGPT4.1"
+    },
+    "91635": {
+      "id": 3681457,
+      "text": "nhưng gần đây cháu nói rằng không có thời gian ăn cùng chúng tôi vì quá bận,",
+      "author": "a user"
+    },
+    "91636": {
+      "id": 3681458,
+      "text": "hoặc cháu mang đĩa thức ăn vào phòng và ăn luôn.",
+      "author": "a user"
+    },
+    "91637": {
+      "id": 3681459,
+      "text": "Cháu cũng thường xuyên bỏ bữa sáng,",
+      "author": "ChatGPT4.1"
+    },
+    "91638": {
+      "id": 3681460,
+      "text": "hoặc chỉ uống một ly nước trái cây, ăn vài miếng bánh mì nướng,",
+      "author": "ChatGPT4.1"
+    },
+    "91639": {
+      "id": 3681461,
+      "text": "trước khi ra khỏi nhà và đến trường.",
+      "author": "a user"
+    },
+    "91640": {
+      "id": 3681462,
+      "text": "Mọi chuyện bắt đầu vào cuối năm ngoái, nhưng tôi không thực sự chắc chắn điều gì đã gây ra sự thay đổi này.",
+      "author": "a user"
+    },
+    "91641": {
+      "id": 3681463,
+      "text": "Còn ở trường thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "91642": {
+      "id": 3681464,
+      "text": "Việc học hành thế nào rồi?",
+      "author": "ChatGPT4.1"
+    },
+    "91643": {
+      "id": 3681465,
+      "text": "Cháu là học sinh giỏi, đạt điểm cao ở hầu hết các bài kiểm tra.",
+      "author": "ChatGPT4.1"
+    },
+    "91644": {
+      "id": 3681466,
+      "text": "Thầy cô luôn nói cháu là người trầm lặng, nhưng rất chăm chỉ.",
+      "author": "ChatGPT4.1"
+    },
+    "91645": {
+      "id": 3681467,
+      "text": "Bây giờ nghĩ lại, thầy dạy toán đã nói với chúng tôi trong buổi họp phụ huynh gần đây",
+      "author": "ChatGPT4.1"
+    },
+    "91646": {
+      "id": 3681468,
+      "text": "rằng dạo này cháu có vẻ gặp khó khăn trong việc tập trung ở lớp.",
+      "author": "ChatGPT4.1"
+    },
+    "91647": {
+      "id": 3681469,
+      "text": "Thầy bảo trước đây cháu chưa từng như vậy,",
+      "author": "ChatGPT4.1"
+    },
+    "91648": {
+      "id": 3681470,
+      "text": "và ông ấy tự hỏi liệu chúng tôi có thể nghĩ ra lý do nào khiến điều đó xảy ra bây giờ không.",
+      "author": "a user"
+    },
+    "91649": {
+      "id": 3681471,
+      "text": "Tôi hiểu rồi.",
+      "author": "ChatGPT4.1"
+    },
+    "91650": {
+      "id": 3681472,
+      "text": "Cháu không có nhiều bạn, chỉ thân với một hai bạn gái.",
+      "author": "ChatGPT4.1"
+    },
+    "91651": {
+      "id": 3681473,
+      "text": "Cháu vốn đã nhút nhát và dè dặt.",
+      "author": "ChatGPT4.1"
+    },
+    "91652": {
+      "id": 3681474,
+      "text": "Con bé không có bạn trai và dù sao thì ở độ tuổi của con bé, chúng tôi cũng không cho phép điều đó.",
+      "author": "a user"
+    },
+    "91653": {
+      "id": 3681532,
+      "text": "Sau giờ học con bé đi học múa ba lê, con bé rất thích điều đó,",
+      "author": "ChatGPT4.1"
+    },
+    "91654": {
+      "id": 3681533,
+      "text": "nhưng ngoài ra thì con bé thường dành nhiều thời gian nằm ở nhà, thường là trong phòng mình.",
+      "author": "ChatGPT4.1"
+    },
+    "91655": {
+      "id": 3681534,
+      "text": "Ừm, còn cân nặng của con bé thì sao?",
+      "author": "ChatGPT4.1"
+    },
+    "91656": {
+      "id": 3681535,
+      "text": "Chị nói con bé gầy đi nhiều phải không?",
+      "author": "ChatGPT4.1"
+    },
+    "91657": {
+      "id": 3681536,
+      "text": "Vâng, đúng là như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "91658": {
+      "id": 3681537,
+      "text": "Tôi đã cố gắng nói chuyện với con bé về chuyện đó, nhưng tất nhiên là con bé không nói rõ là bao nhiêu.",
+      "author": "a user"
+    },
+    "91659": {
+      "id": 3681538,
+      "text": "Quần áo của con bé dường như không còn vừa nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "91660": {
+      "id": 3681539,
+      "text": "Chúng cứ treo lủng lẳng trên người con bé như mấy cái bao tải vậy.",
+      "author": "a user"
+    },
+    "91661": {
+      "id": 3681540,
+      "text": "Gần đây con bé cũng có vẻ ám ảnh về ngoại hình của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "91662": {
+      "id": 3681541,
+      "text": "Tôi luôn bắt gặp con bé đứng trước gương.",
+      "author": "ChatGPT4.1"
+    },
+    "91663": {
+      "id": 3681542,
+      "text": "Tôi cũng không nghĩ con bé ngủ ngon lắm.",
+      "author": "a user"
+    },
+    "91664": {
+      "id": 3681543,
+      "text": "Con bé thường thức rất khuya, đọc sách hoặc nghịch điện thoại,",
+      "author": "ChatGPT4.1"
+    },
+    "91665": {
+      "id": 3681544,
+      "text": "rồi tất nhiên sáng hôm sau sẽ mệt mỏi và cáu bẳn.",
+      "author": "ChatGPT4.1"
+    },
+    "91666": {
+      "id": 3681545,
+      "text": "Còn điều gì khác chị có thể kể cho tôi về Mia không?",
+      "author": "ChatGPT4.1"
+    },
+    "91667": {
+      "id": 3681546,
+      "text": "Ồ đúng rồi, dạo này con bé cũng hay bị đau đầu lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "91668": {
+      "id": 3681561,
+      "text": "Tôi không nhớ con bé có từng bị đau đầu trước đây không,",
+      "author": "a user"
+    },
+    "91669": {
+      "id": 3681562,
+      "text": "và tôi tìm thấy một hộp thuốc nhuận tràng trong phòng con bé.",
+      "author": "a user"
+    },
+    "91670": {
+      "id": 3681563,
+      "text": "Tôi còn nghĩ con bé đã nôn ói, nhưng tất nhiên là con bé phủ nhận,",
+      "author": "ChatGPT4.1"
+    },
+    "91671": {
+      "id": 3681564,
+      "text": "nên đó cũng là một mối lo lớn cho cả bố con bé và tôi nữa.",
+      "author": "a user"
+    },
+    "91672": {
+      "id": 3681565,
+      "text": "Vậy bác sĩ nghĩ sao?",
+      "author": "ChatGPT4.1"
+    },
+    "91673": {
+      "id": 3681566,
+      "text": "Theo những gì tôi đã nói với bạn, bạn có nghĩ Mia bị chán ăn không?",
+      "author": "a user"
+    },
+    "91674": {
+      "id": 3681567,
+      "text": "Chà, nếu không gặp Mia và đánh giá con bé, điều mà tôi nghĩ tôi sẽ cần phải làm,",
+      "author": "a user"
+    },
+    "91675": {
+      "id": 3681568,
+      "text": "rất khó để đưa ra kết luận đó.",
+      "author": "ChatGPT4.1"
+    },
+    "91676": {
+      "id": 3681569,
+      "text": "Tuy nhiên, tôi có thể cung cấp cho chị một vài thông tin về chứng biếng ăn,",
+      "author": "ChatGPT4.1"
+    },
+    "91677": {
+      "id": 3681570,
+      "text": "và sau đó tôi nghĩ mình nên sắp xếp để gặp con gái chị càng sớm càng tốt.",
+      "author": "ChatGPT4.1"
+    },
+    "91678": {
+      "id": 3681571,
+      "text": "Vâng, tôi hiểu.",
+      "author": "ChatGPT4.1"
+    },
+    "91679": {
+      "id": 3681572,
+      "text": "Bất cứ điều gì bạn có thể nói với tôi, bất kỳ lời khuyên nào bạn có, đều sẽ rất hữu ích.",
+      "author": "a user"
+    },
+    "91680": {
+      "id": 3681573,
+      "text": "Chúng tôi đã cố gắng nói chuyện với con bé để xem nó có ổn không,",
+      "author": "ChatGPT4.1"
+    },
+    "91681": {
+      "id": 3681574,
+      "text": "nhưng con bé rất nhạy cảm về mọi chuyện này.",
+      "author": "ChatGPT4.1"
+    },
+    "91682": {
+      "id": 3681575,
+      "text": "Mỗi lần chúng tôi nhắc đến, con bé đều rất buồn bã.",
+      "author": "ChatGPT4.1"
+    },
+    "91683": {
+      "id": 3681604,
+      "text": "Tôi biết điều đó rất khó khăn, nhưng vẫn có một số lựa chọn khả thi.",
+      "author": "a user"
+    },
+    "91684": {
+      "id": 3681605,
+      "text": "Nếu chúng tôi thấy cần thiết, chúng tôi thậm chí có thể phải cân nhắc việc giới thiệu đến bác sĩ tâm thần.",
+      "author": "a user"
+    }
+  }
+}

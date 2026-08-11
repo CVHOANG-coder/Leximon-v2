@@ -1,0 +1,286 @@
+{
+  "summary": {
+    "id": 455,
+    "name": "57. Telephone",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 58,
+    "totalChallenges": 7,
+    "groupId": 104,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/455",
+  "detail": {
+    "id": 455,
+    "lessonName": "57. Telephone",
+    "name": "57. Telephone",
+    "position": 58,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/0-57-telephone.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18396,
+        "position": 1,
+        "content": "Hello?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello?"
+        ],
+        "solution": [
+          [
+            "Hello?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/1.mp3",
+        "timeStart": 2.73,
+        "timeEnd": 3.54,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18396/list"
+      },
+      {
+        "id": 18397,
+        "position": 2,
+        "content": "Hello, is Mary there?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello,",
+          "is",
+          "Mary",
+          "there?"
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Mary"
+          ],
+          [
+            "there?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/2.mp3",
+        "timeStart": 3.54,
+        "timeEnd": 5.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18397/list"
+      },
+      {
+        "id": 18398,
+        "position": 3,
+        "content": "I'm sorry, you have the wrong number.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry,",
+          [
+            "you have",
+            "you've"
+          ],
+          "the",
+          "wrong",
+          "number."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry,"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "number."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/3.mp3",
+        "timeStart": 5.25,
+        "timeEnd": 7.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18398/list"
+      },
+      {
+        "id": 18399,
+        "position": 4,
+        "content": "Oh... is this 685-5290?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh...",
+          "is",
+          "this",
+          [
+            "685-5290?",
+            "685 5290?"
+          ]
+        ],
+        "solution": [
+          [
+            "Oh..."
+          ],
+          [
+            "is"
+          ],
+          [
+            "this"
+          ],
+          [
+            "685-5290?",
+            "685 5290?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/4.mp3",
+        "timeStart": 7.47,
+        "timeEnd": 11.8,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18399/list"
+      },
+      {
+        "id": 18400,
+        "position": 5,
+        "content": "No, it's not.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "it's",
+          "not."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "not."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/5.mp3",
+        "timeStart": 11.92,
+        "timeEnd": 13.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18400/list"
+      },
+      {
+        "id": 18401,
+        "position": 6,
+        "content": "I'm sorry.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "sorry."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "sorry."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/6.mp3",
+        "timeStart": 13.27,
+        "timeEnd": 14.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18401/list"
+      },
+      {
+        "id": 18402,
+        "position": 7,
+        "content": "That's OK.",
+        "defaultInput": "",
+        "jsonContent": [
+          "That's",
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "solution": [
+          [
+            "That's"
+          ],
+          [
+            "OK.",
+            "okay"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/57-telephone-2022-03-07-21-23-45/7.mp3",
+        "timeStart": 14.26,
+        "timeEnd": 15.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18402/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18398": {
+      "id": 32401,
+      "text": "Tôi xin lỗi, bạn gọi sai số rồi.",
+      "author": "a user"
+    },
+    "18402": {
+      "id": 32407,
+      "text": "Vâng, không sao đâu.",
+      "author": "a user"
+    },
+    "18396": {
+      "id": 2601523,
+      "text": "Xin chào?",
+      "author": "ChatGPT4.1"
+    },
+    "18397": {
+      "id": 2601524,
+      "text": "Xin chào, Mary có đó không?",
+      "author": "ChatGPT4.1"
+    },
+    "18399": {
+      "id": 2601525,
+      "text": "Ồ... đây có phải số 685-5290 không?",
+      "author": "ChatGPT4.1"
+    },
+    "18400": {
+      "id": 2601526,
+      "text": "Không, không phải.",
+      "author": "ChatGPT4.1"
+    },
+    "18401": {
+      "id": 2601527,
+      "text": "Tôi xin lỗi.",
+      "author": "a user"
+    }
+  }
+}

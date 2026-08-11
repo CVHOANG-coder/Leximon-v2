@@ -1,0 +1,657 @@
+{
+  "summary": {
+    "id": 1628,
+    "name": "Conversation 203",
+    "subTitle": "Marketing Project Inquiry",
+    "levelName": "B1",
+    "position": 480,
+    "totalChallenges": 10,
+    "groupId": 51,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1628",
+  "detail": {
+    "id": 1628,
+    "lessonName": "Conversation 203",
+    "name": "Conversation 203",
+    "position": 480,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/0-conversation-203.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 68220,
+        "position": 1,
+        "content": "Hi, Liz. I'm calling to see if you'd have time to work on a project for my marketing firm.",
+        "defaultInput": "Hi, Liz. ",
+        "jsonContent": [
+          "Hi,",
+          "Liz.",
+          [
+            "I'm",
+            "I am"
+          ],
+          "calling",
+          "to",
+          "see",
+          "if",
+          "you'd",
+          "have",
+          "time",
+          "to",
+          "work",
+          "on",
+          "a",
+          "project",
+          "for",
+          "my",
+          "marketing",
+          "firm."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "Liz."
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "calling"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you'd"
+          ],
+          [
+            "have"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "work"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "project"
+          ],
+          [
+            "for"
+          ],
+          [
+            "my"
+          ],
+          [
+            "marketing"
+          ],
+          [
+            "firm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/1.mp3",
+        "timeStart": 0.15,
+        "timeEnd": 5.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68220/list"
+      },
+      {
+        "id": 68221,
+        "position": 2,
+        "content": "We've expanded a lot in the past year, and we need some help.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We've",
+            "We have"
+          ],
+          "expanded",
+          "a",
+          "lot",
+          "in",
+          "the",
+          "past",
+          "year,",
+          "and",
+          "we",
+          "need",
+          "some",
+          "help."
+        ],
+        "solution": [
+          [
+            "We've",
+            "We have"
+          ],
+          [
+            "expanded"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past"
+          ],
+          [
+            "year,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "need"
+          ],
+          [
+            "some"
+          ],
+          [
+            "help."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/2.mp3",
+        "timeStart": 5.24,
+        "timeEnd": 8.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68221/list"
+      },
+      {
+        "id": 68222,
+        "position": 3,
+        "content": "Thanks for thinking of me.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "for",
+          "thinking",
+          "of",
+          "me."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "thinking"
+          ],
+          [
+            "of"
+          ],
+          [
+            "me."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/3.mp3",
+        "timeStart": 8.73,
+        "timeEnd": 10.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68222/list"
+      },
+      {
+        "id": 68223,
+        "position": 4,
+        "content": "What type of work would I be doing?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "type",
+          "of",
+          "work",
+          "would",
+          "I",
+          "be",
+          "doing?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "type"
+          ],
+          [
+            "of"
+          ],
+          [
+            "work"
+          ],
+          [
+            "would"
+          ],
+          [
+            "I"
+          ],
+          [
+            "be"
+          ],
+          [
+            "doing?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/4.mp3",
+        "timeStart": 10.32,
+        "timeEnd": 12.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68223/list"
+      },
+      {
+        "id": 68224,
+        "position": 5,
+        "content": "Well, we have a new client in Brazil",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "we have",
+            "we've"
+          ],
+          "a",
+          "new",
+          "client",
+          "in",
+          "Brazil"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "client"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Brazil"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/5.mp3",
+        "timeStart": 12.78,
+        "timeEnd": 15.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68224/list"
+      },
+      {
+        "id": 68225,
+        "position": 6,
+        "content": "who's interested in creating a marketing campaign for social media sites.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "who's",
+            "who is"
+          ],
+          "interested",
+          "in",
+          "creating",
+          "a",
+          "marketing",
+          "campaign",
+          "for",
+          "social",
+          "media",
+          "sites."
+        ],
+        "solution": [
+          [
+            "who's",
+            "who is"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "in"
+          ],
+          [
+            "creating"
+          ],
+          [
+            "a"
+          ],
+          [
+            "marketing"
+          ],
+          [
+            "campaign"
+          ],
+          [
+            "for"
+          ],
+          [
+            "social"
+          ],
+          [
+            "media"
+          ],
+          [
+            "sites."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/6.mp3",
+        "timeStart": 15.3,
+        "timeEnd": 19.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68225/list"
+      },
+      {
+        "id": 68226,
+        "position": 7,
+        "content": "You'd be overseeing the campaign.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You'd",
+          "be",
+          "overseeing",
+          "the",
+          "campaign."
+        ],
+        "solution": [
+          [
+            "You'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "overseeing"
+          ],
+          [
+            "the"
+          ],
+          [
+            "campaign."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/7.mp3",
+        "timeStart": 19.42,
+        "timeEnd": 22.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68226/list"
+      },
+      {
+        "id": 68227,
+        "position": 8,
+        "content": "Oh, I have experience with that.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          [
+            "I have",
+            "I've"
+          ],
+          "experience",
+          "with",
+          "that."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "experience"
+          ],
+          [
+            "with"
+          ],
+          [
+            "that."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/8.mp3",
+        "timeStart": 22.26,
+        "timeEnd": 24.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68227/list"
+      },
+      {
+        "id": 68228,
+        "position": 9,
+        "content": "Why don't you send me a detailed description of the work?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Why",
+          [
+            "don't",
+            "do not"
+          ],
+          "you",
+          "send",
+          "me",
+          "a",
+          "detailed",
+          "description",
+          "of",
+          "the",
+          "work?"
+        ],
+        "solution": [
+          [
+            "Why"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "you"
+          ],
+          [
+            "send"
+          ],
+          [
+            "me"
+          ],
+          [
+            "a"
+          ],
+          [
+            "detailed"
+          ],
+          [
+            "description"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "work?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/9.mp3",
+        "timeStart": 24.64,
+        "timeEnd": 27.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68228/list"
+      },
+      {
+        "id": 68229,
+        "position": 10,
+        "content": "That'll give me an idea of how much time this project will take.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "That'll",
+            "That will"
+          ],
+          "give",
+          "me",
+          "an",
+          "idea",
+          "of",
+          "how",
+          "much",
+          "time",
+          "this",
+          "project",
+          "will",
+          "take."
+        ],
+        "solution": [
+          [
+            "That'll",
+            "That will"
+          ],
+          [
+            "give"
+          ],
+          [
+            "me"
+          ],
+          [
+            "an"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "of"
+          ],
+          [
+            "how"
+          ],
+          [
+            "much"
+          ],
+          [
+            "time"
+          ],
+          [
+            "this"
+          ],
+          [
+            "project"
+          ],
+          [
+            "will"
+          ],
+          [
+            "take."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-203-2024-09-30-23-05-21/10.mp3",
+        "timeStart": 27.48,
+        "timeEnd": 31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68229/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "68220": {
+      "id": 2587027,
+      "text": "Chào Liz. Tôi gọi để xem bạn có thời gian làm một dự án cho công ty tiếp thị của tôi không.",
+      "author": "ChatGPT4.1"
+    },
+    "68221": {
+      "id": 2587028,
+      "text": "Chúng tôi đã mở rộng rất nhiều trong năm qua, và chúng tôi cần một chút trợ giúp.",
+      "author": "ChatGPT4.1"
+    },
+    "68222": {
+      "id": 2587029,
+      "text": "Cảm ơn vì đã nghĩ đến tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "68223": {
+      "id": 2587030,
+      "text": "Tôi sẽ làm loại công việc gì?",
+      "author": "ChatGPT4.1"
+    },
+    "68224": {
+      "id": 2587031,
+      "text": "À, chúng tôi có một khách hàng mới ở Brazil",
+      "author": "ChatGPT4.1"
+    },
+    "68225": {
+      "id": 2587032,
+      "text": "người đang quan tâm đến việc tạo ra một chiến dịch tiếp thị cho các trang mạng xã hội.",
+      "author": "ChatGPT4.1"
+    },
+    "68226": {
+      "id": 2587033,
+      "text": "Bạn sẽ giám sát chiến dịch này.",
+      "author": "ChatGPT4.1"
+    },
+    "68227": {
+      "id": 2587034,
+      "text": "Ồ, tôi có kinh nghiệm với việc đó.",
+      "author": "ChatGPT4.1"
+    },
+    "68228": {
+      "id": 2587035,
+      "text": "Sao bạn không gửi cho tôi một mô tả chi tiết về công việc?",
+      "author": "ChatGPT4.1"
+    },
+    "68229": {
+      "id": 2587036,
+      "text": "Điều đó sẽ giúp tôi hình dung mất bao nhiêu thời gian cho dự án này.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

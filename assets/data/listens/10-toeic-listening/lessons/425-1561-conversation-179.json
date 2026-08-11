@@ -1,0 +1,932 @@
+{
+  "summary": {
+    "id": 1561,
+    "name": "Conversation 179",
+    "subTitle": "Request for Medical Records",
+    "levelName": "B1",
+    "position": 425,
+    "totalChallenges": 17,
+    "groupId": 48,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1561",
+  "detail": {
+    "id": 1561,
+    "lessonName": "Conversation 179",
+    "name": "Conversation 179",
+    "position": 425,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/0-conversation-179.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 66466,
+        "position": 1,
+        "content": "Hi, this is Charles Blake.",
+        "defaultInput": "Hi, this is Charles Blake.",
+        "jsonContent": [
+          "Hi,",
+          "this",
+          "is",
+          "Charles",
+          "Blake."
+        ],
+        "solution": [
+          [
+            "Hi,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is"
+          ],
+          [
+            "Charles"
+          ],
+          [
+            "Blake."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/1.mp3",
+        "timeStart": 1.71,
+        "timeEnd": 3.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66466/list"
+      },
+      {
+        "id": 66467,
+        "position": 2,
+        "content": "I'm Doctor Sendroff's patient.",
+        "defaultInput": "I'm Doctor Sendroff's ",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "Doctor",
+          "Sendroff's",
+          "patient."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Doctor"
+          ],
+          [
+            "Sendroff's"
+          ],
+          [
+            "patient."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/2.mp3",
+        "timeStart": 3.64,
+        "timeEnd": 5.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66467/list"
+      },
+      {
+        "id": 66468,
+        "position": 3,
+        "content": "I'm going on a business trip to Asia next month,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "going",
+          "on",
+          "a",
+          "business",
+          "trip",
+          "to",
+          "Asia",
+          "next",
+          "month,"
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "business"
+          ],
+          [
+            "trip"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Asia"
+          ],
+          [
+            "next"
+          ],
+          [
+            "month,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/3.mp3",
+        "timeStart": 5.71,
+        "timeEnd": 8.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66468/list"
+      },
+      {
+        "id": 66469,
+        "position": 4,
+        "content": "so I made a request earlier for a copy of my medical records.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "I",
+          "made",
+          "a",
+          "request",
+          "earlier",
+          "for",
+          "a",
+          "copy",
+          "of",
+          "my",
+          "medical",
+          "records."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "I"
+          ],
+          [
+            "made"
+          ],
+          [
+            "a"
+          ],
+          [
+            "request"
+          ],
+          [
+            "earlier"
+          ],
+          [
+            "for"
+          ],
+          [
+            "a"
+          ],
+          [
+            "copy"
+          ],
+          [
+            "of"
+          ],
+          [
+            "my"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "records."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/4.mp3",
+        "timeStart": 8.64,
+        "timeEnd": 12.77,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66469/list"
+      },
+      {
+        "id": 66470,
+        "position": 5,
+        "content": "Thanks for calling, Mr. Blake.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thanks",
+          "for",
+          "calling,",
+          "Mr.",
+          "Blake."
+        ],
+        "solution": [
+          [
+            "Thanks"
+          ],
+          [
+            "for"
+          ],
+          [
+            "calling,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Blake."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/5.mp3",
+        "timeStart": 12.77,
+        "timeEnd": 14.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66470/list"
+      },
+      {
+        "id": 66471,
+        "position": 6,
+        "content": "I'm going to transfer your call.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "transfer",
+          "your",
+          "call."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "transfer"
+          ],
+          [
+            "your"
+          ],
+          [
+            "call."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/6.mp3",
+        "timeStart": 14.87,
+        "timeEnd": 17.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66471/list"
+      },
+      {
+        "id": 66472,
+        "position": 7,
+        "content": "Ms. Heather is in charge of releasing patient records.",
+        "defaultInput": "Ms. Heather ",
+        "jsonContent": [
+          "Ms.",
+          "Heather",
+          "is",
+          "in",
+          "charge",
+          "of",
+          "releasing",
+          "patient",
+          "records."
+        ],
+        "solution": [
+          [
+            "Ms."
+          ],
+          [
+            "Heather"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "charge"
+          ],
+          [
+            "of"
+          ],
+          [
+            "releasing"
+          ],
+          [
+            "patient"
+          ],
+          [
+            "records."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/7.mp3",
+        "timeStart": 17.33,
+        "timeEnd": 21.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66472/list"
+      },
+      {
+        "id": 66473,
+        "position": 8,
+        "content": "Thanks.",
+        "defaultInput": "Thanks.",
+        "jsonContent": [
+          "Thanks."
+        ],
+        "solution": [
+          [
+            "Thanks."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/8.mp3",
+        "timeStart": 21.1,
+        "timeEnd": 21.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66473/list"
+      },
+      {
+        "id": 66474,
+        "position": 9,
+        "content": "Hello, Mr. Blake. I tried to contact you this morning.",
+        "defaultInput": "Hello, Mr. Blake. ",
+        "jsonContent": [
+          "Hello,",
+          "Mr.",
+          "Blake.",
+          "I",
+          "tried",
+          "to",
+          "contact",
+          "you",
+          "this",
+          "morning."
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Blake."
+          ],
+          [
+            "I"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "contact"
+          ],
+          [
+            "you"
+          ],
+          [
+            "this"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/9.mp3",
+        "timeStart": 21.97,
+        "timeEnd": 25.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66474/list"
+      },
+      {
+        "id": 66475,
+        "position": 10,
+        "content": "It's just that you didn't specify whether you would like your medical records to be delivered by post or by email.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "just",
+          "that",
+          "you",
+          [
+            "didn't",
+            "did not"
+          ],
+          "specify",
+          "whether",
+          [
+            "you would",
+            "you'd"
+          ],
+          "like",
+          "your",
+          "medical",
+          "records",
+          "to",
+          "be",
+          "delivered",
+          "by",
+          "post",
+          "or",
+          "by",
+          "email."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "that"
+          ],
+          [
+            "you"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "specify"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "you would",
+            "you'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "your"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "records"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "delivered"
+          ],
+          [
+            "by"
+          ],
+          [
+            "post"
+          ],
+          [
+            "or"
+          ],
+          [
+            "by"
+          ],
+          [
+            "email."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/10.mp3",
+        "timeStart": 25.72,
+        "timeEnd": 32.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66475/list"
+      },
+      {
+        "id": 66476,
+        "position": 11,
+        "content": "Oops, my bad.",
+        "defaultInput": "Oops, ",
+        "jsonContent": [
+          "Oops,",
+          "my",
+          "bad."
+        ],
+        "solution": [
+          [
+            "Oops,"
+          ],
+          [
+            "my"
+          ],
+          [
+            "bad."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/11.mp3",
+        "timeStart": 32.39,
+        "timeEnd": 33.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66476/list"
+      },
+      {
+        "id": 66477,
+        "position": 12,
+        "content": "I don't always answer calls during work hours.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "don't",
+            "do not"
+          ],
+          "always",
+          "answer",
+          "calls",
+          "during",
+          "work",
+          "hours."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "always"
+          ],
+          [
+            "answer"
+          ],
+          [
+            "calls"
+          ],
+          [
+            "during"
+          ],
+          [
+            "work"
+          ],
+          [
+            "hours."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/12.mp3",
+        "timeStart": 33.82,
+        "timeEnd": 36.84,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66477/list"
+      },
+      {
+        "id": 66478,
+        "position": 13,
+        "content": "Uh... Can you send it by express mail?",
+        "defaultInput": "Uh… ",
+        "jsonContent": [
+          "Uh...",
+          "Can",
+          "you",
+          "send",
+          "it",
+          "by",
+          "express",
+          "mail?"
+        ],
+        "solution": [
+          [
+            "Uh..."
+          ],
+          [
+            "Can"
+          ],
+          [
+            "you"
+          ],
+          [
+            "send"
+          ],
+          [
+            "it"
+          ],
+          [
+            "by"
+          ],
+          [
+            "express"
+          ],
+          [
+            "mail?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/13.mp3",
+        "timeStart": 36.84,
+        "timeEnd": 40.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66478/list"
+      },
+      {
+        "id": 66479,
+        "position": 14,
+        "content": "Certainly. One second, sir.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly.",
+          [
+            "One",
+            "1"
+          ],
+          "second,",
+          "sir."
+        ],
+        "solution": [
+          [
+            "Certainly."
+          ],
+          [
+            "One",
+            "1"
+          ],
+          [
+            "second,"
+          ],
+          [
+            "sir."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/14.mp3",
+        "timeStart": 40.18,
+        "timeEnd": 42.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66479/list"
+      },
+      {
+        "id": 66480,
+        "position": 15,
+        "content": "I'm going to transfer you back to our receptionist.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "transfer",
+          "you",
+          "back",
+          "to",
+          "our",
+          "receptionist."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "transfer"
+          ],
+          [
+            "you"
+          ],
+          [
+            "back"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "receptionist."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/15.mp3",
+        "timeStart": 42.87,
+        "timeEnd": 46.28,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66480/list"
+      },
+      {
+        "id": 66481,
+        "position": 16,
+        "content": "She'll need your address and a backup phone number.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She'll",
+            "She will"
+          ],
+          "need",
+          "your",
+          "address",
+          "and",
+          "a",
+          "backup",
+          "phone",
+          "number."
+        ],
+        "solution": [
+          [
+            "She'll",
+            "She will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "your"
+          ],
+          [
+            "address"
+          ],
+          [
+            "and"
+          ],
+          [
+            "a"
+          ],
+          [
+            "backup"
+          ],
+          [
+            "phone"
+          ],
+          [
+            "number."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/16.mp3",
+        "timeStart": 46.28,
+        "timeEnd": 49.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66481/list"
+      },
+      {
+        "id": 66482,
+        "position": 17,
+        "content": "Hello, Mr. Blake?",
+        "defaultInput": "Hello, Mr. Blake?",
+        "jsonContent": [
+          "Hello,",
+          "Mr.",
+          "Blake?"
+        ],
+        "solution": [
+          [
+            "Hello,"
+          ],
+          [
+            "Mr."
+          ],
+          [
+            "Blake?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-179-2024-09-14-18-35-16/17.mp3",
+        "timeStart": 49.4,
+        "timeEnd": 51.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/66482/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "66466": {
+      "id": 2638388,
+      "text": "Chào, tôi là Charles Blake.",
+      "author": "ChatGPT4.1"
+    },
+    "66467": {
+      "id": 2638389,
+      "text": "Tôi là bệnh nhân của bác sĩ Sendroff.",
+      "author": "ChatGPT4.1"
+    },
+    "66468": {
+      "id": 2638390,
+      "text": "Tôi sẽ đi công tác ở châu Á vào tháng tới,",
+      "author": "ChatGPT4.1"
+    },
+    "66469": {
+      "id": 2638391,
+      "text": "nên tôi đã yêu cầu trước một bản sao hồ sơ y tế của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "66470": {
+      "id": 2638392,
+      "text": "Cảm ơn ông đã gọi, ông Blake.",
+      "author": "ChatGPT4.1"
+    },
+    "66471": {
+      "id": 2638393,
+      "text": "Tôi sẽ chuyển cuộc gọi của ông.",
+      "author": "ChatGPT4.1"
+    },
+    "66472": {
+      "id": 2638394,
+      "text": "Cô Heather phụ trách việc cung cấp hồ sơ bệnh nhân.",
+      "author": "ChatGPT4.1"
+    },
+    "66473": {
+      "id": 2638395,
+      "text": "Cảm ơn.",
+      "author": "ChatGPT4.1"
+    },
+    "66474": {
+      "id": 2638396,
+      "text": "Xin chào, ông Blake. Tôi đã cố liên lạc với ông sáng nay.",
+      "author": "ChatGPT4.1"
+    },
+    "66475": {
+      "id": 2638397,
+      "text": "Chỉ là ông chưa xác định rõ muốn nhận hồ sơ y tế của mình qua đường bưu điện hay qua email.",
+      "author": "ChatGPT4.1"
+    },
+    "66476": {
+      "id": 2638398,
+      "text": "Ôi, tôi sơ ý quá.",
+      "author": "ChatGPT4.1"
+    },
+    "66477": {
+      "id": 2638399,
+      "text": "Tôi không phải lúc nào cũng nghe điện thoại trong giờ làm việc.",
+      "author": "ChatGPT4.1"
+    },
+    "66478": {
+      "id": 2638400,
+      "text": "Ờ... Ông/cô có thể gửi bằng đường chuyển phát nhanh không?",
+      "author": "ChatGPT4.1"
+    },
+    "66479": {
+      "id": 2638401,
+      "text": "Dạ, chắc chắn rồi. Xin chờ một lát, thưa ông.",
+      "author": "ChatGPT4.1"
+    },
+    "66480": {
+      "id": 2638402,
+      "text": "Tôi sẽ chuyển ông lại cho lễ tân của chúng tôi.",
+      "author": "ChatGPT4.1"
+    },
+    "66481": {
+      "id": 2638403,
+      "text": "Cô ấy sẽ cần địa chỉ và một số điện thoại dự phòng của ông.",
+      "author": "ChatGPT4.1"
+    },
+    "66482": {
+      "id": 2638404,
+      "text": "Xin chào, ông Blake?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

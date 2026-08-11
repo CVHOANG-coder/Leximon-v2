@@ -1,0 +1,893 @@
+{
+  "summary": {
+    "id": 1526,
+    "name": "Conversation 144",
+    "subTitle": "Chiropractor Recommendation and Workshop",
+    "levelName": "B1",
+    "position": 360,
+    "totalChallenges": 14,
+    "groupId": 45,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1526",
+  "detail": {
+    "id": 1526,
+    "lessonName": "Conversation 144",
+    "name": "Conversation 144",
+    "position": 360,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/0-conversation-144.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 65922,
+        "position": 1,
+        "content": "Have you ever heard of Chavonna Parker?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Have",
+          "you",
+          "ever",
+          "heard",
+          "of",
+          "Chavonna",
+          "Parker?"
+        ],
+        "solution": [
+          [
+            "Have"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Chavonna"
+          ],
+          [
+            "Parker?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/1.mp3",
+        "timeStart": 0.89,
+        "timeEnd": 3.1,
+        "hints": [
+          "Chavonna Parker"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65922/list"
+      },
+      {
+        "id": 65923,
+        "position": 2,
+        "content": "She is a local chiropractor",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "She is",
+            "She's"
+          ],
+          "a",
+          "local",
+          "chiropractor"
+        ],
+        "solution": [
+          [
+            "She is",
+            "She's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "local"
+          ],
+          [
+            "chiropractor"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/2.mp3",
+        "timeStart": 3.1,
+        "timeEnd": 5.08,
+        "hints": [
+          "chiropractor"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65923/list"
+      },
+      {
+        "id": 65924,
+        "position": 3,
+        "content": "and I just had an appointment with her yesterday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "I",
+          "just",
+          "had",
+          "an",
+          "appointment",
+          "with",
+          "her",
+          "yesterday."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "had"
+          ],
+          [
+            "an"
+          ],
+          [
+            "appointment"
+          ],
+          [
+            "with"
+          ],
+          [
+            "her"
+          ],
+          [
+            "yesterday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/3.mp3",
+        "timeStart": 5.08,
+        "timeEnd": 7.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65924/list"
+      },
+      {
+        "id": 65925,
+        "position": 4,
+        "content": "She really helped with my back pain",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "really",
+          "helped",
+          "with",
+          "my",
+          "back",
+          "pain"
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "really"
+          ],
+          [
+            "helped"
+          ],
+          [
+            "with"
+          ],
+          [
+            "my"
+          ],
+          [
+            "back"
+          ],
+          [
+            "pain"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/4.mp3",
+        "timeStart": 7.86,
+        "timeEnd": 10.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65925/list"
+      },
+      {
+        "id": 65926,
+        "position": 5,
+        "content": "and mentioned that I was having problems due to sitting in an office chair all day.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "mentioned",
+          "that",
+          "I",
+          "was",
+          "having",
+          "problems",
+          "due",
+          "to",
+          "sitting",
+          "in",
+          "an",
+          "office",
+          "chair",
+          "all",
+          "day."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "that"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "having"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "due"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sitting"
+          ],
+          [
+            "in"
+          ],
+          [
+            "an"
+          ],
+          [
+            "office"
+          ],
+          [
+            "chair"
+          ],
+          [
+            "all"
+          ],
+          [
+            "day."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/5.mp3",
+        "timeStart": 10.17,
+        "timeEnd": 14.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65926/list"
+      },
+      {
+        "id": 65927,
+        "position": 6,
+        "content": "I've never been to her office, but I know a lot of people recommend her.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "never",
+          "been",
+          "to",
+          "her",
+          "office,",
+          "but",
+          "I",
+          "know",
+          "a",
+          "lot",
+          "of",
+          "people",
+          "recommend",
+          "her."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "never"
+          ],
+          [
+            "been"
+          ],
+          [
+            "to"
+          ],
+          [
+            "her"
+          ],
+          [
+            "office,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I"
+          ],
+          [
+            "know"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "people"
+          ],
+          [
+            "recommend"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/6.mp3",
+        "timeStart": 14.82,
+        "timeEnd": 18.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65927/list"
+      },
+      {
+        "id": 65928,
+        "position": 7,
+        "content": "Yes, I was very impressed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "I",
+          "was",
+          "very",
+          "impressed."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "was"
+          ],
+          [
+            "very"
+          ],
+          [
+            "impressed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/7.mp3",
+        "timeStart": 18.47,
+        "timeEnd": 20.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65928/list"
+      },
+      {
+        "id": 65929,
+        "position": 8,
+        "content": "She also mentioned a couple of stretches you can do throughout the workday to improve your posture.",
+        "defaultInput": "",
+        "jsonContent": [
+          "She",
+          "also",
+          "mentioned",
+          "a",
+          "couple",
+          "of",
+          "stretches",
+          "you",
+          "can",
+          "do",
+          "throughout",
+          "the",
+          "workday",
+          "to",
+          "improve",
+          "your",
+          "posture."
+        ],
+        "solution": [
+          [
+            "She"
+          ],
+          [
+            "also"
+          ],
+          [
+            "mentioned"
+          ],
+          [
+            "a"
+          ],
+          [
+            "couple"
+          ],
+          [
+            "of"
+          ],
+          [
+            "stretches"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "do"
+          ],
+          [
+            "throughout"
+          ],
+          [
+            "the"
+          ],
+          [
+            "workday"
+          ],
+          [
+            "to"
+          ],
+          [
+            "improve"
+          ],
+          [
+            "your"
+          ],
+          [
+            "posture."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/8.mp3",
+        "timeStart": 20.83,
+        "timeEnd": 26.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65929/list"
+      },
+      {
+        "id": 65930,
+        "position": 9,
+        "content": "I think a lot of our coworkers could benefit from meeting with her.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          "a",
+          "lot",
+          "of",
+          "our",
+          "coworkers",
+          "could",
+          "benefit",
+          "from",
+          "meeting",
+          "with",
+          "her."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "our"
+          ],
+          [
+            "coworkers"
+          ],
+          [
+            "could"
+          ],
+          [
+            "benefit"
+          ],
+          [
+            "from"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "with"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/9.mp3",
+        "timeStart": 26.62,
+        "timeEnd": 30.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65930/list"
+      },
+      {
+        "id": 65931,
+        "position": 10,
+        "content": "Maybe we could ask her to come in to lead a lunchtime workshop",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          "we",
+          "could",
+          "ask",
+          "her",
+          "to",
+          "come",
+          "in",
+          "to",
+          "lead",
+          "a",
+          "lunchtime",
+          "workshop"
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "her"
+          ],
+          [
+            "to"
+          ],
+          [
+            "come"
+          ],
+          [
+            "in"
+          ],
+          [
+            "to"
+          ],
+          [
+            "lead"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lunchtime"
+          ],
+          [
+            "workshop"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/10.mp3",
+        "timeStart": 30.14,
+        "timeEnd": 33.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65931/list"
+      },
+      {
+        "id": 65932,
+        "position": 11,
+        "content": "to teach the techniques to everyone.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "teach",
+          "the",
+          "techniques",
+          "to",
+          "everyone."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "teach"
+          ],
+          [
+            "the"
+          ],
+          [
+            "techniques"
+          ],
+          [
+            "to"
+          ],
+          [
+            "everyone."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/11.mp3",
+        "timeStart": 33.2,
+        "timeEnd": 35.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65932/list"
+      },
+      {
+        "id": 65933,
+        "position": 12,
+        "content": "We have a budget for wellness training,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "We've"
+          ],
+          "a",
+          "budget",
+          "for",
+          "wellness",
+          "training,"
+        ],
+        "solution": [
+          [
+            "We have",
+            "We've"
+          ],
+          [
+            "a"
+          ],
+          [
+            "budget"
+          ],
+          [
+            "for"
+          ],
+          [
+            "wellness"
+          ],
+          [
+            "training,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/12.mp3",
+        "timeStart": 35.08,
+        "timeEnd": 36.97,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65933/list"
+      },
+      {
+        "id": 65934,
+        "position": 13,
+        "content": "so we could speak to the accounting department about paying her.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "we",
+          "could",
+          "speak",
+          "to",
+          "the",
+          "accounting",
+          "department",
+          "about",
+          "paying",
+          "her."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "we"
+          ],
+          [
+            "could"
+          ],
+          [
+            "speak"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "accounting"
+          ],
+          [
+            "department"
+          ],
+          [
+            "about"
+          ],
+          [
+            "paying"
+          ],
+          [
+            "her."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/13.mp3",
+        "timeStart": 36.97,
+        "timeEnd": 39.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65934/list"
+      },
+      {
+        "id": 65935,
+        "position": 14,
+        "content": "And, she may even get a few new clients!",
+        "defaultInput": "",
+        "jsonContent": [
+          "And,",
+          "she",
+          "may",
+          "even",
+          "get",
+          "a",
+          "few",
+          "new",
+          "clients!"
+        ],
+        "solution": [
+          [
+            "And,"
+          ],
+          [
+            "she"
+          ],
+          [
+            "may"
+          ],
+          [
+            "even"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "few"
+          ],
+          [
+            "new"
+          ],
+          [
+            "clients!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-144-2024-09-14-18-20-23/14.mp3",
+        "timeStart": 39.89,
+        "timeEnd": 42.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/65935/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "65922": {
+      "id": 2618811,
+      "text": "Bạn đã từng nghe nói về Chavonna Parker chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "65923": {
+      "id": 2618812,
+      "text": "Cô ấy là một bác sĩ nắn khớp xương tại địa phương",
+      "author": "ChatGPT4.1"
+    },
+    "65924": {
+      "id": 2618813,
+      "text": "và tôi vừa có một cuộc hẹn với cô ấy hôm qua.",
+      "author": "ChatGPT4.1"
+    },
+    "65925": {
+      "id": 2618814,
+      "text": "Cô ấy thực sự đã giúp tôi giảm đau lưng",
+      "author": "ChatGPT4.1"
+    },
+    "65926": {
+      "id": 2618815,
+      "text": "và nói rằng tôi gặp vấn đề do ngồi ghế văn phòng cả ngày.",
+      "author": "ChatGPT4.1"
+    },
+    "65927": {
+      "id": 2618816,
+      "text": "Tôi chưa từng đến phòng khám của cô ấy, nhưng tôi biết nhiều người giới thiệu cô ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "65928": {
+      "id": 2618817,
+      "text": "Vâng, tôi rất ấn tượng.",
+      "author": "ChatGPT4.1"
+    },
+    "65929": {
+      "id": 2618818,
+      "text": "Cô ấy cũng đã đề cập đến một vài động tác giãn cơ bạn có thể làm trong ngày làm việc để cải thiện tư thế.",
+      "author": "ChatGPT4.1"
+    },
+    "65930": {
+      "id": 2618819,
+      "text": "Tôi nghĩ nhiều đồng nghiệp của chúng ta có thể hưởng lợi từ việc gặp cô ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "65931": {
+      "id": 2618820,
+      "text": "Có thể chúng ta nên mời cô ấy đến để dẫn dắt một buổi hội thảo vào giờ nghỉ trưa",
+      "author": "ChatGPT4.1"
+    },
+    "65932": {
+      "id": 2618821,
+      "text": "để dạy kỹ thuật đó cho mọi người.",
+      "author": "ChatGPT4.1"
+    },
+    "65933": {
+      "id": 2618822,
+      "text": "Chúng ta có ngân sách cho các chương trình đào tạo sức khỏe,",
+      "author": "ChatGPT4.1"
+    },
+    "65934": {
+      "id": 2618823,
+      "text": "vì vậy chúng ta có thể nói chuyện với phòng kế toán về việc trả thù lao cho cô ấy.",
+      "author": "ChatGPT4.1"
+    },
+    "65935": {
+      "id": 2618824,
+      "text": "Và thậm chí, cô ấy có thể sẽ có thêm vài khách hàng mới!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

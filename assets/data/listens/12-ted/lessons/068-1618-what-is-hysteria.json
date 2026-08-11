@@ -1,0 +1,4314 @@
+{
+  "summary": {
+    "id": 1618,
+    "name": "What is hysteria?",
+    "subTitle": "",
+    "levelName": "C2",
+    "position": 68,
+    "totalChallenges": 76,
+    "groupId": 114,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1618",
+  "detail": {
+    "id": 1618,
+    "lessonName": "What is hysteria?",
+    "name": "What is hysteria?",
+    "position": 68,
+    "levelName": "C2",
+    "audioSrc": "",
+    "youtubeVideoId": "anJKMZCVjxs",
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 67973,
+        "position": 1,
+        "content": "Do you ever feel tired?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "ever",
+          "feel",
+          "tired?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "tired?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 6.85,
+        "timeEnd": 8.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67973/list"
+      },
+      {
+        "id": 67974,
+        "position": 2,
+        "content": "Overwhelmed?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Overwhelmed?"
+        ],
+        "solution": [
+          [
+            "Overwhelmed?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 8.82,
+        "timeEnd": 10.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67974/list"
+      },
+      {
+        "id": 67975,
+        "position": 3,
+        "content": "Nervous?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Nervous?"
+        ],
+        "solution": [
+          [
+            "Nervous?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 10.12,
+        "timeEnd": 11.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67975/list"
+      },
+      {
+        "id": 67976,
+        "position": 4,
+        "content": "Depressed?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Depressed?"
+        ],
+        "solution": [
+          [
+            "Depressed?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 11.66,
+        "timeEnd": 13.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67976/list"
+      },
+      {
+        "id": 67977,
+        "position": 5,
+        "content": "Do you have headaches, dizziness, cramps, difficulty breathing?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          [
+            "you have",
+            "you've"
+          ],
+          "headaches,",
+          "dizziness,",
+          "cramps,",
+          "difficulty",
+          "breathing?"
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "headaches,"
+          ],
+          [
+            "dizziness,"
+          ],
+          [
+            "cramps,"
+          ],
+          [
+            "difficulty"
+          ],
+          [
+            "breathing?"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 13.37,
+        "timeEnd": 18.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67977/list"
+      },
+      {
+        "id": 67978,
+        "position": 6,
+        "content": "From 300 BCE to the early 1900s,",
+        "defaultInput": "",
+        "jsonContent": [
+          "From",
+          [
+            "300",
+            "three hundred"
+          ],
+          "BCE",
+          "to",
+          "the",
+          "early",
+          "1900s,"
+        ],
+        "solution": [
+          [
+            "From"
+          ],
+          [
+            "300",
+            "three hundred"
+          ],
+          [
+            "BCE"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "early"
+          ],
+          [
+            "1900s,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 18.22,
+        "timeEnd": 22.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67978/list"
+      },
+      {
+        "id": 67979,
+        "position": 7,
+        "content": "if you answered yes to these questions and you had a uterus,",
+        "defaultInput": "",
+        "jsonContent": [
+          "if",
+          "you",
+          "answered",
+          "yes",
+          "to",
+          "these",
+          "questions",
+          "and",
+          [
+            "you had",
+            "you'd"
+          ],
+          "a",
+          "uterus,"
+        ],
+        "solution": [
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "answered"
+          ],
+          [
+            "yes"
+          ],
+          [
+            "to"
+          ],
+          [
+            "these"
+          ],
+          [
+            "questions"
+          ],
+          [
+            "and"
+          ],
+          [
+            "you had",
+            "you'd"
+          ],
+          [
+            "a"
+          ],
+          [
+            "uterus,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 22.33,
+        "timeEnd": 26.86,
+        "hints": [
+          "uterus"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67979/list"
+      },
+      {
+        "id": 67980,
+        "position": 8,
+        "content": "a European or American doctor would likely diagnose you with hysteria.",
+        "defaultInput": "",
+        "jsonContent": [
+          "a",
+          "European",
+          "or",
+          "American",
+          "doctor",
+          "would",
+          "likely",
+          "diagnose",
+          "you",
+          "with",
+          "hysteria."
+        ],
+        "solution": [
+          [
+            "a"
+          ],
+          [
+            "European"
+          ],
+          [
+            "or"
+          ],
+          [
+            "American"
+          ],
+          [
+            "doctor"
+          ],
+          [
+            "would"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "diagnose"
+          ],
+          [
+            "you"
+          ],
+          [
+            "with"
+          ],
+          [
+            "hysteria."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 27.5,
+        "timeEnd": 33.1,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67980/list"
+      },
+      {
+        "id": 67981,
+        "position": 9,
+        "content": "No, not mass hysteria.",
+        "defaultInput": "",
+        "jsonContent": [
+          "No,",
+          "not",
+          "mass",
+          "hysteria."
+        ],
+        "solution": [
+          [
+            "No,"
+          ],
+          [
+            "not"
+          ],
+          [
+            "mass"
+          ],
+          [
+            "hysteria."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 33.33,
+        "timeEnd": 35.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67981/list"
+      },
+      {
+        "id": 67982,
+        "position": 10,
+        "content": "Ladylike hysteria.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Ladylike",
+          "hysteria."
+        ],
+        "solution": [
+          [
+            "Ladylike"
+          ],
+          [
+            "hysteria."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 35.91,
+        "timeEnd": 38.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67982/list"
+      },
+      {
+        "id": 67983,
+        "position": 11,
+        "content": "The catch-all term \"hysteria\" was used by physicians, who were mostly men,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "catch-all",
+            "catch all"
+          ],
+          "term",
+          "\"hysteria\"",
+          "was",
+          "used",
+          "by",
+          "physicians,",
+          "who",
+          "were",
+          "mostly",
+          "men,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "catch-all",
+            "catch all"
+          ],
+          [
+            "term"
+          ],
+          [
+            "\"hysteria\""
+          ],
+          [
+            "was"
+          ],
+          [
+            "used"
+          ],
+          [
+            "by"
+          ],
+          [
+            "physicians,"
+          ],
+          [
+            "who"
+          ],
+          [
+            "were"
+          ],
+          [
+            "mostly"
+          ],
+          [
+            "men,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 38.32,
+        "timeEnd": 43.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67983/list"
+      },
+      {
+        "id": 67984,
+        "position": 12,
+        "content": "to describe just about any unexplainable medical condition suffered by female patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "describe",
+          "just",
+          "about",
+          "any",
+          "unexplainable",
+          "medical",
+          "condition",
+          "suffered",
+          "by",
+          "female",
+          "patients."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "describe"
+          ],
+          [
+            "just"
+          ],
+          [
+            "about"
+          ],
+          [
+            "any"
+          ],
+          [
+            "unexplainable"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "condition"
+          ],
+          [
+            "suffered"
+          ],
+          [
+            "by"
+          ],
+          [
+            "female"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 43.63,
+        "timeEnd": 50.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67984/list"
+      },
+      {
+        "id": 67985,
+        "position": 13,
+        "content": "By some interpretations,",
+        "defaultInput": "",
+        "jsonContent": [
+          "By",
+          "some",
+          "interpretations,"
+        ],
+        "solution": [
+          [
+            "By"
+          ],
+          [
+            "some"
+          ],
+          [
+            "interpretations,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 51.18,
+        "timeEnd": 52.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67985/list"
+      },
+      {
+        "id": 67986,
+        "position": 14,
+        "content": "being a woman was itself long considered a pathology from which all kinds of problems arose.",
+        "defaultInput": "",
+        "jsonContent": [
+          "being",
+          "a",
+          "woman",
+          "was",
+          "itself",
+          "long",
+          "considered",
+          "a",
+          "pathology",
+          "from",
+          "which",
+          "all",
+          "kinds",
+          "of",
+          "problems",
+          "arose."
+        ],
+        "solution": [
+          [
+            "being"
+          ],
+          [
+            "a"
+          ],
+          [
+            "woman"
+          ],
+          [
+            "was"
+          ],
+          [
+            "itself"
+          ],
+          [
+            "long"
+          ],
+          [
+            "considered"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pathology"
+          ],
+          [
+            "from"
+          ],
+          [
+            "which"
+          ],
+          [
+            "all"
+          ],
+          [
+            "kinds"
+          ],
+          [
+            "of"
+          ],
+          [
+            "problems"
+          ],
+          [
+            "arose."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 52.99,
+        "timeEnd": 58.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67986/list"
+      },
+      {
+        "id": 67987,
+        "position": 15,
+        "content": "Throughout its long history,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Throughout",
+          "its",
+          "long",
+          "history,"
+        ],
+        "solution": [
+          [
+            "Throughout"
+          ],
+          [
+            "its"
+          ],
+          [
+            "long"
+          ],
+          [
+            "history,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 59.75,
+        "timeEnd": 61.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67987/list"
+      },
+      {
+        "id": 67988,
+        "position": 16,
+        "content": "hysteria was used as a cultural signifier",
+        "defaultInput": "",
+        "jsonContent": [
+          "hysteria",
+          "was",
+          "used",
+          "as",
+          "a",
+          "cultural",
+          "signifier"
+        ],
+        "solution": [
+          [
+            "hysteria"
+          ],
+          [
+            "was"
+          ],
+          [
+            "used"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cultural"
+          ],
+          [
+            "signifier"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 61.6,
+        "timeEnd": 64.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67988/list"
+      },
+      {
+        "id": 67989,
+        "position": 17,
+        "content": "for what men with authority found contemptible and incomprehensible",
+        "defaultInput": "",
+        "jsonContent": [
+          "for",
+          "what",
+          "men",
+          "with",
+          "authority",
+          "found",
+          "contemptible",
+          "and",
+          "incomprehensible"
+        ],
+        "solution": [
+          [
+            "for"
+          ],
+          [
+            "what"
+          ],
+          [
+            "men"
+          ],
+          [
+            "with"
+          ],
+          [
+            "authority"
+          ],
+          [
+            "found"
+          ],
+          [
+            "contemptible"
+          ],
+          [
+            "and"
+          ],
+          [
+            "incomprehensible"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 64.64,
+        "timeEnd": 69.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67989/list"
+      },
+      {
+        "id": 67990,
+        "position": 18,
+        "content": "in the behavior of women who lacked, or tried to exercise, power.",
+        "defaultInput": "",
+        "jsonContent": [
+          "in",
+          "the",
+          [
+            "behavior",
+            "behaviour"
+          ],
+          "of",
+          "women",
+          "who",
+          "lacked,",
+          "or",
+          "tried",
+          "to",
+          "exercise,",
+          "power."
+        ],
+        "solution": [
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "behavior",
+            "behaviour"
+          ],
+          [
+            "of"
+          ],
+          [
+            "women"
+          ],
+          [
+            "who"
+          ],
+          [
+            "lacked,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "tried"
+          ],
+          [
+            "to"
+          ],
+          [
+            "exercise,"
+          ],
+          [
+            "power."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 69.55,
+        "timeEnd": 75.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67990/list"
+      },
+      {
+        "id": 67991,
+        "position": 19,
+        "content": "The term hysteria is derived from the Greek word for uterus,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "term",
+          "hysteria",
+          "is",
+          "derived",
+          "from",
+          "the",
+          "Greek",
+          "word",
+          "for",
+          "uterus,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "term"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "is"
+          ],
+          [
+            "derived"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Greek"
+          ],
+          [
+            "word"
+          ],
+          [
+            "for"
+          ],
+          [
+            "uterus,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 75.17,
+        "timeEnd": 79.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67991/list"
+      },
+      {
+        "id": 67992,
+        "position": 20,
+        "content": "and was first used in the 4th century BCE.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "was",
+          [
+            "first",
+            "1st"
+          ],
+          "used",
+          "in",
+          "the",
+          [
+            "4th",
+            "fourth"
+          ],
+          "century",
+          "BCE."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "was"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "used"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "4th",
+            "fourth"
+          ],
+          [
+            "century"
+          ],
+          [
+            "BCE."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 79.79,
+        "timeEnd": 83.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67992/list"
+      },
+      {
+        "id": 67993,
+        "position": 21,
+        "content": "Drawing on earlier Egyptian beliefs,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Drawing",
+          "on",
+          "earlier",
+          "Egyptian",
+          "beliefs,"
+        ],
+        "solution": [
+          [
+            "Drawing"
+          ],
+          [
+            "on"
+          ],
+          [
+            "earlier"
+          ],
+          [
+            "Egyptian"
+          ],
+          [
+            "beliefs,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 84.15,
+        "timeEnd": 86.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67993/list"
+      },
+      {
+        "id": 67994,
+        "position": 22,
+        "content": "and not a great deal of medical rigor,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "not",
+          "a",
+          "great",
+          "deal",
+          "of",
+          "medical",
+          "rigor,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "not"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "deal"
+          ],
+          [
+            "of"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "rigor,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 86.48,
+        "timeEnd": 88.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67994/list"
+      },
+      {
+        "id": 67995,
+        "position": 23,
+        "content": "the Greeks viewed hysteria as a malady of the womb,",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "Greeks",
+          "viewed",
+          "hysteria",
+          "as",
+          "a",
+          "malady",
+          "of",
+          "the",
+          "womb,"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "Greeks"
+          ],
+          [
+            "viewed"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "malady"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "womb,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 88.92,
+        "timeEnd": 92.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67995/list"
+      },
+      {
+        "id": 67996,
+        "position": 24,
+        "content": "arguing that the uterus could dislodge and move throughout the body,",
+        "defaultInput": "",
+        "jsonContent": [
+          "arguing",
+          "that",
+          "the",
+          "uterus",
+          "could",
+          "dislodge",
+          "and",
+          "move",
+          "throughout",
+          "the",
+          "body,"
+        ],
+        "solution": [
+          [
+            "arguing"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "uterus"
+          ],
+          [
+            "could"
+          ],
+          [
+            "dislodge"
+          ],
+          [
+            "and"
+          ],
+          [
+            "move"
+          ],
+          [
+            "throughout"
+          ],
+          [
+            "the"
+          ],
+          [
+            "body,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 92.32,
+        "timeEnd": 96.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67996/list"
+      },
+      {
+        "id": 67997,
+        "position": 25,
+        "content": "causing a variety of ailments.",
+        "defaultInput": "",
+        "jsonContent": [
+          "causing",
+          "a",
+          "variety",
+          "of",
+          "ailments."
+        ],
+        "solution": [
+          [
+            "causing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "variety"
+          ],
+          [
+            "of"
+          ],
+          [
+            "ailments."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 96.41,
+        "timeEnd": 99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67997/list"
+      },
+      {
+        "id": 67998,
+        "position": 26,
+        "content": "They believed the uterus wandered because it longed to bear children,",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "believed",
+          "the",
+          "uterus",
+          "wandered",
+          "because",
+          "it",
+          "longed",
+          "to",
+          "bear",
+          "children,"
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "believed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "uterus"
+          ],
+          [
+            "wandered"
+          ],
+          [
+            "because"
+          ],
+          [
+            "it"
+          ],
+          [
+            "longed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "bear"
+          ],
+          [
+            "children,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 99.36,
+        "timeEnd": 103.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67998/list"
+      },
+      {
+        "id": 67999,
+        "position": 27,
+        "content": "and for that reason, unmarried women were the most likely to get a hysteria diagnosis.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "for",
+          "that",
+          "reason,",
+          "unmarried",
+          "women",
+          "were",
+          "the",
+          "most",
+          "likely",
+          "to",
+          "get",
+          "a",
+          "hysteria",
+          "diagnosis."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "for"
+          ],
+          [
+            "that"
+          ],
+          [
+            "reason,"
+          ],
+          [
+            "unmarried"
+          ],
+          [
+            "women"
+          ],
+          [
+            "were"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "diagnosis."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 103.63,
+        "timeEnd": 108.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/67999/list"
+      },
+      {
+        "id": 68000,
+        "position": 28,
+        "content": "The usual prescription was immediate marriage, impregnation,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "usual",
+          "prescription",
+          "was",
+          "immediate",
+          "marriage,",
+          "impregnation,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "usual"
+          ],
+          [
+            "prescription"
+          ],
+          [
+            "was"
+          ],
+          [
+            "immediate"
+          ],
+          [
+            "marriage,"
+          ],
+          [
+            "impregnation,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 109.64,
+        "timeEnd": 113.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68000/list"
+      },
+      {
+        "id": 68001,
+        "position": 29,
+        "content": "or the use of uterine fumigations",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "the",
+          "use",
+          "of",
+          "uterine",
+          "fumigations"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "the"
+          ],
+          [
+            "use"
+          ],
+          [
+            "of"
+          ],
+          [
+            "uterine"
+          ],
+          [
+            "fumigations"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 113.96,
+        "timeEnd": 116.49,
+        "hints": [
+          "uterine fumigations"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68001/list"
+      },
+      {
+        "id": 68002,
+        "position": 30,
+        "content": "to entice the rebellious organ back into place.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "entice",
+          "the",
+          "rebellious",
+          "organ",
+          "back",
+          "into",
+          "place."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "entice"
+          ],
+          [
+            "the"
+          ],
+          [
+            "rebellious"
+          ],
+          [
+            "organ"
+          ],
+          [
+            "back"
+          ],
+          [
+            "into"
+          ],
+          [
+            "place."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 116.49,
+        "timeEnd": 120.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68002/list"
+      },
+      {
+        "id": 68003,
+        "position": 31,
+        "content": "By the second century CE,",
+        "defaultInput": "",
+        "jsonContent": [
+          "By",
+          "the",
+          "second",
+          "century",
+          "CE,"
+        ],
+        "solution": [
+          [
+            "By"
+          ],
+          [
+            "the"
+          ],
+          [
+            "second"
+          ],
+          [
+            "century"
+          ],
+          [
+            "CE,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 120.43,
+        "timeEnd": 122.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68003/list"
+      },
+      {
+        "id": 68004,
+        "position": 32,
+        "content": "Roman physicians rejected the wandering womb theory.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Roman",
+          "physicians",
+          "rejected",
+          "the",
+          "wandering",
+          "womb",
+          "theory."
+        ],
+        "solution": [
+          [
+            "Roman"
+          ],
+          [
+            "physicians"
+          ],
+          [
+            "rejected"
+          ],
+          [
+            "the"
+          ],
+          [
+            "wandering"
+          ],
+          [
+            "womb"
+          ],
+          [
+            "theory."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 122.68,
+        "timeEnd": 126.33,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68004/list"
+      },
+      {
+        "id": 68005,
+        "position": 33,
+        "content": "But they still viewed the uterus as the source of hysteria,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "they",
+          "still",
+          "viewed",
+          "the",
+          "uterus",
+          "as",
+          "the",
+          "source",
+          "of",
+          "hysteria,"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "they"
+          ],
+          [
+            "still"
+          ],
+          [
+            "viewed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "uterus"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "source"
+          ],
+          [
+            "of"
+          ],
+          [
+            "hysteria,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 126.33,
+        "timeEnd": 130.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68005/list"
+      },
+      {
+        "id": 68006,
+        "position": 34,
+        "content": "believing, without much evidence, that it produced a secretion similar to semen,",
+        "defaultInput": "",
+        "jsonContent": [
+          "believing,",
+          "without",
+          "much",
+          "evidence,",
+          "that",
+          "it",
+          "produced",
+          "a",
+          "secretion",
+          "similar",
+          "to",
+          "semen,"
+        ],
+        "solution": [
+          [
+            "believing,"
+          ],
+          [
+            "without"
+          ],
+          [
+            "much"
+          ],
+          [
+            "evidence,"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it"
+          ],
+          [
+            "produced"
+          ],
+          [
+            "a"
+          ],
+          [
+            "secretion"
+          ],
+          [
+            "similar"
+          ],
+          [
+            "to"
+          ],
+          [
+            "semen,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 130.22,
+        "timeEnd": 135.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68006/list"
+      },
+      {
+        "id": 68007,
+        "position": 35,
+        "content": "which, if not released, corrupted the blood and irritated the nerves.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which,",
+          "if",
+          "not",
+          "released,",
+          "corrupted",
+          "the",
+          "blood",
+          "and",
+          "irritated",
+          "the",
+          "nerves."
+        ],
+        "solution": [
+          [
+            "which,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "not"
+          ],
+          [
+            "released,"
+          ],
+          [
+            "corrupted"
+          ],
+          [
+            "the"
+          ],
+          [
+            "blood"
+          ],
+          [
+            "and"
+          ],
+          [
+            "irritated"
+          ],
+          [
+            "the"
+          ],
+          [
+            "nerves."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 135.55,
+        "timeEnd": 140.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68007/list"
+      },
+      {
+        "id": 68008,
+        "position": 36,
+        "content": "As a result, midwives would often treat hysteria by manually inducing orgasms in female patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "a",
+          "result,",
+          "midwives",
+          "would",
+          "often",
+          "treat",
+          "hysteria",
+          "by",
+          "manually",
+          "inducing",
+          "orgasms",
+          "in",
+          "female",
+          "patients."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "a"
+          ],
+          [
+            "result,"
+          ],
+          [
+            "midwives"
+          ],
+          [
+            "would"
+          ],
+          [
+            "often"
+          ],
+          [
+            "treat"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "by"
+          ],
+          [
+            "manually"
+          ],
+          [
+            "inducing"
+          ],
+          [
+            "orgasms"
+          ],
+          [
+            "in"
+          ],
+          [
+            "female"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 141.39,
+        "timeEnd": 148.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68008/list"
+      },
+      {
+        "id": 68009,
+        "position": 37,
+        "content": "By the late Middle Ages, Christianity had spread throughout Europe,",
+        "defaultInput": "",
+        "jsonContent": [
+          "By",
+          "the",
+          "late",
+          "Middle",
+          "Ages,",
+          "Christianity",
+          "had",
+          "spread",
+          "throughout",
+          "Europe,"
+        ],
+        "solution": [
+          [
+            "By"
+          ],
+          [
+            "the"
+          ],
+          [
+            "late"
+          ],
+          [
+            "Middle"
+          ],
+          [
+            "Ages,"
+          ],
+          [
+            "Christianity"
+          ],
+          [
+            "had"
+          ],
+          [
+            "spread"
+          ],
+          [
+            "throughout"
+          ],
+          [
+            "Europe,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 148.74,
+        "timeEnd": 152.64,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68009/list"
+      },
+      {
+        "id": 68010,
+        "position": 38,
+        "content": "and its influence had likewise infiltrated Western medical practice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "its",
+          "influence",
+          "had",
+          "likewise",
+          "infiltrated",
+          "Western",
+          "medical",
+          [
+            "practice.",
+            "practise"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "its"
+          ],
+          [
+            "influence"
+          ],
+          [
+            "had"
+          ],
+          [
+            "likewise"
+          ],
+          [
+            "infiltrated"
+          ],
+          [
+            "Western"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "practice.",
+            "practise"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 152.64,
+        "timeEnd": 157.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68010/list"
+      },
+      {
+        "id": 68011,
+        "position": 39,
+        "content": "Physicians started to posit that hysteria was a malady not of the womb,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Physicians",
+          "started",
+          "to",
+          "posit",
+          "that",
+          "hysteria",
+          "was",
+          "a",
+          "malady",
+          "not",
+          "of",
+          "the",
+          "womb,"
+        ],
+        "solution": [
+          [
+            "Physicians"
+          ],
+          [
+            "started"
+          ],
+          [
+            "to"
+          ],
+          [
+            "posit"
+          ],
+          [
+            "that"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "malady"
+          ],
+          [
+            "not"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "womb,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 157.47,
+        "timeEnd": 162.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68011/list"
+      },
+      {
+        "id": 68012,
+        "position": 40,
+        "content": "but of the soul, and reflected Satanic influence.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "of",
+          "the",
+          "soul,",
+          "and",
+          "reflected",
+          "Satanic",
+          "influence."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "soul,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "reflected"
+          ],
+          [
+            "Satanic"
+          ],
+          [
+            "influence."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 162.43,
+        "timeEnd": 166.24,
+        "hints": [
+          "Satanic"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68012/list"
+      },
+      {
+        "id": 68013,
+        "position": 41,
+        "content": "Doctors continued to dismiss women's symptoms and pain,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Doctors",
+          "continued",
+          "to",
+          "dismiss",
+          "women's",
+          "symptoms",
+          "and",
+          "pain,"
+        ],
+        "solution": [
+          [
+            "Doctors"
+          ],
+          [
+            "continued"
+          ],
+          [
+            "to"
+          ],
+          [
+            "dismiss"
+          ],
+          [
+            "women's"
+          ],
+          [
+            "symptoms"
+          ],
+          [
+            "and"
+          ],
+          [
+            "pain,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 167.06,
+        "timeEnd": 170.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68013/list"
+      },
+      {
+        "id": 68014,
+        "position": 42,
+        "content": "now misogynistically shifting the blame to their supposed inherent weak wills and susceptibility to sin.",
+        "defaultInput": "",
+        "jsonContent": [
+          "now",
+          "misogynistically",
+          "shifting",
+          "the",
+          "blame",
+          "to",
+          "their",
+          "supposed",
+          "inherent",
+          "weak",
+          "wills",
+          "and",
+          "susceptibility",
+          "to",
+          "sin."
+        ],
+        "solution": [
+          [
+            "now"
+          ],
+          [
+            "misogynistically"
+          ],
+          [
+            "shifting"
+          ],
+          [
+            "the"
+          ],
+          [
+            "blame"
+          ],
+          [
+            "to"
+          ],
+          [
+            "their"
+          ],
+          [
+            "supposed"
+          ],
+          [
+            "inherent"
+          ],
+          [
+            "weak"
+          ],
+          [
+            "wills"
+          ],
+          [
+            "and"
+          ],
+          [
+            "susceptibility"
+          ],
+          [
+            "to"
+          ],
+          [
+            "sin."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 170.2,
+        "timeEnd": 178.42,
+        "hints": [
+          "misogynistically",
+          "susceptibility"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68014/list"
+      },
+      {
+        "id": 68015,
+        "position": 43,
+        "content": "This situation worsened through the 16th and 17th centuries,",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "situation",
+          "worsened",
+          "through",
+          "the",
+          [
+            "16th",
+            "sixteenth"
+          ],
+          "and",
+          [
+            "17th",
+            "seventeenth"
+          ],
+          "centuries,"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "situation"
+          ],
+          [
+            "worsened"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "16th",
+            "sixteenth"
+          ],
+          [
+            "and"
+          ],
+          [
+            "17th",
+            "seventeenth"
+          ],
+          [
+            "centuries,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 178.42,
+        "timeEnd": 182.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68015/list"
+      },
+      {
+        "id": 68016,
+        "position": 44,
+        "content": "as women, especially those who didn't conform to social expectations,",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "women,",
+          "especially",
+          "those",
+          "who",
+          [
+            "didn't",
+            "did not"
+          ],
+          "conform",
+          "to",
+          "social",
+          "expectations,"
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "women,"
+          ],
+          [
+            "especially"
+          ],
+          [
+            "those"
+          ],
+          [
+            "who"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "conform"
+          ],
+          [
+            "to"
+          ],
+          [
+            "social"
+          ],
+          [
+            "expectations,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 182.52,
+        "timeEnd": 187.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68016/list"
+      },
+      {
+        "id": 68017,
+        "position": 45,
+        "content": "risked being accused of witchcraft,",
+        "defaultInput": "",
+        "jsonContent": [
+          "risked",
+          "being",
+          "accused",
+          "of",
+          "witchcraft,"
+        ],
+        "solution": [
+          [
+            "risked"
+          ],
+          [
+            "being"
+          ],
+          [
+            "accused"
+          ],
+          [
+            "of"
+          ],
+          [
+            "witchcraft,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 187.04,
+        "timeEnd": 189.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68017/list"
+      },
+      {
+        "id": 68018,
+        "position": 46,
+        "content": "which often carried heavy consequences.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "often",
+          "carried",
+          "heavy",
+          "consequences."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "often"
+          ],
+          [
+            "carried"
+          ],
+          [
+            "heavy"
+          ],
+          [
+            "consequences."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 189.43,
+        "timeEnd": 191.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68018/list"
+      },
+      {
+        "id": 68019,
+        "position": 47,
+        "content": "In late Victorian Europe and North America,",
+        "defaultInput": "",
+        "jsonContent": [
+          "In",
+          "late",
+          "Victorian",
+          "Europe",
+          "and",
+          "North",
+          "America,"
+        ],
+        "solution": [
+          [
+            "In"
+          ],
+          [
+            "late"
+          ],
+          [
+            "Victorian"
+          ],
+          [
+            "Europe"
+          ],
+          [
+            "and"
+          ],
+          [
+            "North"
+          ],
+          [
+            "America,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 192.74,
+        "timeEnd": 195.46,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68019/list"
+      },
+      {
+        "id": 68020,
+        "position": 48,
+        "content": "some medical doctors started arguing that hysteria's true origin lay not in the body or soul,",
+        "defaultInput": "",
+        "jsonContent": [
+          "some",
+          "medical",
+          "doctors",
+          "started",
+          "arguing",
+          "that",
+          "hysteria's",
+          "true",
+          "origin",
+          "lay",
+          "not",
+          "in",
+          "the",
+          "body",
+          "or",
+          "soul,"
+        ],
+        "solution": [
+          [
+            "some"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "doctors"
+          ],
+          [
+            "started"
+          ],
+          [
+            "arguing"
+          ],
+          [
+            "that"
+          ],
+          [
+            "hysteria's"
+          ],
+          [
+            "true"
+          ],
+          [
+            "origin"
+          ],
+          [
+            "lay"
+          ],
+          [
+            "not"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "body"
+          ],
+          [
+            "or"
+          ],
+          [
+            "soul,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 195.46,
+        "timeEnd": 201.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68020/list"
+      },
+      {
+        "id": 68021,
+        "position": 49,
+        "content": "but rather, in the mind.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "rather,",
+          "in",
+          "the",
+          "mind."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "rather,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "mind."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 201.69,
+        "timeEnd": 203.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68021/list"
+      },
+      {
+        "id": 68022,
+        "position": 50,
+        "content": "Middle class women, facing intense demands of social respectability and strict codes of sexual conduct,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Middle",
+          "class",
+          "women,",
+          "facing",
+          "intense",
+          "demands",
+          "of",
+          "social",
+          "respectability",
+          "and",
+          "strict",
+          "codes",
+          "of",
+          "sexual",
+          "conduct,"
+        ],
+        "solution": [
+          [
+            "Middle"
+          ],
+          [
+            "class"
+          ],
+          [
+            "women,"
+          ],
+          [
+            "facing"
+          ],
+          [
+            "intense"
+          ],
+          [
+            "demands"
+          ],
+          [
+            "of"
+          ],
+          [
+            "social"
+          ],
+          [
+            "respectability"
+          ],
+          [
+            "and"
+          ],
+          [
+            "strict"
+          ],
+          [
+            "codes"
+          ],
+          [
+            "of"
+          ],
+          [
+            "sexual"
+          ],
+          [
+            "conduct,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 204.42,
+        "timeEnd": 210.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68022/list"
+      },
+      {
+        "id": 68023,
+        "position": 51,
+        "content": "were often referred to \"nerve doctors\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "were",
+          "often",
+          "referred",
+          "to",
+          "\"nerve",
+          "doctors\""
+        ],
+        "solution": [
+          [
+            "were"
+          ],
+          [
+            "often"
+          ],
+          [
+            "referred"
+          ],
+          [
+            "to"
+          ],
+          [
+            "\"nerve"
+          ],
+          [
+            "doctors\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 210.9,
+        "timeEnd": 214.25,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68023/list"
+      },
+      {
+        "id": 68024,
+        "position": 52,
+        "content": "who'd use isolating and unfounded rest cures",
+        "defaultInput": "",
+        "jsonContent": [
+          "who'd",
+          "use",
+          "isolating",
+          "and",
+          "unfounded",
+          "rest",
+          "cures"
+        ],
+        "solution": [
+          [
+            "who'd"
+          ],
+          [
+            "use"
+          ],
+          [
+            "isolating"
+          ],
+          [
+            "and"
+          ],
+          [
+            "unfounded"
+          ],
+          [
+            "rest"
+          ],
+          [
+            "cures"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 214.25,
+        "timeEnd": 217.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68024/list"
+      },
+      {
+        "id": 68025,
+        "position": 53,
+        "content": "to treat any emotional and psychological distress.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "treat",
+          "any",
+          "emotional",
+          "and",
+          "psychological",
+          "distress."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "treat"
+          ],
+          [
+            "any"
+          ],
+          [
+            "emotional"
+          ],
+          [
+            "and"
+          ],
+          [
+            "psychological"
+          ],
+          [
+            "distress."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 217.61,
+        "timeEnd": 220.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68025/list"
+      },
+      {
+        "id": 68026,
+        "position": 54,
+        "content": "When writing her semi-autobiographical short story, \"The Yellow Wallpaper,\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "writing",
+          "her",
+          [
+            "semi-autobiographical",
+            "semi autobiographical"
+          ],
+          "short",
+          "story,",
+          "\"The",
+          "Yellow",
+          "Wallpaper,\""
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "writing"
+          ],
+          [
+            "her"
+          ],
+          [
+            "semi-autobiographical",
+            "semi autobiographical"
+          ],
+          [
+            "short"
+          ],
+          [
+            "story,"
+          ],
+          [
+            "\"The"
+          ],
+          [
+            "Yellow"
+          ],
+          [
+            "Wallpaper,\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 221.4,
+        "timeEnd": 226.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68026/list"
+      },
+      {
+        "id": 68027,
+        "position": 55,
+        "content": "Charlotte Perkins Gilman drew from the distressing treatment she underwent for her so-called hysterical tendencies.",
+        "defaultInput": "Charlotte Perkins Gilman ",
+        "jsonContent": [
+          "Charlotte",
+          "Perkins",
+          "Gilman",
+          "drew",
+          "from",
+          "the",
+          "distressing",
+          "treatment",
+          "she",
+          "underwent",
+          "for",
+          "her",
+          [
+            "so-called",
+            "so called"
+          ],
+          "hysterical",
+          "tendencies."
+        ],
+        "solution": [
+          [
+            "Charlotte"
+          ],
+          [
+            "Perkins"
+          ],
+          [
+            "Gilman"
+          ],
+          [
+            "drew"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "distressing"
+          ],
+          [
+            "treatment"
+          ],
+          [
+            "she"
+          ],
+          [
+            "underwent"
+          ],
+          [
+            "for"
+          ],
+          [
+            "her"
+          ],
+          [
+            "so-called",
+            "so called"
+          ],
+          [
+            "hysterical"
+          ],
+          [
+            "tendencies."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 226.36,
+        "timeEnd": 233.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68027/list"
+      },
+      {
+        "id": 68028,
+        "position": 56,
+        "content": "The narrator, suffering from what would now likely be diagnosed as postpartum depression,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "narrator,",
+          "suffering",
+          "from",
+          "what",
+          "would",
+          "now",
+          "likely",
+          "be",
+          "diagnosed",
+          "as",
+          "postpartum",
+          "depression,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "narrator,"
+          ],
+          [
+            "suffering"
+          ],
+          [
+            "from"
+          ],
+          [
+            "what"
+          ],
+          [
+            "would"
+          ],
+          [
+            "now"
+          ],
+          [
+            "likely"
+          ],
+          [
+            "be"
+          ],
+          [
+            "diagnosed"
+          ],
+          [
+            "as"
+          ],
+          [
+            "postpartum"
+          ],
+          [
+            "depression,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 234.23,
+        "timeEnd": 239.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68028/list"
+      },
+      {
+        "id": 68029,
+        "position": 57,
+        "content": "describes being confined alone in an attic",
+        "defaultInput": "",
+        "jsonContent": [
+          "describes",
+          "being",
+          "confined",
+          "alone",
+          "in",
+          "an",
+          "attic"
+        ],
+        "solution": [
+          [
+            "describes"
+          ],
+          [
+            "being"
+          ],
+          [
+            "confined"
+          ],
+          [
+            "alone"
+          ],
+          [
+            "in"
+          ],
+          [
+            "an"
+          ],
+          [
+            "attic"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 239.57,
+        "timeEnd": 242.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68029/list"
+      },
+      {
+        "id": 68030,
+        "position": 58,
+        "content": "and being denied any intellectual activity, including reading or writing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "being",
+          "denied",
+          "any",
+          "intellectual",
+          "activity,",
+          "including",
+          "reading",
+          "or",
+          "writing."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "being"
+          ],
+          [
+            "denied"
+          ],
+          [
+            "any"
+          ],
+          [
+            "intellectual"
+          ],
+          [
+            "activity,"
+          ],
+          [
+            "including"
+          ],
+          [
+            "reading"
+          ],
+          [
+            "or"
+          ],
+          [
+            "writing."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 242.85,
+        "timeEnd": 248.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68030/list"
+      },
+      {
+        "id": 68031,
+        "position": 59,
+        "content": "Around this same time,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Around",
+          "this",
+          "same",
+          "time,"
+        ],
+        "solution": [
+          [
+            "Around"
+          ],
+          [
+            "this"
+          ],
+          [
+            "same"
+          ],
+          [
+            "time,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 248.75,
+        "timeEnd": 250.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68031/list"
+      },
+      {
+        "id": 68032,
+        "position": 60,
+        "content": "Sigmund Freud was rising to fame.",
+        "defaultInput": "Sigmund Freud ",
+        "jsonContent": [
+          "Sigmund",
+          "Freud",
+          "was",
+          "rising",
+          "to",
+          "fame."
+        ],
+        "solution": [
+          [
+            "Sigmund"
+          ],
+          [
+            "Freud"
+          ],
+          [
+            "was"
+          ],
+          [
+            "rising"
+          ],
+          [
+            "to"
+          ],
+          [
+            "fame."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 250.52,
+        "timeEnd": 253.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68032/list"
+      },
+      {
+        "id": 68033,
+        "position": 61,
+        "content": "He believed hysteria, like other nervous conditions,",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "believed",
+          "hysteria,",
+          "like",
+          "other",
+          "nervous",
+          "conditions,"
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "believed"
+          ],
+          [
+            "hysteria,"
+          ],
+          [
+            "like"
+          ],
+          [
+            "other"
+          ],
+          [
+            "nervous"
+          ],
+          [
+            "conditions,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 253.77,
+        "timeEnd": 257.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68033/list"
+      },
+      {
+        "id": 68034,
+        "position": 62,
+        "content": "was caused by repressed emotional trauma.",
+        "defaultInput": "",
+        "jsonContent": [
+          "was",
+          "caused",
+          "by",
+          "repressed",
+          "emotional",
+          "trauma."
+        ],
+        "solution": [
+          [
+            "was"
+          ],
+          [
+            "caused"
+          ],
+          [
+            "by"
+          ],
+          [
+            "repressed"
+          ],
+          [
+            "emotional"
+          ],
+          [
+            "trauma."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 257.15,
+        "timeEnd": 260.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68034/list"
+      },
+      {
+        "id": 68035,
+        "position": 63,
+        "content": "His treatment required drawing these memories out of the unconscious",
+        "defaultInput": "",
+        "jsonContent": [
+          "His",
+          "treatment",
+          "required",
+          "drawing",
+          "these",
+          "memories",
+          "out",
+          "of",
+          "the",
+          "unconscious"
+        ],
+        "solution": [
+          [
+            "His"
+          ],
+          [
+            "treatment"
+          ],
+          [
+            "required"
+          ],
+          [
+            "drawing"
+          ],
+          [
+            "these"
+          ],
+          [
+            "memories"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "unconscious"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 260.54,
+        "timeEnd": 264.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68035/list"
+      },
+      {
+        "id": 68036,
+        "position": 64,
+        "content": "so they could be acknowledged and addressed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "they",
+          "could",
+          "be",
+          "acknowledged",
+          "and",
+          "addressed."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "they"
+          ],
+          [
+            "could"
+          ],
+          [
+            "be"
+          ],
+          [
+            "acknowledged"
+          ],
+          [
+            "and"
+          ],
+          [
+            "addressed."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 264.55,
+        "timeEnd": 267.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68036/list"
+      },
+      {
+        "id": 68037,
+        "position": 65,
+        "content": "Freud also dismissed the idea that hysteria was unique to women.",
+        "defaultInput": "Freud ",
+        "jsonContent": [
+          "Freud",
+          "also",
+          "dismissed",
+          "the",
+          "idea",
+          "that",
+          "hysteria",
+          "was",
+          "unique",
+          "to",
+          "women."
+        ],
+        "solution": [
+          [
+            "Freud"
+          ],
+          [
+            "also"
+          ],
+          [
+            "dismissed"
+          ],
+          [
+            "the"
+          ],
+          [
+            "idea"
+          ],
+          [
+            "that"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "was"
+          ],
+          [
+            "unique"
+          ],
+          [
+            "to"
+          ],
+          [
+            "women."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 267.72,
+        "timeEnd": 271.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68037/list"
+      },
+      {
+        "id": 68038,
+        "position": 66,
+        "content": "Belief in \"male hysteria\" became prominent during and after the First World War,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Belief",
+          "in",
+          "\"male",
+          "hysteria\"",
+          "became",
+          "prominent",
+          "during",
+          "and",
+          "after",
+          "the",
+          [
+            "First",
+            "1st"
+          ],
+          "World",
+          "War,"
+        ],
+        "solution": [
+          [
+            "Belief"
+          ],
+          [
+            "in"
+          ],
+          [
+            "\"male"
+          ],
+          [
+            "hysteria\""
+          ],
+          [
+            "became"
+          ],
+          [
+            "prominent"
+          ],
+          [
+            "during"
+          ],
+          [
+            "and"
+          ],
+          [
+            "after"
+          ],
+          [
+            "the"
+          ],
+          [
+            "First",
+            "1st"
+          ],
+          [
+            "World"
+          ],
+          [
+            "War,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 272.22,
+        "timeEnd": 278.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68038/list"
+      },
+      {
+        "id": 68039,
+        "position": 67,
+        "content": "but was framed as the more masculine-sounding \"shell shock.\"",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "was",
+          "framed",
+          "as",
+          "the",
+          "more",
+          [
+            "masculine-sounding",
+            "masculine sounding"
+          ],
+          "\"shell",
+          "shock.\""
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "was"
+          ],
+          [
+            "framed"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "more"
+          ],
+          [
+            "masculine-sounding",
+            "masculine sounding"
+          ],
+          [
+            "\"shell"
+          ],
+          [
+            "shock.\""
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 278.12,
+        "timeEnd": 282.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68039/list"
+      },
+      {
+        "id": 68040,
+        "position": 68,
+        "content": "Over the 20th century,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Over",
+          "the",
+          [
+            "20th",
+            "twentieth"
+          ],
+          "century,"
+        ],
+        "solution": [
+          [
+            "Over"
+          ],
+          [
+            "the"
+          ],
+          [
+            "20th",
+            "twentieth"
+          ],
+          [
+            "century,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 282.89,
+        "timeEnd": 284.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68040/list"
+      },
+      {
+        "id": 68041,
+        "position": 69,
+        "content": "the term hysteria was slowly replaced by specific, less gendered diagnoses,",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "term",
+          "hysteria",
+          "was",
+          "slowly",
+          "replaced",
+          "by",
+          "specific,",
+          "less",
+          "gendered",
+          "diagnoses,"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "term"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "was"
+          ],
+          [
+            "slowly"
+          ],
+          [
+            "replaced"
+          ],
+          [
+            "by"
+          ],
+          [
+            "specific,"
+          ],
+          [
+            "less"
+          ],
+          [
+            "gendered"
+          ],
+          [
+            "diagnoses,"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 284.82,
+        "timeEnd": 291.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68041/list"
+      },
+      {
+        "id": 68042,
+        "position": 70,
+        "content": "including anxiety, depression, PTSD, and epilepsy.",
+        "defaultInput": "",
+        "jsonContent": [
+          "including",
+          "anxiety,",
+          "depression,",
+          "PTSD,",
+          "and",
+          "epilepsy."
+        ],
+        "solution": [
+          [
+            "including"
+          ],
+          [
+            "anxiety,"
+          ],
+          [
+            "depression,"
+          ],
+          [
+            "PTSD,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "epilepsy."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 291.05,
+        "timeEnd": 295.81,
+        "hints": [
+          "epilepsy"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68042/list"
+      },
+      {
+        "id": 68043,
+        "position": 71,
+        "content": "And hysteria was officially removed from the \"Diagnostic and Statistical Manual of Mental Disorders\" in 1980.",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "hysteria",
+          "was",
+          "officially",
+          "removed",
+          "from",
+          "the",
+          "\"Diagnostic",
+          "and",
+          "Statistical",
+          "Manual",
+          "of",
+          "Mental",
+          "Disorders\"",
+          "in",
+          "1980."
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "hysteria"
+          ],
+          [
+            "was"
+          ],
+          [
+            "officially"
+          ],
+          [
+            "removed"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "\"Diagnostic"
+          ],
+          [
+            "and"
+          ],
+          [
+            "Statistical"
+          ],
+          [
+            "Manual"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Mental"
+          ],
+          [
+            "Disorders\""
+          ],
+          [
+            "in"
+          ],
+          [
+            "1980."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 296.23,
+        "timeEnd": 303.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68043/list"
+      },
+      {
+        "id": 68044,
+        "position": 72,
+        "content": "Today, most scholars argue that the blanket disease hysteria",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today,",
+          "most",
+          "scholars",
+          "argue",
+          "that",
+          "the",
+          "blanket",
+          "disease",
+          "hysteria"
+        ],
+        "solution": [
+          [
+            "Today,"
+          ],
+          [
+            "most"
+          ],
+          [
+            "scholars"
+          ],
+          [
+            "argue"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "blanket"
+          ],
+          [
+            "disease"
+          ],
+          [
+            "hysteria"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 304.23,
+        "timeEnd": 308.58,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68044/list"
+      },
+      {
+        "id": 68045,
+        "position": 73,
+        "content": "was always a figment of doctors' imaginations.",
+        "defaultInput": "",
+        "jsonContent": [
+          "was",
+          "always",
+          "a",
+          "figment",
+          "of",
+          "doctors'",
+          "imaginations."
+        ],
+        "solution": [
+          [
+            "was"
+          ],
+          [
+            "always"
+          ],
+          [
+            "a"
+          ],
+          [
+            "figment"
+          ],
+          [
+            "of"
+          ],
+          [
+            "doctors'"
+          ],
+          [
+            "imaginations."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 308.58,
+        "timeEnd": 311.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68045/list"
+      },
+      {
+        "id": 68046,
+        "position": 74,
+        "content": "As outright medical sexism declined, so did its diagnosis.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "outright",
+          "medical",
+          "sexism",
+          "declined,",
+          "so",
+          "did",
+          "its",
+          "diagnosis."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "outright"
+          ],
+          [
+            "medical"
+          ],
+          [
+            "sexism"
+          ],
+          [
+            "declined,"
+          ],
+          [
+            "so"
+          ],
+          [
+            "did"
+          ],
+          [
+            "its"
+          ],
+          [
+            "diagnosis."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 311.76,
+        "timeEnd": 316.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68046/list"
+      },
+      {
+        "id": 68047,
+        "position": 75,
+        "content": "Nevertheless, its legacy reflects Western medicine's long, storied, and ongoing history",
+        "defaultInput": "",
+        "jsonContent": [
+          "Nevertheless,",
+          "its",
+          "legacy",
+          "reflects",
+          "Western",
+          "medicine's",
+          "long,",
+          "storied,",
+          "and",
+          "ongoing",
+          "history"
+        ],
+        "solution": [
+          [
+            "Nevertheless,"
+          ],
+          [
+            "its"
+          ],
+          [
+            "legacy"
+          ],
+          [
+            "reflects"
+          ],
+          [
+            "Western"
+          ],
+          [
+            "medicine's"
+          ],
+          [
+            "long,"
+          ],
+          [
+            "storied,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "ongoing"
+          ],
+          [
+            "history"
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 317.06,
+        "timeEnd": 323.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68047/list"
+      },
+      {
+        "id": 68048,
+        "position": 76,
+        "content": "of misattributing and trivializing women's pain.",
+        "defaultInput": "",
+        "jsonContent": [
+          "of",
+          "misattributing",
+          "and",
+          "trivializing",
+          "women's",
+          "pain."
+        ],
+        "solution": [
+          [
+            "of"
+          ],
+          [
+            "misattributing"
+          ],
+          [
+            "and"
+          ],
+          [
+            "trivializing"
+          ],
+          [
+            "women's"
+          ],
+          [
+            "pain."
+          ]
+        ],
+        "audioSrc": null,
+        "timeStart": 323.82,
+        "timeEnd": 327.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/68048/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "67973": {
+      "id": 2379577,
+      "text": "Bạn có bao giờ cảm thấy mệt mỏi?",
+      "author": "DeepSeekAI"
+    },
+    "67974": {
+      "id": 2379578,
+      "text": "Choáng ngợp?",
+      "author": "DeepSeekAI"
+    },
+    "67975": {
+      "id": 2379579,
+      "text": "Bồn chồn?",
+      "author": "DeepSeekAI"
+    },
+    "67976": {
+      "id": 2379580,
+      "text": "Chán nản?",
+      "author": "DeepSeekAI"
+    },
+    "67977": {
+      "id": 2379581,
+      "text": "Bạn có bị đau đầu, chóng mặt, chuột rút, khó thở không?",
+      "author": "DeepSeekAI"
+    },
+    "67978": {
+      "id": 2379582,
+      "text": "Từ năm 300 TCN đến đầu những năm 1900,",
+      "author": "DeepSeekAI"
+    },
+    "67979": {
+      "id": 2379583,
+      "text": "nếu bạn trả lời \"có\" với những câu hỏi này và có tử cung,",
+      "author": "DeepSeekAI"
+    },
+    "67980": {
+      "id": 2379584,
+      "text": "một bác sĩ châu Âu hoặc Mỹ có lẽ sẽ chẩn đoán bạn mắc chứng cuồng loạn.",
+      "author": "DeepSeekAI"
+    },
+    "67981": {
+      "id": 2379585,
+      "text": "Không, không phải cuồng loạn tập thể.",
+      "author": "DeepSeekAI"
+    },
+    "67982": {
+      "id": 2379586,
+      "text": "Mà là chứng cuồng loạn \"nữ tính\".",
+      "author": "DeepSeekAI"
+    },
+    "67983": {
+      "id": 2379587,
+      "text": "Thuật ngữ \"cuồng loạn\" được các bác sĩ, hầu hết là nam giới, sử dụng như một cách gọi chung",
+      "author": "DeepSeekAI"
+    },
+    "67984": {
+      "id": 2379588,
+      "text": "để mô tả hầu hết mọi tình trạng bệnh lý không giải thích được ở bệnh nhân nữ.",
+      "author": "DeepSeekAI"
+    },
+    "67985": {
+      "id": 2379589,
+      "text": "Theo một số cách hiểu,",
+      "author": "DeepSeekAI"
+    },
+    "67986": {
+      "id": 2379590,
+      "text": "Từ lâu, việc là phụ nữ đã bị coi là một \"bệnh lý\" gây ra đủ loại vấn đề.",
+      "author": "a user"
+    },
+    "67987": {
+      "id": 2379591,
+      "text": "Trong suốt chiều dài lịch sử,",
+      "author": "DeepSeekAI"
+    },
+    "67988": {
+      "id": 2379592,
+      "text": "chứng cuồng loạn được dùng như một dấu hiệu văn hóa",
+      "author": "DeepSeekAI"
+    },
+    "67989": {
+      "id": 2379593,
+      "text": "vì những điều mà những người có quyền lực cho là đáng khinh bỉ và khó hiểu",
+      "author": "a user"
+    },
+    "67990": {
+      "id": 2379594,
+      "text": "trong hành vi của phụ nữ thiếu quyền lực, hoặc cố gắng giành lấy nó.",
+      "author": "DeepSeekAI"
+    },
+    "67991": {
+      "id": 2379595,
+      "text": "Thuật ngữ \"chứng cuồng loạn\" bắt nguồn từ từ tiếng Hy Lạp có nghĩa là tử cung.",
+      "author": "a user"
+    },
+    "67992": {
+      "id": 2379596,
+      "text": "và lần đầu được sử dụng vào thế kỷ 4 TCN.",
+      "author": "DeepSeekAI"
+    },
+    "67993": {
+      "id": 2379597,
+      "text": "Dựa trên niềm tin từ Ai Cập cổ đại,",
+      "author": "DeepSeekAI"
+    },
+    "67994": {
+      "id": 2379598,
+      "text": "và không hề dựa trên cơ sở y học chặt chẽ,",
+      "author": "DeepSeekAI"
+    },
+    "67995": {
+      "id": 2379599,
+      "text": "người Hy Lạp coi chứng cuồng loạn là bệnh của tử cung,",
+      "author": "DeepSeekAI"
+    },
+    "67996": {
+      "id": 2379600,
+      "text": "cho rằng tử cung có thể bị lệch và di chuyển khắp cơ thể,",
+      "author": "DeepSeekAI"
+    },
+    "67997": {
+      "id": 2379601,
+      "text": "gây ra nhiều loại bệnh tật.",
+      "author": "DeepSeekAI"
+    },
+    "67998": {
+      "id": 2379685,
+      "text": "Họ tin rằng tử cung \"đi lang thang\" vì khao khát mang thai,",
+      "author": "DeepSeekAI"
+    },
+    "67999": {
+      "id": 2379686,
+      "text": "và vì lý do đó, phụ nữ độc thân là đối tượng dễ bị chẩn đoán mắc hysteria nhất.",
+      "author": "DeepSeekAI"
+    },
+    "68000": {
+      "id": 2379687,
+      "text": "Cách chữa trị thông thường là kết hôn ngay lập tức, mang thai,",
+      "author": "DeepSeekAI"
+    },
+    "68001": {
+      "id": 2379688,
+      "text": "hoặc sử dụng phương pháp xông hơi tử cung",
+      "author": "DeepSeekAI"
+    },
+    "68002": {
+      "id": 2379689,
+      "text": "để dụ cơ quan nổi loạn trở về vị trí.",
+      "author": "DeepSeekAI"
+    },
+    "68003": {
+      "id": 2379690,
+      "text": "Đến thế kỷ 2 CN,",
+      "author": "DeepSeekAI"
+    },
+    "68004": {
+      "id": 2379691,
+      "text": "các bác sĩ La Mã bác bỏ lý thuyết tử cung lang thang.",
+      "author": "DeepSeekAI"
+    },
+    "68005": {
+      "id": 2379692,
+      "text": "Nhưng họ vẫn xem tử cung là nguồn gốc của hysteria,",
+      "author": "DeepSeekAI"
+    },
+    "68006": {
+      "id": 2379693,
+      "text": "tin rằng, dù không có nhiều bằng chứng, nó tiết ra một chất tương tự tinh dịch,",
+      "author": "DeepSeekAI"
+    },
+    "68007": {
+      "id": 2379694,
+      "text": "nếu không được giải phóng, sẽ làm hỏng máu và kích thích dây thần kinh.",
+      "author": "DeepSeekAI"
+    },
+    "68008": {
+      "id": 2379695,
+      "text": "Kết quả là, các bà đỡ thường điều trị hysteria bằng cách kích thích thủ công để bệnh nhân nữ đạt cực khoái.",
+      "author": "DeepSeekAI"
+    },
+    "68009": {
+      "id": 2379696,
+      "text": "Vào cuối thời Trung Cổ, Cơ đốc giáo đã lan rộng khắp châu Âu,",
+      "author": "DeepSeekAI"
+    },
+    "68010": {
+      "id": 2379697,
+      "text": "và ảnh hưởng của nó cũng thấm sâu vào y học phương Tây.",
+      "author": "DeepSeekAI"
+    },
+    "68011": {
+      "id": 2379736,
+      "text": "Các bác sĩ bắt đầu cho rằng chứng cuồng loạn không phải là bệnh của tử cung,",
+      "author": "DeepSeekAI"
+    },
+    "68012": {
+      "id": 2379737,
+      "text": "mà là của linh hồn, và phản ánh ảnh hưởng của Satan.",
+      "author": "DeepSeekAI"
+    },
+    "68013": {
+      "id": 2379738,
+      "text": "Họ tiếp tục phớt lờ các triệu chứng và nỗi đau của phụ nữ,",
+      "author": "DeepSeekAI"
+    },
+    "68014": {
+      "id": 2379739,
+      "text": "giờ đây lại đổ lỗi một cách đầy định kiến cho ý chí yếu đuối và dễ sa ngã vốn có của họ.",
+      "author": "DeepSeekAI"
+    },
+    "68015": {
+      "id": 2677386,
+      "text": "Tình trạng này càng tồi tệ thêm trong suốt thế kỷ 16 và 17,",
+      "author": "ChatGPT4.1"
+    },
+    "68016": {
+      "id": 2677387,
+      "text": "khi phụ nữ, đặc biệt là những người không tuân thủ các kỳ vọng xã hội,",
+      "author": "ChatGPT4.1"
+    },
+    "68017": {
+      "id": 2677388,
+      "text": "có nguy cơ bị buộc tội phù thủy,",
+      "author": "ChatGPT4.1"
+    },
+    "68018": {
+      "id": 2677389,
+      "text": "và thường phải chịu hậu quả nặng nề.",
+      "author": "ChatGPT4.1"
+    },
+    "68019": {
+      "id": 2677390,
+      "text": "Ở châu Âu thời cuối Victoria và Bắc Mỹ,",
+      "author": "ChatGPT4.1"
+    },
+    "68020": {
+      "id": 2677391,
+      "text": "một số bác sĩ y khoa bắt đầu tranh luận rằng nguồn gốc thực sự của chứng hysteria không nằm ở thân thể hay linh hồn,",
+      "author": "ChatGPT4.1"
+    },
+    "68021": {
+      "id": 2677392,
+      "text": "mà là trong tâm trí.",
+      "author": "ChatGPT4.1"
+    },
+    "68022": {
+      "id": 2677393,
+      "text": "Phụ nữ tầng lớp trung lưu, đối mặt với áp lực mạnh mẽ về danh dự xã hội và các quy tắc ứng xử tình dục nghiêm ngặt,",
+      "author": "ChatGPT4.1"
+    },
+    "68023": {
+      "id": 2677394,
+      "text": "thường được giới thiệu tới “bác sĩ thần kinh”",
+      "author": "ChatGPT4.1"
+    },
+    "68024": {
+      "id": 2677395,
+      "text": "những người sẽ thực hiện các phương pháp trị liệu cách ly, nghỉ ngơi không có cơ sở",
+      "author": "ChatGPT4.1"
+    },
+    "68025": {
+      "id": 2677396,
+      "text": "để điều trị mọi căng thẳng cảm xúc và tâm lý.",
+      "author": "ChatGPT4.1"
+    },
+    "68026": {
+      "id": 2677397,
+      "text": "Khi viết truyện ngắn bán tự truyện “Bức tường giấy vàng,”",
+      "author": "ChatGPT4.1"
+    },
+    "68027": {
+      "id": 2677398,
+      "text": "Charlotte Perkins Gilman đã lấy cảm hứng từ trải nghiệm điều trị khó chịu mà bà từng trải qua vì xu hướng hysteria được cho là của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "68028": {
+      "id": 2677399,
+      "text": "Nhân vật kể chuyện, mắc phải chứng mà ngày nay có thể được chẩn đoán là trầm cảm sau sinh,",
+      "author": "ChatGPT4.1"
+    },
+    "68029": {
+      "id": 2677400,
+      "text": "mô tả việc bị nhốt một mình trên gác mái",
+      "author": "ChatGPT4.1"
+    },
+    "68030": {
+      "id": 2677401,
+      "text": "và bị cấm tham gia mọi hoạt động trí tuệ nào, kể cả đọc hay viết.",
+      "author": "ChatGPT4.1"
+    },
+    "68031": {
+      "id": 2677710,
+      "text": "Cũng trong khoảng thời gian này,",
+      "author": "ChatGPT4.1"
+    },
+    "68032": {
+      "id": 2677711,
+      "text": "Sigmund Freud bắt đầu trở nên nổi tiếng.",
+      "author": "ChatGPT4.1"
+    },
+    "68033": {
+      "id": 2677712,
+      "text": "Ông tin rằng cuồng loạn, cũng như các rối loạn thần kinh khác,",
+      "author": "ChatGPT4.1"
+    },
+    "68034": {
+      "id": 2677713,
+      "text": "được gây ra bởi những chấn thương cảm xúc bị kìm nén.",
+      "author": "ChatGPT4.1"
+    },
+    "68035": {
+      "id": 2677714,
+      "text": "Phương pháp điều trị của ông yêu cầu đưa những ký ức này ra khỏi tiềm thức",
+      "author": "ChatGPT4.1"
+    },
+    "68036": {
+      "id": 2677715,
+      "text": "để chúng có thể được nhận biết và xử lý.",
+      "author": "ChatGPT4.1"
+    },
+    "68037": {
+      "id": 2677716,
+      "text": "Freud cũng bác bỏ quan niệm rằng chỉ phụ nữ mới mắc chứng cuồng loạn.",
+      "author": "ChatGPT4.1"
+    },
+    "68038": {
+      "id": 2677717,
+      "text": "Niềm tin vào \"chứng cuồng loạn ở nam giới\" trở nên phổ biến trong và sau Thế chiến thứ nhất,",
+      "author": "ChatGPT4.1"
+    },
+    "68039": {
+      "id": 2677718,
+      "text": "nhưng lại được gọi bằng một thuật ngữ nghe nam tính hơn là \"sốc vỏ đạn.\"",
+      "author": "ChatGPT4.1"
+    },
+    "68040": {
+      "id": 2677719,
+      "text": "Trong suốt thế kỷ 20,",
+      "author": "ChatGPT4.1"
+    },
+    "68041": {
+      "id": 2677720,
+      "text": "thuật ngữ cuồng loạn dần được thay thế bằng các chẩn đoán cụ thể, ít mang tính phân biệt giới tính hơn,",
+      "author": "ChatGPT4.1"
+    },
+    "68042": {
+      "id": 2677721,
+      "text": "bao gồm lo âu, trầm cảm, rối loạn căng thẳng sau sang chấn, và động kinh.",
+      "author": "ChatGPT4.1"
+    },
+    "68043": {
+      "id": 2677722,
+      "text": "Và cuồng loạn đã chính thức bị loại khỏi \"Sổ tay chẩn đoán và thống kê các rối loạn tâm thần\" vào năm 1980.",
+      "author": "ChatGPT4.1"
+    },
+    "68044": {
+      "id": 2677723,
+      "text": "Ngày nay, hầu hết các học giả đều cho rằng căn bệnh tổng quát mang tên cuồng loạn",
+      "author": "ChatGPT4.1"
+    },
+    "68045": {
+      "id": 2677724,
+      "text": "luôn chỉ là sản phẩm tưởng tượng của các bác sĩ mà thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "68046": {
+      "id": 2677948,
+      "text": "Khi phân biệt đối xử giới tính trong y học dần suy giảm, việc chẩn đoán bệnh này cũng giảm theo.",
+      "author": "ChatGPT4.1"
+    },
+    "68047": {
+      "id": 2677949,
+      "text": "Tuy nhiên, di sản của nó phản ánh lịch sử lâu dài, phong phú và vẫn đang tiếp diễn",
+      "author": "ChatGPT4.1"
+    },
+    "68048": {
+      "id": 2677950,
+      "text": "của y học phương Tây trong việc đánh giá sai và xem nhẹ nỗi đau của phụ nữ.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

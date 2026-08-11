@@ -1,0 +1,572 @@
+{
+  "summary": {
+    "id": 1110,
+    "name": "Short Talk 33",
+    "subTitle": "Biannual Performance Review Summary",
+    "levelName": "B2",
+    "position": 145,
+    "totalChallenges": 9,
+    "groupId": 34,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1110",
+  "detail": {
+    "id": 1110,
+    "lessonName": "Short Talk 33",
+    "name": "Short Talk 33",
+    "position": 145,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/0-short-talk-33.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 53683,
+        "position": 1,
+        "content": "Hello ladies and gentlemen,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hello",
+          "ladies",
+          "and",
+          "gentlemen,"
+        ],
+        "solution": [
+          [
+            "Hello"
+          ],
+          [
+            "ladies"
+          ],
+          [
+            "and"
+          ],
+          [
+            "gentlemen,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 1.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53683/list"
+      },
+      {
+        "id": 53684,
+        "position": 2,
+        "content": "and welcome to our bi-yearly performance review.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "welcome",
+          "to",
+          "our",
+          [
+            "bi-yearly",
+            "bi yearly"
+          ],
+          "performance",
+          "review."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "welcome"
+          ],
+          [
+            "to"
+          ],
+          [
+            "our"
+          ],
+          [
+            "bi-yearly",
+            "bi yearly"
+          ],
+          [
+            "performance"
+          ],
+          [
+            "review."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/2.mp3",
+        "timeStart": 1.92,
+        "timeEnd": 5.27,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53684/list"
+      },
+      {
+        "id": 53685,
+        "position": 3,
+        "content": "As you all know, we have had some ups and downs the past six months.",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "you",
+          "all",
+          "know,",
+          [
+            "we have",
+            "we've"
+          ],
+          "had",
+          "some",
+          "ups",
+          "and",
+          "downs",
+          "the",
+          "past",
+          [
+            "six",
+            "6"
+          ],
+          "months."
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "you"
+          ],
+          [
+            "all"
+          ],
+          [
+            "know,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "had"
+          ],
+          [
+            "some"
+          ],
+          [
+            "ups"
+          ],
+          [
+            "and"
+          ],
+          [
+            "downs"
+          ],
+          [
+            "the"
+          ],
+          [
+            "past"
+          ],
+          [
+            "six",
+            "6"
+          ],
+          [
+            "months."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/3.mp3",
+        "timeStart": 5.27,
+        "timeEnd": 9.85,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53685/list"
+      },
+      {
+        "id": 53686,
+        "position": 4,
+        "content": "While we have been able to gain fourteen new clients,",
+        "defaultInput": "",
+        "jsonContent": [
+          "While",
+          [
+            "we have",
+            "we've"
+          ],
+          "been",
+          "able",
+          "to",
+          "gain",
+          [
+            "fourteen",
+            "14"
+          ],
+          "new",
+          "clients,"
+        ],
+        "solution": [
+          [
+            "While"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "been"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "gain"
+          ],
+          [
+            "fourteen",
+            "14"
+          ],
+          [
+            "new"
+          ],
+          [
+            "clients,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/4.mp3",
+        "timeStart": 10.02,
+        "timeEnd": 13.69,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53686/list"
+      },
+      {
+        "id": 53687,
+        "position": 5,
+        "content": "we have also received several complaints from current clients.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "we have",
+            "we've"
+          ],
+          "also",
+          "received",
+          "several",
+          "complaints",
+          "from",
+          "current",
+          "clients."
+        ],
+        "solution": [
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "also"
+          ],
+          [
+            "received"
+          ],
+          [
+            "several"
+          ],
+          [
+            "complaints"
+          ],
+          [
+            "from"
+          ],
+          [
+            "current"
+          ],
+          [
+            "clients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/5.mp3",
+        "timeStart": 13.69,
+        "timeEnd": 17.35,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53687/list"
+      },
+      {
+        "id": 53688,
+        "position": 6,
+        "content": "Overall, we have not hit our targets the way we were hoping,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Overall,",
+          [
+            "we have",
+            "we've"
+          ],
+          "not",
+          "hit",
+          "our",
+          "targets",
+          "the",
+          "way",
+          "we",
+          "were",
+          "hoping,"
+        ],
+        "solution": [
+          [
+            "Overall,"
+          ],
+          [
+            "we have",
+            "we've"
+          ],
+          [
+            "not"
+          ],
+          [
+            "hit"
+          ],
+          [
+            "our"
+          ],
+          [
+            "targets"
+          ],
+          [
+            "the"
+          ],
+          [
+            "way"
+          ],
+          [
+            "we"
+          ],
+          [
+            "were"
+          ],
+          [
+            "hoping,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/6.mp3",
+        "timeStart": 17.35,
+        "timeEnd": 21.78,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/53688/list"
+      },
+      {
+        "id": 53689,
+        "position": 7,
+        "content": "and it is time to step it up.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "it is",
+            "it's"
+          ],
+          "time",
+          "to",
+          "step",
+          "it",
+          "up."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "step"
+          ],
+          [
+            "it"
+          ],
+          [
+            "up."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/7.mp3",
+        "timeStart": 21.78,
+        "timeEnd": 23.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/53689/list"
+      },
+      {
+        "id": 53690,
+        "position": 8,
+        "content": "We will be setting up several personal development conferences in order to gain momentum,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We will",
+            "we'll"
+          ],
+          "be",
+          "setting",
+          "up",
+          "several",
+          "personal",
+          "development",
+          "conferences",
+          "in",
+          "order",
+          "to",
+          "gain",
+          "momentum,"
+        ],
+        "solution": [
+          [
+            "We will",
+            "we'll"
+          ],
+          [
+            "be"
+          ],
+          [
+            "setting"
+          ],
+          [
+            "up"
+          ],
+          [
+            "several"
+          ],
+          [
+            "personal"
+          ],
+          [
+            "development"
+          ],
+          [
+            "conferences"
+          ],
+          [
+            "in"
+          ],
+          [
+            "order"
+          ],
+          [
+            "to"
+          ],
+          [
+            "gain"
+          ],
+          [
+            "momentum,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/8.mp3",
+        "timeStart": 24.02,
+        "timeEnd": 29.67,
+        "hints": [],
+        "nbComments": 3,
+        "discussionUrl": "https://dailydictation.com/discussions/53690/list"
+      },
+      {
+        "id": 53691,
+        "position": 9,
+        "content": "and finish out the year strong.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "finish",
+          "out",
+          "the",
+          "year",
+          "strong."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "year"
+          ],
+          [
+            "strong."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/short-talk-33-2023-09-14-20-04-23/9.mp3",
+        "timeStart": 29.67,
+        "timeEnd": 31.93,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/53691/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "53687": {
+      "id": 897533,
+      "text": "chúng ta cũng đã nhận được một số khiếu nại từ các khách hàng hiện tại.",
+      "author": "a user"
+    },
+    "53683": {
+      "id": 2619409,
+      "text": "Xin chào quý ông và quý bà,",
+      "author": "ChatGPT4.1"
+    },
+    "53684": {
+      "id": 2619410,
+      "text": "và chào mừng các bạn đến với buổi đánh giá hiệu suất định kỳ hai lần một năm của chúng ta.",
+      "author": "ChatGPT4.1"
+    },
+    "53685": {
+      "id": 2619411,
+      "text": "Như các bạn đã biết, chúng ta đã trải qua nhiều thăng trầm trong sáu tháng vừa qua.",
+      "author": "ChatGPT4.1"
+    },
+    "53686": {
+      "id": 2619412,
+      "text": "Mặc dù chúng ta đã có được mười bốn khách hàng mới,",
+      "author": "ChatGPT4.1"
+    },
+    "53688": {
+      "id": 2619413,
+      "text": "Nhìn chung, chúng ta vẫn chưa đạt được các mục tiêu như kỳ vọng.",
+      "author": "ChatGPT4.1"
+    },
+    "53689": {
+      "id": 2619414,
+      "text": "và đã đến lúc chúng ta cần nỗ lực hơn nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "53690": {
+      "id": 2619415,
+      "text": "Chúng ta sẽ tổ chức một số hội thảo phát triển cá nhân nhằm tạo động lực,",
+      "author": "ChatGPT4.1"
+    },
+    "53691": {
+      "id": 2619416,
+      "text": "và kết thúc năm một cách vững mạnh.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

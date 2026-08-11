@@ -1,0 +1,1121 @@
+{
+  "summary": {
+    "id": 1143,
+    "name": "Conversation 55",
+    "subTitle": "Employee Evaluation Assistance",
+    "levelName": "B1",
+    "position": 177,
+    "totalChallenges": 18,
+    "groupId": 36,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1143",
+  "detail": {
+    "id": 1143,
+    "lessonName": "Conversation 55",
+    "name": "Conversation 55",
+    "position": 177,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/0-conversation-55.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 54123,
+        "position": 1,
+        "content": "Hey, are you busy?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "are",
+          "you",
+          "busy?"
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "busy?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/1.mp3",
+        "timeStart": 0.51,
+        "timeEnd": 2.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54123/list"
+      },
+      {
+        "id": 54124,
+        "position": 2,
+        "content": "I'm hoping you would be able to help me out finishing up the employee evaluation reports.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "hoping",
+          [
+            "you would",
+            "You'd"
+          ],
+          "be",
+          "able",
+          "to",
+          "help",
+          "me",
+          "out",
+          "finishing",
+          "up",
+          "the",
+          "employee",
+          "evaluation",
+          "reports."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "hoping"
+          ],
+          [
+            "you would",
+            "You'd"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "me"
+          ],
+          [
+            "out"
+          ],
+          [
+            "finishing"
+          ],
+          [
+            "up"
+          ],
+          [
+            "the"
+          ],
+          [
+            "employee"
+          ],
+          [
+            "evaluation"
+          ],
+          [
+            "reports."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/2.mp3",
+        "timeStart": 2.16,
+        "timeEnd": 7.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54124/list"
+      },
+      {
+        "id": 54125,
+        "position": 3,
+        "content": "I have to finish them by Friday,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "finish",
+          "them",
+          "by",
+          "Friday,"
+        ],
+        "solution": [
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "finish"
+          ],
+          [
+            "them"
+          ],
+          [
+            "by"
+          ],
+          [
+            "Friday,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/3.mp3",
+        "timeStart": 7.37,
+        "timeEnd": 9.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54125/list"
+      },
+      {
+        "id": 54126,
+        "position": 4,
+        "content": "and I'm worried I'm not going to get them done in time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "worried",
+          [
+            "I'm",
+            "I am"
+          ],
+          "not",
+          [
+            "going to",
+            "gonna"
+          ],
+          "get",
+          "them",
+          "done",
+          "in",
+          "time."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "worried"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "not"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "get"
+          ],
+          [
+            "them"
+          ],
+          [
+            "done"
+          ],
+          [
+            "in"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/4.mp3",
+        "timeStart": 9.41,
+        "timeEnd": 12.37,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/54126/list"
+      },
+      {
+        "id": 54127,
+        "position": 5,
+        "content": "I can help you out,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "help",
+          "you",
+          "out,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "out,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/5.mp3",
+        "timeStart": 13.14,
+        "timeEnd": 14.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54127/list"
+      },
+      {
+        "id": 54128,
+        "position": 6,
+        "content": "but first I have to get some lunch, I am starving.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "get",
+          "some",
+          "lunch,",
+          [
+            "I am",
+            "I'm"
+          ],
+          "starving."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "some"
+          ],
+          [
+            "lunch,"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "starving."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/6.mp3",
+        "timeStart": 14.53,
+        "timeEnd": 18.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54128/list"
+      },
+      {
+        "id": 54129,
+        "position": 7,
+        "content": "I will just be out for thirty minutes.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I will",
+            "I'll"
+          ],
+          "just",
+          "be",
+          "out",
+          "for",
+          [
+            "thirty",
+            "30"
+          ],
+          "minutes."
+        ],
+        "solution": [
+          [
+            "I will",
+            "I'll"
+          ],
+          [
+            "just"
+          ],
+          [
+            "be"
+          ],
+          [
+            "out"
+          ],
+          [
+            "for"
+          ],
+          [
+            "thirty",
+            "30"
+          ],
+          [
+            "minutes."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/7.mp3",
+        "timeStart": 18.27,
+        "timeEnd": 20.48,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54129/list"
+      },
+      {
+        "id": 54130,
+        "position": 8,
+        "content": "I also just want to double-check with the human resource director,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "also",
+          "just",
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "double-check",
+            "double check"
+          ],
+          "with",
+          "the",
+          "human",
+          "resource",
+          "director,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "also"
+          ],
+          [
+            "just"
+          ],
+          [
+            "want to",
+            "wanna"
+          ],
+          [
+            "double-check",
+            "double check"
+          ],
+          [
+            "with"
+          ],
+          [
+            "the"
+          ],
+          [
+            "human"
+          ],
+          [
+            "resource"
+          ],
+          [
+            "director,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/8.mp3",
+        "timeStart": 20.48,
+        "timeEnd": 24.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54130/list"
+      },
+      {
+        "id": 54131,
+        "position": 9,
+        "content": "as I am not allowed to see all sensitive information regarding employees.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          [
+            "I am",
+            "I'm"
+          ],
+          "not",
+          "allowed",
+          "to",
+          "see",
+          "all",
+          "sensitive",
+          "information",
+          "regarding",
+          "employees."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "I am",
+            "I'm"
+          ],
+          [
+            "not"
+          ],
+          [
+            "allowed"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "all"
+          ],
+          [
+            "sensitive"
+          ],
+          [
+            "information"
+          ],
+          [
+            "regarding"
+          ],
+          [
+            "employees."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/9.mp3",
+        "timeStart": 24.38,
+        "timeEnd": 29.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54131/list"
+      },
+      {
+        "id": 54132,
+        "position": 10,
+        "content": "I can send her an email now.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "can",
+          "send",
+          "her",
+          "an",
+          "email",
+          "now."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "can"
+          ],
+          [
+            "send"
+          ],
+          [
+            "her"
+          ],
+          [
+            "an"
+          ],
+          [
+            "email"
+          ],
+          [
+            "now."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/10.mp3",
+        "timeStart": 29.05,
+        "timeEnd": 31.14,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/54132/list"
+      },
+      {
+        "id": 54133,
+        "position": 11,
+        "content": "Sounds great.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Sounds",
+          "great."
+        ],
+        "solution": [
+          [
+            "Sounds"
+          ],
+          [
+            "great."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/11.mp3",
+        "timeStart": 32.3,
+        "timeEnd": 33.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54133/list"
+      },
+      {
+        "id": 54134,
+        "position": 12,
+        "content": "Will you let me know if you hear back from her during your lunch?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Will",
+          "you",
+          "let",
+          "me",
+          "know",
+          "if",
+          "you",
+          "hear",
+          "back",
+          "from",
+          "her",
+          "during",
+          "your",
+          "lunch?"
+        ],
+        "solution": [
+          [
+            "Will"
+          ],
+          [
+            "you"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "know"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "hear"
+          ],
+          [
+            "back"
+          ],
+          [
+            "from"
+          ],
+          [
+            "her"
+          ],
+          [
+            "during"
+          ],
+          [
+            "your"
+          ],
+          [
+            "lunch?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/12.mp3",
+        "timeStart": 33.55,
+        "timeEnd": 37.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54134/list"
+      },
+      {
+        "id": 54135,
+        "position": 13,
+        "content": "If she denies the request, I should be able to give her a call and explain the situation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "she",
+          "denies",
+          "the",
+          "request,",
+          "I",
+          "should",
+          "be",
+          "able",
+          "to",
+          "give",
+          "her",
+          "a",
+          "call",
+          "and",
+          "explain",
+          "the",
+          "situation."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "she"
+          ],
+          [
+            "denies"
+          ],
+          [
+            "the"
+          ],
+          [
+            "request,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "should"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "give"
+          ],
+          [
+            "her"
+          ],
+          [
+            "a"
+          ],
+          [
+            "call"
+          ],
+          [
+            "and"
+          ],
+          [
+            "explain"
+          ],
+          [
+            "the"
+          ],
+          [
+            "situation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/13.mp3",
+        "timeStart": 37.23,
+        "timeEnd": 42.38,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54135/list"
+      },
+      {
+        "id": 54136,
+        "position": 14,
+        "content": "It is about time you get the clearance anyway",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It is",
+            "it's"
+          ],
+          "about",
+          "time",
+          "you",
+          "get",
+          "the",
+          "clearance",
+          "anyway"
+        ],
+        "solution": [
+          [
+            "It is",
+            "it's"
+          ],
+          [
+            "about"
+          ],
+          [
+            "time"
+          ],
+          [
+            "you"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "clearance"
+          ],
+          [
+            "anyway"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/14.mp3",
+        "timeStart": 42.61,
+        "timeEnd": 45.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54136/list"
+      },
+      {
+        "id": 54137,
+        "position": 15,
+        "content": "since you've worked here for nearly five years!",
+        "defaultInput": "",
+        "jsonContent": [
+          "since",
+          [
+            "you've",
+            "You have"
+          ],
+          "worked",
+          "here",
+          "for",
+          "nearly",
+          [
+            "five",
+            "5"
+          ],
+          "years!"
+        ],
+        "solution": [
+          [
+            "since"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "worked"
+          ],
+          [
+            "here"
+          ],
+          [
+            "for"
+          ],
+          [
+            "nearly"
+          ],
+          [
+            "five",
+            "5"
+          ],
+          [
+            "years!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/15.mp3",
+        "timeStart": 45.22,
+        "timeEnd": 47.94,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54137/list"
+      },
+      {
+        "id": 54138,
+        "position": 16,
+        "content": "I agree. We will see what she says.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "agree.",
+          [
+            "We will",
+            "we'll"
+          ],
+          "see",
+          "what",
+          "she",
+          "says."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "agree."
+          ],
+          [
+            "We will",
+            "we'll"
+          ],
+          [
+            "see"
+          ],
+          [
+            "what"
+          ],
+          [
+            "she"
+          ],
+          [
+            "says."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/16.mp3",
+        "timeStart": 49.15,
+        "timeEnd": 51.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54138/list"
+      },
+      {
+        "id": 54139,
+        "position": 17,
+        "content": "I look forward to helping.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "look",
+          "forward",
+          "to",
+          "helping."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "look"
+          ],
+          [
+            "forward"
+          ],
+          [
+            "to"
+          ],
+          [
+            "helping."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/17.mp3",
+        "timeStart": 51.99,
+        "timeEnd": 53.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/54139/list"
+      },
+      {
+        "id": 54140,
+        "position": 18,
+        "content": "Do you want me to pick you up anything from the cafe?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Do",
+          "you",
+          "want",
+          "me",
+          "to",
+          "pick",
+          "you",
+          "up",
+          "anything",
+          "from",
+          "the",
+          [
+            "cafe?",
+            "café"
+          ]
+        ],
+        "solution": [
+          [
+            "Do"
+          ],
+          [
+            "you"
+          ],
+          [
+            "want"
+          ],
+          [
+            "me"
+          ],
+          [
+            "to"
+          ],
+          [
+            "pick"
+          ],
+          [
+            "you"
+          ],
+          [
+            "up"
+          ],
+          [
+            "anything"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "cafe?",
+            "café"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-55-2023-09-19-17-11-48/18.mp3",
+        "timeStart": 53.69,
+        "timeEnd": 56.79,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/54140/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "54127": {
+      "id": 914885,
+      "text": "Tôi có thể giúp bạn,",
+      "author": "a user"
+    },
+    "54133": {
+      "id": 914894,
+      "text": "nghe thật tuyệt vời.",
+      "author": "a user"
+    },
+    "54136": {
+      "id": 914899,
+      "text": "Dù sao cũng đã đến lúc bạn được cấp phép",
+      "author": "a user"
+    },
+    "54138": {
+      "id": 914901,
+      "text": "Tôi đồng ý. Chúng ta sẽ xem cô ấy nói gì.",
+      "author": "a user"
+    },
+    "54123": {
+      "id": 2605469,
+      "text": "Này, bạn có bận không?",
+      "author": "ChatGPT4.1"
+    },
+    "54124": {
+      "id": 2605470,
+      "text": "Tôi hy vọng bạn có thể giúp tôi hoàn thành các báo cáo đánh giá nhân viên.",
+      "author": "ChatGPT4.1"
+    },
+    "54125": {
+      "id": 2605471,
+      "text": "Tôi phải hoàn thành chúng trước thứ Sáu,",
+      "author": "ChatGPT4.1"
+    },
+    "54126": {
+      "id": 2605472,
+      "text": "và tôi lo rằng mình sẽ không làm kịp.",
+      "author": "ChatGPT4.1"
+    },
+    "54128": {
+      "id": 2605473,
+      "text": "nhưng trước tiên tôi phải đi ăn trưa, tôi đang đói lắm.",
+      "author": "ChatGPT4.1"
+    },
+    "54129": {
+      "id": 2605474,
+      "text": "Tôi sẽ chỉ ra ngoài khoảng ba mươi phút thôi.",
+      "author": "ChatGPT4.1"
+    },
+    "54130": {
+      "id": 2605475,
+      "text": "Tôi cũng muốn kiểm tra lại với giám đốc nhân sự,",
+      "author": "ChatGPT4.1"
+    },
+    "54131": {
+      "id": 2605476,
+      "text": "vì tôi không được phép xem tất cả thông tin nhạy cảm liên quan đến nhân viên.",
+      "author": "ChatGPT4.1"
+    },
+    "54132": {
+      "id": 2605477,
+      "text": "Tôi có thể gửi email cho cô ấy ngay bây giờ.",
+      "author": "ChatGPT4.1"
+    },
+    "54134": {
+      "id": 2605478,
+      "text": "Bạn sẽ cho tôi biết nếu nhận được phản hồi từ cô ấy trong lúc đi ăn trưa chứ?",
+      "author": "ChatGPT4.1"
+    },
+    "54135": {
+      "id": 2605479,
+      "text": "Nếu cô ấy từ chối yêu cầu, tôi có thể gọi cho cô ấy và giải thích tình hình.",
+      "author": "ChatGPT4.1"
+    },
+    "54137": {
+      "id": 2605480,
+      "text": "vì bạn đã làm việc ở đây gần năm năm rồi!",
+      "author": "ChatGPT4.1"
+    },
+    "54139": {
+      "id": 2605481,
+      "text": "Tôi mong được giúp đỡ.",
+      "author": "ChatGPT4.1"
+    },
+    "54140": {
+      "id": 2605482,
+      "text": "Bạn có muốn tôi mua gì cho bạn ở quán cà phê không?",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

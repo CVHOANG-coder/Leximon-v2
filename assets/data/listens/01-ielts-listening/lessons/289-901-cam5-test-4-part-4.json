@@ -1,0 +1,4325 @@
+{
+  "summary": {
+    "id": 901,
+    "name": "Cam5 - Test 4 - Part 4",
+    "subTitle": "Library Introduction and Resources",
+    "levelName": "B2",
+    "position": 289,
+    "totalChallenges": 64,
+    "groupId": 68,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/901",
+  "detail": {
+    "id": 901,
+    "lessonName": "Cam5 - Test 4 - Part 4",
+    "name": "Cam5 - Test 4 - Part 4",
+    "position": 289,
+    "levelName": "B2",
+    "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/0-ielts-cambridge-5-test-4-part-4.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 47161,
+        "position": 1,
+        "content": "Okay, are you all settled?",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "are",
+          "you",
+          "all",
+          "settled?"
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "all"
+          ],
+          [
+            "settled?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/1.mp3",
+        "timeStart": 0.36,
+        "timeEnd": 2.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47161/list"
+      },
+      {
+        "id": 47162,
+        "position": 2,
+        "content": "Well, first of all, welcome to Cardiff University.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          [
+            "first",
+            "1st"
+          ],
+          "of",
+          "all,",
+          "welcome",
+          "to",
+          "Cardiff",
+          "University."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "of"
+          ],
+          [
+            "all,"
+          ],
+          [
+            "welcome"
+          ],
+          [
+            "to"
+          ],
+          [
+            "Cardiff"
+          ],
+          [
+            "University."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/2.mp3",
+        "timeStart": 3.06,
+        "timeEnd": 6.25,
+        "hints": [
+          "Cardiff"
+        ],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47162/list"
+      },
+      {
+        "id": 47163,
+        "position": 3,
+        "content": "I'm here to explain what we can offer you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "here",
+          "to",
+          "explain",
+          "what",
+          "we",
+          "can",
+          "offer",
+          "you."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "here"
+          ],
+          [
+            "to"
+          ],
+          [
+            "explain"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/3.mp3",
+        "timeStart": 6.25,
+        "timeEnd": 9.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47163/list"
+      },
+      {
+        "id": 47164,
+        "position": 4,
+        "content": "Now, as a new student at the university,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now,",
+          "as",
+          "a",
+          "new",
+          "student",
+          "at",
+          "the",
+          "university,"
+        ],
+        "solution": [
+          [
+            "Now,"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "new"
+          ],
+          [
+            "student"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "university,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/4.mp3",
+        "timeStart": 9.78,
+        "timeEnd": 12.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47164/list"
+      },
+      {
+        "id": 47165,
+        "position": 5,
+        "content": "you will probably need some sort of guidance to help you to use the library effectively",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "you will",
+            "you'll"
+          ],
+          "probably",
+          "need",
+          "some",
+          "sort",
+          "of",
+          "guidance",
+          "to",
+          "help",
+          "you",
+          "to",
+          "use",
+          "the",
+          "library",
+          "effectively"
+        ],
+        "solution": [
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "probably"
+          ],
+          [
+            "need"
+          ],
+          [
+            "some"
+          ],
+          [
+            "sort"
+          ],
+          [
+            "of"
+          ],
+          [
+            "guidance"
+          ],
+          [
+            "to"
+          ],
+          [
+            "help"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "effectively"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/5.mp3",
+        "timeStart": 12.04,
+        "timeEnd": 16.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47165/list"
+      },
+      {
+        "id": 47166,
+        "position": 6,
+        "content": "to study and research.",
+        "defaultInput": "",
+        "jsonContent": [
+          "to",
+          "study",
+          "and",
+          "research."
+        ],
+        "solution": [
+          [
+            "to"
+          ],
+          [
+            "study"
+          ],
+          [
+            "and"
+          ],
+          [
+            "research."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/6.mp3",
+        "timeStart": 16.83,
+        "timeEnd": 18.67,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47166/list"
+      },
+      {
+        "id": 47167,
+        "position": 7,
+        "content": "Some of you have asked about a guided tour",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "of",
+          [
+            "you have",
+            "you've"
+          ],
+          "asked",
+          "about",
+          "a",
+          "guided",
+          "tour"
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "asked"
+          ],
+          [
+            "about"
+          ],
+          [
+            "a"
+          ],
+          [
+            "guided"
+          ],
+          [
+            "tour"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/7.mp3",
+        "timeStart": 18.99,
+        "timeEnd": 21.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47167/list"
+      },
+      {
+        "id": 47168,
+        "position": 8,
+        "content": "but we find this rather muddles people.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "find",
+          "this",
+          "rather",
+          "muddles",
+          "people."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "find"
+          ],
+          [
+            "this"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "muddles"
+          ],
+          [
+            "people."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/8.mp3",
+        "timeStart": 21.61,
+        "timeEnd": 24.35,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47168/list"
+      },
+      {
+        "id": 47169,
+        "position": 9,
+        "content": "So, in this first week,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "in",
+          "this",
+          [
+            "first",
+            "1st"
+          ],
+          "week,"
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "this"
+          ],
+          [
+            "first",
+            "1st"
+          ],
+          [
+            "week,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/9.mp3",
+        "timeStart": 24.57,
+        "timeEnd": 26.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47169/list"
+      },
+      {
+        "id": 47170,
+        "position": 10,
+        "content": "we run a series of talks which focus on different aspects of the library and its resources.",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "run",
+          "a",
+          "series",
+          "of",
+          "talks",
+          "which",
+          "focus",
+          "on",
+          "different",
+          "aspects",
+          "of",
+          "the",
+          "library",
+          "and",
+          "its",
+          "resources."
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "run"
+          ],
+          [
+            "a"
+          ],
+          [
+            "series"
+          ],
+          [
+            "of"
+          ],
+          [
+            "talks"
+          ],
+          [
+            "which"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "on"
+          ],
+          [
+            "different"
+          ],
+          [
+            "aspects"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "and"
+          ],
+          [
+            "its"
+          ],
+          [
+            "resources."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/10.mp3",
+        "timeStart": 26.24,
+        "timeEnd": 31.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47170/list"
+      },
+      {
+        "id": 47171,
+        "position": 11,
+        "content": "You'll also find that to get the most out of the library,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You'll",
+            "you will"
+          ],
+          "also",
+          "find",
+          "that",
+          "to",
+          "get",
+          "the",
+          "most",
+          "out",
+          "of",
+          "the",
+          "library,"
+        ],
+        "solution": [
+          [
+            "You'll",
+            "you will"
+          ],
+          [
+            "also"
+          ],
+          [
+            "find"
+          ],
+          [
+            "that"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "the"
+          ],
+          [
+            "most"
+          ],
+          [
+            "out"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/11.mp3",
+        "timeStart": 31.76,
+        "timeEnd": 34.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47171/list"
+      },
+      {
+        "id": 47172,
+        "position": 12,
+        "content": "you really do need to be computer literate",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "really",
+          "do",
+          "need",
+          "to",
+          "be",
+          "computer",
+          "literate"
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "really"
+          ],
+          [
+            "do"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "computer"
+          ],
+          [
+            "literate"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/12.mp3",
+        "timeStart": 34.66,
+        "timeEnd": 37.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47172/list"
+      },
+      {
+        "id": 47173,
+        "position": 13,
+        "content": "and so, all this term we run small classes",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "so,",
+          "all",
+          "this",
+          "term",
+          "we",
+          "run",
+          "small",
+          "classes"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "so,"
+          ],
+          [
+            "all"
+          ],
+          [
+            "this"
+          ],
+          [
+            "term"
+          ],
+          [
+            "we"
+          ],
+          [
+            "run"
+          ],
+          [
+            "small"
+          ],
+          [
+            "classes"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/13.mp3",
+        "timeStart": 37.56,
+        "timeEnd": 40.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47173/list"
+      },
+      {
+        "id": 47174,
+        "position": 14,
+        "content": "which will bring you up to speed on how to access the computer-loaded information.",
+        "defaultInput": "",
+        "jsonContent": [
+          "which",
+          "will",
+          "bring",
+          "you",
+          "up",
+          "to",
+          "speed",
+          "on",
+          "how",
+          "to",
+          "access",
+          "the",
+          [
+            "computer-loaded",
+            "computer loaded"
+          ],
+          "information."
+        ],
+        "solution": [
+          [
+            "which"
+          ],
+          [
+            "will"
+          ],
+          [
+            "bring"
+          ],
+          [
+            "you"
+          ],
+          [
+            "up"
+          ],
+          [
+            "to"
+          ],
+          [
+            "speed"
+          ],
+          [
+            "on"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "access"
+          ],
+          [
+            "the"
+          ],
+          [
+            "computer-loaded",
+            "computer loaded"
+          ],
+          [
+            "information."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/14.mp3",
+        "timeStart": 40.69,
+        "timeEnd": 45.47,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47174/list"
+      },
+      {
+        "id": 47175,
+        "position": 15,
+        "content": "Okay, now let me give you an outline of what's available to you.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          "now",
+          "let",
+          "me",
+          "give",
+          "you",
+          "an",
+          "outline",
+          "of",
+          [
+            "what's",
+            "what is"
+          ],
+          "available",
+          "to",
+          "you."
+        ],
+        "solution": [
+          [
+            "Okay,",
+            "ok"
+          ],
+          [
+            "now"
+          ],
+          [
+            "let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "give"
+          ],
+          [
+            "you"
+          ],
+          [
+            "an"
+          ],
+          [
+            "outline"
+          ],
+          [
+            "of"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "available"
+          ],
+          [
+            "to"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/15.mp3",
+        "timeStart": 46.02,
+        "timeEnd": 50.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47175/list"
+      },
+      {
+        "id": 47176,
+        "position": 16,
+        "content": "You'll find that the computers are increasingly used as a research tool.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You'll",
+            "you will"
+          ],
+          "find",
+          "that",
+          "the",
+          "computers",
+          "are",
+          "increasingly",
+          "used",
+          "as",
+          "a",
+          "research",
+          "tool."
+        ],
+        "solution": [
+          [
+            "You'll",
+            "you will"
+          ],
+          [
+            "find"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "computers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "increasingly"
+          ],
+          [
+            "used"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "research"
+          ],
+          [
+            "tool."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/16.mp3",
+        "timeStart": 50.47,
+        "timeEnd": 54.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47176/list"
+      },
+      {
+        "id": 47177,
+        "position": 17,
+        "content": "Many students do most of their research on the internet",
+        "defaultInput": "",
+        "jsonContent": [
+          "Many",
+          "students",
+          "do",
+          "most",
+          "of",
+          "their",
+          "research",
+          "on",
+          "the",
+          "internet"
+        ],
+        "solution": [
+          [
+            "Many"
+          ],
+          [
+            "students"
+          ],
+          [
+            "do"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "research"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "internet"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/17.mp3",
+        "timeStart": 54.6,
+        "timeEnd": 57.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47177/list"
+      },
+      {
+        "id": 47178,
+        "position": 18,
+        "content": "and the library computers are permanently online.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "the",
+          "library",
+          "computers",
+          "are",
+          "permanently",
+          "online."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "computers"
+          ],
+          [
+            "are"
+          ],
+          [
+            "permanently"
+          ],
+          [
+            "online."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/18.mp3",
+        "timeStart": 57.71,
+        "timeEnd": 60.7,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47178/list"
+      },
+      {
+        "id": 47179,
+        "position": 19,
+        "content": "Having found what you need, you'll find you can readily save texts on your personal computer space to print off when you need.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Having",
+          "found",
+          "what",
+          "you",
+          "need,",
+          [
+            "you'll",
+            "you will"
+          ],
+          "find",
+          "you",
+          "can",
+          "readily",
+          "save",
+          "texts",
+          "on",
+          "your",
+          "personal",
+          "computer",
+          "space",
+          "to",
+          "print",
+          "off",
+          "when",
+          "you",
+          "need."
+        ],
+        "solution": [
+          [
+            "Having"
+          ],
+          [
+            "found"
+          ],
+          [
+            "what"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need,"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "find"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "readily"
+          ],
+          [
+            "save"
+          ],
+          [
+            "texts"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "personal"
+          ],
+          [
+            "computer"
+          ],
+          [
+            "space"
+          ],
+          [
+            "to"
+          ],
+          [
+            "print"
+          ],
+          [
+            "off"
+          ],
+          [
+            "when"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/19.mp3",
+        "timeStart": 61.04,
+        "timeEnd": 67.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47179/list"
+      },
+      {
+        "id": 47180,
+        "position": 20,
+        "content": "You might think that it is the fastest way to get information but the links can be slow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "You",
+          "might",
+          "think",
+          "that",
+          [
+            "it is",
+            "it's"
+          ],
+          "the",
+          "fastest",
+          "way",
+          "to",
+          "get",
+          "information",
+          "but",
+          "the",
+          "links",
+          "can",
+          "be",
+          "slow."
+        ],
+        "solution": [
+          [
+            "You"
+          ],
+          [
+            "might"
+          ],
+          [
+            "think"
+          ],
+          [
+            "that"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "the"
+          ],
+          [
+            "fastest"
+          ],
+          [
+            "way"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "information"
+          ],
+          [
+            "but"
+          ],
+          [
+            "the"
+          ],
+          [
+            "links"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "slow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/20.mp3",
+        "timeStart": 67.88,
+        "timeEnd": 73.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47180/list"
+      },
+      {
+        "id": 47181,
+        "position": 21,
+        "content": "Clearly, you can find lots on there but much of it is useless information",
+        "defaultInput": "",
+        "jsonContent": [
+          "Clearly,",
+          "you",
+          "can",
+          "find",
+          "lots",
+          "on",
+          "there",
+          "but",
+          "much",
+          "of",
+          [
+            "it is",
+            "it's"
+          ],
+          "useless",
+          "information"
+        ],
+        "solution": [
+          [
+            "Clearly,"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "find"
+          ],
+          [
+            "lots"
+          ],
+          [
+            "on"
+          ],
+          [
+            "there"
+          ],
+          [
+            "but"
+          ],
+          [
+            "much"
+          ],
+          [
+            "of"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "useless"
+          ],
+          [
+            "information"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/21.mp3",
+        "timeStart": 73.52,
+        "timeEnd": 77.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47181/list"
+      },
+      {
+        "id": 47182,
+        "position": 22,
+        "content": "as it is from highly debatable sources - so be critical.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          [
+            "it is",
+            "it's"
+          ],
+          "from",
+          "highly",
+          "debatable",
+          "sources",
+          "-",
+          "so",
+          "be",
+          "critical."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "from"
+          ],
+          [
+            "highly"
+          ],
+          [
+            "debatable"
+          ],
+          [
+            "sources"
+          ],
+          [
+            "-"
+          ],
+          [
+            "so"
+          ],
+          [
+            "be"
+          ],
+          [
+            "critical."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/22.mp3",
+        "timeStart": 77.81,
+        "timeEnd": 81.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47182/list"
+      },
+      {
+        "id": 47183,
+        "position": 23,
+        "content": "You'll also find that the library has loaded several CD-ROMS onto the computers from specialist reference sources",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "You'll",
+            "you will"
+          ],
+          "also",
+          "find",
+          "that",
+          "the",
+          "library",
+          "has",
+          "loaded",
+          "several",
+          [
+            "CD-ROMS",
+            "CD ROMS"
+          ],
+          "onto",
+          "the",
+          "computers",
+          "from",
+          "specialist",
+          "reference",
+          "sources"
+        ],
+        "solution": [
+          [
+            "You'll",
+            "you will"
+          ],
+          [
+            "also"
+          ],
+          [
+            "find"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "has"
+          ],
+          [
+            "loaded"
+          ],
+          [
+            "several"
+          ],
+          [
+            "CD-ROMS",
+            "CD ROMS"
+          ],
+          [
+            "onto"
+          ],
+          [
+            "the"
+          ],
+          [
+            "computers"
+          ],
+          [
+            "from"
+          ],
+          [
+            "specialist"
+          ],
+          [
+            "reference"
+          ],
+          [
+            "sources"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/23.mp3",
+        "timeStart": 82.25,
+        "timeEnd": 88.61,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47183/list"
+      },
+      {
+        "id": 47184,
+        "position": 24,
+        "content": "such as the MLA.",
+        "defaultInput": "",
+        "jsonContent": [
+          "such",
+          "as",
+          "the",
+          "MLA."
+        ],
+        "solution": [
+          [
+            "such"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "MLA."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/24.mp3",
+        "timeStart": 88.61,
+        "timeEnd": 90.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47184/list"
+      },
+      {
+        "id": 47185,
+        "position": 25,
+        "content": "It means we can expand what we offer you at very little extra cost",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "means",
+          "we",
+          "can",
+          "expand",
+          "what",
+          "we",
+          "offer",
+          "you",
+          "at",
+          "very",
+          "little",
+          "extra",
+          "cost"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "means"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "expand"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "you"
+          ],
+          [
+            "at"
+          ],
+          [
+            "very"
+          ],
+          [
+            "little"
+          ],
+          [
+            "extra"
+          ],
+          [
+            "cost"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/25.mp3",
+        "timeStart": 90.79,
+        "timeEnd": 95.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47185/list"
+      },
+      {
+        "id": 47186,
+        "position": 26,
+        "content": "and saves us having to invest in more and more books.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "saves",
+          "us",
+          "having",
+          "to",
+          "invest",
+          "in",
+          "more",
+          "and",
+          "more",
+          "books."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "saves"
+          ],
+          [
+            "us"
+          ],
+          [
+            "having"
+          ],
+          [
+            "to"
+          ],
+          [
+            "invest"
+          ],
+          [
+            "in"
+          ],
+          [
+            "more"
+          ],
+          [
+            "and"
+          ],
+          [
+            "more"
+          ],
+          [
+            "books."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/26.mp3",
+        "timeStart": 95.22,
+        "timeEnd": 98.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47186/list"
+      },
+      {
+        "id": 47187,
+        "position": 27,
+        "content": "The CD-ROMS contain exactly the same information as the reference books",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          [
+            "CD-ROMS",
+            "CD ROMS"
+          ],
+          "contain",
+          "exactly",
+          "the",
+          "same",
+          "information",
+          "as",
+          "the",
+          "reference",
+          "books"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "CD-ROMS",
+            "CD ROMS"
+          ],
+          [
+            "contain"
+          ],
+          [
+            "exactly"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "information"
+          ],
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "reference"
+          ],
+          [
+            "books"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/27.mp3",
+        "timeStart": 98.56,
+        "timeEnd": 102.39,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47187/list"
+      },
+      {
+        "id": 47188,
+        "position": 28,
+        "content": "as the two are updated together.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "the",
+          [
+            "two",
+            "2"
+          ],
+          "are",
+          "updated",
+          "together."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "the"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "are"
+          ],
+          [
+            "updated"
+          ],
+          [
+            "together."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/28.mp3",
+        "timeStart": 102.39,
+        "timeEnd": 104.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47188/list"
+      },
+      {
+        "id": 47189,
+        "position": 29,
+        "content": "Now most of you will need to refer to journal articles in your work",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "most",
+          "of",
+          [
+            "you will",
+            "you'll"
+          ],
+          "need",
+          "to",
+          "refer",
+          "to",
+          "journal",
+          "articles",
+          "in",
+          "your",
+          "work"
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "refer"
+          ],
+          [
+            "to"
+          ],
+          [
+            "journal"
+          ],
+          [
+            "articles"
+          ],
+          [
+            "in"
+          ],
+          [
+            "your"
+          ],
+          [
+            "work"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/29.mp3",
+        "timeStart": 105.17,
+        "timeEnd": 108.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47189/list"
+      },
+      {
+        "id": 47190,
+        "position": 30,
+        "content": "and you'll find you can also access these online",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "you'll",
+            "you will"
+          ],
+          "find",
+          "you",
+          "can",
+          "also",
+          "access",
+          "these",
+          "online"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "you'll",
+            "you will"
+          ],
+          [
+            "find"
+          ],
+          [
+            "you"
+          ],
+          [
+            "can"
+          ],
+          [
+            "also"
+          ],
+          [
+            "access"
+          ],
+          [
+            "these"
+          ],
+          [
+            "online"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/30.mp3",
+        "timeStart": 108.68,
+        "timeEnd": 111.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47190/list"
+      },
+      {
+        "id": 47191,
+        "position": 31,
+        "content": "and we encourage you to do so.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "we",
+          "encourage",
+          "you",
+          "to",
+          "do",
+          "so."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we"
+          ],
+          [
+            "encourage"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "do"
+          ],
+          [
+            "so."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/31.mp3",
+        "timeStart": 111.88,
+        "timeEnd": 114,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47191/list"
+      },
+      {
+        "id": 47192,
+        "position": 32,
+        "content": "Clearly some of you will find the printed version more accessible as it sits on the shelves",
+        "defaultInput": "",
+        "jsonContent": [
+          "Clearly",
+          "some",
+          "of",
+          [
+            "you will",
+            "you'll"
+          ],
+          "find",
+          "the",
+          "printed",
+          "version",
+          "more",
+          "accessible",
+          "as",
+          "it",
+          "sits",
+          "on",
+          "the",
+          "shelves"
+        ],
+        "solution": [
+          [
+            "Clearly"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "find"
+          ],
+          [
+            "the"
+          ],
+          [
+            "printed"
+          ],
+          [
+            "version"
+          ],
+          [
+            "more"
+          ],
+          [
+            "accessible"
+          ],
+          [
+            "as"
+          ],
+          [
+            "it"
+          ],
+          [
+            "sits"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shelves"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/32.mp3",
+        "timeStart": 114.36,
+        "timeEnd": 119.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47192/list"
+      },
+      {
+        "id": 47193,
+        "position": 33,
+        "content": "but I'm afraid the intention is to phase these out eventually.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "I'm",
+            "I am"
+          ],
+          "afraid",
+          "the",
+          "intention",
+          "is",
+          "to",
+          "phase",
+          "these",
+          "out",
+          "eventually."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "afraid"
+          ],
+          [
+            "the"
+          ],
+          [
+            "intention"
+          ],
+          [
+            "is"
+          ],
+          [
+            "to"
+          ],
+          [
+            "phase"
+          ],
+          [
+            "these"
+          ],
+          [
+            "out"
+          ],
+          [
+            "eventually."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/33.mp3",
+        "timeStart": 119.08,
+        "timeEnd": 123.04,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47193/list"
+      },
+      {
+        "id": 47194,
+        "position": 34,
+        "content": "However, you will still be able to print off a version of the text rather than photocopying the journal pages.",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          [
+            "you will",
+            "you'll"
+          ],
+          "still",
+          "be",
+          "able",
+          "to",
+          "print",
+          "off",
+          "a",
+          "version",
+          "of",
+          "the",
+          "text",
+          "rather",
+          "than",
+          "photocopying",
+          "the",
+          "journal",
+          "pages."
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "still"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "print"
+          ],
+          [
+            "off"
+          ],
+          [
+            "a"
+          ],
+          [
+            "version"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "text"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "photocopying"
+          ],
+          [
+            "the"
+          ],
+          [
+            "journal"
+          ],
+          [
+            "pages."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/34.mp3",
+        "timeStart": 123.6,
+        "timeEnd": 129.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47194/list"
+      },
+      {
+        "id": 47195,
+        "position": 35,
+        "content": "So you must get used to working online.",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "you",
+          "must",
+          "get",
+          "used",
+          "to",
+          "working",
+          "online."
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "you"
+          ],
+          [
+            "must"
+          ],
+          [
+            "get"
+          ],
+          [
+            "used"
+          ],
+          [
+            "to"
+          ],
+          [
+            "working"
+          ],
+          [
+            "online."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/35.mp3",
+        "timeStart": 129.72,
+        "timeEnd": 132.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47195/list"
+      },
+      {
+        "id": 47196,
+        "position": 36,
+        "content": "Naturally we do still have the full range of classic reference books,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Naturally",
+          "we",
+          "do",
+          "still",
+          "have",
+          "the",
+          "full",
+          "range",
+          "of",
+          "classic",
+          "reference",
+          "books,"
+        ],
+        "solution": [
+          [
+            "Naturally"
+          ],
+          [
+            "we"
+          ],
+          [
+            "do"
+          ],
+          [
+            "still"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "full"
+          ],
+          [
+            "range"
+          ],
+          [
+            "of"
+          ],
+          [
+            "classic"
+          ],
+          [
+            "reference"
+          ],
+          [
+            "books,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/36.mp3",
+        "timeStart": 132.86,
+        "timeEnd": 136.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47196/list"
+      },
+      {
+        "id": 47197,
+        "position": 37,
+        "content": "additional to the CD-ROMS, for you to use",
+        "defaultInput": "",
+        "jsonContent": [
+          "additional",
+          "to",
+          "the",
+          [
+            "CD-ROMS,",
+            "CD ROMS,"
+          ],
+          "for",
+          "you",
+          "to",
+          "use"
+        ],
+        "solution": [
+          [
+            "additional"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "CD-ROMS,",
+            "CD ROMS,"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/37.mp3",
+        "timeStart": 136.88,
+        "timeEnd": 139.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47197/list"
+      },
+      {
+        "id": 47198,
+        "position": 38,
+        "content": "and there are several copies of each one.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "there",
+          "are",
+          "several",
+          "copies",
+          "of",
+          "each",
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "there"
+          ],
+          [
+            "are"
+          ],
+          [
+            "several"
+          ],
+          [
+            "copies"
+          ],
+          [
+            "of"
+          ],
+          [
+            "each"
+          ],
+          [
+            "one.",
+            "1"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/38.mp3",
+        "timeStart": 139.53,
+        "timeEnd": 141.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47198/list"
+      },
+      {
+        "id": 47199,
+        "position": 39,
+        "content": "This is because some of you may prefer to borrow a book rather than sit in the library.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "is",
+          "because",
+          "some",
+          "of",
+          "you",
+          "may",
+          "prefer",
+          "to",
+          "borrow",
+          "a",
+          "book",
+          "rather",
+          "than",
+          "sit",
+          "in",
+          "the",
+          "library."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "is"
+          ],
+          [
+            "because"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "may"
+          ],
+          [
+            "prefer"
+          ],
+          [
+            "to"
+          ],
+          [
+            "borrow"
+          ],
+          [
+            "a"
+          ],
+          [
+            "book"
+          ],
+          [
+            "rather"
+          ],
+          [
+            "than"
+          ],
+          [
+            "sit"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/39.mp3",
+        "timeStart": 142.39,
+        "timeEnd": 147.17,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47199/list"
+      },
+      {
+        "id": 47200,
+        "position": 40,
+        "content": "There is a restricted loan time on these",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is",
+            "there's"
+          ],
+          "a",
+          "restricted",
+          "loan",
+          "time",
+          "on",
+          "these"
+        ],
+        "solution": [
+          [
+            "There is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "restricted"
+          ],
+          [
+            "loan"
+          ],
+          [
+            "time"
+          ],
+          [
+            "on"
+          ],
+          [
+            "these"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/40.mp3",
+        "timeStart": 147.41,
+        "timeEnd": 149.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47200/list"
+      },
+      {
+        "id": 47201,
+        "position": 41,
+        "content": "so that they are not missing from the shelves for too long.",
+        "defaultInput": "",
+        "jsonContent": [
+          "so",
+          "that",
+          [
+            "they are",
+            "they're"
+          ],
+          "not",
+          "missing",
+          "from",
+          "the",
+          "shelves",
+          "for",
+          "too",
+          "long."
+        ],
+        "solution": [
+          [
+            "so"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "not"
+          ],
+          [
+            "missing"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "shelves"
+          ],
+          [
+            "for"
+          ],
+          [
+            "too"
+          ],
+          [
+            "long."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/41.mp3",
+        "timeStart": 149.75,
+        "timeEnd": 152.79,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47201/list"
+      },
+      {
+        "id": 47202,
+        "position": 42,
+        "content": "Although there is a Section Manager for each part of the library,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Although",
+          [
+            "there is",
+            "there's"
+          ],
+          "a",
+          "Section",
+          "Manager",
+          "for",
+          "each",
+          "part",
+          "of",
+          "the",
+          "library,"
+        ],
+        "solution": [
+          [
+            "Although"
+          ],
+          [
+            "there is",
+            "there's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "Section"
+          ],
+          [
+            "Manager"
+          ],
+          [
+            "for"
+          ],
+          [
+            "each"
+          ],
+          [
+            "part"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/42.mp3",
+        "timeStart": 153.47,
+        "timeEnd": 156.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47202/list"
+      },
+      {
+        "id": 47203,
+        "position": 43,
+        "content": "they are very busy",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "they are",
+            "they're"
+          ],
+          "very",
+          "busy"
+        ],
+        "solution": [
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "very"
+          ],
+          [
+            "busy"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/43.mp3",
+        "timeStart": 156.86,
+        "timeEnd": 158.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47203/list"
+      },
+      {
+        "id": 47204,
+        "position": 44,
+        "content": "and so, if you do get stuck looking for things,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "so,",
+          "if",
+          "you",
+          "do",
+          "get",
+          "stuck",
+          "looking",
+          "for",
+          "things,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "so,"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "do"
+          ],
+          [
+            "get"
+          ],
+          [
+            "stuck"
+          ],
+          [
+            "looking"
+          ],
+          [
+            "for"
+          ],
+          [
+            "things,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/44.mp3",
+        "timeStart": 158.4,
+        "timeEnd": 161.18,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47204/list"
+      },
+      {
+        "id": 47205,
+        "position": 45,
+        "content": "you should ask the relevant Cataloguing Assistant.",
+        "defaultInput": "",
+        "jsonContent": [
+          "you",
+          "should",
+          "ask",
+          "the",
+          "relevant",
+          [
+            "Cataloguing",
+            "Cataloging"
+          ],
+          "Assistant."
+        ],
+        "solution": [
+          [
+            "you"
+          ],
+          [
+            "should"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "the"
+          ],
+          [
+            "relevant"
+          ],
+          [
+            "Cataloguing",
+            "Cataloging"
+          ],
+          [
+            "Assistant."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/45.mp3",
+        "timeStart": 161.18,
+        "timeEnd": 163.88,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47205/list"
+      },
+      {
+        "id": 47206,
+        "position": 46,
+        "content": "As your Training Supervisor, I just oversee your induction",
+        "defaultInput": "",
+        "jsonContent": [
+          "As",
+          "your",
+          "Training",
+          "Supervisor,",
+          "I",
+          "just",
+          "oversee",
+          "your",
+          "induction"
+        ],
+        "solution": [
+          [
+            "As"
+          ],
+          [
+            "your"
+          ],
+          [
+            "Training"
+          ],
+          [
+            "Supervisor,"
+          ],
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "oversee"
+          ],
+          [
+            "your"
+          ],
+          [
+            "induction"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/46.mp3",
+        "timeStart": 164.2,
+        "timeEnd": 168.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47206/list"
+      },
+      {
+        "id": 47207,
+        "position": 47,
+        "content": "and will not be around after this initial week.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "will",
+          "not",
+          "be",
+          "around",
+          "after",
+          "this",
+          "initial",
+          "week."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "will"
+          ],
+          [
+            "not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "around"
+          ],
+          [
+            "after"
+          ],
+          [
+            "this"
+          ],
+          [
+            "initial"
+          ],
+          [
+            "week."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/47.mp3",
+        "timeStart": 168.08,
+        "timeEnd": 170.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47207/list"
+      },
+      {
+        "id": 47208,
+        "position": 48,
+        "content": "Some of you may be interested to know that the library is offering specialised training sessions on writing a dissertation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "of",
+          "you",
+          "may",
+          "be",
+          "interested",
+          "to",
+          "know",
+          "that",
+          "the",
+          "library",
+          "is",
+          "offering",
+          [
+            "specialised",
+            "specialized"
+          ],
+          "training",
+          "sessions",
+          "on",
+          "writing",
+          "a",
+          "dissertation."
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "may"
+          ],
+          [
+            "be"
+          ],
+          [
+            "interested"
+          ],
+          [
+            "to"
+          ],
+          [
+            "know"
+          ],
+          [
+            "that"
+          ],
+          [
+            "the"
+          ],
+          [
+            "library"
+          ],
+          [
+            "is"
+          ],
+          [
+            "offering"
+          ],
+          [
+            "specialised",
+            "specialized"
+          ],
+          [
+            "training"
+          ],
+          [
+            "sessions"
+          ],
+          [
+            "on"
+          ],
+          [
+            "writing"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dissertation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/48.mp3",
+        "timeStart": 171.67,
+        "timeEnd": 177.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47208/list"
+      },
+      {
+        "id": 47209,
+        "position": 49,
+        "content": "Obviously, this is not relevant to those of you who are undergraduates;",
+        "defaultInput": "",
+        "jsonContent": [
+          "Obviously,",
+          "this",
+          [
+            "is not",
+            "isn't"
+          ],
+          "relevant",
+          "to",
+          "those",
+          "of",
+          "you",
+          "who",
+          "are",
+          "undergraduates;"
+        ],
+        "solution": [
+          [
+            "Obviously,"
+          ],
+          [
+            "this"
+          ],
+          [
+            "is not",
+            "isn't"
+          ],
+          [
+            "relevant"
+          ],
+          [
+            "to"
+          ],
+          [
+            "those"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "undergraduates;"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/49.mp3",
+        "timeStart": 178.44,
+        "timeEnd": 182.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47209/list"
+      },
+      {
+        "id": 47210,
+        "position": 50,
+        "content": "it is just for postgraduates.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "it is",
+            "it's"
+          ],
+          "just",
+          "for",
+          "postgraduates."
+        ],
+        "solution": [
+          [
+            "it is",
+            "it's"
+          ],
+          [
+            "just"
+          ],
+          [
+            "for"
+          ],
+          [
+            "postgraduates."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/50.mp3",
+        "timeStart": 182.23,
+        "timeEnd": 184.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47210/list"
+      },
+      {
+        "id": 47211,
+        "position": 51,
+        "content": "Your department will discuss the planning stage of the dissertation -",
+        "defaultInput": "",
+        "jsonContent": [
+          "Your",
+          "department",
+          "will",
+          "discuss",
+          "the",
+          "planning",
+          "stage",
+          "of",
+          "the",
+          "dissertation",
+          "-"
+        ],
+        "solution": [
+          [
+            "Your"
+          ],
+          [
+            "department"
+          ],
+          [
+            "will"
+          ],
+          [
+            "discuss"
+          ],
+          [
+            "the"
+          ],
+          [
+            "planning"
+          ],
+          [
+            "stage"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "dissertation"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/51.mp3",
+        "timeStart": 184.52,
+        "timeEnd": 188.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47211/list"
+      },
+      {
+        "id": 47212,
+        "position": 52,
+        "content": "i.e. what you're going to do with you",
+        "defaultInput": "",
+        "jsonContent": [
+          "i.e.",
+          "what",
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          "do",
+          "with",
+          "you"
+        ],
+        "solution": [
+          [
+            "i.e."
+          ],
+          [
+            "what"
+          ],
+          [
+            "you're",
+            "you are"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "do"
+          ],
+          [
+            "with"
+          ],
+          [
+            "you"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/52.mp3",
+        "timeStart": 188.42,
+        "timeEnd": 190.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47212/list"
+      },
+      {
+        "id": 47213,
+        "position": 53,
+        "content": "and we will focus on the structure of it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "we will",
+            "we'll"
+          ],
+          "focus",
+          "on",
+          "the",
+          "structure",
+          "of",
+          "it."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "we will",
+            "we'll"
+          ],
+          [
+            "focus"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "structure"
+          ],
+          [
+            "of"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/53.mp3",
+        "timeStart": 190.65,
+        "timeEnd": 193.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47213/list"
+      },
+      {
+        "id": 47214,
+        "position": 54,
+        "content": "However, the training will also include some time on the computers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "the",
+          "training",
+          "will",
+          "also",
+          "include",
+          "some",
+          "time",
+          "on",
+          "the",
+          "computers."
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "training"
+          ],
+          [
+            "will"
+          ],
+          [
+            "also"
+          ],
+          [
+            "include"
+          ],
+          [
+            "some"
+          ],
+          [
+            "time"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "computers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/54.mp3",
+        "timeStart": 193.87,
+        "timeEnd": 197.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47214/list"
+      },
+      {
+        "id": 47215,
+        "position": 55,
+        "content": "I realise most of you know how to organise files",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          [
+            "realise",
+            "realize"
+          ],
+          "most",
+          "of",
+          "you",
+          "know",
+          "how",
+          "to",
+          [
+            "organise",
+            "organize"
+          ],
+          "files"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "realise",
+            "realize"
+          ],
+          [
+            "most"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "know"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "organise",
+            "organize"
+          ],
+          [
+            "files"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/55-2023-09-06-10-25-37.mp3",
+        "timeStart": 198.19,
+        "timeEnd": 201,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47215/list"
+      },
+      {
+        "id": 47216,
+        "position": 56,
+        "content": "but we can show you the different ways to run data programmes.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "we",
+          "can",
+          "show",
+          "you",
+          "the",
+          "different",
+          "ways",
+          "to",
+          "run",
+          "data",
+          [
+            "programmes.",
+            "programs"
+          ]
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "show"
+          ],
+          [
+            "you"
+          ],
+          [
+            "the"
+          ],
+          [
+            "different"
+          ],
+          [
+            "ways"
+          ],
+          [
+            "to"
+          ],
+          [
+            "run"
+          ],
+          [
+            "data"
+          ],
+          [
+            "programmes.",
+            "programs"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/56-2023-09-06-10-25-15.mp3",
+        "timeStart": 201,
+        "timeEnd": 204.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47216/list"
+      },
+      {
+        "id": 47217,
+        "position": 57,
+        "content": "Your tutors will tell you at the outset how to set out the chapters they require",
+        "defaultInput": "",
+        "jsonContent": [
+          "Your",
+          "tutors",
+          "will",
+          "tell",
+          "you",
+          "at",
+          "the",
+          "outset",
+          "how",
+          "to",
+          "set",
+          "out",
+          "the",
+          "chapters",
+          "they",
+          "require"
+        ],
+        "solution": [
+          [
+            "Your"
+          ],
+          [
+            "tutors"
+          ],
+          [
+            "will"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "you"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "outset"
+          ],
+          [
+            "how"
+          ],
+          [
+            "to"
+          ],
+          [
+            "set"
+          ],
+          [
+            "out"
+          ],
+          [
+            "the"
+          ],
+          [
+            "chapters"
+          ],
+          [
+            "they"
+          ],
+          [
+            "require"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/57.mp3",
+        "timeStart": 205.05,
+        "timeEnd": 209.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47217/list"
+      },
+      {
+        "id": 47218,
+        "position": 58,
+        "content": "but you will need to ask them how they would like you to organise the bibliography",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "you will",
+            "you'll"
+          ],
+          "need",
+          "to",
+          "ask",
+          "them",
+          "how",
+          [
+            "they would",
+            "They'd"
+          ],
+          "like",
+          "you",
+          "to",
+          [
+            "organise",
+            "organize"
+          ],
+          "the",
+          "bibliography"
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "you will",
+            "you'll"
+          ],
+          [
+            "need"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ask"
+          ],
+          [
+            "them"
+          ],
+          [
+            "how"
+          ],
+          [
+            "they would",
+            "They'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "organise",
+            "organize"
+          ],
+          [
+            "the"
+          ],
+          [
+            "bibliography"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/58.mp3",
+        "timeStart": 209.49,
+        "timeEnd": 213.92,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47218/list"
+      },
+      {
+        "id": 47219,
+        "position": 59,
+        "content": "because it varies depending on your subject area.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "it",
+          "varies",
+          "depending",
+          "on",
+          "your",
+          "subject",
+          "area."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "it"
+          ],
+          [
+            "varies"
+          ],
+          [
+            "depending"
+          ],
+          [
+            "on"
+          ],
+          [
+            "your"
+          ],
+          [
+            "subject"
+          ],
+          [
+            "area."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/59.mp3",
+        "timeStart": 213.92,
+        "timeEnd": 216.96,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47219/list"
+      },
+      {
+        "id": 47220,
+        "position": 60,
+        "content": "When you've got something together, the trainer here will look through the draft version for you to see if it's okay.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          [
+            "you've",
+            "You have"
+          ],
+          "got",
+          "something",
+          "together,",
+          "the",
+          "trainer",
+          "here",
+          "will",
+          "look",
+          "through",
+          "the",
+          "draft",
+          "version",
+          "for",
+          "you",
+          "to",
+          "see",
+          "if",
+          "it's",
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "you've",
+            "You have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "something"
+          ],
+          [
+            "together,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "trainer"
+          ],
+          [
+            "here"
+          ],
+          [
+            "will"
+          ],
+          [
+            "look"
+          ],
+          [
+            "through"
+          ],
+          [
+            "the"
+          ],
+          [
+            "draft"
+          ],
+          [
+            "version"
+          ],
+          [
+            "for"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "see"
+          ],
+          [
+            "if"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "okay.",
+            "ok"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/60.mp3",
+        "timeStart": 217.4,
+        "timeEnd": 223.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47220/list"
+      },
+      {
+        "id": 47221,
+        "position": 61,
+        "content": "And, one final point,",
+        "defaultInput": "",
+        "jsonContent": [
+          "And,",
+          [
+            "one",
+            "1"
+          ],
+          "final",
+          "point,"
+        ],
+        "solution": [
+          [
+            "And,"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "final"
+          ],
+          [
+            "point,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/61.mp3",
+        "timeStart": 223.89,
+        "timeEnd": 225.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47221/list"
+      },
+      {
+        "id": 47222,
+        "position": 62,
+        "content": "for those of you who have registered from abroad,",
+        "defaultInput": "",
+        "jsonContent": [
+          "for",
+          "those",
+          "of",
+          "you",
+          "who",
+          "have",
+          "registered",
+          "from",
+          "abroad,"
+        ],
+        "solution": [
+          [
+            "for"
+          ],
+          [
+            "those"
+          ],
+          [
+            "of"
+          ],
+          [
+            "you"
+          ],
+          [
+            "who"
+          ],
+          [
+            "have"
+          ],
+          [
+            "registered"
+          ],
+          [
+            "from"
+          ],
+          [
+            "abroad,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/62.mp3",
+        "timeStart": 225.76,
+        "timeEnd": 228.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47222/list"
+      },
+      {
+        "id": 47223,
+        "position": 63,
+        "content": "we can offer individual sessions on dissertations if you feel you need them.",
+        "defaultInput": "",
+        "jsonContent": [
+          "we",
+          "can",
+          "offer",
+          "individual",
+          "sessions",
+          "on",
+          "dissertations",
+          "if",
+          "you",
+          "feel",
+          "you",
+          "need",
+          "them."
+        ],
+        "solution": [
+          [
+            "we"
+          ],
+          [
+            "can"
+          ],
+          [
+            "offer"
+          ],
+          [
+            "individual"
+          ],
+          [
+            "sessions"
+          ],
+          [
+            "on"
+          ],
+          [
+            "dissertations"
+          ],
+          [
+            "if"
+          ],
+          [
+            "you"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "you"
+          ],
+          [
+            "need"
+          ],
+          [
+            "them."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/63.mp3",
+        "timeStart": 228.29,
+        "timeEnd": 232.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47223/list"
+      },
+      {
+        "id": 47224,
+        "position": 64,
+        "content": "If you require language lessons then they are available from the International Centre next to the Law Department.",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "require",
+          "language",
+          "lessons",
+          "then",
+          [
+            "they are",
+            "they're"
+          ],
+          "available",
+          "from",
+          "the",
+          "International",
+          [
+            "Centre",
+            "center"
+          ],
+          "next",
+          "to",
+          "the",
+          "Law",
+          "Department."
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "require"
+          ],
+          [
+            "language"
+          ],
+          [
+            "lessons"
+          ],
+          [
+            "then"
+          ],
+          [
+            "they are",
+            "they're"
+          ],
+          [
+            "available"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "International"
+          ],
+          [
+            "Centre",
+            "center"
+          ],
+          [
+            "next"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Law"
+          ],
+          [
+            "Department."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/ielts-listening/ielts-cambridge-5-test-4-part-4-2023-08-09-22-35-30/64.mp3",
+        "timeStart": 232.68,
+        "timeEnd": 238.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/47224/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "47161": {
+      "id": 2541563,
+      "text": "Được rồi, mọi người đã ổn định chưa?",
+      "author": "ChatGPT4.1"
+    },
+    "47162": {
+      "id": 2541564,
+      "text": "Trước hết, xin chào mừng các bạn đến với Đại học Cardiff.",
+      "author": "ChatGPT4.1"
+    },
+    "47163": {
+      "id": 2541565,
+      "text": "Tôi ở đây để giải thích những gì chúng tôi có thể cung cấp cho bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "47164": {
+      "id": 2541566,
+      "text": "Bây giờ, với tư cách là sinh viên mới tại trường đại học,",
+      "author": "ChatGPT4.1"
+    },
+    "47165": {
+      "id": 2541567,
+      "text": "có lẽ bạn sẽ cần một số hướng dẫn để giúp bạn sử dụng thư viện hiệu quả",
+      "author": "ChatGPT4.1"
+    },
+    "47166": {
+      "id": 2541568,
+      "text": "để học tập và nghiên cứu.",
+      "author": "ChatGPT4.1"
+    },
+    "47167": {
+      "id": 2541569,
+      "text": "Một số bạn đã hỏi về việc tham quan có hướng dẫn",
+      "author": "ChatGPT4.1"
+    },
+    "47168": {
+      "id": 2541570,
+      "text": "nhưng chúng tôi thấy điều này khá khiến mọi người bị rối.",
+      "author": "ChatGPT4.1"
+    },
+    "47169": {
+      "id": 2541571,
+      "text": "Vì vậy, trong tuần đầu tiên này,",
+      "author": "ChatGPT4.1"
+    },
+    "47170": {
+      "id": 2541572,
+      "text": "chúng tôi tổ chức một loạt các buổi nói chuyện tập trung vào các khía cạnh khác nhau của thư viện và các tài nguyên của nó.",
+      "author": "ChatGPT4.1"
+    },
+    "47171": {
+      "id": 2541573,
+      "text": "Bạn cũng sẽ nhận thấy rằng để khai thác tối đa thư viện,",
+      "author": "ChatGPT4.1"
+    },
+    "47172": {
+      "id": 2541574,
+      "text": "bạn thực sự cần có kỹ năng sử dụng máy tính",
+      "author": "ChatGPT4.1"
+    },
+    "47173": {
+      "id": 2541575,
+      "text": "và vì vậy, suốt học kỳ này chúng tôi tổ chức các lớp học nhỏ",
+      "author": "ChatGPT4.1"
+    },
+    "47174": {
+      "id": 2541576,
+      "text": "nhằm giúp bạn cập nhật nhanh cách truy cập thông tin trên máy tính.",
+      "author": "ChatGPT4.1"
+    },
+    "47175": {
+      "id": 2541577,
+      "text": "Được rồi, bây giờ hãy để tôi phác thảo những gì bạn có thể sử dụng.",
+      "author": "ChatGPT4.1"
+    },
+    "47176": {
+      "id": 2541578,
+      "text": "Bạn sẽ thấy rằng máy tính ngày càng được sử dụng như một công cụ nghiên cứu.",
+      "author": "ChatGPT4.1"
+    },
+    "47177": {
+      "id": 2541579,
+      "text": "Nhiều sinh viên thực hiện hầu hết nghiên cứu của họ trên internet",
+      "author": "ChatGPT4.1"
+    },
+    "47178": {
+      "id": 2541580,
+      "text": "và máy tính trong thư viện luôn được kết nối mạng.",
+      "author": "ChatGPT4.1"
+    },
+    "47179": {
+      "id": 2541581,
+      "text": "Sau khi đã tìm được những gì cần thiết, bạn có thể dễ dàng lưu trữ tài liệu vào không gian máy tính cá nhân để in ra khi cần.",
+      "author": "ChatGPT4.1"
+    },
+    "47180": {
+      "id": 2541582,
+      "text": "Bạn có thể nghĩ rằng đây là cách nhanh nhất để lấy thông tin nhưng các liên kết có thể chậm.",
+      "author": "ChatGPT4.1"
+    },
+    "47181": {
+      "id": 2541583,
+      "text": "Rõ ràng, bạn có thể tìm thấy rất nhiều trên đó nhưng phần lớn là thông tin vô ích",
+      "author": "ChatGPT4.1"
+    },
+    "47182": {
+      "id": 2541584,
+      "text": "vì nó xuất phát từ các nguồn rất đáng tranh cãi - nên hãy tỉnh táo.",
+      "author": "ChatGPT4.1"
+    },
+    "47183": {
+      "id": 2541585,
+      "text": "Bạn cũng sẽ thấy rằng thư viện đã cài đặt một số CD-ROM từ các nguồn tham khảo chuyên ngành lên các máy tính",
+      "author": "ChatGPT4.1"
+    },
+    "47184": {
+      "id": 2541586,
+      "text": "chẳng hạn như MLA.",
+      "author": "ChatGPT4.1"
+    },
+    "47185": {
+      "id": 2541587,
+      "text": "Điều này có nghĩa là chúng tôi có thể mở rộng những gì cung cấp cho bạn với chi phí bổ sung rất ít",
+      "author": "ChatGPT4.1"
+    },
+    "47186": {
+      "id": 2541588,
+      "text": "và giúp chúng tôi không phải đầu tư vào ngày càng nhiều sách nữa.",
+      "author": "ChatGPT4.1"
+    },
+    "47187": {
+      "id": 2541589,
+      "text": "CD-ROM có chứa chính xác những thông tin như sách tham khảo",
+      "author": "ChatGPT4.1"
+    },
+    "47188": {
+      "id": 2541590,
+      "text": "vì cả hai được cập nhật cùng nhau.",
+      "author": "ChatGPT4.1"
+    },
+    "47189": {
+      "id": 2541591,
+      "text": "Bây giờ, hầu hết các bạn sẽ cần tham khảo các bài báo trên tạp chí trong công việc của mình",
+      "author": "ChatGPT4.1"
+    },
+    "47190": {
+      "id": 2541592,
+      "text": "và bạn sẽ thấy bạn cũng có thể truy cập chúng trực tuyến",
+      "author": "ChatGPT4.1"
+    },
+    "47191": {
+      "id": 2541593,
+      "text": "và chúng tôi khuyến khích bạn làm như vậy.",
+      "author": "ChatGPT4.1"
+    },
+    "47202": {
+      "id": 2541594,
+      "text": "Mặc dù có một Quản lý Bộ phận cho mỗi khu vực của thư viện,",
+      "author": "ChatGPT4.1"
+    },
+    "47203": {
+      "id": 2541595,
+      "text": "họ rất bận rộn",
+      "author": "ChatGPT4.1"
+    },
+    "47204": {
+      "id": 2541596,
+      "text": "vì vậy, nếu bạn gặp khó khăn khi tìm kiếm đồ vật,",
+      "author": "ChatGPT4.1"
+    },
+    "47205": {
+      "id": 2541597,
+      "text": "bạn nên hỏi Trợ lý Phân loại liên quan.",
+      "author": "ChatGPT4.1"
+    },
+    "47206": {
+      "id": 2541598,
+      "text": "Là Người Giám sát Đào tạo của bạn, tôi chỉ giám sát quá trình giới thiệu của bạn",
+      "author": "ChatGPT4.1"
+    },
+    "47207": {
+      "id": 2541599,
+      "text": "và sẽ không có mặt sau tuần đầu tiên này.",
+      "author": "ChatGPT4.1"
+    },
+    "47208": {
+      "id": 2541600,
+      "text": "Một số bạn có thể quan tâm rằng thư viện đang cung cấp các buổi đào tạo chuyên sâu về cách viết luận văn.",
+      "author": "ChatGPT4.1"
+    },
+    "47209": {
+      "id": 2541601,
+      "text": "Rõ ràng, điều này không liên quan đến những bạn là sinh viên đại học;",
+      "author": "ChatGPT4.1"
+    },
+    "47210": {
+      "id": 2541602,
+      "text": "nó chỉ dành cho học viên sau đại học.",
+      "author": "ChatGPT4.1"
+    },
+    "47211": {
+      "id": 2541603,
+      "text": "Khoa của bạn sẽ thảo luận về giai đoạn lập kế hoạch của luận văn -",
+      "author": "ChatGPT4.1"
+    },
+    "47212": {
+      "id": 2541604,
+      "text": "tức là những gì bạn sẽ làm cùng bạn",
+      "author": "ChatGPT4.1"
+    },
+    "47213": {
+      "id": 2541605,
+      "text": "và chúng tôi sẽ tập trung vào cấu trúc của nó.",
+      "author": "ChatGPT4.1"
+    },
+    "47214": {
+      "id": 2541606,
+      "text": "Tuy nhiên, khóa đào tạo cũng sẽ bao gồm một chút thời gian trên máy tính.",
+      "author": "ChatGPT4.1"
+    },
+    "47215": {
+      "id": 2541607,
+      "text": "Tôi nhận ra hầu hết các bạn đều biết cách tổ chức tệp tin",
+      "author": "ChatGPT4.1"
+    },
+    "47216": {
+      "id": 2541608,
+      "text": "nhưng chúng tôi có thể chỉ cho bạn những cách khác nhau để chạy các chương trình dữ liệu.",
+      "author": "ChatGPT4.1"
+    },
+    "47217": {
+      "id": 2541609,
+      "text": "Giáo viên hướng dẫn của bạn sẽ nói cho bạn ngay từ đầu cách trình bày các chương bạn cần",
+      "author": "ChatGPT4.1"
+    },
+    "47218": {
+      "id": 2541610,
+      "text": "nhưng bạn sẽ cần hỏi họ cách họ muốn bạn sắp xếp phần tài liệu tham khảo",
+      "author": "ChatGPT4.1"
+    },
+    "47219": {
+      "id": 2541611,
+      "text": "bởi vì nó sẽ thay đổi tùy vào lĩnh vực môn học của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "47220": {
+      "id": 2541612,
+      "text": "Khi bạn đã hoàn thành một bản nháp, người đào tạo ở đây sẽ xem xét nó để xem liệu nó có ổn không.",
+      "author": "ChatGPT4.1"
+    },
+    "47221": {
+      "id": 2541613,
+      "text": "Và, một điểm cuối cùng,",
+      "author": "ChatGPT4.1"
+    },
+    "47222": {
+      "id": 2541614,
+      "text": "đối với những bạn đăng ký từ nước ngoài,",
+      "author": "ChatGPT4.1"
+    },
+    "47223": {
+      "id": 2541615,
+      "text": "chúng tôi có thể cung cấp các buổi hướng dẫn cá nhân về luận văn nếu bạn cảm thấy cần.",
+      "author": "ChatGPT4.1"
+    },
+    "47224": {
+      "id": 2541616,
+      "text": "Nếu bạn cần các khóa học ngoại ngữ thì chúng có tại Trung tâm Quốc tế bên cạnh Khoa Luật.",
+      "author": "ChatGPT4.1"
+    },
+    "47192": {
+      "id": 2545742,
+      "text": "Rõ ràng một số bạn sẽ thấy phiên bản in giấy dễ tiếp cận hơn vì nó có sẵn trên giá",
+      "author": "ChatGPT4.1"
+    },
+    "47193": {
+      "id": 2545743,
+      "text": "nhưng tôi e rằng mục đích là dần dần loại bỏ những bản in này.",
+      "author": "ChatGPT4.1"
+    },
+    "47194": {
+      "id": 2545744,
+      "text": "Tuy nhiên, bạn vẫn có thể in ra một bản sao văn bản thay vì phải photo các trang của tạp chí.",
+      "author": "ChatGPT4.1"
+    },
+    "47195": {
+      "id": 2545745,
+      "text": "Vì vậy bạn phải làm quen với việc làm việc trực tuyến.",
+      "author": "ChatGPT4.1"
+    },
+    "47196": {
+      "id": 2545746,
+      "text": "Tất nhiên chúng tôi vẫn có đầy đủ các loại sách tham khảo kinh điển,",
+      "author": "ChatGPT4.1"
+    },
+    "47197": {
+      "id": 2545747,
+      "text": "bổ sung cho các CD-ROM, để các bạn sử dụng",
+      "author": "ChatGPT4.1"
+    },
+    "47198": {
+      "id": 2545748,
+      "text": "và mỗi đầu sách đều có nhiều bản sao.",
+      "author": "ChatGPT4.1"
+    },
+    "47199": {
+      "id": 2545749,
+      "text": "Điều này là vì một số bạn có thể thích mượn sách hơn là ngồi trong thư viện.",
+      "author": "ChatGPT4.1"
+    },
+    "47200": {
+      "id": 2545750,
+      "text": "Những sách này có thời gian mượn giới hạn",
+      "author": "ChatGPT4.1"
+    },
+    "47201": {
+      "id": 2545751,
+      "text": "để chúng không bị thiếu trên giá quá lâu.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

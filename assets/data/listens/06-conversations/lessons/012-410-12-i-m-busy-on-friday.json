@@ -1,0 +1,427 @@
+{
+  "summary": {
+    "id": 410,
+    "name": "12. I'm Busy On Friday",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 12,
+    "totalChallenges": 8,
+    "groupId": 102,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/410",
+  "detail": {
+    "id": 410,
+    "lessonName": "12. I'm Busy On Friday",
+    "name": "12. I'm Busy On Friday",
+    "position": 12,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/0-12-im-busy-on-friday.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 17866,
+        "position": 1,
+        "content": "Would you like to go to a pop concert?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Would",
+          "you",
+          "like",
+          "to",
+          "go",
+          "to",
+          "a",
+          "pop",
+          "concert?"
+        ],
+        "solution": [
+          [
+            "Would"
+          ],
+          [
+            "you"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pop"
+          ],
+          [
+            "concert?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/1.mp3",
+        "timeStart": 2.26,
+        "timeEnd": 4.16,
+        "hints": [],
+        "nbComments": 16,
+        "discussionUrl": "https://dailydictation.com/discussions/17866/list"
+      },
+      {
+        "id": 17867,
+        "position": 2,
+        "content": "Well, I'd like to... but when is it?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "I'd",
+          "like",
+          "to...",
+          "but",
+          "when",
+          "is",
+          "it?"
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to..."
+          ],
+          [
+            "but"
+          ],
+          [
+            "when"
+          ],
+          [
+            "is"
+          ],
+          [
+            "it?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/2.mp3",
+        "timeStart": 4.25,
+        "timeEnd": 6,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/17867/list"
+      },
+      {
+        "id": 17868,
+        "position": 3,
+        "content": "On Friday evening.",
+        "defaultInput": "",
+        "jsonContent": [
+          "On",
+          "Friday",
+          "evening."
+        ],
+        "solution": [
+          [
+            "On"
+          ],
+          [
+            "Friday"
+          ],
+          [
+            "evening."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/3.mp3",
+        "timeStart": 6,
+        "timeEnd": 7.13,
+        "hints": [],
+        "nbComments": 12,
+        "discussionUrl": "https://dailydictation.com/discussions/17868/list"
+      },
+      {
+        "id": 17869,
+        "position": 4,
+        "content": "What a pity! I'm busy on Friday.",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "a",
+          "pity!",
+          [
+            "I'm",
+            "I am"
+          ],
+          "busy",
+          "on",
+          "Friday."
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "a"
+          ],
+          [
+            "pity!"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Friday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/4.mp3",
+        "timeStart": 7.13,
+        "timeEnd": 9.26,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/17869/list"
+      },
+      {
+        "id": 17870,
+        "position": 5,
+        "content": "Maybe you could change your plans?",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          "you",
+          "could",
+          "change",
+          "your",
+          "plans?"
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "you"
+          ],
+          [
+            "could"
+          ],
+          [
+            "change"
+          ],
+          [
+            "your"
+          ],
+          [
+            "plans?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/5.mp3",
+        "timeStart": 9.43,
+        "timeEnd": 11.11,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/17870/list"
+      },
+      {
+        "id": 17871,
+        "position": 6,
+        "content": "It's gonna be a really great concert.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          [
+            "gonna",
+            "going to"
+          ],
+          "be",
+          "a",
+          "really",
+          "great",
+          "concert."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "gonna",
+            "going to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "really"
+          ],
+          [
+            "great"
+          ],
+          [
+            "concert."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/6.mp3",
+        "timeStart": 11.11,
+        "timeEnd": 12.78,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/17871/list"
+      },
+      {
+        "id": 17872,
+        "position": 7,
+        "content": "Maybe I will, I wouldn't wanna miss it.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Maybe",
+          [
+            "I will,",
+            "I'll"
+          ],
+          "I",
+          "wouldn't",
+          [
+            "wanna",
+            "want to"
+          ],
+          "miss",
+          "it."
+        ],
+        "solution": [
+          [
+            "Maybe"
+          ],
+          [
+            "I will,",
+            "I'll"
+          ],
+          [
+            "I"
+          ],
+          [
+            "wouldn't"
+          ],
+          [
+            "wanna",
+            "want to"
+          ],
+          [
+            "miss"
+          ],
+          [
+            "it."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/7.mp3",
+        "timeStart": 12.84,
+        "timeEnd": 14.58,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/17872/list"
+      },
+      {
+        "id": 17873,
+        "position": 8,
+        "content": "Great, I'll see you Friday!",
+        "defaultInput": "",
+        "jsonContent": [
+          "Great,",
+          [
+            "I'll",
+            "I will"
+          ],
+          "see",
+          "you",
+          "Friday!"
+        ],
+        "solution": [
+          [
+            "Great,"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "see"
+          ],
+          [
+            "you"
+          ],
+          [
+            "Friday!"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/12-im-busy-on-friday-2022-03-07-20-55-26/8.mp3",
+        "timeStart": 14.58,
+        "timeEnd": 16.32,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/17873/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "17867": {
+      "id": 3670,
+      "text": "Ừ, mình cũng muốn... nhưng khi nào vậy?",
+      "author": "a user"
+    },
+    "17869": {
+      "id": 3676,
+      "text": "Tiếc quá! Thứ Sáu mình bận rồi.",
+      "author": "a user"
+    },
+    "17870": {
+      "id": 3678,
+      "text": "Chắc là bạn sẽ thay đổi kế hoạch được mà ha?",
+      "author": "a user"
+    },
+    "17871": {
+      "id": 447993,
+      "text": "Đây sẽ là một buổi hòa nhạc thực sự tuyệt vời.",
+      "author": "a user"
+    },
+    "17872": {
+      "id": 489528,
+      "text": "Có thể mình sẽ đổi lịch, mình không muốn bỏ lỡ đâu.",
+      "author": "a user"
+    },
+    "17866": {
+      "id": 2588824,
+      "text": "Bạn có muốn đi xem một buổi hòa nhạc pop không?",
+      "author": "ChatGPT4.1"
+    },
+    "17868": {
+      "id": 2588825,
+      "text": "Vào tối thứ Sáu.",
+      "author": "ChatGPT4.1"
+    },
+    "17873": {
+      "id": 2588826,
+      "text": "Tốt quá, hẹn gặp bạn vào thứ Sáu!",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

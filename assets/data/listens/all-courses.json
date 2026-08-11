@@ -1,0 +1,138 @@
+{
+  "fetchedAt": "2026-08-10T10:23:44.657567+00:00",
+  "source": "https://dailydictation.com/api/courses",
+  "courseCount": 13,
+  "courses": [
+    {
+      "id": 6,
+      "name": "Conversations",
+      "type": "audio",
+      "declaredLessonCount": 100,
+      "fetchedLessonCount": 100,
+      "errorCount": 0,
+      "directory": "06-conversations",
+      "dataFile": "06-conversations/conversations.json"
+    },
+    {
+      "id": 2,
+      "name": "Short Stories",
+      "type": "audio",
+      "declaredLessonCount": 289,
+      "fetchedLessonCount": 289,
+      "errorCount": 0,
+      "directory": "02-short-stories",
+      "dataFile": "02-short-stories/short-stories.json"
+    },
+    {
+      "id": 13,
+      "name": "Stories for Kids",
+      "type": "youtube",
+      "declaredLessonCount": 13,
+      "fetchedLessonCount": 13,
+      "errorCount": 0,
+      "directory": "13-stories-for-kids",
+      "dataFile": "13-stories-for-kids/stories-for-kids.json"
+    },
+    {
+      "id": 10,
+      "name": "TOEIC Listening",
+      "type": "audio",
+      "declaredLessonCount": 600,
+      "fetchedLessonCount": 600,
+      "errorCount": 0,
+      "directory": "10-toeic-listening",
+      "dataFile": "10-toeic-listening/toeic-listening.json"
+    },
+    {
+      "id": 1,
+      "name": "IELTS Listening",
+      "type": "audio",
+      "declaredLessonCount": 360,
+      "fetchedLessonCount": 360,
+      "errorCount": 0,
+      "directory": "01-ielts-listening",
+      "dataFile": "01-ielts-listening/ielts-listening.json"
+    },
+    {
+      "id": 8,
+      "name": "Random Videos",
+      "type": "youtube",
+      "declaredLessonCount": 181,
+      "fetchedLessonCount": 181,
+      "errorCount": 0,
+      "directory": "08-random-videos",
+      "dataFile": "08-random-videos/random-videos.json"
+    },
+    {
+      "id": 14,
+      "name": "News",
+      "type": "youtube",
+      "declaredLessonCount": 209,
+      "fetchedLessonCount": 209,
+      "errorCount": 0,
+      "directory": "14-news",
+      "dataFile": "14-news/news.json"
+    },
+    {
+      "id": 12,
+      "name": "TED",
+      "type": "youtube",
+      "declaredLessonCount": 90,
+      "fetchedLessonCount": 90,
+      "errorCount": 0,
+      "directory": "12-ted",
+      "dataFile": "12-ted/ted.json"
+    },
+    {
+      "id": 7,
+      "name": "TOEFL Listening",
+      "type": "audio",
+      "declaredLessonCount": 54,
+      "fetchedLessonCount": 53,
+      "errorCount": 0,
+      "directory": "07-toefl-listening",
+      "dataFile": "07-toefl-listening/toefl-listening.json"
+    },
+    {
+      "id": 18,
+      "name": "Medical English (OET)",
+      "type": "audio",
+      "declaredLessonCount": 80,
+      "fetchedLessonCount": 80,
+      "errorCount": 0,
+      "directory": "18-medical-english-oet",
+      "dataFile": "18-medical-english-oet/medical-english-oet.json"
+    },
+    {
+      "id": 9,
+      "name": "IPA",
+      "type": "select",
+      "declaredLessonCount": 42,
+      "fetchedLessonCount": 42,
+      "errorCount": 0,
+      "directory": "09-ipa",
+      "dataFile": "09-ipa/ipa.json"
+    },
+    {
+      "id": 4,
+      "name": "Numbers",
+      "type": "audio",
+      "declaredLessonCount": 9,
+      "fetchedLessonCount": 9,
+      "errorCount": 0,
+      "directory": "04-numbers",
+      "dataFile": "04-numbers/numbers.json"
+    },
+    {
+      "id": 3,
+      "name": "Spelling Names",
+      "type": "audio",
+      "declaredLessonCount": 6,
+      "fetchedLessonCount": 6,
+      "errorCount": 0,
+      "directory": "03-spelling-names",
+      "dataFile": "03-spelling-names/spelling-names.json"
+    }
+  ],
+  "errorCount": 0
+}

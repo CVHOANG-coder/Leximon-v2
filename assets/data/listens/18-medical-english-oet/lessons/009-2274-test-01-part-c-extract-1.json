@@ -1,0 +1,4828 @@
+{
+  "summary": {
+    "id": 2274,
+    "name": "Test 01 - Part C - Extract 1",
+    "subTitle": "End-of-Life Dementia Care Challenges",
+    "levelName": "C1",
+    "position": 9,
+    "totalChallenges": 71,
+    "groupId": 131,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/2274",
+  "detail": {
+    "id": 2274,
+    "lessonName": "Test 01 - Part C - Extract 1",
+    "name": "Test 01 - Part C - Extract 1",
+    "position": 9,
+    "levelName": "C1",
+    "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/0-test-01-part-c-extract-1.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 89784,
+        "position": 1,
+        "content": "My name's Dr Clare Cox.",
+        "defaultInput": "My name's Dr Clare Cox.",
+        "jsonContent": [
+          "My",
+          "name's",
+          "Dr",
+          "Clare",
+          "Cox."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "name's"
+          ],
+          [
+            "Dr"
+          ],
+          [
+            "Clare"
+          ],
+          [
+            "Cox."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/1.mp3",
+        "timeStart": 0.58,
+        "timeEnd": 2.87,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89784/list"
+      },
+      {
+        "id": 89785,
+        "position": 2,
+        "content": "I'm a geriatrician specialising in palliative care.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "a",
+          "geriatrician",
+          "specialising",
+          "in",
+          "palliative",
+          "care."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "a"
+          ],
+          [
+            "geriatrician"
+          ],
+          [
+            "specialising"
+          ],
+          [
+            "in"
+          ],
+          [
+            "palliative"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/2.mp3",
+        "timeStart": 2.87,
+        "timeEnd": 6.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89785/list"
+      },
+      {
+        "id": 89786,
+        "position": 3,
+        "content": "My topic today is an increasingly important issue:",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "topic",
+          "today",
+          "is",
+          "an",
+          "increasingly",
+          "important",
+          "issue:"
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "topic"
+          ],
+          [
+            "today"
+          ],
+          [
+            "is"
+          ],
+          [
+            "an"
+          ],
+          [
+            "increasingly"
+          ],
+          [
+            "important"
+          ],
+          [
+            "issue:"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/3.mp3",
+        "timeStart": 6.65,
+        "timeEnd": 10.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89786/list"
+      },
+      {
+        "id": 89787,
+        "position": 4,
+        "content": "end-of-life care for dementia patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "care",
+          "for",
+          "dementia",
+          "patients."
+        ],
+        "solution": [
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "care"
+          ],
+          [
+            "for"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/4.mp3",
+        "timeStart": 10.51,
+        "timeEnd": 13.43,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89787/list"
+      },
+      {
+        "id": 89788,
+        "position": 5,
+        "content": "The care of dementia patients presents certain problems.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "care",
+          "of",
+          "dementia",
+          "patients",
+          "presents",
+          "certain",
+          "problems."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "care"
+          ],
+          [
+            "of"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "presents"
+          ],
+          [
+            "certain"
+          ],
+          [
+            "problems."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/5.mp3",
+        "timeStart": 13.68,
+        "timeEnd": 17.54,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89788/list"
+      },
+      {
+        "id": 89789,
+        "position": 6,
+        "content": "Dementia is a terminal illness and is the third highest cause of death in Australia.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Dementia",
+          "is",
+          "a",
+          "terminal",
+          "illness",
+          "and",
+          "is",
+          "the",
+          "third",
+          "highest",
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          "of",
+          "death",
+          "in",
+          "Australia."
+        ],
+        "solution": [
+          [
+            "Dementia"
+          ],
+          [
+            "is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "terminal"
+          ],
+          [
+            "illness"
+          ],
+          [
+            "and"
+          ],
+          [
+            "is"
+          ],
+          [
+            "the"
+          ],
+          [
+            "third"
+          ],
+          [
+            "highest"
+          ],
+          [
+            "cause",
+            "cos",
+            "cuz"
+          ],
+          [
+            "of"
+          ],
+          [
+            "death"
+          ],
+          [
+            "in"
+          ],
+          [
+            "Australia."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/6.mp3",
+        "timeStart": 17.62,
+        "timeEnd": 23.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89789/list"
+      },
+      {
+        "id": 89790,
+        "position": 7,
+        "content": "But dementia is different from other such conditions.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "dementia",
+          "is",
+          "different",
+          "from",
+          "other",
+          "such",
+          "conditions."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "is"
+          ],
+          [
+            "different"
+          ],
+          [
+            "from"
+          ],
+          [
+            "other"
+          ],
+          [
+            "such"
+          ],
+          [
+            "conditions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/7.mp3",
+        "timeStart": 23.7,
+        "timeEnd": 27.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89790/list"
+      },
+      {
+        "id": 89791,
+        "position": 8,
+        "content": "It has an unpredictable trajectory",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "It has",
+            "It's"
+          ],
+          "an",
+          "unpredictable",
+          "trajectory"
+        ],
+        "solution": [
+          [
+            "It has",
+            "It's"
+          ],
+          [
+            "an"
+          ],
+          [
+            "unpredictable"
+          ],
+          [
+            "trajectory"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/8.mp3",
+        "timeStart": 27.2,
+        "timeEnd": 29.69,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89791/list"
+      },
+      {
+        "id": 89792,
+        "position": 9,
+        "content": "and there can be difficult issues around patients' mental capacity, decision-making and communication.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "there",
+          "can",
+          "be",
+          "difficult",
+          "issues",
+          "around",
+          "patients'",
+          "mental",
+          "capacity,",
+          [
+            "decision-making",
+            "decision making"
+          ],
+          "and",
+          "communication."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "there"
+          ],
+          [
+            "can"
+          ],
+          [
+            "be"
+          ],
+          [
+            "difficult"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "around"
+          ],
+          [
+            "patients'"
+          ],
+          [
+            "mental"
+          ],
+          [
+            "capacity,"
+          ],
+          [
+            "decision-making",
+            "decision making"
+          ],
+          [
+            "and"
+          ],
+          [
+            "communication."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/9.mp3",
+        "timeStart": 29.69,
+        "timeEnd": 36.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89792/list"
+      },
+      {
+        "id": 89793,
+        "position": 10,
+        "content": "But, in spite of an equal need for palliative care services,",
+        "defaultInput": "",
+        "jsonContent": [
+          "But,",
+          "in",
+          "spite",
+          "of",
+          "an",
+          "equal",
+          "need",
+          "for",
+          "palliative",
+          "care",
+          "services,"
+        ],
+        "solution": [
+          [
+            "But,"
+          ],
+          [
+            "in"
+          ],
+          [
+            "spite"
+          ],
+          [
+            "of"
+          ],
+          [
+            "an"
+          ],
+          [
+            "equal"
+          ],
+          [
+            "need"
+          ],
+          [
+            "for"
+          ],
+          [
+            "palliative"
+          ],
+          [
+            "care"
+          ],
+          [
+            "services,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/10.mp3",
+        "timeStart": 36.47,
+        "timeEnd": 40.81,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89793/list"
+      },
+      {
+        "id": 89794,
+        "position": 11,
+        "content": "dementia patients don't always fit the traditional model of such care.",
+        "defaultInput": "",
+        "jsonContent": [
+          "dementia",
+          "patients",
+          [
+            "don't",
+            "do not"
+          ],
+          "always",
+          "fit",
+          "the",
+          "traditional",
+          "model",
+          "of",
+          "such",
+          "care."
+        ],
+        "solution": [
+          [
+            "dementia"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "always"
+          ],
+          [
+            "fit"
+          ],
+          [
+            "the"
+          ],
+          [
+            "traditional"
+          ],
+          [
+            "model"
+          ],
+          [
+            "of"
+          ],
+          [
+            "such"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/11.mp3",
+        "timeStart": 40.81,
+        "timeEnd": 46.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89794/list"
+      },
+      {
+        "id": 89795,
+        "position": 12,
+        "content": "Families often suffer distress because they feel unable to ensure that their loved one's wishes are being respected,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Families",
+          "often",
+          "suffer",
+          "distress",
+          "because",
+          "they",
+          "feel",
+          "unable",
+          "to",
+          "ensure",
+          "that",
+          "their",
+          "loved",
+          "one's",
+          "wishes",
+          "are",
+          "being",
+          "respected,"
+        ],
+        "solution": [
+          [
+            "Families"
+          ],
+          [
+            "often"
+          ],
+          [
+            "suffer"
+          ],
+          [
+            "distress"
+          ],
+          [
+            "because"
+          ],
+          [
+            "they"
+          ],
+          [
+            "feel"
+          ],
+          [
+            "unable"
+          ],
+          [
+            "to"
+          ],
+          [
+            "ensure"
+          ],
+          [
+            "that"
+          ],
+          [
+            "their"
+          ],
+          [
+            "loved"
+          ],
+          [
+            "one's"
+          ],
+          [
+            "wishes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "being"
+          ],
+          [
+            "respected,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/12.mp3",
+        "timeStart": 46.19,
+        "timeEnd": 53.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89795/list"
+      },
+      {
+        "id": 89796,
+        "position": 13,
+        "content": "or just don't know what that person wanted",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          "just",
+          [
+            "don't",
+            "do not"
+          ],
+          "know",
+          "what",
+          "that",
+          "person",
+          "wanted"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "just"
+          ],
+          [
+            "don't",
+            "do not"
+          ],
+          [
+            "know"
+          ],
+          [
+            "what"
+          ],
+          [
+            "that"
+          ],
+          [
+            "person"
+          ],
+          [
+            "wanted"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/13.mp3",
+        "timeStart": 53.54,
+        "timeEnd": 56.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89796/list"
+      },
+      {
+        "id": 89797,
+        "position": 14,
+        "content": "because the discussion wasn't held early enough.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "the",
+          "discussion",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "held",
+          "early",
+          "enough."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "the"
+          ],
+          [
+            "discussion"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "held"
+          ],
+          [
+            "early"
+          ],
+          [
+            "enough."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/14.mp3",
+        "timeStart": 56.8,
+        "timeEnd": 60.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89797/list"
+      },
+      {
+        "id": 89798,
+        "position": 15,
+        "content": "There is, therefore, a clear need for well-funded, patient-centred palliative dementia care",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There is,",
+            "There's"
+          ],
+          "therefore,",
+          "a",
+          "clear",
+          "need",
+          "for",
+          [
+            "well-funded,",
+            "well funded,"
+          ],
+          [
+            "patient-centred",
+            "patient centred"
+          ],
+          "palliative",
+          "dementia",
+          "care"
+        ],
+        "solution": [
+          [
+            "There is,",
+            "There's"
+          ],
+          [
+            "therefore,"
+          ],
+          [
+            "a"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "need"
+          ],
+          [
+            "for"
+          ],
+          [
+            "well-funded,",
+            "well funded,"
+          ],
+          [
+            "patient-centred",
+            "patient centred"
+          ],
+          [
+            "palliative"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "care"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/15.mp3",
+        "timeStart": 60.27,
+        "timeEnd": 66.71,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89798/list"
+      },
+      {
+        "id": 89799,
+        "position": 16,
+        "content": "that's available when and where it's needed.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that's",
+          "available",
+          "when",
+          "and",
+          "where",
+          "it's",
+          "needed."
+        ],
+        "solution": [
+          [
+            "that's"
+          ],
+          [
+            "available"
+          ],
+          [
+            "when"
+          ],
+          [
+            "and"
+          ],
+          [
+            "where"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "needed."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/16.mp3",
+        "timeStart": 66.71,
+        "timeEnd": 70.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89799/list"
+      },
+      {
+        "id": 89800,
+        "position": 17,
+        "content": "I do a lot of work with Dementia Australia -",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "do",
+          "a",
+          "lot",
+          "of",
+          "work",
+          "with",
+          "Dementia",
+          "Australia",
+          "-"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "do"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lot"
+          ],
+          [
+            "of"
+          ],
+          [
+            "work"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Dementia"
+          ],
+          [
+            "Australia"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/17.mp3",
+        "timeStart": 70.31,
+        "timeEnd": 73.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89800/list"
+      },
+      {
+        "id": 89801,
+        "position": 18,
+        "content": "an organisation which represents the needs of Australians living with all types of dementia,",
+        "defaultInput": "",
+        "jsonContent": [
+          "an",
+          [
+            "organisation",
+            "organization"
+          ],
+          "which",
+          "represents",
+          "the",
+          "needs",
+          "of",
+          "Australians",
+          "living",
+          "with",
+          "all",
+          "types",
+          "of",
+          "dementia,"
+        ],
+        "solution": [
+          [
+            "an"
+          ],
+          [
+            "organisation",
+            "organization"
+          ],
+          [
+            "which"
+          ],
+          [
+            "represents"
+          ],
+          [
+            "the"
+          ],
+          [
+            "needs"
+          ],
+          [
+            "of"
+          ],
+          [
+            "Australians"
+          ],
+          [
+            "living"
+          ],
+          [
+            "with"
+          ],
+          [
+            "all"
+          ],
+          [
+            "types"
+          ],
+          [
+            "of"
+          ],
+          [
+            "dementia,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/18.mp3",
+        "timeStart": 73.15,
+        "timeEnd": 79.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89801/list"
+      },
+      {
+        "id": 89802,
+        "position": 19,
+        "content": "and of their families and carers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "of",
+          "their",
+          "families",
+          "and",
+          "carers."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "families"
+          ],
+          [
+            "and"
+          ],
+          [
+            "carers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/19.mp3",
+        "timeStart": 79.03,
+        "timeEnd": 81.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89802/list"
+      },
+      {
+        "id": 89803,
+        "position": 20,
+        "content": "It also campaigns on dementia issues and funds research.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "also",
+          "campaigns",
+          "on",
+          "dementia",
+          "issues",
+          "and",
+          "funds",
+          "research."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "also"
+          ],
+          [
+            "campaigns"
+          ],
+          [
+            "on"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "and"
+          ],
+          [
+            "funds"
+          ],
+          [
+            "research."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/20.mp3",
+        "timeStart": 81.79,
+        "timeEnd": 86.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89803/list"
+      },
+      {
+        "id": 89804,
+        "position": 21,
+        "content": "Dementia Australia decided it was the right time to examine the issue of end-of-life dementia care,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Dementia",
+          "Australia",
+          "decided",
+          "it",
+          "was",
+          "the",
+          "right",
+          "time",
+          "to",
+          "examine",
+          "the",
+          "issue",
+          "of",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "dementia",
+          "care,"
+        ],
+        "solution": [
+          [
+            "Dementia"
+          ],
+          [
+            "Australia"
+          ],
+          [
+            "decided"
+          ],
+          [
+            "it"
+          ],
+          [
+            "was"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "time"
+          ],
+          [
+            "to"
+          ],
+          [
+            "examine"
+          ],
+          [
+            "the"
+          ],
+          [
+            "issue"
+          ],
+          [
+            "of"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "care,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/21.mp3",
+        "timeStart": 87.93,
+        "timeEnd": 94.51,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89804/list"
+      },
+      {
+        "id": 89805,
+        "position": 22,
+        "content": "from the perspective of the consumer as well as from that of the healthcare professional.",
+        "defaultInput": "",
+        "jsonContent": [
+          "from",
+          "the",
+          "perspective",
+          "of",
+          "the",
+          "consumer",
+          "as",
+          "well",
+          "as",
+          "from",
+          "that",
+          "of",
+          "the",
+          "healthcare",
+          "professional."
+        ],
+        "solution": [
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "perspective"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "consumer"
+          ],
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "from"
+          ],
+          [
+            "that"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "healthcare"
+          ],
+          [
+            "professional."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/22.mp3",
+        "timeStart": 94.51,
+        "timeEnd": 99.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89805/list"
+      },
+      {
+        "id": 89806,
+        "position": 23,
+        "content": "It's a timely initiative.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "a",
+          "timely",
+          "initiative."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "a"
+          ],
+          [
+            "timely"
+          ],
+          [
+            "initiative."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/23.mp3",
+        "timeStart": 99.66,
+        "timeEnd": 101.63,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89806/list"
+      },
+      {
+        "id": 89807,
+        "position": 24,
+        "content": "We have plenty of anecdotal evidence,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We have",
+            "We've"
+          ],
+          "plenty",
+          "of",
+          "anecdotal",
+          "evidence,"
+        ],
+        "solution": [
+          [
+            "We have",
+            "We've"
+          ],
+          [
+            "plenty"
+          ],
+          [
+            "of"
+          ],
+          [
+            "anecdotal"
+          ],
+          [
+            "evidence,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/24.mp3",
+        "timeStart": 101.74,
+        "timeEnd": 104.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89807/list"
+      },
+      {
+        "id": 89808,
+        "position": 25,
+        "content": "but not enough hard facts about what's going wrong and why the system's failing.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "not",
+          "enough",
+          "hard",
+          "facts",
+          "about",
+          [
+            "what's",
+            "what is"
+          ],
+          "going",
+          "wrong",
+          "and",
+          "why",
+          "the",
+          "system's",
+          "failing."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "not"
+          ],
+          [
+            "enough"
+          ],
+          [
+            "hard"
+          ],
+          [
+            "facts"
+          ],
+          [
+            "about"
+          ],
+          [
+            "what's",
+            "what is"
+          ],
+          [
+            "going"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "and"
+          ],
+          [
+            "why"
+          ],
+          [
+            "the"
+          ],
+          [
+            "system's"
+          ],
+          [
+            "failing."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/25.mp3",
+        "timeStart": 104.11,
+        "timeEnd": 109.55,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89808/list"
+      },
+      {
+        "id": 89809,
+        "position": 26,
+        "content": "But the current situation isn't all bad.",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "the",
+          "current",
+          "situation",
+          [
+            "isn't",
+            "is not"
+          ],
+          "all",
+          "bad."
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "the"
+          ],
+          [
+            "current"
+          ],
+          [
+            "situation"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "all"
+          ],
+          [
+            "bad."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/26.mp3",
+        "timeStart": 109.71,
+        "timeEnd": 112.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89809/list"
+      },
+      {
+        "id": 89810,
+        "position": 27,
+        "content": "Despite the issues I've mentioned,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Despite",
+          "the",
+          "issues",
+          [
+            "I've",
+            "I have"
+          ],
+          "mentioned,"
+        ],
+        "solution": [
+          [
+            "Despite"
+          ],
+          [
+            "the"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "mentioned,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/27.mp3",
+        "timeStart": 112.69,
+        "timeEnd": 114.9,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89810/list"
+      },
+      {
+        "id": 89811,
+        "position": 28,
+        "content": "I've heard some wonderful examples of how palliative care has made a big difference to people's lives.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I've",
+            "I have"
+          ],
+          "heard",
+          "some",
+          "wonderful",
+          "examples",
+          "of",
+          "how",
+          "palliative",
+          "care",
+          "has",
+          "made",
+          "a",
+          "big",
+          "difference",
+          "to",
+          "people's",
+          "lives."
+        ],
+        "solution": [
+          [
+            "I've",
+            "I have"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "some"
+          ],
+          [
+            "wonderful"
+          ],
+          [
+            "examples"
+          ],
+          [
+            "of"
+          ],
+          [
+            "how"
+          ],
+          [
+            "palliative"
+          ],
+          [
+            "care"
+          ],
+          [
+            "has"
+          ],
+          [
+            "made"
+          ],
+          [
+            "a"
+          ],
+          [
+            "big"
+          ],
+          [
+            "difference"
+          ],
+          [
+            "to"
+          ],
+          [
+            "people's"
+          ],
+          [
+            "lives."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/28.mp3",
+        "timeStart": 114.9,
+        "timeEnd": 121.11,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89811/list"
+      },
+      {
+        "id": 89812,
+        "position": 29,
+        "content": "Things can obviously go badly wrong if this isn't handled well,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Things",
+          "can",
+          "obviously",
+          "go",
+          "badly",
+          "wrong",
+          "if",
+          "this",
+          [
+            "isn't",
+            "is not"
+          ],
+          "handled",
+          "well,"
+        ],
+        "solution": [
+          [
+            "Things"
+          ],
+          [
+            "can"
+          ],
+          [
+            "obviously"
+          ],
+          [
+            "go"
+          ],
+          [
+            "badly"
+          ],
+          [
+            "wrong"
+          ],
+          [
+            "if"
+          ],
+          [
+            "this"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "handled"
+          ],
+          [
+            "well,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/29.mp3",
+        "timeStart": 121.32,
+        "timeEnd": 125.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89812/list"
+      },
+      {
+        "id": 89813,
+        "position": 30,
+        "content": "but in the right circumstances, people with dementia can reach the end of their lives peacefully and with dignity.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          "in",
+          "the",
+          "right",
+          "circumstances,",
+          "people",
+          "with",
+          "dementia",
+          "can",
+          "reach",
+          "the",
+          "end",
+          "of",
+          "their",
+          "lives",
+          "peacefully",
+          "and",
+          "with",
+          "dignity."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "circumstances,"
+          ],
+          [
+            "people"
+          ],
+          [
+            "with"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "can"
+          ],
+          [
+            "reach"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "their"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "peacefully"
+          ],
+          [
+            "and"
+          ],
+          [
+            "with"
+          ],
+          [
+            "dignity."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/30.mp3",
+        "timeStart": 125.7,
+        "timeEnd": 134.22,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89813/list"
+      },
+      {
+        "id": 89814,
+        "position": 31,
+        "content": "Dementia Australia commissioned researchers to conduct a survey on the end-of-life issues affecting dementia patients.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Dementia",
+          "Australia",
+          "commissioned",
+          "researchers",
+          "to",
+          "conduct",
+          "a",
+          "survey",
+          "on",
+          "the",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "issues",
+          "affecting",
+          "dementia",
+          "patients."
+        ],
+        "solution": [
+          [
+            "Dementia"
+          ],
+          [
+            "Australia"
+          ],
+          [
+            "commissioned"
+          ],
+          [
+            "researchers"
+          ],
+          [
+            "to"
+          ],
+          [
+            "conduct"
+          ],
+          [
+            "a"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "on"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "affecting"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "patients."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/31.mp3",
+        "timeStart": 134.77,
+        "timeEnd": 142.65,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89814/list"
+      },
+      {
+        "id": 89815,
+        "position": 32,
+        "content": "The survey covered both care professionals, that's doctors, nurses and others working with dementia patients,",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "survey",
+          "covered",
+          "both",
+          "care",
+          "professionals,",
+          "that's",
+          "doctors,",
+          "nurses",
+          "and",
+          "others",
+          "working",
+          "with",
+          "dementia",
+          "patients,"
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "covered"
+          ],
+          [
+            "both"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals,"
+          ],
+          [
+            "that's"
+          ],
+          [
+            "doctors,"
+          ],
+          [
+            "nurses"
+          ],
+          [
+            "and"
+          ],
+          [
+            "others"
+          ],
+          [
+            "working"
+          ],
+          [
+            "with"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "patients,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/32.mp3",
+        "timeStart": 142.85,
+        "timeEnd": 149.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89815/list"
+      },
+      {
+        "id": 89816,
+        "position": 33,
+        "content": "as well as family-member carers.",
+        "defaultInput": "",
+        "jsonContent": [
+          "as",
+          "well",
+          "as",
+          [
+            "family-member",
+            "family member"
+          ],
+          "carers."
+        ],
+        "solution": [
+          [
+            "as"
+          ],
+          [
+            "well"
+          ],
+          [
+            "as"
+          ],
+          [
+            "family-member",
+            "family member"
+          ],
+          [
+            "carers."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/33.mp3",
+        "timeStart": 149.73,
+        "timeEnd": 152.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89816/list"
+      },
+      {
+        "id": 89817,
+        "position": 34,
+        "content": "The interest was overwhelming with more than a thousand responses from around Australia.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "interest",
+          "was",
+          "overwhelming",
+          "with",
+          "more",
+          "than",
+          "a",
+          "thousand",
+          "responses",
+          "from",
+          "around",
+          "Australia."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "interest"
+          ],
+          [
+            "was"
+          ],
+          [
+            "overwhelming"
+          ],
+          [
+            "with"
+          ],
+          [
+            "more"
+          ],
+          [
+            "than"
+          ],
+          [
+            "a"
+          ],
+          [
+            "thousand"
+          ],
+          [
+            "responses"
+          ],
+          [
+            "from"
+          ],
+          [
+            "around"
+          ],
+          [
+            "Australia."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/34.mp3",
+        "timeStart": 152.63,
+        "timeEnd": 157.99,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89817/list"
+      },
+      {
+        "id": 89818,
+        "position": 35,
+        "content": "But what do the results tell us?",
+        "defaultInput": "",
+        "jsonContent": [
+          "But",
+          "what",
+          "do",
+          "the",
+          "results",
+          "tell",
+          "us?"
+        ],
+        "solution": [
+          [
+            "But"
+          ],
+          [
+            "what"
+          ],
+          [
+            "do"
+          ],
+          [
+            "the"
+          ],
+          [
+            "results"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "us?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/35.mp3",
+        "timeStart": 158.23,
+        "timeEnd": 160.23,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89818/list"
+      },
+      {
+        "id": 89819,
+        "position": 36,
+        "content": "Well, the initial results confirmed what we've heard about access to appropriate end-of-life care.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Well,",
+          "the",
+          "initial",
+          "results",
+          "confirmed",
+          "what",
+          [
+            "we've",
+            "we have"
+          ],
+          "heard",
+          "about",
+          "access",
+          "to",
+          "appropriate",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "care."
+        ],
+        "solution": [
+          [
+            "Well,"
+          ],
+          [
+            "the"
+          ],
+          [
+            "initial"
+          ],
+          [
+            "results"
+          ],
+          [
+            "confirmed"
+          ],
+          [
+            "what"
+          ],
+          [
+            "we've",
+            "we have"
+          ],
+          [
+            "heard"
+          ],
+          [
+            "about"
+          ],
+          [
+            "access"
+          ],
+          [
+            "to"
+          ],
+          [
+            "appropriate"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/36.mp3",
+        "timeStart": 160.57,
+        "timeEnd": 167.09,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89819/list"
+      },
+      {
+        "id": 89820,
+        "position": 37,
+        "content": "It was obvious immediately that there was a striking gap between the perceptions of care professionals,",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "was",
+          "obvious",
+          "immediately",
+          "that",
+          "there",
+          "was",
+          "a",
+          "striking",
+          "gap",
+          "between",
+          "the",
+          "perceptions",
+          "of",
+          "care",
+          "professionals,"
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "was"
+          ],
+          [
+            "obvious"
+          ],
+          [
+            "immediately"
+          ],
+          [
+            "that"
+          ],
+          [
+            "there"
+          ],
+          [
+            "was"
+          ],
+          [
+            "a"
+          ],
+          [
+            "striking"
+          ],
+          [
+            "gap"
+          ],
+          [
+            "between"
+          ],
+          [
+            "the"
+          ],
+          [
+            "perceptions"
+          ],
+          [
+            "of"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/37.mp3",
+        "timeStart": 167.26,
+        "timeEnd": 173.93,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89820/list"
+      },
+      {
+        "id": 89821,
+        "position": 38,
+        "content": "and family-member carers about end-of-life dementia care.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "family-member",
+            "family member"
+          ],
+          "carers",
+          "about",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "dementia",
+          "care."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "family-member",
+            "family member"
+          ],
+          [
+            "carers"
+          ],
+          [
+            "about"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/38.mp3",
+        "timeStart": 173.93,
+        "timeEnd": 178.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89821/list"
+      },
+      {
+        "id": 89822,
+        "position": 39,
+        "content": "For instance, while 58% of family-member carers said that they didn't have access to palliative care specialists,",
+        "defaultInput": "",
+        "jsonContent": [
+          "For",
+          "instance,",
+          "while",
+          [
+            "58%",
+            "58 percent"
+          ],
+          "of",
+          [
+            "family-member",
+            "family member"
+          ],
+          "carers",
+          "said",
+          "that",
+          "they",
+          [
+            "didn't",
+            "did not"
+          ],
+          "have",
+          "access",
+          "to",
+          "palliative",
+          "care",
+          "specialists,"
+        ],
+        "solution": [
+          [
+            "For"
+          ],
+          [
+            "instance,"
+          ],
+          [
+            "while"
+          ],
+          [
+            "58%",
+            "58 percent"
+          ],
+          [
+            "of"
+          ],
+          [
+            "family-member",
+            "family member"
+          ],
+          [
+            "carers"
+          ],
+          [
+            "said"
+          ],
+          [
+            "that"
+          ],
+          [
+            "they"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "access"
+          ],
+          [
+            "to"
+          ],
+          [
+            "palliative"
+          ],
+          [
+            "care"
+          ],
+          [
+            "specialists,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/39.mp3",
+        "timeStart": 178.03,
+        "timeEnd": 185.83,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89822/list"
+      },
+      {
+        "id": 89823,
+        "position": 40,
+        "content": "and 68% didn't have access to hospices,",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "68%",
+            "68 percent"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          "have",
+          "access",
+          "to",
+          "hospices,"
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "68%",
+            "68 percent"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "have"
+          ],
+          [
+            "access"
+          ],
+          [
+            "to"
+          ],
+          [
+            "hospices,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/40.mp3",
+        "timeStart": 185.83,
+        "timeEnd": 189.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89823/list"
+      },
+      {
+        "id": 89824,
+        "position": 41,
+        "content": "three quarters of care professionals indicated that people with dementia in their area do in fact have access to palliative care.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "three",
+            "3"
+          ],
+          "quarters",
+          "of",
+          "care",
+          "professionals",
+          "indicated",
+          "that",
+          "people",
+          "with",
+          "dementia",
+          "in",
+          "their",
+          "area",
+          "do",
+          "in",
+          "fact",
+          "have",
+          "access",
+          "to",
+          "palliative",
+          "care."
+        ],
+        "solution": [
+          [
+            "three",
+            "3"
+          ],
+          [
+            "quarters"
+          ],
+          [
+            "of"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "indicated"
+          ],
+          [
+            "that"
+          ],
+          [
+            "people"
+          ],
+          [
+            "with"
+          ],
+          [
+            "dementia"
+          ],
+          [
+            "in"
+          ],
+          [
+            "their"
+          ],
+          [
+            "area"
+          ],
+          [
+            "do"
+          ],
+          [
+            "in"
+          ],
+          [
+            "fact"
+          ],
+          [
+            "have"
+          ],
+          [
+            "access"
+          ],
+          [
+            "to"
+          ],
+          [
+            "palliative"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/41.mp3",
+        "timeStart": 189.65,
+        "timeEnd": 198.62,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89824/list"
+      },
+      {
+        "id": 89825,
+        "position": 42,
+        "content": "This begs the question of whether consumers - that is patients and family-member carers -",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "begs",
+          "the",
+          "question",
+          "of",
+          "whether",
+          "consumers",
+          "-",
+          [
+            "that is",
+            "that's"
+          ],
+          "patients",
+          "and",
+          [
+            "family-member",
+            "family member"
+          ],
+          "carers",
+          "-"
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "begs"
+          ],
+          [
+            "the"
+          ],
+          [
+            "question"
+          ],
+          [
+            "of"
+          ],
+          [
+            "whether"
+          ],
+          [
+            "consumers"
+          ],
+          [
+            "-"
+          ],
+          [
+            "that is",
+            "that's"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "and"
+          ],
+          [
+            "family-member",
+            "family member"
+          ],
+          [
+            "carers"
+          ],
+          [
+            "-"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/42.mp3",
+        "timeStart": 198.81,
+        "timeEnd": 205.53,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89825/list"
+      },
+      {
+        "id": 89826,
+        "position": 43,
+        "content": "might not be aware of services that are available.",
+        "defaultInput": "",
+        "jsonContent": [
+          "might",
+          "not",
+          "be",
+          "aware",
+          "of",
+          "services",
+          "that",
+          "are",
+          "available."
+        ],
+        "solution": [
+          [
+            "might"
+          ],
+          [
+            "not"
+          ],
+          [
+            "be"
+          ],
+          [
+            "aware"
+          ],
+          [
+            "of"
+          ],
+          [
+            "services"
+          ],
+          [
+            "that"
+          ],
+          [
+            "are"
+          ],
+          [
+            "available."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/43.mp3",
+        "timeStart": 205.53,
+        "timeEnd": 209.14,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89826/list"
+      },
+      {
+        "id": 89827,
+        "position": 44,
+        "content": "Another notable finding of the survey was that care professionals often lack knowledge of the legal issues surrounding end-of-life care.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Another",
+          "notable",
+          "finding",
+          "of",
+          "the",
+          "survey",
+          "was",
+          "that",
+          "care",
+          "professionals",
+          "often",
+          "lack",
+          "knowledge",
+          "of",
+          "the",
+          "legal",
+          "issues",
+          "surrounding",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "care."
+        ],
+        "solution": [
+          [
+            "Another"
+          ],
+          [
+            "notable"
+          ],
+          [
+            "finding"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "was"
+          ],
+          [
+            "that"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "often"
+          ],
+          [
+            "lack"
+          ],
+          [
+            "knowledge"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "legal"
+          ],
+          [
+            "issues"
+          ],
+          [
+            "surrounding"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/44.mp3",
+        "timeStart": 210.59,
+        "timeEnd": 219.45,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89827/list"
+      },
+      {
+        "id": 89828,
+        "position": 45,
+        "content": "Some reports indicate that care professionals are at times reluctant to use pain medications such as morphine",
+        "defaultInput": "",
+        "jsonContent": [
+          "Some",
+          "reports",
+          "indicate",
+          "that",
+          "care",
+          "professionals",
+          "are",
+          "at",
+          "times",
+          "reluctant",
+          "to",
+          "use",
+          "pain",
+          "medications",
+          "such",
+          "as",
+          "morphine"
+        ],
+        "solution": [
+          [
+            "Some"
+          ],
+          [
+            "reports"
+          ],
+          [
+            "indicate"
+          ],
+          [
+            "that"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "are"
+          ],
+          [
+            "at"
+          ],
+          [
+            "times"
+          ],
+          [
+            "reluctant"
+          ],
+          [
+            "to"
+          ],
+          [
+            "use"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "medications"
+          ],
+          [
+            "such"
+          ],
+          [
+            "as"
+          ],
+          [
+            "morphine"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/45.mp3",
+        "timeStart": 219.45,
+        "timeEnd": 227.08,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89828/list"
+      },
+      {
+        "id": 89829,
+        "position": 46,
+        "content": "because of concerns about hastening a patient's death.",
+        "defaultInput": "",
+        "jsonContent": [
+          "because",
+          "of",
+          "concerns",
+          "about",
+          "hastening",
+          "a",
+          "patient's",
+          "death."
+        ],
+        "solution": [
+          [
+            "because"
+          ],
+          [
+            "of"
+          ],
+          [
+            "concerns"
+          ],
+          [
+            "about"
+          ],
+          [
+            "hastening"
+          ],
+          [
+            "a"
+          ],
+          [
+            "patient's"
+          ],
+          [
+            "death."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/46.mp3",
+        "timeStart": 227.08,
+        "timeEnd": 230.3,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89829/list"
+      },
+      {
+        "id": 89830,
+        "position": 47,
+        "content": "However, access to appropriate pain relief is considered to be a fundamental human right,",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "access",
+          "to",
+          "appropriate",
+          "pain",
+          "relief",
+          "is",
+          "considered",
+          "to",
+          "be",
+          "a",
+          "fundamental",
+          "human",
+          "right,"
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "access"
+          ],
+          [
+            "to"
+          ],
+          [
+            "appropriate"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "relief"
+          ],
+          [
+            "is"
+          ],
+          [
+            "considered"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "fundamental"
+          ],
+          [
+            "human"
+          ],
+          [
+            "right,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/47.mp3",
+        "timeStart": 230.61,
+        "timeEnd": 236.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89830/list"
+      },
+      {
+        "id": 89831,
+        "position": 48,
+        "content": "even if death is earlier as a secondary effect of medication.",
+        "defaultInput": "",
+        "jsonContent": [
+          "even",
+          "if",
+          "death",
+          "is",
+          "earlier",
+          "as",
+          "a",
+          "secondary",
+          "effect",
+          "of",
+          "medication."
+        ],
+        "solution": [
+          [
+            "even"
+          ],
+          [
+            "if"
+          ],
+          [
+            "death"
+          ],
+          [
+            "is"
+          ],
+          [
+            "earlier"
+          ],
+          [
+            "as"
+          ],
+          [
+            "a"
+          ],
+          [
+            "secondary"
+          ],
+          [
+            "effect"
+          ],
+          [
+            "of"
+          ],
+          [
+            "medication."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/48.mp3",
+        "timeStart": 236.65,
+        "timeEnd": 241.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89831/list"
+      },
+      {
+        "id": 89832,
+        "position": 49,
+        "content": "Our survey found that 27% of care professionals were unsure about this,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Our",
+          "survey",
+          "found",
+          "that",
+          [
+            "27%",
+            "27 percent"
+          ],
+          "of",
+          "care",
+          "professionals",
+          "were",
+          "unsure",
+          "about",
+          "this,"
+        ],
+        "solution": [
+          [
+            "Our"
+          ],
+          [
+            "survey"
+          ],
+          [
+            "found"
+          ],
+          [
+            "that"
+          ],
+          [
+            "27%",
+            "27 percent"
+          ],
+          [
+            "of"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "were"
+          ],
+          [
+            "unsure"
+          ],
+          [
+            "about"
+          ],
+          [
+            "this,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/49.mp3",
+        "timeStart": 241.39,
+        "timeEnd": 247.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89832/list"
+      },
+      {
+        "id": 89833,
+        "position": 50,
+        "content": "or didn't believe that patients are legally entitled to adequate pain control,",
+        "defaultInput": "",
+        "jsonContent": [
+          "or",
+          [
+            "didn't",
+            "did not"
+          ],
+          "believe",
+          "that",
+          "patients",
+          "are",
+          "legally",
+          "entitled",
+          "to",
+          "adequate",
+          "pain",
+          "control,"
+        ],
+        "solution": [
+          [
+            "or"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "that"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "are"
+          ],
+          [
+            "legally"
+          ],
+          [
+            "entitled"
+          ],
+          [
+            "to"
+          ],
+          [
+            "adequate"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "control,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/50.mp3",
+        "timeStart": 247.21,
+        "timeEnd": 252.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89833/list"
+      },
+      {
+        "id": 89834,
+        "position": 51,
+        "content": "if it might hasten death.",
+        "defaultInput": "",
+        "jsonContent": [
+          "if",
+          "it",
+          "might",
+          "hasten",
+          "death."
+        ],
+        "solution": [
+          [
+            "if"
+          ],
+          [
+            "it"
+          ],
+          [
+            "might"
+          ],
+          [
+            "hasten"
+          ],
+          [
+            "death."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/51.mp3",
+        "timeStart": 252.16,
+        "timeEnd": 254.05,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89834/list"
+      },
+      {
+        "id": 89835,
+        "position": 52,
+        "content": "So perhaps it isn't surprising then,",
+        "defaultInput": "",
+        "jsonContent": [
+          "So",
+          "perhaps",
+          "it",
+          [
+            "isn't",
+            "is not"
+          ],
+          "surprising",
+          "then,"
+        ],
+        "solution": [
+          [
+            "So"
+          ],
+          [
+            "perhaps"
+          ],
+          [
+            "it"
+          ],
+          [
+            "isn't",
+            "is not"
+          ],
+          [
+            "surprising"
+          ],
+          [
+            "then,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/52.mp3",
+        "timeStart": 254.19,
+        "timeEnd": 256.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89835/list"
+      },
+      {
+        "id": 89836,
+        "position": 53,
+        "content": "that a quarter of former family-member carers felt that pain wasn't adequately managed in end-of-life care.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "a",
+          "quarter",
+          "of",
+          "former",
+          [
+            "family-member",
+            "family member"
+          ],
+          "carers",
+          "felt",
+          "that",
+          "pain",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "adequately",
+          "managed",
+          "in",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "care."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "a"
+          ],
+          [
+            "quarter"
+          ],
+          [
+            "of"
+          ],
+          [
+            "former"
+          ],
+          [
+            "family-member",
+            "family member"
+          ],
+          [
+            "carers"
+          ],
+          [
+            "felt"
+          ],
+          [
+            "that"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "adequately"
+          ],
+          [
+            "managed"
+          ],
+          [
+            "in"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/53.mp3",
+        "timeStart": 256.85,
+        "timeEnd": 264.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89836/list"
+      },
+      {
+        "id": 89837,
+        "position": 54,
+        "content": "This lack of awareness extends beyond pain management.",
+        "defaultInput": "",
+        "jsonContent": [
+          "This",
+          "lack",
+          "of",
+          "awareness",
+          "extends",
+          "beyond",
+          "pain",
+          "management."
+        ],
+        "solution": [
+          [
+            "This"
+          ],
+          [
+            "lack"
+          ],
+          [
+            "of"
+          ],
+          [
+            "awareness"
+          ],
+          [
+            "extends"
+          ],
+          [
+            "beyond"
+          ],
+          [
+            "pain"
+          ],
+          [
+            "management."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/54.mp3",
+        "timeStart": 265.32,
+        "timeEnd": 269.31,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89837/list"
+      },
+      {
+        "id": 89838,
+        "position": 55,
+        "content": "The statistics on refusing treatment were particularly shocking.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "statistics",
+          "on",
+          "refusing",
+          "treatment",
+          "were",
+          "particularly",
+          "shocking."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "statistics"
+          ],
+          [
+            "on"
+          ],
+          [
+            "refusing"
+          ],
+          [
+            "treatment"
+          ],
+          [
+            "were"
+          ],
+          [
+            "particularly"
+          ],
+          [
+            "shocking."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/55.mp3",
+        "timeStart": 269.47,
+        "timeEnd": 273.91,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89838/list"
+      },
+      {
+        "id": 89839,
+        "position": 56,
+        "content": "Almost a third of care professionals were unaware that people have the right to refuse food and hydration,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Almost",
+          "a",
+          "third",
+          "of",
+          "care",
+          "professionals",
+          "were",
+          "unaware",
+          "that",
+          "people",
+          "have",
+          "the",
+          "right",
+          "to",
+          "refuse",
+          "food",
+          "and",
+          "hydration,"
+        ],
+        "solution": [
+          [
+            "Almost"
+          ],
+          [
+            "a"
+          ],
+          [
+            "third"
+          ],
+          [
+            "of"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "were"
+          ],
+          [
+            "unaware"
+          ],
+          [
+            "that"
+          ],
+          [
+            "people"
+          ],
+          [
+            "have"
+          ],
+          [
+            "the"
+          ],
+          [
+            "right"
+          ],
+          [
+            "to"
+          ],
+          [
+            "refuse"
+          ],
+          [
+            "food"
+          ],
+          [
+            "and"
+          ],
+          [
+            "hydration,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/56.mp3",
+        "timeStart": 274.06,
+        "timeEnd": 281.49,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89839/list"
+      },
+      {
+        "id": 89840,
+        "position": 57,
+        "content": "and one in ten also thought refusal of antibiotics wasn't an option for patients in end-of-life care.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          [
+            "one",
+            "1"
+          ],
+          "in",
+          [
+            "ten",
+            "10"
+          ],
+          "also",
+          "thought",
+          "refusal",
+          "of",
+          "antibiotics",
+          [
+            "wasn't",
+            "was not"
+          ],
+          "an",
+          "option",
+          "for",
+          "patients",
+          "in",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "care."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "in"
+          ],
+          [
+            "ten",
+            "10"
+          ],
+          [
+            "also"
+          ],
+          [
+            "thought"
+          ],
+          [
+            "refusal"
+          ],
+          [
+            "of"
+          ],
+          [
+            "antibiotics"
+          ],
+          [
+            "wasn't",
+            "was not"
+          ],
+          [
+            "an"
+          ],
+          [
+            "option"
+          ],
+          [
+            "for"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "in"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "care."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/57.mp3",
+        "timeStart": 281.49,
+        "timeEnd": 289.19,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89840/list"
+      },
+      {
+        "id": 89841,
+        "position": 58,
+        "content": "How can we ever achieve consumer empowerment and consumer-directed care",
+        "defaultInput": "",
+        "jsonContent": [
+          "How",
+          "can",
+          "we",
+          "ever",
+          "achieve",
+          "consumer",
+          "empowerment",
+          "and",
+          [
+            "consumer-directed",
+            "consumer directed"
+          ],
+          "care"
+        ],
+        "solution": [
+          [
+            "How"
+          ],
+          [
+            "can"
+          ],
+          [
+            "we"
+          ],
+          [
+            "ever"
+          ],
+          [
+            "achieve"
+          ],
+          [
+            "consumer"
+          ],
+          [
+            "empowerment"
+          ],
+          [
+            "and"
+          ],
+          [
+            "consumer-directed",
+            "consumer directed"
+          ],
+          [
+            "care"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/58.mp3",
+        "timeStart": 289.9,
+        "timeEnd": 295.21,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89841/list"
+      },
+      {
+        "id": 89842,
+        "position": 59,
+        "content": "if the professionals are so ill informed?",
+        "defaultInput": "",
+        "jsonContent": [
+          "if",
+          "the",
+          "professionals",
+          "are",
+          "so",
+          "ill",
+          "informed?"
+        ],
+        "solution": [
+          [
+            "if"
+          ],
+          [
+            "the"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "are"
+          ],
+          [
+            "so"
+          ],
+          [
+            "ill"
+          ],
+          [
+            "informed?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/59.mp3",
+        "timeStart": 295.21,
+        "timeEnd": 298.36,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89842/list"
+      },
+      {
+        "id": 89843,
+        "position": 60,
+        "content": "There's a clear need for greater information and training on patient rights,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "There's",
+            "There is"
+          ],
+          "a",
+          "clear",
+          "need",
+          "for",
+          "greater",
+          "information",
+          "and",
+          "training",
+          "on",
+          "patient",
+          "rights,"
+        ],
+        "solution": [
+          [
+            "There's",
+            "There is"
+          ],
+          [
+            "a"
+          ],
+          [
+            "clear"
+          ],
+          [
+            "need"
+          ],
+          [
+            "for"
+          ],
+          [
+            "greater"
+          ],
+          [
+            "information"
+          ],
+          [
+            "and"
+          ],
+          [
+            "training"
+          ],
+          [
+            "on"
+          ],
+          [
+            "patient"
+          ],
+          [
+            "rights,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/60.mp3",
+        "timeStart": 298.54,
+        "timeEnd": 303.95,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89843/list"
+      },
+      {
+        "id": 89844,
+        "position": 61,
+        "content": "yet over a third of care professionals said they hadn't received any such training at all.",
+        "defaultInput": "",
+        "jsonContent": [
+          "yet",
+          "over",
+          "a",
+          "third",
+          "of",
+          "care",
+          "professionals",
+          "said",
+          "they",
+          [
+            "hadn't",
+            "had not"
+          ],
+          "received",
+          "any",
+          "such",
+          "training",
+          "at",
+          "all."
+        ],
+        "solution": [
+          [
+            "yet"
+          ],
+          [
+            "over"
+          ],
+          [
+            "a"
+          ],
+          [
+            "third"
+          ],
+          [
+            "of"
+          ],
+          [
+            "care"
+          ],
+          [
+            "professionals"
+          ],
+          [
+            "said"
+          ],
+          [
+            "they"
+          ],
+          [
+            "hadn't",
+            "had not"
+          ],
+          [
+            "received"
+          ],
+          [
+            "any"
+          ],
+          [
+            "such"
+          ],
+          [
+            "training"
+          ],
+          [
+            "at"
+          ],
+          [
+            "all."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/61.mp3",
+        "timeStart": 303.95,
+        "timeEnd": 309.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89844/list"
+      },
+      {
+        "id": 89845,
+        "position": 62,
+        "content": "It's obvious that end-of-life care planning is desirable.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It's",
+          "obvious",
+          "that",
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          "care",
+          "planning",
+          "is",
+          "desirable."
+        ],
+        "solution": [
+          [
+            "It's"
+          ],
+          [
+            "obvious"
+          ],
+          [
+            "that"
+          ],
+          [
+            "end-of-life",
+            "end of life"
+          ],
+          [
+            "care"
+          ],
+          [
+            "planning"
+          ],
+          [
+            "is"
+          ],
+          [
+            "desirable."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/62.mp3",
+        "timeStart": 310.1,
+        "timeEnd": 314.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89845/list"
+      },
+      {
+        "id": 89846,
+        "position": 63,
+        "content": "Discussing and documenting preferences",
+        "defaultInput": "",
+        "jsonContent": [
+          "Discussing",
+          "and",
+          "documenting",
+          "preferences"
+        ],
+        "solution": [
+          [
+            "Discussing"
+          ],
+          [
+            "and"
+          ],
+          [
+            "documenting"
+          ],
+          [
+            "preferences"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/63.mp3",
+        "timeStart": 314.24,
+        "timeEnd": 317.5,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89846/list"
+      },
+      {
+        "id": 89847,
+        "position": 64,
+        "content": "is clearly the best way of minimising the burden of decision-making on carers,",
+        "defaultInput": "",
+        "jsonContent": [
+          "is",
+          "clearly",
+          "the",
+          "best",
+          "way",
+          "of",
+          "minimising",
+          "the",
+          "burden",
+          "of",
+          [
+            "decision-making",
+            "decision making"
+          ],
+          "on",
+          "carers,"
+        ],
+        "solution": [
+          [
+            "is"
+          ],
+          [
+            "clearly"
+          ],
+          [
+            "the"
+          ],
+          [
+            "best"
+          ],
+          [
+            "way"
+          ],
+          [
+            "of"
+          ],
+          [
+            "minimising"
+          ],
+          [
+            "the"
+          ],
+          [
+            "burden"
+          ],
+          [
+            "of"
+          ],
+          [
+            "decision-making",
+            "decision making"
+          ],
+          [
+            "on"
+          ],
+          [
+            "carers,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/64.mp3",
+        "timeStart": 317.5,
+        "timeEnd": 322.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89847/list"
+      },
+      {
+        "id": 89848,
+        "position": 65,
+        "content": "and ensuring patients' wishes are respected.",
+        "defaultInput": "",
+        "jsonContent": [
+          "and",
+          "ensuring",
+          "patients'",
+          "wishes",
+          "are",
+          "respected."
+        ],
+        "solution": [
+          [
+            "and"
+          ],
+          [
+            "ensuring"
+          ],
+          [
+            "patients'"
+          ],
+          [
+            "wishes"
+          ],
+          [
+            "are"
+          ],
+          [
+            "respected."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/65.mp3",
+        "timeStart": 322.86,
+        "timeEnd": 325.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89848/list"
+      },
+      {
+        "id": 89849,
+        "position": 66,
+        "content": "Advance care planning is essentially an insurance policy",
+        "defaultInput": "",
+        "jsonContent": [
+          "Advance",
+          "care",
+          "planning",
+          "is",
+          "essentially",
+          "an",
+          "insurance",
+          "policy"
+        ],
+        "solution": [
+          [
+            "Advance"
+          ],
+          [
+            "care"
+          ],
+          [
+            "planning"
+          ],
+          [
+            "is"
+          ],
+          [
+            "essentially"
+          ],
+          [
+            "an"
+          ],
+          [
+            "insurance"
+          ],
+          [
+            "policy"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/66.mp3",
+        "timeStart": 326.08,
+        "timeEnd": 330.66,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89849/list"
+      },
+      {
+        "id": 89850,
+        "position": 67,
+        "content": "that helps to protect our patients in case they lose their decision-making capacity.",
+        "defaultInput": "",
+        "jsonContent": [
+          "that",
+          "helps",
+          "to",
+          "protect",
+          "our",
+          "patients",
+          "in",
+          "case",
+          "they",
+          "lose",
+          "their",
+          [
+            "decision-making",
+            "decision making"
+          ],
+          "capacity."
+        ],
+        "solution": [
+          [
+            "that"
+          ],
+          [
+            "helps"
+          ],
+          [
+            "to"
+          ],
+          [
+            "protect"
+          ],
+          [
+            "our"
+          ],
+          [
+            "patients"
+          ],
+          [
+            "in"
+          ],
+          [
+            "case"
+          ],
+          [
+            "they"
+          ],
+          [
+            "lose"
+          ],
+          [
+            "their"
+          ],
+          [
+            "decision-making",
+            "decision making"
+          ],
+          [
+            "capacity."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/67.mp3",
+        "timeStart": 330.66,
+        "timeEnd": 336,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89850/list"
+      },
+      {
+        "id": 89851,
+        "position": 68,
+        "content": "Even though a patient might believe that loved ones will have their best interests at heart,",
+        "defaultInput": "",
+        "jsonContent": [
+          "Even",
+          "though",
+          "a",
+          "patient",
+          "might",
+          "believe",
+          "that",
+          "loved",
+          "ones",
+          "will",
+          "have",
+          "their",
+          "best",
+          "interests",
+          "at",
+          "heart,"
+        ],
+        "solution": [
+          [
+            "Even"
+          ],
+          [
+            "though"
+          ],
+          [
+            "a"
+          ],
+          [
+            "patient"
+          ],
+          [
+            "might"
+          ],
+          [
+            "believe"
+          ],
+          [
+            "that"
+          ],
+          [
+            "loved"
+          ],
+          [
+            "ones"
+          ],
+          [
+            "will"
+          ],
+          [
+            "have"
+          ],
+          [
+            "their"
+          ],
+          [
+            "best"
+          ],
+          [
+            "interests"
+          ],
+          [
+            "at"
+          ],
+          [
+            "heart,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/68.mp3",
+        "timeStart": 336.15,
+        "timeEnd": 341.82,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89851/list"
+      },
+      {
+        "id": 89852,
+        "position": 69,
+        "content": "the evidence shows that such people aren't that good at knowing what decisions those they love would make",
+        "defaultInput": "",
+        "jsonContent": [
+          "the",
+          "evidence",
+          "shows",
+          "that",
+          "such",
+          "people",
+          [
+            "aren't",
+            "are not"
+          ],
+          "that",
+          "good",
+          "at",
+          "knowing",
+          "what",
+          "decisions",
+          "those",
+          "they",
+          "love",
+          "would",
+          "make"
+        ],
+        "solution": [
+          [
+            "the"
+          ],
+          [
+            "evidence"
+          ],
+          [
+            "shows"
+          ],
+          [
+            "that"
+          ],
+          [
+            "such"
+          ],
+          [
+            "people"
+          ],
+          [
+            "aren't",
+            "are not"
+          ],
+          [
+            "that"
+          ],
+          [
+            "good"
+          ],
+          [
+            "at"
+          ],
+          [
+            "knowing"
+          ],
+          [
+            "what"
+          ],
+          [
+            "decisions"
+          ],
+          [
+            "those"
+          ],
+          [
+            "they"
+          ],
+          [
+            "love"
+          ],
+          [
+            "would"
+          ],
+          [
+            "make"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/69.mp3",
+        "timeStart": 341.82,
+        "timeEnd": 348.37,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89852/list"
+      },
+      {
+        "id": 89853,
+        "position": 70,
+        "content": "on complex matters such as infection control and hydration.",
+        "defaultInput": "",
+        "jsonContent": [
+          "on",
+          "complex",
+          "matters",
+          "such",
+          "as",
+          "infection",
+          "control",
+          "and",
+          "hydration."
+        ],
+        "solution": [
+          [
+            "on"
+          ],
+          [
+            "complex"
+          ],
+          [
+            "matters"
+          ],
+          [
+            "such"
+          ],
+          [
+            "as"
+          ],
+          [
+            "infection"
+          ],
+          [
+            "control"
+          ],
+          [
+            "and"
+          ],
+          [
+            "hydration."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/70.mp3",
+        "timeStart": 348.37,
+        "timeEnd": 353.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89853/list"
+      },
+      {
+        "id": 89854,
+        "position": 71,
+        "content": "So, before I go on...",
+        "defaultInput": "",
+        "jsonContent": [
+          "So,",
+          "before",
+          "I",
+          "go",
+          "on..."
+        ],
+        "solution": [
+          [
+            "So,"
+          ],
+          [
+            "before"
+          ],
+          [
+            "I"
+          ],
+          [
+            "go"
+          ],
+          [
+            "on..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/medical-english-oet/test-01-part-c-extract-1-2025-08-29-21-05-04/71.mp3",
+        "timeStart": 353.29,
+        "timeEnd": 355.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/89854/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "89784": {
+      "id": 3676322,
+      "text": "Tôi tên là Tiến sĩ Clare Cox.",
+      "author": "a user"
+    },
+    "89785": {
+      "id": 3676323,
+      "text": "Tôi là bác sĩ lão khoa chuyên về chăm sóc giảm nhẹ.",
+      "author": "ChatGPT4.1"
+    },
+    "89786": {
+      "id": 3676324,
+      "text": "Chủ đề hôm nay của tôi là một vấn đề ngày càng quan trọng:",
+      "author": "ChatGPT4.1"
+    },
+    "89787": {
+      "id": 3676325,
+      "text": "chăm sóc cuối đời cho bệnh nhân sa sút trí tuệ.",
+      "author": "ChatGPT4.1"
+    },
+    "89788": {
+      "id": 3676326,
+      "text": "Việc chăm sóc bệnh nhân sa sút trí tuệ gặp phải một số vấn đề nhất định.",
+      "author": "ChatGPT4.1"
+    },
+    "89789": {
+      "id": 3676327,
+      "text": "Sa sút trí tuệ là bệnh giai đoạn cuối và là nguyên nhân gây tử vong đứng thứ ba ở Úc.",
+      "author": "ChatGPT4.1"
+    },
+    "89790": {
+      "id": 3676328,
+      "text": "Nhưng sa sút trí tuệ khác với các tình trạng tương tự khác.",
+      "author": "ChatGPT4.1"
+    },
+    "89791": {
+      "id": 3676329,
+      "text": "Nó có tiến triển không thể đoán trước",
+      "author": "ChatGPT4.1"
+    },
+    "89792": {
+      "id": 3676330,
+      "text": "và có thể có những vấn đề khó khăn liên quan đến năng lực tinh thần, khả năng ra quyết định và giao tiếp của bệnh nhân.",
+      "author": "a user"
+    },
+    "89793": {
+      "id": 3676331,
+      "text": "Tuy nhiên, mặc dù nhu cầu về dịch vụ chăm sóc giảm nhẹ là như nhau,",
+      "author": "a user"
+    },
+    "89794": {
+      "id": 3676332,
+      "text": "bệnh nhân sa sút trí tuệ không phải lúc nào cũng phù hợp với mô hình chăm sóc truyền thống.",
+      "author": "ChatGPT4.1"
+    },
+    "89795": {
+      "id": 3676333,
+      "text": "Các gia đình thường đau khổ vì cảm thấy không thể bảo đảm ý muốn của người thân được tôn trọng,",
+      "author": "ChatGPT4.1"
+    },
+    "89796": {
+      "id": 3676334,
+      "text": "hoặc chỉ đơn giản là không biết người đó muốn gì",
+      "author": "ChatGPT4.1"
+    },
+    "89797": {
+      "id": 3676335,
+      "text": "vì cuộc thảo luận đã không được diễn ra đủ sớm.",
+      "author": "ChatGPT4.1"
+    },
+    "89798": {
+      "id": 3676336,
+      "text": "Do đó, rõ ràng là cần có dịch vụ chăm sóc giảm nhẹ chứng mất trí nhớ lấy bệnh nhân làm trung tâm và được tài trợ tốt.",
+      "author": "a user"
+    },
+    "89799": {
+      "id": 3676337,
+      "text": "và sẵn sàng khi nào và ở đâu cần thiết.",
+      "author": "ChatGPT4.1"
+    },
+    "89800": {
+      "id": 3676338,
+      "text": "Tôi làm rất nhiều việc với tổ chức Dementia Australia -",
+      "author": "ChatGPT4.1"
+    },
+    "89801": {
+      "id": 3676339,
+      "text": "một tổ chức đại diện cho nhu cầu của người Úc sống với mọi loại sa sút trí tuệ,",
+      "author": "ChatGPT4.1"
+    },
+    "89802": {
+      "id": 3676340,
+      "text": "cũng như gia đình và người chăm sóc của họ.",
+      "author": "ChatGPT4.1"
+    },
+    "89803": {
+      "id": 3676341,
+      "text": "Tổ chức này cũng vận động về các vấn đề liên quan đến sa sút trí tuệ và tài trợ cho các nghiên cứu.",
+      "author": "ChatGPT4.1"
+    },
+    "89804": {
+      "id": 3676342,
+      "text": "Dementia Australia cho rằng đây là thời điểm phù hợp để xem xét vấn đề chăm sóc cuối đời cho bệnh nhân sa sút trí tuệ,",
+      "author": "ChatGPT4.1"
+    },
+    "89805": {
+      "id": 3676343,
+      "text": "từ quan điểm của người tiêu dùng cũng như của các chuyên gia y tế.",
+      "author": "ChatGPT4.1"
+    },
+    "89806": {
+      "id": 3676344,
+      "text": "Đây là một sáng kiến kịp thời.",
+      "author": "ChatGPT4.1"
+    },
+    "89807": {
+      "id": 3676345,
+      "text": "Chúng tôi có rất nhiều bằng chứng mang tính giai thoại,",
+      "author": "ChatGPT4.1"
+    },
+    "89808": {
+      "id": 3676346,
+      "text": "nhưng không có đủ số liệu chắc chắn về điều gì đang sai và tại sao hệ thống lại thất bại.",
+      "author": "ChatGPT4.1"
+    },
+    "89809": {
+      "id": 3676347,
+      "text": "Tuy nhiên, tình hình hiện tại không hoàn toàn tệ.",
+      "author": "ChatGPT4.1"
+    },
+    "89810": {
+      "id": 3676348,
+      "text": "Dù có những vấn đề tôi vừa đề cập,",
+      "author": "ChatGPT4.1"
+    },
+    "89811": {
+      "id": 3676349,
+      "text": "Tôi đã nghe một số ví dụ tuyệt vời về việc chăm sóc giảm nhẹ đã tạo ra sự khác biệt lớn như thế nào đối với cuộc sống của mọi người.",
+      "author": "a user"
+    },
+    "89812": {
+      "id": 3676350,
+      "text": "Rõ ràng, mọi chuyện có thể diễn biến rất xấu nếu điều này không được xử lý tốt,",
+      "author": "ChatGPT4.1"
+    },
+    "89813": {
+      "id": 3676351,
+      "text": "nhưng trong những điều kiện phù hợp, người mắc sa sút trí tuệ vẫn có thể kết thúc cuộc đời một cách thanh thản và đầy nhân phẩm.",
+      "author": "ChatGPT4.1"
+    },
+    "89814": {
+      "id": 3682326,
+      "text": "Dementia Australia đã ủy thác cho các nhà nghiên cứu tiến hành khảo sát về các vấn đề cuối đời ảnh hưởng đến bệnh nhân sa sút trí tuệ.",
+      "author": "a user"
+    },
+    "89815": {
+      "id": 3682327,
+      "text": "Khảo sát này bao gồm cả các chuyên gia chăm sóc, tức là bác sĩ, y tá và những người khác làm việc với bệnh nhân sa sút trí tuệ,",
+      "author": "ChatGPT4.1"
+    },
+    "89816": {
+      "id": 3682328,
+      "text": "cũng như những người chăm sóc là thành viên gia đình.",
+      "author": "ChatGPT4.1"
+    },
+    "89817": {
+      "id": 3682329,
+      "text": "Sự quan tâm là rất lớn với hơn một nghìn câu trả lời từ khắp nước Úc.",
+      "author": "ChatGPT4.1"
+    },
+    "89818": {
+      "id": 3682330,
+      "text": "Nhưng kết quả cho chúng ta biết điều gì?",
+      "author": "ChatGPT4.1"
+    },
+    "89819": {
+      "id": 3682331,
+      "text": "Vâng, kết quả ban đầu xác nhận những gì chúng ta đã nghe về khả năng tiếp cận chăm sóc cuối đời phù hợp.",
+      "author": "ChatGPT4.1"
+    },
+    "89820": {
+      "id": 3682332,
+      "text": "Rõ ràng ngay lập tức rằng có một khoảng cách đáng kể giữa nhận thức của các chuyên gia chăm sóc,",
+      "author": "a user"
+    },
+    "89821": {
+      "id": 3682333,
+      "text": "và người chăm sóc là thành viên gia đình về chăm sóc cuối đời cho người mắc sa sút trí tuệ.",
+      "author": "ChatGPT4.1"
+    },
+    "89822": {
+      "id": 3682334,
+      "text": "Ví dụ, trong khi 58% người chăm sóc là thành viên gia đình cho biết họ không được tiếp cận với các chuyên gia chăm sóc giảm nhẹ,",
+      "author": "a user"
+    },
+    "89823": {
+      "id": 3682335,
+      "text": "và 68% không tiếp cận được các trung tâm chăm sóc cuối đời (hospice),",
+      "author": "ChatGPT4.1"
+    },
+    "89824": {
+      "id": 3682336,
+      "text": "ba phần tư số chuyên gia chăm sóc cho biết những người mắc chứng mất trí nhớ ở khu vực của họ thực sự có thể tiếp cận dịch vụ chăm sóc giảm nhẹ.",
+      "author": "a user"
+    },
+    "89825": {
+      "id": 3682337,
+      "text": "Điều này đặt ra câu hỏi liệu người dùng - tức là bệnh nhân và người chăm sóc trong gia đình -",
+      "author": "ChatGPT4.1"
+    },
+    "89826": {
+      "id": 3682338,
+      "text": "có thể không nhận biết được các dịch vụ đang có sẵn.",
+      "author": "ChatGPT4.1"
+    },
+    "89827": {
+      "id": 3682339,
+      "text": "Một phát hiện đáng chú ý khác từ khảo sát là các chuyên gia chăm sóc thường thiếu hiểu biết về các vấn đề pháp lý liên quan đến chăm sóc cuối đời.",
+      "author": "ChatGPT4.1"
+    },
+    "89828": {
+      "id": 3682340,
+      "text": "Một số báo cáo cho thấy các chuyên gia chăm sóc đôi khi ngần ngại sử dụng thuốc giảm đau như morphine",
+      "author": "ChatGPT4.1"
+    },
+    "89829": {
+      "id": 3682341,
+      "text": "vì lo ngại có thể đẩy nhanh cái chết của bệnh nhân.",
+      "author": "a user"
+    },
+    "89830": {
+      "id": 3682342,
+      "text": "Tuy nhiên, việc tiếp cận với biện pháp giảm đau phù hợp được coi là quyền cơ bản của con người,",
+      "author": "a user"
+    },
+    "89831": {
+      "id": 3682343,
+      "text": "ngay cả khi cái chết đến sớm hơn do tác dụng phụ của thuốc.",
+      "author": "ChatGPT4.1"
+    },
+    "89832": {
+      "id": 3682344,
+      "text": "Khảo sát của chúng tôi phát hiện rằng 27% chuyên gia chăm sóc không chắc chắn về điều này,",
+      "author": "ChatGPT4.1"
+    },
+    "89833": {
+      "id": 3682345,
+      "text": "hoặc không tin rằng bệnh nhân có quyền hợp pháp được kiểm soát đau đớn đầy đủ,",
+      "author": "ChatGPT4.1"
+    },
+    "89834": {
+      "id": 3682346,
+      "text": "nếu điều đó có thể làm cái chết đến nhanh hơn.",
+      "author": "a user"
+    },
+    "89835": {
+      "id": 3682347,
+      "text": "Vì vậy có lẽ cũng không ngạc nhiên lắm,",
+      "author": "ChatGPT4.1"
+    },
+    "89836": {
+      "id": 3682348,
+      "text": "rằng một phần tư số người thân từng chăm sóc cảm thấy cơn đau không được kiểm soát đầy đủ trong quá trình chăm sóc cuối đời.",
+      "author": "a user"
+    },
+    "89837": {
+      "id": 3682349,
+      "text": "Sự thiếu hiểu biết này còn vượt ra ngoài việc kiểm soát cơn đau.",
+      "author": "ChatGPT4.1"
+    },
+    "89838": {
+      "id": 3682350,
+      "text": "Số liệu thống kê về việc từ chối điều trị đặc biệt gây sốc.",
+      "author": "a user"
+    },
+    "89839": {
+      "id": 3682351,
+      "text": "Gần một phần ba số chuyên gia chăm sóc không biết rằng mọi người có quyền từ chối thức ăn và nước uống,",
+      "author": "a user"
+    },
+    "89840": {
+      "id": 3682352,
+      "text": "và một trong mười người cũng cho rằng việc từ chối thuốc kháng sinh không phải là một lựa chọn cho bệnh nhân trong giai đoạn chăm sóc cuối đời.",
+      "author": "a user"
+    },
+    "89841": {
+      "id": 3682353,
+      "text": "Làm thế nào chúng ta có thể đạt được việc trao quyền cho người dùng và chăm sóc do người dùng định hướng",
+      "author": "ChatGPT4.1"
+    },
+    "89842": {
+      "id": 3682354,
+      "text": "nếu các chuyên gia lại thiếu thông tin đến vậy?",
+      "author": "ChatGPT4.1"
+    },
+    "89843": {
+      "id": 3682355,
+      "text": "Rõ ràng là cần tăng cường thông tin và đào tạo về quyền của bệnh nhân,",
+      "author": "ChatGPT4.1"
+    },
+    "89844": {
+      "id": 3682356,
+      "text": "nhưng hơn một phần ba số chuyên gia chăm sóc cho biết họ chưa từng nhận được bất kỳ khóa đào tạo nào như vậy.",
+      "author": "a user"
+    },
+    "89845": {
+      "id": 3682357,
+      "text": "Rõ ràng là việc lập kế hoạch chăm sóc cuối đời là điều nên làm.",
+      "author": "a user"
+    },
+    "89846": {
+      "id": 3682358,
+      "text": "Việc thảo luận và ghi lại các mong muốn",
+      "author": "ChatGPT4.1"
+    },
+    "89847": {
+      "id": 3682359,
+      "text": "rõ ràng là cách tốt nhất để giảm thiểu gánh nặng ra quyết định cho người chăm sóc,",
+      "author": "a user"
+    },
+    "89848": {
+      "id": 3682360,
+      "text": "và đảm bảo mong muốn của bệnh nhân được tôn trọng.",
+      "author": "ChatGPT4.1"
+    },
+    "89849": {
+      "id": 3682361,
+      "text": "Việc lập kế hoạch chăm sóc sớm thực chất là một dạng bảo hiểm",
+      "author": "ChatGPT4.1"
+    },
+    "89850": {
+      "id": 3682362,
+      "text": "giúp bảo vệ bệnh nhân của chúng tôi trong trường hợp họ mất khả năng ra quyết định.",
+      "author": "a user"
+    },
+    "89851": {
+      "id": 3682363,
+      "text": "Mặc dù bệnh nhân có thể tin rằng những người thân yêu sẽ quan tâm đến lợi ích tốt nhất của họ,",
+      "author": "a user"
+    },
+    "89852": {
+      "id": 3682364,
+      "text": "bằng chứng cho thấy những người như vậy không giỏi trong việc biết những quyết định mà những người họ yêu thương sẽ đưa ra",
+      "author": "a user"
+    },
+    "89853": {
+      "id": 3682365,
+      "text": "về những vấn đề phức tạp như kiểm soát nhiễm trùng và cung cấp dịch.",
+      "author": "ChatGPT4.1"
+    },
+    "89854": {
+      "id": 3682366,
+      "text": "Vì vậy, trước khi tôi tiếp tục...",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

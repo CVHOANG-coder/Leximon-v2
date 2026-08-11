@@ -1,0 +1,1217 @@
+{
+  "summary": {
+    "id": 129,
+    "name": "99. Places to live",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 100,
+    "totalChallenges": 22,
+    "groupId": 90,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/129",
+  "detail": {
+    "id": 129,
+    "lessonName": "99. Places to live",
+    "name": "99. Places to live",
+    "position": 100,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/0-99-places-to-live.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 5010,
+        "position": 1,
+        "content": "I live in a house.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "live",
+          "in",
+          "a",
+          "house."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "house."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/1.mp3",
+        "timeStart": 1.67,
+        "timeEnd": 2.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5010/list"
+      },
+      {
+        "id": 5011,
+        "position": 2,
+        "content": "My house is in a town.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "house",
+          "is",
+          "in",
+          "a",
+          "town."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "house"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "town."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/2.mp3",
+        "timeStart": 3.16,
+        "timeEnd": 5.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5011/list"
+      },
+      {
+        "id": 5012,
+        "position": 3,
+        "content": "My uncle lives in an apartment building.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "uncle",
+          "lives",
+          "in",
+          "an",
+          "apartment",
+          "building."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "uncle"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "an"
+          ],
+          [
+            "apartment"
+          ],
+          [
+            "building."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/3.mp3",
+        "timeStart": 5.35,
+        "timeEnd": 7.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5012/list"
+      },
+      {
+        "id": 5013,
+        "position": 4,
+        "content": "His apartment building is in a busy city.",
+        "defaultInput": "",
+        "jsonContent": [
+          "His",
+          "apartment",
+          "building",
+          "is",
+          "in",
+          "a",
+          "busy",
+          "city."
+        ],
+        "solution": [
+          [
+            "His"
+          ],
+          [
+            "apartment"
+          ],
+          [
+            "building"
+          ],
+          [
+            "is"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "busy"
+          ],
+          [
+            "city."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/4.mp3",
+        "timeStart": 8.36,
+        "timeEnd": 11.01,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5013/list"
+      },
+      {
+        "id": 5014,
+        "position": 5,
+        "content": "My cousin lives in a dormitory in a school.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "cousin",
+          "lives",
+          "in",
+          "a",
+          "dormitory",
+          "in",
+          "a",
+          "school."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "cousin"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "dormitory"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "school."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/5.mp3",
+        "timeStart": 11.59,
+        "timeEnd": 14.75,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5014/list"
+      },
+      {
+        "id": 5015,
+        "position": 6,
+        "content": "He shares his room with a classmate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "shares",
+          "his",
+          "room",
+          "with",
+          "a",
+          "classmate."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "shares"
+          ],
+          [
+            "his"
+          ],
+          [
+            "room"
+          ],
+          [
+            "with"
+          ],
+          [
+            "a"
+          ],
+          [
+            "classmate."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/6.mp3",
+        "timeStart": 15.38,
+        "timeEnd": 17.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5015/list"
+      },
+      {
+        "id": 5016,
+        "position": 7,
+        "content": "My uncle lives out in the country.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "uncle",
+          "lives",
+          "out",
+          "in",
+          "the",
+          "country."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "uncle"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "out"
+          ],
+          [
+            "in"
+          ],
+          [
+            "the"
+          ],
+          [
+            "country."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/7.mp3",
+        "timeStart": 18.03,
+        "timeEnd": 20.2,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5016/list"
+      },
+      {
+        "id": 5017,
+        "position": 8,
+        "content": "He lives on a farm.",
+        "defaultInput": "",
+        "jsonContent": [
+          "He",
+          "lives",
+          "on",
+          "a",
+          "farm."
+        ],
+        "solution": [
+          [
+            "He"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "on"
+          ],
+          [
+            "a"
+          ],
+          [
+            "farm."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/8.mp3",
+        "timeStart": 20.55,
+        "timeEnd": 21.89,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5017/list"
+      },
+      {
+        "id": 5018,
+        "position": 9,
+        "content": "The police caught a criminal.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "police",
+          "caught",
+          "a",
+          "criminal."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "police"
+          ],
+          [
+            "caught"
+          ],
+          [
+            "a"
+          ],
+          [
+            "criminal."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/9.mp3",
+        "timeStart": 23,
+        "timeEnd": 24.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5018/list"
+      },
+      {
+        "id": 5019,
+        "position": 10,
+        "content": "Now the criminal lives in prison.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Now",
+          "the",
+          "criminal",
+          "lives",
+          "in",
+          "prison."
+        ],
+        "solution": [
+          [
+            "Now"
+          ],
+          [
+            "the"
+          ],
+          [
+            "criminal"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "prison."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/10.mp3",
+        "timeStart": 25.01,
+        "timeEnd": 27.06,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5019/list"
+      },
+      {
+        "id": 5020,
+        "position": 11,
+        "content": "When I go to summer camp,",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "I",
+          "go",
+          "to",
+          "summer",
+          "camp,"
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "I"
+          ],
+          [
+            "go"
+          ],
+          [
+            "to"
+          ],
+          [
+            "summer"
+          ],
+          [
+            "camp,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/11.mp3",
+        "timeStart": 27.41,
+        "timeEnd": 29.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5020/list"
+      },
+      {
+        "id": 5021,
+        "position": 12,
+        "content": "I live in a tent.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "live",
+          "in",
+          "a",
+          "tent."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "tent."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/12.mp3",
+        "timeStart": 29.34,
+        "timeEnd": 30.72,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5021/list"
+      },
+      {
+        "id": 5022,
+        "position": 13,
+        "content": "When my parents go on vacation, they live in a motel or a hotel.",
+        "defaultInput": "",
+        "jsonContent": [
+          "When",
+          "my",
+          "parents",
+          "go",
+          "on",
+          "vacation,",
+          "they",
+          "live",
+          "in",
+          "a",
+          "motel",
+          "or",
+          "a",
+          "hotel."
+        ],
+        "solution": [
+          [
+            "When"
+          ],
+          [
+            "my"
+          ],
+          [
+            "parents"
+          ],
+          [
+            "go"
+          ],
+          [
+            "on"
+          ],
+          [
+            "vacation,"
+          ],
+          [
+            "they"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "motel"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "hotel."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/13.mp3",
+        "timeStart": 31.32,
+        "timeEnd": 35.78,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5022/list"
+      },
+      {
+        "id": 5023,
+        "position": 14,
+        "content": "A motel only has one or two floors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "motel",
+          "only",
+          "has",
+          [
+            "one",
+            "1"
+          ],
+          "or",
+          [
+            "two",
+            "2"
+          ],
+          "floors."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "motel"
+          ],
+          [
+            "only"
+          ],
+          [
+            "has"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "or"
+          ],
+          [
+            "two",
+            "2"
+          ],
+          [
+            "floors."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/14.mp3",
+        "timeStart": 36.6,
+        "timeEnd": 39.76,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5023/list"
+      },
+      {
+        "id": 5024,
+        "position": 15,
+        "content": "A hotel usually has many floors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "A",
+          "hotel",
+          "usually",
+          "has",
+          "many",
+          "floors."
+        ],
+        "solution": [
+          [
+            "A"
+          ],
+          [
+            "hotel"
+          ],
+          [
+            "usually"
+          ],
+          [
+            "has"
+          ],
+          [
+            "many"
+          ],
+          [
+            "floors."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/15.mp3",
+        "timeStart": 40.04,
+        "timeEnd": 42.86,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5024/list"
+      },
+      {
+        "id": 5025,
+        "position": 16,
+        "content": "My aunt and uncle live in a trailer.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "aunt",
+          "and",
+          "uncle",
+          "live",
+          "in",
+          "a",
+          "trailer."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "aunt"
+          ],
+          [
+            "and"
+          ],
+          [
+            "uncle"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "trailer."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/16.mp3",
+        "timeStart": 43.46,
+        "timeEnd": 46.24,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5025/list"
+      },
+      {
+        "id": 5026,
+        "position": 17,
+        "content": "They like to move around from place to place.",
+        "defaultInput": "",
+        "jsonContent": [
+          "They",
+          "like",
+          "to",
+          "move",
+          "around",
+          "from",
+          "place",
+          "to",
+          "place."
+        ],
+        "solution": [
+          [
+            "They"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "move"
+          ],
+          [
+            "around"
+          ],
+          [
+            "from"
+          ],
+          [
+            "place"
+          ],
+          [
+            "to"
+          ],
+          [
+            "place."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/17.mp3",
+        "timeStart": 46.52,
+        "timeEnd": 49.6,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5026/list"
+      },
+      {
+        "id": 5027,
+        "position": 18,
+        "content": "My friends live in a cottage by a lake.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "friends",
+          "live",
+          "in",
+          "a",
+          "cottage",
+          "by",
+          "a",
+          "lake."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "friends"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "cottage"
+          ],
+          [
+            "by"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lake."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/18.mp3",
+        "timeStart": 50.07,
+        "timeEnd": 52.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/5027/list"
+      },
+      {
+        "id": 5028,
+        "position": 19,
+        "content": "My grandfather lives in a retirement home.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "grandfather",
+          "lives",
+          "in",
+          "a",
+          "retirement",
+          "home."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "grandfather"
+          ],
+          [
+            "lives"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "retirement"
+          ],
+          [
+            "home."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/19.mp3",
+        "timeStart": 53.42,
+        "timeEnd": 56.27,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/5028/list"
+      },
+      {
+        "id": 5029,
+        "position": 20,
+        "content": "Many people who are about the same age as he live there.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Many",
+          "people",
+          "who",
+          "are",
+          "about",
+          "the",
+          "same",
+          "age",
+          "as",
+          "he",
+          "live",
+          "there."
+        ],
+        "solution": [
+          [
+            "Many"
+          ],
+          [
+            "people"
+          ],
+          [
+            "who"
+          ],
+          [
+            "are"
+          ],
+          [
+            "about"
+          ],
+          [
+            "the"
+          ],
+          [
+            "same"
+          ],
+          [
+            "age"
+          ],
+          [
+            "as"
+          ],
+          [
+            "he"
+          ],
+          [
+            "live"
+          ],
+          [
+            "there."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/20.mp3",
+        "timeStart": 56.72,
+        "timeEnd": 60.93,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/5029/list"
+      },
+      {
+        "id": 5030,
+        "position": 21,
+        "content": "I would like to live in a palace.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I would",
+            "I'd"
+          ],
+          "like",
+          "to",
+          "live",
+          "in",
+          "a",
+          "palace."
+        ],
+        "solution": [
+          [
+            "I would",
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "palace."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/21.mp3",
+        "timeStart": 61.48,
+        "timeEnd": 63.48,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/5030/list"
+      },
+      {
+        "id": 5031,
+        "position": 22,
+        "content": "I think you have to be a king or a queen, or a prince or a princess to live in a palace.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "think",
+          [
+            "you have",
+            "you've"
+          ],
+          "to",
+          "be",
+          "a",
+          "king",
+          "or",
+          "a",
+          "queen,",
+          "or",
+          "a",
+          "prince",
+          "or",
+          "a",
+          "princess",
+          "to",
+          "live",
+          "in",
+          "a",
+          "palace."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "think"
+          ],
+          [
+            "you have",
+            "you've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "be"
+          ],
+          [
+            "a"
+          ],
+          [
+            "king"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "queen,"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "prince"
+          ],
+          [
+            "or"
+          ],
+          [
+            "a"
+          ],
+          [
+            "princess"
+          ],
+          [
+            "to"
+          ],
+          [
+            "live"
+          ],
+          [
+            "in"
+          ],
+          [
+            "a"
+          ],
+          [
+            "palace."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/99-places-to-live-2019-04-07-03-53-10/22.mp3",
+        "timeStart": 63.99,
+        "timeEnd": 69.78,
+        "hints": [],
+        "nbComments": 2,
+        "discussionUrl": "https://dailydictation.com/discussions/5031/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "5013": {
+      "id": 39744,
+      "text": "Khu chung cư của chú tôi ở một thành phố sầm uất.",
+      "author": "a user"
+    },
+    "5016": {
+      "id": 39764,
+      "text": "Chú tôi sống ở vùng nông thôn",
+      "author": "a user"
+    },
+    "5017": {
+      "id": 39766,
+      "text": "Anh ấy sống ở một trang trại.",
+      "author": "a user"
+    },
+    "5010": {
+      "id": 2596957,
+      "text": "Tôi sống trong một ngôi nhà.",
+      "author": "ChatGPT4.1"
+    },
+    "5011": {
+      "id": 2596958,
+      "text": "Nhà của tôi nằm trong một thị trấn.",
+      "author": "ChatGPT4.1"
+    },
+    "5012": {
+      "id": 2596959,
+      "text": "Chú của tôi sống trong một tòa nhà chung cư.",
+      "author": "ChatGPT4.1"
+    },
+    "5014": {
+      "id": 2596960,
+      "text": "Anh họ của tôi sống trong một ký túc xá ở trường.",
+      "author": "ChatGPT4.1"
+    },
+    "5015": {
+      "id": 2596961,
+      "text": "Anh ấy chia phòng với một bạn cùng lớp.",
+      "author": "ChatGPT4.1"
+    },
+    "5018": {
+      "id": 2596962,
+      "text": "Cảnh sát đã bắt được một tên tội phạm.",
+      "author": "ChatGPT4.1"
+    },
+    "5019": {
+      "id": 2596963,
+      "text": "Bây giờ tên tội phạm ở trong tù.",
+      "author": "ChatGPT4.1"
+    },
+    "5020": {
+      "id": 2596964,
+      "text": "Khi tôi tham gia trại hè,",
+      "author": "ChatGPT4.1"
+    },
+    "5021": {
+      "id": 2596965,
+      "text": "Tôi sống trong một cái lều.",
+      "author": "ChatGPT4.1"
+    },
+    "5022": {
+      "id": 2596966,
+      "text": "Khi bố mẹ tôi đi nghỉ mát, họ ở trong nhà nghỉ hoặc khách sạn.",
+      "author": "a user"
+    },
+    "5023": {
+      "id": 2596967,
+      "text": "Một nhà nghỉ chỉ có một hoặc hai tầng.",
+      "author": "ChatGPT4.1"
+    },
+    "5024": {
+      "id": 2596968,
+      "text": "Một khách sạn thường có nhiều tầng.",
+      "author": "ChatGPT4.1"
+    },
+    "5025": {
+      "id": 2596969,
+      "text": "Cô và chú tôi sống trong một chiếc nhà di động.",
+      "author": "ChatGPT4.1"
+    },
+    "5026": {
+      "id": 2596970,
+      "text": "Họ thích di chuyển từ nơi này đến nơi khác.",
+      "author": "ChatGPT4.1"
+    },
+    "5027": {
+      "id": 2596971,
+      "text": "Bạn bè tôi sống trong một căn nhà nhỏ bên hồ.",
+      "author": "ChatGPT4.1"
+    },
+    "5028": {
+      "id": 2596972,
+      "text": "Ông tôi sống trong viện dưỡng lão.",
+      "author": "ChatGPT4.1"
+    },
+    "5029": {
+      "id": 2596973,
+      "text": "Nhiều người cùng độ tuổi với ông cũng sống ở đó.",
+      "author": "ChatGPT4.1"
+    },
+    "5030": {
+      "id": 2596974,
+      "text": "Tôi muốn sống trong một cung điện.",
+      "author": "ChatGPT4.1"
+    },
+    "5031": {
+      "id": 2596975,
+      "text": "Tôi nghĩ bạn phải là vua hoặc hoàng hậu, hoặc hoàng tử hay công chúa mới có thể sống trong cung điện.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

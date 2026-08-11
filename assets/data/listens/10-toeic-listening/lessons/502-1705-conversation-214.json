@@ -1,0 +1,791 @@
+{
+  "summary": {
+    "id": 1705,
+    "name": "Conversation 214",
+    "subTitle": "Employee List Correction",
+    "levelName": "B1",
+    "position": 502,
+    "totalChallenges": 12,
+    "groupId": 52,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1705",
+  "detail": {
+    "id": 1705,
+    "lessonName": "Conversation 214",
+    "name": "Conversation 214",
+    "position": 502,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/0-conversation-214.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 69067,
+        "position": 1,
+        "content": "Hey, about that list of new employees you were going to send me...",
+        "defaultInput": "",
+        "jsonContent": [
+          "Hey,",
+          "about",
+          "that",
+          "list",
+          "of",
+          "new",
+          "employees",
+          "you",
+          "were",
+          [
+            "going to",
+            "gonna"
+          ],
+          "send",
+          "me..."
+        ],
+        "solution": [
+          [
+            "Hey,"
+          ],
+          [
+            "about"
+          ],
+          [
+            "that"
+          ],
+          [
+            "list"
+          ],
+          [
+            "of"
+          ],
+          [
+            "new"
+          ],
+          [
+            "employees"
+          ],
+          [
+            "you"
+          ],
+          [
+            "were"
+          ],
+          [
+            "going to",
+            "gonna"
+          ],
+          [
+            "send"
+          ],
+          [
+            "me..."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 4.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69067/list"
+      },
+      {
+        "id": 69068,
+        "position": 2,
+        "content": "I just realized the one you gave me is from the previous orientation,",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "just",
+          [
+            "realized",
+            "realised"
+          ],
+          "the",
+          [
+            "one",
+            "1"
+          ],
+          "you",
+          "gave",
+          "me",
+          "is",
+          "from",
+          "the",
+          "previous",
+          "orientation,"
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "just"
+          ],
+          [
+            "realized",
+            "realised"
+          ],
+          [
+            "the"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "you"
+          ],
+          [
+            "gave"
+          ],
+          [
+            "me"
+          ],
+          [
+            "is"
+          ],
+          [
+            "from"
+          ],
+          [
+            "the"
+          ],
+          [
+            "previous"
+          ],
+          [
+            "orientation,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/2.mp3",
+        "timeStart": 4.15,
+        "timeEnd": 8.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69068/list"
+      },
+      {
+        "id": 69069,
+        "position": 3,
+        "content": "not the one from this morning.",
+        "defaultInput": "",
+        "jsonContent": [
+          "not",
+          "the",
+          [
+            "one",
+            "1"
+          ],
+          "from",
+          "this",
+          "morning."
+        ],
+        "solution": [
+          [
+            "not"
+          ],
+          [
+            "the"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "from"
+          ],
+          [
+            "this"
+          ],
+          [
+            "morning."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/3.mp3",
+        "timeStart": 8.68,
+        "timeEnd": 10.57,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69069/list"
+      },
+      {
+        "id": 69070,
+        "position": 4,
+        "content": "Oh, no! I didn't even notice.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Oh,",
+          "no!",
+          "I",
+          [
+            "didn't",
+            "did not"
+          ],
+          "even",
+          "notice."
+        ],
+        "solution": [
+          [
+            "Oh,"
+          ],
+          [
+            "no!"
+          ],
+          [
+            "I"
+          ],
+          [
+            "didn't",
+            "did not"
+          ],
+          [
+            "even"
+          ],
+          [
+            "notice."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/4.mp3",
+        "timeStart": 10.57,
+        "timeEnd": 12.73,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69070/list"
+      },
+      {
+        "id": 69071,
+        "position": 5,
+        "content": "I'm so sorry.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "so",
+          "sorry."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "so"
+          ],
+          [
+            "sorry."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/5.mp3",
+        "timeStart": 12.73,
+        "timeEnd": 14.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69071/list"
+      },
+      {
+        "id": 69072,
+        "position": 6,
+        "content": "I'll get you the correct one as soon as I can,",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "get",
+          "you",
+          "the",
+          "correct",
+          [
+            "one",
+            "1"
+          ],
+          "as",
+          "soon",
+          "as",
+          "I",
+          "can,"
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "get"
+          ],
+          [
+            "you"
+          ],
+          [
+            "the"
+          ],
+          [
+            "correct"
+          ],
+          [
+            "one",
+            "1"
+          ],
+          [
+            "as"
+          ],
+          [
+            "soon"
+          ],
+          [
+            "as"
+          ],
+          [
+            "I"
+          ],
+          [
+            "can,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/6.mp3",
+        "timeStart": 14.03,
+        "timeEnd": 16.29,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69072/list"
+      },
+      {
+        "id": 69073,
+        "position": 7,
+        "content": "but I'm actually heading into a lunch meeting right now with some of the project investors.",
+        "defaultInput": "",
+        "jsonContent": [
+          "but",
+          [
+            "I'm",
+            "I am"
+          ],
+          "actually",
+          "heading",
+          "into",
+          "a",
+          "lunch",
+          "meeting",
+          "right",
+          "now",
+          "with",
+          "some",
+          "of",
+          "the",
+          "project",
+          "investors."
+        ],
+        "solution": [
+          [
+            "but"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "actually"
+          ],
+          [
+            "heading"
+          ],
+          [
+            "into"
+          ],
+          [
+            "a"
+          ],
+          [
+            "lunch"
+          ],
+          [
+            "meeting"
+          ],
+          [
+            "right"
+          ],
+          [
+            "now"
+          ],
+          [
+            "with"
+          ],
+          [
+            "some"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "project"
+          ],
+          [
+            "investors."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/7.mp3",
+        "timeStart": 16.29,
+        "timeEnd": 20.52,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69073/list"
+      },
+      {
+        "id": 69074,
+        "position": 8,
+        "content": "No worries, but I'll need it before the end of the day,",
+        "defaultInput": "",
+        "jsonContent": [
+          "No",
+          "worries,",
+          "but",
+          [
+            "I'll",
+            "I will"
+          ],
+          "need",
+          "it",
+          "before",
+          "the",
+          "end",
+          "of",
+          "the",
+          "day,"
+        ],
+        "solution": [
+          [
+            "No"
+          ],
+          [
+            "worries,"
+          ],
+          [
+            "but"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "need"
+          ],
+          [
+            "it"
+          ],
+          [
+            "before"
+          ],
+          [
+            "the"
+          ],
+          [
+            "end"
+          ],
+          [
+            "of"
+          ],
+          [
+            "the"
+          ],
+          [
+            "day,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/8.mp3",
+        "timeStart": 20.87,
+        "timeEnd": 24.41,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69074/list"
+      },
+      {
+        "id": 69075,
+        "position": 9,
+        "content": "since I have to get their info into the system by tomorrow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "since",
+          [
+            "I have",
+            "I've"
+          ],
+          "to",
+          "get",
+          "their",
+          "info",
+          "into",
+          "the",
+          "system",
+          "by",
+          "tomorrow."
+        ],
+        "solution": [
+          [
+            "since"
+          ],
+          [
+            "I have",
+            "I've"
+          ],
+          [
+            "to"
+          ],
+          [
+            "get"
+          ],
+          [
+            "their"
+          ],
+          [
+            "info"
+          ],
+          [
+            "into"
+          ],
+          [
+            "the"
+          ],
+          [
+            "system"
+          ],
+          [
+            "by"
+          ],
+          [
+            "tomorrow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/9.mp3",
+        "timeStart": 24.41,
+        "timeEnd": 28.12,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69075/list"
+      },
+      {
+        "id": 69076,
+        "position": 10,
+        "content": "We're aiming to finalize the directory before Wednesday.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "We're",
+            "We are"
+          ],
+          "aiming",
+          "to",
+          [
+            "finalize",
+            "finalise"
+          ],
+          "the",
+          "directory",
+          "before",
+          "Wednesday."
+        ],
+        "solution": [
+          [
+            "We're",
+            "We are"
+          ],
+          [
+            "aiming"
+          ],
+          [
+            "to"
+          ],
+          [
+            "finalize",
+            "finalise"
+          ],
+          [
+            "the"
+          ],
+          [
+            "directory"
+          ],
+          [
+            "before"
+          ],
+          [
+            "Wednesday."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/10.mp3",
+        "timeStart": 28.12,
+        "timeEnd": 31.74,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69076/list"
+      },
+      {
+        "id": 69077,
+        "position": 11,
+        "content": "I totally understand.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "totally",
+          "understand."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "totally"
+          ],
+          [
+            "understand."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/11.mp3",
+        "timeStart": 31.74,
+        "timeEnd": 33.15,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69077/list"
+      },
+      {
+        "id": 69078,
+        "position": 12,
+        "content": "I'll make sure it's sent over before I leave the office today.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "make",
+          "sure",
+          "it's",
+          "sent",
+          "over",
+          "before",
+          "I",
+          "leave",
+          "the",
+          "office",
+          "today."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "make"
+          ],
+          [
+            "sure"
+          ],
+          [
+            "it's"
+          ],
+          [
+            "sent"
+          ],
+          [
+            "over"
+          ],
+          [
+            "before"
+          ],
+          [
+            "I"
+          ],
+          [
+            "leave"
+          ],
+          [
+            "the"
+          ],
+          [
+            "office"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-214-2024-10-22-12-55-41/12.mp3",
+        "timeStart": 33.32,
+        "timeEnd": 35.85,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69078/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "69067": {
+      "id": 2588038,
+      "text": "Này, về danh sách các nhân viên mới mà bạn định gửi cho tôi...",
+      "author": "ChatGPT4.1"
+    },
+    "69068": {
+      "id": 2588039,
+      "text": "Tôi vừa nhận ra danh sách bạn đưa là từ buổi định hướng trước,",
+      "author": "ChatGPT4.1"
+    },
+    "69069": {
+      "id": 2588040,
+      "text": "không phải bản sáng nay.",
+      "author": "ChatGPT4.1"
+    },
+    "69070": {
+      "id": 2588041,
+      "text": "Ôi không! Tôi thậm chí còn không để ý.",
+      "author": "ChatGPT4.1"
+    },
+    "69071": {
+      "id": 2588042,
+      "text": "Tôi thật sự xin lỗi.",
+      "author": "ChatGPT4.1"
+    },
+    "69072": {
+      "id": 2588043,
+      "text": "Tôi sẽ gửi cho bạn bản đúng nhất có thể,",
+      "author": "ChatGPT4.1"
+    },
+    "69073": {
+      "id": 2588044,
+      "text": "nhưng hiện tại tôi đang đi dự một cuộc họp trưa với một vài nhà đầu tư dự án.",
+      "author": "ChatGPT4.1"
+    },
+    "69074": {
+      "id": 2588045,
+      "text": "Không sao đâu, nhưng tôi sẽ cần nó trước cuối ngày,",
+      "author": "ChatGPT4.1"
+    },
+    "69075": {
+      "id": 2588046,
+      "text": "vì tôi phải nhập thông tin của họ vào hệ thống trước ngày mai.",
+      "author": "ChatGPT4.1"
+    },
+    "69076": {
+      "id": 2588047,
+      "text": "Chúng tôi đang nhắm đến việc hoàn thành danh bạ trước thứ Tư.",
+      "author": "ChatGPT4.1"
+    },
+    "69077": {
+      "id": 2588048,
+      "text": "Tôi hoàn toàn hiểu.",
+      "author": "ChatGPT4.1"
+    },
+    "69078": {
+      "id": 2588049,
+      "text": "Tôi sẽ đảm bảo gửi nó trước khi rời văn phòng hôm nay.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

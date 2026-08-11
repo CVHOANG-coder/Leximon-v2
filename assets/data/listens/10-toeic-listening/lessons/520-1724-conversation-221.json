@@ -1,0 +1,608 @@
+{
+  "summary": {
+    "id": 1724,
+    "name": "Conversation 221",
+    "subTitle": "Tech Innovators Conference Welcome",
+    "levelName": "B1",
+    "position": 520,
+    "totalChallenges": 9,
+    "groupId": 53,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1724",
+  "detail": {
+    "id": 1724,
+    "lessonName": "Conversation 221",
+    "name": "Conversation 221",
+    "position": 520,
+    "levelName": "B1",
+    "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/0-conversation-221.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 69281,
+        "position": 1,
+        "content": "Welcome to the Annual Tech Innovators Conference.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Welcome",
+          "to",
+          "the",
+          "Annual",
+          "Tech",
+          "Innovators",
+          "Conference."
+        ],
+        "solution": [
+          [
+            "Welcome"
+          ],
+          [
+            "to"
+          ],
+          [
+            "the"
+          ],
+          [
+            "Annual"
+          ],
+          [
+            "Tech"
+          ],
+          [
+            "Innovators"
+          ],
+          [
+            "Conference."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/1.mp3",
+        "timeStart": 0,
+        "timeEnd": 2.44,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69281/list"
+      },
+      {
+        "id": 69282,
+        "position": 2,
+        "content": "If you provide your full name and your company's name,",
+        "defaultInput": "",
+        "jsonContent": [
+          "If",
+          "you",
+          "provide",
+          "your",
+          "full",
+          "name",
+          "and",
+          "your",
+          "company's",
+          "name,"
+        ],
+        "solution": [
+          [
+            "If"
+          ],
+          [
+            "you"
+          ],
+          [
+            "provide"
+          ],
+          [
+            "your"
+          ],
+          [
+            "full"
+          ],
+          [
+            "name"
+          ],
+          [
+            "and"
+          ],
+          [
+            "your"
+          ],
+          [
+            "company's"
+          ],
+          [
+            "name,"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/2.mp3",
+        "timeStart": 2.44,
+        "timeEnd": 5.4,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69282/list"
+      },
+      {
+        "id": 69283,
+        "position": 3,
+        "content": "I'll be able to direct you to your assigned table.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "I'll",
+            "I will"
+          ],
+          "be",
+          "able",
+          "to",
+          "direct",
+          "you",
+          "to",
+          "your",
+          "assigned",
+          "table."
+        ],
+        "solution": [
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "be"
+          ],
+          [
+            "able"
+          ],
+          [
+            "to"
+          ],
+          [
+            "direct"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "assigned"
+          ],
+          [
+            "table."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/3.mp3",
+        "timeStart": 5.4,
+        "timeEnd": 7.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69283/list"
+      },
+      {
+        "id": 69284,
+        "position": 4,
+        "content": "I'm Diana Booth, and I'm here with Quantum Solutions.",
+        "defaultInput": "I'm Diana Booth, ",
+        "jsonContent": [
+          [
+            "I'm",
+            "I am"
+          ],
+          "Diana",
+          "Booth,",
+          "and",
+          [
+            "I'm",
+            "I am"
+          ],
+          "here",
+          "with",
+          "Quantum",
+          "Solutions."
+        ],
+        "solution": [
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "Diana"
+          ],
+          [
+            "Booth,"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I'm",
+            "I am"
+          ],
+          [
+            "here"
+          ],
+          [
+            "with"
+          ],
+          [
+            "Quantum"
+          ],
+          [
+            "Solutions."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/4.mp3",
+        "timeStart": 7.8,
+        "timeEnd": 11.42,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69284/list"
+      },
+      {
+        "id": 69285,
+        "position": 5,
+        "content": "However, before heading to my seat, could you tell me where the refreshments are being served?",
+        "defaultInput": "",
+        "jsonContent": [
+          "However,",
+          "before",
+          "heading",
+          "to",
+          "my",
+          "seat,",
+          "could",
+          "you",
+          "tell",
+          "me",
+          "where",
+          "the",
+          "refreshments",
+          "are",
+          "being",
+          "served?"
+        ],
+        "solution": [
+          [
+            "However,"
+          ],
+          [
+            "before"
+          ],
+          [
+            "heading"
+          ],
+          [
+            "to"
+          ],
+          [
+            "my"
+          ],
+          [
+            "seat,"
+          ],
+          [
+            "could"
+          ],
+          [
+            "you"
+          ],
+          [
+            "tell"
+          ],
+          [
+            "me"
+          ],
+          [
+            "where"
+          ],
+          [
+            "the"
+          ],
+          [
+            "refreshments"
+          ],
+          [
+            "are"
+          ],
+          [
+            "being"
+          ],
+          [
+            "served?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/5.mp3",
+        "timeStart": 11.42,
+        "timeEnd": 15.98,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69285/list"
+      },
+      {
+        "id": 69286,
+        "position": 6,
+        "content": "I could use a coffee after my journey.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "could",
+          "use",
+          "a",
+          "coffee",
+          "after",
+          "my",
+          "journey."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "could"
+          ],
+          [
+            "use"
+          ],
+          [
+            "a"
+          ],
+          [
+            "coffee"
+          ],
+          [
+            "after"
+          ],
+          [
+            "my"
+          ],
+          [
+            "journey."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/6.mp3",
+        "timeStart": 15.98,
+        "timeEnd": 18.27,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69286/list"
+      },
+      {
+        "id": 69287,
+        "position": 7,
+        "content": "Certainly, Ms. Booth.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Certainly,",
+          "Ms.",
+          "Booth."
+        ],
+        "solution": [
+          [
+            "Certainly,"
+          ],
+          [
+            "Ms."
+          ],
+          [
+            "Booth."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/7.mp3",
+        "timeStart": 18.27,
+        "timeEnd": 19.8,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69287/list"
+      },
+      {
+        "id": 69288,
+        "position": 8,
+        "content": "Let me guide you to your table first, and then I'll point you toward the refreshment area.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Let",
+          "me",
+          "guide",
+          "you",
+          "to",
+          "your",
+          "table",
+          [
+            "first,",
+            "1st"
+          ],
+          "and",
+          "then",
+          [
+            "I'll",
+            "I will"
+          ],
+          "point",
+          "you",
+          "toward",
+          "the",
+          "refreshment",
+          "area."
+        ],
+        "solution": [
+          [
+            "Let"
+          ],
+          [
+            "me"
+          ],
+          [
+            "guide"
+          ],
+          [
+            "you"
+          ],
+          [
+            "to"
+          ],
+          [
+            "your"
+          ],
+          [
+            "table"
+          ],
+          [
+            "first,",
+            "1st"
+          ],
+          [
+            "and"
+          ],
+          [
+            "then"
+          ],
+          [
+            "I'll",
+            "I will"
+          ],
+          [
+            "point"
+          ],
+          [
+            "you"
+          ],
+          [
+            "toward"
+          ],
+          [
+            "the"
+          ],
+          [
+            "refreshment"
+          ],
+          [
+            "area."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/8.mp3",
+        "timeStart": 19.8,
+        "timeEnd": 24.56,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69288/list"
+      },
+      {
+        "id": 69289,
+        "position": 9,
+        "content": "They've got a great selection of coffees and snacks to recharge.",
+        "defaultInput": "",
+        "jsonContent": [
+          [
+            "They've",
+            "They have"
+          ],
+          "got",
+          "a",
+          "great",
+          "selection",
+          "of",
+          "coffees",
+          "and",
+          "snacks",
+          "to",
+          "recharge."
+        ],
+        "solution": [
+          [
+            "They've",
+            "They have"
+          ],
+          [
+            "got"
+          ],
+          [
+            "a"
+          ],
+          [
+            "great"
+          ],
+          [
+            "selection"
+          ],
+          [
+            "of"
+          ],
+          [
+            "coffees"
+          ],
+          [
+            "and"
+          ],
+          [
+            "snacks"
+          ],
+          [
+            "to"
+          ],
+          [
+            "recharge."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/toeic/conversation-221-2024-10-24-00-19-09/9.mp3",
+        "timeStart": 24.56,
+        "timeEnd": 28.16,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/69289/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "69281": {
+      "id": 2589346,
+      "text": "Chào mừng bạn đến với Hội nghị Nhà Sáng Tạo Công Nghệ Thường Niên.",
+      "author": "ChatGPT4.1"
+    },
+    "69282": {
+      "id": 2589347,
+      "text": "Nếu bạn cung cấp đầy đủ họ tên và tên công ty của mình,",
+      "author": "ChatGPT4.1"
+    },
+    "69283": {
+      "id": 2589348,
+      "text": "Tôi sẽ có thể hướng dẫn bạn đến bàn được phân công của bạn.",
+      "author": "ChatGPT4.1"
+    },
+    "69284": {
+      "id": 2589349,
+      "text": "Tôi là Diana Booth, và tôi đại diện cho Quantum Solutions.",
+      "author": "ChatGPT4.1"
+    },
+    "69285": {
+      "id": 2589350,
+      "text": "Tuy nhiên, trước khi đến chỗ ngồi, bạn có thể cho tôi biết khu vực phục vụ đồ uống ở đâu không?",
+      "author": "ChatGPT4.1"
+    },
+    "69286": {
+      "id": 2589351,
+      "text": "Tôi cần một ly cà phê sau chuyến đi của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "69287": {
+      "id": 2589352,
+      "text": "Tất nhiên, cô Booth.",
+      "author": "ChatGPT4.1"
+    },
+    "69288": {
+      "id": 2589353,
+      "text": "Để tôi dẫn cô đến bàn trước, sau đó tôi sẽ chỉ cho cô khu vực phục vụ đồ uống.",
+      "author": "ChatGPT4.1"
+    },
+    "69289": {
+      "id": 2589354,
+      "text": "Họ có rất nhiều loại cà phê và đồ ăn nhẹ tuyệt vời để tiếp thêm năng lượng.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}

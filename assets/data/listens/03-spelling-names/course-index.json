@@ -1,0 +1,82 @@
+{
+  "id": 3,
+  "name": "Spelling Names",
+  "type": "audio",
+  "imgUrl": "https://dailydictation.com/images/dd-names.jpg",
+  "totalLessons": 6,
+  "difficulty": "Easy",
+  "levelName": "A1",
+  "levelNames": [
+    "A1"
+  ],
+  "lessons": [
+    {
+      "id": 324,
+      "name": "Female Names",
+      "subTitle": "",
+      "levelName": "",
+      "position": 1,
+      "totalChallenges": 60,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 325,
+      "name": "Male Names",
+      "subTitle": "",
+      "levelName": "",
+      "position": 2,
+      "totalChallenges": 60,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 326,
+      "name": "Last Names",
+      "subTitle": "",
+      "levelName": "",
+      "position": 3,
+      "totalChallenges": 60,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 345,
+      "name": "Animal names",
+      "subTitle": "",
+      "levelName": "",
+      "position": 4,
+      "totalChallenges": 60,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 798,
+      "name": "Random Letters (British Accent)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 5,
+      "totalChallenges": 52,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 797,
+      "name": "Random Letters (American Accent)",
+      "subTitle": "",
+      "levelName": "",
+      "position": 6,
+      "totalChallenges": 52,
+      "groupId": null,
+      "isListenAndSelect": false,
+      "isFree": true
+    }
+  ],
+  "lessonGroups": [],
+  "shouldGroupLessons": false
+}

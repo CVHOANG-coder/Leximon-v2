@@ -1,0 +1,1000 @@
+{
+  "summary": {
+    "id": 1,
+    "name": "1. First snowfall",
+    "subTitle": "",
+    "levelName": "A1",
+    "position": 1,
+    "totalChallenges": 21,
+    "groupId": 86,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/1",
+  "detail": {
+    "id": 1,
+    "lessonName": "1. First snowfall",
+    "name": "1. First snowfall",
+    "position": 1,
+    "levelName": "A1",
+    "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/0-1-first-snowfall.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 1,
+        "position": 1,
+        "content": "Today is November 26th.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Today",
+          "is",
+          "November",
+          [
+            "26th.",
+            "twenty-sixth."
+          ]
+        ],
+        "solution": [
+          [
+            "Today"
+          ],
+          [
+            "is"
+          ],
+          [
+            "November"
+          ],
+          [
+            "26th.",
+            "twenty-sixth."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/1-2022-05-20-10-01-22.mp3",
+        "timeStart": 3.7,
+        "timeEnd": 6,
+        "hints": [],
+        "nbComments": 75,
+        "discussionUrl": "https://dailydictation.com/discussions/1/list"
+      },
+      {
+        "id": 2,
+        "position": 2,
+        "content": "It snowed all day today.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "snowed",
+          "all",
+          "day",
+          "today."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "snowed"
+          ],
+          [
+            "all"
+          ],
+          [
+            "day"
+          ],
+          [
+            "today."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/2.mp3",
+        "timeStart": 6.6,
+        "timeEnd": 8.6,
+        "hints": [],
+        "nbComments": 25,
+        "discussionUrl": "https://dailydictation.com/discussions/2/list"
+      },
+      {
+        "id": 3,
+        "position": 3,
+        "content": "The snow is beautiful.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "snow",
+          "is",
+          "beautiful."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "snow"
+          ],
+          [
+            "is"
+          ],
+          [
+            "beautiful."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/3.mp3",
+        "timeStart": 9.3,
+        "timeEnd": 11.2,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/3/list"
+      },
+      {
+        "id": 4,
+        "position": 4,
+        "content": "The snow finally stopped.",
+        "defaultInput": "",
+        "jsonContent": [
+          "The",
+          "snow",
+          "finally",
+          "stopped."
+        ],
+        "solution": [
+          [
+            "The"
+          ],
+          [
+            "snow"
+          ],
+          [
+            "finally"
+          ],
+          [
+            "stopped."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/4-2022-01-21-20-47-52.mp3",
+        "timeStart": 12,
+        "timeEnd": 14.5,
+        "hints": [],
+        "nbComments": 32,
+        "discussionUrl": "https://dailydictation.com/discussions/4/list"
+      },
+      {
+        "id": 5,
+        "position": 5,
+        "content": "My sister and I are excited.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "sister",
+          "and",
+          "I",
+          "are",
+          "excited."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "sister"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "are"
+          ],
+          [
+            "excited."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/5.mp3",
+        "timeStart": 15.3,
+        "timeEnd": 17.3,
+        "hints": [],
+        "nbComments": 23,
+        "discussionUrl": "https://dailydictation.com/discussions/5/list"
+      },
+      {
+        "id": 6,
+        "position": 6,
+        "content": "My mom doesn't like the snow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          "like",
+          "the",
+          "snow."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "doesn't",
+            "does not"
+          ],
+          [
+            "like"
+          ],
+          [
+            "the"
+          ],
+          [
+            "snow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/6.mp3",
+        "timeStart": 18.1,
+        "timeEnd": 20.2,
+        "hints": [],
+        "nbComments": 21,
+        "discussionUrl": "https://dailydictation.com/discussions/6/list"
+      },
+      {
+        "id": 7,
+        "position": 7,
+        "content": "My mom has to shovel the driveway.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "mom",
+            "mum"
+          ],
+          "has",
+          "to",
+          "shovel",
+          "the",
+          "driveway."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "has"
+          ],
+          [
+            "to"
+          ],
+          [
+            "shovel"
+          ],
+          [
+            "the"
+          ],
+          [
+            "driveway."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/7.mp3",
+        "timeStart": 21,
+        "timeEnd": 23.4,
+        "hints": [],
+        "nbComments": 38,
+        "discussionUrl": "https://dailydictation.com/discussions/7/list"
+      },
+      {
+        "id": 8,
+        "position": 8,
+        "content": "My sister and I get to play.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "sister",
+          "and",
+          "I",
+          "get",
+          "to",
+          "play."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "sister"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "get"
+          ],
+          [
+            "to"
+          ],
+          [
+            "play."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/8.mp3",
+        "timeStart": 24.2,
+        "timeEnd": 26.3,
+        "hints": [],
+        "nbComments": 52,
+        "discussionUrl": "https://dailydictation.com/discussions/8/list"
+      },
+      {
+        "id": 9,
+        "position": 9,
+        "content": "I put on my hat and mittens.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I",
+          "put",
+          "on",
+          "my",
+          "hat",
+          "and",
+          "mittens."
+        ],
+        "solution": [
+          [
+            "I"
+          ],
+          [
+            "put"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "hat"
+          ],
+          [
+            "and"
+          ],
+          [
+            "mittens."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/9.mp3",
+        "timeStart": 27.3,
+        "timeEnd": 29.51,
+        "hints": [],
+        "nbComments": 72,
+        "discussionUrl": "https://dailydictation.com/discussions/9/list"
+      },
+      {
+        "id": 10,
+        "position": 10,
+        "content": "My mom puts on my scarf.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "mom",
+            "mum"
+          ],
+          "puts",
+          "on",
+          "my",
+          "scarf."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "puts"
+          ],
+          [
+            "on"
+          ],
+          [
+            "my"
+          ],
+          [
+            "scarf."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/10.mp3",
+        "timeStart": 30.1,
+        "timeEnd": 32.1,
+        "hints": [],
+        "nbComments": 31,
+        "discussionUrl": "https://dailydictation.com/discussions/10/list"
+      },
+      {
+        "id": 11,
+        "position": 11,
+        "content": "My mom zippers my jacket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "mom",
+            "mum"
+          ],
+          "zippers",
+          "my",
+          "jacket."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "zippers"
+          ],
+          [
+            "my"
+          ],
+          [
+            "jacket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/11.mp3",
+        "timeStart": 32.8,
+        "timeEnd": 34.9,
+        "hints": [],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/11/list"
+      },
+      {
+        "id": 12,
+        "position": 12,
+        "content": "My sister puts on her hat and mittens.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "sister",
+          "puts",
+          "on",
+          "her",
+          "hat",
+          "and",
+          "mittens."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "sister"
+          ],
+          [
+            "puts"
+          ],
+          [
+            "on"
+          ],
+          [
+            "her"
+          ],
+          [
+            "hat"
+          ],
+          [
+            "and"
+          ],
+          [
+            "mittens."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/12.mp3",
+        "timeStart": 35.5,
+        "timeEnd": 38.4,
+        "hints": [],
+        "nbComments": 15,
+        "discussionUrl": "https://dailydictation.com/discussions/12/list"
+      },
+      {
+        "id": 13,
+        "position": 13,
+        "content": "My mom puts on her scarf.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "mom",
+            "mum"
+          ],
+          "puts",
+          "on",
+          "her",
+          "scarf."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "puts"
+          ],
+          [
+            "on"
+          ],
+          [
+            "her"
+          ],
+          [
+            "scarf."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/13.mp3",
+        "timeStart": 39.1,
+        "timeEnd": 41.3,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/13/list"
+      },
+      {
+        "id": 14,
+        "position": 14,
+        "content": "My mom zippers her jacket.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "mom",
+            "mum"
+          ],
+          "zippers",
+          "her",
+          "jacket."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "zippers"
+          ],
+          [
+            "her"
+          ],
+          [
+            "jacket."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/14.mp3",
+        "timeStart": 42.2,
+        "timeEnd": 44.3,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/14/list"
+      },
+      {
+        "id": 15,
+        "position": 15,
+        "content": "My sister and I go outside.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "sister",
+          "and",
+          "I",
+          "go",
+          "outside."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "sister"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "go"
+          ],
+          [
+            "outside."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/15.mp3",
+        "timeStart": 45,
+        "timeEnd": 47.29,
+        "hints": [],
+        "nbComments": 4,
+        "discussionUrl": "https://dailydictation.com/discussions/15/list"
+      },
+      {
+        "id": 16,
+        "position": 16,
+        "content": "We begin to make a snowman.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "begin",
+          "to",
+          "make",
+          "a",
+          "snowman."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "begin"
+          ],
+          [
+            "to"
+          ],
+          [
+            "make"
+          ],
+          [
+            "a"
+          ],
+          [
+            "snowman."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/16.mp3",
+        "timeStart": 48.1,
+        "timeEnd": 50.19,
+        "hints": [],
+        "nbComments": 6,
+        "discussionUrl": "https://dailydictation.com/discussions/16/list"
+      },
+      {
+        "id": 17,
+        "position": 17,
+        "content": "My mom starts to shovel the snow.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          [
+            "mom",
+            "mum"
+          ],
+          "starts",
+          "to",
+          "shovel",
+          "the",
+          "snow."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "mom",
+            "mum"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "to"
+          ],
+          [
+            "shovel"
+          ],
+          [
+            "the"
+          ],
+          [
+            "snow."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/17.mp3",
+        "timeStart": 50.9,
+        "timeEnd": 53.31,
+        "hints": [],
+        "nbComments": 8,
+        "discussionUrl": "https://dailydictation.com/discussions/17/list"
+      },
+      {
+        "id": 18,
+        "position": 18,
+        "content": "My sister and I make snow angels.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "sister",
+          "and",
+          "I",
+          "make",
+          "snow",
+          "angels."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "sister"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "make"
+          ],
+          [
+            "snow"
+          ],
+          [
+            "angels."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/18.mp3",
+        "timeStart": 54,
+        "timeEnd": 56.59,
+        "hints": [],
+        "nbComments": 9,
+        "discussionUrl": "https://dailydictation.com/discussions/18/list"
+      },
+      {
+        "id": 19,
+        "position": 19,
+        "content": "My sister and I throw snowballs.",
+        "defaultInput": "",
+        "jsonContent": [
+          "My",
+          "sister",
+          "and",
+          "I",
+          "throw",
+          "snowballs."
+        ],
+        "solution": [
+          [
+            "My"
+          ],
+          [
+            "sister"
+          ],
+          [
+            "and"
+          ],
+          [
+            "I"
+          ],
+          [
+            "throw"
+          ],
+          [
+            "snowballs."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/19.mp3",
+        "timeStart": 57.1,
+        "timeEnd": 59.7,
+        "hints": [],
+        "nbComments": 11,
+        "discussionUrl": "https://dailydictation.com/discussions/19/list"
+      },
+      {
+        "id": 20,
+        "position": 20,
+        "content": "It starts to snow again.",
+        "defaultInput": "",
+        "jsonContent": [
+          "It",
+          "starts",
+          "to",
+          "snow",
+          "again."
+        ],
+        "solution": [
+          [
+            "It"
+          ],
+          [
+            "starts"
+          ],
+          [
+            "to"
+          ],
+          [
+            "snow"
+          ],
+          [
+            "again."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/20.mp3",
+        "timeStart": 60.2,
+        "timeEnd": 62,
+        "hints": [],
+        "nbComments": 13,
+        "discussionUrl": "https://dailydictation.com/discussions/20/list"
+      },
+      {
+        "id": 21,
+        "position": 21,
+        "content": "We go inside for hot chocolate.",
+        "defaultInput": "",
+        "jsonContent": [
+          "We",
+          "go",
+          "inside",
+          "for",
+          "hot",
+          "chocolate."
+        ],
+        "solution": [
+          [
+            "We"
+          ],
+          [
+            "go"
+          ],
+          [
+            "inside"
+          ],
+          [
+            "for"
+          ],
+          [
+            "hot"
+          ],
+          [
+            "chocolate."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/general-english/1-first-snowfall-2019-03-14-04-19-38/21.mp3",
+        "timeStart": 62.6,
+        "timeEnd": 65.19,
+        "hints": [],
+        "nbComments": 21,
+        "discussionUrl": "https://dailydictation.com/discussions/21/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "2": {
+      "id": 1,
+      "text": "Tuyết đã rơi cả ngày hôm nay.",
+      "author": "a user"
+    },
+    "4": {
+      "id": 4,
+      "text": "Tuyết cuối cùng cũng đã ngừng rơi.",
+      "author": "a user"
+    },
+    "7": {
+      "id": 7,
+      "text": "Mẹ tôi phải dùng xẻng xúc tuyết trên đường lái xe vào nhà.",
+      "author": "a user"
+    },
+    "8": {
+      "id": 8,
+      "text": "Tôi và em gái được chơi cùng nhau.",
+      "author": "a user"
+    },
+    "10": {
+      "id": 17,
+      "text": "Mẹ tôi quàng khăn cho tôi.",
+      "author": "a user"
+    },
+    "11": {
+      "id": 18,
+      "text": "Mẹ tôi kéo khóa áo khoác cho tôi.",
+      "author": "a user"
+    },
+    "13": {
+      "id": 20,
+      "text": "Mẹ tôi quàng khăn cho em tôi.",
+      "author": "a user"
+    },
+    "14": {
+      "id": 21,
+      "text": "Mẹ tôi kéo khóa áo khoác cho em tôi.",
+      "author": "a user"
+    },
+    "18": {
+      "id": 27,
+      "text": "Em gái tôi và tôi làm những thiên thần tuyết.",
+      "author": "a user"
+    },
+    "20": {
+      "id": 30,
+      "text": "Tuyết lại bắt đầu rơi.",
+      "author": "a user"
+    },
+    "21": {
+      "id": 32,
+      "text": "Chúng tôi vào trong để uống sô cô la nóng.",
+      "author": "a user"
+    },
+    "1": {
+      "id": 2589336,
+      "text": "Hôm nay là ngày 26 tháng 11.",
+      "author": "ChatGPT4.1"
+    },
+    "3": {
+      "id": 2589337,
+      "text": "Tuyết rất đẹp.",
+      "author": "ChatGPT4.1"
+    },
+    "5": {
+      "id": 2589338,
+      "text": "Chị/em gái tôi và tôi rất háo hức.",
+      "author": "ChatGPT4.1"
+    },
+    "6": {
+      "id": 2589339,
+      "text": "Mẹ tôi không thích tuyết.",
+      "author": "ChatGPT4.1"
+    },
+    "9": {
+      "id": 2589340,
+      "text": "Tôi đội mũ và đeo găng tay len.",
+      "author": "ChatGPT4.1"
+    },
+    "12": {
+      "id": 2589341,
+      "text": "Chị/em gái tôi đội mũ và đeo găng tay len.",
+      "author": "ChatGPT4.1"
+    },
+    "15": {
+      "id": 2589342,
+      "text": "Chị/em gái tôi và tôi đi ra ngoài.",
+      "author": "a user"
+    },
+    "16": {
+      "id": 2589343,
+      "text": "Chúng tôi bắt đầu nặn người tuyết.",
+      "author": "a user"
+    },
+    "17": {
+      "id": 2589344,
+      "text": "Mẹ tôi bắt đầu xúc tuyết.",
+      "author": "ChatGPT4.1"
+    },
+    "19": {
+      "id": 2589345,
+      "text": "Chị/em gái tôi và tôi ném cầu tuyết.",
+      "author": "a user"
+    }
+  }
+}

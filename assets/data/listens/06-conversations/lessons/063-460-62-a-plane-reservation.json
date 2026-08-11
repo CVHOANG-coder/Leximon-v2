@@ -1,0 +1,363 @@
+{
+  "summary": {
+    "id": 460,
+    "name": "62. A Plane Reservation",
+    "subTitle": "",
+    "levelName": "A2",
+    "position": 63,
+    "totalChallenges": 8,
+    "groupId": 105,
+    "isListenAndSelect": false,
+    "isFree": true
+  },
+  "endpoint": "https://dailydictation.com/api/lessons/460",
+  "detail": {
+    "id": 460,
+    "lessonName": "62. A Plane Reservation",
+    "name": "62. A Plane Reservation",
+    "position": 63,
+    "levelName": "A2",
+    "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/0-62-a-plane-reservation.mp3",
+    "youtubeVideoId": null,
+    "isCharacterLesson": false,
+    "isNumbersLesson": false,
+    "challenges": [
+      {
+        "id": 18443,
+        "position": 1,
+        "content": "I'd like to reconfirm my plane reservation.",
+        "defaultInput": "",
+        "jsonContent": [
+          "I'd",
+          "like",
+          "to",
+          "reconfirm",
+          "my",
+          "plane",
+          "reservation."
+        ],
+        "solution": [
+          [
+            "I'd"
+          ],
+          [
+            "like"
+          ],
+          [
+            "to"
+          ],
+          [
+            "reconfirm"
+          ],
+          [
+            "my"
+          ],
+          [
+            "plane"
+          ],
+          [
+            "reservation."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/1.mp3",
+        "timeStart": 2.45,
+        "timeEnd": 4.92,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18443/list"
+      },
+      {
+        "id": 18444,
+        "position": 2,
+        "content": "What flight are you taking?",
+        "defaultInput": "",
+        "jsonContent": [
+          "What",
+          "flight",
+          "are",
+          "you",
+          "taking?"
+        ],
+        "solution": [
+          [
+            "What"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "are"
+          ],
+          [
+            "you"
+          ],
+          [
+            "taking?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/2.mp3",
+        "timeStart": 4.95,
+        "timeEnd": 6.26,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18444/list"
+      },
+      {
+        "id": 18445,
+        "position": 3,
+        "content": "Flight 207.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Flight",
+          "207."
+        ],
+        "solution": [
+          [
+            "Flight"
+          ],
+          [
+            "207."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/3.mp3",
+        "timeStart": 6.41,
+        "timeEnd": 7.68,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18445/list"
+      },
+      {
+        "id": 18446,
+        "position": 4,
+        "content": "And your name, please?",
+        "defaultInput": "",
+        "jsonContent": [
+          "And",
+          "your",
+          "name,",
+          "please?"
+        ],
+        "solution": [
+          [
+            "And"
+          ],
+          [
+            "your"
+          ],
+          [
+            "name,"
+          ],
+          [
+            "please?"
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/4.mp3",
+        "timeStart": 7.68,
+        "timeEnd": 9.03,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18446/list"
+      },
+      {
+        "id": 18447,
+        "position": 5,
+        "content": "Henry Chandler.",
+        "defaultInput": "Henry Chandler.",
+        "jsonContent": [
+          "Henry",
+          "Chandler."
+        ],
+        "solution": [
+          [
+            "Henry"
+          ],
+          [
+            "Chandler."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/5.mp3",
+        "timeStart": 9.03,
+        "timeEnd": 10.34,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18447/list"
+      },
+      {
+        "id": 18448,
+        "position": 6,
+        "content": "Yes, sir. You're booked on Flight 207.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Yes,",
+          "sir.",
+          [
+            "You're",
+            "you are"
+          ],
+          "booked",
+          "on",
+          "Flight",
+          "207."
+        ],
+        "solution": [
+          [
+            "Yes,"
+          ],
+          [
+            "sir."
+          ],
+          [
+            "You're",
+            "you are"
+          ],
+          [
+            "booked"
+          ],
+          [
+            "on"
+          ],
+          [
+            "Flight"
+          ],
+          [
+            "207."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/6.mp3",
+        "timeStart": 10.34,
+        "timeEnd": 13.4,
+        "hints": [],
+        "nbComments": 1,
+        "discussionUrl": "https://dailydictation.com/discussions/18448/list"
+      },
+      {
+        "id": 18449,
+        "position": 7,
+        "content": "Please check in at the airport an hour before flight time.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Please",
+          "check",
+          "in",
+          "at",
+          "the",
+          "airport",
+          "an",
+          "hour",
+          "before",
+          "flight",
+          "time."
+        ],
+        "solution": [
+          [
+            "Please"
+          ],
+          [
+            "check"
+          ],
+          [
+            "in"
+          ],
+          [
+            "at"
+          ],
+          [
+            "the"
+          ],
+          [
+            "airport"
+          ],
+          [
+            "an"
+          ],
+          [
+            "hour"
+          ],
+          [
+            "before"
+          ],
+          [
+            "flight"
+          ],
+          [
+            "time."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/7.mp3",
+        "timeStart": 13.4,
+        "timeEnd": 16.32,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18449/list"
+      },
+      {
+        "id": 18450,
+        "position": 8,
+        "content": "Thank you.",
+        "defaultInput": "",
+        "jsonContent": [
+          "Thank",
+          "you."
+        ],
+        "solution": [
+          [
+            "Thank"
+          ],
+          [
+            "you."
+          ]
+        ],
+        "audioSrc": "https://dailydictation.com/upload/english-conversations/62-a-plane-reservation-2022-03-07-21-25-32/8.mp3",
+        "timeStart": 16.41,
+        "timeEnd": 17.13,
+        "hints": [],
+        "nbComments": 0,
+        "discussionUrl": "https://dailydictation.com/discussions/18450/list"
+      }
+    ],
+    "translations": {},
+    "isFree": true
+  },
+  "translations": {
+    "18446": {
+      "id": 32502,
+      "text": "Vui lòng cho tôi biết tên của anh.",
+      "author": "a user"
+    },
+    "18443": {
+      "id": 2592200,
+      "text": "Tôi muốn xác nhận lại đặt chỗ máy bay của mình.",
+      "author": "ChatGPT4.1"
+    },
+    "18444": {
+      "id": 2592201,
+      "text": "Bạn đi chuyến bay nào?",
+      "author": "ChatGPT4.1"
+    },
+    "18445": {
+      "id": 2592202,
+      "text": "Chuyến bay 207.",
+      "author": "ChatGPT4.1"
+    },
+    "18447": {
+      "id": 2592203,
+      "text": "Henry Chandler.",
+      "author": "ChatGPT4.1"
+    },
+    "18448": {
+      "id": 2592204,
+      "text": "Vâng, thưa ông. Ông đã được đặt chỗ trên chuyến bay 207.",
+      "author": "ChatGPT4.1"
+    },
+    "18449": {
+      "id": 2592205,
+      "text": "Xin vui lòng có mặt tại sân bay để làm thủ tục trước giờ bay một tiếng.",
+      "author": "ChatGPT4.1"
+    },
+    "18450": {
+      "id": 2592206,
+      "text": "Cảm ơn bạn.",
+      "author": "ChatGPT4.1"
+    }
+  }
+}
