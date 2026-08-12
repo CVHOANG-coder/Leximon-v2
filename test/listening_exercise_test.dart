@@ -4,11 +4,14 @@ import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:http/http.dart' as http;
+import 'package:http/testing.dart';
 import 'package:leximon/data/datasources/listening_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/listening_exercise.dart';
 import 'package:leximon/data/services/listening_answer_checker.dart';
 import 'package:leximon/data/services/listening_progress_service.dart';
+import 'package:leximon/data/services/youtube_video_info_service.dart';
 import 'package:leximon/presentation/screens/listening_practice/listening_exercise_screen.dart';
 
 void main() {
@@ -55,6 +58,43 @@ void main() {
         isTrue,
       );
       expect(checker.check('My mom', challenge).isCorrect, isFalse);
+    });
+
+    test('loads YouTube video id and sentence timestamps', () async {
+      final lesson = await ListeningAssetDataSource().loadLesson(
+        courseIndexAsset:
+            'assets/data/listens/13-stories-for-kids/course-index.json',
+        lessonId: 1905,
+      );
+
+      expect(lesson.youtubeVideoId, 'ki_DGMh2r0c');
+      expect(lesson.isYoutubeLesson, isTrue);
+      expect(lesson.challenges.first.timeStart, 5);
+      expect(lesson.challenges.first.timeEnd, 8.55);
+      expect(lesson.challenges.first.audioUrl, isEmpty);
+    });
+
+    test('loads YouTube title and author from oEmbed', () async {
+      Uri? requestedUri;
+      final service = YoutubeVideoInfoService(
+        client: MockClient((request) async {
+          requestedUri = request.url;
+          return http.Response(
+            '{"title":"Rapunzel - UK English accent",'
+            '"author_name":"The Fable Cottage",'
+            '"thumbnail_url":"https://i.ytimg.com/example.jpg"}',
+            200,
+          );
+        }),
+      );
+
+      final info = await service.load('ki_DGMh2r0c');
+
+      expect(requestedUri?.host, 'www.youtube.com');
+      expect(requestedUri?.path, '/oembed');
+      expect(requestedUri?.queryParameters['url'], contains('ki_DGMh2r0c'));
+      expect(info.title, 'Rapunzel - UK English accent');
+      expect(info.author, 'The Fable Cottage');
     });
   });
 
@@ -138,6 +178,7 @@ void main() {
         challenges: [challenge],
         translations: {1: 'Hôm nay là ngày 26 tháng 11.'},
       );
+      final audioController = _FakeAudioController();
       await tester.pumpWidget(
         ProviderScope(
           child: MaterialApp(
@@ -148,7 +189,7 @@ void main() {
               lessonId: 1,
               initialExercise: exercise,
               progressService: progress,
-              audioController: _FakeAudioController(),
+              audioController: audioController,
             ),
           ),
         ),
@@ -157,9 +198,41 @@ void main() {
         () => Future<void>.delayed(const Duration(milliseconds: 150)),
       );
       await tester.pump();
+      await tester.pump();
 
       expect(find.text('First snowfall'), findsOneWidget);
       expect(find.text('1 / 1'), findsOneWidget);
+      expect(audioController.playCalls, 1);
+      expect(audioController.lastUrl, 'test://audio');
+      expect(audioController.lastSpeed, 1);
+      expect(audioController.lastRestart, isTrue);
+      expect(find.byIcon(Icons.pause_rounded), findsOneWidget);
+
+      await tester.tap(find.byKey(const ValueKey('listening-playback-toggle')));
+      await tester.pump();
+      expect(audioController.pauseCalls, 1);
+      expect(find.byIcon(Icons.play_arrow_rounded), findsOneWidget);
+
+      await tester.tap(find.byKey(const ValueKey('listening-playback-toggle')));
+      await tester.pump();
+      expect(audioController.playCalls, 2);
+      expect(audioController.lastRestart, isFalse);
+      expect(find.byIcon(Icons.pause_rounded), findsOneWidget);
+      expect(find.text('Hôm nay là ngày 26 tháng 11.'), findsNothing);
+
+      await tester.ensureVisible(find.text('Skip'));
+      await tester.tap(find.text('Skip'));
+      await tester.pump();
+      await tester.runAsync(
+        () => Future<void>.delayed(const Duration(milliseconds: 100)),
+      );
+      await tester.pump();
+      expect(find.text('Hôm nay là ngày 26 tháng 11.'), findsOneWidget);
+      expect(find.text('Next'), findsOneWidget);
+
+      await tester.tap(find.text('Redo'));
+      await tester.pump();
+      expect(find.text('Hôm nay là ngày 26 tháng 11.'), findsNothing);
 
       await tester.enterText(
         find.byKey(const ValueKey('listening-answer-field')),
@@ -176,6 +249,7 @@ void main() {
         find.text('Something seems missing or incorrect.'),
         findsOneWidget,
       );
+      expect(find.text('Hôm nay là ngày 26 tháng 11.'), findsNothing);
 
       await tester.enterText(
         find.byKey(const ValueKey('listening-answer-field')),
@@ -199,6 +273,11 @@ void main() {
 class _FakeAudioController implements ListeningAudioController {
   final _playing = StreamController<bool>.broadcast();
   bool _isPlaying = false;
+  int playCalls = 0;
+  int pauseCalls = 0;
+  String? lastUrl;
+  double? lastSpeed;
+  bool? lastRestart;
 
   @override
   bool get isPlaying => _isPlaying;
@@ -208,6 +287,7 @@ class _FakeAudioController implements ListeningAudioController {
 
   @override
   Future<void> pause() async {
+    pauseCalls++;
     _isPlaying = false;
     _playing.add(false);
   }
@@ -218,6 +298,10 @@ class _FakeAudioController implements ListeningAudioController {
     required double speed,
     bool restart = true,
   }) async {
+    playCalls++;
+    lastUrl = url;
+    lastSpeed = speed;
+    lastRestart = restart;
     _isPlaying = true;
     _playing.add(true);
   }

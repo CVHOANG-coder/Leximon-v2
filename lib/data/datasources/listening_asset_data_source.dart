@@ -56,6 +56,7 @@ class ListeningAssetDataSource {
       audioUrl: detail['audioSrc'] as String? ?? '',
       challenges: challenges,
       translations: translations,
+      youtubeVideoId: detail['youtubeVideoId'] as String?,
     );
   }
 
@@ -92,6 +93,8 @@ class ListeningAssetDataSource {
         return [token.toString()];
       }).toList(),
       audioUrl: json['audioSrc'] as String? ?? '',
+      timeStart: (json['timeStart'] as num?)?.toDouble(),
+      timeEnd: (json['timeEnd'] as num?)?.toDouble(),
     );
   }
 }

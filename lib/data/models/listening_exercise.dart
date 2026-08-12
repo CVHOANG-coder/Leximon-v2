@@ -6,6 +6,7 @@ class ListeningExercise {
     required this.audioUrl,
     required this.challenges,
     required this.translations,
+    this.youtubeVideoId,
   });
 
   final int id;
@@ -14,6 +15,9 @@ class ListeningExercise {
   final String audioUrl;
   final List<ListeningChallenge> challenges;
   final Map<int, String> translations;
+  final String? youtubeVideoId;
+
+  bool get isYoutubeLesson => youtubeVideoId?.isNotEmpty == true;
 }
 
 class ListeningChallenge {
@@ -24,6 +28,8 @@ class ListeningChallenge {
     required this.defaultInput,
     required this.solutions,
     required this.audioUrl,
+    this.timeStart,
+    this.timeEnd,
   });
 
   final int id;
@@ -32,4 +38,6 @@ class ListeningChallenge {
   final String defaultInput;
   final List<List<String>> solutions;
   final String audioUrl;
+  final double? timeStart;
+  final double? timeEnd;
 }
