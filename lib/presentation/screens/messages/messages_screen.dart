@@ -4,7 +4,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../grammar_practice/grammar_practice_screen.dart';
 import '../listening_practice/listening_practice_screen.dart';
+import '../pronunciation/pronunciation_screen.dart';
 
 class MessagesScreen extends ConsumerWidget {
   const MessagesScreen({super.key});
@@ -391,6 +393,7 @@ class _ModesSection extends StatelessWidget {
             children: [
               _ModeCard(
                 key: const ValueKey('listening-mode-card'),
+                actionKey: const ValueKey('listening-mode-card-action'),
                 icon: Icons.headphones_rounded,
                 title: 'Nghe nhanh',
                 body: 'Nghe phát âm và chọn đúng nghĩa trong thời gian ngắn.',
@@ -404,19 +407,37 @@ class _ModesSection extends StatelessWidget {
                   );
                 },
               ),
-              const _ModeCard(
+              _ModeCard(
+                key: const ValueKey('grammar-mode-card'),
+                actionKey: const ValueKey('grammar-mode-card-action'),
                 icon: Icons.extension_rounded,
                 title: 'Ghép nghĩa',
                 body: 'Ghép từ với nghĩa hoặc ví dụ đúng để tăng phản xạ.',
                 tag: '10 câu',
                 color: AppColors.orange,
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => const GrammarPracticeScreen(),
+                    ),
+                  );
+                },
               ),
-              const _ModeCard(
+              _ModeCard(
+                key: const ValueKey('pronunciation-mode-card'),
+                actionKey: const ValueKey('pronunciation-mode-card-action'),
                 icon: Icons.mic_rounded,
                 title: 'Phát âm',
                 body: 'Luyện nói lại từ mới và hoàn thành combo chuẩn.',
                 tag: 'Mic bật',
                 color: AppColors.green,
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => const PronunciationScreen(),
+                    ),
+                  );
+                },
               ),
               const _ModeCard(
                 icon: Icons.sports_martial_arts_rounded,
@@ -441,6 +462,7 @@ class _ModeCard extends StatelessWidget {
     required this.tag,
     required this.color,
     this.onTap,
+    this.actionKey,
     super.key,
   });
   final IconData icon;
@@ -449,6 +471,7 @@ class _ModeCard extends StatelessWidget {
   final String tag;
   final Color color;
   final VoidCallback? onTap;
+  final Key? actionKey;
 
   @override
   Widget build(BuildContext context) {
@@ -461,9 +484,7 @@ class _ModeCard extends StatelessWidget {
       shape: shape,
       clipBehavior: Clip.antiAlias,
       child: InkWell(
-        key: onTap == null
-            ? null
-            : const ValueKey('listening-mode-card-action'),
+        key: actionKey,
         onTap: onTap,
         customBorder: shape,
         child: Padding(

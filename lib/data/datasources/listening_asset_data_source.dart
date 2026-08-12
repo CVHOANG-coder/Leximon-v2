@@ -23,12 +23,16 @@ class ListeningAssetDataSource {
     }
 
     final rawChallenges = detail['challenges'] as List<dynamic>? ?? const [];
-    final challenges =
-        rawChallenges
-            .whereType<Map<String, dynamic>>()
-            .map(_challengeFromJson)
-            .toList()
-          ..sort((a, b) => a.position.compareTo(b.position));
+    final lessonName =
+        detail['lessonName'] as String? ?? detail['name'] as String? ?? '';
+    final isSelectionLesson = rawChallenges.firstOrNull is List<dynamic>;
+    final challenges = isSelectionLesson
+        ? _selectionChallengesFromJson(rawChallenges, lessonName)
+        : (rawChallenges
+              .whereType<Map<String, dynamic>>()
+              .map(_challengeFromJson)
+              .toList()
+            ..sort((a, b) => a.position.compareTo(b.position)));
     if (challenges.isEmpty) {
       throw const FormatException(
         'This lesson does not support Listen & Type exercises.',
@@ -49,9 +53,7 @@ class ListeningAssetDataSource {
 
     return ListeningExercise(
       id: detail['id'] as int? ?? lessonId,
-      name: _cleanLessonName(
-        detail['lessonName'] as String? ?? detail['name'] as String? ?? '',
-      ),
+      name: _cleanLessonName(lessonName),
       levelName: detail['levelName'] as String? ?? '',
       audioUrl: detail['audioSrc'] as String? ?? '',
       challenges: challenges,
@@ -96,6 +98,71 @@ class ListeningAssetDataSource {
       timeStart: (json['timeStart'] as num?)?.toDouble(),
       timeEnd: (json['timeEnd'] as num?)?.toDouble(),
     );
+  }
+
+  List<ListeningChallenge> _selectionChallengesFromJson(
+    List<dynamic> rawChallenges,
+    String lessonName,
+  ) {
+    final result = <ListeningChallenge>[];
+    for (var groupIndex = 0; groupIndex < rawChallenges.length; groupIndex++) {
+      final rawGroup = rawChallenges[groupIndex];
+      if (rawGroup is! List<dynamic>) continue;
+      final rawOptions = rawGroup.whereType<Map<String, dynamic>>().toList();
+      if (rawOptions.length < 2) continue;
+
+      final phonemeLabels = _phonemeLabels(lessonName, rawOptions.length);
+      final recordingKey = '${(groupIndex % 6) + 1}';
+      final options = <ListeningSelectionOption>[];
+      final optionIds = <int>[];
+      for (
+        var optionIndex = 0;
+        optionIndex < rawOptions.length;
+        optionIndex++
+      ) {
+        final rawOption = rawOptions[optionIndex];
+        final recordings =
+            rawOption['recordings'] as Map<String, dynamic>? ?? const {};
+        final rawRecording =
+            recordings[recordingKey] ?? recordings.values.firstOrNull;
+        if (rawRecording is! Map<String, dynamic>) continue;
+        final fullPhonetic = rawRecording['secondaryText'] as String? ?? '';
+        options.add(
+          ListeningSelectionOption(
+            text: rawRecording['text'] as String? ?? '',
+            phonetic: phonemeLabels?[optionIndex] ?? fullPhonetic,
+            audioUrl: rawRecording['audioSrc'] as String? ?? '',
+          ),
+        );
+        optionIds.add(rawOption['id'] as int? ?? groupIndex + 1);
+      }
+      if (options.length < 2) continue;
+
+      // Alternate the target so learners practise both sides of each contrast.
+      final correctIndex = (groupIndex + 1) % options.length;
+      final correctOption = options[correctIndex];
+      result.add(
+        ListeningChallenge(
+          id: optionIds[correctIndex],
+          position: groupIndex + 1,
+          content: correctOption.text,
+          defaultInput: '',
+          solutions: [
+            [correctOption.text],
+          ],
+          audioUrl: correctOption.audioUrl,
+          selectionOptions: List.unmodifiable(options),
+          correctSelectionIndex: correctIndex,
+        ),
+      );
+    }
+    return result;
+  }
+
+  List<String>? _phonemeLabels(String lessonName, int optionCount) {
+    final matches = RegExp(r'/([^/]+)/').allMatches(lessonName).toList();
+    if (matches.length != optionCount) return null;
+    return matches.map((match) => match.group(1) ?? '').toList();
   }
 }
 

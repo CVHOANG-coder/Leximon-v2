@@ -100,9 +100,55 @@ flutter:
     - assets/images/practice_listen/
     - assets/images/owls/
     - assets/images/onboarding/
+    - assets/images/grammar/
     - assets/data/vocabulary_test.json
     - assets/data/topics/
     - assets/data/sentences/
+    - assets/data/grammar/allpack/
+    - assets/data/ipa/json/
+    - assets/data/ipa/result/vowelSounds/aʊ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/eɪ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/i/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ju/pronunciation/
+    - assets/data/ipa/result/vowelSounds/oʊ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/u/pronunciation/
+    - assets/data/ipa/result/vowelSounds/æ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ɑ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ɑɪ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ɔ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ɔɪ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ɛ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ɪ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ʊ/pronunciation/
+    - assets/data/ipa/result/vowelSounds/ʌ/pronunciation/
+    - assets/data/ipa/result/rControlledVowels/ɑr/pronunciation/
+    - assets/data/ipa/result/rControlledVowels/ɔr/pronunciation/
+    - assets/data/ipa/result/rControlledVowels/ɚ/pronunciation/
+    - assets/data/ipa/result/rControlledVowels/ɛr/pronunciation/
+    - assets/data/ipa/result/consonantSounds/b/pronunciation/
+    - assets/data/ipa/result/consonantSounds/d/pronunciation/
+    - assets/data/ipa/result/consonantSounds/f/pronunciation/
+    - assets/data/ipa/result/consonantSounds/g/pronunciation/
+    - assets/data/ipa/result/consonantSounds/h/pronunciation/
+    - assets/data/ipa/result/consonantSounds/k/pronunciation/
+    - assets/data/ipa/result/consonantSounds/l/pronunciation/
+    - assets/data/ipa/result/consonantSounds/m/pronunciation/
+    - assets/data/ipa/result/consonantSounds/n/pronunciation/
+    - assets/data/ipa/result/consonantSounds/p/pronunciation/
+    - assets/data/ipa/result/consonantSounds/r/pronunciation/
+    - assets/data/ipa/result/consonantSounds/s/pronunciation/
+    - assets/data/ipa/result/consonantSounds/t/pronunciation/
+    - assets/data/ipa/result/consonantSounds/v/pronunciation/
+    - assets/data/ipa/result/consonantSounds/w/pronunciation/
+    - assets/data/ipa/result/consonantSounds/y/pronunciation/
+    - assets/data/ipa/result/consonantSounds/z/pronunciation/
+    - assets/data/ipa/result/consonantSounds/ð/pronunciation/
+    - assets/data/ipa/result/consonantSounds/ŋ/pronunciation/
+    - assets/data/ipa/result/consonantSounds/ʃ/pronunciation/
+    - assets/data/ipa/result/consonantSounds/ʒ/pronunciation/
+    - assets/data/ipa/result/consonantSounds/ʤ/pronunciation/
+    - assets/data/ipa/result/consonantSounds/ʧ/pronunciation/
+    - assets/data/ipa/result/consonantSounds/θ/pronunciation/
     - assets/data/listens/01-ielts-listening/course-index.json
     - assets/data/listens/02-short-stories/course-index.json
     - assets/data/listens/03-spelling-names/course-index.json

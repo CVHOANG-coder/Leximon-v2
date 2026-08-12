@@ -74,6 +74,22 @@ void main() {
       expect(lesson.challenges.first.audioUrl, isEmpty);
     });
 
+    test('loads IPA lessons as pronunciation choices', () async {
+      final lesson = await ListeningAssetDataSource().loadLesson(
+        courseIndexAsset: 'assets/data/listens/09-ipa/course-index.json',
+        lessonId: 684,
+      );
+
+      expect(lesson.isSelectionLesson, isTrue);
+      expect(lesson.challenges, hasLength(10));
+      expect(lesson.challenges.first.content, 'eat');
+      expect(lesson.challenges.first.correctSelectionIndex, 1);
+      expect(
+        lesson.challenges.first.selectionOptions.map((item) => item.phonetic),
+        ['ɪ', 'i:'],
+      );
+    });
+
     test('loads YouTube title and author from oEmbed', () async {
       Uri? requestedUri;
       final service = YoutubeVideoInfoService(
@@ -266,6 +282,95 @@ void main() {
 
       final saved = await progress.loadLesson(courseId: 2, lessonId: 1);
       expect(saved?.status, ListeningLessonStatus.completed.index);
+    });
+
+    testWidgets('renders IPA choice, retry, and success states', (
+      tester,
+    ) async {
+      tester.view.physicalSize = const Size(430, 900);
+      tester.view.devicePixelRatio = 1;
+      addTearDown(tester.view.resetPhysicalSize);
+      addTearDown(tester.view.resetDevicePixelRatio);
+
+      const challenge = ListeningChallenge(
+        id: 32746,
+        position: 1,
+        content: 'eat',
+        defaultInput: '',
+        solutions: [
+          ['eat'],
+        ],
+        audioUrl: 'test://eat',
+        selectionOptions: [
+          ListeningSelectionOption(
+            text: 'it',
+            phonetic: 'ɪ',
+            audioUrl: 'test://it',
+          ),
+          ListeningSelectionOption(
+            text: 'eat',
+            phonetic: 'i:',
+            audioUrl: 'test://eat',
+          ),
+        ],
+        correctSelectionIndex: 1,
+      );
+      const exercise = ListeningExercise(
+        id: 684,
+        name: '/ɪ/ vs /i:/ (it vs eat)',
+        levelName: '',
+        audioUrl: '',
+        challenges: [challenge],
+        translations: {},
+      );
+      final audioController = _FakeAudioController();
+
+      await tester.pumpWidget(
+        ProviderScope(
+          child: MaterialApp(
+            home: ListeningExerciseScreen(
+              courseId: 9,
+              courseIndexAsset: 'assets/data/listens/09-ipa/course-index.json',
+              lessonId: 684,
+              initialExercise: exercise,
+              progressService: progress,
+              audioController: audioController,
+            ),
+          ),
+        ),
+      );
+      await tester.pumpAndSettle();
+
+      expect(find.text('IPA PRACTICE'), findsOneWidget);
+      expect(find.text('eat'), findsWidgets);
+      expect(find.text('/ɪ/'), findsOneWidget);
+      expect(find.text('/i:/'), findsOneWidget);
+      expect(find.text('(it)'), findsNothing);
+      expect(find.text('(eat)'), findsNothing);
+      expect(find.text('Check'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+
+      await tester.tap(find.byKey(const ValueKey('ipa-option-0')));
+      await tester.pumpAndSettle();
+      expect(audioController.lastUrl, 'test://it');
+      expect(find.text("That's not correct!  Try again!"), findsNothing);
+      expect(find.text('(it)'), findsNothing);
+      expect(find.text('(eat)'), findsNothing);
+      await tester.tap(find.byKey(const ValueKey('ipa-primary-action')));
+      await tester.pumpAndSettle();
+      expect(find.text("That's not correct!  Try again!"), findsOneWidget);
+      expect(find.text('(it)'), findsOneWidget);
+      expect(find.text('(eat)'), findsOneWidget);
+
+      await tester.tap(find.byKey(const ValueKey('ipa-option-1')));
+      await tester.pumpAndSettle();
+      expect(audioController.lastUrl, 'test://eat');
+      expect(find.text('You are correct!'), findsNothing);
+      await tester.tap(find.byKey(const ValueKey('ipa-primary-action')));
+      await tester.pumpAndSettle();
+      expect(find.text('You are correct!'), findsOneWidget);
+      expect(find.text('Next'), findsOneWidget);
+      expect(tester.takeException(), isNull);
     });
   });
 }

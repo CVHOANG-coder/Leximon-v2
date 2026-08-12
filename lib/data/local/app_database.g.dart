@@ -8668,6 +8668,2758 @@ class ListeningPracticeDaysCompanion
   }
 }
 
+class $GrammarPackModelsTable extends GrammarPackModels
+    with TableInfo<$GrammarPackModelsTable, GrammarPackRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $GrammarPackModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _guidMeta = const VerificationMeta('guid');
+  @override
+  late final GeneratedColumn<String> guid = GeneratedColumn<String>(
+    'guid',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _titleMeta = const VerificationMeta('title');
+  @override
+  late final GeneratedColumn<String> title = GeneratedColumn<String>(
+    'title',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _descriptionMeta = const VerificationMeta(
+    'description',
+  );
+  @override
+  late final GeneratedColumn<String> description = GeneratedColumn<String>(
+    'description',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _levelMeta = const VerificationMeta('level');
+  @override
+  late final GeneratedColumn<String> level = GeneratedColumn<String>(
+    'level',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _iconAssetMeta = const VerificationMeta(
+    'iconAsset',
+  );
+  @override
+  late final GeneratedColumn<String> iconAsset = GeneratedColumn<String>(
+    'icon_asset',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _progressMeta = const VerificationMeta(
+    'progress',
+  );
+  @override
+  late final GeneratedColumn<int> progress = GeneratedColumn<int>(
+    'progress',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _testProgressMeta = const VerificationMeta(
+    'testProgress',
+  );
+  @override
+  late final GeneratedColumn<int> testProgress = GeneratedColumn<int>(
+    'test_progress',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _enabledMeta = const VerificationMeta(
+    'enabled',
+  );
+  @override
+  late final GeneratedColumn<bool> enabled = GeneratedColumn<bool>(
+    'enabled',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("enabled" IN (0, 1))',
+    ),
+    defaultValue: const Constant(true),
+  );
+  static const VerificationMeta _activeMeta = const VerificationMeta('active');
+  @override
+  late final GeneratedColumn<bool> active = GeneratedColumn<bool>(
+    'active',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("active" IN (0, 1))',
+    ),
+    defaultValue: const Constant(true),
+  );
+  static const VerificationMeta _sortOrderMeta = const VerificationMeta(
+    'sortOrder',
+  );
+  @override
+  late final GeneratedColumn<int> sortOrder = GeneratedColumn<int>(
+    'sort_order',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    guid,
+    title,
+    description,
+    level,
+    iconAsset,
+    progress,
+    testProgress,
+    enabled,
+    active,
+    sortOrder,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'grammar_pack_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<GrammarPackRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('guid')) {
+      context.handle(
+        _guidMeta,
+        guid.isAcceptableOrUnknown(data['guid']!, _guidMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_guidMeta);
+    }
+    if (data.containsKey('title')) {
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_titleMeta);
+    }
+    if (data.containsKey('description')) {
+      context.handle(
+        _descriptionMeta,
+        description.isAcceptableOrUnknown(
+          data['description']!,
+          _descriptionMeta,
+        ),
+      );
+    }
+    if (data.containsKey('level')) {
+      context.handle(
+        _levelMeta,
+        level.isAcceptableOrUnknown(data['level']!, _levelMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_levelMeta);
+    }
+    if (data.containsKey('icon_asset')) {
+      context.handle(
+        _iconAssetMeta,
+        iconAsset.isAcceptableOrUnknown(data['icon_asset']!, _iconAssetMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_iconAssetMeta);
+    }
+    if (data.containsKey('progress')) {
+      context.handle(
+        _progressMeta,
+        progress.isAcceptableOrUnknown(data['progress']!, _progressMeta),
+      );
+    }
+    if (data.containsKey('test_progress')) {
+      context.handle(
+        _testProgressMeta,
+        testProgress.isAcceptableOrUnknown(
+          data['test_progress']!,
+          _testProgressMeta,
+        ),
+      );
+    }
+    if (data.containsKey('enabled')) {
+      context.handle(
+        _enabledMeta,
+        enabled.isAcceptableOrUnknown(data['enabled']!, _enabledMeta),
+      );
+    }
+    if (data.containsKey('active')) {
+      context.handle(
+        _activeMeta,
+        active.isAcceptableOrUnknown(data['active']!, _activeMeta),
+      );
+    }
+    if (data.containsKey('sort_order')) {
+      context.handle(
+        _sortOrderMeta,
+        sortOrder.isAcceptableOrUnknown(data['sort_order']!, _sortOrderMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_sortOrderMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  GrammarPackRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return GrammarPackRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      guid: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}guid'],
+      )!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      )!,
+      description: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}description'],
+      )!,
+      level: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}level'],
+      )!,
+      iconAsset: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}icon_asset'],
+      )!,
+      progress: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}progress'],
+      )!,
+      testProgress: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}test_progress'],
+      )!,
+      enabled: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}enabled'],
+      )!,
+      active: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}active'],
+      )!,
+      sortOrder: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}sort_order'],
+      )!,
+    );
+  }
+
+  @override
+  $GrammarPackModelsTable createAlias(String alias) {
+    return $GrammarPackModelsTable(attachedDatabase, alias);
+  }
+}
+
+class GrammarPackRow extends DataClass implements Insertable<GrammarPackRow> {
+  final int id;
+  final String guid;
+  final String title;
+  final String description;
+  final String level;
+  final String iconAsset;
+  final int progress;
+  final int testProgress;
+  final bool enabled;
+  final bool active;
+  final int sortOrder;
+  const GrammarPackRow({
+    required this.id,
+    required this.guid,
+    required this.title,
+    required this.description,
+    required this.level,
+    required this.iconAsset,
+    required this.progress,
+    required this.testProgress,
+    required this.enabled,
+    required this.active,
+    required this.sortOrder,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['guid'] = Variable<String>(guid);
+    map['title'] = Variable<String>(title);
+    map['description'] = Variable<String>(description);
+    map['level'] = Variable<String>(level);
+    map['icon_asset'] = Variable<String>(iconAsset);
+    map['progress'] = Variable<int>(progress);
+    map['test_progress'] = Variable<int>(testProgress);
+    map['enabled'] = Variable<bool>(enabled);
+    map['active'] = Variable<bool>(active);
+    map['sort_order'] = Variable<int>(sortOrder);
+    return map;
+  }
+
+  GrammarPackModelsCompanion toCompanion(bool nullToAbsent) {
+    return GrammarPackModelsCompanion(
+      id: Value(id),
+      guid: Value(guid),
+      title: Value(title),
+      description: Value(description),
+      level: Value(level),
+      iconAsset: Value(iconAsset),
+      progress: Value(progress),
+      testProgress: Value(testProgress),
+      enabled: Value(enabled),
+      active: Value(active),
+      sortOrder: Value(sortOrder),
+    );
+  }
+
+  factory GrammarPackRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return GrammarPackRow(
+      id: serializer.fromJson<int>(json['id']),
+      guid: serializer.fromJson<String>(json['guid']),
+      title: serializer.fromJson<String>(json['title']),
+      description: serializer.fromJson<String>(json['description']),
+      level: serializer.fromJson<String>(json['level']),
+      iconAsset: serializer.fromJson<String>(json['iconAsset']),
+      progress: serializer.fromJson<int>(json['progress']),
+      testProgress: serializer.fromJson<int>(json['testProgress']),
+      enabled: serializer.fromJson<bool>(json['enabled']),
+      active: serializer.fromJson<bool>(json['active']),
+      sortOrder: serializer.fromJson<int>(json['sortOrder']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'guid': serializer.toJson<String>(guid),
+      'title': serializer.toJson<String>(title),
+      'description': serializer.toJson<String>(description),
+      'level': serializer.toJson<String>(level),
+      'iconAsset': serializer.toJson<String>(iconAsset),
+      'progress': serializer.toJson<int>(progress),
+      'testProgress': serializer.toJson<int>(testProgress),
+      'enabled': serializer.toJson<bool>(enabled),
+      'active': serializer.toJson<bool>(active),
+      'sortOrder': serializer.toJson<int>(sortOrder),
+    };
+  }
+
+  GrammarPackRow copyWith({
+    int? id,
+    String? guid,
+    String? title,
+    String? description,
+    String? level,
+    String? iconAsset,
+    int? progress,
+    int? testProgress,
+    bool? enabled,
+    bool? active,
+    int? sortOrder,
+  }) => GrammarPackRow(
+    id: id ?? this.id,
+    guid: guid ?? this.guid,
+    title: title ?? this.title,
+    description: description ?? this.description,
+    level: level ?? this.level,
+    iconAsset: iconAsset ?? this.iconAsset,
+    progress: progress ?? this.progress,
+    testProgress: testProgress ?? this.testProgress,
+    enabled: enabled ?? this.enabled,
+    active: active ?? this.active,
+    sortOrder: sortOrder ?? this.sortOrder,
+  );
+  GrammarPackRow copyWithCompanion(GrammarPackModelsCompanion data) {
+    return GrammarPackRow(
+      id: data.id.present ? data.id.value : this.id,
+      guid: data.guid.present ? data.guid.value : this.guid,
+      title: data.title.present ? data.title.value : this.title,
+      description: data.description.present
+          ? data.description.value
+          : this.description,
+      level: data.level.present ? data.level.value : this.level,
+      iconAsset: data.iconAsset.present ? data.iconAsset.value : this.iconAsset,
+      progress: data.progress.present ? data.progress.value : this.progress,
+      testProgress: data.testProgress.present
+          ? data.testProgress.value
+          : this.testProgress,
+      enabled: data.enabled.present ? data.enabled.value : this.enabled,
+      active: data.active.present ? data.active.value : this.active,
+      sortOrder: data.sortOrder.present ? data.sortOrder.value : this.sortOrder,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarPackRow(')
+          ..write('id: $id, ')
+          ..write('guid: $guid, ')
+          ..write('title: $title, ')
+          ..write('description: $description, ')
+          ..write('level: $level, ')
+          ..write('iconAsset: $iconAsset, ')
+          ..write('progress: $progress, ')
+          ..write('testProgress: $testProgress, ')
+          ..write('enabled: $enabled, ')
+          ..write('active: $active, ')
+          ..write('sortOrder: $sortOrder')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    guid,
+    title,
+    description,
+    level,
+    iconAsset,
+    progress,
+    testProgress,
+    enabled,
+    active,
+    sortOrder,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is GrammarPackRow &&
+          other.id == this.id &&
+          other.guid == this.guid &&
+          other.title == this.title &&
+          other.description == this.description &&
+          other.level == this.level &&
+          other.iconAsset == this.iconAsset &&
+          other.progress == this.progress &&
+          other.testProgress == this.testProgress &&
+          other.enabled == this.enabled &&
+          other.active == this.active &&
+          other.sortOrder == this.sortOrder);
+}
+
+class GrammarPackModelsCompanion extends UpdateCompanion<GrammarPackRow> {
+  final Value<int> id;
+  final Value<String> guid;
+  final Value<String> title;
+  final Value<String> description;
+  final Value<String> level;
+  final Value<String> iconAsset;
+  final Value<int> progress;
+  final Value<int> testProgress;
+  final Value<bool> enabled;
+  final Value<bool> active;
+  final Value<int> sortOrder;
+  const GrammarPackModelsCompanion({
+    this.id = const Value.absent(),
+    this.guid = const Value.absent(),
+    this.title = const Value.absent(),
+    this.description = const Value.absent(),
+    this.level = const Value.absent(),
+    this.iconAsset = const Value.absent(),
+    this.progress = const Value.absent(),
+    this.testProgress = const Value.absent(),
+    this.enabled = const Value.absent(),
+    this.active = const Value.absent(),
+    this.sortOrder = const Value.absent(),
+  });
+  GrammarPackModelsCompanion.insert({
+    this.id = const Value.absent(),
+    required String guid,
+    required String title,
+    this.description = const Value.absent(),
+    required String level,
+    required String iconAsset,
+    this.progress = const Value.absent(),
+    this.testProgress = const Value.absent(),
+    this.enabled = const Value.absent(),
+    this.active = const Value.absent(),
+    required int sortOrder,
+  }) : guid = Value(guid),
+       title = Value(title),
+       level = Value(level),
+       iconAsset = Value(iconAsset),
+       sortOrder = Value(sortOrder);
+  static Insertable<GrammarPackRow> custom({
+    Expression<int>? id,
+    Expression<String>? guid,
+    Expression<String>? title,
+    Expression<String>? description,
+    Expression<String>? level,
+    Expression<String>? iconAsset,
+    Expression<int>? progress,
+    Expression<int>? testProgress,
+    Expression<bool>? enabled,
+    Expression<bool>? active,
+    Expression<int>? sortOrder,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (guid != null) 'guid': guid,
+      if (title != null) 'title': title,
+      if (description != null) 'description': description,
+      if (level != null) 'level': level,
+      if (iconAsset != null) 'icon_asset': iconAsset,
+      if (progress != null) 'progress': progress,
+      if (testProgress != null) 'test_progress': testProgress,
+      if (enabled != null) 'enabled': enabled,
+      if (active != null) 'active': active,
+      if (sortOrder != null) 'sort_order': sortOrder,
+    });
+  }
+
+  GrammarPackModelsCompanion copyWith({
+    Value<int>? id,
+    Value<String>? guid,
+    Value<String>? title,
+    Value<String>? description,
+    Value<String>? level,
+    Value<String>? iconAsset,
+    Value<int>? progress,
+    Value<int>? testProgress,
+    Value<bool>? enabled,
+    Value<bool>? active,
+    Value<int>? sortOrder,
+  }) {
+    return GrammarPackModelsCompanion(
+      id: id ?? this.id,
+      guid: guid ?? this.guid,
+      title: title ?? this.title,
+      description: description ?? this.description,
+      level: level ?? this.level,
+      iconAsset: iconAsset ?? this.iconAsset,
+      progress: progress ?? this.progress,
+      testProgress: testProgress ?? this.testProgress,
+      enabled: enabled ?? this.enabled,
+      active: active ?? this.active,
+      sortOrder: sortOrder ?? this.sortOrder,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (guid.present) {
+      map['guid'] = Variable<String>(guid.value);
+    }
+    if (title.present) {
+      map['title'] = Variable<String>(title.value);
+    }
+    if (description.present) {
+      map['description'] = Variable<String>(description.value);
+    }
+    if (level.present) {
+      map['level'] = Variable<String>(level.value);
+    }
+    if (iconAsset.present) {
+      map['icon_asset'] = Variable<String>(iconAsset.value);
+    }
+    if (progress.present) {
+      map['progress'] = Variable<int>(progress.value);
+    }
+    if (testProgress.present) {
+      map['test_progress'] = Variable<int>(testProgress.value);
+    }
+    if (enabled.present) {
+      map['enabled'] = Variable<bool>(enabled.value);
+    }
+    if (active.present) {
+      map['active'] = Variable<bool>(active.value);
+    }
+    if (sortOrder.present) {
+      map['sort_order'] = Variable<int>(sortOrder.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarPackModelsCompanion(')
+          ..write('id: $id, ')
+          ..write('guid: $guid, ')
+          ..write('title: $title, ')
+          ..write('description: $description, ')
+          ..write('level: $level, ')
+          ..write('iconAsset: $iconAsset, ')
+          ..write('progress: $progress, ')
+          ..write('testProgress: $testProgress, ')
+          ..write('enabled: $enabled, ')
+          ..write('active: $active, ')
+          ..write('sortOrder: $sortOrder')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $GrammarTopicModelsTable extends GrammarTopicModels
+    with TableInfo<$GrammarTopicModelsTable, GrammarTopicRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $GrammarTopicModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _packIdMeta = const VerificationMeta('packId');
+  @override
+  late final GeneratedColumn<int> packId = GeneratedColumn<int>(
+    'pack_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES grammar_pack_models (id)',
+    ),
+  );
+  static const VerificationMeta _titleMeta = const VerificationMeta('title');
+  @override
+  late final GeneratedColumn<String> title = GeneratedColumn<String>(
+    'title',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _descriptionMeta = const VerificationMeta(
+    'description',
+  );
+  @override
+  late final GeneratedColumn<String> description = GeneratedColumn<String>(
+    'description',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _instructionsJsonMeta = const VerificationMeta(
+    'instructionsJson',
+  );
+  @override
+  late final GeneratedColumn<String> instructionsJson = GeneratedColumn<String>(
+    'instructions_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _progressMeta = const VerificationMeta(
+    'progress',
+  );
+  @override
+  late final GeneratedColumn<int> progress = GeneratedColumn<int>(
+    'progress',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _isCompleteMeta = const VerificationMeta(
+    'isComplete',
+  );
+  @override
+  late final GeneratedColumn<bool> isComplete = GeneratedColumn<bool>(
+    'is_complete',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("is_complete" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  static const VerificationMeta _timeTakenMeta = const VerificationMeta(
+    'timeTaken',
+  );
+  @override
+  late final GeneratedColumn<int> timeTaken = GeneratedColumn<int>(
+    'time_taken',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _enabledMeta = const VerificationMeta(
+    'enabled',
+  );
+  @override
+  late final GeneratedColumn<bool> enabled = GeneratedColumn<bool>(
+    'enabled',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("enabled" IN (0, 1))',
+    ),
+    defaultValue: const Constant(true),
+  );
+  static const VerificationMeta _sortOrderMeta = const VerificationMeta(
+    'sortOrder',
+  );
+  @override
+  late final GeneratedColumn<int> sortOrder = GeneratedColumn<int>(
+    'sort_order',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    packId,
+    title,
+    description,
+    instructionsJson,
+    progress,
+    isComplete,
+    timeTaken,
+    enabled,
+    sortOrder,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'grammar_topic_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<GrammarTopicRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('pack_id')) {
+      context.handle(
+        _packIdMeta,
+        packId.isAcceptableOrUnknown(data['pack_id']!, _packIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_packIdMeta);
+    }
+    if (data.containsKey('title')) {
+      context.handle(
+        _titleMeta,
+        title.isAcceptableOrUnknown(data['title']!, _titleMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_titleMeta);
+    }
+    if (data.containsKey('description')) {
+      context.handle(
+        _descriptionMeta,
+        description.isAcceptableOrUnknown(
+          data['description']!,
+          _descriptionMeta,
+        ),
+      );
+    }
+    if (data.containsKey('instructions_json')) {
+      context.handle(
+        _instructionsJsonMeta,
+        instructionsJson.isAcceptableOrUnknown(
+          data['instructions_json']!,
+          _instructionsJsonMeta,
+        ),
+      );
+    }
+    if (data.containsKey('progress')) {
+      context.handle(
+        _progressMeta,
+        progress.isAcceptableOrUnknown(data['progress']!, _progressMeta),
+      );
+    }
+    if (data.containsKey('is_complete')) {
+      context.handle(
+        _isCompleteMeta,
+        isComplete.isAcceptableOrUnknown(data['is_complete']!, _isCompleteMeta),
+      );
+    }
+    if (data.containsKey('time_taken')) {
+      context.handle(
+        _timeTakenMeta,
+        timeTaken.isAcceptableOrUnknown(data['time_taken']!, _timeTakenMeta),
+      );
+    }
+    if (data.containsKey('enabled')) {
+      context.handle(
+        _enabledMeta,
+        enabled.isAcceptableOrUnknown(data['enabled']!, _enabledMeta),
+      );
+    }
+    if (data.containsKey('sort_order')) {
+      context.handle(
+        _sortOrderMeta,
+        sortOrder.isAcceptableOrUnknown(data['sort_order']!, _sortOrderMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_sortOrderMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  GrammarTopicRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return GrammarTopicRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      packId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}pack_id'],
+      )!,
+      title: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}title'],
+      )!,
+      description: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}description'],
+      )!,
+      instructionsJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}instructions_json'],
+      )!,
+      progress: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}progress'],
+      )!,
+      isComplete: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}is_complete'],
+      )!,
+      timeTaken: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}time_taken'],
+      )!,
+      enabled: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}enabled'],
+      )!,
+      sortOrder: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}sort_order'],
+      )!,
+    );
+  }
+
+  @override
+  $GrammarTopicModelsTable createAlias(String alias) {
+    return $GrammarTopicModelsTable(attachedDatabase, alias);
+  }
+}
+
+class GrammarTopicRow extends DataClass implements Insertable<GrammarTopicRow> {
+  final int id;
+  final int packId;
+  final String title;
+  final String description;
+  final String instructionsJson;
+  final int progress;
+  final bool isComplete;
+  final int timeTaken;
+  final bool enabled;
+  final int sortOrder;
+  const GrammarTopicRow({
+    required this.id,
+    required this.packId,
+    required this.title,
+    required this.description,
+    required this.instructionsJson,
+    required this.progress,
+    required this.isComplete,
+    required this.timeTaken,
+    required this.enabled,
+    required this.sortOrder,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['pack_id'] = Variable<int>(packId);
+    map['title'] = Variable<String>(title);
+    map['description'] = Variable<String>(description);
+    map['instructions_json'] = Variable<String>(instructionsJson);
+    map['progress'] = Variable<int>(progress);
+    map['is_complete'] = Variable<bool>(isComplete);
+    map['time_taken'] = Variable<int>(timeTaken);
+    map['enabled'] = Variable<bool>(enabled);
+    map['sort_order'] = Variable<int>(sortOrder);
+    return map;
+  }
+
+  GrammarTopicModelsCompanion toCompanion(bool nullToAbsent) {
+    return GrammarTopicModelsCompanion(
+      id: Value(id),
+      packId: Value(packId),
+      title: Value(title),
+      description: Value(description),
+      instructionsJson: Value(instructionsJson),
+      progress: Value(progress),
+      isComplete: Value(isComplete),
+      timeTaken: Value(timeTaken),
+      enabled: Value(enabled),
+      sortOrder: Value(sortOrder),
+    );
+  }
+
+  factory GrammarTopicRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return GrammarTopicRow(
+      id: serializer.fromJson<int>(json['id']),
+      packId: serializer.fromJson<int>(json['packId']),
+      title: serializer.fromJson<String>(json['title']),
+      description: serializer.fromJson<String>(json['description']),
+      instructionsJson: serializer.fromJson<String>(json['instructionsJson']),
+      progress: serializer.fromJson<int>(json['progress']),
+      isComplete: serializer.fromJson<bool>(json['isComplete']),
+      timeTaken: serializer.fromJson<int>(json['timeTaken']),
+      enabled: serializer.fromJson<bool>(json['enabled']),
+      sortOrder: serializer.fromJson<int>(json['sortOrder']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'packId': serializer.toJson<int>(packId),
+      'title': serializer.toJson<String>(title),
+      'description': serializer.toJson<String>(description),
+      'instructionsJson': serializer.toJson<String>(instructionsJson),
+      'progress': serializer.toJson<int>(progress),
+      'isComplete': serializer.toJson<bool>(isComplete),
+      'timeTaken': serializer.toJson<int>(timeTaken),
+      'enabled': serializer.toJson<bool>(enabled),
+      'sortOrder': serializer.toJson<int>(sortOrder),
+    };
+  }
+
+  GrammarTopicRow copyWith({
+    int? id,
+    int? packId,
+    String? title,
+    String? description,
+    String? instructionsJson,
+    int? progress,
+    bool? isComplete,
+    int? timeTaken,
+    bool? enabled,
+    int? sortOrder,
+  }) => GrammarTopicRow(
+    id: id ?? this.id,
+    packId: packId ?? this.packId,
+    title: title ?? this.title,
+    description: description ?? this.description,
+    instructionsJson: instructionsJson ?? this.instructionsJson,
+    progress: progress ?? this.progress,
+    isComplete: isComplete ?? this.isComplete,
+    timeTaken: timeTaken ?? this.timeTaken,
+    enabled: enabled ?? this.enabled,
+    sortOrder: sortOrder ?? this.sortOrder,
+  );
+  GrammarTopicRow copyWithCompanion(GrammarTopicModelsCompanion data) {
+    return GrammarTopicRow(
+      id: data.id.present ? data.id.value : this.id,
+      packId: data.packId.present ? data.packId.value : this.packId,
+      title: data.title.present ? data.title.value : this.title,
+      description: data.description.present
+          ? data.description.value
+          : this.description,
+      instructionsJson: data.instructionsJson.present
+          ? data.instructionsJson.value
+          : this.instructionsJson,
+      progress: data.progress.present ? data.progress.value : this.progress,
+      isComplete: data.isComplete.present
+          ? data.isComplete.value
+          : this.isComplete,
+      timeTaken: data.timeTaken.present ? data.timeTaken.value : this.timeTaken,
+      enabled: data.enabled.present ? data.enabled.value : this.enabled,
+      sortOrder: data.sortOrder.present ? data.sortOrder.value : this.sortOrder,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarTopicRow(')
+          ..write('id: $id, ')
+          ..write('packId: $packId, ')
+          ..write('title: $title, ')
+          ..write('description: $description, ')
+          ..write('instructionsJson: $instructionsJson, ')
+          ..write('progress: $progress, ')
+          ..write('isComplete: $isComplete, ')
+          ..write('timeTaken: $timeTaken, ')
+          ..write('enabled: $enabled, ')
+          ..write('sortOrder: $sortOrder')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    packId,
+    title,
+    description,
+    instructionsJson,
+    progress,
+    isComplete,
+    timeTaken,
+    enabled,
+    sortOrder,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is GrammarTopicRow &&
+          other.id == this.id &&
+          other.packId == this.packId &&
+          other.title == this.title &&
+          other.description == this.description &&
+          other.instructionsJson == this.instructionsJson &&
+          other.progress == this.progress &&
+          other.isComplete == this.isComplete &&
+          other.timeTaken == this.timeTaken &&
+          other.enabled == this.enabled &&
+          other.sortOrder == this.sortOrder);
+}
+
+class GrammarTopicModelsCompanion extends UpdateCompanion<GrammarTopicRow> {
+  final Value<int> id;
+  final Value<int> packId;
+  final Value<String> title;
+  final Value<String> description;
+  final Value<String> instructionsJson;
+  final Value<int> progress;
+  final Value<bool> isComplete;
+  final Value<int> timeTaken;
+  final Value<bool> enabled;
+  final Value<int> sortOrder;
+  const GrammarTopicModelsCompanion({
+    this.id = const Value.absent(),
+    this.packId = const Value.absent(),
+    this.title = const Value.absent(),
+    this.description = const Value.absent(),
+    this.instructionsJson = const Value.absent(),
+    this.progress = const Value.absent(),
+    this.isComplete = const Value.absent(),
+    this.timeTaken = const Value.absent(),
+    this.enabled = const Value.absent(),
+    this.sortOrder = const Value.absent(),
+  });
+  GrammarTopicModelsCompanion.insert({
+    this.id = const Value.absent(),
+    required int packId,
+    required String title,
+    this.description = const Value.absent(),
+    this.instructionsJson = const Value.absent(),
+    this.progress = const Value.absent(),
+    this.isComplete = const Value.absent(),
+    this.timeTaken = const Value.absent(),
+    this.enabled = const Value.absent(),
+    required int sortOrder,
+  }) : packId = Value(packId),
+       title = Value(title),
+       sortOrder = Value(sortOrder);
+  static Insertable<GrammarTopicRow> custom({
+    Expression<int>? id,
+    Expression<int>? packId,
+    Expression<String>? title,
+    Expression<String>? description,
+    Expression<String>? instructionsJson,
+    Expression<int>? progress,
+    Expression<bool>? isComplete,
+    Expression<int>? timeTaken,
+    Expression<bool>? enabled,
+    Expression<int>? sortOrder,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (packId != null) 'pack_id': packId,
+      if (title != null) 'title': title,
+      if (description != null) 'description': description,
+      if (instructionsJson != null) 'instructions_json': instructionsJson,
+      if (progress != null) 'progress': progress,
+      if (isComplete != null) 'is_complete': isComplete,
+      if (timeTaken != null) 'time_taken': timeTaken,
+      if (enabled != null) 'enabled': enabled,
+      if (sortOrder != null) 'sort_order': sortOrder,
+    });
+  }
+
+  GrammarTopicModelsCompanion copyWith({
+    Value<int>? id,
+    Value<int>? packId,
+    Value<String>? title,
+    Value<String>? description,
+    Value<String>? instructionsJson,
+    Value<int>? progress,
+    Value<bool>? isComplete,
+    Value<int>? timeTaken,
+    Value<bool>? enabled,
+    Value<int>? sortOrder,
+  }) {
+    return GrammarTopicModelsCompanion(
+      id: id ?? this.id,
+      packId: packId ?? this.packId,
+      title: title ?? this.title,
+      description: description ?? this.description,
+      instructionsJson: instructionsJson ?? this.instructionsJson,
+      progress: progress ?? this.progress,
+      isComplete: isComplete ?? this.isComplete,
+      timeTaken: timeTaken ?? this.timeTaken,
+      enabled: enabled ?? this.enabled,
+      sortOrder: sortOrder ?? this.sortOrder,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (packId.present) {
+      map['pack_id'] = Variable<int>(packId.value);
+    }
+    if (title.present) {
+      map['title'] = Variable<String>(title.value);
+    }
+    if (description.present) {
+      map['description'] = Variable<String>(description.value);
+    }
+    if (instructionsJson.present) {
+      map['instructions_json'] = Variable<String>(instructionsJson.value);
+    }
+    if (progress.present) {
+      map['progress'] = Variable<int>(progress.value);
+    }
+    if (isComplete.present) {
+      map['is_complete'] = Variable<bool>(isComplete.value);
+    }
+    if (timeTaken.present) {
+      map['time_taken'] = Variable<int>(timeTaken.value);
+    }
+    if (enabled.present) {
+      map['enabled'] = Variable<bool>(enabled.value);
+    }
+    if (sortOrder.present) {
+      map['sort_order'] = Variable<int>(sortOrder.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarTopicModelsCompanion(')
+          ..write('id: $id, ')
+          ..write('packId: $packId, ')
+          ..write('title: $title, ')
+          ..write('description: $description, ')
+          ..write('instructionsJson: $instructionsJson, ')
+          ..write('progress: $progress, ')
+          ..write('isComplete: $isComplete, ')
+          ..write('timeTaken: $timeTaken, ')
+          ..write('enabled: $enabled, ')
+          ..write('sortOrder: $sortOrder')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $GrammarQuestionModelsTable extends GrammarQuestionModels
+    with TableInfo<$GrammarQuestionModelsTable, GrammarQuestionRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $GrammarQuestionModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _typeMeta = const VerificationMeta('type');
+  @override
+  late final GeneratedColumn<String> type = GeneratedColumn<String>(
+    'type',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _rubricJsonMeta = const VerificationMeta(
+    'rubricJson',
+  );
+  @override
+  late final GeneratedColumn<String> rubricJson = GeneratedColumn<String>(
+    'rubric_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _cluesJsonMeta = const VerificationMeta(
+    'cluesJson',
+  );
+  @override
+  late final GeneratedColumn<String> cluesJson = GeneratedColumn<String>(
+    'clues_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _bodyJsonMeta = const VerificationMeta(
+    'bodyJson',
+  );
+  @override
+  late final GeneratedColumn<String> bodyJson = GeneratedColumn<String>(
+    'body_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _leftColumnJsonMeta = const VerificationMeta(
+    'leftColumnJson',
+  );
+  @override
+  late final GeneratedColumn<String> leftColumnJson = GeneratedColumn<String>(
+    'left_column_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _rightColumnJsonMeta = const VerificationMeta(
+    'rightColumnJson',
+  );
+  @override
+  late final GeneratedColumn<String> rightColumnJson = GeneratedColumn<String>(
+    'right_column_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _layoutMeta = const VerificationMeta('layout');
+  @override
+  late final GeneratedColumn<String> layout = GeneratedColumn<String>(
+    'layout',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _optionsLayoutMeta = const VerificationMeta(
+    'optionsLayout',
+  );
+  @override
+  late final GeneratedColumn<String> optionsLayout = GeneratedColumn<String>(
+    'options_layout',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _responseTypeMeta = const VerificationMeta(
+    'responseType',
+  );
+  @override
+  late final GeneratedColumn<String> responseType = GeneratedColumn<String>(
+    'response_type',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _optionsJsonMeta = const VerificationMeta(
+    'optionsJson',
+  );
+  @override
+  late final GeneratedColumn<String> optionsJson = GeneratedColumn<String>(
+    'options_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _answersJsonMeta = const VerificationMeta(
+    'answersJson',
+  );
+  @override
+  late final GeneratedColumn<String> answersJson = GeneratedColumn<String>(
+    'answers_json',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant('[]'),
+  );
+  static const VerificationMeta _modelParagraphMeta = const VerificationMeta(
+    'modelParagraph',
+  );
+  @override
+  late final GeneratedColumn<String> modelParagraph = GeneratedColumn<String>(
+    'model_paragraph',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(''),
+  );
+  static const VerificationMeta _testEnabledMeta = const VerificationMeta(
+    'testEnabled',
+  );
+  @override
+  late final GeneratedColumn<bool> testEnabled = GeneratedColumn<bool>(
+    'test_enabled',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("test_enabled" IN (0, 1))',
+    ),
+    defaultValue: const Constant(false),
+  );
+  static const VerificationMeta _enabledMeta = const VerificationMeta(
+    'enabled',
+  );
+  @override
+  late final GeneratedColumn<bool> enabled = GeneratedColumn<bool>(
+    'enabled',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("enabled" IN (0, 1))',
+    ),
+    defaultValue: const Constant(true),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    type,
+    rubricJson,
+    cluesJson,
+    bodyJson,
+    leftColumnJson,
+    rightColumnJson,
+    layout,
+    optionsLayout,
+    responseType,
+    optionsJson,
+    answersJson,
+    modelParagraph,
+    testEnabled,
+    enabled,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'grammar_question_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<GrammarQuestionRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('type')) {
+      context.handle(
+        _typeMeta,
+        type.isAcceptableOrUnknown(data['type']!, _typeMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_typeMeta);
+    }
+    if (data.containsKey('rubric_json')) {
+      context.handle(
+        _rubricJsonMeta,
+        rubricJson.isAcceptableOrUnknown(data['rubric_json']!, _rubricJsonMeta),
+      );
+    }
+    if (data.containsKey('clues_json')) {
+      context.handle(
+        _cluesJsonMeta,
+        cluesJson.isAcceptableOrUnknown(data['clues_json']!, _cluesJsonMeta),
+      );
+    }
+    if (data.containsKey('body_json')) {
+      context.handle(
+        _bodyJsonMeta,
+        bodyJson.isAcceptableOrUnknown(data['body_json']!, _bodyJsonMeta),
+      );
+    }
+    if (data.containsKey('left_column_json')) {
+      context.handle(
+        _leftColumnJsonMeta,
+        leftColumnJson.isAcceptableOrUnknown(
+          data['left_column_json']!,
+          _leftColumnJsonMeta,
+        ),
+      );
+    }
+    if (data.containsKey('right_column_json')) {
+      context.handle(
+        _rightColumnJsonMeta,
+        rightColumnJson.isAcceptableOrUnknown(
+          data['right_column_json']!,
+          _rightColumnJsonMeta,
+        ),
+      );
+    }
+    if (data.containsKey('layout')) {
+      context.handle(
+        _layoutMeta,
+        layout.isAcceptableOrUnknown(data['layout']!, _layoutMeta),
+      );
+    }
+    if (data.containsKey('options_layout')) {
+      context.handle(
+        _optionsLayoutMeta,
+        optionsLayout.isAcceptableOrUnknown(
+          data['options_layout']!,
+          _optionsLayoutMeta,
+        ),
+      );
+    }
+    if (data.containsKey('response_type')) {
+      context.handle(
+        _responseTypeMeta,
+        responseType.isAcceptableOrUnknown(
+          data['response_type']!,
+          _responseTypeMeta,
+        ),
+      );
+    }
+    if (data.containsKey('options_json')) {
+      context.handle(
+        _optionsJsonMeta,
+        optionsJson.isAcceptableOrUnknown(
+          data['options_json']!,
+          _optionsJsonMeta,
+        ),
+      );
+    }
+    if (data.containsKey('answers_json')) {
+      context.handle(
+        _answersJsonMeta,
+        answersJson.isAcceptableOrUnknown(
+          data['answers_json']!,
+          _answersJsonMeta,
+        ),
+      );
+    }
+    if (data.containsKey('model_paragraph')) {
+      context.handle(
+        _modelParagraphMeta,
+        modelParagraph.isAcceptableOrUnknown(
+          data['model_paragraph']!,
+          _modelParagraphMeta,
+        ),
+      );
+    }
+    if (data.containsKey('test_enabled')) {
+      context.handle(
+        _testEnabledMeta,
+        testEnabled.isAcceptableOrUnknown(
+          data['test_enabled']!,
+          _testEnabledMeta,
+        ),
+      );
+    }
+    if (data.containsKey('enabled')) {
+      context.handle(
+        _enabledMeta,
+        enabled.isAcceptableOrUnknown(data['enabled']!, _enabledMeta),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  GrammarQuestionRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return GrammarQuestionRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      type: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}type'],
+      )!,
+      rubricJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}rubric_json'],
+      )!,
+      cluesJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}clues_json'],
+      )!,
+      bodyJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}body_json'],
+      )!,
+      leftColumnJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}left_column_json'],
+      )!,
+      rightColumnJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}right_column_json'],
+      )!,
+      layout: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}layout'],
+      )!,
+      optionsLayout: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}options_layout'],
+      )!,
+      responseType: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}response_type'],
+      )!,
+      optionsJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}options_json'],
+      )!,
+      answersJson: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}answers_json'],
+      )!,
+      modelParagraph: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}model_paragraph'],
+      )!,
+      testEnabled: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}test_enabled'],
+      )!,
+      enabled: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}enabled'],
+      )!,
+    );
+  }
+
+  @override
+  $GrammarQuestionModelsTable createAlias(String alias) {
+    return $GrammarQuestionModelsTable(attachedDatabase, alias);
+  }
+}
+
+class GrammarQuestionRow extends DataClass
+    implements Insertable<GrammarQuestionRow> {
+  final int id;
+  final String type;
+  final String rubricJson;
+  final String cluesJson;
+  final String bodyJson;
+  final String leftColumnJson;
+  final String rightColumnJson;
+  final String layout;
+  final String optionsLayout;
+  final String responseType;
+  final String optionsJson;
+  final String answersJson;
+  final String modelParagraph;
+  final bool testEnabled;
+  final bool enabled;
+  const GrammarQuestionRow({
+    required this.id,
+    required this.type,
+    required this.rubricJson,
+    required this.cluesJson,
+    required this.bodyJson,
+    required this.leftColumnJson,
+    required this.rightColumnJson,
+    required this.layout,
+    required this.optionsLayout,
+    required this.responseType,
+    required this.optionsJson,
+    required this.answersJson,
+    required this.modelParagraph,
+    required this.testEnabled,
+    required this.enabled,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['type'] = Variable<String>(type);
+    map['rubric_json'] = Variable<String>(rubricJson);
+    map['clues_json'] = Variable<String>(cluesJson);
+    map['body_json'] = Variable<String>(bodyJson);
+    map['left_column_json'] = Variable<String>(leftColumnJson);
+    map['right_column_json'] = Variable<String>(rightColumnJson);
+    map['layout'] = Variable<String>(layout);
+    map['options_layout'] = Variable<String>(optionsLayout);
+    map['response_type'] = Variable<String>(responseType);
+    map['options_json'] = Variable<String>(optionsJson);
+    map['answers_json'] = Variable<String>(answersJson);
+    map['model_paragraph'] = Variable<String>(modelParagraph);
+    map['test_enabled'] = Variable<bool>(testEnabled);
+    map['enabled'] = Variable<bool>(enabled);
+    return map;
+  }
+
+  GrammarQuestionModelsCompanion toCompanion(bool nullToAbsent) {
+    return GrammarQuestionModelsCompanion(
+      id: Value(id),
+      type: Value(type),
+      rubricJson: Value(rubricJson),
+      cluesJson: Value(cluesJson),
+      bodyJson: Value(bodyJson),
+      leftColumnJson: Value(leftColumnJson),
+      rightColumnJson: Value(rightColumnJson),
+      layout: Value(layout),
+      optionsLayout: Value(optionsLayout),
+      responseType: Value(responseType),
+      optionsJson: Value(optionsJson),
+      answersJson: Value(answersJson),
+      modelParagraph: Value(modelParagraph),
+      testEnabled: Value(testEnabled),
+      enabled: Value(enabled),
+    );
+  }
+
+  factory GrammarQuestionRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return GrammarQuestionRow(
+      id: serializer.fromJson<int>(json['id']),
+      type: serializer.fromJson<String>(json['type']),
+      rubricJson: serializer.fromJson<String>(json['rubricJson']),
+      cluesJson: serializer.fromJson<String>(json['cluesJson']),
+      bodyJson: serializer.fromJson<String>(json['bodyJson']),
+      leftColumnJson: serializer.fromJson<String>(json['leftColumnJson']),
+      rightColumnJson: serializer.fromJson<String>(json['rightColumnJson']),
+      layout: serializer.fromJson<String>(json['layout']),
+      optionsLayout: serializer.fromJson<String>(json['optionsLayout']),
+      responseType: serializer.fromJson<String>(json['responseType']),
+      optionsJson: serializer.fromJson<String>(json['optionsJson']),
+      answersJson: serializer.fromJson<String>(json['answersJson']),
+      modelParagraph: serializer.fromJson<String>(json['modelParagraph']),
+      testEnabled: serializer.fromJson<bool>(json['testEnabled']),
+      enabled: serializer.fromJson<bool>(json['enabled']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'type': serializer.toJson<String>(type),
+      'rubricJson': serializer.toJson<String>(rubricJson),
+      'cluesJson': serializer.toJson<String>(cluesJson),
+      'bodyJson': serializer.toJson<String>(bodyJson),
+      'leftColumnJson': serializer.toJson<String>(leftColumnJson),
+      'rightColumnJson': serializer.toJson<String>(rightColumnJson),
+      'layout': serializer.toJson<String>(layout),
+      'optionsLayout': serializer.toJson<String>(optionsLayout),
+      'responseType': serializer.toJson<String>(responseType),
+      'optionsJson': serializer.toJson<String>(optionsJson),
+      'answersJson': serializer.toJson<String>(answersJson),
+      'modelParagraph': serializer.toJson<String>(modelParagraph),
+      'testEnabled': serializer.toJson<bool>(testEnabled),
+      'enabled': serializer.toJson<bool>(enabled),
+    };
+  }
+
+  GrammarQuestionRow copyWith({
+    int? id,
+    String? type,
+    String? rubricJson,
+    String? cluesJson,
+    String? bodyJson,
+    String? leftColumnJson,
+    String? rightColumnJson,
+    String? layout,
+    String? optionsLayout,
+    String? responseType,
+    String? optionsJson,
+    String? answersJson,
+    String? modelParagraph,
+    bool? testEnabled,
+    bool? enabled,
+  }) => GrammarQuestionRow(
+    id: id ?? this.id,
+    type: type ?? this.type,
+    rubricJson: rubricJson ?? this.rubricJson,
+    cluesJson: cluesJson ?? this.cluesJson,
+    bodyJson: bodyJson ?? this.bodyJson,
+    leftColumnJson: leftColumnJson ?? this.leftColumnJson,
+    rightColumnJson: rightColumnJson ?? this.rightColumnJson,
+    layout: layout ?? this.layout,
+    optionsLayout: optionsLayout ?? this.optionsLayout,
+    responseType: responseType ?? this.responseType,
+    optionsJson: optionsJson ?? this.optionsJson,
+    answersJson: answersJson ?? this.answersJson,
+    modelParagraph: modelParagraph ?? this.modelParagraph,
+    testEnabled: testEnabled ?? this.testEnabled,
+    enabled: enabled ?? this.enabled,
+  );
+  GrammarQuestionRow copyWithCompanion(GrammarQuestionModelsCompanion data) {
+    return GrammarQuestionRow(
+      id: data.id.present ? data.id.value : this.id,
+      type: data.type.present ? data.type.value : this.type,
+      rubricJson: data.rubricJson.present
+          ? data.rubricJson.value
+          : this.rubricJson,
+      cluesJson: data.cluesJson.present ? data.cluesJson.value : this.cluesJson,
+      bodyJson: data.bodyJson.present ? data.bodyJson.value : this.bodyJson,
+      leftColumnJson: data.leftColumnJson.present
+          ? data.leftColumnJson.value
+          : this.leftColumnJson,
+      rightColumnJson: data.rightColumnJson.present
+          ? data.rightColumnJson.value
+          : this.rightColumnJson,
+      layout: data.layout.present ? data.layout.value : this.layout,
+      optionsLayout: data.optionsLayout.present
+          ? data.optionsLayout.value
+          : this.optionsLayout,
+      responseType: data.responseType.present
+          ? data.responseType.value
+          : this.responseType,
+      optionsJson: data.optionsJson.present
+          ? data.optionsJson.value
+          : this.optionsJson,
+      answersJson: data.answersJson.present
+          ? data.answersJson.value
+          : this.answersJson,
+      modelParagraph: data.modelParagraph.present
+          ? data.modelParagraph.value
+          : this.modelParagraph,
+      testEnabled: data.testEnabled.present
+          ? data.testEnabled.value
+          : this.testEnabled,
+      enabled: data.enabled.present ? data.enabled.value : this.enabled,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarQuestionRow(')
+          ..write('id: $id, ')
+          ..write('type: $type, ')
+          ..write('rubricJson: $rubricJson, ')
+          ..write('cluesJson: $cluesJson, ')
+          ..write('bodyJson: $bodyJson, ')
+          ..write('leftColumnJson: $leftColumnJson, ')
+          ..write('rightColumnJson: $rightColumnJson, ')
+          ..write('layout: $layout, ')
+          ..write('optionsLayout: $optionsLayout, ')
+          ..write('responseType: $responseType, ')
+          ..write('optionsJson: $optionsJson, ')
+          ..write('answersJson: $answersJson, ')
+          ..write('modelParagraph: $modelParagraph, ')
+          ..write('testEnabled: $testEnabled, ')
+          ..write('enabled: $enabled')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    id,
+    type,
+    rubricJson,
+    cluesJson,
+    bodyJson,
+    leftColumnJson,
+    rightColumnJson,
+    layout,
+    optionsLayout,
+    responseType,
+    optionsJson,
+    answersJson,
+    modelParagraph,
+    testEnabled,
+    enabled,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is GrammarQuestionRow &&
+          other.id == this.id &&
+          other.type == this.type &&
+          other.rubricJson == this.rubricJson &&
+          other.cluesJson == this.cluesJson &&
+          other.bodyJson == this.bodyJson &&
+          other.leftColumnJson == this.leftColumnJson &&
+          other.rightColumnJson == this.rightColumnJson &&
+          other.layout == this.layout &&
+          other.optionsLayout == this.optionsLayout &&
+          other.responseType == this.responseType &&
+          other.optionsJson == this.optionsJson &&
+          other.answersJson == this.answersJson &&
+          other.modelParagraph == this.modelParagraph &&
+          other.testEnabled == this.testEnabled &&
+          other.enabled == this.enabled);
+}
+
+class GrammarQuestionModelsCompanion
+    extends UpdateCompanion<GrammarQuestionRow> {
+  final Value<int> id;
+  final Value<String> type;
+  final Value<String> rubricJson;
+  final Value<String> cluesJson;
+  final Value<String> bodyJson;
+  final Value<String> leftColumnJson;
+  final Value<String> rightColumnJson;
+  final Value<String> layout;
+  final Value<String> optionsLayout;
+  final Value<String> responseType;
+  final Value<String> optionsJson;
+  final Value<String> answersJson;
+  final Value<String> modelParagraph;
+  final Value<bool> testEnabled;
+  final Value<bool> enabled;
+  const GrammarQuestionModelsCompanion({
+    this.id = const Value.absent(),
+    this.type = const Value.absent(),
+    this.rubricJson = const Value.absent(),
+    this.cluesJson = const Value.absent(),
+    this.bodyJson = const Value.absent(),
+    this.leftColumnJson = const Value.absent(),
+    this.rightColumnJson = const Value.absent(),
+    this.layout = const Value.absent(),
+    this.optionsLayout = const Value.absent(),
+    this.responseType = const Value.absent(),
+    this.optionsJson = const Value.absent(),
+    this.answersJson = const Value.absent(),
+    this.modelParagraph = const Value.absent(),
+    this.testEnabled = const Value.absent(),
+    this.enabled = const Value.absent(),
+  });
+  GrammarQuestionModelsCompanion.insert({
+    this.id = const Value.absent(),
+    required String type,
+    this.rubricJson = const Value.absent(),
+    this.cluesJson = const Value.absent(),
+    this.bodyJson = const Value.absent(),
+    this.leftColumnJson = const Value.absent(),
+    this.rightColumnJson = const Value.absent(),
+    this.layout = const Value.absent(),
+    this.optionsLayout = const Value.absent(),
+    this.responseType = const Value.absent(),
+    this.optionsJson = const Value.absent(),
+    this.answersJson = const Value.absent(),
+    this.modelParagraph = const Value.absent(),
+    this.testEnabled = const Value.absent(),
+    this.enabled = const Value.absent(),
+  }) : type = Value(type);
+  static Insertable<GrammarQuestionRow> custom({
+    Expression<int>? id,
+    Expression<String>? type,
+    Expression<String>? rubricJson,
+    Expression<String>? cluesJson,
+    Expression<String>? bodyJson,
+    Expression<String>? leftColumnJson,
+    Expression<String>? rightColumnJson,
+    Expression<String>? layout,
+    Expression<String>? optionsLayout,
+    Expression<String>? responseType,
+    Expression<String>? optionsJson,
+    Expression<String>? answersJson,
+    Expression<String>? modelParagraph,
+    Expression<bool>? testEnabled,
+    Expression<bool>? enabled,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (type != null) 'type': type,
+      if (rubricJson != null) 'rubric_json': rubricJson,
+      if (cluesJson != null) 'clues_json': cluesJson,
+      if (bodyJson != null) 'body_json': bodyJson,
+      if (leftColumnJson != null) 'left_column_json': leftColumnJson,
+      if (rightColumnJson != null) 'right_column_json': rightColumnJson,
+      if (layout != null) 'layout': layout,
+      if (optionsLayout != null) 'options_layout': optionsLayout,
+      if (responseType != null) 'response_type': responseType,
+      if (optionsJson != null) 'options_json': optionsJson,
+      if (answersJson != null) 'answers_json': answersJson,
+      if (modelParagraph != null) 'model_paragraph': modelParagraph,
+      if (testEnabled != null) 'test_enabled': testEnabled,
+      if (enabled != null) 'enabled': enabled,
+    });
+  }
+
+  GrammarQuestionModelsCompanion copyWith({
+    Value<int>? id,
+    Value<String>? type,
+    Value<String>? rubricJson,
+    Value<String>? cluesJson,
+    Value<String>? bodyJson,
+    Value<String>? leftColumnJson,
+    Value<String>? rightColumnJson,
+    Value<String>? layout,
+    Value<String>? optionsLayout,
+    Value<String>? responseType,
+    Value<String>? optionsJson,
+    Value<String>? answersJson,
+    Value<String>? modelParagraph,
+    Value<bool>? testEnabled,
+    Value<bool>? enabled,
+  }) {
+    return GrammarQuestionModelsCompanion(
+      id: id ?? this.id,
+      type: type ?? this.type,
+      rubricJson: rubricJson ?? this.rubricJson,
+      cluesJson: cluesJson ?? this.cluesJson,
+      bodyJson: bodyJson ?? this.bodyJson,
+      leftColumnJson: leftColumnJson ?? this.leftColumnJson,
+      rightColumnJson: rightColumnJson ?? this.rightColumnJson,
+      layout: layout ?? this.layout,
+      optionsLayout: optionsLayout ?? this.optionsLayout,
+      responseType: responseType ?? this.responseType,
+      optionsJson: optionsJson ?? this.optionsJson,
+      answersJson: answersJson ?? this.answersJson,
+      modelParagraph: modelParagraph ?? this.modelParagraph,
+      testEnabled: testEnabled ?? this.testEnabled,
+      enabled: enabled ?? this.enabled,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (type.present) {
+      map['type'] = Variable<String>(type.value);
+    }
+    if (rubricJson.present) {
+      map['rubric_json'] = Variable<String>(rubricJson.value);
+    }
+    if (cluesJson.present) {
+      map['clues_json'] = Variable<String>(cluesJson.value);
+    }
+    if (bodyJson.present) {
+      map['body_json'] = Variable<String>(bodyJson.value);
+    }
+    if (leftColumnJson.present) {
+      map['left_column_json'] = Variable<String>(leftColumnJson.value);
+    }
+    if (rightColumnJson.present) {
+      map['right_column_json'] = Variable<String>(rightColumnJson.value);
+    }
+    if (layout.present) {
+      map['layout'] = Variable<String>(layout.value);
+    }
+    if (optionsLayout.present) {
+      map['options_layout'] = Variable<String>(optionsLayout.value);
+    }
+    if (responseType.present) {
+      map['response_type'] = Variable<String>(responseType.value);
+    }
+    if (optionsJson.present) {
+      map['options_json'] = Variable<String>(optionsJson.value);
+    }
+    if (answersJson.present) {
+      map['answers_json'] = Variable<String>(answersJson.value);
+    }
+    if (modelParagraph.present) {
+      map['model_paragraph'] = Variable<String>(modelParagraph.value);
+    }
+    if (testEnabled.present) {
+      map['test_enabled'] = Variable<bool>(testEnabled.value);
+    }
+    if (enabled.present) {
+      map['enabled'] = Variable<bool>(enabled.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarQuestionModelsCompanion(')
+          ..write('id: $id, ')
+          ..write('type: $type, ')
+          ..write('rubricJson: $rubricJson, ')
+          ..write('cluesJson: $cluesJson, ')
+          ..write('bodyJson: $bodyJson, ')
+          ..write('leftColumnJson: $leftColumnJson, ')
+          ..write('rightColumnJson: $rightColumnJson, ')
+          ..write('layout: $layout, ')
+          ..write('optionsLayout: $optionsLayout, ')
+          ..write('responseType: $responseType, ')
+          ..write('optionsJson: $optionsJson, ')
+          ..write('answersJson: $answersJson, ')
+          ..write('modelParagraph: $modelParagraph, ')
+          ..write('testEnabled: $testEnabled, ')
+          ..write('enabled: $enabled')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $GrammarQuestionMappingModelsTable extends GrammarQuestionMappingModels
+    with
+        TableInfo<
+          $GrammarQuestionMappingModelsTable,
+          GrammarQuestionMappingRow
+        > {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $GrammarQuestionMappingModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _topicIdMeta = const VerificationMeta(
+    'topicId',
+  );
+  @override
+  late final GeneratedColumn<int> topicId = GeneratedColumn<int>(
+    'topic_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES grammar_topic_models (id)',
+    ),
+  );
+  static const VerificationMeta _questionIdMeta = const VerificationMeta(
+    'questionId',
+  );
+  @override
+  late final GeneratedColumn<int> questionId = GeneratedColumn<int>(
+    'question_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES grammar_question_models (id)',
+    ),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [id, topicId, questionId];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'grammar_question_mapping_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<GrammarQuestionMappingRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('topic_id')) {
+      context.handle(
+        _topicIdMeta,
+        topicId.isAcceptableOrUnknown(data['topic_id']!, _topicIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_topicIdMeta);
+    }
+    if (data.containsKey('question_id')) {
+      context.handle(
+        _questionIdMeta,
+        questionId.isAcceptableOrUnknown(data['question_id']!, _questionIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_questionIdMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  GrammarQuestionMappingRow map(
+    Map<String, dynamic> data, {
+    String? tablePrefix,
+  }) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return GrammarQuestionMappingRow(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      topicId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}topic_id'],
+      )!,
+      questionId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}question_id'],
+      )!,
+    );
+  }
+
+  @override
+  $GrammarQuestionMappingModelsTable createAlias(String alias) {
+    return $GrammarQuestionMappingModelsTable(attachedDatabase, alias);
+  }
+}
+
+class GrammarQuestionMappingRow extends DataClass
+    implements Insertable<GrammarQuestionMappingRow> {
+  final int id;
+  final int topicId;
+  final int questionId;
+  const GrammarQuestionMappingRow({
+    required this.id,
+    required this.topicId,
+    required this.questionId,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['topic_id'] = Variable<int>(topicId);
+    map['question_id'] = Variable<int>(questionId);
+    return map;
+  }
+
+  GrammarQuestionMappingModelsCompanion toCompanion(bool nullToAbsent) {
+    return GrammarQuestionMappingModelsCompanion(
+      id: Value(id),
+      topicId: Value(topicId),
+      questionId: Value(questionId),
+    );
+  }
+
+  factory GrammarQuestionMappingRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return GrammarQuestionMappingRow(
+      id: serializer.fromJson<int>(json['id']),
+      topicId: serializer.fromJson<int>(json['topicId']),
+      questionId: serializer.fromJson<int>(json['questionId']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'topicId': serializer.toJson<int>(topicId),
+      'questionId': serializer.toJson<int>(questionId),
+    };
+  }
+
+  GrammarQuestionMappingRow copyWith({
+    int? id,
+    int? topicId,
+    int? questionId,
+  }) => GrammarQuestionMappingRow(
+    id: id ?? this.id,
+    topicId: topicId ?? this.topicId,
+    questionId: questionId ?? this.questionId,
+  );
+  GrammarQuestionMappingRow copyWithCompanion(
+    GrammarQuestionMappingModelsCompanion data,
+  ) {
+    return GrammarQuestionMappingRow(
+      id: data.id.present ? data.id.value : this.id,
+      topicId: data.topicId.present ? data.topicId.value : this.topicId,
+      questionId: data.questionId.present
+          ? data.questionId.value
+          : this.questionId,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarQuestionMappingRow(')
+          ..write('id: $id, ')
+          ..write('topicId: $topicId, ')
+          ..write('questionId: $questionId')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(id, topicId, questionId);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is GrammarQuestionMappingRow &&
+          other.id == this.id &&
+          other.topicId == this.topicId &&
+          other.questionId == this.questionId);
+}
+
+class GrammarQuestionMappingModelsCompanion
+    extends UpdateCompanion<GrammarQuestionMappingRow> {
+  final Value<int> id;
+  final Value<int> topicId;
+  final Value<int> questionId;
+  const GrammarQuestionMappingModelsCompanion({
+    this.id = const Value.absent(),
+    this.topicId = const Value.absent(),
+    this.questionId = const Value.absent(),
+  });
+  GrammarQuestionMappingModelsCompanion.insert({
+    this.id = const Value.absent(),
+    required int topicId,
+    required int questionId,
+  }) : topicId = Value(topicId),
+       questionId = Value(questionId);
+  static Insertable<GrammarQuestionMappingRow> custom({
+    Expression<int>? id,
+    Expression<int>? topicId,
+    Expression<int>? questionId,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (topicId != null) 'topic_id': topicId,
+      if (questionId != null) 'question_id': questionId,
+    });
+  }
+
+  GrammarQuestionMappingModelsCompanion copyWith({
+    Value<int>? id,
+    Value<int>? topicId,
+    Value<int>? questionId,
+  }) {
+    return GrammarQuestionMappingModelsCompanion(
+      id: id ?? this.id,
+      topicId: topicId ?? this.topicId,
+      questionId: questionId ?? this.questionId,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (topicId.present) {
+      map['topic_id'] = Variable<int>(topicId.value);
+    }
+    if (questionId.present) {
+      map['question_id'] = Variable<int>(questionId.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarQuestionMappingModelsCompanion(')
+          ..write('id: $id, ')
+          ..write('topicId: $topicId, ')
+          ..write('questionId: $questionId')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $GrammarUserResponseModelsTable extends GrammarUserResponseModels
+    with TableInfo<$GrammarUserResponseModelsTable, GrammarUserResponseRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $GrammarUserResponseModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _questionIdMeta = const VerificationMeta(
+    'questionId',
+  );
+  @override
+  late final GeneratedColumn<int> questionId = GeneratedColumn<int>(
+    'question_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES grammar_question_models (id)',
+    ),
+  );
+  static const VerificationMeta _topicIdMeta = const VerificationMeta(
+    'topicId',
+  );
+  @override
+  late final GeneratedColumn<int> topicId = GeneratedColumn<int>(
+    'topic_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES grammar_topic_models (id)',
+    ),
+  );
+  static const VerificationMeta _responseDataMeta = const VerificationMeta(
+    'responseData',
+  );
+  @override
+  late final GeneratedColumn<String> responseData = GeneratedColumn<String>(
+    'response_data',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _isCorrectMeta = const VerificationMeta(
+    'isCorrect',
+  );
+  @override
+  late final GeneratedColumn<bool> isCorrect = GeneratedColumn<bool>(
+    'is_correct',
+    aliasedName,
+    false,
+    type: DriftSqlType.bool,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'CHECK ("is_correct" IN (0, 1))',
+    ),
+  );
+  static const VerificationMeta _updatedAtMeta = const VerificationMeta(
+    'updatedAt',
+  );
+  @override
+  late final GeneratedColumn<int> updatedAt = GeneratedColumn<int>(
+    'updated_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    questionId,
+    topicId,
+    responseData,
+    isCorrect,
+    updatedAt,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'grammar_user_response_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<GrammarUserResponseRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('question_id')) {
+      context.handle(
+        _questionIdMeta,
+        questionId.isAcceptableOrUnknown(data['question_id']!, _questionIdMeta),
+      );
+    }
+    if (data.containsKey('topic_id')) {
+      context.handle(
+        _topicIdMeta,
+        topicId.isAcceptableOrUnknown(data['topic_id']!, _topicIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_topicIdMeta);
+    }
+    if (data.containsKey('response_data')) {
+      context.handle(
+        _responseDataMeta,
+        responseData.isAcceptableOrUnknown(
+          data['response_data']!,
+          _responseDataMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_responseDataMeta);
+    }
+    if (data.containsKey('is_correct')) {
+      context.handle(
+        _isCorrectMeta,
+        isCorrect.isAcceptableOrUnknown(data['is_correct']!, _isCorrectMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_isCorrectMeta);
+    }
+    if (data.containsKey('updated_at')) {
+      context.handle(
+        _updatedAtMeta,
+        updatedAt.isAcceptableOrUnknown(data['updated_at']!, _updatedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_updatedAtMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {questionId};
+  @override
+  GrammarUserResponseRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return GrammarUserResponseRow(
+      questionId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}question_id'],
+      )!,
+      topicId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}topic_id'],
+      )!,
+      responseData: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}response_data'],
+      )!,
+      isCorrect: attachedDatabase.typeMapping.read(
+        DriftSqlType.bool,
+        data['${effectivePrefix}is_correct'],
+      )!,
+      updatedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}updated_at'],
+      )!,
+    );
+  }
+
+  @override
+  $GrammarUserResponseModelsTable createAlias(String alias) {
+    return $GrammarUserResponseModelsTable(attachedDatabase, alias);
+  }
+}
+
+class GrammarUserResponseRow extends DataClass
+    implements Insertable<GrammarUserResponseRow> {
+  final int questionId;
+  final int topicId;
+  final String responseData;
+  final bool isCorrect;
+  final int updatedAt;
+  const GrammarUserResponseRow({
+    required this.questionId,
+    required this.topicId,
+    required this.responseData,
+    required this.isCorrect,
+    required this.updatedAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['question_id'] = Variable<int>(questionId);
+    map['topic_id'] = Variable<int>(topicId);
+    map['response_data'] = Variable<String>(responseData);
+    map['is_correct'] = Variable<bool>(isCorrect);
+    map['updated_at'] = Variable<int>(updatedAt);
+    return map;
+  }
+
+  GrammarUserResponseModelsCompanion toCompanion(bool nullToAbsent) {
+    return GrammarUserResponseModelsCompanion(
+      questionId: Value(questionId),
+      topicId: Value(topicId),
+      responseData: Value(responseData),
+      isCorrect: Value(isCorrect),
+      updatedAt: Value(updatedAt),
+    );
+  }
+
+  factory GrammarUserResponseRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return GrammarUserResponseRow(
+      questionId: serializer.fromJson<int>(json['questionId']),
+      topicId: serializer.fromJson<int>(json['topicId']),
+      responseData: serializer.fromJson<String>(json['responseData']),
+      isCorrect: serializer.fromJson<bool>(json['isCorrect']),
+      updatedAt: serializer.fromJson<int>(json['updatedAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'questionId': serializer.toJson<int>(questionId),
+      'topicId': serializer.toJson<int>(topicId),
+      'responseData': serializer.toJson<String>(responseData),
+      'isCorrect': serializer.toJson<bool>(isCorrect),
+      'updatedAt': serializer.toJson<int>(updatedAt),
+    };
+  }
+
+  GrammarUserResponseRow copyWith({
+    int? questionId,
+    int? topicId,
+    String? responseData,
+    bool? isCorrect,
+    int? updatedAt,
+  }) => GrammarUserResponseRow(
+    questionId: questionId ?? this.questionId,
+    topicId: topicId ?? this.topicId,
+    responseData: responseData ?? this.responseData,
+    isCorrect: isCorrect ?? this.isCorrect,
+    updatedAt: updatedAt ?? this.updatedAt,
+  );
+  GrammarUserResponseRow copyWithCompanion(
+    GrammarUserResponseModelsCompanion data,
+  ) {
+    return GrammarUserResponseRow(
+      questionId: data.questionId.present
+          ? data.questionId.value
+          : this.questionId,
+      topicId: data.topicId.present ? data.topicId.value : this.topicId,
+      responseData: data.responseData.present
+          ? data.responseData.value
+          : this.responseData,
+      isCorrect: data.isCorrect.present ? data.isCorrect.value : this.isCorrect,
+      updatedAt: data.updatedAt.present ? data.updatedAt.value : this.updatedAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarUserResponseRow(')
+          ..write('questionId: $questionId, ')
+          ..write('topicId: $topicId, ')
+          ..write('responseData: $responseData, ')
+          ..write('isCorrect: $isCorrect, ')
+          ..write('updatedAt: $updatedAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode =>
+      Object.hash(questionId, topicId, responseData, isCorrect, updatedAt);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is GrammarUserResponseRow &&
+          other.questionId == this.questionId &&
+          other.topicId == this.topicId &&
+          other.responseData == this.responseData &&
+          other.isCorrect == this.isCorrect &&
+          other.updatedAt == this.updatedAt);
+}
+
+class GrammarUserResponseModelsCompanion
+    extends UpdateCompanion<GrammarUserResponseRow> {
+  final Value<int> questionId;
+  final Value<int> topicId;
+  final Value<String> responseData;
+  final Value<bool> isCorrect;
+  final Value<int> updatedAt;
+  const GrammarUserResponseModelsCompanion({
+    this.questionId = const Value.absent(),
+    this.topicId = const Value.absent(),
+    this.responseData = const Value.absent(),
+    this.isCorrect = const Value.absent(),
+    this.updatedAt = const Value.absent(),
+  });
+  GrammarUserResponseModelsCompanion.insert({
+    this.questionId = const Value.absent(),
+    required int topicId,
+    required String responseData,
+    required bool isCorrect,
+    required int updatedAt,
+  }) : topicId = Value(topicId),
+       responseData = Value(responseData),
+       isCorrect = Value(isCorrect),
+       updatedAt = Value(updatedAt);
+  static Insertable<GrammarUserResponseRow> custom({
+    Expression<int>? questionId,
+    Expression<int>? topicId,
+    Expression<String>? responseData,
+    Expression<bool>? isCorrect,
+    Expression<int>? updatedAt,
+  }) {
+    return RawValuesInsertable({
+      if (questionId != null) 'question_id': questionId,
+      if (topicId != null) 'topic_id': topicId,
+      if (responseData != null) 'response_data': responseData,
+      if (isCorrect != null) 'is_correct': isCorrect,
+      if (updatedAt != null) 'updated_at': updatedAt,
+    });
+  }
+
+  GrammarUserResponseModelsCompanion copyWith({
+    Value<int>? questionId,
+    Value<int>? topicId,
+    Value<String>? responseData,
+    Value<bool>? isCorrect,
+    Value<int>? updatedAt,
+  }) {
+    return GrammarUserResponseModelsCompanion(
+      questionId: questionId ?? this.questionId,
+      topicId: topicId ?? this.topicId,
+      responseData: responseData ?? this.responseData,
+      isCorrect: isCorrect ?? this.isCorrect,
+      updatedAt: updatedAt ?? this.updatedAt,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (questionId.present) {
+      map['question_id'] = Variable<int>(questionId.value);
+    }
+    if (topicId.present) {
+      map['topic_id'] = Variable<int>(topicId.value);
+    }
+    if (responseData.present) {
+      map['response_data'] = Variable<String>(responseData.value);
+    }
+    if (isCorrect.present) {
+      map['is_correct'] = Variable<bool>(isCorrect.value);
+    }
+    if (updatedAt.present) {
+      map['updated_at'] = Variable<int>(updatedAt.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('GrammarUserResponseModelsCompanion(')
+          ..write('questionId: $questionId, ')
+          ..write('topicId: $topicId, ')
+          ..write('responseData: $responseData, ')
+          ..write('isCorrect: $isCorrect, ')
+          ..write('updatedAt: $updatedAt')
+          ..write(')'))
+        .toString();
+  }
+}
+
 abstract class _$AppDatabase extends GeneratedDatabase {
   _$AppDatabase(QueryExecutor e) : super(e);
   $AppDatabaseManager get managers => $AppDatabaseManager(this);
@@ -8706,6 +11458,16 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   );
   late final $ListeningPracticeDaysTable listeningPracticeDays =
       $ListeningPracticeDaysTable(this);
+  late final $GrammarPackModelsTable grammarPackModels =
+      $GrammarPackModelsTable(this);
+  late final $GrammarTopicModelsTable grammarTopicModels =
+      $GrammarTopicModelsTable(this);
+  late final $GrammarQuestionModelsTable grammarQuestionModels =
+      $GrammarQuestionModelsTable(this);
+  late final $GrammarQuestionMappingModelsTable grammarQuestionMappingModels =
+      $GrammarQuestionMappingModelsTable(this);
+  late final $GrammarUserResponseModelsTable grammarUserResponseModels =
+      $GrammarUserResponseModelsTable(this);
   late final Index topicModelEnabledOrder = Index(
     'topic_model_enabled_order',
     'CREATE INDEX topic_model_enabled_order ON TopicModel (is_enabled, "order")',
@@ -8738,6 +11500,22 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     'listening_challenge_progress_lesson_position',
     'CREATE UNIQUE INDEX listening_challenge_progress_lesson_position ON listening_challenge_progress_models (course_id, lesson_id, position)',
   );
+  late final Index grammarPackGuid = Index(
+    'grammar_pack_guid',
+    'CREATE UNIQUE INDEX grammar_pack_guid ON grammar_pack_models (guid)',
+  );
+  late final Index grammarTopicPackOrder = Index(
+    'grammar_topic_pack_order',
+    'CREATE UNIQUE INDEX grammar_topic_pack_order ON grammar_topic_models (pack_id, sort_order)',
+  );
+  late final Index grammarQuestionMappingTopicQuestion = Index(
+    'grammar_question_mapping_topic_question',
+    'CREATE UNIQUE INDEX grammar_question_mapping_topic_question ON grammar_question_mapping_models (topic_id, question_id)',
+  );
+  late final Index grammarResponseTopic = Index(
+    'grammar_response_topic',
+    'CREATE INDEX grammar_response_topic ON grammar_user_response_models (topic_id)',
+  );
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -8761,6 +11539,11 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     listeningLessonProgressModels,
     listeningChallengeProgressModels,
     listeningPracticeDays,
+    grammarPackModels,
+    grammarTopicModels,
+    grammarQuestionModels,
+    grammarQuestionMappingModels,
+    grammarUserResponseModels,
     topicModelEnabledOrder,
     wordModelTopicEnabled,
     learningProgressRepetitionDate,
@@ -8769,6 +11552,10 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     sessionExerciseSessionOrder,
     listeningLessonProgressStatusUpdated,
     listeningChallengeProgressLessonPosition,
+    grammarPackGuid,
+    grammarTopicPackOrder,
+    grammarQuestionMappingTopicQuestion,
+    grammarResponseTopic,
   ];
 }
 
@@ -13292,6 +16079,2582 @@ typedef $$ListeningPracticeDaysTableProcessedTableManager =
       ListeningPracticeDayRow,
       PrefetchHooks Function()
     >;
+typedef $$GrammarPackModelsTableCreateCompanionBuilder =
+    GrammarPackModelsCompanion Function({
+      Value<int> id,
+      required String guid,
+      required String title,
+      Value<String> description,
+      required String level,
+      required String iconAsset,
+      Value<int> progress,
+      Value<int> testProgress,
+      Value<bool> enabled,
+      Value<bool> active,
+      required int sortOrder,
+    });
+typedef $$GrammarPackModelsTableUpdateCompanionBuilder =
+    GrammarPackModelsCompanion Function({
+      Value<int> id,
+      Value<String> guid,
+      Value<String> title,
+      Value<String> description,
+      Value<String> level,
+      Value<String> iconAsset,
+      Value<int> progress,
+      Value<int> testProgress,
+      Value<bool> enabled,
+      Value<bool> active,
+      Value<int> sortOrder,
+    });
+
+final class $$GrammarPackModelsTableReferences
+    extends
+        BaseReferences<_$AppDatabase, $GrammarPackModelsTable, GrammarPackRow> {
+  $$GrammarPackModelsTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static MultiTypedResultKey<$GrammarTopicModelsTable, List<GrammarTopicRow>>
+  _grammarTopicModelsRefsTable(_$AppDatabase db) =>
+      MultiTypedResultKey.fromTable(
+        db.grammarTopicModels,
+        aliasName: 'grammar_pack_models__id__grammar_topic_models__pack_id',
+      );
+
+  $$GrammarTopicModelsTableProcessedTableManager get grammarTopicModelsRefs {
+    final manager = $$GrammarTopicModelsTableTableManager(
+      $_db,
+      $_db.grammarTopicModels,
+    ).filter((f) => f.packId.id.sqlEquals($_itemColumn<int>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(
+      _grammarTopicModelsRefsTable($_db),
+    );
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+}
+
+class $$GrammarPackModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $GrammarPackModelsTable> {
+  $$GrammarPackModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get guid => $composableBuilder(
+    column: $table.guid,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get level => $composableBuilder(
+    column: $table.level,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get iconAsset => $composableBuilder(
+    column: $table.iconAsset,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get progress => $composableBuilder(
+    column: $table.progress,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get testProgress => $composableBuilder(
+    column: $table.testProgress,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get enabled => $composableBuilder(
+    column: $table.enabled,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get active => $composableBuilder(
+    column: $table.active,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sortOrder => $composableBuilder(
+    column: $table.sortOrder,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  Expression<bool> grammarTopicModelsRefs(
+    Expression<bool> Function($$GrammarTopicModelsTableFilterComposer f) f,
+  ) {
+    final $$GrammarTopicModelsTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.id,
+      referencedTable: $db.grammarTopicModels,
+      getReferencedColumn: (t) => t.packId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$GrammarTopicModelsTableFilterComposer(
+            $db: $db,
+            $table: $db.grammarTopicModels,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return f(composer);
+  }
+}
+
+class $$GrammarPackModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $GrammarPackModelsTable> {
+  $$GrammarPackModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get guid => $composableBuilder(
+    column: $table.guid,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get level => $composableBuilder(
+    column: $table.level,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get iconAsset => $composableBuilder(
+    column: $table.iconAsset,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get progress => $composableBuilder(
+    column: $table.progress,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get testProgress => $composableBuilder(
+    column: $table.testProgress,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get enabled => $composableBuilder(
+    column: $table.enabled,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get active => $composableBuilder(
+    column: $table.active,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sortOrder => $composableBuilder(
+    column: $table.sortOrder,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$GrammarPackModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $GrammarPackModelsTable> {
+  $$GrammarPackModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get guid =>
+      $composableBuilder(column: $table.guid, builder: (column) => column);
+
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
+
+  GeneratedColumn<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get level =>
+      $composableBuilder(column: $table.level, builder: (column) => column);
+
+  GeneratedColumn<String> get iconAsset =>
+      $composableBuilder(column: $table.iconAsset, builder: (column) => column);
+
+  GeneratedColumn<int> get progress =>
+      $composableBuilder(column: $table.progress, builder: (column) => column);
+
+  GeneratedColumn<int> get testProgress => $composableBuilder(
+    column: $table.testProgress,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<bool> get enabled =>
+      $composableBuilder(column: $table.enabled, builder: (column) => column);
+
+  GeneratedColumn<bool> get active =>
+      $composableBuilder(column: $table.active, builder: (column) => column);
+
+  GeneratedColumn<int> get sortOrder =>
+      $composableBuilder(column: $table.sortOrder, builder: (column) => column);
+
+  Expression<T> grammarTopicModelsRefs<T extends Object>(
+    Expression<T> Function($$GrammarTopicModelsTableAnnotationComposer a) f,
+  ) {
+    final $$GrammarTopicModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarTopicModels,
+          getReferencedColumn: (t) => t.packId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarTopicModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarTopicModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+}
+
+class $$GrammarPackModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $GrammarPackModelsTable,
+          GrammarPackRow,
+          $$GrammarPackModelsTableFilterComposer,
+          $$GrammarPackModelsTableOrderingComposer,
+          $$GrammarPackModelsTableAnnotationComposer,
+          $$GrammarPackModelsTableCreateCompanionBuilder,
+          $$GrammarPackModelsTableUpdateCompanionBuilder,
+          (GrammarPackRow, $$GrammarPackModelsTableReferences),
+          GrammarPackRow,
+          PrefetchHooks Function({bool grammarTopicModelsRefs})
+        > {
+  $$GrammarPackModelsTableTableManager(
+    _$AppDatabase db,
+    $GrammarPackModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$GrammarPackModelsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$GrammarPackModelsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$GrammarPackModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> guid = const Value.absent(),
+                Value<String> title = const Value.absent(),
+                Value<String> description = const Value.absent(),
+                Value<String> level = const Value.absent(),
+                Value<String> iconAsset = const Value.absent(),
+                Value<int> progress = const Value.absent(),
+                Value<int> testProgress = const Value.absent(),
+                Value<bool> enabled = const Value.absent(),
+                Value<bool> active = const Value.absent(),
+                Value<int> sortOrder = const Value.absent(),
+              }) => GrammarPackModelsCompanion(
+                id: id,
+                guid: guid,
+                title: title,
+                description: description,
+                level: level,
+                iconAsset: iconAsset,
+                progress: progress,
+                testProgress: testProgress,
+                enabled: enabled,
+                active: active,
+                sortOrder: sortOrder,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required String guid,
+                required String title,
+                Value<String> description = const Value.absent(),
+                required String level,
+                required String iconAsset,
+                Value<int> progress = const Value.absent(),
+                Value<int> testProgress = const Value.absent(),
+                Value<bool> enabled = const Value.absent(),
+                Value<bool> active = const Value.absent(),
+                required int sortOrder,
+              }) => GrammarPackModelsCompanion.insert(
+                id: id,
+                guid: guid,
+                title: title,
+                description: description,
+                level: level,
+                iconAsset: iconAsset,
+                progress: progress,
+                testProgress: testProgress,
+                enabled: enabled,
+                active: active,
+                sortOrder: sortOrder,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$GrammarPackModelsTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({grammarTopicModelsRefs = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [
+                if (grammarTopicModelsRefs) db.grammarTopicModels,
+              ],
+              addJoins: null,
+              getPrefetchedDataCallback: (items) async {
+                return [
+                  if (grammarTopicModelsRefs)
+                    await $_getPrefetchedData<
+                      GrammarPackRow,
+                      $GrammarPackModelsTable,
+                      GrammarTopicRow
+                    >(
+                      currentTable: table,
+                      referencedTable: $$GrammarPackModelsTableReferences
+                          ._grammarTopicModelsRefsTable(db),
+                      managerFromTypedResult: (p0) =>
+                          $$GrammarPackModelsTableReferences(
+                            db,
+                            table,
+                            p0,
+                          ).grammarTopicModelsRefs,
+                      referencedItemsForCurrentItem: (item, referencedItems) =>
+                          referencedItems.where((e) => e.packId == item.id),
+                      typedResults: items,
+                    ),
+                ];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$GrammarPackModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $GrammarPackModelsTable,
+      GrammarPackRow,
+      $$GrammarPackModelsTableFilterComposer,
+      $$GrammarPackModelsTableOrderingComposer,
+      $$GrammarPackModelsTableAnnotationComposer,
+      $$GrammarPackModelsTableCreateCompanionBuilder,
+      $$GrammarPackModelsTableUpdateCompanionBuilder,
+      (GrammarPackRow, $$GrammarPackModelsTableReferences),
+      GrammarPackRow,
+      PrefetchHooks Function({bool grammarTopicModelsRefs})
+    >;
+typedef $$GrammarTopicModelsTableCreateCompanionBuilder =
+    GrammarTopicModelsCompanion Function({
+      Value<int> id,
+      required int packId,
+      required String title,
+      Value<String> description,
+      Value<String> instructionsJson,
+      Value<int> progress,
+      Value<bool> isComplete,
+      Value<int> timeTaken,
+      Value<bool> enabled,
+      required int sortOrder,
+    });
+typedef $$GrammarTopicModelsTableUpdateCompanionBuilder =
+    GrammarTopicModelsCompanion Function({
+      Value<int> id,
+      Value<int> packId,
+      Value<String> title,
+      Value<String> description,
+      Value<String> instructionsJson,
+      Value<int> progress,
+      Value<bool> isComplete,
+      Value<int> timeTaken,
+      Value<bool> enabled,
+      Value<int> sortOrder,
+    });
+
+final class $$GrammarTopicModelsTableReferences
+    extends
+        BaseReferences<
+          _$AppDatabase,
+          $GrammarTopicModelsTable,
+          GrammarTopicRow
+        > {
+  $$GrammarTopicModelsTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static $GrammarPackModelsTable _packIdTable(_$AppDatabase db) => db
+      .grammarPackModels
+      .createAlias('grammar_topic_models__pack_id__grammar_pack_models__id');
+
+  $$GrammarPackModelsTableProcessedTableManager get packId {
+    final $_column = $_itemColumn<int>('pack_id')!;
+
+    final manager = $$GrammarPackModelsTableTableManager(
+      $_db,
+      $_db.grammarPackModels,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_packIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+
+  static MultiTypedResultKey<
+    $GrammarQuestionMappingModelsTable,
+    List<GrammarQuestionMappingRow>
+  >
+  _grammarQuestionMappingModelsRefsTable(
+    _$AppDatabase db,
+  ) => MultiTypedResultKey.fromTable(
+    db.grammarQuestionMappingModels,
+    aliasName:
+        'grammar_topic_models__id__grammar_question_mapping_models__topic_id',
+  );
+
+  $$GrammarQuestionMappingModelsTableProcessedTableManager
+  get grammarQuestionMappingModelsRefs {
+    final manager = $$GrammarQuestionMappingModelsTableTableManager(
+      $_db,
+      $_db.grammarQuestionMappingModels,
+    ).filter((f) => f.topicId.id.sqlEquals($_itemColumn<int>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(
+      _grammarQuestionMappingModelsRefsTable($_db),
+    );
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+
+  static MultiTypedResultKey<
+    $GrammarUserResponseModelsTable,
+    List<GrammarUserResponseRow>
+  >
+  _grammarUserResponseModelsRefsTable(_$AppDatabase db) =>
+      MultiTypedResultKey.fromTable(
+        db.grammarUserResponseModels,
+        aliasName:
+            'grammar_topic_models__id__grammar_user_response_models__topic_id',
+      );
+
+  $$GrammarUserResponseModelsTableProcessedTableManager
+  get grammarUserResponseModelsRefs {
+    final manager = $$GrammarUserResponseModelsTableTableManager(
+      $_db,
+      $_db.grammarUserResponseModels,
+    ).filter((f) => f.topicId.id.sqlEquals($_itemColumn<int>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(
+      _grammarUserResponseModelsRefsTable($_db),
+    );
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+}
+
+class $$GrammarTopicModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $GrammarTopicModelsTable> {
+  $$GrammarTopicModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get instructionsJson => $composableBuilder(
+    column: $table.instructionsJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get progress => $composableBuilder(
+    column: $table.progress,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get isComplete => $composableBuilder(
+    column: $table.isComplete,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get timeTaken => $composableBuilder(
+    column: $table.timeTaken,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get enabled => $composableBuilder(
+    column: $table.enabled,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sortOrder => $composableBuilder(
+    column: $table.sortOrder,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$GrammarPackModelsTableFilterComposer get packId {
+    final $$GrammarPackModelsTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.packId,
+      referencedTable: $db.grammarPackModels,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$GrammarPackModelsTableFilterComposer(
+            $db: $db,
+            $table: $db.grammarPackModels,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+
+  Expression<bool> grammarQuestionMappingModelsRefs(
+    Expression<bool> Function(
+      $$GrammarQuestionMappingModelsTableFilterComposer f,
+    )
+    f,
+  ) {
+    final $$GrammarQuestionMappingModelsTableFilterComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarQuestionMappingModels,
+          getReferencedColumn: (t) => t.topicId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionMappingModelsTableFilterComposer(
+                $db: $db,
+                $table: $db.grammarQuestionMappingModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+
+  Expression<bool> grammarUserResponseModelsRefs(
+    Expression<bool> Function($$GrammarUserResponseModelsTableFilterComposer f)
+    f,
+  ) {
+    final $$GrammarUserResponseModelsTableFilterComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarUserResponseModels,
+          getReferencedColumn: (t) => t.topicId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarUserResponseModelsTableFilterComposer(
+                $db: $db,
+                $table: $db.grammarUserResponseModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+}
+
+class $$GrammarTopicModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $GrammarTopicModelsTable> {
+  $$GrammarTopicModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get title => $composableBuilder(
+    column: $table.title,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get instructionsJson => $composableBuilder(
+    column: $table.instructionsJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get progress => $composableBuilder(
+    column: $table.progress,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get isComplete => $composableBuilder(
+    column: $table.isComplete,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get timeTaken => $composableBuilder(
+    column: $table.timeTaken,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get enabled => $composableBuilder(
+    column: $table.enabled,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sortOrder => $composableBuilder(
+    column: $table.sortOrder,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$GrammarPackModelsTableOrderingComposer get packId {
+    final $$GrammarPackModelsTableOrderingComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.packId,
+      referencedTable: $db.grammarPackModels,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$GrammarPackModelsTableOrderingComposer(
+            $db: $db,
+            $table: $db.grammarPackModels,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$GrammarTopicModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $GrammarTopicModelsTable> {
+  $$GrammarTopicModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get title =>
+      $composableBuilder(column: $table.title, builder: (column) => column);
+
+  GeneratedColumn<String> get description => $composableBuilder(
+    column: $table.description,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get instructionsJson => $composableBuilder(
+    column: $table.instructionsJson,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get progress =>
+      $composableBuilder(column: $table.progress, builder: (column) => column);
+
+  GeneratedColumn<bool> get isComplete => $composableBuilder(
+    column: $table.isComplete,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get timeTaken =>
+      $composableBuilder(column: $table.timeTaken, builder: (column) => column);
+
+  GeneratedColumn<bool> get enabled =>
+      $composableBuilder(column: $table.enabled, builder: (column) => column);
+
+  GeneratedColumn<int> get sortOrder =>
+      $composableBuilder(column: $table.sortOrder, builder: (column) => column);
+
+  $$GrammarPackModelsTableAnnotationComposer get packId {
+    final $$GrammarPackModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.packId,
+          referencedTable: $db.grammarPackModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarPackModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarPackModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+
+  Expression<T> grammarQuestionMappingModelsRefs<T extends Object>(
+    Expression<T> Function(
+      $$GrammarQuestionMappingModelsTableAnnotationComposer a,
+    )
+    f,
+  ) {
+    final $$GrammarQuestionMappingModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarQuestionMappingModels,
+          getReferencedColumn: (t) => t.topicId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionMappingModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarQuestionMappingModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+
+  Expression<T> grammarUserResponseModelsRefs<T extends Object>(
+    Expression<T> Function($$GrammarUserResponseModelsTableAnnotationComposer a)
+    f,
+  ) {
+    final $$GrammarUserResponseModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarUserResponseModels,
+          getReferencedColumn: (t) => t.topicId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarUserResponseModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarUserResponseModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+}
+
+class $$GrammarTopicModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $GrammarTopicModelsTable,
+          GrammarTopicRow,
+          $$GrammarTopicModelsTableFilterComposer,
+          $$GrammarTopicModelsTableOrderingComposer,
+          $$GrammarTopicModelsTableAnnotationComposer,
+          $$GrammarTopicModelsTableCreateCompanionBuilder,
+          $$GrammarTopicModelsTableUpdateCompanionBuilder,
+          (GrammarTopicRow, $$GrammarTopicModelsTableReferences),
+          GrammarTopicRow,
+          PrefetchHooks Function({
+            bool packId,
+            bool grammarQuestionMappingModelsRefs,
+            bool grammarUserResponseModelsRefs,
+          })
+        > {
+  $$GrammarTopicModelsTableTableManager(
+    _$AppDatabase db,
+    $GrammarTopicModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$GrammarTopicModelsTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$GrammarTopicModelsTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$GrammarTopicModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<int> packId = const Value.absent(),
+                Value<String> title = const Value.absent(),
+                Value<String> description = const Value.absent(),
+                Value<String> instructionsJson = const Value.absent(),
+                Value<int> progress = const Value.absent(),
+                Value<bool> isComplete = const Value.absent(),
+                Value<int> timeTaken = const Value.absent(),
+                Value<bool> enabled = const Value.absent(),
+                Value<int> sortOrder = const Value.absent(),
+              }) => GrammarTopicModelsCompanion(
+                id: id,
+                packId: packId,
+                title: title,
+                description: description,
+                instructionsJson: instructionsJson,
+                progress: progress,
+                isComplete: isComplete,
+                timeTaken: timeTaken,
+                enabled: enabled,
+                sortOrder: sortOrder,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required int packId,
+                required String title,
+                Value<String> description = const Value.absent(),
+                Value<String> instructionsJson = const Value.absent(),
+                Value<int> progress = const Value.absent(),
+                Value<bool> isComplete = const Value.absent(),
+                Value<int> timeTaken = const Value.absent(),
+                Value<bool> enabled = const Value.absent(),
+                required int sortOrder,
+              }) => GrammarTopicModelsCompanion.insert(
+                id: id,
+                packId: packId,
+                title: title,
+                description: description,
+                instructionsJson: instructionsJson,
+                progress: progress,
+                isComplete: isComplete,
+                timeTaken: timeTaken,
+                enabled: enabled,
+                sortOrder: sortOrder,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$GrammarTopicModelsTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback:
+              ({
+                packId = false,
+                grammarQuestionMappingModelsRefs = false,
+                grammarUserResponseModelsRefs = false,
+              }) {
+                return PrefetchHooks(
+                  db: db,
+                  explicitlyWatchedTables: [
+                    if (grammarQuestionMappingModelsRefs)
+                      db.grammarQuestionMappingModels,
+                    if (grammarUserResponseModelsRefs)
+                      db.grammarUserResponseModels,
+                  ],
+                  addJoins:
+                      <
+                        T extends TableManagerState<
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic,
+                          dynamic
+                        >
+                      >(state) {
+                        if (packId) {
+                          state =
+                              state.withJoin(
+                                    currentTable: table,
+                                    currentColumn: table.packId,
+                                    referencedTable:
+                                        $$GrammarTopicModelsTableReferences
+                                            ._packIdTable(db),
+                                    referencedColumn:
+                                        $$GrammarTopicModelsTableReferences
+                                            ._packIdTable(db)
+                                            .id,
+                                  )
+                                  as T;
+                        }
+
+                        return state;
+                      },
+                  getPrefetchedDataCallback: (items) async {
+                    return [
+                      if (grammarQuestionMappingModelsRefs)
+                        await $_getPrefetchedData<
+                          GrammarTopicRow,
+                          $GrammarTopicModelsTable,
+                          GrammarQuestionMappingRow
+                        >(
+                          currentTable: table,
+                          referencedTable: $$GrammarTopicModelsTableReferences
+                              ._grammarQuestionMappingModelsRefsTable(db),
+                          managerFromTypedResult: (p0) =>
+                              $$GrammarTopicModelsTableReferences(
+                                db,
+                                table,
+                                p0,
+                              ).grammarQuestionMappingModelsRefs,
+                          referencedItemsForCurrentItem:
+                              (item, referencedItems) => referencedItems.where(
+                                (e) => e.topicId == item.id,
+                              ),
+                          typedResults: items,
+                        ),
+                      if (grammarUserResponseModelsRefs)
+                        await $_getPrefetchedData<
+                          GrammarTopicRow,
+                          $GrammarTopicModelsTable,
+                          GrammarUserResponseRow
+                        >(
+                          currentTable: table,
+                          referencedTable: $$GrammarTopicModelsTableReferences
+                              ._grammarUserResponseModelsRefsTable(db),
+                          managerFromTypedResult: (p0) =>
+                              $$GrammarTopicModelsTableReferences(
+                                db,
+                                table,
+                                p0,
+                              ).grammarUserResponseModelsRefs,
+                          referencedItemsForCurrentItem:
+                              (item, referencedItems) => referencedItems.where(
+                                (e) => e.topicId == item.id,
+                              ),
+                          typedResults: items,
+                        ),
+                    ];
+                  },
+                );
+              },
+        ),
+      );
+}
+
+typedef $$GrammarTopicModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $GrammarTopicModelsTable,
+      GrammarTopicRow,
+      $$GrammarTopicModelsTableFilterComposer,
+      $$GrammarTopicModelsTableOrderingComposer,
+      $$GrammarTopicModelsTableAnnotationComposer,
+      $$GrammarTopicModelsTableCreateCompanionBuilder,
+      $$GrammarTopicModelsTableUpdateCompanionBuilder,
+      (GrammarTopicRow, $$GrammarTopicModelsTableReferences),
+      GrammarTopicRow,
+      PrefetchHooks Function({
+        bool packId,
+        bool grammarQuestionMappingModelsRefs,
+        bool grammarUserResponseModelsRefs,
+      })
+    >;
+typedef $$GrammarQuestionModelsTableCreateCompanionBuilder =
+    GrammarQuestionModelsCompanion Function({
+      Value<int> id,
+      required String type,
+      Value<String> rubricJson,
+      Value<String> cluesJson,
+      Value<String> bodyJson,
+      Value<String> leftColumnJson,
+      Value<String> rightColumnJson,
+      Value<String> layout,
+      Value<String> optionsLayout,
+      Value<String> responseType,
+      Value<String> optionsJson,
+      Value<String> answersJson,
+      Value<String> modelParagraph,
+      Value<bool> testEnabled,
+      Value<bool> enabled,
+    });
+typedef $$GrammarQuestionModelsTableUpdateCompanionBuilder =
+    GrammarQuestionModelsCompanion Function({
+      Value<int> id,
+      Value<String> type,
+      Value<String> rubricJson,
+      Value<String> cluesJson,
+      Value<String> bodyJson,
+      Value<String> leftColumnJson,
+      Value<String> rightColumnJson,
+      Value<String> layout,
+      Value<String> optionsLayout,
+      Value<String> responseType,
+      Value<String> optionsJson,
+      Value<String> answersJson,
+      Value<String> modelParagraph,
+      Value<bool> testEnabled,
+      Value<bool> enabled,
+    });
+
+final class $$GrammarQuestionModelsTableReferences
+    extends
+        BaseReferences<
+          _$AppDatabase,
+          $GrammarQuestionModelsTable,
+          GrammarQuestionRow
+        > {
+  $$GrammarQuestionModelsTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static MultiTypedResultKey<
+    $GrammarQuestionMappingModelsTable,
+    List<GrammarQuestionMappingRow>
+  >
+  _grammarQuestionMappingModelsRefsTable(
+    _$AppDatabase db,
+  ) => MultiTypedResultKey.fromTable(
+    db.grammarQuestionMappingModels,
+    aliasName:
+        'grammar_question_models__id__grammar_question_mapping_models__question_id',
+  );
+
+  $$GrammarQuestionMappingModelsTableProcessedTableManager
+  get grammarQuestionMappingModelsRefs {
+    final manager = $$GrammarQuestionMappingModelsTableTableManager(
+      $_db,
+      $_db.grammarQuestionMappingModels,
+    ).filter((f) => f.questionId.id.sqlEquals($_itemColumn<int>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(
+      _grammarQuestionMappingModelsRefsTable($_db),
+    );
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+
+  static MultiTypedResultKey<
+    $GrammarUserResponseModelsTable,
+    List<GrammarUserResponseRow>
+  >
+  _grammarUserResponseModelsRefsTable(
+    _$AppDatabase db,
+  ) => MultiTypedResultKey.fromTable(
+    db.grammarUserResponseModels,
+    aliasName:
+        'grammar_question_models__id__grammar_user_response_models__question_id',
+  );
+
+  $$GrammarUserResponseModelsTableProcessedTableManager
+  get grammarUserResponseModelsRefs {
+    final manager = $$GrammarUserResponseModelsTableTableManager(
+      $_db,
+      $_db.grammarUserResponseModels,
+    ).filter((f) => f.questionId.id.sqlEquals($_itemColumn<int>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(
+      _grammarUserResponseModelsRefsTable($_db),
+    );
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
+    );
+  }
+}
+
+class $$GrammarQuestionModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $GrammarQuestionModelsTable> {
+  $$GrammarQuestionModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get type => $composableBuilder(
+    column: $table.type,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get rubricJson => $composableBuilder(
+    column: $table.rubricJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get cluesJson => $composableBuilder(
+    column: $table.cluesJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get bodyJson => $composableBuilder(
+    column: $table.bodyJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get leftColumnJson => $composableBuilder(
+    column: $table.leftColumnJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get rightColumnJson => $composableBuilder(
+    column: $table.rightColumnJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get layout => $composableBuilder(
+    column: $table.layout,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get optionsLayout => $composableBuilder(
+    column: $table.optionsLayout,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get responseType => $composableBuilder(
+    column: $table.responseType,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get optionsJson => $composableBuilder(
+    column: $table.optionsJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get answersJson => $composableBuilder(
+    column: $table.answersJson,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get modelParagraph => $composableBuilder(
+    column: $table.modelParagraph,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get testEnabled => $composableBuilder(
+    column: $table.testEnabled,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get enabled => $composableBuilder(
+    column: $table.enabled,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  Expression<bool> grammarQuestionMappingModelsRefs(
+    Expression<bool> Function(
+      $$GrammarQuestionMappingModelsTableFilterComposer f,
+    )
+    f,
+  ) {
+    final $$GrammarQuestionMappingModelsTableFilterComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarQuestionMappingModels,
+          getReferencedColumn: (t) => t.questionId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionMappingModelsTableFilterComposer(
+                $db: $db,
+                $table: $db.grammarQuestionMappingModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+
+  Expression<bool> grammarUserResponseModelsRefs(
+    Expression<bool> Function($$GrammarUserResponseModelsTableFilterComposer f)
+    f,
+  ) {
+    final $$GrammarUserResponseModelsTableFilterComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarUserResponseModels,
+          getReferencedColumn: (t) => t.questionId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarUserResponseModelsTableFilterComposer(
+                $db: $db,
+                $table: $db.grammarUserResponseModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+}
+
+class $$GrammarQuestionModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $GrammarQuestionModelsTable> {
+  $$GrammarQuestionModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get type => $composableBuilder(
+    column: $table.type,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get rubricJson => $composableBuilder(
+    column: $table.rubricJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get cluesJson => $composableBuilder(
+    column: $table.cluesJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get bodyJson => $composableBuilder(
+    column: $table.bodyJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get leftColumnJson => $composableBuilder(
+    column: $table.leftColumnJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get rightColumnJson => $composableBuilder(
+    column: $table.rightColumnJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get layout => $composableBuilder(
+    column: $table.layout,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get optionsLayout => $composableBuilder(
+    column: $table.optionsLayout,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get responseType => $composableBuilder(
+    column: $table.responseType,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get optionsJson => $composableBuilder(
+    column: $table.optionsJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get answersJson => $composableBuilder(
+    column: $table.answersJson,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get modelParagraph => $composableBuilder(
+    column: $table.modelParagraph,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get testEnabled => $composableBuilder(
+    column: $table.testEnabled,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get enabled => $composableBuilder(
+    column: $table.enabled,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$GrammarQuestionModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $GrammarQuestionModelsTable> {
+  $$GrammarQuestionModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get type =>
+      $composableBuilder(column: $table.type, builder: (column) => column);
+
+  GeneratedColumn<String> get rubricJson => $composableBuilder(
+    column: $table.rubricJson,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get cluesJson =>
+      $composableBuilder(column: $table.cluesJson, builder: (column) => column);
+
+  GeneratedColumn<String> get bodyJson =>
+      $composableBuilder(column: $table.bodyJson, builder: (column) => column);
+
+  GeneratedColumn<String> get leftColumnJson => $composableBuilder(
+    column: $table.leftColumnJson,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get rightColumnJson => $composableBuilder(
+    column: $table.rightColumnJson,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get layout =>
+      $composableBuilder(column: $table.layout, builder: (column) => column);
+
+  GeneratedColumn<String> get optionsLayout => $composableBuilder(
+    column: $table.optionsLayout,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get responseType => $composableBuilder(
+    column: $table.responseType,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get optionsJson => $composableBuilder(
+    column: $table.optionsJson,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get answersJson => $composableBuilder(
+    column: $table.answersJson,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get modelParagraph => $composableBuilder(
+    column: $table.modelParagraph,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<bool> get testEnabled => $composableBuilder(
+    column: $table.testEnabled,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<bool> get enabled =>
+      $composableBuilder(column: $table.enabled, builder: (column) => column);
+
+  Expression<T> grammarQuestionMappingModelsRefs<T extends Object>(
+    Expression<T> Function(
+      $$GrammarQuestionMappingModelsTableAnnotationComposer a,
+    )
+    f,
+  ) {
+    final $$GrammarQuestionMappingModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarQuestionMappingModels,
+          getReferencedColumn: (t) => t.questionId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionMappingModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarQuestionMappingModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+
+  Expression<T> grammarUserResponseModelsRefs<T extends Object>(
+    Expression<T> Function($$GrammarUserResponseModelsTableAnnotationComposer a)
+    f,
+  ) {
+    final $$GrammarUserResponseModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.id,
+          referencedTable: $db.grammarUserResponseModels,
+          getReferencedColumn: (t) => t.questionId,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarUserResponseModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarUserResponseModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return f(composer);
+  }
+}
+
+class $$GrammarQuestionModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $GrammarQuestionModelsTable,
+          GrammarQuestionRow,
+          $$GrammarQuestionModelsTableFilterComposer,
+          $$GrammarQuestionModelsTableOrderingComposer,
+          $$GrammarQuestionModelsTableAnnotationComposer,
+          $$GrammarQuestionModelsTableCreateCompanionBuilder,
+          $$GrammarQuestionModelsTableUpdateCompanionBuilder,
+          (GrammarQuestionRow, $$GrammarQuestionModelsTableReferences),
+          GrammarQuestionRow,
+          PrefetchHooks Function({
+            bool grammarQuestionMappingModelsRefs,
+            bool grammarUserResponseModelsRefs,
+          })
+        > {
+  $$GrammarQuestionModelsTableTableManager(
+    _$AppDatabase db,
+    $GrammarQuestionModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$GrammarQuestionModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$GrammarQuestionModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$GrammarQuestionModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<String> type = const Value.absent(),
+                Value<String> rubricJson = const Value.absent(),
+                Value<String> cluesJson = const Value.absent(),
+                Value<String> bodyJson = const Value.absent(),
+                Value<String> leftColumnJson = const Value.absent(),
+                Value<String> rightColumnJson = const Value.absent(),
+                Value<String> layout = const Value.absent(),
+                Value<String> optionsLayout = const Value.absent(),
+                Value<String> responseType = const Value.absent(),
+                Value<String> optionsJson = const Value.absent(),
+                Value<String> answersJson = const Value.absent(),
+                Value<String> modelParagraph = const Value.absent(),
+                Value<bool> testEnabled = const Value.absent(),
+                Value<bool> enabled = const Value.absent(),
+              }) => GrammarQuestionModelsCompanion(
+                id: id,
+                type: type,
+                rubricJson: rubricJson,
+                cluesJson: cluesJson,
+                bodyJson: bodyJson,
+                leftColumnJson: leftColumnJson,
+                rightColumnJson: rightColumnJson,
+                layout: layout,
+                optionsLayout: optionsLayout,
+                responseType: responseType,
+                optionsJson: optionsJson,
+                answersJson: answersJson,
+                modelParagraph: modelParagraph,
+                testEnabled: testEnabled,
+                enabled: enabled,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required String type,
+                Value<String> rubricJson = const Value.absent(),
+                Value<String> cluesJson = const Value.absent(),
+                Value<String> bodyJson = const Value.absent(),
+                Value<String> leftColumnJson = const Value.absent(),
+                Value<String> rightColumnJson = const Value.absent(),
+                Value<String> layout = const Value.absent(),
+                Value<String> optionsLayout = const Value.absent(),
+                Value<String> responseType = const Value.absent(),
+                Value<String> optionsJson = const Value.absent(),
+                Value<String> answersJson = const Value.absent(),
+                Value<String> modelParagraph = const Value.absent(),
+                Value<bool> testEnabled = const Value.absent(),
+                Value<bool> enabled = const Value.absent(),
+              }) => GrammarQuestionModelsCompanion.insert(
+                id: id,
+                type: type,
+                rubricJson: rubricJson,
+                cluesJson: cluesJson,
+                bodyJson: bodyJson,
+                leftColumnJson: leftColumnJson,
+                rightColumnJson: rightColumnJson,
+                layout: layout,
+                optionsLayout: optionsLayout,
+                responseType: responseType,
+                optionsJson: optionsJson,
+                answersJson: answersJson,
+                modelParagraph: modelParagraph,
+                testEnabled: testEnabled,
+                enabled: enabled,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$GrammarQuestionModelsTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback:
+              ({
+                grammarQuestionMappingModelsRefs = false,
+                grammarUserResponseModelsRefs = false,
+              }) {
+                return PrefetchHooks(
+                  db: db,
+                  explicitlyWatchedTables: [
+                    if (grammarQuestionMappingModelsRefs)
+                      db.grammarQuestionMappingModels,
+                    if (grammarUserResponseModelsRefs)
+                      db.grammarUserResponseModels,
+                  ],
+                  addJoins: null,
+                  getPrefetchedDataCallback: (items) async {
+                    return [
+                      if (grammarQuestionMappingModelsRefs)
+                        await $_getPrefetchedData<
+                          GrammarQuestionRow,
+                          $GrammarQuestionModelsTable,
+                          GrammarQuestionMappingRow
+                        >(
+                          currentTable: table,
+                          referencedTable:
+                              $$GrammarQuestionModelsTableReferences
+                                  ._grammarQuestionMappingModelsRefsTable(db),
+                          managerFromTypedResult: (p0) =>
+                              $$GrammarQuestionModelsTableReferences(
+                                db,
+                                table,
+                                p0,
+                              ).grammarQuestionMappingModelsRefs,
+                          referencedItemsForCurrentItem:
+                              (item, referencedItems) => referencedItems.where(
+                                (e) => e.questionId == item.id,
+                              ),
+                          typedResults: items,
+                        ),
+                      if (grammarUserResponseModelsRefs)
+                        await $_getPrefetchedData<
+                          GrammarQuestionRow,
+                          $GrammarQuestionModelsTable,
+                          GrammarUserResponseRow
+                        >(
+                          currentTable: table,
+                          referencedTable:
+                              $$GrammarQuestionModelsTableReferences
+                                  ._grammarUserResponseModelsRefsTable(db),
+                          managerFromTypedResult: (p0) =>
+                              $$GrammarQuestionModelsTableReferences(
+                                db,
+                                table,
+                                p0,
+                              ).grammarUserResponseModelsRefs,
+                          referencedItemsForCurrentItem:
+                              (item, referencedItems) => referencedItems.where(
+                                (e) => e.questionId == item.id,
+                              ),
+                          typedResults: items,
+                        ),
+                    ];
+                  },
+                );
+              },
+        ),
+      );
+}
+
+typedef $$GrammarQuestionModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $GrammarQuestionModelsTable,
+      GrammarQuestionRow,
+      $$GrammarQuestionModelsTableFilterComposer,
+      $$GrammarQuestionModelsTableOrderingComposer,
+      $$GrammarQuestionModelsTableAnnotationComposer,
+      $$GrammarQuestionModelsTableCreateCompanionBuilder,
+      $$GrammarQuestionModelsTableUpdateCompanionBuilder,
+      (GrammarQuestionRow, $$GrammarQuestionModelsTableReferences),
+      GrammarQuestionRow,
+      PrefetchHooks Function({
+        bool grammarQuestionMappingModelsRefs,
+        bool grammarUserResponseModelsRefs,
+      })
+    >;
+typedef $$GrammarQuestionMappingModelsTableCreateCompanionBuilder =
+    GrammarQuestionMappingModelsCompanion Function({
+      Value<int> id,
+      required int topicId,
+      required int questionId,
+    });
+typedef $$GrammarQuestionMappingModelsTableUpdateCompanionBuilder =
+    GrammarQuestionMappingModelsCompanion Function({
+      Value<int> id,
+      Value<int> topicId,
+      Value<int> questionId,
+    });
+
+final class $$GrammarQuestionMappingModelsTableReferences
+    extends
+        BaseReferences<
+          _$AppDatabase,
+          $GrammarQuestionMappingModelsTable,
+          GrammarQuestionMappingRow
+        > {
+  $$GrammarQuestionMappingModelsTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static $GrammarTopicModelsTable _topicIdTable(_$AppDatabase db) =>
+      db.grammarTopicModels.createAlias(
+        'grammar_question_mapping_models__topic_id__grammar_topic_models__id',
+      );
+
+  $$GrammarTopicModelsTableProcessedTableManager get topicId {
+    final $_column = $_itemColumn<int>('topic_id')!;
+
+    final manager = $$GrammarTopicModelsTableTableManager(
+      $_db,
+      $_db.grammarTopicModels,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_topicIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+
+  static $GrammarQuestionModelsTable _questionIdTable(
+    _$AppDatabase db,
+  ) => db.grammarQuestionModels.createAlias(
+    'grammar_question_mapping_models__question_id__grammar_question_models__id',
+  );
+
+  $$GrammarQuestionModelsTableProcessedTableManager get questionId {
+    final $_column = $_itemColumn<int>('question_id')!;
+
+    final manager = $$GrammarQuestionModelsTableTableManager(
+      $_db,
+      $_db.grammarQuestionModels,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_questionIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+}
+
+class $$GrammarQuestionMappingModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $GrammarQuestionMappingModelsTable> {
+  $$GrammarQuestionMappingModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$GrammarTopicModelsTableFilterComposer get topicId {
+    final $$GrammarTopicModelsTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.topicId,
+      referencedTable: $db.grammarTopicModels,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$GrammarTopicModelsTableFilterComposer(
+            $db: $db,
+            $table: $db.grammarTopicModels,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+
+  $$GrammarQuestionModelsTableFilterComposer get questionId {
+    final $$GrammarQuestionModelsTableFilterComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.questionId,
+          referencedTable: $db.grammarQuestionModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionModelsTableFilterComposer(
+                $db: $db,
+                $table: $db.grammarQuestionModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+}
+
+class $$GrammarQuestionMappingModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $GrammarQuestionMappingModelsTable> {
+  $$GrammarQuestionMappingModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$GrammarTopicModelsTableOrderingComposer get topicId {
+    final $$GrammarTopicModelsTableOrderingComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.topicId,
+      referencedTable: $db.grammarTopicModels,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$GrammarTopicModelsTableOrderingComposer(
+            $db: $db,
+            $table: $db.grammarTopicModels,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+
+  $$GrammarQuestionModelsTableOrderingComposer get questionId {
+    final $$GrammarQuestionModelsTableOrderingComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.questionId,
+          referencedTable: $db.grammarQuestionModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionModelsTableOrderingComposer(
+                $db: $db,
+                $table: $db.grammarQuestionModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+}
+
+class $$GrammarQuestionMappingModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $GrammarQuestionMappingModelsTable> {
+  $$GrammarQuestionMappingModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  $$GrammarTopicModelsTableAnnotationComposer get topicId {
+    final $$GrammarTopicModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.topicId,
+          referencedTable: $db.grammarTopicModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarTopicModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarTopicModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+
+  $$GrammarQuestionModelsTableAnnotationComposer get questionId {
+    final $$GrammarQuestionModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.questionId,
+          referencedTable: $db.grammarQuestionModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarQuestionModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+}
+
+class $$GrammarQuestionMappingModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $GrammarQuestionMappingModelsTable,
+          GrammarQuestionMappingRow,
+          $$GrammarQuestionMappingModelsTableFilterComposer,
+          $$GrammarQuestionMappingModelsTableOrderingComposer,
+          $$GrammarQuestionMappingModelsTableAnnotationComposer,
+          $$GrammarQuestionMappingModelsTableCreateCompanionBuilder,
+          $$GrammarQuestionMappingModelsTableUpdateCompanionBuilder,
+          (
+            GrammarQuestionMappingRow,
+            $$GrammarQuestionMappingModelsTableReferences,
+          ),
+          GrammarQuestionMappingRow,
+          PrefetchHooks Function({bool topicId, bool questionId})
+        > {
+  $$GrammarQuestionMappingModelsTableTableManager(
+    _$AppDatabase db,
+    $GrammarQuestionMappingModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$GrammarQuestionMappingModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$GrammarQuestionMappingModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$GrammarQuestionMappingModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<int> topicId = const Value.absent(),
+                Value<int> questionId = const Value.absent(),
+              }) => GrammarQuestionMappingModelsCompanion(
+                id: id,
+                topicId: topicId,
+                questionId: questionId,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required int topicId,
+                required int questionId,
+              }) => GrammarQuestionMappingModelsCompanion.insert(
+                id: id,
+                topicId: topicId,
+                questionId: questionId,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$GrammarQuestionMappingModelsTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({topicId = false, questionId = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [],
+              addJoins:
+                  <
+                    T extends TableManagerState<
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic
+                    >
+                  >(state) {
+                    if (topicId) {
+                      state =
+                          state.withJoin(
+                                currentTable: table,
+                                currentColumn: table.topicId,
+                                referencedTable:
+                                    $$GrammarQuestionMappingModelsTableReferences
+                                        ._topicIdTable(db),
+                                referencedColumn:
+                                    $$GrammarQuestionMappingModelsTableReferences
+                                        ._topicIdTable(db)
+                                        .id,
+                              )
+                              as T;
+                    }
+                    if (questionId) {
+                      state =
+                          state.withJoin(
+                                currentTable: table,
+                                currentColumn: table.questionId,
+                                referencedTable:
+                                    $$GrammarQuestionMappingModelsTableReferences
+                                        ._questionIdTable(db),
+                                referencedColumn:
+                                    $$GrammarQuestionMappingModelsTableReferences
+                                        ._questionIdTable(db)
+                                        .id,
+                              )
+                              as T;
+                    }
+
+                    return state;
+                  },
+              getPrefetchedDataCallback: (items) async {
+                return [];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$GrammarQuestionMappingModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $GrammarQuestionMappingModelsTable,
+      GrammarQuestionMappingRow,
+      $$GrammarQuestionMappingModelsTableFilterComposer,
+      $$GrammarQuestionMappingModelsTableOrderingComposer,
+      $$GrammarQuestionMappingModelsTableAnnotationComposer,
+      $$GrammarQuestionMappingModelsTableCreateCompanionBuilder,
+      $$GrammarQuestionMappingModelsTableUpdateCompanionBuilder,
+      (
+        GrammarQuestionMappingRow,
+        $$GrammarQuestionMappingModelsTableReferences,
+      ),
+      GrammarQuestionMappingRow,
+      PrefetchHooks Function({bool topicId, bool questionId})
+    >;
+typedef $$GrammarUserResponseModelsTableCreateCompanionBuilder =
+    GrammarUserResponseModelsCompanion Function({
+      Value<int> questionId,
+      required int topicId,
+      required String responseData,
+      required bool isCorrect,
+      required int updatedAt,
+    });
+typedef $$GrammarUserResponseModelsTableUpdateCompanionBuilder =
+    GrammarUserResponseModelsCompanion Function({
+      Value<int> questionId,
+      Value<int> topicId,
+      Value<String> responseData,
+      Value<bool> isCorrect,
+      Value<int> updatedAt,
+    });
+
+final class $$GrammarUserResponseModelsTableReferences
+    extends
+        BaseReferences<
+          _$AppDatabase,
+          $GrammarUserResponseModelsTable,
+          GrammarUserResponseRow
+        > {
+  $$GrammarUserResponseModelsTableReferences(
+    super.$_db,
+    super.$_table,
+    super.$_typedResult,
+  );
+
+  static $GrammarQuestionModelsTable _questionIdTable(
+    _$AppDatabase db,
+  ) => db.grammarQuestionModels.createAlias(
+    'grammar_user_response_models__question_id__grammar_question_models__id',
+  );
+
+  $$GrammarQuestionModelsTableProcessedTableManager get questionId {
+    final $_column = $_itemColumn<int>('question_id')!;
+
+    final manager = $$GrammarQuestionModelsTableTableManager(
+      $_db,
+      $_db.grammarQuestionModels,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_questionIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+
+  static $GrammarTopicModelsTable _topicIdTable(_$AppDatabase db) =>
+      db.grammarTopicModels.createAlias(
+        'grammar_user_response_models__topic_id__grammar_topic_models__id',
+      );
+
+  $$GrammarTopicModelsTableProcessedTableManager get topicId {
+    final $_column = $_itemColumn<int>('topic_id')!;
+
+    final manager = $$GrammarTopicModelsTableTableManager(
+      $_db,
+      $_db.grammarTopicModels,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_topicIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+}
+
+class $$GrammarUserResponseModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $GrammarUserResponseModelsTable> {
+  $$GrammarUserResponseModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<String> get responseData => $composableBuilder(
+    column: $table.responseData,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<bool> get isCorrect => $composableBuilder(
+    column: $table.isCorrect,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$GrammarQuestionModelsTableFilterComposer get questionId {
+    final $$GrammarQuestionModelsTableFilterComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.questionId,
+          referencedTable: $db.grammarQuestionModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionModelsTableFilterComposer(
+                $db: $db,
+                $table: $db.grammarQuestionModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+
+  $$GrammarTopicModelsTableFilterComposer get topicId {
+    final $$GrammarTopicModelsTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.topicId,
+      referencedTable: $db.grammarTopicModels,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$GrammarTopicModelsTableFilterComposer(
+            $db: $db,
+            $table: $db.grammarTopicModels,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$GrammarUserResponseModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $GrammarUserResponseModelsTable> {
+  $$GrammarUserResponseModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<String> get responseData => $composableBuilder(
+    column: $table.responseData,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<bool> get isCorrect => $composableBuilder(
+    column: $table.isCorrect,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get updatedAt => $composableBuilder(
+    column: $table.updatedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$GrammarQuestionModelsTableOrderingComposer get questionId {
+    final $$GrammarQuestionModelsTableOrderingComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.questionId,
+          referencedTable: $db.grammarQuestionModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionModelsTableOrderingComposer(
+                $db: $db,
+                $table: $db.grammarQuestionModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+
+  $$GrammarTopicModelsTableOrderingComposer get topicId {
+    final $$GrammarTopicModelsTableOrderingComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.topicId,
+      referencedTable: $db.grammarTopicModels,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$GrammarTopicModelsTableOrderingComposer(
+            $db: $db,
+            $table: $db.grammarTopicModels,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$GrammarUserResponseModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $GrammarUserResponseModelsTable> {
+  $$GrammarUserResponseModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<String> get responseData => $composableBuilder(
+    column: $table.responseData,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<bool> get isCorrect =>
+      $composableBuilder(column: $table.isCorrect, builder: (column) => column);
+
+  GeneratedColumn<int> get updatedAt =>
+      $composableBuilder(column: $table.updatedAt, builder: (column) => column);
+
+  $$GrammarQuestionModelsTableAnnotationComposer get questionId {
+    final $$GrammarQuestionModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.questionId,
+          referencedTable: $db.grammarQuestionModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarQuestionModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarQuestionModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+
+  $$GrammarTopicModelsTableAnnotationComposer get topicId {
+    final $$GrammarTopicModelsTableAnnotationComposer composer =
+        $composerBuilder(
+          composer: this,
+          getCurrentColumn: (t) => t.topicId,
+          referencedTable: $db.grammarTopicModels,
+          getReferencedColumn: (t) => t.id,
+          builder:
+              (
+                joinBuilder, {
+                $addJoinBuilderToRootComposer,
+                $removeJoinBuilderFromRootComposer,
+              }) => $$GrammarTopicModelsTableAnnotationComposer(
+                $db: $db,
+                $table: $db.grammarTopicModels,
+                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+                joinBuilder: joinBuilder,
+                $removeJoinBuilderFromRootComposer:
+                    $removeJoinBuilderFromRootComposer,
+              ),
+        );
+    return composer;
+  }
+}
+
+class $$GrammarUserResponseModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $GrammarUserResponseModelsTable,
+          GrammarUserResponseRow,
+          $$GrammarUserResponseModelsTableFilterComposer,
+          $$GrammarUserResponseModelsTableOrderingComposer,
+          $$GrammarUserResponseModelsTableAnnotationComposer,
+          $$GrammarUserResponseModelsTableCreateCompanionBuilder,
+          $$GrammarUserResponseModelsTableUpdateCompanionBuilder,
+          (GrammarUserResponseRow, $$GrammarUserResponseModelsTableReferences),
+          GrammarUserResponseRow,
+          PrefetchHooks Function({bool questionId, bool topicId})
+        > {
+  $$GrammarUserResponseModelsTableTableManager(
+    _$AppDatabase db,
+    $GrammarUserResponseModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$GrammarUserResponseModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$GrammarUserResponseModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$GrammarUserResponseModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> questionId = const Value.absent(),
+                Value<int> topicId = const Value.absent(),
+                Value<String> responseData = const Value.absent(),
+                Value<bool> isCorrect = const Value.absent(),
+                Value<int> updatedAt = const Value.absent(),
+              }) => GrammarUserResponseModelsCompanion(
+                questionId: questionId,
+                topicId: topicId,
+                responseData: responseData,
+                isCorrect: isCorrect,
+                updatedAt: updatedAt,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> questionId = const Value.absent(),
+                required int topicId,
+                required String responseData,
+                required bool isCorrect,
+                required int updatedAt,
+              }) => GrammarUserResponseModelsCompanion.insert(
+                questionId: questionId,
+                topicId: topicId,
+                responseData: responseData,
+                isCorrect: isCorrect,
+                updatedAt: updatedAt,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$GrammarUserResponseModelsTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({questionId = false, topicId = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [],
+              addJoins:
+                  <
+                    T extends TableManagerState<
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic
+                    >
+                  >(state) {
+                    if (questionId) {
+                      state =
+                          state.withJoin(
+                                currentTable: table,
+                                currentColumn: table.questionId,
+                                referencedTable:
+                                    $$GrammarUserResponseModelsTableReferences
+                                        ._questionIdTable(db),
+                                referencedColumn:
+                                    $$GrammarUserResponseModelsTableReferences
+                                        ._questionIdTable(db)
+                                        .id,
+                              )
+                              as T;
+                    }
+                    if (topicId) {
+                      state =
+                          state.withJoin(
+                                currentTable: table,
+                                currentColumn: table.topicId,
+                                referencedTable:
+                                    $$GrammarUserResponseModelsTableReferences
+                                        ._topicIdTable(db),
+                                referencedColumn:
+                                    $$GrammarUserResponseModelsTableReferences
+                                        ._topicIdTable(db)
+                                        .id,
+                              )
+                              as T;
+                    }
+
+                    return state;
+                  },
+              getPrefetchedDataCallback: (items) async {
+                return [];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$GrammarUserResponseModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $GrammarUserResponseModelsTable,
+      GrammarUserResponseRow,
+      $$GrammarUserResponseModelsTableFilterComposer,
+      $$GrammarUserResponseModelsTableOrderingComposer,
+      $$GrammarUserResponseModelsTableAnnotationComposer,
+      $$GrammarUserResponseModelsTableCreateCompanionBuilder,
+      $$GrammarUserResponseModelsTableUpdateCompanionBuilder,
+      (GrammarUserResponseRow, $$GrammarUserResponseModelsTableReferences),
+      GrammarUserResponseRow,
+      PrefetchHooks Function({bool questionId, bool topicId})
+    >;
 
 class $AppDatabaseManager {
   final _$AppDatabase _db;
@@ -13354,4 +18717,21 @@ class $AppDatabaseManager {
       );
   $$ListeningPracticeDaysTableTableManager get listeningPracticeDays =>
       $$ListeningPracticeDaysTableTableManager(_db, _db.listeningPracticeDays);
+  $$GrammarPackModelsTableTableManager get grammarPackModels =>
+      $$GrammarPackModelsTableTableManager(_db, _db.grammarPackModels);
+  $$GrammarTopicModelsTableTableManager get grammarTopicModels =>
+      $$GrammarTopicModelsTableTableManager(_db, _db.grammarTopicModels);
+  $$GrammarQuestionModelsTableTableManager get grammarQuestionModels =>
+      $$GrammarQuestionModelsTableTableManager(_db, _db.grammarQuestionModels);
+  $$GrammarQuestionMappingModelsTableTableManager
+  get grammarQuestionMappingModels =>
+      $$GrammarQuestionMappingModelsTableTableManager(
+        _db,
+        _db.grammarQuestionMappingModels,
+      );
+  $$GrammarUserResponseModelsTableTableManager get grammarUserResponseModels =>
+      $$GrammarUserResponseModelsTableTableManager(
+        _db,
+        _db.grammarUserResponseModels,
+      );
 }

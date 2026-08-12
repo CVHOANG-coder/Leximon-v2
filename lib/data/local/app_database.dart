@@ -426,8 +426,7 @@ class ListeningChallengeProgressModels extends Table {
 
   IntColumn get position => integer()();
 
-  BoolColumn get isCompleted =>
-      boolean().withDefault(const Constant(false))();
+  BoolColumn get isCompleted => boolean().withDefault(const Constant(false))();
 
   BoolColumn get isSkipped => boolean().withDefault(const Constant(false))();
 
@@ -456,6 +455,126 @@ class ListeningPracticeDays extends Table {
   Set<Column<Object>> get primaryKey => {date};
 }
 
+@DataClassName('GrammarPackRow')
+@TableIndex(name: 'grammar_pack_guid', columns: {#guid}, unique: true)
+class GrammarPackModels extends Table {
+  IntColumn get id => integer().autoIncrement()();
+
+  TextColumn get guid => text()();
+
+  TextColumn get title => text()();
+
+  TextColumn get description => text().withDefault(const Constant(''))();
+
+  TextColumn get level => text()();
+
+  TextColumn get iconAsset => text()();
+
+  IntColumn get progress => integer().withDefault(const Constant(0))();
+
+  IntColumn get testProgress => integer().withDefault(const Constant(0))();
+
+  BoolColumn get enabled => boolean().withDefault(const Constant(true))();
+
+  BoolColumn get active => boolean().withDefault(const Constant(true))();
+
+  IntColumn get sortOrder => integer()();
+}
+
+@DataClassName('GrammarTopicRow')
+@TableIndex(
+  name: 'grammar_topic_pack_order',
+  columns: {#packId, #sortOrder},
+  unique: true,
+)
+class GrammarTopicModels extends Table {
+  IntColumn get id => integer().autoIncrement()();
+
+  IntColumn get packId => integer().references(GrammarPackModels, #id)();
+
+  TextColumn get title => text()();
+
+  TextColumn get description => text().withDefault(const Constant(''))();
+
+  TextColumn get instructionsJson => text().withDefault(const Constant('[]'))();
+
+  IntColumn get progress => integer().withDefault(const Constant(0))();
+
+  BoolColumn get isComplete => boolean().withDefault(const Constant(false))();
+
+  IntColumn get timeTaken => integer().withDefault(const Constant(0))();
+
+  BoolColumn get enabled => boolean().withDefault(const Constant(true))();
+
+  IntColumn get sortOrder => integer()();
+}
+
+@DataClassName('GrammarQuestionRow')
+class GrammarQuestionModels extends Table {
+  IntColumn get id => integer().autoIncrement()();
+
+  TextColumn get type => text()();
+
+  TextColumn get rubricJson => text().withDefault(const Constant('[]'))();
+
+  TextColumn get cluesJson => text().withDefault(const Constant('[]'))();
+
+  TextColumn get bodyJson => text().withDefault(const Constant('[]'))();
+
+  TextColumn get leftColumnJson => text().withDefault(const Constant('[]'))();
+
+  TextColumn get rightColumnJson => text().withDefault(const Constant('[]'))();
+
+  TextColumn get layout => text().withDefault(const Constant(''))();
+
+  TextColumn get optionsLayout => text().withDefault(const Constant(''))();
+
+  TextColumn get responseType => text().withDefault(const Constant(''))();
+
+  TextColumn get optionsJson => text().withDefault(const Constant('[]'))();
+
+  TextColumn get answersJson => text().withDefault(const Constant('[]'))();
+
+  TextColumn get modelParagraph => text().withDefault(const Constant(''))();
+
+  BoolColumn get testEnabled => boolean().withDefault(const Constant(false))();
+
+  BoolColumn get enabled => boolean().withDefault(const Constant(true))();
+}
+
+@DataClassName('GrammarQuestionMappingRow')
+@TableIndex(
+  name: 'grammar_question_mapping_topic_question',
+  columns: {#topicId, #questionId},
+  unique: true,
+)
+class GrammarQuestionMappingModels extends Table {
+  IntColumn get id => integer().autoIncrement()();
+
+  IntColumn get topicId => integer().references(GrammarTopicModels, #id)();
+
+  IntColumn get questionId =>
+      integer().references(GrammarQuestionModels, #id)();
+}
+
+@DataClassName('GrammarUserResponseRow')
+@TableIndex(name: 'grammar_response_topic', columns: {#topicId})
+class GrammarUserResponseModels extends Table {
+  IntColumn get questionId =>
+      integer().references(GrammarQuestionModels, #id)();
+
+  IntColumn get topicId => integer().references(GrammarTopicModels, #id)();
+
+  TextColumn get responseData => text()();
+
+  BoolColumn get isCorrect => boolean()();
+
+  IntColumn get updatedAt => integer()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {questionId};
+}
+
 @DriftDatabase(
   tables: [
     TopicModels,
@@ -476,6 +595,11 @@ class ListeningPracticeDays extends Table {
     ListeningLessonProgressModels,
     ListeningChallengeProgressModels,
     ListeningPracticeDays,
+    GrammarPackModels,
+    GrammarTopicModels,
+    GrammarQuestionModels,
+    GrammarQuestionMappingModels,
+    GrammarUserResponseModels,
   ],
 )
 class AppDatabase extends _$AppDatabase {
@@ -487,7 +611,7 @@ class AppDatabase extends _$AppDatabase {
       'bundled_topics_$languageCode';
 
   @override
-  int get schemaVersion => 7;
+  int get schemaVersion => 8;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -523,6 +647,13 @@ class AppDatabase extends _$AppDatabase {
         await m.createTable(listeningLessonProgressModels);
         await m.createTable(listeningChallengeProgressModels);
         await m.createTable(listeningPracticeDays);
+      }
+      if (from < 8) {
+        await m.createTable(grammarPackModels);
+        await m.createTable(grammarTopicModels);
+        await m.createTable(grammarQuestionModels);
+        await m.createTable(grammarQuestionMappingModels);
+        await m.createTable(grammarUserResponseModels);
       }
     },
   );

@@ -18,6 +18,8 @@ class ListeningExercise {
   final String? youtubeVideoId;
 
   bool get isYoutubeLesson => youtubeVideoId?.isNotEmpty == true;
+  bool get isSelectionLesson =>
+      challenges.isNotEmpty && challenges.every((item) => item.isSelection);
 }
 
 class ListeningChallenge {
@@ -30,6 +32,8 @@ class ListeningChallenge {
     required this.audioUrl,
     this.timeStart,
     this.timeEnd,
+    this.selectionOptions = const [],
+    this.correctSelectionIndex,
   });
 
   final int id;
@@ -40,4 +44,21 @@ class ListeningChallenge {
   final String audioUrl;
   final double? timeStart;
   final double? timeEnd;
+  final List<ListeningSelectionOption> selectionOptions;
+  final int? correctSelectionIndex;
+
+  bool get isSelection =>
+      selectionOptions.isNotEmpty && correctSelectionIndex != null;
+}
+
+class ListeningSelectionOption {
+  const ListeningSelectionOption({
+    required this.text,
+    required this.phonetic,
+    required this.audioUrl,
+  });
+
+  final String text;
+  final String phonetic;
+  final String audioUrl;
 }

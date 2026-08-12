@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:just_audio/just_audio.dart';
+import 'package:just_audio/just_audio.dart' hide PlayerState;
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../../../core/constants/app_colors.dart';
@@ -110,6 +110,8 @@ class _ListeningExerciseScreenState
   YoutubePlayerController? _youtubeController;
   Future<YoutubeVideoInfo>? _youtubeVideoDataFuture;
   StreamSubscription<bool>? _playingSubscription;
+  StreamSubscription<YoutubePlayerValue>? _youtubeValueSubscription;
+  StreamSubscription<YoutubeVideoState>? _youtubeVideoStateSubscription;
   Timer? _activeTimer;
   DateTime _lastActiveCheckpoint = DateTime.now();
   Duration _savedActiveTime = Duration.zero;
@@ -118,7 +120,14 @@ class _ListeningExerciseScreenState
   bool _isPlaying = false;
   bool _isSessionActive = true;
   bool _hasScheduledInitialAudio = false;
+  bool _hasScheduledInitialVideo = false;
+  bool _isInstallingYoutubeCornerStyle = false;
+  bool _hasInstalledYoutubeCornerStyle = false;
+  bool _isYoutubeFullscreen = false;
+  bool _isHoldingYoutubeAtSegmentEnd = false;
+  double? _youtubeSegmentEndSeconds;
   bool _showFullHint = false;
+  int? _selectedIpaOptionIndex;
   _AnswerState _answerState = _AnswerState.idle;
   ListeningAnswerResult? _answerResult;
 
@@ -150,6 +159,8 @@ class _ListeningExerciseScreenState
     WidgetsBinding.instance.removeObserver(this);
     _activeTimer?.cancel();
     _playingSubscription?.cancel();
+    _youtubeValueSubscription?.cancel();
+    _youtubeVideoStateSubscription?.cancel();
     unawaited(_checkpointActiveTime());
     unawaited(_audioController.dispose());
     unawaited(_youtubeController?.close());
@@ -207,6 +218,26 @@ class _ListeningExerciseScreenState
         ),
       );
       _youtubeController = controller;
+      _youtubeValueSubscription = controller.stream.listen((value) {
+        final isFullscreen = value.fullScreenOption.enabled;
+        if (_isYoutubeFullscreen != isFullscreen) {
+          _isYoutubeFullscreen = isFullscreen;
+          unawaited(_setYoutubePlayerRadius(isFullscreen ? 0 : 18));
+        }
+        if (value.playerState == PlayerState.ended) {
+          unawaited(_holdYoutubeAtSegmentEnd());
+        }
+      });
+      _youtubeVideoStateSubscription = controller.videoStateStream.listen((
+        state,
+      ) {
+        final endSeconds = _youtubeSegmentEndSeconds;
+        if (endSeconds == null || _isHoldingYoutubeAtSegmentEnd) return;
+        final positionSeconds = state.position.inMilliseconds / 1000;
+        if (positionSeconds >= endSeconds - .08) {
+          unawaited(_holdYoutubeAtSegmentEnd());
+        }
+      });
       _youtubeVideoDataFuture = const YoutubeVideoInfoService().load(
         youtubeVideoId,
       );
@@ -313,6 +344,9 @@ class _ListeningExerciseScreenState
                     return _buildYoutubeExercise(context, exercise);
                   }
                   _scheduleInitialAudio(exercise);
+                  if (exercise.isSelectionLesson) {
+                    return _buildIpaExercise(context, exercise);
+                  }
                   return _buildExercise(context, exercise);
                 },
               ),
@@ -411,6 +445,53 @@ class _ListeningExerciseScreenState
     );
   }
 
+  Widget _buildIpaExercise(BuildContext context, ListeningExercise exercise) {
+    final challenge = exercise.challenges[_currentIndex];
+    return LayoutBuilder(
+      builder: (context, constraints) => SingleChildScrollView(
+        padding: const EdgeInsets.fromLTRB(14, 10, 14, 24),
+        child: ConstrainedBox(
+          constraints: BoxConstraints(minHeight: constraints.maxHeight - 34),
+          child: Column(
+            children: [
+              _ExerciseHeader(
+                eyebrow: 'IPA PRACTICE',
+                lessonName: exercise.name,
+                activeTime: _visibleActiveTime,
+                onBack: () => Navigator.of(context).maybePop(),
+                onClose: () => Navigator.of(context).maybePop(),
+                onMore: _showOptions,
+              ),
+              const SizedBox(height: 22),
+              _IpaPager(
+                current: _currentIndex + 1,
+                total: exercise.challenges.length,
+                onPrevious: _currentIndex == 0
+                    ? null
+                    : () => _moveTo(exercise, _currentIndex - 1),
+                onNext: _currentIndex == exercise.challenges.length - 1
+                    ? null
+                    : () => _moveTo(exercise, _currentIndex + 1),
+              ),
+              const SizedBox(height: 14),
+              _IpaExerciseCard(
+                challenge: challenge,
+                selectedIndex: _selectedIpaOptionIndex,
+                state: _answerState,
+                onPromptAudio: () => _playAudio(challenge, restart: true),
+                onOptionAudio: (index) =>
+                    _playIpaOption(challenge.selectionOptions[index]),
+                onOptionSelected: (index) => _selectIpaOption(challenge, index),
+                onCheck: () => _checkIpaOption(exercise, challenge),
+                onNext: () => _nextAfterResolved(exercise),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+
   Widget _buildYoutubeExercise(
     BuildContext context,
     ListeningExercise exercise,
@@ -419,6 +500,8 @@ class _ListeningExerciseScreenState
     if (youtubeController == null) {
       return _ExerciseLoadError(onBack: () => Navigator.of(context).maybePop());
     }
+    _scheduleYoutubeCornerStyle();
+    _scheduleInitialVideo(exercise);
     final challenge = exercise.challenges[_currentIndex];
     final isResolved =
         _answerState == _AnswerState.correct ||
@@ -440,7 +523,6 @@ class _ListeningExerciseScreenState
                 onClose: () => Navigator.of(context).maybePop(),
                 onMore: _showOptions,
               ),
-              const SizedBox(height: 18),
               Container(
                 width: double.infinity,
                 padding: const EdgeInsets.fromLTRB(16, 16, 16, 18),
@@ -465,14 +547,18 @@ class _ListeningExerciseScreenState
                       fallbackTitle: exercise.name,
                       levelName: exercise.levelName,
                     ),
-                    const SizedBox(height: 14),
-                    ClipRRect(
-                      borderRadius: BorderRadius.circular(18),
+                    const SizedBox(height: 8),
+                    Container(
+                      clipBehavior: Clip.hardEdge,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(18),
+                      ),
                       child: YoutubePlayer(
                         key: const ValueKey('listening-youtube-player'),
                         controller: youtubeController,
                         aspectRatio: 16 / 9,
-                        backgroundColor: const Color(0xFF071A3D),
+                        backgroundColor: Colors.white,
                         keepAlive: true,
                       ),
                     ),
@@ -537,6 +623,171 @@ class _ListeningExerciseScreenState
     );
   }
 
+  void _scheduleYoutubeCornerStyle() {
+    if (_hasInstalledYoutubeCornerStyle || _isInstallingYoutubeCornerStyle) {
+      return;
+    }
+    _isInstallingYoutubeCornerStyle = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) {
+        _isInstallingYoutubeCornerStyle = false;
+        return;
+      }
+      unawaited(_installYoutubeCornerStyle());
+    });
+  }
+
+  Future<void> _installYoutubeCornerStyle() async {
+    const script = r'''
+      (() => {
+        const container = document.querySelector('.embed-container');
+        const iframe = document.querySelector('.embed-container iframe');
+        if (!container || !iframe || !document.head) return false;
+
+        let style = document.getElementById('leximon-youtube-corners');
+        if (!style) {
+          style = document.createElement('style');
+          style.id = 'leximon-youtube-corners';
+          style.textContent = `
+            :root { --leximon-youtube-radius: 18px; }
+            html, body {
+              background: #ffffff !important;
+              overflow: hidden !important;
+            }
+            .embed-container {
+              position: relative !important;
+              width: 100% !important;
+              height: 100% !important;
+              background: #ffffff !important;
+              border-radius: var(--leximon-youtube-radius) !important;
+              overflow: hidden !important;
+            }
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container embed {
+              border: 0 !important;
+              outline: 0 !important;
+              border-radius: var(--leximon-youtube-radius) !important;
+              clip-path: inset(0 round var(--leximon-youtube-radius)) !important;
+              overflow: hidden !important;
+            }
+          `;
+          document.head.appendChild(style);
+        }
+        return true;
+      })();
+    ''';
+
+    final controller = _youtubeController;
+    if (controller == null) {
+      _isInstallingYoutubeCornerStyle = false;
+      return;
+    }
+
+    for (var attempt = 0; attempt < 12 && mounted; attempt++) {
+      if (attempt > 0) {
+        await Future<void>.delayed(const Duration(milliseconds: 150));
+      }
+      try {
+        final result = await controller.webViewController
+            .runJavaScriptReturningResult(script);
+        final didInstall =
+            result == true ||
+            result.toString() == 'true' ||
+            result.toString() == '1';
+        if (didInstall) {
+          _hasInstalledYoutubeCornerStyle = true;
+          await _setYoutubePlayerRadius(_isYoutubeFullscreen ? 0 : 18);
+          break;
+        }
+      } catch (_) {
+        // The WebView can still be loading its initial HTML on early attempts.
+      }
+    }
+    _isInstallingYoutubeCornerStyle = false;
+  }
+
+  Future<void> _setYoutubePlayerRadius(double radius) async {
+    final controller = _youtubeController;
+    if (controller == null || !_hasInstalledYoutubeCornerStyle) return;
+    try {
+      await controller.webViewController.runJavaScript(
+        "document.documentElement.style.setProperty("
+        "'--leximon-youtube-radius', '${radius}px');",
+      );
+    } catch (_) {
+      // Ignore updates while the WebView is being rebuilt for fullscreen.
+    }
+  }
+
+  void _scheduleInitialVideo(ListeningExercise exercise) {
+    if (_hasScheduledInitialVideo) return;
+    _hasScheduledInitialVideo = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      unawaited(_playInitialYoutubeSegment(exercise));
+    });
+  }
+
+  Future<void> _playInitialYoutubeSegment(ListeningExercise exercise) async {
+    final controller = _youtubeController;
+    final videoId = exercise.youtubeVideoId;
+    final initialIndex = _currentIndex;
+    if (controller == null || videoId?.isNotEmpty != true) return;
+    final challenge = exercise.challenges[initialIndex];
+
+    _youtubeSegmentEndSeconds = challenge.timeEnd;
+    _isHoldingYoutubeAtSegmentEnd = false;
+
+    try {
+      final currentState = controller.value.playerState;
+      final playerCued =
+          currentState == PlayerState.cued ||
+              currentState == PlayerState.playing
+          ? Future<YoutubePlayerValue>.value(controller.value)
+          : controller.stream.firstWhere(
+              (value) =>
+                  value.playerState == PlayerState.cued ||
+                  value.playerState == PlayerState.playing,
+            );
+      await controller.cueVideoById(
+        videoId: videoId!,
+        startSeconds: challenge.timeStart,
+        endSeconds: challenge.timeEnd,
+      );
+      await playerCued.timeout(const Duration(seconds: 15));
+      if (!mounted || _currentIndex != initialIndex) return;
+      await controller.setPlaybackRate(_playbackSpeed);
+      await controller.playVideo();
+    } on TimeoutException {
+      if (!mounted || _currentIndex != initialIndex) return;
+      await _playChallenge(exercise, challenge);
+    } catch (_) {
+      // Leave the player ready for the explicit "Nghe lại" action.
+    }
+  }
+
+  Future<void> _holdYoutubeAtSegmentEnd() async {
+    final controller = _youtubeController;
+    final endSeconds = _youtubeSegmentEndSeconds;
+    if (controller == null ||
+        endSeconds == null ||
+        _isHoldingYoutubeAtSegmentEnd) {
+      return;
+    }
+    _isHoldingYoutubeAtSegmentEnd = true;
+    _youtubeSegmentEndSeconds = null;
+    try {
+      await controller.pauseVideo();
+      await controller.seekTo(seconds: endSeconds, allowSeekAhead: false);
+      await controller.pauseVideo();
+    } catch (_) {
+      // Keep the exercise usable if the player is disposed during navigation.
+    } finally {
+      _isHoldingYoutubeAtSegmentEnd = false;
+    }
+  }
+
   Future<void> _toggleAudio(ListeningChallenge challenge) async {
     if (_isPlaying) {
       await _audioController.pause();
@@ -565,6 +816,23 @@ class _ListeningExerciseScreenState
     }
   }
 
+  Future<void> _playIpaOption(ListeningSelectionOption option) async {
+    try {
+      await _audioController.playUrl(
+        option.audioUrl,
+        speed: _playbackSpeed,
+        restart: true,
+      );
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context)
+        ..hideCurrentSnackBar()
+        ..showSnackBar(
+          const SnackBar(content: Text('Không thể phát audio lúc này.')),
+        );
+    }
+  }
+
   Future<void> _playChallenge(
     ListeningExercise exercise,
     ListeningChallenge challenge,
@@ -572,6 +840,8 @@ class _ListeningExerciseScreenState
     final youtubeController = _youtubeController;
     final youtubeVideoId = exercise.youtubeVideoId;
     if (youtubeController != null && youtubeVideoId?.isNotEmpty == true) {
+      _youtubeSegmentEndSeconds = challenge.timeEnd;
+      _isHoldingYoutubeAtSegmentEnd = false;
       await youtubeController.loadVideoById(
         videoId: youtubeVideoId!,
         startSeconds: challenge.timeStart,
@@ -621,6 +891,36 @@ class _ListeningExerciseScreenState
     });
   }
 
+  void _selectIpaOption(ListeningChallenge challenge, int selectedIndex) {
+    if (_answerState == _AnswerState.correct) return;
+    setState(() {
+      _selectedIpaOptionIndex = selectedIndex;
+      _answerState = _AnswerState.idle;
+    });
+    unawaited(_playIpaOption(challenge.selectionOptions[selectedIndex]));
+  }
+
+  Future<void> _checkIpaOption(
+    ListeningExercise exercise,
+    ListeningChallenge challenge,
+  ) async {
+    final selectedIndex = _selectedIpaOptionIndex;
+    if (selectedIndex == null || _answerState != _AnswerState.idle) return;
+    final isCorrect = selectedIndex == challenge.correctSelectionIndex;
+    setState(() {
+      _answerState = isCorrect ? _AnswerState.correct : _AnswerState.incorrect;
+    });
+    await _progressService.saveAttempt(
+      courseId: widget.courseId,
+      lessonId: widget.lessonId,
+      challengeId: challenge.id,
+      position: challenge.position,
+      totalChallenges: exercise.challenges.length,
+      answer: challenge.selectionOptions[selectedIndex].text,
+      isCorrect: isCorrect,
+    );
+  }
+
   Future<void> _skip(ListeningExercise exercise) async {
     final challenge = exercise.challenges[_currentIndex];
     await _progressService.saveAttempt(
@@ -651,6 +951,8 @@ class _ListeningExerciseScreenState
   }
 
   Future<void> _moveTo(ListeningExercise exercise, int index) async {
+    _youtubeSegmentEndSeconds = null;
+    _isHoldingYoutubeAtSegmentEnd = false;
     await _audioController.pause();
     await _youtubeController?.pauseVideo();
     await _progressService.updateCurrentPosition(
@@ -663,6 +965,7 @@ class _ListeningExerciseScreenState
       _currentIndex = index;
       _answerState = _AnswerState.idle;
       _answerResult = null;
+      _selectedIpaOptionIndex = null;
       _showFullHint = false;
       _answerController.text = exercise.challenges[index].defaultInput;
     });
@@ -783,7 +1086,7 @@ class _YoutubeExerciseHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => SizedBox(
-    height: 142,
+    height: 100,
     child: Stack(
       alignment: Alignment.topCenter,
       children: [
@@ -800,27 +1103,27 @@ class _YoutubeExerciseHeader extends StatelessWidget {
                   letterSpacing: 2.6,
                 ),
               ),
-              const SizedBox(height: 5),
+              const SizedBox(height: 2),
               const Text(
                 'Nghe và gõ',
                 style: TextStyle(
                   color: AppColors.primaryDark,
-                  fontSize: 29,
+                  fontSize: 27,
                   height: 1.05,
-                  fontWeight: FontWeight.w900,
+                  fontWeight: FontWeight.w700,
                   letterSpacing: -.8,
                 ),
               ),
-              const SizedBox(height: 15),
+              const SizedBox(height: 8),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   const Icon(
                     Icons.menu_book_rounded,
                     color: AppColors.primary,
-                    size: 21,
+                    size: 18,
                   ),
-                  const SizedBox(width: 7),
+                  const SizedBox(width: 4),
                   Flexible(
                     child: Text(
                       lessonName,
@@ -828,8 +1131,8 @@ class _YoutubeExerciseHeader extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
                         color: AppColors.primaryDark,
-                        fontSize: 15,
-                        fontWeight: FontWeight.w600,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
@@ -838,8 +1141,8 @@ class _YoutubeExerciseHeader extends StatelessWidget {
                     '•  $current / $total',
                     style: const TextStyle(
                       color: AppColors.primary,
-                      fontSize: 15,
-                      fontWeight: FontWeight.w800,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                 ],
@@ -890,13 +1193,6 @@ class _YoutubeVideoMeta extends StatelessWidget {
   Widget build(BuildContext context) => FutureBuilder<YoutubeVideoInfo>(
     future: videoData,
     builder: (context, snapshot) {
-      final metadata = snapshot.data;
-      final title = metadata?.title.isNotEmpty == true
-          ? metadata!.title
-          : fallbackTitle;
-      final author = metadata?.author.isNotEmpty == true
-          ? metadata!.author
-          : 'YouTube';
       return Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -927,56 +1223,56 @@ class _YoutubeVideoMeta extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 10),
-          Row(
-            children: [
-              Container(
-                width: 46,
-                height: 46,
-                decoration: const BoxDecoration(
-                  color: Color(0xFFFF0033),
-                  shape: BoxShape.circle,
-                ),
-                child: const Icon(
-                  Icons.play_arrow_rounded,
-                  color: Colors.white,
-                  size: 28,
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      title,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(
-                        color: AppColors.primaryDark,
-                        fontSize: 21,
-                        height: 1.05,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                    const SizedBox(height: 4),
-                    Text(
-                      [
-                        if (levelName.isNotEmpty) '$levelName English',
-                        author,
-                      ].join('  •  '),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(
-                        color: Color(0xFF6277A1),
-                        fontSize: 12,
-                        fontWeight: FontWeight.w500,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
+          // Row(
+          //   children: [
+          //     Container(
+          //       width: 40,
+          //       height: 40,
+          //       decoration: const BoxDecoration(
+          //         color: Color(0xFFFF0033),
+          //         shape: BoxShape.circle,
+          //       ),
+          //       child: const Icon(
+          //         Icons.play_arrow_rounded,
+          //         color: Colors.white,
+          //         size: 28,
+          //       ),
+          //     ),
+          //     const SizedBox(width: 12),
+          //     Expanded(
+          //       child: Column(
+          //         crossAxisAlignment: CrossAxisAlignment.start,
+          //         children: [
+          //           Text(
+          //             title,
+          //             maxLines: 2,
+          //             overflow: TextOverflow.ellipsis,
+          //             style: const TextStyle(
+          //               color: AppColors.primaryDark,
+          //               fontSize: 18,
+          //               height: 1.05,
+          //               fontWeight: FontWeight.w700,
+          //             ),
+          //           ),
+          //           const SizedBox(height: 2),
+          //           Text(
+          //             [
+          //               if (levelName.isNotEmpty) '$levelName English',
+          //               author,
+          //             ].join('  •  '),
+          //             maxLines: 1,
+          //             overflow: TextOverflow.ellipsis,
+          //             style: const TextStyle(
+          //               color: Color(0xFF6277A1),
+          //               fontSize: 10,
+          //               fontWeight: FontWeight.w500,
+          //             ),
+          //           ),
+          //         ],
+          //       ),
+          //     ),
+          //   ],
+          // ),
         ],
       );
     },
@@ -990,8 +1286,8 @@ class _YoutubePrompt extends StatelessWidget {
   Widget build(BuildContext context) => Row(
     children: [
       Container(
-        width: 54,
-        height: 54,
+        width: 48,
+        height: 48,
         padding: const EdgeInsets.all(4),
         decoration: const BoxDecoration(
           color: Color(0xFFE8F3FF),
@@ -1008,11 +1304,10 @@ class _YoutubePrompt extends StatelessWidget {
               'Gõ lại câu bạn nghe được',
               style: TextStyle(
                 color: AppColors.primaryDark,
-                fontSize: 17,
-                fontWeight: FontWeight.w800,
+                fontSize: 15,
+                fontWeight: FontWeight.w700,
               ),
             ),
-            SizedBox(height: 3),
             Text(
               'Nghe kỹ và gõ lại chính xác câu bạn nghe được nhé!',
               style: TextStyle(
@@ -1115,7 +1410,7 @@ class _YoutubeListenTools extends StatelessWidget {
       const Spacer(),
       Flexible(
         child: _YoutubeToolButton(
-          label: 'Nghe cả câu',
+          label: 'Nghe cả câu, không cần từng từ',
           icon: Icons.lightbulb_outline_rounded,
           onTap: onWholeSentence,
           filled: true,
@@ -1140,17 +1435,17 @@ class _YoutubeToolButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Material(
-    color: filled ? const Color(0xFFF2F7FF) : Colors.white,
-    borderRadius: BorderRadius.circular(14),
+    color: filled ? const Color(0xFFF1F6FF) : Colors.white,
+    borderRadius: BorderRadius.circular(12),
     child: InkWell(
       onTap: onTap,
-      borderRadius: BorderRadius.circular(14),
+      borderRadius: BorderRadius.circular(12),
       child: Container(
         height: 38,
         padding: const EdgeInsets.symmetric(horizontal: 11),
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(color: const Color(0xFFD6E4F8)),
+          borderRadius: BorderRadius.circular(12),
+          border: filled ? null : Border.all(color: const Color(0xFFD6E4F8)),
         ),
         child: Row(
           mainAxisSize: MainAxisSize.min,
@@ -1198,28 +1493,28 @@ class _YoutubeExerciseActions extends StatelessWidget {
   Widget build(BuildContext context) => Row(
     children: [
       Expanded(
-        child: _ActionButton(
-          iconAsset: isResolved
-              ? 'assets/svgs/listen_again.svg'
-              : 'assets/svgs/skip_listen.svg',
+        flex: 9,
+        child: _YoutubeActionButton(
+          key: const ValueKey('youtube-leading-action'),
           label: isResolved ? 'Làm lại' : 'Bỏ qua',
           onTap: onLeading,
         ),
       ),
-      const SizedBox(width: 8),
+      const SizedBox(width: 10),
       Expanded(
-        child: _ActionButton(
-          iconAsset: 'assets/svgs/listen_again.svg',
+        flex: 11,
+        child: _YoutubeActionButton(
+          key: const ValueKey('youtube-replay-action'),
           label: 'Nghe lại',
+          icon: Icons.replay_rounded,
           onTap: onReplay,
         ),
       ),
-      const SizedBox(width: 8),
+      const SizedBox(width: 10),
       Expanded(
-        child: _ActionButton(
-          iconAsset: isResolved
-              ? 'assets/svgs/next_listen.svg'
-              : 'assets/svgs/check.svg',
+        flex: 11,
+        child: _YoutubeActionButton(
+          key: const ValueKey('youtube-primary-action'),
           label: isResolved ? 'Tiếp theo' : 'Kiểm tra',
           onTap: onPrimary,
           primary: true,
@@ -1230,8 +1525,527 @@ class _YoutubeExerciseActions extends StatelessWidget {
   );
 }
 
+class _YoutubeActionButton extends StatelessWidget {
+  const _YoutubeActionButton({
+    super.key,
+    required this.label,
+    required this.onTap,
+    this.icon,
+    this.primary = false,
+    this.success = false,
+  });
+
+  final String label;
+  final VoidCallback onTap;
+  final IconData? icon;
+  final bool primary;
+  final bool success;
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = success
+        ? const [Color(0xFF62DC70), Color(0xFF16BE43)]
+        : const [Color(0xFF438EFF), Color(0xFF1760F2)];
+
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        gradient: primary
+            ? LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: colors,
+              )
+            : const LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [Color(0xFFF3F7FF), Color(0xFFEAF2FF)],
+              ),
+        borderRadius: BorderRadius.circular(14),
+      ),
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(14),
+        child: InkWell(
+          onTap: onTap,
+          borderRadius: BorderRadius.circular(14),
+          child: SizedBox(
+            height: 48,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  if (icon != null) ...[
+                    Icon(
+                      icon,
+                      color: primary ? Colors.white : AppColors.primaryDark,
+                      size: 21,
+                    ),
+                    const SizedBox(width: 7),
+                  ],
+                  Flexible(
+                    child: FittedBox(
+                      fit: BoxFit.scaleDown,
+                      child: Text(
+                        label,
+                        maxLines: 1,
+                        style: TextStyle(
+                          color: primary ? Colors.white : AppColors.primaryDark,
+                          fontSize: 15,
+                          fontWeight: FontWeight.w600,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _IpaPager extends StatelessWidget {
+  const _IpaPager({
+    required this.current,
+    required this.total,
+    required this.onPrevious,
+    required this.onNext,
+  });
+
+  final int current;
+  final int total;
+  final VoidCallback? onPrevious;
+  final VoidCallback? onNext;
+
+  @override
+  Widget build(BuildContext context) => Container(
+    height: 46,
+    padding: const EdgeInsets.symmetric(horizontal: 5),
+    decoration: BoxDecoration(
+      color: Colors.white.withValues(alpha: .9),
+      borderRadius: BorderRadius.circular(23),
+      border: Border.all(color: Colors.white, width: 1.5),
+      boxShadow: const [
+        BoxShadow(
+          color: Color(0x182E72B8),
+          blurRadius: 13,
+          offset: Offset(0, 5),
+        ),
+      ],
+    ),
+    child: Row(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        _PagerArrow(icon: Icons.arrow_back_rounded, onTap: onPrevious),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 8),
+          child: Text(
+            '$current / $total',
+            style: const TextStyle(
+              color: AppColors.primaryDark,
+              fontSize: 15,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+        ),
+        _PagerArrow(icon: Icons.arrow_forward_rounded, onTap: onNext),
+      ],
+    ),
+  );
+}
+
+class _IpaExerciseCard extends StatelessWidget {
+  const _IpaExerciseCard({
+    required this.challenge,
+    required this.selectedIndex,
+    required this.state,
+    required this.onPromptAudio,
+    required this.onOptionAudio,
+    required this.onOptionSelected,
+    required this.onCheck,
+    required this.onNext,
+  });
+
+  final ListeningChallenge challenge;
+  final int? selectedIndex;
+  final _AnswerState state;
+  final VoidCallback onPromptAudio;
+  final ValueChanged<int> onOptionAudio;
+  final ValueChanged<int> onOptionSelected;
+  final VoidCallback onCheck;
+  final VoidCallback onNext;
+
+  @override
+  Widget build(BuildContext context) {
+    final isCorrect = state == _AnswerState.correct;
+    final isIncorrect = state == _AnswerState.incorrect;
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.fromLTRB(18, 20, 18, 18),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: .95),
+        borderRadius: BorderRadius.circular(30),
+        border: Border.all(color: Colors.white, width: 1.5),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x1D2E72B8),
+            blurRadius: 24,
+            offset: Offset(0, 10),
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          const Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              _IpaQuestionMark(),
+              SizedBox(width: 9),
+              Flexible(
+                child: Text(
+                  'Select the correct pronunciation for:',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Color(0xFF607FB4),
+                    fontSize: 16,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 18),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              _IpaAudioButton(onTap: onPromptAudio, large: true),
+              const SizedBox(width: 14),
+              Flexible(
+                child: Text(
+                  challenge.content,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(
+                    color: Color(0xFF041D55),
+                    fontSize: 45,
+                    height: 1,
+                    fontWeight: FontWeight.w800,
+                    letterSpacing: -1.3,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 24),
+          for (
+            var index = 0;
+            index < challenge.selectionOptions.length;
+            index++
+          ) ...[
+            _IpaOptionTile(
+              key: ValueKey('ipa-option-$index'),
+              option: challenge.selectionOptions[index],
+              selected: selectedIndex == index,
+              state: selectedIndex == index ? state : _AnswerState.idle,
+              revealWord: state != _AnswerState.idle,
+              enabled: !isCorrect,
+              onTap: () => onOptionSelected(index),
+              onAudio: () => onOptionAudio(index),
+            ),
+            if (index != challenge.selectionOptions.length - 1)
+              const SizedBox(height: 12),
+          ],
+          if (isCorrect || isIncorrect) ...[
+            const SizedBox(height: 16),
+            _IpaFeedback(correct: isCorrect),
+          ],
+          const SizedBox(height: 18),
+          SizedBox(
+            width: double.infinity,
+            height: 54,
+            child: FilledButton(
+              key: const ValueKey('ipa-primary-action'),
+              onPressed: isCorrect
+                  ? onNext
+                  : selectedIndex != null && state == _AnswerState.idle
+                  ? onCheck
+                  : null,
+              style: FilledButton.styleFrom(
+                disabledBackgroundColor: const Color(0xFFE8EDF5),
+                disabledForegroundColor: const Color(0xFFA8B5C9),
+                backgroundColor: const Color(0xFF2DC654),
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18),
+                  side: BorderSide(
+                    color: isCorrect ? const Color(0xFF87E29D) : Colors.white,
+                    width: 2,
+                  ),
+                ),
+                textStyle: const TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+              child: Text(isCorrect ? 'Next' : 'Check'),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _IpaQuestionMark extends StatelessWidget {
+  const _IpaQuestionMark();
+
+  @override
+  Widget build(BuildContext context) => Container(
+    width: 25,
+    height: 25,
+    decoration: const BoxDecoration(
+      color: Color(0xFF82B9F1),
+      shape: BoxShape.circle,
+    ),
+    alignment: Alignment.center,
+    child: const Text(
+      '?',
+      style: TextStyle(
+        color: Colors.white,
+        fontSize: 17,
+        fontWeight: FontWeight.w800,
+      ),
+    ),
+  );
+}
+
+class _IpaAudioButton extends StatelessWidget {
+  const _IpaAudioButton({
+    required this.onTap,
+    this.large = false,
+    this.flat = false,
+  });
+
+  final VoidCallback onTap;
+  final bool large;
+  final bool flat;
+
+  @override
+  Widget build(BuildContext context) {
+    final size = large ? 58.0 : 48.0;
+    return Material(
+      color: const Color(0xFFF3F8FF),
+      shape: const CircleBorder(),
+      child: InkWell(
+        onTap: onTap,
+        customBorder: const CircleBorder(),
+        child: Container(
+          width: size,
+          height: size,
+          decoration: BoxDecoration(
+            shape: BoxShape.circle,
+            border: flat ? null : Border.all(color: Colors.white, width: 2),
+            boxShadow: flat
+                ? null
+                : const [BoxShadow(color: Color(0x162E72B8), blurRadius: 10)],
+          ),
+          child: Icon(
+            Icons.volume_up_rounded,
+            color: AppColors.primary,
+            size: large ? 31 : 27,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _IpaOptionTile extends StatelessWidget {
+  const _IpaOptionTile({
+    super.key,
+    required this.option,
+    required this.selected,
+    required this.state,
+    required this.revealWord,
+    required this.enabled,
+    required this.onTap,
+    required this.onAudio,
+  });
+
+  final ListeningSelectionOption option;
+  final bool selected;
+  final _AnswerState state;
+  final bool revealWord;
+  final bool enabled;
+  final VoidCallback onTap;
+  final VoidCallback onAudio;
+
+  @override
+  Widget build(BuildContext context) {
+    final isCorrect = selected && state == _AnswerState.correct;
+    final isIncorrect = selected && state == _AnswerState.incorrect;
+    final accent = isCorrect
+        ? const Color(0xFF35BF60)
+        : isIncorrect
+        ? const Color(0xFFFF3E6C)
+        : const Color(0xFF6DA8FF);
+    final background = isCorrect
+        ? const Color(0xFFF0FCF3)
+        : isIncorrect
+        ? const Color(0xFFFFF3F6)
+        : const Color(0xFFFBFDFF);
+
+    return AnimatedContainer(
+      duration: const Duration(milliseconds: 180),
+      height: 92,
+      decoration: BoxDecoration(
+        color: background,
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(
+          color: selected
+              ? accent.withValues(alpha: .45)
+              : const Color(0xFFDDE9F8),
+          width: selected ? 1.8 : 1.2,
+        ),
+        boxShadow: const [
+          BoxShadow(
+            color: Color(0x142E72B8),
+            blurRadius: 14,
+            offset: Offset(0, 6),
+          ),
+        ],
+      ),
+      child: Material(
+        color: Colors.transparent,
+        borderRadius: BorderRadius.circular(22),
+        child: InkWell(
+          onTap: enabled ? onTap : null,
+          borderRadius: BorderRadius.circular(22),
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              children: [
+                Container(
+                  width: 30,
+                  height: 30,
+                  padding: const EdgeInsets.all(5),
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    border: Border.all(color: accent, width: 2),
+                  ),
+                  child: selected
+                      ? DecoratedBox(
+                          decoration: BoxDecoration(
+                            color: accent,
+                            shape: BoxShape.circle,
+                          ),
+                        )
+                      : null,
+                ),
+                const SizedBox(width: 14),
+                _IpaAudioButton(onTap: onAudio, flat: true),
+                const SizedBox(width: 16),
+                Expanded(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        '/${option.phonetic}/',
+                        maxLines: 1,
+                        style: const TextStyle(
+                          color: Color(0xFF061D52),
+                          fontSize: 27,
+                          height: 1,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                      if (revealWord) ...[
+                        const SizedBox(height: 6),
+                        Text(
+                          '(${option.text})',
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(
+                            color: Color(0xFF718BB7),
+                            fontSize: 15,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                      ],
+                    ],
+                  ),
+                ),
+                if (isCorrect || isIncorrect)
+                  Icon(
+                    isCorrect ? Icons.check_rounded : Icons.close_rounded,
+                    color: accent,
+                    size: 30,
+                  ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _IpaFeedback extends StatelessWidget {
+  const _IpaFeedback({required this.correct});
+
+  final bool correct;
+
+  @override
+  Widget build(BuildContext context) {
+    final color = correct ? const Color(0xFF188B3A) : const Color(0xFFF07A13);
+    return Container(
+      width: double.infinity,
+      constraints: const BoxConstraints(minHeight: 68),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
+      decoration: BoxDecoration(
+        color: correct ? const Color(0xFFF1FCF4) : const Color(0xFFFFFAF1),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: color.withValues(alpha: .22), width: 1.5),
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 50,
+            height: 50,
+            alignment: Alignment.center,
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: .8),
+              shape: BoxShape.circle,
+            ),
+            child: Text(
+              correct ? '😸' : '🥺',
+              style: const TextStyle(fontSize: 31),
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              correct ? 'You are correct!' : "That's not correct!  Try again!",
+              style: TextStyle(
+                color: color,
+                fontSize: 16,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 class _ExerciseHeader extends StatelessWidget {
   const _ExerciseHeader({
+    this.eyebrow = 'LISTEN & TYPE',
     required this.lessonName,
     required this.activeTime,
     required this.onBack,
@@ -1239,6 +2053,7 @@ class _ExerciseHeader extends StatelessWidget {
     required this.onMore,
   });
 
+  final String eyebrow;
   final String lessonName;
   final Duration activeTime;
   final VoidCallback onBack;
@@ -1253,9 +2068,9 @@ class _ExerciseHeader extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(90, 12, 90, 0),
         child: Column(
           children: [
-            const Text(
-              'LISTEN & TYPE',
-              style: TextStyle(
+            Text(
+              eyebrow,
+              style: const TextStyle(
                 color: AppColors.primary,
                 fontSize: 11,
                 fontWeight: FontWeight.w800,

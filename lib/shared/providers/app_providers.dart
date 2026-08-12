@@ -5,19 +5,23 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/services/app_language_service.dart';
 import '../../data/datasources/sentence_asset_data_source.dart';
 import '../../data/datasources/listening_asset_data_source.dart';
+import '../../data/datasources/grammar_asset_data_source.dart';
 import '../../data/datasources/topic_asset_data_source.dart';
 import '../../data/local/app_database.dart';
+import '../../data/models/grammar_content.dart';
 import '../../data/models/learning_language_level.dart';
 import '../../data/models/sentence_asset_index.dart';
 import '../../data/models/topic.dart';
 import '../../data/models/vocabulary_collection.dart';
 import '../../data/repositories/topic_repository.dart';
+import '../../data/repositories/grammar_repository.dart';
 import '../../data/services/additional_task_service.dart';
 import '../../data/services/app_usage_service.dart';
 import '../../data/services/daily_card_service.dart';
 import '../../data/services/difficult_words_training_service.dart';
 import '../../data/services/home_main_task_service.dart';
 import '../../data/services/listening_progress_service.dart';
+import '../../data/services/grammar_progress_service.dart';
 import '../../data/services/profile_statistics_service.dart';
 import '../../data/services/progress_dashboard_service.dart';
 import '../../data/services/sentence_ai_service.dart';
@@ -70,6 +74,31 @@ final listeningAssetDataSourceProvider = Provider<ListeningAssetDataSource>(
 final listeningProgressServiceProvider = Provider<ListeningProgressService>(
   (ref) => ListeningProgressService(ref.watch(appDatabaseProvider)),
 );
+
+final grammarAssetDataSourceProvider = Provider<GrammarAssetDataSource>(
+  (ref) => GrammarAssetDataSource(),
+);
+
+final grammarRepositoryProvider = Provider<GrammarRepository>(
+  (ref) => GrammarRepository(
+    database: ref.watch(appDatabaseProvider),
+    assetDataSource: ref.watch(grammarAssetDataSourceProvider),
+  ),
+);
+
+final grammarProgressServiceProvider = Provider<GrammarProgressService>(
+  (ref) => GrammarProgressService(ref.watch(appDatabaseProvider)),
+);
+
+final grammarPacksProvider = FutureProvider<List<GrammarPackContent>>(
+  (ref) => ref.watch(grammarRepositoryProvider).loadPacks(),
+);
+
+final grammarTopicQuestionsProvider =
+    FutureProvider.family<List<GrammarQuestionContent>, int>(
+      (ref, topicId) =>
+          ref.watch(grammarRepositoryProvider).loadTopicQuestions(topicId),
+    );
 
 final sentenceAssetWordIdsProvider = FutureProvider<Set<int>>((ref) async {
   final languageCode = ref.watch(selectedAppLanguageProvider);
