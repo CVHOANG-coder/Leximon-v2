@@ -633,6 +633,7 @@ class _ProfileField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: controller,
+      onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
       keyboardType: keyboardType,
       textInputAction: textInputAction,
       validator: validator,

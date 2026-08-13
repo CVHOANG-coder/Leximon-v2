@@ -17,6 +17,7 @@ import '../../../data/services/profile_statistics_service.dart';
 import '../../../presentation/widgets/app_dialog.dart';
 import 'edit_profile_screen.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
+import '../../../presentation/widgets/streak_indicator.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class ProfileScreen extends ConsumerWidget {
@@ -374,9 +375,9 @@ class _ProfileHero extends StatelessWidget {
           Row(
             children: [
               _HeroStat(
-                iconAsset: 'assets/svgs/streak_day.svg',
+                iconAsset: streakIconAsset,
                 value: currentStreak?.toString() ?? '—',
-                label: 'Ngày streak',
+                label: streakLabel,
               ),
               const SizedBox(width: 9),
               _HeroStat(
@@ -426,7 +427,12 @@ class _HeroStat extends StatelessWidget {
       ),
       child: Column(
         children: [
-          SvgPicture.asset(iconAsset, width: 36, height: 36),
+          SvgPicture.asset(
+            iconAsset,
+            key: ValueKey(iconAsset),
+            width: 36,
+            height: 36,
+          ),
           const SizedBox(height: 7),
           Text(
             value,

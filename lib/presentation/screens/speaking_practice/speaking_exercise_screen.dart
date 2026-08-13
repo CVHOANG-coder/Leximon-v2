@@ -3,10 +3,11 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:just_audio/just_audio.dart';
+import 'package:just_audio/just_audio.dart' hide PlayerState;
 import 'package:path_provider/path_provider.dart';
 import 'package:record/record.dart';
 import 'package:speech_to_text/speech_to_text.dart';
+import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../data/datasources/listening_asset_data_source.dart';
@@ -173,6 +174,11 @@ class _SpeakingExerciseScreenState
   String? _recordingPath;
   String? _error;
   SpeakingAssessment? _assessment;
+  YoutubePlayerController? _youtubeController;
+  StreamSubscription<YoutubePlayerValue>? _youtubeValueSubscription;
+  StreamSubscription<YoutubeVideoState>? _youtubeVideoStateSubscription;
+  double? _youtubeSegmentEndSeconds;
+  bool _isHoldingYoutubeAtSegmentEnd = false;
 
   @override
   void initState() {
@@ -207,6 +213,39 @@ class _SpeakingExerciseScreenState
       0,
       exercise.challenges.length - 1,
     );
+    final youtubeVideoId = exercise.youtubeVideoId;
+    if (youtubeVideoId?.isNotEmpty == true) {
+      final challenge = exercise.challenges[_currentIndex];
+      final controller = YoutubePlayerController.fromVideoId(
+        videoId: youtubeVideoId!,
+        autoPlay: false,
+        startSeconds: challenge.timeStart,
+        endSeconds: challenge.timeEnd,
+        params: const YoutubePlayerParams(
+          showControls: true,
+          showFullscreenButton: true,
+          enableCaption: true,
+          playsInline: true,
+          strictRelatedVideos: true,
+        ),
+      );
+      _youtubeController = controller;
+      _youtubeValueSubscription = controller.stream.listen((value) {
+        if (value.playerState == PlayerState.ended) {
+          unawaited(_holdYoutubeAtSegmentEnd());
+        }
+      });
+      _youtubeVideoStateSubscription = controller.videoStateStream.listen((
+        state,
+      ) {
+        final endSeconds = _youtubeSegmentEndSeconds;
+        if (endSeconds == null || _isHoldingYoutubeAtSegmentEnd) return;
+        final positionSeconds = state.position.inMilliseconds / 1000;
+        if (positionSeconds >= endSeconds - .08) {
+          unawaited(_holdYoutubeAtSegmentEnd());
+        }
+      });
+    }
     return exercise;
   }
 
@@ -216,12 +255,36 @@ class _SpeakingExerciseScreenState
     unawaited(_recorder.cancel());
     unawaited(_recorder.dispose());
     unawaited(_playback.dispose());
+    _youtubeValueSubscription?.cancel();
+    _youtubeVideoStateSubscription?.cancel();
+    unawaited(_youtubeController?.close());
     super.dispose();
   }
 
   ListeningChallenge get _sentence => _exercise!.challenges[_currentIndex];
 
   Future<void> _playSample() async {
+    final youtubeController = _youtubeController;
+    final youtubeVideoId = _exercise?.youtubeVideoId;
+    if (youtubeController != null && youtubeVideoId?.isNotEmpty == true) {
+      final challenge = _sentence;
+      _youtubeSegmentEndSeconds = challenge.timeEnd;
+      _isHoldingYoutubeAtSegmentEnd = false;
+      try {
+        await _enableYoutubeAudio(youtubeController);
+        await youtubeController.loadVideoById(
+          videoId: youtubeVideoId!,
+          startSeconds: challenge.timeStart,
+          endSeconds: challenge.timeEnd,
+        );
+        await _seekYoutubeToSentence(youtubeController, challenge);
+        await _enableYoutubeAudio(youtubeController);
+        await youtubeController.playVideo();
+      } on Object {
+        if (mounted) setState(() => _error = 'Không thể phát video mẫu.');
+      }
+      return;
+    }
     final url = _sentence.audioUrl.isNotEmpty
         ? _sentence.audioUrl
         : _exercise!.audioUrl;
@@ -243,6 +306,7 @@ class _SpeakingExerciseScreenState
 
   Future<void> _startRecording() async {
     await _playback.stop();
+    await _youtubeController?.pauseVideo();
     final allowed = await _recorder.hasPermission();
     if (!allowed) {
       if (mounted) {
@@ -359,6 +423,9 @@ class _SpeakingExerciseScreenState
       Navigator.of(context).pop(true);
       return;
     }
+    unawaited(_youtubeController?.pauseVideo());
+    _youtubeSegmentEndSeconds = null;
+    _isHoldingYoutubeAtSegmentEnd = false;
     setState(() {
       _currentIndex++;
       _isRecording = false;
@@ -367,6 +434,63 @@ class _SpeakingExerciseScreenState
       _assessment = null;
       _error = null;
     });
+    final youtubeController = _youtubeController;
+    final youtubeVideoId = exercise.youtubeVideoId;
+    if (youtubeController != null && youtubeVideoId?.isNotEmpty == true) {
+      final challenge = exercise.challenges[_currentIndex];
+      unawaited(
+        _cueYoutubeSentence(youtubeController, youtubeVideoId!, challenge),
+      );
+    }
+  }
+
+  Future<void> _holdYoutubeAtSegmentEnd() async {
+    final controller = _youtubeController;
+    final endSeconds = _youtubeSegmentEndSeconds;
+    if (controller == null ||
+        endSeconds == null ||
+        _isHoldingYoutubeAtSegmentEnd) {
+      return;
+    }
+    _isHoldingYoutubeAtSegmentEnd = true;
+    _youtubeSegmentEndSeconds = null;
+    try {
+      await controller.pauseVideo();
+      await controller.seekTo(seconds: endSeconds, allowSeekAhead: false);
+      await controller.pauseVideo();
+    } catch (_) {
+      // Keep speaking usable if the WebView is disposed during navigation.
+    } finally {
+      _isHoldingYoutubeAtSegmentEnd = false;
+    }
+  }
+
+  Future<void> _enableYoutubeAudio(YoutubePlayerController controller) async {
+    await controller.unMute();
+    await controller.setVolume(100);
+  }
+
+  Future<void> _seekYoutubeToSentence(
+    YoutubePlayerController controller,
+    ListeningChallenge challenge,
+  ) async {
+    final startSeconds = challenge.timeStart;
+    if (startSeconds != null) {
+      await controller.seekTo(seconds: startSeconds, allowSeekAhead: true);
+    }
+  }
+
+  Future<void> _cueYoutubeSentence(
+    YoutubePlayerController controller,
+    String videoId,
+    ListeningChallenge challenge,
+  ) async {
+    await controller.cueVideoById(
+      videoId: videoId,
+      startSeconds: challenge.timeStart,
+      endSeconds: challenge.timeEnd,
+    );
+    await _seekYoutubeToSentence(controller, challenge);
   }
 
   @override
@@ -411,6 +535,7 @@ class _SpeakingExerciseScreenState
                         assessment: _assessment,
                         error: _error,
                         onPlaySample: _playSample,
+                        youtubeController: _youtubeController,
                         onRecord: _toggleRecording,
                         onPlayRecording: _playRecording,
                         onCheck: _check,
@@ -496,6 +621,7 @@ class _SpeakingHeader extends StatelessWidget {
 class _SpeakingSentenceCard extends StatelessWidget {
   const _SpeakingSentenceCard({
     required this.sentence,
+    required this.youtubeController,
     required this.isRecording,
     required this.transcript,
     required this.recordingReady,
@@ -510,6 +636,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
   });
 
   final String sentence;
+  final YoutubePlayerController? youtubeController;
   final bool isRecording;
   final String transcript;
   final bool recordingReady;
@@ -551,6 +678,19 @@ class _SpeakingSentenceCard extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 18),
+        if (youtubeController != null) ...[
+          ClipRRect(
+            borderRadius: BorderRadius.circular(18),
+            child: YoutubePlayer(
+              key: const ValueKey('speaking-youtube-player'),
+              controller: youtubeController!,
+              aspectRatio: 16 / 9,
+              backgroundColor: Colors.black,
+              keepAlive: true,
+            ),
+          ),
+          const SizedBox(height: 18),
+        ],
         Text(
           sentence,
           textAlign: TextAlign.center,

@@ -95,6 +95,16 @@ class ProgressDashboardService {
 
     final visits = await _database.select(_database.visitModels).get();
     final visitByDate = {for (final visit in visits) visit.date: visit};
+    final practiceSessions = await _database
+        .select(_database.practiceSessionHistoryModels)
+        .get();
+    final activeDayStarts = <int>{
+      for (final visit in visits)
+        if (visit.atLeastOneTaskFinished) visit.date,
+      for (final session in practiceSessions)
+        if (session.status == 'completed')
+          _dayStart(DateTime.fromMillisecondsSinceEpoch(session.completedAt)),
+    };
     final weekStart = today - (now.weekday - 1) * _dayMilliseconds;
     final weekActivity = [
       for (var index = 0; index < 7; index++)
@@ -120,24 +130,21 @@ class ProgressDashboardService {
             ? 0
             : (count / monthMax * 3).ceil().clamp(1, 3).toInt(),
     ];
-    final activeDaysThisMonth = visits
+    final activeDaysThisMonth = activeDayStarts
         .where(
-          (visit) =>
-              visit.date >= monthStart.millisecondsSinceEpoch &&
-              visit.date <= today &&
-              visit.atLeastOneTaskFinished,
+          (date) => date >= monthStart.millisecondsSinceEpoch && date <= today,
         )
         .length;
 
     var currentStreak = 0;
     var streakDay = today;
-    while (visitByDate[streakDay]?.atLeastOneTaskFinished == true) {
+    while (activeDayStarts.contains(streakDay)) {
       currentStreak++;
       streakDay -= _dayMilliseconds;
     }
     if (currentStreak == 0) {
       streakDay = today - _dayMilliseconds;
-      while (visitByDate[streakDay]?.atLeastOneTaskFinished == true) {
+      while (activeDayStarts.contains(streakDay)) {
         currentStreak++;
         streakDay -= _dayMilliseconds;
       }

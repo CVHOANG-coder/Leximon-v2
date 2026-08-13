@@ -252,12 +252,15 @@ void main() {
       final sessions = await database
           .select(database.practiceSessionHistoryModels)
           .get();
+      final visits = await database.select(database.visitModels).get();
 
       expect(ipaRow.completedAt, isNotNull);
       expect(ipaRow.practiceCount, 1);
       expect(readingRow.completedAt, isNotNull);
       expect(readingRow.maxScrollPercent, 100);
       expect(sessions, hasLength(2));
+      expect(visits, hasLength(1));
+      expect(visits.single.atLeastOneTaskFinished, isTrue);
     },
   );
 

@@ -13515,6 +13515,380 @@ class ReadingStoryProgressModelsCompanion
   }
 }
 
+class $ReadingSavedWordModelsTable extends ReadingSavedWordModels
+    with TableInfo<$ReadingSavedWordModelsTable, ReadingSavedWordRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $ReadingSavedWordModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
+  @override
+  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
+    'word_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _topicIdMeta = const VerificationMeta(
+    'topicId',
+  );
+  @override
+  late final GeneratedColumn<int> topicId = GeneratedColumn<int>(
+    'topic_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _storyIdMeta = const VerificationMeta(
+    'storyId',
+  );
+  @override
+  late final GeneratedColumn<int> storyId = GeneratedColumn<int>(
+    'story_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _savedAtMeta = const VerificationMeta(
+    'savedAt',
+  );
+  @override
+  late final GeneratedColumn<int> savedAt = GeneratedColumn<int>(
+    'saved_at',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _completedAtMeta = const VerificationMeta(
+    'completedAt',
+  );
+  @override
+  late final GeneratedColumn<int> completedAt = GeneratedColumn<int>(
+    'completed_at',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    wordId,
+    topicId,
+    storyId,
+    savedAt,
+    completedAt,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'reading_saved_word_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<ReadingSavedWordRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('word_id')) {
+      context.handle(
+        _wordIdMeta,
+        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_wordIdMeta);
+    }
+    if (data.containsKey('topic_id')) {
+      context.handle(
+        _topicIdMeta,
+        topicId.isAcceptableOrUnknown(data['topic_id']!, _topicIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_topicIdMeta);
+    }
+    if (data.containsKey('story_id')) {
+      context.handle(
+        _storyIdMeta,
+        storyId.isAcceptableOrUnknown(data['story_id']!, _storyIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_storyIdMeta);
+    }
+    if (data.containsKey('saved_at')) {
+      context.handle(
+        _savedAtMeta,
+        savedAt.isAcceptableOrUnknown(data['saved_at']!, _savedAtMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_savedAtMeta);
+    }
+    if (data.containsKey('completed_at')) {
+      context.handle(
+        _completedAtMeta,
+        completedAt.isAcceptableOrUnknown(
+          data['completed_at']!,
+          _completedAtMeta,
+        ),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {wordId, topicId};
+  @override
+  ReadingSavedWordRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return ReadingSavedWordRow(
+      wordId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}word_id'],
+      )!,
+      topicId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}topic_id'],
+      )!,
+      storyId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}story_id'],
+      )!,
+      savedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}saved_at'],
+      )!,
+      completedAt: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}completed_at'],
+      ),
+    );
+  }
+
+  @override
+  $ReadingSavedWordModelsTable createAlias(String alias) {
+    return $ReadingSavedWordModelsTable(attachedDatabase, alias);
+  }
+}
+
+class ReadingSavedWordRow extends DataClass
+    implements Insertable<ReadingSavedWordRow> {
+  final int wordId;
+  final int topicId;
+  final int storyId;
+  final int savedAt;
+  final int? completedAt;
+  const ReadingSavedWordRow({
+    required this.wordId,
+    required this.topicId,
+    required this.storyId,
+    required this.savedAt,
+    this.completedAt,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['word_id'] = Variable<int>(wordId);
+    map['topic_id'] = Variable<int>(topicId);
+    map['story_id'] = Variable<int>(storyId);
+    map['saved_at'] = Variable<int>(savedAt);
+    if (!nullToAbsent || completedAt != null) {
+      map['completed_at'] = Variable<int>(completedAt);
+    }
+    return map;
+  }
+
+  ReadingSavedWordModelsCompanion toCompanion(bool nullToAbsent) {
+    return ReadingSavedWordModelsCompanion(
+      wordId: Value(wordId),
+      topicId: Value(topicId),
+      storyId: Value(storyId),
+      savedAt: Value(savedAt),
+      completedAt: completedAt == null && nullToAbsent
+          ? const Value.absent()
+          : Value(completedAt),
+    );
+  }
+
+  factory ReadingSavedWordRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return ReadingSavedWordRow(
+      wordId: serializer.fromJson<int>(json['wordId']),
+      topicId: serializer.fromJson<int>(json['topicId']),
+      storyId: serializer.fromJson<int>(json['storyId']),
+      savedAt: serializer.fromJson<int>(json['savedAt']),
+      completedAt: serializer.fromJson<int?>(json['completedAt']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'wordId': serializer.toJson<int>(wordId),
+      'topicId': serializer.toJson<int>(topicId),
+      'storyId': serializer.toJson<int>(storyId),
+      'savedAt': serializer.toJson<int>(savedAt),
+      'completedAt': serializer.toJson<int?>(completedAt),
+    };
+  }
+
+  ReadingSavedWordRow copyWith({
+    int? wordId,
+    int? topicId,
+    int? storyId,
+    int? savedAt,
+    Value<int?> completedAt = const Value.absent(),
+  }) => ReadingSavedWordRow(
+    wordId: wordId ?? this.wordId,
+    topicId: topicId ?? this.topicId,
+    storyId: storyId ?? this.storyId,
+    savedAt: savedAt ?? this.savedAt,
+    completedAt: completedAt.present ? completedAt.value : this.completedAt,
+  );
+  ReadingSavedWordRow copyWithCompanion(ReadingSavedWordModelsCompanion data) {
+    return ReadingSavedWordRow(
+      wordId: data.wordId.present ? data.wordId.value : this.wordId,
+      topicId: data.topicId.present ? data.topicId.value : this.topicId,
+      storyId: data.storyId.present ? data.storyId.value : this.storyId,
+      savedAt: data.savedAt.present ? data.savedAt.value : this.savedAt,
+      completedAt: data.completedAt.present
+          ? data.completedAt.value
+          : this.completedAt,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ReadingSavedWordRow(')
+          ..write('wordId: $wordId, ')
+          ..write('topicId: $topicId, ')
+          ..write('storyId: $storyId, ')
+          ..write('savedAt: $savedAt, ')
+          ..write('completedAt: $completedAt')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode =>
+      Object.hash(wordId, topicId, storyId, savedAt, completedAt);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is ReadingSavedWordRow &&
+          other.wordId == this.wordId &&
+          other.topicId == this.topicId &&
+          other.storyId == this.storyId &&
+          other.savedAt == this.savedAt &&
+          other.completedAt == this.completedAt);
+}
+
+class ReadingSavedWordModelsCompanion
+    extends UpdateCompanion<ReadingSavedWordRow> {
+  final Value<int> wordId;
+  final Value<int> topicId;
+  final Value<int> storyId;
+  final Value<int> savedAt;
+  final Value<int?> completedAt;
+  final Value<int> rowid;
+  const ReadingSavedWordModelsCompanion({
+    this.wordId = const Value.absent(),
+    this.topicId = const Value.absent(),
+    this.storyId = const Value.absent(),
+    this.savedAt = const Value.absent(),
+    this.completedAt = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  ReadingSavedWordModelsCompanion.insert({
+    required int wordId,
+    required int topicId,
+    required int storyId,
+    required int savedAt,
+    this.completedAt = const Value.absent(),
+    this.rowid = const Value.absent(),
+  }) : wordId = Value(wordId),
+       topicId = Value(topicId),
+       storyId = Value(storyId),
+       savedAt = Value(savedAt);
+  static Insertable<ReadingSavedWordRow> custom({
+    Expression<int>? wordId,
+    Expression<int>? topicId,
+    Expression<int>? storyId,
+    Expression<int>? savedAt,
+    Expression<int>? completedAt,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (wordId != null) 'word_id': wordId,
+      if (topicId != null) 'topic_id': topicId,
+      if (storyId != null) 'story_id': storyId,
+      if (savedAt != null) 'saved_at': savedAt,
+      if (completedAt != null) 'completed_at': completedAt,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  ReadingSavedWordModelsCompanion copyWith({
+    Value<int>? wordId,
+    Value<int>? topicId,
+    Value<int>? storyId,
+    Value<int>? savedAt,
+    Value<int?>? completedAt,
+    Value<int>? rowid,
+  }) {
+    return ReadingSavedWordModelsCompanion(
+      wordId: wordId ?? this.wordId,
+      topicId: topicId ?? this.topicId,
+      storyId: storyId ?? this.storyId,
+      savedAt: savedAt ?? this.savedAt,
+      completedAt: completedAt ?? this.completedAt,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (wordId.present) {
+      map['word_id'] = Variable<int>(wordId.value);
+    }
+    if (topicId.present) {
+      map['topic_id'] = Variable<int>(topicId.value);
+    }
+    if (storyId.present) {
+      map['story_id'] = Variable<int>(storyId.value);
+    }
+    if (savedAt.present) {
+      map['saved_at'] = Variable<int>(savedAt.value);
+    }
+    if (completedAt.present) {
+      map['completed_at'] = Variable<int>(completedAt.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('ReadingSavedWordModelsCompanion(')
+          ..write('wordId: $wordId, ')
+          ..write('topicId: $topicId, ')
+          ..write('storyId: $storyId, ')
+          ..write('savedAt: $savedAt, ')
+          ..write('completedAt: $completedAt, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $PracticeSessionHistoryModelsTable extends PracticeSessionHistoryModels
     with
         TableInfo<
@@ -14036,6 +14410,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
       $IpaSoundProgressModelsTable(this);
   late final $ReadingStoryProgressModelsTable readingStoryProgressModels =
       $ReadingStoryProgressModelsTable(this);
+  late final $ReadingSavedWordModelsTable readingSavedWordModels =
+      $ReadingSavedWordModelsTable(this);
   late final $PracticeSessionHistoryModelsTable practiceSessionHistoryModels =
       $PracticeSessionHistoryModelsTable(this);
   late final Index topicModelEnabledOrder = Index(
@@ -14094,6 +14470,10 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     'grammar_response_topic',
     'CREATE INDEX grammar_response_topic ON grammar_user_response_models (topic_id)',
   );
+  late final Index readingSavedWordPendingSavedAt = Index(
+    'reading_saved_word_pending_saved_at',
+    'CREATE INDEX reading_saved_word_pending_saved_at ON reading_saved_word_models (completed_at, saved_at)',
+  );
   late final Index practiceSessionHistorySkillCompleted = Index(
     'practice_session_history_skill_completed',
     'CREATE INDEX practice_session_history_skill_completed ON practice_session_history_models (skill, completed_at)',
@@ -14130,6 +14510,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     grammarUserResponseModels,
     ipaSoundProgressModels,
     readingStoryProgressModels,
+    readingSavedWordModels,
     practiceSessionHistoryModels,
     topicModelEnabledOrder,
     wordModelTopicEnabled,
@@ -14145,6 +14526,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     grammarTopicPackOrder,
     grammarQuestionMappingTopicQuestion,
     grammarResponseTopic,
+    readingSavedWordPendingSavedAt,
     practiceSessionHistorySkillCompleted,
   ];
 }
@@ -22352,6 +22734,227 @@ typedef $$ReadingStoryProgressModelsTableProcessedTableManager =
       ReadingStoryProgressRow,
       PrefetchHooks Function()
     >;
+typedef $$ReadingSavedWordModelsTableCreateCompanionBuilder =
+    ReadingSavedWordModelsCompanion Function({
+      required int wordId,
+      required int topicId,
+      required int storyId,
+      required int savedAt,
+      Value<int?> completedAt,
+      Value<int> rowid,
+    });
+typedef $$ReadingSavedWordModelsTableUpdateCompanionBuilder =
+    ReadingSavedWordModelsCompanion Function({
+      Value<int> wordId,
+      Value<int> topicId,
+      Value<int> storyId,
+      Value<int> savedAt,
+      Value<int?> completedAt,
+      Value<int> rowid,
+    });
+
+class $$ReadingSavedWordModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $ReadingSavedWordModelsTable> {
+  $$ReadingSavedWordModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get topicId => $composableBuilder(
+    column: $table.topicId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get storyId => $composableBuilder(
+    column: $table.storyId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get savedAt => $composableBuilder(
+    column: $table.savedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$ReadingSavedWordModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $ReadingSavedWordModelsTable> {
+  $$ReadingSavedWordModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get topicId => $composableBuilder(
+    column: $table.topicId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get storyId => $composableBuilder(
+    column: $table.storyId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get savedAt => $composableBuilder(
+    column: $table.savedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$ReadingSavedWordModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $ReadingSavedWordModelsTable> {
+  $$ReadingSavedWordModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get wordId =>
+      $composableBuilder(column: $table.wordId, builder: (column) => column);
+
+  GeneratedColumn<int> get topicId =>
+      $composableBuilder(column: $table.topicId, builder: (column) => column);
+
+  GeneratedColumn<int> get storyId =>
+      $composableBuilder(column: $table.storyId, builder: (column) => column);
+
+  GeneratedColumn<int> get savedAt =>
+      $composableBuilder(column: $table.savedAt, builder: (column) => column);
+
+  GeneratedColumn<int> get completedAt => $composableBuilder(
+    column: $table.completedAt,
+    builder: (column) => column,
+  );
+}
+
+class $$ReadingSavedWordModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $ReadingSavedWordModelsTable,
+          ReadingSavedWordRow,
+          $$ReadingSavedWordModelsTableFilterComposer,
+          $$ReadingSavedWordModelsTableOrderingComposer,
+          $$ReadingSavedWordModelsTableAnnotationComposer,
+          $$ReadingSavedWordModelsTableCreateCompanionBuilder,
+          $$ReadingSavedWordModelsTableUpdateCompanionBuilder,
+          (
+            ReadingSavedWordRow,
+            BaseReferences<
+              _$AppDatabase,
+              $ReadingSavedWordModelsTable,
+              ReadingSavedWordRow
+            >,
+          ),
+          ReadingSavedWordRow,
+          PrefetchHooks Function()
+        > {
+  $$ReadingSavedWordModelsTableTableManager(
+    _$AppDatabase db,
+    $ReadingSavedWordModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$ReadingSavedWordModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$ReadingSavedWordModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$ReadingSavedWordModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> wordId = const Value.absent(),
+                Value<int> topicId = const Value.absent(),
+                Value<int> storyId = const Value.absent(),
+                Value<int> savedAt = const Value.absent(),
+                Value<int?> completedAt = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ReadingSavedWordModelsCompanion(
+                wordId: wordId,
+                topicId: topicId,
+                storyId: storyId,
+                savedAt: savedAt,
+                completedAt: completedAt,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required int wordId,
+                required int topicId,
+                required int storyId,
+                required int savedAt,
+                Value<int?> completedAt = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => ReadingSavedWordModelsCompanion.insert(
+                wordId: wordId,
+                topicId: topicId,
+                storyId: storyId,
+                savedAt: savedAt,
+                completedAt: completedAt,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$ReadingSavedWordModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $ReadingSavedWordModelsTable,
+      ReadingSavedWordRow,
+      $$ReadingSavedWordModelsTableFilterComposer,
+      $$ReadingSavedWordModelsTableOrderingComposer,
+      $$ReadingSavedWordModelsTableAnnotationComposer,
+      $$ReadingSavedWordModelsTableCreateCompanionBuilder,
+      $$ReadingSavedWordModelsTableUpdateCompanionBuilder,
+      (
+        ReadingSavedWordRow,
+        BaseReferences<
+          _$AppDatabase,
+          $ReadingSavedWordModelsTable,
+          ReadingSavedWordRow
+        >,
+      ),
+      ReadingSavedWordRow,
+      PrefetchHooks Function()
+    >;
 typedef $$PracticeSessionHistoryModelsTableCreateCompanionBuilder =
     PracticeSessionHistoryModelsCompanion Function({
       Value<int> id,
@@ -22706,6 +23309,11 @@ class $AppDatabaseManager {
       $$ReadingStoryProgressModelsTableTableManager(
         _db,
         _db.readingStoryProgressModels,
+      );
+  $$ReadingSavedWordModelsTableTableManager get readingSavedWordModels =>
+      $$ReadingSavedWordModelsTableTableManager(
+        _db,
+        _db.readingSavedWordModels,
       );
   $$PracticeSessionHistoryModelsTableTableManager
   get practiceSessionHistoryModels =>

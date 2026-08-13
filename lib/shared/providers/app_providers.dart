@@ -31,6 +31,8 @@ import '../../data/services/speaking_progress_service.dart';
 import '../../data/services/ipa_progress_service.dart';
 import '../../data/services/grammar_progress_service.dart';
 import '../../data/services/reading_progress_service.dart';
+import '../../data/services/reading_vocabulary_service.dart';
+import '../../data/services/reading_word_translation_service.dart';
 import '../../data/services/profile_statistics_service.dart';
 import '../../data/services/progress_dashboard_service.dart';
 import '../../data/services/sentence_ai_service.dart';
@@ -104,6 +106,26 @@ final ipaProgressServiceProvider = Provider<IpaProgressService>(
 final readingProgressServiceProvider = Provider<ReadingProgressService>(
   (ref) => ReadingProgressService(ref.watch(appDatabaseProvider)),
 );
+
+final readingVocabularyServiceProvider = Provider<ReadingVocabularyService>((
+  ref,
+) {
+  // Rebuild the in-memory lookup when the translated vocabulary changes.
+  ref.watch(selectedAppLanguageProvider);
+  return ReadingVocabularyService(ref.watch(appDatabaseProvider));
+});
+
+final readingVocabularyTaskProvider =
+    FutureProvider<ReadingVocabularyTaskSnapshot>((ref) async {
+      await ref.watch(localDataInitializationProvider.future);
+      return ref.watch(readingVocabularyServiceProvider).loadTask();
+    });
+
+final readingWordTranslatorProvider = Provider<ReadingWordTranslator>((ref) {
+  return MlKitReadingWordTranslator(
+    targetLanguageCode: ref.watch(selectedAppLanguageProvider),
+  );
+});
 
 /// A present key means the story was opened; a `true` value means it reached
 /// the reading completion threshold.

@@ -181,6 +181,52 @@ void main() {
     );
     expect(screen.source.name, 'daily');
   });
+
+  testWidgets('Home shows and opens a four-word Reading task', (tester) async {
+    final database = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(database.close);
+    final savedAt = DateTime.now().millisecondsSinceEpoch;
+    await database.batch((batch) {
+      batch.insertAll(database.wordModels, [
+        for (var id = 1; id <= 4; id++)
+          WordModelsCompanion.insert(
+            id: id,
+            topicId: 1,
+            writing: 'reading$id',
+            translation: 'nghĩa $id',
+            isEnabled: true,
+            priority: 1,
+            level: 1,
+          ),
+      ]);
+      batch.insertAll(database.readingSavedWordModels, [
+        for (var id = 1; id <= 4; id++)
+          ReadingSavedWordModelsCompanion.insert(
+            wordId: id,
+            topicId: 1,
+            storyId: 3,
+            savedAt: savedAt + id,
+          ),
+      ]);
+    });
+    await _pumpHome(tester, database);
+
+    expect(
+      find.byKey(const ValueKey('reading-vocabulary-task')),
+      findsOneWidget,
+    );
+    expect(find.text('Học 4 từ đã lưu khi đọc'), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('reading-vocabulary-task')));
+    await _pumpNavigation(tester);
+
+    expect(find.byType(ReviewPracticeScreen), findsOneWidget);
+    expect(find.text('READING WORDS'), findsOneWidget);
+    final screen = tester.widget<ReviewPracticeScreen>(
+      find.byType(ReviewPracticeScreen),
+    );
+    expect(screen.words, hasLength(4));
+  });
 }
 
 Future<void> _pumpHome(WidgetTester tester, AppDatabase database) async {

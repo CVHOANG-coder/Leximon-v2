@@ -108,6 +108,7 @@ class _MainScreenState extends State<MainScreen> {
     }
     if (index == 3) {
       ref.invalidate(profileStatisticsProvider);
+      ref.invalidate(progressDashboardProvider);
       ref.invalidate(topicProgressProvider);
     }
     setState(() => _selectedIndex = index);

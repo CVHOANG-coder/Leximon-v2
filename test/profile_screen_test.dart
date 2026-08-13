@@ -71,6 +71,11 @@ void main() {
     expect(find.text('1 giờ 15 phút / ngày'), findsOneWidget);
     expect(find.text('Trung bình trong 7 ngày gần nhất'), findsOneWidget);
     expect(find.text('6'), findsOneWidget);
+    expect(find.text('Chuỗi ngày'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('assets/svgs/streak.svg')),
+      findsOneWidget,
+    );
     expect(find.text('120'), findsOneWidget);
     expect(find.text('18'), findsOneWidget);
     expect(find.text('Nguyễn An'), findsOneWidget);

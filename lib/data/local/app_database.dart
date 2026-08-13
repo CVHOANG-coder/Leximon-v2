@@ -677,6 +677,30 @@ class ReadingStoryProgressModels extends Table {
   Set<Column<Object>> get primaryKey => {storyId};
 }
 
+/// Words explicitly saved while the learner is reading a story.
+///
+/// Completed rows are retained so the same word is not offered repeatedly
+/// when it appears in another story.
+@DataClassName('ReadingSavedWordRow')
+@TableIndex(
+  name: 'reading_saved_word_pending_saved_at',
+  columns: {#completedAt, #savedAt},
+)
+class ReadingSavedWordModels extends Table {
+  IntColumn get wordId => integer()();
+
+  IntColumn get topicId => integer()();
+
+  IntColumn get storyId => integer()();
+
+  IntColumn get savedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {wordId, topicId};
+}
+
 /// One row represents one practice unit that reached its completion rule.
 /// Keeping this append-only history separate from content progress prevents a
 /// partially opened lesson from being counted toward the weekly goal.
@@ -730,6 +754,7 @@ class PracticeSessionHistoryModels extends Table {
     GrammarUserResponseModels,
     IpaSoundProgressModels,
     ReadingStoryProgressModels,
+    ReadingSavedWordModels,
     PracticeSessionHistoryModels,
   ],
 )
@@ -742,7 +767,7 @@ class AppDatabase extends _$AppDatabase {
       'bundled_topics_$languageCode';
 
   @override
-  int get schemaVersion => 11;
+  int get schemaVersion => 12;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -829,6 +854,9 @@ class AppDatabase extends _$AppDatabase {
       if (from < 11) {
         await m.createTable(speakingLessonProgressModels);
         await m.createTable(speakingSentenceProgressModels);
+      }
+      if (from < 12) {
+        await m.createTable(readingSavedWordModels);
       }
     },
   );

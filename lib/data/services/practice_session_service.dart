@@ -36,6 +36,33 @@ class PracticeSessionService {
             completedAt: completed.millisecondsSinceEpoch,
           ),
         );
+    await _markStreakDay(completed);
+  }
+
+  Future<void> _markStreakDay(DateTime completedAt) async {
+    final date = DateTime(
+      completedAt.year,
+      completedAt.month,
+      completedAt.day,
+    ).millisecondsSinceEpoch;
+    final existing = await (_database.select(
+      _database.visitModels,
+    )..where((row) => row.date.equals(date))).getSingleOrNull();
+    if (existing == null) {
+      await _database
+          .into(_database.visitModels)
+          .insert(
+            VisitModelsCompanion.insert(
+              date: date,
+              atLeastOneTaskFinished: const Value(true),
+            ),
+          );
+      return;
+    }
+    if (existing.atLeastOneTaskFinished) return;
+    await (_database.update(_database.visitModels)
+          ..where((row) => row.id.equals(existing.id)))
+        .write(const VisitModelsCompanion(atLeastOneTaskFinished: Value(true)));
   }
 
   /// Repairs rows affected by the old open/completion race. Session history is

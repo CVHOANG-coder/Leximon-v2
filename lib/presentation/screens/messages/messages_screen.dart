@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../data/services/challenge_dashboard_service.dart';
+import '../../../presentation/widgets/streak_indicator.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../grammar_practice/grammar_exercise_screen.dart';
 import '../grammar_practice/grammar_practice_screen.dart';
@@ -244,7 +246,7 @@ class _StreakBadge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.fromLTRB(10, 8, 12, 8),
+      padding: const EdgeInsets.fromLTRB(8, 6, 8, 6),
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: .62),
         borderRadius: BorderRadius.circular(17),
@@ -260,7 +262,7 @@ class _StreakBadge extends StatelessWidget {
       child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const Text('🔥', style: TextStyle(fontSize: 26, height: 1)),
+          const StreakIcon(size: 24),
           const SizedBox(width: 7),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -274,9 +276,9 @@ class _StreakBadge extends StatelessWidget {
                   fontWeight: FontWeight.w800,
                 ),
               ),
-              const SizedBox(height: 3),
+              const SizedBox(height: 2),
               const Text(
-                'liên tiếp',
+                streakLabel,
                 style: TextStyle(
                   color: Color(0xFF7188A8),
                   fontSize: 9,
@@ -308,7 +310,6 @@ class _WeeklyGoalCard extends StatelessWidget {
     final progress = dashboard?.weekProgress ?? 0;
     final progressPercent = (progress * 100).round();
     final recommendation = dashboard?.recommendation;
-    final recommendationColor = _skillColor(recommendation?.skill);
     return Container(
       padding: const EdgeInsets.fromLTRB(22, 22, 22, 20),
       decoration: BoxDecoration(
@@ -401,10 +402,13 @@ class _WeeklyGoalCard extends StatelessWidget {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(13),
                       ),
-                      child: Icon(
-                        _skillIcon(recommendation?.skill),
-                        color: recommendationColor,
-                        size: 23,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8),
+                        child: SvgPicture.asset(
+                          _skillIconAsset(recommendation?.skill),
+                          key: ValueKey(_skillIconAsset(recommendation?.skill)),
+                          fit: BoxFit.contain,
+                        ),
                       ),
                     ),
                     const SizedBox(width: 11),
@@ -472,22 +476,6 @@ class _WeeklyGoalCard extends StatelessWidget {
       ),
     );
   }
-
-  IconData _skillIcon(PracticeSkill? skill) => switch (skill) {
-    PracticeSkill.grammar => Icons.account_tree_rounded,
-    PracticeSkill.speaking => Icons.mic_rounded,
-    PracticeSkill.pronunciation => Icons.record_voice_over_rounded,
-    PracticeSkill.reading => Icons.menu_book_rounded,
-    _ => Icons.headphones_rounded,
-  };
-
-  Color _skillColor(PracticeSkill? skill) => switch (skill) {
-    PracticeSkill.grammar => const Color(0xFFFF7B24),
-    PracticeSkill.speaking => const Color(0xFFEE5C8A),
-    PracticeSkill.pronunciation => const Color(0xFF17C889),
-    PracticeSkill.reading => const Color(0xFF7A4EF4),
-    _ => const Color(0xFF2168ED),
-  };
 }
 
 class _PracticeModesSection extends StatelessWidget {
@@ -542,7 +530,7 @@ class _PracticeModesSection extends StatelessWidget {
                 _PracticeModeCard(
                   key: const ValueKey('listening-mode-card'),
                   actionKey: const ValueKey('listening-mode-card-action'),
-                  icon: Icons.headphones_rounded,
+                  iconAsset: _skillIconAsset(PracticeSkill.listening),
                   title: 'Luyện nghe',
                   description: 'Nghe hiểu & phản xạ',
                   progressText: _progressText(listening, 'bài'),
@@ -553,7 +541,7 @@ class _PracticeModesSection extends StatelessWidget {
                 _PracticeModeCard(
                   key: const ValueKey('grammar-mode-card'),
                   actionKey: const ValueKey('grammar-mode-card-action'),
-                  icon: Icons.account_tree_rounded,
+                  iconAsset: _skillIconAsset(PracticeSkill.grammar),
                   title: 'Ngữ pháp',
                   description: 'Cấu trúc & vận dụng',
                   progressText: _progressText(grammar, 'chủ đề'),
@@ -564,7 +552,7 @@ class _PracticeModesSection extends StatelessWidget {
                 _PracticeModeCard(
                   key: const ValueKey('speaking-mode-card'),
                   actionKey: const ValueKey('speaking-mode-card-action'),
-                  icon: Icons.mic_rounded,
+                  iconAsset: _skillIconAsset(PracticeSkill.speaking),
                   title: 'Luyện nói',
                   description: 'Nghe mẫu & nói lại',
                   progressText: _progressText(speaking, 'bài'),
@@ -575,7 +563,7 @@ class _PracticeModesSection extends StatelessWidget {
                 _PracticeModeCard(
                   key: const ValueKey('pronunciation-mode-card'),
                   actionKey: const ValueKey('pronunciation-mode-card-action'),
-                  icon: Icons.record_voice_over_rounded,
+                  iconAsset: _skillIconAsset(PracticeSkill.pronunciation),
                   title: 'IPA & phát âm',
                   description: 'Khẩu hình & âm chuẩn',
                   progressText: _progressText(pronunciation, 'âm'),
@@ -586,7 +574,7 @@ class _PracticeModesSection extends StatelessWidget {
                 _PracticeModeCard(
                   key: const ValueKey('reading-mode-card'),
                   actionKey: const ValueKey('reading-mode-card-action'),
-                  icon: Icons.menu_book_rounded,
+                  iconAsset: _skillIconAsset(PracticeSkill.reading),
                   title: 'Luyện đọc',
                   description: 'Đọc hiểu & từ vựng',
                   progressText: _progressText(reading, 'bài'),
@@ -884,7 +872,14 @@ class _PracticeHistoryRow extends StatelessWidget {
               color: color.withValues(alpha: .11),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: Icon(_historySkillIcon(entry.skill), color: color, size: 20),
+            child: Padding(
+              padding: const EdgeInsets.all(8),
+              child: SvgPicture.asset(
+                _skillIconAsset(entry.skill),
+                key: ValueKey(_skillIconAsset(entry.skill)),
+                fit: BoxFit.contain,
+              ),
+            ),
           ),
           const SizedBox(width: 11),
           Expanded(
@@ -936,12 +931,12 @@ const _insightDecoration = BoxDecoration(
   ],
 );
 
-IconData _historySkillIcon(PracticeSkill skill) => switch (skill) {
-  PracticeSkill.listening => Icons.headphones_rounded,
-  PracticeSkill.speaking => Icons.mic_rounded,
-  PracticeSkill.grammar => Icons.account_tree_rounded,
-  PracticeSkill.pronunciation => Icons.record_voice_over_rounded,
-  PracticeSkill.reading => Icons.menu_book_rounded,
+String _skillIconAsset(PracticeSkill? skill) => switch (skill) {
+  PracticeSkill.grammar => 'assets/svgs/challenge/grammar.svg',
+  PracticeSkill.speaking => 'assets/svgs/challenge/speak.svg',
+  PracticeSkill.pronunciation => 'assets/svgs/challenge/pronunciation.svg',
+  PracticeSkill.reading => 'assets/svgs/challenge/read.svg',
+  _ => 'assets/svgs/challenge/listen.svg',
 };
 
 Color _historySkillColor(PracticeSkill skill) => switch (skill) {
@@ -966,7 +961,7 @@ String _formatHistoryTime(DateTime value) {
 
 class _PracticeModeCard extends StatelessWidget {
   const _PracticeModeCard({
-    required this.icon,
+    required this.iconAsset,
     required this.title,
     required this.description,
     required this.progressText,
@@ -977,7 +972,7 @@ class _PracticeModeCard extends StatelessWidget {
     super.key,
   });
 
-  final IconData icon;
+  final String iconAsset;
   final String title;
   final String description;
   final String progressText;
@@ -1014,7 +1009,14 @@ class _PracticeModeCard extends StatelessWidget {
                       color: color.withValues(alpha: .11),
                       borderRadius: BorderRadius.circular(14),
                     ),
-                    child: Icon(icon, color: color, size: 21),
+                    child: Padding(
+                      padding: const EdgeInsets.all(7),
+                      child: SvgPicture.asset(
+                        iconAsset,
+                        key: ValueKey(iconAsset),
+                        fit: BoxFit.contain,
+                      ),
+                    ),
                   ),
                   const Spacer(),
                   _ProgressRing(

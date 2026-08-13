@@ -55,7 +55,12 @@ class JustAudioListeningController implements ListeningAudioController {
   }) async {
     if (url.isEmpty) return;
     if (_loadedUrl != url) {
-      await _player.setUrl(url);
+      final uri = Uri.tryParse(url);
+      if (uri?.scheme == 'file') {
+        await _player.setFilePath(uri!.toFilePath());
+      } else {
+        await _player.setUrl(url);
+      }
       _loadedUrl = url;
     }
     await _player.setSpeed(speed);
@@ -757,6 +762,8 @@ class _ListeningExerciseScreenState
       );
       await playerCued.timeout(const Duration(seconds: 15));
       if (!mounted || _currentIndex != initialIndex) return;
+      await _seekYoutubeToSentence(controller, challenge);
+      await _enableYoutubeAudio(controller);
       await controller.setPlaybackRate(_playbackSpeed);
       await controller.playVideo();
     } on TimeoutException {
@@ -847,10 +854,33 @@ class _ListeningExerciseScreenState
         startSeconds: challenge.timeStart,
         endSeconds: challenge.timeEnd,
       );
+      await _seekYoutubeToSentence(youtubeController, challenge);
+      await _enableYoutubeAudio(youtubeController);
       await youtubeController.setPlaybackRate(_playbackSpeed);
+      await youtubeController.playVideo();
       return;
     }
     await _playAudio(challenge, restart: true);
+  }
+
+  Future<void> _enableYoutubeAudio(YoutubePlayerController controller) async {
+    // iOS may initialise an iframe in a muted state (especially after an
+    // autoplay attempt). Always restore audible playback before a sentence
+    // starts so learners hear the voice, not just the video image.
+    await controller.unMute();
+    await controller.setVolume(100);
+  }
+
+  Future<void> _seekYoutubeToSentence(
+    YoutubePlayerController controller,
+    ListeningChallenge challenge,
+  ) async {
+    final startSeconds = challenge.timeStart;
+    if (startSeconds != null) {
+      // YouTube starts at the closest keyframe. Seeking once after the video
+      // is ready prevents the previous sentence's tail from leaking in.
+      await controller.seekTo(seconds: startSeconds, allowSeekAhead: true);
+    }
   }
 
   void _cyclePlaybackSpeed() {
@@ -1341,6 +1371,7 @@ class _YoutubeAnswerField extends StatelessWidget {
     key: const ValueKey('listening-answer-field'),
     controller: controller,
     focusNode: focusNode,
+    onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
     autofocus: true,
     maxLength: 200,
     maxLines: 4,
@@ -2407,6 +2438,7 @@ class _AnswerArea extends StatelessWidget {
             key: const ValueKey('listening-answer-field'),
             controller: controller,
             focusNode: focusNode,
+            onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
             autofocus: true,
             maxLength: 200,
             maxLines: 5,

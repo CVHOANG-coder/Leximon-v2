@@ -1312,6 +1312,7 @@ class _TextGapRenderer extends StatelessWidget {
           TextField(
             key: ValueKey('grammar-gap-text-$index'),
             controller: controllers[index],
+            onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
             readOnly: locked,
             textInputAction: index == controllers.length - 1
                 ? TextInputAction.done

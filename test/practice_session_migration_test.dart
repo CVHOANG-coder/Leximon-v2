@@ -7,7 +7,7 @@ import 'package:leximon/data/local/app_database.dart';
 
 void main() {
   test(
-    'schema 11 backfills sessions and creates speaking progress tables',
+    'schema 12 backfills sessions and creates newer progress tables',
     () async {
       final directory = await Directory.systemTemp.createTemp(
         'leximon-session-migration-',
@@ -68,6 +68,10 @@ void main() {
         await afterUpgrade
             .select(afterUpgrade.speakingSentenceProgressModels)
             .get(),
+        isEmpty,
+      );
+      expect(
+        await afterUpgrade.select(afterUpgrade.readingSavedWordModels).get(),
         isEmpty,
       );
     },

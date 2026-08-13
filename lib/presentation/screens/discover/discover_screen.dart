@@ -7,6 +7,7 @@ import '../../../data/models/topic.dart';
 import '../../../data/models/vocabulary_collection.dart';
 import '../../../data/services/progress_dashboard_service.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
+import '../../../presentation/widgets/streak_indicator.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../vocabulary_collection/vocabulary_collection_screen.dart';
 import '../word_study/word_study_screen.dart';
@@ -426,11 +427,11 @@ class _ProgressHero extends StatelessWidget {
             children: [
               Expanded(
                 child: _WeeklyMetric(
-                  iconAsset: 'assets/svgs/streak.svg',
+                  iconAsset: streakIconAsset,
                   value: '${dashboard.currentStreak}',
-                  label: 'Chuỗi ngày',
-                  accent: const Color(0xFFFF5F72),
-                  background: const Color(0xFFFFF1F3),
+                  label: streakLabel,
+                  accent: streakAccentColor,
+                  background: streakBackgroundColor,
                 ),
               ),
               const SizedBox(width: 8),

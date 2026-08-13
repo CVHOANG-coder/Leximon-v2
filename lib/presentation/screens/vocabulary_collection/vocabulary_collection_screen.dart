@@ -754,6 +754,8 @@ class _SearchShell extends StatelessWidget {
                 child: TextField(
                   controller: controller,
                   autofocus: true,
+                  onTapOutside: (_) =>
+                      FocusManager.instance.primaryFocus?.unfocus(),
                   onChanged: onChanged,
                   style: const TextStyle(
                     color: AppColors.textPrimary,

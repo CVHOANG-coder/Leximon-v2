@@ -8,7 +8,7 @@ import '../../../core/constants/app_colors.dart';
 import '../../../data/services/listening_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../speaking_practice/speaking_exercise_screen.dart';
-import 'listening_exercise_screen.dart';
+import 'listening_preload_screen.dart';
 
 class ListeningCourseDetailScreen extends ConsumerStatefulWidget {
   const ListeningCourseDetailScreen({
@@ -227,10 +227,11 @@ class _ListeningCourseDetailScreenState
                 courseIndexAsset: widget.courseIndexAsset,
                 lessonId: lesson.id,
               )
-            : ListeningExerciseScreen(
+            : ListeningPreloadScreen(
                 courseId: widget.courseId,
                 courseIndexAsset: widget.courseIndexAsset,
                 lessonId: lesson.id,
+                lessonName: lesson.name,
               ),
       ),
     );
@@ -593,6 +594,7 @@ class _DetailSearchField extends StatelessWidget {
           child: TextField(
             key: const ValueKey('course-detail-search'),
             controller: controller,
+            onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
             onChanged: onChanged,
             decoration: const InputDecoration(
               hintText: 'Tìm truyện hoặc từ khóa',
@@ -1251,7 +1253,6 @@ class _ListeningLesson {
 
 enum _PracticeMode {
   listenAndType('Nghe & Gõ', Icons.headphones_rounded),
-  listenAndRead('Nghe & Đọc', Icons.auto_stories_rounded),
   speaking('Luyện nói', Icons.mic_rounded);
 
   const _PracticeMode(this.label, this.icon);

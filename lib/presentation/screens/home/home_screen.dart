@@ -538,6 +538,9 @@ class _DailyCardContent extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final readingVocabularyTask = ref
+        .watch(readingVocabularyTaskProvider)
+        .valueOrNull;
     final completedTasks = snapshot.tasks.where((task) => task.isDone).length;
     final firstIncompleteIndex = snapshot.tasks.indexWhere(
       (task) => !task.isDone,
@@ -600,6 +603,14 @@ class _DailyCardContent extends ConsumerWidget {
               ),
             ),
           ),
+          if (readingVocabularyTask?.isAvailable == true)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 8),
+              child: _ReadingVocabularyTaskTile(
+                pendingCount: readingVocabularyTask!.pendingCount,
+                onTap: () => _openReadingVocabularyTask(context, ref),
+              ),
+            ),
           if (snapshot.isComplete) ...[
             const SizedBox(height: 2),
             const Text(
@@ -625,6 +636,41 @@ class _DailyCardContent extends ConsumerWidget {
         ],
       ),
     );
+  }
+
+  Future<void> _openReadingVocabularyTask(
+    BuildContext context,
+    WidgetRef ref,
+  ) async {
+    final service = ref.read(readingVocabularyServiceProvider);
+    final task = await service.loadTask();
+    if (!context.mounted) return;
+    if (!task.isAvailable) {
+      ref.invalidate(readingVocabularyTaskProvider);
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Chưa đủ 4 từ Reading để bắt đầu học.')),
+      );
+      return;
+    }
+
+    final completed = await Navigator.of(context).push<bool>(
+      MaterialPageRoute<bool>(
+        builder: (_) => ReviewPracticeScreen(
+          title: 'Học từ trong bài đọc',
+          kicker: 'READING WORDS',
+          words: task.words.map(_exerciseMapFromRow).toList(growable: false),
+          distractorWords: task.distractorWords
+              .map(_exerciseMapFromRow)
+              .toList(growable: false),
+          dailyTaskType: DailyTaskType.learn,
+          similarWordIds: task.similarWordIds,
+          database: ref.read(appDatabaseProvider),
+        ),
+      ),
+    );
+    if (!context.mounted) return;
+    if (completed == true) await service.completeBatch(task.words);
+    _invalidateHomeProgress(ref);
   }
 
   Future<void> _openTask(
@@ -1043,6 +1089,7 @@ class _AdditionalTasksLauncherState
 
 void _invalidateHomeProgress(WidgetRef ref) {
   ref.invalidate(dailyCardProvider);
+  ref.invalidate(readingVocabularyTaskProvider);
   ref.invalidate(wordProgressProvider);
   ref.invalidate(topicProgressProvider);
   ref.invalidate(progressDashboardProvider);
@@ -1266,6 +1313,84 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
                 ),
               ),
             ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _ReadingVocabularyTaskTile extends StatelessWidget {
+  const _ReadingVocabularyTaskTile({
+    required this.pendingCount,
+    required this.onTap,
+  });
+
+  final int pendingCount;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Material(
+      key: const ValueKey('reading-vocabulary-task'),
+      color: const Color(0xFFF2EEFF),
+      borderRadius: BorderRadius.circular(22),
+      child: InkWell(
+        onTap: onTap,
+        borderRadius: BorderRadius.circular(22),
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(22),
+            border: Border.all(color: const Color(0xFFD7CDFB), width: 1.15),
+          ),
+          child: Row(
+            children: [
+              Container(
+                width: 40,
+                height: 40,
+                alignment: Alignment.center,
+                decoration: const BoxDecoration(
+                  color: Color(0xFFE4DCFF),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(
+                  Icons.menu_book_rounded,
+                  color: Color(0xFF6551B9),
+                  size: 22,
+                ),
+              ),
+              const SizedBox(width: 13),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      'Học 4 từ đã lưu khi đọc',
+                      style: TextStyle(
+                        color: AppColors.textPrimary,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                    const SizedBox(height: 3),
+                    Text(
+                      '$pendingCount từ đang chờ · học theo nhóm 4 từ',
+                      style: const TextStyle(
+                        color: AppColors.textSecondary,
+                        fontSize: 11,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const Icon(
+                Icons.chevron_right_rounded,
+                color: Color(0xFF6551B9),
+                size: 24,
+              ),
+            ],
           ),
         ),
       ),
@@ -1914,6 +2039,7 @@ class _SearchRow extends StatelessWidget {
         Expanded(
           child: TextField(
             controller: controller,
+            onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
             onChanged: onChanged,
             style: const TextStyle(fontSize: 12, color: AppColors.textPrimary),
             decoration: const InputDecoration(

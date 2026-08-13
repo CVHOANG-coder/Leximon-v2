@@ -317,6 +317,8 @@ class _SearchField extends StatelessWidget {
             child: TextField(
               key: const ValueKey('listening-search-field'),
               controller: controller,
+              onTapOutside: (_) =>
+                  FocusManager.instance.primaryFocus?.unfocus(),
               onChanged: onChanged,
               textInputAction: TextInputAction.search,
               style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600),

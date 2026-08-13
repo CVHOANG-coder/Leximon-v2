@@ -1,5 +1,8 @@
+import 'package:drift/drift.dart' show Value;
 import 'package:drift/native.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/core/theme/app_theme.dart';
@@ -7,6 +10,7 @@ import 'package:leximon/data/datasources/reading_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/reading_story.dart';
 import 'package:leximon/data/services/reading_progress_service.dart';
+import 'package:leximon/data/services/reading_word_translation_service.dart';
 import 'package:leximon/presentation/screens/messages/messages_screen.dart';
 import 'package:leximon/presentation/screens/reading/reading_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
@@ -132,6 +136,156 @@ void main() {
       'Nội dung câu chuyện mùa đông.',
     );
     expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('tapping a database word shows its meaning and saves it', (
+    tester,
+  ) async {
+    var translatorCreations = 0;
+    final spokenWords = <String>[];
+    const ttsChannel = MethodChannel('flutter_tts');
+    TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+        .setMockMethodCallHandler(ttsChannel, (call) async {
+          if (call.method == 'speak') {
+            final arguments = call.arguments;
+            spokenWords.add(
+              arguments is Map
+                  ? arguments['text'] as String
+                  : arguments as String,
+            );
+          }
+          return 1;
+        });
+    addTearDown(
+      () => TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger
+          .setMockMethodCallHandler(ttsChannel, null),
+    );
+    final database = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(database.close);
+    await database
+        .into(database.wordModels)
+        .insert(
+          WordModelsCompanion.insert(
+            id: 101,
+            topicId: 2,
+            writing: 'winter',
+            translation: 'mùa đông',
+            transcription: const Value('/ˈwɪn.tər/'),
+            isEnabled: true,
+            priority: 1,
+            level: 1,
+          ),
+        );
+    const story = ReadingStory(
+      id: 9,
+      title: 'Mùa đông',
+      content: 'Mùa đông đã đến.',
+      imageAsset: 'assets/images/reading/0.jpg',
+      englishTitle: 'Winter',
+      englishContent: 'Winter came quietly.',
+    );
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          appDatabaseProvider.overrideWithValue(database),
+          readingWordTranslatorProvider.overrideWith((ref) {
+            translatorCreations++;
+            return _FakeReadingWordTranslator('unused');
+          }),
+        ],
+        child: const MaterialApp(home: ReadingDetailScreen(story: story)),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    final selectable = tester.widget<SelectableText>(
+      find.byKey(const ValueKey('reading-story-content')),
+    );
+    final winterSpan = selectable.textSpan!.children!
+        .whereType<TextSpan>()
+        .firstWhere((span) => span.text == 'Winter');
+    (winterSpan.recognizer! as TapGestureRecognizer).onTap!();
+    await tester.pumpAndSettle();
+
+    expect(find.byKey(const ValueKey('reading-word-writing')), findsOneWidget);
+    expect(find.text('mùa đông'), findsOneWidget);
+    expect(find.text('/ˈwɪn.tər/'), findsOneWidget);
+    expect(translatorCreations, 0);
+    expect(
+      find.byKey(const ValueKey('reading-word-speaker-button')),
+      findsOneWidget,
+    );
+
+    await tester.tap(find.byKey(const ValueKey('reading-word-speaker-button')));
+    await tester.pumpAndSettle();
+    expect(spokenWords, contains('winter'));
+
+    await tester.tap(find.byKey(const ValueKey('reading-add-word-button')));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Đã thêm vào danh sách học'), findsOneWidget);
+    final saved = await database.select(database.readingSavedWordModels).get();
+    expect(saved, hasLength(1));
+    expect(saved.single.wordId, 101);
+    expect(saved.single.storyId, 9);
+  });
+
+  testWidgets('translates a missing word without offering to save it', (
+    tester,
+  ) async {
+    final database = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(database.close);
+    final translator = _FakeReadingWordTranslator('bí ẩn');
+    var translatorCreations = 0;
+    const story = ReadingStory(
+      id: 10,
+      title: 'Bí ẩn',
+      content: 'Một điều bí ẩn.',
+      imageAsset: 'assets/images/reading/0.jpg',
+      englishTitle: 'Mystery',
+      englishContent: 'Mystery appeared.',
+    );
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          appDatabaseProvider.overrideWithValue(database),
+          readingWordTranslatorProvider.overrideWith((ref) {
+            translatorCreations++;
+            return translator;
+          }),
+        ],
+        child: const MaterialApp(home: ReadingDetailScreen(story: story)),
+      ),
+    );
+    await tester.pumpAndSettle();
+    expect(translatorCreations, 0);
+
+    final selectable = tester.widget<SelectableText>(
+      find.byKey(const ValueKey('reading-story-content')),
+    );
+    final mysterySpan = selectable.textSpan!.children!
+        .whereType<TextSpan>()
+        .firstWhere((span) => span.text == 'Mystery');
+    (mysterySpan.recognizer! as TapGestureRecognizer).onTap!();
+    (mysterySpan.recognizer! as TapGestureRecognizer).onTap!();
+    await tester.pumpAndSettle();
+
+    expect(find.text('Dịch từ trong bài đọc'), findsOneWidget);
+    expect(
+      find.byKey(const ValueKey('reading-word-translation')),
+      findsOneWidget,
+    );
+    expect(find.text('bí ẩn'), findsOneWidget);
+    expect(translatorCreations, 1);
+    expect(find.text('Dịch từ trong bài đọc'), findsOneWidget);
+    expect(find.byKey(const ValueKey('reading-add-word-button')), findsNothing);
+    expect(translator.translatedWords, ['Mystery']);
+    expect(
+      await database.select(database.readingSavedWordModels).get(),
+      isEmpty,
+    );
   });
 
   testWidgets('shows viewed and completed status on Reading card images', (
@@ -332,4 +486,17 @@ void main() {
     await tester.pumpAndSettle();
     expect(tester.getTopLeft(detailBack), detailBackPosition);
   });
+}
+
+class _FakeReadingWordTranslator implements ReadingWordTranslator {
+  _FakeReadingWordTranslator(this.result);
+
+  final String result;
+  final List<String> translatedWords = [];
+
+  @override
+  Future<String> translateWord(String word) async {
+    translatedWords.add(word);
+    return result;
+  }
 }
