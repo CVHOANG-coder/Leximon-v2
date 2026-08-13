@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'package:drift/drift.dart';
 
 import '../local/app_database.dart';
+import 'practice_session_service.dart';
 
 class GrammarProgressService {
   const GrammarProgressService(this._database);
@@ -28,7 +29,30 @@ class GrammarProgressService {
               updatedAt: (now ?? DateTime.now()).millisecondsSinceEpoch,
             ),
           );
-      await _recalculateTopicAndPack(topicId);
+      final becameComplete = await _recalculateTopicAndPack(topicId);
+      if (becameComplete) {
+        final responses = await (_database.select(
+          _database.grammarUserResponseModels,
+        )..where((row) => row.topicId.equals(topicId))).get();
+        final topic = await (_database.select(
+          _database.grammarTopicModels,
+        )..where((row) => row.id.equals(topicId))).getSingle();
+        final completedAt = now ?? DateTime.now();
+        final startedAt = responses.isEmpty
+            ? completedAt
+            : DateTime.fromMillisecondsSinceEpoch(
+                responses
+                    .map((response) => response.updatedAt)
+                    .reduce(math.min),
+              );
+        await PracticeSessionService(_database).recordCompleted(
+          skill: PracticeSessionSkill.grammar,
+          contentId: topicId.toString(),
+          parentId: topic.packId.toString(),
+          startedAt: startedAt,
+          completedAt: completedAt,
+        );
+      }
     });
   }
 
@@ -75,7 +99,7 @@ class GrammarProgressService {
     });
   }
 
-  Future<void> _recalculateTopicAndPack(int topicId) async {
+  Future<bool> _recalculateTopicAndPack(int topicId) async {
     final topic = await (_database.select(
       _database.grammarTopicModels,
     )..where((row) => row.id.equals(topicId))).getSingle();
@@ -100,6 +124,7 @@ class GrammarProgressService {
       ),
     );
     await _recalculatePack(topic.packId);
+    return !topic.isComplete && topicProgress >= 100;
   }
 
   Future<void> _recalculatePack(int packId) async {

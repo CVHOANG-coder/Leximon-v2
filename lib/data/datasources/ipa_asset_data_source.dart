@@ -100,13 +100,20 @@ abstract final class IpaAssetDataSource {
     'θ': 'thin',
   };
 
-  static Future<List<IpaSound>> load({AssetBundle? bundle}) async {
+  static Future<List<IpaSound>> load({
+    AssetBundle? bundle,
+    String languageCode = 'en',
+  }) async {
     final assets = bundle ?? rootBundle;
     final sounds = <Future<IpaSound>>[];
+    final videoCatalog = await _loadVideoCatalog(assets);
+    final descriptions = await _loadDescriptions(assets, languageCode);
 
     for (final entry in _catalog.entries) {
       for (final symbol in entry.value) {
-        sounds.add(_loadSound(assets, symbol, entry.key));
+        sounds.add(
+          _loadSound(assets, symbol, entry.key, videoCatalog, descriptions),
+        );
       }
     }
 
@@ -117,6 +124,8 @@ abstract final class IpaAssetDataSource {
     AssetBundle assets,
     String symbol,
     IpaSoundGroup group,
+    _IpaVideoCatalog videoCatalog,
+    Map<String, String> descriptions,
   ) async {
     final source = await assets.loadString('assets/data/ipa/json/$symbol');
     final json = jsonDecode(source) as Map<String, dynamic>;
@@ -132,6 +141,8 @@ abstract final class IpaAssetDataSource {
               (words.isEmpty
                   ? json['name'].toString().trim()
                   : words.first['name'].toString().trim()));
+    final practice = json['soundPracticeWords'] as Map<String, dynamic>? ?? {};
+    final videoStartSeconds = videoCatalog.startSeconds[symbol] ?? 0;
 
     return IpaSound(
       symbol: json['transcription']?.toString().trim() ?? symbol,
@@ -139,14 +150,100 @@ abstract final class IpaAssetDataSource {
       example: example,
       audioAsset: _normalizeAssetPath(json['audioPath'].toString()),
       group: group,
+      description:
+          descriptions[symbol]?.trim() ??
+          json['description']?.toString().trim() ??
+          '',
+      photoAsset: _normalizeAssetPath(json['photoPath']?.toString() ?? ''),
+      spellingWords: words.map(_wordFromJson).toList(growable: false),
+      beginningWords: _practiceWords(practice, 'beginningSound'),
+      middleWords: _practiceWords(practice, 'middleSound'),
+      endWords: _practiceWords(practice, 'endSound'),
+      youtubeVideoId: videoCatalog.videoId,
+      youtubeStartSeconds: videoStartSeconds.toDouble(),
     );
   }
 
+  static IpaWord _wordFromJson(Map<String, dynamic> json) {
+    final name = json['name']?.toString().trim() ?? '';
+    return IpaWord(
+      name: name,
+      transcription: _phoneticTranscription(
+        json['transcription']?.toString().trim() ?? '',
+      ),
+      audioAsset: _normalizeAssetPath(json['audioPath']?.toString() ?? ''),
+    );
+  }
+
+  static List<IpaWord> _practiceWords(
+    Map<String, dynamic> practice,
+    String key,
+  ) => (practice[key] as List<dynamic>? ?? const [])
+      .cast<Map<String, dynamic>>()
+      .map(_wordFromJson)
+      .toList(growable: false);
+
+  static String _plainTranscription(String source) => source
+      .replaceAll(RegExp('<[^>]*>'), '')
+      .replaceAll('&nbsp;', ' ')
+      .replaceAll(RegExp(r'\s+'), ' ')
+      .trim();
+
+  static String _phoneticTranscription(String source) {
+    final plain = _plainTranscription(source);
+    final firstSlash = plain.indexOf('/');
+    final lastSlash = plain.lastIndexOf('/');
+    if (firstSlash < 0 || lastSlash <= firstSlash) return '';
+    return plain.substring(firstSlash, lastSlash + 1).trim();
+  }
+
+  static Future<_IpaVideoCatalog> _loadVideoCatalog(AssetBundle assets) async {
+    final source = await assets.loadString(
+      'assets/data/ipa/youtube_videos.json',
+    );
+    final json = jsonDecode(source) as Map<String, dynamic>;
+    final starts = (json['startSeconds'] as Map<String, dynamic>? ?? {}).map(
+      (key, value) => MapEntry(key, (value as num).toInt()),
+    );
+    return _IpaVideoCatalog(
+      videoId: json['videoId']?.toString().trim() ?? '',
+      startSeconds: starts,
+    );
+  }
+
+  static Future<Map<String, String>> _loadDescriptions(
+    AssetBundle assets,
+    String languageCode,
+  ) async {
+    const supportedLanguages = {'en', 'es', 'fr', 'pt', 'ru'};
+    final normalizedLanguageCode = languageCode
+        .trim()
+        .toLowerCase()
+        .split(RegExp('[-_]'))
+        .first;
+    final selectedLanguage = supportedLanguages.contains(normalizedLanguageCode)
+        ? normalizedLanguageCode
+        : 'en';
+    final source = await assets.loadString(
+      'assets/data/ipa/descriptions/$selectedLanguage.json',
+    );
+    final json = jsonDecode(source) as Map<String, dynamic>;
+    return json.map((symbol, value) => MapEntry(symbol, value.toString()));
+  }
+
   static String _normalizeAssetPath(String sourcePath) {
+    if (sourcePath.isEmpty) return '';
     const legacyPrefix = 'AmericanSounds/';
     final relative = sourcePath.startsWith(legacyPrefix)
         ? sourcePath.substring(legacyPrefix.length)
         : sourcePath;
     return 'assets/data/ipa/$relative';
   }
+}
+
+class _IpaVideoCatalog {
+  const _IpaVideoCatalog({required this.videoId, required this.startSeconds});
+
+  final String videoId;
+  final Map<String, int> startSeconds;
 }

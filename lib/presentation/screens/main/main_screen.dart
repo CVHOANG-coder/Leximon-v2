@@ -102,6 +102,10 @@ class _MainScreenState extends State<MainScreen> {
       ref.invalidate(topicProgressProvider);
       ref.invalidate(vocabularyCollectionProvider);
     }
+    if (index == 2) {
+      ref.invalidate(challengeDashboardProvider);
+      ref.invalidate(progressDashboardProvider);
+    }
     if (index == 3) {
       ref.invalidate(profileStatisticsProvider);
       ref.invalidate(topicProgressProvider);

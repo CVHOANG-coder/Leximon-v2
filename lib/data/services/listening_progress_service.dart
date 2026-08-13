@@ -1,6 +1,7 @@
 import 'package:drift/drift.dart';
 
 import '../local/app_database.dart';
+import 'practice_session_service.dart';
 
 enum ListeningLessonStatus { notStarted, inProgress, completed }
 
@@ -172,6 +173,19 @@ class ListeningProgressService {
               ),
             ),
           );
+      final wasCompleted =
+          existingLesson?.status == ListeningLessonStatus.completed.index;
+      if (lessonCompleted && !wasCompleted) {
+        await PracticeSessionService(_database).recordCompleted(
+          skill: PracticeSessionSkill.listening,
+          contentId: lessonId.toString(),
+          parentId: courseId.toString(),
+          startedAt: DateTime.fromMillisecondsSinceEpoch(
+            existingLesson?.startedAt ?? timestamp,
+          ),
+          completedAt: DateTime.fromMillisecondsSinceEpoch(timestamp),
+        );
+      }
     });
   }
 

@@ -40,6 +40,7 @@ dependencies:
   flutter_tts: ^4.2.5
   http: ^1.6.0
   just_audio: ^0.10.6
+  record: ^7.1.1
   youtube_player_iframe: ^6.0.2
   shared_preferences: ^2.5.3
 
@@ -101,11 +102,18 @@ flutter:
     - assets/images/owls/
     - assets/images/onboarding/
     - assets/images/grammar/
+    - assets/images/ipa/
+    - assets/images/bg_reading.png
+    - assets/images/bg_reading_screen.png
+    - assets/images/reading/
     - assets/data/vocabulary_test.json
+    - assets/data/books/
     - assets/data/topics/
     - assets/data/sentences/
     - assets/data/grammar/allpack/
     - assets/data/ipa/json/
+    - assets/data/ipa/descriptions/
+    - assets/data/ipa/youtube_videos.json
     - assets/data/ipa/result/vowelSounds/aʊ/pronunciation/
     - assets/data/ipa/result/vowelSounds/eɪ/pronunciation/
     - assets/data/ipa/result/vowelSounds/i/pronunciation/
@@ -149,6 +157,165 @@ flutter:
     - assets/data/ipa/result/consonantSounds/ʤ/pronunciation/
     - assets/data/ipa/result/consonantSounds/ʧ/pronunciation/
     - assets/data/ipa/result/consonantSounds/θ/pronunciation/
+    - assets/data/ipa/result/consonantSounds/b/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/b/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/b/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/b/spelling/
+    - assets/data/ipa/result/consonantSounds/d/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/d/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/d/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/d/spelling/
+    - assets/data/ipa/result/consonantSounds/f/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/f/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/f/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/f/spelling/
+    - assets/data/ipa/result/consonantSounds/g/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/g/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/g/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/g/spelling/
+    - assets/data/ipa/result/consonantSounds/h/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/h/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/h/spelling/
+    - assets/data/ipa/result/consonantSounds/k/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/k/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/k/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/k/spelling/
+    - assets/data/ipa/result/consonantSounds/l/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/l/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/l/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/l/spelling/
+    - assets/data/ipa/result/consonantSounds/m/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/m/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/m/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/m/spelling/
+    - assets/data/ipa/result/consonantSounds/n/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/n/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/n/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/n/spelling/
+    - assets/data/ipa/result/consonantSounds/p/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/p/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/p/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/p/spelling/
+    - assets/data/ipa/result/consonantSounds/r/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/r/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/r/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/r/spelling/
+    - assets/data/ipa/result/consonantSounds/s/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/s/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/s/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/s/spelling/
+    - assets/data/ipa/result/consonantSounds/t/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/t/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/t/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/t/spelling/
+    - assets/data/ipa/result/consonantSounds/v/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/v/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/v/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/v/spelling/
+    - assets/data/ipa/result/consonantSounds/w/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/w/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/w/spelling/
+    - assets/data/ipa/result/consonantSounds/y/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/y/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/y/spelling/
+    - assets/data/ipa/result/consonantSounds/z/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/z/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/z/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/z/spelling/
+    - assets/data/ipa/result/consonantSounds/ð/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/ð/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/ð/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/ð/spelling/
+    - assets/data/ipa/result/consonantSounds/ŋ/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/ŋ/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/ŋ/spelling/
+    - assets/data/ipa/result/consonantSounds/ʃ/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/ʃ/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/ʃ/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/ʃ/spelling/
+    - assets/data/ipa/result/consonantSounds/ʒ/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/ʒ/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/ʒ/spelling/
+    - assets/data/ipa/result/consonantSounds/ʤ/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/ʤ/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/ʤ/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/ʤ/spelling/
+    - assets/data/ipa/result/consonantSounds/ʧ/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/ʧ/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/ʧ/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/ʧ/spelling/
+    - assets/data/ipa/result/consonantSounds/θ/practice/Beginning sound/
+    - assets/data/ipa/result/consonantSounds/θ/practice/End Sound/
+    - assets/data/ipa/result/consonantSounds/θ/practice/Middle Sound/
+    - assets/data/ipa/result/consonantSounds/θ/spelling/
+    - assets/data/ipa/result/rControlledVowels/ɑr/practice/Beginning sound/
+    - assets/data/ipa/result/rControlledVowels/ɑr/practice/End Sound/
+    - assets/data/ipa/result/rControlledVowels/ɑr/practice/Middle Sound/
+    - assets/data/ipa/result/rControlledVowels/ɑr/spelling/
+    - assets/data/ipa/result/rControlledVowels/ɔr/practice/Beginning sound/
+    - assets/data/ipa/result/rControlledVowels/ɔr/practice/End Sound/
+    - assets/data/ipa/result/rControlledVowels/ɔr/practice/Middle Sound/
+    - assets/data/ipa/result/rControlledVowels/ɔr/spelling/
+    - assets/data/ipa/result/rControlledVowels/ɚ/practice/Beginning sound/
+    - assets/data/ipa/result/rControlledVowels/ɚ/practice/End Sound/
+    - assets/data/ipa/result/rControlledVowels/ɚ/practice/Middle Sound/
+    - assets/data/ipa/result/rControlledVowels/ɚ/spelling/
+    - assets/data/ipa/result/rControlledVowels/ɛr/practice/Beginning sound/
+    - assets/data/ipa/result/rControlledVowels/ɛr/practice/End Sound/
+    - assets/data/ipa/result/rControlledVowels/ɛr/practice/Middle Sound/
+    - assets/data/ipa/result/rControlledVowels/ɛr/spelling/
+    - assets/data/ipa/result/vowelSounds/aʊ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/aʊ/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/aʊ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/aʊ/spelling/
+    - assets/data/ipa/result/vowelSounds/eɪ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/eɪ/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/eɪ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/eɪ/spelling/
+    - assets/data/ipa/result/vowelSounds/i/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/i/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/i/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/i/spelling/
+    - assets/data/ipa/result/vowelSounds/ju/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ju/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/ju/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ju/spelling/
+    - assets/data/ipa/result/vowelSounds/oʊ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/oʊ/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/oʊ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/oʊ/spelling/
+    - assets/data/ipa/result/vowelSounds/u/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/u/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/u/spelling/
+    - assets/data/ipa/result/vowelSounds/æ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/æ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/æ/spelling/
+    - assets/data/ipa/result/vowelSounds/ɑ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ɑ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ɑ/spelling/
+    - assets/data/ipa/result/vowelSounds/ɑɪ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ɑɪ/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/ɑɪ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ɑɪ/spelling/
+    - assets/data/ipa/result/vowelSounds/ɔ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ɔ/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/ɔ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ɔ/spelling/
+    - assets/data/ipa/result/vowelSounds/ɔɪ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ɔɪ/practice/End Sound/
+    - assets/data/ipa/result/vowelSounds/ɔɪ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ɔɪ/spelling/
+    - assets/data/ipa/result/vowelSounds/ɛ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ɛ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ɛ/spelling/
+    - assets/data/ipa/result/vowelSounds/ɪ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ɪ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ɪ/spelling/
+    - assets/data/ipa/result/vowelSounds/ʊ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ʊ/spelling/
+    - assets/data/ipa/result/vowelSounds/ʌ/practice/Beginning sound/
+    - assets/data/ipa/result/vowelSounds/ʌ/practice/Middle Sound/
+    - assets/data/ipa/result/vowelSounds/ʌ/spelling/
     - assets/data/listens/01-ielts-listening/course-index.json
     - assets/data/listens/02-short-stories/course-index.json
     - assets/data/listens/03-spelling-names/course-index.json
@@ -176,6 +343,7 @@ flutter:
     - assets/data/listens/14-news/lessons/
     - assets/data/listens/18-medical-english-oet/lessons/
     - assets/svgs/
+    - assets/svgs/ipa/
     - assets/svgs/onboarding/
     - assets/lotties/
 

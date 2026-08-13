@@ -5,6 +5,7 @@ class AppLanguageService {
   static const selectedLearningLevelKey = 'onboarding.selected_learning_level';
   static const carouselCompletedKey = 'onboarding.carousel_completed';
   static const onboardingCompletedKey = 'onboarding.completed';
+  static const vocabularyAssessmentLevelKey = 'brightLevel';
 
   Future<String?> loadSelectedLanguage() async {
     final preferences = await SharedPreferences.getInstance();
@@ -59,6 +60,11 @@ class AppLanguageService {
     if (!saved) {
       throw StateError('Could not save the selected learning level.');
     }
+  }
+
+  Future<String?> loadVocabularyAssessmentLevel() async {
+    final preferences = await SharedPreferences.getInstance();
+    return preferences.getString(vocabularyAssessmentLevelKey);
   }
 
   Future<void> completeOnboarding() async {

@@ -3,12 +3,74 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 
 import '../models/listening_exercise.dart';
+import '../models/listening_catalog.dart';
 
 class ListeningAssetDataSource {
   ListeningAssetDataSource({AssetBundle? bundle})
     : _bundle = bundle ?? rootBundle;
 
   final AssetBundle _bundle;
+
+  static const courseIndexAssets = <String>[
+    'assets/data/listens/06-conversations/course-index.json',
+    'assets/data/listens/02-short-stories/course-index.json',
+    'assets/data/listens/13-stories-for-kids/course-index.json',
+    'assets/data/listens/10-toeic-listening/course-index.json',
+    'assets/data/listens/01-ielts-listening/course-index.json',
+    'assets/data/listens/08-random-videos/course-index.json',
+    'assets/data/listens/14-news/course-index.json',
+    'assets/data/listens/12-ted/course-index.json',
+    'assets/data/listens/07-toefl-listening/course-index.json',
+    'assets/data/listens/18-medical-english-oet/course-index.json',
+    'assets/data/listens/09-ipa/course-index.json',
+    'assets/data/listens/04-numbers/course-index.json',
+    'assets/data/listens/03-spelling-names/course-index.json',
+  ];
+
+  Future<List<ListeningCourseSummary>> loadCatalog() async {
+    final encodedCourses = await Future.wait(
+      courseIndexAssets.map(_bundle.loadString),
+    );
+    return [
+      for (var index = 0; index < encodedCourses.length; index++)
+        _courseFromJson(
+          jsonDecode(encodedCourses[index]) as Map<String, dynamic>,
+          courseIndexAssets[index],
+        ),
+    ];
+  }
+
+  ListeningCourseSummary _courseFromJson(
+    Map<String, dynamic> json,
+    String indexAsset,
+  ) {
+    final courseId = json['id'] as int;
+    final courseLevel = json['levelName'] as String? ?? 'A1';
+    final fallbackLevel = courseLevel.split('-').first;
+    final lessons = (json['lessons'] as List<dynamic>? ?? const [])
+        .whereType<Map<String, dynamic>>()
+        .map(
+          (lesson) => ListeningLessonSummary(
+            id: lesson['id'] as int,
+            courseId: courseId,
+            name: _cleanLessonName(lesson['name'] as String? ?? ''),
+            levelName: (lesson['levelName'] as String?)?.isNotEmpty == true
+                ? lesson['levelName'] as String
+                : fallbackLevel,
+            totalChallenges: lesson['totalChallenges'] as int? ?? 0,
+            courseIndexAsset: indexAsset,
+          ),
+        )
+        .toList(growable: false);
+    return ListeningCourseSummary(
+      id: courseId,
+      name: json['name'] as String? ?? '',
+      type: json['type'] as String? ?? 'audio',
+      levelName: courseLevel,
+      indexAsset: indexAsset,
+      lessons: lessons,
+    );
+  }
 
   Future<ListeningExercise> loadLesson({
     required String courseIndexAsset,

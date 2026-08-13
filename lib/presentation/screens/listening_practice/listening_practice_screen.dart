@@ -7,7 +7,9 @@ import '../../../core/constants/app_colors.dart';
 import 'listening_course_detail_screen.dart';
 
 class ListeningPracticeScreen extends StatefulWidget {
-  const ListeningPracticeScreen({super.key});
+  const ListeningPracticeScreen({this.speakingMode = false, super.key});
+
+  final bool speakingMode;
 
   @override
   State<ListeningPracticeScreen> createState() =>
@@ -43,7 +45,11 @@ class _ListeningPracticeScreenState extends State<ListeningPracticeScreen> {
         systemNavigationBarIconBrightness: Brightness.dark,
       ),
       child: Scaffold(
-        key: const ValueKey('listening-practice-screen'),
+        key: ValueKey(
+          widget.speakingMode
+              ? 'speaking-practice-screen'
+              : 'listening-practice-screen',
+        ),
         backgroundColor: AppColors.background,
         body: FutureBuilder<List<_ListeningCourse>>(
           future: _coursesFuture,
@@ -61,6 +67,7 @@ class _ListeningPracticeScreenState extends State<ListeningPracticeScreen> {
                 SliverToBoxAdapter(
                   child: _ListeningHeader(
                     controller: _searchController,
+                    speakingMode: widget.speakingMode,
                     onQueryChanged: (value) =>
                         setState(() => _query = value.trim().toLowerCase()),
                   ),
@@ -158,6 +165,7 @@ class _ListeningPracticeScreenState extends State<ListeningPracticeScreen> {
           courseIndexAsset: course.indexAsset,
           lessonCount: course.lessonCount,
           levelName: course.levelName,
+          speakingMode: widget.speakingMode,
         ),
       ),
     );
@@ -168,10 +176,12 @@ class _ListeningHeader extends StatelessWidget {
   const _ListeningHeader({
     required this.controller,
     required this.onQueryChanged,
+    required this.speakingMode,
   });
 
   final TextEditingController controller;
   final ValueChanged<String> onQueryChanged;
+  final bool speakingMode;
 
   @override
   Widget build(BuildContext context) {
@@ -217,11 +227,11 @@ class _ListeningHeader extends StatelessWidget {
             top: safeTop + 62,
             left: 10,
             right: 155,
-            child: const Column(
+            child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Luyện nghe',
+                  speakingMode ? 'Luyện nói' : 'Luyện nghe',
                   style: TextStyle(
                     color: AppColors.primaryDark,
                     fontSize: 34,
@@ -230,9 +240,11 @@ class _ListeningHeader extends StatelessWidget {
                     letterSpacing: -1.4,
                   ),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text(
-                  'Chọn một chủ đề để cải thiện phản xạ nghe và vốn từ.',
+                  speakingMode
+                      ? 'Nghe câu mẫu, ghi âm và luyện nói theo từng câu.'
+                      : 'Chọn một chủ đề để cải thiện phản xạ nghe và vốn từ.',
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(

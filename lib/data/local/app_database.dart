@@ -455,6 +455,74 @@ class ListeningPracticeDays extends Table {
   Set<Column<Object>> get primaryKey => {date};
 }
 
+/// Local-only progress for a speaking lesson built from the listening catalog.
+/// Speaking is deliberately stored separately so completing a speaking sentence
+/// never changes Listen & Type progress for the same source lesson.
+@DataClassName('SpeakingLessonProgressRow')
+@TableIndex(
+  name: 'speaking_lesson_progress_status_updated',
+  columns: {#status, #updatedAt},
+)
+class SpeakingLessonProgressModels extends Table {
+  IntColumn get courseId => integer()();
+
+  IntColumn get lessonId => integer()();
+
+  IntColumn get currentSentencePosition =>
+      integer().withDefault(const Constant(1))();
+
+  IntColumn get completedSentences =>
+      integer().withDefault(const Constant(0))();
+
+  IntColumn get totalSentences => integer()();
+
+  IntColumn get status => integer().withDefault(const Constant(0))();
+
+  IntColumn get startedAt => integer()();
+
+  IntColumn get updatedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {courseId, lessonId};
+}
+
+/// Latest speaking assessment for each source sentence. The transcript is
+/// persisted for local history/debugging; recordings remain temporary files.
+@DataClassName('SpeakingSentenceProgressRow')
+@TableIndex(
+  name: 'speaking_sentence_progress_lesson_position',
+  columns: {#courseId, #lessonId, #position},
+  unique: true,
+)
+class SpeakingSentenceProgressModels extends Table {
+  IntColumn get courseId => integer()();
+
+  IntColumn get lessonId => integer()();
+
+  IntColumn get challengeId => integer()();
+
+  IntColumn get position => integer()();
+
+  BoolColumn get isCompleted => boolean().withDefault(const Constant(false))();
+
+  BoolColumn get isCorrect => boolean().withDefault(const Constant(false))();
+
+  IntColumn get attemptCount => integer().withDefault(const Constant(0))();
+
+  TextColumn get lastTranscript => text().withDefault(const Constant(''))();
+
+  IntColumn get accuracyPercent => integer().withDefault(const Constant(0))();
+
+  IntColumn get updatedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {courseId, lessonId, challengeId};
+}
+
 @DataClassName('GrammarPackRow')
 @TableIndex(name: 'grammar_pack_guid', columns: {#guid}, unique: true)
 class GrammarPackModels extends Table {
@@ -575,6 +643,64 @@ class GrammarUserResponseModels extends Table {
   Set<Column<Object>> get primaryKey => {questionId};
 }
 
+@DataClassName('IpaSoundProgressRow')
+class IpaSoundProgressModels extends Table {
+  TextColumn get symbol => text()();
+
+  IntColumn get startedAt => integer()();
+
+  IntColumn get updatedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  IntColumn get practiceCount => integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {symbol};
+}
+
+@DataClassName('ReadingStoryProgressRow')
+class ReadingStoryProgressModels extends Table {
+  IntColumn get storyId => integer()();
+
+  IntColumn get startedAt => integer()();
+
+  IntColumn get updatedAt => integer()();
+
+  IntColumn get completedAt => integer().nullable()();
+
+  IntColumn get viewCount => integer().withDefault(const Constant(0))();
+
+  IntColumn get maxScrollPercent => integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column<Object>> get primaryKey => {storyId};
+}
+
+/// One row represents one practice unit that reached its completion rule.
+/// Keeping this append-only history separate from content progress prevents a
+/// partially opened lesson from being counted toward the weekly goal.
+@DataClassName('PracticeSessionHistoryRow')
+@TableIndex(
+  name: 'practice_session_history_skill_completed',
+  columns: {#skill, #completedAt},
+)
+class PracticeSessionHistoryModels extends Table {
+  IntColumn get id => integer().autoIncrement()();
+
+  TextColumn get skill => text()();
+
+  TextColumn get contentId => text()();
+
+  TextColumn get parentId => text().nullable()();
+
+  IntColumn get startedAt => integer()();
+
+  IntColumn get completedAt => integer()();
+
+  TextColumn get status => text().withDefault(const Constant('completed'))();
+}
+
 @DriftDatabase(
   tables: [
     TopicModels,
@@ -595,11 +721,16 @@ class GrammarUserResponseModels extends Table {
     ListeningLessonProgressModels,
     ListeningChallengeProgressModels,
     ListeningPracticeDays,
+    SpeakingLessonProgressModels,
+    SpeakingSentenceProgressModels,
     GrammarPackModels,
     GrammarTopicModels,
     GrammarQuestionModels,
     GrammarQuestionMappingModels,
     GrammarUserResponseModels,
+    IpaSoundProgressModels,
+    ReadingStoryProgressModels,
+    PracticeSessionHistoryModels,
   ],
 )
 class AppDatabase extends _$AppDatabase {
@@ -611,7 +742,7 @@ class AppDatabase extends _$AppDatabase {
       'bundled_topics_$languageCode';
 
   @override
-  int get schemaVersion => 8;
+  int get schemaVersion => 11;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -654,6 +785,50 @@ class AppDatabase extends _$AppDatabase {
         await m.createTable(grammarQuestionModels);
         await m.createTable(grammarQuestionMappingModels);
         await m.createTable(grammarUserResponseModels);
+      }
+      if (from < 9) {
+        await m.createTable(ipaSoundProgressModels);
+        await m.createTable(readingStoryProgressModels);
+      }
+      if (from < 10) {
+        await m.createTable(practiceSessionHistoryModels);
+        await customStatement(
+          'INSERT INTO practice_session_history_models '
+          '(skill, content_id, parent_id, started_at, completed_at, status) '
+          "SELECT 'listening', CAST(lesson_id AS TEXT), "
+          'CAST(course_id AS TEXT), started_at, completed_at, '
+          "'completed' FROM listening_lesson_progress_models "
+          'WHERE completed_at IS NOT NULL',
+        );
+        await customStatement(
+          'INSERT INTO practice_session_history_models '
+          '(skill, content_id, parent_id, started_at, completed_at, status) '
+          "SELECT 'grammar', CAST(topic.id AS TEXT), "
+          'CAST(topic.pack_id AS TEXT), MIN(response.updated_at), '
+          "MAX(response.updated_at), 'completed' "
+          'FROM grammar_topic_models AS topic '
+          'JOIN grammar_user_response_models AS response '
+          'ON response.topic_id = topic.id '
+          'WHERE topic.is_complete = 1 GROUP BY topic.id, topic.pack_id',
+        );
+        await customStatement(
+          'INSERT INTO practice_session_history_models '
+          '(skill, content_id, started_at, completed_at, status) '
+          "SELECT 'pronunciation', symbol, started_at, completed_at, "
+          "'completed' FROM ipa_sound_progress_models "
+          'WHERE completed_at IS NOT NULL',
+        );
+        await customStatement(
+          'INSERT INTO practice_session_history_models '
+          '(skill, content_id, started_at, completed_at, status) '
+          "SELECT 'reading', CAST(story_id AS TEXT), started_at, "
+          "completed_at, 'completed' FROM reading_story_progress_models "
+          'WHERE completed_at IS NOT NULL',
+        );
+      }
+      if (from < 11) {
+        await m.createTable(speakingLessonProgressModels);
+        await m.createTable(speakingSentenceProgressModels);
       }
     },
   );

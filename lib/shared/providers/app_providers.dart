@@ -4,24 +4,33 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/services/app_language_service.dart';
 import '../../data/datasources/sentence_asset_data_source.dart';
+import '../../data/datasources/ipa_asset_data_source.dart';
 import '../../data/datasources/listening_asset_data_source.dart';
+import '../../data/datasources/reading_asset_data_source.dart';
 import '../../data/datasources/grammar_asset_data_source.dart';
 import '../../data/datasources/topic_asset_data_source.dart';
 import '../../data/local/app_database.dart';
 import '../../data/models/grammar_content.dart';
+import '../../data/models/ipa_sound.dart';
+import '../../data/models/listening_catalog.dart';
 import '../../data/models/learning_language_level.dart';
+import '../../data/models/reading_story.dart';
 import '../../data/models/sentence_asset_index.dart';
 import '../../data/models/topic.dart';
 import '../../data/models/vocabulary_collection.dart';
 import '../../data/repositories/topic_repository.dart';
 import '../../data/repositories/grammar_repository.dart';
 import '../../data/services/additional_task_service.dart';
+import '../../data/services/challenge_dashboard_service.dart';
 import '../../data/services/app_usage_service.dart';
 import '../../data/services/daily_card_service.dart';
 import '../../data/services/difficult_words_training_service.dart';
 import '../../data/services/home_main_task_service.dart';
 import '../../data/services/listening_progress_service.dart';
+import '../../data/services/speaking_progress_service.dart';
+import '../../data/services/ipa_progress_service.dart';
 import '../../data/services/grammar_progress_service.dart';
+import '../../data/services/reading_progress_service.dart';
 import '../../data/services/profile_statistics_service.dart';
 import '../../data/services/progress_dashboard_service.dart';
 import '../../data/services/sentence_ai_service.dart';
@@ -74,6 +83,48 @@ final listeningAssetDataSourceProvider = Provider<ListeningAssetDataSource>(
 final listeningProgressServiceProvider = Provider<ListeningProgressService>(
   (ref) => ListeningProgressService(ref.watch(appDatabaseProvider)),
 );
+
+final speakingProgressServiceProvider = Provider<SpeakingProgressService>(
+  (ref) => SpeakingProgressService(ref.watch(appDatabaseProvider)),
+);
+
+final listeningCatalogProvider = FutureProvider<List<ListeningCourseSummary>>(
+  (ref) => ref.watch(listeningAssetDataSourceProvider).loadCatalog(),
+);
+
+final ipaSoundsProvider = FutureProvider<List<IpaSound>>((ref) {
+  final languageCode = ref.watch(selectedAppLanguageProvider);
+  return IpaAssetDataSource.load(languageCode: languageCode);
+});
+
+final ipaProgressServiceProvider = Provider<IpaProgressService>(
+  (ref) => IpaProgressService(ref.watch(appDatabaseProvider)),
+);
+
+final readingProgressServiceProvider = Provider<ReadingProgressService>(
+  (ref) => ReadingProgressService(ref.watch(appDatabaseProvider)),
+);
+
+/// A present key means the story was opened; a `true` value means it reached
+/// the reading completion threshold.
+final readingCardProgressProvider = FutureProvider<Map<int, bool>>((ref) async {
+  final rows = await ref.watch(readingProgressServiceProvider).loadAll();
+  return {
+    for (final entry in rows.entries)
+      entry.key: entry.value.completedAt != null,
+  };
+});
+
+final readingAssetDataSourceProvider = Provider<ReadingAssetDataSource>(
+  (ref) => ReadingAssetDataSource(),
+);
+
+final readingStoriesProvider = FutureProvider<List<ReadingStory>>((ref) {
+  final languageCode = ref.watch(selectedAppLanguageProvider);
+  return ref
+      .watch(readingAssetDataSourceProvider)
+      .load(languageCode: languageCode);
+});
 
 final grammarAssetDataSourceProvider = Provider<GrammarAssetDataSource>(
   (ref) => GrammarAssetDataSource(),
@@ -172,6 +223,41 @@ final selectedLanguageLevelsProvider =
     StateProvider<Set<LearningLanguageLevel>>(
       (ref) => {LearningLanguageLevel.beginner},
     );
+
+final vocabularyAssessmentLevelProvider = FutureProvider<String?>((ref) {
+  return ref.watch(appLanguageServiceProvider).loadVocabularyAssessmentLevel();
+});
+
+final challengeDashboardServiceProvider = Provider<ChallengeDashboardService>(
+  (ref) => ChallengeDashboardService(ref.watch(appDatabaseProvider)),
+);
+
+final challengeDashboardProvider = FutureProvider<ChallengeDashboardSnapshot>((
+  ref,
+) async {
+  await ref.watch(localDataInitializationProvider.future);
+  final inputs = await Future.wait<Object?>([
+    ref.watch(listeningCatalogProvider.future),
+    ref.watch(grammarPacksProvider.future),
+    ref.watch(ipaSoundsProvider.future),
+    ref.watch(readingStoriesProvider.future),
+    ref.watch(vocabularyAssessmentLevelProvider.future),
+  ]);
+  final selectedLevels = ref.watch(selectedLanguageLevelsProvider);
+  final selectedLevel = selectedLevels.isEmpty
+      ? LearningLanguageLevel.beginner
+      : selectedLevels.first;
+  return ref
+      .watch(challengeDashboardServiceProvider)
+      .load(
+        listeningCourses: inputs[0] as List<ListeningCourseSummary>,
+        grammarPacks: inputs[1] as List<GrammarPackContent>,
+        ipaSounds: inputs[2] as List<IpaSound>,
+        readingStories: inputs[3] as List<ReadingStory>,
+        assessmentLevel: inputs[4] as String?,
+        selectedLevel: selectedLevel,
+      );
+});
 
 final dailyWordsPerDayProvider = StateProvider<int>(
   (ref) => DailyCardService.defaultLearnWordsGoal,

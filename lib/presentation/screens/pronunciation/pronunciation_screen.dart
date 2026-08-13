@@ -2,11 +2,16 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:just_audio/just_audio.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/services/just_audio_asset_path.dart';
 import '../../../data/datasources/ipa_asset_data_source.dart';
 import '../../../data/models/ipa_sound.dart';
+import '../../../data/services/ipa_progress_service.dart';
+import '../../../shared/providers/app_providers.dart';
+import 'ipa_sound_detail_screen.dart';
 
 class PronunciationScreen extends StatefulWidget {
   const PronunciationScreen({super.key, this.sounds});
@@ -22,6 +27,11 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
   late Future<List<IpaSound>> _soundsFuture;
   StreamSubscription<void>? _completionSubscription;
   String? _playingSymbol;
+  IpaProgressService? _progressService;
+  ProviderContainer? _providerContainer;
+  Set<String> _viewedSymbols = const {};
+  Set<String> _completedSymbols = const {};
+  bool _didConnectProgress = false;
 
   @override
   void initState() {
@@ -40,6 +50,21 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     unawaited(_completionSubscription?.cancel());
     unawaited(_player.dispose());
     super.dispose();
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_didConnectProgress) return;
+    _didConnectProgress = true;
+    try {
+      final container = ProviderScope.containerOf(context, listen: false);
+      _providerContainer = container;
+      _progressService = container.read(ipaProgressServiceProvider);
+      unawaited(_refreshProgress());
+    } on Object {
+      // Standalone previews/tests can render without a ProviderScope.
+    }
   }
 
   @override
@@ -91,8 +116,11 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                           columns: 4,
                           childAspectRatio: 1.2,
                           sounds: _ofGroup(sounds, IpaSoundGroup.vowel),
+                          viewedSymbols: _viewedSymbols,
+                          completedSymbols: _completedSymbols,
                           playingSymbol: _playingSymbol,
                           onSoundTap: _play,
+                          onSoundOpen: _openDetail,
                         ),
                       ),
                     ),
@@ -111,8 +139,11 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                             sounds,
                             IpaSoundGroup.rControlledVowel,
                           ),
+                          viewedSymbols: _viewedSymbols,
+                          completedSymbols: _completedSymbols,
                           playingSymbol: _playingSymbol,
                           onSoundTap: _play,
+                          onSoundOpen: _openDetail,
                         ),
                       ),
                     ),
@@ -134,8 +165,11 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
                           childAspectRatio: 1.15,
                           compact: true,
                           sounds: _ofGroup(sounds, IpaSoundGroup.consonant),
+                          viewedSymbols: _viewedSymbols,
+                          completedSymbols: _completedSymbols,
                           playingSymbol: _playingSymbol,
                           onSoundTap: _play,
+                          onSoundOpen: _openDetail,
                         ),
                       ),
                     ),
@@ -160,8 +194,11 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
     setState(() => _playingSymbol = sound.symbol);
     try {
       await _player.stop();
-      await _player.setAsset(sound.audioAsset);
+      await _player.setAsset(justAudioAssetPath(sound.audioAsset));
       await _player.play();
+      await _progressService?.recordPracticed(sound.symbol);
+      await _refreshProgress();
+      _providerContainer?.invalidate(challengeDashboardProvider);
     } catch (_) {
       if (!mounted) return;
       setState(() => _playingSymbol = null);
@@ -169,6 +206,32 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
         const SnackBar(content: Text('Không thể phát âm thanh lúc này.')),
       );
     }
+  }
+
+  Future<void> _openDetail(IpaSound sound) async {
+    await _player.stop();
+    if (mounted) setState(() => _playingSymbol = null);
+    if (!mounted) return;
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute(builder: (_) => IpaSoundDetailScreen(sound: sound)),
+    );
+    await _progressService?.recordOpened(sound.symbol);
+    await _refreshProgress();
+    _providerContainer?.invalidate(challengeDashboardProvider);
+  }
+
+  Future<void> _refreshProgress() async {
+    final service = _progressService;
+    if (service == null) return;
+    final progress = await service.loadAll();
+    if (!mounted) return;
+    setState(() {
+      _viewedSymbols = progress.keys.toSet();
+      _completedSymbols = {
+        for (final entry in progress.entries)
+          if (entry.value.completedAt != null) entry.key,
+      };
+    });
   }
 }
 
@@ -289,8 +352,11 @@ class _SoundSection extends StatelessWidget {
     required this.columns,
     required this.childAspectRatio,
     required this.sounds,
+    required this.viewedSymbols,
+    required this.completedSymbols,
     required this.playingSymbol,
     required this.onSoundTap,
+    required this.onSoundOpen,
     this.compact = false,
   });
 
@@ -302,8 +368,11 @@ class _SoundSection extends StatelessWidget {
   final int columns;
   final double childAspectRatio;
   final List<IpaSound> sounds;
+  final Set<String> viewedSymbols;
+  final Set<String> completedSymbols;
   final String? playingSymbol;
   final ValueChanged<IpaSound> onSoundTap;
+  final ValueChanged<IpaSound> onSoundOpen;
   final bool compact;
 
   @override
@@ -390,8 +459,11 @@ class _SoundSection extends StatelessWidget {
                 accent: accent,
                 soft: soft,
                 compact: compact,
+                viewed: viewedSymbols.contains(sound.symbol),
+                completed: completedSymbols.contains(sound.symbol),
                 playing: playingSymbol == sound.symbol,
                 onTap: () => onSoundTap(sound),
+                onOpen: () => onSoundOpen(sound),
               );
             },
           ),
@@ -407,8 +479,11 @@ class _SoundTile extends StatelessWidget {
     required this.accent,
     required this.soft,
     required this.compact,
+    required this.viewed,
+    required this.completed,
     required this.playing,
     required this.onTap,
+    required this.onOpen,
     super.key,
   });
 
@@ -416,23 +491,41 @@ class _SoundTile extends StatelessWidget {
   final Color accent;
   final Color soft;
   final bool compact;
+  final bool viewed;
+  final bool completed;
   final bool playing;
   final VoidCallback onTap;
+  final VoidCallback onOpen;
 
   @override
   Widget build(BuildContext context) {
     final shape = RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(compact ? 13 : 15),
-      side: BorderSide(color: accent.withValues(alpha: .06)),
+      side: BorderSide(
+        color: accent.withValues(
+          alpha: completed
+              ? .30
+              : viewed
+              ? .16
+              : .06,
+        ),
+      ),
     );
-    return Material(
-      color: playing ? soft.withValues(alpha: .68) : Colors.white,
+    final tile = Material(
+      color: playing
+          ? soft.withValues(alpha: .68)
+          : completed
+          ? soft.withValues(alpha: .38)
+          : viewed
+          ? soft.withValues(alpha: .16)
+          : Colors.white,
       elevation: 0,
       shadowColor: const Color(0x24255D8D),
       shape: shape,
       clipBehavior: Clip.antiAlias,
       child: InkWell(
-        onTap: onTap,
+        onTap: onOpen,
+        onLongPress: onTap,
         customBorder: shape,
         child: Padding(
           padding: EdgeInsets.fromLTRB(compact ? 2 : 4, 8, compact ? 2 : 4, 4),
@@ -453,7 +546,7 @@ class _SoundTile extends StatelessWidget {
                     width: circleSize,
                     height: circleSize,
                     decoration: BoxDecoration(
-                      color: playing ? accent : soft,
+                      color: playing || completed ? accent : soft,
                       shape: BoxShape.circle,
                       boxShadow: playing
                           ? [
@@ -473,7 +566,7 @@ class _SoundTile extends StatelessWidget {
                           sound.symbol,
                           maxLines: 1,
                           style: TextStyle(
-                            color: playing ? Colors.white : accent,
+                            color: playing || completed ? Colors.white : accent,
                             fontSize: compact ? 15 : 18,
                             height: 1,
                             fontWeight: FontWeight.w500,
@@ -505,6 +598,46 @@ class _SoundTile extends StatelessWidget {
             },
           ),
         ),
+      ),
+    );
+    return Semantics(
+      label: completed
+          ? '${sound.symbol}, đã hoàn thành'
+          : viewed
+          ? '${sound.symbol}, đã xem'
+          : sound.symbol,
+      button: true,
+      child: Stack(
+        children: [
+          Positioned.fill(child: tile),
+          if (viewed)
+            Positioned(
+              top: 3,
+              right: 3,
+              child: Container(
+                key: ValueKey(
+                  completed
+                      ? 'ipa-sound-completed-${sound.symbol}'
+                      : 'ipa-sound-viewed-${sound.symbol}',
+                ),
+                width: compact ? 15 : 17,
+                height: compact ? 15 : 17,
+                decoration: BoxDecoration(
+                  color: completed ? const Color(0xFF19B96E) : accent,
+                  shape: BoxShape.circle,
+                  border: Border.all(color: Colors.white, width: 1.5),
+                  boxShadow: const [
+                    BoxShadow(color: Color(0x1F0B315E), blurRadius: 4),
+                  ],
+                ),
+                child: Icon(
+                  completed ? Icons.check_rounded : Icons.visibility_rounded,
+                  color: Colors.white,
+                  size: compact ? 9 : 11,
+                ),
+              ),
+            ),
+        ],
       ),
     );
   }

@@ -5,9 +5,9 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/services.dart';
 
 import '../../../core/constants/app_colors.dart';
-import '../../../data/local/app_database.dart';
 import '../../../data/services/listening_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../speaking_practice/speaking_exercise_screen.dart';
 import 'listening_exercise_screen.dart';
 
 class ListeningCourseDetailScreen extends ConsumerStatefulWidget {
@@ -17,6 +17,7 @@ class ListeningCourseDetailScreen extends ConsumerStatefulWidget {
     required this.courseIndexAsset,
     required this.lessonCount,
     required this.levelName,
+    this.speakingMode = false,
     super.key,
   });
 
@@ -25,6 +26,7 @@ class ListeningCourseDetailScreen extends ConsumerStatefulWidget {
   final String courseIndexAsset;
   final int lessonCount;
   final String levelName;
+  final bool speakingMode;
 
   @override
   ConsumerState<ListeningCourseDetailScreen> createState() =>
@@ -36,14 +38,17 @@ class _ListeningCourseDetailScreenState
   late final Future<_CourseDetailData> _detailFuture;
   final _searchController = TextEditingController();
   final Set<int> _expandedGroupIds = {};
-  Map<int, ListeningLessonProgressRow> _progressByLessonId = const {};
+  Map<int, _LessonProgress> _progressByLessonId = const {};
   String _query = '';
   String? _selectedLevel;
-  _PracticeMode _mode = _PracticeMode.listenAndType;
+  late _PracticeMode _mode;
 
   @override
   void initState() {
     super.initState();
+    _mode = widget.speakingMode
+        ? _PracticeMode.speaking
+        : _PracticeMode.listenAndType;
     _detailFuture = _loadCourseDetail(widget.courseIndexAsset);
     _loadProgress();
   }
@@ -103,7 +108,7 @@ class _ListeningCourseDetailScreenState
                       sliver: SliverToBoxAdapter(
                         child: _ModeSwitcher(
                           selected: _mode,
-                          onSelected: (mode) => setState(() => _mode = mode),
+                          onSelected: _selectMode,
                         ),
                       ),
                     ),
@@ -216,20 +221,54 @@ class _ListeningCourseDetailScreenState
   Future<void> _openLesson(_ListeningLesson lesson) async {
     await Navigator.of(context).push<bool>(
       MaterialPageRoute<bool>(
-        builder: (_) => ListeningExerciseScreen(
-          courseId: widget.courseId,
-          courseIndexAsset: widget.courseIndexAsset,
-          lessonId: lesson.id,
-        ),
+        builder: (_) => _mode == _PracticeMode.speaking
+            ? SpeakingExerciseScreen(
+                courseId: widget.courseId,
+                courseIndexAsset: widget.courseIndexAsset,
+                lessonId: lesson.id,
+              )
+            : ListeningExerciseScreen(
+                courseId: widget.courseId,
+                courseIndexAsset: widget.courseIndexAsset,
+                lessonId: lesson.id,
+              ),
       ),
     );
     await _loadProgress();
   }
 
+  void _selectMode(_PracticeMode mode) {
+    if (_mode == mode) return;
+    setState(() {
+      _mode = mode;
+      _progressByLessonId = const {};
+    });
+    _loadProgress();
+  }
+
   Future<void> _loadProgress() async {
-    final progress = await ref
-        .read(listeningProgressServiceProvider)
-        .loadCourseLessons(widget.courseId);
+    final progress = <int, _LessonProgress>{};
+    if (_mode == _PracticeMode.speaking) {
+      final rows = await ref
+          .read(speakingProgressServiceProvider)
+          .loadCourseLessons(widget.courseId);
+      for (final entry in rows.entries) {
+        progress[entry.key] = _LessonProgress(
+          completed: entry.value.completedSentences,
+          status: entry.value.status,
+        );
+      }
+    } else {
+      final rows = await ref
+          .read(listeningProgressServiceProvider)
+          .loadCourseLessons(widget.courseId);
+      for (final entry in rows.entries) {
+        progress[entry.key] = _LessonProgress(
+          completed: entry.value.completedChallenges,
+          status: entry.value.status,
+        );
+      }
+    }
     if (mounted) setState(() => _progressByLessonId = progress);
   }
 
@@ -706,7 +745,7 @@ class _LessonGroupCard extends StatelessWidget {
   final bool expanded;
   final VoidCallback onToggle;
   final ValueChanged<_ListeningLesson> onLessonTap;
-  final Map<int, ListeningLessonProgressRow> progressByLessonId;
+  final Map<int, _LessonProgress> progressByLessonId;
 
   static const _sectionColors = [
     [Color(0xFF87C8FF), Color(0xFF286AFF)],
@@ -732,7 +771,7 @@ class _LessonGroupCard extends StatelessWidget {
     final completedChallenges = group.lessons.fold<int>(
       0,
       (total, lesson) =>
-          total + (progressByLessonId[lesson.id]?.completedChallenges ?? 0),
+          total + (progressByLessonId[lesson.id]?.completed ?? 0),
     );
     final completionPercent = totalChallenges == 0
         ? 0
@@ -910,7 +949,7 @@ class _LessonCard extends StatelessWidget {
   final _ListeningLesson lesson;
   final int displayIndex;
   final VoidCallback onTap;
-  final ListeningLessonProgressRow? progress;
+  final _LessonProgress? progress;
 
   @override
   Widget build(BuildContext context) => GestureDetector(
@@ -986,7 +1025,7 @@ class _LessonCard extends StatelessWidget {
                           progress?.status ==
                               ListeningLessonStatus.completed.index
                           ? 'Hoàn thành'
-                          : '${progress?.completedChallenges ?? 0}/${lesson.totalChallenges} phần',
+                          : '${progress?.completed ?? 0}/${lesson.totalChallenges} phần',
                       color: AppColors.green,
                     ),
                   ],
@@ -1212,12 +1251,20 @@ class _ListeningLesson {
 
 enum _PracticeMode {
   listenAndType('Nghe & Gõ', Icons.headphones_rounded),
-  listenAndRead('Nghe & Đọc', Icons.auto_stories_rounded);
+  listenAndRead('Nghe & Đọc', Icons.auto_stories_rounded),
+  speaking('Luyện nói', Icons.mic_rounded);
 
   const _PracticeMode(this.label, this.icon);
 
   final String label;
   final IconData icon;
+}
+
+class _LessonProgress {
+  const _LessonProgress({required this.completed, required this.status});
+
+  final int completed;
+  final int status;
 }
 
 Future<_CourseDetailData> _loadCourseDetail(String assetPath) async {

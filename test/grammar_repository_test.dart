@@ -111,4 +111,43 @@ void main() {
       );
     },
   );
+
+  test(
+    'records a weekly session only when a grammar topic completes',
+    () async {
+      final packs = await repository.loadPacks();
+      final topic = packs.first.topics.first;
+      final questions = await repository.loadTopicQuestions(topic.id);
+      final now = DateTime(2026, 8, 13, 10);
+
+      for (var index = 0; index < questions.length - 1; index++) {
+        await progressService.saveResponse(
+          questionId: questions[index].id,
+          topicId: topic.id,
+          responseData: '[0]',
+          isCorrect: false,
+          now: now,
+        );
+      }
+      expect(
+        await database.select(database.practiceSessionHistoryModels).get(),
+        isEmpty,
+      );
+
+      await progressService.saveResponse(
+        questionId: questions.last.id,
+        topicId: topic.id,
+        responseData: '[0]',
+        isCorrect: false,
+        now: now,
+      );
+
+      final sessions = await database
+          .select(database.practiceSessionHistoryModels)
+          .get();
+      expect(sessions, hasLength(1));
+      expect(sessions.single.skill, 'grammar');
+      expect(sessions.single.contentId, topic.id.toString());
+    },
+  );
 }
