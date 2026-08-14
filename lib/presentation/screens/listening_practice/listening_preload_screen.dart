@@ -32,6 +32,8 @@ class ListeningPreloadScreen extends ConsumerStatefulWidget {
 
 class _ListeningPreloadScreenState
     extends ConsumerState<ListeningPreloadScreen> {
+  static const _minimumLoadingDuration = Duration(seconds: 2);
+
   ListeningPreloadProgress _progress =
       const ListeningPreloadProgress.loadingLesson();
   Object? _error;
@@ -44,6 +46,9 @@ class _ListeningPreloadScreenState
   }
 
   Future<void> _preload() async {
+    // Keep the preload screen visible long enough for the transition to feel
+    // intentional, even when all lesson data is already cached locally.
+    final loadingTimer = Stopwatch()..start();
     if (mounted) {
       setState(() {
         _error = null;
@@ -64,6 +69,10 @@ class _ListeningPreloadScreenState
           if (mounted) setState(() => _progress = progress);
         },
       );
+      final remaining = _minimumLoadingDuration - loadingTimer.elapsed;
+      if (remaining > Duration.zero) {
+        await Future<void>.delayed(remaining);
+      }
       if (!mounted) return;
       setState(() => _openingExercise = true);
       final result = await Navigator.of(context).push<bool>(
@@ -196,6 +205,8 @@ class _LoadingDetails extends StatelessWidget {
         progress.stage == ListeningPreloadStage.loadingLesson;
     final status = openingExercise
         ? 'Đã sẵn sàng!'
+        : progress.stage == ListeningPreloadStage.ready
+        ? 'Đang mở bài nghe...'
         : isLoadingLesson
         ? 'Đang tải nội dung bài học...'
         : total == 0
@@ -244,11 +255,13 @@ class _LoadingDetails extends StatelessWidget {
             ),
             const SizedBox(width: 16),
             SizedBox(
-              width: 48,
+              width: 62,
               child: Text(
                 '$percent%',
                 key: const ValueKey('listening-preload-percent'),
                 textAlign: TextAlign.right,
+                maxLines: 1,
+                softWrap: false,
                 style: const TextStyle(
                   color: Color(0xFF0964E9),
                   fontSize: 18,
