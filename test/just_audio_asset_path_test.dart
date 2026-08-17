@@ -1,6 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/core/services/just_audio_asset_path.dart';
-import 'package:leximon/data/datasources/ipa_asset_data_source.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -29,35 +28,6 @@ void main() {
     for (final assetKey in assetKeys) {
       final encodedPath = justAudioAssetPath(assetKey);
       expect(Uri.parse(encodedPath).pathSegments.join('/'), assetKey);
-    }
-  });
-
-  test('preserves every special IPA audio asset path from JSON', () async {
-    final sounds = await IpaAssetDataSource.load();
-    final assetKeys = <String>[
-      for (final sound in sounds) ...[
-        sound.audioAsset,
-        for (final word in [
-          ...sound.spellingWords,
-          ...sound.beginningWords,
-          ...sound.middleWords,
-          ...sound.endWords,
-        ])
-          word.audioAsset,
-      ],
-    ];
-    final percentEncodedAssetKeys = assetKeys
-        .where((assetKey) => assetKey.contains('%'))
-        .toList(growable: false);
-
-    expect(percentEncodedAssetKeys, hasLength(22));
-    for (final assetKey in assetKeys) {
-      final encodedPath = justAudioAssetPath(assetKey);
-      expect(
-        Uri.parse(encodedPath).pathSegments.join('/'),
-        assetKey,
-        reason: 'just_audio would resolve the wrong asset for $assetKey',
-      );
     }
   });
 }

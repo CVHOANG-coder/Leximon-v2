@@ -97,6 +97,8 @@ void main() {
     );
     expect(catalog.packages, hasLength(4));
     expect(catalog.subscriptionPackages, hasLength(2));
+    expect(catalog.salePackages, hasLength(1));
+    expect(catalog.salePackages.single.productId, 'com.example.sale');
     expect(
       catalog.subscriptionPackages.map((item) => item.productId),
       containsAll(<String>['com.example.weekly', 'com.example.annual']),

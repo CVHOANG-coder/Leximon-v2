@@ -1,10 +1,15 @@
 import 'dart:convert';
+import 'dart:io';
 
-import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
 
 import '../models/ipa_sound.dart';
+import 'ipa_local_data_source.dart';
 
 abstract final class IpaAssetDataSource {
+  static const remoteDirectory = '/data/ipa';
+  static const remoteManifestPath = '$remoteDirectory/manifest.json';
+
   static const _catalog = <IpaSoundGroup, List<String>>{
     IpaSoundGroup.vowel: [
       'aʊ',
@@ -101,33 +106,89 @@ abstract final class IpaAssetDataSource {
   };
 
   static Future<List<IpaSound>> load({
-    AssetBundle? bundle,
+    http.Client? client,
     String languageCode = 'en',
+    IpaDownloadProgressCallback? onProgress,
   }) async {
-    final assets = bundle ?? rootBundle;
-    final sounds = <Future<IpaSound>>[];
-    final videoCatalog = await _loadVideoCatalog(assets);
-    final descriptions = await _loadDescriptions(assets, languageCode);
+    final ipaDirectory = await IpaLocalDataSource.ensureReady(
+      symbols: _catalog.values.expand((symbols) => symbols).toList(),
+      languageCode: languageCode,
+      client: client,
+      onProgress: onProgress,
+    );
+    return _loadLocal(ipaDirectory, languageCode: languageCode);
+  }
 
+  static Future<List<IpaSound>> _loadLocal(
+    Directory ipaDirectory, {
+    required String languageCode,
+  }) async {
+    final config = await _loadLocalConfig(ipaDirectory);
+    final videoCatalog = _videoCatalogFromJson(
+      await File(
+        '${ipaDirectory.path}/${config.youtubeCatalog}',
+      ).readAsString(),
+    );
+    final descriptions = _descriptionsFromJson(
+      await File(
+        '${ipaDirectory.path}/${config.descriptionsDirectory}/'
+        '${_descriptionLanguage(languageCode)}.json',
+      ).readAsString(),
+    );
+    final sounds = <IpaSound>[];
     for (final entry in _catalog.entries) {
       for (final symbol in entry.value) {
+        final source = await File(
+          '${ipaDirectory.path}/${config.jsonDirectory}/'
+          '$symbol.json',
+        ).readAsString();
         sounds.add(
-          _loadSound(assets, symbol, entry.key, videoCatalog, descriptions),
+          _soundFromJson(
+            source,
+            symbol,
+            entry.key,
+            videoCatalog,
+            descriptions,
+            ipaDirectory.path,
+          ),
         );
       }
     }
-
-    return Future.wait(sounds);
+    return sounds;
   }
 
-  static Future<IpaSound> _loadSound(
-    AssetBundle assets,
+  static Future<_IpaRemoteConfig> _loadLocalConfig(
+    Directory ipaDirectory,
+  ) async {
+    final json = jsonDecode(
+      await File('${ipaDirectory.path}/manifest.json').readAsString(),
+    );
+    if (json is! Map<String, dynamic>) {
+      throw const FormatException('IPA remote manifest must be an object.');
+    }
+    return _IpaRemoteConfig.fromJson(json);
+  }
+
+  static String _descriptionLanguage(String languageCode) {
+    const supportedLanguages = {'en', 'es', 'fr', 'pt', 'ru'};
+    final normalizedLanguageCode = languageCode
+        .trim()
+        .toLowerCase()
+        .split(RegExp('[-_]'))
+        .first;
+    return supportedLanguages.contains(normalizedLanguageCode)
+        ? normalizedLanguageCode
+        : 'en';
+  }
+
+  static IpaSound _soundFromJson(
+    String source,
     String symbol,
     IpaSoundGroup group,
     _IpaVideoCatalog videoCatalog,
     Map<String, String> descriptions,
-  ) async {
-    final source = await assets.loadString('assets/data/ipa/json/$symbol');
+    String localRoot,
+  ) {
     final json = jsonDecode(source) as Map<String, dynamic>;
     final words = (json['spellingWordList'] as List<dynamic>? ?? const [])
         .cast<Map<String, dynamic>>();
@@ -148,39 +209,51 @@ abstract final class IpaAssetDataSource {
       symbol: json['transcription']?.toString().trim() ?? symbol,
       name: json['name']?.toString().trim() ?? '',
       example: example,
-      audioAsset: _normalizeAssetPath(json['audioPath'].toString()),
+      audioAsset: _normalizeMediaPath(
+        json['audioPath']?.toString() ?? '',
+        localRoot,
+      ),
       group: group,
       description:
           descriptions[symbol]?.trim() ??
           json['description']?.toString().trim() ??
           '',
-      photoAsset: _normalizeAssetPath(json['photoPath']?.toString() ?? ''),
-      spellingWords: words.map(_wordFromJson).toList(growable: false),
-      beginningWords: _practiceWords(practice, 'beginningSound'),
-      middleWords: _practiceWords(practice, 'middleSound'),
-      endWords: _practiceWords(practice, 'endSound'),
+      photoAsset: _normalizeMediaPath(
+        json['photoPath']?.toString() ?? '',
+        localRoot,
+      ),
+      spellingWords: words
+          .map((word) => _wordFromJson(word, localRoot))
+          .toList(growable: false),
+      beginningWords: _practiceWords(practice, 'beginningSound', localRoot),
+      middleWords: _practiceWords(practice, 'middleSound', localRoot),
+      endWords: _practiceWords(practice, 'endSound', localRoot),
       youtubeVideoId: videoCatalog.videoId,
       youtubeStartSeconds: videoStartSeconds.toDouble(),
     );
   }
 
-  static IpaWord _wordFromJson(Map<String, dynamic> json) {
+  static IpaWord _wordFromJson(Map<String, dynamic> json, String localRoot) {
     final name = json['name']?.toString().trim() ?? '';
     return IpaWord(
       name: name,
       transcription: _phoneticTranscription(
         json['transcription']?.toString().trim() ?? '',
       ),
-      audioAsset: _normalizeAssetPath(json['audioPath']?.toString() ?? ''),
+      audioAsset: _normalizeMediaPath(
+        json['audioPath']?.toString() ?? '',
+        localRoot,
+      ),
     );
   }
 
   static List<IpaWord> _practiceWords(
     Map<String, dynamic> practice,
     String key,
+    String localRoot,
   ) => (practice[key] as List<dynamic>? ?? const [])
       .cast<Map<String, dynamic>>()
-      .map(_wordFromJson)
+      .map((word) => _wordFromJson(word, localRoot))
       .toList(growable: false);
 
   static String _plainTranscription(String source) => source
@@ -197,10 +270,7 @@ abstract final class IpaAssetDataSource {
     return plain.substring(firstSlash, lastSlash + 1).trim();
   }
 
-  static Future<_IpaVideoCatalog> _loadVideoCatalog(AssetBundle assets) async {
-    final source = await assets.loadString(
-      'assets/data/ipa/youtube_videos.json',
-    );
+  static _IpaVideoCatalog _videoCatalogFromJson(String source) {
     final json = jsonDecode(source) as Map<String, dynamic>;
     final starts = (json['startSeconds'] as Map<String, dynamic>? ?? {}).map(
       (key, value) => MapEntry(key, (value as num).toInt()),
@@ -211,34 +281,48 @@ abstract final class IpaAssetDataSource {
     );
   }
 
-  static Future<Map<String, String>> _loadDescriptions(
-    AssetBundle assets,
-    String languageCode,
-  ) async {
-    const supportedLanguages = {'en', 'es', 'fr', 'pt', 'ru'};
-    final normalizedLanguageCode = languageCode
-        .trim()
-        .toLowerCase()
-        .split(RegExp('[-_]'))
-        .first;
-    final selectedLanguage = supportedLanguages.contains(normalizedLanguageCode)
-        ? normalizedLanguageCode
-        : 'en';
-    final source = await assets.loadString(
-      'assets/data/ipa/descriptions/$selectedLanguage.json',
-    );
+  static Map<String, String> _descriptionsFromJson(String source) {
     final json = jsonDecode(source) as Map<String, dynamic>;
     return json.map((symbol, value) => MapEntry(symbol, value.toString()));
   }
 
-  static String _normalizeAssetPath(String sourcePath) {
+  static String _normalizeMediaPath(String sourcePath, String localRoot) {
     if (sourcePath.isEmpty) return '';
+    final parsed = Uri.tryParse(sourcePath);
+    if (parsed?.hasScheme == true) return sourcePath;
     const legacyPrefix = 'AmericanSounds/';
     final relative = sourcePath.startsWith(legacyPrefix)
         ? sourcePath.substring(legacyPrefix.length)
         : sourcePath;
-    return 'assets/data/ipa/$relative';
+    return '$localRoot/$relative';
   }
+}
+
+class _IpaRemoteConfig {
+  const _IpaRemoteConfig({
+    this.jsonDirectory = 'json',
+    this.descriptionsDirectory = 'descriptions',
+    this.youtubeCatalog = 'youtube_videos.json',
+  });
+
+  factory _IpaRemoteConfig.fromJson(Map<String, dynamic> json) {
+    String read(String key, String fallback) {
+      final value = json[key];
+      return value is String && value.trim().isNotEmpty
+          ? value.trim()
+          : fallback;
+    }
+
+    return _IpaRemoteConfig(
+      jsonDirectory: read('jsonDirectory', 'json'),
+      descriptionsDirectory: read('descriptionsDirectory', 'descriptions'),
+      youtubeCatalog: read('youtubeCatalog', 'youtube_videos.json'),
+    );
+  }
+
+  final String jsonDirectory;
+  final String descriptionsDirectory;
+  final String youtubeCatalog;
 }
 
 class _IpaVideoCatalog {

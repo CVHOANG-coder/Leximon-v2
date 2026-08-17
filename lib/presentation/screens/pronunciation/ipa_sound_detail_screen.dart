@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -10,6 +11,7 @@ import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/just_audio_asset_path.dart';
+import '../../../data/datasources/ipa_local_data_source.dart';
 import '../../../data/models/ipa_sound.dart';
 import '../../../data/services/ipa_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -32,12 +34,15 @@ class _IpaSoundDetailScreenState extends State<IpaSoundDetailScreen>
   IpaProgressService? _progressService;
   ProviderContainer? _providerContainer;
   Future<void>? _openProgressFuture;
+  late Future<void> _mediaReadyFuture;
+  IpaDownloadProgress? _mediaProgress;
   bool _didRecordOpen = false;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    _mediaReadyFuture = _loadMedia();
     final videoId = widget.sound.youtubeVideoId;
     if (videoId.isNotEmpty) {
       _youtubeController = YoutubePlayerController.fromVideoId(
@@ -93,6 +98,23 @@ class _IpaSoundDetailScreenState extends State<IpaSoundDetailScreen>
     super.dispose();
   }
 
+  Future<void> _loadMedia() => IpaLocalDataSource.ensureMediaReady(
+    sound: widget.sound,
+    onProgress: _onMediaProgress,
+  );
+
+  void _onMediaProgress(IpaDownloadProgress progress) {
+    if (!mounted) return;
+    setState(() => _mediaProgress = progress);
+  }
+
+  void _retryMediaLoad() {
+    setState(() {
+      _mediaProgress = null;
+      _mediaReadyFuture = _loadMedia();
+    });
+  }
+
   Future<void> _play(String asset) async {
     if (asset.isEmpty) return;
     if (_playingAsset == asset && _audioPlayer.playing) {
@@ -104,7 +126,13 @@ class _IpaSoundDetailScreenState extends State<IpaSoundDetailScreen>
     if (mounted) setState(() => _playingAsset = asset);
     try {
       await _audioPlayer.stop();
-      await _audioPlayer.setAsset(justAudioAssetPath(asset));
+      if (isRemoteMediaUrl(asset)) {
+        await _audioPlayer.setUrl(asset);
+      } else if (isLocalFilePath(asset)) {
+        await _audioPlayer.setFilePath(asset);
+      } else {
+        await _audioPlayer.setAsset(justAudioAssetPath(asset));
+      }
       await _audioPlayer.play();
       unawaited(_recordPractice());
     } catch (_) {
@@ -136,97 +164,226 @@ class _IpaSoundDetailScreenState extends State<IpaSoundDetailScreen>
       child: Scaffold(
         key: const ValueKey('ipa-sound-detail-screen'),
         backgroundColor: const Color(0xFFF7FBFF),
-        body: Stack(
-          children: [
-            const Positioned.fill(child: _DetailBackdrop()),
-            SafeArea(
-              bottom: false,
-              child: CustomScrollView(
-                key: const ValueKey('ipa-detail-scroll'),
-                physics: const BouncingScrollPhysics(
-                  parent: AlwaysScrollableScrollPhysics(),
-                ),
-                slivers: [
-                  SliverToBoxAdapter(child: _DetailHeader(sound: sound)),
-                  SliverPadding(
-                    padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
-                    sliver: SliverToBoxAdapter(
-                      child: _ArticulationSection(
-                        sound: sound,
-                        isPlaying: _playingAsset == sound.audioAsset,
-                        onPlay: () => _play(sound.audioAsset),
+        body: FutureBuilder<void>(
+          future: _mediaReadyFuture,
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return _IpaMediaLoading(progress: _mediaProgress);
+            }
+            if (snapshot.hasError) {
+              return _IpaMediaError(
+                error: snapshot.error,
+                onRetry: _retryMediaLoad,
+              );
+            }
+            return Stack(
+              children: [
+                const Positioned.fill(child: _DetailBackdrop()),
+                SafeArea(
+                  bottom: false,
+                  child: CustomScrollView(
+                    key: const ValueKey('ipa-detail-scroll'),
+                    physics: const BouncingScrollPhysics(
+                      parent: AlwaysScrollableScrollPhysics(),
+                    ),
+                    slivers: [
+                      SliverToBoxAdapter(child: _DetailHeader(sound: sound)),
+                      SliverPadding(
+                        padding: const EdgeInsets.fromLTRB(16, 4, 16, 0),
+                        sliver: SliverToBoxAdapter(
+                          child: _ArticulationSection(
+                            sound: sound,
+                            isPlaying: _playingAsset == sound.audioAsset,
+                            onPlay: () => _play(sound.audioAsset),
+                          ),
+                        ),
                       ),
-                    ),
+                      SliverPadding(
+                        padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+                        sliver: SliverToBoxAdapter(
+                          child: _VideoSection(controller: _youtubeController),
+                        ),
+                      ),
+                      SliverPadding(
+                        padding: EdgeInsets.fromLTRB(
+                          16,
+                          16,
+                          16,
+                          28 + MediaQuery.paddingOf(context).bottom,
+                        ),
+                        sliver: SliverList.list(
+                          children: [
+                            _WordSection(
+                              sectionKey: const ValueKey(
+                                'ipa-spelling-section',
+                              ),
+                              title: 'Spelling',
+                              iconAsset: 'assets/svgs/ipa/spell.svg',
+                              decorationAsset:
+                                  'assets/images/ipa/spell_bottom.png',
+                              accent: const Color(0xFF39B98A),
+                              words: sound.spellingWords,
+                              playingAsset: _playingAsset,
+                              onPlay: _play,
+                              showTranscription: true,
+                            ),
+                            const SizedBox(height: 14),
+                            _WordSection(
+                              sectionKey: const ValueKey(
+                                'ipa-beginning-section',
+                              ),
+                              title: 'Beginning sound',
+                              iconAsset: 'assets/svgs/ipa/begin_sound.svg',
+                              decorationAsset:
+                                  'assets/images/ipa/beginning_sound_bottom.png',
+                              accent: const Color(0xFFFFB629),
+                              words: sound.beginningWords,
+                              playingAsset: _playingAsset,
+                              onPlay: _play,
+                            ),
+                            const SizedBox(height: 14),
+                            _WordSection(
+                              sectionKey: const ValueKey('ipa-middle-section'),
+                              title: 'Middle sound',
+                              iconAsset: 'assets/svgs/ipa/middle_sound.svg',
+                              decorationAsset:
+                                  'assets/images/ipa/middle_sound_bottom.png',
+                              accent: const Color(0xFF8569ED),
+                              words: sound.middleWords,
+                              playingAsset: _playingAsset,
+                              onPlay: _play,
+                            ),
+                            const SizedBox(height: 14),
+                            _WordSection(
+                              sectionKey: const ValueKey('ipa-end-section'),
+                              title: 'End sound',
+                              iconAsset: 'assets/svgs/ipa/end_sound.svg',
+                              decorationAsset:
+                                  'assets/images/ipa/end_sound_bottom.png',
+                              accent: const Color(0xFFEF7899),
+                              words: sound.endWords,
+                              playingAsset: _playingAsset,
+                              onPlay: _play,
+                            ),
+                          ],
+                        ),
+                      ),
+                    ],
                   ),
-                  SliverPadding(
-                    padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
-                    sliver: SliverToBoxAdapter(
-                      child: _VideoSection(controller: _youtubeController),
-                    ),
-                  ),
-                  SliverPadding(
-                    padding: EdgeInsets.fromLTRB(
-                      16,
-                      16,
-                      16,
-                      28 + MediaQuery.paddingOf(context).bottom,
-                    ),
-                    sliver: SliverList.list(
-                      children: [
-                        _WordSection(
-                          sectionKey: const ValueKey('ipa-spelling-section'),
-                          title: 'Spelling',
-                          iconAsset: 'assets/svgs/ipa/spell.svg',
-                          decorationAsset: 'assets/images/ipa/spell_bottom.png',
-                          accent: const Color(0xFF39B98A),
-                          words: sound.spellingWords,
-                          playingAsset: _playingAsset,
-                          onPlay: _play,
-                          showTranscription: true,
-                        ),
-                        const SizedBox(height: 14),
-                        _WordSection(
-                          sectionKey: const ValueKey('ipa-beginning-section'),
-                          title: 'Beginning sound',
-                          iconAsset: 'assets/svgs/ipa/begin_sound.svg',
-                          decorationAsset:
-                              'assets/images/ipa/beginning_sound_bottom.png',
-                          accent: const Color(0xFFFFB629),
-                          words: sound.beginningWords,
-                          playingAsset: _playingAsset,
-                          onPlay: _play,
-                        ),
-                        const SizedBox(height: 14),
-                        _WordSection(
-                          sectionKey: const ValueKey('ipa-middle-section'),
-                          title: 'Middle sound',
-                          iconAsset: 'assets/svgs/ipa/middle_sound.svg',
-                          decorationAsset:
-                              'assets/images/ipa/middle_sound_bottom.png',
-                          accent: const Color(0xFF8569ED),
-                          words: sound.middleWords,
-                          playingAsset: _playingAsset,
-                          onPlay: _play,
-                        ),
-                        const SizedBox(height: 14),
-                        _WordSection(
-                          sectionKey: const ValueKey('ipa-end-section'),
-                          title: 'End sound',
-                          iconAsset: 'assets/svgs/ipa/end_sound.svg',
-                          decorationAsset:
-                              'assets/images/ipa/end_sound_bottom.png',
-                          accent: const Color(0xFFEF7899),
-                          words: sound.endWords,
-                          playingAsset: _playingAsset,
-                          onPlay: _play,
-                        ),
-                      ],
-                    ),
-                  ),
-                ],
+                ),
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class _IpaMediaLoading extends StatelessWidget {
+  const _IpaMediaLoading({this.progress});
+
+  final IpaDownloadProgress? progress;
+
+  @override
+  Widget build(BuildContext context) {
+    final current = progress;
+    final progressValue = current?.fraction.clamp(0, 1).toDouble();
+    return SafeArea(
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(32),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const CircularProgressIndicator(),
+              const SizedBox(height: 18),
+              Text(
+                current == null
+                    ? context.l10n.text('ipaReadingData')
+                    : context.l10n.text(
+                        'ipaLoadingAudio',
+                        values: {
+                          'loaded': current.completed,
+                          'total': current.total,
+                        },
+                      ),
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: AppColors.primaryDark,
+                  fontSize: 17,
+                  fontWeight: FontWeight.w800,
+                ),
               ),
-            ),
-          ],
+              if (current != null) ...[
+                const SizedBox(height: 14),
+                SizedBox(
+                  width: 240,
+                  child: LinearProgressIndicator(value: progressValue),
+                ),
+                const SizedBox(height: 8),
+                Text(
+                  '${current.completed} / ${current.total}',
+                  style: const TextStyle(
+                    color: AppColors.textMuted,
+                    fontSize: 12,
+                  ),
+                ),
+              ],
+              const SizedBox(height: 8),
+              Text(
+                context.l10n.text('pleaseWait'),
+                style: const TextStyle(
+                  color: AppColors.textMuted,
+                  fontSize: 14,
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _IpaMediaError extends StatelessWidget {
+  const _IpaMediaError({required this.error, required this.onRetry});
+
+  final Object? error;
+  final VoidCallback onRetry;
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: Center(
+        child: Padding(
+          padding: const EdgeInsets.all(32),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                context.l10n.text('ipaDataIncomplete'),
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: AppColors.primaryDark,
+                  fontSize: 20,
+                  fontWeight: FontWeight.w900,
+                ),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                error.toString(),
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: AppColors.textMuted,
+                  fontSize: 12,
+                  height: 1.35,
+                ),
+              ),
+              const SizedBox(height: 16),
+              FilledButton(onPressed: onRetry, child: Text(context.l10n.retry)),
+            ],
+          ),
         ),
       ),
     );
@@ -344,6 +501,10 @@ class _MouthCard extends StatelessWidget {
                     size: 58,
                   ),
                 )
+              : isRemoteMediaUrl(photoAsset)
+              ? Image.network(photoAsset, fit: BoxFit.contain)
+              : isLocalFilePath(photoAsset)
+              ? Image.file(File(photoAsset), fit: BoxFit.contain)
               : Image.asset(photoAsset, fit: BoxFit.contain),
         ),
         Positioned(

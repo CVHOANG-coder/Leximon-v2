@@ -1,13 +1,11 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:in_app_purchase/in_app_purchase.dart';
 
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
+import '../../../data/services/iap_purchase_service.dart';
 import '../../../shared/providers/app_providers.dart';
 
 enum SkillPackType {
@@ -92,22 +90,7 @@ class SkillPackPurchaseScreen extends ConsumerStatefulWidget {
 
 class _SkillPackPurchaseScreenState
     extends ConsumerState<SkillPackPurchaseScreen> {
-  late final StreamSubscription<List<PurchaseDetails>> _purchaseSubscription;
   bool _isPurchasing = false;
-
-  @override
-  void initState() {
-    super.initState();
-    _purchaseSubscription = InAppPurchase.instance.purchaseStream.listen(
-      _handlePurchaseUpdates,
-    );
-  }
-
-  @override
-  void dispose() {
-    _purchaseSubscription.cancel();
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -344,26 +327,25 @@ class _SkillPackPurchaseScreenState
     final catalog = ref.read(iapCatalogProvider).valueOrNull;
     final package = _findPackage(catalog);
     final product = package == null ? null : catalog?.productFor(package);
-    if (product == null) {
+    if (package == null || product == null) {
       _showMessage(context.l10n.text('skillPackUnavailable'));
       return;
     }
 
-    final available = await InAppPurchase.instance.isAvailable();
-    if (!available) {
-      if (!mounted) return;
-      _showMessage(context.l10n.text('skillPackUnavailable'));
-      return;
-    }
-    if (!mounted) return;
     setState(() => _isPurchasing = true);
     try {
-      final started = await InAppPurchase.instance.buyNonConsumable(
-        purchaseParam: PurchaseParam(productDetails: product),
-      );
-      if (!started && mounted) {
-        setState(() => _isPurchasing = false);
-        _showMessage(context.l10n.text('skillPackPurchaseError'));
+      final result = await ref
+          .read(iapPurchaseServiceProvider)
+          .purchase(package: package, product: product);
+      if (!mounted) return;
+      setState(() => _isPurchasing = false);
+      if (result.isSuccess) {
+        ref.invalidate(remoteUserProfileProvider);
+        Navigator.of(context).pop(true);
+        return;
+      }
+      if (result.status != IapPurchaseResultStatus.canceled) {
+        _showMessage(_purchaseMessage(result));
       }
     } on Object {
       if (!mounted) return;
@@ -372,30 +354,20 @@ class _SkillPackPurchaseScreenState
     }
   }
 
-  Future<void> _handlePurchaseUpdates(List<PurchaseDetails> purchases) async {
-    for (final purchase in purchases) {
-      if (purchase.productID != widget.skill.productId) continue;
-      if (purchase.pendingCompletePurchase) {
-        await InAppPurchase.instance.completePurchase(purchase);
-      }
-      if (purchase.status == PurchaseStatus.purchased ||
-          purchase.status == PurchaseStatus.restored) {
-        if (!mounted) return;
-        setState(() => _isPurchasing = false);
-        Navigator.of(context).pop(true);
-        return;
-      }
-      if (purchase.status == PurchaseStatus.error ||
-          purchase.status == PurchaseStatus.canceled) {
-        if (!mounted) return;
-        setState(() => _isPurchasing = false);
-        _showMessage(
-          purchase.error?.message ??
-              context.l10n.text('skillPackPurchaseError'),
-        );
-      }
-    }
-  }
+  String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {
+    IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
+      'iapStoreUnavailable',
+    ),
+    IapPurchaseResultStatus.productUnavailable => context.l10n.text(
+      'skillPackUnavailable',
+    ),
+    IapPurchaseResultStatus.verificationFailed =>
+      result.message?.trim().isNotEmpty == true
+          ? result.message!
+          : context.l10n.text('iapVerificationFailed'),
+    IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
+    _ => context.l10n.text('skillPackPurchaseError'),
+  };
 
   void _showMessage(String message) {
     if (!mounted) return;

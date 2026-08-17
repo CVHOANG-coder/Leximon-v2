@@ -93,6 +93,9 @@ class LeximonApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // Subscribe before feature screens open so unfinished StoreKit/Play
+    // transactions from an earlier session are never missed.
+    ref.watch(iapPurchaseServiceProvider);
     return _AppUsageLifecycle(
       child: MaterialApp.router(
         title: 'Leximon',

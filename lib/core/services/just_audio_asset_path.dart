@@ -7,3 +7,10 @@ String justAudioAssetPath(String assetKey) {
   final protectedPercentSigns = assetKey.replaceAll('%', '%25');
   return Uri(path: protectedPercentSigns).toString();
 }
+
+bool isRemoteMediaUrl(String source) {
+  final uri = Uri.tryParse(source);
+  return uri != null && (uri.scheme == 'http' || uri.scheme == 'https');
+}
+
+bool isLocalFilePath(String source) => source.startsWith('/');

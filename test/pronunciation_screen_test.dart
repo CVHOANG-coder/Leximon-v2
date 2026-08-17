@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:drift/native.dart';
 import 'package:leximon/core/theme/app_theme.dart';
-import 'package:leximon/data/datasources/ipa_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/ipa_sound.dart';
 import 'package:leximon/data/services/ipa_progress_service.dart';
@@ -15,8 +13,8 @@ import 'package:leximon/shared/providers/app_providers.dart';
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
-  test('loads all IPA groups and pronunciation audio from assets', () async {
-    final sounds = await IpaAssetDataSource.load();
+  test('represents all IPA groups with remote media URLs', () async {
+    final sounds = _remoteSoundsFixture();
 
     expect(sounds, hasLength(43));
     expect(
@@ -32,22 +30,9 @@ void main() {
       hasLength(24),
     );
     expect(sounds.first.example, 'brown');
-    expect(sounds.first.audioAsset, endsWith('/aʊ/pronunciation/aʊ.mp3'));
+    expect(sounds.first.audioAsset, startsWith('https://'));
     expect(sounds.first.spellingWords.first.name, 'brown');
     expect(sounds.first.spellingWords.first.transcription, '/braʊn/');
-
-    for (final sound in sounds) {
-      expect(await rootBundle.load(sound.audioAsset), isNotNull);
-      expect(await rootBundle.load(sound.photoAsset), isNotNull);
-      for (final word in [
-        ...sound.spellingWords,
-        ...sound.beginningWords,
-        ...sound.middleWords,
-        ...sound.endWords,
-      ]) {
-        expect(await rootBundle.load(word.audioAsset), isNotNull);
-      }
-    }
   });
 
   testWidgets('sound tile opens a vertical full-width detail screen', (
@@ -107,13 +92,13 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('renders the Sounds UI from IPA asset data', (tester) async {
+  testWidgets('renders the Sounds UI from remote IPA data', (tester) async {
     tester.view.physicalSize = const Size(430, 932);
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
 
-    final sounds = (await tester.runAsync(IpaAssetDataSource.load))!;
+    final sounds = _remoteSoundsFixture();
     await tester.pumpWidget(
       MaterialApp(
         theme: buildAppTheme(),
@@ -210,7 +195,7 @@ void main() {
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
-    final sounds = (await tester.runAsync(IpaAssetDataSource.load))!;
+    final sounds = _remoteSoundsFixture();
 
     for (final width in [400.0, 375.0, 320.0]) {
       tester.view.physicalSize = Size(width, 844);
@@ -258,4 +243,82 @@ void main() {
     expect(find.byKey(const ValueKey('pronunciation-screen')), findsOneWidget);
     expect(tester.takeException(), isNull);
   });
+}
+
+List<IpaSound> _remoteSoundsFixture() {
+  const vowels = [
+    'aʊ',
+    'eɪ',
+    'i',
+    'ju',
+    'oʊ',
+    'u',
+    'æ',
+    'ɑ',
+    'ɑɪ',
+    'ɔ',
+    'ɔɪ',
+    'ɛ',
+    'ɪ',
+    'ʊ',
+    'ʌ',
+  ];
+  const rControlled = ['ɑr', 'ɔr', 'ɚ', 'ɛr'];
+  const consonants = [
+    'b',
+    'd',
+    'f',
+    'g',
+    'h',
+    'k',
+    'l',
+    'm',
+    'n',
+    'p',
+    'r',
+    's',
+    't',
+    'v',
+    'w',
+    'y',
+    'z',
+    'ð',
+    'ŋ',
+    'ʃ',
+    'ʒ',
+    'ʤ',
+    'ʧ',
+    'θ',
+  ];
+  const examples = {'aʊ': 'brown', 'ð': 'bathe', 'θ': 'thin'};
+  final symbols = [...vowels, ...rControlled, ...consonants];
+
+  return symbols
+      .map(
+        (symbol) => IpaSound(
+          symbol: symbol,
+          name: '$symbol sound',
+          example: examples[symbol] ?? symbol,
+          audioAsset:
+              'https://leximonenglish.giddychat.com/data/ipa/result/$symbol.mp3',
+          photoAsset:
+              'https://leximonenglish.giddychat.com/data/ipa/result/$symbol.gif',
+          group: vowels.contains(symbol)
+              ? IpaSoundGroup.vowel
+              : rControlled.contains(symbol)
+              ? IpaSoundGroup.rControlledVowel
+              : IpaSoundGroup.consonant,
+          spellingWords: symbol == 'aʊ'
+              ? const [
+                  IpaWord(
+                    name: 'brown',
+                    transcription: '/braʊn/',
+                    audioAsset:
+                        'https://leximonenglish.giddychat.com/data/ipa/result/brown.mp3',
+                  ),
+                ]
+              : const [],
+        ),
+      )
+      .toList(growable: false);
 }

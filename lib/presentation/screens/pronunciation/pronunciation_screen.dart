@@ -9,6 +9,7 @@ import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/just_audio_asset_path.dart';
 import '../../../data/datasources/ipa_asset_data_source.dart';
+import '../../../data/datasources/ipa_local_data_source.dart';
 import '../../../data/models/ipa_sound.dart';
 import '../../../data/services/ipa_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -32,6 +33,7 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
   ProviderContainer? _providerContainer;
   Set<String> _viewedSymbols = const {};
   Set<String> _completedSymbols = const {};
+  IpaDownloadProgress? _downloadProgress;
   bool _didConnectProgress = false;
 
   @override
@@ -88,13 +90,10 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
               future: _soundsFuture,
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
-                  return const Center(child: CircularProgressIndicator());
+                  return _IpaLoading(progress: _downloadProgress);
                 }
                 if (snapshot.hasError) {
-                  return _LoadError(
-                    onRetry: () =>
-                        setState(() => _soundsFuture = _loadSounds()),
-                  );
+                  return _LoadError(error: snapshot.error, onRetry: _retryLoad);
                 }
 
                 final sounds = snapshot.data ?? const <IpaSound>[];
@@ -188,14 +187,33 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
       sounds.where((sound) => sound.group == group).toList(growable: false);
 
   Future<List<IpaSound>> _loadSounds() => widget.sounds == null
-      ? IpaAssetDataSource.load()
+      ? IpaAssetDataSource.load(onProgress: _onDownloadProgress)
       : Future.value(widget.sounds);
+
+  void _onDownloadProgress(IpaDownloadProgress progress) {
+    if (!mounted) return;
+    setState(() => _downloadProgress = progress);
+  }
+
+  void _retryLoad() {
+    setState(() {
+      _downloadProgress = null;
+      _soundsFuture = _loadSounds();
+    });
+  }
 
   Future<void> _play(IpaSound sound) async {
     setState(() => _playingSymbol = sound.symbol);
     try {
+      await IpaLocalDataSource.ensureMediaReady(sound: sound);
       await _player.stop();
-      await _player.setAsset(justAudioAssetPath(sound.audioAsset));
+      if (isRemoteMediaUrl(sound.audioAsset)) {
+        await _player.setUrl(sound.audioAsset);
+      } else if (isLocalFilePath(sound.audioAsset)) {
+        await _player.setFilePath(sound.audioAsset);
+      } else {
+        await _player.setAsset(justAudioAssetPath(sound.audioAsset));
+      }
       await _player.play();
       await _progressService?.recordPracticed(sound.symbol);
       await _refreshProgress();
@@ -674,8 +692,9 @@ class _SoundsBackdrop extends StatelessWidget {
 }
 
 class _LoadError extends StatelessWidget {
-  const _LoadError({required this.onRetry});
+  const _LoadError({required this.error, required this.onRetry});
 
+  final Object? error;
   final VoidCallback onRetry;
 
   @override
@@ -697,6 +716,18 @@ class _LoadError extends StatelessWidget {
               textAlign: TextAlign.center,
               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
             ),
+            if (error != null) ...[
+              const SizedBox(height: 8),
+              Text(
+                error.toString(),
+                textAlign: TextAlign.center,
+                style: const TextStyle(
+                  color: AppColors.textMuted,
+                  fontSize: 12,
+                  height: 1.35,
+                ),
+              ),
+            ],
             const SizedBox(height: 12),
             TextButton(onPressed: onRetry, child: Text(context.l10n.retry)),
           ],
@@ -704,4 +735,198 @@ class _LoadError extends StatelessWidget {
       ),
     ),
   );
+}
+
+class _IpaLoading extends StatelessWidget {
+  const _IpaLoading({this.progress});
+
+  final IpaDownloadProgress? progress;
+
+  @override
+  Widget build(BuildContext context) {
+    final current = progress;
+    return Scaffold(
+      key: const ValueKey('ipa-loading-screen'),
+      backgroundColor: const Color(0xFFF7FAFF),
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Image.asset(
+              'assets/images/loading/bg_loading.png',
+              fit: BoxFit.cover,
+            ),
+          ),
+          SafeArea(
+            child: LayoutBuilder(
+              builder: (context, constraints) {
+                final compact = constraints.maxHeight < 720;
+                final maxImageWidth = compact ? 370.0 : 440.0;
+                return Padding(
+                  padding: EdgeInsets.fromLTRB(
+                    compact ? 26 : 34,
+                    compact ? 20 : 46,
+                    compact ? 26 : 34,
+                    compact ? 20 : 34,
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        context.l10n.text('ipaPreloadTitle'),
+                        key: const ValueKey('ipa-loading-title'),
+                        style: TextStyle(
+                          color: AppColors.primaryDark,
+                          fontSize: compact ? 31 : 38,
+                          height: 1.12,
+                          fontWeight: FontWeight.w900,
+                          letterSpacing: -.8,
+                        ),
+                      ),
+                      const SizedBox(height: 14),
+                      Text(
+                        context.l10n.text('ipaPreloadSubtitle'),
+                        key: const ValueKey('ipa-loading-description'),
+                        style: TextStyle(
+                          color: const Color(0xFF6F88AD),
+                          fontSize: compact ? 15 : 17,
+                          height: 1.55,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                      Expanded(
+                        child: Center(
+                          child: Image.asset(
+                            'assets/images/loading/owl_loading.png',
+                            key: const ValueKey('ipa-loading-owl'),
+                            fit: BoxFit.contain,
+                            width: (constraints.maxWidth * .92).clamp(
+                              0,
+                              maxImageWidth,
+                            ),
+                          ),
+                        ),
+                      ),
+                      _IpaLoadingDetails(progress: current),
+                    ],
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _IpaLoadingDetails extends StatelessWidget {
+  const _IpaLoadingDetails({required this.progress});
+
+  final IpaDownloadProgress? progress;
+
+  @override
+  Widget build(BuildContext context) {
+    final total = progress?.total ?? 0;
+    final loaded = progress?.completed ?? 0;
+    final fraction = progress?.fraction.clamp(0, 1).toDouble() ?? 0;
+    final percent = (fraction * 100).round();
+    final hasProgress = total > 0;
+
+    return Column(
+      key: const ValueKey('ipa-loading-progress'),
+      children: [
+        Row(
+          children: [
+            Expanded(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(999),
+                child: SizedBox(
+                  height: 17,
+                  child: Stack(
+                    fit: StackFit.expand,
+                    children: [
+                      const ColoredBox(color: Color(0xFFDCE9F9)),
+                      TweenAnimationBuilder<double>(
+                        tween: Tween(end: fraction),
+                        duration: const Duration(milliseconds: 220),
+                        curve: Curves.easeOut,
+                        builder: (context, value, _) => FractionallySizedBox(
+                          alignment: Alignment.centerLeft,
+                          widthFactor: value,
+                          child: const DecoratedBox(
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: [Color(0xFF0964FF), Color(0xFF04B7EE)],
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+            const SizedBox(width: 16),
+            SizedBox(
+              width: 62,
+              child: Text(
+                '$percent%',
+                key: const ValueKey('ipa-loading-percent'),
+                textAlign: TextAlign.right,
+                maxLines: 1,
+                softWrap: false,
+                style: const TextStyle(
+                  color: Color(0xFF0964E9),
+                  fontSize: 18,
+                  fontWeight: FontWeight.w900,
+                ),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 14),
+        Text(
+          hasProgress
+              ? context.l10n.text(
+                  'ipaLoadedAudio',
+                  values: {'loaded': loaded, 'total': total},
+                )
+              : context.l10n.text('ipaReadingData'),
+          key: const ValueKey('ipa-loading-count'),
+          style: const TextStyle(
+            color: Color(0xFF59759D),
+            fontSize: 14,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
+        const SizedBox(height: 20),
+        Text(
+          hasProgress
+              ? context.l10n.text(
+                  'ipaLoadingAudio',
+                  values: {'loaded': loaded, 'total': total},
+                )
+              : context.l10n.text('ipaReadingData'),
+          key: const ValueKey('ipa-loading-status'),
+          textAlign: TextAlign.center,
+          style: const TextStyle(
+            color: AppColors.primaryDark,
+            fontSize: 20,
+            fontWeight: FontWeight.w900,
+          ),
+        ),
+        const SizedBox(height: 7),
+        Text(
+          context.l10n.text('pleaseWait'),
+          textAlign: TextAlign.center,
+          style: const TextStyle(
+            color: Color(0xFF7A91B2),
+            fontSize: 15,
+            fontWeight: FontWeight.w500,
+          ),
+        ),
+      ],
+    );
+  }
 }

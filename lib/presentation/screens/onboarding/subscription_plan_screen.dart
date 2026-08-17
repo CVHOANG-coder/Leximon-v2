@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
+import '../../../data/services/iap_purchase_service.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class SubscriptionPlanScreen extends ConsumerStatefulWidget {
@@ -100,19 +101,61 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
 
   Future<void> _startSubscription() async {
     if (_isSubmitting) return;
-    setState(() => _isSubmitting = true);
+    final catalog = ref.read(iapCatalogProvider).valueOrNull;
+    final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
+    if (catalog == null || packages.isEmpty) {
+      _showPurchaseMessage(context.l10n.text('iapProductUnavailable'));
+      return;
+    }
+    final package = packages.firstWhere(
+      (item) => item.productId == _selectedProductId,
+      orElse: () => packages.first,
+    );
 
+    setState(() => _isSubmitting = true);
     try {
+      final result = await ref
+          .read(iapPurchaseServiceProvider)
+          .purchase(package: package, product: catalog.productFor(package));
+      if (!mounted) return;
+      if (!result.isSuccess) {
+        setState(() => _isSubmitting = false);
+        if (result.status != IapPurchaseResultStatus.canceled) {
+          _showPurchaseMessage(_purchaseMessage(result));
+        }
+        return;
+      }
+
+      ref.invalidate(remoteUserProfileProvider);
       await ref.read(appLanguageServiceProvider).completeOnboarding();
       if (!mounted) return;
       context.go('/');
-    } catch (_) {
+    } on Object {
       if (!mounted) return;
       setState(() => _isSubmitting = false);
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(context.l10n.text('subscriptionCompleteError'))),
-      );
+      _showPurchaseMessage(context.l10n.text('subscriptionCompleteError'));
     }
+  }
+
+  String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {
+    IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
+      'iapStoreUnavailable',
+    ),
+    IapPurchaseResultStatus.productUnavailable => context.l10n.text(
+      'iapProductUnavailable',
+    ),
+    IapPurchaseResultStatus.verificationFailed =>
+      result.message?.trim().isNotEmpty == true
+          ? result.message!
+          : context.l10n.text('iapVerificationFailed'),
+    IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
+    _ => context.l10n.text('iapPurchaseFailed'),
+  };
+
+  void _showPurchaseMessage(String message) {
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(message)));
   }
 
   @override

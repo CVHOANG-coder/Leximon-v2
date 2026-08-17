@@ -29,6 +29,17 @@ class IapCatalog {
     return subscriptionItems.toList(growable: false);
   }
 
+  /// Promotional subscriptions returned in the API's `SALE` group.
+  List<IapPackage> get salePackages {
+    final saleItems = <IapPackage>[];
+    for (final entry in apiResponse.packages.entries) {
+      if (entry.key.trim().toUpperCase() != 'SALE') continue;
+      saleItems.addAll(entry.value.where((item) => item.isEnabled));
+    }
+    saleItems.sort((a, b) => a.sortOrder.compareTo(b.sortOrder));
+    return saleItems.toList(growable: false);
+  }
+
   /// One-time skill packs (listening, speaking, reading and grammar).
   List<IapPackage> get skillPackPackages {
     final skillItems = <IapPackage>[];

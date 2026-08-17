@@ -30,6 +30,8 @@ import '../../data/services/additional_task_service.dart';
 import '../../data/services/auth_api_service.dart';
 import '../../data/services/iap_catalog_service.dart';
 import '../../data/services/iap_package_api_service.dart';
+import '../../data/services/iap_purchase_service.dart';
+import '../../data/services/iap_transaction_api_service.dart';
 import '../../data/services/challenge_dashboard_service.dart';
 import '../../data/services/app_usage_service.dart';
 import '../../data/services/daily_card_service.dart';
@@ -110,6 +112,16 @@ final iapCatalogServiceProvider = Provider<IapCatalogService>((ref) {
   return IapCatalogService(apiService: ref.watch(iapPackageApiServiceProvider));
 });
 
+final iapTransactionApiServiceProvider = Provider<IapTransactionApiService>((
+  ref,
+) {
+  return IapTransactionApiService(ref.watch(apiClientProvider));
+});
+
+final iapStoreGatewayProvider = Provider<IapStoreGateway>((ref) {
+  return FlutterIapStoreGateway();
+});
+
 /// Global Riverpod cache for the platform IAP catalog. Since this provider is
 /// not auto-disposed, returning to SubscriptionPlanScreen reuses the result
 /// and does not call /iap/packages again during the app session.
@@ -126,6 +138,25 @@ Future<IapCatalog> _loadIapCatalog(Ref ref, {required String platform}) async {
   await ref.watch(authApiServiceProvider).ensureToken();
   return ref.watch(iapCatalogServiceProvider).load(platform: platform);
 }
+
+/// Starts listening to the store purchase queue for the whole app session.
+/// This also recovers unfinished transactions delivered after a relaunch.
+final iapPurchaseServiceProvider = Provider<IapPurchaseService>((ref) {
+  final service = IapPurchaseService(
+    ref.watch(iapStoreGatewayProvider),
+    ref.watch(iapTransactionApiServiceProvider),
+    (productId) async {
+      final catalog = await ref.read(iapCatalogProvider.future);
+      for (final package in catalog.packages) {
+        if (package.productId == productId) return package;
+      }
+      return null;
+    },
+    ref.watch(authApiServiceProvider).ensureToken,
+  );
+  ref.onDispose(service.dispose);
+  return service;
+});
 
 /// Restores the saved authentication session (or logs in) and verifies it by
 /// loading the backend profile once per app session.
