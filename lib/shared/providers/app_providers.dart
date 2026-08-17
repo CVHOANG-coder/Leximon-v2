@@ -20,7 +20,7 @@ import '../../data/models/ipa_sound.dart';
 import '../../data/models/listening_catalog.dart';
 import '../../data/models/learning_language_level.dart';
 import '../../data/models/reading_story.dart';
-import '../../data/models/sentence_asset_index.dart';
+import '../../data/models/sentence_exercise.dart';
 import '../../data/models/topic.dart';
 import '../../data/models/user_profile_response.dart';
 import '../../data/models/vocabulary_collection.dart';
@@ -110,8 +110,9 @@ final iapCatalogServiceProvider = Provider<IapCatalogService>((ref) {
   return IapCatalogService(apiService: ref.watch(iapPackageApiServiceProvider));
 });
 
-/// Loads the backend catalog and then replaces its reference prices with the
-/// localized prices returned by the platform store.
+/// Global Riverpod cache for the platform IAP catalog. Since this provider is
+/// not auto-disposed, returning to SubscriptionPlanScreen reuses the result
+/// and does not call /iap/packages again during the app session.
 final iapCatalogProvider = FutureProvider<IapCatalog>((ref) {
   final platform = defaultTargetPlatform == TargetPlatform.iOS
       ? 'IOS'
@@ -126,16 +127,12 @@ Future<IapCatalog> _loadIapCatalog(Ref ref, {required String platform}) async {
   return ref.watch(iapCatalogServiceProvider).load(platform: platform);
 }
 
-/// Logs in and loads the backend profile once per app session. Both calls are
-/// best-effort because bundled/local data must remain usable while offline.
-final remoteUserProfileProvider = FutureProvider<UserProfile?>((ref) async {
-  try {
-    final authService = ref.watch(authApiServiceProvider);
-    await authService.ensureToken();
-    return (await authService.getUserProfile()).data;
-  } on Object {
-    return null;
-  }
+/// Restores the saved authentication session (or logs in) and verifies it by
+/// loading the backend profile once per app session.
+final remoteUserProfileProvider = FutureProvider<UserProfile>((ref) async {
+  final authService = ref.watch(authApiServiceProvider);
+  await authService.ensureToken();
+  return (await authService.getUserProfile()).data;
 });
 
 final authLoginInitializationProvider = FutureProvider<void>((ref) async {
@@ -254,8 +251,12 @@ final grammarTopicQuestionsProvider =
 final sentenceAssetWordIdsProvider = FutureProvider<Set<int>>((ref) async {
   final languageCode = ref.watch(selectedAppLanguageProvider);
   return ref
-      .watch(sentenceAssetDataSourceProvider)
-      .loadWordIds(languageCode: languageCode);
+      .watch(appDatabaseProvider)
+      .sentenceContentWordIds(
+        languageCode: TopicAssetDataSource.canonicalizeLanguageCode(
+          languageCode,
+        ),
+      );
 });
 
 final localDataInitializationProvider = FutureProvider<void>((ref) {
@@ -263,6 +264,47 @@ final localDataInitializationProvider = FutureProvider<void>((ref) {
   return ref
       .watch(topicRepositoryProvider)
       .initialize(languageCode: languageCode);
+});
+
+/// Imports both native-language content packages after selection or when the
+/// splash detects stale content. The sentence package is persisted locally
+/// alongside topics so changing language replaces the previous package.
+final languagePackageInitializationProvider = FutureProvider<void>((ref) async {
+  final languageCode = ref.watch(selectedAppLanguageProvider);
+  final sentencePackage = languageCode == 'en'
+      // English has no native-language sentence package. Treat it as an
+      // intentionally empty package instead of requesting /sentences/en.json.
+      ? Future<List<SentenceRecord>>.value(const <SentenceRecord>[])
+      : ref
+            .watch(sentenceAssetDataSourceProvider)
+            .reload(languageCode: languageCode);
+  final results = await Future.wait<Object?>([
+    ref.watch(topicRepositoryProvider).reload(languageCode: languageCode),
+    sentencePackage,
+  ]);
+  await ref
+      .watch(appDatabaseProvider)
+      .replaceSentenceContent(
+        languageCode: TopicAssetDataSource.canonicalizeLanguageCode(
+          languageCode,
+        ),
+        sentences: results[1] as List<SentenceRecord>,
+      );
+
+  // The profile is normally already loaded by splash. Persisting the
+  // metadata here also avoids downloading the same package again after a
+  // first-time onboarding selection.
+  final profile = ref.read(remoteUserProfileProvider).valueOrNull;
+  if (profile != null) {
+    await ref
+        .read(appLanguageServiceProvider)
+        .saveContentSyncMetadata(
+          languageCode: TopicAssetDataSource.canonicalizeLanguageCode(
+            languageCode,
+          ),
+          databaseVersion: profile.databaseVersion,
+        );
+  }
 });
 
 final userProfileProvider = FutureProvider<UserProfileRow?>((ref) async {
@@ -395,18 +437,51 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
     final savedLanguage = await ref
         .watch(appLanguageServiceProvider)
         .loadSelectedLanguage();
-    // Do not block startup on a remote call. AuthApiService reads the saved
-    // language itself, so first launch uses "en" and later launches use the
-    // language selected by the user.
-    unawaited(ref.read(authLoginInitializationProvider.future));
+    final selectedLanguage = savedLanguage == null
+        ? null
+        : TopicAssetDataSource.canonicalizeLanguageCode(savedLanguage);
+    if (selectedLanguage != null) {
+      ref.read(selectedAppLanguageProvider.notifier).state = selectedLanguage;
+    }
 
-    if (savedLanguage == null) {
+    // Authentication must finish successfully while the splash screen is
+    // still visible. This restores a saved token when possible, logs in when
+    // needed, and always verifies the resulting session with the profile API.
+    await ref.watch(authLoginInitializationProvider.future);
+
+    if (selectedLanguage == null) {
       return AppStartupDestination.languageOnboarding;
     }
-    final languageCode = TopicAssetDataSource.canonicalizeLanguageCode(
-      savedLanguage,
-    );
-    ref.read(selectedAppLanguageProvider.notifier).state = languageCode;
+
+    final profile = ref.read(remoteUserProfileProvider).valueOrNull;
+    // Content updates are a premium-only capability. Non-premium users keep
+    // their current local catalogue and skip the version/language check.
+    if (profile != null && profile.isPremium) {
+      final languageService = ref.read(appLanguageServiceProvider);
+      final synchronizedLanguage = await languageService.loadNativeLanguage();
+      final synchronizedDatabaseVersion = await languageService
+          .loadDatabaseVersion();
+      final languageChanged =
+          TopicAssetDataSource.canonicalizeLanguageCode(
+            synchronizedLanguage ?? '',
+          ) !=
+          selectedLanguage;
+      final databaseVersionMissing = synchronizedDatabaseVersion == null;
+      final databaseVersionOutdated =
+          synchronizedDatabaseVersion != null &&
+          synchronizedDatabaseVersion < profile.databaseVersion;
+
+      if (languageChanged ||
+          databaseVersionMissing ||
+          databaseVersionOutdated) {
+        await ref.watch(languagePackageInitializationProvider.future);
+      }
+      await languageService.saveContentSyncMetadata(
+        languageCode: selectedLanguage,
+        databaseVersion: profile.databaseVersion,
+      );
+    }
+
     await ref.watch(localDataInitializationProvider.future);
     await ref.watch(selectedTopicOrdersHydrationProvider.future);
     final savedLevel = await ref
@@ -455,9 +530,7 @@ final dailyCardServiceProvider = Provider<DailyCardService>((ref) {
     ref.watch(appDatabaseProvider),
     wordsPerDay: ref.watch(dailyWordsPerDayProvider),
     sentenceFeatureEnabled: true,
-    sentenceWordIds: languageCode == 'vi' ? sentenceAssetWordIds : null,
     sentenceLanguageCode: languageCode,
-    sentenceAssetDataSource: ref.watch(sentenceAssetDataSourceProvider),
   );
 });
 

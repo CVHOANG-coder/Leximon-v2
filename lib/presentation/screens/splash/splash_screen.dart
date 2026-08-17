@@ -60,8 +60,11 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   }
 
   void _retry() {
+    ref.invalidate(remoteUserProfileProvider);
+    ref.invalidate(authLoginInitializationProvider);
     ref.invalidate(localDataInitializationProvider);
     ref.invalidate(selectedTopicOrdersHydrationProvider);
+    ref.invalidate(languagePackageInitializationProvider);
     ref.invalidate(applicationInitializationProvider);
     unawaited(_initialize());
   }

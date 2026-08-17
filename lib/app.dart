@@ -15,6 +15,7 @@ import 'presentation/screens/onboarding/free_trial_offer_screen.dart';
 import 'presentation/screens/onboarding/level_assessment_intro_screen.dart';
 import 'presentation/screens/onboarding/level_selection_screen.dart';
 import 'presentation/screens/onboarding/language_onboarding_screen.dart';
+import 'presentation/screens/onboarding/language_package_loading_screen.dart';
 import 'presentation/screens/onboarding/survey_carousel_screen.dart';
 import 'presentation/screens/onboarding/survey_intro_screen.dart';
 import 'presentation/screens/onboarding/subscription_plan_screen.dart';
@@ -32,6 +33,10 @@ final _router = GoRouter(
       builder: (context, state) => const LanguageOnboardingScreen(),
     ),
     GoRoute(
+      path: '/onboarding/language-loading',
+      builder: (context, state) => const LanguagePackageLoadingScreen(),
+    ),
+    GoRoute(
       path: '/onboarding/assessment-intro',
       builder: (context, state) => const LevelAssessmentIntroScreen(),
       routes: [
@@ -45,9 +50,13 @@ final _router = GoRouter(
         ),
         GoRoute(
           path: 'vocabulary-test',
-          builder: (context, state) => VocabularyTestScreen(
-            startingBand: VocabularyStartingBand.fromQuery(
-              state.uri.queryParameters['band'],
+          builder: (context, state) => Consumer(
+            builder: (context, ref, _) => VocabularyTestScreen(
+              database: ref.watch(appDatabaseProvider),
+              languageCode: ref.watch(selectedAppLanguageProvider),
+              startingBand: VocabularyStartingBand.fromQuery(
+                state.uri.queryParameters['band'],
+              ),
             ),
           ),
         ),

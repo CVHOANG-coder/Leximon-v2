@@ -7,6 +7,9 @@ import '../../../core/localization/app_localizations.dart';
 import '../../../shared/providers/app_providers.dart';
 import 'grammar_exercise_screen.dart';
 import 'grammar_practice_screen.dart';
+import '../listening_practice/skill_pack_purchase_screen.dart';
+
+const grammarPackProductId = 'com.wordisland.learnenglish.ios.pack.grammar';
 
 class GrammarPackDetailScreen extends StatefulWidget {
   const GrammarPackDetailScreen({required this.pack, super.key});
@@ -30,6 +33,29 @@ class _GrammarPackDetailScreenState extends State<GrammarPackDetailScreen> {
 
   @override
   Widget build(BuildContext context) {
+    // The detail route is normally rendered below the app's ProviderScope.
+    // Keep the standalone widget usable as well (for previews/tests), while
+    // still reacting to the profile once a Riverpod scope is available.
+    try {
+      ProviderScope.containerOf(context, listen: false);
+    } on StateError {
+      return _buildContent(context, ownsGrammarPack: true);
+    }
+
+    return Consumer(
+      builder: (context, ref, _) {
+        final profile = ref.watch(remoteUserProfileProvider).valueOrNull;
+        // Splash loads the profile before entering the app. Treat an unknown
+        // profile as pending; an explicitly loaded non-owner is locked.
+        final ownsGrammarPack =
+            profile == null ||
+            profile.ownedProductIds.contains(grammarPackProductId);
+        return _buildContent(context, ownsGrammarPack: ownsGrammarPack);
+      },
+    );
+  }
+
+  Widget _buildContent(BuildContext context, {required bool ownsGrammarPack}) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
@@ -82,9 +108,12 @@ class _GrammarPackDetailScreenState extends State<GrammarPackDetailScreen> {
                         index: index,
                         level: _visiblePack.level,
                         isEditing: _isEditing,
+                        isLocked: !ownsGrammarPack,
                         onTap: _isEditing
                             ? null
-                            : () => _openExercise(_visiblePack.topics[index]),
+                            : ownsGrammarPack
+                            ? () => _openExercise(_visiblePack.topics[index])
+                            : _openGrammarPackPurchase,
                         onReset: () => _resetTopic(_visiblePack.topics[index]),
                       ),
                       separatorBuilder: (context, index) =>
@@ -108,7 +137,12 @@ class _GrammarPackDetailScreenState extends State<GrammarPackDetailScreen> {
       ),
     );
     if (!mounted) return;
-    final container = ProviderScope.containerOf(context);
+    ProviderContainer container;
+    try {
+      container = ProviderScope.containerOf(context, listen: false);
+    } on StateError {
+      return;
+    }
     final packs = await container.read(grammarRepositoryProvider).loadPacks();
     if (!mounted) return;
     final refreshed = packs
@@ -121,6 +155,24 @@ class _GrammarPackDetailScreenState extends State<GrammarPackDetailScreen> {
     // stored progress when this route is popped.
     container.invalidate(grammarTopicQuestionsProvider(topic.id));
     container.invalidate(grammarPacksProvider);
+  }
+
+  Future<void> _openGrammarPackPurchase() async {
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (_) =>
+            const SkillPackPurchaseScreen(skill: SkillPackType.grammar),
+      ),
+    );
+    if (!mounted) return;
+    try {
+      ProviderScope.containerOf(
+        context,
+        listen: false,
+      ).invalidate(remoteUserProfileProvider);
+    } on StateError {
+      // Standalone previews do not have a Riverpod scope.
+    }
   }
 
   Future<void> _resetTopic(GrammarTopic topic) async {
@@ -485,6 +537,7 @@ class _LessonCard extends StatelessWidget {
     required this.index,
     required this.level,
     required this.isEditing,
+    required this.isLocked,
     required this.onTap,
     required this.onReset,
   });
@@ -493,144 +546,154 @@ class _LessonCard extends StatelessWidget {
   final int index;
   final String level;
   final bool isEditing;
+  final bool isLocked;
   final VoidCallback? onTap;
   final VoidCallback onReset;
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      color: Colors.white.withValues(alpha: .91),
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(21)),
-      clipBehavior: Clip.antiAlias,
-      child: InkWell(
-        key: ValueKey('grammar-topic-$index'),
-        onTap: onTap,
-        child: SizedBox(
-          height: 83,
-          child: Row(
-            children: [
-              const SizedBox(width: 12),
-              Container(
-                width: 56,
-                height: 56,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFF0F7FF),
-                  shape: BoxShape.circle,
-                  border: Border.all(color: const Color(0xFFDCEBFF)),
-                ),
-                child: Center(
-                  child: Container(
-                    width: 29,
-                    height: 34,
-                    decoration: BoxDecoration(
-                      gradient: const LinearGradient(
-                        begin: Alignment.topLeft,
-                        end: Alignment.bottomRight,
-                        colors: [Color(0xFF53B6FF), Color(0xFF345BEF)],
-                      ),
-                      borderRadius: BorderRadius.circular(7),
-                      boxShadow: const [
-                        BoxShadow(
-                          color: Color(0x28345BEF),
-                          blurRadius: 8,
-                          offset: Offset(0, 4),
+    return Opacity(
+      opacity: isLocked ? .45 : 1,
+      child: Material(
+        color: Colors.white.withValues(alpha: .91),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(21)),
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          key: ValueKey('grammar-topic-$index'),
+          onTap: onTap,
+          child: SizedBox(
+            height: 83,
+            child: Row(
+              children: [
+                const SizedBox(width: 12),
+                Container(
+                  width: 56,
+                  height: 56,
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFF0F7FF),
+                    shape: BoxShape.circle,
+                    border: Border.all(color: const Color(0xFFDCEBFF)),
+                  ),
+                  child: Center(
+                    child: Container(
+                      width: 29,
+                      height: 34,
+                      decoration: BoxDecoration(
+                        gradient: const LinearGradient(
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                          colors: [Color(0xFF53B6FF), Color(0xFF345BEF)],
                         ),
-                      ],
-                    ),
-                    child: const Icon(
-                      Icons.format_align_left_rounded,
-                      color: Colors.white,
-                      size: 19,
+                        borderRadius: BorderRadius.circular(7),
+                        boxShadow: const [
+                          BoxShadow(
+                            color: Color(0x28345BEF),
+                            blurRadius: 8,
+                            offset: Offset(0, 4),
+                          ),
+                        ],
+                      ),
+                      child: const Icon(
+                        Icons.format_align_left_rounded,
+                        color: Colors.white,
+                        size: 19,
+                      ),
                     ),
                   ),
                 ),
-              ),
-              const SizedBox(width: 14),
-              Expanded(
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            topic.label,
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: Text(
+                              topic.label,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: const TextStyle(
+                                color: AppColors.primaryDark,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ),
+                          const SizedBox(width: 7),
+                          Text(
+                            '${topic.progress}%',
                             style: const TextStyle(
-                              color: AppColors.primaryDark,
-                              fontSize: 14,
+                              color: AppColors.primary,
+                              fontSize: 16,
                               fontWeight: FontWeight.w800,
                             ),
                           ),
-                        ),
-                        const SizedBox(width: 7),
-                        Text(
-                          '${topic.progress}%',
-                          style: const TextStyle(
-                            color: AppColors.primary,
-                            fontSize: 16,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 6),
-                    Row(
-                      children: [
-                        const _LessonBadge(
-                          label: 'Grammar',
-                          color: AppColors.primary,
-                          background: Color(0xFFEDF4FF),
-                        ),
-                        const SizedBox(width: 7),
-                        _LessonBadge(
-                          label: _difficulty.label,
-                          color: _difficulty.color,
-                          background: _difficulty.background,
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 8),
-                    ClipRRect(
-                      borderRadius: const BorderRadius.all(Radius.circular(99)),
-                      child: LinearProgressIndicator(
-                        value: topic.progress / 100,
-                        minHeight: 5,
-                        backgroundColor: Color(0xFFEAF1FA),
-                        color: AppColors.primary,
+                        ],
                       ),
+                      const SizedBox(height: 6),
+                      Row(
+                        children: [
+                          const _LessonBadge(
+                            label: 'Grammar',
+                            color: AppColors.primary,
+                            background: Color(0xFFEDF4FF),
+                          ),
+                          const SizedBox(width: 7),
+                          _LessonBadge(
+                            label: _difficulty.label,
+                            color: _difficulty.color,
+                            background: _difficulty.background,
+                          ),
+                        ],
+                      ),
+                      const SizedBox(height: 8),
+                      ClipRRect(
+                        borderRadius: const BorderRadius.all(
+                          Radius.circular(99),
+                        ),
+                        child: LinearProgressIndicator(
+                          value: topic.progress / 100,
+                          minHeight: 5,
+                          backgroundColor: Color(0xFFEAF1FA),
+                          color: AppColors.primary,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 10),
+                if (isEditing && !isLocked)
+                  IconButton(
+                    key: ValueKey('grammar-reset-topic-$index'),
+                    tooltip: context.l10n.text('grammarResetProgressTooltip'),
+                    onPressed: topic.progress > 0 ? onReset : null,
+                    style: IconButton.styleFrom(
+                      backgroundColor: const Color(0xFFFFEEEE),
+                      disabledBackgroundColor: const Color(0xFFF3F6FB),
                     ),
-                  ],
-                ),
-              ),
-              const SizedBox(width: 10),
-              if (isEditing)
-                IconButton(
-                  key: ValueKey('grammar-reset-topic-$index'),
-                  tooltip: context.l10n.text('grammarResetProgressTooltip'),
-                  onPressed: topic.progress > 0 ? onReset : null,
-                  style: IconButton.styleFrom(
-                    backgroundColor: const Color(0xFFFFEEEE),
-                    disabledBackgroundColor: const Color(0xFFF3F6FB),
+                    icon: Icon(
+                      Icons.restart_alt_rounded,
+                      color: topic.progress > 0
+                          ? const Color(0xFFFF5F67)
+                          : AppColors.textMuted,
+                      size: 22,
+                    ),
+                  )
+                else
+                  Icon(
+                    isLocked
+                        ? Icons.lock_outline_rounded
+                        : Icons.chevron_right_rounded,
+                    color: isLocked
+                        ? AppColors.textMuted
+                        : const Color(0xFF91ADD2),
+                    size: isLocked ? 22 : 28,
                   ),
-                  icon: Icon(
-                    Icons.restart_alt_rounded,
-                    color: topic.progress > 0
-                        ? const Color(0xFFFF5F67)
-                        : AppColors.textMuted,
-                    size: 22,
-                  ),
-                )
-              else
-                const Icon(
-                  Icons.chevron_right_rounded,
-                  color: Color(0xFF91ADD2),
-                  size: 28,
-                ),
-              const SizedBox(width: 8),
-            ],
+                const SizedBox(width: 8),
+              ],
+            ),
           ),
         ),
       ),

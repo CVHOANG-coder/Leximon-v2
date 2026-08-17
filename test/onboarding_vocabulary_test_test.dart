@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:drift/native.dart';
+import 'package:leximon/data/datasources/sentence_asset_data_source.dart';
+import 'package:leximon/data/datasources/topic_asset_data_source.dart';
+import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/onboarding_vocabulary_test.dart';
 import 'package:leximon/data/models/sentence_exercise.dart';
 import 'package:leximon/data/services/onboarding_vocabulary_test_service.dart';
@@ -9,7 +14,20 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   test('loads all local test levels and builds valid choices', () async {
-    final service = OnboardingVocabularyTestService();
+    final database = AppDatabase.forTesting(NativeDatabase.memory());
+    addTearDown(database.close);
+    final topicPayload = await TopicAssetDataSource(
+      bundle: rootBundle,
+    ).load(languageCode: 'vi');
+    await database.upsertTopicContent(topicPayload, languageCode: 'vi');
+    final sentences = await SentenceAssetDataSource(
+      bundle: rootBundle,
+    ).load(languageCode: 'vi');
+    await database.replaceSentenceContent(
+      languageCode: 'vi',
+      sentences: sentences,
+    );
+    final service = OnboardingVocabularyTestService(database: database);
     const expectedCounts = {
       BrightLevel.a1: 5,
       BrightLevel.a2: 6,

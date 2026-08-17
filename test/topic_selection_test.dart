@@ -1,5 +1,6 @@
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:leximon/data/datasources/topic_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
@@ -16,7 +17,7 @@ void main() {
     database = AppDatabase.forTesting(NativeDatabase.memory());
     repository = TopicRepository(
       database: database,
-      assetDataSource: TopicAssetDataSource(),
+      assetDataSource: TopicAssetDataSource(bundle: rootBundle),
     );
   });
 
@@ -33,7 +34,14 @@ void main() {
   );
 
   test('onboarding uses the complete enabled topic catalogue', () async {
-    final container = ProviderContainer();
+    final container = ProviderContainer(
+      overrides: [
+        topicAssetDataSourceProvider.overrideWithValue(
+          TopicAssetDataSource(bundle: rootBundle),
+        ),
+        selectedAppLanguageProvider.overrideWith((ref) => 'vi'),
+      ],
+    );
     addTearDown(container.dispose);
 
     final topics = await container.read(onboardingTopicsProvider.future);
@@ -45,11 +53,33 @@ void main() {
   });
 
   test('language choices match the topic asset files', () async {
-    final languages = await TopicAssetDataSource().loadAvailableLanguages();
+    final languages = await TopicAssetDataSource(
+      bundle: rootBundle,
+    ).loadAvailableLanguages();
 
     expect(languages, hasLength(30));
-    expect(languages.map((language) => language.code), contains('es-US'));
-    expect(languages.map((language) => language.code), contains('zh-TW'));
+    expect(
+      languages.map((language) => language.code),
+      containsAll(<String>['es-ES', 'es-US']),
+    );
+    expect(
+      languages
+          .where((language) => language.code.startsWith('es-'))
+          .map((language) => language.label)
+          .toSet(),
+      {'Español (España)', 'Español (Latinoamérica)'},
+    );
+    expect(
+      languages.map((language) => language.code),
+      containsAll(<String>['zh', 'zh-TW']),
+    );
+    expect(
+      languages
+          .where((language) => language.code.startsWith('zh'))
+          .map((language) => language.label)
+          .toSet(),
+      {'简体中文', '繁體中文'},
+    );
     expect(
       languages.map((language) => language.code),
       isNot(contains('es-419')),

@@ -54,12 +54,17 @@ class UserProfile {
     required this.createdAt,
     required this.language,
     required this.appVersion,
+    required this.databaseVersion,
     required this.notificationEnabled,
     required this.subscription,
+    required this.ownedProducts,
+    required this.ownedProductIds,
   });
 
   factory UserProfile.fromJson(Map<String, dynamic> json) {
     final rawSubscription = json['subscription'];
+    final rawOwnedProducts = json['ownedProducts'];
+    final rawOwnedProductIds = json['ownedProductIds'];
     return UserProfile(
       id: _asInt(json['id']),
       userCode: json['userCode']?.toString() ?? '',
@@ -72,10 +77,22 @@ class UserProfile {
       createdAt: _asDateTime(json['createdAt']),
       language: json['language']?.toString() ?? '',
       appVersion: json['appVersion']?.toString() ?? '',
+      databaseVersion: _asInt(json['databaseVersion']),
       notificationEnabled: json['notificationEnabled'] == true,
       subscription: rawSubscription is Map<String, dynamic>
           ? rawSubscription
           : null,
+      ownedProducts: rawOwnedProducts is List
+          ? rawOwnedProducts.whereType<Map<String, dynamic>>().toList(
+              growable: false,
+            )
+          : const [],
+      ownedProductIds: rawOwnedProductIds is List
+          ? rawOwnedProductIds
+                .where((id) => id != null)
+                .map((id) => id.toString())
+                .toList(growable: false)
+          : const [],
     );
   }
 
@@ -90,8 +107,11 @@ class UserProfile {
   final DateTime? createdAt;
   final String language;
   final String appVersion;
+  final int databaseVersion;
   final bool notificationEnabled;
   final Map<String, dynamic>? subscription;
+  final List<Map<String, dynamic>> ownedProducts;
+  final List<String> ownedProductIds;
 }
 
 int _asInt(Object? value) => value is int ? value : int.tryParse('$value') ?? 0;

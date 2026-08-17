@@ -63,6 +63,49 @@ void main() {
     expect(package.price, 4.99);
     expect(catalog.storePriceFor(package), '4,99 €');
   });
+
+  test('keeps API groups and exposes only the SUBSCRIPTION group', () async {
+    final client = ApiClient(
+      client: MockClient((_) async => _jsonResponse(_groupedPackagesResponse)),
+      baseUrl: 'https://example.com',
+    );
+    addTearDown(client.close);
+
+    final catalog = await IapCatalogService(
+      apiService: IapPackageApiService(apiClient: client),
+      storeProductQuery: (productIds) async => ProductDetailsResponse(
+        productDetails: [
+          for (final productId in productIds)
+            ProductDetails(
+              id: productId,
+              title: productId,
+              description: '',
+              price: '\$1.00',
+              rawPrice: 1,
+              currencyCode: 'USD',
+              currencySymbol: '\$',
+            ),
+        ],
+        notFoundIDs: const [],
+      ),
+    ).load(platform: 'IOS');
+
+    expect(catalog.apiResponse.total, 4);
+    expect(
+      catalog.apiResponse.packages.keys,
+      containsAll(<String>['SUBSCRIPTION', 'SALE', 'LIFETIME']),
+    );
+    expect(catalog.packages, hasLength(4));
+    expect(catalog.subscriptionPackages, hasLength(2));
+    expect(
+      catalog.subscriptionPackages.map((item) => item.productId),
+      containsAll(<String>['com.example.weekly', 'com.example.annual']),
+    );
+    expect(
+      catalog.subscriptionPackages.any((item) => item.group == 'SALE'),
+      isFalse,
+    );
+  });
 }
 
 final _packagesResponse = jsonEncode({
@@ -100,3 +143,48 @@ http.Response _jsonResponse(String body) => http.Response(
   200,
   headers: const {'content-type': 'application/json; charset=utf-8'},
 );
+
+final _groupedPackagesResponse = jsonEncode({
+  'success': true,
+  'message': 'Packages retrieved',
+  'data': {
+    'packages': {
+      'SUBSCRIPTION': [
+        {..._packageJson('com.example.weekly', 'SUBSCRIPTION', 1)},
+        {..._packageJson('com.example.annual', 'SUBSCRIPTION', 2)},
+      ],
+      'SALE': [
+        {
+          ..._packageJson('com.example.sale', 'SALE', 3),
+          'productType': 'SUBSCRIPTION',
+        },
+      ],
+      'LIFETIME': [
+        {
+          ..._packageJson('com.example.lifetime', 'LIFETIME', 4),
+          'productType': 'NON_CONSUMABLE',
+        },
+      ],
+    },
+    'total': 4,
+  },
+});
+
+Map<String, dynamic> _packageJson(String productId, String group, int id) => {
+  'id': id,
+  'productId': productId,
+  'productType': 'SUBSCRIPTION',
+  'name': productId,
+  'description': '',
+  'price': 1,
+  'currency': 'USD',
+  'platform': 'IOS',
+  'packDurationDay': 7,
+  'trialDays': 0,
+  'isEnabled': true,
+  'sortOrder': id,
+  'adjustEventToken': '',
+  'createdAt': '2026-08-16T03:58:54.326Z',
+  'updatedAt': '2026-08-16T03:58:54.326Z',
+  'group': group,
+};

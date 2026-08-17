@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:drift/drift.dart';
 import 'package:drift_flutter/drift_flutter.dart';
 
+import '../models/sentence_exercise.dart';
 import '../models/topic_asset_payload.dart';
 
 part 'app_database.g.dart';
@@ -135,6 +136,40 @@ class SentenceExposureModels extends Table {
 
   @override
   Set<Column<Object>> get primaryKey => {sentenceId};
+}
+
+/// Bundled sentence content for the currently selected native language.
+/// Progress remains in the separate exposure tables so switching language
+/// packages never resets a learner's practice history.
+@DataClassName('SentenceContentRow')
+@TableIndex(name: 'sentence_content_language', columns: {#languageCode})
+class SentenceContentModels extends Table {
+  IntColumn get translationId => integer()();
+
+  IntColumn get wordId => integer()();
+
+  IntColumn get sentenceId => integer()();
+
+  TextColumn get languageCode => text()();
+
+  TextColumn get spelling => text()();
+
+  TextColumn get translation => text()();
+
+  IntColumn get difficulty => integer()();
+
+  TextColumn get wrongSpellings => text()();
+
+  TextColumn get taskSpellings => text()();
+
+  TextColumn get task => text()();
+
+  TextColumn get soundUrl => text()();
+
+  TextColumn get alternativeTranslations => text()();
+
+  @override
+  Set<Column<Object>> get primaryKey => {sentenceId, languageCode};
 }
 
 @TableIndex(
@@ -732,6 +767,7 @@ class PracticeSessionHistoryModels extends Table {
     LearningProgressModels,
     WordSentenceProgressModels,
     SentenceExposureModels,
+    SentenceContentModels,
     LearningSessions,
     SessionExercises,
     SimilarWordModels,
@@ -767,7 +803,7 @@ class AppDatabase extends _$AppDatabase {
       'bundled_topics_$languageCode';
 
   @override
-  int get schemaVersion => 12;
+  int get schemaVersion => 13;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -858,6 +894,9 @@ class AppDatabase extends _$AppDatabase {
       if (from < 12) {
         await m.createTable(readingSavedWordModels);
       }
+      if (from < 13) {
+        await m.createTable(sentenceContentModels);
+      }
     },
   );
 
@@ -865,6 +904,89 @@ class AppDatabase extends _$AppDatabase {
     return (select(
       userProfiles,
     )..where((row) => row.id.equals(1))).getSingleOrNull();
+  }
+
+  Future<List<SentenceRecord>> loadSentenceContent({
+    required String languageCode,
+  }) async {
+    final rows = await (select(
+      sentenceContentModels,
+    )..where((row) => row.languageCode.equals(languageCode))).get();
+    return rows.map(_sentenceContentToRecord).toList(growable: false);
+  }
+
+  Future<Set<int>> sentenceContentWordIds({
+    required String languageCode,
+  }) async {
+    final sentences = await loadSentenceContent(languageCode: languageCode);
+    return sentences
+        .where(
+          (sentence) =>
+              sentence.wordId > 0 &&
+              sentence.spelling.trim().isNotEmpty &&
+              sentence.translation.trim().isNotEmpty,
+        )
+        .map((sentence) => sentence.wordId)
+        .toSet();
+  }
+
+  Future<void> replaceSentenceContent({
+    required String languageCode,
+    required List<SentenceRecord> sentences,
+  }) {
+    return transaction(() async {
+      // This transaction only replaces sentence content. Sentence exposure,
+      // word progress, sessions, and the other local tables are independent.
+      await delete(sentenceContentModels).go();
+      await batch((batch) {
+        batch.insertAll(
+          sentenceContentModels,
+          sentences
+              .map(
+                (sentence) => SentenceContentModelsCompanion.insert(
+                  translationId: sentence.translationId,
+                  wordId: sentence.wordId,
+                  sentenceId: sentence.sentenceId,
+                  languageCode: languageCode,
+                  spelling: sentence.spelling,
+                  translation: sentence.translation,
+                  difficulty: sentence.difficulty,
+                  wrongSpellings: jsonEncode(sentence.wrongSpellings),
+                  taskSpellings: jsonEncode(sentence.taskSpellings),
+                  task: sentence.task,
+                  soundUrl: sentence.soundUrl,
+                  alternativeTranslations: jsonEncode(
+                    sentence.alternativeTranslations,
+                  ),
+                ),
+              )
+              .toList(growable: false),
+        );
+      });
+    });
+  }
+
+  SentenceRecord _sentenceContentToRecord(SentenceContentRow row) {
+    List<String> decodeStrings(String source) {
+      final decoded = jsonDecode(source);
+      return decoded is List
+          ? decoded.whereType<String>().toList(growable: false)
+          : const <String>[];
+    }
+
+    return SentenceRecord(
+      translationId: row.translationId,
+      wordId: row.wordId,
+      sentenceId: row.sentenceId,
+      spelling: row.spelling,
+      translation: row.translation,
+      difficulty: row.difficulty,
+      wrongSpellings: decodeStrings(row.wrongSpellings),
+      taskSpellings: decodeStrings(row.taskSpellings),
+      task: row.task,
+      soundUrl: row.soundUrl,
+      alternativeTranslations: decodeStrings(row.alternativeTranslations),
+    );
   }
 
   Future<void> saveUserProfile({
@@ -947,6 +1069,8 @@ class AppDatabase extends _$AppDatabase {
     String languageCode = 'vi',
   }) {
     return transaction(() async {
+      // Keep learner progress and local settings in their separate tables;
+      // only the topic/word content rows are reconciled below.
       final source = topicAssetSource(languageCode);
       final existingTopics = await select(topicModels).get();
       final topicSelections = {

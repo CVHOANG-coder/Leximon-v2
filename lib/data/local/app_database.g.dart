@@ -2517,6 +2517,756 @@ class SentenceExposureModelsCompanion
   }
 }
 
+class $SentenceContentModelsTable extends SentenceContentModels
+    with TableInfo<$SentenceContentModelsTable, SentenceContentRow> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $SentenceContentModelsTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _translationIdMeta = const VerificationMeta(
+    'translationId',
+  );
+  @override
+  late final GeneratedColumn<int> translationId = GeneratedColumn<int>(
+    'translation_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
+  @override
+  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
+    'word_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _sentenceIdMeta = const VerificationMeta(
+    'sentenceId',
+  );
+  @override
+  late final GeneratedColumn<int> sentenceId = GeneratedColumn<int>(
+    'sentence_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _languageCodeMeta = const VerificationMeta(
+    'languageCode',
+  );
+  @override
+  late final GeneratedColumn<String> languageCode = GeneratedColumn<String>(
+    'language_code',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _spellingMeta = const VerificationMeta(
+    'spelling',
+  );
+  @override
+  late final GeneratedColumn<String> spelling = GeneratedColumn<String>(
+    'spelling',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _translationMeta = const VerificationMeta(
+    'translation',
+  );
+  @override
+  late final GeneratedColumn<String> translation = GeneratedColumn<String>(
+    'translation',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _difficultyMeta = const VerificationMeta(
+    'difficulty',
+  );
+  @override
+  late final GeneratedColumn<int> difficulty = GeneratedColumn<int>(
+    'difficulty',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _wrongSpellingsMeta = const VerificationMeta(
+    'wrongSpellings',
+  );
+  @override
+  late final GeneratedColumn<String> wrongSpellings = GeneratedColumn<String>(
+    'wrong_spellings',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _taskSpellingsMeta = const VerificationMeta(
+    'taskSpellings',
+  );
+  @override
+  late final GeneratedColumn<String> taskSpellings = GeneratedColumn<String>(
+    'task_spellings',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _taskMeta = const VerificationMeta('task');
+  @override
+  late final GeneratedColumn<String> task = GeneratedColumn<String>(
+    'task',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _soundUrlMeta = const VerificationMeta(
+    'soundUrl',
+  );
+  @override
+  late final GeneratedColumn<String> soundUrl = GeneratedColumn<String>(
+    'sound_url',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _alternativeTranslationsMeta =
+      const VerificationMeta('alternativeTranslations');
+  @override
+  late final GeneratedColumn<String> alternativeTranslations =
+      GeneratedColumn<String>(
+        'alternative_translations',
+        aliasedName,
+        false,
+        type: DriftSqlType.string,
+        requiredDuringInsert: true,
+      );
+  @override
+  List<GeneratedColumn> get $columns => [
+    translationId,
+    wordId,
+    sentenceId,
+    languageCode,
+    spelling,
+    translation,
+    difficulty,
+    wrongSpellings,
+    taskSpellings,
+    task,
+    soundUrl,
+    alternativeTranslations,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'sentence_content_models';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<SentenceContentRow> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('translation_id')) {
+      context.handle(
+        _translationIdMeta,
+        translationId.isAcceptableOrUnknown(
+          data['translation_id']!,
+          _translationIdMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_translationIdMeta);
+    }
+    if (data.containsKey('word_id')) {
+      context.handle(
+        _wordIdMeta,
+        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_wordIdMeta);
+    }
+    if (data.containsKey('sentence_id')) {
+      context.handle(
+        _sentenceIdMeta,
+        sentenceId.isAcceptableOrUnknown(data['sentence_id']!, _sentenceIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_sentenceIdMeta);
+    }
+    if (data.containsKey('language_code')) {
+      context.handle(
+        _languageCodeMeta,
+        languageCode.isAcceptableOrUnknown(
+          data['language_code']!,
+          _languageCodeMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_languageCodeMeta);
+    }
+    if (data.containsKey('spelling')) {
+      context.handle(
+        _spellingMeta,
+        spelling.isAcceptableOrUnknown(data['spelling']!, _spellingMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_spellingMeta);
+    }
+    if (data.containsKey('translation')) {
+      context.handle(
+        _translationMeta,
+        translation.isAcceptableOrUnknown(
+          data['translation']!,
+          _translationMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_translationMeta);
+    }
+    if (data.containsKey('difficulty')) {
+      context.handle(
+        _difficultyMeta,
+        difficulty.isAcceptableOrUnknown(data['difficulty']!, _difficultyMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_difficultyMeta);
+    }
+    if (data.containsKey('wrong_spellings')) {
+      context.handle(
+        _wrongSpellingsMeta,
+        wrongSpellings.isAcceptableOrUnknown(
+          data['wrong_spellings']!,
+          _wrongSpellingsMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_wrongSpellingsMeta);
+    }
+    if (data.containsKey('task_spellings')) {
+      context.handle(
+        _taskSpellingsMeta,
+        taskSpellings.isAcceptableOrUnknown(
+          data['task_spellings']!,
+          _taskSpellingsMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_taskSpellingsMeta);
+    }
+    if (data.containsKey('task')) {
+      context.handle(
+        _taskMeta,
+        task.isAcceptableOrUnknown(data['task']!, _taskMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_taskMeta);
+    }
+    if (data.containsKey('sound_url')) {
+      context.handle(
+        _soundUrlMeta,
+        soundUrl.isAcceptableOrUnknown(data['sound_url']!, _soundUrlMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_soundUrlMeta);
+    }
+    if (data.containsKey('alternative_translations')) {
+      context.handle(
+        _alternativeTranslationsMeta,
+        alternativeTranslations.isAcceptableOrUnknown(
+          data['alternative_translations']!,
+          _alternativeTranslationsMeta,
+        ),
+      );
+    } else if (isInserting) {
+      context.missing(_alternativeTranslationsMeta);
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {sentenceId, languageCode};
+  @override
+  SentenceContentRow map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return SentenceContentRow(
+      translationId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}translation_id'],
+      )!,
+      wordId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}word_id'],
+      )!,
+      sentenceId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}sentence_id'],
+      )!,
+      languageCode: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}language_code'],
+      )!,
+      spelling: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}spelling'],
+      )!,
+      translation: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}translation'],
+      )!,
+      difficulty: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}difficulty'],
+      )!,
+      wrongSpellings: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}wrong_spellings'],
+      )!,
+      taskSpellings: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}task_spellings'],
+      )!,
+      task: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}task'],
+      )!,
+      soundUrl: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}sound_url'],
+      )!,
+      alternativeTranslations: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}alternative_translations'],
+      )!,
+    );
+  }
+
+  @override
+  $SentenceContentModelsTable createAlias(String alias) {
+    return $SentenceContentModelsTable(attachedDatabase, alias);
+  }
+}
+
+class SentenceContentRow extends DataClass
+    implements Insertable<SentenceContentRow> {
+  final int translationId;
+  final int wordId;
+  final int sentenceId;
+  final String languageCode;
+  final String spelling;
+  final String translation;
+  final int difficulty;
+  final String wrongSpellings;
+  final String taskSpellings;
+  final String task;
+  final String soundUrl;
+  final String alternativeTranslations;
+  const SentenceContentRow({
+    required this.translationId,
+    required this.wordId,
+    required this.sentenceId,
+    required this.languageCode,
+    required this.spelling,
+    required this.translation,
+    required this.difficulty,
+    required this.wrongSpellings,
+    required this.taskSpellings,
+    required this.task,
+    required this.soundUrl,
+    required this.alternativeTranslations,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['translation_id'] = Variable<int>(translationId);
+    map['word_id'] = Variable<int>(wordId);
+    map['sentence_id'] = Variable<int>(sentenceId);
+    map['language_code'] = Variable<String>(languageCode);
+    map['spelling'] = Variable<String>(spelling);
+    map['translation'] = Variable<String>(translation);
+    map['difficulty'] = Variable<int>(difficulty);
+    map['wrong_spellings'] = Variable<String>(wrongSpellings);
+    map['task_spellings'] = Variable<String>(taskSpellings);
+    map['task'] = Variable<String>(task);
+    map['sound_url'] = Variable<String>(soundUrl);
+    map['alternative_translations'] = Variable<String>(alternativeTranslations);
+    return map;
+  }
+
+  SentenceContentModelsCompanion toCompanion(bool nullToAbsent) {
+    return SentenceContentModelsCompanion(
+      translationId: Value(translationId),
+      wordId: Value(wordId),
+      sentenceId: Value(sentenceId),
+      languageCode: Value(languageCode),
+      spelling: Value(spelling),
+      translation: Value(translation),
+      difficulty: Value(difficulty),
+      wrongSpellings: Value(wrongSpellings),
+      taskSpellings: Value(taskSpellings),
+      task: Value(task),
+      soundUrl: Value(soundUrl),
+      alternativeTranslations: Value(alternativeTranslations),
+    );
+  }
+
+  factory SentenceContentRow.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return SentenceContentRow(
+      translationId: serializer.fromJson<int>(json['translationId']),
+      wordId: serializer.fromJson<int>(json['wordId']),
+      sentenceId: serializer.fromJson<int>(json['sentenceId']),
+      languageCode: serializer.fromJson<String>(json['languageCode']),
+      spelling: serializer.fromJson<String>(json['spelling']),
+      translation: serializer.fromJson<String>(json['translation']),
+      difficulty: serializer.fromJson<int>(json['difficulty']),
+      wrongSpellings: serializer.fromJson<String>(json['wrongSpellings']),
+      taskSpellings: serializer.fromJson<String>(json['taskSpellings']),
+      task: serializer.fromJson<String>(json['task']),
+      soundUrl: serializer.fromJson<String>(json['soundUrl']),
+      alternativeTranslations: serializer.fromJson<String>(
+        json['alternativeTranslations'],
+      ),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'translationId': serializer.toJson<int>(translationId),
+      'wordId': serializer.toJson<int>(wordId),
+      'sentenceId': serializer.toJson<int>(sentenceId),
+      'languageCode': serializer.toJson<String>(languageCode),
+      'spelling': serializer.toJson<String>(spelling),
+      'translation': serializer.toJson<String>(translation),
+      'difficulty': serializer.toJson<int>(difficulty),
+      'wrongSpellings': serializer.toJson<String>(wrongSpellings),
+      'taskSpellings': serializer.toJson<String>(taskSpellings),
+      'task': serializer.toJson<String>(task),
+      'soundUrl': serializer.toJson<String>(soundUrl),
+      'alternativeTranslations': serializer.toJson<String>(
+        alternativeTranslations,
+      ),
+    };
+  }
+
+  SentenceContentRow copyWith({
+    int? translationId,
+    int? wordId,
+    int? sentenceId,
+    String? languageCode,
+    String? spelling,
+    String? translation,
+    int? difficulty,
+    String? wrongSpellings,
+    String? taskSpellings,
+    String? task,
+    String? soundUrl,
+    String? alternativeTranslations,
+  }) => SentenceContentRow(
+    translationId: translationId ?? this.translationId,
+    wordId: wordId ?? this.wordId,
+    sentenceId: sentenceId ?? this.sentenceId,
+    languageCode: languageCode ?? this.languageCode,
+    spelling: spelling ?? this.spelling,
+    translation: translation ?? this.translation,
+    difficulty: difficulty ?? this.difficulty,
+    wrongSpellings: wrongSpellings ?? this.wrongSpellings,
+    taskSpellings: taskSpellings ?? this.taskSpellings,
+    task: task ?? this.task,
+    soundUrl: soundUrl ?? this.soundUrl,
+    alternativeTranslations:
+        alternativeTranslations ?? this.alternativeTranslations,
+  );
+  SentenceContentRow copyWithCompanion(SentenceContentModelsCompanion data) {
+    return SentenceContentRow(
+      translationId: data.translationId.present
+          ? data.translationId.value
+          : this.translationId,
+      wordId: data.wordId.present ? data.wordId.value : this.wordId,
+      sentenceId: data.sentenceId.present
+          ? data.sentenceId.value
+          : this.sentenceId,
+      languageCode: data.languageCode.present
+          ? data.languageCode.value
+          : this.languageCode,
+      spelling: data.spelling.present ? data.spelling.value : this.spelling,
+      translation: data.translation.present
+          ? data.translation.value
+          : this.translation,
+      difficulty: data.difficulty.present
+          ? data.difficulty.value
+          : this.difficulty,
+      wrongSpellings: data.wrongSpellings.present
+          ? data.wrongSpellings.value
+          : this.wrongSpellings,
+      taskSpellings: data.taskSpellings.present
+          ? data.taskSpellings.value
+          : this.taskSpellings,
+      task: data.task.present ? data.task.value : this.task,
+      soundUrl: data.soundUrl.present ? data.soundUrl.value : this.soundUrl,
+      alternativeTranslations: data.alternativeTranslations.present
+          ? data.alternativeTranslations.value
+          : this.alternativeTranslations,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SentenceContentRow(')
+          ..write('translationId: $translationId, ')
+          ..write('wordId: $wordId, ')
+          ..write('sentenceId: $sentenceId, ')
+          ..write('languageCode: $languageCode, ')
+          ..write('spelling: $spelling, ')
+          ..write('translation: $translation, ')
+          ..write('difficulty: $difficulty, ')
+          ..write('wrongSpellings: $wrongSpellings, ')
+          ..write('taskSpellings: $taskSpellings, ')
+          ..write('task: $task, ')
+          ..write('soundUrl: $soundUrl, ')
+          ..write('alternativeTranslations: $alternativeTranslations')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode => Object.hash(
+    translationId,
+    wordId,
+    sentenceId,
+    languageCode,
+    spelling,
+    translation,
+    difficulty,
+    wrongSpellings,
+    taskSpellings,
+    task,
+    soundUrl,
+    alternativeTranslations,
+  );
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is SentenceContentRow &&
+          other.translationId == this.translationId &&
+          other.wordId == this.wordId &&
+          other.sentenceId == this.sentenceId &&
+          other.languageCode == this.languageCode &&
+          other.spelling == this.spelling &&
+          other.translation == this.translation &&
+          other.difficulty == this.difficulty &&
+          other.wrongSpellings == this.wrongSpellings &&
+          other.taskSpellings == this.taskSpellings &&
+          other.task == this.task &&
+          other.soundUrl == this.soundUrl &&
+          other.alternativeTranslations == this.alternativeTranslations);
+}
+
+class SentenceContentModelsCompanion
+    extends UpdateCompanion<SentenceContentRow> {
+  final Value<int> translationId;
+  final Value<int> wordId;
+  final Value<int> sentenceId;
+  final Value<String> languageCode;
+  final Value<String> spelling;
+  final Value<String> translation;
+  final Value<int> difficulty;
+  final Value<String> wrongSpellings;
+  final Value<String> taskSpellings;
+  final Value<String> task;
+  final Value<String> soundUrl;
+  final Value<String> alternativeTranslations;
+  final Value<int> rowid;
+  const SentenceContentModelsCompanion({
+    this.translationId = const Value.absent(),
+    this.wordId = const Value.absent(),
+    this.sentenceId = const Value.absent(),
+    this.languageCode = const Value.absent(),
+    this.spelling = const Value.absent(),
+    this.translation = const Value.absent(),
+    this.difficulty = const Value.absent(),
+    this.wrongSpellings = const Value.absent(),
+    this.taskSpellings = const Value.absent(),
+    this.task = const Value.absent(),
+    this.soundUrl = const Value.absent(),
+    this.alternativeTranslations = const Value.absent(),
+    this.rowid = const Value.absent(),
+  });
+  SentenceContentModelsCompanion.insert({
+    required int translationId,
+    required int wordId,
+    required int sentenceId,
+    required String languageCode,
+    required String spelling,
+    required String translation,
+    required int difficulty,
+    required String wrongSpellings,
+    required String taskSpellings,
+    required String task,
+    required String soundUrl,
+    required String alternativeTranslations,
+    this.rowid = const Value.absent(),
+  }) : translationId = Value(translationId),
+       wordId = Value(wordId),
+       sentenceId = Value(sentenceId),
+       languageCode = Value(languageCode),
+       spelling = Value(spelling),
+       translation = Value(translation),
+       difficulty = Value(difficulty),
+       wrongSpellings = Value(wrongSpellings),
+       taskSpellings = Value(taskSpellings),
+       task = Value(task),
+       soundUrl = Value(soundUrl),
+       alternativeTranslations = Value(alternativeTranslations);
+  static Insertable<SentenceContentRow> custom({
+    Expression<int>? translationId,
+    Expression<int>? wordId,
+    Expression<int>? sentenceId,
+    Expression<String>? languageCode,
+    Expression<String>? spelling,
+    Expression<String>? translation,
+    Expression<int>? difficulty,
+    Expression<String>? wrongSpellings,
+    Expression<String>? taskSpellings,
+    Expression<String>? task,
+    Expression<String>? soundUrl,
+    Expression<String>? alternativeTranslations,
+    Expression<int>? rowid,
+  }) {
+    return RawValuesInsertable({
+      if (translationId != null) 'translation_id': translationId,
+      if (wordId != null) 'word_id': wordId,
+      if (sentenceId != null) 'sentence_id': sentenceId,
+      if (languageCode != null) 'language_code': languageCode,
+      if (spelling != null) 'spelling': spelling,
+      if (translation != null) 'translation': translation,
+      if (difficulty != null) 'difficulty': difficulty,
+      if (wrongSpellings != null) 'wrong_spellings': wrongSpellings,
+      if (taskSpellings != null) 'task_spellings': taskSpellings,
+      if (task != null) 'task': task,
+      if (soundUrl != null) 'sound_url': soundUrl,
+      if (alternativeTranslations != null)
+        'alternative_translations': alternativeTranslations,
+      if (rowid != null) 'rowid': rowid,
+    });
+  }
+
+  SentenceContentModelsCompanion copyWith({
+    Value<int>? translationId,
+    Value<int>? wordId,
+    Value<int>? sentenceId,
+    Value<String>? languageCode,
+    Value<String>? spelling,
+    Value<String>? translation,
+    Value<int>? difficulty,
+    Value<String>? wrongSpellings,
+    Value<String>? taskSpellings,
+    Value<String>? task,
+    Value<String>? soundUrl,
+    Value<String>? alternativeTranslations,
+    Value<int>? rowid,
+  }) {
+    return SentenceContentModelsCompanion(
+      translationId: translationId ?? this.translationId,
+      wordId: wordId ?? this.wordId,
+      sentenceId: sentenceId ?? this.sentenceId,
+      languageCode: languageCode ?? this.languageCode,
+      spelling: spelling ?? this.spelling,
+      translation: translation ?? this.translation,
+      difficulty: difficulty ?? this.difficulty,
+      wrongSpellings: wrongSpellings ?? this.wrongSpellings,
+      taskSpellings: taskSpellings ?? this.taskSpellings,
+      task: task ?? this.task,
+      soundUrl: soundUrl ?? this.soundUrl,
+      alternativeTranslations:
+          alternativeTranslations ?? this.alternativeTranslations,
+      rowid: rowid ?? this.rowid,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (translationId.present) {
+      map['translation_id'] = Variable<int>(translationId.value);
+    }
+    if (wordId.present) {
+      map['word_id'] = Variable<int>(wordId.value);
+    }
+    if (sentenceId.present) {
+      map['sentence_id'] = Variable<int>(sentenceId.value);
+    }
+    if (languageCode.present) {
+      map['language_code'] = Variable<String>(languageCode.value);
+    }
+    if (spelling.present) {
+      map['spelling'] = Variable<String>(spelling.value);
+    }
+    if (translation.present) {
+      map['translation'] = Variable<String>(translation.value);
+    }
+    if (difficulty.present) {
+      map['difficulty'] = Variable<int>(difficulty.value);
+    }
+    if (wrongSpellings.present) {
+      map['wrong_spellings'] = Variable<String>(wrongSpellings.value);
+    }
+    if (taskSpellings.present) {
+      map['task_spellings'] = Variable<String>(taskSpellings.value);
+    }
+    if (task.present) {
+      map['task'] = Variable<String>(task.value);
+    }
+    if (soundUrl.present) {
+      map['sound_url'] = Variable<String>(soundUrl.value);
+    }
+    if (alternativeTranslations.present) {
+      map['alternative_translations'] = Variable<String>(
+        alternativeTranslations.value,
+      );
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('SentenceContentModelsCompanion(')
+          ..write('translationId: $translationId, ')
+          ..write('wordId: $wordId, ')
+          ..write('sentenceId: $sentenceId, ')
+          ..write('languageCode: $languageCode, ')
+          ..write('spelling: $spelling, ')
+          ..write('translation: $translation, ')
+          ..write('difficulty: $difficulty, ')
+          ..write('wrongSpellings: $wrongSpellings, ')
+          ..write('taskSpellings: $taskSpellings, ')
+          ..write('task: $task, ')
+          ..write('soundUrl: $soundUrl, ')
+          ..write('alternativeTranslations: $alternativeTranslations, ')
+          ..write('rowid: $rowid')
+          ..write(')'))
+        .toString();
+  }
+}
+
 class $LearningSessionsTable extends LearningSessions
     with TableInfo<$LearningSessionsTable, LearningSession> {
   @override
@@ -14365,6 +15115,8 @@ abstract class _$AppDatabase extends GeneratedDatabase {
       $WordSentenceProgressModelsTable(this);
   late final $SentenceExposureModelsTable sentenceExposureModels =
       $SentenceExposureModelsTable(this);
+  late final $SentenceContentModelsTable sentenceContentModels =
+      $SentenceContentModelsTable(this);
   late final $LearningSessionsTable learningSessions = $LearningSessionsTable(
     this,
   );
@@ -14430,6 +15182,10 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     'sentence_exposure_word',
     'CREATE INDEX sentence_exposure_word ON sentence_exposure_models (word_id)',
   );
+  late final Index sentenceContentLanguage = Index(
+    'sentence_content_language',
+    'CREATE INDEX sentence_content_language ON sentence_content_models (language_code)',
+  );
   late final Index learningSessionStatusStartedAt = Index(
     'learning_session_status_started_at',
     'CREATE INDEX learning_session_status_started_at ON LearningSession (status, started_at)',
@@ -14488,6 +15244,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     learningProgressModels,
     wordSentenceProgressModels,
     sentenceExposureModels,
+    sentenceContentModels,
     learningSessions,
     sessionExercises,
     similarWordModels,
@@ -14516,6 +15273,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     wordModelTopicEnabled,
     learningProgressRepetitionDate,
     sentenceExposureWord,
+    sentenceContentLanguage,
     learningSessionStatusStartedAt,
     sessionExerciseSessionOrder,
     listeningLessonProgressStatusUpdated,
@@ -15829,6 +16587,374 @@ typedef $$SentenceExposureModelsTableProcessedTableManager =
         >,
       ),
       SentenceExposureRow,
+      PrefetchHooks Function()
+    >;
+typedef $$SentenceContentModelsTableCreateCompanionBuilder =
+    SentenceContentModelsCompanion Function({
+      required int translationId,
+      required int wordId,
+      required int sentenceId,
+      required String languageCode,
+      required String spelling,
+      required String translation,
+      required int difficulty,
+      required String wrongSpellings,
+      required String taskSpellings,
+      required String task,
+      required String soundUrl,
+      required String alternativeTranslations,
+      Value<int> rowid,
+    });
+typedef $$SentenceContentModelsTableUpdateCompanionBuilder =
+    SentenceContentModelsCompanion Function({
+      Value<int> translationId,
+      Value<int> wordId,
+      Value<int> sentenceId,
+      Value<String> languageCode,
+      Value<String> spelling,
+      Value<String> translation,
+      Value<int> difficulty,
+      Value<String> wrongSpellings,
+      Value<String> taskSpellings,
+      Value<String> task,
+      Value<String> soundUrl,
+      Value<String> alternativeTranslations,
+      Value<int> rowid,
+    });
+
+class $$SentenceContentModelsTableFilterComposer
+    extends Composer<_$AppDatabase, $SentenceContentModelsTable> {
+  $$SentenceContentModelsTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get translationId => $composableBuilder(
+    column: $table.translationId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sentenceId => $composableBuilder(
+    column: $table.sentenceId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get languageCode => $composableBuilder(
+    column: $table.languageCode,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get spelling => $composableBuilder(
+    column: $table.spelling,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get translation => $composableBuilder(
+    column: $table.translation,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get difficulty => $composableBuilder(
+    column: $table.difficulty,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get wrongSpellings => $composableBuilder(
+    column: $table.wrongSpellings,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get taskSpellings => $composableBuilder(
+    column: $table.taskSpellings,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get task => $composableBuilder(
+    column: $table.task,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get soundUrl => $composableBuilder(
+    column: $table.soundUrl,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get alternativeTranslations => $composableBuilder(
+    column: $table.alternativeTranslations,
+    builder: (column) => ColumnFilters(column),
+  );
+}
+
+class $$SentenceContentModelsTableOrderingComposer
+    extends Composer<_$AppDatabase, $SentenceContentModelsTable> {
+  $$SentenceContentModelsTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get translationId => $composableBuilder(
+    column: $table.translationId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get wordId => $composableBuilder(
+    column: $table.wordId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sentenceId => $composableBuilder(
+    column: $table.sentenceId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get languageCode => $composableBuilder(
+    column: $table.languageCode,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get spelling => $composableBuilder(
+    column: $table.spelling,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get translation => $composableBuilder(
+    column: $table.translation,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get difficulty => $composableBuilder(
+    column: $table.difficulty,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get wrongSpellings => $composableBuilder(
+    column: $table.wrongSpellings,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get taskSpellings => $composableBuilder(
+    column: $table.taskSpellings,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get task => $composableBuilder(
+    column: $table.task,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get soundUrl => $composableBuilder(
+    column: $table.soundUrl,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get alternativeTranslations => $composableBuilder(
+    column: $table.alternativeTranslations,
+    builder: (column) => ColumnOrderings(column),
+  );
+}
+
+class $$SentenceContentModelsTableAnnotationComposer
+    extends Composer<_$AppDatabase, $SentenceContentModelsTable> {
+  $$SentenceContentModelsTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get translationId => $composableBuilder(
+    column: $table.translationId,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get wordId =>
+      $composableBuilder(column: $table.wordId, builder: (column) => column);
+
+  GeneratedColumn<int> get sentenceId => $composableBuilder(
+    column: $table.sentenceId,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get languageCode => $composableBuilder(
+    column: $table.languageCode,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get spelling =>
+      $composableBuilder(column: $table.spelling, builder: (column) => column);
+
+  GeneratedColumn<String> get translation => $composableBuilder(
+    column: $table.translation,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get difficulty => $composableBuilder(
+    column: $table.difficulty,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get wrongSpellings => $composableBuilder(
+    column: $table.wrongSpellings,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get taskSpellings => $composableBuilder(
+    column: $table.taskSpellings,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get task =>
+      $composableBuilder(column: $table.task, builder: (column) => column);
+
+  GeneratedColumn<String> get soundUrl =>
+      $composableBuilder(column: $table.soundUrl, builder: (column) => column);
+
+  GeneratedColumn<String> get alternativeTranslations => $composableBuilder(
+    column: $table.alternativeTranslations,
+    builder: (column) => column,
+  );
+}
+
+class $$SentenceContentModelsTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $SentenceContentModelsTable,
+          SentenceContentRow,
+          $$SentenceContentModelsTableFilterComposer,
+          $$SentenceContentModelsTableOrderingComposer,
+          $$SentenceContentModelsTableAnnotationComposer,
+          $$SentenceContentModelsTableCreateCompanionBuilder,
+          $$SentenceContentModelsTableUpdateCompanionBuilder,
+          (
+            SentenceContentRow,
+            BaseReferences<
+              _$AppDatabase,
+              $SentenceContentModelsTable,
+              SentenceContentRow
+            >,
+          ),
+          SentenceContentRow,
+          PrefetchHooks Function()
+        > {
+  $$SentenceContentModelsTableTableManager(
+    _$AppDatabase db,
+    $SentenceContentModelsTable table,
+  ) : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$SentenceContentModelsTableFilterComposer(
+                $db: db,
+                $table: table,
+              ),
+          createOrderingComposer: () =>
+              $$SentenceContentModelsTableOrderingComposer(
+                $db: db,
+                $table: table,
+              ),
+          createComputedFieldComposer: () =>
+              $$SentenceContentModelsTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
+          updateCompanionCallback:
+              ({
+                Value<int> translationId = const Value.absent(),
+                Value<int> wordId = const Value.absent(),
+                Value<int> sentenceId = const Value.absent(),
+                Value<String> languageCode = const Value.absent(),
+                Value<String> spelling = const Value.absent(),
+                Value<String> translation = const Value.absent(),
+                Value<int> difficulty = const Value.absent(),
+                Value<String> wrongSpellings = const Value.absent(),
+                Value<String> taskSpellings = const Value.absent(),
+                Value<String> task = const Value.absent(),
+                Value<String> soundUrl = const Value.absent(),
+                Value<String> alternativeTranslations = const Value.absent(),
+                Value<int> rowid = const Value.absent(),
+              }) => SentenceContentModelsCompanion(
+                translationId: translationId,
+                wordId: wordId,
+                sentenceId: sentenceId,
+                languageCode: languageCode,
+                spelling: spelling,
+                translation: translation,
+                difficulty: difficulty,
+                wrongSpellings: wrongSpellings,
+                taskSpellings: taskSpellings,
+                task: task,
+                soundUrl: soundUrl,
+                alternativeTranslations: alternativeTranslations,
+                rowid: rowid,
+              ),
+          createCompanionCallback:
+              ({
+                required int translationId,
+                required int wordId,
+                required int sentenceId,
+                required String languageCode,
+                required String spelling,
+                required String translation,
+                required int difficulty,
+                required String wrongSpellings,
+                required String taskSpellings,
+                required String task,
+                required String soundUrl,
+                required String alternativeTranslations,
+                Value<int> rowid = const Value.absent(),
+              }) => SentenceContentModelsCompanion.insert(
+                translationId: translationId,
+                wordId: wordId,
+                sentenceId: sentenceId,
+                languageCode: languageCode,
+                spelling: spelling,
+                translation: translation,
+                difficulty: difficulty,
+                wrongSpellings: wrongSpellings,
+                taskSpellings: taskSpellings,
+                task: task,
+                soundUrl: soundUrl,
+                alternativeTranslations: alternativeTranslations,
+                rowid: rowid,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map((e) => (e.readTable(table), BaseReferences(db, table, e)))
+              .toList(),
+          prefetchHooksCallback: null,
+        ),
+      );
+}
+
+typedef $$SentenceContentModelsTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $SentenceContentModelsTable,
+      SentenceContentRow,
+      $$SentenceContentModelsTableFilterComposer,
+      $$SentenceContentModelsTableOrderingComposer,
+      $$SentenceContentModelsTableAnnotationComposer,
+      $$SentenceContentModelsTableCreateCompanionBuilder,
+      $$SentenceContentModelsTableUpdateCompanionBuilder,
+      (
+        SentenceContentRow,
+        BaseReferences<
+          _$AppDatabase,
+          $SentenceContentModelsTable,
+          SentenceContentRow
+        >,
+      ),
+      SentenceContentRow,
       PrefetchHooks Function()
     >;
 typedef $$LearningSessionsTableCreateCompanionBuilder =
@@ -23232,6 +24358,8 @@ class $AppDatabaseManager {
         _db,
         _db.sentenceExposureModels,
       );
+  $$SentenceContentModelsTableTableManager get sentenceContentModels =>
+      $$SentenceContentModelsTableTableManager(_db, _db.sentenceContentModels);
   $$LearningSessionsTableTableManager get learningSessions =>
       $$LearningSessionsTableTableManager(_db, _db.learningSessions);
   $$SessionExercisesTableTableManager get sessionExercises =>

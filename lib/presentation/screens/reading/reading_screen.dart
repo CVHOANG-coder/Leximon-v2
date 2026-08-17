@@ -13,6 +13,7 @@ import '../../../data/services/reading_progress_service.dart';
 import '../../../data/services/reading_vocabulary_service.dart';
 import '../../../presentation/widgets/app_bottom_sheet.dart';
 import '../../../shared/providers/app_providers.dart';
+import '../listening_practice/skill_pack_purchase_screen.dart';
 
 class ReadingScreen extends ConsumerWidget {
   const ReadingScreen({super.key});
@@ -67,6 +68,10 @@ class _ReadingContentState extends ConsumerState<_ReadingContent> {
 
   @override
   Widget build(BuildContext context) {
+    final profile = ref.watch(remoteUserProfileProvider).valueOrNull;
+    final ownsReadingPack =
+        profile == null ||
+        profile.ownedProductIds.contains(SkillPackType.reading.productId);
     return CustomScrollView(
       key: const ValueKey('reading-scroll'),
       physics: const BouncingScrollPhysics(),
@@ -89,12 +94,15 @@ class _ReadingContentState extends ConsumerState<_ReadingContent> {
                 viewed: widget.storyProgress.containsKey(story.id),
                 completed: widget.storyProgress[story.id] == true,
                 bookmarked: _bookmarkedStoryIds.contains(story.id),
+                isLocked: !ownsReadingPack,
                 onBookmark: () => setState(() {
                   if (!_bookmarkedStoryIds.add(story.id)) {
                     _bookmarkedStoryIds.remove(story.id);
                   }
                 }),
-                onTap: () => _openStory(story),
+                onTap: ownsReadingPack
+                    ? () => _openStory(story)
+                    : _openReadingPackPurchase,
               );
             }, childCount: widget.stories.length),
           ),
@@ -111,6 +119,16 @@ class _ReadingContentState extends ConsumerState<_ReadingContent> {
     ref
       ..invalidate(readingCardProgressProvider)
       ..invalidate(challengeDashboardProvider);
+  }
+
+  Future<void> _openReadingPackPurchase() async {
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (_) =>
+            const SkillPackPurchaseScreen(skill: SkillPackType.reading),
+      ),
+    );
+    if (mounted) ref.invalidate(remoteUserProfileProvider);
   }
 }
 
@@ -278,6 +296,7 @@ class _StoryCard extends StatelessWidget {
     required this.viewed,
     required this.completed,
     required this.bookmarked,
+    required this.isLocked,
     required this.onBookmark,
     required this.onTap,
     super.key,
@@ -287,6 +306,7 @@ class _StoryCard extends StatelessWidget {
   final bool viewed;
   final bool completed;
   final bool bookmarked;
+  final bool isLocked;
   final VoidCallback onBookmark;
   final VoidCallback onTap;
 
@@ -302,147 +322,155 @@ class _StoryCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final accent = _accentColors[story.id % _accentColors.length];
-    return DecoratedBox(
-      decoration: BoxDecoration(
-        color: accent,
-        borderRadius: BorderRadius.circular(25),
-        boxShadow: const [
-          BoxShadow(
-            color: Color(0x1F336592),
-            blurRadius: 18,
-            offset: Offset(0, 8),
-          ),
-        ],
-      ),
-      child: Padding(
-        padding: const EdgeInsets.only(bottom: 7),
-        child: Material(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(23),
-          clipBehavior: Clip.antiAlias,
-          child: InkWell(
-            onTap: onTap,
-            child: Padding(
-              padding: const EdgeInsets.all(10),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Stack(
-                    children: [
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(17),
-                        child: AspectRatio(
-                          aspectRatio: 1.28,
-                          child: Image.asset(
-                            story.imageAsset,
-                            fit: BoxFit.cover,
-                            cacheWidth: 420,
+    return Opacity(
+      opacity: isLocked ? .45 : 1,
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          color: accent,
+          borderRadius: BorderRadius.circular(25),
+          boxShadow: const [
+            BoxShadow(
+              color: Color(0x1F336592),
+              blurRadius: 18,
+              offset: Offset(0, 8),
+            ),
+          ],
+        ),
+        child: Padding(
+          padding: const EdgeInsets.only(bottom: 7),
+          child: Material(
+            color: Colors.white,
+            borderRadius: BorderRadius.circular(23),
+            clipBehavior: Clip.antiAlias,
+            child: InkWell(
+              onTap: onTap,
+              child: Padding(
+                padding: const EdgeInsets.all(10),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Stack(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(17),
+                          child: AspectRatio(
+                            aspectRatio: 1.28,
+                            child: Image.asset(
+                              story.imageAsset,
+                              fit: BoxFit.cover,
+                              cacheWidth: 420,
+                            ),
                           ),
                         ),
-                      ),
-                      if (viewed)
-                        Positioned(
-                          left: 8,
-                          top: 8,
-                          child: Container(
-                            key: ValueKey(
-                              completed
-                                  ? 'reading-completed-${story.id}'
-                                  : 'reading-viewed-${story.id}',
+                        if (viewed)
+                          Positioned(
+                            left: 8,
+                            top: 8,
+                            child: Container(
+                              key: ValueKey(
+                                completed
+                                    ? 'reading-completed-${story.id}'
+                                    : 'reading-viewed-${story.id}',
+                              ),
+                              width: 34,
+                              height: 34,
+                              alignment: Alignment.center,
+                              decoration: BoxDecoration(
+                                color: completed
+                                    ? const Color(0xFF19B96E)
+                                    : const Color(0xFF287BE8),
+                                shape: BoxShape.circle,
+                                border: Border.all(
+                                  color: Colors.white,
+                                  width: 2,
+                                ),
+                                boxShadow: const [
+                                  BoxShadow(
+                                    color: Color(0x33071A3D),
+                                    blurRadius: 8,
+                                  ),
+                                ],
+                              ),
+                              child: Icon(
+                                completed
+                                    ? Icons.check_rounded
+                                    : Icons.visibility_rounded,
+                                color: Colors.white,
+                                size: 20,
+                              ),
                             ),
-                            width: 34,
-                            height: 34,
-                            alignment: Alignment.center,
-                            decoration: BoxDecoration(
-                              color: completed
-                                  ? const Color(0xFF19B96E)
-                                  : const Color(0xFF287BE8),
+                          ),
+                      ],
+                    ),
+                    const SizedBox(height: 10),
+                    Expanded(
+                      child: Text(
+                        story.title,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(
+                          color: AppColors.primaryDark,
+                          fontSize: 13,
+                          height: 1.15,
+                          fontWeight: FontWeight.w800,
+                          letterSpacing: -.2,
+                        ),
+                      ),
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 11,
+                            vertical: 5,
+                          ),
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFEAF8F1),
+                            borderRadius: BorderRadius.circular(99),
+                          ),
+                          child: Text(
+                            context.l10n.text('easy'),
+                            style: TextStyle(
+                              color: Color(0xFF2BB678),
+                              fontSize: 10,
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                        ),
+                        const Spacer(),
+                        InkResponse(
+                          key: ValueKey('reading-bookmark-${story.id}'),
+                          onTap: isLocked ? null : onBookmark,
+                          radius: 22,
+                          child: Container(
+                            width: 35,
+                            height: 35,
+                            decoration: const BoxDecoration(
+                              color: Colors.white,
                               shape: BoxShape.circle,
-                              border: Border.all(color: Colors.white, width: 2),
-                              boxShadow: const [
+                              boxShadow: [
                                 BoxShadow(
-                                  color: Color(0x33071A3D),
-                                  blurRadius: 8,
+                                  color: Color(0x1C294E7B),
+                                  blurRadius: 10,
+                                  offset: Offset(0, 4),
                                 ),
                               ],
                             ),
                             child: Icon(
-                              completed
-                                  ? Icons.check_rounded
-                                  : Icons.visibility_rounded,
-                              color: Colors.white,
+                              isLocked
+                                  ? Icons.lock_outline_rounded
+                                  : bookmarked
+                                  ? Icons.bookmark_rounded
+                                  : Icons.bookmark_border_rounded,
+                              color: AppColors.primary,
                               size: 20,
                             ),
                           ),
                         ),
-                    ],
-                  ),
-                  const SizedBox(height: 10),
-                  Expanded(
-                    child: Text(
-                      story.title,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: const TextStyle(
-                        color: AppColors.primaryDark,
-                        fontSize: 13,
-                        height: 1.15,
-                        fontWeight: FontWeight.w800,
-                        letterSpacing: -.2,
-                      ),
+                      ],
                     ),
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 11,
-                          vertical: 5,
-                        ),
-                        decoration: BoxDecoration(
-                          color: const Color(0xFFEAF8F1),
-                          borderRadius: BorderRadius.circular(99),
-                        ),
-                        child: Text(
-                          context.l10n.text('easy'),
-                          style: TextStyle(
-                            color: Color(0xFF2BB678),
-                            fontSize: 10,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                      ),
-                      const Spacer(),
-                      InkResponse(
-                        key: ValueKey('reading-bookmark-${story.id}'),
-                        onTap: onBookmark,
-                        radius: 22,
-                        child: Container(
-                          width: 35,
-                          height: 35,
-                          decoration: const BoxDecoration(
-                            color: Colors.white,
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: Color(0x1C294E7B),
-                                blurRadius: 10,
-                                offset: Offset(0, 4),
-                              ),
-                            ],
-                          ),
-                          child: Icon(
-                            bookmarked
-                                ? Icons.bookmark_rounded
-                                : Icons.bookmark_border_rounded,
-                            color: AppColors.primary,
-                            size: 20,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ),

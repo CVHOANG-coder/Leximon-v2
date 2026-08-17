@@ -73,6 +73,7 @@ class DailyCardService {
     this.sentenceFeatureEnabled = false,
     this.sentenceWordIds,
     this.sentenceLanguageCode = 'vi',
+    @Deprecated('Sentence content is read from the local database.')
     this.sentenceAssetDataSource,
   }) : assert(wordsPerDay > 0);
 
@@ -86,6 +87,7 @@ class DailyCardService {
   final bool sentenceFeatureEnabled;
   final Set<int>? sentenceWordIds;
   final String sentenceLanguageCode;
+  @Deprecated('Sentence content is read from the local database.')
   final SentenceAssetDataSource? sentenceAssetDataSource;
 
   Future<DailyCardSnapshot> load({DateTime? now}) async {
@@ -93,8 +95,9 @@ class DailyCardService {
     final today = _dayStart(currentTime);
     final activeSentenceWordIds = sentenceFeatureEnabled
         ? sentenceWordIds ??
-              await (sentenceAssetDataSource ?? SentenceAssetDataSource())
-                  .loadWordIds(languageCode: sentenceLanguageCode)
+              await _database.sentenceContentWordIds(
+                languageCode: sentenceLanguageCode,
+              )
         : const <int>{};
     final enabledWordIds = (await _database.enabledWords())
         .map((word) => word.id)

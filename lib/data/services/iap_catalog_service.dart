@@ -15,6 +15,31 @@ class IapCatalog {
 
   List<IapPackage> get packages => apiResponse.enabledPackages;
 
+  /// SubscriptionPlanScreen displays only packages in the API's
+  /// `packages.SUBSCRIPTION` group. Other groups (including SALE) belong to
+  /// separate catalogue sections, even when their productType is also
+  /// SUBSCRIPTION.
+  List<IapPackage> get subscriptionPackages {
+    final subscriptionItems = <IapPackage>[];
+    for (final entry in apiResponse.packages.entries) {
+      if (entry.key.trim().toUpperCase() != 'SUBSCRIPTION') continue;
+      subscriptionItems.addAll(entry.value.where((item) => item.isEnabled));
+    }
+    subscriptionItems.sort((a, b) => a.sortOrder.compareTo(b.sortOrder));
+    return subscriptionItems.toList(growable: false);
+  }
+
+  /// One-time skill packs (listening, speaking, reading and grammar).
+  List<IapPackage> get skillPackPackages {
+    final skillItems = <IapPackage>[];
+    for (final entry in apiResponse.packages.entries) {
+      if (entry.key.trim().toUpperCase() != 'SKILL_PACK') continue;
+      skillItems.addAll(entry.value.where((item) => item.isEnabled));
+    }
+    skillItems.sort((a, b) => a.sortOrder.compareTo(b.sortOrder));
+    return skillItems.toList(growable: false);
+  }
+
   ProductDetails? productFor(IapPackage package) =>
       storeProducts[package.productId];
 

@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/services.dart';
 
 import '../datasources/sentence_asset_data_source.dart';
+import '../datasources/topic_asset_data_source.dart';
 import '../local/app_database.dart';
 import '../models/sentence_exercise.dart';
 
@@ -33,6 +34,7 @@ class SentenceLessonService {
        _assetDataSource =
            assetDataSource ?? SentenceAssetDataSource(bundle: assetBundle),
        _languageCode = languageCode,
+       _allowAssetFallback = assetBundle != null,
        _random = random ?? Random();
 
   static const _wordCount = 4;
@@ -40,6 +42,7 @@ class SentenceLessonService {
   final AppDatabase _database;
   final SentenceAssetDataSource _assetDataSource;
   final String _languageCode;
+  final bool _allowAssetFallback;
   final Random _random;
   Future<List<SentenceRecord>>? _cachedSentences;
 
@@ -162,9 +165,22 @@ class SentenceLessonService {
   }
 
   Future<List<SentenceRecord>> _loadSentences() {
-    return _cachedSentences ??= _assetDataSource.load(
-      languageCode: _languageCode,
+    return _cachedSentences ??= _loadPersistedSentences();
+  }
+
+  Future<List<SentenceRecord>> _loadPersistedSentences() async {
+    final languageCode = TopicAssetDataSource.canonicalizeLanguageCode(
+      _languageCode,
     );
+    final localSentences = await _database.loadSentenceContent(
+      languageCode: languageCode,
+    );
+    if (localSentences.isNotEmpty) return localSentences;
+    if (_allowAssetFallback) {
+      // Explicit asset injection is retained for isolated unit tests only.
+      return _assetDataSource.load(languageCode: languageCode);
+    }
+    return const <SentenceRecord>[];
   }
 
   List<SentenceExercise> _buildExercises(

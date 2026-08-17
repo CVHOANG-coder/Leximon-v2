@@ -9,6 +9,7 @@ import '../../../core/localization/app_localizations.dart';
 import '../../../data/services/listening_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../speaking_practice/speaking_exercise_screen.dart';
+import 'skill_pack_purchase_screen.dart';
 import 'listening_preload_screen.dart';
 
 class ListeningCourseDetailScreen extends ConsumerStatefulWidget {
@@ -62,6 +63,16 @@ class _ListeningCourseDetailScreenState
 
   @override
   Widget build(BuildContext context) {
+    final skillPack = _mode == _PracticeMode.speaking
+        ? SkillPackType.speaking
+        : SkillPackType.listening;
+    final ownsSkillPack =
+        ref
+            .watch(remoteUserProfileProvider)
+            .valueOrNull
+            ?.ownedProductIds
+            .contains(skillPack.productId) ==
+        true;
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
@@ -178,7 +189,9 @@ class _ListeningCourseDetailScreenState
                                 expanded: expanded,
                                 onToggle: () => _toggleGroup(group.id),
                                 onLessonTap: _openLesson,
+                                onLockedLessonTap: _openSkillPackPurchase,
                                 progressByLessonId: _progressByLessonId,
+                                ownsSkillPack: ownsSkillPack,
                               ),
                             );
                           }, childCount: groups.length),
@@ -237,6 +250,18 @@ class _ListeningCourseDetailScreenState
       ),
     );
     await _loadProgress();
+  }
+
+  Future<void> _openSkillPackPurchase() async {
+    final skill = _mode == _PracticeMode.speaking
+        ? SkillPackType.speaking
+        : SkillPackType.listening;
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (_) => SkillPackPurchaseScreen(skill: skill),
+      ),
+    );
+    if (mounted) ref.invalidate(remoteUserProfileProvider);
   }
 
   void _selectMode(_PracticeMode mode) {
@@ -749,7 +774,9 @@ class _LessonGroupCard extends StatelessWidget {
     required this.expanded,
     required this.onToggle,
     required this.onLessonTap,
+    required this.onLockedLessonTap,
     required this.progressByLessonId,
+    required this.ownsSkillPack,
   });
 
   final _LessonGroup group;
@@ -757,7 +784,9 @@ class _LessonGroupCard extends StatelessWidget {
   final bool expanded;
   final VoidCallback onToggle;
   final ValueChanged<_ListeningLesson> onLessonTap;
+  final VoidCallback onLockedLessonTap;
   final Map<int, _LessonProgress> progressByLessonId;
+  final bool ownsSkillPack;
 
   static const _sectionColors = [
     [Color(0xFF87C8FF), Color(0xFF286AFF)],
@@ -915,8 +944,11 @@ class _LessonGroupCard extends StatelessWidget {
                     _LessonCard(
                       lesson: group.lessons[index],
                       displayIndex: index + 1,
-                      onTap: () => onLessonTap(group.lessons[index]),
+                      onTap: ownsSkillPack
+                          ? () => onLessonTap(group.lessons[index])
+                          : onLockedLessonTap,
                       progress: progressByLessonId[group.lessons[index].id],
+                      isLocked: !ownsSkillPack,
                     ),
                     if (index != group.lessons.length - 1)
                       const SizedBox(height: 8),
@@ -962,114 +994,125 @@ class _LessonCard extends StatelessWidget {
     required this.displayIndex,
     required this.onTap,
     required this.progress,
+    required this.isLocked,
   });
 
   final _ListeningLesson lesson;
   final int displayIndex;
   final VoidCallback onTap;
   final _LessonProgress? progress;
+  final bool isLocked;
 
   @override
   Widget build(BuildContext context) => GestureDetector(
     behavior: HitTestBehavior.opaque,
+    // Locked lessons intentionally keep a tap handler so they can open the
+    // skill-pack purchase screen. The caller supplies either the lesson
+    // action or the unlock flow based on the ownership state.
     onTap: onTap,
-    child: Container(
-      padding: const EdgeInsets.all(10),
-      decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: .94),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFE3EBF6)),
-        boxShadow: const [
-          BoxShadow(
-            color: Color(0x122A70B8),
-            blurRadius: 12,
-            offset: Offset(0, 5),
-          ),
-        ],
-      ),
-      child: Row(
-        children: [
-          Container(
-            width: 48,
-            height: 56,
-            alignment: Alignment.center,
-            decoration: BoxDecoration(
-              color: AppColors.surfaceBlue,
-              borderRadius: BorderRadius.circular(15),
+    child: AnimatedOpacity(
+      duration: const Duration(milliseconds: 180),
+      opacity: isLocked ? .45 : 1,
+      child: Container(
+        padding: const EdgeInsets.all(10),
+        decoration: BoxDecoration(
+          color: Colors.white.withValues(alpha: .94),
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: const Color(0xFFE3EBF6)),
+          boxShadow: const [
+            BoxShadow(
+              color: Color(0x122A70B8),
+              blurRadius: 12,
+              offset: Offset(0, 5),
             ),
-            child: Text(
-              '$displayIndex',
-              style: const TextStyle(
-                color: AppColors.primary,
-                fontSize: 20,
-                fontWeight: FontWeight.w700,
+          ],
+        ),
+        child: Row(
+          children: [
+            Container(
+              width: 48,
+              height: 56,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: AppColors.surfaceBlue,
+                borderRadius: BorderRadius.circular(15),
+              ),
+              child: Text(
+                '$displayIndex',
+                style: const TextStyle(
+                  color: AppColors.primary,
+                  fontSize: 20,
+                  fontWeight: FontWeight.w700,
+                ),
               ),
             ),
-          ),
-          const SizedBox(width: 11),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  _cleanLessonName(lesson.name),
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                  style: const TextStyle(
-                    color: AppColors.primaryDark,
-                    fontSize: 13,
-                    height: 1.15,
-                    fontWeight: FontWeight.w800,
+            const SizedBox(width: 11),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    _cleanLessonName(lesson.name),
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(
+                      color: AppColors.primaryDark,
+                      fontSize: 13,
+                      height: 1.15,
+                      fontWeight: FontWeight.w800,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 7),
-                Wrap(
-                  spacing: 6,
-                  runSpacing: 5,
-                  children: [
-                    _LessonMeta(
-                      icon: Icons.extension_rounded,
-                      label: context.l10n.text(
-                        'challengeCount',
-                        values: {'count': lesson.totalChallenges},
+                  const SizedBox(height: 7),
+                  Wrap(
+                    spacing: 6,
+                    runSpacing: 5,
+                    children: [
+                      _LessonMeta(
+                        icon: Icons.extension_rounded,
+                        label: context.l10n.text(
+                          'challengeCount',
+                          values: {'count': lesson.totalChallenges},
+                        ),
+                        color: AppColors.purple,
                       ),
-                      color: AppColors.purple,
-                    ),
-                    _LessonMeta(
-                      icon: Icons.bar_chart_rounded,
-                      label: context.l10n.text(
-                        'levelValue',
-                        values: {'level': lesson.levelName},
+                      _LessonMeta(
+                        icon: Icons.bar_chart_rounded,
+                        label: context.l10n.text(
+                          'levelValue',
+                          values: {'level': lesson.levelName},
+                        ),
+                        color: AppColors.primary,
                       ),
-                      color: AppColors.primary,
-                    ),
-                    _LessonMeta(
-                      icon: Icons.adjust_rounded,
-                      label:
-                          progress?.status ==
-                              ListeningLessonStatus.completed.index
-                          ? context.l10n.text('completed')
-                          : context.l10n.text(
-                              'challengeCount',
-                              values: {
-                                'count':
-                                    '${progress?.completed ?? 0}/${lesson.totalChallenges}',
-                              },
-                            ),
-                      color: AppColors.green,
-                    ),
-                  ],
-                ),
-              ],
+                      _LessonMeta(
+                        icon: Icons.adjust_rounded,
+                        label:
+                            progress?.status ==
+                                ListeningLessonStatus.completed.index
+                            ? context.l10n.text('completed')
+                            : context.l10n.text(
+                                'challengeCount',
+                                values: {
+                                  'count':
+                                      '${progress?.completed ?? 0}/${lesson.totalChallenges}',
+                                },
+                              ),
+                        color: AppColors.green,
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
-          ),
-          const SizedBox(width: 5),
-          const Icon(
-            Icons.chevron_right_rounded,
-            color: Color(0xFF5F79A6),
-            size: 25,
-          ),
-        ],
+            const SizedBox(width: 5),
+            Icon(
+              isLocked
+                  ? Icons.lock_outline_rounded
+                  : Icons.chevron_right_rounded,
+              color: isLocked ? AppColors.textMuted : const Color(0xFF5F79A6),
+              size: isLocked ? 22 : 25,
+            ),
+          ],
+        ),
       ),
     ),
   );

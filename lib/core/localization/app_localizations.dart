@@ -2,6 +2,9 @@ import 'dart:ui' show PlatformDispatcher;
 
 import 'package:flutter/widgets.dart';
 
+import 'es_us_translations.dart';
+import 'zh_tw_translations.dart';
+
 /// UI translations used by the app.
 ///
 /// The learning-language catalogue is intentionally kept separate from this
@@ -18,7 +21,6 @@ class AppLocalizations {
     Locale('fr'),
     Locale('vi'),
     Locale('ru'),
-    Locale('es'),
     Locale('ar'),
     Locale('cs'),
     Locale('da'),
@@ -90,7 +92,7 @@ class AppLocalizations {
   static String deviceLanguageCode() {
     try {
       for (final locale in PlatformDispatcher.instance.locales) {
-        final code = _languageCodeForLocale(locale);
+        final code = languageCodeForLocale(locale);
         if (code != null) return code;
       }
     } on Object {
@@ -99,12 +101,13 @@ class AppLocalizations {
     return 'en';
   }
 
-  static String? _languageCodeForLocale(Locale locale) {
+  static String? languageCodeForLocale(Locale locale) {
     final language = locale.languageCode.toLowerCase();
     final region = locale.countryCode?.toUpperCase();
     final candidate = switch (language) {
-      'es' => region == 'ES' ? 'es-ES' : 'es-US',
-      'zh' => region == 'TW' ? 'zh-TW' : 'zh',
+      'es' => region == null || region == 'ES' ? 'es-ES' : 'es-US',
+      'zh' =>
+        region == 'TW' || region == 'HK' || region == 'MO' ? 'zh-TW' : 'zh',
       'id' => 'in',
       'he' => 'iw',
       'no' => 'nb',
@@ -118,7 +121,17 @@ class AppLocalizations {
   static Locale localeForCode(String code) {
     final parts = code.toLowerCase().split(RegExp('[-_]'));
     final languageCode = parts.first;
-    final regionCode = parts.length > 1 ? parts[1].toUpperCase() : null;
+    final requestedRegion = parts.length > 1 ? parts[1].toUpperCase() : null;
+    final regionCode = switch (languageCode) {
+      'es' => requestedRegion == null || requestedRegion == 'ES' ? 'ES' : 'US',
+      'zh' =>
+        requestedRegion == 'TW' ||
+                requestedRegion == 'HK' ||
+                requestedRegion == 'MO'
+            ? 'TW'
+            : null,
+      _ => requestedRegion,
+    };
     return supportedLocales.firstWhere(
       (locale) =>
           locale.languageCode == languageCode &&
@@ -130,12 +143,19 @@ class AppLocalizations {
   static AppLocalizations fallback([Locale locale = const Locale('vi')]) =>
       AppLocalizations(locale);
 
-  String get _languageCode =>
-      supportedLocales.any(
-        (supported) => supported.languageCode == locale.languageCode,
-      )
-      ? locale.languageCode
-      : 'en';
+  String get _languageCode {
+    final languageCode = locale.languageCode.toLowerCase();
+    final regionCode = locale.countryCode?.toUpperCase();
+    final regionalCode = regionCode == null
+        ? languageCode
+        : '$languageCode-$regionCode';
+    if (_translations.containsKey(regionalCode)) return regionalCode;
+    final resolvedCode = languageCodeForLocale(locale);
+    if (resolvedCode != null && _translations.containsKey(resolvedCode)) {
+      return resolvedCode;
+    }
+    return _translations.containsKey(languageCode) ? languageCode : 'en';
+  }
 
   /// Resolves a localization key and falls back to its English value.
   ///
@@ -306,6 +326,49 @@ class AppLocalizations {
       'subscriptionIn': 'In ',
       'subscriptionDaySuffix': ' days',
       'subscriptionStart': 'Start free trial\nand subscribe',
+      'listeningPackTitle': 'Listening practice pack',
+      'listeningPackDescription':
+          'Unlock all listening lessons\n— buy once, keep forever',
+      'listeningPackUnlock': 'Unlock all\nlistening lessons',
+      'listeningPackAnytime': 'Listen anytime,\nanywhere',
+      'listeningPackForever': 'Buy once,\nuse forever',
+      'listeningPackOneTime': 'One-time purchase',
+      'listeningPackSave': 'Save {amount} ({percent}%)',
+      'listeningPackSecure': 'Secure & safe payment',
+      'listeningPackBuy': 'Buy now for {price}',
+      'listeningPackLater': 'Maybe later',
+      'listeningPackLoading': 'Loading...',
+      'listeningPackUnavailable': 'Package unavailable.',
+      'listeningPackPurchaseError': 'Purchase could not be started.',
+      'skillPackListeningTitle': 'Listening practice pack',
+      'skillPackListeningDescription':
+          'Unlock all listening lessons\n— buy once, keep forever',
+      'skillPackListeningUnlock': 'Unlock all\nlistening lessons',
+      'skillPackListeningBenefit': 'Listen anytime,\nanywhere',
+      'skillPackSpeakingTitle': 'Speaking practice pack',
+      'skillPackSpeakingDescription':
+          'Unlock all speaking lessons\n— buy once, keep forever',
+      'skillPackSpeakingUnlock': 'Unlock all\nspeaking lessons',
+      'skillPackSpeakingBenefit': 'Practice pronunciation\nwith confidence',
+      'skillPackReadingTitle': 'Reading practice pack',
+      'skillPackReadingDescription':
+          'Unlock all reading lessons\n— buy once, keep forever',
+      'skillPackReadingUnlock': 'Unlock all\nreading lessons',
+      'skillPackReadingBenefit': 'Read with\nease',
+      'skillPackGrammarTitle': 'Grammar practice pack',
+      'skillPackGrammarDescription':
+          'Unlock all grammar lessons\n— buy once, keep forever',
+      'skillPackGrammarUnlock': 'Unlock all\ngrammar lessons',
+      'skillPackGrammarBenefit': 'Learn clear\nstructures',
+      'skillPackForever': 'Buy once,\nuse forever',
+      'skillPackOneTime': 'One-time purchase',
+      'skillPackSave': 'Save {amount} ({percent}%)',
+      'skillPackSecure': 'Secure & safe payment',
+      'skillPackBuy': 'Buy now for {price}',
+      'skillPackLater': 'Maybe later',
+      'skillPackLoading': 'Loading...',
+      'skillPackUnavailable': 'Package unavailable.',
+      'skillPackPurchaseError': 'Purchase could not be started.',
       'surveySaveProgressError':
           'Could not save your progress. Please try again.',
       'surveySaveTopicsError': 'Could not save the selected topics.',
@@ -2520,6 +2583,49 @@ class AppLocalizations {
       'subscriptionIn': 'Trong ',
       'subscriptionDaySuffix': ' ngày',
       'subscriptionStart': 'Dùng thử miễn phí\nvà đăng ký',
+      'listeningPackTitle': 'Gói luyện nghe',
+      'listeningPackDescription':
+          'Mở khoá toàn bộ bài luyện nghe\n- mua một lần, dùng mãi mãi',
+      'listeningPackUnlock': 'Mở khoá toàn bộ\nbài luyện nghe',
+      'listeningPackAnytime': 'Nghe mọi lúc,\nmọi nơi',
+      'listeningPackForever': 'Mua một lần,\ndùng mãi mãi',
+      'listeningPackOneTime': 'Giá chỉ một lần',
+      'listeningPackSave': 'Tiết kiệm {amount} ({percent}%)',
+      'listeningPackSecure': 'Thanh toán an toàn & bảo mật',
+      'listeningPackBuy': 'Mua ngay với {price}',
+      'listeningPackLater': 'Để sau',
+      'listeningPackLoading': 'Đang tải...',
+      'listeningPackUnavailable': 'Gói hiện chưa khả dụng.',
+      'listeningPackPurchaseError': 'Không thể bắt đầu thanh toán.',
+      'skillPackListeningTitle': 'Gói luyện nghe',
+      'skillPackListeningDescription':
+          'Mở khoá toàn bộ bài luyện nghe\n- mua một lần, dùng mãi mãi',
+      'skillPackListeningUnlock': 'Mở khoá toàn bộ\nbài luyện nghe',
+      'skillPackListeningBenefit': 'Nghe mọi lúc,\nmọi nơi',
+      'skillPackSpeakingTitle': 'Gói luyện nói',
+      'skillPackSpeakingDescription':
+          'Mở khoá toàn bộ bài luyện nói\n- mua một lần, dùng mãi mãi',
+      'skillPackSpeakingUnlock': 'Mở khoá toàn bộ\nbài luyện nói',
+      'skillPackSpeakingBenefit': 'Luyện phát âm\ntự tin',
+      'skillPackReadingTitle': 'Gói luyện đọc',
+      'skillPackReadingDescription':
+          'Mở khoá toàn bộ bài luyện đọc\n- mua một lần, dùng mãi mãi',
+      'skillPackReadingUnlock': 'Mở khoá toàn bộ\nbài luyện đọc',
+      'skillPackReadingBenefit': 'Luyện đọc\ndễ hiểu',
+      'skillPackGrammarTitle': 'Gói ngữ pháp',
+      'skillPackGrammarDescription':
+          'Mở khoá toàn bộ bài ngữ pháp\n- mua một lần, dùng mãi mãi',
+      'skillPackGrammarUnlock': 'Mở khoá toàn bộ\nbài ngữ pháp',
+      'skillPackGrammarBenefit': 'Học cấu trúc\ndễ hiểu',
+      'skillPackForever': 'Mua một lần,\ndùng mãi mãi',
+      'skillPackOneTime': 'Giá chỉ một lần',
+      'skillPackSave': 'Tiết kiệm {amount} ({percent}%)',
+      'skillPackSecure': 'Thanh toán an toàn & bảo mật',
+      'skillPackBuy': 'Mua ngay với {price}',
+      'skillPackLater': 'Để sau',
+      'skillPackLoading': 'Đang tải...',
+      'skillPackUnavailable': 'Gói hiện chưa khả dụng.',
+      'skillPackPurchaseError': 'Không thể bắt đầu thanh toán.',
       'surveySaveProgressError': 'Không thể lưu tiến độ. Vui lòng thử lại.',
       'surveySaveTopicsError': 'Không thể lưu chủ đề đã chọn.',
       'surveyContinueWithLeximon': 'Tiếp tục cùng Leximon',
@@ -8977,7 +9083,7 @@ class AppLocalizations {
       "challengeLevelFit": "Passer til dit nuværende niveau",
       "grammarAnswerSlot": "Felt {number}: {answer}",
     },
-    'es': {
+    'es-ES': {
       "navStudy": "Aprender",
       "navProgress": "Progreso",
       "navChallenges": "Retos",
@@ -10103,6 +10209,7 @@ class AppLocalizations {
       "challengeLevelFit": "Se adapta a tu nivel actual",
       "grammarAnswerSlot": "Casilla {number}: {answer}",
     },
+    'es-US': esUsTranslations,
     'fi': {
       "navStudy": "Opi",
       "navProgress": "Edistyminen",
@@ -31684,6 +31791,7 @@ class AppLocalizations {
       "challengeLevelFit": "符合你当前的水平",
       "grammarAnswerSlot": "位置 {number}：{answer}",
     },
+    'zh-TW': zhTwTranslations,
   };
 }
 
@@ -31698,12 +31806,16 @@ class _AppLocalizationsDelegate
   const _AppLocalizationsDelegate();
 
   @override
-  bool isSupported(Locale locale) => AppLocalizations.supportedLocales.any(
-    (supported) =>
-        supported.languageCode == locale.languageCode &&
-        (supported.countryCode == null ||
-            supported.countryCode == locale.countryCode),
-  );
+  bool isSupported(Locale locale) {
+    if (locale.languageCode.toLowerCase() == 'es') return true;
+    return AppLocalizations.supportedLocales.any(
+      (supported) =>
+          supported.languageCode == locale.languageCode &&
+          (locale.countryCode == null ||
+              supported.countryCode == null ||
+              supported.countryCode == locale.countryCode),
+    );
+  }
 
   @override
   Future<AppLocalizations> load(Locale locale) async => AppLocalizations(

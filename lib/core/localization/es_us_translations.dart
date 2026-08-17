@@ -1,4 +1,5 @@
-{
+// Latin American Spanish (es-US) interface translations.
+const esUsTranslations = <String, String>{
   "navStudy": "Aprender",
   "navProgress": "Progreso",
   "navChallenges": "Retos",
@@ -21,7 +22,8 @@
   "addTopic": "Configurar más temas",
   "profileEyebrow": "ESPACIO PERSONAL",
   "profileTitle": "Yo",
-  "profileSubtitle": "Administra tu perfil, tus logros de aprendizaje y tu configuración personal.",
+  "profileSubtitle":
+      "Administra tu perfil, tus logros de aprendizaje y tu configuración personal.",
   "quickSettings": "Configuración rápida",
   "quickSettingsTitle": "Acceso rápido",
   "appLanguage": "Idioma de la aplicación",
@@ -38,25 +40,32 @@
   "levelAdvanced": "Avanzado",
   "assessmentSkip": "Ya conozco mi nivel",
   "assessmentTitle": "Haz una prueba rápida",
-  "assessmentSubtitle": "Evaluaremos tu nivel para\ncrear la mejor ruta de aprendizaje para ti.",
+  "assessmentSubtitle":
+      "Evaluaremos tu nivel para\ncrear la mejor ruta de aprendizaje para ti.",
   "assessmentStart": "Hacer la prueba",
   "assessmentBenefitLevel": "Descubrirás cuál es tu nivel",
   "assessmentBenefitVocabulary": "Verificarás tu vocabulario",
   "assessmentBenefitAdapt": "La aplicación se adaptará a tu nivel",
   "levelSelectionTitle": "Elige tu nivel de inglés",
-  "levelSelectionSubtitle": "Elige el nivel adecuado para que podamos\ncrear la mejor ruta de aprendizaje para ti.",
+  "levelSelectionSubtitle":
+      "Elige el nivel adecuado para que podamos\ncrear la mejor ruta de aprendizaje para ti.",
   "levelBeginnerDescription": "Conozco algunas palabras",
   "levelIntermediateDescription": "Sé bastante y quiero aprender más",
   "levelAdvancedDescription": "Quiero aprender palabras difíciles",
   "assessmentLevelTitle": "Evalúa tu nivel actual\nde inglés",
-  "assessmentLevelSubtitle": "Elige el nivel adecuado para que podamos\ncrear la mejor ruta de aprendizaje para ti.",
+  "assessmentLevelSubtitle":
+      "Elige el nivel adecuado para que podamos\ncrear la mejor ruta de aprendizaje para ti.",
   "assessmentLevelNew": "Acabo de empezar a aprender\ny todavía no sé nada",
-  "assessmentLevelBasic": "Conozco algo de gramática básica\ny puedo decir palabras\ny oraciones sencillas",
-  "assessmentLevelConversational": "Puedo mantener conversaciones, pero\ntodavía cometo errores y\ndudo a menudo",
-  "assessmentLevelFluent": "Hablo con fluidez, leo libros\ny veo películas\nen inglés",
+  "assessmentLevelBasic":
+      "Conozco algo de gramática básica\ny puedo decir palabras\ny oraciones sencillas",
+  "assessmentLevelConversational":
+      "Puedo mantener conversaciones, pero\ntodavía cometo errores y\ndudo a menudo",
+  "assessmentLevelFluent":
+      "Hablo con fluidez, leo libros\ny veo películas\nen inglés",
   "assessmentLevelStart": "Iniciar la prueba",
   "surveyIntroTitle": "¡Hagamos una\nbreve encuesta!",
-  "surveyIntroSubtitle": "Según tus respuestas, Leximon\nelegirá el mejor método de aprendizaje para ti.",
+  "surveyIntroSubtitle":
+      "Según tus respuestas, Leximon\nelegirá el mejor método de aprendizaje para ti.",
   "freeTrialGift": "Te regalamos",
   "freeTrialDuration": "7 días gratis",
   "freeTrialPurpose": "para probar nuestra aplicación",
@@ -66,10 +75,13 @@
   "trialReminderLead": "2 días antes de que",
   "trialReminderEnd": "termine tu prueba gratuita",
   "trialReminderPushDate": "Se enviará una notificación push el {date}",
-  "subscriptionCompleteError": "No se pudo completar la configuración. Inténtalo de nuevo.",
-  "subscriptionHeadlineSubtitle": "tu inglés se convertirá en una herramienta confiable\nen el trabajo",
+  "subscriptionCompleteError":
+      "No se pudo completar la configuración. Inténtalo de nuevo.",
+  "subscriptionHeadlineSubtitle":
+      "tu inglés se convertirá en una herramienta confiable\nen el trabajo",
   "subscriptionLoadingPlans": "Cargando planes de suscripción…",
-  "subscriptionLoadError": "No se pudieron cargar los detalles del plan de suscripción.",
+  "subscriptionLoadError":
+      "No se pudieron cargar los detalles del plan de suscripción.",
   "subscriptionStorePriceUnavailable": "Precio no disponible en App Store",
   "subscriptionSale": "OFERTA",
   "subscriptionTrialDays": "Prueba gratis durante {days} días",
@@ -81,7 +93,8 @@
   "subscriptionIn": "En ",
   "subscriptionDaySuffix": " días",
   "subscriptionStart": "Iniciar prueba gratuita\ny suscribirse",
-  "surveySaveProgressError": "No se pudo guardar tu progreso. Inténtalo de nuevo.",
+  "surveySaveProgressError":
+      "No se pudo guardar tu progreso. Inténtalo de nuevo.",
   "surveySaveTopicsError": "No se pudieron guardar los temas seleccionados.",
   "surveyContinueWithLeximon": "Continuar con Leximon",
   "surveyContinueJourney": "Continuar tu camino",
@@ -93,14 +106,16 @@
   "surveyGoalQuestion": "¿Por qué estás aprendiendo inglés?",
   "surveyGoalCareer": "Para encontrar un nuevo trabajo y avanzar en mi carrera",
   "surveyGoalTravel": "Para comunicarme cuando viaje al extranjero",
-  "surveyGoalEducation": "Para mejorar mis estudios o prepararme para la universidad",
+  "surveyGoalEducation":
+      "Para mejorar mis estudios o prepararme para la universidad",
   "surveyGoalEntertainment": "Para ver películas, leer y escuchar música",
   "surveyGoalAbroad": "Vivo en el extranjero o tengo pensado mudarme fuera",
   "surveyGoalPersonal": "Desarrollo personal",
   "surveyFrequencyQuestion": "¿Con qué frecuencia usas el inglés?",
   "surveyFrequencyRarely": "Rara vez, por ejemplo para traducir una palabra",
   "surveyFrequencySometimes": "A veces, por ejemplo al ver películas o leer",
-  "surveyFrequencyOccasionally": "De vez en cuando, por ejemplo en el trabajo o al viajar",
+  "surveyFrequencyOccasionally":
+      "De vez en cuando, por ejemplo en el trabajo o al viajar",
   "surveyFrequencyOften": "A menudo, porque uso el inglés en mi día a día",
   "surveyFrequencyNever": "Nunca",
   "surveyHistoryQuestion": "¿Has estudiado inglés antes?",
@@ -114,17 +129,23 @@
   "surveyTimelineFast": "Lo antes posible. Quiero mejorar rápido",
   "surveyTimelineMonths": "Necesito mejorar en unos meses",
   "surveyTimelineLongTerm": "No tengo prisa. Quiero aprender a largo plazo",
-  "surveyStudyTimeQuestion": "¿Cuánto tiempo estás dispuesto a dedicar cada día a aprender inglés?",
+  "surveyStudyTimeQuestion":
+      "¿Cuánto tiempo estás dispuesto a dedicar cada día a aprender inglés?",
   "surveyStudyUnder10": "Menos de 10 minutos",
   "surveyStudy10To20": "10–20 minutos",
   "surveyStudy20To60": "20–60 minutos",
   "surveyStudyOverHour": "Más de 1 hora",
-  "surveyHabitTitle": "¿Cuánto tiempo estás dispuesto a\ndedicar cada día a aprender inglés?",
-  "surveyHabitDescription": "Reservar un momento cada día te ayuda a crear un hábito y ",
+  "surveyHabitTitle":
+      "¿Cuánto tiempo estás dispuesto a\ndedicar cada día a aprender inglés?",
+  "surveyHabitDescription":
+      "Reservar un momento cada día te ayuda a crear un hábito y ",
   "surveyHabitHighlight": "avanzar más rápido.",
-  "surveyPreferredTimeQuestion": "¿Qué hora te resulta más conveniente para estudiar inglés?",
-  "surveyReminderPrimary": "Leximon te recordará tus lecciones\npara que no te saltes ningún día.",
-  "surveyReminderSecondary": "Hemos comprobado que practicar con regularidad puede hacer que aprendas inglés casi ",
+  "surveyPreferredTimeQuestion":
+      "¿Qué hora te resulta más conveniente para estudiar inglés?",
+  "surveyReminderPrimary":
+      "Leximon te recordará tus lecciones\npara que no te saltes ningún día.",
+  "surveyReminderSecondary":
+      "Hemos comprobado que practicar con regularidad puede hacer que aprendas inglés casi ",
   "surveyReminderHighlight": "¡4,6 veces más rápido!",
   "surveyChallengeQuestion": "¿Cuál es tu mayor dificultad con el inglés?",
   "surveyChallengeVocabulary": "Aprender y recordar palabras nuevas",
@@ -140,11 +161,14 @@
   "surveyBarrierPractice": "Me falta práctica y comunicación",
   "surveyBarrierNone": "Nada",
   "surveyReviewOneTitle": "Genial",
-  "surveyReviewOneBody": "La aplicación sigue mejorando. El plan de por vida valió la pena y el contenido gratuito también es útil.",
+  "surveyReviewOneBody":
+      "La aplicación sigue mejorando. El plan de por vida valió la pena y el contenido gratuito también es útil.",
   "surveyReviewTwoTitle": "Una aplicación muy buena",
-  "surveyReviewTwoBody": "Es fácil y agradable de usar. Las lecciones son concisas, el diseño es atractivo y me ayuda a practicar inglés cada día.",
+  "surveyReviewTwoBody":
+      "Es fácil y agradable de usar. Las lecciones son concisas, el diseño es atractivo y me ayuda a practicar inglés cada día.",
   "surveyReviewThreeTitle": "Muy útil",
-  "surveyReviewThreeBody": "El contenido se adapta a mi nivel, las lecciones son claras y los recordatorios me ayudan a mantener el ritmo.",
+  "surveyReviewThreeBody":
+      "El contenido se adapta a mi nivel, las lecciones son claras y los recordatorios me ayudan a mantener el ritmo.",
   "surveySocialProofPrefix": " ha ayudado a ",
   "surveySocialProofSuffix": " usuarios a\nmejorar su inglés",
   "surveyTopicTitle": "Elige los temas\nque quieres aprender",
@@ -159,20 +183,26 @@
   "surveyKnowledgeConnect": "\nconectar con el mundo y aprovechar ",
   "surveyKnowledgeMore": "más oportunidades.",
   "surveySummaryTitle": "El inglés te ayuda a llegar\nmás lejos",
-  "surveySummaryQuoteOne": "El inglés abre la puerta a oportunidades profesionales internacionales y a mejores ingresos.",
-  "surveySummaryQuoteTwo": "Los idiomas te ayudan a destacar en los procesos de selección, trabajar eficazmente con equipos internacionales y construir una carrera sólida.",
-  "surveySummaryQuoteThree": "Comunicarte con confianza en inglés es clave para liderar, ascender y lograr el éxito a largo plazo.",
+  "surveySummaryQuoteOne":
+      "El inglés abre la puerta a oportunidades profesionales internacionales y a mejores ingresos.",
+  "surveySummaryQuoteTwo":
+      "Los idiomas te ayudan a destacar en los procesos de selección, trabajar eficazmente con equipos internacionales y construir una carrera sólida.",
+  "surveySummaryQuoteThree":
+      "Comunicarte con confianza en inglés es clave para liderar, ascender y lograr el éxito a largo plazo.",
   "surveySummaryWith": "Con ",
   "surveySummaryDaily": ", aprender inglés cada día te ayuda a ",
   "surveySummaryOpportunities": "ampliar tus oportunidades y ganar confianza",
   "surveySummaryGoals": " a medida que te acercas a tus ",
   "surveySummaryCareer": "objetivos profesionales y económicos.",
-  "vocabularyTestQuestionMissing": "No se han encontrado preguntas para esta sección.",
+  "vocabularyTestQuestionMissing":
+      "No se han encontrado preguntas para esta sección.",
   "vocabularyTestComingSoon": "Próximamente",
-  "vocabularyTestConstructorDialog": "Los ejercicios de construcción de oraciones se están terminando. Toca Siguiente para continuar la prueba.",
+  "vocabularyTestConstructorDialog":
+      "Los ejercicios de construcción de oraciones se están terminando. Toca Siguiente para continuar la prueba.",
   "understood": "Entendido",
   "vocabularyTestExitTitle": "¿Salir de la prueba?",
-  "vocabularyTestExitMessage": "No se guardarán los resultados de la sección actual.",
+  "vocabularyTestExitMessage":
+      "No se guardarán los resultados de la sección actual.",
   "vocabularyTestKeepGoing": "Seguir",
   "exit": "Salir",
   "vocabularyTestHeader": "PRUEBA DE NIVEL",
@@ -182,7 +212,8 @@
   "next": "Siguiente",
   "vocabularyTestSkipQuestion": "Omitir esta pregunta",
   "vocabularyTestMeaningQuestion": "¿Qué significa esta palabra?",
-  "vocabularyTestChooseEnglishWord": "Elige la palabra en inglés correspondiente",
+  "vocabularyTestChooseEnglishWord":
+      "Elige la palabra en inglés correspondiente",
   "vocabularyTestListenChoose": "Escucha y elige el significado correcto",
   "vocabularyTestBuildSentence": "Construye una oración completa",
   "hintValue": "Pista: {value}",
@@ -191,18 +222,22 @@
   "vocabularyTestWaitingSlots": "Quedan {count} espacios",
   "vocabularyTestRemoveLastWord": "Eliminar la última palabra",
   "attention": "Nota",
-  "vocabularyTestCompareAnswers": "Compara tu respuesta con la respuesta correcta.",
+  "vocabularyTestCompareAnswers":
+      "Compara tu respuesta con la respuesta correcta.",
   "yourAnswer": "Tu respuesta",
   "correctAnswer": "Respuesta correcta",
   "correct": "¡Correcto!",
   "incorrect": "Casi",
   "vocabularyTestTapToListen": "Toca para volver a escuchar",
-  "vocabularyTestConstructorUnavailable": "El ejercicio de construcción de oraciones «{word}» estará disponible próximamente.",
-  "vocabularyTestIncorrectMarked": "Casi. Se ha resaltado la respuesta correcta.",
+  "vocabularyTestConstructorUnavailable":
+      "El ejercicio de construcción de oraciones «{word}» estará disponible próximamente.",
+  "vocabularyTestIncorrectMarked":
+      "Casi. Se ha resaltado la respuesta correcta.",
   "vocabularyTestReady": "¡Prepárate!",
   "vocabularyTestAnswersCorrect": "respuestas correctas",
   "vocabularyTestHalfwayTitle": "¡Genial!",
-  "vocabularyTestHalfwayBody": "¡Ya estás a mitad de camino!\nLo hiciste muy bien con estas palabras. Ahora intenta\ncon preguntas un poco más difíciles.",
+  "vocabularyTestHalfwayBody":
+      "¡Ya estás a mitad de camino!\nLo hiciste muy bien con estas palabras. Ahora intenta\ncon preguntas un poco más difíciles.",
   "vocabularyTestNextLevel": "Siguiente nivel: {level} · Parte {part}",
   "skillListening": "Comprensión auditiva",
   "skillVocabulary": "Vocabulario",
@@ -229,9 +264,11 @@
   "homeFourMoreDescription": "¡Genial! Aprende 4 palabras más.",
   "homeMorePracticeQuestion": "¿Quieres practicar más?",
   "homeMorePracticeBody": "Tenemos algunas tareas adicionales para ti.",
-  "homeReadingWordsUnavailable": "Necesitas al menos 4 palabras de Lectura para empezar.",
+  "homeReadingWordsUnavailable":
+      "Necesitas al menos 4 palabras de Lectura para empezar.",
   "homeReadingWordsTitle": "Aprender palabras de Lectura",
-  "homeTaskChanged": "La tarea ha cambiado y ya no tiene suficientes palabras adecuadas.",
+  "homeTaskChanged":
+      "La tarea ha cambiado y ya no tiene suficientes palabras adecuadas.",
   "homeReviewWordsTitle": "Repasar palabras",
   "homeTrainWordsTitle": "Practicar palabras",
   "difficultWords": "Palabras difíciles",
@@ -239,9 +276,11 @@
   "homeTaskTodayBadge": "🔥  TAREA DE HOY",
   "homeChecking": "Comprobando...",
   "homeMorePracticeAction": "Quiero practicar más",
-  "homeAdditionalTasksLocked": "Las tareas adicionales se desbloquean cuando termines la tarea principal de hoy.",
+  "homeAdditionalTasksLocked":
+      "Las tareas adicionales se desbloquean cuando termines la tarea principal de hoy.",
   "homeNoReviewWords": "No hay palabras pendientes de repaso.",
-  "homeTaskUnavailable": "Esta tarea no tiene suficientes datos en este momento.",
+  "homeTaskUnavailable":
+      "Esta tarea no tiene suficientes datos en este momento.",
   "homeAdditionalReviewTitle": "Repaso adicional",
   "homeFirstTrainingGreeting": "Hola, vamos a aprender tus primeras palabras",
   "wordProgress": "{completed} / {total} palabras",
@@ -254,10 +293,13 @@
   "taskTrainWords": "Practicar palabras",
   "taskBuildSentences": "Construir oraciones",
   "taskDifficultWords": "Palabras difíciles",
-  "taskLearnDescription": "Elige exactamente 4 palabras y practica con hasta 24 preguntas",
-  "taskReviewDescription": "Repasa hasta 20 palabras cada vez, con 5 segundos por pregunta",
+  "taskLearnDescription":
+      "Elige exactamente 4 palabras y practica con hasta 24 preguntas",
+  "taskReviewDescription":
+      "Repasa hasta 20 palabras cada vez, con 5 segundos por pregunta",
   "taskTrainDescription": "Practica 4 palabras de Fast Brain que toca repasar",
-  "taskSentencesDescription": "Practica 4 palabras en oraciones con 4 tipos de ejercicio",
+  "taskSentencesDescription":
+      "Practica 4 palabras en oraciones con 4 tipos de ejercicio",
   "taskDifficultDescription": "Repite los tipos de ejercicio que aún fallas",
   "dailyTaskRepeat": "Repetir palabras",
   "dailyTaskLearn": "Aprender palabras nuevas",
@@ -272,7 +314,8 @@
   "dailyTaskDifficultDone": "Practicaste {count} palabras difíciles",
   "homeJourneyStart": "Empieza tu camino",
   "homeNoWordsTitle": "Misión de hoy",
-  "homeNoWordsBody": "Todavía no has aprendido ninguna palabra. Empieza con tu primer tema para que Leximon pueda crear la ruta adecuada para ti.",
+  "homeNoWordsBody":
+      "Todavía no has aprendido ninguna palabra. Empieza con tu primer tema para que Leximon pueda crear la ruta adecuada para ti.",
   "hello": "¡Hola!",
   "homeMascotStart": "¡Vamos a empezar!",
   "homeDayOneGoal": "OBJETIVO DEL DÍA 1",
@@ -319,15 +362,21 @@
   "profileLoadingTopics": "Cargando temas...",
   "profileNoTrackedTopics": "Todavía no sigues ningún tema.",
   "topicWordProgress": "{completed} / {total} palabras • {percent}%",
-  "profileReminderEnableError": "No se pudieron activar los recordatorios: {error}",
+  "profileReminderEnableError":
+      "No se pudieron activar los recordatorios: {error}",
   "profileReminderTimeTitle": "Elige la hora del recordatorio",
-  "profileReminderUpdateError": "No se pudo actualizar la hora del recordatorio: {error}",
-  "profileNotificationPermissionTitle": "Se necesita permiso para las notificaciones",
-  "profileNotificationPermissionBody": "Leximon necesita permiso para enviarte notificaciones y recordarte que estudies cada día. Actívalo en la configuración de la aplicación.",
+  "profileReminderUpdateError":
+      "No se pudo actualizar la hora del recordatorio: {error}",
+  "profileNotificationPermissionTitle":
+      "Se necesita permiso para las notificaciones",
+  "profileNotificationPermissionBody":
+      "Leximon necesita permiso para enviarte notificaciones y recordarte que estudies cada día. Actívalo en la configuración de la aplicación.",
   "profileMicPermissionTitle": "Se necesita permiso para el micrófono",
-  "profileMicPermissionBody": "Leximon necesita acceso al micrófono y al reconocimiento de voz para practicar la pronunciación. Otorga acceso en la configuración de la aplicación.",
+  "profileMicPermissionBody":
+      "Leximon necesita acceso al micrófono y al reconocimiento de voz para practicar la pronunciación. Otorga acceso en la configuración de la aplicación.",
   "profileMicPermissionNeeded": "Se necesita permiso para el micrófono",
-  "profileReminderEnabledBody": "Cada tarde a las {time} · toca para cambiar la hora",
+  "profileReminderEnabledBody":
+      "Cada tarde a las {time} · toca para cambiar la hora",
   "profileReminderDisabledBody": "Desactivado · toca para activar",
   "profileMicGranted": "Acceso al micrófono concedido",
   "profileMicNotGranted": "Acceso al micrófono no concedido",
@@ -340,7 +389,8 @@
   "camera": "cámara",
   "photoLibrary": "fototeca",
   "permissionRequired": "Permiso necesario",
-  "editProfileImagePermissionBody": "Leximon no tiene acceso a tu {permission}. Puedes habilitarlo en la configuración de la aplicación.",
+  "editProfileImagePermissionBody":
+      "Leximon no tiene acceso a tu {permission}. Puedes habilitarlo en la configuración de la aplicación.",
   "editProfileSaveError": "No se pudo guardar tu perfil: {error}",
   "editProfileAvatar": "Foto de perfil",
   "editProfileDetails": "Datos personales",
@@ -348,7 +398,8 @@
   "editProfileNameHint": "Introduce el nombre que quieres mostrar",
   "editProfileNameRequired": "Introduce tu nombre",
   "editProfileEmailRequired": "Introduce tu correo electrónico",
-  "editProfileEmailInvalid": "Introduce una dirección de correo electrónico válida",
+  "editProfileEmailInvalid":
+      "Introduce una dirección de correo electrónico válida",
   "editProfileSave": "Guardar perfil",
   "editProfileTitle": "Editar perfil",
   "editProfileChangeAvatar": "Cambiar foto de perfil",
@@ -360,11 +411,13 @@
   "pronunciationViewedSemantics": "{symbol}, visto",
   "pronunciationLoadError": "No se pudieron cargar los datos de pronunciación",
   "grammarResetLessonTitle": "¿Restablecer el progreso de la lección?",
-  "grammarResetLessonBody": "Se eliminarán todas las preguntas completadas de «{topic}» y el progreso volverá al 0 %. Esta acción no se puede deshacer.",
+  "grammarResetLessonBody":
+      "Se eliminarán todas las preguntas completadas de «{topic}» y el progreso volverá al 0 %. Esta acción no se puede deshacer.",
   "reset": "Restablecer",
   "grammarResetProgressTooltip": "Restablecer progreso",
   "grammarResetPackTitle": "¿Restablecer el progreso del paquete?",
-  "grammarResetPackBody": "Se eliminarán todas las preguntas completadas de «{pack}» y el progreso volverá al 0 %. Esta acción no se puede deshacer.",
+  "grammarResetPackBody":
+      "Se eliminarán todas las preguntas completadas de «{pack}» y el progreso volverá al 0 %. Esta acción no se puede deshacer.",
   "grammarTitle": "Gramática",
   "done": "Hecho",
   "grammarByLevelTitle": "Práctica de gramática\npor nivel",
@@ -387,17 +440,23 @@
   "readingAddWord": "Añadir palabra para aprender",
   "readingTranslateTitle": "Traducir una palabra de la lectura",
   "readingTranslating": "Cargando el modelo y traduciendo…",
-  "readingTranslationError": "No se pudo traducir esta palabra. Verifica tu conexión e inténtalo de nuevo.",
-  "readingTranslationAttribution": "La traducción se genera en el dispositivo con Google ML Kit.",
+  "readingTranslationError":
+      "No se pudo traducir esta palabra. Verifica tu conexión e inténtalo de nuevo.",
+  "readingTranslationAttribution":
+      "La traducción se genera en el dispositivo con Google ML Kit.",
   "readingListOpenError": "No se pudo abrir la lista de lecturas",
-  "listeningTopicsLoadError": "No se pudieron cargar los temas de comprensión auditiva",
-  "tryAgainLater": "Prueba a volver a abrir esta pantalla dentro de unos minutos.",
+  "listeningTopicsLoadError":
+      "No se pudieron cargar los temas de comprensión auditiva",
+  "tryAgainLater":
+      "Prueba a volver a abrir esta pantalla dentro de unos minutos.",
   "listeningTopicsEmpty": "No se han encontrado temas",
   "tryDifferentSearchFilter": "Prueba con otra palabra clave o filtro.",
   "speakingPracticeTitle": "Práctica de expresión oral",
   "listeningPracticeTitle": "Práctica de comprensión auditiva",
-  "speakingPracticeSubtitle": "Escucha una oración de ejemplo, grábate y practica oración por oración.",
-  "listeningPracticeSubtitle": "Elige un tema para mejorar tus reflejos auditivos y tu vocabulario.",
+  "speakingPracticeSubtitle":
+      "Escucha una oración de ejemplo, grábate y practica oración por oración.",
+  "listeningPracticeSubtitle":
+      "Elige un tema para mejorar tus reflejos auditivos y tu vocabulario.",
   "searchTopics": "Buscar temas...",
   "featured": "✦ DESTACADO",
   "levelValue": "Nivel {level}",
@@ -420,7 +479,8 @@
   "lessons": "Lecciones",
   "otherLessons": "Otras lecciones",
   "listeningPreloadTitle": "Cargando ejercicio de comprensión auditiva",
-  "listeningPreloadSubtitle": "Preparando los datos de Escuchar y escribir\npara «{lesson}».",
+  "listeningPreloadSubtitle":
+      "Preparando los datos de Escuchar y escribir\npara «{lesson}».",
   "ready": "¡Listo!",
   "listeningOpening": "Abriendo el ejercicio de comprensión auditiva...",
   "listeningLoadingContent": "Cargando el contenido de la lección...",
@@ -435,12 +495,14 @@
   "audioPlaybackRate": "Velocidad de reproducción",
   "listenAndType": "Escucha y escribe",
   "listeningTypePrompt": "Escribe la oración que oyes",
-  "listeningTypeSubtitle": "Escucha con atención y escribe la oración exactamente.",
+  "listeningTypeSubtitle":
+      "Escucha con atención y escribe la oración exactamente.",
   "listenAgain": "Volver a escuchar",
   "listenFullSentence": "Escucha la oración completa, no palabra por palabra",
   "redo": "Rehacer",
   "skip": "Omitir",
-  "listeningExerciseOpenError": "No se pudo abrir este ejercicio de comprensión auditiva.",
+  "listeningExerciseOpenError":
+      "No se pudo abrir este ejercicio de comprensión auditiva.",
   "learningFilters": "FILTROS DE APRENDIZAJE",
   "learningFiltersTitle": "Personaliza tu ruta de aprendizaje",
   "level": "Nivel",
@@ -448,10 +510,14 @@
   "recommended": "Recomendado",
   "learningFilterChooseLevel": "Elige un nivel",
   "learningFilterLevelQuestion": "¿Por dónde quieres empezar?",
-  "learningFilterLevelDescription": "Leximon ajustará la dificultad, los grupos de vocabulario y los retos de práctica según tu elección.",
-  "learningFilterBeginnerDescription": "Empieza con palabras conocidas, sencillas y fáciles de recordar.",
-  "learningFilterIntermediateDescription": "Amplía tu vocabulario con situaciones prácticas y una mayor variedad de temas.",
-  "learningFilterAdvancedDescription": "Domina palabras difíciles, matices de significado y lenguaje profesional.",
+  "learningFilterLevelDescription":
+      "Leximon ajustará la dificultad, los grupos de vocabulario y los retos de práctica según tu elección.",
+  "learningFilterBeginnerDescription":
+      "Empieza con palabras conocidas, sencillas y fáciles de recordar.",
+  "learningFilterIntermediateDescription":
+      "Amplía tu vocabulario con situaciones prácticas y una mayor variedad de temas.",
+  "learningFilterAdvancedDescription":
+      "Domina palabras difíciles, matices de significado y lenguaje profesional.",
   "basicWords": "Palabras básicas",
   "shortSentences": "Oraciones cortas",
   "easyToRemember": "Fácil de recordar",
@@ -462,21 +528,30 @@
   "deepMeanings": "Significados más profundos",
   "moreChallenging": "Más exigente",
   "learningFilterHelperPrefix": "Si no sabes qué elegir, empieza con ",
-  "learningFilterHelperSuffix": ". Siempre puedes cambiar el nivel más adelante en la configuración.",
+  "learningFilterHelperSuffix":
+      ". Siempre puedes cambiar el nivel más adelante en la configuración.",
   "learningFilterChooseTopics": "Elegir temas",
   "learningFilterTopicQuestion": "¿Qué temas son adecuados para ti?",
-  "learningFilterTopicDescription": "Elige varios temas para que Leximon les dé prioridad al principio. Recomendamos entre 3 y 5 temas.",
+  "learningFilterTopicDescription":
+      "Elige varios temas para que Leximon les dé prioridad al principio. Recomendamos entre 3 y 5 temas.",
   "selectedTopicCount": "{count} temas seleccionados",
   "learningFilterSmallGroupHint": "Empieza primero con un grupo pequeño",
   "learningFilterTopicLoadError": "No se pudo cargar la lista de temas.",
   "wordCount": "{count} palabras",
-  "learningFilterTopicTravel": "Vocabulario esencial para viajar, hacer reservas y moverte de un lugar a otro.",
-  "learningFilterTopicShopping": "Palabras básicas para consultar precios, preguntar por productos y pagar.",
-  "learningFilterTopicRelationships": "Un tema cercano y fácil de usar en conversaciones.",
-  "learningFilterTopicEducation": "Útil para el entorno escolar, las asignaturas y las actividades de clase.",
-  "learningFilterTopicWork": "Vocabulario relacionado con el trabajo, las tareas y la carrera profesional.",
-  "learningFilterTopicInterview": "Practica cómo comunicarte con confianza en entrevistas.",
-  "learningFilterTopicFallback": "Amplía tu vocabulario mediante situaciones cotidianas conocidas.",
+  "learningFilterTopicTravel":
+      "Vocabulario esencial para viajar, hacer reservas y moverte de un lugar a otro.",
+  "learningFilterTopicShopping":
+      "Palabras básicas para consultar precios, preguntar por productos y pagar.",
+  "learningFilterTopicRelationships":
+      "Un tema cercano y fácil de usar en conversaciones.",
+  "learningFilterTopicEducation":
+      "Útil para el entorno escolar, las asignaturas y las actividades de clase.",
+  "learningFilterTopicWork":
+      "Vocabulario relacionado con el trabajo, las tareas y la carrera profesional.",
+  "learningFilterTopicInterview":
+      "Practica cómo comunicarte con confianza en entrevistas.",
+  "learningFilterTopicFallback":
+      "Amplía tu vocabulario mediante situaciones cotidianas conocidas.",
   "learningFilterSummary": "{level}  •  {count} temas",
   "learningFilterApplyBoth": "Aplicar ambos filtros de aprendizaje",
   "apply": "Aplicar",
@@ -488,29 +563,39 @@
   "primaryActions": "Acciones principales",
   "whatWouldYouLikeToDo": "¿Qué te gustaría hacer?",
   "learnNewWords": "Aprender palabras nuevas",
-  "learnNewWordsTopicBody": "Empieza con palabras de este tema que todavía no hayas aprendido.",
+  "learnNewWordsTopicBody":
+      "Empieza con palabras de este tema que todavía no hayas aprendido.",
   "spacedReview": "Repaso espaciado",
   "topicReviewReady": "Hay {count} palabras aprendidas listas para repasar.",
-  "topicReviewMinimum": "Aprende al menos {count} palabras antes de empezar un repaso.",
-  "topicReviewLoadError": "No se pudieron cargar las palabras de repaso. Prueba a volver a abrir esta pantalla.",
+  "topicReviewMinimum":
+      "Aprende al menos {count} palabras antes de empezar un repaso.",
+  "topicReviewLoadError":
+      "No se pudieron cargar las palabras de repaso. Prueba a volver a abrir esta pantalla.",
   "topicSentencePractice": "Práctica de oraciones del tema",
-  "topicSentencePracticeBody": "Practica 4 palabras aprendidas en oraciones de este tema.",
+  "topicSentencePracticeBody":
+      "Practica 4 palabras aprendidas en oraciones de este tema.",
   "quickLook": "Vista rápida",
   "topicPreviewTitle": "Algunas palabras de este tema",
   "viewAll": "Ver todo",
   "topicNoWords": "Todavía no hay palabras en este tema.",
   "leximonTip": "Consejo de Leximon",
-  "topicReviewTip": "Repasa las palabras pendientes antes de aprender otras nuevas para obtener mejores resultados.",
+  "topicReviewTip":
+      "Repasa las palabras pendientes antes de aprender otras nuevas para obtener mejores resultados.",
   "topicReviewTitle": "Repaso • {topic}",
-  "topicReviewOpenError": "No se pudo abrir la sesión de repaso. Inténtalo de nuevo.",
-  "topicTravelDescription": "Vocabulario para viajar, reservar hospedaje, pedir indicaciones y comunicarte durante un viaje.",
-  "topicShoppingDescription": "Palabras habituales para comprar, elegir productos y pagar.",
-  "topicRelationshipsDescription": "Vocabulario para hablar de la familia, los amigos y las relaciones.",
+  "topicReviewOpenError":
+      "No se pudo abrir la sesión de repaso. Inténtalo de nuevo.",
+  "topicTravelDescription":
+      "Vocabulario para viajar, reservar hospedaje, pedir indicaciones y comunicarte durante un viaje.",
+  "topicShoppingDescription":
+      "Palabras habituales para comprar, elegir productos y pagar.",
+  "topicRelationshipsDescription":
+      "Vocabulario para hablar de la familia, los amigos y las relaciones.",
   "topicFallbackDescription": "Explora vocabulario esencial sobre {topic}.",
   "currentlyLearningTopic": "Aprendiendo ahora",
   "locked": "Bloqueado",
   "available": "Listo",
-  "topicReviewRequirement": "Cuando tengas {count} palabras, podrás empezar a repasarlas",
+  "topicReviewRequirement":
+      "Cuando tengas {count} palabras, podrás empezar a repasarlas",
   "vocabularyCollection": "COLECCIÓN DE VOCABULARIO",
   "vocabularyCollectionTitle": "Biblioteca de Leximon",
   "practiseWords": "Practicar palabras",
@@ -518,12 +603,14 @@
   "reviewMasteredWords": "Repasar palabras dominadas",
   "reviewLearningWords": "Repasar palabras en aprendizaje",
   "difficultWordsTitle": "Palabras difíciles",
-  "vocabularyTapWordHint": "Toca una palabra para ver sus detalles y escuchar su pronunciación.",
+  "vocabularyTapWordHint":
+      "Toca una palabra para ver sus detalles y escuchar su pronunciación.",
   "learningWordSet": "GRUPO DE PALABRAS EN APRENDIZAJE",
   "searchWordList": "Buscar en esta lista de palabras",
   "closeSearch": "Cerrar búsqueda",
   "collectionEmptyTitle": "Todavía no hay palabras en este grupo",
-  "collectionEmptyBody": "Las palabras aparecerán aquí después de aprenderlas y repasarlas.",
+  "collectionEmptyBody":
+      "Las palabras aparecerán aquí después de aprenderlas y repasarlas.",
   "viewingWord": "PALABRA SELECCIONADA",
   "close": "Cerrar",
   "listenSlowly": "Escuchar despacio",
@@ -537,9 +624,12 @@
   "masteredWordsUnit": "dominadas",
   "reviewingWordsUnit": "en repaso",
   "practiceWordsUnit": "por practicar",
-  "masteredWordsDescription": "Palabras que ya dominas, listas para volver a escucharlas y verlas en detalle.",
-  "reviewingWordsDescription": "Palabras que avanzan por el repaso espaciado para reforzar la memoria a largo plazo.",
-  "practiceWordsDescription": "Palabras que sueles confundir o que necesitas practicar durante más tiempo.",
+  "masteredWordsDescription":
+      "Palabras que ya dominas, listas para volver a escucharlas y verlas en detalle.",
+  "reviewingWordsDescription":
+      "Palabras que avanzan por el repaso espaciado para reforzar la memoria a largo plazo.",
+  "practiceWordsDescription":
+      "Palabras que sueles confundir o que necesitas practicar durante más tiempo.",
   "levelElementary": "elemental",
   "levelIntermediateLower": "intermedio",
   "levelAdvancedLower": "avanzado",
@@ -568,15 +658,18 @@
   "masteryBoard": "Panel de dominio",
   "masteryBreakdown": "Dominio del vocabulario",
   "viewDetails": "Ver detalles",
-  "masteredStableBody": "Palabras respondidas correctamente y recordadas de forma confiable",
+  "masteredStableBody":
+      "Palabras respondidas correctamente y recordadas de forma confiable",
   "reviewingSrsBody": "Pendientes de repaso SRS en los próximos 2 días",
   "needsMorePractice": "Necesitan más práctica",
-  "needsMorePracticeBody": "Palabras que sueles confundir o que tardas más en responder",
+  "needsMorePracticeBody":
+      "Palabras que sueles confundir o que tardas más en responder",
   "rhythmTracker": "Seguimiento del ritmo",
   "sevenDayRhythm": "Ritmo de aprendizaje de 7 días",
   "weekly": "Semanal",
   "studySessionCount": "{count} sesiones de estudio",
-  "weeklyWordActivity": "{count} actividades de palabras registradas esta semana.",
+  "weeklyWordActivity":
+      "{count} actividades de palabras registradas esta semana.",
   "keepStreak": "Mantener la racha",
   "startLearning": "Empezar a aprender",
   "learningMap": "Mapa de aprendizaje",
@@ -588,7 +681,8 @@
   "missedDaysThisMonth": "Te faltaron {count} días este mes.",
   "learningDashboard": "PANEL DE APRENDIZAJE",
   "yourJourney": "Tu camino",
-  "progressHeaderBody": "Sigue tu progreso de una forma más visual y motivadora.",
+  "progressHeaderBody":
+      "Sigue tu progreso de una forma más visual y motivadora.",
   "thisWeekProgress": "PROGRESO DE ESTA SEMANA",
   "yourVocabulary": "Tu vocabulario",
   "report": "Informe",
@@ -606,12 +700,14 @@
   "topicJourneyReview": "repasar de nuevo",
   "dailyChallengeEyebrow": "RETO DIARIO",
   "dailyChallengeTitle": "Reto diario",
-  "dailyChallengeBody": "Practica las 5 habilidades y avanza de forma constante cada día.",
+  "dailyChallengeBody":
+      "Practica las 5 habilidades y avanza de forma constante cada día.",
   "dayCount": "{count} días",
   "weeklyGoal": "OBJETIVO DE ESTA SEMANA",
   "practiceSessionProgress": "{completed} / {goal} sesiones de práctica",
   "weeklyGoalComplete": "Completaste el objetivo de esta semana",
-  "weeklyGoalRemaining": "Quedan {count} sesiones para completar el objetivo de esta semana",
+  "weeklyGoalRemaining":
+      "Quedan {count} sesiones para completar el objetivo de esta semana",
   "nextRecommendation": "SIGUIENTE RECOMENDACIÓN",
   "findingRecommendation": "Buscando la lección adecuada…",
   "minuteCount": "{count} min",
@@ -635,7 +731,8 @@
   "sessionCount": "{count} sesiones",
   "recentHistory": "Historial reciente",
   "recentHistoryBody": "Lecciones que completaste recientemente",
-  "recentHistoryEmpty": "Todavía no hay sesiones completadas. Completa una lección para empezar tu historial.",
+  "recentHistoryEmpty":
+      "Todavía no hay sesiones completadas. Completa una lección para empezar tu historial.",
   "todayAtTime": "Hoy\n{time}",
   "weekdayMon": "Lun",
   "weekdayTue": "Mar",
@@ -656,23 +753,33 @@
   "difficultResultBadTitle": "Aún quedan algunos errores por corregir",
   "difficultResultGoodTitle": "Estás progresando",
   "difficultResultExcellentTitle": "¡Muy bien!",
-  "difficultResultCompleteBody": "Ya no quedan palabras difíciles. Los errores que acabas de corregir se han guardado en tu progreso.",
-  "difficultResultRetryBody": "Repite los tipos de ejercicio que fallaste para reforzar la memoria.",
-  "difficultResultContinueBody": "Corregiste algunos errores. Continúa con el siguiente grupo de palabras difíciles.",
-  "difficultResultExcellentBody": "Muy buen trabajo en esta ronda. Todavía te esperan algunas palabras más.",
-  "speakingNoSentences": "Esta lección no tiene oraciones para practicar la expresión oral.",
+  "difficultResultCompleteBody":
+      "Ya no quedan palabras difíciles. Los errores que acabas de corregir se han guardado en tu progreso.",
+  "difficultResultRetryBody":
+      "Repite los tipos de ejercicio que fallaste para reforzar la memoria.",
+  "difficultResultContinueBody":
+      "Corregiste algunos errores. Continúa con el siguiente grupo de palabras difíciles.",
+  "difficultResultExcellentBody":
+      "Muy buen trabajo en esta ronda. Todavía te esperan algunas palabras más.",
+  "speakingNoSentences":
+      "Esta lección no tiene oraciones para practicar la expresión oral.",
   "speakingVideoPlaybackError": "No se pudo reproducir el video de ejemplo.",
   "speakingAudioPlaybackError": "No se pudo reproducir el audio de ejemplo.",
-  "speakingMicPermissionError": "Permite el acceso al micrófono para practicar la expresión oral.",
+  "speakingMicPermissionError":
+      "Permite el acceso al micrófono para practicar la expresión oral.",
   "speakingRecognitionError": "Error de reconocimiento de voz: {message}",
-  "speakingRecognitionUnsupported": "Este dispositivo todavía no admite el reconocimiento de voz en inglés.",
-  "speakingRecordingStartError": "No se pudo iniciar la grabación. Inténtalo de nuevo.",
-  "speakingNothingRecognized": "No se ha reconocido ninguna voz. Puedes volver a grabar.",
+  "speakingRecognitionUnsupported":
+      "Este dispositivo todavía no admite el reconocimiento de voz en inglés.",
+  "speakingRecordingStartError":
+      "No se pudo iniciar la grabación. Inténtalo de nuevo.",
+  "speakingNothingRecognized":
+      "No se ha reconocido ninguna voz. Puedes volver a grabar.",
   "speakingRecordingPlaybackError": "No se pudo reproducir la grabación.",
   "speakingListenAndRepeat": "ESCUCHA Y REPITE",
   "speakingListenToSample": "Escuchar la oración de ejemplo",
   "speakingRecordingActive": "Grabando… Toca para detener",
-  "speakingRecordingReady": "Grabación completada — vuelve a escuchar o verifica",
+  "speakingRecordingReady":
+      "Grabación completada — vuelve a escuchar o verifica",
   "speakingRecordingPrompt": "Toca el micrófono y di la oración completa",
   "speakingListenToMyVoice": "Escuchar mi grabación",
   "speakingNextSentence": "SIGUIENTE ORACIÓN",
@@ -683,12 +790,15 @@
   "speakingLegendWrongExtra": "Incorrecto/de más",
   "speakingLegendMissing": "Falta",
   "speakingLoadError": "No se pudo cargar la práctica de expresión oral",
-  "grammarAnswerSaveError": "No se pudo guardar tu respuesta. Inténtalo de nuevo.",
+  "grammarAnswerSaveError":
+      "No se pudo guardar tu respuesta. Inténtalo de nuevo.",
   "grammarLeaveTitle": "¿Salir de la práctica?",
-  "grammarLeaveBody": "Tus respuestas comprobadas se han guardado. Más adelante podrás continuar desde donde lo dejaste.",
+  "grammarLeaveBody":
+      "Tus respuestas comprobadas se han guardado. Más adelante podrás continuar desde donde lo dejaste.",
   "grammarStay": "Quedarse",
   "grammarLeave": "Salir",
-  "grammarWrongAndMissing": "{wrong} selecciones incorrectas • faltan {missing} respuestas",
+  "grammarWrongAndMissing":
+      "{wrong} selecciones incorrectas • faltan {missing} respuestas",
   "grammarWrongCount": "Seleccionaste incorrectamente {count} palabras",
   "grammarMissingCount": "Te faltan {count} respuestas",
   "grammarOriginalSentence": "ORACIÓN ORIGINAL",
@@ -715,20 +825,23 @@
   "grammarQuestionCorrectSemantics": "Pregunta {number}, correcta",
   "grammarQuestionWrongSemantics": "Pregunta {number}, incorrecta",
   "grammarAnswerDetails": "Detalles de las respuestas",
-  "grammarAnswerDetailsBody": "Revisa las respuestas correctas y las preguntas que necesitan más práctica",
+  "grammarAnswerDetailsBody":
+      "Revisa las respuestas correctas y las preguntas que necesitan más práctica",
   "grammarQuestionNumber": "Pregunta {number}",
   "grammarUnanswered": "Sin responder",
   "grammarCorrectAnswers": "Respuestas correctas: {answers}",
   "grammarMcqInstruction": "Elige la respuesta correcta",
   "grammarMatchSortInstruction": "Empareja los elementos correspondientes",
-  "grammarGroupingInstruction": "Clasifica las palabras en los grupos correctos",
+  "grammarGroupingInstruction":
+      "Clasifica las palabras en los grupos correctos",
   "grammarExerciseTypeFallback": "Ejercicio {type}",
   "grammarBackToLessons": "Volver a las lecciones",
   "repetitionDefaultTitle": "Práctica de repetición",
   "repetitionTimeUp": "Se acabó el tiempo",
   "repetitionAnsweredCorrectly": "Respondida correctamente",
   "repetitionNotCorrect": "Casi",
-  "repetitionLoadError": "No se pudo cargar la lista de repaso. Inténtalo de nuevo.",
+  "repetitionLoadError":
+      "No se pudo cargar la lista de repaso. Inténtalo de nuevo.",
   "repetitionNoDueWords": "Ahora mismo no hay palabras pendientes de repaso.",
   "repetitionExitTitle": "¿Salir del repaso?",
   "repetitionExitBody": "No se guardará el progreso del grupo actual.",
@@ -741,7 +854,8 @@
   "repetitionCurrentGroup": "Grupo {current}/{total}",
   "repetitionTime": "Tiempo",
   "repetitionReadyTitle": "¿Listo para repasar?",
-  "repetitionReadyBody": "Tienes 5 segundos para responder cada palabra. Las palabras se dividen en grupos de hasta 20 para ayudarte a mantener un ritmo constante.",
+  "repetitionReadyBody":
+      "Tienes 5 segundos para responder cada palabra. Las palabras se dividen en grupos de hasta 20 para ayudarte a mantener un ritmo constante.",
   "repetitionTotalWords": "Total de palabras",
   "repetitionWordsValue": "{count} palabras",
   "repetitionPerRound": "Por ronda",
@@ -749,16 +863,19 @@
   "repetitionStart": "Empezar repaso",
   "repetitionReadyEyebrow": "LISTO",
   "repetitionStartingWords": "Se acercan {count} palabras",
-  "repetitionTimerHint": "Tienes 5 segundos por palabra. Las palabras respondidas incorrectamente volverán a aparecer al final de la ronda.",
+  "repetitionTimerHint":
+      "Tienes 5 segundos por palabra. Las palabras respondidas incorrectamente volverán a aparecer al final de la ronda.",
   "repetitionUpcomingWords": "PRÓXIMAS PALABRAS",
   "repetitionSecondsPerWord": "5 s / palabra",
   "pronunciation": "Pronunciación",
-  "repetitionChooseTranslation": "Elige la traducción correcta de la palabra de abajo",
+  "repetitionChooseTranslation":
+      "Elige la traducción correcta de la palabra de abajo",
   "repetitionTimeExpired": "Se acabó el tiempo",
   "repetitionAnswerRecorded": "Respuesta registrada",
   "repetitionAutoAdvance": "Continuación automática en {seconds} segundos",
   "chooseOneAnswer": "ELIGE UNA RESPUESTA",
-  "repetitionKeepPaceHint": "Responde rápido para mantener el ritmo del repaso.",
+  "repetitionKeepPaceHint":
+      "Responde rápido para mantener el ritmo del repaso.",
   "repetitionCorrectAnswer": "Respuesta correcta: «{answer}».",
   "repetitionCompleteTitle": "¡Todo listo!",
   "repetitionCompletePrefix": "Hoy repasaste",
@@ -769,22 +886,29 @@
   "repetitionContinue": "Seguir repasando",
   "repetitionFinish": "Finalizar",
   "repetitionEmptyTitle": "No hay palabras para repasar",
-  "repetitionEmptyBody": "No hay palabras adecuadas en esta lista para empezar un repaso.",
-  "sentenceSkipListeningTitle": "¿Omitir los ejercicios de comprensión auditiva?",
-  "sentenceSkipListeningBody": "Se omitirán todos los ejercicios de comprensión auditiva restantes de esta sesión. Aun así, podrás continuar con otros ejercicios de construcción de oraciones.",
+  "repetitionEmptyBody":
+      "No hay palabras adecuadas en esta lista para empezar un repaso.",
+  "sentenceSkipListeningTitle":
+      "¿Omitir los ejercicios de comprensión auditiva?",
+  "sentenceSkipListeningBody":
+      "Se omitirán todos los ejercicios de comprensión auditiva restantes de esta sesión. Aun así, podrás continuar con otros ejercicios de construcción de oraciones.",
   "sentenceStay": "Quedarse",
   "sentenceSkipListening": "Omitir comprensión auditiva",
-  "sentenceProgressSaveError": "Terminaste, pero no se pudo guardar tu progreso de construcción de oraciones.",
+  "sentenceProgressSaveError":
+      "Terminaste, pero no se pudo guardar tu progreso de construcción de oraciones.",
   "sentenceExitTitle": "¿Detener la sesión de construcción de oraciones?",
-  "sentenceExitBody": "No se guardarán los resultados de esta sesión sin terminar.",
+  "sentenceExitBody":
+      "No se guardarán los resultados de esta sesión sin terminar.",
   "sentenceContinueLearning": "Seguir aprendiendo",
   "sentenceTrainingTitle": "Construir oraciones",
   "sentenceEyebrow": "PALABRAS EN ORACIONES",
   "sentencePreparing": "Preparando oraciones adecuadas...",
-  "sentenceDeviceDataNotice": "Los datos del idioma vietnamita se cargan desde tu dispositivo",
+  "sentenceDeviceDataNotice":
+      "Los datos del idioma vietnamita se cargan desde tu dispositivo",
   "sentenceSavingProgress": "Guardando progreso...",
   "sentenceWordsInContext": "Vocabulario en contexto",
-  "sentenceIntroBody": "{exerciseCount} retos basados en {wordCount} palabras que estás aprendiendo. Construirás oraciones, escucharás y completarás palabras directamente en contexto.",
+  "sentenceIntroBody":
+      "{exerciseCount} retos basados en {wordCount} palabras que estás aprendiendo. Construirás oraciones, escucharás y completarás palabras directamente en contexto.",
   "sentenceConstructorSkill": "Construcción de oraciones",
   "sentenceListeningSkill": "Comprensión auditiva",
   "sentenceAiSkill": "Explicaciones con IA",
@@ -800,7 +924,8 @@
   "sentenceIncorrectFeedback": "Casi",
   "sentenceViewResult": "Ver resultados",
   "sentenceAiAnalyzing": "La IA está analizando tu respuesta...",
-  "sentenceAiComingSoon": "Las explicaciones con IA estarán disponibles próximamente. Mientras tanto, puedes continuar con la lección.",
+  "sentenceAiComingSoon":
+      "Las explicaciones con IA estarán disponibles próximamente. Mientras tanto, puedes continuar con la lección.",
   "sentenceAiExplanation": "Explicación con IA",
   "sentenceHint": "Pista",
   "sentenceCompleteTitle": "¡Sesión de construcción de oraciones completada!",
@@ -811,9 +936,12 @@
   "sentenceFinish": "Finalizar",
   "sentencePracticeMore": "Practicar 4 palabras más",
   "sentencePrepareError": "No se pudo preparar la práctica de oraciones",
-  "sentencePrepareErrorBody": "Inténtalo de nuevo cuando hayan terminado de cargarse los datos de vocabulario.",
-  "sentenceWrongOrderFeedback": "Seleccionaste todas las palabras, pero el orden no es correcto. Verifica la posición de cada palabra comparándola con la respuesta correcta.",
-  "sentenceMissingWordsFeedback": "En tu respuesta faltan: {words}. Revisa la respuesta correcta y continúa.",
+  "sentencePrepareErrorBody":
+      "Inténtalo de nuevo cuando hayan terminado de cargarse los datos de vocabulario.",
+  "sentenceWrongOrderFeedback":
+      "Seleccionaste todas las palabras, pero el orden no es correcto. Verifica la posición de cada palabra comparándola con la respuesta correcta.",
+  "sentenceMissingWordsFeedback":
+      "En tu respuesta faltan: {words}. Revisa la respuesta correcta y continúa.",
   "reviewDefaultTitle": "Práctica",
   "reviewWarmupStep": "Calentamiento",
   "reviewListeningSoundStep": "Escucha y elige el sonido",
@@ -821,29 +949,39 @@
   "reviewTypingStep": "Construcción de palabras",
   "reviewSpeakingStep": "Práctica de pronunciación",
   "reviewTranslationStep": "Traducción",
-  "reviewSpeechAccessError": "No se puede acceder al micrófono ni al reconocimiento de voz.",
-  "reviewRecordingStartError": "No se pudo iniciar la grabación. Inténtalo de nuevo.",
-  "reviewSkipSpeakingTitle": "¿Seguro que quieres omitir por ahora la práctica de pronunciación?",
-  "reviewSkipSpeakingBody": "Las preguntas de pronunciación no contarán como correctas.",
-  "reviewSkipListeningTitle": "¿Seguro que quieres omitir por ahora la práctica de comprensión auditiva?",
-  "reviewSkipListeningBody": "Las preguntas de comprensión auditiva no contarán como correctas.",
+  "reviewSpeechAccessError":
+      "No se puede acceder al micrófono ni al reconocimiento de voz.",
+  "reviewRecordingStartError":
+      "No se pudo iniciar la grabación. Inténtalo de nuevo.",
+  "reviewSkipSpeakingTitle":
+      "¿Seguro que quieres omitir por ahora la práctica de pronunciación?",
+  "reviewSkipSpeakingBody":
+      "Las preguntas de pronunciación no contarán como correctas.",
+  "reviewSkipListeningTitle":
+      "¿Seguro que quieres omitir por ahora la práctica de comprensión auditiva?",
+  "reviewSkipListeningBody":
+      "Las preguntas de comprensión auditiva no contarán como correctas.",
   "reviewAudioOption": "Audio {letter}",
   "reviewExitAction": "Salir del repaso",
-  "reviewIntroInstruction": "Lee con atención las palabras de abajo antes de empezar el repaso.",
-  "reviewIntroBody": "Leximon te hará preguntas basadas en las palabras que seleccionaste para reforzar tu memoria a corto plazo.",
+  "reviewIntroInstruction":
+      "Lee con atención las palabras de abajo antes de empezar el repaso.",
+  "reviewIntroBody":
+      "Leximon te hará preguntas basadas en las palabras que seleccionaste para reforzar tu memoria a corto plazo.",
   "reviewStart": "Empezar repaso",
   "reviewChooseAudioCount": "Elige 1 de {count} audios",
   "reviewAudioSelectedHint": "Audio seleccionado — toca Elegir para verificar",
   "reviewAudioCorrect": "Elegiste el audio correcto",
   "reviewAudioWrong": "Elegiste el audio incorrecto",
-  "reviewChooseCorrectAudio": "Mira la palabra de abajo y elige el audio con la pronunciación correcta",
+  "reviewChooseCorrectAudio":
+      "Mira la palabra de abajo y elige el audio con la pronunciación correcta",
   "reviewCorrectPronunciation": "Pronunciación correcta de «{word}»",
   "reviewSelectedAudio": "Audio seleccionado",
   "reviewTapToListen": "Toca para escuchar",
   "reviewPronunciationCorrect": "Tu pronunciación es correcta.",
   "reviewPronunciationRetry": "Prueba a pronunciar esta palabra de nuevo.",
   "reviewRecordingActive": "Grabando… Toca de nuevo para detener",
-  "reviewRecordingReady": "Grabación completada. Verifica el resultado cuando quieras.",
+  "reviewRecordingReady":
+      "Grabación completada. Verifica el resultado cuando quieras.",
   "reviewRecordingPrompt": "Toca este botón para grabar",
   "reviewPronounceWord": "Pronuncia esta palabra",
   "reviewSpeakAgain": "Volver a decir",
@@ -859,58 +997,78 @@
   "reviewCorrectOption": "Respuesta correcta",
   "reviewYourSelection": "Seleccionaste",
   "reviewNotSelected": "No seleccionado",
-  "reviewChooseEnglishWord": "Elige la palabra correcta en inglés para el significado de abajo",
-  "reviewChooseTranslation": "Elige la traducción correcta de la palabra de abajo",
+  "reviewChooseEnglishWord":
+      "Elige la palabra correcta en inglés para el significado de abajo",
+  "reviewChooseTranslation":
+      "Elige la traducción correcta de la palabra de abajo",
   "reviewResult": "RESULTADO",
   "reviewYourAnswer": "Tu respuesta",
-  "reviewTypingInstruction": "Selecciona los caracteres de abajo para formar la palabra correcta en inglés.",
+  "reviewTypingInstruction":
+      "Selecciona los caracteres de abajo para formar la palabra correcta en inglés.",
   "reviewTypingCorrect": "Formaste correctamente la palabra en inglés.",
-  "reviewTypingWrong": "Las letras están en el orden incorrecto. Revisa la respuesta correcta de abajo.",
+  "reviewTypingWrong":
+      "Las letras están en el orden incorrecto. Revisa la respuesta correcta de abajo.",
   "reviewBuildingWord": "PALABRA EN PROCESO",
   "reviewBuiltWord": "TU PALABRA",
   "reviewSpellingWrong": "MAL ESCRITA",
   "reviewNoCharactersSelected": "No hay caracteres seleccionados",
   "reviewEnterTranslation": "INTRODUCE LA TRADUCCIÓN",
   "reviewDeleteLastCharacter": "Eliminar el último carácter",
-  "reviewTypingPendingHint": "Tu respuesta se irá uniendo a medida que selecciones caracteres. El símbolo _ indica un espacio a la espera del siguiente carácter.",
-  "reviewTypingCompleteHint": "Tu respuesta se unió en una oración completa para que sea más fácil verificar el resultado.",
-  "reviewTypingWrongHint": "La palabra incorrecta aparece tachada en rojo y la correcta justo debajo para que puedas compararlas rápidamente.",
+  "reviewTypingPendingHint":
+      "Tu respuesta se irá uniendo a medida que selecciones caracteres. El símbolo _ indica un espacio a la espera del siguiente carácter.",
+  "reviewTypingCompleteHint":
+      "Tu respuesta se unió en una oración completa para que sea más fácil verificar el resultado.",
+  "reviewTypingWrongHint":
+      "La palabra incorrecta aparece tachada en rojo y la correcta justo debajo para que puedas compararlas rápidamente.",
   "reviewCharacterSet": "CONJUNTO DE CARACTERES",
   "reviewAvailableCharacters": "CARACTERES DISPONIBLES",
   "reviewCharactersUsed": "Todos usados",
   "reviewCharactersNeededOnly": "Mostrar solo los caracteres necesarios",
-  "reviewCharacterSetHint": "Solo se muestran los caracteres necesarios para la respuesta, de modo que la interfaz sea limpia y fácil de leer.",
+  "reviewCharacterSetHint":
+      "Solo se muestran los caracteres necesarios para la respuesta, de modo que la interfaz sea limpia y fácil de leer.",
   "reviewWordMeans": "{word} significa",
-  "reviewListenMemoryHint": "Puedes volver a escuchar la pronunciación para recordarla mejor.",
+  "reviewListenMemoryHint":
+      "Puedes volver a escuchar la pronunciación para recordarla mejor.",
   "reviewChoose": "Elegir",
   "reviewCompareAudioTitle": "Vuelve a escuchar para comparar",
   "reviewTargetWordPrefix": "La palabra objetivo es",
-  "reviewCompareAudioBody": "Compara el audio que elegiste con el audio correcto de abajo.",
+  "reviewCompareAudioBody":
+      "Compara el audio que elegiste con el audio correcto de abajo.",
   "reviewCorrectAudio": "Audio correcto",
   "reviewNotice": "Nota",
-  "reviewAudioDifferenceHint": "Vuelve a escuchar y recuerda la diferencia entre tu selección y la respuesta correcta.",
+  "reviewAudioDifferenceHint":
+      "Vuelve a escuchar y recuerda la diferencia entre tu selección y la respuesta correcta.",
   "reviewYourCorrectAnswer": "Respuesta correcta",
   "reviewNoSoundTitle": "No se ha oído nada",
   "reviewNotRecognizedTitle": "Pronunciación no reconocida",
-  "reviewNoSoundBody": "Intenta decir esta palabra de nuevo u omite solo esta pregunta de pronunciación.",
-  "reviewNotRecognizedBody": "Intenta pronunciar la palabra de nuevo u omite esta pregunta.",
+  "reviewNoSoundBody":
+      "Intenta decir esta palabra de nuevo u omite solo esta pregunta de pronunciación.",
+  "reviewNotRecognizedBody":
+      "Intenta pronunciar la palabra de nuevo u omite esta pregunta.",
   "reviewYes": "Sí",
   "reviewNo": "No",
   "reviewEndTitle": "¿Finalizar el repaso?",
-  "reviewEndBody": "No se guardará tu progreso de esta sesión. Puedes volver a empezar este grupo de palabras en cualquier momento.",
+  "reviewEndBody":
+      "No se guardará tu progreso de esta sesión. Puedes volver a empezar este grupo de palabras en cualquier momento.",
   "reviewEndAction": "Finalizar repaso",
   "notificationStudyTitle": "¡Hora de estudiar! 📚",
-  "notificationStudyBody": "Dedica unos minutos a repasar vocabulario con Leximon.",
+  "notificationStudyBody":
+      "Dedica unos minutos a repasar vocabulario con Leximon.",
   "notificationChannelName": "Recordatorio diario de estudio",
-  "notificationChannelDescription": "Recordatorios para ayudarte a mantener tu hábito de aprender vocabulario.",
+  "notificationChannelDescription":
+      "Recordatorios para ayudarte a mantener tu hábito de aprender vocabulario.",
   "sentenceTypeConstructor": "Construir una oración en inglés",
   "sentenceTypeInverse": "Construir una oración en vietnamita",
   "sentenceTypeAudio": "Escuchar y construir la oración",
   "sentenceTypeInsertWord": "Completar la palabra que falta",
-  "sentenceInstructionConstructor": "Selecciona las palabras en el orden correcto para formar la oración en inglés.",
-  "sentenceInstructionInverse": "Ordena la traducción al vietnamita para que corresponda con la oración de abajo.",
-  "sentenceInstructionAudio": "Escucha la oración y selecciona las palabras en inglés en el orden correcto.",
-  "sentenceInstructionInsertWord": "Elige la palabra que falta para completar la oración.",
+  "sentenceInstructionConstructor":
+      "Selecciona las palabras en el orden correcto para formar la oración en inglés.",
+  "sentenceInstructionInverse":
+      "Ordena la traducción al vietnamita para que corresponda con la oración de abajo.",
+  "sentenceInstructionAudio":
+      "Escucha la oración y selecciona las palabras en inglés en el orden correcto.",
+  "sentenceInstructionInsertWord":
+      "Elige la palabra que falta para completar la oración.",
   "dashboardThisMonth": "Este mes",
   "dashboardMonthNumber": "Mes {month}",
   "streakDaysLabel": "Racha de días",
@@ -936,7 +1094,8 @@
   "challengeChoosePronunciation": "Elige un sonido del AFI",
   "challengeChooseReading": "Elige un ejercicio de lectura",
   "challengeSkillNeedsImprovement": "{skill} necesita más práctica",
-  "challengeSessionsRemaining": "Quedan {count} sesiones para mantener el ritmo de tu objetivo semanal",
+  "challengeSessionsRemaining":
+      "Quedan {count} sesiones para mantener el ritmo de tu objetivo semanal",
   "challengeLevelFit": "Se adapta a tu nivel actual",
-  "grammarAnswerSlot": "Casilla {number}: {answer}"
-}
+  "grammarAnswerSlot": "Casilla {number}: {answer}",
+};

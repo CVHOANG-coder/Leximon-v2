@@ -119,7 +119,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
   Widget build(BuildContext context) {
     final catalogState = ref.watch(iapCatalogProvider);
     final catalog = catalogState.valueOrNull;
-    final packages = catalog?.packages ?? const <IapPackage>[];
+    final packages = catalog?.subscriptionPackages ?? const <IapPackage>[];
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -302,21 +302,36 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       (item) => item.productId == _selectedProductId,
       orElse: () => packages.first,
     );
+    IapPackage? mostExpensivePackage;
+    for (final package in packages) {
+      if (!package.price.isFinite || package.price <= 0) continue;
+      if (mostExpensivePackage == null ||
+          package.price > mostExpensivePackage.price) {
+        mostExpensivePackage = package;
+      }
+    }
 
     final children = <Widget>[];
     for (var index = 0; index < packages.length; index++) {
       final package = packages[index];
       final isSelected = package.productId == selectedPackage.productId;
-      final storePrice = catalog?.storePriceFor(package);
+      final storePrice = catalog?.storePriceFor(package)?.trim();
+      final price = storePrice == null || storePrice.isEmpty
+          ? _apiPriceLabel(package)
+          : storePrice;
       children.add(
         _SubscriptionPlanCard(
           key: ValueKey('subscription-plan-${package.productId}'),
-          title: package.name,
-          description: package.description,
-          durationLabel: _durationLabel(package.packDurationDay),
-          storePrice:
-              storePrice ??
-              context.l10n.text('subscriptionStorePriceUnavailable'),
+          title: package.name.trim().isEmpty
+              ? _durationLabel(package.packDurationDay)
+              : package.name.trim(),
+          totalPrice: price,
+          originalPrice: package == mostExpensivePackage
+              ? _apiPriceLabelForAmount(package, package.price * 1.5)
+              : null,
+          weeklyPrice: price == null
+              ? null
+              : _weeklyPriceLabel(context, package),
           badgeLabel: package.group == 'SALE'
               ? context.l10n.text('subscriptionSale')
               : null,
@@ -353,14 +368,48 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     return children;
   }
 
+  String? _apiPriceLabel(IapPackage package) {
+    if (!package.price.isFinite || package.price <= 0) return null;
+    final amount = _formatAmount(package.price);
+    final currency = package.currency.trim().toUpperCase();
+    if (currency.isEmpty || currency == 'USD' || currency == r'$') {
+      return '\$$amount';
+    }
+    return '$amount $currency';
+  }
+
+  String? _apiPriceLabelForAmount(IapPackage package, double amount) {
+    if (!amount.isFinite || amount <= 0) return null;
+    final formattedAmount = _formatAmount(amount);
+    final currency = package.currency.trim().toUpperCase();
+    if (currency.isEmpty || currency == 'USD' || currency == r'$') {
+      return '\$$formattedAmount';
+    }
+    return '$formattedAmount $currency';
+  }
+
+  String? _weeklyPriceLabel(BuildContext context, IapPackage package) {
+    if (!package.price.isFinite ||
+        package.price <= 0 ||
+        package.packDurationDay <= 0) {
+      return null;
+    }
+    final weeklyPrice = package.price * 7 / package.packDurationDay;
+    final price = _apiPriceLabelForAmount(package, weeklyPrice);
+    if (price == null) return null;
+    final weekLabel = context.l10n
+        .text('subscriptionWeeks', values: const {'count': 1})
+        .replaceFirst(RegExp(r'^1\s*'), '');
+    return '$price / $weekLabel';
+  }
+
+  String _formatAmount(double amount) {
+    final fixed = amount.toStringAsFixed(2);
+    return fixed.replaceFirst(RegExp(r'\.?0+$'), '');
+  }
+
   String _durationLabel(int days) {
     if (days >= 36500) return context.l10n.text('subscriptionLifetime');
-    if (days >= 365) {
-      return context.l10n.text(
-        'subscriptionYears',
-        values: {'count': (days / 365).round()},
-      );
-    }
     if (days >= 30) {
       return context.l10n.text(
         'subscriptionMonths',
@@ -424,18 +473,18 @@ class _SubscriptionPlanCard extends StatelessWidget {
   const _SubscriptionPlanCard({
     super.key,
     required this.title,
-    required this.description,
-    required this.durationLabel,
-    required this.storePrice,
+    required this.totalPrice,
+    required this.originalPrice,
+    required this.weeklyPrice,
     required this.selected,
     required this.onTap,
     this.badgeLabel,
   });
 
   final String title;
-  final String description;
-  final String durationLabel;
-  final String storePrice;
+  final String? totalPrice;
+  final String? originalPrice;
+  final String? weeklyPrice;
   final String? badgeLabel;
   final bool selected;
   final VoidCallback onTap;
@@ -452,12 +501,12 @@ class _SubscriptionPlanCard extends StatelessWidget {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 220),
           curve: Curves.easeOutCubic,
-          constraints: const BoxConstraints(minHeight: 116),
+          constraints: const BoxConstraints(minHeight: 80),
           padding: EdgeInsets.fromLTRB(
             21,
-            badgeLabel == null ? 15 : 25,
+            badgeLabel == null ? 17 : 25,
             19,
-            15,
+            17,
           ),
           decoration: BoxDecoration(
             gradient: selected
@@ -492,64 +541,84 @@ class _SubscriptionPlanCard extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Column(
+                      mainAxisSize: MainAxisSize.min,
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          durationLabel,
-                          maxLines: 1,
-                          style: TextStyle(
-                            color: selected
-                                ? const Color(0xFF1657E8)
-                                : const Color(0xFF8AAEFF),
-                            fontSize: 14,
-                            fontWeight: FontWeight.w700,
-                          ),
-                        ),
-                        const SizedBox(height: 4),
                         Text(
                           title,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: foregroundColor,
-                            fontSize: 18,
+                            fontSize: 20,
                             height: 1.05,
                             fontWeight: FontWeight.w800,
                           ),
                         ),
-                        const SizedBox(height: 6),
-                        Text(
-                          description,
+                        if (totalPrice != null) ...[
+                          const SizedBox(height: 8),
+                          Row(
+                            children: [
+                              if (originalPrice != null) ...[
+                                Flexible(
+                                  child: Text(
+                                    originalPrice!,
+                                    maxLines: 1,
+                                    overflow: TextOverflow.ellipsis,
+                                    style: const TextStyle(
+                                      color: Color(0xFFD93838),
+                                      fontSize: 14,
+                                      fontWeight: FontWeight.w600,
+                                      decoration: TextDecoration.lineThrough,
+                                      decorationColor: Color(0xFFD93838),
+                                      decorationThickness: 1.8,
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 10),
+                              ],
+                              Flexible(
+                                child: Text(
+                                  totalPrice!,
+                                  maxLines: 1,
+                                  overflow: TextOverflow.ellipsis,
+                                  style: TextStyle(
+                                    color: selected
+                                        ? const Color(0xFF061541)
+                                        : Colors.white,
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ],
+                    ),
+                  ),
+                  if (weeklyPrice != null) ...[
+                    const SizedBox(width: 12),
+                    Expanded(
+                      child: Align(
+                        alignment: Alignment.centerRight,
+                        child: Text(
+                          weeklyPrice!,
+                          textAlign: TextAlign.right,
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: selected
-                                ? const Color(0xFF405A91)
-                                : const Color(0xFFAAC7FF),
-                            fontSize: 12.5,
-                            height: 1.15,
+                                ? const Color(0xFF1657E8)
+                                : const Color(0xFF8AAEFF),
+                            fontSize: 15,
+                            fontWeight: FontWeight.w700,
                           ),
                         ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(width: 12),
-                  Flexible(
-                    child: Text(
-                      storePrice,
-                      textAlign: TextAlign.right,
-                      maxLines: 3,
-                      overflow: TextOverflow.ellipsis,
-                      style: TextStyle(
-                        color: selected
-                            ? const Color(0xFF1657E8)
-                            : const Color(0xFF8AAEFF),
-                        fontSize: 15,
-                        fontWeight: FontWeight.w700,
                       ),
                     ),
-                  ),
+                  ],
                 ],
               ),
               if (badgeLabel != null)

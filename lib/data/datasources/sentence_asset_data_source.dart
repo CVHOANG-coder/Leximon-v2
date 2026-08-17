@@ -3,23 +3,41 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
+import '../../core/network/api_client.dart';
 import '../models/sentence_exercise.dart';
 import 'topic_asset_data_source.dart';
 
 const _sentenceAssetDirectory = 'assets/data/sentences';
+const _sentenceRemoteDirectory = '/data/sentences';
 
 class SentenceAssetDataSource {
-  SentenceAssetDataSource({AssetBundle? bundle})
-    : _bundle = bundle ?? rootBundle;
+  SentenceAssetDataSource({this.bundle, ApiClient? apiClient})
+    : _apiClient = apiClient ?? ApiClient();
 
-  final AssetBundle _bundle;
+  final AssetBundle? bundle;
+  final ApiClient _apiClient;
   final _cache = <String, Future<List<SentenceRecord>>>{};
 
   Future<List<SentenceRecord>> load({String languageCode = 'vi'}) {
     final canonicalCode = TopicAssetDataSource.canonicalizeLanguageCode(
       languageCode,
     );
-    return _cache[canonicalCode] ??= _loadSafely(canonicalCode);
+    if (canonicalCode == 'en') {
+      // English is the source language, so there is no native translation
+      // sentence pack to import. Treat the package as intentionally empty.
+      return _cache[canonicalCode] ??= Future<List<SentenceRecord>>.value(
+        const <SentenceRecord>[],
+      );
+    }
+    return _cache[canonicalCode] ??= _loadPackage(canonicalCode);
+  }
+
+  Future<List<SentenceRecord>> reload({String languageCode = 'vi'}) {
+    final canonicalCode = TopicAssetDataSource.canonicalizeLanguageCode(
+      languageCode,
+    );
+    _cache.remove(canonicalCode);
+    return load(languageCode: canonicalCode);
   }
 
   Future<Set<int>> loadWordIds({String languageCode = 'vi'}) async {
@@ -35,13 +53,17 @@ class SentenceAssetDataSource {
         .toSet();
   }
 
-  Future<List<SentenceRecord>> _loadSafely(String languageCode) async {
-    try {
-      final source = await _bundle.loadString(assetPathFor(languageCode));
+  Future<List<SentenceRecord>> _loadPackage(String languageCode) async {
+    final assetBundle = bundle;
+    if (assetBundle != null) {
+      final source = await assetBundle.loadString(assetPathFor(languageCode));
       return compute(_decodeSentenceAsset, source);
-    } on Object {
-      return const <SentenceRecord>[];
     }
+
+    final response = await _apiClient.get(
+      '$_sentenceRemoteDirectory/$languageCode.json',
+    );
+    return compute(_decodeSentenceAsset, response.body);
   }
 
   String assetPathFor(String languageCode) {

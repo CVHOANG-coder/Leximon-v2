@@ -13,6 +13,7 @@ import '../listening_practice/listening_practice_screen.dart';
 import '../pronunciation/ipa_sound_detail_screen.dart';
 import '../pronunciation/pronunciation_screen.dart';
 import '../reading/reading_screen.dart';
+import '../listening_practice/skill_pack_purchase_screen.dart';
 import '../speaking_practice/speaking_exercise_screen.dart';
 import '../speaking_practice/speaking_practice_screen.dart';
 
@@ -24,6 +25,16 @@ class MessagesScreen extends ConsumerWidget {
     final streak =
         ref.watch(progressDashboardProvider).valueOrNull?.currentStreak ?? 0;
     final dashboard = ref.watch(challengeDashboardProvider).valueOrNull;
+    final profile = ref.watch(remoteUserProfileProvider).valueOrNull;
+    final ownedProductIds = profile?.ownedProductIds.toSet();
+    final recommendationSkill = dashboard?.recommendation.skill;
+    final recommendationPack = recommendationSkill == null
+        ? null
+        : _skillPackFor(recommendationSkill);
+    final recommendationLocked =
+        recommendationPack != null &&
+        ownedProductIds != null &&
+        !ownedProductIds.contains(recommendationPack.productId);
 
     return SafeArea(
       key: const ValueKey('challenge-screen'),
@@ -37,8 +48,11 @@ class MessagesScreen extends ConsumerWidget {
             sliver: SliverToBoxAdapter(
               child: _WeeklyGoalCard(
                 dashboard: dashboard,
+                recommendationLocked: recommendationLocked,
                 onRecommendationTap: () =>
-                    _openRecommendation(context, ref, dashboard),
+                    recommendationPack != null && recommendationLocked
+                    ? _openSkillPackPurchase(context, ref, recommendationPack)
+                    : _openRecommendation(context, ref, dashboard),
               ),
             ),
           ),
@@ -153,6 +167,22 @@ class MessagesScreen extends ConsumerWidget {
       ..invalidate(challengeDashboardProvider)
       ..invalidate(progressDashboardProvider)
       ..invalidate(grammarPacksProvider);
+  }
+
+  Future<void> _openSkillPackPurchase(
+    BuildContext context,
+    WidgetRef ref,
+    SkillPackType skill,
+  ) async {
+    await Navigator.of(context).push<void>(
+      MaterialPageRoute<void>(
+        builder: (_) => SkillPackPurchaseScreen(skill: skill),
+      ),
+    );
+    if (!context.mounted) return;
+    ref
+      ..invalidate(remoteUserProfileProvider)
+      ..invalidate(challengeDashboardProvider);
   }
 }
 
@@ -297,10 +327,12 @@ class _StreakBadge extends StatelessWidget {
 class _WeeklyGoalCard extends StatelessWidget {
   const _WeeklyGoalCard({
     required this.dashboard,
+    required this.recommendationLocked,
     required this.onRecommendationTap,
   });
 
   final ChallengeDashboardSnapshot? dashboard;
+  final bool recommendationLocked;
   final VoidCallback onRecommendationTap;
 
   @override
@@ -388,97 +420,106 @@ class _WeeklyGoalCard extends StatelessWidget {
           const SizedBox(height: 14),
           _RoundedProgressBar(value: progress, color: const Color(0xFF2168ED)),
           const SizedBox(height: 16),
-          Material(
-            color: const Color(0xFFF2F6FC),
-            borderRadius: BorderRadius.circular(18),
-            clipBehavior: Clip.antiAlias,
-            child: InkWell(
-              key: const ValueKey('weekly-recommendation-action'),
-              onTap: onRecommendationTap,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 12,
-                  vertical: 10,
-                ),
-                child: Row(
-                  children: [
-                    Container(
-                      width: 42,
-                      height: 42,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(13),
-                      ),
-                      child: Padding(
-                        padding: const EdgeInsets.all(8),
-                        child: SvgPicture.asset(
-                          _skillIconAsset(recommendation?.skill),
-                          key: ValueKey(_skillIconAsset(recommendation?.skill)),
-                          fit: BoxFit.contain,
+          Opacity(
+            opacity: recommendationLocked ? .52 : 1,
+            child: Material(
+              color: const Color(0xFFF2F6FC),
+              borderRadius: BorderRadius.circular(18),
+              clipBehavior: Clip.antiAlias,
+              child: InkWell(
+                key: const ValueKey('weekly-recommendation-action'),
+                onTap: onRecommendationTap,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 10,
+                  ),
+                  child: Row(
+                    children: [
+                      Container(
+                        width: 42,
+                        height: 42,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(13),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8),
+                          child: SvgPicture.asset(
+                            _skillIconAsset(recommendation?.skill),
+                            key: ValueKey(
+                              _skillIconAsset(recommendation?.skill),
+                            ),
+                            fit: BoxFit.contain,
+                          ),
                         ),
                       ),
-                    ),
-                    const SizedBox(width: 11),
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            context.l10n.text('nextRecommendation'),
-                            style: TextStyle(
-                              color: Color(0xFF758BA8),
-                              fontSize: 8,
-                              fontWeight: FontWeight.w800,
-                              letterSpacing: .8,
-                            ),
-                          ),
-                          const SizedBox(height: 4),
-                          Text(
-                            recommendation?.title ??
-                                context.l10n.text('findingRecommendation'),
-                            maxLines: 1,
-                            overflow: TextOverflow.ellipsis,
-                            style: const TextStyle(
-                              color: Color(0xFF092857),
-                              fontSize: 11,
-                              fontWeight: FontWeight.w800,
-                            ),
-                          ),
-                          if (recommendation != null) ...[
-                            const SizedBox(height: 3),
+                      const SizedBox(width: 11),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
                             Text(
-                              recommendation.reason,
+                              context.l10n.text('nextRecommendation'),
+                              style: TextStyle(
+                                color: Color(0xFF758BA8),
+                                fontSize: 8,
+                                fontWeight: FontWeight.w800,
+                                letterSpacing: .8,
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            Text(
+                              recommendation?.title ??
+                                  context.l10n.text('findingRecommendation'),
                               maxLines: 1,
                               overflow: TextOverflow.ellipsis,
                               style: const TextStyle(
-                                color: Color(0xFF758BA8),
-                                fontSize: 7.5,
-                                fontWeight: FontWeight.w600,
+                                color: Color(0xFF092857),
+                                fontSize: 11,
+                                fontWeight: FontWeight.w800,
                               ),
                             ),
+                            if (recommendation != null) ...[
+                              const SizedBox(height: 3),
+                              Text(
+                                recommendation.reason,
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: const TextStyle(
+                                  color: Color(0xFF758BA8),
+                                  fontSize: 7.5,
+                                  fontWeight: FontWeight.w600,
+                                ),
+                              ),
+                            ],
                           ],
-                        ],
+                        ),
                       ),
-                    ),
-                    const SizedBox(width: 6),
-                    Text(
-                      context.l10n.text(
-                        'minuteCount',
-                        values: {'count': recommendation?.durationMinutes ?? 5},
+                      const SizedBox(width: 6),
+                      Text(
+                        context.l10n.text(
+                          'minuteCount',
+                          values: {
+                            'count': recommendation?.durationMinutes ?? 5,
+                          },
+                        ),
+                        style: const TextStyle(
+                          color: Color(0xFF7288A6),
+                          fontSize: 9,
+                          fontWeight: FontWeight.w700,
+                        ),
                       ),
-                      style: const TextStyle(
-                        color: Color(0xFF7288A6),
-                        fontSize: 9,
-                        fontWeight: FontWeight.w700,
+                      const SizedBox(width: 4),
+                      Icon(
+                        recommendationLocked
+                            ? Icons.lock_outline_rounded
+                            : Icons.chevron_right_rounded,
+                        color: Color(0xFF7890AF),
+                        size: recommendationLocked ? 17 : 20,
                       ),
-                    ),
-                    const SizedBox(width: 4),
-                    const Icon(
-                      Icons.chevron_right_rounded,
-                      color: Color(0xFF7890AF),
-                      size: 20,
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -963,6 +1004,14 @@ const _insightDecoration = BoxDecoration(
     BoxShadow(color: Color(0x14235C93), blurRadius: 22, offset: Offset(0, 9)),
   ],
 );
+
+SkillPackType? _skillPackFor(PracticeSkill skill) => switch (skill) {
+  PracticeSkill.listening => SkillPackType.listening,
+  PracticeSkill.speaking => SkillPackType.speaking,
+  PracticeSkill.grammar => SkillPackType.grammar,
+  PracticeSkill.reading => SkillPackType.reading,
+  PracticeSkill.pronunciation => null,
+};
 
 String _skillIconAsset(PracticeSkill? skill) => switch (skill) {
   PracticeSkill.grammar => 'assets/svgs/challenge/grammar.svg',

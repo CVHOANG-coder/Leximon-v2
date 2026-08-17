@@ -3,10 +3,12 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
+import '../../core/network/api_client.dart';
 import '../models/topic_language.dart';
 import '../models/topic_asset_payload.dart';
 
 const _topicAssetDirectory = 'assets/data/topics';
+const _topicRemoteDirectory = '/data/topics';
 final _topicAssetPattern = RegExp(r'^assets/data/topics/data_en_(.+)\.json$');
 
 const _languageLabels = <String, String>{
@@ -43,9 +45,14 @@ const _languageLabels = <String, String>{
 };
 
 class TopicAssetDataSource {
-  TopicAssetDataSource({AssetBundle? bundle}) : bundle = bundle ?? rootBundle;
+  TopicAssetDataSource({AssetBundle? bundle, ApiClient? apiClient})
+    : bundle = bundle ?? rootBundle,
+      _bundleOverride = bundle,
+      _apiClient = apiClient ?? ApiClient();
 
   final AssetBundle bundle;
+  final AssetBundle? _bundleOverride;
+  final ApiClient _apiClient;
 
   static const knownLanguages = <TopicLanguage>[
     TopicLanguage(code: 'ar', label: 'العربية'),
@@ -82,6 +89,7 @@ class TopicAssetDataSource {
 
   static String canonicalizeLanguageCode(String languageCode) {
     return switch (languageCode) {
+      'es' => 'es-ES',
       'es-419' => 'es-US',
       'id' => 'in',
       'he' => 'iw',
@@ -96,6 +104,8 @@ class TopicAssetDataSource {
         .listAssets()
         .map(_languageCodeFromAsset)
         .whereType<String>()
+        // English is the source language, not a native-language topic pack.
+        .where((code) => code != 'en')
         .toSet();
 
     if (discoveredCodes.isEmpty) return knownLanguages;
@@ -120,15 +130,41 @@ class TopicAssetDataSource {
 
   Future<TopicAssetPayload> load({String languageCode = 'vi'}) async {
     final canonicalCode = canonicalizeLanguageCode(languageCode);
-    // There is no separate English translation asset because the source
-    // vocabulary is already English. Reuse the Vietnamese catalogue's
-    // English fields and make the translated values equal to the source text.
-    final assetCode = canonicalCode == 'en' ? 'vi' : canonicalCode;
-    final rawJson = await bundle.loadString(assetPathFor(assetCode));
-    return compute(
-      canonicalCode == 'en' ? _decodeEnglishTopicPayload : _decodeTopicPayload,
-      rawJson,
+    // An explicitly supplied bundle is retained for deterministic tests. The
+    // application datasource has no bundle override and always loads remotely.
+    if (_bundleOverride != null) {
+      // There is no separate English translation asset because the source
+      // vocabulary is already English.
+      final assetCode = canonicalCode == 'en' ? 'vi' : canonicalCode;
+      final rawJson = await bundle.loadString(assetPathFor(assetCode));
+      return compute(
+        canonicalCode == 'en'
+            ? _decodeEnglishTopicPayload
+            : _decodeTopicPayload,
+        rawJson,
+      );
+    }
+
+    // The backend currently has no data_en_en.json. Reuse the Vietnamese
+    // source catalogue and map its translated fields to the English source.
+    final remoteCode = canonicalCode == 'en' ? 'vi' : canonicalCode;
+    final response = await _apiClient.get(
+      '$_topicRemoteDirectory/data_en_$remoteCode.json',
     );
+    final data = response.mapData;
+    if (data == null) {
+      throw const FormatException('Topic response must contain a JSON object.');
+    }
+    if (data['topics'] is! List) {
+      throw const FormatException(
+        'Topic response does not contain a topics package.',
+      );
+    }
+    final payload = TopicAssetPayload.fromJson(data);
+    if (payload.topics.isEmpty) {
+      throw const FormatException('Topic package is empty.');
+    }
+    return canonicalCode == 'en' ? _mapEnglishTopicPayload(payload) : payload;
   }
 
   String assetPathFor(String languageCode) {
@@ -150,7 +186,10 @@ TopicAssetPayload _decodeTopicPayload(String rawJson) {
 }
 
 TopicAssetPayload _decodeEnglishTopicPayload(String rawJson) {
-  final payload = _decodeTopicPayload(rawJson);
+  return _mapEnglishTopicPayload(_decodeTopicPayload(rawJson));
+}
+
+TopicAssetPayload _mapEnglishTopicPayload(TopicAssetPayload payload) {
   return TopicAssetPayload(
     version: payload.version,
     topics: payload.topics

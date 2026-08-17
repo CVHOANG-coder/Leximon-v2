@@ -9,6 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
+import '../../../data/local/app_database.dart';
 import '../../../data/models/onboarding_vocabulary_test.dart';
 import '../../../data/models/sentence_exercise.dart';
 import '../../../data/services/onboarding_vocabulary_test_service.dart';
@@ -19,11 +20,15 @@ class VocabularyTestScreen extends StatefulWidget {
   const VocabularyTestScreen({
     required this.startingBand,
     this.service,
+    this.database,
+    this.languageCode = 'vi',
     super.key,
   });
 
   final VocabularyStartingBand startingBand;
   final OnboardingVocabularyTestService? service;
+  final AppDatabase? database;
+  final String languageCode;
 
   @override
   State<VocabularyTestScreen> createState() => _VocabularyTestScreenState();
@@ -66,7 +71,12 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
   @override
   void initState() {
     super.initState();
-    _service = widget.service ?? OnboardingVocabularyTestService();
+    _service =
+        widget.service ??
+        OnboardingVocabularyTestService(
+          database: widget.database,
+          languageCode: widget.languageCode,
+        );
     _currentNode = VocabularyAssessmentTree.forBand(widget.startingBand);
     _startedLevel = _currentNode.level;
     unawaited(_loadPart(showCountdown: true));

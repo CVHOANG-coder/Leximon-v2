@@ -3,13 +3,20 @@ import 'dart:math';
 
 import 'package:flutter/services.dart';
 
+import '../datasources/topic_asset_data_source.dart';
+import '../local/app_database.dart';
 import '../models/onboarding_vocabulary_test.dart';
 import '../models/sentence_exercise.dart';
 
 class OnboardingVocabularyTestService {
+  OnboardingVocabularyTestService({this.database, String languageCode = 'vi'})
+    : _languageCode = TopicAssetDataSource.canonicalizeLanguageCode(
+        languageCode,
+      );
+
   static const _definitionsAsset = 'assets/data/vocabulary_test.json';
-  static const _catalogAsset = 'assets/data/topics/data_en_vi.json';
-  static const _sentencesAsset = 'assets/data/sentences/vi.json';
+  final AppDatabase? database;
+  final String _languageCode;
   Future<_VocabularyTestSource>? _source;
 
   Future<List<VocabularyTestQuestion>> loadQuestions(BrightLevel level) async {
@@ -24,56 +31,43 @@ class OnboardingVocabularyTestService {
   }
 
   Future<_VocabularyTestSource> _loadSource() async {
-    final payloads = await Future.wait([
-      rootBundle.loadString(_definitionsAsset),
-      rootBundle.loadString(_catalogAsset),
-      rootBundle.loadString(_sentencesAsset),
-    ]);
-
-    final definitions = (jsonDecode(payloads[0]) as List<dynamic>)
+    final definitionsSource = await rootBundle.loadString(_definitionsAsset);
+    final definitions = (jsonDecode(definitionsSource) as List<dynamic>)
         .cast<Map<String, dynamic>>()
         .map(VocabularyTestDefinition.fromJson)
         .toList(growable: false);
-    final catalog = _readCatalog(payloads[1]);
-    final sentences = (jsonDecode(payloads[2]) as List<dynamic>)
-        .whereType<Map<String, dynamic>>()
-        .map(SentenceRecord.fromJson)
-        .where(
-          (sentence) =>
-              sentence.spelling.trim().isNotEmpty &&
-              sentence.translation.trim().isNotEmpty,
-        )
-        .toList(growable: false);
+
+    final localDatabase = database;
+    if (localDatabase == null) {
+      throw StateError('A local database is required for vocabulary tests.');
+    }
+    final words = await localDatabase.enabledWords();
+    final catalog = _VocabularyCatalog(
+      words
+          .map(
+            (word) => _CatalogWord(
+              id: word.id,
+              topicId: word.topicId,
+              writing: word.writing.trim(),
+              translation: word.translation.trim(),
+              transcription: word.transcription?.trim() ?? '',
+            ),
+          )
+          .toList(growable: false),
+    );
+    final sentences =
+        (await localDatabase.loadSentenceContent(languageCode: _languageCode))
+            .where(
+              (sentence) =>
+                  sentence.spelling.trim().isNotEmpty &&
+                  sentence.translation.trim().isNotEmpty,
+            )
+            .toList(growable: false);
     return _VocabularyTestSource(
       definitions: definitions,
       catalog: catalog,
       sentences: sentences,
     );
-  }
-
-  _VocabularyCatalog _readCatalog(String source) {
-    final json = jsonDecode(source) as Map<String, dynamic>;
-    final words = <_CatalogWord>[];
-
-    for (final topicValue in json['topics'] as List<dynamic>) {
-      final topic = topicValue as Map<String, dynamic>;
-      final topicId = topic['id'] as int;
-      for (final wordValue in topic['words'] as List<dynamic>) {
-        final word = wordValue as Map<String, dynamic>;
-        if (word['enabled'] != true) continue;
-        words.add(
-          _CatalogWord(
-            id: word['id'] as int,
-            topicId: topicId,
-            writing: (word['writing'] as String? ?? '').trim(),
-            translation: (word['translation'] as String? ?? '').trim(),
-            transcription: (word['transcription'] as String? ?? '').trim(),
-          ),
-        );
-      }
-    }
-
-    return _VocabularyCatalog(words);
   }
 
   VocabularyTestQuestion _buildQuestion(

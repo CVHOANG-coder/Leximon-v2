@@ -41,12 +41,12 @@ class _LanguageOnboardingScreenState
       ref.read(selectedAppLanguageProvider.notifier).state =
           _selectedLanguageCode;
       ref.invalidate(localDataInitializationProvider);
-      unawaited(ref.read(localDataInitializationProvider.future));
+      ref.invalidate(languagePackageInitializationProvider);
       if (!mounted) return;
       // Keep the route reusable when the next screen is popped and the user
       // returns to this language picker.
       setState(() => _isSaving = false);
-      context.push('/onboarding/assessment-intro');
+      context.push('/onboarding/language-loading');
     } catch (_) {
       if (!mounted) return;
       setState(() => _isSaving = false);
@@ -320,12 +320,20 @@ class _LanguageTile extends StatelessWidget {
   final bool selected;
   final VoidCallback onTap;
 
+  bool get _showLocaleCode =>
+      language.code == 'es-ES' ||
+      language.code == 'es-US' ||
+      language.code == 'zh' ||
+      language.code == 'zh-TW';
+
   @override
   Widget build(BuildContext context) {
     return Semantics(
       selected: selected,
       button: true,
-      label: language.label,
+      label: _showLocaleCode
+          ? '${language.label}, ${language.code}'
+          : language.label,
       child: Material(
         color: selected ? const Color(0xFFF0F5FF) : Colors.white,
         shape: RoundedRectangleBorder(
@@ -368,6 +376,38 @@ class _LanguageTile extends StatelessWidget {
                       ),
                     ),
                   ),
+                  if (_showLocaleCode) ...[
+                    const SizedBox(width: 10),
+                    Container(
+                      key: ValueKey('language-locale-code-${language.code}'),
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 9,
+                        vertical: 5,
+                      ),
+                      decoration: BoxDecoration(
+                        color: selected
+                            ? const Color(0xFFDCE8FF)
+                            : const Color(0xFFF1F5FC),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                          color: selected
+                              ? const Color(0xFFB8CEFF)
+                              : const Color(0xFFD8E2F2),
+                        ),
+                      ),
+                      child: Text(
+                        language.code,
+                        style: TextStyle(
+                          color: selected
+                              ? const Color(0xFF0C54E7)
+                              : const Color(0xFF526987),
+                          fontSize: 11,
+                          fontWeight: FontWeight.w700,
+                          letterSpacing: 0.2,
+                        ),
+                      ),
+                    ),
+                  ],
                 ],
               ),
             ),

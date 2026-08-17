@@ -33,6 +33,22 @@ class TopicRepository {
     return synchronization;
   }
 
+  /// Re-imports the bundled catalogue even when the selected language has not
+  /// changed. This is used when the user leaves and re-enters onboarding.
+  Future<void> reload({String languageCode = 'vi'}) {
+    final canonicalCode = TopicAssetDataSource.canonicalizeLanguageCode(
+      languageCode,
+    );
+    final synchronization = _lastSynchronization.then((_) async {
+      await _synchronizeBundledContent(canonicalCode, forceReload: true);
+      _activeLanguageCode = canonicalCode;
+    });
+    _lastSynchronization = synchronization.catchError(
+      (Object error, StackTrace stackTrace) {},
+    );
+    return synchronization;
+  }
+
   Future<List<Topic>> loadTopics({String languageCode = 'vi'}) async {
     await initialize(languageCode: languageCode);
 

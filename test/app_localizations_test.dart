@@ -61,7 +61,66 @@ void main() {
   test('falls back safely for unsupported locale codes', () {
     expect(AppLocalizations.localeForCode('xx'), const Locale('en'));
     expect(AppLocalizations.localeForCode('ja'), const Locale('ja'));
+    expect(AppLocalizations.localeForCode('es'), const Locale('es', 'ES'));
     expect(AppLocalizations.localeForCode('es-ES'), const Locale('es', 'ES'));
+    expect(AppLocalizations.localeForCode('es-US'), const Locale('es', 'US'));
+    expect(AppLocalizations.localeForCode('es-MX'), const Locale('es', 'US'));
+    expect(AppLocalizations.localeForCode('es-419'), const Locale('es', 'US'));
+  });
+
+  test('uses separate Spanish catalogs and defaults generic es to es-ES', () {
+    expect(AppLocalizations.languageCodeForLocale(const Locale('es')), 'es-ES');
+    expect(
+      AppLocalizations.languageCodeForLocale(const Locale('es', 'ES')),
+      'es-ES',
+    );
+    expect(
+      AppLocalizations.languageCodeForLocale(const Locale('es', 'US')),
+      'es-US',
+    );
+    expect(
+      AppLocalizations.languageCodeForLocale(const Locale('es', 'MX')),
+      'es-US',
+    );
+
+    final spain = AppLocalizations(AppLocalizations.localeForCode('es-ES'));
+    final latinAmerica = AppLocalizations(
+      AppLocalizations.localeForCode('es-US'),
+    );
+    expect(spain.openSettings, 'Abrir ajustes');
+    expect(latinAmerica.openSettings, 'Abrir configuración');
+  });
+
+  test('uses separate Chinese catalogs and defaults generic zh to zh', () {
+    expect(AppLocalizations.languageCodeForLocale(const Locale('zh')), 'zh');
+    expect(
+      AppLocalizations.languageCodeForLocale(const Locale('zh', 'CN')),
+      'zh',
+    );
+    expect(
+      AppLocalizations.languageCodeForLocale(const Locale('zh', 'TW')),
+      'zh-TW',
+    );
+    expect(
+      AppLocalizations.languageCodeForLocale(const Locale('zh', 'HK')),
+      'zh-TW',
+    );
+    expect(
+      AppLocalizations.languageCodeForLocale(const Locale('zh', 'MO')),
+      'zh-TW',
+    );
+
+    expect(AppLocalizations.localeForCode('zh'), const Locale('zh'));
+    expect(AppLocalizations.localeForCode('zh-CN'), const Locale('zh'));
+    expect(AppLocalizations.localeForCode('zh-TW'), const Locale('zh', 'TW'));
+    expect(AppLocalizations.localeForCode('zh-HK'), const Locale('zh', 'TW'));
+
+    final simplified = AppLocalizations(AppLocalizations.localeForCode('zh'));
+    final traditional = AppLocalizations(
+      AppLocalizations.localeForCode('zh-TW'),
+    );
+    expect(simplified.openSettings, '打开设置');
+    expect(traditional.openSettings, '開啟設定');
   });
 
   test('device locale fallback is always an available language code', () {

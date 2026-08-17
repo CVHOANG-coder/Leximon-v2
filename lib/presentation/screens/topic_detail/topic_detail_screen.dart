@@ -12,7 +12,6 @@ import '../../../data/services/topic_progress_service.dart';
 import '../../../data/services/topic_repetition_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../data/models/sentence_exercise.dart';
-import '../../../data/models/sentence_asset_index.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../../widgets/leximon_widgets.dart';
 import '../repetition_practice/repetition_practice_screen.dart';
@@ -49,10 +48,8 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
         TopicProgressDetails.empty(topic.wordCount);
     final repetitionData = ref.watch(topicRepetitionDataProvider(topic.id));
     final progressByWordId = ref.watch(wordProgressProvider).valueOrNull;
-    final languageCode = ref.watch(selectedAppLanguageProvider);
     final sentenceWordIds =
-        ref.watch(sentenceAssetWordIdsProvider).valueOrNull ??
-        (languageCode == 'vi' ? sentenceAssetWordIds : const <int>{});
+        ref.watch(sentenceAssetWordIdsProvider).valueOrNull ?? const <int>{};
     return Scaffold(
       backgroundColor: AppColors.background,
       body: Stack(

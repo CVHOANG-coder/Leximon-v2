@@ -55,4 +55,54 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('App ready'), findsOneWidget);
   });
+
+  testWidgets('stays on splash after initialization fails and retries', (
+    tester,
+  ) async {
+    var initializationAttempts = 0;
+    final router = GoRouter(
+      initialLocation: '/splash',
+      routes: [
+        GoRoute(
+          path: '/splash',
+          builder: (context, state) => const SplashScreen(),
+        ),
+        GoRoute(
+          path: '/',
+          builder: (context, state) => const Scaffold(body: Text('App ready')),
+        ),
+      ],
+    );
+    addTearDown(router.dispose);
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          applicationInitializationProvider.overrideWith((ref) async {
+            initializationAttempts++;
+            if (initializationAttempts == 1) {
+              throw StateError('Authentication failed');
+            }
+            return AppStartupDestination.home;
+          }),
+        ],
+        child: MaterialApp.router(routerConfig: router),
+      ),
+    );
+
+    await tester.pump(const Duration(milliseconds: 800));
+    await tester.pump();
+
+    expect(initializationAttempts, 1);
+    expect(find.byType(SplashScreen), findsOneWidget);
+    expect(find.text('App ready'), findsNothing);
+    expect(find.text('Thử lại'), findsOneWidget);
+
+    await tester.tap(find.text('Thử lại'));
+    await tester.pump(const Duration(milliseconds: 800));
+    await tester.pumpAndSettle();
+
+    expect(initializationAttempts, 2);
+    expect(find.text('App ready'), findsOneWidget);
+  });
 }

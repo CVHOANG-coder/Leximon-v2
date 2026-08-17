@@ -141,8 +141,11 @@ void main() {
     expect(profile.data.userCode, 'Z16EBPRIXAYE1BST');
     expect(profile.data.language, 'vi');
     expect(profile.data.appVersion, '1.0.0');
+    expect(profile.data.databaseVersion, 0);
     expect(profile.data.notificationEnabled, isTrue);
     expect(profile.data.subscription, isNull);
+    expect(profile.data.ownedProducts, isEmpty);
+    expect(profile.data.ownedProductIds, isEmpty);
     expect(requests[1].method, 'GET');
     expect(requests[1].url.path, '/users/profile');
     expect(requests[1].headers['authorization'], 'Bearer test-token');
@@ -305,8 +308,11 @@ const profileResponseJson = '''
     "createdAt": "2026-08-16T08:33:26.163Z",
     "language": "vi",
     "appVersion": "1.0.0",
+    "databaseVersion": 0,
     "notificationEnabled": true,
-    "subscription": null
+    "subscription": null,
+    "ownedProducts": [],
+    "ownedProductIds": []
   }
 }
 ''';
