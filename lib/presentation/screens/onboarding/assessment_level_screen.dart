@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/onboarding_vocabulary_test.dart';
 
 class AssessmentLevelScreen extends StatefulWidget {
@@ -134,7 +135,7 @@ class _AssessmentLevelHeader extends StatelessWidget {
             left: 18,
             top: 14,
             child: Semantics(
-              label: 'Quay lại',
+              label: context.l10n.back,
               button: true,
               child: Material(
                 color: Colors.transparent,
@@ -167,14 +168,12 @@ class _AssessmentLevelHeader extends StatelessWidget {
               ),
             ),
           ),
-          const Positioned(
+          Positioned(
             left: 30,
             top: 64,
             child: Text(
-              'Đánh giá trình độ\n'
-              'tiếng Anh hiện tại\n'
-              'của bạn',
-              style: TextStyle(
+              context.l10n.text('assessmentLevelTitle'),
+              style: const TextStyle(
                 color: Colors.white,
                 fontSize: 24,
                 height: 1.12,
@@ -187,8 +186,7 @@ class _AssessmentLevelHeader extends StatelessWidget {
             left: 30,
             top: 150,
             child: Text(
-              'Chọn cấp độ phù hợp để chúng tôi\n'
-              'xây dựng lộ trình học tốt nhất cho bạn.',
+              context.l10n.text('assessmentLevelSubtitle'),
               style: TextStyle(
                 color: Colors.white.withValues(alpha: 0.82),
                 fontSize: 12.5,
@@ -226,33 +224,24 @@ class _AssessmentLevelPanel extends StatelessWidget {
   final int? selectedOption;
   final ValueChanged<int> onSelected;
 
-  static const _options = [
+  List<_AssessmentOptionData> _options(BuildContext context) => [
     _AssessmentOptionData(
-      text: 'Vừa mới bắt đầu học,\ntôi chưa biết gì cả',
+      text: context.l10n.text('assessmentLevelNew'),
       imageAsset: 'assets/images/onboarding/scooter.png',
       startingBand: VocabularyStartingBand.beginner,
     ),
     _AssessmentOptionData(
-      text:
-          'Tôi biết một chút ngữ pháp\n'
-          'cơ bản và có thể nói được các\n'
-          'từ cũng như cụm từ đơn giản',
+      text: context.l10n.text('assessmentLevelBasic'),
       imageAsset: 'assets/images/onboarding/bike.png',
       startingBand: VocabularyStartingBand.beginner,
     ),
     _AssessmentOptionData(
-      text:
-          'Tôi có thể trò chuyện nhưng\n'
-          'còn mắc lỗi và hay\n'
-          'ngập ngừng',
+      text: context.l10n.text('assessmentLevelConversational'),
       imageAsset: 'assets/images/onboarding/car.png',
       startingBand: VocabularyStartingBand.intermediate,
     ),
     _AssessmentOptionData(
-      text:
-          'Tôi nói trôi chảy, đọc sách\n'
-          'và xem phim bằng\n'
-          'tiếng Anh',
+      text: context.l10n.text('assessmentLevelFluent'),
       imageAsset: 'assets/images/onboarding/rocket.png',
       startingBand: VocabularyStartingBand.advanced,
     ),
@@ -260,6 +249,7 @@ class _AssessmentLevelPanel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final options = _options(context);
     return Container(
       width: double.infinity,
       decoration: const BoxDecoration(
@@ -293,17 +283,17 @@ class _AssessmentLevelPanel extends StatelessWidget {
               child: IntrinsicHeight(
                 child: Column(
                   children: [
-                    for (var index = 0; index < _options.length; index++) ...[
+                    for (var index = 0; index < options.length; index++) ...[
                       _AnimatedAssessmentOptionCard(
                         animation: entranceAnimation,
                         index: index,
-                        option: _options[index],
+                        option: options[index],
                         selected: selectedOption == index,
                         compact: compact,
                         height: cardHeight,
                         onTap: () => onSelected(index),
                       ),
-                      if (index != _options.length - 1)
+                      if (index != options.length - 1)
                         const SizedBox(height: 10),
                     ],
                     const Spacer(),
@@ -337,13 +327,13 @@ class _AssessmentLevelPanel extends StatelessWidget {
                                 : () => context.push(
                                     '/onboarding/assessment-intro/'
                                     'vocabulary-test?band='
-                                    '${_options[selectedOption!].startingBand.queryValue}',
+                                    '${options[selectedOption!].startingBand.queryValue}',
                                   ),
                             borderRadius: BorderRadius.circular(19),
-                            child: const Center(
+                            child: Center(
                               child: Text(
-                                'Bắt đầu bài kiểm tra',
-                                style: TextStyle(
+                                context.l10n.text('assessmentLevelStart'),
+                                style: const TextStyle(
                                   color: Colors.white,
                                   fontSize: 18,
                                   fontWeight: FontWeight.w700,

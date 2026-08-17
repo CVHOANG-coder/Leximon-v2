@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
+
 class LevelAssessmentIntroScreen extends StatefulWidget {
   const LevelAssessmentIntroScreen({super.key});
 
@@ -126,7 +128,7 @@ class _LevelAssessmentIntroScreenState extends State<LevelAssessmentIntroScreen>
                             fontWeight: FontWeight.w500,
                           ),
                         ),
-                        child: const Text('Tôi biết trình độ của mình'),
+                        child: Text(context.l10n.assessmentSkip),
                       ),
                     ),
                   ),
@@ -153,7 +155,7 @@ class _AssessmentHeader extends StatelessWidget {
             left: 18,
             top: 16,
             child: Semantics(
-              label: 'Quay lại',
+              label: context.l10n.back,
               button: true,
               child: InkWell(
                 onTap: () {
@@ -183,12 +185,12 @@ class _AssessmentHeader extends StatelessWidget {
               ),
             ),
           ),
-          const Positioned(
+          Positioned(
             left: 45,
             // right: 135,
             top: 70,
             child: Text(
-              'Làm bài kiểm tra ngắn',
+              context.l10n.assessmentTitle,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white,
@@ -204,8 +206,7 @@ class _AssessmentHeader extends StatelessWidget {
             // right: 125,
             top: 100,
             child: Text(
-              'Chúng tôi sẽ đánh giá trình độ để\n'
-              'xây dựng lộ trình học phù hợp với bạn.',
+              context.l10n.assessmentSubtitle,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white.withValues(alpha: 0.78),
@@ -355,8 +356,8 @@ class _AssessmentPanel extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 12),
-                    const Text(
-                      'Làm bài kiểm tra ngắn',
+                    Text(
+                      context.l10n.assessmentTitle,
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Color(0xFF061D4C),
@@ -411,8 +412,8 @@ class _AssessmentPanel extends StatelessWidget {
                                         color: Colors.white,
                                       ),
                                     )
-                                  : const Text(
-                                      'Làm bài kiểm tra',
+                                  : Text(
+                                      context.l10n.assessmentStart,
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 16,
@@ -439,17 +440,16 @@ class _AssessmentPanel extends StatelessWidget {
 class _AssessmentBenefits extends StatelessWidget {
   const _AssessmentBenefits();
 
-  static const _benefits = [
-    'Bạn sẽ biết được trình độ của mình',
-    'Kiểm tra vốn từ vựng của bạn',
-    'Ứng dụng sẽ phù hợp với trình độ của bạn',
-  ];
-
   @override
   Widget build(BuildContext context) {
+    final benefits = [
+      context.l10n.assessmentBenefitLevel,
+      context.l10n.assessmentBenefitVocabulary,
+      context.l10n.assessmentBenefitAdapt,
+    ];
     return Column(
       children: [
-        for (final benefit in _benefits)
+        for (final benefit in benefits)
           Padding(
             padding: const EdgeInsets.fromLTRB(24, 4, 24, 12),
             child: Row(

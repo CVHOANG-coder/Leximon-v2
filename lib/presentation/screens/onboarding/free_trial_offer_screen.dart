@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
+
 class FreeTrialOfferScreen extends StatefulWidget {
   const FreeTrialOfferScreen({super.key});
 
@@ -136,13 +138,13 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                           opacity: _copyOpacity,
                           child: SlideTransition(
                             position: _copySlide,
-                            child: const Column(
-                              key: ValueKey('free-trial-copy'),
+                            child: Column(
+                              key: const ValueKey('free-trial-copy'),
                               children: [
                                 Text(
-                                  'Chúng tôi tặng bạn',
+                                  context.l10n.text('freeTrialGift'),
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     color: Colors.white,
                                     fontSize: 24,
                                     height: 1.15,
@@ -159,9 +161,9 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                 ),
                                 SizedBox(height: 5),
                                 Text(
-                                  '7 ngày miễn phí',
+                                  context.l10n.text('freeTrialDuration'),
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     color: Colors.white,
                                     fontSize: 35,
                                     height: 1.05,
@@ -182,9 +184,9 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                 ),
                                 SizedBox(height: 7),
                                 Text(
-                                  'để dùng thử ứng dụng của chúng tôi',
+                                  context.l10n.text('freeTrialPurpose'),
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     color: Colors.white,
                                     fontSize: 20,
                                     height: 1.2,
@@ -201,9 +203,9 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
                                 ),
                                 SizedBox(height: 22),
                                 Text(
-                                  'Không cần thanh toán ngay',
+                                  context.l10n.text('freeTrialNoPayment'),
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     color: Color(0xFF9EBEFF),
                                     fontSize: 16.5,
                                     height: 1.2,
@@ -286,9 +288,9 @@ class _FreeTrialButton extends StatelessWidget {
                         strokeWidth: 2.5,
                       ),
                     )
-                  : const Text(
-                      'Dùng thử miễn phí',
-                      style: TextStyle(
+                  : Text(
+                      context.l10n.text('freeTrialStart'),
+                      style: const TextStyle(
                         color: Color(0xFF155BF3),
                         fontSize: 21,
                         fontWeight: FontWeight.w800,

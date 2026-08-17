@@ -1,10 +1,12 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
+import 'core/localization/app_localizations.dart';
 import 'data/services/app_usage_service.dart';
 import 'data/models/onboarding_vocabulary_test.dart';
 import 'presentation/screens/main/main_screen.dart';
@@ -87,6 +89,16 @@ class LeximonApp extends ConsumerWidget {
         title: 'Leximon',
         debugShowCheckedModeBanner: false,
         theme: buildAppTheme(),
+        locale: AppLocalizations.localeForCode(
+          ref.watch(selectedAppLanguageProvider),
+        ),
+        supportedLocales: AppLocalizations.supportedLocales,
+        localizationsDelegates: const [
+          AppLocalizations.delegate,
+          GlobalMaterialLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+        ],
         routerConfig: _router,
       ),
     );

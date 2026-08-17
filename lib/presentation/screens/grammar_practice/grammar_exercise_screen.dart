@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:just_audio/just_audio.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/grammar_content.dart';
 import '../../../data/services/grammar_progress_service.dart';
 import '../../../data/services/grammar_question_engine.dart';
@@ -33,7 +34,8 @@ class GrammarExerciseScreen extends ConsumerStatefulWidget {
 }
 
 class _GrammarExerciseScreenState extends ConsumerState<GrammarExerciseScreen> {
-  final _engine = const GrammarQuestionEngine();
+  GrammarQuestionEngine get _engine =>
+      GrammarQuestionEngine(localizations: context.l10n);
   late final GrammarProgressService _progressService;
   late final Future<List<GrammarQuestionContent>> _questionsFuture;
   List<GrammarQuestionViewData> _questions = const [];
@@ -289,7 +291,7 @@ class _GrammarExerciseScreenState extends ConsumerState<GrammarExerciseScreen> {
       if (!mounted) return;
       setState(() => _isSaving = false);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Chưa thể lưu đáp án. Hãy thử lại.')),
+        SnackBar(content: Text(context.l10n.text('grammarAnswerSaveError'))),
       );
     }
   }
@@ -333,18 +335,16 @@ class _GrammarExerciseScreenState extends ConsumerState<GrammarExerciseScreen> {
     final shouldExit = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Rời bài luyện?'),
-        content: const Text(
-          'Các câu đã kiểm tra đã được lưu. Bạn có thể tiếp tục từ câu đang dở sau.',
-        ),
+        title: Text(context.l10n.text('grammarLeaveTitle')),
+        content: Text(context.l10n.text('grammarLeaveBody')),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Ở lại'),
+            child: Text(context.l10n.text('grammarStay')),
           ),
           FilledButton(
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Rời bài'),
+            child: Text(context.l10n.text('grammarLeave')),
           ),
         ],
       ),
@@ -375,10 +375,23 @@ class _GrammarExerciseScreenState extends ConsumerState<GrammarExerciseScreen> {
     final wrongCount = draft.selections.difference(correct).length;
     final missingCount = correct.difference(draft.selections).length;
     if (wrongCount > 0 && missingCount > 0) {
-      return '$wrongCount từ chọn sai • thiếu $missingCount đáp án';
+      return context.l10n.text(
+        'grammarWrongAndMissing',
+        values: {'wrong': '$wrongCount', 'missing': '$missingCount'},
+      );
     }
-    if (wrongCount > 0) return 'Bạn đã chọn sai $wrongCount từ';
-    if (missingCount > 0) return 'Bạn chọn thiếu $missingCount đáp án';
+    if (wrongCount > 0) {
+      return context.l10n.text(
+        'grammarWrongCount',
+        values: {'count': '$wrongCount'},
+      );
+    }
+    if (missingCount > 0) {
+      return context.l10n.text(
+        'grammarMissingCount',
+        values: {'count': '$missingCount'},
+      );
+    }
     return null;
   }
 }
@@ -677,7 +690,9 @@ class _RewriteQuestionBody extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const _RewriteSectionLabel(label: 'CÂU GỐC'),
+        _RewriteSectionLabel(
+          label: context.l10n.text('grammarOriginalSentence'),
+        ),
         const SizedBox(height: 8),
         _RewriteSentenceRow(marker: 'A', text: sentenceA),
         const SizedBox(height: 15),
@@ -707,9 +722,9 @@ class _RewriteQuestionBody extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 9),
-              const Text(
-                'Từ bắt buộc',
-                style: TextStyle(
+              Text(
+                context.l10n.text('grammarRequiredWord'),
+                style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 10,
                   fontWeight: FontWeight.w700,
@@ -743,7 +758,9 @@ class _RewriteQuestionBody extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 15),
-        const _RewriteSectionLabel(label: 'VIẾT LẠI CÂU'),
+        _RewriteSectionLabel(
+          label: context.l10n.text('grammarRewriteSentence'),
+        ),
         const SizedBox(height: 8),
         Row(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -1039,14 +1056,17 @@ class _GrammarAssetImage extends StatelessWidget {
           color: const Color(0xFFF0F5FB),
           borderRadius: BorderRadius.circular(16),
         ),
-        child: const Column(
+        child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Icon(Icons.broken_image_outlined, color: AppColors.textSecondary),
-            SizedBox(height: 5),
+            const Icon(
+              Icons.broken_image_outlined,
+              color: AppColors.textSecondary,
+            ),
+            const SizedBox(height: 5),
             Text(
-              'Không thể tải ảnh',
-              style: TextStyle(
+              context.l10n.text('grammarImageLoadError'),
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 10,
                 fontWeight: FontWeight.w600,
@@ -1107,7 +1127,7 @@ class _GrammarAssetAudioButtonState extends State<_GrammarAssetAudioButton> {
     } catch (_) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Không thể phát audio lúc này.')),
+        SnackBar(content: Text(context.l10n.text('grammarAudioError'))),
       );
     } finally {
       if (mounted) setState(() => _isLoading = false);
@@ -1140,7 +1160,9 @@ class _GrammarAssetAudioButtonState extends State<_GrammarAssetAudioButton> {
                 ),
               const SizedBox(width: 8),
               Text(
-                _isPlaying ? 'Đang phát' : 'Nghe audio',
+                context.l10n.text(
+                  _isPlaying ? 'grammarAudioPlaying' : 'grammarListenAudio',
+                ),
                 style: const TextStyle(fontWeight: FontWeight.w700),
               ),
             ],
@@ -1662,9 +1684,9 @@ class _MatchPairCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'VẾ CẦN GHÉP',
-                      style: TextStyle(
+                    Text(
+                      context.l10n.text('grammarClauseToMatch'),
+                      style: const TextStyle(
                         color: AppColors.textSecondary,
                         fontSize: 9,
                         fontWeight: FontWeight.w800,
@@ -1748,7 +1770,8 @@ class _MatchPairCard extends StatelessWidget {
                     const SizedBox(width: 10),
                     Expanded(
                       child: Text(
-                        selectedAnswer ?? 'Chọn nội dung phù hợp',
+                        selectedAnswer ??
+                            context.l10n.text('grammarChooseMatchingContent'),
                         style: TextStyle(
                           color: hasAnswer
                               ? AppColors.primaryDark
@@ -1786,9 +1809,10 @@ class _MatchPairCard extends StatelessWidget {
               child: Text.rich(
                 TextSpan(
                   children: [
-                    const TextSpan(
-                      text: 'Đáp án đúng: ',
-                      style: TextStyle(fontWeight: FontWeight.w700),
+                    TextSpan(
+                      text:
+                          '${context.l10n.text('grammarCorrectAnswerPrefix')} ',
+                      style: const TextStyle(fontWeight: FontWeight.w700),
                     ),
                     TextSpan(
                       text: correctAnswer,
@@ -1847,9 +1871,9 @@ Future<int?> _showMatchOptionsSheet(
               ),
             ),
             const SizedBox(height: 16),
-            const Text(
-              'CHỌN VẾ PHÙ HỢP',
-              style: TextStyle(
+            Text(
+              context.l10n.text('grammarChooseMatchingClause'),
+              style: const TextStyle(
                 color: AppColors.primary,
                 fontSize: 10,
                 fontWeight: FontWeight.w800,
@@ -1945,7 +1969,10 @@ Future<int?> _showMatchOptionsSheet(
                                   borderRadius: BorderRadius.circular(99),
                                 ),
                                 child: Text(
-                                  'Cặp ${usedAt + 1}',
+                                  context.l10n.text(
+                                    'grammarPairNumber',
+                                    values: {'number': '${usedAt + 1}'},
+                                  ),
                                   style: const TextStyle(
                                     color: AppColors.textSecondary,
                                     fontSize: 9,
@@ -2151,7 +2178,7 @@ class _LabellingWordChip extends StatelessWidget {
                     borderRadius: BorderRadius.circular(99),
                   ),
                   child: Text(
-                    'Thiếu',
+                    context.l10n.text('grammarMissing'),
                     style: TextStyle(
                       color: accent,
                       fontSize: 9,
@@ -2315,7 +2342,11 @@ class _ExerciseFooter extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        isCorrect ? 'Chính xác!' : 'Chưa chính xác',
+                        context.l10n.text(
+                          isCorrect
+                              ? 'grammarCorrectFeedback'
+                              : 'grammarIncorrectFeedback',
+                        ),
                         style: TextStyle(
                           color: feedbackColor,
                           fontSize: 16,
@@ -2365,11 +2396,13 @@ class _ExerciseFooter extends StatelessWidget {
                     ),
                   )
                 : Text(
-                    isResolved
-                        ? isLast
-                              ? 'Xem kết quả'
-                              : 'Tiếp tục'
-                        : 'Kiểm tra',
+                    context.l10n.text(
+                      isResolved
+                          ? isLast
+                                ? 'grammarViewResult'
+                                : 'continue'
+                          : 'check',
+                    ),
                     style: const TextStyle(
                       fontSize: 13,
                       fontWeight: FontWeight.w800,
@@ -2407,9 +2440,9 @@ class _CorrectAnswerCard extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  'Đáp án đúng',
-                  style: TextStyle(
+                Text(
+                  context.l10n.text('correctAnswer'),
+                  style: const TextStyle(
                     color: AppColors.green,
                     fontSize: 12,
                     fontWeight: FontWeight.w800,
@@ -2497,10 +2530,10 @@ class GrammarTopicResultScreen extends ConsumerWidget {
                                 fit: BoxFit.contain,
                               ),
                               const SizedBox(height: 12),
-                              const Text(
-                                'Hoàn thành bài luyện!',
+                              Text(
+                                context.l10n.text('grammarPracticeComplete'),
                                 textAlign: TextAlign.center,
-                                style: TextStyle(
+                                style: const TextStyle(
                                   color: AppColors.primaryDark,
                                   fontSize: 26,
                                   height: 1.08,
@@ -2527,7 +2560,9 @@ class GrammarTopicResultScreen extends ConsumerWidget {
                                         'grammar-result-progress-card',
                                       ),
                                       icon: Icons.trending_up_rounded,
-                                      label: 'Tiến độ',
+                                      label: context.l10n.text(
+                                        'grammarProgressStat',
+                                      ),
                                       value: '$progress%',
                                       color: AppColors.primary,
                                     ),
@@ -2539,7 +2574,9 @@ class GrammarTopicResultScreen extends ConsumerWidget {
                                         'grammar-result-accuracy-card',
                                       ),
                                       icon: Icons.track_changes_rounded,
-                                      label: 'Chính xác',
+                                      label: context.l10n.text(
+                                        'grammarAccuracyStat',
+                                      ),
                                       value: '$accuracy%',
                                       color: AppColors.green,
                                     ),
@@ -2632,23 +2669,29 @@ class _ResultQuestionMap extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Row(
+          Row(
             children: [
-              _ResultHeaderIcon(icon: Icons.assignment_outlined),
-              SizedBox(width: 10),
+              const _ResultHeaderIcon(icon: Icons.assignment_outlined),
+              const SizedBox(width: 10),
               Expanded(
                 child: Text(
-                  'Tổng quan câu trả lời',
-                  style: TextStyle(
+                  context.l10n.text('grammarAnswerOverview'),
+                  style: const TextStyle(
                     color: AppColors.primaryDark,
                     fontSize: 15,
                     fontWeight: FontWeight.w800,
                   ),
                 ),
               ),
-              _ResultMapLegend(color: AppColors.green, label: 'Đúng'),
-              SizedBox(width: 8),
-              _ResultMapLegend(color: Color(0xFFFF5F66), label: 'Sai'),
+              _ResultMapLegend(
+                color: AppColors.green,
+                label: context.l10n.text('correct'),
+              ),
+              const SizedBox(width: 8),
+              _ResultMapLegend(
+                color: const Color(0xFFFF5F66),
+                label: context.l10n.text('incorrect'),
+              ),
             ],
           ),
           const SizedBox(height: 16),
@@ -2744,11 +2787,14 @@ class _ResultQuestionDot extends StatelessWidget {
         ? AppColors.green
         : const Color(0xFFFF5F66);
     return Semantics(
-      label: response == null
-          ? 'Câu $number, chưa làm'
-          : response!.isCorrect
-          ? 'Câu $number, đúng'
-          : 'Câu $number, sai',
+      label: context.l10n.text(
+        response == null
+            ? 'grammarQuestionUnansweredSemantics'
+            : response!.isCorrect
+            ? 'grammarQuestionCorrectSemantics'
+            : 'grammarQuestionWrongSemantics',
+        values: {'number': '$number'},
+      ),
       child: Container(
         width: 42,
         height: 42,
@@ -2790,24 +2836,24 @@ class _ResultReviewHeader extends StatelessWidget {
       children: [
         const _ResultHeaderIcon(icon: Icons.format_list_bulleted_rounded),
         const SizedBox(width: 10),
-        const Expanded(
+        Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Chi tiết câu trả lời',
-                style: TextStyle(
+                context.l10n.text('grammarAnswerDetails'),
+                style: const TextStyle(
                   color: AppColors.primaryDark,
                   fontSize: 17,
                   fontWeight: FontWeight.w800,
                 ),
               ),
-              SizedBox(height: 3),
+              const SizedBox(height: 3),
               Text(
-                'Xem lại câu đúng và câu cần ôn thêm',
+                context.l10n.text('grammarAnswerDetailsBody'),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
-                style: TextStyle(
+                style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 9,
                   fontWeight: FontWeight.w500,
@@ -2884,7 +2930,7 @@ class _ResultQuestionCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const engine = GrammarQuestionEngine();
+    final engine = GrammarQuestionEngine(localizations: context.l10n);
     final viewData = GrammarQuestionViewData.fromContent(question);
     final isAnswered = question.savedResponse != null;
     final isCorrect = question.savedResponse?.isCorrect == true;
@@ -2939,7 +2985,10 @@ class _ResultQuestionCard extends StatelessWidget {
                 Row(
                   children: [
                     Text(
-                      'Câu $number',
+                      context.l10n.text(
+                        'grammarQuestionNumber',
+                        values: {'number': '$number'},
+                      ),
                       style: const TextStyle(
                         color: AppColors.textSecondary,
                         fontSize: 11,
@@ -2948,11 +2997,13 @@ class _ResultQuestionCard extends StatelessWidget {
                     ),
                     const Spacer(),
                     Text(
-                      !isAnswered
-                          ? 'Chưa làm'
-                          : isCorrect
-                          ? 'Đúng'
-                          : 'Sai',
+                      context.l10n.text(
+                        !isAnswered
+                            ? 'grammarUnanswered'
+                            : isCorrect
+                            ? 'correct'
+                            : 'incorrect',
+                      ),
                       style: TextStyle(
                         color: color,
                         fontSize: 11,
@@ -2963,7 +3014,7 @@ class _ResultQuestionCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  _resultQuestionSummary(viewData),
+                  _resultQuestionSummary(context, viewData),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -2976,7 +3027,10 @@ class _ResultQuestionCard extends StatelessWidget {
                 if (!isCorrect && correctAnswers.isNotEmpty) ...[
                   const SizedBox(height: 7),
                   Text(
-                    'Đáp án đúng: ${correctAnswers.join(' • ')}',
+                    context.l10n.text(
+                      'grammarCorrectAnswers',
+                      values: {'answers': correctAnswers.join(' • ')},
+                    ),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                     style: const TextStyle(
@@ -2996,7 +3050,10 @@ class _ResultQuestionCard extends StatelessWidget {
   }
 }
 
-String _resultQuestionSummary(GrammarQuestionViewData question) {
+String _resultQuestionSummary(
+  BuildContext context,
+  GrammarQuestionViewData question,
+) {
   final elements = question.answerBody;
   final content = elements
       .where(
@@ -3017,10 +3074,13 @@ String _resultQuestionSummary(GrammarQuestionViewData question) {
   }
   if (question.instruction.isNotEmpty) return question.instruction;
   return switch (question.type) {
-    'MCQ' => 'Chọn đáp án đúng',
-    'MATCHSORT' => 'Ghép các nội dung tương ứng',
-    'GROUPING' => 'Phân loại các từ vào nhóm đúng',
-    _ => 'Bài tập ${question.type}',
+    'MCQ' => context.l10n.text('grammarMcqInstruction'),
+    'MATCHSORT' => context.l10n.text('grammarMatchSortInstruction'),
+    'GROUPING' => context.l10n.text('grammarGroupingInstruction'),
+    _ => context.l10n.text(
+      'grammarExerciseTypeFallback',
+      values: {'type': question.type},
+    ),
   };
 }
 
@@ -3199,14 +3259,14 @@ class _ResultBottomButton extends StatelessWidget {
       child: InkWell(
         key: const ValueKey('grammar-result-back-button'),
         onTap: onPressed,
-        child: const Row(
+        child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Icon(Icons.arrow_back_rounded, color: Colors.white, size: 23),
-            SizedBox(width: 11),
+            const Icon(Icons.arrow_back_rounded, color: Colors.white, size: 23),
+            const SizedBox(width: 11),
             Text(
-              'Về danh sách bài học',
-              style: TextStyle(
+              context.l10n.text('grammarBackToLessons'),
+              style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14,
                 fontWeight: FontWeight.w800,

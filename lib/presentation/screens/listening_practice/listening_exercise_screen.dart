@@ -8,6 +8,7 @@ import 'package:just_audio/just_audio.dart' hide PlayerState;
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/datasources/listening_asset_data_source.dart';
 import '../../../data/models/listening_exercise.dart';
 import '../../../data/services/listening_answer_checker.dart';
@@ -818,7 +819,7 @@ class _ListeningExerciseScreenState
       ScaffoldMessenger.of(context)
         ..hideCurrentSnackBar()
         ..showSnackBar(
-          const SnackBar(content: Text('Không thể phát audio lúc này.')),
+          SnackBar(content: Text(context.l10n.text('audioPlaybackError'))),
         );
     }
   }
@@ -835,7 +836,7 @@ class _ListeningExerciseScreenState
       ScaffoldMessenger.of(context)
         ..hideCurrentSnackBar()
         ..showSnackBar(
-          const SnackBar(content: Text('Không thể phát audio lúc này.')),
+          SnackBar(content: Text(context.l10n.text('audioPlaybackError'))),
         );
     }
   }
@@ -1046,9 +1047,12 @@ class _ListeningExerciseScreenState
                 ),
               ),
               const SizedBox(height: 18),
-              const Text(
-                'Tốc độ phát',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+              Text(
+                context.l10n.text('audioPlaybackRate'),
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w800,
+                ),
               ),
               const SizedBox(height: 12),
               Wrap(
@@ -1134,9 +1138,9 @@ class _YoutubeExerciseHeader extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 2),
-              const Text(
-                'Nghe và gõ',
-                style: TextStyle(
+              Text(
+                context.l10n.text('listenAndType'),
+                style: const TextStyle(
                   color: AppColors.primaryDark,
                   fontSize: 27,
                   height: 1.05,
@@ -1326,21 +1330,21 @@ class _YoutubePrompt extends StatelessWidget {
         child: Image.asset('assets/images/practice_listen/owl_listener.png'),
       ),
       const SizedBox(width: 12),
-      const Expanded(
+      Expanded(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Gõ lại câu bạn nghe được',
-              style: TextStyle(
+              context.l10n.text('listeningTypePrompt'),
+              style: const TextStyle(
                 color: AppColors.primaryDark,
                 fontSize: 15,
                 fontWeight: FontWeight.w700,
               ),
             ),
             Text(
-              'Nghe kỹ và gõ lại chính xác câu bạn nghe được nhé!',
-              style: TextStyle(
+              context.l10n.text('listeningTypeSubtitle'),
+              style: const TextStyle(
                 color: Color(0xFF6277A1),
                 fontSize: 11,
                 fontWeight: FontWeight.w500,
@@ -1434,14 +1438,14 @@ class _YoutubeListenTools extends StatelessWidget {
       ),
       const SizedBox(width: 8),
       _YoutubeToolButton(
-        label: 'Nghe lại',
+        label: context.l10n.text('listenAgain'),
         icon: Icons.replay_rounded,
         onTap: onReplay,
       ),
       const Spacer(),
       Flexible(
         child: _YoutubeToolButton(
-          label: 'Nghe cả câu, không cần từng từ',
+          label: context.l10n.text('listenFullSentence'),
           icon: Icons.lightbulb_outline_rounded,
           onTap: onWholeSentence,
           filled: true,
@@ -1527,7 +1531,7 @@ class _YoutubeExerciseActions extends StatelessWidget {
         flex: 9,
         child: _YoutubeActionButton(
           key: const ValueKey('youtube-leading-action'),
-          label: isResolved ? 'Làm lại' : 'Bỏ qua',
+          label: context.l10n.text(isResolved ? 'redo' : 'skip'),
           onTap: onLeading,
         ),
       ),
@@ -1536,7 +1540,7 @@ class _YoutubeExerciseActions extends StatelessWidget {
         flex: 11,
         child: _YoutubeActionButton(
           key: const ValueKey('youtube-replay-action'),
-          label: 'Nghe lại',
+          label: context.l10n.text('listenAgain'),
           icon: Icons.replay_rounded,
           onTap: onReplay,
         ),
@@ -1546,7 +1550,7 @@ class _YoutubeExerciseActions extends StatelessWidget {
         flex: 11,
         child: _YoutubeActionButton(
           key: const ValueKey('youtube-primary-action'),
-          label: isResolved ? 'Tiếp theo' : 'Kiểm tra',
+          label: context.l10n.text(isResolved ? 'next' : 'check'),
           onTap: onPrimary,
           primary: true,
           success: isCorrect,
@@ -2925,13 +2929,13 @@ class _ExerciseLoadError extends StatelessWidget {
             color: AppColors.textMuted,
           ),
           const SizedBox(height: 14),
-          const Text(
-            'Không thể mở bài luyện nghe này.',
+          Text(
+            context.l10n.text('listeningExerciseOpenError'),
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
+            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
           ),
           const SizedBox(height: 16),
-          FilledButton(onPressed: onBack, child: const Text('Quay lại')),
+          FilledButton(onPressed: onBack, child: Text(context.l10n.back)),
         ],
       ),
     ),

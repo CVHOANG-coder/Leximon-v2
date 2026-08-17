@@ -6,6 +6,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/practice_exercise.dart';
@@ -25,7 +26,7 @@ class ReviewPracticeScreen extends StatefulWidget {
     this.pronouncingEnabled = true,
     this.initialQuestionIndex = 0,
     this.showIntroOnStart = true,
-    this.title = 'Thực hành',
+    this.title,
     this.kicker = 'SELECTED REVIEW',
     this.exerciseMasksByWordId = const {},
     this.database,
@@ -41,7 +42,7 @@ class ReviewPracticeScreen extends StatefulWidget {
   final bool pronouncingEnabled;
   final int initialQuestionIndex;
   final bool showIntroOnStart;
-  final String title;
+  final String? title;
   final String kicker;
   final Map<int, int> exerciseMasksByWordId;
   final AppDatabase? database;
@@ -100,12 +101,16 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
   String get _typingTarget => _normalizeTypingWord(_question.word.writing);
 
   String get _progressLabel {
-    if (_showIntro) return 'Bước khởi động';
-    if (_isListeningChoice) return 'Bài nghe chọn âm thanh';
-    if (_isFourListeningChoice) return 'Câu hỏi nghe hiểu';
-    if (_isTypingChoice) return 'Bài ghép chữ';
-    if (_isSpeakingChoice) return 'Câu hỏi phát âm';
-    return 'Câu hỏi dịch nghĩa';
+    if (_showIntro) return context.l10n.text('reviewWarmupStep');
+    if (_isListeningChoice) {
+      return context.l10n.text('reviewListeningSoundStep');
+    }
+    if (_isFourListeningChoice) {
+      return context.l10n.text('reviewListeningQuestionStep');
+    }
+    if (_isTypingChoice) return context.l10n.text('reviewTypingStep');
+    if (_isSpeakingChoice) return context.l10n.text('reviewSpeakingStep');
+    return context.l10n.text('reviewTranslationStep');
   }
 
   @override
@@ -467,8 +472,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
     if (!available) {
       if (mounted) {
         setState(() {
-          _speakingError =
-              'Không thể truy cập microphone hoặc nhận dạng giọng nói.';
+          _speakingError = context.l10n.text('reviewSpeechAccessError');
         });
         // Permission/device failure makes the remaining speaking block
         // unavailable for this session. It must not become a knowledge error.
@@ -501,7 +505,7 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       if (mounted) {
         setState(() {
           _isSpeakingRecording = false;
-          _speakingError = 'Không thể bắt đầu ghi âm. Hãy thử lại.';
+          _speakingError = context.l10n.text('reviewRecordingStartError');
         });
       }
     }
@@ -626,9 +630,8 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       context: context,
       barrierColor: const Color(0x7504193A),
       builder: (dialogContext) => _SkipListeningDialog(
-        title:
-            'Bạn có chắc chắn bạn muốn bỏ qua thực hành phát âm vào lúc này?',
-        description: 'Các câu hỏi phát âm sẽ không được tính là đã làm đúng.',
+        title: context.l10n.text('reviewSkipSpeakingTitle'),
+        description: context.l10n.text('reviewSkipSpeakingBody'),
         onCancel: () => Navigator.of(dialogContext).pop(false),
         onSkip: () => Navigator.of(dialogContext).pop(true),
       ),
@@ -674,9 +677,8 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
       context: context,
       barrierColor: const Color(0x7504193A),
       builder: (dialogContext) => _SkipListeningDialog(
-        title:
-            'Bạn có chắc chắn bạn muốn bỏ qua thực hành nghe hiểu vào lúc này?',
-        description: 'Các câu hỏi nghe hiểu sẽ không được tính là đã làm đúng.',
+        title: context.l10n.text('reviewSkipListeningTitle'),
+        description: context.l10n.text('reviewSkipListeningBody'),
         onCancel: () => Navigator.of(dialogContext).pop(false),
         onSkip: () => Navigator.of(dialogContext).pop(true),
       ),
@@ -763,7 +765,9 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
                   children: [
                     _PracticeTopBar(
                       kicker: widget.kicker,
-                      title: widget.title,
+                      title:
+                          widget.title ??
+                          context.l10n.text('reviewDefaultTitle'),
                       onClose: _confirmExit,
                     ),
                     const SizedBox(height: 14),
@@ -923,15 +927,22 @@ class _ReviewPracticeScreenState extends State<ReviewPracticeScreen> {
   }
 }
 
-String _audioLabel(int index) {
-  return 'Âm thanh ${String.fromCharCode(65 + index)}';
+String _audioLabel(BuildContext context, int index) {
+  return context.l10n.text(
+    'reviewAudioOption',
+    values: {'letter': String.fromCharCode(65 + index)},
+  );
 }
 
-String _audioLabelFor(PracticeExercise question, ExerciseWord word) {
+String _audioLabelFor(
+  BuildContext context,
+  PracticeExercise question,
+  ExerciseWord word,
+) {
   final index = question.variants.indexWhere(
     (variant) => variant.id == word.id,
   );
-  return _audioLabel(index < 0 ? 0 : index);
+  return _audioLabel(context, index < 0 ? 0 : index);
 }
 
 String _normalizeTypingWord(String value) {
@@ -986,7 +997,7 @@ class _PracticeTopBar extends StatelessWidget {
             alignment: Alignment.topLeft,
             child: Semantics(
               button: true,
-              label: 'Thoát ôn tập',
+              label: context.l10n.text('reviewExitAction'),
               child: IconButton(
                 key: const Key('review-practice-close-button'),
                 onPressed: onClose,
@@ -1168,27 +1179,27 @@ class _PracticeIntroCard extends StatelessWidget {
         padding: const EdgeInsets.fromLTRB(16, 24, 16, 20),
         child: Column(
           children: [
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 10),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Column(
                 children: [
                   Text(
-                    'Đọc kỹ các từ bên dưới trước khi bắt đầu phần ôn tập.',
+                    context.l10n.text('reviewIntroInstruction'),
                     textAlign: TextAlign.center,
-                    style: TextStyle(
+                    style: const TextStyle(
                       color: AppColors.textPrimary,
                       fontSize: 13,
                       height: 1.45,
                       fontWeight: FontWeight.w800,
                     ),
                   ),
-                  SizedBox(height: 12),
+                  const SizedBox(height: 12),
                   SizedBox(
                     width: 310,
                     child: Text(
-                      'Leximon sẽ đưa ra các câu hỏi dựa trên nhóm từ bạn đã chọn để ôn lại trí nhớ ngắn hạn.',
+                      context.l10n.text('reviewIntroBody'),
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Color(0xFF5679B2),
                         fontSize: 12,
                         height: 1.55,
@@ -1358,7 +1369,7 @@ class _StartPracticeButton extends StatelessWidget {
                   fontWeight: FontWeight.w800,
                 ),
               ),
-              child: const Text('Bắt đầu ôn tập'),
+              child: Text(context.l10n.text('reviewStart')),
             ),
           ),
         ],
@@ -1394,12 +1405,15 @@ class _ListeningChoiceCard extends StatelessWidget {
     final submitted = isSubmitted ?? false;
     final isCorrect = selectedAnswer?.id == question.word.id;
     final status = !hasSelection
-        ? 'Chọn 1 trong ${question.variants.length} âm thanh'
+        ? context.l10n.text(
+            'reviewChooseAudioCount',
+            values: {'count': '${question.variants.length}'},
+          )
         : !submitted
-        ? 'Đã chọn âm thanh — nhấn Chọn để kiểm tra'
+        ? context.l10n.text('reviewAudioSelectedHint')
         : isCorrect
-        ? 'Bạn đã chọn đúng âm thanh'
-        : 'Bạn chọn sai âm thanh';
+        ? context.l10n.text('reviewAudioCorrect')
+        : context.l10n.text('reviewAudioWrong');
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -1446,10 +1460,10 @@ class _ListeningChoiceCard extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 14),
-                    const Text(
-                      'Hãy nhìn từ bên dưới và chọn đoạn âm thanh phát âm đúng',
+                    Text(
+                      context.l10n.text('reviewChooseCorrectAudio'),
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Color(0xFF7D8EA8),
                         fontSize: 12,
                         height: 1.45,
@@ -1516,7 +1530,7 @@ class _ListeningChoiceCard extends StatelessWidget {
                         key: ValueKey(
                           'listening-word-${question.variants[index].id}',
                         ),
-                        label: _audioLabel(index),
+                        label: _audioLabel(context, index),
                         option: question.variants[index],
                         correctAnswer: question.word,
                         selectedAnswer: selectedAnswer,
@@ -1587,10 +1601,13 @@ class _ListeningAudioOption extends StatelessWidget {
           )
         : null;
     final caption = showCorrect
-        ? 'Phát âm đúng từ “${correctAnswer.writing}”'
+        ? context.l10n.text(
+            'reviewCorrectPronunciation',
+            values: {'word': correctAnswer.writing},
+          )
         : showWrong
-        ? 'Âm thanh bạn đã chọn'
-        : 'Nhấn để nghe';
+        ? context.l10n.text('reviewSelectedAudio')
+        : context.l10n.text('reviewTapToListen');
 
     return Semantics(
       button: true,
@@ -1746,12 +1763,16 @@ class _SpeakingCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final hasTranscript = recognizedText.trim().isNotEmpty;
     final status = isSubmitted
-        ? (isCorrect ? 'Phát âm chính xác.' : 'Hãy thử lại cách phát âm này.')
+        ? context.l10n.text(
+            isCorrect
+                ? 'reviewPronunciationCorrect'
+                : 'reviewPronunciationRetry',
+          )
         : isRecording
-        ? 'Đang ghi âm… Nhấn lần nữa để dừng'
+        ? context.l10n.text('reviewRecordingActive')
         : hasTranscript
-        ? 'Đã ghi âm. Kiểm tra kết quả khi bạn sẵn sàng.'
-        : 'Nhấn nút này để ghi âm';
+        ? context.l10n.text('reviewRecordingReady')
+        : context.l10n.text('reviewRecordingPrompt');
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
@@ -1776,10 +1797,10 @@ class _SpeakingCard extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(18, 26, 18, 28),
                 child: Column(
                   children: [
-                    const Text(
-                      'Phát âm từ này',
+                    Text(
+                      context.l10n.text('reviewPronounceWord'),
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Color(0xFF7D8EA8),
                         fontSize: 14,
                         height: 1.3,
@@ -1878,12 +1899,12 @@ class _SpeakingCard extends StatelessWidget {
                           TextButton.icon(
                             onPressed: () => onPlay(question.word),
                             icon: const Icon(Icons.volume_up_rounded, size: 18),
-                            label: const Text('Nghe lại'),
+                            label: Text(context.l10n.text('listenAgain')),
                           ),
                           TextButton.icon(
                             onPressed: onRecord,
                             icon: const Icon(Icons.mic_none_rounded, size: 18),
-                            label: const Text('Nói lại'),
+                            label: Text(context.l10n.text('reviewSpeakAgain')),
                           ),
                         ],
                       ),
@@ -1894,7 +1915,7 @@ class _SpeakingCard extends StatelessWidget {
                         child: FilledButton.icon(
                           onPressed: onCheck,
                           icon: const Icon(Icons.check_rounded),
-                          label: const Text('Kiểm tra'),
+                          label: Text(context.l10n.text('check')),
                           style: FilledButton.styleFrom(
                             backgroundColor: const Color(0xFF20C873),
                             foregroundColor: Colors.white,
@@ -1949,7 +1970,7 @@ class _SpeakingCard extends StatelessWidget {
                   letterSpacing: .1,
                 ),
               ),
-              child: const Text('HIỆN TẠI, TÔI KHÔNG THỂ NÓI ĐƯỢC'),
+              child: Text(context.l10n.text('reviewCannotSpeak')),
             ),
           ),
         ],
@@ -2016,11 +2037,13 @@ class _SpeakingRecordButtonState extends State<_SpeakingRecordButton>
 
     return Semantics(
       button: true,
-      label: submitted
-          ? 'Đã ghi âm'
-          : active
-          ? 'Dừng ghi âm'
-          : 'Bắt đầu ghi âm',
+      label: context.l10n.text(
+        submitted
+            ? 'reviewRecorded'
+            : active
+            ? 'reviewStopRecording'
+            : 'reviewStartRecording',
+      ),
       child: GestureDetector(
         onTap: submitted ? null : handleTap,
         child: SizedBox(
@@ -2140,10 +2163,10 @@ class _ChoiceOfFourListeningCard extends StatelessWidget {
                 padding: const EdgeInsets.fromLTRB(18, 22, 18, 20),
                 child: Column(
                   children: [
-                    const Text(
-                      'Hãy nghe và chọn bản dịch',
+                    Text(
+                      context.l10n.text('reviewListenChooseTranslation'),
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Color(0xFF7D8EA8),
                         fontSize: 14,
                         height: 1.3,
@@ -2251,7 +2274,7 @@ class _ReviewSlowAudioButtonState extends State<_ReviewSlowAudioButton>
     return Semantics(
       key: const ValueKey('choice-four-listening-slow'),
       button: true,
-      label: 'Phát âm chậm 0.2x',
+      label: context.l10n.text('reviewSlowPronunciationSemantics'),
       child: GestureDetector(
         onTap: _handleTap,
         child: AnimatedContainer(
@@ -2364,7 +2387,7 @@ class _ReviewAudioButtonState extends State<_ReviewAudioButton>
     return Semantics(
       key: const ValueKey('choice-four-listening-normal'),
       button: true,
-      label: 'Phát âm bình thường',
+      label: context.l10n.text('reviewNormalPronunciationSemantics'),
       child: GestureDetector(
         onTap: _handleTap,
         child: Container(
@@ -2427,7 +2450,7 @@ class _CannotHearButton extends StatelessWidget {
             letterSpacing: .1,
           ),
         ),
-        child: const Text('HIỆN TẠI, TÔI KHÔNG THỂ NGHE ĐƯỢC'),
+        child: Text(context.l10n.text('reviewCannotListen')),
       ),
     );
   }
@@ -2458,12 +2481,12 @@ class _ListeningTranslationOption extends StatelessWidget {
     final showWrong = answered && selected && !correct;
     final dimmed = answered && !showCorrect && !showWrong;
     final caption = !answered
-        ? 'Nhấn để chọn'
+        ? context.l10n.text('reviewTapToSelect')
         : showCorrect
-        ? (selected ? 'Chính xác' : 'Đáp án đúng')
+        ? context.l10n.text(selected ? 'correct' : 'reviewCorrectOption')
         : showWrong
-        ? 'Bạn đã chọn'
-        : 'Không được chọn';
+        ? context.l10n.text('reviewYourSelection')
+        : context.l10n.text('reviewNotSelected');
     final background = showCorrect
         ? const Color(0xFFEAFBF1)
         : showWrong
@@ -2614,9 +2637,9 @@ class _ChoiceOfFourCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final isFromEng =
         question.trainingExercise == TrainingExerciseType.choiceOfFourFromEng;
-    final prompt = isFromEng
-        ? 'Chọn từ tiếng Anh đúng cho nghĩa bên dưới'
-        : 'Chọn bản dịch đúng cho từ bên dưới';
+    final prompt = context.l10n.text(
+      isFromEng ? 'reviewChooseEnglishWord' : 'reviewChooseTranslation',
+    );
     final questionText = isFromEng
         ? question.word.translation
         : question.word.writing;
@@ -2722,7 +2745,9 @@ class _ChoiceOfFourCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  selectedAnswer == null ? 'CHỌN MỘT ĐÁP ÁN' : 'KẾT QUẢ',
+                  context.l10n.text(
+                    selectedAnswer == null ? 'chooseOneAnswer' : 'reviewResult',
+                  ),
                   style: const TextStyle(
                     color: Color(0xFF7589A5),
                     fontSize: 10,
@@ -2783,12 +2808,12 @@ class _AnswerOption extends StatelessWidget {
     final dimmed = answered && !showCorrect && !showWrong;
     final answerText = isFromEng ? option.writing : option.translation;
     final caption = !answered
-        ? 'Nhấn để chọn'
+        ? context.l10n.text('reviewTapToSelect')
         : showCorrect
-        ? (selected ? 'Chính xác' : 'Đáp án đúng')
+        ? context.l10n.text(selected ? 'correct' : 'reviewCorrectOption')
         : showWrong
-        ? 'Câu trả lời của bạn'
-        : 'Không được chọn';
+        ? context.l10n.text('reviewYourAnswer')
+        : context.l10n.text('reviewNotSelected');
     final itemColor = showCorrect
         ? const Color(0xFFE9FBF2)
         : showWrong
@@ -2997,31 +3022,35 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
       usedCounts[character] = (usedCounts[character] ?? 0) + 1;
     }
     final submittedWrong = isSubmitted && !isCorrect;
-    final description = !isSubmitted
-        ? 'Chọn các ký tự bên dưới để ghép thành từ tiếng Anh đúng.'
-        : isCorrect
-        ? 'Bạn đã ghép đúng từ tiếng Anh tương ứng.'
-        : 'Bạn đã ghép sai thứ tự chữ cái. Hãy xem lại ngay bên dưới.';
-    final answerLabel = !isSubmitted
-        ? 'TỪ ĐANG GHÉP'
-        : isCorrect
-        ? 'TỪ BẠN ĐÃ GHÉP'
-        : 'KẾT QUẢ';
+    final description = context.l10n.text(
+      !isSubmitted
+          ? 'reviewTypingInstruction'
+          : isCorrect
+          ? 'reviewTypingCorrect'
+          : 'reviewTypingWrong',
+    );
+    final answerLabel = context.l10n.text(
+      !isSubmitted
+          ? 'reviewBuildingWord'
+          : isCorrect
+          ? 'reviewBuiltWord'
+          : 'reviewResult',
+    );
     final answerMeta = !isSubmitted
         ? '${input.length} / ${targetCharacters.length}'
         : isCorrect
         ? '${targetCharacters.length} / ${targetCharacters.length}'
-        : 'SAI CHÍNH TẢ';
+        : context.l10n.text('reviewSpellingWrong');
     final visibleInput = isSubmitted
         ? input.join()
         : _typingInputWithVisibleSpaces(input);
     final Widget answerDisplay;
     if (!isSubmitted && input.isEmpty) {
-      answerDisplay = const Align(
+      answerDisplay = Align(
         alignment: Alignment.centerLeft,
         child: Text(
-          'Chưa chọn ký tự nào',
-          style: TextStyle(
+          context.l10n.text('reviewNoCharactersSelected'),
+          style: const TextStyle(
             color: Color(0xFFB1BFD2),
             fontSize: 20,
             fontWeight: FontWeight.w700,
@@ -3087,9 +3116,9 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'NHẬP BẢN DỊCH',
-                      style: TextStyle(
+                    Text(
+                      context.l10n.text('reviewEnterTranslation'),
+                      style: const TextStyle(
                         color: Color(0xFF7D90AC),
                         fontSize: 11,
                         fontWeight: FontWeight.w700,
@@ -3158,7 +3187,7 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                     IconButton(
                       key: const ValueKey('typing-remove-last'),
                       onPressed: input.isEmpty ? null : onRemoveCharacter,
-                      tooltip: 'Xóa ký tự cuối',
+                      tooltip: context.l10n.text('reviewDeleteLastCharacter'),
                       icon: const Icon(Icons.backspace_outlined, size: 18),
                       color: const Color(0xFF1971FF),
                       disabledColor: const Color(0xFF1971FF),
@@ -3202,11 +3231,13 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
               ),
               const SizedBox(height: 10),
               Text(
-                !isSubmitted
-                    ? 'Từ sẽ xuất hiện liền mạch khi bạn chọn ký tự. Ký hiệu _ là khoảng trắng đang chờ ký tự tiếp theo.'
-                    : isCorrect
-                    ? 'Từ đã được nối liền thành một cụm hoàn chỉnh để dễ kiểm tra kết quả.'
-                    : 'Từ sai được gạch đỏ, và từ đúng hiển thị ngay bên dưới để người học đối chiếu nhanh.',
+                context.l10n.text(
+                  !isSubmitted
+                      ? 'reviewTypingPendingHint'
+                      : isCorrect
+                      ? 'reviewTypingCompleteHint'
+                      : 'reviewTypingWrongHint',
+                ),
                 style: const TextStyle(
                   color: Color(0xFF93A2B7),
                   fontSize: 12,
@@ -3229,7 +3260,11 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      isSubmitted ? 'BỘ KÝ TỰ' : 'KÝ TỰ CÓ THỂ CHỌN',
+                      context.l10n.text(
+                        isSubmitted
+                            ? 'reviewCharacterSet'
+                            : 'reviewAvailableCharacters',
+                      ),
                       style: const TextStyle(
                         color: Color(0xFF7D90AC),
                         fontSize: 11,
@@ -3239,9 +3274,11 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                     ),
                     Flexible(
                       child: Text(
-                        isSubmitted
-                            ? 'Đã dùng xong'
-                            : 'Chỉ hiển thị các ký tự cần dùng',
+                        context.l10n.text(
+                          isSubmitted
+                              ? 'reviewCharactersUsed'
+                              : 'reviewCharactersNeededOnly',
+                        ),
                         textAlign: TextAlign.right,
                         style: const TextStyle(
                           color: Color(0xFF95A6BC),
@@ -3279,9 +3316,9 @@ class _TypingChallengeCardState extends State<_TypingChallengeCard> {
                 ),
                 if (!isSubmitted) ...[
                   const SizedBox(height: 12),
-                  const Text(
-                    'Bộ chữ chỉ hiển thị các ký tự thật sự liên quan đến đáp án để giao diện gọn và dễ nhìn hơn.',
-                    style: TextStyle(
+                  Text(
+                    context.l10n.text('reviewCharacterSetHint'),
+                    style: const TextStyle(
                       color: Color(0xFF7E90AB),
                       fontSize: 12,
                       height: 1.45,
@@ -3589,22 +3626,23 @@ class _TypingWrongAnswerSheet extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 2),
-          const AppBottomSheetTitle(
-            title: 'Đáp án đúng',
+          AppBottomSheetTitle(
+            title: context.l10n.text('correctAnswer'),
             icon: Icons.check_rounded,
             color: Color(0xFF18B865),
           ),
           const SizedBox(height: 10),
           Text.rich(
             TextSpan(
-              text: '${question.word.writing} nghĩa là ',
+              text:
+                  '${context.l10n.text('reviewWordMeans', values: {'word': question.word.writing})} ',
               children: [
                 TextSpan(
                   text: question.word.translation,
                   style: const TextStyle(fontWeight: FontWeight.w700),
                 ),
-                const TextSpan(
-                  text: '. Bạn có thể nghe lại phát âm để ghi nhớ tốt hơn.',
+                TextSpan(
+                  text: '. ${context.l10n.text('reviewListenMemoryHint')}',
                 ),
               ],
             ),
@@ -3688,7 +3726,7 @@ class _ContinueButton extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Icon(Icons.auto_awesome_rounded, size: 19),
-            Text(isLast ? 'Hoàn thành' : 'Tiếp tục'),
+            Text(context.l10n.text(isLast ? 'completed' : 'continue')),
             const Icon(Icons.auto_awesome_rounded, size: 19),
           ],
         ),
@@ -3718,7 +3756,7 @@ class _SubmitAnswerButton extends StatelessWidget {
           textStyle: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
           elevation: 0,
         ),
-        child: const Text('Chọn'),
+        child: Text(context.l10n.text('reviewChoose')),
       ),
     );
   }
@@ -3747,22 +3785,21 @@ class _ListeningWrongAnswerSheet extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 2),
-          const AppBottomSheetTitle(
-            title: 'Nghe lại để phân biệt',
+          AppBottomSheetTitle(
+            title: context.l10n.text('reviewCompareAudioTitle'),
             icon: Icons.volume_up_rounded,
           ),
           const SizedBox(height: 12),
           Text.rich(
             TextSpan(
-              text: 'Từ cần chọn là ',
+              text: '${context.l10n.text('reviewTargetWordPrefix')} ',
               children: [
                 TextSpan(
                   text: question.word.writing,
                   style: const TextStyle(fontWeight: FontWeight.w700),
                 ),
-                const TextSpan(
-                  text:
-                      '. Hãy so sánh âm thanh bạn đã chọn với âm thanh đúng bên dưới.',
+                TextSpan(
+                  text: '. ${context.l10n.text('reviewCompareAudioBody')}',
                 ),
               ],
             ),
@@ -3774,16 +3811,16 @@ class _ListeningWrongAnswerSheet extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           _ListeningFeedbackCard(
-            label: 'Âm thanh bạn đã chọn',
-            audioLabel: _audioLabelFor(question, selectedAnswer),
+            label: context.l10n.text('reviewSelectedAudio'),
+            audioLabel: _audioLabelFor(context, question, selectedAnswer),
             word: selectedAnswer,
             accent: const Color(0xFFEC5B42),
             onPlay: () => onPlay(selectedAnswer),
           ),
           const SizedBox(height: 12),
           _ListeningFeedbackCard(
-            label: 'Âm thanh đúng',
-            audioLabel: _audioLabelFor(question, question.word),
+            label: context.l10n.text('reviewCorrectAudio'),
+            audioLabel: _audioLabelFor(context, question, question.word),
             word: question.word,
             accent: const Color(0xFF18B865),
             onPlay: () => onPlay(question.word),
@@ -3897,11 +3934,11 @@ class _WrongAnswerSheet extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 2),
-          const AppBottomSheetTitle(title: 'Chú ý'),
+          AppBottomSheetTitle(title: context.l10n.text('reviewNotice')),
           const SizedBox(height: 12),
-          const Text(
-            'Hãy nghe lại và ghi nhớ sự khác nhau giữa câu trả lời bạn chọn và đáp án đúng.',
-            style: TextStyle(
+          Text(
+            context.l10n.text('reviewAudioDifferenceHint'),
+            style: const TextStyle(
               color: Color(0xFF6F84A2),
               fontSize: 13,
               height: 1.5,
@@ -3909,14 +3946,14 @@ class _WrongAnswerSheet extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           _FeedbackCard(
-            label: 'Câu trả lời của bạn',
+            label: context.l10n.text('reviewYourAnswer'),
             word: selectedAnswer,
             accent: const Color(0xFFEC5B42),
             onPlay: () => onPlay(selectedAnswer),
           ),
           const SizedBox(height: 12),
           _FeedbackCard(
-            label: 'Câu trả lời đúng',
+            label: context.l10n.text('reviewYourCorrectAnswer'),
             word: correctAnswer,
             accent: const Color(0xFF18B865),
             onPlay: () => onPlay(correctAnswer),
@@ -4022,13 +4059,15 @@ class _SpeakingDecisionDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return AppDialog(
       icon: noSound ? Icons.mic_off_rounded : Icons.error_outline_rounded,
-      title: noSound ? 'Không nghe thấy gì' : 'Chưa nhận diện đúng',
+      title: context.l10n.text(
+        noSound ? 'reviewNoSoundTitle' : 'reviewNotRecognizedTitle',
+      ),
       message: noSound
-          ? 'Hãy thử nói lại từ này hoặc bỏ qua riêng câu phát âm hiện tại.'
-          : 'Hãy thử lại cách phát âm hoặc bỏ qua riêng câu hiện tại.',
-      secondaryLabel: 'Bỏ qua',
+          ? context.l10n.text('reviewNoSoundBody')
+          : context.l10n.text('reviewNotRecognizedBody'),
+      secondaryLabel: context.l10n.text('skip'),
       onSecondary: onSkip,
-      primaryLabel: 'Thử lại',
+      primaryLabel: context.l10n.text('retry'),
       onPrimary: onRetry,
     );
   }
@@ -4052,9 +4091,9 @@ class _SkipListeningDialog extends StatelessWidget {
     return AppDialog(
       title: title,
       message: description,
-      secondaryLabel: 'Không',
+      secondaryLabel: context.l10n.text('reviewNo'),
       onSecondary: onCancel,
-      primaryLabel: 'Có',
+      primaryLabel: context.l10n.text('reviewYes'),
       onPrimary: onSkip,
     );
   }
@@ -4070,12 +4109,11 @@ class _ExitPracticeDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return AppDialog(
       imageAsset: 'assets/images/cancel_icon_dialog.png',
-      title: 'Kết thúc quá trình ôn tập?',
-      message:
-          'Tiến độ của phiên hiện tại sẽ không được lưu. Bạn luôn có thể bắt đầu lại bộ từ này bất cứ lúc nào.',
-      secondaryLabel: 'Hủy',
+      title: context.l10n.text('reviewEndTitle'),
+      message: context.l10n.text('reviewEndBody'),
+      secondaryLabel: context.l10n.text('cancel'),
       onSecondary: onCancel,
-      primaryLabel: 'Kết thúc ôn tập',
+      primaryLabel: context.l10n.text('reviewEndAction'),
       onPrimary: onExit,
     );
   }

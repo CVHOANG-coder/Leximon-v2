@@ -9,6 +9,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:speech_to_text/speech_to_text.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/app_settings_service.dart';
 import '../../../core/services/daily_notification_service.dart';
 import '../../../data/local/app_database.dart';
@@ -121,12 +122,12 @@ class _ProfileHeader extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Expanded(
+        Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'PERSONAL HUB',
+                context.l10n.profileEyebrow,
                 style: TextStyle(
                   color: Color(0xFF52739A),
                   fontSize: 9,
@@ -136,7 +137,7 @@ class _ProfileHeader extends StatelessWidget {
               ),
               SizedBox(height: 8),
               Text(
-                'Tôi',
+                context.l10n.profileTitle,
                 style: TextStyle(
                   color: AppColors.primaryDark,
                   fontSize: 31,
@@ -147,7 +148,7 @@ class _ProfileHeader extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
-                'Quản lý hồ sơ, thành tích học tập và các thiết lập cá nhân.',
+                context.l10n.profileSubtitle,
                 style: TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 11,
@@ -317,7 +318,7 @@ class _ProfileHero extends StatelessWidget {
               ),
               TextButton(
                 onPressed: onEditProfile,
-                child: const Text('Chỉnh sửa'),
+                child: Text(context.l10n.text('edit')),
               ),
             ],
           ),
@@ -377,19 +378,19 @@ class _ProfileHero extends StatelessWidget {
               _HeroStat(
                 iconAsset: streakIconAsset,
                 value: currentStreak?.toString() ?? '—',
-                label: streakLabel,
+                label: context.l10n.text('streakDaysLabel'),
               ),
               const SizedBox(width: 9),
               _HeroStat(
                 iconAsset: 'assets/svgs/word.svg',
                 value: '$totalWords',
-                label: 'Từ trong thư viện',
+                label: context.l10n.text('profileLibraryWords'),
               ),
               const SizedBox(width: 9),
               _HeroStat(
                 iconAsset: 'assets/svgs/word_learn_done.svg',
                 value: learnedWordCount?.toString() ?? '—',
-                label: 'Từ đã học',
+                label: context.l10n.text('profileLearnedWords'),
               ),
             ],
           ),
@@ -473,7 +474,7 @@ class _OverviewSection extends StatelessWidget {
     final accuracyLabel = statistics == null
         ? '—'
         : weekAccuracy == null
-        ? 'Chưa có'
+        ? context.l10n.text('noDataShort')
         : '${(weekAccuracy * 100).round()}%';
 
     return LeximonSurface(
@@ -481,8 +482,8 @@ class _OverviewSection extends StatelessWidget {
         children: [
           SectionHeader(
             kicker: 'Quick overview',
-            title: 'Tóm tắt học tập',
-            action: 'Xem tiến độ',
+            title: context.l10n.text('profileOverviewTitle'),
+            action: context.l10n.text('profileViewProgress'),
             onAction: onViewProgress,
           ),
           const SizedBox(height: 15),
@@ -491,8 +492,11 @@ class _OverviewSection extends StatelessWidget {
               Expanded(
                 child: _SummaryCard(
                   iconAsset: 'assets/svgs/book.svg',
-                  title: '$trackedTopicCount chủ đề',
-                  body: 'Đang theo dõi',
+                  title: context.l10n.text(
+                    'topicCount',
+                    values: {'count': trackedTopicCount},
+                  ),
+                  body: context.l10n.text('profileTracking'),
                   color: AppColors.surfaceBlue,
                 ),
               ),
@@ -501,7 +505,7 @@ class _OverviewSection extends StatelessWidget {
                 child: _SummaryCard(
                   iconAsset: 'assets/svgs/target.svg',
                   title: accuracyLabel,
-                  body: 'Độ chính xác tuần này',
+                  body: context.l10n.text('profileWeeklyAccuracy'),
                   color: Color(0xFFDDF9EF),
                 ),
               ),
@@ -570,13 +574,20 @@ class _SummaryWide extends StatelessWidget {
   Widget build(BuildContext context) {
     final usageDayCount = statistics?.usageDayCount ?? 0;
     final value = statistics == null
-        ? 'Đang tính...'
-        : _formatAverageUsage(statistics!.averageDailyUsage, usageDayCount);
+        ? context.l10n.text('profileCalculating')
+        : _formatAverageUsage(
+            context,
+            statistics!.averageDailyUsage,
+            usageDayCount,
+          );
     final detail = statistics == null
-        ? 'Đang tổng hợp thời gian sử dụng'
+        ? context.l10n.text('profileCalculatingUsage')
         : usageDayCount == 0
-        ? 'Bắt đầu ghi nhận từ lần sử dụng này'
-        : 'Trung bình trong $usageDayCount ngày gần nhất';
+        ? context.l10n.text('profileUsageStartsNow')
+        : context.l10n.text(
+            'profileUsageAverageDays',
+            values: {'count': usageDayCount},
+          );
 
     return Container(
       padding: const EdgeInsets.all(14),
@@ -624,15 +635,28 @@ class _SummaryWide extends StatelessWidget {
   }
 }
 
-String _formatAverageUsage(Duration duration, int usageDayCount) {
-  if (usageDayCount == 0) return 'Chưa có dữ liệu';
+String _formatAverageUsage(
+  BuildContext context,
+  Duration duration,
+  int usageDayCount,
+) {
+  if (usageDayCount == 0) return context.l10n.text('noData');
   final minutes = duration.inMinutes;
-  if (minutes < 1) return '< 1 phút / ngày';
-  if (minutes < 60) return '$minutes phút / ngày';
+  if (minutes < 1) {
+    return context.l10n.text('minutesPerDay', values: {'count': '< 1'});
+  }
+  if (minutes < 60) {
+    return context.l10n.text('minutesPerDay', values: {'count': minutes});
+  }
   final hours = minutes ~/ 60;
   final remainingMinutes = minutes % 60;
-  if (remainingMinutes == 0) return '$hours giờ / ngày';
-  return '$hours giờ $remainingMinutes phút / ngày';
+  if (remainingMinutes == 0) {
+    return context.l10n.text('hoursPerDay', values: {'count': hours});
+  }
+  return context.l10n.text(
+    'hoursMinutesPerDay',
+    values: {'hours': hours, 'minutes': remainingMinutes},
+  );
 }
 
 class _BadgeSection extends StatelessWidget {
@@ -642,34 +666,34 @@ class _BadgeSection extends StatelessWidget {
   Widget build(BuildContext context) => LeximonSurface(
     child: Column(
       children: [
-        const SectionHeader(
+        SectionHeader(
           kicker: 'Achievements',
-          title: 'Huy hiệu của bạn',
-          action: 'Tủ huy hiệu',
+          title: context.l10n.text('profileBadgesTitle'),
+          action: context.l10n.text('profileBadgeCollection'),
         ),
         const SizedBox(height: 15),
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
-            children: const [
+            children: [
               _BadgeCard(
                 icon: '🏆',
                 title: '7-Day Streak',
-                body: 'Giữ chuỗi học 7 ngày',
+                body: context.l10n.text('profileBadgeStreakBody'),
                 color: AppColors.yellow,
               ),
-              SizedBox(width: 10),
+              const SizedBox(width: 10),
               _BadgeCard(
                 icon: '🚀',
                 title: 'Speed Learner',
-                body: '3 phiên trong 1 ngày',
+                body: context.l10n.text('profileBadgeSpeedBody'),
                 color: AppColors.primary,
               ),
-              SizedBox(width: 10),
+              const SizedBox(width: 10),
               _BadgeCard(
                 icon: '🔒',
                 title: 'Boss Hunter',
-                body: 'Đánh bại 10 boss',
+                body: context.l10n.text('profileBadgeBossBody'),
                 color: AppColors.textMuted,
               ),
             ],
@@ -732,21 +756,21 @@ class _GoalsSection extends StatelessWidget {
   Widget build(BuildContext context) => LeximonSurface(
     child: Column(
       children: [
-        const SectionHeader(
+        SectionHeader(
           kicker: 'Goals',
-          title: 'Mục tiêu cá nhân',
-          action: 'Chỉnh sửa',
+          title: context.l10n.text('profileGoalsTitle'),
+          action: context.l10n.text('edit'),
         ),
         const SizedBox(height: 15),
-        const _GoalItem(
-          title: 'Hoàn thành 12 từ mới mỗi ngày',
-          body: 'Hôm nay: 8 / 12 từ',
+        _GoalItem(
+          title: context.l10n.text('profileDailyWordGoal'),
+          body: context.l10n.text('profileDailyWordProgress'),
           value: .67,
         ),
         const SizedBox(height: 14),
-        const _GoalItem(
-          title: 'Hoàn thành 5 phiên luyện mỗi tuần',
-          body: 'Tuần này: 3 / 5 phiên',
+        _GoalItem(
+          title: context.l10n.text('profileWeeklySessionGoal'),
+          body: context.l10n.text('profileWeeklySessionProgress'),
           value: .6,
           purple: true,
         ),
@@ -818,15 +842,17 @@ class _FavoritesSection extends StatelessWidget {
   Widget build(BuildContext context) => LeximonSurface(
     child: Column(
       children: [
-        const SectionHeader(
+        SectionHeader(
           kicker: 'Saved topics',
-          title: 'Chủ đề đang theo dõi',
-          action: 'Thư viện từ',
+          title: context.l10n.text('profileTrackedTopicsTitle'),
+          action: context.l10n.text('profileWordLibrary'),
         ),
         const SizedBox(height: 14),
         if (favorites.isEmpty)
           Text(
-            isLoading ? 'Đang tải chủ đề...' : 'Bạn chưa theo dõi chủ đề nào.',
+            context.l10n.text(
+              isLoading ? 'profileLoadingTopics' : 'profileNoTrackedTopics',
+            ),
             style: const TextStyle(color: AppColors.textSecondary),
           )
         else
@@ -876,7 +902,14 @@ class _FavoriteItem extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '${(topic.wordCount * progress).round()} / ${topic.wordCount} từ • ${(progress * 100).round()}%',
+                  context.l10n.text(
+                    'topicWordProgress',
+                    values: {
+                      'completed': (topic.wordCount * progress).round(),
+                      'total': topic.wordCount,
+                      'percent': (progress * 100).round(),
+                    },
+                  ),
                   style: const TextStyle(
                     color: AppColors.textSecondary,
                     fontSize: 9,
@@ -995,6 +1028,7 @@ class _SettingsSectionState extends State<_SettingsSection>
 
   Future<void> _setDailyReminderEnabled(bool enabled) async {
     if (_isDailyReminderUpdating) return;
+    final localizations = context.l10n;
     if (!enabled) {
       setState(() {
         _dailyReminderEnabled = false;
@@ -1029,21 +1063,30 @@ class _SettingsSectionState extends State<_SettingsSection>
       await DailyNotificationService.instance.scheduleDaily(
         hour: _dailyReminderTime.hour,
         minute: _dailyReminderTime.minute,
+        localizations: localizations,
       );
       await _saveSetting(_dailyReminderEnabledKey, true);
       if (mounted) setState(() => _dailyReminderEnabled = true);
     } on Object catch (error) {
       if (!mounted) return;
       setState(() => _dailyReminderEnabled = false);
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Không thể bật nhắc học: $error')));
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            context.l10n.text(
+              'profileReminderEnableError',
+              values: {'error': error},
+            ),
+          ),
+        ),
+      );
     } finally {
       if (mounted) setState(() => _isDailyReminderUpdating = false);
     }
   }
 
   Future<void> _pickDailyReminderTime() async {
+    final localizations = context.l10n;
     final TimeOfDay? pickedTime;
     if (Platform.isIOS) {
       pickedTime = await _showCupertinoTimePicker();
@@ -1052,9 +1095,9 @@ class _SettingsSectionState extends State<_SettingsSection>
       pickedTime = await showTimePicker(
         context: context,
         initialTime: _dailyReminderTime,
-        helpText: 'Chọn giờ nhắc học',
-        cancelText: 'Hủy',
-        confirmText: 'Lưu',
+        helpText: context.l10n.text('profileReminderTimeTitle'),
+        cancelText: context.l10n.cancel,
+        confirmText: context.l10n.save,
       );
     }
     final selectedTime = pickedTime;
@@ -1071,12 +1114,20 @@ class _SettingsSectionState extends State<_SettingsSection>
         await DailyNotificationService.instance.scheduleDaily(
           hour: selectedTime.hour,
           minute: selectedTime.minute,
+          localizations: localizations,
         );
       }
     } on Object catch (error) {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Không thể cập nhật giờ nhắc: $error')),
+        SnackBar(
+          content: Text(
+            context.l10n.text(
+              'profileReminderUpdateError',
+              values: {'error': error},
+            ),
+          ),
+        ),
       );
     }
   }
@@ -1108,10 +1159,10 @@ class _SettingsSectionState extends State<_SettingsSection>
                   padding: const EdgeInsets.fromLTRB(20, 16, 12, 4),
                   child: Row(
                     children: [
-                      const Expanded(
+                      Expanded(
                         child: Text(
-                          'Chọn giờ nhắc học',
-                          style: TextStyle(
+                          context.l10n.text('profileReminderTimeTitle'),
+                          style: const TextStyle(
                             color: AppColors.textPrimary,
                             fontSize: 17,
                             fontWeight: FontWeight.w700,
@@ -1122,13 +1173,13 @@ class _SettingsSectionState extends State<_SettingsSection>
                       CupertinoButton(
                         padding: EdgeInsets.zero,
                         onPressed: () => Navigator.of(context).pop(),
-                        child: const Text('Hủy'),
+                        child: Text(context.l10n.cancel),
                       ),
                       CupertinoButton(
                         padding: const EdgeInsets.only(left: 12),
                         onPressed: () =>
                             Navigator.of(context).pop(temporaryTime),
-                        child: const Text('Lưu'),
+                        child: Text(context.l10n.save),
                       ),
                     ],
                   ),
@@ -1169,12 +1220,11 @@ class _SettingsSectionState extends State<_SettingsSection>
       context: context,
       builder: (context) => AppDialog(
         icon: Icons.notifications_none_rounded,
-        title: 'Cần quyền thông báo',
-        message:
-            'Leximon cần quyền thông báo để nhắc bạn học mỗi ngày. Hãy bật quyền trong phần Cài đặt của ứng dụng.',
-        secondaryLabel: 'Để sau',
+        title: context.l10n.text('profileNotificationPermissionTitle'),
+        message: context.l10n.text('profileNotificationPermissionBody'),
+        secondaryLabel: context.l10n.later,
         onSecondary: () => Navigator.of(context).pop(),
-        primaryLabel: 'Mở Cài đặt',
+        primaryLabel: context.l10n.openSettings,
         onPrimary: () async {
           Navigator.of(context).pop();
           await AppSettingsService.openAppSettings();
@@ -1229,12 +1279,11 @@ class _SettingsSectionState extends State<_SettingsSection>
       context: context,
       builder: (context) => AppDialog(
         icon: Icons.mic_none_rounded,
-        title: 'Cần quyền microphone',
-        message:
-            'Leximon cần quyền microphone và nhận dạng giọng nói để bật luyện phát âm. Hãy cấp quyền trong phần Cài đặt của ứng dụng.',
-        secondaryLabel: 'Để sau',
+        title: context.l10n.text('profileMicPermissionTitle'),
+        message: context.l10n.text('profileMicPermissionBody'),
+        secondaryLabel: context.l10n.later,
         onSecondary: () => Navigator.of(context).pop(),
-        primaryLabel: 'Mở Cài đặt',
+        primaryLabel: context.l10n.openSettings,
         onPrimary: () async {
           Navigator.of(context).pop();
           await AppSettingsService.openAppSettings();
@@ -1246,28 +1295,33 @@ class _SettingsSectionState extends State<_SettingsSection>
   @override
   Widget build(BuildContext context) {
     final pronunciationStatus = !_hasMicPermission && _pronunciationEnabled
-        ? 'Cần quyền mic'
+        ? context.l10n.text('profileMicPermissionNeeded')
         : _pronunciationEnabled
-        ? 'Bật'
-        : 'Tắt';
-    final dailyReminderStatus = _dailyReminderEnabled ? 'Bật' : 'Tắt';
+        ? context.l10n.enabled
+        : context.l10n.disabled;
+    final dailyReminderStatus = _dailyReminderEnabled
+        ? context.l10n.enabled
+        : context.l10n.disabled;
 
     return LeximonSurface(
       child: Column(
         children: [
-          const SectionHeader(
-            kicker: 'Quick settings',
-            title: 'Truy cập nhanh',
+          SectionHeader(
+            kicker: context.l10n.quickSettings,
+            title: context.l10n.quickSettingsTitle,
             // action: 'Tất cả',
           ),
           const SizedBox(height: 10),
           _SettingItem(
             iconAsset: 'assets/svgs/bell.svg',
-            title: 'Nhắc học hằng ngày',
+            title: context.l10n.dailyReminder,
             body: _dailyReminderEnabled
-                ? 'Mỗi tối lúc ${_formatTime(_dailyReminderTime)} · chạm để đổi giờ'
-                : 'Đã tắt · chạm để bật',
-            status: _isLoading ? 'Đang tải...' : dailyReminderStatus,
+                ? context.l10n.text(
+                    'profileReminderEnabledBody',
+                    values: {'time': _formatTime(_dailyReminderTime)},
+                  )
+                : context.l10n.text('profileReminderDisabledBody'),
+            status: _isLoading ? context.l10n.loading : dailyReminderStatus,
             statusColor: _dailyReminderEnabled
                 ? AppColors.green
                 : AppColors.textMuted,
@@ -1281,11 +1335,11 @@ class _SettingsSectionState extends State<_SettingsSection>
           ),
           _SettingItem(
             iconAsset: 'assets/svgs/mic.svg',
-            title: 'Luyện phát âm',
+            title: context.l10n.pronunciationPractice,
             body: _hasMicPermission
-                ? 'Micro đang được cấp quyền'
-                : 'Chưa cấp quyền microphone',
-            status: _isLoading ? 'Đang tải...' : pronunciationStatus,
+                ? context.l10n.text('profileMicGranted')
+                : context.l10n.text('profileMicNotGranted'),
+            status: _isLoading ? context.l10n.loading : pronunciationStatus,
             statusColor: _hasMicPermission ? AppColors.green : AppColors.orange,
             showTopBorder: true,
             toggleValue: _pronunciationEnabled && _hasMicPermission,
@@ -1294,22 +1348,20 @@ class _SettingsSectionState extends State<_SettingsSection>
           ),
           _SettingItem(
             iconAsset: 'assets/svgs/speaker.svg',
-            title: 'Luyện nghe',
-            body: _listeningEnabled ? 'Loa đã được bật' : 'Loa đang tắt',
+            title: context.l10n.listeningPractice,
+            body: _listeningEnabled
+                ? context.l10n.text('profileSpeakerEnabled')
+                : context.l10n.text('profileSpeakerDisabled'),
             status: _isLoading
-                ? 'Đang tải...'
-                : (_listeningEnabled ? 'Bật' : 'Tắt'),
+                ? context.l10n.loading
+                : (_listeningEnabled
+                      ? context.l10n.enabled
+                      : context.l10n.disabled),
             showTopBorder: true,
             toggleValue: _listeningEnabled,
             onToggle: _setListeningEnabled,
             isUpdating: _isLoading,
           ),
-          // _SettingItem(
-          //   iconAsset: 'assets/svgs/language.svg',
-          //   title: 'Ngôn ngữ',
-          //   body: 'Chọn ngôn ngữ cho ứng dụng',
-          //   showTopBorder: true,
-          // ),
         ],
       ),
     );

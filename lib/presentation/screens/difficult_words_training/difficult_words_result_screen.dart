@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 
 enum DifficultWordsResultAction { continueTraining, exit }
 
@@ -45,9 +46,9 @@ class DifficultWordsResultScreen extends StatelessWidget {
                   Row(
                     children: [
                       const SizedBox(width: 44),
-                      const Expanded(
+                      Expanded(
                         child: Text(
-                          'KẾT QUẢ LUYỆN TỪ KHÓ',
+                          context.l10n.text('difficultResultEyebrow'),
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             color: Color(0xC7FFFFFF),
@@ -100,7 +101,7 @@ class DifficultWordsResultScreen extends StatelessWidget {
                           ),
                           const SizedBox(height: 12),
                           Text(
-                            _titleFor(level),
+                            _titleFor(context, level),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               color: Colors.white,
@@ -112,7 +113,7 @@ class DifficultWordsResultScreen extends StatelessWidget {
                           ),
                           const SizedBox(height: 10),
                           Text(
-                            _messageFor(level),
+                            _messageFor(context, level),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               color: Color(0xD6FFFFFF),
@@ -142,7 +143,9 @@ class DifficultWordsResultScreen extends StatelessWidget {
                                       child: _ResultStat(
                                         icon: Icons.healing_rounded,
                                         value: '$healedWordCount',
-                                        label: 'từ đã chữa',
+                                        label: context.l10n.text(
+                                          'difficultResultHealedUnit',
+                                        ),
                                         color: AppColors.green,
                                       ),
                                     ),
@@ -155,7 +158,9 @@ class DifficultWordsResultScreen extends StatelessWidget {
                                       child: _ResultStat(
                                         icon: Icons.fact_check_rounded,
                                         value: '$trainedWordCount',
-                                        label: 'từ đã luyện',
+                                        label: context.l10n.text(
+                                          'difficultResultTrainedUnit',
+                                        ),
                                         color: AppColors.primary,
                                       ),
                                     ),
@@ -182,7 +187,12 @@ class DifficultWordsResultScreen extends StatelessWidget {
                                         const SizedBox(width: 10),
                                         Expanded(
                                           child: Text(
-                                            'Còn $remainingWordCount từ cần luyện thêm',
+                                            context.l10n.text(
+                                              'difficultResultRemaining',
+                                              values: {
+                                                'count': remainingWordCount,
+                                              },
+                                            ),
                                             style: const TextStyle(
                                               color: AppColors.textPrimary,
                                               fontSize: 14,
@@ -224,10 +234,14 @@ class DifficultWordsResultScreen extends StatelessWidget {
                       ),
                       child: Text(
                         _isComplete
-                            ? 'Hoàn thành'
+                            ? context.l10n.text(
+                                'difficultResultCompleteAction',
+                              )
                             : level == _ResultLevel.bad
-                            ? 'Làm lại'
-                            : 'Tiếp tục',
+                            ? context.l10n.text('difficultResultRetryAction')
+                            : context.l10n.text(
+                                'difficultResultContinueAction',
+                              ),
                       ),
                     ),
                   ),
@@ -244,7 +258,9 @@ class DifficultWordsResultScreen extends StatelessWidget {
                           fontWeight: FontWeight.w800,
                         ),
                       ),
-                      child: const Text('Thoát và xem danh sách'),
+                      child: Text(
+                        context.l10n.text('difficultResultExitToList'),
+                      ),
                     ),
                   ],
                 ],
@@ -256,26 +272,29 @@ class DifficultWordsResultScreen extends StatelessWidget {
     );
   }
 
-  String _titleFor(_ResultLevel level) {
-    if (_isComplete) return 'Bạn đã chữa hết!';
+  String _titleFor(BuildContext context, _ResultLevel level) {
+    if (_isComplete) {
+      return context.l10n.text('difficultResultAllFixedTitle');
+    }
     return switch (level) {
-      _ResultLevel.bad => 'Còn vài lỗi cần sửa',
-      _ResultLevel.good => 'Bạn đang tiến bộ',
-      _ResultLevel.excellent => 'Tuyệt lắm!',
+      _ResultLevel.bad => context.l10n.text('difficultResultBadTitle'),
+      _ResultLevel.good => context.l10n.text('difficultResultGoodTitle'),
+      _ResultLevel.excellent => context.l10n.text(
+        'difficultResultExcellentTitle',
+      ),
     };
   }
 
-  String _messageFor(_ResultLevel level) {
+  String _messageFor(BuildContext context, _ResultLevel level) {
     if (_isComplete) {
-      return 'Không còn từ khó nào. Những lỗi vừa sửa đã được lưu vào tiến độ.';
+      return context.l10n.text('difficultResultCompleteBody');
     }
     return switch (level) {
-      _ResultLevel.bad =>
-        'Hãy thử lại những dạng bài còn sai để ghi nhớ chắc hơn.',
-      _ResultLevel.good =>
-        'Một số lỗi đã được chữa. Tiếp tục với nhóm từ khó kế tiếp nhé.',
-      _ResultLevel.excellent =>
-        'Bạn đã chữa tốt lượt này. Vẫn còn vài từ đang chờ phía trước.',
+      _ResultLevel.bad => context.l10n.text('difficultResultRetryBody'),
+      _ResultLevel.good => context.l10n.text('difficultResultContinueBody'),
+      _ResultLevel.excellent => context.l10n.text(
+        'difficultResultExcellentBody',
+      ),
     };
   }
 }

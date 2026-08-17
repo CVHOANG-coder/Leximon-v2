@@ -120,8 +120,15 @@ class TopicAssetDataSource {
 
   Future<TopicAssetPayload> load({String languageCode = 'vi'}) async {
     final canonicalCode = canonicalizeLanguageCode(languageCode);
-    final rawJson = await bundle.loadString(assetPathFor(canonicalCode));
-    return compute(_decodeTopicPayload, rawJson);
+    // There is no separate English translation asset because the source
+    // vocabulary is already English. Reuse the Vietnamese catalogue's
+    // English fields and make the translated values equal to the source text.
+    final assetCode = canonicalCode == 'en' ? 'vi' : canonicalCode;
+    final rawJson = await bundle.loadString(assetPathFor(assetCode));
+    return compute(
+      canonicalCode == 'en' ? _decodeEnglishTopicPayload : _decodeTopicPayload,
+      rawJson,
+    );
   }
 
   String assetPathFor(String languageCode) {
@@ -140,4 +147,36 @@ TopicAssetPayload _decodeTopicPayload(String rawJson) {
     throw const FormatException('Topic asset must contain a JSON object.');
   }
   return TopicAssetPayload.fromJson(decoded);
+}
+
+TopicAssetPayload _decodeEnglishTopicPayload(String rawJson) {
+  final payload = _decodeTopicPayload(rawJson);
+  return TopicAssetPayload(
+    version: payload.version,
+    topics: payload.topics
+        .map(
+          (topic) => TopicAssetItem(
+            id: topic.id,
+            order: topic.order,
+            original: topic.original,
+            translated: topic.original,
+            isEnabled: topic.isEnabled,
+            words: topic.words
+                .map(
+                  (word) => WordAssetItem(
+                    id: word.id,
+                    writing: word.writing,
+                    translation: word.writing,
+                    transcription: word.transcription,
+                    transliteration: word.transliteration,
+                    isEnabled: word.isEnabled,
+                    priority: word.priority,
+                    level: word.level,
+                  ),
+                )
+                .toList(growable: false),
+          ),
+        )
+        .toList(growable: false),
+  );
 }

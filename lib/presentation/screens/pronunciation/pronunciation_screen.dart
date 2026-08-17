@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:just_audio/just_audio.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/just_audio_asset_path.dart';
 import '../../../data/datasources/ipa_asset_data_source.dart';
 import '../../../data/models/ipa_sound.dart';
@@ -203,7 +204,7 @@ class _PronunciationScreenState extends State<PronunciationScreen> {
       if (!mounted) return;
       setState(() => _playingSymbol = null);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Không thể phát âm thanh lúc này.')),
+        SnackBar(content: Text(context.l10n.text('audioPlaybackError'))),
       );
     }
   }
@@ -270,7 +271,7 @@ class _SoundsHeader extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(width: 13),
-                const Expanded(
+                Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
@@ -286,7 +287,7 @@ class _SoundsHeader extends StatelessWidget {
                       ),
                       SizedBox(height: 8),
                       Text(
-                        'Luyện phát âm theo nhóm âm',
+                        context.l10n.text('pronunciationGroupTitle'),
                         style: TextStyle(
                           color: Color(0xFF435D91),
                           fontSize: 13,
@@ -602,9 +603,15 @@ class _SoundTile extends StatelessWidget {
     );
     return Semantics(
       label: completed
-          ? '${sound.symbol}, đã hoàn thành'
+          ? context.l10n.text(
+              'pronunciationCompletedSemantics',
+              values: {'symbol': sound.symbol},
+            )
           : viewed
-          ? '${sound.symbol}, đã xem'
+          ? context.l10n.text(
+              'pronunciationViewedSemantics',
+              values: {'symbol': sound.symbol},
+            )
           : sound.symbol,
       button: true,
       child: Stack(
@@ -685,13 +692,13 @@ class _LoadError extends StatelessWidget {
               size: 44,
             ),
             const SizedBox(height: 12),
-            const Text(
-              'Không thể tải dữ liệu phát âm',
+            Text(
+              context.l10n.text('pronunciationLoadError'),
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
+              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
             ),
             const SizedBox(height: 12),
-            TextButton(onPressed: onRetry, child: const Text('Thử lại')),
+            TextButton(onPressed: onRetry, child: Text(context.l10n.retry)),
           ],
         ),
       ),

@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/services.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/services/listening_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../speaking_practice/speaking_exercise_screen.dart';
@@ -134,24 +135,24 @@ class _ListeningCourseDetailScreenState
                       ),
                     ),
                     if (snapshot.connectionState == ConnectionState.waiting)
-                      const SliverFillRemaining(
+                      SliverFillRemaining(
                         hasScrollBody: false,
                         child: Center(child: CircularProgressIndicator()),
                       )
                     else if (snapshot.hasError)
-                      const SliverFillRemaining(
+                      SliverFillRemaining(
                         hasScrollBody: false,
                         child: _DetailEmptyState(
                           icon: Icons.cloud_off_rounded,
-                          title: 'Không thể tải danh sách bài học',
+                          title: context.l10n.text('listeningLessonsLoadError'),
                         ),
                       )
                     else if (groups.isEmpty)
-                      const SliverFillRemaining(
+                      SliverFillRemaining(
                         hasScrollBody: false,
                         child: _DetailEmptyState(
                           icon: Icons.search_off_rounded,
-                          title: 'Không tìm thấy bài học phù hợp',
+                          title: context.l10n.text('listeningLessonsEmpty'),
                         ),
                       )
                     else
@@ -314,7 +315,7 @@ class _CourseDetailHeader extends StatelessWidget {
             children: [
               _HeaderButton(
                 icon: Icons.arrow_back_ios_new_rounded,
-                label: 'Quay lại',
+                label: context.l10n.back,
                 onTap: onBack,
               ),
               const SizedBox(width: 10),
@@ -336,7 +337,7 @@ class _CourseDetailHeader extends StatelessWidget {
               const SizedBox(width: 10),
               _HeaderButton(
                 icon: Icons.filter_alt_outlined,
-                label: 'Lọc',
+                label: context.l10n.text('filter'),
                 onTap: onFilter,
                 showLabel: true,
               ),
@@ -350,11 +351,17 @@ class _CourseDetailHeader extends StatelessWidget {
             children: [
               _HeaderMetaPill(
                 icon: Icons.menu_book_rounded,
-                label: '$lessonCount bài học',
+                label: context.l10n.text(
+                  'lessonCount',
+                  values: {'count': lessonCount},
+                ),
               ),
               _HeaderMetaPill(
                 icon: Icons.star_border_rounded,
-                label: 'Cấp độ $levelName',
+                label: context.l10n.text(
+                  'levelValue',
+                  values: {'level': levelName},
+                ),
               ),
             ],
           ),
@@ -545,7 +552,7 @@ class _ModeOption extends StatelessWidget {
             const SizedBox(width: 6),
             Flexible(
               child: Text(
-                mode.label,
+                context.l10n.text(mode.label),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
@@ -596,18 +603,21 @@ class _DetailSearchField extends StatelessWidget {
             controller: controller,
             onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
             onChanged: onChanged,
-            decoration: const InputDecoration(
-              hintText: 'Tìm truyện hoặc từ khóa',
-              hintStyle: TextStyle(color: AppColors.textMuted, fontSize: 10),
-              prefixIcon: Icon(
+            decoration: InputDecoration(
+              hintText: context.l10n.text('searchStories'),
+              hintStyle: const TextStyle(
+                color: AppColors.textMuted,
+                fontSize: 10,
+              ),
+              prefixIcon: const Icon(
                 Icons.search_rounded,
                 color: AppColors.primaryDark,
                 size: 19,
               ),
-              prefixIconConstraints: BoxConstraints(minWidth: 39),
+              prefixIconConstraints: const BoxConstraints(minWidth: 39),
               border: InputBorder.none,
               isDense: true,
-              contentPadding: EdgeInsets.symmetric(vertical: 11),
+              contentPadding: const EdgeInsets.symmetric(vertical: 11),
             ),
           ),
         ),
@@ -670,16 +680,16 @@ class _ActiveFilters extends StatelessWidget {
     child: Row(
       children: [
         _StatusChip(
-          label: selectedLevel ?? 'Tất cả cấp độ',
+          label: selectedLevel ?? context.l10n.text('allLevels'),
           selected: selectedLevel != null,
           onTap: selectedLevel == null ? null : onClearLevel,
         ),
         const SizedBox(width: 8),
-        const _StatusChip(label: 'Chưa bắt đầu'),
+        _StatusChip(label: context.l10n.text('notStarted')),
         const SizedBox(width: 8),
-        const _StatusChip(label: 'Đang học'),
+        _StatusChip(label: context.l10n.text('inProgress')),
         const SizedBox(width: 8),
-        const _StatusChip(label: 'Hoàn thành'),
+        _StatusChip(label: context.l10n.text('completed')),
       ],
     ),
   );
@@ -813,7 +823,7 @@ class _LessonGroupCard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            group.name,
+                            context.l10n.text(group.name),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
@@ -832,7 +842,10 @@ class _LessonGroupCard extends StatelessWidget {
                               ),
                               const SizedBox(width: 4),
                               Text(
-                                '${group.lessons.length} bài học',
+                                context.l10n.text(
+                                  'lessonCount',
+                                  values: {'count': group.lessons.length},
+                                ),
                                 style: const TextStyle(
                                   color: AppColors.textSecondary,
                                   fontSize: 10,
@@ -858,7 +871,10 @@ class _LessonGroupCard extends StatelessWidget {
                           ),
                         ),
                         child: Text(
-                          '$completionPercent% hoàn thành',
+                          context.l10n.text(
+                            'percentComplete',
+                            values: {'percent': completionPercent},
+                          ),
                           style: const TextStyle(
                             color: Color(0xFF159769),
                             fontSize: 8,
@@ -1013,12 +1029,18 @@ class _LessonCard extends StatelessWidget {
                   children: [
                     _LessonMeta(
                       icon: Icons.extension_rounded,
-                      label: '${lesson.totalChallenges} phần',
+                      label: context.l10n.text(
+                        'challengeCount',
+                        values: {'count': lesson.totalChallenges},
+                      ),
                       color: AppColors.purple,
                     ),
                     _LessonMeta(
                       icon: Icons.bar_chart_rounded,
-                      label: 'Cấp độ ${lesson.levelName}',
+                      label: context.l10n.text(
+                        'levelValue',
+                        values: {'level': lesson.levelName},
+                      ),
                       color: AppColors.primary,
                     ),
                     _LessonMeta(
@@ -1026,8 +1048,14 @@ class _LessonCard extends StatelessWidget {
                       label:
                           progress?.status ==
                               ListeningLessonStatus.completed.index
-                          ? 'Hoàn thành'
-                          : '${progress?.completed ?? 0}/${lesson.totalChallenges} phần',
+                          ? context.l10n.text('completed')
+                          : context.l10n.text(
+                              'challengeCount',
+                              values: {
+                                'count':
+                                    '${progress?.completed ?? 0}/${lesson.totalChallenges}',
+                              },
+                            ),
                       color: AppColors.green,
                     ),
                   ],
@@ -1114,9 +1142,9 @@ class _LevelFilterSheet extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 18),
-          const Text(
-            'Lọc theo cấp độ',
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+          Text(
+            context.l10n.text('listeningFilterByLevel'),
+            style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
           ),
           const SizedBox(height: 14),
           Wrap(
@@ -1124,7 +1152,7 @@ class _LevelFilterSheet extends StatelessWidget {
             runSpacing: 9,
             children: [
               _LevelChoice(
-                label: 'Tất cả',
+                label: context.l10n.text('listeningCategoryAll'),
                 selected: selected == null,
                 onTap: () => Navigator.pop(context, '__all__'),
               ),
@@ -1252,8 +1280,8 @@ class _ListeningLesson {
 }
 
 enum _PracticeMode {
-  listenAndType('Nghe & Gõ', Icons.headphones_rounded),
-  speaking('Luyện nói', Icons.mic_rounded);
+  listenAndType('listeningModeType', Icons.headphones_rounded),
+  speaking('speakingMode', Icons.mic_rounded);
 
   const _PracticeMode(this.label, this.icon);
 
@@ -1283,7 +1311,7 @@ Future<_CourseDetailData> _loadCourseDetail(String assetPath) async {
 
   final groups = <_LessonGroup>[];
   if (rawGroups.isEmpty) {
-    groups.add(_LessonGroup(id: -1, name: 'Bài học', lessons: lessons));
+    groups.add(_LessonGroup(id: -1, name: 'lessons', lessons: lessons));
   } else {
     final groupedIds = <int>{};
     for (final rawGroup in rawGroups) {
@@ -1307,7 +1335,7 @@ Future<_CourseDetailData> _loadCourseDetail(String assetPath) async {
         .toList();
     if (remainingLessons.isNotEmpty) {
       groups.add(
-        _LessonGroup(id: -1, name: 'Bài học khác', lessons: remainingLessons),
+        _LessonGroup(id: -1, name: 'otherLessons', lessons: remainingLessons),
       );
     }
   }

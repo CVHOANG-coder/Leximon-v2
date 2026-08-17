@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import 'listening_course_detail_screen.dart';
 
 class ListeningPracticeScreen extends StatefulWidget {
@@ -80,26 +81,26 @@ class _ListeningPracticeScreenState extends State<ListeningPracticeScreen> {
                   ),
                 ),
                 if (snapshot.connectionState == ConnectionState.waiting)
-                  const SliverFillRemaining(
+                  SliverFillRemaining(
                     hasScrollBody: false,
                     child: Center(child: CircularProgressIndicator()),
                   )
                 else if (snapshot.hasError)
-                  const SliverFillRemaining(
+                  SliverFillRemaining(
                     hasScrollBody: false,
                     child: _ListeningEmptyState(
                       icon: Icons.cloud_off_rounded,
-                      title: 'Không thể tải chủ đề luyện nghe',
-                      body: 'Hãy thử mở lại màn hình sau ít phút.',
+                      title: context.l10n.text('listeningTopicsLoadError'),
+                      body: context.l10n.text('tryAgainLater'),
                     ),
                   )
                 else if (visibleCourses.isEmpty)
-                  const SliverFillRemaining(
+                  SliverFillRemaining(
                     hasScrollBody: false,
                     child: _ListeningEmptyState(
                       icon: Icons.search_off_rounded,
-                      title: 'Không tìm thấy chủ đề',
-                      body: 'Thử một từ khóa hoặc bộ lọc khác nhé.',
+                      title: context.l10n.text('listeningTopicsEmpty'),
+                      body: context.l10n.text('tryDifferentSearchFilter'),
                     ),
                   )
                 else ...[
@@ -219,7 +220,7 @@ class _ListeningHeader extends StatelessWidget {
             left: 18,
             child: _RoundIconButton(
               icon: Icons.arrow_back_rounded,
-              semanticLabel: 'Quay lại',
+              semanticLabel: context.l10n.back,
               onTap: () => Navigator.of(context).maybePop(),
             ),
           ),
@@ -231,7 +232,11 @@ class _ListeningHeader extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  speakingMode ? 'Luyện nói' : 'Luyện nghe',
+                  context.l10n.text(
+                    speakingMode
+                        ? 'speakingPracticeTitle'
+                        : 'listeningPracticeTitle',
+                  ),
                   style: TextStyle(
                     color: AppColors.primaryDark,
                     fontSize: 34,
@@ -243,8 +248,8 @@ class _ListeningHeader extends StatelessWidget {
                 const SizedBox(height: 10),
                 Text(
                   speakingMode
-                      ? 'Nghe câu mẫu, ghi âm và luyện nói theo từng câu.'
-                      : 'Chọn một chủ đề để cải thiện phản xạ nghe và vốn từ.',
+                      ? context.l10n.text('speakingPracticeSubtitle')
+                      : context.l10n.text('listeningPracticeSubtitle'),
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(
@@ -322,8 +327,8 @@ class _SearchField extends StatelessWidget {
               onChanged: onChanged,
               textInputAction: TextInputAction.search,
               style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600),
-              decoration: const InputDecoration(
-                hintText: 'Tìm chủ đề...',
+              decoration: InputDecoration(
+                hintText: context.l10n.text('searchTopics'),
                 hintStyle: TextStyle(
                   color: AppColors.textMuted,
                   fontWeight: FontWeight.w500,
@@ -418,7 +423,7 @@ class _FilterChip extends StatelessWidget {
               ),
               const SizedBox(width: 7),
               Text(
-                filter.label,
+                context.l10n.text(filter.label),
                 style: TextStyle(
                   color: selected ? Colors.white : AppColors.primaryDark,
                   fontSize: 11,
@@ -517,8 +522,8 @@ class _FeaturedCourseCard extends StatelessWidget {
                           color: AppColors.primary.withValues(alpha: .1),
                           borderRadius: BorderRadius.circular(99),
                         ),
-                        child: const Text(
-                          '✦ NỔI BẬT',
+                        child: Text(
+                          context.l10n.text('featured'),
                           style: TextStyle(
                             color: AppColors.primary,
                             fontSize: 8,
@@ -668,7 +673,7 @@ class _CourseLevelBadge extends StatelessWidget {
       borderRadius: BorderRadius.circular(99),
     ),
     child: Text(
-      'Cấp độ $levelName',
+      context.l10n.text('levelValue', values: {'level': levelName}),
       maxLines: 1,
       overflow: TextOverflow.ellipsis,
       style: const TextStyle(
@@ -693,7 +698,7 @@ class _CourseLessonCount extends StatelessWidget {
       const SizedBox(width: 4),
       Expanded(
         child: Text(
-          '$lessonCount bài học',
+          context.l10n.text('lessonCount', values: {'count': lessonCount}),
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
           style: const TextStyle(
@@ -895,11 +900,11 @@ class _ListeningCourse {
 }
 
 enum _ListeningFilter {
-  all('Tất cả', Icons.grid_view_rounded),
-  stories('Truyện', Icons.auto_stories_rounded),
+  all('listeningCategoryAll', Icons.grid_view_rounded),
+  stories('listeningCategoryStories', Icons.auto_stories_rounded),
   videos('Video', Icons.smart_display_rounded),
-  exams('Luyện thi', Icons.school_rounded),
-  basics('Cơ bản', Icons.abc_rounded);
+  exams('listeningCategoryExams', Icons.school_rounded),
+  basics('listeningCategoryBasics', Icons.abc_rounded);
 
   const _ListeningFilter(this.label, this.icon);
 

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/practice_exercise.dart';
@@ -57,12 +58,12 @@ class _VocabularyCollectionScreenState
                 Padding(
                   padding: const EdgeInsets.fromLTRB(18, 18, 18, 0),
                   child: _CollectionTopBar(
-                    title: _statusTitle(widget.status),
+                    title: _statusTitle(context, widget.status),
                     kicker:
                         widget.status ==
                             VocabularyCollectionStatus.needsPractice
-                        ? 'DIFFICULT WORDS'
-                        : 'VOCABULARY COLLECTION',
+                        ? context.l10n.text('difficultWords').toUpperCase()
+                        : context.l10n.text('vocabularyCollection'),
                     searchOpen: _searchOpen,
                     onBack: () => Navigator.of(context).pop(),
                     onSearch: () => _searchOpen
@@ -96,8 +97,8 @@ class _VocabularyCollectionScreenState
                     label:
                         widget.status ==
                             VocabularyCollectionStatus.needsPractice
-                        ? 'Luyện từ'
-                        : 'Ôn luyện',
+                        ? context.l10n.text('practiseWords')
+                        : context.l10n.text('reviewWordsAction'),
                     onPressed: allEntries.isEmpty ? null : _startReview,
                   ),
                 ),
@@ -158,8 +159,8 @@ class _VocabularyCollectionScreenState
         MaterialPageRoute<bool>(
           builder: (_) => RepetitionPracticeScreen(
             title: widget.status == VocabularyCollectionStatus.mastered
-                ? 'Ôn từ đã biết'
-                : 'Ôn từ đang học',
+                ? context.l10n.text('reviewMasteredWords')
+                : context.l10n.text('reviewLearningWords'),
             words: words,
             distractorWords: distractorWords,
             database: database,
@@ -194,7 +195,7 @@ class _VocabularyCollectionScreenState
       final completed = await Navigator.of(context).push<bool>(
         MaterialPageRoute<bool>(
           builder: (_) => ReviewPracticeScreen(
-            title: 'Các từ khó',
+            title: context.l10n.text('difficultWordsTitle'),
             kicker: 'DIFFICULT WORDS',
             words: batch.words
                 .map(_databaseWordToExerciseMap)
@@ -552,8 +553,8 @@ class _CollectionBody extends StatelessWidget {
                 ),
               if (entries.isNotEmpty) ...[
                 const SizedBox(height: 2),
-                const Text(
-                  'Chạm vào từng từ để xem thông tin chi tiết và nghe phát âm.',
+                Text(
+                  context.l10n.text('vocabularyTapWordHint'),
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: AppColors.textSecondary,
@@ -605,23 +606,23 @@ class _CollectionSummary extends StatelessWidget {
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'BỘ TỪ ĐANG HỌC',
-                      style: TextStyle(
+                      context.l10n.text('learningWordSet'),
+                      style: const TextStyle(
                         color: accent,
                         fontSize: 9,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.1,
                       ),
                     ),
-                    SizedBox(height: 6),
+                    const SizedBox(height: 6),
                     Text(
-                      'Thư viện Leximon',
-                      style: TextStyle(
+                      context.l10n.text('vocabularyCollectionTitle'),
+                      style: const TextStyle(
                         color: AppColors.textPrimary,
                         fontSize: 22,
                         fontWeight: FontWeight.w800,
@@ -653,7 +654,7 @@ class _CollectionSummary extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      _statusUnit(status),
+                      _statusUnit(context, status),
                       style: const TextStyle(
                         color: AppColors.textSecondary,
                         fontSize: 11,
@@ -679,7 +680,7 @@ class _CollectionSummary extends StatelessWidget {
             children: [
               Expanded(
                 child: Text(
-                  _statusDescription(status),
+                  _statusDescription(context, status),
                   style: const TextStyle(
                     color: AppColors.textSecondary,
                     fontSize: 12,
@@ -762,9 +763,9 @@ class _SearchShell extends StatelessWidget {
                     fontSize: 16,
                     fontWeight: FontWeight.w700,
                   ),
-                  decoration: const InputDecoration(
-                    hintText: 'Tìm từ trong danh sách',
-                    hintStyle: TextStyle(
+                  decoration: InputDecoration(
+                    hintText: context.l10n.text('searchWordList'),
+                    hintStyle: const TextStyle(
                       color: Color(0xFFA6B5C8),
                       fontSize: 14,
                     ),
@@ -774,10 +775,13 @@ class _SearchShell extends StatelessWidget {
                 ),
               )
             else
-              const Expanded(
+              Expanded(
                 child: Text(
-                  'Tìm từ trong danh sách',
-                  style: TextStyle(color: Color(0xFF7D90AC), fontSize: 14),
+                  context.l10n.text('searchWordList'),
+                  style: const TextStyle(
+                    color: Color(0xFF7D90AC),
+                    fontSize: 14,
+                  ),
                 ),
               ),
             if (open)
@@ -789,7 +793,7 @@ class _SearchShell extends StatelessWidget {
                   size: 20,
                 ),
                 splashRadius: 18,
-                tooltip: 'Đóng tìm kiếm',
+                tooltip: context.l10n.text('closeSearch'),
               ),
           ],
         ),
@@ -901,7 +905,7 @@ class _EmptyCollection extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            'Chưa có từ nào trong nhóm này',
+            context.l10n.text('collectionEmptyTitle'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: AppColors.textPrimary,
@@ -911,7 +915,7 @@ class _EmptyCollection extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Text(
-            'Các từ thuộc nhóm này sẽ xuất hiện\nsau khi bạn học và ôn tập.',
+            context.l10n.text('collectionEmptyBody'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: AppColors.textSecondary,
@@ -1008,9 +1012,9 @@ class _WordDetailSheet extends StatelessWidget {
           children: [
             Row(
               children: [
-                const Expanded(
+                Expanded(
                   child: Text(
-                    'ĐANG XEM TỪ',
+                    context.l10n.text('viewingWord'),
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Color(0xFF55A8EF),
@@ -1027,7 +1031,7 @@ class _WordDetailSheet extends StatelessWidget {
                     backgroundColor: const Color(0xFFF5F8FD),
                     foregroundColor: AppColors.textPrimary,
                   ),
-                  tooltip: 'Đóng',
+                  tooltip: context.l10n.text('close'),
                 ),
               ],
             ),
@@ -1058,7 +1062,7 @@ class _WordDetailSheet extends StatelessWidget {
               children: [
                 _AudioButton(
                   icon: Icons.slow_motion_video_rounded,
-                  label: 'Nghe chậm',
+                  label: context.l10n.text('listenSlowly'),
                   onTap: () => TextToSpeechService.instance.speak(
                     entry.word.writing,
                     speechRate: TextToSpeechService.slowSpeechRate,
@@ -1067,7 +1071,7 @@ class _WordDetailSheet extends StatelessWidget {
                 const SizedBox(width: 14),
                 _AudioButton(
                   icon: Icons.volume_up_rounded,
-                  label: 'Nghe phát âm',
+                  label: context.l10n.text('listenPronunciation'),
                   large: true,
                   onTap: () =>
                       TextToSpeechService.instance.speak(entry.word.writing),
@@ -1084,7 +1088,7 @@ class _WordDetailSheet extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
-                _statusTitle(entry.status),
+                _statusTitle(context, entry.status),
                 style: TextStyle(
                   color: _statusColor(entry.status),
                   fontSize: 19,
@@ -1096,14 +1100,17 @@ class _WordDetailSheet extends StatelessWidget {
             _DetailLine(
               label: 'American English',
               value: transcription == null || transcription.isEmpty
-                  ? 'Chưa cập nhật'
+                  ? context.l10n.text('notUpdated')
                   : '/$transcription/',
             ),
             _DetailLine(
-              label: 'Cấp độ từ',
-              value: _levelLabel(entry.word.level),
+              label: context.l10n.text('wordLevel'),
+              value: _levelLabel(context, entry.word.level),
             ),
-            _DetailLine(label: 'Chủ đề', value: entry.topic.translated),
+            _DetailLine(
+              label: context.l10n.text('topic'),
+              value: entry.topic.translated,
+            ),
           ],
         ),
       ),
@@ -1189,36 +1196,39 @@ class _DetailLine extends StatelessWidget {
   }
 }
 
-String _statusTitle(VocabularyCollectionStatus status) {
+String _statusTitle(BuildContext context, VocabularyCollectionStatus status) {
   switch (status) {
     case VocabularyCollectionStatus.mastered:
-      return 'Đã nắm chắc';
+      return context.l10n.text('statusMastered');
     case VocabularyCollectionStatus.reviewing:
-      return 'Đang ôn';
+      return context.l10n.text('statusReviewing');
     case VocabularyCollectionStatus.needsPractice:
-      return 'Các từ khó';
+      return context.l10n.text('statusDifficultWords');
   }
 }
 
-String _statusUnit(VocabularyCollectionStatus status) {
+String _statusUnit(BuildContext context, VocabularyCollectionStatus status) {
   switch (status) {
     case VocabularyCollectionStatus.mastered:
-      return 'từ chắc';
+      return context.l10n.text('masteredWordsUnit');
     case VocabularyCollectionStatus.reviewing:
-      return 'từ đang ôn';
+      return context.l10n.text('reviewingWordsUnit');
     case VocabularyCollectionStatus.needsPractice:
-      return 'từ cần luyện';
+      return context.l10n.text('practiceWordsUnit');
   }
 }
 
-String _statusDescription(VocabularyCollectionStatus status) {
+String _statusDescription(
+  BuildContext context,
+  VocabularyCollectionStatus status,
+) {
   switch (status) {
     case VocabularyCollectionStatus.mastered:
-      return 'Danh sách từ đã nắm vững để bạn nghe lại và xem chi tiết.';
+      return context.l10n.text('masteredWordsDescription');
     case VocabularyCollectionStatus.reviewing:
-      return 'Những từ đang đi qua lịch lặp lại để ghi nhớ lâu hơn.';
+      return context.l10n.text('reviewingWordsDescription');
     case VocabularyCollectionStatus.needsPractice:
-      return 'Những từ bạn thường nhầm hoặc cần thêm thời gian luyện tập.';
+      return context.l10n.text('practiceWordsDescription');
   }
 }
 
@@ -1233,8 +1243,8 @@ Color _statusColor(VocabularyCollectionStatus status) {
   }
 }
 
-String _levelLabel(int level) {
-  if (level <= 1) return 'sơ cấp';
-  if (level == 2) return 'trung cấp';
-  return 'nâng cao';
+String _levelLabel(BuildContext context, int level) {
+  if (level <= 1) return context.l10n.text('levelElementary');
+  if (level == 2) return context.l10n.text('levelIntermediateLower');
+  return context.l10n.text('levelAdvancedLower');
 }

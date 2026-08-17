@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../core/constants/app_colors.dart';
+import '../../core/localization/app_localizations.dart';
 import '../../data/models/topic.dart';
 
 // Legacy fallback for screens that do not yet receive the local progress map.
@@ -419,7 +420,13 @@ class TopicCard extends StatelessWidget {
                             ),
                             const SizedBox(height: 3),
                             Text(
-                              '$learned / ${topic.wordCount} từ',
+                              context.l10n.text(
+                                'topicLearnedWordProgress',
+                                values: {
+                                  'learned': '$learned',
+                                  'total': '${topic.wordCount}',
+                                },
+                              ),
                               style: const TextStyle(
                                 fontSize: 8,
                                 height: 1,

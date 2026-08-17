@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
+
 class SurveyIntroScreen extends StatefulWidget {
   const SurveyIntroScreen({super.key});
 
@@ -97,7 +99,7 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                       left: 28,
                       right: 28,
                       child: Text(
-                        'Hãy làm một khảo sát\nngắn nhé!',
+                        context.l10n.text('surveyIntroTitle'),
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: const Color(0xFF031B65),
@@ -113,8 +115,7 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                       left: 42,
                       right: 42,
                       child: Text(
-                        'Dựa vào câu trả lời của bạn, Leximon sẽ\n'
-                        'chọn ra cách học phù hợp nhất với bạn',
+                        context.l10n.text('surveyIntroSubtitle'),
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           color: const Color(0xFF032263),
@@ -169,10 +170,10 @@ class _SurveyIntroScreenState extends State<SurveyIntroScreen>
                                 '/onboarding/assessment-intro/survey/questions',
                               ),
                               borderRadius: BorderRadius.circular(34),
-                              child: const Center(
+                              child: Center(
                                 child: Text(
-                                  'Tiếp',
-                                  style: TextStyle(
+                                  context.l10n.continueLabel,
+                                  style: const TextStyle(
                                     color: Color(0xFF1263F4),
                                     fontSize: 26,
                                     fontWeight: FontWeight.w700,

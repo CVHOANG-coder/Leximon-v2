@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/reading_story.dart';
@@ -168,7 +169,10 @@ class _ReadingHeader extends StatelessWidget {
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        '$storyCount bài đọc',
+                        context.l10n.text(
+                          'readingCount',
+                          values: {'count': storyCount},
+                        ),
                         key: const ValueKey('reading-story-count'),
                         style: const TextStyle(
                           color: Color(0xFF435D91),
@@ -232,15 +236,15 @@ class _ReadingIntro extends StatelessWidget {
             height: 44,
             fit: BoxFit.contain,
             cacheWidth: 160,
-            semanticLabel: 'Ngôi sao Reading',
+            semanticLabel: context.l10n.text('readingStarSemantics'),
           ),
           const SizedBox(width: 12),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'Chọn một câu chuyện',
+                  context.l10n.text('readingChooseStory'),
                   style: TextStyle(
                     color: AppColors.primaryDark,
                     fontSize: 25,
@@ -251,7 +255,7 @@ class _ReadingIntro extends StatelessWidget {
                 ),
                 SizedBox(height: 8),
                 Text(
-                  'Chọn một bài đọc ngắn và bắt đầu học',
+                  context.l10n.text('readingChooseStoryBody'),
                   style: TextStyle(
                     color: AppColors.textSecondary,
                     fontSize: 13,
@@ -399,8 +403,8 @@ class _StoryCard extends StatelessWidget {
                           color: const Color(0xFFEAF8F1),
                           borderRadius: BorderRadius.circular(99),
                         ),
-                        child: const Text(
-                          'Dễ',
+                        child: Text(
+                          context.l10n.text('easy'),
                           style: TextStyle(
                             color: Color(0xFF2BB678),
                             fontSize: 10,
@@ -621,8 +625,8 @@ class _ReadingDetailScreenState extends State<ReadingDetailScreen> {
                       const SizedBox(width: 12),
                       _ReadingDetailActionButton(
                         tooltip: _showTranslation
-                            ? 'Xem bản tiếng Anh'
-                            : 'Xem bản dịch',
+                            ? context.l10n.text('readingViewEnglish')
+                            : context.l10n.text('readingViewTranslation'),
                         onTap: story.hasTranslation
                             ? () => setState(
                                 () => _showTranslation = !_showTranslation,
@@ -836,8 +840,8 @@ class _ReadingWordSheetState extends State<_ReadingWordSheet> {
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const AppBottomSheetTitle(
-            title: 'Từ trong bài đọc',
+          AppBottomSheetTitle(
+            title: context.l10n.text('readingWordsTitle'),
             icon: Icons.menu_book_rounded,
           ),
           const SizedBox(height: 20),
@@ -870,7 +874,10 @@ class _ReadingWordSheetState extends State<_ReadingWordSheet> {
                     IconButton.filledTonal(
                       key: const ValueKey('reading-word-speaker-button'),
                       onPressed: _speak,
-                      tooltip: 'Phát âm từ ${widget.word.writing}',
+                      tooltip: context.l10n.text(
+                        'pronounceWord',
+                        values: {'word': widget.word.writing},
+                      ),
                       icon: const Icon(Icons.volume_up_rounded),
                       style: IconButton.styleFrom(
                         foregroundColor: const Color(0xFF2778D7),
@@ -922,7 +929,9 @@ class _ReadingWordSheetState extends State<_ReadingWordSheet> {
                           : Icons.add_circle_outline_rounded,
                     ),
               label: Text(
-                _isSaved ? 'Đã thêm vào danh sách học' : 'Thêm từ học',
+                context.l10n.text(
+                  _isSaved ? 'readingWordSaved' : 'readingAddWord',
+                ),
               ),
             ),
           ),
@@ -972,8 +981,8 @@ class _ReadingTranslatedWordSheetState
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const AppBottomSheetTitle(
-            title: 'Dịch từ trong bài đọc',
+          AppBottomSheetTitle(
+            title: context.l10n.text('readingTranslateTitle'),
             icon: Icons.translate_rounded,
           ),
           const SizedBox(height: 20),
@@ -1003,7 +1012,7 @@ class _ReadingTranslatedWordSheetState
                   future: _translation,
                   builder: (context, snapshot) {
                     if (snapshot.connectionState != ConnectionState.done) {
-                      return const Row(
+                      return Row(
                         key: ValueKey('reading-word-translation-loading'),
                         children: [
                           SizedBox.square(
@@ -1013,7 +1022,7 @@ class _ReadingTranslatedWordSheetState
                           SizedBox(width: 10),
                           Expanded(
                             child: Text(
-                              'Đang tải mô hình và dịch nghĩa…',
+                              context.l10n.text('readingTranslating'),
                               style: TextStyle(
                                 color: AppColors.textSecondary,
                                 fontSize: 14,
@@ -1025,8 +1034,8 @@ class _ReadingTranslatedWordSheetState
                     }
                     if (snapshot.hasError ||
                         (snapshot.data?.trim().isEmpty ?? true)) {
-                      return const Text(
-                        'Chưa thể dịch từ này. Vui lòng kiểm tra kết nối mạng và thử lại.',
+                      return Text(
+                        context.l10n.text('readingTranslationError'),
                         key: ValueKey('reading-word-translation-error'),
                         style: TextStyle(
                           color: AppColors.textSecondary,
@@ -1052,8 +1061,8 @@ class _ReadingTranslatedWordSheetState
             ),
           ),
           const SizedBox(height: 12),
-          const Text(
-            'Bản dịch được tạo trên thiết bị bằng Google ML Kit.',
+          Text(
+            context.l10n.text('readingTranslationAttribution'),
             style: TextStyle(
               color: AppColors.textMuted,
               fontSize: 11,
@@ -1149,13 +1158,13 @@ class _ReadingError extends StatelessWidget {
             color: AppColors.primary,
           ),
           const SizedBox(height: 12),
-          const Text(
-            'Chưa thể mở danh sách bài đọc',
+          Text(
+            context.l10n.text('readingListOpenError'),
             textAlign: TextAlign.center,
             style: TextStyle(fontSize: 17, fontWeight: FontWeight.w800),
           ),
           const SizedBox(height: 14),
-          FilledButton(onPressed: onRetry, child: const Text('Thử lại')),
+          FilledButton(onPressed: onRetry, child: Text(context.l10n.retry)),
         ],
       ),
     ),

@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/services/daily_card_service.dart';
@@ -114,9 +115,9 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           icon: Icons.arrow_back_rounded,
           onPressed: () => Navigator.of(context).pop(),
         ),
-        const Expanded(
+        Expanded(
           child: Text(
-            'Chi tiết chủ đề',
+            context.l10n.text('topicDetailTitle'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: AppColors.textPrimary,
@@ -231,10 +232,10 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                       ),
                     ),
                     const SizedBox(width: 9),
-                    const Expanded(
+                    Expanded(
                       child: Text(
-                        'TIẾN ĐỘ CHỦ ĐỀ',
-                        style: TextStyle(
+                        context.l10n.text('topicProgress'),
+                        style: const TextStyle(
                           color: AppColors.textSecondary,
                           fontSize: 9,
                           fontWeight: FontWeight.w800,
@@ -268,7 +269,13 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
                 ),
                 const SizedBox(height: 12),
                 Text(
-                  '$progressedWords / ${_progressDetails.totalWords} từ',
+                  context.l10n.text(
+                    'wordProgress',
+                    values: {
+                      'completed': progressedWords,
+                      'total': _progressDetails.totalWords,
+                    },
+                  ),
                   style: const TextStyle(
                     color: AppColors.textPrimary,
                     fontSize: 17,
@@ -293,7 +300,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           child: _StatCard(
             iconAsset: 'assets/svgs/complete.svg',
             value: '$rememberedWords',
-            label: 'Đã nhớ',
+            label: context.l10n.text('remembered'),
             color: AppColors.green,
           ),
         ),
@@ -302,7 +309,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           child: _StatCard(
             iconAsset: 'assets/svgs/need_practice.svg',
             value: '$reviewWords',
-            label: 'Cần ôn',
+            label: context.l10n.text('needsReview'),
             color: AppColors.primary,
           ),
         ),
@@ -311,7 +318,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           child: _StatCard(
             iconAsset: 'assets/svgs/study.svg',
             value: '$activeWords',
-            label: 'Đang học',
+            label: context.l10n.text('learningNow'),
             color: AppColors.yellow,
           ),
         ),
@@ -345,15 +352,15 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const _SectionHeading(
-            kicker: 'Hành động chính',
-            title: 'Bạn muốn làm gì?',
+          _SectionHeading(
+            kicker: context.l10n.text('primaryActions'),
+            title: context.l10n.text('whatWouldYouLikeToDo'),
           ),
           const SizedBox(height: 15),
           _ActionItem(
             iconAsset: 'assets/svgs/new.svg',
-            title: 'Học từ mới',
-            description: 'Bắt đầu với những từ bạn chưa học trong chủ đề này.',
+            title: context.l10n.text('learnNewWords'),
+            description: context.l10n.text('learnNewWordsTopicBody'),
             color: const Color(0xFFFFF9E8),
             iconBackground: const Color(0xFFFFF0BD),
             accentColor: const Color(0xFFE6A600),
@@ -362,10 +369,16 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           const SizedBox(height: 10),
           _ActionItem(
             iconAsset: 'assets/svgs/repeat.svg',
-            title: 'Ôn lặp lại',
+            title: context.l10n.text('spacedReview'),
             description: canRepeat
-                ? '$repeatableCount từ đã học sẵn sàng để ôn theo từng lượt.'
-                : 'Cần ít nhất ${TopicRepetitionService.minimumWordCount} từ đã học để bắt đầu.',
+                ? context.l10n.text(
+                    'topicReviewReady',
+                    values: {'count': repeatableCount},
+                  )
+                : context.l10n.text(
+                    'topicReviewMinimum',
+                    values: {'count': TopicRepetitionService.minimumWordCount},
+                  ),
             color: const Color(0xFFF3F7FF),
             iconBackground: const Color(0xFFE8F0FF),
             accentColor: AppColors.primary,
@@ -383,9 +396,9 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           ],
           if (repetitionData.hasError) ...[
             const SizedBox(height: 10),
-            const Text(
-              'Chưa thể tải danh sách từ ôn. Hãy thử mở lại màn hình.',
-              style: TextStyle(
+            Text(
+              context.l10n.text('topicReviewLoadError'),
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 10,
                 height: 1.4,
@@ -396,8 +409,8 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
             const SizedBox(height: 10),
             _ActionItem(
               iconAsset: 'assets/svgs/match_sentence.svg',
-              title: 'Ghép câu theo chủ đề',
-              description: 'Luyện 4 từ đã học trong các câu thuộc chủ đề này.',
+              title: context.l10n.text('topicSentencePractice'),
+              description: context.l10n.text('topicSentencePracticeBody'),
               color: const Color(0xFFF3F1FF),
               iconBackground: const Color(0xFFE5E1FF),
               accentColor: const Color(0xFF5E55C9),
@@ -417,23 +430,26 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Expanded(
+              Expanded(
                 child: _SectionHeading(
-                  kicker: 'Xem nhanh',
-                  title: 'Một vài từ trong chủ đề',
+                  kicker: context.l10n.text('quickLook'),
+                  title: context.l10n.text('topicPreviewTitle'),
                 ),
               ),
               TextButton(
                 onPressed: _openWordStudy,
-                child: const Text('Xem tất cả'),
+                child: Text(context.l10n.text('viewAll')),
               ),
             ],
           ),
           const SizedBox(height: 10),
           if (previewWords.isEmpty)
-            const Text(
-              'Chưa có từ trong topic này.',
-              style: TextStyle(color: AppColors.textSecondary, fontSize: 10),
+            Text(
+              context.l10n.text('topicNoWords'),
+              style: const TextStyle(
+                color: AppColors.textSecondary,
+                fontSize: 10,
+              ),
             )
           else
             ...previewWords.map(_wordRow),
@@ -555,17 +571,16 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
             child: Text.rich(
               TextSpan(
                 children: [
-                  const TextSpan(
-                    text: 'Gợi ý từ Leximon\n',
-                    style: TextStyle(
+                  TextSpan(
+                    text: '${context.l10n.text('leximonTip')}\n',
+                    style: const TextStyle(
                       color: AppColors.textPrimary,
                       fontSize: 13,
                       fontWeight: FontWeight.w700,
                     ),
                   ),
                   TextSpan(
-                    text:
-                        'Hãy ôn các từ đang đến hạn trước khi học từ mới để đạt hiệu quả tốt hơn.',
+                    text: context.l10n.text('topicReviewTip'),
                     style: const TextStyle(
                       color: AppColors.textSecondary,
                       fontSize: 10,
@@ -602,7 +617,10 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
       if (!mounted) return;
       if (!data.canStart) {
         _showMessage(
-          'Bạn cần ít nhất ${TopicRepetitionService.minimumWordCount} từ đã học để bắt đầu ôn.',
+          context.l10n.text(
+            'topicReviewMinimum',
+            values: {'count': TopicRepetitionService.minimumWordCount},
+          ),
         );
         return;
       }
@@ -610,7 +628,10 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
       await Navigator.of(context).push<bool>(
         MaterialPageRoute<bool>(
           builder: (_) => RepetitionPracticeScreen(
-            title: 'Ôn • ${topic.translated}',
+            title: context.l10n.text(
+              'topicReviewTitle',
+              values: {'topic': topic.translated},
+            ),
             topicId: topic.id,
             words: data.words,
             distractorWords: data.distractorWords,
@@ -628,7 +649,7 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
       ref.invalidate(vocabularyCollectionProvider);
     } catch (_) {
       if (mounted) {
-        _showMessage('Không thể mở buổi ôn lúc này. Vui lòng thử lại.');
+        _showMessage(context.l10n.text('topicReviewOpenError'));
       }
     } finally {
       if (mounted) setState(() => _isOpeningRepetition = false);
@@ -662,13 +683,16 @@ class _TopicDetailScreenState extends ConsumerState<TopicDetailScreen> {
   String _topicDescription(Topic value) {
     switch (value.order) {
       case 1:
-        return 'Từ vựng dùng khi di chuyển, đặt phòng, hỏi đường và giao tiếp trong chuyến đi.';
+        return context.l10n.text('topicTravelDescription');
       case 2:
-        return 'Những từ thường gặp khi mua sắm, chọn sản phẩm và thanh toán.';
+        return context.l10n.text('topicShoppingDescription');
       case 3:
-        return 'Từ vựng để nói về gia đình, bạn bè và các mối quan hệ.';
+        return context.l10n.text('topicRelationshipsDescription');
       default:
-        return 'Khám phá những từ vựng thiết yếu trong chủ đề ${value.translated}.';
+        return context.l10n.text(
+          'topicFallbackDescription',
+          values: {'topic': value.translated},
+        );
     }
   }
 }
@@ -745,9 +769,9 @@ class _TopicLabel extends StatelessWidget {
       color: AppColors.surfaceBlue,
       borderRadius: BorderRadius.circular(99),
     ),
-    child: const Text(
-      'Chủ đề đang học',
-      style: TextStyle(
+    child: Text(
+      context.l10n.text('currentlyLearningTopic'),
+      style: const TextStyle(
         color: AppColors.primary,
         fontSize: 9,
         fontWeight: FontWeight.w800,
@@ -984,7 +1008,9 @@ class _ActionItem extends StatelessWidget {
                           borderRadius: BorderRadius.circular(99),
                         ),
                         child: Text(
-                          isDisabled ? 'Chưa mở' : 'Sẵn sàng',
+                          context.l10n.text(
+                            isDisabled ? 'locked' : 'available',
+                          ),
                           style: TextStyle(
                             color: stateColor,
                             fontSize: 8,
@@ -1031,10 +1057,13 @@ class _RepetitionRequirement extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Expanded(
+              Expanded(
                 child: Text(
-                  'Ngay khi có 8 từ, bạn có thể bắt đầu lặp lại chúng',
-                  style: TextStyle(
+                  context.l10n.text(
+                    'topicReviewRequirement',
+                    values: {'count': required},
+                  ),
+                  style: const TextStyle(
                     color: AppColors.textSecondary,
                     fontSize: 10,
                     height: 1.4,

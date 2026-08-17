@@ -4,6 +4,7 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/practice_exercise.dart';
@@ -17,7 +18,7 @@ class RepetitionPracticeScreen extends StatefulWidget {
     required this.words,
     required this.distractorWords,
     required this.database,
-    this.title = 'Ôn lặp lại',
+    this.title,
     this.topicId,
     this.loadNextWords,
     super.key,
@@ -26,7 +27,7 @@ class RepetitionPracticeScreen extends StatefulWidget {
   final List<ExerciseWord> words;
   final List<ExerciseWord> distractorWords;
   final AppDatabase database;
-  final String title;
+  final String? title;
   final int? topicId;
   final Future<List<ExerciseWord>> Function()? loadNextWords;
 
@@ -203,10 +204,10 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
       _isAnswerSubmitted = true;
       _timedOut = timedOut;
       _feedbackTitle = timedOut
-          ? 'Hết giờ'
+          ? 'repetitionTimeUp'
           : isCorrect
-          ? 'Đã trả lời đúng'
-          : 'Chưa đúng';
+          ? 'repetitionAnsweredCorrectly'
+          : 'repetitionNotCorrect';
       _answeredCount++;
       if (isCorrect) _correctCount++;
       if (!isCorrect && !isRetry) {
@@ -321,9 +322,7 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
       ScaffoldMessenger.of(context)
         ..hideCurrentSnackBar()
         ..showSnackBar(
-          const SnackBar(
-            content: Text('Không thể tải danh sách ôn tập. Vui lòng thử lại.'),
-          ),
+          SnackBar(content: Text(context.l10n.text('repetitionLoadError'))),
         );
       return;
     }
@@ -334,7 +333,7 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
       ScaffoldMessenger.of(context)
         ..hideCurrentSnackBar()
         ..showSnackBar(
-          const SnackBar(content: Text('Hiện không còn từ đến hạn ôn.')),
+          SnackBar(content: Text(context.l10n.text('repetitionNoDueWords'))),
         );
       return;
     }
@@ -366,11 +365,11 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
       context: context,
       builder: (dialogContext) => AppDialog(
         imageAsset: 'assets/images/cancel_icon_dialog.png',
-        title: 'Thoát buổi ôn?',
-        message: 'Tiến độ của nhóm hiện tại sẽ không được ghi nhận.',
-        secondaryLabel: 'Ở lại',
+        title: context.l10n.text('repetitionExitTitle'),
+        message: context.l10n.text('repetitionExitBody'),
+        secondaryLabel: context.l10n.text('repetitionStay'),
         onSecondary: () => Navigator.of(dialogContext).pop(false),
-        primaryLabel: 'Thoát',
+        primaryLabel: context.l10n.text('exit'),
         onPrimary: () => Navigator.of(dialogContext).pop(true),
       ),
     );
@@ -405,7 +404,9 @@ class _RepetitionPracticeScreenState extends State<RepetitionPracticeScreen> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
                     child: _RepetitionTopBar(
-                      title: widget.title,
+                      title:
+                          widget.title ??
+                          context.l10n.text('repetitionDefaultTitle'),
                       onClose: _requestClose,
                     ),
                   ),
@@ -643,8 +644,11 @@ class _RepetitionStats extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const Expanded(
-          child: _StatCard(label: 'Dạng câu hỏi', value: 'Dịch nghĩa'),
+        Expanded(
+          child: _StatCard(
+            label: context.l10n.text('repetitionQuestionType'),
+            value: context.l10n.text('repetitionTranslateMeaning'),
+          ),
         ),
         const SizedBox(width: 8),
         Expanded(
@@ -656,14 +660,23 @@ class _RepetitionStats extends StatelessWidget {
         const SizedBox(width: 8),
         Expanded(
           child: _StatCard(
-            label: 'Tiến độ',
+            label: context.l10n.text('repetitionProgress'),
             value: questionCount == 0
-                ? '$chunkCount nhóm'
+                ? context.l10n.text(
+                    'repetitionGroupCount',
+                    values: {'count': '$chunkCount'},
+                  )
                 : '${questionIndex + 1} / $questionCount',
             subvalue: isRetry
-                ? 'Luyện lại'
+                ? context.l10n.text('repetitionPracticeAgain')
                 : chunkCount > 1
-                ? 'Nhóm ${chunkIndex + 1}/$chunkCount'
+                ? context.l10n.text(
+                    'repetitionCurrentGroup',
+                    values: {
+                      'current': '${chunkIndex + 1}',
+                      'total': '$chunkCount',
+                    },
+                  )
                 : null,
           ),
         ),
@@ -763,12 +776,12 @@ class _TimerStatCard extends StatelessWidget {
           Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Text(
-                'Thời gian',
+              Text(
+                context.l10n.text('repetitionTime'),
                 textAlign: TextAlign.center,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Color(0xFF5680B7),
                   fontSize: 13,
                   fontWeight: FontWeight.w500,
@@ -826,16 +839,33 @@ class _IntroContent extends StatelessWidget {
       children: [
         _InfoCard(
           icon: Icons.bolt_rounded,
-          title: 'Sẵn sàng ôn lại?',
-          description:
-              'Mỗi từ có 5 giây để trả lời. Các từ được chia thành nhóm tối đa 20 từ để bạn giữ nhịp học tập.',
+          title: context.l10n.text('repetitionReadyTitle'),
+          description: context.l10n.text('repetitionReadyBody'),
           child: Column(
             children: [
-              _InfoRow(label: 'Tổng số từ', value: '$totalWords từ'),
+              _InfoRow(
+                label: context.l10n.text('repetitionTotalWords'),
+                value: context.l10n.text(
+                  'repetitionWordsValue',
+                  values: {'count': '$totalWords'},
+                ),
+              ),
               const Divider(height: 1, color: Color(0xFFDCE7F3)),
-              _InfoRow(label: 'Mỗi lượt', value: '$chunkSize từ'),
+              _InfoRow(
+                label: context.l10n.text('repetitionPerRound'),
+                value: context.l10n.text(
+                  'repetitionWordsValue',
+                  values: {'count': '$chunkSize'},
+                ),
+              ),
               const Divider(height: 1, color: Color(0xFFDCE7F3)),
-              _InfoRow(label: 'Số lượt', value: '$chunks nhóm'),
+              _InfoRow(
+                label: context.l10n.text('repetitionRoundCount'),
+                value: context.l10n.text(
+                  'repetitionGroupCount',
+                  values: {'count': '$chunks'},
+                ),
+              ),
             ],
           ),
         ),
@@ -877,7 +907,7 @@ class _RepetitionStartButton extends StatelessWidget {
       child: FilledButton.icon(
         onPressed: onPressed,
         icon: const Icon(Icons.play_arrow_rounded, size: 27),
-        label: const Text('Bắt đầu ôn'),
+        label: Text(context.l10n.text('repetitionStart')),
         style: FilledButton.styleFrom(
           minimumSize: const Size.fromHeight(56),
           backgroundColor: Colors.transparent,
@@ -920,25 +950,25 @@ class _CountdownContent extends StatelessWidget {
       ),
       child: Column(
         children: [
-          const Row(
+          Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text(
+              const Text(
                 '✦',
                 style: TextStyle(color: Color(0xFF83B3FF), fontSize: 16),
               ),
-              SizedBox(width: 13),
+              const SizedBox(width: 13),
               Text(
-                'SẴN SÀNG',
-                style: TextStyle(
+                context.l10n.text('repetitionReadyEyebrow'),
+                style: const TextStyle(
                   color: AppColors.primary,
                   fontSize: 15,
                   fontWeight: FontWeight.w900,
                   letterSpacing: 2,
                 ),
               ),
-              SizedBox(width: 13),
-              Text(
+              const SizedBox(width: 13),
+              const Text(
                 '✦',
                 style: TextStyle(color: Color(0xFF83B3FF), fontSize: 16),
               ),
@@ -1006,7 +1036,10 @@ class _CountdownContent extends StatelessWidget {
           ),
           const SizedBox(height: 26),
           Text(
-            '$totalWords từ sắp bắt đầu',
+            context.l10n.text(
+              'repetitionStartingWords',
+              values: {'count': '$totalWords'},
+            ),
             textAlign: TextAlign.center,
             style: const TextStyle(
               color: AppColors.textPrimary,
@@ -1016,10 +1049,10 @@ class _CountdownContent extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 15),
-          const Text(
-            'Mỗi từ có 5 giây. Từ trả lời sai sẽ xuất hiện lại cuối lượt.',
+          Text(
+            context.l10n.text('repetitionTimerHint'),
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               color: AppColors.textSecondary,
               fontSize: 15,
               height: 1.55,
@@ -1169,9 +1202,9 @@ class _WordPreviewCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'TỪ SẮP ÔN',
-            style: TextStyle(
+          Text(
+            context.l10n.text('repetitionUpcomingWords'),
+            style: const TextStyle(
               color: AppColors.primary,
               fontSize: 10,
               fontWeight: FontWeight.w800,
@@ -1281,18 +1314,18 @@ class _PracticeContent extends StatelessWidget {
                       color: AppColors.surfaceBlue,
                       borderRadius: BorderRadius.circular(999),
                     ),
-                    child: const Row(
+                    child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.bolt_rounded,
                           color: Color(0xFFFF8A20),
                           size: 18,
                         ),
-                        SizedBox(width: 5),
+                        const SizedBox(width: 5),
                         Text(
-                          '5 giây / từ',
-                          style: TextStyle(
+                          context.l10n.text('repetitionSecondsPerWord'),
+                          style: const TextStyle(
                             color: AppColors.primary,
                             fontWeight: FontWeight.w900,
                             fontSize: 13,
@@ -1316,7 +1349,7 @@ class _PracticeContent extends StatelessWidget {
                       ],
                     ),
                     child: IconButton(
-                      tooltip: 'Phát âm',
+                      tooltip: context.l10n.text('pronunciation'),
                       onPressed: () => onPlay(question.word),
                       icon: const Icon(Icons.volume_up_rounded, size: 27),
                       color: AppColors.primary,
@@ -1325,9 +1358,9 @@ class _PracticeContent extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 18),
-              const Text(
-                'Chọn bản dịch đúng cho từ bên dưới',
-                style: TextStyle(
+              Text(
+                context.l10n.text('repetitionChooseTranslation'),
+                style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 15,
                   height: 1.25,
@@ -1364,9 +1397,12 @@ class _PracticeContent extends StatelessWidget {
                   Text(
                     isSubmitted
                         ? (timedOut
-                              ? 'Đã hết thời gian'
-                              : 'Đã ghi nhận câu trả lời')
-                        : 'Tự động chuyển sau ${secondsLeft.ceil()} giây',
+                              ? context.l10n.text('repetitionTimeExpired')
+                              : context.l10n.text('repetitionAnswerRecorded'))
+                        : context.l10n.text(
+                            'repetitionAutoAdvance',
+                            values: {'seconds': '${secondsLeft.ceil()}'},
+                          ),
                     style: const TextStyle(
                       color: Color(0xFF5276AA),
                       fontSize: 12,
@@ -1397,11 +1433,11 @@ class _PracticeContent extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 18),
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 6),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 6),
           child: Text(
-            'CHỌN MỘT ĐÁP ÁN',
-            style: TextStyle(
+            context.l10n.text('chooseOneAnswer'),
+            style: const TextStyle(
               color: Color(0xFF4F76B0),
               fontSize: 12,
               fontWeight: FontWeight.w900,
@@ -1425,17 +1461,17 @@ class _PracticeContent extends StatelessWidget {
         ),
         if (isSubmitted && feedbackTitle != null)
           _FeedbackToast(
-            title: feedbackTitle!,
+            title: context.l10n.text(feedbackTitle!),
             isCorrect: !timedOut && selectedAnswer?.id == question.word.id,
             correctTranslation: question.word.translation,
           )
         else
-          const Padding(
-            padding: EdgeInsets.only(top: 7, bottom: 2),
+          Padding(
+            padding: const EdgeInsets.only(top: 7, bottom: 2),
             child: Text(
-              'Trả lời nhanh để giữ nhịp ôn tập.',
+              context.l10n.text('repetitionKeepPaceHint'),
               textAlign: TextAlign.center,
-              style: TextStyle(
+              style: const TextStyle(
                 color: Color(0xFF6686B5),
                 fontSize: 14,
                 fontWeight: FontWeight.w700,
@@ -1597,7 +1633,10 @@ class _FeedbackToast extends StatelessWidget {
                 ),
                 const SizedBox(height: 3),
                 Text(
-                  'Đáp án đúng: “$correctTranslation”.',
+                  context.l10n.text(
+                    'repetitionCorrectAnswer',
+                    values: {'answer': correctTranslation},
+                  ),
                   style: const TextStyle(
                     color: Color(0xCCE6F0FF),
                     fontSize: 12,
@@ -1670,7 +1709,7 @@ class _DoneContent extends StatelessWidget {
             ),
             const SizedBox(height: 2),
             Text(
-              'Hoàn thành rồi!',
+              context.l10n.text('repetitionCompleteTitle'),
               textAlign: TextAlign.center,
               style: const TextStyle(
                 color: Color(0xFF103D93),
@@ -1683,13 +1722,15 @@ class _DoneContent extends StatelessWidget {
             const SizedBox(height: 2),
             Text.rich(
               TextSpan(
-                text: 'Bạn đã ôn ',
+                text: '${context.l10n.text('repetitionCompletePrefix')} ',
                 children: [
                   TextSpan(
                     text: '$dailyRepeatedCount',
                     style: const TextStyle(color: AppColors.primary),
                   ),
-                  const TextSpan(text: ' từ hôm nay.'),
+                  TextSpan(
+                    text: ' ${context.l10n.text('repetitionCompleteSuffix')}',
+                  ),
                 ],
               ),
               textAlign: TextAlign.center,
@@ -1707,7 +1748,7 @@ class _DoneContent extends StatelessWidget {
                   child: _ResultMetric(
                     icon: Icons.check_rounded,
                     color: const Color(0xFF45B68A),
-                    label: 'Đúng',
+                    label: context.l10n.text('repetitionCorrectStat'),
                     value: '$correct',
                   ),
                 ),
@@ -1716,7 +1757,7 @@ class _DoneContent extends StatelessWidget {
                   child: _ResultMetric(
                     icon: Icons.menu_book_rounded,
                     color: AppColors.primary,
-                    label: 'Từ gốc',
+                    label: context.l10n.text('repetitionOriginalWordStat'),
                     value: '$total',
                   ),
                 ),
@@ -1725,7 +1766,7 @@ class _DoneContent extends StatelessWidget {
                   child: _ResultMetric(
                     icon: Icons.bar_chart_rounded,
                     color: const Color(0xFF6044E8),
-                    label: 'Lượt làm',
+                    label: context.l10n.text('repetitionAttemptStat'),
                     value: '$answered',
                   ),
                 ),
@@ -1733,7 +1774,9 @@ class _DoneContent extends StatelessWidget {
             ),
             const SizedBox(height: 26),
             _ResultPrimaryButton(
-              label: isLoading ? 'Đang tải...' : 'Tiếp tục ôn',
+              label: isLoading
+                  ? context.l10n.text('loading')
+                  : context.l10n.text('repetitionContinue'),
               onPressed: isLoading ? null : onRestart,
             ),
             const SizedBox(height: 4),
@@ -1746,7 +1789,7 @@ class _DoneContent extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                 ),
               ),
-              child: const Text('Kết thúc'),
+              child: Text(context.l10n.text('repetitionFinish')),
             ),
           ],
         ),
@@ -1959,11 +2002,11 @@ class _EmptyPracticeContent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const _ResultCard(
+    return _ResultCard(
       icon: Icons.menu_book_rounded,
-      title: 'Chưa có từ để ôn',
-      description: 'Danh sách này hiện không có từ phù hợp để bắt đầu.',
-      primaryLabel: 'Đóng',
+      title: context.l10n.text('repetitionEmptyTitle'),
+      description: context.l10n.text('repetitionEmptyBody'),
+      primaryLabel: context.l10n.text('close'),
       onPrimary: null,
     );
   }

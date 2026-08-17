@@ -5,6 +5,8 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:timezone/data/latest.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
+import '../localization/app_localizations.dart';
+
 enum DailyNotificationPermissionResult { granted, denied, permanentlyDenied }
 
 class DailyNotificationService {
@@ -76,7 +78,11 @@ class DailyNotificationService {
     return DailyNotificationPermissionResult.granted;
   }
 
-  Future<void> scheduleDaily({required int hour, required int minute}) async {
+  Future<void> scheduleDaily({
+    required int hour,
+    required int minute,
+    AppLocalizations? localizations,
+  }) async {
     await _initialize();
     await cancelDaily();
 
@@ -93,21 +99,21 @@ class DailyNotificationService {
       scheduledDate = scheduledDate.add(const Duration(days: 1));
     }
 
+    final l10n = localizations ?? AppLocalizations.fallback();
     await _plugin.zonedSchedule(
       id: _notificationId,
-      title: 'Đến giờ học rồi! 📚',
-      body: 'Dành vài phút ôn từ vựng cùng Leximon nhé.',
+      title: l10n.text('notificationStudyTitle'),
+      body: l10n.text('notificationStudyBody'),
       scheduledDate: scheduledDate,
-      notificationDetails: const NotificationDetails(
+      notificationDetails: NotificationDetails(
         android: AndroidNotificationDetails(
           _channelId,
-          'Nhắc học hằng ngày',
-          channelDescription:
-              'Thông báo nhắc bạn duy trì thói quen học từ vựng.',
+          l10n.text('notificationChannelName'),
+          channelDescription: l10n.text('notificationChannelDescription'),
           importance: Importance.defaultImportance,
           priority: Priority.defaultPriority,
         ),
-        iOS: DarwinNotificationDetails(
+        iOS: const DarwinNotificationDetails(
           presentAlert: true,
           presentBadge: true,
           presentSound: true,

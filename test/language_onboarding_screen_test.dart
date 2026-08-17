@@ -138,5 +138,10 @@ void main() {
       isFalse,
     );
     expect(container.read(selectedAppLanguageProvider), 'de');
+
+    router.pop();
+    await tester.pumpAndSettle();
+    expect(find.text('Tiếp'), findsOneWidget);
+    expect(find.byType(CircularProgressIndicator), findsNothing);
   });
 }

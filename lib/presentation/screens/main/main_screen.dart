@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../discover/discover_screen.dart';
 import '../home/home_screen.dart';
@@ -26,7 +27,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Consumer(
       builder: (context, ref, child) {
-        final tabs = _buildTabs(ref);
+        final tabs = _buildTabs(context, ref);
         final selectedIndex = _selectedIndex >= tabs.length
             ? tabs.length - 1
             : _selectedIndex;
@@ -71,24 +72,24 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
 
-  List<_MainTab> _buildTabs(WidgetRef ref) => [
-    const _MainTab(
-      label: 'Học tập',
+  List<_MainTab> _buildTabs(BuildContext context, WidgetRef ref) => [
+    _MainTab(
+      label: context.l10n.navStudy,
       icon: Icons.menu_book_outlined,
       screen: HomeScreen(),
     ),
-    const _MainTab(
-      label: 'Tiến độ',
+    _MainTab(
+      label: context.l10n.navProgress,
       icon: Icons.bar_chart_outlined,
       screen: DiscoverScreen(),
     ),
-    const _MainTab(
-      label: 'Thử thách',
+    _MainTab(
+      label: context.l10n.navChallenges,
       icon: Icons.shield_outlined,
       screen: MessagesScreen(),
     ),
     _MainTab(
-      label: 'Cá nhân',
+      label: context.l10n.navProfile,
       screen: ProfileScreen(onViewProgress: () => _selectTab(ref, 1)),
       profile: true,
     ),

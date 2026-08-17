@@ -8,6 +8,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:lottie/lottie.dart';
 
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/daily_notification_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
@@ -91,9 +92,7 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
       if (!mounted) return;
       setState(() => _isFinishing = false);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Không thể lưu tiến độ. Vui lòng thử lại.'),
-        ),
+        SnackBar(content: Text(context.l10n.text('surveySaveProgressError'))),
       );
     }
   }
@@ -107,7 +106,7 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
     } on Object {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Không thể lưu chủ đề đã chọn.')),
+        SnackBar(content: Text(context.l10n.text('surveySaveTopicsError'))),
       );
     }
   }
@@ -347,12 +346,12 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
                       padding: const EdgeInsets.fromLTRB(24, 10, 24, 18),
                       child: _SurveyContinueButton(
                         label: switch (_currentPage) {
-                          2 => 'Tiếp tục cùng Leximon',
-                          5 => 'Tiếp tục hành trình',
-                          8 => 'Tiếp tục',
-                          10 => 'Tuyệt vời!',
-                          14 => 'Bắt đầu học nào!',
-                          _ => 'Tiếp',
+                          2 => context.l10n.text('surveyContinueWithLeximon'),
+                          5 => context.l10n.text('surveyContinueJourney'),
+                          8 => context.l10n.continueLabel,
+                          10 => context.l10n.text('surveyGreat'),
+                          14 => context.l10n.text('surveyStartLearning'),
+                          _ => context.l10n.continueLabel,
                         },
                         showArrow: _currentPage == 5,
                         useBlueGradient: _currentPage == 14,
@@ -456,11 +455,11 @@ class _AgeSurveyPage extends StatelessWidget {
   const _AgeSurveyPage({required this.selectedAge, required this.onSelected});
 
   static const _ages = [
-    'Dưới 16 tuổi',
+    'surveyAgeUnder16',
     '16–25',
     '26–35',
     '36–50',
-    'Trên 50 tuổi',
+    'surveyAgeOver50',
   ];
 
   final int? selectedAge;
@@ -472,8 +471,8 @@ class _AgeSurveyPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 36),
       child: Column(
         children: [
-          const Text(
-            'Bạn bao nhiêu tuổi?',
+          Text(
+            context.l10n.text('surveyAgeQuestion'),
             textAlign: TextAlign.center,
             style: _SurveyStyles.questionTitle,
           ),
@@ -521,7 +520,7 @@ class _AgeOptionCard extends StatelessWidget {
             children: [
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   style: const TextStyle(
                     color: Color(0xFF061B62),
                     fontSize: 18,
@@ -542,28 +541,19 @@ class _GoalSurveyPage extends StatelessWidget {
   const _GoalSurveyPage({required this.selectedGoals, required this.onToggle});
 
   static const _goals = [
+    (label: 'surveyGoalCareer', asset: 'assets/images/onboarding/job.png'),
+    (label: 'surveyGoalTravel', asset: 'assets/images/onboarding/travel.png'),
+    (label: 'surveyGoalEducation', asset: 'assets/images/onboarding/study.png'),
     (
-      label: 'Để tìm việc mới và phát triển nghề nghiệp',
-      asset: 'assets/images/onboarding/job.png',
-    ),
-    (
-      label: 'Để giao tiếp khi đi du lịch nước ngoài',
-      asset: 'assets/images/onboarding/travel.png',
-    ),
-    (
-      label: 'Để nâng cao kết quả học tập hoặc vào đại học',
-      asset: 'assets/images/onboarding/study.png',
-    ),
-    (
-      label: 'Để xem phim, đọc sách báo, nghe nhạc',
+      label: 'surveyGoalEntertainment',
       asset: 'assets/images/onboarding/entertainment.png',
     ),
     (
-      label: 'Tôi sống ở nước ngoài hoặc dự định chuyển ra nước ngoài',
+      label: 'surveyGoalAbroad',
       asset: 'assets/images/onboarding/go_aboard.png',
     ),
     (
-      label: 'Phát triển cá nhân',
+      label: 'surveyGoalPersonal',
       asset: 'assets/images/onboarding/develop_self.png',
     ),
   ];
@@ -577,8 +567,8 @@ class _GoalSurveyPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 25),
       child: Column(
         children: [
-          const Text(
-            'Tại sao bạn lại học tiếng Anh?',
+          Text(
+            context.l10n.text('surveyGoalQuestion'),
             textAlign: TextAlign.center,
             style: _SurveyStyles.questionTitle,
           ),
@@ -647,7 +637,7 @@ class _GoalOptionCard extends StatelessWidget {
               const SizedBox(width: 14),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -678,23 +668,25 @@ class _FrequencySurveyPage extends StatelessWidget {
 
   static const _frequencies = [
     (
-      label: 'Hiếm khi, ví dụ như để dịch một từ',
+      label: 'surveyFrequencyRarely',
       asset: 'assets/images/onboarding/rarely.png',
     ),
     (
-      label: 'Đôi khi, ví dụ như khi xem phim hoặc đọc sách báo',
+      label: 'surveyFrequencySometimes',
       asset: 'assets/images/onboarding/sometimes.png',
     ),
     (
-      label: 'Thỉnh thoảng, ví dụ như tại nơi làm việc hoặc khi đi du lịch',
+      label: 'surveyFrequencyOccasionally',
       asset: 'assets/images/onboarding/occasionally.png',
     ),
     (
-      label:
-          'Thường xuyên, vì tôi giao tiếp bằng tiếng Anh trong cuộc sống hằng ngày',
+      label: 'surveyFrequencyOften',
       asset: 'assets/images/onboarding/usually.png',
     ),
-    (label: 'Không bao giờ dùng', asset: 'assets/images/onboarding/never.png'),
+    (
+      label: 'surveyFrequencyNever',
+      asset: 'assets/images/onboarding/never.png',
+    ),
   ];
 
   final int? selectedFrequency;
@@ -706,8 +698,8 @@ class _FrequencySurveyPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
         children: [
-          const Text(
-            'Bạn dùng tiếng Anh thường xuyên như thế nào?',
+          Text(
+            context.l10n.text('surveyFrequencyQuestion'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -814,7 +806,7 @@ class _FrequencyOptionCard extends StatelessWidget {
               const SizedBox(width: 16),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -844,27 +836,21 @@ class _LearningHistorySurveyPage extends StatelessWidget {
   });
 
   static const _methods = [
+    (label: 'surveyMethodTutor', asset: 'assets/images/onboarding/tutor.png'),
     (
-      label: 'Học với gia sư hoặc tham gia khóa\nhọc ngôn ngữ',
-      asset: 'assets/images/onboarding/tutor.png',
-    ),
-    (
-      label: 'Học bằng các ứng dụng học tiếng Anh',
+      label: 'surveyMethodApp',
       asset: 'assets/images/onboarding/english_app.png',
     ),
     (
-      label: 'Tự học qua video hoặc sách',
+      label: 'surveyMethodSelfStudy',
       asset: 'assets/images/onboarding/learn_throught_video.png',
     ),
+    (label: 'surveyMethodSchool', asset: 'assets/images/onboarding/school.png'),
     (
-      label: 'Tại trường phổ thông hoặc đại học',
-      asset: 'assets/images/onboarding/school.png',
-    ),
-    (
-      label: 'Khi nói chuyện với người bản ngữ',
+      label: 'surveyMethodNativeSpeakers',
       asset: 'assets/images/onboarding/usually.png',
     ),
-    (label: 'Chưa từng học', asset: 'assets/images/onboarding/never.png'),
+    (label: 'surveyMethodNever', asset: 'assets/images/onboarding/never.png'),
   ];
 
   final Set<int> selectedMethods;
@@ -876,8 +862,8 @@ class _LearningHistorySurveyPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
         children: [
-          const Text(
-            'Bạn đã từng học tiếng Anh\nbao giờ chưa?',
+          Text(
+            context.l10n.text('surveyHistoryQuestion'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -984,7 +970,7 @@ class _LearningMethodCard extends StatelessWidget {
               const SizedBox(width: 16),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -1014,16 +1000,13 @@ class _ResultTimelineSurveyPage extends StatelessWidget {
   });
 
   static const _timelines = [
+    (label: 'surveyTimelineFast', asset: 'assets/images/onboarding/fire.png'),
     (
-      label: 'Càng nhanh càng tốt. Tôi muốn sớm\nnâng cao hiểu biết',
-      asset: 'assets/images/onboarding/fire.png',
-    ),
-    (
-      label: 'Tôi cần nâng cao trình độ trong\nvài tháng',
+      label: 'surveyTimelineMonths',
       asset: 'assets/images/onboarding/calendar.png',
     ),
     (
-      label: 'Không cần vội. Tôi dự định học\nngôn ngữ lâu dài',
+      label: 'surveyTimelineLongTerm',
       asset: 'assets/images/onboarding/clock.png',
     ),
   ];
@@ -1037,8 +1020,8 @@ class _ResultTimelineSurveyPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
         children: [
-          const Text(
-            'Bạn cần bao lâu\nđể có kết quả?',
+          Text(
+            context.l10n.text('surveyTimelineQuestion'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -1145,7 +1128,7 @@ class _ResultTimelineCard extends StatelessWidget {
               const SizedBox(width: 17),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   maxLines: 3,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -1176,12 +1159,21 @@ class _DailyStudyTimeSurveyPage extends StatelessWidget {
 
   static const _studyTimes = [
     (
-      label: 'Dưới 10 phút',
+      label: 'surveyStudyUnder10',
       asset: 'assets/images/onboarding/under_10_minutes.png',
     ),
-    (label: '10 – 20 phút', asset: 'assets/images/onboarding/20_minutes.png'),
-    (label: '20 – 60 phút', asset: 'assets/images/onboarding/60_minutes.png'),
-    (label: 'Hơn 1 giờ', asset: 'assets/images/onboarding/many_hours.png'),
+    (
+      label: 'surveyStudy10To20',
+      asset: 'assets/images/onboarding/20_minutes.png',
+    ),
+    (
+      label: 'surveyStudy20To60',
+      asset: 'assets/images/onboarding/60_minutes.png',
+    ),
+    (
+      label: 'surveyStudyOverHour',
+      asset: 'assets/images/onboarding/many_hours.png',
+    ),
   ];
 
   final int? selectedStudyTime;
@@ -1193,10 +1185,8 @@ class _DailyStudyTimeSurveyPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
         children: [
-          const Text(
-            'Bạn sẵn sàng dành bao nhiêu '
-            'thời gian mỗi ngày để '
-            'học tiếng Anh?',
+          Text(
+            context.l10n.text('surveyStudyTimeQuestion'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -1303,7 +1293,7 @@ class _DailyStudyTimeCard extends StatelessWidget {
               const SizedBox(width: 20),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   style: const TextStyle(
                     color: Color(0xFF061B62),
                     fontSize: 20,
@@ -1420,13 +1410,11 @@ class _StudyHabitPageState extends State<_StudyHabitPage>
             opacity: _titleOpacity,
             child: SlideTransition(
               position: _titleSlide,
-              child: const Text(
-                'Bạn đã sẵn sàng dành bao\n'
-                'nhiêu thời gian mỗi ngày để\n'
-                'học tiếng Anh?',
-                key: ValueKey('study-habit-title'),
+              child: Text(
+                context.l10n.text('surveyHabitTitle'),
+                key: const ValueKey('study-habit-title'),
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 25,
                   height: 1.12,
@@ -1465,27 +1453,22 @@ class _StudyHabitPageState extends State<_StudyHabitPage>
             opacity: _descriptionOpacity,
             child: SlideTransition(
               position: _descriptionSlide,
-              child: const Text.rich(
+              child: Text.rich(
                 TextSpan(
                   children: [
+                    TextSpan(text: context.l10n.text('surveyHabitDescription')),
                     TextSpan(
-                      text:
-                          'Dành ra khoảng thời gian cố định mỗi ngày\n'
-                          'để học sẽ giúp bạn hình thành thói quen\n'
-                          'và ',
-                    ),
-                    TextSpan(
-                      text: 'tiến bộ nhanh hơn.',
-                      style: TextStyle(
+                      text: context.l10n.text('surveyHabitHighlight'),
+                      style: const TextStyle(
                         color: Color(0xFF55A8FF),
                         fontWeight: FontWeight.w800,
                       ),
                     ),
                   ],
                 ),
-                key: ValueKey('study-habit-description'),
+                key: const ValueKey('study-habit-description'),
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 16.5,
                   height: 1.5,
@@ -1660,11 +1643,11 @@ class _PreferredStudyTimePageState extends State<_PreferredStudyTimePage>
             opacity: _questionOpacity,
             child: SlideTransition(
               position: _questionSlide,
-              child: const Text(
-                'Với bạn, giờ nào là thuận tiện để học tiếng Anh?',
-                key: ValueKey('preferred-study-time-question'),
+              child: Text(
+                context.l10n.text('surveyPreferredTimeQuestion'),
+                key: const ValueKey('preferred-study-time-question'),
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 25,
                   height: 1.2,
@@ -1912,12 +1895,11 @@ class _StudyReminderPageState extends State<_StudyReminderPage>
             opacity: _primaryTextOpacity,
             child: SlideTransition(
               position: _primaryTextSlide,
-              child: const Text(
-                'Leximon sẽ nhắc nhở bạn về các buổi học\n'
-                'để bạn không bỏ lỡ ngày nào.',
-                key: ValueKey('study-reminder-primary-text'),
+              child: Text(
+                context.l10n.text('surveyReminderPrimary'),
+                key: const ValueKey('study-reminder-primary-text'),
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 17,
                   height: 1.45,
@@ -1939,24 +1921,21 @@ class _StudyReminderPageState extends State<_StudyReminderPage>
             opacity: _secondaryTextOpacity,
             child: SlideTransition(
               position: _secondaryTextSlide,
-              child: const Text.rich(
+              child: Text.rich(
                 TextSpan(
                   children: [
                     TextSpan(
-                      text:
-                          'Chúng tôi nhận thấy rằng việc thực hành\n'
-                          'thường xuyên có thể giúp tăng tốc độ học\n'
-                          'tiếng Anh lên gần ',
+                      text: context.l10n.text('surveyReminderSecondary'),
                     ),
                     TextSpan(
-                      text: '4,6 lần!',
-                      style: TextStyle(fontWeight: FontWeight.w800),
+                      text: context.l10n.text('surveyReminderHighlight'),
+                      style: const TextStyle(fontWeight: FontWeight.w800),
                     ),
                   ],
                 ),
-                key: ValueKey('study-reminder-secondary-text'),
+                key: const ValueKey('study-reminder-secondary-text'),
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 17,
                   height: 1.45,
@@ -1987,23 +1966,23 @@ class _EnglishChallengePage extends StatelessWidget {
 
   static const _challenges = [
     (
-      label: 'Học và ghi nhớ từ mới',
+      label: 'surveyChallengeVocabulary',
       asset: 'assets/images/onboarding/learn_and_remember.png',
     ),
     (
-      label: 'Học và hiểu ngữ pháp',
+      label: 'surveyChallengeGrammar',
       asset: 'assets/images/onboarding/grammar.png',
     ),
     (
-      label: 'Nói bằng tiếng Anh',
+      label: 'surveyChallengeSpeaking',
       asset: 'assets/images/onboarding/speak_english.png',
     ),
     (
-      label: 'Nghe hiểu tiếng Anh',
+      label: 'surveyChallengeListening',
       asset: 'assets/images/onboarding/listen_english.png',
     ),
     (
-      label: 'Hiểu và dịch các văn bản',
+      label: 'surveyChallengeReading',
       asset: 'assets/images/onboarding/translate_english.png',
     ),
   ];
@@ -2017,8 +1996,8 @@ class _EnglishChallengePage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
         children: [
-          const Text(
-            'Đối với bạn, khó khăn lớn nhất trong tiếng Anh là gì?',
+          Text(
+            context.l10n.text('surveyChallengeQuestion'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -2129,7 +2108,7 @@ class _EnglishChallengeCard extends StatelessWidget {
               const SizedBox(width: 17),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -2160,27 +2139,27 @@ class _LearningBarrierPage extends StatelessWidget {
 
   static const _barriers = [
     (
-      label: 'Thiếu thời gian',
+      label: 'surveyBarrierTime',
       asset: 'assets/images/onboarding/thieu_thoi_gian.png',
     ),
     (
-      label: 'Thiếu học liệu tốt',
+      label: 'surveyBarrierMaterials',
       asset: 'assets/images/onboarding/thieu_tai_lieu.png',
     ),
     (
-      label: 'Tôi không biết cách học\ntiếng Anh đúng đắn',
+      label: 'surveyBarrierMethod',
       asset: 'assets/images/onboarding/thieu_lo_trinh.png',
     ),
     (
-      label: 'Học điều mới thật là khó',
+      label: 'surveyBarrierDifficulty',
       asset: 'assets/images/onboarding/hoc_dieu_moi_kho.png',
     ),
     (
-      label: 'Thiếu thực hành và giao tiếp',
+      label: 'surveyBarrierPractice',
       asset: 'assets/images/onboarding/thieu_thuc_hanh.png',
     ),
     (
-      label: 'Không có điều gì',
+      label: 'surveyBarrierNone',
       asset: 'assets/images/onboarding/khong_thieu_gi.png',
     ),
   ];
@@ -2194,10 +2173,8 @@ class _LearningBarrierPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
         children: [
-          const Text(
-            'Điều gì khiến bạn không thể '
-            'học tiếng Anh một cách '
-            'nhanh chóng?',
+          Text(
+            context.l10n.text('surveyBarrierQuestion'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -2308,7 +2285,7 @@ class _LearningBarrierCard extends StatelessWidget {
               const SizedBox(width: 16),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -2337,25 +2314,14 @@ class _SocialProofPage extends StatelessWidget {
   static const _reviews = [
     (
       author: 'Ruavip753',
-      title: 'Good',
-      text:
-          'App ngày càng hoàn thiện, bỏ tiền mua vĩnh viễn coi bộ không '
-          'uổng phí. Thấy cũng tội cho app khi 1 đồng tháng ngu không biết '
-          'sử dụng thế. Thêm 1 đồng tháng ngu thì xài hàng free nữa chứ.',
+      title: 'surveyReviewOneTitle',
+      text: 'surveyReviewOneBody',
     ),
-    (
-      author: 'Oki',
-      title: 'Ứng dụng rất hay',
-      text:
-          'Rất hay và dễ học. Bài học ngắn gọn, hình ảnh đẹp và giúp tôi '
-          'duy trì thói quen luyện tiếng Anh mỗi ngày.',
-    ),
+    (author: 'Oki', title: 'surveyReviewTwoTitle', text: 'surveyReviewTwoBody'),
     (
       author: 'Minh Anh',
-      title: 'Hữu ích',
-      text:
-          'Nội dung phù hợp với trình độ, cách học dễ hiểu và phần nhắc '
-          'lịch giúp tôi không bỏ lỡ buổi học.',
+      title: 'surveyReviewThreeTitle',
+      text: 'surveyReviewThreeBody',
     ),
   ];
 
@@ -2372,29 +2338,29 @@ class _SocialProofPage extends StatelessWidget {
             cacheWidth: 1000,
           ),
           const SizedBox(height: 10),
-          const Text.rich(
+          Text.rich(
             TextSpan(
               children: [
-                TextSpan(
+                const TextSpan(
                   text: 'Bright',
                   style: TextStyle(
                     color: Color(0xFF39A9FF),
                     fontWeight: FontWeight.w800,
                   ),
                 ),
-                TextSpan(text: ' đã giúp '),
-                TextSpan(
+                TextSpan(text: context.l10n.text('surveySocialProofPrefix')),
+                const TextSpan(
                   text: '2.000.000',
                   style: TextStyle(
                     color: Color(0xFF42D7F4),
                     fontWeight: FontWeight.w800,
                   ),
                 ),
-                TextSpan(text: ' người dùng\ncải thiện năng lực tiếng Anh'),
+                TextSpan(text: context.l10n.text('surveySocialProofSuffix')),
               ],
             ),
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               color: Colors.white,
               fontSize: 16.5,
               height: 1.42,
@@ -2529,7 +2495,7 @@ class _SocialReviewCard extends StatelessWidget {
           ),
           const SizedBox(height: 6),
           Text(
-            title,
+            context.l10n.text(title),
             style: const TextStyle(
               color: Colors.white,
               fontSize: 18,
@@ -2539,7 +2505,7 @@ class _SocialReviewCard extends StatelessWidget {
           const SizedBox(height: 6),
           Expanded(
             child: Text(
-              text,
+              context.l10n.text(text),
               maxLines: 5,
               overflow: TextOverflow.ellipsis,
               style: const TextStyle(
@@ -2578,10 +2544,10 @@ class _TopicSelectionPage extends ConsumerWidget {
           child: CircularProgressIndicator(color: Colors.white),
         ),
       ),
-      error: (error, stackTrace) => const Center(
+      error: (error, stackTrace) => Center(
         child: Text(
-          'Không thể tải chủ đề.',
-          style: TextStyle(color: Colors.white, fontSize: 16),
+          context.l10n.topicsLoadError,
+          style: const TextStyle(color: Colors.white, fontSize: 16),
         ),
       ),
       data: (topics) => _buildTopicList(context, topics),
@@ -2593,8 +2559,8 @@ class _TopicSelectionPage extends ConsumerWidget {
       padding: const EdgeInsets.symmetric(horizontal: 28),
       child: Column(
         children: [
-          const Text(
-            'Chọn các chủ đề\nmà bạn muốn học',
+          Text(
+            context.l10n.text('surveyTopicTitle'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -2669,9 +2635,9 @@ class _TopicSelectAllCard extends StatelessWidget {
           decoration: _TopicSelectionStyles.cardDecoration,
           child: Row(
             children: [
-              const Expanded(
+              Expanded(
                 child: Text(
-                  'Chọn tất cả',
+                  context.l10n.text('surveySelectAll'),
                   style: _TopicSelectionStyles.labelStyle,
                 ),
               ),
@@ -2832,10 +2798,10 @@ class _AnalysisLoadingPage extends StatefulWidget {
 
 class _AnalysisLoadingPageState extends State<_AnalysisLoadingPage> {
   static const _steps = [
-    'Thiết lập chủ đề',
-    'Tạo từ điển',
-    'Lựa chọn bài tập',
-    'Thiết lập tốc độ học tập',
+    'surveyAnalysisTopic',
+    'surveyAnalysisDictionary',
+    'surveyAnalysisExercises',
+    'surveyAnalysisPace',
   ];
 
   Timer? _stepTimer;
@@ -2946,11 +2912,11 @@ class _AnalysisLoadingPageState extends State<_AnalysisLoadingPage> {
                     ? const _AnalysisCompleteMark(
                         key: ValueKey('analysis-complete'),
                       )
-                    : const Text(
-                        'Đang phân tích câu trả\nlời của bạn',
-                        key: ValueKey('analysis-processing'),
+                    : Text(
+                        context.l10n.text('surveyAnalysisProcessing'),
+                        key: const ValueKey('analysis-processing'),
                         textAlign: TextAlign.center,
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 23,
                           height: 1.15,
@@ -3118,7 +3084,7 @@ class _AnalysisStep extends StatelessWidget {
               const SizedBox(width: 17),
               Expanded(
                 child: Text(
-                  label,
+                  context.l10n.text(label),
                   style: const TextStyle(
                     color: Colors.white,
                     fontSize: 17,
@@ -3236,24 +3202,24 @@ class _KnowledgeJourneyPageState extends State<_KnowledgeJourneyPage>
             opacity: _textOpacity,
             child: SlideTransition(
               position: _textSlide,
-              child: const Text.rich(
+              child: Text.rich(
                 TextSpan(
                   children: [
-                    TextSpan(text: 'Tiếng Anh là chìa khóa giúp bạn\n'),
+                    TextSpan(text: context.l10n.text('surveyKnowledgeLead')),
                     TextSpan(
-                      text: 'mở cánh cửa tri thức,',
-                      style: TextStyle(fontWeight: FontWeight.w800),
+                      text: context.l10n.text('surveyKnowledgeOpen'),
+                      style: const TextStyle(fontWeight: FontWeight.w800),
                     ),
-                    TextSpan(text: '\nkết nối thế giới và\nnắm bắt '),
+                    TextSpan(text: context.l10n.text('surveyKnowledgeConnect')),
                     TextSpan(
-                      text: 'nhiều cơ hội hơn.',
-                      style: TextStyle(fontWeight: FontWeight.w800),
+                      text: context.l10n.text('surveyKnowledgeMore'),
+                      style: const TextStyle(fontWeight: FontWeight.w800),
                     ),
                   ],
                 ),
-                key: ValueKey('knowledge-journey-text'),
+                key: const ValueKey('knowledge-journey-text'),
                 textAlign: TextAlign.center,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 20,
                   height: 1.42,
@@ -3281,25 +3247,15 @@ class _SurveySummaryPage extends StatelessWidget {
 
   static const _quotes = [
     (
-      text:
-          'Tiếng Anh mở ra cánh cửa đến '
-          'những cơ hội nghề nghiệp quốc tế '
-          'và mức thu nhập hấp dẫn hơn.',
+      text: 'surveySummaryQuoteOne',
       source: 'Source: BBC Worklife\ncareer growth and global work',
     ),
     (
-      text:
-          'Kỹ năng ngôn ngữ giúp bạn nổi bật '
-          'trong tuyển dụng, làm việc hiệu quả '
-          'với đội nhóm đa quốc gia và phát triển '
-          'sự nghiệp bền vững.',
+      text: 'surveySummaryQuoteTwo',
       source: 'Source: World Economic Forum\nfuture of jobs and skills',
     ),
     (
-      text:
-          'Khả năng giao tiếp và sử dụng tiếng Anh '
-          'tự tin là chìa khóa để dẫn dắt, thăng tiến '
-          'và đạt được thành công lâu dài.',
+      text: 'surveySummaryQuoteThree',
       source:
           'Source: Harvard Business Review\n'
           'leadership and career advancement',
@@ -3312,8 +3268,8 @@ class _SurveySummaryPage extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 28),
       child: Column(
         children: [
-          const Text(
-            'Tiếng Anh giúp bạn tiến\n xa hơn',
+          Text(
+            context.l10n.text('surveySummaryTitle'),
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
@@ -3339,28 +3295,28 @@ class _SurveySummaryPage extends StatelessWidget {
             if (index != _quotes.length - 1) const SizedBox(height: 6),
           ],
           const SizedBox(height: 16),
-          const Text.rich(
+          Text.rich(
             TextSpan(
               children: [
-                TextSpan(text: 'Với '),
-                TextSpan(
+                TextSpan(text: context.l10n.text('surveySummaryWith')),
+                const TextSpan(
                   text: 'Leximon',
                   style: TextStyle(fontWeight: FontWeight.w800),
                 ),
-                TextSpan(text: ', học tiếng Anh mỗi ngày giúp bạn'),
+                TextSpan(text: context.l10n.text('surveySummaryDaily')),
                 TextSpan(
-                  text: 'mở rộng cơ hội, nâng cao sự tự tin',
-                  style: TextStyle(fontWeight: FontWeight.w800),
+                  text: context.l10n.text('surveySummaryOpportunities'),
+                  style: const TextStyle(fontWeight: FontWeight.w800),
                 ),
-                TextSpan(text: ' và tiến gần hơn đến mục tiêu '),
+                TextSpan(text: context.l10n.text('surveySummaryGoals')),
                 TextSpan(
-                  text: 'sự nghiệp và thu nhập.',
-                  style: TextStyle(fontWeight: FontWeight.w800),
+                  text: context.l10n.text('surveySummaryCareer'),
+                  style: const TextStyle(fontWeight: FontWeight.w800),
                 ),
               ],
             ),
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               color: Colors.white,
               fontSize: 16,
               height: 1.4,
@@ -3393,7 +3349,7 @@ class _QuoteCard extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 32),
                 child: Text(
-                  text,
+                  context.l10n.text(text),
                   style: const TextStyle(
                     color: Color(0xFF061B62),
                     fontSize: 15.5,

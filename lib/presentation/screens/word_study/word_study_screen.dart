@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/topic.dart';
@@ -151,7 +152,7 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
       id: _recommendedTopicId,
       order: _recommendedTopicId,
       original: 'Recommended',
-      translated: 'Khuyên dùng',
+      translated: context.l10n.text('recommended'),
       words: _recommendedRawWords
           .take(_recommendedVisibleCount)
           .toList(growable: false),
@@ -303,9 +304,9 @@ class _WordStudyScreenState extends ConsumerState<WordStudyScreen> {
     if (state == _WordState.learning && !wasSelected) {
       if (_selectedWordKeys.length >= _maxSelectedWords) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Bạn chỉ có thể chọn tối đa 4 từ.'),
-            duration: Duration(milliseconds: 1200),
+          SnackBar(
+            content: Text(context.l10n.text('maxFourWordsError')),
+            duration: const Duration(milliseconds: 1200),
           ),
         );
         return;
@@ -704,15 +705,15 @@ class _StudyTopBar extends StatelessWidget {
       children: [
         _StudyIconButton(
           icon: Icons.close_rounded,
-          label: 'Đóng',
+          label: context.l10n.text('close'),
           onPressed: onClose,
         ),
         Expanded(
           child: Column(
             children: [
-              const Text(
-                'BỘ HỌC HÔM NAY',
-                style: TextStyle(
+              Text(
+                context.l10n.text('todayStudySet'),
+                style: const TextStyle(
                   color: Color(0xFF2F80ED),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
@@ -721,7 +722,10 @@ class _StudyTopBar extends StatelessWidget {
               ),
               const SizedBox(height: 4),
               Text(
-                'Đã chọn $selectedCount / $totalCount từ',
+                context.l10n.text(
+                  'selectedWordsCount',
+                  values: {'selected': selectedCount, 'total': totalCount},
+                ),
                 style: const TextStyle(
                   color: AppColors.textPrimary,
                   fontSize: 16,
@@ -734,7 +738,7 @@ class _StudyTopBar extends StatelessWidget {
         ),
         _StudyIconButton(
           icon: Icons.tune_rounded,
-          label: 'Cài đặt',
+          label: context.l10n.text('settings'),
           onPressed: onSettings,
         ),
       ],
@@ -996,10 +1000,10 @@ class _DeckZoneState extends State<_DeckZone> {
   @override
   Widget build(BuildContext context) {
     if (widget.words.isEmpty && !widget.showRecommendedCompletion) {
-      return const Center(
+      return Center(
         child: Text(
-          'Chủ đề này chưa có từ để học.',
-          style: TextStyle(color: AppColors.textSecondary, fontSize: 12),
+          context.l10n.text('topicHasNoWords'),
+          style: const TextStyle(color: AppColors.textSecondary, fontSize: 12),
         ),
       );
     }
@@ -1129,19 +1133,19 @@ class _RecommendedCompletionCard extends StatelessWidget {
           ),
         ],
       ),
-      child: const Column(
+      child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Icon(
+          const Icon(
             Icons.workspace_premium_rounded,
             size: 58,
             color: AppColors.primary,
           ),
-          SizedBox(height: 18),
+          const SizedBox(height: 18),
           Text(
-            'Bạn đã thành thạo tất cả các từ được khuyên dùng',
+            context.l10n.text('recommendedComplete'),
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               color: AppColors.primaryDark,
               fontSize: 20,
               height: 1.25,
@@ -1164,7 +1168,9 @@ class _DeckArrow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
-      label: icon == Icons.chevron_left_rounded ? 'Từ trước' : 'Từ tiếp theo',
+      label: context.l10n.text(
+        icon == Icons.chevron_left_rounded ? 'previousWord' : 'nextWord',
+      ),
       child: IconButton(
         onPressed: onTap,
         icon: Icon(icon, color: AppColors.primary, size: 24),
@@ -1221,10 +1227,10 @@ class _WordCard extends StatelessWidget {
         ? const [Color(0xFF12AA73), Color(0xFF60DFB2)]
         : const [AppColors.primary, AppColors.cyan];
     final stateLabel = isLearning
-        ? 'Đang học'
+        ? context.l10n.text('wordStateLearning')
         : isKnown
-        ? 'Đã biết từ này'
-        : 'Chưa phân loại';
+        ? context.l10n.text('wordStateKnown')
+        : context.l10n.text('wordStateUnclassified');
 
     return Container(
       key: ValueKey('word-study-word-card-$index'),
@@ -1429,7 +1435,10 @@ class _WordCard extends StatelessWidget {
                             borderRadius: BorderRadius.circular(20),
                           ),
                           child: Text(
-                            'Một từ vựng quan trọng trong chủ đề ${topic.translated}.',
+                            context.l10n.text(
+                              'wordTopicDescription',
+                              values: {'topic': topic.translated},
+                            ),
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               color: Color(0xFF637A98),
@@ -1448,7 +1457,9 @@ class _WordCard extends StatelessWidget {
                     Expanded(
                       flex: 10,
                       child: _WordActionButton(
-                        label: isKnown ? 'Tôi không biết' : 'Đã biết',
+                        label: context.l10n.text(
+                          isKnown ? 'iDoNotKnow' : 'iKnow',
+                        ),
                         known: isKnown,
                         onTap: () => onStateChanged(
                           isKnown ? _WordState.newWord : _WordState.known,
@@ -1460,10 +1471,10 @@ class _WordCard extends StatelessWidget {
                       flex: 11,
                       child: _WordActionButton(
                         label: isLearning
-                            ? 'Bỏ chọn'
+                            ? context.l10n.text('deselect')
                             : isKnown
-                            ? 'Học lại'
-                            : 'Học từ này',
+                            ? context.l10n.text('learnAgain')
+                            : context.l10n.text('learnThisWord'),
                         primary: !isLearning,
                         learning: isLearning,
                         onTap: () => onStateChanged(
@@ -1530,7 +1541,7 @@ class _SlowAudioButtonState extends State<_SlowAudioButton>
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
-      label: 'Phát âm chậm 0.75x',
+      label: context.l10n.text('slowPronunciationSemantics'),
       child: GestureDetector(
         onTap: _handleTap,
         child: AnimatedContainer(
@@ -1643,7 +1654,7 @@ class _AudioButtonState extends State<_AudioButton>
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
-      label: 'Phát âm bình thường',
+      label: context.l10n.text('normalPronunciationSemantics'),
       child: GestureDetector(
         onTap: _handleTap,
         child: Container(
@@ -1794,9 +1805,9 @@ class _StudyFooter extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'TỪ ĐÃ CHỌN',
-                      style: TextStyle(
+                    Text(
+                      context.l10n.text('selectedWords'),
+                      style: const TextStyle(
                         color: Color(0xFF5F7FA8),
                         fontSize: 8,
                         fontWeight: FontWeight.w800,
@@ -1805,7 +1816,10 @@ class _StudyFooter extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '$selectedCount / $maxSelected từ',
+                      context.l10n.text(
+                        'selectedWordProgress',
+                        values: {'selected': selectedCount, 'max': maxSelected},
+                      ),
                       style: const TextStyle(
                         color: AppColors.textPrimary,
                         fontSize: 13,
@@ -1815,9 +1829,9 @@ class _StudyFooter extends StatelessWidget {
                   ],
                 ),
               ),
-              const Text(
-                'Chọn tối đa 4 từ',
-                style: TextStyle(
+              Text(
+                context.l10n.text('selectUpToFour'),
+                style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 8,
                   fontWeight: FontWeight.w700,

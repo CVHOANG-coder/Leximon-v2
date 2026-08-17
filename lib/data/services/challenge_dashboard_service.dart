@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 
+import '../../core/localization/app_localizations.dart';
 import '../local/app_database.dart';
 import '../models/grammar_content.dart';
 import '../models/ipa_sound.dart';
@@ -106,12 +107,14 @@ class ChallengeDashboardSnapshot {
 }
 
 class ChallengeDashboardService {
-  const ChallengeDashboardService(this._database);
+  ChallengeDashboardService(this._database, {AppLocalizations? localizations})
+    : _l10n = localizations ?? AppLocalizations.fallback();
 
   static const weekGoal = 24;
   static const _skillWeekGoal = 6;
 
   final AppDatabase _database;
+  final AppLocalizations _l10n;
 
   Future<ChallengeDashboardSnapshot> load({
     required List<ListeningCourseSummary> listeningCourses,
@@ -382,7 +385,10 @@ class ChallengeDashboardService {
       for (final lesson in course.lessons) {
         listeningTitles['${course.id}:${lesson.id}'] = (
           title: lesson.name,
-          context: 'Luyện nghe • ${course.name}',
+          context: _l10n.text(
+            'challengeContextListening',
+            values: {'course': course.name},
+          ),
         );
       }
     }
@@ -391,7 +397,10 @@ class ChallengeDashboardService {
       for (final topic in pack.topics) {
         grammarTitles[topic.id.toString()] = (
           title: topic.label,
-          context: 'Ngữ pháp • ${pack.title}',
+          context: _l10n.text(
+            'challengeContextGrammar',
+            values: {'pack': pack.title},
+          ),
         );
       }
     }
@@ -399,12 +408,15 @@ class ChallengeDashboardService {
       for (final sound in ipaSounds)
         sound.symbol: (
           title: '/${sound.symbol}/ • ${sound.example}',
-          context: 'IPA & phát âm',
+          context: _l10n.text('ipaPronunciationTitle'),
         ),
     };
     final readingTitles = {
       for (final story in readingStories)
-        story.id.toString(): (title: story.title, context: 'Luyện đọc'),
+        story.id.toString(): (
+          title: story.title,
+          context: _l10n.text('readingSkillTitle'),
+        ),
     };
 
     final sorted =
@@ -437,7 +449,14 @@ class ChallengeDashboardService {
           skill: skill,
           title: item?.title ?? _fallbackHistoryTitle(skill, session.contentId),
           contextLabel: skill == PracticeSkill.speaking
-              ? 'Luyện nói • ${item?.context.split(' • ').last ?? 'Bài nghe'}'
+              ? _l10n.text(
+                  'challengeContextSpeaking',
+                  values: {
+                    'course':
+                        item?.context.split(' • ').last ??
+                        _l10n.text('listeningSkillTitle'),
+                  },
+                )
               : item?.context ?? _skillLabel(skill),
           completedAt: DateTime.fromMillisecondsSinceEpoch(session.completedAt),
         ),
@@ -449,11 +468,26 @@ class ChallengeDashboardService {
 
   String _fallbackHistoryTitle(PracticeSkill skill, String contentId) =>
       switch (skill) {
-        PracticeSkill.listening => 'Bài nghe $contentId',
-        PracticeSkill.speaking => 'Bài nói $contentId',
-        PracticeSkill.grammar => 'Chủ đề ngữ pháp $contentId',
-        PracticeSkill.pronunciation => 'Âm /$contentId/',
-        PracticeSkill.reading => 'Bài đọc $contentId',
+        PracticeSkill.listening => _l10n.text(
+          'challengeListeningTitle',
+          values: {'id': contentId},
+        ),
+        PracticeSkill.speaking => _l10n.text(
+          'challengeSpeakingTitle',
+          values: {'id': contentId},
+        ),
+        PracticeSkill.grammar => _l10n.text(
+          'challengeGrammarTitle',
+          values: {'id': contentId},
+        ),
+        PracticeSkill.pronunciation => _l10n.text(
+          'challengePronunciationTitle',
+          values: {'symbol': contentId},
+        ),
+        PracticeSkill.reading => _l10n.text(
+          'challengeReadingTitle',
+          values: {'id': contentId},
+        ),
       };
 
   PracticeRecommendation _recommend({
@@ -545,8 +579,13 @@ class ChallengeDashboardService {
     return PracticeRecommendation(
       skill: PracticeSkill.listening,
       title: lesson.name,
-      contextLabel: 'Luyện nghe • ${course.name}',
-      reason: inProgress.isNotEmpty ? 'Tiếp tục bài đang làm dở' : reason,
+      contextLabel: _l10n.text(
+        'challengeContextListening',
+        values: {'course': course.name},
+      ),
+      reason: inProgress.isNotEmpty
+          ? _l10n.text('challengeContinueListening')
+          : reason,
       durationMinutes: math.max(5, (lesson.totalChallenges / 2).ceil()),
       contentId: '${lesson.id}',
       parentId: lesson.courseId,
@@ -591,8 +630,13 @@ class ChallengeDashboardService {
     return PracticeRecommendation(
       skill: PracticeSkill.speaking,
       title: lesson.name,
-      contextLabel: 'Luyện nói • ${course.name}',
-      reason: inProgress.isNotEmpty ? 'Tiếp tục bài nói đang làm dở' : reason,
+      contextLabel: _l10n.text(
+        'challengeContextSpeaking',
+        values: {'course': course.name},
+      ),
+      reason: inProgress.isNotEmpty
+          ? _l10n.text('challengeContinueSpeaking')
+          : reason,
       durationMinutes: math.max(5, (lesson.totalChallenges / 2).ceil()),
       contentId: '${lesson.id}',
       parentId: lesson.courseId,
@@ -627,9 +671,12 @@ class ChallengeDashboardService {
     return PracticeRecommendation(
       skill: PracticeSkill.grammar,
       title: candidate.topic.label,
-      contextLabel: 'Ngữ pháp • ${candidate.pack.title}',
+      contextLabel: _l10n.text(
+        'challengeContextGrammar',
+        values: {'pack': candidate.pack.title},
+      ),
       reason: candidate.topic.progress > 0
-          ? 'Tiếp tục chủ đề đang làm dở'
+          ? _l10n.text('challengeContinueGrammar')
           : reason,
       durationMinutes: math.max(5, candidate.topic.questionCount),
       contentId: '${candidate.topic.id}',
@@ -660,8 +707,11 @@ class ChallengeDashboardService {
     return PracticeRecommendation(
       skill: PracticeSkill.pronunciation,
       title: '${sound.name.trim()} /${sound.symbol}/',
-      contextLabel: 'IPA & phát âm • ${sound.typeLabel}',
-      reason: opened ? 'Tiếp tục âm đang luyện' : reason,
+      contextLabel: _l10n.text(
+        'challengeContextPronunciation',
+        values: {'type': sound.typeLabel},
+      ),
+      reason: opened ? _l10n.text('challengeContinuePronunciation') : reason,
       durationMinutes: 6,
       contentId: sound.symbol,
     );
@@ -711,9 +761,9 @@ class ChallengeDashboardService {
     return PracticeRecommendation(
       skill: PracticeSkill.reading,
       title: story.originalTitle,
-      contextLabel: 'Luyện đọc • Truyện ngắn',
+      contextLabel: _l10n.text('challengeContextReading'),
       reason: progressByStoryId[story.id] != null
-          ? 'Tiếp tục bài đọc đang dở'
+          ? _l10n.text('challengeContinueReading')
           : reason,
       durationMinutes: math.max(5, (wordCount / 180).ceil()),
       contentId: '${story.id}',
@@ -722,11 +772,11 @@ class ChallengeDashboardService {
 
   PracticeRecommendation _fallback(PracticeSkill skill, String reason) {
     final title = switch (skill) {
-      PracticeSkill.listening => 'Chọn một bài luyện nghe',
-      PracticeSkill.speaking => 'Chọn một bài luyện nói',
-      PracticeSkill.grammar => 'Chọn một chủ đề ngữ pháp',
-      PracticeSkill.pronunciation => 'Chọn một âm IPA',
-      PracticeSkill.reading => 'Chọn một bài đọc',
+      PracticeSkill.listening => _l10n.text('challengeChooseListening'),
+      PracticeSkill.speaking => _l10n.text('challengeChooseSpeaking'),
+      PracticeSkill.grammar => _l10n.text('challengeChooseGrammar'),
+      PracticeSkill.pronunciation => _l10n.text('challengeChoosePronunciation'),
+      PracticeSkill.reading => _l10n.text('challengeChooseReading'),
     };
     return PracticeRecommendation(
       skill: skill,
@@ -742,20 +792,28 @@ class ChallengeDashboardService {
     required int weekSessions,
     required double weakness,
   }) {
-    if (weakness >= .55) return '${_skillLabel(skill)} đang cần cải thiện';
+    if (weakness >= .55) {
+      return _l10n.text(
+        'challengeSkillNeedsImprovement',
+        values: {'skill': _skillLabel(skill)},
+      );
+    }
     final remaining = math.max(0, _skillWeekGoal - weekSessions);
     if (remaining > 0) {
-      return 'Còn $remaining phiên để cân bằng mục tiêu tuần';
+      return _l10n.text(
+        'challengeSessionsRemaining',
+        values: {'count': '$remaining'},
+      );
     }
-    return 'Phù hợp với trình độ hiện tại của bạn';
+    return _l10n.text('challengeLevelFit');
   }
 
   String _skillLabel(PracticeSkill skill) => switch (skill) {
-    PracticeSkill.listening => 'Luyện nghe',
-    PracticeSkill.speaking => 'Luyện nói',
-    PracticeSkill.grammar => 'Ngữ pháp',
-    PracticeSkill.pronunciation => 'IPA & phát âm',
-    PracticeSkill.reading => 'Luyện đọc',
+    PracticeSkill.listening => _l10n.text('listeningSkillTitle'),
+    PracticeSkill.speaking => _l10n.text('speakingSkillTitle'),
+    PracticeSkill.grammar => _l10n.text('skillGrammar'),
+    PracticeSkill.pronunciation => _l10n.text('ipaPronunciationTitle'),
+    PracticeSkill.reading => _l10n.text('readingSkillTitle'),
   };
 
   double _ability({

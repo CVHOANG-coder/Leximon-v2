@@ -1,8 +1,13 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/localization/app_localizations.dart';
+import '../../core/network/api_client.dart';
 import '../../core/services/app_language_service.dart';
+import '../../core/services/auth_token_storage.dart';
+import '../../core/services/device_info_service.dart';
 import '../../data/datasources/sentence_asset_data_source.dart';
 import '../../data/datasources/ipa_asset_data_source.dart';
 import '../../data/datasources/listening_asset_data_source.dart';
@@ -17,10 +22,14 @@ import '../../data/models/learning_language_level.dart';
 import '../../data/models/reading_story.dart';
 import '../../data/models/sentence_asset_index.dart';
 import '../../data/models/topic.dart';
+import '../../data/models/user_profile_response.dart';
 import '../../data/models/vocabulary_collection.dart';
 import '../../data/repositories/topic_repository.dart';
 import '../../data/repositories/grammar_repository.dart';
 import '../../data/services/additional_task_service.dart';
+import '../../data/services/auth_api_service.dart';
+import '../../data/services/iap_catalog_service.dart';
+import '../../data/services/iap_package_api_service.dart';
 import '../../data/services/challenge_dashboard_service.dart';
 import '../../data/services/app_usage_service.dart';
 import '../../data/services/daily_card_service.dart';
@@ -68,7 +77,76 @@ final appLanguageServiceProvider = Provider<AppLanguageService>(
   (ref) => AppLanguageService(),
 );
 
-final selectedAppLanguageProvider = StateProvider<String>((ref) => 'vi');
+final authTokenStorageProvider = Provider<AuthTokenStorage>(
+  (ref) => AuthTokenStorage(),
+);
+
+final apiClientProvider = Provider<ApiClient>((ref) {
+  final client = ApiClient(
+    tokenLoader: ref.watch(authTokenStorageProvider).loadToken,
+  );
+  ref.onDispose(client.close);
+  return client;
+});
+
+final deviceInfoServiceProvider = Provider<DeviceInfoService>(
+  (ref) => DeviceInfoService(),
+);
+
+final authApiServiceProvider = Provider<AuthApiService>((ref) {
+  return AuthApiService(
+    apiClient: ref.watch(apiClientProvider),
+    deviceIdentityProvider: ref.watch(deviceInfoServiceProvider),
+    languageService: ref.watch(appLanguageServiceProvider),
+    tokenStorage: ref.watch(authTokenStorageProvider),
+  );
+});
+
+final iapPackageApiServiceProvider = Provider<IapPackageApiService>((ref) {
+  return IapPackageApiService(apiClient: ref.watch(apiClientProvider));
+});
+
+final iapCatalogServiceProvider = Provider<IapCatalogService>((ref) {
+  return IapCatalogService(apiService: ref.watch(iapPackageApiServiceProvider));
+});
+
+/// Loads the backend catalog and then replaces its reference prices with the
+/// localized prices returned by the platform store.
+final iapCatalogProvider = FutureProvider<IapCatalog>((ref) {
+  final platform = defaultTargetPlatform == TargetPlatform.iOS
+      ? 'IOS'
+      : 'ANDROID';
+  return _loadIapCatalog(ref, platform: platform);
+});
+
+Future<IapCatalog> _loadIapCatalog(Ref ref, {required String platform}) async {
+  // The packages endpoint is authenticated. Constructing this provider also
+  // installs the shared 401/403 token-refresh handler on ApiClient.
+  await ref.watch(authApiServiceProvider).ensureToken();
+  return ref.watch(iapCatalogServiceProvider).load(platform: platform);
+}
+
+/// Logs in and loads the backend profile once per app session. Both calls are
+/// best-effort because bundled/local data must remain usable while offline.
+final remoteUserProfileProvider = FutureProvider<UserProfile?>((ref) async {
+  try {
+    final authService = ref.watch(authApiServiceProvider);
+    await authService.ensureToken();
+    return (await authService.getUserProfile()).data;
+  } on Object {
+    return null;
+  }
+});
+
+final authLoginInitializationProvider = FutureProvider<void>((ref) async {
+  await ref.watch(remoteUserProfileProvider.future);
+});
+
+/// Stores the app/native language selected during onboarding and drives the
+/// live locale of [MaterialApp]. The first-run value comes from the device.
+final selectedAppLanguageProvider = StateProvider<String>(
+  (ref) => AppLocalizations.deviceLanguageCode(),
+);
 
 final supportedLanguagesProvider = FutureProvider((ref) {
   return ref.watch(topicAssetDataSourceProvider).loadAvailableLanguages();
@@ -233,7 +311,9 @@ final wordProgressProvider = FutureProvider<Map<int, LearningProgressRow>>((
   return {for (final row in rows) row.id: row};
 });
 
-final selectedTopicFilterProvider = StateProvider<String>((ref) => 'Tất cả');
+final selectedTopicFilterProvider = StateProvider<String>(
+  (ref) => 'topicFilterAll',
+);
 
 final topicSetupOpenProvider = StateProvider<bool>((ref) => false);
 
@@ -251,7 +331,12 @@ final vocabularyAssessmentLevelProvider = FutureProvider<String?>((ref) {
 });
 
 final challengeDashboardServiceProvider = Provider<ChallengeDashboardService>(
-  (ref) => ChallengeDashboardService(ref.watch(appDatabaseProvider)),
+  (ref) => ChallengeDashboardService(
+    ref.watch(appDatabaseProvider),
+    localizations: AppLocalizations(
+      AppLocalizations.localeForCode(ref.watch(selectedAppLanguageProvider)),
+    ),
+  ),
 );
 
 final challengeDashboardProvider = FutureProvider<ChallengeDashboardSnapshot>((
@@ -310,6 +395,11 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
     final savedLanguage = await ref
         .watch(appLanguageServiceProvider)
         .loadSelectedLanguage();
+    // Do not block startup on a remote call. AuthApiService reads the saved
+    // language itself, so first launch uses "en" and later launches use the
+    // language selected by the user.
+    unawaited(ref.read(authLoginInitializationProvider.future));
+
     if (savedLanguage == null) {
       return AppStartupDestination.languageOnboarding;
     }
@@ -433,7 +523,12 @@ final topicRepetitionDataProvider = FutureProvider.family
 final progressDashboardServiceProvider = Provider<ProgressDashboardService>((
   ref,
 ) {
-  return ProgressDashboardService(ref.watch(appDatabaseProvider));
+  return ProgressDashboardService(
+    ref.watch(appDatabaseProvider),
+    localizations: AppLocalizations(
+      AppLocalizations.localeForCode(ref.watch(selectedAppLanguageProvider)),
+    ),
+  );
 });
 
 final progressDashboardProvider = FutureProvider<ProgressDashboardSnapshot>((

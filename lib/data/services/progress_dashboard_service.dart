@@ -1,3 +1,4 @@
+import '../../core/localization/app_localizations.dart';
 import '../local/app_database.dart';
 
 class ProgressDashboardSnapshot {
@@ -14,8 +15,9 @@ class ProgressDashboardSnapshot {
     required this.monthLabel,
   });
 
-  factory ProgressDashboardSnapshot.empty() {
-    return const ProgressDashboardSnapshot(
+  factory ProgressDashboardSnapshot.empty({AppLocalizations? localizations}) {
+    final l10n = localizations ?? AppLocalizations.fallback();
+    return ProgressDashboardSnapshot(
       totalWords: 0,
       progressedWords: 0,
       masteredWords: 0,
@@ -25,7 +27,7 @@ class ProgressDashboardSnapshot {
       activeDaysThisMonth: 0,
       elapsedDaysThisMonth: 0,
       monthActivityLevels: [],
-      monthLabel: 'Tháng này',
+      monthLabel: l10n.text('dashboardThisMonth'),
     );
   }
 
@@ -65,9 +67,11 @@ class ProgressDashboardSnapshot {
 }
 
 class ProgressDashboardService {
-  ProgressDashboardService(this._database);
+  ProgressDashboardService(this._database, {AppLocalizations? localizations})
+    : _l10n = localizations ?? AppLocalizations.fallback();
 
   final AppDatabase _database;
+  final AppLocalizations _l10n;
 
   Future<ProgressDashboardSnapshot> load() async {
     final now = DateTime.now();
@@ -170,7 +174,10 @@ class ProgressDashboardService {
       activeDaysThisMonth: activeDaysThisMonth,
       elapsedDaysThisMonth: now.day,
       monthActivityLevels: monthActivityLevels,
-      monthLabel: 'Tháng ${now.month}',
+      monthLabel: _l10n.text(
+        'dashboardMonthNumber',
+        values: {'month': '${now.month}'},
+      ),
     );
   }
 

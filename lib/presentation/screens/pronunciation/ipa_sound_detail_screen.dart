@@ -8,6 +8,7 @@ import 'package:just_audio/just_audio.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/just_audio_asset_path.dart';
 import '../../../data/models/ipa_sound.dart';
 import '../../../data/services/ipa_progress_service.dart';
@@ -110,7 +111,7 @@ class _IpaSoundDetailScreenState extends State<IpaSoundDetailScreen>
       if (!mounted) return;
       setState(() => _playingAsset = null);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Không thể phát âm thanh lúc này.')),
+        SnackBar(content: Text(context.l10n.text('audioPlaybackError'))),
       );
     }
   }

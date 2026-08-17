@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import '../../core/localization/app_localizations.dart';
 import '../models/grammar_content.dart';
 
 class GrammarQuestionViewData {
@@ -249,7 +250,11 @@ class GrammarAnswerDraft {
 }
 
 class GrammarQuestionEngine {
-  const GrammarQuestionEngine();
+  const GrammarQuestionEngine({this.localizations});
+
+  final AppLocalizations? localizations;
+
+  AppLocalizations get _l10n => localizations ?? AppLocalizations.fallback();
 
   bool isComplete(GrammarQuestionViewData question, GrammarAnswerDraft draft) {
     return switch (question.type) {
@@ -342,7 +347,7 @@ class GrammarQuestionEngine {
     return question.options[index - 1].data;
   }
 
-  static List<String> _choiceGapAnswerLines(GrammarQuestionViewData question) {
+  List<String> _choiceGapAnswerLines(GrammarQuestionViewData question) {
     final rawAnswers = question.answers;
     if (rawAnswers is! List || rawAnswers.isEmpty) return const [];
     if (rawAnswers.first is List) {
@@ -358,11 +363,17 @@ class GrammarQuestionEngine {
     }
     return [
       for (var index = 0; index < answers.length; index++)
-        'Ô ${index + 1}: ${_optionLabel(question, answers[index])}',
+        _l10n.text(
+          'grammarAnswerSlot',
+          values: {
+            'number': '${index + 1}',
+            'answer': _optionLabel(question, answers[index]),
+          },
+        ),
     ];
   }
 
-  static List<String> _textAnswerLines(Object? rawAnswers, int gapCount) {
+  List<String> _textAnswerLines(Object? rawAnswers, int gapCount) {
     if (rawAnswers is! List || rawAnswers.isEmpty) return const [];
     if (gapCount == 1) {
       final alternatives = <String>[
@@ -376,7 +387,15 @@ class GrammarQuestionEngine {
     }
     return [
       for (var index = 0; index < rawAnswers.length; index++)
-        'Ô ${index + 1}: ${rawAnswers[index] is List ? (rawAnswers[index] as List).join(' / ') : rawAnswers[index]}',
+        _l10n.text(
+          'grammarAnswerSlot',
+          values: {
+            'number': '${index + 1}',
+            'answer': rawAnswers[index] is List
+                ? (rawAnswers[index] as List).join(' / ')
+                : '${rawAnswers[index]}',
+          },
+        ),
     ];
   }
 

@@ -10,6 +10,7 @@ import 'package:speech_to_text/speech_to_text.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/datasources/listening_asset_data_source.dart';
 import '../../../data/models/listening_exercise.dart';
 import '../../../data/services/speaking_answer_checker.dart';
@@ -201,7 +202,7 @@ class _SpeakingExerciseScreenState
           lessonId: widget.lessonId,
         );
     if (exercise.challenges.isEmpty) {
-      throw const FormatException('Bài học không có câu để luyện nói.');
+      throw const FormatException('speakingNoSentences');
     }
     final progress = await _progressService.startLesson(
       courseId: widget.courseId,
@@ -281,7 +282,11 @@ class _SpeakingExerciseScreenState
         await _enableYoutubeAudio(youtubeController);
         await youtubeController.playVideo();
       } on Object {
-        if (mounted) setState(() => _error = 'Không thể phát video mẫu.');
+        if (mounted) {
+          setState(
+            () => _error = context.l10n.text('speakingVideoPlaybackError'),
+          );
+        }
       }
       return;
     }
@@ -291,7 +296,11 @@ class _SpeakingExerciseScreenState
     try {
       await _playback.playUrl(url);
     } on Object {
-      if (mounted) setState(() => _error = 'Không thể phát audio mẫu.');
+      if (mounted) {
+        setState(
+          () => _error = context.l10n.text('speakingAudioPlaybackError'),
+        );
+      }
     }
   }
 
@@ -310,7 +319,9 @@ class _SpeakingExerciseScreenState
     final allowed = await _recorder.hasPermission();
     if (!allowed) {
       if (mounted) {
-        setState(() => _error = 'Hãy cấp quyền microphone để luyện nói.');
+        setState(
+          () => _error = context.l10n.text('speakingMicPermissionError'),
+        );
       }
       return;
     }
@@ -322,14 +333,19 @@ class _SpeakingExerciseScreenState
       },
       onError: (message) {
         if (!mounted) return;
-        setState(() => _error = 'Nhận dạng giọng nói: $message');
+        setState(
+          () => _error = context.l10n.text(
+            'speakingRecognitionError',
+            values: {'message': message},
+          ),
+        );
       },
     );
     if (!_recognizerReady) {
       if (mounted) {
-        setState(
-          () => _error = 'Thiết bị chưa hỗ trợ nhận dạng giọng nói tiếng Anh.',
-        );
+        setState(() {
+          _error = context.l10n.text('speakingRecognitionUnsupported');
+        });
       }
       return;
     }
@@ -354,7 +370,7 @@ class _SpeakingExerciseScreenState
       if (mounted) {
         setState(() {
           _isRecording = false;
-          _error = 'Không thể bắt đầu ghi âm. Hãy thử lại.';
+          _error = context.l10n.text('speakingRecordingStartError');
         });
       }
     }
@@ -378,7 +394,7 @@ class _SpeakingExerciseScreenState
         _isRecording = false;
         _recordingPath = path;
         if (_transcript.trim().isEmpty) {
-          _error = 'Chưa nhận ra giọng nói. Bạn có thể ghi âm lại.';
+          _error = context.l10n.text('speakingNothingRecognized');
         }
       });
     } finally {
@@ -392,7 +408,11 @@ class _SpeakingExerciseScreenState
     try {
       await _playback.playFile(path);
     } on Object {
-      if (mounted) setState(() => _error = 'Không thể phát bản ghi âm.');
+      if (mounted) {
+        setState(
+          () => _error = context.l10n.text('speakingRecordingPlaybackError'),
+        );
+      }
     }
   }
 
@@ -667,8 +687,8 @@ class _SpeakingSentenceCard extends StatelessWidget {
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const Text(
-          'NGHE VÀ NÓI LẠI',
+        Text(
+          context.l10n.text('speakingListenAndRepeat'),
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Color(0xFF7890AD),
@@ -707,7 +727,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
             key: const ValueKey('speaking-sample-audio'),
             onPressed: onPlaySample,
             icon: const Icon(Icons.volume_up_rounded),
-            label: const Text('Nghe câu mẫu'),
+            label: Text(context.l10n.text('speakingListenToSample')),
             style: FilledButton.styleFrom(
               backgroundColor: const Color(0xFF2774F5),
               padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 14),
@@ -748,10 +768,10 @@ class _SpeakingSentenceCard extends StatelessWidget {
         const SizedBox(height: 12),
         Text(
           isRecording
-              ? 'Đang ghi âm… nhấn để dừng'
+              ? context.l10n.text('speakingRecordingActive')
               : recordingReady
-              ? 'Đã ghi âm — nghe lại hoặc kiểm tra'
-              : 'Nhấn microphone và nói cả câu',
+              ? context.l10n.text('speakingRecordingReady')
+              : context.l10n.text('speakingRecordingPrompt'),
           textAlign: TextAlign.center,
           style: const TextStyle(
             color: Color(0xFF7A8DA7),
@@ -777,7 +797,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
             key: const ValueKey('speaking-recording-playback'),
             onPressed: onPlayRecording,
             icon: const Icon(Icons.play_arrow_rounded),
-            label: const Text('Nghe lại giọng của tôi'),
+            label: Text(context.l10n.text('speakingListenToMyVoice')),
           ),
         ],
         if (assessment == null && transcript.trim().isNotEmpty) ...[
@@ -786,7 +806,7 @@ class _SpeakingSentenceCard extends StatelessWidget {
             key: const ValueKey('speaking-check-button'),
             onPressed: onCheck,
             icon: const Icon(Icons.check_rounded),
-            label: const Text('CHECK'),
+            label: Text(context.l10n.text('check').toUpperCase()),
             style: FilledButton.styleFrom(
               backgroundColor: const Color(0xFF20BE78),
               padding: const EdgeInsets.symmetric(vertical: 15),
@@ -805,7 +825,10 @@ class _SpeakingSentenceCard extends StatelessWidget {
               backgroundColor: const Color(0xFF2774F5),
               padding: const EdgeInsets.symmetric(vertical: 15),
             ),
-            child: Text(isLast ? 'HOÀN THÀNH' : 'CÂU TIẾP THEO'),
+            child: Text(
+              context.l10n
+                  .text(isLast ? 'speakingComplete' : 'speakingNextSentence'),
+            ),
           ),
         ],
       ],
@@ -831,8 +854,14 @@ class _SpeakingResult extends StatelessWidget {
       children: [
         Text(
           assessment.isCorrect
-              ? 'Rất tốt! ${assessment.accuracyPercent}%'
-              : 'Cần luyện thêm • ${assessment.accuracyPercent}%',
+              ? context.l10n.text(
+                  'speakingExcellentScore',
+                  values: {'percent': assessment.accuracyPercent},
+                )
+              : context.l10n.text(
+                  'speakingNeedsPracticeScore',
+                  values: {'percent': assessment.accuracyPercent},
+                ),
           style: TextStyle(
             color: assessment.isCorrect
                 ? const Color(0xFF159A62)
@@ -851,14 +880,23 @@ class _SpeakingResult extends StatelessWidget {
           ],
         ),
         const SizedBox(height: 13),
-        const Wrap(
+        Wrap(
           alignment: WrapAlignment.center,
           spacing: 12,
           runSpacing: 5,
           children: [
-            _ResultLegend(color: Color(0xFF18A866), label: 'Đúng'),
-            _ResultLegend(color: Color(0xFFE14E58), label: 'Sai/thừa'),
-            _ResultLegend(color: Color(0xFFE69A20), label: 'Thiếu'),
+            _ResultLegend(
+              color: const Color(0xFF18A866),
+              label: context.l10n.text('speakingLegendCorrect'),
+            ),
+            _ResultLegend(
+              color: const Color(0xFFE14E58),
+              label: context.l10n.text('speakingLegendWrongExtra'),
+            ),
+            _ResultLegend(
+              color: const Color(0xFFE69A20),
+              label: context.l10n.text('speakingLegendMissing'),
+            ),
           ],
         ),
       ],
@@ -935,8 +973,11 @@ class _SpeakingLoadError extends StatelessWidget {
         children: [
           const Icon(Icons.mic_off_rounded, color: AppColors.primary, size: 48),
           const SizedBox(height: 12),
-          const Text('Không thể tải bài luyện nói'),
-          TextButton(onPressed: onBack, child: const Text('Quay lại')),
+          Text(context.l10n.text('speakingLoadError')),
+          TextButton(
+            onPressed: onBack,
+            child: Text(context.l10n.back),
+          ),
         ],
       ),
     ),

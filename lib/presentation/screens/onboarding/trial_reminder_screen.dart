@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
+
 class TrialReminderScreen extends StatefulWidget {
   const TrialReminderScreen({super.key});
 
@@ -146,10 +148,10 @@ class _TrialReminderScreenState extends State<TrialReminderScreen>
                                 child: Column(
                                   key: const ValueKey('trial-reminder-copy'),
                                   children: [
-                                    const Text(
-                                      'Chúng tôi sẽ nhắc bạn',
+                                    Text(
+                                      context.l10n.text('trialReminderTitle'),
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(
+                                      style: const TextStyle(
                                         color: Colors.white,
                                         fontSize: 24,
                                         height: 1.15,
@@ -165,10 +167,10 @@ class _TrialReminderScreenState extends State<TrialReminderScreen>
                                       ),
                                     ),
                                     const SizedBox(height: 5),
-                                    const Text(
-                                      '2 ngày trước khi',
+                                    Text(
+                                      context.l10n.text('trialReminderLead'),
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(
+                                      style: const TextStyle(
                                         color: Colors.white,
                                         fontSize: 35,
                                         height: 1.05,
@@ -188,10 +190,10 @@ class _TrialReminderScreenState extends State<TrialReminderScreen>
                                       ),
                                     ),
                                     const SizedBox(height: 7),
-                                    const Text(
-                                      'kết thúc thời gian dùng thử',
+                                    Text(
+                                      context.l10n.text('trialReminderEnd'),
                                       textAlign: TextAlign.center,
-                                      style: TextStyle(
+                                      style: const TextStyle(
                                         color: Colors.white,
                                         fontSize: 20,
                                         height: 1.2,
@@ -208,8 +210,10 @@ class _TrialReminderScreenState extends State<TrialReminderScreen>
                                     ),
                                     const SizedBox(height: 22),
                                     Text(
-                                      'Thông báo đẩy sẽ được gửi vào ngày '
-                                      '$_reminderDateLabel',
+                                      context.l10n.text(
+                                        'trialReminderPushDate',
+                                        values: {'date': _reminderDateLabel},
+                                      ),
                                       textAlign: TextAlign.center,
                                       style: const TextStyle(
                                         color: Color(0xFF9EBEFF),
@@ -241,7 +245,7 @@ class _TrialReminderScreenState extends State<TrialReminderScreen>
                           left: -12,
                           child: IconButton(
                             key: const ValueKey('trial-reminder-back'),
-                            tooltip: 'Quay lại',
+                            tooltip: context.l10n.back,
                             onPressed: context.pop,
                             icon: const Icon(
                               Icons.arrow_back_rounded,
@@ -316,9 +320,9 @@ class _TrialReminderButton extends StatelessWidget {
                         strokeWidth: 2.5,
                       ),
                     )
-                  : const Text(
-                      'Dùng thử miễn phí',
-                      style: TextStyle(
+                  : Text(
+                      context.l10n.text('freeTrialStart'),
+                      style: const TextStyle(
                         color: Color(0xFF155BF3),
                         fontSize: 21,
                         fontWeight: FontWeight.w800,

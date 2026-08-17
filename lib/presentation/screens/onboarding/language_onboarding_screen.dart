@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/datasources/topic_asset_data_source.dart';
 import '../../../data/models/topic_language.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -20,8 +21,14 @@ class LanguageOnboardingScreen extends ConsumerStatefulWidget {
 
 class _LanguageOnboardingScreenState
     extends ConsumerState<LanguageOnboardingScreen> {
-  String _selectedLanguageCode = 'vi';
+  late String _selectedLanguageCode;
   bool _isSaving = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _selectedLanguageCode = AppLocalizations.deviceLanguageCode();
+  }
 
   Future<void> _continue() async {
     if (_isSaving) return;
@@ -36,23 +43,28 @@ class _LanguageOnboardingScreenState
       ref.invalidate(localDataInitializationProvider);
       unawaited(ref.read(localDataInitializationProvider.future));
       if (!mounted) return;
+      // Keep the route reusable when the next screen is popped and the user
+      // returns to this language picker.
+      setState(() => _isSaving = false);
       context.push('/onboarding/assessment-intro');
     } catch (_) {
       if (!mounted) return;
       setState(() => _isSaving = false);
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Không thể lưu ngôn ngữ. Vui lòng thử lại.'),
-        ),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text(context.l10n.languageSaveError)));
     }
   }
 
   @override
   Widget build(BuildContext context) {
     final languagesState = ref.watch(supportedLanguagesProvider);
-    final languages =
+    final availableLanguages =
         languagesState.valueOrNull ?? TopicAssetDataSource.knownLanguages;
+    final languages = [
+      const TopicLanguage(code: 'en', label: 'English'),
+      ...availableLanguages.where((language) => language.code != 'en'),
+    ];
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
@@ -79,6 +91,10 @@ class _LanguageOnboardingScreenState
                       isSaving: _isSaving,
                       onSelected: (code) {
                         setState(() => _selectedLanguageCode = code);
+                        // Preview the selected language immediately. It is
+                        // persisted only after the user taps Continue.
+                        ref.read(selectedAppLanguageProvider.notifier).state =
+                            code;
                       },
                       onContinue: languages.isEmpty ? null : _continue,
                     ),
@@ -106,7 +122,7 @@ class _LanguageHeader extends StatelessWidget {
             left: 18,
             top: 16,
             child: Semantics(
-              label: 'Quay lại',
+              label: context.l10n.back,
               button: true,
               child: InkWell(
                 onTap: () {
@@ -132,18 +148,20 @@ class _LanguageHeader extends StatelessWidget {
               ),
             ),
           ),
-          const Positioned(
+          Positioned(
             left: 72,
             top: 28,
-            child: Text(
-              'Chọn ngôn ngữ\nmẹ đẻ của bạn',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 22.5,
-                height: 1.06,
-                fontWeight: FontWeight.w700,
-                letterSpacing: -0.7,
+            child: Builder(
+              builder: (context) => Text(
+                context.l10n.languageTitle,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22.5,
+                  height: 1.06,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: -0.7,
+                ),
               ),
             ),
           ),
@@ -160,14 +178,16 @@ class _LanguageHeader extends StatelessWidget {
           Positioned(
             left: 62,
             top: 85,
-            child: Text(
-              'Chúng tôi sẽ cá nhân hóa lộ trình\nhọc phù hợp với bạn.',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Colors.white.withValues(alpha: 0.78),
-                fontSize: 12,
-                height: 1.38,
-                fontWeight: FontWeight.w500,
+            child: Builder(
+              builder: (context) => Text(
+                context.l10n.languageSubtitle,
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white.withValues(alpha: 0.78),
+                  fontSize: 12,
+                  height: 1.38,
+                  fontWeight: FontWeight.w500,
+                ),
               ),
             ),
           ),
@@ -269,8 +289,8 @@ class _LanguagePanel extends StatelessWidget {
                                 color: Colors.white,
                               ),
                             )
-                          : const Text(
-                              'Tiếp',
+                          : Text(
+                              context.l10n.continueLabel,
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,

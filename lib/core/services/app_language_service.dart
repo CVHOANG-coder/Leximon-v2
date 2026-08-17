@@ -2,6 +2,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class AppLanguageService {
   static const selectedLanguageKey = 'onboarding.selected_app_language';
+  // Kept as an alias so the persisted value is explicitly available as the
+  // app language while remaining compatible with existing installations.
+  static const appLanguageKey = selectedLanguageKey;
   static const selectedLearningLevelKey = 'onboarding.selected_learning_level';
   static const carouselCompletedKey = 'onboarding.carousel_completed';
   static const onboardingCompletedKey = 'onboarding.completed';
@@ -9,15 +12,12 @@ class AppLanguageService {
 
   Future<String?> loadSelectedLanguage() async {
     final preferences = await SharedPreferences.getInstance();
-    return preferences.getString(selectedLanguageKey);
+    return preferences.getString(appLanguageKey);
   }
 
   Future<void> saveSelectedLanguage(String languageCode) async {
     final preferences = await SharedPreferences.getInstance();
-    final saved = await preferences.setString(
-      selectedLanguageKey,
-      languageCode,
-    );
+    final saved = await preferences.setString(appLanguageKey, languageCode);
     if (!saved) {
       throw StateError('Could not save the selected app language.');
     }

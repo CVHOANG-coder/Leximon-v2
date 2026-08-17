@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../shared/providers/app_providers.dart';
 import 'grammar_exercise_screen.dart';
 import 'grammar_practice_screen.dart';
@@ -132,15 +133,18 @@ class _GrammarPackDetailScreenState extends State<GrammarPackDetailScreen> {
           color: Color(0xFFFF6B6B),
           size: 34,
         ),
-        title: const Text('Đặt lại tiến độ bài học?'),
+        title: Text(context.l10n.text('grammarResetLessonTitle')),
         content: Text(
-          'Toàn bộ câu đã làm trong “${topic.label}” sẽ bị xóa và tiến độ trở về 0%. Bạn không thể hoàn tác thao tác này.',
+          context.l10n.text(
+            'grammarResetLessonBody',
+            values: {'topic': topic.label},
+          ),
         ),
         actions: [
           TextButton(
             key: const ValueKey('grammar-reset-topic-cancel-button'),
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Hủy'),
+            child: Text(context.l10n.cancel),
           ),
           FilledButton(
             key: const ValueKey('grammar-reset-topic-confirm-button'),
@@ -148,7 +152,7 @@ class _GrammarPackDetailScreenState extends State<GrammarPackDetailScreen> {
               backgroundColor: const Color(0xFFFF6B6B),
             ),
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Đặt lại'),
+            child: Text(context.l10n.text('reset')),
           ),
         ],
       ),
@@ -605,7 +609,7 @@ class _LessonCard extends StatelessWidget {
               if (isEditing)
                 IconButton(
                   key: ValueKey('grammar-reset-topic-$index'),
-                  tooltip: 'Đặt lại tiến độ',
+                  tooltip: context.l10n.text('grammarResetProgressTooltip'),
                   onPressed: topic.progress > 0 ? onReset : null,
                   style: IconButton.styleFrom(
                     backgroundColor: const Color(0xFFFFEEEE),

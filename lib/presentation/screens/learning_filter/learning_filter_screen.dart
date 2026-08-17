@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/learning_language_level.dart';
 import '../../../data/models/topic.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
@@ -32,7 +33,7 @@ class LearningFilterScreen extends ConsumerStatefulWidget {
 
 class _LearningFilterScreenState extends ConsumerState<LearningFilterScreen> {
   late _SetupStep _step;
-  String _selectedLevel = 'Sơ cấp';
+  LearningLanguageLevel _selectedLevel = LearningLanguageLevel.beginner;
   late final Set<int> _selectedTopicOrders;
 
   @override
@@ -40,8 +41,8 @@ class _LearningFilterScreenState extends ConsumerState<LearningFilterScreen> {
     super.initState();
     _step = widget.startAtTopics ? _SetupStep.topics : _SetupStep.level;
     _selectedLevel =
-        ref.read(selectedLanguageLevelsProvider).firstOrNull?.label ??
-        LearningLanguageLevel.beginner.label;
+        ref.read(selectedLanguageLevelsProvider).firstOrNull ??
+        LearningLanguageLevel.beginner;
     final existingOrders = ref.read(selectedTopicOrdersProvider);
     _selectedTopicOrders = existingOrders.isEmpty
         ? {1, 2, 3}
@@ -51,9 +52,7 @@ class _LearningFilterScreenState extends ConsumerState<LearningFilterScreen> {
   void _applyFilters() {
     final selectedOrders = {..._selectedTopicOrders};
     ref.read(selectedTopicOrdersProvider.notifier).state = selectedOrders;
-    ref.read(selectedLanguageLevelsProvider.notifier).state = {
-      LearningLanguageLevel.fromLabel(_selectedLevel),
-    };
+    ref.read(selectedLanguageLevelsProvider.notifier).state = {_selectedLevel};
     unawaited(_persistSelectedTopics(selectedOrders));
     widget.onFinished?.call();
     if (widget.onFinished == null && Navigator.of(context).canPop()) {
@@ -69,7 +68,7 @@ class _LearningFilterScreenState extends ConsumerState<LearningFilterScreen> {
     } on Object {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Không thể lưu chủ đề đã chọn.')),
+        SnackBar(content: Text(context.l10n.text('surveySaveTopicsError'))),
       );
     }
   }
@@ -203,13 +202,13 @@ class _SetupHeader extends StatelessWidget {
           enabled: onBack != null,
         ),
         const SizedBox(width: 12),
-        const Expanded(
+        Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'LEARNING FILTERS',
-                style: TextStyle(
+                context.l10n.text('learningFilters'),
+                style: const TextStyle(
                   color: AppColors.primary,
                   fontSize: 10,
                   fontWeight: FontWeight.w800,
@@ -221,7 +220,7 @@ class _SetupHeader extends StatelessWidget {
                 alignment: Alignment.centerLeft,
                 fit: BoxFit.scaleDown,
                 child: Text(
-                  'Cá nhân hóa lộ trình',
+                  context.l10n.text('learningFiltersTitle'),
                   maxLines: 1,
                   style: TextStyle(
                     color: AppColors.textPrimary,
@@ -378,12 +377,12 @@ class _SetupTabs extends StatelessWidget {
                 Row(
                   children: [
                     _SetupTab(
-                      label: 'Cấp độ',
+                      label: context.l10n.text('level'),
                       selected: step == _SetupStep.level,
                       onTap: () => onChanged(_SetupStep.level),
                     ),
                     _SetupTab(
-                      label: 'Chủ đề',
+                      label: context.l10n.text('topics'),
                       selected: step == _SetupStep.topics,
                       onTap: () => onChanged(_SetupStep.topics),
                     ),
@@ -440,62 +439,58 @@ class _SetupTab extends StatelessWidget {
 class _LevelStep extends StatelessWidget {
   const _LevelStep({required this.selectedLevel, required this.onSelected});
 
-  final String selectedLevel;
-  final ValueChanged<String> onSelected;
+  final LearningLanguageLevel selectedLevel;
+  final ValueChanged<LearningLanguageLevel> onSelected;
 
   @override
   Widget build(BuildContext context) {
     const levels = [
       (
-        title: 'Sơ cấp',
-        tag: 'Khuyên dùng',
+        level: LearningLanguageLevel.beginner,
+        tagKey: 'recommended',
         iconAsset: 'assets/svgs/plant.svg',
         color: Color(0xFFDDF7EE),
-        description:
-            'Bắt đầu từ những từ quen thuộc, dễ tiếp cận và dễ ghi nhớ.',
-        meta: ['Từ cơ bản', 'Câu ngắn', 'Dễ ghi nhớ'],
+        descriptionKey: 'learningFilterBeginnerDescription',
+        metaKeys: ['basicWords', 'shortSentences', 'easyToRemember'],
       ),
       (
-        title: 'Trung bình',
-        tag: 'Intermediate',
+        level: LearningLanguageLevel.intermediate,
+        tagKey: 'levelIntermediate',
         iconAsset: 'assets/svgs/thunder.svg',
         color: Color(0xFFEAE4FF),
-        description:
-            'Mở rộng vốn từ theo các tình huống thực tế và đa chủ đề hơn.',
-        meta: ['Đa chủ đề', 'Ngữ cảnh hơn', 'Ôn sâu hơn'],
+        descriptionKey: 'learningFilterIntermediateDescription',
+        metaKeys: ['variedTopics', 'moreContext', 'deeperReview'],
       ),
       (
-        title: 'Nâng cao',
-        tag: 'Advanced',
+        level: LearningLanguageLevel.advanced,
+        tagKey: 'levelAdvanced',
         iconAsset: 'assets/svgs/rocket.svg',
         color: Color(0xFFFFE9C7),
-        description:
-            'Chinh phục từ khó, sắc thái sâu và ngôn ngữ trong công việc.',
-        meta: ['Từ khó', 'Ngữ nghĩa sâu', 'Thử thách hơn'],
+        descriptionKey: 'learningFilterAdvancedDescription',
+        metaKeys: ['difficultWordsMeta', 'deepMeanings', 'moreChallenging'],
       ),
     ];
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const _SetupIntro(
+        _SetupIntro(
           iconAsset: 'assets/svgs/target_3d.svg',
-          label: 'Chọn trình độ',
-          title: 'Bạn muốn bắt đầu ở mức nào?',
-          description:
-              'Leximon sẽ điều chỉnh độ khó, nhóm từ vựng và thử thách luyện tập dựa trên lựa chọn của bạn.',
+          label: context.l10n.text('learningFilterChooseLevel'),
+          title: context.l10n.text('learningFilterLevelQuestion'),
+          description: context.l10n.text('learningFilterLevelDescription'),
         ),
         const SizedBox(height: 14),
         for (final level in levels) ...[
           _LevelOption(
-            title: level.title,
-            tag: level.tag,
+            title: _localizedLevel(context, level.level),
+            tag: context.l10n.text(level.tagKey),
             iconAsset: level.iconAsset,
             iconColor: level.color,
-            description: level.description,
-            meta: level.meta,
-            selected: selectedLevel == level.title,
-            onTap: () => onSelected(level.title),
+            description: context.l10n.text(level.descriptionKey),
+            meta: level.metaKeys.map(context.l10n.text).toList(),
+            selected: selectedLevel == level.level,
+            onTap: () => onSelected(level.level),
           ),
           const SizedBox(height: 10),
         ],
@@ -797,22 +792,21 @@ class _SetupHelper extends StatelessWidget {
             height: 24,
           ),
           const SizedBox(width: 9),
-          const Expanded(
+          Expanded(
             child: Text.rich(
               TextSpan(
-                text: 'Nếu bạn chưa chắc nên chọn gì, hãy bắt đầu với ',
+                text: context.l10n.text('learningFilterHelperPrefix'),
                 children: [
                   TextSpan(
-                    text: 'Sơ cấp',
-                    style: TextStyle(fontWeight: FontWeight.w800),
+                    text: context.l10n.levelBeginner,
+                    style: const TextStyle(fontWeight: FontWeight.w800),
                   ),
                   TextSpan(
-                    text:
-                        '. Bạn luôn có thể đổi lại cấp độ sau trong phần thiết đặt.',
+                    text: context.l10n.text('learningFilterHelperSuffix'),
                   ),
                 ],
               ),
-              style: TextStyle(
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 10,
                 height: 1.4,
@@ -838,12 +832,11 @@ class _TopicsStep extends ConsumerWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const _SetupIntro(
+        _SetupIntro(
           iconAsset: 'assets/svgs/book.svg',
-          label: 'Chọn chủ đề',
-          title: 'Những chủ đề nào phù hợp với bạn?',
-          description:
-              'Bạn có thể chọn nhiều chủ đề để Leximon ưu tiên trong giai đoạn đầu. Đề xuất tốt nhất là 3–5 chủ đề.',
+          label: context.l10n.text('learningFilterChooseTopics'),
+          title: context.l10n.text('learningFilterTopicQuestion'),
+          description: context.l10n.text('learningFilterTopicDescription'),
         ),
         const SizedBox(height: 14),
         Row(
@@ -854,7 +847,10 @@ class _TopicsStep extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    '${selectedOrders.length} chủ đề đã chọn',
+                    context.l10n.text(
+                      'selectedTopicCount',
+                      values: {'count': selectedOrders.length},
+                    ),
                     style: const TextStyle(
                       color: AppColors.textPrimary,
                       fontSize: 17,
@@ -863,9 +859,9 @@ class _TopicsStep extends ConsumerWidget {
                     ),
                   ),
                   const SizedBox(height: 2),
-                  const Text(
-                    'Bắt đầu tốt với một nhóm nhỏ trước',
-                    style: TextStyle(
+                  Text(
+                    context.l10n.text('learningFilterSmallGroupHint'),
+                    style: const TextStyle(
                       color: AppColors.textSecondary,
                       fontSize: 10,
                       fontWeight: FontWeight.w600,
@@ -880,9 +876,9 @@ class _TopicsStep extends ConsumerWidget {
                 color: const Color(0xFFE6F0FF),
                 borderRadius: BorderRadius.circular(99),
               ),
-              child: const Text(
-                'Khuyên dùng',
-                style: TextStyle(
+              child: Text(
+                context.l10n.text('recommended'),
+                style: const TextStyle(
                   color: Color(0xFF2475E6),
                   fontSize: 10,
                   fontWeight: FontWeight.w800,
@@ -921,12 +917,12 @@ class _TopicFallback extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.all(20),
+    return Padding(
+      padding: const EdgeInsets.all(20),
       child: Text(
-        'Không thể tải danh sách chủ đề.',
+        context.l10n.text('learningFilterTopicLoadError'),
         textAlign: TextAlign.center,
-        style: TextStyle(color: AppColors.textSecondary, fontSize: 11),
+        style: const TextStyle(color: AppColors.textSecondary, fontSize: 11),
       ),
     );
   }
@@ -943,13 +939,13 @@ class _TopicOption extends StatelessWidget {
   final bool selected;
   final VoidCallback onTap;
 
-  static const _descriptions = <int, String>{
-    1: 'Từ vựng cần thiết khi đi lại, đặt phòng và di chuyển.',
-    2: 'Nhóm từ cơ bản khi xem giá, hỏi món hàng và thanh toán.',
-    3: 'Chủ đề gần gũi, dễ bắt đầu và dễ áp dụng khi giao tiếp.',
-    4: 'Phù hợp với môi trường học tập, môn học và hoạt động trong lớp.',
-    5: 'Từ vựng liên quan tới công việc, nhiệm vụ và nghề nghiệp.',
-    6: 'Luyện cách giao tiếp tự tin trong các cuộc phỏng vấn.',
+  static const _descriptionKeys = <int, String>{
+    1: 'learningFilterTopicTravel',
+    2: 'learningFilterTopicShopping',
+    3: 'learningFilterTopicRelationships',
+    4: 'learningFilterTopicEducation',
+    5: 'learningFilterTopicWork',
+    6: 'learningFilterTopicInterview',
   };
 
   @override
@@ -1014,7 +1010,10 @@ class _TopicOption extends StatelessWidget {
                       ),
                       const SizedBox(width: 5),
                       Text(
-                        '${topic.wordCount} từ',
+                        context.l10n.text(
+                          'wordCount',
+                          values: {'count': topic.wordCount},
+                        ),
                         style: const TextStyle(
                           color: AppColors.textMuted,
                           fontSize: 10,
@@ -1025,8 +1024,10 @@ class _TopicOption extends StatelessWidget {
                   ),
                   const SizedBox(height: 5),
                   Text(
-                    _descriptions[topic.order] ??
-                        'Mở rộng vốn từ theo các tình huống quen thuộc trong cuộc sống.',
+                    context.l10n.text(
+                      _descriptionKeys[topic.order] ??
+                          'learningFilterTopicFallback',
+                    ),
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
                     style: const TextStyle(
@@ -1097,7 +1098,7 @@ class _SetupBottomBar extends StatelessWidget {
     required this.onApply,
   });
 
-  final String selectedLevel;
+  final LearningLanguageLevel selectedLevel;
   final int selectedTopicCount;
   final VoidCallback onApply;
 
@@ -1131,7 +1132,13 @@ class _SetupBottomBar extends StatelessWidget {
                       mainAxisSize: MainAxisSize.min,
                       children: [
                         Text(
-                          '$selectedLevel  •  $selectedTopicCount chủ đề',
+                          context.l10n.text(
+                            'learningFilterSummary',
+                            values: {
+                              'level': _localizedLevel(context, selectedLevel),
+                              'count': selectedTopicCount,
+                            },
+                          ),
                           style: const TextStyle(
                             color: AppColors.textPrimary,
                             fontSize: 14,
@@ -1139,11 +1146,11 @@ class _SetupBottomBar extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 3),
-                        const Text(
-                          'Áp dụng đồng thời hai bộ lọc học',
+                        Text(
+                          context.l10n.text('learningFilterApplyBoth'),
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
-                          style: TextStyle(
+                          style: const TextStyle(
                             color: AppColors.textSecondary,
                             fontSize: 9,
                             fontWeight: FontWeight.w600,
@@ -1208,7 +1215,7 @@ class _SetupBottomBar extends StatelessWidget {
                             fontWeight: FontWeight.w800,
                           ),
                         ),
-                        child: const Text('Áp dụng'),
+                        child: Text(context.l10n.text('apply')),
                       ),
                     ),
                   ),
@@ -1220,4 +1227,12 @@ class _SetupBottomBar extends StatelessWidget {
       ),
     );
   }
+}
+
+String _localizedLevel(BuildContext context, LearningLanguageLevel level) {
+  return switch (level) {
+    LearningLanguageLevel.beginner => context.l10n.levelBeginner,
+    LearningLanguageLevel.intermediate => context.l10n.levelIntermediate,
+    LearningLanguageLevel.advanced => context.l10n.levelAdvanced,
+  };
 }

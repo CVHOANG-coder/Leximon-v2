@@ -3,6 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
+import '../../../data/models/iap_packages_response.dart';
+import '../../../data/services/iap_catalog_service.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class SubscriptionPlanScreen extends ConsumerStatefulWidget {
@@ -26,7 +29,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
   late final Animation<double> _buttonOpacity;
   late final Animation<Offset> _buttonSlide;
 
-  int _selectedPlanMonths = 12;
+  String? _selectedProductId;
   bool _isSubmitting = false;
 
   @override
@@ -107,15 +110,17 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       if (!mounted) return;
       setState(() => _isSubmitting = false);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Không thể hoàn tất thiết lập. Vui lòng thử lại.'),
-        ),
+        SnackBar(content: Text(context.l10n.text('subscriptionCompleteError'))),
       );
     }
   }
 
   @override
   Widget build(BuildContext context) {
+    final catalogState = ref.watch(iapCatalogProvider);
+    final catalog = catalogState.valueOrNull;
+    final packages = catalog?.packages ?? const <IapPackage>[];
+
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
@@ -167,16 +172,17 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                           opacity: _headlineOpacity,
                           child: SlideTransition(
                             position: _headlineSlide,
-                            child: const Column(
-                              key: ValueKey('subscription-headline'),
+                            child: Column(
+                              key: const ValueKey('subscription-headline'),
                               children: [
-                                _TwentyEightDayHeadline(),
-                                SizedBox(height: 8),
+                                const _TwentyEightDayHeadline(),
+                                const SizedBox(height: 8),
                                 Text(
-                                  'tiếng Anh của bạn sẽ trở thành công cụ\n'
-                                  'đáng tin cậy trong công việc',
+                                  context.l10n.text(
+                                    'subscriptionHeadlineSubtitle',
+                                  ),
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     color: Colors.white,
                                     fontSize: 16,
                                     height: 1.3,
@@ -202,47 +208,11 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                             position: _plansSlide,
                             child: Column(
                               key: const ValueKey('subscription-plans'),
-                              children: [
-                                _SubscriptionPlanCard(
-                                  key: const ValueKey(
-                                    'subscription-plan-2-month',
-                                  ),
-                                  months: 2,
-                                  totalPrice: '799.000 đ',
-                                  monthlyPrice: '399.500 đ / thg',
-                                  selected: _selectedPlanMonths == 2,
-                                  onTap: () {
-                                    setState(() => _selectedPlanMonths = 2);
-                                  },
-                                ),
-                                const SizedBox(height: 28),
-                                _SubscriptionPlanCard(
-                                  key: const ValueKey(
-                                    'subscription-plan-12-month',
-                                  ),
-                                  months: 12,
-                                  originalPrice: '4.770.500 đ',
-                                  totalPrice: '2.099.000 đ',
-                                  monthlyPrice: '174.917 đ / thg',
-                                  isPopular: true,
-                                  selected: _selectedPlanMonths == 12,
-                                  onTap: () {
-                                    setState(() => _selectedPlanMonths = 12);
-                                  },
-                                ),
-                                const SizedBox(height: 13),
-                                const Text(
-                                  'Chọn gói đăng ký\n'
-                                  'sau 7 ngày dùng thử miễn phí',
-                                  textAlign: TextAlign.center,
-                                  style: TextStyle(
-                                    color: Color(0xFFAAC7FF),
-                                    fontSize: 15,
-                                    height: 1.25,
-                                    fontWeight: FontWeight.w400,
-                                  ),
-                                ),
-                              ],
+                              children: _buildPlanContent(
+                                catalogState: catalogState,
+                                catalog: catalog,
+                                packages: packages,
+                              ),
                             ),
                           ),
                         ),
@@ -274,7 +244,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                     left: 12,
                     child: IconButton(
                       key: const ValueKey('subscription-back'),
-                      tooltip: 'Quay lại',
+                      tooltip: context.l10n.back,
                       onPressed: context.pop,
                       icon: const Icon(
                         Icons.arrow_back_rounded,
@@ -293,6 +263,117 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
         ),
       ),
     );
+  }
+
+  List<Widget> _buildPlanContent({
+    required AsyncValue<IapCatalog> catalogState,
+    required IapCatalog? catalog,
+    required List<IapPackage> packages,
+  }) {
+    if (packages.isEmpty && catalogState.isLoading) {
+      return [
+        const Padding(
+          padding: EdgeInsets.symmetric(vertical: 30),
+          child: CircularProgressIndicator(color: Color(0xFF8CCBFF)),
+        ),
+        Text(
+          context.l10n.text('subscriptionLoadingPlans'),
+          style: const TextStyle(color: Color(0xFFAAC7FF), fontSize: 15),
+        ),
+      ];
+    }
+
+    if (packages.isEmpty) {
+      return [
+        Text(
+          context.l10n.text('subscriptionLoadError'),
+          textAlign: TextAlign.center,
+          style: TextStyle(color: Color(0xFFAAC7FF), fontSize: 15),
+        ),
+        const SizedBox(height: 8),
+        TextButton(
+          onPressed: () => ref.invalidate(iapCatalogProvider),
+          child: Text(context.l10n.retry),
+        ),
+      ];
+    }
+
+    final selectedPackage = packages.firstWhere(
+      (item) => item.productId == _selectedProductId,
+      orElse: () => packages.first,
+    );
+
+    final children = <Widget>[];
+    for (var index = 0; index < packages.length; index++) {
+      final package = packages[index];
+      final isSelected = package.productId == selectedPackage.productId;
+      final storePrice = catalog?.storePriceFor(package);
+      children.add(
+        _SubscriptionPlanCard(
+          key: ValueKey('subscription-plan-${package.productId}'),
+          title: package.name,
+          description: package.description,
+          durationLabel: _durationLabel(package.packDurationDay),
+          storePrice:
+              storePrice ??
+              context.l10n.text('subscriptionStorePriceUnavailable'),
+          badgeLabel: package.group == 'SALE'
+              ? context.l10n.text('subscriptionSale')
+              : null,
+          selected: isSelected,
+          onTap: () {
+            setState(() => _selectedProductId = package.productId);
+          },
+        ),
+      );
+      if (index < packages.length - 1) {
+        children.add(const SizedBox(height: 18));
+      }
+    }
+
+    if (selectedPackage.trialDays > 0) {
+      children.add(const SizedBox(height: 13));
+      children.add(
+        Text(
+          context.l10n.text(
+            'subscriptionTrialDays',
+            values: {'days': selectedPackage.trialDays},
+          ),
+          textAlign: TextAlign.center,
+          style: const TextStyle(
+            color: Color(0xFFAAC7FF),
+            fontSize: 15,
+            height: 1.25,
+            fontWeight: FontWeight.w400,
+          ),
+        ),
+      );
+    }
+
+    return children;
+  }
+
+  String _durationLabel(int days) {
+    if (days >= 36500) return context.l10n.text('subscriptionLifetime');
+    if (days >= 365) {
+      return context.l10n.text(
+        'subscriptionYears',
+        values: {'count': (days / 365).round()},
+      );
+    }
+    if (days >= 30) {
+      return context.l10n.text(
+        'subscriptionMonths',
+        values: {'count': (days / 30).round()},
+      );
+    }
+    if (days >= 7) {
+      return context.l10n.text(
+        'subscriptionWeeks',
+        values: {'count': (days / 7).round()},
+      );
+    }
+    return context.l10n.text('subscriptionDays', values: {'count': days});
   }
 }
 
@@ -319,7 +400,7 @@ class _TwentyEightDayHeadline extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Text('Trong ', style: style),
+          Text(context.l10n.text('subscriptionIn'), style: style),
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
             decoration: BoxDecoration(
@@ -332,7 +413,7 @@ class _TwentyEightDayHeadline extends StatelessWidget {
             ),
             child: const Text('28', style: style),
           ),
-          const Text(' ngày', style: style),
+          Text(context.l10n.text('subscriptionDaySuffix'), style: style),
         ],
       ),
     );
@@ -342,20 +423,20 @@ class _TwentyEightDayHeadline extends StatelessWidget {
 class _SubscriptionPlanCard extends StatelessWidget {
   const _SubscriptionPlanCard({
     super.key,
-    required this.months,
-    required this.totalPrice,
-    required this.monthlyPrice,
+    required this.title,
+    required this.description,
+    required this.durationLabel,
+    required this.storePrice,
     required this.selected,
     required this.onTap,
-    this.originalPrice,
-    this.isPopular = false,
+    this.badgeLabel,
   });
 
-  final int months;
-  final String? originalPrice;
-  final String totalPrice;
-  final String monthlyPrice;
-  final bool isPopular;
+  final String title;
+  final String description;
+  final String durationLabel;
+  final String storePrice;
+  final String? badgeLabel;
   final bool selected;
   final VoidCallback onTap;
 
@@ -371,8 +452,13 @@ class _SubscriptionPlanCard extends StatelessWidget {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 220),
           curve: Curves.easeOutCubic,
-          height: originalPrice == null ? 82 : 98,
-          padding: EdgeInsets.fromLTRB(21, isPopular ? 25 : 14, 19, 12),
+          constraints: const BoxConstraints(minHeight: 116),
+          padding: EdgeInsets.fromLTRB(
+            21,
+            badgeLabel == null ? 15 : 25,
+            19,
+            15,
+          ),
           decoration: BoxDecoration(
             gradient: selected
                 ? const LinearGradient(
@@ -405,90 +491,68 @@ class _SubscriptionPlanCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Expanded(
-                    flex: 11,
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          '$months tháng',
-                          maxLines: 1,
-                          style: TextStyle(
-                            color: foregroundColor,
-                            fontSize: 20,
-                            height: 1,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        if (originalPrice == null)
-                          Text(
-                            totalPrice,
-                            style: const TextStyle(
-                              color: Color(0xFF8AAEFF),
-                              fontSize: 16,
-                              decoration: TextDecoration.underline,
-                            ),
-                          )
-                        else
-                          Align(
-                            alignment: Alignment.centerLeft,
-                            child: FittedBox(
-                              fit: BoxFit.scaleDown,
-                              child: Row(
-                                mainAxisSize: MainAxisSize.min,
-                                children: [
-                                  Text(
-                                    originalPrice!,
-                                    style: const TextStyle(
-                                      color: Color(0xFFD72B36),
-                                      fontSize: 15.5,
-                                      decoration: TextDecoration.lineThrough,
-                                      decorationColor: Color(0xFFD72B36),
-                                      decorationThickness: 2,
-                                    ),
-                                  ),
-                                  const SizedBox(width: 11),
-                                  Text(
-                                    totalPrice,
-                                    style: TextStyle(
-                                      color: foregroundColor,
-                                      fontSize: 17,
-                                      fontWeight: FontWeight.w700,
-                                      decoration: TextDecoration.underline,
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                          ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(width: 10),
-                  Expanded(
-                    flex: 9,
-                    child: Align(
-                      alignment: Alignment.centerRight,
-                      child: FittedBox(
-                        fit: BoxFit.scaleDown,
-                        child: Text(
-                          monthlyPrice,
+                          durationLabel,
                           maxLines: 1,
                           style: TextStyle(
                             color: selected
                                 ? const Color(0xFF1657E8)
                                 : const Color(0xFF8AAEFF),
-                            fontSize: 16,
-                            fontWeight: FontWeight.w600,
+                            fontSize: 14,
+                            fontWeight: FontWeight.w700,
                           ),
                         ),
+                        const SizedBox(height: 4),
+                        Text(
+                          title,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            color: foregroundColor,
+                            fontSize: 18,
+                            height: 1.05,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          description,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            color: selected
+                                ? const Color(0xFF405A91)
+                                : const Color(0xFFAAC7FF),
+                            fontSize: 12.5,
+                            height: 1.15,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Flexible(
+                    child: Text(
+                      storePrice,
+                      textAlign: TextAlign.right,
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
+                      style: TextStyle(
+                        color: selected
+                            ? const Color(0xFF1657E8)
+                            : const Color(0xFF8AAEFF),
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
                       ),
                     ),
                   ),
                 ],
               ),
-              if (isPopular)
+              if (badgeLabel != null)
                 Positioned(
                   // The Stack is inside the card's top padding. Move the
                   // badge above that padding so it never covers the plan.
@@ -519,18 +583,18 @@ class _SubscriptionPlanCard extends StatelessWidget {
                         ),
                       ],
                     ),
-                    child: const Row(
+                    child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Icon(
+                        const Icon(
                           Icons.auto_awesome_rounded,
                           color: Colors.white,
                           size: 13,
                         ),
-                        SizedBox(width: 5),
+                        const SizedBox(width: 5),
                         Text(
-                          'PHỔ BIẾN',
-                          style: TextStyle(
+                          badgeLabel!,
+                          style: const TextStyle(
                             color: Colors.white,
                             fontSize: 11.5,
                             fontWeight: FontWeight.w800,
@@ -626,10 +690,10 @@ class _SubscriptionStartButton extends StatelessWidget {
                         strokeWidth: 2.5,
                       ),
                     )
-                  : const Text(
-                      'Dùng thử miễn phí\nvà đăng ký',
+                  : Text(
+                      context.l10n.text('subscriptionStart'),
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Color(0xFF155BF3),
                         fontSize: 20,
                         height: 1.05,

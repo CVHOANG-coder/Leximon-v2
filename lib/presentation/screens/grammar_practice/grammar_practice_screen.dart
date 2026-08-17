@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/datasources/grammar_asset_data_source.dart';
 import '../../../data/models/grammar_content.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -169,15 +170,18 @@ class _GrammarPracticeScreenState extends ConsumerState<GrammarPracticeScreen> {
           color: Color(0xFFFF6B6B),
           size: 34,
         ),
-        title: const Text('Đặt lại tiến độ pack?'),
+        title: Text(context.l10n.text('grammarResetPackTitle')),
         content: Text(
-          'Toàn bộ câu đã làm trong “${pack.title}” sẽ bị xóa và tiến độ trở về 0%. Bạn không thể hoàn tác thao tác này.',
+          context.l10n.text(
+            'grammarResetPackBody',
+            values: {'pack': pack.title},
+          ),
         ),
         actions: [
           TextButton(
             key: const ValueKey('grammar-reset-cancel-button'),
             onPressed: () => Navigator.of(context).pop(false),
-            child: const Text('Hủy'),
+            child: Text(context.l10n.cancel),
           ),
           FilledButton(
             key: const ValueKey('grammar-reset-confirm-button'),
@@ -185,7 +189,7 @@ class _GrammarPracticeScreenState extends ConsumerState<GrammarPracticeScreen> {
               backgroundColor: const Color(0xFFFF6B6B),
             ),
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Đặt lại'),
+            child: Text(context.l10n.text('reset')),
           ),
         ],
       ),
@@ -226,7 +230,7 @@ class _GrammarHeader extends StatelessWidget {
           ),
         ),
         const SizedBox(width: 16),
-        const Expanded(
+        Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -241,7 +245,7 @@ class _GrammarHeader extends StatelessWidget {
               ),
               SizedBox(height: 5),
               Text(
-                'Ngữ pháp',
+                context.l10n.text('grammarTitle'),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: TextStyle(
@@ -271,7 +275,9 @@ class _GrammarHeader extends StatelessWidget {
               const SizedBox(width: 6),
               Flexible(
                 child: Text(
-                  isEditing ? 'Xong' : 'Chỉnh sửa',
+                  isEditing
+                      ? context.l10n.text('done')
+                      : context.l10n.text('edit'),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: const TextStyle(
@@ -372,12 +378,12 @@ class _GrammarHero extends StatelessWidget {
                   left: constraints.maxWidth * .37,
                   top: 17,
                   right: contentRight,
-                  child: const Column(
+                  child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         key: ValueKey('grammar-hero-title'),
-                        'Luyện ngữ pháp\ntheo từng cấp độ',
+                        context.l10n.text('grammarByLevelTitle'),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(
@@ -391,7 +397,7 @@ class _GrammarHero extends StatelessWidget {
                       SizedBox(height: 3),
                       Text(
                         key: ValueKey('grammar-hero-subtitle'),
-                        'Học đều mỗi ngày, tiến bộ từng chút một!',
+                        context.l10n.text('grammarMotivation'),
                         maxLines: 2,
                         style: TextStyle(
                           color: AppColors.textSecondary,
@@ -435,9 +441,9 @@ class _GrammarHero extends StatelessWidget {
                           size: 15,
                         ),
                         const SizedBox(width: 5),
-                        const Expanded(
+                        Expanded(
                           child: Text(
-                            'Tiến độ tổng',
+                            context.l10n.text('overallProgress'),
                             style: TextStyle(
                               color: AppColors.primaryDark,
                               fontSize: 9,
@@ -611,7 +617,10 @@ class _GrammarLevelSection extends StatelessWidget {
                       fit: BoxFit.scaleDown,
                       alignment: Alignment.centerRight,
                       child: Text(
-                        '$levelProgress% hoàn thành',
+                        context.l10n.text(
+                          'percentComplete',
+                          values: {'percent': levelProgress},
+                        ),
                         style: TextStyle(
                           color: style.color,
                           fontSize: 10,
@@ -681,7 +690,10 @@ class _GrammarPackTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
-      label: '${pack.title}, ${pack.lessonCount} bài học',
+      label: context.l10n.text(
+        'grammarPackSemantics',
+        values: {'title': pack.title, 'count': pack.lessonCount},
+      ),
       child: Material(
         color: Colors.white.withValues(alpha: .9),
         shape: RoundedRectangleBorder(
@@ -744,7 +756,10 @@ class _GrammarPackTile extends StatelessWidget {
                       ),
                       const SizedBox(height: 3),
                       Text(
-                        '${pack.lessonCount} bài học',
+                        context.l10n.text(
+                          'lessonCount',
+                          values: {'count': pack.lessonCount},
+                        ),
                         style: const TextStyle(
                           color: AppColors.textSecondary,
                           fontSize: 9,
@@ -786,7 +801,7 @@ class _GrammarPackTile extends StatelessWidget {
                 if (isEditing)
                   IconButton(
                     key: ValueKey('grammar-reset-pack-${pack.guid}'),
-                    tooltip: 'Đặt lại tiến độ',
+                    tooltip: context.l10n.text('grammarResetProgressTooltip'),
                     onPressed: pack.progress > 0 ? onReset : null,
                     style: IconButton.styleFrom(
                       backgroundColor: const Color(0xFFFFEEEE),
@@ -830,8 +845,8 @@ class _LoadError extends StatelessWidget {
         children: [
           const Icon(Icons.error_outline_rounded, color: AppColors.orange),
           const SizedBox(height: 10),
-          const Text(
-            'Không thể tải dữ liệu ngữ pháp.',
+          Text(
+            context.l10n.text('grammarLoadError'),
             textAlign: TextAlign.center,
             style: TextStyle(fontWeight: FontWeight.w700),
           ),

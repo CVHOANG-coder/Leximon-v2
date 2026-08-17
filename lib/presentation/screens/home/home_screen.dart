@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/local/app_database.dart';
 import '../../../data/models/practice_exercise.dart';
 import '../../../data/models/sentence_exercise.dart';
@@ -93,9 +94,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                       padding: const EdgeInsets.fromLTRB(14, 20, 14, 16),
                       child: Column(
                         children: [
-                          const SectionHeader(
-                            kicker: 'Thư viện từ vựng',
-                            title: 'Chọn chủ đề để học',
+                          SectionHeader(
+                            kicker: context.l10n.homeLibraryKicker,
+                            title: context.l10n.homeLibraryTitle,
                           ),
                           const SizedBox(height: 15),
                           _SearchRow(
@@ -122,9 +123,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                               padding: EdgeInsets.all(30),
                               child: CircularProgressIndicator(),
                             ),
-                            error: (error, stack) => const Padding(
+                            error: (error, stack) => Padding(
                               padding: EdgeInsets.all(20),
-                              child: Text('Không thể tải chủ đề.'),
+                              child: Text(context.l10n.topicsLoadError),
                             ),
                             data: (topics) {
                               if (!topicSelectionReady) {
@@ -176,8 +177,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                                       ),
                                       label: Text(
                                         _showAllTopics
-                                            ? 'Thu gọn'
-                                            : 'Xem tất cả ${topicPool.length} chủ đề',
+                                            ? context.l10n.showLess
+                                            : context.l10n.showAllTopics(
+                                                topicPool.length,
+                                              ),
                                       ),
                                       style: OutlinedButton.styleFrom(
                                         minimumSize: const Size(
@@ -227,7 +230,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
                                         Icons.add_rounded,
                                         size: 20,
                                       ),
-                                      label: const Text('Thiết lập thêm topic'),
+                                      label: Text(context.l10n.addTopic),
                                       style: OutlinedButton.styleFrom(
                                         minimumSize: const Size(
                                           double.infinity,
@@ -288,10 +291,10 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
           topic.original.toLowerCase().contains(search);
       final progress = progressByTopicId[topic.id] ?? 0;
       final matchesFilter =
-          filter == 'Tất cả' ||
-          (filter == 'Đang học' && progress > 0 && progress < 1) ||
-          (filter == 'Chưa học' && progress == 0) ||
-          (filter == 'Đã hoàn thành' && progress >= 1);
+          filter == 'topicFilterAll' ||
+          (filter == 'topicFilterLearning' && progress > 0 && progress < 1) ||
+          (filter == 'topicFilterNotStarted' && progress == 0) ||
+          (filter == 'topicFilterCompleted' && progress >= 1);
       return matchesSearch && matchesFilter;
     }).toList();
     return filteredTopics;
@@ -307,22 +310,22 @@ class _LearningHeader extends StatelessWidget {
       children: [
         const _BrandMark(),
         const SizedBox(width: 11),
-        const Expanded(
+        Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'XIN CHÀO, HỌC GIẢ!',
-                style: TextStyle(
+                context.l10n.text('homeGreetingEyebrow'),
+                style: const TextStyle(
                   color: Color(0xFF3D628D),
                   fontSize: 9,
                   fontWeight: FontWeight.w700,
                   letterSpacing: .72,
                 ),
               ),
-              SizedBox(height: 3),
-              Text(
+              const SizedBox(height: 3),
+              const Text(
                 'Leximon',
                 style: TextStyle(
                   color: AppColors.primaryDark,
@@ -423,7 +426,7 @@ class _NotificationButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Semantics(
       button: true,
-      label: 'Thông báo',
+      label: context.l10n.text('notifications'),
       child: Container(
         width: 40,
         height: 40,
@@ -523,9 +526,9 @@ class _DailyCardError extends StatelessWidget {
         color: Colors.white.withValues(alpha: .9),
         borderRadius: BorderRadius.circular(26),
       ),
-      child: const Text(
-        'Chưa thể tải nhiệm vụ hôm nay.',
-        style: TextStyle(color: AppColors.textSecondary, fontSize: 12),
+      child: Text(
+        context.l10n.text('homeDailyLoadError'),
+        style: const TextStyle(color: AppColors.textSecondary, fontSize: 12),
       ),
     );
   }
@@ -550,13 +553,13 @@ class _DailyCardContent extends ConsumerWidget {
         snapshot.tasks.length == 1 &&
         !snapshot.isComplete;
     final title = snapshot.isComplete
-        ? 'Tất cả các nhiệm vụ đã hoàn thành'
-        : 'Nhiệm vụ cho ngày hôm nay';
+        ? context.l10n.text('homeAllTasksComplete')
+        : context.l10n.text('homeTodayTasks');
     final description = snapshot.isComplete
-        ? 'Những nhiệm vụ mới đang chờ bạn vào ngày mai.'
+        ? context.l10n.text('homeTomorrowTasks')
         : showFirstTrainingGreeting
-        ? 'Bắt đầu hành trình của bạn với những từ đầu tiên.'
-        : 'Tuyệt vời! Hãy học thêm 4 từ nữa.';
+        ? context.l10n.text('homeFirstWordsDescription')
+        : context.l10n.text('homeFourMoreDescription');
 
     return Container(
       key: const Key('home-daily-card'),
@@ -613,18 +616,18 @@ class _DailyCardContent extends ConsumerWidget {
             ),
           if (snapshot.isComplete) ...[
             const SizedBox(height: 2),
-            const Text(
-              'Muốn thực hành nhiều hơn?',
-              style: TextStyle(
+            Text(
+              context.l10n.text('homeMorePracticeQuestion'),
+              style: const TextStyle(
                 color: AppColors.textPrimary,
                 fontSize: 11,
                 fontWeight: FontWeight.w800,
               ),
             ),
             const SizedBox(height: 3),
-            const Text(
-              'Chúng tôi có một vài nhiệm vụ bổ sung.',
-              style: TextStyle(
+            Text(
+              context.l10n.text('homeMorePracticeBody'),
+              style: const TextStyle(
                 color: AppColors.textSecondary,
                 fontSize: 10,
                 fontWeight: FontWeight.w700,
@@ -648,7 +651,9 @@ class _DailyCardContent extends ConsumerWidget {
     if (!task.isAvailable) {
       ref.invalidate(readingVocabularyTaskProvider);
       ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Chưa đủ 4 từ Reading để bắt đầu học.')),
+        SnackBar(
+          content: Text(context.l10n.text('homeReadingWordsUnavailable')),
+        ),
       );
       return;
     }
@@ -656,7 +661,7 @@ class _DailyCardContent extends ConsumerWidget {
     final completed = await Navigator.of(context).push<bool>(
       MaterialPageRoute<bool>(
         builder: (_) => ReviewPracticeScreen(
-          title: 'Học từ trong bài đọc',
+          title: context.l10n.text('homeReadingWordsTitle'),
           kicker: 'READING WORDS',
           words: task.words.map(_exerciseMapFromRow).toList(growable: false),
           distractorWords: task.distractorWords
@@ -703,11 +708,7 @@ class _DailyCardContent extends ConsumerWidget {
         ScaffoldMessenger.of(context)
           ..hideCurrentSnackBar()
           ..showSnackBar(
-            const SnackBar(
-              content: Text(
-                'Nhiệm vụ đã thay đổi và hiện không còn đủ từ phù hợp.',
-              ),
-            ),
+            SnackBar(content: Text(context.l10n.text('homeTaskChanged'))),
           );
       }
       if (!context.mounted) return;
@@ -741,7 +742,7 @@ class _DailyCardContent extends ConsumerWidget {
         return Navigator.of(context).push<void>(
           MaterialPageRoute<void>(
             builder: (_) => RepetitionPracticeScreen(
-              title: 'Ôn lại từ',
+              title: context.l10n.text('homeReviewWordsTitle'),
               words: data.words
                   .map(_exerciseWordFromRow)
                   .toList(growable: false),
@@ -769,7 +770,9 @@ class _DailyCardContent extends ConsumerWidget {
         return Navigator.of(context).push<void>(
           MaterialPageRoute<void>(
             builder: (_) => ReviewPracticeScreen(
-              title: data.type == DailyTaskType.train ? 'Luyện từ' : 'Từ khó',
+              title: data.type == DailyTaskType.train
+                  ? context.l10n.text('homeTrainWordsTitle')
+                  : context.l10n.text('difficultWords'),
               kicker: data.type == DailyTaskType.train
                   ? 'FAST BRAIN'
                   : 'DIFFICULT WORDS',
@@ -843,7 +846,9 @@ class _DailyCardHero extends StatelessWidget {
                 borderRadius: BorderRadius.circular(99),
               ),
               child: Text(
-                complete ? '✓  ĐÃ HOÀN THÀNH' : '🔥  NHIỆM VỤ HÔM NAY',
+                context.l10n.text(
+                  complete ? 'homeTaskCompleteBadge' : 'homeTaskTodayBadge',
+                ),
                 style: TextStyle(
                   color: complete
                       ? const Color(0xFF137E68)
@@ -932,7 +937,9 @@ class _AdditionalTasksLauncherState
               )
             : const Icon(Icons.add_rounded, size: 18),
         label: Text(
-          _isOpening ? 'Đang kiểm tra...' : 'Tôi muốn thực hành nhiều hơn',
+          context.l10n.text(
+            _isOpening ? 'homeChecking' : 'homeMorePracticeAction',
+          ),
         ),
         style: OutlinedButton.styleFrom(
           foregroundColor: AppColors.primary,
@@ -988,16 +995,14 @@ class _AdditionalTasksLauncherState
     } on AdditionalTasksLockedException {
       if (!mounted) return;
       ref.invalidate(dailyCardProvider);
-      _showMessage(
-        'Nhiệm vụ bổ sung chỉ mở sau khi hoàn thành nhiệm vụ chính hôm nay.',
-      );
+      _showMessage(context.l10n.text('homeAdditionalTasksLocked'));
     } on AdditionalTaskUnavailableException {
       if (!mounted) return;
       ref.invalidate(dailyCardProvider);
       _showMessage(
         requestedType == DailyTaskType.repeat
-            ? 'Hiện không còn từ đến hạn ôn.'
-            : 'Nhiệm vụ này hiện không còn đủ dữ liệu.',
+            ? context.l10n.text('homeNoReviewWords')
+            : context.l10n.text('homeTaskUnavailable'),
       );
     } finally {
       if (mounted) setState(() => _isOpening = false);
@@ -1028,7 +1033,7 @@ class _AdditionalTasksLauncherState
         await Navigator.of(context).push<bool>(
           MaterialPageRoute<bool>(
             builder: (_) => RepetitionPracticeScreen(
-              title: 'Ôn tập bổ sung',
+              title: context.l10n.text('homeAdditionalReviewTitle'),
               words: data.words
                   .map(_exerciseWordFromRow)
                   .toList(growable: false),
@@ -1059,7 +1064,9 @@ class _AdditionalTasksLauncherState
         await Navigator.of(context).push<bool>(
           MaterialPageRoute<bool>(
             builder: (_) => ReviewPracticeScreen(
-              title: data.type == DailyTaskType.train ? 'Luyện từ' : 'Từ khó',
+              title: data.type == DailyTaskType.train
+                  ? context.l10n.text('homeTrainWordsTitle')
+                  : context.l10n.text('difficultWords'),
               kicker: 'WANT MORE',
               words: data.words
                   .map(_exerciseMapFromRow)
@@ -1138,10 +1145,10 @@ class _FirstTrainingGreeting extends StatelessWidget {
             filterQuality: FilterQuality.high,
           ),
           const SizedBox(width: 8),
-          const Expanded(
+          Expanded(
             child: Text(
-              'Xin chào, hãy cùng học những từ đầu tiên',
-              style: TextStyle(
+              context.l10n.text('homeFirstTrainingGreeting'),
+              style: const TextStyle(
                 color: AppColors.primaryDark,
                 fontSize: 12,
                 height: 1.35,
@@ -1222,7 +1229,7 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
     final task = widget.task;
     final done = task.isDone;
     final colors = _dailyTaskColors(task.type, done);
-    final title = _dailyTaskTitle(task);
+    final title = _dailyTaskTitle(context, task);
     return AnimatedBuilder(
       animation: _hintController,
       builder: (context, child) =>
@@ -1233,7 +1240,14 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
         enabled: widget.onTap != null,
         label: done
             ? title
-            : '${_dailyTaskLabel(task.type)} ${task.completed} trên ${task.count}',
+            : context.l10n.text(
+                'dailyTaskProgressSemantics',
+                values: {
+                  'label': _dailyTaskLabel(context, task.type),
+                  'completed': task.completed,
+                  'total': task.count,
+                },
+              ),
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 180),
           decoration: BoxDecoration(
@@ -1292,7 +1306,13 @@ class _DailyTaskTileState extends State<_DailyTaskTile>
                           if (!done) ...[
                             const SizedBox(height: 3),
                             Text(
-                              '${task.completed} / ${task.count} từ',
+                              context.l10n.text(
+                                'wordProgress',
+                                values: {
+                                  'completed': task.completed,
+                                  'total': task.count,
+                                },
+                              ),
                               style: const TextStyle(
                                 color: AppColors.textSecondary,
                                 fontSize: 11,
@@ -1365,9 +1385,9 @@ class _ReadingVocabularyTaskTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'Học 4 từ đã lưu khi đọc',
-                      style: TextStyle(
+                    Text(
+                      context.l10n.text('homeReadingTaskTitle'),
+                      style: const TextStyle(
                         color: AppColors.textPrimary,
                         fontSize: 14,
                         fontWeight: FontWeight.w700,
@@ -1375,7 +1395,10 @@ class _ReadingVocabularyTaskTile extends StatelessWidget {
                     ),
                     const SizedBox(height: 3),
                     Text(
-                      '$pendingCount từ đang chờ · học theo nhóm 4 từ',
+                      context.l10n.text(
+                        'homeReadingTaskBody',
+                        values: {'count': pendingCount},
+                      ),
                       style: const TextStyle(
                         color: AppColors.textSecondary,
                         fontSize: 11,
@@ -1413,23 +1436,23 @@ class _AdditionalTasksSheet extends StatelessWidget {
           const SizedBox(height: 2),
           Row(
             children: [
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Nhiệm vụ bổ sung',
-                      style: TextStyle(
+                      context.l10n.text('homeAdditionalTasksTitle'),
+                      style: const TextStyle(
                         color: AppColors.textPrimary,
                         fontSize: 22,
                         fontWeight: FontWeight.w700,
                         letterSpacing: -.5,
                       ),
                     ),
-                    SizedBox(height: 4),
+                    const SizedBox(height: 4),
                     Text(
-                      'Chọn một cách để tiếp tục luyện tập.',
-                      style: TextStyle(
+                      context.l10n.text('homeAdditionalTasksSubtitle'),
+                      style: const TextStyle(
                         color: AppColors.textSecondary,
                         fontSize: 11,
                       ),
@@ -1486,7 +1509,7 @@ class _AdditionalTasksSheet extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                _additionalTaskLabel(type),
+                                _additionalTaskLabel(context, type),
                                 style: const TextStyle(
                                   color: AppColors.textPrimary,
                                   fontSize: 13,
@@ -1495,7 +1518,7 @@ class _AdditionalTasksSheet extends StatelessWidget {
                               ),
                               const SizedBox(height: 3),
                               Text(
-                                _additionalTaskDescription(type),
+                                _additionalTaskDescription(context, type),
                                 style: const TextStyle(
                                   color: AppColors.textSecondary,
                                   fontSize: 10,
@@ -1523,23 +1546,23 @@ class _AdditionalTasksSheet extends StatelessWidget {
   }
 }
 
-String _additionalTaskLabel(DailyTaskType type) {
+String _additionalTaskLabel(BuildContext context, DailyTaskType type) {
   return switch (type) {
-    DailyTaskType.learn => 'Học từ mới',
-    DailyTaskType.repeat => 'Ôn tập',
-    DailyTaskType.train => 'Luyện từ',
-    DailyTaskType.sentences => 'Ghép câu',
-    DailyTaskType.difficult => 'Từ khó',
+    DailyTaskType.learn => context.l10n.text('taskLearnNewWords'),
+    DailyTaskType.repeat => context.l10n.text('taskReview'),
+    DailyTaskType.train => context.l10n.text('taskTrainWords'),
+    DailyTaskType.sentences => context.l10n.text('taskBuildSentences'),
+    DailyTaskType.difficult => context.l10n.text('taskDifficultWords'),
   };
 }
 
-String _additionalTaskDescription(DailyTaskType type) {
+String _additionalTaskDescription(BuildContext context, DailyTaskType type) {
   return switch (type) {
-    DailyTaskType.learn => 'Chọn đúng 4 từ và luyện tối đa 24 câu',
-    DailyTaskType.repeat => 'Ôn theo nhóm tối đa 20 từ, 5 giây mỗi câu',
-    DailyTaskType.train => 'Luyện 4 từ Fast Brain đã đến hạn',
-    DailyTaskType.sentences => 'Luyện 4 từ trong câu với 4 dạng bài',
-    DailyTaskType.difficult => 'Làm lại các dạng bài bạn vẫn còn sai',
+    DailyTaskType.learn => context.l10n.text('taskLearnDescription'),
+    DailyTaskType.repeat => context.l10n.text('taskReviewDescription'),
+    DailyTaskType.train => context.l10n.text('taskTrainDescription'),
+    DailyTaskType.sentences => context.l10n.text('taskSentencesDescription'),
+    DailyTaskType.difficult => context.l10n.text('taskDifficultDescription'),
   };
 }
 
@@ -1553,29 +1576,44 @@ Color _additionalTaskColor(DailyTaskType type) {
   };
 }
 
-String _dailyTaskLabel(DailyTaskType type) {
+String _dailyTaskLabel(BuildContext context, DailyTaskType type) {
   switch (type) {
     case DailyTaskType.repeat:
-      return 'Lặp lại các từ';
+      return context.l10n.text('dailyTaskRepeat');
     case DailyTaskType.learn:
-      return 'Học từ mới';
+      return context.l10n.text('dailyTaskLearn');
     case DailyTaskType.train:
-      return 'Luyện tập các từ';
+      return context.l10n.text('dailyTaskTrain');
     case DailyTaskType.sentences:
-      return 'Ghép câu theo ngữ cảnh';
+      return context.l10n.text('dailyTaskSentences');
     case DailyTaskType.difficult:
-      return 'Luyện tập từ khó';
+      return context.l10n.text('dailyTaskDifficult');
   }
 }
 
-String _dailyTaskTitle(DailyTaskSnapshot task) {
-  if (!task.isDone) return _dailyTaskLabel(task.type);
+String _dailyTaskTitle(BuildContext context, DailyTaskSnapshot task) {
+  if (!task.isDone) return _dailyTaskLabel(context, task.type);
   return switch (task.type) {
-    DailyTaskType.repeat => 'Đã lặp lại ${task.count} từ',
-    DailyTaskType.learn => '${task.count} từ đã học',
-    DailyTaskType.train => 'Đã luyện được ${task.count} từ',
-    DailyTaskType.sentences => 'Đã ghép câu với ${task.count} từ',
-    DailyTaskType.difficult => '${task.count} từ khó đã được luyện tập',
+    DailyTaskType.repeat => context.l10n.text(
+      'dailyTaskRepeated',
+      values: {'count': task.count},
+    ),
+    DailyTaskType.learn => context.l10n.text(
+      'dailyTaskLearned',
+      values: {'count': task.count},
+    ),
+    DailyTaskType.train => context.l10n.text(
+      'dailyTaskTrained',
+      values: {'count': task.count},
+    ),
+    DailyTaskType.sentences => context.l10n.text(
+      'dailyTaskSentencesDone',
+      values: {'count': task.count},
+    ),
+    DailyTaskType.difficult => context.l10n.text(
+      'dailyTaskDifficultDone',
+      values: {'count': task.count},
+    ),
   };
 }
 
@@ -1713,9 +1751,9 @@ class _EmptyWelcomePanel extends StatelessWidget {
                             color: const Color(0xFFEAF1FF),
                             borderRadius: BorderRadius.circular(99),
                           ),
-                          child: const Text(
-                            'Khởi động hành trình',
-                            style: TextStyle(
+                          child: Text(
+                            context.l10n.text('homeJourneyStart'),
+                            style: const TextStyle(
                               color: Color(0xFF0F57DF),
                               fontSize: 9,
                               fontWeight: FontWeight.w800,
@@ -1723,9 +1761,9 @@ class _EmptyWelcomePanel extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 12),
-                        const Text(
-                          'Nhiệm vụ cho hôm nay',
-                          style: TextStyle(
+                        Text(
+                          context.l10n.text('homeNoWordsTitle'),
+                          style: const TextStyle(
                             color: AppColors.textPrimary,
                             fontSize: 30,
                             height: 1.02,
@@ -1734,9 +1772,9 @@ class _EmptyWelcomePanel extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 8),
-                        const Text(
-                          'Bạn chưa học từ nào cả. Hãy bắt đầu với một chủ đề đầu tiên để Leximon tạo lộ trình phù hợp cho bạn.',
-                          style: TextStyle(
+                        Text(
+                          context.l10n.text('homeNoWordsBody'),
+                          style: const TextStyle(
                             color: AppColors.textSecondary,
                             fontSize: 11,
                             height: 1.6,
@@ -1792,22 +1830,22 @@ class _MascotSpeech extends StatelessWidget {
           ),
         ],
       ),
-      child: const Column(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'Xin chào!',
-            style: TextStyle(
+            context.l10n.text('hello'),
+            style: const TextStyle(
               color: Color(0xFF173661),
               fontSize: 12,
               height: 1.1,
               fontWeight: FontWeight.w800,
             ),
           ),
-          SizedBox(height: 4),
+          const SizedBox(height: 4),
           Text(
-            'Bắt đầu cùng mình nhé!',
-            style: TextStyle(
+            context.l10n.text('homeMascotStart'),
+            style: const TextStyle(
               color: AppColors.textSecondary,
               fontSize: 8,
               height: 1.35,
@@ -1855,23 +1893,23 @@ class _EmptyMissionCard extends StatelessWidget {
                 child: const Text('💡', style: TextStyle(fontSize: 26)),
               ),
               const SizedBox(width: 12),
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'MỤC TIÊU NGÀY 1',
-                      style: TextStyle(
+                      context.l10n.text('homeDayOneGoal'),
+                      style: const TextStyle(
                         color: Color(0xFF96711B),
                         fontSize: 9,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1,
                       ),
                     ),
-                    SizedBox(height: 5),
+                    const SizedBox(height: 5),
                     Text(
-                      'Học 8 từ đầu tiên',
-                      style: TextStyle(
+                      context.l10n.text('homeLearnFirstEight'),
+                      style: const TextStyle(
                         color: AppColors.textPrimary,
                         fontSize: 17,
                         height: 1.15,
@@ -1879,10 +1917,13 @@ class _EmptyMissionCard extends StatelessWidget {
                         letterSpacing: -.5,
                       ),
                     ),
-                    SizedBox(height: 6),
+                    const SizedBox(height: 6),
                     Text(
-                      '0 / 8 từ đã hoàn thành',
-                      style: TextStyle(color: Color(0xFF7D8796), fontSize: 10),
+                      context.l10n.text('homeZeroOfEight'),
+                      style: const TextStyle(
+                        color: Color(0xFF7D8796),
+                        fontSize: 10,
+                      ),
                     ),
                   ],
                 ),
@@ -1910,20 +1951,20 @@ class _EmptyStartActions extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const Expanded(
+        Expanded(
           child: _EmptyActionCard(
             primary: true,
             icon: Icons.play_arrow_rounded,
-            eyebrow: 'Bắt đầu ngay',
-            title: 'Học từ mới',
+            eyebrow: context.l10n.text('startNow'),
+            title: context.l10n.text('taskLearnNewWords'),
           ),
         ),
         const SizedBox(width: 12),
-        const Expanded(
+        Expanded(
           child: _EmptyActionCard(
             icon: Icons.sync_rounded,
-            eyebrow: 'Chưa khả dụng',
-            title: 'Ôn lại từ',
+            eyebrow: context.l10n.text('notAvailable'),
+            title: context.l10n.text('homeReviewWordsTitle'),
           ),
         ),
       ],
@@ -2042,23 +2083,23 @@ class _SearchRow extends StatelessWidget {
             onTapOutside: (_) => FocusManager.instance.primaryFocus?.unfocus(),
             onChanged: onChanged,
             style: const TextStyle(fontSize: 12, color: AppColors.textPrimary),
-            decoration: const InputDecoration(
-              prefixIcon: Icon(
+            decoration: InputDecoration(
+              prefixIcon: const Icon(
                 Icons.search_rounded,
                 color: AppColors.textMuted,
               ),
-              hintText: 'Tìm chủ đề hoặc từ vựng',
-              hintStyle: TextStyle(fontSize: 11),
-              contentPadding: EdgeInsets.symmetric(vertical: 13),
-              border: OutlineInputBorder(
+              hintText: context.l10n.text('homeSearchHint'),
+              hintStyle: const TextStyle(fontSize: 11),
+              contentPadding: const EdgeInsets.symmetric(vertical: 13),
+              border: const OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(15)),
                 borderSide: BorderSide(color: AppColors.divider),
               ),
-              enabledBorder: OutlineInputBorder(
+              enabledBorder: const OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(15)),
                 borderSide: BorderSide(color: AppColors.divider),
               ),
-              focusedBorder: OutlineInputBorder(
+              focusedBorder: const OutlineInputBorder(
                 borderRadius: BorderRadius.all(Radius.circular(15)),
                 borderSide: BorderSide(color: AppColors.primary),
               ),
@@ -2068,7 +2109,7 @@ class _SearchRow extends StatelessWidget {
         const SizedBox(width: 9),
         Semantics(
           button: true,
-          label: 'Mở bộ lọc chủ đề',
+          label: context.l10n.text('homeOpenTopicFilters'),
           child: SizedBox(
             width: 46,
             height: 46,
@@ -2109,7 +2150,12 @@ class _FilterChips extends ConsumerWidget {
   final String selected;
   final ValueChanged<String>? onSelected;
 
-  static const _labels = ['Tất cả', 'Đang học', 'Chưa học', 'Đã hoàn thành'];
+  static const _labels = [
+    'topicFilterAll',
+    'topicFilterLearning',
+    'topicFilterNotStarted',
+    'topicFilterCompleted',
+  ];
   static final _chipKeys = List<GlobalKey>.generate(
     _labels.length,
     (_) => GlobalKey(),
@@ -2140,7 +2186,7 @@ class _FilterChips extends ConsumerWidget {
             padding: const EdgeInsets.only(right: 8),
             child: ChoiceChip(
               key: _chipKeys[index],
-              label: Text(label),
+              label: Text(context.l10n.text(label)),
               selected: selected == label,
               onSelected: (_) {
                 ref.read(selectedTopicFilterProvider.notifier).state = label;
@@ -2182,11 +2228,11 @@ class _TopicGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     if (topics.isEmpty) {
-      return const Padding(
-        padding: EdgeInsets.all(18),
+      return Padding(
+        padding: const EdgeInsets.all(18),
         child: Text(
-          'Không có chủ đề phù hợp.',
-          style: TextStyle(color: AppColors.textSecondary),
+          context.l10n.text('homeNoMatchingTopics'),
+          style: const TextStyle(color: AppColors.textSecondary),
         ),
       );
     }

@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/learning_language_level.dart';
 import '../../../shared/providers/app_providers.dart';
 
@@ -78,11 +79,9 @@ class _LevelSelectionScreenState extends ConsumerState<LevelSelectionScreen>
     } catch (_) {
       if (!mounted) return;
       setState(() => _isSaving = false);
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Không thể lưu trình độ. Vui lòng thử lại.'),
-        ),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text(context.l10n.languageSaveError)));
     }
   }
 
@@ -168,7 +167,7 @@ class _LevelSelectionHeader extends StatelessWidget {
             left: 18,
             top: 10,
             child: Semantics(
-              label: 'Quay lại',
+              label: context.l10n.back,
               button: true,
               child: Material(
                 color: Colors.transparent,
@@ -201,11 +200,11 @@ class _LevelSelectionHeader extends StatelessWidget {
               ),
             ),
           ),
-          const Positioned(
+          Positioned(
             left: 38,
             top: 70,
             child: Text(
-              'Chọn trình độ\nAnh ngữ của bạn',
+              context.l10n.levelSelectionTitle,
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 22,
@@ -219,8 +218,7 @@ class _LevelSelectionHeader extends StatelessWidget {
             left: 38,
             top: 130,
             child: Text(
-              'Chọn cấp độ phù hợp để chúng tôi\n'
-              'xây dựng lộ trình học tốt nhất cho bạn.',
+              context.l10n.levelSelectionSubtitle,
               style: TextStyle(
                 color: Colors.white.withValues(alpha: 0.82),
                 fontSize: 12,
@@ -265,19 +263,16 @@ class _LevelSelectionPanel extends StatelessWidget {
   static const _options = [
     _LevelOptionData(
       level: LearningLanguageLevel.beginner,
-      description: 'Tôi biết một vài từ',
       imageAsset: 'assets/images/onboarding/basic.png',
       imageBackground: Color(0xFFE9F6FF),
     ),
     _LevelOptionData(
       level: LearningLanguageLevel.intermediate,
-      description: 'Tôi biết khá nhiều từ và muốn học thêm',
       imageAsset: 'assets/images/onboarding/medium.png',
       imageBackground: Color(0xFFF4F0FF),
     ),
     _LevelOptionData(
       level: LearningLanguageLevel.advanced,
-      description: 'Tôi muốn học những từ khó',
       imageAsset: 'assets/images/onboarding/advanced.png',
       imageBackground: Color(0xFFFFF3E4),
     ),
@@ -359,8 +354,8 @@ class _LevelSelectionPanel extends StatelessWidget {
                                         strokeWidth: 2.5,
                                       ),
                                     )
-                                  : const Text(
-                                      'Tiếp',
+                                  : Text(
+                                      context.l10n.continueLabel,
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 18,
@@ -443,7 +438,7 @@ class _LevelOptionCard extends StatelessWidget {
     return Semantics(
       selected: selected,
       button: true,
-      label: option.level.label,
+      label: _levelLabel(context, option.level),
       child: Material(
         color: Colors.transparent,
         child: InkWell(
@@ -500,7 +495,7 @@ class _LevelOptionCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        option.level.label,
+                        _levelLabel(context, option.level),
                         style: const TextStyle(
                           color: Color(0xFF061D4C),
                           fontSize: 18,
@@ -511,7 +506,7 @@ class _LevelOptionCard extends StatelessWidget {
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        option.description,
+                        _levelDescription(context, option.level),
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
@@ -534,6 +529,21 @@ class _LevelOptionCard extends StatelessWidget {
     );
   }
 }
+
+String _levelLabel(BuildContext context, LearningLanguageLevel level) =>
+    switch (level) {
+      LearningLanguageLevel.beginner => context.l10n.levelBeginner,
+      LearningLanguageLevel.intermediate => context.l10n.levelIntermediate,
+      LearningLanguageLevel.advanced => context.l10n.levelAdvanced,
+    };
+
+String _levelDescription(BuildContext context, LearningLanguageLevel level) =>
+    switch (level) {
+      LearningLanguageLevel.beginner => context.l10n.levelBeginnerDescription,
+      LearningLanguageLevel.intermediate =>
+        context.l10n.levelIntermediateDescription,
+      LearningLanguageLevel.advanced => context.l10n.levelAdvancedDescription,
+    };
 
 class _LevelRadio extends StatelessWidget {
   const _LevelRadio({required this.selected});
@@ -569,13 +579,11 @@ class _LevelRadio extends StatelessWidget {
 class _LevelOptionData {
   const _LevelOptionData({
     required this.level,
-    required this.description,
     required this.imageAsset,
     required this.imageBackground,
   });
 
   final LearningLanguageLevel level;
-  final String description;
   final String imageAsset;
   final Color imageBackground;
 }

@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/text_to_speech_service.dart';
 import '../../../data/models/onboarding_vocabulary_test.dart';
 import '../../../data/models/sentence_exercise.dart';
@@ -92,7 +93,7 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
       final questions = await _service.loadQuestions(_currentNode.level);
       if (!mounted) return;
       if (questions.isEmpty) {
-        throw StateError('Không tìm thấy câu hỏi cho phần này.');
+        throw StateError(context.l10n.text('vocabularyTestQuestionMissing'));
       }
       setState(() {
         _questions = questions;
@@ -193,10 +194,9 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
         context: context,
         builder: (dialogContext) => AppDialog(
           icon: Icons.construction_rounded,
-          title: 'Coming soon',
-          message:
-              'Dạng bài ghép câu đang được hoàn thiện. Bạn có thể bấm Tiếp theo để tiếp tục bài kiểm tra.',
-          primaryLabel: 'Đã hiểu',
+          title: context.l10n.text('vocabularyTestComingSoon'),
+          message: context.l10n.text('vocabularyTestConstructorDialog'),
+          primaryLabel: context.l10n.text('understood'),
           onPrimary: () => Navigator.of(dialogContext).pop(),
           key: const ValueKey('constructor-coming-soon-close'),
         ),
@@ -389,11 +389,11 @@ class _VocabularyTestScreenState extends State<VocabularyTestScreen> {
       context: context,
       builder: (dialogContext) => AppDialog(
         imageAsset: 'assets/images/cancel_icon_dialog.png',
-        title: 'Thoát bài kiểm tra?',
-        message: 'Kết quả của phần đang làm sẽ không được lưu.',
-        secondaryLabel: 'Tiếp tục làm',
+        title: context.l10n.text('vocabularyTestExitTitle'),
+        message: context.l10n.text('vocabularyTestExitMessage'),
+        secondaryLabel: context.l10n.text('vocabularyTestKeepGoing'),
         onSecondary: () => Navigator.of(dialogContext).pop(false),
-        primaryLabel: 'Thoát',
+        primaryLabel: context.l10n.text('exit'),
         onPrimary: () => Navigator.of(dialogContext).pop(true),
       ),
     );
@@ -629,9 +629,9 @@ class _TestHeader extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text(
-                        'KIỂM TRA TRÌNH ĐỘ',
-                        style: TextStyle(
+                      Text(
+                        context.l10n.text('vocabularyTestHeader'),
+                        style: const TextStyle(
                           color: Color(0xFF58DCFF),
                           fontSize: 11,
                           fontWeight: FontWeight.w800,
@@ -640,7 +640,10 @@ class _TestHeader extends StatelessWidget {
                       ),
                       const SizedBox(height: 3),
                       Text(
-                        'Phần $partNumber • Cấp độ ${level.label}',
+                        context.l10n.text(
+                          'vocabularyTestPartLevel',
+                          values: {'part': partNumber, 'level': level.label},
+                        ),
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 19,
@@ -781,7 +784,10 @@ class _QuestionView extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
                 Text(
-                  'CÂU $questionNumber/$questionCount',
+                  context.l10n.text(
+                    'vocabularyTestQuestionCount',
+                    values: {'current': questionNumber, 'total': questionCount},
+                  ),
                   style: const TextStyle(
                     color: Color(0xFF7E92AD),
                     fontSize: 11,
@@ -791,7 +797,7 @@ class _QuestionView extends StatelessWidget {
                 ),
                 const SizedBox(height: 10),
                 Text(
-                  _instruction,
+                  _instruction(context),
                   style: const TextStyle(
                     color: Color(0xFF071944),
                     fontSize: 23,
@@ -849,10 +855,10 @@ class _QuestionView extends StatelessWidget {
               _PrimaryTestButton(
                 key: const ValueKey('vocabulary-test-next'),
                 label: question.hasSentenceExercise
-                    ? 'Kiểm tra'
+                    ? context.l10n.text('check')
                     : question.isConstructor || answerRevealed
-                    ? 'Tiếp theo'
-                    : 'Kiểm tra',
+                    ? context.l10n.text('next')
+                    : context.l10n.text('check'),
                 enabled: canContinue,
                 onPressed: onContinue,
               ),
@@ -860,7 +866,7 @@ class _QuestionView extends StatelessWidget {
                 TextButton(
                   key: const ValueKey('vocabulary-test-skip'),
                   onPressed: onSkip,
-                  child: const Text('Bỏ qua câu này'),
+                  child: Text(context.l10n.text('vocabularyTestSkipQuestion')),
                 ),
             ],
           ),
@@ -869,13 +875,19 @@ class _QuestionView extends StatelessWidget {
     );
   }
 
-  String get _instruction {
+  String _instruction(BuildContext context) {
     return switch (question.definition.type) {
-      VocabularyTaskType.text => 'Từ này có nghĩa là gì?',
-      VocabularyTaskType.inverseText => 'Chọn từ tiếng Anh phù hợp',
-      VocabularyTaskType.audioThree ||
-      VocabularyTaskType.audioFour => 'Nghe và chọn nghĩa đúng',
-      VocabularyTaskType.constructor => 'Ghép thành một câu hoàn chỉnh',
+      VocabularyTaskType.text => context.l10n.text(
+        'vocabularyTestMeaningQuestion',
+      ),
+      VocabularyTaskType.inverseText => context.l10n.text(
+        'vocabularyTestChooseEnglishWord',
+      ),
+      VocabularyTaskType.audioThree || VocabularyTaskType.audioFour =>
+        context.l10n.text('vocabularyTestListenChoose'),
+      VocabularyTaskType.constructor => context.l10n.text(
+        'vocabularyTestBuildSentence',
+      ),
     };
   }
 }
@@ -1002,7 +1014,7 @@ class _SentenceConstructorCard extends StatelessWidget {
                   const SizedBox(width: 9),
                   Flexible(
                     child: Text(
-                      exercise.title.toUpperCase(),
+                      context.l10n.text(exercise.titleKey).toUpperCase(),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       textAlign: TextAlign.center,
@@ -1027,7 +1039,7 @@ class _SentenceConstructorCard extends StatelessWidget {
               ),
               const SizedBox(height: 7),
               Text(
-                exercise.instruction,
+                context.l10n.text(exercise.instructionKey),
                 textAlign: TextAlign.center,
                 style: const TextStyle(
                   color: AppColors.textSecondary,
@@ -1064,7 +1076,10 @@ class _SentenceConstructorCard extends StatelessWidget {
                     border: Border.all(color: const Color(0xFFFFE9A7)),
                   ),
                   child: Text(
-                    'Gợi ý: ${exercise.answer}',
+                    context.l10n.text(
+                      'hintValue',
+                      values: {'value': exercise.answer},
+                    ),
                     textAlign: TextAlign.center,
                     style: const TextStyle(
                       color: Color(0xFF8B6500),
@@ -1105,7 +1120,7 @@ class _SentenceConstructorCard extends StatelessWidget {
                 : Icons.lightbulb_outline_rounded,
             size: 17,
           ),
-          label: Text(hintVisible ? 'Ẩn gợi ý' : 'Xem gợi ý'),
+          label: Text(context.l10n.text(hintVisible ? 'hideHint' : 'showHint')),
         ),
       ],
     );
@@ -1188,7 +1203,10 @@ class _OnboardingAnswerArea extends StatelessWidget {
       child: tokens.isEmpty
           ? Center(
               child: Text(
-                '$emptySlots vị trí đang chờ',
+                context.l10n.text(
+                  'vocabularyTestWaitingSlots',
+                  values: {'count': emptySlots},
+                ),
                 style: const TextStyle(
                   color: AppColors.textMuted,
                   fontSize: 10,
@@ -1237,11 +1255,13 @@ class _OnboardingAnswerArea extends StatelessWidget {
                         border: Border.all(color: const Color(0xFFFF6675)),
                       ),
                       alignment: Alignment.center,
-                      child: const Icon(
+                      child: Icon(
                         Icons.backspace_outlined,
                         size: 16,
                         color: Colors.white,
-                        semanticLabel: 'Xóa từ cuối',
+                        semanticLabel: context.l10n.text(
+                          'vocabularyTestRemoveLastWord',
+                        ),
                       ),
                     ),
                   ),
@@ -1321,9 +1341,9 @@ class _OnboardingWrongChoiceSheet extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 16),
-          const Text(
-            'Chú ý',
-            style: TextStyle(
+          Text(
+            context.l10n.text('attention'),
+            style: const TextStyle(
               color: AppColors.textPrimary,
               fontSize: 17,
               height: 1.1,
@@ -1332,9 +1352,9 @@ class _OnboardingWrongChoiceSheet extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 12),
-          const Text(
-            'Hãy xem lại sự khác nhau giữa câu trả lời bạn chọn và đáp án đúng.',
-            style: TextStyle(
+          Text(
+            context.l10n.text('vocabularyTestCompareAnswers'),
+            style: const TextStyle(
               color: Color(0xFF6F84A2),
               fontSize: 11,
               height: 1.5,
@@ -1342,13 +1362,13 @@ class _OnboardingWrongChoiceSheet extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           _OnboardingChoiceFeedbackCard(
-            label: 'Câu trả lời của bạn',
+            label: context.l10n.text('yourAnswer'),
             value: selectedAnswer,
             accent: const Color(0xFFEC5B42),
           ),
           const SizedBox(height: 12),
           _OnboardingChoiceFeedbackCard(
-            label: 'Câu trả lời đúng',
+            label: context.l10n.text('correctAnswer'),
             value: correctAnswer,
             accent: const Color(0xFF18B865),
           ),
@@ -1370,7 +1390,7 @@ class _OnboardingWrongChoiceSheet extends StatelessWidget {
                 ),
                 elevation: 0,
               ),
-              child: const Text('Tiếp tục'),
+              child: Text(context.l10n.continueLabel),
             ),
           ),
         ],
@@ -1467,7 +1487,7 @@ class _OnboardingSentenceAnswerSheet extends StatelessWidget {
               const SizedBox(width: 12),
               Expanded(
                 child: Text(
-                  isCorrect ? 'Chính xác!' : 'Chưa đúng rồi',
+                  context.l10n.text(isCorrect ? 'correct' : 'incorrect'),
                   style: const TextStyle(
                     color: AppColors.textPrimary,
                     fontSize: 21,
@@ -1479,12 +1499,12 @@ class _OnboardingSentenceAnswerSheet extends StatelessWidget {
           ),
           const SizedBox(height: 16),
           _OnboardingAnswerLine(
-            label: 'Câu trả lời của bạn',
+            label: context.l10n.text('yourAnswer'),
             value: selectedTokens.join(' '),
           ),
           const SizedBox(height: 10),
           _OnboardingAnswerLine(
-            label: 'Đáp án đúng',
+            label: context.l10n.text('correctAnswer'),
             value: correctAnswer,
             correct: true,
           ),
@@ -1499,9 +1519,12 @@ class _OnboardingSentenceAnswerSheet extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16),
                 ),
               ),
-              child: const Text(
-                'Tiếp tục',
-                style: TextStyle(fontSize: 13, fontWeight: FontWeight.w800),
+              child: Text(
+                context.l10n.continueLabel,
+                style: const TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.w800,
+                ),
               ),
             ),
           ),
@@ -1588,9 +1611,9 @@ class _AudioPrompt extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 13),
-          const Text(
-            'Chạm để nghe lại',
-            style: TextStyle(
+          Text(
+            context.l10n.text('vocabularyTestTapToListen'),
+            style: const TextStyle(
               color: Color(0xFF7188A8),
               fontSize: 13,
               fontWeight: FontWeight.w600,
@@ -1625,9 +1648,9 @@ class _ConstructorUnavailableCard extends StatelessWidget {
             color: Color(0xFF155CFF),
           ),
           const SizedBox(height: 12),
-          const Text(
-            'Coming soon',
-            style: TextStyle(
+          Text(
+            context.l10n.text('vocabularyTestComingSoon'),
+            style: const TextStyle(
               color: Color(0xFF071944),
               fontSize: 21,
               fontWeight: FontWeight.w800,
@@ -1635,7 +1658,10 @@ class _ConstructorUnavailableCard extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'Dạng bài ghép câu “${question.writing}” sẽ sớm được cập nhật.',
+            context.l10n.text(
+              'vocabularyTestConstructorUnavailable',
+              values: {'word': question.writing},
+            ),
             textAlign: TextAlign.center,
             style: const TextStyle(
               color: Color(0xFF7188A8),
@@ -1781,7 +1807,9 @@ class _AnswerFeedback extends StatelessWidget {
         const SizedBox(width: 8),
         Expanded(
           child: Text(
-            correct ? 'Chính xác!' : 'Chưa đúng, đáp án đúng đã được đánh dấu.',
+            context.l10n.text(
+              correct ? 'correct' : 'vocabularyTestIncorrectMarked',
+            ),
             style: TextStyle(
               color: correct
                   ? const Color(0xFF159A68)
@@ -1897,11 +1925,11 @@ class _CountdownView extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(height: 4),
-                        const FittedBox(
+                        FittedBox(
                           fit: BoxFit.scaleDown,
                           child: Text(
-                            'Sẵn sàng nhé!',
-                            style: TextStyle(
+                            context.l10n.text('vocabularyTestReady'),
+                            style: const TextStyle(
                               color: Color(0xFF0B2A71),
                               fontSize: 34,
                               fontWeight: FontWeight.w800,
@@ -2019,9 +2047,9 @@ class _BetweenPartsView extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 10),
-              const Text(
-                'đáp án đúng',
-                style: TextStyle(
+              Text(
+                context.l10n.text('vocabularyTestAnswersCorrect'),
+                style: const TextStyle(
                   color: Colors.white,
                   fontSize: 23,
                   fontWeight: FontWeight.w500,
@@ -2030,10 +2058,10 @@ class _BetweenPartsView extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 23),
-          const Text(
-            'Tuyệt vời!',
+          Text(
+            context.l10n.text('vocabularyTestHalfwayTitle'),
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               color: Colors.white,
               fontSize: 40,
               fontWeight: FontWeight.w900,
@@ -2042,12 +2070,10 @@ class _BetweenPartsView extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 12),
-          const Text(
-            'Đã xong nửa chặng đường!\n'
-            'Bạn đã làm rất tốt với những từ này. Hãy thử\n'
-            'các câu hỏi thử thách hơn nhé',
+          Text(
+            context.l10n.text('vocabularyTestHalfwayBody'),
             textAlign: TextAlign.center,
-            style: TextStyle(
+            style: const TextStyle(
               color: Color(0xFFC8D9FF),
               fontSize: 16,
               height: 1.45,
@@ -2077,10 +2103,10 @@ class _BetweenPartsView extends StatelessWidget {
                   key: const ValueKey('vocabulary-test-next-part'),
                   onTap: onContinue,
                   borderRadius: BorderRadius.circular(36),
-                  child: const Center(
+                  child: Center(
                     child: Text(
-                      'Tiếp',
-                      style: TextStyle(
+                      context.l10n.continueLabel,
+                      style: const TextStyle(
                         color: Color(0xFF145CE8),
                         fontSize: 22,
                         fontWeight: FontWeight.w800,
@@ -2093,7 +2119,10 @@ class _BetweenPartsView extends StatelessWidget {
           ),
           const SizedBox(height: 12),
           Text(
-            'Cấp độ tiếp theo: ${level.label} · Phần $partNumber',
+            context.l10n.text(
+              'vocabularyTestNextLevel',
+              values: {'level': level.label, 'part': partNumber},
+            ),
             style: const TextStyle(
               color: Color(0xFF8FB7FF),
               fontSize: 11,
@@ -2126,21 +2155,21 @@ class _ResultView extends StatelessWidget {
     final percentage = total == 0 ? 0 : (correct * 100 / total).round();
     final skillScores = <_SkillScore>[
       _SkillScore(
-        label: 'Nghe',
+        label: context.l10n.text('skillListening'),
         value: (percentage + 5).clamp(0, 100).toInt(),
         color: const Color(0xFFFF8A00),
         icon: Icons.headphones_rounded,
         iconBackground: const Color(0xFFFFF0E2),
       ),
       _SkillScore(
-        label: 'Từ vựng',
+        label: context.l10n.text('skillVocabulary'),
         value: percentage,
         color: const Color(0xFF2DBB68),
         icon: Icons.menu_book_rounded,
         iconBackground: const Color(0xFFE2F8EF),
       ),
       _SkillScore(
-        label: 'Ngữ pháp',
+        label: context.l10n.text('skillGrammar'),
         value: (percentage - 5).clamp(0, 100).toInt(),
         color: const Color(0xFF7655E8),
         icon: Icons.edit_rounded,
@@ -2166,10 +2195,10 @@ class _ResultView extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 2),
-                const Text(
-                  'Hoàn thành bài kiểm tra!',
+                Text(
+                  context.l10n.text('vocabularyTestComplete'),
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Color(0xFF071944),
                     fontSize: 26,
                     fontWeight: FontWeight.w800,
@@ -2177,10 +2206,10 @@ class _ResultView extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 6),
-                const Text(
-                  'Trình độ tiếng Anh hiện tại của bạn là',
+                Text(
+                  context.l10n.text('vocabularyTestCurrentLevel'),
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: const TextStyle(
                     color: Color(0xFF52698D),
                     fontSize: 15,
                     fontWeight: FontWeight.w500,
@@ -2197,7 +2226,9 @@ class _ResultView extends StatelessWidget {
                         Expanded(
                           child: _ResultStat(
                             value: '$correct/$total',
-                            label: 'Câu đúng',
+                            label: context.l10n.text(
+                              'vocabularyTestCorrectQuestions',
+                            ),
                             color: const Color(0xFF149A5B),
                             icon: Icons.track_changes_rounded,
                             compact: compact,
@@ -2207,7 +2238,7 @@ class _ResultView extends StatelessWidget {
                         Expanded(
                           child: _ResultStat(
                             value: '$percentage%',
-                            label: 'Độ chính xác',
+                            label: context.l10n.text('vocabularyTestAccuracy'),
                             color: const Color(0xFF155CFF),
                             icon: Icons.trending_up_rounded,
                             compact: compact,
@@ -2217,7 +2248,9 @@ class _ResultView extends StatelessWidget {
                         Expanded(
                           child: _ResultStat(
                             value: '$passedParts',
-                            label: 'Phần đạt',
+                            label: context.l10n.text(
+                              'vocabularyTestPassedParts',
+                            ),
                             color: const Color(0xFF5531C7),
                             icon: Icons.emoji_events_rounded,
                             compact: compact,
@@ -2238,7 +2271,7 @@ class _ResultView extends StatelessWidget {
           minimum: const EdgeInsets.fromLTRB(24, 9, 24, 16),
           child: _PrimaryTestButton(
             key: const ValueKey('vocabulary-test-finish'),
-            label: 'Tiếp tục',
+            label: context.l10n.continueLabel,
             enabled: true,
             onPressed: onContinue,
           ),
@@ -2337,10 +2370,14 @@ class _LevelResultBadge extends StatelessWidget {
     return 'assets/images/onboarding/advanced_level.png';
   }
 
-  String get _title {
-    if (level.index <= BrightLevel.a3.index) return 'Cơ bản';
-    if (level.index <= BrightLevel.b3.index) return 'Trung cấp';
-    return 'Cao cấp';
+  String _title(BuildContext context) {
+    if (level.index <= BrightLevel.a3.index) {
+      return context.l10n.text('levelBasic');
+    }
+    if (level.index <= BrightLevel.b3.index) {
+      return context.l10n.text('levelUpperIntermediate');
+    }
+    return context.l10n.text('levelHigh');
   }
 
   @override
@@ -2386,7 +2423,7 @@ class _LevelResultBadge extends StatelessWidget {
                 ),
                 const SizedBox(width: 7),
                 Text(
-                  '${level.label} · $_title',
+                  '${level.label} · ${_title(context)}',
                   key: const ValueKey('vocabulary-test-result-level'),
                   style: const TextStyle(
                     color: Colors.white,
@@ -2444,13 +2481,17 @@ class _SkillAnalysis extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Row(
+          Row(
             children: [
-              Icon(Icons.bar_chart_rounded, color: Color(0xFF176AE8), size: 25),
-              SizedBox(width: 8),
+              const Icon(
+                Icons.bar_chart_rounded,
+                color: Color(0xFF176AE8),
+                size: 25,
+              ),
+              const SizedBox(width: 8),
               Text(
-                'Phân tích kỹ năng',
-                style: TextStyle(
+                context.l10n.text('vocabularyTestSkillAnalysis'),
+                style: const TextStyle(
                   color: Color(0xFF071944),
                   fontSize: 17,
                   fontWeight: FontWeight.w800,
@@ -2536,15 +2577,15 @@ class _LoadingTestView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
+    return Center(
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          CircularProgressIndicator(),
-          SizedBox(height: 18),
+          const CircularProgressIndicator(),
+          const SizedBox(height: 18),
           Text(
-            'Đang chuẩn bị câu hỏi...',
-            style: TextStyle(
+            context.l10n.text('vocabularyTestPreparing'),
+            style: const TextStyle(
               color: Color(0xFF7188A8),
               fontWeight: FontWeight.w600,
             ),
@@ -2575,9 +2616,9 @@ class _ErrorTestView extends StatelessWidget {
               size: 52,
             ),
             const SizedBox(height: 15),
-            const Text(
-              'Chưa thể tải bài kiểm tra',
-              style: TextStyle(
+            Text(
+              context.l10n.text('vocabularyTestLoadError'),
+              style: const TextStyle(
                 color: Color(0xFF071944),
                 fontSize: 21,
                 fontWeight: FontWeight.w800,
@@ -2585,7 +2626,7 @@ class _ErrorTestView extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             Text(
-              message ?? 'Vui lòng thử lại.',
+              message ?? context.l10n.text('pleaseTryAgain'),
               maxLines: 3,
               overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,
@@ -2595,7 +2636,7 @@ class _ErrorTestView extends StatelessWidget {
             SizedBox(
               width: 190,
               child: _PrimaryTestButton(
-                label: 'Thử lại',
+                label: context.l10n.retry,
                 enabled: true,
                 onPressed: onRetry,
               ),

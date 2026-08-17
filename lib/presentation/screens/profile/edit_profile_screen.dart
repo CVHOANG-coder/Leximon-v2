@@ -10,6 +10,7 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/app_settings_service.dart';
 import '../../../data/local/app_database.dart';
 import '../../../presentation/widgets/app_bottom_sheet.dart';
@@ -75,22 +76,25 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
           mainAxisSize: MainAxisSize.min,
           children: [
             const SizedBox(height: 2),
-            const Align(
+            Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                'Chọn ảnh đại diện',
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+                context.l10n.text('editProfileChooseAvatar'),
+                style: const TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w800,
+                ),
               ),
             ),
             const SizedBox(height: 8),
             _ImageSourceTile(
               icon: Icons.photo_library_outlined,
-              title: 'Chọn từ thư viện',
+              title: context.l10n.text('editProfileChooseLibrary'),
               onTap: () => Navigator.pop(context, ImageSource.gallery),
             ),
             _ImageSourceTile(
               icon: Icons.photo_camera_outlined,
-              title: 'Chụp ảnh mới',
+              title: context.l10n.text('editProfileTakePhoto'),
               onTap: () => Navigator.pop(context, ImageSource.camera),
             ),
           ],
@@ -123,9 +127,16 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
       setState(() => _avatarPath = destination.path);
     } on Object catch (error) {
       if (!mounted) return;
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Không thể lưu ảnh: $error')));
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            context.l10n.text(
+              'editProfileImageSaveError',
+              values: {'error': error},
+            ),
+          ),
+        ),
+      );
     }
   }
 
@@ -166,18 +177,20 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
   Future<void> _showPermissionSettingsDialog(ImageSource source) async {
     if (!mounted) return;
     final permissionName = source == ImageSource.camera
-        ? 'camera'
-        : 'thư viện ảnh';
+        ? context.l10n.text('camera')
+        : context.l10n.text('photoLibrary');
     await showDialog<void>(
       context: context,
       builder: (context) => AppDialog(
         icon: Icons.lock_outline_rounded,
-        title: 'Cần cấp quyền',
-        message:
-            'Leximon chưa được cấp quyền truy cập $permissionName. Bạn có thể bật quyền trong phần Cài đặt của ứng dụng.',
-        secondaryLabel: 'Để sau',
+        title: context.l10n.text('permissionRequired'),
+        message: context.l10n.text(
+          'editProfileImagePermissionBody',
+          values: {'permission': permissionName},
+        ),
+        secondaryLabel: context.l10n.later,
         onSecondary: () => Navigator.of(context).pop(),
-        primaryLabel: 'Mở Cài đặt',
+        primaryLabel: context.l10n.openSettings,
         onPrimary: () async {
           Navigator.of(context).pop();
           await AppSettingsService.openAppSettings();
@@ -211,9 +224,13 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
     } on Object catch (error) {
       if (!mounted) return;
       setState(() => _isSaving = false);
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text('Không thể lưu hồ sơ: $error')));
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            context.l10n.text('editProfileSaveError', values: {'error': error}),
+          ),
+        ),
+      );
     }
   }
 
@@ -259,9 +276,11 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                               ),
                               child: Column(
                                 children: [
-                                  const SectionHeader(
+                                  SectionHeader(
                                     kicker: 'Personalize',
-                                    title: 'Ảnh đại diện',
+                                    title: context.l10n.text(
+                                      'editProfileAvatar',
+                                    ),
                                   ),
                                   const SizedBox(height: 12),
                                   _AvatarPicker(
@@ -276,21 +295,27 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  const SectionHeader(
+                                  SectionHeader(
                                     kicker: 'Profile details',
-                                    title: 'Thông tin cá nhân',
+                                    title: context.l10n.text(
+                                      'editProfileDetails',
+                                    ),
                                   ),
                                   const SizedBox(height: 18),
                                   _ProfileField(
                                     controller: _nameController,
-                                    label: 'Tên của bạn',
-                                    hintText: 'Nhập tên hiển thị',
+                                    label: context.l10n.text('editProfileName'),
+                                    hintText: context.l10n.text(
+                                      'editProfileNameHint',
+                                    ),
                                     icon: Icons.person_outline_rounded,
                                     textInputAction: TextInputAction.next,
                                     validator: (value) {
                                       if (value == null ||
                                           value.trim().isEmpty) {
-                                        return 'Vui lòng nhập tên của bạn';
+                                        return context.l10n.text(
+                                          'editProfileNameRequired',
+                                        );
                                       }
                                       return null;
                                     },
@@ -306,12 +331,16 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                                     validator: (value) {
                                       final email = value?.trim() ?? '';
                                       if (email.isEmpty) {
-                                        return 'Vui lòng nhập email';
+                                        return context.l10n.text(
+                                          'editProfileEmailRequired',
+                                        );
                                       }
                                       if (!RegExp(
                                         r'^\S+@\S+\.\S+$',
                                       ).hasMatch(email)) {
-                                        return 'Email chưa đúng định dạng';
+                                        return context.l10n.text(
+                                          'editProfileEmailInvalid',
+                                        );
                                       }
                                       return null;
                                     },
@@ -362,18 +391,20 @@ class _EditProfileScreenState extends ConsumerState<EditProfileScreen> {
                                                 color: Colors.white,
                                               ),
                                             )
-                                          : const Row(
+                                          : Row(
                                               mainAxisSize: MainAxisSize.min,
                                               children: [
-                                                Icon(
+                                                const Icon(
                                                   Icons.check_rounded,
                                                   color: Colors.white,
                                                   size: 20,
                                                 ),
-                                                SizedBox(width: 8),
+                                                const SizedBox(width: 8),
                                                 Text(
-                                                  'Lưu hồ sơ',
-                                                  style: TextStyle(
+                                                  context.l10n.text(
+                                                    'editProfileSave',
+                                                  ),
+                                                  style: const TextStyle(
                                                     color: Colors.white,
                                                     fontSize: 14,
                                                     fontWeight: FontWeight.w800,
@@ -462,23 +493,23 @@ class _EditProfileTopBar extends StatelessWidget {
             ),
           ),
           const SizedBox(width: 12),
-          const Expanded(
+          Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'PERSONAL HUB',
-                  style: TextStyle(
+                  context.l10n.profileEyebrow,
+                  style: const TextStyle(
                     color: Color(0xFF52739A),
                     fontSize: 9,
                     fontWeight: FontWeight.w800,
                     letterSpacing: 1,
                   ),
                 ),
-                SizedBox(height: 5),
+                const SizedBox(height: 5),
                 Text(
-                  'Sửa hồ sơ',
-                  style: TextStyle(
+                  context.l10n.text('editProfileTitle'),
+                  style: const TextStyle(
                     color: AppColors.primaryDark,
                     fontSize: 26,
                     fontWeight: FontWeight.w800,
@@ -549,7 +580,7 @@ class _AvatarPicker extends StatelessWidget {
         TextButton.icon(
           onPressed: onTap,
           icon: const Icon(Icons.edit_rounded, size: 16),
-          label: const Text('Đổi ảnh đại diện'),
+          label: Text(context.l10n.text('editProfileChangeAvatar')),
           style: TextButton.styleFrom(
             foregroundColor: AppColors.primary,
             textStyle: const TextStyle(

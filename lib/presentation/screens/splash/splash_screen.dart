@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
+import '../../../core/localization/app_localizations.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class SplashScreen extends ConsumerStatefulWidget {
@@ -114,8 +115,8 @@ class _StartupError extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text(
-              'Không thể khởi tạo ứng dụng',
+            Text(
+              context.l10n.text('splashInitializationError'),
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white,
@@ -125,7 +126,7 @@ class _StartupError extends StatelessWidget {
             ),
             const SizedBox(height: 4),
             Text(
-              'Vui lòng kiểm tra và thử lại.',
+              context.l10n.text('splashTryAgainBody'),
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white.withValues(alpha: 0.82),
@@ -143,7 +144,7 @@ class _StartupError extends StatelessWidget {
                   vertical: 10,
                 ),
               ),
-              child: const Text('Thử lại'),
+              child: Text(context.l10n.retry),
             ),
           ],
         ),

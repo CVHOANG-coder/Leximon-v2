@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/topic.dart';
 import '../../../data/models/vocabulary_collection.dart';
 import '../../../data/services/progress_dashboard_service.dart';
@@ -26,7 +27,7 @@ class DiscoverScreen extends ConsumerWidget {
         ref.watch(topicProgressProvider).valueOrNull ?? const <int, double>{};
     final dashboard =
         ref.watch(progressDashboardProvider).valueOrNull ??
-        ProgressDashboardSnapshot.empty();
+        ProgressDashboardSnapshot.empty(localizations: context.l10n);
     final collection = ref.watch(vocabularyCollectionProvider).valueOrNull;
 
     return SafeArea(
@@ -65,17 +66,17 @@ class DiscoverScreen extends ConsumerWidget {
                     child: LeximonSurface(
                       child: Column(
                         children: [
-                          const SectionHeader(
-                            kicker: 'Mastery board',
-                            title: 'Phân tầng vốn từ',
-                            action: 'Xem chi tiết',
+                          SectionHeader(
+                            kicker: context.l10n.text('masteryBoard'),
+                            title: context.l10n.text('masteryBreakdown'),
+                            action: context.l10n.text('viewDetails'),
                           ),
                           const SizedBox(height: 16),
                           _MasteryCard(
-                            title: 'Đã nắm chắc',
+                            title: context.l10n.text('statusMastered'),
                             value:
                                 '${collection?.countFor(VocabularyCollectionStatus.mastered) ?? 0}',
-                            body: 'Từ đã đúng nhiều lần và nhớ ổn định',
+                            body: context.l10n.text('masteredStableBody'),
                             color: AppColors.green,
                             icon: Icons.star_rounded,
                             onTap: () => _openCollection(
@@ -85,10 +86,10 @@ class DiscoverScreen extends ConsumerWidget {
                           ),
                           const SizedBox(height: 10),
                           _MasteryCard(
-                            title: 'Đang ôn',
+                            title: context.l10n.text('statusReviewing'),
                             value:
                                 '${collection?.countFor(VocabularyCollectionStatus.reviewing) ?? 0}',
-                            body: 'Cần lặp lại theo lịch SRS trong 2 ngày tới',
+                            body: context.l10n.text('reviewingSrsBody'),
                             color: AppColors.primary,
                             icon: Icons.autorenew_rounded,
                             onTap: () => _openCollection(
@@ -98,11 +99,10 @@ class DiscoverScreen extends ConsumerWidget {
                           ),
                           const SizedBox(height: 10),
                           _MasteryCard(
-                            title: 'Cần luyện thêm',
+                            title: context.l10n.text('needsMorePractice'),
                             value:
                                 '${collection?.countFor(VocabularyCollectionStatus.needsPractice) ?? 0}',
-                            body:
-                                'Những từ bạn thường nhầm hoặc mất nhiều thời gian',
+                            body: context.l10n.text('needsMorePracticeBody'),
                             color: AppColors.orange,
                             icon: Icons.track_changes_rounded,
                             onTap: () => _openCollection(
@@ -121,10 +121,10 @@ class DiscoverScreen extends ConsumerWidget {
                     child: LeximonSurface(
                       child: Column(
                         children: [
-                          const SectionHeader(
-                            kicker: 'Rhythm tracker',
-                            title: 'Nhịp học 7 ngày',
-                            action: 'Theo tuần',
+                          SectionHeader(
+                            kicker: context.l10n.text('rhythmTracker'),
+                            title: context.l10n.text('sevenDayRhythm'),
+                            action: context.l10n.text('weekly'),
                           ),
                           const SizedBox(height: 18),
                           _ActivityChart(values: dashboard.weekActivityRatios),
@@ -143,15 +143,26 @@ class DiscoverScreen extends ConsumerWidget {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        '${dashboard.weekSessionCount} phiên học',
-                                        style: TextStyle(
+                                        context.l10n.text(
+                                          'studySessionCount',
+                                          values: {
+                                            'count': dashboard.weekSessionCount,
+                                          },
+                                        ),
+                                        style: const TextStyle(
                                           fontWeight: FontWeight.w800,
                                         ),
                                       ),
-                                      SizedBox(height: 4),
+                                      const SizedBox(height: 4),
                                       Text(
-                                        '${dashboard.weekActivityTotal} lượt từ được ghi nhận trong tuần này.',
-                                        style: TextStyle(
+                                        context.l10n.text(
+                                          'weeklyWordActivity',
+                                          values: {
+                                            'count':
+                                                dashboard.weekActivityTotal,
+                                          },
+                                        ),
+                                        style: const TextStyle(
                                           color: AppColors.textSecondary,
                                           fontSize: 10,
                                         ),
@@ -161,9 +172,9 @@ class DiscoverScreen extends ConsumerWidget {
                                 ),
                                 Text(
                                   dashboard.currentStreak > 0
-                                      ? 'Giữ chuỗi'
-                                      : 'Bắt đầu học',
-                                  style: TextStyle(
+                                      ? context.l10n.text('keepStreak')
+                                      : context.l10n.text('startLearning'),
+                                  style: const TextStyle(
                                     color: AppColors.primary,
                                     fontWeight: FontWeight.w800,
                                     fontSize: 10,
@@ -184,9 +195,9 @@ class DiscoverScreen extends ConsumerWidget {
                       child: Column(
                         children: [
                           SectionHeader(
-                            kicker: 'Learning map',
-                            title: 'Bản đồ tiến độ chủ đề',
-                            action: 'Tất cả chủ đề',
+                            kicker: context.l10n.text('learningMap'),
+                            title: context.l10n.text('topicProgressMap'),
+                            action: context.l10n.text('allTopics'),
                             onAction: topics.isEmpty
                                 ? null
                                 : () {
@@ -231,8 +242,8 @@ class DiscoverScreen extends ConsumerWidget {
                       child: Column(
                         children: [
                           SectionHeader(
-                            kicker: 'Monthly pulse',
-                            title: 'Dấu chân tháng này',
+                            kicker: context.l10n.text('monthlyPulse'),
+                            title: context.l10n.text('thisMonthFootprint'),
                             action: dashboard.monthLabel,
                           ),
                           const SizedBox(height: 18),
@@ -243,15 +254,25 @@ class DiscoverScreen extends ConsumerWidget {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    '${dashboard.activeDaysThisMonth} ngày hoạt động',
-                                    style: TextStyle(
+                                    context.l10n.text(
+                                      'activeDayCount',
+                                      values: {
+                                        'count': dashboard.activeDaysThisMonth,
+                                      },
+                                    ),
+                                    style: const TextStyle(
                                       fontWeight: FontWeight.w800,
                                     ),
                                   ),
-                                  SizedBox(height: 4),
+                                  const SizedBox(height: 4),
                                   Text(
-                                    'Bạn bỏ lỡ ${dashboard.missedDaysThisMonth} ngày trong tháng này.',
-                                    style: TextStyle(
+                                    context.l10n.text(
+                                      'missedDaysThisMonth',
+                                      values: {
+                                        'count': dashboard.missedDaysThisMonth,
+                                      },
+                                    ),
+                                    style: const TextStyle(
                                       color: AppColors.textSecondary,
                                       fontSize: 10,
                                     ),
@@ -296,23 +317,23 @@ class _ProgressHeader extends StatelessWidget {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Expanded(
+        Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'BẢNG ĐIỀU KHIỂN HỌC TẬP',
-                style: TextStyle(
+                context.l10n.text('learningDashboard'),
+                style: const TextStyle(
                   color: Color(0xFF52739A),
                   fontSize: 9,
                   fontWeight: FontWeight.w800,
                   letterSpacing: 1,
                 ),
               ),
-              SizedBox(height: 8),
+              const SizedBox(height: 8),
               Text(
-                'Hành trình của bạn',
-                style: TextStyle(
+                context.l10n.text('yourJourney'),
+                style: const TextStyle(
                   color: AppColors.primaryDark,
                   fontSize: 30,
                   height: 1,
@@ -320,10 +341,10 @@ class _ProgressHeader extends StatelessWidget {
                   letterSpacing: -1.4,
                 ),
               ),
-              SizedBox(height: 10),
+              const SizedBox(height: 10),
               Text(
-                'Theo dõi tiến độ theo cách trực quan hơn, nhiều động lực hơn.',
-                style: TextStyle(
+                context.l10n.text('progressHeaderBody'),
+                style: const TextStyle(
                   color: AppColors.textSecondary,
                   fontSize: 11,
                   height: 1.4,
@@ -363,23 +384,23 @@ class _ProgressHero extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'TIẾN ĐỘ TUẦN NÀY',
-                      style: TextStyle(
+                      context.l10n.text('thisWeekProgress'),
+                      style: const TextStyle(
                         color: Color(0xFF7990B0),
                         fontSize: 9,
                         fontWeight: FontWeight.w800,
                         letterSpacing: 1.1,
                       ),
                     ),
-                    SizedBox(height: 5),
+                    const SizedBox(height: 5),
                     Text(
-                      'Vốn từ của bạn',
-                      style: TextStyle(
+                      context.l10n.text('yourVocabulary'),
+                      style: const TextStyle(
                         fontSize: 21,
                         fontWeight: FontWeight.w800,
                         letterSpacing: -.7,
@@ -403,18 +424,18 @@ class _ProgressHero extends StatelessWidget {
                     borderRadius: BorderRadius.circular(99),
                   ),
                 ),
-                child: const Row(
+                child: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'Báo cáo',
-                      style: TextStyle(
+                      context.l10n.text('report'),
+                      style: const TextStyle(
                         fontSize: 10,
                         fontWeight: FontWeight.w800,
                       ),
                     ),
-                    SizedBox(width: 3),
-                    Icon(Icons.arrow_forward_rounded, size: 13),
+                    const SizedBox(width: 3),
+                    const Icon(Icons.arrow_forward_rounded, size: 13),
                   ],
                 ),
               ),
@@ -429,7 +450,7 @@ class _ProgressHero extends StatelessWidget {
                 child: _WeeklyMetric(
                   iconAsset: streakIconAsset,
                   value: '${dashboard.currentStreak}',
-                  label: streakLabel,
+                  label: context.l10n.text('streakDaysLabel'),
                   accent: streakAccentColor,
                   background: streakBackgroundColor,
                 ),
@@ -439,7 +460,7 @@ class _ProgressHero extends StatelessWidget {
                 child: _WeeklyMetric(
                   iconAsset: 'assets/svgs/book.svg',
                   value: '${dashboard.masteredWords}',
-                  label: 'Đã thuộc',
+                  label: context.l10n.text('masteredShort'),
                   accent: AppColors.primary,
                   background: const Color(0xFFEEF3FF),
                 ),
@@ -449,7 +470,7 @@ class _ProgressHero extends StatelessWidget {
                 child: _WeeklyMetric(
                   iconAsset: 'assets/svgs/thunder.svg',
                   value: '${dashboard.weekSessionCount}',
-                  label: 'Phiên tuần',
+                  label: context.l10n.text('weeklySessions'),
                   accent: const Color(0xFFE6A600),
                   background: const Color(0xFFFFF8E3),
                 ),
@@ -483,10 +504,13 @@ class _ProgressHero extends StatelessWidget {
                     Expanded(
                       child: Text.rich(
                         TextSpan(
-                          text: 'Kho từ vựng  ',
+                          text: context.l10n.text('vocabularyLibrary'),
                           children: [
                             TextSpan(
-                              text: '$libraryWords từ',
+                              text: context.l10n.text(
+                                'wordCountInline',
+                                values: {'count': libraryWords},
+                              ),
                               style: const TextStyle(
                                 color: AppColors.textPrimary,
                                 fontWeight: FontWeight.w800,
@@ -581,9 +605,9 @@ class _ProgressCard extends StatelessWidget {
                                     ),
                                   ),
                                   const SizedBox(width: 9),
-                                  const Expanded(
+                                  Expanded(
                                     child: Text(
-                                      'VỐN TỪ ĐÃ TIẾN BỘ',
+                                      context.l10n.text('vocabularyProgressed'),
                                       maxLines: 1,
                                       overflow: TextOverflow.ellipsis,
                                       style: TextStyle(
@@ -600,10 +624,13 @@ class _ProgressCard extends StatelessWidget {
                               Text.rich(
                                 TextSpan(
                                   text: '${dashboard.progressedWords}',
-                                  children: const [
+                                  children: [
                                     TextSpan(
-                                      text: ' từ',
-                                      style: TextStyle(
+                                      text: context.l10n.text(
+                                        'wordCountInline',
+                                        values: {'count': ''},
+                                      ),
+                                      style: const TextStyle(
                                         fontSize: 17,
                                         fontWeight: FontWeight.w700,
                                         letterSpacing: -.4,
@@ -621,7 +648,10 @@ class _ProgressCard extends StatelessWidget {
                               ),
                               const SizedBox(height: 7),
                               Text(
-                                '${dashboard.masteredWords} từ đã thuộc hoàn toàn',
+                                context.l10n.text(
+                                  'masteredWordCount',
+                                  values: {'count': dashboard.masteredWords},
+                                ),
                                 style: const TextStyle(
                                   color: Color(0xFFC7DCFF),
                                   fontSize: 9,
@@ -681,9 +711,9 @@ class _ProgressCard extends StatelessWidget {
                                       ),
                                     ),
                                     const SizedBox(height: 4),
-                                    const Text(
-                                      'TỔNG',
-                                      style: TextStyle(
+                                    Text(
+                                      context.l10n.text('total'),
+                                      style: const TextStyle(
                                         color: Color(0xFFD9EFFF),
                                         fontSize: 8,
                                         fontWeight: FontWeight.w800,
@@ -712,18 +742,18 @@ class _ProgressCard extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 5),
-                        const Expanded(
+                        Expanded(
                           child: Text(
-                            'từ trong lộ trình',
-                            style: TextStyle(
+                            context.l10n.text('wordsInPath'),
+                            style: const TextStyle(
                               color: Color(0xFFBFD6FF),
                               fontSize: 9,
                             ),
                           ),
                         ),
-                        const Text(
-                          'Keep going!',
-                          style: TextStyle(
+                        Text(
+                          context.l10n.text('keepGoing'),
+                          style: const TextStyle(
                             color: AppColors.cyan,
                             fontSize: 9,
                             fontWeight: FontWeight.w800,
@@ -1023,7 +1053,18 @@ class _JourneyItem extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '${(topic.wordCount * progress).round()} / ${topic.wordCount} từ • ${progress > .5 ? 'đang học' : 'nên quay lại ôn'}',
+                  context.l10n.text(
+                    'topicJourneyStatus',
+                    values: {
+                      'completed': (topic.wordCount * progress).round(),
+                      'total': topic.wordCount,
+                      'status': context.l10n.text(
+                        progress > .5
+                            ? 'topicJourneyLearning'
+                            : 'topicJourneyReview',
+                      ),
+                    },
+                  ),
                   style: const TextStyle(
                     color: AppColors.textSecondary,
                     fontSize: 9,

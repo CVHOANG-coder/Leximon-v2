@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/services/listening_lesson_preloader.dart';
 import '../../../shared/providers/app_providers.dart';
 import 'listening_exercise_screen.dart';
@@ -128,7 +129,7 @@ class _ListeningPreloadScreenState
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Đang tải bài nghe',
+                          context.l10n.text('listeningPreloadTitle'),
                           key: const ValueKey('listening-preload-title'),
                           style: TextStyle(
                             color: AppColors.primaryDark,
@@ -140,8 +141,10 @@ class _ListeningPreloadScreenState
                         ),
                         const SizedBox(height: 14),
                         Text(
-                          'Đang chuẩn bị dữ liệu phần Nghe & Gõ\n'
-                          'cho bài “$_visibleLessonName”.',
+                          context.l10n.text(
+                            'listeningPreloadSubtitle',
+                            values: {'lesson': _visibleLessonName},
+                          ),
                           key: const ValueKey('listening-preload-description'),
                           style: TextStyle(
                             color: const Color(0xFF6F88AD),
@@ -204,19 +207,25 @@ class _LoadingDetails extends StatelessWidget {
     final isLoadingLesson =
         progress.stage == ListeningPreloadStage.loadingLesson;
     final status = openingExercise
-        ? 'Đã sẵn sàng!'
+        ? context.l10n.text('ready')
         : progress.stage == ListeningPreloadStage.ready
-        ? 'Đang mở bài nghe...'
+        ? context.l10n.text('listeningOpening')
         : isLoadingLesson
-        ? 'Đang tải nội dung bài học...'
+        ? context.l10n.text('listeningLoadingContent')
         : total == 0
-        ? 'Đang chuẩn bị trình phát...'
-        : 'Đang tải audio $loaded/$total...';
+        ? context.l10n.text('listeningPreparingPlayer')
+        : context.l10n.text(
+            'listeningLoadingAudio',
+            values: {'loaded': loaded, 'total': total},
+          );
     final countLabel = isLoadingLesson
-        ? 'Đang đọc dữ liệu bài học'
+        ? context.l10n.text('listeningReadingData')
         : total == 0
-        ? 'Bài học không có audio riêng'
-        : 'Đã tải $loaded/$total audio';
+        ? context.l10n.text('listeningNoSeparateAudio')
+        : context.l10n.text(
+            'listeningLoadedAudio',
+            values: {'loaded': loaded, 'total': total},
+          );
 
     return Column(
       key: const ValueKey('listening-preload-progress'),
@@ -293,8 +302,8 @@ class _LoadingDetails extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 7),
-        const Text(
-          'Vui lòng chờ trong giây lát',
+        Text(
+          context.l10n.text('pleaseWait'),
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Color(0xFF7A91B2),
@@ -317,8 +326,8 @@ class _LoadingError extends StatelessWidget {
     return Column(
       key: const ValueKey('listening-preload-error'),
       children: [
-        const Text(
-          'Chưa tải đủ audio của bài nghe',
+        Text(
+          context.l10n.text('listeningAudioIncomplete'),
           textAlign: TextAlign.center,
           style: TextStyle(
             color: AppColors.primaryDark,
@@ -327,8 +336,8 @@ class _LoadingError extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 7),
-        const Text(
-          'Kiểm tra kết nối mạng rồi thử lại nhé.',
+        Text(
+          context.l10n.text('checkConnectionTryAgain'),
           textAlign: TextAlign.center,
           style: TextStyle(
             color: Color(0xFF7A91B2),
@@ -342,7 +351,7 @@ class _LoadingError extends StatelessWidget {
             Expanded(
               child: OutlinedButton(
                 onPressed: () => Navigator.of(context).maybePop(),
-                child: const Text('Quay lại'),
+                child: Text(context.l10n.back),
               ),
             ),
             const SizedBox(width: 12),
@@ -350,7 +359,7 @@ class _LoadingError extends StatelessWidget {
               child: FilledButton(
                 key: const ValueKey('listening-preload-retry'),
                 onPressed: onRetry,
-                child: const Text('Thử lại'),
+                child: Text(context.l10n.retry),
               ),
             ),
           ],

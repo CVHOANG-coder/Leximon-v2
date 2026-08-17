@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../../../core/localization/app_localizations.dart';
 import '../../../data/services/challenge_dashboard_service.dart';
 import '../../../presentation/widgets/streak_indicator.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -174,7 +175,7 @@ class _ChallengeHero extends StatelessWidget {
                 top: 26,
                 left: 21,
                 child: Text(
-                  'THỬ THÁCH MỖI NGÀY',
+                  context.l10n.text('dailyChallengeEyebrow'),
                   style: TextStyle(
                     color: const Color(0xFF52749E),
                     fontSize: compact ? 9 : 10,
@@ -188,7 +189,7 @@ class _ChallengeHero extends StatelessWidget {
                 left: 21,
                 width: compact ? 205 : 245,
                 child: Text(
-                  'Thử thách mỗi ngày',
+                  context.l10n.text('dailyChallengeTitle'),
                   style: TextStyle(
                     color: const Color(0xFF092F75),
                     fontSize: compact ? 27 : 31,
@@ -203,7 +204,7 @@ class _ChallengeHero extends StatelessWidget {
                 bottom: 31,
                 width: compact ? 205 : 252,
                 child: Text(
-                  'Rèn đủ 5 kỹ năng, tiến bộ đều mỗi ngày.',
+                  context.l10n.text('dailyChallengeBody'),
                   maxLines: compact ? 2 : 1,
                   style: TextStyle(
                     color: const Color(0xFF6683A8),
@@ -268,7 +269,7 @@ class _StreakBadge extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                '$streak ngày',
+                context.l10n.text('dayCount', values: {'count': streak}),
                 style: const TextStyle(
                   color: Color(0xFF0A3274),
                   fontSize: 12,
@@ -277,9 +278,9 @@ class _StreakBadge extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 2),
-              const Text(
-                streakLabel,
-                style: TextStyle(
+              Text(
+                context.l10n.text('streakDaysLabel'),
+                style: const TextStyle(
                   color: Color(0xFF7188A8),
                   fontSize: 9,
                   fontWeight: FontWeight.w700,
@@ -333,8 +334,8 @@ class _WeeklyGoalCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      'MỤC TIÊU TUẦN NÀY',
+                    Text(
+                      context.l10n.text('weeklyGoal'),
                       style: TextStyle(
                         color: Color(0xFF60799C),
                         fontSize: 9,
@@ -344,7 +345,10 @@ class _WeeklyGoalCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      '$completed / $goal phiên luyện',
+                      context.l10n.text(
+                        'practiceSessionProgress',
+                        values: {'completed': completed, 'goal': goal},
+                      ),
                       maxLines: 1,
                       style: const TextStyle(
                         color: Color(0xFF071D49),
@@ -357,8 +361,11 @@ class _WeeklyGoalCard extends StatelessWidget {
                     const SizedBox(height: 7),
                     Text(
                       remaining == 0
-                          ? 'Bạn đã hoàn thành mục tiêu tuần này'
-                          : 'Còn $remaining phiên để hoàn thành mục tiêu tuần này',
+                          ? context.l10n.text('weeklyGoalComplete')
+                          : context.l10n.text(
+                              'weeklyGoalRemaining',
+                              values: {'count': remaining},
+                            ),
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: const TextStyle(
@@ -416,8 +423,8 @@ class _WeeklyGoalCard extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          const Text(
-                            'GỢI Ý TIẾP THEO',
+                          Text(
+                            context.l10n.text('nextRecommendation'),
                             style: TextStyle(
                               color: Color(0xFF758BA8),
                               fontSize: 8,
@@ -427,7 +434,8 @@ class _WeeklyGoalCard extends StatelessWidget {
                           ),
                           const SizedBox(height: 4),
                           Text(
-                            recommendation?.title ?? 'Đang tìm bài phù hợp…',
+                            recommendation?.title ??
+                                context.l10n.text('findingRecommendation'),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
                             style: const TextStyle(
@@ -454,7 +462,10 @@ class _WeeklyGoalCard extends StatelessWidget {
                     ),
                     const SizedBox(width: 6),
                     Text(
-                      '${recommendation?.durationMinutes ?? 5} phút',
+                      context.l10n.text(
+                        'minuteCount',
+                        values: {'count': recommendation?.durationMinutes ?? 5},
+                      ),
                       style: const TextStyle(
                         color: Color(0xFF7288A6),
                         fontSize: 9,
@@ -497,8 +508,8 @@ class _PracticeModesSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
-          '5 kỹ năng chính',
+        Text(
+          context.l10n.text('fiveCoreSkills'),
           style: TextStyle(
             color: Color(0xFF071D49),
             fontSize: 16,
@@ -507,8 +518,8 @@ class _PracticeModesSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 5),
-        const Text(
-          'Chọn một kỹ năng để tiếp tục luyện tập',
+        Text(
+          context.l10n.text('chooseSkillToPractice'),
           style: TextStyle(color: Color(0xFF7187A5), fontSize: 10),
         ),
         const SizedBox(height: 14),
@@ -531,9 +542,9 @@ class _PracticeModesSection extends StatelessWidget {
                   key: const ValueKey('listening-mode-card'),
                   actionKey: const ValueKey('listening-mode-card-action'),
                   iconAsset: _skillIconAsset(PracticeSkill.listening),
-                  title: 'Luyện nghe',
-                  description: 'Nghe hiểu & phản xạ',
-                  progressText: _progressText(listening, 'bài'),
+                  title: context.l10n.text('listeningSkillTitle'),
+                  description: context.l10n.text('listeningSkillBody'),
+                  progressText: _progressText(context, listening, 'lessonUnit'),
                   progress: listening?.ratio ?? 0,
                   color: const Color(0xFF1767F2),
                   onTap: () => _open(context, const ListeningPracticeScreen()),
@@ -542,9 +553,9 @@ class _PracticeModesSection extends StatelessWidget {
                   key: const ValueKey('grammar-mode-card'),
                   actionKey: const ValueKey('grammar-mode-card-action'),
                   iconAsset: _skillIconAsset(PracticeSkill.grammar),
-                  title: 'Ngữ pháp',
-                  description: 'Cấu trúc & vận dụng',
-                  progressText: _progressText(grammar, 'chủ đề'),
+                  title: context.l10n.text('skillGrammar'),
+                  description: context.l10n.text('grammarSkillBody'),
+                  progressText: _progressText(context, grammar, 'topicUnit'),
                   progress: grammar?.ratio ?? 0,
                   color: const Color(0xFFFF7B24),
                   onTap: () => _open(context, const GrammarPracticeScreen()),
@@ -553,9 +564,9 @@ class _PracticeModesSection extends StatelessWidget {
                   key: const ValueKey('speaking-mode-card'),
                   actionKey: const ValueKey('speaking-mode-card-action'),
                   iconAsset: _skillIconAsset(PracticeSkill.speaking),
-                  title: 'Luyện nói',
-                  description: 'Nghe mẫu & nói lại',
-                  progressText: _progressText(speaking, 'bài'),
+                  title: context.l10n.text('speakingSkillTitle'),
+                  description: context.l10n.text('speakingSkillBody'),
+                  progressText: _progressText(context, speaking, 'lessonUnit'),
                   progress: speaking?.ratio ?? 0,
                   color: const Color(0xFFEE5C8A),
                   onTap: () => _open(context, const SpeakingPracticeScreen()),
@@ -564,9 +575,13 @@ class _PracticeModesSection extends StatelessWidget {
                   key: const ValueKey('pronunciation-mode-card'),
                   actionKey: const ValueKey('pronunciation-mode-card-action'),
                   iconAsset: _skillIconAsset(PracticeSkill.pronunciation),
-                  title: 'IPA & phát âm',
-                  description: 'Khẩu hình & âm chuẩn',
-                  progressText: _progressText(pronunciation, 'âm'),
+                  title: context.l10n.text('ipaPronunciationTitle'),
+                  description: context.l10n.text('ipaPronunciationBody'),
+                  progressText: _progressText(
+                    context,
+                    pronunciation,
+                    'soundUnit',
+                  ),
                   progress: pronunciation?.ratio ?? 0,
                   color: const Color(0xFF17C889),
                   onTap: () => _open(context, const PronunciationScreen()),
@@ -575,9 +590,9 @@ class _PracticeModesSection extends StatelessWidget {
                   key: const ValueKey('reading-mode-card'),
                   actionKey: const ValueKey('reading-mode-card-action'),
                   iconAsset: _skillIconAsset(PracticeSkill.reading),
-                  title: 'Luyện đọc',
-                  description: 'Đọc hiểu & từ vựng',
-                  progressText: _progressText(reading, 'bài'),
+                  title: context.l10n.text('readingSkillTitle'),
+                  description: context.l10n.text('readingSkillBody'),
+                  progressText: _progressText(context, reading, 'lessonUnit'),
                   progress: reading?.ratio ?? 0,
                   color: const Color(0xFF7A4EF4),
                   onTap: () => _open(context, const ReadingScreen()),
@@ -596,10 +611,20 @@ class _PracticeModesSection extends StatelessWidget {
         .then((_) => onReturn());
   }
 
-  String _progressText(PracticeModeProgress? progress, String unit) {
-    if (progress == null) return 'Đang tải…';
-    return '${_formatNumber(progress.completed)} / '
-        '${_formatNumber(progress.total)} $unit';
+  String _progressText(
+    BuildContext context,
+    PracticeModeProgress? progress,
+    String unitKey,
+  ) {
+    if (progress == null) return context.l10n.loading;
+    return context.l10n.text(
+      'progressWithUnit',
+      values: {
+        'completed': _formatNumber(progress.completed),
+        'total': _formatNumber(progress.total),
+        'unit': context.l10n.text(unitKey),
+      },
+    );
   }
 
   String _formatNumber(int value) {
@@ -648,7 +673,15 @@ class _WeeklyActivityChart extends StatelessWidget {
     final maxSessions = sessions.fold<int>(1, (max, value) {
       return value > max ? value : max;
     });
-    const labels = ['T2', 'T3', 'T4', 'T5', 'T6', 'T7', 'CN'];
+    final labels = [
+      context.l10n.text('weekdayMon'),
+      context.l10n.text('weekdayTue'),
+      context.l10n.text('weekdayWed'),
+      context.l10n.text('weekdayThu'),
+      context.l10n.text('weekdayFri'),
+      context.l10n.text('weekdaySat'),
+      context.l10n.text('weekdaySun'),
+    ];
     final today = DateTime.now();
 
     return Container(
@@ -660,12 +693,12 @@ class _WeeklyActivityChart extends StatelessWidget {
         children: [
           Row(
             children: [
-              const Expanded(
+              Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Hoạt động tuần này',
+                      context.l10n.text('weeklyActivityTitle'),
                       style: TextStyle(
                         color: Color(0xFF071D49),
                         fontSize: 15,
@@ -674,7 +707,7 @@ class _WeeklyActivityChart extends StatelessWidget {
                     ),
                     SizedBox(height: 4),
                     Text(
-                      'Số phiên hoàn thành theo ngày',
+                      context.l10n.text('weeklyActivityBody'),
                       style: TextStyle(color: Color(0xFF7187A5), fontSize: 9),
                     ),
                   ],
@@ -690,7 +723,7 @@ class _WeeklyActivityChart extends StatelessWidget {
                   borderRadius: BorderRadius.circular(99),
                 ),
                 child: Text(
-                  '$total phiên',
+                  context.l10n.text('sessionCount', values: {'count': total}),
                   style: const TextStyle(
                     color: Color(0xFF1767F2),
                     fontSize: 10,
@@ -800,8 +833,8 @@ class _PracticeHistoryCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text(
-            'Lịch sử gần đây',
+          Text(
+            context.l10n.text('recentHistory'),
             style: TextStyle(
               color: Color(0xFF071D49),
               fontSize: 15,
@@ -809,26 +842,26 @@ class _PracticeHistoryCard extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 4),
-          const Text(
-            'Các bài bạn vừa hoàn thành',
+          Text(
+            context.l10n.text('recentHistoryBody'),
             style: TextStyle(color: Color(0xFF7187A5), fontSize: 9),
           ),
           const SizedBox(height: 11),
           if (entries.isEmpty)
-            const Padding(
-              padding: EdgeInsets.fromLTRB(2, 12, 2, 18),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(2, 12, 2, 18),
               child: Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.history_rounded,
                     color: Color(0xFF9AAEC7),
                     size: 25,
                   ),
-                  SizedBox(width: 11),
+                  const SizedBox(width: 11),
                   Expanded(
                     child: Text(
-                      'Chưa có phiên hoàn thành. Hãy hoàn thành một bài để bắt đầu lịch sử.',
-                      style: TextStyle(
+                      context.l10n.text('recentHistoryEmpty'),
+                      style: const TextStyle(
                         color: Color(0xFF7187A5),
                         fontSize: 10,
                         height: 1.35,
@@ -908,7 +941,7 @@ class _PracticeHistoryRow extends StatelessWidget {
           ),
           const SizedBox(width: 8),
           Text(
-            _formatHistoryTime(entry.completedAt),
+            _formatHistoryTime(context, entry.completedAt),
             textAlign: TextAlign.right,
             style: const TextStyle(
               color: Color(0xFF8A9DB5),
@@ -947,14 +980,14 @@ Color _historySkillColor(PracticeSkill skill) => switch (skill) {
   PracticeSkill.reading => const Color(0xFF7A4EF4),
 };
 
-String _formatHistoryTime(DateTime value) {
+String _formatHistoryTime(BuildContext context, DateTime value) {
   String twoDigits(int number) => number.toString().padLeft(2, '0');
   final now = DateTime.now();
   final time = '${twoDigits(value.hour)}:${twoDigits(value.minute)}';
   if (value.year == now.year &&
       value.month == now.month &&
       value.day == now.day) {
-    return 'Hôm nay\n$time';
+    return context.l10n.text('todayAtTime', values: {'time': time});
   }
   return '${twoDigits(value.day)}/${twoDigits(value.month)}\n$time';
 }

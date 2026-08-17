@@ -72,22 +72,18 @@ class SentenceExercise {
     SentenceExerciseType.insertWord => 'insert_word',
   };
 
-  String get title => switch (type) {
-    SentenceExerciseType.constructor => 'Ghép câu tiếng Anh',
-    SentenceExerciseType.inverse => 'Ghép câu tiếng Việt',
-    SentenceExerciseType.audio => 'Nghe và ghép câu',
-    SentenceExerciseType.insertWord => 'Điền từ còn thiếu',
+  String get titleKey => switch (type) {
+    SentenceExerciseType.constructor => 'sentenceTypeConstructor',
+    SentenceExerciseType.inverse => 'sentenceTypeInverse',
+    SentenceExerciseType.audio => 'sentenceTypeAudio',
+    SentenceExerciseType.insertWord => 'sentenceTypeInsertWord',
   };
 
-  String get instruction => switch (type) {
-    SentenceExerciseType.constructor =>
-      'Chọn các từ theo đúng thứ tự của câu tiếng Anh.',
-    SentenceExerciseType.inverse =>
-      'Sắp xếp bản dịch tiếng Việt phù hợp với câu bên dưới.',
-    SentenceExerciseType.audio =>
-      'Nghe câu rồi chọn các từ tiếng Anh theo đúng thứ tự.',
-    SentenceExerciseType.insertWord =>
-      'Chọn đúng từ còn thiếu để hoàn thành câu.',
+  String get instructionKey => switch (type) {
+    SentenceExerciseType.constructor => 'sentenceInstructionConstructor',
+    SentenceExerciseType.inverse => 'sentenceInstructionInverse',
+    SentenceExerciseType.audio => 'sentenceInstructionAudio',
+    SentenceExerciseType.insertWord => 'sentenceInstructionInsertWord',
   };
 
   String get answer => expectedTokens.join(' ');
