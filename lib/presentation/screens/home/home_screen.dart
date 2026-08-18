@@ -18,7 +18,6 @@ import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../repetition_practice/repetition_practice_screen.dart';
 import '../review_practice/review_practice_screen.dart';
-import '../sale_package/sale_package_screen.dart';
 import '../sentence_training/sentence_training_screen.dart';
 import '../topic_detail/topic_detail_screen.dart';
 import '../word_study/word_study_screen.dart';
@@ -449,11 +448,7 @@ class _NotificationButton extends StatelessWidget {
               color: Colors.white.withValues(alpha: .76),
               child: InkWell(
                 key: const ValueKey('home-notification-button'),
-                onTap: () => Navigator.of(context).push(
-                  MaterialPageRoute<void>(
-                    builder: (_) => const SalePackageScreen(),
-                  ),
-                ),
+                onTap: null,
                 child: Stack(
                   children: [
                     Center(

@@ -1,5 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../localization/language_code.dart';
+
 class AppLanguageService {
   static const selectedLanguageKey = 'onboarding.selected_app_language';
   // Kept as an alias so the persisted value is explicitly available as the
@@ -16,12 +18,16 @@ class AppLanguageService {
 
   Future<String?> loadSelectedLanguage() async {
     final preferences = await SharedPreferences.getInstance();
-    return preferences.getString(appLanguageKey);
+    final languageCode = preferences.getString(appLanguageKey);
+    return languageCode == null ? null : canonicalLanguageCode(languageCode);
   }
 
   Future<void> saveSelectedLanguage(String languageCode) async {
     final preferences = await SharedPreferences.getInstance();
-    final saved = await preferences.setString(appLanguageKey, languageCode);
+    final saved = await preferences.setString(
+      appLanguageKey,
+      canonicalLanguageCode(languageCode),
+    );
     if (!saved) {
       throw StateError('Could not save the selected app language.');
     }

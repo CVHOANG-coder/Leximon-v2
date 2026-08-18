@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
 import '../../core/network/api_client.dart';
+import '../../core/localization/language_code.dart';
 import '../models/topic_language.dart';
 import '../models/topic_asset_payload.dart';
 
@@ -88,14 +89,7 @@ class TopicAssetDataSource {
   ];
 
   static String canonicalizeLanguageCode(String languageCode) {
-    return switch (languageCode) {
-      'es' => 'es-ES',
-      'es-419' => 'es-US',
-      'id' => 'in',
-      'he' => 'iw',
-      'no' => 'nb',
-      _ => languageCode,
-    };
+    return canonicalLanguageCode(languageCode);
   }
 
   Future<List<TopicLanguage>> loadAvailableLanguages() async {

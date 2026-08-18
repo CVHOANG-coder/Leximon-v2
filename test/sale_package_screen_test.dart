@@ -44,7 +44,7 @@ void main() {
     expect(tester.takeException(), isNull);
   });
 
-  testWidgets('opens the sale package from the Home notification button', (
+  testWidgets('does not open subscription from the Home notification button', (
     tester,
   ) async {
     await tester.binding.setSurfaceSize(const Size(390, 844));
@@ -71,12 +71,11 @@ void main() {
     final notificationButton = tester.widget<InkWell>(
       find.byKey(const ValueKey('home-notification-button')),
     );
-    notificationButton.onTap!();
+    expect(notificationButton.onTap, isNull);
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 350));
 
-    expect(find.byKey(const ValueKey('sale-package-screen')), findsOneWidget);
-    expect(find.text(r'$29.99'), findsOneWidget);
+    expect(find.byKey(const ValueKey('subscription-screen')), findsNothing);
   });
 }
 

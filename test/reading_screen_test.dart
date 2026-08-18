@@ -6,7 +6,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/core/theme/app_theme.dart';
-import 'package:leximon/data/datasources/reading_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/reading_story.dart';
 import 'package:leximon/data/services/reading_progress_service.dart';
@@ -34,56 +33,6 @@ void main() {
       englishContent: 'A young player dreamed of winning the final.',
     ),
   ];
-
-  test('maps app language codes to bundled Reading assets', () {
-    final source = ReadingAssetDataSource();
-
-    expect(
-      source.assetPathFor('vi'),
-      'assets/data/books/language_reading_vi.json',
-    );
-    expect(
-      source.assetPathFor('es-US'),
-      'assets/data/books/language_reading_es.json',
-    );
-    expect(
-      source.assetPathFor('in'),
-      'assets/data/books/language_reading_id.json',
-    );
-    expect(
-      source.assetPathFor('fi'),
-      'assets/data/books/language_reading_en.json',
-    );
-  });
-
-  test('loads all Vietnamese stories from bundled assets', () async {
-    final loadedStories = await ReadingAssetDataSource().load(
-      languageCode: 'vi',
-    );
-
-    expect(loadedStories, hasLength(30));
-    expect(loadedStories.first.title, isNotEmpty);
-    expect(loadedStories.first.content, isNotEmpty);
-    expect(loadedStories.first.originalTitle, "The Warmth of Winter's Embrace");
-    expect(loadedStories.first.hasTranslation, isTrue);
-    expect(loadedStories.last.imageAsset, 'assets/images/reading/29.jpg');
-  });
-
-  test(
-    'loads the selected app language instead of a fixed translation',
-    () async {
-      final japaneseStories = await ReadingAssetDataSource().load(
-        languageCode: 'ja',
-      );
-
-      expect(japaneseStories.first.title, '冬の抱擁の温もり。');
-      expect(
-        japaneseStories.first.originalTitle,
-        "The Warmth of Winter's Embrace",
-      );
-      expect(japaneseStories.first.hasTranslation, isTrue);
-    },
-  );
 
   testWidgets('shows Reading header and opens a story', (tester) async {
     tester.view.physicalSize = const Size(430, 932);

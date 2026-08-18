@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:intl/intl.dart';
 
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
@@ -104,23 +106,23 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
       return _LoadError(onRetry: () => ref.invalidate(iapCatalogProvider));
     }
 
-    final currentPrice = _displayPrice(catalog, package);
-    final originalPrice = regularPackage == null
+    final saleProduct = catalog?.productFor(package);
+    final regularProduct = regularPackage == null
         ? null
-        : _displayPrice(catalog, regularPackage);
-    final saving = regularPackage == null
-        ? null
-        : _savingLabel(package, regularPackage);
+        : catalog?.productFor(regularPackage);
+    final currentPrice = _displayPrice(saleProduct);
+    final originalPrice = _displayPrice(regularProduct);
+    final saving = _savingLabel(context, saleProduct, regularProduct);
     final trialDays = package.trialDays;
 
     return Column(
       children: [
         _SalePlanCard(
           package: package,
-          currentPrice: currentPrice,
+          currentPrice: currentPrice ?? context.l10n.text('skillPackLoading'),
           originalPrice: originalPrice,
           saving: saving,
-          monthlyPrice: _monthlyPriceLabel(package),
+          monthlyPrice: _monthlyPriceLabel(context, saleProduct, package),
         ),
         const SizedBox(height: 16),
         const _BenefitsCard(),
@@ -160,7 +162,8 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
         const SizedBox(height: 13),
         _SaleButton(
           loading: _isPurchasing,
-          enabled: !_isPurchasing,
+          enabled:
+              saleProduct != null && currentPrice != null && !_isPurchasing,
           label: context.l10n.text('saleStartTrial'),
           onTap: _buy,
         ),
@@ -205,33 +208,56 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
     return bestMatch;
   }
 
-  String _displayPrice(IapCatalog? catalog, IapPackage package) {
-    final storePrice = catalog?.storePriceFor(package)?.trim();
-    if (storePrice?.isNotEmpty == true) return storePrice!;
-    return _formatCurrency(package, package.price);
+  String? _displayPrice(ProductDetails? product) {
+    final storePrice = product?.price.trim();
+    return storePrice?.isNotEmpty == true ? storePrice : null;
   }
 
-  String? _savingLabel(IapPackage sale, IapPackage regular) {
-    final amount = regular.price - sale.price;
-    if (!amount.isFinite || amount <= 0) return null;
-    return _formatCurrency(sale, amount);
+  String? _savingLabel(
+    BuildContext context,
+    ProductDetails? sale,
+    ProductDetails? regular,
+  ) {
+    if (sale == null || regular == null) return null;
+    if (sale.currencyCode.trim().toUpperCase() !=
+        regular.currencyCode.trim().toUpperCase()) {
+      return null;
+    }
+    final amount = regular.rawPrice - sale.rawPrice;
+    return _formatStorePrice(context, sale, amount);
   }
 
-  String? _monthlyPriceLabel(IapPackage package) {
-    if (package.packDurationDay < 28 || package.price <= 0) return null;
+  String? _monthlyPriceLabel(
+    BuildContext context,
+    ProductDetails? product,
+    IapPackage package,
+  ) {
+    if (product == null ||
+        package.packDurationDay < 28 ||
+        !product.rawPrice.isFinite ||
+        product.rawPrice <= 0) {
+      return null;
+    }
     final months = package.packDurationDay / (365 / 12);
     if (months <= 0) return null;
-    return _formatCurrency(package, package.price / months);
+    return _formatStorePrice(context, product, product.rawPrice / months);
   }
 
-  String _formatCurrency(IapPackage package, double amount) {
-    final fixed = amount.toStringAsFixed(2);
-    final value = fixed.replaceFirst(RegExp(r'\.?0+$'), '');
-    final currency = package.currency.trim().toUpperCase();
-    if (currency.isEmpty || currency == 'USD' || currency == r'$') {
-      return '\$$value';
-    }
-    return '$value $currency';
+  String? _formatStorePrice(
+    BuildContext context,
+    ProductDetails? product,
+    double amount,
+  ) {
+    if (product == null || !amount.isFinite || amount <= 0) return null;
+    final currencyCode = product.currencyCode.trim().toUpperCase();
+    if (currencyCode.isEmpty) return null;
+
+    final currencySymbol = product.currencySymbol.trim();
+    return NumberFormat.currency(
+      locale: Localizations.localeOf(context).toString(),
+      name: currencyCode,
+      symbol: currencySymbol.isEmpty ? currencyCode : currencySymbol,
+    ).format(amount);
   }
 
   Future<void> _buy() async {
@@ -377,7 +403,7 @@ class _SalePlanCard extends StatelessWidget {
         key: const ValueKey('sale-package-plan-card'),
         width: double.infinity,
         margin: const EdgeInsets.only(top: 12),
-        padding: const EdgeInsets.fromLTRB(16, 34, 16, 13),
+        padding: const EdgeInsets.fromLTRB(12, 60, 12, 12),
         decoration: BoxDecoration(
           color: Colors.white.withValues(alpha: .96),
           borderRadius: BorderRadius.circular(22),
@@ -393,7 +419,7 @@ class _SalePlanCard extends StatelessWidget {
         child: Column(
           children: [
             Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Image.asset(
                   'assets/images/in_app_purchase/calendar_sale_icon.png',
@@ -414,7 +440,7 @@ class _SalePlanCard extends StatelessWidget {
                           color: Color(0xFF071735),
                           fontSize: 21,
                           height: 1.1,
-                          fontWeight: FontWeight.w900,
+                          fontWeight: FontWeight.w800,
                         ),
                       ),
                       const SizedBox(height: 8),
@@ -426,11 +452,12 @@ class _SalePlanCard extends StatelessWidget {
                               currentPrice,
                               key: const ValueKey('sale-package-price'),
                               maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
                               style: const TextStyle(
                                 color: Color(0xFF1B61EA),
                                 fontSize: 28,
                                 height: 1,
-                                fontWeight: FontWeight.w900,
+                                fontWeight: FontWeight.w800,
                                 letterSpacing: -.8,
                               ),
                             ),
@@ -447,31 +474,34 @@ class _SalePlanCard extends StatelessWidget {
                               ),
                             ),
                           ),
-                          if (originalPrice != null) ...[
-                            const Spacer(),
-                            Padding(
-                              padding: const EdgeInsets.only(bottom: 2),
-                              child: Text(
-                                originalPrice!,
-                                style: const TextStyle(
-                                  color: Color(0xFF7B879F),
-                                  fontSize: 12,
-                                  decoration: TextDecoration.lineThrough,
-                                  fontWeight: FontWeight.w600,
-                                ),
-                              ),
-                            ),
-                          ],
                         ],
                       ),
+                      if (originalPrice != null) ...[
+                        const SizedBox(height: 4),
+                        Align(
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            originalPrice!,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                              color: Color(0xFF7B879F),
+                              fontSize: 12,
+                              decoration: TextDecoration.lineThrough,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ),
+                      ],
                     ],
                   ),
                 ),
               ],
             ),
             if (monthlyPrice != null || saving != null) ...[
-              const SizedBox(height: 5),
+              const SizedBox(height: 12),
               Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   if (monthlyPrice != null)
                     Expanded(
@@ -480,7 +510,7 @@ class _SalePlanCard extends StatelessWidget {
                           'saleApproxMonthly',
                           values: {'price': monthlyPrice},
                         ),
-                        maxLines: 1,
+                        maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: const TextStyle(
                           color: Color(0xFF637392),
@@ -506,6 +536,9 @@ class _SalePlanCard extends StatelessWidget {
                           'saleSaveAmount',
                           values: {'amount': saving},
                         ),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        textAlign: TextAlign.center,
                         style: const TextStyle(
                           color: Color(0xFF079342),
                           fontSize: 11.5,
@@ -514,6 +547,50 @@ class _SalePlanCard extends StatelessWidget {
                       ),
                     ),
                 ],
+              ),
+            ],
+            if (package.trialDays > 0) ...[
+              const SizedBox(height: 12),
+              Align(
+                alignment: Alignment.center,
+                child: Container(
+                  constraints: const BoxConstraints(maxWidth: 240),
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 12,
+                    vertical: 6,
+                  ),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFFF0FAF2),
+                    borderRadius: BorderRadius.circular(14),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Image.asset(
+                        'assets/images/in_app_purchase/gift.png',
+                        width: 18,
+                        height: 18,
+                      ),
+                      const SizedBox(width: 5),
+                      Flexible(
+                        child: Text(
+                          context.l10n.text(
+                            'saleTrialDays',
+                            values: {'days': package.trialDays},
+                          ),
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(
+                            color: Color(0xFF079342),
+                            fontSize: 11.5,
+                            fontWeight: FontWeight.w700,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
               ),
             ],
           ],
@@ -552,7 +629,7 @@ class _SalePlanCard extends StatelessWidget {
         ),
       ),
       Positioned(
-        top: 34,
+        top: 22,
         right: 15,
         child: Container(
           padding: const EdgeInsets.symmetric(horizontal: 11, vertical: 7),
@@ -572,45 +649,6 @@ class _SalePlanCard extends StatelessWidget {
           ),
         ),
       ),
-      if (package.trialDays > 0)
-        Positioned(
-          bottom: -1,
-          left: 105,
-          right: 105,
-          child: Container(
-            padding: const EdgeInsets.symmetric(vertical: 5),
-            decoration: BoxDecoration(
-              color: const Color(0xFFF0FAF2),
-              borderRadius: BorderRadius.circular(14),
-            ),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Image.asset(
-                  'assets/images/in_app_purchase/gift.png',
-                  width: 18,
-                  height: 18,
-                ),
-                const SizedBox(width: 5),
-                Flexible(
-                  child: Text(
-                    context.l10n.text(
-                      'saleTrialDays',
-                      values: {'days': package.trialDays},
-                    ),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis,
-                    style: const TextStyle(
-                      color: Color(0xFF079342),
-                      fontSize: 11.5,
-                      fontWeight: FontWeight.w700,
-                    ),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
     ],
   );
 

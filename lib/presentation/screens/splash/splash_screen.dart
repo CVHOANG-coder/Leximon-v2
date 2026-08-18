@@ -47,6 +47,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
         AppStartupDestination.assessmentIntro => '/onboarding/assessment-intro',
         AppStartupDestination.freeTrialOffer =>
           '/onboarding/assessment-intro/survey/free-trial',
+        AppStartupDestination.subscriptionPlan => '/subscription_plan',
         AppStartupDestination.home => '/',
       });
     } catch (error) {

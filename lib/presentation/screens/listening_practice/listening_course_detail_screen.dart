@@ -1,11 +1,10 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
+import '../../../data/datasources/listening_asset_data_source.dart';
 import '../../../data/services/listening_progress_service.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../speaking_practice/speaking_exercise_screen.dart';
@@ -51,7 +50,10 @@ class _ListeningCourseDetailScreenState
     _mode = widget.speakingMode
         ? _PracticeMode.speaking
         : _PracticeMode.listenAndType;
-    _detailFuture = _loadCourseDetail(widget.courseIndexAsset);
+    _detailFuture = _loadCourseDetail(
+      ref.read(listeningAssetDataSourceProvider),
+      widget.courseIndexAsset,
+    );
     _loadProgress();
   }
 
@@ -1339,9 +1341,11 @@ class _LessonProgress {
   final int status;
 }
 
-Future<_CourseDetailData> _loadCourseDetail(String assetPath) async {
-  final encoded = await rootBundle.loadString(assetPath);
-  final json = jsonDecode(encoded) as Map<String, dynamic>;
+Future<_CourseDetailData> _loadCourseDetail(
+  ListeningAssetDataSource dataSource,
+  String assetPath,
+) async {
+  final json = await dataSource.loadCourseIndex(assetPath);
   final courseLevel = json['levelName'] as String? ?? 'A1';
   final fallbackLevel = courseLevel.split('-').first;
   final lessons = (json['lessons'] as List<dynamic>? ?? const [])

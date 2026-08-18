@@ -8,6 +8,7 @@ import 'package:just_audio/just_audio.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
+import '../../../data/datasources/grammar_asset_data_source.dart';
 import '../../../data/models/grammar_content.dart';
 import '../../../data/services/grammar_progress_service.dart';
 import '../../../data/services/grammar_question_engine.dart';
@@ -1043,8 +1044,8 @@ class _GrammarAssetImage extends StatelessWidget {
   @override
   Widget build(BuildContext context) => ClipRRect(
     borderRadius: BorderRadius.circular(16),
-    child: Image.asset(
-      'assets/data/grammar/allpack/$fileName',
+    child: Image.network(
+      GrammarAssetDataSource.mediaUrl(fileName),
       key: ValueKey('grammar-image-$fileName'),
       fit: BoxFit.contain,
       height: 170,
@@ -1121,7 +1122,7 @@ class _GrammarAssetAudioButtonState extends State<_GrammarAssetAudioButton> {
     }
     setState(() => _isLoading = true);
     try {
-      await _player.setAsset('assets/data/grammar/allpack/${widget.fileName}');
+      await _player.setUrl(GrammarAssetDataSource.mediaUrl(widget.fileName));
       await _player.seek(Duration.zero);
       unawaited(_player.play());
     } catch (_) {

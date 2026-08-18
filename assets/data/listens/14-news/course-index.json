@@ -3,7 +3,7 @@
   "name": "News",
   "type": "youtube",
   "imgUrl": "https://dailydictation.com/images/dd-news2.jpeg",
-  "totalLessons": 209,
+  "totalLessons": 212,
   "difficulty": "Hard",
   "levelName": "B1-C1",
   "levelNames": [
@@ -2307,6 +2307,39 @@
       "levelName": "B2",
       "position": 212,
       "totalChallenges": 17,
+      "groupId": 139,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 2393,
+      "name": "What Is 'Summerween?'",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 213,
+      "totalChallenges": 19,
+      "groupId": 139,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 2394,
+      "name": "Thick, Massive Spiderwebs Take Over Trees",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 214,
+      "totalChallenges": 11,
+      "groupId": 139,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 2395,
+      "name": "Fans Saved Dobby’s Beach Memorial",
+      "subTitle": "",
+      "levelName": "B2",
+      "position": 215,
+      "totalChallenges": 13,
       "groupId": 139,
       "isListenAndSelect": false,
       "isFree": true

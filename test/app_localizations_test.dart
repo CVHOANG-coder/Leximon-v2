@@ -123,6 +123,18 @@ void main() {
     expect(traditional.openSettings, '開啟設定');
   });
 
+  test('normalizes special language aliases for device and app locales', () {
+    expect(AppLocalizations.languageCodeForLocale(const Locale('id')), 'in');
+    expect(AppLocalizations.languageCodeForLocale(const Locale('tl')), 'fil');
+    expect(AppLocalizations.languageCodeForLocale(const Locale('he')), 'iw');
+    expect(AppLocalizations.languageCodeForLocale(const Locale('no')), 'nb');
+    expect(AppLocalizations.localeForCode('id'), const Locale('in'));
+    expect(AppLocalizations.localeForCode('tl'), const Locale('fil'));
+    expect(AppLocalizations.localeForCode('he'), const Locale('iw'));
+    expect(AppLocalizations.localeForCode('no'), const Locale('nb'));
+    expect(AppLocalizations.localeForCode('zh-CN'), const Locale('zh'));
+  });
+
   test('device locale fallback is always an available language code', () {
     expect(
       AppLocalizations.supportedLanguageOptions.map((option) => option.code),

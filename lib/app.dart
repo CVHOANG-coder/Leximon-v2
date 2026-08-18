@@ -18,7 +18,10 @@ import 'presentation/screens/onboarding/language_onboarding_screen.dart';
 import 'presentation/screens/onboarding/language_package_loading_screen.dart';
 import 'presentation/screens/onboarding/survey_carousel_screen.dart';
 import 'presentation/screens/onboarding/survey_intro_screen.dart';
-import 'presentation/screens/onboarding/subscription_plan_screen.dart';
+import 'presentation/screens/onboarding/subscription_plan_screen.dart'
+    as onboarding_subscription;
+import 'presentation/screens/subscription_plan/subscription_plan_screen.dart'
+    as subscription_plan;
 import 'presentation/screens/onboarding/trial_reminder_screen.dart';
 import 'presentation/screens/onboarding/vocabulary_test_screen.dart';
 import 'presentation/screens/splash/splash_screen.dart';
@@ -78,11 +81,17 @@ final _router = GoRouter(
             ),
             GoRoute(
               path: 'subscription',
-              builder: (context, state) => const SubscriptionPlanScreen(),
+              builder: (context, state) =>
+                  const onboarding_subscription.SubscriptionPlanScreen(),
             ),
           ],
         ),
       ],
+    ),
+    GoRoute(
+      path: '/subscription_plan',
+      builder: (context, state) =>
+          const subscription_plan.SubscriptionPlanScreen(),
     ),
     GoRoute(path: '/', builder: (context, state) => const MainScreen()),
   ],

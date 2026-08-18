@@ -6,6 +6,8 @@ class GrammarAssetDataSource {
   GrammarAssetDataSource({AssetBundle? bundle})
     : _bundle = bundle ?? rootBundle;
 
+  static const mediaBaseUrl =
+      'https://leximonenglish.giddychat.com/data/grammar/allpack';
   static const contentVersion = 5;
   static const entries = <GrammarAssetEntry>[
     GrammarAssetEntry(
@@ -47,6 +49,18 @@ class GrammarAssetDataSource {
   ];
 
   final AssetBundle _bundle;
+
+  /// Resolves the filename stored in the grammar JSON to its server asset.
+  ///
+  /// Grammar JSON remains bundled with the app, while the relatively large
+  /// audio and image files are served from the grammar content endpoint.
+  static String mediaUrl(String fileName) {
+    final value = fileName.trim();
+    if (value.isEmpty) return '';
+    final uri = Uri.tryParse(value);
+    if (uri?.hasScheme == true) return value;
+    return '$mediaBaseUrl/${Uri.encodeComponent(value)}';
+  }
 
   Future<List<GrammarAssetPack>> loadAll() {
     return Future.wait([

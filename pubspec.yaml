@@ -43,6 +43,7 @@ dependencies:
     http: ^1.6.0
     in_app_purchase: ^3.3.0
     in_app_purchase_storekit: ^0.4.11+1
+    intl: ^0.20.2
     device_info_plus: ^11.5.0
     android_id: ^0.5.1
     package_info_plus: ^8.3.1
@@ -119,10 +120,17 @@ flutter:
         - assets/images/bg_reading_screen.png
         - assets/images/reading/
         - assets/data/vocabulary_test.json
-        - assets/data/books/
         - assets/data/topics/
         - assets/data/sentences/
-        - assets/data/grammar/allpack/
+        - assets/data/grammar/allpack/acqp0001.json
+        - assets/data/grammar/allpack/acqp0002.json
+        - assets/data/grammar/allpack/bcqp0001.json
+        - assets/data/grammar/allpack/bcqp0002.json
+        - assets/data/grammar/allpack/ecqp0001.json
+        - assets/data/grammar/allpack/ecqp0002.json
+        - assets/data/grammar/allpack/ecqp0003.json
+        - assets/data/grammar/allpack/icqp0001.json
+        - assets/data/grammar/allpack/icqp0002.json
         - assets/data/listens/01-ielts-listening/course-index.json
         - assets/data/listens/02-short-stories/course-index.json
         - assets/data/listens/03-spelling-names/course-index.json
@@ -136,19 +144,6 @@ flutter:
         - assets/data/listens/13-stories-for-kids/course-index.json
         - assets/data/listens/14-news/course-index.json
         - assets/data/listens/18-medical-english-oet/course-index.json
-        - assets/data/listens/01-ielts-listening/lessons/
-        - assets/data/listens/02-short-stories/lessons/
-        - assets/data/listens/03-spelling-names/lessons/
-        - assets/data/listens/04-numbers/lessons/
-        - assets/data/listens/06-conversations/lessons/
-        - assets/data/listens/07-toefl-listening/lessons/
-        - assets/data/listens/08-random-videos/lessons/
-        - assets/data/listens/09-ipa/lessons/
-        - assets/data/listens/10-toeic-listening/lessons/
-        - assets/data/listens/12-ted/lessons/
-        - assets/data/listens/13-stories-for-kids/lessons/
-        - assets/data/listens/14-news/lessons/
-        - assets/data/listens/18-medical-english-oet/lessons/
         - assets/svgs/
         - assets/svgs/challenge/
         - assets/svgs/ipa/

@@ -111,6 +111,7 @@ class AppLocalizations {
       'id' => 'in',
       'he' => 'iw',
       'no' => 'nb',
+      'tl' => 'fil',
       _ => language,
     };
     return supportedLanguageOptions.any((option) => option.code == candidate)
@@ -120,7 +121,13 @@ class AppLocalizations {
 
   static Locale localeForCode(String code) {
     final parts = code.toLowerCase().split(RegExp('[-_]'));
-    final languageCode = parts.first;
+    final languageCode = switch (parts.first) {
+      'id' => 'in',
+      'he' => 'iw',
+      'no' => 'nb',
+      'tl' => 'fil',
+      _ => parts.first,
+    };
     final requestedRegion = parts.length > 1 ? parts[1].toUpperCase() : null;
     final regionCode = switch (languageCode) {
       'es' => requestedRegion == null || requestedRegion == 'ES' ? 'ES' : 'US',
@@ -134,7 +141,7 @@ class AppLocalizations {
     };
     return supportedLocales.firstWhere(
       (locale) =>
-          locale.languageCode == languageCode &&
+          languageCodeForLocale(locale) == languageCode &&
           (regionCode == null || locale.countryCode == regionCode),
       orElse: () => const Locale('en'),
     );
@@ -326,6 +333,11 @@ class AppLocalizations {
       'subscriptionIn': 'In ',
       'subscriptionDaySuffix': ' days',
       'subscriptionStart': 'Start free trial\nand subscribe',
+      'subscriptionTrialOnly': 'Free trial only',
+      'subscriptionBenefitUnlimited': 'Unlimited\nlearning',
+      'subscriptionBenefitQuality': 'High-quality\nlessons',
+      'subscriptionBenefitProgress': 'Clear progress\nevery day',
+      'subscriptionSavingPercent': 'Save {percent}%',
       'iapStoreUnavailable': 'The App Store is currently unavailable.',
       'iapProductUnavailable': 'This package is not available in the store.',
       'iapVerificationFailed':
@@ -2619,6 +2631,11 @@ class AppLocalizations {
       'subscriptionIn': 'Trong ',
       'subscriptionDaySuffix': ' ngày',
       'subscriptionStart': 'Dùng thử miễn phí\nvà đăng ký',
+      'subscriptionTrialOnly': 'Chỉ dùng thử miễn phí',
+      'subscriptionBenefitUnlimited': 'Học không\ngiới hạn',
+      'subscriptionBenefitQuality': 'Bài học chất\nlượng cao',
+      'subscriptionBenefitProgress': 'Tiến bộ rõ\nràng mỗi ngày',
+      'subscriptionSavingPercent': 'Tiết kiệm {percent}%',
       'iapStoreUnavailable': 'App Store hiện không khả dụng.',
       'iapProductUnavailable': 'Gói này hiện chưa khả dụng trên App Store.',
       'iapVerificationFailed':

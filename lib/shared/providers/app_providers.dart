@@ -184,9 +184,16 @@ final sentenceAssetDataSourceProvider = Provider<SentenceAssetDataSource>(
   (ref) => SentenceAssetDataSource(),
 );
 
-final listeningAssetDataSourceProvider = Provider<ListeningAssetDataSource>(
-  (ref) => ListeningAssetDataSource(),
-);
+final listeningAssetDataSourceProvider = Provider<ListeningAssetDataSource>((
+  ref,
+) {
+  final dataSource = ListeningAssetDataSource(
+    languageCode: ref.watch(selectedAppLanguageProvider),
+    useRemote: true,
+  );
+  ref.onDispose(dataSource.dispose);
+  return dataSource;
+});
 
 final listeningProgressServiceProvider = Provider<ListeningProgressService>(
   (ref) => ListeningProgressService(ref.watch(appDatabaseProvider)),
@@ -243,9 +250,11 @@ final readingCardProgressProvider = FutureProvider<Map<int, bool>>((ref) async {
   };
 });
 
-final readingAssetDataSourceProvider = Provider<ReadingAssetDataSource>(
-  (ref) => ReadingAssetDataSource(),
-);
+final readingAssetDataSourceProvider = Provider<ReadingAssetDataSource>((ref) {
+  final source = ReadingAssetDataSource();
+  ref.onDispose(source.dispose);
+  return source;
+});
 
 final readingStoriesProvider = FutureProvider<List<ReadingStory>>((ref) {
   final languageCode = ref.watch(selectedAppLanguageProvider);
@@ -458,6 +467,7 @@ enum AppStartupDestination {
   languageOnboarding,
   assessmentIntro,
   freeTrialOffer,
+  subscriptionPlan,
   home,
 }
 
@@ -484,10 +494,14 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
       return AppStartupDestination.languageOnboarding;
     }
 
-    final profile = ref.read(remoteUserProfileProvider).valueOrNull;
+    // Authentication initialization guarantees that the profile has been
+    // loaded. Keep the profile as the source of truth for the app gate so a
+    // stale local onboarding flag can never grant access to a non-premium
+    // user.
+    final profile = await ref.watch(remoteUserProfileProvider.future);
     // Content updates are a premium-only capability. Non-premium users keep
     // their current local catalogue and skip the version/language check.
-    if (profile != null && profile.isPremium) {
+    if (profile.isPremium) {
       final languageService = ref.read(appLanguageServiceProvider);
       final synchronizedLanguage = await languageService.loadNativeLanguage();
       final synchronizedDatabaseVersion = await languageService
@@ -526,7 +540,11 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
     final onboardingCompleted = await ref
         .watch(appLanguageServiceProvider)
         .isOnboardingCompleted();
-    if (onboardingCompleted) return AppStartupDestination.home;
+    if (onboardingCompleted) {
+      return profile.isPremium
+          ? AppStartupDestination.home
+          : AppStartupDestination.subscriptionPlan;
+    }
 
     final carouselCompleted = await ref
         .watch(appLanguageServiceProvider)

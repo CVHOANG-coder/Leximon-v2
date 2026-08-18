@@ -1,23 +1,26 @@
-import 'dart:convert';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
+import '../../../data/datasources/listening_asset_data_source.dart';
+import '../../../data/models/listening_catalog.dart';
+import '../../../shared/providers/app_providers.dart';
 import 'listening_course_detail_screen.dart';
 
-class ListeningPracticeScreen extends StatefulWidget {
+class ListeningPracticeScreen extends ConsumerStatefulWidget {
   const ListeningPracticeScreen({this.speakingMode = false, super.key});
 
   final bool speakingMode;
 
   @override
-  State<ListeningPracticeScreen> createState() =>
+  ConsumerState<ListeningPracticeScreen> createState() =>
       _ListeningPracticeScreenState();
 }
 
-class _ListeningPracticeScreenState extends State<ListeningPracticeScreen> {
+class _ListeningPracticeScreenState
+    extends ConsumerState<ListeningPracticeScreen> {
   final _searchController = TextEditingController();
   late final Future<List<_ListeningCourse>> _coursesFuture;
   _ListeningFilter _selectedFilter = _ListeningFilter.all;
@@ -26,7 +29,7 @@ class _ListeningPracticeScreenState extends State<ListeningPracticeScreen> {
   @override
   void initState() {
     super.initState();
-    _coursesFuture = _loadCourses();
+    _coursesFuture = _loadCourses(ref.read(listeningAssetDataSourceProvider));
   }
 
   @override
@@ -873,15 +876,19 @@ class _ListeningCourse {
     required this.type,
     required this.lessonCount,
     required this.levelName,
+    required this.indexAsset,
   });
 
-  factory _ListeningCourse.fromJson(Map<String, dynamic> json) {
+  factory _ListeningCourse.fromSummary(ListeningCourseSummary summary) {
     return _ListeningCourse(
-      id: json['id'] as int,
-      name: json['name'] as String? ?? '',
-      type: json['type'] as String? ?? 'audio',
-      lessonCount: json['totalLessons'] as int? ?? 0,
-      levelName: json['levelName'] as String? ?? 'A1',
+      id: summary.id,
+      name: summary.name,
+      type: summary.type,
+      lessonCount: summary.totalLessons > 0
+          ? summary.totalLessons
+          : summary.lessons.length,
+      levelName: summary.levelName,
+      indexAsset: summary.indexAsset,
     );
   }
 
@@ -890,10 +897,9 @@ class _ListeningCourse {
   final String type;
   final int lessonCount;
   final String levelName;
+  final String indexAsset;
 
   bool get isVideo => type == 'youtube';
-
-  String get indexAsset => _courseIndexAssetById[id]!;
 
   String get imageAsset =>
       'assets/images/practice_listen/${_imageFileByCourseId[id] ?? 'short_stories.png'}';
@@ -912,39 +918,17 @@ enum _ListeningFilter {
   final IconData icon;
 }
 
-Future<List<_ListeningCourse>> _loadCourses() async {
-  final encodedCourses = await Future.wait(
-    _courseIndexAssets.map(rootBundle.loadString),
-  );
-  final courses = encodedCourses
-      .map(
-        (encoded) => _ListeningCourse.fromJson(
-          jsonDecode(encoded) as Map<String, dynamic>,
-        ),
-      )
-      .toList();
+Future<List<_ListeningCourse>> _loadCourses(
+  ListeningAssetDataSource dataSource,
+) async {
+  final summaries = await dataSource.loadCatalog();
+  final courses = summaries.map(_ListeningCourse.fromSummary).toList();
   courses.sort(
     (a, b) =>
         _displayOrder.indexOf(a.id).compareTo(_displayOrder.indexOf(b.id)),
   );
   return courses;
 }
-
-const _courseIndexAssets = [
-  'assets/data/listens/06-conversations/course-index.json',
-  'assets/data/listens/02-short-stories/course-index.json',
-  'assets/data/listens/13-stories-for-kids/course-index.json',
-  'assets/data/listens/10-toeic-listening/course-index.json',
-  'assets/data/listens/01-ielts-listening/course-index.json',
-  'assets/data/listens/08-random-videos/course-index.json',
-  'assets/data/listens/14-news/course-index.json',
-  'assets/data/listens/12-ted/course-index.json',
-  'assets/data/listens/07-toefl-listening/course-index.json',
-  'assets/data/listens/18-medical-english-oet/course-index.json',
-  'assets/data/listens/09-ipa/course-index.json',
-  'assets/data/listens/04-numbers/course-index.json',
-  'assets/data/listens/03-spelling-names/course-index.json',
-];
 
 const _displayOrder = [2, 6, 13, 10, 1, 8, 14, 12, 7, 18, 9, 4, 3];
 
@@ -962,20 +946,4 @@ const _imageFileByCourseId = <int, String>{
   13: 'stories_for_kids.png',
   14: 'news.png',
   18: 'medical_english_oet.png',
-};
-
-const _courseIndexAssetById = <int, String>{
-  1: 'assets/data/listens/01-ielts-listening/course-index.json',
-  2: 'assets/data/listens/02-short-stories/course-index.json',
-  3: 'assets/data/listens/03-spelling-names/course-index.json',
-  4: 'assets/data/listens/04-numbers/course-index.json',
-  6: 'assets/data/listens/06-conversations/course-index.json',
-  7: 'assets/data/listens/07-toefl-listening/course-index.json',
-  8: 'assets/data/listens/08-random-videos/course-index.json',
-  9: 'assets/data/listens/09-ipa/course-index.json',
-  10: 'assets/data/listens/10-toeic-listening/course-index.json',
-  12: 'assets/data/listens/12-ted/course-index.json',
-  13: 'assets/data/listens/13-stories-for-kids/course-index.json',
-  14: 'assets/data/listens/14-news/course-index.json',
-  18: 'assets/data/listens/18-medical-english-oet/course-index.json',
 };

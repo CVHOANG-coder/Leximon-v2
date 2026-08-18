@@ -19,17 +19,48 @@ void main() {
 
   group('listening assets and answer checking', () {
     test('loads the bundled First snowfall lesson', () async {
-      final lesson = await ListeningAssetDataSource().loadLesson(
-        courseIndexAsset:
-            'assets/data/listens/02-short-stories/course-index.json',
-        lessonId: 1,
-      );
+      final lesson = await ListeningAssetDataSource(languageCode: 'vi')
+          .loadLesson(
+            courseIndexAsset:
+                'assets/data/listens/02-short-stories/course-index.json',
+            lessonId: 1,
+          );
 
       expect(lesson.name, 'First snowfall');
       expect(lesson.challenges, hasLength(21));
       expect(lesson.challenges.first.content, 'Today is November 26th.');
       expect(lesson.translations[1], 'Hôm nay là ngày 26 tháng 11.');
     });
+
+    test(
+      'selects lesson translations using the app language aliases',
+      () async {
+        const asset = 'assets/data/listens/02-short-stories/course-index.json';
+        final expected = <String, String>{
+          'in': 'Hari ini adalah tanggal 26 November.',
+          'zh': '今天是11月26日。',
+          'fil': 'Ngayon ay ika-26 ng Nobyembre.',
+          'iw': 'היום ה-26 בנובמבר.',
+          'nb': 'I dag er det 26. november.',
+        };
+        const assetAliases = <String, String>{
+          'in': 'id',
+          'zh': 'zh-CN',
+          'fil': 'tl',
+          'iw': 'he',
+          'nb': 'no',
+        };
+
+        for (final entry in expected.entries) {
+          for (final languageCode in [entry.key, assetAliases[entry.key]!]) {
+            final lesson = await ListeningAssetDataSource(
+              languageCode: languageCode,
+            ).loadLesson(courseIndexAsset: asset, lessonId: 1);
+            expect(lesson.translations[1], entry.value);
+          }
+        }
+      },
+    );
 
     test('accepts configured solution variants', () {
       const challenge = ListeningChallenge(

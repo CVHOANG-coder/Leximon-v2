@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/core/theme/app_theme.dart';
+import 'package:leximon/data/datasources/listening_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/presentation/screens/listening_practice/listening_practice_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
@@ -13,6 +14,8 @@ void main() {
   ) async {
     final database = AppDatabase.forTesting(NativeDatabase.memory());
     addTearDown(database.close);
+    final dataSource = ListeningAssetDataSource(useRemote: false);
+    addTearDown(dataSource.dispose);
     tester.view.physicalSize = const Size(430, 900);
     tester.view.devicePixelRatio = 1;
     addTearDown(tester.view.resetPhysicalSize);
@@ -20,7 +23,10 @@ void main() {
 
     await tester.pumpWidget(
       ProviderScope(
-        overrides: [appDatabaseProvider.overrideWithValue(database)],
+        overrides: [
+          appDatabaseProvider.overrideWithValue(database),
+          listeningAssetDataSourceProvider.overrideWithValue(dataSource),
+        ],
         child: MaterialApp(
           theme: buildAppTheme(),
           home: const ListeningPracticeScreen(),

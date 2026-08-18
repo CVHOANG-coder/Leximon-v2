@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:intl/intl.dart';
 
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/models/iap_packages_response.dart';
@@ -97,10 +99,11 @@ class _SkillPackPurchaseScreenState
     final catalogState = ref.watch(iapCatalogProvider);
     final catalog = catalogState.valueOrNull;
     final package = _findPackage(catalog);
-    final currentPrice = _currentPrice(catalog, package);
-    final originalPrice = _originalPrice(package);
-    final saving = _saving(package);
-    final isReady = package != null && currentPrice != null;
+    final product = package == null ? null : catalog?.productFor(package);
+    final currentPrice = _currentPrice(product);
+    final originalPrice = _originalPrice(context, product);
+    final saving = _saving(context, product);
+    final isReady = package != null && product != null && currentPrice != null;
 
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
@@ -284,42 +287,42 @@ class _SkillPackPurchaseScreenState
     return null;
   }
 
-  String? _currentPrice(IapCatalog? catalog, IapPackage? package) {
-    if (package == null) return null;
-    final storePrice = catalog?.storePriceFor(package)?.trim();
-    if (storePrice?.isNotEmpty == true) return storePrice;
-    return _apiPrice(package);
+  String? _currentPrice(ProductDetails? product) {
+    final price = product?.price.trim();
+    return price?.isNotEmpty == true ? price : null;
   }
 
-  String? _apiPrice(IapPackage? package) {
-    if (package == null || !package.price.isFinite || package.price <= 0) {
+  String? _originalPrice(BuildContext context, ProductDetails? product) {
+    return _storePriceForAmount(context, product, 3.34);
+  }
+
+  String? _saving(BuildContext context, ProductDetails? product) {
+    return _storePriceForAmount(context, product, 2.34);
+  }
+
+  String? _storePriceForAmount(
+    BuildContext context,
+    ProductDetails? product,
+    double multiplier,
+  ) {
+    if (product == null ||
+        !product.rawPrice.isFinite ||
+        product.rawPrice <= 0 ||
+        !multiplier.isFinite ||
+        multiplier <= 0) {
       return null;
     }
-    return _formatCurrency(package, package.price);
-  }
 
-  String? _originalPrice(IapPackage? package) {
-    if (package == null || !package.price.isFinite || package.price <= 0) {
-      return null;
-    }
-    return _formatCurrency(package, package.price * 3.34);
-  }
+    final currencyCode = product.currencyCode.trim().toUpperCase();
+    if (currencyCode.isEmpty) return null;
 
-  String? _saving(IapPackage? package) {
-    if (package == null || !package.price.isFinite || package.price <= 0) {
-      return null;
-    }
-    return _formatCurrency(package, package.price * 2.34);
-  }
-
-  String _formatCurrency(IapPackage package, double amount) {
-    final fixed = amount.toStringAsFixed(2);
-    final value = fixed.replaceFirst(RegExp(r'\.?0+$'), '');
-    final currency = package.currency.trim().toUpperCase();
-    if (currency.isEmpty || currency == 'USD' || currency == r'$') {
-      return '\$$value';
-    }
-    return '$value $currency';
+    final currencySymbol = product.currencySymbol.trim();
+    final locale = Localizations.localeOf(context).toString();
+    return NumberFormat.currency(
+      locale: locale,
+      name: currencyCode,
+      symbol: currencySymbol.isEmpty ? currencyCode : currencySymbol,
+    ).format(product.rawPrice * multiplier);
   }
 
   Future<void> _buy() async {

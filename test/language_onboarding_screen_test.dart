@@ -93,7 +93,7 @@ void main() {
 
     expect(
       await container.read(applicationInitializationProvider.future),
-      AppStartupDestination.home,
+      AppStartupDestination.subscriptionPlan,
     );
     expect(packageLoads, 0);
     final preferences = await SharedPreferences.getInstance();
@@ -149,7 +149,11 @@ void main() {
     await preferences.setString(AppLanguageService.selectedLanguageKey, 'vi');
     final incompleteOnboardingContainer = ProviderContainer(
       overrides: [
+        remoteUserProfileProvider.overrideWith(
+          (ref) async => profile(databaseVersion: 7),
+        ),
         authLoginInitializationProvider.overrideWith((ref) async {}),
+        languagePackageInitializationProvider.overrideWith((ref) async {}),
         localDataInitializationProvider.overrideWith((ref) async {}),
         selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
       ],
@@ -166,7 +170,11 @@ void main() {
     await preferences.setBool(AppLanguageService.carouselCompletedKey, true);
     final freeTrialContainer = ProviderContainer(
       overrides: [
+        remoteUserProfileProvider.overrideWith(
+          (ref) async => profile(databaseVersion: 7),
+        ),
         authLoginInitializationProvider.overrideWith((ref) async {}),
+        languagePackageInitializationProvider.overrideWith((ref) async {}),
         localDataInitializationProvider.overrideWith((ref) async {}),
         selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
       ],
@@ -181,7 +189,11 @@ void main() {
     await preferences.setBool(AppLanguageService.onboardingCompletedKey, true);
     final returningUserContainer = ProviderContainer(
       overrides: [
+        remoteUserProfileProvider.overrideWith(
+          (ref) async => profile(databaseVersion: 7),
+        ),
         authLoginInitializationProvider.overrideWith((ref) async {}),
+        languagePackageInitializationProvider.overrideWith((ref) async {}),
         localDataInitializationProvider.overrideWith((ref) async {}),
         selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
       ],
@@ -196,6 +208,32 @@ void main() {
     );
     expect(returningUserContainer.read(selectedAppLanguageProvider), 'vi');
   });
+
+  test(
+    'returns a former customer to subscription plans when not premium',
+    () async {
+      SharedPreferences.setMockInitialValues({
+        AppLanguageService.selectedLanguageKey: 'vi',
+        AppLanguageService.onboardingCompletedKey: true,
+      });
+      final container = ProviderContainer(
+        overrides: [
+          remoteUserProfileProvider.overrideWith(
+            (ref) async => profile(databaseVersion: 7, isPremium: false),
+          ),
+          authLoginInitializationProvider.overrideWith((ref) async {}),
+          localDataInitializationProvider.overrideWith((ref) async {}),
+          selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
+        ],
+      );
+      addTearDown(container.dispose);
+
+      expect(
+        await container.read(applicationInitializationProvider.future),
+        AppStartupDestination.subscriptionPlan,
+      );
+    },
+  );
 
   test('carousel checkpoint can be completed and reset', () async {
     SharedPreferences.setMockInitialValues({});

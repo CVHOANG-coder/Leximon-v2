@@ -6,6 +6,7 @@ class ListeningCourseSummary {
     required this.levelName,
     required this.indexAsset,
     required this.lessons,
+    this.totalLessons = 0,
   });
 
   final int id;
@@ -14,6 +15,7 @@ class ListeningCourseSummary {
   final String levelName;
   final String indexAsset;
   final List<ListeningLessonSummary> lessons;
+  final int totalLessons;
 }
 
 class ListeningLessonSummary {

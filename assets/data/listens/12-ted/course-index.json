@@ -3,7 +3,7 @@
   "name": "TED",
   "type": "youtube",
   "imgUrl": "https://dailydictation.com/images/dd-ted.jpeg",
-  "totalLessons": 90,
+  "totalLessons": 92,
   "difficulty": "Hard",
   "levelName": "C1-C2",
   "levelNames": [
@@ -998,6 +998,28 @@
       "position": 90,
       "totalChallenges": 60,
       "groupId": 114,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 2396,
+      "name": "What happens when you break a bone?",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 91,
+      "totalChallenges": 54,
+      "groupId": 130,
+      "isListenAndSelect": false,
+      "isFree": true
+    },
+    {
+      "id": 2397,
+      "name": "How one of the world’s richest companies rose to power",
+      "subTitle": "",
+      "levelName": "C1",
+      "position": 92,
+      "totalChallenges": 55,
+      "groupId": 130,
       "isListenAndSelect": false,
       "isFree": true
     }

@@ -1,18 +1,11 @@
 {
-  "fetchedAt": "2026-08-10T10:23:44.657567+00:00",
+  "fetchedAt": "2026-08-18T03:43:06.190802+00:00",
   "source": "https://dailydictation.com/api/courses",
+  "translationLanguages": [
+    "no"
+  ],
   "courseCount": 13,
   "courses": [
-    {
-      "id": 6,
-      "name": "Conversations",
-      "type": "audio",
-      "declaredLessonCount": 100,
-      "fetchedLessonCount": 100,
-      "errorCount": 0,
-      "directory": "06-conversations",
-      "dataFile": "06-conversations/conversations.json"
-    },
     {
       "id": 2,
       "name": "Short Stories",
@@ -22,6 +15,16 @@
       "errorCount": 0,
       "directory": "02-short-stories",
       "dataFile": "02-short-stories/short-stories.json"
+    },
+    {
+      "id": 6,
+      "name": "Conversations",
+      "type": "audio",
+      "declaredLessonCount": 100,
+      "fetchedLessonCount": 100,
+      "errorCount": 0,
+      "directory": "06-conversations",
+      "dataFile": "06-conversations/conversations.json"
     },
     {
       "id": 13,
@@ -67,8 +70,8 @@
       "id": 14,
       "name": "News",
       "type": "youtube",
-      "declaredLessonCount": 209,
-      "fetchedLessonCount": 209,
+      "declaredLessonCount": 212,
+      "fetchedLessonCount": 212,
       "errorCount": 0,
       "directory": "14-news",
       "dataFile": "14-news/news.json"
@@ -77,8 +80,8 @@
       "id": 12,
       "name": "TED",
       "type": "youtube",
-      "declaredLessonCount": 90,
-      "fetchedLessonCount": 90,
+      "declaredLessonCount": 92,
+      "fetchedLessonCount": 92,
       "errorCount": 0,
       "directory": "12-ted",
       "dataFile": "12-ted/ted.json"

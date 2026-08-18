@@ -1,15 +1,37 @@
 import 'dart:convert';
+import 'dart:io';
 
+import 'package:http/http.dart' as http;
+import 'package:path_provider/path_provider.dart';
 import 'package:flutter/services.dart';
 
 import '../models/listening_exercise.dart';
 import '../models/listening_catalog.dart';
+import 'topic_asset_data_source.dart';
 
 class ListeningAssetDataSource {
-  ListeningAssetDataSource({AssetBundle? bundle})
-    : _bundle = bundle ?? rootBundle;
+  ListeningAssetDataSource({
+    AssetBundle? bundle,
+    this.languageCode = 'vi',
+    http.Client? client,
+    Future<Directory> Function()? cacheDirectory,
+    this.useRemote = true,
+  }) : _bundle = bundle ?? rootBundle,
+       _client = client ?? http.Client(),
+       _ownsClient = client == null,
+       _cacheDirectory = cacheDirectory ?? _defaultCacheDirectory;
 
   final AssetBundle _bundle;
+  final String languageCode;
+  final bool useRemote;
+  final http.Client _client;
+  final bool _ownsClient;
+  final Future<Directory> Function() _cacheDirectory;
+  final _jsonCache = <String, Future<String>>{};
+
+  static const remoteBaseUrl =
+      'https://leximonenglish.giddychat.com/data/listens';
+  static const cacheMaxAge = Duration(days: 1);
 
   static const courseIndexAssets = <String>[
     'assets/data/listens/06-conversations/course-index.json',
@@ -27,17 +49,27 @@ class ListeningAssetDataSource {
     'assets/data/listens/03-spelling-names/course-index.json',
   ];
 
+  void dispose() {
+    if (_ownsClient) _client.close();
+  }
+
   Future<List<ListeningCourseSummary>> loadCatalog() async {
     final encodedCourses = await Future.wait(
-      courseIndexAssets.map(_bundle.loadString),
+      courseIndexAssets.map(loadCourseIndex),
     );
     return [
       for (var index = 0; index < encodedCourses.length; index++)
-        _courseFromJson(
-          jsonDecode(encodedCourses[index]) as Map<String, dynamic>,
-          courseIndexAssets[index],
-        ),
+        _courseFromJson(encodedCourses[index], courseIndexAssets[index]),
     ];
+  }
+
+  Future<Map<String, dynamic>> loadCourseIndex(String indexAsset) async {
+    final encoded = await _loadJson(indexAsset);
+    final decoded = jsonDecode(encoded);
+    if (decoded is! Map<String, dynamic>) {
+      throw const FormatException('Listening course index must be an object.');
+    }
+    return decoded;
   }
 
   ListeningCourseSummary _courseFromJson(
@@ -69,6 +101,7 @@ class ListeningAssetDataSource {
       levelName: courseLevel,
       indexAsset: indexAsset,
       lessons: lessons,
+      totalLessons: json['totalLessons'] as int? ?? lessons.length,
     );
   }
 
@@ -77,7 +110,7 @@ class ListeningAssetDataSource {
     required int lessonId,
   }) async {
     final assetPath = await _findLessonAsset(courseIndexAsset, lessonId);
-    final encoded = await _bundle.loadString(assetPath);
+    final encoded = await _loadJson(assetPath);
     final wrapper = jsonDecode(encoded) as Map<String, dynamic>;
     final detail = wrapper['detail'] as Map<String, dynamic>?;
     if (detail == null) {
@@ -101,10 +134,12 @@ class ListeningAssetDataSource {
       );
     }
 
-    final rawTranslations =
-        wrapper['translations'] as Map<String, dynamic>? ?? const {};
+    final rawTranslations = wrapper['translations'];
+    final selectedTranslations = rawTranslations is Map<String, dynamic>
+        ? _translationMapForLanguage(rawTranslations, languageCode)
+        : const <String, dynamic>{};
     final translations = <int, String>{};
-    for (final entry in rawTranslations.entries) {
+    for (final entry in selectedTranslations.entries) {
       final challengeId = int.tryParse(entry.key);
       final value = entry.value;
       if (challengeId != null && value is Map<String, dynamic>) {
@@ -124,6 +159,34 @@ class ListeningAssetDataSource {
     );
   }
 
+  Map<String, dynamic> _translationMapForLanguage(
+    Map<String, dynamic> translations,
+    String requestedLanguageCode,
+  ) {
+    final requestedCode = TopicAssetDataSource.canonicalizeLanguageCode(
+      requestedLanguageCode,
+    );
+
+    // Prefer an exact canonical match. This is important for simplified vs
+    // traditional Chinese, which must never fall back to one another.
+    for (final entry in translations.entries) {
+      if (entry.value is Map<String, dynamic> &&
+          TopicAssetDataSource.canonicalizeLanguageCode(entry.key) ==
+              requestedCode) {
+        return entry.value as Map<String, dynamic>;
+      }
+    }
+
+    // The lesson payload has one generic Spanish key, while the app exposes
+    // es-ES and es-US separately. Use that generic catalog only when no
+    // regional Spanish catalog exists.
+    if (requestedCode == 'es-ES' || requestedCode == 'es-US') {
+      final genericSpanish = translations['es'];
+      if (genericSpanish is Map<String, dynamic>) return genericSpanish;
+    }
+    return const <String, dynamic>{};
+  }
+
   Future<String> _findLessonAsset(String courseIndexAsset, int lessonId) async {
     final courseDirectory = courseIndexAsset.substring(
       0,
@@ -138,9 +201,131 @@ class ListeningAssetDataSource {
         .where((asset) => idPattern.hasMatch(asset.substring(prefix.length)))
         .toList();
     if (matches.isEmpty) {
-      throw StateError('No bundled lesson asset found for lesson $lessonId.');
+      if (!useRemote) {
+        throw StateError('No bundled lesson asset found for lesson $lessonId.');
+      }
+
+      // The remote directory does not expose a listing endpoint. The server
+      // follows the same position-id-slug naming convention as the bundled
+      // files, so derive the path from the course index when a new lesson is
+      // not present in the local manifest.
+      final index = await loadCourseIndex(courseIndexAsset);
+      final rawLessons = index['lessons'] as List<dynamic>? ?? const [];
+      final lessonIndex = rawLessons.indexWhere(
+        (item) => item is Map<String, dynamic> && item['id'] == lessonId,
+      );
+      if (lessonIndex < 0) {
+        throw StateError('No remote lesson asset found for lesson $lessonId.');
+      }
+      final lesson = rawLessons[lessonIndex] as Map<String, dynamic>;
+      final position = lesson['position'] as int? ?? lessonIndex + 1;
+      final name = _slugify(lesson['name'] as String? ?? '$lessonId');
+      return '$prefix${position.toString().padLeft(3, '0')}-'
+          '$lessonId-$name.json';
     }
     return matches.first;
+  }
+
+  Future<String> _loadJson(String assetPath) {
+    return _jsonCache[assetPath] ??= _loadJsonUncached(assetPath);
+  }
+
+  Future<String> _loadJsonUncached(String assetPath) async {
+    if (!useRemote) return _bundle.loadString(assetPath);
+
+    final cacheFile = await _cacheFile(assetPath);
+    String? cached;
+    if (await cacheFile.exists()) {
+      try {
+        cached = await cacheFile.readAsString();
+        final age = DateTime.now().difference(await cacheFile.lastModified());
+        if (age <= cacheMaxAge) return cached;
+      } on Object {
+        cached = null;
+      }
+    }
+
+    try {
+      final relativePath = _relativeRemotePath(assetPath);
+      final uri = Uri.parse('$remoteBaseUrl/$relativePath');
+      final response = await _client
+          .get(uri)
+          .timeout(const Duration(seconds: 30));
+      if (response.statusCode < 200 || response.statusCode >= 300) {
+        throw HttpException(
+          'Listening data request failed with status ${response.statusCode}.',
+          uri: uri,
+        );
+      }
+      await _writeCache(cacheFile, response.body);
+      return response.body;
+    } on Object {
+      if (cached != null) return cached;
+      rethrow;
+    }
+  }
+
+  Future<File> _cacheFile(String assetPath) async {
+    final directory = await _cacheDirectory();
+    return File('${directory.path}/${_relativeRemotePath(assetPath)}');
+  }
+
+  Future<void> _writeCache(File file, String contents) async {
+    await file.parent.create(recursive: true);
+    final temporary = File('${file.path}.tmp');
+    await temporary.writeAsString(contents, flush: true);
+    if (await file.exists()) await file.delete();
+    await temporary.rename(file.path);
+  }
+
+  String _relativeRemotePath(String assetPath) {
+    const prefix = 'assets/data/listens/';
+    return assetPath.startsWith(prefix)
+        ? assetPath.substring(prefix.length)
+        : assetPath;
+  }
+
+  static String _slugify(String value) {
+    var normalized = value.toLowerCase();
+    const replacements = <String, String>{
+      'á': 'a',
+      'à': 'a',
+      'ä': 'a',
+      'â': 'a',
+      'ã': 'a',
+      'å': 'a',
+      'é': 'e',
+      'è': 'e',
+      'ë': 'e',
+      'ê': 'e',
+      'í': 'i',
+      'ì': 'i',
+      'ï': 'i',
+      'î': 'i',
+      'ó': 'o',
+      'ò': 'o',
+      'ö': 'o',
+      'ô': 'o',
+      'õ': 'o',
+      'ú': 'u',
+      'ù': 'u',
+      'ü': 'u',
+      'û': 'u',
+      'ñ': 'n',
+      'ç': 'c',
+    };
+    for (final entry in replacements.entries) {
+      normalized = normalized.replaceAll(entry.key, entry.value);
+    }
+    normalized = normalized.replaceAll(RegExp(r"['’]"), '');
+    return normalized
+        .replaceAll(RegExp(r'[^a-z0-9]+'), '-')
+        .replaceAll(RegExp(r'^-+|-+$'), '');
+  }
+
+  static Future<Directory> _defaultCacheDirectory() async {
+    final appSupportDirectory = await getApplicationSupportDirectory();
+    return Directory('${appSupportDirectory.path}/data/listens');
   }
 
   ListeningChallenge _challengeFromJson(Map<String, dynamic> json) {
