@@ -215,6 +215,17 @@ class AppLocalizations {
   String get dailyReminder => _text('dailyReminder');
   String get pronunciationPractice => _text('pronunciationPractice');
   String get listeningPractice => _text('listeningPractice');
+  String get termsOfUse => _text('termsOfUse');
+  String get privacyPolicy => _text('privacyPolicy');
+  String get termsOfUseBody => _text('termsOfUseBody');
+  String get privacyPolicyBody => _text('privacyPolicyBody');
+  String get deleteAccount => _text('deleteAccount');
+  String get deleteAccountBody => _text('deleteAccountBody');
+  String get deleteAccountConfirmTitle => _text('deleteAccountConfirmTitle');
+  String get deleteAccountConfirmMessage =>
+      _text('deleteAccountConfirmMessage');
+  String get deleteAccountConfirm => _text('deleteAccountConfirm');
+  String get deleteAccountError => _text('deleteAccountError');
   String get enabled => _text('enabled');
   String get disabled => _text('disabled');
   String get loading => _text('loading');
@@ -274,6 +285,18 @@ class AppLocalizations {
       'dailyReminder': 'Daily reminder',
       'pronunciationPractice': 'Pronunciation practice',
       'listeningPractice': 'Listening practice',
+      'termsOfUse': 'Terms of Use',
+      'privacyPolicy': 'Privacy Policy',
+      'termsOfUseBody': 'Read the terms for using Leximon',
+      'privacyPolicyBody': 'Learn how Leximon protects your privacy',
+      'deleteAccount': 'Delete account',
+      'deleteAccountBody': 'Delete your local profile and learning data',
+      'deleteAccountConfirmTitle': 'Delete account?',
+      'deleteAccountConfirmMessage':
+          'All local profile, progress and settings will be deleted. This action cannot be undone.',
+      'deleteAccountConfirm': 'Delete',
+      'deleteAccountError':
+          'Could not delete local account data. Please try again.',
       'enabled': 'On',
       'disabled': 'Off',
       'loading': 'Loading...',
@@ -346,6 +369,12 @@ class AppLocalizations {
       'subscriptionBenefitQuality': 'High-quality\nlessons',
       'subscriptionBenefitProgress': 'Clear progress\nevery day',
       'subscriptionSavingPercent': 'Save {percent}%',
+      'subscriptionRestore': 'Restore purchases',
+      'subscriptionRestoreStarted': 'Restore request sent.',
+      'subscriptionRestoreError':
+          'Could not restore purchases. Please try again.',
+      'subscriptionTerms': 'Terms of Use',
+      'subscriptionPrivacy': 'Privacy Policy',
       'iapStoreUnavailable': 'The App Store is currently unavailable.',
       'iapProductUnavailable': 'This package is not available in the store.',
       'iapVerificationFailed':
@@ -1371,6 +1400,11 @@ class AppLocalizations {
       'notificationChannelName': 'Daily study reminder',
       'notificationChannelDescription':
           'Reminders to help you keep up your vocabulary-learning habit.',
+      'notificationSaleTitle': 'Annual plan sale 🎉',
+      'notificationSaleBody': 'Get the annual Pro plan at a special price.',
+      'notificationSaleChannelName': 'Subscription offers',
+      'notificationSaleChannelDescription':
+          'Special offers for Leximon subscription plans.',
       'sentenceTypeConstructor': 'Build an English sentence',
       'sentenceTypeInverse': 'Build a Vietnamese sentence',
       'sentenceTypeAudio': 'Listen and build the sentence',
@@ -2703,6 +2737,18 @@ class AppLocalizations {
       'dailyReminder': 'Nhắc học hằng ngày',
       'pronunciationPractice': 'Luyện phát âm',
       'listeningPractice': 'Luyện nghe',
+      'termsOfUse': 'Điều khoản sử dụng',
+      'privacyPolicy': 'Chính sách quyền riêng tư',
+      'termsOfUseBody': 'Đọc các điều khoản khi sử dụng Leximon',
+      'privacyPolicyBody': 'Tìm hiểu cách Leximon bảo vệ quyền riêng tư',
+      'deleteAccount': 'Xóa tài khoản',
+      'deleteAccountBody': 'Xóa hồ sơ và dữ liệu học tập trên thiết bị',
+      'deleteAccountConfirmTitle': 'Xóa tài khoản?',
+      'deleteAccountConfirmMessage':
+          'Toàn bộ hồ sơ, tiến độ và cài đặt trên thiết bị sẽ bị xóa. Thao tác này không thể hoàn tác.',
+      'deleteAccountConfirm': 'Xóa',
+      'deleteAccountError':
+          'Không thể xóa dữ liệu tài khoản trên thiết bị. Vui lòng thử lại.',
       'enabled': 'Bật',
       'disabled': 'Tắt',
       'loading': 'Đang tải...',
@@ -2774,6 +2820,12 @@ class AppLocalizations {
       'subscriptionBenefitQuality': 'Bài học chất\nlượng cao',
       'subscriptionBenefitProgress': 'Tiến bộ rõ\nràng mỗi ngày',
       'subscriptionSavingPercent': 'Tiết kiệm {percent}%',
+      'subscriptionRestore': 'Khôi phục mua hàng',
+      'subscriptionRestoreStarted': 'Đã gửi yêu cầu khôi phục mua hàng.',
+      'subscriptionRestoreError':
+          'Không thể khôi phục mua hàng. Vui lòng thử lại.',
+      'subscriptionTerms': 'Điều khoản sử dụng',
+      'subscriptionPrivacy': 'Chính sách về Quyền riêng tư',
       'iapStoreUnavailable': 'App Store hiện không khả dụng.',
       'iapProductUnavailable': 'Gói này hiện chưa khả dụng trên App Store.',
       'iapVerificationFailed':
@@ -3789,6 +3841,12 @@ class AppLocalizations {
       'notificationChannelName': 'Nhắc học hằng ngày',
       'notificationChannelDescription':
           'Thông báo nhắc bạn duy trì thói quen học từ vựng.',
+      'notificationSaleTitle': 'Ưu đãi gói Pro năm 🎉',
+      'notificationSaleBody':
+          'Gói Pro năm đang có giá đặc biệt. Xem ưu đãi ngay nhé!',
+      'notificationSaleChannelName': 'Ưu đãi đăng ký',
+      'notificationSaleChannelDescription':
+          'Ưu đãi đặc biệt cho các gói đăng ký Leximon.',
       'sentenceTypeConstructor': 'Ghép câu tiếng Anh',
       'sentenceTypeInverse': 'Ghép câu tiếng Việt',
       'sentenceTypeAudio': 'Nghe và ghép câu',

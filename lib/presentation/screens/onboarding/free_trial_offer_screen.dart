@@ -1,8 +1,11 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/localization/app_localizations.dart';
+import '../../../core/services/daily_notification_service.dart';
 
 class FreeTrialOfferScreen extends StatefulWidget {
   const FreeTrialOfferScreen({super.key});
@@ -13,6 +16,7 @@ class FreeTrialOfferScreen extends StatefulWidget {
 
 class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
     with SingleTickerProviderStateMixin {
+  bool _saleReminderArmed = false;
   late final AnimationController _controller;
   late final Animation<double> _illustrationOpacity;
   late final Animation<double> _illustrationScale;
@@ -69,6 +73,18 @@ class _FreeTrialOfferScreenState extends State<FreeTrialOfferScreen>
           ),
         );
     _controller.forward();
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_saleReminderArmed) return;
+    _saleReminderArmed = true;
+    unawaited(
+      DailyNotificationService.instance
+          .armAnnualSaleNotification(localizations: context.l10n)
+          .catchError((_) {}),
+    );
   }
 
   @override

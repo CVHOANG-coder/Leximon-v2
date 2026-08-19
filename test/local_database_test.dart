@@ -189,6 +189,37 @@ void main() {
     expect(profile?.avatarPath, '/app/documents/profile/avatar.jpg');
   });
 
+  test('clears learner data while retaining bundled content', () async {
+    final payload = await TopicAssetDataSource(bundle: rootBundle).load();
+    await database.upsertTopicContent(payload);
+    await database.saveUserProfile(name: 'Nguyễn An', email: 'an@example.com');
+    await database
+        .into(database.learningProgressModels)
+        .insert(
+          LearningProgressModelsCompanion.insert(
+            id: const Value(999999),
+            creationDate: 123,
+            trainingProgress: const Value(8),
+          ),
+        );
+    await (database.update(database.topicModels)
+          ..where((row) => row.id.equals(payload.topics.first.id)))
+        .write(const TopicModelsCompanion(isSelected: Value(true)));
+
+    await database.clearUserData();
+
+    expect(await database.loadUserProfile(), null);
+    expect(
+      await database.select(database.learningProgressModels).get(),
+      isEmpty,
+    );
+    final topic = await (database.select(
+      database.topicModels,
+    )..where((row) => row.id.equals(payload.topics.first.id))).getSingle();
+    expect(topic.isSelected, isFalse);
+    expect(await database.hasTopicContent(), isTrue);
+  });
+
   test('stores and reads sentence content for the selected language', () async {
     const sentence = SentenceRecord(
       translationId: 101,

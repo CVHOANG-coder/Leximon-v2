@@ -41,6 +41,7 @@ void main() {
     expect(find.text(r'$29.99'), findsOneWidget);
     expect(find.text(r'$49.99'), findsOneWidget);
     expect(find.text('7 ngày dùng thử miễn phí'), findsOneWidget);
+    expect(find.byKey(const ValueKey('sale-package-back')), findsNothing);
     expect(tester.takeException(), isNull);
   });
 

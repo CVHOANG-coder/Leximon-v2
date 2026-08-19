@@ -6,6 +6,8 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:leximon/core/localization/app_localizations.dart';
 import 'package:leximon/data/models/iap_packages_response.dart';
 import 'package:leximon/data/services/iap_catalog_service.dart';
+import 'package:leximon/presentation/screens/onboarding/subscription_plan_screen.dart'
+    as onboarding_subscription;
 import 'package:leximon/presentation/screens/subscription_plan/subscription_plan_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
 
@@ -44,6 +46,41 @@ void main() {
     );
     expect(find.text('129.000 ₫'), findsOneWidget);
     expect(find.text('Gói Pro năm'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('shows the legal footer on the onboarding subscription screen', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        child: MaterialApp(
+          locale: const Locale('vi'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+          ],
+          home: const onboarding_subscription.SubscriptionPlanScreen(),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(
+      find.byKey(const ValueKey('subscription-legal-footer')),
+      findsOneWidget,
+    );
+    expect(find.byKey(const ValueKey('subscription-restore')), findsOneWidget);
+    expect(find.text('Điều khoản sử dụng'), findsOneWidget);
+    expect(find.text('Chính sách về Quyền riêng tư'), findsOneWidget);
+    expect(find.text('PHỔ BIẾN'), findsOneWidget);
+    expect(find.text('129.000 ₫'), findsOneWidget);
+    expect(find.textContaining('₫'), findsNWidgets(3));
+    expect(find.textContaining(r'$'), findsNothing);
     expect(tester.takeException(), isNull);
   });
 }

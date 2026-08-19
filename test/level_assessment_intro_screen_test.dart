@@ -317,10 +317,15 @@ void main() {
           .onTap,
       isNull,
     );
-    await tester.tap(
+    await tester.drag(
       find.byKey(const ValueKey('survey-preferred-time-slider')),
+      const Offset(80, 0),
     );
-    await tester.pump();
+    await tester.pumpAndSettle();
+    expect(
+      find.textContaining('Với bạn, giờ nào là thuận tiện'),
+      findsOneWidget,
+    );
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 

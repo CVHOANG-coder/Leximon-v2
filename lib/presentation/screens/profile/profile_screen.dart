@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -13,9 +14,11 @@ import '../../../core/localization/app_localizations.dart';
 import '../../../core/services/app_settings_service.dart';
 import '../../../core/services/daily_notification_service.dart';
 import '../../../data/local/app_database.dart';
+import '../../../data/models/learning_language_level.dart';
 import '../../../data/models/topic.dart';
 import '../../../data/services/profile_statistics_service.dart';
 import '../../../presentation/widgets/app_dialog.dart';
+import '../legal/legal_webview_screen.dart';
 import 'edit_profile_screen.dart';
 import 'language_selection_screen.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
@@ -935,6 +938,12 @@ class _SettingsSection extends ConsumerStatefulWidget {
 
 class _SettingsSectionState extends ConsumerState<_SettingsSection>
     with WidgetsBindingObserver {
+  static final _privacyPolicyUri = Uri.parse(
+    'https://leximonenglish.giddychat.com/privacy-policy.html',
+  );
+  static final _termsOfUseUri = Uri.parse(
+    'https://leximonenglish.giddychat.com/terms.html',
+  );
   static const _pronunciationKey = 'profile.pronunciation_enabled';
   static const _listeningKey = 'profile.listening_enabled';
   static const _dailyReminderEnabledKey = 'profile.daily_reminder_enabled';
@@ -951,6 +960,7 @@ class _SettingsSectionState extends ConsumerState<_SettingsSection>
   bool _isLoading = true;
   bool _isPronunciationUpdating = false;
   bool _isDailyReminderUpdating = false;
+  bool _isDeletingAccount = false;
 
   @override
   void initState() {
@@ -1293,6 +1303,87 @@ class _SettingsSectionState extends ConsumerState<_SettingsSection>
     );
   }
 
+  Future<void> _showDeleteAccountConfirmation() async {
+    if (_isDeletingAccount || !mounted) return;
+    await showDialog<void>(
+      context: context,
+      builder: (dialogContext) => AppDialog(
+        icon: Icons.delete_forever_rounded,
+        iconColor: AppColors.pink,
+        title: context.l10n.deleteAccountConfirmTitle,
+        message: context.l10n.deleteAccountConfirmMessage,
+        secondaryLabel: context.l10n.cancel,
+        onSecondary: () => Navigator.of(dialogContext).pop(),
+        primaryLabel: context.l10n.deleteAccountConfirm,
+        onPrimary: () {
+          Navigator.of(dialogContext).pop();
+          unawaited(_deleteAccount());
+        },
+      ),
+    );
+  }
+
+  Future<void> _deleteAccount() async {
+    if (_isDeletingAccount || !mounted) return;
+    setState(() => _isDeletingAccount = true);
+
+    try {
+      final database = ref.read(appDatabaseProvider);
+      final profile = await database.loadUserProfile();
+      await ref.read(appUsageServiceProvider).pause();
+      await DailyNotificationService.instance.cancelDaily();
+      await DailyNotificationService.instance.cancelAnnualSaleNotification();
+      await database.clearUserData();
+
+      final avatarPath = profile?.avatarPath;
+      if (avatarPath != null && avatarPath.trim().isNotEmpty) {
+        try {
+          final avatarFile = File(avatarPath);
+          if (await avatarFile.exists()) await avatarFile.delete();
+        } on Object {
+          // The database data has already been cleared; an old avatar file is
+          // not allowed to prevent the account reset from completing.
+        }
+      }
+
+      final preferences = await SharedPreferences.getInstance();
+      await preferences.clear();
+      await ref.read(authTokenStorageProvider).clearToken();
+      ref.read(apiClientProvider).clearAuthToken();
+
+      ref.read(selectedAppLanguageProvider.notifier).state =
+          AppLocalizations.deviceLanguageCode();
+      ref.read(selectedTopicOrdersProvider.notifier).state = <int>{};
+      ref.read(selectedLanguageLevelsProvider.notifier).state = {
+        LearningLanguageLevel.beginner,
+      };
+      ref.invalidate(userProfileProvider);
+      ref.invalidate(topicsProvider);
+      ref.invalidate(localDataInitializationProvider);
+      ref.invalidate(applicationInitializationProvider);
+
+      await SystemNavigator.pop();
+    } on Object catch (error) {
+      if (!mounted) return;
+      setState(() => _isDeletingAccount = false);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            context.l10n.text('deleteAccountError', values: {'error': error}),
+          ),
+        ),
+      );
+    }
+  }
+
+  void _openLegalDocument({required String title, required Uri uri}) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(
+        builder: (_) => LegalWebViewScreen(title: title, uri: uri),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final selectedLanguageCode = ref.watch(selectedAppLanguageProvider);
@@ -1388,6 +1479,36 @@ class _SettingsSectionState extends ConsumerState<_SettingsSection>
             toggleValue: _listeningEnabled,
             onToggle: _setListeningEnabled,
             isUpdating: _isLoading,
+          ),
+          _SettingItem(
+            iconAsset: 'assets/svgs/policy.svg',
+            title: context.l10n.privacyPolicy,
+            body: context.l10n.privacyPolicyBody,
+            showTopBorder: true,
+            onTap: () => _openLegalDocument(
+              title: context.l10n.privacyPolicy,
+              uri: _privacyPolicyUri,
+            ),
+          ),
+          _SettingItem(
+            iconAsset: 'assets/svgs/term.svg',
+            title: context.l10n.termsOfUse,
+            body: context.l10n.termsOfUseBody,
+            showTopBorder: true,
+            onTap: () => _openLegalDocument(
+              title: context.l10n.termsOfUse,
+              uri: _termsOfUseUri,
+            ),
+          ),
+          _SettingItem(
+            iconAsset: 'assets/svgs/delete_account.svg',
+            title: context.l10n.deleteAccount,
+            body: context.l10n.deleteAccountBody,
+            showTopBorder: true,
+            status: _isDeletingAccount ? context.l10n.loading : null,
+            statusColor: AppColors.pink,
+            onTap: _isDeletingAccount ? null : _showDeleteAccountConfirmation,
+            isUpdating: _isDeletingAccount,
           ),
         ],
       ),

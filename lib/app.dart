@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
 import 'core/localization/app_localizations.dart';
+import 'core/services/daily_notification_service.dart';
 import 'data/services/app_usage_service.dart';
 import 'data/models/onboarding_vocabulary_test.dart';
 import 'presentation/screens/main/main_screen.dart';
@@ -25,6 +26,7 @@ import 'presentation/screens/subscription_plan/subscription_plan_screen.dart'
 import 'presentation/screens/onboarding/trial_reminder_screen.dart';
 import 'presentation/screens/onboarding/vocabulary_test_screen.dart';
 import 'presentation/screens/profile/language_selection_screen.dart';
+import 'presentation/screens/sale_package/sale_package_screen.dart';
 import 'presentation/screens/splash/splash_screen.dart';
 import 'shared/providers/app_providers.dart';
 
@@ -95,6 +97,10 @@ final _router = GoRouter(
           const subscription_plan.SubscriptionPlanScreen(),
     ),
     GoRoute(
+      path: '/sale_package',
+      builder: (context, state) => const SalePackageScreen(),
+    ),
+    GoRoute(
       path: '/settings/language',
       builder: (context, state) => const LanguageSelectionScreen(),
     ),
@@ -143,6 +149,7 @@ class _AppUsageLifecycle extends ConsumerStatefulWidget {
 class _AppUsageLifecycleState extends ConsumerState<_AppUsageLifecycle>
     with WidgetsBindingObserver {
   late final AppUsageService _appUsageService;
+  bool _saleNavigationScheduled = false;
 
   @override
   void initState() {
@@ -150,6 +157,66 @@ class _AppUsageLifecycleState extends ConsumerState<_AppUsageLifecycle>
     _appUsageService = ref.read(appUsageServiceProvider);
     WidgetsBinding.instance.addObserver(this);
     unawaited(_appUsageService.resume());
+    unawaited(_initializeNotifications());
+  }
+
+  Future<void> _initializeNotifications() async {
+    try {
+      await DailyNotificationService.instance.initialize(
+        onSaleNotificationTap: _openSalePackage,
+      );
+    } on Object {
+      // Notification support is optional and must not block app startup.
+    }
+  }
+
+  void _openSalePackage() {
+    if (!mounted) return;
+    final currentPath = _router.routerDelegate.currentConfiguration.uri.path;
+    if (currentPath == '/splash') {
+      // SplashScreen will consume the pending notification tap and choose the
+      // sale route after startup finishes.
+      return;
+    }
+    if (_saleNavigationScheduled || currentPath == '/sale_package') return;
+    _saleNavigationScheduled = true;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _saleNavigationScheduled = false;
+      if (!mounted) return;
+      DailyNotificationService.instance.takePendingSaleNotificationTap();
+      _router.go('/sale_package');
+    });
+  }
+
+  void _notifyAnnualSaleIfNeeded() {
+    DailyNotificationService.instance.notifyAnnualSaleIfNeeded();
+  }
+
+  Future<void> _handleAppResumed() async {
+    try {
+      await DailyNotificationService.instance.initialize(
+        onSaleNotificationTap: _openSalePackage,
+      );
+    } on Object {
+      return;
+    }
+    if (!mounted) return;
+    final currentPath = _router.routerDelegate.currentConfiguration.uri.path;
+    if (currentPath == '/splash') return;
+    if (DailyNotificationService.instance.takePendingSaleNotificationTap()) {
+      _openSalePackage();
+      return;
+    }
+    final localizations = AppLocalizations(
+      AppLocalizations.localeForCode(ref.read(selectedAppLanguageProvider)),
+    );
+    try {
+      await DailyNotificationService.instance.resumeAnnualSaleNotification(
+        localizations: localizations,
+      );
+    } on Object {
+      // Notification support is optional and must not block app resume.
+    }
   }
 
   @override
@@ -157,10 +224,15 @@ class _AppUsageLifecycleState extends ConsumerState<_AppUsageLifecycle>
     switch (state) {
       case AppLifecycleState.resumed:
         unawaited(_appUsageService.resume());
+        unawaited(_handleAppResumed());
       case AppLifecycleState.inactive:
-      case AppLifecycleState.hidden:
+        unawaited(_appUsageService.pause());
       case AppLifecycleState.paused:
+      case AppLifecycleState.hidden:
+        _notifyAnnualSaleIfNeeded();
+        unawaited(_appUsageService.pause());
       case AppLifecycleState.detached:
+        _notifyAnnualSaleIfNeeded();
         unawaited(_appUsageService.pause());
     }
   }
