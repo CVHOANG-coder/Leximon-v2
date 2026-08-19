@@ -22,9 +22,11 @@ class TopicRepository {
     );
     final synchronization = _lastSynchronization.then((_) async {
       if (_activeLanguageCode == canonicalCode) return;
+      final storedLanguage =
+          _activeLanguageCode ?? await _database.activeTopicContentLanguage();
       final forceReload =
-          _activeLanguageCode != null && _activeLanguageCode != canonicalCode;
-      await _synchronizeBundledContent(canonicalCode, forceReload: forceReload);
+          storedLanguage != null && storedLanguage != canonicalCode;
+      await _synchronizeContent(canonicalCode, forceReload: forceReload);
       _activeLanguageCode = canonicalCode;
     });
     _lastSynchronization = synchronization.catchError(
@@ -33,14 +35,14 @@ class TopicRepository {
     return synchronization;
   }
 
-  /// Re-imports the bundled catalogue even when the selected language has not
+  /// Re-imports the server catalogue even when the selected language has not
   /// changed. This is used when the user leaves and re-enters onboarding.
   Future<void> reload({String languageCode = 'vi'}) {
     final canonicalCode = TopicAssetDataSource.canonicalizeLanguageCode(
       languageCode,
     );
     final synchronization = _lastSynchronization.then((_) async {
-      await _synchronizeBundledContent(canonicalCode, forceReload: true);
+      await _synchronizeContent(canonicalCode, forceReload: true);
       _activeLanguageCode = canonicalCode;
     });
     _lastSynchronization = synchronization.catchError(
@@ -93,7 +95,7 @@ class TopicRepository {
     });
   }
 
-  Future<void> _synchronizeBundledContent(
+  Future<void> _synchronizeContent(
     String languageCode, {
     required bool forceReload,
   }) async {

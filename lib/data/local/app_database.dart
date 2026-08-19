@@ -1010,6 +1010,19 @@ class AppDatabase extends _$AppDatabase {
     return (await query.getSingleOrNull())?.revision;
   }
 
+  /// Returns the language whose topic package is currently materialized in
+  /// the shared topic/word tables. Revisions are kept per language for cache
+  /// bookkeeping, but only one topic package is active at a time.
+  Future<String?> activeTopicContentLanguage() async {
+    final query = select(contentRevisions)
+      ..where((row) => row.source.like('bundled_topics_%'))
+      ..orderBy([(row) => OrderingTerm.desc(row.syncedAt)])
+      ..limit(1);
+    final row = await query.getSingleOrNull();
+    if (row == null) return null;
+    return row.source.substring('bundled_topics_'.length);
+  }
+
   Future<bool> hasTopicContent() async {
     final topic = await (select(topicModels)..limit(1)).getSingleOrNull();
     return topic != null;

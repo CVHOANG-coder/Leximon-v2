@@ -8,6 +8,8 @@ import '../../core/network/api_client.dart';
 import '../../core/services/app_language_service.dart';
 import '../../core/services/auth_token_storage.dart';
 import '../../core/services/device_info_service.dart';
+import '../../core/services/firebase_analytics_service.dart';
+import '../../core/services/firebase_messaging_service.dart';
 import '../../data/datasources/sentence_asset_data_source.dart';
 import '../../data/datasources/ipa_asset_data_source.dart';
 import '../../data/datasources/listening_asset_data_source.dart';
@@ -77,6 +79,18 @@ final appUsageServiceProvider = Provider<AppUsageService>((ref) {
 
 final appLanguageServiceProvider = Provider<AppLanguageService>(
   (ref) => AppLanguageService(),
+);
+
+final firebaseMessagingServiceProvider = Provider<FirebaseMessagingService>((
+  ref,
+) {
+  final service = FirebaseMessagingService();
+  ref.onDispose(service.dispose);
+  return service;
+});
+
+final firebaseAnalyticsServiceProvider = Provider<FirebaseAnalyticsService>(
+  (ref) => FirebaseAnalyticsService(),
 );
 
 final authTokenStorageProvider = Provider<AuthTokenStorage>(
@@ -153,6 +167,9 @@ final iapPurchaseServiceProvider = Provider<IapPurchaseService>((ref) {
       return null;
     },
     ref.watch(authApiServiceProvider).ensureToken,
+    purchaseEventLogger: (package, purchase) => ref
+        .read(firebaseAnalyticsServiceProvider)
+        .logPurchase(package: package, purchase: purchase),
   );
   ref.onDispose(service.dispose);
   return service;
@@ -234,9 +251,16 @@ final readingVocabularyTaskProvider =
       return ref.watch(readingVocabularyServiceProvider).loadTask();
     });
 
+final languageModelDownloaderProvider = Provider<LanguageModelDownloader>((
+  ref,
+) {
+  return MlKitLanguageModelDownloader();
+});
+
 final readingWordTranslatorProvider = Provider<ReadingWordTranslator>((ref) {
   return MlKitReadingWordTranslator(
     targetLanguageCode: ref.watch(selectedAppLanguageProvider),
+    modelDownloader: ref.watch(languageModelDownloaderProvider),
   );
 });
 
@@ -490,6 +514,17 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
     // needed, and always verifies the resulting session with the profile API.
     await ref.watch(authLoginInitializationProvider.future);
 
+    final authenticatedProfile = ref
+        .read(remoteUserProfileProvider)
+        .valueOrNull;
+    if (authenticatedProfile != null) {
+      // Notification setup is best-effort. A missing Firebase configuration
+      // must never block the splash or the learning experience.
+      await ref
+          .read(firebaseMessagingServiceProvider)
+          .subscribeToUserTopic(authenticatedProfile.userCode);
+    }
+
     if (selectedLanguage == null) {
       return AppStartupDestination.languageOnboarding;
     }
@@ -558,7 +593,6 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
 final sentenceLessonServiceProvider = Provider<SentenceLessonService>((ref) {
   return SentenceLessonService(
     database: ref.watch(appDatabaseProvider),
-    assetDataSource: ref.watch(sentenceAssetDataSourceProvider),
     languageCode: ref.watch(selectedAppLanguageProvider),
   );
 });

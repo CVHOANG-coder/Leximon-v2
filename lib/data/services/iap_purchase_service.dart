@@ -9,6 +9,8 @@ import 'iap_transaction_api_service.dart';
 
 typedef IapPackageResolver = Future<IapPackage?> Function(String productId);
 typedef IapAuthenticationEnsurer = Future<void> Function();
+typedef IapPurchaseEventLogger =
+    Future<void> Function(IapPackage package, PurchaseDetails purchase);
 
 abstract class IapStoreGateway {
   Stream<List<PurchaseDetails>> get purchaseStream;
@@ -81,8 +83,9 @@ class IapPurchaseService {
     this._store,
     this._transactionApiService,
     this._packageResolver,
-    this._ensureAuthenticated,
-  ) {
+    this._ensureAuthenticated, {
+    IapPurchaseEventLogger? purchaseEventLogger,
+  }) : _purchaseEventLogger = purchaseEventLogger {
     _purchaseSubscription = _store.purchaseStream.listen(
       _handlePurchaseUpdates,
       onError: _handlePurchaseStreamError,
@@ -93,6 +96,7 @@ class IapPurchaseService {
   final IapTransactionApiService _transactionApiService;
   final IapPackageResolver _packageResolver;
   final IapAuthenticationEnsurer _ensureAuthenticated;
+  final IapPurchaseEventLogger? _purchaseEventLogger;
   final Set<String> _verificationsInFlight = {};
   final Map<String, PurchaseDetails> _pendingPurchases = {};
 
@@ -227,6 +231,9 @@ class IapPurchaseService {
         await _store.completePurchase(purchase);
       }
       _pendingPurchases.remove(purchase.productID);
+      if (purchase.status == PurchaseStatus.purchased) {
+        unawaited(_logVerifiedPurchase(package, purchase));
+      }
       _finishForProduct(
         purchase.productID,
         const IapPurchaseResult(IapPurchaseResultStatus.verified),
@@ -243,6 +250,21 @@ class IapPurchaseService {
       );
     } finally {
       _verificationsInFlight.remove(verificationKey);
+    }
+  }
+
+  Future<void> _logVerifiedPurchase(
+    IapPackage package,
+    PurchaseDetails purchase,
+  ) async {
+    final logger = _purchaseEventLogger;
+    if (logger == null) return;
+
+    try {
+      await logger(package, purchase);
+    } on Object catch (error, stackTrace) {
+      debugPrint('Could not log verified purchase event: $error');
+      debugPrintStack(stackTrace: stackTrace);
     }
   }
 

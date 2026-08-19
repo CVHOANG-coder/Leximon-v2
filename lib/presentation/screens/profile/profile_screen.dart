@@ -17,6 +17,7 @@ import '../../../data/models/topic.dart';
 import '../../../data/services/profile_statistics_service.dart';
 import '../../../presentation/widgets/app_dialog.dart';
 import 'edit_profile_screen.dart';
+import 'language_selection_screen.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
 import '../../../presentation/widgets/streak_indicator.dart';
 import '../../../shared/providers/app_providers.dart';
@@ -925,14 +926,14 @@ class _FavoriteItem extends StatelessWidget {
   }
 }
 
-class _SettingsSection extends StatefulWidget {
+class _SettingsSection extends ConsumerStatefulWidget {
   const _SettingsSection();
 
   @override
-  State<_SettingsSection> createState() => _SettingsSectionState();
+  ConsumerState<_SettingsSection> createState() => _SettingsSectionState();
 }
 
-class _SettingsSectionState extends State<_SettingsSection>
+class _SettingsSectionState extends ConsumerState<_SettingsSection>
     with WidgetsBindingObserver {
   static const _pronunciationKey = 'profile.pronunciation_enabled';
   static const _listeningKey = 'profile.listening_enabled';
@@ -1294,6 +1295,16 @@ class _SettingsSectionState extends State<_SettingsSection>
 
   @override
   Widget build(BuildContext context) {
+    final selectedLanguageCode = ref.watch(selectedAppLanguageProvider);
+    final selectedLanguage =
+        AppLocalizations.supportedLanguageOptions
+            .where((option) => option.code == selectedLanguageCode)
+            .map((option) => option.label)
+            .isEmpty
+        ? null
+        : AppLocalizations.supportedLanguageOptions
+              .firstWhere((option) => option.code == selectedLanguageCode)
+              .label;
     final pronunciationStatus = !_hasMicPermission && _pronunciationEnabled
         ? context.l10n.text('profileMicPermissionNeeded')
         : _pronunciationEnabled
@@ -1312,6 +1323,22 @@ class _SettingsSectionState extends State<_SettingsSection>
             // action: 'Tất cả',
           ),
           const SizedBox(height: 10),
+          _SettingItem(
+            key: const ValueKey('profile-setting-language'),
+            iconAsset: 'assets/svgs/language.svg',
+            title: context.l10n.appLanguage,
+            body: context.l10n.appLanguageBody,
+            status: selectedLanguage ?? selectedLanguageCode,
+            statusColor: AppColors.primary,
+            showTopBorder: true,
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute<void>(
+                  builder: (_) => const LanguageSelectionScreen(),
+                ),
+              );
+            },
+          ),
           _SettingItem(
             iconAsset: 'assets/svgs/bell.svg',
             title: context.l10n.dailyReminder,
@@ -1370,6 +1397,7 @@ class _SettingsSectionState extends State<_SettingsSection>
 
 class _SettingItem extends StatelessWidget {
   const _SettingItem({
+    super.key,
     required this.iconAsset,
     required this.title,
     required this.body,

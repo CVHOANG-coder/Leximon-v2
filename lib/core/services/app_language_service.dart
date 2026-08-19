@@ -61,6 +61,20 @@ class AppLanguageService {
     }
   }
 
+  /// Records the language of the package currently stored locally when the
+  /// server profile has not provided a database version yet (for example in a
+  /// widget test or before authentication finishes).
+  Future<void> saveNativeLanguage(String languageCode) async {
+    final preferences = await SharedPreferences.getInstance();
+    final saved = await preferences.setString(
+      nativeLanguageKey,
+      canonicalLanguageCode(languageCode),
+    );
+    if (!saved) {
+      throw StateError('Could not save the synchronized content language.');
+    }
+  }
+
   Future<bool> isCarouselCompleted() async {
     final preferences = await SharedPreferences.getInstance();
     return preferences.getBool(carouselCompletedKey) ?? false;

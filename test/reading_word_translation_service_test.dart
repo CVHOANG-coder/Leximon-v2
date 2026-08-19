@@ -68,6 +68,28 @@ void main() {
     );
     expect(nativeTranslator.wasClosed, isTrue);
   });
+
+  test('reports completed ML Kit model download steps', () async {
+    final modelManager = _DownloadableModelManager();
+    final downloader = MlKitLanguageModelDownloader(modelManager: modelManager);
+    final progress = <LanguageModelDownloadProgress>[];
+
+    await downloader.downloadRequiredModels(
+      targetLanguageCode: 'vi',
+      onProgress: progress.add,
+    );
+
+    expect(modelManager.downloadedModels, ['en', 'vi']);
+    expect(
+      progress
+          .where((item) => item.phase == LanguageModelDownloadPhase.downloading)
+          .map((item) => item.languageCode),
+      ['en', 'vi'],
+    );
+    expect(progress.last.phase, LanguageModelDownloadPhase.complete);
+    expect(progress.last.progress, 1);
+    expect(progress.last.completedModels, 2);
+  });
 }
 
 class _DownloadedModelManager extends OnDeviceTranslatorModelManager {
@@ -76,6 +98,19 @@ class _DownloadedModelManager extends OnDeviceTranslatorModelManager {
   @override
   Future<bool> isModelDownloaded(String model) async {
     checkedModels.add(model);
+    return true;
+  }
+}
+
+class _DownloadableModelManager extends OnDeviceTranslatorModelManager {
+  final List<String> downloadedModels = [];
+
+  @override
+  Future<bool> isModelDownloaded(String model) async => false;
+
+  @override
+  Future<bool> downloadModel(String model, {bool isWifiRequired = true}) async {
+    downloadedModels.add(model);
     return true;
   }
 }

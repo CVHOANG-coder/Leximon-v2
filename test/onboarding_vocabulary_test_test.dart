@@ -1,9 +1,9 @@
+import 'dart:convert';
+
+import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:drift/native.dart';
-import 'package:leximon/data/datasources/sentence_asset_data_source.dart';
-import 'package:leximon/data/datasources/topic_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/onboarding_vocabulary_test.dart';
 import 'package:leximon/data/models/sentence_exercise.dart';
@@ -16,13 +16,45 @@ void main() {
   test('loads all local test levels and builds valid choices', () async {
     final database = AppDatabase.forTesting(NativeDatabase.memory());
     addTearDown(database.close);
-    final topicPayload = await TopicAssetDataSource(
-      bundle: rootBundle,
-    ).load(languageCode: 'vi');
-    await database.upsertTopicContent(topicPayload, languageCode: 'vi');
-    final sentences = await SentenceAssetDataSource(
-      bundle: rootBundle,
-    ).load(languageCode: 'vi');
+    final definitions =
+        (jsonDecode(
+                  await rootBundle.loadString(
+                    'assets/data/vocabulary_test.json',
+                  ),
+                )
+                as List<dynamic>)
+            .cast<Map<String, dynamic>>();
+    await database.batch((batch) {
+      batch.insertAll(database.wordModels, [
+        for (final definition in definitions)
+          WordModelsCompanion.insert(
+            id: definition['id'] as int,
+            topicId: 1,
+            writing: 'word-${definition['id']}',
+            translation: 'meaning-${definition['id']}',
+            isEnabled: true,
+            priority: 1,
+            level: 1,
+          ),
+      ]);
+    });
+    final sentences = [
+      for (final definition in definitions)
+        if (definition['taskType'] == 'Constructor')
+          SentenceRecord(
+            translationId: definition['id'] as int,
+            wordId: definition['id'] as int,
+            sentenceId: definition['id'] as int,
+            spelling: definition['task'] as String,
+            translation: 'translation-${definition['id']}',
+            difficulty: 1,
+            wrongSpellings: const [],
+            taskSpellings: const [],
+            task: definition['task'] as String,
+            soundUrl: '',
+            alternativeTranslations: const [],
+          ),
+    ];
     await database.replaceSentenceContent(
       languageCode: 'vi',
       sentences: sentences,
@@ -155,8 +187,8 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('Chính xác!'), findsOneWidget);
     expect(find.text('Câu trả lời của bạn'), findsOneWidget);
-    expect(find.text('Đáp án đúng'), findsOneWidget);
-    await tester.tap(find.text('Tiếp tục'));
+    expect(find.text('Câu trả lời đúng'), findsOneWidget);
+    await tester.tap(find.text('Tiếp'));
     await tester.pumpAndSettle();
     expect(find.byKey(const ValueKey('vocabulary-test-next')), findsOneWidget);
   });
@@ -190,7 +222,7 @@ void main() {
     expect(find.text('Sai 1'), findsNWidgets(2));
     expect(find.text('Đúng'), findsNWidgets(2));
 
-    await tester.tap(find.text('Tiếp tục'));
+    await tester.tap(find.text('Tiếp'));
     await tester.pumpAndSettle();
     expect(find.text('Chú ý'), findsNothing);
   });

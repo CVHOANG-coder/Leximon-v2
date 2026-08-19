@@ -1,9 +1,7 @@
-import 'dart:convert';
 import 'dart:math';
 
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/sentence_exercise.dart';
@@ -84,26 +82,29 @@ void main() {
               finishedCount: const Value(10),
             ),
           );
-      final records = <Map<String, dynamic>>[
+      final records = <SentenceRecord>[
         for (var wordId = 1; wordId <= 5; wordId++)
           for (var offset = 0; offset < 2; offset++)
-            {
-              'id': 1000 + wordId * 10 + offset,
-              'word_id': wordId,
-              'sentence_id': wordId * 10 + offset,
-              'spelling': 'This is word$wordId',
-              'translation': 'Đây là từ $wordId',
-              'difficulty': offset,
-              'wrong_spellings': ['wrong'],
-              'task_spellings': ['word$wordId'],
-              'task': 'This is |word$wordId|',
-              'sound': '',
-              'alternative_translations': <String>[],
-            },
+            SentenceRecord(
+              translationId: 1000 + wordId * 10 + offset,
+              wordId: wordId,
+              sentenceId: wordId * 10 + offset,
+              spelling: 'This is word$wordId',
+              translation: 'Đây là từ $wordId',
+              difficulty: offset,
+              wrongSpellings: const ['wrong'],
+              taskSpellings: ['word$wordId'],
+              task: 'This is |word$wordId|',
+              soundUrl: '',
+              alternativeTranslations: const [],
+            ),
       ];
+      await database.replaceSentenceContent(
+        languageCode: 'vi',
+        sentences: records,
+      );
       final service = SentenceLessonService(
         database: database,
-        assetBundle: _StringAssetBundle(jsonEncode(records)),
         random: Random(7),
       );
 
@@ -142,16 +143,4 @@ SentenceRecord _sentence({
     soundUrl: '',
     alternativeTranslations: alternatives,
   );
-}
-
-class _StringAssetBundle extends CachingAssetBundle {
-  _StringAssetBundle(this.source);
-
-  final String source;
-
-  @override
-  Future<ByteData> load(String key) async {
-    final bytes = Uint8List.fromList(utf8.encode(source));
-    return ByteData.sublistView(bytes);
-  }
 }

@@ -1,20 +1,17 @@
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
-import 'package:flutter/services.dart';
 
 import '../../core/network/api_client.dart';
 import '../models/sentence_exercise.dart';
 import 'topic_asset_data_source.dart';
 
-const _sentenceAssetDirectory = 'assets/data/sentences';
 const _sentenceRemoteDirectory = '/data/sentences';
 
 class SentenceAssetDataSource {
-  SentenceAssetDataSource({this.bundle, ApiClient? apiClient})
+  SentenceAssetDataSource({ApiClient? apiClient})
     : _apiClient = apiClient ?? ApiClient();
 
-  final AssetBundle? bundle;
   final ApiClient _apiClient;
   final _cache = <String, Future<List<SentenceRecord>>>{};
 
@@ -54,30 +51,17 @@ class SentenceAssetDataSource {
   }
 
   Future<List<SentenceRecord>> _loadPackage(String languageCode) async {
-    final assetBundle = bundle;
-    if (assetBundle != null) {
-      final source = await assetBundle.loadString(assetPathFor(languageCode));
-      return compute(_decodeSentenceAsset, source);
-    }
-
     final response = await _apiClient.get(
       '$_sentenceRemoteDirectory/$languageCode.json',
     );
     return compute(_decodeSentenceAsset, response.body);
-  }
-
-  String assetPathFor(String languageCode) {
-    final canonicalCode = TopicAssetDataSource.canonicalizeLanguageCode(
-      languageCode,
-    );
-    return '$_sentenceAssetDirectory/$canonicalCode.json';
   }
 }
 
 List<SentenceRecord> _decodeSentenceAsset(String source) {
   final data = jsonDecode(source);
   if (data is! List<dynamic>) {
-    throw const FormatException('Sentence asset must contain a JSON array.');
+    throw const FormatException('Sentence response must contain a JSON array.');
   }
   return data
       .whereType<Map<String, dynamic>>()

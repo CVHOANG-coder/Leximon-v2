@@ -24,6 +24,7 @@ import 'presentation/screens/subscription_plan/subscription_plan_screen.dart'
     as subscription_plan;
 import 'presentation/screens/onboarding/trial_reminder_screen.dart';
 import 'presentation/screens/onboarding/vocabulary_test_screen.dart';
+import 'presentation/screens/profile/language_selection_screen.dart';
 import 'presentation/screens/splash/splash_screen.dart';
 import 'shared/providers/app_providers.dart';
 
@@ -92,6 +93,10 @@ final _router = GoRouter(
       path: '/subscription_plan',
       builder: (context, state) =>
           const subscription_plan.SubscriptionPlanScreen(),
+    ),
+    GoRoute(
+      path: '/settings/language',
+      builder: (context, state) => const LanguageSelectionScreen(),
     ),
     GoRoute(path: '/', builder: (context, state) => const MainScreen()),
   ],

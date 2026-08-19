@@ -3,11 +3,11 @@ import 'dart:convert';
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter/services.dart';
-import 'package:leximon/data/datasources/topic_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/models/sentence_exercise.dart';
 import 'package:leximon/data/repositories/topic_repository.dart';
+
+import 'remote_content_test_helpers.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -20,8 +20,8 @@ void main() {
 
   tearDown(() => database.close());
 
-  test('seeds bundled topics and words into Drift', () async {
-    final dataSource = TopicAssetDataSource(bundle: rootBundle);
+  test('seeds server topics and words into Drift', () async {
+    final dataSource = testTopicDataSource();
     final repository = TopicRepository(
       database: database,
       assetDataSource: dataSource,
@@ -30,15 +30,12 @@ void main() {
     final topics = await repository.loadTopics();
 
     expect(await database.topicContentRevision(), 36);
-    expect(topics, hasLength(47));
-    expect(
-      topics.fold<int>(0, (total, topic) => total + topic.wordCount),
-      5995,
-    );
+    expect(topics, hasLength(3));
+    expect(topics.fold<int>(0, (total, topic) => total + topic.wordCount), 4);
   });
 
-  test('keeps local fields when bundled content is upserted again', () async {
-    final dataSource = TopicAssetDataSource(bundle: rootBundle);
+  test('keeps local fields when server content is upserted again', () async {
+    final dataSource = testTopicDataSource();
     final payload = await dataSource.load();
     await database.upsertTopicContent(payload);
 
@@ -89,7 +86,7 @@ void main() {
           ),
         );
 
-    final payload = await TopicAssetDataSource(bundle: rootBundle).load();
+    final payload = await testTopicDataSource().load();
     await database.upsertTopicContent(payload);
     await database.replaceSentenceContent(
       languageCode: 'vi',
@@ -120,10 +117,10 @@ void main() {
     expect(sentenceProgress.finishedCount, 3);
   });
 
-  test('loads words from the selected language topic asset', () async {
+  test('loads words from the selected language topic package', () async {
     final repository = TopicRepository(
       database: database,
-      assetDataSource: TopicAssetDataSource(bundle: rootBundle),
+      assetDataSource: testTopicDataSource(),
     );
 
     final germanTopics = await repository.loadTopics(languageCode: 'de');
@@ -132,7 +129,7 @@ void main() {
     expect(germanTopics.first.translated, 'Reisen');
     expect(
       germanTopics.fold<int>(0, (total, topic) => total + topic.wordCount),
-      5995,
+      4,
     );
 
     final vietnameseTopics = await repository.loadTopics(languageCode: 'vi');

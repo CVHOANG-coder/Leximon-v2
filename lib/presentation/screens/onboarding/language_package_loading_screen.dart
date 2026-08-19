@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
+import '../../../data/services/reading_word_translation_service.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class LanguagePackageLoadingScreen extends ConsumerStatefulWidget {
@@ -19,17 +20,10 @@ class LanguagePackageLoadingScreen extends ConsumerStatefulWidget {
 
 class _LanguagePackageLoadingScreenState
     extends ConsumerState<LanguagePackageLoadingScreen> {
-  static const _maximumFakeProgress = .99;
-
   Object? _error;
-  Timer? _progressTimer;
   double _progress = 0;
-
-  @override
-  void dispose() {
-    _progressTimer?.cancel();
-    super.dispose();
-  }
+  String _statusKey = 'preparingLanguagePackage';
+  Map<String, Object?> _statusValues = const {};
 
   @override
   void initState() {
@@ -38,34 +32,60 @@ class _LanguagePackageLoadingScreenState
   }
 
   Future<void> _loadPackage() async {
-    _progressTimer?.cancel();
     if (mounted) {
       setState(() {
         _error = null;
-        _progress = .04;
+        _progress = .08;
+        _statusKey = 'preparingLanguagePackage';
+        _statusValues = const {};
       });
     }
-    _progressTimer = Timer.periodic(const Duration(milliseconds: 120), (_) {
-      if (!mounted) return;
-      setState(() {
-        _progress = (_progress + .018).clamp(0, _maximumFakeProgress);
-      });
-    });
 
     try {
       await ref.read(languagePackageInitializationProvider.future);
       if (!mounted) return;
-      _progressTimer?.cancel();
-      setState(() => _progress = 1);
+      setState(() {
+        _progress = .4;
+        _statusKey = 'checkingLanguageModels';
+      });
+      await ref
+          .read(languageModelDownloaderProvider)
+          .downloadRequiredModels(
+            targetLanguageCode: ref.read(selectedAppLanguageProvider),
+            onProgress: _applyModelProgress,
+          );
+      if (!mounted) return;
+      setState(() {
+        _progress = 1;
+        _statusKey = 'languageModelsReady';
+        _statusValues = const {};
+      });
       context.pushReplacement('/onboarding/assessment-intro');
     } catch (error) {
       if (!mounted) return;
-      _progressTimer?.cancel();
       setState(() {
         _error = error;
-        _progress = _maximumFakeProgress;
       });
     }
+  }
+
+  void _applyModelProgress(LanguageModelDownloadProgress modelProgress) {
+    if (!mounted) return;
+    final current = modelProgress.totalModels == 0
+        ? 0
+        : (modelProgress.completedModels + 1).clamp(
+            1,
+            modelProgress.totalModels,
+          );
+    setState(() {
+      _progress = (.4 + modelProgress.progress * .55).clamp(.4, .95);
+      _statusKey = switch (modelProgress.phase) {
+        LanguageModelDownloadPhase.checking => 'checkingLanguageModels',
+        LanguageModelDownloadPhase.downloading => 'downloadingLanguageModel',
+        LanguageModelDownloadPhase.complete => 'languageModelsReady',
+      };
+      _statusValues = {'current': current, 'total': modelProgress.totalModels};
+    });
   }
 
   void _retry() {
@@ -149,7 +169,11 @@ class _LanguagePackageLoadingScreenState
                           ),
                         ),
                         if (error == null)
-                          _LanguagePackageProgress(progress: _progress)
+                          _LanguagePackageProgress(
+                            progress: _progress,
+                            statusKey: _statusKey,
+                            statusValues: _statusValues,
+                          )
                         else
                           _LanguagePackageError(onRetry: _retry),
                       ],
@@ -166,9 +190,15 @@ class _LanguagePackageLoadingScreenState
 }
 
 class _LanguagePackageProgress extends StatelessWidget {
-  const _LanguagePackageProgress({required this.progress});
+  const _LanguagePackageProgress({
+    required this.progress,
+    required this.statusKey,
+    required this.statusValues,
+  });
 
   final double progress;
+  final String statusKey;
+  final Map<String, Object?> statusValues;
 
   @override
   Widget build(BuildContext context) {
@@ -192,7 +222,7 @@ class _LanguagePackageProgress extends StatelessWidget {
           children: [
             Expanded(
               child: Text(
-                context.l10n.loading,
+                context.l10n.text(statusKey, values: statusValues),
                 key: const ValueKey('language-package-loading-status'),
                 style: const TextStyle(
                   color: AppColors.primaryDark,

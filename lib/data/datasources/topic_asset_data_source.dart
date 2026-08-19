@@ -1,58 +1,14 @@
-import 'dart:convert';
-
-import 'package:flutter/foundation.dart';
-import 'package:flutter/services.dart';
-
 import '../../core/network/api_client.dart';
 import '../../core/localization/language_code.dart';
 import '../models/topic_language.dart';
 import '../models/topic_asset_payload.dart';
 
-const _topicAssetDirectory = 'assets/data/topics';
 const _topicRemoteDirectory = '/data/topics';
-final _topicAssetPattern = RegExp(r'^assets/data/topics/data_en_(.+)\.json$');
-
-const _languageLabels = <String, String>{
-  'ar': 'العربية',
-  'cs': 'Čeština',
-  'da': 'Dansk',
-  'de': 'Deutsch',
-  'es-ES': 'Español (España)',
-  'es-US': 'Español (Latinoamérica)',
-  'fi': 'Suomi',
-  'fil': 'Filipino',
-  'fr': 'Français',
-  'hi': 'हिन्दी',
-  'hu': 'Magyar',
-  'in': 'Bahasa Indonesia',
-  'it': 'Italiano',
-  'iw': 'עברית',
-  'ja': '日本語',
-  'ko': '한국어',
-  'ms': 'Bahasa Melayu',
-  'nb': 'Norsk bokmål',
-  'nl': 'Nederlands',
-  'pl': 'Polski',
-  'pt': 'Português',
-  'ro': 'Română',
-  'ru': 'Русский',
-  'sv': 'Svenska',
-  'th': 'ไทย',
-  'tr': 'Türkçe',
-  'uk': 'Українська',
-  'vi': 'Tiếng Việt',
-  'zh-TW': '繁體中文',
-  'zh': '简体中文',
-};
 
 class TopicAssetDataSource {
-  TopicAssetDataSource({AssetBundle? bundle, ApiClient? apiClient})
-    : bundle = bundle ?? rootBundle,
-      _bundleOverride = bundle,
-      _apiClient = apiClient ?? ApiClient();
+  TopicAssetDataSource({ApiClient? apiClient})
+    : _apiClient = apiClient ?? ApiClient();
 
-  final AssetBundle bundle;
-  final AssetBundle? _bundleOverride;
   final ApiClient _apiClient;
 
   static const knownLanguages = <TopicLanguage>[
@@ -93,52 +49,11 @@ class TopicAssetDataSource {
   }
 
   Future<List<TopicLanguage>> loadAvailableLanguages() async {
-    final manifest = await AssetManifest.loadFromAssetBundle(bundle);
-    final discoveredCodes = manifest
-        .listAssets()
-        .map(_languageCodeFromAsset)
-        .whereType<String>()
-        // English is the source language, not a native-language topic pack.
-        .where((code) => code != 'en')
-        .toSet();
-
-    if (discoveredCodes.isEmpty) return knownLanguages;
-
-    final codes = [
-      ...knownLanguages
-          .map((language) => language.code)
-          .where(discoveredCodes.contains),
-      ...discoveredCodes
-          .difference(knownLanguages.map((e) => e.code).toSet())
-          .toList()
-        ..sort(),
-    ];
-
-    return codes
-        .map(
-          (code) =>
-              TopicLanguage(code: code, label: _languageLabels[code] ?? code),
-        )
-        .toList(growable: false);
+    return knownLanguages;
   }
 
   Future<TopicAssetPayload> load({String languageCode = 'vi'}) async {
     final canonicalCode = canonicalizeLanguageCode(languageCode);
-    // An explicitly supplied bundle is retained for deterministic tests. The
-    // application datasource has no bundle override and always loads remotely.
-    if (_bundleOverride != null) {
-      // There is no separate English translation asset because the source
-      // vocabulary is already English.
-      final assetCode = canonicalCode == 'en' ? 'vi' : canonicalCode;
-      final rawJson = await bundle.loadString(assetPathFor(assetCode));
-      return compute(
-        canonicalCode == 'en'
-            ? _decodeEnglishTopicPayload
-            : _decodeTopicPayload,
-        rawJson,
-      );
-    }
-
     // The backend currently has no data_en_en.json. Reuse the Vietnamese
     // source catalogue and map its translated fields to the English source.
     final remoteCode = canonicalCode == 'en' ? 'vi' : canonicalCode;
@@ -160,27 +75,6 @@ class TopicAssetDataSource {
     }
     return canonicalCode == 'en' ? _mapEnglishTopicPayload(payload) : payload;
   }
-
-  String assetPathFor(String languageCode) {
-    final canonicalCode = canonicalizeLanguageCode(languageCode);
-    return '$_topicAssetDirectory/data_en_$canonicalCode.json';
-  }
-}
-
-String? _languageCodeFromAsset(String assetPath) {
-  return _topicAssetPattern.firstMatch(assetPath)?.group(1);
-}
-
-TopicAssetPayload _decodeTopicPayload(String rawJson) {
-  final decoded = jsonDecode(rawJson);
-  if (decoded is! Map<String, dynamic>) {
-    throw const FormatException('Topic asset must contain a JSON object.');
-  }
-  return TopicAssetPayload.fromJson(decoded);
-}
-
-TopicAssetPayload _decodeEnglishTopicPayload(String rawJson) {
-  return _mapEnglishTopicPayload(_decodeTopicPayload(rawJson));
 }
 
 TopicAssetPayload _mapEnglishTopicPayload(TopicAssetPayload payload) {

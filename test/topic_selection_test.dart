@@ -1,11 +1,12 @@
 import 'package:drift/native.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:leximon/data/datasources/topic_asset_data_source.dart';
 import 'package:leximon/data/local/app_database.dart';
 import 'package:leximon/data/repositories/topic_repository.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
+
+import 'remote_content_test_helpers.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +18,7 @@ void main() {
     database = AppDatabase.forTesting(NativeDatabase.memory());
     repository = TopicRepository(
       database: database,
-      assetDataSource: TopicAssetDataSource(bundle: rootBundle),
+      assetDataSource: testTopicDataSource(),
     );
   });
 
@@ -36,9 +37,7 @@ void main() {
   test('onboarding uses the complete enabled topic catalogue', () async {
     final container = ProviderContainer(
       overrides: [
-        topicAssetDataSourceProvider.overrideWithValue(
-          TopicAssetDataSource(bundle: rootBundle),
-        ),
+        topicAssetDataSourceProvider.overrideWithValue(testTopicDataSource()),
         selectedAppLanguageProvider.overrideWith((ref) => 'vi'),
       ],
     );
@@ -46,16 +45,14 @@ void main() {
 
     final topics = await container.read(onboardingTopicsProvider.future);
 
-    expect(topics, hasLength(47));
+    expect(topics, hasLength(3));
     expect(topics.first.translated, 'Du lịch');
-    expect(topics.last.order, 71);
-    expect(topics.map((topic) => topic.order).toSet(), hasLength(47));
+    expect(topics.last.order, 8);
+    expect(topics.map((topic) => topic.order).toSet(), hasLength(3));
   });
 
-  test('language choices match the topic asset files', () async {
-    final languages = await TopicAssetDataSource(
-      bundle: rootBundle,
-    ).loadAvailableLanguages();
+  test('language choices expose the supported server catalogues', () async {
+    final languages = await TopicAssetDataSource().loadAvailableLanguages();
 
     expect(languages, hasLength(30));
     expect(

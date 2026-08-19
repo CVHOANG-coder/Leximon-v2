@@ -6,6 +6,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:go_router/go_router.dart';
 import 'package:leximon/core/services/app_language_service.dart';
 import 'package:leximon/data/models/user_profile_response.dart';
+import 'package:leximon/data/services/reading_word_translation_service.dart';
 import 'package:leximon/presentation/screens/onboarding/language_onboarding_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/language_package_loading_screen.dart';
 import 'package:leximon/shared/providers/app_providers.dart';
@@ -259,6 +260,9 @@ void main() {
     final container = ProviderContainer(
       overrides: [
         languagePackageInitializationProvider.overrideWith((ref) async {}),
+        languageModelDownloaderProvider.overrideWithValue(
+          _ImmediateLanguageModelDownloader(),
+        ),
       ],
     );
     addTearDown(container.dispose);
@@ -365,6 +369,9 @@ void main() {
           languagePackageInitializationProvider.overrideWith(
             (ref) => packageLoading.future,
           ),
+          languageModelDownloaderProvider.overrideWithValue(
+            _ImmediateLanguageModelDownloader(),
+          ),
         ],
         child: MaterialApp.router(routerConfig: router),
       ),
@@ -377,7 +384,7 @@ void main() {
     expect(find.text('Assessment intro'), findsNothing);
 
     await tester.pump(const Duration(seconds: 8));
-    expect(find.text('99%'), findsOneWidget);
+    expect(find.text('8%'), findsOneWidget);
     expect(find.text('Assessment intro'), findsNothing);
 
     packageLoading.complete();
@@ -412,6 +419,9 @@ void main() {
             attempts++;
             if (attempts == 1) throw StateError('network unavailable');
           }),
+          languageModelDownloaderProvider.overrideWithValue(
+            _ImmediateLanguageModelDownloader(),
+          ),
         ],
         child: MaterialApp.router(routerConfig: router),
       ),
@@ -431,4 +441,21 @@ void main() {
     expect(attempts, 2);
     expect(find.text('Assessment intro'), findsOneWidget);
   });
+}
+
+class _ImmediateLanguageModelDownloader implements LanguageModelDownloader {
+  @override
+  Future<void> downloadRequiredModels({
+    required String targetLanguageCode,
+    LanguageModelProgressCallback? onProgress,
+  }) async {
+    onProgress?.call(
+      const LanguageModelDownloadProgress(
+        phase: LanguageModelDownloadPhase.complete,
+        progress: 1,
+        completedModels: 2,
+        totalModels: 2,
+      ),
+    );
+  }
 }
