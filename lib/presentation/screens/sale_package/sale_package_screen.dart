@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:intl/intl.dart';
 
@@ -60,26 +61,6 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
                       ),
                     ),
                   ],
-                ),
-              ),
-            ),
-            Positioned(
-              top: MediaQuery.paddingOf(context).top + 10,
-              left: 16,
-              child: Material(
-                color: Colors.white.withValues(alpha: .86),
-                shape: const CircleBorder(),
-                elevation: 2,
-                shadowColor: const Color(0x33295282),
-                child: IconButton(
-                  key: const ValueKey('sale-package-back'),
-                  tooltip: context.l10n.back,
-                  onPressed: () => Navigator.of(context).maybePop(),
-                  icon: const Icon(
-                    Icons.arrow_back_rounded,
-                    color: Color(0xFF112958),
-                    size: 28,
-                  ),
                 ),
               ),
             ),
@@ -276,12 +257,21 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
           .read(iapPurchaseServiceProvider)
           .purchase(package: package, product: product);
       if (!mounted) return;
-      setState(() => _isPurchasing = false);
       if (result.isSuccess) {
-        ref.invalidate(remoteUserProfileProvider);
-        Navigator.of(context).pop(true);
+        final isPremium = await _reloadPremiumProfile();
+        if (!mounted) return;
+        if (!isPremium) {
+          setState(() => _isPurchasing = false);
+          _showMessage(context.l10n.text('iapVerificationFailed'));
+          return;
+        }
+
+        await ref.read(appLanguageServiceProvider).completeOnboarding();
+        if (!mounted) return;
+        context.go('/');
         return;
       }
+      setState(() => _isPurchasing = false);
       if (result.status != IapPurchaseResultStatus.canceled) {
         _showMessage(_purchaseMessage(result));
       }
@@ -290,6 +280,17 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
       setState(() => _isPurchasing = false);
       _showMessage(context.l10n.text('salePurchaseError'));
     }
+  }
+
+  Future<bool> _reloadPremiumProfile() async {
+    for (var attempt = 0; attempt < 3; attempt++) {
+      final profile = await ref.refresh(remoteUserProfileProvider.future);
+      if (profile.isPremium) return true;
+      if (attempt < 2) {
+        await Future<void>.delayed(Duration(milliseconds: 300 * (attempt + 1)));
+      }
+    }
+    return false;
   }
 
   String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {

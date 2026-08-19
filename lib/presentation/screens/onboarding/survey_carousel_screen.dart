@@ -128,6 +128,10 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
     _swipeStartPosition = null;
     if (startPosition == null || _currentPage == _pageCount - 1) return;
 
+    // The preferred-time slider is a horizontal gesture itself. Only the
+    // Continue button may leave this page after the user adjusts the time.
+    if (_currentPage == 9) return;
+
     final delta = event.position - startPosition;
     final isHorizontalSwipe =
         delta.dx.abs() >= 48 && delta.dx.abs() > delta.dy.abs() * 1.2;
@@ -152,10 +156,23 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
 
   Future<void> _requestNotificationPermission() async {
     try {
-      await DailyNotificationService.instance.requestPermission();
+      final localizations = context.l10n;
+      final permissionResult = await DailyNotificationService.instance
+          .requestPermission();
+      if (permissionResult != DailyNotificationPermissionResult.granted) {
+        return;
+      }
+
+      final totalMinutes = _preferredStudyMinutes.round() % (24 * 60);
+      await DailyNotificationService.instance.scheduleDaily(
+        hour: totalMinutes ~/ 60,
+        minute: totalMinutes % 60,
+        localizations: localizations,
+      );
     } on Object {
       // Permission is optional during onboarding. A native/plugin failure
-      // must not interrupt the survey flow.
+      // must not interrupt the survey flow or prevent the user from
+      // continuing through onboarding.
     }
   }
 

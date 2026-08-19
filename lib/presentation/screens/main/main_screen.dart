@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
@@ -6,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
+import '../../../core/services/daily_notification_service.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../discover/discover_screen.dart';
 import '../home/home_screen.dart';
@@ -22,6 +24,16 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    unawaited(
+      DailyNotificationService.instance
+          .cancelAnnualSaleNotification()
+          .catchError((_) {}),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {

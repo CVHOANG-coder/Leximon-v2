@@ -906,6 +906,53 @@ class AppDatabase extends _$AppDatabase {
     )..where((row) => row.id.equals(1))).getSingleOrNull();
   }
 
+  /// Removes all data created by the learner while keeping bundled content
+  /// available for the next onboarding session.
+  Future<void> clearUserData() {
+    return transaction(() async {
+      await delete(grammarUserResponseModels).go();
+      await delete(sessionExercises).go();
+      await delete(learningSessions).go();
+      await delete(learningProgressModels).go();
+      await delete(wordSentenceProgressModels).go();
+      await delete(sentenceExposureModels).go();
+      await delete(visitModels).go();
+      await delete(onboardingTestAnswerModels).go();
+      await delete(appUsageDays).go();
+      await delete(listeningLessonProgressModels).go();
+      await delete(listeningChallengeProgressModels).go();
+      await delete(listeningPracticeDays).go();
+      await delete(speakingLessonProgressModels).go();
+      await delete(speakingSentenceProgressModels).go();
+      await delete(ipaSoundProgressModels).go();
+      await delete(readingStoryProgressModels).go();
+      await delete(readingSavedWordModels).go();
+      await delete(practiceSessionHistoryModels).go();
+      await delete(contentRevisions).go();
+      await delete(userProfiles).go();
+
+      await update(
+        topicModels,
+      ).write(const TopicModelsCompanion(isSelected: Value(false)));
+      await update(
+        wordModels,
+      ).write(const WordModelsCompanion(showCount: Value(0)));
+      await update(grammarPackModels).write(
+        const GrammarPackModelsCompanion(
+          progress: Value(0),
+          testProgress: Value(0),
+        ),
+      );
+      await update(grammarTopicModels).write(
+        const GrammarTopicModelsCompanion(
+          progress: Value(0),
+          isComplete: Value(false),
+          timeTaken: Value(0),
+        ),
+      );
+    });
+  }
+
   Future<List<SentenceRecord>> loadSentenceContent({
     required String languageCode,
   }) async {

@@ -1,9 +1,14 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:intl/intl.dart';
 
 import '../../../core/localization/app_localizations.dart';
+import '../../../core/services/daily_notification_service.dart';
 import '../../../data/models/iap_packages_response.dart';
 import '../../../data/services/iap_catalog_service.dart';
 import '../../../data/services/iap_purchase_service.dart';
@@ -32,10 +37,13 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
 
   String? _selectedProductId;
   bool _isSubmitting = false;
+  bool _isRestoring = false;
+  bool _saleReminderArmed = false;
 
   @override
   void initState() {
     super.initState();
+    DailyNotificationService.instance.markOnboardingSubscriptionScreenVisible();
     _controller = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 1350),
@@ -94,6 +102,18 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
   }
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_saleReminderArmed) return;
+    _saleReminderArmed = true;
+    unawaited(
+      DailyNotificationService.instance
+          .armAnnualSaleNotification(localizations: context.l10n)
+          .catchError((_) {}),
+    );
+  }
+
+  @override
   void dispose() {
     _controller.dispose();
     super.dispose();
@@ -107,9 +127,11 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       _showPurchaseMessage(context.l10n.text('iapProductUnavailable'));
       return;
     }
+    final defaultPackage =
+        _mostExpensivePackage(packages, catalog) ?? packages.first;
     final package = packages.firstWhere(
       (item) => item.productId == _selectedProductId,
-      orElse: () => packages.first,
+      orElse: () => defaultPackage,
     );
 
     setState(() => _isSubmitting = true);
@@ -126,6 +148,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
         return;
       }
 
+      DailyNotificationService.instance.markOnboardingSubscriptionCompleted();
       ref.invalidate(remoteUserProfileProvider);
       await ref.read(appLanguageServiceProvider).completeOnboarding();
       if (!mounted) return;
@@ -134,6 +157,22 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       if (!mounted) return;
       setState(() => _isSubmitting = false);
       _showPurchaseMessage(context.l10n.text('subscriptionCompleteError'));
+    }
+  }
+
+  Future<void> _restorePurchases() async {
+    if (_isSubmitting || _isRestoring) return;
+
+    setState(() => _isRestoring = true);
+    try {
+      // await ref.read(iapPurchaseServiceProvider).restorePurchases();
+      if (!mounted) return;
+      _showPurchaseMessage(context.l10n.text('subscriptionRestoreStarted'));
+    } on Object {
+      if (!mounted) return;
+      _showPurchaseMessage(context.l10n.text('subscriptionRestoreError'));
+    } finally {
+      if (mounted) setState(() => _isRestoring = false);
     }
   }
 
@@ -270,15 +309,12 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
                             ),
                           ),
                         ),
-                        const SizedBox(height: 4),
-                        const Icon(
-                          Icons.keyboard_arrow_down_rounded,
-                          color: Colors.white,
-                          size: 31,
-                          shadows: [
-                            Shadow(color: Color(0xFF287EFF), blurRadius: 10),
-                          ],
+                        const SizedBox(height: 16),
+                        _SubscriptionLegalFooter(
+                          isRestoring: _isRestoring,
+                          onRestore: _restorePurchases,
                         ),
+                        const SizedBox(height: 14),
                       ],
                     ),
                   ),
@@ -341,27 +377,19 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       ];
     }
 
+    final mostExpensivePackage = _mostExpensivePackage(packages, catalog);
+    final defaultPackage = mostExpensivePackage ?? packages.first;
     final selectedPackage = packages.firstWhere(
       (item) => item.productId == _selectedProductId,
-      orElse: () => packages.first,
+      orElse: () => defaultPackage,
     );
-    IapPackage? mostExpensivePackage;
-    for (final package in packages) {
-      if (!package.price.isFinite || package.price <= 0) continue;
-      if (mostExpensivePackage == null ||
-          package.price > mostExpensivePackage.price) {
-        mostExpensivePackage = package;
-      }
-    }
 
     final children = <Widget>[];
     for (var index = 0; index < packages.length; index++) {
       final package = packages[index];
       final isSelected = package.productId == selectedPackage.productId;
-      final storePrice = catalog?.storePriceFor(package)?.trim();
-      final price = storePrice == null || storePrice.isEmpty
-          ? _apiPriceLabel(package)
-          : storePrice;
+      final product = catalog?.productFor(package);
+      final price = _storePrice(product) ?? _apiPriceLabel(package);
       children.add(
         _SubscriptionPlanCard(
           key: ValueKey('subscription-plan-${package.productId}'),
@@ -370,12 +398,15 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
               : package.name.trim(),
           totalPrice: price,
           originalPrice: package == mostExpensivePackage
-              ? _apiPriceLabelForAmount(package, package.price * 1.5)
+              ? _storePriceForAmount(context, product, 1.5) ??
+                    _apiPriceLabelForAmount(package, package.price * 1.5)
               : null,
           weeklyPrice: price == null
               ? null
-              : _weeklyPriceLabel(context, package),
-          badgeLabel: package.group == 'SALE'
+              : _weeklyPriceLabel(context, package, product),
+          badgeLabel: package == mostExpensivePackage
+              ? context.l10n.text('salePopular')
+              : package.group == 'SALE'
               ? context.l10n.text('subscriptionSale')
               : null,
           selected: isSelected,
@@ -411,34 +442,92 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     return children;
   }
 
+  IapPackage? _mostExpensivePackage(
+    List<IapPackage> packages,
+    IapCatalog? catalog,
+  ) {
+    IapPackage? mostExpensivePackage;
+    var mostExpensivePrice = double.negativeInfinity;
+    for (final package in packages) {
+      final storePrice = catalog?.productFor(package)?.rawPrice;
+      final price = storePrice != null && storePrice.isFinite && storePrice > 0
+          ? storePrice
+          : package.price;
+      if (!price.isFinite || price <= 0) continue;
+      if (mostExpensivePackage == null || price > mostExpensivePrice) {
+        mostExpensivePackage = package;
+        mostExpensivePrice = price;
+      }
+    }
+    return mostExpensivePackage;
+  }
+
   String? _apiPriceLabel(IapPackage package) {
     if (!package.price.isFinite || package.price <= 0) return null;
     final amount = _formatAmount(package.price);
     final currency = package.currency.trim().toUpperCase();
-    if (currency.isEmpty || currency == 'USD' || currency == r'$') {
-      return '\$$amount';
-    }
-    return '$amount $currency';
+    return currency.isEmpty ? amount : '$amount $currency';
   }
 
   String? _apiPriceLabelForAmount(IapPackage package, double amount) {
     if (!amount.isFinite || amount <= 0) return null;
     final formattedAmount = _formatAmount(amount);
     final currency = package.currency.trim().toUpperCase();
-    if (currency.isEmpty || currency == 'USD' || currency == r'$') {
-      return '\$$formattedAmount';
-    }
-    return '$formattedAmount $currency';
+    return currency.isEmpty ? formattedAmount : '$formattedAmount $currency';
   }
 
-  String? _weeklyPriceLabel(BuildContext context, IapPackage package) {
-    if (!package.price.isFinite ||
-        package.price <= 0 ||
-        package.packDurationDay <= 0) {
+  String? _storePrice(ProductDetails? product) {
+    final price = product?.price.trim();
+    return price?.isNotEmpty == true ? price : null;
+  }
+
+  String? _storePriceForAmount(
+    BuildContext context,
+    ProductDetails? product,
+    double multiplier,
+  ) {
+    if (product == null ||
+        !product.rawPrice.isFinite ||
+        product.rawPrice <= 0 ||
+        !multiplier.isFinite ||
+        multiplier <= 0) {
       return null;
     }
-    final weeklyPrice = package.price * 7 / package.packDurationDay;
-    final price = _apiPriceLabelForAmount(package, weeklyPrice);
+
+    final currencyCode = product.currencyCode.trim().toUpperCase();
+    if (currencyCode.isEmpty) return null;
+
+    final currencySymbol = product.currencySymbol.trim();
+    return NumberFormat.currency(
+      locale: Localizations.localeOf(context).toString(),
+      name: currencyCode,
+      symbol: currencySymbol.isEmpty ? currencyCode : currencySymbol,
+    ).format(product.rawPrice * multiplier);
+  }
+
+  String? _weeklyPriceLabel(
+    BuildContext context,
+    IapPackage package,
+    ProductDetails? product,
+  ) {
+    String? price;
+    if (product != null &&
+        product.rawPrice.isFinite &&
+        product.rawPrice > 0 &&
+        package.packDurationDay > 0) {
+      price = _storePriceForAmount(
+        context,
+        product,
+        7 / package.packDurationDay,
+      );
+    } else if (package.price.isFinite &&
+        package.price > 0 &&
+        package.packDurationDay > 0) {
+      price = _apiPriceLabelForAmount(
+        package,
+        package.price * 7 / package.packDurationDay,
+      );
+    }
     if (price == null) return null;
     final weekLabel = context.l10n
         .text('subscriptionWeeks', values: const {'count': 1})
@@ -547,7 +636,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
           constraints: const BoxConstraints(minHeight: 80),
           padding: EdgeInsets.fromLTRB(
             21,
-            badgeLabel == null ? 17 : 25,
+            badgeLabel == null ? 17 : 30,
             19,
             17,
           ),
@@ -601,41 +690,33 @@ class _SubscriptionPlanCard extends StatelessWidget {
                         ),
                         if (totalPrice != null) ...[
                           const SizedBox(height: 8),
-                          Row(
-                            children: [
-                              if (originalPrice != null) ...[
-                                Flexible(
-                                  child: Text(
-                                    originalPrice!,
-                                    maxLines: 1,
-                                    overflow: TextOverflow.ellipsis,
-                                    style: const TextStyle(
-                                      color: Color(0xFFD93838),
-                                      fontSize: 14,
-                                      fontWeight: FontWeight.w600,
-                                      decoration: TextDecoration.lineThrough,
-                                      decorationColor: Color(0xFFD93838),
-                                      decorationThickness: 1.8,
-                                    ),
-                                  ),
-                                ),
-                                const SizedBox(width: 10),
-                              ],
-                              Flexible(
-                                child: Text(
-                                  totalPrice!,
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: TextStyle(
-                                    color: selected
-                                        ? const Color(0xFF061541)
-                                        : Colors.white,
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w700,
-                                  ),
-                                ),
+                          if (originalPrice != null) ...[
+                            Text(
+                              originalPrice!,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: const TextStyle(
+                                color: Color(0xFFD93838),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w600,
+                                decoration: TextDecoration.lineThrough,
+                                decorationColor: Color(0xFFD93838),
+                                decorationThickness: 1.8,
                               ),
-                            ],
+                            ),
+                            const SizedBox(height: 3),
+                          ],
+                          Text(
+                            totalPrice!,
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: TextStyle(
+                              color: selected
+                                  ? const Color(0xFF061541)
+                                  : Colors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w700,
+                            ),
                           ),
                         ],
                       ],
@@ -666,10 +747,10 @@ class _SubscriptionPlanCard extends StatelessWidget {
               ),
               if (badgeLabel != null)
                 Positioned(
-                  // The Stack is inside the card's top padding. Move the
-                  // badge above that padding so it never covers the plan.
-                  top: -40,
-                  left: -24,
+                  // The Stack starts inside the card's top padding, so this
+                  // places the badge flush with the card's top edge.
+                  top: -32,
+                  left: -22,
                   child: Container(
                     padding: const EdgeInsets.symmetric(
                       horizontal: 11,
@@ -681,19 +762,15 @@ class _SubscriptionPlanCard extends StatelessWidget {
                         begin: Alignment.topLeft,
                         end: Alignment.bottomRight,
                       ),
-                      borderRadius: BorderRadius.circular(13),
+                      borderRadius: const BorderRadius.only(
+                        topLeft: Radius.circular(13),
+                        topRight: Radius.circular(13),
+                        bottomRight: Radius.circular(13),
+                      ),
                       border: Border.all(
                         color: Colors.white.withValues(alpha: 0.92),
                         width: 1.2,
                       ),
-                      boxShadow: const [
-                        BoxShadow(
-                          color: Color(0xCC1684FF),
-                          blurRadius: 12,
-                          spreadRadius: 1,
-                          offset: Offset(0, 3),
-                        ),
-                      ],
                     ),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
@@ -719,7 +796,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                 ),
               if (selected)
                 Positioned(
-                  top: -30,
+                  top: badgeLabel != null ? -40 : -30,
                   right: -27,
                   child: Container(
                     width: 35,
@@ -816,6 +893,103 @@ class _SubscriptionStartButton extends StatelessWidget {
             ),
           ),
         ),
+      ),
+    );
+  }
+}
+
+class _SubscriptionLegalFooter extends StatelessWidget {
+  const _SubscriptionLegalFooter({
+    required this.isRestoring,
+    required this.onRestore,
+  });
+
+  final bool isRestoring;
+  final VoidCallback onRestore;
+
+  @override
+  Widget build(BuildContext context) {
+    const footerTextColor = Color(0xFFBBD7FF);
+    const footerMutedColor = Color(0xFF8EB8F5);
+
+    return Container(
+      key: const ValueKey('subscription-legal-footer'),
+      width: double.infinity,
+      padding: const EdgeInsets.fromLTRB(14, 8, 14, 10),
+      decoration: BoxDecoration(
+        color: const Color(0x40061A58),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: const Color(0x444F8FFF)),
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          TextButton.icon(
+            key: const ValueKey('subscription-restore'),
+            onPressed: isRestoring ? null : onRestore,
+            style: TextButton.styleFrom(
+              foregroundColor: footerTextColor,
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 5),
+              minimumSize: const Size(0, 36),
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+            ),
+            icon: isRestoring
+                ? const SizedBox.square(
+                    dimension: 17,
+                    child: CircularProgressIndicator(
+                      color: footerTextColor,
+                      strokeWidth: 2,
+                    ),
+                  )
+                : const Icon(Icons.restore_rounded, size: 20),
+            label: Text(
+              context.l10n.text('subscriptionRestore'),
+              style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700),
+            ),
+          ),
+          const SizedBox(height: 3),
+          Wrap(
+            alignment: WrapAlignment.center,
+            crossAxisAlignment: WrapCrossAlignment.center,
+            spacing: 9,
+            runSpacing: 2,
+            children: [
+              _LegalFooterLink(
+                key: const ValueKey('subscription-terms'),
+                label: context.l10n.text('subscriptionTerms'),
+              ),
+              const Text(
+                '•',
+                style: TextStyle(color: footerMutedColor, fontSize: 13),
+              ),
+              _LegalFooterLink(
+                key: const ValueKey('subscription-privacy'),
+                label: context.l10n.text('subscriptionPrivacy'),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _LegalFooterLink extends StatelessWidget {
+  const _LegalFooterLink({super.key, required this.label});
+
+  final String label;
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      label,
+      textAlign: TextAlign.center,
+      style: const TextStyle(
+        color: Color(0xFF8EB8F5),
+        fontSize: 12.5,
+        fontWeight: FontWeight.w500,
+        decoration: TextDecoration.underline,
+        decorationColor: Color(0xFF8EB8F5),
       ),
     );
   }

@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/localization/app_localizations.dart';
+import '../../../core/services/daily_notification_service.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class SplashScreen extends ConsumerStatefulWidget {
@@ -42,14 +43,30 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
       await Future.wait([initialization, minimumDisplay]);
       final destination = await initialization;
       if (!mounted) return;
-      context.go(switch (destination) {
-        AppStartupDestination.languageOnboarding => '/onboarding/language',
-        AppStartupDestination.assessmentIntro => '/onboarding/assessment-intro',
-        AppStartupDestination.freeTrialOffer =>
-          '/onboarding/assessment-intro/survey/free-trial',
-        AppStartupDestination.subscriptionPlan => '/subscription_plan',
-        AppStartupDestination.home => '/',
-      });
+      var openedFromSaleNotification = false;
+      try {
+        await DailyNotificationService.instance.initialize();
+        openedFromSaleNotification = DailyNotificationService.instance
+            .takePendingSaleNotificationTap();
+      } on Object {
+        // Notification support is optional and must not block app startup.
+      }
+
+      if (!mounted) return;
+      context.go(
+        openedFromSaleNotification
+            ? '/sale_package'
+            : switch (destination) {
+                AppStartupDestination.languageOnboarding =>
+                  '/onboarding/language',
+                AppStartupDestination.assessmentIntro =>
+                  '/onboarding/assessment-intro',
+                AppStartupDestination.freeTrialOffer =>
+                  '/onboarding/assessment-intro/survey/free-trial',
+                AppStartupDestination.subscriptionPlan => '/subscription_plan',
+                AppStartupDestination.home => '/',
+              },
+      );
     } catch (error) {
       await minimumDisplay;
       if (!mounted) return;

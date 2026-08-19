@@ -51,6 +51,7 @@ dependencies:
     record: ^7.1.1
     youtube_player_iframe: ^6.0.2
     # 3.18.3+ fixes the iOS AuthenticationChallengeResponse native crash.
+    webview_flutter: ^4.14.1
     webview_flutter_wkwebview: ^3.26.0
     shared_preferences: ^2.5.3
 
