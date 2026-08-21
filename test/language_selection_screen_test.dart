@@ -61,19 +61,6 @@ void main() {
     );
     await tester.tap(find.byKey(const ValueKey('app-language-de')));
     await tester.tap(find.byKey(const ValueKey('language-selection-save')));
-    await tester.pump();
-
-    expect(
-      find.byKey(const ValueKey('language-model-download-progress')),
-      findsOneWidget,
-    );
-    expect(
-      find.byKey(const ValueKey('language-model-download-status')),
-      findsOneWidget,
-    );
-    expect(find.text('40%'), findsOneWidget);
-
-    modelDownload.complete();
     await tester.pumpAndSettle();
 
     final preferences = await SharedPreferences.getInstance();
@@ -81,6 +68,11 @@ void main() {
     expect(container.read(selectedAppLanguageProvider), 'de');
     expect(preferences.getString(AppLanguageService.selectedLanguageKey), 'de');
     expect(preferences.getString(AppLanguageService.nativeLanguageKey), 'de');
+
+    // ML Kit continues in the background and is not required to finish the
+    // language-package migration. Complete the fake download to avoid
+    // leaving a pending future in the test container.
+    modelDownload.complete();
   });
 }
 

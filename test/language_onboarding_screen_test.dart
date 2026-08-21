@@ -184,7 +184,11 @@ void main() {
 
     expect(
       await freeTrialContainer.read(applicationInitializationProvider.future),
-      AppStartupDestination.freeTrialOffer,
+      AppStartupDestination.home,
+    );
+    expect(
+      preferences.getBool(AppLanguageService.onboardingCompletedKey),
+      isTrue,
     );
 
     await preferences.setBool(AppLanguageService.onboardingCompletedKey, true);
@@ -208,6 +212,30 @@ void main() {
       AppStartupDestination.home,
     );
     expect(returningUserContainer.read(selectedAppLanguageProvider), 'vi');
+  });
+
+  test('keeps non-premium users on the post-carousel offer flow', () async {
+    SharedPreferences.setMockInitialValues({
+      AppLanguageService.selectedLanguageKey: 'vi',
+      AppLanguageService.carouselCompletedKey: true,
+    });
+    final container = ProviderContainer(
+      overrides: [
+        remoteUserProfileProvider.overrideWith(
+          (ref) async => profile(databaseVersion: 7, isPremium: false),
+        ),
+        authLoginInitializationProvider.overrideWith((ref) async {}),
+        languagePackageInitializationProvider.overrideWith((ref) async {}),
+        localDataInitializationProvider.overrideWith((ref) async {}),
+        selectedTopicOrdersHydrationProvider.overrideWith((ref) async {}),
+      ],
+    );
+    addTearDown(container.dispose);
+
+    expect(
+      await container.read(applicationInitializationProvider.future),
+      AppStartupDestination.freeTrialOffer,
+    );
   });
 
   test(

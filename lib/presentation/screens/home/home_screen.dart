@@ -15,6 +15,7 @@ import '../../../presentation/widgets/app_bottom_sheet.dart';
 import '../../../data/services/home_main_task_service.dart';
 import '../../../data/models/topic.dart';
 import '../../../presentation/widgets/leximon_widgets.dart';
+import '../update_subscription/update_subscription_screen.dart';
 import '../../../shared/providers/app_providers.dart';
 import '../repetition_practice/repetition_practice_screen.dart';
 import '../review_practice/review_practice_screen.dart';
@@ -338,8 +339,64 @@ class _LearningHeader extends StatelessWidget {
             ],
           ),
         ),
+        const _VipButton(),
+        const SizedBox(width: 8),
         const _NotificationButton(),
       ],
+    );
+  }
+}
+
+class _VipButton extends StatelessWidget {
+  const _VipButton();
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      button: true,
+      label: 'Nâng cấp gói VIP',
+      child: Container(
+        width: 40,
+        height: 40,
+        decoration: const BoxDecoration(
+          borderRadius: BorderRadius.all(Radius.circular(16)),
+          boxShadow: [
+            BoxShadow(
+              color: Color(0x1A3478B9),
+              blurRadius: 18,
+              offset: Offset(0, 8),
+            ),
+          ],
+        ),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(12),
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 14, sigmaY: 14),
+            child: Material(
+              color: Colors.white.withValues(alpha: .76),
+              child: InkWell(
+                key: const ValueKey('home-vip-button'),
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute<void>(
+                      builder: (_) => const UpdateSubscriptionScreen(),
+                    ),
+                  );
+                },
+                child: Center(
+                  child: Image.asset(
+                    'assets/images/in_app_purchase/vip_icon.png',
+                    key: const ValueKey('home-vip-icon'),
+                    width: 27,
+                    height: 24,
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

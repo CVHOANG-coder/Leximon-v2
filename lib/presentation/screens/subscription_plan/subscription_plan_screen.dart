@@ -101,17 +101,12 @@ class _SubscriptionPlanScreenState
 
     return Column(
       children: [
-        for (final plan in packages) ...[
-          _SubscriptionPlanCard(
-            key: ValueKey('subscription-plan-${plan.productId}'),
-            package: plan,
-            product: catalog?.productFor(plan),
-            selected: plan.productId == package.productId,
-            featured: plan.productId == featuredPackage?.productId,
-            onTap: () => setState(() => _selectedProductId = plan.productId),
-          ),
-          if (plan != packages.last) const SizedBox(height: 14),
-        ],
+        ..._buildPlanCards(
+          packages: packages,
+          catalog: catalog,
+          selectedPackage: package,
+          featuredPackage: featuredPackage,
+        ),
         const SizedBox(height: 16),
         const _SubscriptionBenefitsCard(),
         const SizedBox(height: 22),
@@ -154,6 +149,8 @@ class _SubscriptionPlanScreenState
           enabled: selectedProduct != null && currentPrice != null,
           onTap: _startSubscription,
         ),
+        // Temporarily hide the standalone "Free trial only" action.
+        /*
         const SizedBox(height: 11),
         SizedBox(
           width: double.infinity,
@@ -176,8 +173,44 @@ class _SubscriptionPlanScreenState
             ),
           ),
         ),
+        */
       ],
     );
+  }
+
+  List<Widget> _buildPlanCards({
+    required List<IapPackage> packages,
+    required IapCatalog? catalog,
+    required IapPackage selectedPackage,
+    required IapPackage? featuredPackage,
+  }) {
+    final children = <Widget>[];
+    for (var index = 0; index < packages.length; index++) {
+      final plan = packages[index];
+      final isFeatured = plan.productId == featuredPackage?.productId;
+      final previousIsFeatured =
+          index > 0 &&
+          packages[index - 1].productId == featuredPackage?.productId;
+      final nextIsFeatured =
+          index + 1 < packages.length &&
+          packages[index + 1].productId == featuredPackage?.productId;
+
+      children.add(
+        _SubscriptionPlanCard(
+          key: ValueKey('subscription-plan-${plan.productId}'),
+          package: plan,
+          product: catalog?.productFor(plan),
+          selected: plan.productId == selectedPackage.productId,
+          featured: isFeatured,
+          topSpacing: isFeatured || previousIsFeatured ? 16 : 5,
+          onTap: () => setState(() => _selectedProductId = plan.productId),
+        ),
+      );
+      if (index + 1 < packages.length) {
+        children.add(SizedBox(height: isFeatured || nextIsFeatured ? 14 : 5));
+      }
+    }
+    return children;
   }
 
   IapPackage? _selectedPackage(List<IapPackage> packages, IapCatalog? catalog) {
@@ -237,7 +270,14 @@ class _SubscriptionPlanScreenState
         return;
       }
 
-      ref.invalidate(remoteUserProfileProvider);
+      final isPremium = await _reloadPremiumProfile();
+      if (!mounted) return;
+      if (!isPremium) {
+        setState(() => _isSubmitting = false);
+        _showPurchaseMessage(context.l10n.text('iapVerificationFailed'));
+        return;
+      }
+
       await ref.read(appLanguageServiceProvider).completeOnboarding();
       if (!mounted) return;
       context.go('/');
@@ -248,20 +288,39 @@ class _SubscriptionPlanScreenState
     }
   }
 
-  String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {
-    IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
-      'iapStoreUnavailable',
-    ),
-    IapPurchaseResultStatus.productUnavailable => context.l10n.text(
-      'iapProductUnavailable',
-    ),
-    IapPurchaseResultStatus.verificationFailed =>
-      result.message?.trim().isNotEmpty == true
-          ? result.message!
-          : context.l10n.text('iapVerificationFailed'),
-    IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
-    _ => context.l10n.text('iapPurchaseFailed'),
-  };
+  Future<bool> _reloadPremiumProfile() async {
+    for (var attempt = 0; attempt < 3; attempt++) {
+      try {
+        final profile = await ref.refresh(remoteUserProfileProvider.future);
+        if (profile.isPremium) return true;
+      } on Object {
+        // The backend may still be processing the receipt. Retry below.
+      }
+      if (attempt < 2) {
+        await Future<void>.delayed(Duration(milliseconds: 300 * (attempt + 1)));
+      }
+    }
+    return false;
+  }
+
+  String _purchaseMessage(IapPurchaseResult result) {
+    final detail = result.message?.trim();
+    if (detail?.isNotEmpty == true) return detail!;
+
+    return switch (result.status) {
+      IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
+        'iapStoreUnavailable',
+      ),
+      IapPurchaseResultStatus.productUnavailable => context.l10n.text(
+        'iapProductUnavailable',
+      ),
+      IapPurchaseResultStatus.verificationFailed => context.l10n.text(
+        'iapVerificationFailed',
+      ),
+      IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
+      _ => context.l10n.text('iapPurchaseFailed'),
+    };
+  }
 
   void _showPurchaseMessage(String message) {
     if (!mounted) return;
@@ -341,6 +400,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
     required this.product,
     required this.selected,
     required this.featured,
+    required this.topSpacing,
     required this.onTap,
   });
 
@@ -348,12 +408,13 @@ class _SubscriptionPlanCard extends StatelessWidget {
   final ProductDetails? product;
   final bool selected;
   final bool featured;
+  final double topSpacing;
   final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
     final currentPrice = _displayPrice(product);
-    final monthlyPrice = _monthlyPrice(context, product, package);
+    final weeklyPrice = _weeklyPrice(context, product, package);
     final originalPrice = featured
         ? _formatStorePrice(context, product, multiplier: 2.27)
         : null;
@@ -368,7 +429,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
             borderRadius: BorderRadius.circular(22),
             child: Container(
               width: double.infinity,
-              margin: EdgeInsets.only(top: 16),
+              margin: EdgeInsets.only(top: topSpacing),
               padding: EdgeInsets.fromLTRB(12, 16, 12, 24),
               decoration: BoxDecoration(
                 color: selected ? Colors.white : const Color(0xFFFCFEFF),
@@ -446,7 +507,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                       ],
                     ),
                   ),
-                  if (monthlyPrice != null) ...[
+                  if (weeklyPrice != null) ...[
                     const SizedBox(width: 10),
                     SizedBox(
                       width: 126,
@@ -455,7 +516,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                           TextSpan(
                             children: [
                               TextSpan(
-                                text: monthlyPrice,
+                                text: weeklyPrice,
                                 style: const TextStyle(
                                   color: Color(0xFF2168E8),
                                   fontSize: 17,
@@ -463,7 +524,7 @@ class _SubscriptionPlanCard extends StatelessWidget {
                                 ),
                               ),
                               TextSpan(
-                                text: ' ${context.l10n.text('salePerMonth')}',
+                                text: ' ${context.l10n.text('salePerWeek')}',
                                 style: const TextStyle(
                                   color: Color(0xFF657492),
                                   fontSize: 13,
@@ -560,24 +621,20 @@ class _SubscriptionPlanCard extends StatelessWidget {
     return price?.isNotEmpty == true ? price : null;
   }
 
-  String? _monthlyPrice(
+  String? _weeklyPrice(
     BuildContext context,
     ProductDetails? product,
     IapPackage package,
   ) {
     if (product == null ||
-        package.packDurationDay < 28 ||
+        package.packDurationDay <= 0 ||
         !product.rawPrice.isFinite ||
         product.rawPrice <= 0) {
       return null;
     }
-    final months = (package.packDurationDay / 30).round();
-    if (months <= 0) return null;
-    return _formatStorePrice(
-      context,
-      product,
-      amount: product.rawPrice / months,
-    );
+    final amount = product.rawPrice * 7 / package.packDurationDay;
+    if (!amount.isFinite || amount <= 0) return null;
+    return _formatStorePrice(context, product, amount: amount);
   }
 
   String? _formatStorePrice(

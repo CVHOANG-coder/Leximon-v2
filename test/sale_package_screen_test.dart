@@ -73,10 +73,17 @@ void main() {
       find.byKey(const ValueKey('home-notification-button')),
     );
     expect(notificationButton.onTap, isNull);
-    await tester.pump();
-    await tester.pump(const Duration(milliseconds: 350));
-
-    expect(find.byKey(const ValueKey('subscription-screen')), findsNothing);
+    final vipButton = tester.widget<InkWell>(
+      find.byKey(const ValueKey('home-vip-button')),
+    );
+    expect(vipButton.onTap, isNotNull);
+    expect(find.byKey(const ValueKey('home-vip-icon')), findsOneWidget);
+    await tester.tap(find.byKey(const ValueKey('home-vip-button')));
+    await tester.pumpAndSettle();
+    expect(
+      find.byKey(const ValueKey('update-subscription-screen')),
+      findsOneWidget,
+    );
   });
 }
 

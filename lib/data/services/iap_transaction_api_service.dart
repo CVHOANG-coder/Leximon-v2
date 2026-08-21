@@ -70,4 +70,23 @@ class IapTransactionBuyResponse {
   final bool success;
   final String message;
   final Map<String, dynamic> data;
+
+  /// The backend returns the user's current entitlement after processing the
+  /// transaction. A successful request can still contain `isPremium: false`
+  /// when the transaction is an expired renewal that only needed cleanup.
+  bool? get isPremium {
+    final value = data['isPremium'];
+    return value is bool ? value : null;
+  }
+
+  String? get lifetimeProductId {
+    final value = data['lifetimeProductId'];
+    return value is String && value.isNotEmpty ? value : null;
+  }
+
+  Set<String> get ownedProductIds {
+    final value = data['ownedProductIds'];
+    if (value is! List) return const {};
+    return value.map((item) => item.toString()).toSet();
+  }
 }

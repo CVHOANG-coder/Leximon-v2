@@ -148,6 +148,8 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
           label: context.l10n.text('saleStartTrial'),
           onTap: _buy,
         ),
+        // Temporarily hide the "Later" action.
+        /*
         const SizedBox(height: 11),
         SizedBox(
           width: double.infinity,
@@ -170,6 +172,7 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
             ),
           ),
         ),
+        */
       ],
     );
   }

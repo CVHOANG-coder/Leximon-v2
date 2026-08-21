@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:leximon/core/services/app_language_service.dart';
 import 'package:leximon/data/models/onboarding_vocabulary_test.dart';
 import 'package:leximon/data/services/onboarding_vocabulary_test_service.dart';
+import 'package:leximon/data/models/user_profile_response.dart';
 import 'package:leximon/presentation/screens/onboarding/assessment_level_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/free_trial_offer_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/level_assessment_intro_screen.dart';
@@ -15,6 +16,7 @@ import 'package:leximon/presentation/screens/onboarding/survey_intro_screen.dart
 import 'package:leximon/presentation/screens/onboarding/subscription_plan_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/trial_reminder_screen.dart';
 import 'package:leximon/presentation/screens/onboarding/vocabulary_test_screen.dart';
+import 'package:leximon/shared/providers/app_providers.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
@@ -175,7 +177,31 @@ void main() {
     addTearDown(router.dispose);
 
     await tester.pumpWidget(
-      ProviderScope(child: MaterialApp.router(routerConfig: router)),
+      ProviderScope(
+        overrides: [
+          remoteUserProfileProvider.overrideWith(
+            (ref) async => const UserProfile(
+              id: 1,
+              userCode: 'test-user',
+              email: 'test@example.com',
+              username: 'Test User',
+              avatar: '',
+              platform: 'IOS',
+              country: 'VN',
+              isPremium: false,
+              createdAt: null,
+              language: 'vi',
+              appVersion: '1.0.0',
+              databaseVersion: 1,
+              notificationEnabled: false,
+              subscription: null,
+              ownedProducts: const [],
+              ownedProductIds: const [],
+            ),
+          ),
+        ],
+        child: MaterialApp.router(routerConfig: router),
+      ),
     );
 
     expect(find.text('Làm bài kiểm tra ngắn'), findsNWidgets(2));

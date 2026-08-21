@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:google_mlkit_translation/google_mlkit_translation.dart';
 
 abstract class ReadingWordTranslator {
@@ -38,10 +40,20 @@ abstract class LanguageModelDownloader {
 /// bytes. Progress therefore represents completed model steps rather than an
 /// estimated network byte percentage.
 class MlKitLanguageModelDownloader implements LanguageModelDownloader {
-  MlKitLanguageModelDownloader({OnDeviceTranslatorModelManager? modelManager})
-    : _modelManager = modelManager ?? OnDeviceTranslatorModelManager();
+  MlKitLanguageModelDownloader({
+    OnDeviceTranslatorModelManager? modelManager,
+    this.operationTimeout = const Duration(seconds: 60),
+    this.maxAttempts = 3,
+    this.retryDelay = const Duration(seconds: 2),
+  }) : _modelManager = modelManager ?? OnDeviceTranslatorModelManager(),
+       assert(maxAttempts > 0),
+       assert(retryDelay >= Duration.zero);
 
   final OnDeviceTranslatorModelManager _modelManager;
+  final Duration operationTimeout;
+  final int maxAttempts;
+  final Duration retryDelay;
+  final _inFlightDownloads = <String, Future<void>>{};
 
   @override
   Future<void> downloadRequiredModels({
@@ -66,6 +78,58 @@ class MlKitLanguageModelDownloader implements LanguageModelDownloader {
       return;
     }
 
+    final languageKey = targetLanguage.bcpCode;
+    final existing = _inFlightDownloads[languageKey];
+    if (existing != null) {
+      await existing;
+      return;
+    }
+
+    final download = _downloadWithRetry(
+      targetLanguage: targetLanguage,
+      onProgress: onProgress,
+    );
+    _inFlightDownloads[languageKey] = download;
+    try {
+      await download;
+    } finally {
+      if (identical(_inFlightDownloads[languageKey], download)) {
+        _inFlightDownloads.remove(languageKey);
+      }
+    }
+  }
+
+  Future<void> _downloadWithRetry({
+    required TranslateLanguage targetLanguage,
+    required LanguageModelProgressCallback? onProgress,
+  }) async {
+    Object? lastError;
+    StackTrace? lastStackTrace;
+
+    for (var attempt = 1; attempt <= maxAttempts; attempt++) {
+      try {
+        await _downloadOnce(
+          targetLanguage: targetLanguage,
+          onProgress: onProgress,
+        );
+        return;
+      } on Object catch (error, stackTrace) {
+        lastError = error;
+        lastStackTrace = stackTrace;
+        if (attempt == maxAttempts) break;
+        if (retryDelay > Duration.zero) {
+          await Future<void>.delayed(retryDelay * attempt);
+        }
+      }
+    }
+
+    Error.throwWithStackTrace(lastError!, lastStackTrace!);
+  }
+
+  Future<void> _downloadOnce({
+    required TranslateLanguage targetLanguage,
+    required LanguageModelProgressCallback? onProgress,
+  }) async {
     final languages = [TranslateLanguage.english, targetLanguage];
     var completedModels = 0;
     for (var index = 0; index < languages.length; index++) {
@@ -79,7 +143,9 @@ class MlKitLanguageModelDownloader implements LanguageModelDownloader {
           languageCode: code,
         ),
       );
-      final isDownloaded = await _modelManager.isModelDownloaded(code);
+      final isDownloaded = await _modelManager
+          .isModelDownloaded(code)
+          .timeout(operationTimeout);
       if (!isDownloaded) {
         onProgress?.call(
           LanguageModelDownloadProgress(
@@ -90,10 +156,9 @@ class MlKitLanguageModelDownloader implements LanguageModelDownloader {
             languageCode: code,
           ),
         );
-        final downloaded = await _modelManager.downloadModel(
-          code,
-          isWifiRequired: false,
-        );
+        final downloaded = await _modelManager
+            .downloadModel(code, isWifiRequired: false)
+            .timeout(operationTimeout);
         if (!downloaded) {
           throw StateError('Could not download the ML Kit $code model.');
         }

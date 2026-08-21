@@ -987,6 +987,12 @@ class _ReadingTranslatedWordSheetState
     extends State<_ReadingTranslatedWordSheet> {
   Future<String>? _translation;
 
+  void _retryTranslation() {
+    setState(() {
+      _translation = Future<String>.sync(widget.translate);
+    });
+  }
+
   @override
   void initState() {
     super.initState();
@@ -1062,15 +1068,33 @@ class _ReadingTranslatedWordSheetState
                     }
                     if (snapshot.hasError ||
                         (snapshot.data?.trim().isEmpty ?? true)) {
-                      return Text(
-                        context.l10n.text('readingTranslationError'),
-                        key: ValueKey('reading-word-translation-error'),
-                        style: TextStyle(
-                          color: AppColors.textSecondary,
-                          fontSize: 14,
-                          height: 1.4,
-                          fontWeight: FontWeight.w600,
-                        ),
+                      return Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            context.l10n.text('readingTranslationError'),
+                            key: ValueKey('reading-word-translation-error'),
+                            style: TextStyle(
+                              color: AppColors.textSecondary,
+                              fontSize: 14,
+                              height: 1.4,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          TextButton(
+                            key: const ValueKey(
+                              'reading-word-translation-retry',
+                            ),
+                            onPressed: _retryTranslation,
+                            style: TextButton.styleFrom(
+                              padding: EdgeInsets.zero,
+                              minimumSize: Size.zero,
+                              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                            ),
+                            child: Text(context.l10n.retry),
+                          ),
+                        ],
                       );
                     }
                     return Text(

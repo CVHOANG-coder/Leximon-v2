@@ -16,7 +16,11 @@ void main() {
           jsonEncode({
             'success': true,
             'message': 'Purchase verified',
-            'data': {'active': true},
+            'data': {
+              'isPremium': true,
+              'lifetimeProductId': null,
+              'ownedProductIds': ['com.example.annual.sale'],
+            },
           }),
           200,
           headers: const {'content-type': 'application/json'},
@@ -46,6 +50,8 @@ void main() {
       },
     });
     expect(response.success, isTrue);
-    expect(response.data['active'], isTrue);
+    expect(response.isPremium, isTrue);
+    expect(response.lifetimeProductId, isNull);
+    expect(response.ownedProductIds, {'com.example.annual.sale'});
   });
 }

@@ -80,6 +80,20 @@ enum SkillPackType {
   };
 }
 
+/// Returns whether the backend explicitly reported ownership of this pack.
+/// Null means the response did not include ownership data and the profile
+/// should be refreshed before deciding the purchase failed.
+bool? ownsSkillPackFromPurchaseResult({
+  required IapPurchaseResult result,
+  required String productId,
+}) {
+  final response = result.verificationResponse;
+  if (response == null || !response.data.containsKey('ownedProductIds')) {
+    return null;
+  }
+  return response.ownedProductIds.contains(productId);
+}
+
 class SkillPackPurchaseScreen extends ConsumerStatefulWidget {
   const SkillPackPurchaseScreen({required this.skill, super.key});
 
@@ -341,12 +355,27 @@ class _SkillPackPurchaseScreenState
           .read(iapPurchaseServiceProvider)
           .purchase(package: package, product: product);
       if (!mounted) return;
-      setState(() => _isPurchasing = false);
       if (result.isSuccess) {
+        final responseOwnership = ownsSkillPackFromPurchaseResult(
+          result: result,
+          productId: package.productId,
+        );
+        final ownsPack = responseOwnership == true
+            ? true
+            : await _reloadOwnedSkillPack(package.productId);
+        if (!mounted) return;
+        if (!ownsPack) {
+          setState(() => _isPurchasing = false);
+          _showMessage(context.l10n.text('iapVerificationFailed'));
+          return;
+        }
+
+        setState(() => _isPurchasing = false);
         ref.invalidate(remoteUserProfileProvider);
         Navigator.of(context).pop(true);
         return;
       }
+      setState(() => _isPurchasing = false);
       if (result.status != IapPurchaseResultStatus.canceled) {
         _showMessage(_purchaseMessage(result));
       }
@@ -355,6 +384,21 @@ class _SkillPackPurchaseScreenState
       setState(() => _isPurchasing = false);
       _showMessage(context.l10n.text('skillPackPurchaseError'));
     }
+  }
+
+  Future<bool> _reloadOwnedSkillPack(String productId) async {
+    for (var attempt = 0; attempt < 5; attempt++) {
+      try {
+        final profile = await ref.refresh(remoteUserProfileProvider.future);
+        if (profile.ownedProductIds.contains(productId)) return true;
+      } on Object {
+        // The backend may still be processing the transaction.
+      }
+      if (attempt < 4) {
+        await Future<void>.delayed(Duration(milliseconds: 400 * (attempt + 1)));
+      }
+    }
+    return false;
   }
 
   String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {

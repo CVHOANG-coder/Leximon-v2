@@ -83,6 +83,52 @@ void main() {
     expect(find.textContaining(r'$'), findsNothing);
     expect(tester.takeException(), isNull);
   });
+
+  testWidgets('uses the singular week label for normalized prices', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        child: MaterialApp(
+          locale: const Locale('en'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+          ],
+          home: const onboarding_subscription.SubscriptionPlanScreen(),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.textContaining('/ week'), findsOneWidget);
+    expect(find.textContaining('weeks'), findsNothing);
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [iapCatalogProvider.overrideWith((ref) async => _catalog)],
+        child: MaterialApp(
+          locale: const Locale('en'),
+          supportedLocales: AppLocalizations.supportedLocales,
+          localizationsDelegates: const [
+            AppLocalizations.delegate,
+            GlobalMaterialLocalizations.delegate,
+            GlobalCupertinoLocalizations.delegate,
+            GlobalWidgetsLocalizations.delegate,
+          ],
+          home: const SubscriptionPlanScreen(),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    expect(find.textContaining('/ week'), findsOneWidget);
+    expect(find.textContaining('weeks'), findsNothing);
+  });
 }
 
 final _package = IapPackage(

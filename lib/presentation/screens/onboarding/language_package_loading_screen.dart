@@ -7,7 +7,6 @@ import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
-import '../../../data/services/reading_word_translation_service.dart';
 import '../../../shared/providers/app_providers.dart';
 
 class LanguagePackageLoadingScreen extends ConsumerStatefulWidget {
@@ -21,9 +20,6 @@ class LanguagePackageLoadingScreen extends ConsumerStatefulWidget {
 class _LanguagePackageLoadingScreenState
     extends ConsumerState<LanguagePackageLoadingScreen> {
   Object? _error;
-  double _progress = 0;
-  String _statusKey = 'preparingLanguagePackage';
-  Map<String, Object?> _statusValues = const {};
 
   @override
   void initState() {
@@ -33,33 +29,39 @@ class _LanguagePackageLoadingScreenState
 
   Future<void> _loadPackage() async {
     if (mounted) {
+      ref
+          .read(languagePackageLoadingProgressProvider.notifier)
+          .state = const LanguagePackageLoadingProgress(
+        progress: .08,
+        statusKey: 'preparingLanguagePackage',
+      );
       setState(() {
         _error = null;
-        _progress = .08;
-        _statusKey = 'preparingLanguagePackage';
-        _statusValues = const {};
       });
     }
 
     try {
       await ref.read(languagePackageInitializationProvider.future);
       if (!mounted) return;
-      setState(() {
-        _progress = .4;
-        _statusKey = 'checkingLanguageModels';
-      });
-      await ref
-          .read(languageModelDownloaderProvider)
-          .downloadRequiredModels(
-            targetLanguageCode: ref.read(selectedAppLanguageProvider),
-            onProgress: _applyModelProgress,
-          );
+      ref
+          .read(languagePackageLoadingProgressProvider.notifier)
+          .state = const LanguagePackageLoadingProgress(
+        progress: .97,
+        statusKey: 'checkingLanguageModels',
+      );
+      final languageCode = ref.read(selectedAppLanguageProvider);
+      unawaited(_downloadLanguageModelsInBackground(languageCode));
       if (!mounted) return;
-      setState(() {
-        _progress = 1;
-        _statusKey = 'languageModelsReady';
-        _statusValues = const {};
-      });
+      ref
+          .read(languagePackageLoadingProgressProvider.notifier)
+          .state = const LanguagePackageLoadingProgress(
+        progress: 1,
+        statusKey: 'languageModelsReady',
+      );
+      // Keep the completed state visible long enough for the animated bar to
+      // reach 100% before replacing this route.
+      await Future<void>.delayed(const Duration(milliseconds: 520));
+      if (!mounted) return;
       context.pushReplacement('/onboarding/assessment-intro');
     } catch (error) {
       if (!mounted) return;
@@ -69,23 +71,18 @@ class _LanguagePackageLoadingScreenState
     }
   }
 
-  void _applyModelProgress(LanguageModelDownloadProgress modelProgress) {
-    if (!mounted) return;
-    final current = modelProgress.totalModels == 0
-        ? 0
-        : (modelProgress.completedModels + 1).clamp(
-            1,
-            modelProgress.totalModels,
-          );
-    setState(() {
-      _progress = (.4 + modelProgress.progress * .55).clamp(.4, .95);
-      _statusKey = switch (modelProgress.phase) {
-        LanguageModelDownloadPhase.checking => 'checkingLanguageModels',
-        LanguageModelDownloadPhase.downloading => 'downloadingLanguageModel',
-        LanguageModelDownloadPhase.complete => 'languageModelsReady',
-      };
-      _statusValues = {'current': current, 'total': modelProgress.totalModels};
-    });
+  Future<void> _downloadLanguageModelsInBackground(String languageCode) async {
+    try {
+      await ref
+          .read(languageModelDownloaderProvider)
+          .downloadRequiredModels(targetLanguageCode: languageCode);
+    } on Object catch (error, stackTrace) {
+      // Content loading must not be blocked by an optional offline model.
+      // Reading will retry through the same downloader when translation is
+      // actually requested.
+      debugPrint('Background ML Kit model download failed: $error');
+      debugPrintStack(stackTrace: stackTrace);
+    }
   }
 
   void _retry() {
@@ -96,6 +93,7 @@ class _LanguagePackageLoadingScreenState
   @override
   Widget build(BuildContext context) {
     final error = _error;
+    final loadingProgress = ref.watch(languagePackageLoadingProgressProvider);
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: const SystemUiOverlayStyle(
         statusBarColor: Colors.transparent,
@@ -170,9 +168,9 @@ class _LanguagePackageLoadingScreenState
                         ),
                         if (error == null)
                           _LanguagePackageProgress(
-                            progress: _progress,
-                            statusKey: _statusKey,
-                            statusValues: _statusValues,
+                            progress: loadingProgress.progress,
+                            statusKey: loadingProgress.statusKey,
+                            statusValues: loadingProgress.statusValues,
                           )
                         else
                           _LanguagePackageError(onRetry: _retry),
@@ -205,52 +203,63 @@ class _LanguagePackageProgress extends StatelessWidget {
     return Column(
       key: const ValueKey('language-package-loading-progress'),
       children: [
-        ClipRRect(
-          borderRadius: BorderRadius.circular(999),
-          child: SizedBox(
-            height: 17,
-            child: LinearProgressIndicator(
-              value: progress,
-              backgroundColor: Color(0xFFDCE9F9),
-              color: Color(0xFF0964FF),
-              minHeight: 17,
-            ),
-          ),
-        ),
-        const SizedBox(height: 12),
-        Row(
-          children: [
-            Expanded(
-              child: Text(
-                context.l10n.text(statusKey, values: statusValues),
-                key: const ValueKey('language-package-loading-status'),
-                style: const TextStyle(
-                  color: AppColors.primaryDark,
-                  fontSize: 20,
-                  fontWeight: FontWeight.w900,
+        TweenAnimationBuilder<double>(
+          tween: Tween<double>(begin: 0, end: progress),
+          duration: const Duration(milliseconds: 450),
+          curve: Curves.easeOutCubic,
+          builder: (context, animatedProgress, _) {
+            return Column(
+              children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(999),
+                  child: SizedBox(
+                    height: 17,
+                    child: LinearProgressIndicator(
+                      value: animatedProgress,
+                      backgroundColor: const Color(0xFFDCE9F9),
+                      color: const Color(0xFF0964FF),
+                      minHeight: 17,
+                    ),
+                  ),
                 ),
-              ),
-            ),
-            Text(
-              '${(progress * 100).round()}%',
-              key: const ValueKey('language-package-loading-percent'),
-              style: const TextStyle(
-                color: Color(0xFF0964E9),
-                fontSize: 18,
-                fontWeight: FontWeight.w900,
-              ),
-            ),
-          ],
-        ),
-        const SizedBox(height: 7),
-        Text(
-          context.l10n.text('pleaseWait'),
-          textAlign: TextAlign.center,
-          style: const TextStyle(
-            color: Color(0xFF7A91B2),
-            fontSize: 15,
-            fontWeight: FontWeight.w500,
-          ),
+                const SizedBox(height: 12),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        context.l10n.text(statusKey, values: statusValues),
+                        key: const ValueKey('language-package-loading-status'),
+                        style: const TextStyle(
+                          color: AppColors.primaryDark,
+                          fontSize: 20,
+                          fontWeight: FontWeight.w900,
+                        ),
+                      ),
+                    ),
+                    Text(
+                      '${(animatedProgress * 100).round()}%',
+                      key: const ValueKey('language-package-loading-percent'),
+                      style: const TextStyle(
+                        color: Color(0xFF0964E9),
+                        fontSize: 18,
+                        fontWeight: FontWeight.w900,
+                      ),
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 7),
+                Text(
+                  context.l10n.text('pleaseWait'),
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                    color: Color(0xFF7A91B2),
+                    fontSize: 15,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ],
+            );
+          },
         ),
       ],
     );

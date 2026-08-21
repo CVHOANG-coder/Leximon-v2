@@ -7,6 +7,7 @@ import 'package:go_router/go_router.dart';
 
 import 'core/theme/app_theme.dart';
 import 'core/localization/app_localizations.dart';
+import 'core/services/app_tracking_transparency_service.dart';
 import 'core/services/daily_notification_service.dart';
 import 'data/services/app_usage_service.dart';
 import 'data/models/onboarding_vocabulary_test.dart';
@@ -23,6 +24,7 @@ import 'presentation/screens/onboarding/subscription_plan_screen.dart'
     as onboarding_subscription;
 import 'presentation/screens/subscription_plan/subscription_plan_screen.dart'
     as subscription_plan;
+import 'presentation/screens/update_subscription/update_subscription_screen.dart';
 import 'presentation/screens/onboarding/trial_reminder_screen.dart';
 import 'presentation/screens/onboarding/vocabulary_test_screen.dart';
 import 'presentation/screens/profile/language_selection_screen.dart';
@@ -97,6 +99,10 @@ final _router = GoRouter(
           const subscription_plan.SubscriptionPlanScreen(),
     ),
     GoRoute(
+      path: '/update_subscription',
+      builder: (context, state) => const UpdateSubscriptionScreen(),
+    ),
+    GoRoute(
       path: '/sale_package',
       builder: (context, state) => const SalePackageScreen(),
     ),
@@ -158,6 +164,9 @@ class _AppUsageLifecycleState extends ConsumerState<_AppUsageLifecycle>
     WidgetsBinding.instance.addObserver(this);
     unawaited(_appUsageService.resume());
     unawaited(_initializeNotifications());
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      unawaited(AppTrackingTransparencyService.requestIfNeeded());
+    });
   }
 
   Future<void> _initializeNotifications() async {

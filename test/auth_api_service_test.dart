@@ -5,6 +5,7 @@ import 'package:http/testing.dart';
 import 'package:leximon/core/network/api_client.dart';
 import 'package:leximon/core/services/app_language_service.dart';
 import 'package:leximon/core/services/auth_token_storage.dart';
+import 'package:leximon/core/services/device_id_keychain_storage.dart';
 import 'package:leximon/core/services/device_info_service.dart';
 import 'package:leximon/data/models/auth_login_response.dart';
 import 'package:leximon/data/services/auth_api_service.dart';
@@ -88,6 +89,7 @@ void main() {
       deviceIdentityProvider: _FakeDeviceIdentityProvider(
         const DeviceIdentity(deviceId: 'ios-vendor-id', platform: 'IOS'),
       ),
+      deviceIdStorage: _FakeDeviceIdStorage(),
       languageService: AppLanguageService(),
       packageInfoLoader: () async => PackageInfo(
         appName: 'Leximon',
@@ -103,6 +105,108 @@ void main() {
     expect(payload.containsKey('fcmToken'), isFalse);
     expect(login.data.user.platform, 'ANDROID');
   });
+
+  test(
+    'iOS first login omits old device ID and stores current device ID',
+    () async {
+      SharedPreferences.setMockInitialValues({});
+      late Map<String, dynamic> payload;
+      final deviceIdStorage = _FakeDeviceIdStorage();
+      final client = ApiClient(
+        client: MockClient((request) async {
+          payload = jsonDecode(request.body) as Map<String, dynamic>;
+          return http.Response(loginResponseJson, 200);
+        }),
+        baseUrl: 'https://example.com',
+      );
+      addTearDown(client.close);
+
+      final service = AuthApiService(
+        apiClient: client,
+        deviceIdentityProvider: _FakeDeviceIdentityProvider(
+          const DeviceIdentity(deviceId: 'ios-current-id', platform: 'IOS'),
+        ),
+        deviceIdStorage: deviceIdStorage,
+        languageService: AppLanguageService(),
+        packageInfoLoader: _packageInfo,
+      );
+
+      await service.login();
+
+      expect(payload['deviceId'], 'ios-current-id');
+      expect(payload.containsKey('deviceId_old'), isFalse);
+      expect(deviceIdStorage.savedDeviceId, 'ios-current-id');
+    },
+  );
+
+  test(
+    'iOS login omits old device ID when Keychain ID matches current ID',
+    () async {
+      SharedPreferences.setMockInitialValues({});
+      late Map<String, dynamic> payload;
+      final deviceIdStorage = _FakeDeviceIdStorage(
+        storedDeviceId: 'ios-current-id',
+      );
+      final client = ApiClient(
+        client: MockClient((request) async {
+          payload = jsonDecode(request.body) as Map<String, dynamic>;
+          return http.Response(loginResponseJson, 200);
+        }),
+        baseUrl: 'https://example.com',
+      );
+      addTearDown(client.close);
+
+      final service = AuthApiService(
+        apiClient: client,
+        deviceIdentityProvider: _FakeDeviceIdentityProvider(
+          const DeviceIdentity(deviceId: 'ios-current-id', platform: 'IOS'),
+        ),
+        deviceIdStorage: deviceIdStorage,
+        languageService: AppLanguageService(),
+        packageInfoLoader: _packageInfo,
+      );
+
+      await service.login();
+
+      expect(payload.containsKey('deviceId_old'), isFalse);
+      expect(deviceIdStorage.savedDeviceId, 'ios-current-id');
+    },
+  );
+
+  test(
+    'iOS login sends Keychain ID as old device ID when IDs differ',
+    () async {
+      SharedPreferences.setMockInitialValues({});
+      late Map<String, dynamic> payload;
+      final deviceIdStorage = _FakeDeviceIdStorage(
+        storedDeviceId: 'ios-old-id',
+      );
+      final client = ApiClient(
+        client: MockClient((request) async {
+          payload = jsonDecode(request.body) as Map<String, dynamic>;
+          return http.Response(loginResponseJson, 200);
+        }),
+        baseUrl: 'https://example.com',
+      );
+      addTearDown(client.close);
+
+      final service = AuthApiService(
+        apiClient: client,
+        deviceIdentityProvider: _FakeDeviceIdentityProvider(
+          const DeviceIdentity(deviceId: 'ios-current-id', platform: 'IOS'),
+        ),
+        deviceIdStorage: deviceIdStorage,
+        languageService: AppLanguageService(),
+        packageInfoLoader: _packageInfo,
+      );
+
+      await service.login();
+
+      expect(payload['deviceId'], 'ios-current-id');
+      expect(payload['deviceId_old'], 'ios-old-id');
+      expect(deviceIdStorage.savedDeviceId, 'ios-current-id');
+    },
+  );
 
   test('loads the user profile with the token returned by login', () async {
     SharedPreferences.setMockInitialValues({});
@@ -266,6 +370,29 @@ class _FakeDeviceIdentityProvider implements DeviceIdentityProvider {
   @override
   Future<DeviceIdentity> loadIdentity() async => identity;
 }
+
+class _FakeDeviceIdStorage implements DeviceIdStorage {
+  _FakeDeviceIdStorage({this.storedDeviceId});
+
+  String? storedDeviceId;
+  String? savedDeviceId;
+
+  @override
+  Future<String?> loadDeviceId() async => storedDeviceId;
+
+  @override
+  Future<void> saveDeviceId(String deviceId) async {
+    savedDeviceId = deviceId;
+    storedDeviceId = deviceId;
+  }
+}
+
+Future<PackageInfo> _packageInfo() async => PackageInfo(
+  appName: 'Leximon',
+  packageName: 'com.leximon.leximon',
+  version: '1.0.0',
+  buildNumber: '4',
+);
 
 const loginResponseJson = '''
 {

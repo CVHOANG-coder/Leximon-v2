@@ -148,8 +148,15 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
         return;
       }
 
+      final isPremium = await _reloadPremiumProfile();
+      if (!mounted) return;
+      if (!isPremium) {
+        setState(() => _isSubmitting = false);
+        _showPurchaseMessage(context.l10n.text('iapVerificationFailed'));
+        return;
+      }
+
       DailyNotificationService.instance.markOnboardingSubscriptionCompleted();
-      ref.invalidate(remoteUserProfileProvider);
       await ref.read(appLanguageServiceProvider).completeOnboarding();
       if (!mounted) return;
       context.go('/');
@@ -158,6 +165,21 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       setState(() => _isSubmitting = false);
       _showPurchaseMessage(context.l10n.text('subscriptionCompleteError'));
     }
+  }
+
+  Future<bool> _reloadPremiumProfile() async {
+    for (var attempt = 0; attempt < 3; attempt++) {
+      try {
+        final profile = await ref.refresh(remoteUserProfileProvider.future);
+        if (profile.isPremium) return true;
+      } on Object {
+        // The backend may still be processing the receipt. Retry below.
+      }
+      if (attempt < 2) {
+        await Future<void>.delayed(Duration(milliseconds: 300 * (attempt + 1)));
+      }
+    }
+    return false;
   }
 
   Future<void> _restorePurchases() async {
@@ -176,20 +198,24 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
     }
   }
 
-  String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {
-    IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
-      'iapStoreUnavailable',
-    ),
-    IapPurchaseResultStatus.productUnavailable => context.l10n.text(
-      'iapProductUnavailable',
-    ),
-    IapPurchaseResultStatus.verificationFailed =>
-      result.message?.trim().isNotEmpty == true
-          ? result.message!
-          : context.l10n.text('iapVerificationFailed'),
-    IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
-    _ => context.l10n.text('iapPurchaseFailed'),
-  };
+  String _purchaseMessage(IapPurchaseResult result) {
+    final detail = result.message?.trim();
+    if (detail?.isNotEmpty == true) return detail!;
+
+    return switch (result.status) {
+      IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
+        'iapStoreUnavailable',
+      ),
+      IapPurchaseResultStatus.productUnavailable => context.l10n.text(
+        'iapProductUnavailable',
+      ),
+      IapPurchaseResultStatus.verificationFailed => context.l10n.text(
+        'iapVerificationFailed',
+      ),
+      IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
+      _ => context.l10n.text('iapPurchaseFailed'),
+    };
+  }
 
   void _showPurchaseMessage(String message) {
     ScaffoldMessenger.of(context)
@@ -529,10 +555,7 @@ class _SubscriptionPlanScreenState extends ConsumerState<SubscriptionPlanScreen>
       );
     }
     if (price == null) return null;
-    final weekLabel = context.l10n
-        .text('subscriptionWeeks', values: const {'count': 1})
-        .replaceFirst(RegExp(r'^1\s*'), '');
-    return '$price / $weekLabel';
+    return '$price ${context.l10n.text('salePerWeek')}';
   }
 
   String _formatAmount(double amount) {

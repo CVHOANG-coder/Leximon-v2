@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -7,7 +9,6 @@ import '../../../core/constants/app_colors.dart';
 import '../../../core/localization/app_localizations.dart';
 import '../../../data/datasources/topic_asset_data_source.dart';
 import '../../../data/models/topic_language.dart';
-import '../../../data/services/reading_word_translation_service.dart';
 import '../../../shared/providers/app_providers.dart';
 
 /// Language picker opened from the personal quick settings.
@@ -70,12 +71,7 @@ class _LanguageSelectionScreenState
         _saveProgress = .4;
         _saveStatusKey = 'checkingLanguageModels';
       });
-      await ref
-          .read(languageModelDownloaderProvider)
-          .downloadRequiredModels(
-            targetLanguageCode: nextLanguage,
-            onProgress: _applyModelProgress,
-          );
+      unawaited(_downloadLanguageModelsInBackground(nextLanguage));
       if (!mounted) return;
       setState(() {
         _saveProgress = .96;
@@ -117,26 +113,17 @@ class _LanguageSelectionScreenState
     }
   }
 
-  void _applyModelProgress(LanguageModelDownloadProgress modelProgress) {
-    if (!mounted) return;
-    final current = modelProgress.totalModels == 0
-        ? 0
-        : (modelProgress.completedModels + 1).clamp(
-            1,
-            modelProgress.totalModels,
-          );
-    setState(() {
-      _saveProgress = (.4 + modelProgress.progress * .55).clamp(.4, .95);
-      _saveStatusKey = switch (modelProgress.phase) {
-        LanguageModelDownloadPhase.checking => 'checkingLanguageModels',
-        LanguageModelDownloadPhase.downloading => 'downloadingLanguageModel',
-        LanguageModelDownloadPhase.complete => 'languageModelsReady',
-      };
-      _saveStatusValues = {
-        'current': current,
-        'total': modelProgress.totalModels,
-      };
-    });
+  Future<void> _downloadLanguageModelsInBackground(String languageCode) async {
+    try {
+      await ref
+          .read(languageModelDownloaderProvider)
+          .downloadRequiredModels(targetLanguageCode: languageCode);
+    } on Object catch (error, stackTrace) {
+      // The language package is already usable. Reading will retry the model
+      // download if the background attempt did not succeed.
+      debugPrint('Background ML Kit model download failed: $error');
+      debugPrintStack(stackTrace: stackTrace);
+    }
   }
 
   void _invalidateContentProviders() {

@@ -7,6 +7,7 @@ import '../../core/localization/app_localizations.dart';
 import '../../core/network/api_client.dart';
 import '../../core/services/app_language_service.dart';
 import '../../core/services/auth_token_storage.dart';
+import '../../core/services/device_id_keychain_storage.dart';
 import '../../core/services/device_info_service.dart';
 import '../../core/services/firebase_analytics_service.dart';
 import '../../core/services/firebase_messaging_service.dart';
@@ -109,12 +110,17 @@ final deviceInfoServiceProvider = Provider<DeviceInfoService>(
   (ref) => DeviceInfoService(),
 );
 
+final deviceIdStorageProvider = Provider<DeviceIdStorage>(
+  (ref) => DeviceIdKeychainStorage(),
+);
+
 final authApiServiceProvider = Provider<AuthApiService>((ref) {
   return AuthApiService(
     apiClient: ref.watch(apiClientProvider),
     deviceIdentityProvider: ref.watch(deviceInfoServiceProvider),
     languageService: ref.watch(appLanguageServiceProvider),
     tokenStorage: ref.watch(authTokenStorageProvider),
+    deviceIdStorage: ref.watch(deviceIdStorageProvider),
   );
 });
 
@@ -330,11 +336,53 @@ final localDataInitializationProvider = FutureProvider<void>((ref) {
       .initialize(languageCode: languageCode);
 });
 
+class LanguagePackageLoadingProgress {
+  const LanguagePackageLoadingProgress({
+    required this.progress,
+    required this.statusKey,
+    this.statusValues = const {},
+  });
+
+  final double progress;
+  final String statusKey;
+  final Map<String, Object?> statusValues;
+}
+
+final languagePackageLoadingProgressProvider =
+    StateProvider<LanguagePackageLoadingProgress>(
+      (ref) => const LanguagePackageLoadingProgress(
+        progress: .08,
+        statusKey: 'preparingLanguagePackage',
+      ),
+    );
+
 /// Imports both native-language content packages after selection or when the
 /// splash detects stale content. The sentence package is persisted locally
 /// alongside topics so changing language replaces the previous package.
 final languagePackageInitializationProvider = FutureProvider<void>((ref) async {
   final languageCode = ref.watch(selectedAppLanguageProvider);
+  final progressNotifier = ref.read(
+    languagePackageLoadingProgressProvider.notifier,
+  );
+  var lastProgress = .08;
+
+  void reportProgress(
+    double progress,
+    String statusKey, {
+    Map<String, Object?> statusValues = const {},
+  }) {
+    // The two packages are downloaded concurrently, so either one can finish
+    // first. Never let the visual progress move backwards in that case.
+    final nextProgress = progress < lastProgress ? lastProgress : progress;
+    lastProgress = nextProgress;
+    progressNotifier.state = LanguagePackageLoadingProgress(
+      progress: nextProgress,
+      statusKey: statusKey,
+      statusValues: statusValues,
+    );
+  }
+
+  reportProgress(.08, 'preparingLanguagePackage');
   final sentencePackage = languageCode == 'en'
       // English has no native-language sentence package. Treat it as an
       // intentionally empty package instead of requesting /sentences/en.json.
@@ -342,10 +390,22 @@ final languagePackageInitializationProvider = FutureProvider<void>((ref) async {
       : ref
             .watch(sentenceAssetDataSourceProvider)
             .reload(languageCode: languageCode);
+
+  final topicPackage = ref
+      .watch(topicRepositoryProvider)
+      .reload(languageCode: languageCode)
+      .then((_) {
+        reportProgress(.42, 'preparingLanguagePackage');
+      });
+  final trackedSentencePackage = sentencePackage.then((sentences) {
+    reportProgress(.62, 'preparingLanguagePackage');
+    return sentences;
+  });
   final results = await Future.wait<Object?>([
-    ref.watch(topicRepositoryProvider).reload(languageCode: languageCode),
-    sentencePackage,
+    topicPackage,
+    trackedSentencePackage,
   ]);
+  reportProgress(.76, 'preparingLanguagePackage');
   await ref
       .watch(appDatabaseProvider)
       .replaceSentenceContent(
@@ -354,6 +414,7 @@ final languagePackageInitializationProvider = FutureProvider<void>((ref) async {
         ),
         sentences: results[1] as List<SentenceRecord>,
       );
+  reportProgress(.9, 'finalizingLanguageChange');
 
   // The profile is normally already loaded by splash. Persisting the
   // metadata here also avoids downloading the same package again after a
@@ -369,6 +430,7 @@ final languagePackageInitializationProvider = FutureProvider<void>((ref) async {
           databaseVersion: profile.databaseVersion,
         );
   }
+  reportProgress(.94, 'finalizingLanguageChange');
 });
 
 final userProfileProvider = FutureProvider<UserProfileRow?>((ref) async {
@@ -520,9 +582,11 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
     if (authenticatedProfile != null) {
       // Notification setup is best-effort. A missing Firebase configuration
       // must never block the splash or the learning experience.
-      await ref
-          .read(firebaseMessagingServiceProvider)
-          .subscribeToUserTopic(authenticatedProfile.userCode);
+      unawaited(
+        ref
+            .read(firebaseMessagingServiceProvider)
+            .subscribeToUserTopic(authenticatedProfile.userCode),
+      );
     }
 
     if (selectedLanguage == null) {
@@ -584,6 +648,12 @@ final applicationInitializationProvider = FutureProvider<AppStartupDestination>(
     final carouselCompleted = await ref
         .watch(appLanguageServiceProvider)
         .isCarouselCompleted();
+    if (carouselCompleted && profile.isPremium) {
+      // Premium users do not need to see the three post-carousel offer
+      // screens, even if the app was closed after completing the carousel.
+      await ref.watch(appLanguageServiceProvider).completeOnboarding();
+      return AppStartupDestination.home;
+    }
     return carouselCompleted
         ? AppStartupDestination.freeTrialOffer
         : AppStartupDestination.languageOnboarding;

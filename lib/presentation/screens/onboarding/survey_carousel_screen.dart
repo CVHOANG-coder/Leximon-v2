@@ -86,8 +86,16 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
     setState(() => _isFinishing = true);
     try {
       await ref.read(appLanguageServiceProvider).completeCarousel();
+      final profile = await ref.read(remoteUserProfileProvider.future);
+      if (profile.isPremium) {
+        await ref.read(appLanguageServiceProvider).completeOnboarding();
+      }
       if (!mounted) return;
-      context.go('/onboarding/assessment-intro/survey/free-trial');
+      context.go(
+        profile.isPremium
+            ? '/'
+            : '/onboarding/assessment-intro/survey/free-trial',
+      );
     } on Object {
       if (!mounted) return;
       setState(() => _isFinishing = false);
@@ -2330,13 +2338,13 @@ class _SocialProofPage extends StatelessWidget {
 
   static const _reviews = [
     (
-      author: 'Ruavip753',
+      author: 'Jack257',
       title: 'surveyReviewOneTitle',
       text: 'surveyReviewOneBody',
     ),
     (author: 'Oki', title: 'surveyReviewTwoTitle', text: 'surveyReviewTwoBody'),
     (
-      author: 'Minh Anh',
+      author: 'John',
       title: 'surveyReviewThreeTitle',
       text: 'surveyReviewThreeBody',
     ),
@@ -2359,7 +2367,7 @@ class _SocialProofPage extends StatelessWidget {
             TextSpan(
               children: [
                 const TextSpan(
-                  text: 'Bright',
+                  text: 'Leximon',
                   style: TextStyle(
                     color: Color(0xFF39A9FF),
                     fontWeight: FontWeight.w800,

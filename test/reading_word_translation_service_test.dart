@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:google_mlkit_translation/google_mlkit_translation.dart';
 import 'package:leximon/data/services/reading_word_translation_service.dart';
@@ -90,6 +92,34 @@ void main() {
     expect(progress.last.progress, 1);
     expect(progress.last.completedModels, 2);
   });
+
+  test('retries a failed model download up to three attempts', () async {
+    final modelManager = _FlakyModelManager(failuresBeforeSuccess: 2);
+    final downloader = MlKitLanguageModelDownloader(
+      modelManager: modelManager,
+      retryDelay: Duration.zero,
+    );
+
+    await downloader.downloadRequiredModels(targetLanguageCode: 'vi');
+
+    expect(modelManager.downloadAttempts['en'], 3);
+    expect(modelManager.downloadAttempts['vi'], 1);
+  });
+
+  test('times out a model operation and retries it', () async {
+    final modelManager = _HangingModelManager();
+    final downloader = MlKitLanguageModelDownloader(
+      modelManager: modelManager,
+      operationTimeout: const Duration(milliseconds: 1),
+      retryDelay: Duration.zero,
+    );
+
+    await expectLater(
+      downloader.downloadRequiredModels(targetLanguageCode: 'vi'),
+      throwsA(isA<TimeoutException>()),
+    );
+    expect(modelManager.checkAttempts, 3);
+  });
 }
 
 class _DownloadedModelManager extends OnDeviceTranslatorModelManager {
@@ -112,6 +142,34 @@ class _DownloadableModelManager extends OnDeviceTranslatorModelManager {
   Future<bool> downloadModel(String model, {bool isWifiRequired = true}) async {
     downloadedModels.add(model);
     return true;
+  }
+}
+
+class _FlakyModelManager extends OnDeviceTranslatorModelManager {
+  _FlakyModelManager({required this.failuresBeforeSuccess});
+
+  final int failuresBeforeSuccess;
+  final downloadAttempts = <String, int>{};
+
+  @override
+  Future<bool> isModelDownloaded(String model) async => false;
+
+  @override
+  Future<bool> downloadModel(String model, {bool isWifiRequired = true}) async {
+    final attempt = (downloadAttempts[model] ?? 0) + 1;
+    downloadAttempts[model] = attempt;
+    if (model == 'en' && attempt <= failuresBeforeSuccess) return false;
+    return true;
+  }
+}
+
+class _HangingModelManager extends OnDeviceTranslatorModelManager {
+  var checkAttempts = 0;
+
+  @override
+  Future<bool> isModelDownloaded(String model) async {
+    checkAttempts++;
+    return Completer<bool>().future;
   }
 }
 
