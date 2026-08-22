@@ -1,3 +1,5 @@
+import 'dart:ui' show PlatformDispatcher;
+
 import 'package:package_info_plus/package_info_plus.dart';
 
 import '../../core/network/api_client.dart';
@@ -16,13 +18,15 @@ class AuthApiService {
     AuthTokenStorage? tokenStorage,
     DeviceIdStorage? deviceIdStorage,
     Future<PackageInfo> Function()? packageInfoLoader,
-    this.country = 'VN',
+    this.country,
+    String? Function()? countryCodeLoader,
   }) : _apiClient = apiClient,
        _deviceIdentityProvider = deviceIdentityProvider,
        _languageService = languageService,
        _tokenStorage = tokenStorage ?? AuthTokenStorage(),
        _deviceIdStorage = deviceIdStorage ?? DeviceIdKeychainStorage(),
-       _packageInfoLoader = packageInfoLoader ?? PackageInfo.fromPlatform {
+       _packageInfoLoader = packageInfoLoader ?? PackageInfo.fromPlatform,
+       _countryCodeLoader = countryCodeLoader ?? _deviceCountryCode {
     _apiClient.setTokenRefresher(() async {
       final response = await login();
       return response.data.token;
@@ -39,7 +43,8 @@ class AuthApiService {
   final AuthTokenStorage _tokenStorage;
   final DeviceIdStorage _deviceIdStorage;
   final Future<PackageInfo> Function() _packageInfoLoader;
-  final String country;
+  final String? country;
+  final String? Function() _countryCodeLoader;
 
   Future<void> ensureToken() async {
     await _apiClient.loadStoredAuthToken();
@@ -56,14 +61,17 @@ class AuthApiService {
     final language = selectedLanguage?.trim().isNotEmpty == true
         ? selectedLanguage!.trim()
         : defaultLanguage;
+    final countryCode = (country ?? _countryCodeLoader())?.trim().toUpperCase();
 
     final body = <String, dynamic>{
       'deviceId': identity.deviceId,
       'platform': identity.platform,
-      'country': country,
       'language': language,
       'appVersion': packageInfo.version,
     };
+    if (countryCode != null && countryCode.isNotEmpty) {
+      body['country'] = countryCode;
+    }
     if (previousDeviceId != null && previousDeviceId != identity.deviceId) {
       body['deviceId_old'] = previousDeviceId;
     }
@@ -76,6 +84,20 @@ class AuthApiService {
       await _deviceIdStorage.saveDeviceId(identity.deviceId);
     }
     return loginResponse;
+  }
+
+  /// Returns the ISO 3166-1 alpha-2 region configured by the operating system.
+  ///
+  /// The device can expose a language without a region (for example `en`),
+  /// so callers must handle a missing value.
+  static String? _deviceCountryCode() {
+    for (final locale in PlatformDispatcher.instance.locales) {
+      final countryCode = locale.countryCode?.trim().toUpperCase();
+      if (countryCode != null && countryCode.length == 2) {
+        return countryCode;
+      }
+    }
+    return null;
   }
 
   Future<UserProfileResponse> getUserProfile() async {

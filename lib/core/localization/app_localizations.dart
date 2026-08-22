@@ -376,6 +376,8 @@ class AppLocalizations {
       'subscriptionTerms': 'Terms of Use',
       'subscriptionPrivacy': 'Privacy Policy',
       'iapStoreUnavailable': 'The App Store is currently unavailable.',
+      'iapNetworkUnavailable':
+          'The connection to the App Store was interrupted. Check your internet connection and try again.',
       'iapProductUnavailable': 'This package is not available in the store.',
       'iapVerificationFailed':
           'Payment succeeded but server verification failed. Please try again later.',
@@ -2834,6 +2836,8 @@ class AppLocalizations {
       'subscriptionTerms': 'Điều khoản sử dụng',
       'subscriptionPrivacy': 'Chính sách về Quyền riêng tư',
       'iapStoreUnavailable': 'App Store hiện không khả dụng.',
+      'iapNetworkUnavailable':
+          'Kết nối với App Store bị gián đoạn. Vui lòng kiểm tra mạng và thử lại.',
       'iapProductUnavailable': 'Gói này hiện chưa khả dụng trên App Store.',
       'iapVerificationFailed':
           'Thanh toán đã thành công nhưng máy chủ chưa thể xác minh. Vui lòng thử lại sau.',

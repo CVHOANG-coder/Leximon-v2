@@ -37,8 +37,8 @@ class _SurveyCarouselScreenState extends ConsumerState<SurveyCarouselScreen> {
   int? _selectedFrequency;
   int? _selectedResultTimeline;
   int? _selectedDailyStudyTime;
-  double _preferredStudyMinutes = 19 * 60 + 50;
-  bool _preferredStudyTimeSelected = false;
+  double _preferredStudyMinutes = 19 * 60 + 30;
+  bool _preferredStudyTimeSelected = true;
   bool _isFinishing = false;
   Offset? _swipeStartPosition;
   bool _notificationPermissionRequested = false;

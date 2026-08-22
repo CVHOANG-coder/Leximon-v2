@@ -297,16 +297,18 @@ class _SalePackageScreenState extends ConsumerState<SalePackageScreen> {
   }
 
   String _purchaseMessage(IapPurchaseResult result) => switch (result.status) {
+    IapPurchaseResultStatus.networkUnavailable => context.l10n.text(
+      'iapNetworkUnavailable',
+    ),
     IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
       'iapStoreUnavailable',
     ),
     IapPurchaseResultStatus.productUnavailable => context.l10n.text(
       'salePackageUnavailable',
     ),
-    IapPurchaseResultStatus.verificationFailed =>
-      result.message?.trim().isNotEmpty == true
-          ? result.message!
-          : context.l10n.text('iapVerificationFailed'),
+    IapPurchaseResultStatus.verificationFailed => context.l10n.text(
+      'iapVerificationFailed',
+    ),
     IapPurchaseResultStatus.busy => context.l10n.text('iapPurchaseBusy'),
     _ => context.l10n.text('salePurchaseError'),
   };

@@ -105,6 +105,50 @@ void main() {
     );
   });
 
+  testWidgets('preferred study time defaults to 19:30 and can continue', (
+    tester,
+  ) async {
+    await tester.pumpWidget(const MaterialApp(home: SurveyCarouselScreen()));
+    await tester.pump();
+
+    Future<void> continueSurvey() async {
+      await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
+      await tester.pumpAndSettle();
+    }
+
+    await tester.tap(find.byKey(const ValueKey('survey-age-0')));
+    await tester.pump();
+    await continueSurvey();
+    await tester.tap(find.byKey(const ValueKey('survey-goal-0')));
+    await tester.pump();
+    await continueSurvey();
+    await continueSurvey();
+    await tester.tap(find.byKey(const ValueKey('survey-frequency-0')));
+    await tester.pump();
+    await continueSurvey();
+    await tester.tap(find.byKey(const ValueKey('survey-learning-method-0')));
+    await tester.pump();
+    await continueSurvey();
+    await continueSurvey();
+    await tester.tap(find.byKey(const ValueKey('survey-result-timeline-0')));
+    await tester.pump();
+    await continueSurvey();
+    await tester.tap(find.byKey(const ValueKey('survey-daily-study-time-0')));
+    await tester.pump();
+    await continueSurvey();
+    await continueSurvey();
+
+    expect(find.text('19:30'), findsOneWidget);
+    expect(
+      tester
+          .widget<InkWell>(
+            find.byKey(const ValueKey('survey-carousel-continue')),
+          )
+          .onTap,
+      isNotNull,
+    );
+  });
+
   testWidgets('known-level path saves the level and opens the survey', (
     tester,
   ) async {
@@ -195,8 +239,8 @@ void main() {
               databaseVersion: 1,
               notificationEnabled: false,
               subscription: null,
-              ownedProducts: const [],
-              ownedProductIds: const [],
+              ownedProducts: [],
+              ownedProductIds: [],
             ),
           ),
         ],
@@ -326,7 +370,7 @@ void main() {
       find.textContaining('Với bạn, giờ nào là thuận tiện'),
       findsOneWidget,
     );
-    expect(find.text('19:50'), findsOneWidget);
+    expect(find.text('19:30'), findsOneWidget);
     expect(
       find.byKey(const ValueKey('survey-preferred-time-slider')),
       findsOneWidget,
@@ -341,17 +385,13 @@ void main() {
             find.byKey(const ValueKey('survey-carousel-continue')),
           )
           .onTap,
-      isNull,
+      isNotNull,
     );
     await tester.drag(
       find.byKey(const ValueKey('survey-preferred-time-slider')),
       const Offset(80, 0),
     );
     await tester.pumpAndSettle();
-    expect(
-      find.textContaining('Với bạn, giờ nào là thuận tiện'),
-      findsOneWidget,
-    );
     await tester.tap(find.byKey(const ValueKey('survey-carousel-continue')));
     await tester.pumpAndSettle();
 

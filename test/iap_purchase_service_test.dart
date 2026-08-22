@@ -111,6 +111,7 @@ void main() {
       final result = await resultFuture;
 
       expect(result.status, IapPurchaseResultStatus.verificationFailed);
+      expect(result.message, isNull);
       expect(store.completedPurchases, isEmpty);
     },
   );
@@ -526,6 +527,41 @@ void main() {
       expect(store.completedPurchases, hasLength(1));
       store.emit([_purchase(PurchaseStatus.canceled)]);
       expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
+    },
+  );
+
+  test(
+    'maps StoreKit network exceptions without exposing technical text',
+    () async {
+      final client = ApiClient(
+        client: MockClient((request) async => http.Response('{}', 200)),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway()
+        ..purchaseError = StateError(
+          'PlatformException(networkError, NSURLErrorDomain Code=-1005, '
+          'The network connection was lost)',
+        );
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => _package,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final result = await service.purchase(
+        package: _package,
+        product: _product,
+      );
+
+      expect(result.status, IapPurchaseResultStatus.networkUnavailable);
+      expect(result.message, isNull);
     },
   );
 }

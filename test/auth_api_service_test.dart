@@ -15,7 +15,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test(
-    'login sends the required payload and defaults language to English',
+    'login sends the device country code and defaults language to English',
     () async {
       SharedPreferences.setMockInitialValues({});
       final requests = <http.Request>[];
@@ -34,6 +34,7 @@ void main() {
           const DeviceIdentity(deviceId: 'android-id-123', platform: 'ANDROID'),
         ),
         languageService: AppLanguageService(),
+        countryCodeLoader: () => 'us',
         packageInfoLoader: () async => PackageInfo(
           appName: 'Leximon',
           packageName: 'com.leximon.leximon',
@@ -60,7 +61,7 @@ void main() {
       expect(jsonDecode(loginRequest.body), {
         'deviceId': 'android-id-123',
         'platform': 'ANDROID',
-        'country': 'VN',
+        'country': 'US',
         'language': 'en',
         'appVersion': '1.0.0',
       });

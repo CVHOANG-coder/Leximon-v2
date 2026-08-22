@@ -304,10 +304,10 @@ class _SubscriptionPlanScreenState
   }
 
   String _purchaseMessage(IapPurchaseResult result) {
-    final detail = result.message?.trim();
-    if (detail?.isNotEmpty == true) return detail!;
-
     return switch (result.status) {
+      IapPurchaseResultStatus.networkUnavailable => context.l10n.text(
+        'iapNetworkUnavailable',
+      ),
       IapPurchaseResultStatus.storeUnavailable => context.l10n.text(
         'iapStoreUnavailable',
       ),

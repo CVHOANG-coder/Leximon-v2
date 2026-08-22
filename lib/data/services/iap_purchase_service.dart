@@ -106,6 +106,7 @@ class FlutterIapStoreGateway implements IapStoreGateway {
 enum IapPurchaseResultStatus {
   verified,
   canceled,
+  networkUnavailable,
   storeUnavailable,
   productUnavailable,
   failed,
@@ -184,9 +185,9 @@ class IapPurchaseService {
       available = await _store.isAvailable();
     } on Object catch (error) {
       _finishActive(
-        IapPurchaseResult(
-          IapPurchaseResultStatus.storeUnavailable,
-          message: '$error',
+        _safeFailureResult(
+          error,
+          fallbackStatus: IapPurchaseResultStatus.storeUnavailable,
         ),
       );
       return completer.future;
@@ -227,9 +228,7 @@ class IapPurchaseService {
         await _startStorePurchase(package, product, recoverDuplicate: false);
         return;
       }
-      _finishActive(
-        IapPurchaseResult(IapPurchaseResultStatus.failed, message: '$error'),
-      );
+      _finishActive(_safeFailureResult(error));
     }
   }
 
@@ -250,9 +249,9 @@ class IapPurchaseService {
         purchasesByKey[_verificationKey(purchase)] = purchase;
       }
     } on Object catch (error) {
-      return IapPurchaseResult(
-        IapPurchaseResultStatus.storeUnavailable,
-        message: 'Could not inspect unfinished store transactions: $error',
+      return _safeFailureResult(
+        error,
+        fallbackStatus: IapPurchaseResultStatus.storeUnavailable,
       );
     }
 
@@ -298,9 +297,10 @@ class IapPurchaseService {
       } on Object catch (error) {
         // Keep an unverified transaction unfinished. Starting another StoreKit
         // transaction here would recreate the duplicate-product error.
-        return IapPurchaseResult(
-          IapPurchaseResultStatus.verificationFailed,
-          message: '$error',
+        return _safeFailureResult(
+          error,
+          fallbackStatus: IapPurchaseResultStatus.verificationFailed,
+          classifyNetwork: false,
         );
       } finally {
         _verificationsInFlight.remove(verificationKey);
@@ -334,10 +334,7 @@ class IapPurchaseService {
         case PurchaseStatus.error:
           _finishForProduct(
             purchase.productID,
-            IapPurchaseResult(
-              IapPurchaseResultStatus.failed,
-              message: purchase.error?.message,
-            ),
+            _safeFailureResult(purchase.error),
           );
         case PurchaseStatus.canceled:
           _finishForProduct(
@@ -403,9 +400,10 @@ class IapPurchaseService {
       // StoreKit/Google Play can redeliver it and the app can safely retry.
       _finishForProduct(
         purchase.productID,
-        IapPurchaseResult(
-          IapPurchaseResultStatus.verificationFailed,
-          message: '$error',
+        _safeFailureResult(
+          error,
+          fallbackStatus: IapPurchaseResultStatus.verificationFailed,
+          classifyNetwork: false,
         ),
       );
     } finally {
@@ -468,6 +466,34 @@ class IapPurchaseService {
         message.contains('pending transaction for the same product');
   }
 
+  IapPurchaseResult _safeFailureResult(
+    Object? error, {
+    IapPurchaseResultStatus fallbackStatus = IapPurchaseResultStatus.failed,
+    bool classifyNetwork = true,
+  }) {
+    if (kDebugMode && error != null) {
+      debugPrint('IAP error: $error');
+    }
+    return IapPurchaseResult(
+      classifyNetwork && _isNetworkError(error)
+          ? IapPurchaseResultStatus.networkUnavailable
+          : fallbackStatus,
+    );
+  }
+
+  bool _isNetworkError(Object? error) {
+    final message = '${error ?? ''}'.toLowerCase();
+    return message.contains('networkerror') ||
+        message.contains('code=-1001') ||
+        message.contains('code=-1005') ||
+        message.contains('code=-1009') ||
+        message.contains('network connection was lost') ||
+        message.contains('not connected to the internet') ||
+        message.contains('connection timed out') ||
+        message.contains('socketexception') ||
+        message.contains('failed host lookup');
+  }
+
   String _verificationKey(PurchaseDetails purchase) =>
       purchase.purchaseID ??
       '${purchase.productID}:${purchase.transactionDate ?? ''}';
@@ -481,9 +507,8 @@ class IapPurchaseService {
   }
 
   void _handlePurchaseStreamError(Object error, StackTrace stackTrace) {
-    _finishActive(
-      IapPurchaseResult(IapPurchaseResultStatus.failed, message: '$error'),
-    );
+    if (kDebugMode) debugPrintStack(stackTrace: stackTrace);
+    _finishActive(_safeFailureResult(error));
   }
 
   void _finishForProduct(String productId, IapPurchaseResult result) {
