@@ -244,6 +244,104 @@ void main() {
     expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
   });
 
+  for (final productId in _skillPackIds) {
+    test('starts a new store purchase before recovering $productId', () async {
+      var verificationCalls = 0;
+      final package = _skillPackPackage(productId);
+      final product = _productFor(productId);
+      final client = ApiClient(
+        client: MockClient((request) async {
+          verificationCalls++;
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {
+                'isPremium': true,
+                'ownedProductIds': [productId],
+              },
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway()
+        ..unfinishedPurchaseDetails = [
+          _purchaseFor(productId, PurchaseStatus.purchased),
+        ];
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => package,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(package: package, product: product);
+      await Future<void>.delayed(Duration.zero);
+
+      expect(store.startedProductIds, [productId]);
+      expect(store.unfinishedPurchaseLookups, 0);
+      expect(verificationCalls, 0);
+
+      store.emit([_purchaseFor(productId, PurchaseStatus.canceled)]);
+      expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
+    });
+  }
+
+  test(
+    'does not treat premium as ownership of a recovered skill pack',
+    () async {
+      final package = _skillPackPackage(_speakingPackId);
+      final product = _productFor(_speakingPackId);
+      final client = ApiClient(
+        client: MockClient((request) async {
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {
+                'isPremium': true,
+                'ownedProductIds': [_listeningPackId],
+              },
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final store = _FakeStoreGateway()
+        ..purchaseError = StateError('storekit_duplicate_product_object')
+        ..unfinishedPurchaseDetails = [
+          _purchaseFor(_speakingPackId, PurchaseStatus.purchased),
+        ];
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => package,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final result = await service.purchase(package: package, product: product);
+
+      expect(store.startedProductIds, [_speakingPackId]);
+      expect(result.status, IapPurchaseResultStatus.verificationFailed);
+      expect(store.completedPurchases, isEmpty);
+    },
+  );
+
   test(
     'verifies and completes a redelivered transaction without starting a new buy',
     () async {
@@ -668,6 +766,46 @@ ProductDetails _subscriptionProduct(String productId) => ProductDetails(
   currencyCode: 'USD',
   currencySymbol: r'$',
 );
+
+ProductDetails _productFor(String productId) => ProductDetails(
+  id: productId,
+  title: productId,
+  description: '',
+  price: r'$2.99',
+  rawPrice: 2.99,
+  currencyCode: 'USD',
+  currencySymbol: r'$',
+);
+
+IapPackage _skillPackPackage(String productId) => IapPackage(
+  id: 11,
+  productId: productId,
+  productType: 'NON_CONSUMABLE',
+  name: productId,
+  description: '',
+  price: 2.99,
+  currency: 'USD',
+  platform: 'IOS',
+  packDurationDay: 36500,
+  trialDays: 0,
+  isEnabled: true,
+  sortOrder: 12,
+  adjustEventToken: '',
+  createdAt: null,
+  updatedAt: null,
+  group: 'SKILL_PACK',
+);
+
+const _listeningPackId = 'com.wordisland.learnenglish.ios.pack.listening';
+const _grammarPackId = 'com.wordisland.learnenglish.ios.pack.grammar';
+const _speakingPackId = 'com.wordisland.learnenglish.ios.pack.speaking';
+const _readingPackId = 'com.wordisland.learnenglish.ios.pack.reading';
+const _skillPackIds = [
+  _listeningPackId,
+  _grammarPackId,
+  _speakingPackId,
+  _readingPackId,
+];
 
 IapPackage _subscriptionPackage(String productId) => IapPackage(
   id: 10,

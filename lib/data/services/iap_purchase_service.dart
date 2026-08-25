@@ -171,13 +171,19 @@ class IapPurchaseService {
     _activePurchase = completer;
     _activeProductId = package.productId;
 
-    // Finish transactions left in StoreKit by an earlier purchase before
-    // asking Apple to create another transaction for the same product. An
-    // expired subscription is cleanup work, not a successful new Buy action.
-    final recoveryResult = await _recoverUnfinishedBeforePurchase(package);
-    if (recoveryResult != null) {
-      _finishActive(recoveryResult);
-      return completer.future;
+    // A skill pack is an independent one-time product. Always ask the store to
+    // purchase it first so buying one pack can never short-circuit a later Buy
+    // action for another pack. If StoreKit reports a duplicate transaction for
+    // this exact product, _startStorePurchase recovers that transaction.
+    if (!_isSkillPack(package)) {
+      // Finish transactions left in StoreKit by an earlier purchase before
+      // asking Apple to create another transaction for the same product. An
+      // expired subscription is cleanup work, not a successful new Buy action.
+      final recoveryResult = await _recoverUnfinishedBeforePurchase(package);
+      if (recoveryResult != null) {
+        _finishActive(recoveryResult);
+        return completer.future;
+      }
     }
 
     bool available;
@@ -288,6 +294,13 @@ class IapPurchaseService {
                 'The backend did not return the subscription entitlement state.',
           );
         }
+        if (_isSkillPack(package) && !grantsEntitlement) {
+          return const IapPurchaseResult(
+            IapPurchaseResultStatus.verificationFailed,
+            message:
+                'The backend did not grant the purchased skill-pack product.',
+          );
+        }
 
         if (purchase.pendingCompletePurchase) {
           await _store.completePurchase(purchase);
@@ -380,6 +393,18 @@ class IapPurchaseService {
           signedTransaction: receiptData,
         ),
       );
+      if (_isSkillPack(package) &&
+          _grantsEntitlement(package, verificationResponse) != true) {
+        _finishForProduct(
+          purchase.productID,
+          const IapPurchaseResult(
+            IapPurchaseResultStatus.verificationFailed,
+            message:
+                'The backend did not grant the purchased skill-pack product.',
+          ),
+        );
+        return;
+      }
 
       if (purchase.pendingCompletePurchase) {
         await _store.completePurchase(purchase);
@@ -432,6 +457,9 @@ class IapPurchaseService {
   bool _isSubscription(IapPackage package) =>
       package.productType.trim().toUpperCase().contains('SUBSCRIPTION');
 
+  bool _isSkillPack(IapPackage package) =>
+      package.group.trim().toUpperCase() == 'SKILL_PACK';
+
   bool? _grantsEntitlement(
     IapPackage package,
     IapTransactionBuyResponse response,
@@ -442,6 +470,13 @@ class IapPurchaseService {
     final ownsProduct =
         response.lifetimeProductId == package.productId ||
         response.ownedProductIds.contains(package.productId);
+    if (_isSkillPack(package)) {
+      final hasOwnershipState =
+          response.data.containsKey('lifetimeProductId') ||
+          response.data.containsKey('ownedProductIds') ||
+          response.data.containsKey('ownedProducts');
+      return hasOwnershipState ? ownsProduct : null;
+    }
     if (ownsProduct || response.isPremium == true) return true;
 
     final hasOwnershipState =
