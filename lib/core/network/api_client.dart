@@ -58,12 +58,14 @@ class ApiClient {
     String path, {
     Map<String, String>? queryParameters,
     Map<String, String>? headers,
+    bool decodeBody = true,
   }) {
     return _request(
       method: 'GET',
       path: path,
       queryParameters: queryParameters,
       headers: headers,
+      decodeBody: decodeBody,
     );
   }
 
@@ -99,6 +101,7 @@ class ApiClient {
     Object? body,
     Map<String, String>? queryParameters,
     Map<String, String>? headers,
+    bool decodeBody = true,
   }) async {
     final uri = _resolve(path, queryParameters);
     await loadStoredAuthToken();
@@ -110,6 +113,7 @@ class ApiClient {
       queryParameters: queryParameters,
       headers: headers,
       retryOnUnauthorized: true,
+      decodeBody: decodeBody,
     );
   }
 
@@ -121,6 +125,7 @@ class ApiClient {
     Map<String, String>? queryParameters,
     Map<String, String>? headers,
     required bool retryOnUnauthorized,
+    required bool decodeBody,
   }) async {
     final requestHeaders = <String, String>{
       'Accept': 'application/json',
@@ -161,17 +166,24 @@ class ApiClient {
               queryParameters: queryParameters,
               headers: headers,
               retryOnUnauthorized: false,
+              decodeBody: decodeBody,
             );
           }
         }
         throw exception;
       }
 
-      return ApiResponse.fromHttpResponse(
-        statusCode: response.statusCode,
-        headers: response.headers,
-        body: response.body,
-      );
+      return decodeBody
+          ? ApiResponse.fromHttpResponse(
+              statusCode: response.statusCode,
+              headers: response.headers,
+              body: response.body,
+            )
+          : ApiResponse.raw(
+              statusCode: response.statusCode,
+              headers: response.headers,
+              body: response.body,
+            );
     } on ApiException {
       rethrow;
     } on TimeoutException {

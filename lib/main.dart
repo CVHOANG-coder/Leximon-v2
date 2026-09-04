@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -5,8 +7,20 @@ import 'package:firebase_core/firebase_core.dart';
 
 import 'app.dart';
 
-Future<void> main() async {
+void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  runApp(const ProviderScope(child: LeximonApp()));
+
+  // Firebase and the orientation platform channel are not needed to paint the
+  // first Flutter frame. Starting them afterwards prevents native plugin setup
+  // from extending the blank launch-screen interval on slower devices.
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    unawaited(_initializePlatformServices());
+  });
+}
+
+Future<void> _initializePlatformServices() async {
+  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   try {
     await Firebase.initializeApp();
   } on Object catch (error, stackTrace) {
@@ -15,6 +29,4 @@ Future<void> main() async {
     debugPrint('Firebase initialization skipped: $error');
     debugPrintStack(stackTrace: stackTrace);
   }
-  await SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-  runApp(const ProviderScope(child: LeximonApp()));
 }

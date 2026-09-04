@@ -28,6 +28,7 @@ class DailyNotificationService {
       FlutterLocalNotificationsPlugin();
   Future<void>? _initialization;
   bool _initialized = false;
+  bool _timeZoneInitialized = false;
   void Function()? _onSaleNotificationTap;
   bool _pendingSaleNotificationTap = false;
   bool _saleReminderEligible = false;
@@ -57,9 +58,6 @@ class DailyNotificationService {
 
   Future<void> _initialize() async {
     if (!_isMobilePlatform) return;
-
-    tz.initializeTimeZones();
-    tz.setLocalLocation(tz.getLocation('Asia/Ho_Chi_Minh'));
 
     const androidSettings = AndroidInitializationSettings(
       'ic_stat_notification',
@@ -213,6 +211,7 @@ class DailyNotificationService {
     if (!_saleReminderEligible) return;
     await initialize();
     if (!_saleReminderEligible) return;
+    _ensureTimeZoneInitialized();
     final scheduledDate = tz.TZDateTime.now(tz.local).add(delay);
     await _plugin.zonedSchedule(
       id: _saleNotificationId,
@@ -339,6 +338,7 @@ class DailyNotificationService {
     if (!_isMobilePlatform) return;
     await initialize();
     await cancelDaily();
+    _ensureTimeZoneInitialized();
 
     final now = tz.TZDateTime.now(tz.local);
     var scheduledDate = tz.TZDateTime(
@@ -382,5 +382,12 @@ class DailyNotificationService {
     if (!_isMobilePlatform) return;
     await initialize();
     await _plugin.cancel(id: _notificationId);
+  }
+
+  void _ensureTimeZoneInitialized() {
+    if (_timeZoneInitialized) return;
+    tz.initializeTimeZones();
+    tz.setLocalLocation(tz.getLocation('Asia/Ho_Chi_Minh'));
+    _timeZoneInitialized = true;
   }
 }

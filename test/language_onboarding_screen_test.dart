@@ -375,6 +375,28 @@ void main() {
 
   testWidgets('waits for language packages before continuing', (tester) async {
     final packageLoading = Completer<void>();
+    final container = ProviderContainer(
+      overrides: [
+        languagePackageInitializationProvider.overrideWith(
+          (ref) => packageLoading.future,
+        ),
+        languageModelDownloaderProvider.overrideWithValue(
+          _ImmediateLanguageModelDownloader(),
+        ),
+      ],
+    );
+    // Keep progress alive before mounting the loading screen. This reproduces
+    // the real navigation case where a synchronous initState write used to
+    // notify Riverpod while the widget tree was still building.
+    final progressSubscription = container.listen(
+      languagePackageLoadingProgressProvider,
+      (_, _) {},
+      fireImmediately: true,
+    );
+    addTearDown(() {
+      progressSubscription.close();
+      container.dispose();
+    });
     final router = GoRouter(
       initialLocation: '/onboarding/language-loading',
       routes: [
@@ -392,19 +414,13 @@ void main() {
     addTearDown(router.dispose);
 
     await tester.pumpWidget(
-      ProviderScope(
-        overrides: [
-          languagePackageInitializationProvider.overrideWith(
-            (ref) => packageLoading.future,
-          ),
-          languageModelDownloaderProvider.overrideWithValue(
-            _ImmediateLanguageModelDownloader(),
-          ),
-        ],
+      UncontrolledProviderScope(
+        container: container,
         child: MaterialApp.router(routerConfig: router),
       ),
     );
 
+    expect(tester.takeException(), isNull);
     expect(
       find.byKey(const ValueKey('language-package-loading-progress')),
       findsOneWidget,

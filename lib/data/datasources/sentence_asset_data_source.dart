@@ -53,6 +53,7 @@ class SentenceAssetDataSource {
   Future<List<SentenceRecord>> _loadPackage(String languageCode) async {
     final response = await _apiClient.get(
       '$_sentenceRemoteDirectory/$languageCode.json',
+      decodeBody: false,
     );
     return compute(_decodeSentenceAsset, response.body);
   }

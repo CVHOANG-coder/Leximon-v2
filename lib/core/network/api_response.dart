@@ -9,6 +9,12 @@ class ApiResponse {
     required this.data,
   });
 
+  const ApiResponse.raw({
+    required this.statusCode,
+    required this.headers,
+    required this.body,
+  }) : data = null;
+
   factory ApiResponse.fromHttpResponse({
     required int statusCode,
     required Map<String, String> headers,

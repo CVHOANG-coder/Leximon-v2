@@ -1,3 +1,7 @@
+import 'dart:convert';
+
+import 'package:flutter/foundation.dart';
+
 import '../../core/network/api_client.dart';
 import '../../core/localization/language_code.dart';
 import '../models/topic_language.dart';
@@ -59,22 +63,27 @@ class TopicAssetDataSource {
     final remoteCode = canonicalCode == 'en' ? 'vi' : canonicalCode;
     final response = await _apiClient.get(
       '$_topicRemoteDirectory/data_en_$remoteCode.json',
+      decodeBody: false,
     );
-    final data = response.mapData;
-    if (data == null) {
-      throw const FormatException('Topic response must contain a JSON object.');
-    }
-    if (data['topics'] is! List) {
-      throw const FormatException(
-        'Topic response does not contain a topics package.',
-      );
-    }
-    final payload = TopicAssetPayload.fromJson(data);
+    final payload = await compute(_decodeTopicPayload, response.body);
     if (payload.topics.isEmpty) {
       throw const FormatException('Topic package is empty.');
     }
     return canonicalCode == 'en' ? _mapEnglishTopicPayload(payload) : payload;
   }
+}
+
+TopicAssetPayload _decodeTopicPayload(String source) {
+  final decoded = jsonDecode(source);
+  if (decoded is! Map<String, dynamic>) {
+    throw const FormatException('Topic response must contain a JSON object.');
+  }
+  if (decoded['topics'] is! List) {
+    throw const FormatException(
+      'Topic response does not contain a topics package.',
+    );
+  }
+  return TopicAssetPayload.fromJson(decoded);
 }
 
 TopicAssetPayload _mapEnglishTopicPayload(TopicAssetPayload payload) {

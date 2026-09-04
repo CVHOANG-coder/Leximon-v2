@@ -269,7 +269,11 @@ void main() {
       );
       final store = _FakeStoreGateway()
         ..unfinishedPurchaseDetails = [
-          _purchaseFor(productId, PurchaseStatus.purchased),
+          _purchaseFor(
+            productId,
+            PurchaseStatus.purchased,
+            environment: 'Production',
+          ),
         ];
       final service = IapPurchaseService(
         store,
@@ -287,13 +291,229 @@ void main() {
       await Future<void>.delayed(Duration.zero);
 
       expect(store.startedProductIds, [productId]);
-      expect(store.unfinishedPurchaseLookups, 0);
+      expect(store.unfinishedPurchaseLookups, 1);
+      expect(store.completedPurchases, isEmpty);
       expect(verificationCalls, 0);
 
       store.emit([_purchaseFor(productId, PurchaseStatus.canceled)]);
       expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
     });
   }
+
+  for (final productId in _skillPackIds) {
+    test(
+      'finishes old sandbox $productId and sends only the new purchase',
+      () async {
+        final package = _skillPackPackage(productId);
+        final product = _productFor(productId);
+        var verificationCalls = 0;
+        final client = ApiClient(
+          client: MockClient((request) async {
+            verificationCalls++;
+            return http.Response(
+              jsonEncode({
+                'success': true,
+                'data': {
+                  'ownedProductIds': [productId],
+                },
+              }),
+              200,
+              headers: const {'content-type': 'application/json'},
+            );
+          }),
+          baseUrl: 'https://example.com',
+          authToken: 'token',
+        );
+        final stalePurchase = _purchaseFor(
+          productId,
+          PurchaseStatus.purchased,
+          purchaseId: 'stale-sandbox-transaction',
+          environment: 'Sandbox',
+        );
+        final store = _FakeStoreGateway()
+          ..unfinishedPurchaseDetails = [stalePurchase];
+        final service = IapPurchaseService(
+          store,
+          IapTransactionApiService(client),
+          (_) async => package,
+          () async {},
+        );
+        addTearDown(() async {
+          await service.dispose();
+          await store.close();
+          client.close();
+        });
+
+        final resultFuture = service.purchase(
+          package: package,
+          product: product,
+        );
+        await Future<void>.delayed(Duration.zero);
+
+        expect(store.completedPurchases, [stalePurchase]);
+        expect(store.unfinishedPurchaseDetails, isEmpty);
+        expect(store.startedProductIds, [productId]);
+        expect(verificationCalls, 0);
+
+        // StoreKit may have queued the stale update before completePurchase.
+        // It must not reach the backend after local cleanup.
+        store.emit([stalePurchase]);
+        await Future<void>.delayed(Duration.zero);
+        expect(verificationCalls, 0);
+
+        final newPurchase = _purchaseFor(
+          productId,
+          PurchaseStatus.purchased,
+          purchaseId: 'new-sandbox-transaction',
+          environment: 'Sandbox',
+          transactionDate: DateTime.now().millisecondsSinceEpoch.toString(),
+        );
+        store.emit([newPurchase]);
+
+        expect((await resultFuture).status, IapPurchaseResultStatus.verified);
+        expect(verificationCalls, 1);
+        expect(store.completedPurchases, [stalePurchase, newPurchase]);
+      },
+    );
+  }
+
+  test(
+    'finishes a sandbox skill pack found during duplicate check and retries buy',
+    () async {
+      final package = _skillPackPackage(_listeningPackId);
+      final product = _productFor(_listeningPackId);
+      var verificationCalls = 0;
+      final client = ApiClient(
+        client: MockClient((request) async {
+          verificationCalls++;
+          return http.Response(
+            jsonEncode({
+              'success': true,
+              'data': {
+                'ownedProductIds': [_listeningPackId],
+              },
+            }),
+            200,
+            headers: const {'content-type': 'application/json'},
+          );
+        }),
+        baseUrl: 'https://example.com',
+        authToken: 'token',
+      );
+      final stalePurchase = _purchaseFor(
+        _listeningPackId,
+        PurchaseStatus.purchased,
+        purchaseId: 'late-stale-sandbox-transaction',
+        environment: 'Sandbox',
+      );
+      final store = _FakeStoreGateway()
+        ..purchaseError = StateError('storekit_duplicate_product_object')
+        ..purchaseErrorOnce = true
+        ..returnUnfinishedAfterFirstLookup = true
+        ..unfinishedPurchaseDetails = [stalePurchase];
+      final service = IapPurchaseService(
+        store,
+        IapTransactionApiService(client),
+        (_) async => package,
+        () async {},
+      );
+      addTearDown(() async {
+        await service.dispose();
+        await store.close();
+        client.close();
+      });
+
+      final resultFuture = service.purchase(package: package, product: product);
+      await Future<void>.delayed(const Duration(milliseconds: 600));
+
+      expect(store.completedPurchases, [stalePurchase]);
+      expect(store.startedProductIds, [_listeningPackId, _listeningPackId]);
+      expect(verificationCalls, 0);
+
+      store.emit([stalePurchase]);
+      await Future<void>.delayed(Duration.zero);
+      expect(verificationCalls, 0);
+
+      final newPurchase = _purchaseFor(
+        _listeningPackId,
+        PurchaseStatus.purchased,
+        purchaseId: 'new-sandbox-transaction-after-duplicate',
+        environment: 'Sandbox',
+        transactionDate: DateTime.now().millisecondsSinceEpoch.toString(),
+      );
+      store.emit([newPurchase]);
+
+      expect((await resultFuture).status, IapPurchaseResultStatus.verified);
+      expect(verificationCalls, 1);
+      expect(store.completedPurchases, [stalePurchase, newPurchase]);
+    },
+  );
+
+  test('retries buy after a delayed old sandbox skill-pack update', () async {
+    final package = _skillPackPackage(_listeningPackId);
+    final product = _productFor(_listeningPackId);
+    var verificationCalls = 0;
+    final client = ApiClient(
+      client: MockClient((request) async {
+        verificationCalls++;
+        return http.Response(
+          jsonEncode({
+            'success': true,
+            'data': {
+              'ownedProductIds': [_listeningPackId],
+            },
+          }),
+          200,
+          headers: const {'content-type': 'application/json'},
+        );
+      }),
+      baseUrl: 'https://example.com',
+      authToken: 'token',
+    );
+    final store = _FakeStoreGateway();
+    final service = IapPurchaseService(
+      store,
+      IapTransactionApiService(client),
+      (_) async => package,
+      () async {},
+    );
+    addTearDown(() async {
+      await service.dispose();
+      await store.close();
+      client.close();
+    });
+
+    final resultFuture = service.purchase(package: package, product: product);
+    await Future<void>.delayed(Duration.zero);
+    expect(store.startedProductIds, [_listeningPackId]);
+
+    final stalePurchase = _purchaseFor(
+      _listeningPackId,
+      PurchaseStatus.purchased,
+      purchaseId: 'delayed-old-sandbox-transaction',
+      environment: 'Sandbox',
+    );
+    store.unfinishedPurchaseDetails.add(stalePurchase);
+    store.emit([stalePurchase]);
+    await Future<void>.delayed(const Duration(milliseconds: 600));
+
+    expect(store.completedPurchases, [stalePurchase]);
+    expect(store.startedProductIds, [_listeningPackId, _listeningPackId]);
+    expect(verificationCalls, 0);
+
+    final newPurchase = _purchaseFor(
+      _listeningPackId,
+      PurchaseStatus.purchased,
+      purchaseId: 'new-transaction-after-delayed-old-update',
+      environment: 'Sandbox',
+      transactionDate: DateTime.now().millisecondsSinceEpoch.toString(),
+    );
+    store.emit([newPurchase]);
+
+    expect((await resultFuture).status, IapPurchaseResultStatus.verified);
+    expect(verificationCalls, 1);
+    expect(store.completedPurchases, [stalePurchase, newPurchase]);
+  });
 
   test(
     'does not treat premium as ownership of a recovered skill pack',
@@ -483,8 +703,10 @@ void main() {
     test('starts a new Apple buy after clearing expired $productId', () async {
       final package = _subscriptionPackage(productId);
       final product = _subscriptionProduct(productId);
+      var verificationCalls = 0;
       final client = ApiClient(
         client: MockClient((request) async {
+          verificationCalls++;
           return http.Response(
             jsonEncode({
               'success': true,
@@ -499,7 +721,17 @@ void main() {
       );
       final store = _FakeStoreGateway()
         ..unfinishedPurchaseDetails = [
-          _purchaseFor(productId, PurchaseStatus.purchased),
+          _purchaseFor(
+            productId,
+            PurchaseStatus.purchased,
+            localVerificationData: 'local-storekit-transaction',
+            serverVerificationData: _signedTransaction({
+              'environment': 'Sandbox',
+              'expiresDate': DateTime.now()
+                  .subtract(const Duration(minutes: 1))
+                  .millisecondsSinceEpoch,
+            }),
+          ),
         ];
       final service = IapPurchaseService(
         store,
@@ -518,6 +750,7 @@ void main() {
 
       expect(store.completedPurchases, hasLength(1));
       expect(store.startedProductIds, [productId]);
+      expect(verificationCalls, 0);
       store.emit([_purchaseFor(productId, PurchaseStatus.canceled)]);
       expect((await resultFuture).status, IapPurchaseResultStatus.canceled);
     });
@@ -741,20 +974,37 @@ PurchaseDetails _purchaseFor(
   String productId,
   PurchaseStatus status, {
   String purchaseId = '2000000123456789',
+  String? environment,
+  int? expiresDate,
+  String? localVerificationData,
+  String serverVerificationData = 'storekit-jws',
+  String transactionDate = '1786880400000',
 }) {
   final purchase = PurchaseDetails(
     purchaseID: purchaseId,
     productID: productId,
     verificationData: PurchaseVerificationData(
-      localVerificationData: 'local-storekit-transaction',
-      serverVerificationData: 'storekit-jws',
+      localVerificationData:
+          localVerificationData ??
+          (environment == null && expiresDate == null
+              ? 'local-storekit-transaction'
+              : jsonEncode({
+                  'environment': ?environment,
+                  'expiresDate': ?expiresDate,
+                })),
+      serverVerificationData: serverVerificationData,
       source: 'app_store',
     ),
-    transactionDate: '1786880400000',
+    transactionDate: transactionDate,
     status: status,
   );
   purchase.pendingCompletePurchase = status == PurchaseStatus.purchased;
   return purchase;
+}
+
+String _signedTransaction(Map<String, Object?> payload) {
+  final encodedPayload = base64Url.encode(utf8.encode(jsonEncode(payload)));
+  return 'header.$encodedPayload.signature';
 }
 
 ProductDetails _subscriptionProduct(String productId) => ProductDetails(

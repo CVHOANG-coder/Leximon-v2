@@ -119,9 +119,6 @@ class LeximonApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // Subscribe before feature screens open so unfinished StoreKit/Play
-    // transactions from an earlier session are never missed.
-    ref.watch(iapPurchaseServiceProvider);
     return _AppUsageLifecycle(
       child: MaterialApp.router(
         title: 'Leximon',
@@ -154,17 +151,24 @@ class _AppUsageLifecycle extends ConsumerStatefulWidget {
 
 class _AppUsageLifecycleState extends ConsumerState<_AppUsageLifecycle>
     with WidgetsBindingObserver {
-  late final AppUsageService _appUsageService;
+  AppUsageService? _appUsageService;
   bool _saleNavigationScheduled = false;
 
   @override
   void initState() {
     super.initState();
-    _appUsageService = ref.read(appUsageServiceProvider);
     WidgetsBinding.instance.addObserver(this);
-    unawaited(_appUsageService.resume());
-    unawaited(_initializeNotifications());
     WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      // These services open a database and native plugin channels. Keep them
+      // out of the first-frame build, while still starting early enough to
+      // recover unfinished purchases and notification launches.
+      ref.read(iapPurchaseServiceProvider);
+      _appUsageService = ref.read(appUsageServiceProvider);
+      if (WidgetsBinding.instance.lifecycleState == AppLifecycleState.resumed) {
+        unawaited(_appUsageService!.resume());
+      }
+      unawaited(_initializeNotifications());
       unawaited(AppTrackingTransparencyService.requestIfNeeded());
     });
   }
@@ -232,24 +236,29 @@ class _AppUsageLifecycleState extends ConsumerState<_AppUsageLifecycle>
   void didChangeAppLifecycleState(AppLifecycleState state) {
     switch (state) {
       case AppLifecycleState.resumed:
-        unawaited(_appUsageService.resume());
+        final appUsageService = _appUsageService;
+        if (appUsageService != null) unawaited(appUsageService.resume());
         unawaited(_handleAppResumed());
       case AppLifecycleState.inactive:
-        unawaited(_appUsageService.pause());
+        final appUsageService = _appUsageService;
+        if (appUsageService != null) unawaited(appUsageService.pause());
       case AppLifecycleState.paused:
       case AppLifecycleState.hidden:
         _notifyAnnualSaleIfNeeded();
-        unawaited(_appUsageService.pause());
+        final appUsageService = _appUsageService;
+        if (appUsageService != null) unawaited(appUsageService.pause());
       case AppLifecycleState.detached:
         _notifyAnnualSaleIfNeeded();
-        unawaited(_appUsageService.pause());
+        final appUsageService = _appUsageService;
+        if (appUsageService != null) unawaited(appUsageService.pause());
     }
   }
 
   @override
   void dispose() {
     WidgetsBinding.instance.removeObserver(this);
-    unawaited(_appUsageService.pause());
+    final appUsageService = _appUsageService;
+    if (appUsageService != null) unawaited(appUsageService.pause());
     super.dispose();
   }
 

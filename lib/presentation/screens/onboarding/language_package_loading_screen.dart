@@ -24,7 +24,10 @@ class _LanguagePackageLoadingScreenState
   @override
   void initState() {
     super.initState();
-    unawaited(_loadPackage());
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      unawaited(_loadPackage());
+    });
   }
 
   Future<void> _loadPackage() async {

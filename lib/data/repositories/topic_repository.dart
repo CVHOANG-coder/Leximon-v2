@@ -1,4 +1,5 @@
 import 'package:drift/drift.dart';
+import 'package:flutter/foundation.dart';
 
 import '../datasources/topic_asset_data_source.dart';
 import '../local/app_database.dart';
@@ -24,9 +25,12 @@ class TopicRepository {
       if (_activeLanguageCode == canonicalCode) return;
       final storedLanguage =
           _activeLanguageCode ?? await _database.activeTopicContentLanguage();
-      final forceReload =
-          storedLanguage != null && storedLanguage != canonicalCode;
-      await _synchronizeContent(canonicalCode, forceReload: forceReload);
+      final hasContent = await _database.hasTopicContent();
+      if (hasContent && storedLanguage == canonicalCode) {
+        _activeLanguageCode = canonicalCode;
+        return;
+      }
+      await _synchronizeContent(canonicalCode, forceReload: true);
       _activeLanguageCode = canonicalCode;
     });
     _lastSynchronization = synchronization.catchError(
@@ -56,24 +60,7 @@ class TopicRepository {
 
     final topicRows = await _database.enabledTopics();
     final wordRows = await _database.enabledWords();
-    final wordsByTopic = <int, List<WordRow>>{};
-    for (final word in wordRows) {
-      (wordsByTopic[word.topicId] ??= <WordRow>[]).add(word);
-    }
-
-    return topicRows
-        .map(
-          (topic) => Topic(
-            id: topic.id,
-            order: topic.sortOrder,
-            original: topic.originalName ?? '',
-            translated: topic.translatedName ?? '',
-            words: (wordsByTopic[topic.id] ?? const <WordRow>[])
-                .map(_wordToMap)
-                .toList(growable: false),
-          ),
-        )
-        .toList(growable: false);
+    return compute(_topicsFromRows, (topicRows: topicRows, wordRows: wordRows));
   }
 
   Future<Set<int>> selectedTopicOrders() async {
@@ -110,19 +97,42 @@ class TopicRepository {
     }
     await _database.upsertTopicContent(payload, languageCode: languageCode);
   }
+}
 
-  Map<String, dynamic> _wordToMap(WordRow word) {
-    return <String, dynamic>{
-      'id': word.id,
-      'topicId': word.topicId,
-      'writing': word.writing,
-      'translation': word.translation,
-      'transcription': word.transcription,
-      'transliteration': word.transliteration,
-      'enabled': word.isEnabled,
-      'priority': word.priority,
-      'level': word.level,
-      'showCount': word.showCount,
-    };
+List<Topic> _topicsFromRows(
+  ({List<TopicRow> topicRows, List<WordRow> wordRows}) rows,
+) {
+  final wordsByTopic = <int, List<WordRow>>{};
+  for (final word in rows.wordRows) {
+    (wordsByTopic[word.topicId] ??= <WordRow>[]).add(word);
   }
+
+  return rows.topicRows
+      .map(
+        (topic) => Topic(
+          id: topic.id,
+          order: topic.sortOrder,
+          original: topic.originalName ?? '',
+          translated: topic.translatedName ?? '',
+          words: (wordsByTopic[topic.id] ?? const <WordRow>[])
+              .map(_wordToMap)
+              .toList(growable: false),
+        ),
+      )
+      .toList(growable: false);
+}
+
+Map<String, dynamic> _wordToMap(WordRow word) {
+  return <String, dynamic>{
+    'id': word.id,
+    'topicId': word.topicId,
+    'writing': word.writing,
+    'translation': word.translation,
+    'transcription': word.transcription,
+    'transliteration': word.transliteration,
+    'enabled': word.isEnabled,
+    'priority': word.priority,
+    'level': word.level,
+    'showCount': word.showCount,
+  };
 }

@@ -382,6 +382,10 @@ final languagePackageInitializationProvider = FutureProvider<void>((ref) async {
     );
   }
 
+  // Let Riverpod finish building this FutureProvider before it mutates the
+  // separate progress provider. Writing synchronously here throws because a
+  // provider is not allowed to modify another provider during initialization.
+  await Future<void>.delayed(Duration.zero);
   reportProgress(.08, 'preparingLanguagePackage');
   final sentencePackage = languageCode == 'en'
       // English has no native-language sentence package. Treat it as an

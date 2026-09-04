@@ -24,6 +24,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int _selectedIndex = 0;
+  final Set<int> _builtTabIndexes = {0};
 
   @override
   void initState() {
@@ -68,7 +69,13 @@ class _MainScreenState extends State<MainScreen> {
                 Positioned.fill(
                   child: IndexedStack(
                     index: selectedIndex,
-                    children: [for (final tab in tabs) tab.screen],
+                    children: [
+                      for (var index = 0; index < tabs.length; index++)
+                        if (_builtTabIndexes.contains(index))
+                          tabs[index].screen
+                        else
+                          const SizedBox.shrink(),
+                    ],
                   ),
                 ),
               ],
@@ -124,7 +131,10 @@ class _MainScreenState extends State<MainScreen> {
       ref.invalidate(progressDashboardProvider);
       ref.invalidate(topicProgressProvider);
     }
-    setState(() => _selectedIndex = index);
+    setState(() {
+      _builtTabIndexes.add(index);
+      _selectedIndex = index;
+    });
   }
 
   void _closeTopicSetup(WidgetRef ref) {
